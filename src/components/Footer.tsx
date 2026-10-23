@@ -267,7 +267,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   }}
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
-                  Descreva-me
+                  Aurenstar Unfiltered
                 </a>
               </li>
               <li>
