@@ -78,7 +78,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <button
                 key={item.key}
                 onClick={() => handleItemClick(item.key)}
-                className={`group relative text-[11px] sm:text-xs font-semibold tracking-wider transition-all duration-200 cursor-pointer focus:outline-none flex items-center justify-center shrink-0 rounded-full px-3.5 sm:px-4.5 py-1 sm:py-1.5 border ${
+                className={`group relative font-sans text-[11px] sm:text-xs font-semibold tracking-wider transition-all duration-200 cursor-pointer focus:outline-none flex items-center justify-center shrink-0 rounded-full px-3.5 sm:px-4.5 py-1 sm:py-1.5 border ${
                   isActive
                     ? 'border-[#2878D0] text-[#17366F] bg-[#FFFFFF] font-bold shadow-2xs'
                     : 'border-[#D9E8F8] text-[#172B4D] hover:border-[#2878D0] hover:text-[#2878D0] hover:bg-[#FFFFFF]'
