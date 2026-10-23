@@ -36,7 +36,7 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
 
   const copyText = async () => { if (!result) return; try { await navigator.clipboard.writeText(`${title}\n\n${result.description}`); setCopied(true); setTimeout(() => setCopied(false), 2200); } catch { /* clipboard unavailable */ } };
   const share = async () => { if (!result) return; if (navigator.share) await navigator.share({ title, text: result.description, url: window.location.href }); else await copyText(); };
-  const download = () => { if (!result) return; const blob = new Blob([`${title}\n\n${result.description}\n\nAurenstar · aurenstar.com`], { type: 'text/plain;charset=utf-8' }); const url = URL.createObjectURL(blob); const link = document.createElement('a'); link.href = url; link.download = 'aurenstar-descreva-me.txt'; link.click(); URL.revokeObjectURL(url); };
+  const download = () => { if (!result) return; const blob = new Blob([`${title}\n\n${result.description}\n\nAurenstar · aurenstar.com`], { type: 'text/plain;charset=utf-8' }); const url = URL.createObjectURL(blob); const link = document.createElement('a'); link.href = url; link.download = 'aurenstar-unfiltered.txt'; link.click(); URL.revokeObjectURL(url); };
 
   if (!result) return <section className="min-h-[70vh] bg-[#C9E5FF] px-4 py-32 text-center"><Sparkles className="mx-auto h-8 w-8 text-[#2878D0]" /><h1 className="mt-4 text-2xl font-extrabold text-[#172B4D]">{lang === 'pt' ? 'Crie sua descrição primeiro' : 'Create your description first'}</h1><button type="button" onClick={onBackToForm} className="mt-6 rounded-full bg-[#2878D0] px-5 py-3 text-sm font-bold text-white">{backLabel}</button></section>;
 
