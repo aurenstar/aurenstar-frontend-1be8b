@@ -68,10 +68,10 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   return (
     <footer className="w-full bg-[#E4F1FF] border-t border-[#D9E8F8] text-[#172B4D] pt-14 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* All columns organized side by side in a single row */}
-        <div className="flex flex-row items-start justify-between gap-6 sm:gap-8 lg:gap-12 flex-nowrap overflow-x-auto sm:overflow-visible pb-2">
+        {/* Mobile-first grid: stack content safely instead of squeezing columns. */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-start gap-8 lg:gap-12">
           {/* Column 1: Brand Info & Socials */}
-          <div className="flex-1 min-w-[160px] max-w-[240px] shrink-0">
+          <div className="min-w-0 sm:col-span-2 lg:col-span-1">
             {/* Brand Logo & Name */}
             <div className="mb-4">
               <button
@@ -85,7 +85,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </div>
 
             {/* Subtitle / Description */}
-            <p className="text-sm text-[#647DA5] leading-relaxed max-w-xs mb-6 font-normal">
+            <p className="text-sm text-[#647DA5] leading-relaxed max-w-xs mb-6 font-normal break-words">
               {t.footer.description}
             </p>
 
@@ -132,7 +132,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           </div>
 
           {/* Column 2: Company */}
-          <div className="shrink-0 min-w-[90px]">
+          <div className="min-w-0">
             <h3 className="text-sm font-bold text-[#172B4D] mb-4">
               {t.footer.companyTitle}
             </h3>
@@ -199,7 +199,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           </div>
 
           {/* Column 3: Product */}
-          <div className="shrink-0 min-w-[90px]">
+          <div className="min-w-0">
             <h3 className="text-sm font-bold text-[#172B4D] mb-4">
               {t.footer.productTitle}
             </h3>
@@ -269,11 +269,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           </div>
 
           {/* Column 4: Newsletter */}
-          <div className="flex-1 min-w-[210px] max-w-[320px] shrink-0">
+          <div className="min-w-0 sm:col-span-2 lg:col-span-1">
             <h3 className="text-sm font-bold text-[#172B4D] mb-4">
               {t.footer.newsletterTitle}
             </h3>
-            <p className="text-sm text-[#647DA5] leading-relaxed mb-4">
+            <p className="text-sm text-[#647DA5] leading-relaxed mb-4 break-words">
               {t.footer.newsletterDesc}
             </p>
 
@@ -308,3 +308,4 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
     </footer>
   );
 };
+
