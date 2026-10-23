@@ -194,13 +194,13 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                     {term.termo}
                   </h3>
 
-                  {/* Chamada Curiosa no Estilo Solicitado: Saiba por que... */}
+                  {/* Resumo curto e convite natural para abrir o significado */}
                   <p className="text-xs sm:text-[13px] leading-relaxed mb-3 group-hover:text-[#172B4D] transition-colors font-medium">
                     <span className="block text-[#172B4D] font-semibold text-xs sm:text-[13.5px] leading-snug mb-2.5 group-hover:text-[#2878D0] transition-colors">
                       {term.chamadaCuriosa || term.resumoUmaLinha}
                     </span>
                     <span className="inline-flex items-center gap-1.5 text-[11px] font-extrabold text-[#2878D0] group-hover:text-[#17366F] transition-colors">
-                      <span className="underline decoration-[#2878D0]/30 underline-offset-2">Descobrir o segredo nesta página</span>
+                      <span className="underline decoration-[#2878D0]/30 underline-offset-2">Ver explicação completa</span>
                       <span className="text-xs transition-transform group-hover:translate-x-1 font-black">→</span>
                     </span>
                   </p>
@@ -220,3 +220,4 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
     </div>
   );
 };
+
