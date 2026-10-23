@@ -28,9 +28,11 @@ const SIGN_TRAITS: Record<SignKey, { pt: string; en: string; es: string }> = {
   pisces: { pt: 'capta o clima emocional do ambiente e transforma sensibilidade em imaginação', en: 'reads the emotional atmosphere and turns sensitivity into imagination', es: 'capta el ambiente emocional y convierte la sensibilidad en imaginación' },
 };
 
-interface DescribeMePageProps { onBackToHome: () => void; onNavigateToBlog: () => void; }
+interface DescribeMePageProps { onBackToHome: () => void; onNavigateToBlog: () => void; onNavigateToResult: () => void; }
 
-export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, onNavigateToBlog }) => {
+export const DESCRIBE_ME_RESULT_KEY = 'aurenstar_describe_me_result';
+
+export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, onNavigateToBlog, onNavigateToResult }) => {
   const { language } = useLanguage();
   const lang = (language || 'en') as 'pt' | 'en' | 'es';
   const [name, setName] = useState('');
@@ -56,7 +58,15 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
     return `${person} is a ${signName}: ${trait}. They may look spontaneous, but there is plenty of perception behind every choice — and once curiosity is sparked, it is hard not to keep asking questions.`;
   }, [lang, name, sign, signName]);
 
-  const handleGenerate = (event: React.FormEvent) => { event.preventDefault(); if (!name.trim() || !birthDate) return; setGenerated(true); };
+  const handleGenerate = (event: React.FormEvent) => {
+    event.preventDefault();
+    if (!name.trim() || !birthDate) return;
+    try {
+      localStorage.setItem(DESCRIBE_ME_RESULT_KEY, JSON.stringify({ name: name.trim(), sign, birthDate, birthTime, birthCity: birthCity.trim(), description, createdAt: new Date().toISOString() }));
+    } catch { /* local storage may be unavailable */ }
+    setGenerated(true);
+    onNavigateToResult();
+  };
   const handleCopy = async () => { try { await navigator.clipboard.writeText(description); setCopied(true); setTimeout(() => setCopied(false), 2200); } catch { /* clipboard may be unavailable */ } };
   const handleDownload = () => { const blob = new Blob([description], { type: 'text/plain;charset=utf-8' }); const url = URL.createObjectURL(blob); const link = document.createElement('a'); link.href = url; link.download = 'aurenstar-descricao.txt'; link.click(); URL.revokeObjectURL(url); };
   const handleShare = async () => { if (navigator.share) await navigator.share({ title: `Aurenstar — ${signName}`, text: description, url: window.location.href }); else await handleCopy(); };
