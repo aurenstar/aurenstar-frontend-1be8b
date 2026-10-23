@@ -260,7 +260,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           <div className="mb-12">
             <h3 className="text-base font-extrabold text-[#17366F] mb-4 flex items-center gap-2">
               <Compass className="w-4 h-4 text-[#2878D0]" />
-              <span>Outras Palavras do Dicionário para Você Explorar em Páginas Próprias:</span>
+              <span>Explore more Aurenstar Dictionary terms on their own pages:</span>
             </h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
