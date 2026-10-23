@@ -70,7 +70,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#172B4D] tracking-tight mb-3 leading-tight">
-            Dicionário da Aurenstar
+            Aurenstar Dictionary
           </h1>
 
           <p className="text-sm sm:text-base text-[#647DA5] leading-relaxed max-w-2xl mx-auto">
