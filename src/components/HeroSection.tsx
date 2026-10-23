@@ -6,6 +6,7 @@ interface HeroSectionProps {
   onNavigateToDailyMessage?: () => void;
   onNavigateToAurenEffect?: () => void;
   onNavigateToDiscoverSign?: () => void;
+  onNavigateToDescribeMe?: () => void;
 }
 
 interface TypewriterPhrase {
@@ -41,6 +42,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
   onNavigateToDailyMessage,
   onNavigateToAurenEffect,
   onNavigateToDiscoverSign,
+  onNavigateToDescribeMe,
 }) => {
   const { t, language } = useLanguage();
   const phrases = HERO_PHRASES[language] || HERO_PHRASES.pt;
@@ -172,6 +174,17 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             >
               <span className="group-hover:text-[#2878D0] transition-colors">
                 {t.hero.discoverSign}
+              </span>
+            </button>
+
+            {/* Button 4: Dedicated Describe Me Page */}
+            <button
+              type="button"
+              onClick={onNavigateToDescribeMe}
+              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-black tracking-wider uppercase bg-[#FFFFFF] hover:bg-[#E4F1FF] text-[#172B4D] border border-[#D9E8F8] hover:border-[#2878D0] shadow-xs hover:shadow transition-all duration-200 cursor-pointer hover:scale-105 active:scale-95 flex items-center justify-center group"
+            >
+              <span className="group-hover:text-[#2878D0] transition-colors">
+                {t.hero.describeMe}
               </span>
             </button>
           </div>
