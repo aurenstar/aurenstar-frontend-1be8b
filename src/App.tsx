@@ -21,6 +21,7 @@ import { DiscoverSignResultPage } from './pages/DiscoverSignResultPage';
 import { DictionaryLayout } from './components/dictionary/DictionaryLayout';
 import { PublicDictionaryPage } from './pages/PublicDictionaryPage';
 import { PublicDictionaryTermPage } from './pages/PublicDictionaryTermPage';
+import { AboutDetailPage } from './pages/AboutDetailPage';
 import { updateSeo } from './utils/seo';
 
 export type AppPageRoute =
@@ -37,13 +38,15 @@ export type AppPageRoute =
   | 'discover-sign-result'
   | 'dictionary'
   | 'dicionario'
-  | 'dicionario-termo';
+  | 'dicionario-termo'
+  | 'about-detail';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<AppPageRoute>('home');
   const [currentArticleId, setCurrentArticleId] = useState<string>('post-1');
   const [currentTermSlug, setCurrentTermSlug] = useState<string>('what-is-mercury-retrograde');
   const [selectedSign, setSelectedSign] = useState<string | null>(null);
+  const [aboutSection, setAboutSection] = useState<string>('platform');
 
   // Initialize and synchronize with browser hash / history for pageview strategy
   useEffect(() => {
@@ -87,6 +90,9 @@ export default function App() {
         setCurrentPage('dictionary');
       } else if (path === '/dicionario' || hash === '#/dicionario' || hash === '#/dicionary') {
         setCurrentPage('dicionario');
+      } else if (path.startsWith('/about/')) {
+        setAboutSection(path.replace('/about/', '') || 'platform');
+        setCurrentPage('about-detail');
       } else {
         setCurrentPage('home');
       }
@@ -144,6 +150,13 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const handleOpenAbout = (section: string) => {
+    setAboutSection(section);
+    setCurrentPage('about-detail');
+    window.history.pushState({ page: 'about-detail', section }, '', `/about/${section}`);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   if (currentPage === 'dictionary') {
     return (
       <LanguageProvider>
@@ -195,7 +208,7 @@ export default function App() {
             />
 
             {/* About Aurenstar Section */}
-            <AboutAurenstarSection />
+            <AboutAurenstarSection onOpenCard={handleOpenAbout} />
 
             {/* User Reviews Section */}
             <ReviewsSection />
@@ -354,9 +367,21 @@ export default function App() {
           </main>
         )}
 
+        {currentPage === 'about-detail' && (
+          <main className="flex-1">
+            <AboutDetailPage
+              section={aboutSection}
+              onBackToHome={() => handleNavigate('home')}
+              onNavigateToBlog={() => handleNavigate('blog')}
+              onNavigateToTool={(tool) => handleNavigate(tool)}
+            />
+          </main>
+        )}
+
         {/* Footer with Universal Navigation */}
         <Footer onNavigate={handleNavigate} />
       </div>
     </LanguageProvider>
   );
 }
+
