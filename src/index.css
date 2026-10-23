@@ -114,6 +114,17 @@ a {
   }
 }
 
+/* Continuous zodiac-word ticker. The duplicated track makes the loop seamless. */
+.aurenstar-marquee-track {
+  width: max-content;
+  animation: marqueeScroll 28s linear infinite;
+  will-change: transform;
+}
+
+.aurenstar-marquee-track:focus-within {
+  animation-play-state: paused;
+}
+
 .animate-marquee {
   display: flex;
   width: max-content;

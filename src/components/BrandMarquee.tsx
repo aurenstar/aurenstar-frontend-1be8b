@@ -58,7 +58,10 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
       className="w-full bg-[#E4F1FF] border-y border-[#D9E8F8] py-5 sm:py-6 overflow-hidden select-none"
     >
       {/* Infinite Edge-to-Edge Marquee Track with ONLY WORDS */}
-      <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
+      <div
+        className="aurenstar-marquee-track flex w-max hover:[animation-play-state:paused]"
+        aria-label="Zodiac signs"
+      >
         {/* Set 1 */}
         <div className="flex shrink-0 items-center gap-10 sm:gap-14 pr-10 sm:pr-14">
           {setA.map((sign, idx) => {
@@ -108,3 +111,4 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
     </div>
   );
 };
+
