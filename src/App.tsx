@@ -21,6 +21,7 @@ import { DiscoverSignResultPage } from './pages/DiscoverSignResultPage';
 import { DictionaryLayout } from './components/dictionary/DictionaryLayout';
 import { PublicDictionaryPage } from './pages/PublicDictionaryPage';
 import { PublicDictionaryTermPage } from './pages/PublicDictionaryTermPage';
+import { DescribeMePage } from './pages/DescribeMePage';
 import { AboutDetailPage } from './pages/AboutDetailPage';
 import { updateSeo } from './utils/seo';
 
@@ -39,7 +40,8 @@ export type AppPageRoute =
   | 'dictionary'
   | 'dicionario'
   | 'dicionario-termo'
-  | 'about-detail';
+  | 'about-detail'
+  | 'describe-me';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<AppPageRoute>('home');
@@ -74,6 +76,8 @@ export default function App() {
         setCurrentPage('contact');
       } else if (path === '/newsletter' || hash === '#/newsletter') {
         setCurrentPage('newsletter');
+      } else if (path === '/descreva-me' || path === '/describe-me' || hash === '#/descreva-me') {
+        setCurrentPage('describe-me');
       } else if (path === '/daily-message' || hash === '#/daily-message') {
         setCurrentPage('daily-message');
       } else if (path === '/daily-reading-result' || hash === '#/daily-reading-result' || hash === '#/daily-reading') {
@@ -157,6 +161,8 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const handleNavigateToDescribeMe = () => handleNavigate('describe-me');
+
   if (currentPage === 'dictionary') {
     return (
       <LanguageProvider>
@@ -192,6 +198,7 @@ export default function App() {
               onNavigateToDailyMessage={() => handleNavigate('daily-message')}
               onNavigateToAurenEffect={() => handleNavigate('aureneffect')}
               onNavigateToDiscoverSign={() => handleNavigate('discover-sign')}
+              onNavigateToDescribeMe={handleNavigateToDescribeMe}
             />
 
             {/* Brand Zodiac Marquee Panel (Above Trending Articles) */}
@@ -374,6 +381,15 @@ export default function App() {
               onBackToHome={() => handleNavigate('home')}
               onNavigateToBlog={() => handleNavigate('blog')}
               onNavigateToTool={(tool) => handleNavigate(tool)}
+            />
+          </main>
+        )}
+
+        {currentPage === 'describe-me' && (
+          <main className="flex-1">
+            <DescribeMePage
+              onBackToHome={() => handleNavigate('home')}
+              onNavigateToBlog={() => handleNavigate('blog')}
             />
           </main>
         )}
