@@ -13,6 +13,20 @@
   --color-borda: #D9E8F8;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
 :root {
   --fundo-geral: #C9E5FF;
   --bg-principal: #C9E5FF;
@@ -33,6 +47,44 @@ body {
   background-color: var(--fundo-geral);
   color: var(--texto-principal);
   min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+
+  /* Prevent fixed-width children from creating a page-level scrollbar. */
+  main,
+  section,
+  article,
+  header,
+  footer,
+  nav,
+  div {
+    min-width: 0;
+  }
 }
 
 @keyframes floatSlow {
@@ -100,3 +152,4 @@ html {
     scroll-behavior: auto !important;
   }
 }
+
