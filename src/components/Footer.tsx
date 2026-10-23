@@ -254,7 +254,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   }}
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
-                  Dicionário
+                  DICIONÁRIO
                 </a>
               </li>
               <li>
