@@ -770,15 +770,10 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                 <Sparkles className="w-4 h-4 transition-transform group-hover:rotate-12" />
                 <span>
                   {alreadyGeneratedToday
-                    ? 'Ver Minha Leitura de Hoje ✨ (1 por dia)'
-                    : 'Gerar Minha Leitura Diária ✨ (1 por dia)'}
+                    ? 'Ver Minha Leitura de Hoje ✨'
+                    : 'Gerar Minha Leitura Diária ✨'}
                 </span>
               </button>
-              <p className="text-[11px] text-center text-[#647DA5] mt-2 font-medium">
-                {alreadyGeneratedToday
-                  ? 'Você já tem uma leitura hoje. A regra é de 1 mensagem diária por pessoa.'
-                  : 'Regra: 1 leitura por dia. Abre uma nova página com sua mensagem e o card para Stories.'}
-              </p>
             </div>
           </form>
         </div>
@@ -786,3 +781,4 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
     </div>
   );
 };
+
