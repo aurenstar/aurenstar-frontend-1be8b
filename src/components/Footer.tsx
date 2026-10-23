@@ -251,16 +251,16 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                     if (onNavigate) onNavigate('dicionario');
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer font-medium"
+                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
-                  Dicionário de Astrologia 📖
+                  Dicionário de Astrologia
                 </a>
               </li>
               <li>
                 <a
                   href="#blog"
                   onClick={handleGoBlog}
-                  className="hover:text-[#17366F] transition-colors cursor-pointer font-bold text-[#2878D0]"
+                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
                   {t.footer.blog}
                 </a>
