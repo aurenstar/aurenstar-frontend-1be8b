@@ -40,7 +40,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
   // SEO Dynamic Title and Structured Data
   useEffect(() => {
     if (term) {
-      document.title = `${term.tituloSEO} | Aurenstar Dicionário`;
+      document.title = `${term.tituloSEO} | Aurenstar Dictionary`;
       const metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) {
         metaDesc.setAttribute('content', term.resumoUmaLinha);
@@ -65,7 +65,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             description: term.oQueSignifica,
             inDefinedTermSet: {
               '@type': 'DefinedTermSet',
-              name: 'Dicionário de Astrologia Descomplicada da Aurenstar',
+              name: 'Aurenstar Dictionary',
               url: `${window.location.origin}/#/dicionario`,
             },
           },
@@ -124,7 +124,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               onClick={onBackToDictionary}
               className="hover:text-[#172B4D] transition-colors cursor-pointer"
             >
-              Dicionário
+              Aurenstar Dictionary
             </button>
             <ChevronRight className="w-3 h-3 text-[#647DA5]" />
             <span className="font-bold text-[#172B4D] truncate max-w-[140px] sm:max-w-xs">
