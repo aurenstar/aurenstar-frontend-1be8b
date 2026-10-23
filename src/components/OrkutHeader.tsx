@@ -33,7 +33,7 @@ export const OrkutHeader: React.FC<OrkutHeaderProps> = ({
       celebrities: 'Famosos',
       lifestyle: 'Lifestyle',
       blog: 'Blog',
-      dictionary: 'Dicionário',
+      dictionary: 'Aurenstar Dictionary',
       searchPlaceholder: 'Pesquisar horóscopo, amor, signos...',
       returnBtn: 'Voltar ao visual clássico',
       returnHint: 'Comando: retornar',
@@ -75,7 +75,7 @@ export const OrkutHeader: React.FC<OrkutHeaderProps> = ({
     celebrities: 'Famosos',
     lifestyle: 'Lifestyle',
     blog: 'Blog',
-    dictionary: 'Dicionário',
+    dictionary: 'Aurenstar Dictionary',
     searchPlaceholder: 'Pesquisar horóscopo, amor, signos...',
     returnBtn: 'Voltar ao visual clássico',
     returnHint: 'Comando: retornar',
@@ -332,3 +332,4 @@ export const OrkutHeader: React.FC<OrkutHeaderProps> = ({
     </header>
   );
 };
+
