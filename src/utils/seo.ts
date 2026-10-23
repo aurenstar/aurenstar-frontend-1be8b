@@ -12,7 +12,8 @@ export type SeoPage =
   | 'discover-sign-result'
   | 'dictionary'
   | 'dicionario'
-  | 'dicionario-termo';
+  | 'dicionario-termo'
+  | 'about-detail';
 
 const SITE_URL = 'https://aurenstar.com';
 const DEFAULT_DESCRIPTION =
@@ -85,6 +86,11 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
     description: 'Learn what an astrology term means in simple language.',
     path: '/dicionario',
   },
+  'about-detail': {
+    title: 'About Aurenstar | Simple Astrology Tools',
+    description: 'Learn how Aurenstar daily messages, sign discovery, astrology dictionary, and blog work.',
+    path: '/about',
+  },
 };
 
 function setMeta(attribute: 'name' | 'property', key: string, content: string) {
@@ -146,3 +152,4 @@ export function updateSeo(page: SeoPage, options?: { articleId?: string; termSlu
     isPartOf: { '@type': 'WebSite', name: 'Aurenstar', url: SITE_URL },
   });
 }
+
