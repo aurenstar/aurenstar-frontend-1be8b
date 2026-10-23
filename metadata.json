@@ -1,0 +1,7 @@
+{
+  "name": "Aurenstar — Astrologia Simples, Mensagem Diária e Dicionário",
+  "description": "Descubra o significado das palavras da astrologia em linguagem simples, calcule seu Efeito Auren e receba mensagens diárias inspiradoras.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
