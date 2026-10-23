@@ -46,7 +46,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
         metaDesc.setAttribute('content', term.resumoUmaLinha);
       }
 
-      // Inject Schema.org DefinedTerm & FAQPage structured data for Google SEO
+      // Inject Schema.org DefinedTerm structured data for Google SEO
       const scriptId = 'schema-dictionary-term';
       let script = document.getElementById(scriptId) as HTMLScriptElement | null;
       if (!script) {
@@ -69,21 +69,6 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               url: `${window.location.origin}/#/dicionario`,
             },
           },
-          ...(term.faq && term.faq.length > 0
-            ? [
-                {
-                  '@type': 'FAQPage',
-                  mainEntity: term.faq.map((item) => ({
-                    '@type': 'Question',
-                    name: item.pergunta,
-                    acceptedAnswer: {
-                      '@type': 'Answer',
-                      text: item.resposta,
-                    },
-                  })),
-                },
-              ]
-            : []),
         ],
       };
 
@@ -246,33 +231,6 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             </p>
           </section>
 
-          {/* Dica de Ouro Descomplicada */}
-          {term.dicaRapida && (
-            <div className="mb-8 p-4 rounded-2xl bg-[#E4F1FF]/50 border border-[#D9E8F8] flex items-center gap-3">
-              <span className="text-xl">✨</span>
-              <p className="text-xs sm:text-sm text-[#17366F] font-medium leading-relaxed">
-                <strong className="font-extrabold text-[#2878D0]">Regrinha de ouro para lembrar sempre:</strong>{' '}
-                {term.dicaRapida}
-              </p>
-            </div>
-          )}
-
-          {/* Perguntas Frequentes (FAQ Schema SEO para o Google) */}
-          {term.faq && term.faq.length > 0 && (
-            <div className="mt-8 pt-6 border-t border-[#D9E8F8]">
-              <h3 className="text-sm font-extrabold text-[#17366F] uppercase tracking-wider mb-4 flex items-center gap-2">
-                <span>Perguntas que as pessoas mais fazem no Google sobre {term.termo}:</span>
-              </h3>
-              <div className="space-y-3">
-                {term.faq.map((item, idx) => (
-                  <div key={idx} className="p-4 rounded-xl bg-[#E4F1FF]/20 border border-[#D9E8F8] text-xs sm:text-sm">
-                    <p className="font-bold text-[#172B4D] mb-1">❓ {item.pergunta}</p>
-                    <p className="text-[#647DA5] leading-relaxed font-normal">{item.resposta}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
 
           {/* Ferramenta Recomendada Direta */}
           {term.ferramentaRelacionada && (
@@ -352,3 +310,4 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
     </div>
   );
 };
+
