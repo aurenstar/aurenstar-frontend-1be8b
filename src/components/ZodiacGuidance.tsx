@@ -32,7 +32,7 @@ const ZODIAC_SIGNS = [
 ];
 
 const FOCUS_OPTIONS = [
-  { id: 'general', label: '✨ Daily Message', desc: 'Overall mood & flow' },
+  { id: 'general', label: '✨ Aurenstar Daily', desc: 'Overall mood & flow' },
   { id: 'love', label: '💖 Love & Heart', desc: 'Kindness & relationships' },
   { id: 'projects', label: '🌟 Joy & Goals', desc: 'Creativity & practical steps' },
   { id: 'peace', label: '🌿 Calm & Energy', desc: 'Rest & peaceful mindset' },
@@ -364,3 +364,4 @@ export const ZodiacGuidance: React.FC = () => {
     </div>
   );
 };
+
