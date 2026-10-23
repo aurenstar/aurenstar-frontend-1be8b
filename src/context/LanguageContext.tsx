@@ -17,6 +17,7 @@ export interface Translations {
     dailyMessage: string;
     aurenEffect: string;
     discoverSign: string;
+    describeMe: string;
   };
   modal: {
     title: string;
@@ -69,6 +70,7 @@ const translations: Record<Language, Translations> = {
       dailyMessage: 'DAILY MESSAGE',
       aurenEffect: 'AURENEFFECT',
       discoverSign: 'DISCOVER YOUR SIGN',
+      describeMe: 'DESCRIBE ME',
     },
     modal: {
       title: 'Zodiac Message of the Day',
@@ -119,6 +121,7 @@ const translations: Record<Language, Translations> = {
       dailyMessage: 'MENSAGEM DO DIA',
       aurenEffect: 'AURENEFFECT',
       discoverSign: 'DESCUBRA SEU SIGNO',
+      describeMe: 'DESCREVA-ME',
     },
     modal: {
       title: 'Mensagem do Signo do Dia',
@@ -169,6 +172,7 @@ const translations: Record<Language, Translations> = {
       dailyMessage: 'MENSAJE DEL DÍA',
       aurenEffect: 'AURENEFFECT',
       discoverSign: 'DESCUBRE TU SIGNO',
+      describeMe: 'DESCRÍBEME',
     },
     modal: {
       title: 'Mensaje del Signo del Día',
@@ -233,3 +237,4 @@ export const useLanguage = (): LanguageContextType => {
   }
   return context;
 };
+
