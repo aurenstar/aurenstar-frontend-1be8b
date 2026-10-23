@@ -14,6 +14,7 @@ interface FooterProps {
       | 'discover-sign'
       | 'dictionary'
       | 'dicionario'
+      | 'describe-me'
   ) => void;
 }
 
@@ -254,6 +255,19 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
                   Dicionário
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#/descreva-me"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    if (onNavigate) onNavigate('describe-me');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                >
+                  Descreva-me
                 </a>
               </li>
               <li>
