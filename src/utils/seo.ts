@@ -44,12 +44,12 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
     path: '/newsletter',
   },
   'daily-message': {
-    title: 'Daily Astrology Message | Aurenstar',
+    title: 'Aurenstar Daily | Personalized Daily Astrology',
     description: 'Receive a gentle, practical astrology message for your day.',
     path: '/daily-message',
   },
   'daily-reading-result': {
-    title: 'Your Daily Astrology Reading | Aurenstar',
+    title: 'Aurenstar Daily Reading | Aurenstar',
     description: 'Your personalized daily astrology reflection from Aurenstar.',
     path: '/daily-reading-result',
   },
@@ -64,22 +64,22 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
     path: '/aureneffect-result',
   },
   'discover-sign': {
-    title: 'Discover Your Zodiac Sign | Aurenstar',
+    title: 'Aurenstar Zodiac Calculator | Discover Your Sign',
     description: 'Find your zodiac sign and explore its personality, element, and guidance.',
     path: '/discover-sign',
   },
   'discover-sign-result': {
-    title: 'Your Zodiac Sign | Aurenstar',
+    title: 'Aurenstar Zodiac Calculator Result | Aurenstar',
     description: 'Explore your zodiac sign and personalized guidance from Aurenstar.',
     path: '/discover-sign-result',
   },
   dictionary: {
-    title: 'Astrology Dictionary | Aurenstar',
+    title: 'Aurenstar Dictionary | Astrology Terms',
     description: 'Understand astrology terms in clear, welcoming language.',
     path: '/dictionary',
   },
   dicionario: {
-    title: 'Astrology Dictionary | Aurenstar',
+    title: 'Aurenstar Dictionary | Astrology Terms',
     description: 'Understand astrology terms in clear, welcoming language.',
     path: '/dicionario',
   },
