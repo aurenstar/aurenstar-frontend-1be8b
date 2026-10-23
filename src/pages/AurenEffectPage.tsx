@@ -314,7 +314,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                 Seus Dados para o Efeito Auren
               </h2>
               <p className="text-xs text-[#647DA5]">
-                Preencha abaixo para calcular o seu Efeito Auren (a cada 6 horas):
+                Preencha abaixo para calcular o seu Efeito Auren:
               </p>
             </div>
           </div>
@@ -503,9 +503,6 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
               {cooldownRemainingMs > 0 ? (
                 <div className="space-y-3">
                   <div className="p-3.5 rounded-2xl bg-[#E4F1FF] border border-[#D9E8F8] text-center">
-                    <p className="text-xs font-bold text-[#17366F]">
-                      Regra do Efeito Auren: 1 cálculo a cada 6 horas
-                    </p>
                     <p className="text-[11px] text-[#647DA5] mt-0.5 font-medium">
                       Próxima leitura liberada em cerca de{' '}
                       <span className="font-bold text-[#172B4D]">
@@ -548,9 +545,6 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                   )}
                 </button>
               )}
-              <p className="text-[11px] text-center text-[#647DA5] mt-2 font-medium">
-                Regra: 1 cálculo a cada 6 horas. Abre sua análise completa e o card para compartilhar.
-              </p>
             </div>
           </form>
         </div>
@@ -558,3 +552,4 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
     </div>
   );
 };
+
