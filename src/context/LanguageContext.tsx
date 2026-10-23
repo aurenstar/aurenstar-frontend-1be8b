@@ -70,7 +70,7 @@ const translations: Record<Language, Translations> = {
       dailyMessage: 'AURENSTAR DAILY',
       aurenEffect: 'AURENEFFECT',
       discoverSign: 'AURENSTAR ZODIAC CALCULATOR',
-      describeMe: 'DESCRIBE ME',
+      describeMe: 'AURENSTAR UNFILTERED',
     },
     modal: {
       title: 'Zodiac Message of the Day',
@@ -121,7 +121,7 @@ const translations: Record<Language, Translations> = {
       dailyMessage: 'AURENSTAR DAILY',
       aurenEffect: 'AURENEFFECT',
       discoverSign: 'AURENSTAR ZODIAC CALCULATOR',
-      describeMe: 'DESCREVA-ME',
+      describeMe: 'AURENSTAR UNFILTERED',
     },
     modal: {
       title: 'Mensagem do Signo do Dia',
@@ -172,7 +172,7 @@ const translations: Record<Language, Translations> = {
       dailyMessage: 'AURENSTAR DAILY',
       aurenEffect: 'AURENEFFECT',
       discoverSign: 'AURENSTAR ZODIAC CALCULATOR',
-      describeMe: 'DESCRÍBEME',
+      describeMe: 'AURENSTAR UNFILTERED',
     },
     modal: {
       title: 'Mensaje del Signo del Día',
