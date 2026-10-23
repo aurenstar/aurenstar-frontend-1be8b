@@ -94,13 +94,13 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
     path: '/about',
   },
   'describe-me': {
-    title: 'Describe Me | Aurenstar Astrology',
-    description: 'Create a personal, playful astrology description designed to share.',
+    title: 'Aurenstar Unfiltered | Personalized Astrology Description',
+    description: 'Create a personal, playful Aurenstar Unfiltered astrology description designed to share.',
     path: '/descreva-me',
   },
   'describe-me-result': {
-    title: 'Your Astrology Description | Aurenstar',
-    description: 'Read and share your personalized Aurenstar astrology description.',
+    title: 'Aurenstar Unfiltered Result | Aurenstar',
+    description: 'Read and share your personalized Aurenstar Unfiltered astrology description.',
     path: '/descreva-me-result',
   },
 };
