@@ -6,7 +6,11 @@ import { ScrollReveal } from './ScrollReveal';
 // Official Aurenstar brand avatar SVG with design system gradient and celestial star
 const AURENSTAR_AVATAR = `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><linearGradient id="g" x1="0%25" y1="0%25" x2="100%25" y2="100%25"><stop offset="0%25" stop-color="%232878D0"/><stop offset="50%25" stop-color="%2317366F"/><stop offset="100%25" stop-color="%23F51B83"/></linearGradient></defs><circle cx="50" cy="50" r="50" fill="url(%23g)"/><path d="M50 18 L55 42 L79 42 L60 56 L67 80 L50 66 L33 80 L40 56 L21 42 L45 42 Z" fill="%23ffffff"/></svg>`;
 
-export const AboutAurenstarSection: React.FC = () => {
+interface AboutAurenstarSectionProps {
+  onOpenCard?: (section: string) => void;
+}
+
+export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ onOpenCard }) => {
   const { language } = useLanguage();
   const lang = (language || 'pt') as 'pt' | 'en' | 'es';
 
@@ -135,6 +139,7 @@ export const AboutAurenstarSection: React.FC = () => {
   const items = [
     {
       id: 'about-1',
+      slug: 'platform',
       icon: Sun,
       image:
         'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
@@ -142,6 +147,7 @@ export const AboutAurenstarSection: React.FC = () => {
     },
     {
       id: 'about-2',
+      slug: 'method',
       icon: Star,
       image:
         'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80',
@@ -149,6 +155,7 @@ export const AboutAurenstarSection: React.FC = () => {
     },
     {
       id: 'about-3',
+      slug: 'mission',
       icon: Compass,
       image:
         'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80',
@@ -156,6 +163,7 @@ export const AboutAurenstarSection: React.FC = () => {
     },
     {
       id: 'about-4',
+      slug: 'daily-guidance',
       icon: Moon,
       image:
         'https://images.unsplash.com/photo-1532693322450-2cb5c511067d?auto=format&fit=crop&w=800&q=80',
@@ -189,6 +197,12 @@ export const AboutAurenstarSection: React.FC = () => {
                 className="h-full"
               >
                 <article
+                  onClick={() => onOpenCard?.(item.slug)}
+                  onKeyDown={(event) => {
+                    if (event.key === 'Enter' || event.key === ' ') onOpenCard?.(item.slug);
+                  }}
+                  role={onOpenCard ? 'link' : undefined}
+                  tabIndex={onOpenCard ? 0 : undefined}
                   className="bg-[#FFFFFF] border border-[#D9E8F8] hover:border-[#2878D0]/50 rounded-2xl overflow-hidden shadow-[0_2px_12px_rgba(23,54,111,0.04)] hover:shadow-[0_12px_28px_rgba(40,120,208,0.12)] transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between cursor-pointer group h-full"
                 >
                   {/* Card Top: High-quality featured image with hover zoom + subtle celestial icon */}
@@ -256,3 +270,4 @@ export const AboutAurenstarSection: React.FC = () => {
     </section>
   );
 };
+
