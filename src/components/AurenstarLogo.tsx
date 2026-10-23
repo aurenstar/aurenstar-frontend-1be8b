@@ -9,6 +9,19 @@ export const AurenstarLogo: React.FC<AurenstarLogoProps> = ({
   className = 'h-8 sm:h-9 w-auto',
   variant = 'gradient',
 }) => {
+  // Keep the existing component API and layout sizing while using the new
+  // transparent brand asset in the main header/footer preview.
+  if (variant === 'gradient') {
+    return (
+      <img
+        src="/assets/aurenstar-logo-v2.png"
+        alt="Aurenstar"
+        className={`select-none shrink-0 object-contain ${className}`}
+        style={{ display: 'inline-block' }}
+      />
+    );
+  }
+
   return (
     <svg
       viewBox="0 0 320 75"
@@ -68,3 +81,4 @@ export const AurenstarLogo: React.FC<AurenstarLogoProps> = ({
     </svg>
   );
 };
+
