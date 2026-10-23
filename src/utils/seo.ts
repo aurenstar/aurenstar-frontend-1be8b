@@ -13,7 +13,8 @@ export type SeoPage =
   | 'dictionary'
   | 'dicionario'
   | 'dicionario-termo'
-  | 'about-detail';
+  | 'about-detail'
+  | 'describe-me';
 
 const SITE_URL = 'https://aurenstar.com';
 const DEFAULT_DESCRIPTION =
@@ -90,6 +91,11 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
     title: 'About Aurenstar | Simple Astrology Tools',
     description: 'Learn how Aurenstar daily messages, sign discovery, astrology dictionary, and blog work.',
     path: '/about',
+  },
+  'describe-me': {
+    title: 'Describe Me | Aurenstar Astrology',
+    description: 'Create a personal, playful astrology description designed to share.',
+    path: '/descreva-me',
   },
 };
 
