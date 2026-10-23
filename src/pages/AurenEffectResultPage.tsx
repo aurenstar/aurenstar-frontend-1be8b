@@ -455,13 +455,13 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
           </div>
 
           {/* Botões de Ação do Card: Estilo Cápsula/Pill Minimalista */}
-          <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-[#D9E8F8]">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:flex lg:flex-wrap items-center justify-center gap-2 pt-2 border-t border-[#D9E8F8]">
             {/* Baixar Card */}
             <button
               type="button"
               onClick={handleDownloadCard}
               disabled={isGeneratingCard}
-              className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-full bg-[#2878D0] hover:bg-[#17366F] text-white font-medium text-xs border border-[#2878D0] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
+              className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full bg-[#2878D0] hover:bg-[#17366F] text-white font-medium text-xs border border-[#2878D0] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
               title="Baixar imagem em PNG"
             >
               <Download className="w-3.5 h-3.5 shrink-0" />
@@ -478,7 +478,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
             <button
               type="button"
               onClick={handleCopyLink}
-              className={`inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-full border font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95 ${
+              className={`w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full border font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95 ${
                 copiedLink
                   ? 'bg-[#E4F1FF] text-[#2878D0] border-[#2878D0]'
                   : 'bg-white hover:bg-[#E4F1FF] border-[#D9E8F8] hover:border-[#2878D0] text-[#172B4D]'
@@ -503,7 +503,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-white hover:bg-[#E4F1FF] text-[#172B4D] hover:text-[#25D366] hover:border-[#2878D0] font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-full border border-[#D9E8F8] bg-white hover:bg-[#E4F1FF] text-[#172B4D] hover:text-[#25D366] hover:border-[#2878D0] font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95"
               title="Compartilhar no WhatsApp"
             >
               <svg className="w-3.5 h-3.5 fill-current shrink-0 text-[#25D366]" viewBox="0 0 24 24">
@@ -517,7 +517,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
               href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-white hover:bg-[#E4F1FF] text-[#172B4D] hover:text-[#E1306C] hover:border-[#2878D0] font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-full border border-[#D9E8F8] bg-white hover:bg-[#E4F1FF] text-[#172B4D] hover:text-[#E1306C] hover:border-[#2878D0] font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95"
               title="Abrir o Instagram"
             >
               <svg className="w-3.5 h-3.5 fill-current shrink-0 text-[#E1306C]" viewBox="0 0 24 24">
@@ -531,7 +531,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
               href={facebookUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-white hover:bg-[#E4F1FF] text-[#172B4D] hover:text-[#1877F2] hover:border-[#2878D0] font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-full border border-[#D9E8F8] bg-white hover:bg-[#E4F1FF] text-[#172B4D] hover:text-[#1877F2] hover:border-[#2878D0] font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95"
               title="Compartilhar no Facebook"
             >
               <svg className="w-3.5 h-3.5 fill-current shrink-0 text-[#1877F2]" viewBox="0 0 24 24">
@@ -545,7 +545,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
               href={twitterUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-white hover:bg-[#E4F1FF] text-[#172B4D] hover:text-[#0F1419] hover:border-[#2878D0] font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-full border border-[#D9E8F8] bg-white hover:bg-[#E4F1FF] text-[#172B4D] hover:text-[#0F1419] hover:border-[#2878D0] font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95"
               title="Postar no X"
             >
               <svg className="w-3.5 h-3.5 fill-current shrink-0 text-[#0F1419]" viewBox="0 0 24 24">
@@ -594,3 +594,4 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
     </div>
   );
 };
+
