@@ -22,6 +22,7 @@ import { DictionaryLayout } from './components/dictionary/DictionaryLayout';
 import { PublicDictionaryPage } from './pages/PublicDictionaryPage';
 import { PublicDictionaryTermPage } from './pages/PublicDictionaryTermPage';
 import { DescribeMePage } from './pages/DescribeMePage';
+import { DescribeMeResultPage } from './pages/DescribeMeResultPage';
 import { AboutDetailPage } from './pages/AboutDetailPage';
 import { updateSeo } from './utils/seo';
 
@@ -41,7 +42,8 @@ export type AppPageRoute =
   | 'dicionario'
   | 'dicionario-termo'
   | 'about-detail'
-  | 'describe-me';
+  | 'describe-me'
+  | 'describe-me-result';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<AppPageRoute>('home');
@@ -78,6 +80,8 @@ export default function App() {
         setCurrentPage('newsletter');
       } else if (path === '/descreva-me' || path === '/describe-me' || hash === '#/descreva-me') {
         setCurrentPage('describe-me');
+      } else if (path === '/descreva-me-result' || path === '/describe-me-result' || hash === '#/descreva-me-result') {
+        setCurrentPage('describe-me-result');
       } else if (path === '/daily-message' || hash === '#/daily-message') {
         setCurrentPage('daily-message');
       } else if (path === '/daily-reading-result' || hash === '#/daily-reading-result' || hash === '#/daily-reading') {
@@ -162,6 +166,7 @@ export default function App() {
   };
 
   const handleNavigateToDescribeMe = () => handleNavigate('describe-me');
+  const handleNavigateToDescribeMeResult = () => handleNavigate('describe-me-result');
 
   if (currentPage === 'dictionary') {
     return (
@@ -388,6 +393,17 @@ export default function App() {
         {currentPage === 'describe-me' && (
           <main className="flex-1">
             <DescribeMePage
+              onBackToHome={() => handleNavigate('home')}
+              onNavigateToBlog={() => handleNavigate('blog')}
+              onNavigateToResult={handleNavigateToDescribeMeResult}
+            />
+          </main>
+        )}
+
+        {currentPage === 'describe-me-result' && (
+          <main className="flex-1">
+            <DescribeMeResultPage
+              onBackToForm={() => handleNavigate('describe-me')}
               onBackToHome={() => handleNavigate('home')}
               onNavigateToBlog={() => handleNavigate('blog')}
             />
