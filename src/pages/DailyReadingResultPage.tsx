@@ -174,7 +174,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
   };
 
   const originUrl = typeof window !== 'undefined' ? window.location.origin : 'https://aurenstar.com';
-  const shareText = `✨ Minha Mensagem do Dia na Aurenstar (${displayName} - ${signDisplayName}) ✨\n"${(savedReading.affirmation || savedReading.advice || '').slice(0, 160)}"\n\nVeja a sua leitura diária gratuita em: ${originUrl}`;
+  const shareText = `✨ Aurenstar Daily (${displayName} - ${signDisplayName}) ✨\n"${(savedReading.affirmation || savedReading.advice || '').slice(0, 160)}"\n\nVeja a sua leitura diária gratuita em: ${originUrl}`;
   const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText)}`;
   const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(originUrl)}`;
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`;
