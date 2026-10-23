@@ -59,6 +59,9 @@ export default function App() {
       const hash = window.location.hash;
       const route = path !== '/' ? path : hash;
       const normalizedRoute = route.replace(/^#\/?/, '/');
+      // Keep dedicated pages reachable on Netlify whether the browser preserves
+      // the pathname or rewrites it to a hash route during the first load.
+      const routeMatches = (...values: string[]) => values.includes(path) || values.includes(hash) || values.includes(normalizedRoute);
       if (route.startsWith('/blog/') || route.startsWith('#/article/')) {
         const id = route.startsWith('/blog/') ? route.replace('/blog/', '') : route.replace('#/article/', '');
         setCurrentArticleId(id || 'post-1');
@@ -78,9 +81,9 @@ export default function App() {
         setCurrentPage('contact');
       } else if (path === '/newsletter' || hash === '#/newsletter') {
         setCurrentPage('newsletter');
-      } else if (path === '/descreva-me' || path === '/describe-me' || hash === '#/descreva-me') {
+      } else if (routeMatches('/descreva-me', '/describe-me', '#/descreva-me')) {
         setCurrentPage('describe-me');
-      } else if (path === '/descreva-me-result' || path === '/describe-me-result' || hash === '#/descreva-me-result') {
+      } else if (routeMatches('/descreva-me-result', '/describe-me-result', '#/descreva-me-result')) {
         setCurrentPage('describe-me-result');
       } else if (path === '/daily-message' || hash === '#/daily-message') {
         setCurrentPage('daily-message');
