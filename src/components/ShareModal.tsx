@@ -274,7 +274,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
         )}
 
         {/* Social Networks Grid */}
-        <div className="grid grid-cols-2 gap-2.5 mb-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5 mb-4">
           {socialNetworks.map((net) => (
             <a
               key={net.name}
@@ -326,3 +326,4 @@ export const ShareModal: React.FC<ShareModalProps> = ({
     </div>
   );
 };
+
