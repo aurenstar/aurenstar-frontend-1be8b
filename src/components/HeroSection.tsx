@@ -144,7 +144,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         {/* Action Buttons Container com fade-in e slide-up suave */}
         <ScrollReveal delay={240} distance={24} duration={800}>
           <div className="mt-8 sm:mt-10 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
-            {/* Button 1: Dedicated Daily Message Page (1 geração por dia) */}
+            {/* Button 1: Dedicated Daily Message Page */}
             <button
               type="button"
               onClick={onNavigateToDailyMessage}
@@ -153,21 +153,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <span className="group-hover:text-[#2878D0] transition-colors leading-tight">
                 {t.hero.dailyMessage}
               </span>
-              <span className="text-[10px] normal-case font-semibold text-[#2878D0] tracking-normal leading-tight mt-0.5">
-                1 geração por dia
-              </span>
             </button>
 
-            {/* Button 2: Dedicated Auren Effect Page (A cada 6 horas) - Destaque em Azul Orkut Moderno com Rosa */}
+            {/* Button 2: Dedicated Auren Effect Page */}
             <button
               type="button"
               onClick={onNavigateToAurenEffect}
               className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-black tracking-wider uppercase bg-[#2878D0] hover:bg-[#17366F] text-[#FFFFFF] shadow-sm shadow-[#2878D0]/30 transition-all duration-200 cursor-pointer flex flex-col items-center justify-center hover:scale-105 active:scale-95 border border-[#2878D0]"
             >
               <span className="leading-tight">{t.hero.aurenEffect}</span>
-              <span className="text-[10px] normal-case font-semibold text-[#FFE0EF] tracking-normal leading-tight mt-0.5">
-                A cada 6 horas
-              </span>
             </button>
 
             {/* Button 3: Dedicated Discover Sign Page */}
@@ -186,3 +180,4 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
     </section>
   );
 };
+
