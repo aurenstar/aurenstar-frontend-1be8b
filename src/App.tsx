@@ -208,6 +208,12 @@ export default function App() {
               onNavigateToDescribeMe={handleNavigateToDescribeMe}
             />
 
+            {/* Zodiac panel repeated after the hero */}
+            <BrandMarquee
+              selectedSign={selectedSign}
+              onSelectSign={setSelectedSign}
+            />
+
             {/* Trending Articles Section */}
             <BlogCardsSection
               onOpenArticle={handleOpenArticle}
