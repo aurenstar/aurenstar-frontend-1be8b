@@ -103,6 +103,16 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       calculate: 'Calcular Mi Aureneffect ✨',
     },
   }[lang];
+  const monthNames = {
+    pt: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+    en: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+    es: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+  }[lang];
+  const periodLabels = {
+    pt: { manha: 'Manhã', tarde: 'Tarde', noite: 'Noite', madrugada: 'Madrugada' },
+    en: { manha: 'Morning', tarde: 'Afternoon', noite: 'Evening', madrugada: 'Night' },
+    es: { manha: 'Mañana', tarde: 'Tarde', noite: 'Noche', madrugada: 'Madrugada' },
+  }[lang];
 
   // Form State
   const [name, setName] = useState('Andriel');
@@ -449,20 +459,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                       onChange={(e) => setBirthMonth(Number(e.target.value))}
                       className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-8"
                     >
-                      {[
-                        'Janeiro',
-                        'Fevereiro',
-                        'Março',
-                        'Abril',
-                        'Maio',
-                        'Junho',
-                        'Julho',
-                        'Agosto',
-                        'Setembro',
-                        'Outubro',
-                        'Novembro',
-                        'Dezembro',
-                      ].map((m, idx) => (
+                      {monthNames.map((m, idx) => (
                         <option key={idx + 1} value={idx + 1}>
                           {m}
                         </option>
@@ -510,10 +507,10 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
               {/* Botões de Período Padronizados */}
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
                 {[
-                  { id: 'manha' as const, label: 'Manhã', time: '09h', icon: '🌅' },
-                  { id: 'tarde' as const, label: 'Tarde', time: '14h30', icon: '☀️' },
-                  { id: 'noite' as const, label: 'Noite', time: '20h', icon: '🌙' },
-                  { id: 'madrugada' as const, label: 'Madrugada', time: '03h30', icon: '✨' },
+                  { id: 'manha' as const, label: periodLabels.manha, time: '09h', icon: '🌅' },
+                  { id: 'tarde' as const, label: periodLabels.tarde, time: '14h30', icon: '☀️' },
+                  { id: 'noite' as const, label: periodLabels.noite, time: '20h', icon: '🌙' },
+                  { id: 'madrugada' as const, label: periodLabels.madrugada, time: '03h30', icon: '✨' },
                 ].map((period) => {
                   const isSelected = quickTimePeriod === period.id;
                   return (
