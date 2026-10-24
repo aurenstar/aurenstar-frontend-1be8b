@@ -294,20 +294,6 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
           {/* Subtle top glow bar */}
           <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
 
-          {/* Header da Leitura: Título e Signo em Destaque */}
-          <div className="text-center pb-6 mb-6 border-b border-[#D9E8F8]">
-            {/* Glyph Orb */}
-            <div className="w-14 h-14 mx-auto mb-3.5 rounded-2xl bg-[#2878D0] text-white flex items-center justify-center text-2xl font-black shadow-md shadow-[#2878D0]/25">
-              {savedReading.signSymbol}
-            </div>
-
-            {/* Título Principal */}
-            <h1 className="text-2xl sm:text-4xl font-extrabold text-[#172B4D] tracking-tight mb-2 leading-tight">
-              {t.readingTitle}
-            </h1>
-
-          </div>
-
           {/* Caixa de Destaque com Título da Mensagem */}
           <div className="my-6 p-6 sm:p-7 rounded-2xl bg-[#F7FBFF] border border-[#D9E8F8] text-center space-y-3 shadow-2xs relative">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#2878D0]/10 text-[#2878D0] text-[11px] font-extrabold uppercase tracking-wider">
