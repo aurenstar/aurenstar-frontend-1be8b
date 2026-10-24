@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { ScrollReveal } from './ScrollReveal';
-import { BrandMarquee } from './BrandMarquee';
 
 interface HeroSectionProps {
   onNavigateToDailyMessage?: () => void;
   onNavigateToAurenEffect?: () => void;
   onNavigateToDiscoverSign?: () => void;
   onNavigateToDescribeMe?: () => void;
-  selectedSign?: string | null;
-  onSelectSign?: (sign: string) => void;
 }
 
 interface TypewriterPhrase {
@@ -46,8 +43,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
   onNavigateToAurenEffect,
   onNavigateToDiscoverSign,
   onNavigateToDescribeMe,
-  selectedSign,
-  onSelectSign,
 }) => {
   const { t, language } = useLanguage();
   const phrases = HERO_PHRASES[language] || HERO_PHRASES.pt;
@@ -144,11 +139,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
       </div>
     </section>
-
-    <BrandMarquee
-      selectedSign={selectedSign}
-      onSelectSign={onSelectSign || (() => {})}
-    />
 
     <section id="experiences" className="relative bg-[#C9E5FF] px-4 sm:px-6 lg:px-8 py-14 sm:py-18">
       <div className="max-w-6xl mx-auto">
