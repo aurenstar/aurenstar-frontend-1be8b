@@ -321,7 +321,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
   return (
     <div className="w-full bg-[#C9E5FF] min-h-screen pt-24 sm:pt-28 pb-20 select-none animate-fadeIn text-[#172B4D] relative overflow-hidden">
       {/* Ambient background glow */}
-      <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[550px] h-[300px] bg-gradient-to-tr from-[#2878D0]/15 via-[#FFE0EF]/40 to-[#F51B83]/15 blur-3xl pointer-events-none rounded-full" />
+      <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[550px] h-[300px] bg-[#E4F1FF]/80 blur-3xl pointer-events-none rounded-full" />
 
       <div className="max-w-2xl mx-auto px-4 sm:px-6 relative z-10">
         {/* Navigation Breadcrumbs */}
@@ -366,7 +366,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
             ========================================================================= */}
         <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg p-6 sm:p-9 mb-8 transition-all relative overflow-hidden">
           {/* Subtle top decorative border */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83]" />
+          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
 
           <div className="flex items-center gap-3 mb-6 pb-4 border-b border-[#D9E8F8]">
             <div className="w-10 h-10 rounded-2xl bg-[#E4F1FF] text-[#2878D0] flex items-center justify-center font-bold shadow-2xs">
