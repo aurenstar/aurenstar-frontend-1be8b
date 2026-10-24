@@ -14,25 +14,25 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
   const lang = language || 'en';
   const copy = {
     en: { title: 'HOW AURENSTAR CAN HELP YOU', subtitle: 'Each space has a simple purpose and practical way to support your day.', cards: [
-      ['Aurenstar Daily', 'Start your day with a personal message based on your sign. It connects the tone of the day with a calm, practical idea. For example, it may invite you to pause before answering an important message, protect your energy, or give one priority your full attention.', 'daily-message', CalendarDays],
-      ['Aureneffect', 'A reading for the moment you are living right now. If you feel restless, tired, or full of ideas, it turns that feeling into a gentle reflection and one small suggestion you can actually try, such as taking a pause or finishing one open task.', 'aureneffect', Sparkles],
-      ['Aurenstar Zodiac Calculator', 'Find your sun sign using your birth date and understand the first idea associated with it. For example, entering June 2 shows Gemini and introduces its curiosity, communication, and love of learning in friendly language.', 'discover-sign', Compass],
-      ['Aurenstar Dictionary', 'A clear place to understand astrology words without complicated explanations. Look up “rising sign”, for example, and see what it means through a simple fictional story instead of a list of difficult definitions.', 'dicionario', BookOpen],
-      ['Aurenstar Unfiltered', 'Create a fun description of your personality using your name, sign, birthday, time, and birthplace. The result brings those details together in a warm, playful profile made especially for you and ready to share.', 'describe-me', UserRound],
+      ['Aurenstar Daily', 'Get a short message to start your day based on your sign. Example: a suggestion to pause before replying to someone.', 'daily-message', CalendarDays],
+      ['Aureneffect', 'Understand the moment you are living now. Example: if you feel tired or restless, receive a reflection and a simple suggestion.', 'aureneffect', Sparkles],
+      ['Aurenstar Zodiac Calculator', 'Discover your sun sign with your birth date. Example: June 2 reveals Gemini.', 'discover-sign', Compass],
+      ['Aurenstar Dictionary', 'Look up astrology terms in simple language. Example: learn what “rising sign” means in an everyday situation.', 'dicionario', BookOpen],
+      ['Aurenstar Unfiltered', 'Create a fun profile using your name and birth details. Then share the result with anyone you like.', 'describe-me', UserRound],
     ] as const },
     pt: { title: 'COMO A AURENSTAR PODE AJUDAR VOCÊ', subtitle: 'Cada espaço tem um propósito simples e uma forma prática de acompanhar o seu dia.', cards: [
-      ['Aurenstar Daily', 'Comece o dia com uma mensagem feita para você a partir do seu signo. Ela relaciona o clima do dia com uma ideia prática. Por exemplo, pode sugerir que você respire antes de responder alguém, proteja sua energia ou escolha uma prioridade para se concentrar.', 'daily-message', CalendarDays],
-      ['Aureneffect', 'Uma leitura para o momento que você está vivendo agora. Se estiver inquieto, cansado ou cheio de ideias, recebe uma reflexão acolhedora e uma sugestão possível de colocar em prática, como fazer uma pausa ou terminar uma tarefa pendente.', 'aureneffect', Sparkles],
-      ['Aurenstar Zodiac Calculator', 'Descubra seu signo solar usando a data do seu nascimento e entenda a primeira ideia ligada a ele. Ao informar 2 de junho, por exemplo, você descobre Gêmeos e conhece sua curiosidade e facilidade de comunicação.', 'discover-sign', Compass],
-      ['Aurenstar Dictionary', 'Um espaço para entender palavras da astrologia sem explicações complicadas. Ao procurar “ascendente”, você vê o significado em uma história fictícia simples, em vez de encontrar uma lista difícil de decorar.', 'dicionario', BookOpen],
-      ['Aurenstar Unfiltered', 'Crie uma descrição divertida da sua personalidade usando nome, signo, data, horário e cidade de nascimento. O resultado reúne esses detalhes em um perfil acolhedor, feito especialmente para você e pronto para compartilhar.', 'describe-me', UserRound],
+      ['Aurenstar Daily', 'Receba uma mensagem curta para começar o dia de acordo com o seu signo. Exemplo: uma sugestão para fazer uma pausa antes de responder alguém.', 'daily-message', CalendarDays],
+      ['Aureneffect', 'Entenda melhor o momento que você está vivendo agora. Exemplo: se estiver cansado ou inquieto, receba uma reflexão e uma sugestão simples.', 'aureneffect', Sparkles],
+      ['Aurenstar Zodiac Calculator', 'Descubra seu signo solar informando a data de nascimento. Exemplo: 2 de junho revela Gêmeos.', 'discover-sign', Compass],
+      ['Aurenstar Dictionary', 'Consulte termos da astrologia com explicações fáceis. Exemplo: veja o que “ascendente” significa em uma situação do dia a dia.', 'dicionario', BookOpen],
+      ['Aurenstar Unfiltered', 'Crie um perfil divertido usando seu nome e seus dados de nascimento. Depois, compartilhe o resultado com quem quiser.', 'describe-me', UserRound],
     ] as const },
     es: { title: 'CÓMO AURENSTAR PUEDE AYUDARTE', subtitle: 'Cada espacio tiene un propósito sencillo y una forma práctica de acompañar tu día.', cards: [
-      ['Aurenstar Daily', 'Empieza el día con un mensaje pensado para ti según tu signo. Relaciona el tono del día con una idea práctica: puede invitarte a respirar antes de responder, cuidar tu energía o concentrarte en una prioridad.', 'daily-message', CalendarDays],
-      ['Aureneffect', 'Una lectura para el momento que estás viviendo ahora. Si te sientes inquieto, cansado o lleno de ideas, recibes una reflexión cercana y una sugerencia posible, como hacer una pausa o terminar algo pendiente.', 'aureneffect', Sparkles],
-      ['Aurenstar Zodiac Calculator', 'Descubre tu signo solar con tu fecha de nacimiento y conoce la primera idea relacionada con él. Al indicar el 2 de junio descubres Géminis y su curiosidad y facilidad para comunicarse.', 'discover-sign', Compass],
-      ['Aurenstar Dictionary', 'Un lugar para entender palabras de astrología sin explicaciones complicadas. Puedes buscar “ascendente” y conocer su significado a través de una historia ficticia fácil de entender.', 'dicionario', BookOpen],
-      ['Aurenstar Unfiltered', 'Crea una descripción divertida de tu personalidad con tu nombre, signo, fecha, hora y ciudad de nacimiento. El resultado reúne esos detalles en un perfil cercano, creado especialmente para ti y listo para compartir.', 'describe-me', UserRound],
+      ['Aurenstar Daily', 'Recibe un mensaje corto para empezar el día según tu signo. Ejemplo: una sugerencia para hacer una pausa antes de responder.', 'daily-message', CalendarDays],
+      ['Aureneffect', 'Comprende mejor el momento que estás viviendo. Ejemplo: si estás cansado o inquieto, recibe una reflexión y una sugerencia sencilla.', 'aureneffect', Sparkles],
+      ['Aurenstar Zodiac Calculator', 'Descubre tu signo solar con tu fecha de nacimiento. Ejemplo: el 2 de junio revela Géminis.', 'discover-sign', Compass],
+      ['Aurenstar Dictionary', 'Consulta términos de astrología con explicaciones fáciles. Ejemplo: descubre qué significa “ascendente” en una situación cotidiana.', 'dicionario', BookOpen],
+      ['Aurenstar Unfiltered', 'Crea un perfil divertido con tu nombre y tus datos de nacimiento. Después, compártelo con quien quieras.', 'describe-me', UserRound],
     ] as const },
   }[lang];
 
