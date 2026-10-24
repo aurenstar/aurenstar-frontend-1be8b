@@ -177,7 +177,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <button
               type="button"
               onClick={onNavigateToDescribeMe}
-              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#F51B83] text-white border border-[#F51B83] hover:bg-[#D81670] transition-colors duration-200 cursor-pointer flex items-center justify-center"
+              className="w-full sm:w-[235px] h-[54px] px-3 rounded-full text-[11px] sm:text-xs font-bold tracking-[0.06em] uppercase whitespace-nowrap bg-[#F51B83] text-white border border-[#F51B83] hover:bg-[#D81670] transition-colors duration-200 cursor-pointer flex items-center justify-center"
             >
               <span>{t.hero.describeMe}</span>
             </button>
