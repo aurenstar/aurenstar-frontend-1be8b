@@ -235,13 +235,13 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
     try {
       const verticalData: StoryCardData = {
         userName: result?.userName || 'Andriel',
-        signName: result?.signName || '',
-        signSymbol: result?.signSymbol || '✦',
-        signTheme: result?.theme || '',
-        title: result?.title || '',
-        affirmation: result?.message || '',
-        message: result?.message || '',
-        advice: result?.advice || '',
+        signName: result?.astronomy?.sun?.sign || '',
+        signSymbol: result?.astronomy?.sun?.symbol || '✦',
+        signTheme: result?.routineTrigger?.dominantVibe || '',
+        title: result?.routineTrigger?.primaryCause || '',
+        affirmation: result?.affirmation || '',
+        message: result?.question1Answer || '',
+        advice: result?.question2Answer || '',
         lang,
       };
       await downloadVerticalStoryCard(verticalData);
