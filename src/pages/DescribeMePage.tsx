@@ -82,7 +82,6 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
             <button type="submit" className="w-full rounded-full bg-[#2878D0] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#17366F]"><Sparkles className="mr-2 inline h-4 w-4" />{copy.generate}</button>
           </form>
         </div>
-      </div>
     </div>
   </section>;
 };
