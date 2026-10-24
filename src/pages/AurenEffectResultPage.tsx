@@ -339,19 +339,6 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
               {t.readingTitle}
             </h1>
 
-            {/* Signo do Usuário e Tema */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-sm sm:text-base font-extrabold shadow-2xs">
-              <span className="text-lg">{signSymbol}</span>
-              <span>{signDisplayName}</span>
-              {signTheme && (
-                <>
-                  <span className="text-xs text-[#647DA5] font-semibold">•</span>
-                  <span className="text-xs font-semibold text-[#647DA5]">
-                    {signTheme}
-                  </span>
-                </>
-              )}
-            </div>
           </div>
 
           {/* Caixa de Destaque com Título da Mensagem */}
