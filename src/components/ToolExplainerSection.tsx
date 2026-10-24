@@ -3,7 +3,7 @@ import { BookOpen, CalendarDays, Compass, Sparkles, UserRound } from 'lucide-rea
 import { useLanguage } from '../context/LanguageContext';
 import { ScrollReveal } from './ScrollReveal';
 
-type ToolKey = 'daily-message' | 'aureneffect' | 'discover-sign' | 'dicionario' | 'descreva-me';
+type ToolKey = 'daily-message' | 'aureneffect' | 'discover-sign' | 'dicionario' | 'describe-me';
 
 interface ToolExplainerSectionProps {
   onNavigate: (tool: ToolKey) => void;
@@ -21,7 +21,7 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
         ['Aureneffect', 'Understand the energy of the exact moment you ask for your reading.', 'aureneffect', Sparkles],
         ['Aurenstar Zodiac Calculator', 'Discover your sun sign from your birth date.', 'discover-sign', Compass],
         ['Aurenstar Dictionary', 'Learn astrology terms through clear explanations and examples.', 'dicionario', BookOpen],
-        ['Aurenstar Unfiltered', 'Create a playful, personal description made to share.', 'descreva-me', UserRound],
+        ['Aurenstar Unfiltered', 'Create a playful, personal description made to share.', 'describe-me', UserRound],
       ] as const,
     },
     pt: {
@@ -32,7 +32,7 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
         ['Aureneffect', 'Entenda a energia do momento exato em que você faz a consulta.', 'aureneffect', Sparkles],
         ['Aurenstar Zodiac Calculator', 'Descubra seu signo solar pela data de nascimento.', 'discover-sign', Compass],
         ['Aurenstar Dictionary', 'Aprenda termos de astrologia com explicações claras e exemplos.', 'dicionario', BookOpen],
-        ['Aurenstar Unfiltered', 'Crie uma descrição pessoal, divertida e feita para compartilhar.', 'descreva-me', UserRound],
+        ['Aurenstar Unfiltered', 'Crie uma descrição pessoal, divertida e feita para compartilhar.', 'describe-me', UserRound],
       ] as const,
     },
     es: {
@@ -43,7 +43,7 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
         ['Aureneffect', 'Comprende la energía del momento exacto de tu consulta.', 'aureneffect', Sparkles],
         ['Aurenstar Zodiac Calculator', 'Descubre tu signo solar con tu fecha de nacimiento.', 'discover-sign', Compass],
         ['Aurenstar Dictionary', 'Aprende términos de astrología con explicaciones claras y ejemplos.', 'dicionario', BookOpen],
-        ['Aurenstar Unfiltered', 'Crea una descripción personal, divertida y fácil de compartir.', 'descreva-me', UserRound],
+        ['Aurenstar Unfiltered', 'Crea una descripción personal, divertida y fácil de compartir.', 'describe-me', UserRound],
       ] as const,
     },
   }[lang];
