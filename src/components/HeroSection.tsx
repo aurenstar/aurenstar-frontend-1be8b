@@ -124,7 +124,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <span className="inline-block">
               <span>{currentPrefix}</span>
               {currentHighlight && (
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83]">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2878D0] via-[#5A86D3] to-[#F06A9C]">
                   {currentHighlight}
                 </span>
               )}
@@ -150,7 +150,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <button
               type="button"
               onClick={onNavigateToDailyMessage}
-              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#2878D0] text-white border border-[#2878D0] hover:bg-[#2168B7] active:bg-[#F51B83] active:border-[#F51B83] transition-colors duration-200 cursor-pointer flex items-center justify-center"
+              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#2878D0] text-white border border-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] active:bg-[#F51B83] active:border-[#F51B83] transition-colors duration-200 cursor-pointer flex items-center justify-center"
             >
               <span>{t.hero.dailyMessage}</span>
             </button>
@@ -159,7 +159,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <button
               type="button"
               onClick={onNavigateToAurenEffect}
-              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#2878D0] hover:bg-[#2168B7] active:bg-[#F51B83] active:border-[#F51B83] text-white transition-colors duration-200 cursor-pointer flex items-center justify-center border border-[#2878D0]"
+              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] active:bg-[#F51B83] active:border-[#F51B83] text-white transition-colors duration-200 cursor-pointer flex items-center justify-center border border-[#2878D0]"
             >
               <span>{t.hero.aurenEffect}</span>
             </button>
@@ -168,7 +168,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <button
               type="button"
               onClick={onNavigateToDiscoverSign}
-              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#2878D0] text-white border border-[#2878D0] hover:bg-[#2168B7] active:bg-[#F51B83] active:border-[#F51B83] transition-colors duration-200 cursor-pointer flex items-center justify-center"
+              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#2878D0] text-white border border-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] active:bg-[#F51B83] active:border-[#F51B83] transition-colors duration-200 cursor-pointer flex items-center justify-center"
             >
               <span>{t.hero.discoverSign}</span>
             </button>
@@ -177,7 +177,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <button
               type="button"
               onClick={onNavigateToDescribeMe}
-              className="w-full sm:w-[235px] h-[54px] px-3 rounded-full text-[11px] sm:text-xs font-bold tracking-[0.06em] uppercase whitespace-nowrap bg-[#2878D0] text-white border border-[#2878D0] hover:bg-[#2168B7] active:bg-[#F51B83] active:border-[#F51B83] transition-colors duration-200 cursor-pointer flex items-center justify-center"
+              className="w-full sm:w-[235px] h-[54px] px-3 rounded-full text-[11px] sm:text-xs font-bold tracking-[0.06em] uppercase whitespace-nowrap bg-[#2878D0] text-white border border-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] active:bg-[#F51B83] active:border-[#F51B83] transition-colors duration-200 cursor-pointer flex items-center justify-center"
             >
               <span>{t.hero.describeMe}</span>
             </button>
