@@ -51,7 +51,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
   const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
 
-  // Reset when language changes
   useEffect(() => {
     setPhraseIndex(0);
     setCharIndex(0);
@@ -65,23 +64,19 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
     let timer: NodeJS.Timeout;
 
     if (!isDeleting && charIndex < fullText.length) {
-      // Escrevendo letra por letra com velocidade orgânica agradável
       const typingSpeed = 65 + Math.random() * 25;
       timer = setTimeout(() => {
         setCharIndex((prev) => prev + 1);
       }, typingSpeed);
     } else if (!isDeleting && charIndex === fullText.length) {
-      // Pausa confortável quando a frase completa é exibida
       timer = setTimeout(() => {
         setIsDeleting(true);
       }, 2300);
     } else if (isDeleting && charIndex > 0) {
-      // Apagando de volta suavemente
       timer = setTimeout(() => {
         setCharIndex((prev) => prev - 1);
       }, 35);
     } else if (isDeleting && charIndex === 0) {
-      // Passa para a próxima frase com breve intervalo
       setIsDeleting(false);
       setPhraseIndex((prev) => (prev + 1) % phrases.length);
     }
@@ -107,7 +102,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       id="hero"
       className="relative overflow-hidden min-h-screen flex items-center justify-center bg-[#C9E5FF] text-[#172B4D] pt-24 sm:pt-28 pb-16"
     >
-      {/* Subtle Background Elements with Azul Suave and Rosa Suave */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-1/4 -left-20 w-96 h-96 bg-[#E4F1FF] rounded-full blur-3xl animate-float" />
         <div className="absolute top-1/3 -right-20 w-96 h-96 bg-[#FFE0EF]/60 rounded-full blur-3xl animate-float-alt" />
@@ -115,7 +109,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-        {/* Main Headline com animação de fade-in + slide-up e efeito de digitação */}
         <ScrollReveal delay={0} distance={20} duration={800}>
           <h1
             aria-label={`${currentPhrase.prefix}${currentPhrase.highlight}`}
@@ -124,7 +117,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <span className="inline-block">
               <span>{currentPrefix}</span>
               {currentHighlight && (
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2878D0] via-[#5A86D3] to-[#F06A9C]">
+                <span className="text-[#F51B83]">
                   {currentHighlight}
                 </span>
               )}
@@ -136,17 +129,14 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           </h1>
         </ScrollReveal>
 
-        {/* Subhead com fade-in e slide-up suave */}
         <ScrollReveal delay={120} distance={22} duration={800}>
           <p className="mt-6 text-base sm:text-lg md:text-xl text-[#647DA5] max-w-2xl mx-auto font-medium leading-relaxed">
             {t.hero.subtitle}
           </p>
         </ScrollReveal>
 
-        {/* Action Buttons Container com fade-in e slide-up suave */}
         <ScrollReveal delay={240} distance={24} duration={800}>
           <div className="mt-8 sm:mt-10 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
-            {/* Button 1: Dedicated Daily Message Page */}
             <button
               type="button"
               onClick={onNavigateToDailyMessage}
@@ -155,7 +145,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <span>{t.hero.dailyMessage}</span>
             </button>
 
-            {/* Button 2: Dedicated Auren Effect Page */}
             <button
               type="button"
               onClick={onNavigateToAurenEffect}
@@ -164,7 +153,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <span>{t.hero.aurenEffect}</span>
             </button>
 
-            {/* Button 3: Dedicated Discover Sign Page */}
             <button
               type="button"
               onClick={onNavigateToDiscoverSign}
@@ -173,7 +161,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <span>{t.hero.discoverSign}</span>
             </button>
 
-            {/* Button 4: Dedicated Describe Me Page */}
             <button
               type="button"
               onClick={onNavigateToDescribeMe}
@@ -187,4 +174,3 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
     </section>
   );
 };
-
