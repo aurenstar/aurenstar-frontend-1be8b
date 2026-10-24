@@ -150,7 +150,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <button
               type="button"
               onClick={onNavigateToDailyMessage}
-              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-white text-[#172B4D] border border-[#D9E8F8] hover:border-[#2878D0] hover:bg-[#F5FAFF] transition-colors duration-200 cursor-pointer flex items-center justify-center"
+              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#2878D0] text-white border border-[#2878D0] hover:bg-[#2168B7] transition-colors duration-200 cursor-pointer flex items-center justify-center"
             >
               <span>{t.hero.dailyMessage}</span>
             </button>
@@ -159,7 +159,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <button
               type="button"
               onClick={onNavigateToAurenEffect}
-              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#2878D0] hover:bg-[#2168B7] text-white transition-colors duration-200 cursor-pointer flex items-center justify-center border border-[#2878D0]"
+              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#17366F] hover:bg-[#102956] text-white transition-colors duration-200 cursor-pointer flex items-center justify-center border border-[#17366F]"
             >
               <span>{t.hero.aurenEffect}</span>
             </button>
@@ -168,7 +168,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <button
               type="button"
               onClick={onNavigateToDiscoverSign}
-              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-white text-[#172B4D] border border-[#D9E8F8] hover:border-[#2878D0] hover:bg-[#F5FAFF] transition-colors duration-200 cursor-pointer flex items-center justify-center"
+              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#7C5CC4] text-white border border-[#7C5CC4] hover:bg-[#6849AD] transition-colors duration-200 cursor-pointer flex items-center justify-center"
             >
               <span>{t.hero.discoverSign}</span>
             </button>
@@ -177,7 +177,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <button
               type="button"
               onClick={onNavigateToDescribeMe}
-              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-white text-[#172B4D] border border-[#D9E8F8] hover:border-[#2878D0] hover:bg-[#F5FAFF] transition-colors duration-200 cursor-pointer flex items-center justify-center"
+              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#F51B83] text-white border border-[#F51B83] hover:bg-[#D81670] transition-colors duration-200 cursor-pointer flex items-center justify-center"
             >
               <span>{t.hero.describeMe}</span>
             </button>
