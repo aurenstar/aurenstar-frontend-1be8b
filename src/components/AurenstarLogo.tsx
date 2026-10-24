@@ -14,7 +14,7 @@ export const AurenstarLogo: React.FC<AurenstarLogoProps> = ({
   if (variant === 'gradient') {
     return (
       <img
-        src="/assets/aurenstar-logo-v2.png"
+        src="/logo-aurenstar.png"
         alt="Aurenstar"
         className={`select-none shrink-0 object-contain ${className}`}
         style={{ display: 'inline-block' }}
