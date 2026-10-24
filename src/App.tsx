@@ -2,10 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { LanguageProvider } from './context/LanguageContext';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
-import { BrandMarquee } from './components/BrandMarquee';
 import { BlogCardsSection } from './components/BlogCardsSection';
-import { ToolExplainerSection } from './components/ToolExplainerSection';
-import { FaqSection } from './components/FaqSection';
 import { ReviewsSection } from './components/ReviewsSection';
 import { AboutAurenstarSection } from './components/AboutAurenstarSection';
 import { Footer } from './components/Footer';
@@ -208,16 +205,9 @@ export default function App() {
               onNavigateToAurenEffect={() => handleNavigate('aureneffect')}
               onNavigateToDiscoverSign={() => handleNavigate('discover-sign')}
               onNavigateToDescribeMe={handleNavigateToDescribeMe}
-            />
-
-            {/* Brand Zodiac Marquee Panel (Above Trending Articles) */}
-            <BrandMarquee
               selectedSign={selectedSign}
               onSelectSign={setSelectedSign}
             />
-
-            {/* Tool explanations above trending articles */}
-            <ToolExplainerSection onNavigate={handleNavigate} />
 
             {/* Trending Articles Section */}
             <BlogCardsSection
@@ -232,14 +222,7 @@ export default function App() {
             {/* User Reviews Section */}
             <ReviewsSection />
 
-            {/* FAQ Accordion Section */}
-            <FaqSection />
 
-            {/* Brand Zodiac Marquee Panel */}
-            <BrandMarquee
-              selectedSign={selectedSign}
-              onSelectSign={setSelectedSign}
-            />
           </main>
         )}
 
