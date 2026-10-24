@@ -51,12 +51,7 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
 
   const setA = ZODIAC_SIGNS;
   const setB = ZODIAC_SIGNS;
-  const signColors = [
-    'text-[#2878D0]',
-    'text-[#17366F]',
-    'text-white drop-shadow-[0_1px_2px_rgba(23,54,111,0.9)]',
-    'text-[#F51B83]',
-  ];
+  const signColors = ['text-[#2878D0]', 'text-[#17366F]', 'text-[#7C5CC4]', 'text-[#F51B83]'];
 
   return (
     <div
