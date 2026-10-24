@@ -217,7 +217,7 @@ export default function App() {
             />
 
             {/* Tool explanations above trending articles */}
-            <ToolExplainerSection onNavigate={handleNavigate} />
+            <ToolExplainerSection />
 
             {/* Trending Articles Section */}
             <BlogCardsSection
