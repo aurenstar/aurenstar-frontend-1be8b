@@ -10,7 +10,7 @@ import {
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { AurenEffectResult } from '../utils/aurenEngine';
-import { StoryCardData, downloadStoryCard } from '../utils/generateStoryCard';
+import { StoryCardData, downloadStoryCard, downloadVerticalStoryCard } from '../utils/generateStoryCard';
 
 interface AurenEffectResultPageProps {
   onBackToForm: () => void;
@@ -40,6 +40,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
 
   const [isGeneratingCard, setIsGeneratingCard] = useState(false);
   const [cardSuccess, setCardSuccess] = useState(false);
+  const [isGeneratingVerticalStory, setIsGeneratingVerticalStory] = useState(false);
   const [copiedLink, setCopiedLink] = useState(false);
 
   // Títulos inspiradores e diretos de cada signo
@@ -228,6 +229,26 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
     `✨ Efeito Auren de ${displayName} no @aurenstar: "${curiousTitle}"`
   )}&url=${encodeURIComponent(originUrl)}`;
+
+  const handleDownloadVerticalStory = async () => {
+    setIsGeneratingVerticalStory(true);
+    try {
+      const verticalData: StoryCardData = {
+        userName: result?.userName || 'Andriel',
+        signName: result?.signName || '',
+        signSymbol: result?.signSymbol || '✦',
+        signTheme: result?.theme || '',
+        title: result?.title || '',
+        affirmation: result?.message || '',
+        message: result?.message || '',
+        advice: result?.advice || '',
+        lang,
+      };
+      await downloadVerticalStoryCard(verticalData);
+    } finally {
+      setIsGeneratingVerticalStory(false);
+    }
+  };
 
   const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(originUrl)}`;
 
@@ -449,6 +470,17 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
               onClick={handleDownloadCard}
               disabled={isGeneratingCard}
               className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full bg-[#2878D0] hover:bg-[#17366F] text-white font-medium text-xs border border-[#2878D0] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
+            <button
+              type="button"
+              onClick={handleDownloadVerticalStory}
+              disabled={isGeneratingVerticalStory}
+              className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full bg-[#F51B83] hover:bg-[#D91670] text-white font-medium text-xs border border-[#F51B83] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
+              title="Baixar formato vertical 9:16 para Stories"
+            >
+              <Download className="w-3.5 h-3.5 shrink-0" />
+              <span>{isGeneratingVerticalStory ? 'Gerando...' : 'Baixar Story 9:16'}</span>
+            </button>
+
               title="Baixar imagem em PNG"
             >
               <Download className="w-3.5 h-3.5 shrink-0" />
