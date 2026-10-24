@@ -14,23 +14,23 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
   const lang = language || 'en';
   const copy = {
     en: { title: 'HOW AURENSTAR CAN HELP YOU', subtitle: 'Each space has a simple purpose and practical way to support your day.', cards: [
-      ['Aurenstar Daily', 'A personalized daily message based on your zodiac sign.', 'daily-message', CalendarDays],
+      ['Aurendaily', 'A personalized daily message based on your zodiac sign.', 'daily-message', CalendarDays],
       ['Aureneffect', 'A real-time reading about the moment you are experiencing now.', 'aureneffect', Sparkles],
-      ['Aurenstar Zodiac Calculator', 'Find your sun sign by entering your date of birth.', 'discover-sign', Compass],
+      ['Sign Calculator', 'Find your sun sign by entering your date of birth.', 'discover-sign', Compass],
       ['Aurenstar Dictionary', 'Simple explanations for astrology terms and ideas.', 'dicionario', BookOpen],
       ['Aurenstar Unfiltered', 'A playful, shareable profile created from your birth details.', 'describe-me', UserRound],
     ] as const },
     pt: { title: 'COMO A AURENSTAR PODE AJUDAR VOCÊ', subtitle: 'Cada espaço tem um propósito simples e uma forma prática de acompanhar o seu dia.', cards: [
-      ['Aurenstar Daily', 'Uma mensagem diária personalizada com base no seu signo.', 'daily-message', CalendarDays],
+      ['Aurendaily', 'Uma mensagem diária personalizada com base no seu signo.', 'daily-message', CalendarDays],
       ['Aureneffect', 'Uma leitura em tempo real sobre o momento que você está vivendo.', 'aureneffect', Sparkles],
-      ['Aurenstar Zodiac Calculator', 'Descubra seu signo solar informando sua data de nascimento.', 'discover-sign', Compass],
+      ['Sign Calculator', 'Descubra seu signo solar informando sua data de nascimento.', 'discover-sign', Compass],
       ['Aurenstar Dictionary', 'Explicações simples para termos e ideias da astrologia.', 'dicionario', BookOpen],
       ['Aurenstar Unfiltered', 'Um perfil divertido e compartilhável criado com seus dados de nascimento.', 'describe-me', UserRound],
     ] as const },
     es: { title: 'CÓMO AURENSTAR PUEDE AYUDARTE', subtitle: 'Cada espacio tiene un propósito sencillo y una forma práctica de acompañar tu día.', cards: [
-      ['Aurenstar Daily', 'Un mensaje diario personalizado según tu signo zodiacal.', 'daily-message', CalendarDays],
+      ['Aurendaily', 'Un mensaje diario personalizado según tu signo zodiacal.', 'daily-message', CalendarDays],
       ['Aureneffect', 'Una lectura en tiempo real sobre el momento que estás viviendo.', 'aureneffect', Sparkles],
-      ['Aurenstar Zodiac Calculator', 'Descubre tu signo solar con tu fecha de nacimiento.', 'discover-sign', Compass],
+      ['Sign Calculator', 'Descubre tu signo solar con tu fecha de nacimiento.', 'discover-sign', Compass],
       ['Aurenstar Dictionary', 'Explicaciones sencillas de términos e ideas de astrología.', 'dicionario', BookOpen],
       ['Aurenstar Unfiltered', 'Un perfil divertido y compartible creado con tus datos de nacimiento.', 'describe-me', UserRound],
     ] as const },
