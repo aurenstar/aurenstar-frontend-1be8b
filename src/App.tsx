@@ -208,7 +208,7 @@ export default function App() {
               onNavigateToDescribeMe={handleNavigateToDescribeMe}
             />
 
-            {/* Zodiac panel repeated after the hero */}
+            {/* Cloudflare redeploy marker: duplicated zodiac panel after hero */}
             <BrandMarquee
               selectedSign={selectedSign}
               onSelectSign={setSelectedSign}
