@@ -38,19 +38,21 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
 
   return (
     <section className="relative w-full overflow-hidden border-b border-[#D9E8F8] bg-[#C9E5FF] py-14 sm:py-20">
-      <div className="pointer-events-none absolute left-1/2 top-16 h-72 w-[42rem] -translate-x-1/2 rounded-full bg-[#FFFFFF]/35 blur-3xl" />
+      <div className="pointer-events-none absolute -left-20 top-14 h-64 w-64 rounded-full bg-[#2878D0]/10 blur-3xl" />
+      <div className="pointer-events-none absolute -right-20 bottom-8 h-72 w-72 rounded-full bg-[#F51B83]/10 blur-3xl" />
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <ScrollReveal distance={18} duration={700}>
           <div className="text-center mb-6 sm:mb-8">
             <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">{copy.title}</h2>
             <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-[#647DA5]">{copy.subtitle}</p>
             <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83]" />
+            <p className="mx-auto mt-4 max-w-xl text-xs font-semibold uppercase tracking-[0.14em] text-[#2878D0]">{lang === 'pt' ? 'Escolha uma experiência e descubra como ela pode acompanhar você' : lang === 'es' ? 'Elige una experiencia y descubre cómo puede acompañarte' : 'Choose an experience and see how it can support you'}</p>
           </div>
         </ScrollReveal>
-        <div className="relative grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="relative grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {copy.cards.map(([title, description, route, Icon], index) => (
             <ScrollReveal key={title} delay={index * 45} distance={14} duration={650}>
-              <button type="button" onClick={() => onNavigate(route)} className="group relative block h-full w-full overflow-hidden rounded-3xl border border-white/90 bg-white p-6 text-left shadow-[0_10px_30px_rgba(23,54,111,0.08)] transition-all duration-300 hover:-translate-y-1 hover:border-[#2878D0]/50 hover:shadow-[0_18px_38px_rgba(23,54,111,0.16)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] sm:p-7">
+              <button type="button" onClick={() => onNavigate(route)} className={`group relative block h-full w-full overflow-hidden rounded-3xl border border-white/90 bg-white p-6 text-left shadow-[0_10px_30px_rgba(23,54,111,0.08)] transition-all duration-300 hover:-translate-y-1 hover:border-[#2878D0]/50 hover:shadow-[0_18px_38px_rgba(23,54,111,0.16)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] sm:p-7 ${index === 4 ? 'lg:col-span-2 lg:col-start-2' : ''}`}>
                 <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#2878D0] via-[#7C5CC4] to-[#F51B83] opacity-70 transition-opacity group-hover:opacity-100" />
                 <div className="flex items-start justify-between gap-3">
                   <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-[#E4F1FF] to-[#F2E7FF] text-[#2878D0] shadow-inner transition-transform duration-300 group-hover:scale-105 group-hover:text-[#7C3FA0]"><Icon className="h-5 w-5" /></span>
@@ -58,7 +60,8 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
                 </div>
                 <h3 className="mt-4 text-[15px] font-extrabold leading-snug text-[#172B4D]">{title}</h3>
                 <p className="mt-3 text-sm leading-[1.7] text-[#647DA5]">{description}</p>
-                <span className="mt-5 inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-[0.14em] text-[#2878D0] transition-colors group-hover:text-[#F51B83]">{lang === 'pt' ? 'Saiba mais' : lang === 'es' ? 'Saber más' : 'Learn more'} <span aria-hidden="true">→</span></span>
+                <span className="mt-4 inline-flex items-center rounded-full bg-[#EEF6FF] px-3 py-1 text-[10px] font-bold uppercase tracking-[0.12em] text-[#2878D0] transition-colors group-hover:bg-[#FCE7F2] group-hover:text-[#C21867]">{lang === 'pt' ? 'Exemplo prático' : lang === 'es' ? 'Ejemplo práctico' : 'Practical example'}</span>
+                <span className="mt-4 inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-[0.14em] text-[#2878D0] transition-colors group-hover:text-[#F51B83]">{lang === 'pt' ? 'Saiba mais' : lang === 'es' ? 'Saber más' : 'Learn more'} <span aria-hidden="true">→</span></span>
               </button>
             </ScrollReveal>
           ))}
