@@ -115,7 +115,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight max-w-4xl mx-auto leading-[1.12] text-[#172B4D] min-h-[96px] sm:min-h-[125px] md:min-h-[150px] flex items-center justify-center"
           >
             <span className="inline-block">
-              <span>{currentPrefix}</span>
+              <span className="text-[#2878D0]">{currentPrefix}</span>
               {currentHighlight && (
                 <span className="text-[#F51B83]">
                   {currentHighlight}
@@ -136,7 +136,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         </ScrollReveal>
 
         <ScrollReveal delay={240} distance={24} duration={800}>
-          <div className="mt-8 sm:mt-10 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+          <div className="mt-10 sm:mt-12 mx-auto max-w-5xl rounded-2xl border border-white/80 bg-white/45 p-3 sm:p-4 shadow-[0_12px_30px_rgba(23,43,77,0.08)] backdrop-blur-sm">
+            <p className="mb-3 text-[11px] sm:text-xs font-bold uppercase tracking-[0.16em] text-[#647DA5]">
+              {language === 'pt' ? 'Escolha uma experiência' : language === 'es' ? 'Elige una experiencia' : 'Choose an experience'}
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
             <button
               type="button"
               onClick={onNavigateToDailyMessage}
@@ -168,6 +172,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             >
               <span>{t.hero.describeMe}</span>
             </button>
+            </div>
           </div>
         </ScrollReveal>
       </div>
