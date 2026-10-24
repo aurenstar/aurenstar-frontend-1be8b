@@ -69,7 +69,7 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
     <div className="mx-auto max-w-3xl">
       <button type="button" onClick={onBackToHome} className="mb-8 inline-flex items-center gap-2 text-sm font-semibold text-[#2878D0] hover:text-[#17366F]"><ArrowLeft className="h-4 w-4" /> {copy.back}</button>
       <div className="relative overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-6 shadow-[0_12px_35px_rgba(23,54,111,0.08)] sm:p-10">
-        <div className="absolute inset-x-0 top-0 h-1.5 bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83]" />
+        <div className="absolute inset-x-0 top-0 h-1.5 bg-[#2878D0]" />
           <div className="mb-5 flex h-11 w-11 items-center justify-center rounded-2xl bg-[#E4F1FF] text-[#2878D0]"><Sparkles className="h-5 w-5" /></div>
           <p className="text-xs font-extrabold tracking-[0.18em] text-[#2878D0]">{copy.tag}</p>
           <h1 className="mt-3 text-3xl font-extrabold text-[#172B4D]">{copy.title}</h1>
