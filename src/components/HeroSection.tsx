@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { ScrollReveal } from './ScrollReveal';
-import { CalendarDays, Compass, Sparkles, UserRound } from 'lucide-react';
 
 interface HeroSectionProps {
   onNavigateToDailyMessage?: () => void;
@@ -151,46 +150,36 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <button
               type="button"
               onClick={onNavigateToDailyMessage}
-              className="w-full sm:w-[235px] h-[58px] px-4 rounded-2xl text-xs sm:text-sm font-black tracking-wider uppercase bg-gradient-to-br from-[#FFFFFF] to-[#F1F7FF] hover:from-[#EAF4FF] hover:to-[#FFFFFF] text-[#172B4D] border border-[#D9E8F8] hover:border-[#2878D0] shadow-[0_6px_18px_rgba(23,54,111,0.07)] hover:shadow-[0_10px_24px_rgba(40,120,208,0.16)] transition-all duration-300 cursor-pointer hover:-translate-y-1 active:translate-y-0 flex items-center justify-center gap-2.5 group"
+              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-white text-[#172B4D] border border-[#D9E8F8] hover:border-[#2878D0] hover:bg-[#F5FAFF] transition-colors duration-200 cursor-pointer flex items-center justify-center"
             >
-              <CalendarDays className="h-5 w-5 text-[#2878D0] transition-transform duration-300 group-hover:-rotate-6" aria-hidden="true" />
-              <span className="group-hover:text-[#2878D0] transition-colors leading-tight">
-                {t.hero.dailyMessage}
-              </span>
+              <span>{t.hero.dailyMessage}</span>
             </button>
 
             {/* Button 2: Dedicated Auren Effect Page */}
             <button
               type="button"
               onClick={onNavigateToAurenEffect}
-              className="w-full sm:w-[235px] h-[58px] px-4 rounded-2xl text-xs sm:text-sm font-black tracking-wider uppercase bg-gradient-to-r from-[#2878D0] via-[#315DB0] to-[#C52B84] hover:from-[#17366F] hover:via-[#2878D0] hover:to-[#F51B83] text-[#FFFFFF] shadow-[0_8px_20px_rgba(40,120,208,0.28)] transition-all duration-300 cursor-pointer flex items-center justify-center gap-2.5 hover:-translate-y-1 active:translate-y-0 border border-white/20 group"
+              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#2878D0] hover:bg-[#2168B7] text-white transition-colors duration-200 cursor-pointer flex items-center justify-center border border-[#2878D0]"
             >
-              <Sparkles className="h-5 w-5 transition-transform duration-300 group-hover:rotate-12" aria-hidden="true" />
-              <span className="leading-tight">{t.hero.aurenEffect}</span>
+              <span>{t.hero.aurenEffect}</span>
             </button>
 
             {/* Button 3: Dedicated Discover Sign Page */}
             <button
               type="button"
               onClick={onNavigateToDiscoverSign}
-              className="w-full sm:w-[235px] h-[58px] px-4 rounded-2xl text-xs sm:text-sm font-black tracking-wider uppercase bg-gradient-to-br from-[#FFFFFF] to-[#F8F3FF] hover:from-[#F0E9FF] hover:to-[#FFFFFF] text-[#172B4D] border border-[#D9E8F8] hover:border-[#7C5CC4] shadow-[0_6px_18px_rgba(23,54,111,0.07)] hover:shadow-[0_10px_24px_rgba(124,92,196,0.16)] transition-all duration-300 cursor-pointer hover:-translate-y-1 active:translate-y-0 flex items-center justify-center gap-2.5 group"
+              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-white text-[#172B4D] border border-[#D9E8F8] hover:border-[#2878D0] hover:bg-[#F5FAFF] transition-colors duration-200 cursor-pointer flex items-center justify-center"
             >
-              <Compass className="h-5 w-5 text-[#7C5CC4] transition-transform duration-300 group-hover:rotate-12" aria-hidden="true" />
-              <span className="group-hover:text-[#7C5CC4] transition-colors">
-                {t.hero.discoverSign}
-              </span>
+              <span>{t.hero.discoverSign}</span>
             </button>
 
             {/* Button 4: Dedicated Describe Me Page */}
             <button
               type="button"
               onClick={onNavigateToDescribeMe}
-              className="w-full sm:w-[235px] h-[58px] px-4 rounded-2xl text-xs sm:text-sm font-black tracking-wider uppercase bg-gradient-to-br from-[#FFFFFF] to-[#FFF2F8] hover:from-[#FFE8F2] hover:to-[#FFFFFF] text-[#172B4D] border border-[#D9E8F8] hover:border-[#F51B83] shadow-[0_6px_18px_rgba(23,54,111,0.07)] hover:shadow-[0_10px_24px_rgba(245,27,131,0.15)] transition-all duration-300 cursor-pointer hover:-translate-y-1 active:translate-y-0 flex items-center justify-center gap-2.5 group"
+              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-white text-[#172B4D] border border-[#D9E8F8] hover:border-[#2878D0] hover:bg-[#F5FAFF] transition-colors duration-200 cursor-pointer flex items-center justify-center"
             >
-              <UserRound className="h-5 w-5 text-[#F51B83] transition-transform duration-300 group-hover:-rotate-6" aria-hidden="true" />
-              <span className="group-hover:text-[#F51B83] transition-colors">
-                {t.hero.describeMe}
-              </span>
+              <span>{t.hero.describeMe}</span>
             </button>
           </div>
         </ScrollReveal>
