@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { LanguageProvider } from './context/LanguageContext';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
+import { BrandMarquee } from './components/BrandMarquee';
 import { BlogCardsSection } from './components/BlogCardsSection';
 import { ReviewsSection } from './components/ReviewsSection';
 import { AboutAurenstarSection } from './components/AboutAurenstarSection';
@@ -205,8 +206,6 @@ export default function App() {
               onNavigateToAurenEffect={() => handleNavigate('aureneffect')}
               onNavigateToDiscoverSign={() => handleNavigate('discover-sign')}
               onNavigateToDescribeMe={handleNavigateToDescribeMe}
-              selectedSign={selectedSign}
-              onSelectSign={setSelectedSign}
             />
 
             {/* Trending Articles Section */}
@@ -221,6 +220,12 @@ export default function App() {
 
             {/* User Reviews Section */}
             <ReviewsSection />
+
+            {/* Zodiac panel above the footer */}
+            <BrandMarquee
+              selectedSign={selectedSign}
+              onSelectSign={setSelectedSign}
+            />
 
 
           </main>
