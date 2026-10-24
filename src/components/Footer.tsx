@@ -165,21 +165,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <a
-                  href="#faq"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    if (onNavigate) onNavigate('home');
-                    setTimeout(() => {
-                      document.getElementById('faq')?.scrollIntoView({ behavior: 'smooth' });
-                    }, 100);
-                  }}
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
-                >
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <a
                   href="#contact"
                   onClick={handleGoContact}
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
