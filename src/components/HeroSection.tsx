@@ -135,46 +135,49 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           </p>
         </ScrollReveal>
 
-        <ScrollReveal delay={240} distance={24} duration={800}>
-          <div className="mt-10 sm:mt-12 mx-auto max-w-5xl rounded-2xl border border-white/80 bg-white/45 p-3 sm:p-4 shadow-[0_12px_30px_rgba(23,43,77,0.08)] backdrop-blur-sm">
-            <p className="mb-3 text-[11px] sm:text-xs font-bold uppercase tracking-[0.16em] text-[#647DA5]">
-              {language === 'pt' ? 'Escolha uma experiência' : language === 'es' ? 'Elige una experiencia' : 'Choose an experience'}
-            </p>
-            <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
-            <button
-              type="button"
-              onClick={onNavigateToDailyMessage}
-              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#2878D0] text-white border border-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] active:bg-[#F51B83] active:border-[#F51B83] transition-colors duration-200 cursor-pointer flex items-center justify-center"
-            >
-              <span>{t.hero.dailyMessage}</span>
-            </button>
 
-            <button
-              type="button"
-              onClick={onNavigateToAurenEffect}
-              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] active:bg-[#F51B83] active:border-[#F51B83] text-white transition-colors duration-200 cursor-pointer flex items-center justify-center border border-[#2878D0]"
-            >
-              <span>{t.hero.aurenEffect}</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={onNavigateToDiscoverSign}
-              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#2878D0] text-white border border-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] active:bg-[#F51B83] active:border-[#F51B83] transition-colors duration-200 cursor-pointer flex items-center justify-center"
-            >
-              <span>{t.hero.discoverSign}</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={onNavigateToDescribeMe}
-              className="w-full sm:w-[235px] h-[54px] px-3 rounded-full text-[11px] sm:text-xs font-bold tracking-[0.06em] uppercase whitespace-nowrap bg-[#2878D0] text-white border border-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] active:bg-[#F51B83] active:border-[#F51B83] transition-colors duration-200 cursor-pointer flex items-center justify-center"
-            >
-              <span>{t.hero.describeMe}</span>
-            </button>
-            </div>
-          </div>
-        </ScrollReveal>
+      </div>
+    </section>
+    
+    <section id="experiences" className="relative bg-[#EAF4FF] px-4 sm:px-6 lg:px-8 py-14 sm:py-18">
+      <div className="max-w-6xl mx-auto">
+        <div className="max-w-2xl mb-8 sm:mb-10">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#2878D0]">
+            {language === 'pt' ? 'Escolha seu próximo passo' : language === 'es' ? 'Elige tu próximo paso' : 'Choose your next step'}
+          </p>
+          <h2 className="mt-3 text-2xl sm:text-3xl font-extrabold tracking-tight text-[#172B4D]">
+            {language === 'pt' ? 'Uma experiência para cada momento' : language === 'es' ? 'Una experiencia para cada momento' : 'One experience for every moment'}
+          </h2>
+          <p className="mt-3 text-sm sm:text-base leading-relaxed text-[#647DA5]">
+            {language === 'pt' ? 'Comece pela ferramenta que mais combina com o que você busca agora.' : language === 'es' ? 'Empieza por la herramienta que más combina con lo que buscas ahora.' : 'Start with the tool that best matches what you are looking for right now.'}
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <button type="button" onClick={onNavigateToDailyMessage} className="group text-left rounded-2xl bg-white border border-[#D8E9FC] p-5 shadow-sm hover:-translate-y-1 hover:border-[#F51B83] hover:shadow-[0_12px_24px_rgba(245,27,131,0.14)] transition-all duration-200">
+            <span className="text-xs font-bold tracking-[0.16em] text-[#2878D0]">01</span>
+            <span className="mt-3 block text-base font-extrabold text-[#172B4D] group-hover:text-[#F51B83] transition-colors">{t.hero.dailyMessage}</span>
+            <span className="mt-2 block text-sm leading-relaxed text-[#647DA5]">{language === 'pt' ? 'Receba uma orientação personalizada para o seu dia.' : language === 'es' ? 'Recibe una orientación personalizada para tu día.' : 'Receive personalized guidance for your day.'}</span>
+            <span className="mt-4 inline-flex text-xs font-bold uppercase tracking-[0.12em] text-[#2878D0] group-hover:text-[#F51B83] transition-colors">{language === 'pt' ? 'Começar' : language === 'es' ? 'Empezar' : 'Start'} <span className="ml-2">→</span></span>
+          </button>
+          <button type="button" onClick={onNavigateToAurenEffect} className="group text-left rounded-2xl bg-white border border-[#D8E9FC] p-5 shadow-sm hover:-translate-y-1 hover:border-[#F51B83] hover:shadow-[0_12px_24px_rgba(245,27,131,0.14)] transition-all duration-200">
+            <span className="text-xs font-bold tracking-[0.16em] text-[#2878D0]">02</span>
+            <span className="mt-3 block text-base font-extrabold text-[#172B4D] group-hover:text-[#F51B83] transition-colors">{t.hero.aurenEffect}</span>
+            <span className="mt-2 block text-sm leading-relaxed text-[#647DA5]">{language === 'pt' ? 'Entenda melhor o momento que você está vivendo agora.' : language === 'es' ? 'Comprende mejor el momento que estás viviendo ahora.' : 'Understand the moment you are experiencing now.'}</span>
+            <span className="mt-4 inline-flex text-xs font-bold uppercase tracking-[0.12em] text-[#2878D0] group-hover:text-[#F51B83] transition-colors">{language === 'pt' ? 'Explorar' : language === 'es' ? 'Explorar' : 'Explore'} <span className="ml-2">→</span></span>
+          </button>
+          <button type="button" onClick={onNavigateToDiscoverSign} className="group text-left rounded-2xl bg-white border border-[#D8E9FC] p-5 shadow-sm hover:-translate-y-1 hover:border-[#F51B83] hover:shadow-[0_12px_24px_rgba(245,27,131,0.14)] transition-all duration-200">
+            <span className="text-xs font-bold tracking-[0.16em] text-[#2878D0]">03</span>
+            <span className="mt-3 block text-base font-extrabold text-[#172B4D] group-hover:text-[#F51B83] transition-colors">{t.hero.discoverSign}</span>
+            <span className="mt-2 block text-sm leading-relaxed text-[#647DA5]">{language === 'pt' ? 'Descubra seu signo solar pela sua data de nascimento.' : language === 'es' ? 'Descubre tu signo solar con tu fecha de nacimiento.' : 'Discover your sun sign from your date of birth.'}</span>
+            <span className="mt-4 inline-flex text-xs font-bold uppercase tracking-[0.12em] text-[#2878D0] group-hover:text-[#F51B83] transition-colors">{language === 'pt' ? 'Descobrir' : language === 'es' ? 'Descubrir' : 'Discover'} <span className="ml-2">→</span></span>
+          </button>
+          <button type="button" onClick={onNavigateToDescribeMe} className="group text-left rounded-2xl bg-white border border-[#D8E9FC] p-5 shadow-sm hover:-translate-y-1 hover:border-[#F51B83] hover:shadow-[0_12px_24px_rgba(245,27,131,0.14)] transition-all duration-200">
+            <span className="text-xs font-bold tracking-[0.16em] text-[#2878D0]">04</span>
+            <span className="mt-3 block text-base font-extrabold text-[#172B4D] group-hover:text-[#F51B83] transition-colors">{t.hero.describeMe}</span>
+            <span className="mt-2 block text-sm leading-relaxed text-[#647DA5]">{language === 'pt' ? 'Crie uma descrição pessoal feita para compartilhar.' : language === 'es' ? 'Crea una descripción personal hecha para compartir.' : 'Create a personal description made to share.'}</span>
+            <span className="mt-4 inline-flex text-xs font-bold uppercase tracking-[0.12em] text-[#2878D0] group-hover:text-[#F51B83] transition-colors">{language === 'pt' ? 'Criar' : language === 'es' ? 'Crear' : 'Create'} <span className="ml-2">→</span></span>
+          </button>
+        </div>
       </div>
     </section>
   );
