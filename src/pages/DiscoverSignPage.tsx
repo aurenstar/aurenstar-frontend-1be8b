@@ -151,7 +151,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
         {/* Card Compacto e Simples de Data de Nascimento */}
         <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg transition-all p-6 sm:p-8 mb-8 relative overflow-hidden">
           {/* Barra sutil colorida no topo */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83]" />
+          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
 
           {/* Cabeçalho do Card */}
           <div className="flex items-center gap-3 mb-5 pb-4 border-b border-[#D9E8F8]">
