@@ -50,6 +50,59 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
 }) => {
   const { language } = useLanguage();
   const lang = (language || 'pt') as 'pt' | 'en' | 'es';
+  const copy = {
+    pt: {
+      backHome: 'Voltar ao Início',
+      blog: 'Ver Dicas no Blog',
+      realTime: 'Astrologia em Tempo Real',
+      subtitle: 'Entenda como você está se sentindo hoje e receba dicas simples e práticas para o seu dia.',
+      formTitle: 'Seus Dados para o Aureneffect',
+      formSubtitle: 'Preencha abaixo para calcular o seu Aureneffect:',
+      name: 'Seu Nome ou Apelido',
+      namePlaceholder: 'Digite seu nome (ex: Andriel)',
+      city: 'Cidade de Nascimento',
+      birthDate: 'Data de Nascimento',
+      day: 'Dia', month: 'Mês', year: 'Ano',
+      birthTime: 'Hora Aproximada de Nascimento',
+      exactTime: 'Ou horário exato (opcional):',
+      viewCurrent: 'Ver Meu Aureneffect Atual ✨',
+      calculate: 'Calcular Meu Aureneffect ✨',
+    },
+    en: {
+      backHome: 'Back to Home',
+      blog: 'Explore Blog Tips',
+      realTime: 'Real-Time Astrology',
+      subtitle: 'Understand how you feel today and receive simple, practical guidance for your day.',
+      formTitle: 'Your Details for Aureneffect',
+      formSubtitle: 'Fill in below to calculate your Aureneffect:',
+      name: 'Your Name or Nickname',
+      namePlaceholder: 'Type your name (e.g., Andriel)',
+      city: 'Birth City',
+      birthDate: 'Date of Birth',
+      day: 'Day', month: 'Month', year: 'Year',
+      birthTime: 'Approximate Birth Time',
+      exactTime: 'Or exact time (optional):',
+      viewCurrent: 'View My Current Aureneffect ✨',
+      calculate: 'Calculate My Aureneffect ✨',
+    },
+    es: {
+      backHome: 'Volver al Inicio',
+      blog: 'Ver Consejos del Blog',
+      realTime: 'Astrología en Tiempo Real',
+      subtitle: 'Comprende cómo te sientes hoy y recibe consejos sencillos y prácticos para tu día.',
+      formTitle: 'Tus Datos para Aureneffect',
+      formSubtitle: 'Completa los datos para calcular tu Aureneffect:',
+      name: 'Tu Nombre o Apodo',
+      namePlaceholder: 'Escribe tu nombre (ej.: Andriel)',
+      city: 'Ciudad de Nacimiento',
+      birthDate: 'Fecha de Nacimiento',
+      day: 'Día', month: 'Mes', year: 'Año',
+      birthTime: 'Hora Aproximada de Nacimiento',
+      exactTime: 'O hora exacta (opcional):',
+      viewCurrent: 'Ver Mi Aureneffect Actual ✨',
+      calculate: 'Calcular Mi Aureneffect ✨',
+    },
+  }[lang];
 
   // Form State
   const [name, setName] = useState('Andriel');
@@ -269,7 +322,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/90 hover:bg-white text-xs sm:text-sm font-bold text-[#647DA5] hover:text-[#172B4D] border border-[#D9E8F8] shadow-2xs transition-all cursor-pointer group"
           >
             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1 text-[#2878D0]" />
-            <span>Voltar ao Início</span>
+            <span>{copy.backHome}</span>
           </button>
 
           <button
@@ -277,7 +330,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
             onClick={onNavigateToBlog}
             className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#FFE0EF] text-xs sm:text-sm font-bold text-[#2878D0] border border-[#D9E8F8] transition-all cursor-pointer"
           >
-            <span>Ver Dicas no Blog</span>
+            <span>{copy.blog}</span>
             <span>→</span>
           </button>
         </div>
@@ -286,15 +339,15 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
         <div className="text-center max-w-xl mx-auto mb-8">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-[#D9E8F8] text-[#2878D0] text-xs font-extrabold uppercase tracking-wider mb-3 shadow-2xs">
             <Sparkles className="w-3.5 h-3.5 text-[#F51B83]" />
-            <span>Astrologia em Tempo Real</span>
+            <span>{copy.realTime}</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl font-extrabold text-[#172B4D] tracking-tight mb-2.5 leading-tight">
-            O Efeito Auren
+            Aureneffect
           </h1>
 
           <p className="text-sm text-[#647DA5] leading-relaxed max-w-md mx-auto font-medium">
-            Entenda como você está se sentindo hoje e receba dicas simples e práticas para o seu dia.
+            {copy.subtitle}
           </p>
         </div>
 
@@ -311,10 +364,10 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
             </div>
             <div>
               <h2 className="text-lg sm:text-xl font-extrabold text-[#172B4D]">
-                Seus Dados para o Efeito Auren
+                {copy.formTitle}
               </h2>
               <p className="text-xs text-[#647DA5]">
-                Preencha abaixo para calcular o seu Efeito Auren:
+                {copy.formSubtitle}
               </p>
             </div>
           </div>
@@ -326,13 +379,13 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
               <div>
                 <label className="block text-xs font-bold uppercase tracking-wider text-[#172B4D] mb-2 flex items-center gap-1.5">
                   <User className="w-3.5 h-3.5 text-[#2878D0]" />
-                  <span>Seu Nome ou Apelido</span>
+                  <span>{copy.name}</span>
                 </label>
                 <input
                   type="text"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  placeholder="Digite seu nome (ex: Andriel)"
+                  placeholder={copy.namePlaceholder}
                   className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
                   required
                 />
@@ -342,7 +395,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
               <div>
                 <label className="block text-xs font-bold uppercase tracking-wider text-[#172B4D] mb-2 flex items-center gap-1.5">
                   <MapPin className="w-3.5 h-3.5 text-[#F51B83]" />
-                  <span>Cidade de Nascimento</span>
+                  <span>{copy.city}</span>
                 </label>
                 <div className="relative">
                   <select
@@ -365,12 +418,12 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
             <div>
               <label className="block text-xs font-bold uppercase tracking-wider text-[#172B4D] mb-2 flex items-center gap-1.5">
                 <Calendar className="w-3.5 h-3.5 text-[#2878D0]" />
-                <span>Data de Nascimento</span>
+                <span>{copy.birthDate}</span>
               </label>
               <div className="grid grid-cols-3 gap-2.5 sm:gap-3">
                 {/* Dia */}
                 <div>
-                  <span className="block text-[11px] font-bold text-[#647DA5] mb-1">Dia</span>
+                  <span className="block text-[11px] font-bold text-[#647DA5] mb-1">{copy.day}</span>
                   <div className="relative">
                     <select
                       value={birthDay}
@@ -389,7 +442,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
 
                 {/* Mês */}
                 <div>
-                  <span className="block text-[11px] font-bold text-[#647DA5] mb-1">Mês</span>
+                  <span className="block text-[11px] font-bold text-[#647DA5] mb-1">{copy.month}</span>
                   <div className="relative">
                     <select
                       value={birthMonth}
@@ -421,7 +474,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
 
                 {/* Ano */}
                 <div>
-                  <span className="block text-[11px] font-bold text-[#647DA5] mb-1">Ano</span>
+                  <span className="block text-[11px] font-bold text-[#647DA5] mb-1">{copy.year}</span>
                   <div className="relative">
                     <select
                       value={birthYear}
@@ -445,7 +498,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
               <div className="flex items-center justify-between mb-2">
                 <label className="text-xs font-bold uppercase tracking-wider text-[#172B4D] flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5 text-[#2878D0]" />
-                  <span>Hora Aproximada de Nascimento</span>
+                  <span>{copy.birthTime}</span>
                 </label>
                 {birthTime && (
                   <span className="text-xs text-[#2878D0] font-bold bg-[#E4F1FF] px-2.5 py-0.5 rounded-full border border-[#D9E8F8]">
@@ -485,7 +538,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
 
               {/* Ou Digitar Horário Exato (Discreto e Simples) */}
               <div className="mt-2.5 flex items-center justify-end gap-2">
-                <span className="text-[11px] text-[#647DA5] font-medium">Ou horário exato (opcional):</span>
+                <span className="text-[11px] text-[#647DA5] font-medium">{copy.exactTime}</span>
                 <input
                   type="time"
                   value={birthTime}
@@ -519,7 +572,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                     className="w-full py-4 px-6 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99]"
                   >
                     <Sparkles className="w-4 h-4 transition-transform group-hover:rotate-12" />
-                    <span>Ver Meu Efeito Auren Atual ✨</span>
+                    <span>{copy.viewCurrent}</span>
                   </button>
                 </div>
               ) : (
@@ -540,7 +593,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                   ) : (
                     <>
                       <Sparkles className="w-4 h-4 transition-transform group-hover:rotate-12" />
-                      <span>Calcular Meu Efeito Auren ✨</span>
+                      <span>{copy.calculate}</span>
                     </>
                   )}
                 </button>
