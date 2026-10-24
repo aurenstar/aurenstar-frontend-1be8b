@@ -244,7 +244,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
     pt: {
       backHome: 'Voltar ao Início',
       exploreBlog: 'Ver Artigos do Blog',
-      readingTitle: `Daily reading of ${displayName}`,
+      readingTitle: `Efeito Auren de ${displayName}`,
       cardTitle: 'Tema da Mensagem',
       adviceTitle: 'Dica Prática do Dia',
       adviceSub: '• Para a sua rotina hoje',
@@ -260,7 +260,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
     en: {
       backHome: 'Back to Home',
       exploreBlog: 'Explore Blog Posts',
-      readingTitle: `Daily reading of ${displayName}`,
+      readingTitle: `Auren Effect for ${displayName}`,
       cardTitle: 'Message Theme',
       adviceTitle: 'Practical Daily Tip',
       adviceSub: '• For your daily routine',
@@ -276,7 +276,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
     es: {
       backHome: 'Volver al Inicio',
       exploreBlog: 'Ver Artículos del Blog',
-      readingTitle: `Daily reading of ${displayName}`,
+      readingTitle: `Efecto Auren de ${displayName}`,
       cardTitle: 'Tema del Mensaje',
       adviceTitle: 'Consejo Práctico del Día',
       adviceSub: '• Para tu rutina hoy',
