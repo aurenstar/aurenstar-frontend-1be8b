@@ -44,12 +44,12 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
     path: '/newsletter',
   },
   'daily-message': {
-    title: 'Aurenstar Daily | Personalized Daily Astrology',
+    title: 'Aurendaily | Personalized Daily Astrology',
     description: 'Receive a gentle, practical astrology message for your day.',
     path: '/daily-message',
   },
   'daily-reading-result': {
-    title: 'Aurenstar Daily Reading | Aurenstar',
+    title: 'Aurendaily Reading | Aurenstar',
     description: 'Your personalized daily astrology reflection from Aurenstar.',
     path: '/daily-reading-result',
   },
@@ -64,12 +64,12 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
     path: '/aureneffect-result',
   },
   'discover-sign': {
-    title: 'Aurenstar Zodiac Calculator | Discover Your Sign',
+    title: 'Sign Calculator | Discover Your Sign',
     description: 'Find your zodiac sign and explore its personality, element, and guidance.',
     path: '/discover-sign',
   },
   'discover-sign-result': {
-    title: 'Aurenstar Zodiac Calculator Result | Aurenstar',
+    title: 'Sign Calculator Result | Aurenstar',
     description: 'Explore your zodiac sign and personalized guidance from Aurenstar.',
     path: '/discover-sign-result',
   },
