@@ -98,7 +98,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       : '';
 
   return (
-    <section
+    <>
+      <section
       id="hero"
       className="relative overflow-hidden min-h-screen flex items-center justify-center bg-[#C9E5FF] text-[#172B4D] pt-24 sm:pt-28 pb-16"
     >
@@ -180,5 +181,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         </div>
       </div>
     </section>
+    </>
   );
 };
