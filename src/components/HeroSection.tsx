@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { ScrollReveal } from './ScrollReveal';
+import { BrandMarquee } from './BrandMarquee';
 
 interface HeroSectionProps {
   onNavigateToDailyMessage?: () => void;
@@ -139,6 +140,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
       </div>
     </section>
+
+    <BrandMarquee />
 
     <section id="experiences" className="relative bg-[#C9E5FF] px-4 sm:px-6 lg:px-8 py-14 sm:py-18">
       <div className="max-w-6xl mx-auto">
