@@ -168,7 +168,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <button
               type="button"
               onClick={onNavigateToDiscoverSign}
-              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-[#7C5CC4] text-white border border-[#7C5CC4] hover:bg-[#6849AD] transition-colors duration-200 cursor-pointer flex items-center justify-center"
+              className="w-full sm:w-[235px] h-[54px] px-4 rounded-full text-xs sm:text-sm font-bold tracking-[0.08em] uppercase bg-white text-[#172B4D] border border-[#D9E8F8] hover:border-[#7C5CC4] hover:bg-[#FAF8FF] transition-colors duration-200 cursor-pointer flex items-center justify-center"
             >
               <span>{t.hero.discoverSign}</span>
             </button>
