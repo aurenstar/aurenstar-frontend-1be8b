@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { BrandMarquee } from './components/BrandMarquee';
 import { BlogCardsSection } from './components/BlogCardsSection';
+import { ToolExplainerSection } from './components/ToolExplainerSection';
 import { FaqSection } from './components/FaqSection';
 import { ReviewsSection } from './components/ReviewsSection';
 import { AboutAurenstarSection } from './components/AboutAurenstarSection';
@@ -214,6 +215,9 @@ export default function App() {
               selectedSign={selectedSign}
               onSelectSign={setSelectedSign}
             />
+
+            {/* Tool explanations above trending articles */}
+            <ToolExplainerSection onNavigate={handleNavigate} />
 
             {/* Trending Articles Section */}
             <BlogCardsSection
