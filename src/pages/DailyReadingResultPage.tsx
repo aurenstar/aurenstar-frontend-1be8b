@@ -22,7 +22,7 @@ import {
 import { useLanguage } from '../context/LanguageContext';
 import { ShareModal } from '../components/ShareModal';
 import { getSavedDailyReading, DailyReadingRecord } from '../utils/dailyReadingStorage';
-import { downloadStoryCard, StoryCardData } from '../utils/generateStoryCard';
+import { downloadStoryCard, downloadVerticalStoryCard, StoryCardData } from '../utils/generateStoryCard';
 import { AURENSTAR_AVATAR } from '../data/blogArticles';
 
 interface DailyReadingResultPageProps {
@@ -45,6 +45,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
   const [isGeneratingStory, setIsGeneratingStory] = useState(false);
   const [cardSuccess, setCardSuccess] = useState(false);
+  const [isGeneratingVerticalStory, setIsGeneratingVerticalStory] = useState(false);
 
   // Retrieve today's saved reading or fallback
   const savedReading: DailyReadingRecord = getSavedDailyReading() || {
@@ -170,6 +171,15 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
       // Error handling
     } finally {
       setIsGeneratingStory(false);
+    }
+  };
+
+  const handleDownloadVerticalStory = async () => {
+    setIsGeneratingVerticalStory(true);
+    try {
+      await downloadVerticalStoryCard(storyData);
+    } finally {
+      setIsGeneratingVerticalStory(false);
     }
   };
 
@@ -416,6 +426,17 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
                   ? 'Baixado! ✨'
                   : 'Baixar Card'}
               </span>
+            </button>
+
+            <button
+              type="button"
+              onClick={handleDownloadVerticalStory}
+              disabled={isGeneratingVerticalStory}
+              className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full bg-[#F51B83] hover:bg-[#D91670] text-white font-medium text-xs border border-[#F51B83] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
+              title="Baixar formato vertical 9:16 para Stories"
+            >
+              <Download className="w-3.5 h-3.5 shrink-0" />
+              <span>{isGeneratingVerticalStory ? 'Gerando...' : 'Baixar Story 9:16'}</span>
             </button>
 
             {/* Copiar Link */}
