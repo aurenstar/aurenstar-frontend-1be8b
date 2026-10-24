@@ -65,7 +65,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
   const texts = {
     pt: {
       tag: 'Guia Simples dos Signos',
-      title: 'Aurenstar Zodiac Calculator',
+      title: 'Sign Calculator',
       subtitle:
         'Coloque o dia e o mês em que você nasceu para abrir a página do seu signo com conselhos simples e carinhosos.',
       backHome: 'Voltar ao Início',
@@ -79,7 +79,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
     },
     en: {
       tag: 'Simple Zodiac Guide',
-      title: 'Aurenstar Zodiac Calculator',
+      title: 'Sign Calculator',
       subtitle:
         'Choose your birth date to open a dedicated result page with simple and warm advice.',
       backHome: 'Back to Home',
@@ -93,7 +93,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
     },
     es: {
       tag: 'Guía Sencilla de Signos',
-      title: 'Aurenstar Zodiac Calculator',
+      title: 'Sign Calculator',
       subtitle:
         'Elige el día y mes de tu nacimiento para abrir la página con tu signo y consejos claros para tu día.',
       backHome: 'Volver al Inicio',
