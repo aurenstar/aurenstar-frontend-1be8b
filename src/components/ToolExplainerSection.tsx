@@ -31,22 +31,28 @@ export const ToolExplainerSection: React.FC = () => {
   }[lang];
 
   return (
-    <section className="w-full bg-[#C9E5FF] py-10 sm:py-12 border-b border-[#D9E8F8]">
+    <section className="relative w-full overflow-hidden border-b border-[#D9E8F8] bg-gradient-to-br from-[#C9E5FF] via-[#DDEBFF] to-[#F4E8F5] py-12 sm:py-16">
+      <div className="pointer-events-none absolute -left-24 top-16 h-56 w-56 rounded-full bg-[#2878D0]/10 blur-3xl" />
+      <div className="pointer-events-none absolute -right-20 bottom-0 h-64 w-64 rounded-full bg-[#F51B83]/10 blur-3xl" />
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <ScrollReveal distance={18} duration={700}>
           <div className="text-center mb-6 sm:mb-8">
             <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">{copy.title}</h2>
-            <p className="mt-2 text-sm text-[#647DA5]">{copy.subtitle}</p>
-            <div className="w-12 h-1 bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83] rounded-full mx-auto mt-2.5" />
+            <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-[#647DA5]">{copy.subtitle}</p>
+            <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83]" />
           </div>
         </ScrollReveal>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4">
           {copy.cards.map(([title, description, Icon], index) => (
             <ScrollReveal key={title} delay={index * 45} distance={14} duration={650}>
-              <article className="h-full rounded-2xl bg-white border border-[#D9E8F8] p-4 sm:p-5 shadow-xs">
-                <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-[#E4F1FF] text-[#2878D0]"><Icon className="h-5 w-5" /></span>
-                <h3 className="mt-3 text-sm font-extrabold leading-snug text-[#172B4D]">{title}</h3>
-                <p className="mt-2 text-xs leading-relaxed text-[#647DA5]">{description}</p>
+              <article className="group relative h-full overflow-hidden rounded-3xl border border-white/80 bg-white/90 p-5 shadow-[0_10px_30px_rgba(23,54,111,0.08)] backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#2878D0]/40 hover:bg-white hover:shadow-[0_18px_38px_rgba(23,54,111,0.16)] sm:p-6">
+                <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#2878D0] via-[#7C5CC4] to-[#F51B83] opacity-70 transition-opacity group-hover:opacity-100" />
+                <div className="flex items-start justify-between gap-3">
+                  <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-[#E4F1FF] to-[#F2E7FF] text-[#2878D0] shadow-inner transition-transform duration-300 group-hover:scale-105 group-hover:text-[#7C3FA0]"><Icon className="h-5 w-5" /></span>
+                  <span className="text-[10px] font-extrabold tracking-[0.18em] text-[#A1B6D5]">0{index + 1}</span>
+                </div>
+                <h3 className="mt-4 text-[15px] font-extrabold leading-snug text-[#172B4D]">{title}</h3>
+                <p className="mt-2.5 text-[13px] leading-[1.65] text-[#647DA5]">{description}</p>
               </article>
             </ScrollReveal>
           ))}
