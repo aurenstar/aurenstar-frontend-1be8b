@@ -719,17 +719,6 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                 </div>
               </div>
 
-              {/* Tag com Signo Detectado Automaticamente */}
-              <div className="mt-3 flex items-center justify-between p-3 rounded-2xl bg-[#E4F1FF] border border-[#D9E8F8] shadow-2xs">
-                <span className="text-xs text-[#172B4D] font-medium flex items-center gap-1.5">
-                  <Sparkles className="w-3.5 h-3.5 text-[#2878D0]" />
-                  <span>{t.computedSignLabel}</span>
-                </span>
-                <span className="text-xs font-black text-[#2878D0] flex items-center gap-1.5 px-3 py-1 rounded-full bg-white border border-[#D9E8F8] shadow-2xs">
-                  <span className="text-sm">{activeSignObj.symbol}</span>
-                  <span>{signDisplayName}</span>
-                </span>
-              </div>
             </div>
 
             {/* 3. Hora Aproximada de Nascimento */}
