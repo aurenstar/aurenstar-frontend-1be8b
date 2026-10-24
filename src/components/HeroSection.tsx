@@ -154,25 +154,25 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          <button type="button" onClick={onNavigateToDailyMessage} className="group text-left rounded-2xl bg-white border border-[#D8E9FC] p-5 shadow-sm hover:-translate-y-1 hover:border-[#F51B83] hover:shadow-[0_12px_24px_rgba(245,27,131,0.14)] transition-all duration-200">
+          <button type="button" onClick={onNavigateToDailyMessage} className="group text-left rounded-2xl bg-white border border-[#D8E9FC] p-5 shadow-sm hover:-translate-y-1.5 hover:bg-[#FDFEFF] hover:border-[#F51B83] hover:shadow-[0_16px_28px_rgba(40,120,208,0.18)] active:scale-[0.99] transition-all duration-200">
             <span className="text-xs font-bold tracking-[0.16em] text-[#2878D0]">01</span>
             <span className="mt-3 block text-base font-extrabold text-[#172B4D] group-hover:text-[#F51B83] transition-colors">{t.hero.dailyMessage}</span>
             <span className="mt-2 block text-sm leading-relaxed text-[#647DA5]">{language === 'pt' ? 'Receba uma orientação personalizada para o seu dia.' : language === 'es' ? 'Recibe una orientación personalizada para tu día.' : 'Receive personalized guidance for your day.'}</span>
-            <span className="mt-4 inline-flex text-xs font-bold uppercase tracking-[0.12em] text-[#2878D0] group-hover:text-[#F51B83] transition-colors">{language === 'pt' ? 'Começar' : language === 'es' ? 'Empezar' : 'Start'} <span className="ml-2">→</span></span>
+            <span className="mt-4 inline-flex text-xs font-bold uppercase tracking-[0.12em] text-[#2878D0] group-hover:text-[#F51B83] transition-colors">{language === 'pt' ? 'Começar' : language === 'es' ? 'Empezar' : 'Start'} <span className="ml-2 inline-block transition-transform duration-200 group-hover:translate-x-1">→</span></span>
           </button>
-          <button type="button" onClick={onNavigateToAurenEffect} className="group text-left rounded-2xl bg-white border border-[#D8E9FC] p-5 shadow-sm hover:-translate-y-1 hover:border-[#F51B83] hover:shadow-[0_12px_24px_rgba(245,27,131,0.14)] transition-all duration-200">
+          <button type="button" onClick={onNavigateToAurenEffect} className="group text-left rounded-2xl bg-white border border-[#D8E9FC] p-5 shadow-sm hover:-translate-y-1.5 hover:bg-[#FDFEFF] hover:border-[#F51B83] hover:shadow-[0_16px_28px_rgba(40,120,208,0.18)] active:scale-[0.99] transition-all duration-200">
             <span className="text-xs font-bold tracking-[0.16em] text-[#2878D0]">02</span>
             <span className="mt-3 block text-base font-extrabold text-[#172B4D] group-hover:text-[#F51B83] transition-colors">{t.hero.aurenEffect}</span>
             <span className="mt-2 block text-sm leading-relaxed text-[#647DA5]">{language === 'pt' ? 'Entenda melhor o momento que você está vivendo agora.' : language === 'es' ? 'Comprende mejor el momento que estás viviendo ahora.' : 'Understand the moment you are experiencing now.'}</span>
             <span className="mt-4 inline-flex text-xs font-bold uppercase tracking-[0.12em] text-[#2878D0] group-hover:text-[#F51B83] transition-colors">{language === 'pt' ? 'Explorar' : language === 'es' ? 'Explorar' : 'Explore'} <span className="ml-2">→</span></span>
           </button>
-          <button type="button" onClick={onNavigateToDiscoverSign} className="group text-left rounded-2xl bg-white border border-[#D8E9FC] p-5 shadow-sm hover:-translate-y-1 hover:border-[#F51B83] hover:shadow-[0_12px_24px_rgba(245,27,131,0.14)] transition-all duration-200">
+          <button type="button" onClick={onNavigateToDiscoverSign} className="group text-left rounded-2xl bg-white border border-[#D8E9FC] p-5 shadow-sm hover:-translate-y-1.5 hover:bg-[#FDFEFF] hover:border-[#F51B83] hover:shadow-[0_16px_28px_rgba(40,120,208,0.18)] active:scale-[0.99] transition-all duration-200">
             <span className="text-xs font-bold tracking-[0.16em] text-[#2878D0]">03</span>
             <span className="mt-3 block text-base font-extrabold text-[#172B4D] group-hover:text-[#F51B83] transition-colors">{t.hero.discoverSign}</span>
             <span className="mt-2 block text-sm leading-relaxed text-[#647DA5]">{language === 'pt' ? 'Descubra seu signo solar pela sua data de nascimento.' : language === 'es' ? 'Descubre tu signo solar con tu fecha de nacimiento.' : 'Discover your sun sign from your date of birth.'}</span>
             <span className="mt-4 inline-flex text-xs font-bold uppercase tracking-[0.12em] text-[#2878D0] group-hover:text-[#F51B83] transition-colors">{language === 'pt' ? 'Descobrir' : language === 'es' ? 'Descubrir' : 'Discover'} <span className="ml-2">→</span></span>
           </button>
-          <button type="button" onClick={onNavigateToDescribeMe} className="group text-left rounded-2xl bg-white border border-[#D8E9FC] p-5 shadow-sm hover:-translate-y-1 hover:border-[#F51B83] hover:shadow-[0_12px_24px_rgba(245,27,131,0.14)] transition-all duration-200">
+          <button type="button" onClick={onNavigateToDescribeMe} className="group text-left rounded-2xl bg-white border border-[#D8E9FC] p-5 shadow-sm hover:-translate-y-1.5 hover:bg-[#FDFEFF] hover:border-[#F51B83] hover:shadow-[0_16px_28px_rgba(40,120,208,0.18)] active:scale-[0.99] transition-all duration-200">
             <span className="text-xs font-bold tracking-[0.16em] text-[#2878D0]">04</span>
             <span className="mt-3 block text-base font-extrabold text-[#172B4D] group-hover:text-[#F51B83] transition-colors">{t.hero.describeMe}</span>
             <span className="mt-2 block text-sm leading-relaxed text-[#647DA5]">{language === 'pt' ? 'Crie uma descrição pessoal feita para compartilhar.' : language === 'es' ? 'Crea una descripción personal hecha para compartir.' : 'Create a personal description made to share.'}</span>
