@@ -208,12 +208,6 @@ export default function App() {
               onNavigateToDescribeMe={handleNavigateToDescribeMe}
             />
 
-            {/* Cloudflare redeploy marker: duplicated zodiac panel after hero */}
-            <BrandMarquee
-              selectedSign={selectedSign}
-              onSelectSign={setSelectedSign}
-            />
-
             {/* Trending Articles Section */}
             <BlogCardsSection
               onOpenArticle={handleOpenArticle}
