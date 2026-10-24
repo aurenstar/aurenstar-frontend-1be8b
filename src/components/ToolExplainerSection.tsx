@@ -49,10 +49,10 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
             <p className="mx-auto mt-4 max-w-xl text-xs font-semibold uppercase tracking-[0.14em] text-[#2878D0]">{lang === 'pt' ? 'Escolha uma experiência e descubra como ela pode acompanhar você' : lang === 'es' ? 'Elige una experiencia y descubre cómo puede acompañarte' : 'Choose an experience and see how it can support you'}</p>
           </div>
         </ScrollReveal>
-        <div className="relative grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="relative grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {copy.cards.map(([title, description, route, Icon], index) => (
             <ScrollReveal key={title} delay={index * 45} distance={14} duration={650}>
-              <button type="button" onClick={() => onNavigate(route)} className={`group relative block h-full w-full overflow-hidden rounded-3xl border border-white/90 bg-white p-6 text-left shadow-[0_10px_30px_rgba(23,54,111,0.08)] transition-all duration-300 hover:-translate-y-1 hover:border-[#2878D0]/50 hover:shadow-[0_18px_38px_rgba(23,54,111,0.16)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] sm:p-7 ${index === 4 ? 'lg:col-span-2 lg:col-start-2' : ''}`}>
+              <button type="button" onClick={() => onNavigate(route)} className="group relative block h-full w-full overflow-hidden rounded-3xl border border-white/90 bg-white p-5 text-left shadow-[0_10px_30px_rgba(23,54,111,0.08)] transition-all duration-300 hover:-translate-y-1 hover:border-[#2878D0]/50 hover:shadow-[0_18px_38px_rgba(23,54,111,0.16)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] sm:p-6">
                 <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#2878D0] via-[#7C5CC4] to-[#F51B83] opacity-70 transition-opacity group-hover:opacity-100" />
                 <div className="flex items-start justify-between gap-3">
                   <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-[#E4F1FF] to-[#F2E7FF] text-[#2878D0] shadow-inner transition-transform duration-300 group-hover:scale-105 group-hover:text-[#7C3FA0]"><Icon className="h-5 w-5" /></span>
