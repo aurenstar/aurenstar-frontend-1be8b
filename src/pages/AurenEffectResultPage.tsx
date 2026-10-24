@@ -197,7 +197,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
     return (
       <div className="w-full bg-[#C9E5FF] min-h-screen pt-28 pb-20 select-none animate-fadeIn text-[#172B4D] relative overflow-hidden">
         {/* Ambient background decoration */}
-        <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[350px] bg-gradient-to-tr from-[#2878D0]/15 via-[#FFE0EF]/40 to-[#F51B83]/15 blur-3xl pointer-events-none rounded-full" />
+        <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[350px] bg-[#E4F1FF]/80 blur-3xl pointer-events-none rounded-full" />
 
         <div className="max-w-2xl mx-auto px-4 sm:px-6 text-center py-16 bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md relative z-10">
           <div className="text-4xl mb-3">✨</div>
@@ -296,7 +296,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
   return (
     <div className="w-full bg-[#C9E5FF] min-h-screen pt-24 sm:pt-28 pb-24 select-none animate-fadeIn text-[#172B4D] relative overflow-hidden">
       {/* Ambient background decoration */}
-      <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[350px] bg-gradient-to-tr from-[#2878D0]/15 via-[#FFE0EF]/40 to-[#F51B83]/15 blur-3xl pointer-events-none rounded-full" />
+      <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[350px] bg-[#E4F1FF]/80 blur-3xl pointer-events-none rounded-full" />
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 relative z-10">
         {/* Navigation Breadcrumbs Bar */}
@@ -325,12 +325,12 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
             ========================================================================= */}
         <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg transition-all p-6 sm:p-10 mb-8 relative overflow-hidden">
           {/* Subtle top glow bar */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83]" />
+          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
 
           {/* Header da Leitura: Título e Signo em Destaque */}
           <div className="text-center pb-6 mb-6 border-b border-[#D9E8F8]">
             {/* Glyph Orb */}
-            <div className="w-14 h-14 mx-auto mb-3.5 rounded-2xl bg-gradient-to-tr from-[#2878D0] to-[#F51B83] text-white flex items-center justify-center text-2xl font-black shadow-md shadow-[#2878D0]/25">
+            <div className="w-14 h-14 mx-auto mb-3.5 rounded-2xl bg-[#2878D0] text-white flex items-center justify-center text-2xl font-black shadow-md shadow-[#2878D0]/25">
               {signSymbol}
             </div>
 
@@ -342,7 +342,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
           </div>
 
           {/* Caixa de Destaque com Título da Mensagem */}
-          <div className="my-6 p-6 sm:p-7 rounded-2xl bg-gradient-to-br from-[#E4F1FF]/60 via-[#FFFFFF] to-[#FFE0EF]/40 border border-[#D9E8F8] text-center space-y-3 shadow-2xs relative">
+          <div className="my-6 p-6 sm:p-7 rounded-2xl bg-[#F7FBFF] border border-[#D9E8F8] text-center space-y-3 shadow-2xs relative">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#2878D0]/10 text-[#2878D0] text-[11px] font-extrabold uppercase tracking-wider">
               <Sparkles className="w-3 h-3 text-[#F51B83]" />
               <span>{t.cardTitle}</span>
@@ -401,7 +401,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
             <div className="flex items-start justify-between mb-4 sm:mb-5">
               <div className="flex items-center gap-3.5">
                 {/* Avatar Cósmico com Estrela Branca */}
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#2878D0] to-[#F51B83] flex items-center justify-center text-white font-black text-xl shadow-xs shrink-0">
+                <div className="w-12 h-12 rounded-full bg-[#2878D0] flex items-center justify-center text-white font-black text-xl shadow-xs shrink-0">
                   ★
                 </div>
                 <div>
