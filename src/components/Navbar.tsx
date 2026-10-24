@@ -67,7 +67,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           className="flex items-center cursor-pointer group focus:outline-none"
           aria-label="Aurenstar Home"
         >
-          <AurenstarLogo className="h-10 sm:h-11 w-auto max-w-[11rem]" />
+          <AurenstarLogo className="h-11 sm:h-12 w-auto max-w-[12rem]" />
         </button>
 
         {/* Center: Navigation Links with Pill Capsule Outline */}
