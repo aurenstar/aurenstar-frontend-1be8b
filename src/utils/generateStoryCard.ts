@@ -287,6 +287,44 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
   return canvas;
 }
 
+export async function createVerticalStoryCardCanvas(data: StoryCardData): Promise<HTMLCanvasElement> {
+  const source = await createStoryCardCanvas(data);
+  const canvas = document.createElement('canvas');
+  canvas.width = 1080;
+  canvas.height = 1920;
+  const ctx = canvas.getContext('2d');
+  if (!ctx) throw new Error('Canvas 2D context not supported');
+  ctx.fillStyle = '#C9E5FF';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  const maxWidth = 1000;
+  const scale = Math.min(maxWidth / source.width, 1);
+  const drawWidth = Math.round(source.width * scale);
+  const drawHeight = Math.round(source.height * scale);
+  const x = Math.round((canvas.width - drawWidth) / 2);
+  const y = Math.round((canvas.height - drawHeight) / 2);
+  ctx.drawImage(source, x, y, drawWidth, drawHeight);
+  return canvas;
+}
+
+export async function downloadVerticalStoryCard(data: StoryCardData): Promise<void> {
+  const canvas = await createVerticalStoryCardCanvas(data);
+  return new Promise((resolve) => {
+    canvas.toBlob((blob) => {
+      if (!blob) return resolve();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      const safeName = (data.userName || 'andriel').toLowerCase().replace(/[^a-z0-9]/g, '-');
+      a.href = url;
+      a.download = `aurenstar-story-vertical-${safeName}.png`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      resolve();
+    }, 'image/png');
+  });
+}
+
 export async function downloadStoryCard(data: StoryCardData): Promise<void> {
   const canvas = await createStoryCardCanvas(data);
   return new Promise((resolve) => {
