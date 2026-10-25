@@ -256,6 +256,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
             </div>
       </div>
       </ScrollReveal>
+      </div>
     </section>
   );
 };
