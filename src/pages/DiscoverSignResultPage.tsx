@@ -82,7 +82,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
 
         {/* Hero do Resultado */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#FFFFFF]/80 border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
             <Sparkles className="w-3.5 h-3.5 text-[#2878D0]" />
             <span>Resultado da Sua Data de Nascimento</span>
           </div>
@@ -162,7 +162,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
               <button
                 type="button"
                 onClick={() => onOpenArticle(currentSign.articleId)}
-                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-white hover:bg-[#E4F1FF]/50 text-[#2878D0] border border-[#D9E8F8] text-xs font-bold transition-all cursor-pointer shadow-2xs"
+                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] text-xs font-bold transition-all cursor-pointer shadow-2xs"
               >
                 <BookOpen className="w-3.5 h-3.5" />
                 <span>Ler Artigo Especial</span>
@@ -177,7 +177,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
                     document.getElementById('blog')?.scrollIntoView({ behavior: 'smooth' });
                   }, 100);
                 }}
-                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-white hover:bg-[#E4F1FF]/50 text-[#172B4D] border border-[#D9E8F8] text-xs font-bold transition-all cursor-pointer shadow-2xs"
+                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] text-xs font-bold transition-all cursor-pointer shadow-2xs"
               >
                 <Check className="w-3.5 h-3.5 text-emerald-600" />
                 <span>Ver Posts de {currentSign.name[lang] || currentSign.name.pt}</span>
@@ -191,7 +191,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
           <button
             type="button"
             onClick={onBackToForm}
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-white hover:bg-[#E4F1FF]/40 text-[#647DA5] border border-[#D9E8F8] text-xs sm:text-sm font-bold shadow-2xs transition-all cursor-pointer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] text-xs sm:text-sm font-bold shadow-2xs transition-all cursor-pointer"
           >
             <RotateCcw className="w-4 h-4 text-[#2878D0]" />
             <span>Colocar Outra Data de Nascimento</span>
