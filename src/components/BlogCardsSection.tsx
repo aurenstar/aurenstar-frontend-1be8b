@@ -167,7 +167,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
             <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">
               {t.sectionTitle}
             </h2>
-            <div className="w-12 h-1 bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83] rounded-full mx-auto mt-2.5" />
+            <div className="w-12 h-1 bg-[#2878D0] rounded-full mx-auto mt-2.5" />
           </div>
         </ScrollReveal>
 
@@ -178,7 +178,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
           <ScrollReveal delay={50} distance={18} duration={700}>
             <div className="mb-6 p-4 sm:p-5 rounded-2xl sm:rounded-3xl bg-[#FFFFFF] border border-[#2878D0]/30 shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-4 animate-fadeIn">
               <div className="flex items-start sm:items-center gap-3">
-                <div className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-[#2878D0] to-[#F51B83] text-white flex items-center justify-center text-xl shrink-0 shadow-xs">
+                <div className="w-11 h-11 rounded-2xl bg-[#2878D0] text-white flex items-center justify-center text-xl shrink-0 shadow-xs">
                   <span>{activeSignInfo.symbol}</span>
                 </div>
                 <div>
