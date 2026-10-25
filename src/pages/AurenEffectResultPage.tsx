@@ -334,7 +334,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
           <button
             type="button"
             onClick={onNavigateToBlog}
-            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#FFE0EF] text-xs sm:text-sm font-bold text-[#2878D0] border border-[#D9E8F8] transition-all cursor-pointer"
+            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#F51B83] text-xs sm:text-sm font-bold text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] transition-all cursor-pointer"
           >
             <span>{t.exploreBlog}</span>
             <span>→</span>
@@ -364,7 +364,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
 
           {/* Caixa de Destaque com Título da Mensagem */}
           <div className="my-6 p-6 sm:p-7 rounded-2xl bg-[#F7FBFF] border border-[#D9E8F8] text-center space-y-3 shadow-2xs relative">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#2878D0]/10 text-[#2878D0] text-[11px] font-extrabold uppercase tracking-wider">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#E4F1FF] text-[#2878D0] text-[11px] font-extrabold uppercase tracking-wider">
               <Sparkles className="w-3 h-3 text-[#F51B83]" />
               <span>{t.cardTitle}</span>
             </div>
@@ -384,7 +384,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
           {/* Dica Prática para Você Hoje */}
           <div className="p-5 sm:p-6 rounded-2xl bg-[#E4F1FF]/40 border border-[#D9E8F8] space-y-2.5 transition-all">
             <div className="flex items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-[#2878D0] bg-[#2878D0]/10 px-2.5 py-0.5 rounded-full">
+              <span className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-[#2878D0] bg-[#E4F1FF] px-2.5 py-0.5 rounded-full">
                 <Sparkles className="w-3 h-3 text-[#F51B83]" />
                 <span>{t.adviceTitle}</span>
               </span>
@@ -523,7 +523,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-full border border-[#D9E8F8] bg-white hover:bg-[#E4F1FF] text-[#172B4D] hover:text-[#25D366] hover:border-[#2878D0] font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95"
               title="Compartilhar no WhatsApp"
             >
               <svg className="w-3.5 h-3.5 fill-current shrink-0 text-[#25D366]" viewBox="0 0 24 24">
@@ -551,7 +551,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
               href={facebookUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-full border border-[#D9E8F8] bg-white hover:bg-[#E4F1FF] text-[#172B4D] hover:text-[#1877F2] hover:border-[#2878D0] font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95"
               title="Compartilhar no Facebook"
             >
               <svg className="w-3.5 h-3.5 fill-current shrink-0 text-[#1877F2]" viewBox="0 0 24 24">
