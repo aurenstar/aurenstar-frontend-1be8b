@@ -253,7 +253,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                       />
                       <div className="flex flex-col min-w-0">
                         <span className="text-[11px] sm:text-xs font-bold text-[#172B4D] leading-tight truncate">
-                          Aurenstar
+                          Aurenstar <span aria-label="Verificado" title="Perfil verificado" className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-[9px] font-black leading-none text-white align-middle">✓</span>
                         </span>
                         <span className="text-[10px] text-[#647DA5] font-medium leading-tight">
                           {item.data.footerRole}
