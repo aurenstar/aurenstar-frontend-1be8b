@@ -144,7 +144,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
 
         {/* SEO Article Header */}
         <header className="text-center max-w-3xl mx-auto mb-10">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#FFFFFF]/80 border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-4 shadow-2xs">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-4 shadow-2xs">
             <span className="text-sm">{term.icone}</span>
             <span>{term.categoria}</span>
           </div>
@@ -300,7 +300,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           <button
             type="button"
             onClick={onBackToDictionary}
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-white hover:bg-[#E4F1FF]/40 text-[#647DA5] border border-[#D9E8F8] text-xs sm:text-sm font-bold shadow-2xs transition-all cursor-pointer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] text-xs sm:text-sm font-bold shadow-2xs transition-all cursor-pointer"
           >
             <BookOpen className="w-4 h-4 text-[#2878D0]" />
             <span>Voltar ao Índice Completo de Palavras</span>
