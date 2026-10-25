@@ -271,7 +271,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
           <button
             type="button"
             onClick={onBackToHome}
-            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/90 hover:bg-white text-xs sm:text-sm font-bold text-[#647DA5] hover:text-[#172B4D] border border-[#D9E8F8] shadow-2xs transition-all cursor-pointer group"
+            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#F51B83] text-xs sm:text-sm font-bold text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] shadow-2xs transition-all cursor-pointer group"
           >
             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1 text-[#2878D0]" />
             <span>{t.backHome}</span>
