@@ -1,6 +1,6 @@
 // About panel refinement
 import React from 'react';
-import { Sun, Star, Compass, Moon, Check } from 'lucide-react';
+import { Sun, Star, Compass } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { ScrollReveal } from './ScrollReveal';
 
@@ -194,7 +194,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
     {
       id: 'about-4',
       slug: 'daily-guidance',
-      icon: Moon,
+      icon: Sun,
       image:
         'https://images.unsplash.com/photo-1532693322450-2cb5c511067d?auto=format&fit=crop&w=800&q=80',
       data: t.item4,
@@ -238,16 +238,16 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                       tabIndex={onOpenCard ? 0 : undefined}
                       className="group flex cursor-pointer gap-4 rounded-2xl px-2 py-4 transition-colors hover:bg-[#F3F8FF] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]"
                     >
-                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#E4F1FF] text-[#2878D0] transition-colors group-hover:bg-[#2878D0] group-hover:text-white">
-                        <IconComponent className="h-5 w-5" />
+                      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-[#D3E6FF] bg-[#F3F8FF] text-[#2878D0] transition-colors group-hover:border-[#2878D0] group-hover:bg-[#2878D0] group-hover:text-white">
+                        <IconComponent className="h-5 w-5" strokeWidth={2.2} />
                       </div>
                       <div className="min-w-0">
                         <div className="flex items-center gap-2">
                           <span className="text-[10px] font-extrabold tracking-[0.18em] text-[#A1B6D5]">0{index + 1}</span>
-                          <span className="text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#2878D0]">{item.data.category}</span>
+                          <span className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0]">{item.data.category}</span>
                         </div>
-                        <h3 className="mt-1 text-base font-extrabold text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{item.data.title}</h3>
-                        <p className="mt-1.5 text-sm leading-relaxed text-[#647DA5]">{item.data.p1}{item.data.bold}{item.data.p2}</p>
+                        <h3 className="mt-1 text-[17px] font-extrabold tracking-[-0.01em] text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{item.data.title}</h3>
+                        <p className="mt-1.5 text-[13px] leading-6 text-[#647DA5]">{item.data.p1}{item.data.bold}{item.data.p2}</p>
                       </div>
                     </article>
                   );
