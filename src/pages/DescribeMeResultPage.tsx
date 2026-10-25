@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { ArrowLeft, Copy, Download, Share2, Sparkles } from 'lucide-react';
+import { ArrowLeft, Copy, Download, Share2, Sparkles, Check } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { DESCRIBE_ME_RESULT_KEY } from './DescribeMePage';
 
