@@ -161,7 +161,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
         {/* Card Principal da Explicação */}
         <article className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg transition-all p-6 sm:p-10 mb-8 relative overflow-hidden">
           {/* Barra sutil colorida no topo */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83]" />
+          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
 
           {/* Cabeçalho do Card com Nome e Ação de Compartilhar */}
           <div className="flex flex-wrap items-center justify-between gap-3 pb-5 mb-6 border-b border-[#D9E8F8]">
