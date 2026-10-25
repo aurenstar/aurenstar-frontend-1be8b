@@ -17,6 +17,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
   const content = {
     en: {
       title: 'ABOUT AURENSTAR',
+      subtitle: 'A simple, welcoming space to understand astrology and use it in everyday life.',
       item1: {
         category: 'PLATFORM',
         categoryColor: 'bg-[#2878D0] text-white',
@@ -56,6 +57,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
     },
     pt: {
       title: 'SOBRE A AURENSTAR',
+      subtitle: 'Um espaço simples e acolhedor para entender a astrologia e usá-la no dia a dia.',
       item1: {
         category: 'PLATAFORMA',
         categoryColor: 'bg-[#2878D0] text-white',
@@ -95,6 +97,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
     },
     es: {
       title: 'SOBRE AURENSTAR',
+      subtitle: 'Un espacio sencillo y acogedor para entender la astrología y llevarla a tu día a día.',
       item1: {
         category: 'PLATAFORMA',
         categoryColor: 'bg-[#2878D0] text-white',
