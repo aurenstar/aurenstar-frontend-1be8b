@@ -68,7 +68,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ lang }) => {
         {/* Asymmetrical 4-Card Grid */}
         <div className="mt-14 grid grid-cols-1 md:grid-cols-12 gap-6 items-stretch">
           {/* Card 1: Blue Card with smiling guy */}
-          <div className="md:col-span-5 bg-gradient-to-br from-[#277fea] to-[#409cfb] text-white p-7 sm:p-9 rounded-3xl shadow-xl flex flex-col justify-between relative overflow-hidden group">
+          <div className="md:col-span-5 bg-[#2878D0] text-white p-7 sm:p-9 rounded-3xl shadow-xl flex flex-col justify-between relative overflow-hidden group">
             <div className="flex items-center justify-between z-10">
               <span className="text-xs font-extrabold tracking-widest uppercase text-blue-100 bg-white/20 px-3 py-1 rounded-full backdrop-blur-xs">
                 IPSUM CO.
