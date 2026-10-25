@@ -126,7 +126,7 @@ Dica de Ouro: ${result.goldenTip}`;
     <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
       <div className="bg-white rounded-3xl max-w-2xl w-full my-auto shadow-2xl border border-slate-200 overflow-hidden relative">
         {/* Header */}
-        <div className="bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-600 p-6 text-white relative">
+        <div className="bg-blue-600 p-6 text-white relative">
           <button
             onClick={onClose}
             className="absolute top-5 right-5 w-8 h-8 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center transition-colors text-white cursor-pointer"
@@ -288,7 +288,7 @@ Dica de Ouro: ${result.goldenTip}`;
           {result && !loading && (
             <div className="space-y-6">
               {/* Score & Badge Banner */}
-              <div className="bg-gradient-to-br from-slate-900 to-slate-800 text-white p-6 rounded-3xl shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div className="bg-slate-800 text-white p-6 rounded-3xl shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div>
                   <div className="text-xs font-black tracking-widest uppercase text-[#d2f829]">
                     {result.rewardBadge}
