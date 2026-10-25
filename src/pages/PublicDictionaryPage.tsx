@@ -82,7 +82,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
         {/* Search & Categories Filter Card */}
         <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-sm p-5 sm:p-7 mb-8 relative overflow-hidden">
           {/* Subtle top gradient line */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83]" />
+          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
 
           {/* Search Input */}
           <div className="relative mb-5">
