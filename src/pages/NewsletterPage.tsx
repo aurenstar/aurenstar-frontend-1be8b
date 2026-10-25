@@ -188,7 +188,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
 
         {/* Page Header */}
         <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#FFFFFF]/80 border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
             <Sparkles className="w-3.5 h-3.5" />
             <span>{t.tag}</span>
           </div>
@@ -233,7 +233,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
                 <button
                   type="button"
                   onClick={onNavigateToBlog}
-                  className="px-6 py-2.5 rounded-xl bg-[#2878D0] hover:bg-[#17366F] text-white text-xs font-bold transition-all cursor-pointer shadow-xs"
+                  className="px-6 py-2.5 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-xs font-bold transition-all cursor-pointer shadow-xs"
                 >
                   {t.readSignPostsNow}
                 </button>
@@ -277,8 +277,8 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
                         onClick={() => setZodiacSign(s.value)}
                         className={`flex items-center justify-center p-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer border text-center ${
                           isSelected
-                            ? 'bg-[#2878D0] text-white border-[#2878D0] shadow-2xs scale-102'
-                            : 'bg-white border-[#D9E8F8] text-[#172B4D] hover:border-[#2878D0]/50 hover:bg-[#E4F1FF]/30'
+                            ? 'bg-[#F51B83] text-white border-[#F51B83] shadow-2xs scale-102'
+                            : 'bg-[#E4F1FF] border-[#D9E8F8] text-[#2878D0] hover:border-[#F51B83] hover:bg-[#F51B83] hover:text-white'
                         }`}
                       >
                         <span className="truncate">
@@ -324,7 +324,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
               <div className="pt-2">
                 <button
                   type="submit"
-                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-white text-sm font-bold shadow-lg shadow-[#2878D0]/25 transition-all hover:scale-101 cursor-pointer"
+                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-sm font-bold shadow-lg shadow-[#2878D0]/25 transition-all hover:scale-101 cursor-pointer"
                 >
                   <Send className="w-4 h-4" />
                   <span>{t.submitCta}</span>
