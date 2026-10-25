@@ -307,7 +307,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                       <div>
                         {/* Real Blog/Site Category Badge */}
                         <span
-                          className={`inline-block px-3 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider mb-2.5 ${post.categoryColor}`}
+                          className="inline-block px-3 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider mb-2.5 bg-[#E4F1FF] text-[#2878D0]"
                         >
                           {category}
                         </span>
