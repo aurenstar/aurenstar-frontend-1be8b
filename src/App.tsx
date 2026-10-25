@@ -4,7 +4,6 @@ import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { BrandMarquee } from './components/BrandMarquee';
 import { BlogCardsSection } from './components/BlogCardsSection';
-import { ReviewsSection } from './components/ReviewsSection';
 import { AboutAurenstarSection } from './components/AboutAurenstarSection';
 import { Footer } from './components/Footer';
 import { BlogPage } from './pages/BlogPage';
@@ -217,9 +216,6 @@ export default function App() {
 
             {/* About Aurenstar Section */}
             <AboutAurenstarSection onOpenCard={handleOpenAbout} />
-
-            {/* User Reviews Section */}
-            <ReviewsSection />
 
             {/* Zodiac panel above the footer */}
             <BrandMarquee
