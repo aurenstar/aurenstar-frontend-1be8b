@@ -1,5 +1,6 @@
 // Official Aurenstar brand avatar SVG
-export const AURENSTAR_AVATAR = `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><linearGradient id="g" x1="0%25" y1="0%25" x2="100%25" y2="100%25"><stop offset="0%25" stop-color="%232878D0"/><stop offset="50%25" stop-color="%2317366F"/><stop offset="100%25" stop-color="%23F51B83"/></linearGradient></defs><circle cx="50" cy="50" r="50" fill="url(%23g)"/><path d="M50 18 L55 42 L79 42 L60 56 L67 80 L50 66 L33 80 L40 56 L21 42 L45 42 Z" fill="%23ffffff"/></svg>`;
+// Shared Aurenstar profile avatar used across blog cards and author rows
+export const AURENSTAR_AVATAR = '/aurenstar-avatar.png';
 
 export interface BlogAuthor {
   name: string;
