@@ -360,7 +360,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                   onClick={() => setSelectedCategory(catKey)}
                   className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold tracking-tight transition-all duration-200 cursor-pointer ${
                     isSelected
-                      ? 'bg-[#2878D0] text-white shadow-xs'
+                      ? 'bg-[#F51B83] text-white shadow-xs'
                       : 'bg-transparent text-[#647DA5] hover:bg-[#E4F1FF]/60 hover:text-[#172B4D]'
                   }`}
                 >
@@ -438,7 +438,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                 <div>
                   {/* Category Pill Badge INSIDE body matching cards.png */}
                   <span
-                    className={`inline-block px-3.5 py-1 rounded-full text-[10px] sm:text-[11px] font-extrabold uppercase tracking-wider text-white mb-3 w-fit ${article.categoryColor}`}
+                    className={`inline-block px-3.5 py-1 rounded-full text-[10px] sm:text-[11px] font-extrabold uppercase tracking-wider bg-[#E4F1FF] text-[#2878D0] mb-3 w-fit`}
                   >
                     {article.category[lang] || article.category.pt}
                   </span>
@@ -489,7 +489,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                 setSearchQuery('');
                 setSelectedCategory('ALL');
               }}
-              className="px-5 py-2 rounded-xl bg-[#2878D0] hover:bg-[#17366F] text-white text-xs font-bold cursor-pointer transition-colors shadow-xs"
+              className="px-5 py-2 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-xs font-bold cursor-pointer transition-colors shadow-xs"
             >
               {t.clearSearch}
             </button>
