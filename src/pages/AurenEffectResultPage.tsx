@@ -428,8 +428,8 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
                     <span className="font-bold text-base sm:text-[17px] text-[#172B4D]">
                       Aurenstar
                     </span>
-                    <span className="w-4 h-4 rounded-full bg-[#2878D0] text-white flex items-center justify-center text-[10px] font-black shrink-0">
-                      ✓
+                    <span aria-label="Verificado" title="Perfil verificado" className="w-4 h-4 rounded-full bg-[#2878D0] text-white flex items-center justify-center shrink-0">
+                      <Check className="h-2.5 w-2.5" strokeWidth={3} />
                     </span>
                   </div>
                   <span className="text-xs sm:text-[13px] text-[#647DA5] block leading-tight mt-0.5">
