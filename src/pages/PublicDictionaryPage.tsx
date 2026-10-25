@@ -119,8 +119,8 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                   onClick={() => setSelectedCategory(cat)}
                   className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
                     isSelected
-                      ? 'bg-[#2878D0] text-white shadow-2xs scale-[1.02]'
-                      : 'bg-[#E4F1FF]/40 text-[#647DA5] border border-[#D9E8F8] hover:border-[#2878D0]/50 hover:bg-white'
+                      ? 'bg-[#F51B83] text-white shadow-2xs scale-[1.02]'
+                      : 'bg-[#E4F1FF] text-[#2878D0] border border-[#D9E8F8] hover:border-[#F51B83] hover:bg-[#F51B83] hover:text-white'
                   }`}
                 >
                   {cat}
