@@ -67,7 +67,7 @@ export const FeatureShowcase: React.FC<FeatureShowcaseProps> = ({ lang }) => {
           {/* Feature Card 1: Automation */}
           <div className="bg-slate-50 border border-slate-200/90 rounded-3xl p-7 sm:p-9 flex flex-col justify-between shadow-xs hover:shadow-md transition-shadow">
             {/* Visual Playground Mockup */}
-            <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 rounded-2xl p-5 text-white shadow-xl relative overflow-hidden">
+            <div className="bg-slate-800 rounded-2xl p-5 text-white shadow-xl relative overflow-hidden">
               <div className="flex items-center justify-between border-b border-slate-700/60 pb-3">
                 <div className="flex items-center gap-2">
                   <div className="w-2.5 h-2.5 rounded-full bg-red-400" />
