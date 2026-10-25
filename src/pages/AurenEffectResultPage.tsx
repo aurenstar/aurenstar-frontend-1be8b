@@ -470,17 +470,6 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
               onClick={handleDownloadCard}
               disabled={isGeneratingCard}
               className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full bg-[#2878D0] hover:bg-[#17366F] text-white font-medium text-xs border border-[#2878D0] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
-            <button
-              type="button"
-              onClick={handleDownloadVerticalStory}
-              disabled={isGeneratingVerticalStory}
-              className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full bg-[#F51B83] hover:bg-[#D91670] text-white font-medium text-xs border border-[#F51B83] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
-              title="Baixar formato vertical 9:16 para Stories"
-            >
-              <Download className="w-3.5 h-3.5 shrink-0" />
-              <span>{isGeneratingVerticalStory ? 'Gerando...' : 'Baixar Story 9:16'}</span>
-            </button>
-
               title="Baixar imagem em PNG"
             >
               <Download className="w-3.5 h-3.5 shrink-0" />
@@ -491,6 +480,18 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
                   ? 'Baixado! ✨'
                   : t.downloadBtn}
               </span>
+            </button>
+
+            {/* Baixar Story 9:16 */}
+            <button
+              type="button"
+              onClick={handleDownloadVerticalStory}
+              disabled={isGeneratingVerticalStory}
+              className="w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full bg-[#F51B83] hover:bg-[#D91670] text-white font-medium text-xs border border-[#F51B83] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
+              title="Baixar formato vertical 9:16 para Stories"
+            >
+              <Download className="w-3.5 h-3.5 shrink-0" />
+              <span>{isGeneratingVerticalStory ? 'Gerando...' : 'Baixar Story 9:16'}</span>
             </button>
 
             {/* Copiar Link */}
