@@ -1,3 +1,4 @@
+// About panel refinement
 import React from 'react';
 import { Sun, Star, Compass, Moon, Check } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
