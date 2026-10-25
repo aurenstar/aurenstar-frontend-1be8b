@@ -180,7 +180,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
             <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">
               {t.title}
             </h2>
-            <div className="w-12 h-1 bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83] rounded-full mx-auto mt-2.5" />
+            <div className="w-12 h-1 bg-[#2878D0] rounded-full mx-auto mt-2.5" />
           </div>
         </ScrollReveal>
 
