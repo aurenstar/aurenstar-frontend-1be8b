@@ -227,7 +227,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
             VIRAL STORY CARD GENERATOR BUTTON (Divulgação Grátis Aurenstar)
             ========================================================================= */}
         {storyCardData && (
-          <div className="mb-5 p-4 rounded-2xl bg-gradient-to-br from-[#17366F] via-[#2878D0] to-[#17366F] text-white shadow-md border border-[#2878D0]/30">
+          <div className="mb-5 p-4 rounded-2xl bg-[#2878D0] text-white shadow-md border border-[#2878D0]/30">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-lg">📸</span>
               <span className="text-xs font-extrabold uppercase tracking-wider text-[#C9E5FF]">
