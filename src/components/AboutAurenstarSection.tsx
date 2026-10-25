@@ -218,37 +218,41 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
               </button>
             </div>
 
-            <div className="divide-y divide-[#D9E8F8] rounded-3xl border border-[#D9E8F8] bg-[#FFFFFF] px-5 shadow-[0_12px_32px_rgba(23,54,111,0.08)] sm:px-7">
-              {items.slice(0, 3).map((item, index) => {
-                const IconComponent = item.icon;
-                return (
-                  <article
-                    key={item.id}
-                    onClick={() => onOpenCard?.(item.slug)}
-                    onKeyDown={(event) => {
-                      if (event.key === 'Enter' || event.key === ' ') onOpenCard?.(item.slug);
-                    }}
-                    role={onOpenCard ? 'link' : undefined}
-                    tabIndex={onOpenCard ? 0 : undefined}
-                    className="group flex cursor-pointer gap-4 py-5 first:pt-6 last:pb-6 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]"
-                  >
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#E4F1FF] text-[#2878D0] transition-colors group-hover:bg-[#2878D0] group-hover:text-white">
-                      <IconComponent className="h-5 w-5" />
-                    </div>
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <span className="text-[10px] font-extrabold tracking-[0.18em] text-[#A1B6D5]">0{index + 1}</span>
-                        <span className="text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#2878D0]">{item.data.category}</span>
+            <div className="rounded-3xl border border-[#D9E8F8] border-t-4 border-t-[#2878D0] bg-[#FFFFFF] p-6 shadow-[0_16px_36px_rgba(23,54,111,0.10)] sm:p-7">
+              <div className="mb-4 border-b border-[#D9E8F8] pb-4">
+                <p className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#2878D0]">O QUE VOCÊ ENCONTRA AQUI</p>
+                <p className="mt-2 text-sm leading-relaxed text-[#647DA5]">Três formas simples de usar a astrologia como apoio para o seu dia.</p>
+              </div>
+              <div className="space-y-1">
+                {items.slice(0, 3).map((item, index) => {
+                  const IconComponent = item.icon;
+                  return (
+                    <article
+                      key={item.id}
+                      onClick={() => onOpenCard?.(item.slug)}
+                      onKeyDown={(event) => {
+                        if (event.key === 'Enter' || event.key === ' ') onOpenCard?.(item.slug);
+                      }}
+                      role={onOpenCard ? 'link' : undefined}
+                      tabIndex={onOpenCard ? 0 : undefined}
+                      className="group flex cursor-pointer gap-4 rounded-2xl px-2 py-4 transition-colors hover:bg-[#F3F8FF] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]"
+                    >
+                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#E4F1FF] text-[#2878D0] transition-colors group-hover:bg-[#2878D0] group-hover:text-white">
+                        <IconComponent className="h-5 w-5" />
                       </div>
-                      <h3 className="mt-1 text-base font-extrabold text-[#172B4D] group-hover:text-[#2878D0]">{item.data.title}</h3>
-                      <p className="mt-1.5 text-sm leading-relaxed text-[#647DA5]">{item.data.p1}{item.data.bold}{item.data.p2}</p>
-                    </div>
-                  </article>
-                );
-              })}
+                      <div className="min-w-0">
+                        <div className="flex items-center gap-2">
+                          <span className="text-[10px] font-extrabold tracking-[0.18em] text-[#A1B6D5]">0{index + 1}</span>
+                          <span className="text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#2878D0]">{item.data.category}</span>
+                        </div>
+                        <h3 className="mt-1 text-base font-extrabold text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{item.data.title}</h3>
+                        <p className="mt-1.5 text-sm leading-relaxed text-[#647DA5]">{item.data.p1}{item.data.bold}{item.data.p2}</p>
+                      </div>
+                    </article>
+                  );
+                })}
+              </div>
             </div>
-          </div>
-        </ScrollReveal>
       </div>
     </section>
   );
