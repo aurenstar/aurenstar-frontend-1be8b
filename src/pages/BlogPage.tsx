@@ -184,7 +184,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
               }`}
             />
           ))}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/45 to-black/35 pointer-events-none" />
+          <div className="absolute inset-0 bg-black/60 pointer-events-none" />
 
           {/* Previous / Next Arrow Controls for Manual Navigation */}
           <button
