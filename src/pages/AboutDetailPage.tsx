@@ -55,9 +55,9 @@ export const AboutDetailPage: React.FC<AboutDetailPageProps> = ({ section, onBac
         <button type="button" onClick={onBackToHome} className="mb-10 inline-flex items-center gap-2 text-sm font-semibold text-[#2878D0] hover:text-[#17366F]">
           <ArrowLeft className="h-4 w-4" /> {t.back}
         </button>
-        <div className="rounded-3xl border border-[#D9E8F8] bg-white p-6 shadow-[0_12px_35px_rgba(23,54,111,0.08)] sm:p-10">
-          <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#E4F1FF] text-[#2878D0]"><Icon className="h-6 w-6" /></div>
-          <p className="mb-3 text-xs font-extrabold tracking-[0.2em] text-[#2878D0]">{t.eyebrow} · {data.label}</p>
+        <div className="rounded-3xl border border-[#D9E8F8] border-t-4 border-t-[#F51B83] bg-white p-6 shadow-[0_12px_35px_rgba(23,54,111,0.08)] sm:p-10">
+          <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#FFF0F7] text-[#F51B83]"><Icon className="h-6 w-6" /></div>
+          <p className="mb-3 text-xs font-extrabold tracking-[0.2em] text-[#F51B83]">{t.eyebrow} · {data.label}</p>
           <h1 className="text-3xl font-extrabold leading-tight text-[#172B4D] sm:text-4xl">{data.title}</h1>
           <p className="mt-5 text-base leading-relaxed text-[#647DA5] sm:text-lg">{data.intro}</p>
           <ul className="mt-7 space-y-4 border-t border-[#D9E8F8] pt-7">
