@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Search, X, Sparkles, Star } from 'lucide-react';
+import { Search, X, Sparkles, Star, Check } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { BLOG_ARTICLES, AURENSTAR_AVATAR } from '../data/blogArticles';
 import { ZODIAC_SIGNS } from './BrandMarquee';
@@ -332,7 +332,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                         />
                         <div className="flex flex-col min-w-0">
                           <span className="text-xs font-bold text-[#172B4D] leading-tight truncate">
-                            Aurenstar <span aria-label="Verificado" title="Perfil verificado" className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-[9px] font-black leading-none text-white align-middle">✓</span>
+                            Aurenstar <span aria-label="Verificado" title="Perfil verificado" className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span>
                           </span>
                           <span className="text-[10px] text-[#647DA5] font-medium leading-tight mt-0.5">
                             {date}
