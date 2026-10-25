@@ -247,7 +247,7 @@ export const ReviewsSection: React.FC = () => {
             <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">
               {t.title}
             </h2>
-            <div className="w-12 h-1 bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83] rounded-full mx-auto mt-2.5" />
+            <div className="w-12 h-1 bg-[#2878D0] rounded-full mx-auto mt-2.5" />
             <div className="flex items-center justify-center gap-2 text-xs text-[#647DA5] mt-2.5 font-semibold">
               <span>{t.stats}</span>
               <Star className="w-3.5 h-3.5 fill-[#2878D0] text-[#2878D0]" />
@@ -262,8 +262,8 @@ export const ReviewsSection: React.FC = () => {
       <ScrollReveal delay={100} distance={22} duration={750}>
         <div className="relative w-full overflow-hidden py-1">
           {/* Soft edge fade masks for seamless horizontal transition */}
-          <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-8 sm:w-20 bg-gradient-to-r from-[#C9E5FF] to-transparent z-10" />
-          <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-8 sm:w-20 bg-gradient-to-l from-[#C9E5FF] to-transparent z-10" />
+          <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-8 sm:w-20 bg-[#C9E5FF] z-10" />
+          <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-8 sm:w-20 bg-[#C9E5FF] z-10" />
 
           {/* Marquee Container with hover pause */}
           <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
