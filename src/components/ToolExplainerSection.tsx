@@ -52,7 +52,7 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
         <div className="relative grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {copy.cards.map(([title, description, route, Icon], index) => (
             <ScrollReveal key={title} delay={index * 45} distance={14} duration={650}>
-              <button type="button" onClick={() => onNavigate(route)} className={`group relative block min-h-[285px] h-full w-full overflow-hidden rounded-2xl border border-[#D7E7F8] bg-gradient-to-br ${index % 2 === 0 ? 'from-white via-white to-[#F1F7FF]' : 'from-white via-white to-[#FBF0FA]'} p-5 text-left shadow-[0_8px_24px_rgba(23,54,111,0.07)] transition-all duration-300 hover:-translate-y-1 hover:border-[#2878D0]/60 hover:shadow-[0_16px_32px_rgba(23,54,111,0.14)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] sm:p-6`}>
+              <button type="button" onClick={() => onNavigate(route)} className={`group relative block min-h-[285px] h-full w-full overflow-hidden rounded-2xl border border-[#D7E7F8] bg-white p-5 text-left shadow-[0_8px_24px_rgba(23,54,111,0.07)] transition-all duration-300 hover:-translate-y-1 hover:border-[#2878D0]/60 hover:shadow-[0_16px_32px_rgba(23,54,111,0.14)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] sm:p-6`}>
                 <div className="absolute inset-x-0 top-0 h-1 bg-[#2878D0] opacity-80 transition-opacity group-hover:opacity-100" />
                 <div className="pointer-events-none absolute -right-8 -top-8 h-20 w-20 rounded-full bg-[#2878D0]/[0.06] blur-xl transition-all duration-500 group-hover:scale-150 group-hover:bg-[#F51B83]/[0.10]" />
                 <div className="flex items-start justify-between gap-3">
