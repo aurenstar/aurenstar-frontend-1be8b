@@ -201,7 +201,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
   ];
 
   return (
-    <section id="about" className="w-full border-y border-[#D9E8F8] bg-[#FFFFFF] py-16 sm:py-20">
+    <section id="about" className="w-full border-y border-[#B8D8F5] bg-[#C9E5FF] py-16 sm:py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <ScrollReveal delay={0} distance={20} duration={700}>
           <div className="grid gap-10 md:grid-cols-[1.05fr_1fr] md:items-center md:gap-16">
@@ -218,7 +218,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
               </button>
             </div>
 
-            <div className="divide-y divide-[#D9E8F8] rounded-2xl border border-[#D9E8F8] bg-[#F8FBFF] px-5 sm:px-7">
+            <div className="divide-y divide-[#D9E8F8] rounded-3xl border border-[#D9E8F8] bg-[#FFFFFF] px-5 shadow-[0_12px_32px_rgba(23,54,111,0.08)] sm:px-7">
               {items.slice(0, 3).map((item, index) => {
                 const IconComponent = item.icon;
                 return (
