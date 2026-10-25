@@ -182,7 +182,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             <button
               type="button"
               onClick={handleShare}
-              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-[#2878D0] hover:bg-[#17366F] text-white text-xs font-bold transition-all cursor-pointer shadow-xs active:scale-95"
+              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-xs font-bold transition-all cursor-pointer shadow-xs active:scale-95"
             >
               {copied ? (
                 <>
@@ -246,7 +246,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               <button
                 type="button"
                 onClick={() => onNavigateToTool(term.ferramentaRelacionada!.rota)}
-                className="px-4 py-2.5 rounded-xl bg-[#2878D0] hover:bg-[#17366F] text-white text-xs font-bold shadow-xs transition-colors cursor-pointer flex items-center gap-2 shrink-0 active:scale-95"
+                className="px-4 py-2.5 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-xs font-bold shadow-xs transition-colors cursor-pointer flex items-center gap-2 shrink-0 active:scale-95"
               >
                 <span>{term.ferramentaRelacionada.nome}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
