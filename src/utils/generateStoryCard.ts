@@ -208,10 +208,15 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
   ctx.arc(badgeX, badgeY, badgeR, 0, Math.PI * 2);
   ctx.fill();
 
-  ctx.fillStyle = '#FFFFFF';
-  ctx.font = 'bold 16px sans-serif';
-  ctx.textAlign = 'center';
-  ctx.fillText('✓', badgeX, badgeY + 6);
+  ctx.strokeStyle = '#FFFFFF';
+  ctx.lineWidth = 3;
+  ctx.lineCap = 'round';
+  ctx.lineJoin = 'round';
+  ctx.beginPath();
+  ctx.moveTo(badgeX - 6, badgeY);
+  ctx.lineTo(badgeX - 1, badgeY + 5);
+  ctx.lineTo(badgeX + 7, badgeY - 6);
+  ctx.stroke();
 
   // 3. Profile Handle & Address: @aurenstar • aurenstar.com
   ctx.textAlign = 'left';
