@@ -245,7 +245,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                       className={`px-3 py-1 rounded-full text-[11px] font-semibold whitespace-nowrap transition-all duration-200 cursor-pointer ${
                         isActive
                           ? 'bg-[#2878D0] text-white shadow-2xs font-bold'
-                          : 'bg-[#FFFFFF] border border-[#D9E8F8] text-[#647DA5] hover:bg-[#E4F1FF] hover:text-[#172B4D] hover:border-[#2878D0]'
+                          : 'bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] hover:bg-[#F51B83] hover:text-white hover:border-[#F51B83]'
                       }`}
                     >
                       {cat.label}
