@@ -244,7 +244,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                       onClick={() => setSelectedCategory(cat.key)}
                       className={`px-3 py-1 rounded-full text-[11px] font-semibold whitespace-nowrap transition-all duration-200 cursor-pointer ${
                         isActive
-                          ? 'bg-[#2878D0] text-white shadow-2xs font-bold'
+                          ? 'bg-[#F51B83] text-white shadow-2xs font-bold'
                           : 'bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] hover:bg-[#F51B83] hover:text-white hover:border-[#F51B83]'
                       }`}
                     >
