@@ -204,8 +204,17 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
   const badgeR = 14;
 
   ctx.fillStyle = '#2878D0';
+  // Scalloped verification seal, matching the social-style badge used in the UI.
   ctx.beginPath();
-  ctx.arc(badgeX, badgeY, badgeR, 0, Math.PI * 2);
+  const sealPoints = 24;
+  for (let i = 0; i < sealPoints; i++) {
+    const angle = (i / sealPoints) * Math.PI * 2 - Math.PI / 2;
+    const radius = i % 2 === 0 ? badgeR : badgeR * 0.84;
+    const px = badgeX + Math.cos(angle) * radius;
+    const py = badgeY + Math.sin(angle) * radius;
+    if (i === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+  }
+  ctx.closePath();
   ctx.fill();
 
   ctx.strokeStyle = '#FFFFFF';
