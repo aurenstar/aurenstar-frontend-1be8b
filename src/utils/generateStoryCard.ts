@@ -4,6 +4,15 @@
  * for Instagram Stories, WhatsApp Status & Feed.
  */
 
+function loadImage(src: string): Promise<HTMLImageElement> {
+  return new Promise((resolve, reject) => {
+    const image = new Image();
+    image.onload = () => resolve(image);
+    image.onerror = reject;
+    image.src = src;
+  });
+}
+
 export interface StoryCardData {
   userName: string;
   signName: string;
@@ -166,8 +175,9 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
   ctx.lineWidth = 2;
   ctx.stroke();
 
-  // 1. Profile Avatar (Aurenstar gradient circle with star)
+  // 1. Profile Avatar (supplied Aurenstar logo)
   const avatarX = cardX + 50;
+  const avatarImage = await loadImage('/aurenstar-avatar.png');
 
   ctx.save();
   ctx.beginPath();
@@ -175,42 +185,7 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
   ctx.closePath();
   ctx.clip();
 
-  // Cosmic Avatar Gradient
-  const grad = ctx.createLinearGradient(avatarX, avatarY, avatarX + avatarR * 2, avatarY + avatarR * 2);
-  grad.addColorStop(0, '#2878D0');
-  grad.addColorStop(0.5, '#17366F');
-  grad.addColorStop(1, '#F51B83');
-  ctx.fillStyle = grad;
-  ctx.fillRect(avatarX, avatarY, avatarR * 2, avatarR * 2);
-
-  // Draw Star inside Avatar
-  ctx.fillStyle = '#FFFFFF';
-  const cx = avatarX + avatarR;
-  const cy = avatarY + avatarR;
-  ctx.beginPath();
-  const spikes = 5;
-  const outerR = 25;
-  const innerR = 12;
-  let rot = (Math.PI / 2) * 3;
-  let x = cx;
-  let y = cy;
-  const step = Math.PI / spikes;
-
-  ctx.moveTo(cx, cy - outerR);
-  for (let i = 0; i < spikes; i++) {
-    x = cx + Math.cos(rot) * outerR;
-    y = cy + Math.sin(rot) * outerR;
-    ctx.lineTo(x, y);
-    rot += step;
-
-    x = cx + Math.cos(rot) * innerR;
-    y = cy + Math.sin(rot) * innerR;
-    ctx.lineTo(x, y);
-    rot += step;
-  }
-  ctx.lineTo(cx, cy - outerR);
-  ctx.closePath();
-  ctx.fill();
+  ctx.drawImage(avatarImage, avatarX, avatarY, avatarR * 2, avatarR * 2);
   ctx.restore();
 
   // 2. Profile Name & Verified Badge
