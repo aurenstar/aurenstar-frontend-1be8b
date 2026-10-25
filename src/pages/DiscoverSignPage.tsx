@@ -134,7 +134,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
 
         {/* Cabeçalho da Página */}
         <div className="text-center mb-10">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#FFFFFF]/80 border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
             <Sparkles className="w-3.5 h-3.5" />
             <span>{t.tag}</span>
           </div>
