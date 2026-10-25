@@ -45,7 +45,7 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
           <div className="text-center mb-6 sm:mb-8">
             <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">{copy.title}</h2>
             <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-[#647DA5]">{copy.subtitle}</p>
-            <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83]" />
+            <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-[#2878D0]" />
             <p className="mx-auto mt-4 max-w-xl text-xs font-semibold uppercase tracking-[0.14em] text-[#2878D0]">{lang === 'pt' ? 'Escolha uma experiência e descubra como ela pode acompanhar você' : lang === 'es' ? 'Elige una experiencia y descubre cómo puede acompañarte' : 'Choose an experience and see how it can support you'}</p>
           </div>
         </ScrollReveal>
@@ -53,7 +53,7 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
           {copy.cards.map(([title, description, route, Icon], index) => (
             <ScrollReveal key={title} delay={index * 45} distance={14} duration={650}>
               <button type="button" onClick={() => onNavigate(route)} className={`group relative block min-h-[285px] h-full w-full overflow-hidden rounded-2xl border border-[#D7E7F8] bg-gradient-to-br ${index % 2 === 0 ? 'from-white via-white to-[#F1F7FF]' : 'from-white via-white to-[#FBF0FA]'} p-5 text-left shadow-[0_8px_24px_rgba(23,54,111,0.07)] transition-all duration-300 hover:-translate-y-1 hover:border-[#2878D0]/60 hover:shadow-[0_16px_32px_rgba(23,54,111,0.14)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] sm:p-6`}>
-                <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#2878D0] via-[#7C5CC4] to-[#F51B83] opacity-80 transition-opacity group-hover:opacity-100" />
+                <div className="absolute inset-x-0 top-0 h-1 bg-[#2878D0] opacity-80 transition-opacity group-hover:opacity-100" />
                 <div className="pointer-events-none absolute -right-8 -top-8 h-20 w-20 rounded-full bg-[#2878D0]/[0.06] blur-xl transition-all duration-500 group-hover:scale-150 group-hover:bg-[#F51B83]/[0.10]" />
                 <div className="flex items-start justify-between gap-3">
                   <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-[#D6E8FA] bg-[#EEF6FF] text-[#2878D0] transition-all duration-300 group-hover:rotate-6 group-hover:border-[#F2C5DD] group-hover:bg-[#FCE7F2] group-hover:text-[#C21867]"><Icon className="h-5 w-5" /></span>
