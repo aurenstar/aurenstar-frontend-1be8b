@@ -36,7 +36,7 @@ export const BottomBanner: React.FC<BottomBannerProps> = ({
             className="w-full h-full object-cover object-bottom"
           />
           {/* Subtle gradient overlay to enhance text readability */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-black/30" />
+          <div className="absolute inset-0 bg-black/40" />
         </div>
 
         {/* Content Box */}
