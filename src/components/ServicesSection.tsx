@@ -163,7 +163,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
                       alt={service.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-80" />
+                    <div className="absolute inset-0 bg-black/40 opacity-80" />
                   </div>
 
                   {/* Title & Description */}
