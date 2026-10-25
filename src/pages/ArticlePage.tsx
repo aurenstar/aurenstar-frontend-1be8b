@@ -262,7 +262,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           <div className="flex items-center gap-2 sm:gap-3">
             <button
               onClick={onBackToBlog}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[#D9E8F8] bg-white/80 hover:bg-white text-xs font-bold text-[#172B4D] transition-all cursor-pointer shadow-xs group"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-xs font-bold text-[#2878D0] hover:text-white hover:border-[#F51B83] transition-all cursor-pointer shadow-xs group"
             >
               <ArrowLeft className="w-3.5 h-3.5 transition-transform group-hover:-translate-x-1" />
               <span>{l.backBtn}</span>
@@ -270,7 +270,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
 
             <button
               onClick={handleShare}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[#D9E8F8] bg-white hover:bg-[#E4F1FF]/40 text-xs font-semibold text-[#647DA5] hover:text-[#172B4D] transition-all cursor-pointer shadow-xs group"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-xs font-semibold text-[#2878D0] hover:text-white hover:border-[#F51B83] transition-all cursor-pointer shadow-xs group"
               title={l.shareBtn}
             >
               <Share2 className="w-3.5 h-3.5 text-[#2878D0] group-hover:scale-110 transition-transform" />
@@ -282,7 +282,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
               className={`p-2 rounded-full border transition-all cursor-pointer shadow-xs ${
                 isBookmarked
                   ? 'border-[#2878D0] bg-[#2878D0] text-white shadow-sm ring-2 ring-[#2878D0]/30 scale-105'
-                  : 'border-[#D9E8F8] bg-white hover:bg-[#E4F1FF]/40 text-[#647DA5] hover:text-[#172B4D]'
+                  : 'border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83]'
               }`}
               title={isBookmarked ? l.bookmarked : l.bookmarkBtn}
               aria-label={isBookmarked ? l.bookmarked : l.bookmarkBtn}
@@ -299,7 +299,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           {/* Category Pill & Read Time */}
           <div className="flex items-center gap-3 mb-4">
             <span
-              className={`inline-block px-3.5 py-1 rounded-full text-[11px] font-extrabold uppercase tracking-wider text-white shadow-xs ${article.categoryColor}`}
+              className={`inline-block px-3.5 py-1 rounded-full text-[11px] font-extrabold uppercase tracking-wider bg-[#E4F1FF] text-[#2878D0] shadow-xs`}
             >
               {article.category[lang] || article.category.pt}
             </span>
