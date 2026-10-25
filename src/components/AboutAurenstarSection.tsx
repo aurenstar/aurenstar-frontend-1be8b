@@ -221,7 +221,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
 
             <div className="relative pl-5 sm:pl-8">
               <div className="absolute bottom-4 left-[1.45rem] top-24 w-px bg-[#8FC4F2] sm:left-[2rem]" />
-              <div className="mb-8">
+              <div className="mb-8 border-l-2 border-[#F51B83] pl-4">
                 <p className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]">O QUE VOCÊ ENCONTRA AQUI</p>
                 <p className="mt-2 max-w-sm text-sm leading-6 text-[#647DA5]">Três formas simples de usar a astrologia como apoio para o seu dia.</p>
               </div>
@@ -239,18 +239,18 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                       tabIndex={onOpenCard ? 0 : undefined}
                       className="group relative flex cursor-pointer items-start gap-4 rounded-2xl py-1 transition-transform duration-200 hover:translate-x-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-4"
                     >
-                      <div className={`relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-4 border-[#C9E5FF] text-[11px] font-extrabold text-white shadow-[0_4px_10px_rgba(40,120,208,0.22)] ${index === 2 ? 'bg-[#F51B83]' : 'bg-[#2878D0]'}`}>
+                      <div className="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-4 border-[#C9E5FF] bg-[#2878D0] text-[11px] font-extrabold text-white shadow-[0_4px_10px_rgba(40,120,208,0.22)]">
                         0{index + 1}
                       </div>
                       <div className="min-w-0 flex-1 pt-0.5">
                         <div className="flex items-center gap-2">
-                          <IconComponent className={`h-4 w-4 ${index === 2 ? 'text-[#F51B83]' : 'text-[#2878D0]'}`} strokeWidth={2.2} />
-                          <span className={`text-[10px] font-extrabold uppercase tracking-[0.16em] ${index === 2 ? 'text-[#F51B83]' : 'text-[#2878D0]'}`}>{item.data.category}</span>
+                          <IconComponent className="h-4 w-4 text-[#2878D0]" strokeWidth={2.2} />
+                          <span className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0]">{item.data.category}</span>
                         </div>
                         <h3 className="mt-1.5 text-[18px] font-extrabold tracking-[-0.02em] text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{item.data.title}</h3>
                         <p className="mt-1.5 max-w-md text-[13px] leading-6 text-[#647DA5]">{item.data.p1}{item.data.bold}{item.data.p2}</p>
                       </div>
-                      <span className="mt-1 text-xl text-[#A1B6D5] transition-transform group-hover:translate-x-1 group-hover:text-[#F51B83]" aria-hidden="true">→</span>
+                      <span className="mt-1 text-xl text-[#A1B6D5] transition-transform group-hover:translate-x-1 group-hover:text-[#2878D0]" aria-hidden="true">→</span>
                     </article>
                   );
                 })}
