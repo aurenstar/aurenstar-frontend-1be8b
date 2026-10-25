@@ -80,8 +80,8 @@ export const Navbar: React.FC<NavbarProps> = ({
                 onClick={() => handleItemClick(item.key)}
                 className={`group relative font-sans text-[11px] sm:text-xs leading-none font-semibold tracking-wider transition-all duration-200 cursor-pointer focus:outline-none flex items-center justify-center shrink-0 rounded-full px-3.5 sm:px-4.5 py-1 sm:py-1.5 border ${
                   isActive
-                    ? 'border-[#2878D0] text-[#17366F] bg-[#FFFFFF] font-bold shadow-2xs'
-                    : 'border-[#D9E8F8] text-[#172B4D] hover:border-[#2878D0] hover:text-[#2878D0] hover:bg-[#FFFFFF]'
+                    ? 'border-[#F51B83] bg-[#F51B83] text-white font-bold shadow-[0_6px_14px_rgba(245,27,131,0.2)]'
+                    : 'border-transparent bg-[#E4F1FF]/80 text-[#2878D0] hover:border-[#F51B83] hover:bg-[#F51B83] hover:text-white'
                 }`}
               >
                 <span>{item.label}</span>
