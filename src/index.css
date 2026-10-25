@@ -170,3 +170,16 @@ html {
   }
 }
 
+
+
+/* Social-style verification seal: blue scalloped badge with a white check. */
+[aria-label="Verificado"] {
+  border-radius: 0 !important;
+  clip-path: polygon(
+    50% 0%, 61% 8%, 75% 5%, 83% 17%, 96% 21%,
+    94% 35%, 100% 50%, 94% 63%, 96% 78%, 83% 82%,
+    75% 95%, 61% 92%, 50% 100%, 39% 92%, 25% 95%,
+    17% 82%, 4% 78%, 6% 63%, 0% 50%, 6% 35%,
+    4% 21%, 17% 17%, 25% 5%, 39% 8%
+  );
+}
