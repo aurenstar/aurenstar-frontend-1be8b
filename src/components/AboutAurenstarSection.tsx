@@ -139,6 +139,32 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
 
   const t = content[lang] || content.en;
 
+  const intro = {
+    en: {
+      eyebrow: 'AURENSTAR IN A FEW WORDS',
+      title: 'Astrology made clear, gentle, and useful.',
+      text: 'Aurenstar turns astrology into simple reflections for everyday life. Each experience has a different purpose, but all of them are designed to help you pause, understand yourself, and choose your next step with more clarity.',
+      link: 'Learn more about us',
+    },
+    pt: {
+      eyebrow: 'A AURENSTAR EM POUCAS PALAVRAS',
+      title: 'Astrologia clara, acolhedora e útil.',
+      text: 'A Aurenstar transforma a astrologia em reflexões simples para a vida real. Cada experiência tem um propósito diferente, mas todas ajudam você a fazer uma pausa, se compreender melhor e escolher o próximo passo com mais clareza.',
+      link: 'Conheça mais sobre nós',
+    },
+    es: {
+      eyebrow: 'AURENSTAR EN POCAS PALABRAS',
+      title: 'Astrología clara, cercana y útil.',
+      text: 'Aurenstar convierte la astrología en reflexiones sencillas para la vida real. Cada experiencia tiene un propósito diferente, pero todas te ayudan a hacer una pausa, entenderte mejor y elegir tu próximo paso con más claridad.',
+      link: 'Conoce más sobre nosotros',
+    },
+  }[lang] || {
+    eyebrow: 'AURENSTAR',
+    title: 'Astrology made clear.',
+    text: 'Simple reflections for everyday life.',
+    link: 'Learn more',
+  };
+
   const items = [
     {
       id: 'about-1',
@@ -175,100 +201,54 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
   ];
 
   return (
-    <section id="about" className="w-full bg-[#C9E5FF] border-y border-[#D9E8F8] py-10 sm:py-12 select-none">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        {/* Section Header exactly matching Trending Articles com fade-in e slide-up */}
-        <ScrollReveal delay={0} distance={20} duration={750}>
-          <div className="text-center mb-6 sm:mb-8">
-            <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">
-              {t.title}
-            </h2>
-            <div className="w-12 h-1 bg-[#2878D0] rounded-full mx-auto mt-2.5" />
+    <section id="about" className="w-full border-y border-[#D9E8F8] bg-[#FFFFFF] py-16 sm:py-20">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <ScrollReveal delay={0} distance={20} duration={700}>
+          <div className="grid gap-10 md:grid-cols-[1.05fr_1fr] md:items-center md:gap-16">
+            <div>
+              <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-[#2878D0]">{intro.eyebrow}</p>
+              <h2 className="mt-4 max-w-xl text-3xl font-extrabold leading-tight text-[#172B4D] sm:text-4xl">{intro.title}</h2>
+              <p className="mt-5 max-w-xl text-base leading-relaxed text-[#647DA5]">{intro.text}</p>
+              <button
+                type="button"
+                onClick={() => onOpenCard?.('platform')}
+                className="mt-7 inline-flex items-center gap-2 rounded-full bg-[#2878D0] px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-[#17366F] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-2"
+              >
+                {intro.link}<span aria-hidden="true">→</span>
+              </button>
+            </div>
+
+            <div className="divide-y divide-[#D9E8F8] rounded-2xl border border-[#D9E8F8] bg-[#F8FBFF] px-5 sm:px-7">
+              {items.slice(0, 3).map((item, index) => {
+                const IconComponent = item.icon;
+                return (
+                  <article
+                    key={item.id}
+                    onClick={() => onOpenCard?.(item.slug)}
+                    onKeyDown={(event) => {
+                      if (event.key === 'Enter' || event.key === ' ') onOpenCard?.(item.slug);
+                    }}
+                    role={onOpenCard ? 'link' : undefined}
+                    tabIndex={onOpenCard ? 0 : undefined}
+                    className="group flex cursor-pointer gap-4 py-5 first:pt-6 last:pb-6 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]"
+                  >
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#E4F1FF] text-[#2878D0] transition-colors group-hover:bg-[#2878D0] group-hover:text-white">
+                      <IconComponent className="h-5 w-5" />
+                    </div>
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-[10px] font-extrabold tracking-[0.18em] text-[#A1B6D5]">0{index + 1}</span>
+                        <span className="text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#2878D0]">{item.data.category}</span>
+                      </div>
+                      <h3 className="mt-1 text-base font-extrabold text-[#172B4D] group-hover:text-[#2878D0]">{item.data.title}</h3>
+                      <p className="mt-1.5 text-sm leading-relaxed text-[#647DA5]">{item.data.p1}{item.data.bold}{item.data.p2}</p>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
           </div>
         </ScrollReveal>
-
-        {/* 4 Cards Grid with the exact layout, images and typography of Trending Articles */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3.5 sm:gap-4">
-          {items.map((item, idx) => {
-            const IconComponent = item.icon;
-            return (
-              <ScrollReveal
-                key={item.id}
-                delay={idx * 75}
-                distance={24}
-                duration={750}
-                className="h-full"
-              >
-                <article
-                  onClick={() => onOpenCard?.(item.slug)}
-                  onKeyDown={(event) => {
-                    if (event.key === 'Enter' || event.key === ' ') onOpenCard?.(item.slug);
-                  }}
-                  role={onOpenCard ? 'link' : undefined}
-                  tabIndex={onOpenCard ? 0 : undefined}
-                  className="bg-[#FFFFFF] border border-[#D9E8F8] hover:border-[#2878D0]/50 rounded-2xl overflow-hidden shadow-[0_2px_12px_rgba(23,54,111,0.04)] hover:shadow-[0_12px_28px_rgba(40,120,208,0.12)] transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between cursor-pointer group h-full"
-                >
-                  {/* Card Top: High-quality featured image with hover zoom + subtle celestial icon */}
-                  <div className="w-full h-32 sm:h-36 overflow-hidden bg-[#E4F1FF] relative shrink-0">
-                    <img
-                      src={item.image}
-                      alt={item.data.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      loading="lazy"
-                    />
-                    {/* Subtle glassmorphism icon chip */}
-                    <div className="absolute top-2.5 right-2.5 w-6 h-6 rounded-full bg-black/40 backdrop-blur-xs flex items-center justify-center text-white/90 shadow-xs border border-white/20">
-                      <IconComponent className="w-3.5 h-3.5" />
-                    </div>
-                  </div>
-
-                  {/* Card Body matching Trending Articles */}
-                  <div className="p-3.5 sm:p-4 flex flex-col justify-between flex-1">
-                    <div>
-                      {/* Category Badge Pill */}
-                      <span
-                        className={`inline-block px-2.5 py-0.5 rounded-full text-[9px] font-extrabold uppercase tracking-wider mb-2 ${item.data.categoryColor}`}
-                      >
-                        {item.data.category}
-                      </span>
-
-                      {/* Card Title */}
-                      <h3 className="font-bold text-xs sm:text-[13px] text-[#172B4D] leading-snug mb-1.5 group-hover:text-[#2878D0] transition-colors line-clamp-2">
-                        {item.data.title}
-                      </h3>
-
-                      {/* Excerpt with bold highlights */}
-                      <p className="text-[11px] text-[#647DA5] leading-relaxed mb-3 line-clamp-3 font-normal">
-                        {item.data.p1}
-                        <strong className="font-semibold text-[#172B4D]">
-                          {item.data.bold}
-                        </strong>
-                        {item.data.p2}
-                      </p>
-                    </div>
-
-                    {/* Author Info Row matching Trending Articles */}
-                    <div className="flex items-center gap-2 pt-2.5 border-t border-[#D9E8F8] mt-auto">
-                      <img
-                        src={AURENSTAR_AVATAR}
-                        alt="Aurenstar"
-                        className="w-7 h-7 rounded-full object-cover shrink-0 ring-1 ring-black/5"
-                      />
-                      <div className="flex flex-col min-w-0">
-                        <span className="text-[11px] sm:text-xs font-bold text-[#172B4D] leading-tight truncate">
-                          Aurenstar <span aria-label="Verificado" title="Perfil verificado" className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span>
-                        </span>
-                        <span className="text-[10px] text-[#647DA5] font-medium leading-tight">
-                          {item.data.footerRole}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </ScrollReveal>
-            );
-          })}
-        </div>
       </div>
     </section>
   );
