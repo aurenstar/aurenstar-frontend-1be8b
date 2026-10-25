@@ -582,7 +582,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
           <button
             type="button"
             onClick={onNavigateToBlog}
-            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#FFE0EF] text-xs sm:text-sm font-bold text-[#2878D0] border border-[#D9E8F8] transition-all cursor-pointer"
+            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#F51B83] text-xs sm:text-sm font-bold text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] transition-all cursor-pointer"
           >
             <span>{t.exploreBlog}</span>
             <span>→</span>
@@ -591,7 +591,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
 
         {/* Page Top Heading */}
         <div className="text-center max-w-xl mx-auto mb-8">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-[#D9E8F8] text-[#2878D0] text-xs font-extrabold uppercase tracking-wider mb-3 shadow-2xs">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-extrabold uppercase tracking-wider mb-3 shadow-2xs">
             <Sparkles className="w-3.5 h-3.5 text-[#F51B83]" />
             <span>{t.tag}</span>
           </div>
