@@ -302,7 +302,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
         {/* =========================================================================
             FEATURED EMAIL CTA CARD (Highlights aurenstarbusiness@gmail.com)
             ========================================================================= */}
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#17366F] via-[#2878D0] to-[#17366F] p-8 sm:p-10 text-white shadow-xl mb-12 border border-white/10">
+        <div className="relative overflow-hidden rounded-3xl bg-[#2878D0] p-8 sm:p-10 text-white shadow-xl mb-12 border border-white/10">
           {/* Subtle celestial background stars glow */}
           <div className="absolute -top-12 -right-12 w-64 h-64 bg-[#2878D0]/30 rounded-full blur-3xl pointer-events-none" />
           <div className="absolute -bottom-12 -left-12 w-64 h-64 bg-[#F51B83]/25 rounded-full blur-3xl pointer-events-none" />
@@ -337,7 +337,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                   handleCopyEmail();
                 }}
                 title="Abrir no Gmail (Web)"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83] hover:brightness-110 text-white text-xs sm:text-sm font-bold shadow-lg shadow-[#2878D0]/30 transition-all hover:scale-102 cursor-pointer text-center"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl bg-[#2878D0] hover:brightness-110 text-white text-xs sm:text-sm font-bold shadow-lg shadow-[#2878D0]/30 transition-all hover:scale-102 cursor-pointer text-center"
               >
                 <Send className="w-4 h-4" />
                 <span>{t.sendEmailCta}</span>
