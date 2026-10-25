@@ -106,7 +106,7 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({
       {/* Top Reading Progress Bar */}
       <div className="fixed top-0 left-0 right-0 h-1 bg-black/10 z-50">
         <div
-          className="h-full bg-gradient-to-r from-[#2878D0] via-[#17366F] to-[#F51B83] transition-all duration-150"
+          className="h-full bg-[#2878D0] transition-all duration-150"
           style={{ width: `${scrollProgress}%` }}
         />
       </div>
