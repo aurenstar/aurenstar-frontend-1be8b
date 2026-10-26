@@ -283,7 +283,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
             <div className="overflow-hidden">
               <div
                 className="blog-carousel-track flex -mx-3 transition-transform duration-500 ease-out will-change-transform"
-                style={{ ['--carousel-start' as string]: carouselStart } as React.CSSProperties}
+                style={{ transform: `translateX(-${carouselStart * 33.3333}%)` }}
               >
             {filteredPosts.map((post, index) => {
               const title = post.title[lang] || post.title.pt;
