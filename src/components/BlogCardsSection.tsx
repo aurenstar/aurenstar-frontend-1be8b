@@ -284,8 +284,8 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
             </button>
             <div className="overflow-hidden">
               <div
-                className="flex -mx-3 transition-transform duration-500 ease-out will-change-transform"
-                style={{ transform: `translateX(calc(-${carouselStart} * 33.3333%))` }}
+                className="blog-carousel-track flex -mx-3 transition-transform duration-500 ease-out will-change-transform"
+                style={{ ['--carousel-start' as string]: carouselStart } as React.CSSProperties}
               >
             {filteredPosts.map((post, index) => {
               const title = post.title[lang] || post.title.pt;
@@ -299,7 +299,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                   delay={index * 90}
                   distance={28}
                   duration={750}
-                  className="h-full w-1/3 shrink-0 px-3"
+                  className="h-full w-full sm:w-1/2 lg:w-1/3 shrink-0 px-3"
                 >
                   <article
                     onClick={() => onOpenArticle && onOpenArticle(post.id)}
