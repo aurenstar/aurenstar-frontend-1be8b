@@ -282,9 +282,12 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
             >
               <ChevronLeft className="h-5 w-5" />
             </button>
-            <div key={carouselStart}
-            className={`grid grid-cols-1 md:grid-cols-3 gap-6 ${carouselDirection === 'next' ? 'animate-carousel-next' : 'animate-carousel-prev'}`}>
-            {filteredPosts.slice(carouselStart, carouselStart + 3).map((post, index) => {
+            <div className="overflow-hidden">
+              <div
+                className="flex -mx-3 transition-transform duration-500 ease-out will-change-transform"
+                style={{ transform: `translateX(calc(-${carouselStart} * 33.3333%))` }}
+              >
+            {filteredPosts.map((post, index) => {
               const title = post.title[lang] || post.title.pt;
               const excerpt = post.subtitle[lang] || post.subtitle.pt;
               const category = post.category[lang] || post.category.pt;
@@ -296,7 +299,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                   delay={index * 90}
                   distance={28}
                   duration={750}
-                  className="h-full"
+                  className="h-full w-1/3 shrink-0 px-3"
                 >
                   <article
                     onClick={() => onOpenArticle && onOpenArticle(post.id)}
@@ -364,6 +367,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                 </ScrollReveal>
               );
             })}
+              </div>
             </div>
             <button
               type="button"
