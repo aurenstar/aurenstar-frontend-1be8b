@@ -213,7 +213,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
               <button
                 type="button"
                 onClick={() => onOpenCard?.('platform')}
-                className="mt-7 inline-flex items-center gap-2 rounded-full bg-[#2878D0] px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-[#17366F] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-2"
+                className="mt-7 inline-flex items-center gap-2 rounded-full bg-[#F51B83] px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-[#D91470] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-2"
               >
                 {intro.link}<span aria-hidden="true">→</span>
               </button>
@@ -238,12 +238,12 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                       tabIndex={onOpenCard ? 0 : undefined}
                       className="group relative flex cursor-pointer items-start gap-3 overflow-hidden rounded-2xl border border-[#D9E8F8] border-l-4 border-l-[#F51B83] bg-white/90 px-4 py-4 shadow-[0_6px_18px_rgba(23,54,111,0.06)] transition-all duration-200 hover:-translate-y-0.5 hover:border-[#2878D0]/40 hover:shadow-[0_12px_24px_rgba(40,120,208,0.12)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-2"
                     >
-                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#E4F1FF] text-[#2878D0] transition-colors group-hover:bg-[#2878D0] group-hover:text-white">
+                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-[#F51B83] bg-white text-[#2878D0] transition-colors group-hover:bg-[#F51B83] group-hover:text-white">
                         <IconComponent className="h-5 w-5" strokeWidth={2.2} />
                       </div>
                       <div className="min-w-0 flex-1">
                         <div className="flex items-center gap-2">
-                          <span className="text-[10px] font-extrabold tracking-[0.18em] text-[#A1B6D5]">0{index + 1}</span>
+                          <span className="text-[10px] font-extrabold tracking-[0.18em] text-[#A1B6D5]">{index + 1}</span>
                           <span className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0]">{item.data.category}</span>
                         </div>
                         <h3 className="mt-1 text-[17px] font-extrabold tracking-[-0.01em] text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{item.data.title}</h3>
