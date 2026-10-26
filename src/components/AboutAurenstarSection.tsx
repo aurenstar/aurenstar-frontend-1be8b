@@ -222,7 +222,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
             <div className="pt-1">
               <div className="mb-5 pl-0">
                 <p className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]"><span className="mr-2 inline-block h-2 w-2 rounded-full bg-[#F51B83] align-middle" />O QUE VOCÊ ENCONTRA AQUI</p>
-                <p className="mt-2 max-w-sm text-sm leading-6 text-[#647DA5]">Três formas simples de usar a astrologia como apoio para o seu dia.</p>
+                <p className="mt-2 max-w-sm text-sm leading-6 text-[#647DA5]">Conheça três maneiras simples de usar a astrologia para refletir, se orientar e dar o próximo passo.</p>
               </div>
               <div className="grid gap-2.5">
                 {items.slice(0, 3).map((item, index) => {
