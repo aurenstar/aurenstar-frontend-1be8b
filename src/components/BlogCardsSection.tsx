@@ -111,10 +111,6 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
     { key: 'ZODIAC GUIDE', label: t.categories['ZODIAC GUIDE'] },
   ];
 
-  useEffect(() => {
-    if (carouselStart >= filteredPosts.length && filteredPosts.length > 0) setCarouselStart(0);
-  }, [filteredPosts.length, carouselStart]);
-
   // Helper for accent-insensitive search
   const normalize = (str: string) =>
     str
@@ -159,6 +155,10 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
       return true;
     });
   }, [selectedSign, selectedCategory, searchQuery, lang]);
+
+  useEffect(() => {
+    if (carouselStart >= filteredPosts.length && filteredPosts.length > 0) setCarouselStart(0);
+  }, [filteredPosts.length, carouselStart]);
 
   return (
     <section
