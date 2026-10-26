@@ -22,7 +22,6 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('ALL');
   const [carouselStart, setCarouselStart] = useState(0);
-  const [carouselDirection, setCarouselDirection] = useState<'next' | 'prev'>('next');
 
   // Find info about the currently selected sign
   const activeSignInfo = useMemo(() => {
@@ -275,7 +274,6 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
               aria-label="Posts anteriores"
               disabled={carouselStart === 0}
               onClick={() => {
-                setCarouselDirection('prev');
                 setCarouselStart((value) => Math.max(0, value - 1));
               }}
               className="absolute left-0 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-[#B8D8F5] bg-white text-[#2878D0] shadow-[0_8px_20px_rgba(23,54,111,0.14)] transition hover:border-[#F51B83] hover:bg-[#FFF0F7] hover:text-[#F51B83] disabled:cursor-not-allowed disabled:opacity-35"
@@ -374,7 +372,6 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
               aria-label="Mais posts"
               disabled={carouselStart + 3 >= filteredPosts.length}
               onClick={() => {
-                setCarouselDirection('next');
                 setCarouselStart((value) => Math.min(Math.max(0, filteredPosts.length - 3), value + 1));
               }}
               className="absolute right-0 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-[#B8D8F5] bg-white text-[#2878D0] shadow-[0_8px_20px_rgba(23,54,111,0.14)] transition hover:border-[#F51B83] hover:bg-[#FFF0F7] hover:text-[#F51B83] disabled:cursor-not-allowed disabled:opacity-35"
