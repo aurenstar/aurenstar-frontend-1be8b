@@ -279,8 +279,8 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
               <ChevronLeft className="h-5 w-5" />
             </button>
             <div key={carouselStart}
-            className="grid grid-cols-1 md:grid-cols-3 gap-6 animate-fadeIn">
-            {filteredPosts.slice(carouselStart, carouselStart + 3).map((post, index) => {
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 animate-fade-in-up">
+            {filteredPosts.slice(carouselStart, carouselStart + 4).map((post, index) => {
               const title = post.title[lang] || post.title.pt;
               const excerpt = post.subtitle[lang] || post.subtitle.pt;
               const category = post.category[lang] || post.category.pt;
@@ -364,8 +364,8 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
             <button
               type="button"
               aria-label="Mais posts"
-              disabled={carouselStart + 3 >= filteredPosts.length}
-              onClick={() => setCarouselStart((value) => Math.min(Math.max(0, filteredPosts.length - 3), value + 1))}
+              disabled={carouselStart + 4 >= filteredPosts.length}
+              onClick={() => setCarouselStart((value) => Math.min(Math.max(0, filteredPosts.length - 4), value + 1))}
               className="absolute right-0 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-[#B8D8F5] bg-white text-[#2878D0] shadow-[0_8px_20px_rgba(23,54,111,0.14)] transition hover:border-[#F51B83] hover:bg-[#FFF0F7] hover:text-[#F51B83] disabled:cursor-not-allowed disabled:opacity-35"
             >
               <ChevronRight className="h-5 w-5" />
