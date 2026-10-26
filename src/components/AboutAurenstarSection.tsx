@@ -247,7 +247,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                           <span className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0]">{item.data.category}</span>
                         </div>
                         <h3 className="mt-1 text-[17px] font-extrabold tracking-[-0.01em] text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{item.data.title}</h3>
-                        <p className="mt-1 text-[13px] leading-5.5 text-[#647DA5]">{item.data.p1}{item.data.bold}{item.data.p2}</p>
+                        <p className="mt-1 text-[13px] leading-[1.375rem] text-[#647DA5]">{item.data.p1}{item.data.bold}{item.data.p2}</p>
                       </div>
                       <span className="mt-1 text-lg text-[#A1B6D5] transition-transform group-hover:translate-x-1 group-hover:text-[#F51B83]" aria-hidden="true">→</span>
                     </article>
