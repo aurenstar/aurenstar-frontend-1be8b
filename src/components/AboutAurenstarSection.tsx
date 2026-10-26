@@ -220,8 +220,8 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
             </div>
 
             <div className="pt-1">
-              <div className="mb-5 border-l-2 border-[#F51B83] pl-4">
-                <p className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]">O QUE VOCÊ ENCONTRA AQUI</p>
+              <div className="mb-5 pl-0">
+                <p className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]"><span className="mr-2 inline-block h-2 w-2 rounded-full bg-[#F51B83] align-middle" />O QUE VOCÊ ENCONTRA AQUI</p>
                 <p className="mt-2 max-w-sm text-sm leading-6 text-[#647DA5]">Três formas simples de usar a astrologia como apoio para o seu dia.</p>
               </div>
               <div className="grid gap-2.5">
@@ -236,14 +236,14 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                       }}
                       role={onOpenCard ? 'link' : undefined}
                       tabIndex={onOpenCard ? 0 : undefined}
-                      className="group relative flex cursor-pointer items-start gap-3 overflow-hidden rounded-2xl border border-[#D9E8F8] border-l-4 border-l-[#F51B83] bg-white/90 px-4 py-3 shadow-[0_6px_18px_rgba(23,54,111,0.06)] transition-all duration-200 hover:-translate-y-0.5 hover:border-[#2878D0]/40 hover:shadow-[0_12px_24px_rgba(40,120,208,0.12)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-2"
+                      className="group relative flex cursor-pointer items-start gap-3 overflow-hidden rounded-2xl border border-[#B8D8F5] bg-[#F3F8FF] px-4 py-3 shadow-none transition-all duration-200 hover:-translate-y-0.5 hover:border-[#2878D0]/40 hover:shadow-[0_12px_24px_rgba(40,120,208,0.12)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-2"
                     >
-                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-[#F51B83] bg-white text-[#2878D0] transition-colors group-hover:bg-[#F51B83] group-hover:text-white">
+                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-[#2878D0] bg-white text-[#2878D0] transition-colors group-hover:bg-[#2878D0] group-hover:text-white">
                         <IconComponent className="h-5 w-5" strokeWidth={2.2} />
                       </div>
                       <div className="min-w-0 flex-1">
                         <div className="flex items-center gap-2">
-                          <span className="text-[10px] font-extrabold tracking-[0.18em] text-[#A1B6D5]">{index + 1}</span>
+                          <span className="text-[10px] font-extrabold tracking-[0.18em] text-[#F51B83]">{index + 1}</span>
                           <span className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0]">{item.data.category}</span>
                         </div>
                         <h3 className="mt-1 text-[17px] font-extrabold tracking-[-0.01em] text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{item.data.title}</h3>
