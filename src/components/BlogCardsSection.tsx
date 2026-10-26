@@ -1,5 +1,5 @@
-import React, { useState, useMemo } from 'react';
-import { Search, X, Sparkles, Star, Check } from 'lucide-react';
+import React, { useEffect, useState, useMemo } from 'react';
+import { Search, X, Sparkles, Star, Check, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { BLOG_ARTICLES, AURENSTAR_AVATAR } from '../data/blogArticles';
 import { ZODIAC_SIGNS } from './BrandMarquee';
@@ -21,6 +21,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
 
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('ALL');
+  const [carouselStart, setCarouselStart] = useState(0);
 
   // Find info about the currently selected sign
   const activeSignInfo = useMemo(() => {
@@ -110,6 +111,10 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
     { key: 'ZODIAC GUIDE', label: t.categories['ZODIAC GUIDE'] },
   ];
 
+  useEffect(() => {
+    if (carouselStart >= filteredPosts.length && filteredPosts.length > 0) setCarouselStart(0);
+  }, [filteredPosts.length, carouselStart]);
+
   // Helper for accent-insensitive search
   const normalize = (str: string) =>
     str
@@ -163,11 +168,21 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Section Title harmonized with the brand com fade-in e slide-up */}
         <ScrollReveal delay={0} distance={20} duration={750}>
-          <div className="text-center mb-6 sm:mb-8">
-            <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">
-              {t.sectionTitle}
-            </h2>
-            <div className="w-12 h-1 bg-[#2878D0] rounded-full mx-auto mt-2.5" />
+          <div className="flex items-center gap-3 mb-6 sm:mb-8">
+            <div className="flex-1 text-center">
+              <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">
+                {t.sectionTitle}
+              </h2>
+              <div className="w-12 h-1 bg-[#2878D0] rounded-full mx-auto mt-2.5" />
+            </div>
+            <div className="flex items-center gap-2 shrink-0">
+              <button type="button" aria-label="Posts anteriores" disabled={carouselStart === 0} onClick={() => setCarouselStart((value) => Math.max(0, value - 1))} className="h-9 w-9 rounded-full border border-[#B8D8F5] bg-white text-[#2878D0] transition hover:border-[#F51B83] hover:text-[#F51B83] disabled:cursor-not-allowed disabled:opacity-35">
+                <ChevronLeft className="mx-auto h-4 w-4" />
+              </button>
+              <button type="button" aria-label="Mais posts" disabled={carouselStart + 3 >= filteredPosts.length} onClick={() => setCarouselStart((value) => Math.min(Math.max(0, filteredPosts.length - 3), value + 1))} className="h-9 w-9 rounded-full border border-[#B8D8F5] bg-white text-[#2878D0] transition hover:border-[#F51B83] hover:text-[#F51B83] disabled:cursor-not-allowed disabled:opacity-35">
+                <ChevronRight className="mx-auto h-4 w-4" />
+              </button>
+            </div>
           </div>
         </ScrollReveal>
 
@@ -264,7 +279,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
         {/* 3 Cards In a Row com animação de fade-in e slide-up escalonado */}
         {filteredPosts.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {filteredPosts.slice(0, 3).map((post, index) => {
+            {filteredPosts.slice(carouselStart, carouselStart + 3).map((post, index) => {
               const title = post.title[lang] || post.title.pt;
               const excerpt = post.subtitle[lang] || post.subtitle.pt;
               const category = post.category[lang] || post.category.pt;
