@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useMemo } from 'react';
-import { Search, X, Sparkles, Star, Check, ChevronLeft, ChevronRight } from 'lucide-react';
+import React, { useState, useMemo } from 'react';
+import { Search, X, Sparkles, Star, Check } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { BLOG_ARTICLES, AURENSTAR_AVATAR } from '../data/blogArticles';
 import { ZODIAC_SIGNS } from './BrandMarquee';
@@ -21,7 +21,6 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
 
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('ALL');
-  const [carouselStart, setCarouselStart] = useState(0);
 
   // Find info about the currently selected sign
   const activeSignInfo = useMemo(() => {
@@ -156,10 +155,6 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
     });
   }, [selectedSign, selectedCategory, searchQuery, lang]);
 
-  useEffect(() => {
-    if (carouselStart >= filteredPosts.length && filteredPosts.length > 0) setCarouselStart(0);
-  }, [filteredPosts.length, carouselStart]);
-
   return (
     <section
       id="blog"
@@ -168,17 +163,11 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Section Title harmonized with the brand com fade-in e slide-up */}
         <ScrollReveal delay={0} distance={20} duration={750}>
-          <div className="mb-6 flex items-end justify-between gap-4 sm:mb-8">
-            <div>
-              <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">
-                {t.sectionTitle}
-              </h2>
-              <div className="mt-2.5 h-1 w-12 rounded-full bg-[#2878D0]" />
-            </div>
-            <div className="flex items-center gap-2">
-              <button type="button" aria-label="Posts anteriores" disabled={carouselStart === 0} onClick={() => setCarouselStart((value) => Math.max(0, value - 1))} className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-[#2878D0] bg-white text-[#2878D0] shadow-sm transition-all hover:border-[#F51B83] hover:bg-[#F51B83] hover:text-white disabled:cursor-not-allowed disabled:opacity-35 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F51B83]"><ChevronLeft className="h-4 w-4" /></button>
-              <button type="button" aria-label="Próximos posts" disabled={carouselStart + 4 >= filteredPosts.length} onClick={() => setCarouselStart((value) => Math.min(Math.max(0, filteredPosts.length - 4), value + 1))} className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-[#F51B83] bg-[#F51B83] text-white shadow-sm transition-all hover:bg-[#D91470] disabled:cursor-not-allowed disabled:opacity-35 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]"><ChevronRight className="h-4 w-4" /></button>
-            </div>
+          <div className="mb-6 text-center sm:mb-8">
+            <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">
+              {t.sectionTitle}
+            </h2>
+            <div className="mx-auto mt-2.5 h-1 w-12 rounded-full bg-[#2878D0]" />
           </div>
         </ScrollReveal>
 
@@ -274,23 +263,8 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
 
         {/* 3 Cards In a Row com animação de fade-in e slide-up escalonado */}
         {filteredPosts.length > 0 ? (
-          <div className="relative px-8 sm:px-12">
-            <button
-              type="button"
-              aria-label="Posts anteriores"
-              disabled={carouselStart === 0}
-              onClick={() => {
-                setCarouselStart((value) => Math.max(0, value - 1));
-              }}
-              className="absolute left-1 sm:left-0 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border-2 border-[#2878D0] bg-white text-[#2878D0] shadow-[0_10px_24px_rgba(23,54,111,0.18)] transition-all duration-200 hover:scale-110 hover:border-[#F51B83] hover:bg-[#F51B83] hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F51B83] disabled:cursor-not-allowed disabled:opacity-40"
-            >
-              <ChevronLeft className="h-5 w-5" />
-            </button>
-            <div className="overflow-hidden">
-              <div
-                className="blog-carousel-track flex -mx-3 transition-transform duration-500 ease-out will-change-transform"
-                style={{ transform: `translateX(-${carouselStart * 25}%)` }}
-              >
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="contents">
             {filteredPosts.map((post, index) => {
               const title = post.title[lang] || post.title.pt;
               const excerpt = post.subtitle[lang] || post.subtitle.pt;
@@ -303,7 +277,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                   delay={index * 90}
                   distance={28}
                   duration={750}
-                  className="h-full w-full sm:w-1/2 lg:w-1/4 shrink-0 px-3"
+                  className="h-full w-full"
                 >
                   <article
                     onClick={() => onOpenArticle && onOpenArticle(post.id)}
@@ -371,19 +345,6 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                 </ScrollReveal>
               );
             })}
-              </div>
-            </div>
-            <button
-              type="button"
-              aria-label="Mais posts"
-              disabled={carouselStart + 4 >= filteredPosts.length}
-              onClick={() => {
-                setCarouselStart((value) => Math.min(Math.max(0, filteredPosts.length - 4), value + 1));
-              }}
-              className="absolute right-1 sm:right-0 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border-2 border-[#2878D0] bg-white text-[#2878D0] shadow-[0_10px_24px_rgba(23,54,111,0.18)] transition-all duration-200 hover:scale-110 hover:border-[#F51B83] hover:bg-[#F51B83] hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F51B83] disabled:cursor-not-allowed disabled:opacity-40"
-            >
-              <ChevronRight className="h-5 w-5" />
-            </button>
           </div>
         ) : (
           <ScrollReveal delay={60} distance={20}>
