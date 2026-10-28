@@ -268,7 +268,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
 
         {/* 3 Cards In a Row com animação de fade-in e slide-up escalonado */}
         {filteredPosts.length > 0 ? (
-          <div className="relative px-4 sm:px-8">
+          <div className="relative px-8 sm:px-12">
             <button
               type="button"
               aria-label="Posts anteriores"
@@ -276,7 +276,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
               onClick={() => {
                 setCarouselStart((value) => Math.max(0, value - 1));
               }}
-              className="absolute left-0 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-[#B8D8F5] bg-white text-[#2878D0] shadow-[0_8px_20px_rgba(23,54,111,0.14)] transition hover:border-[#F51B83] hover:bg-[#FFF0F7] hover:text-[#F51B83] disabled:cursor-not-allowed disabled:opacity-35"
+              className="absolute left-1 sm:left-0 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border-2 border-[#2878D0] bg-white text-[#2878D0] shadow-[0_10px_24px_rgba(23,54,111,0.18)] transition-all duration-200 hover:scale-110 hover:border-[#F51B83] hover:bg-[#F51B83] hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F51B83] disabled:cursor-not-allowed disabled:opacity-40"
             >
               <ChevronLeft className="h-5 w-5" />
             </button>
@@ -374,7 +374,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
               onClick={() => {
                 setCarouselStart((value) => Math.min(Math.max(0, filteredPosts.length - 3), value + 1));
               }}
-              className="absolute right-0 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-[#B8D8F5] bg-white text-[#2878D0] shadow-[0_8px_20px_rgba(23,54,111,0.14)] transition hover:border-[#F51B83] hover:bg-[#FFF0F7] hover:text-[#F51B83] disabled:cursor-not-allowed disabled:opacity-35"
+              className="absolute right-1 sm:right-0 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border-2 border-[#2878D0] bg-white text-[#2878D0] shadow-[0_10px_24px_rgba(23,54,111,0.18)] transition-all duration-200 hover:scale-110 hover:border-[#F51B83] hover:bg-[#F51B83] hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F51B83] disabled:cursor-not-allowed disabled:opacity-40"
             >
               <ChevronRight className="h-5 w-5" />
             </button>
