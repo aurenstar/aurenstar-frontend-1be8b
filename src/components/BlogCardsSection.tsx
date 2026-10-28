@@ -346,6 +346,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                 </ScrollReveal>
               );
             })}
+            </div>
           </div>
         ) : (
           <ScrollReveal delay={60} distance={20}>
