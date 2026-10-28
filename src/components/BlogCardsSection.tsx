@@ -293,7 +293,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
 
               return (
                 <ScrollReveal
-                  key={`${post.id}-${carouselStart}`}
+                  key={post.id}
                   delay={index * 90}
                   distance={28}
                   duration={750}
