@@ -33,10 +33,10 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
       label: 'WHAT YOU FIND HERE',
       lead: 'Four simple ways to use astrology as support for your day.',
       items: [
-        ['01', 'PLATFORM', 'What is Aurenstar?', 'A welcoming space for sign-based guidance that brings more intention to your day.', 'platform'],
-        ['02', 'METHOD', 'How it works', 'Choose the experience that fits your moment and receive a reading made for you.', 'method'],
-        ['03', 'MISSION', 'Our mission', 'Help people connect with their feelings through more clarity, calm, and direction.', 'mission'],
-        ['04', 'SIMPLE LANGUAGE', 'Everything in simple words', 'Astrology explained without the complicated parts, in clear and friendly language.', 'daily-guidance'],
+        ['01', 'PLATFORM', 'What Aurenstar really offers', 'A welcoming space that brings readings, articles, and explanations together so astrology can become clear, practical guidance for your everyday life.', 'platform'],
+        ['02', 'METHOD', 'From your sign to a useful reflection', 'Choose the experience that fits your moment, share only what is needed, and receive a reading that turns astrological symbols into practical reflection.', 'method'],
+        ['03', 'MISSION', 'Astrology with clarity and care', 'Help people understand themselves and move forward with more calm, while respecting each person’s choices instead of telling them what to do.', 'mission'],
+        ['04', 'SIMPLE LANGUAGE', 'Astrology without the jargon', 'We explain astrology with direct words, friendly examples, and context that makes each idea easier to understand from the first reading.', 'daily-guidance'],
       ],
     },
     es: {
