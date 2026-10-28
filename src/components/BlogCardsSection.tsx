@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Search, X, Sparkles, Star, Check } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { BLOG_ARTICLES, AURENSTAR_AVATAR } from '../data/blogArticles';
@@ -11,7 +11,7 @@ interface BlogCardsSectionProps {
   onSelectSign?: (signKey: string | null) => void;
 }
 
-// Carousel controls intentionally removed; cards remain in the original compact grid.
+// Three-card carousel keeps the original card size and adds a smooth horizontal transition.
 export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
   onOpenArticle,
   selectedSign,
@@ -22,6 +22,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
 
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('ALL');
+  const [carouselIndex, setCarouselIndex] = useState(0);
 
   // Find info about the currently selected sign
   const activeSignInfo = useMemo(() => {
@@ -156,6 +157,24 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
     });
   }, [selectedSign, selectedCategory, searchQuery, lang]);
 
+  const slideGroups = useMemo(() => {
+    const groups: typeof filteredPosts[] = [];
+    for (let index = 0; index < filteredPosts.length; index += 3) {
+      groups.push(filteredPosts.slice(index, index + 3));
+    }
+    return groups;
+  }, [filteredPosts]);
+
+  useEffect(() => {
+    setCarouselIndex(0);
+  }, [selectedSign, selectedCategory, searchQuery]);
+
+  const canGoBack = carouselIndex > 0;
+  const canGoForward = carouselIndex < Math.max(0, slideGroups.length - 1);
+
+  const goToPrevious = () => setCarouselIndex((current) => Math.max(0, current - 1));
+  const goToNext = () => setCarouselIndex((current) => Math.min(Math.max(0, slideGroups.length - 1), current + 1));
+
   return (
     <section
       id="blog"
@@ -262,93 +281,70 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
           </div>
         </ScrollReveal>
 
-        {/* 3 Cards In a Row com animação de fade-in e slide-up escalonado */}
+        {/* Three-card carousel with smooth horizontal scrolling */}
         {filteredPosts.length > 0 ? (
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="contents">
-            {filteredPosts.map((post, index) => {
-              const title = post.title[lang] || post.title.pt;
-              const excerpt = post.subtitle[lang] || post.subtitle.pt;
-              const category = post.category[lang] || post.category.pt;
-              const date = post.date[lang] || post.date.pt;
+          <div className="relative">
+            <div className="mb-4 flex justify-end gap-2">
+              <button type="button" onClick={goToPrevious} disabled={!canGoBack} aria-label="Posts anteriores" className="flex h-10 w-10 items-center justify-center rounded-full border border-[#2878D0] bg-white text-[#2878D0] shadow-sm transition hover:bg-[#E4F1FF] disabled:cursor-not-allowed disabled:opacity-35">
+                <span aria-hidden="true" className="text-xl leading-none">‹</span>
+              </button>
+              <button type="button" onClick={goToNext} disabled={!canGoForward} aria-label="Próximos posts" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#F51B83] text-white shadow-sm transition hover:bg-[#D91470] disabled:cursor-not-allowed disabled:opacity-35">
+                <span aria-hidden="true" className="text-xl leading-none">›</span>
+              </button>
+            </div>
+            <div className="overflow-hidden">
+              <div className="flex transition-transform duration-500 ease-out" style={{ transform: `translateX(-${carouselIndex * 100}%)` }}>
+                {slideGroups.map((slide, slideIndex) => (
+                  <div key={`slide-${slideIndex}`} className="grid min-w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    {slide.map((post, index) => {
+                      const title = post.title[lang] || post.title.pt;
+                      const excerpt = post.subtitle[lang] || post.subtitle.pt;
+                      const category = post.category[lang] || post.category.pt;
+                      const date = post.date[lang] || post.date.pt;
 
-              return (
-                <ScrollReveal
-                  key={post.id}
-                  delay={index * 90}
-                  distance={28}
-                  duration={750}
-                  className="h-full w-full"
-                >
-                  <article
-                    onClick={() => onOpenArticle && onOpenArticle(post.id)}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        if (onOpenArticle) onOpenArticle(post.id);
-                      }
-                    }}
-                    tabIndex={0}
-                    role="button"
-                    aria-label={`${title} - ${t.readMore}`}
-                    className="bg-[#FFFFFF] border border-[#D9E8F8] hover:border-[#2878D0]/60 rounded-2xl overflow-hidden shadow-[0_4px_20px_rgba(23,54,111,0.06)] hover:shadow-[0_12px_28px_rgba(40,120,208,0.15)] transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40 h-full"
-                  >
-                    {/* Card Top: Atmospheric Thematic Image */}
-                    <div className="w-full h-40 sm:h-44 overflow-hidden bg-[#E4F1FF] relative shrink-0">
-                      <img
-                        src={post.image}
-                        alt={title}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        loading="lazy"
-                      />
-                      <div className="absolute inset-0 bg-black/0 group-hover:bg-[#17366F]/10 transition-colors pointer-events-none" />
-                    </div>
-
-                    {/* Card Body */}
-                    <div className="p-5 flex flex-col justify-between flex-1">
-                      <div>
-                        {/* Real Blog/Site Category Badge */}
-                        <span
-                          className="inline-block px-3 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider mb-2.5 bg-[#E4F1FF] text-[#2878D0]"
-                        >
-                          {category}
-                        </span>
-
-                        {/* Post Title */}
-                        <h3 className="font-bold text-sm sm:text-base text-[#172B4D] leading-snug mb-2 group-hover:text-[#2878D0] transition-colors line-clamp-2">
-                          {title}
-                        </h3>
-
-                        {/* Excerpt */}
-                        <p className="text-xs text-[#647DA5] leading-relaxed mb-4 line-clamp-3 font-normal">
-                          {excerpt}
-                        </p>
-                      </div>
-
-                      {/* Author Info Row */}
-                      <div className="flex items-center gap-2.5 pt-3 border-t border-[#D9E8F8] mt-auto">
-                        <img
-                          src={AURENSTAR_AVATAR}
-                          alt="Aurenstar"
-                          className="w-8 h-8 rounded-full object-cover shrink-0 ring-1 ring-black/5"
-                        />
-                        <div className="flex flex-col min-w-0">
-                          <span className="text-xs font-bold text-[#172B4D] leading-tight truncate">
-                            Aurenstar <span aria-label="Verificado" title="Perfil verificado" className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span>
-                          </span>
-                          <span className="text-[10px] text-[#647DA5] font-medium leading-tight mt-0.5">
-                            {date}
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-                </ScrollReveal>
-              );
-            })}
+                      return (
+                        <ScrollReveal key={post.id} delay={index * 70} distance={20} duration={650} className="h-full w-full">
+                          <article
+                            onClick={() => onOpenArticle && onOpenArticle(post.id)}
+                            onKeyDown={(e) => {
+                              if (e.key === 'Enter' || e.key === ' ') {
+                                e.preventDefault();
+                                if (onOpenArticle) onOpenArticle(post.id);
+                              }
+                            }}
+                            tabIndex={0}
+                            role="button"
+                            aria-label={`${title} - ${t.readMore}`}
+                            className="bg-[#FFFFFF] border border-[#D9E8F8] hover:border-[#2878D0]/60 rounded-2xl overflow-hidden shadow-[0_4px_20px_rgba(23,54,111,0.06)] hover:shadow-[0_12px_28px_rgba(40,120,208,0.15)] transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40 h-full"
+                          >
+                            <div className="w-full h-40 sm:h-44 overflow-hidden bg-[#E4F1FF] relative shrink-0">
+                              <img src={post.image} alt={title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+                              <div className="absolute inset-0 bg-black/0 group-hover:bg-[#17366F]/10 transition-colors pointer-events-none" />
+                            </div>
+                            <div className="p-5 flex flex-col justify-between flex-1">
+                              <div>
+                                <span className="inline-block px-3 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider mb-2.5 bg-[#E4F1FF] text-[#2878D0]">{category}</span>
+                                <h3 className="font-bold text-sm sm:text-base text-[#172B4D] leading-snug mb-2 group-hover:text-[#2878D0] transition-colors line-clamp-2">{title}</h3>
+                                <p className="text-xs text-[#647DA5] leading-relaxed mb-4 line-clamp-3 font-normal">{excerpt}</p>
+                              </div>
+                              <div className="flex items-center gap-2.5 pt-3 border-t border-[#D9E8F8] mt-auto">
+                                <img src={AURENSTAR_AVATAR} alt="Aurenstar" className="w-8 h-8 rounded-full object-cover shrink-0 ring-1 ring-black/5" />
+                                <div className="flex flex-col min-w-0">
+                                  <span className="text-xs font-bold text-[#172B4D] leading-tight truncate">Aurenstar <span aria-label="Verificado" title="Perfil verificado" className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span></span>
+                                  <span className="text-[10px] text-[#647DA5] font-medium leading-tight mt-0.5">{date}</span>
+                                </div>
+                              </div>
+                            </div>
+                          </article>
+                        </ScrollReveal>
+                      );
+                    })}
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
-        ) : (
+      ) : (
           <ScrollReveal delay={60} distance={20}>
             <div className="bg-[#FFFFFF] border border-[#D9E8F8] rounded-2xl p-8 text-center max-w-sm mx-auto my-4 shadow-2xs animate-fadeIn">
               <Search className="w-6 h-6 text-[#2878D0] mx-auto mb-2" />
