@@ -37,28 +37,34 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
   }[lang];
 
   return (
-    <section className="relative w-full overflow-hidden border-b border-[#D9E8F8] bg-[#C9E5FF] py-14 sm:py-20">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+    <section className="relative w-full overflow-hidden border-b border-[#B8D8F5] bg-[#C9E5FF] py-16 sm:py-24">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <ScrollReveal distance={18} duration={700}>
-          <div className="text-center mb-6 sm:mb-8">
-            <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">{copy.title}</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-[#647DA5]">{copy.subtitle}</p>
-            <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-[#2878D0]" />
-            <p className="mx-auto mt-4 max-w-xl text-xs font-semibold uppercase tracking-[0.14em] text-[#2878D0]">{lang === 'pt' ? 'Escolha uma experiência e descubra como ela pode acompanhar você' : lang === 'es' ? 'Elige una experiencia y descubre cómo puede acompañarte' : 'Choose an experience and see how it can support you'}</p>
+          <div className="mb-10 flex flex-col gap-4 sm:mb-12 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-[#2878D0]">{copy.title}</p>
+              <h2 className="mt-3 max-w-2xl text-3xl font-extrabold leading-tight text-[#172B4D] sm:text-4xl">
+                {lang === 'pt' ? 'Uma experiência para cada momento.' : lang === 'es' ? 'Una experiencia para cada momento.' : 'One experience for every moment.'}
+              </h2>
+              <p className="mt-3 max-w-xl text-sm leading-relaxed text-[#647DA5]">{copy.subtitle}</p>
+            </div>
+            <span className="hidden rounded-full border border-[#B8D8F5] bg-white/80 px-4 py-2 text-[10px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0] sm:inline-flex">
+              {lang === 'pt' ? 'Escolha seu próximo passo' : lang === 'es' ? 'Elige tu próximo paso' : 'Choose your next step'}
+            </span>
           </div>
         </ScrollReveal>
-        <div className="relative grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">
           {copy.cards.map(([title, description, route, Icon], index) => (
-            <ScrollReveal key={title} delay={index * 45} distance={14} duration={650}>
-              <button type="button" onClick={() => onNavigate(route)} className={`group relative block min-h-[285px] h-full w-full overflow-hidden rounded-2xl border border-[#D7E7F8] bg-white p-5 text-left shadow-[0_8px_24px_rgba(23,54,111,0.07)] transition-all duration-300 hover:-translate-y-1 hover:border-[#2878D0]/60 hover:shadow-[0_16px_32px_rgba(23,54,111,0.14)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] sm:p-6`}>
-                <div className="absolute inset-x-0 top-0 h-1 bg-[#2878D0] opacity-80 transition-opacity group-hover:opacity-100" />
-                <div className="flex items-start justify-between gap-3">
-                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-[#D6E8FA] bg-[#EEF6FF] text-[#2878D0] transition-all duration-300 group-hover:rotate-6 group-hover:border-[#F2C5DD] group-hover:bg-[#FCE7F2] group-hover:text-[#C21867]"><Icon className="h-5 w-5" /></span>
-                  <span className="pt-1 text-[10px] font-extrabold tracking-[0.18em] text-[#A1B6D5]">0{index + 1}</span>
+            <ScrollReveal key={title} delay={index * 55} distance={16} duration={650}>
+              <button type="button" onClick={() => onNavigate(route)} className="group relative flex min-h-[245px] h-full w-full flex-col overflow-hidden rounded-3xl border border-[#B8D8F5] bg-white p-6 text-left shadow-[0_10px_26px_rgba(23,54,111,0.08)] transition-all duration-300 hover:-translate-y-2 hover:border-[#F51B83]/60 hover:shadow-[0_18px_34px_rgba(23,54,111,0.15)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]">
+                <div className="absolute left-0 top-0 h-1.5 w-16 rounded-br-full bg-[#2878D0] transition-all duration-300 group-hover:w-full group-hover:bg-[#F51B83]" />
+                <div className="flex items-start justify-between">
+                  <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-[#CFE4FA] bg-[#EEF6FF] text-[#2878D0] transition-all duration-300 group-hover:border-[#F8B7D5] group-hover:bg-[#FFF0F7] group-hover:text-[#F51B83]"><Icon className="h-6 w-6" /></span>
+                  <span className="text-xs font-extrabold tracking-[0.18em] text-[#A1B6D5]">{String(index + 1).padStart(2, '0')}</span>
                 </div>
-                <h3 className="mt-4 text-[15px] font-extrabold leading-snug text-[#172B4D]">{title}</h3>
-                <p className="mt-4 text-sm leading-[1.65] text-[#647DA5]">{description}</p>
-                <span className="mt-7 inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-[0.14em] text-[#2878D0] transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#F51B83]">{lang === 'pt' ? 'Saiba mais' : lang === 'es' ? 'Saber más' : 'Learn more'} <span aria-hidden="true">→</span></span>
+                <h3 className="mt-5 text-lg font-extrabold leading-snug text-[#172B4D] group-hover:text-[#2878D0]">{title}</h3>
+                <p className="mt-3 text-sm leading-6 text-[#647DA5]">{description}</p>
+                <span className="mt-auto inline-flex items-center gap-2 pt-5 text-xs font-extrabold uppercase tracking-[0.14em] text-[#2878D0] transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#F51B83]">{lang === 'pt' ? 'Explorar' : lang === 'es' ? 'Explorar' : 'Explore'} <span aria-hidden="true">→</span></span>
               </button>
             </ScrollReveal>
           ))}
