@@ -202,59 +202,42 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
   ];
 
   return (
-    <section id="about" className="w-full border-y border-[#B8D8F5] bg-[#C9E5FF] py-12 sm:py-16">
+    <section id="about" className="w-full border-y border-[#B8D8F5] bg-[#C9E5FF] py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <ScrollReveal delay={0} distance={20} duration={700}>
-          <div className="grid gap-8 md:grid-cols-[1.05fr_1fr] md:items-center md:gap-12">
+        <ScrollReveal distance={20} duration={700}>
+          <div className="grid gap-10 md:grid-cols-[0.9fr_1.1fr] md:items-center md:gap-16">
             <div>
-              <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-[#2878D0]">{intro.eyebrow}</p>
-              <h2 className="mt-4 max-w-xl text-3xl font-extrabold leading-tight text-[#172B4D] sm:text-4xl">{intro.title}</h2>
-              <p className="mt-5 max-w-xl text-base leading-relaxed text-[#647DA5]">{intro.text}</p>
-              <button
-                type="button"
-                onClick={() => onOpenCard?.('platform')}
-                className="mt-7 inline-flex items-center gap-2 rounded-full bg-[#F51B83] px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-[#D91470] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-2"
-              >
+              <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-[#2878D0]">{intro.eyebrow}</p>
+              <h2 className="mt-4 max-w-xl text-3xl font-extrabold leading-[1.12] text-[#172B4D] sm:text-5xl">{intro.title}</h2>
+              <p className="mt-6 max-w-xl text-base leading-8 text-[#5575A4]">{intro.text}</p>
+              <button type="button" onClick={() => onOpenCard?.('platform')} className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#F51B83] px-6 py-3 text-sm font-bold text-white shadow-[0_8px_18px_rgba(245,27,131,0.22)] transition-all hover:-translate-y-0.5 hover:bg-[#D91470] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-2">
                 {intro.link}<span aria-hidden="true">→</span>
               </button>
             </div>
-
-            <div className="pt-1">
-              <div className="mb-5 pl-0">
-                <p className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]"><span className="mr-2 inline-block h-2 w-2 rounded-full bg-[#F51B83] align-middle" />O QUE VOCÊ ENCONTRA AQUI</p>
-                <p className="mt-2 max-w-sm text-sm leading-6 text-[#647DA5]">Conheça três maneiras simples de usar a astrologia para refletir, se orientar e dar o próximo passo.</p>
+            <div className="relative">
+              <div className="mb-5">
+                <p className="flex items-center gap-2 text-[10px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]"><span className="h-2.5 w-2.5 rounded-full bg-[#F51B83]" />{lang === 'pt' ? 'O QUE VOCÊ ENCONTRA AQUI' : lang === 'es' ? 'LO QUE ENCUENTRAS AQUÍ' : 'WHAT YOU FIND HERE'}</p>
+                <p className="mt-2 max-w-md text-sm leading-6 text-[#647DA5]">{t.subtitle}</p>
               </div>
-              <div className="grid gap-2.5">
-                {items.slice(0, 3).map((item, index) => {
-                  return (
-                    <article
-                      key={item.id}
-                      onClick={() => onOpenCard?.(item.slug)}
-                      onKeyDown={(event) => {
-                        if (event.key === 'Enter' || event.key === ' ') onOpenCard?.(item.slug);
-                      }}
-                      role={onOpenCard ? 'link' : undefined}
-                      tabIndex={onOpenCard ? 0 : undefined}
-                      className="group relative flex cursor-pointer items-start gap-3 overflow-hidden rounded-2xl border border-[#B8D8F5] bg-[#F3F8FF] px-4 py-3 shadow-none transition-all duration-200 hover:-translate-y-0.5 hover:border-[#2878D0]/40 hover:shadow-[0_12px_24px_rgba(40,120,208,0.12)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-2"
-                    >
-                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-[#F51B83] bg-[#FFF0F7] text-sm font-extrabold text-[#F51B83] transition-colors group-hover:bg-[#F51B83] group-hover:text-white">
-                        {index + 1}
+              <div className="relative space-y-3">
+                <div className="absolute bottom-8 left-5 top-8 w-px bg-[#F51B83]/35" aria-hidden="true" />
+                {items.slice(0, 3).map((item, index) => (
+                  <article key={item.id} onClick={() => onOpenCard?.(item.slug)} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') onOpenCard?.(item.slug); }} role={onOpenCard ? 'link' : undefined} tabIndex={onOpenCard ? 0 : undefined} className="group relative flex cursor-pointer items-start gap-4 rounded-2xl border border-[#B8D8F5] bg-white px-5 py-5 shadow-[0_8px_20px_rgba(23,54,111,0.06)] transition-all duration-300 hover:-translate-y-1 hover:border-[#F51B83]/55 hover:shadow-[0_14px_28px_rgba(23,54,111,0.12)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]">
+                    <div className="relative z-10 flex h-11 w-11 shrink-0 items-center justify-center rounded-full border-2 border-[#F51B83] bg-white text-base font-extrabold text-[#F51B83] transition-colors group-hover:bg-[#F51B83] group-hover:text-white">{index + 1}</div>
+                    <div className="min-w-0 flex-1">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <span className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-[#2878D0]">{item.data.category}</span>
                       </div>
-                      <div className="min-w-0 flex-1">
-                        <div className="flex items-center gap-2">
-                          <span className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0]">{item.data.category}</span>
-                        </div>
-                        <h3 className="mt-1 text-[17px] font-extrabold tracking-[-0.01em] text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{item.data.title}</h3>
-                        <p className="mt-1 text-[13px] leading-[1.375rem] text-[#647DA5]">{item.data.p1}{item.data.bold}{item.data.p2}</p>
-                      </div>
-                      <span className="mt-1 text-lg text-[#A1B6D5] transition-transform group-hover:translate-x-1 group-hover:text-[#F51B83]" aria-hidden="true">→</span>
-                    </article>
-                  );
-                })}
+                      <h3 className="mt-1 text-lg font-extrabold text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{item.data.title}</h3>
+                      <p className="mt-2 text-sm leading-6 text-[#647DA5]">{item.data.p1}{item.data.bold}{item.data.p2}</p>
+                    </div>
+                    <span className="mt-1 text-xl text-[#9AB2D4] transition-all group-hover:translate-x-1 group-hover:text-[#F51B83]" aria-hidden="true">→</span>
+                  </article>
+                ))}
               </div>
             </div>
-      </div>
-      </ScrollReveal>
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   );
