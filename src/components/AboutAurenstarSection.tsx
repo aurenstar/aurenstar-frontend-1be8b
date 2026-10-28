@@ -19,10 +19,10 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
       label: 'O QUE VOCÊ ENCONTRA AQUI',
       lead: 'Quatro formas simples de usar a astrologia como apoio para o seu dia.',
       items: [
-        ['01', 'PLATAFORMA', 'O que é a Aurenstar?', 'Um espaço acolhedor para receber orientações do seu signo e levar mais intenção para o dia.', 'platform'],
-        ['02', 'MÉTODO', 'Como funciona', 'Você escolhe a experiência que combina com o momento e recebe uma leitura feita para você.', 'method'],
-        ['03', 'MISSÃO', 'Nossa missão', 'Ajudar pessoas a se conectarem com seus sentimentos com mais clareza, calma e direção.', 'mission'],
-        ['04', 'LINGUAGEM SIMPLES', 'Tudo em palavras simples', 'Explicamos a astrologia sem complicar, com textos próximos, diretos e fáceis de entender.', 'daily-guidance'],
+        ['01', 'PLATAFORMA', 'O que é a Aurenstar?', 'Um espaço acolhedor que reúne leituras, artigos e explicações para transformar a astrologia em orientações que você consegue usar no dia a dia, com clareza e respeito às suas escolhas.', 'platform'],
+        ['02', 'MÉTODO', 'Como funciona', 'Você escolhe a experiência que combina com o seu momento, informa apenas o necessário e recebe uma leitura que transforma símbolos em reflexão prática.', 'method'],
+        ['03', 'MISSÃO', 'Nossa missão', 'Ajudar você a se conhecer melhor e tomar decisões com mais calma, oferecendo clareza, acolhimento e direção sem dizer o que você deve fazer.', 'mission'],
+        ['04', 'LINGUAGEM SIMPLES', 'Astrologia sem complicação', 'Explicamos a astrologia sem jargões, com textos diretos, exemplos próximos e espaço para você tirar suas próprias conclusões.', 'daily-guidance'],
       ],
     },
     en: {
@@ -48,9 +48,9 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
       lead: 'Cuatro formas sencillas de usar la astrología como apoyo para tu día.',
       items: [
         ['01', 'PLATAFORMA', '¿Qué es Aurenstar?', 'Un espacio acogedor para recibir orientación de tu signo y vivir el día con más intención.', 'platform'],
-        ['02', 'MÉTODO', 'Cómo funciona', 'Elige la experiencia que combina con tu momento y recibe una lectura hecha para ti.', 'method'],
-        ['03', 'MISIÓN', 'Nuestra misión', 'Ayudar a las personas a conectar con sus sentimientos con claridad, calma y dirección.', 'mission'],
-        ['04', 'LENGUAJE SIMPLE', 'Todo en palabras simples', 'Astrología explicada de forma clara, cercana y fácil de entender.', 'daily-guidance'],
+        ['02', 'MÉTODO', 'Cómo funciona', 'Elige la experiencia que combina con tu momento, comparte solo lo necesario y recibe una lectura clara para reflexionar sobre tu día.', 'method'],
+        ['03', 'MISIÓN', 'Nuestra misión', 'Ayudar a las personas a comprenderse mejor y avanzar con más calma, sin decirles qué deben hacer.', 'mission'],
+        ['04', 'LENGUAJE SIMPLE', 'Astrología sin complicaciones', 'Explicamos la astrología con palabras claras, ejemplos cercanos y sin tecnicismos innecesarios.', 'daily-guidance'],
       ],
     },
   }[lang] || undefined;
