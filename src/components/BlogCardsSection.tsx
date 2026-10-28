@@ -11,6 +11,7 @@ interface BlogCardsSectionProps {
   onSelectSign?: (signKey: string | null) => void;
 }
 
+// Carousel controls intentionally removed; cards remain in the original compact grid.
 export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
   onOpenArticle,
   selectedSign,
