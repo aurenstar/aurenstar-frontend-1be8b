@@ -47,12 +47,12 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
         footerRole: 'Purpose',
       },
       item4: {
-        category: 'DAILY GUIDANCE',
+        category: 'SIMPLE LANGUAGE',
         categoryColor: 'bg-[#2878D0] text-white',
-        title: 'Daily Guidance',
-        p1: 'Reading your ',
-        bold: 'daily horoscope quote',
-        p2: ' aligns your energy and brings peace, helping you navigate every day with clear intention.',
+        title: 'Aurenstar in Simple Words',
+        p1: 'Aurenstar explains astrology in ',
+        bold: 'simple, welcoming language',
+        p2: ', so every reflection feels clear and close to real life.',
         footerRole: 'Reflection',
       },
     },
@@ -87,12 +87,12 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
         footerRole: 'Propósito',
       },
       item4: {
-        category: 'GUIA DIÁRIO',
+        category: 'LINGUAGEM SIMPLES',
         categoryColor: 'bg-[#2878D0] text-white',
-        title: 'Orientação Diária',
-        p1: 'Ler o seu ',
-        bold: 'conselho do horóscopo do dia',
-        p2: ' alinha sua energia e traz serenidade para viver cada momento com tranquilidade.',
+        title: 'Linguagem simples da Aurenstar',
+        p1: 'A Aurenstar explica a astrologia em ',
+        bold: 'palavras simples e acolhedoras',
+        p2: ', para que cada reflexão seja clara e próxima da vida real.',
         footerRole: 'Reflexão',
       },
     },
@@ -127,12 +127,12 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
         footerRole: 'Propósito',
       },
       item4: {
-        category: 'GUÍA DIARIA',
+        category: 'LENGUAJE SIMPLE',
         categoryColor: 'bg-[#2878D0] text-white',
-        title: 'Orientación Diaria',
-        p1: 'Leer tu ',
-        bold: 'frase astrológica diaria',
-        p2: ' alinea tu energía y te ayuda a vivir el día con serenidad e intención.',
+        title: 'Aurenstar en palabras simples',
+        p1: 'Aurenstar explica la astrología con ',
+        bold: 'palabras simples y cercanas',
+        p2: ', para que cada reflexión sea clara y cercana a tu vida.',
         footerRole: 'Reflexión',
       },
     },
@@ -219,9 +219,9 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                 <p className="flex items-center gap-2 text-[10px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]"><span className="h-2.5 w-2.5 rounded-full bg-[#F51B83]" />{lang === 'pt' ? 'O QUE VOCÊ ENCONTRA AQUI' : lang === 'es' ? 'LO QUE ENCUENTRAS AQUÍ' : 'WHAT YOU FIND HERE'}</p>
                 <p className="mt-2 max-w-md text-sm leading-6 text-[#647DA5]">{t.subtitle}</p>
               </div>
-              <div className="grid gap-4 sm:grid-cols-3">
-                {items.slice(0, 3).map((item, index) => (
-                  <article key={item.id} onClick={() => onOpenCard?.(item.slug)} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') onOpenCard?.(item.slug); }} role={onOpenCard ? 'link' : undefined} tabIndex={onOpenCard ? 0 : undefined} className="group relative flex min-h-[250px] cursor-pointer flex-col rounded-2xl border border-[#B8D8F5] border-t-4 border-t-[#2878D0] bg-white p-5 shadow-[0_8px_20px_rgba(23,54,111,0.06)] transition-all duration-300 hover:-translate-y-1.5 hover:border-[#F51B83]/70 hover:border-t-[#F51B83] hover:shadow-[0_16px_30px_rgba(23,54,111,0.14)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]">
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                {items.slice(0, 4).map((item, index) => (
+                  <article key={item.id} onClick={() => onOpenCard?.(item.slug)} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') onOpenCard?.(item.slug); }} role={onOpenCard ? 'link' : undefined} tabIndex={onOpenCard ? 0 : undefined} className="group relative flex min-h-[230px] cursor-pointer flex-col rounded-2xl border border-white/80 border-t-4 border-t-[#2878D0] bg-[#C9E5FF] p-5 shadow-[0_8px_20px_rgba(23,54,111,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:border-[#F51B83] hover:border-t-[#F51B83] hover:bg-white hover:shadow-[0_16px_30px_rgba(23,54,111,0.14)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]">
                     <div className="flex items-center justify-between">
                       <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#FFF0F7] text-base font-extrabold text-[#F51B83] transition-colors group-hover:bg-[#F51B83] group-hover:text-white">{index + 1}</div>
                       <span className="text-xl text-[#9AB2D4] transition-all group-hover:translate-x-1 group-hover:text-[#F51B83]" aria-hidden="true">↗</span>
