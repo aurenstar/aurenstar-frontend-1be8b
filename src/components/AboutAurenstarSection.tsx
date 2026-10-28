@@ -214,24 +214,21 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                 {intro.link}<span aria-hidden="true">→</span>
               </button>
             </div>
-            <div className="relative">
+            <div>
               <div className="mb-5">
                 <p className="flex items-center gap-2 text-[10px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]"><span className="h-2.5 w-2.5 rounded-full bg-[#F51B83]" />{lang === 'pt' ? 'O QUE VOCÊ ENCONTRA AQUI' : lang === 'es' ? 'LO QUE ENCUENTRAS AQUÍ' : 'WHAT YOU FIND HERE'}</p>
                 <p className="mt-2 max-w-md text-sm leading-6 text-[#647DA5]">{t.subtitle}</p>
               </div>
-              <div className="relative space-y-3">
-                <div className="absolute bottom-8 left-5 top-8 w-px bg-[#F51B83]/35" aria-hidden="true" />
+              <div className="grid gap-4 sm:grid-cols-3">
                 {items.slice(0, 3).map((item, index) => (
-                  <article key={item.id} onClick={() => onOpenCard?.(item.slug)} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') onOpenCard?.(item.slug); }} role={onOpenCard ? 'link' : undefined} tabIndex={onOpenCard ? 0 : undefined} className="group relative flex cursor-pointer items-start gap-4 rounded-2xl border border-[#B8D8F5] bg-white px-5 py-5 shadow-[0_8px_20px_rgba(23,54,111,0.06)] transition-all duration-300 hover:-translate-y-1 hover:border-[#F51B83]/55 hover:shadow-[0_14px_28px_rgba(23,54,111,0.12)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]">
-                    <div className="relative z-10 flex h-11 w-11 shrink-0 items-center justify-center rounded-full border-2 border-[#F51B83] bg-white text-base font-extrabold text-[#F51B83] transition-colors group-hover:bg-[#F51B83] group-hover:text-white">{index + 1}</div>
-                    <div className="min-w-0 flex-1">
-                      <div className="flex flex-wrap items-center gap-2">
-                        <span className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-[#2878D0]">{item.data.category}</span>
-                      </div>
-                      <h3 className="mt-1 text-lg font-extrabold text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{item.data.title}</h3>
-                      <p className="mt-2 text-sm leading-6 text-[#647DA5]">{item.data.p1}{item.data.bold}{item.data.p2}</p>
+                  <article key={item.id} onClick={() => onOpenCard?.(item.slug)} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') onOpenCard?.(item.slug); }} role={onOpenCard ? 'link' : undefined} tabIndex={onOpenCard ? 0 : undefined} className="group relative flex min-h-[250px] cursor-pointer flex-col rounded-2xl border border-[#B8D8F5] border-t-4 border-t-[#2878D0] bg-white p-5 shadow-[0_8px_20px_rgba(23,54,111,0.06)] transition-all duration-300 hover:-translate-y-1.5 hover:border-[#F51B83]/70 hover:border-t-[#F51B83] hover:shadow-[0_16px_30px_rgba(23,54,111,0.14)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]">
+                    <div className="flex items-center justify-between">
+                      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#FFF0F7] text-base font-extrabold text-[#F51B83] transition-colors group-hover:bg-[#F51B83] group-hover:text-white">{index + 1}</div>
+                      <span className="text-xl text-[#9AB2D4] transition-all group-hover:translate-x-1 group-hover:text-[#F51B83]" aria-hidden="true">↗</span>
                     </div>
-                    <span className="mt-1 text-xl text-[#9AB2D4] transition-all group-hover:translate-x-1 group-hover:text-[#F51B83]" aria-hidden="true">→</span>
+                    <span className="mt-5 inline-flex w-fit rounded-full bg-[#E4F1FF] px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0] group-hover:bg-[#F51B83] group-hover:text-white">{item.data.category}</span>
+                    <h3 className="mt-3 text-lg font-extrabold leading-tight text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{item.data.title}</h3>
+                    <p className="mt-3 text-sm leading-6 text-[#647DA5]">{item.data.p1}{item.data.bold}{item.data.p2}</p>
                   </article>
                 ))}
               </div>
@@ -242,4 +239,3 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
     </section>
   );
 };
-
