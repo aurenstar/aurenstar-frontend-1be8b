@@ -211,7 +211,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
               <h2 className="mt-4 max-w-xl text-3xl font-extrabold leading-[1.12] text-[#172B4D] sm:text-5xl">{intro.title}</h2>
               <p className="mt-6 max-w-xl text-base leading-8 text-[#5575A4]">{intro.text}</p>
               <button type="button" onClick={() => onOpenCard?.('platform')} className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#F51B83] px-6 py-3 text-sm font-bold text-white shadow-[0_8px_18px_rgba(245,27,131,0.22)] transition-all hover:-translate-y-0.5 hover:bg-[#D91470] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-2">
-                {intro.link}<span aria-hidden="true">→</span>
+                {intro.link}
               </button>
             </div>
             <div>
@@ -224,7 +224,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                   <article key={item.id} onClick={() => onOpenCard?.(item.slug)} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') onOpenCard?.(item.slug); }} role={onOpenCard ? 'link' : undefined} tabIndex={onOpenCard ? 0 : undefined} className="group relative flex min-h-[230px] cursor-pointer flex-col rounded-2xl border border-white/80 border-t-4 border-t-[#2878D0] bg-[#C9E5FF] p-5 shadow-[0_8px_20px_rgba(23,54,111,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:border-[#F51B83] hover:border-t-[#F51B83] hover:bg-white hover:shadow-[0_16px_30px_rgba(23,54,111,0.14)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]">
                     <div className="flex items-center justify-between">
                       <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#FFF0F7] text-base font-extrabold text-[#F51B83] transition-colors group-hover:bg-[#F51B83] group-hover:text-white">{index + 1}</div>
-                      <span className="text-xl text-[#9AB2D4] transition-all group-hover:translate-x-1 group-hover:text-[#F51B83]" aria-hidden="true">↗</span>
+                      
                     </div>
                     <span className="mt-5 inline-flex w-fit rounded-full bg-[#E4F1FF] px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0] group-hover:bg-[#F51B83] group-hover:text-white">{item.data.category}</span>
                     <h3 className="mt-3 text-lg font-extrabold leading-tight text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{item.data.title}</h3>
