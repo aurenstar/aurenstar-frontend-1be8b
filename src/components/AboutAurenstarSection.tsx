@@ -1,11 +1,6 @@
-// About panel
 import React from 'react';
-import { Sun, Star, Compass } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { ScrollReveal } from './ScrollReveal';
-
-// Official Aurenstar brand avatar SVG with design system gradient and celestial star
-const AURENSTAR_AVATAR = '/aurenstar-avatar.png';
 
 interface AboutAurenstarSectionProps {
   onOpenCard?: (section: string) => void;
@@ -15,221 +10,81 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
   const { language } = useLanguage();
   const lang = (language || 'pt') as 'pt' | 'en' | 'es';
 
-  const content = {
-    en: {
-      title: 'ABOUT AURENSTAR',
-      subtitle: 'A simple, welcoming space to understand astrology and use it in everyday life.',
-      item1: {
-        category: 'PLATFORM',
-        categoryColor: 'bg-[#2878D0] text-white',
-        title: 'What is Aurenstar?',
-        p1: 'A dedicated space designed to deliver your personalized ',
-        bold: 'daily zodiac message',
-        p2: ', bridging ancient celestial wisdom with thoughtful daily guidance.',
-        footerRole: 'Astrology',
-      },
-      item2: {
-        category: 'METHOD',
-        categoryColor: 'bg-[#17366F] text-white',
-        title: 'How It Works',
-        p1: 'Select your star sign above. Our approach translates cosmic rhythms into ',
-        bold: "today's star sign guidance",
-        p2: ' carefully tailored for you.',
-        footerRole: 'Insights',
-      },
-      item3: {
-        category: 'MISSION',
-        categoryColor: 'bg-[#F51B83] text-white',
-        title: 'Our Mission',
-        p1: 'Helping people connect with their inner cosmos through clarity, comfort, and direction with a ',
-        bold: 'sun sign daily message',
-        p2: '.',
-        footerRole: 'Purpose',
-      },
-      item4: {
-        category: 'SIMPLE LANGUAGE',
-        categoryColor: 'bg-[#2878D0] text-white',
-        title: 'Aurenstar in Simple Words',
-        p1: 'Aurenstar explains astrology in ',
-        bold: 'simple, welcoming language',
-        p2: ', so every reflection feels clear and close to real life.',
-        footerRole: 'Reflection',
-      },
-    },
-    pt: {
-      title: 'SOBRE A AURENSTAR',
-      subtitle: 'Um espaço simples e acolhedor para entender a astrologia e usá-la no dia a dia.',
-      item1: {
-        category: 'PLATAFORMA',
-        categoryColor: 'bg-[#2878D0] text-white',
-        title: 'O que é a Aurenstar?',
-        p1: 'Um espaço acolhedor feito para entregar a sua ',
-        bold: 'mensagem diária do signo',
-        p2: ', unindo a sabedoria das estrelas com orientações gentis para o seu dia.',
-        footerRole: 'Astrologia',
-      },
-      item2: {
-        category: 'COMO FUNCIONA',
-        categoryColor: 'bg-[#17366F] text-white',
-        title: 'Como Funciona',
-        p1: 'Basta escolher o seu signo acima. Traduzimos os ritmos cósmicos em ',
-        bold: 'orientações do seu signo para hoje',
-        p2: ' sob medida para você.',
-        footerRole: 'Orientação',
-      },
-      item3: {
-        category: 'NOSSA MISSÃO',
-        categoryColor: 'bg-[#F51B83] text-white',
-        title: 'Nossa Missão',
-        p1: 'Ajudar você a se conectar com sua paz interior através de conforto e clareza com uma ',
-        bold: 'mensagem diária do seu signo',
-        p2: '.',
-        footerRole: 'Propósito',
-      },
-      item4: {
-        category: 'LINGUAGEM SIMPLES',
-        categoryColor: 'bg-[#2878D0] text-white',
-        title: 'Linguagem simples da Aurenstar',
-        p1: 'A Aurenstar explica a astrologia em ',
-        bold: 'palavras simples e acolhedoras',
-        p2: ', para que cada reflexão seja clara e próxima da vida real.',
-        footerRole: 'Reflexão',
-      },
-    },
-    es: {
-      title: 'SOBRE AURENSTAR',
-      subtitle: 'Un espacio sencillo y acogedor para entender la astrología y llevarla a tu día a día.',
-      item1: {
-        category: 'PLATAFORMA',
-        categoryColor: 'bg-[#2878D0] text-white',
-        title: '¿Qué es Aurenstar?',
-        p1: 'Una plataforma dedicada a brindarte tu ',
-        bold: 'mensaje diario del zodíaco',
-        p2: ', uniendo la sabiduría de las estrellas con serenidad y guía para ti.',
-        footerRole: 'Astrología',
-      },
-      item2: {
-        category: 'CÓMO FUNCIONA',
-        categoryColor: 'bg-[#17366F] text-white',
-        title: 'Cómo Funciona',
-        p1: 'Selecciona tu signo arriba. Traducimos los ritmos cósmicos en ',
-        bold: 'orientaciones de tu signo para hoy',
-        p2: ' pensadas para ti.',
-        footerRole: 'Orientación',
-      },
-      item3: {
-        category: 'NUESTRA MISIÓN',
-        categoryColor: 'bg-[#F51B83] text-white',
-        title: 'Nuestra Misión',
-        p1: 'Ayudarte a conectar con tu armonía interior con consuelo y claridad a través de un ',
-        bold: 'mensaje diario de tu signo',
-        p2: '.',
-        footerRole: 'Propósito',
-      },
-      item4: {
-        category: 'LENGUAJE SIMPLE',
-        categoryColor: 'bg-[#2878D0] text-white',
-        title: 'Aurenstar en palabras simples',
-        p1: 'Aurenstar explica la astrología con ',
-        bold: 'palabras simples y cercanas',
-        p2: ', para que cada reflexión sea clara y cercana a tu vida.',
-        footerRole: 'Reflexión',
-      },
-    },
-  };
-
-  const t = content[lang] || content.en;
-
-  const intro = {
-    en: {
-      eyebrow: 'AURENSTAR IN A FEW WORDS',
-      title: 'Astrology made clear, gentle, and useful.',
-      text: 'Aurenstar turns astrology into simple reflections for everyday life. Each experience has a different purpose, but all of them are designed to help you pause, understand yourself, and choose your next step with more clarity.',
-      link: 'Learn more about us',
-    },
+  const copy = {
     pt: {
       eyebrow: 'A AURENSTAR EM POUCAS PALAVRAS',
       title: 'Astrologia clara, acolhedora e útil.',
-      text: 'A Aurenstar transforma a astrologia em reflexões simples para a vida real. Cada experiência tem um propósito diferente, mas todas ajudam você a fazer uma pausa, se compreender melhor e escolher o próximo passo com mais clareza.',
-      link: 'Conheça mais sobre nós',
+      intro: 'A Aurenstar transforma a astrologia em reflexões simples para a vida real. Cada experiência foi criada para ajudar você a fazer uma pausa, se compreender melhor e escolher o próximo passo com mais clareza.',
+      button: 'Conheça mais sobre nós',
+      label: 'O QUE VOCÊ ENCONTRA AQUI',
+      lead: 'Quatro formas simples de usar a astrologia como apoio para o seu dia.',
+      items: [
+        ['01', 'PLATAFORMA', 'O que é a Aurenstar?', 'Um espaço acolhedor para receber orientações do seu signo e levar mais intenção para o dia.', 'platform'],
+        ['02', 'MÉTODO', 'Como funciona', 'Você escolhe a experiência que combina com o momento e recebe uma leitura feita para você.', 'method'],
+        ['03', 'MISSÃO', 'Nossa missão', 'Ajudar pessoas a se conectarem com seus sentimentos com mais clareza, calma e direção.', 'mission'],
+        ['04', 'LINGUAGEM SIMPLES', 'Tudo em palavras simples', 'Explicamos a astrologia sem complicar, com textos próximos, diretos e fáceis de entender.', 'daily-guidance'],
+      ],
+    },
+    en: {
+      eyebrow: 'AURENSTAR IN A FEW WORDS',
+      title: 'Astrology made clear, gentle, and useful.',
+      intro: 'Aurenstar turns astrology into simple reflections for real life. Each experience helps you pause, understand yourself, and choose your next step with more clarity.',
+      button: 'Learn more about us',
+      label: 'WHAT YOU FIND HERE',
+      lead: 'Four simple ways to use astrology as support for your day.',
+      items: [
+        ['01', 'PLATFORM', 'What is Aurenstar?', 'A welcoming space for sign-based guidance that brings more intention to your day.', 'platform'],
+        ['02', 'METHOD', 'How it works', 'Choose the experience that fits your moment and receive a reading made for you.', 'method'],
+        ['03', 'MISSION', 'Our mission', 'Help people connect with their feelings through more clarity, calm, and direction.', 'mission'],
+        ['04', 'SIMPLE LANGUAGE', 'Everything in simple words', 'Astrology explained without the complicated parts, in clear and friendly language.', 'daily-guidance'],
+      ],
     },
     es: {
       eyebrow: 'AURENSTAR EN POCAS PALABRAS',
       title: 'Astrología clara, cercana y útil.',
-      text: 'Aurenstar convierte la astrología en reflexiones sencillas para la vida real. Cada experiencia tiene un propósito diferente, pero todas te ayudan a hacer una pausa, entenderte mejor y elegir tu próximo paso con más claridad.',
-      link: 'Conoce más sobre nosotros',
+      intro: 'Aurenstar convierte la astrología en reflexiones sencillas para la vida real. Cada experiencia te ayuda a hacer una pausa, entenderte mejor y elegir tu próximo paso.',
+      button: 'Conoce más sobre nosotros',
+      label: 'LO QUE ENCUENTRAS AQUÍ',
+      lead: 'Cuatro formas sencillas de usar la astrología como apoyo para tu día.',
+      items: [
+        ['01', 'PLATAFORMA', '¿Qué es Aurenstar?', 'Un espacio acogedor para recibir orientación de tu signo y vivir el día con más intención.', 'platform'],
+        ['02', 'MÉTODO', 'Cómo funciona', 'Elige la experiencia que combina con tu momento y recibe una lectura hecha para ti.', 'method'],
+        ['03', 'MISIÓN', 'Nuestra misión', 'Ayudar a las personas a conectar con sus sentimientos con claridad, calma y dirección.', 'mission'],
+        ['04', 'LENGUAJE SIMPLE', 'Todo en palabras simples', 'Astrología explicada de forma clara, cercana y fácil de entender.', 'daily-guidance'],
+      ],
     },
-  }[lang] || {
-    eyebrow: 'AURENSTAR',
-    title: 'Astrology made clear.',
-    text: 'Simple reflections for everyday life.',
-    link: 'Learn more',
-  };
+  }[lang] || undefined;
 
-  const items = [
-    {
-      id: 'about-1',
-      slug: 'platform',
-      icon: Sun,
-      image:
-        'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
-      data: t.item1,
-    },
-    {
-      id: 'about-2',
-      slug: 'method',
-      icon: Star,
-      image:
-        'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80',
-      data: t.item2,
-    },
-    {
-      id: 'about-3',
-      slug: 'mission',
-      icon: Compass,
-      image:
-        'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80',
-      data: t.item3,
-    },
-    {
-      id: 'about-4',
-      slug: 'daily-guidance',
-      icon: Sun,
-      image:
-        'https://images.unsplash.com/photo-1532693322450-2cb5c511067d?auto=format&fit=crop&w=800&q=80',
-      data: t.item4,
-    },
-  ];
+  const t = copy || ({ } as any);
 
   return (
-    <section id="about" className="w-full border-y border-[#B8D8F5] bg-[#C9E5FF] py-16 sm:py-24">
+    <section id="about" className="w-full border-y border-[#B7D8F5] bg-[#C9E5FF] py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <ScrollReveal distance={20} duration={700}>
-          <div className="grid gap-10 md:grid-cols-[0.9fr_1.1fr] md:items-center md:gap-16">
-            <div>
-              <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-[#2878D0]">{intro.eyebrow}</p>
-              <h2 className="mt-4 max-w-xl text-3xl font-extrabold leading-[1.12] text-[#172B4D] sm:text-5xl">{intro.title}</h2>
-              <p className="mt-6 max-w-xl text-base leading-8 text-[#5575A4]">{intro.text}</p>
-              <button type="button" onClick={() => onOpenCard?.('platform')} className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#F51B83] px-6 py-3 text-sm font-bold text-white shadow-[0_8px_18px_rgba(245,27,131,0.22)] transition-all hover:-translate-y-0.5 hover:bg-[#D91470] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-2">
-                {intro.link}
+        <ScrollReveal distance={24} duration={700}>
+          <div className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-center md:gap-16">
+            <div className="max-w-xl">
+              <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#2878D0]">{t.eyebrow}</p>
+              <h2 className="mt-4 text-4xl font-extrabold leading-[1.08] text-[#172B4D] sm:text-5xl">{t.title}</h2>
+              <p className="mt-6 text-base leading-8 text-[#5575A4]">{t.intro}</p>
+              <button type="button" onClick={() => onOpenCard?.('platform')} className="mt-8 inline-flex items-center rounded-full bg-[#F51B83] px-6 py-3 text-sm font-bold text-white shadow-[0_8px_18px_rgba(245,27,131,0.2)] transition hover:-translate-y-0.5 hover:bg-[#D91470] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-2">
+                {t.button}<span className="ml-2" aria-hidden="true">→</span>
               </button>
             </div>
+
             <div>
-              <div className="mb-5">
-                <p className="flex items-center gap-2 text-[10px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]"><span className="h-2.5 w-2.5 rounded-full bg-[#F51B83]" />{lang === 'pt' ? 'O QUE VOCÊ ENCONTRA AQUI' : lang === 'es' ? 'LO QUE ENCUENTRAS AQUÍ' : 'WHAT YOU FIND HERE'}</p>
-                <p className="mt-2 max-w-md text-sm leading-6 text-[#647DA5]">{t.subtitle}</p>
+              <div className="mb-5 border-l-2 border-[#F51B83] pl-4">
+                <p className="text-[11px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]">{t.label}</p>
+                <p className="mt-2 max-w-lg text-sm leading-6 text-[#647DA5]">{t.lead}</p>
               </div>
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                {items.slice(0, 4).map((item, index) => (
-                  <article key={item.id} onClick={() => onOpenCard?.(item.slug)} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') onOpenCard?.(item.slug); }} role={onOpenCard ? 'link' : undefined} tabIndex={onOpenCard ? 0 : undefined} className="group relative flex min-h-[230px] cursor-pointer flex-col rounded-2xl border border-white/80 border-t-4 border-t-[#2878D0] bg-[#C9E5FF] p-5 shadow-[0_8px_20px_rgba(23,54,111,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:border-[#F51B83] hover:border-t-[#F51B83] hover:bg-white hover:shadow-[0_16px_30px_rgba(23,54,111,0.14)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]">
-                    <div className="flex items-center justify-between">
-                      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#FFF0F7] text-base font-extrabold text-[#F51B83] transition-colors group-hover:bg-[#F51B83] group-hover:text-white">{index + 1}</div>
-                      
-                    </div>
-                    <span className="mt-5 inline-flex w-fit rounded-full bg-[#E4F1FF] px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0] group-hover:bg-[#F51B83] group-hover:text-white">{item.data.category}</span>
-                    <h3 className="mt-3 text-lg font-extrabold leading-tight text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{item.data.title}</h3>
-                    <p className="mt-3 text-sm leading-6 text-[#647DA5]">{item.data.p1}{item.data.bold}{item.data.p2}</p>
-                  </article>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {t.items.map(([number, category, title, description, slug]) => (
+                  <button type="button" key={slug} onClick={() => onOpenCard?.(slug)} className="group relative flex min-h-[190px] flex-col items-start rounded-2xl border border-[#A9CEF1] bg-white/60 p-5 text-left transition duration-300 hover:-translate-y-1 hover:border-[#F51B83] hover:bg-white hover:shadow-[0_14px_28px_rgba(23,54,111,0.12)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]">
+                    <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#FFF0F7] text-sm font-extrabold text-[#F51B83] transition group-hover:bg-[#F51B83] group-hover:text-white">{number}</span>
+                    <span className="mt-4 text-[10px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0]">{category}</span>
+                    <span className="mt-2 text-lg font-extrabold leading-tight text-[#172B4D]">{title}</span>
+                    <span className="mt-2 text-sm leading-6 text-[#647DA5]">{description}</span>
+                    <span className="absolute right-5 top-5 text-xl text-[#9DB9D9] transition group-hover:translate-x-1 group-hover:text-[#F51B83]" aria-hidden="true">↗</span>
+                  </button>
                 ))}
               </div>
             </div>
