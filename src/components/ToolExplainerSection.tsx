@@ -28,12 +28,16 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {copy.cards.map(([category, title, description, route, Icon], index) => <ScrollReveal key={title} delay={index * 55} distance={16} duration={650}>
           <button type="button" onClick={() => onNavigate(route)} className="group relative flex h-full min-h-[420px] w-full flex-col overflow-hidden rounded-[24px] border border-[#B9D9F5] bg-white text-left shadow-[0_16px_28px_rgba(23,54,111,0.10)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_22px_38px_rgba(23,54,111,0.16)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F51B83]">
-            <span className="relative block h-[158px] shrink-0 overflow-hidden rounded-t-[24px]" style={{ backgroundColor: accents[index] }}>
-              <span className="absolute -left-8 -top-12 h-32 w-32 rounded-full bg-white/20 transition-transform duration-500 group-hover:scale-125" />
-              <span className="absolute -right-8 top-7 h-28 w-28 rounded-full bg-white/15 transition-transform duration-500 group-hover:translate-x-2" />
-              <span className="absolute inset-x-5 bottom-[-28px] flex h-[122px] items-center justify-center rounded-[18px] border border-white/80 bg-white shadow-[0_12px_22px_rgba(23,54,111,0.16)] transition-transform duration-300 group-hover:-translate-y-1"><Icon className="h-12 w-12 text-[#2878D0]" strokeWidth={1.8} /></span>
+            <span className="relative block h-[178px] shrink-0 overflow-hidden rounded-t-[24px] bg-white">
+              <span className="absolute inset-x-0 top-0 h-[132px] rounded-t-[24px]" style={{ backgroundColor: accents[index] }} />
+              <span className="absolute -left-10 -top-16 h-36 w-36 rounded-full bg-white/20 transition-transform duration-500 group-hover:scale-110" />
+              <span className="absolute -right-8 top-8 h-32 w-32 rounded-full bg-white/15 transition-transform duration-500 group-hover:translate-x-2" />
+              <span className="absolute inset-x-5 top-5 flex h-[112px] items-center justify-center overflow-hidden rounded-[18px] border border-white/70 bg-white/90 shadow-[0_10px_20px_rgba(23,54,111,0.14)] transition-transform duration-300 group-hover:-translate-y-1">
+                <span className="absolute inset-0 opacity-30" style={{ backgroundColor: accents[index] }} />
+                <Icon className="relative h-14 w-14 text-[#2878D0]" strokeWidth={1.8} />
+              </span>
             </span>
-            <span className="flex flex-1 flex-col px-6 pb-6 pt-10">
+            <span className="flex flex-1 flex-col px-6 pb-6 pt-6">
               <span className="inline-flex w-fit rounded-full bg-[#E7F1FF] px-3 py-1 text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#2878D0]">{category}</span>
               <span className="mt-3 text-[20px] font-extrabold leading-tight text-[#172B4D] transition-colors duration-300 group-hover:text-[#2878D0]">{title}</span>
               <span className="mt-3 text-[15px] leading-7 text-[#647DA5]">{description}</span>
