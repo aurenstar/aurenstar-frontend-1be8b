@@ -76,14 +76,20 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                 <p className="text-[11px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]">{t.label}</p>
                 <p className="mt-2 max-w-lg text-sm leading-6 text-[#647DA5]">{t.lead}</p>
               </div>
-              <div className="grid gap-3 sm:grid-cols-2">
+              <div className="grid gap-4 sm:grid-cols-2">
                 {t.items.map(([number, category, title, description, slug]) => (
-                  <button type="button" key={slug} onClick={() => onOpenCard?.(slug)} className="group relative flex min-h-[190px] flex-col items-start rounded-2xl border border-[#A9CEF1] bg-white/60 p-5 text-left transition duration-300 hover:-translate-y-1 hover:border-[#F51B83] hover:bg-white hover:shadow-[0_14px_28px_rgba(23,54,111,0.12)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]">
-                    <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#FFF0F7] text-sm font-extrabold text-[#F51B83] transition group-hover:bg-[#F51B83] group-hover:text-white">{number}</span>
-                    <span className="mt-4 text-[10px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0]">{category}</span>
-                    <span className="mt-2 text-lg font-extrabold leading-tight text-[#172B4D]">{title}</span>
-                    <span className="mt-2 text-sm leading-6 text-[#647DA5]">{description}</span>
-                    <span className="absolute right-5 top-5 text-xl text-[#9DB9D9] transition group-hover:translate-x-1 group-hover:text-[#F51B83]" aria-hidden="true">↗</span>
+                  <button type="button" key={slug} onClick={() => onOpenCard?.(slug)} className="group relative overflow-hidden rounded-[1.35rem] border border-[#A9CEF1] bg-[#EAF4FF] p-0 text-left shadow-[0_8px_20px_rgba(40,120,208,0.08)] transition duration-300 hover:-translate-y-1.5 hover:border-[#F51B83] hover:bg-white hover:shadow-[0_18px_32px_rgba(40,120,208,0.16)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]">
+                    <span className="block h-2 bg-[#2878D0] transition-colors duration-300 group-hover:bg-[#F51B83]" />
+                    <span className="relative block p-5">
+                      <span className="flex items-start justify-between">
+                        <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#FFF0F7] text-sm font-extrabold text-[#F51B83] ring-1 ring-[#F8B4D3] transition duration-300 group-hover:bg-[#F51B83] group-hover:text-white">{number}</span>
+                        <span className="text-lg font-semibold text-[#9DB9D9] transition group-hover:translate-x-1 group-hover:text-[#F51B83]" aria-hidden="true">↗</span>
+                      </span>
+                      <span className="mt-4 inline-flex rounded-full bg-white px-3 py-1 text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#2878D0] shadow-sm">{category}</span>
+                      <span className="mt-3 block text-lg font-extrabold leading-tight text-[#172B4D]">{title}</span>
+                      <span className="mt-2 block text-sm leading-6 text-[#647DA5]">{description}</span>
+                      <span className="mt-4 block text-[11px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0] transition group-hover:text-[#F51B83]">{lang === 'en' ? 'Explore' : lang === 'es' ? 'Explorar' : 'Explorar'} <span aria-hidden="true">→</span></span>
+                    </span>
                   </button>
                 ))}
               </div>
