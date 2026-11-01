@@ -5,6 +5,7 @@ import { HeroSection } from './components/HeroSection';
 import { BrandMarquee } from './components/BrandMarquee';
 import { BlogCardsSection } from './components/BlogCardsSection';
 import { AboutAurenstarSection } from './components/AboutAurenstarSection';
+import { ToolExplainerSection } from './components/ToolExplainerSection';
 import { Footer } from './components/Footer';
 import { BlogPage } from './pages/BlogPage';
 import { ArticlePage } from './pages/ArticlePage';
@@ -206,6 +207,9 @@ export default function App() {
               onNavigateToDiscoverSign={() => handleNavigate('discover-sign')}
               onNavigateToDescribeMe={handleNavigateToDescribeMe}
             />
+
+            {/* Tool navigation section shown directly after the hero */}
+            <ToolExplainerSection onNavigate={(tool) => handleNavigate(tool)} />
 
             {/* Trending Articles Section */}
             <BlogCardsSection
