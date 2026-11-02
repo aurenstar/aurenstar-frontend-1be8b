@@ -181,6 +181,16 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   {t.footer.home}
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://github.com/aurenstar/aurenstar-frontend-1be8b"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                >
+                  Source code
+                </a>
+              </li>
             </ul>
           </div>
 
