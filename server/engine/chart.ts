@@ -1,29 +1,48 @@
-import swissWasm from './aurenstar.wasm';
-import { BODY_NAMES, SIGNS, SwissEngine, ephemerisFilesForJd, type BodyName } from './swiss';
 import { julianDayUt, localToUtc } from './time';
 import { getCity, type City, type GeoEnv } from './geo';
 
 export interface ChartEnv extends GeoEnv {
-  ASSETS: { fetch(input: Request | string | URL): Promise<Response> };
+  /** Address of the public "aurenstar-engine" service (Swiss Ephemeris). */
+  ENGINE_URL?: string;
+  /** Optional shared key, if the engine was set up to require one. */
+  ENGINE_KEY?: string;
+}
+
+// The planets are computed by a separate open-source program (Swiss Ephemeris, AGPL):
+// https://github.com/aurenstar/aurenstar-engine . This site only sends it a UTC time and coordinates.
+const BODY_NAMES = [
+  'sun', 'moon', 'mercury', 'venus', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto',
+  'meanNode', 'trueNode', 'lilith', 'chiron', 'ceres',
+] as const;
+type BodyName = (typeof BODY_NAMES)[number];
+const SIGNS = ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', 'Libra', 'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces'] as const;
+
+interface EngineBody { longitude: number; sign: (typeof SIGNS)[number]; retrograde: boolean }
+interface EngineChart {
+  bodies: Record<BodyName, EngineBody>;
+  houses: { cusps: number[]; ascendant: number; midheaven: number };
+  status: number;
+}
+
+const DEFAULT_ENGINE_URL = 'https://aurenstar-engine.pages.dev';
+
+async function askEngine(env: ChartEnv, utcMs: number, lat: number, lon: number): Promise<EngineChart> {
+  const base = (env.ENGINE_URL || DEFAULT_ENGINE_URL).replace(/\/$/, '');
+  const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+  if (env.ENGINE_KEY) headers['x-engine-key'] = env.ENGINE_KEY;
+  const res = await fetch(`${base}/api/positions`, {
+    method: 'POST',
+    headers,
+    body: JSON.stringify({ utc: new Date(utcMs).toISOString(), lat, lon, houseSystem: 'P' }),
+  });
+  if (!res.ok) throw new Error(`Engine error (${res.status})`);
+  return (await res.json()) as EngineChart;
 }
 
 export interface ChartRequest {
   date: string; // YYYY-MM-DD
   time?: string | null; // HH:MM (24h), local time at the birth place
   geonameid?: number | null;
-}
-
-let engine: SwissEngine | undefined;
-const getEngine = () => (engine ??= new SwissEngine(swissWasm));
-
-async function ensureFiles(env: ChartEnv, origin: string, jd: number) {
-  const eng = getEngine();
-  for (const name of ephemerisFilesForJd(jd)) {
-    if (eng.hasFile(name)) continue;
-    const res = await env.ASSETS.fetch(new URL(`/ephe/${name}`, origin));
-    if (!res.ok) throw new Error(`Ephemeris file ${name} unavailable (${res.status})`);
-    eng.addFile(name, new Uint8Array(await res.arrayBuffer()));
-  }
 }
 
 const point = (lon: number) => {
@@ -65,21 +84,20 @@ export async function computeChart(req: ChartRequest, env: ChartEnv, origin: str
   const lat = city?.latitude ?? 0;
   const lon = city?.longitude ?? 0;
 
-  await ensureFiles(env, origin, jd);
-  const eng = getEngine();
-  const chart = eng.calculate(jd, lat, lon, 80);
+  const chartPromise = askEngine(env, conv.utcMs, lat, lon);
 
   // Does the Sun change sign during that local day? (matters when the birth time is unknown)
   let sunSignChangesThatDay: null | { before: string; after: string } = null;
   if (!timeKnown) {
     const start = localToUtc(y, mo, d, 0, 0, tz);
     const end = localToUtc(y, mo, d, 23, 59, tz);
-    await ensureFiles(env, origin, julianDayUt(start.utcMs));
-    const s = eng.calculate(julianDayUt(start.utcMs), lat, lon).bodies.sun.sign;
-    const e = eng.calculate(julianDayUt(end.utcMs), lat, lon).bodies.sun.sign;
+    const [first, last] = await Promise.all([askEngine(env, start.utcMs, lat, lon), askEngine(env, end.utcMs, lat, lon)]);
+    const s = first.bodies.sun.sign;
+    const e = last.bodies.sun.sign;
     if (s !== e) sunSignChangesThatDay = { before: s, after: e };
   }
 
+  const chart = await chartPromise;
   const bodies = {} as Record<BodyName, ReturnType<typeof point> & { retrograde: boolean }>;
   for (const name of BODY_NAMES) bodies[name] = { ...point(chart.bodies[name].longitude), retrograde: chart.bodies[name].retrograde };
 

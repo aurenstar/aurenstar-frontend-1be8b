@@ -8,6 +8,7 @@ interface FooterProps {
       | 'home'
       | 'blog'
       | 'contact'
+      | 'credits'
       | 'newsletter'
       | 'daily-message'
       | 'aureneffect'
@@ -46,6 +47,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
     e.preventDefault();
     if (onNavigate) {
       onNavigate('blog');
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleGoCredits = (e: React.MouseEvent) => {
+    e.preventDefault();
+    if (onNavigate) {
+      onNavigate('credits');
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -183,12 +192,21 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <a
-                  href="https://github.com/aurenstar/aurenstar-frontend-1be8b"
+                  href="https://github.com/aurenstar/aurenstar-engine"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
                   Source code
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/credits"
+                  onClick={handleGoCredits}
+                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                >
+                  Tools &amp; Credits
                 </a>
               </li>
             </ul>

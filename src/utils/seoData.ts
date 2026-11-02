@@ -18,6 +18,7 @@ export type SeoPage =
   | 'blog'
   | 'article'
   | 'contact'
+  | 'credits'
   | 'newsletter'
   | 'daily-message'
   | 'daily-reading-result'
@@ -105,6 +106,11 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
     path: '/blog',
   },
   contact: { title: 'Contact Aurenstar', description: 'Get in touch with the Aurenstar team.', path: '/contact' },
+  credits: {
+    title: 'Tools & Credits | Aurenstar',
+    description: 'The scientific tools and open data behind Aurenstar: Swiss Ephemeris, IANA Time Zone Database and GeoNames.',
+    path: '/credits',
+  },
   newsletter: {
     title: 'Aurenstar Astrology Newsletter',
     description: 'Receive thoughtful astrology guidance and new Aurenstar articles.',
@@ -178,6 +184,7 @@ export const STATIC_ROUTES: SeoPage[] = [
   'home',
   'blog',
   'contact',
+  'credits',
   'newsletter',
   'daily-message',
   'daily-reading-result',

@@ -10,6 +10,7 @@ import { Footer } from './components/Footer';
 import { BlogPage } from './pages/BlogPage';
 import { ArticlePage } from './pages/ArticlePage';
 import { ContactPage } from './pages/ContactPage';
+import { CreditsPage } from './pages/CreditsPage';
 import { NewsletterPage } from './pages/NewsletterPage';
 import { DailyMessagePage } from './pages/DailyMessagePage';
 import { DailyReadingResultPage } from './pages/DailyReadingResultPage';
@@ -33,6 +34,7 @@ export type AppPageRoute =
   | 'blog'
   | 'article'
   | 'contact'
+  | 'credits'
   | 'newsletter'
   | 'daily-message'
   | 'daily-reading-result'
@@ -94,6 +96,8 @@ export default function App() {
         setCurrentPage('blog');
       } else if (path === '/contact' || hash === '#/contact') {
         setCurrentPage('contact');
+      } else if (path === '/credits' || hash === '#/credits') {
+        setCurrentPage('credits');
       } else if (path === '/newsletter' || hash === '#/newsletter') {
         setCurrentPage('newsletter');
       } else if (routeMatches('/descreva-me', '/describe-me', '#/descreva-me')) {
@@ -303,6 +307,15 @@ export default function App() {
           <main className="flex-1">
             {/* Dedicated Contact Page */}
             <ContactPage
+              onBackToHome={() => handleNavigate('home')}
+              onNavigateToBlog={() => handleNavigate('blog')}
+            />
+          </main>
+        )}
+
+        {currentPage === 'credits' && (
+          <main className="flex-1">
+            <CreditsPage
               onBackToHome={() => handleNavigate('home')}
               onNavigateToBlog={() => handleNavigate('blog')}
             />

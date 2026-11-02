@@ -73,11 +73,12 @@ Rodam no Cloudflare (Pages Functions), nada é calculado no navegador:
 | `GET /api/cities?q=sao pa` | Sugestões de cidade (GeoNames no Supabase: 236 mil cidades, nomes alternativos, fuso IANA de cada uma). |
 | `POST /api/chart` `{date, time?, geonameid?}` | Converte a hora local do nascimento em UTC com o histórico real de fusos/horário de verão (IANA) e calcula Sol, Lua, planetas, Ascendente e Meio do Céu com o Swiss Ephemeris. Sem hora/cidade avisa que a Lua é aproximada e se o Sol muda de signo naquele dia. |
 
-Arquivos: `server/engine/` (código e `aurenstar.wasm`) e `public/ephe/` (dados `.se1`, 1200–2400).
+Arquivos: `server/engine/` (conversão de hora/fuso, busca de cidades e chamada ao engine). O WebAssembly e os dados `.se1` ficam no projeto aurenstar-engine.
 O banco só expõe as funções `city_search` e `city_for_chart` à chave pública (dados públicos, no máximo 20 resultados).
-**Licença (decidido):** o Swiss Ephemeris gratuito é AGPL-3.0, então este projeto é código aberto sob a AGPL-3.0 (arquivo `LICENSE`).
-Para cumprir a regra de rede da AGPL (seção 13), o site precisa mostrar aos visitantes um link para o código-fonte (repositório público no GitHub) — falta fazer: tornar o repositório público e colocar o link (por exemplo no rodapé).
-Ferramentas ligadas ao cálculo real: Sign Calculator (data + ano; só pede hora e cidade em dia de troca de signo) e Aureneffect (busca de cidade, Sol/Lua/Ascendente reais; se o serviço cair, volta ao cálculo aproximado antigo).
+**Licença / separação (decidido):** o Swiss Ephemeris gratuito é AGPL-3.0, por isso o cálculo dos planetas vive num projeto **separado e público**, `aurenstar-engine` (https://github.com/aurenstar/aurenstar-engine). Este site (privado) só envia a ele "hora em UTC + latitude + longitude" e recebe as posições. IANA (fusos) e GeoNames (cidades) ficam aqui, no site privado.
+- Variável no Cloudflare: `ENGINE_URL` (endereço do aurenstar-engine; padrão `https://aurenstar-engine.pages.dev`) e, se o engine exigir, `ENGINE_KEY`.
+- Créditos obrigatórios (GeoNames CC BY 4.0 e outros) ficam na página `/credits`, com botão no rodapé ("Tools & Credits"), e o link "Source code" aponta para o repositório do engine.
+- Em desenvolvimento local: rode o engine (`npm run dev` no projeto dele, porta 8788) e use `--binding ENGINE_URL=http://127.0.0.1:8788` no wrangler.
 
 ## Publicação no Cloudflare Pages
 
