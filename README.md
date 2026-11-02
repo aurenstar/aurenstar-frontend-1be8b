@@ -64,6 +64,19 @@ Variável opcional no painel do Cloudflare (**Pages → Settings → Variables a
 - `GEMINI_API_KEY` — habilita o texto refinado por IA. Sem ela as duas rotas respondem com as
   leituras prontas do próprio código (o site continua funcionando).
 
+## Cálculo astronômico (Swiss Ephemeris + IANA + GeoNames)
+
+Rodam no Cloudflare (Pages Functions), nada é calculado no navegador:
+
+| Rota | O que faz |
+| --- | --- |
+| `GET /api/cities?q=sao pa` | Sugestões de cidade (GeoNames no Supabase: 236 mil cidades, nomes alternativos, fuso IANA de cada uma). |
+| `POST /api/chart` `{date, time?, geonameid?}` | Converte a hora local do nascimento em UTC com o histórico real de fusos/horário de verão (IANA) e calcula Sol, Lua, planetas, Ascendente e Meio do Céu com o Swiss Ephemeris. Sem hora/cidade avisa que a Lua é aproximada e se o Sol muda de signo naquele dia. |
+
+Arquivos: `server/engine/` (código e `aurenstar.wasm`) e `public/ephe/` (dados `.se1`, 1200–2400).
+O banco só expõe as funções `city_search` e `city_for_chart` à chave pública (dados públicos, no máximo 20 resultados).
+**Licença:** o Swiss Ephemeris gratuito é AGPL; antes de lançar, decidir entre abrir o código ou comprar a licença comercial.
+
 ## Publicação no Cloudflare Pages
 
 - Build command: `npm run build`
