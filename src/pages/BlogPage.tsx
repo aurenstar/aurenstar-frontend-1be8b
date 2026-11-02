@@ -422,7 +422,8 @@ export const BlogPage: React.FC<BlogPageProps> = ({
               className="bg-white rounded-2xl border border-[#D9E8F8] shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 overflow-hidden flex flex-col justify-between cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40"
             >
               {/* Card Image at Top - Compact proportion matching image.png */}
-              <div className="w-full h-40 sm:h-44 overflow-hidden bg-slate-100 relative shrink-0">
+              <div className="p-3.5 pb-0 shrink-0">
+              <div className="w-full h-40 sm:h-44 overflow-hidden rounded-[18px] bg-slate-100 relative">
                 <img
                   src={article.image}
                   alt={article.title[lang] || article.title.pt}
@@ -441,6 +442,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                 >
                   <Star className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                 </button>
+              </div>
               </div>
 
               {/* Card Content Area matching cards.png */}

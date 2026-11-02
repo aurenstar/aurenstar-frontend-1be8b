@@ -319,9 +319,11 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                             aria-label={`${title} - ${t.readMore}`}
                             className="bg-[#FFFFFF] border border-[#D9E8F8] hover:border-[#2878D0]/60 rounded-2xl overflow-hidden shadow-[0_4px_20px_rgba(23,54,111,0.06)] hover:shadow-[0_12px_28px_rgba(40,120,208,0.15)] transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40 h-full"
                           >
-                            <div className="w-full h-40 sm:h-44 overflow-hidden bg-[#E4F1FF] relative shrink-0">
-                              <img src={post.image} alt={title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-                              <div className="absolute inset-0 bg-black/0 group-hover:bg-[#17366F]/10 transition-colors pointer-events-none" />
+                            <div className="p-3.5 pb-0 shrink-0">
+                              <div className="w-full h-40 sm:h-44 overflow-hidden rounded-[18px] bg-[#E4F1FF] relative">
+                                <img src={post.image} alt={title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+                                <div className="absolute inset-0 bg-black/0 group-hover:bg-[#17366F]/10 transition-colors pointer-events-none" />
+                              </div>
                             </div>
                             <div className="p-5 flex flex-col justify-between flex-1">
                               <div>
