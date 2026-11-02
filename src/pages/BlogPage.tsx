@@ -6,7 +6,6 @@ import {
   ChevronDown,
   Clock,
   Sparkles,
-  Star,
   ChevronLeft,
   ChevronRight,
   Play,
@@ -16,7 +15,7 @@ import {
 import { useLanguage } from '../context/LanguageContext';
 import { BLOG_ARTICLES, BlogArticleContent, AURENSTAR_AVATAR } from '../data/blogArticles';
 import { AurenstarLogo } from '../components/AurenstarLogo';
-import { SaveArticleButton } from '../components/SaveArticleButton';
+import { ShareArticleButton } from '../components/ShareArticleButton';
 import { getArticleSlugById } from '../utils/articleSlug';
 import { getCategoryPath } from '../utils/blogCategories';
 import { cardLinkClick, onPlainClick } from '../utils/links';
@@ -431,18 +430,6 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
                 />
-
-                {/* Translucent Star Button on Top-Right matching image.png */}
-                <button
-                  type="button"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                  }}
-                  aria-label="Favoritar artigo"
-                  className="absolute top-2.5 right-2.5 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-black/40 backdrop-blur-md flex items-center justify-center text-white/85 hover:text-white hover:bg-black/60 transition-all shadow-xs cursor-pointer z-10"
-                >
-                  <Star className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                </button>
               </div>
               </div>
 
@@ -463,7 +450,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                         {article.title[lang] || article.title.pt}
                       </a>
                     </h3>
-                    <SaveArticleButton articleId={article.id} />
+                    <ShareArticleButton article={article} />
                   </div>
 
                   {/* Article Excerpt */}
