@@ -13,6 +13,9 @@ import {
   type AstronomicalTriad,
   queryAurenstarEngine,
   generateLocalAurenEffectReading,
+  signNameIn,
+  phaseNameIn,
+  type ReadingLang,
   REFERENCE_CITIES,
 } from '../src/utils/aurenEngine';
 
@@ -300,6 +303,7 @@ export interface PreciseSky {
 export async function handleAurenEffect(body: any, apiKey?: string, precise?: PreciseSky | null) {
   try {
     const { name, birthDate, birthTime, birthCity } = body || {};
+    const lang: ReadingLang = ['pt', 'en', 'es'].includes(body?.lang) ? body.lang : 'en';
     const userName = (name || 'Andriel').trim();
     const cityKey = (birthCity || 'sao-paulo').toLowerCase().replace(/\s+/g, '-');
 
@@ -331,7 +335,7 @@ export async function handleAurenEffect(body: any, apiKey?: string, precise?: Pr
     const triad = precise?.triad ?? calculateAstrologicalTriad(year, month, day, hours, minutes, cityKey);
 
     // Camada 02: Aurenstar Engine / Gatilhos Psicológicos de Rotina
-    const trigger = queryAurenstarEngine(triad);
+    const trigger = queryAurenstarEngine(triad, lang);
 
     const birthDateFormatted = `${String(day).padStart(2, '0')}/${String(month).padStart(2, '0')}/${year}`;
     const birthTimeFormatted = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
@@ -344,7 +348,8 @@ export async function handleAurenEffect(body: any, apiKey?: string, precise?: Pr
       birthTimeFormatted,
       cityName,
       triad,
-      trigger
+      trigger,
+      lang
     );
 
     const ai = getGeminiClient(apiKey);
@@ -353,54 +358,41 @@ export async function handleAurenEffect(body: any, apiKey?: string, precise?: Pr
     }
 
     // Camada 03: Comunicação por IA - Google Gemini (Lapidação em linguagem ultra-humana)
-    const prompt = `Você é o interpretador de Astrologia Comportamental moderna da plataforma Aurenstar para a ferramenta "Aureneffect" (Efeito Auren).
+    const languageName = { en: 'English', pt: 'Brazilian Portuguese', es: 'Spanish' }[lang];
+    const prompt = `You write the daily "Aureneffect" message for Aurenstar, a friendly astrology site.
+Write EVERYTHING in ${languageName}.
 
-DADOS BRUTOS (Camada 01 - Fatos Astronômicos Matemáticos):
-- Nome do Usuário: "${userName}"
-- Data de Nascimento: ${birthDateFormatted} às ${birthTimeFormatted} em ${cityName}
-- Sol Natal: ${triad.sun.sign} (${triad.sun.element}, foco: ${triad.sun.keyword})
-- Lua Natal: ${triad.moon.sign} (${triad.moon.element}, foco: ${triad.moon.keyword})
-- Ascendente Natal: ${triad.ascendant.sign} (${triad.ascendant.element}, foco: ${triad.ascendant.keyword})
-- Lua no Céu de Hoje: ${triad.todayMoon.sign} (${triad.todayMoon.phase})
+FACTS (calculated with real astronomy):
+- Name: "${userName}"
+- Birth sign (Sun): ${signNameIn(triad.sun, lang)}
+- Moon sign at birth: ${signNameIn(triad.moon, lang)}
+- Rising sign: ${signNameIn(triad.ascendant, lang)}
+- Today the Moon is in ${signNameIn(triad.todayMoon, lang)} (${phaseNameIn(triad.todayMoon.phase, lang)})
 
-REGRAS INTERPRETATIVAS BRUTAS (Camada 02 - Aurenstar Engine):
-- Causa principal de rotina: "${trigger.primaryCause}"
-- Gatilho oculto de comportamento: "${trigger.hiddenTrigger}"
-- Vibe dominante: "${trigger.dominantVibe}"
-- Sugestão prática 1: "${trigger.practicalActions[0].title}: ${trigger.practicalActions[0].description}"
-- Sugestão prática 2: "${trigger.practicalActions[1].title}: ${trigger.practicalActions[1].description}"
-- Sugestão prática 3: "${trigger.practicalActions[2].title}: ${trigger.practicalActions[2].description}"
+IDEAS TO USE (already in simple words):
+- What the person may feel today: "${trigger.primaryCause}"
+- What may bother them today: "${trigger.hiddenTrigger}"
+- Easy action 1: "${trigger.practicalActions[0].title}: ${trigger.practicalActions[0].description}"
+- Easy action 2: "${trigger.practicalActions[1].title}: ${trigger.practicalActions[1].description}"
+- Easy action 3: "${trigger.practicalActions[2].title}: ${trigger.practicalActions[2].description}"
 
-DIRETRIZES TÉCNICAS E DE SEGURANÇA OBRIGATÓRIAS:
-1. ZERO JARGÕES TÉCNICOS: É terminantemente PROIBIDO usar termos herméticos como "quadratura", "oposição", "graus", "trânsito da casa 8", "conjunção". Traduza tudo em sensações cotidianas, rotina real e palavras simples e acolhedoras que qualquer pessoa entende sem esforço.
-2. HIPÓTESE VERSUS FATO CIENTÍFICO: Os dados do nascimento e da órbita da Lua são fatos astronômicos matemáticos. A correlação com o humor do dia é tratada como a HIPÓTESE reflexiva, psicológica e terapêutica da Aurenstar para o bem-estar diário.
-3. ESTRUTURAÇÃO DO OUTPUT: Responda diretamente e com muito acolhimento a duas perguntas práticas:
-   - Pergunta 1: "Por que estou me sentindo ou agindo assim hoje?" (Causa e Gatilho Oculto explicados com empatia e leveza)
-   - Pergunta 2: "O que eu posso fazer com isso agora?" (Plano de Ação Comportamental com 3 passos práticos de rotina)
+HOW TO WRITE (very important):
+1. Talk like a kind friend. Use short sentences and everyday words a 12-year-old understands.
+2. NEVER use astrology or technical words such as: transit, aspect, conjunction, square, opposition, degrees, house, element, energy field, essence, vibration, archetype, "dialoguing with". Mention the signs at most once, in a simple way, like "with the Moon in Leo today".
+3. Talk about real daily life: work, phone, family, rest, mood. Give no predictions and no orders; offer gentle ideas.
+4. Be warm and positive. Never scare the person.
 
-Retorne ESTRITAMENTE um objeto JSON válido no formato:
+Return ONLY a valid JSON object:
 {
-  "question1Answer": "Explicação acolhedora e compreensiva de 2 a 3 parágrafos curtos explicando em palavras simples o porquê da sensação ou comportamento de hoje",
-  "question2Answer": "Introdução carinhosa de 1 parágrafo apresentando as atitudes práticas do dia",
+  "question1Answer": "2 short paragraphs answering 'Why do I feel or act this way today?' in simple words",
+  "question2Answer": "1 short, friendly sentence introducing the 3 easy things to do today",
   "practicalSteps": [
-    {
-      "stepNumber": 1,
-      "title": "Título simples do passo 1",
-      "action": "Ação prática e descomplicada de rotina que leva menos de 5 minutos"
-    },
-    {
-      "stepNumber": 2,
-      "title": "Título simples do passo 2",
-      "action": "Ação prática e descomplicada de rotina"
-    },
-    {
-      "stepNumber": 3,
-      "title": "Título simples do passo 3",
-      "action": "Ação prática e descomplicada de rotina"
-    }
+    { "stepNumber": 1, "title": "Simple title", "action": "Easy action that takes under 5 minutes" },
+    { "stepNumber": 2, "title": "Simple title", "action": "Easy action" },
+    { "stepNumber": 3, "title": "Simple title", "action": "Easy action" }
   ],
-  "affirmation": "Uma afirmação positiva, leve e memorável para o usuário mentalizar hoje",
-  "transparencyNote": "Nota curta e ética reforçando que as órbitas dos astros são fatos astronômicos calculados matematicamente, e a correlação diária é a hipótese comportamental da Aurenstar para o seu bem-estar."
+  "affirmation": "One short, positive sentence the person can repeat today",
+  "transparencyNote": "One short, honest sentence: the Sun and Moon positions are real astronomy, and linking them to mood is just a gentle idea from Aurenstar, not a scientific fact"
 }`;
 
     const response = await ai.models.generateContent({
@@ -444,14 +436,16 @@ Retorne ESTRITAMENTE um objeto JSON válido no formato:
   } catch (err) {
     console.error('Error in /api/aureneffect:', err);
     const triad = calculateAstrologicalTriad(2000, 6, 15, 14, 30, 'sao-paulo');
-    const trigger = queryAurenstarEngine(triad);
+    const errLang: ReadingLang = ['pt', 'en', 'es'].includes(body?.lang) ? body.lang : 'en';
+    const trigger = queryAurenstarEngine(triad, errLang);
     const fallback = generateLocalAurenEffectReading(
       body?.name || 'Andriel',
       '15/06/2000',
       '14:30',
       'São Paulo, SP',
       triad,
-      trigger
+      trigger,
+      errLang
     );
     return ({ success: true, data: fallback });
   }

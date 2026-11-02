@@ -280,7 +280,9 @@ export function buildTriadFromLongitudes(input: {
 /**
  * Camada 02: Aurenstar Engine / Tabela de Gatilhos Psicológicos de Rotina
  */
-const ROUTINE_TRIGGERS: Record<string, {
+export type ReadingLang = 'pt' | 'en' | 'es';
+
+type TriggerText = {
   cause: string;
   trigger: string;
   action1: { title: string; desc: string };
@@ -289,56 +291,164 @@ const ROUTINE_TRIGGERS: Record<string, {
   vibe: string;
   advice: string;
   baseEnergy: number;
-}> = {
-  Fogo: {
-    cause: 'Uma inquietação positiva por começar coisas novas ou resolver tudo de uma vez.',
-    trigger: 'A sensação de que o tempo está passando rápido demais ou que as pessoas ao redor estão em um ritmo mais lento.',
-    action1: { title: 'Escolha uma única prioridade hoje', desc: 'Em vez de tentar abraçar dez coisas, termine uma pendência importante antes do almoço.' },
-    action2: { title: 'Movimente seu corpo por 10 minutos', desc: 'Uma caminhada leve ou alongamento ajuda a descarregar a pressa acumulada nos ombros.' },
-    action3: { title: 'Respire antes de responder mensagens', desc: 'Espere alguns segundos antes de digitar para falar com mais tranquilidade e carinho.' },
-    vibe: 'Entusiasmo ativo que pede foco consciente',
-    advice: 'Lembre-se: ter calma não significa perder tempo; significa construir com firmeza.',
-    baseEnergy: 92,
+};
+
+// Simple, everyday words only. No astrology jargon in the reading itself.
+const ROUTINE_TRIGGERS: Record<ReadingLang, Record<string, TriggerText>> = {
+  en: {
+    Fogo: {
+      cause: 'You may feel full of energy and in a hurry to get things done.',
+      trigger: 'Everything around you may seem too slow, and waiting can feel hard today.',
+      action1: { title: 'Pick just one thing to finish', desc: 'Choose the most important task and finish it before lunch. The rest can wait.' },
+      action2: { title: 'Move a little', desc: 'Take a 10-minute walk or stretch. It helps let go of the rush.' },
+      action3: { title: 'Pause before you reply', desc: 'Count to five before answering a message. You will sound kinder.' },
+      vibe: 'Lots of energy that needs a little calm',
+      advice: 'Going slowly is not wasting time. It is building things that last.',
+      baseEnergy: 92,
+    },
+    Terra: {
+      cause: 'You may want things to be calm, safe and in their place today.',
+      trigger: 'A last-minute change or a surprise message can upset you more than usual.',
+      action1: { title: 'Tidy one small space', desc: 'Clean your desk or your bedside table for 5 minutes. It clears your mind too.' },
+      action2: { title: 'Take a quiet break', desc: 'Sit down with a tea or a glass of water, and leave your phone aside for a while.' },
+      action3: { title: 'Let plans change', desc: 'If something does not go as planned, take a deep breath and be kind to yourself.' },
+      vibe: 'A steady day that needs a bit of flexibility',
+      advice: 'Your strength is patience. Give things time to fall into place.',
+      baseEnergy: 86,
+    },
+    Ar: {
+      cause: 'Your mind may be busy today, with many thoughts and ideas at the same time.',
+      trigger: 'Too many open tabs, notifications and conversations can leave your head feeling full.',
+      action1: { title: 'Stay away from screens for 20 minutes', desc: 'Put your phone away while you eat, and let your mind rest.' },
+      action2: { title: 'Write your worries on paper', desc: 'Getting thoughts out of your head makes it easier to see what really matters.' },
+      action3: { title: 'Have a light chat', desc: 'Talk about something happy with someone you like, instead of going over your to-do list.' },
+      vibe: 'A curious mind that needs some rest',
+      advice: 'Not every thought needs to become action today. Enjoy some quiet when you can.',
+      baseEnergy: 89,
+    },
+    Água: {
+      cause: 'You may feel everything a little deeper today, especially what other people feel.',
+      trigger: 'Heavy conversations or a tired body can make you carry other people’s problems.',
+      action1: { title: 'Keep a little space for yourself', desc: 'Remind yourself: what belongs to others is theirs. Take care of your own peace.' },
+      action2: { title: 'Take a warm shower', desc: 'Warm water and comfy clothes help you relax and feel better.' },
+      action3: { title: 'Say a kind “no” if you are tired', desc: 'Resting is not selfish. It is taking care of yourself.' },
+      vibe: 'A gentle heart that needs care',
+      advice: 'You are generous with others. Be just as gentle with yourself today.',
+      baseEnergy: 84,
+    },
   },
-  Terra: {
-    cause: 'Uma forte busca por segurança prática, organização da rotina e estabilidade emocional.',
-    trigger: 'Imprevistos no trabalho, mensagens de última hora ou pequenas mudanças de planos que tiram você da zona de conforto.',
-    action1: { title: 'Organize seu ambiente imediato', desc: 'Arrumar a mesa ou seu quarto por 5 minutos traz alívio mental imediato.' },
-    action2: { title: 'Faça uma pausa para um chá ou água fresca', desc: 'Sente-se confortavelmente sem olhar para o celular e saboreie o momento.' },
-    action3: { title: 'Aceite que imprevistos acontecem', desc: 'Se algo sair do roteiro hoje, adapte-se com flexibilidade e gentileza consigo mesmo.' },
-    vibe: 'Constância serena que precisa de flexibilidade',
-    advice: 'A sua força está na paciência. Dê tempo para que as coisas se ajeitem naturalmente.',
-    baseEnergy: 86,
+  pt: {
+    Fogo: {
+      cause: 'Você pode estar cheio de energia e com pressa para resolver tudo.',
+      trigger: 'Tudo ao redor pode parecer devagar demais, e esperar pode ser difícil hoje.',
+      action1: { title: 'Escolha só uma coisa para terminar', desc: 'Pegue a tarefa mais importante e termine antes do almoço. O resto pode esperar.' },
+      action2: { title: 'Mexa o corpo um pouquinho', desc: 'Faça uma caminhada ou um alongamento de 10 minutos. Ajuda a soltar a pressa.' },
+      action3: { title: 'Espere um pouco antes de responder', desc: 'Conte até cinco antes de responder uma mensagem. Você vai soar mais gentil.' },
+      vibe: 'Muita energia que precisa de um pouco de calma',
+      advice: 'Ir devagar não é perder tempo. É construir coisas que duram.',
+      baseEnergy: 92,
+    },
+    Terra: {
+      cause: 'Você pode querer que tudo esteja calmo, seguro e no seu lugar hoje.',
+      trigger: 'Uma mudança de última hora ou uma mensagem inesperada pode incomodar mais do que o normal.',
+      action1: { title: 'Arrume um cantinho pequeno', desc: 'Organize sua mesa ou seu criado-mudo por 5 minutos. Isso clareia a mente também.' },
+      action2: { title: 'Faça uma pausa tranquila', desc: 'Sente com um chá ou um copo de água e deixe o celular de lado por um tempinho.' },
+      action3: { title: 'Deixe os planos mudarem', desc: 'Se algo não sair como o planejado, respire fundo e seja gentil com você.' },
+      vibe: 'Um dia firme que pede um pouco de jogo de cintura',
+      advice: 'Sua força é a paciência. Dê tempo para as coisas se ajeitarem.',
+      baseEnergy: 86,
+    },
+    Ar: {
+      cause: 'Sua mente pode estar agitada hoje, com muitos pensamentos e ideias ao mesmo tempo.',
+      trigger: 'Muitas abas abertas, notificações e conversas podem deixar a cabeça cheia.',
+      action1: { title: 'Fique 20 minutos longe das telas', desc: 'Deixe o celular de lado enquanto come e deixe a mente descansar.' },
+      action2: { title: 'Escreva suas preocupações no papel', desc: 'Tirar os pensamentos da cabeça ajuda a ver o que realmente importa.' },
+      action3: { title: 'Bata um papo leve', desc: 'Converse sobre algo alegre com alguém que você gosta, em vez de repassar a lista de tarefas.' },
+      vibe: 'Uma mente curiosa que precisa descansar',
+      advice: 'Nem todo pensamento precisa virar ação hoje. Aproveite o silêncio quando puder.',
+      baseEnergy: 89,
+    },
+    Água: {
+      cause: 'Você pode sentir tudo um pouco mais forte hoje, principalmente o que os outros sentem.',
+      trigger: 'Conversas pesadas ou o corpo cansado podem fazer você carregar os problemas dos outros.',
+      action1: { title: 'Guarde um espacinho para você', desc: 'Lembre-se: o que é do outro é dele. Cuide da sua paz.' },
+      action2: { title: 'Tome um banho morno', desc: 'Água morna e roupa confortável ajudam a relaxar e se sentir melhor.' },
+      action3: { title: 'Diga um “não” carinhoso se estiver cansado', desc: 'Descansar não é egoísmo. É cuidar de você.' },
+      vibe: 'Um coração sensível que pede carinho',
+      advice: 'Você é generoso com os outros. Seja igualmente gentil com você hoje.',
+      baseEnergy: 84,
+    },
   },
-  Ar: {
-    cause: 'Uma mente acelerada com excesso de pensamentos, ideias e estímulos digitais ao mesmo tempo.',
-    trigger: 'Muitas abas abertas, notificações no celular ou conversas que deixam você com a sensação de cabeça cheia.',
-    action1: { title: 'Desconecte-se de telas por 20 minutos', desc: 'Afaste o telefone na hora da refeição para permitir que seu cérebro descanse.' },
-    action2: { title: 'Anote suas preocupações em um papel', desc: 'Tirar o que está na sua cabeça e colocar no papel ajuda a clarear as prioridades.' },
-    action3: { title: 'Tenha uma conversa leve e descontraída', desc: 'Fale de coisas alegres com alguém querido em vez de ruminar tarefas pendentes.' },
-    vibe: 'Curiosidade vibrante que pede descanso mental',
-    advice: 'Nem todo pensamento precisa virar uma ação hoje. Escolha o silêncio quando puder.',
-    baseEnergy: 89,
-  },
-  Água: {
-    cause: 'Uma sensibilidade profunda aos sentimentos dos outros e uma necessidade de acolhimento interior.',
-    trigger: 'Ambientes com conversas pesadas, cansaço acumulado ou a sensação de que você está absorvendo os problemas de todo mundo.',
-    action1: { title: 'Crie uma pequena bolha de proteção emocional', desc: 'Lembre-se carinhosamente: o que é do outro pertence a ele, cuide da sua paz.' },
-    action2: { title: 'Tome um banho relaxante e vista roupas confortáveis', desc: 'A água morna ajuda a lavar as tensões e renovar a sensação de bem-estar.' },
-    action3: { title: 'Diga um “não” carinhoso se sentir cansaço', desc: 'Proteger o seu descanso não é egoísmo, é respeito com a sua saúde.' },
-    vibe: 'Empatia doce que pede proteção e carinho',
-    advice: 'O seu coração é generoso. Lembre-se de reservar a mesma ternura para você mesmo hoje.',
-    baseEnergy: 84,
+  es: {
+    Fogo: {
+      cause: 'Puedes sentirte lleno de energía y con prisa por resolverlo todo.',
+      trigger: 'Todo a tu alrededor puede parecer demasiado lento, y esperar puede costar hoy.',
+      action1: { title: 'Elige solo una cosa para terminar', desc: 'Toma la tarea más importante y termínala antes del almuerzo. Lo demás puede esperar.' },
+      action2: { title: 'Mueve un poquito el cuerpo', desc: 'Camina o estírate 10 minutos. Ayuda a soltar la prisa.' },
+      action3: { title: 'Espera un momento antes de responder', desc: 'Cuenta hasta cinco antes de contestar un mensaje. Sonarás más amable.' },
+      vibe: 'Mucha energía que necesita un poco de calma',
+      advice: 'Ir despacio no es perder tiempo. Es construir cosas que duran.',
+      baseEnergy: 92,
+    },
+    Terra: {
+      cause: 'Puede que hoy quieras que todo esté tranquilo, seguro y en su lugar.',
+      trigger: 'Un cambio de último momento o un mensaje inesperado puede molestarte más de lo normal.',
+      action1: { title: 'Ordena un rinconcito', desc: 'Organiza tu escritorio o tu mesita de noche por 5 minutos. También aclara la mente.' },
+      action2: { title: 'Haz una pausa tranquila', desc: 'Siéntate con un té o un vaso de agua y deja el teléfono a un lado un rato.' },
+      action3: { title: 'Deja que los planes cambien', desc: 'Si algo no sale como lo planeaste, respira hondo y sé amable contigo.' },
+      vibe: 'Un día firme que pide un poco de flexibilidad',
+      advice: 'Tu fuerza es la paciencia. Dale tiempo a las cosas para acomodarse.',
+      baseEnergy: 86,
+    },
+    Ar: {
+      cause: 'Tu mente puede estar agitada hoy, con muchos pensamientos e ideas a la vez.',
+      trigger: 'Demasiadas pestañas abiertas, notificaciones y conversaciones pueden dejarte la cabeza llena.',
+      action1: { title: 'Aléjate 20 minutos de las pantallas', desc: 'Deja el teléfono a un lado mientras comes y deja descansar a tu mente.' },
+      action2: { title: 'Escribe tus preocupaciones en papel', desc: 'Sacar los pensamientos de la cabeza ayuda a ver lo que de verdad importa.' },
+      action3: { title: 'Ten una charla ligera', desc: 'Habla de algo alegre con alguien que quieres, en vez de repasar tu lista de tareas.' },
+      vibe: 'Una mente curiosa que necesita descansar',
+      advice: 'No todo pensamiento tiene que convertirse en acción hoy. Disfruta el silencio cuando puedas.',
+      baseEnergy: 89,
+    },
+    Água: {
+      cause: 'Puedes sentirlo todo un poco más fuerte hoy, sobre todo lo que sienten los demás.',
+      trigger: 'Las conversaciones pesadas o el cuerpo cansado pueden hacer que cargues los problemas de otros.',
+      action1: { title: 'Guarda un espacio para ti', desc: 'Recuerda: lo que es de los demás es de ellos. Cuida tu paz.' },
+      action2: { title: 'Date una ducha tibia', desc: 'El agua tibia y la ropa cómoda ayudan a relajarte y sentirte mejor.' },
+      action3: { title: 'Di un “no” amable si estás cansado', desc: 'Descansar no es egoísmo. Es cuidarte.' },
+      vibe: 'Un corazón sensible que pide cariño',
+      advice: 'Eres generoso con los demás. Sé igual de amable contigo hoy.',
+      baseEnergy: 84,
+    },
   },
 };
 
+const SIGN_NAMES: Record<ReadingLang, Record<string, string>> = {
+  pt: {},
+  en: { aries: 'Aries', touro: 'Taurus', gemeos: 'Gemini', cancer: 'Cancer', leao: 'Leo', virgem: 'Virgo', libra: 'Libra', escorpiao: 'Scorpio', sagitario: 'Sagittarius', capricornio: 'Capricorn', aquario: 'Aquarius', peixes: 'Pisces' },
+  es: { aries: 'Aries', touro: 'Tauro', gemeos: 'Géminis', cancer: 'Cáncer', leao: 'Leo', virgem: 'Virgo', libra: 'Libra', escorpiao: 'Escorpio', sagitario: 'Sagitario', capricornio: 'Capricornio', aquario: 'Acuario', peixes: 'Piscis' },
+};
+
+const PHASE_NAMES: Record<ReadingLang, Record<string, string>> = {
+  pt: {},
+  en: { 'Lua Nova': 'New Moon', 'Lua Crescente': 'Growing Moon', 'Lua Cheia': 'Full Moon', 'Lua Minguante': 'Fading Moon' },
+  es: { 'Lua Nova': 'Luna Nueva', 'Lua Crescente': 'Luna Creciente', 'Lua Cheia': 'Luna Llena', 'Lua Minguante': 'Luna Menguante' },
+};
+
+export function signNameIn(sign: CelestialPosition, lang: ReadingLang): string {
+  return SIGN_NAMES[lang][sign.signKey] || sign.sign;
+}
+
+export function phaseNameIn(phase: string, lang: ReadingLang): string {
+  return PHASE_NAMES[lang][phase] || phase;
+}
+
 /**
- * Consulta estruturada de Gatilhos da Rotina (Camada 02)
+ * Camada 02: Consulta estruturada de Gatilhos da Rotina
  */
-export function queryAurenstarEngine(triad: AstronomicalTriad): RoutineTriggerData {
-  // A vibração do dia conecta o Elemento da Lua no Céu de Hoje com o Elemento do Sol/Lua da pessoa
-  const todayElement = triad.todayMoon.element;
-  const config = ROUTINE_TRIGGERS[todayElement] || ROUTINE_TRIGGERS.Ar;
+export function queryAurenstarEngine(triad: AstronomicalTriad, lang: ReadingLang = 'en'): RoutineTriggerData {
+  const table = ROUTINE_TRIGGERS[lang] || ROUTINE_TRIGGERS.en;
+  const config = table[triad.todayMoon.element] || table.Ar;
 
   return {
     primaryCause: config.cause,
@@ -354,8 +464,38 @@ export function queryAurenstarEngine(triad: AstronomicalTriad): RoutineTriggerDa
   };
 }
 
+const READING_COPY: Record<ReadingLang, {
+  fallbackName: string;
+  intro: (name: string, moonSign: string, sunSign: string) => string;
+  q2: string;
+  affirmation: string;
+  note: string;
+}> = {
+  en: {
+    fallbackName: 'Friend',
+    intro: (n, moon, sun) => `Hi ${n}! Today the Moon is in ${moon}, and your birth sign is ${sun}. Put together, here is how today may feel for you:`,
+    q2: 'Here are 3 easy things you can do today. Each one takes only a few minutes:',
+    affirmation: 'Today I choose calm over rush, I take care of my routine and I trust my own pace.',
+    note: 'The positions of the Sun and Moon are calculated with real astronomy. Linking them to your mood is just a gentle idea from Aurenstar to help you reflect, not a scientific fact.',
+  },
+  pt: {
+    fallbackName: 'Amigo(a)',
+    intro: (n, moon, sun) => `Oi, ${n}! Hoje a Lua está em ${moon}, e o seu signo é ${sun}. Juntando as duas coisas, o seu dia pode estar assim:`,
+    q2: 'Aqui vão 3 coisas fáceis para fazer hoje. Cada uma leva só alguns minutinhos:',
+    affirmation: 'Hoje eu escolho a calma no lugar da pressa, cuido da minha rotina e confio no meu ritmo.',
+    note: 'A posição do Sol e da Lua é calculada com astronomia de verdade. Ligar isso ao seu humor é só uma ideia gentil da Aurenstar para ajudar você a refletir, não um fato científico.',
+  },
+  es: {
+    fallbackName: 'Amigo(a)',
+    intro: (n, moon, sun) => `¡Hola, ${n}! Hoy la Luna está en ${moon}, y tu signo es ${sun}. Juntando las dos cosas, así puede sentirse tu día:`,
+    q2: 'Aquí tienes 3 cosas fáciles para hacer hoy. Cada una toma solo unos minutos:',
+    affirmation: 'Hoy elijo la calma en lugar de la prisa, cuido mi rutina y confío en mi ritmo.',
+    note: 'La posición del Sol y de la Luna se calcula con astronomía real. Relacionarla con tu estado de ánimo es solo una idea amable de Aurenstar para ayudarte a reflexionar, no un hecho científico.',
+  },
+};
+
 /**
- * Camada 03: Interpretador Comportamental (Fallback Lapidado com Palavras Simples)
+ * Camada 03: Interpretador (texto simples, sem jargão) — usado quando a IA não está disponível
  */
 export function generateLocalAurenEffectReading(
   userName: string,
@@ -363,39 +503,19 @@ export function generateLocalAurenEffectReading(
   birthTimeFormatted: string,
   birthCity: string,
   triad: AstronomicalTriad,
-  trigger: RoutineTriggerData
+  trigger: RoutineTriggerData,
+  lang: ReadingLang = 'en'
 ): AurenEffectResult {
-  const name = userName?.trim() || 'Viajante das Estrelas';
-  const sun = triad.sun;
-  const moon = triad.moon;
-  const asc = triad.ascendant;
-  const todayMoon = triad.todayMoon;
+  const copy = READING_COPY[lang] || READING_COPY.en;
+  const name = userName?.trim() || copy.fallbackName;
 
-  const question1Answer = `${name}, hoje a sua essência natural de ${sun.sign} está dialogando diretamente com a energia da ${todayMoon.phase} em ${todayMoon.sign}. ${trigger.primaryCause} ${trigger.hiddenTrigger}`;
+  const question1Answer = `${copy.intro(name, signNameIn(triad.todayMoon, lang), signNameIn(triad.sun, lang))} ${trigger.primaryCause} ${trigger.hiddenTrigger}`;
 
-  const question2Answer = `Para transformar esse momento em paz e produtividade suave, o seu Efeito Auren sugere 3 passos fáceis e descomplicados para colocar em prática ainda hoje:`;
-
-  const practicalSteps = [
-    {
-      stepNumber: 1,
-      title: trigger.practicalActions[0].title,
-      action: trigger.practicalActions[0].description,
-    },
-    {
-      stepNumber: 2,
-      title: trigger.practicalActions[1].title,
-      action: trigger.practicalActions[1].description,
-    },
-    {
-      stepNumber: 3,
-      title: trigger.practicalActions[2].title,
-      action: trigger.practicalActions[2].description,
-    },
-  ];
-
-  const affirmation = `Hoje eu escolho a calma sobre a pressa, cuido com carinho da minha rotina e confio no meu próprio tempo.`;
-
-  const transparencyNote = `Transparência Aurenstar: As posições astronômicas de Sol em ${sun.sign}, Lua em ${moon.sign}, Ascendente em ${asc.sign} e a Lua de hoje em ${todayMoon.sign} são calculadas com exatidão matemática a partir de fórmulas astronômicas. A correlação com seu humor e rotina é tratada como a hipótese comportamental e reflexiva da Aurenstar para enriquecer o seu bem-estar, sem pretensão científica estrita.`;
+  const practicalSteps = trigger.practicalActions.map((a, i) => ({
+    stepNumber: i + 1,
+    title: a.title,
+    action: a.description,
+  }));
 
   return {
     userName: name,
@@ -405,10 +525,10 @@ export function generateLocalAurenEffectReading(
     astronomy: triad,
     routineTrigger: trigger,
     question1Answer,
-    question2Answer,
+    question2Answer: copy.q2,
     practicalSteps,
-    affirmation,
-    transparencyNote,
+    affirmation: copy.affirmation,
+    transparencyNote: copy.note,
     generatedByAI: false,
   };
 }

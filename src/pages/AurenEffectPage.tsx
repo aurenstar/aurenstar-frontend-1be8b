@@ -250,6 +250,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
           birthTime,
           geonameid: birthPlace.geonameid,
           birthCity: birthPlace.label,
+          lang,
         }),
       });
 
@@ -269,7 +270,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       // Fallback local instantâneo da Camada 01 e 02
       const [h, m] = (birthTime || '14:30').split(':').map((n) => parseInt(n, 10) || 0);
       const triad = calculateAstrologicalTriad(birthYear, birthMonth, birthDay, h, m);
-      const trigger = queryAurenstarEngine(triad);
+      const trigger = queryAurenstarEngine(triad, lang);
       const cityName = birthPlace.label;
       const localResult = generateLocalAurenEffectReading(
         name,
@@ -277,7 +278,8 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
         birthTime,
         cityName,
         triad,
-        trigger
+        trigger,
+        lang
       );
       setResult(localResult);
       try {
