@@ -76,7 +76,7 @@ Rodam no Cloudflare (Pages Functions), nada é calculado no navegador:
 Arquivos: `server/engine/` (conversão de hora/fuso, busca de cidades e chamada ao engine). O WebAssembly e os dados `.se1` ficam no projeto aurenstar-engine.
 O banco só expõe as funções `city_search` e `city_for_chart` à chave pública (dados públicos, no máximo 20 resultados).
 **Licença / separação (decidido):** o Swiss Ephemeris gratuito é AGPL-3.0, por isso o cálculo dos planetas vive num projeto **separado e público**, `aurenstar-engine` (https://github.com/aurenstar/aurenstar-engine). Este site (privado) só envia a ele "hora em UTC + latitude + longitude" e recebe as posições. IANA (fusos) e GeoNames (cidades) ficam aqui, no site privado.
-- Variável no Cloudflare: `ENGINE_URL` (endereço do aurenstar-engine; padrão `https://aurenstar-engine.pages.dev`) e, se o engine exigir, `ENGINE_KEY`.
+- Variável no Cloudflare: `ENGINE_URL` (endereço do aurenstar-engine; padrão `https://aurenstar-engine.oficial-safare.workers.dev`) e, se o engine exigir, `ENGINE_KEY`.
 - Créditos obrigatórios (GeoNames CC BY 4.0 e outros) ficam na página `/credits`, com botão no rodapé ("Tools & Credits"), e o link "Source code" aponta para o repositório do engine.
 - Em desenvolvimento local: rode o engine (`npm run dev` no projeto dele, porta 8788) e use `--binding ENGINE_URL=http://127.0.0.1:8788` no wrangler.
 

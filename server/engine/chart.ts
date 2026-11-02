@@ -24,7 +24,7 @@ interface EngineChart {
   status: number;
 }
 
-const DEFAULT_ENGINE_URL = 'https://aurenstar-engine.pages.dev';
+const DEFAULT_ENGINE_URL = 'https://aurenstar-engine.oficial-safare.workers.dev';
 
 async function askEngine(env: ChartEnv, utcMs: number, lat: number, lon: number): Promise<EngineChart> {
   const base = (env.ENGINE_URL || DEFAULT_ENGINE_URL).replace(/\/$/, '');
