@@ -21,14 +21,14 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
   onSelectTerm,
 }) => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState<string>('Todas');
+  const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
   const categories = [
-    'Todas',
-    'Planetas & Astros',
-    'Conceitos do Mapa',
-    'Signos & Elementos',
-    'Fases & Movimentos',
+    'All',
+    'Planets & Bodies',
+    'Chart Concepts',
+    'Signs & Elements',
+    'Phases & Movements',
   ];
 
   const filteredTerms = useMemo(() => {
@@ -42,7 +42,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
         item.oQueSignificaNaAstrologia.toLowerCase().includes(query);
 
       const matchesCat =
-        selectedCategory === 'Todas' || item.categoria === selectedCategory;
+        selectedCategory === 'All' || item.categoria === selectedCategory;
 
       return matchesSearch && matchesCat;
     });
@@ -59,7 +59,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
             className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#647DA5] hover:text-[#172B4D] transition-colors cursor-pointer group"
           >
             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
-            <span>Voltar ao Início</span>
+            <span>Back to Home</span>
           </button>
         </div>
 
@@ -67,7 +67,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
         <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
             <BookOpen className="w-3.5 h-3.5" />
-            <span>Enciclopédia Descomplicada</span>
+            <span>Astrology Made Simple</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#172B4D] tracking-tight mb-3 leading-tight">
@@ -75,8 +75,8 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
           </h1>
 
           <p className="text-sm sm:text-base text-[#647DA5] leading-relaxed max-w-2xl mx-auto">
-            Clique na palavra que você tem dúvida para abrir a **página completa** com a explicação simples,
-            o significado prático e exemplos divertidos do dia a dia.
+            Tap the word you are curious about to open its full page with a simple explanation,
+            the practical meaning and fun everyday examples.
           </p>
         </div>
 
@@ -92,7 +92,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Digite o termo que você quer entender... (ex: Mercúrio retrógrado, Ascendente, Lua Cheia)"
+              placeholder="Type the term you want to understand... (e.g., Mercury retrograde, Rising sign, Full Moon)"
               className="w-full pl-12 pr-4 py-3.5 bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl text-sm sm:text-base text-[#172B4D] placeholder:text-[#647DA5]/60 font-medium outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
             />
             {searchTerm && (
@@ -101,7 +101,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                 onClick={() => setSearchTerm('')}
                 className="absolute right-3.5 top-1/2 -translate-y-1/2 text-xs font-bold text-[#647DA5] hover:text-[#172B4D] p-1 cursor-pointer"
               >
-                Limpar
+                Clear
               </button>
             )}
           </div>
@@ -109,7 +109,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
           {/* Category Filter Buttons */}
           <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-[#D9E8F8]">
             <span className="text-xs font-bold text-[#647DA5] mr-1 hidden sm:inline">
-              Categorias:
+              Categories:
             </span>
             {categories.map((cat) => {
               const isSelected = selectedCategory === cat;
@@ -134,18 +134,18 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
         {/* Counter */}
         <div className="flex items-center justify-between mb-6 text-xs text-[#647DA5] font-medium px-2">
           <span>
-            Mostrando <strong className="text-[#172B4D]">{filteredTerms.length}</strong> páginas exclusivas de significados
+            Showing <strong className="text-[#172B4D]">{filteredTerms.length}</strong> {filteredTerms.length === 1 ? 'meaning page' : 'meaning pages'}
           </span>
           {searchTerm && (
             <button
               type="button"
               onClick={() => {
                 setSearchTerm('');
-                setSelectedCategory('Todas');
+                setSelectedCategory('All');
               }}
               className="text-[#2878D0] font-bold hover:underline cursor-pointer"
             >
-              Ver todas as palavras
+              See all terms
             </button>
           )}
         </div>
@@ -154,19 +154,19 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
         {filteredTerms.length === 0 ? (
           <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] p-12 text-center shadow-xs">
             <div className="text-4xl mb-3">🔍</div>
-            <h3 className="text-lg font-bold text-[#172B4D] mb-1">Nenhum termo encontrado</h3>
+            <h3 className="text-lg font-bold text-[#172B4D] mb-1">No terms found</h3>
             <p className="text-xs text-[#647DA5] max-w-sm mx-auto mb-4">
-              Tente buscar por "Mercúrio", "Ascendente", "Lua", "Vênus" ou "Casas".
+              Try searching for "Mercury", "Rising", "Moon", "Venus" or "Houses".
             </p>
             <button
               type="button"
               onClick={() => {
                 setSearchTerm('');
-                setSelectedCategory('Todas');
+                setSelectedCategory('All');
               }}
               className="px-5 py-2.5 rounded-xl bg-[#2878D0] text-white text-xs font-bold cursor-pointer hover:bg-[#17366F] transition-colors"
             >
-              Limpar Busca
+              Clear Search
             </button>
           </div>
         ) : (
@@ -198,7 +198,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                       {term.chamadaCuriosa || term.resumoUmaLinha}
                     </span>
                     <span className="inline-flex items-center gap-1.5 text-[11px] font-extrabold text-[#2878D0] group-hover:text-[#17366F] transition-colors">
-                      <span className="underline decoration-[#2878D0]/30 underline-offset-2">Ver explicação completa</span>
+                      <span className="underline decoration-[#2878D0]/30 underline-offset-2">Read the full explanation</span>
                       <span className="text-xs transition-transform group-hover:translate-x-1 font-black">→</span>
                     </span>
                   </p>

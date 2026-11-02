@@ -52,11 +52,11 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
 
   const handleShare = () => {
     const text =
-      `📖 *${term.termo}* — O que significa na Astrologia?\n\n` +
-      `🌍 *O que é:* ${term.oQueSignifica}\n\n` +
-      `✨ *Na prática:* ${term.oQueSignificaNaAstrologia}\n\n` +
-      `💡 *Exemplo simples:* "${term.exemploFicticio}"\n\n` +
-      `Veja a página completa sem palavras difíceis em: ${pageUrl}`;
+      `📖 *${term.termo}* — What does it mean in astrology?\n\n` +
+      `🌍 *What it is:* ${term.oQueSignifica}\n\n` +
+      `✨ *In practice:* ${term.oQueSignificaNaAstrologia}\n\n` +
+      `💡 *Simple example:* "${term.exemploFicticio}"\n\n` +
+      `See the full page, without difficult words, at: ${pageUrl}`;
 
     navigator.clipboard.writeText(text);
     setCopied(true);
@@ -68,13 +68,13 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         {/* Navigation Toolbar & Breadcrumbs */}
         <div className="flex flex-wrap items-center justify-between gap-3 mb-8 pb-4 border-b border-[#D9E8F8]">
-          <nav aria-label="Navegação estrutural" className="flex items-center gap-1.5 sm:gap-2 text-xs text-[#647DA5]">
+          <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 sm:gap-2 text-xs text-[#647DA5]">
             <button
               type="button"
               onClick={onBackToHome}
               className="hover:text-[#172B4D] transition-colors cursor-pointer"
             >
-              Início
+              Home
             </button>
             <ChevronRight className="w-3 h-3 text-[#647DA5]" />
             <button
@@ -96,7 +96,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             className="inline-flex items-center gap-1.5 text-xs font-bold text-[#2878D0] hover:text-[#17366F] transition-colors cursor-pointer"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
-            <span>Ver Todas as Palavras</span>
+            <span>See All Terms</span>
           </button>
         </div>
 
@@ -132,7 +132,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
                   {term.termo}
                 </h2>
                 <span className="text-xs text-[#647DA5]">
-                  Explicação descomplicada e sem palavras técnicas
+                  A simple explanation, no technical words
                 </span>
               </div>
             </div>
@@ -145,12 +145,12 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               {copied ? (
                 <>
                   <Check className="w-3.5 h-3.5 text-white" />
-                  <span>Link Copiado com Sucesso!</span>
+                  <span>Link Copied!</span>
                 </>
               ) : (
                 <>
                   <Share2 className="w-3.5 h-3.5" />
-                  <span>Compartilhar Essa Página</span>
+                  <span>Share This Page</span>
                 </>
               )}
             </button>
@@ -160,7 +160,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#E4F1FF]/30 border border-[#D9E8F8]">
             <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#2878D0] mb-2.5 flex items-center gap-2">
               <HelpCircle className="w-4 h-4 text-[#2878D0]" />
-              <span>O que significa?</span>
+              <span>What does it mean?</span>
             </h3>
             <p className="text-sm sm:text-base text-[#172B4D] leading-relaxed font-normal">
               {term.oQueSignifica}
@@ -171,7 +171,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#FFE0EF]/30 border border-[#FFE0EF]">
             <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#F51B83] mb-2.5 flex items-center gap-2">
               <Sparkles className="w-4 h-4 text-[#F51B83]" />
-              <span>O que isso significa na astrologia?</span>
+              <span>What does it mean in astrology?</span>
             </h3>
             <p className="text-sm sm:text-base text-[#172B4D] leading-relaxed font-normal">
               {term.oQueSignificaNaAstrologia}
@@ -182,7 +182,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#E4F1FF]/40 border border-[#D9E8F8]">
             <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#17366F] mb-2.5 flex items-center gap-2">
               <Lightbulb className="w-4 h-4 text-[#17366F]" />
-              <span>Exemplo fictício do dia a dia:</span>
+              <span>A fictional everyday example:</span>
             </h3>
             <p className="text-sm sm:text-base text-[#172B4D] leading-relaxed font-normal italic">
               "{term.exemploFicticio}"
@@ -195,10 +195,10 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             <div className="mt-8 pt-6 border-t border-[#D9E8F8] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
               <div>
                 <span className="text-xs font-bold text-[#172B4D] block">
-                  Quer ver como isso afeta o seu dia hoje?
+                  Want to see how this affects your day today?
                 </span>
                 <span className="text-xs text-[#647DA5]">
-                  Faça um teste rápido e gratuito com linguagem clara e direta.
+                  Take a quick, free test in clear, simple language.
                 </span>
               </div>
               <button
@@ -241,7 +241,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
                     </p>
                   </div>
                   <div className="pt-2 border-t border-[#D9E8F8] flex items-center justify-between text-[11px] font-bold text-[#2878D0]">
-                    <span>Abrir página</span>
+                    <span>Open page</span>
                     <ArrowRight className="w-3 h-3 transition-transform group-hover:translate-x-1" />
                   </div>
                 </a>
@@ -258,7 +258,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] text-xs sm:text-sm font-bold shadow-2xs transition-all cursor-pointer"
           >
             <BookOpen className="w-4 h-4 text-[#2878D0]" />
-            <span>Voltar ao Índice Completo de Palavras</span>
+            <span>Back to the Full Dictionary</span>
           </button>
         </div>
       </div>

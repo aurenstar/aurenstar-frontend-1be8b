@@ -152,9 +152,9 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
     path: '/dictionary',
   },
   dicionario: {
-    title: 'Dicionário de Astrologia: significado de cada termo | Aurenstar',
+    title: 'Astrology Dictionary: What Every Term Means | Aurenstar',
     description:
-      'Descubra o significado de Mercúrio retrógrado, Ascendente, Lua Cheia e outros termos da astrologia, explicados de forma simples e com exemplos do dia a dia.',
+      'Find out what Mercury retrograde, Rising sign, Full Moon and other astrology terms mean, explained in simple words with everyday examples.',
     path: '/dicionario',
   },
   'dicionario-termo': {
@@ -304,8 +304,6 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
           : summary || term.explicacaoEducativa
       );
       path = `/dicionario/${term.slug}`;
-      locale = 'pt_BR';
-      lang = 'pt-BR';
       const url = `${SITE_URL}${path}`;
       pageNode = {
         '@type': 'WebPage',
@@ -313,7 +311,7 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
         url,
         name: term.tituloSEO,
         description,
-        inLanguage: 'pt-BR',
+        inLanguage: 'en',
         isPartOf: { '@id': `${SITE_URL}/#website` },
         mainEntity: {
           '@type': 'DefinedTerm',
@@ -323,7 +321,7 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
           inDefinedTermSet: {
             '@type': 'DefinedTermSet',
             '@id': `${SITE_URL}/dicionario#termset`,
-            name: 'Dicionário de Astrologia Aurenstar',
+            name: 'Aurenstar Astrology Dictionary',
             url: `${SITE_URL}/dicionario`,
           },
         },
@@ -332,7 +330,7 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
       // Google requires structured data to match visible content.
       crumbs = [
         { name: 'Home', url: SITE_URL },
-        { name: 'Dicionário', url: `${SITE_URL}/dicionario` },
+        { name: 'Dictionary', url: `${SITE_URL}/dicionario` },
         { name: term.termo, url },
       ];
     } else {
@@ -386,11 +384,9 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
       },
     };
   } else if (page === 'dicionario') {
-    locale = 'pt_BR';
-    lang = 'pt-BR';
     crumbs = [
       { name: 'Home', url: SITE_URL },
-      { name: 'Dicionário', url: `${SITE_URL}/dicionario` },
+      { name: 'Dictionary', url: `${SITE_URL}/dicionario` },
     ];
     pageNode = {
       '@type': 'CollectionPage',
@@ -398,16 +394,16 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
       url: `${SITE_URL}/dicionario`,
       name: title,
       description,
-      inLanguage: 'pt-BR',
+      inLanguage: 'en',
       isPartOf: { '@id': `${SITE_URL}/#website` },
       mainEntity: { '@id': `${SITE_URL}/dicionario#termset` },
     };
     extraNodes.push({
       '@type': 'DefinedTermSet',
       '@id': `${SITE_URL}/dicionario#termset`,
-      name: 'Dicionário de Astrologia Aurenstar',
+      name: 'Aurenstar Astrology Dictionary',
       url: `${SITE_URL}/dicionario`,
-      inLanguage: 'pt-BR',
+      inLanguage: 'en',
       hasDefinedTerm: ASTROLOGY_DICTIONARY_TERMS.map((term) => ({
         '@type': 'DefinedTerm',
         name: term.termo,
