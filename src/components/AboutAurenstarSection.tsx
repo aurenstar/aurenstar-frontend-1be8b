@@ -6,6 +6,20 @@ interface AboutAurenstarSectionProps {
   onOpenCard?: (section: string) => void;
 }
 
+// One soft gradient and one glossy illustration per card (public/assets/about/).
+const CARD_GRADIENTS = [
+  'linear-gradient(180deg, #5B8FDB 0%, #8FB4EA 55%, #CFE0F7 100%)',
+  'linear-gradient(180deg, #76828F 0%, #A4ADB8 55%, #D2D8DF 100%)',
+  'linear-gradient(180deg, #E5499A 0%, #F58CC0 55%, #FFC2DF 100%)',
+  'linear-gradient(180deg, #6D4ED9 0%, #9B86EE 55%, #CFC3F8 100%)',
+];
+const CARD_IMAGES = [
+  '/assets/about/about-platform.svg',
+  '/assets/about/about-method.svg',
+  '/assets/about/about-mission.svg',
+  '/assets/about/about-language.svg',
+];
+
 export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ onOpenCard }) => {
   const { language } = useLanguage();
   const lang = (language || 'pt') as 'pt' | 'en' | 'es';
@@ -77,18 +91,24 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                 <p className="mt-2 max-w-lg text-sm leading-6 text-[#647DA5]">{t.lead}</p>
               </div>
               <div className="grid gap-4 sm:grid-cols-2">
-                {t.items.map(([number, category, title, description, slug]) => (
-                  <button type="button" key={slug} onClick={() => onOpenCard?.(slug)} className="group relative overflow-hidden rounded-[1.35rem] border border-[#A9CEF1] bg-[#EAF4FF] p-0 text-left shadow-[0_8px_20px_rgba(40,120,208,0.08)] transition duration-300 hover:-translate-y-1.5 hover:border-[#F51B83] hover:bg-white hover:shadow-[0_18px_32px_rgba(40,120,208,0.16)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]">
-                    <span className="block h-2 bg-[#2878D0] transition-colors duration-300 group-hover:bg-[#F51B83]" />
-                    <span className="relative block p-5">
-                      <span className="flex items-start justify-between">
-                        <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#FFF0F7] text-sm font-extrabold text-[#F51B83] ring-1 ring-[#F8B4D3] transition duration-300 group-hover:bg-[#F51B83] group-hover:text-white">{number}</span>
-                        <span className="text-lg font-semibold text-[#9DB9D9] transition group-hover:translate-x-1 group-hover:text-[#F51B83]" aria-hidden="true">↗</span>
-                      </span>
-                      <span className="mt-4 inline-flex rounded-full bg-white px-3 py-1 text-[10px] font-extrabold uppercase tracking-[0.14em] text-[#2878D0] shadow-sm">{category}</span>
-                      <span className="mt-3 block text-lg font-extrabold leading-tight text-[#172B4D]">{title}</span>
-                      <span className="mt-2 block text-sm leading-6 text-[#647DA5]">{description}</span>
-                      <span className="mt-4 block text-[11px] font-extrabold uppercase tracking-[0.16em] text-[#2878D0] transition group-hover:text-[#F51B83]">{lang === 'en' ? 'Explore' : lang === 'es' ? 'Explorar' : 'Explorar'} <span aria-hidden="true">→</span></span>
+                {t.items.map(([, category, title, description, slug], index) => (
+                  <button
+                    type="button"
+                    key={slug}
+                    onClick={() => onOpenCard?.(slug)}
+                    style={{ backgroundImage: CARD_GRADIENTS[index] }}
+                    className="group relative flex min-h-[430px] flex-col overflow-hidden rounded-[28px] p-6 text-left shadow-[0_14px_30px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_26px_46px_rgba(23,54,111,0.26)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F51B83] focus-visible:ring-offset-2"
+                  >
+                    {/* soft glass highlight */}
+                    <span aria-hidden="true" className="pointer-events-none absolute -left-10 -top-16 h-44 w-64 rotate-[-12deg] rounded-full bg-white/20 blur-2xl" />
+                    <span className="relative text-[11px] font-extrabold uppercase tracking-[0.16em] text-white/80">{category}</span>
+                    <span className="relative mt-2 block text-[22px] font-bold leading-[1.15] text-white">{title}</span>
+                    <span className="relative mt-3 block text-[13px] leading-5 text-white/85">{description}</span>
+                    <span className="relative mt-auto flex flex-1 items-center justify-center py-3">
+                      <img src={CARD_IMAGES[index]} alt="" width={400} height={220} loading="lazy" className="w-full max-w-[250px] transition-transform duration-500 group-hover:scale-105 group-hover:-rotate-1" />
+                    </span>
+                    <span className="relative flex w-full items-center justify-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-bold text-[#172B4D] shadow-[0_6px_14px_rgba(23,54,111,0.12)] transition group-hover:bg-[#FFF0F7] group-hover:text-[#F51B83]">
+                      {lang === 'en' ? 'Explore' : 'Explorar'} <span aria-hidden="true">→</span>
                     </span>
                   </button>
                 ))}

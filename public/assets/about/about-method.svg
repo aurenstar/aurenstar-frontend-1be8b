@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-hidden="true"><defs>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".45" stop-color="#C9CFD8"/><stop offset="1" stop-color="#6B7482"/></linearGradient>
+<radialGradient id="face" cx=".4" cy=".3" r=".9"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DCE3EE"/></radialGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF1A8"/><stop offset=".5" stop-color="#F5B800"/><stop offset="1" stop-color="#B27A00"/></linearGradient>
+<linearGradient id="pk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF7DB8"/><stop offset="1" stop-color="#C2125F"/></linearGradient>
+<radialGradient id="sh" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#1c2430" stop-opacity=".45"/><stop offset="1" stop-color="#1c2430" stop-opacity="0"/></radialGradient></defs>
+<ellipse cx="200" cy="200" rx="105" ry="13" fill="url(#sh)"/>
+<circle cx="200" cy="102" r="86" fill="url(#rim)"/>
+<circle cx="200" cy="102" r="74" fill="#8A93A1" opacity=".5"/>
+<circle cx="200" cy="102" r="70" fill="url(#face)"/>
+<g stroke="#9AA4B3" stroke-width="3" stroke-linecap="round"><path d="M200 40v10M200 154v10M138 102h10M252 102h10"/></g>
+<g transform="rotate(38 200 102)"><path d="M200 48l13 54h-26z" fill="url(#gold)"/><path d="M200 156l-13-54h26z" fill="url(#pk)"/></g>
+<circle cx="200" cy="102" r="9" fill="url(#rim)"/><circle cx="200" cy="102" r="3.5" fill="#6B7482"/>
+<ellipse cx="160" cy="52" rx="34" ry="12" fill="#fff" opacity=".55" transform="rotate(-28 160 52)"/>
+<g fill="#fff"><path d="M330 46l4 11 11 4-11 4-4 11-4-11-11-4 11-4z" opacity=".9"/><circle cx="62" cy="64" r="3" opacity=".7"/></g>
+</svg>
