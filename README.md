@@ -75,7 +75,9 @@ Rodam no Cloudflare (Pages Functions), nada é calculado no navegador:
 
 Arquivos: `server/engine/` (código e `aurenstar.wasm`) e `public/ephe/` (dados `.se1`, 1200–2400).
 O banco só expõe as funções `city_search` e `city_for_chart` à chave pública (dados públicos, no máximo 20 resultados).
-**Licença:** o Swiss Ephemeris gratuito é AGPL; antes de lançar, decidir entre abrir o código ou comprar a licença comercial.
+**Licença (decidido):** o Swiss Ephemeris gratuito é AGPL-3.0, então este projeto é código aberto sob a AGPL-3.0 (arquivo `LICENSE`).
+Para cumprir a regra de rede da AGPL (seção 13), o site precisa mostrar aos visitantes um link para o código-fonte (repositório público no GitHub) — falta fazer: tornar o repositório público e colocar o link (por exemplo no rodapé).
+Ferramentas ligadas ao cálculo real: Sign Calculator (data + ano; só pede hora e cidade em dia de troca de signo) e Aureneffect (busca de cidade, Sol/Lua/Ascendente reais; se o serviço cair, volta ao cálculo aproximado antigo).
 
 ## Publicação no Cloudflare Pages
 

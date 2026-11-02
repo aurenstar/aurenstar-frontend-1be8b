@@ -10,6 +10,7 @@
 import { GoogleGenAI, ThinkingLevel } from '@google/genai';
 import {
   calculateAstrologicalTriad,
+  type AstronomicalTriad,
   queryAurenstarEngine,
   generateLocalAurenEffectReading,
   REFERENCE_CITIES,
@@ -290,7 +291,13 @@ Return STRICTLY a JSON object with this structure:
   }
 }
 
-export async function handleAurenEffect(body: any, apiKey?: string) {
+/** Real positions computed by the Swiss Ephemeris engine (only available on Cloudflare). */
+export interface PreciseSky {
+  triad: AstronomicalTriad;
+  cityName: string;
+}
+
+export async function handleAurenEffect(body: any, apiKey?: string, precise?: PreciseSky | null) {
   try {
     const { name, birthDate, birthTime, birthCity } = body || {};
     const userName = (name || 'Andriel').trim();
@@ -321,14 +328,14 @@ export async function handleAurenEffect(body: any, apiKey?: string) {
     }
 
     // Camada 01: Dados Brutos Astronômicos (Sol, Lua, Ascendente e Lua no Céu de Hoje)
-    const triad = calculateAstrologicalTriad(year, month, day, hours, minutes, cityKey);
+    const triad = precise?.triad ?? calculateAstrologicalTriad(year, month, day, hours, minutes, cityKey);
 
     // Camada 02: Aurenstar Engine / Gatilhos Psicológicos de Rotina
     const trigger = queryAurenstarEngine(triad);
 
     const birthDateFormatted = `${String(day).padStart(2, '0')}/${String(month).padStart(2, '0')}/${year}`;
     const birthTimeFormatted = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
-    const cityName = REFERENCE_CITIES[cityKey]?.label || birthCity || 'São Paulo, SP';
+    const cityName = precise?.cityName || REFERENCE_CITIES[cityKey]?.label || (typeof birthCity === 'string' ? birthCity : '') || 'São Paulo, SP';
 
     // Fallback estruturado de alta fidelidade
     const fallbackResult = generateLocalAurenEffectReading(

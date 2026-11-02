@@ -4,9 +4,23 @@ import {
   Sparkles,
   Calendar,
   ChevronDown,
+  Clock,
+  MapPin,
+  Loader2,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { calculateSign, LAST_DISCOVERED_SIGN_KEY } from '../data/signsData';
+import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
+
+// The calculation service answers with English sign names; the site's sign pages use these keys.
+const SIGN_KEY_BY_NAME: Record<string, string> = {
+  Aries: 'aries', Taurus: 'touro', Gemini: 'gemeos', Cancer: 'cancer', Leo: 'leao', Virgo: 'virgem',
+  Libra: 'libra', Scorpio: 'escorpiao', Sagittarius: 'sagitario', Capricorn: 'capricornio',
+  Aquarius: 'aquario', Pisces: 'peixes',
+};
+
+const CURRENT_YEAR = new Date().getFullYear();
+const daysInMonth = (year: number, month: number) => new Date(year, month, 0).getDate();
 
 interface DiscoverSignPageProps {
   onBackToHome: () => void;
@@ -24,6 +38,13 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
 
   const [selectedDay, setSelectedDay] = useState(15);
   const [selectedMonth, setSelectedMonth] = useState(5); // Maio
+  const [selectedYear, setSelectedYear] = useState(2000);
+  const [busy, setBusy] = useState(false);
+  // Shown only when the Sun changes sign on the chosen day: a time and a city settle the doubt.
+  const [doubt, setDoubt] = useState<null | { before: string; after: string; likelyKey: string }>(null);
+  const [birthTime, setBirthTime] = useState('');
+  const [birthPlace, setBirthPlace] = useState<PickedCity | null>(null);
+  const [needBoth, setNeedBoth] = useState(false);
 
   const months = [
     { num: 1, name: { pt: 'Janeiro', en: 'January', es: 'Enero' } },
@@ -40,9 +61,53 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
     { num: 12, name: { pt: 'Dezembro', en: 'December', es: 'Diciembre' } },
   ];
 
-  const handleDateChange = (d: number, m: number) => {
-    setSelectedDay(d);
+  const handleDateChange = (d: number, m: number, y: number = selectedYear) => {
+    setSelectedDay(Math.min(d, daysInMonth(y, m)));
     setSelectedMonth(m);
+    setSelectedYear(y);
+    setDoubt(null); // a new date needs a new check
+    setNeedBoth(false);
+  };
+
+  const askChart = async (payload: { date: string; time?: string; geonameid?: number }) => {
+    const res = await fetch('/api/chart', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    if (!res.ok) throw new Error('chart unavailable');
+    return res.json();
+  };
+
+  const dateISO = `${selectedYear}-${String(selectedMonth).padStart(2, '0')}-${String(selectedDay).padStart(2, '0')}`;
+
+  const handleDiscover = async () => {
+    if (busy) return;
+    setBusy(true);
+    try {
+      if (doubt) {
+        // Second step: both a time and a city were typed to settle the doubt.
+        if (!birthTime || !birthPlace) {
+          setNeedBoth(true);
+          return;
+        }
+        const chart = await askChart({ date: dateISO, time: birthTime, geonameid: birthPlace.geonameid });
+        handleCalculateAndNavigate(SIGN_KEY_BY_NAME[chart.sun.sign]);
+        return;
+      }
+      const chart = await askChart({ date: dateISO });
+      const change = chart.accuracy?.sunSignChangesThatDay;
+      if (change) {
+        setDoubt({ ...change, likelyKey: SIGN_KEY_BY_NAME[chart.sun.sign] });
+        return;
+      }
+      handleCalculateAndNavigate(SIGN_KEY_BY_NAME[chart.sun.sign]);
+    } catch {
+      // Calculation service unreachable: use the simple date table so the visitor still gets an answer.
+      handleCalculateAndNavigate(calculateSign(selectedDay, selectedMonth));
+    } finally {
+      setBusy(false);
+    }
   };
 
   const handleCalculateAndNavigate = (signToSave?: string) => {
@@ -54,6 +119,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
           signKey: finalSign,
           day: selectedDay,
           month: selectedMonth,
+          year: selectedYear,
         })
       );
     } catch {
@@ -71,9 +137,20 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
       backHome: 'Voltar ao Início',
       exploreBlog: 'Ver Dicas no Blog →',
       cardTitle: 'Sua Data de Nascimento',
-      cardSubtitle: 'Escolha seu dia e mês de nascimento:',
+      cardSubtitle: 'Escolha seu dia, mês e ano de nascimento:',
       dayLabel: 'Dia',
       monthLabel: 'Mês',
+      yearLabel: 'Ano',
+      doubtTitle: 'Dia de mudança de signo',
+      doubtText: (a: string, b: string) => `Neste dia o Sol passa de ${a} para ${b}. Informe a hora e a cidade de nascimento para saber ao certo.`,
+      timeLabel: 'Hora (opcional)',
+      cityLabel: 'Cidade de nascimento',
+      cityPlaceholder: 'Digite sua cidade',
+      cityNoResults: 'Nenhuma cidade encontrada.',
+      needBoth: 'Preencha a hora e escolha a cidade na lista, ou use a opção abaixo.',
+      skip: 'Não sei a hora — mostrar o signo mais provável',
+      btnConfirm: 'Confirmar Meu Signo ✨',
+      checking: 'Calculando…',
       btnCalculate: 'Ver Meu Signo Agora ✨',
       orPickSign: 'Ou se já sabe seu signo, escolha direto:',
     },
@@ -85,9 +162,20 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
       backHome: 'Back to Home',
       exploreBlog: 'Explore Blog Posts →',
       cardTitle: 'Your Birth Date',
-      cardSubtitle: 'Pick your birth day and month:',
+      cardSubtitle: 'Pick your birth day, month and year:',
       dayLabel: 'Day',
       monthLabel: 'Month',
+      yearLabel: 'Year',
+      doubtTitle: 'A sign-change day',
+      doubtText: (a: string, b: string) => `On this day the Sun moves from ${a} to ${b}. Add your birth time and city to know for sure.`,
+      timeLabel: 'Time (optional)',
+      cityLabel: 'Birth city',
+      cityPlaceholder: 'Type your city',
+      cityNoResults: 'No city found.',
+      needBoth: 'Add the time and pick your city from the list, or use the option below.',
+      skip: "I don't know the time — show the most likely sign",
+      btnConfirm: 'Confirm My Sign ✨',
+      checking: 'Calculating…',
       btnCalculate: 'Discover My Sign ✨',
       orPickSign: 'Or choose a sign directly:',
     },
@@ -99,9 +187,20 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
       backHome: 'Volver al Inicio',
       exploreBlog: 'Ver Artículos del Blog →',
       cardTitle: 'Tu Fecha de Nacimiento',
-      cardSubtitle: 'Elige tu día y mes:',
+      cardSubtitle: 'Elige tu día, mes y año:',
       dayLabel: 'Día',
       monthLabel: 'Mes',
+      yearLabel: 'Año',
+      doubtTitle: 'Día de cambio de signo',
+      doubtText: (a: string, b: string) => `Ese día el Sol pasa de ${a} a ${b}. Indica la hora y la ciudad de nacimiento para saberlo con certeza.`,
+      timeLabel: 'Hora (opcional)',
+      cityLabel: 'Ciudad de nacimiento',
+      cityPlaceholder: 'Escribe tu ciudad',
+      cityNoResults: 'No se encontró la ciudad.',
+      needBoth: 'Indica la hora y elige la ciudad de la lista, o usa la opción de abajo.',
+      skip: 'No sé la hora — mostrar el signo más probable',
+      btnConfirm: 'Confirmar Mi Signo ✨',
+      checking: 'Calculando…',
       btnCalculate: 'Ver Mi Signo Ahora ✨',
       orPickSign: 'O si ya conoces tu signo, elige directo:',
     },
@@ -149,9 +248,9 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
         </div>
 
         {/* Card Compacto e Simples de Data de Nascimento */}
-        <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg transition-all p-6 sm:p-8 mb-8 relative overflow-hidden">
+        <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg transition-all p-6 sm:p-8 mb-8 relative">
           {/* Barra sutil colorida no topo */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
+          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0] rounded-t-3xl" />
 
           {/* Cabeçalho do Card */}
           <div className="flex items-center gap-3 mb-5 pb-4 border-b border-[#D9E8F8]">
@@ -169,7 +268,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
           </div>
 
           {/* Seletores de Dia e Mês */}
-          <div className="grid grid-cols-2 gap-3 sm:gap-4 mb-6">
+          <div className="grid grid-cols-3 gap-3 sm:gap-4 mb-6">
             <div>
               <label className="block text-xs font-bold uppercase tracking-wider text-[#17366F] mb-1.5">
                 {t.dayLabel}
@@ -180,7 +279,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
                   onChange={(e) => handleDateChange(Number(e.target.value), selectedMonth)}
                   className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-9 shadow-2xs"
                 >
-                  {Array.from({ length: 31 }, (_, i) => i + 1).map((d) => (
+                  {Array.from({ length: daysInMonth(selectedYear, selectedMonth) }, (_, i) => i + 1).map((d) => (
                     <option key={d} value={d}>
                       {d}
                     </option>
@@ -209,16 +308,84 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
                 <ChevronDown className="w-3.5 h-3.5 text-[#647DA5] absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
               </div>
             </div>
+
+            <div>
+              <label className="block text-xs font-bold uppercase tracking-wider text-[#17366F] mb-1.5">
+                {t.yearLabel}
+              </label>
+              <div className="relative">
+                <select
+                  value={selectedYear}
+                  onChange={(e) => handleDateChange(selectedDay, selectedMonth, Number(e.target.value))}
+                  className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-9 shadow-2xs"
+                >
+                  {Array.from({ length: CURRENT_YEAR - 1899 }, (_, i) => CURRENT_YEAR - i).map((y) => (
+                    <option key={y} value={y}>
+                      {y}
+                    </option>
+                  ))}
+                </select>
+                <ChevronDown className="w-3.5 h-3.5 text-[#647DA5] absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+              </div>
+            </div>
           </div>
+
+          {doubt && (
+            <div className="mb-6 rounded-2xl bg-[#E4F1FF]/60 border border-[#D9E8F8] p-4 sm:p-5">
+              <p className="text-sm font-extrabold text-[#172B4D] mb-1">{t.doubtTitle}</p>
+              <p className="text-xs sm:text-[13px] text-[#647DA5] leading-relaxed mb-4">
+                {t.doubtText(doubt.before, doubt.after)}
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                <div>
+                  <label className="block text-xs font-bold uppercase tracking-wider text-[#17366F] mb-1.5 flex items-center gap-1.5">
+                    <Clock className="w-3.5 h-3.5 text-[#2878D0]" />
+                    <span>{t.timeLabel}</span>
+                  </label>
+                  <input
+                    type="time"
+                    value={birthTime}
+                    onChange={(e) => setBirthTime(e.target.value)}
+                    className="w-full bg-white border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] shadow-2xs"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs font-bold uppercase tracking-wider text-[#17366F] mb-1.5 flex items-center gap-1.5">
+                    <MapPin className="w-3.5 h-3.5 text-[#F51B83]" />
+                    <span>{t.cityLabel}</span>
+                  </label>
+                  <CityAutocomplete
+                    value={birthPlace}
+                    onChange={(c) => {
+                      setBirthPlace(c);
+                      setNeedBoth(false);
+                    }}
+                    placeholder={t.cityPlaceholder}
+                    noResultsText={t.cityNoResults}
+                    className="w-full bg-white border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] shadow-2xs"
+                  />
+                </div>
+              </div>
+              {needBoth && <p className="mt-3 text-[11px] font-semibold text-[#F51B83]">{t.needBoth}</p>}
+              <button
+                type="button"
+                onClick={() => handleCalculateAndNavigate(doubt.likelyKey)}
+                className="mt-3 text-xs font-bold text-[#2878D0] hover:text-[#17366F] underline underline-offset-2 cursor-pointer"
+              >
+                {t.skip}
+              </button>
+            </div>
+          )}
 
           {/* Botão Principal: Abre a Nova Página Mostrando o Resultado */}
           <button
             type="button"
-            onClick={() => handleCalculateAndNavigate()}
-            className="w-full py-3.5 sm:py-4 px-6 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2 group active:scale-[0.99]"
+            onClick={handleDiscover}
+            disabled={busy}
+            className="w-full py-3.5 sm:py-4 px-6 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2 group active:scale-[0.99] disabled:opacity-60"
           >
-            <Sparkles className="w-4 h-4 transition-transform group-hover:rotate-12" />
-            <span>{t.btnCalculate}</span>
+            {busy ? <Loader2 className="w-4 h-4 animate-spin" /> : <Sparkles className="w-4 h-4 transition-transform group-hover:rotate-12" />}
+            <span>{busy ? t.checking : doubt ? t.btnConfirm : t.btnCalculate}</span>
           </button>
         </div>
       </div>

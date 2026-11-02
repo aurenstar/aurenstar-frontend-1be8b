@@ -26,9 +26,9 @@ import {
   calculateAstrologicalTriad,
   queryAurenstarEngine,
   generateLocalAurenEffectReading,
-  REFERENCE_CITIES,
   AurenEffectResult,
 } from '../utils/aurenEngine';
+import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
 
 interface AurenEffectPageProps {
   onBackToHome: () => void;
@@ -61,6 +61,9 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       name: 'Seu Nome ou Apelido',
       namePlaceholder: 'Digite seu nome (ex: Andriel)',
       city: 'Cidade de Nascimento',
+      cityPlaceholder: 'Digite sua cidade (ex: São Paulo)',
+      cityNoResults: 'Nenhuma cidade encontrada. Tente outro nome.',
+      cityRequired: 'Escolha sua cidade na lista de sugestões.',
       birthDate: 'Data de Nascimento',
       day: 'Dia', month: 'Mês', year: 'Ano',
       birthTime: 'Hora Aproximada de Nascimento',
@@ -78,6 +81,9 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       name: 'Your Name or Nickname',
       namePlaceholder: 'Type your name (e.g., Andriel)',
       city: 'Birth City',
+      cityPlaceholder: 'Type your city (e.g., Munich)',
+      cityNoResults: 'No city found. Try another spelling.',
+      cityRequired: 'Please pick your city from the suggestions.',
       birthDate: 'Date of Birth',
       day: 'Day', month: 'Month', year: 'Year',
       birthTime: 'Approximate Birth Time',
@@ -95,6 +101,9 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       name: 'Tu Nombre o Apodo',
       namePlaceholder: 'Escribe tu nombre (ej.: Andriel)',
       city: 'Ciudad de Nacimiento',
+      cityPlaceholder: 'Escribe tu ciudad (ej.: Madrid)',
+      cityNoResults: 'No se encontró la ciudad. Prueba otro nombre.',
+      cityRequired: 'Elige tu ciudad en la lista de sugerencias.',
       birthDate: 'Fecha de Nacimiento',
       day: 'Día', month: 'Mes', year: 'Año',
       birthTime: 'Hora Aproximada de Nacimiento',
@@ -121,7 +130,8 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
   const [birthYear, setBirthYear] = useState(2000);
   const [birthTime, setBirthTime] = useState('14:30');
   const [quickTimePeriod, setQuickTimePeriod] = useState<'manha' | 'tarde' | 'noite' | 'madrugada' | 'exato'>('tarde');
-  const [birthCity, setBirthCity] = useState('sao-paulo');
+  const [birthPlace, setBirthPlace] = useState<PickedCity | null>(null);
+  const [cityError, setCityError] = useState(false);
 
   // Interactive Checklist
   const [completedSteps, setCompletedSteps] = useState<number[]>([]);
@@ -167,7 +177,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
         if (parsed.birthMonth) setBirthMonth(parsed.birthMonth);
         if (parsed.birthYear) setBirthYear(parsed.birthYear);
         if (parsed.birthTime) setBirthTime(parsed.birthTime);
-        if (parsed.birthCity) setBirthCity(parsed.birthCity);
+        if (parsed.birthPlace?.geonameid && parsed.birthPlace?.label) setBirthPlace(parsed.birthPlace);
       }
 
       const savedResult = localStorage.getItem(LAST_RESULT_KEY);
@@ -190,6 +200,11 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
   const handleGenerate = async (e?: React.FormEvent) => {
     if (e) e.preventDefault();
 
+    if (!birthPlace) {
+      setCityError(true);
+      return;
+    }
+
     // Se estiver em cooldown de 6 horas e já tiver resultado anterior, abre o resultado atual
     if (cooldownRemainingMs > 0 && result) {
       if (onNavigateToResult) {
@@ -211,7 +226,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
           birthMonth,
           birthYear,
           birthTime,
-          birthCity,
+          birthPlace,
         })
       );
     } catch {
@@ -233,7 +248,8 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
           name,
           birthDate: birthDateISO,
           birthTime,
-          birthCity,
+          geonameid: birthPlace.geonameid,
+          birthCity: birthPlace.label,
         }),
       });
 
@@ -252,9 +268,9 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       console.warn('Fallback local do Aureneffect ativado:', err);
       // Fallback local instantâneo da Camada 01 e 02
       const [h, m] = (birthTime || '14:30').split(':').map((n) => parseInt(n, 10) || 0);
-      const triad = calculateAstrologicalTriad(birthYear, birthMonth, birthDay, h, m, birthCity);
+      const triad = calculateAstrologicalTriad(birthYear, birthMonth, birthDay, h, m);
       const trigger = queryAurenstarEngine(triad);
-      const cityName = REFERENCE_CITIES[birthCity]?.label || 'São Paulo, SP';
+      const cityName = birthPlace.label;
       const localResult = generateLocalAurenEffectReading(
         name,
         `${String(birthDay).padStart(2, '0')}/${String(birthMonth).padStart(2, '0')}/${birthYear}`,
@@ -364,9 +380,9 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
         {/* =========================================================================
             USER INPUT FORM (CSS selector 2)
             ========================================================================= */}
-        <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg p-6 sm:p-9 mb-8 transition-all relative overflow-hidden">
+        <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg p-6 sm:p-9 mb-8 transition-all relative">
           {/* Subtle top decorative border */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
+          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0] rounded-t-3xl" />
 
           <div className="flex items-center gap-3 mb-6 pb-4 border-b border-[#D9E8F8]">
             <div className="w-10 h-10 rounded-2xl bg-[#E4F1FF] text-[#2878D0] flex items-center justify-center font-bold shadow-2xs">
@@ -407,20 +423,17 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                   <MapPin className="w-3.5 h-3.5 text-[#F51B83]" />
                   <span>{copy.city}</span>
                 </label>
-                <div className="relative">
-                  <select
-                    value={birthCity}
-                    onChange={(e) => setBirthCity(e.target.value)}
-                    className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-9 shadow-2xs"
-                  >
-                    {Object.entries(REFERENCE_CITIES).map(([key, item]) => (
-                      <option key={key} value={key}>
-                        {item.label}
-                      </option>
-                    ))}
-                  </select>
-                  <ChevronDown className="w-3.5 h-3.5 text-[#647DA5] absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none" />
-                </div>
+                <CityAutocomplete
+                  value={birthPlace}
+                  onChange={(city) => {
+                    setBirthPlace(city);
+                    if (city) setCityError(false);
+                  }}
+                  placeholder={copy.cityPlaceholder}
+                  noResultsText={copy.cityNoResults}
+                  className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
+                />
+                {cityError && <p className="mt-1.5 text-[11px] font-semibold text-[#F51B83]">{copy.cityRequired}</p>}
               </div>
             </div>
 

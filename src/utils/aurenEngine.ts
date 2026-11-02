@@ -159,7 +159,7 @@ function getAscendantLongitude(jd: number, lat: number, lon: number): number {
   return asc;
 }
 
-function formatCelestialPos(longitude: number): CelestialPosition {
+export function formatCelestialPos(longitude: number): CelestialPosition {
   const signIndex = Math.floor(longitude / 30);
   const clampedIndex = Math.max(0, Math.min(11, signIndex));
   const signInfo = ZODIAC_SIGNS[clampedIndex];
@@ -178,7 +178,7 @@ function formatCelestialPos(longitude: number): CelestialPosition {
   };
 }
 
-function getMoonPhaseName(sunLong: number, moonLong: number): { name: string; emoji: string } {
+export function getMoonPhaseName(sunLong: number, moonLong: number): { name: string; emoji: string } {
   const diff = normalizeAngle(moonLong - sunLong);
   if (diff < 45 || diff >= 315) return { name: 'Lua Nova', emoji: '🌑' };
   if (diff < 135) return { name: 'Lua Crescente', emoji: '🌓' };
@@ -211,9 +211,13 @@ export function calculateAstrologicalTriad(
   day: number,
   hours: number,
   minutes: number,
-  cityKey: string = 'sao-paulo'
+  cityKey: string | { lat: number; lon: number; tz?: number } = 'sao-paulo'
 ): AstronomicalTriad {
-  const city = REFERENCE_CITIES[cityKey] || REFERENCE_CITIES['sao-paulo'];
+  // Approximate fallback only (used when the precise calculation service is unavailable).
+  const city =
+    typeof cityKey === 'string'
+      ? REFERENCE_CITIES[cityKey] || REFERENCE_CITIES['sao-paulo']
+      : { lat: cityKey.lat, lon: cityKey.lon, tz: cityKey.tz ?? Math.round(cityKey.lon / 15) };
   const tzOffset = city.tz;
 
   // Converte horário local para fração de hora em UT
@@ -248,6 +252,28 @@ export function calculateAstrologicalTriad(
     },
     julianDate: jd,
     calculatedAt: now.toISOString(),
+  };
+}
+
+/**
+ * Builds the triad from REAL positions (Swiss Ephemeris, via /api/chart). Longitudes in degrees 0-360.
+ */
+export function buildTriadFromLongitudes(input: {
+  sun: number;
+  moon: number;
+  ascendant: number;
+  todaySun: number;
+  todayMoon: number;
+  julianDate: number;
+}): AstronomicalTriad {
+  const phase = getMoonPhaseName(input.todaySun, input.todayMoon);
+  return {
+    sun: formatCelestialPos(input.sun),
+    moon: formatCelestialPos(input.moon),
+    ascendant: formatCelestialPos(input.ascendant),
+    todayMoon: { ...formatCelestialPos(input.todayMoon), phase: phase.name, phaseEmoji: phase.emoji },
+    julianDate: input.julianDate,
+    calculatedAt: new Date().toISOString(),
   };
 }
 
