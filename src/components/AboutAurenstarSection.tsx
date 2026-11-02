@@ -9,7 +9,7 @@ interface AboutAurenstarSectionProps {
 // One soft gradient and one glossy illustration per card (public/assets/about/).
 const CARD_GRADIENTS = [
   'linear-gradient(180deg, #5B8FDB 0%, #8FB4EA 55%, #CFE0F7 100%)',
-  'linear-gradient(180deg, #76828F 0%, #A4ADB8 55%, #D2D8DF 100%)',
+  'linear-gradient(180deg, #E0711A 0%, #F59E4C 55%, #FCD3A6 100%)',
   'linear-gradient(180deg, #E5499A 0%, #F58CC0 55%, #FFC2DF 100%)',
   'linear-gradient(180deg, #6D4ED9 0%, #9B86EE 55%, #CFC3F8 100%)',
 ];
