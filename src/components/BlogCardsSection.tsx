@@ -4,6 +4,8 @@ import { useLanguage } from '../context/LanguageContext';
 import { BLOG_ARTICLES, AURENSTAR_AVATAR } from '../data/blogArticles';
 import { ZODIAC_SIGNS } from './BrandMarquee';
 import { ScrollReveal } from './ScrollReveal';
+import { getArticleSlugById } from '../utils/articleSlug';
+import { cardLinkClick } from '../utils/links';
 
 interface BlogCardsSectionProps {
   onOpenArticle?: (id: string) => void;
@@ -324,7 +326,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                             <div className="p-5 flex flex-col justify-between flex-1">
                               <div>
                                 <span className="inline-block px-3 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider mb-2.5 bg-[#E4F1FF] text-[#2878D0]">{category}</span>
-                                <h3 className="font-bold text-sm sm:text-base text-[#172B4D] leading-snug mb-2 group-hover:text-[#2878D0] transition-colors line-clamp-2">{title}</h3>
+                                <h3 className="font-bold text-sm sm:text-base text-[#172B4D] leading-snug mb-2 group-hover:text-[#2878D0] transition-colors line-clamp-2"><a href={`/blog/${getArticleSlugById(post.id)}`} onClick={cardLinkClick}>{title}</a></h3>
                                 <p className="text-xs text-[#647DA5] leading-relaxed mb-4 line-clamp-3 font-normal">{excerpt}</p>
                               </div>
                               <div className="flex items-center gap-2.5 pt-3 border-t border-[#D9E8F8] mt-auto">

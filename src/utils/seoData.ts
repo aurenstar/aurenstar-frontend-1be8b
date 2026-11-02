@@ -1,5 +1,7 @@
-import { getDictionaryTermBySlug } from '../data/astrologyDictionaryData';
+import { ASTROLOGY_DICTIONARY_TERMS, getDictionaryTermBySlug } from '../data/astrologyDictionaryData';
+import { BLOG_ARTICLES } from '../data/blogArticles';
 import { findArticleByParam, getArticleIsoDate, getArticleSlug } from './articleSlug';
+import { MIN_ARTICLES_TO_INDEX, getArticlesInCategory, getCategoryBySlug } from './blogCategories';
 
 /**
  * Pure SEO data (no DOM access).
@@ -34,6 +36,7 @@ export interface SeoOptions {
   articleId?: string; // accepts a public slug or a legacy id
   termSlug?: string;
   aboutSection?: string;
+  categorySlug?: string; // blog category (page 'blog' + categorySlug -> /blog/categoria/<slug>)
 }
 
 export interface SeoData {
@@ -45,6 +48,7 @@ export interface SeoData {
   ogType: 'website' | 'article';
   image: string;
   locale: string;
+  lang: string; // value for <html lang>
   publishedTime?: string;
   jsonLd: Record<string, unknown>;
 }
@@ -142,8 +146,9 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
     path: '/dictionary',
   },
   dicionario: {
-    title: 'Aurenstar Dictionary | Astrology Terms',
-    description: 'Understand astrology terms in clear, welcoming language.',
+    title: 'Dicionário de Astrologia: significado de cada termo | Aurenstar',
+    description:
+      'Descubra o significado de Mercúrio retrógrado, Ascendente, Lua Cheia e outros termos da astrologia, explicados de forma simples e com exemplos do dia a dia.',
     path: '/dicionario',
   },
   'dicionario-termo': {
@@ -239,6 +244,7 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
   let ogType: SeoData['ogType'] = 'website';
   let image = DEFAULT_IMAGE;
   let locale = 'en_US';
+  let lang = 'en';
   let publishedTime: string | undefined;
   let pageNode: Record<string, unknown> | undefined;
   const extraNodes: Record<string, unknown>[] = [];
@@ -292,6 +298,7 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
       );
       path = `/dicionario/${term.slug}`;
       locale = 'pt_BR';
+      lang = 'pt-BR';
       const url = `${SITE_URL}${path}`;
       pageNode = {
         '@type': 'WebPage',
@@ -305,21 +312,17 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
           '@type': 'DefinedTerm',
           name: term.termo,
           description: truncate(term.oQueSignifica || term.resumoUmaLinha, 300),
-          inDefinedTermSet: `${SITE_URL}/dicionario`,
+          url,
+          inDefinedTermSet: {
+            '@type': 'DefinedTermSet',
+            '@id': `${SITE_URL}/dicionario#termset`,
+            name: 'Dicionário de Astrologia Aurenstar',
+            url: `${SITE_URL}/dicionario`,
+          },
         },
       };
-      if (term.faq && term.faq.length > 0) {
-        extraNodes.push({
-          '@type': 'FAQPage',
-          '@id': `${url}#faq`,
-          inLanguage: 'pt-BR',
-          mainEntity: term.faq.map((item) => ({
-            '@type': 'Question',
-            name: item.pergunta,
-            acceptedAnswer: { '@type': 'Answer', text: item.resposta },
-          })),
-        });
-      }
+      // FAQPage markup is intentionally NOT emitted: the FAQ is not shown on the term page, and
+      // Google requires structured data to match visible content.
       crumbs = [
         { name: 'Home', url: SITE_URL },
         { name: 'Dicionário', url: `${SITE_URL}/dicionario` },
@@ -339,16 +342,71 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
       { name: 'About', url: `${SITE_URL}${path}` },
     ];
   } else if (page === 'blog') {
+    const category = getCategoryBySlug(options.categorySlug);
+    let listed = BLOG_ARTICLES;
     crumbs = [
       { name: 'Home', url: SITE_URL },
       { name: 'Blog', url: `${SITE_URL}/blog` },
     ];
+    if (category) {
+      listed = getArticlesInCategory(category.key);
+      title = `${category.name.en} Articles | Aurenstar Blog`;
+      description = category.description;
+      path = `/blog/categoria/${category.slug}`;
+      // Thin category pages stay reachable for visitors but are kept out of Google until they grow.
+      if (listed.length < MIN_ARTICLES_TO_INDEX) robots = 'noindex,follow';
+      crumbs.push({ name: category.name.en, url: `${SITE_URL}${path}` });
+    } else if (options.categorySlug) {
+      robots = 'noindex,follow'; // unknown category
+    }
+    const listUrl = `${SITE_URL}${path}`;
+    pageNode = {
+      '@type': 'CollectionPage',
+      '@id': `${listUrl}#webpage`,
+      url: listUrl,
+      name: title,
+      description,
+      inLanguage: 'en',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      mainEntity: {
+        '@type': 'ItemList',
+        itemListElement: listed.map((article, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          name: article.title.en,
+          url: `${SITE_URL}/blog/${getArticleSlug(article)}`,
+        })),
+      },
+    };
   } else if (page === 'dicionario') {
     locale = 'pt_BR';
+    lang = 'pt-BR';
     crumbs = [
       { name: 'Home', url: SITE_URL },
       { name: 'Dicionário', url: `${SITE_URL}/dicionario` },
     ];
+    pageNode = {
+      '@type': 'CollectionPage',
+      '@id': `${SITE_URL}/dicionario#webpage`,
+      url: `${SITE_URL}/dicionario`,
+      name: title,
+      description,
+      inLanguage: 'pt-BR',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      mainEntity: { '@id': `${SITE_URL}/dicionario#termset` },
+    };
+    extraNodes.push({
+      '@type': 'DefinedTermSet',
+      '@id': `${SITE_URL}/dicionario#termset`,
+      name: 'Dicionário de Astrologia Aurenstar',
+      url: `${SITE_URL}/dicionario`,
+      inLanguage: 'pt-BR',
+      hasDefinedTerm: ASTROLOGY_DICTIONARY_TERMS.map((term) => ({
+        '@type': 'DefinedTerm',
+        name: term.termo,
+        url: `${SITE_URL}/dicionario/${term.slug}`,
+      })),
+    });
   }
 
   const url = path === '/' ? `${SITE_URL}/` : `${SITE_URL}${path}`;
@@ -376,6 +434,7 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
     ogType,
     image,
     locale,
+    lang,
     publishedTime,
     jsonLd: { '@context': 'https://schema.org', '@graph': graph },
   };

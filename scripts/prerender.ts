@@ -19,6 +19,7 @@ import { fileURLToPath } from 'node:url';
 import { BLOG_ARTICLES } from '../src/data/blogArticles';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 import { getArticleIsoDate, getArticleSlug } from '../src/utils/articleSlug';
+import { BLOG_CATEGORIES } from '../src/utils/blogCategories';
 import {
   ABOUT_SECTIONS,
   SITE_NAME,
@@ -91,6 +92,7 @@ function noscriptBlock(seo: SeoData): string {
 
 function render(seo: SeoData): string {
   return template
+    .replace(/<html lang="[^"]*"/, `<html lang="${seo.lang}"`)
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeText(seo.title)}</title>`)
     .replace('<!--seo-head-->', headBlock(seo))
     .replace('<!--seo-noscript-->', noscriptBlock(seo));
@@ -124,6 +126,11 @@ for (const article of BLOG_ARTICLES) {
   if (article.id !== getArticleSlug(article)) {
     redirects.push(`/blog/${article.id} /blog/${getArticleSlug(article)} 301`);
   }
+}
+
+// 2b. Blog category pages (/blog/categoria/<slug>); thin ones are written but marked noindex
+for (const category of BLOG_CATEGORIES) {
+  emit(getSeoData('blog', { categorySlug: category.slug }));
 }
 
 // 3. Dictionary terms

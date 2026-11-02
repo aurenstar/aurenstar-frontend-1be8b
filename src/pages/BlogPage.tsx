@@ -16,21 +16,28 @@ import {
 import { useLanguage } from '../context/LanguageContext';
 import { BLOG_ARTICLES, BlogArticleContent, AURENSTAR_AVATAR } from '../data/blogArticles';
 import { AurenstarLogo } from '../components/AurenstarLogo';
+import { getArticleSlugById } from '../utils/articleSlug';
+import { getCategoryPath } from '../utils/blogCategories';
+import { cardLinkClick, onPlainClick } from '../utils/links';
 
 interface BlogPageProps {
   onBackToHome: () => void;
   onOpenArticle: (id: string) => void;
+  /** Category shown ('ALL' or a category key); each category has its own URL /blog/categoria/<slug> */
+  selectedCategory: string;
+  onSelectCategory: (categoryKey: string) => void;
 }
 
 export const BlogPage: React.FC<BlogPageProps> = ({
   onBackToHome,
   onOpenArticle,
+  selectedCategory,
+  onSelectCategory,
 }) => {
   const { language } = useLanguage();
   const lang = (language || 'pt') as 'pt' | 'en' | 'es';
 
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState<string>('ALL');
   const [sortBy, setSortBy] = useState<'newest' | 'readTime' | 'popular'>('newest');
   const [featuredIndex, setFeaturedIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(false);
@@ -356,17 +363,19 @@ export const BlogPage: React.FC<BlogPageProps> = ({
             ).map((catKey) => {
               const isSelected = selectedCategory === catKey;
               return (
-                <button
+                <a
                   key={catKey}
-                  onClick={() => setSelectedCategory(catKey)}
-                  className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold tracking-tight transition-all duration-200 cursor-pointer ${
+                  href={getCategoryPath(catKey)}
+                  onClick={onPlainClick(() => onSelectCategory(catKey))}
+                  aria-current={isSelected ? 'page' : undefined}
+                  className={`btn-font inline-block px-4 py-2 rounded-xl text-xs sm:text-sm font-bold tracking-tight transition-all duration-200 cursor-pointer ${
                     isSelected
                       ? 'bg-[#F51B83] text-white shadow-xs'
                       : 'bg-transparent text-[#647DA5] hover:bg-[#E4F1FF]/60 hover:text-[#172B4D]'
                   }`}
                 >
                   {t.categories[catKey]}
-                </button>
+                </a>
               );
             })}
           </div>
@@ -446,7 +455,9 @@ export const BlogPage: React.FC<BlogPageProps> = ({
 
                   {/* Article Title */}
                   <h3 className="font-extrabold text-base sm:text-[17px] text-[#172B4D] leading-snug mb-2 group-hover:text-[#2878D0] transition-colors line-clamp-2">
-                    {article.title[lang] || article.title.pt}
+                    <a href={`/blog/${getArticleSlugById(article.id)}`} onClick={cardLinkClick}>
+                      {article.title[lang] || article.title.pt}
+                    </a>
                   </h3>
 
                   {/* Article Excerpt */}
@@ -488,7 +499,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
             <button
               onClick={() => {
                 setSearchQuery('');
-                setSelectedCategory('ALL');
+                onSelectCategory('ALL');
               }}
               className="px-5 py-2 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-xs font-bold cursor-pointer transition-colors shadow-xs"
             >

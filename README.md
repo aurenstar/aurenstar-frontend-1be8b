@@ -40,6 +40,20 @@ página própria, entra no sitemap e recebe SEO automaticamente.
 
 Páginas de resultado pessoal (`*-result`) e o painel interno `/dictionary` saem com `noindex` e ficam fora do sitemap.
 
+**Categorias do blog:** cada categoria tem URL própria (`/blog/categoria/<nome>`, definidas em
+`src/utils/blogCategories.ts`). Com menos de 3 artigos a página funciona para o visitante, mas sai com
+`noindex` e fora do sitemap; ao chegar em 3 artigos ela passa a ser indexada sozinha
+(`MIN_ARTICLES_TO_INDEX`).
+
+**Links de verdade:** menu, rodapé, cards do blog, categorias e palavras do dicionário são `<a href="/url">`
+(o Google só segue esse tipo de link). O clique normal continua navegando dentro do site, sem recarregar.
+
+## Contagem de visitas (Google Analytics 4)
+
+Defina `VITE_GA_MEASUREMENT_ID` (ex.: `G-XXXXXXXXXX`) em **Pages → Settings → Variables and Secrets**
+(variável de build) e faça um novo deploy. Sem essa variável nada é carregado. Cada troca de página dentro
+do site envia um `page_view` com a URL e o título corretos (`src/utils/analytics.ts`).
+
 ## APIs (Cloudflare Pages Functions)
 
 `/api/zodiac` e `/api/aureneffect` ficam em `functions/api/`. A lógica é a mesma do servidor local e

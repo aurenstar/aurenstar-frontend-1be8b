@@ -24,7 +24,9 @@ import { DescribeMePage } from './pages/DescribeMePage';
 import { DescribeMeResultPage } from './pages/DescribeMeResultPage';
 import { AboutDetailPage } from './pages/AboutDetailPage';
 import { updateSeo } from './utils/seo';
+import { trackPageView } from './utils/analytics';
 import { findArticleByParam, getArticleSlugById } from './utils/articleSlug';
+import { getCategoryByKey, getCategoryBySlug, getCategoryPath } from './utils/blogCategories';
 
 export type AppPageRoute =
   | 'home'
@@ -51,6 +53,8 @@ export default function App() {
   const [currentTermSlug, setCurrentTermSlug] = useState<string>('what-is-mercury-retrograde');
   const [selectedSign, setSelectedSign] = useState<string | null>(null);
   const [aboutSection, setAboutSection] = useState<string>('platform');
+  // Blog category shown on /blog ('ALL') or /blog/categoria/<slug>
+  const [blogCategory, setBlogCategory] = useState<string>('ALL');
 
   // Initialize and synchronize with browser hash / history for pageview strategy
   useEffect(() => {
@@ -62,7 +66,11 @@ export default function App() {
       // Keep dedicated pages reachable on Netlify whether the browser preserves
       // the pathname or rewrites it to a hash route during the first load.
       const routeMatches = (...values: string[]) => values.includes(path) || values.includes(hash) || values.includes(normalizedRoute);
-      if (route.startsWith('/blog/') || route.startsWith('#/article/')) {
+      if (route.startsWith('/blog/categoria/')) {
+        const categorySlug = route.replace('/blog/categoria/', '').split('?')[0].replace(/\/$/, '');
+        setBlogCategory(getCategoryBySlug(categorySlug)?.key ?? 'ALL');
+        setCurrentPage('blog');
+      } else if (route.startsWith('/blog/') || route.startsWith('#/article/')) {
         const rawParam = (route.startsWith('/blog/') ? route.replace('/blog/', '') : route.replace('#/article/', ''))
           .split('?')[0];
         // Public URLs use a keyword slug; legacy id URLs (/blog/post-1) still resolve.
@@ -82,6 +90,7 @@ export default function App() {
         setCurrentTermSlug(slug || 'what-is-mercury-retrograde');
         setCurrentPage('dicionario-termo');
       } else if (path === '/blog' || hash === '#/blog') {
+        setBlogCategory('ALL');
         setCurrentPage('blog');
       } else if (path === '/contact' || hash === '#/contact') {
         setCurrentPage('contact');
@@ -126,21 +135,46 @@ export default function App() {
 
   useEffect(() => {
     try {
-      updateSeo(currentPage, { articleId: currentArticleId, termSlug: currentTermSlug, aboutSection });
+      updateSeo(currentPage, {
+        articleId: currentArticleId,
+        termSlug: currentTermSlug,
+        aboutSection,
+        categorySlug: getCategoryByKey(blogCategory)?.slug,
+      });
     } catch (error) {
       // SEO metadata must never prevent the application UI from rendering.
       console.error('Unable to update SEO metadata:', error);
     }
-  }, [currentPage, currentArticleId, currentTermSlug, aboutSection]);
+    // Deferred briefly: on a deep link the first render still shows 'home' before the URL is read,
+    // and that intermediate state must not be counted as a page view.
+    const pageViewTimer = window.setTimeout(trackPageView, 100);
+    return () => window.clearTimeout(pageViewTimer);
+  }, [currentPage, currentArticleId, currentTermSlug, aboutSection, blogCategory]);
 
   const handleNavigate = (page: AppPageRoute) => {
     setCurrentPage(page);
+    if (page === 'blog') setBlogCategory('ALL');
     if (page === 'home') {
       window.history.pushState({ page: 'home' }, '', '/');
     } else {
-      const path = page === 'dicionario' ? '/dicionario' : `/${page}`;
+      // Public URLs of the "describe me" pages are /descreva-me*
+      const path =
+        page === 'dicionario'
+          ? '/dicionario'
+          : page === 'describe-me'
+          ? '/descreva-me'
+          : page === 'describe-me-result'
+          ? '/descreva-me-result'
+          : `/${page}`;
       window.history.pushState({ page }, '', path);
     }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleSelectBlogCategory = (categoryKey: string) => {
+    setBlogCategory(categoryKey);
+    setCurrentPage('blog');
+    window.history.pushState({ page: 'blog', category: categoryKey }, '', getCategoryPath(categoryKey));
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -244,6 +278,8 @@ export default function App() {
             <BlogPage
               onBackToHome={() => handleNavigate('home')}
               onOpenArticle={handleOpenArticle}
+              selectedCategory={blogCategory}
+              onSelectCategory={handleSelectBlogCategory}
             />
           </main>
         )}

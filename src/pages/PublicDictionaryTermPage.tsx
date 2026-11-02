@@ -16,6 +16,7 @@ import {
   ASTROLOGY_DICTIONARY_TERMS,
   getDictionaryTermBySlug,
 } from '../data/astrologyDictionaryData';
+import { onPlainClick } from '../utils/links';
 
 interface PublicDictionaryTermPageProps {
   termSlug: string;
@@ -37,52 +38,9 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
 
   const [copied, setCopied] = useState(false);
 
-  // SEO Dynamic Title and Structured Data
+  // Title, description and structured data come from src/utils/seoData.ts (applied by App.tsx).
   useEffect(() => {
-    if (term) {
-      document.title = `${term.tituloSEO} | Aurenstar Dictionary`;
-      const metaDesc = document.querySelector('meta[name="description"]');
-      if (metaDesc) {
-        metaDesc.setAttribute('content', term.resumoUmaLinha);
-      }
-
-      // Inject Schema.org DefinedTerm structured data for Google SEO
-      const scriptId = 'schema-dictionary-term';
-      let script = document.getElementById(scriptId) as HTMLScriptElement | null;
-      if (!script) {
-        script = document.createElement('script');
-        script.id = scriptId;
-        script.type = 'application/ld+json';
-        document.head.appendChild(script);
-      }
-
-      const schemaData = {
-        '@context': 'https://schema.org',
-        '@graph': [
-          {
-            '@type': 'DefinedTerm',
-            name: term.termo,
-            description: term.oQueSignifica,
-            inDefinedTermSet: {
-              '@type': 'DefinedTermSet',
-              name: 'Aurenstar Dictionary',
-              url: `${window.location.origin}/#/dicionario`,
-            },
-          },
-        ],
-      };
-
-      script.textContent = JSON.stringify(schemaData);
-    }
-
     window.scrollTo({ top: 0, behavior: 'smooth' });
-
-    return () => {
-      const script = document.getElementById('schema-dictionary-term');
-      if (script) {
-        script.remove();
-      }
-    };
   }, [term]);
 
   // Termos relacionados
@@ -90,7 +48,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
     .map((slug) => getDictionaryTermBySlug(slug))
     .filter((t): t is DictionaryTerm => Boolean(t));
 
-  const pageUrl = `${window.location.origin}/#/dicionario/${term.slug}`;
+  const pageUrl = `${window.location.origin}/dicionario/${term.slug}`;
 
   const handleShare = () => {
     const text =
@@ -267,11 +225,8 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               {relatedTerms.map((rel) => (
                 <a
                   key={rel.id}
-                  href={`#/dicionario/${rel.slug}`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    onSelectTerm(rel.slug);
-                  }}
+                  href={`/dicionario/${rel.slug}`}
+                  onClick={onPlainClick(() => onSelectTerm(rel.slug))}
                   className="p-4 bg-white hover:bg-[#E4F1FF]/30 border border-[#D9E8F8] hover:border-[#2878D0]/40 rounded-2xl shadow-xs transition-all text-left cursor-pointer group flex flex-col justify-between block"
                 >
                   <div>

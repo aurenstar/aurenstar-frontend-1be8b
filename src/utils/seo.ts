@@ -45,6 +45,7 @@ export function updateSeo(page: SeoPage, options?: SeoOptions) {
   const seo = getSeoData(page, options);
 
   document.title = seo.title;
+  document.documentElement.lang = seo.lang;
   setMeta('name', 'description', seo.description);
   setMeta('name', 'robots', seo.robots);
   setCanonical(seo.url);

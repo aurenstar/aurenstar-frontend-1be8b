@@ -165,7 +165,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <a
-                  href="#contact"
+                  href="/contact"
                   onClick={handleGoContact}
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
@@ -174,7 +174,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <a
-                  href="#home"
+                  href="/"
                   onClick={handleGoHome}
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
@@ -192,7 +192,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <ul className="space-y-3 text-sm text-[#647DA5]">
               <li>
                 <a
-                  href="#/discover-sign"
+                  href="/discover-sign"
                   onClick={(e) => {
                     e.preventDefault();
                     if (onNavigate) onNavigate('discover-sign');
@@ -205,7 +205,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <a
-                  href="#/daily-message"
+                  href="/daily-message"
                   onClick={(e) => {
                     e.preventDefault();
                     if (onNavigate) onNavigate('daily-message');
@@ -218,7 +218,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <a
-                  href="#/aureneffect"
+                  href="/aureneffect"
                   onClick={(e) => {
                     e.preventDefault();
                     if (onNavigate) onNavigate('aureneffect');
@@ -231,7 +231,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <a
-                  href="#/dicionario"
+                  href="/dicionario"
                   onClick={(e) => {
                     e.preventDefault();
                     if (onNavigate) onNavigate('dicionario');
@@ -244,7 +244,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <a
-                  href="#/descreva-me"
+                  href="/descreva-me"
                   onClick={(e) => {
                     e.preventDefault();
                     if (onNavigate) onNavigate('describe-me');
@@ -257,7 +257,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <a
-                  href="#blog"
+                  href="/blog"
                   onClick={handleGoBlog}
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >

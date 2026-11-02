@@ -70,6 +70,12 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+/* Real links that replaced former <button>s (menu, blog category tabs): keep the exact text
+   rendering buttons had, so the design is unchanged. */
+a.btn-font {
+  font: inherit;
+}
+
 @media (max-width: 640px) {
   body {
     font-size: 15px;

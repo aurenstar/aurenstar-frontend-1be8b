@@ -8,6 +8,7 @@ import {
 import {
   ASTROLOGY_DICTIONARY_TERMS,
 } from '../data/astrologyDictionaryData';
+import { onPlainClick } from '../utils/links';
 
 interface PublicDictionaryPageProps {
   onBackToHome: () => void;
@@ -173,11 +174,8 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
             {filteredTerms.map((term) => (
               <a
                 key={term.id}
-                href={`#/dicionario/${term.slug}`}
-                onClick={(e) => {
-                  e.preventDefault();
-                  onSelectTerm(term.slug);
-                }}
+                href={`/dicionario/${term.slug}`}
+                onClick={onPlainClick(() => onSelectTerm(term.slug))}
                 className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] hover:border-[#2878D0]/50 shadow-sm hover:shadow-md transition-all p-5 sm:p-6 flex flex-col justify-between cursor-pointer group hover:-translate-y-0.5 text-left block"
               >
                 <div>
