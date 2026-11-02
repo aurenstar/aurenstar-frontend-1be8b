@@ -16,6 +16,7 @@ import {
 import { useLanguage } from '../context/LanguageContext';
 import { BLOG_ARTICLES, BlogArticleContent, AURENSTAR_AVATAR } from '../data/blogArticles';
 import { AurenstarLogo } from '../components/AurenstarLogo';
+import { SaveArticleButton } from '../components/SaveArticleButton';
 import { getArticleSlugById } from '../utils/articleSlug';
 import { getCategoryPath } from '../utils/blogCategories';
 import { cardLinkClick, onPlainClick } from '../utils/links';
@@ -456,11 +457,14 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                   </span>
 
                   {/* Article Title */}
-                  <h3 className="font-extrabold text-base sm:text-[17px] text-[#172B4D] leading-snug mb-2 group-hover:text-[#2878D0] transition-colors line-clamp-2">
-                    <a href={`/blog/${getArticleSlugById(article.id)}`} onClick={cardLinkClick}>
-                      {article.title[lang] || article.title.pt}
-                    </a>
-                  </h3>
+                  <div className="mb-2 flex items-start justify-between gap-3">
+                    <h3 className="min-w-0 flex-1 font-extrabold text-base sm:text-[17px] text-[#172B4D] leading-snug group-hover:text-[#2878D0] transition-colors line-clamp-2">
+                      <a href={`/blog/${getArticleSlugById(article.id)}`} onClick={cardLinkClick}>
+                        {article.title[lang] || article.title.pt}
+                      </a>
+                    </h3>
+                    <SaveArticleButton articleId={article.id} />
+                  </div>
 
                   {/* Article Excerpt */}
                   <p className="text-xs sm:text-[13px] text-[#647DA5] leading-relaxed mb-6 line-clamp-3 font-normal">
