@@ -1,0 +1,21 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/api/*
+  X-Robots-Tag: noindex
+
+/dictionary
+  X-Robots-Tag: noindex
+
+/daily-reading-result
+  X-Robots-Tag: noindex
+
+/aureneffect-result
+  X-Robots-Tag: noindex
+
+/discover-sign-result
+  X-Robots-Tag: noindex
+
+/descreva-me-result
+  X-Robots-Tag: noindex

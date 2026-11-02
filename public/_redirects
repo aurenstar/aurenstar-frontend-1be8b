@@ -1,2 +1,5 @@
-/* /index.html 200
-
+# Hand-written redirects. Legacy-URL redirects (/blog/post-1 -> keyword slug, /dictionary/<term>)
+# are generated at build time by scripts/prerender.ts and appended to this file in dist/.
+#
+# There is intentionally NO "/* /index.html 200" catch-all. Every known route is prerendered
+# to its own .html file, and unknown URLs get dist/404.html with a real 404 status.

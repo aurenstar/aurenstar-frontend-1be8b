@@ -24,6 +24,7 @@ import { DescribeMePage } from './pages/DescribeMePage';
 import { DescribeMeResultPage } from './pages/DescribeMeResultPage';
 import { AboutDetailPage } from './pages/AboutDetailPage';
 import { updateSeo } from './utils/seo';
+import { findArticleByParam, getArticleSlugById } from './utils/articleSlug';
 
 export type AppPageRoute =
   | 'home'
@@ -62,9 +63,15 @@ export default function App() {
       // the pathname or rewrites it to a hash route during the first load.
       const routeMatches = (...values: string[]) => values.includes(path) || values.includes(hash) || values.includes(normalizedRoute);
       if (route.startsWith('/blog/') || route.startsWith('#/article/')) {
-        const id = route.startsWith('/blog/') ? route.replace('/blog/', '') : route.replace('#/article/', '');
-        setCurrentArticleId(id || 'post-1');
+        const rawParam = (route.startsWith('/blog/') ? route.replace('/blog/', '') : route.replace('#/article/', ''))
+          .split('?')[0];
+        // Public URLs use a keyword slug; legacy id URLs (/blog/post-1) still resolve.
+        const found = findArticleByParam(rawParam);
+        setCurrentArticleId(found?.id ?? (rawParam || 'post-1'));
         setCurrentPage('article');
+        if (found && path.startsWith('/blog/') && rawParam !== getArticleSlugById(found.id)) {
+          window.history.replaceState(window.history.state, '', `/blog/${getArticleSlugById(found.id)}`);
+        }
       } else if (
         normalizedRoute.startsWith('/dicionario/') ||
         normalizedRoute.startsWith('/dictionary/') ||
@@ -119,12 +126,12 @@ export default function App() {
 
   useEffect(() => {
     try {
-      updateSeo(currentPage, { articleId: currentArticleId, termSlug: currentTermSlug });
+      updateSeo(currentPage, { articleId: currentArticleId, termSlug: currentTermSlug, aboutSection });
     } catch (error) {
       // SEO metadata must never prevent the application UI from rendering.
       console.error('Unable to update SEO metadata:', error);
     }
-  }, [currentPage, currentArticleId, currentTermSlug]);
+  }, [currentPage, currentArticleId, currentTermSlug, aboutSection]);
 
   const handleNavigate = (page: AppPageRoute) => {
     setCurrentPage(page);
@@ -143,7 +150,7 @@ export default function App() {
     window.history.pushState(
       { page: 'article', id: articleId },
       '',
-      `/blog/${encodeURIComponent(articleId)}`
+      `/blog/${encodeURIComponent(getArticleSlugById(articleId))}`
     );
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
