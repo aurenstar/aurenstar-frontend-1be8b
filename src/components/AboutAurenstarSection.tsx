@@ -97,17 +97,17 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                     key={slug}
                     onClick={() => onOpenCard?.(slug)}
                     style={{ backgroundImage: CARD_GRADIENTS[index] }}
-                    className="group relative flex min-h-[200px] flex-col overflow-hidden rounded-[20px] p-4 text-left shadow-[0_14px_30px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_26px_46px_rgba(23,54,111,0.26)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F51B83] focus-visible:ring-offset-2"
+                    className="group relative flex min-h-[170px] flex-col overflow-hidden rounded-[18px] p-3.5 text-left shadow-[0_14px_30px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_26px_46px_rgba(23,54,111,0.26)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F51B83] focus-visible:ring-offset-2"
                   >
                     {/* soft glass highlight */}
                     <span aria-hidden="true" className="pointer-events-none absolute -left-10 -top-16 h-44 w-64 rotate-[-12deg] rounded-full bg-white/20 blur-2xl" />
                     <span className="relative text-[11px] font-extrabold uppercase tracking-[0.16em] text-white/80">{category}</span>
-                    <span className="relative mt-1 block text-[16px] font-bold leading-[1.15] text-white">{title}</span>
-                    <span className="relative mt-1.5 block text-[12px] leading-[1.1rem] text-white/85">{description}</span>
-                    <span className="relative mt-auto flex flex-1 items-center justify-center py-2">
-                      <img src={CARD_IMAGES[index]} alt="" width={400} height={220} loading="lazy" style={{ width: 150, maxWidth: 150 }} className="transition-transform duration-500 group-hover:scale-105 group-hover:-rotate-1" />
+                    <span className="relative mt-1 block text-[15px] font-bold leading-[1.15] text-white">{title}</span>
+                    <span className="relative mt-1 block text-[11.5px] leading-[1rem] text-white/85">{description}</span>
+                    <span className="relative mt-auto flex flex-1 items-center justify-center py-1">
+                      <img src={CARD_IMAGES[index]} alt="" width={400} height={220} loading="lazy" style={{ width: 110, maxWidth: 110 }} className="transition-transform duration-500 group-hover:scale-105 group-hover:-rotate-1" />
                     </span>
-                    <span className="relative flex w-full items-center justify-center gap-2 rounded-full bg-white px-4 py-1.5 text-[12px] font-bold text-[#172B4D] shadow-[0_6px_14px_rgba(23,54,111,0.12)] transition group-hover:bg-[#FFF0F7] group-hover:text-[#F51B83]">
+                    <span className="relative flex w-full items-center justify-center gap-2 rounded-full bg-white px-4 py-1 text-[11.5px] font-bold text-[#172B4D] shadow-[0_6px_14px_rgba(23,54,111,0.12)] transition group-hover:bg-[#FFF0F7] group-hover:text-[#F51B83]">
                       {lang === 'en' ? 'Explore' : 'Explorar'} <span aria-hidden="true">→</span>
                     </span>
                   </button>
