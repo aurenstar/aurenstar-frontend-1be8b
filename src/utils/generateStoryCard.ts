@@ -22,6 +22,7 @@ export interface StoryCardData {
   affirmation: string;
   message: string;
   advice: string;
+  chips?: string[];
   dateStr?: string;
   lang?: 'pt' | 'en' | 'es';
 }
@@ -134,6 +135,14 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
     titleHeight = lines * 48 + 20;
   }
 
+  // 1b. Altura da linha de chips (Sol · Lua · Ascendente)
+  const chipsText = (data.chips || []).filter(Boolean).join('   ·   ');
+  let chipsHeight = 0;
+  if (chipsText) {
+    testCtx.font = 'bold 27px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
+    chipsHeight = measureWrappedLines(testCtx, chipsText, maxTextW, 2) * 38 + 14;
+  }
+
   // 2. Altura do Texto da Mensagem
   testCtx.font = 'normal 31px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
   const messageLines = measureWrappedLines(testCtx, data.message || '', maxTextW, 16);
@@ -146,7 +155,7 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
   const bottomPadding = 45;
 
   // Altura do card proporcional e ajustada exatamente ao conteúdo
-  const cardH = headerHeight + titleHeight + messageHeight + footerSpacing + footerHeight + bottomPadding;
+  const cardH = headerHeight + titleHeight + chipsHeight + messageHeight + footerSpacing + footerHeight + bottomPadding;
   const height = Math.round(cardH + 80);
 
   const canvas = document.createElement('canvas');
@@ -250,6 +259,14 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
     ctx.font = 'bold 36px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
     currentY = wrapCanvasText(ctx, messageTitle, textX, currentY, maxTextW, 48, 3);
     currentY += 20;
+  }
+
+  if (chipsText) {
+    ctx.textAlign = 'left';
+    ctx.fillStyle = '#647DA5';
+    ctx.font = 'bold 27px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
+    currentY = wrapCanvasText(ctx, chipsText, textX, currentY, maxTextW, 38, 2);
+    currentY += 14;
   }
 
   // Mensagem Principal do Dia

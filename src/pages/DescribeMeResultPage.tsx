@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { ArrowLeft, Copy, Download, Share2, Sparkles, Check } from 'lucide-react';
+import { ArrowLeft, Copy, Download, Share2, Sparkles, Check, Smartphone } from 'lucide-react';
+import { downloadStoryCard, downloadVerticalStoryCard, shareStoryCardImage, type StoryCardData } from '../utils/generateStoryCard';
 import { useLanguage } from '../context/LanguageContext';
 import { DESCRIBE_ME_RESULT_KEY } from './DescribeMePage';
 
@@ -18,6 +19,7 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
   const { language } = useLanguage();
   const [result, setResult] = useState<DescribeMeResult | null>(null);
   const [copied, setCopied] = useState(false);
+  const [busy, setBusy] = useState<'card' | 'story' | 'share' | null>(null);
   const lang = language || 'en';
 
   useEffect(() => {
@@ -32,11 +34,23 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
   const copiedLabel = lang === 'pt' ? 'Copiado' : lang === 'es' ? 'Copiado' : 'Copied';
   const shareLabel = lang === 'pt' ? 'Compartilhar' : lang === 'es' ? 'Compartir' : 'Share';
   const downloadLabel = lang === 'pt' ? 'Baixar card' : lang === 'es' ? 'Descargar card' : 'Download card';
+  const storyLabel = 'Story 9:16';
   const backLabel = lang === 'pt' ? 'Criar outra descrição' : lang === 'es' ? 'Crear otra descripción' : 'Create another description';
 
   const copyText = async () => { if (!result) return; try { await navigator.clipboard.writeText(`${title}\n\n${result.description}`); setCopied(true); setTimeout(() => setCopied(false), 2200); } catch { /* clipboard unavailable */ } };
-  const share = async () => { if (!result) return; if (navigator.share) await navigator.share({ title, text: result.description, url: window.location.href }); else await copyText(); };
-  const download = () => { if (!result) return; const blob = new Blob([`${title}\n\n${result.description}\n\nAurenstar · aurenstar.com`], { type: 'text/plain;charset=utf-8' }); const url = URL.createObjectURL(blob); const link = document.createElement('a'); link.href = url; link.download = 'aurenstar-unfiltered.txt'; link.click(); URL.revokeObjectURL(url); };
+  const chips = (): string[] => {
+    const b = result?.bigThree; if (!b) return [];
+    const sun = lang === 'en' ? 'Sun' : 'Sol'; const moon = lang === 'es' ? 'Luna' : lang === 'en' ? 'Moon' : 'Lua'; const rise = lang === 'en' ? 'Rising' : 'Ascendente';
+    return [`${b.sun.symbol} ${sun}: ${b.sun.name}`, `${b.moon.symbol} ${moon}: ${b.moon.name}`, ...(b.rising ? [`${b.rising.symbol} ${rise}: ${b.rising.name}`] : [])];
+  };
+  const cardData = (): StoryCardData => ({
+    userName: result?.name || 'aurenstar', signName: result?.bigThree?.sun.name || result?.sign || '', signSymbol: result?.bigThree?.sun.symbol || '', signTheme: title,
+    title, affirmation: title, message: result?.description || '', advice: '', chips: chips(), lang: lang as 'pt' | 'en' | 'es',
+  });
+  const run = async (kind: 'card' | 'story' | 'share', fn: () => Promise<unknown>) => { if (busy) return; setBusy(kind); try { await fn(); } catch { /* user cancelled or canvas unavailable */ } finally { setBusy(null); } };
+  const share = () => run('share', () => shareStoryCardImage(cardData()));
+  const download = () => run('card', () => downloadStoryCard(cardData()));
+  const downloadStory = () => run('story', () => downloadVerticalStoryCard(cardData()));
 
   if (!result) return <section className="min-h-[70vh] bg-[#C9E5FF] px-4 py-32 text-center"><Sparkles className="mx-auto h-8 w-8 text-[#2878D0]" /><h1 className="mt-4 text-2xl font-extrabold text-[#172B4D]">{lang === 'pt' ? 'Crie sua descrição primeiro' : 'Create your description first'}</h1><button type="button" onClick={onBackToForm} className="mt-6 rounded-full bg-[#2878D0] px-5 py-3 text-sm font-bold text-white">{backLabel}</button></section>;
 
@@ -62,7 +76,7 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
         <p className="mt-6 max-w-3xl whitespace-pre-line text-lg leading-relaxed text-[#17366F] sm:text-xl">{result.description}</p>
         <p className="mt-10 text-sm text-[#647DA5]">{formatTime(result.createdAt, lang)} · aurenstar.com</p>
       </div>
-      <div className="mt-4 flex flex-wrap justify-center gap-2"><button type="button" onClick={copyText} className="inline-flex items-center gap-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-4 py-2.5 text-sm font-semibold text-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] hover:text-white transition-colors"><Copy className="h-4 w-4 text-[#2878D0]" />{copied ? copiedLabel : copyLabel}</button><button type="button" onClick={share} className="inline-flex items-center gap-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-4 py-2.5 text-sm font-semibold text-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] hover:text-white transition-colors"><Share2 className="h-4 w-4 text-[#2878D0]" />{shareLabel}</button><button type="button" onClick={download} className="inline-flex items-center gap-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-4 py-2.5 text-sm font-semibold text-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] hover:text-white transition-colors"><Download className="h-4 w-4 text-[#2878D0]" />{downloadLabel}</button><button type="button" onClick={onNavigateToBlog} className="inline-flex items-center gap-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-4 py-2.5 text-sm font-semibold text-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] hover:text-white transition-colors">Blog</button></div>
+      <div className="mt-4 flex flex-nowrap justify-center gap-1.5 sm:gap-2"><button type="button" onClick={copyText} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-3 py-2 text-xs font-semibold text-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] hover:text-white transition-colors disabled:opacity-60 sm:px-4 sm:text-sm"><Copy className="h-4 w-4" />{copied ? copiedLabel : copyLabel}</button><button type="button" onClick={share} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-3 py-2 text-xs font-semibold text-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] hover:text-white transition-colors disabled:opacity-60 sm:px-4 sm:text-sm"><Share2 className="h-4 w-4" />{shareLabel}</button><button type="button" onClick={download} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-3 py-2 text-xs font-semibold text-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] hover:text-white transition-colors disabled:opacity-60 sm:px-4 sm:text-sm"><Download className="h-4 w-4" />{downloadLabel}</button><button type="button" onClick={downloadStory} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-3 py-2 text-xs font-semibold text-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] hover:text-white transition-colors disabled:opacity-60 sm:px-4 sm:text-sm"><Smartphone className="h-4 w-4" />{storyLabel}</button><button type="button" onClick={onNavigateToBlog} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-3 py-2 text-xs font-semibold text-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] hover:text-white transition-colors disabled:opacity-60 sm:px-4 sm:text-sm">Blog</button></div>
     </div>
   </section>;
 };
