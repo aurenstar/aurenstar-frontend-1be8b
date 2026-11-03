@@ -328,7 +328,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
             />
             <div className="flex flex-col min-w-0">
               <span className="text-xs sm:text-sm font-bold text-[#172B4D] leading-tight truncate">
-                Aurenstar <span aria-label="Verificado" title="Perfil verificado" className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-[9px] font-black leading-none text-white align-middle">✓</span>
+                Aurenstar <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-[9px] font-black leading-none text-white align-middle">✓</span>
               </span>
               <span className="text-[11px] text-[#647DA5] font-medium leading-tight mt-0.5">
                 {l.authorTitle} • {article.author.dateTime[lang] || article.author.dateTime.pt}

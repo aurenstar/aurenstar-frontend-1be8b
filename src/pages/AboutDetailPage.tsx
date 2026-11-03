@@ -97,7 +97,7 @@ export const AboutDetailPage: React.FC<AboutDetailPageProps> = ({ section, onBac
           )}
           {data.example && (
             <div className="mt-8 rounded-2xl border border-[#F7B5D2] bg-[#FFF5FA] p-5 sm:p-7">
-              <p className="mb-2 text-xs font-extrabold uppercase tracking-[0.18em] text-[#F51B83]">Exemplo simples</p>
+              <p className="mb-2 text-xs font-extrabold uppercase tracking-[0.18em] text-[#F51B83]">{({ en: 'Simple example', pt: 'Exemplo simples', es: 'Ejemplo sencillo' } as Record<string, string>)[language || 'en']}</p>
               <p className="text-sm leading-7 text-[#17366F] sm:text-base">{data.example}</p>
             </div>
           )}

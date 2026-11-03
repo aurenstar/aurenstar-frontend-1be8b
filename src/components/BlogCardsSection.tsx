@@ -335,7 +335,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                               <div className="flex items-center gap-2.5 pt-3 border-t border-[#D9E8F8] mt-auto">
                                 <img src={AURENSTAR_AVATAR} alt="Aurenstar" className="w-8 h-8 rounded-full object-cover shrink-0 ring-1 ring-black/5" />
                                 <div className="flex flex-col min-w-0">
-                                  <span className="text-xs font-bold text-[#172B4D] leading-tight truncate">Aurenstar <span aria-label="Verificado" title="Perfil verificado" className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span></span>
+                                  <span className="text-xs font-bold text-[#172B4D] leading-tight truncate">Aurenstar <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span></span>
                                   <span className="text-[10px] text-[#647DA5] font-medium leading-tight mt-0.5">{date}</span>
                                 </div>
                               </div>

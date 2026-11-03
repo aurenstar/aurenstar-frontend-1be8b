@@ -29,6 +29,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
 }) => {
   const { language } = useLanguage();
   const lang = (language || 'pt') as 'pt' | 'en' | 'es';
+  const tr = (pt: string, en: string, es: string) => (lang === 'en' ? en : lang === 'es' ? es : pt);
 
   // Carrega o signo salvo
   const [savedData] = useState<{ signKey: string; day?: number; month?: number } | null>(() => {
@@ -68,7 +69,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
             className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#647DA5] hover:text-[#172B4D] transition-colors cursor-pointer group"
           >
             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
-            <span>Fazer Outro Teste</span>
+            <span>{tr('Fazer Outro Teste','Take Another Test','Hacer Otra Prueba')}</span>
           </button>
 
           <button
@@ -84,7 +85,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
             <Sparkles className="w-3.5 h-3.5 text-[#2878D0]" />
-            <span>Resultado da Sua Data de Nascimento</span>
+            <span>{tr('Resultado da Sua Data de Nascimento','Your Birth Date Result','Resultado de Tu Fecha de Nacimiento')}</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl font-extrabold text-[#172B4D] tracking-tight mb-2">
@@ -129,7 +130,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
           <div className="mb-6">
             <h3 className="text-xs font-bold uppercase tracking-wider text-[#2878D0] mb-2 flex items-center gap-1.5">
               <Star className="w-3.5 h-3.5 fill-current" />
-              <span>Sua Essência e Jeito de Ser</span>
+              <span>{tr('Sua Essência e Jeito de Ser','Your Essence and Way of Being','Tu Esencia y Forma de Ser')}</span>
             </h3>
             <p className="text-sm sm:text-base text-[#172B4D] leading-relaxed font-normal bg-[#E4F1FF]/30 p-4 rounded-2xl border border-[#D9E8F8]">
               {currentSign.essence[lang] || currentSign.essence.pt}
@@ -147,12 +148,12 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
               {copied ? (
                 <>
                   <Check className="w-4 h-4 text-white" />
-                  <span>Copiado com Sucesso!</span>
+                  <span>{tr('Copiado com Sucesso!','Copied!','¡Copiado!')}</span>
                 </>
               ) : (
                 <>
                   <Share2 className="w-4 h-4 transition-transform group-hover:scale-110" />
-                  <span>Compartilhar Meu Signo</span>
+                  <span>{tr('Compartilhar Meu Signo','Share My Sign','Compartir Mi Signo')}</span>
                 </>
               )}
             </button>
@@ -165,7 +166,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
                 className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] text-xs font-bold transition-all cursor-pointer shadow-2xs"
               >
                 <BookOpen className="w-3.5 h-3.5" />
-                <span>Ler Artigo Especial</span>
+                <span>{tr('Ler Artigo Especial','Read the Special Article','Leer el Artículo Especial')}</span>
               </button>
 
               <button
@@ -194,7 +195,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
             className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] text-xs sm:text-sm font-bold shadow-2xs transition-all cursor-pointer"
           >
             <RotateCcw className="w-4 h-4 text-[#2878D0]" />
-            <span>Colocar Outra Data de Nascimento</span>
+            <span>{tr('Colocar Outra Data de Nascimento','Enter Another Birth Date','Poner Otra Fecha de Nacimiento')}</span>
           </button>
         </div>
       </div>
