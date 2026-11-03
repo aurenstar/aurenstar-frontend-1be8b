@@ -688,21 +688,16 @@ THE PERSON: first name "${userName}".
 - Moon in ${nm(moon)}${timeKnown ? `\n- Rising sign in ${nm(rising)}` : '\n- (Birth time unknown: do not talk about the rising sign, and treat the Moon as approximate)'}
 - Mercury in ${nm(mercury)} (how they think and talk), Venus in ${nm(venus)} (how they love), Mars in ${nm(mars)} (how they fight and push)
 
-HOW TO WRITE (keep it SHORT and SIMPLE):
-1. Everyday words a 12-year-old understands. No technical astrology words in the text (no aspects, houses, degrees, retrograde). Do NOT name signs or planets inside the paragraphs (the card already shows the Sun, Moon and Rising signs).
-2. Write about the person in the third person using the first name ("${userName} é do tipo que..."). Warm, a little cheeky, never mean, never scary, nothing about health, money or death.
-3. Exactly 3 tiny paragraphs:
-   (1) "Outside": how people see them at first (blend Sun and Rising sign). 1 or 2 sentences.
-   (2) "Inside": what they really feel and secretly need (Moon, Venus), with very specific, recognisable habits. It must make them think "wow, this site really knows me". 1 or 2 sentences.
-   (3) "Unfiltered": one honest, funny truth about how they love, fight or procrastinate (Mercury, Venus, Mars), the kind of thing friends say laughing. 1 sentence.
-4. Total at most 520 characters. Very specific details of real life, no clichés.
+HOW TO WRITE (ONE short sentence, made to be posted as a card on Instagram Stories):
+It is a quick, funny and flattering "this is who I am" portrait of the person, in the style of this example (Gemini Sun): "Um geminiano que muda de ideia a cada rolê que dá, prioriza a liberdade, é inteligente de forma absurda e adora conhecer novos lugares e ter novas experiências."
+1. Start with the sign of the Sun in a neutral, gender-free way: in Portuguese "Uma pessoa [demonym of the Sun sign] que ..." (e.g. "Uma pessoa geminiana que ..."), in Spanish "Una persona [Sun sign adjective] que ...", in English "A ${nm(sun)} who ...". Never guess gender; never use the person's name; no "he" or "she".
+2. Then list 4 or 5 concrete, recognisable traits and habits, joined naturally with commas and "e" (and). The Sun sign gives the main personality; flavour it with the Moon${timeKnown ? ', the Rising sign' : ''}, Mercury, Venus and Mars so it feels personal. Mix one lovable strength, one funny flaw and one thing they love or need.
+3. Everyday words a 12-year-old understands. Warm, a little cheeky, never mean, never scary, nothing about health, money or death. Do not say "Moon", "Rising", "Mercury", "Venus" or "Mars" and no astrology jargon. No scenes, no story, no metaphors about furniture or places.
+4. A single sentence, between 200 and 300 characters. No emojis, no markdown.
 ${varietyBlock(body, 'unfiltered')}
 Return ONLY valid JSON:
 {
-  "tagline": "A punchy title of 4 to 8 words that sums the person up, no sign names",
-  "paragraphOutside": "paragraph 1, max 170 characters",
-  "paragraphInside": "paragraph 2, max 220 characters",
-  "paragraphUnfiltered": "paragraph 3, max 130 characters"
+  "description": "the single sentence"
 }`;
 
     const controller = new AbortController();
@@ -726,12 +721,11 @@ Return ONLY valid JSON:
       clearTimeout(timer);
     }
     const parsed = JSON.parse(text.replace(/^```json\s*|```$/g, ''));
-    const description = [parsed.paragraphOutside, parsed.paragraphInside, parsed.paragraphUnfiltered].filter(Boolean).map(String).join('\n\n');
+    const description = String(parsed.description || '').trim();
     if (!description) return { success: false };
     return {
       success: true,
       data: {
-        tagline: String(parsed.tagline || ''),
         description,
         bigThree: {
           sun: { name: nm(sun), symbol: sun.symbol },

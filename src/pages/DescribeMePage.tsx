@@ -56,11 +56,8 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
   const PT_TO_EN: Record<string, SignKey> = { aries: 'aries', touro: 'taurus', gemeos: 'gemini', cancer: 'cancer', leao: 'leo', virgem: 'virgo', libra: 'libra', escorpiao: 'scorpio', sagitario: 'sagittarius', capricornio: 'capricorn', aquario: 'aquarius', peixes: 'pisces' };
   const buildFallback = (sign: SignKey) => {
     const signName = SIGN_NAMES[sign][lang];
-    const person = name.trim().split(/\s+/)[0] || (lang === 'pt' ? 'Esta pessoa' : lang === 'es' ? 'Esta persona' : 'This person');
     const trait = SIGN_TRAITS[sign][lang];
-    if (lang === 'pt') return `${person} é de ${signName}: ${trait}. Parece espontânea, mas existe muita percepção por trás de cada escolha — e quando algo desperta sua curiosidade, fica difícil não querer saber mais.`;
-    if (lang === 'es') return `${person} es ${signName}: ${trait}. Parece espontánea, pero hay mucha percepción detrás de cada elección — y cuando algo despierta su curiosidad, es difícil no querer saber más.`;
-    return `${person} is a ${signName}: ${trait}. They may look spontaneous, but there is plenty of perception behind every choice — and once curiosity is sparked, it is hard not to keep asking questions.`;
+    return lang === 'pt' ? `Uma pessoa de ${signName} que ${trait}.` : lang === 'es' ? `Una persona de ${signName} que ${trait}.` : `A ${signName} who ${trait}.`;
   };
 
   const handleGenerate = async (event: React.FormEvent) => {
