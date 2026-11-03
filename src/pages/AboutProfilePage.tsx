@@ -181,14 +181,14 @@ const TOOL_ICONS: Record<string, React.ElementType> = {
 const TOOL_COLORS: Record<string, string> = {
   'daily-message': '#2878D0',
   aureneffect: '#F51B83',
-  'discover-sign': '#7C4DFF',
-  'describe-me': '#FF8A3D',
-  dicionario: '#12A594',
+  'discover-sign': '#2878D0',
+  'describe-me': '#F51B83',
+  dicionario: '#2878D0',
 };
 
 
 const STEP_ICONS = [ClipboardList, Telescope, PenLine, Send];
-const STEP_COLORS = ['#2878D0', '#7C4DFF', '#F51B83', '#FF8A3D'];
+const STEP_COLORS = ['#2878D0', '#F51B83', '#2878D0', '#F51B83'];
 
 type Tab = 'tools' | 'about' | 'how' | 'blog';
 
@@ -280,14 +280,15 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                   const Icon = TOOL_ICONS[tool.key] || Sparkles;
                   const color = TOOL_COLORS[tool.key] || '#2878D0';
                   return (
-                    <button key={tool.key} type="button" onClick={() => onNavigate(tool.key)} className="group flex flex-col overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-3 text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)]">
-                      <span className="relative flex h-36 items-center justify-center overflow-hidden rounded-xl" style={{ background: color }}>
+                    <button key={tool.key} type="button" onClick={() => onNavigate(tool.key)} className={`group flex flex-col overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-3 text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)] ${i === c.tools.length - 1 && c.tools.length % 2 === 1 ? 'sm:col-span-2 sm:flex-row sm:gap-4' : ''}`}>
+                      <span className={`relative flex h-36 items-center justify-center overflow-hidden rounded-xl ${i === c.tools.length - 1 && c.tools.length % 2 === 1 ? 'sm:h-auto sm:w-64 sm:shrink-0' : ''}`} style={{ background: color }}>
                         <span aria-hidden className="absolute -left-8 -top-8 h-28 w-28 rounded-full bg-white/10" />
                         <span aria-hidden className="absolute -bottom-10 -right-6 h-32 w-32 rounded-full bg-white/10" />
                         <Icon className="relative h-14 w-14 text-white transition-transform duration-300 group-hover:scale-110" />
                         <span className="absolute right-2.5 top-2.5 rounded-md bg-white px-2 py-0.5 text-[10px] font-extrabold" style={{ color }}>{c.free}</span>
                       </span>
-                      <span className="mt-3 flex items-baseline justify-between gap-2 px-1">
+                      <span className="flex min-w-0 flex-1 flex-col sm:justify-center">
+                      <span className="mt-3 flex items-baseline justify-between gap-2 px-1 sm:mt-0">
                         <span className="text-base font-extrabold text-[#172B4D]">{tool.name}</span>
                         <span className="text-[11px] font-semibold text-[#647DA5]">0{i + 1}</span>
                       </span>
@@ -295,6 +296,7 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                       <span className="mt-3 flex items-center justify-between border-t border-[#EDF3FB] px-1 pt-3 text-xs font-semibold text-[#647DA5]">
                         <span className="inline-flex items-center gap-1.5"><Clock className="h-3.5 w-3.5" /> {c.metas[i]}</span>
                         <span className="inline-flex items-center gap-1 font-bold transition-all group-hover:gap-2" style={{ color }}>{c.open} <ArrowRight className="h-3.5 w-3.5" /></span>
+                      </span>
                       </span>
                     </button>
                   );
@@ -304,18 +306,26 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
 
             {tab === 'about' && (
               <div className="space-y-4">
-                <div className="rounded-2xl border border-[#D9E8F8] p-5">
-                  <h2 className="mb-2 text-lg font-extrabold text-[#172B4D]">{c.aboutTitle}</h2>
-                  <div className="space-y-3">{c.about.map((p) => <p key={p} className="text-sm leading-relaxed text-[#17366F] sm:text-base">{p}</p>)}</div>
+                <div className="group relative overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-5 sm:p-6">
+                  <span aria-hidden className="absolute inset-x-0 top-0 h-1.5 bg-[#2878D0]" />
+                  <div className="flex items-center gap-3">
+                    <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#2878D0] text-white shadow-md"><Sparkles className="h-6 w-6" /></span>
+                    <h2 className="text-xl font-extrabold text-[#172B4D]">{c.aboutTitle}</h2>
+                  </div>
+                  <div className="mt-3 space-y-3">{c.about.map((p) => <p key={p} className="text-sm leading-relaxed text-[#17366F] sm:text-base">{p}</p>)}</div>
                 </div>
                 <div className="grid gap-4 sm:grid-cols-3">
-                  {c.values.map((v) => (
-                    <div key={v.title} className="rounded-2xl border border-[#D9E8F8] p-4">
-                      <Moon className="mb-2 h-5 w-5 text-[#F51B83]" />
-                      <h3 className="text-sm font-extrabold text-[#17366F]">{v.title}</h3>
-                      <p className="mt-1 text-sm leading-relaxed text-[#5E78A4]">{v.text}</p>
-                    </div>
-                  ))}
+                  {c.values.map((v, i) => {
+                    const color = i % 2 === 0 ? '#F51B83' : '#2878D0';
+                    const VIcon = [PenLine, Moon, Sparkles][i] || Moon;
+                    return (
+                      <div key={v.title} className="group rounded-2xl border border-[#D9E8F8] bg-white p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)]">
+                        <span className="mb-3 flex h-11 w-11 items-center justify-center rounded-2xl text-white shadow-md transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110" style={{ background: color }}><VIcon className="h-5 w-5" /></span>
+                        <h3 className="text-base font-extrabold text-[#172B4D]">{v.title}</h3>
+                        <p className="mt-1 text-sm leading-relaxed text-[#5E78A4]">{v.text}</p>
+                      </div>
+                    );
+                  })}
                 </div>
                 <div className="rounded-2xl border border-[#F7B5D2] bg-[#FFF5FA] p-4">
                   <p className="mb-1 text-xs font-extrabold uppercase tracking-wider text-[#F51B83]">{c.noteTitle}</p>
