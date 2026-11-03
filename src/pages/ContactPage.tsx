@@ -270,8 +270,8 @@ export const ContactPage: React.FC<ContactPageProps> = ({
 
         {/* Cover-style header */}
         <div className="relative mb-10 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
-          <div className="pointer-events-none absolute inset-0"><CoverArt tone="blue" /></div>
-          <div className="relative max-w-xl sm:pr-24">
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
+          <div className="relative max-w-xl pb-12 sm:pb-0 sm:pr-24">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/15 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-white">
               <Sparkles className="h-3.5 w-3.5" />
               <span>{t.tag}</span>
@@ -302,7 +302,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
             FEATURED EMAIL CTA CARD (Highlights aurenstarbusiness@gmail.com)
             ========================================================================= */}
         <div className="relative overflow-hidden rounded-[2rem] bg-[#F51B83] p-8 sm:p-10 text-white shadow-[0_14px_40px_rgba(245,27,131,0.25)] mb-12">
-          <div className="pointer-events-none absolute inset-0"><CoverArt tone="pink" variant={1} /></div>
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="pink" variant={1} /></div>
           {/* Subtle celestial background stars glow */}
           <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
             <div className="max-w-xl">

@@ -340,7 +340,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
             BLOG SECTION HEADER & TOOLBAR (Matching image.png)
             ========================================================================= */}
         <div className="relative mb-8 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-9">
-          <div className="pointer-events-none absolute inset-0"><CoverArt tone="blue" /></div>
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
           <div className="relative max-w-2xl">
             <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-4xl">{t.blogHeading}</h2>
             <span aria-hidden className="mt-3 block h-1 w-12 rounded-full bg-[#F51B83]" />
