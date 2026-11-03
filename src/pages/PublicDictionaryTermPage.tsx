@@ -16,6 +16,7 @@ import {
   ASTROLOGY_DICTIONARY_TERMS,
   getDictionaryTermBySlug,
 } from '../data/astrologyDictionaryData';
+import { CoverArt } from '../components/CoverArt';
 import { onPlainClick } from '../utils/links';
 import { useLanguage } from '../context/LanguageContext';
 import { categoryLabel, localizeTerm } from '../data/astrologyDictionaryTranslations';
@@ -114,86 +115,65 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           </button>
         </div>
 
-        {/* SEO Article Header */}
-        <header className="text-center max-w-3xl mx-auto mb-10">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-4 shadow-2xs">
-            <span className="text-sm">{term.icone}</span>
-            <span>{categoryLabel(term.categoria, lang)}</span>
+        {/* Cover-style header */}
+        <header className="relative mb-8 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
+          <div className="pointer-events-none absolute inset-0"><CoverArt tone="blue" /></div>
+          <div className="relative flex flex-col gap-5 sm:flex-row sm:items-center">
+            <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-3xl bg-white text-5xl shadow-lg">{term.icone}</div>
+            <div className="max-w-2xl">
+              <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/15 px-3.5 py-1 text-xs font-bold uppercase tracking-wider">
+                <span>{categoryLabel(term.categoria, lang)}</span>
+              </div>
+              <h1 className="text-2xl font-black leading-tight tracking-tight sm:text-4xl">{term.perguntaGoogle}</h1>
+              <span aria-hidden className="mt-4 block h-1 w-12 rounded-full bg-[#F51B83]" />
+              <p className="mt-4 text-sm leading-relaxed text-white/90 sm:text-base">{term.resumoUmaLinha}</p>
+            </div>
           </div>
-
-          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-[#172B4D] tracking-tight mb-4 leading-tight">
-            {term.perguntaGoogle}
-          </h1>
-
-          <p className="text-sm sm:text-base text-[#647DA5] leading-relaxed max-w-2xl mx-auto font-normal">
-            {term.resumoUmaLinha}
-          </p>
         </header>
 
         {/* Card Principal da Explicação */}
-        <article className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg transition-all p-6 sm:p-10 mb-8 relative overflow-hidden">
-          {/* Barra sutil colorida no topo */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
-
-          {/* Cabeçalho do Card com Nome e Ação de Compartilhar */}
-          <div className="flex flex-wrap items-center justify-between gap-3 pb-5 mb-6 border-b border-[#D9E8F8]">
+        <article className="relative mb-8 overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-6 shadow-md sm:p-10">
+          <div className="mb-6 flex flex-wrap items-center justify-between gap-3 border-b border-[#D9E8F8] pb-5">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-2xl bg-[#E4F1FF] text-[#2878D0] flex items-center justify-center text-3xl font-black shadow-2xs">
-                {term.icone}
-              </div>
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#2878D0] text-3xl shadow-sm">{term.icone}</div>
               <div>
-                <h2 className="text-xl sm:text-2xl font-black text-[#172B4D]">
-                  {term.termo}
-                </h2>
-                <span className="text-xs text-[#647DA5]">
-                  {c.simple}
-                </span>
+                <h2 className="text-xl font-black text-[#172B4D] sm:text-2xl">{term.termo}</h2>
+                <span className="text-xs text-[#647DA5]">{c.simple}</span>
               </div>
             </div>
-
             <button
               type="button"
               onClick={handleShare}
-              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-xs font-bold transition-all cursor-pointer shadow-xs active:scale-95"
+              className="inline-flex cursor-pointer items-center gap-1.5 rounded-full bg-[#F51B83] px-4 py-2.5 text-xs font-bold text-white shadow-sm transition-all hover:bg-[#D9166F] active:scale-95"
             >
-              {copied ? (
-                <>
-                  <Check className="w-3.5 h-3.5 text-white" />
-                  <span>{c.copied}</span>
-                </>
-              ) : (
-                <>
-                  <Share2 className="w-3.5 h-3.5" />
-                  <span>{c.share}</span>
-                </>
-              )}
+              {copied ? (<><Check className="h-3.5 w-3.5" /><span>{c.copied}</span></>) : (<><Share2 className="h-3.5 w-3.5" /><span>{c.share}</span></>)}
             </button>
           </div>
 
           {/* Bloco 1: O que significa? */}
-          <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#E4F1FF]/30 border border-[#D9E8F8]">
-            <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#2878D0] mb-2.5 flex items-center gap-2">
-              <HelpCircle className="w-4 h-4 text-[#2878D0]" />
+          <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#2878D0] text-white">
+            <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-white/90 mb-2.5 flex items-center gap-2">
+              <HelpCircle className="w-4 h-4 text-white" />
               <span>{c.what}</span>
             </h3>
-            <p className="text-sm sm:text-base text-[#172B4D] leading-relaxed font-normal">
+            <p className="text-sm sm:text-base text-white leading-relaxed font-medium">
               {term.oQueSignifica}
             </p>
           </section>
 
           {/* Bloco 2: O que isso significa na astrologia? */}
-          <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#FFE0EF]/30 border border-[#FFE0EF]">
-            <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#F51B83] mb-2.5 flex items-center gap-2">
-              <Sparkles className="w-4 h-4 text-[#F51B83]" />
+          <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#F51B83] text-white">
+            <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-white/90 mb-2.5 flex items-center gap-2">
+              <Sparkles className="w-4 h-4 text-white" />
               <span>{c.whatAstro}</span>
             </h3>
-            <p className="text-sm sm:text-base text-[#172B4D] leading-relaxed font-normal">
+            <p className="text-sm sm:text-base text-white leading-relaxed font-medium">
               {term.oQueSignificaNaAstrologia}
             </p>
           </section>
 
           {/* Bloco 3: Exemplo fictício do dia a dia */}
-          <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#E4F1FF]/40 border border-[#D9E8F8]">
+          <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#E4F1FF] border border-[#D9E8F8]">
             <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#17366F] mb-2.5 flex items-center gap-2">
               <Lightbulb className="w-4 h-4 text-[#17366F]" />
               <span>{c.example}</span>
@@ -218,7 +198,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               <button
                 type="button"
                 onClick={() => onNavigateToTool(term.ferramentaRelacionada!.rota)}
-                className="px-4 py-2.5 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-xs font-bold shadow-xs transition-colors cursor-pointer flex items-center gap-2 shrink-0 active:scale-95"
+                className="px-4 py-2.5 rounded-full bg-[#F51B83] hover:bg-[#D9166F] text-white text-xs font-bold shadow-xs transition-colors cursor-pointer flex items-center gap-2 shrink-0 active:scale-95"
               >
                 <span>{term.ferramentaRelacionada.nome}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -236,16 +216,16 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             </h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-              {relatedTerms.map((rel) => (
+              {relatedTerms.map((rel, ri) => (
                 <a
                   key={rel.id}
                   href={`/dicionario/${rel.slug}`}
                   onClick={onPlainClick(() => onSelectTerm(rel.slug))}
-                  className="p-4 bg-white hover:bg-[#E4F1FF]/30 border border-[#D9E8F8] hover:border-[#2878D0]/40 rounded-2xl shadow-xs transition-all text-left cursor-pointer group flex flex-col justify-between block"
+                  className="group flex cursor-pointer flex-col justify-between rounded-2xl border border-[#D9E8F8] bg-white p-4 text-left shadow-sm transition-all hover:-translate-y-1 hover:border-[#F51B83] hover:shadow-lg"
                 >
                   <div>
                     <div className="flex items-center gap-2 mb-2">
-                      <span className="text-xl">{rel.icone}</span>
+                      <span className="flex h-9 w-9 items-center justify-center rounded-xl text-xl shadow-sm" style={{ background: ri % 2 ? '#F51B83' : '#2878D0' }}>{rel.icone}</span>
                       <span className="font-extrabold text-xs sm:text-sm text-[#172B4D] group-hover:text-[#2878D0] transition-colors">
                         {rel.termo}
                       </span>
@@ -269,9 +249,9 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           <button
             type="button"
             onClick={onBackToDictionary}
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] text-xs sm:text-sm font-bold shadow-2xs transition-all cursor-pointer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#2878D0] hover:bg-[#F51B83] text-white border border-transparent text-xs sm:text-sm font-bold shadow-2xs transition-all cursor-pointer"
           >
-            <BookOpen className="w-4 h-4 text-[#2878D0]" />
+            <BookOpen className="w-4 h-4" />
             <span>{c.back}</span>
           </button>
         </div>
