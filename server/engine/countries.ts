@@ -56,7 +56,7 @@ export function browserLanguages(request: Request): string[] {
     .map((x) => x.lang);
 }
 
-export { URL_LANGUAGES, URL_LANG_COUNTRY, isUrlLanguage } from '../../src/utils/urlLang';
+export { URL_LANGUAGES, URL_LANG_COUNTRY, isUrlLanguage, isTranslatedLanguage } from '../../src/utils/urlLang';
 
 /** Languages written right-to-left (the page must flip direction). */
 export const RTL_LANGUAGES = new Set(['ar', 'he', 'fa', 'ur', 'dv']);

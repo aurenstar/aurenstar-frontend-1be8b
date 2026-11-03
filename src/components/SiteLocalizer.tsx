@@ -161,18 +161,6 @@ export const SiteLocalizer: React.FC = () => {
           // not a valid link
         }
       });
-      // On a language address, links inside the site keep the language (also for crawlers following them).
-      const urlLang = getUrlLang();
-      if (urlLang) {
-        document.body.querySelectorAll('a[href^="/"]').forEach((el) => {
-          const href = el.getAttribute('href') || '';
-          const next = withLangPrefix(href, urlLang);
-          if (next !== href) {
-            if (!hrefOriginals.has(el)) hrefOriginals.set(el, href);
-            el.setAttribute('href', next);
-          }
-        });
-      }
       return { loose, groups, attrNodes, shareLinks };
     }
 
@@ -387,6 +375,30 @@ export const SiteLocalizer: React.FC = () => {
       document.documentElement.dir = prevDir || '';
     };
   }, [visitorLanguage]);
+
+  // On any language address (/pt, /nl ...) links inside the site keep the language, also for crawlers following them.
+  useEffect(() => {
+    const urlLang = getUrlLang();
+    if (!urlLang) return;
+    let timer: number | undefined;
+    const fix = () => {
+      document.body.querySelectorAll('a[href^="/"]').forEach((el) => {
+        const href = el.getAttribute('href') || '';
+        const next = withLangPrefix(href, urlLang);
+        if (next !== href) el.setAttribute('href', next);
+      });
+    };
+    const observer = new MutationObserver(() => {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(fix, 150);
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+    fix();
+    return () => {
+      observer.disconnect();
+      window.clearTimeout(timer);
+    };
+  }, []);
 
   if (!busy) return null;
   return (

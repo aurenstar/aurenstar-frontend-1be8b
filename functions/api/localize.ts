@@ -3,7 +3,7 @@
 // Flow: detect country -> look in the database -> if missing, create it once, save it, and reuse it for everyone after.
 // On any failure the answer is {success:false} and the page simply keeps the original article.
 import { countHit, getCachedReading, saveReading, usageKey, type UsageEnv } from '../../server/engine/usage';
-import { visitorLocale, RTL_LANGUAGES, isUrlLanguage, URL_LANG_COUNTRY } from '../../server/engine/countries';
+import { visitorLocale, RTL_LANGUAGES, isTranslatedLanguage, URL_LANG_COUNTRY } from '../../server/engine/countries';
 import { localizeArticle, type LocalizeEnv, type LocalizedArticle } from '../../server/engine/localizeArticle';
 import { BLOG_ARTICLES } from '../../src/data/blogArticles';
 
@@ -27,7 +27,7 @@ export const onRequestGet = async ({ request, env }: Context): Promise<Response>
     let v = visitorLocale(request);
     // Opened on a language address (/nl/...): that language wins over the visitor's country.
     const asked = (new URL(request.url).searchParams.get('lang') || '').toLowerCase();
-    if (isUrlLanguage(asked)) v = { country: URL_LANG_COUNTRY[asked], language: asked, known: true };
+    if (isTranslatedLanguage(asked)) v = { country: URL_LANG_COUNTRY[asked], language: asked, known: true };
     // United States (and "unknown") read the original article: nothing to adapt.
     if (v.country === 'US' && v.language === 'en') return none('original');
 

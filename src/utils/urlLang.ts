@@ -1,11 +1,17 @@
 /**
- * Language addresses: /nl/blog, /ja/contact ... show the same page in that language (so each language can be found on Google).
- * English, Portuguese and Spanish keep their normal addresses (their texts are written by hand and switched inside the page).
+ * Language addresses: /nl/blog, /ja/contact, /pt/blog ... show the same page in that language (so each language can be found on Google).
+ * English keeps the normal addresses. Portuguese and Spanish use the hand-written texts; the other languages are translated.
  */
-export const URL_LANGUAGES = [
+export const SITE_URL_LANGUAGES = ['pt', 'es'] as const;
+
+/** Languages whose texts are translated for the visitor (no hand-written version). */
+export const TRANSLATED_URL_LANGUAGES = [
   'de', 'fr', 'it', 'nl', 'ja', 'ko', 'zh', 'ru', 'tr', 'pl', 'ar', 'hi',
   'id', 'th', 'vi', 'sv', 'da', 'no', 'fi', 'el', 'he', 'uk', 'cs', 'ro',
 ] as const;
+
+/** Every language address: Portuguese, Spanish and the translated ones. */
+export const URL_LANGUAGES = [...SITE_URL_LANGUAGES, ...TRANSLATED_URL_LANGUAGES] as const;
 
 /** Country whose everyday references the article adaptation uses for each language address. */
 export const URL_LANG_COUNTRY: Record<string, string> = {
@@ -14,6 +20,8 @@ export const URL_LANG_COUNTRY: Record<string, string> = {
 };
 
 export const isUrlLanguage = (code: string): boolean => (URL_LANGUAGES as readonly string[]).includes(code);
+export const isTranslatedLanguage = (code: string): boolean => (TRANSLATED_URL_LANGUAGES as readonly string[]).includes(code);
+export const isSiteUrlLanguage = (code: string): boolean => (SITE_URL_LANGUAGES as readonly string[]).includes(code);
 
 /** "/nl/blog" -> "nl"; anything else -> "". */
 export function getUrlLang(pathname: string = typeof location !== 'undefined' ? location.pathname : ''): string {

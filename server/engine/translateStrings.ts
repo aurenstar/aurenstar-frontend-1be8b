@@ -36,7 +36,7 @@ export async function translateStrings(
   if ((await countHit(env, await usageKey(env, ['ui-loc-ip', day, ip]), 24 * 3600)) > MAX_NEW_PER_IP_PER_DAY) return { ok: false, reason: 'limit' };
   if ((await countHit(env, await usageKey(env, ['ui-loc-all', day]), 24 * 3600)) > MAX_NEW_PER_DAY) return { ok: false, reason: 'limit' };
 
-  const language = languageName(lang);
+  const language = lang === 'pt' ? 'Brazilian Portuguese' : languageName(lang);
   const prompt = `Translate every string of the JSON array below into ${language}. They are short texts of a friendly astrology website (menus, buttons, titles, short sentences).
 Rules: natural, warm and simple ${language}, as a native speaker would write it on a website; same meaning and same length (buttons stay short). Keep emojis, symbols, numbers, punctuation, line breaks, URLs, hashtags, @mentions, HTML tags and entities exactly. A string may contain numbered markers like <i1>…</i1>, <i2>…</i2>: translate the text inside them, keep every marker with the same number, in the same order, and translate the whole string as ONE natural sentence. Keep the brand names Aurenstar, Aurendaily, Aureneffect and Unfiltered unchanged. Use the usual ${language} names for zodiac signs. Do not add, remove, merge or explain anything. Never mention translation or artificial intelligence. Empty strings stay empty.
 Return ONLY valid JSON: {"texts": [ ...exactly ${strings.length} strings, same order... ]}

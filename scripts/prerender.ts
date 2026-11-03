@@ -191,6 +191,12 @@ fs.writeFileSync(
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls}\n</urlset>\n`
 );
 
+// _routes.json: the only addresses that run Functions (the API and the language addresses); everything else is static.
+fs.writeFileSync(
+  path.join(dist, '_routes.json'),
+  JSON.stringify({ version: 1, include: ['/api/*', ...URL_LANGUAGES.flatMap((l) => [`/${l}`, `/${l}/*`])], exclude: [] }, null, 2) + '\n'
+);
+
 // _redirects: keep the hand-written rules from public/_redirects and add the generated ones
 const redirectsPath = path.join(dist, '_redirects');
 const existing = fs.existsSync(redirectsPath) ? fs.readFileSync(redirectsPath, 'utf8').trimEnd() : '';

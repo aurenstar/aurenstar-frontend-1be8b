@@ -1,4 +1,4 @@
-import { getUrlLang, stripLangPrefix } from '../utils/urlLang';
+import { getUrlLang, stripLangPrefix, isSiteUrlLanguage, withLangPrefix } from '../utils/urlLang';
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 
 export type Language = 'en' | 'pt' | 'es';
@@ -264,9 +264,10 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   // Opened on a language address (/nl/...): that language rules the whole visit.
   const urlLang = getUrlLang();
+  const siteUrlLang = isSiteUrlLanguage(urlLang) ? (urlLang as Language) : null; // /pt or /es: hand-written texts
   const [choice, setChoice] = useState<Language | null>(urlLang ? null : readChoice);
-  const [language, setLang] = useState<Language>(choice || 'en');
-  const [visitorLanguage, setVisitorLanguage] = useState(urlLang);
+  const [language, setLang] = useState<Language>(siteUrlLang || choice || 'en');
+  const [visitorLanguage, setVisitorLanguage] = useState(siteUrlLang ? '' : urlLang);
 
   // First visit: pick the site language that fits the visitor's country (English when unknown). Silent on any failure.
   useEffect(() => {
@@ -292,8 +293,10 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
       // private mode: the choice just lasts for this visit
     }
     if (urlLang) {
-      // Leaving a language address: go to the same page at its normal address.
-      window.location.assign(stripLangPrefix(window.location.pathname) + window.location.search);
+      // On a language address the language is the address: go to the same page in the chosen language.
+      const rest = stripLangPrefix(window.location.pathname);
+      const target = lang === 'en' ? rest : withLangPrefix(rest, lang);
+      if (target !== window.location.pathname) window.location.assign(target + window.location.search + window.location.hash);
       return;
     }
     setChoice(lang);
@@ -303,8 +306,8 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
   const value = {
     language,
     setLanguage,
-    languageChosen: choice !== null,
-    visitorLanguage: urlLang || (choice ? '' : visitorLanguage),
+    languageChosen: choice !== null || siteUrlLang !== null, // /pt, /es: the hand-written article, no country adaptation
+    visitorLanguage: siteUrlLang ? '' : urlLang || (choice ? '' : visitorLanguage),
     t: translations[language],
   };
 
