@@ -269,16 +269,19 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                 ))}
               </div>
             </div>
-            <div className="flex shrink-0 items-center divide-x divide-[#D9E8F8] rounded-2xl bg-[#F4F9FF] py-2.5">
-              {stats.map(({ icon: Icon, value, label }) => (
-                <div key={label} className="flex items-center gap-2 px-3.5 sm:px-4">
-                  <Icon className="h-4 w-4 text-[#647DA5]" />
-                  <div className="leading-tight">
-                    <div className="text-sm font-extrabold text-[#172B4D]">{value}</div>
-                    <div className="text-[10px] font-medium text-[#647DA5]">{label}</div>
+            <div className="grid shrink-0 grid-cols-3 gap-2.5 sm:gap-3">
+              {stats.map(({ icon: Icon, value, label }, i) => {
+                const color = i % 2 === 0 ? '#2878D0' : '#F51B83';
+                return (
+                  <div key={label} className="group flex min-w-[6.5rem] flex-col items-center rounded-2xl border border-[#D9E8F8] bg-white px-3 py-3 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_24px_rgba(23,54,111,0.14)] sm:min-w-[7.5rem] sm:px-4">
+                    <span className="mb-1.5 flex h-9 w-9 items-center justify-center rounded-xl text-white shadow-sm transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110" style={{ background: color }}>
+                      <Icon className="h-[18px] w-[18px]" />
+                    </span>
+                    <span className="text-2xl font-extrabold leading-none text-[#172B4D]">{value}</span>
+                    <span className="mt-1 text-[11px] font-semibold leading-tight text-[#647DA5]">{label}</span>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
 
