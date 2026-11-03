@@ -330,9 +330,9 @@ function varietyBlock(body: any, kind: 'effect' | 'daily'): string {
     : '"mande uma mensagem a alguém", "peça companhia", "escreva por 3 minutos", "respire por 4 segundos", "tem cinco minutos para conversar"';
   return `
 VARIETY (the MOST important rule of the whole site: two readings must NEVER feel the same):
-- Style for THIS reading: ${pick(openings)}. For the feeling of the text, borrow ONE light image from: ${pick(images)} (do not name it as a metaphor; just let it colour a sentence or two).
+- Style for THIS reading: ${pick(openings)}. For the feeling of the text, borrow ONE light image from: ${pick(images)} (use it only if it sounds natural, in at most ONE short phrase; never turn it into an invented event, place or object in the person's day, and never force it).
 - Do NOT use these overused ideas or phrases: ${banned}.
-- Choose unexpected, concrete, specific details of daily life instead of generic ones.${recent.length ? `\n- This person already received the messages below. Do NOT repeat their ideas, structure, opening or tips; say something clearly different:\n${recent.map((r) => `  * "${r}"`).join('\n')}` : ''}
+- Choose concrete, specific details of daily life instead of generic ones, but only realistic ones. Write natural, fluent, native-sounding text with plain punctuation only: no markdown, no asterisks, no bold, no emojis, no odd or invented expressions.${recent.length ? `\n- This person already received the messages below. Do NOT repeat their ideas, structure, opening or tips; say something clearly different:\n${recent.map((r) => `  * "${r}"`).join('\n')}` : ''}
 `;
 }
 
