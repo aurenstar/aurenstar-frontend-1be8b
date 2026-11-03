@@ -3,6 +3,7 @@ import { LanguageProvider } from './context/LanguageContext';
 import { stripLangPrefix } from './utils/urlLang';
 import { SiteLocalizer } from './components/SiteLocalizer';
 import { AdBlockGate } from './components/AdBlockGate';
+import { ConsentBanner } from './components/ConsentBanner';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { BrandMarquee } from './components/BrandMarquee';
@@ -14,6 +15,7 @@ import { BlogPage } from './pages/BlogPage';
 import { ArticlePage } from './pages/ArticlePage';
 import { ContactPage } from './pages/ContactPage';
 import { CreditsPage } from './pages/CreditsPage';
+import { LegalPage } from './pages/LegalPage';
 import { NewsletterPage } from './pages/NewsletterPage';
 import { DailyMessagePage } from './pages/DailyMessagePage';
 import { DailyReadingResultPage } from './pages/DailyReadingResultPage';
@@ -38,6 +40,8 @@ export type AppPageRoute =
   | 'article'
   | 'contact'
   | 'credits'
+  | 'privacy'
+  | 'terms'
   | 'newsletter'
   | 'daily-message'
   | 'daily-reading-result'
@@ -100,6 +104,10 @@ export default function App() {
         setCurrentPage('contact');
       } else if (path === '/credits' || hash === '#/credits') {
         setCurrentPage('credits');
+      } else if (path === '/privacy' || hash === '#/privacy') {
+        setCurrentPage('privacy');
+      } else if (path === '/terms' || hash === '#/terms') {
+        setCurrentPage('terms');
       } else if (path === '/newsletter' || hash === '#/newsletter') {
         setCurrentPage('newsletter');
       } else if (routeMatches('/descreva-me', '/describe-me', '#/descreva-me')) {
@@ -232,6 +240,7 @@ export default function App() {
     <LanguageProvider>
       <SiteLocalizer />
       <AdBlockGate />
+      <ConsentBanner />
       <div className="min-h-screen bg-[#C9E5FF] text-[#172B4D] font-sans selection:bg-[#F51B83] selection:text-[#FFFFFF] flex flex-col justify-between">
         {/* Top Header with Navigation & Language Switcher */}
         <Navbar
@@ -326,6 +335,12 @@ export default function App() {
               onBackToHome={() => handleNavigate('home')}
               onNavigateToBlog={() => handleNavigate('blog')}
             />
+          </main>
+        )}
+
+        {(currentPage === 'privacy' || currentPage === 'terms') && (
+          <main className="flex-1">
+            <LegalPage kind={currentPage} onBackToHome={() => handleNavigate('home')} />
           </main>
         )}
 

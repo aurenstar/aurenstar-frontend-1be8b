@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
 await new Promise((r) => server.listen(0, r));
 const base = `http://localhost:${server.address().port}`;
 
-const PAGES = ['/', '/blog', '/discover-sign', '/descreva-me', '/aureneffect', '/daily-message', '/newsletter', '/contact', '/credits', '/about', '/dicionario', '/pt', '/es', '/nl', '/ja'];
+const PAGES = ['/', '/blog', '/discover-sign', '/descreva-me', '/aureneffect', '/daily-message', '/newsletter', '/contact', '/credits', '/privacy', '/terms', '/about', '/dicionario', '/pt', '/es', '/nl', '/ja'];
 const failures = [];
 const fail = (msg) => { failures.push(msg); console.log('  FAIL', msg); };
 
@@ -95,6 +95,26 @@ for (const blocked of [false, true]) {
   const shown = (await page.locator('[data-testid="adblock-gate"]').count()) > 0;
   if (shown !== blocked) fail(`aviso de bloqueador de anúncios: esperado ${blocked ? 'visível' : 'oculto'}, ficou ${shown ? 'visível' : 'oculto'}`);
   else console.log(`ok adblock ${blocked ? 'detectado' : 'sem bloqueador'}`);
+  await ctx.close();
+}
+
+// Cookie banner: shown the first time, gone after a choice, back from the footer link.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const page = await ctx.newPage();
+  await page.addInitScript(() => Object.defineProperty(navigator, 'webdriver', { get: () => false }));
+  await page.route('**/api/**', (r) => r.fulfill({ status: 503, body: '{}' }));
+  await page.goto(base + '/', { waitUntil: 'load' });
+  await page.waitForTimeout(800);
+  const banner = page.locator('[data-testid="consent-banner"]');
+  if ((await banner.count()) !== 1) fail('aviso de cookies não apareceu na primeira visita');
+  await banner.getByRole('button').first().click();
+  await page.waitForTimeout(300);
+  if ((await banner.count()) !== 0) fail('aviso de cookies não sumiu depois da escolha');
+  await page.getByRole('button', { name: /cookie settings/i }).first().click();
+  await page.waitForTimeout(300);
+  if ((await banner.count()) !== 1) fail('link "Cookie settings" não reabriu o aviso');
+  else console.log('ok cookies: aviso, escolha e reabrir');
   await ctx.close();
 }
 

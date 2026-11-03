@@ -8,6 +8,8 @@
  * a page_view is sent manually on every route change (automatic page views are disabled
  * to avoid counting the first page twice).
  */
+import { getConsent, CONSENT_EVENT } from './consent';
+
 type GtagWindow = Window & { dataLayer?: unknown[]; gtag?: (...args: unknown[]) => void };
 
 const MEASUREMENT_ID = (import.meta.env.VITE_GA_MEASUREMENT_ID as string | undefined)?.trim();
@@ -17,6 +19,7 @@ let lastTrackedPath = '';
 
 function init(): boolean {
   if (!MEASUREMENT_ID || typeof window === 'undefined') return false;
+  if (getConsent() !== 'all') return false; // nothing is measured until the visitor says yes
   if (initialized) return true;
   const w = window as GtagWindow;
   w.dataLayer = w.dataLayer || [];
@@ -60,4 +63,11 @@ export function trackEvent(name: string, params?: Record<string, unknown>) {
   } catch {
     // ignore
   }
+}
+
+// When the visitor accepts after the page has loaded, count the page they are on right now.
+if (typeof window !== 'undefined') {
+  window.addEventListener(CONSENT_EVENT, (e) => {
+    if ((e as CustomEvent).detail === 'all') trackPageView();
+  });
 }

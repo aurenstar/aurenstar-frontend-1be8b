@@ -19,6 +19,8 @@ export type SeoPage =
   | 'article'
   | 'contact'
   | 'credits'
+  | 'privacy'
+  | 'terms'
   | 'newsletter'
   | 'daily-message'
   | 'daily-reading-result'
@@ -114,6 +116,8 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
     description: 'The scientific tools and open data behind Aurenstar: Swiss Ephemeris, IANA Time Zone Database and GeoNames.',
     path: '/credits',
   },
+  privacy: { title: 'Privacy Policy | Aurenstar', description: 'How Aurenstar handles your data, cookies and privacy choices.', path: '/privacy' },
+  terms: { title: 'Terms of Service | Aurenstar', description: 'The simple rules for using Aurenstar astrology tools and content.', path: '/terms' },
   newsletter: {
     title: 'Aurenstar Astrology Newsletter',
     description: 'Receive thoughtful astrology guidance and new Aurenstar articles.',
@@ -188,6 +192,8 @@ export const STATIC_ROUTES: SeoPage[] = [
   'blog',
   'contact',
   'credits',
+  'privacy',
+  'terms',
   'newsletter',
   'daily-message',
   'daily-reading-result',

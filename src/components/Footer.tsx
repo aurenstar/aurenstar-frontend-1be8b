@@ -4,6 +4,7 @@ import { AurenstarLogo } from './AurenstarLogo';
 import { emailMessage } from '../utils/emailGuard';
 import { SOCIAL_LINKS } from '../data/socialLinks';
 import { SocialIcon } from './SocialIcon';
+import { reopenConsent } from '../utils/consent';
 
 interface FooterProps {
   onNavigate?: (
@@ -12,6 +13,8 @@ interface FooterProps {
       | 'blog'
       | 'contact'
       | 'credits'
+      | 'privacy'
+      | 'terms'
       | 'newsletter'
       | 'daily-message'
       | 'aureneffect'
@@ -127,14 +130,19 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </h3>
             <ul className="space-y-3 text-sm text-[#647DA5]">
               <li>
-                <a href="#terms" onClick={(e) => e.preventDefault()} className="hover:text-[#2878D0] transition-colors cursor-pointer">
+                <a href="/terms" onClick={(e) => { e.preventDefault(); onNavigate?.('terms'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#2878D0] transition-colors cursor-pointer">
                   {t.footer.termsOfService}
                 </a>
               </li>
               <li>
-                <a href="#privacy" onClick={(e) => e.preventDefault()} className="hover:text-[#2878D0] transition-colors cursor-pointer">
+                <a href="/privacy" onClick={(e) => { e.preventDefault(); onNavigate?.('privacy'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#2878D0] transition-colors cursor-pointer">
                   {t.footer.privacyPolicy}
                 </a>
+              </li>
+              <li>
+                <button type="button" onClick={reopenConsent} className="hover:text-[#2878D0] transition-colors cursor-pointer text-left">
+                  {language === 'pt' ? 'Configurar cookies' : language === 'es' ? 'Configurar cookies' : 'Cookie settings'}
+                </button>
               </li>
               <li>
                 <a
