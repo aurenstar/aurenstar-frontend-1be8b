@@ -420,7 +420,7 @@ Return ONLY a valid JSON object:
               messages: [{ role: 'user', content: prompt }],
             }),
           });
-          if (!res.ok) throw new Error(`OpenAI error ${res.status}`);
+          if (!res.ok) { const eb: any = await res.json().catch(() => ({})); throw new Error(`OpenAI error ${res.status}: ${eb?.error?.code || ''} ${String(eb?.error?.message || '').slice(0, 140)}`); }
           const json: any = await res.json();
           text = json?.choices?.[0]?.message?.content?.trim() || '{}';
         } finally {
@@ -442,7 +442,7 @@ Return ONLY a valid JSON object:
     } catch (aiError) {
       // The AI is optional: if it is slow, out of credit or down, the ready-made reading is shown.
       console.error('AI unavailable for Aureneffect, using the ready-made reading', aiError);
-      return ({ success: true, data: fallbackResult });
+      return ({ success: true, data: { ...fallbackResult, aiDebug: String((aiError as any)?.message || aiError).replace(/sk-[A-Za-z0-9_-]+/g, '***') } as any });
     }
 
     let parsedData: any = {};
