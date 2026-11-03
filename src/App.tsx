@@ -16,6 +16,8 @@ import { ArticlePage } from './pages/ArticlePage';
 import { ContactPage } from './pages/ContactPage';
 import { CreditsPage } from './pages/CreditsPage';
 import { LegalPage } from './pages/LegalPage';
+import { CompatibilityPage } from './pages/CompatibilityPage';
+import { TransitsPage } from './pages/TransitsPage';
 import { NewsletterPage } from './pages/NewsletterPage';
 import { DailyMessagePage } from './pages/DailyMessagePage';
 import { DailyReadingResultPage } from './pages/DailyReadingResultPage';
@@ -42,6 +44,8 @@ export type AppPageRoute =
   | 'credits'
   | 'privacy'
   | 'terms'
+  | 'compatibility'
+  | 'transits'
   | 'newsletter'
   | 'daily-message'
   | 'daily-reading-result'
@@ -104,6 +108,10 @@ export default function App() {
         setCurrentPage('contact');
       } else if (path === '/credits' || hash === '#/credits') {
         setCurrentPage('credits');
+      } else if (path === '/compatibility' || hash === '#/compatibility') {
+        setCurrentPage('compatibility');
+      } else if (path === '/transits' || hash === '#/transits') {
+        setCurrentPage('transits');
       } else if (path === '/privacy' || hash === '#/privacy') {
         setCurrentPage('privacy');
       } else if (path === '/terms' || hash === '#/terms') {
@@ -335,6 +343,18 @@ export default function App() {
               onBackToHome={() => handleNavigate('home')}
               onNavigateToBlog={() => handleNavigate('blog')}
             />
+          </main>
+        )}
+
+        {currentPage === 'compatibility' && (
+          <main className="flex-1">
+            <CompatibilityPage onBackToHome={() => handleNavigate('home')} onNavigateToBlog={() => handleNavigate('blog')} />
+          </main>
+        )}
+
+        {currentPage === 'transits' && (
+          <main className="flex-1">
+            <TransitsPage onBackToHome={() => handleNavigate('home')} onNavigateToBlog={() => handleNavigate('blog')} />
           </main>
         )}
 

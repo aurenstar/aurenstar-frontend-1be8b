@@ -15,6 +15,8 @@ interface FooterProps {
       | 'credits'
       | 'privacy'
       | 'terms'
+      | 'compatibility'
+      | 'transits'
       | 'newsletter'
       | 'daily-message'
       | 'aureneffect'
@@ -213,6 +215,16 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
                   {t.footer.discoverYourSign}
+                </a>
+              </li>
+              <li>
+                <a href="/compatibility" onClick={(e) => { e.preventDefault(); onNavigate?.('compatibility'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#2878D0] transition-colors cursor-pointer">
+                  {language === 'pt' ? 'Compatibilidade' : language === 'es' ? 'Compatibilidad' : 'Compatibility'}
+                </a>
+              </li>
+              <li>
+                <a href="/transits" onClick={(e) => { e.preventDefault(); onNavigate?.('transits'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#2878D0] transition-colors cursor-pointer">
+                  {language === 'pt' ? 'Seu Céu de Hoje' : language === 'es' ? 'Tu Cielo de Hoy' : 'Your Sky Today'}
                 </a>
               </li>
               <li>

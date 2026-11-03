@@ -21,6 +21,8 @@ export type SeoPage =
   | 'credits'
   | 'privacy'
   | 'terms'
+  | 'compatibility'
+  | 'transits'
   | 'newsletter'
   | 'daily-message'
   | 'daily-reading-result'
@@ -116,6 +118,16 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
     description: 'The scientific tools and open data behind Aurenstar: Swiss Ephemeris, IANA Time Zone Database and GeoNames.',
     path: '/credits',
   },
+  compatibility: {
+    title: 'Zodiac Compatibility Calculator | Aurenstar',
+    description: 'Enter two birth dates and see how well two people match in love, talking, feelings and energy, in simple words.',
+    path: '/compatibility',
+  },
+  transits: {
+    title: 'Your Sky Today: Daily Transits | Aurenstar',
+    description: 'See how today’s planets touch your birth chart, and which planets are moving backward, explained in simple words.',
+    path: '/transits',
+  },
   privacy: { title: 'Privacy Policy | Aurenstar', description: 'How Aurenstar handles your data, cookies and privacy choices.', path: '/privacy' },
   terms: { title: 'Terms of Service | Aurenstar', description: 'The simple rules for using Aurenstar astrology tools and content.', path: '/terms' },
   newsletter: {
@@ -194,6 +206,8 @@ export const STATIC_ROUTES: SeoPage[] = [
   'credits',
   'privacy',
   'terms',
+  'compatibility',
+  'transits',
   'newsletter',
   'daily-message',
   'daily-reading-result',
