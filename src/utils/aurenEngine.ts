@@ -339,7 +339,7 @@ const ROUTINE_TRIGGERS: Record<ReadingLang, Record<string, TriggerText>> = {
   },
   pt: {
     Fogo: {
-      cause: 'Você pode estar cheio de energia e com pressa para resolver tudo.',
+      cause: 'Você pode estar com muita energia e com pressa para resolver tudo.',
       trigger: 'Tudo ao redor pode parecer devagar demais, e esperar pode ser difícil hoje.',
       action1: { title: 'Escolha só uma coisa para terminar', desc: 'Pegue a tarefa mais importante e termine antes do almoço. O resto pode esperar.' },
       action2: { title: 'Mexa o corpo um pouquinho', desc: 'Faça uma caminhada ou um alongamento de 10 minutos. Ajuda a soltar a pressa.' },
@@ -373,7 +373,7 @@ const ROUTINE_TRIGGERS: Record<ReadingLang, Record<string, TriggerText>> = {
       trigger: 'Conversas pesadas ou o corpo cansado podem fazer você carregar os problemas dos outros.',
       action1: { title: 'Guarde um espacinho para você', desc: 'Lembre-se: o que é do outro é dele. Cuide da sua paz.' },
       action2: { title: 'Tome um banho morno', desc: 'Água morna e roupa confortável ajudam a relaxar e se sentir melhor.' },
-      action3: { title: 'Diga um “não” carinhoso se estiver cansado', desc: 'Descansar não é egoísmo. É cuidar de você.' },
+      action3: { title: 'Diga um “não” carinhoso se sentir cansaço', desc: 'Descansar não é egoísmo. É cuidar de você.' },
       vibe: 'Um coração sensível que pede carinho',
       advice: 'Você é generoso com os outros. Seja igualmente gentil com você hoje.',
       baseEnergy: 84,
@@ -381,7 +381,7 @@ const ROUTINE_TRIGGERS: Record<ReadingLang, Record<string, TriggerText>> = {
   },
   es: {
     Fogo: {
-      cause: 'Puedes sentirte lleno de energía y con prisa por resolverlo todo.',
+      cause: 'Puedes sentirte con mucha energía y con prisa por resolverlo todo.',
       trigger: 'Todo a tu alrededor puede parecer demasiado lento, y esperar puede costar hoy.',
       action1: { title: 'Elige solo una cosa para terminar', desc: 'Toma la tarea más importante y termínala antes del almuerzo. Lo demás puede esperar.' },
       action2: { title: 'Mueve un poquito el cuerpo', desc: 'Camina o estírate 10 minutos. Ayuda a soltar la prisa.' },
@@ -415,7 +415,7 @@ const ROUTINE_TRIGGERS: Record<ReadingLang, Record<string, TriggerText>> = {
       trigger: 'Las conversaciones pesadas o el cuerpo cansado pueden hacer que cargues los problemas de otros.',
       action1: { title: 'Guarda un espacio para ti', desc: 'Recuerda: lo que es de los demás es de ellos. Cuida tu paz.' },
       action2: { title: 'Date una ducha tibia', desc: 'El agua tibia y la ropa cómoda ayudan a relajarte y sentirte mejor.' },
-      action3: { title: 'Di un “no” amable si estás cansado', desc: 'Descansar no es egoísmo. Es cuidarte.' },
+      action3: { title: 'Di un “no” amable si sientes cansancio', desc: 'Descansar no es egoísmo. Es cuidarte.' },
       vibe: 'Un corazón sensible que pide cariño',
       advice: 'Eres generoso con los demás. Sé igual de amable contigo hoy.',
       baseEnergy: 84,
@@ -465,56 +465,30 @@ export function queryAurenstarEngine(triad: AstronomicalTriad, lang: ReadingLang
 }
 
 
-// Who the person is, in everyday words (chosen from the birth sign's element). No sign or planet names.
-const PERSON_TRAITS: Record<ReadingLang, Record<string, string>> = {
-  en: {
-    Fogo: 'You are a person full of courage and drive, who likes to get things moving.',
-    Terra: 'You are a person who values calm, honesty and things done right.',
-    Ar: 'You are a curious person who loves to talk, learn and have new ideas.',
-    Água: 'You are a caring person who feels things deeply and looks after the people you love.',
-  },
-  pt: {
-    Fogo: 'Você é uma pessoa cheia de coragem e iniciativa, que gosta de fazer as coisas acontecerem.',
-    Terra: 'Você é uma pessoa que valoriza a calma, a sinceridade e as coisas bem feitas.',
-    Ar: 'Você é uma pessoa curiosa, que adora conversar, aprender e ter ideias novas.',
-    Água: 'Você é uma pessoa carinhosa, que sente tudo com profundidade e cuida de quem ama.',
-  },
-  es: {
-    Fogo: 'Eres una persona llena de valentía e iniciativa, a quien le gusta hacer que las cosas pasen.',
-    Terra: 'Eres una persona que valora la calma, la sinceridad y las cosas bien hechas.',
-    Ar: 'Eres una persona curiosa, que ama conversar, aprender y tener ideas nuevas.',
-    Água: 'Eres una persona cariñosa, que siente todo con profundidad y cuida de quienes ama.',
-  },
-};
-
-export function traitFor(element: string, lang: ReadingLang): string {
-  return (PERSON_TRAITS[lang] || PERSON_TRAITS.en)[element] || '';
-}
-
 const READING_COPY: Record<ReadingLang, {
   fallbackName: string;
-  intro: (name: string, trait: string) => string;
+  intro: (name: string) => string;
   q2: string;
   affirmation: string;
   note: string;
 }> = {
   en: {
     fallbackName: 'Friend',
-    intro: (n, trait) => `Hi ${n}! ${trait} Today, you may feel like this:`,
+    intro: (n) => `${n},`,
     q2: 'Here are 3 easy things you can do today. Each one takes only a few minutes:',
     affirmation: 'Today I choose calm over rush, I take care of my routine and I trust my own pace.',
     note: 'This reading is a gentle idea from Aurenstar, based on the sky on your birthday and today. It is here to help you reflect, not to predict anything.',
   },
   pt: {
     fallbackName: 'Amigo(a)',
-    intro: (n, trait) => `Oi, ${n}! ${trait} Hoje, você pode se sentir assim:`,
+    intro: (n) => `${n},`,
     q2: 'Aqui vão 3 coisas fáceis para fazer hoje. Cada uma leva só alguns minutinhos:',
     affirmation: 'Hoje eu escolho a calma no lugar da pressa, cuido da minha rotina e confio no meu ritmo.',
     note: 'Esta leitura é uma ideia gentil da Aurenstar, baseada no céu do dia em que você nasceu e no de hoje. Ela serve para você refletir, não para prever nada.',
   },
   es: {
     fallbackName: 'Amigo(a)',
-    intro: (n, trait) => `¡Hola, ${n}! ${trait} Hoy puedes sentirte así:`,
+    intro: (n) => `${n},`,
     q2: 'Aquí tienes 3 cosas fáciles para hacer hoy. Cada una toma solo unos minutos:',
     affirmation: 'Hoy elijo la calma en lugar de la prisa, cuido mi rutina y confío en mi ritmo.',
     note: 'Esta lectura es una idea amable de Aurenstar, basada en el cielo del día en que naciste y el de hoy. Sirve para reflexionar, no para predecir nada.',
@@ -534,9 +508,9 @@ export function generateLocalAurenEffectReading(
   lang: ReadingLang = 'en'
 ): AurenEffectResult {
   const copy = READING_COPY[lang] || READING_COPY.en;
-  const name = userName?.trim() || copy.fallbackName;
+  const name = (userName?.trim().split(/\s+/)[0]) || copy.fallbackName;
 
-  const question1Answer = `${copy.intro(name, (PERSON_TRAITS[lang] || PERSON_TRAITS.en)[triad.sun.element] || '')} ${trigger.primaryCause} ${trigger.hiddenTrigger}`;
+  const question1Answer = `${copy.intro(name)} ${trigger.primaryCause.charAt(0).toLowerCase()}${trigger.primaryCause.slice(1)} ${trigger.hiddenTrigger}`;
 
   const practicalSteps = trigger.practicalActions.map((a, i) => ({
     stepNumber: i + 1,

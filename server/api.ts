@@ -13,7 +13,6 @@ import {
   type AstronomicalTriad,
   queryAurenstarEngine,
   generateLocalAurenEffectReading,
-  traitFor,
   type ReadingLang,
   REFERENCE_CITIES,
 } from '../src/utils/aurenEngine';
@@ -303,7 +302,7 @@ export async function handleAurenEffect(body: any, apiKey?: string, precise?: Pr
   try {
     const { name, birthDate, birthTime, birthCity } = body || {};
     const lang: ReadingLang = ['pt', 'en', 'es'].includes(body?.lang) ? body.lang : 'en';
-    const userName = (name || 'Andriel').trim();
+    const userName = String(name || 'Andriel').trim().split(/\s+/)[0];
     const cityKey = (birthCity || 'sao-paulo').toLowerCase().replace(/\s+/g, '-');
 
     // Parse date (YYYY-MM-DD)
@@ -361,9 +360,8 @@ export async function handleAurenEffect(body: any, apiKey?: string, precise?: Pr
     const prompt = `You write the daily "Aureneffect" message for Aurenstar, a friendly astrology site.
 Write EVERYTHING in ${languageName}.
 
-ABOUT THE PERSON:
-- Name: "${userName}"
-- Their nature in everyday words: "${traitFor(triad.sun.element, lang)}"
+THE PERSON:
+- First name: "${userName}" (use only this first name)
 
 IDEAS TO USE (already in simple words):
 - What the person may feel today: "${trigger.primaryCause}"
@@ -373,7 +371,7 @@ IDEAS TO USE (already in simple words):
 - Easy action 3: "${trigger.practicalActions[2].title}: ${trigger.practicalActions[2].description}"
 
 HOW TO WRITE (very important):
-1. Talk like a kind friend. Use short sentences and everyday words a 12-year-old understands.
+1. Start the message with the person's first name. Describe ONLY what they may be feeling right now today. NEVER describe who they are or their personality (no "you are a ... person"). Talk like a kind friend. Use short sentences and everyday words a 12-year-old understands.
 2. NEVER mention planets, the Moon, the Sun, zodiac signs, houses, elements or any astrology word. Never say things like "the Moon is in Leo". The reader must NOT see any astrology term, only plain feelings and daily life.
 3. Talk about real daily life: work, phone, family, rest, mood. Give no predictions and no orders; offer gentle ideas.
 4. Be warm and positive. Never scare the person.
