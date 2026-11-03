@@ -134,7 +134,9 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
     },
   };
 
+  // When the AI wrote the reading, its own theme matches the message; otherwise use the ready-made title.
   const curiousTitle =
+    (savedReading.shareText && savedReading.signTheme) ||
     INTRIGUING_TITLES[savedReading.signKey || 'gemeos']?.[lang] ||
     INTRIGUING_TITLES.gemeos.pt;
 
