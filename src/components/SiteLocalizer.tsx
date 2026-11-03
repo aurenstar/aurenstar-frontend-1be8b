@@ -7,7 +7,7 @@ import { useLanguage } from '../context/LanguageContext';
  * /api/translate-ui, saved for everyone, and swapped in place. Nothing changes for English / Portuguese / Spanish
  * visitors, nor for anyone who picked a language by hand, and search engines keep reading the English page.
  */
-const SKIP = 'script,style,noscript,textarea,input,code,pre,svg,[data-no-translate],[data-seg],[contenteditable="true"]';
+const SKIP = 'script,style,noscript,textarea,input,code,pre,svg,[data-no-translate],[data-loc],[contenteditable="true"]';
 const RTL = new Set(['ar', 'he', 'fa', 'ur', 'dv']);
 const MAX_PER_REQUEST = 100;
 const MAX_CHARS_PER_REQUEST = 6000;
@@ -49,24 +49,92 @@ export const SiteLocalizer: React.FC = () => {
     let again = false;
     let timer: number | undefined;
     let slow: number | undefined;
+    let titleWritten = '';
+    const titleOriginals: string[] = [];
 
     document.documentElement.lang = lang;
     document.documentElement.dir = RTL.has(lang) ? 'rtl' : 'ltr';
 
     const hasLetters = (s: string) => /\p{L}/u.test(s);
 
+    const INLINE = new Set(['SPAN', 'STRONG', 'EM', 'B', 'I', 'A', 'MARK', 'SMALL', 'U', 'SUB', 'SUP', 'LABEL']);
+    const noGroup = new WeakSet<Element>(); // blocks whose joined translation did not fit: translated piece by piece instead
+    type Item = { kind: 'T' | 'E'; node: Text };
+    const orig = (t: Text) => (written.get(t) === t.nodeValue ? originals.get(t) || '' : t.nodeValue || '');
+    const lead = (v: string) => v.slice(0, v.length - v.trimStart().length);
+    const trail = (v: string) => v.slice(v.trimEnd().length);
+
+    /** A sentence made of text + small inline pieces (<span>, <strong>...) is translated as ONE sentence. */
+    function blockItems(P: Element): Item[] | null {
+      if (noGroup.has(P) || INLINE.has(P.tagName) === false && P.closest(SKIP)) return null;
+      const items: Item[] = [];
+      for (const c of Array.from(P.childNodes)) {
+        if (c.nodeType === 3) {
+          if (hasLetters(c.nodeValue || '') || written.has(c as Text)) items.push({ kind: 'T', node: c as Text });
+        } else if (c.nodeType === 1) {
+          const el = c as Element;
+          if (el.tagName === 'BR') continue;
+          if (!INLINE.has(el.tagName) || el.closest(SKIP)) return null;
+          const kids = Array.from(el.childNodes);
+          if (!kids.length) continue;
+          if (kids.length !== 1 || kids[0].nodeType !== 3) return null;
+          const t = kids[0] as Text;
+          if (hasLetters(orig(t)) ) items.push({ kind: 'E', node: t });
+        }
+      }
+      return items.length >= 2 && items.some((i) => i.kind === 'E') ? items : null;
+    }
+    const groupString = (items: Item[]) => {
+      let k = 0;
+      return items.map((i) => (i.kind === 'T' ? orig(i.node) : `<i${++k}>${orig(i.node).trim()}</i${k}>`)).join('');
+    };
+    function parseGroup(out: string, items: Item[]): string[] | null {
+      const kinds: string[] = [];
+      const texts: string[] = [];
+      const re = /<i(\d+)>([\s\S]*?)<\/i\1>/g;
+      let pos = 0;
+      let expect = 1;
+      let m: RegExpExecArray | null;
+      while ((m = re.exec(out))) {
+        const before = out.slice(pos, m.index);
+        if (before.trim()) { kinds.push('T'); texts.push(before); }
+        if (Number(m[1]) !== expect++) return null;
+        kinds.push('E'); texts.push(m[2]);
+        pos = m.index + m[0].length;
+      }
+      const after = out.slice(pos);
+      if (after.trim()) { kinds.push('T'); texts.push(after); }
+      const wanted = items.filter((i) => hasLetters(orig(i.node)) || i.kind === 'E').map((i) => i.kind);
+      return kinds.join() === wanted.join() ? texts : null;
+    }
+
     function collect() {
-      const textNodes: Text[] = [];
+      const loose: Text[] = [];
+      const groups = new Map<Element, Item[]>();
+      const seenBlocks = new Set<Element>();
       const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
       let n: Node | null;
       while ((n = walker.nextNode())) {
         const t = n as Text;
         const v = t.nodeValue || '';
-        if (written.get(t) === v) continue; // already ours
-        if (!hasLetters(v)) continue;
+        if (written.get(t) === v) {
+          // already ours; if a sibling changed we still look at the block below
+        } else if (!hasLetters(v)) continue;
         const parent = t.parentElement;
         if (!parent || parent.closest(SKIP)) continue;
-        textNodes.push(t);
+        const candidates = [parent, INLINE.has(parent.tagName) ? parent.parentElement : null].filter(Boolean) as Element[];
+        let handled = false;
+        for (const P of candidates) {
+          if (seenBlocks.has(P)) { handled = true; break; }
+          const items = blockItems(P);
+          if (items && items.some((i) => i.node === t)) {
+            seenBlocks.add(P);
+            if (items.some((i) => written.get(i.node) !== i.node.nodeValue)) groups.set(P, items);
+            handled = true;
+            break;
+          }
+        }
+        if (!handled && written.get(t) !== v) loose.push(t);
       }
       const attrNodes: { el: Element; attr: string; value: string }[] = [];
       document.body.querySelectorAll('[placeholder],[aria-label]').forEach((el) => {
@@ -76,7 +144,7 @@ export const SiteLocalizer: React.FC = () => {
           if (value && hasLetters(value) && attrOriginals.get(el)?.[attr] === undefined) attrNodes.push({ el, attr, value });
         }
       });
-      return { textNodes, attrNodes };
+      return { loose, groups, attrNodes };
     }
 
     async function translateBatch(strings: string[]) {
@@ -100,6 +168,14 @@ export const SiteLocalizer: React.FC = () => {
       return false;
     }
 
+    const setText = (t: Text, out: string) => {
+      const v = orig(t);
+      const next = lead(v) + out.trim() + trail(v);
+      if (!originals.has(t) || written.get(t) !== t.nodeValue) originals.set(t, v);
+      written.set(t, next);
+      t.nodeValue = next;
+    };
+
     async function run() {
       if (running) {
         again = true;
@@ -109,10 +185,13 @@ export const SiteLocalizer: React.FC = () => {
       try {
         do {
           again = false;
-          const { textNodes, attrNodes } = collect();
+          const { loose, groups, attrNodes } = collect();
           const wanted = new Set<string>();
-          textNodes.forEach((t) => wanted.add((t.nodeValue || '').trim()));
+          loose.forEach((t) => wanted.add((t.nodeValue || '').trim()));
+          groups.forEach((items) => wanted.add(groupString(items)));
           attrNodes.forEach((a) => wanted.add(a.value.trim()));
+          const titleOriginal = document.title && document.title !== titleWritten ? document.title : '';
+          if (titleOriginal && hasLetters(titleOriginal)) wanted.add(titleOriginal);
           const missing = [...wanted].filter((s) => s && !cache[s] && !failed.has(s));
 
           if (missing.length) {
@@ -139,17 +218,21 @@ export const SiteLocalizer: React.FC = () => {
           }
           if (stopped) return;
 
-          textNodes.forEach((t) => {
-            const v = t.nodeValue || '';
-            const core = v.trim();
-            const out = cache[core];
-            if (!out || !t.isConnected) return;
-            const lead = v.slice(0, v.indexOf(core));
-            const trail = v.slice(v.indexOf(core) + core.length);
-            const next = lead + out + trail;
-            originals.set(t, v);
-            written.set(t, next);
-            t.nodeValue = next;
+          loose.forEach((t) => {
+            const out = cache[(t.nodeValue || '').trim()];
+            if (out && t.isConnected) setText(t, out);
+          });
+          groups.forEach((items, P) => {
+            const out = cache[groupString(items)];
+            if (!out) return;
+            const parts = parseGroup(out, items);
+            const nodes = items.filter((i) => hasLetters(orig(i.node)) || i.kind === 'E');
+            if (!parts || parts.length !== nodes.length) {
+              noGroup.add(P); // translate this block piece by piece on the next round
+              again = true;
+              return;
+            }
+            nodes.forEach((i, k) => i.node.isConnected && setText(i.node, parts[k]));
           });
           attrNodes.forEach(({ el, attr, value }) => {
             const out = cache[value.trim()];
@@ -157,6 +240,11 @@ export const SiteLocalizer: React.FC = () => {
             attrOriginals.set(el, { ...(attrOriginals.get(el) || {}), [attr]: value });
             el.setAttribute(attr, out);
           });
+          if (titleOriginal && cache[titleOriginal]) {
+            titleOriginals.push(titleOriginal);
+            titleWritten = cache[titleOriginal];
+            document.title = titleWritten;
+          }
         } while (again && !stopped);
       } finally {
         running = false;
@@ -169,6 +257,8 @@ export const SiteLocalizer: React.FC = () => {
     };
     const observer = new MutationObserver(schedule);
     observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+    const titleEl = document.querySelector('title');
+    if (titleEl) observer.observe(titleEl, { childList: true, characterData: true, subtree: true });
     schedule();
 
     return () => {
@@ -184,6 +274,7 @@ export const SiteLocalizer: React.FC = () => {
       attrOriginals.forEach((attrs, el) => {
         Object.entries(attrs).forEach(([a, v]) => el.setAttribute(a, v));
       });
+      if (titleWritten && document.title === titleWritten && titleOriginals.length) document.title = titleOriginals[titleOriginals.length - 1];
       document.documentElement.lang = prevLang || 'en';
       document.documentElement.dir = prevDir || '';
     };

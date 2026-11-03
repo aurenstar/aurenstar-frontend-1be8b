@@ -1,3 +1,4 @@
+import { translateUi } from '../utils/uiTranslate';
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { ScrollReveal } from './ScrollReveal';
@@ -45,8 +46,28 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
   onNavigateToDiscoverSign,
   onNavigateToDescribeMe,
 }) => {
-  const { t, language } = useLanguage();
-  const phrases = HERO_PHRASES[language] || HERO_PHRASES.pt;
+  const { t, language, visitorLanguage } = useLanguage();
+
+  // Visitors from a country the menus are not written for: the typed phrases are translated whole (never letter by letter).
+  const [localPhrases, setLocalPhrases] = useState<TypewriterPhrase[] | null>(null);
+  useEffect(() => {
+    setLocalPhrases(null);
+    if (!visitorLanguage) return;
+    let cancelled = false;
+    const source = HERO_PHRASES.en;
+    translateUi(visitorLanguage, source.map((p) => `<i1>${p.prefix.trim()}</i1><i2>${p.highlight}</i2>`)).then((out) => {
+      if (cancelled || !out) return;
+      const parsed = out.map((o) => {
+        const m = /<i1>([\s\S]*?)<\/i1>\s*<i2>([\s\S]*?)<\/i2>/.exec(o);
+        return m ? { prefix: m[1].trim() + ' ', highlight: m[2].trim() } : null;
+      });
+      if (parsed.every(Boolean)) setLocalPhrases(parsed as TypewriterPhrase[]);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [visitorLanguage]);
+  const phrases = localPhrases || HERO_PHRASES[language] || HERO_PHRASES.pt;
 
   const [phraseIndex, setPhraseIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
@@ -113,6 +134,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <ScrollReveal delay={0} distance={20} duration={800}>
           <h1
+            data-no-translate
             aria-label={`${currentPhrase.prefix}${currentPhrase.highlight}`}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight max-w-4xl mx-auto leading-[1.12] text-[#172B4D] min-h-[96px] sm:min-h-[125px] md:min-h-[150px] flex items-center justify-center"
           >

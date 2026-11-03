@@ -9,8 +9,8 @@ const CACHE_VERSION = 'v1';
 const CACHE_SECONDS = 365 * 24 * 3600;
 const MAX_STRINGS = 120;
 const MAX_CHARS_EACH = 400;
-const MAX_NEW_PER_IP_PER_DAY = 60;
-const MAX_NEW_PER_DAY = 2000;
+const MAX_NEW_PER_IP_PER_DAY = 200;
+const MAX_NEW_PER_DAY = 20000;
 
 interface Context {
   request: Request;
@@ -48,7 +48,7 @@ export const onRequestPost = async ({ request, env }: Context): Promise<Response
 
     const lang = languageName(v.language);
     const prompt = `Translate every string of the JSON array below into ${lang}. They are short texts of a friendly astrology website (menus, buttons, titles, short sentences).
-Rules: natural, warm and simple ${lang}, as a native speaker would write it on a website; same meaning and same length (buttons stay short). Keep emojis, symbols, numbers, punctuation, line breaks, HTML tags and entities exactly. Keep the brand names Aurenstar, Aurendaily, Aureneffect and Unfiltered unchanged. Use the usual ${lang} names for zodiac signs. Do not add, remove, merge or explain anything. Never mention translation or artificial intelligence. Empty strings stay empty.
+Rules: natural, warm and simple ${lang}, as a native speaker would write it on a website; same meaning and same length (buttons stay short). Keep emojis, symbols, numbers, punctuation, line breaks, HTML tags and entities exactly. A string may contain numbered markers like <i1>…</i1>, <i2>…</i2>: translate the text inside them, keep every marker with the same number, in the same order, and translate the whole string as ONE natural sentence. Keep the brand names Aurenstar, Aurendaily, Aureneffect and Unfiltered unchanged. Use the usual ${lang} names for zodiac signs. Do not add, remove, merge or explain anything. Never mention translation or artificial intelligence. Empty strings stay empty.
 Return ONLY valid JSON: {"texts": [ ...exactly ${strings.length} strings, same order... ]}
 
 ${JSON.stringify(strings)}`;

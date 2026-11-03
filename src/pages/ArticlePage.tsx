@@ -40,7 +40,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
   onNavigateToAurenEffect,
   onNavigateToDiscoverSign,
 }) => {
-  const { language, languageChosen, t } = useLanguage();
+  const { language, languageChosen, visitorLanguage, t } = useLanguage();
   const lang = (language || 'pt') as 'pt' | 'en' | 'es';
 
   const [copied, setCopied] = useState(false);
@@ -114,7 +114,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
     () => (activeLocalized ? applyLocalized(baseArticle, lang, activeLocalized.data) : baseArticle),
     [baseArticle, activeLocalized, lang],
   );
-  const speechSupported = !activeLocalized || ['en', 'pt', 'es'].includes(activeLocalized.language);
+  const speechSupported = !visitorLanguage && (!activeLocalized || ['en', 'pt', 'es'].includes(activeLocalized.language));
 
   const listenSegments = useMemo<ListenSegment[]>(() => {
     const out: ListenSegment[] = [
@@ -371,12 +371,12 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           </div>
 
           {/* Main Title */}
-          <h1 data-seg="title" className={"text-2xl sm:text-4xl lg:text-5xl font-extrabold text-[#172B4D] leading-tight mb-4 tracking-tight" + act('title')}>
+          <h1 data-loc={activeLocalized ? '' : undefined} data-seg="title" className={"text-2xl sm:text-4xl lg:text-5xl font-extrabold text-[#172B4D] leading-tight mb-4 tracking-tight" + act('title')}>
             {hl('title', article.title[lang] || article.title.pt)}
           </h1>
 
           {/* Subtitle / Excerpt */}
-          <p data-seg="subtitle" className={"text-sm sm:text-lg text-[#647DA5] leading-relaxed mb-6 font-normal" + act('subtitle')}>
+          <p data-loc={activeLocalized ? '' : undefined} data-seg="subtitle" className={"text-sm sm:text-lg text-[#647DA5] leading-relaxed mb-6 font-normal" + act('subtitle')}>
             {hl('subtitle', article.subtitle[lang] || article.subtitle.pt)}
           </p>
 
@@ -438,13 +438,13 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           {/* Sections */}
           {article.sections.map((section, idx) => (
             <section key={`sec-${idx}`} className="mb-8">
-              <h2 data-seg={`s${idx}h`} className={"text-xl sm:text-2xl font-bold text-[#17366F] mb-3 tracking-tight" + act(`s${idx}h`)}>
+              <h2 data-loc={activeLocalized ? '' : undefined} data-seg={`s${idx}h`} className={"text-xl sm:text-2xl font-bold text-[#17366F] mb-3 tracking-tight" + act(`s${idx}h`)}>
                 {hl(`s${idx}h`, section.heading[lang] || section.heading.pt)}
               </h2>
               {section.paragraphs.map((p, pIdx) => (
                 <p
                   key={`p-${pIdx}`}
-                  data-seg={`s${idx}p${pIdx}`}
+                  data-loc={activeLocalized ? '' : undefined} data-seg={`s${idx}p${pIdx}`}
                   className={"text-sm sm:text-base text-[#172B4D] leading-relaxed mb-4 font-normal" + act(`s${idx}p${pIdx}`)}
                 >
                   {hl(`s${idx}p${pIdx}`, p[lang] || p.pt)}
