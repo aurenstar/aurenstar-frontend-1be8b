@@ -18,6 +18,7 @@ import {
   AURENSTAR_AVATAR,
 } from '../data/blogArticles';
 import { ShareModal } from '../components/ShareModal';
+import { ArticleListenBar, ListenSegment } from '../components/ArticleListenBar';
 
 interface ArticlePageProps {
   articleId: string;
@@ -45,6 +46,8 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
   const [isBookmarked, setIsBookmarked] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
+  const [activeSeg, setActiveSeg] = useState<string | null>(null);
+  const act = (id: string) => (activeSeg === id ? ' listen-active' : '');
 
   // Check if article is already saved in browser favorites
   useEffect(() => {
@@ -66,6 +69,18 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
 
   const article =
     BLOG_ARTICLES.find((a) => a.id === articleId) || BLOG_ARTICLES[0];
+
+  const listenSegments = useMemo<ListenSegment[]>(() => {
+    const out: ListenSegment[] = [
+      { id: 'title', text: article.title[lang] || article.title.pt },
+      { id: 'subtitle', text: article.subtitle[lang] || article.subtitle.pt },
+    ];
+    article.sections.forEach((sec, i) => {
+      out.push({ id: `s${i}h`, text: sec.heading[lang] || sec.heading.pt });
+      sec.paragraphs.forEach((p, j) => out.push({ id: `s${i}p${j}`, text: p[lang] || p.pt }));
+    });
+    return out;
+  }, [article, lang]);
 
   // Scroll to top on article change
   useEffect(() => {
@@ -310,12 +325,12 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           </div>
 
           {/* Main Title */}
-          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-[#172B4D] leading-tight mb-4 tracking-tight">
+          <h1 data-seg="title" className={"text-2xl sm:text-4xl lg:text-5xl font-extrabold text-[#172B4D] leading-tight mb-4 tracking-tight" + act('title')}>
             {article.title[lang] || article.title.pt}
           </h1>
 
           {/* Subtitle / Excerpt */}
-          <p className="text-sm sm:text-lg text-[#647DA5] leading-relaxed mb-6 font-normal">
+          <p data-seg="subtitle" className={"text-sm sm:text-lg text-[#647DA5] leading-relaxed mb-6 font-normal" + act('subtitle')}>
             {article.subtitle[lang] || article.subtitle.pt}
           </p>
 
@@ -336,6 +351,8 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
             </div>
           </div>
         </header>
+
+        <ArticleListenBar segments={listenSegments} lang={lang} onActiveChange={setActiveSeg} />
 
         {/* Featured Image - Aligned with Aurenstar profile */}
         <figure className="mb-10 w-full">
@@ -370,13 +387,14 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           {/* Sections */}
           {article.sections.map((section, idx) => (
             <section key={`sec-${idx}`} className="mb-8">
-              <h2 className="text-xl sm:text-2xl font-bold text-[#17366F] mb-3 tracking-tight">
+              <h2 data-seg={`s${idx}h`} className={"text-xl sm:text-2xl font-bold text-[#17366F] mb-3 tracking-tight" + act(`s${idx}h`)}>
                 {section.heading[lang] || section.heading.pt}
               </h2>
               {section.paragraphs.map((p, pIdx) => (
                 <p
                   key={`p-${pIdx}`}
-                  className="text-sm sm:text-base text-[#172B4D] leading-relaxed mb-4 font-normal"
+                  data-seg={`s${idx}p${pIdx}`}
+                  className={"text-sm sm:text-base text-[#172B4D] leading-relaxed mb-4 font-normal" + act(`s${idx}p${pIdx}`)}
                 >
                   {p[lang] || p.pt}
                 </p>
