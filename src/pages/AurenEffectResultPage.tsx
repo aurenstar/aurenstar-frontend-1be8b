@@ -206,7 +206,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
         <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[350px] bg-[#E4F1FF]/80 blur-3xl pointer-events-none rounded-full" />
 
         <div className="max-w-2xl mx-auto px-4 sm:px-6 text-center py-16 bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md relative z-10">
-          <div className="text-4xl mb-3">✨</div>
+          <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#F51B83] text-white"><Sparkles className="h-6 w-6" /></div>
           <h2 className="text-2xl font-black text-[#172B4D] mb-2">
             Nenhum Aureneffect gerado ainda
           </h2>
@@ -473,7 +473,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
                 {isGeneratingCard
                   ? 'Gerando...'
                   : cardSuccess
-                  ? 'Baixado! ✨'
+                  ? 'Baixado!'
                   : t.downloadBtn}
               </span>
             </button>

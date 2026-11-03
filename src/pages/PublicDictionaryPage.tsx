@@ -148,7 +148,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
         {/* Terms Catalog (Cards Grid) */}
         {filteredTerms.length === 0 ? (
           <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] p-12 text-center shadow-xs">
-            <div className="text-4xl mb-3">🔍</div>
+            <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#2878D0] text-white"><Search className="h-6 w-6" /></div>
             <h3 className="text-lg font-bold text-[#172B4D] mb-1">{c.none}</h3>
             <p className="text-xs text-[#647DA5] max-w-sm mx-auto mb-4">
               {c.tryText}

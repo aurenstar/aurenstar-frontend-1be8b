@@ -33,7 +33,7 @@ const COPY: Record<Lang, {
   pt: {
     back: 'Voltar ao Início',
     handle: '@aurenstar · aurenstar.com',
-    bio: 'Astrologia clara, acolhedora e útil. Para você se conhecer melhor, sem complicação. ✨',
+    bio: 'Astrologia clara, acolhedora e útil. Para você se conhecer melhor, sem complicação.',
     verified: 'Perfil verificado',
     stats: ['ferramentas', 'artigos', 'termos no dicionário', 'idiomas'],
     aboutTitle: 'Sobre a Aurenstar',
@@ -80,7 +80,7 @@ const COPY: Record<Lang, {
   en: {
     back: 'Back to Home',
     handle: '@aurenstar · aurenstar.com',
-    bio: 'Astrology made clear, gentle and useful. To help you know yourself better, without the complicated words. ✨',
+    bio: 'Astrology made clear, gentle and useful. To help you know yourself better, without the complicated words.',
     verified: 'Verified profile',
     stats: ['tools', 'articles', 'dictionary terms', 'languages'],
     aboutTitle: 'About Aurenstar',
@@ -127,7 +127,7 @@ const COPY: Record<Lang, {
   es: {
     back: 'Volver al Inicio',
     handle: '@aurenstar · aurenstar.com',
-    bio: 'Astrología clara, cercana y útil. Para que te conozcas mejor, sin complicaciones. ✨',
+    bio: 'Astrología clara, cercana y útil. Para que te conozcas mejor, sin complicaciones.',
     verified: 'Perfil verificado',
     stats: ['herramientas', 'artículos', 'términos en el diccionario', 'idiomas'],
     aboutTitle: 'Sobre Aurenstar',

@@ -216,7 +216,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
       downloading: 'Gerando Imagem em Alta Resolução...',
       shareSocialBtn: 'Compartilhar nas Redes Sociais',
       copyLinkBtn: 'Copiar Link da Leitura',
-      linkCopied: 'Link Copiado com Sucesso! ✨',
+      linkCopied: 'Link Copiado com Sucesso!',
       readSignArticle: `Ler Artigo Completo sobre ${signDisplayName}`,
       previewSectionTitle: 'Card Oficial para Stories & Redes Sociais',
       previewSectionSub:
@@ -235,7 +235,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
       downloading: 'Generating High-Res Image...',
       shareSocialBtn: 'Share on Social Media',
       copyLinkBtn: 'Copy Reading Link',
-      linkCopied: 'Link Copied Successfully! ✨',
+      linkCopied: 'Link Copied Successfully!',
       readSignArticle: `Read Full Article about ${signDisplayName}`,
       previewSectionTitle: 'Official Post Card for Stories & Socials',
       previewSectionSub:
@@ -254,7 +254,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
       downloading: 'Generando Imagen...',
       shareSocialBtn: 'Compartir en Redes Sociales',
       copyLinkBtn: 'Copiar Enlace de la Lectura',
-      linkCopied: '¡Enlace Copiado con Éxito! ✨',
+      linkCopied: '¡Enlace Copiado con Éxito!',
       readSignArticle: `Leer Artículo Completo sobre ${signDisplayName}`,
       previewSectionTitle: 'Card Oficial para Stories y Redes',
       previewSectionSub:
@@ -401,7 +401,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
                 {isGeneratingStory
                   ? tr('Gerando...', 'Generating...', 'Generando...')
                   : cardSuccess
-                  ? tr('Baixado! ✨', 'Downloaded! ✨', '¡Descargado! ✨')
+                  ? tr('Baixado!', 'Downloaded!', '¡Descargado!')
                   : tr('Baixar Card', 'Download Card', 'Descargar Tarjeta')}
               </span>
             </button>

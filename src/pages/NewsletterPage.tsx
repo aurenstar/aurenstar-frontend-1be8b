@@ -85,8 +85,8 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
       emailPlaceholder: 'seu.email@exemplo.com',
       signLabel: 'Escolha o Seu Signo',
       submitCta: 'Quero Receber os Posts do Meu Signo',
-      privacyNotice: '🔒 Respeitamos sua paz: zero propagandas chatas. Cancele quando quiser.',
-      successTitle: 'Inscrição confirmada com sucesso! ✨',
+      privacyNotice: 'Respeitamos sua paz: zero propagandas chatas. Cancele quando quiser.',
+      successTitle: 'Inscrição confirmada com sucesso!',
       successDesc: (userName: string, signName: string, userEmail: string) =>
         `Que maravilha, ${userName || 'amigo(a)'}! Agora você receberá os novos posts do blog preparados com carinho para ${signName} no e-mail ${userEmail}.`,
       successSub: 'Fique de olho na sua caixa de entrada para ler as novidades!',
@@ -115,8 +115,8 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
       emailPlaceholder: 'your.email@example.com',
       signLabel: 'Choose Your Zodiac Sign',
       submitCta: 'Send Me Posts for My Sign',
-      privacyNotice: '🔒 We respect your peace: zero spam. Unsubscribe anytime with 1 click.',
-      successTitle: 'Subscription confirmed! ✨',
+      privacyNotice: 'We respect your peace: zero spam. Unsubscribe anytime with 1 click.',
+      successTitle: 'Subscription confirmed!',
       successDesc: (userName: string, signName: string, userEmail: string) =>
         `Wonderful, ${userName || 'friend'}! You will now receive all new blog articles crafted for ${signName} directly at ${userEmail}.`,
       successSub: 'Keep an eye on your inbox for gentle and inspiring reads!',
@@ -145,8 +145,8 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
       emailPlaceholder: 'tu.correo@ejemplo.com',
       signLabel: 'Elige Tu Signo Zodiacal',
       submitCta: 'Quiero Recibir Publicaciones de Mi Signo',
-      privacyNotice: '🔒 Respetamos tu tranquilidad: cero spam. Cancela cuando quieras.',
-      successTitle: '¡Suscripción confirmada con éxito! ✨',
+      privacyNotice: 'Respetamos tu tranquilidad: cero spam. Cancela cuando quieras.',
+      successTitle: '¡Suscripción confirmada con éxito!',
       successDesc: (userName: string, signName: string, userEmail: string) =>
         `¡Qué alegría, ${userName || 'amigo(a)'}! Ahora recibirás las novedades del blog para ${signName} en ${userEmail}.`,
       successSub: '¡Revisa tu bandeja de entrada para disfrutar de tus lecturas!',

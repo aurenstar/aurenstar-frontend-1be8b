@@ -2,6 +2,7 @@ import { pickNextTheme, rememberTheme } from '../utils/unfilteredThemes';
 import { getRecentMessages, rememberMessage } from '../utils/recentMessages';
 import React, { useState } from 'react';
 import { ArrowLeft, Sparkles, MapPin, RefreshCw } from 'lucide-react';
+import { ToolHero, ToolBenefits, PeriodIcon } from '../components/ToolHero';
 import { useLanguage } from '../context/LanguageContext';
 import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
 import { calculateZodiacSign } from '../utils/dailyReadingStorage';
@@ -122,14 +123,11 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
   return <section className="min-h-[78vh] bg-[#C9E5FF] px-4 py-28 sm:px-6 sm:py-32">
     <div className="mx-auto max-w-3xl">
       <button type="button" onClick={onBackToHome} className="mb-8 inline-flex items-center gap-2 text-sm font-semibold text-[#2878D0] hover:text-[#17366F]"><ArrowLeft className="h-4 w-4" /> {copy.back}</button>
+      <ToolHero icon={<Sparkles className="h-8 w-8" />} tag={copy.tag} title={copy.title} subtitle={copy.subtitle} tone="pink" />
       <div className="relative overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-6 shadow-[0_12px_35px_rgba(23,54,111,0.08)] sm:p-10">
-        <div className="absolute inset-x-0 top-0 h-1.5 bg-[#2878D0]" />
-          <div className="mb-5 flex h-11 w-11 items-center justify-center rounded-2xl bg-[#E4F1FF] text-[#2878D0]"><Sparkles className="h-5 w-5" /></div>
-          <p className="text-xs font-extrabold tracking-[0.18em] text-[#2878D0]">{copy.tag}</p>
-          <h1 className="mt-3 text-3xl font-extrabold text-[#172B4D]">{copy.title}</h1>
-          <p className="mt-3 text-sm leading-relaxed text-[#647DA5]">{copy.subtitle}</p>
-          <form onSubmit={handleGenerate} className="mt-7 space-y-4">
-            <label className="block text-xs font-bold text-[#172B4D]">{copy.name}<input required value={name} onChange={(e) => setName(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#2878D0]" placeholder="Andriel" /></label>
+        
+          <form onSubmit={handleGenerate} className="space-y-4">
+            <label className="block text-xs font-bold text-[#172B4D]">{copy.name}<input required value={name} onChange={(e) => setName(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#F51B83]" placeholder="Andriel" /></label>
             <div>
               <label className="block text-xs font-bold text-[#172B4D]"><span className="flex items-center gap-1.5"><MapPin className="h-3.5 w-3.5 text-[#F51B83]" />{copy.city}</span></label>
               <div className="mt-1.5">
@@ -138,20 +136,21 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
                   onChange={(city) => { setBirthPlace(city); if (city) setCityError(false); }}
                   placeholder={copy.cityPlaceholder}
                   noResultsText={copy.cityNoResults}
-                  className="w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#2878D0]"
+                  className="w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#F51B83]"
                 />
               </div>
               {cityError && <p className="mt-1.5 text-[11px] font-semibold text-[#F51B83]">{copy.cityRequired}</p>}
             </div>
             <div className="grid gap-3 sm:grid-cols-2">
-              <label className="block text-xs font-bold text-[#172B4D]">{copy.date}<input required type="date" value={birthDate} onChange={(e) => setBirthDate(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#2878D0]" /></label>
-              <label className="block text-xs font-bold text-[#172B4D]">{copy.time}<input type="time" disabled={timeUnknown} value={birthTime} onChange={(e) => setBirthTime(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#2878D0] disabled:opacity-40" /></label>
+              <label className="block text-xs font-bold text-[#172B4D]">{copy.date}<input required type="date" value={birthDate} onChange={(e) => setBirthDate(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#F51B83]" /></label>
+              <label className="block text-xs font-bold text-[#172B4D]">{copy.time}<input type="time" disabled={timeUnknown} value={birthTime} onChange={(e) => setBirthTime(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#F51B83] disabled:opacity-40" /></label>
             </div>
             <label className="flex items-center gap-2 text-xs font-medium text-[#647DA5]"><input type="checkbox" checked={timeUnknown} onChange={(e) => setTimeUnknown(e.target.checked)} className="h-4 w-4 accent-[#2878D0]" />{copy.timeUnknown}</label>
             {limitReached && <p className="text-[11px] font-semibold text-[#F51B83]">{copy.limited}</p>}
-            <button type="submit" disabled={isLoading} className="w-full rounded-full bg-[#2878D0] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#17366F] disabled:opacity-60">{isLoading ? <RefreshCw className="mr-2 inline h-4 w-4 animate-spin" /> : <Sparkles className="mr-2 inline h-4 w-4" />}{isLoading ? copy.calculating : copy.generate}</button>
+            <button type="submit" disabled={isLoading} className="w-full rounded-full bg-[#F51B83] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#D9166F] disabled:opacity-60">{isLoading ? <RefreshCw className="mr-2 inline h-4 w-4 animate-spin" /> : <Sparkles className="mr-2 inline h-4 w-4" />}{isLoading ? copy.calculating : copy.generate}</button>
           </form>
         </div>
+      <div className="mt-6"><ToolBenefits lang={lang} /></div>
     </div>
   </section>;
 };

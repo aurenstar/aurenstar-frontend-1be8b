@@ -206,7 +206,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
       shareBtn: 'Compartilhar',
       bookmarkBtn: 'Salvar reflexão',
       bookmarked: 'Salvo nos favoritos',
-      bookmarkSuccess: 'Publicação favoritada no seu navegador! ✨',
+      bookmarkSuccess: 'Publicação favoritada no seu navegador!',
       bookmarkTip: (key: string) =>
         `Dica: Pressione ${key} para fixar na barra de favoritos do navegador.`,
       bookmarkRemoved: 'Publicação removida dos seus favoritos.',
@@ -223,7 +223,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
       shareBtn: 'Share',
       bookmarkBtn: 'Save reflection',
       bookmarked: 'Saved to favorites',
-      bookmarkSuccess: 'Post saved to your browser favorites! ✨',
+      bookmarkSuccess: 'Post saved to your browser favorites!',
       bookmarkTip: (key: string) =>
         `Tip: Press ${key} to pin to your browser bookmarks bar.`,
       bookmarkRemoved: 'Post removed from your favorites.',
@@ -240,7 +240,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
       shareBtn: 'Compartir',
       bookmarkBtn: 'Guardar reflexión',
       bookmarked: 'Guardado en favoritos',
-      bookmarkSuccess: '¡Publicación guardada en los favoritos del navegador! ✨',
+      bookmarkSuccess: '¡Publicación guardada en los favoritos del navegador!',
       bookmarkTip: (key: string) =>
         `Consejo: Presiona ${key} para fijar en la barra del navegador.`,
       bookmarkRemoved: 'Publicación eliminada de tus favoritos.',

@@ -21,7 +21,9 @@ import {
   Activity,
   Layers,
   ChevronDown,
+  Orbit,
 } from 'lucide-react';
+import { ToolHero, ToolBenefits, PeriodIcon } from '../components/ToolHero';
 import { useLanguage } from '../context/LanguageContext';
 import {
   calculateAstrologicalTriad,
@@ -70,8 +72,8 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       day: 'Dia', month: 'Mês', year: 'Ano',
       birthTime: 'Hora Aproximada de Nascimento',
       exactTime: 'Ou horário exato (opcional):',
-      viewCurrent: 'Ver Meu Aureneffect Atual ✨',
-      calculate: 'Calcular Meu Aureneffect ✨',
+      viewCurrent: 'Ver Meu Aureneffect Atual',
+      calculate: 'Calcular Meu Aureneffect',
     },
     en: {
       backHome: 'Back to Home',
@@ -90,8 +92,8 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       day: 'Day', month: 'Month', year: 'Year',
       birthTime: 'Approximate Birth Time',
       exactTime: 'Or exact time (optional):',
-      viewCurrent: 'View My Current Aureneffect ✨',
-      calculate: 'Calculate My Aureneffect ✨',
+      viewCurrent: 'View My Current Aureneffect',
+      calculate: 'Calculate My Aureneffect',
     },
     es: {
       backHome: 'Volver al Inicio',
@@ -110,8 +112,8 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       day: 'Día', month: 'Mes', year: 'Año',
       birthTime: 'Hora Aproximada de Nacimiento',
       exactTime: 'O hora exacta (opcional):',
-      viewCurrent: 'Ver Mi Aureneffect Actual ✨',
-      calculate: 'Calcular Mi Aureneffect ✨',
+      viewCurrent: 'Ver Mi Aureneffect Actual',
+      calculate: 'Calcular Mi Aureneffect',
     },
   }[lang];
   const monthNames = {
@@ -377,31 +379,16 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
           </button>
         </div>
 
-        {/* Page Top Heading (CSS selector 1) */}
-        <div className="text-center max-w-xl mx-auto mb-8">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-extrabold uppercase tracking-wider mb-3 shadow-2xs">
-            <Sparkles className="w-3.5 h-3.5 text-[#F51B83]" />
-            <span>{copy.realTime}</span>
-          </div>
-
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#172B4D] tracking-tight mb-2.5 leading-tight">
-            Aureneffect
-          </h1>
-
-          <p className="text-sm text-[#647DA5] leading-relaxed max-w-md mx-auto font-medium">
-            {copy.subtitle}
-          </p>
-        </div>
+        <ToolHero icon={<Orbit className="h-8 w-8" />} tag={copy.realTime} title="Aureneffect" subtitle={copy.subtitle} tone="pink" />
 
         {/* =========================================================================
             USER INPUT FORM (CSS selector 2)
             ========================================================================= */}
         <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg p-6 sm:p-9 mb-8 transition-all relative">
           {/* Subtle top decorative border */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0] rounded-t-3xl" />
 
           <div className="flex items-center gap-3 mb-6 pb-4 border-b border-[#D9E8F8]">
-            <div className="w-10 h-10 rounded-2xl bg-[#E4F1FF] text-[#2878D0] flex items-center justify-center font-bold shadow-2xs">
+            <div className="w-10 h-10 rounded-2xl bg-[#2878D0] text-white flex items-center justify-center font-bold shadow-sm">
               <Compass className="w-5 h-5" />
             </div>
             <div>
@@ -428,7 +415,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   placeholder={copy.namePlaceholder}
-                  className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
+                  className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#F51B83] focus:bg-white focus:ring-2 focus:ring-[#F51B83]/15 transition-all shadow-2xs"
                   required
                 />
               </div>
@@ -447,7 +434,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                   }}
                   placeholder={copy.cityPlaceholder}
                   noResultsText={copy.cityNoResults}
-                  className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
+                  className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#F51B83] focus:bg-white focus:ring-2 focus:ring-[#F51B83]/15 transition-all shadow-2xs"
                 />
                 {cityError && <p className="mt-1.5 text-[11px] font-semibold text-[#F51B83]">{copy.cityRequired}</p>}
                 {limitReached && <p className="mt-1.5 text-[11px] font-semibold text-[#F51B83]">{lang === 'pt' ? 'Muitas leituras foram geradas por esta conexão. Tente de novo em algumas horas.' : lang === 'es' ? 'Se generaron muchas lecturas desde esta conexión. Inténtalo de nuevo en unas horas.' : 'Too many readings were created from this connection. Please try again in a few hours.'}</p>}
@@ -468,7 +455,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                     <select
                       value={birthDay}
                       onChange={(e) => setBirthDay(Number(e.target.value))}
-                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-8"
+                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#F51B83] focus:bg-white cursor-pointer pr-8"
                     >
                       {Array.from({ length: 31 }, (_, i) => i + 1).map((d) => (
                         <option key={d} value={d}>
@@ -487,7 +474,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                     <select
                       value={birthMonth}
                       onChange={(e) => setBirthMonth(Number(e.target.value))}
-                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-8"
+                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#F51B83] focus:bg-white cursor-pointer pr-8"
                     >
                       {monthNames.map((m, idx) => (
                         <option key={idx + 1} value={idx + 1}>
@@ -506,7 +493,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                     <select
                       value={birthYear}
                       onChange={(e) => setBirthYear(Number(e.target.value))}
-                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-8"
+                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#F51B83] focus:bg-white cursor-pointer pr-8"
                     >
                       {Array.from({ length: 90 }, (_, i) => 2026 - i).map((y) => (
                         <option key={y} value={y}>
@@ -550,11 +537,11 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                       onClick={() => handleTimePeriodSelect(period.id)}
                       className={`p-3 rounded-2xl text-xs font-bold transition-all cursor-pointer border text-center flex flex-col items-center justify-center gap-1.5 ${
                         isSelected
-                          ? 'bg-[#2878D0] text-white border-[#2878D0] shadow-sm scale-[1.02]'
-                          : 'bg-[#E4F1FF]/30 border-[#D9E8F8] text-[#172B4D] hover:border-[#2878D0] hover:bg-white'
+                          ? 'bg-[#F51B83] text-white border-[#F51B83] shadow-md scale-[1.02]'
+                          : 'bg-[#E4F1FF]/30 border-[#D9E8F8] text-[#172B4D] hover:border-[#F51B83] hover:bg-white'
                       }`}
                     >
-                      <span className="text-lg">{period.icon}</span>
+                      <span className={`flex h-9 w-9 items-center justify-center rounded-full ${isSelected ? 'bg-white text-[#F51B83]' : 'bg-[#2878D0] text-white'}`}><PeriodIcon id={period.id} className="h-4 w-4" /></span>
                       <span className="leading-tight">
                         {period.label} <span className="opacity-75 text-[10px]">({period.time})</span>
                       </span>
@@ -573,7 +560,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                     setBirthTime(e.target.value);
                     setQuickTimePeriod('exato');
                   }}
-                  className="px-3 py-1.5 rounded-xl border border-[#D9E8F8] bg-[#E4F1FF]/30 text-xs font-bold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white"
+                  className="px-3 py-1.5 rounded-xl border border-[#D9E8F8] bg-[#E4F1FF]/30 text-xs font-bold text-[#172B4D] outline-none focus:border-[#F51B83] focus:bg-white"
                 />
               </div>
             </div>
@@ -596,7 +583,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                     onClick={() => {
                       if (onNavigateToResult) onNavigateToResult();
                     }}
-                    className="w-full py-4 px-6 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99]"
+                    className="w-full py-4 px-6 rounded-2xl bg-[#F51B83] hover:bg-[#D9166F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99]"
                   >
                     <Sparkles className="w-4 h-4 transition-transform group-hover:rotate-12" />
                     <span>{copy.viewCurrent}</span>
@@ -606,7 +593,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                 <button
                   type="submit"
                   disabled={isLoading}
-                  className="w-full py-4 px-6 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99] disabled:opacity-50"
+                  className="w-full py-4 px-6 rounded-2xl bg-[#F51B83] hover:bg-[#D9166F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99] disabled:opacity-50"
                 >
                   {isLoading ? (
                     <>
@@ -628,6 +615,8 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
             </div>
           </form>
         </div>
+
+        <ToolBenefits lang={lang} />
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ import {
   RotateCcw,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { CoverArt } from '../components/CoverArt';
 import { SIGNS_DATA, LAST_DISCOVERED_SIGN_KEY, SignInfo } from '../data/signsData';
 
 interface DiscoverSignResultPageProps {
@@ -81,91 +82,66 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
           </button>
         </div>
 
-        {/* Hero do Resultado */}
-        <div className="text-center mb-8">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
-            <Sparkles className="w-3.5 h-3.5 text-[#2878D0]" />
-            <span>{tr('Resultado da Sua Data de Nascimento','Your Birth Date Result','Resultado de Tu Fecha de Nacimiento')}</span>
-          </div>
-
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#172B4D] tracking-tight mb-2">
-            {tr('Seu Signo é', 'Your Sign is', 'Tu Signo es')} {currentSign.name[lang] || currentSign.name.pt}
-          </h1>
-
-          <p className="text-sm text-[#647DA5]">
-            {tr('Veja abaixo o significado simples do seu signo e dicas práticas para o seu dia a dia.', 'See below the simple meaning of your sign and practical tips for your everyday life.', 'Mira abajo el significado sencillo de tu signo y consejos prácticos para tu día a día.')}
-          </p>
-        </div>
-
-        {/* Card Principal do Signo */}
-        <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg transition-all p-6 sm:p-8 mb-6 relative overflow-hidden">
-          {/* Barra superior com degradê suave */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
-
-          {/* Cabeçalho do Card */}
-          <div className="flex flex-wrap items-center justify-between gap-3 pb-5 mb-6 border-b border-[#D9E8F8]">
-            <div className="flex items-center gap-3.5">
-              <div className="w-12 h-12 rounded-2xl bg-[#E4F1FF] text-[#2878D0] flex items-center justify-center text-2xl font-black shadow-2xs">
-                {currentSign.symbol}
-              </div>
-              <div>
-                <h2 className="text-2xl sm:text-3xl font-extrabold text-[#172B4D] tracking-tight">
-                  {currentSign.name[lang] || currentSign.name.pt}
-                </h2>
-                <p className="text-xs text-[#647DA5] font-medium mt-0.5 flex items-center gap-1.5">
-                  <Calendar className="w-3 h-3 text-[#2878D0]" />
-                  <span>{currentSign.period[lang] || currentSign.period.pt}</span>
-                </p>
-              </div>
+        {/* Cover-style result header */}
+        <header className="relative mb-6 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-9">
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
+          <div className="relative flex flex-col gap-4 pb-12 sm:flex-row sm:items-center sm:gap-5 sm:pb-0 sm:pr-[38%]">
+            <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-3xl bg-white text-5xl font-black text-[#2878D0] shadow-lg">
+              {currentSign.symbol}
             </div>
+            <div>
+              <div className="mb-2 inline-flex items-center rounded-full bg-white/15 px-3 py-1 text-[11px] font-bold uppercase tracking-wider">
+                {tr('Resultado da Sua Data de Nascimento','Your Birth Date Result','Resultado de Tu Fecha de Nacimiento')}
+              </div>
+              <h1 className="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">
+                {tr('Seu Signo é', 'Your Sign is', 'Tu Signo es')} {currentSign.name[lang] || currentSign.name.pt}
+              </h1>
+              <span aria-hidden className="mt-3 block h-1 w-12 rounded-full bg-[#F51B83]" />
+              <p className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-white/90">
+                <span className="inline-flex items-center gap-1.5"><Calendar className="h-3.5 w-3.5" />{currentSign.period[lang] || currentSign.period.pt}</span>
+                <span className="inline-flex items-center rounded-full bg-white px-2.5 py-0.5 text-[11px] font-extrabold uppercase tracking-wider text-[#2878D0]">
+                  {tr('Elemento', 'Element', 'Elemento')} {currentSign.element[lang] || currentSign.element.pt}
+                </span>
+              </p>
+            </div>
+          </div>
+        </header>
 
-            <span
-              className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${currentSign.elementColor} shadow-2xs`}
-            >
-              {tr('Elemento', 'Element', 'Elemento')} {currentSign.element[lang] || currentSign.element.pt}
-            </span>
+        {/* Essence card */}
+        <div className="mb-6 overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-3 shadow-md">
+          <div className="relative overflow-hidden rounded-2xl bg-[#F51B83] p-5 text-white sm:p-6">
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="pink" variant={1} /></div>
+            <div className="relative">
+              <h2 className="mb-2 flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-white/90">
+                <Star className="h-4 w-4" />
+                <span>{tr('Sua Essência e Jeito de Ser','Your Essence and Way of Being','Tu Esencia y Forma de Ser')}</span>
+              </h2>
+              <p className="mb-8 text-sm font-medium leading-relaxed sm:text-base">
+                {currentSign.essence[lang] || currentSign.essence.pt}
+              </p>
+            </div>
           </div>
 
-          {/* Essência e Personalidade */}
-          <div className="mb-6">
-            <h3 className="text-xs font-bold uppercase tracking-wider text-[#2878D0] mb-2 flex items-center gap-1.5">
-              <Star className="w-3.5 h-3.5 fill-current" />
-              <span>{tr('Sua Essência e Jeito de Ser','Your Essence and Way of Being','Tu Esencia y Forma de Ser')}</span>
-            </h3>
-            <p className="text-sm sm:text-base text-[#172B4D] leading-relaxed font-normal bg-[#E4F1FF]/30 p-4 rounded-2xl border border-[#D9E8F8]">
-              {currentSign.essence[lang] || currentSign.essence.pt}
-            </p>
-          </div>
-
-          {/* Botões de Ação no Card */}
-          <div className="space-y-3 pt-3 border-t border-[#D9E8F8]">
-            {/* Botão de Compartilhar */}
+          <div className="space-y-2.5 p-3 pt-4">
             <button
               type="button"
               onClick={handleCopy}
-              className="w-full py-3 px-4 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-white font-extrabold text-xs sm:text-sm shadow-sm transition-all cursor-pointer flex items-center justify-center gap-2 group"
+              className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-2xl bg-[#2878D0] px-4 py-3 text-xs font-extrabold text-white shadow-sm transition-all hover:bg-[#17366F] sm:text-sm"
             >
               {copied ? (
-                <>
-                  <Check className="w-4 h-4 text-white" />
-                  <span>{tr('Copiado com Sucesso!','Copied!','¡Copiado!')}</span>
-                </>
+                <><Check className="h-4 w-4" /><span>{tr('Copiado com Sucesso!','Copied!','¡Copiado!')}</span></>
               ) : (
-                <>
-                  <Share2 className="w-4 h-4 transition-transform group-hover:scale-110" />
-                  <span>{tr('Compartilhar Meu Signo','Share My Sign','Compartir Mi Signo')}</span>
-                </>
+                <><Share2 className="h-4 w-4" /><span>{tr('Compartilhar Meu Signo','Share My Sign','Compartir Mi Signo')}</span></>
               )}
             </button>
 
-            {/* Ações Secundárias */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+            <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
               <button
                 type="button"
                 onClick={() => onOpenArticle(currentSign.articleId)}
-                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] text-xs font-bold transition-all cursor-pointer shadow-2xs"
+                className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-2xl bg-[#E4F1FF] px-4 py-2.5 text-xs font-bold text-[#2878D0] transition-all hover:bg-[#F51B83] hover:text-white"
               >
-                <BookOpen className="w-3.5 h-3.5" />
+                <BookOpen className="h-3.5 w-3.5" />
                 <span>{tr('Ler Artigo Especial','Read the Special Article','Leer el Artículo Especial')}</span>
               </button>
 
@@ -178,9 +154,9 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
                     document.getElementById('blog')?.scrollIntoView({ behavior: 'smooth' });
                   }, 100);
                 }}
-                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] text-xs font-bold transition-all cursor-pointer shadow-2xs"
+                className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-2xl bg-[#E4F1FF] px-4 py-2.5 text-xs font-bold text-[#2878D0] transition-all hover:bg-[#F51B83] hover:text-white"
               >
-                <Check className="w-3.5 h-3.5 text-emerald-600" />
+                <Sparkles className="h-3.5 w-3.5" />
                 <span>{tr('Ver Posts de', 'See Posts about', 'Ver Posts de')} {currentSign.name[lang] || currentSign.name.pt}</span>
               </button>
             </div>
@@ -192,9 +168,9 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
           <button
             type="button"
             onClick={onBackToForm}
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] text-xs sm:text-sm font-bold shadow-2xs transition-all cursor-pointer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#2878D0] hover:bg-[#F51B83] text-white text-xs sm:text-sm font-bold shadow-sm transition-all cursor-pointer"
           >
-            <RotateCcw className="w-4 h-4 text-[#2878D0]" />
+            <RotateCcw className="w-4 h-4" />
             <span>{tr('Colocar Outra Data de Nascimento','Enter Another Birth Date','Poner Otra Fecha de Nacimiento')}</span>
           </button>
         </div>

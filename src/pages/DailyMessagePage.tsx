@@ -10,7 +10,9 @@ import {
   BookOpen,
   MapPin,
   RefreshCw,
+  Sunrise,
 } from 'lucide-react';
+import { ToolHero, ToolBenefits, PeriodIcon } from '../components/ToolHero';
 import { useLanguage } from '../context/LanguageContext';
 import { getRecentMessages, rememberMessage } from '../utils/recentMessages';
 import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
@@ -563,10 +565,10 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         'Coloque seu nome, cidade, data e hora de nascimento para receber a mensagem de hoje, calculada com o céu real.',
       backHome: 'Voltar ao Início',
       exploreBlog: 'Ver Artigos do Blog',
-      alreadyGeneratedAlert: 'Sua leitura de hoje já está pronta! ✨',
+      alreadyGeneratedAlert: 'Sua leitura de hoje já está pronta!',
       alreadyGeneratedSub:
         'Você tem 1 leitura por dia. A próxima abre à meia-noite de Washington, que é às',
-      viewTodayBtn: 'Ver Minha Leitura de Hoje ✨',
+      viewTodayBtn: 'Ver Minha Leitura de Hoje',
       formTitle: 'Seus Dados para a Leitura',
       formSubtitle: 'Preencha abaixo para abrir sua leitura do dia:',
       nameLabel: 'Seu Nome ou Apelido:',
@@ -583,7 +585,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       cityRequired: 'Escolha sua cidade na lista de sugestões.',
       calculating: 'Calculando seu céu de hoje...',
       computedSignLabel: 'Signo identificado:',
-      generateBtn: 'Gerar Minha Leitura Diária ✨',
+      generateBtn: 'Gerar Minha Leitura Diária',
       generateBtnSub: 'Abre uma nova página com sua leitura e o card para Stories',
     },
     en: {
@@ -593,10 +595,10 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         'Enter your name, birth city, date and time to receive today’s message, calculated from the real sky.',
       backHome: 'Back to Home',
       exploreBlog: 'Explore Blog Posts',
-      alreadyGeneratedAlert: 'Your reading for today is already prepared! ✨',
+      alreadyGeneratedAlert: 'Your reading for today is already prepared!',
       alreadyGeneratedSub:
         'You get 1 reading per day. The next one opens at midnight in Washington, which is at',
-      viewTodayBtn: 'View Today’s Reading ✨',
+      viewTodayBtn: 'View Today’s Reading',
       formTitle: 'Your Details for the Reading',
       formSubtitle: 'Fill in below to open your daily reading:',
       nameLabel: 'Your Name or Nickname:',
@@ -613,7 +615,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       cityRequired: 'Please pick your city from the suggestions.',
       calculating: 'Calculating your sky for today...',
       computedSignLabel: 'Detected Sun Sign:',
-      generateBtn: 'Generate My Daily Reading ✨',
+      generateBtn: 'Generate My Daily Reading',
       generateBtnSub: 'Opens a dedicated new page with your reading & Story card',
     },
     es: {
@@ -623,10 +625,10 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         'Ingresa tu nombre, ciudad, fecha y hora de nacimiento para recibir el mensaje de hoy, calculado con el cielo real.',
       backHome: 'Volver al Inicio',
       exploreBlog: 'Ver Artículos del Blog',
-      alreadyGeneratedAlert: '¡Tu lectura de hoy ya está lista! ✨',
+      alreadyGeneratedAlert: '¡Tu lectura de hoy ya está lista!',
       alreadyGeneratedSub:
         'Tienes 1 lectura al día. La próxima se abre a la medianoche de Washington, que es a las',
-      viewTodayBtn: 'Ver Mi Lectura de Hoy ✨',
+      viewTodayBtn: 'Ver Mi Lectura de Hoy',
       formTitle: 'Tus Datos para la Lectura',
       formSubtitle: 'Completa los campos para abrir tu lectura del día:',
       nameLabel: 'Tu Nombre o Apodo:',
@@ -643,7 +645,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       cityRequired: 'Elige tu ciudad en la lista de sugerencias.',
       calculating: 'Calculando tu cielo de hoy...',
       computedSignLabel: 'Signo identificado:',
-      generateBtn: 'Generar Mi Lectura Diaria ✨',
+      generateBtn: 'Generar Mi Lectura Diaria',
       generateBtnSub: 'Abre una nueva página con tu lectura y el card para Stories',
     },
   };
@@ -678,31 +680,16 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
           </button>
         </div>
 
-        {/* Page Top Heading */}
-        <div className="text-center max-w-xl mx-auto mb-8">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-extrabold uppercase tracking-wider mb-3 shadow-2xs">
-            <Sparkles className="w-3.5 h-3.5 text-[#F51B83]" />
-            <span>{t.tag}</span>
-          </div>
-
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#172B4D] tracking-tight mb-2.5 leading-tight">
-            {t.title}
-          </h1>
-
-          <p className="text-sm text-[#647DA5] leading-relaxed max-w-md mx-auto font-medium">
-            {t.subtitle}
-          </p>
-        </div>
+        <ToolHero icon={<Sunrise className="h-8 w-8" />} tag={t.tag} title={t.title} subtitle={t.subtitle} />
 
         {/* =========================================================================
             USER INPUT FORM (Nome, Data de Nascimento, Hora Aproximada)
             ========================================================================= */}
         <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg p-6 sm:p-9 mb-8 transition-all relative overflow-hidden">
           {/* Subtle top decorative border */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
 
           <div className="flex items-center gap-3 mb-6 pb-4 border-b border-[#D9E8F8]">
-            <div className="w-10 h-10 rounded-2xl bg-[#E4F1FF] text-[#2878D0] flex items-center justify-center font-bold shadow-2xs">
+            <div className="w-10 h-10 rounded-2xl bg-[#2878D0] text-white flex items-center justify-center font-bold shadow-sm">
               <User className="w-5 h-5" />
             </div>
             <div>
@@ -728,7 +715,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                 value={userName}
                 onChange={(e) => setUserName(e.target.value)}
                 placeholder={t.namePlaceholder}
-                className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
+                className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#F51B83] focus:bg-white focus:ring-2 focus:ring-[#F51B83]/15 transition-all shadow-2xs"
               />
             </div>
 
@@ -746,7 +733,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                 }}
                 placeholder={t.cityPlaceholder}
                 noResultsText={t.cityNoResults}
-                className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
+                className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#F51B83] focus:bg-white focus:ring-2 focus:ring-[#F51B83]/15 transition-all shadow-2xs"
               />
               {cityError && <p className="mt-1.5 text-[11px] font-semibold text-[#F51B83]">{t.cityRequired}</p>}
               {limitReached && <p className="mt-1.5 text-[11px] font-semibold text-[#F51B83]">{lang === 'pt' ? 'Muitas leituras foram geradas por esta conexão hoje. Volte depois da meia-noite de Washington.' : lang === 'es' ? 'Se generaron muchas lecturas desde esta conexión hoy. Vuelve después de la medianoche de Washington.' : 'Too many readings were created from this connection today. Come back after midnight in Washington.'}</p>}
@@ -771,7 +758,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                       onChange={(e) =>
                         handleDateChange(Number(e.target.value), birthMonth)
                       }
-                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-8"
+                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#F51B83] focus:bg-white cursor-pointer pr-8"
                     >
                       {daysArray.map((d) => (
                         <option key={d} value={d}>
@@ -794,7 +781,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                       onChange={(e) =>
                         handleDateChange(birthDay, Number(e.target.value))
                       }
-                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-8"
+                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#F51B83] focus:bg-white cursor-pointer pr-8"
                     >
                       {MONTHS.map((m) => (
                         <option key={m.value} value={m.value}>
@@ -815,7 +802,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                     <select
                       value={birthYear}
                       onChange={(e) => setBirthYear(Number(e.target.value))}
-                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-8"
+                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#F51B83] focus:bg-white cursor-pointer pr-8"
                     >
                       {yearsArray.map((y) => (
                         <option key={y} value={y}>
@@ -850,11 +837,11 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                       }}
                       className={`p-3 rounded-2xl text-xs font-bold transition-all cursor-pointer border text-center flex flex-col items-center justify-center gap-1.5 ${
                         isSelected
-                          ? 'bg-[#2878D0] text-white border-[#2878D0] shadow-sm scale-[1.02]'
-                          : 'bg-[#E4F1FF]/30 border-[#D9E8F8] text-[#172B4D] hover:border-[#2878D0] hover:bg-white'
+                          ? 'bg-[#F51B83] text-white border-[#F51B83] shadow-md scale-[1.02]'
+                          : 'bg-[#E4F1FF]/30 border-[#D9E8F8] text-[#172B4D] hover:border-[#F51B83] hover:bg-white'
                       }`}
                     >
-                      <span className="text-lg">{period.icon}</span>
+                      <span className={`flex h-9 w-9 items-center justify-center rounded-full ${isSelected ? 'bg-white text-[#F51B83]' : 'bg-[#2878D0] text-white'}`}><PeriodIcon id={period.id} className="h-4 w-4" /></span>
                       <span className="leading-tight">{period[lang] || period.pt}</span>
                     </button>
                   );
@@ -870,7 +857,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                     setBirthTime(e.target.value);
                     setBirthTimePeriod('exato');
                   }}
-                  className="px-3 py-1.5 rounded-xl border border-[#D9E8F8] bg-[#E4F1FF]/30 text-xs font-bold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white"
+                  className="px-3 py-1.5 rounded-xl border border-[#D9E8F8] bg-[#E4F1FF]/30 text-xs font-bold text-[#172B4D] outline-none focus:border-[#F51B83] focus:bg-white"
                 />
               </div>
             </div>
@@ -889,7 +876,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
               <button
                 type="submit"
                 disabled={isLoading}
-                className="w-full py-4 px-6 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99] disabled:opacity-60"
+                className="w-full py-4 px-6 rounded-2xl bg-[#F51B83] hover:bg-[#D9166F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99] disabled:opacity-60"
               >
                 {isLoading ? <RefreshCw className="w-4 h-4 animate-spin" /> : <Sparkles className="w-4 h-4 transition-transform group-hover:rotate-12" />}
                 <span>
@@ -899,6 +886,8 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
             </div>
           </form>
         </div>
+
+        <ToolBenefits lang={lang} />
       </div>
     </div>
   );
