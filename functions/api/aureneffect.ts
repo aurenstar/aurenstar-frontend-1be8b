@@ -5,6 +5,7 @@
 // Optional secret: GEMINI_API_KEY (Cloudflare dashboard > Pages > Settings > Variables and Secrets).
 import { handleAurenEffect, type PreciseSky } from '../../server/api';
 import { buildTriadFromLongitudes } from '../../src/utils/aurenEngine';
+import type { SkyFacts } from '../../src/utils/readingSignals';
 import { computeChart, type ChartEnv } from '../../server/engine/chart';
 
 interface Context {
@@ -27,8 +28,20 @@ async function preciseSky(body: any, env: ChartEnv, origin: string): Promise<Pre
     );
     const place = birth.place;
     const cityName = [place.name, place.region, place.country].filter(Boolean).join(', ');
+    const facts: SkyFacts = {
+      natal: {
+        sun: birth.sun.longitude,
+        moon: birth.moon.longitude,
+        mercury: birth.planets.mercury.longitude,
+        venus: birth.planets.venus.longitude,
+        mars: birth.planets.mars.longitude,
+        saturn: birth.planets.saturn.longitude,
+      },
+      today: { moon: today.moon.longitude, sun: today.sun.longitude, mercuryRetro: today.planets.mercury.retrograde },
+    };
     return {
       cityName,
+      facts,
       triad: buildTriadFromLongitudes({
         sun: birth.sun.longitude,
         moon: birth.moon.longitude,

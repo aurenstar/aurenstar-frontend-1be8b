@@ -1,3 +1,4 @@
+import { buildSignals, factsFromTriad } from '../utils/readingSignals';
 import React, { useState, useEffect } from 'react';
 import {
   ArrowLeft,
@@ -38,8 +39,8 @@ interface AurenEffectPageProps {
 }
 
 const STORAGE_KEY = 'aurenstar_effect_profile';
-const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v5';
-const LAST_CALCULATED_TIME_KEY = 'aurenstar_effect_last_calculated_at_v5';
+const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v6';
+const LAST_CALCULATED_TIME_KEY = 'aurenstar_effect_last_calculated_at_v6';
 const SIX_HOURS_MS = 6 * 60 * 60 * 1000;
 
 export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
@@ -270,7 +271,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       // Fallback local instantâneo da Camada 01 e 02
       const [h, m] = (birthTime || '14:30').split(':').map((n) => parseInt(n, 10) || 0);
       const triad = calculateAstrologicalTriad(birthYear, birthMonth, birthDay, h, m);
-      const trigger = queryAurenstarEngine(triad, lang);
+      const trigger = queryAurenstarEngine(triad, lang, buildSignals(factsFromTriad(triad), lang, triad.todayMoon.phase).need);
       const cityName = birthPlace.label;
       const localResult = generateLocalAurenEffectReading(
         name,

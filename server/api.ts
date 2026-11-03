@@ -7,6 +7,7 @@
  * so the behaviour is identical in both places. The code below was moved out of
  * server.ts unchanged; only the Express req/res plumbing was removed.
  */
+import { buildSignals, factsFromTriad, type SkyFacts } from '../src/utils/readingSignals';
 import { GoogleGenAI, ThinkingLevel } from '@google/genai';
 import {
   calculateAstrologicalTriad,
@@ -295,6 +296,7 @@ Return STRICTLY a JSON object with this structure:
 /** Real positions computed by the Swiss Ephemeris engine (only available on Cloudflare). */
 export interface PreciseSky {
   triad: AstronomicalTriad;
+  facts?: SkyFacts;
   cityName: string;
 }
 
@@ -333,7 +335,9 @@ export async function handleAurenEffect(body: any, apiKey?: string, precise?: Pr
     const triad = precise?.triad ?? calculateAstrologicalTriad(year, month, day, hours, minutes, cityKey);
 
     // Camada 02: Aurenstar Engine / Gatilhos Psicológicos de Rotina
-    const trigger = queryAurenstarEngine(triad, lang);
+    const facts = precise?.facts ?? factsFromTriad(triad);
+    const signals = buildSignals(facts, lang, triad.todayMoon.phase);
+    const trigger = queryAurenstarEngine(triad, lang, signals.need);
 
     const birthDateFormatted = `${String(day).padStart(2, '0')}/${String(month).padStart(2, '0')}/${year}`;
     const birthTimeFormatted = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
@@ -347,7 +351,8 @@ export async function handleAurenEffect(body: any, apiKey?: string, precise?: Pr
       cityName,
       triad,
       trigger,
-      lang
+      lang,
+      facts
     );
 
     const ai = getGeminiClient(apiKey);
@@ -363,15 +368,19 @@ Write EVERYTHING in ${languageName}.
 THE PERSON:
 - First name: "${userName}" (use only this first name)
 
-IDEAS TO USE (already in simple words):
-- What the person may feel today: "${trigger.primaryCause}"
-- What may bother them today: "${trigger.hiddenTrigger}"
-- Easy action 1: "${trigger.practicalActions[0].title}: ${trigger.practicalActions[0].description}"
-- Easy action 2: "${trigger.practicalActions[1].title}: ${trigger.practicalActions[1].description}"
-- Easy action 3: "${trigger.practicalActions[2].title}: ${trigger.practicalActions[2].description}"
+WHAT IS REALLY GOING ON INSIDE THEM TODAY (already in plain words; these come from their real birth sky and today's sky, so they are personal to this person):
+- Today's mood: "${signals.todayMoon}"
+${signals.aspects.map((a) => `- Strongest feeling today: "${a.text}"`).join('\n')}
+- A deeper need behind it: "${signals.natalMoon}"
+${signals.mercuryRetro ? `- Also: "${signals.mercuryRetro}"\n` : ''}- Phase of the month: "${signals.phase}"
+
+EASY ACTIONS THAT FIT THIS FEELING (rewrite them in your own words, keep them practical):
+- "${trigger.practicalActions[0].title}: ${trigger.practicalActions[0].description}"
+- "${trigger.practicalActions[1].title}: ${trigger.practicalActions[1].description}"
+- "${trigger.practicalActions[2].title}: ${trigger.practicalActions[2].description}"
 
 HOW TO WRITE (very important):
-1. Start the message with the person's first name. Describe ONLY what they may be feeling right now today. NEVER describe who they are or their personality (no "you are a ... person"). Talk like a kind friend. Use short sentences and everyday words a 12-year-old understands.
+1. Start the message with the person's first name. Describe ONLY what they may be feeling right now today. NEVER describe who they are or their personality (no "you are a ... person"). Make the reader think \"wow, how does this site know what I am feeling?\": be specific, name the small real-life moments (a message left unanswered, a tired evening, a sharp reply, a heavy morning), and speak straight to what is in their head. Talk like a kind friend. Use short sentences and everyday words a 12-year-old understands.
 2. NEVER mention planets, the Moon, the Sun, zodiac signs, houses, elements or any astrology word. Never say things like "the Moon is in Leo". The reader must NOT see any astrology term, only plain feelings and daily life.
 3. Talk about real daily life: work, phone, family, rest, mood. Give no predictions and no orders; offer gentle ideas.
 4. Be warm and positive. Never scare the person.

@@ -19,7 +19,7 @@ interface AurenEffectResultPageProps {
   onNavigateToBlog: () => void;
 }
 
-const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v5';
+const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v6';
 
 export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
   onBackToForm,

@@ -1,3 +1,4 @@
+import { buildSignals, factsFromTriad, type SkyFacts } from './readingSignals';
 /**
  * Aurenstar Engine & Astronomical Core (Aureneffect)
  * 
@@ -462,6 +463,138 @@ const ROUTINE_TRIGGERS: Record<ReadingLang, Record<string, TriggerText>> = {
   },
 };
 
+// Extra tip sets for strong feelings that go beyond the Moon's element (heavy day, short fuse, need for affection).
+const EXTRA_TRIGGERS: Record<ReadingLang, Record<string, TriggerText>> = {
+  en: {
+    Pesado: {
+      cause: 'You may feel heavy, tired or alone today.',
+      trigger: 'Feeling that you have to carry everything can make small tasks feel huge.',
+      more: '',
+      tipsIntro: 'To feel a little lighter, try these 3 simple ideas:',
+      affirmation: 'Today I am allowed to rest, and I do not have to carry everything alone.',
+      action1: { title: 'Lower the bar for today', desc: 'Do only what really has to be done today. The rest can wait, and that is okay.' },
+      action2: { title: 'Tell one person how you feel', desc: 'Pick someone you trust and say it in one sentence. You do not have to explain everything.' },
+      action3: { title: 'Do one small kind thing for yourself', desc: 'A warm drink, a song you love or ten minutes outside can soften a heavy day.' },
+      vibe: 'A heavy day that needs gentleness',
+      advice: 'Being tired does not mean you are failing. It means you have been carrying a lot.',
+      baseEnergy: 70,
+    },
+    Irrita: {
+      cause: 'Your patience may be very short today.',
+      trigger: 'Small things, like a slow reply or a noisy place, may set you off more than usual.',
+      more: '',
+      tipsIntro: 'To stay calm when everything irritates you, try these 3 simple ideas:',
+      affirmation: 'Today I pause before I react, and I choose my words.',
+      action1: { title: 'Step away for two minutes', desc: 'Before you answer, leave the room or look out of a window and breathe slowly. The first reaction passes quickly.' },
+      action2: { title: 'Let your body burn it off', desc: 'A fast walk or a few flights of stairs gives that tension somewhere to go.' },
+      action3: { title: 'Say what bothers you later, in one calm sentence', desc: 'When you are less heated it is easier to be heard, and you will not regret what you said.' },
+      vibe: 'Strong energy that needs a pause',
+      advice: 'You can feel angry and still choose kind words.',
+      baseEnergy: 90,
+    },
+    Afeto: {
+      cause: 'You may need more affection and attention than usual today.',
+      trigger: 'Small things from people you love can hurt more than they should.',
+      more: '',
+      tipsIntro: 'To feel closer and more at ease, try these 3 simple ideas:',
+      affirmation: 'Today I ask for what I need, with kindness.',
+      action1: { title: 'Ask for what you need in one simple sentence', desc: 'Instead of waiting for others to guess, say "I could use a hug today" or "Can we talk later?".' },
+      action2: { title: 'Send a kind message to someone you love', desc: 'A short message of care often brings the same kindness back to you.' },
+      action3: { title: 'Do not read hidden meanings', desc: 'If something someone said hurt you, ask what they meant before deciding what it was.' },
+      vibe: 'A tender heart that wants closeness',
+      advice: 'Needing affection is human. Asking for it is a strength.',
+      baseEnergy: 82,
+    },
+  },
+  pt: {
+    Pesado: {
+      cause: 'Você pode estar se sentindo pesado, cansado ou sozinho hoje.',
+      trigger: 'A sensação de que você tem que carregar tudo pode fazer tarefas pequenas parecerem enormes.',
+      more: '',
+      tipsIntro: 'Para se sentir um pouco mais leve, experimente estas 3 ideias simples:',
+      affirmation: 'Hoje eu posso descansar, e não preciso carregar tudo sozinho.',
+      action1: { title: 'Baixe a régua por hoje', desc: 'Faça só o que realmente precisa ser feito hoje. O resto pode esperar, e tudo bem.' },
+      action2: { title: 'Conte a uma pessoa como você está', desc: 'Escolha alguém de confiança e diga em uma frase. Você não precisa explicar tudo.' },
+      action3: { title: 'Faça uma coisinha boa por você', desc: 'Uma bebida quente, uma música que você ama ou dez minutos ao ar livre amaciam um dia pesado.' },
+      vibe: 'Um dia pesado que pede gentileza',
+      advice: 'Estar cansado não quer dizer que você está falhando. Quer dizer que você vem carregando muita coisa.',
+      baseEnergy: 70,
+    },
+    Irrita: {
+      cause: 'Sua paciência pode estar bem curta hoje.',
+      trigger: 'Coisas pequenas, como uma resposta demorada ou um lugar barulhento, podem tirar você do sério mais que o normal.',
+      more: '',
+      tipsIntro: 'Para manter a calma quando tudo irrita, experimente estas 3 ideias simples:',
+      affirmation: 'Hoje eu respiro antes de reagir e escolho as minhas palavras.',
+      action1: { title: 'Afaste-se por dois minutos', desc: 'Antes de responder, saia da sala ou olhe pela janela e respire devagar. A primeira reação passa rápido.' },
+      action2: { title: 'Deixe o corpo queimar essa tensão', desc: 'Uma caminhada rápida ou alguns lances de escada dão um destino para essa tensão.' },
+      action3: { title: 'Diga o que incomoda depois, em uma frase calma', desc: 'Com a cabeça mais fria é mais fácil ser ouvido, e você não se arrepende do que disse.' },
+      vibe: 'Energia forte que pede uma pausa',
+      advice: 'Você pode sentir raiva e ainda assim escolher palavras gentis.',
+      baseEnergy: 90,
+    },
+    Afeto: {
+      cause: 'Você pode precisar de mais carinho e atenção que o normal hoje.',
+      trigger: 'Pequenas coisas de quem você ama podem machucar mais do que deveriam.',
+      more: '',
+      tipsIntro: 'Para se sentir mais perto e mais tranquilo, experimente estas 3 ideias simples:',
+      affirmation: 'Hoje eu peço o que preciso, com gentileza.',
+      action1: { title: 'Peça o que precisa em uma frase simples', desc: 'Em vez de esperar que adivinhem, diga "hoje eu queria um abraço" ou "podemos conversar mais tarde?".' },
+      action2: { title: 'Mande uma mensagem carinhosa para alguém que você ama', desc: 'Uma mensagem curta de cuidado costuma trazer o mesmo carinho de volta para você.' },
+      action3: { title: 'Não procure segundas intenções', desc: 'Se algo que alguém disse machucou, pergunte o que a pessoa quis dizer antes de decidir o que foi.' },
+      vibe: 'Um coração terno que quer proximidade',
+      advice: 'Precisar de carinho é humano. Pedir é uma força.',
+      baseEnergy: 82,
+    },
+  },
+  es: {
+    Pesado: {
+      cause: 'Puedes sentirte pesado, cansado o solo hoy.',
+      trigger: 'La sensación de tener que cargar con todo puede hacer que las tareas pequeñas parezcan enormes.',
+      more: '',
+      tipsIntro: 'Para sentirte un poco más ligero, prueba estas 3 ideas simples:',
+      affirmation: 'Hoy puedo descansar, y no tengo que cargar con todo yo solo.',
+      action1: { title: 'Baja la vara por hoy', desc: 'Haz solo lo que de verdad hay que hacer hoy. Lo demás puede esperar, y está bien.' },
+      action2: { title: 'Cuéntale a una persona cómo estás', desc: 'Elige a alguien de confianza y dilo en una frase. No tienes que explicarlo todo.' },
+      action3: { title: 'Haz una cosita buena por ti', desc: 'Una bebida caliente, una canción que amas o diez minutos al aire libre suavizan un día pesado.' },
+      vibe: 'Un día pesado que pide amabilidad',
+      advice: 'Estar cansado no significa que estés fallando. Significa que has cargado mucho.',
+      baseEnergy: 70,
+    },
+    Irrita: {
+      cause: 'Tu paciencia puede estar muy corta hoy.',
+      trigger: 'Cosas pequeñas, como una respuesta lenta o un lugar ruidoso, pueden sacarte de quicio más de lo normal.',
+      more: '',
+      tipsIntro: 'Para mantener la calma cuando todo irrita, prueba estas 3 ideas simples:',
+      affirmation: 'Hoy respiro antes de reaccionar y elijo mis palabras.',
+      action1: { title: 'Aléjate dos minutos', desc: 'Antes de responder, sal de la habitación o mira por la ventana y respira despacio. La primera reacción pasa rápido.' },
+      action2: { title: 'Deja que el cuerpo queme esa tensión', desc: 'Una caminata rápida o unas escaleras le dan a esa tensión un lugar a dónde ir.' },
+      action3: { title: 'Di lo que te molesta después, en una frase tranquila', desc: 'Con la cabeza más fría es más fácil que te escuchen, y no te arrepentirás de lo que dijiste.' },
+      vibe: 'Energía fuerte que pide una pausa',
+      advice: 'Puedes sentir rabia y aun así elegir palabras amables.',
+      baseEnergy: 90,
+    },
+    Afeto: {
+      cause: 'Puedes necesitar más cariño y atención de lo normal hoy.',
+      trigger: 'Pequeñas cosas de quienes quieres pueden doler más de lo debido.',
+      more: '',
+      tipsIntro: 'Para sentirte más cerca y más tranquilo, prueba estas 3 ideas simples:',
+      affirmation: 'Hoy pido lo que necesito, con amabilidad.',
+      action1: { title: 'Pide lo que necesitas en una frase simple', desc: 'En vez de esperar a que adivinen, di "hoy me vendría bien un abrazo" o "¿podemos hablar más tarde?".' },
+      action2: { title: 'Manda un mensaje cariñoso a alguien que quieres', desc: 'Un mensaje corto de cariño suele traer el mismo cariño de vuelta.' },
+      action3: { title: 'No busques segundas intenciones', desc: 'Si algo que dijeron te dolió, pregunta qué quisieron decir antes de decidir lo que fue.' },
+      vibe: 'Un corazón tierno que quiere cercanía',
+      advice: 'Necesitar cariño es humano. Pedirlo es una fortaleza.',
+      baseEnergy: 82,
+    },
+  },
+};
+
+function triggerSet(lang: ReadingLang, key: string): TriggerText {
+  const l = ROUTINE_TRIGGERS[lang] ? lang : 'en';
+  return EXTRA_TRIGGERS[l][key] || ROUTINE_TRIGGERS[l][key] || ROUTINE_TRIGGERS[l].Ar;
+}
+
 const SIGN_NAMES: Record<ReadingLang, Record<string, string>> = {
   pt: {},
   en: { aries: 'Aries', touro: 'Taurus', gemeos: 'Gemini', cancer: 'Cancer', leao: 'Leo', virgem: 'Virgo', libra: 'Libra', escorpiao: 'Scorpio', sagitario: 'Sagittarius', capricornio: 'Capricorn', aquario: 'Aquarius', peixes: 'Pisces' },
@@ -485,9 +618,8 @@ export function phaseNameIn(phase: string, lang: ReadingLang): string {
 /**
  * Camada 02: Consulta estruturada de Gatilhos da Rotina
  */
-export function queryAurenstarEngine(triad: AstronomicalTriad, lang: ReadingLang = 'en'): RoutineTriggerData {
-  const table = ROUTINE_TRIGGERS[lang] || ROUTINE_TRIGGERS.en;
-  const config = table[triad.todayMoon.element] || table.Ar;
+export function queryAurenstarEngine(triad: AstronomicalTriad, lang: ReadingLang = 'en', need?: string | null): RoutineTriggerData {
+  const config = triggerSet(lang, need || triad.todayMoon.element);
 
   return {
     primaryCause: config.cause,
@@ -544,13 +676,19 @@ export function generateLocalAurenEffectReading(
   birthCity: string,
   triad: AstronomicalTriad,
   trigger: RoutineTriggerData,
-  lang: ReadingLang = 'en'
+  lang: ReadingLang = 'en',
+  facts?: SkyFacts
 ): AurenEffectResult {
   const copy = READING_COPY[lang] || READING_COPY.en;
   const name = (userName?.trim().split(/\s+/)[0]) || copy.fallbackName;
 
-  const text = (ROUTINE_TRIGGERS[lang] || ROUTINE_TRIGGERS.en)[triad.todayMoon.element] || ROUTINE_TRIGGERS.en.Ar;
-  const question1Answer = `${copy.intro(name)} ${trigger.primaryCause.charAt(0).toLowerCase()}${trigger.primaryCause.slice(1)} ${trigger.hiddenTrigger}\n\n${text.more}`;
+  const signals = buildSignals(facts || factsFromTriad(triad), lang, triad.todayMoon.phase);
+  const text = triggerSet(lang, signals.need || triad.todayMoon.element);
+  const lc = (t: string) => t.charAt(0).toLowerCase() + t.slice(1);
+  // Paragraph 1: what today feels like + the strongest thing happening inside. Paragraph 2: the deeper need + the next one.
+  const p1 = [`${copy.intro(name)} ${lc(signals.todayMoon)}`, signals.aspects[0]?.text].filter(Boolean).join(' ');
+  const p2 = [signals.natalMoon, signals.aspects[1]?.text || signals.phase, signals.mercuryRetro].filter(Boolean).join(' ');
+  const question1Answer = `${p1}\n\n${p2}`;
 
   const practicalSteps = trigger.practicalActions.map((a, i) => ({
     stepNumber: i + 1,
