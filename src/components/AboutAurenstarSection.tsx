@@ -62,22 +62,26 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
     <section id="about" className="w-full border-y border-[#B7D8F5] bg-[#C9E5FF] py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <ScrollReveal distance={24} duration={700}>
-          <div className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-center md:gap-16">
-            <div className="max-w-xl">
-              <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#2878D0]">{t.eyebrow}</p>
-              <h2 className="mt-4 text-4xl font-extrabold leading-[1.08] text-[#172B4D] sm:text-5xl">{t.title}</h2>
-              <p className="mt-6 text-base leading-8 text-[#5575A4]">{t.intro}</p>
-              <button type="button" onClick={() => onOpenCard?.('platform')} className="mt-8 inline-flex items-center rounded-full bg-[#F51B83] px-6 py-3 text-sm font-bold text-white shadow-[0_8px_18px_rgba(245,27,131,0.2)] transition hover:-translate-y-0.5 hover:bg-[#D91470] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0] focus-visible:ring-offset-2">
+          <div className="grid gap-6 md:grid-cols-[0.85fr_1.15fr] md:items-stretch md:gap-8">
+            {/* Intro panel - same artwork language as the profile cover */}
+            <div className="relative flex flex-col overflow-hidden rounded-[28px] bg-[#2878D0] p-7 text-white shadow-[0_14px_36px_rgba(23,54,111,0.18)] sm:p-9">
+              <span className="pointer-events-none absolute inset-x-0 bottom-0 h-44 overflow-hidden"><CoverArt tone="blue" /></span>
+              <p className="relative text-[11px] font-extrabold uppercase tracking-[0.24em] text-white/80">{t.eyebrow}</p>
+              <h2 className="relative mt-3 text-3xl font-extrabold leading-[1.1] text-white sm:text-4xl">{t.title}</h2>
+              <span aria-hidden className="relative mt-4 block h-1 w-12 rounded-full bg-[#F51B83]" />
+              <p className="relative mt-4 text-[15px] leading-7 text-white/90">{t.intro}</p>
+              <button type="button" onClick={() => onOpenCard?.('platform')} className="relative mt-7 inline-flex items-center self-start rounded-full bg-[#F51B83] px-6 py-3 text-sm font-bold text-white shadow-[0_8px_18px_rgba(0,0,0,0.18)] transition hover:-translate-y-0.5 hover:bg-[#D9166F] focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
                 {t.button}<span className="ml-2" aria-hidden="true">→</span>
               </button>
+              <span className="mt-auto block h-24" aria-hidden />
             </div>
 
             <div>
-              <div className="mb-5 border-l-2 border-[#F51B83] pl-4">
-                <p className="text-[11px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]">{t.label}</p>
-                <p className="mt-2 max-w-lg text-sm leading-6 text-[#647DA5]">{t.lead}</p>
+              <div className="mb-4 inline-flex items-center gap-3 rounded-full border border-[#D9E8F8] bg-white px-4 py-2 shadow-sm">
+                <span aria-hidden className="h-2.5 w-2.5 rounded-full bg-[#F51B83]" />
+                <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#2878D0]">{t.label}</span>
               </div>
-              <div className="grid gap-4 sm:grid-cols-2">
+              <div className="grid gap-3 sm:grid-cols-2">
                 {t.items.map(([number, category, title, description, slug], index) => {
                   const pink = index === 1 || index === 2;
                   return (
@@ -86,17 +90,16 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                       key={slug}
                       onClick={() => onOpenCard?.(slug)}
                       style={{ backgroundColor: pink ? '#F51B83' : '#2878D0' }}
-                      className="group relative flex min-h-[310px] flex-col overflow-hidden rounded-[22px] p-5 text-left shadow-[0_14px_30px_rgba(23,54,111,0.18)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_22px_44px_rgba(23,54,111,0.28)] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                      className="group relative flex min-h-[200px] flex-col overflow-hidden rounded-[20px] p-4 text-left shadow-[0_10px_24px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_36px_rgba(23,54,111,0.26)] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
                     >
-                      {/* Same artwork language as the profile cover: flat brand colour, orbit ring, sparkles */}
-                      <span className="pointer-events-none absolute inset-x-0 bottom-0 h-24 overflow-hidden"><CoverArt tone={pink ? 'pink' : 'blue'} /></span>
+                      <span className="pointer-events-none absolute bottom-0 right-0 h-20 w-44 overflow-hidden"><CoverArt tone={pink ? 'pink' : 'blue'} /></span>
                       <span className="relative flex items-center justify-between">
-                        <span className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-white/85">{category}</span>
-                        <span className="text-[11px] font-extrabold tracking-[0.2em] text-white/60">{number}</span>
+                        <span className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-white/85">{category}</span>
+                        <span className="text-[10px] font-extrabold tracking-[0.2em] text-white/60">{number}</span>
                       </span>
-                      <span className="relative mt-2 block text-[19px] font-extrabold leading-tight text-white">{title}</span>
-                      <span className="relative mt-2 block text-[13px] leading-5 text-white/90">{description}</span>
-                      <span className="relative mt-auto inline-flex items-center gap-2 self-start rounded-full bg-white px-4 py-1.5 text-xs font-bold text-[#172B4D] shadow-[0_6px_14px_rgba(23,54,111,0.18)] transition-all duration-300 group-hover:gap-3">
+                      <span className="relative mt-1.5 block text-[16px] font-extrabold leading-tight text-white">{title}</span>
+                      <span className="relative mt-1.5 block text-[12px] leading-[1.15rem] text-white/90">{description}</span>
+                      <span className="relative mt-auto inline-flex items-center gap-1.5 self-start rounded-full bg-white px-3.5 py-1 text-[11px] font-bold text-[#172B4D] shadow-[0_4px_10px_rgba(23,54,111,0.18)] transition-all duration-300 group-hover:gap-2.5">
                         {lang === 'en' ? 'Explore' : 'Explorar'} <span aria-hidden="true">→</span>
                       </span>
                     </button>
