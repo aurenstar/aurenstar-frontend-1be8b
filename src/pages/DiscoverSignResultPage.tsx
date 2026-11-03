@@ -77,7 +77,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
             onClick={onNavigateToBlog}
             className="text-xs sm:text-sm font-bold text-[#2878D0] hover:text-[#17366F] transition-colors cursor-pointer"
           >
-            Ver Dicas no Blog →
+            {tr('Ver Dicas no Blog →', 'See Tips on the Blog →', 'Ver Consejos en el Blog →')}
           </button>
         </div>
 
@@ -89,11 +89,11 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
           </div>
 
           <h1 className="text-3xl sm:text-4xl font-extrabold text-[#172B4D] tracking-tight mb-2">
-            Seu Signo é {currentSign.name[lang] || currentSign.name.pt}
+            {tr('Seu Signo é', 'Your Sign is', 'Tu Signo es')} {currentSign.name[lang] || currentSign.name.pt}
           </h1>
 
           <p className="text-sm text-[#647DA5]">
-            Veja abaixo o significado simples do seu signo e dicas práticas para o seu dia a dia.
+            {tr('Veja abaixo o significado simples do seu signo e dicas práticas para o seu dia a dia.', 'See below the simple meaning of your sign and practical tips for your everyday life.', 'Mira abajo el significado sencillo de tu signo y consejos prácticos para tu día a día.')}
           </p>
         </div>
 
@@ -122,7 +122,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
             <span
               className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${currentSign.elementColor} shadow-2xs`}
             >
-              Elemento {currentSign.element[lang] || currentSign.element.pt}
+              {tr('Elemento', 'Element', 'Elemento')} {currentSign.element[lang] || currentSign.element.pt}
             </span>
           </div>
 
@@ -181,7 +181,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
                 className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] text-xs font-bold transition-all cursor-pointer shadow-2xs"
               >
                 <Check className="w-3.5 h-3.5 text-emerald-600" />
-                <span>Ver Posts de {currentSign.name[lang] || currentSign.name.pt}</span>
+                <span>{tr('Ver Posts de', 'See Posts about', 'Ver Posts de')} {currentSign.name[lang] || currentSign.name.pt}</span>
               </button>
             </div>
           </div>

@@ -468,7 +468,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
               title={tr('Baixar formato vertical 9:16 para Stories','Download vertical 9:16 for Stories','Descargar formato vertical 9:16 para Stories')}
             >
               <Download className="w-3 h-3 shrink-0" />
-              <span>{isGeneratingVerticalStory ? 'Gerando...' : 'Baixar Story 9:16'}</span>
+              <span>{isGeneratingVerticalStory ? tr('Gerando...', 'Generating...', 'Generando...') : tr('Baixar Story 9:16', 'Download Story 9:16', 'Descargar Story 9:16')}</span>
             </button>
 
             {/* WhatsApp */}

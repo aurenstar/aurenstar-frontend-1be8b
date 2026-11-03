@@ -324,10 +324,10 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
           <div className="flex items-center justify-between">
             <div>
               <span className="text-[11px] font-bold uppercase tracking-wider text-[#2878D0]">
-                PRONTO PARA POSTAR
+                {tr('PRONTO PARA POSTAR','READY TO POST','LISTO PARA PUBLICAR')}
               </span>
               <h2 className="text-base sm:text-lg font-bold text-[#172B4D] mt-0.5">
-                Card da Mensagem
+                {tr('Card da Mensagem','Message Card','Tarjeta del Mensaje')}
               </h2>
             </div>
             <span className="text-[10px] font-semibold text-[#2878D0] bg-[#E4F1FF] px-2.5 py-1 rounded-full border border-[#D9E8F8]">
@@ -389,10 +389,10 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               <Download className="w-3 h-3 shrink-0" />
               <span>
                 {isGeneratingStory
-                  ? 'Gerando...'
+                  ? tr('Gerando...', 'Generating...', 'Generando...')
                   : cardSuccess
-                  ? 'Baixado! ✨'
-                  : 'Baixar Card'}
+                  ? tr('Baixado! ✨', 'Downloaded! ✨', '¡Descargado! ✨')
+                  : tr('Baixar Card', 'Download Card', 'Descargar Tarjeta')}
               </span>
             </button>
 
@@ -404,7 +404,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               title={tr('Baixar formato vertical 9:16 para Stories','Download vertical 9:16 for Stories','Descargar formato vertical 9:16 para Stories')}
             >
               <Download className="w-3 h-3 shrink-0" />
-              <span>{isGeneratingVerticalStory ? 'Gerando...' : 'Baixar Story 9:16'}</span>
+              <span>{isGeneratingVerticalStory ? tr('Gerando...', 'Generating...', 'Generando...') : tr('Baixar Story 9:16', 'Download Story 9:16', 'Descargar Story 9:16')}</span>
             </button>
 
             {/* WhatsApp */}
@@ -486,7 +486,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
             onClick={onNavigateToForm}
             className="text-xs sm:text-sm font-bold text-[#647DA5] hover:text-[#2878D0] transition-colors cursor-pointer"
           >
-            ← Deseja alterar seus dados ou calcular novamente? Clique aqui
+            {tr('← Deseja alterar seus dados ou calcular novamente? Clique aqui', '← Want to change your details or calculate again? Click here', '← ¿Quieres cambiar tus datos o calcular de nuevo? Haz clic aquí')}
           </button>
         </div>
       </div>
