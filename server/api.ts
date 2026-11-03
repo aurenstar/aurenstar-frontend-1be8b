@@ -300,7 +300,9 @@ export interface PreciseSky {
   cityName: string;
 }
 
-export async function handleAurenEffect(body: any, apiKey?: string, precise?: PreciseSky | null) {
+export interface OpenAiConfig { key?: string; model?: string }
+
+export async function handleAurenEffect(body: any, apiKey?: string, precise?: PreciseSky | null, openai?: OpenAiConfig) {
   try {
     const { name, birthDate, birthTime, birthCity } = body || {};
     const lang: ReadingLang = ['pt', 'en', 'es'].includes(body?.lang) ? body.lang : 'en';
@@ -355,8 +357,8 @@ export async function handleAurenEffect(body: any, apiKey?: string, precise?: Pr
       facts
     );
 
-    const ai = getGeminiClient(apiKey);
-    if (!ai) {
+    const ai = openai?.key ? null : getGeminiClient(apiKey);
+    if (!ai && !openai?.key) {
       return ({ success: true, data: fallbackResult });
     }
 
@@ -398,24 +400,59 @@ Return ONLY a valid JSON object:
   "transparencyNote": "One short, honest sentence saying this is a gentle idea from Aurenstar to help reflect, not a prediction"
 }`;
 
-    const response = await ai.models.generateContent({
-      model: 'gemini-3.8-flash',
-      contents: prompt,
-      config: {
-        thinkingConfig: {
-          thinkingLevel: ThinkingLevel.LOW,
-        },
-        responseMimeType: 'application/json',
-      },
-    });
+    let text = '{}';
+    try {
+      if (openai?.key) {
+        // ChatGPT (OpenAI) path: a fresh, personal text for every reading.
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), 25000);
+        try {
+          const res = await fetch('https://api.openai.com/v1/chat/completions', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${openai.key}` },
+            signal: controller.signal,
+            body: JSON.stringify({
+              model: openai.model || 'gpt-4o-mini',
+              temperature: 0.9,
+              response_format: { type: 'json_object' },
+              messages: [{ role: 'user', content: prompt }],
+            }),
+          });
+          if (!res.ok) throw new Error(`OpenAI error ${res.status}`);
+          const json: any = await res.json();
+          text = json?.choices?.[0]?.message?.content?.trim() || '{}';
+        } finally {
+          clearTimeout(timer);
+        }
+      } else if (ai) {
+        const response = await ai.models.generateContent({
+          model: 'gemini-3.8-flash',
+          contents: prompt,
+          config: {
+            thinkingConfig: {
+              thinkingLevel: ThinkingLevel.LOW,
+            },
+            responseMimeType: 'application/json',
+          },
+        });
+        text = response.text?.trim() || '{}';
+      }
+    } catch (aiError) {
+      // The AI is optional: if it is slow, out of credit or down, the ready-made reading is shown.
+      console.error('AI unavailable for Aureneffect, using the ready-made reading', aiError);
+      return ({ success: true, data: fallbackResult });
+    }
 
-    const text = response.text?.trim() || '{}';
     let parsedData: any = {};
     try {
       parsedData = JSON.parse(text);
     } catch {
       const cleaned = text.replace(/```json/g, '').replace(/```/g, '').trim();
-      parsedData = JSON.parse(cleaned);
+      try {
+        parsedData = JSON.parse(cleaned);
+      } catch {
+        return ({ success: true, data: fallbackResult });
+      }
     }
 
     const finalResult = {

@@ -61,6 +61,7 @@ está em `server/api.ts` (usada pelos dois).
 
 Variável opcional no painel do Cloudflare (**Pages → Settings → Variables and Secrets**):
 
+- `OPENAI_API_KEY` — (opcional, tem prioridade) texto do Efeito Auren escrito pelo ChatGPT; `OPENAI_MODEL` troca o modelo (padrão `gpt-4o-mini`).
 - `GEMINI_API_KEY` — habilita o texto refinado por IA. Sem ela as duas rotas respondem com as
   leituras prontas do próprio código (o site continua funcionando).
 
