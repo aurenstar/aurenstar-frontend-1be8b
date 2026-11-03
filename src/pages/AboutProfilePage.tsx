@@ -369,8 +369,8 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                   {c.values.map((v, i) => {
                     const pink = i === 1;
                     return (
-                      <div key={v.title} className="group relative flex min-h-[220px] flex-col overflow-hidden rounded-2xl p-5 shadow-[0_14px_30px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(23,54,111,0.24)]" style={{ background: pink ? '#F51B83' : '#2878D0' }}>
-                        <CoverArt tone={pink ? 'pink' : 'blue'} variant={i} />
+                      <div key={v.title} className="group relative flex min-h-[300px] flex-col overflow-hidden rounded-2xl p-5 shadow-[0_14px_30px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(23,54,111,0.24)]" style={{ background: pink ? '#F51B83' : '#2878D0' }}>
+                        <div className="absolute inset-x-0 bottom-0 h-28 overflow-hidden"><CoverArt tone={pink ? 'pink' : 'blue'} /></div>
                         <span className="relative text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/80">0{i + 1}</span>
                         <span className="relative mt-1 block text-xl font-extrabold leading-tight text-white">{v.title}</span>
                         <span className="relative mt-2 block text-sm leading-relaxed text-white/90">{v.text}</span>
@@ -396,7 +396,7 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                     return (
                       <div key={step.title} className="group overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-3 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)]">
                         <div className="relative flex h-24 items-center justify-between overflow-hidden rounded-xl px-5" style={{ background: color }}>
-                          <CoverArt tone={pink ? 'pink' : 'blue'} variant={i} />
+                          <CoverArt tone={pink ? 'pink' : 'blue'} />
                           <span className="relative text-5xl font-black leading-none text-white">{i + 1}</span>
                           <Icon className="relative h-9 w-9 text-white transition-transform duration-300 group-hover:scale-110" />
                         </div>
