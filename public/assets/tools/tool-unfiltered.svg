@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D3B80"/><stop offset=".55" stop-color="#F51B83"/><stop offset="1" stop-color="#F78CBF"/></linearGradient>
-<linearGradient id="pic" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7A0F45"/><stop offset="1" stop-color="#F51B83"/></linearGradient>
+<linearGradient id="pic" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C2186B"/><stop offset="1" stop-color="#F51B83"/></linearGradient>
 <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#BBD6F8"/><stop offset="1" stop-color="#6EA8EA"/></linearGradient>
 <filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="7"/></filter></defs><rect width="520" height="280" fill="url(#bg)"/>
 <circle cx="415.5" cy="91.3" r="0.82" fill="#fff" opacity="0.66"/>
@@ -46,7 +46,7 @@
   <rect x="-58" y="-80" width="116" height="172" rx="16" fill="#0A2A63" opacity=".35" filter="url(#sh)" transform="translate(4 10)"/>
   <rect x="-58" y="-86" width="116" height="172" rx="16" fill="#fff"/>
   <rect x="-48" y="-76" width="96" height="76" rx="11" fill="url(#pic)"/>
-  <circle cx="14" cy="-42" r="22" fill="#FFE9A8"/><circle cx="23" cy="-48" r="19" fill="#C2186B"/>
+  <circle cx="14" cy="-42" r="22" fill="#FFE9A8"/><circle cx="23" cy="-48" r="19" fill="#F51B83"/>
   <circle cx="-30" cy="-58" r="1.8" fill="#fff"/><circle cx="-14" cy="-26" r="1.4" fill="#fff"/><circle cx="-34" cy="-20" r="1.6" fill="#fff" opacity=".8"/><circle cx="36" cy="-12" r="1.4" fill="#fff"/>
   <path d="M-22 -52 Q-20.68 -47.32 -16 -46 Q-20.68 -44.68 -22 -40 Q-23.32 -44.68 -28 -46 Q-23.32 -47.32 -22 -52Z" fill="#fff" opacity="1"/>
   <rect x="-48" y="12" width="66" height="9" rx="4.5" fill="#172B4D" opacity=".88"/>
