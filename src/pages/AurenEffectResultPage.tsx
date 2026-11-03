@@ -19,7 +19,7 @@ interface AurenEffectResultPageProps {
   onNavigateToBlog: () => void;
 }
 
-const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v4';
+const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v5';
 
 export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
   onBackToForm,
@@ -242,7 +242,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
         title: result?.routineTrigger?.primaryCause || '',
         affirmation: result?.affirmation || '',
         message: result?.question1Answer || '',
-        advice: result?.question2Answer || '',
+        advice: result?.practicalSteps?.[0] ? `${result.practicalSteps[0].title}. ${result.practicalSteps[0].action}` : result?.question2Answer || '',
         lang,
       };
       await downloadVerticalStoryCard(verticalData);
@@ -377,7 +377,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
 
           {/* Texto da Mensagem Diária (Linguagem Simples e Agradável) */}
           <div className="mb-5 bg-[#FFFFFF] rounded-2xl p-4 sm:p-6 border border-[#D9E8F8] shadow-2xs">
-            <p className="text-base sm:text-lg text-[#172B4D] leading-relaxed font-normal">
+            <p className="text-base sm:text-lg text-[#172B4D] leading-relaxed font-normal whitespace-pre-line">
               {result.question1Answer}
             </p>
           </div>
@@ -396,6 +396,20 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
             <p className="text-sm sm:text-base text-[#172B4D] font-semibold leading-relaxed">
               {practicalAdvice}
             </p>
+            {result?.practicalSteps && result.practicalSteps.length > 0 && (
+              <ol className="mt-4 space-y-3">
+                {result.practicalSteps.map((step) => (
+                  <li key={step.stepNumber} className="flex gap-3">
+                    <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#2878D0] text-xs font-bold text-white">
+                      {step.stepNumber}
+                    </span>
+                    <span className="text-sm sm:text-[15px] leading-relaxed text-[#172B4D]">
+                      <strong className="font-bold">{step.title}.</strong> {step.action}
+                    </span>
+                  </li>
+                ))}
+              </ol>
+            )}
           </div>
         </div>
 
