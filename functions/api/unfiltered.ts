@@ -1,10 +1,10 @@
 // Cloudflare Pages Function -> POST /api/unfiltered
 // Aurenstar Unfiltered: a candid, shareable description from the real birth chart (Swiss Ephemeris + IANA time zones + GeoNames city).
-// The description of a person never changes, so it is kept for 30 days: the same person always gets the same text.
+// One portrait per person per day (Washington date): a new theme (love, career, friends...) every day, the same text if asked again the same day.
 import { handleUnfiltered } from '../../server/api';
 import type { ChartEnv } from '../../server/engine/chart';
 import { preciseSky } from '../../server/engine/sky';
-import { countHit, getCachedReading, saveReading, usageKey, type UsageEnv } from '../../server/engine/usage';
+import { countHit, getCachedReading, saveReading, usageKey, washingtonDate, type UsageEnv } from '../../server/engine/usage';
 
 const MAX_NEW_DESCRIPTIONS_PER_IP_PER_DAY = 8;
 
@@ -24,8 +24,8 @@ export const onRequestPost = async ({ request, env }: Context): Promise<Response
   const headers = { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' };
   const firstName = String(b.name || '').trim().split(/\s+/)[0];
 
-  const personKey = await usageKey(env, ['unfiltered', firstName, b.birthDate as string, b.birthTime as string, String(b.timeKnown), b.geonameid as number, b.lang as string]);
-  const cached = await getCachedReading<unknown>(env, personKey, 30 * 24 * 3600);
+  const personKey = await usageKey(env, ['unfiltered', firstName, b.birthDate as string, b.birthTime as string, String(b.timeKnown), b.geonameid as number, b.lang as string, washingtonDate()]);
+  const cached = await getCachedReading<unknown>(env, personKey, 2 * 24 * 3600);
   if (cached) return new Response(JSON.stringify(cached), { headers });
 
   const ip = request.headers.get('CF-Connecting-IP') || 'unknown';

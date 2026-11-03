@@ -680,6 +680,19 @@ export async function handleUnfiltered(body: any, precise: PreciseSky | null, op
     const venus = pos(astro.natal.venus);
     const mars = pos(astro.natal.mars);
 
+    const UNFILTERED_THEMES = [
+      'LOVE and flirting: how they fall in love, flirt, text a crush, act in a relationship, break up or make up',
+      'CAREER and work: how they behave at work or study, with bosses and colleagues, deadlines, ambition, ideas, procrastination',
+      'FRIENDSHIP: what kind of friend they are, how they plan hangouts, keep in touch, cancel plans, give advice',
+      'FAMILY and home: how they act with family, in their room or house, chores, mess or order, comfort habits',
+      'DAILY ROUTINE: how they wake up, get ready, eat, move around the city, use the phone, handle a normal Tuesday',
+      'FUN and FREE TIME: how they party, travel, pick a movie or series, hobbies, weekends, spontaneous plans',
+      'FIGHTS and FEELINGS: how they argue, get jealous or hurt, apologise, hold grudges, cry or hide emotions',
+      'DREAMS and AMBITION: what they want from life, how they chase goals, start projects, give up and restart, fears they hide',
+      'FIRST IMPRESSION and SOCIAL LIFE: how people see them in a room, in a group, with strangers, online, versus who they really are',
+      'THE HIDDEN SIDE: what they never say out loud, what they need to feel safe, what makes them secretly proud or insecure',
+    ];
+    const theme = UNFILTERED_THEMES[Math.floor(Math.random() * UNFILTERED_THEMES.length)];
     const prompt = `You write "Aurenstar Unfiltered" for Aurenstar, a friendly astrology site: a candid, funny and kind description of ONE person, made to be shared with friends, based on their birth chart.
 Write EVERYTHING in ${languageName}.
 
@@ -692,6 +705,7 @@ HOW TO WRITE (a short, funny, addictive portrait made to be posted on Instagram 
 The reader must think "uau, sou eu mesmo!" and send it to friends saying "isso aqui é a sua cara". Aim for the feeling of a friend who knows them too well and teases them with love.
 Example of the voice (Gemini Sun, in Portuguese): "Uma pessoa geminiana que muda de ideia a cada rolê, fala sozinha em três vozes, promete 'só cinco minutinhos' e some por duas horas. Inteligente de um jeito absurdo e curiosa demais pra ficar parada: a vida dela é uma aba aberta atrás da outra."
 1. Start with the Sun sign in a neutral, gender-free way: in Portuguese "Uma pessoa [demonym of the Sun sign] que ..." (e.g. "Uma pessoa geminiana que ..."), in Spanish "Una persona [Sun sign adjective] que ...", in English "A ${nm(sun)} who ...". Never guess gender; never use the person's name; no "he" or "she".
+TODAY'S THEME (every habit in sentence 1 and the twist in sentence 2 must be about this area of life): ${theme}.
 2. ACCURACY FIRST: every trait must be genuinely typical of the Sun sign (Gemini: curious, talkative, restless, changes its mind, bored by routine, witty, many interests; Taurus: stubborn, loves comfort, food and loyalty; Aries: impulsive, competitive, direct; Cancer: protective, moody, nostalgic, homebody; Leo: warm, proud, loves attention and being the main character; Virgo: detail-obsessed, helpful, overthinks; Libra: charming, indecisive, hates conflict, loves beauty; Scorpio: intense, secretive, loyal, remembers everything; Sagittarius: free, honest to the point of hurting, adventurous; Capricorn: disciplined, ambitious, dry humour, works too much; Aquarius: original, independent, rebellious, detached; Pisces: dreamy, empathic, absorbs everyone's feelings, escapes into imagination). Never write the opposite of the sign.
 3. Make it PERSONAL: flavour it with the Moon (what they feel inside)${timeKnown ? ', the Rising sign (the first impression)' : ''}, Mercury (how they talk), Venus (how they love) and Mars (how they fight), without naming those planets. Two people with the same Sun must get different portraits.
 4. Structure, 2 short sentences, total 260 to 340 characters:
