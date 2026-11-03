@@ -15,7 +15,7 @@ export interface TermMiniJogo {
 // Field names stay as they are (they are code names); every visible text below is in English.
 export interface DictionaryTerm {
   /** Portuguese / Spanish texts written together with the term (only for automatically written terms). */
-  traducoes?: { pt?: Record<string, string>; es?: Record<string, string> };
+  traducoes?: { pt?: Record<string, any>; es?: Record<string, any> };
   id: string;
   slug: string;
   termo: string; // term

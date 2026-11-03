@@ -23,9 +23,9 @@ import { useLanguage } from '../context/LanguageContext';
 import { categoryLabel, localizeTerm } from '../data/astrologyDictionaryTranslations';
 
 const COPY = {
-  en: { home: 'Home', dict: 'Aurenstar Dictionary', seeAll: 'See All Terms', simple: 'A simple explanation, no technical words', copied: 'Link Copied!', share: 'Share This Page', what: 'What does it mean?', whatAstro: 'What does it mean in astrology?', example: 'A fictional everyday example:', want: 'Want to see how this affects your day today?', quick: 'Take a quick, free test in clear, simple language.', more: 'Explore more Aurenstar Dictionary terms on their own pages:', open: 'Open page', back: 'Back to the Full Dictionary', shareTitle: 'What does it mean in astrology?', itIs: 'What it is:', practice: 'In practice:', simpleEx: 'Simple example:', seeFull: 'See the full page, without difficult words, at:' },
-  pt: { home: 'Início', dict: 'Dicionário Aurenstar', seeAll: 'Ver Todos os Termos', simple: 'Uma explicação simples, sem palavras técnicas', copied: 'Link Copiado!', share: 'Compartilhar Esta Página', what: 'O que significa?', whatAstro: 'O que significa na astrologia?', example: 'Um exemplo fictício do dia a dia:', want: 'Quer ver como isso afeta o seu dia hoje?', quick: 'Faça um teste rápido e gratuito, em linguagem simples e clara.', more: 'Explore mais termos do Dicionário Aurenstar, cada um na sua própria página:', open: 'Abrir página', back: 'Voltar ao Dicionário Completo', shareTitle: 'O que significa na astrologia?', itIs: 'O que é:', practice: 'Na prática:', simpleEx: 'Exemplo simples:', seeFull: 'Veja a página completa, sem palavras difíceis, em:' },
-  es: { home: 'Inicio', dict: 'Diccionario Aurenstar', seeAll: 'Ver Todos los Términos', simple: 'Una explicación sencilla, sin palabras técnicas', copied: '¡Enlace Copiado!', share: 'Compartir Esta Página', what: '¿Qué significa?', whatAstro: '¿Qué significa en astrología?', example: 'Un ejemplo ficticio del día a día:', want: '¿Quieres ver cómo esto afecta tu día de hoy?', quick: 'Haz una prueba rápida y gratuita, en un lenguaje claro y sencillo.', more: 'Explora más términos del Diccionario Aurenstar, cada uno en su propia página:', open: 'Abrir página', back: 'Volver al Diccionario Completo', shareTitle: '¿Qué significa en astrología?', itIs: 'Qué es:', practice: 'En la práctica:', simpleEx: 'Ejemplo sencillo:', seeFull: 'Mira la página completa, sin palabras difíciles, en:' },
+  en: { home: 'Home', dict: 'Aurenstar Dictionary', seeAll: 'See All Terms', simple: 'A simple explanation, no technical words', copied: 'Link Copied!', share: 'Share This Page', what: 'What does it mean?', whatAstro: 'What does it mean in astrology?', example: 'A fictional everyday example:', want: 'Want to see how this affects your day today?', quick: 'Take a quick, free test in clear, simple language.', more: 'Explore more Aurenstar Dictionary terms on their own pages:', open: 'Open page', back: 'Back to the Full Dictionary', shareTitle: 'What does it mean in astrology?', itIs: 'What it is:', practice: 'In practice:', simpleEx: 'Simple example:', seeFull: 'See the full page, without difficult words, at:', faq: 'Common questions' },
+  pt: { home: 'Início', dict: 'Dicionário Aurenstar', seeAll: 'Ver Todos os Termos', simple: 'Uma explicação simples, sem palavras técnicas', copied: 'Link Copiado!', share: 'Compartilhar Esta Página', what: 'O que significa?', whatAstro: 'O que significa na astrologia?', example: 'Um exemplo fictício do dia a dia:', want: 'Quer ver como isso afeta o seu dia hoje?', quick: 'Faça um teste rápido e gratuito, em linguagem simples e clara.', more: 'Explore mais termos do Dicionário Aurenstar, cada um na sua própria página:', open: 'Abrir página', back: 'Voltar ao Dicionário Completo', shareTitle: 'O que significa na astrologia?', itIs: 'O que é:', practice: 'Na prática:', simpleEx: 'Exemplo simples:', seeFull: 'Veja a página completa, sem palavras difíceis, em:', faq: 'Perguntas frequentes' },
+  es: { home: 'Inicio', dict: 'Diccionario Aurenstar', seeAll: 'Ver Todos los Términos', simple: 'Una explicación sencilla, sin palabras técnicas', copied: '¡Enlace Copiado!', share: 'Compartir Esta Página', what: '¿Qué significa?', whatAstro: '¿Qué significa en astrología?', example: 'Un ejemplo ficticio del día a día:', want: '¿Quieres ver cómo esto afecta tu día de hoy?', quick: 'Haz una prueba rápida y gratuita, en un lenguaje claro y sencillo.', more: 'Explora más términos del Diccionario Aurenstar, cada uno en su propia página:', open: 'Abrir página', back: 'Volver al Diccionario Completo', shareTitle: '¿Qué significa en astrología?', itIs: 'Qué es:', practice: 'En la práctica:', simpleEx: 'Ejemplo sencillo:', seeFull: 'Mira la página completa, sin palabras difíciles, en:', faq: 'Preguntas frecuentes' },
 } as const;
 
 interface PublicDictionaryTermPageProps {
@@ -207,6 +207,21 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             </div>
           )}
         </article>
+
+        {/* Questions and answers: shown to everyone (the same text is in the page's FAQ data for search engines) */}
+        {term.faq && term.faq.length > 0 && (
+          <section className="mb-10" aria-label={c.faq}>
+            <h2 className="text-base font-extrabold text-[#17366F] mb-4">{c.faq}</h2>
+            <div className="space-y-3">
+              {term.faq.map((f, i) => (
+                <div key={i} className="rounded-2xl bg-white border border-[#D9E8F8] p-4 sm:p-5">
+                  <h3 className="text-sm sm:text-base font-bold text-[#17366F] mb-1">{f.pergunta}</h3>
+                  <p className="text-sm text-[#647DA5] leading-relaxed">{f.resposta}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Termos Relacionados */}
         {relatedTerms.length > 0 && (

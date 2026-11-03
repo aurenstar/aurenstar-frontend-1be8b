@@ -349,8 +349,14 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
           },
         },
       };
-      // FAQPage markup is intentionally NOT emitted: the FAQ is not shown on the term page, and
-      // Google requires structured data to match visible content.
+      // FAQPage markup: the same questions and answers are shown on the page (see PublicDictionaryTermPage).
+      if (term.faq && term.faq.length > 0) {
+        extraNodes.push({
+          '@type': 'FAQPage',
+          '@id': `${url}#faq`,
+          mainEntity: term.faq.map((f) => ({ '@type': 'Question', name: f.pergunta, acceptedAnswer: { '@type': 'Answer', text: f.resposta } })),
+        });
+      }
       crumbs = [
         { name: 'Home', url: SITE_URL },
         { name: 'Dictionary', url: `${SITE_URL}/dicionario` },

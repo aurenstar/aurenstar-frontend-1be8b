@@ -12,6 +12,7 @@ export interface TermTexts {
   oQueSignifica: string;
   oQueSignificaNaAstrologia: string;
   exemploFicticio: string;
+  faq?: { pergunta: string; resposta: string }[];
 }
 
 export const CATEGORY_LABELS: Record<TermLang, Record<DictionaryTerm['categoria'], string>> = {
@@ -345,6 +346,7 @@ export function localizeTerm<T extends DictionaryTerm>(term: T, lang: 'en' | 'pt
   return {
     ...term,
     ...texts,
+    faq: (texts as Partial<TermTexts>).faq, // only shown in a language when it was translated too
     ferramentaRelacionada: term.ferramentaRelacionada
       ? { ...term.ferramentaRelacionada, nome: TOOL_LABELS[lang][term.ferramentaRelacionada.nome] || term.ferramentaRelacionada.nome }
       : undefined,

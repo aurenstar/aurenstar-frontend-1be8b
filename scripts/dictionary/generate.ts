@@ -95,14 +95,15 @@ const LANGS = { pt: 'Brazilian Portuguese (simple everyday words, warm tone, "vo
 async function translateTerm(term: DictionaryTerm): Promise<DictionaryTerm['traducoes'] | null> {
   const out: Record<string, Record<string, string>> = {};
   for (const [code, label] of Object.entries(LANGS)) {
-    const source = Object.fromEntries(TR_KEYS.map((k) => [k, (term as any)[k]]));
+    const source: Record<string, any> = Object.fromEntries(TR_KEYS.map((k) => [k, (term as any)[k]]));
+    source.faq = term.faq || [];
     let tr: any;
-    if (DRY) tr = Object.fromEntries(TR_KEYS.map((k) => [k, `[${code}] ${source[k]}`]));
+    if (DRY) tr = { ...Object.fromEntries(TR_KEYS.map((k) => [k, `[${code}] ${source[k]}`])), faq: (term.faq || []).map((f) => ({ pergunta: `[${code}] ${f.pergunta}`, resposta: `[${code}] ${f.resposta}` })) };
     else {
       const res = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${KEY}` },
-        body: JSON.stringify({ model: MODEL, response_format: { type: 'json_object' }, messages: [{ role: 'user', content: `Translate these astrology dictionary texts into ${label}. Keep the meaning, the short sentences and the fictional names (Maria, Carlos). Keep astrology terms people really use in that language. Never mention AI. Return ONLY JSON with exactly the same keys.\n\n${JSON.stringify(source)}` }] }),
+        body: JSON.stringify({ model: MODEL, response_format: { type: 'json_object' }, messages: [{ role: 'user', content: `Translate these astrology dictionary texts into ${label}. Keep the meaning, the short sentences and the fictional names (Maria, Carlos). Keep astrology terms people really use in that language. Never mention AI. Return ONLY JSON with exactly the same keys; faq stays a list of {pergunta, resposta} with the same number of items.\n\n${JSON.stringify(source)}` }] }),
       });
       if (!res.ok) return null;
       tr = JSON.parse(String(((await res.json()) as any)?.choices?.[0]?.message?.content || '{}'));
@@ -111,7 +112,9 @@ async function translateTerm(term: DictionaryTerm): Promise<DictionaryTerm['trad
       if (typeof tr[k] !== 'string' || tr[k].trim().length < 3) return null;
       if (/\b(AI|IA)\b|artificial|chatgpt|openai/i.test(tr[k])) return null;
     }
-    out[code] = Object.fromEntries(TR_KEYS.map((k) => [k, String(tr[k]).trim()]));
+    const faqOk = Array.isArray(tr.faq) && tr.faq.length === (term.faq || []).length && tr.faq.every((f: any) => f?.pergunta?.trim() && f?.resposta?.trim() && !/\b(AI|IA)\b|artificial|chatgpt|openai/i.test(`${f.pergunta} ${f.resposta}`));
+    if (!faqOk) return null;
+    out[code] = { ...Object.fromEntries(TR_KEYS.map((k) => [k, String(tr[k]).trim()])), faq: tr.faq.map((f: any) => ({ pergunta: String(f.pergunta).trim(), resposta: String(f.resposta).trim() })) };
   }
   return out as DictionaryTerm['traducoes'];
 }
@@ -142,7 +145,7 @@ async function main() {
 
   // Terms written before translations existed (or whose translation failed) get them now.
   let translated = 0;
-  for (const g of generated.filter((t) => !t.traducoes?.pt || !t.traducoes?.es).slice(0, 25)) {
+  for (const g of generated.filter((t) => !t.traducoes?.pt?.faq || !t.traducoes?.es?.faq).slice(0, 25)) {
     try { const tr = await translateTerm(g); if (tr) { g.traducoes = tr; translated++; console.log(`  ~ translated ${g.slug}`); } } catch { /* try again next run */ }
   }
 
