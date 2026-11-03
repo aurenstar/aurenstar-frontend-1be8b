@@ -697,7 +697,8 @@ Example of the voice (Gemini Sun, in Portuguese): "Uma pessoa geminiana que muda
 4. Structure, 2 short sentences, total 260 to 340 characters:
    - Sentence 1: the "Uma pessoa [sign] que ..." list of 4 or 5 tiny, very specific, recognisable real-life habits (the kind you only know if you live with them), at least one funny flaw and one lovable thing.
    - Sentence 2: a punchy final twist that sums them up with a little contradiction or a truth that stings in a sweet way (like "mas ninguém ... melhor que ela").
-5. Everyday words a 12-year-old understands, casual spoken tone, light slang is welcome (in Portuguese: "rolê", "treta", "surtar"). Warm and cheeky, never mean or scary, nothing about health, money or death. Do not say "Moon", "Rising", "Mercury", "Venus" or "Mars" and no astrology jargon. No emojis, no markdown, no scenes with furniture or places.
+5. VARIETY: do NOT use the overused habits "mandar áudio(s)" / "voice messages", "memes", "story/stories" or "grupo". Pick habits from different areas of life each time: how they wake up, eat, shop, drive, text, plan trips, handle money-free daily chores, browse the phone, dance, argue, flirt, say goodbye, keep or lose things, start projects, react to surprises. Surprise the reader with a detail they have never read in a horoscope.
+6. Everyday words a 12-year-old understands, casual spoken tone, light slang is welcome (in Portuguese: "rolê", "treta", "surtar"). Warm and cheeky, never mean or scary, nothing about health, money or death. Do not say "Moon", "Rising", "Mercury", "Venus" or "Mars" and no astrology jargon. No emojis, no markdown, no scenes with furniture or places.
 ${varietyBlock(body, 'unfiltered')}
 Return ONLY valid JSON:
 {
