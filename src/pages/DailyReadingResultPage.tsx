@@ -296,6 +296,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
           </button>
         </div>
 
+        <h1 className="sr-only">{t.readingTitle}</h1>
         {/* Cover-style header */}
         <header className="relative mb-6 overflow-hidden rounded-[2rem] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-9" style={{ background: '#2878D0' }}>
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
@@ -386,7 +387,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
           </div>
 
           {/* Botões de Ação do Card: Estilo Cápsula/Pill Minimalista */}
-          <div className="flex flex-wrap sm:flex-nowrap items-center justify-center gap-1.5 pt-2 border-t border-[#D9E8F8]">
+          <div className="flex flex-wrap items-center justify-center gap-2 pt-3 border-t border-[#D9E8F8]">
             {/* Baixar Card */}
             <button
               type="button"

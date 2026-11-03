@@ -456,7 +456,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
           </div>
 
           {/* Botões de Ação do Card: Estilo Cápsula/Pill Minimalista */}
-          <div className="flex flex-wrap sm:flex-nowrap items-center justify-center gap-1.5 pt-2 border-t border-[#D9E8F8]">
+          <div className="flex flex-wrap items-center justify-center gap-2 pt-3 border-t border-[#D9E8F8]">
             {/* Baixar Card */}
             <button
               type="button"

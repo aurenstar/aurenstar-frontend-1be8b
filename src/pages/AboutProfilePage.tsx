@@ -238,10 +238,10 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
           {/* Name + stats */}
           <div className="mt-11 flex flex-col gap-4 px-2 sm:mt-12 sm:flex-row sm:items-center sm:justify-between sm:px-3">
             <div className="min-w-0">
-              <div className="flex items-center gap-2 text-2xl font-extrabold text-[#172B4D]">
+              <h1 className="flex items-center gap-2 text-2xl font-extrabold text-[#172B4D]">
                 <span translate="no" className="notranslate">Aurenstar</span>
                 <span aria-label={c.verified} title={c.verified} className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#2878D0] text-white"><Check className="h-3.5 w-3.5" strokeWidth={3} /></span>
-              </div>
+              </h1>
               <p className="text-sm text-[#647DA5]">{c.handle}</p>
               <p className="mt-2 max-w-md text-sm leading-relaxed text-[#17366F]">{c.bio}</p>
               <div className="mt-3 flex items-center gap-2">
