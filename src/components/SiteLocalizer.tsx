@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
+import { translateUi } from '../utils/uiTranslate';
 
 /**
  * Shows the whole site in the language of the visitor's country when the site has no hand-written menus in it
@@ -22,7 +23,8 @@ const loadCache = (key: string): Record<string, string> => {
 };
 const saveCache = (key: string, map: Record<string, string>) => {
   try {
-    const entries = Object.entries(map);
+    const merged = { ...loadCache(key), ...map }; // other parts of the site save here too
+    const entries = Object.entries(merged);
     localStorage.setItem(key, JSON.stringify(Object.fromEntries(entries.slice(-CACHE_LIMIT))));
   } catch {
     // storage full or blocked: texts are simply translated again next visit
@@ -144,7 +146,21 @@ export const SiteLocalizer: React.FC = () => {
           if (value && hasLetters(value) && attrOriginals.get(el)?.[attr] === undefined) attrNodes.push({ el, attr, value });
         }
       });
-      return { loose, groups, attrNodes };
+      const shareLinks: { el: Element; key: string; value: string }[] = [];
+      document.body.querySelectorAll('a[href]').forEach((el) => {
+        if (hrefOriginals.has(el)) return;
+        const href = el.getAttribute('href') || '';
+        if (!SHARE_HOSTS.test(href)) return;
+        try {
+          const u = new URL(href);
+          const key = ['text', 'quote'].find((k) => u.searchParams.get(k));
+          const value = key ? (u.searchParams.get(key) as string) : '';
+          if (key && value.length > 11 && /\s/.test(value) && hasLetters(value)) shareLinks.push({ el, key, value });
+        } catch {
+          // not a valid link
+        }
+      });
+      return { loose, groups, attrNodes, shareLinks };
     }
 
     async function translateBatch(strings: string[]) {
@@ -185,11 +201,12 @@ export const SiteLocalizer: React.FC = () => {
       try {
         do {
           again = false;
-          const { loose, groups, attrNodes } = collect();
+          const { loose, groups, attrNodes, shareLinks } = collect();
           const wanted = new Set<string>();
           loose.forEach((t) => wanted.add((t.nodeValue || '').trim()));
           groups.forEach((items) => wanted.add(groupString(items)));
           attrNodes.forEach((a) => wanted.add(a.value.trim()));
+          shareLinks.forEach((l) => wanted.add(l.value));
           const titleOriginal = document.title && document.title !== titleWritten ? document.title : '';
           if (titleOriginal && hasLetters(titleOriginal)) wanted.add(titleOriginal);
           const missing = [...wanted].filter((s) => s && !cache[s] && !failed.has(s));
@@ -240,6 +257,19 @@ export const SiteLocalizer: React.FC = () => {
             attrOriginals.set(el, { ...(attrOriginals.get(el) || {}), [attr]: value });
             el.setAttribute(attr, out);
           });
+          shareLinks.forEach(({ el, key, value }) => {
+            const out = cache[value];
+            if (!out) return;
+            const href = el.getAttribute('href') || '';
+            try {
+              const u = new URL(href);
+              u.searchParams.set(key, out);
+              hrefOriginals.set(el, href);
+              el.setAttribute('href', u.toString());
+            } catch {
+              // leave the link as it is
+            }
+          });
           if (titleOriginal && cache[titleOriginal]) {
             titleOriginals.push(titleOriginal);
             titleWritten = cache[titleOriginal];
@@ -250,6 +280,66 @@ export const SiteLocalizer: React.FC = () => {
         running = false;
       }
     }
+
+    // ---- Texts that leave the site (copy, share to WhatsApp / X / Telegram...) are translated too ----
+    const SHARE_HOSTS = /^https?:\/\/(api\.whatsapp\.com\/send|wa\.me\/|(www\.)?twitter\.com\/intent\/|(www\.)?x\.com\/intent\/|t\.me\/share|(www\.)?facebook\.com\/sharer)/i;
+    const hrefOriginals = new Map<Element, string>();
+    const translateOne = async (text: string): Promise<string> => {
+      if (!text || text.length < 12 || !/\s/.test(text) || !hasLetters(text)) return text;
+      try {
+        const out = await Promise.race([
+          translateUi(lang, [text]),
+          new Promise<null>((resolve) => window.setTimeout(() => resolve(null), 4000)),
+        ]);
+        return out?.[0] || text;
+      } catch {
+        return text;
+      }
+    };
+    const origWrite = navigator.clipboard?.writeText?.bind(navigator.clipboard);
+    if (origWrite) {
+      try {
+        navigator.clipboard.writeText = async (text: string) => origWrite(await translateOne(text));
+      } catch {
+        // read-only in this browser: copied text stays as is
+      }
+    }
+    const origShare = typeof navigator.share === 'function' ? navigator.share.bind(navigator) : null;
+    if (origShare) {
+      try {
+        navigator.share = async (data?: ShareData) => {
+          if (!data) return origShare(data);
+          const [text, title] = await Promise.all([data.text ? translateOne(data.text) : data.text, data.title ? translateOne(data.title) : data.title]);
+          return origShare({ ...data, text, title });
+        };
+      } catch {
+        // keep the original
+      }
+    }
+    const origOpen = window.open.bind(window);
+    window.open = ((url?: string | URL, target?: string, features?: string) => {
+      const href = String(url || '');
+      if (!SHARE_HOSTS.test(href)) return origOpen(url as any, target, features);
+      let u: URL;
+      try {
+        u = new URL(href);
+      } catch {
+        return origOpen(url as any, target, features);
+      }
+      const key = ['text', 'quote'].find((k) => u.searchParams.get(k));
+      if (!key) return origOpen(url as any, target, features);
+      const win = origOpen('about:blank', target, features); // opened right away so the browser allows it
+      if (!win) return origOpen(url as any, target, features);
+      translateOne(u.searchParams.get(key) as string).then((out) => {
+        u.searchParams.set(key, out);
+        try {
+          win.location.href = u.toString();
+        } catch {
+          // window closed meanwhile
+        }
+      });
+      return win;
+    }) as typeof window.open;
 
     const schedule = () => {
       window.clearTimeout(timer);
@@ -271,6 +361,10 @@ export const SiteLocalizer: React.FC = () => {
       originals.forEach((orig, t) => {
         if (t.isConnected && t.nodeValue === written.get(t)) t.nodeValue = orig;
       });
+      if (origWrite) { try { navigator.clipboard.writeText = origWrite; } catch { /* ignore */ } }
+      if (origShare) { try { navigator.share = origShare; } catch { /* ignore */ } }
+      window.open = origOpen as typeof window.open;
+      hrefOriginals.forEach((href, el) => el.setAttribute('href', href));
       attrOriginals.forEach((attrs, el) => {
         Object.entries(attrs).forEach(([a, v]) => el.setAttribute(a, v));
       });

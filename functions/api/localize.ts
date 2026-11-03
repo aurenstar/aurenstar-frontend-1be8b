@@ -26,9 +26,9 @@ export const onRequestGet = async ({ request, env }: Context): Promise<Response>
 
     const v = visitorLocale(request);
     // United States (and "unknown") read the original article: nothing to adapt.
-    if (v.country === 'US') return none('original');
+    if (v.country === 'US' && v.language === 'en') return none('original');
 
-    const key = await usageKey(env, ['article-loc', CACHE_VERSION, id, v.country]);
+    const key = await usageKey(env, ['article-loc', CACHE_VERSION, id, v.country, v.language]);
     let article = await getCachedReading<LocalizedArticle>(env, key, CACHE_SECONDS);
 
     if (!article) {
