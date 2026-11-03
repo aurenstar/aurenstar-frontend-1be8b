@@ -1,3 +1,5 @@
+import { pickNextTheme, rememberTheme } from '../utils/unfilteredThemes';
+import { getRecentMessages, rememberMessage } from '../utils/recentMessages';
 import React, { useState } from 'react';
 import { ArrowLeft, Sparkles, MapPin, RefreshCw } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
@@ -86,6 +88,8 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
           geonameid: birthPlace.geonameid,
           birthCity: birthPlace.label,
           lang,
+          theme: pickNextTheme(),
+          recent: getRecentMessages('unfiltered'),
         }),
       });
       const json = await res.json();
@@ -94,7 +98,11 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
         setIsLoading(false);
         return;
       }
-      if (json?.success && json.data) payload = { ...json.data };
+      if (json?.success && json.data) {
+        payload = { ...json.data };
+        rememberTheme(json.data.themeKey);
+        rememberMessage('unfiltered', String(json.data.description || ''));
+      }
     } catch {
       // keep the ready-made description
     }

@@ -2,14 +2,14 @@
 const KEY = 'aurenstar_recent_messages_v1';
 const MAX = 6;
 
-type Tool = 'effect' | 'daily';
+type Tool = 'effect' | 'daily' | 'unfiltered';
 
 function readAll(): Record<Tool, string[]> {
   try {
     const raw = JSON.parse(localStorage.getItem(KEY) || '{}');
-    return { effect: Array.isArray(raw.effect) ? raw.effect : [], daily: Array.isArray(raw.daily) ? raw.daily : [] };
+    return { effect: Array.isArray(raw.effect) ? raw.effect : [], daily: Array.isArray(raw.daily) ? raw.daily : [], unfiltered: Array.isArray(raw.unfiltered) ? raw.unfiltered : [] };
   } catch {
-    return { effect: [], daily: [] };
+    return { effect: [], daily: [], unfiltered: [] };
   }
 }
 

@@ -7,6 +7,7 @@
  * so the behaviour is identical in both places. The code below was moved out of
  * server.ts unchanged; only the Express req/res plumbing was removed.
  */
+import { UNFILTERED_THEMES, themeByKey } from '../src/utils/unfilteredThemes';
 import { buildSignals, factsFromTriad, type SkyFacts } from '../src/utils/readingSignals';
 import { GoogleGenAI, ThinkingLevel } from '@google/genai';
 import {
@@ -680,19 +681,8 @@ export async function handleUnfiltered(body: any, precise: PreciseSky | null, op
     const venus = pos(astro.natal.venus);
     const mars = pos(astro.natal.mars);
 
-    const UNFILTERED_THEMES = [
-      'LOVE and flirting: how they fall in love, flirt, text a crush, act in a relationship, break up or make up',
-      'CAREER and work: how they behave at work or study, with bosses and colleagues, deadlines, ambition, ideas, procrastination',
-      'FRIENDSHIP: what kind of friend they are, how they plan hangouts, keep in touch, cancel plans, give advice',
-      'FAMILY and home: how they act with family, in their room or house, chores, mess or order, comfort habits',
-      'DAILY ROUTINE: how they wake up, get ready, eat, move around the city, use the phone, handle a normal Tuesday',
-      'FUN and FREE TIME: how they party, travel, pick a movie or series, hobbies, weekends, spontaneous plans',
-      'FIGHTS and FEELINGS: how they argue, get jealous or hurt, apologise, hold grudges, cry or hide emotions',
-      'DREAMS and AMBITION: what they want from life, how they chase goals, start projects, give up and restart, fears they hide',
-      'FIRST IMPRESSION and SOCIAL LIFE: how people see them in a room, in a group, with strangers, online, versus who they really are',
-      'THE HIDDEN SIDE: what they never say out loud, what they need to feel safe, what makes them secretly proud or insecure',
-    ];
-    const theme = UNFILTERED_THEMES[Math.floor(Math.random() * UNFILTERED_THEMES.length)];
+    const chosen = themeByKey(body?.theme) || UNFILTERED_THEMES[Math.floor(Math.random() * UNFILTERED_THEMES.length)];
+    const theme = chosen.brief;
     const prompt = `You write "Aurenstar Unfiltered" for Aurenstar, a friendly astrology site: a candid, funny and kind description of ONE person, made to be shared with friends, based on their birth chart.
 Write EVERYTHING in ${languageName}.
 
@@ -746,6 +736,8 @@ Return ONLY valid JSON:
       success: true,
       data: {
         description,
+        themeKey: chosen.key,
+        lang,
         bigThree: {
           sun: { name: nm(sun), symbol: sun.symbol },
           moon: { name: nm(moon), symbol: moon.symbol },

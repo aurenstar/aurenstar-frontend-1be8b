@@ -3,8 +3,9 @@ import { ArrowLeft, Copy, Download, Share2, Sparkles, Check, Smartphone } from '
 import { downloadStoryCard, downloadVerticalStoryCard, shareStoryCardImage, type StoryCardData } from '../utils/generateStoryCard';
 import { useLanguage } from '../context/LanguageContext';
 import { DESCRIBE_ME_RESULT_KEY } from './DescribeMePage';
+import { themeTitle } from '../utils/unfilteredThemes';
 
-interface DescribeMeResult { name: string; sign: string; birthDate: string; birthTime?: string; birthCity?: string; description: string; createdAt: string; tagline?: string; bigThree?: { sun: { name: string; symbol: string }; moon: { name: string; symbol: string }; rising: { name: string; symbol: string } | null }; }
+interface DescribeMeResult { name: string; sign: string; birthDate: string; birthTime?: string; birthCity?: string; description: string; createdAt: string; tagline?: string; themeKey?: string; lang?: 'en' | 'pt' | 'es'; bigThree?: { sun: { name: string; symbol: string }; moon: { name: string; symbol: string }; rising: { name: string; symbol: string } | null }; }
 interface DescribeMeResultPageProps { onBackToForm: () => void; onBackToHome: () => void; onNavigateToBlog: () => void; }
 
 const AVATAR = '/aurenstar-avatar.png';
@@ -29,6 +30,7 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
     } catch { setResult(null); }
   }, []);
 
+  const cardTitle = result ? themeTitle(result.bigThree?.sun.name || result.sign, result.themeKey, (result.lang || lang) as 'en' | 'pt' | 'es') : '';
   const copyLabel = lang === 'pt' ? 'Copiar texto' : lang === 'es' ? 'Copiar texto' : 'Copy text';
   const copiedLabel = lang === 'pt' ? 'Copiado' : lang === 'es' ? 'Copiado' : 'Copied';
   const shareLabel = lang === 'pt' ? 'Compartilhar' : lang === 'es' ? 'Compartir' : 'Share';
@@ -36,10 +38,10 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
   const storyLabel = 'Story 9:16';
   const backLabel = lang === 'pt' ? 'Criar outra descrição' : lang === 'es' ? 'Crear otra descripción' : 'Create another description';
 
-  const copyText = async () => { if (!result) return; try { await navigator.clipboard.writeText(`${result.description}\n\nAurenstar · aurenstar.com`); setCopied(true); setTimeout(() => setCopied(false), 2200); } catch { /* clipboard unavailable */ } };
+  const copyText = async () => { if (!result) return; try { await navigator.clipboard.writeText(`${cardTitle}\n\n${result.description}\n\nAurenstar · aurenstar.com`); setCopied(true); setTimeout(() => setCopied(false), 2200); } catch { /* clipboard unavailable */ } };
   const cardData = (): StoryCardData => ({
     userName: result?.name || 'aurenstar', signName: result?.bigThree?.sun.name || result?.sign || '', signSymbol: result?.bigThree?.sun.symbol || '', signTheme: '',
-    title: '', affirmation: '', message: result?.description || '', advice: '', lang: lang as 'pt' | 'en' | 'es',
+    title: cardTitle, affirmation: '', message: result?.description || '', advice: '', lang: lang as 'pt' | 'en' | 'es',
   });
   const run = async (kind: 'card' | 'story' | 'share', fn: () => Promise<unknown>) => { if (busy) return; setBusy(kind); try { await fn(); } catch { /* user cancelled or canvas unavailable */ } finally { setBusy(null); } };
   const share = () => run('share', () => shareStoryCardImage(cardData()));
@@ -53,7 +55,8 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
       <div className="mb-7 flex flex-wrap items-center justify-between gap-3"><button type="button" onClick={onBackToForm} className="inline-flex items-center gap-2 text-sm font-semibold text-[#2878D0] hover:text-[#17366F]"><ArrowLeft className="h-4 w-4 shrink-0" /> {backLabel}</button><button type="button" onClick={onBackToHome} className="text-sm font-semibold text-[#647DA5] hover:text-[#17366F]">Aurenstar Home</button></div>
       <div className="rounded-[2rem] border border-[#D9E8F8] bg-white p-6 shadow-[0_14px_40px_rgba(23,54,111,0.1)] sm:p-10">
         <div className="mb-7 flex items-center justify-between"><div className="flex items-center gap-4"><img src={AVATAR} alt="Aurenstar" className="h-16 w-16 rounded-full" /><div><div className="flex items-center gap-1.5 text-xl font-extrabold text-[#172B4D]"><span translate="no" className="notranslate">Aurenstar</span> <span aria-label="Verificado" title="Perfil verificado" className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#2878D0] text-white"><Check className="h-3 w-3" strokeWidth={3} /></span></div><p className="text-sm text-[#647DA5]">@aurenstar · aurenstar.com</p></div></div><span className="text-2xl font-bold tracking-widest text-[#647DA5]">•••</span></div>
-                {result.bigThree && (
+                <p className="max-w-3xl text-2xl font-extrabold leading-tight text-[#2878D0] sm:text-3xl">{cardTitle}</p>
+        {result.bigThree && (
           <div className="mt-2 flex flex-wrap gap-2">
             {[
               { label: lang === 'pt' ? 'Sol' : lang === 'es' ? 'Sol' : 'Sun', v: result.bigThree.sun },
