@@ -312,7 +312,7 @@ export interface PreciseSky {
 
 
 /** Random creative direction + earlier messages, so two readings never feel the same. */
-function varietyBlock(body: any, kind: 'effect' | 'daily'): string {
+function varietyBlock(body: any, kind: 'effect' | 'daily' | 'unfiltered'): string {
   const pick = <T,>(arr: T[]): T => arr[Math.floor(Math.random() * arr.length)];
   const recent: string[] = Array.isArray(body?.recent)
     ? body.recent.filter((x: unknown) => typeof x === 'string').slice(0, 6).map((x: string) => x.slice(0, 170))
@@ -325,7 +325,9 @@ function varietyBlock(body: any, kind: 'effect' | 'daily'): string {
     'open with a tiny contrast ("on the outside... on the inside...") after the first name',
   ];
   const images = ['weather and skies', 'music and rhythm', 'a road trip', 'cooking and kitchen smells', 'a garden', 'the sea and waves', 'light and shadows', 'a messy desk or a tidy room', 'a phone screen and notifications', 'a crowded bus or a quiet street'];
-  const banned = kind === 'daily'
+  const banned = kind === 'unfiltered'
+    ? '"você é uma pessoa de coração enorme", "por fora forte, por dentro sensível", "mente inquieta", "alma antiga"'
+    : kind === 'daily'
     ? '"a tendência é que conversas e amizades fluam", "mande a um amigo", "Vamos conversar", "momento bom para conversar", "tende a favorecer encontros"'
     : '"mande uma mensagem a alguém", "peça companhia", "escreva por 3 minutos", "respire por 4 segundos", "tem cinco minutos para conversar"';
   return `
@@ -651,6 +653,96 @@ Return ONLY valid JSON:
     };
   } catch (err) {
     console.error('Aurendaily AI unavailable, the page will use its ready-made reading', err);
+    return { success: false };
+  }
+}
+
+
+/**
+ * Aurenstar Unfiltered: a candid, funny, shareable description of the person, written from the real birth chart
+ * (Sun, Moon and Rising sign). Returns { success: false } when there is no AI key or the AI fails, so the page shows
+ * its ready-made description.
+ */
+export async function handleUnfiltered(body: any, precise: PreciseSky | null, openai?: OpenAiConfig) {
+  try {
+    if (!openai?.key || !precise?.astro) return { success: false };
+    const lang: ReadingLang = ['pt', 'en', 'es'].includes(body?.lang) ? body.lang : 'en';
+    const userName = String(body?.name || '').trim().split(/\s+/)[0] || '';
+    const timeKnown = body?.timeKnown !== false;
+    const astro = precise.astro;
+    const pos = (lon: number) => formatCelestialPos(lon);
+    const sun = pos(astro.natal.sun);
+    const moon = pos(astro.natal.moon);
+    const rising = pos(astro.natal.ascendant);
+    const nm = (p: ReturnType<typeof formatCelestialPos>) => signNameIn(p, lang);
+    const languageName = { en: 'English', pt: 'Brazilian Portuguese', es: 'Spanish' }[lang];
+    const mercury = pos(astro.natal.mercury);
+    const venus = pos(astro.natal.venus);
+    const mars = pos(astro.natal.mars);
+
+    const prompt = `You write "Aurenstar Unfiltered" for Aurenstar, a friendly astrology site: a candid, funny and kind description of ONE person, made to be shared with friends, based on their birth chart.
+Write EVERYTHING in ${languageName}.
+
+THE PERSON: first name "${userName}".
+- Sun in ${nm(sun)}
+- Moon in ${nm(moon)}${timeKnown ? `\n- Rising sign in ${nm(rising)}` : '\n- (Birth time unknown: do not talk about the rising sign, and treat the Moon as approximate)'}
+- Mercury in ${nm(mercury)} (how they think and talk), Venus in ${nm(venus)} (how they love), Mars in ${nm(mars)} (how they fight and push)
+
+HOW TO WRITE (keep it SHORT and SIMPLE):
+1. Everyday words a 12-year-old understands. No technical astrology words in the text (no aspects, houses, degrees, retrograde). Do NOT name signs or planets inside the paragraphs (the card already shows the Sun, Moon and Rising signs).
+2. Write about the person in the third person using the first name ("${userName} é do tipo que..."). Warm, a little cheeky, never mean, never scary, nothing about health, money or death.
+3. Exactly 3 tiny paragraphs:
+   (1) "Outside": how people see them at first (blend Sun and Rising sign). 1 or 2 sentences.
+   (2) "Inside": what they really feel and secretly need (Moon, Venus), with very specific, recognisable habits. It must make them think "wow, this site really knows me". 1 or 2 sentences.
+   (3) "Unfiltered": one honest, funny truth about how they love, fight or procrastinate (Mercury, Venus, Mars), the kind of thing friends say laughing. 1 sentence.
+4. Total at most 520 characters. Very specific details of real life, no clichés.
+${varietyBlock(body, 'unfiltered')}
+Return ONLY valid JSON:
+{
+  "tagline": "A punchy title of 4 to 8 words that sums the person up, no sign names",
+  "paragraphOutside": "paragraph 1, max 170 characters",
+  "paragraphInside": "paragraph 2, max 220 characters",
+  "paragraphUnfiltered": "paragraph 3, max 130 characters"
+}`;
+
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 25000);
+    let text = '{}';
+    try {
+      const res = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${openai.key}` },
+        signal: controller.signal,
+        body: JSON.stringify({
+          model: openai.model || 'gpt-6.1-terra',
+          response_format: { type: 'json_object' },
+          messages: [{ role: 'user', content: prompt }],
+        }),
+      });
+      if (!res.ok) throw new Error(`OpenAI error ${res.status}`);
+      const json: any = await res.json();
+      text = json?.choices?.[0]?.message?.content?.trim() || '{}';
+    } finally {
+      clearTimeout(timer);
+    }
+    const parsed = JSON.parse(text.replace(/^```json\s*|```$/g, ''));
+    const description = [parsed.paragraphOutside, parsed.paragraphInside, parsed.paragraphUnfiltered].filter(Boolean).map(String).join('\n\n');
+    if (!description) return { success: false };
+    return {
+      success: true,
+      data: {
+        tagline: String(parsed.tagline || ''),
+        description,
+        bigThree: {
+          sun: { name: nm(sun), symbol: sun.symbol },
+          moon: { name: nm(moon), symbol: moon.symbol },
+          rising: timeKnown ? { name: nm(rising), symbol: rising.symbol } : null,
+        },
+        generatedByAI: true,
+      },
+    };
+  } catch (err) {
+    console.error('Unfiltered AI unavailable, the page will use its ready-made description', err);
     return { success: false };
   }
 }

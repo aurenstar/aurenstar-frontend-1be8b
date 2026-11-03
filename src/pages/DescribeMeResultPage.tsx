@@ -3,7 +3,7 @@ import { ArrowLeft, Copy, Download, Share2, Sparkles, Check } from 'lucide-react
 import { useLanguage } from '../context/LanguageContext';
 import { DESCRIBE_ME_RESULT_KEY } from './DescribeMePage';
 
-interface DescribeMeResult { name: string; sign: string; birthDate: string; birthTime?: string; birthCity?: string; description: string; createdAt: string; }
+interface DescribeMeResult { name: string; sign: string; birthDate: string; birthTime?: string; birthCity?: string; description: string; createdAt: string; tagline?: string; bigThree?: { sun: { name: string; symbol: string }; moon: { name: string; symbol: string }; rising: { name: string; symbol: string } | null }; }
 interface DescribeMeResultPageProps { onBackToForm: () => void; onBackToHome: () => void; onNavigateToBlog: () => void; }
 
 const AVATAR = '/aurenstar-avatar.png';
@@ -27,7 +27,7 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
     } catch { setResult(null); }
   }, []);
 
-  const title = useMemo(() => result ? (TITLES[result.sign] || `Aurenstar and the style of ${result.sign}`) : '', [result]);
+  const title = useMemo(() => result ? (result.tagline || TITLES[result.sign] || `Aurenstar and the style of ${result.sign}`) : '', [result]);
   const copyLabel = lang === 'pt' ? 'Copiar texto' : lang === 'es' ? 'Copiar texto' : 'Copy text';
   const copiedLabel = lang === 'pt' ? 'Copiado' : lang === 'es' ? 'Copiado' : 'Copied';
   const shareLabel = lang === 'pt' ? 'Compartilhar' : lang === 'es' ? 'Compartir' : 'Share';
@@ -44,9 +44,22 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
     <div className="mx-auto max-w-4xl">
       <div className="mb-7 flex flex-wrap items-center justify-between gap-3"><button type="button" onClick={onBackToForm} className="inline-flex items-center gap-2 text-sm font-semibold text-[#2878D0] hover:text-[#17366F]"><ArrowLeft className="h-4 w-4" /> {backLabel}</button><button type="button" onClick={onBackToHome} className="text-sm font-semibold text-[#647DA5] hover:text-[#17366F]">Aurenstar Home</button></div>
       <div className="rounded-[2rem] border border-[#D9E8F8] bg-white p-6 shadow-[0_14px_40px_rgba(23,54,111,0.1)] sm:p-10">
-        <div className="mb-7 flex items-center justify-between"><div className="flex items-center gap-4"><img src={AVATAR} alt="Aurenstar" className="h-16 w-16 rounded-full" /><div><div className="flex items-center gap-1.5 text-xl font-extrabold text-[#172B4D]">Aurenstar <span aria-label="Verificado" title="Perfil verificado" className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#2878D0] text-white"><Check className="h-3 w-3" strokeWidth={3} /></span></div><p className="text-sm text-[#647DA5]">@aurenstar · aurenstar.com</p></div></div><span className="text-2xl font-bold tracking-widest text-[#647DA5]">•••</span></div>
-        <p className="max-w-3xl text-3xl font-extrabold leading-tight text-[#2878D0] sm:text-4xl">{title}</p>
-        <p className="mt-8 max-w-3xl whitespace-pre-line text-xl leading-relaxed text-[#17366F] sm:text-2xl">{result.description}</p>
+        <div className="mb-7 flex items-center justify-between"><div className="flex items-center gap-4"><img src={AVATAR} alt="Aurenstar" className="h-16 w-16 rounded-full" /><div><div className="flex items-center gap-1.5 text-xl font-extrabold text-[#172B4D]"><span translate="no" className="notranslate">Aurenstar</span> <span aria-label="Verificado" title="Perfil verificado" className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#2878D0] text-white"><Check className="h-3 w-3" strokeWidth={3} /></span></div><p className="text-sm text-[#647DA5]">@aurenstar · aurenstar.com</p></div></div><span className="text-2xl font-bold tracking-widest text-[#647DA5]">•••</span></div>
+        <p className="max-w-3xl text-2xl font-extrabold leading-tight text-[#2878D0] sm:text-3xl">{title}</p>
+        {result.bigThree && (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {[
+              { label: lang === 'pt' ? 'Sol' : lang === 'es' ? 'Sol' : 'Sun', v: result.bigThree.sun },
+              { label: lang === 'pt' ? 'Lua' : lang === 'es' ? 'Luna' : 'Moon', v: result.bigThree.moon },
+              ...(result.bigThree.rising ? [{ label: lang === 'pt' ? 'Ascendente' : lang === 'es' ? 'Ascendente' : 'Rising', v: result.bigThree.rising }] : []),
+            ].map((c) => (
+              <span key={c.label} className="inline-flex items-center gap-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-3 py-1 text-xs font-bold text-[#2878D0] sm:text-sm">
+                <span>{c.v.symbol}</span>{c.label}: {c.v.name}
+              </span>
+            ))}
+          </div>
+        )}
+        <p className="mt-6 max-w-3xl whitespace-pre-line text-lg leading-relaxed text-[#17366F] sm:text-xl">{result.description}</p>
         <p className="mt-10 text-sm text-[#647DA5]">{formatTime(result.createdAt, lang)} · aurenstar.com</p>
       </div>
       <div className="mt-4 flex flex-wrap justify-center gap-2"><button type="button" onClick={copyText} className="inline-flex items-center gap-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-4 py-2.5 text-sm font-semibold text-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] hover:text-white transition-colors"><Copy className="h-4 w-4 text-[#2878D0]" />{copied ? copiedLabel : copyLabel}</button><button type="button" onClick={share} className="inline-flex items-center gap-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-4 py-2.5 text-sm font-semibold text-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] hover:text-white transition-colors"><Share2 className="h-4 w-4 text-[#2878D0]" />{shareLabel}</button><button type="button" onClick={download} className="inline-flex items-center gap-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-4 py-2.5 text-sm font-semibold text-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] hover:text-white transition-colors"><Download className="h-4 w-4 text-[#2878D0]" />{downloadLabel}</button><button type="button" onClick={onNavigateToBlog} className="inline-flex items-center gap-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] px-4 py-2.5 text-sm font-semibold text-[#2878D0] hover:bg-[#F51B83] hover:border-[#F51B83] hover:text-white transition-colors">Blog</button></div>

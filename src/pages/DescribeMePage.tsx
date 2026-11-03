@@ -1,6 +1,8 @@
-import React, { useMemo, useState } from 'react';
-import { ArrowLeft, Sparkles } from 'lucide-react';
+import React, { useState } from 'react';
+import { ArrowLeft, Sparkles, MapPin, RefreshCw } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
+import { calculateZodiacSign } from '../utils/dailyReadingStorage';
 
 type SignKey = 'aries' | 'taurus' | 'gemini' | 'cancer' | 'leo' | 'virgo' | 'libra' | 'scorpio' | 'sagittarius' | 'capricorn' | 'aquarius' | 'pisces';
 
@@ -36,32 +38,79 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
   const { language } = useLanguage();
   const lang = (language || 'en') as 'pt' | 'en' | 'es';
   const [name, setName] = useState('');
-  const [sign, setSign] = useState<SignKey>('gemini');
+  const [birthPlace, setBirthPlace] = useState<PickedCity | null>(null);
+  const [cityError, setCityError] = useState(false);
+  const [timeUnknown, setTimeUnknown] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [limitReached, setLimitReached] = useState(false);
   const [birthDate, setBirthDate] = useState('');
-  const [birthTime, setBirthTime] = useState('');
-  const [birthCity, setBirthCity] = useState('');
+  const [birthTime, setBirthTime] = useState('12:00');
 
   const copy = {
-    pt: { tag: 'AURENSTAR UNFILTERED', title: 'Aurenstar Unfiltered', subtitle: 'Crie uma descrição astrológica divertida, pessoal e feita para compartilhar.', name: 'Nome', sign: 'Signo solar', date: 'Data de nascimento', time: 'Horário de nascimento', city: 'Cidade de nascimento', generate: 'Criar minha descrição', required: 'Preencha nome, signo e data para continuar.', back: 'Voltar ao início', note: 'Prévia do front end: os cálculos de Swiss Ephemeris, fuso e localização serão conectados na próxima etapa.', copy: 'Copiar descrição', copied: 'Descrição copiada', share: 'Compartilhar', download: 'Salvar card', blog: 'Conhecer o blog' },
-    en: { tag: 'AURENSTAR UNFILTERED', title: 'Aurenstar Unfiltered', subtitle: 'Create a personal, playful astrology description made to be shared.', name: 'Name', sign: 'Sun sign', date: 'Birth date', time: 'Birth time', city: 'Birth city', generate: 'Create my description', required: 'Add a name, sign, and birth date to continue.', back: 'Back to home', note: 'Front-end preview: Swiss Ephemeris, time zone, and location calculations will be connected next.', copy: 'Copy description', copied: 'Description copied', share: 'Share', download: 'Save card', blog: 'Explore the blog' },
-    es: { tag: 'AURENSTAR UNFILTERED', title: 'Aurenstar Unfiltered', subtitle: 'Crea una descripción astrológica personal, divertida y fácil de compartir.', name: 'Nombre', sign: 'Signo solar', date: 'Fecha de nacimiento', time: 'Hora de nacimiento', city: 'Ciudad de nacimiento', generate: 'Crear mi descripción', required: 'Añade nombre, signo y fecha para continuar.', back: 'Volver al inicio', note: 'Vista previa del front end: Swiss Ephemeris, zona horaria y ubicación se conectarán después.', copy: 'Copiar descripción', copied: 'Descripción copiada', share: 'Compartir', download: 'Guardar card', blog: 'Conocer el blog' },
+    pt: { cityPlaceholder: 'Digite sua cidade (ex: São Paulo)', cityNoResults: 'Nenhuma cidade encontrada. Tente outro nome.', cityRequired: 'Escolha sua cidade na lista de sugestões.', timeUnknown: 'Não sei a hora exata', calculating: 'Calculando seu mapa...', limited: 'Muitas descrições foram criadas por esta conexão hoje. Tente novamente amanhã.', tag: 'AURENSTAR UNFILTERED', title: 'Aurenstar Unfiltered', subtitle: 'Crie uma descrição astrológica divertida, pessoal e feita para compartilhar.', name: 'Nome', sign: 'Signo solar', date: 'Data de nascimento', time: 'Horário de nascimento', city: 'Cidade de nascimento', generate: 'Criar minha descrição', required: 'required', back: 'Voltar ao início', note: 'Prévia do front end: os cálculos de Swiss Ephemeris, fuso e localização serão conectados na próxima etapa.', copy: 'Copiar descrição', copied: 'Descrição copiada', share: 'Compartilhar', download: 'Salvar card', blog: 'Conhecer o blog' },
+    en: { cityPlaceholder: 'Type your city (e.g., Munich)', cityNoResults: 'No city found. Try another spelling.', cityRequired: 'Please pick your city from the suggestions.', timeUnknown: 'I do not know the exact time', calculating: 'Calculating your chart...', limited: 'Too many descriptions were created from this connection today. Try again tomorrow.', tag: 'AURENSTAR UNFILTERED', title: 'Aurenstar Unfiltered', subtitle: 'Create a personal, playful astrology description made to be shared.', name: 'Name', sign: 'Sun sign', date: 'Birth date', time: 'Birth time', city: 'Birth city', generate: 'Create my description', required: 'required', back: 'Back to home', note: 'Front-end preview: Swiss Ephemeris, time zone, and location calculations will be connected next.', copy: 'Copy description', copied: 'Description copied', share: 'Share', download: 'Save card', blog: 'Explore the blog' },
+    es: { cityPlaceholder: 'Escribe tu ciudad (ej.: Madrid)', cityNoResults: 'No se encontró la ciudad. Prueba otro nombre.', cityRequired: 'Elige tu ciudad en la lista de sugerencias.', timeUnknown: 'No sé la hora exacta', calculating: 'Calculando tu carta...', limited: 'Se crearon demasiadas descripciones desde esta conexión hoy. Inténtalo mañana.', tag: 'AURENSTAR UNFILTERED', title: 'Aurenstar Unfiltered', subtitle: 'Crea una descripción astrológica personal, divertida y fácil de compartir.', name: 'Nombre', sign: 'Signo solar', date: 'Fecha de nacimiento', time: 'Hora de nacimiento', city: 'Ciudad de nacimiento', generate: 'Crear mi descripción', required: 'required', back: 'Volver al inicio', note: 'Vista previa del front end: Swiss Ephemeris, zona horaria y ubicación se conectarán después.', copy: 'Copiar descripción', copied: 'Descripción copiada', share: 'Compartir', download: 'Guardar card', blog: 'Conocer el blog' },
   }[lang];
 
-  const signName = SIGN_NAMES[sign][lang];
-  const description = useMemo(() => {
-    const person = name.trim() || (lang === 'pt' ? 'Esta pessoa' : lang === 'es' ? 'Esta persona' : 'This person');
+  // Ready-made description (used only if the calculation or the AI is not available).
+  const PT_TO_EN: Record<string, SignKey> = { aries: 'aries', touro: 'taurus', gemeos: 'gemini', cancer: 'cancer', leao: 'leo', virgem: 'virgo', libra: 'libra', escorpiao: 'scorpio', sagitario: 'sagittarius', capricornio: 'capricorn', aquario: 'aquarius', peixes: 'pisces' };
+  const buildFallback = (sign: SignKey) => {
+    const signName = SIGN_NAMES[sign][lang];
+    const person = name.trim().split(/\s+/)[0] || (lang === 'pt' ? 'Esta pessoa' : lang === 'es' ? 'Esta persona' : 'This person');
     const trait = SIGN_TRAITS[sign][lang];
     if (lang === 'pt') return `${person} é de ${signName}: ${trait}. Parece espontânea, mas existe muita percepção por trás de cada escolha — e quando algo desperta sua curiosidade, fica difícil não querer saber mais.`;
     if (lang === 'es') return `${person} es ${signName}: ${trait}. Parece espontánea, pero hay mucha percepción detrás de cada elección — y cuando algo despierta su curiosidad, es difícil no querer saber más.`;
     return `${person} is a ${signName}: ${trait}. They may look spontaneous, but there is plenty of perception behind every choice — and once curiosity is sparked, it is hard not to keep asking questions.`;
-  }, [lang, name, sign, signName]);
+  };
 
-  const handleGenerate = (event: React.FormEvent) => {
+  const handleGenerate = async (event: React.FormEvent) => {
     event.preventDefault();
     if (!name.trim() || !birthDate) return;
+    if (!birthPlace) {
+      setCityError(true);
+      return;
+    }
+    setIsLoading(true);
+    setLimitReached(false);
+    const [y, m, d] = birthDate.split('-').map((n) => parseInt(n, 10));
+    const sign = PT_TO_EN[calculateZodiacSign(d || 1, m || 1)] || 'gemini';
+    let payload: Record<string, unknown> = { description: buildFallback(sign) };
+
+    // Real birth chart (Swiss Ephemeris + IANA time zone + GeoNames city), written by AI; falls back to the ready-made text.
     try {
-      localStorage.setItem(DESCRIBE_ME_RESULT_KEY, JSON.stringify({ name: name.trim(), sign, birthDate, birthTime, birthCity: birthCity.trim(), description, createdAt: new Date().toISOString() }));
-    } catch { /* local storage may be unavailable */ }
+      const res = await fetch('/api/unfiltered', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name,
+          birthDate,
+          birthTime: timeUnknown ? '12:00' : birthTime || '12:00',
+          timeKnown: !timeUnknown,
+          geonameid: birthPlace.geonameid,
+          birthCity: birthPlace.label,
+          lang,
+        }),
+      });
+      const json = await res.json();
+      if (json?.limited) {
+        setLimitReached(true);
+        setIsLoading(false);
+        return;
+      }
+      if (json?.success && json.data) payload = { ...json.data };
+    } catch {
+      // keep the ready-made description
+    }
+    void y;
+    try {
+      localStorage.setItem(
+        DESCRIBE_ME_RESULT_KEY,
+        JSON.stringify({ name: name.trim(), sign, birthDate, birthTime: timeUnknown ? '' : birthTime, birthCity: birthPlace.label, ...payload, createdAt: new Date().toISOString() }),
+      );
+    } catch {
+      /* local storage may be unavailable */
+    }
+    setIsLoading(false);
     onNavigateToResult();
   };
 
@@ -76,10 +125,26 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
           <p className="mt-3 text-sm leading-relaxed text-[#647DA5]">{copy.subtitle}</p>
           <form onSubmit={handleGenerate} className="mt-7 space-y-4">
             <label className="block text-xs font-bold text-[#172B4D]">{copy.name}<input required value={name} onChange={(e) => setName(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#2878D0]" placeholder="Andriel" /></label>
-            <label className="block text-xs font-bold text-[#172B4D]">{copy.sign}<select value={sign} onChange={(e) => setSign(e.target.value as SignKey)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] bg-white px-3 py-2.5 text-sm outline-none focus:border-[#2878D0]">{(Object.keys(SIGN_NAMES) as SignKey[]).map((key) => <option key={key} value={key}>{SIGN_NAMES[key][lang]}</option>)}</select></label>
-            <div className="grid gap-3 sm:grid-cols-2"><label className="block text-xs font-bold text-[#172B4D]">{copy.date}<input required type="date" value={birthDate} onChange={(e) => setBirthDate(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#2878D0]" /></label><label className="block text-xs font-bold text-[#172B4D]">{copy.time}<input type="time" value={birthTime} onChange={(e) => setBirthTime(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#2878D0]" /></label></div>
-            <label className="block text-xs font-bold text-[#172B4D]">{copy.city}<input value={birthCity} onChange={(e) => setBirthCity(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#2878D0]" placeholder="New York" /></label>
-            <button type="submit" className="w-full rounded-full bg-[#2878D0] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#17366F]"><Sparkles className="mr-2 inline h-4 w-4" />{copy.generate}</button>
+            <div>
+              <label className="block text-xs font-bold text-[#172B4D]"><span className="flex items-center gap-1.5"><MapPin className="h-3.5 w-3.5 text-[#F51B83]" />{copy.city}</span></label>
+              <div className="mt-1.5">
+                <CityAutocomplete
+                  value={birthPlace}
+                  onChange={(city) => { setBirthPlace(city); if (city) setCityError(false); }}
+                  placeholder={copy.cityPlaceholder}
+                  noResultsText={copy.cityNoResults}
+                  className="w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#2878D0]"
+                />
+              </div>
+              {cityError && <p className="mt-1.5 text-[11px] font-semibold text-[#F51B83]">{copy.cityRequired}</p>}
+            </div>
+            <div className="grid gap-3 sm:grid-cols-2">
+              <label className="block text-xs font-bold text-[#172B4D]">{copy.date}<input required type="date" value={birthDate} onChange={(e) => setBirthDate(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#2878D0]" /></label>
+              <label className="block text-xs font-bold text-[#172B4D]">{copy.time}<input type="time" disabled={timeUnknown} value={birthTime} onChange={(e) => setBirthTime(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#2878D0] disabled:opacity-40" /></label>
+            </div>
+            <label className="flex items-center gap-2 text-xs font-medium text-[#647DA5]"><input type="checkbox" checked={timeUnknown} onChange={(e) => setTimeUnknown(e.target.checked)} className="h-4 w-4 accent-[#2878D0]" />{copy.timeUnknown}</label>
+            {limitReached && <p className="text-[11px] font-semibold text-[#F51B83]">{copy.limited}</p>}
+            <button type="submit" disabled={isLoading} className="w-full rounded-full bg-[#2878D0] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#17366F] disabled:opacity-60">{isLoading ? <RefreshCw className="mr-2 inline h-4 w-4 animate-spin" /> : <Sparkles className="mr-2 inline h-4 w-4" />}{isLoading ? copy.calculating : copy.generate}</button>
           </form>
         </div>
     </div>
