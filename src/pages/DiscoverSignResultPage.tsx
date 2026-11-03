@@ -3,6 +3,8 @@ import {
   ArrowLeft,
   Star,
   ArrowRight,
+  Lightbulb,
+  Sparkles,
   Check,
   Share2,
   Calendar,
@@ -63,7 +65,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
 
   return (
     <div className="w-full bg-[#C9E5FF] min-h-screen pt-24 sm:pt-28 pb-20 select-none animate-fadeIn text-[#172B4D]">
-      <div className="max-w-2xl mx-auto px-4 sm:px-6">
+      <div className="max-w-3xl mx-auto px-4 sm:px-6">
         {/* Barra Superior de Navegação */}
         <div className="flex items-center justify-between mb-8 pb-4 border-b border-[#D9E8F8]">
           <button
@@ -84,59 +86,47 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
           </button>
         </div>
 
-        {/* Cover-style result header */}
-        <header className="relative mb-6 overflow-hidden rounded-3xl bg-[#2878D0] p-4 text-white shadow-[0_10px_28px_rgba(23,54,111,0.15)] sm:p-5">
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-10 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
-          <div className="relative flex flex-col gap-4 pb-8 sm:flex-row sm:items-center sm:gap-4 sm:pb-0 sm:pr-[34%]">
-            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-white text-3xl font-black text-[#2878D0] shadow-lg">
+        {/* Hero */}
+        <header className="relative mb-5 overflow-hidden rounded-[2rem] bg-[#2878D0] px-6 pb-9 pt-9 text-center text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:px-10 sm:pb-11 sm:pt-11">
+          <div className="pointer-events-none absolute inset-0 overflow-hidden opacity-35"><CoverArt tone="blue" /></div>
+          <div className="relative flex flex-col items-center">
+            <span className="mb-4 inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 text-[11px] font-bold uppercase tracking-wider">
+              <Sparkles className="h-3 w-3" />
+              {tr('Resultado da Sua Data de Nascimento','Your Birth Date Result','Resultado de Tu Fecha de Nacimiento')}
+            </span>
+            <div className="mb-4 flex h-24 w-24 items-center justify-center rounded-[1.75rem] bg-white text-6xl font-black text-[#2878D0] shadow-xl ring-4 ring-white/25">
               {currentSign.symbol}{'\uFE0E'}
             </div>
-            <div>
-              <div className="mb-2 inline-flex items-center rounded-full bg-white/15 px-3 py-1 text-[11px] font-bold uppercase tracking-wider">
-                {tr('Resultado da Sua Data de Nascimento','Your Birth Date Result','Resultado de Tu Fecha de Nacimiento')}
-              </div>
-              <h1 className="text-2xl font-extrabold leading-tight tracking-tight sm:text-3xl">
-                {tr('Seu Signo é', 'Your Sign is', 'Tu Signo es')} {currentSign.name[lang] || currentSign.name.pt}
-              </h1>
-              <span aria-hidden className="mt-2 block h-1 w-10 rounded-full bg-[#F51B83]" />
-              <p className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-white/90">
-                <span className="inline-flex items-center gap-1.5"><Calendar className="h-3.5 w-3.5" />{currentSign.period[lang] || currentSign.period.pt}</span>
-                <span className="inline-flex items-center rounded-full bg-white px-2.5 py-0.5 text-[11px] font-extrabold uppercase tracking-wider text-[#2878D0]">
-                  {tr('Elemento', 'Element', 'Elemento')} {currentSign.element[lang] || currentSign.element.pt}
-                </span>
-              </p>
+            <p className="text-sm font-semibold text-white/85">{tr('Seu Signo é', 'Your Sign is', 'Tu Signo es')}</p>
+            <h1 className="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
+              {currentSign.name[lang] || currentSign.name.pt}
+            </h1>
+            <span aria-hidden className="my-3 block h-1 w-12 rounded-full bg-[#F51B83]" />
+            <div className="flex flex-wrap items-center justify-center gap-2 text-sm">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 font-semibold"><Calendar className="h-3.5 w-3.5" />{currentSign.period[lang] || currentSign.period.pt}</span>
+              <span className="inline-flex items-center rounded-full bg-white px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider text-[#2878D0]">
+                {tr('Elemento', 'Element', 'Elemento')} {currentSign.element[lang] || currentSign.element.pt}
+              </span>
             </div>
           </div>
         </header>
 
-        {/* Essence card */}
-        <div className="mb-6 overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-3 shadow-md">
-          <div className="relative overflow-hidden rounded-2xl bg-[#17366F] p-5 text-white sm:p-6">
-            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-12 overflow-hidden opacity-50"><CoverArt tone="blue" variant={1} /></div>
-            <div className="relative">
-              <h2 className="mb-2 flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-white/90">
-                <Star className="h-4 w-4" />
-                <span>{tr('Sua Essência e Jeito de Ser','Your Essence and Way of Being','Tu Esencia y Forma de Ser')}</span>
-              </h2>
-              <p className="mb-12 text-sm font-medium leading-relaxed sm:text-base">
-                {currentSign.essence[lang] || currentSign.essence.pt}
-              </p>
+        {/* Essence + advice */}
+        <div className="mb-5 grid gap-4 md:grid-cols-2">
+          <section className="rounded-3xl border border-[#D9E8F8] bg-white p-6 shadow-md">
+            <div className="mb-3 flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-[#2878D0] text-white"><Star className="h-5 w-5" /></span>
+              <h2 className="text-xs font-extrabold uppercase tracking-wider text-[#2878D0]">{tr('Sua Essência','Your Essence','Tu Esencia')}</h2>
             </div>
-          </div>
-
-          <div className="space-y-2.5 p-3 pt-4">
-            <button
-              type="button"
-              onClick={handleCopy}
-              className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-2xl bg-[#2878D0] px-4 py-3 text-xs font-extrabold text-white shadow-sm transition-all hover:bg-[#17366F] sm:text-sm"
-            >
-              {copied ? (
-                <><Check className="h-4 w-4" /><span>{tr('Copiado com Sucesso!','Copied!','¡Copiado!')}</span></>
-              ) : (
-                <><Share2 className="h-4 w-4" /><span>{tr('Compartilhar Meu Signo','Share My Sign','Compartir Mi Signo')}</span></>
-              )}
-            </button>
-          </div>
+            <p className="text-base font-semibold leading-relaxed text-[#172B4D]">{currentSign.essence[lang] || currentSign.essence.pt}</p>
+          </section>
+          <section className="rounded-3xl bg-[#F51B83] p-6 text-white shadow-md">
+            <div className="mb-3 flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-white text-[#F51B83]"><Lightbulb className="h-5 w-5" /></span>
+              <h2 className="text-xs font-extrabold uppercase tracking-wider">{tr('Dica Para Você','Tip For You','Consejo Para Ti')}</h2>
+            </div>
+            <p className="text-base font-semibold leading-relaxed">{currentSign.advice[lang] || currentSign.advice.pt}</p>
+          </section>
         </div>
 
         {/* Artigo recomendado do signo */}
@@ -144,32 +134,43 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
           <button
             type="button"
             onClick={() => onOpenArticle(recommended.id)}
-            className="group mb-6 flex w-full cursor-pointer items-stretch overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white text-left shadow-md transition-all hover:-translate-y-0.5 hover:shadow-lg"
+            className="group mb-5 flex w-full cursor-pointer flex-col overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white text-left shadow-md transition-all hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus-visible:ring-4 focus-visible:ring-[#F51B83]/30 sm:flex-row"
           >
-            <img src={recommended.image} alt="" loading="lazy" className="hidden h-auto w-32 shrink-0 object-cover sm:block" />
-            <div className="flex-1 p-4 sm:p-5">
-              <span className="inline-flex rounded-full bg-[#F51B83] px-2.5 py-0.5 text-[10px] font-extrabold uppercase tracking-wider text-white">
+            <img src={recommended.image} alt="" loading="lazy" className="h-40 w-full shrink-0 object-cover sm:h-auto sm:w-56" />
+            <div className="flex flex-1 flex-col justify-center p-5 sm:p-6">
+              <span className="inline-flex w-fit rounded-full bg-[#E4F1FF] px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-[#2878D0]">
                 {tr('Artigo para você','Article for you','Artículo para ti')}
               </span>
-              <h3 className="mt-2 text-base font-extrabold leading-snug text-[#172B4D] sm:text-lg">
+              <h3 className="mt-2 text-lg font-extrabold leading-snug text-[#172B4D] sm:text-xl">
                 {recommended.title[lang] || recommended.title.pt}
               </h3>
-              <span className="mt-3 inline-flex items-center gap-1.5 text-xs font-bold text-[#2878D0] group-hover:text-[#F51B83]">
+              <span className="mt-4 inline-flex w-fit items-center gap-2 rounded-full bg-[#F51B83] px-4 py-2 text-xs font-extrabold text-white transition-colors group-hover:bg-[#D9166F]">
                 {tr('Ler no blog','Read on the blog','Leer en el blog')} <ArrowRight className="h-3.5 w-3.5" />
               </span>
             </div>
           </button>
         )}
 
-        {/* Botão para Testar Outra Data */}
-        <div className="text-center">
+        {/* Ações */}
+        <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <button
+            type="button"
+            onClick={handleCopy}
+            className="inline-flex w-full cursor-pointer items-center justify-center gap-2 rounded-full bg-[#2878D0] px-6 py-3 text-sm font-extrabold text-white shadow-sm transition-all hover:bg-[#17366F] focus:outline-none focus-visible:ring-4 focus-visible:ring-[#2878D0]/30 sm:w-auto"
+          >
+            {copied ? (
+              <><Check className="h-4 w-4" /><span>{tr('Copiado com Sucesso!','Copied!','¡Copiado!')}</span></>
+            ) : (
+              <><Share2 className="h-4 w-4" /><span>{tr('Compartilhar Meu Signo','Share My Sign','Compartir Mi Signo')}</span></>
+            )}
+          </button>
           <button
             type="button"
             onClick={onBackToForm}
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#2878D0] hover:bg-[#F51B83] text-white text-xs sm:text-sm font-bold shadow-sm transition-all cursor-pointer"
+            className="inline-flex w-full cursor-pointer items-center justify-center gap-2 rounded-full border-2 border-[#2878D0] bg-white px-6 py-2.5 text-sm font-extrabold text-[#2878D0] transition-all hover:bg-[#2878D0] hover:text-white focus:outline-none focus-visible:ring-4 focus-visible:ring-[#2878D0]/30 sm:w-auto"
           >
-            <RotateCcw className="w-4 h-4" />
-            <span>{tr('Colocar Outra Data de Nascimento','Enter Another Birth Date','Poner Otra Fecha de Nacimiento')}</span>
+            <RotateCcw className="h-4 w-4" />
+            <span>{tr('Colocar Outra Data','Enter Another Date','Poner Otra Fecha')}</span>
           </button>
         </div>
       </div>
