@@ -174,6 +174,14 @@ const TOOL_ICONS: Record<string, React.ElementType> = {
   dicionario: BookOpen,
 };
 
+const TOOL_COLORS: Record<string, [string, string]> = {
+  'daily-message': ['#2878D0', '#6D9BE6'],
+  aureneffect: ['#F51B83', '#FF7AB8'],
+  'discover-sign': ['#7C4DFF', '#B39DFF'],
+  'describe-me': ['#FF8A3D', '#FFC371'],
+  dicionario: ['#12A594', '#5FD3C3'],
+};
+
 export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, onOpenArticle }) => {
   const { language } = useLanguage();
   const lang = (language || 'en') as Lang;
@@ -221,19 +229,38 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
         </Card>
 
         {/* Tools */}
+        <style>{`
+          @keyframes aboutRise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+          @keyframes aboutFloat { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-4px) rotate(-4deg); } }
+          @media (prefers-reduced-motion: reduce) { .about-tool, .about-ico { animation: none !important; } }
+        `}</style>
         <Card title={c.toolsTitle} lead={c.toolsLead}>
-          <div className="grid gap-3">
-            {c.tools.map((tool) => {
+          <div className="grid gap-3 sm:grid-cols-2">
+            {c.tools.map((tool, i) => {
               const Icon = TOOL_ICONS[tool.key] || Sparkles;
+              const [from, to] = TOOL_COLORS[tool.key] || ['#2878D0', '#6D9BE6'];
+              const last = i === c.tools.length - 1 && c.tools.length % 2 === 1;
               return (
-                <button key={tool.key} type="button" onClick={() => onNavigate(tool.key)} className="group flex w-full items-center gap-4 rounded-2xl border border-[#D9E8F8] bg-[#F9FCFF] p-4 text-left transition-all hover:border-[#2878D0]/40 hover:bg-white hover:shadow-md">
-                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#E4F1FF] text-[#2878D0]"><Icon className="h-5 w-5" /></span>
-                  <span className="min-w-0 flex-1">
-                    <span className="block text-base font-extrabold text-[#172B4D] group-hover:text-[#2878D0]">{tool.name}</span>
-                    <span className="block text-sm leading-snug text-[#647DA5]">{tool.text}</span>
+                <button
+                  key={tool.key}
+                  type="button"
+                  onClick={() => onNavigate(tool.key)}
+                  style={{ animation: `aboutRise 0.5s ease-out ${i * 90}ms both`, ['--c1' as string]: from, ['--c2' as string]: to }}
+                  className={`about-tool group relative flex w-full flex-col overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-5 text-left shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-transparent hover:shadow-[0_18px_40px_rgba(23,54,111,0.18)] focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40 ${last ? 'sm:col-span-2' : ''}`}
+                >
+                  <span aria-hidden className="pointer-events-none absolute inset-x-0 top-0 h-1.5" style={{ background: `linear-gradient(90deg, ${from}, ${to})` }} />
+                  <span aria-hidden className="pointer-events-none absolute -right-10 -top-10 h-32 w-32 rounded-full opacity-0 blur-2xl transition-opacity duration-500 group-hover:opacity-30" style={{ background: `linear-gradient(135deg, ${from}, ${to})` }} />
+                  <span className="relative flex items-start justify-between gap-3">
+                    <span className="about-ico flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl text-white shadow-md transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-6" style={{ background: `linear-gradient(135deg, ${from}, ${to})`, animation: `aboutFloat 4s ease-in-out ${i * 400}ms infinite` }}>
+                      <Icon className="h-7 w-7" />
+                    </span>
+                    <span className="rounded-full bg-[#F4F9FF] px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-[#2878D0]">{String(i + 1).padStart(2, '0')}</span>
                   </span>
-                  <span className="hidden items-center gap-1 text-xs font-bold text-[#2878D0] sm:inline-flex">{c.open} <ArrowRight className="h-4 w-4" /></span>
-                  <ArrowRight className="h-5 w-5 shrink-0 text-[#2878D0] sm:hidden" />
+                  <span className="relative mt-4 block text-lg font-extrabold text-[#172B4D]">{tool.name}</span>
+                  <span className="relative mt-1 block flex-1 text-sm leading-relaxed text-[#647DA5]">{tool.text}</span>
+                  <span className="relative mt-4 inline-flex items-center gap-1.5 self-start rounded-full px-4 py-2 text-xs font-bold text-white shadow-sm transition-all duration-300 group-hover:gap-3 group-hover:shadow-md" style={{ background: `linear-gradient(90deg, ${from}, ${to})` }}>
+                    {c.open} <ArrowRight className="h-4 w-4" />
+                  </span>
                 </button>
               );
             })}
