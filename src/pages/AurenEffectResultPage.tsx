@@ -19,7 +19,7 @@ interface AurenEffectResultPageProps {
   onNavigateToBlog: () => void;
 }
 
-const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v7';
+const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v8';
 
 export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
   onBackToForm,
@@ -351,17 +351,11 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
           {/* Subtle top glow bar */}
           <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
 
-          {/* Header da Leitura: Título e Signo em Destaque */}
-          <div className="text-center pb-6 mb-6 border-b border-[#D9E8F8]">
-            {/* Título Principal */}
-            <h1 className="text-2xl sm:text-4xl font-extrabold text-[#172B4D] tracking-tight mb-2 leading-tight">
-              {t.readingTitle}
-            </h1>
-
-          </div>
+          {/* The page title stays for screen readers and search engines, but is not shown */}
+          <h1 className="sr-only">{t.readingTitle}</h1>
 
           {/* Caixa de Destaque com Título da Mensagem */}
-          <div className="my-6 p-6 sm:p-7 rounded-2xl bg-[#F7FBFF] border border-[#D9E8F8] text-center space-y-3 shadow-2xs relative">
+          <div className="mt-2 mb-6 p-6 sm:p-7 rounded-2xl bg-[#F7FBFF] border border-[#D9E8F8] text-center space-y-3 shadow-2xs relative">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#E4F1FF] text-[#2878D0] text-[11px] font-extrabold uppercase tracking-wider">
               <Sparkles className="w-3 h-3 text-[#F51B83]" />
               <span>{t.cardTitle}</span>
