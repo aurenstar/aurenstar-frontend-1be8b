@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowLeft, ArrowRight, Check, Calendar, Sparkles, Compass, Smile, Moon, BookOpen, ShieldCheck, Wrench, FileText, Clock } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Check, Calendar, Sparkles, Compass, Smile, Moon, BookOpen, ShieldCheck, Wrench, FileText, Clock, ClipboardList, Telescope, PenLine, Send } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { BLOG_ARTICLES } from '../data/blogArticles';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../data/astrologyDictionaryData';
@@ -23,7 +23,7 @@ const COPY: Record<Lang, {
   howTitle: string; howLead: string; steps: { title: string; text: string }[]; creditsLink: string;
   valuesTitle: string; values: { title: string; text: string }[];
   noteTitle: string; note: string;
-  tabs: [string, string, string, string]; metas: string[]; free: string; count: string;
+  stepWord: string; tabs: [string, string, string, string]; metas: string[]; free: string; count: string;
   postsTitle: string; postsLead: string; seeBlog: string;
   contactTitle: string; contactText: string; contactBtn: string; newsletterBtn: string;
 }> = {
@@ -53,19 +53,19 @@ const COPY: Record<Lang, {
     steps: [
       { title: 'Você informa o básico', text: 'Nome, data, hora e cidade de nascimento. Só o necessário para montar o seu céu.' },
       { title: 'Calculamos o seu céu', text: 'Usamos a Swiss Ephemeris, a mesma base científica usada por astrólogos no mundo todo, com o fuso horário real da sua cidade e do seu ano de nascimento.' },
-      { title: 'A IA escreve em palavras simples', text: 'Com as posições do céu em mãos, a IA escreve um texto curto, pessoal e sem jargões. O site lembra o que você já recebeu para não repetir.' },
+      { title: 'Escrevemos em palavras simples', text: 'Com as posições do céu em mãos, montamos um texto curto e pessoal, em palavras simples. O site lembra o que você já recebeu para nunca repetir.' },
       { title: 'Você compartilha o que sentiu', text: 'Cada resultado vira um card pronto para postar nos Stories e no feed.' },
     ],
     creditsLink: 'Ver as ferramentas e os créditos',
     valuesTitle: 'Nosso jeito de fazer',
     values: [
-      { title: 'Linguagem simples', text: 'Sem jargões. Se uma criança de 12 anos não entende, a gente reescreve.' },
+      { title: 'Linguagem simples', text: 'Palavras simples, do jeito que a gente fala. Se uma criança de 12 anos não entende, a gente reescreve.' },
       { title: 'Reflexão, não destino', text: 'A astrologia aqui é um espelho para pensar, nunca uma ordem sobre o que você deve fazer.' },
       { title: 'Cuidado com você', text: 'Preferimos uma mensagem calma a uma previsão assustadora.' },
     ],
     noteTitle: 'Um aviso honesto',
     note: 'A astrologia é uma forma de reflexão e entretenimento. Nossos textos não substituem orientação médica, psicológica, jurídica ou financeira.',
-    tabs: ['Ferramentas', 'Sobre', 'Como funciona', 'Blog'], metas: ['1 por dia', 'a cada 4 horas', 'na hora', 'para os Stories', '16 termos'], free: 'Grátis', count: 'ferramentas',
+    stepWord: 'Passo', tabs: ['Ferramentas', 'Sobre', 'Como funciona', 'Blog'], metas: ['1 por dia', 'a cada 4 horas', 'na hora', 'para os Stories', '16 termos'], free: 'Grátis', count: 'ferramentas',
     postsTitle: 'Do blog',
     postsLead: 'Leituras para quem gosta de entender o signo com calma.',
     seeBlog: 'Ver todos os posts',
@@ -100,19 +100,19 @@ const COPY: Record<Lang, {
     steps: [
       { title: 'You share the basics', text: 'Name, date, time and city of birth. Only what is needed to build your sky.' },
       { title: 'We calculate your sky', text: 'We use the Swiss Ephemeris, the same scientific base astrologers use worldwide, with the real time zone of your city and birth year.' },
-      { title: 'AI writes in simple words', text: 'With the positions of the sky in hand, AI writes a short, personal text without jargon. The site remembers what you already received so it never repeats.' },
+      { title: 'We write in simple words', text: 'With the positions of the sky in hand, we put together a short, personal text in simple words. The site remembers what you already received so it never repeats.' },
       { title: 'You share how you feel', text: 'Every result becomes a card ready to post on Stories and your feed.' },
     ],
     creditsLink: 'See the tools and credits',
     valuesTitle: 'Our way of doing things',
     values: [
-      { title: 'Simple language', text: 'No jargon. If a 12-year-old cannot understand it, we rewrite it.' },
+      { title: 'Simple language', text: 'Simple words, the way people actually talk. If a 12-year-old cannot understand it, we rewrite it.' },
       { title: 'Reflection, not destiny', text: 'Astrology here is a mirror to think with, never an order about what you must do.' },
       { title: 'Care for you', text: 'We prefer a calm message over a scary prediction.' },
     ],
     noteTitle: 'An honest note',
     note: 'Astrology is a form of reflection and entertainment. Our texts do not replace medical, psychological, legal or financial advice.',
-    tabs: ['Tools', 'About', 'How it works', 'Blog'], metas: ['1 per day', 'every 4 hours', 'instant', 'for Stories', '16 terms'], free: 'Free', count: 'tools',
+    stepWord: 'Step', tabs: ['Tools', 'About', 'How it works', 'Blog'], metas: ['1 per day', 'every 4 hours', 'instant', 'for Stories', '16 terms'], free: 'Free', count: 'tools',
     postsTitle: 'From the blog',
     postsLead: 'Reads for people who like to understand their sign calmly.',
     seeBlog: 'See all posts',
@@ -147,19 +147,19 @@ const COPY: Record<Lang, {
     steps: [
       { title: 'Compartes lo básico', text: 'Nombre, fecha, hora y ciudad de nacimiento. Solo lo necesario para armar tu cielo.' },
       { title: 'Calculamos tu cielo', text: 'Usamos la Swiss Ephemeris, la misma base científica que usan los astrólogos de todo el mundo, con la zona horaria real de tu ciudad y de tu año de nacimiento.' },
-      { title: 'La IA escribe en palabras simples', text: 'Con las posiciones del cielo, la IA escribe un texto corto, personal y sin tecnicismos. El sitio recuerda lo que ya recibiste para no repetirse.' },
+      { title: 'Escribimos en palabras simples', text: 'Con las posiciones del cielo, armamos un texto corto y personal, en palabras simples. El sitio recuerda lo que ya recibiste para no repetirse.' },
       { title: 'Compartes lo que sientes', text: 'Cada resultado se convierte en una tarjeta lista para publicar en Stories y en tu feed.' },
     ],
     creditsLink: 'Ver las herramientas y los créditos',
     valuesTitle: 'Nuestra forma de hacer las cosas',
     values: [
-      { title: 'Lenguaje simple', text: 'Sin jerga. Si un niño de 12 años no lo entiende, lo reescribimos.' },
+      { title: 'Lenguaje simple', text: 'Palabras simples, como se habla de verdad. Si un niño de 12 años no lo entiende, lo reescribimos.' },
       { title: 'Reflexión, no destino', text: 'La astrología aquí es un espejo para pensar, nunca una orden sobre lo que debes hacer.' },
       { title: 'Cuidado contigo', text: 'Preferimos un mensaje tranquilo a una predicción que asusta.' },
     ],
     noteTitle: 'Un aviso honesto',
     note: 'La astrología es una forma de reflexión y entretenimiento. Nuestros textos no sustituyen el consejo médico, psicológico, legal o financiero.',
-    tabs: ['Herramientas', 'Sobre', 'Cómo funciona', 'Blog'], metas: ['1 por día', 'cada 4 horas', 'al instante', 'para Stories', '16 términos'], free: 'Gratis', count: 'herramientas',
+    stepWord: 'Paso', tabs: ['Herramientas', 'Sobre', 'Cómo funciona', 'Blog'], metas: ['1 por día', 'cada 4 horas', 'al instante', 'para Stories', '16 términos'], free: 'Gratis', count: 'herramientas',
     postsTitle: 'Del blog',
     postsLead: 'Lecturas para quienes disfrutan entender su signo con calma.',
     seeBlog: 'Ver todos los posts',
@@ -186,6 +186,9 @@ const TOOL_COLORS: Record<string, string> = {
   dicionario: '#12A594',
 };
 
+
+const STEP_ICONS = [ClipboardList, Telescope, PenLine, Send];
+const STEP_COLORS = ['#2878D0', '#7C4DFF', '#F51B83', '#FF8A3D'];
 
 type Tab = 'tools' | 'about' | 'how' | 'blog';
 
@@ -325,13 +328,22 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
               <div>
                 <p className="mb-3 px-1 text-sm text-[#647DA5] sm:text-base">{c.howLead}</p>
                 <div className="grid gap-4 sm:grid-cols-2">
-                  {c.steps.map((step, i) => (
-                    <div key={step.title} className="rounded-2xl border border-[#D9E8F8] p-5">
-                      <span className="mb-3 flex h-9 w-9 items-center justify-center rounded-xl bg-[#FCE5F1] text-sm font-extrabold text-[#F51B83]">{i + 1}</span>
-                      <h3 className="text-base font-extrabold text-[#17366F]">{step.title}</h3>
-                      <p className="mt-1 text-sm leading-relaxed text-[#5E78A4]">{step.text}</p>
-                    </div>
-                  ))}
+                  {c.steps.map((step, i) => {
+                    const Icon = STEP_ICONS[i];
+                    const color = STEP_COLORS[i];
+                    return (
+                      <div key={step.title} className="group relative overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)]">
+                        <span aria-hidden className="pointer-events-none absolute -right-2 -top-6 select-none text-[7rem] font-black leading-none opacity-[0.07]" style={{ color }}>{i + 1}</span>
+                        <span className="relative mb-4 flex h-12 w-12 items-center justify-center rounded-2xl text-white shadow-md transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110" style={{ background: color }}>
+                          <Icon className="h-6 w-6" />
+                        </span>
+                        <p className="relative mb-1 text-[11px] font-extrabold uppercase tracking-wider" style={{ color }}>{c.stepWord} {i + 1}</p>
+                        <h3 className="relative text-lg font-extrabold leading-snug text-[#172B4D]">{step.title}</h3>
+                        <p className="relative mt-1.5 text-sm leading-relaxed text-[#5E78A4]">{step.text}</p>
+                        <span aria-hidden className="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 transition-transform duration-500 group-hover:scale-x-100" style={{ background: color }} />
+                      </div>
+                    );
+                  })}
                 </div>
                 <button type="button" onClick={() => onNavigate('credits')} className="mt-4 inline-flex items-center gap-2 px-1 text-sm font-bold text-[#2878D0] hover:text-[#17366F]">
                   <ShieldCheck className="h-4 w-4" /> {c.creditsLink} <ArrowRight className="h-4 w-4" />
