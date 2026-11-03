@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - run: sudo apt-get install -y imagemagick
-      - run: npm install
+      - run: npm install --legacy-peer-deps
       - run: npm run sync:wordpress
       - name: Commit changes
         run: |
