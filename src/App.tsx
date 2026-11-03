@@ -23,7 +23,7 @@ import { PublicDictionaryPage } from './pages/PublicDictionaryPage';
 import { PublicDictionaryTermPage } from './pages/PublicDictionaryTermPage';
 import { DescribeMePage } from './pages/DescribeMePage';
 import { DescribeMeResultPage } from './pages/DescribeMeResultPage';
-import { AboutDetailPage } from './pages/AboutDetailPage';
+import { AboutProfilePage } from './pages/AboutProfilePage';
 import { updateSeo } from './utils/seo';
 import { trackPageView } from './utils/analytics';
 import { findArticleByParam, getArticleSlugById } from './utils/articleSlug';
@@ -54,7 +54,6 @@ export default function App() {
   const [currentArticleId, setCurrentArticleId] = useState<string>('post-1');
   const [currentTermSlug, setCurrentTermSlug] = useState<string>('what-is-mercury-retrograde');
   const [selectedSign, setSelectedSign] = useState<string | null>(null);
-  const [aboutSection, setAboutSection] = useState<string>('platform');
   // Blog category shown on /blog ('ALL') or /blog/categoria/<slug>
   const [blogCategory, setBlogCategory] = useState<string>('ALL');
 
@@ -120,8 +119,7 @@ export default function App() {
         setCurrentPage('dictionary');
       } else if (path === '/dicionario' || hash === '#/dicionario' || hash === '#/dicionary') {
         setCurrentPage('dicionario');
-      } else if (path.startsWith('/about/')) {
-        setAboutSection(path.replace('/about/', '') || 'platform');
+      } else if (path === '/about' || path.startsWith('/about/')) {
         setCurrentPage('about-detail');
       } else {
         setCurrentPage('home');
@@ -142,7 +140,6 @@ export default function App() {
       updateSeo(currentPage, {
         articleId: currentArticleId,
         termSlug: currentTermSlug,
-        aboutSection,
         categorySlug: getCategoryByKey(blogCategory)?.slug,
       });
     } catch (error) {
@@ -153,7 +150,7 @@ export default function App() {
     // and that intermediate state must not be counted as a page view.
     const pageViewTimer = window.setTimeout(trackPageView, 100);
     return () => window.clearTimeout(pageViewTimer);
-  }, [currentPage, currentArticleId, currentTermSlug, aboutSection, blogCategory]);
+  }, [currentPage, currentArticleId, currentTermSlug, blogCategory]);
 
   const handleNavigate = (page: AppPageRoute) => {
     setCurrentPage(page);
@@ -163,7 +160,9 @@ export default function App() {
     } else {
       // Public URLs of the "describe me" pages are /descreva-me*
       const path =
-        page === 'dicionario'
+        page === 'about-detail'
+          ? '/about'
+          : page === 'dicionario'
           ? '/dicionario'
           : page === 'describe-me'
           ? '/descreva-me'
@@ -205,10 +204,9 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const handleOpenAbout = (section: string) => {
-    setAboutSection(section);
+  const handleOpenAbout = (_section?: string) => {
     setCurrentPage('about-detail');
-    window.history.pushState({ page: 'about-detail', section }, '', `/about/${section}`);
+    window.history.pushState({ page: 'about-detail' }, '', '/about');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -432,11 +430,9 @@ export default function App() {
 
         {currentPage === 'about-detail' && (
           <main className="flex-1">
-            <AboutDetailPage
-              section={aboutSection}
-              onBackToHome={() => handleNavigate('home')}
-              onNavigateToBlog={() => handleNavigate('blog')}
-              onNavigateToTool={(tool) => handleNavigate(tool)}
+            <AboutProfilePage
+              onNavigate={(page) => handleNavigate(page as AppPageRoute)}
+              onOpenArticle={handleOpenArticle}
             />
           </main>
         )}

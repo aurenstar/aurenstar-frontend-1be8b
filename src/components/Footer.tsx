@@ -16,6 +16,7 @@ interface FooterProps {
       | 'dictionary'
       | 'dicionario'
       | 'describe-me'
+      | 'about-detail'
   ) => void;
 }
 
@@ -159,13 +160,10 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <a
-                  href="#about"
+                  href="/about"
                   onClick={(e) => {
                     e.preventDefault();
-                    if (onNavigate) onNavigate('home');
-                    setTimeout(() => {
-                      document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
-                    }, 100);
+                    if (onNavigate) onNavigate('about-detail');
                   }}
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >

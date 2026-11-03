@@ -21,7 +21,6 @@ import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData'
 import { getArticleIsoDate, getArticleSlug } from '../src/utils/articleSlug';
 import { BLOG_CATEGORIES } from '../src/utils/blogCategories';
 import {
-  ABOUT_SECTIONS,
   SITE_NAME,
   SITE_URL,
   STATIC_ROUTES,
@@ -81,7 +80,7 @@ const NOSCRIPT_LINKS: [string, string][] = [
   ['Aurendaily', '/daily-message'],
   ['Auren Effect', '/aureneffect'],
   ['Sign Calculator', '/discover-sign'],
-  ['About', '/about/platform'],
+  ['About', '/about'],
   ['Contact', '/contact'],
 ];
 
@@ -139,14 +138,15 @@ for (const term of ASTROLOGY_DICTIONARY_TERMS) {
 }
 
 // 4. About sections
-for (const section of Object.keys(ABOUT_SECTIONS)) {
-  emit(getSeoData('about-detail', { aboutSection: section }));
+{
+  emit(getSeoData('about-detail', {}));
 }
 
 // Alias URLs the app also answers to -> one canonical URL
 redirects.push('/dictionary/:slug /dicionario/:slug 301');
 redirects.push('/dicionary/:slug /dicionario/:slug 301');
 redirects.push('/dicionary /dicionario 301');
+redirects.push('/about/:section /about 301');
 redirects.push('/describe-me /descreva-me 301');
 redirects.push('/describe-me-result /descreva-me-result 301');
 

@@ -338,10 +338,9 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
       path = '/dicionario';
     }
   } else if (page === 'about-detail') {
-    const section = options.aboutSection && ABOUT_SECTIONS[options.aboutSection] ? options.aboutSection : 'platform';
-    title = ABOUT_SECTIONS[section].title;
-    description = ABOUT_SECTIONS[section].description;
-    path = `/about/${section}`;
+    title = 'About Aurenstar | Clear, Gentle Astrology You Can Use';
+    description = 'Meet Aurenstar: five free astrology tools, a real sky calculation with the Swiss Ephemeris and simple, kind language in English, Portuguese and Spanish.';
+    path = '/about';
     crumbs = [
       { name: 'Home', url: SITE_URL },
       { name: 'About', url: `${SITE_URL}${path}` },
