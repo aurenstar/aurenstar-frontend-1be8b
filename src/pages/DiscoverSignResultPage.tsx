@@ -12,7 +12,7 @@ import {
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { CoverArt } from '../components/CoverArt';
-import { BLOG_ARTICLES, AURENSTAR_AVATAR } from '../data/blogArticles';
+import { BLOG_ARTICLES } from '../data/blogArticles';
 import { SIGNS_DATA, LAST_DISCOVERED_SIGN_KEY, SignInfo } from '../data/signsData';
 
 interface DiscoverSignResultPageProps {
@@ -110,7 +110,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
 
         {/* Mensagem + artigo, mesmo tamanho */}
         <div className="mb-6 flex flex-col gap-4">
-          <section className="flex flex-col rounded-3xl border border-[#D9E8F8] bg-white p-3.5 shadow-sm sm:h-52 sm:justify-center">
+          <section className="flex flex-col rounded-3xl border border-[#D9E8F8] bg-white p-3.5 shadow-sm">
             <div className="flex flex-1 flex-col p-3 sm:p-5">
               <span className="mb-3 inline-block w-fit rounded-full bg-[#2878D0] px-3.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white sm:text-[11px]">
                 {tr('Sua Essência','Your Essence','Tu Esencia')}
@@ -123,37 +123,35 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
           </section>
 
           {recommended && (
-            <article
+            <>
+            <h3 className="mt-4 text-center text-lg font-extrabold uppercase tracking-wider text-[#17366F] sm:text-xl">{tr('Artigo para você','Article for you','Artículo para ti')}</h3>
+            <div
               role="button"
               tabIndex={0}
               onClick={() => onOpenArticle(recommended.id)}
               onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onOpenArticle(recommended.id); } }}
-              className="group flex cursor-pointer flex-col overflow-hidden sm:h-52 sm:flex-row rounded-3xl border border-[#D9E8F8] bg-white p-3.5 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_18px_36px_rgba(23,54,111,0.18)] focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40"
+              aria-label={`${tr('Artigo para você','Article for you','Artículo para ti')}: ${recommended.title[lang] || recommended.title.pt}`}
+              className="group flex w-full cursor-pointer items-center justify-between gap-3 rounded-2xl border border-[#D9E8F8] bg-white p-3 shadow-sm transition-all duration-300 hover:border-[#2878D0]/40 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40 sm:gap-6 sm:rounded-3xl sm:p-4"
             >
-              <div className="h-40 w-full overflow-hidden rounded-[18px] bg-slate-100 sm:h-auto sm:w-72 sm:shrink-0">
+              <div className="relative h-20 w-28 shrink-0 overflow-hidden rounded-xl bg-slate-100 sm:h-28 sm:w-44 sm:rounded-2xl">
                 <img src={recommended.image} alt={recommended.title[lang] || recommended.title.pt} loading="lazy" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
               </div>
-              <div className="flex flex-1 flex-col p-2 pt-5 sm:p-4 sm:pl-6 sm:pt-4">
-                <span className="mb-3 inline-block w-fit rounded-full bg-[#F51B83] px-3.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white sm:text-[11px]">
-                  {tr('Artigo para você','Article for you','Artículo para ti')}
+              <div className="min-w-0 flex-1 pr-1 sm:pr-2">
+                <span className="mb-1 block text-[10px] font-extrabold uppercase tracking-wider text-[#F51B83] sm:text-xs">
+                  {recommended.category[lang] || recommended.category.pt}
                 </span>
-                <h3 className="mb-2 line-clamp-2 text-base font-extrabold leading-snug text-[#172B4D] transition-colors group-hover:text-[#2878D0] sm:text-[17px]">
+                <h4 className="mb-1 line-clamp-2 text-xs font-bold leading-snug text-[#172B4D] transition-colors group-hover:text-[#2878D0] sm:text-base lg:text-lg">
                   {recommended.title[lang] || recommended.title.pt}
-                </h3>
-                <p className="mb-4 line-clamp-3 text-xs leading-relaxed text-[#647DA5] sm:text-[13px]">
+                </h4>
+                <p className="line-clamp-2 text-[11px] font-normal leading-relaxed text-[#647DA5] sm:text-xs">
                   {recommended.subtitle[lang] || recommended.subtitle.pt}
                 </p>
-                <div className="mt-auto flex items-center gap-3">
-                  <img src={AURENSTAR_AVATAR} alt="Aurenstar" className="h-9 w-9 shrink-0 rounded-full object-cover ring-1 ring-black/5" />
-                  <div className="flex min-w-0 flex-col">
-                    <span className="text-xs font-bold leading-tight text-[#172B4D]">Aurenstar</span>
-                    <span className="mt-0.5 inline-flex items-center gap-1 text-[11px] font-bold text-[#F51B83]">
-                      {tr('Ler no blog','Read on the blog','Leer en el blog')} <ArrowRight className="h-3 w-3" />
-                    </span>
-                  </div>
-                </div>
               </div>
-            </article>
+              <div className="shrink-0 pr-1 text-[#17366F] transition-all duration-300 group-hover:translate-x-1.5 group-hover:text-[#2878D0] sm:pr-2">
+                <ArrowRight className="h-5 w-5 stroke-[2.2] sm:h-6 sm:w-6" />
+              </div>
+            </div>
+            </>
           )}
         </div>
 
