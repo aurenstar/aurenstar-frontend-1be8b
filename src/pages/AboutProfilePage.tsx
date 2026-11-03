@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowLeft, ArrowRight, Check, Calendar, Sparkles, Compass, Smile, Moon, BookOpen, ShieldCheck, Wrench, Star, Clock } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Check, Calendar, Sparkles, Compass, Smile, Moon, BookOpen, ShieldCheck, Wrench, FileText, Clock } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { BLOG_ARTICLES } from '../data/blogArticles';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../data/astrologyDictionaryData';
@@ -32,7 +32,7 @@ const COPY: Record<Lang, {
     handle: '@aurenstar · aurenstar.com',
     bio: 'Astrologia clara, acolhedora e útil. Para você se conhecer melhor, sem complicação. ✨',
     verified: 'Perfil verificado',
-    stats: ['ferramentas', 'signos', 'termos no dicionário', 'idiomas'],
+    stats: ['ferramentas', 'artigos', 'termos no dicionário', 'idiomas'],
     aboutTitle: 'Sobre a Aurenstar',
     about: [
       'A Aurenstar transforma a astrologia em reflexões simples para a vida real. Em vez de previsões assustadoras ou palavras difíceis, você recebe textos curtos, diretos e carinhosos, escritos para o seu momento.',
@@ -79,7 +79,7 @@ const COPY: Record<Lang, {
     handle: '@aurenstar · aurenstar.com',
     bio: 'Astrology made clear, gentle and useful. To help you know yourself better, without the complicated words. ✨',
     verified: 'Verified profile',
-    stats: ['tools', 'signs', 'dictionary terms', 'languages'],
+    stats: ['tools', 'articles', 'dictionary terms', 'languages'],
     aboutTitle: 'About Aurenstar',
     about: [
       'Aurenstar turns astrology into simple reflections for real life. Instead of scary predictions or hard words, you get short, direct and kind texts written for your moment.',
@@ -126,7 +126,7 @@ const COPY: Record<Lang, {
     handle: '@aurenstar · aurenstar.com',
     bio: 'Astrología clara, cercana y útil. Para que te conozcas mejor, sin complicaciones. ✨',
     verified: 'Perfil verificado',
-    stats: ['herramientas', 'signos', 'términos en el diccionario', 'idiomas'],
+    stats: ['herramientas', 'artículos', 'términos en el diccionario', 'idiomas'],
     aboutTitle: 'Sobre Aurenstar',
     about: [
       'Aurenstar convierte la astrología en reflexiones sencillas para la vida real. En lugar de predicciones que asustan o palabras difíciles, recibes textos cortos, directos y cariñosos, escritos para tu momento.',
@@ -186,7 +186,6 @@ const TOOL_COLORS: Record<string, string> = {
   dicionario: '#12A594',
 };
 
-const COVER = 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1600&q=80';
 
 type Tab = 'tools' | 'about' | 'how' | 'blog';
 
@@ -199,7 +198,7 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
   const tabKeys: Tab[] = ['tools', 'about', 'how', 'blog'];
   const stats = [
     { icon: Wrench, value: String(c.tools.length), label: c.stats[0] },
-    { icon: Star, value: '12', label: c.stats[1] },
+    { icon: FileText, value: String(BLOG_ARTICLES.length), label: c.stats[1] },
     { icon: BookOpen, value: String(ASTROLOGY_DICTIONARY_TERMS.length), label: c.stats[2] },
   ];
 
@@ -213,8 +212,20 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
         <div className="rounded-[2rem] border border-[#D9E8F8] bg-white p-3 shadow-[0_14px_40px_rgba(23,54,111,0.1)] sm:p-5">
           {/* Cover + avatar */}
           <div className="relative">
-            <div className="h-40 overflow-hidden rounded-2xl bg-[#17366F] sm:h-56">
-              <img src={COVER} alt="" className="h-full w-full object-cover" />
+            <div className="relative h-40 overflow-hidden rounded-2xl bg-[#2878D0] sm:h-56" aria-hidden>
+              <svg className="absolute inset-0 h-full w-full" viewBox="0 0 800 224" preserveAspectRatio="xMidYMid slice" fill="none">
+                <ellipse cx="640" cy="112" rx="300" ry="86" transform="rotate(-18 640 112)" stroke="#fff" strokeOpacity="0.28" strokeWidth="14" />
+                <ellipse cx="640" cy="112" rx="220" ry="58" transform="rotate(-18 640 112)" stroke="#F51B83" strokeOpacity="0.9" strokeWidth="8" />
+                <circle cx="90" cy="40" r="90" fill="#fff" fillOpacity="0.08" />
+                <circle cx="330" cy="215" r="70" fill="#fff" fillOpacity="0.08" />
+                <path d="M520 50 l7 18 18 7 -18 7 -7 18 -7 -18 -18 -7 18 -7z" fill="#fff" />
+                <path d="M730 150 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5z" fill="#F51B83" />
+                <path d="M250 70 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z" fill="#fff" fillOpacity="0.8" />
+                <circle cx="420" cy="40" r="3" fill="#fff" fillOpacity="0.7" />
+                <circle cx="180" cy="150" r="2.5" fill="#fff" fillOpacity="0.6" />
+                <circle cx="470" cy="170" r="3" fill="#fff" fillOpacity="0.6" />
+                <circle cx="780" cy="40" r="3" fill="#fff" fillOpacity="0.7" />
+              </svg>
             </div>
             <img src={AVATAR} alt="Aurenstar" className="absolute -bottom-9 left-4 h-20 w-20 rounded-2xl border-4 border-white bg-white object-cover shadow-md sm:left-6 sm:h-24 sm:w-24" />
           </div>
