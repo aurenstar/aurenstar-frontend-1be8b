@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { Headphones, Pause, Play, Square } from 'lucide-react';
+import { Headphones, Pause, Square } from 'lucide-react';
 
 export interface ListenSegment { id: string; text: string }
 export interface ListenWord { id: string; start: number; end: number }
@@ -196,50 +196,48 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChan
   if (!supported) return null;
   const playing = status === 'playing';
 
-  return (
-    <div className="relative my-6 flex flex-wrap items-center gap-4 overflow-hidden rounded-2xl bg-[#2878D0] p-4 text-white shadow-md sm:p-5">
-      <div className="flex min-w-0 flex-1 items-center gap-3">
-        <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white text-[#2878D0]"><Headphones className="h-5 w-5" /></span>
-        <div className="min-w-0">
-          <p className="text-sm font-extrabold sm:text-base">{c.title}</p>
-          <p className="text-[11px] text-white/85 sm:text-xs">{c.sub}</p>
-        </div>
-      </div>
+  const cycleRate = () => changeRate(SPEEDS[(SPEEDS.indexOf(rate) + 1) % SPEEDS.length]);
 
-      <div className="flex flex-wrap items-center gap-2">
-        {playing && (
-          <span aria-hidden className="mr-1 flex h-6 items-end gap-[3px]">
-            {[0, 1, 2, 3].map((n) => (
-              <span key={n} className="w-1 origin-bottom rounded-full bg-[#F51B83]" style={{ height: '100%', animation: `listenBars 0.9s ease-in-out ${n * 0.15}s infinite` }} />
-            ))}
-          </span>
-        )}
-        <button type="button" onClick={toggle} className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-[#F51B83] px-5 py-2.5 text-xs font-bold text-white shadow-sm transition-all hover:bg-[#D9166F] active:scale-95 sm:text-sm">
-          {playing ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
-          <span>{status === 'idle' ? c.play : playing ? c.pause : c.resume}</span>
-        </button>
-        {status !== 'idle' && (
-          <button type="button" onClick={stop} aria-label={c.stop} title={c.stop} className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-white/15 text-white transition-colors hover:bg-white hover:text-[#2878D0]">
-            <Square className="h-4 w-4" />
-          </button>
-        )}
-        <div className="ml-1 flex items-center gap-1" aria-label={c.speed}>
-          {SPEEDS.map((r) => (
-            <button key={r} type="button" onClick={() => changeRate(r)} className={`cursor-pointer rounded-full px-2.5 py-1 text-[11px] font-bold transition-colors ${rate === r ? 'bg-white text-[#2878D0]' : 'bg-white/15 text-white hover:bg-white/30'}`}>{r}x</button>
+  return (
+    <div className="my-5 inline-flex max-w-full flex-wrap items-center gap-1.5 rounded-full bg-[#2878D0] p-1.5 pr-2.5 text-white shadow-sm">
+      <button
+        type="button"
+        onClick={toggle}
+        className="inline-flex cursor-pointer items-center gap-1.5 rounded-full bg-[#F51B83] px-4 py-2 text-xs font-bold text-white transition-all hover:bg-[#D9166F] active:scale-95"
+      >
+        {playing ? <Pause className="h-3.5 w-3.5" /> : <Headphones className="h-3.5 w-3.5" />}
+        <span>{status === 'idle' ? c.title : playing ? c.pause : c.resume}</span>
+      </button>
+
+      {playing && (
+        <span aria-hidden className="flex h-4 items-end gap-[2px] px-1">
+          {[0, 1, 2, 3].map((n) => (
+            <span key={n} className="w-[3px] origin-bottom rounded-full bg-white" style={{ height: '100%', animation: `listenBars 0.9s ease-in-out ${n * 0.15}s infinite` }} />
           ))}
-        </div>
-        {voices.length > 1 && (
-          <select
-            value={voiceName}
-            onChange={(e) => changeVoice(e.target.value)}
-            aria-label={c.voice}
-            title={c.voice}
-            className="max-w-[170px] cursor-pointer truncate rounded-full bg-white/15 px-3 py-1.5 text-[11px] font-bold text-white outline-none hover:bg-white/25 [&>option]:text-[#172B4D]"
-          >
-            {voices.map((v) => <option key={v.name} value={v.name}>{v.name.replace(/^(Microsoft|Google)\s+/i, '')}</option>)}
-          </select>
-        )}
-      </div>
+        </span>
+      )}
+
+      {status !== 'idle' && (
+        <button type="button" onClick={stop} aria-label={c.stop} title={c.stop} className="flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-white/15 transition-colors hover:bg-white hover:text-[#2878D0]">
+          <Square className="h-3 w-3" />
+        </button>
+      )}
+
+      <button type="button" onClick={cycleRate} aria-label={c.speed} title={c.speed} className="h-8 min-w-[2.6rem] cursor-pointer rounded-full bg-white/15 px-2.5 text-[11px] font-bold transition-colors hover:bg-white hover:text-[#2878D0]">
+        {rate}x
+      </button>
+
+      {voices.length > 1 && (
+        <select
+          value={voiceName}
+          onChange={(e) => changeVoice(e.target.value)}
+          aria-label={c.voice}
+          title={c.voice}
+          className="h-8 max-w-[130px] cursor-pointer truncate rounded-full bg-white/15 px-2.5 text-[11px] font-bold text-white outline-none hover:bg-white/25 [&>option]:text-[#172B4D]"
+        >
+          {voices.map((v) => <option key={v.name} value={v.name}>{v.name.replace(/^(Microsoft|Google)\s+/i, '')}</option>)}
+        </select>
+      )}
     </div>
   );
 };
