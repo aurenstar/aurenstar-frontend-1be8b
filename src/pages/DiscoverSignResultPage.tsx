@@ -110,26 +110,15 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
 
         {/* Mensagem + artigo, mesmo tamanho */}
         <div className="mb-6 flex flex-col gap-4">
-          <section className="flex flex-col rounded-3xl border border-[#D9E8F8] bg-white p-3.5 shadow-sm sm:h-60 sm:flex-row">
-            <div className="relative flex h-40 items-center justify-center overflow-hidden rounded-[18px] bg-[#2878D0] sm:h-auto sm:w-72 sm:shrink-0">
-              <div className="pointer-events-none absolute inset-0 overflow-hidden"><CoverArt tone="blue" variant={1} /></div>
-              <Star className="relative h-14 w-14 text-white/90" strokeWidth={1.5} />
-            </div>
-            <div className="flex flex-1 flex-col p-2 pt-5 sm:p-4 sm:pl-6 sm:pt-4">
+          <section className="flex flex-col rounded-3xl border border-[#D9E8F8] bg-white p-3.5 shadow-sm sm:h-52 sm:justify-center">
+            <div className="flex flex-1 flex-col p-3 sm:p-5">
               <span className="mb-3 inline-block w-fit rounded-full bg-[#2878D0] px-3.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white sm:text-[11px]">
                 {tr('Sua Essência','Your Essence','Tu Esencia')}
               </span>
-              <h2 className="mb-2 text-base font-extrabold leading-snug text-[#172B4D] sm:text-[17px]">
+              <h2 className="mb-2 text-lg font-extrabold leading-snug text-[#172B4D] sm:text-xl">
                 {tr('Como é ser', 'What it is like to be', 'Cómo es ser')} {currentSign.name[lang] || currentSign.name.pt}
               </h2>
-              <p className="text-xs leading-relaxed text-[#647DA5] sm:text-[13px]">{currentSign.essence[lang] || currentSign.essence.pt}</p>
-              <div className="mt-auto flex items-center gap-3 pt-4">
-                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#E4F1FF] text-lg font-black text-[#2878D0]">{currentSign.symbol}{'\uFE0E'}</span>
-                <div className="flex min-w-0 flex-col">
-                  <span className="text-xs font-bold leading-tight text-[#172B4D]">{tr('Elemento', 'Element', 'Elemento')} {currentSign.element[lang] || currentSign.element.pt}</span>
-                  <span className="mt-0.5 text-[11px] font-medium text-[#647DA5]">{currentSign.period[lang] || currentSign.period.pt}</span>
-                </div>
-              </div>
+              <p className="text-sm leading-relaxed text-[#647DA5] sm:text-base">{currentSign.essence[lang] || currentSign.essence.pt}</p>
             </div>
           </section>
 
@@ -139,7 +128,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
               tabIndex={0}
               onClick={() => onOpenArticle(recommended.id)}
               onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onOpenArticle(recommended.id); } }}
-              className="group flex cursor-pointer flex-col overflow-hidden sm:h-60 sm:flex-row rounded-3xl border border-[#D9E8F8] bg-white p-3.5 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_18px_36px_rgba(23,54,111,0.18)] focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40"
+              className="group flex cursor-pointer flex-col overflow-hidden sm:h-52 sm:flex-row rounded-3xl border border-[#D9E8F8] bg-white p-3.5 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_18px_36px_rgba(23,54,111,0.18)] focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40"
             >
               <div className="h-40 w-full overflow-hidden rounded-[18px] bg-slate-100 sm:h-auto sm:w-72 sm:shrink-0">
                 <img src={recommended.image} alt={recommended.title[lang] || recommended.title.pt} loading="lazy" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
