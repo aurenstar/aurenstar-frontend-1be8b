@@ -441,7 +441,7 @@ Return ONLY a valid JSON object:
     } catch (aiError) {
       // The AI is optional: if it is slow, out of credit or down, the ready-made reading is shown.
       console.error('AI unavailable for Aureneffect, using the ready-made reading', aiError);
-      return ({ success: true, data: { ...fallbackResult, aiDebug: String((aiError as any)?.message || aiError).replace(/sk-[A-Za-z0-9_-]+/g, '***') } as any });
+      return ({ success: true, data: fallbackResult });
     }
 
     let parsedData: any = {};
