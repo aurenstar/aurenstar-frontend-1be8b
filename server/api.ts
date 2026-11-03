@@ -547,25 +547,26 @@ THE PERSON (birth chart): first name "${userName}".
 THE SKY TODAY:
 - Moon in ${signOf(astro.today.moon)}, Sun in ${signOf(astro.today.sun)}, Mercury in ${signOf(astro.today.mercury)}, Venus in ${signOf(astro.today.venus)}, Mars in ${signOf(astro.today.mars)}, Jupiter in ${signOf(astro.today.jupiter)}, Saturn in ${signOf(astro.today.saturn)}
 ${retroList.length ? `- Retrograde now: ${retroList.join(', ')}\n` : ''}- Today's planets touching the person's chart (strongest first):
-${astro.aspects.length ? astro.aspects.map((a) => `  * ${N[a.transit]} today in ${N[a.type]} with their ${N[a.natal]}`).join('\n') : '  * (no strong contact today, a quiet day)'}
+${astro.aspects.length ? astro.aspects.map((a) => `  * ${N[a.transit]} today ${['trine', 'sextile'].includes(a.type) ? 'flows easily with' : a.type === 'conjunction' ? 'blends strongly with' : 'creates friction with'} their ${N[a.natal]}`).join('\n') : '  * (no strong contact today, a quiet day)'}
 - Moon phase: "${precise.triad.todayMoon.phase}"
 
 WHAT THIS IS: Aurendaily is NOT about how the person feels right now (another tool does that). It tells how the DAY AHEAD tends to go for this person and what can help them, using astrology. The reader may or may not believe in astrology, so write as a tendency ("hoje a tendência é...", "é um dia bom para...") and never as a certain prediction.
 
-HOW TO WRITE:
-1. Use astrology words (sign, planet, aspect) naturally but sparingly (at most 3 astrology facts in the whole message), and ALWAYS explain each one in simple daily-life words right after it. A 12-year-old must understand everything. Short sentences.
-2. The message has exactly 3 short paragraphs separated by a blank line:
-   (1) "Your day": start with the first name. The atmosphere of the day, in which area of life it flows best (love and friendships, work and tasks, money, family, talks and messages, energy and body, rest) and a good moment of the day (morning, afternoon or evening) when it is best to act or talk.
-   (2) "You": a self-knowledge paragraph about how this person is, built from the combination of their Sun, Moon and Rising sign, with very specific, recognisable habits and inner contradictions (for example what they show outside versus what they feel inside, how they react when hurt, what they secretly need). It must make them think "wow, this site really knows me". Then link it to today.
-   (3) "Care": one gentle thing to be careful about today (a reaction, a conversation, an impulse), kindly said.
-3. Be warm, positive and honest. No fear, no health, death, money-loss or pregnancy predictions, no orders.
-4. The advice is ONE concrete action that helps THIS day: exact what, when and exact words if other people are involved, ending with a short "because ...". Not vague.
+HOW TO WRITE (VERY IMPORTANT, keep it SHORT and SIMPLE):
+1. Total message: maximum 480 characters, in exactly 3 tiny paragraphs. Short sentences, everyday words a 12-year-old understands. NEVER use technical astrology words: no aspects (trine, square, conjunction, opposition, sextile), no houses, no "retrograde", no degrees. You may name AT MOST ONE sign or planet in the whole message (for example "com a Lua em Leão hoje"), and only if you say right away what it means in daily life. Most of the message should have no astrology word at all.
+2. Paragraph "day": start with the first name. How the day tends to go, in which area of life it flows best (love and friends, work and tasks, money, family, talks and messages, energy and body, rest) and the best moment of the day (morning, afternoon or evening). One or two sentences.
+3. Paragraph "you": the self-knowledge part. Built from the combination of Sun, Moon and Rising sign (do NOT name them), describe how this person is with specific, recognisable habits and inner contradictions (what they show outside versus what they feel inside, how they react when hurt, what they secretly need). It must make them think "wow, this site really knows me". One or two sentences.
+4. Paragraph "care": one gentle thing to be careful about today, kindly said. One sentence.
+5. The reader may or may not believe in astrology, so write as a tendency ("a tendência é...", "é um bom dia para..."). Warm, positive, honest. No fear, no health, death, money-loss or pregnancy predictions, no orders.
+6. The advice is ONE concrete action that helps THIS day: exact what, when, and the exact words if other people are involved, ending with a short "because ...". Maximum 30 words.
 
 Return ONLY valid JSON:
 {
   "theme": "3 to 5 words naming the theme of the day",
-  "message": "the 3 paragraphs separated by \\n\\n, about 700 to 900 characters in total",
-  "advice": "One concrete action, max 40 words, with a short because-reason",
+  "paragraphDay": "paragraph 1, max 170 characters",
+  "paragraphYou": "paragraph 2, max 200 characters",
+  "paragraphCare": "paragraph 3, max 110 characters",
+  "advice": "One concrete action, max 30 words, with a short because-reason",
   "affirmation": "One short first-person positive sentence",
   "shareText": "A post the person would proudly show on Instagram or WhatsApp status, in FIRST PERSON, about how their day ahead will go and who they are, so friends think 'that is me too'. 2 or 3 short sentences, maximum 240 characters, specific and a little surprising. Do NOT write the sign name, no person name, no advice, no hashtags, no emojis."
 }`;
@@ -591,7 +592,8 @@ Return ONLY valid JSON:
       clearTimeout(timer);
     }
     const parsed = JSON.parse(text.replace(/^```json\s*|```$/g, ''));
-    if (!parsed.message || !parsed.advice) return { success: false };
+    const message = [parsed.paragraphDay, parsed.paragraphYou, parsed.paragraphCare].filter(Boolean).map(String).join('\n\n') || String(parsed.message || '');
+    if (!message || !parsed.advice) return { success: false };
     return {
       success: true,
       data: {
@@ -599,7 +601,7 @@ Return ONLY valid JSON:
         signName,
         signSymbol: precise.triad.sun.symbol,
         theme: String(parsed.theme || ''),
-        message: String(parsed.message),
+        message,
         advice: String(parsed.advice),
         affirmation: String(parsed.affirmation || ''),
         shareText: String(parsed.shareText || ''),
