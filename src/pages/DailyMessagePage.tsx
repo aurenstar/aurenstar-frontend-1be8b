@@ -547,6 +547,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       message,
       advice,
       articleId: readingContent.articleId,
+      lang,
     });
 
     setIsLoading(false);

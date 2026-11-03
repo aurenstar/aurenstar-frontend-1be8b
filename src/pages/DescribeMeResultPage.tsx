@@ -4,6 +4,7 @@ import { downloadStoryCard, downloadVerticalStoryCard, shareStoryCardImage, type
 import { useLanguage } from '../context/LanguageContext';
 import { DESCRIBE_ME_RESULT_KEY } from './DescribeMePage';
 import { themeTitle } from '../utils/unfilteredThemes';
+import { useTranslated } from '../utils/useTranslated';
 
 interface DescribeMeResult { name: string; sign: string; birthDate: string; birthTime?: string; birthCity?: string; description: string; createdAt: string; tagline?: string; themeKey?: string; lang?: 'en' | 'pt' | 'es'; bigThree?: { sun: { name: string; symbol: string }; moon: { name: string; symbol: string }; rising: { name: string; symbol: string } | null }; }
 interface DescribeMeResultPageProps { onBackToForm: () => void; onBackToHome: () => void; onNavigateToBlog: () => void; }
@@ -18,19 +19,26 @@ const formatTime = (iso: string, language: string) => new Intl.DateTimeFormat(la
 
 export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBackToForm, onBackToHome, onNavigateToBlog }) => {
   const { language } = useLanguage();
-  const [result, setResult] = useState<DescribeMeResult | null>(null);
+  const [stored, setStored] = useState<DescribeMeResult | null>(null);
   const [copied, setCopied] = useState(false);
   const [busy, setBusy] = useState<'card' | 'story' | 'share' | null>(null);
   const lang = language || 'en';
+  const { value: result } = useTranslated<DescribeMeResult>(
+    stored,
+    stored?.lang,
+    lang as 'pt' | 'en' | 'es',
+    (r) => [r.description, r.bigThree?.sun.name || '', r.bigThree?.moon.name || '', r.bigThree?.rising?.name || ''],
+    (r, t) => ({ ...r, description: t[0] || r.description, bigThree: r.bigThree ? { sun: { ...r.bigThree.sun, name: t[1] || r.bigThree.sun.name }, moon: { ...r.bigThree.moon, name: t[2] || r.bigThree.moon.name }, rising: r.bigThree.rising ? { ...r.bigThree.rising, name: t[3] || r.bigThree.rising.name } : null } : r.bigThree }),
+  );
 
   useEffect(() => {
     try {
-      const stored = localStorage.getItem(DESCRIBE_ME_RESULT_KEY);
-      if (stored) setResult(JSON.parse(stored) as DescribeMeResult);
-    } catch { setResult(null); }
+      const raw = localStorage.getItem(DESCRIBE_ME_RESULT_KEY);
+      if (raw) setStored(JSON.parse(raw) as DescribeMeResult);
+    } catch { setStored(null); }
   }, []);
 
-  const cardTitle = result ? themeTitle(result.bigThree?.sun.name || result.sign, result.themeKey, (result.lang || lang) as 'en' | 'pt' | 'es') : '';
+  const cardTitle = result ? themeTitle(result.bigThree?.sun.name || result.sign, result.themeKey, lang as 'en' | 'pt' | 'es') : '';
   const copyLabel = lang === 'pt' ? 'Copiar texto' : lang === 'es' ? 'Copiar texto' : 'Copy text';
   const copiedLabel = lang === 'pt' ? 'Copiado' : lang === 'es' ? 'Copiado' : 'Copied';
   const shareLabel = lang === 'pt' ? 'Compartilhar' : lang === 'es' ? 'Compartir' : 'Share';

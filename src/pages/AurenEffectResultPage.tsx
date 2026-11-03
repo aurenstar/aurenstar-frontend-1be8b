@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslated } from '../utils/useTranslated';
 import {
   ArrowLeft,
   ArrowRight,
@@ -29,7 +30,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
   const tr = (pt: string, en: string, es: string) => (lang === 'en' ? en : lang === 'es' ? es : pt);
 
   // Carrega resultado salvo
-  const [result] = useState<AurenEffectResult | null>(() => {
+  const [storedResult] = useState<AurenEffectResult | null>(() => {
     try {
       const saved = localStorage.getItem(LAST_RESULT_KEY);
       if (saved) return JSON.parse(saved);
@@ -38,6 +39,24 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
     }
     return null;
   });
+
+  const { value: result } = useTranslated<AurenEffectResult>(
+    storedResult,
+    storedResult?.lang,
+    lang,
+    (r) => [r.headline || '', r.question1Answer, r.question2Answer, r.affirmation, r.shareText || '', r.shareTitle || '', r.transparencyNote, ...(r.practicalSteps || []).flatMap((st) => [st.title, st.action])],
+    (r, t) => ({
+      ...r,
+      headline: t[0] || r.headline,
+      question1Answer: t[1] || r.question1Answer,
+      question2Answer: t[2] || r.question2Answer,
+      affirmation: t[3] || r.affirmation,
+      shareText: t[4] || r.shareText,
+      shareTitle: t[5] || r.shareTitle,
+      transparencyNote: t[6] || r.transparencyNote,
+      practicalSteps: (r.practicalSteps || []).map((st, i) => ({ ...st, title: t[7 + i * 2] || st.title, action: t[8 + i * 2] || st.action })),
+    }),
+  );
 
   const [isGeneratingCard, setIsGeneratingCard] = useState(false);
   const [cardSuccess, setCardSuccess] = useState(false);

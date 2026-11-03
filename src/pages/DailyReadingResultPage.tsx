@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslated } from '../utils/useTranslated';
 import {
   ArrowLeft,
   ArrowRight,
@@ -47,7 +48,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
   const [isGeneratingVerticalStory, setIsGeneratingVerticalStory] = useState(false);
 
   // Retrieve today's saved reading or fallback
-  const savedReading: DailyReadingRecord = getSavedDailyReading() || {
+  const savedRaw: DailyReadingRecord = getSavedDailyReading() || {
     userName: 'Andriel',
     signKey: 'gemeos',
     signName: 'Gêmeos',
@@ -64,6 +65,15 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
     articleId: 'post-gemeos',
     generatedDate: new Date().toISOString().split('T')[0],
   };
+
+  const { value: translatedReading } = useTranslated<DailyReadingRecord>(
+    savedRaw,
+    savedRaw.lang,
+    lang,
+    (r) => [r.message, r.advice, r.affirmation, r.shareText || '', r.signTheme, r.signName],
+    (r, t) => ({ ...r, message: t[0] || r.message, advice: t[1] || r.advice, affirmation: t[2] || r.affirmation, shareText: t[3] || r.shareText, signTheme: t[4] || r.signTheme, signName: t[5] || r.signName }),
+  );
+  const savedReading = translatedReading || savedRaw;
 
   const displayName = savedReading.userName || 'Andriel';
   const signDisplayName = savedReading.signName || 'Gêmeos';

@@ -273,7 +273,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       if (json.success && json.data) {
         setResult(json.data);
         rememberMessage('effect', `${json.data.headline || ''}: ${json.data.question1Answer || ''}`);
-        localStorage.setItem(LAST_RESULT_KEY, JSON.stringify(json.data));
+        localStorage.setItem(LAST_RESULT_KEY, JSON.stringify({ ...json.data, lang }));
       } else {
         throw new Error('Dado inválido');
       }
@@ -295,7 +295,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       );
       setResult(localResult);
       try {
-        localStorage.setItem(LAST_RESULT_KEY, JSON.stringify(localResult));
+        localStorage.setItem(LAST_RESULT_KEY, JSON.stringify({ ...localResult, lang }));
       } catch {
         // silencioso
       }

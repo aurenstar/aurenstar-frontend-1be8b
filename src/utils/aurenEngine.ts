@@ -61,6 +61,8 @@ export interface AurenEffectResult {
   shareTitle?: string;
   shareText?: string;
   generatedByAI: boolean;
+  /** Language the reading was written in (so it can be translated if the site language changes). */
+  lang?: 'pt' | 'en' | 'es';
 }
 
 const ZODIAC_SIGNS = [

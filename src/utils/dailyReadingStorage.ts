@@ -32,6 +32,8 @@ export interface DailyReadingRecord {
   advice: string;
   articleId: string;
   generatedDate: string; // YYYY-MM-DD
+  /** Language the reading was written in (so it can be translated if the site language changes). */
+  lang?: 'pt' | 'en' | 'es';
 }
 
 /** The "day" of Aurendaily starts at midnight in Washington, D.C. (America/New_York), for everyone in the world. */
