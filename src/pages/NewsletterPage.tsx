@@ -11,6 +11,7 @@ import {
   BookOpen,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { CoverArt } from '../components/CoverArt';
 
 interface NewsletterPageProps {
   onBackToHome: () => void;
@@ -186,20 +187,18 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
           </button>
         </div>
 
-        {/* Page Header */}
-        <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>{t.tag}</span>
+        {/* Cover-style header */}
+        <div className="relative mb-10 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
+          <div className="pointer-events-none absolute inset-0"><CoverArt tone="blue" /></div>
+          <div className="relative max-w-xl sm:pr-24">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/15 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-white">
+              <Sparkles className="h-3.5 w-3.5" />
+              <span>{t.tag}</span>
+            </div>
+            <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl">{t.title}</h1>
+            <span aria-hidden className="mt-4 block h-1 w-12 rounded-full bg-[#F51B83]" />
+            <p className="mt-4 text-sm leading-relaxed text-white/90 sm:text-base">{t.subtitle}</p>
           </div>
-
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#172B4D] tracking-tight mb-4 leading-tight">
-            {t.title}
-          </h1>
-
-          <p className="text-sm sm:text-base text-[#647DA5] leading-relaxed">
-            {t.subtitle}
-          </p>
         </div>
 
         {/* =========================================================================
@@ -324,7 +323,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
               <div className="pt-2">
                 <button
                   type="submit"
-                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-sm font-bold shadow-lg shadow-[#2878D0]/25 transition-all hover:scale-101 cursor-pointer"
+                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-[#F51B83] hover:bg-[#D9166F] text-white text-sm font-bold shadow-lg shadow-[#F51B83]/25 transition-all hover:scale-101 cursor-pointer"
                 >
                   <Send className="w-4 h-4" />
                   <span>{t.submitCta}</span>
@@ -346,40 +345,35 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            <div className="p-6 rounded-2xl bg-[#FFFFFF] border border-[#D9E8F8] shadow-2xs">
-              <div className="w-10 h-10 rounded-xl bg-[#2878D0]/10 text-[#2878D0] flex items-center justify-center mb-3">
-                <Star className="w-5 h-5" />
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#2878D0' }}>
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="blue" variant={0} /></div>
+              <div className="relative">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#2878D0' }}>
+                  <Star className="h-5 w-5" />
+                </div>
+                <h3 className="mb-1 text-base font-extrabold">{t.benefit1Title}</h3>
+                <p className="mb-8 text-xs leading-relaxed text-white/90 sm:text-sm">{t.benefit1Desc}</p>
               </div>
-              <h3 className="text-base font-bold text-[#172B4D] mb-1">
-                {t.benefit1Title}
-              </h3>
-              <p className="text-xs sm:text-sm text-[#647DA5] leading-relaxed">
-                {t.benefit1Desc}
-              </p>
             </div>
-
-            <div className="p-6 rounded-2xl bg-[#FFFFFF] border border-[#D9E8F8] shadow-2xs">
-              <div className="w-10 h-10 rounded-xl bg-[#FFE0EF] text-[#F51B83] flex items-center justify-center mb-3">
-                <Heart className="w-5 h-5" />
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#F51B83' }}>
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="pink" variant={1} /></div>
+              <div className="relative">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#F51B83' }}>
+                  <Heart className="h-5 w-5" />
+                </div>
+                <h3 className="mb-1 text-base font-extrabold">{t.benefit2Title}</h3>
+                <p className="mb-8 text-xs leading-relaxed text-white/90 sm:text-sm">{t.benefit2Desc}</p>
               </div>
-              <h3 className="text-base font-bold text-[#172B4D] mb-1">
-                {t.benefit2Title}
-              </h3>
-              <p className="text-xs sm:text-sm text-[#647DA5] leading-relaxed">
-                {t.benefit2Desc}
-              </p>
             </div>
-
-            <div className="p-6 rounded-2xl bg-[#FFFFFF] border border-[#D9E8F8] shadow-2xs">
-              <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-3">
-                <ShieldCheck className="w-5 h-5" />
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#2878D0' }}>
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="blue" variant={2} /></div>
+              <div className="relative">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#2878D0' }}>
+                  <ShieldCheck className="h-5 w-5" />
+                </div>
+                <h3 className="mb-1 text-base font-extrabold">{t.benefit3Title}</h3>
+                <p className="mb-8 text-xs leading-relaxed text-white/90 sm:text-sm">{t.benefit3Desc}</p>
               </div>
-              <h3 className="text-base font-bold text-[#172B4D] mb-1">
-                {t.benefit3Title}
-              </h3>
-              <p className="text-xs sm:text-sm text-[#647DA5] leading-relaxed">
-                {t.benefit3Desc}
-              </p>
             </div>
           </div>
         </div>

@@ -16,6 +16,7 @@ import {
   X,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { CoverArt } from '../components/CoverArt';
 
 interface ContactPageProps {
   onBackToHome: () => void;
@@ -267,20 +268,18 @@ export const ContactPage: React.FC<ContactPageProps> = ({
           </button>
         </div>
 
-        {/* Hero Section */}
-        <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#2878D0]/10 border border-[#2878D0]/20 text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-4 shadow-2xs">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>{t.tag}</span>
+        {/* Cover-style header */}
+        <div className="relative mb-10 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
+          <div className="pointer-events-none absolute inset-0"><CoverArt tone="blue" /></div>
+          <div className="relative max-w-xl sm:pr-24">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/15 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-white">
+              <Sparkles className="h-3.5 w-3.5" />
+              <span>{t.tag}</span>
+            </div>
+            <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl">{t.title}</h1>
+            <span aria-hidden className="mt-4 block h-1 w-12 rounded-full bg-[#F51B83]" />
+            <p className="mt-4 text-sm leading-relaxed text-white/90 sm:text-base">{t.subtitle}</p>
           </div>
-
-          <h1 className="text-3xl sm:text-5xl font-extrabold text-[#172B4D] tracking-tight leading-tight mb-4">
-            {t.title}
-          </h1>
-
-          <p className="text-sm sm:text-base text-[#647DA5] leading-relaxed">
-            {t.subtitle}
-          </p>
         </div>
 
         {/* Global Notification Banner if email was copied or clicked */}
@@ -302,14 +301,12 @@ export const ContactPage: React.FC<ContactPageProps> = ({
         {/* =========================================================================
             FEATURED EMAIL CTA CARD (Highlights aurenstarbusiness@gmail.com)
             ========================================================================= */}
-        <div className="relative overflow-hidden rounded-3xl bg-[#2878D0] p-8 sm:p-10 text-white shadow-xl mb-12 border border-white/10">
+        <div className="relative overflow-hidden rounded-[2rem] bg-[#F51B83] p-8 sm:p-10 text-white shadow-[0_14px_40px_rgba(245,27,131,0.25)] mb-12">
+          <div className="pointer-events-none absolute inset-0"><CoverArt tone="pink" variant={1} /></div>
           {/* Subtle celestial background stars glow */}
-          <div className="absolute -top-12 -right-12 w-64 h-64 bg-[#2878D0]/30 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute -bottom-12 -left-12 w-64 h-64 bg-[#F51B83]/25 rounded-full blur-3xl pointer-events-none" />
-
           <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
             <div className="max-w-xl">
-              <div className="flex items-center gap-2.5 text-xs font-bold uppercase tracking-widest text-[#FFE0EF] mb-2">
+              <div className="flex items-center gap-2.5 text-xs font-bold uppercase tracking-widest text-white mb-2">
                 <Mail className="w-4 h-4" />
                 <span>{t.emailCardTitle}</span>
               </div>
@@ -337,7 +334,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                   handleCopyEmail();
                 }}
                 title="Abrir no Gmail (Web)"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl bg-[#2878D0] hover:brightness-110 text-white text-xs sm:text-sm font-bold shadow-lg shadow-[#2878D0]/30 transition-all hover:scale-102 cursor-pointer text-center"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl bg-white hover:bg-[#FFE0EF] text-[#F51B83] text-xs sm:text-sm font-bold shadow-lg transition-all hover:scale-102 cursor-pointer text-center"
               >
                 <Send className="w-4 h-4" />
                 <span>{t.sendEmailCta}</span>
@@ -368,7 +365,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                 type="button"
                 onClick={() => setShowOptionsModal(true)}
                 title="Outras formas de envio"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-3 rounded-full bg-[#E4F1FF] hover:bg-[#F51B83] border border-[#D9E8F8] text-[#2878D0] hover:text-white text-xs sm:text-sm font-medium transition-all cursor-pointer"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-3 rounded-full bg-white/15 hover:bg-white hover:text-[#F51B83] border border-white/25 text-white text-xs sm:text-sm font-medium transition-all cursor-pointer"
               >
                 <ExternalLink className="w-3.5 h-3.5" />
                 <span className="hidden sm:inline">{t.moreOptionsBtn}</span>
@@ -515,40 +512,37 @@ export const ContactPage: React.FC<ContactPageProps> = ({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16">
           {/* Left Column: 3 Friendly Pillars */}
           <div className="lg:col-span-5 flex flex-col justify-between gap-4">
-            <div className="p-6 rounded-2xl bg-[#FFFFFF] border border-[#D9E8F8] shadow-2xs hover:shadow-xs transition-shadow">
-              <div className="w-10 h-10 rounded-xl bg-[#2878D0]/10 text-[#2878D0] flex items-center justify-center mb-3">
-                <Clock className="w-5 h-5" />
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#2878D0' }}>
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="blue" variant={0} /></div>
+              <div className="relative">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#2878D0' }}>
+                  <Clock className="h-5 w-5" />
+                </div>
+                <h3 className="mb-1 text-base font-extrabold">{t.card1Title}</h3>
+                <p className="mb-8 text-xs leading-relaxed text-white/90 sm:text-sm">{t.card1Desc}</p>
               </div>
-              <h2 className="text-base font-bold text-[#172B4D] mb-1">
-                {t.card1Title}
-              </h2>
-              <p className="text-xs sm:text-sm text-[#647DA5] leading-relaxed">
-                {t.card1Desc}
-              </p>
             </div>
 
-            <div className="p-6 rounded-2xl bg-[#FFFFFF] border border-[#D9E8F8] shadow-2xs hover:shadow-xs transition-shadow">
-              <div className="w-10 h-10 rounded-xl bg-[#E4F1FF] text-[#2878D0] flex items-center justify-center mb-3">
-                <Building className="w-5 h-5" />
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#F51B83' }}>
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="pink" variant={1} /></div>
+              <div className="relative">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#F51B83' }}>
+                  <Building className="h-5 w-5" />
+                </div>
+                <h3 className="mb-1 text-base font-extrabold">{t.card2Title}</h3>
+                <p className="mb-8 text-xs leading-relaxed text-white/90 sm:text-sm">{t.card2Desc}</p>
               </div>
-              <h2 className="text-base font-bold text-[#172B4D] mb-1">
-                {t.card2Title}
-              </h2>
-              <p className="text-xs sm:text-sm text-[#647DA5] leading-relaxed">
-                {t.card2Desc}
-              </p>
             </div>
 
-            <div className="p-6 rounded-2xl bg-[#FFFFFF] border border-[#D9E8F8] shadow-2xs hover:shadow-xs transition-shadow">
-              <div className="w-10 h-10 rounded-xl bg-[#FFE0EF] text-[#F51B83] flex items-center justify-center mb-3">
-                <Heart className="w-5 h-5" />
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#2878D0' }}>
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="blue" variant={2} /></div>
+              <div className="relative">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#2878D0' }}>
+                  <Heart className="h-5 w-5" />
+                </div>
+                <h3 className="mb-1 text-base font-extrabold">{t.card3Title}</h3>
+                <p className="mb-8 text-xs leading-relaxed text-white/90 sm:text-sm">{t.card3Desc}</p>
               </div>
-              <h2 className="text-base font-bold text-[#172B4D] mb-1">
-                {t.card3Title}
-              </h2>
-              <p className="text-xs sm:text-sm text-[#647DA5] leading-relaxed">
-                {t.card3Desc}
-              </p>
             </div>
           </div>
 
@@ -686,7 +680,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                 {/* Submit Button with CTA */}
                 <button
                   type="submit"
-                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-xs sm:text-sm font-bold shadow-md transition-all hover:scale-101 cursor-pointer"
+                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#F51B83] hover:bg-[#D9166F] text-white text-xs sm:text-sm font-bold shadow-md transition-all hover:scale-101 cursor-pointer"
                 >
                   <Send className="w-4 h-4" />
                   <span>{t.submitCta}</span>

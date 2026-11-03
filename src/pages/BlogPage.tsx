@@ -13,6 +13,7 @@ import {
   Check,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { CoverArt } from '../components/CoverArt';
 import { BLOG_ARTICLES, BlogArticleContent, AURENSTAR_AVATAR } from '../data/blogArticles';
 import { AurenstarLogo } from '../components/AurenstarLogo';
 import { ShareArticleButton } from '../components/ShareArticleButton';
@@ -338,66 +339,48 @@ export const BlogPage: React.FC<BlogPageProps> = ({
         {/* =========================================================================
             BLOG SECTION HEADER & TOOLBAR (Matching image.png)
             ========================================================================= */}
-        <div className="mb-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#172B4D] tracking-tight leading-tight mb-2">
-            {t.blogHeading}
-          </h2>
-          <p className="text-xs sm:text-sm text-[#647DA5] leading-relaxed max-w-2xl font-normal">
-            {t.blogSubheading}
-          </p>
-        </div>
-
-        {/* Categories Tabs & Sort By Toolbar matching image.png */}
-        <div className="flex flex-wrap items-center justify-between gap-4 pb-6 mb-8 border-b border-[#D9E8F8]">
-          {/* Left: Category Tabs */}
-          <div className="flex flex-wrap items-center gap-2">
-            {(
-              [
-                'ALL',
-                'ASTROLOGIA',
-                'HORÓSCOPO',
-                'FASES DA LUA',
-                'BEM-ESTAR',
-                'GUIA DOS SIGNOS',
-              ] as const
-            ).map((catKey) => {
-              const isSelected = selectedCategory === catKey;
-              return (
-                <a
-                  key={catKey}
-                  href={getCategoryPath(catKey)}
-                  onClick={onPlainClick(() => onSelectCategory(catKey))}
-                  aria-current={isSelected ? 'page' : undefined}
-                  className={`btn-font inline-block px-4 py-2 rounded-xl text-xs sm:text-sm font-bold tracking-tight transition-all duration-200 cursor-pointer ${
-                    isSelected
-                      ? 'bg-[#F51B83] text-white shadow-xs'
-                      : 'bg-transparent text-[#647DA5] hover:bg-[#E4F1FF]/60 hover:text-[#172B4D]'
-                  }`}
-                >
-                  {t.categories[catKey]}
-                </a>
-              );
-            })}
+        <div className="relative mb-8 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-9">
+          <div className="pointer-events-none absolute inset-0"><CoverArt tone="blue" /></div>
+          <div className="relative max-w-2xl">
+            <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-4xl">{t.blogHeading}</h2>
+            <span aria-hidden className="mt-3 block h-1 w-12 rounded-full bg-[#F51B83]" />
+            <p className="mt-3 text-sm leading-relaxed text-white/90">{t.blogSubheading}</p>
           </div>
 
-          {/* Right: Sort By Dropdown matching image.png */}
-          <div className="flex items-center gap-2 self-end sm:self-auto">
-            <span className="text-xs text-[#647DA5] font-medium hidden sm:inline">
-              {t.sortLabel}
-            </span>
-            <div className="relative">
-              <select
-                value={sortBy}
-                onChange={(e) =>
-                  setSortBy(e.target.value as 'newest' | 'readTime' | 'popular')
-                }
-                className="appearance-none bg-[#FFFFFF] hover:bg-[#E4F1FF]/40 border border-[#D9E8F8] text-[#172B4D] font-semibold text-xs sm:text-sm rounded-xl pl-3.5 pr-8 py-2 cursor-pointer outline-none focus:ring-2 focus:ring-[#2878D0]/20 transition-all"
-              >
-                <option value="newest">{t.sortOptions.newest}</option>
-                <option value="popular">{t.sortOptions.popular}</option>
-                <option value="readTime">{t.sortOptions.readTime}</option>
-              </select>
-              <ChevronDown className="w-3.5 h-3.5 text-[#647DA5] absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+          <div className="relative mt-6 flex flex-wrap items-center justify-between gap-4">
+            <div className="flex flex-wrap items-center gap-2">
+              {(['ALL','ASTROLOGIA','HORÓSCOPO','FASES DA LUA','BEM-ESTAR','GUIA DOS SIGNOS'] as const).map((catKey) => {
+                const isSelected = selectedCategory === catKey;
+                return (
+                  <a
+                    key={catKey}
+                    href={getCategoryPath(catKey)}
+                    onClick={onPlainClick(() => onSelectCategory(catKey))}
+                    aria-current={isSelected ? 'page' : undefined}
+                    className={`inline-block cursor-pointer rounded-full px-3.5 py-1.5 text-xs font-bold transition-all ${
+                      isSelected ? 'bg-[#F51B83] text-white shadow-md' : 'bg-white/15 text-white hover:bg-white hover:text-[#2878D0]'
+                    }`}
+                  >
+                    {t.categories[catKey]}
+                  </a>
+                );
+              })}
+            </div>
+
+            <div className="flex items-center gap-2">
+              <span className="hidden text-xs font-medium text-white/80 sm:inline">{t.sortLabel}</span>
+              <div className="relative">
+                <select
+                  value={sortBy}
+                  onChange={(e) => setSortBy(e.target.value as 'newest' | 'readTime' | 'popular')}
+                  className="cursor-pointer appearance-none rounded-full bg-white py-2 pl-4 pr-9 text-xs font-bold text-[#172B4D] outline-none focus:ring-2 focus:ring-[#F51B83]"
+                >
+                  <option value="newest">{t.sortOptions.newest}</option>
+                  <option value="popular">{t.sortOptions.popular}</option>
+                  <option value="readTime">{t.sortOptions.readTime}</option>
+                </select>
+                <ChevronDown className="pointer-events-none absolute right-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-[#647DA5]" />
+              </div>
             </div>
           </div>
         </div>
@@ -406,7 +389,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
             GRID OF ARTICLES: EXACTLY 3 CARDS PER ROW MATCHING cards.png
             ========================================================================= */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-7">
-          {filteredArticles.map((article) => (
+          {filteredArticles.map((article, ai) => (
             <article
               key={article.id}
               onClick={() => onOpenArticle(article.id)}
@@ -419,7 +402,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
               tabIndex={0}
               role="button"
               aria-label={`${article.title[lang] || article.title.pt} - ${t.readMore}`}
-              className="bg-white rounded-2xl border border-[#D9E8F8] shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 overflow-hidden flex flex-col justify-between cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40"
+              className="bg-white rounded-3xl border border-[#D9E8F8] shadow-sm hover:shadow-[0_18px_36px_rgba(23,54,111,0.18)] transition-all duration-300 hover:-translate-y-1.5 overflow-hidden flex flex-col justify-between cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40"
             >
               {/* Card Image at Top - Compact proportion matching image.png */}
               <div className="p-3.5 pb-0 shrink-0">
@@ -438,7 +421,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                 <div>
                   {/* Category Pill Badge INSIDE body matching cards.png */}
                   <span
-                    className={`inline-block px-3.5 py-1 rounded-full text-[10px] sm:text-[11px] font-extrabold uppercase tracking-wider bg-[#E4F1FF] text-[#2878D0] mb-3 w-fit`}
+                    className="inline-block px-3.5 py-1 rounded-full text-[10px] sm:text-[11px] font-extrabold uppercase tracking-wider text-white mb-3 w-fit" style={{ background: ai % 3 === 1 ? '#F51B83' : '#2878D0' }}
                   >
                     {article.category[lang] || article.category.pt}
                   </span>
