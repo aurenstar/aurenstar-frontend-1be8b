@@ -13,8 +13,8 @@ export const AurenstarLogo: React.FC<AurenstarLogoProps> = ({
   // transparent brand asset in the main header/footer preview.
   if (variant === 'gradient') {
     return (
-      <img
-        src="/logo-aurenstar.png"
+      <img decoding="async"
+        src="/logo-aurenstar.webp"
         alt="Aurenstar"
         className={`select-none shrink-0 object-contain ${className}`}
         style={{ display: 'inline-block' }}

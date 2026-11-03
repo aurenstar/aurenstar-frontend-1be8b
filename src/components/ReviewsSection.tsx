@@ -83,7 +83,7 @@ const REVIEWS_LIST: ReviewItem[] = [
         es: 'hace 12 días',
       },
       avatar:
-        'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80',
+        '/assets/img/1507003211169-0a1dd7228f-120.webp',
     },
   },
   {
@@ -108,7 +108,7 @@ const REVIEWS_LIST: ReviewItem[] = [
         es: 'hace 2 semanas',
       },
       avatar:
-        'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80',
+        '/assets/img/1500648767791-00dcc994a4-120.webp',
     },
   },
   {
@@ -133,7 +133,7 @@ const REVIEWS_LIST: ReviewItem[] = [
         es: 'hace 3 días',
       },
       avatar:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80',
+        '/assets/img/1494790108377-be9c29b293-120.webp',
     },
   },
   {
@@ -158,7 +158,7 @@ const REVIEWS_LIST: ReviewItem[] = [
         es: 'hace 1 mes',
       },
       avatar:
-        'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80',
+        '/assets/img/1534528741775-53994a69da-120.webp',
     },
   },
   {
@@ -183,7 +183,7 @@ const REVIEWS_LIST: ReviewItem[] = [
         es: 'hace 5 días',
       },
       avatar:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=120&q=80',
+        '/assets/img/1517841905240-472988babd-120.webp',
     },
   },
   {
@@ -208,7 +208,7 @@ const REVIEWS_LIST: ReviewItem[] = [
         es: 'hace 3 semanas',
       },
       avatar:
-        'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80',
+        '/assets/img/1535713875002-d1d0cf377f-120.webp',
     },
   },
 ];
@@ -306,7 +306,7 @@ export const ReviewsSection: React.FC = () => {
 
                   {/* Author Info Row matching image.png with date + Google symbol */}
                   <div className="flex items-center gap-2.5 pt-3 border-t border-[#D9E8F8] mt-auto">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src={item.author.avatar}
                       alt={item.author.name}
                       className="w-8 h-8 rounded-full object-cover shrink-0 ring-1 ring-black/5"
@@ -369,7 +369,7 @@ export const ReviewsSection: React.FC = () => {
 
                   {/* Author Info Row matching image.png with date + Google symbol */}
                   <div className="flex items-center gap-2.5 pt-3 border-t border-[#D9E8F8] mt-auto">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src={item.author.avatar}
                       alt={item.author.name}
                       className="w-8 h-8 rounded-full object-cover shrink-0 ring-1 ring-black/5"

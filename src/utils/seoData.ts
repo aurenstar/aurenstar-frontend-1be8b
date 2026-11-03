@@ -56,6 +56,9 @@ export interface SeoData {
 
 export const SITE_URL = 'https://aurenstar.com';
 export const SITE_NAME = 'Aurenstar';
+/** Own images are stored as paths ("/assets/..."); search engines and social networks need the full address. */
+const absoluteUrl = (u: string) => (u.startsWith('/') ? `${SITE_URL}${u}` : u);
+
 export const DEFAULT_IMAGE = `${SITE_URL}/og-aurenstar.png`;
 const LOGO_URL = `${SITE_URL}/assets/aurenstar-logo-v2.png`;
 
@@ -265,7 +268,7 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
       description = truncate(article.subtitle.en);
       path = `/blog/${slug}`;
       ogType = 'article';
-      image = article.image;
+      image = absoluteUrl(article.image);
       publishedTime = getArticleIsoDate(article);
       const url = `${SITE_URL}${path}`;
       pageNode = {
@@ -273,7 +276,7 @@ export function getSeoData(page: SeoPage, options: SeoOptions = {}): SeoData {
         '@id': `${url}#article`,
         headline: article.title.en,
         description,
-        image: [article.image],
+        image: [absoluteUrl(article.image)],
         ...(publishedTime ? { datePublished: publishedTime, dateModified: publishedTime } : {}),
         author: { '@type': 'Organization', name: article.author.name || SITE_NAME, url: SITE_URL },
         publisher: { '@id': `${SITE_URL}/#organization` },

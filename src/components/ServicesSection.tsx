@@ -28,7 +28,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
           icon: Sparkles,
           iconBg: 'bg-[#d2f829] text-black',
           image:
-            'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1573496359142-b8d87734a5-600.webp',
           perks: ['Atendimento rápido 24h', 'Respostas automáticas inteligentes', 'Zero dor de cabeça técnica'],
         },
         {
@@ -39,7 +39,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
           icon: Clock,
           iconBg: 'bg-blue-100 text-blue-600',
           image:
-            'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1556761175-5973dc0f32e7-600.webp',
           perks: ['Menos estresse na rotina', 'Mais tempo para sua família', 'Processo claro passo a passo'],
         },
         {
@@ -50,7 +50,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
           icon: BarChart3,
           iconBg: 'bg-emerald-100 text-emerald-600',
           image:
-            'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1551288049-bebda4e38f71-600.webp',
           perks: ['Painel visual no celular', 'Alertas de gastos e lucros', 'Previsão de vendas futuras'],
         },
       ],
@@ -70,7 +70,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
           icon: Sparkles,
           iconBg: 'bg-[#d2f829] text-black',
           image:
-            'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1573496359142-b8d87734a5-600.webp',
           perks: ['24/7 Smart Assistance', 'Automated customer triage', 'Zero technical debt'],
         },
         {
@@ -81,7 +81,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
           icon: Clock,
           iconBg: 'bg-blue-100 text-blue-600',
           image:
-            'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1556761175-5973dc0f32e7-600.webp',
           perks: ['Streamlined operations', 'More freedom in your schedule', 'Crystal clear roadmap'],
         },
         {
@@ -92,7 +92,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
           icon: BarChart3,
           iconBg: 'bg-emerald-100 text-emerald-600',
           image:
-            'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1551288049-bebda4e38f71-600.webp',
           perks: ['Mobile friendly dashboard', 'Instant financial clarity', 'Future projection engine'],
         },
       ],
@@ -158,7 +158,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
 
                   {/* Image showcase */}
                   <div className="mt-5 h-44 rounded-2xl overflow-hidden relative group">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src={service.image}
                       alt={service.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

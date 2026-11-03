@@ -182,7 +182,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
         <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[420px] sm:h-[480px] lg:h-[540px] flex flex-col justify-between p-6 sm:p-10 mb-10 group">
           {/* Stacked Background Images with Smooth Cross-Fade (Zero Flicker) */}
           {featuredArticles.map((item, idx) => (
-            <img
+            <img decoding="async"
               key={`bg-${item.id}`}
               src={item.image}
               alt={item.title[lang] || item.title.pt}
@@ -319,7 +319,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
               onClick={() => onOpenArticle(currentFeatured.id)}
               className="flex items-center gap-3.5 self-start md:self-end bg-black/35 backdrop-blur-md border border-white/20 p-2.5 sm:p-3 rounded-2xl cursor-pointer hover:bg-black/50 transition-all shrink-0"
             >
-              <img
+              <img decoding="async"
                 src={AURENSTAR_AVATAR}
                 alt="Aurenstar"
                 className="w-11 h-11 rounded-full object-cover ring-2 ring-white/30 shrink-0 shadow-xs"
@@ -407,7 +407,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
               {/* Card Image at Top - Compact proportion matching image.png */}
               <div className="p-3.5 pb-0 shrink-0">
               <div className="w-full h-40 sm:h-44 overflow-hidden rounded-[18px] bg-slate-100 relative">
-                <img
+                <img decoding="async"
                   src={article.image}
                   alt={article.title[lang] || article.title.pt}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -444,7 +444,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
 
                 {/* Author Section at Bottom with Aurenstar Profile */}
                 <div className="flex items-center gap-3 mt-auto">
-                  <img
+                  <img decoding="async"
                     src={AURENSTAR_AVATAR}
                     alt="Aurenstar"
                     className="w-9 h-9 sm:w-10 sm:h-10 rounded-full object-cover shrink-0 ring-1 ring-black/5 shadow-2xs"

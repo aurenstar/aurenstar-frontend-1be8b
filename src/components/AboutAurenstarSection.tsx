@@ -59,7 +59,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
             {/* Cover + avatar: the same look as the profile page */}
             <div className="relative">
               <div className="relative h-32 overflow-hidden rounded-3xl bg-[#2878D0] sm:h-44" aria-hidden><CoverArt tone="blue" /></div>
-              <img src="/aurenstar-avatar.png" alt="Aurenstar" width={96} height={96} className="absolute -bottom-9 left-4 h-20 w-20 rounded-2xl border-4 border-white bg-white object-cover shadow-md sm:left-6 sm:h-24 sm:w-24" />
+              <img loading="lazy" decoding="async" src="/aurenstar-avatar.webp" alt="Aurenstar" width={96} height={96} className="absolute -bottom-9 left-4 h-20 w-20 rounded-2xl border-4 border-white bg-white object-cover shadow-md sm:left-6 sm:h-24 sm:w-24" />
             </div>
 
             <div className="mt-12 grid gap-6 px-2 pb-3 sm:px-4 md:grid-cols-[1.25fr_1fr] md:items-center md:gap-10">

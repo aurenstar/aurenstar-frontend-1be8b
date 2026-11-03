@@ -1,6 +1,6 @@
 // Official Aurenstar brand avatar SVG
 // Shared Aurenstar profile avatar used across blog cards and author rows
-export const AURENSTAR_AVATAR = '/aurenstar-avatar.png';
+export const AURENSTAR_AVATAR = '/aurenstar-avatar.webp';
 
 export interface BlogAuthor {
   name: string;
@@ -113,7 +113,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1506703719100-a0f3a48c0f-1200.webp',
     imageCaption: {
       pt: 'As constelações revelam tendências suaves para o seu dia a dia.',
       en: 'Constellations softly guide your daily steps with clarity.',
@@ -226,7 +226,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1532693322450-2cb5c511067d?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1532693322450-2cb5c51106-1200.webp',
     imageCaption: {
       pt: 'A luz suave da Lua nos convida ao descanso e à renovação de ideias.',
       en: 'The soft glow of the Moon invites rest and mindful renewal.',
@@ -329,7 +329,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1506744038136-46273834b3-1200.webp',
     imageCaption: {
       pt: 'A calma matinal cria raízes profundas de tranquilidade para o seu dia.',
       en: 'Early morning calm sets deep roots of tranquility for your hours ahead.',
@@ -432,7 +432,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1518709268805-4e9042af9f-1200.webp',
     imageCaption: {
       pt: 'A harmonia entre os elementos ensina que cada um de nós é único e valioso.',
       en: 'Harmony between the elements shows how uniquely valuable each of us is.',
@@ -550,7 +550,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1517841905240-472988babd-1200.webp',
     imageCaption: {
       pt: 'Pequenos momentos de silêncio restauram a serenidade interior.',
       en: 'Small quiet moments restore your inner serenity.',
@@ -653,7 +653,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1534447677768-be436bb094-1200.webp',
     imageCaption: {
       pt: 'O céu noturno nos ensina que a beleza brilha mesmo nas noites escuras.',
       en: 'The starry sky reminds us that gentle light shines even in the darkest night.',
@@ -742,7 +742,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1519671482749-fd09be7cce-1200.webp',
     imageCaption: {
       pt: 'A liberdade dos geminianos nasce da curiosidade constante e da busca por aprender.',
       en: 'Gemini love for personal freedom is born from curiosity and constant growth.',
@@ -851,7 +851,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1507525428034-b723cf961d-1200.webp',
     imageCaption: {
       pt: 'A coragem de Áries abre portas para novas conquistas todos os dias.',
       en: 'Aries bravery naturally opens doors to fresh achievements.',
@@ -941,7 +941,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1470240731273-7821a6eeb6-1200.webp',
     imageCaption: {
       pt: 'Touro encontra na calma da natureza seu maior porto seguro.',
       en: 'Taurus finds its greatest haven in peaceful nature.',
@@ -1031,7 +1031,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1518495973542-4542c06a58-1200.webp',
     imageCaption: {
       pt: 'O abraço acolhedor de Câncer traz proteção e ternura.',
       en: 'The caring warmth of Cancer brings safety and peace.',
@@ -1121,7 +1121,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1506744038136-46273834b3-1200.webp',
     imageCaption: {
       pt: 'O Sol ilumina o caminho e espalha calor por onde passa.',
       en: 'The Sun illuminates the path and spreads warmth everywhere.',
@@ -1211,7 +1211,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1499750310107-5fef28a666-1200.webp',
     imageCaption: {
       pt: 'A simplicidade e os pequenos detalhes trazem ordem e serenidade.',
       en: 'Simplicity and mindful details bring calm and clarity.',
@@ -1301,7 +1301,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1507525428034-b723cf961d-1200.webp',
     imageCaption: {
       pt: 'O equilíbrio nasce da paz que cultivamos dentro de nós.',
       en: 'Balance is born from the gentle peace we cultivate inside.',
@@ -1391,7 +1391,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1518709268805-4e9042af9f-1200.webp',
     imageCaption: {
       pt: 'A força da transformação pessoal renova qualquer caminho.',
       en: 'The strength of personal rebirth renews any life journey.',
@@ -1481,7 +1481,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1506703719100-a0f3a48c0f-1200.webp',
     imageCaption: {
       pt: 'O horizonte aberto convida Sagitário a sonhar e explorar.',
       en: 'The wide horizon invites Sagittarius to dream and explore.',
@@ -1571,7 +1571,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1517841905240-472988babd-1200.webp',
     imageCaption: {
       pt: 'Passo a passo, Capricórnio alcança o topo da montanha com calma.',
       en: 'Step by step, Capricorn ascends the summit with serene dignity.',
@@ -1661,7 +1661,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1506744038136-46273834b3-1200.webp',
     imageCaption: {
       pt: 'Ideias inovadoras trazem esperança e renovação para o coletivo.',
       en: 'Inventive ideas bring joyful hope and fresh winds to everyone.',
@@ -1751,7 +1751,7 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
       },
     },
     image:
-      'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80',
+      '/assets/img/1534447677768-be436bb094-1200.webp',
     imageCaption: {
       pt: 'A água mística de Peixes conecta o coração com a paz do universo.',
       en: 'The mystical waters of Pisces link the heart with cosmic peace.',

@@ -350,7 +350,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
             {/* Topo do Card: Avatar, Nome com Selo e Três Pontinhos */}
             <div className="flex items-start justify-between mb-4 sm:mb-5">
               <div className="flex items-center gap-3.5">
-                <img src={AURENSTAR_AVATAR} alt="Aurenstar" className="w-12 h-12 rounded-full object-cover shrink-0 border border-[#D9E8F8] bg-white shadow-xs" />
+                <img loading="lazy" decoding="async" src={AURENSTAR_AVATAR} alt="Aurenstar" className="w-12 h-12 rounded-full object-cover shrink-0 border border-[#D9E8F8] bg-white shadow-xs" />
                 <div>
                   <div className="flex items-center gap-1.5 leading-tight">
                     <span translate="no" className="notranslate font-bold text-base sm:text-[17px] text-[#172B4D]">

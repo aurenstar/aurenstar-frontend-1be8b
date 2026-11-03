@@ -186,7 +186,7 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
 
   // 1. Profile Avatar (supplied Aurenstar logo)
   const avatarX = cardX + 50;
-  const avatarImage = await loadImage('/aurenstar-avatar.png');
+  const avatarImage = await loadImage('/aurenstar-avatar.webp');
 
   ctx.save();
   ctx.beginPath();

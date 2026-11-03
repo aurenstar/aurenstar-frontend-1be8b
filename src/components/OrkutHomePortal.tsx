@@ -318,8 +318,8 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
 
                 {/* Editorial Illustration Card */}
                 <div className="w-full md:w-56 lg:w-64 shrink-0 rounded-2xl overflow-hidden border border-[#D9E8F8] bg-[#E4F1FF] p-2 shadow-2xs">
-                  <img
-                    src="https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=600&q=80"
+                  <img decoding="async"
+                    src="/assets/img/1506703719100-a0f3a48c0f-600.webp"
                     alt="Astrology & Stars"
                     className="w-full h-44 sm:h-52 object-cover rounded-xl"
                   />
@@ -494,7 +494,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                       <div>
                         {/* Article Image with 8-12px rounded corners */}
                         <div className="w-full h-40 sm:h-44 rounded-xl overflow-hidden mb-3.5 bg-[#E4F1FF] relative">
-                          <img
+                          <img decoding="async"
                             src={article.image}
                             alt={title}
                             className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-300"

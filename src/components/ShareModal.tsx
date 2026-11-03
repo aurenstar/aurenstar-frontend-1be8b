@@ -252,7 +252,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
         {/* Article Preview if standard article */}
         {image && !storyCardData && (
           <div className="flex items-center gap-3 p-3 rounded-2xl bg-[#E4F1FF] border border-[#D9E8F8] mb-5">
-            <img
+            <img decoding="async"
               src={image}
               alt={title}
               className="w-14 h-14 rounded-xl object-cover shrink-0 shadow-2xs"

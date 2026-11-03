@@ -193,7 +193,7 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({
 
           {/* Author Header Row */}
           <div className="flex items-center gap-3 py-3 border-y border-[#D9E8F8] mb-8">
-            <img
+            <img decoding="async"
               src={AURENSTAR_AVATAR}
               alt="Aurenstar"
               className="w-10 h-10 rounded-full object-cover shrink-0 ring-2 ring-black/5"
@@ -211,7 +211,7 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({
           {/* Featured Image */}
           <figure className="mb-8">
             <div className="rounded-2xl overflow-hidden border border-[#D9E8F8] shadow-sm max-h-[380px] bg-slate-100">
-              <img
+              <img decoding="async"
                 src={article.image}
                 alt={article.title[lang] || article.title.pt}
                 className="w-full h-full object-cover max-h-[380px]"
@@ -278,7 +278,7 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({
                 className="w-full text-left bg-white border border-[#D9E8F8] hover:border-[#2878D0]/50 rounded-2xl p-4 sm:p-5 flex items-center justify-between gap-4 transition-all duration-200 hover:-translate-y-0.5 shadow-2xs group cursor-pointer"
               >
                 <div className="flex items-center gap-3.5 min-w-0">
-                  <img
+                  <img decoding="async"
                     src={nextArticle.image}
                     alt={nextArticle.title[lang] || nextArticle.title.pt}
                     className="w-16 h-16 sm:w-20 sm:h-20 rounded-xl object-cover shrink-0"

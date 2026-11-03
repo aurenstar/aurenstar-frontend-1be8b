@@ -80,8 +80,8 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ lang }) => {
 
             <div className="my-6 z-10">
               <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl overflow-hidden border-2 border-white/60 shadow-lg mb-6 group-hover:scale-105 transition-transform duration-300">
-                <img
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80"
+                <img loading="lazy" decoding="async"
+                  src="/assets/img/1534528741775-53994a69da-400.webp"
                   alt="Team lead"
                   className="w-full h-full object-cover"
                 />
@@ -120,12 +120,12 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ lang }) => {
                 {/* Avatar stack */}
                 <div className="flex items-center -space-x-3">
                   {[
-                    'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80',
-                    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80',
-                    'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=120&q=80',
-                    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80',
+                    '/assets/img/1534528741775-53994a69da-120.webp',
+                    '/assets/img/1507003211169-0a1dd7228f-120.webp',
+                    '/assets/img/1580489944761-15a19d6549-120.webp',
+                    '/assets/img/1500648767791-00dcc994a4-120.webp',
                   ].map((src, i) => (
-                    <img
+                    <img loading="lazy" decoding="async"
                       key={i}
                       src={src}
                       alt="Avatar"

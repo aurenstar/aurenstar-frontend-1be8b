@@ -385,7 +385,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
 
           {/* Author Profile Row with Date & Time */}
           <div className="flex items-center gap-3.5 py-3.5 border-y border-[#D9E8F8]">
-            <img
+            <img decoding="async"
               src={AURENSTAR_AVATAR}
               alt="Aurenstar"
               className="w-11 h-11 rounded-full object-cover shrink-0 ring-1 ring-black/5 shadow-2xs"
@@ -411,7 +411,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
         {/* Featured Image - Aligned with Aurenstar profile */}
         <figure className="mb-10 w-full">
           <div className="w-full rounded-2xl sm:rounded-3xl overflow-hidden border border-[#D9E8F8] shadow-sm bg-slate-50">
-            <img
+            <img decoding="async"
               src={article.image}
               alt={article.title[lang] || article.title.pt}
               className="w-full h-auto max-h-[380px] sm:max-h-[420px] object-cover"
@@ -507,7 +507,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
             >
               {/* Left Thumbnail Image */}
               <div className="w-28 sm:w-44 h-20 sm:h-28 rounded-xl sm:rounded-2xl overflow-hidden shrink-0 bg-slate-100 relative shadow-2xs">
-                <img
+                <img decoding="async"
                   src={nextArticle.image}
                   alt={nextArticle.title[lang] || nextArticle.title.pt}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

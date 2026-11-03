@@ -23,7 +23,7 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ lang }) => {
           category: 'Estratégia Simples',
           readTime: '3 min de leitura',
           image:
-            'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1551288049-bebda4e38f71-600.webp',
           summary:
             'Descubra como pequenos gráficos visuais ajudam você a enxergar qual produto vende mais e onde está sobrando dinheiro.',
           content: `Você não precisa ser um gênio da matemática para entender suas finanças. 
@@ -41,7 +41,7 @@ Quando você simplifica seus números, sobra tempo para focar no que você realm
           category: 'Produtividade',
           readTime: '4 min de leitura',
           image:
-            'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1573497019940-1c28c88b4f-600.webp',
           summary:
             'Como responder mensagens comuns na hora certa sem precisar ficar grudado na tela do celular o dia todo.',
           content: `Seus clientes adoram respostas rápidas. Quando alguém pergunta preço, horário ou endereço e recebe uma resposta amigável em menos de 1 minuto, a chance de comprar multiplica!
@@ -57,7 +57,7 @@ Dicas de ouro:
           category: 'Crescimento',
           readTime: '3 min de leitura',
           image:
-            'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1555066931-4365d14bab8c-600.webp',
           summary:
             'A tecnologia cuida da repetição pesada, e você coloca carinho, empatia e atenção que nenhum robô consegue copiar.',
           content: `Muitas pessoas têm medo de que a tecnologia afaste os clientes. Mas quando você usa do jeito certo, acontece o oposto!
@@ -79,7 +79,7 @@ A inteligência artificial ajuda a organizar o estoque, enviar confirmações e 
           category: 'Strategy',
           readTime: '3 min read',
           image:
-            'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1551288049-bebda4e38f71-600.webp',
           summary:
             'Learn how intuitive visual dashboards reveal your most profitable products and free up valuable time.',
           content: `You don’t need an engineering degree to read your numbers clearly. When metrics are intuitive and visual, decisions become natural and confidence skyrockets.`,
@@ -90,7 +90,7 @@ A inteligência artificial ajuda a organizar o estoque, enviar confirmações e 
           category: 'Productivity',
           readTime: '4 min read',
           image:
-            'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1573497019940-1c28c88b4f-600.webp',
           summary:
             'How to answer everyday customer questions on autopilot while maintaining warmth and high satisfaction.',
           content: `Automating common FAQs and order triage lets your team focus on high-value human relationships that drive revenue.`,
@@ -101,7 +101,7 @@ A inteligência artificial ajuda a organizar o estoque, enviar confirmações e 
           category: 'Growth',
           readTime: '3 min read',
           image:
-            'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1555066931-4365d14bab8c-600.webp',
           summary:
             'Technology takes care of repetitive chores so you can bring genuine empathy and creativity to the forefront.',
           content: `Automation never replaces human connection; it liberates people to do their most impactful, creative work.`,
@@ -149,7 +149,7 @@ A inteligência artificial ajuda a organizar o estoque, enviar confirmações e 
               <div>
                 {/* Image */}
                 <div className="h-52 rounded-2xl overflow-hidden relative">
-                  <img
+                  <img decoding="async"
                     src={post.image}
                     alt={post.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -204,7 +204,7 @@ A inteligência artificial ajuda a organizar o estoque, enviar confirmações e 
             </h3>
 
             <div className="mt-6 rounded-2xl overflow-hidden h-64">
-              <img
+              <img decoding="async"
                 src={selectedPost.image}
                 alt={selectedPost.title}
                 className="w-full h-full object-cover"

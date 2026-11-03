@@ -15,7 +15,7 @@ interface AboutProfilePageProps {
   onOpenArticle: (articleId: string) => void;
 }
 
-const AVATAR = '/aurenstar-avatar.png';
+const AVATAR = '/aurenstar-avatar.webp';
 
 const COPY: Record<Lang, {
   back: string; handle: string; bio: string; verified: string;
@@ -232,7 +232,7 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                 <circle cx="780" cy="40" r="3" fill="#fff" fillOpacity="0.7" />
               </svg>
             </div>
-            <img src={AVATAR} alt="Aurenstar" className="absolute -bottom-9 left-4 h-20 w-20 rounded-2xl border-4 border-white bg-white object-cover shadow-md sm:left-6 sm:h-24 sm:w-24" />
+            <img decoding="async" src={AVATAR} alt="Aurenstar" className="absolute -bottom-9 left-4 h-20 w-20 rounded-2xl border-4 border-white bg-white object-cover shadow-md sm:left-6 sm:h-24 sm:w-24" />
           </div>
 
           {/* Name + stats */}
