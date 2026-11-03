@@ -224,8 +224,6 @@ export async function handleZodiac(body: any, apiKey?: string) {
       });
     }
 
-    const TIP_KINDS = ['a small body action (water, food, stretch, a short walk, fresh air, a shower)', 'a limit set kindly with exact words (asking for time, saying no softly, asking for space)', 'a message to send to a specific kind of person with exact words', 'a small phone or screen habit with a time limit', 'choosing and doing only ONE task first, with a start time', 'a pleasant small treat or break that restores energy (music, tea, sun, a favourite song)', 'a way to ask for exactly the help or attention they need, with exact words', 'a way to give a hard conversation a better moment (after a meal, after a rest, by message first)', 'a tiny home or desk reset of only 5 minutes that clears the head'];
-    const tipKinds = [...TIP_KINDS].sort(() => Math.random() - 0.5).slice(0, 3);
     const prompt = `You are a warm, wise, uplifting astrological guide.
 The user is asking for their Daily Zodiac Message & Star Sign Guidance:
 - Sign: "${signName}"
@@ -366,6 +364,8 @@ export async function handleAurenEffect(body: any, apiKey?: string, precise?: Pr
 
     // Camada 03: Comunicação por IA - Google Gemini (Lapidação em linguagem ultra-humana)
     const languageName = { en: 'English', pt: 'Brazilian Portuguese', es: 'Spanish' }[lang];
+    const TIP_KINDS = ['a small body action (water, food, stretch, a short walk, fresh air, a shower)', 'a limit set kindly with exact words (asking for time, saying no softly, asking for space)', 'a message to send to a specific kind of person with exact words', 'a small phone or screen habit with a time limit', 'choosing and doing only ONE task first, with a start time', 'a pleasant small treat or break that restores energy (music, tea, sun, a favourite song)', 'a way to ask for exactly the help or attention they need, with exact words', 'a way to give a hard conversation a better moment (after a meal, after a rest, by message first)', 'a tiny home or desk reset of only 5 minutes that clears the head'];
+    const tipKinds = [...TIP_KINDS].sort(() => Math.random() - 0.5).slice(0, 3);
     const prompt = `You write the daily "Aureneffect" message for Aurenstar, a friendly astrology site.
 Write EVERYTHING in ${languageName}.
 
