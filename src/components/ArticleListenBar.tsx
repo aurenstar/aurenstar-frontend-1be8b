@@ -53,6 +53,10 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChan
   const rateRef = useRef(1);
   const voiceRef = useRef('');
   const timer = useRef<number | null>(null);
+  const t0 = useRef(0);
+  const pausedAt = useRef<number | null>(null);
+  const pausedFor = useRef(0);
+  const cps = useRef(15); // characters per second at 1x (learned while reading)
   const segs = useRef(segments);
   segs.current = segments;
   const c = COPY[lang];
@@ -119,18 +123,17 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChan
 
     u.onstart = () => {
       if (words.length) showWord(words[0].s, words[0].e);
-      // Fallback for voices that don't report word boundaries: estimate timing
-      window.setTimeout(() => {
-        if (token.current !== my || gotBoundary) return;
-        let i = 0;
-        const step = () => {
-          if (token.current !== my || i >= words.length) { clearTimer(); return; }
-          showWord(words[i].s, words[i].e); i += 1;
-        };
-        const per = Math.max(170, (60000 / (160 * rateRef.current)));
-        step();
-        timer.current = window.setInterval(step, per);
-      }, 900);
+      // Estimate the reading position over time (used until the voice reports real word events).
+      // Speed is learned from the previous sentences, so it keeps getting closer to the real voice.
+      t0.current = performance.now(); pausedFor.current = 0; pausedAt.current = null;
+      const len = sent.text.length;
+      timer.current = window.setInterval(() => {
+        if (token.current !== my || gotBoundary || pausedAt.current !== null) return;
+        const elapsed = (performance.now() - t0.current - pausedFor.current) / 1000;
+        const pos = Math.min(len, elapsed * cps.current * rateRef.current);
+        const w = words.find((x) => pos < x.e + 1) || words[words.length - 1];
+        if (w) showWord(w.s, w.e);
+      }, 40);
     };
     u.onboundary = (ev: SpeechSynthesisEvent) => {
       if (token.current !== my) return;
@@ -139,7 +142,14 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChan
       const w = words.find((x) => ev.charIndex >= x.s && ev.charIndex < x.e) || words.find((x) => x.s >= ev.charIndex);
       if (w) showWord(w.s, w.e);
     };
-    u.onend = () => { if (token.current === my) { clearTimer(); speak(si, sentIdx + 1); } };
+    u.onend = () => {
+      if (token.current !== my) return;
+      if (!gotBoundary) {
+        const sec = (performance.now() - t0.current - pausedFor.current) / 1000;
+        if (sec > 0.3 && sent.text.length > 12) cps.current = sent.text.length / sec / rateRef.current;
+      }
+      clearTimer(); speak(si, sentIdx + 1);
+    };
     u.onerror = () => { if (token.current === my) stop(); };
     window.speechSynthesis.cancel();
     window.speechSynthesis.speak(u);
@@ -148,13 +158,14 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChan
 
   const toggle = () => {
     if (status === 'idle') speak(0, 0);
-    else if (status === 'playing') { window.speechSynthesis.pause(); setStatus('paused'); }
-    else { window.speechSynthesis.resume(); setStatus('playing'); }
+    else if (status === 'playing') { window.speechSynthesis.pause(); pausedAt.current = performance.now(); setStatus('paused'); }
+    else { window.speechSynthesis.resume(); if (pausedAt.current !== null) { pausedFor.current += performance.now() - pausedAt.current; pausedAt.current = null; } setStatus('playing'); }
   };
 
   const restartHere = () => { if (status !== 'idle') speak(pos.current.seg, pos.current.sent); };
   const changeRate = (r: number) => { setRate(r); rateRef.current = r; restartHere(); };
   const changeVoice = (name: string) => {
+    cps.current = 15;
     setVoiceName(name); voiceRef.current = name;
     try { localStorage.setItem(VOICE_KEY + lang, name); } catch { /* ignore */ }
     restartHere();
