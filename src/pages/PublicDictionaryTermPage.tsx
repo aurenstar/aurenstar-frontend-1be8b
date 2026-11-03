@@ -179,7 +179,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               <span>{c.example}</span>
             </h3>
             <p className="text-sm sm:text-base text-[#172B4D] leading-relaxed font-normal italic">
-              {/^["“]/.test(term.exemploFicticio) ? term.exemploFicticio : `"${term.exemploFicticio}"`}
+              {`"${term.exemploFicticio.replace(/^["“]|["”]$/g, '')}"`}
             </p>
           </section>
 
