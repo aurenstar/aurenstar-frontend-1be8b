@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: '17 6 * * *'   # every day, a few new terms
   workflow_dispatch:
+  push:
+    branches: [seo-tecnico]
+    paths: ['data/dictionary-run.trigger']   # touch this file to run it now
 permissions:
   contents: write
 jobs:
