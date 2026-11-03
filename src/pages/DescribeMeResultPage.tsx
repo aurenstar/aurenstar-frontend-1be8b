@@ -41,7 +41,7 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
   }, []);
 
   const post = result ? BLOG_ARTICLES.find((a) => a.id === POST_BY_SIGN[result.sign]) : undefined;
-  const recommendLabel = lang === 'pt' ? 'Um post escolhido para o seu signo' : lang === 'es' ? 'Un post elegido para tu signo' : 'A post picked for your sign';
+  const recommendLabel = lang === 'pt' ? 'Um post especial para você' : lang === 'es' ? 'Un post especial para ti' : 'A special post for you';
   const cardTitle = result ? themeTitle(result.bigThree?.sun.name || result.sign, result.themeKey, lang as 'en' | 'pt' | 'es') : '';
   const downloadLabel = lang === 'pt' ? 'Baixar card' : lang === 'es' ? 'Descargar card' : 'Download card';
   const storyLabel = 'Story 9:16';
