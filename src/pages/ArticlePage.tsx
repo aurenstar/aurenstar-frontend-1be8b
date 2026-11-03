@@ -18,7 +18,7 @@ import {
   AURENSTAR_AVATAR,
 } from '../data/blogArticles';
 import { ShareModal } from '../components/ShareModal';
-import { ArticleListenBar, ListenSegment } from '../components/ArticleListenBar';
+import { ArticleListenBar, ListenSegment, ListenWord } from '../components/ArticleListenBar';
 
 interface ArticlePageProps {
   articleId: string;
@@ -47,7 +47,19 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
   const [activeSeg, setActiveSeg] = useState<string | null>(null);
-  const act = (id: string) => (activeSeg === id ? ' listen-active' : '');
+  const [activeWord, setActiveWord] = useState<ListenWord | null>(null);
+  const act = (_id: string) => '';
+  // Karaoke-style: the word being spoken gets a pink background with white text
+  const hl = (id: string, text: string): React.ReactNode => {
+    if (!activeWord || activeWord.id !== id) return text;
+    return (
+      <>
+        {text.slice(0, activeWord.start)}
+        <mark className="rounded-[3px] bg-[#F51B83] px-1 py-px text-white" style={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>{text.slice(activeWord.start, activeWord.end)}</mark>
+        {text.slice(activeWord.end)}
+      </>
+    );
+  };
 
   // Check if article is already saved in browser favorites
   useEffect(() => {
@@ -326,12 +338,12 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
 
           {/* Main Title */}
           <h1 data-seg="title" className={"text-2xl sm:text-4xl lg:text-5xl font-extrabold text-[#172B4D] leading-tight mb-4 tracking-tight" + act('title')}>
-            {article.title[lang] || article.title.pt}
+            {hl('title', article.title[lang] || article.title.pt)}
           </h1>
 
           {/* Subtitle / Excerpt */}
           <p data-seg="subtitle" className={"text-sm sm:text-lg text-[#647DA5] leading-relaxed mb-6 font-normal" + act('subtitle')}>
-            {article.subtitle[lang] || article.subtitle.pt}
+            {hl('subtitle', article.subtitle[lang] || article.subtitle.pt)}
           </p>
 
           {/* Author Profile Row with Date & Time */}
@@ -352,7 +364,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           </div>
         </header>
 
-        <ArticleListenBar segments={listenSegments} lang={lang} onActiveChange={setActiveSeg} />
+        <ArticleListenBar segments={listenSegments} lang={lang} onActiveChange={setActiveSeg} onWordChange={setActiveWord} />
 
         {/* Featured Image - Aligned with Aurenstar profile */}
         <figure className="mb-10 w-full">
@@ -388,7 +400,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           {article.sections.map((section, idx) => (
             <section key={`sec-${idx}`} className="mb-8">
               <h2 data-seg={`s${idx}h`} className={"text-xl sm:text-2xl font-bold text-[#17366F] mb-3 tracking-tight" + act(`s${idx}h`)}>
-                {section.heading[lang] || section.heading.pt}
+                {hl(`s${idx}h`, section.heading[lang] || section.heading.pt)}
               </h2>
               {section.paragraphs.map((p, pIdx) => (
                 <p
@@ -396,7 +408,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
                   data-seg={`s${idx}p${pIdx}`}
                   className={"text-sm sm:text-base text-[#172B4D] leading-relaxed mb-4 font-normal" + act(`s${idx}p${pIdx}`)}
                 >
-                  {p[lang] || p.pt}
+                  {hl(`s${idx}p${pIdx}`, p[lang] || p.pt)}
                 </p>
               ))}
             </section>
