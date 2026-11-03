@@ -24,7 +24,7 @@ const COPY: Record<Lang, {
   howTitle: string; howLead: string; steps: { title: string; text: string }[]; creditsLink: string;
   valuesTitle: string; values: { title: string; text: string }[];
   noteTitle: string; note: string;
-  stepWord: string; tabs: [string, string, string, string]; metas: string[]; free: string; count: string;
+  aboutHeadline: string; stepWord: string; tabs: [string, string, string, string]; metas: string[]; free: string; count: string;
   postsTitle: string; postsLead: string; seeBlog: string;
   contactTitle: string; contactText: string; contactBtn: string; newsletterBtn: string;
 }> = {
@@ -66,7 +66,7 @@ const COPY: Record<Lang, {
     ],
     noteTitle: 'Um aviso honesto',
     note: 'A astrologia é uma forma de reflexão e entretenimento. Nossos textos não substituem orientação médica, psicológica, jurídica ou financeira.',
-    stepWord: 'Passo', tabs: ['Ferramentas', 'Sobre', 'Como funciona', 'Blog'], metas: ['1 por dia', 'a cada 4 horas', 'na hora', 'para os Stories', '16 termos'], free: 'Grátis', count: 'ferramentas',
+    aboutHeadline: 'Astrologia clara, acolhedora e útil.', stepWord: 'Passo', tabs: ['Ferramentas', 'Sobre', 'Como funciona', 'Blog'], metas: ['1 por dia', 'a cada 4 horas', 'na hora', 'para os Stories', '16 termos'], free: 'Grátis', count: 'ferramentas',
     postsTitle: 'Do blog',
     postsLead: 'Leituras para quem gosta de entender o signo com calma.',
     seeBlog: 'Ver todos os posts',
@@ -113,7 +113,7 @@ const COPY: Record<Lang, {
     ],
     noteTitle: 'An honest note',
     note: 'Astrology is a form of reflection and entertainment. Our texts do not replace medical, psychological, legal or financial advice.',
-    stepWord: 'Step', tabs: ['Tools', 'About', 'How it works', 'Blog'], metas: ['1 per day', 'every 4 hours', 'instant', 'for Stories', '16 terms'], free: 'Free', count: 'tools',
+    aboutHeadline: 'Astrology made clear, gentle and useful.', stepWord: 'Step', tabs: ['Tools', 'About', 'How it works', 'Blog'], metas: ['1 per day', 'every 4 hours', 'instant', 'for Stories', '16 terms'], free: 'Free', count: 'tools',
     postsTitle: 'From the blog',
     postsLead: 'Reads for people who like to understand their sign calmly.',
     seeBlog: 'See all posts',
@@ -160,7 +160,7 @@ const COPY: Record<Lang, {
     ],
     noteTitle: 'Un aviso honesto',
     note: 'La astrología es una forma de reflexión y entretenimiento. Nuestros textos no sustituyen el consejo médico, psicológico, legal o financiero.',
-    stepWord: 'Paso', tabs: ['Herramientas', 'Sobre', 'Cómo funciona', 'Blog'], metas: ['1 por día', 'cada 4 horas', 'al instante', 'para Stories', '16 términos'], free: 'Gratis', count: 'herramientas',
+    aboutHeadline: 'Astrología clara, cercana y útil.', stepWord: 'Paso', tabs: ['Herramientas', 'Sobre', 'Cómo funciona', 'Blog'], metas: ['1 por día', 'cada 4 horas', 'al instante', 'para Stories', '16 términos'], free: 'Gratis', count: 'herramientas',
     postsTitle: 'Del blog',
     postsLead: 'Lecturas para quienes disfrutan entender su signo con calma.',
     seeBlog: 'Ver todos los posts',
@@ -208,6 +208,13 @@ const SocialIcon: React.FC<{ name: string }> = ({ name }) =>
   ) : (
     <svg className="h-[18px] w-[18px] fill-current" viewBox="0 0 24 24" aria-hidden><path d={SOCIAL_PATHS[name]} /></svg>
   );
+
+const VALUE_GRADIENTS = [
+  'linear-gradient(180deg, #6D4ED9 0%, #9B86EE 55%, #CFC3F8 100%)',
+  'linear-gradient(180deg, #E5499A 0%, #F58CC0 55%, #FFC2DF 100%)',
+  'linear-gradient(180deg, #5B8FDB 0%, #8FB4EA 55%, #CFE0F7 100%)',
+];
+const VALUE_IMAGES = ['/assets/about/about-language.svg', '/assets/about/about-mission.svg', '/assets/about/about-platform.svg'];
 
 type Tab = 'tools' | 'about' | 'how' | 'blog';
 
@@ -334,28 +341,30 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
             )}
 
             {tab === 'about' && (
-              <div className="space-y-4">
-                <div className="group relative overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-5 sm:p-6">
-                  <span aria-hidden className="absolute inset-x-0 top-0 h-1.5 bg-[#2878D0]" />
-                  <h2 className="text-2xl font-extrabold text-[#172B4D]">{c.aboutTitle}</h2>
-                  <span aria-hidden className="mt-2 block h-1 w-12 rounded-full bg-[#F51B83]" />
-                  <div className="mt-4 space-y-3">{c.about.map((p) => <p key={p} className="text-sm leading-relaxed text-[#17366F] sm:text-base">{p}</p>)}</div>
+              <div className="space-y-5 px-1 pb-2 pt-3 sm:px-2">
+                <div className="max-w-2xl">
+                  <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#2878D0]">{c.aboutTitle}</p>
+                  <h2 className="mt-3 text-3xl font-extrabold leading-[1.1] text-[#172B4D] sm:text-4xl">{c.aboutHeadline}</h2>
+                  <div className="mt-4 space-y-3">{c.about.map((p) => <p key={p} className="text-base leading-8 text-[#5575A4]">{p}</p>)}</div>
+                </div>
+                <div className="border-l-2 border-[#F51B83] pl-4">
+                  <p className="text-[11px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]">{c.valuesTitle}</p>
                 </div>
                 <div className="grid gap-4 sm:grid-cols-3">
-                  {c.values.map((v, i) => {
-                    const color = i % 2 === 0 ? '#F51B83' : '#2878D0';
-                    return (
-                      <div key={v.title} className="group relative overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)]">
-                        <span aria-hidden className="absolute inset-y-0 left-0 w-1.5" style={{ background: color }} />
-                        <span className="text-xs font-extrabold tracking-widest" style={{ color }}>0{i + 1}</span>
-                        <h3 className="mt-1 text-base font-extrabold text-[#172B4D]">{v.title}</h3>
-                        <p className="mt-1.5 text-sm leading-relaxed text-[#5E78A4]">{v.text}</p>
-                      </div>
-                    );
-                  })}
+                  {c.values.map((v, i) => (
+                    <div key={v.title} className="group relative flex min-h-[230px] flex-col overflow-hidden rounded-[18px] p-4 shadow-[0_14px_30px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(23,54,111,0.24)]" style={{ backgroundImage: VALUE_GRADIENTS[i] }}>
+                      <span aria-hidden className="pointer-events-none absolute -left-10 -top-16 h-44 w-64 rotate-[-12deg] rounded-full bg-white/20 blur-2xl" />
+                      <span className="relative text-[11px] font-extrabold uppercase tracking-[0.16em] text-white/80">0{i + 1}</span>
+                      <span className="relative mt-1 block text-lg font-bold leading-tight text-white">{v.title}</span>
+                      <span className="relative mt-1.5 block text-[13px] leading-5 text-white/90">{v.text}</span>
+                      <span className="relative mt-auto flex items-center justify-center pt-3">
+                        <img src={VALUE_IMAGES[i]} alt="" width={400} height={220} loading="lazy" style={{ width: 120, maxWidth: 120 }} className="transition-transform duration-500 group-hover:scale-105 group-hover:-rotate-2" />
+                      </span>
+                    </div>
+                  ))}
                 </div>
-                <div className="rounded-2xl border border-[#F7B5D2] bg-[#FFF5FA] p-4">
-                  <p className="mb-1 text-xs font-extrabold uppercase tracking-wider text-[#F51B83]">{c.noteTitle}</p>
+                <div className="rounded-[18px] border border-[#F7B5D2] bg-[#FFF5FA] p-4 sm:p-5">
+                  <p className="mb-1 text-[11px] font-extrabold uppercase tracking-[0.22em] text-[#F51B83]">{c.noteTitle}</p>
                   <p className="text-sm leading-relaxed text-[#17366F]">{c.note}</p>
                 </div>
               </div>
