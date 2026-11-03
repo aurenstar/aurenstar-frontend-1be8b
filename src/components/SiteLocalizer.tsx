@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { translateUi } from '../utils/uiTranslate';
+import { getUrlLang, withLangPrefix } from '../utils/urlLang';
 
 /**
  * Shows the whole site in the language of the visitor's country when the site has no hand-written menus in it
@@ -160,6 +161,18 @@ export const SiteLocalizer: React.FC = () => {
           // not a valid link
         }
       });
+      // On a language address, links inside the site keep the language (also for crawlers following them).
+      const urlLang = getUrlLang();
+      if (urlLang) {
+        document.body.querySelectorAll('a[href^="/"]').forEach((el) => {
+          const href = el.getAttribute('href') || '';
+          const next = withLangPrefix(href, urlLang);
+          if (next !== href) {
+            if (!hrefOriginals.has(el)) hrefOriginals.set(el, href);
+            el.setAttribute('href', next);
+          }
+        });
+      }
       return { loose, groups, attrNodes, shareLinks };
     }
 
@@ -168,7 +181,7 @@ export const SiteLocalizer: React.FC = () => {
         const res = await fetch('/api/translate-ui', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ strings }),
+          body: JSON.stringify({ strings, lang: getUrlLang() || undefined }),
         });
         const d = res.ok ? await res.json() : null;
         if (d?.success && Array.isArray(d.texts) && d.texts.length === strings.length) {
@@ -207,7 +220,8 @@ export const SiteLocalizer: React.FC = () => {
           groups.forEach((items) => wanted.add(groupString(items)));
           attrNodes.forEach((a) => wanted.add(a.value.trim()));
           shareLinks.forEach((l) => wanted.add(l.value));
-          const titleOriginal = document.title && document.title !== titleWritten ? document.title : '';
+          // On a language address the tab title and descriptions are already set in that language (server + seo.ts).
+          const titleOriginal = !getUrlLang() && document.title && document.title !== titleWritten ? document.title : '';
           if (titleOriginal && hasLetters(titleOriginal)) wanted.add(titleOriginal);
           const missing = [...wanted].filter((s) => s && !cache[s] && !failed.has(s));
 

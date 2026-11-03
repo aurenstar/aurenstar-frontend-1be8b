@@ -18,6 +18,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { BLOG_ARTICLES } from '../src/data/blogArticles';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
+import { hreflangLinks, langUrl } from '../server/engine/localizePage';
+import { URL_LANGUAGES } from '../src/utils/urlLang';
 import { getArticleIsoDate, getArticleSlug } from '../src/utils/articleSlug';
 import { BLOG_CATEGORIES } from '../src/utils/blogCategories';
 import {
@@ -65,6 +67,7 @@ function headBlock(seo: SeoData): string {
     `<meta name="twitter:description" content="${escapeAttr(seo.description)}" />`,
     `<meta name="twitter:image" content="${escapeAttr(seo.image)}" />`,
   ];
+  if (seo.robots === 'index,follow') lines.push(hreflangLinks(seo.path));
   if (seo.ogType === 'article' && seo.publishedTime) {
     lines.push(`<meta property="article:published_time" content="${seo.publishedTime}" />`);
   }
@@ -103,7 +106,7 @@ function outputFileFor(urlPath: string): string {
 }
 
 const seen = new Set<string>();
-const sitemap: { loc: string; lastmod?: string }[] = [];
+const sitemap: { loc: string; path: string; lastmod?: string }[] = [];
 const redirects: string[] = [];
 
 function emit(seo: SeoData, lastmod?: string) {
@@ -112,7 +115,7 @@ function emit(seo: SeoData, lastmod?: string) {
   const file = outputFileFor(seo.path);
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, render(seo));
-  if (seo.robots === 'index,follow') sitemap.push({ loc: seo.url, lastmod });
+  if (seo.robots === 'index,follow') sitemap.push({ loc: seo.url, path: seo.path, lastmod });
 }
 
 // 1. Static pages (the home page overwrites dist/index.html with its own SEO)
@@ -165,16 +168,27 @@ fs.writeFileSync(
 );
 
 // sitemap.xml
+const alternates = (pagePath: string) =>
+  [
+    `<xhtml:link rel="alternate" hreflang="x-default" href="${escapeXml(`${SITE_URL}${pagePath}`)}"/>`,
+    `<xhtml:link rel="alternate" hreflang="en" href="${escapeXml(`${SITE_URL}${pagePath}`)}"/>`,
+    ...URL_LANGUAGES.map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${escapeXml(langUrl(pagePath, l))}"/>`),
+  ].join('');
+// Every indexable page + the same page in each language address (/nl/..., /ja/...), all pointing at each other.
 const urls = sitemap
   .sort((a, b) => a.loc.localeCompare(b.loc))
-  .map(
-    ({ loc, lastmod }) =>
-      `  <url><loc>${escapeXml(loc)}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ''}</url>`
-  )
+  .flatMap(({ loc, path: pagePath, lastmod }) => {
+    const mod = lastmod ? `<lastmod>${lastmod}</lastmod>` : '';
+    const alt = alternates(pagePath);
+    return [
+      `  <url><loc>${escapeXml(loc)}</loc>${mod}${alt}</url>`,
+      ...URL_LANGUAGES.map((l) => `  <url><loc>${escapeXml(langUrl(pagePath, l))}</loc>${mod}${alt}</url>`),
+    ];
+  })
   .join('\n');
 fs.writeFileSync(
   path.join(dist, 'sitemap.xml'),
-  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`
+  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls}\n</urlset>\n`
 );
 
 // _redirects: keep the hand-written rules from public/_redirects and add the generated ones
@@ -186,5 +200,5 @@ fs.writeFileSync(
 );
 
 console.log(
-  `prerender: ${seen.size} pages written, ${sitemap.length} URLs in sitemap, ${redirects.length} redirect rules (${SITE_URL})`
+  `prerender: ${seen.size} pages written, ${sitemap.length * (URL_LANGUAGES.length + 1)} URLs in sitemap, ${redirects.length} redirect rules (${SITE_URL})`
 );

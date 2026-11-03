@@ -1,3 +1,4 @@
+import { getUrlLang, stripLangPrefix } from '../utils/urlLang';
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 
 export type Language = 'en' | 'pt' | 'es';
@@ -261,13 +262,15 @@ const readChoice = (): Language | null => {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [choice, setChoice] = useState<Language | null>(readChoice);
+  // Opened on a language address (/nl/...): that language rules the whole visit.
+  const urlLang = getUrlLang();
+  const [choice, setChoice] = useState<Language | null>(urlLang ? null : readChoice);
   const [language, setLang] = useState<Language>(choice || 'en');
-  const [visitorLanguage, setVisitorLanguage] = useState('');
+  const [visitorLanguage, setVisitorLanguage] = useState(urlLang);
 
   // First visit: pick the site language that fits the visitor's country (English when unknown). Silent on any failure.
   useEffect(() => {
-    if (choice) return;
+    if (choice || urlLang) return;
     let cancelled = false;
     fetch('/api/visitor')
       .then((r) => (r.ok ? r.json() : null))
@@ -283,20 +286,25 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
   }, [choice]);
 
   const setLanguage = (lang: Language) => {
-    setChoice(lang);
-    setLang(lang);
     try {
       localStorage.setItem(CHOICE_KEY, lang);
     } catch {
       // private mode: the choice just lasts for this visit
     }
+    if (urlLang) {
+      // Leaving a language address: go to the same page at its normal address.
+      window.location.assign(stripLangPrefix(window.location.pathname) + window.location.search);
+      return;
+    }
+    setChoice(lang);
+    setLang(lang);
   };
 
   const value = {
     language,
     setLanguage,
     languageChosen: choice !== null,
-    visitorLanguage: choice ? '' : visitorLanguage,
+    visitorLanguage: urlLang || (choice ? '' : visitorLanguage),
     t: translations[language],
   };
 

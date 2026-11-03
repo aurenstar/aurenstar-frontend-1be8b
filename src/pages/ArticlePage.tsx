@@ -18,6 +18,7 @@ import {
   AURENSTAR_AVATAR,
 } from '../data/blogArticles';
 import { ShareModal } from '../components/ShareModal';
+import { getUrlLang } from '../utils/urlLang';
 import { applyLocalized, type LocalizedArticle, type LocalizedResponse } from '../utils/localizedArticle';
 import { ArticleListenBar, ListenSegment, ListenWord } from '../components/ArticleListenBar';
 
@@ -91,7 +92,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
     if (languageChosen) return;
     let cancelled = false;
     const slow = window.setTimeout(() => !cancelled && setAdapting(true), 1500);
-    fetch(`/api/localize?article=${encodeURIComponent(baseArticle.id)}`)
+    fetch(`/api/localize?article=${encodeURIComponent(baseArticle.id)}${getUrlLang() ? `&lang=${getUrlLang()}` : ''}`)
       .then((r) => (r.ok ? (r.json() as Promise<LocalizedResponse>) : null))
       .then((d) => {
         if (cancelled || !d?.success || !d.article) return;

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { LanguageProvider } from './context/LanguageContext';
+import { stripLangPrefix } from './utils/urlLang';
 import { SiteLocalizer } from './components/SiteLocalizer';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
@@ -61,7 +62,7 @@ export default function App() {
   // Initialize and synchronize with browser hash / history for pageview strategy
   useEffect(() => {
     const syncRouteFromHash = () => {
-      const path = window.location.pathname.replace(/\/$/, '') || '/';
+      const path = stripLangPrefix(window.location.pathname).replace(/\/$/, '') || '/';
       const hash = window.location.hash;
       const route = path !== '/' ? path : hash;
       const normalizedRoute = route.replace(/^#\/?/, '/');

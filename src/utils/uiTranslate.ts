@@ -1,3 +1,5 @@
+import { getUrlLang } from './urlLang';
+
 /** Translates a short list of site texts into the visitor's language (same saved texts as the page translator). */
 export async function translateUi(lang: string, strings: string[]): Promise<string[] | null> {
   const cacheKey = `aurenstar_ui_${lang}_v1`;
@@ -13,7 +15,7 @@ export async function translateUi(lang: string, strings: string[]): Promise<stri
       const res = await fetch('/api/translate-ui', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ strings: missing }),
+        body: JSON.stringify({ strings: missing, lang: getUrlLang() || undefined }),
       });
       const d = res.ok ? await res.json() : null;
       if (!d?.success || !Array.isArray(d.texts) || d.texts.length !== missing.length) return null;

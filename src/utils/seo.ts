@@ -1,4 +1,6 @@
 import { getSeoData, SITE_NAME } from './seoData';
+import { getUrlLang } from './urlLang';
+import { translateUi } from './uiTranslate';
 import type { SeoOptions, SeoPage } from './seoData';
 
 export type { SeoPage, SeoOptions } from './seoData';
@@ -48,14 +50,18 @@ export function updateSeo(page: SeoPage, options?: SeoOptions) {
   document.documentElement.lang = seo.lang;
   setMeta('name', 'description', seo.description);
   setMeta('name', 'robots', seo.robots);
-  setCanonical(seo.url);
+  const urlLang = getUrlLang();
+  if (urlLang) document.documentElement.lang = urlLang;
+  // Language address: the canonical address is the one of that language (https://aurenstar.com/nl/blog).
+  const here = urlLang ? seo.url.replace(/^(https?:\/\/[^/]+)(\/.*)?$/, (_m, origin, rest) => `${origin}/${urlLang}${rest && rest !== '/' ? rest : ''}`) : seo.url;
+  setCanonical(here);
 
   setMeta('property', 'og:site_name', SITE_NAME);
   setMeta('property', 'og:locale', seo.locale);
   setMeta('property', 'og:type', seo.ogType);
   setMeta('property', 'og:title', seo.title);
   setMeta('property', 'og:description', seo.description);
-  setMeta('property', 'og:url', seo.url);
+  setMeta('property', 'og:url', here);
   setMeta('property', 'og:image', seo.image);
 
   setMeta('name', 'twitter:card', 'summary_large_image');
@@ -70,4 +76,17 @@ export function updateSeo(page: SeoPage, options?: SeoOptions) {
   }
 
   setStructuredData(seo.jsonLd);
+
+  // Moving between pages inside a language address (no new server answer): translate the tab title and descriptions here.
+  if (urlLang) {
+    translateUi(urlLang, [seo.title, seo.description]).then((out) => {
+      if (!out || getUrlLang() !== urlLang || document.title !== seo.title) return;
+      document.title = out[0];
+      setMeta('name', 'description', out[1]);
+      setMeta('property', 'og:title', out[0]);
+      setMeta('property', 'og:description', out[1]);
+      setMeta('name', 'twitter:title', out[0]);
+      setMeta('name', 'twitter:description', out[1]);
+    });
+  }
 }
