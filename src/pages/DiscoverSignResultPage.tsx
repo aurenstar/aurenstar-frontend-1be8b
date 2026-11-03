@@ -87,7 +87,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
           <div className="relative flex flex-col gap-4 pb-12 sm:flex-row sm:items-center sm:gap-5 sm:pb-0 sm:pr-[38%]">
             <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-3xl bg-white text-5xl font-black text-[#2878D0] shadow-lg">
-              {currentSign.symbol}
+              {currentSign.symbol}{'\uFE0E'}
             </div>
             <div>
               <div className="mb-2 inline-flex items-center rounded-full bg-white/15 px-3 py-1 text-[11px] font-bold uppercase tracking-wider">
@@ -110,13 +110,13 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
         {/* Essence card */}
         <div className="mb-6 overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-3 shadow-md">
           <div className="relative overflow-hidden rounded-2xl bg-[#F51B83] p-5 text-white sm:p-6">
-            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="pink" variant={1} /></div>
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-12 overflow-hidden opacity-50"><CoverArt tone="pink" variant={1} /></div>
             <div className="relative">
               <h2 className="mb-2 flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-white/90">
                 <Star className="h-4 w-4" />
                 <span>{tr('Sua Essência e Jeito de Ser','Your Essence and Way of Being','Tu Esencia y Forma de Ser')}</span>
               </h2>
-              <p className="mb-8 text-sm font-medium leading-relaxed sm:text-base">
+              <p className="mb-12 text-sm font-medium leading-relaxed sm:text-base">
                 {currentSign.essence[lang] || currentSign.essence.pt}
               </p>
             </div>
