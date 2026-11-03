@@ -114,7 +114,9 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
     () => (activeLocalized ? applyLocalized(baseArticle, lang, activeLocalized.data) : baseArticle),
     [baseArticle, activeLocalized, lang],
   );
-  const speechSupported = !visitorLanguage && (!activeLocalized || ['en', 'pt', 'es'].includes(activeLocalized.language));
+  // The voice reads the same text that is on screen: the country version (or the original when the visitor uses a site language).
+  const speechSupported = !visitorLanguage || !!activeLocalized;
+  const speechLang = activeLocalized && !['en', 'pt', 'es'].includes(activeLocalized.language) ? activeLocalized.language : undefined;
 
   const listenSegments = useMemo<ListenSegment[]>(() => {
     const out: ListenSegment[] = [
@@ -403,7 +405,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
             {lang === 'pt' ? 'Preparando a versão do seu país…' : lang === 'es' ? 'Preparando la versión de tu país…' : 'Preparing the version for your country…'}
           </p>
         )}
-        {speechSupported && <ArticleListenBar segments={listenSegments} lang={lang} onActiveChange={setActiveSeg} onWordChange={setActiveWord} />}
+        {speechSupported && <ArticleListenBar segments={listenSegments} lang={lang} speechLang={speechLang} onActiveChange={setActiveSeg} onWordChange={setActiveWord} />}
 
         {/* Featured Image - Aligned with Aurenstar profile */}
         <figure className="mb-10 w-full">

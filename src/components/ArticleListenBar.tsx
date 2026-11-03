@@ -7,6 +7,8 @@ export interface ListenWord { id: string; start: number; end: number }
 interface Props {
   segments: ListenSegment[];
   lang: 'pt' | 'en' | 'es';
+  /** language the text is written in when it is not one of the site's three (e.g. 'nl', 'ja') */
+  speechLang?: string;
   onActiveChange: (id: string | null) => void;
   onWordChange: (w: ListenWord | null) => void;
 }
@@ -21,10 +23,10 @@ const SPEEDS = [1, 1.25, 1.5];
 const VOICE_KEY = 'aurenstar_listen_voice_';
 
 // Higher score = sounds more natural (neural / online voices first)
-function voiceScore(v: SpeechSynthesisVoice, lang: 'pt' | 'en' | 'es') {
+function voiceScore(v: SpeechSynthesisVoice, lang: string) {
   const n = v.name.toLowerCase();
   let s = 0;
-  if (v.lang === LOCALE[lang]) s += 5;
+  if (v.lang === (LOCALE as Record<string, string>)[lang]) s += 5;
   if (/natural|neural|online/.test(n)) s += 20;
   if (/google/.test(n)) s += 10;
   if (/premium|enhanced|siri/.test(n)) s += 12;
@@ -42,7 +44,8 @@ function splitSentences(text: string) {
   return out.length ? out : [{ text, offset: 0 }];
 }
 
-export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChange, onWordChange }) => {
+export const ArticleListenBar: React.FC<Props> = ({ segments, lang, speechLang, onActiveChange, onWordChange }) => {
+  const sl = speechLang || lang; // language of the voice
   const [supported, setSupported] = useState(false);
   const [status, setStatus] = useState<'idle' | 'playing' | 'paused'>('idle');
   const [rate, setRate] = useState(1);
@@ -67,11 +70,11 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChan
   useEffect(() => {
     if (!supported) return;
     const load = () => {
-      const list = window.speechSynthesis.getVoices().filter((v) => v.lang.toLowerCase().startsWith(lang));
-      list.sort((a, b) => voiceScore(b, lang) - voiceScore(a, lang));
+      const list = window.speechSynthesis.getVoices().filter((v) => v.lang.toLowerCase().startsWith(sl));
+      list.sort((a, b) => voiceScore(b, sl) - voiceScore(a, sl));
       setVoices(list);
       let saved = '';
-      try { saved = localStorage.getItem(VOICE_KEY + lang) || ''; } catch { /* ignore */ }
+      try { saved = localStorage.getItem(VOICE_KEY + sl) || ''; } catch { /* ignore */ }
       const pick = list.find((v) => v.name === saved) || list[0];
       const name = pick ? pick.name : '';
       setVoiceName(name); voiceRef.current = name;
@@ -79,7 +82,7 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChan
     load();
     window.speechSynthesis.addEventListener?.('voiceschanged', load);
     return () => window.speechSynthesis.removeEventListener?.('voiceschanged', load);
-  }, [supported, lang]);
+  }, [supported, sl]);
 
   const clearTimer = () => { if (timer.current) { window.clearInterval(timer.current); timer.current = null; } };
 
@@ -109,7 +112,7 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChan
     }
 
     const u = new SpeechSynthesisUtterance(sent.text);
-    u.lang = LOCALE[lang];
+    u.lang = (LOCALE as Record<string, string>)[sl] || sl;
     const v = window.speechSynthesis.getVoices().find((x) => x.name === voiceRef.current);
     if (v) { u.voice = v; u.lang = v.lang; }
     u.rate = rateRef.current;
@@ -172,7 +175,7 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChan
     window.speechSynthesis.cancel();
     window.speechSynthesis.speak(u);
     setStatus('playing');
-  }, [lang, onActiveChange, onWordChange, stop]);
+  }, [sl, onActiveChange, onWordChange, stop]);
 
   const toggle = () => {
     if (status === 'idle') speak(0, 0);
@@ -185,15 +188,16 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChan
   const changeVoice = (name: string) => {
     cps.current = 15;
     setVoiceName(name); voiceRef.current = name;
-    try { localStorage.setItem(VOICE_KEY + lang, name); } catch { /* ignore */ }
+    try { localStorage.setItem(VOICE_KEY + sl, name); } catch { /* ignore */ }
     restartHere();
   };
 
   useEffect(() => () => { token.current += 1; clearTimer(); try { window.speechSynthesis.cancel(); } catch { /* ignore */ } }, []);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(() => { if (status !== 'idle') stop(); }, [lang, segments]);
+  useEffect(() => { if (status !== 'idle') stop(); }, [sl, segments]);
 
-  if (!supported) return null;
+  // No voice for this language on the device: the button would only read with the wrong accent, so it stays hidden.
+  if (!supported || (sl !== 'pt' && sl !== 'en' && sl !== 'es' && voices.length === 0)) return null;
   const playing = status === 'playing';
 
   const cycleRate = () => changeRate(SPEEDS[(SPEEDS.indexOf(rate) + 1) % SPEEDS.length]);
