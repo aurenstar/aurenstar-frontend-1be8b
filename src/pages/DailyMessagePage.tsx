@@ -487,6 +487,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
     let advice = readingContent.advices[lang] || readingContent.advices.pt;
     let affirmation = readingContent.affirmations[lang] || readingContent.affirmations.pt;
     let signKey = finalSign;
+    let shareText = '';
 
     // Cálculo real do céu (Swiss Ephemeris + fuso IANA + cidade GeoNames) e texto escrito para a pessoa.
     // Se qualquer coisa falhar, a leitura pronta do signo é usada, então a página nunca quebra.
@@ -512,6 +513,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         message = json.data.message || message;
         advice = json.data.advice || advice;
         affirmation = json.data.affirmation || affirmation;
+        shareText = json.data.shareText || '';
       }
     } catch {
       // keep the ready-made reading
@@ -530,6 +532,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       birthTime,
       birthPlace,
       affirmation,
+      shareText,
       message,
       advice,
       articleId: readingContent.articleId,

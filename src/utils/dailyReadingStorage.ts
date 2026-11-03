@@ -26,6 +26,8 @@ export interface DailyReadingRecord {
   birthTime?: string;
   birthPlace?: { geonameid: number; label: string } | null;
   affirmation: string;
+  /** Short first-person post for the share card. */
+  shareText?: string;
   message: string;
   advice: string;
   articleId: string;

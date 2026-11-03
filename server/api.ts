@@ -566,7 +566,8 @@ Return ONLY valid JSON:
   "theme": "3 to 5 words naming the theme of the day",
   "message": "the 3 paragraphs separated by \\n\\n, about 700 to 900 characters in total",
   "advice": "One concrete action, max 40 words, with a short because-reason",
-  "affirmation": "One short first-person positive sentence"
+  "affirmation": "One short first-person positive sentence",
+  "shareText": "A post the person would proudly show on Instagram or WhatsApp status, in FIRST PERSON, about how their day ahead will go and who they are, so friends think 'that is me too'. 2 or 3 short sentences, maximum 240 characters, specific and a little surprising. Do NOT write the sign name, no person name, no advice, no hashtags, no emojis."
 }`;
 
     const controller = new AbortController();
@@ -601,6 +602,7 @@ Return ONLY valid JSON:
         message: String(parsed.message),
         advice: String(parsed.advice),
         affirmation: String(parsed.affirmation || ''),
+        shareText: String(parsed.shareText || ''),
         cityName: precise.cityName,
         generatedByAI: true,
       },
