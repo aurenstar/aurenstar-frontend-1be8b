@@ -18,6 +18,7 @@ import {
   AURENSTAR_AVATAR,
 } from '../data/blogArticles';
 import { ShareModal } from '../components/ShareModal';
+import { applyLocalized, type LocalizedArticle, type LocalizedResponse } from '../utils/localizedArticle';
 import { ArticleListenBar, ListenSegment, ListenWord } from '../components/ArticleListenBar';
 
 interface ArticlePageProps {
@@ -39,7 +40,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
   onNavigateToAurenEffect,
   onNavigateToDiscoverSign,
 }) => {
-  const { language, t } = useLanguage();
+  const { language, languageChosen, t } = useLanguage();
   const lang = (language || 'pt') as 'pt' | 'en' | 'es';
 
   const [copied, setCopied] = useState(false);
@@ -79,8 +80,41 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
     submessage: string;
   } | null>(null);
 
-  const article =
+  const baseArticle =
     BLOG_ARTICLES.find((a) => a.id === articleId) || BLOG_ARTICLES[0];
+
+  // Country version (own language + local references). Created once per country on the server and reused.
+  // Skipped when the person picked a language by hand. On any failure the original article stays.
+  const [localized, setLocalized] = useState<{ id: string; rtl: boolean; language: string; data: LocalizedArticle } | null>(null);
+  const [adapting, setAdapting] = useState(false);
+  useEffect(() => {
+    if (languageChosen) return;
+    let cancelled = false;
+    const slow = window.setTimeout(() => !cancelled && setAdapting(true), 1500);
+    fetch(`/api/localize?article=${encodeURIComponent(baseArticle.id)}`)
+      .then((r) => (r.ok ? (r.json() as Promise<LocalizedResponse>) : null))
+      .then((d) => {
+        if (cancelled || !d?.success || !d.article) return;
+        setLocalized({ id: baseArticle.id, rtl: !!d.rtl, language: d.language || '', data: d.article });
+      })
+      .catch(() => {})
+      .finally(() => {
+        window.clearTimeout(slow);
+        if (!cancelled) setAdapting(false);
+      });
+    return () => {
+      cancelled = true;
+      window.clearTimeout(slow);
+      setAdapting(false);
+    };
+  }, [baseArticle.id, languageChosen]);
+
+  const activeLocalized = !languageChosen && localized && localized.id === baseArticle.id ? localized : null;
+  const article = useMemo(
+    () => (activeLocalized ? applyLocalized(baseArticle, lang, activeLocalized.data) : baseArticle),
+    [baseArticle, activeLocalized, lang],
+  );
+  const speechSupported = !activeLocalized || ['en', 'pt', 'es'].includes(activeLocalized.language);
 
   const listenSegments = useMemo<ListenSegment[]>(() => {
     const out: ListenSegment[] = [
@@ -251,7 +285,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
   const l = labels[lang] || labels.pt;
 
   return (
-    <article className="w-full bg-[#C9E5FF] min-h-screen text-[#172B4D] pt-20 sm:pt-24 pb-24 animate-fadeIn select-none">
+    <article dir={activeLocalized?.rtl ? 'rtl' : undefined} className="w-full bg-[#C9E5FF] min-h-screen text-[#172B4D] pt-20 sm:pt-24 pb-24 animate-fadeIn select-none">
       {/* Top Reading Progress Bar (Fixed at top) */}
       <div className="fixed top-0 left-0 right-0 h-1 bg-black/5 z-50">
         <div
@@ -364,7 +398,12 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           </div>
         </header>
 
-        <ArticleListenBar segments={listenSegments} lang={lang} onActiveChange={setActiveSeg} onWordChange={setActiveWord} />
+        {adapting && (
+          <p className="mb-3 text-center text-xs font-semibold text-[#647DA5]" role="status">
+            {lang === 'pt' ? 'Preparando a versão do seu país…' : lang === 'es' ? 'Preparando la versión de tu país…' : 'Preparing the version for your country…'}
+          </p>
+        )}
+        {speechSupported && <ArticleListenBar segments={listenSegments} lang={lang} onActiveChange={setActiveSeg} onWordChange={setActiveWord} />}
 
         {/* Featured Image - Aligned with Aurenstar profile */}
         <figure className="mb-10 w-full">

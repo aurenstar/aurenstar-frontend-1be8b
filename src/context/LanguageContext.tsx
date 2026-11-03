@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 
 export type Language = 'en' | 'pt' | 'es';
 
@@ -241,17 +241,57 @@ const translations: Record<Language, Translations> = {
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
+  /** true once the person picked a language themselves (then we never override it from the country) */
+  languageChosen: boolean;
   t: Translations;
 }
+
+const CHOICE_KEY = 'aurenstar_lang_choice';
+const readChoice = (): Language | null => {
+  try {
+    const v = localStorage.getItem(CHOICE_KEY);
+    return v === 'en' || v === 'pt' || v === 'es' ? v : null;
+  } catch {
+    return null;
+  }
+};
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('en');
+  const [choice, setChoice] = useState<Language | null>(readChoice);
+  const [language, setLang] = useState<Language>(choice || 'en');
+
+  // First visit: pick the site language that fits the visitor's country (English when unknown). Silent on any failure.
+  useEffect(() => {
+    if (choice) return;
+    let cancelled = false;
+    fetch('/api/visitor')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => {
+        if (cancelled || !d) return;
+        if (d.uiLanguage === 'pt' || d.uiLanguage === 'es' || d.uiLanguage === 'en') setLang(d.uiLanguage);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [choice]);
+
+  const setLanguage = (lang: Language) => {
+    setChoice(lang);
+    setLang(lang);
+    try {
+      localStorage.setItem(CHOICE_KEY, lang);
+    } catch {
+      // private mode: the choice just lasts for this visit
+    }
+  };
 
   const value = {
     language,
     setLanguage,
+    languageChosen: choice !== null,
     t: translations[language],
   };
 
