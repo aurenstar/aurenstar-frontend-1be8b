@@ -140,13 +140,13 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
   let chipsHeight = 0;
   if (chipsText) {
     testCtx.font = 'bold 27px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
-    chipsHeight = measureWrappedLines(testCtx, chipsText, maxTextW, 2) * 38 + 14;
+    chipsHeight = measureWrappedLines(testCtx, chipsText, maxTextW, 2) * 38 + 30;
   }
 
   // 2. Altura do Texto da Mensagem
   testCtx.font = 'normal 31px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
   const messageLines = measureWrappedLines(testCtx, data.message || '', maxTextW, 16);
-  const messageHeight = messageLines * 46;
+  const messageHeight = messageLines * 46 + (data.message || '').split('\n').length * 17;
 
   // Cabeçalho até início do texto
   const headerHeight = (avatarY + avatarR * 2 + 45) - cardY;
@@ -266,7 +266,7 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
     ctx.fillStyle = '#647DA5';
     ctx.font = 'bold 27px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
     currentY = wrapCanvasText(ctx, chipsText, textX, currentY, maxTextW, 38, 2);
-    currentY += 14;
+    currentY += 30;
   }
 
   // Mensagem Principal do Dia
