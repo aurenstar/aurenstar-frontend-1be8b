@@ -1,24 +1,11 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { ScrollReveal } from './ScrollReveal';
+import { CoverArt } from './CoverArt';
 
 interface AboutAurenstarSectionProps {
   onOpenCard?: (section: string) => void;
 }
-
-// One soft gradient and one glossy illustration per card (public/assets/about/).
-const CARD_GRADIENTS = [
-  'linear-gradient(180deg, #5B8FDB 0%, #8FB4EA 55%, #CFE0F7 100%)',
-  'linear-gradient(180deg, #E0711A 0%, #F59E4C 55%, #FCD3A6 100%)',
-  'linear-gradient(180deg, #E5499A 0%, #F58CC0 55%, #FFC2DF 100%)',
-  'linear-gradient(180deg, #6D4ED9 0%, #9B86EE 55%, #CFC3F8 100%)',
-];
-const CARD_IMAGES = [
-  '/assets/about/about-platform.svg',
-  '/assets/about/about-method.svg',
-  '/assets/about/about-mission.svg',
-  '/assets/about/about-language.svg',
-];
 
 export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ onOpenCard }) => {
   const { language } = useLanguage();
@@ -91,27 +78,30 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                 <p className="mt-2 max-w-lg text-sm leading-6 text-[#647DA5]">{t.lead}</p>
               </div>
               <div className="grid gap-4 sm:grid-cols-2">
-                {t.items.map(([, category, title, description, slug], index) => (
-                  <button
-                    type="button"
-                    key={slug}
-                    onClick={() => onOpenCard?.(slug)}
-                    style={{ backgroundImage: CARD_GRADIENTS[index] }}
-                    className="group relative flex min-h-[170px] flex-col overflow-hidden rounded-[18px] p-3.5 text-left shadow-[0_14px_30px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_26px_46px_rgba(23,54,111,0.26)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F51B83] focus-visible:ring-offset-2"
-                  >
-                    {/* soft glass highlight */}
-                    <span aria-hidden="true" className="pointer-events-none absolute -left-10 -top-16 h-44 w-64 rotate-[-12deg] rounded-full bg-white/20 blur-2xl" />
-                    <span className="relative text-[11px] font-extrabold uppercase tracking-[0.16em] text-white/80">{category}</span>
-                    <span className="relative mt-1 block text-[15px] font-bold leading-[1.15] text-white">{title}</span>
-                    <span className="relative mt-1 block text-[11.5px] leading-[1rem] text-white/85">{description}</span>
-                    <span className="relative mt-auto flex flex-1 items-center justify-center py-1">
-                      <img src={CARD_IMAGES[index]} alt="" width={400} height={220} loading="lazy" style={{ width: 110, maxWidth: 110 }} className="transition-transform duration-500 group-hover:scale-105 group-hover:-rotate-1" />
-                    </span>
-                    <span className="relative flex w-full items-center justify-center gap-2 rounded-full bg-white px-4 py-1 text-[11.5px] font-bold text-[#172B4D] shadow-[0_6px_14px_rgba(23,54,111,0.12)] transition group-hover:bg-[#FFF0F7] group-hover:text-[#F51B83]">
-                      {lang === 'en' ? 'Explore' : 'Explorar'} <span aria-hidden="true">→</span>
-                    </span>
-                  </button>
-                ))}
+                {t.items.map(([number, category, title, description, slug], index) => {
+                  const pink = index === 1 || index === 2;
+                  return (
+                    <button
+                      type="button"
+                      key={slug}
+                      onClick={() => onOpenCard?.(slug)}
+                      style={{ backgroundColor: pink ? '#F51B83' : '#2878D0' }}
+                      className="group relative flex min-h-[270px] flex-col overflow-hidden rounded-[22px] p-5 text-left shadow-[0_14px_30px_rgba(23,54,111,0.18)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_22px_44px_rgba(23,54,111,0.28)] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                    >
+                      {/* Same artwork language as the profile cover: flat brand colour, orbit ring, sparkles */}
+                      <span className="pointer-events-none absolute inset-x-0 bottom-0 h-32 overflow-hidden"><CoverArt tone={pink ? 'pink' : 'blue'} variant={index} /></span>
+                      <span className="relative flex items-center justify-between">
+                        <span className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-white/85">{category}</span>
+                        <span className="text-[11px] font-extrabold tracking-[0.2em] text-white/60">{number}</span>
+                      </span>
+                      <span className="relative mt-2 block text-[19px] font-extrabold leading-tight text-white">{title}</span>
+                      <span className="relative mt-2 block text-[13px] leading-5 text-white/90">{description}</span>
+                      <span className="relative mt-auto inline-flex items-center gap-2 self-start rounded-full bg-white px-4 py-1.5 text-xs font-bold text-[#172B4D] shadow-[0_6px_14px_rgba(23,54,111,0.18)] transition-all duration-300 group-hover:gap-3">
+                        {lang === 'en' ? 'Explore' : 'Explorar'} <span aria-hidden="true">→</span>
+                      </span>
+                    </button>
+                  );
+                })}
               </div>
             </div>
           </div>
