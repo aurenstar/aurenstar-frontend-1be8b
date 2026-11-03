@@ -535,6 +535,14 @@ export async function handleAurenDaily(body: any, precise: PreciseSky | null, op
     };
     const N = NAMES[lang];
     const retroList = (Object.entries(astro.retrograde) as Array<[string, boolean]>).filter(([, r]) => r).map(([k]) => N[k]);
+    // Make the "day" paragraph different for each person: pick the life area and the best moment from THEIR chart.
+    const AREA_BY_TRANSIT: Record<string, string> = { moon: 'home, family and inner comfort', sun: 'confidence and personal goals', mercury: 'talks, messages and decisions', venus: 'love, friendships and small pleasures', mars: 'energy, motivation and standing up for yourself', jupiter: 'opportunities, learning and good luck', saturn: 'duties, work and patience' };
+    const AREA_BY_NATAL: Record<string, string> = { sun: 'how they see themselves', moon: 'feelings and family', ascendant: 'how other people see them', mercury: 'the way they think and talk', venus: 'love and affection', mars: 'drive and courage' };
+    const lead = astro.aspects[0];
+    const easy = lead ? ['trine', 'sextile', 'conjunction'].includes(lead.type) : true;
+    const dayArea = lead ? `${AREA_BY_TRANSIT[lead.transit]} (touching ${AREA_BY_NATAL[lead.natal]})` : 'rest and simple routine';
+    const seed = [...`${body?.birthDate}${body?.birthTime}${userName}`].reduce((n, c) => (n * 31 + c.charCodeAt(0)) >>> 0, 7);
+    const bestMoment = ['early morning', 'late morning', 'lunch time', 'mid afternoon', 'late afternoon', 'early evening', 'night'][seed % 7];
     const prompt = `You write the "Aurendaily" for Aurenstar, a friendly astrology site: the DAILY FORECAST for one person, about how their DAY will be, based on their birth chart and the sky today.
 Write EVERYTHING in ${languageName}.
 
@@ -550,11 +558,16 @@ ${retroList.length ? `- Retrograde now: ${retroList.join(', ')}\n` : ''}- Today'
 ${astro.aspects.length ? astro.aspects.map((a) => `  * ${N[a.transit]} today ${['trine', 'sextile'].includes(a.type) ? 'flows easily with' : a.type === 'conjunction' ? 'blends strongly with' : 'creates friction with'} their ${N[a.natal]}`).join('\n') : '  * (no strong contact today, a quiet day)'}
 - Moon phase: "${precise.triad.todayMoon.phase}"
 
+THE FOCUS OF THIS PERSON'S DAY (the "day" paragraph MUST be about this, in plain words):
+- Main area of life: ${dayArea}
+- ${easy ? 'It flows easily: say what is favoured.' : 'It asks for patience: say what to take slowly.'}
+- Best moment to act or talk: ${bestMoment}
+
 WHAT THIS IS: Aurendaily is NOT about how the person feels right now (another tool does that). It tells how the DAY AHEAD tends to go for this person and what can help them, using astrology. The reader may or may not believe in astrology, so write as a tendency ("hoje a tendência é...", "é um dia bom para...") and never as a certain prediction.
 
 HOW TO WRITE (VERY IMPORTANT, keep it SHORT and SIMPLE):
 1. Total message: maximum 480 characters, in exactly 3 tiny paragraphs. Short sentences, everyday words a 12-year-old understands. NEVER use technical astrology words: no aspects (trine, square, conjunction, opposition, sextile), no houses, no "retrograde", no degrees. You may name AT MOST ONE sign or planet in the whole message (for example "com a Lua em Leão hoje"), and only if you say right away what it means in daily life. Most of the message should have no astrology word at all.
-2. Paragraph "day": start with the first name. How the day tends to go, in which area of life it flows best (love and friends, work and tasks, money, family, talks and messages, energy and body, rest) and the best moment of the day (morning, afternoon or evening). One or two sentences.
+2. Paragraph "day": start with the first name. How the day tends to go, in which area of life it flows best (love and friends, work and tasks, money, family, talks and messages, energy and body, rest) and the best moment of the day given above. Do not start with the time of day. One or two sentences.
 3. Paragraph "you": the self-knowledge part. Built from the combination of Sun, Moon and Rising sign (do NOT name them), describe how this person is with specific, recognisable habits and inner contradictions (what they show outside versus what they feel inside, how they react when hurt, what they secretly need). It must make them think "wow, this site really knows me". One or two sentences.
 4. Paragraph "care": one gentle thing to be careful about today, kindly said. One sentence.
 5. The reader may or may not believe in astrology, so write as a tendency ("a tendência é...", "é um bom dia para..."). Warm, positive, honest. No fear, no health, death, money-loss or pregnancy predictions, no orders.
