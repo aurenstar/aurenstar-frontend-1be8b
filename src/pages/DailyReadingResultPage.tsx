@@ -18,8 +18,11 @@ import {
   Bookmark,
   Calendar,
   Compass,
+  Sunrise,
+  Lightbulb,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { CoverArt } from '../components/CoverArt';
 import { ShareModal } from '../components/ShareModal';
 import { getSavedDailyReading, DailyReadingRecord } from '../utils/dailyReadingStorage';
 import { downloadStoryCard, downloadVerticalStoryCard, StoryCardData } from '../utils/generateStoryCard';
@@ -293,54 +296,50 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
           </button>
         </div>
 
-        {/* =========================================================================
-            CARD 1: PRINCIPAL COSMIC READING CARD (Layout Elegante e Acolhedor)
-            ========================================================================= */}
-        <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg transition-all p-6 sm:p-10 mb-8 relative overflow-hidden">
-          {/* Subtle top glow bar */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
-
-          {/* Caixa de Destaque com Título da Mensagem */}
-          <div className="my-6 p-6 sm:p-7 rounded-2xl bg-[#F7FBFF] border border-[#D9E8F8] text-center space-y-3 shadow-2xs relative">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#E4F1FF] text-[#2878D0] text-[11px] font-extrabold uppercase tracking-wider">
-              <Sparkles className="w-3 h-3 text-[#F51B83]" />
-              <span>{tr('Tema da Mensagem','Message Theme','Tema del Mensaje')}</span>
+        {/* Cover-style header */}
+        <header className="relative mb-6 overflow-hidden rounded-[2rem] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-9" style={{ background: '#2878D0' }}>
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
+          <div className="relative flex flex-col gap-4 pb-12 sm:flex-row sm:items-center sm:gap-5 sm:pb-0 sm:pr-[34%]">
+            <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-3xl bg-white shadow-lg" style={{ color: '#2878D0' }}>
+              <Sunrise className="h-8 w-8" />
             </div>
-
-            <h2 className="text-lg sm:text-2xl font-black text-[#172B4D] leading-snug tracking-tight max-w-xl mx-auto">
-              {curiousTitle}
-            </h2>
+            <div>
+              <div className="mb-2 inline-flex items-center rounded-full bg-white/15 px-3 py-1 text-[11px] font-bold uppercase tracking-wider">{tr('Tema da Mensagem','Message Theme','Tema del Mensaje')}</div>
+              <h2 className="text-2xl font-extrabold leading-tight tracking-tight sm:text-3xl">{curiousTitle}</h2>
+              <span aria-hidden className="mt-3 block h-1 w-12 rounded-full" style={{ background: '#F51B83' }} />
+            </div>
           </div>
+        </header>
 
-          {/* Texto da Mensagem Diária (Linguagem Simples e Agradável) */}
-          <div className="mb-5 bg-[#FFFFFF] rounded-2xl p-4 sm:p-6 border border-[#D9E8F8] shadow-2xs">
-            <p className="text-base sm:text-lg text-[#172B4D] leading-relaxed font-normal">
-              <span className="whitespace-pre-line">{savedReading.message}</span>
+        <div className="mb-6 rounded-3xl border border-[#D9E8F8] bg-white p-3 shadow-md">
+          <div className="p-4 sm:p-6">
+            <p className="whitespace-pre-line text-base font-normal leading-relaxed text-[#172B4D] sm:text-lg">
+              {savedReading.message}
             </p>
           </div>
-
-          {/* Dica Prática para Você Hoje */}
-          <div className="p-5 sm:p-6 rounded-2xl bg-[#E4F1FF]/40 border border-[#D9E8F8] space-y-2.5 transition-all">
-            <p className="text-sm sm:text-base text-[#172B4D] font-semibold leading-relaxed">
-              {savedReading.advice}
-            </p>
+          <div className="relative overflow-hidden rounded-2xl p-5 text-white sm:p-6" style={{ background: '#F51B83' }}>
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-12 overflow-hidden opacity-50"><CoverArt tone="pink" variant={1} /></div>
+            <div className="relative mb-10">
+              <h3 className="mb-2 flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-white/90"><Lightbulb className="h-4 w-4" /><span>{tr('Dica para hoje','Tip for today','Consejo para hoy')}</span></h3>
+              <p className="text-sm font-semibold leading-relaxed sm:text-base">{savedReading.advice}</p>
+            </div>
           </div>
         </div>
 
         {/* =========================================================================
             CARD DE COMPARTILHAMENTO
             ========================================================================= */}
-        <div className="rounded-2xl bg-[#FFFFFF] border border-[#D9E8F8] p-5 sm:p-6 shadow-xs space-y-4 transition-all mb-6">
+        <div className="rounded-3xl bg-[#FFFFFF] border border-[#D9E8F8] p-5 sm:p-6 shadow-md space-y-4 transition-all mb-6">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-[11px] font-bold uppercase tracking-wider text-[#2878D0]">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-[#F51B83]">
                 {tr('PRONTO PARA POSTAR','READY TO POST','LISTO PARA PUBLICAR')}
               </span>
               <h2 className="text-base sm:text-lg font-bold text-[#172B4D] mt-0.5">
                 {tr('Card da Mensagem','Message Card','Tarjeta del Mensaje')}
               </h2>
             </div>
-            <span className="text-[10px] font-semibold text-[#2878D0] bg-[#E4F1FF] px-2.5 py-1 rounded-full border border-[#D9E8F8]">
+            <span className="text-[10px] font-bold text-white bg-[#F51B83] px-2.5 py-1 rounded-full">
               Stories & Status
             </span>
           </div>
@@ -393,7 +392,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               type="button"
               onClick={handleDownloadStory}
               disabled={isGeneratingStory}
-              className="inline-flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-full bg-[#2878D0] hover:bg-[#17366F] text-white font-medium text-[11px] border border-[#2878D0] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
+              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full bg-[#2878D0] hover:bg-[#17366F] text-white font-bold text-xs border border-[#2878D0] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
               title={tr('Baixar imagem em PNG','Download PNG image','Descargar imagen PNG')}
             >
               <Download className="w-3 h-3 shrink-0" />
@@ -410,7 +409,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               type="button"
               onClick={handleDownloadVerticalStory}
               disabled={isGeneratingVerticalStory}
-              className="inline-flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-full bg-[#F51B83] hover:bg-[#D91670] text-white font-medium text-[11px] border border-[#F51B83] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
+              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full bg-[#F51B83] hover:bg-[#D91670] text-white font-bold text-xs border border-[#F51B83] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
               title={tr('Baixar formato vertical 9:16 para Stories','Download vertical 9:16 for Stories','Descargar formato vertical 9:16 para Stories')}
             >
               <Download className="w-3 h-3 shrink-0" />
@@ -422,7 +421,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
               title={tr('Compartilhar no WhatsApp','Share on WhatsApp','Compartir en WhatsApp')}
             >
               <svg className="w-3 h-3 fill-current shrink-0 text-[#25D366]" viewBox="0 0 24 24">
@@ -436,7 +435,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
               title={tr('Abrir o Instagram','Open Instagram','Abrir Instagram')}
             >
               <svg className="w-3 h-3 fill-current shrink-0 text-[#E1306C]" viewBox="0 0 24 24">
@@ -450,7 +449,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               href={facebookUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
               title={tr('Compartilhar no Facebook','Share on Facebook','Compartir en Facebook')}
             >
               <svg className="w-3 h-3 fill-current shrink-0 text-[#1877F2]" viewBox="0 0 24 24">
@@ -464,7 +463,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               href={twitterUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1 px-2.5 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
               title={tr('Postar no X','Post on X','Publicar en X')}
             >
               <svg className="w-3 h-3 fill-current shrink-0 text-[#0F1419]" viewBox="0 0 24 24">
@@ -481,7 +480,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
             <button
               type="button"
               onClick={onNavigateToBlog}
-              className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full bg-[#2878D0] hover:bg-[#17366F] text-white font-semibold text-xs sm:text-sm tracking-wide transition-all cursor-pointer shadow-xs hover:shadow-sm active:scale-95"
+              className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full bg-[#F51B83] hover:bg-[#D9166F] text-white font-bold text-xs sm:text-sm tracking-wide transition-all cursor-pointer shadow-xs hover:shadow-sm active:scale-95"
             >
               <span>{tr('Acessar o Blog','Visit the Blog','Ir al Blog')}</span>
               <ArrowRight className="w-4 h-4 shrink-0" />
