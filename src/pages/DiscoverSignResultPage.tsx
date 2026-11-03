@@ -109,13 +109,13 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
         </header>
 
         {/* Mensagem + artigo, mesmo tamanho */}
-        <div className="mb-6 grid items-stretch gap-4 md:grid-cols-2">
-          <section className="flex flex-col rounded-3xl border border-[#D9E8F8] bg-white p-3.5 shadow-sm">
-            <div className="relative flex h-40 items-center justify-center overflow-hidden rounded-[18px] bg-[#2878D0] sm:h-44">
+        <div className="mb-6 flex flex-col gap-4">
+          <section className="flex flex-col rounded-3xl border border-[#D9E8F8] bg-white p-3.5 shadow-sm sm:h-60 sm:flex-row">
+            <div className="relative flex h-40 items-center justify-center overflow-hidden rounded-[18px] bg-[#2878D0] sm:h-auto sm:w-72 sm:shrink-0">
               <div className="pointer-events-none absolute inset-0 overflow-hidden"><CoverArt tone="blue" variant={1} /></div>
               <Star className="relative h-14 w-14 text-white/90" strokeWidth={1.5} />
             </div>
-            <div className="flex flex-1 flex-col p-2 pt-5 sm:p-3 sm:pt-5">
+            <div className="flex flex-1 flex-col p-2 pt-5 sm:p-4 sm:pl-6 sm:pt-4">
               <span className="mb-3 inline-block w-fit rounded-full bg-[#2878D0] px-3.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white sm:text-[11px]">
                 {tr('Sua Essência','Your Essence','Tu Esencia')}
               </span>
@@ -139,12 +139,12 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
               tabIndex={0}
               onClick={() => onOpenArticle(recommended.id)}
               onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onOpenArticle(recommended.id); } }}
-              className="group flex cursor-pointer flex-col overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-3.5 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_18px_36px_rgba(23,54,111,0.18)] focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40"
+              className="group flex cursor-pointer flex-col overflow-hidden sm:h-60 sm:flex-row rounded-3xl border border-[#D9E8F8] bg-white p-3.5 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_18px_36px_rgba(23,54,111,0.18)] focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40"
             >
-              <div className="h-40 w-full overflow-hidden rounded-[18px] bg-slate-100 sm:h-44">
+              <div className="h-40 w-full overflow-hidden rounded-[18px] bg-slate-100 sm:h-auto sm:w-72 sm:shrink-0">
                 <img src={recommended.image} alt={recommended.title[lang] || recommended.title.pt} loading="lazy" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
               </div>
-              <div className="flex flex-1 flex-col p-2 pt-5 sm:p-3 sm:pt-5">
+              <div className="flex flex-1 flex-col p-2 pt-5 sm:p-4 sm:pl-6 sm:pt-4">
                 <span className="mb-3 inline-block w-fit rounded-full bg-[#F51B83] px-3.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white sm:text-[11px]">
                   {tr('Artigo para você','Article for you','Artículo para ti')}
                 </span>
