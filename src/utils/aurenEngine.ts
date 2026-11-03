@@ -464,33 +464,60 @@ export function queryAurenstarEngine(triad: AstronomicalTriad, lang: ReadingLang
   };
 }
 
+
+// Who the person is, in everyday words (chosen from the birth sign's element). No sign or planet names.
+const PERSON_TRAITS: Record<ReadingLang, Record<string, string>> = {
+  en: {
+    Fogo: 'You are a person full of courage and drive, who likes to get things moving.',
+    Terra: 'You are a person who values calm, honesty and things done right.',
+    Ar: 'You are a curious person who loves to talk, learn and have new ideas.',
+    Água: 'You are a caring person who feels things deeply and looks after the people you love.',
+  },
+  pt: {
+    Fogo: 'Você é uma pessoa cheia de coragem e iniciativa, que gosta de fazer as coisas acontecerem.',
+    Terra: 'Você é uma pessoa que valoriza a calma, a sinceridade e as coisas bem feitas.',
+    Ar: 'Você é uma pessoa curiosa, que adora conversar, aprender e ter ideias novas.',
+    Água: 'Você é uma pessoa carinhosa, que sente tudo com profundidade e cuida de quem ama.',
+  },
+  es: {
+    Fogo: 'Eres una persona llena de valentía e iniciativa, a quien le gusta hacer que las cosas pasen.',
+    Terra: 'Eres una persona que valora la calma, la sinceridad y las cosas bien hechas.',
+    Ar: 'Eres una persona curiosa, que ama conversar, aprender y tener ideas nuevas.',
+    Água: 'Eres una persona cariñosa, que siente todo con profundidad y cuida de quienes ama.',
+  },
+};
+
+export function traitFor(element: string, lang: ReadingLang): string {
+  return (PERSON_TRAITS[lang] || PERSON_TRAITS.en)[element] || '';
+}
+
 const READING_COPY: Record<ReadingLang, {
   fallbackName: string;
-  intro: (name: string, moonSign: string, sunSign: string) => string;
+  intro: (name: string, trait: string) => string;
   q2: string;
   affirmation: string;
   note: string;
 }> = {
   en: {
     fallbackName: 'Friend',
-    intro: (n, moon, sun) => `Hi ${n}! Today the Moon is in ${moon}, and your birth sign is ${sun}. Put together, here is how today may feel for you:`,
+    intro: (n, trait) => `Hi ${n}! ${trait} Today, you may feel like this:`,
     q2: 'Here are 3 easy things you can do today. Each one takes only a few minutes:',
     affirmation: 'Today I choose calm over rush, I take care of my routine and I trust my own pace.',
-    note: 'The positions of the Sun and Moon are calculated with real astronomy. Linking them to your mood is just a gentle idea from Aurenstar to help you reflect, not a scientific fact.',
+    note: 'This reading is a gentle idea from Aurenstar, based on the sky on your birthday and today. It is here to help you reflect, not to predict anything.',
   },
   pt: {
     fallbackName: 'Amigo(a)',
-    intro: (n, moon, sun) => `Oi, ${n}! Hoje a Lua está em ${moon}, e o seu signo é ${sun}. Juntando as duas coisas, o seu dia pode estar assim:`,
+    intro: (n, trait) => `Oi, ${n}! ${trait} Hoje, você pode se sentir assim:`,
     q2: 'Aqui vão 3 coisas fáceis para fazer hoje. Cada uma leva só alguns minutinhos:',
     affirmation: 'Hoje eu escolho a calma no lugar da pressa, cuido da minha rotina e confio no meu ritmo.',
-    note: 'A posição do Sol e da Lua é calculada com astronomia de verdade. Ligar isso ao seu humor é só uma ideia gentil da Aurenstar para ajudar você a refletir, não um fato científico.',
+    note: 'Esta leitura é uma ideia gentil da Aurenstar, baseada no céu do dia em que você nasceu e no de hoje. Ela serve para você refletir, não para prever nada.',
   },
   es: {
     fallbackName: 'Amigo(a)',
-    intro: (n, moon, sun) => `¡Hola, ${n}! Hoy la Luna está en ${moon}, y tu signo es ${sun}. Juntando las dos cosas, así puede sentirse tu día:`,
+    intro: (n, trait) => `¡Hola, ${n}! ${trait} Hoy puedes sentirte así:`,
     q2: 'Aquí tienes 3 cosas fáciles para hacer hoy. Cada una toma solo unos minutos:',
     affirmation: 'Hoy elijo la calma en lugar de la prisa, cuido mi rutina y confío en mi ritmo.',
-    note: 'La posición del Sol y de la Luna se calcula con astronomía real. Relacionarla con tu estado de ánimo es solo una idea amable de Aurenstar para ayudarte a reflexionar, no un hecho científico.',
+    note: 'Esta lectura es una idea amable de Aurenstar, basada en el cielo del día en que naciste y el de hoy. Sirve para reflexionar, no para predecir nada.',
   },
 };
 
@@ -509,7 +536,7 @@ export function generateLocalAurenEffectReading(
   const copy = READING_COPY[lang] || READING_COPY.en;
   const name = userName?.trim() || copy.fallbackName;
 
-  const question1Answer = `${copy.intro(name, signNameIn(triad.todayMoon, lang), signNameIn(triad.sun, lang))} ${trigger.primaryCause} ${trigger.hiddenTrigger}`;
+  const question1Answer = `${copy.intro(name, (PERSON_TRAITS[lang] || PERSON_TRAITS.en)[triad.sun.element] || '')} ${trigger.primaryCause} ${trigger.hiddenTrigger}`;
 
   const practicalSteps = trigger.practicalActions.map((a, i) => ({
     stepNumber: i + 1,

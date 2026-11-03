@@ -13,8 +13,7 @@ import {
   type AstronomicalTriad,
   queryAurenstarEngine,
   generateLocalAurenEffectReading,
-  signNameIn,
-  phaseNameIn,
+  traitFor,
   type ReadingLang,
   REFERENCE_CITIES,
 } from '../src/utils/aurenEngine';
@@ -362,12 +361,9 @@ export async function handleAurenEffect(body: any, apiKey?: string, precise?: Pr
     const prompt = `You write the daily "Aureneffect" message for Aurenstar, a friendly astrology site.
 Write EVERYTHING in ${languageName}.
 
-FACTS (calculated with real astronomy):
+ABOUT THE PERSON:
 - Name: "${userName}"
-- Birth sign (Sun): ${signNameIn(triad.sun, lang)}
-- Moon sign at birth: ${signNameIn(triad.moon, lang)}
-- Rising sign: ${signNameIn(triad.ascendant, lang)}
-- Today the Moon is in ${signNameIn(triad.todayMoon, lang)} (${phaseNameIn(triad.todayMoon.phase, lang)})
+- Their nature in everyday words: "${traitFor(triad.sun.element, lang)}"
 
 IDEAS TO USE (already in simple words):
 - What the person may feel today: "${trigger.primaryCause}"
@@ -378,7 +374,7 @@ IDEAS TO USE (already in simple words):
 
 HOW TO WRITE (very important):
 1. Talk like a kind friend. Use short sentences and everyday words a 12-year-old understands.
-2. NEVER use astrology or technical words such as: transit, aspect, conjunction, square, opposition, degrees, house, element, energy field, essence, vibration, archetype, "dialoguing with". Mention the signs at most once, in a simple way, like "with the Moon in Leo today".
+2. NEVER mention planets, the Moon, the Sun, zodiac signs, houses, elements or any astrology word. Never say things like "the Moon is in Leo". The reader must NOT see any astrology term, only plain feelings and daily life.
 3. Talk about real daily life: work, phone, family, rest, mood. Give no predictions and no orders; offer gentle ideas.
 4. Be warm and positive. Never scare the person.
 
@@ -392,7 +388,7 @@ Return ONLY a valid JSON object:
     { "stepNumber": 3, "title": "Simple title", "action": "Easy action" }
   ],
   "affirmation": "One short, positive sentence the person can repeat today",
-  "transparencyNote": "One short, honest sentence: the Sun and Moon positions are real astronomy, and linking them to mood is just a gentle idea from Aurenstar, not a scientific fact"
+  "transparencyNote": "One short, honest sentence saying this is a gentle idea from Aurenstar to help reflect, not a prediction"
 }`;
 
     const response = await ai.models.generateContent({

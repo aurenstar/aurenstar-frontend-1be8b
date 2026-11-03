@@ -38,8 +38,8 @@ interface AurenEffectPageProps {
 }
 
 const STORAGE_KEY = 'aurenstar_effect_profile';
-const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v2';
-const LAST_CALCULATED_TIME_KEY = 'aurenstar_effect_last_calculated_at_v2';
+const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v3';
+const LAST_CALCULATED_TIME_KEY = 'aurenstar_effect_last_calculated_at_v3';
 const SIX_HOURS_MS = 6 * 60 * 60 * 1000;
 
 export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
