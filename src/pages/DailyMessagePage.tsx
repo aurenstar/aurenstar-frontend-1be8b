@@ -8,8 +8,11 @@ import {
   ChevronDown,
   CheckCircle2,
   BookOpen,
+  MapPin,
+  RefreshCw,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
 import {
   saveDailyReading,
   hasGeneratedToday,
@@ -86,6 +89,10 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
   const [birthMonth, setBirthMonth] = useState(6); // Junho -> Gêmeos
   const [birthYear, setBirthYear] = useState(2000);
   const [birthTimePeriod, setBirthTimePeriod] = useState('tarde');
+  const [birthTime, setBirthTime] = useState('14:30');
+  const [birthPlace, setBirthPlace] = useState<PickedCity | null>(null);
+  const [cityError, setCityError] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   // Computed sign
   const [userSign, setUserSign] = useState('gemeos');
@@ -104,6 +111,8 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         if (savedReading.birthMonth) setBirthMonth(savedReading.birthMonth);
         if (savedReading.birthYear) setBirthYear(savedReading.birthYear);
         if (savedReading.birthTimePeriod) setBirthTimePeriod(savedReading.birthTimePeriod);
+        if (savedReading.birthTime) setBirthTime(savedReading.birthTime);
+        if (savedReading.birthPlace?.geonameid) setBirthPlace(savedReading.birthPlace);
         if (savedReading.signKey) setUserSign(savedReading.signKey);
       } else {
         const savedProfile = JSON.parse(
@@ -115,6 +124,8 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
           if (savedProfile.month) setBirthMonth(Number(savedProfile.month));
           if (savedProfile.year) setBirthYear(Number(savedProfile.year));
           if (savedProfile.timePeriod) setBirthTimePeriod(savedProfile.timePeriod);
+          if (savedProfile.birthTime) setBirthTime(savedProfile.birthTime);
+          if (savedProfile.birthPlace?.geonameid) setBirthPlace(savedProfile.birthPlace);
           if (savedProfile.sign) {
             setUserSign(savedProfile.sign);
           } else if (savedProfile.day && savedProfile.month) {
@@ -451,7 +462,9 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
   const yearsArray = Array.from({ length: 90 }, (_, i) => 2026 - i);
 
   // Form Submission -> Save reading and open dedicated new page!
-  const handleSubmitAndOpenPage = (e: React.FormEvent) => {
+  const PERIOD_TIMES: Record<string, string> = { manha: '09:00', tarde: '14:30', noite: '20:00', madrugada: '03:30' };
+
+  const handleSubmitAndOpenPage = async (e: React.FormEvent) => {
     e.preventDefault();
 
     // Regra: 1 geração por dia! Se já gerou hoje, abre diretamente a leitura atual
@@ -460,26 +473,69 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       return;
     }
 
+    if (!birthPlace) {
+      setCityError(true);
+      return;
+    }
+
+    setIsLoading(true);
     const finalSign = calculateZodiacSign(birthDay, birthMonth);
-    const readingContent = signReadings[finalSign] || signReadings.gemeos;
-    const finalSignObj = zodiacSigns.find((s) => s.key === finalSign) || zodiacSigns[2];
+    let readingContent = signReadings[finalSign] || signReadings.gemeos;
+    let finalSignObj = zodiacSigns.find((s) => s.key === finalSign) || zodiacSigns[2];
+    let theme = readingContent.theme[lang] || readingContent.theme.pt;
+    let message = readingContent.messages[lang] || readingContent.messages.pt;
+    let advice = readingContent.advices[lang] || readingContent.advices.pt;
+    let affirmation = readingContent.affirmations[lang] || readingContent.affirmations.pt;
+    let signKey = finalSign;
+
+    // Cálculo real do céu (Swiss Ephemeris + fuso IANA + cidade GeoNames) e texto escrito para a pessoa.
+    // Se qualquer coisa falhar, a leitura pronta do signo é usada, então a página nunca quebra.
+    try {
+      const res = await fetch('/api/aurendaily', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: userName,
+          birthDate: `${birthYear}-${String(birthMonth).padStart(2, '0')}-${String(birthDay).padStart(2, '0')}`,
+          birthTime,
+          geonameid: birthPlace.geonameid,
+          birthCity: birthPlace.label,
+          lang,
+        }),
+      });
+      const json = await res.json();
+      if (json?.success && json.data) {
+        signKey = json.data.signKey || finalSign;
+        finalSignObj = zodiacSigns.find((s) => s.key === signKey) || finalSignObj;
+        readingContent = signReadings[signKey] || readingContent;
+        theme = json.data.theme || theme;
+        message = json.data.message || message;
+        advice = json.data.advice || advice;
+        affirmation = json.data.affirmation || affirmation;
+      }
+    } catch {
+      // keep the ready-made reading
+    }
 
     saveDailyReading({
       userName: userName.trim() || 'Andriel',
-      signKey: finalSign,
+      signKey,
       signName: finalSignObj.name[lang] || finalSignObj.name.pt,
       signSymbol: finalSignObj.symbol,
-      signTheme: readingContent.theme[lang] || readingContent.theme.pt,
+      signTheme: theme,
       birthDay,
       birthMonth,
       birthYear,
       birthTimePeriod,
-      affirmation: readingContent.affirmations[lang] || readingContent.affirmations.pt,
-      message: readingContent.messages[lang] || readingContent.messages.pt,
-      advice: readingContent.advices[lang] || readingContent.advices.pt,
+      birthTime,
+      birthPlace,
+      affirmation,
+      message,
+      advice,
       articleId: readingContent.articleId,
     });
 
+    setIsLoading(false);
     // Navigate to dedicated new page (pageview strategy)
     onNavigateToResult();
   };
@@ -504,7 +560,13 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       dayLabel: 'Dia',
       monthLabel: 'Mês',
       yearLabel: 'Ano',
-      timeLabel: 'Hora Aproximada de Nascimento:',
+      timeLabel: 'Hora de Nascimento:',
+      exactTime: 'Sei a hora exata:',
+      cityLabel: 'Cidade de Nascimento:',
+      cityPlaceholder: 'Digite sua cidade (ex: São Paulo)',
+      cityNoResults: 'Nenhuma cidade encontrada. Tente outro nome.',
+      cityRequired: 'Escolha sua cidade na lista de sugestões.',
+      calculating: 'Calculando seu céu de hoje...',
       computedSignLabel: 'Signo identificado:',
       generateBtn: 'Gerar Minha Leitura Diária ✨',
       generateBtnSub: 'Abre uma nova página com sua leitura e o card para Stories',
@@ -528,7 +590,13 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       dayLabel: 'Day',
       monthLabel: 'Month',
       yearLabel: 'Year',
-      timeLabel: 'Approximate Birth Time:',
+      timeLabel: 'Birth Time:',
+      exactTime: 'I know the exact time:',
+      cityLabel: 'Birth City:',
+      cityPlaceholder: 'Type your city (e.g., Munich)',
+      cityNoResults: 'No city found. Try another spelling.',
+      cityRequired: 'Please pick your city from the suggestions.',
+      calculating: 'Calculating your sky for today...',
       computedSignLabel: 'Detected Sun Sign:',
       generateBtn: 'Generate My Daily Reading ✨',
       generateBtnSub: 'Opens a dedicated new page with your reading & Story card',
@@ -552,7 +620,13 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       dayLabel: 'Día',
       monthLabel: 'Mes',
       yearLabel: 'Año',
-      timeLabel: 'Hora Aproximada de Nacimiento:',
+      timeLabel: 'Hora de Nacimiento:',
+      exactTime: 'Sé la hora exacta:',
+      cityLabel: 'Ciudad de Nacimiento:',
+      cityPlaceholder: 'Escribe tu ciudad (ej.: Madrid)',
+      cityNoResults: 'No se encontró la ciudad. Prueba otro nombre.',
+      cityRequired: 'Elige tu ciudad en la lista de sugerencias.',
+      calculating: 'Calculando tu cielo de hoy...',
       computedSignLabel: 'Signo identificado:',
       generateBtn: 'Generar Mi Lectura Diaria ✨',
       generateBtnSub: 'Abre una nueva página con tu lectura y el card para Stories',
@@ -641,6 +715,25 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                 placeholder={t.namePlaceholder}
                 className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
               />
+            </div>
+
+            {/* 1b. Cidade de Nascimento */}
+            <div>
+              <label className="block text-xs font-bold uppercase tracking-wider text-[#172B4D] mb-2 flex items-center gap-1.5">
+                <MapPin className="w-3.5 h-3.5 text-[#F51B83]" />
+                <span>{t.cityLabel}</span>
+              </label>
+              <CityAutocomplete
+                value={birthPlace}
+                onChange={(city) => {
+                  setBirthPlace(city);
+                  if (city) setCityError(false);
+                }}
+                placeholder={t.cityPlaceholder}
+                noResultsText={t.cityNoResults}
+                className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
+              />
+              {cityError && <p className="mt-1.5 text-[11px] font-semibold text-[#F51B83]">{t.cityRequired}</p>}
             </div>
 
             {/* 2. Data de Nascimento */}
@@ -735,7 +828,10 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                     <button
                       key={period.id}
                       type="button"
-                      onClick={() => setBirthTimePeriod(period.id)}
+                      onClick={() => {
+                        setBirthTimePeriod(period.id);
+                        setBirthTime(PERIOD_TIMES[period.id] || '14:30');
+                      }}
                       className={`p-3 rounded-2xl text-xs font-bold transition-all cursor-pointer border text-center flex flex-col items-center justify-center gap-1.5 ${
                         isSelected
                           ? 'bg-[#2878D0] text-white border-[#2878D0] shadow-sm scale-[1.02]'
@@ -748,19 +844,31 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                   );
                 })}
               </div>
+
+              <div className="mt-2.5 flex items-center justify-end gap-2">
+                <span className="text-[11px] text-[#647DA5] font-medium">{t.exactTime}</span>
+                <input
+                  type="time"
+                  value={birthTime}
+                  onChange={(e) => {
+                    setBirthTime(e.target.value);
+                    setBirthTimePeriod('exato');
+                  }}
+                  className="px-3 py-1.5 rounded-xl border border-[#D9E8F8] bg-[#E4F1FF]/30 text-xs font-bold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white"
+                />
+              </div>
             </div>
 
             {/* Botão de Abrir Nova Página com Regra de 1 Leitura por Dia */}
             <div className="pt-3">
               <button
                 type="submit"
-                className="w-full py-4 px-6 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99]"
+                disabled={isLoading}
+                className="w-full py-4 px-6 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99] disabled:opacity-60"
               >
-                <Sparkles className="w-4 h-4 transition-transform group-hover:rotate-12" />
+                {isLoading ? <RefreshCw className="w-4 h-4 animate-spin" /> : <Sparkles className="w-4 h-4 transition-transform group-hover:rotate-12" />}
                 <span>
-                  {alreadyGeneratedToday
-                    ? 'Ver Minha Leitura de Hoje ✨'
-                    : 'Gerar Minha Leitura Diária ✨'}
+                  {isLoading ? t.calculating : alreadyGeneratedToday ? t.viewTodayBtn : t.generateBtn}
                 </span>
               </button>
             </div>

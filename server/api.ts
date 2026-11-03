@@ -502,3 +502,82 @@ Return ONLY a valid JSON object:
     return ({ success: true, data: fallback });
   }
 }
+
+
+/**
+ * Aurendaily: the daily message for the person's sun sign, written from the real sky (birth chart + today's Moon).
+ * Returns { success: false } when no AI key is set or the AI fails, so the page can show its ready-made reading.
+ */
+export async function handleAurenDaily(body: any, precise: PreciseSky | null, openai?: OpenAiConfig) {
+  try {
+    if (!openai?.key || !precise) return { success: false };
+    const lang: ReadingLang = ['pt', 'en', 'es'].includes(body?.lang) ? body.lang : 'en';
+    const userName = String(body?.name || '').trim().split(/\s+/)[0] || '';
+    const signals = buildSignals(precise.facts!, lang, precise.triad.todayMoon.phase);
+    const signName = signNameIn(precise.triad.sun, lang);
+    const languageName = { en: 'English', pt: 'Brazilian Portuguese', es: 'Spanish' }[lang];
+
+    const prompt = `You write the "Aurendaily" for Aurenstar, a friendly astrology site: a short daily message for one person.
+Write EVERYTHING in ${languageName}.
+
+THE PERSON: first name "${userName}", sun sign ${signName}.
+WHAT IS GOING ON INSIDE THEM TODAY (use it silently as material, never quote it):
+- Strongest feeling: "${signals.aspects[0]?.text || signals.todayMoon}"
+- Today's mood: "${signals.todayMoon}"
+- A deeper need: "${signals.natalMoon}"
+${signals.mercuryRetro ? `- Also: "${signals.mercuryRetro}"\n` : ''}
+RULES:
+1. The message speaks to the person about TODAY: the mood of the day, what to focus on and what to be careful with. Start with the first name. Warm, positive, specific small moments of daily life, short sentences, everyday words a 12-year-old understands.
+2. You may say the sign name "${signName}" once, naturally. NEVER mention planets, the Moon, the Sun, houses, elements, retrograde or any other astrology word.
+3. The advice is ONE concrete action the person can do today in under 10 minutes: say exactly what to do, give the exact words when people are involved, and end with a short "because ..." reason. No vague advice like "take a moment" or "relax".
+4. No predictions, no fear, no orders.
+
+Return ONLY valid JSON:
+{
+  "theme": "2 to 4 words naming the theme of the day, no astrology words",
+  "message": "3 or 4 short sentences, about 300 characters",
+  "advice": "One concrete action, max 35 words, with a short because-reason",
+  "affirmation": "One short first-person positive sentence"
+}`;
+
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 25000);
+    let text = '{}';
+    try {
+      const res = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${openai.key}` },
+        signal: controller.signal,
+        body: JSON.stringify({
+          model: openai.model || 'gpt-6.1-terra',
+          response_format: { type: 'json_object' },
+          messages: [{ role: 'user', content: prompt }],
+        }),
+      });
+      if (!res.ok) throw new Error(`OpenAI error ${res.status}`);
+      const json: any = await res.json();
+      text = json?.choices?.[0]?.message?.content?.trim() || '{}';
+    } finally {
+      clearTimeout(timer);
+    }
+    const parsed = JSON.parse(text.replace(/^```json\s*|```$/g, ''));
+    if (!parsed.message || !parsed.advice) return { success: false };
+    return {
+      success: true,
+      data: {
+        signKey: precise.triad.sun.signKey,
+        signName,
+        signSymbol: precise.triad.sun.symbol,
+        theme: String(parsed.theme || ''),
+        message: String(parsed.message),
+        advice: String(parsed.advice),
+        affirmation: String(parsed.affirmation || ''),
+        cityName: precise.cityName,
+        generatedByAI: true,
+      },
+    };
+  } catch (err) {
+    console.error('Aurendaily AI unavailable, the page will use its ready-made reading', err);
+    return { success: false };
+  }
+}

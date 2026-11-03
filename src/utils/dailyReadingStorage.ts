@@ -23,6 +23,8 @@ export interface DailyReadingRecord {
   birthMonth: number;
   birthYear: number;
   birthTimePeriod: string;
+  birthTime?: string;
+  birthPlace?: { geonameid: number; label: string } | null;
   affirmation: string;
   message: string;
   advice: string;
@@ -54,6 +56,8 @@ export function saveDailyReading(data: Omit<DailyReadingRecord, 'generatedDate'>
       month: data.birthMonth,
       year: data.birthYear,
       timePeriod: data.birthTimePeriod,
+      birthTime: data.birthTime,
+      birthPlace: data.birthPlace,
       sign: data.signKey,
     }));
   } catch {
