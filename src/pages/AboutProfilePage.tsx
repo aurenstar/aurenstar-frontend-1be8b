@@ -337,21 +337,19 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
               <div className="space-y-4">
                 <div className="group relative overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-5 sm:p-6">
                   <span aria-hidden className="absolute inset-x-0 top-0 h-1.5 bg-[#2878D0]" />
-                  <div className="flex items-center gap-3">
-                    <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#2878D0] text-white shadow-md"><Sparkles className="h-6 w-6" /></span>
-                    <h2 className="text-xl font-extrabold text-[#172B4D]">{c.aboutTitle}</h2>
-                  </div>
-                  <div className="mt-3 space-y-3">{c.about.map((p) => <p key={p} className="text-sm leading-relaxed text-[#17366F] sm:text-base">{p}</p>)}</div>
+                  <h2 className="text-2xl font-extrabold text-[#172B4D]">{c.aboutTitle}</h2>
+                  <span aria-hidden className="mt-2 block h-1 w-12 rounded-full bg-[#F51B83]" />
+                  <div className="mt-4 space-y-3">{c.about.map((p) => <p key={p} className="text-sm leading-relaxed text-[#17366F] sm:text-base">{p}</p>)}</div>
                 </div>
                 <div className="grid gap-4 sm:grid-cols-3">
                   {c.values.map((v, i) => {
                     const color = i % 2 === 0 ? '#F51B83' : '#2878D0';
-                    const VIcon = [PenLine, Moon, Sparkles][i] || Moon;
                     return (
-                      <div key={v.title} className="group rounded-2xl border border-[#D9E8F8] bg-white p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)]">
-                        <span className="mb-3 flex h-11 w-11 items-center justify-center rounded-2xl text-white shadow-md transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110" style={{ background: color }}><VIcon className="h-5 w-5" /></span>
-                        <h3 className="text-base font-extrabold text-[#172B4D]">{v.title}</h3>
-                        <p className="mt-1 text-sm leading-relaxed text-[#5E78A4]">{v.text}</p>
+                      <div key={v.title} className="group relative overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)]">
+                        <span aria-hidden className="absolute inset-y-0 left-0 w-1.5" style={{ background: color }} />
+                        <span className="text-xs font-extrabold tracking-widest" style={{ color }}>0{i + 1}</span>
+                        <h3 className="mt-1 text-base font-extrabold text-[#172B4D]">{v.title}</h3>
+                        <p className="mt-1.5 text-sm leading-relaxed text-[#5E78A4]">{v.text}</p>
                       </div>
                     );
                   })}
