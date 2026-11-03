@@ -545,7 +545,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       tag: 'Leitura Personalizada',
       title: 'Leitura Cósmica Diária',
       subtitle:
-        'Coloque seu nome, sua data de nascimento e horário aproximado para receber sua mensagem de hoje.',
+        'Coloque seu nome, cidade, data e hora de nascimento para receber a mensagem de hoje, calculada com o céu real.',
       backHome: 'Voltar ao Início',
       exploreBlog: 'Ver Artigos do Blog',
       alreadyGeneratedAlert: 'Sua leitura de hoje já está pronta! ✨',
@@ -575,7 +575,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       tag: 'Personalized Reading',
       title: 'Daily Cosmic Reading',
       subtitle:
-        'Enter your name, birth date, and approximate time to receive your personalized message today.',
+        'Enter your name, birth city, date and time to receive today’s message, calculated from the real sky.',
       backHome: 'Back to Home',
       exploreBlog: 'Explore Blog Posts',
       alreadyGeneratedAlert: 'Your reading for today is already prepared! ✨',
@@ -605,7 +605,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       tag: 'Lectura Personalizada',
       title: 'Lectura Cósmica Diaria',
       subtitle:
-        'Ingresa tu nombre, fecha de nacimiento y hora aproximada para recibir tu mensaje de hoy.',
+        'Ingresa tu nombre, ciudad, fecha y hora de nacimiento para recibir el mensaje de hoy, calculado con el cielo real.',
       backHome: 'Volver al Inicio',
       exploreBlog: 'Ver Artículos del Blog',
       alreadyGeneratedAlert: '¡Tu lectura de hoy ya está lista! ✨',
