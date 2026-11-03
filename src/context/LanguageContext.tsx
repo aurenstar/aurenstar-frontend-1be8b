@@ -243,6 +243,8 @@ interface LanguageContextType {
   setLanguage: (lang: Language) => void;
   /** true once the person picked a language themselves (then we never override it from the country) */
   languageChosen: boolean;
+  /** language of the visitor's country when the site has no menus in it (e.g. 'nl', 'ja'); '' otherwise */
+  visitorLanguage: string;
   t: Translations;
 }
 
@@ -261,6 +263,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [choice, setChoice] = useState<Language | null>(readChoice);
   const [language, setLang] = useState<Language>(choice || 'en');
+  const [visitorLanguage, setVisitorLanguage] = useState('');
 
   // First visit: pick the site language that fits the visitor's country (English when unknown). Silent on any failure.
   useEffect(() => {
@@ -271,6 +274,7 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
       .then((d) => {
         if (cancelled || !d) return;
         if (d.uiLanguage === 'pt' || d.uiLanguage === 'es' || d.uiLanguage === 'en') setLang(d.uiLanguage);
+        if (d.known && d.language && !['en', 'pt', 'es'].includes(d.language)) setVisitorLanguage(d.language);
       })
       .catch(() => {});
     return () => {
@@ -292,6 +296,7 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
     language,
     setLanguage,
     languageChosen: choice !== null,
+    visitorLanguage: choice ? '' : visitorLanguage,
     t: translations[language],
   };
 

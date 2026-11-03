@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { LanguageProvider } from './context/LanguageContext';
+import { SiteLocalizer } from './components/SiteLocalizer';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { BrandMarquee } from './components/BrandMarquee';
@@ -223,6 +224,7 @@ export default function App() {
 
   return (
     <LanguageProvider>
+      <SiteLocalizer />
       <div className="min-h-screen bg-[#C9E5FF] text-[#172B4D] font-sans selection:bg-[#F51B83] selection:text-[#FFFFFF] flex flex-col justify-between">
         {/* Top Header with Navigation & Language Switcher */}
         <Navbar
