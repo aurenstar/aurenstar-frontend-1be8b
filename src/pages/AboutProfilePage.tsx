@@ -211,7 +211,7 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
             <span className="absolute bottom-0 left-0 h-1.5 w-full bg-[#F51B83]" />
           </div>
           <div className="px-5 pb-7 sm:px-9">
-            <div className="-mt-12 flex items-end justify-between sm:-mt-14">
+            <div className="relative z-10 -mt-12 flex items-end justify-between sm:-mt-14">
               <img src={AVATAR} alt="Aurenstar" className="h-24 w-24 rounded-full border-4 border-white bg-white object-cover shadow-md sm:h-28 sm:w-28" />
               <button type="button" onClick={() => onNavigate('newsletter')} className="mb-1 rounded-full bg-[#F51B83] px-5 py-2.5 text-xs font-bold text-white shadow-sm transition-colors hover:bg-[#D9166F] sm:text-sm">
                 {c.newsletterBtn}
