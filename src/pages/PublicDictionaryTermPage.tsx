@@ -17,6 +17,14 @@ import {
   getDictionaryTermBySlug,
 } from '../data/astrologyDictionaryData';
 import { onPlainClick } from '../utils/links';
+import { useLanguage } from '../context/LanguageContext';
+import { categoryLabel, localizeTerm } from '../data/astrologyDictionaryTranslations';
+
+const COPY = {
+  en: { home: 'Home', dict: 'Aurenstar Dictionary', seeAll: 'See All Terms', simple: 'A simple explanation, no technical words', copied: 'Link Copied!', share: 'Share This Page', what: 'What does it mean?', whatAstro: 'What does it mean in astrology?', example: 'A fictional everyday example:', want: 'Want to see how this affects your day today?', quick: 'Take a quick, free test in clear, simple language.', more: 'Explore more Aurenstar Dictionary terms on their own pages:', open: 'Open page', back: 'Back to the Full Dictionary', shareTitle: 'What does it mean in astrology?', itIs: 'What it is:', practice: 'In practice:', simpleEx: 'Simple example:', seeFull: 'See the full page, without difficult words, at:' },
+  pt: { home: 'Início', dict: 'Dicionário Aurenstar', seeAll: 'Ver Todos os Termos', simple: 'Uma explicação simples, sem palavras técnicas', copied: 'Link Copiado!', share: 'Compartilhar Esta Página', what: 'O que significa?', whatAstro: 'O que significa na astrologia?', example: 'Um exemplo fictício do dia a dia:', want: 'Quer ver como isso afeta o seu dia hoje?', quick: 'Faça um teste rápido e gratuito, em linguagem simples e clara.', more: 'Explore mais termos do Dicionário Aurenstar, cada um na sua própria página:', open: 'Abrir página', back: 'Voltar ao Dicionário Completo', shareTitle: 'O que significa na astrologia?', itIs: 'O que é:', practice: 'Na prática:', simpleEx: 'Exemplo simples:', seeFull: 'Veja a página completa, sem palavras difíceis, em:' },
+  es: { home: 'Inicio', dict: 'Diccionario Aurenstar', seeAll: 'Ver Todos los Términos', simple: 'Una explicación sencilla, sin palabras técnicas', copied: '¡Enlace Copiado!', share: 'Compartir Esta Página', what: '¿Qué significa?', whatAstro: '¿Qué significa en astrología?', example: 'Un ejemplo ficticio del día a día:', want: '¿Quieres ver cómo esto afecta tu día de hoy?', quick: 'Haz una prueba rápida y gratuita, en un lenguaje claro y sencillo.', more: 'Explora más términos del Diccionario Aurenstar, cada uno en su propia página:', open: 'Abrir página', back: 'Volver al Diccionario Completo', shareTitle: '¿Qué significa en astrología?', itIs: 'Qué es:', practice: 'En la práctica:', simpleEx: 'Ejemplo sencillo:', seeFull: 'Mira la página completa, sin palabras difíciles, en:' },
+} as const;
 
 interface PublicDictionaryTermPageProps {
   termSlug: string;
@@ -33,30 +41,36 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
   onSelectTerm,
   onNavigateToTool,
 }) => {
-  const term: DictionaryTerm =
-    getDictionaryTermBySlug(termSlug) || ASTROLOGY_DICTIONARY_TERMS[0];
+  const { language } = useLanguage();
+  const lang = (language || 'en') as 'en' | 'pt' | 'es';
+  const c = COPY[lang];
+  const term: DictionaryTerm = localizeTerm(
+    getDictionaryTermBySlug(termSlug) || ASTROLOGY_DICTIONARY_TERMS[0],
+    lang,
+  );
 
   const [copied, setCopied] = useState(false);
 
   // Title, description and structured data come from src/utils/seoData.ts (applied by App.tsx).
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [term]);
+  }, [termSlug]);
 
   // Termos relacionados
   const relatedTerms = (term.termosRelacionados || [])
     .map((slug) => getDictionaryTermBySlug(slug))
-    .filter((t): t is DictionaryTerm => Boolean(t));
+    .filter((t): t is DictionaryTerm => Boolean(t))
+    .map((t) => localizeTerm(t, lang));
 
   const pageUrl = `${window.location.origin}/dicionario/${term.slug}`;
 
   const handleShare = () => {
     const text =
-      `📖 *${term.termo}* — What does it mean in astrology?\n\n` +
-      `🌍 *What it is:* ${term.oQueSignifica}\n\n` +
-      `✨ *In practice:* ${term.oQueSignificaNaAstrologia}\n\n` +
-      `💡 *Simple example:* "${term.exemploFicticio}"\n\n` +
-      `See the full page, without difficult words, at: ${pageUrl}`;
+      `📖 *${term.termo}* — ${c.shareTitle}\n\n` +
+      `🌍 *${c.itIs}* ${term.oQueSignifica}\n\n` +
+      `✨ *${c.practice}* ${term.oQueSignificaNaAstrologia}\n\n` +
+      `💡 *${c.simpleEx}* "${term.exemploFicticio}"\n\n` +
+      `${c.seeFull} ${pageUrl}`;
 
     navigator.clipboard.writeText(text);
     setCopied(true);
@@ -74,7 +88,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               onClick={onBackToHome}
               className="hover:text-[#172B4D] transition-colors cursor-pointer"
             >
-              Home
+              {c.home}
             </button>
             <ChevronRight className="w-3 h-3 text-[#647DA5]" />
             <button
@@ -82,7 +96,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               onClick={onBackToDictionary}
               className="hover:text-[#172B4D] transition-colors cursor-pointer"
             >
-              Aurenstar Dictionary
+              {c.dict}
             </button>
             <ChevronRight className="w-3 h-3 text-[#647DA5]" />
             <span className="font-bold text-[#172B4D] truncate max-w-[140px] sm:max-w-xs">
@@ -96,7 +110,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             className="inline-flex items-center gap-1.5 text-xs font-bold text-[#2878D0] hover:text-[#17366F] transition-colors cursor-pointer"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
-            <span>See All Terms</span>
+            <span>{c.seeAll}</span>
           </button>
         </div>
 
@@ -104,7 +118,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
         <header className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-4 shadow-2xs">
             <span className="text-sm">{term.icone}</span>
-            <span>{term.categoria}</span>
+            <span>{categoryLabel(term.categoria, lang)}</span>
           </div>
 
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-[#172B4D] tracking-tight mb-4 leading-tight">
@@ -132,7 +146,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
                   {term.termo}
                 </h2>
                 <span className="text-xs text-[#647DA5]">
-                  A simple explanation, no technical words
+                  {c.simple}
                 </span>
               </div>
             </div>
@@ -145,12 +159,12 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               {copied ? (
                 <>
                   <Check className="w-3.5 h-3.5 text-white" />
-                  <span>Link Copied!</span>
+                  <span>{c.copied}</span>
                 </>
               ) : (
                 <>
                   <Share2 className="w-3.5 h-3.5" />
-                  <span>Share This Page</span>
+                  <span>{c.share}</span>
                 </>
               )}
             </button>
@@ -160,7 +174,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#E4F1FF]/30 border border-[#D9E8F8]">
             <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#2878D0] mb-2.5 flex items-center gap-2">
               <HelpCircle className="w-4 h-4 text-[#2878D0]" />
-              <span>What does it mean?</span>
+              <span>{c.what}</span>
             </h3>
             <p className="text-sm sm:text-base text-[#172B4D] leading-relaxed font-normal">
               {term.oQueSignifica}
@@ -171,7 +185,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#FFE0EF]/30 border border-[#FFE0EF]">
             <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#F51B83] mb-2.5 flex items-center gap-2">
               <Sparkles className="w-4 h-4 text-[#F51B83]" />
-              <span>What does it mean in astrology?</span>
+              <span>{c.whatAstro}</span>
             </h3>
             <p className="text-sm sm:text-base text-[#172B4D] leading-relaxed font-normal">
               {term.oQueSignificaNaAstrologia}
@@ -182,7 +196,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#E4F1FF]/40 border border-[#D9E8F8]">
             <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#17366F] mb-2.5 flex items-center gap-2">
               <Lightbulb className="w-4 h-4 text-[#17366F]" />
-              <span>A fictional everyday example:</span>
+              <span>{c.example}</span>
             </h3>
             <p className="text-sm sm:text-base text-[#172B4D] leading-relaxed font-normal italic">
               "{term.exemploFicticio}"
@@ -195,10 +209,10 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             <div className="mt-8 pt-6 border-t border-[#D9E8F8] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
               <div>
                 <span className="text-xs font-bold text-[#172B4D] block">
-                  Want to see how this affects your day today?
+                  {c.want}
                 </span>
                 <span className="text-xs text-[#647DA5]">
-                  Take a quick, free test in clear, simple language.
+                  {c.quick}
                 </span>
               </div>
               <button
@@ -218,7 +232,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           <div className="mb-12">
             <h3 className="text-base font-extrabold text-[#17366F] mb-4 flex items-center gap-2">
               <Compass className="w-4 h-4 text-[#2878D0]" />
-              <span>Explore more Aurenstar Dictionary terms on their own pages:</span>
+              <span>{c.more}</span>
             </h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -241,7 +255,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
                     </p>
                   </div>
                   <div className="pt-2 border-t border-[#D9E8F8] flex items-center justify-between text-[11px] font-bold text-[#2878D0]">
-                    <span>Open page</span>
+                    <span>{c.open}</span>
                     <ArrowRight className="w-3 h-3 transition-transform group-hover:translate-x-1" />
                   </div>
                 </a>
@@ -258,7 +272,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] text-xs sm:text-sm font-bold shadow-2xs transition-all cursor-pointer"
           >
             <BookOpen className="w-4 h-4 text-[#2878D0]" />
-            <span>Back to the Full Dictionary</span>
+            <span>{c.back}</span>
           </button>
         </div>
       </div>

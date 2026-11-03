@@ -9,6 +9,14 @@ import {
   ASTROLOGY_DICTIONARY_TERMS,
 } from '../data/astrologyDictionaryData';
 import { onPlainClick } from '../utils/links';
+import { useLanguage } from '../context/LanguageContext';
+import { categoryLabel, localizeTerm } from '../data/astrologyDictionaryTranslations';
+
+const COPY = {
+  en: { back: 'Back to Home', tag: 'Astrology Made Simple', title: 'Aurenstar Dictionary', intro: 'Tap the word you are curious about to open its full page with a simple explanation, the practical meaning and fun everyday examples.', placeholder: 'Type the term you want to understand... (e.g., Mercury retrograde, Rising sign, Full Moon)', clear: 'Clear', categories: 'Categories:', all: 'All', showing: 'Showing', one: 'meaning page', many: 'meaning pages', seeAll: 'See all terms', none: 'No terms found', tryText: 'Try searching for "Mercury", "Rising", "Moon", "Venus" or "Houses".', clearSearch: 'Clear Search', read: 'Read the full explanation' },
+  pt: { back: 'Voltar ao Início', tag: 'Astrologia Simples', title: 'Dicionário Aurenstar', intro: 'Toque na palavra que você quer entender para abrir a página completa, com uma explicação simples, o significado prático e exemplos divertidos do dia a dia.', placeholder: 'Digite o termo que você quer entender... (ex.: Mercúrio retrógrado, Ascendente, Lua Cheia)', clear: 'Limpar', categories: 'Categorias:', all: 'Todas', showing: 'Mostrando', one: 'página de significado', many: 'páginas de significado', seeAll: 'Ver todos os termos', none: 'Nenhum termo encontrado', tryText: 'Tente procurar por "Mercúrio", "Ascendente", "Lua", "Vênus" ou "Casas".', clearSearch: 'Limpar busca', read: 'Ler a explicação completa' },
+  es: { back: 'Volver al Inicio', tag: 'Astrología Simple', title: 'Diccionario Aurenstar', intro: 'Toca la palabra que quieres entender para abrir su página completa, con una explicación sencilla, el significado práctico y ejemplos divertidos del día a día.', placeholder: 'Escribe el término que quieres entender... (ej.: Mercurio retrógrado, Ascendente, Luna Llena)', clear: 'Borrar', categories: 'Categorías:', all: 'Todas', showing: 'Mostrando', one: 'página de significado', many: 'páginas de significado', seeAll: 'Ver todos los términos', none: 'No se encontraron términos', tryText: 'Prueba buscando "Mercurio", "Ascendente", "Luna", "Venus" o "Casas".', clearSearch: 'Borrar búsqueda', read: 'Leer la explicación completa' },
+} as const;
 
 interface PublicDictionaryPageProps {
   onBackToHome: () => void;
@@ -20,6 +28,9 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
   onBackToHome,
   onSelectTerm,
 }) => {
+  const { language } = useLanguage();
+  const lang = (language || 'en') as 'en' | 'pt' | 'es';
+  const c = COPY[lang];
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
@@ -32,7 +43,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
   ];
 
   const filteredTerms = useMemo(() => {
-    return ASTROLOGY_DICTIONARY_TERMS.filter((item) => {
+    return ASTROLOGY_DICTIONARY_TERMS.map((raw) => localizeTerm(raw, lang)).filter((item) => {
       const query = searchTerm.toLowerCase();
       const matchesSearch =
         item.termo.toLowerCase().includes(query) ||
@@ -46,7 +57,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
 
       return matchesSearch && matchesCat;
     });
-  }, [searchTerm, selectedCategory]);
+  }, [searchTerm, selectedCategory, lang]);
 
   return (
     <div className="w-full bg-[#C9E5FF] min-h-screen pt-24 sm:pt-28 pb-20 select-none animate-fadeIn text-[#172B4D]">
@@ -59,7 +70,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
             className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#647DA5] hover:text-[#172B4D] transition-colors cursor-pointer group"
           >
             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
-            <span>Back to Home</span>
+            <span>{c.back}</span>
           </button>
         </div>
 
@@ -67,16 +78,15 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
         <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
             <BookOpen className="w-3.5 h-3.5" />
-            <span>Astrology Made Simple</span>
+            <span>{c.tag}</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#172B4D] tracking-tight mb-3 leading-tight">
-            Aurenstar Dictionary
+            {c.title}
           </h1>
 
           <p className="text-sm sm:text-base text-[#647DA5] leading-relaxed max-w-2xl mx-auto">
-            Tap the word you are curious about to open its full page with a simple explanation,
-            the practical meaning and fun everyday examples.
+            {c.intro}
           </p>
         </div>
 
@@ -92,7 +102,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Type the term you want to understand... (e.g., Mercury retrograde, Rising sign, Full Moon)"
+              placeholder={c.placeholder}
               className="w-full pl-12 pr-4 py-3.5 bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl text-sm sm:text-base text-[#172B4D] placeholder:text-[#647DA5]/60 font-medium outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
             />
             {searchTerm && (
@@ -101,7 +111,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                 onClick={() => setSearchTerm('')}
                 className="absolute right-3.5 top-1/2 -translate-y-1/2 text-xs font-bold text-[#647DA5] hover:text-[#172B4D] p-1 cursor-pointer"
               >
-                Clear
+                {c.clear}
               </button>
             )}
           </div>
@@ -109,7 +119,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
           {/* Category Filter Buttons */}
           <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-[#D9E8F8]">
             <span className="text-xs font-bold text-[#647DA5] mr-1 hidden sm:inline">
-              Categories:
+              {c.categories}
             </span>
             {categories.map((cat) => {
               const isSelected = selectedCategory === cat;
@@ -124,7 +134,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                       : 'bg-[#E4F1FF] text-[#2878D0] border border-[#D9E8F8] hover:border-[#F51B83] hover:bg-[#F51B83] hover:text-white'
                   }`}
                 >
-                  {cat}
+                  {cat === 'All' ? c.all : categoryLabel(cat as Parameters<typeof categoryLabel>[0], lang)}
                 </button>
               );
             })}
@@ -134,7 +144,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
         {/* Counter */}
         <div className="flex items-center justify-between mb-6 text-xs text-[#647DA5] font-medium px-2">
           <span>
-            Showing <strong className="text-[#172B4D]">{filteredTerms.length}</strong> {filteredTerms.length === 1 ? 'meaning page' : 'meaning pages'}
+            {c.showing} <strong className="text-[#172B4D]">{filteredTerms.length}</strong> {filteredTerms.length === 1 ? c.one : c.many}
           </span>
           {searchTerm && (
             <button
@@ -145,7 +155,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
               }}
               className="text-[#2878D0] font-bold hover:underline cursor-pointer"
             >
-              See all terms
+              {c.seeAll}
             </button>
           )}
         </div>
@@ -154,9 +164,9 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
         {filteredTerms.length === 0 ? (
           <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] p-12 text-center shadow-xs">
             <div className="text-4xl mb-3">🔍</div>
-            <h3 className="text-lg font-bold text-[#172B4D] mb-1">No terms found</h3>
+            <h3 className="text-lg font-bold text-[#172B4D] mb-1">{c.none}</h3>
             <p className="text-xs text-[#647DA5] max-w-sm mx-auto mb-4">
-              Try searching for "Mercury", "Rising", "Moon", "Venus" or "Houses".
+              {c.tryText}
             </p>
             <button
               type="button"
@@ -166,7 +176,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
               }}
               className="px-5 py-2.5 rounded-xl bg-[#2878D0] text-white text-xs font-bold cursor-pointer hover:bg-[#17366F] transition-colors"
             >
-              Clear Search
+              {c.clearSearch}
             </button>
           </div>
         ) : (
@@ -183,7 +193,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                   <div className="flex items-center justify-between gap-2 mb-3">
                     <span className="text-2xl">{term.icone}</span>
                     <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-[#E4F1FF] text-[#2878D0]">
-                      {term.categoria}
+                      {categoryLabel(term.categoria, lang)}
                     </span>
                   </div>
 
@@ -198,7 +208,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                       {term.chamadaCuriosa || term.resumoUmaLinha}
                     </span>
                     <span className="inline-flex items-center gap-1.5 text-[11px] font-extrabold text-[#2878D0] group-hover:text-[#17366F] transition-colors">
-                      <span className="underline decoration-[#2878D0]/30 underline-offset-2">Read the full explanation</span>
+                      <span className="underline decoration-[#2878D0]/30 underline-offset-2">{c.read}</span>
                       <span className="text-xs transition-transform group-hover:translate-x-1 font-black">→</span>
                     </span>
                   </p>
