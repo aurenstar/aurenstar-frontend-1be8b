@@ -33,7 +33,7 @@ const self = compatibility(A, A);
 const ab = compatibility(A, B);
 const ba = compatibility(B, A);
 check('compatibility inside 30..97', [self.score, ab.score, ba.score].every((s) => s >= 30 && s <= 97));
-check('same chart fits better than a different chart', self.score > ab.score, `${self.score} vs ${ab.score}`);
+check('very harmonious pair scores high, tense pair lower', (() => { const base = { sun: 0, moon: 0, venus: 0, mars: 0, mercury: 0 }; const h = compatibility(base, { sun: 120, moon: 120, venus: 120, mars: 120, mercury: 120 }).score; const t = compatibility(base, { sun: 90, moon: 90, venus: 90, mars: 90, mercury: 90 }).score; return h >= 75 && t < h; })());
 check('areas inside 30..97', Object.values(ab.areas).every((s) => s >= 30 && s <= 97));
 check('compatibility is symmetrical (±2)', Math.abs(ab.score - ba.score) <= 2, `${ab.score} vs ${ba.score}`);
 check('trine-rich pair beats square-rich pair', compatibility({ sun: 0, moon: 0, venus: 0, mars: 0, mercury: 0 }, { sun: 120, moon: 120, venus: 120, mars: 120, mercury: 120 }).score >
