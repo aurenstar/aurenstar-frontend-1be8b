@@ -29,6 +29,7 @@ import {
   generateLocalAurenEffectReading,
   AurenEffectResult,
 } from '../utils/aurenEngine';
+import { getRecentMessages, rememberMessage } from '../utils/recentMessages';
 import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
 
 interface AurenEffectPageProps {
@@ -252,6 +253,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
           geonameid: birthPlace.geonameid,
           birthCity: birthPlace.label,
           lang,
+          recent: getRecentMessages('effect'),
         }),
       });
 
@@ -262,6 +264,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       const json = await response.json();
       if (json.success && json.data) {
         setResult(json.data);
+        rememberMessage('effect', `${json.data.headline || ''}: ${json.data.question1Answer || ''}`);
         localStorage.setItem(LAST_RESULT_KEY, JSON.stringify(json.data));
       } else {
         throw new Error('Dado inválido');

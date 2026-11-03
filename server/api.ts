@@ -310,6 +310,32 @@ export interface PreciseSky {
   cityName: string;
 }
 
+
+/** Random creative direction + earlier messages, so two readings never feel the same. */
+function varietyBlock(body: any, kind: 'effect' | 'daily'): string {
+  const pick = <T,>(arr: T[]): T => arr[Math.floor(Math.random() * arr.length)];
+  const recent: string[] = Array.isArray(body?.recent)
+    ? body.recent.filter((x: unknown) => typeof x === 'string').slice(0, 6).map((x: string) => x.slice(0, 170))
+    : [];
+  const openings = [
+    'open with a short, surprising observation about their day (then the first name)',
+    'open with the first name followed by a vivid small scene from daily life',
+    'open with the first name and a gentle question',
+    'open with the first name and a bold, kind statement',
+    'open with a tiny contrast ("on the outside... on the inside...") after the first name',
+  ];
+  const images = ['weather and skies', 'music and rhythm', 'a road trip', 'cooking and kitchen smells', 'a garden', 'the sea and waves', 'light and shadows', 'a messy desk or a tidy room', 'a phone screen and notifications', 'a crowded bus or a quiet street'];
+  const banned = kind === 'daily'
+    ? '"a tendência é que conversas e amizades fluam", "mande a um amigo", "Vamos conversar", "momento bom para conversar", "tende a favorecer encontros"'
+    : '"mande uma mensagem a alguém", "peça companhia", "escreva por 3 minutos", "respire por 4 segundos", "tem cinco minutos para conversar"';
+  return `
+VARIETY (the MOST important rule of the whole site: two readings must NEVER feel the same):
+- Style for THIS reading: ${pick(openings)}. For the feeling of the text, borrow ONE light image from: ${pick(images)} (do not name it as a metaphor; just let it colour a sentence or two).
+- Do NOT use these overused ideas or phrases: ${banned}.
+- Choose unexpected, concrete, specific details of daily life instead of generic ones.${recent.length ? `\n- This person already received the messages below. Do NOT repeat their ideas, structure, opening or tips; say something clearly different:\n${recent.map((r) => `  * "${r}"`).join('\n')}` : ''}
+`;
+}
+
 export interface OpenAiConfig { key?: string; model?: string }
 
 export async function handleAurenEffect(body: any, apiKey?: string, precise?: PreciseSky | null, openai?: OpenAiConfig) {
@@ -403,7 +429,7 @@ HOW TO WRITE (very important):
 5. THE TIPS MUST BE BUILT FROM YOUR OWN MESSAGE. Write question1Answer first. Then each of the 3 tips must answer one specific situation or feeling that you named in that message (for example: if you said a message may stay unanswered, tip 1 is exactly what to do about waiting for a reply; if you said the person feels tired and heavy, tip 2 is about lightening the day; if you said sharp words can hurt, tip 3 is what to do in the first minute after hearing them). A reader must see the clear link between a sentence of the message and each tip. Do not give generic tips that could fit anyone. Vary the kind of tip across body, mind, phone, people and routine, and do not always use breathing or writing; pick what truly fits THIS person's feelings today.
 6. VARIETY AND FOCUS. Tip 1 must be about the STRONGEST feeling and tip 2 about the deeper need; tip 3 may be about another feeling. The side note about messages, plans or misunderstandings is minor: mention it in at most one short sentence of the message, and NEVER make a tip about confirming plans, schedules or clarifying messages unless that is the strongest feeling. Never reuse the same tip idea for different people. For this reading use these three kinds of action as the starting point, in this order: ${tipKinds.join('; ')}.
 7. EACH TIP MUST MAKE THE READER THINK "this can really work, I will do it right now". Write each tip like a smart friend who solved this exact problem before: (a) say exactly WHAT to do in a real moment of their day, (b) give the exact words to say or send when people are involved (a natural sentence, not a fill-in-the-blank), (c) say how long or how many times, and (d) end with one short reason why it helps, in plain words ("because ..."). Prefer real-life actions people can do in under 10 minutes: send a specific message, set a limit kindly ("Can I answer you in 1 hour? I want to reply properly"), put the phone on silent for 30 minutes, eat or drink something, walk around the block, tidy only one corner, choose the ONE task that matters most and do it first, leave a hard conversation for after a meal or a rest, ask for exactly the help they need. FORBIDDEN: vague or empty tips ("take a moment", "breathe and relax", "be kind to yourself", "reflect on your feelings"), fill-in-the-blank exercises, "write on paper" exercises, and anything that sounds like therapy homework. Each action is 2 sentences at most (about 35 words) and is easy to understand at first read.
-
+${varietyBlock(body, 'effect')}
 Return ONLY a valid JSON object:
 {
   "headline": "A very short headline (2 to 5 words) that says exactly the main feeling of your message. No astrology words, no name, no punctuation at the end.",
@@ -538,11 +564,12 @@ export async function handleAurenDaily(body: any, precise: PreciseSky | null, op
     // Make the "day" paragraph different for each person: pick the life area and the best moment from THEIR chart.
     const AREA_BY_TRANSIT: Record<string, string> = { moon: 'home, family and inner comfort', sun: 'confidence and personal goals', mercury: 'talks, messages and decisions', venus: 'love, friendships and small pleasures', mars: 'energy, motivation and standing up for yourself', jupiter: 'opportunities, learning and good luck', saturn: 'duties, work and patience' };
     const AREA_BY_NATAL: Record<string, string> = { sun: 'how they see themselves', moon: 'feelings and family', ascendant: 'how other people see them', mercury: 'the way they think and talk', venus: 'love and affection', mars: 'drive and courage' };
-    const lead = astro.aspects[0];
+    const DAILY_ADVICE = ['a body or movement action (walk, stretch, water, sunlight, a proper meal)', 'a small tidy-up or organising action of 5 minutes', 'a way to protect your energy (silence the phone, say no kindly, take a pause before answering)', 'one single priority task to do first, with a start time', 'something pleasant just for you (music, a favourite snack, ten quiet minutes)', 'a short message to a specific person, with exact words', 'a money or planning mini-step (check one bill, write one number)', 'a creative or curious mini-action (note one idea, learn one new thing for 10 minutes)', 'a rest action (go to bed 30 minutes earlier, no screens before sleep)'];
+    const lead = astro.aspects.length ? astro.aspects[Math.floor(Math.random() * Math.min(3, astro.aspects.length))] : undefined;
     const easy = lead ? ['trine', 'sextile', 'conjunction'].includes(lead.type) : true;
     const dayArea = lead ? `${AREA_BY_TRANSIT[lead.transit]} (touching ${AREA_BY_NATAL[lead.natal]})` : 'rest and simple routine';
     const seed = [...`${body?.birthDate}${body?.birthTime}${userName}`].reduce((n, c) => (n * 31 + c.charCodeAt(0)) >>> 0, 7);
-    const bestMoment = ['early morning', 'late morning', 'lunch time', 'mid afternoon', 'late afternoon', 'early evening', 'night'][seed % 7];
+    const bestMoment = ['early morning', 'late morning', 'lunch time', 'mid afternoon', 'late afternoon', 'early evening', 'night'][Math.floor(Math.random() * 7)];
     const prompt = `You write the "Aurendaily" for Aurenstar, a friendly astrology site: the DAILY FORECAST for one person, about how their DAY will be, based on their birth chart and the sky today.
 Write EVERYTHING in ${languageName}.
 
@@ -571,8 +598,8 @@ HOW TO WRITE (VERY IMPORTANT, keep it SHORT and SIMPLE):
 3. Paragraph "you": the self-knowledge part. Built from the combination of Sun, Moon and Rising sign (do NOT name them), describe how this person is with specific, recognisable habits and inner contradictions (what they show outside versus what they feel inside, how they react when hurt, what they secretly need). It must make them think "wow, this site really knows me". One or two sentences.
 4. Paragraph "care": one gentle thing to be careful about today, kindly said. One sentence.
 5. The reader may or may not believe in astrology, so write as a tendency ("a tendência é...", "é um bom dia para..."). Warm, positive, honest. No fear, no health, death, money-loss or pregnancy predictions, no orders.
-6. The advice is ONE concrete action that helps THIS day: exact what, when, and the exact words if other people are involved, ending with a short "because ...". Maximum 30 words.
-
+6. The advice is ONE concrete action of this kind: ${DAILY_ADVICE[Math.floor(Math.random() * DAILY_ADVICE.length)]}. It must help THIS day: exact what, when, and the exact words if other people are involved, ending with a short "because ...". Maximum 30 words.
+${varietyBlock(body, 'daily')}
 Return ONLY valid JSON:
 {
   "theme": "3 to 5 words naming the theme of the day",

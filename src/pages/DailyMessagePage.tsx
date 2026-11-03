@@ -12,6 +12,7 @@ import {
   RefreshCw,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { getRecentMessages, rememberMessage } from '../utils/recentMessages';
 import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
 import {
   saveDailyReading,
@@ -502,6 +503,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
           geonameid: birthPlace.geonameid,
           birthCity: birthPlace.label,
           lang,
+          recent: getRecentMessages('daily'),
         }),
       });
       const json = await res.json();
@@ -519,6 +521,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       // keep the ready-made reading
     }
 
+    rememberMessage('daily', `${theme}: ${message.split('\n\n')[0]} ${advice}`);
     saveDailyReading({
       userName: userName.trim() || 'Andriel',
       signKey,
