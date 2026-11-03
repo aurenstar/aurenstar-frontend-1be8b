@@ -134,6 +134,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
   const [quickTimePeriod, setQuickTimePeriod] = useState<'manha' | 'tarde' | 'noite' | 'madrugada' | 'exato'>('tarde');
   const [birthPlace, setBirthPlace] = useState<PickedCity | null>(null);
   const [cityError, setCityError] = useState(false);
+  const [limitReached, setLimitReached] = useState(false);
 
   // Interactive Checklist
   const [completedSteps, setCompletedSteps] = useState<number[]>([]);
@@ -235,6 +236,8 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       // silencioso
     }
 
+    let limitReached = false;
+    setLimitReached(false);
     const birthDateISO = `${birthYear}-${String(birthMonth).padStart(2, '0')}-${String(birthDay).padStart(2, '0')}`;
 
     // Animação progressiva das 3 camadas
@@ -262,6 +265,11 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       }
 
       const json = await response.json();
+      if (json.limited) {
+        limitReached = true;
+        setLimitReached(true);
+        return;
+      }
       if (json.success && json.data) {
         setResult(json.data);
         rememberMessage('effect', `${json.data.headline || ''}: ${json.data.question1Answer || ''}`);
@@ -296,16 +304,18 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       clearTimeout(timer2);
       setIsLoading(false);
       setCompletedSteps([]);
-      try {
-        localStorage.setItem(LAST_CALCULATED_TIME_KEY, String(Date.now()));
-        setCooldownRemainingMs(COOLDOWN_MS);
-      } catch {
-        // ignore
-      }
-      if (onNavigateToResult) {
-        onNavigateToResult();
-      } else {
-        window.scrollTo({ top: 380, behavior: 'smooth' });
+      if (!limitReached) {
+        try {
+          localStorage.setItem(LAST_CALCULATED_TIME_KEY, String(Date.now()));
+          setCooldownRemainingMs(COOLDOWN_MS);
+        } catch {
+          // ignore
+        }
+        if (onNavigateToResult) {
+          onNavigateToResult();
+        } else {
+          window.scrollTo({ top: 380, behavior: 'smooth' });
+        }
       }
     }
   };
@@ -440,6 +450,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                   className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
                 />
                 {cityError && <p className="mt-1.5 text-[11px] font-semibold text-[#F51B83]">{copy.cityRequired}</p>}
+                {limitReached && <p className="mt-1.5 text-[11px] font-semibold text-[#F51B83]">{lang === 'pt' ? 'Muitas leituras foram geradas por esta conexão. Tente de novo em algumas horas.' : lang === 'es' ? 'Se generaron muchas lecturas desde esta conexión. Inténtalo de nuevo en unas horas.' : 'Too many readings were created from this connection. Please try again in a few hours.'}</p>}
               </div>
             </div>
 

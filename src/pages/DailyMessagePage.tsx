@@ -95,6 +95,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
   const [birthPlace, setBirthPlace] = useState<PickedCity | null>(null);
   const [cityError, setCityError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [limitReached, setLimitReached] = useState(false);
 
   // Computed sign
   const [userSign, setUserSign] = useState('gemeos');
@@ -481,6 +482,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
     }
 
     setIsLoading(true);
+    setLimitReached(false);
     const finalSign = calculateZodiacSign(birthDay, birthMonth);
     let readingContent = signReadings[finalSign] || signReadings.gemeos;
     let finalSignObj = zodiacSigns.find((s) => s.key === finalSign) || zodiacSigns[2];
@@ -508,6 +510,11 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         }),
       });
       const json = await res.json();
+      if (json?.limited) {
+        setLimitReached(true);
+        setIsLoading(false);
+        return;
+      }
       if (json?.success && json.data) {
         signKey = json.data.signKey || finalSign;
         finalSignObj = zodiacSigns.find((s) => s.key === signKey) || finalSignObj;
@@ -741,6 +748,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                 className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
               />
               {cityError && <p className="mt-1.5 text-[11px] font-semibold text-[#F51B83]">{t.cityRequired}</p>}
+              {limitReached && <p className="mt-1.5 text-[11px] font-semibold text-[#F51B83]">{lang === 'pt' ? 'Muitas leituras foram geradas por esta conexão hoje. Volte depois da meia-noite de Washington.' : lang === 'es' ? 'Se generaron muchas lecturas desde esta conexión hoy. Vuelve después de la medianoche de Washington.' : 'Too many readings were created from this connection today. Come back after midnight in Washington.'}</p>}
             </div>
 
             {/* 2. Data de Nascimento */}
