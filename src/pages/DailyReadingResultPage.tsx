@@ -309,7 +309,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
           {/* Texto da Mensagem Diária (Linguagem Simples e Agradável) */}
           <div className="mb-5 bg-[#FFFFFF] rounded-2xl p-4 sm:p-6 border border-[#D9E8F8] shadow-2xs">
             <p className="text-base sm:text-lg text-[#172B4D] leading-relaxed font-normal">
-              {savedReading.message}
+              <span className="whitespace-pre-line">{savedReading.message}</span>
             </p>
           </div>
 
@@ -382,7 +382,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
 
             {/* Mensagem Principal do Dia */}
             <p className="text-xs sm:text-[15px] text-[#172B4D] leading-relaxed whitespace-pre-line mb-3 sm:mb-3.5">
-              {savedReading.message}
+              <span className="whitespace-pre-line">{savedReading.message}</span>
             </p>
 
             {/* Rodapé: Horário, Data e Link */}

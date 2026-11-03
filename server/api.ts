@@ -17,6 +17,7 @@ import {
   type ReadingLang,
   REFERENCE_CITIES,
   signNameIn,
+  formatCelestialPos,
 } from '../src/utils/aurenEngine';
 
 // Initialize shared Gemini instance
@@ -295,7 +296,15 @@ Return STRICTLY a JSON object with this structure:
 }
 
 /** Real positions computed by the Swiss Ephemeris engine (only available on Cloudflare). */
+export interface DailyAstro {
+  natal: Record<'sun' | 'moon' | 'ascendant' | 'mercury' | 'venus' | 'mars', number>;
+  today: Record<'moon' | 'sun' | 'mercury' | 'venus' | 'mars' | 'jupiter' | 'saturn', number>;
+  retrograde: Record<'mercury' | 'venus' | 'mars' | 'jupiter' | 'saturn', boolean>;
+  aspects: Array<{ transit: string; natal: string; type: string; orb: number }>;
+}
+
 export interface PreciseSky {
+  astro?: DailyAstro;
   triad: AstronomicalTriad;
   facts?: SkyFacts;
   cityName: string;
@@ -513,30 +522,50 @@ export async function handleAurenDaily(body: any, precise: PreciseSky | null, op
     if (!openai?.key || !precise) return { success: false };
     const lang: ReadingLang = ['pt', 'en', 'es'].includes(body?.lang) ? body.lang : 'en';
     const userName = String(body?.name || '').trim().split(/\s+/)[0] || '';
-    const signals = buildSignals(precise.facts!, lang, precise.triad.todayMoon.phase);
     const signName = signNameIn(precise.triad.sun, lang);
     const languageName = { en: 'English', pt: 'Brazilian Portuguese', es: 'Spanish' }[lang];
 
-    const prompt = `You write the "Aurendaily" for Aurenstar, a friendly astrology site: a short daily message for one person.
+    const astro = precise.astro;
+    if (!astro) return { success: false };
+    const signOf = (lon: number) => signNameIn(formatCelestialPos(lon), lang);
+    const NAMES: Record<ReadingLang, Record<string, string>> = {
+      pt: { sun: 'Sol', moon: 'Lua', ascendant: 'Ascendente', mercury: 'Mercúrio', venus: 'Vênus', mars: 'Marte', jupiter: 'Júpiter', saturn: 'Saturno', conjunction: 'conjunção', sextile: 'sextil', square: 'quadratura', trine: 'trígono', opposition: 'oposição' },
+      en: { sun: 'Sun', moon: 'Moon', ascendant: 'Rising sign', mercury: 'Mercury', venus: 'Venus', mars: 'Mars', jupiter: 'Jupiter', saturn: 'Saturn', conjunction: 'conjunction', sextile: 'sextile', square: 'square', trine: 'trine', opposition: 'opposition' },
+      es: { sun: 'Sol', moon: 'Luna', ascendant: 'Ascendente', mercury: 'Mercurio', venus: 'Venus', mars: 'Marte', jupiter: 'Júpiter', saturn: 'Saturno', conjunction: 'conjunción', sextile: 'sextil', square: 'cuadratura', trine: 'trígono', opposition: 'oposición' },
+    };
+    const N = NAMES[lang];
+    const retroList = (Object.entries(astro.retrograde) as Array<[string, boolean]>).filter(([, r]) => r).map(([k]) => N[k]);
+    const prompt = `You write the "Aurendaily" for Aurenstar, a friendly astrology site: the DAILY FORECAST for one person, about how their DAY will be, based on their birth chart and the sky today.
 Write EVERYTHING in ${languageName}.
 
-THE PERSON: first name "${userName}", sun sign ${signName}.
-WHAT IS GOING ON INSIDE THEM TODAY (use it silently as material, never quote it):
-- Strongest feeling: "${signals.aspects[0]?.text || signals.todayMoon}"
-- Today's mood: "${signals.todayMoon}"
-- A deeper need: "${signals.natalMoon}"
-${signals.mercuryRetro ? `- Also: "${signals.mercuryRetro}"\n` : ''}
-RULES:
-1. The message speaks to the person about TODAY: the mood of the day, what to focus on and what to be careful with. Start with the first name. Warm, positive, specific small moments of daily life, short sentences, everyday words a 12-year-old understands.
-2. You may say the sign name "${signName}" once, naturally. NEVER mention planets, the Moon, the Sun, houses, elements, retrograde or any other astrology word.
-3. The advice is ONE concrete action the person can do today in under 10 minutes: say exactly what to do, give the exact words when people are involved, and end with a short "because ..." reason. No vague advice like "take a moment" or "relax".
-4. No predictions, no fear, no orders.
+THE PERSON (birth chart): first name "${userName}".
+- Sun in ${signOf(astro.natal.sun)}
+- Moon in ${signOf(astro.natal.moon)}
+- Rising sign (Ascendant) in ${signOf(astro.natal.ascendant)}
+- Mercury in ${signOf(astro.natal.mercury)}, Venus in ${signOf(astro.natal.venus)}, Mars in ${signOf(astro.natal.mars)}
+
+THE SKY TODAY:
+- Moon in ${signOf(astro.today.moon)}, Sun in ${signOf(astro.today.sun)}, Mercury in ${signOf(astro.today.mercury)}, Venus in ${signOf(astro.today.venus)}, Mars in ${signOf(astro.today.mars)}, Jupiter in ${signOf(astro.today.jupiter)}, Saturn in ${signOf(astro.today.saturn)}
+${retroList.length ? `- Retrograde now: ${retroList.join(', ')}\n` : ''}- Today's planets touching the person's chart (strongest first):
+${astro.aspects.length ? astro.aspects.map((a) => `  * ${N[a.transit]} today in ${N[a.type]} with their ${N[a.natal]}`).join('\n') : '  * (no strong contact today, a quiet day)'}
+- Moon phase: "${precise.triad.todayMoon.phase}"
+
+WHAT THIS IS: Aurendaily is NOT about how the person feels right now (another tool does that). It tells how the DAY AHEAD tends to go for this person and what can help them, using astrology. The reader may or may not believe in astrology, so write as a tendency ("hoje a tendência é...", "é um dia bom para...") and never as a certain prediction.
+
+HOW TO WRITE:
+1. Use astrology words (sign, planet, aspect) naturally but sparingly (at most 3 astrology facts in the whole message), and ALWAYS explain each one in simple daily-life words right after it. A 12-year-old must understand everything. Short sentences.
+2. The message has exactly 3 short paragraphs separated by a blank line:
+   (1) "Your day": start with the first name. The atmosphere of the day, in which area of life it flows best (love and friendships, work and tasks, money, family, talks and messages, energy and body, rest) and a good moment of the day (morning, afternoon or evening) when it is best to act or talk.
+   (2) "You": a self-knowledge paragraph about how this person is, built from the combination of their Sun, Moon and Rising sign, with very specific, recognisable habits and inner contradictions (for example what they show outside versus what they feel inside, how they react when hurt, what they secretly need). It must make them think "wow, this site really knows me". Then link it to today.
+   (3) "Care": one gentle thing to be careful about today (a reaction, a conversation, an impulse), kindly said.
+3. Be warm, positive and honest. No fear, no health, death, money-loss or pregnancy predictions, no orders.
+4. The advice is ONE concrete action that helps THIS day: exact what, when and exact words if other people are involved, ending with a short "because ...". Not vague.
 
 Return ONLY valid JSON:
 {
-  "theme": "2 to 4 words naming the theme of the day, no astrology words",
-  "message": "3 or 4 short sentences, about 300 characters",
-  "advice": "One concrete action, max 35 words, with a short because-reason",
+  "theme": "3 to 5 words naming the theme of the day",
+  "message": "the 3 paragraphs separated by \\n\\n, about 700 to 900 characters in total",
+  "advice": "One concrete action, max 40 words, with a short because-reason",
   "affirmation": "One short first-person positive sentence"
 }`;
 
