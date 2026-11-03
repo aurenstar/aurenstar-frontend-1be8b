@@ -61,6 +61,8 @@ export async function localizeHtml(
     }
   }
   const here = langUrl(pagePath, lang);
+  // The readable English text in the HTML would not match the page language: the app shows the right language in the browser.
+  page = page.replace(/<main data-prerendered[\s\S]*?<\/main>/, '');
   page = page
     .replace(/<html lang="[^"]*"/, `<html lang="${lang}"${RTL.has(lang) ? ' dir="rtl"' : ''}`)
     .replace(/(<link rel="canonical" href=")[^"]*(")/, `$1${here}$2`)

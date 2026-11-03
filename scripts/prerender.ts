@@ -87,17 +87,59 @@ const NOSCRIPT_LINKS: [string, string][] = [
   ['Contact', '/contact'],
 ];
 
-function noscriptBlock(seo: SeoData): string {
+function noscriptBlock(seo: SeoData, hasBody = false): string {
+  if (hasBody) return '<noscript></noscript>'; // the page text is already in the HTML
   const links = NOSCRIPT_LINKS.map(([label, href]) => `<a href="${href}">${label}</a>`).join(' · ');
   return `<noscript><h1>${escapeText(seo.title)}</h1><p>${escapeText(seo.description)}</p><nav>${links}</nav></noscript>`;
 }
 
-function render(seo: SeoData): string {
+/**
+ * Readable page text placed inside <div id="root">. Visitors never see it for long: React replaces it
+ * the moment the app starts. Search engines and link bots read it straight from the HTML file.
+ * It is the same text the app shows, so nothing is hidden from anyone.
+ */
+const STATIC_STYLE = 'max-width:720px;margin:0 auto;padding:32px 16px;font-family:system-ui,sans-serif;color:#172B4D;line-height:1.6';
+const pEl = (t: string) => `<p>${escapeText(t)}</p>`;
+const MAIN = (inner: string) => `<main data-prerendered style="${STATIC_STYLE}">${inner}</main>`;
+
+function articleBody(article: (typeof BLOG_ARTICLES)[number]): string {
+  const sections = article.sections
+    .map((sec) => `<section><h2>${escapeText(sec.heading.en)}</h2>${sec.paragraphs.map((p) => pEl(p.en)).join('')}</section>`)
+    .join('');
+  const takeaways = article.keyTakeaways.en.length
+    ? `<section><h2>Key takeaways</h2><ul>${article.keyTakeaways.en.map((k) => `<li>${escapeText(k)}</li>`).join('')}</ul></section>`
+    : '';
+  return MAIN(
+    `<article><p>${escapeText(article.category.en)} · ${escapeText(article.readTime.en)}</p><h1>${escapeText(article.title.en)}</h1>` +
+      `${pEl(article.subtitle.en)}<blockquote>${escapeText(article.quote.en)}</blockquote>${sections}${takeaways}</article>` +
+      `<nav><a href="/blog">All articles</a> · <a href="/">Aurenstar</a></nav>`
+  );
+}
+
+function termBody(term: (typeof ASTROLOGY_DICTIONARY_TERMS)[number]): string {
+  const faq = (term.faq || []).map((f) => `<h3>${escapeText(f.pergunta)}</h3>${pEl(f.resposta)}`).join('');
+  return MAIN(
+    `<article><p>${escapeText(term.categoria)}</p><h1>${escapeText(term.perguntaGoogle || term.termo)}</h1>${pEl(term.resumoUmaLinha)}` +
+      `<h2>What it means</h2>${pEl(term.oQueSignifica)}<h2>What it means in astrology</h2>${pEl(term.oQueSignificaNaAstrologia)}` +
+      `<h2>Example</h2>${pEl(term.exemploFicticio)}<h2>Quick tip</h2>${pEl(term.dicaRapida)}${faq ? `<h2>Questions</h2>${faq}` : ''}</article>` +
+      `<nav><a href="/dicionario">All terms</a> · <a href="/">Aurenstar</a></nav>`
+  );
+}
+
+function listingBody(seo: SeoData): string {
+  const articles = BLOG_ARTICLES.map((a) => `<li><a href="/blog/${getArticleSlug(a)}">${escapeText(a.title.en)}</a> — ${escapeText(a.subtitle.en)}</li>`).join('');
+  const terms = ASTROLOGY_DICTIONARY_TERMS.slice(0, 60).map((t) => `<li><a href="/dicionario/${t.slug}">${escapeText(t.termo)}</a></li>`).join('');
+  const links = NOSCRIPT_LINKS.map(([label, href]) => `<a href="${href}">${label}</a>`).join(' · ');
+  return MAIN(`<h1>${escapeText(seo.title)}</h1>${pEl(seo.description)}<nav>${links}</nav><h2>Articles</h2><ul>${articles}</ul><h2>Astrology dictionary</h2><ul>${terms}</ul>`);
+}
+
+function render(seo: SeoData, body = ''): string {
   return template
     .replace(/<html lang="[^"]*"/, `<html lang="${seo.lang}"`)
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeText(seo.title)}</title>`)
     .replace('<!--seo-head-->', headBlock(seo))
-    .replace('<!--seo-noscript-->', noscriptBlock(seo));
+    .replace('<!--seo-noscript-->', noscriptBlock(seo, !!body))
+    .replace('<div id="root"></div>', () => `<div id="root">${body}</div>`);
 }
 
 function outputFileFor(urlPath: string): string {
@@ -109,22 +151,25 @@ const seen = new Set<string>();
 const sitemap: { loc: string; path: string; lastmod?: string }[] = [];
 const redirects: string[] = [];
 
-function emit(seo: SeoData, lastmod?: string) {
+function emit(seo: SeoData, lastmod?: string, body = '') {
   if (seen.has(seo.path)) return;
   seen.add(seo.path);
   const file = outputFileFor(seo.path);
   fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, render(seo));
+  fs.writeFileSync(file, render(seo, body));
   if (seo.robots === 'index,follow') sitemap.push({ loc: seo.url, path: seo.path, lastmod });
 }
 
 // 1. Static pages (the home page overwrites dist/index.html with its own SEO)
-for (const page of STATIC_ROUTES) emit(getSeoData(page));
+for (const page of STATIC_ROUTES) {
+  const seo = getSeoData(page);
+  emit(seo, undefined, ['home', 'blog', 'dicionario'].includes(page as string) ? listingBody(seo) : '');
+}
 
 // 2. Blog articles (+ redirect from the legacy /blog/<id> URL to the keyword slug)
 for (const article of BLOG_ARTICLES) {
   const seo = getSeoData('article', { articleId: article.id });
-  emit(seo, getArticleIsoDate(article));
+  emit(seo, getArticleIsoDate(article), articleBody(article));
   if (article.id !== getArticleSlug(article)) {
     redirects.push(`/blog/${article.id} /blog/${getArticleSlug(article)} 301`);
   }
@@ -137,7 +182,7 @@ for (const category of BLOG_CATEGORIES) {
 
 // 3. Dictionary terms
 for (const term of ASTROLOGY_DICTIONARY_TERMS) {
-  emit(getSeoData('dicionario-termo', { termSlug: term.slug }));
+  emit(getSeoData('dicionario-termo', { termSlug: term.slug }), undefined, termBody(term));
 }
 
 // 4. About sections
