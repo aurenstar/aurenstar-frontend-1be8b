@@ -10,13 +10,13 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { ASTROLOGY_DICTIONARY_TERMS, type DictionaryTerm } from '../../src/data/astrologyDictionaryData';
 import { validateTerm, slugify, CATEGORIES } from './checks';
+import { ruleBasedTopics, type Seed } from './topics';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const QUEUE = path.join(root, 'data/dictionary-queue.json');
 const FAILS = path.join(root, 'data/dictionary-failures.json');
 const OUT = path.join(root, 'src/data/dictionaryGenerated.json');
 
-interface Seed { term: string; question: string; category: (typeof CATEGORIES)[number]; icon?: string }
 
 const arg = (name: string) => {
   const i = process.argv.indexOf(`--${name}`);
@@ -116,12 +116,25 @@ async function translateTerm(term: DictionaryTerm): Promise<DictionaryTerm['trad
   return out as DictionaryTerm['traducoes'];
 }
 
+/** When the list runs low, ask the model for fresh questions people type in Google (never repeats). */
+async function suggestQuestions(known: Set<string>): Promise<Seed[]> {
+  if (DRY || !KEY) return [];
+  const res = await fetch('https://api.openai.com/v1/chat/completions', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${KEY}` },
+    body: JSON.stringify({ model: MODEL, response_format: { type: 'json_object' }, messages: [{ role: 'user', content: `List 40 different questions that people in the United States type into Google about astrology, zodiac signs, birth charts, moon phases, planets, houses, aspects, compatibility basics, and common astrology words. Each must be a short beginner question about ONE concept (like "What is a stellium in astrology?"). Avoid questions about predicting the future, health, money or specific people. Return ONLY JSON: {"items":[{"term":"short name","question":"the question?","category":"Planets & Bodies | Chart Concepts | Signs & Elements | Phases & Movements","icon":"one emoji"}]}. Do NOT repeat any of these: ${[...known].slice(-150).join(' | ')}` }] }),
+  });
+  if (!res.ok) return [];
+  const items: Seed[] = JSON.parse(String(((await res.json()) as any)?.choices?.[0]?.message?.content || '{}')).items || [];
+  return items.filter((i) => i?.term && /\?$/.test(i.question || '') && (CATEGORIES as readonly string[]).includes(i.category) && i.question.length <= 90 && !known.has(slugify(i.question.replace(/\?$/, ''))));
+}
+
 async function main() {
   if (!DRY && !KEY) {
     console.log('dictionary: OPENAI_API_KEY is not set, nothing to do (add it as a GitHub secret to turn this on).');
     return;
   }
-  const queue = readJson<Seed[]>(QUEUE, []);
+  let queue = readJson<Seed[]>(QUEUE, []);
   const generated = readJson<DictionaryTerm[]>(OUT, []);
   const fails = readJson<Record<string, { count: number; last: string }>>(FAILS, {});
   const all = [...ASTROLOGY_DICTIONARY_TERMS.filter((t) => !generated.some((g) => g.id === t.id)), ...generated];
@@ -133,7 +146,15 @@ async function main() {
     try { const tr = await translateTerm(g); if (tr) { g.traducoes = tr; translated++; console.log(`  ~ translated ${g.slug}`); } } catch { /* try again next run */ }
   }
 
-  const todo = MAX === 0 ? [] : queue.filter((s) => !doneSlugs.has(slugify(s.question.replace(/\?$/, ''))) && !all.some((t) => t.perguntaGoogle === s.question) && (fails[s.question]?.count ?? 0) < 3).slice(0, MAX);
+  const isPending = (s: Seed) => !doneSlugs.has(slugify(s.question.replace(/\?$/, ''))) && !all.some((t) => t.perguntaGoogle === s.question) && (fails[s.question]?.count ?? 0) < 3;
+  // 1) hand-made queue, 2) rule-based combinations, 3) fresh suggestions from the model (saved to the queue file)
+  let pool = [...queue, ...ruleBasedTopics()];
+  if (MAX > 0 && pool.filter(isPending).length < MAX * 2) {
+    const fresh = await suggestQuestions(new Set([...doneSlugs, ...pool.map((q) => slugify(q.question.replace(/\?$/, '')))]));
+    if (fresh.length) { queue = [...queue, ...fresh]; pool = [...queue, ...ruleBasedTopics()]; if (!DRY) fs.writeFileSync(QUEUE, JSON.stringify(queue, null, 1) + '\n'); console.log(`dictionary: ${fresh.length} new questions suggested`); }
+  }
+  const seen = new Set<string>();
+  const todo = MAX === 0 ? [] : pool.filter((q) => { const k = slugify(q.question.replace(/\?$/, '')); if (seen.has(k)) return false; seen.add(k); return isPending(q); }).slice(0, MAX);
   console.log(`dictionary: ${todo.length} to write (queue ${queue.length}, published ${all.length})`);
 
   let added = 0;
