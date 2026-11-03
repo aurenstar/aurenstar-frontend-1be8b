@@ -1,0 +1,10 @@
+import { brandsKept, glossaryRules } from '../server/engine/glossary';
+let bad = 0;
+const check = (n: string, ok: boolean) => { console.log(ok ? 'ok  ' : 'FAIL', n); if (!ok) bad++; };
+check('brand kept', brandsKept('Welcome to Aurenstar', 'Bem-vindo à Aurenstar'));
+check('brand lost is caught', !brandsKept('Welcome to Aurenstar', 'Bem-vindo à Estrela'));
+check('no brand = fine', brandsKept('Hello', 'Olá'));
+check('portuguese table present', glossaryRules('pt', 'Brazilian Portuguese').includes('Mercúrio retrógrado'));
+check('spanish table present', glossaryRules('es', 'Spanish').includes('carta natal'));
+check('other languages get the rule without a table', !glossaryRules('nl', 'Dutch').includes('Always use exactly'));
+process.exit(bad ? 1 : 0);

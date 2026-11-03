@@ -7,6 +7,7 @@ import { handleAurenEffect, type PreciseSky } from '../../server/api';
 import type { ChartEnv } from '../../server/engine/chart';
 import { preciseSky } from '../../server/engine/sky';
 import { countHit, getCachedReading, saveReading, usageKey, type UsageEnv } from '../../server/engine/usage';
+import { humanCheck, humanCheckFailed } from '../../server/engine/turnstile';
 
 const WINDOW_SECONDS = 4 * 3600; // one reading every 4 hours
 const MAX_NEW_READINGS_PER_IP_PER_WINDOW = 10;
@@ -17,6 +18,7 @@ interface Context {
 }
 
 export const onRequestPost = async ({ request, env }: Context): Promise<Response> => {
+  if (!(await humanCheck(request, env as any))) return humanCheckFailed();
   let body: unknown = {};
   try {
     body = await request.json();

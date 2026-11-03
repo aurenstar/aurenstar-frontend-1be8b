@@ -5,6 +5,7 @@ import { handleUnfiltered } from '../../server/api';
 import type { ChartEnv } from '../../server/engine/chart';
 import { preciseSky } from '../../server/engine/sky';
 import { countHit, getCachedReading, saveReading, usageKey, washingtonDate, type UsageEnv } from '../../server/engine/usage';
+import { humanCheck, humanCheckFailed } from '../../server/engine/turnstile';
 
 const MAX_NEW_DESCRIPTIONS_PER_IP_PER_DAY = 8;
 
@@ -14,6 +15,7 @@ interface Context {
 }
 
 export const onRequestPost = async ({ request, env }: Context): Promise<Response> => {
+  if (!(await humanCheck(request, env as any))) return humanCheckFailed();
   let body: unknown = {};
   try {
     body = await request.json();

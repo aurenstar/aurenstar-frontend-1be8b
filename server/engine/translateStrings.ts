@@ -2,10 +2,11 @@
  * Puts short site texts in another language. Each batch is saved in the database once and reused for everyone.
  * Shared by /api/translate-ui and by the language addresses (/nl/..., /ja/...).
  */
+import { glossaryRules, brandsKept } from './glossary';
 import { countHit, getCachedReading, saveReading, usageKey, type UsageEnv } from './usage';
 import { languageName } from './countries';
 
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const CACHE_SECONDS = 365 * 24 * 3600;
 export const MAX_STRINGS = 120;
 export const MAX_CHARS_EACH = 2500;
@@ -38,7 +39,7 @@ export async function translateStrings(
 
   const language = lang === 'pt' ? 'Brazilian Portuguese' : languageName(lang);
   const prompt = `Translate every string of the JSON array below into ${language}. They are short texts of a friendly astrology website (menus, buttons, titles, short sentences).
-Rules: natural, warm and simple ${language}, as a native speaker would write it on a website; same meaning and same length (buttons stay short). Keep emojis, symbols, numbers, punctuation, line breaks, URLs, hashtags, @mentions, HTML tags and entities exactly. A string may contain numbered markers like <i1>…</i1>, <i2>…</i2>: translate the text inside them, keep every marker with the same number, in the same order, and translate the whole string as ONE natural sentence. Keep the brand names Aurenstar, Aurendaily, Aureneffect and Unfiltered unchanged. Use the usual ${language} names for zodiac signs. Do not add, remove, merge or explain anything. Never mention translation or artificial intelligence. Empty strings stay empty.
+Rules: natural, warm and simple ${language}, as a native speaker would write it on a website; same meaning and same length (buttons stay short). Keep emojis, symbols, numbers, punctuation, line breaks, URLs, hashtags, @mentions, HTML tags and entities exactly. A string may contain numbered markers like <i1>…</i1>, <i2>…</i2>: translate the text inside them, keep every marker with the same number, in the same order, and translate the whole string as ONE natural sentence. ${glossaryRules(lang, language)} Do not add, remove, merge or explain anything. Never mention translation or artificial intelligence. Empty strings stay empty.
 Return ONLY valid JSON: {"texts": [ ...exactly ${strings.length} strings, same order... ]}
 
 ${JSON.stringify(strings)}`;
@@ -57,6 +58,8 @@ ${JSON.stringify(strings)}`;
     const parsed = JSON.parse(String(json?.choices?.[0]?.message?.content || '{}').replace(/^```json\s*|```$/g, ''));
     const texts = Array.isArray(parsed?.texts) ? parsed.texts.map((t: unknown) => String(t ?? '')) : [];
     if (texts.length !== strings.length) return { ok: false, reason: 'failed' };
+    // a translation that lost a brand name is replaced by the original text for that string
+    texts.forEach((t: string, i: number) => { if (!brandsKept(strings[i], t)) texts[i] = strings[i]; });
     await saveReading(env, key, { texts });
     return { ok: true, texts };
   } catch {

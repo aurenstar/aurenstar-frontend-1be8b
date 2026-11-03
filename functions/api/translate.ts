@@ -2,6 +2,7 @@
 // Translates the texts of a reading the person already received (written in another language) into the language the site is showing now.
 // Same meaning, same tone, nothing added. On any failure the page keeps the original text.
 import { countHit, usageKey, type UsageEnv } from '../../server/engine/usage';
+import { humanCheck, humanCheckFailed } from '../../server/engine/turnstile';
 
 const MAX_PER_IP_PER_DAY = 60;
 
@@ -11,6 +12,7 @@ interface Context {
 }
 
 export const onRequestPost = async ({ request, env }: Context): Promise<Response> => {
+  if (!(await humanCheck(request, env as any))) return humanCheckFailed();
   const headers = { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' };
   const fail = () => new Response(JSON.stringify({ success: false }), { headers });
   try {

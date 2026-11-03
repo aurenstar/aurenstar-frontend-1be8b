@@ -4,6 +4,7 @@
 import { ChartInputError, computeChart, type ChartEnv } from '../../server/engine/chart';
 import { compatibility } from '../../server/engine/aspects';
 import { countHit, getCachedReading, saveReading, usageKey, type UsageEnv } from '../../server/engine/usage';
+import { humanCheck, humanCheckFailed } from '../../server/engine/turnstile';
 
 const json = (data: unknown, status = 200) =>
   new Response(JSON.stringify(data), { status, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
@@ -11,6 +12,7 @@ const json = (data: unknown, status = 200) =>
 const PLANETS = ['sun', 'moon', 'mercury', 'venus', 'mars', 'jupiter', 'saturn'] as const;
 
 export const onRequestPost = async ({ request, env }: { request: Request; env: ChartEnv & UsageEnv }) => {
+  if (!(await humanCheck(request, env as any))) return humanCheckFailed();
   const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
   if ((await countHit(env, await usageKey(env, ['compat-ip', ip]), 3600)) > 40) return json({ error: 'Too many requests. Try again later.' }, 429);
   let body: any;

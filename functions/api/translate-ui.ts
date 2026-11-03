@@ -4,8 +4,10 @@
 // Each batch is saved in the database once and reused. On any failure the answer is {success:false} and the page stays in English.
 import { translateStrings, type TranslateEnv } from '../../server/engine/translateStrings';
 import { visitorLocale, isTranslatedLanguage, SITE_LANGUAGES } from '../../server/engine/countries';
+import { humanCheck, humanCheckFailed } from '../../server/engine/turnstile';
 
 export const onRequestPost = async ({ request, env }: { request: Request; env: TranslateEnv }): Promise<Response> => {
+  if (!(await humanCheck(request, env as any))) return humanCheckFailed();
   const headers = { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' };
   const fail = (reason = 'failed') => new Response(JSON.stringify({ success: false, reason }), { headers });
   try {

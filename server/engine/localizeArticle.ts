@@ -4,6 +4,7 @@
  * - Source text: the Portuguese article for Portuguese-speaking countries, the Spanish one for Spanish-speaking
  *   countries, English for everyone else. Output is the same structure as the original, in the visitor's language.
  */
+import { glossaryRules } from './glossary';
 import { BLOG_ARTICLES, type BlogArticleContent } from '../../src/data/blogArticles';
 import { countryName, languageName } from './countries';
 
@@ -89,7 +90,7 @@ THIS IS CULTURAL LOCALIZATION, NOT A LITERAL TRANSLATION:
 - Keep the astrological meaning, the warm and casual tone, simple everyday words, and the length of each string.
 - Do not invent facts, add advice, remove ideas, or merge or split strings. Return exactly ${texts.length} strings in the same order. Empty strings stay empty.
 - Keep every HTML tag, HTML entity, emoji and line break exactly as in the source.
-- Keep the brand names Aurenstar, Aurendaily and Aureneffect unchanged. Write zodiac sign names the usual way in ${languageEn}.
+- ${glossaryRules(language, languageEn)}
 - Never mention translation, localization or artificial intelligence.
 ${sameLanguage ? `- The source is already in ${languageEn}: change ONLY the foreign cultural references and keep every other word exactly as written.\n` : ''}
 Return ONLY valid JSON: {"texts": [ ...${texts.length} strings... ]}

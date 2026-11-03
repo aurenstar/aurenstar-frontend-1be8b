@@ -6,8 +6,9 @@ import { countHit, getCachedReading, saveReading, usageKey, type UsageEnv } from
 import { visitorLocale, RTL_LANGUAGES, isTranslatedLanguage, URL_LANG_COUNTRY } from '../../server/engine/countries';
 import { localizeArticle, type LocalizeEnv, type LocalizedArticle } from '../../server/engine/localizeArticle';
 import { BLOG_ARTICLES } from '../../src/data/blogArticles';
+import { humanCheck, humanCheckFailed } from '../../server/engine/turnstile';
 
-const CACHE_VERSION = 'v1'; // change it to make every country version be created again (e.g. after improving the instructions)
+const CACHE_VERSION = 'v2'; // change it to make every country version be created again (e.g. after improving the instructions)
 const CACHE_SECONDS = 365 * 24 * 3600;
 const MAX_NEW_PER_IP_PER_DAY = 10; // new versions one network address may trigger per day (reading saved ones is free)
 const MAX_NEW_PER_DAY = 600; // new versions for the whole site per day (protects the AI bill)
@@ -18,6 +19,7 @@ interface Context {
 }
 
 export const onRequestGet = async ({ request, env }: Context): Promise<Response> => {
+  if (!(await humanCheck(request, env as any))) return humanCheckFailed();
   const headers = { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'private, max-age=600' };
   const none = (reason: string) => new Response(JSON.stringify({ success: false, reason }), { headers });
   try {
