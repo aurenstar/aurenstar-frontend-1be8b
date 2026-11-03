@@ -1,0 +1,25 @@
+name: Uptime check
+# Every 30 minutes: opens the site and its key pages. If anything fails, GitHub emails the repository owner.
+# Set the repository variable SITE_URL (Settings > Secrets and variables > Actions > Variables) once the real domain is live.
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check pages and health
+        env:
+          SITE_URL: ${{ vars.SITE_URL || 'https://seo-tecnico.aurenstar-frontend-1be8b.pages.dev' }}
+        run: |
+          fail=0
+          for path in / /blog /discover-sign /dicionario /sitemap.xml; do
+            code=$(curl -s -o /dev/null -m 20 -w '%{http_code}' "$SITE_URL$path")
+            echo "$path -> $code"
+            [ "$code" = "200" ] || fail=1
+          done
+          body=$(curl -s -m 25 "$SITE_URL/api/health")
+          echo "health: $body"
+          echo "$body" | grep -q '"ok":true' || fail=1
+          exit $fail

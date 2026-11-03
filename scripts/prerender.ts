@@ -54,6 +54,8 @@ function headBlock(seo: SeoData): string {
   const lines = [
     `<meta name="description" content="${escapeAttr(seo.description)}" />`,
     `<meta name="robots" content="${seo.robots}" />`,
+    // Google Search Console ownership proof: set GSC_VERIFICATION (build variable) to the code Google gives you.
+    ...(process.env.GSC_VERIFICATION ? [`<meta name="google-site-verification" content="${escapeAttr(process.env.GSC_VERIFICATION)}" />`] : []),
     `<link rel="canonical" href="${escapeAttr(seo.url)}" />`,
     `<meta property="og:site_name" content="${SITE_NAME}" />`,
     `<meta property="og:locale" content="${seo.locale}" />`,

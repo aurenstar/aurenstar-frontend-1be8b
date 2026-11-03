@@ -78,7 +78,7 @@ export interface BlogArticleContent {
   zodiacSigns?: string[];
 }
 
-export const BLOG_ARTICLES: BlogArticleContent[] = [
+const HAND_WRITTEN_ARTICLES: BlogArticleContent[] = [
   {
     id: 'post-1',
     category: {
@@ -1807,4 +1807,13 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
     },
     zodiacSigns: ['peixes', 'agua', 'todos'],
   },
+];
+
+// Articles written in WordPress (kept up to date by `npm run sync:wordpress`).
+import wordpressArticles from './wordpressArticles.generated.json';
+
+/** Hand-written articles first, then the WordPress ones (newest first). */
+export const BLOG_ARTICLES: BlogArticleContent[] = [
+  ...HAND_WRITTEN_ARTICLES,
+  ...(wordpressArticles as unknown as BlogArticleContent[]),
 ];

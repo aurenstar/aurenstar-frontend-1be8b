@@ -1,0 +1,25 @@
+name: WordPress sync
+# Every 6 hours (and on demand): copies new/changed WordPress posts into the site and commits them,
+# which makes Cloudflare rebuild the site. Publish in WordPress -> it shows up in /blog.
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: sudo apt-get install -y imagemagick
+      - run: npm install
+      - run: npm run sync:wordpress
+      - name: Commit changes
+        run: |
+          git config user.name "aurenstar-sync"
+          git config user.email "sync@aurenstar.com"
+          git add src/data/wordpressArticles.generated.json public/assets/wp
+          git diff --cached --quiet || (git commit -m "Sync articles from WordPress" && git push)
