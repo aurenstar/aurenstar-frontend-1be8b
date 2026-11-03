@@ -415,7 +415,6 @@ Return ONLY a valid JSON object:
             signal: controller.signal,
             body: JSON.stringify({
               model: openai.model || 'gpt-6.1-terra',
-              temperature: 0.9,
               response_format: { type: 'json_object' },
               messages: [{ role: 'user', content: prompt }],
             }),
