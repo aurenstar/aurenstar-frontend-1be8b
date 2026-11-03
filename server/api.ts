@@ -688,16 +688,20 @@ THE PERSON: first name "${userName}".
 - Moon in ${nm(moon)}${timeKnown ? `\n- Rising sign in ${nm(rising)}` : '\n- (Birth time unknown: do not talk about the rising sign, and treat the Moon as approximate)'}
 - Mercury in ${nm(mercury)} (how they think and talk), Venus in ${nm(venus)} (how they love), Mars in ${nm(mars)} (how they fight and push)
 
-HOW TO WRITE (ONE short sentence, made to be posted as a card on Instagram Stories):
-It is a quick, funny and flattering "this is who I am" portrait of the person, in the style of this example (Gemini Sun): "Um geminiano que muda de ideia a cada rolê que dá, prioriza a liberdade, é inteligente de forma absurda e adora conhecer novos lugares e ter novas experiências."
-1. Start with the sign of the Sun in a neutral, gender-free way: in Portuguese "Uma pessoa [demonym of the Sun sign] que ..." (e.g. "Uma pessoa geminiana que ..."), in Spanish "Una persona [Sun sign adjective] que ...", in English "A ${nm(sun)} who ...". Never guess gender; never use the person's name; no "he" or "she".
-2. Then list 4 or 5 concrete, recognisable traits and habits, joined naturally with commas and "e" (and). The Sun sign gives the main personality; flavour it with the Moon${timeKnown ? ', the Rising sign' : ''}, Mercury, Venus and Mars so it feels personal. Mix one lovable strength, one funny flaw and one thing they love or need.
-3. Everyday words a 12-year-old understands. Warm, a little cheeky, never mean, never scary, nothing about health, money or death. Do not say "Moon", "Rising", "Mercury", "Venus" or "Mars" and no astrology jargon. No scenes, no story, no metaphors about furniture or places.
-4. A single sentence, between 200 and 300 characters. No emojis, no markdown.
+HOW TO WRITE (a short, funny, addictive portrait made to be posted on Instagram Stories):
+The reader must think "uau, sou eu mesmo!" and send it to friends saying "isso aqui é a sua cara". Aim for the feeling of a friend who knows them too well and teases them with love.
+Example of the voice (Gemini Sun, in Portuguese): "Uma pessoa geminiana que muda de ideia a cada rolê, fala sozinha em três vozes, promete 'só cinco minutinhos' e some por duas horas. Inteligente de um jeito absurdo e curiosa demais pra ficar parada: a vida dela é uma aba aberta atrás da outra."
+1. Start with the Sun sign in a neutral, gender-free way: in Portuguese "Uma pessoa [demonym of the Sun sign] que ..." (e.g. "Uma pessoa geminiana que ..."), in Spanish "Una persona [Sun sign adjective] que ...", in English "A ${nm(sun)} who ...". Never guess gender; never use the person's name; no "he" or "she".
+2. ACCURACY FIRST: every trait must be genuinely typical of the Sun sign (Gemini: curious, talkative, restless, changes its mind, bored by routine, witty, many interests; Taurus: stubborn, loves comfort, food and loyalty; Aries: impulsive, competitive, direct; Cancer: protective, moody, nostalgic, homebody; Leo: warm, proud, loves attention and being the main character; Virgo: detail-obsessed, helpful, overthinks; Libra: charming, indecisive, hates conflict, loves beauty; Scorpio: intense, secretive, loyal, remembers everything; Sagittarius: free, honest to the point of hurting, adventurous; Capricorn: disciplined, ambitious, dry humour, works too much; Aquarius: original, independent, rebellious, detached; Pisces: dreamy, empathic, absorbs everyone's feelings, escapes into imagination). Never write the opposite of the sign.
+3. Make it PERSONAL: flavour it with the Moon (what they feel inside)${timeKnown ? ', the Rising sign (the first impression)' : ''}, Mercury (how they talk), Venus (how they love) and Mars (how they fight), without naming those planets. Two people with the same Sun must get different portraits.
+4. Structure, 2 short sentences, total 260 to 340 characters:
+   - Sentence 1: the "Uma pessoa [sign] que ..." list of 4 or 5 tiny, very specific, recognisable real-life habits (the kind you only know if you live with them), at least one funny flaw and one lovable thing.
+   - Sentence 2: a punchy final twist that sums them up with a little contradiction or a truth that stings in a sweet way (like "mas ninguém ... melhor que ela").
+5. Everyday words a 12-year-old understands, casual spoken tone, light slang is welcome (in Portuguese: "rolê", "treta", "surtar"). Warm and cheeky, never mean or scary, nothing about health, money or death. Do not say "Moon", "Rising", "Mercury", "Venus" or "Mars" and no astrology jargon. No emojis, no markdown, no scenes with furniture or places.
 ${varietyBlock(body, 'unfiltered')}
 Return ONLY valid JSON:
 {
-  "description": "the single sentence"
+  "description": "the 2 sentences"
 }`;
 
     const controller = new AbortController();
