@@ -377,7 +377,7 @@ ${signals.aspects.slice(1).map((a) => `- Another feeling today: "${a.text}"`).jo
 - A deeper need behind it: "${signals.natalMoon}"
 ${signals.mercuryRetro ? `- Also: "${signals.mercuryRetro}"\n` : ''}- Phase of the month: "${signals.phase}"
 
-EASY ACTIONS THAT FIT THIS FEELING (rewrite them in your own words, keep them practical):
+IDEAS OF TIPS FOR THIS FEELING (only inspiration; replace them with better, more specific tips that really work):
 - "${trigger.practicalActions[0].title}: ${trigger.practicalActions[0].description}"
 - "${trigger.practicalActions[1].title}: ${trigger.practicalActions[1].description}"
 - "${trigger.practicalActions[2].title}: ${trigger.practicalActions[2].description}"
@@ -387,6 +387,7 @@ HOW TO WRITE (very important):
 2. NEVER mention planets, the Moon, the Sun, zodiac signs, houses, elements or any astrology word. Never say things like "the Moon is in Leo". The reader must NOT see any astrology term, only plain feelings and daily life.
 3. Talk about real daily life: work, phone, family, rest, mood. Give no predictions and no orders; offer gentle ideas.
 4. Be warm and positive. Never scare the person.
+5. THE 3 TIPS MUST REALLY WORK. Each tip is a concrete, proven mini-habit that changes how a person feels within minutes, with exact numbers or exact words, so the person can do it right now. Good examples: breathe in for 4 seconds and out for 6 seconds, 5 times; drink a full glass of water and stretch your shoulders for 1 minute; walk 10 minutes without your phone; write everything on your mind for 3 minutes, then circle only ONE thing to do today; say out loud "I feel ___ and that is okay"; send a 1-sentence message to someone you trust; wait 10 minutes before answering something that upset you; put your hands under cold water for 20 seconds. NEVER write vague tips such as "take a moment for yourself", "share a light moment", "be kind to yourself" or "put your thoughts on paper" without saying exactly how. Pick tips that match the strongest feeling: tired and heavy -> rest and body tips; anxious or racing mind -> breathing and writing tips; irritated -> pause tips; lonely or needy -> connection tips. Each action is 1 or 2 short sentences and says exactly what to do and for how long.
 
 Return ONLY a valid JSON object:
 {
@@ -394,9 +395,9 @@ Return ONLY a valid JSON object:
   "question1Answer": "2 short paragraphs answering 'Why do I feel or act this way today?' in simple words",
   "question2Answer": "1 short, friendly sentence introducing the 3 easy things to do today",
   "practicalSteps": [
-    { "stepNumber": 1, "title": "Simple title", "action": "Easy action that takes under 5 minutes" },
-    { "stepNumber": 2, "title": "Simple title", "action": "Easy action" },
-    { "stepNumber": 3, "title": "Simple title", "action": "Easy action" }
+    { "stepNumber": 1, "title": "Simple title", "action": "A specific action with exact numbers or words, up to 10 minutes" },
+    { "stepNumber": 2, "title": "Simple title", "action": "A specific action with exact numbers or words" },
+    { "stepNumber": 3, "title": "Simple title", "action": "A specific action with exact numbers or words" }
   ],
   "affirmation": "One short, positive sentence the person can repeat today",
   "transparencyNote": "One short, honest sentence saying this is a gentle idea from Aurenstar to help reflect, not a prediction"

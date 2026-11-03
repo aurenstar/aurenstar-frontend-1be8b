@@ -19,7 +19,7 @@ interface AurenEffectResultPageProps {
   onNavigateToBlog: () => void;
 }
 
-const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v8';
+const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v9';
 
 export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
   onBackToForm,
@@ -375,15 +375,6 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
 
           {/* Dica Prática para Você Hoje */}
           <div className="p-5 sm:p-6 rounded-2xl bg-[#E4F1FF]/40 border border-[#D9E8F8] space-y-2.5 transition-all">
-            <div className="flex items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-[#2878D0] bg-[#E4F1FF] px-2.5 py-0.5 rounded-full">
-                <Sparkles className="w-3 h-3 text-[#F51B83]" />
-                <span>{t.adviceTitle}</span>
-              </span>
-              <span className="text-xs text-[#647DA5]">
-                {t.adviceSub}
-              </span>
-            </div>
             <p className="text-sm sm:text-base text-[#172B4D] font-semibold leading-relaxed">
               {practicalAdvice}
             </p>
