@@ -57,6 +57,9 @@ export interface AurenEffectResult {
   transparencyNote: string;
   /** Short headline that matches the message. */
   headline?: string;
+  /** First-person title and text written to be posted on social media (shows how the person feels). */
+  shareTitle?: string;
+  shareText?: string;
   generatedByAI: boolean;
 }
 
@@ -714,6 +717,8 @@ export function generateLocalAurenEffectReading(
     affirmation: text.affirmation,
     transparencyNote: copy.note,
     headline: signals.title,
+    shareTitle: signals.title,
+    shareText: (question1Answer.replace(/^[^,]+,\s*/, '').split(/(?<=[.!?])\s+/).slice(0, 2).join(' ')).trim(),
     generatedByAI: false,
   };
 }

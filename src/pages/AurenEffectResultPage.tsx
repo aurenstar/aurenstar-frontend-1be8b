@@ -6,7 +6,6 @@ import {
   ShieldCheck,
   Check,
   Download,
-  Link2,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { AURENSTAR_AVATAR } from '../data/blogArticles';
@@ -19,7 +18,7 @@ interface AurenEffectResultPageProps {
   onNavigateToBlog: () => void;
 }
 
-const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v9';
+const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v10';
 
 export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
   onBackToForm,
@@ -42,7 +41,6 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
   const [isGeneratingCard, setIsGeneratingCard] = useState(false);
   const [cardSuccess, setCardSuccess] = useState(false);
   const [isGeneratingVerticalStory, setIsGeneratingVerticalStory] = useState(false);
-  const [copiedLink, setCopiedLink] = useState(false);
 
   // Títulos inspiradores e diretos de cada signo
   const INTRIGUING_TITLES: Record<
@@ -140,6 +138,10 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
     INTRIGUING_TITLES[signKey]?.[lang] ||
     (result?.affirmation || INTRIGUING_TITLES.gemeos.pt);
 
+  // What the person shows to others: a first-person post about how they feel today.
+  const shareTitle = result?.shareTitle || curiousTitle;
+  const shareText = result?.shareText || result?.question1Answer || '';
+
   const signTheme =
     result?.routineTrigger?.dominantVibe ||
     (lang === 'pt' ? 'Curiosidade e Leveza Mental' : lang === 'es' ? 'Curiosidad y Calma Mental' : 'Curiosity and Mental Ease');
@@ -162,9 +164,9 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
         signName: signDisplayName,
         signSymbol: signSymbol,
         signTheme: signTheme,
-        title: curiousTitle,
+        title: shareTitle,
         affirmation: result.affirmation || '',
-        message: result.question1Answer,
+        message: shareText,
         advice: practicalAdvice,
       };
       await downloadStoryCard(storyData);
@@ -174,26 +176,6 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
       console.error('Erro ao gerar card:', err);
     } finally {
       setIsGeneratingCard(false);
-    }
-  };
-
-  const handleCopyLink = async () => {
-    try {
-      const url = typeof window !== 'undefined' ? window.location.href : '';
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        await navigator.clipboard.writeText(url);
-      } else {
-        const textarea = document.createElement('textarea');
-        textarea.value = url;
-        document.body.appendChild(textarea);
-        textarea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textarea);
-      }
-      setCopiedLink(true);
-      setTimeout(() => setCopiedLink(false), 2500);
-    } catch (err) {
-      console.error('Erro ao copiar link:', err);
     }
   };
 
@@ -225,12 +207,12 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
 
   const originUrl = typeof window !== 'undefined' ? window.location.origin : 'https://aurenstar.com';
   const whatsappText = encodeURIComponent(
-    `✨ *Leitura do Efeito Auren de ${displayName}* (${signDisplayName}):\n\n"${curiousTitle}"\n\n"${result.question1Answer}"\n\nDescubra a sua também em: ${originUrl}`
+    `✨ "${shareTitle}"\n\n${shareText}\n\nDescubra a sua também em: ${originUrl}`
   );
   const whatsappUrl = `https://api.whatsapp.com/send?text=${whatsappText}`;
 
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-    `✨ Efeito Auren de ${displayName} no @aurenstar: "${curiousTitle}"`
+    `✨ ${shareTitle} — ${shareText}`
   )}&url=${encodeURIComponent(originUrl)}`;
 
   const handleDownloadVerticalStory = async () => {
@@ -241,9 +223,9 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
         signName: result?.astronomy?.sun?.sign || '',
         signSymbol: result?.astronomy?.sun?.symbol || '✦',
         signTheme: result?.routineTrigger?.dominantVibe || '',
-        title: result?.routineTrigger?.primaryCause || '',
+        title: shareTitle,
         affirmation: result?.affirmation || '',
-        message: result?.question1Answer || '',
+        message: shareText,
         advice: result?.practicalSteps?.[0] ? `${result.practicalSteps[0].title}. ${result.practicalSteps[0].action}` : result?.question2Answer || '',
         lang,
       };
@@ -439,15 +421,15 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
             </div>
 
             {/* Título da Mensagem em Azul Destacado */}
-            {curiousTitle && (
+            {shareTitle && (
               <h3 className="text-[#2878D0] font-bold text-base sm:text-[18px] leading-snug mb-2.5">
-                {curiousTitle}
+                {shareTitle}
               </h3>
             )}
 
-            {/* Mensagem Principal do Dia */}
-            <p className="text-xs sm:text-[15px] text-[#172B4D] leading-relaxed whitespace-pre-line mb-3 sm:mb-3.5">
-              {result.question1Answer}
+            {/* Texto para mostrar aos outros (primeira pessoa) */}
+            <p className="text-sm sm:text-[17px] text-[#172B4D] leading-relaxed whitespace-pre-line mb-3 sm:mb-3.5">
+              {shareText}
             </p>
 
             {/* Rodapé: Horário, Data e Link */}
@@ -486,30 +468,6 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
             >
               <Download className="w-3.5 h-3.5 shrink-0" />
               <span>{isGeneratingVerticalStory ? 'Gerando...' : 'Baixar Story 9:16'}</span>
-            </button>
-
-            {/* Copiar Link */}
-            <button
-              type="button"
-              onClick={handleCopyLink}
-              className={`w-full lg:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-full border font-medium text-xs transition-all cursor-pointer shadow-2xs active:scale-95 ${
-                copiedLink
-                  ? 'bg-[#E4F1FF] text-[#2878D0] border-[#2878D0]'
-                  : 'bg-white hover:bg-[#E4F1FF] border-[#D9E8F8] hover:border-[#2878D0] text-[#172B4D]'
-              }`}
-              title="Copiar link da página"
-            >
-              {copiedLink ? (
-                <>
-                  <Check className="w-3.5 h-3.5 text-[#2878D0] shrink-0" />
-                  <span>{t.linkCopied}</span>
-                </>
-              ) : (
-                <>
-                  <Link2 className="w-3.5 h-3.5 text-[#2878D0] shrink-0" />
-                  <span>{t.copyLinkBtn}</span>
-                </>
-              )}
             </button>
 
             {/* WhatsApp */}

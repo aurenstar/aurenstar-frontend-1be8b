@@ -403,6 +403,8 @@ Return ONLY a valid JSON object:
     { "stepNumber": 2, "title": "Simple title", "action": "A specific action with exact numbers or words" },
     { "stepNumber": 3, "title": "Simple title", "action": "A specific action with exact numbers or words" }
   ],
+  "shareTitle": "A short first-person title (2 to 6 words) the person would proudly post, like their own status. Example style: 'Hoje meu coração pede colo'. No name, no astrology words.",
+  "shareText": "A post for Instagram or WhatsApp status, written in FIRST PERSON as if the person themselves is showing the world how they feel today. 2 or 3 short sentences, maximum 230 characters, with real small moments, emotional, honest, relatable and easy to identify with, so friends think 'that is me too'. No name, no astrology words, no advice, no hashtags, no emojis. Same language as the message.",
   "affirmation": "One short, positive sentence the person can repeat today",
   "transparencyNote": "One short, honest sentence saying this is a gentle idea from Aurenstar to help reflect, not a prediction"
 }`;
@@ -475,6 +477,8 @@ Return ONLY a valid JSON object:
         ? parsedData.practicalSteps
         : fallbackResult.practicalSteps,
       affirmation: parsedData.affirmation || fallbackResult.affirmation,
+      shareTitle: parsedData.shareTitle || fallbackResult.shareTitle,
+      shareText: parsedData.shareText || fallbackResult.shareText,
       transparencyNote: parsedData.transparencyNote || fallbackResult.transparencyNote,
       generatedByAI: true,
     };
