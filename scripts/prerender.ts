@@ -215,30 +215,24 @@ fs.writeFileSync(
 );
 
 // sitemap.xml
-const alternates = (pagePath: string) =>
-  [
-    `<xhtml:link rel="alternate" hreflang="x-default" href="${escapeXml(`${SITE_URL}${pagePath}`)}"/>`,
-    `<xhtml:link rel="alternate" hreflang="en" href="${escapeXml(`${SITE_URL}${pagePath}`)}"/>`,
-    ...URL_LANGUAGES.map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${escapeXml(langUrl(pagePath, l))}"/>`),
-  ].join('');
 // Every indexable page + the same page in each language address (/nl/..., /ja/...), all pointing at each other.
-// One sitemap file may not be too big (Google reads up to 50 MB / 50,000 URLs, Cloudflare serves files up to 25 MB, and every
+// The language versions of each page are linked to each other by hreflang tags inside the pages themselves (a valid way, equal to listing them
+// here), so the sitemap only lists addresses: ~16x smaller. One sitemap file may not be too big (Google reads up to 50 MB / 50,000 URLs, Cloudflare serves files up to 25 MB, and every
 // page here lists ~26 language versions). So pages are cut into parts of PAGES_PER_FILE, and sitemap.xml becomes an index
 // that lists the parts. With few pages it stays one plain sitemap.xml. This is what makes the dictionary able to grow without a ceiling.
-const PAGES_PER_FILE = Number(process.env.SITEMAP_PAGES_PER_FILE) || 100;
+const PAGES_PER_FILE = Number(process.env.SITEMAP_PAGES_PER_FILE) || 1500;
 const urlEntries = (items: typeof sitemap) =>
   items
     .flatMap(({ loc, path: pagePath, lastmod }) => {
       const mod = lastmod ? `<lastmod>${lastmod}</lastmod>` : '';
-      const alt = alternates(pagePath);
       return [
-        `  <url><loc>${escapeXml(loc)}</loc>${mod}${alt}</url>`,
-        ...URL_LANGUAGES.map((l) => `  <url><loc>${escapeXml(langUrl(pagePath, l))}</loc>${mod}${alt}</url>`),
+        `  <url><loc>${escapeXml(loc)}</loc>${mod}</url>`,
+        ...URL_LANGUAGES.map((l) => `  <url><loc>${escapeXml(langUrl(pagePath, l))}</loc>${mod}</url>`),
       ];
     })
     .join('\n');
 const urlset = (body: string) =>
-  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${body}\n</urlset>\n`;
+  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
 const sorted = sitemap.sort((a, b) => a.loc.localeCompare(b.loc));
 if (sorted.length <= PAGES_PER_FILE) {
   fs.writeFileSync(path.join(dist, 'sitemap.xml'), urlset(urlEntries(sorted)));

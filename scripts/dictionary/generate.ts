@@ -25,11 +25,11 @@ const arg = (name: string) => {
 const MAX = Math.max(0, Math.min(20, Number(arg('max') ?? 5)));
 const DRY = process.argv.includes('--dry');
 const KEY = process.env.OPENAI_API_KEY;
-const MODEL = process.env.OPENAI_MODEL || 'gpt-6.1-terra';
+const MODEL = process.env.OPENAI_MODEL || 'gpt-6-luna';
 
 // Counts what the model really used, so the log shows the real cost of each run (prices in US$ per 1M tokens, from OpenAI's pricing page).
-const PRICE_IN = Number(process.env.PRICE_IN ?? 1);
-const PRICE_OUT = Number(process.env.PRICE_OUT ?? 5);
+const PRICE_IN = Number(process.env.PRICE_IN ?? 0.1);
+const PRICE_OUT = Number(process.env.PRICE_OUT ?? 0.5);
 let tokensIn = 0;
 let tokensOut = 0;
 const realFetch = globalThis.fetch;
