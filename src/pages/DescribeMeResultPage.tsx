@@ -1,13 +1,16 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { ArrowLeft, Download, Sparkles, Check, Smartphone } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Download, Sparkles, Check, Smartphone } from 'lucide-react';
 import { downloadStoryCard, downloadVerticalStoryCard, type StoryCardData } from '../utils/generateStoryCard';
 import { useLanguage } from '../context/LanguageContext';
 import { DESCRIBE_ME_RESULT_KEY } from './DescribeMePage';
 import { themeTitle } from '../utils/unfilteredThemes';
 import { useTranslated } from '../utils/useTranslated';
+import { BLOG_ARTICLES } from '../data/blogArticles';
+
+const POST_BY_SIGN: Record<string, string> = { aries: 'post-aries', taurus: 'post-touro', gemini: 'post-gemeos', cancer: 'post-cancer', leo: 'post-leao', virgo: 'post-virgem', libra: 'post-libra', scorpio: 'post-escorpiao', sagittarius: 'post-sagitario', capricorn: 'post-capricornio', aquarius: 'post-aquario', pisces: 'post-peixes' };
 
 interface DescribeMeResult { name: string; sign: string; birthDate: string; birthTime?: string; birthCity?: string; description: string; createdAt: string; tagline?: string; themeKey?: string; lang?: 'en' | 'pt' | 'es'; bigThree?: { sun: { name: string; symbol: string }; moon: { name: string; symbol: string }; rising: { name: string; symbol: string } | null }; }
-interface DescribeMeResultPageProps { onBackToForm: () => void; onBackToHome: () => void; onNavigateToBlog: () => void; }
+interface DescribeMeResultPageProps { onBackToForm: () => void; onBackToHome: () => void; onNavigateToBlog: () => void; onOpenArticle?: (articleId: string) => void; }
 
 const AVATAR = '/aurenstar-avatar.png';
 
@@ -17,7 +20,7 @@ const TITLES: Record<string, string> = {
 
 const formatTime = (iso: string, language: string) => new Intl.DateTimeFormat(language === 'pt' ? 'pt-BR' : language === 'es' ? 'es-ES' : 'en-US', { hour: '2-digit', minute: '2-digit', day: '2-digit', month: 'short', year: '2-digit' }).format(new Date(iso));
 
-export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBackToForm, onBackToHome, onNavigateToBlog }) => {
+export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBackToForm, onBackToHome, onNavigateToBlog, onOpenArticle }) => {
   const { language } = useLanguage();
   const [stored, setStored] = useState<DescribeMeResult | null>(null);
   const [busy, setBusy] = useState<'card' | 'story' | 'share' | null>(null);
@@ -37,6 +40,8 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
     } catch { setStored(null); }
   }, []);
 
+  const post = result ? BLOG_ARTICLES.find((a) => a.id === POST_BY_SIGN[result.sign]) : undefined;
+  const recommendLabel = lang === 'pt' ? 'Um post escolhido para o seu signo' : lang === 'es' ? 'Un post elegido para tu signo' : 'A post picked for your sign';
   const cardTitle = result ? themeTitle(result.bigThree?.sun.name || result.sign, result.themeKey, lang as 'en' | 'pt' | 'es') : '';
   const downloadLabel = lang === 'pt' ? 'Baixar card' : lang === 'es' ? 'Descargar card' : 'Download card';
   const storyLabel = 'Story 9:16';
@@ -61,7 +66,29 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
         <p className="mt-5 max-w-3xl whitespace-pre-line text-xl leading-relaxed text-[#17366F] sm:text-2xl">{result.description}</p>
         <p className="mt-10 text-sm text-[#647DA5]">{formatTime(result.createdAt, lang)} · aurenstar.com</p>
       </div>
-      <div className="mt-4 flex flex-nowrap justify-center gap-1.5 sm:gap-2"><button type="button" onClick={download} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#F51B83] px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-[#D9166F] transition-colors disabled:opacity-60 sm:px-5 sm:text-sm"><Download className="h-4 w-4 shrink-0" />{downloadLabel}</button><button type="button" onClick={downloadStory} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#F51B83] px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-[#D9166F] transition-colors disabled:opacity-60 sm:px-5 sm:text-sm"><Smartphone className="h-4 w-4 shrink-0" />{storyLabel}</button><button type="button" onClick={onNavigateToBlog} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#F51B83] px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-[#D9166F] transition-colors disabled:opacity-60 sm:px-5 sm:text-sm">Blog</button></div>
+      <div className="mt-4 flex flex-nowrap justify-center gap-1.5 sm:gap-2"><button type="button" onClick={download} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#F51B83] px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-[#D9166F] transition-colors disabled:opacity-60 sm:px-5 sm:text-sm"><Download className="h-4 w-4 shrink-0" />{downloadLabel}</button><button type="button" onClick={downloadStory} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#F51B83] px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-[#D9166F] transition-colors disabled:opacity-60 sm:px-5 sm:text-sm"><Smartphone className="h-4 w-4 shrink-0" />{storyLabel}</button></div>
+      {post && (
+        <section className="mx-auto mt-10 max-w-3xl">
+          <h3 className="mb-4 text-center text-sm font-extrabold uppercase tracking-wider text-[#17366F] sm:text-base">{recommendLabel}</h3>
+          <div
+            role="button"
+            tabIndex={0}
+            onClick={() => (onOpenArticle ? onOpenArticle(post.id) : onNavigateToBlog())}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); if (onOpenArticle) onOpenArticle(post.id); else onNavigateToBlog(); } }}
+            className="group flex w-full cursor-pointer items-center justify-between gap-3 rounded-2xl border border-[#D9E8F8] bg-white p-3 shadow-sm transition-all duration-300 hover:border-[#2878D0]/40 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40 sm:gap-6 sm:rounded-3xl sm:p-4"
+          >
+            <div className="relative h-20 w-28 shrink-0 overflow-hidden rounded-xl bg-slate-100 sm:h-28 sm:w-44 sm:rounded-2xl">
+              <img src={post.image} alt={post.title[lang as 'pt' | 'en' | 'es'] || post.title.pt} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+            </div>
+            <div className="min-w-0 flex-1 pr-1 sm:pr-2">
+              <span className="mb-1 block text-[10px] font-extrabold uppercase tracking-wider text-[#2878D0] sm:text-xs">{post.category[lang as 'pt' | 'en' | 'es'] || post.category.pt}</span>
+              <h4 className="mb-1 line-clamp-2 text-xs font-bold leading-snug text-[#172B4D] transition-colors group-hover:text-[#2878D0] sm:text-base lg:text-lg">{post.title[lang as 'pt' | 'en' | 'es'] || post.title.pt}</h4>
+              <p className="line-clamp-2 text-[11px] font-normal leading-relaxed text-[#647DA5] sm:text-xs">{post.subtitle[lang as 'pt' | 'en' | 'es'] || post.subtitle.pt}</p>
+            </div>
+            <div className="shrink-0 pr-1 text-[#17366F] transition-all duration-300 group-hover:translate-x-1.5 group-hover:text-[#2878D0] sm:pr-2"><ArrowRight className="h-5 w-5 sm:h-6 sm:w-6" /></div>
+          </div>
+        </section>
+      )}
     </div>
   </section>;
 };

@@ -457,6 +457,7 @@ export default function App() {
               onBackToForm={() => handleNavigate('describe-me')}
               onBackToHome={() => handleNavigate('home')}
               onNavigateToBlog={() => handleNavigate('blog')}
+              onOpenArticle={handleOpenArticle}
             />
           </main>
         )}
