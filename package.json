@@ -13,9 +13,11 @@
     "build:client": "vite build",
     "test:smoke": "node tests/smoke.mjs",
     "test:engine": "tsx tests/engine.test.ts && tsx tests/glossary.test.ts",
-    "test": "npm run test:engine && npm run test:smoke",
+    "test": "npm run test:engine && npm run test:smoke && npm run test:dictionary",
     "sync:wordpress": "tsx scripts/sync-wordpress.ts",
-    "wp:redirects": "tsx scripts/wordpress-redirects.ts"
+    "wp:redirects": "tsx scripts/wordpress-redirects.ts",
+    "dictionary:generate": "tsx scripts/dictionary/generate.ts",
+    "test:dictionary": "tsx tests/dictionary.test.ts"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",

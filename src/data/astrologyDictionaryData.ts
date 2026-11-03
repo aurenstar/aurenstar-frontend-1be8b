@@ -38,7 +38,7 @@ export interface DictionaryTerm {
   };
 }
 
-export const ASTROLOGY_DICTIONARY_TERMS: DictionaryTerm[] = [
+const HAND_WRITTEN_TERMS: DictionaryTerm[] = [
   {
     id: 'mercurio-retrogrado',
     slug: 'what-is-mercury-retrograde',
@@ -763,6 +763,14 @@ export const ASTROLOGY_DICTIONARY_TERMS: DictionaryTerm[] = [
       rota: 'discover-sign',
     },
   },
+];
+
+// Terms written and checked automatically (see scripts/dictionary/generate.ts), published with the hand-written ones.
+import generatedTerms from './dictionaryGenerated.json';
+
+export const ASTROLOGY_DICTIONARY_TERMS: DictionaryTerm[] = [
+  ...HAND_WRITTEN_TERMS,
+  ...(generatedTerms as unknown as DictionaryTerm[]),
 ];
 
 export const getDictionaryTermBySlug = (slug: string): DictionaryTerm | undefined => {
