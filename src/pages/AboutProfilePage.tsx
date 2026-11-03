@@ -189,7 +189,6 @@ const TOOL_COLORS: Record<string, string> = {
 
 
 const STEP_ICONS = [ClipboardList, Telescope, PenLine, Send];
-const STEP_COLORS = ['#2878D0', '#F51B83', '#2878D0', '#F51B83'];
 
 const SOCIAL_PATHS: Record<string, string> = {
   facebook: 'M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z',
@@ -209,12 +208,29 @@ const SocialIcon: React.FC<{ name: string }> = ({ name }) =>
     <svg className="h-[18px] w-[18px] fill-current" viewBox="0 0 24 24" aria-hidden><path d={SOCIAL_PATHS[name]} /></svg>
   );
 
-const VALUE_GRADIENTS = [
-  'linear-gradient(180deg, #6D4ED9 0%, #9B86EE 55%, #CFC3F8 100%)',
-  'linear-gradient(180deg, #E5499A 0%, #F58CC0 55%, #FFC2DF 100%)',
-  'linear-gradient(180deg, #5B8FDB 0%, #8FB4EA 55%, #CFE0F7 100%)',
-];
-const VALUE_IMAGES = ['/assets/about/about-language.svg', '/assets/about/about-mission.svg', '/assets/about/about-platform.svg'];
+const Sparkle: React.FC<{ x: number; y: number; r: number; fill: string; opacity?: number }> = ({ x, y, r, fill, opacity = 1 }) => (
+  <path d={`M${x} ${y - r} L${x + r * 0.28} ${y - r * 0.28} L${x + r} ${y} L${x + r * 0.28} ${y + r * 0.28} L${x} ${y + r} L${x - r * 0.28} ${y + r * 0.28} L${x - r} ${y} L${x - r * 0.28} ${y - r * 0.28} Z`} fill={fill} fillOpacity={opacity} />
+);
+
+// Same artwork language as the profile cover: flat brand colour, soft circles, orbit ring and sparkles.
+const CoverArt: React.FC<{ tone: 'blue' | 'pink'; variant?: number }> = ({ tone, variant = 0 }) => {
+  const orbit = tone === 'blue' ? '#F51B83' : '#FFFFFF';
+  const flip = variant % 2 === 1;
+  return (
+    <svg aria-hidden className="pointer-events-none absolute inset-0 h-full w-full" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice" fill="none" style={flip ? { transform: 'scaleX(-1)' } : undefined}>
+      <ellipse cx="320" cy="100" rx="150" ry="44" transform="rotate(-18 320 100)" stroke="#fff" strokeOpacity="0.28" strokeWidth="9" />
+      <ellipse cx="320" cy="100" rx="108" ry="29" transform="rotate(-18 320 100)" stroke={orbit} strokeOpacity={tone === 'blue' ? 0.95 : 0.85} strokeWidth="5" />
+      <circle cx="40" cy="20" r="46" fill="#fff" fillOpacity="0.1" />
+      <circle cx="170" cy="205" r="36" fill="#fff" fillOpacity="0.1" />
+      <Sparkle x={262} y={34} r={13} fill="#fff" />
+      <Sparkle x={370} y={150} r={8} fill={tone === 'blue' ? '#F51B83' : '#fff'} />
+      <Sparkle x={125} y={42} r={7} fill="#fff" opacity={0.8} />
+      <circle cx="210" cy="22" r="2" fill="#fff" fillOpacity="0.7" />
+      <circle cx="92" cy="130" r="1.6" fill="#fff" fillOpacity="0.6" />
+      <circle cx="235" cy="168" r="2" fill="#fff" fillOpacity="0.6" />
+    </svg>
+  );
+};
 
 type Tab = 'tools' | 'about' | 'how' | 'blog';
 
@@ -318,8 +334,7 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                   return (
                     <button key={tool.key} type="button" onClick={() => onNavigate(tool.key)} className={`group flex flex-col overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-3 text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)] ${i === c.tools.length - 1 && c.tools.length % 2 === 1 ? 'sm:col-span-2 sm:flex-row sm:gap-4' : ''}`}>
                       <span className={`relative flex h-36 items-center justify-center overflow-hidden rounded-xl ${i === c.tools.length - 1 && c.tools.length % 2 === 1 ? 'sm:h-auto sm:w-64 sm:shrink-0' : ''}`} style={{ background: color }}>
-                        <span aria-hidden className="absolute -left-8 -top-8 h-28 w-28 rounded-full bg-white/10" />
-                        <span aria-hidden className="absolute -bottom-10 -right-6 h-32 w-32 rounded-full bg-white/10" />
+                        <CoverArt tone={color === '#F51B83' ? 'pink' : 'blue'} variant={i} />
                         <Icon className="relative h-14 w-14 text-white transition-transform duration-300 group-hover:scale-110" />
                         <span className="absolute right-2.5 top-2.5 rounded-md bg-white px-2 py-0.5 text-[10px] font-extrabold" style={{ color }}>{c.free}</span>
                       </span>
@@ -351,17 +366,17 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                   <p className="text-[11px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]">{c.valuesTitle}</p>
                 </div>
                 <div className="grid gap-4 sm:grid-cols-3">
-                  {c.values.map((v, i) => (
-                    <div key={v.title} className="group relative flex min-h-[230px] flex-col overflow-hidden rounded-[18px] p-4 shadow-[0_14px_30px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(23,54,111,0.24)]" style={{ backgroundImage: VALUE_GRADIENTS[i] }}>
-                      <span aria-hidden className="pointer-events-none absolute -left-10 -top-16 h-44 w-64 rotate-[-12deg] rounded-full bg-white/20 blur-2xl" />
-                      <span className="relative text-[11px] font-extrabold uppercase tracking-[0.16em] text-white/80">0{i + 1}</span>
-                      <span className="relative mt-1 block text-lg font-bold leading-tight text-white">{v.title}</span>
-                      <span className="relative mt-1.5 block text-[13px] leading-5 text-white/90">{v.text}</span>
-                      <span className="relative mt-auto flex items-center justify-center pt-3">
-                        <img src={VALUE_IMAGES[i]} alt="" width={400} height={220} loading="lazy" style={{ width: 120, maxWidth: 120 }} className="transition-transform duration-500 group-hover:scale-105 group-hover:-rotate-2" />
-                      </span>
-                    </div>
-                  ))}
+                  {c.values.map((v, i) => {
+                    const pink = i === 1;
+                    return (
+                      <div key={v.title} className="group relative flex min-h-[220px] flex-col overflow-hidden rounded-2xl p-5 shadow-[0_14px_30px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(23,54,111,0.24)]" style={{ background: pink ? '#F51B83' : '#2878D0' }}>
+                        <CoverArt tone={pink ? 'pink' : 'blue'} variant={i} />
+                        <span className="relative text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/80">0{i + 1}</span>
+                        <span className="relative mt-1 block text-xl font-extrabold leading-tight text-white">{v.title}</span>
+                        <span className="relative mt-2 block text-sm leading-relaxed text-white/90">{v.text}</span>
+                      </div>
+                    );
+                  })}
                 </div>
                 <div className="rounded-[18px] border border-[#F7B5D2] bg-[#FFF5FA] p-4 sm:p-5">
                   <p className="mb-1 text-[11px] font-extrabold uppercase tracking-[0.22em] text-[#F51B83]">{c.noteTitle}</p>
@@ -376,17 +391,18 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                 <div className="grid gap-4 sm:grid-cols-2">
                   {c.steps.map((step, i) => {
                     const Icon = STEP_ICONS[i];
-                    const color = STEP_COLORS[i];
+                    const pink = i % 2 === 1;
+                    const color = pink ? '#F51B83' : '#2878D0';
                     return (
-                      <div key={step.title} className="group relative overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)]">
-                        <span aria-hidden className="pointer-events-none absolute -right-2 -top-6 select-none text-[7rem] font-black leading-none opacity-[0.07]" style={{ color }}>{i + 1}</span>
-                        <span className="relative mb-4 flex h-12 w-12 items-center justify-center rounded-2xl text-white shadow-md transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110" style={{ background: color }}>
-                          <Icon className="h-6 w-6" />
-                        </span>
-                        <p className="relative mb-1 text-[11px] font-extrabold uppercase tracking-wider" style={{ color }}>{c.stepWord} {i + 1}</p>
-                        <h3 className="relative text-lg font-extrabold leading-snug text-[#172B4D]">{step.title}</h3>
-                        <p className="relative mt-1.5 text-sm leading-relaxed text-[#5E78A4]">{step.text}</p>
-                        <span aria-hidden className="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 transition-transform duration-500 group-hover:scale-x-100" style={{ background: color }} />
+                      <div key={step.title} className="group overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-3 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)]">
+                        <div className="relative flex h-24 items-center justify-between overflow-hidden rounded-xl px-5" style={{ background: color }}>
+                          <CoverArt tone={pink ? 'pink' : 'blue'} variant={i} />
+                          <span className="relative text-5xl font-black leading-none text-white">{i + 1}</span>
+                          <Icon className="relative h-9 w-9 text-white transition-transform duration-300 group-hover:scale-110" />
+                        </div>
+                        <p className="mt-3 px-1 text-[11px] font-extrabold uppercase tracking-wider" style={{ color }}>{c.stepWord} {i + 1}</p>
+                        <h3 className="px-1 text-lg font-extrabold leading-snug text-[#172B4D]">{step.title}</h3>
+                        <p className="mb-1 mt-1 px-1 text-sm leading-relaxed text-[#5E78A4]">{step.text}</p>
                       </div>
                     );
                   })}
