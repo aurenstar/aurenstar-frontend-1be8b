@@ -3,13 +3,12 @@ import { BookOpen, CalendarDays, Compass, Sparkles } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { ScrollReveal } from './ScrollReveal';
 import { onPlainClick } from '../utils/links';
-import { CoverArt } from './CoverArt';
 
 type ToolKey = 'daily-message' | 'aureneffect' | 'discover-sign' | 'describe-me';
 
 interface ToolExplainerSectionProps { onNavigate: (tool: ToolKey) => void; }
 
-const icons = [CalendarDays, Sparkles, Compass, BookOpen];
+const accents = ['#2B9FC0', '#68469B', '#E78AAE', '#2878D0'];
 
 // Real URLs so search engines can follow the cards; a normal click still navigates in-app.
 const TOOL_PATHS: Record<ToolKey, string> = {
@@ -36,18 +35,26 @@ export const ToolExplainerSection: React.FC<ToolExplainerSectionProps> = ({ onNa
         <p className="mt-3 max-w-2xl text-base leading-relaxed text-[#647DA5]">{copy.subtitle}</p>
       </div></ScrollReveal>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {copy.cards.map(([, title, description, route], index) => <ScrollReveal key={title} delay={index * 55} distance={16} duration={650} className="h-full">
+        {copy.cards.map(([, title, description, route, , image], index) => <ScrollReveal key={title} delay={index * 55} distance={16} duration={650} className="h-full">
           <a
             href={TOOL_PATHS[route]}
             onClick={onPlainClick(() => onNavigate(route))}
             className="group relative flex h-full w-full flex-col overflow-hidden rounded-[24px] bg-white text-left shadow-[0_10px_26px_rgba(23,54,111,0.08)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_24px_44px_rgba(23,54,111,0.18)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F51B83]"
           >
-            {/* Cover-style art panel: flat brand colour, orbit ring and sparkles (same look as the profile cover) */}
-            <span className="relative mx-4 mt-4 flex h-[150px] shrink-0 items-center justify-center overflow-hidden rounded-[18px]" style={{ backgroundColor: index % 2 === 0 ? '#2878D0' : '#F51B83' }}>
-              <CoverArt tone={index % 2 === 0 ? 'blue' : 'pink'} variant={index} />
-              {React.createElement(icons[index], { className: 'relative h-14 w-14 text-white transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-6' })}
+            {/* Colored tab with cut bottom corners, sitting behind the picture */}
+            <span
+              aria-hidden="true"
+              className="absolute inset-x-0 top-0 block h-[88px]"
+              style={{
+                backgroundColor: accents[index],
+                clipPath: 'polygon(0 0, 100% 0, 100% calc(100% - 25px), calc(100% - 24px) 100%, 24px 100%, 0 calc(100% - 25px))',
+              }}
+            />
+            {/* Picture */}
+            <span className="relative mx-6 mt-6 block h-[134px] shrink-0 overflow-hidden rounded-[18px] bg-white/40">
+              <img src={image} alt="" width={520} height={280} loading="lazy" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </span>
-            <span className="flex flex-1 flex-col px-6 pb-8 pt-6">
+            <span className="flex flex-1 flex-col px-6 pb-8 pt-7">
               <span className="text-[21px] font-semibold leading-snug text-[#172B4D] transition-colors duration-300 group-hover:text-[#2878D0]">{title}</span>
               <span className="mt-3 text-[14px] leading-6 text-[#647DA5]">{description}</span>
             </span>
