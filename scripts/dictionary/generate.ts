@@ -22,7 +22,7 @@ const arg = (name: string) => {
   const i = process.argv.indexOf(`--${name}`);
   return i < 0 ? undefined : process.argv[i + 1] && !process.argv[i + 1].startsWith('--') ? process.argv[i + 1] : 'true';
 };
-const MAX = Math.max(1, Math.min(20, Number(arg('max') || 5)));
+const MAX = Math.max(0, Math.min(20, Number(arg('max') ?? 5)));
 const DRY = process.argv.includes('--dry');
 const KEY = process.env.OPENAI_API_KEY;
 const MODEL = process.env.OPENAI_MODEL || 'gpt-4o';
@@ -88,6 +88,34 @@ async function askModel(seed: Seed, related: { id: string; termo: string }[], pr
   return JSON.parse(String(json?.choices?.[0]?.message?.content || '{}').replace(/^```json\s*|```$/g, ''));
 }
 
+const TR_KEYS = ['termo', 'perguntaGoogle', 'resumoUmaLinha', 'chamadaCuriosa', 'oQueSignifica', 'oQueSignificaNaAstrologia', 'exemploFicticio'] as const;
+const LANGS = { pt: 'Brazilian Portuguese (simple everyday words, warm tone, "voce" style)', es: 'neutral Latin American Spanish (simple everyday words, warm tone)' } as const;
+
+/** Translates the visible texts of a term into Portuguese and Spanish. Returns null if a check fails. */
+async function translateTerm(term: DictionaryTerm): Promise<DictionaryTerm['traducoes'] | null> {
+  const out: Record<string, Record<string, string>> = {};
+  for (const [code, label] of Object.entries(LANGS)) {
+    const source = Object.fromEntries(TR_KEYS.map((k) => [k, (term as any)[k]]));
+    let tr: any;
+    if (DRY) tr = Object.fromEntries(TR_KEYS.map((k) => [k, `[${code}] ${source[k]}`]));
+    else {
+      const res = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${KEY}` },
+        body: JSON.stringify({ model: MODEL, response_format: { type: 'json_object' }, messages: [{ role: 'user', content: `Translate these astrology dictionary texts into ${label}. Keep the meaning, the short sentences and the fictional names (Maria, Carlos). Keep astrology terms people really use in that language. Never mention AI. Return ONLY JSON with exactly the same keys.\n\n${JSON.stringify(source)}` }] }),
+      });
+      if (!res.ok) return null;
+      tr = JSON.parse(String(((await res.json()) as any)?.choices?.[0]?.message?.content || '{}'));
+    }
+    for (const k of TR_KEYS) {
+      if (typeof tr[k] !== 'string' || tr[k].trim().length < 3) return null;
+      if (/\b(AI|IA)\b|artificial|chatgpt|openai/i.test(tr[k])) return null;
+    }
+    out[code] = Object.fromEntries(TR_KEYS.map((k) => [k, String(tr[k]).trim()]));
+  }
+  return out as DictionaryTerm['traducoes'];
+}
+
 async function main() {
   if (!DRY && !KEY) {
     console.log('dictionary: OPENAI_API_KEY is not set, nothing to do (add it as a GitHub secret to turn this on).');
@@ -99,7 +127,13 @@ async function main() {
   const all = [...ASTROLOGY_DICTIONARY_TERMS.filter((t) => !generated.some((g) => g.id === t.id)), ...generated];
   const doneSlugs = new Set(all.map((t) => t.slug));
 
-  const todo = queue.filter((s) => !doneSlugs.has(slugify(s.question.replace(/\?$/, ''))) && !all.some((t) => t.perguntaGoogle === s.question) && (fails[s.question]?.count ?? 0) < 3).slice(0, MAX);
+  // Terms written before translations existed (or whose translation failed) get them now.
+  let translated = 0;
+  for (const g of generated.filter((t) => !t.traducoes?.pt || !t.traducoes?.es).slice(0, 25)) {
+    try { const tr = await translateTerm(g); if (tr) { g.traducoes = tr; translated++; console.log(`  ~ translated ${g.slug}`); } } catch { /* try again next run */ }
+  }
+
+  const todo = MAX === 0 ? [] : queue.filter((s) => !doneSlugs.has(slugify(s.question.replace(/\?$/, ''))) && !all.some((t) => t.perguntaGoogle === s.question) && (fails[s.question]?.count ?? 0) < 3).slice(0, MAX);
   console.log(`dictionary: ${todo.length} to write (queue ${queue.length}, published ${all.length})`);
 
   let added = 0;
@@ -123,6 +157,7 @@ async function main() {
         };
         problems = validateTerm(term, all.map((t) => ({ id: t.id, slug: t.slug })));
         if (!problems.length) {
+          try { term.traducoes = (await translateTerm(term)) || undefined; } catch { /* translated on the next run */ }
           generated.push(term);
           all.push(term);
           added++;
@@ -142,7 +177,7 @@ async function main() {
     fs.writeFileSync(OUT, JSON.stringify(generated, null, 2) + '\n');
     fs.writeFileSync(FAILS, JSON.stringify(fails, null, 2) + '\n');
   }
-  console.log(`dictionary: ${added} new term(s)${DRY ? ' (dry run, nothing saved)' : ''}`);
+  console.log(`dictionary: ${added} new term(s), ${translated} translated later${DRY ? ' (dry run, nothing saved)' : ''}`);
 }
 
 main().catch((e) => { console.error('dictionary failed:', e.message); process.exit(1); });

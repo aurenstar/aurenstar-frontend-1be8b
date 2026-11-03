@@ -22,7 +22,7 @@ jobs:
       - name: Write new terms (skips quietly if the key is not set)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: npm run dictionary:generate -- --max 5
+        run: npm run dictionary:generate -- --max ${{ github.event_name == 'push' && '0' || '5' }}
       - name: Check before saving
         run: npx tsc --noEmit && npm run test:dictionary
       - name: Save

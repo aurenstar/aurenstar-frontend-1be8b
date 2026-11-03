@@ -340,7 +340,7 @@ export const TERM_TRANSLATIONS: Record<TermLang, Record<string, TermTexts>> = {
 /** Returns the term with its visible texts in the chosen language (English stays untouched). */
 export function localizeTerm<T extends DictionaryTerm>(term: T, lang: 'en' | 'pt' | 'es'): T {
   if (lang === 'en') return term;
-  const texts = TERM_TRANSLATIONS[lang][term.slug];
+  const texts = TERM_TRANSLATIONS[lang][term.slug] || (term.traducoes?.[lang] as Partial<TermTexts> | undefined);
   if (!texts) return term;
   return {
     ...term,
