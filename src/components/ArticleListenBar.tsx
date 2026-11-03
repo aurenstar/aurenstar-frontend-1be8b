@@ -119,10 +119,28 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChan
     const wre = /\S+/g; let m: RegExpExecArray | null;
     while ((m = wre.exec(sent.text))) words.push({ s: m.index, e: m.index + m[0].length });
     let gotBoundary = false;
-    const showWord = (s: number, e: number) => onWordChange({ id: seg.id, start: sent.offset + s, end: sent.offset + e });
+    // Group words into short phrases (about 4 words, or up to punctuation) so the highlight
+    // moves calmly instead of jumping word by word.
+    const chunks: { s: number; e: number }[] = [];
+    let cs = -1, cn = 0;
+    words.forEach((w, i) => {
+      if (cs < 0) { cs = w.s; cn = 0; }
+      cn += 1;
+      const endsPhrase = /[,;:.!?…—-]$/.test(sent.text.slice(w.s, w.e));
+      if (cn >= 4 || endsPhrase || (w.e - cs) >= 34 || i === words.length - 1) {
+        chunks.push({ s: cs, e: w.e }); cs = -1;
+      }
+    });
+    let lastChunk = -1;
+    const showWord = (s: number) => {
+      const ci = chunks.findIndex((c) => s >= c.s && s < c.e + 1);
+      if (ci < 0 || ci === lastChunk) return;
+      lastChunk = ci;
+      onWordChange({ id: seg.id, start: sent.offset + chunks[ci].s, end: sent.offset + chunks[ci].e });
+    };
 
     u.onstart = () => {
-      if (words.length) showWord(words[0].s, words[0].e);
+      if (words.length) showWord(words[0].s);
       // Estimate the reading position over time (used until the voice reports real word events).
       // Speed is learned from the previous sentences, so it keeps getting closer to the real voice.
       t0.current = performance.now(); pausedFor.current = 0; pausedAt.current = null;
@@ -130,9 +148,9 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChan
       timer.current = window.setInterval(() => {
         if (token.current !== my || gotBoundary || pausedAt.current !== null) return;
         const elapsed = (performance.now() - t0.current - pausedFor.current) / 1000;
-        const pos = Math.min(len, elapsed * cps.current * rateRef.current);
+        const pos = Math.min(len, (elapsed + 0.25) * cps.current * rateRef.current); // small lead so the highlight is never behind
         const w = words.find((x) => pos < x.e + 1) || words[words.length - 1];
-        if (w) showWord(w.s, w.e);
+        if (w) showWord(w.s);
       }, 40);
     };
     u.onboundary = (ev: SpeechSynthesisEvent) => {
@@ -140,7 +158,7 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, onActiveChan
       if (ev.name && ev.name !== 'word') return;
       gotBoundary = true; clearTimer();
       const w = words.find((x) => ev.charIndex >= x.s && ev.charIndex < x.e) || words.find((x) => x.s >= ev.charIndex);
-      if (w) showWord(w.s, w.e);
+      if (w) showWord(w.s);
     };
     u.onend = () => {
       if (token.current !== my) return;
