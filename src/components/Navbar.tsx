@@ -39,9 +39,9 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   const navItems = [
     { key: 'home' as const, label: t.nav.home },
-    { key: 'dicionario' as const, label: 'DICTIONARY' },
+    { key: 'dicionario' as const, label: t.nav.dictionary },
     { key: 'blog' as const, label: t.nav.blog },
-    { key: 'newsletter' as const, label: 'NEWSLETTER' },
+    { key: 'newsletter' as const, label: t.nav.newsletter },
     { key: 'contact' as const, label: t.nav.contact },
   ];
 

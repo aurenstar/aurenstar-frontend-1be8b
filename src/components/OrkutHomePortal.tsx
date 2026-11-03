@@ -96,11 +96,11 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
       sidebarTopicsTitle: 'Tópicos Populares',
       sidebarTrendingTitle: 'Mais Lidos da Semana',
       sidebarToolsTitle: 'Ferramentas Práticas',
-      aurenEffectTitle: 'Efeito Aurenstar',
+      aurenEffectTitle: 'Aureneffect',
       aurenEffectDesc: 'Alinhamento astrológico calculado a cada 4 horas.',
-      discoverSignTitle: 'Sign Calculator',
+      discoverSignTitle: 'Calculadora de Signo',
       discoverSignDesc: 'Descubra seu signo solar e características com sua data.',
-      dictTitle: 'Aurenstar Dictionary',
+      dictTitle: 'Dicionário Aurenstar',
       dictDesc: 'Aprenda astrologia sem termos difíceis de entender.',
       clearFilter: 'Limpar filtro',
       activeFilterSign: (name: string, symbol: string) => `Filtrando por ${name} ${symbol}`,
@@ -178,9 +178,9 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
       sidebarToolsTitle: 'Herramientas Prácticas',
       aurenEffectTitle: 'Efecto Aurenstar',
       aurenEffectDesc: 'Alineación calculada cada 4 horas.',
-      discoverSignTitle: 'Sign Calculator',
+      discoverSignTitle: 'Calculadora de Signo',
       discoverSignDesc: 'Calcula tu signo solar con tu fecha de nacimiento.',
-      dictTitle: 'Aurenstar Dictionary',
+      dictTitle: 'Diccionario Aurenstar',
       dictDesc: 'Aprende astrología sin tecnicismos complejos.',
       clearFilter: 'Limpiar filtro',
       activeFilterSign: (name: string, symbol: string) => `Filtrando por ${name} ${symbol}`,
@@ -590,7 +590,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                   { label: 'Lua & Emoções', count: '8 artigos', cat: 'LUA' },
                   { label: 'Signos & Personalidade', count: '15 artigos', cat: 'PERSONALIDADE' },
                   { label: 'Trabalho & Carreira Astral', count: '6 artigos', cat: 'ASTROLOGIA' },
-                  { label: 'Aurenstar Dictionary', count: '16 termos', route: 'dicionario' },
+                  { label: 'Dicionário Aurenstar', count: '16 termos', route: 'dicionario' },
                 ].map((topic, idx) => (
                   <button
                     key={idx}
@@ -711,7 +711,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                   onClick={onNavigateToDictionary}
                   className="w-full h-8 rounded-xl bg-white text-[#2878D0] border border-[#D9E8F8] hover:bg-[#E4F1FF] text-[11px] font-semibold transition-colors cursor-pointer flex items-center justify-center gap-1"
                 >
-                  <span>Aurenstar Dictionary</span>
+                  <span>Dicionário Aurenstar</span>
                   <ChevronRight className="w-3 h-3" />
                 </button>
               </div>

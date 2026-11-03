@@ -131,7 +131,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
   const texts = {
     pt: {
       tag: 'Guia Simples dos Signos',
-      title: 'Sign Calculator',
+      title: 'Calculadora de Signo',
       subtitle:
         'Coloque o dia e o mês em que você nasceu para abrir a página do seu signo com conselhos simples e carinhosos.',
       backHome: 'Voltar ao Início',
@@ -181,7 +181,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
     },
     es: {
       tag: 'Guía Sencilla de Signos',
-      title: 'Sign Calculator',
+      title: 'Calculadora de Signo',
       subtitle:
         'Elige el día y mes de tu nacimiento para abrir la página con tu signo y consejos claros para tu día.',
       backHome: 'Volver al Inicio',

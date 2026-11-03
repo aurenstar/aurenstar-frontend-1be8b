@@ -10,6 +10,8 @@ export interface Translations {
     terms: string;
     about: string;
     contact: string;
+    dictionary: string;
+    newsletter: string;
   };
   hero: {
     title: string;
@@ -47,6 +49,11 @@ export interface Translations {
     aurenEffect: string;
     discoverYourSign: string;
     newsletterTitle: string;
+    contactLabel: string;
+    sourceCode: string;
+    toolsCredits: string;
+    dictionaryLabel: string;
+    unfilteredLabel: string;
     newsletterDesc: string;
     emailPlaceholder: string;
     subscribeBtn: string;
@@ -63,6 +70,8 @@ const translations: Record<Language, Translations> = {
       terms: 'TERMS OF SERVICE',
       about: 'ABOUT US',
       contact: 'CONTACT',
+      dictionary: 'DICTIONARY',
+      newsletter: 'NEWSLETTER',
     },
     hero: {
       title: 'Your Daily Zodiac Guidance',
@@ -100,6 +109,11 @@ const translations: Record<Language, Translations> = {
       aurenEffect: 'Aureneffect',
       discoverYourSign: 'Sign Calculator',
       newsletterTitle: 'Newsletter',
+      contactLabel: 'Contact',
+      sourceCode: 'Source code',
+      toolsCredits: 'Tools & Credits',
+      dictionaryLabel: 'Aurenstar Dictionary',
+      unfilteredLabel: 'Aurenstar Unfiltered',
       newsletterDesc: 'Get tips, daily updates, and uplifting reflections sent directly to you.',
       emailPlaceholder: 'Email address',
       subscribeBtn: 'Subscribe →',
@@ -114,6 +128,8 @@ const translations: Record<Language, Translations> = {
       terms: 'TERMOS DE SERVIÇO',
       about: 'SOBRE NÓS',
       contact: 'CONTATO',
+      dictionary: 'DICIONÁRIO',
+      newsletter: 'BOLETIM',
     },
     hero: {
       title: 'Sua Orientação Astrológica Diária',
@@ -134,7 +150,7 @@ const translations: Record<Language, Translations> = {
     },
     footer: {
       description: 'Orientações astrológicas e mensagens diárias simples para você começar cada manhã com paz, ânimo e harmonia.',
-      companyTitle: 'Company',
+      companyTitle: 'Empresa',
       home: 'Início',
       aboutUs: 'Sobre nós',
       pricing: 'Planos',
@@ -142,15 +158,20 @@ const translations: Record<Language, Translations> = {
       blogDetails: 'Detalhes do Blog',
       privacyPolicy: 'Política de Privacidade',
       termsOfService: 'Termos de Serviço',
-      productTitle: 'Product',
+      productTitle: 'Produto',
       features: 'Recursos',
       careers: 'Vagas',
       howItWorks: 'Como funciona',
       contact: 'Contato',
       dailyMessage: 'Aurendaily',
       aurenEffect: 'Aureneffect',
-      discoverYourSign: 'Sign Calculator',
+      discoverYourSign: 'Calculadora de Signo',
       newsletterTitle: 'Newsletter',
+      contactLabel: 'Contato',
+      sourceCode: 'Código aberto',
+      toolsCredits: 'Ferramentas e Créditos',
+      dictionaryLabel: 'Dicionário Aurenstar',
+      unfilteredLabel: 'Aurenstar Sem Filtro',
       newsletterDesc: 'Receba dicas diárias, novidades e conselhos positivos no seu e-mail.',
       emailPlaceholder: 'Seu endereço de e-mail',
       subscribeBtn: 'Inscrever →',
@@ -165,6 +186,8 @@ const translations: Record<Language, Translations> = {
       terms: 'TÉRMINOS DE SERVICIO',
       about: 'SOBRE NOSOTROS',
       contact: 'CONTACTO',
+      dictionary: 'DICCIONARIO',
+      newsletter: 'BOLETÍN',
     },
     hero: {
       title: 'Tu Guía Astrológica Diaria',
@@ -185,7 +208,7 @@ const translations: Record<Language, Translations> = {
     },
     footer: {
       description: 'Orientación astrológica y mensajes reconfortantes para empezar cada día con energía positiva y tranquilidad.',
-      companyTitle: 'Company',
+      companyTitle: 'Empresa',
       home: 'Inicio',
       aboutUs: 'Sobre nosotros',
       pricing: 'Precios',
@@ -193,15 +216,20 @@ const translations: Record<Language, Translations> = {
       blogDetails: 'Detalles del Blog',
       privacyPolicy: 'Política de Privacidad',
       termsOfService: 'Términos de Servicio',
-      productTitle: 'Product',
+      productTitle: 'Producto',
       features: 'Funciones',
       careers: 'Empleo',
       howItWorks: 'Cómo funciona',
       contact: 'Contacto',
       dailyMessage: 'Aurendaily',
       aurenEffect: 'Aureneffect',
-      discoverYourSign: 'Sign Calculator',
+      discoverYourSign: 'Calculadora de Signo',
       newsletterTitle: 'Newsletter',
+      contactLabel: 'Contacto',
+      sourceCode: 'Código abierto',
+      toolsCredits: 'Herramientas y Créditos',
+      dictionaryLabel: 'Diccionario Aurenstar',
+      unfilteredLabel: 'Aurenstar Sin Filtro',
       newsletterDesc: 'Recibe consejos diarios, novedades y reflexiones inspiradoras en tu correo.',
       emailPlaceholder: 'Correo electrónico',
       subscribeBtn: 'Suscribirse →',

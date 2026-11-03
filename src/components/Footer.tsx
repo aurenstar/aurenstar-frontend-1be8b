@@ -178,7 +178,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={handleGoContact}
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
-                  Contact
+                  {t.footer.contactLabel}
                 </a>
               </li>
               <li>
@@ -197,7 +197,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   rel="noopener noreferrer"
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
-                  Source code
+                  {t.footer.sourceCode}
                 </a>
               </li>
               <li>
@@ -206,7 +206,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={handleGoCredits}
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
-                  Tools &amp; Credits
+                  {t.footer.toolsCredits}
                 </a>
               </li>
             </ul>
@@ -267,7 +267,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   }}
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
-                  Aurenstar Dictionary
+                  {t.footer.dictionaryLabel}
                 </a>
               </li>
               <li>
@@ -280,7 +280,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   }}
                   className="hover:text-[#2878D0] transition-colors cursor-pointer"
                 >
-                  Aurenstar Unfiltered
+                  {t.footer.unfilteredLabel}
                 </a>
               </li>
               <li>

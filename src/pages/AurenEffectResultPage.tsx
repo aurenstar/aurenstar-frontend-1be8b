@@ -188,7 +188,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
         <div className="max-w-2xl mx-auto px-4 sm:px-6 text-center py-16 bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md relative z-10">
           <div className="text-4xl mb-3">✨</div>
           <h2 className="text-2xl font-black text-[#172B4D] mb-2">
-            Nenhum Efeito Auren gerado ainda
+            Nenhum Aureneffect gerado ainda
           </h2>
           <p className="text-sm text-[#647DA5] mb-6">
             Preencha seus dados simples para gerar sua mensagem e conselho de hoje!
@@ -250,7 +250,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
     pt: {
       backHome: 'Voltar ao Início',
       exploreBlog: 'Ver Artigos do Blog',
-      readingTitle: `Efeito Auren de ${displayName}`,
+      readingTitle: `Aureneffect de ${displayName}`,
       cardTitle: 'Tema da Mensagem',
       adviceTitle: 'Dica Prática do Dia',
       adviceSub: '• Para a sua rotina hoje',

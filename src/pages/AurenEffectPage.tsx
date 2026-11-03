@@ -330,12 +330,12 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
 
   const handleCopy = () => {
     if (!result) return;
-    const text = `✨ Efeito Auren de ${result.userName} ✨\n` +
+    const text = `✨ Aureneffect de ${result.userName} ✨\n` +
       `☀️ Sol em ${result.astronomy.sun.sign} | 🌙 Lua em ${result.astronomy.moon.sign} | 🧭 Ascendente em ${result.astronomy.ascendant.sign}\n` +
       `🌌 Lua de Hoje: ${result.astronomy.todayMoon.sign} (${result.astronomy.todayMoon.phase})\n\n` +
       `💭 Por que estou agindo assim hoje:\n${result.question1Answer}\n\n` +
       `🚀 O que fazer agora:\n${result.practicalSteps.map((s) => `${s.stepNumber}. ${s.title}: ${s.action}`).join('\n')}\n\n` +
-      `Descubra o seu Efeito Auren gratuitamente em: ${window.location.origin}/#/aureneffect`;
+      `Descubra o seu Aureneffect gratuitamente em: ${window.location.origin}/#/aureneffect`;
 
     navigator.clipboard.writeText(text);
     setCopiedLink(true);
@@ -344,7 +344,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
 
   const handleShareWhatsApp = () => {
     if (!result) return;
-    const text = `✨ Meu Efeito Auren de Hoje (${result.userName}) ✨\n` +
+    const text = `✨ Meu Aureneffect de Hoje (${result.userName}) ✨\n` +
       `Por que estou me sentindo assim hoje:\n"${result.question1Answer.slice(0, 160)}..."\n\n` +
       `Descubra o seu também na Aurenstar: ${window.location.origin}/#/aureneffect`;
     window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`, '_blank');
@@ -614,7 +614,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                       <span>
                         {loadingStep === 1 && '1/3 Mapeando Posições dos Astros...'}
                         {loadingStep === 2 && '2/3 Cruzando com a Lua de Hoje...'}
-                        {loadingStep === 3 && '3/3 Lapidando seu Efeito Auren...'}
+                        {loadingStep === 3 && '3/3 Lapidando seu Aureneffect...'}
                       </span>
                     </>
                   ) : (
