@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import {
   ArrowLeft,
-  Sparkles,
   Star,
-  BookOpen,
+  ArrowRight,
   Check,
   Share2,
   Calendar,
@@ -11,6 +10,7 @@ import {
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { CoverArt } from '../components/CoverArt';
+import { BLOG_ARTICLES } from '../data/blogArticles';
 import { SIGNS_DATA, LAST_DISCOVERED_SIGN_KEY, SignInfo } from '../data/signsData';
 
 interface DiscoverSignResultPageProps {
@@ -48,6 +48,8 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
   const signKey = savedData?.signKey || 'gemeos';
   const currentSign: SignInfo = SIGNS_DATA[signKey] || SIGNS_DATA.gemeos;
 
+  const recommended = BLOG_ARTICLES.find((a) => a.id === currentSign.articleId) || BLOG_ARTICLES.find((a) => a.zodiacSigns?.includes(signKey));
+
   const handleCopy = () => {
     const text = `✨ Meu Signo é ${currentSign.name[lang] || currentSign.name.pt} ${currentSign.symbol} ✨\n` +
       `📅 ${currentSign.period[lang] || currentSign.period.pt}\n\n` +
@@ -83,21 +85,21 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
         </div>
 
         {/* Cover-style result header */}
-        <header className="relative mb-6 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-9">
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
-          <div className="relative flex flex-col gap-4 pb-12 sm:flex-row sm:items-center sm:gap-5 sm:pb-0 sm:pr-[38%]">
-            <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-3xl bg-white text-5xl font-black text-[#2878D0] shadow-lg">
+        <header className="relative mb-6 overflow-hidden rounded-3xl bg-[#2878D0] p-4 text-white shadow-[0_10px_28px_rgba(23,54,111,0.15)] sm:p-5">
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-10 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
+          <div className="relative flex flex-col gap-4 pb-8 sm:flex-row sm:items-center sm:gap-4 sm:pb-0 sm:pr-[34%]">
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-white text-3xl font-black text-[#2878D0] shadow-lg">
               {currentSign.symbol}{'\uFE0E'}
             </div>
             <div>
               <div className="mb-2 inline-flex items-center rounded-full bg-white/15 px-3 py-1 text-[11px] font-bold uppercase tracking-wider">
                 {tr('Resultado da Sua Data de Nascimento','Your Birth Date Result','Resultado de Tu Fecha de Nacimiento')}
               </div>
-              <h1 className="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">
+              <h1 className="text-2xl font-extrabold leading-tight tracking-tight sm:text-3xl">
                 {tr('Seu Signo é', 'Your Sign is', 'Tu Signo es')} {currentSign.name[lang] || currentSign.name.pt}
               </h1>
-              <span aria-hidden className="mt-3 block h-1 w-12 rounded-full bg-[#F51B83]" />
-              <p className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-white/90">
+              <span aria-hidden className="mt-2 block h-1 w-10 rounded-full bg-[#F51B83]" />
+              <p className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-white/90">
                 <span className="inline-flex items-center gap-1.5"><Calendar className="h-3.5 w-3.5" />{currentSign.period[lang] || currentSign.period.pt}</span>
                 <span className="inline-flex items-center rounded-full bg-white px-2.5 py-0.5 text-[11px] font-extrabold uppercase tracking-wider text-[#2878D0]">
                   {tr('Elemento', 'Element', 'Elemento')} {currentSign.element[lang] || currentSign.element.pt}
@@ -109,8 +111,8 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
 
         {/* Essence card */}
         <div className="mb-6 overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-3 shadow-md">
-          <div className="relative overflow-hidden rounded-2xl bg-[#F51B83] p-5 text-white sm:p-6">
-            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-12 overflow-hidden opacity-50"><CoverArt tone="pink" variant={1} /></div>
+          <div className="relative overflow-hidden rounded-2xl bg-[#17366F] p-5 text-white sm:p-6">
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-12 overflow-hidden opacity-50"><CoverArt tone="blue" variant={1} /></div>
             <div className="relative">
               <h2 className="mb-2 flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-white/90">
                 <Star className="h-4 w-4" />
@@ -134,34 +136,30 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
                 <><Share2 className="h-4 w-4" /><span>{tr('Compartilhar Meu Signo','Share My Sign','Compartir Mi Signo')}</span></>
               )}
             </button>
-
-            <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
-              <button
-                type="button"
-                onClick={() => onOpenArticle(currentSign.articleId)}
-                className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-2xl bg-[#E4F1FF] px-4 py-2.5 text-xs font-bold text-[#2878D0] transition-all hover:bg-[#F51B83] hover:text-white"
-              >
-                <BookOpen className="h-3.5 w-3.5" />
-                <span>{tr('Ler Artigo Especial','Read the Special Article','Leer el Artículo Especial')}</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => {
-                  onSelectSignFilter(signKey);
-                  onBackToHome();
-                  setTimeout(() => {
-                    document.getElementById('blog')?.scrollIntoView({ behavior: 'smooth' });
-                  }, 100);
-                }}
-                className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-2xl bg-[#E4F1FF] px-4 py-2.5 text-xs font-bold text-[#2878D0] transition-all hover:bg-[#F51B83] hover:text-white"
-              >
-                <Sparkles className="h-3.5 w-3.5" />
-                <span>{tr('Ver Posts de', 'See Posts about', 'Ver Posts de')} {currentSign.name[lang] || currentSign.name.pt}</span>
-              </button>
-            </div>
           </div>
         </div>
+
+        {/* Artigo recomendado do signo */}
+        {recommended && (
+          <button
+            type="button"
+            onClick={() => onOpenArticle(recommended.id)}
+            className="group mb-6 flex w-full cursor-pointer items-stretch overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white text-left shadow-md transition-all hover:-translate-y-0.5 hover:shadow-lg"
+          >
+            <img src={recommended.image} alt="" loading="lazy" className="hidden h-auto w-32 shrink-0 object-cover sm:block" />
+            <div className="flex-1 p-4 sm:p-5">
+              <span className="inline-flex rounded-full bg-[#F51B83] px-2.5 py-0.5 text-[10px] font-extrabold uppercase tracking-wider text-white">
+                {tr('Artigo para você','Article for you','Artículo para ti')}
+              </span>
+              <h3 className="mt-2 text-base font-extrabold leading-snug text-[#172B4D] sm:text-lg">
+                {recommended.title[lang] || recommended.title.pt}
+              </h3>
+              <span className="mt-3 inline-flex items-center gap-1.5 text-xs font-bold text-[#2878D0] group-hover:text-[#F51B83]">
+                {tr('Ler no blog','Read on the blog','Leer en el blog')} <ArrowRight className="h-3.5 w-3.5" />
+              </span>
+            </div>
+          </button>
+        )}
 
         {/* Botão para Testar Outra Data */}
         <div className="text-center">
