@@ -48,7 +48,7 @@ export function getTodayDateString(): string {
 export function nextDailyResetLocalTime(): string {
   const todayNY = getTodayDateString();
   const start = Date.now();
-  for (let m = 1; m <= 25 * 60; m += 5) {
+  for (let m = 1; m <= 25 * 60; m += 1) {
     const t = new Date(start + m * 60000);
     const ny = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' }).format(t);
     if (ny !== todayNY) return t.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
