@@ -1,1 +1,251 @@
-[]
+[
+  {
+    "termo": "Natal Chart",
+    "tituloSEO": "What is a Natal Chart? Astrology Basics Explained",
+    "perguntaGoogle": "What is a natal chart?",
+    "resumoUmaLinha": "A natal chart is a map of the sky when you were born.",
+    "explicacaoEducativa": "Learn how the sky looked at your birth and how it relates to astrology.",
+    "chamadaCuriosa": "Discover your cosmic fingerprint!",
+    "oQueSignifica": "A natal chart is like a snapshot of the sky when you were born. Imagine it as a cosmic map showing where the planets were. It's unique, just like your fingerprint, and helps understand your personality.",
+    "oQueSignificaNaAstrologia": "In astrology, a natal chart shows the positions of planets when you were born. It's divided into 12 sections called houses, ruling different life areas. People see it as a guide to personal strengths, challenges, and potentials.",
+    "exemploFicticio": "Maria looked at her natal chart and saw the sun was in Leo. She felt proud when she saw how it matched her bold and sunny personality.",
+    "dicaRapida": "To start, know your birth time and place for an accurate natal chart.",
+    "miniJogo": {
+      "pergunta": "How might your natal chart feel like your cosmic map?",
+      "opcoes": [
+        {
+          "texto": "It shows the sky at birth.",
+          "correta": true,
+          "explicacao": "Correct, it maps out the positions of the planets when you were born."
+        },
+        {
+          "texto": "It predicts the future precisely.",
+          "correta": false,
+          "explicacao": "Astrology is not for precise predictions but understanding tendencies."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Do I need my exact birth time?",
+        "resposta": "Yes, to get an accurate chart, you need the exact time and place of birth."
+      },
+      {
+        "pergunta": "Can my natal chart change?",
+        "resposta": "No, your natal chart stays the same throughout your life."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-ascendente",
+      "mapa-astral",
+      "casas-astrologicas"
+    ],
+    "id": "what-is-a-natal-chart",
+    "slug": "what-is-a-natal-chart",
+    "categoria": "Chart Concepts",
+    "icone": "🗺️",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    }
+  },
+  {
+    "termo": "Birth Time",
+    "tituloSEO": "Why Birth Time Matters in Astrology: Key Insights",
+    "perguntaGoogle": "Why does birth time matter in astrology?",
+    "resumoUmaLinha": "Discover why your birth time affects astrological charts.",
+    "explicacaoEducativa": "Learn how birth time pinpoints ascendant signs and chart houses.",
+    "chamadaCuriosa": "Why does birth time influence your whole chart?",
+    "oQueSignifica": "Birth time is when you came into the world. Think of it like a unique timestamp just for you, much like how a snapshot captures a moment. This time influences how you experience life.",
+    "oQueSignificaNaAstrologia": "In astrology, birth time helps map out your personal chart. It identifies your ascendant sign and house placements. This adds detail to your life's canvas, like the scenery around a portrait, by offering clues about your personality.",
+    "exemploFicticio": "Maria was born at dawn, while Carlos arrived at dusk. This makes Maria's chart show a different focus than Carlos's. Both find it interesting when they read about their birth time in astrology books.",
+    "dicaRapida": "If unsure of your birth time, ask a family member or check your birth certificate.",
+    "miniJogo": {
+      "pergunta": "If you're unsure about your birth time, what should you do?",
+      "opcoes": [
+        {
+          "texto": "Check your birth certificate.",
+          "correta": true,
+          "explicacao": "Your birth certificate typically records your exact birth time."
+        },
+        {
+          "texto": "Guess based on your personality.",
+          "correta": false,
+          "explicacao": "Guessing can lead to inaccurate info in your chart."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Can birth time affect my zodiac sign?",
+        "resposta": "No, your zodiac sign is based on birth date, not time."
+      },
+      {
+        "pergunta": "What if I don’t have my exact birth time?",
+        "resposta": "Approximate times can affect chart precision, but astrologers may use midday."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-ascendente",
+      "casas-astrologicas"
+    ],
+    "id": "why-does-birth-time-matter-in-astrology",
+    "slug": "why-does-birth-time-matter-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "⏰",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    }
+  },
+  {
+    "termo": "Astrological Houses",
+    "tituloSEO": "What are the Houses in Astrology? A Simple Guide",
+    "perguntaGoogle": "What are the houses in astrology?",
+    "resumoUmaLinha": "Astrological houses are like the stages of life's play.",
+    "explicacaoEducativa": "Learn about the 12 houses representing different life areas.",
+    "chamadaCuriosa": "Discover your life's stage in astrology!",
+    "oQueSignifica": "Think of astrological houses as rooms in a big house. Each room has a purpose. One room could be for relaxing, another for working. Similarly, each house in astrology has a different life focus.",
+    "oQueSignificaNaAstrologia": "In astrology, houses are twelve sections of your birth chart. They represent different life areas like home, love, or career. Your planets in each house show how you might act in that area.",
+    "exemploFicticio": "Maria notices her Venus is in the seventh house. She decides to focus on relationships as Venus relates to love and this house reflects partnerships.",
+    "dicaRapida": "Check which planets are in each house to understand life areas better.",
+    "miniJogo": {
+      "pergunta": "Which house represents home and family?",
+      "opcoes": [
+        {
+          "texto": "Fourth house",
+          "correta": true,
+          "explicacao": "The fourth house is linked to home and family."
+        },
+        {
+          "texto": "Tenth house",
+          "correta": false,
+          "explicacao": "The tenth house relates to career and status."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "How many astrological houses are there?",
+        "resposta": "There are 12 astrological houses, each representing a different life area."
+      },
+      {
+        "pergunta": "Do astrological houses change?",
+        "resposta": "Houses don’t change, but planets move through them over time, affecting life areas."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-ascendente",
+      "mapa-astral",
+      "cuspide"
+    ],
+    "id": "what-are-the-houses-in-astrology",
+    "slug": "what-are-the-houses-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "🏠",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    }
+  },
+  {
+    "termo": "Midheaven",
+    "tituloSEO": "What is the Midheaven in Astrology? A Simple Guide",
+    "perguntaGoogle": "What is the Midheaven in astrology?",
+    "resumoUmaLinha": "The Midheaven is about your career and public life in astrology.",
+    "explicacaoEducativa": "Learn how the Midheaven represents your goals and public image.",
+    "chamadaCuriosa": "Discover the key to career aspirations!",
+    "oQueSignifica": "The Midheaven is like your professional reputation. Imagine your name displayed on a public billboard. It represents your career, goals, and how you want the world to see you.",
+    "oQueSignificaNaAstrologia": "In astrology, the Midheaven is the highest point in your birth chart. It is linked to your career path and public image. It's about what you aim for in life and how others perceive your achievements. Think of it as the direction your life's work takes.",
+    "exemploFicticio": "Maria loves helping people as a nurse. Her Midheaven is in Cancer, showing her nurturing career. It helps her in understanding what fulfills her professionally.",
+    "dicaRapida": "Check your Midheaven sign to align your goals with your career path.",
+    "miniJogo": {
+      "pergunta": "What does the Midheaven help you understand?",
+      "opcoes": [
+        {
+          "texto": "Your career and public image",
+          "correta": true,
+          "explicacao": "The Midheaven is about career goals and your public persona."
+        },
+        {
+          "texto": "Your emotional responses",
+          "correta": false,
+          "explicacao": "Emotional responses are more related to the Moon sign."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Can the Midheaven change over time?",
+        "resposta": "No, the Midheaven remains the same, but how it influences you can evolve."
+      },
+      {
+        "pergunta": "Is the Midheaven the same as the Ascendant?",
+        "resposta": "No, the Midheaven is about career, while the Ascendant is your public personality."
+      }
+    ],
+    "termosRelacionados": [
+      "mapa-astral",
+      "what-is-a-natal-chart",
+      "casas-astrologicas"
+    ],
+    "id": "what-is-the-midheaven-in-astrology",
+    "slug": "what-is-the-midheaven-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "🏔️",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    }
+  },
+  {
+    "termo": "Descendant",
+    "tituloSEO": "What is the Descendant in Astrology?",
+    "perguntaGoogle": "What is the descendant in astrology?",
+    "resumoUmaLinha": "Discover what the Descendant means in your birth chart.",
+    "explicacaoEducativa": "Learn how the Descendant reveals who you are attracted to.",
+    "chamadaCuriosa": "Why does the Descendant matter?",
+    "oQueSignifica": "The Descendant is opposite to the Ascendant on your birth chart. If the Ascendant is like your front door, the Descendant can be seen as your backdoor. It shows how you connect with others and what qualities you find attractive in partners.",
+    "oQueSignificaNaAstrologia": "In astrology, the Descendant is linked to relationships and partnerships. It represents what you might seek in others and aspects of yourself that surface with close connections. This point can also shine a light on how you balance the 'we' versus 'me' in life.",
+    "exemploFicticio": "Lisa looked at her birth chart and saw her Descendant in Libra. She realized why she's always drawn to friends who bring harmony and balance.",
+    "dicaRapida": "Look up your Descendant sign to understand your ideal partner traits.",
+    "miniJogo": {
+      "pergunta": "If your Ascendant is Gemini, what's your Descendant?",
+      "opcoes": [
+        {
+          "texto": "Sagittarius",
+          "correta": true,
+          "explicacao": "The Descendant is opposite the Ascendant."
+        },
+        {
+          "texto": "Libra",
+          "correta": false,
+          "explicacao": "Libra is not opposite Gemini."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the Descendant important in love?",
+        "resposta": "Yes, it helps you understand partner preferences."
+      },
+      {
+        "pergunta": "Can my Descendant change?",
+        "resposta": "No, it stays the same; it's set by your birth chart."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-ascendente",
+      "mapa-astral",
+      "sinastria-amorosa"
+    ],
+    "id": "what-is-the-descendant-in-astrology",
+    "slug": "what-is-the-descendant-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "🌇",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    }
+  }
+]
