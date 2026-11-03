@@ -86,10 +86,10 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                       key={slug}
                       onClick={() => onOpenCard?.(slug)}
                       style={{ backgroundColor: pink ? '#F51B83' : '#2878D0' }}
-                      className="group relative flex min-h-[270px] flex-col overflow-hidden rounded-[22px] p-5 text-left shadow-[0_14px_30px_rgba(23,54,111,0.18)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_22px_44px_rgba(23,54,111,0.28)] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                      className="group relative flex min-h-[310px] flex-col overflow-hidden rounded-[22px] p-5 text-left shadow-[0_14px_30px_rgba(23,54,111,0.18)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_22px_44px_rgba(23,54,111,0.28)] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
                     >
                       {/* Same artwork language as the profile cover: flat brand colour, orbit ring, sparkles */}
-                      <span className="pointer-events-none absolute inset-x-0 bottom-0 h-32 overflow-hidden"><CoverArt tone={pink ? 'pink' : 'blue'} variant={index} /></span>
+                      <span className="pointer-events-none absolute inset-x-0 bottom-0 h-24 overflow-hidden"><CoverArt tone={pink ? 'pink' : 'blue'} /></span>
                       <span className="relative flex items-center justify-between">
                         <span className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-white/85">{category}</span>
                         <span className="text-[11px] font-extrabold tracking-[0.2em] text-white/60">{number}</span>
