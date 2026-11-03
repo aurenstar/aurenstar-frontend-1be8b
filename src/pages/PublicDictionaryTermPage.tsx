@@ -17,6 +17,7 @@ import {
   getDictionaryTermBySlug,
 } from '../data/astrologyDictionaryData';
 import { CoverArt } from '../components/CoverArt';
+import { TermIcon } from '../components/TermIcon';
 import { onPlainClick } from '../utils/links';
 import { useLanguage } from '../context/LanguageContext';
 import { categoryLabel, localizeTerm } from '../data/astrologyDictionaryTranslations';
@@ -119,7 +120,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
         <header className="relative mb-8 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-2/5"><CoverArt tone="blue" /></div>
           <div className="relative flex flex-col gap-5 pb-14 sm:flex-row sm:items-center sm:pb-0 sm:pr-[34%]">
-            <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-3xl bg-white text-5xl shadow-lg">{term.icone}</div>
+            <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-3xl bg-white text-[#2878D0] shadow-lg"><TermIcon slug={term.slug} className="h-10 w-10" /></div>
             <div className="max-w-2xl">
               <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/15 px-3.5 py-1 text-xs font-bold uppercase tracking-wider">
                 <span>{categoryLabel(term.categoria, lang)}</span>
@@ -135,7 +136,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
         <article className="relative mb-8 overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-6 shadow-md sm:p-10">
           <div className="mb-6 flex flex-wrap items-center justify-between gap-3 border-b border-[#D9E8F8] pb-5">
             <div className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#2878D0] text-3xl shadow-sm">{term.icone}</div>
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#2878D0] text-white shadow-sm"><TermIcon slug={term.slug} className="h-6 w-6" /></div>
               <div>
                 <h2 className="text-xl font-black text-[#172B4D] sm:text-2xl">{term.termo}</h2>
                 <span className="text-xs text-[#647DA5]">{c.simple}</span>
@@ -216,30 +217,31 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             </h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-              {relatedTerms.map((rel, ri) => (
-                <a
-                  key={rel.id}
-                  href={`/dicionario/${rel.slug}`}
-                  onClick={onPlainClick(() => onSelectTerm(rel.slug))}
-                  className="group flex cursor-pointer flex-col justify-between rounded-2xl border border-[#D9E8F8] bg-white p-4 text-left shadow-sm transition-all hover:-translate-y-1 hover:border-[#F51B83] hover:shadow-lg"
-                >
-                  <div>
-                    <div className="flex items-center gap-2 mb-2">
-                      <span className="flex h-9 w-9 items-center justify-center rounded-xl text-xl shadow-sm" style={{ background: ri % 2 ? '#F51B83' : '#2878D0' }}>{rel.icone}</span>
-                      <span className="font-extrabold text-xs sm:text-sm text-[#172B4D] group-hover:text-[#2878D0] transition-colors">
-                        {rel.termo}
-                      </span>
+              {relatedTerms.map((rel, ri) => {
+                const pink = ri % 2 === 1;
+                return (
+                  <a
+                    key={rel.id}
+                    href={`/dicionario/${rel.slug}`}
+                    onClick={onPlainClick(() => onSelectTerm(rel.slug))}
+                    className="group relative flex cursor-pointer flex-col justify-between overflow-hidden rounded-2xl p-4 text-left text-white shadow-md transition-all hover:-translate-y-1 hover:shadow-xl"
+                    style={{ background: pink ? '#F51B83' : '#2878D0' }}
+                  >
+                    <div className="pointer-events-none absolute inset-x-0 bottom-0 h-14 overflow-hidden opacity-70"><CoverArt tone={pink ? 'pink' : 'blue'} variant={ri} /></div>
+                    <div className="relative">
+                      <div className="mb-2 flex items-center gap-2.5">
+                        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white shadow-sm" style={{ color: pink ? '#F51B83' : '#2878D0' }}><TermIcon slug={rel.slug} className="h-5 w-5" /></span>
+                        <span className="text-sm font-extrabold leading-snug">{rel.termo}</span>
+                      </div>
+                      <p className="mb-14 line-clamp-2 text-[12px] leading-relaxed text-white/90">{rel.resumoUmaLinha}</p>
                     </div>
-                    <p className="text-[11px] text-[#647DA5] line-clamp-2 leading-relaxed mb-3">
-                      {rel.resumoUmaLinha}
-                    </p>
-                  </div>
-                  <div className="pt-2 border-t border-[#D9E8F8] flex items-center justify-between text-[11px] font-bold text-[#2878D0]">
-                    <span>{c.open}</span>
-                    <ArrowRight className="w-3 h-3 transition-transform group-hover:translate-x-1" />
-                  </div>
-                </a>
-              ))}
+                    <div className="relative -mt-10 flex items-center gap-1.5 text-[11px] font-bold">
+                      <span className="rounded-full bg-white px-3 py-1" style={{ color: pink ? '#F51B83' : '#2878D0' }}>{c.open}</span>
+                      <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1" />
+                    </div>
+                  </a>
+                );
+              })}
             </div>
           </div>
         )}
