@@ -26,6 +26,18 @@ const TOOLS: { name: string; by: string; what: L3; license: L3; link: string; li
     },
   },
   {
+    name: 'NASA JPL Development Ephemeris (DE431)',
+    by: 'NASA Jet Propulsion Laboratory',
+    what: {
+      en: 'The planetary data that Swiss Ephemeris is built from. NASA/JPL publishes it for free, and it is the same kind of data used to track real spacecraft.',
+      pt: 'Os dados dos planetas que servem de base para o Swiss Ephemeris. A NASA/JPL os publica gratuitamente, e é o mesmo tipo de dado usado para acompanhar naves espaciais reais.',
+      es: 'Los datos de los planetas en los que se basa Swiss Ephemeris. La NASA/JPL los publica gratis, y es el mismo tipo de datos que se usa para seguir naves espaciales reales.',
+    },
+    license: { en: 'Public data from a U.S. Government laboratory', pt: 'Dados públicos de um laboratório do governo dos EUA', es: 'Datos públicos de un laboratorio del gobierno de EE. UU.' },
+    link: 'https://ssd.jpl.nasa.gov/planets/eph_export.html',
+    linkLabel: 'ssd.jpl.nasa.gov',
+  },
+  {
     name: 'IANA Time Zone Database',
     by: 'IANA',
     what: {

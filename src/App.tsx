@@ -119,7 +119,11 @@ export default function App() {
       } else if (path === '/discover-sign-result' || hash === '#/discover-sign-result') {
         setCurrentPage('discover-sign-result');
       } else if (path === '/dictionary' || hash === '#/dictionary' || hash === '#/aurenstar-dictionary') {
-        setCurrentPage('dictionary');
+        // The internal dictionary editor is a work tool: visitors of the live site get the public dictionary instead.
+        // To open the editor on the live site, run localStorage.setItem('aurenstar_admin','1') once in that browser.
+        let admin = import.meta.env.DEV;
+        try { admin = admin || localStorage.getItem('aurenstar_admin') === '1'; } catch { /* storage blocked */ }
+        setCurrentPage(admin ? 'dictionary' : 'dicionario');
       } else if (path === '/dicionario' || hash === '#/dicionario' || hash === '#/dicionary') {
         setCurrentPage('dicionario');
       } else if (path === '/about' || path.startsWith('/about/')) {
