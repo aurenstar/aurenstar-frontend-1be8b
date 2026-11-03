@@ -117,8 +117,8 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
 
         {/* Cover-style header */}
         <header className="relative mb-8 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
-          <div className="pointer-events-none absolute inset-0"><CoverArt tone="blue" /></div>
-          <div className="relative flex flex-col gap-5 sm:flex-row sm:items-center">
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-2/5"><CoverArt tone="blue" /></div>
+          <div className="relative flex flex-col gap-5 pb-14 sm:flex-row sm:items-center sm:pb-0 sm:pr-[34%]">
             <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-3xl bg-white text-5xl shadow-lg">{term.icone}</div>
             <div className="max-w-2xl">
               <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/15 px-3.5 py-1 text-xs font-bold uppercase tracking-wider">
@@ -179,7 +179,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               <span>{c.example}</span>
             </h3>
             <p className="text-sm sm:text-base text-[#172B4D] leading-relaxed font-normal italic">
-              "{term.exemploFicticio}"
+              {/^["“]/.test(term.exemploFicticio) ? term.exemploFicticio : `"${term.exemploFicticio}"`}
             </p>
           </section>
 
