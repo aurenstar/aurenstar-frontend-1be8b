@@ -8,7 +8,7 @@ type ToolKey = 'daily-message' | 'aureneffect' | 'discover-sign' | 'describe-me'
 
 interface ToolExplainerSectionProps { onNavigate: (tool: ToolKey) => void; }
 
-const accents = ['#2B9FC0', '#68469B', '#E78AAE', '#2878D0'];
+const accents = ['#2878D0', '#F51B83', '#2878D0', '#F51B83'];
 
 // Real URLs so search engines can follow the cards; a normal click still navigates in-app.
 const TOOL_PATHS: Record<ToolKey, string> = {

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD9E8"/><stop offset=".5" stop-color="#E78AAE"/><stop offset="1" stop-color="#B34C86"/></linearGradient>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D6E7FB"/><stop offset=".5" stop-color="#5B93DE"/><stop offset="1" stop-color="#1E58AF"/></linearGradient>
 <radialGradient id="sun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFF8D2"/><stop offset=".55" stop-color="#FFE08A"/><stop offset="1" stop-color="#FFE08A" stop-opacity="0"/></radialGradient>
 <radialGradient id="mark" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient></defs><rect width="520" height="280" fill="url(#bg)"/>
 <circle cx="354.6" cy="25.6" r="1.16" fill="#fff" opacity="0.72"/>
