@@ -674,6 +674,18 @@ const READING_COPY: Record<ReadingLang, {
 /**
  * Camada 03: Interpretador (texto simples, sem jargão) — usado quando a IA não está disponível
  */
+
+/** First-person posts (what the person shows to others), by main feeling of the day. */
+const SHARE_FIRST: Record<string, Record<'en' | 'pt' | 'es', string>> = {
+  Fogo: { pt: 'Hoje estou com a energia lá em cima e a paciência curta. Tudo que eu quero é resolver logo, mas respiro fundo para não descontar em ninguém.', en: 'My energy is sky-high today and my patience is short. I want everything solved right now, but I am trying not to take it out on anyone.', es: 'Hoy tengo la energía por las nubes y poca paciencia. Quiero resolverlo todo ya, pero intento no descargarme con nadie.' },
+  Terra: { pt: 'Hoje só quero ritmo calmo, comida boa e as coisas no lugar. Preciso de segurança e de um dia sem sobressaltos para me sentir em paz.', en: 'Today I just want a calm pace, good food and things in their place. I need safety and a day without surprises to feel at peace.', es: 'Hoy solo quiero un ritmo tranquilo, buena comida y las cosas en su lugar. Necesito seguridad y un día sin sobresaltos para estar en paz.' },
+  Ar: { pt: 'Hoje minha cabeça não para. Penso em mil coisas ao mesmo tempo e só queria conversar com alguém que me entendesse sem eu precisar explicar tudo.', en: 'My mind will not stop today. I am thinking about a thousand things at once and I just wish someone understood me without explanations.', es: 'Hoy mi cabeza no para. Pienso en mil cosas a la vez y solo quisiera que alguien me entendiera sin explicar todo.' },
+  'Água': { pt: 'Hoje estou sentindo tudo mais fundo. Uma palavra, uma música, um silêncio, e já mexe comigo. Preciso de colo e de um tempo só meu.', en: 'I feel everything deeper today. A word, a song, a silence, and it already moves me. I need comfort and some time just for me.', es: 'Hoy siento todo más profundo. Una palabra, una canción, un silencio, y ya me remueve. Necesito cariño y un tiempo solo para mí.' },
+  Pesado: { pt: 'Hoje o dia está pesado. Parece que eu preciso dar conta de tudo e ninguém percebe. Só queria um abraço e um pouco de descanso.', en: 'Today feels heavy. It seems I have to handle everything and nobody notices. I just want a hug and some rest.', es: 'Hoy el día está pesado. Parece que tengo que con todo y nadie lo nota. Solo quisiera un abrazo y un poco de descanso.' },
+  Irrita: { pt: 'Hoje estou no limite. Uma resposta seca já me tira do sério. Se eu estiver quieta, é para não dizer o que não devo.', en: 'I am at my limit today. One curt reply and I am done. If I am quiet, it is so I do not say what I should not.', es: 'Hoy estoy al límite. Una respuesta seca y ya me saca de quicio. Si estoy callada, es para no decir lo que no debo.' },
+  Afeto: { pt: 'Hoje estou carente de carinho e de atenção. Queria ouvir que sou importante e receber aquela mensagem que me faz sorrir sem motivo.', en: 'Today I am craving affection and attention. I want to hear that I matter and get that message that makes me smile for no reason.', es: 'Hoy ando necesitada de cariño y atención. Quisiera oír que soy importante y recibir ese mensaje que me hace sonreír sin motivo.' },
+};
+
 export function generateLocalAurenEffectReading(
   userName: string,
   birthDateFormatted: string,
@@ -688,6 +700,7 @@ export function generateLocalAurenEffectReading(
   const name = (userName?.trim().split(/\s+/)[0]) || copy.fallbackName;
 
   const signals = buildSignals(facts || factsFromTriad(triad), lang, triad.todayMoon.phase);
+  const sunName = SIGN_NAMES[lang][triad.sun.signKey] || triad.sun.sign;
   const text = triggerSet(lang, signals.need || triad.todayMoon.element);
   const lc = (t: string) => t.charAt(0).toLowerCase() + t.slice(1);
   // Paragraph 1: what today feels like + the strongest thing happening inside. Paragraph 2: the deeper need + the next one.
@@ -717,8 +730,8 @@ export function generateLocalAurenEffectReading(
     affirmation: text.affirmation,
     transparencyNote: copy.note,
     headline: signals.title,
-    shareTitle: signals.title,
-    shareText: (question1Answer.replace(/^[^,]+,\s*/, '').split(/(?<=[.!?])\s+/).slice(0, 2).join(' ')).trim(),
+    shareTitle: `${sunName} · ${signals.title}`,
+    shareText: `${{ pt: `Coisa de ${sunName}: `, en: `${sunName} mood: `, es: `Cosas de ${sunName}: ` }[lang]}${(SHARE_FIRST[signals.need || triad.todayMoon.element] || SHARE_FIRST.Afeto)[lang]}`,
     generatedByAI: false,
   };
 }

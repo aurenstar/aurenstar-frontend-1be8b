@@ -365,6 +365,7 @@ export async function handleAurenEffect(body: any, apiKey?: string, precise?: Pr
     // Camada 03: Comunicação por IA - Google Gemini (Lapidação em linguagem ultra-humana)
     const languageName = { en: 'English', pt: 'Brazilian Portuguese', es: 'Spanish' }[lang];
     const TIP_KINDS = ['a small body action (water, food, stretch, a short walk, fresh air, a shower)', 'a limit set kindly with exact words (asking for time, saying no softly, asking for space)', 'a message to send to a specific kind of person with exact words', 'a small phone or screen habit with a time limit', 'choosing and doing only ONE task first, with a start time', 'a pleasant small treat or break that restores energy (music, tea, sun, a favourite song)', 'a way to ask for exactly the help or attention they need, with exact words', 'a way to give a hard conversation a better moment (after a meal, after a rest, by message first)', 'a tiny home or desk reset of only 5 minutes that clears the head'];
+    const sunSignName = (triad as any).sun?.sign || '';
     const tipKinds = [...TIP_KINDS].sort(() => Math.random() - 0.5).slice(0, 3);
     const prompt = `You write the daily "Aureneffect" message for Aurenstar, a friendly astrology site.
 Write EVERYTHING in ${languageName}.
@@ -403,8 +404,8 @@ Return ONLY a valid JSON object:
     { "stepNumber": 2, "title": "Simple title", "action": "A specific action with exact numbers or words" },
     { "stepNumber": 3, "title": "Simple title", "action": "A specific action with exact numbers or words" }
   ],
-  "shareTitle": "A short first-person title (2 to 6 words) the person would proudly post, like their own status. Example style: 'Hoje meu coração pede colo'. No name, no astrology words.",
-  "shareText": "A post for Instagram or WhatsApp status, written in FIRST PERSON as if the person themselves is showing the world how they feel today. 2 or 3 short sentences, maximum 230 characters, with real small moments, emotional, honest, relatable and easy to identify with, so friends think 'that is me too'. No name, no astrology words, no advice, no hashtags, no emojis. Same language as the message.",
+  "shareTitle": "A short title (3 to 7 words) that starts with the sign name and says the main feeling, like a status the person is proud to post. Example style: 'Gêmeos hoje: cabeça a mil'. Use exactly this sign name: ${sunSignName}. No person name.",
+  "shareText": "A post for Instagram or WhatsApp status, written in FIRST PERSON as if the person themselves is showing the world how they feel today as someone of the sign ${sunSignName}. Mention the sign name ${sunSignName} naturally exactly once (for example 'Coisa de ${sunSignName}:' or '${sunSignName} hoje:'), and let the feeling fit the typical way people of that sign feel and react, mixed with today's feelings above (still no planets, Moon or other astrology words). 2 or 3 short sentences, maximum 240 characters, with real small moments, emotional, honest, relatable and easy to identify with, so friends think 'that is me too'. No person name, no planets or Moon, no advice, no hashtags, no emojis. Same language as the message.",
   "affirmation": "One short, positive sentence the person can repeat today",
   "transparencyNote": "One short, honest sentence saying this is a gentle idea from Aurenstar to help reflect, not a prediction"
 }`;
