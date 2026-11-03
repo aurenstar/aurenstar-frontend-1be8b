@@ -47,6 +47,26 @@
     "ferramentaRelacionada": {
       "nome": "Read Today's Daily Message",
       "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Mapa Astral",
+        "perguntaGoogle": "O que é um mapa astral?",
+        "resumoUmaLinha": "Um mapa astral é um mapa do céu quando você nasceu.",
+        "chamadaCuriosa": "Descubra sua impressão digital cósmica!",
+        "oQueSignifica": "Um mapa astral é como uma foto do céu no momento em que você nasceu. Imagine como um mapa cósmico mostrando onde os planetas estavam. É único, assim como sua impressão digital, e ajuda a entender sua personalidade.",
+        "oQueSignificaNaAstrologia": "Na astrologia, um mapa astral mostra as posições dos planetas quando você nasceu. Ele é dividido em 12 partes chamadas casas, que regem diferentes áreas da vida. As pessoas veem isso como um guia para forças pessoais, desafios e potenciais.",
+        "exemploFicticio": "Maria olhou para seu mapa astral e viu que o sol estava em Leão. Ela se sentiu orgulhosa quando viu como combinava com sua personalidade ousada e radiante."
+      },
+      "es": {
+        "termo": "Carta Natal",
+        "perguntaGoogle": "¿Qué es una carta natal?",
+        "resumoUmaLinha": "Una carta natal es un mapa del cielo cuando naciste.",
+        "chamadaCuriosa": "¡Descubre tu huella cósmica!",
+        "oQueSignifica": "Una carta natal es como una foto del cielo cuando naciste. Imagina que es un mapa cósmico mostrando dónde estaban los planetas. Es única, como tu huella digital, y ayuda a entender tu personalidad.",
+        "oQueSignificaNaAstrologia": "En astrología, una carta natal muestra las posiciones de los planetas al momento de tu nacimiento. Está dividida en 12 secciones llamadas casas, que gobiernan diferentes áreas de la vida. La gente la ve como una guía para conocer tus fortalezas, desafíos y potenciales personales.",
+        "exemploFicticio": "María miró su carta natal y vio que el sol estaba en Leo. Se sintió orgullosa al ver cómo coincidía con su personalidad audaz y radiante."
+      }
     }
   },
   {
@@ -96,6 +116,26 @@
     "ferramentaRelacionada": {
       "nome": "Read Today's Daily Message",
       "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Hora de Nascimento",
+        "perguntaGoogle": "Por que a hora de nascimento importa na astrologia?",
+        "resumoUmaLinha": "Descubra por que sua hora de nascimento afeta os mapas astrológicos.",
+        "chamadaCuriosa": "Por que a hora de nascimento influencia todo o seu mapa?",
+        "oQueSignifica": "Hora de nascimento é quando você chegou ao mundo. Pense nisso como um carimbo de tempo único só para você, assim como uma foto captura um momento. Essa hora influencia como você vive a vida.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a hora de nascimento ajuda a traçar seu mapa pessoal. Ela identifica seu signo ascendente e as posições nas casas. Isso adiciona detalhes à tela da sua vida, como o cenário ao redor de um retrato, oferecendo pistas sobre sua personalidade.",
+        "exemploFicticio": "Maria nasceu ao amanhecer, enquanto Carlos chegou ao entardecer. Isso faz com que o mapa de Maria mostre um foco diferente do de Carlos. Ambos acham interessante quando leem sobre a hora de nascimento nos livros de astrologia."
+      },
+      "es": {
+        "termo": "Hora de Nacimiento",
+        "perguntaGoogle": "¿Por qué importa la hora de nacimiento en astrología?",
+        "resumoUmaLinha": "Descubre por qué tu hora de nacimiento afecta las cartas astrológicas.",
+        "chamadaCuriosa": "¿Por qué la hora de nacimiento influye en toda tu carta astral?",
+        "oQueSignifica": "La hora de nacimiento es cuando llegaste al mundo. Piénsalo como una marca de tiempo única solo para ti, igual que una foto captura un momento. Esta hora influye en cómo experimentas la vida.",
+        "oQueSignificaNaAstrologia": "En astrología, la hora de nacimiento ayuda a crear tu carta personal. Identifica tu signo ascendente y la posición de las casas. Esto añade detalles a tu vida, como el escenario alrededor de un retrato, ofreciendo pistas sobre tu personalidad.",
+        "exemploFicticio": "María nació al amanecer, mientras que Carlos llegó al anochecer. Esto hace que la carta de María muestre un enfoque diferente al de Carlos. Ambos lo encuentran interesante cuando leen sobre su hora de nacimiento en libros de astrología."
+      }
     }
   },
   {
@@ -146,6 +186,26 @@
     "ferramentaRelacionada": {
       "nome": "Read Today's Daily Message",
       "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Casas Astrológicas",
+        "perguntaGoogle": "O que são as casas na astrologia?",
+        "resumoUmaLinha": "Casas astrológicas são como os palcos da peça da vida.",
+        "chamadaCuriosa": "Descubra seu palco na vida através da astrologia!",
+        "oQueSignifica": "Pense nas casas astrológicas como cômodos de uma grande casa. Cada cômodo tem uma função. Um pode ser para relaxar, outro para trabalhar. Da mesma forma, cada casa na astrologia tem um foco de vida diferente.",
+        "oQueSignificaNaAstrologia": "Na astrologia, as casas são doze seções do seu mapa astral. Elas representam diferentes áreas da vida como lar, amor ou carreira. Seus planetas em cada casa mostram como você pode agir naquela área.",
+        "exemploFicticio": "Maria percebe que Vênus está na sétima casa. Ela decide focar nos relacionamentos, já que Vênus está ligado ao amor e essa casa reflete parcerias."
+      },
+      "es": {
+        "termo": "Casas Astrológicas",
+        "perguntaGoogle": "¿Qué son las casas en astrología?",
+        "resumoUmaLinha": "Las casas astrológicas son como los escenarios de la obra de la vida.",
+        "chamadaCuriosa": "¡Descubre el escenario de tu vida en astrología!",
+        "oQueSignifica": "Piensa en las casas astrológicas como habitaciones en una gran casa. Cada habitación tiene un propósito. Una podría ser para relajarse y otra para trabajar. De igual manera, cada casa en astrología tiene un enfoque diferente en la vida.",
+        "oQueSignificaNaAstrologia": "En astrología, las casas son doce secciones de tu carta natal. Representan distintas áreas de la vida como el hogar, el amor o la carrera. Los planetas en cada casa muestran cómo podrías actuar en esa área.",
+        "exemploFicticio": "María nota que su Venus está en la séptima casa. Decide enfocarse en las relaciones ya que Venus se relaciona con el amor y esta casa refleja las asociaciones."
+      }
     }
   },
   {
@@ -196,6 +256,26 @@
     "ferramentaRelacionada": {
       "nome": "Read Today's Daily Message",
       "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Meio do Céu",
+        "perguntaGoogle": "O que é o Meio do Céu na astrologia?",
+        "resumoUmaLinha": "O Meio do Céu fala sobre sua carreira e vida pública na astrologia.",
+        "chamadaCuriosa": "Descubra a chave para suas aspirações de carreira!",
+        "oQueSignifica": "O Meio do Céu é como sua reputação profissional. Imagine seu nome destacado em um outdoor. Representa sua carreira, objetivos e como você quer que o mundo te veja.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o Meio do Céu é o ponto mais alto do seu mapa astral. Está ligado ao seu caminho profissional e imagem pública. É sobre o que você almeja na vida e como os outros percebem suas conquistas. Pense nele como a direção que o trabalho da sua vida toma.",
+        "exemploFicticio": "Maria adora ajudar as pessoas como enfermeira. Seu Meio do Céu está em Câncer, mostrando sua carreira de cuidado. Isso ajuda a entender o que a realiza profissionalmente."
+      },
+      "es": {
+        "termo": "Medio Cielo",
+        "perguntaGoogle": "¿Qué es el Medio Cielo en astrología?",
+        "resumoUmaLinha": "El Medio Cielo trata sobre tu carrera y vida pública en astrología.",
+        "chamadaCuriosa": "¡Descubre la clave de tus aspiraciones profesionales!",
+        "oQueSignifica": "El Medio Cielo es como tu reputación profesional. Imagina tu nombre en un cartel público. Representa tu carrera, metas y cómo quieres que el mundo te vea.",
+        "oQueSignificaNaAstrologia": "En astrología, el Medio Cielo es el punto más alto de tu carta natal. Está relacionado con tu camino profesional y tu imagen pública. Se trata de lo que deseas lograr en la vida y cómo los demás perciben tus logros. Piensa en ello como la dirección que toma el trabajo de tu vida.",
+        "exemploFicticio": "A María le encanta ayudar a las personas como enfermera. Su Medio Cielo está en Cáncer, mostrando su carrera de cuidado. Esto le ayuda a entender qué la realiza profesionalmente."
+      }
     }
   },
   {
@@ -246,6 +326,26 @@
     "ferramentaRelacionada": {
       "nome": "Read Today's Daily Message",
       "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Descendente",
+        "perguntaGoogle": "O que é o descendente na astrologia?",
+        "resumoUmaLinha": "Descubra o que o Descendente significa no seu mapa astral.",
+        "chamadaCuriosa": "Por que o Descendente é importante?",
+        "oQueSignifica": "O Descendente é oposto ao Ascendente no seu mapa astral. Se o Ascendente é como a sua porta da frente, o Descendente pode ser visto como a porta dos fundos. Ele mostra como você se conecta com os outros e quais qualidades você acha atraentes em parceiros.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o Descendente está ligado a relacionamentos e parcerias. Ele representa o que você pode buscar nos outros e aspectos de você mesmo que surgem nas conexões próximas. Este ponto também pode iluminar como você equilibra o 'nós' versus o 'eu' na vida.",
+        "exemploFicticio": "Maria olhou seu mapa astral e viu seu Descendente em Libra. Ela entendeu porque sempre é atraída por amigos que trazem harmonia e equilíbrio."
+      },
+      "es": {
+        "termo": "Descendente",
+        "perguntaGoogle": "¿Qué es el descendente en astrología?",
+        "resumoUmaLinha": "Descubre qué significa el Descendente en tu carta natal.",
+        "chamadaCuriosa": "¿Por qué importa el Descendente?",
+        "oQueSignifica": "El Descendente está opuesto al Ascendente en tu carta natal. Si el Ascendente es como tu puerta principal, el Descendente puede verse como la puerta trasera. Muestra cómo te conectas con otros y qué cualidades te resultan atractivas en las parejas.",
+        "oQueSignificaNaAstrologia": "En astrología, el Descendente está relacionado con las relaciones y asociaciones. Representa lo que puedes buscar en los demás y aspectos de ti mismo que surgen en conexiones cercanas. Este punto también puede iluminar cómo equilibras el 'nosotros' versus el 'yo' en la vida.",
+        "exemploFicticio": "Lisa miró su carta natal y vio su Descendente en Libra. Se dio cuenta de por qué siempre se siente atraída por amigos que aportan armonía y equilibrio."
+      }
     }
   }
 ]
