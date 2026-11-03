@@ -12,7 +12,7 @@ import {
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { CoverArt } from '../components/CoverArt';
-import { BLOG_ARTICLES } from '../data/blogArticles';
+import { BLOG_ARTICLES, AURENSTAR_AVATAR } from '../data/blogArticles';
 import { SIGNS_DATA, LAST_DISCOVERED_SIGN_KEY, SignInfo } from '../data/signsData';
 
 interface DiscoverSignResultPageProps {
@@ -86,88 +86,93 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
           </button>
         </div>
 
-        {/* Hero */}
-        <header className="relative mb-5 overflow-hidden rounded-[2rem] bg-[#2878D0] px-6 pb-9 pt-9 text-center text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:px-10 sm:pb-11 sm:pt-11">
-          <div className="pointer-events-none absolute inset-0 overflow-hidden opacity-35"><CoverArt tone="blue" /></div>
-          <div className="relative flex flex-col items-center">
-            <span className="mb-4 inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 text-[11px] font-bold uppercase tracking-wider">
-              <Sparkles className="h-3 w-3" />
-              {tr('Resultado da Sua Data de Nascimento','Your Birth Date Result','Resultado de Tu Fecha de Nacimiento')}
-            </span>
-            <div className="mb-4 flex h-24 w-24 items-center justify-center rounded-[1.75rem] bg-white text-6xl font-black text-[#2878D0] shadow-xl ring-4 ring-white/25">
+        {/* Hero compacto */}
+        <header className="relative mb-5 overflow-hidden rounded-3xl bg-[#2878D0] px-5 py-5 text-white shadow-[0_10px_28px_rgba(23,54,111,0.15)] sm:px-7">
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/2 overflow-hidden opacity-30"><CoverArt tone="blue" /></div>
+          <div className="relative flex items-center gap-4">
+            <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-white text-4xl font-black text-[#2878D0] shadow-lg">
               {currentSign.symbol}{'\uFE0E'}
             </div>
-            <p className="text-sm font-semibold text-white/85">{tr('Seu Signo é', 'Your Sign is', 'Tu Signo es')}</p>
-            <h1 className="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
-              {currentSign.name[lang] || currentSign.name.pt}
-            </h1>
-            <span aria-hidden className="my-3 block h-1 w-12 rounded-full bg-[#F51B83]" />
-            <div className="flex flex-wrap items-center justify-center gap-2 text-sm">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 font-semibold"><Calendar className="h-3.5 w-3.5" />{currentSign.period[lang] || currentSign.period.pt}</span>
-              <span className="inline-flex items-center rounded-full bg-white px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider text-[#2878D0]">
-                {tr('Elemento', 'Element', 'Elemento')} {currentSign.element[lang] || currentSign.element.pt}
-              </span>
+            <div className="min-w-0">
+              <p className="text-[11px] font-bold uppercase tracking-wider text-white/80">{tr('Seu Signo é', 'Your Sign is', 'Tu Signo es')}</p>
+              <h1 className="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">
+                {currentSign.name[lang] || currentSign.name.pt}
+              </h1>
+              <div className="mt-1.5 flex flex-wrap items-center gap-2 text-xs">
+                <span className="inline-flex items-center gap-1.5 font-semibold text-white/90"><Calendar className="h-3.5 w-3.5" />{currentSign.period[lang] || currentSign.period.pt}</span>
+                <span className="inline-flex items-center rounded-full bg-white px-2.5 py-0.5 text-[10px] font-extrabold uppercase tracking-wider text-[#2878D0]">
+                  {tr('Elemento', 'Element', 'Elemento')} {currentSign.element[lang] || currentSign.element.pt}
+                </span>
+              </div>
             </div>
           </div>
         </header>
 
-        {/* Essence + advice */}
-        <div className="mb-5 grid gap-4 md:grid-cols-2">
-          <section className="rounded-3xl border border-[#D9E8F8] bg-white p-6 shadow-md">
-            <div className="mb-3 flex items-center gap-3">
-              <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-[#2878D0] text-white"><Star className="h-5 w-5" /></span>
-              <h2 className="text-xs font-extrabold uppercase tracking-wider text-[#2878D0]">{tr('Sua Essência','Your Essence','Tu Esencia')}</h2>
+        {/* Mensagem + artigo, mesmo tamanho */}
+        <div className="mb-6 grid items-stretch gap-4 md:grid-cols-2">
+          <section className="flex flex-col rounded-3xl border border-[#D9E8F8] bg-white p-3.5 shadow-sm">
+            <div className="relative flex h-40 items-center justify-center overflow-hidden rounded-[18px] bg-[#2878D0] sm:h-44">
+              <div className="pointer-events-none absolute inset-0 overflow-hidden"><CoverArt tone="blue" variant={1} /></div>
+              <Star className="relative h-14 w-14 text-white/90" strokeWidth={1.5} />
             </div>
-            <p className="text-base font-semibold leading-relaxed text-[#172B4D]">{currentSign.essence[lang] || currentSign.essence.pt}</p>
-          </section>
-          <section className="rounded-3xl bg-[#F51B83] p-6 text-white shadow-md">
-            <div className="mb-3 flex items-center gap-3">
-              <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-white text-[#F51B83]"><Lightbulb className="h-5 w-5" /></span>
-              <h2 className="text-xs font-extrabold uppercase tracking-wider">{tr('Dica Para Você','Tip For You','Consejo Para Ti')}</h2>
+            <div className="flex flex-1 flex-col p-2 pt-5 sm:p-3 sm:pt-5">
+              <span className="mb-3 inline-block w-fit rounded-full bg-[#2878D0] px-3.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white sm:text-[11px]">
+                {tr('Sua Essência','Your Essence','Tu Esencia')}
+              </span>
+              <h2 className="mb-2 text-base font-extrabold leading-snug text-[#172B4D] sm:text-[17px]">
+                {tr('Como é ser', 'What it is like to be', 'Cómo es ser')} {currentSign.name[lang] || currentSign.name.pt}
+              </h2>
+              <p className="text-xs leading-relaxed text-[#647DA5] sm:text-[13px]">{currentSign.essence[lang] || currentSign.essence.pt}</p>
+              <div className="mt-auto flex items-center gap-3 pt-4">
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#E4F1FF] text-lg font-black text-[#2878D0]">{currentSign.symbol}{'\uFE0E'}</span>
+                <div className="flex min-w-0 flex-col">
+                  <span className="text-xs font-bold leading-tight text-[#172B4D]">{tr('Elemento', 'Element', 'Elemento')} {currentSign.element[lang] || currentSign.element.pt}</span>
+                  <span className="mt-0.5 text-[11px] font-medium text-[#647DA5]">{currentSign.period[lang] || currentSign.period.pt}</span>
+                </div>
+              </div>
             </div>
-            <p className="text-base font-semibold leading-relaxed">{currentSign.advice[lang] || currentSign.advice.pt}</p>
           </section>
+
+          {recommended && (
+            <article
+              role="button"
+              tabIndex={0}
+              onClick={() => onOpenArticle(recommended.id)}
+              onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onOpenArticle(recommended.id); } }}
+              className="group flex cursor-pointer flex-col overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-3.5 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_18px_36px_rgba(23,54,111,0.18)] focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40"
+            >
+              <div className="h-40 w-full overflow-hidden rounded-[18px] bg-slate-100 sm:h-44">
+                <img src={recommended.image} alt={recommended.title[lang] || recommended.title.pt} loading="lazy" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              </div>
+              <div className="flex flex-1 flex-col p-2 pt-5 sm:p-3 sm:pt-5">
+                <span className="mb-3 inline-block w-fit rounded-full bg-[#F51B83] px-3.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white sm:text-[11px]">
+                  {tr('Artigo para você','Article for you','Artículo para ti')}
+                </span>
+                <h3 className="mb-2 line-clamp-2 text-base font-extrabold leading-snug text-[#172B4D] transition-colors group-hover:text-[#2878D0] sm:text-[17px]">
+                  {recommended.title[lang] || recommended.title.pt}
+                </h3>
+                <p className="mb-4 line-clamp-3 text-xs leading-relaxed text-[#647DA5] sm:text-[13px]">
+                  {recommended.subtitle[lang] || recommended.subtitle.pt}
+                </p>
+                <div className="mt-auto flex items-center gap-3">
+                  <img src={AURENSTAR_AVATAR} alt="Aurenstar" className="h-9 w-9 shrink-0 rounded-full object-cover ring-1 ring-black/5" />
+                  <div className="flex min-w-0 flex-col">
+                    <span className="text-xs font-bold leading-tight text-[#172B4D]">Aurenstar</span>
+                    <span className="mt-0.5 inline-flex items-center gap-1 text-[11px] font-bold text-[#F51B83]">
+                      {tr('Ler no blog','Read on the blog','Leer en el blog')} <ArrowRight className="h-3 w-3" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          )}
         </div>
 
-        {/* Artigo recomendado do signo */}
-        {recommended && (
-          <button
-            type="button"
-            onClick={() => onOpenArticle(recommended.id)}
-            className="group mb-5 flex w-full cursor-pointer flex-col overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white text-left shadow-md transition-all hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus-visible:ring-4 focus-visible:ring-[#F51B83]/30 sm:flex-row"
-          >
-            <img src={recommended.image} alt="" loading="lazy" className="h-40 w-full shrink-0 object-cover sm:h-auto sm:w-56" />
-            <div className="flex flex-1 flex-col justify-center p-5 sm:p-6">
-              <span className="inline-flex w-fit rounded-full bg-[#E4F1FF] px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-[#2878D0]">
-                {tr('Artigo para você','Article for you','Artículo para ti')}
-              </span>
-              <h3 className="mt-2 text-lg font-extrabold leading-snug text-[#172B4D] sm:text-xl">
-                {recommended.title[lang] || recommended.title.pt}
-              </h3>
-              <span className="mt-4 inline-flex w-fit items-center gap-2 rounded-full bg-[#F51B83] px-4 py-2 text-xs font-extrabold text-white transition-colors group-hover:bg-[#D9166F]">
-                {tr('Ler no blog','Read on the blog','Leer en el blog')} <ArrowRight className="h-3.5 w-3.5" />
-              </span>
-            </div>
-          </button>
-        )}
-
-        {/* Ações */}
-        <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <button
-            type="button"
-            onClick={handleCopy}
-            className="inline-flex w-full cursor-pointer items-center justify-center gap-2 rounded-full bg-[#2878D0] px-6 py-3 text-sm font-extrabold text-white shadow-sm transition-all hover:bg-[#17366F] focus:outline-none focus-visible:ring-4 focus-visible:ring-[#2878D0]/30 sm:w-auto"
-          >
-            {copied ? (
-              <><Check className="h-4 w-4" /><span>{tr('Copiado com Sucesso!','Copied!','¡Copiado!')}</span></>
-            ) : (
-              <><Share2 className="h-4 w-4" /><span>{tr('Compartilhar Meu Signo','Share My Sign','Compartir Mi Signo')}</span></>
-            )}
-          </button>
+        <div className="text-center">
           <button
             type="button"
             onClick={onBackToForm}
-            className="inline-flex w-full cursor-pointer items-center justify-center gap-2 rounded-full border-2 border-[#2878D0] bg-white px-6 py-2.5 text-sm font-extrabold text-[#2878D0] transition-all hover:bg-[#2878D0] hover:text-white focus:outline-none focus-visible:ring-4 focus-visible:ring-[#2878D0]/30 sm:w-auto"
+            className="inline-flex cursor-pointer items-center justify-center gap-2 rounded-full border-2 border-[#2878D0] bg-white px-6 py-2.5 text-sm font-extrabold text-[#2878D0] transition-all hover:bg-[#2878D0] hover:text-white focus:outline-none focus-visible:ring-4 focus-visible:ring-[#2878D0]/30"
           >
             <RotateCcw className="h-4 w-4" />
             <span>{tr('Colocar Outra Data','Enter Another Date','Poner Otra Fecha')}</span>
