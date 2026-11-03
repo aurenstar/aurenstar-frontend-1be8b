@@ -220,6 +220,41 @@ const PHASE: Record<SignalLang, Record<string, string>> = {
   },
 };
 
+
+// Short headlines that say the same thing as the message (the strongest feeling of the day).
+const ASPECT_TITLE: Record<SignalLang, Record<Target, { tense: string; easy: string }>> = {
+  en: {
+    sun: { tense: 'Pulled in two directions', easy: 'Trust your gut today' },
+    moon: { tense: 'Old feelings coming back', easy: 'At peace with how you feel' },
+    venus: { tense: 'Needing a little more love', easy: 'Love flows easier today' },
+    mars: { tense: 'A short fuse today', easy: 'Energy to speak up' },
+    mercury: { tense: 'Head and heart disagree', easy: 'Words come easily today' },
+    saturn: { tense: 'A heavy, tired day', easy: 'A calm, steady day' },
+  },
+  pt: {
+    sun: { tense: 'Puxado para dois lados', easy: 'Confie na sua intuição' },
+    moon: { tense: 'Sentimentos antigos voltando', easy: 'Em paz com o que sente' },
+    venus: { tense: 'Precisando de mais carinho', easy: 'O carinho flui hoje' },
+    mars: { tense: 'Pavio curto hoje', easy: 'Energia para se expressar' },
+    mercury: { tense: 'Cabeça e coração brigando', easy: 'As palavras fluem hoje' },
+    saturn: { tense: 'Um dia pesado e cansativo', easy: 'Um dia calmo e firme' },
+  },
+  es: {
+    sun: { tense: 'Tirando hacia dos lados', easy: 'Confía en tu intuición' },
+    moon: { tense: 'Sentimientos antiguos que vuelven', easy: 'En paz con lo que sientes' },
+    venus: { tense: 'Necesitando más cariño', easy: 'El cariño fluye hoy' },
+    mars: { tense: 'Poca paciencia hoy', easy: 'Energía para expresarte' },
+    mercury: { tense: 'Cabeza y corazón en desacuerdo', easy: 'Las palabras fluyen hoy' },
+    saturn: { tense: 'Un día pesado y cansado', easy: 'Un día tranquilo y firme' },
+  },
+};
+
+const TODAY_TITLE: Record<SignalLang, string[]> = {
+  en: ['Short patience, lots of drive', 'A day to slow down', 'A mind that will not stop', 'Feeling extra sensitive', 'Wanting to be noticed', 'Seeing what needs fixing', 'Longing for peace', 'Feelings run deep today', 'Restless and hopeful', 'Serious and focused', 'Wanting some space', 'Dreamy and tender'],
+  pt: ['Pouca paciência, muita vontade', 'Um dia para ir devagar', 'Uma mente que não para', 'Sensível demais hoje', 'Querendo atenção', 'Vendo o que precisa arrumar', 'Desejo de paz', 'Sentimentos profundos hoje', 'Inquietação e esperança', 'Foco e seriedade hoje', 'Querendo espaço', 'Cabeça nas nuvens, coração sensível'],
+  es: ['Poca paciencia, mucha energía', 'Un día para ir despacio', 'Una mente que no para', 'Más sensible de lo normal', 'Con ganas de atención', 'Viendo lo que hay que arreglar', 'Deseo de paz', 'Sentimientos profundos hoy', 'Inquietud y esperanza', 'Seriedad y enfoque hoy', 'Con ganas de espacio', 'Cabeza en las nubes, corazón sensible'],
+};
+
 const MERCURY_RETRO: Record<SignalLang, string> = {
   en: 'Messages and plans may get mixed up these days, so double-check things and do not take misunderstandings personally.',
   pt: 'Mensagens e planos podem se misturar nesses dias, então confira as coisas duas vezes e não leve mal-entendidos para o lado pessoal.',
@@ -252,6 +287,8 @@ export interface Signals {
   natalMoon: string;
   todayMoon: string;
   aspects: { target: Target; tense: boolean; orb: number; text: string }[];
+  /** Short headline that matches the first sentence of the message. */
+  title: string;
   phase: string;
   mercuryRetro: string | null;
   /** Which set of tips fits the strongest feeling of the day (falls back to the Moon's element). */
@@ -287,6 +324,7 @@ export function buildSignals(facts: SkyFacts, lang: SignalLang, phaseName: strin
     aspects,
     phase: PHASE[L][phaseName] || '',
     mercuryRetro: facts.today.mercuryRetro ? MERCURY_RETRO[L] : null,
+    title: lead ? (lead.tense ? ASPECT_TITLE[L][lead.target].tense : ASPECT_TITLE[L][lead.target].easy) : TODAY_TITLE[L][signIndex(facts.today.moon)],
     need: lead ? (lead.tense ? TENSE_NEED[lead.target] : EASY_NEED[lead.target]) ?? null : null,
   };
 }

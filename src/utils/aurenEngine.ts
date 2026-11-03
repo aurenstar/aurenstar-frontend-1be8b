@@ -55,6 +55,8 @@ export interface AurenEffectResult {
   }>;
   affirmation: string;
   transparencyNote: string;
+  /** Short headline that matches the message. */
+  headline?: string;
   generatedByAI: boolean;
 }
 
@@ -686,7 +688,10 @@ export function generateLocalAurenEffectReading(
   const text = triggerSet(lang, signals.need || triad.todayMoon.element);
   const lc = (t: string) => t.charAt(0).toLowerCase() + t.slice(1);
   // Paragraph 1: what today feels like + the strongest thing happening inside. Paragraph 2: the deeper need + the next one.
-  const p1 = [`${copy.intro(name)} ${lc(signals.todayMoon)}`, signals.aspects[0]?.text].filter(Boolean).join(' ');
+  const lead = signals.aspects[0]?.text;
+  const p1 = lead
+    ? `${copy.intro(name)} ${lc(lead)} ${signals.todayMoon}`
+    : `${copy.intro(name)} ${lc(signals.todayMoon)}`;
   const p2 = [signals.natalMoon, signals.aspects[1]?.text || signals.phase, signals.mercuryRetro].filter(Boolean).join(' ');
   const question1Answer = `${p1}\n\n${p2}`;
 
@@ -708,6 +713,7 @@ export function generateLocalAurenEffectReading(
     practicalSteps,
     affirmation: text.affirmation,
     transparencyNote: copy.note,
+    headline: signals.title,
     generatedByAI: false,
   };
 }

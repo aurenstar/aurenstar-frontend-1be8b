@@ -19,7 +19,7 @@ interface AurenEffectResultPageProps {
   onNavigateToBlog: () => void;
 }
 
-const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v6';
+const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v7';
 
 export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
   onBackToForm,
@@ -134,7 +134,9 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
   const signSymbol = result?.astronomy?.sun?.symbol || '♊';
   const signKey = normalizeSignKey(result?.astronomy?.sun?.sign);
 
+  // The headline is written from the same feelings as the message, so both always say the same thing.
   const curiousTitle =
+    result?.headline ||
     INTRIGUING_TITLES[signKey]?.[lang] ||
     (result?.affirmation || INTRIGUING_TITLES.gemeos.pt);
 
@@ -351,11 +353,6 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
 
           {/* Header da Leitura: Título e Signo em Destaque */}
           <div className="text-center pb-6 mb-6 border-b border-[#D9E8F8]">
-            {/* Glyph Orb */}
-            <div className="w-14 h-14 mx-auto mb-3.5 rounded-2xl bg-[#2878D0] text-white flex items-center justify-center text-2xl font-black shadow-md shadow-[#2878D0]/25">
-              {signSymbol}
-            </div>
-
             {/* Título Principal */}
             <h1 className="text-2xl sm:text-4xl font-extrabold text-[#172B4D] tracking-tight mb-2 leading-tight">
               {t.readingTitle}

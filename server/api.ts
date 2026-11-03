@@ -371,8 +371,9 @@ THE PERSON:
 - First name: "${userName}" (use only this first name)
 
 WHAT IS REALLY GOING ON INSIDE THEM TODAY (already in plain words; these come from their real birth sky and today's sky, so they are personal to this person):
+- STRONGEST feeling today (start the message with this one, and make the headline about it): "${signals.aspects[0]?.text || signals.todayMoon}"
 - Today's mood: "${signals.todayMoon}"
-${signals.aspects.map((a) => `- Strongest feeling today: "${a.text}"`).join('\n')}
+${signals.aspects.slice(1).map((a) => `- Another feeling today: "${a.text}"`).join('\n')}
 - A deeper need behind it: "${signals.natalMoon}"
 ${signals.mercuryRetro ? `- Also: "${signals.mercuryRetro}"\n` : ''}- Phase of the month: "${signals.phase}"
 
@@ -389,6 +390,7 @@ HOW TO WRITE (very important):
 
 Return ONLY a valid JSON object:
 {
+  "headline": "A very short headline (2 to 5 words) that says exactly the main feeling of your message. No astrology words, no name, no punctuation at the end.",
   "question1Answer": "2 short paragraphs answering 'Why do I feel or act this way today?' in simple words",
   "question2Answer": "1 short, friendly sentence introducing the 3 easy things to do today",
   "practicalSteps": [
@@ -463,6 +465,7 @@ Return ONLY a valid JSON object:
       astronomy: triad,
       routineTrigger: trigger,
       question1Answer: parsedData.question1Answer || fallbackResult.question1Answer,
+      headline: (typeof parsedData.headline === 'string' && parsedData.headline.trim().length > 0 && parsedData.headline.length <= 60) ? parsedData.headline.trim() : signals.title,
       question2Answer: parsedData.question2Answer || fallbackResult.question2Answer,
       practicalSteps: Array.isArray(parsedData.practicalSteps) && parsedData.practicalSteps.length >= 3
         ? parsedData.practicalSteps
