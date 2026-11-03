@@ -73,15 +73,15 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
               <button type="button" onClick={() => onOpenCard?.('platform')} className="relative mt-7 inline-flex items-center self-start rounded-full bg-[#F51B83] px-6 py-3 text-sm font-bold text-white shadow-[0_8px_18px_rgba(0,0,0,0.18)] transition hover:-translate-y-0.5 hover:bg-[#D9166F] focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
                 {t.button}<span className="ml-2" aria-hidden="true">→</span>
               </button>
-              <span className="mt-auto block h-24" aria-hidden />
+              <span className="mt-auto block h-20" aria-hidden />
             </div>
 
-            <div>
-              <div className="mb-4 inline-flex items-center gap-3 rounded-full border border-[#D9E8F8] bg-white px-4 py-2 shadow-sm">
+            <div className="flex flex-col">
+              <div className="mb-4 inline-flex items-center gap-3 self-start rounded-full border border-[#D9E8F8] bg-white px-4 py-2 shadow-sm">
                 <span aria-hidden className="h-2.5 w-2.5 rounded-full bg-[#F51B83]" />
                 <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#2878D0]">{t.label}</span>
               </div>
-              <div className="grid gap-3 sm:grid-cols-2">
+              <div className="grid flex-1 auto-rows-fr gap-3 sm:grid-cols-2">
                 {t.items.map(([number, category, title, description, slug], index) => {
                   const pink = index === 1 || index === 2;
                   return (
@@ -90,7 +90,7 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
                       key={slug}
                       onClick={() => onOpenCard?.(slug)}
                       style={{ backgroundColor: pink ? '#F51B83' : '#2878D0' }}
-                      className="group relative flex min-h-[200px] flex-col overflow-hidden rounded-[20px] p-4 text-left shadow-[0_10px_24px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_36px_rgba(23,54,111,0.26)] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                      className="group relative flex min-h-[210px] flex-col overflow-hidden rounded-[20px] p-4 text-left shadow-[0_10px_24px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_36px_rgba(23,54,111,0.26)] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
                     >
                       <span className="pointer-events-none absolute bottom-0 right-0 h-20 w-44 overflow-hidden"><CoverArt tone={pink ? 'pink' : 'blue'} /></span>
                       <span className="relative flex items-center justify-between">
