@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { CoverArt } from '../components/CoverArt';
+import { emailMessage } from '../utils/emailGuard';
 
 interface ContactPageProps {
   onBackToHome: () => void;
@@ -80,6 +81,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) return;
+    if (emailMessage(formData.email, language)) return;
     setSubmitted(true);
   };
 
@@ -624,9 +626,10 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                       type="email"
                       required
                       value={formData.email}
-                      onChange={(e) =>
-                        setFormData({ ...formData, email: e.target.value })
-                      }
+                      onChange={(e) => {
+                        setFormData({ ...formData, email: e.target.value });
+                        e.target.setCustomValidity(emailMessage(e.target.value, language));
+                      }}
                       placeholder={t.emailPlaceholder}
                       className="w-full bg-white border border-[#D9E8F8] rounded-xl px-3.5 py-2.5 text-xs text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#2878D0]/30 focus:border-[#2878D0] transition-all"
                     />

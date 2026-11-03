@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { AurenstarLogo } from './AurenstarLogo';
+import { emailMessage } from '../utils/emailGuard';
 
 interface FooterProps {
   onNavigate?: (
@@ -21,13 +22,13 @@ interface FooterProps {
 }
 
 export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [email, setEmail] = useState('');
   const [isSubscribed, setIsSubscribed] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (email.trim()) {
+    if (email.trim() && !emailMessage(email, language)) {
       setIsSubscribed(true);
       setEmail('');
       setTimeout(() => {
@@ -309,7 +310,10 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   type="email"
                   required
                   value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                    e.target.setCustomValidity(emailMessage(e.target.value, language));
+                  }}
                   placeholder={t.footer.emailPlaceholder}
                   className="bg-transparent px-3 sm:px-4 py-2 text-sm text-[#172B4D] placeholder-[#647DA5] outline-none flex-1 min-w-0"
                 />

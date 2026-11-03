@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { CoverArt } from '../components/CoverArt';
+import { emailMessage } from '../utils/emailGuard';
 
 interface NewsletterPageProps {
   onBackToHome: () => void;
@@ -49,7 +50,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!email.trim() || !zodiacSign) return;
+    if (!email.trim() || !zodiacSign || emailMessage(email, language)) return;
 
     try {
       const existing = JSON.parse(
@@ -312,7 +313,10 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
                     type="email"
                     required
                     value={email}
-                    onChange={(e) => setEmail(e.target.value)}
+                    onChange={(e) => {
+                      setEmail(e.target.value);
+                      e.target.setCustomValidity(emailMessage(e.target.value, language));
+                    }}
                     placeholder={t.emailPlaceholder}
                     className="w-full bg-white border border-[#D9E8F8] rounded-xl px-4 py-3 text-xs sm:text-sm text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#2878D0]/30 focus:border-[#2878D0] transition-all"
                   />
