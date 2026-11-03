@@ -198,7 +198,18 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
 
         {/* Profile header */}
         <div className="overflow-hidden rounded-[2rem] border border-[#D9E8F8] bg-white shadow-[0_14px_40px_rgba(23,54,111,0.1)]">
-          <div className="h-32 sm:h-44" style={{ background: 'linear-gradient(120deg, #2878D0 0%, #6D9BE6 45%, #F58CC0 100%)' }} aria-hidden />
+          <div className="relative h-28 overflow-hidden bg-[#17366F] sm:h-36" aria-hidden>
+            <span className="absolute left-[8%] top-[22%] h-1.5 w-1.5 rounded-full bg-white/70" />
+            <span className="absolute left-[22%] top-[62%] h-1 w-1 rounded-full bg-white/50" />
+            <span className="absolute left-[38%] top-[30%] h-1 w-1 rounded-full bg-white/60" />
+            <span className="absolute left-[55%] top-[68%] h-1.5 w-1.5 rounded-full bg-white/50" />
+            <span className="absolute left-[68%] top-[20%] h-1 w-1 rounded-full bg-white/70" />
+            <span className="absolute left-[82%] top-[55%] h-1.5 w-1.5 rounded-full bg-white/60" />
+            <span className="absolute left-[92%] top-[25%] h-1 w-1 rounded-full bg-white/50" />
+            <span className="absolute -right-6 -top-10 h-32 w-32 rounded-full border border-white/15" />
+            <span className="absolute -right-16 -top-20 h-52 w-52 rounded-full border border-white/10" />
+            <span className="absolute bottom-0 left-0 h-1.5 w-full bg-[#F51B83]" />
+          </div>
           <div className="px-5 pb-7 sm:px-9">
             <div className="-mt-12 flex items-end justify-between sm:-mt-14">
               <img src={AVATAR} alt="Aurenstar" className="h-24 w-24 rounded-full border-4 border-white bg-white object-cover shadow-md sm:h-28 sm:w-28" />
