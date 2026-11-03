@@ -19,6 +19,7 @@ import {
   hasGeneratedToday,
   getSavedDailyReading,
   calculateZodiacSign,
+  nextDailyResetLocalTime,
 } from '../utils/dailyReadingStorage';
 
 interface DailyMessagePageProps {
@@ -556,7 +557,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       exploreBlog: 'Ver Artigos do Blog',
       alreadyGeneratedAlert: 'Sua leitura de hoje já está pronta! ✨',
       alreadyGeneratedSub:
-        'Limite diário de 1 mensagem por dia. Você pode ver sua leitura e gerar seu card para os Stories a qualquer momento.',
+        'Você tem 1 leitura por dia. A próxima abre à meia-noite de Washington, que é às',
       viewTodayBtn: 'Ver Minha Leitura de Hoje ✨',
       formTitle: 'Seus Dados para a Leitura',
       formSubtitle: 'Preencha abaixo para abrir sua leitura do dia:',
@@ -586,7 +587,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       exploreBlog: 'Explore Blog Posts',
       alreadyGeneratedAlert: 'Your reading for today is already prepared! ✨',
       alreadyGeneratedSub:
-        'Daily limit of 1 message per day. You can view your reading and download your Story card anytime.',
+        'You get 1 reading per day. The next one opens at midnight in Washington, which is at',
       viewTodayBtn: 'View Today’s Reading ✨',
       formTitle: 'Your Details for the Reading',
       formSubtitle: 'Fill in below to open your daily reading:',
@@ -616,7 +617,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       exploreBlog: 'Ver Artículos del Blog',
       alreadyGeneratedAlert: '¡Tu lectura de hoy ya está lista! ✨',
       alreadyGeneratedSub:
-        'Límite diario de 1 mensaje al día. Puedes ver tu lectura y descargar tu card para Stories cuando quieras.',
+        'Tienes 1 lectura al día. La próxima se abre a la medianoche de Washington, que es a las',
       viewTodayBtn: 'Ver Mi Lectura de Hoy ✨',
       formTitle: 'Tus Datos para la Lectura',
       formSubtitle: 'Completa los campos para abrir tu lectura del día:',
@@ -864,6 +865,15 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                 />
               </div>
             </div>
+
+            {alreadyGeneratedToday && (
+              <div className="p-3.5 rounded-2xl bg-[#E4F1FF] border border-[#D9E8F8] text-center">
+                <p className="text-sm font-bold text-[#172B4D]">{t.alreadyGeneratedAlert}</p>
+                <p className="text-[11px] text-[#647DA5] mt-0.5 font-medium">
+                  {t.alreadyGeneratedSub} <span className="font-bold text-[#172B4D]">{nextDailyResetLocalTime()}</span>.
+                </p>
+              </div>
+            )}
 
             {/* Botão de Abrir Nova Página com Regra de 1 Leitura por Dia */}
             <div className="pt-3">

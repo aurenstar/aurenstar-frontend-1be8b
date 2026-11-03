@@ -42,7 +42,7 @@ interface AurenEffectPageProps {
 const STORAGE_KEY = 'aurenstar_effect_profile';
 const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v13';
 const LAST_CALCULATED_TIME_KEY = 'aurenstar_effect_last_calculated_at_v13';
-const SIX_HOURS_MS = 6 * 60 * 60 * 1000;
+const COOLDOWN_MS = 4 * 60 * 60 * 1000; // one reading every 4 hours
 
 export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
   onBackToHome,
@@ -145,15 +145,15 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
   const [result, setResult] = useState<AurenEffectResult | null>(null);
   const [cooldownRemainingMs, setCooldownRemainingMs] = useState<number>(0);
 
-  // Check 6-hour cooldown rule
+  // Check 4-hour cooldown rule
   useEffect(() => {
     const updateCooldown = () => {
       try {
         const lastTime = Number(localStorage.getItem(LAST_CALCULATED_TIME_KEY) || '0');
         if (lastTime) {
           const diff = Date.now() - lastTime;
-          if (diff < SIX_HOURS_MS) {
-            setCooldownRemainingMs(SIX_HOURS_MS - diff);
+          if (diff < COOLDOWN_MS) {
+            setCooldownRemainingMs(COOLDOWN_MS - diff);
             return;
           }
         }
@@ -207,7 +207,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       return;
     }
 
-    // Se estiver em cooldown de 6 horas e já tiver resultado anterior, abre o resultado atual
+    // Se estiver em cooldown de 4 horas e já tiver resultado anterior, abre o resultado atual
     if (cooldownRemainingMs > 0 && result) {
       if (onNavigateToResult) {
         onNavigateToResult();
@@ -298,7 +298,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       setCompletedSteps([]);
       try {
         localStorage.setItem(LAST_CALCULATED_TIME_KEY, String(Date.now()));
-        setCooldownRemainingMs(SIX_HOURS_MS);
+        setCooldownRemainingMs(COOLDOWN_MS);
       } catch {
         // ignore
       }
