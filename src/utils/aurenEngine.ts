@@ -730,8 +730,8 @@ export function generateLocalAurenEffectReading(
     affirmation: text.affirmation,
     transparencyNote: copy.note,
     headline: signals.title,
-    shareTitle: `${sunName} · ${signals.title}`,
-    shareText: `${{ pt: `Coisa de ${sunName}: `, en: `${sunName} mood: `, es: `Cosas de ${sunName}: ` }[lang]}${(SHARE_FIRST[signals.need || triad.todayMoon.element] || SHARE_FIRST.Afeto)[lang]}`,
+    shareTitle: sunName,
+    shareText: (SHARE_FIRST[signals.need || triad.todayMoon.element] || SHARE_FIRST.Afeto)[lang],
     generatedByAI: false,
   };
 }
