@@ -25,7 +25,21 @@ const arg = (name: string) => {
 const MAX = Math.max(0, Math.min(20, Number(arg('max') ?? 5)));
 const DRY = process.argv.includes('--dry');
 const KEY = process.env.OPENAI_API_KEY;
-const MODEL = process.env.OPENAI_MODEL || 'gpt-4o';
+const MODEL = process.env.OPENAI_MODEL || 'gpt-6.1-terra';
+
+// Counts what the model really used, so the log shows the real cost of each run (prices in US$ per 1M tokens, from OpenAI's pricing page).
+const PRICE_IN = Number(process.env.PRICE_IN ?? 1);
+const PRICE_OUT = Number(process.env.PRICE_OUT ?? 5);
+let tokensIn = 0;
+let tokensOut = 0;
+const realFetch = globalThis.fetch;
+globalThis.fetch = (async (...args: Parameters<typeof fetch>) => {
+  const res = await realFetch(...args);
+  if (String(args[0]).includes('api.openai.com')) {
+    try { const u = ((await res.clone().json()) as any)?.usage; tokensIn += u?.prompt_tokens || 0; tokensOut += u?.completion_tokens || 0; } catch { /* no usage info */ }
+  }
+  return res;
+}) as typeof fetch;
 
 const readJson = <T,>(file: string, fallback: T): T => {
   try { return JSON.parse(fs.readFileSync(file, 'utf8')) as T; } catch { return fallback; }
@@ -201,6 +215,7 @@ async function main() {
     fs.writeFileSync(OUT, JSON.stringify(generated, null, 2) + '\n');
     fs.writeFileSync(FAILS, JSON.stringify(fails, null, 2) + '\n');
   }
+  if (tokensIn || tokensOut) console.log(`dictionary: model ${MODEL} used ${tokensIn} in + ${tokensOut} out tokens = about US$ ${((tokensIn * PRICE_IN + tokensOut * PRICE_OUT) / 1e6).toFixed(4)}${added ? ` (US$ ${((tokensIn * PRICE_IN + tokensOut * PRICE_OUT) / 1e6 / added).toFixed(4)} per new term)` : ''}`);
   console.log(`dictionary: ${added} new term(s), ${translated} translated later${DRY ? ' (dry run, nothing saved)' : ''}`);
 }
 
