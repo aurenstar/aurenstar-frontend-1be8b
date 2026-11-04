@@ -604,5 +604,5 @@ export const ArticlePage: React.FC<ArticlePageProps> = (props) => {
     ensureFullArticles().then(() => { if (alive) setReady(true); });
     return () => { alive = false; };
   }, []);
-  return ready ? <ArticlePageInner {...props} /> : null;
+  return ready ? <ArticlePageInner {...props} /> : <main className="flex-1 min-h-[100vh]" />;
 };

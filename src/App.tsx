@@ -1,4 +1,4 @@
-import React, { useState, useEffect, lazy, Suspense } from 'react';
+import React, { useState, useEffect, useRef, useCallback, startTransition, lazy, Suspense } from 'react';
 import { LanguageProvider } from './context/LanguageContext';
 import { stripLangPrefix } from './utils/urlLang';
 import { SiteLocalizer } from './components/SiteLocalizer';
@@ -64,7 +64,14 @@ export type AppPageRoute =
   | 'describe-me-result';
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState<AppPageRoute>('home');
+  const [currentPage, setCurrentPageNow] = useState<AppPageRoute>('home');
+  // After the first route is read, page changes are 'transitions': the page you are on stays on screen
+  // until the next one has finished loading (no empty gap with the footer jumping up).
+  const booted = useRef(false);
+  const setCurrentPage = useCallback((p: AppPageRoute) => {
+    if (booted.current) startTransition(() => setCurrentPageNow(p));
+    else setCurrentPageNow(p);
+  }, []);
   const [currentArticleId, setCurrentArticleId] = useState<string>('post-1');
   const [currentTermSlug, setCurrentTermSlug] = useState<string>('what-is-mercury-retrograde');
   const [selectedSign, setSelectedSign] = useState<string | null>(null);
@@ -153,6 +160,7 @@ export default function App() {
     };
 
     syncRouteFromHash();
+    booted.current = true;
     window.addEventListener('popstate', syncRouteFromHash);
     window.addEventListener('hashchange', syncRouteFromHash);
     return () => {
@@ -272,7 +280,7 @@ export default function App() {
         />
 
         {/* Dynamic Page Routing (Dedicated Views for Pageviews Strategy) */}
-        <Suspense fallback={<main className="flex-1" />}>
+        <Suspense fallback={<main className="flex-1 min-h-[100vh]" />}>
         {currentPage === 'home' && (
           <main className="flex-1">
             {/* Hero Section with direct page routes */}
