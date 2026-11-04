@@ -56,7 +56,7 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
   return (
     <div
       id="painel-palavras"
-      className="w-full bg-[#C9E5FF] border-y border-[#A9CDF0] py-5 sm:py-6 overflow-hidden select-none"
+      className="w-full bg-gradient-to-b from-[#C9E5FF] to-[#E4F1FF] py-5 sm:py-6 overflow-hidden select-none"
     >
       {/* Infinite Edge-to-Edge Marquee Track with ONLY WORDS */}
       <div

@@ -86,7 +86,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   };
 
   return (
-    <footer className="w-full bg-[#E4F1FF] border-t border-[#D9E8F8] text-[#172B4D] pt-14 pb-16">
+    <footer className="w-full bg-[#E4F1FF] text-[#172B4D] pt-14 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Mobile-first grid: stack content safely instead of squeezing columns. */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-start gap-8 lg:gap-12">
