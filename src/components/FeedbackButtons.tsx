@@ -37,7 +37,7 @@ export const FeedbackButtons: React.FC<{ tool: Tool; sign?: string }> = ({ tool,
 
   return (
     <>
-    <div className="mx-auto my-8 w-[calc(100%-2rem)] max-w-md rounded-2xl border border-[#D9E8F8] bg-white p-5 text-center shadow-sm">
+    <div className="mx-auto my-8 w-full max-w-3xl rounded-2xl border border-[#D9E8F8] bg-white p-5 text-center shadow-sm">
       {done ? (
         <p className="text-sm font-bold text-[#17366F]">{t.thanks}</p>
       ) : (

@@ -546,19 +546,6 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
           </div>
         </div>
 
-        {/* Botão Azul: Acessar Blog (Identical to image_e63d7ad9.png) */}
-        {onNavigateToBlog && (
-          <div className="flex justify-center pt-1 pb-4">
-            <button
-              type="button"
-              onClick={onNavigateToBlog}
-              className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full bg-[#E73578] hover:bg-[#D0306C] text-white font-bold text-xs sm:text-sm tracking-wide transition-all cursor-pointer shadow-xs hover:shadow-sm active:scale-95"
-            >
-              <span>{t.accessBlog}</span>
-              <ArrowRight className="w-4 h-4 shrink-0" />
-            </button>
-          </div>
-        )}
 
         {/* Botão de Rodapé para Atualizar ou Voltar ao Formulário */}
         <div className="text-center pt-2 pb-6">

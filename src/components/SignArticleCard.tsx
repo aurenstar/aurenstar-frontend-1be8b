@@ -8,9 +8,9 @@ import { isPlainLeftClick } from '../utils/links';
 import { trackEvent } from '../utils/analytics';
 
 const TEXT = {
-  pt: { kicker: 'Um signo para cada pessoa', cta: (n: string) => `Ler tudo sobre ${n}` },
-  en: { kicker: 'A sign for every person', cta: (n: string) => `Read everything about ${n}` },
-  es: { kicker: 'Un signo para cada persona', cta: (n: string) => `Leer todo sobre ${n}` },
+  pt: { kicker: 'Continue explorando o seu signo' },
+  en: { kicker: 'Keep exploring your sign' },
+  es: { kicker: 'Sigue explorando tu signo' },
 } as const;
 
 const plain = (v: string) => v.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
@@ -37,17 +37,19 @@ export const SignArticleCard: React.FC<{ sign?: string; tool: string }> = ({ sig
   };
 
   return (
-    <a href={url} onClick={open} className="group mx-auto my-8 block w-[calc(100%-2rem)] max-w-xl overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white shadow-[0_10px_30px_rgba(57,130,200,0.12)] transition-all hover:-translate-y-0.5 hover:border-[#3982C8]/40">
-      <div className="relative aspect-video w-full overflow-hidden bg-[#E4F1FF]">
-        <img src={article.image} alt={article.title[lang] || article.title.pt} loading="lazy" decoding="async" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-        <span className="absolute left-3 top-3 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1 text-xs font-extrabold text-[#17366F] shadow-sm"><span className="text-base leading-none text-[#E73578]">{info.symbol}</span>{name}</span>
-      </div>
-      <div className="p-5 sm:p-6">
-        <p className="text-[11px] font-extrabold uppercase tracking-wider text-[#E73578]">{t.kicker}</p>
-        <h3 className="mt-1.5 text-lg font-extrabold leading-snug text-[#172B4D] transition-colors group-hover:text-[#3982C8] sm:text-xl">{article.title[lang] || article.title.pt}</h3>
-        <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-[#647DA5]">{article.subtitle[lang] || article.subtitle.pt}</p>
-        <span className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#E73578] px-5 py-2.5 text-sm font-extrabold text-white transition-colors group-hover:bg-[#D0306C]">{t.cta(name)}<ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" /></span>
-      </div>
-    </a>
+    <section className="mx-auto my-8 w-full max-w-3xl">
+      <h3 className="mb-3 text-center text-sm font-extrabold uppercase tracking-wider text-[#17366F]">{t.kicker}</h3>
+      <a href={url} onClick={open} className="group flex w-full items-center justify-between gap-3 rounded-2xl border border-[#D9E8F8] bg-white p-3 shadow-sm transition-all duration-300 hover:border-[#3982C8]/40 hover:shadow-md sm:p-4">
+        <div className="relative h-20 w-28 shrink-0 overflow-hidden rounded-xl bg-slate-100 sm:h-24 sm:w-36 sm:rounded-2xl">
+          <img src={article.image} alt={article.title[lang] || article.title.pt} loading="lazy" decoding="async" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+        </div>
+        <div className="min-w-0 flex-1 pr-1">
+          <span className="mb-1 block text-[10px] font-extrabold uppercase tracking-wider text-[#3982C8] sm:text-xs"><span className="text-[#E73578]">{info.symbol}{'\uFE0E'}</span> {name}</span>
+          <h4 className="mb-1 line-clamp-2 text-xs font-bold leading-snug text-[#172B4D] transition-colors group-hover:text-[#3982C8] sm:text-base">{article.title[lang] || article.title.pt}</h4>
+          <p className="line-clamp-2 text-[11px] font-normal leading-relaxed text-[#647DA5] sm:text-xs">{article.subtitle[lang] || article.subtitle.pt}</p>
+        </div>
+        <div className="shrink-0 pr-1 text-[#17366F] transition-all duration-300 group-hover:translate-x-1.5 group-hover:text-[#3982C8]"><ArrowRight className="h-5 w-5 sm:h-6 sm:w-6" /></div>
+      </a>
+    </section>
   );
 };

@@ -125,7 +125,7 @@ export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string; v
       <span>{TSHIRT_CONSENT[lang]}</span>
     </label>
   );
-  const wrap = variant === 'mini' ? 'mx-auto w-[calc(100%-2rem)] max-w-3xl' : 'mx-auto my-8 w-[calc(100%-2rem)] max-w-xl';
+  const wrap = variant === 'mini' ? 'mx-auto w-[calc(100%-2rem)] max-w-3xl' : 'mx-auto my-8 w-full max-w-3xl';
 
   if (state === 'done') {
     return (

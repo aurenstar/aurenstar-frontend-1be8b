@@ -69,28 +69,6 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
         <p className="mt-10 text-sm text-[#647DA5]">{formatTime(result.createdAt, lang)} · aurenstar.com</p>
       </div>
       <div className="mt-4 flex flex-wrap justify-center gap-2"><button type="button" onClick={download} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#E73578] px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-[#D0306C] transition-colors disabled:opacity-60 sm:px-5 sm:text-sm"><Download className="h-4 w-4 shrink-0" />{downloadLabel}</button><button type="button" onClick={downloadStory} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#E73578] px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-[#D0306C] transition-colors disabled:opacity-60 sm:px-5 sm:text-sm"><Smartphone className="h-4 w-4 shrink-0" />{storyLabel}</button></div>
-      {post && (
-        <section className="mx-auto mt-10 max-w-3xl">
-          <h3 className="mb-4 text-center text-sm font-extrabold uppercase tracking-wider text-[#17366F] sm:text-base">{recommendLabel}</h3>
-          <div
-            role="button"
-            tabIndex={0}
-            onClick={() => (onOpenArticle ? onOpenArticle(post.id) : onNavigateToBlog())}
-            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); if (onOpenArticle) onOpenArticle(post.id); else onNavigateToBlog(); } }}
-            className="group flex w-full cursor-pointer items-center justify-between gap-3 rounded-2xl border border-[#D9E8F8] bg-white p-3 shadow-sm transition-all duration-300 hover:border-[#3982C8]/40 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#3982C8]/40 sm:gap-6 sm:rounded-3xl sm:p-4"
-          >
-            <div className="relative h-20 w-28 shrink-0 overflow-hidden rounded-xl bg-slate-100 sm:h-28 sm:w-44 sm:rounded-2xl">
-              <img src={cardImage(post.image)} alt={post.title[lang as 'pt' | 'en' | 'es'] || post.title.pt} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-            </div>
-            <div className="min-w-0 flex-1 pr-1 sm:pr-2">
-              <span className="mb-1 block text-[10px] font-extrabold uppercase tracking-wider text-[#3982C8] sm:text-xs">{post.category[lang as 'pt' | 'en' | 'es'] || post.category.pt}</span>
-              <h4 className="mb-1 line-clamp-2 text-xs font-bold leading-snug text-[#172B4D] transition-colors group-hover:text-[#3982C8] sm:text-base lg:text-lg">{post.title[lang as 'pt' | 'en' | 'es'] || post.title.pt}</h4>
-              <p className="line-clamp-2 text-[11px] font-normal leading-relaxed text-[#647DA5] sm:text-xs">{post.subtitle[lang as 'pt' | 'en' | 'es'] || post.subtitle.pt}</p>
-            </div>
-            <div className="shrink-0 pr-1 text-[#17366F] transition-all duration-300 group-hover:translate-x-1.5 group-hover:text-[#3982C8] sm:pr-2"><ArrowRight className="h-5 w-5 sm:h-6 sm:w-6" /></div>
-          </div>
-        </section>
-      )}
       <FeedbackButtons tool="describe_me" sign={result.sign} />
     </div>
   </section>;
