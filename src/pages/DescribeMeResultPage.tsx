@@ -3,6 +3,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { ArrowLeft, ArrowRight, Download, Sparkles, Check, Smartphone } from 'lucide-react';
 import { downloadStoryCard, downloadVerticalStoryCard, type StoryCardData } from '../utils/generateStoryCard';
 import { useLanguage } from '../context/LanguageContext';
+import { FeedbackButtons } from '../components/FeedbackButtons';
 import { DESCRIBE_ME_RESULT_KEY } from './DescribeMePage';
 import { themeTitle } from '../utils/unfilteredThemes';
 import { useTranslated } from '../utils/useTranslated';
@@ -90,6 +91,7 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
           </div>
         </section>
       )}
+      <FeedbackButtons tool="describe_me" sign={result.sign} />
     </div>
   </section>;
 };

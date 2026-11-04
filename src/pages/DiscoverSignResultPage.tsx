@@ -12,6 +12,7 @@ import {
   RotateCcw,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { FeedbackButtons } from '../components/FeedbackButtons';
 import { CoverArt } from '../components/CoverArt';
 import { BLOG_ARTICLES } from '../data/blogArticles';
 import { SIGNS_DATA, LAST_DISCOVERED_SIGN_KEY, SignInfo } from '../data/signsData';
@@ -167,6 +168,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
           </button>
         </div>
       </div>
+      <FeedbackButtons tool="discover_sign" sign={signKey} />
     </div>
   );
 };

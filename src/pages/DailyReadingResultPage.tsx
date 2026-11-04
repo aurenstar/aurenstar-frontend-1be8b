@@ -23,6 +23,7 @@ import {
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { CoverArt } from '../components/CoverArt';
+import { FeedbackButtons } from '../components/FeedbackButtons';
 import { ShareModal } from '../components/ShareModal';
 import { getSavedDailyReading, DailyReadingRecord } from '../utils/dailyReadingStorage';
 import { downloadStoryCard, downloadVerticalStoryCard, StoryCardData } from '../utils/generateStoryCard';
@@ -500,6 +501,8 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
           </button>
         </div>
       </div>
+
+      <FeedbackButtons tool="daily_message" sign={savedReading.signKey} />
 
       {/* Share Modal with Card Generator */}
       <ShareModal

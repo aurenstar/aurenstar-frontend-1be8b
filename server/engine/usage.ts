@@ -61,3 +61,8 @@ export async function countHit(env: UsageEnv, key: string, windowSeconds: number
 export function washingtonDate(): string {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
 }
+
+/** Anonymous thumbs up/down (tool, rating, sign, language only). */
+export async function recordFeedback(env: UsageEnv, tool: string, rating: number, sign: string, lang: string): Promise<void> {
+  await call(env, 'feedback_add', { p_tool: tool, p_rating: rating, p_sign: sign, p_lang: lang });
+}

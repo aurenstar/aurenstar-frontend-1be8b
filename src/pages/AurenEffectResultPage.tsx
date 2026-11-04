@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import { CoverArt } from '../components/CoverArt';
 import { useLanguage } from '../context/LanguageContext';
+import { FeedbackButtons } from '../components/FeedbackButtons';
 import { AURENSTAR_AVATAR } from '../data/blogArticles';
 import { AurenEffectResult } from '../utils/aurenEngine';
 import { StoryCardData, downloadStoryCard, downloadVerticalStoryCard } from '../utils/generateStoryCard';
@@ -580,6 +581,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
           </div>
         )}
       </div>
+      <FeedbackButtons tool="auren_effect" sign={signKey} />
     </div>
   );
 };
