@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-hidden="true"><defs>
-<radialGradient id="ht" cx=".32" cy=".25" r=".95"><stop offset="0" stop-color="#FFE3F1"/><stop offset=".3" stop-color="#FF6FB1"/><stop offset=".75" stop-color="#E0147A"/><stop offset="1" stop-color="#8F0A4D"/></radialGradient>
-<radialGradient id="sh" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#5a0a35" stop-opacity=".5"/><stop offset="1" stop-color="#5a0a35" stop-opacity="0"/></radialGradient>
+<radialGradient id="ht" cx=".32" cy=".25" r=".95"><stop offset="0" stop-color="#FDE5ED"/><stop offset=".3" stop-color="#F678A2"/><stop offset=".75" stop-color="#D4205C"/><stop offset="1" stop-color="#871239"/></radialGradient>
+<radialGradient id="sh" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#550F26" stop-opacity=".5"/><stop offset="1" stop-color="#550F26" stop-opacity="0"/></radialGradient>
 <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF1A8"/><stop offset=".5" stop-color="#F5B800"/><stop offset="1" stop-color="#B27A00"/></linearGradient></defs>
 <ellipse cx="200" cy="200" rx="100" ry="13" fill="url(#sh)"/>
 <path d="M200 186C98 120 90 66 128 40c28-18 56-4 72 22 16-26 44-40 72-22 38 26 30 80-72 146z" fill="url(#ht)"/>
