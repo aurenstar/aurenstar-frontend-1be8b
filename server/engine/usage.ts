@@ -85,3 +85,9 @@ export async function recordSubscriber(
     return false;
   }
 }
+
+/** How many people are on the t-shirt list (for the "spots left" counter). null when the database is unreachable. */
+export async function countSubscribers(env: UsageEnv): Promise<number | null> {
+  const n = await call<number>(env, 'tshirt_signups', {});
+  return typeof n === 'number' ? n : null;
+}
