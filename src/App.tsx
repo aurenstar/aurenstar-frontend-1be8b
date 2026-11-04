@@ -293,6 +293,7 @@ export default function App() {
 
             {/* Zodiac panel above the footer */}
             <BrandMarquee
+              joinFooter
               selectedSign={selectedSign}
               onSelectSign={setSelectedSign}
             />

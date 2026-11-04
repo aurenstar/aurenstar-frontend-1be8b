@@ -27,11 +27,14 @@ export const ZODIAC_SIGNS: ZodiacSignItem[] = [
 interface BrandMarqueeProps {
   selectedSign?: string | null;
   onSelectSign?: (signKey: string | null) => void;
+  /** Fade into the footer colour (only the strip right above the footer). */
+  joinFooter?: boolean;
 }
 
 export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
   selectedSign,
   onSelectSign,
+  joinFooter = false,
 }) => {
   const { language } = useLanguage();
   const lang = (language || 'pt') as 'pt' | 'en' | 'es';
@@ -56,7 +59,7 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
   return (
     <div
       id="painel-palavras"
-      className="w-full bg-gradient-to-b from-[#C9E5FF] to-[#E4F1FF] py-5 sm:py-6 overflow-hidden select-none"
+      className={`w-full py-5 sm:py-6 overflow-hidden select-none ${joinFooter ? 'bg-gradient-to-b from-[#C9E5FF] to-[#E4F1FF]' : 'bg-[#C9E5FF] border-y border-[#A9CDF0]'}`}
     >
       {/* Infinite Edge-to-Edge Marquee Track with ONLY WORDS */}
       <div
