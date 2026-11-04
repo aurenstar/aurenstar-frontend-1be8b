@@ -21,6 +21,23 @@ let ready: Promise<TurnstileApi | null> | null = null;
 let widgetId: string | null = null;
 let pending: ((token: string | null) => void) | null = null;
 let queue: Promise<unknown> = Promise.resolve();
+// A proof that arrived when nobody was waiting (the person ticked the box late) is kept for the next request.
+// Cloudflare proofs live 5 minutes and work once.
+let kept: { token: string; at: number } | null = null;
+const KEEP_MS = 240_000;
+let hint: HTMLElement | null = null;
+let extend: (() => void) | null = null;
+
+const HINT: Record<string, string> = {
+  pt: 'Só uma verificação rápida: marque a caixinha para continuar.',
+  es: 'Solo una verificación rápida: marca la casilla para continuar.',
+  en: 'Just a quick check: tick the box to continue.',
+};
+const showHint = (on: boolean) => {
+  if (!hint) return;
+  hint.textContent = HINT[(document.documentElement.lang || 'en').slice(0, 2)] || HINT.en;
+  hint.style.display = on ? 'block' : 'none';
+};
 
 function load(): Promise<TurnstileApi | null> {
   if (ready) return ready;
@@ -32,15 +49,26 @@ function load(): Promise<TurnstileApi | null> {
       const api = window.turnstile;
       if (!api) return resolve(null);
       const holder = document.createElement('div');
-      holder.style.cssText = 'position:fixed;bottom:12px;right:12px;z-index:99999';
+      holder.style.cssText = 'position:fixed;bottom:12px;right:12px;z-index:99999;display:flex;flex-direction:column;align-items:flex-end;gap:6px;max-width:calc(100vw - 24px)';
+      hint = document.createElement('div');
+      hint.style.cssText = 'display:none;background:#fff;color:#172B4D;border:1px solid #D9E8F8;border-radius:12px;padding:8px 12px;font:600 12px system-ui,sans-serif;box-shadow:0 6px 18px rgba(23,54,111,.18)';
+      holder.appendChild(hint);
+      const box = document.createElement('div');
+      holder.appendChild(box);
       document.body.appendChild(holder);
-      widgetId = api.render(holder, {
+      widgetId = api.render(box, {
         sitekey: SITE_KEY,
         execution: 'execute',
         appearance: 'interaction-only',
-        callback: (token: string) => pending?.(token),
-        'error-callback': () => pending?.(null),
-        'timeout-callback': () => pending?.(null),
+        // the box appeared: the person needs time to tick it, so wait for them
+        'before-interactive-callback': () => { showHint(true); extend?.(); },
+        callback: (token: string) => {
+          showHint(false);
+          if (pending) pending(token);
+          else kept = { token, at: Date.now() };
+        },
+        'error-callback': () => { showHint(false); pending?.(null); },
+        'timeout-callback': () => { showHint(false); pending?.(null); },
       });
       resolve(api);
     };
@@ -52,12 +80,15 @@ function load(): Promise<TurnstileApi | null> {
 
 function freshToken(): Promise<string | null> {
   const run = async () => {
+    if (kept && Date.now() - kept.at < KEEP_MS) { const t = kept.token; kept = null; return t; }
+    kept = null;
     const api = await load();
     if (!api || !widgetId) return null;
     return new Promise<string | null>((resolve) => {
-      const timer = setTimeout(() => { pending = null; resolve(null); }, 10000);
-      pending = (token) => { clearTimeout(timer); pending = null; resolve(token); };
-      try { api.reset(widgetId as string); api.execute(widgetId as string); } catch { clearTimeout(timer); pending = null; resolve(null); }
+      let timer = setTimeout(() => { extend = null; pending = null; resolve(null); }, 12000);
+      extend = () => { clearTimeout(timer); timer = setTimeout(() => { extend = null; pending = null; showHint(false); resolve(null); }, 120000); };
+      pending = (token) => { clearTimeout(timer); extend = null; pending = null; resolve(token); };
+      try { api.reset(widgetId as string); api.execute(widgetId as string); } catch { clearTimeout(timer); extend = null; pending = null; resolve(null); }
     });
   };
   const next = queue.then(run, run);
