@@ -7,6 +7,8 @@ import { SOCIAL_LINKS } from '../data/socialLinks';
 import { SocialIcon } from './SocialIcon';
 import { reopenConsent } from '../utils/consent';
 import { clearSharedProfile } from '../utils/sharedProfile';
+import { subscribeEmail } from '../utils/subscribe';
+import { TSHIRT_CONSENT } from '../data/subscribeConsent';
 
 interface FooterProps {
   onNavigate?: (
@@ -35,16 +37,25 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   const [email, setEmail] = useState('');
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [forgot, setForgot] = useState(false);
+  const [consent, setConsent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [subError, setSubError] = useState(false);
+  const consentLang = (language === 'pt' || language === 'es' ? language : 'en') as 'pt' | 'en' | 'es';
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email.trim() && !emailMessage(email, language)) {
-      setIsSubscribed(true);
-      setEmail('');
-      setTimeout(() => {
-        setIsSubscribed(false);
-      }, 4000);
-    }
+    if (sending || !consent || !email.trim() || emailMessage(email, language)) return;
+    setSending(true);
+    setSubError(false);
+    const ok = await subscribeEmail({ email, lang: consentLang, source: 'footer' });
+    setSending(false);
+    if (!ok) { setSubError(true); return; }
+    setIsSubscribed(true);
+    setEmail('');
+    setConsent(false);
+    setTimeout(() => {
+      setIsSubscribed(false);
+    }, 5000);
   };
 
   const handleGoHome = (e: React.MouseEvent) => {
@@ -342,9 +353,18 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 </button>
               </div>
 
+              <label className="mt-3 flex cursor-pointer items-start gap-2 text-[11px] leading-snug text-[#647DA5]">
+                <input type="checkbox" required checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 h-3.5 w-3.5 shrink-0 cursor-pointer accent-[#E73578]" />
+                <span>{TSHIRT_CONSENT[consentLang]}</span>
+              </label>
               {isSubscribed && (
-                <p className="absolute -bottom-6 left-2 text-xs font-medium text-emerald-600 animate-fadeIn">
+                <p className="mt-2 text-xs font-medium text-emerald-600 animate-fadeIn">
                   ✓ {t.footer.subscribeSuccess}
+                </p>
+              )}
+              {subError && (
+                <p className="mt-2 text-xs font-medium text-[#E73578] animate-fadeIn">
+                  {consentLang === 'pt' ? 'Não deu certo agora. Tente de novo em instantes.' : consentLang === 'es' ? 'No funcionó ahora. Inténtalo de nuevo en un momento.' : 'That did not work just now. Please try again in a moment.'}
                 </p>
               )}
             </form>

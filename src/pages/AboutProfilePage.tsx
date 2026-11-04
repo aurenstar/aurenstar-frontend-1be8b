@@ -76,7 +76,7 @@ const COPY: Record<Lang, {
     contactTitle: 'Vamos conversar?',
     contactText: 'Parcerias, ideias ou dúvidas: respondemos em até 24 horas úteis.',
     contactBtn: 'Falar com a Aurenstar',
-    newsletterBtn: 'Receber posts do meu signo',
+    newsletterBtn: 'Entrar na lista das camisetas',
   },
   en: {
     back: 'Back to Home',
@@ -123,7 +123,7 @@ const COPY: Record<Lang, {
     contactTitle: 'Shall we talk?',
     contactText: 'Partnerships, ideas or questions: we reply within 24 business hours.',
     contactBtn: 'Talk to Aurenstar',
-    newsletterBtn: 'Get posts for my sign',
+    newsletterBtn: 'Join the t-shirt list',
   },
   es: {
     back: 'Volver al Inicio',
@@ -170,7 +170,7 @@ const COPY: Record<Lang, {
     contactTitle: '¿Hablamos?',
     contactText: 'Alianzas, ideas o dudas: respondemos en hasta 24 horas hábiles.',
     contactBtn: 'Hablar con Aurenstar',
-    newsletterBtn: 'Recibir posts de mi signo',
+    newsletterBtn: 'Entrar en la lista de camisetas',
   },
 };
 

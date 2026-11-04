@@ -66,3 +66,22 @@ export function washingtonDate(): string {
 export async function recordFeedback(env: UsageEnv, tool: string, rating: number, sign: string, lang: string): Promise<void> {
   await call(env, 'feedback_add', { p_tool: tool, p_rating: rating, p_sign: sign, p_lang: lang });
 }
+
+/** Adds an address to the t-shirt waiting list. Returns false if the database could not be reached, so the visitor is told. */
+export async function recordSubscriber(
+  env: UsageEnv,
+  s: { email: string; sign: string; lang: string; source: string; consentText: string },
+): Promise<boolean> {
+  try {
+    const base = (env.SUPABASE_URL || DEFAULT_URL).replace(/\/$/, '');
+    const key = env.SUPABASE_ANON_KEY || DEFAULT_KEY;
+    const res = await fetch(`${base}/rest/v1/rpc/email_subscribe`, {
+      method: 'POST',
+      headers: { apikey: key, Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ p_email: s.email, p_sign: s.sign, p_lang: s.lang, p_source: s.source, p_consent_text: s.consentText }),
+    });
+    return res.ok;
+  } catch {
+    return false;
+  }
+}

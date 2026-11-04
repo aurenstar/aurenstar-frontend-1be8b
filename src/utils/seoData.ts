@@ -132,8 +132,8 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
   privacy: { title: 'Privacy Policy | Aurenstar', description: 'How Aurenstar handles your data, cookies and privacy choices.', path: '/privacy' },
   terms: { title: 'Terms of Service | Aurenstar', description: 'The simple rules for using Aurenstar astrology tools and content.', path: '/terms' },
   newsletter: {
-    title: 'Aurenstar Astrology Newsletter',
-    description: 'Receive thoughtful astrology guidance and new Aurenstar articles.',
+    title: 'Aurenstar T-shirts Waiting List',
+    description: 'Join the list and be the first to know when Aurenstar t-shirts launch.',
     path: '/newsletter',
   },
   'daily-message': {

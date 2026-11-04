@@ -4,7 +4,7 @@
  * carries a fresh, invisible "this is a person" proof in the header x-turnstile.
  */
 const SITE_KEY = (import.meta.env.VITE_TURNSTILE_SITE_KEY as string | undefined)?.trim();
-const PROTECTED = /^\/api\/(aureneffect|aurendaily|unfiltered|translate-ui|translate|localize|compatibility|transits)(\?|$)/;
+const PROTECTED = /^\/api\/(aureneffect|aurendaily|unfiltered|translate-ui|translate|localize|compatibility|transits|subscribe)(\?|$)/;
 
 type TurnstileApi = {
   render: (el: HTMLElement, opts: Record<string, unknown>) => string;

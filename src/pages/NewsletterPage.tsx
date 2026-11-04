@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { subscribeEmail } from '../utils/subscribe';
+import { TSHIRT_CONSENT } from '../data/subscribeConsent';
 import {
   Mail,
   Send,
@@ -48,118 +50,112 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
 
   const selectedSignObj = zodiacSigns.find((s) => s.value === zodiacSign) || zodiacSigns[2];
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [consent, setConsent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [subError, setSubError] = useState(false);
+  const consentLang = (language === 'pt' || language === 'es' ? language : 'en') as 'pt' | 'en' | 'es';
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!email.trim() || !zodiacSign || emailMessage(email, language)) return;
-
-    try {
-      const existing = JSON.parse(
-        localStorage.getItem('aurenstar_subscribers') || '[]'
-      );
-      existing.push({
-        email,
-        name: name.trim(),
-        zodiacSign,
-        subscribedAt: new Date().toISOString(),
-      });
-      localStorage.setItem('aurenstar_subscribers', JSON.stringify(existing));
-    } catch {
-      // Storage fallback
-    }
-
+    if (sending || !consent || !email.trim() || !zodiacSign || emailMessage(email, language)) return;
+    setSending(true);
+    setSubError(false);
+    const ok = await subscribeEmail({ email, sign: zodiacSign, lang: consentLang, source: 'newsletter_page' });
+    setSending(false);
+    if (!ok) { setSubError(true); return; }
     setIsSubscribed(true);
   };
 
   const texts = {
     pt: {
-      tag: 'Conteúdos Feitos para Você',
-      title: 'Receba Posts do Blog Sobre o Seu Signo',
+      tag: 'Camisetas da Aurenstar',
+      title: 'Entre na Lista das Camisetas da Aurenstar',
       subtitle:
-        'Escolha o seu signo, digite seu nome e e-mail. Nós enviamos todas as novas publicações, reflexões e conselhos dedicados ao seu signo com palavras simples e acolhedoras.',
+        'Escolha o seu signo, digite seu e-mail e entre na lista. Assim avisamos você quando as camisetas forem lançadas.',
       backHome: 'Voltar ao Início',
       exploreBlog: 'Ver Artigos do Blog',
-      formTitle: 'Cadastre-se Gratuitamente',
-      formSubtitle: 'Leva menos de 1 minuto para começar a receber matérias sobre o seu signo.',
+      formTitle: 'Entre na Lista de Espera',
+      formSubtitle: 'Leva menos de 1 minuto. Avisamos você assim que as camisetas forem lançadas.',
       nameLabel: 'Seu Nome',
       namePlaceholder: 'Como você gosta de ser chamado?',
       emailLabel: 'Seu Melhor E-mail',
       emailPlaceholder: 'seu.email@exemplo.com',
       signLabel: 'Escolha o Seu Signo',
-      submitCta: 'Quero Receber os Posts do Meu Signo',
-      privacyNotice: 'Respeitamos sua paz: zero propagandas chatas. Cancele quando quiser.',
-      successTitle: 'Inscrição confirmada com sucesso!',
+      submitCta: 'Quero Ser Avisado(a) do Lançamento',
+      privacyNotice: 'Sem spam: só avisamos do lançamento das camisetas. Você sai da lista quando quiser.',
+      successTitle: 'Você está na lista!',
       successDesc: (userName: string, signName: string, userEmail: string) =>
-        `Que maravilha, ${userName || 'amigo(a)'}! Agora você receberá os novos posts do blog preparados com carinho para ${signName} no e-mail ${userEmail}.`,
-      successSub: 'Fique de olho na sua caixa de entrada para ler as novidades!',
+        `Que bom, ${userName || 'amigo(a)'}! Avisaremos no e-mail ${userEmail} assim que as camisetas da Aurenstar forem lançadas (${signName}).`,
+      successSub: 'Fique de olho na sua caixa de entrada: você será a primeira pessoa a saber.',
       readSignPostsNow: 'Ver Artigos do Meu Signo Agora',
       anotherEmail: 'Cadastrar outro e-mail',
-      benefitsTitle: 'Por que acompanhar os posts do seu signo?',
-      benefit1Title: 'Feito Especialmente para Você',
-      benefit1Desc: 'Você recebe apenas mensagens e reflexões que combinam com o signo que escolheu.',
-      benefit2Title: 'Palavras Fáceis e Calmas',
-      benefit2Desc: 'Textos simples e diretos para relaxar a mente, sem termos técnicos ou difíceis.',
-      benefit3Title: 'Totalmente Gratuito',
-      benefit3Desc: 'Você nunca paga nada. Nosso carinho é levar leveza e paz para o seu dia a dia.',
+      benefitsTitle: 'Por que entrar na lista?',
+      benefit1Title: 'Seja a Primeira Pessoa a Saber',
+      benefit1Desc: 'Você recebe o aviso do lançamento antes de todo mundo.',
+      benefit2Title: 'Uma Camiseta com o Seu Signo',
+      benefit2Desc: 'Usamos o signo que você escolheu para avisar da camiseta que combina com você.',
+      benefit3Title: 'Sem Spam',
+      benefit3Desc: 'Você só recebe e-mail sobre as camisetas. Nada além disso.',
     },
     en: {
-      tag: 'Posts Made Just for You',
-      title: 'Receive Blog Posts About Your Zodiac Sign',
+      tag: 'Aurenstar T-shirts',
+      title: 'Join the Aurenstar T-shirt Waiting List',
       subtitle:
-        'Select your sign, enter your name and email. We send all new blog posts, soothing reflections, and peaceful guidance created for your sign.',
+        'Choose your sign, enter your email and join the list. We will tell you when the t-shirts launch.',
       backHome: 'Back to Home',
       exploreBlog: 'Explore Blog Posts',
-      formTitle: 'Join for Free',
-      formSubtitle: 'Takes less than a minute to receive posts crafted for your sign.',
+      formTitle: 'Join the Waiting List',
+      formSubtitle: 'Takes less than a minute. We will tell you as soon as the t-shirts launch.',
       nameLabel: 'Your Name',
       namePlaceholder: 'What should we call you?',
       emailLabel: 'Your Best Email',
       emailPlaceholder: 'your.email@example.com',
       signLabel: 'Choose Your Zodiac Sign',
-      submitCta: 'Send Me Posts for My Sign',
-      privacyNotice: 'We respect your peace: zero spam. Unsubscribe anytime with 1 click.',
-      successTitle: 'Subscription confirmed!',
+      submitCta: 'Tell Me When They Launch',
+      privacyNotice: 'No spam: we only write about the t-shirt launch. Leave the list anytime.',
+      successTitle: 'You are on the list!',
       successDesc: (userName: string, signName: string, userEmail: string) =>
-        `Wonderful, ${userName || 'friend'}! You will now receive all new blog articles crafted for ${signName} directly at ${userEmail}.`,
-      successSub: 'Keep an eye on your inbox for gentle and inspiring reads!',
+        `Wonderful, ${userName || 'friend'}! We will email ${userEmail} as soon as the Aurenstar t-shirts launch (${signName}).`,
+      successSub: 'Keep an eye on your inbox: you will be the first to know.',
       readSignPostsNow: 'Read Posts for My Sign Now',
-      anotherEmail: 'Subscribe another email',
-      benefitsTitle: 'Why read posts about your sign?',
-      benefit1Title: 'Tailored to Your Energy',
-      benefit1Desc: 'You receive only stories and guidance matching the sign you selected.',
-      benefit2Title: 'Simple, Soothing Words',
-      benefit2Desc: 'Gentle, comforting texts without confusing words, created to bring inner peace.',
-      benefit3Title: '100% Free Forever',
-      benefit3Desc: 'No hidden charges. Our goal is bringing joy and quiet calmness to your daily life.',
+      anotherEmail: 'Add another email',
+      benefitsTitle: 'Why join the list?',
+      benefit1Title: 'Be the First to Know',
+      benefit1Desc: 'You get the launch notice before everyone else.',
+      benefit2Title: 'A T-shirt for Your Sign',
+      benefit2Desc: 'We use the sign you chose to tell you about the t-shirt that fits you.',
+      benefit3Title: 'No Spam',
+      benefit3Desc: 'You only get emails about the t-shirts. Nothing else.',
     },
     es: {
-      tag: 'Contenidos Creados para Ti',
-      title: 'Recibe Publicaciones Sobre Tu Signo Zodiacal',
+      tag: 'Camisetas de Aurenstar',
+      title: 'Entra en la Lista de las Camisetas de Aurenstar',
       subtitle:
-        'Elige tu signo, escribe tu nombre y correo. Te enviaremos nuevos artículos del blog, reflexiones y consejos preparados para tu signo.',
+        'Elige tu signo, escribe tu correo y entra en la lista. Te avisamos cuando salgan las camisetas.',
       backHome: 'Volver al Inicio',
       exploreBlog: 'Ver Artículos del Blog',
-      formTitle: 'Suscríbete Gratis',
-      formSubtitle: 'Toma menos de 1 minuto empezar a recibir lecturas sobre tu signo.',
+      formTitle: 'Entra en la Lista de Espera',
+      formSubtitle: 'Toma menos de 1 minuto. Te avisamos en cuanto salgan las camisetas.',
       nameLabel: 'Tu Nombre',
       namePlaceholder: '¿Cómo te gusta que te llamen?',
       emailLabel: 'Tu Mejor Correo',
       emailPlaceholder: 'tu.correo@ejemplo.com',
       signLabel: 'Elige Tu Signo Zodiacal',
-      submitCta: 'Quiero Recibir Publicaciones de Mi Signo',
-      privacyNotice: 'Respetamos tu tranquilidad: cero spam. Cancela cuando quieras.',
-      successTitle: '¡Suscripción confirmada con éxito!',
+      submitCta: 'Quiero Que Me Avisen del Lanzamiento',
+      privacyNotice: 'Sin spam: solo avisamos del lanzamiento de las camisetas. Sales de la lista cuando quieras.',
+      successTitle: '¡Estás en la lista!',
       successDesc: (userName: string, signName: string, userEmail: string) =>
-        `¡Qué alegría, ${userName || 'amigo(a)'}! Ahora recibirás las novedades del blog para ${signName} en ${userEmail}.`,
-      successSub: '¡Revisa tu bandeja de entrada para disfrutar de tus lecturas!',
+        `¡Qué alegría, ${userName || 'amigo(a)'}! Te avisaremos en ${userEmail} en cuanto salgan las camisetas de Aurenstar (${signName}).`,
+      successSub: 'Revisa tu bandeja de entrada: serás la primera persona en saberlo.',
       readSignPostsNow: 'Ver Artículos de Mi Signo Ahora',
-      anotherEmail: 'Suscribir otro correo',
-      benefitsTitle: '¿Por qué recibir publicaciones de tu signo?',
-      benefit1Title: 'Especialmente para Ti',
-      benefit1Desc: 'Recibes lecturas y consejos que combinan con el signo que elegiste.',
-      benefit2Title: 'Palabras Claras y Cálidas',
-      benefit2Desc: 'Textos sencillos y serenos, sin términos difíciles, para calmar tu mente.',
-      benefit3Title: 'Totalmente Gratuito',
-      benefit3Desc: 'Nunca pagarás nada. Nuestra intención es compartir paz y serenidad.',
+      anotherEmail: 'Añadir otro correo',
+      benefitsTitle: '¿Por qué entrar en la lista?',
+      benefit1Title: 'Sé la Primera Persona en Saber',
+      benefit1Desc: 'Recibes el aviso del lanzamiento antes que nadie.',
+      benefit2Title: 'Una Camiseta con Tu Signo',
+      benefit2Desc: 'Usamos el signo que elegiste para avisarte de la camiseta que va contigo.',
+      benefit3Title: 'Sin Spam',
+      benefit3Desc: 'Solo recibes correos sobre las camisetas. Nada más.',
     },
   };
 
@@ -322,6 +318,16 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
                   />
                 </div>
               </div>
+
+              <label className="flex cursor-pointer items-start gap-2.5 text-xs leading-snug text-[#172B4D]">
+                <input type="checkbox" required checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 h-4 w-4 shrink-0 cursor-pointer accent-[#E73578]" />
+                <span>{TSHIRT_CONSENT[consentLang]}</span>
+              </label>
+              {subError && (
+                <p className="text-xs font-semibold text-[#E73578]">
+                  {consentLang === 'pt' ? 'Não deu certo agora. Tente de novo em instantes.' : consentLang === 'es' ? 'No funcionó ahora. Inténtalo de nuevo en un momento.' : 'That did not work just now. Please try again in a moment.'}
+                </p>
+              )}
 
               {/* Submit CTA Button */}
               <div className="pt-2">
