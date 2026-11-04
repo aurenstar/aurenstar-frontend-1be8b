@@ -352,16 +352,16 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
 
         <h1 className="sr-only">{t.readingTitle}</h1>
         {/* Cover-style header */}
-        <header className="relative mb-6 overflow-hidden rounded-[2rem] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-9" style={{ background: '#E73578' }}>
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="pink" /></div>
-          <div className="relative flex flex-col gap-4 pb-12 sm:flex-row sm:items-center sm:gap-5 sm:pb-0 sm:pr-[34%]">
-            <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-3xl bg-white shadow-lg" style={{ color: '#E73578' }}>
-              <Orbit className="h-8 w-8" />
+        <header className="relative mb-4 overflow-hidden rounded-[1.5rem] p-4 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-6" style={{ background: '#E73578' }}>
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-8 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="pink" /></div>
+          <div className="relative flex flex-row items-center gap-3 pb-3 sm:gap-5 sm:pb-0 sm:pr-[34%]">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white shadow-lg sm:h-14 sm:w-14" style={{ color: '#E73578' }}>
+              <Orbit className="h-6 w-6 sm:h-7 sm:w-7" />
             </div>
             <div>
-              <div className="mb-2 inline-flex items-center rounded-full bg-white/15 px-3 py-1 text-[11px] font-bold uppercase tracking-wider">{t.cardTitle}</div>
-              <h2 className="text-2xl font-extrabold leading-tight tracking-tight sm:text-3xl">{curiousTitle}</h2>
-              <span aria-hidden className="mt-3 block h-1 w-12 rounded-full" style={{ background: '#fff' }} />
+              <div className="mb-1 inline-flex items-center rounded-full bg-white/15 px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider sm:text-[11px]">{t.cardTitle}</div>
+              <h2 className="text-xl font-extrabold leading-tight tracking-tight sm:text-2xl">{curiousTitle}</h2>
+              <span aria-hidden className="mt-2 block h-1 w-12 rounded-full" style={{ background: '#fff' }} />
             </div>
           </div>
         </header>

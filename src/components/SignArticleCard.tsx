@@ -7,6 +7,12 @@ import { getArticleSlugById } from '../utils/articleSlug';
 import { isPlainLeftClick } from '../utils/links';
 import { trackEvent } from '../utils/analytics';
 
+const TEXT = {
+  pt: 'Continue explorando o seu signo',
+  en: 'Keep exploring your sign',
+  es: 'Sigue explorando tu signo',
+} as const;
+
 const plain = (v: string) => v.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
 
 /** Under a tool result: the blog article about the person's own sign, so the result leads into the blog. */
@@ -30,6 +36,7 @@ export const SignArticleCard: React.FC<{ sign?: string; tool: string; flush?: bo
 
   return (
     <section className={flush ? 'w-full' : 'mx-auto my-8 w-full max-w-3xl'}>
+      <h3 className="mb-3 text-center text-sm font-extrabold uppercase tracking-wider text-[#17366F] sm:text-base">{TEXT[lang]}</h3>
       <a href={url} onClick={open} className="group flex w-full items-center justify-between gap-3 rounded-2xl border border-[#D9E8F8] bg-white p-3 shadow-sm transition-all duration-300 hover:border-[#3982C8]/40 hover:shadow-md sm:p-4">
         <div className="relative h-20 w-28 shrink-0 overflow-hidden rounded-xl bg-slate-100 sm:h-24 sm:w-36 sm:rounded-2xl">
           <img src={article.image} alt={article.title[lang] || article.title.pt} loading="lazy" decoding="async" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />

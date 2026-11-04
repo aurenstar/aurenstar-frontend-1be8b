@@ -37,6 +37,7 @@ export const FeedbackButtons: React.FC<{ tool: Tool; sign?: string; padded?: boo
 
   return (
     <div className={`mx-auto my-8 flex w-full max-w-3xl flex-col gap-3 ${padded ? 'px-4 sm:px-0' : ''}`}>
+    <SignArticleCard sign={sign} tool={tool} flush />
     <div className="w-full rounded-2xl border border-[#D9E8F8] bg-white p-5 text-center shadow-sm">
       {done ? (
         <p className="text-sm font-bold text-[#17366F]">{t.thanks}</p>
@@ -55,7 +56,6 @@ export const FeedbackButtons: React.FC<{ tool: Tool; sign?: string; padded?: boo
         </>
       )}
     </div>
-    <SignArticleCard sign={sign} tool={tool} flush />
     <TshirtCapture source="result" sign={sign} variant="mini" flush />
     {children && <div className="pt-4">{children}</div>}
     </div>
