@@ -65,7 +65,7 @@ export const CommentsSection: React.FC = () => {
   const avg = rated.length ? rated.reduce((a, c) => a + (c.stars || 0), 0) / rated.length : 0;
 
   return (
-    <section id="comentarios" className="w-full border-y border-[#D9E8F8] bg-gradient-to-b from-[#EEF6FF] to-[#E1EFFF] px-4 py-12 sm:px-6 sm:py-16">
+    <section id="comentarios" className="w-full bg-[#C9E5FF] px-4 py-12 sm:px-6 sm:py-16">
       <div className="mx-auto max-w-5xl">
         <div className="text-center">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-white px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider text-[#3982C8]"><MessageCircle className="h-3.5 w-3.5" />{t.badge}</span>
@@ -76,18 +76,12 @@ export const CommentsSection: React.FC = () => {
         <div className="mt-8 grid items-stretch gap-6 lg:grid-cols-2">
           <div className={`grid gap-3 ${list !== null && list.length === 0 ? '' : 'content-start'}`}>
             {list !== null && list.length === 0 && (
-              <div className="flex h-full flex-col justify-between rounded-3xl border border-[#D9E8F8] bg-white p-6 text-center shadow-[0_10px_30px_rgba(57,130,200,0.10)] sm:p-8">
+              <div className="flex h-full flex-col justify-center gap-6 rounded-3xl border border-[#D9E8F8] bg-white p-6 text-center shadow-[0_10px_30px_rgba(57,130,200,0.10)] sm:p-8">
                 <div>
                   <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#E4F1FF] to-[#FDE8F0] text-[#3982C8]"><MessageCircle className="h-8 w-8" /></span>
                   <p className="mt-4 text-xl font-extrabold text-[#172B4D]">{t.emptyTitle}</p>
-                  <p className="mt-1 text-sm text-[#647DA5]">{t.ideas}</p>
-                  <ul className="mx-auto mt-4 grid max-w-sm gap-2 text-left">
-                    {t.idea.map((x) => (
-                      <li key={x} className="flex items-center gap-2 rounded-xl bg-[#F4F9FF] px-3 py-2.5 text-sm font-semibold text-[#17366F]"><Star className="h-4 w-4 shrink-0 fill-[#E73578] text-[#E73578]" />{x}</li>
-                    ))}
-                  </ul>
                 </div>
-                <ul className="mt-6 grid gap-2.5 border-t border-[#D9E8F8] pt-5 text-left sm:grid-cols-1">
+                <ul className="grid gap-2.5 border-t border-[#D9E8F8] pt-5 text-left sm:grid-cols-1">
                   {[ShieldCheck, UserRound, Heart].map((Icon, i) => (
                     <li key={i} className="flex items-center gap-2.5 text-xs font-semibold text-[#647DA5]"><span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#E4F1FF] text-[#3982C8]"><Icon className="h-3.5 w-3.5" /></span>{t.perks[i]}</li>
                   ))}
