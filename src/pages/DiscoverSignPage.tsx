@@ -13,6 +13,7 @@ import { ToolHero, ToolBenefits, PeriodIcon } from '../components/ToolHero';
 import { useLanguage } from '../context/LanguageContext';
 import { calculateSign, LAST_DISCOVERED_SIGN_KEY } from '../data/signsData';
 import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
+import { trackEvent } from '../utils/analytics';
 import { loadSharedProfile, saveSharedProfile, timePeriodFor } from '../utils/sharedProfile';
 
 // The calculation service answers with English sign names; the site's sign pages use these keys.
@@ -123,6 +124,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
 
   const handleCalculateAndNavigate = (signToSave?: string) => {
     const finalSign = signToSave || calculateSign(selectedDay, selectedMonth);
+    trackEvent('tool_submit', { tool: 'discover_sign' });
     saveSharedProfile({ day: selectedDay, month: selectedMonth, year: selectedYear, time: birthTime, place: birthPlace });
     try {
       localStorage.setItem(

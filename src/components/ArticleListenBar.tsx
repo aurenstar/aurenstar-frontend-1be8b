@@ -1,3 +1,4 @@
+import { trackEvent } from '../utils/analytics';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Headphones, Pause, Square } from 'lucide-react';
 
@@ -178,7 +179,7 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, speechLang, 
   }, [sl, onActiveChange, onWordChange, stop]);
 
   const toggle = () => {
-    if (status === 'idle') speak(0, 0);
+    if (status === 'idle') { trackEvent('listen_article'); speak(0, 0); }
     else if (status === 'playing') { window.speechSynthesis.pause(); pausedAt.current = performance.now(); setStatus('paused'); }
     else { window.speechSynthesis.resume(); if (pausedAt.current !== null) { pausedFor.current += performance.now() - pausedAt.current; pausedAt.current = null; } setStatus('playing'); }
   };

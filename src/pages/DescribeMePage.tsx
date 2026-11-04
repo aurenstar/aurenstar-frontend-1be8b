@@ -6,6 +6,7 @@ import { ToolHero, ToolBenefits, PeriodIcon } from '../components/ToolHero';
 import { useLanguage } from '../context/LanguageContext';
 import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
 import { calculateZodiacSign } from '../utils/dailyReadingStorage';
+import { trackEvent } from '../utils/analytics';
 import { loadSharedProfile, saveSharedProfile, timePeriodFor } from '../utils/sharedProfile';
 
 type SignKey = 'aries' | 'taurus' | 'gemini' | 'cancer' | 'leo' | 'virgo' | 'libra' | 'scorpio' | 'sagittarius' | 'capricorn' | 'aquarius' | 'pisces';
@@ -78,8 +79,10 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
     if (!name.trim() || !birthDate) return;
     if (!birthPlace) {
       setCityError(true);
+      trackEvent('city_missing', { tool: 'describe_me' });
       return;
     }
+    trackEvent('tool_submit', { tool: 'describe_me' });
     setIsLoading(true);
     setLimitReached(false);
     const [y, m, d] = birthDate.split('-').map((n) => parseInt(n, 10));

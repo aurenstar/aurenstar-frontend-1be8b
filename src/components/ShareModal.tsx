@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { X, Check, Copy, Share2, Sparkles, Download, Image as ImageIcon } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { trackEvent } from '../utils/analytics';
 import { StoryCardData, downloadStoryCard, shareStoryCardImage } from '../utils/generateStoryCard';
 
 interface ShareModalProps {
@@ -46,6 +47,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
   const handleDownloadStoryImage = async () => {
     if (!storyCardData) return;
     setIsGeneratingCard(true);
+    trackEvent('card_download');
     try {
       await downloadStoryCard(storyCardData);
     } catch {
@@ -56,6 +58,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
   };
 
   const handleNativeShare = async () => {
+    trackEvent('card_share');
     if (storyCardData) {
       setIsGeneratingCard(true);
       try {

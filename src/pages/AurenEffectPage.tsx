@@ -33,6 +33,7 @@ import {
 } from '../utils/aurenEngine';
 import { getRecentMessages, rememberMessage } from '../utils/recentMessages';
 import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
+import { trackEvent } from '../utils/analytics';
 import { loadSharedProfile, saveSharedProfile, timePeriodFor } from '../utils/sharedProfile';
 
 interface AurenEffectPageProps {
@@ -219,8 +220,10 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
 
     if (!birthPlace) {
       setCityError(true);
+      trackEvent('city_missing', { tool: 'auren_effect' });
       return;
     }
+    trackEvent('tool_submit', { tool: 'auren_effect' });
 
     // Se estiver em cooldown de 4 horas e já tiver resultado anterior, abre o resultado atual
     if (cooldownRemainingMs > 0 && result) {

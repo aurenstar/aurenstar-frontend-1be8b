@@ -16,6 +16,7 @@ import { ToolHero, ToolBenefits, PeriodIcon } from '../components/ToolHero';
 import { useLanguage } from '../context/LanguageContext';
 import { getRecentMessages, rememberMessage } from '../utils/recentMessages';
 import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
+import { trackEvent } from '../utils/analytics';
 import { loadSharedProfile, saveSharedProfile, timePeriodFor } from '../utils/sharedProfile';
 import {
   saveDailyReading,
@@ -491,8 +492,10 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
 
     if (!birthPlace) {
       setCityError(true);
+      trackEvent('city_missing', { tool: 'daily_message' });
       return;
     }
+    trackEvent('tool_submit', { tool: 'daily_message' });
     saveSharedProfile({ name: userName, day: birthDay, month: birthMonth, year: birthYear, time: birthTime, place: birthPlace });
 
     setIsLoading(true);
