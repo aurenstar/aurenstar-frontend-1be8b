@@ -51,7 +51,6 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
 
   const setA = ZODIAC_SIGNS;
   const setB = ZODIAC_SIGNS;
-  const signColors = ['text-[#3982C8]', 'text-[#3982C8]', 'text-[#3982C8]', 'text-[#3982C8]'];
 
   return (
     <div
@@ -64,7 +63,7 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
         aria-label="Zodiac signs"
       >
         {/* Set 1 */}
-        <div className="flex shrink-0 items-center gap-10 sm:gap-14 pr-10 sm:pr-14">
+        <div className="flex shrink-0 items-center gap-3 sm:gap-4 pr-3 sm:pr-4">
           {setA.map((sign, idx) => {
             const isSelected = selectedSign === sign.key;
             return (
@@ -72,10 +71,10 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
                 key={`a-${idx}`}
                 type="button"
                 onClick={() => handleSignClick(sign.key)}
-                className={`text-base sm:text-lg font-bold tracking-tight transition-colors duration-200 cursor-pointer shrink-0 bg-transparent border-0 p-0 outline-none ${
+                className={`shrink-0 cursor-pointer rounded-full border px-4 py-1.5 text-sm font-extrabold tracking-tight outline-none transition-colors duration-200 sm:px-5 sm:text-base ${
                   isSelected
-                    ? 'text-[#3982C8] font-extrabold underline underline-offset-4 decoration-[#E73578]'
-                    : `${signColors[idx % signColors.length]} hover:opacity-70`
+                    ? 'border-[#E73578] bg-[#E73578] text-white'
+                    : 'border-[#D9E8F8] bg-white text-[#17366F] hover:border-[#E73578] hover:bg-[#E73578] hover:text-white'
                 }`}
               >
                 {sign[lang] || sign.pt}
@@ -86,7 +85,7 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
 
         {/* Set 2 (Identical clone for seamless continuous edge-to-edge loop) */}
         <div
-          className="flex shrink-0 items-center gap-10 sm:gap-14 pr-10 sm:pr-14"
+          className="flex shrink-0 items-center gap-3 sm:gap-4 pr-3 sm:pr-4"
           aria-hidden="true"
         >
           {setB.map((sign, idx) => {
@@ -97,10 +96,10 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
                 type="button"
                 onClick={() => handleSignClick(sign.key)}
                 tabIndex={-1}
-                className={`text-base sm:text-lg font-bold tracking-tight transition-colors duration-200 cursor-pointer shrink-0 bg-transparent border-0 p-0 outline-none ${
+                className={`shrink-0 cursor-pointer rounded-full border px-4 py-1.5 text-sm font-extrabold tracking-tight outline-none transition-colors duration-200 sm:px-5 sm:text-base ${
                   isSelected
-                    ? 'text-[#3982C8] font-extrabold underline underline-offset-4 decoration-[#E73578]'
-                    : `${signColors[idx % signColors.length]} hover:opacity-70`
+                    ? 'border-[#E73578] bg-[#E73578] text-white'
+                    : 'border-[#D9E8F8] bg-white text-[#17366F] hover:border-[#E73578] hover:bg-[#E73578] hover:text-white'
                 }`}
               >
                 {sign[lang] || sign.pt}
