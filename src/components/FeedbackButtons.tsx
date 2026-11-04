@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ThumbsDown, ThumbsUp } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { trackEvent } from '../utils/analytics';
+import { TshirtCapture } from './TshirtCapture';
 
 type Tool = 'daily_message' | 'auren_effect' | 'discover_sign' | 'describe_me';
 
@@ -34,6 +35,7 @@ export const FeedbackButtons: React.FC<{ tool: Tool; sign?: string }> = ({ tool,
   };
 
   return (
+    <>
     <div className="mx-auto my-8 w-[calc(100%-2rem)] max-w-md rounded-2xl border border-[#D9E8F8] bg-white p-5 text-center shadow-sm">
       {done ? (
         <p className="text-sm font-bold text-[#17366F]">{t.thanks}</p>
@@ -52,5 +54,7 @@ export const FeedbackButtons: React.FC<{ tool: Tool; sign?: string }> = ({ tool,
         </>
       )}
     </div>
+    <TshirtCapture source="result" sign={sign} />
+    </>
   );
 };

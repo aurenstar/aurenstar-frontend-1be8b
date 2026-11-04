@@ -18,6 +18,7 @@ import {
   ensureFullArticles,
   AURENSTAR_AVATAR,
 } from '../data/blogArticles';
+import { TshirtCapture } from '../components/TshirtCapture';
 import { ShareModal } from '../components/ShareModal';
 import { getUrlLang } from '../utils/urlLang';
 import { withHandTitle } from '../data/articleTitles';
@@ -498,6 +499,8 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
           )}
         </div>
         </div>
+
+        <TshirtCapture source="article" />
 
         {/* =========================================================================
             NEXT CHAPTER / CONTINUE LENDO CARD (Matching user uploaded card)
