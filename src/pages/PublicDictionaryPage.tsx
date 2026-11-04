@@ -175,7 +175,8 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                 >
                   <span className="flex flex-1 flex-col px-3 pb-2 pt-3">
                     <span className="mb-1 block text-[11px] font-bold uppercase tracking-wider text-[#647DA5]">{categoryLabel(term.categoria, lang)}</span>
-                    <h3 className="mb-3 self-start rounded-full bg-[#E73578] px-4 py-1.5 text-base font-extrabold leading-snug text-white shadow-sm transition-colors group-hover:bg-[#D0306C]">{term.termo}</h3>
+                    <h3 className="mb-3 self-start max-w-full truncate rounded-full bg-[#E73578] px-4 py-1.5 text-base font-extrabold leading-snug text-white shadow-sm transition-colors group-hover:bg-[#D0306C]">{term.termo.replace(/\s*\(.*\)\s*$/, '')}</h3>
+                    {/\(.+\)\s*$/.test(term.termo) && (<span className="-mt-1 mb-2 block text-[12px] font-semibold text-[#647DA5]">{term.termo.replace(/^.*?\(/, '').replace(/\)\s*$/, '')}</span>)}
                     <span className="mb-4 block text-[13px] font-medium leading-relaxed text-[#647DA5]">{term.chamadaCuriosa || term.resumoUmaLinha}</span>
                     <span className="mt-auto inline-flex items-center gap-2 self-start rounded-full px-4 py-1.5 text-xs font-bold text-white shadow-sm transition-all duration-300 group-hover:gap-3" style={{ background: '#3982C8' }}>
                       {c.read} <ArrowRight className="h-3.5 w-3.5" />
