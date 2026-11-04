@@ -180,7 +180,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
         {/* =========================================================================
             FEATURED HERO BANNER (Exact layout matching user's uploaded image.png)
             ========================================================================= */}
-        <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[420px] sm:h-[480px] lg:h-[540px] flex flex-col justify-between p-6 sm:p-10 mb-10 group">
+        <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[540px] sm:h-[480px] lg:h-[540px] flex flex-col justify-between p-6 sm:p-10 mb-10 group">
           {/* Stacked Background Images with Smooth Cross-Fade (Zero Flicker) */}
           {featuredArticles.map((item, idx) => (
             <img decoding="async"
