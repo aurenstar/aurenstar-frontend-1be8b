@@ -180,7 +180,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
         {/* =========================================================================
             FEATURED HERO BANNER (Exact layout matching user's uploaded image.png)
             ========================================================================= */}
-        <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[540px] sm:h-[480px] lg:h-[540px] flex flex-col justify-between p-6 sm:p-10 mb-10 group">
+        <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[430px] sm:h-[480px] lg:h-[540px] flex flex-col justify-between p-4 sm:p-10 mb-10 group">
           {/* Stacked Background Images with Smooth Cross-Fade (Zero Flicker) */}
           {featuredArticles.map((item, idx) => (
             <img decoding="async"
@@ -221,9 +221,9 @@ export const BlogPage: React.FC<BlogPageProps> = ({
           </button>
 
           {/* Top Bar inside the Hero: Brand Logo, Search Bar, and Back Button */}
-          <div className="relative z-10 flex flex-wrap items-center justify-between gap-4">
+          <div className="relative z-10 flex flex-nowrap items-center justify-between gap-2 sm:gap-4">
             {/* Left: Brand Logo & Back to Home */}
-            <div className="flex items-center gap-4">
+            <div className="flex shrink-0 items-center gap-4">
               <button
                 onClick={onBackToHome}
                 className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/40 hover:bg-black/60 border border-white/25 text-white text-xs font-semibold backdrop-blur-md transition-all cursor-pointer shadow-xs group/btn"
@@ -238,7 +238,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
             </div>
 
             {/* Center / Right: Rounded Search Bar matching image.png */}
-            <div className="relative w-full sm:w-80">
+            <div className="relative min-w-0 flex-1 sm:w-80 sm:flex-none">
               <input
                 type="text"
                 value={searchQuery}
@@ -260,9 +260,9 @@ export const BlogPage: React.FC<BlogPageProps> = ({
           </div>
 
           {/* Bottom Area inside the Hero: Featured Story Title, Description, Dots & Author */}
-          <div className="relative z-10 flex flex-col md:flex-row md:items-end justify-between gap-6 pt-10">
+          <div className="relative z-10 flex flex-row items-end justify-between gap-3 sm:gap-6 pt-6 sm:pt-10">
             {/* Story Details & Dots */}
-            <div className="max-w-2xl">
+            <div className="min-w-0 max-w-2xl">
               {/* Category Pill */}
               <div className="inline-block px-3.5 py-1 rounded-full bg-white/20 backdrop-blur-md border border-white/25 text-white text-[11px] font-bold uppercase tracking-wider mb-3.5 shadow-xs">
                 {currentFeatured.category[lang] || currentFeatured.category.pt}
@@ -271,13 +271,13 @@ export const BlogPage: React.FC<BlogPageProps> = ({
               {/* Title */}
               <h1
                 onClick={() => onOpenArticle(currentFeatured.id)}
-                className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white leading-tight mb-3 cursor-pointer hover:text-white/90 transition-colors drop-shadow-md line-clamp-2"
+                className="text-xl sm:text-3xl lg:text-4xl font-extrabold text-white leading-tight mb-2 sm:mb-3 cursor-pointer hover:text-white/90 transition-colors drop-shadow-md line-clamp-2"
               >
                 {currentFeatured.title[lang] || currentFeatured.title.pt}
               </h1>
 
               {/* Excerpt */}
-              <p className="text-xs sm:text-sm text-white/85 leading-relaxed max-w-xl mb-5 drop-shadow-xs line-clamp-2 font-normal">
+              <p className="text-xs sm:text-sm text-white/85 leading-relaxed max-w-xl mb-4 sm:mb-5 drop-shadow-xs line-clamp-2 font-normal">
                 {currentFeatured.subtitle[lang] || currentFeatured.subtitle.pt}
               </p>
 
@@ -318,14 +318,14 @@ export const BlogPage: React.FC<BlogPageProps> = ({
             {/* Author Profile on Bottom Right with Aurenstar */}
             <div
               onClick={() => onOpenArticle(currentFeatured.id)}
-              className="flex items-center gap-3.5 self-start md:self-end bg-black/35 backdrop-blur-md border border-white/20 p-2.5 sm:p-3 rounded-2xl cursor-pointer hover:bg-black/50 transition-all shrink-0"
+              className="flex items-center gap-3.5 self-end bg-black/35 backdrop-blur-md border border-white/20 p-1.5 sm:p-3 rounded-2xl cursor-pointer hover:bg-black/50 transition-all shrink-0"
             >
               <img decoding="async"
                 src={AURENSTAR_AVATAR}
                 alt="Aurenstar"
                 className="w-11 h-11 rounded-full object-cover ring-2 ring-white/30 shrink-0 shadow-xs"
               />
-              <div className="flex flex-col min-w-0">
+              <div className="hidden sm:flex flex-col min-w-0">
                 <span className="text-xs sm:text-sm font-bold text-white leading-tight truncate">
                   Aurenstar <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#3982C8] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span>
                 </span>

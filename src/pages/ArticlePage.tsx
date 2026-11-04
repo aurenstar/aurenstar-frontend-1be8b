@@ -432,7 +432,7 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
             <img decoding="async"
               src={article.image}
               alt={article.title[lang] || article.title.pt}
-              className="w-full h-auto max-h-[380px] sm:max-h-[420px] object-cover"
+              className="aspect-[16/9] w-full object-cover sm:aspect-auto sm:h-auto sm:max-h-[420px]"
             />
           </div>
           {article.imageCaption && (
