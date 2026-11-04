@@ -22,7 +22,13 @@ jobs:
       - name: Write new terms (skips quietly if the key is not set)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: npm run dictionary:generate -- --max ${{ github.event_name == 'push' && '0' || '5' }}
+        run: |
+          MAX=5
+          if [ "${{ github.event_name }}" = "push" ]; then
+            MAX=$(grep -oE 'max=[0-9]+' data/dictionary-run.trigger | head -1 | cut -d= -f2)
+            MAX=${MAX:-0}
+          fi
+          npm run dictionary:generate -- --max $MAX
       - name: Check before saving
         run: npx tsc --noEmit && npm run test:dictionary
       - name: Save
