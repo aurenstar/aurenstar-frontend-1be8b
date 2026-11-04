@@ -208,7 +208,7 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
 
   // Verified Badge (Orkut modern blue circle with white checkmark)
   const nameWidth = ctx.measureText('Aurenstar').width;
-  const badgeX = nameX + nameWidth + 14;
+  const badgeX = nameX + nameWidth + 12 + 14; // 12px of air between the name and the seal (seal radius 14)
   const badgeY = nameY - 12;
   const badgeR = 14;
 
