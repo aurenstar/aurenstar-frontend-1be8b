@@ -1,3 +1,4 @@
+import { cardImage } from '../utils/cardImage';
 import React, { useState } from 'react';
 import { ArrowLeft, ArrowRight, Check, Calendar, Sparkles, Compass, Smile, Moon, BookOpen, ShieldCheck, Wrench, FileText, Clock, ClipboardList, Telescope, PenLine, Send } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
@@ -379,7 +380,7 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                   {posts.map((post) => (
                     <button key={post.id} type="button" onClick={() => onOpenArticle(post.id)} className="group flex flex-col overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-3 text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)]">
                       <span className="relative block h-36 overflow-hidden rounded-xl bg-slate-100">
-                        <img src={post.image} alt="" loading="lazy" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                        <img src={cardImage(post.image)} alt="" loading="lazy" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
                         <span className="absolute right-2.5 top-2.5 rounded-md bg-[#E73578] px-2 py-0.5 text-[10px] font-extrabold text-white">{post.category[lang] || post.category.pt}</span>
                       </span>
                       <span className="mt-3 line-clamp-2 px-1 text-base font-extrabold leading-snug text-[#172B4D] group-hover:text-[#3982C8]">{post.title[lang] || post.title.pt}</span>

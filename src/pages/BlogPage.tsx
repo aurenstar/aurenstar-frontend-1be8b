@@ -1,3 +1,4 @@
+import { cardImage } from '../utils/cardImage';
 import React, { useState, useMemo, useEffect } from 'react';
 import {
   Search,
@@ -408,7 +409,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
               <div className="p-3.5 pb-0 shrink-0">
               <div className="w-full h-40 sm:h-44 overflow-hidden rounded-[18px] bg-slate-100 relative">
                 <img decoding="async"
-                  src={article.image}
+                  src={cardImage(article.image)}
                   alt={article.title[lang] || article.title.pt}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"

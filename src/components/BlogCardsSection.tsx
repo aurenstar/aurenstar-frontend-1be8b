@@ -1,3 +1,4 @@
+import { cardImage } from '../utils/cardImage';
 import React, { useState, useMemo, useEffect } from 'react';
 import { Search, X, Sparkles, Star, Check } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
@@ -322,7 +323,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                           >
                             <div className="p-3.5 pb-0 shrink-0">
                               <div className="w-full h-40 sm:h-44 overflow-hidden rounded-[18px] bg-[#E4F1FF] relative">
-                                <img src={post.image} alt={title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+                                <img src={cardImage(post.image)} alt={title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-[#17366F]/10 transition-colors pointer-events-none" />
                               </div>
                             </div>
