@@ -18,7 +18,7 @@ const TITLES: Record<string, string> = {
   aries: 'Aries and the courage to begin again', taurus: 'Taurus and the art of moving at your own pace', gemini: 'Gemini and the creative brilliance of reinventing yourself', cancer: 'Cancer and the quiet strength of feeling deeply', leo: 'Leo and the generous power of being fully yourself', virgo: 'Virgo and the intelligence of noticing what matters', libra: 'Libra and the beauty of finding your own balance', scorpio: 'Scorpio and the courage to look beneath the surface', sagittarius: 'Sagittarius and the freedom to keep discovering', capricorn: 'Capricorn and the patience behind every achievement', aquarius: 'Aquarius and the original way you see the world', pisces: 'Pisces and the imagination that makes life feel wider',
 };
 
-const formatTime = (iso: string, language: string) => new Intl.DateTimeFormat(language === 'pt' ? 'pt-BR' : language === 'es' ? 'es-ES' : 'en-US', { hour: '2-digit', minute: '2-digit', day: '2-digit', month: 'short', year: '2-digit' }).format(new Date(iso));
+const formatTime = (iso: string, language: string) => new Intl.DateTimeFormat(language === 'pt' ? 'pt-BR' : language === 'es' ? 'es-ES' : 'en-US', { hour: '2-digit', minute: '2-digit', day: '2-digit', month: 'short', year: 'numeric' }).format(new Date(iso));
 
 export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBackToForm, onBackToHome, onNavigateToBlog, onOpenArticle }) => {
   const { language } = useLanguage();

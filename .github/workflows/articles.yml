@@ -32,5 +32,6 @@ jobs:
             git config user.email "bot@aurenstar.com"
             git add data/article-translations
             git commit -m "Articles: new translations"
+            git pull --rebase origin seo-tecnico
             git push
           fi

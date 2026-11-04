@@ -44,8 +44,8 @@ const PAIR: Record<string, L3> = {
   'moon|venus': { en: 'tenderness and comfort', pt: 'ternura e acolhimento', es: 'ternura y consuelo' },
   'sun|mercury': { en: 'being heard and understood', pt: 'serem ouvidos e compreendidos', es: 'ser escuchados y comprendidos' },
   'moon|mercury': { en: 'talking about feelings', pt: 'conversar sobre sentimentos', es: 'hablar de los sentimientos' },
-  'sun|mars': { en: 'motivation and energy together', pt: 'motivação e energia juntos', es: 'motivación y energía juntos' },
-  'moon|mars': { en: 'emotional reactions', pt: 'reações emocionais', es: 'reacciones emocionales' },
+  'sun|mars': { en: 'motivating each other and your energy together', pt: 'a motivação e a energia de vocês juntos', es: 'la motivación y la energía de ustedes juntos' },
+  'moon|mars': { en: 'how you react to each other emotionally', pt: 'como vocês reagem emocionalmente um ao outro', es: 'cómo reaccionan emocionalmente el uno al otro' },
   'venus|mercury': { en: 'sweet words and flirting', pt: 'palavras doces e flerte', es: 'palabras dulces y coqueteo' },
   'saturn|sun': { en: 'commitment and seriousness', pt: 'compromisso e seriedade', es: 'compromiso y seriedad' },
   'saturn|moon': { en: 'emotional security', pt: 'segurança emocional', es: 'seguridad emocional' },
@@ -75,11 +75,11 @@ export function compatVerdict(score: number, l: Lang): string {
 
 export function strongLine(a: string, b: string, l: Lang): string {
   const t = pairTheme(a, b, l);
-  return { en: `${cap(t)}: this comes naturally between you.`, pt: `${cap(t)}: isso flui naturalmente entre vocês.`, es: `${cap(t)}: esto fluye con naturalidad entre ustedes.` }[l];
+  return { en: `${cap(t)} — a natural strength between you.`, pt: `${cap(t)} — um ponto forte natural entre vocês.`, es: `${cap(t)} — una fortaleza natural entre ustedes.` }[l];
 }
 export function careLine(a: string, b: string, l: Lang): string {
   const t = pairTheme(a, b, l);
-  return { en: `${cap(t)}: you may pull in different directions, so go gently.`, pt: `${cap(t)}: vocês podem puxar para lados diferentes, então vão com calma.`, es: `${cap(t)}: pueden ir en direcciones distintas, así que vayan con calma.` }[l];
+  return { en: `${cap(t)} — worth a little extra care, so go gently.`, pt: `${cap(t)} — merece um pouco mais de cuidado, então vão com calma.`, es: `${cap(t)} — merece un poco más de cuidado, así que vayan con calma.` }[l];
 }
 
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);

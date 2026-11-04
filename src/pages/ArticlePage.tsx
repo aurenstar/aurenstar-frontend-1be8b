@@ -19,6 +19,7 @@ import {
 } from '../data/blogArticles';
 import { ShareModal } from '../components/ShareModal';
 import { getUrlLang } from '../utils/urlLang';
+import { withHandTitle } from '../data/articleTitles';
 import { applyLocalized, type LocalizedArticle, type LocalizedResponse } from '../utils/localizedArticle';
 import { ArticleListenBar, ListenSegment, ListenWord } from '../components/ArticleListenBar';
 
@@ -128,7 +129,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
 
   const activeLocalized = !languageChosen && localized && localized.id === baseArticle.id ? localized : null;
   const article = useMemo(
-    () => (activeLocalized ? applyLocalized(translatedBase, lang, activeLocalized.data) : translatedBase),
+    () => (activeLocalized ? applyLocalized(translatedBase, lang, activeLocalized.data) : withHandTitle(translatedBase)),
     [translatedBase, activeLocalized, lang],
   );
   // The voice reads the same text that is on screen: the country version (or the original when the visitor uses a site language).
