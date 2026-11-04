@@ -321,9 +321,9 @@ export const BlogPage: React.FC<BlogPageProps> = ({
               className="flex items-center gap-3.5 self-start sm:self-end bg-black/35 backdrop-blur-md border border-white/20 p-2 sm:p-3 rounded-2xl cursor-pointer hover:bg-black/50 transition-all shrink-0"
             >
               <img decoding="async"
-                src={AURENSTAR_AVATAR}
+                src="/aurenstar-mark.webp"
                 alt="Aurenstar"
-                className="w-11 h-11 rounded-full object-cover ring-2 ring-white/30 shrink-0 shadow-xs"
+                className="w-11 h-11 object-contain shrink-0 drop-shadow-md"
               />
               <div className="flex flex-col min-w-0">
                 <span className="text-xs sm:text-sm font-bold text-white leading-tight truncate">
