@@ -17,6 +17,7 @@ import { ContactPage } from './pages/ContactPage';
 import { CreditsPage } from './pages/CreditsPage';
 import { LegalPage } from './pages/LegalPage';
 import { CompatibilityPage } from './pages/CompatibilityPage';
+import { FEATURES } from './data/features';
 import { TransitsPage } from './pages/TransitsPage';
 import { NewsletterPage } from './pages/NewsletterPage';
 import { DailyMessagePage } from './pages/DailyMessagePage';
@@ -108,7 +109,7 @@ export default function App() {
         setCurrentPage('contact');
       } else if (path === '/credits' || hash === '#/credits') {
         setCurrentPage('credits');
-      } else if (path === '/compatibility' || hash === '#/compatibility') {
+      } else if (FEATURES.compatibility && (path === '/compatibility' || hash === '#/compatibility')) {
         setCurrentPage('compatibility');
       } else if (path === '/transits' || hash === '#/transits') {
         setCurrentPage('transits');

@@ -1,3 +1,4 @@
+import { FEATURES } from '../data/features';
 import { ASTROLOGY_DICTIONARY_TERMS, getDictionaryTermBySlug } from '../data/astrologyDictionaryData';
 import { BLOG_ARTICLES } from '../data/blogArticles';
 import { findArticleByParam, getArticleIsoDate, getArticleSlug } from './articleSlug';
@@ -199,7 +200,7 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
 };
 
 /** Every static route (no params). Used by the prerender and sitemap scripts. */
-export const STATIC_ROUTES: SeoPage[] = [
+export const STATIC_ROUTES: SeoPage[] = ([
   'home',
   'blog',
   'contact',
@@ -219,7 +220,7 @@ export const STATIC_ROUTES: SeoPage[] = [
   'dicionario',
   'describe-me',
   'describe-me-result',
-];
+] as SeoPage[]).filter((p) => p !== 'compatibility' || FEATURES.compatibility);
 
 export function truncate(text: string, max = 158): string {
   const clean = text.replace(/\s+/g, ' ').trim();

@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
 await new Promise((r) => server.listen(0, r));
 const base = `http://localhost:${server.address().port}`;
 
-const PAGES = ['/', '/blog', '/discover-sign', '/descreva-me', '/aureneffect', '/daily-message', '/newsletter', '/contact', '/credits', '/privacy', '/terms', '/compatibility', '/transits', '/about', '/dicionario', '/dicionario/what-is-a-natal-chart', '/dicionario/what-is-mercury-retrograde', '/pt', '/es', '/nl', '/ja'];
+const PAGES = ['/', '/blog', '/discover-sign', '/descreva-me', '/aureneffect', '/daily-message', '/newsletter', '/contact', '/credits', '/privacy', '/terms', '/transits', '/about', '/dicionario', '/dicionario/what-is-a-natal-chart', '/dicionario/what-is-mercury-retrograde', '/pt', '/es', '/nl', '/ja'];
 const failures = [];
 const fail = (msg) => { failures.push(msg); console.log('  FAIL', msg); };
 

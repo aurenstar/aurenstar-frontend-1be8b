@@ -1,3 +1,4 @@
+import { FEATURES } from '../data/features';
 import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { AurenstarLogo } from './AurenstarLogo';
@@ -217,11 +218,13 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   {t.footer.discoverYourSign}
                 </a>
               </li>
+              {FEATURES.compatibility && (
               <li>
                 <a href="/compatibility" onClick={(e) => { e.preventDefault(); onNavigate?.('compatibility'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#2878D0] transition-colors cursor-pointer">
                   {language === 'pt' ? 'Compatibilidade' : language === 'es' ? 'Compatibilidad' : 'Compatibility'}
                 </a>
               </li>
+              )}
               <li>
                 <a href="/transits" onClick={(e) => { e.preventDefault(); onNavigate?.('transits'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#2878D0] transition-colors cursor-pointer">
                   {language === 'pt' ? 'Seu Céu de Hoje' : language === 'es' ? 'Tu Cielo de Hoy' : 'Your Sky Today'}
