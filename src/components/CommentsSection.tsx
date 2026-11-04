@@ -63,14 +63,15 @@ export const CommentsSection: React.FC = () => {
 
   return (
     <section id="comentarios" className="w-full bg-[#C9E5FF] px-4 py-10 sm:px-6">
-      <div className="mx-auto max-w-3xl">
+      <div className="mx-auto max-w-5xl">
         <div className="text-center">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-white px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider text-[#3982C8]"><MessageCircle className="h-3.5 w-3.5" />{t.badge}</span>
           <h2 className="mt-3 text-3xl font-extrabold text-[#172B4D]">{t.title}</h2>
           <p className="mx-auto mt-2 max-w-md text-sm text-[#647DA5]">{t.sub}</p>
         </div>
 
-        <div className="mt-6 grid gap-3">
+        <div className="mt-8 grid items-start gap-6 lg:grid-cols-2">
+        <div className="grid gap-3">
           {list !== null && list.length === 0 && <p className="rounded-2xl bg-white/70 p-5 text-center text-sm font-semibold text-[#647DA5]">{t.empty}</p>}
           {list?.map((c) => (
             <article key={c.id} className="rounded-2xl border border-[#D9E8F8] bg-white p-4 shadow-sm">
@@ -84,9 +85,9 @@ export const CommentsSection: React.FC = () => {
         </div>
 
         {state === 'done' ? (
-          <p className="mt-6 rounded-2xl bg-white p-5 text-center text-sm font-bold text-[#17366F]">{t.thanks}</p>
+          <p className="rounded-2xl bg-white p-5 text-center text-sm font-bold text-[#17366F]">{t.thanks}</p>
         ) : (
-          <form onSubmit={submit} className="mt-6 rounded-3xl border border-[#D9E8F8] bg-white p-5 shadow-sm">
+          <form onSubmit={submit} className="rounded-3xl border border-[#D9E8F8] bg-white p-5 shadow-sm">
             <input value={website} onChange={(e) => setWebsite(e.target.value)} tabIndex={-1} autoComplete="off" aria-hidden className="absolute -left-[9999px] h-0 w-0 opacity-0" />
             <div className="flex items-center gap-1" role="radiogroup" aria-label={t.rate}>
               <span className="mr-2 text-xs font-bold text-[#647DA5]">{t.rate}</span>
@@ -103,6 +104,7 @@ export const CommentsSection: React.FC = () => {
             <p className="mt-3 text-[11px] leading-snug text-[#647DA5]">{t.note}</p>
           </form>
         )}
+        </div>
       </div>
     </section>
   );

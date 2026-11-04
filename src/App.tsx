@@ -9,7 +9,7 @@ import { HeroSection } from './components/HeroSection';
 import { BrandMarquee } from './components/BrandMarquee';
 import { FaqSection } from './components/FaqSection';
 import { CommentsSection } from './components/CommentsSection';
-import { TshirtCapture } from './components/TshirtCapture';
+import { TshirtCapture, TshirtPitch } from './components/TshirtCapture';
 import { isOnTshirtList } from './utils/subscribe';
 import { BlogCardsSection } from './components/BlogCardsSection';
 import { AboutAurenstarSection } from './components/AboutAurenstarSection';
@@ -71,8 +71,21 @@ export type AppPageRoute =
 function TshirtHomeSection() {
   if (isOnTshirtList()) return null;
   return (
-    <section className="w-full bg-[#C9E5FF] px-4 pt-4 pb-2 sm:px-6">
-      <TshirtCapture source="home" />
+    <section className="w-full bg-gradient-to-br from-[#17366F] via-[#2B62A6] to-[#3982C8] px-4 py-12 sm:px-6 sm:py-16">
+      <div className="mx-auto grid max-w-5xl items-center gap-8 lg:grid-cols-2 lg:gap-12">
+        <TshirtPitch />
+        <TshirtCapture source="home" variant="band" />
+      </div>
+    </section>
+  );
+}
+
+/** Slim version of the sign-up, right after the tools, so more visitors see it without scrolling to the end. */
+function TshirtMiniSection() {
+  if (isOnTshirtList()) return null;
+  return (
+    <section className="w-full bg-[#C9E5FF] px-0 py-6 sm:py-8">
+      <TshirtCapture source="home" variant="mini" />
     </section>
   );
 }
@@ -307,6 +320,7 @@ export default function App() {
 
             {/* Tool navigation section shown directly after the hero */}
             <ToolExplainerSection onNavigate={(tool) => handleNavigate(tool)} />
+            <TshirtMiniSection />
 
             {/* Trending Articles Section */}
             <BlogCardsSection

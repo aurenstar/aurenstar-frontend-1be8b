@@ -8,6 +8,8 @@ import { trackEvent } from '../utils/analytics';
 
 const TEXT = {
   pt: {
+    perks: ['Cupom exclusivo de lançamento', 'Você é avisado(a) antes de todo mundo', 'Só um e-mail: o do lançamento'],
+    mini: 'Cupom de desconto para as 100 primeiras pessoas · camisetas Aurenstar',
     badge: 'Cupom de lançamento',
     title: 'Garanta o seu cupom de desconto',
     body: (n: number) => `As ${n} primeiras pessoas da lista ganham um cupom exclusivo no lançamento das camisetas da Aurenstar.`,
@@ -30,6 +32,8 @@ const TEXT = {
     error: 'Não deu certo agora. Tente de novo em instantes.',
   },
   en: {
+    perks: ['Exclusive launch coupon', 'Hear about it before everyone else', 'Just one email: the launch'],
+    mini: 'Discount coupon for the first 100 people · Aurenstar t-shirts',
     badge: 'Launch coupon',
     title: 'Claim your discount coupon',
     body: (n: number) => `The first ${n} people on the list get an exclusive coupon when the Aurenstar t-shirts launch.`,
@@ -52,6 +56,8 @@ const TEXT = {
     error: 'That did not work just now. Please try again in a moment.',
   },
   es: {
+    perks: ['Cupón exclusivo de lanzamiento', 'Te avisamos antes que a nadie', 'Solo un correo: el del lanzamiento'],
+    mini: 'Cupón de descuento para las primeras 100 personas · camisetas Aurenstar',
     badge: 'Cupón de lanzamiento',
     title: 'Asegura tu cupón de descuento',
     body: (n: number) => `Las primeras ${n} personas de la lista reciben un cupón exclusivo en el lanzamiento de las camisetas de Aurenstar.`,
@@ -76,19 +82,45 @@ const TEXT = {
 } as const;
 
 /** Sign-up card for the t-shirt waiting list with the launch coupon for the first people. Hidden for people already on the list. */
-export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string }> = ({ source, sign }) => {
+export const TshirtPitch: React.FC = () => {
+  const { language } = useLanguage();
+  const lang = (language === 'pt' || language === 'es' ? language : 'en') as 'pt' | 'en' | 'es';
+  const t = TEXT[lang];
+  const [spots, setSpots] = useState<number>(100);
+  useEffect(() => { getCouponSpots().then((r) => r && setSpots(r.limit)); }, []);
+  return (
+    <div className="text-white">
+      <span className="inline-flex items-center gap-1.5 rounded-full bg-[#E73578] px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider"><Ticket className="h-3.5 w-3.5" /> {t.badge}</span>
+      <h2 className="mt-4 text-3xl font-extrabold leading-tight sm:text-4xl">{t.title}</h2>
+      <p className="mt-3 max-w-md text-sm leading-relaxed text-white/85 sm:text-base">{t.body(spots)}</p>
+      <ul className="mt-5 grid gap-2.5">
+        {t.perks.map((x) => (
+          <li key={x} className="flex items-center gap-2.5 text-sm font-semibold"><span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white/15"><Check className="h-3.5 w-3.5" strokeWidth={3} /></span>{x}</li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string; variant?: 'card' | 'band' | 'mini' }> = ({ source, sign, variant = 'card' }) => {
   const { language } = useLanguage();
   const lang = (language === 'pt' || language === 'es' ? language : 'en') as 'pt' | 'en' | 'es';
   const t = TEXT[lang];
   const [email, setEmail] = useState('');
   const [consent, setConsent] = useState(false);
   const [state, setState] = useState<'idle' | 'sending' | 'done' | 'error'>('idle');
-  const [already] = useState(() => isOnTshirtList());
+  const [already, setAlready] = useState(() => isOnTshirtList());
   const [spots, setSpots] = useState<{ limit: number; left: number | null } | null>(null);
   const [gotCoupon, setGotCoupon] = useState(true);
   useEffect(() => { if (!already) getCouponSpots().then(setSpots); }, [already]);
+  // when the person joins through one card, the other cards on the page disappear
+  useEffect(() => {
+    const h = () => setAlready(true);
+    window.addEventListener('aurenstar-tshirt-joined', h);
+    return () => window.removeEventListener('aurenstar-tshirt-joined', h);
+  }, []);
 
-  if (already) return null;
+  if (already && state !== 'done') return null;
 
   const limit = spots?.limit ?? 100;
   const left = spots?.left ?? null;
@@ -101,13 +133,13 @@ export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string }>
     setState('sending');
     setGotCoupon(!full);
     const ok = await subscribeEmail({ email, sign, lang, source });
-    if (ok) trackEvent('tshirt_signup', { source });
+    if (ok) { trackEvent('tshirt_signup', { source }); window.setTimeout(() => window.dispatchEvent(new Event('aurenstar-tshirt-joined')), 0); }
     setState(ok ? 'done' : 'error');
   };
 
   if (state === 'done') {
     return (
-      <div className="mx-auto my-8 w-[calc(100%-2rem)] max-w-xl overflow-hidden rounded-3xl bg-gradient-to-br from-[#17366F] to-[#3982C8] p-7 text-center text-white shadow-xl sm:w-full">
+      <div className={`${variant === 'card' ? 'mx-auto my-8 w-[calc(100%-2rem)] max-w-xl rounded-3xl bg-gradient-to-br from-[#17366F] to-[#3982C8] shadow-xl sm:w-full' : variant === 'band' ? 'rounded-3xl bg-white/10 ring-1 ring-white/20' : 'mx-auto w-[calc(100%-2rem)] max-w-3xl rounded-2xl bg-gradient-to-r from-[#17366F] to-[#3982C8]'} overflow-hidden p-6 text-center text-white`}>
         <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-white text-[#3982C8]"><Check className="h-6 w-6" strokeWidth={3} /></span>
         <p className="mt-3 text-lg font-extrabold">{gotCoupon ? t.thanks : t.thanksFull}</p>
         <p className="mt-1 text-sm text-white/85">{gotCoupon ? t.thanksSub : t.thanksFullSub}</p>
@@ -115,10 +147,32 @@ export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string }>
     );
   }
 
+  if (variant === 'mini') {
+    return (
+      <form onSubmit={submit} className="mx-auto w-[calc(100%-2rem)] max-w-3xl rounded-2xl bg-gradient-to-r from-[#17366F] to-[#3982C8] p-4 text-white shadow-lg sm:p-5">
+        <div className="flex flex-col gap-3 md:flex-row md:items-center">
+          <p className="flex items-start gap-2 text-sm font-extrabold leading-snug md:max-w-[17rem]"><Ticket className="mt-0.5 h-5 w-5 shrink-0 text-[#FF8FB5]" />{t.mini}</p>
+          <div className="flex min-w-0 flex-1 flex-col gap-2 sm:flex-row">
+            <input type="email" required value={email} onChange={(e) => { setEmail(e.target.value); e.target.setCustomValidity(emailMessage(e.target.value, lang)); }} placeholder={t.placeholder} className="min-w-0 flex-1 rounded-full bg-white px-4 py-3 text-sm font-semibold text-[#172B4D] outline-none placeholder:font-normal placeholder:text-[#647DA5] focus:ring-2 focus:ring-[#E73578]" />
+            <button type="submit" disabled={state === 'sending'} className="shrink-0 cursor-pointer rounded-full bg-[#E73578] px-6 py-3 text-sm font-extrabold text-white transition-colors hover:bg-[#D0306C] disabled:opacity-60">{state === 'sending' ? t.sending : full ? t.ctaFull : `${t.cta} →`}</button>
+          </div>
+        </div>
+        <label className="mt-3 flex cursor-pointer items-start gap-2 text-[11px] leading-snug text-white/85">
+          <input type="checkbox" required checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 h-4 w-4 shrink-0 cursor-pointer accent-[#E73578]" />
+          <span>{TSHIRT_CONSENT[lang]}</span>
+        </label>
+        {state === 'error' && <p className="mt-2 rounded-lg bg-white px-3 py-2 text-xs font-bold text-[#E73578]">{t.error}</p>}
+      </form>
+    );
+  }
+
+  const band = variant === 'band';
   return (
-    <div className="relative mx-auto my-8 w-[calc(100%-2rem)] max-w-xl overflow-hidden rounded-3xl bg-gradient-to-br from-[#17366F] via-[#2B62A6] to-[#3982C8] text-white shadow-xl sm:w-full">
-      <div aria-hidden className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-[#E73578]/30 blur-2xl" />
+    <div className={band ? 'relative rounded-3xl bg-white/10 text-white ring-1 ring-white/20' : 'relative mx-auto my-8 w-[calc(100%-2rem)] max-w-xl overflow-hidden rounded-3xl bg-gradient-to-br from-[#17366F] via-[#2B62A6] to-[#3982C8] text-white shadow-xl sm:w-full'}>
+      {!band && <div aria-hidden className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-[#E73578]/30 blur-2xl" />}
       <form onSubmit={submit} className="relative p-6 sm:p-8">
+        {!band && (
+          <>
         <div className="flex items-center justify-between gap-3">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-[#E73578] px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider">
             <Ticket className="h-3.5 w-3.5" /> {t.badge}
@@ -129,8 +183,11 @@ export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string }>
         <h3 className="mt-4 text-2xl font-extrabold leading-tight sm:text-3xl">{t.title}</h3>
         <p className="mt-2 text-sm leading-relaxed text-white/85">{full ? t.bodyFull : t.body(limit)}</p>
 
+          </>
+        )}
+
         {left !== null && !full && (
-          <div className="mt-5 rounded-2xl bg-white/10 p-4">
+          <div className={`${band ? '' : 'mt-5'} rounded-2xl bg-white/10 p-4`}>
             <div className="flex items-end justify-between gap-3">
               <div className="flex items-end gap-2">
                 <span className="text-4xl font-extrabold leading-none tabular-nums">{left}</span>
