@@ -28,3 +28,6 @@
 
 /assets/*.css
   Cache-Control: public, max-age=31536000, immutable
+
+/dictionary-data/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400

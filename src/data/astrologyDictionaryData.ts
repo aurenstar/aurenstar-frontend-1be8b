@@ -775,13 +775,18 @@ export const ASTROLOGY_DICTIONARY_TERMS: DictionaryTerm[] = [
   ...(generatedTerms as unknown as DictionaryTerm[]),
 ];
 
+/**
+ * In the browser, automatically written terms arrive "light" (name, summary, translations of those) so the site stays fast
+ * no matter how many terms exist; the full text is fetched when a term page opens (see PublicDictionaryTermPage).
+ * Once fetched, the full term is remembered here so everything (page, search data) sees it.
+ */
+const fullTerms = new Map<string, DictionaryTerm>();
+export const registerFullTerm = (term: DictionaryTerm) => { fullTerms.set(term.slug, term); };
+
 export const getDictionaryTermBySlug = (slug: string): DictionaryTerm | undefined => {
   const cleanSlug = slug.toLowerCase().trim();
-  return ASTROLOGY_DICTIONARY_TERMS.find(
-    (t) =>
-      t.slug.toLowerCase() === cleanSlug ||
-      t.id.toLowerCase() === cleanSlug ||
-      cleanSlug.includes(t.slug.toLowerCase()) ||
-      t.slug.toLowerCase().includes(cleanSlug)
-  );
+  const found =
+    ASTROLOGY_DICTIONARY_TERMS.find((t) => t.slug.toLowerCase() === cleanSlug || t.id.toLowerCase() === cleanSlug) ||
+    ASTROLOGY_DICTIONARY_TERMS.find((t) => cleanSlug.includes(t.slug.toLowerCase()) || t.slug.toLowerCase().includes(cleanSlug));
+  return found ? fullTerms.get(found.slug) || found : undefined;
 };

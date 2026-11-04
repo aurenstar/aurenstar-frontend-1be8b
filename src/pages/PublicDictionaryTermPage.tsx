@@ -15,11 +15,13 @@ import {
   DictionaryTerm,
   ASTROLOGY_DICTIONARY_TERMS,
   getDictionaryTermBySlug,
+  registerFullTerm,
 } from '../data/astrologyDictionaryData';
 import { CoverArt } from '../components/CoverArt';
 import { TermIcon } from '../components/TermIcon';
 import { onPlainClick } from '../utils/links';
 import { useLanguage } from '../context/LanguageContext';
+import { updateSeo } from '../utils/seo';
 import { categoryLabel, localizeTerm } from '../data/astrologyDictionaryTranslations';
 
 const COPY = {
@@ -46,10 +48,27 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
   const { language } = useLanguage();
   const lang = (language || 'en') as 'en' | 'pt' | 'es';
   const c = COPY[lang];
-  const term: DictionaryTerm = localizeTerm(
-    getDictionaryTermBySlug(termSlug) || ASTROLOGY_DICTIONARY_TERMS[0],
-    lang,
-  );
+  const baseTerm = getDictionaryTermBySlug(termSlug) || ASTROLOGY_DICTIONARY_TERMS[0];
+  const term: DictionaryTerm = localizeTerm(baseTerm, lang);
+  // Automatically written terms arrive light; fetch the full text (once) when their page opens.
+  const isLight = !baseTerm.oQueSignifica;
+  const [loadFailed, setLoadFailed] = useState(false);
+  const [, setLoadedTick] = useState(0);
+  useEffect(() => {
+    if (!isLight) return;
+    let stop = false;
+    setLoadFailed(false);
+    fetch(`/dictionary-data/${baseTerm.slug}.json`)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error('missing'))))
+      .then((full: DictionaryTerm) => {
+        if (stop) return;
+        registerFullTerm(full);
+        setLoadedTick((n) => n + 1);
+        try { updateSeo('dicionario-termo', { termSlug: baseTerm.slug }); } catch { /* head stays as built */ }
+      })
+      .catch(() => { if (!stop) setLoadFailed(true); });
+    return () => { stop = true; };
+  }, [baseTerm.slug, isLight]);
 
   const [copied, setCopied] = useState(false);
 
@@ -78,6 +97,26 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
   };
+
+  if (isLight) {
+    return (
+      <div className="w-full bg-[#C9E5FF] min-h-screen pt-24 sm:pt-28 pb-20 text-[#172B4D]">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6">
+          <div className="bg-white rounded-3xl p-6 sm:p-10 border border-[#D9E8F8]">
+            <h1 className="text-2xl sm:text-3xl font-extrabold text-[#17366F]">{term.termo}</h1>
+            <p className="mt-2 text-sm text-[#647DA5]">{term.resumoUmaLinha}</p>
+            {loadFailed ? (
+              <button type="button" onClick={onBackToDictionary} className="mt-6 px-4 py-2.5 rounded-full bg-[#F51B83] text-white text-xs font-bold cursor-pointer">{c.back}</button>
+            ) : (
+              <div className="mt-6 space-y-3 animate-pulse" aria-hidden="true">
+                <div className="h-4 rounded bg-[#E4F1FF]" /><div className="h-4 rounded bg-[#E4F1FF] w-11/12" /><div className="h-4 rounded bg-[#E4F1FF] w-9/12" />
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="w-full bg-[#C9E5FF] min-h-screen pt-24 sm:pt-28 pb-20 select-none animate-fadeIn text-[#172B4D]">

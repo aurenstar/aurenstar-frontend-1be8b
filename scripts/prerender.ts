@@ -183,8 +183,11 @@ for (const category of BLOG_CATEGORIES) {
 }
 
 // 3. Dictionary terms
+fs.mkdirSync(path.join(dist, 'dictionary-data'), { recursive: true });
 for (const term of ASTROLOGY_DICTIONARY_TERMS) {
   emit(getSeoData('dicionario-termo', { termSlug: term.slug }), undefined, termBody(term));
+  // the term page in the browser fetches its full text from here (the bundle only carries a light copy)
+  fs.writeFileSync(path.join(dist, 'dictionary-data', `${term.slug}.json`), JSON.stringify(term));
 }
 
 // 4. About sections
