@@ -71,7 +71,7 @@ export type AppPageRoute =
 function TshirtMiniSection() {
   if (isOnTshirtList()) return null;
   return (
-    <section className="w-full bg-[#C9E5FF] px-0 py-6 sm:py-8">
+    <section className="w-full bg-[#C9E5FF] px-0 py-8 sm:py-10">
       <TshirtCapture source="home" variant="mini" />
     </section>
   );

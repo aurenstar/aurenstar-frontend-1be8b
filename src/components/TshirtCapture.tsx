@@ -8,8 +8,7 @@ import { trackEvent } from '../utils/analytics';
 
 const TEXT = {
   pt: {
-    perks: ['Cupom exclusivo de lançamento', 'Você é avisado(a) antes de todo mundo', 'Só um e-mail: o do lançamento'],
-    mini: 'Cupom de desconto para as 100 primeiras pessoas · camisetas Aurenstar',
+    miniTitle: 'Cupom de desconto para as 100 primeiras pessoas', miniSub: 'Camisetas Aurenstar',
     badge: 'Cupom de lançamento',
     title: 'Garanta o seu cupom de desconto',
     body: (n: number) => `As ${n} primeiras pessoas da lista ganham um cupom exclusivo no lançamento das camisetas da Aurenstar.`,
@@ -32,8 +31,7 @@ const TEXT = {
     error: 'Não deu certo agora. Tente de novo em instantes.',
   },
   en: {
-    perks: ['Exclusive launch coupon', 'Hear about it before everyone else', 'Just one email: the launch'],
-    mini: 'Discount coupon for the first 100 people · Aurenstar t-shirts',
+    miniTitle: 'Discount coupon for the first 100 people', miniSub: 'Aurenstar t-shirts',
     badge: 'Launch coupon',
     title: 'Claim your discount coupon',
     body: (n: number) => `The first ${n} people on the list get an exclusive coupon when the Aurenstar t-shirts launch.`,
@@ -56,8 +54,7 @@ const TEXT = {
     error: 'That did not work just now. Please try again in a moment.',
   },
   es: {
-    perks: ['Cupón exclusivo de lanzamiento', 'Te avisamos antes que a nadie', 'Solo un correo: el del lanzamiento'],
-    mini: 'Cupón de descuento para las primeras 100 personas · camisetas Aurenstar',
+    miniTitle: 'Cupón de descuento para las primeras 100 personas', miniSub: 'Camisetas Aurenstar',
     badge: 'Cupón de lanzamiento',
     title: 'Asegura tu cupón de descuento',
     body: (n: number) => `Las primeras ${n} personas de la lista reciben un cupón exclusivo en el lanzamiento de las camisetas de Aurenstar.`,
@@ -82,27 +79,7 @@ const TEXT = {
 } as const;
 
 /** Sign-up card for the t-shirt waiting list with the launch coupon for the first people. Hidden for people already on the list. */
-export const TshirtPitch: React.FC = () => {
-  const { language } = useLanguage();
-  const lang = (language === 'pt' || language === 'es' ? language : 'en') as 'pt' | 'en' | 'es';
-  const t = TEXT[lang];
-  const [spots, setSpots] = useState<number>(100);
-  useEffect(() => { getCouponSpots().then((r) => r && setSpots(r.limit)); }, []);
-  return (
-    <div className="text-white">
-      <span className="inline-flex items-center gap-1.5 rounded-full bg-[#E73578] px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider"><Ticket className="h-3.5 w-3.5" /> {t.badge}</span>
-      <h2 className="mt-4 text-3xl font-extrabold leading-tight sm:text-4xl">{t.title}</h2>
-      <p className="mt-3 max-w-md text-sm leading-relaxed text-white/85 sm:text-base">{t.body(spots)}</p>
-      <ul className="mt-5 grid gap-2.5">
-        {t.perks.map((x) => (
-          <li key={x} className="flex items-center gap-2.5 text-sm font-semibold"><span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white/15"><Check className="h-3.5 w-3.5" strokeWidth={3} /></span>{x}</li>
-        ))}
-      </ul>
-    </div>
-  );
-};
-
-export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string; variant?: 'card' | 'band' | 'mini' }> = ({ source, sign, variant = 'card' }) => {
+export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string; variant?: 'card' | 'mini' }> = ({ source, sign, variant = 'card' }) => {
   const { language } = useLanguage();
   const lang = (language === 'pt' || language === 'es' ? language : 'en') as 'pt' | 'en' | 'es';
   const t = TEXT[lang];
@@ -137,101 +114,90 @@ export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string; v
     setState(ok ? 'done' : 'error');
   };
 
+  const field = 'min-w-0 flex-1 rounded-full border-2 border-[#D9E8F8] bg-[#F4F9FF] px-5 py-3.5 text-sm font-semibold text-[#172B4D] outline-none placeholder:font-normal placeholder:text-[#647DA5] focus:border-[#E73578] focus:bg-white';
+  const cta = 'shrink-0 cursor-pointer rounded-full bg-[#E73578] px-7 py-3.5 text-sm font-extrabold text-white shadow-lg shadow-[#E73578]/25 transition-all hover:scale-[1.03] hover:bg-[#D0306C] active:scale-95 disabled:opacity-60';
+  const box = 'rounded-3xl border border-[#D9E8F8] bg-white shadow-[0_10px_30px_rgba(57,130,200,0.12)]';
+  const onEmail = (e: React.ChangeEvent<HTMLInputElement>) => { setEmail(e.target.value); e.target.setCustomValidity(emailMessage(e.target.value, lang)); };
+  const ctaLabel = state === 'sending' ? t.sending : full ? t.ctaFull : `${t.cta} →`;
+  const consentRow = (
+    <label className="flex cursor-pointer items-start gap-2.5 text-xs leading-snug text-[#17366F]">
+      <input type="checkbox" required checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 h-4 w-4 shrink-0 cursor-pointer accent-[#E73578]" />
+      <span>{TSHIRT_CONSENT[lang]}</span>
+    </label>
+  );
+  const wrap = variant === 'mini' ? 'mx-auto w-[calc(100%-2rem)] max-w-3xl' : 'mx-auto my-8 w-[calc(100%-2rem)] max-w-xl';
+
   if (state === 'done') {
     return (
-      <div className={`${variant === 'card' ? 'mx-auto my-8 w-[calc(100%-2rem)] max-w-xl rounded-3xl bg-gradient-to-br from-[#17366F] to-[#3982C8] shadow-xl sm:w-full' : variant === 'band' ? 'rounded-3xl bg-white/10 ring-1 ring-white/20' : 'mx-auto w-[calc(100%-2rem)] max-w-3xl rounded-2xl bg-gradient-to-r from-[#17366F] to-[#3982C8]'} overflow-hidden p-6 text-center text-white`}>
-        <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-white text-[#3982C8]"><Check className="h-6 w-6" strokeWidth={3} /></span>
-        <p className="mt-3 text-lg font-extrabold">{gotCoupon ? t.thanks : t.thanksFull}</p>
-        <p className="mt-1 text-sm text-white/85">{gotCoupon ? t.thanksSub : t.thanksFullSub}</p>
+      <div className={`${wrap} ${box} p-7 text-center`}>
+        <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-[#E73578] text-white"><Check className="h-6 w-6" strokeWidth={3} /></span>
+        <p className="mt-3 text-lg font-extrabold text-[#172B4D]">{gotCoupon ? t.thanks : t.thanksFull}</p>
+        <p className="mt-1 text-sm text-[#647DA5]">{gotCoupon ? t.thanksSub : t.thanksFullSub}</p>
       </div>
     );
   }
 
   if (variant === 'mini') {
     return (
-      <form onSubmit={submit} className="mx-auto w-[calc(100%-2rem)] max-w-3xl rounded-2xl bg-gradient-to-r from-[#17366F] to-[#3982C8] p-4 text-white shadow-lg sm:p-5">
+      <form onSubmit={submit} className={`${wrap} ${box} p-4 sm:p-5`}>
         <div className="flex flex-col gap-3 md:flex-row md:items-center">
-          <p className="flex items-start gap-2 text-sm font-extrabold leading-snug md:max-w-[17rem]"><Ticket className="mt-0.5 h-5 w-5 shrink-0 text-[#FF8FB5]" />{t.mini}</p>
+          <div className="flex items-center gap-3 md:max-w-[17rem]">
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#FDE8F0] text-[#E73578]"><Shirt className="h-5 w-5" /></span>
+            <div>
+              <p className="text-sm font-extrabold leading-snug text-[#172B4D]">{t.miniTitle}</p>
+              <p className="text-xs font-semibold text-[#E73578]">{t.miniSub}</p>
+            </div>
+          </div>
           <div className="flex min-w-0 flex-1 flex-col gap-2 sm:flex-row">
-            <input type="email" required value={email} onChange={(e) => { setEmail(e.target.value); e.target.setCustomValidity(emailMessage(e.target.value, lang)); }} placeholder={t.placeholder} className="min-w-0 flex-1 rounded-full bg-white px-4 py-3 text-sm font-semibold text-[#172B4D] outline-none placeholder:font-normal placeholder:text-[#647DA5] focus:ring-2 focus:ring-[#E73578]" />
-            <button type="submit" disabled={state === 'sending'} className="shrink-0 cursor-pointer rounded-full bg-[#E73578] px-6 py-3 text-sm font-extrabold text-white transition-colors hover:bg-[#D0306C] disabled:opacity-60">{state === 'sending' ? t.sending : full ? t.ctaFull : `${t.cta} →`}</button>
+            <input type="email" required value={email} onChange={onEmail} placeholder={t.placeholder} className={field} />
+            <button type="submit" disabled={state === 'sending'} className={cta}>{ctaLabel}</button>
           </div>
         </div>
-        <label className="mt-3 flex cursor-pointer items-start gap-2 text-[11px] leading-snug text-white/85">
-          <input type="checkbox" required checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 h-4 w-4 shrink-0 cursor-pointer accent-[#E73578]" />
-          <span>{TSHIRT_CONSENT[lang]}</span>
-        </label>
-        {state === 'error' && <p className="mt-2 rounded-lg bg-white px-3 py-2 text-xs font-bold text-[#E73578]">{t.error}</p>}
+        <div className="mt-3">{consentRow}</div>
+        {state === 'error' && <p className="mt-2 rounded-lg bg-[#FDE8F0] px-3 py-2 text-xs font-bold text-[#E73578]">{t.error}</p>}
       </form>
     );
   }
 
-  const band = variant === 'band';
   return (
-    <div className={band ? 'relative rounded-3xl bg-white/10 text-white ring-1 ring-white/20' : 'relative mx-auto my-8 w-[calc(100%-2rem)] max-w-xl overflow-hidden rounded-3xl bg-gradient-to-br from-[#17366F] via-[#2B62A6] to-[#3982C8] text-white shadow-xl sm:w-full'}>
-      {!band && <div aria-hidden className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-[#E73578]/30 blur-2xl" />}
-      <form onSubmit={submit} className="relative p-6 sm:p-8">
-        {!band && (
-          <>
+    <div className={`${wrap} ${box} overflow-hidden`}>
+      <div className="h-1.5 w-full bg-gradient-to-r from-[#3982C8] to-[#E73578]" />
+      <form onSubmit={submit} className="p-6 sm:p-8">
         <div className="flex items-center justify-between gap-3">
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-[#E73578] px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider">
-            <Ticket className="h-3.5 w-3.5" /> {t.badge}
-          </span>
-          <Shirt className="h-6 w-6 text-white/70" aria-hidden />
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-[#FDE8F0] px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider text-[#E73578]"><Ticket className="h-3.5 w-3.5" /> {t.badge}</span>
+          <Shirt className="h-6 w-6 text-[#3982C8]" aria-hidden />
         </div>
-
-        <h3 className="mt-4 text-2xl font-extrabold leading-tight sm:text-3xl">{t.title}</h3>
-        <p className="mt-2 text-sm leading-relaxed text-white/85">{full ? t.bodyFull : t.body(limit)}</p>
-
-          </>
-        )}
+        <h3 className="mt-4 text-2xl font-extrabold leading-tight text-[#172B4D] sm:text-3xl">{t.title}</h3>
+        <p className="mt-2 text-sm leading-relaxed text-[#647DA5]">{full ? t.bodyFull : t.body(limit)}</p>
 
         {left !== null && !full && (
-          <div className={`${band ? '' : 'mt-5'} rounded-2xl bg-white/10 p-4`}>
+          <div className="mt-5 rounded-2xl bg-[#F4F9FF] p-4">
             <div className="flex items-end justify-between gap-3">
               <div className="flex items-end gap-2">
-                <span className="text-4xl font-extrabold leading-none tabular-nums">{left}</span>
-                <span className="pb-0.5 text-xs font-semibold text-white/85">{t.spotsLabel} {t.of(limit)}</span>
+                <span className="text-4xl font-extrabold leading-none tabular-nums text-[#172B4D]">{left}</span>
+                <span className="pb-0.5 text-xs font-semibold text-[#647DA5]">{t.spotsLabel} {t.of(limit)}</span>
               </div>
               {left <= Math.ceil(limit * 0.2) ? (
-                <span className="animate-pulse rounded-full bg-[#E73578] px-3 py-1 text-[11px] font-extrabold">{t.last}</span>
+                <span className="animate-pulse rounded-full bg-[#E73578] px-3 py-1 text-[11px] font-extrabold text-white">{t.last}</span>
               ) : taken >= limit / 2 ? (
-                <span className="rounded-full bg-white/20 px-3 py-1 text-[11px] font-extrabold">{t.half}</span>
+                <span className="rounded-full bg-[#E4F1FF] px-3 py-1 text-[11px] font-extrabold text-[#3982C8]">{t.half}</span>
               ) : null}
             </div>
-            <div className="mt-3 h-2.5 w-full overflow-hidden rounded-full bg-white/20">
-              <div className="h-full rounded-full bg-gradient-to-r from-[#E73578] to-[#FF8FB5] transition-all duration-700" style={{ width: `${Math.max(3, Math.round((taken / limit) * 100))}%` }} />
+            <div className="mt-3 h-2.5 w-full overflow-hidden rounded-full bg-[#D9E8F8]">
+              <div className="h-full rounded-full bg-gradient-to-r from-[#3982C8] to-[#E73578] transition-all duration-700" style={{ width: `${Math.max(3, Math.round((taken / limit) * 100))}%` }} />
             </div>
-            {taken >= 10 && <p className="mt-2 text-xs font-semibold text-white/85">🔥 {t.joined(taken)}</p>}
+            {taken >= 10 && <p className="mt-2 text-xs font-semibold text-[#17366F]">🔥 {t.joined(taken)}</p>}
           </div>
         )}
 
         <div className="mt-5 flex flex-col gap-2.5 sm:flex-row">
-          <input
-            type="email"
-            required
-            value={email}
-            onChange={(e) => { setEmail(e.target.value); e.target.setCustomValidity(emailMessage(e.target.value, lang)); }}
-            placeholder={t.placeholder}
-            className="min-w-0 flex-1 rounded-full border-2 border-transparent bg-white px-5 py-3.5 text-sm font-semibold text-[#172B4D] outline-none placeholder:font-normal placeholder:text-[#647DA5] focus:border-[#E73578]"
-          />
-          <button
-            type="submit"
-            disabled={state === 'sending'}
-            className="shrink-0 cursor-pointer rounded-full bg-[#E73578] px-7 py-3.5 text-sm font-extrabold text-white shadow-lg shadow-[#E73578]/30 transition-all hover:scale-[1.03] hover:bg-[#D0306C] active:scale-95 disabled:opacity-60"
-          >
-            {state === 'sending' ? t.sending : full ? t.ctaFull : `${t.cta} →`}
-          </button>
+          <input type="email" required value={email} onChange={onEmail} placeholder={t.placeholder} className={field} />
+          <button type="submit" disabled={state === 'sending'} className={cta}>{ctaLabel}</button>
         </div>
-
-        <label className="mt-4 flex cursor-pointer items-start gap-2.5 text-xs leading-snug text-white/90">
-          <input type="checkbox" required checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 h-4 w-4 shrink-0 cursor-pointer accent-[#E73578]" />
-          <span>{TSHIRT_CONSENT[lang]}</span>
-        </label>
-
-        <p className="mt-3 flex items-start gap-1.5 text-[11px] leading-snug text-white/70"><Lock className="mt-0.5 h-3 w-3 shrink-0" />{t.trust}</p>
-        {!full && <p className="mt-1 text-[11px] leading-snug text-white/70">{t.rule(limit)}</p>}
-        {state === 'error' && <p className="mt-3 rounded-lg bg-white px-3 py-2 text-xs font-bold text-[#E73578]">{t.error}</p>}
+        <div className="mt-4">{consentRow}</div>
+        <p className="mt-3 flex items-start gap-1.5 text-[11px] leading-snug text-[#647DA5]"><Lock className="mt-0.5 h-3 w-3 shrink-0" />{t.trust}</p>
+        {!full && <p className="mt-1 text-[11px] leading-snug text-[#647DA5]">{t.rule(limit)}</p>}
+        {state === 'error' && <p className="mt-3 rounded-lg bg-[#FDE8F0] px-3 py-2 text-xs font-bold text-[#E73578]">{t.error}</p>}
       </form>
     </div>
   );

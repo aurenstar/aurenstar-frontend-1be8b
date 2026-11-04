@@ -3,6 +3,7 @@ import { ThumbsDown, ThumbsUp } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { trackEvent } from '../utils/analytics';
 import { TshirtCapture } from './TshirtCapture';
+import { SignArticleCard } from './SignArticleCard';
 
 type Tool = 'daily_message' | 'auren_effect' | 'discover_sign' | 'describe_me';
 
@@ -54,6 +55,7 @@ export const FeedbackButtons: React.FC<{ tool: Tool; sign?: string }> = ({ tool,
         </>
       )}
     </div>
+    <SignArticleCard sign={sign} tool={tool} />
     <TshirtCapture source="result" sign={sign} />
     </>
   );

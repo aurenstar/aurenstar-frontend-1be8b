@@ -500,8 +500,6 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
         </div>
         </div>
 
-        <TshirtCapture source="article" />
-
         {/* =========================================================================
             NEXT CHAPTER / CONTINUE LENDO CARD (Matching user uploaded card)
             ========================================================================= */}
@@ -558,6 +556,8 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
             </div>
           </section>
         )}
+
+        <TshirtCapture source="article" />
       </div>
 
       {/* Modal Interativo de Compartilhamento em Redes Sociais */}
