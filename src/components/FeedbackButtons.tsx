@@ -56,7 +56,7 @@ export const FeedbackButtons: React.FC<{ tool: Tool; sign?: string; padded?: boo
       )}
     </div>
     <SignArticleCard sign={sign} tool={tool} flush />
-    <TshirtCapture source="result" sign={sign} flush />
+    <TshirtCapture source="result" sign={sign} variant="mini" flush />
     {children && <div className="pt-4">{children}</div>}
     </div>
   );

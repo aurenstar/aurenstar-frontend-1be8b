@@ -8,7 +8,7 @@ import { trackEvent } from '../utils/analytics';
 
 const TEXT = {
   pt: {
-    miniTitle: 'Cupom de desconto para as 100 primeiras pessoas', miniSub: 'Camisetas Aurenstar',
+    miniTitle: 'Cupom de desconto para as 100 primeiras pessoas', miniSub: 'Camisetas Aurenstar', leftShort: (n: number) => `restam ${n}`,
     badge: 'Cupom de lançamento',
     title: 'Garanta o seu cupom de desconto',
     body: (n: number) => `As ${n} primeiras pessoas da lista ganham um cupom exclusivo no lançamento das camisetas da Aurenstar.`,
@@ -31,7 +31,7 @@ const TEXT = {
     error: 'Não deu certo agora. Tente de novo em instantes.',
   },
   en: {
-    miniTitle: 'Discount coupon for the first 100 people', miniSub: 'Aurenstar t-shirts',
+    miniTitle: 'Discount coupon for the first 100 people', miniSub: 'Aurenstar t-shirts', leftShort: (n: number) => `${n} left`,
     badge: 'Launch coupon',
     title: 'Claim your discount coupon',
     body: (n: number) => `The first ${n} people on the list get an exclusive coupon when the Aurenstar t-shirts launch.`,
@@ -54,7 +54,7 @@ const TEXT = {
     error: 'That did not work just now. Please try again in a moment.',
   },
   es: {
-    miniTitle: 'Cupón de descuento para las primeras 100 personas', miniSub: 'Camisetas Aurenstar',
+    miniTitle: 'Cupón de descuento para las primeras 100 personas', miniSub: 'Camisetas Aurenstar', leftShort: (n: number) => `quedan ${n}`,
     badge: 'Cupón de lanzamiento',
     title: 'Asegura tu cupón de descuento',
     body: (n: number) => `Las primeras ${n} personas de la lista reciben un cupón exclusivo en el lanzamiento de las camisetas de Aurenstar.`,
@@ -125,7 +125,7 @@ export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string; v
       <span>{TSHIRT_CONSENT[lang]}</span>
     </label>
   );
-  const wrap = variant === 'mini' ? 'mx-auto w-[calc(100%-2rem)] max-w-3xl' : (flush ? 'w-full' : 'mx-auto my-8 w-full max-w-3xl');
+  const wrap = variant === 'mini' ? (flush ? 'w-full' : 'mx-auto w-[calc(100%-2rem)] max-w-3xl') : (flush ? 'w-full' : 'mx-auto my-8 w-full max-w-3xl');
 
   if (state === 'done') {
     return (
@@ -145,7 +145,7 @@ export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string; v
             <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#FDE8F0] text-[#E73578]"><Shirt className="h-5 w-5" /></span>
             <div>
               <p className="text-sm font-extrabold leading-snug text-[#172B4D]">{t.miniTitle}</p>
-              <p className="text-xs font-semibold text-[#E73578]">{t.miniSub}</p>
+              <p className="text-xs font-semibold text-[#E73578]">{t.miniSub}{left !== null && !full ? ` · ${t.leftShort(left)}` : ''}</p>
             </div>
           </div>
           <div className="flex min-w-0 flex-1 flex-col gap-2 sm:flex-row">

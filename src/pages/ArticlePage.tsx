@@ -557,7 +557,7 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
           </section>
         )}
 
-        <TshirtCapture source="article" />
+        <div className="mx-auto -mt-4 mb-10 w-full max-w-3xl"><TshirtCapture source="article" variant="mini" flush /></div>
       </div>
 
       {/* Modal Interativo de Compartilhamento em Redes Sociais */}

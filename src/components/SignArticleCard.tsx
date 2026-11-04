@@ -7,12 +7,6 @@ import { getArticleSlugById } from '../utils/articleSlug';
 import { isPlainLeftClick } from '../utils/links';
 import { trackEvent } from '../utils/analytics';
 
-const TEXT = {
-  pt: { kicker: 'Continue explorando' },
-  en: { kicker: 'Keep exploring' },
-  es: { kicker: 'Sigue explorando' },
-} as const;
-
 const plain = (v: string) => v.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
 
 /** Under a tool result: the blog article about the person's own sign, so the result leads into the blog. */
@@ -24,8 +18,6 @@ export const SignArticleCard: React.FC<{ sign?: string; tool: string; flush?: bo
   const info = Object.values(SIGNS_DATA).find((x) => x.key === key || plain(x.name.pt) === key || plain(x.name.en) === key || plain(x.name.es) === key);
   const article = info && BLOG_ARTICLES.find((a) => a.id === info.articleId);
   if (!info || !article) return null;
-  const t = TEXT[lang];
-  const name = info.name[lang];
   const url = `/blog/${getArticleSlugById(article.id)}`;
   const open = (e: React.MouseEvent) => {
     trackEvent('sign_article_click', { tool, sign: info.key });
@@ -43,8 +35,7 @@ export const SignArticleCard: React.FC<{ sign?: string; tool: string; flush?: bo
           <img src={article.image} alt={article.title[lang] || article.title.pt} loading="lazy" decoding="async" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
         </div>
         <div className="min-w-0 flex-1 pr-1">
-          <span className="mb-0.5 block text-[10px] font-extrabold uppercase tracking-wider text-[#E73578] sm:text-xs">{t.kicker}</span>
-          <span className="mb-1 block text-[10px] font-extrabold uppercase tracking-wider text-[#3982C8] sm:text-xs"><span className="text-[#E73578]">{info.symbol}{'\uFE0E'}</span> {name}</span>
+          <span className="mb-1 block text-[10px] font-extrabold uppercase tracking-wider text-[#3982C8] sm:text-xs">{article.category[lang] || article.category.pt}</span>
           <h4 className="mb-1 line-clamp-2 text-xs font-bold leading-snug text-[#172B4D] transition-colors group-hover:text-[#3982C8] sm:text-base">{article.title[lang] || article.title.pt}</h4>
           <p className="line-clamp-2 text-[11px] font-normal leading-relaxed text-[#647DA5] sm:text-xs">{article.subtitle[lang] || article.subtitle.pt}</p>
         </div>
