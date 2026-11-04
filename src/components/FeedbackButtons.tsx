@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ThumbsDown, ThumbsUp } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { trackEvent } from '../utils/analytics';
@@ -20,12 +20,18 @@ export const FeedbackButtons: React.FC<{ tool: Tool; sign?: string; padded?: boo
   const { language } = useLanguage();
   const lang = (language === 'pt' || language === 'es' ? language : 'en') as 'pt' | 'en' | 'es';
   const t = TEXT[lang];
-  const [done, setDone] = useState(() => {
-    try { return localStorage.getItem(doneKey(tool)) === '1'; } catch { return false; }
+  // ask -> (after a vote) thanks for 2 seconds -> hidden. Already voted today: hidden from the start.
+  const [phase, setPhase] = useState<'ask' | 'thanks' | 'hidden'>(() => {
+    try { return localStorage.getItem(doneKey(tool)) === '1' ? 'hidden' : 'ask'; } catch { return 'ask'; }
   });
+  useEffect(() => {
+    if (phase !== 'thanks') return;
+    const id = window.setTimeout(() => setPhase('hidden'), 2200);
+    return () => window.clearTimeout(id);
+  }, [phase]);
 
   const vote = (rating: 1 | -1) => {
-    setDone(true);
+    setPhase('thanks');
     try { localStorage.setItem(doneKey(tool), '1'); } catch { /* ignore */ }
     trackEvent('result_feedback', { tool, rating });
     fetch('/api/feedback', {
@@ -38,8 +44,9 @@ export const FeedbackButtons: React.FC<{ tool: Tool; sign?: string; padded?: boo
   return (
     <div className={`mx-auto my-8 flex w-full max-w-3xl flex-col gap-3 ${padded ? 'px-4 sm:px-0' : ''}`}>
     <SignArticleCard sign={sign} tool={tool} flush />
+    {phase !== 'hidden' && (
     <div className="w-full rounded-2xl border border-[#D9E8F8] bg-white p-5 text-center shadow-sm">
-      {done ? (
+      {phase === 'thanks' ? (
         <p className="text-sm font-bold text-[#17366F]">{t.thanks}</p>
       ) : (
         <>
@@ -56,6 +63,7 @@ export const FeedbackButtons: React.FC<{ tool: Tool; sign?: string; padded?: boo
         </>
       )}
     </div>
+    )}
     <TshirtCapture source="result" sign={sign} variant="mini" flush />
     {children && <div className="pt-4">{children}</div>}
     </div>
