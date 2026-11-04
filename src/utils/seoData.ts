@@ -220,7 +220,7 @@ export const STATIC_ROUTES: SeoPage[] = ([
   'dicionario',
   'describe-me',
   'describe-me-result',
-] as SeoPage[]).filter((p) => p !== 'compatibility' || FEATURES.compatibility);
+] as SeoPage[]).filter((p) => (p !== 'compatibility' || FEATURES.compatibility) && (p !== 'transits' || FEATURES.transits));
 
 export function truncate(text: string, max = 158): string {
   const clean = text.replace(/\s+/g, ' ').trim();

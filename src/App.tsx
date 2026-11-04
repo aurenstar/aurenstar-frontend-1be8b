@@ -8,6 +8,7 @@ import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { BrandMarquee } from './components/BrandMarquee';
 import { FaqSection } from './components/FaqSection';
+import { CommentsSection } from './components/CommentsSection';
 import { TshirtCapture } from './components/TshirtCapture';
 import { isOnTshirtList } from './utils/subscribe';
 import { BlogCardsSection } from './components/BlogCardsSection';
@@ -133,7 +134,7 @@ export default function App() {
         setCurrentPage('credits');
       } else if (FEATURES.compatibility && (path === '/compatibility' || hash === '#/compatibility')) {
         setCurrentPage('compatibility');
-      } else if (path === '/transits' || hash === '#/transits') {
+      } else if (FEATURES.transits && (path === '/transits' || hash === '#/transits')) {
         setCurrentPage('transits');
       } else if (path === '/privacy' || hash === '#/privacy') {
         setCurrentPage('privacy');
@@ -318,6 +319,7 @@ export default function App() {
             <AboutAurenstarSection onOpenCard={handleOpenAbout} />
 
             {/* T-shirt waiting list (hidden for people already on it), then the FAQ as the last section */}
+            <CommentsSection />
             <TshirtHomeSection />
             <FaqSection />
 

@@ -41,6 +41,8 @@ export const Navbar: React.FC<NavbarProps> = ({
     { key: 'home' as const, label: t.nav.home },
     { key: 'dicionario' as const, label: t.nav.dictionary },
     { key: 'blog' as const, label: t.nav.blog },
+    { key: 'newsletter' as const, label: t.nav.newsletter },
+    { key: 'faq' as const, label: 'FAQ' },
     { key: 'contact' as const, label: t.nav.contact },
   ];
 
@@ -50,11 +52,19 @@ export const Navbar: React.FC<NavbarProps> = ({
     dicionario: '/dicionario',
     blog: '/blog',
     newsletter: '/newsletter',
+    faq: '/#faq',
     contact: '/contact',
   } as const;
 
-  const handleItemClick = (key: 'home' | 'blog' | 'contact' | 'newsletter' | 'dicionario') => {
+  const handleItemClick = (key: 'home' | 'blog' | 'contact' | 'newsletter' | 'dicionario' | 'faq') => {
     setIsMenuOpen(false);
+    if (key === 'faq') {
+      // FAQ is the last section of the home page: go there (loading the home page first if needed) and scroll to it.
+      const goToFaq = () => document.getElementById('faq')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (activePage === 'home') goToFaq();
+      else { onNavigate?.('home'); window.setTimeout(goToFaq, 350); }
+      return;
+    }
     if (onNavigate) {
       onNavigate(key);
     }

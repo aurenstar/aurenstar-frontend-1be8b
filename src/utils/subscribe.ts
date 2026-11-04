@@ -22,14 +22,14 @@ export async function subscribeEmail(opts: { email: string; sign?: string; lang:
   }
 }
 
-/** Spots left for the launch coupon (first 50 people). left = null when it could not be checked: the page then shows no number. */
+/** Spots left for the launch coupon (first 100 people). left = null when it could not be checked: the page then shows no number. */
 export async function getCouponSpots(): Promise<{ limit: number; left: number | null }> {
   try {
     const res = await fetch('/api/tshirt-spots');
-    if (!res.ok) return { limit: 50, left: null };
+    if (!res.ok) return { limit: 100, left: null };
     const d = (await res.json()) as { limit?: number; left?: number | null };
-    return { limit: d.limit || 50, left: typeof d.left === 'number' ? d.left : null };
+    return { limit: d.limit || 100, left: typeof d.left === 'number' ? d.left : null };
   } catch {
-    return { limit: 50, left: null };
+    return { limit: 100, left: null };
   }
 }

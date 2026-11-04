@@ -73,7 +73,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
       tag: 'Camisetas da Aurenstar',
       title: 'Entre na Lista das Camisetas da Aurenstar',
       subtitle:
-        'As 50 primeiras pessoas da lista ganham um cupom de desconto no lançamento. Escolha o seu signo, digite seu e-mail e garanta a sua vaga.',
+        'As 100 primeiras pessoas da lista ganham um cupom de desconto no lançamento. Escolha o seu signo, digite seu e-mail e garanta a sua vaga.',
       backHome: 'Voltar ao Início',
       exploreBlog: 'Ver Artigos do Blog',
       formTitle: 'Entre na Lista de Espera',
@@ -103,7 +103,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
       tag: 'Aurenstar T-shirts',
       title: 'Join the Aurenstar T-shirt Waiting List',
       subtitle:
-        'The first 50 people on the list get a launch discount coupon. Choose your sign, enter your email and claim your spot.',
+        'The first 100 people on the list get a launch discount coupon. Choose your sign, enter your email and claim your spot.',
       backHome: 'Back to Home',
       exploreBlog: 'Explore Blog Posts',
       formTitle: 'Join the Waiting List',
@@ -133,7 +133,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
       tag: 'Camisetas de Aurenstar',
       title: 'Entra en la Lista de las Camisetas de Aurenstar',
       subtitle:
-        'Las primeras 50 personas de la lista reciben un cupón de descuento en el lanzamiento. Elige tu signo, escribe tu correo y asegura tu lugar.',
+        'Las primeras 100 personas de la lista reciben un cupón de descuento en el lanzamiento. Elige tu signo, escribe tu correo y asegura tu lugar.',
       backHome: 'Volver al Inicio',
       exploreBlog: 'Ver Artículos del Blog',
       formTitle: 'Entra en la Lista de Espera',
@@ -200,8 +200,8 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
             {spotsLeft !== null && (
               <p className="mt-4 inline-block rounded-full bg-[#E73578] px-4 py-1.5 text-xs font-extrabold text-white sm:text-sm">
                 {spotsLeft === 0
-                  ? (consentLang === 'pt' ? 'As 50 vagas do cupom acabaram' : consentLang === 'es' ? 'Los 50 lugares del cupón se agotaron' : 'All 50 coupon spots are gone')
-                  : (consentLang === 'pt' ? `Restam ${spotsLeft} de 50 vagas` : consentLang === 'es' ? `Quedan ${spotsLeft} de 50 lugares` : `${spotsLeft} of 50 spots left`)}
+                  ? (consentLang === 'pt' ? 'As 100 vagas do cupom acabaram' : consentLang === 'es' ? 'Los 100 lugares del cupón se agotaron' : 'All 100 coupon spots are gone')
+                  : (consentLang === 'pt' ? `Restam ${spotsLeft} de 100 vagas` : consentLang === 'es' ? `Quedan ${spotsLeft} de 100 lugares` : `${spotsLeft} of 100 spots left`)}
               </p>
             )}
           </div>

@@ -13,6 +13,7 @@
  *   dist/blog/<slug>.html                -> /blog/<slug>
  *   dist/dicionario/<term-slug>.html     -> /dicionario/<term-slug>
  */
+import { FEATURES } from '../src/data/features';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -208,6 +209,7 @@ redirects.push('/dictionary/:slug /dicionario/:slug 301');
 redirects.push('/dicionary/:slug /dicionario/:slug 301');
 redirects.push('/dicionary /dicionario 301');
 redirects.push('/about/:section /about 301');
+if (!FEATURES.transits) redirects.push('/transits / 301'); // tool removed from the site
 redirects.push('/describe-me /descreva-me 301');
 redirects.push('/describe-me-result /descreva-me-result 301');
 

@@ -146,6 +146,47 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </h3>
             <ul className="space-y-3 text-sm text-[#647DA5]">
               <li>
+                <a
+                  href="/about"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    if (onNavigate) onNavigate('about-detail');
+                  }}
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
+                >
+                  {t.footer.aboutUs}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/contact"
+                  onClick={handleGoContact}
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
+                >
+                  {t.footer.contactLabel}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/credits"
+                  onClick={handleGoCredits}
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
+                >
+                  {t.footer.toolsCredits}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/aurenstar/aurenstar-engine"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
+                >
+                  {t.footer.sourceCode}
+                </a>
+              </li>
+              <li aria-hidden className="my-1 h-px w-8 bg-[#C9E5FF]" />
+              <li>
                 <a href="/terms" onClick={(e) => { e.preventDefault(); onNavigate?.('terms'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#3982C8] transition-colors cursor-pointer">
                   {t.footer.termsOfService}
                 </a>
@@ -174,55 +215,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                     ? (language === 'pt' ? 'Dados apagados ✓' : language === 'es' ? 'Datos borrados ✓' : 'Details erased ✓')
                     : (language === 'pt' ? 'Esquecer meus dados' : language === 'es' ? 'Olvidar mis datos' : 'Forget my details')}
                 </button>
-              </li>
-              <li>
-                <a
-                  href="/about"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    if (onNavigate) onNavigate('about-detail');
-                  }}
-                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
-                >
-                  {t.footer.aboutUs}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/contact"
-                  onClick={handleGoContact}
-                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
-                >
-                  {t.footer.contactLabel}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  onClick={handleGoHome}
-                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
-                >
-                  {t.footer.home}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/aurenstar/aurenstar-engine"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
-                >
-                  {t.footer.sourceCode}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/credits"
-                  onClick={handleGoCredits}
-                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
-                >
-                  {t.footer.toolsCredits}
-                </a>
               </li>
             </ul>
           </div>
@@ -253,11 +245,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 </a>
               </li>
               )}
-              <li>
-                <a href="/transits" onClick={(e) => { e.preventDefault(); onNavigate?.('transits'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#3982C8] transition-colors cursor-pointer">
-                  {language === 'pt' ? 'Seu Céu de Hoje' : language === 'es' ? 'Tu Cielo de Hoy' : 'Your Sky Today'}
-                </a>
-              </li>
               <li>
                 <a
                   href="/daily-message"

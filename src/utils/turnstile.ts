@@ -4,7 +4,7 @@
  * carries a fresh, invisible "this is a person" proof in the header x-turnstile.
  */
 const SITE_KEY = (import.meta.env.VITE_TURNSTILE_SITE_KEY as string | undefined)?.trim();
-const PROTECTED = /^\/api\/(aureneffect|aurendaily|unfiltered|translate-ui|translate|localize|compatibility|transits|subscribe)(\?|$)/;
+const PROTECTED = /^\/api\/(aureneffect|aurendaily|unfiltered|translate-ui|translate|localize|compatibility|transits|subscribe|comments)(\?|$)/;
 
 type TurnstileApi = {
   render: (el: HTMLElement, opts: Record<string, unknown>) => string;
@@ -116,7 +116,7 @@ export function installHumanCheck() {
   window.fetch = async (input: RequestInfo | URL, init?: RequestInit) => {
     try {
       const url = typeof input === 'string' ? input : input instanceof URL ? input.pathname + input.search : input.url;
-      if (PROTECTED.test(url.replace(location.origin, ''))) {
+      if (PROTECTED.test(url.replace(location.origin, '')) && !(url.includes('/api/comments') && (init?.method || 'GET').toUpperCase() === 'GET')) {
         const token = await freshToken();
         if (token) {
           const headers = new Headers(init?.headers || (input instanceof Request ? input.headers : undefined));
