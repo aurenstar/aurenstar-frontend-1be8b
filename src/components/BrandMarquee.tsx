@@ -51,11 +51,12 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
 
   const setA = ZODIAC_SIGNS;
   const setB = ZODIAC_SIGNS;
+  const signColors = ['text-[#3982C8]', 'text-[#3982C8]', 'text-[#3982C8]', 'text-[#3982C8]'];
 
   return (
     <div
       id="painel-palavras"
-      className="w-full bg-[#3982C8] py-5 sm:py-6 overflow-hidden select-none"
+      className="w-full bg-[#E4F1FF] border-y border-[#D9E8F8] py-5 sm:py-6 overflow-hidden select-none"
     >
       {/* Infinite Edge-to-Edge Marquee Track with ONLY WORDS */}
       <div
@@ -63,49 +64,47 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
         aria-label="Zodiac signs"
       >
         {/* Set 1 */}
-        <div className="flex shrink-0 items-center gap-6 sm:gap-9 pr-6 sm:pr-9">
+        <div className="flex shrink-0 items-center gap-10 sm:gap-14 pr-10 sm:pr-14">
           {setA.map((sign, idx) => {
             const isSelected = selectedSign === sign.key;
             return (
-              <React.Fragment key={`a-${idx}`}>
               <button
+                key={`a-${idx}`}
                 type="button"
-                style={{ fontSize: 'clamp(1.25rem, 1rem + 0.9vw, 1.6rem)', fontWeight: 800, letterSpacing: '-0.025em' }}
                 onClick={() => handleSignClick(sign.key)}
-                className={`shrink-0 cursor-pointer border-0 bg-transparent p-0 text-white outline-none underline-offset-[6px] decoration-2 decoration-[#E73578] transition-all duration-200 hover:underline ${
-                  isSelected ? 'underline' : ''
+                className={`text-base sm:text-lg font-bold tracking-tight transition-colors duration-200 cursor-pointer shrink-0 bg-transparent border-0 p-0 outline-none ${
+                  isSelected
+                    ? 'text-[#3982C8] font-extrabold underline underline-offset-4 decoration-[#E73578]'
+                    : `${signColors[idx % signColors.length]} hover:opacity-70`
                 }`}
               >
                 {sign[lang] || sign.pt}
               </button>
-              <span aria-hidden className="shrink-0 text-sm text-white/60">✦</span>
-              </React.Fragment>
             );
           })}
         </div>
 
         {/* Set 2 (Identical clone for seamless continuous edge-to-edge loop) */}
         <div
-          className="flex shrink-0 items-center gap-6 sm:gap-9 pr-6 sm:pr-9"
+          className="flex shrink-0 items-center gap-10 sm:gap-14 pr-10 sm:pr-14"
           aria-hidden="true"
         >
           {setB.map((sign, idx) => {
             const isSelected = selectedSign === sign.key;
             return (
-              <React.Fragment key={`b-${idx}`}>
               <button
+                key={`b-${idx}`}
                 type="button"
-                style={{ fontSize: 'clamp(1.25rem, 1rem + 0.9vw, 1.6rem)', fontWeight: 800, letterSpacing: '-0.025em' }}
                 onClick={() => handleSignClick(sign.key)}
                 tabIndex={-1}
-                className={`shrink-0 cursor-pointer border-0 bg-transparent p-0 text-white outline-none underline-offset-[6px] decoration-2 decoration-[#E73578] transition-all duration-200 hover:underline ${
-                  isSelected ? 'underline' : ''
+                className={`text-base sm:text-lg font-bold tracking-tight transition-colors duration-200 cursor-pointer shrink-0 bg-transparent border-0 p-0 outline-none ${
+                  isSelected
+                    ? 'text-[#3982C8] font-extrabold underline underline-offset-4 decoration-[#E73578]'
+                    : `${signColors[idx % signColors.length]} hover:opacity-70`
                 }`}
               >
                 {sign[lang] || sign.pt}
               </button>
-              <span aria-hidden className="shrink-0 text-sm text-white/60">✦</span>
-              </React.Fragment>
             );
           })}
         </div>
