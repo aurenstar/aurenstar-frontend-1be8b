@@ -9,7 +9,7 @@ import { HeroSection } from './components/HeroSection';
 import { BrandMarquee } from './components/BrandMarquee';
 import { FaqSection } from './components/FaqSection';
 import { CommentsSection } from './components/CommentsSection';
-import { TshirtCapture, TshirtPitch } from './components/TshirtCapture';
+import { TshirtCapture } from './components/TshirtCapture';
 import { isOnTshirtList } from './utils/subscribe';
 import { BlogCardsSection } from './components/BlogCardsSection';
 import { AboutAurenstarSection } from './components/AboutAurenstarSection';
@@ -66,19 +66,6 @@ export type AppPageRoute =
   | 'about-detail'
   | 'describe-me'
   | 'describe-me-result';
-
-/** Wide band on the home page with the t-shirt list card; gone for people who already joined. */
-function TshirtHomeSection() {
-  if (isOnTshirtList()) return null;
-  return (
-    <section className="w-full bg-gradient-to-br from-[#17366F] via-[#2B62A6] to-[#3982C8] px-4 py-12 sm:px-6 sm:py-16">
-      <div className="mx-auto grid max-w-5xl items-center gap-8 lg:grid-cols-2 lg:gap-12">
-        <TshirtPitch />
-        <TshirtCapture source="home" variant="band" />
-      </div>
-    </section>
-  );
-}
 
 /** Slim version of the sign-up, right after the tools, so more visitors see it without scrolling to the end. */
 function TshirtMiniSection() {
@@ -334,7 +321,6 @@ export default function App() {
 
             {/* T-shirt waiting list (hidden for people already on it), then the FAQ as the last section */}
             <CommentsSection />
-            <TshirtHomeSection />
             <FaqSection />
 
             {/* Zodiac panel above the footer */}
