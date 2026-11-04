@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { ArrowLeft, HeartHandshake, Loader2, Check, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, HeartHandshake, Loader2, Check, AlertTriangle, Lightbulb } from 'lucide-react';
 import { ToolHero } from '../components/ToolHero';
 import { PersonFields, emptyPerson, personPayload, type Person } from '../components/PersonFields';
 import { useLanguage } from '../context/LanguageContext';
+import { compatStory, SIGN_SYMBOL } from '../utils/compatStory';
 import { areaName, careLine, compatVerdict, signName, strongLine, type Lang } from '../utils/astroText';
 
 interface Aspect { a: string; b: string; type: string }
@@ -15,9 +16,9 @@ interface Result {
 }
 
 const T = {
-  en: { back: 'Back to Home', blog: 'Explore Blog Posts →', tag: 'For two', title: 'Compatibility', subtitle: 'Enter the birth dates of two people and see how well they fit, in simple words.', one: 'Person 1', two: 'Person 2', go: 'See our compatibility', wait: 'Comparing the two skies…', err: 'We could not calculate right now. Please try again in a moment.', limit: 'Too many tries from this connection. Please try again later.', human: 'We could not confirm you are a person. Reload the page and try again.', flows: 'What flows', care: 'What needs care', again: 'Compare other people', sun: 'Sun', moon: 'Moon', matchOf: (a: string, b: string) => `${a} & ${b}`, nobody: 'Person 1 & Person 2', approx: 'Without the birth time, the Moon sign can be slightly off.' },
-  pt: { back: 'Voltar ao Início', blog: 'Ver Artigos do Blog →', tag: 'Para dois', title: 'Compatibilidade', subtitle: 'Coloque a data de nascimento de duas pessoas e veja, em palavras simples, o quanto combinam.', one: 'Pessoa 1', two: 'Pessoa 2', go: 'Ver a nossa compatibilidade', wait: 'Comparando os dois céus…', err: 'Não conseguimos calcular agora. Tente de novo em instantes.', limit: 'Muitas tentativas desta conexão. Tente de novo mais tarde.', human: 'Não conseguimos confirmar que você é uma pessoa. Recarregue a página e tente de novo.', flows: 'O que flui', care: 'O que pede cuidado', again: 'Comparar outras pessoas', sun: 'Sol', moon: 'Lua', matchOf: (a: string, b: string) => `${a} e ${b}`, nobody: 'Pessoa 1 e Pessoa 2', approx: 'Sem a hora de nascimento, o signo da Lua pode variar um pouco.' },
-  es: { back: 'Volver al Inicio', blog: 'Ver Artículos del Blog →', tag: 'Para dos', title: 'Compatibilidad', subtitle: 'Escribe la fecha de nacimiento de dos personas y mira, con palabras simples, cuánto combinan.', one: 'Persona 1', two: 'Persona 2', go: 'Ver nuestra compatibilidad', wait: 'Comparando los dos cielos…', err: 'No pudimos calcular ahora. Inténtalo de nuevo en un momento.', limit: 'Demasiados intentos desde esta conexión. Inténtalo más tarde.', human: 'No pudimos confirmar que eres una persona. Recarga la página e inténtalo de nuevo.', flows: 'Lo que fluye', care: 'Lo que pide cuidado', again: 'Comparar otras personas', sun: 'Sol', moon: 'Luna', matchOf: (a: string, b: string) => `${a} y ${b}`, nobody: 'Persona 1 y Persona 2', approx: 'Sin la hora de nacimiento, el signo de la Luna puede variar un poco.' },
+  en: { tipTitle: 'A tip for the two of you', back: 'Back to Home', blog: 'Explore Blog Posts →', tag: 'For two', title: 'Compatibility', subtitle: 'Enter the birth dates of two people and see how well they fit, in simple words.', one: 'Person 1', two: 'Person 2', go: 'See our compatibility', wait: 'Comparing the two skies…', err: 'We could not calculate right now. Please try again in a moment.', limit: 'Too many tries from this connection. Please try again later.', human: 'We could not confirm you are a person. Reload the page and try again.', flows: 'What flows', care: 'What needs care', again: 'Compare other people', sun: 'Sun', moon: 'Moon', matchOf: (a: string, b: string) => `${a} & ${b}`, nobody: 'Person 1 & Person 2', approx: 'Without the birth time, the Moon sign can be slightly off.' },
+  pt: { tipTitle: 'Uma dica para vocês dois', back: 'Voltar ao Início', blog: 'Ver Artigos do Blog →', tag: 'Para dois', title: 'Compatibilidade', subtitle: 'Coloque a data de nascimento de duas pessoas e veja, em palavras simples, o quanto combinam.', one: 'Pessoa 1', two: 'Pessoa 2', go: 'Ver a nossa compatibilidade', wait: 'Comparando os dois céus…', err: 'Não conseguimos calcular agora. Tente de novo em instantes.', limit: 'Muitas tentativas desta conexão. Tente de novo mais tarde.', human: 'Não conseguimos confirmar que você é uma pessoa. Recarregue a página e tente de novo.', flows: 'O que flui', care: 'O que pede cuidado', again: 'Comparar outras pessoas', sun: 'Sol', moon: 'Lua', matchOf: (a: string, b: string) => `${a} e ${b}`, nobody: 'Pessoa 1 e Pessoa 2', approx: 'Sem a hora de nascimento, o signo da Lua pode variar um pouco.' },
+  es: { tipTitle: 'Un consejo para los dos', back: 'Volver al Inicio', blog: 'Ver Artículos del Blog →', tag: 'Para dos', title: 'Compatibilidad', subtitle: 'Escribe la fecha de nacimiento de dos personas y mira, con palabras simples, cuánto combinan.', one: 'Persona 1', two: 'Persona 2', go: 'Ver nuestra compatibilidad', wait: 'Comparando los dos cielos…', err: 'No pudimos calcular ahora. Inténtalo de nuevo en un momento.', limit: 'Demasiados intentos desde esta conexión. Inténtalo más tarde.', human: 'No pudimos confirmar que eres una persona. Recarga la página e inténtalo de nuevo.', flows: 'Lo que fluye', care: 'Lo que pide cuidado', again: 'Comparar otras personas', sun: 'Sol', moon: 'Luna', matchOf: (a: string, b: string) => `${a} y ${b}`, nobody: 'Persona 1 y Persona 2', approx: 'Sin la hora de nacimiento, el signo de la Luna puede variar un poco.' },
 } as const;
 
 const Ring: React.FC<{ score: number }> = ({ score }) => {
@@ -62,7 +63,10 @@ export const CompatibilityPage: React.FC<{ onBackToHome: () => void; onNavigateT
     }
   };
 
-  const names = t.matchOf(a.name.trim().split(/\s+/)[0] || t.one, b.name.trim().split(/\s+/)[0] || t.two);
+  const nameA = a.name.trim().split(/\s+/)[0] || t.one;
+  const nameB = b.name.trim().split(/\s+/)[0] || t.two;
+  const names = t.matchOf(nameA, nameB);
+  const story = result ? compatStory(result, nameA, nameB, lang) : null;
   const card = 'bg-white rounded-3xl border border-[#D9E8F8] shadow-md p-6 sm:p-8 mb-6';
 
   return (
@@ -97,13 +101,22 @@ export const CompatibilityPage: React.FC<{ onBackToHome: () => void; onNavigateT
               <p className="text-xs font-bold uppercase tracking-wider text-[#F51B83] mb-1">{names}</p>
               <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center sm:gap-6 my-4">
                 <Ring score={result.score} />
-                <div className="text-left max-w-xs">
-                  <h1 className="text-2xl font-extrabold leading-tight">{compatVerdict(result.score, lang)}</h1>
-                  <p className="mt-2 text-xs text-[#647DA5]">
-                    {t.sun}: {signName(result.signs.a.sun, lang)} · {signName(result.signs.b.sun, lang)}<br />
-                    {t.moon}: {signName(result.signs.a.moon, lang)} · {signName(result.signs.b.moon, lang)}
-                  </p>
+                <div className="text-center sm:text-left max-w-xs">
+                  <p className="text-[11px] font-extrabold uppercase tracking-wider text-[#2878D0]">{compatVerdict(result.score, lang)}</p>
+                  <h1 className="mt-1 text-2xl font-extrabold leading-tight">{story!.title}</h1>
                 </div>
+              </div>
+              <div className="mt-2 flex flex-wrap items-center justify-center gap-2">
+                {[{ n: nameA, s: result.signs.a }, { n: nameB, s: result.signs.b }].map((p, i) => (
+                  <div key={i} className="rounded-2xl bg-[#E4F1FF] px-4 py-2.5 text-left">
+                    <p className="text-[11px] font-bold text-[#647DA5]">{p.n}</p>
+                    <p className="text-base font-extrabold text-[#17366F]"><span className="mr-1 text-xl">{SIGN_SYMBOL[p.s.sun]}{'\uFE0E'}</span>{signName(p.s.sun, lang)}</p>
+                    <p className="text-[11px] text-[#647DA5]">{t.moon}: {SIGN_SYMBOL[p.s.moon]}{'\uFE0E'} {signName(p.s.moon, lang)}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-5 space-y-2 text-left">
+                {story!.summary.map((line, i) => <p key={i} className="text-sm leading-relaxed text-[#17366F]">{line}</p>)}
               </div>
               <div className="mt-4 grid grid-cols-2 gap-3 text-left">
                 {Object.entries(result.areas).map(([k, v]) => (
@@ -118,15 +131,19 @@ export const CompatibilityPage: React.FC<{ onBackToHome: () => void; onNavigateT
             {result.strongest.length > 0 && (
               <div className={card}>
                 <h2 className="flex items-center gap-2 text-base font-extrabold mb-3"><Check className="h-5 w-5 text-[#2878D0]" />{t.flows}</h2>
-                <ul className="space-y-2">{result.strongest.map((s, i) => <li key={i} className="text-sm leading-relaxed text-[#647DA5]">{strongLine(s.a, s.b, lang)}</li>)}</ul>
+                <ul className="space-y-2">{result.strongest.map((s, i) => <li key={i} className="text-sm leading-relaxed text-[#647DA5]">{strongLine(s.a, s.b, lang, i)}</li>)}</ul>
               </div>
             )}
             {result.challenges.length > 0 && (
               <div className={card}>
                 <h2 className="flex items-center gap-2 text-base font-extrabold mb-3"><AlertTriangle className="h-5 w-5 text-[#F51B83]" />{t.care}</h2>
-                <ul className="space-y-2">{result.challenges.map((s, i) => <li key={i} className="text-sm leading-relaxed text-[#647DA5]">{careLine(s.a, s.b, lang)}</li>)}</ul>
+                <ul className="space-y-2">{result.challenges.map((s, i) => <li key={i} className="text-sm leading-relaxed text-[#647DA5]">{careLine(s.a, s.b, lang, i)}</li>)}</ul>
               </div>
             )}
+            <div className="mb-6 rounded-3xl bg-[#2878D0] p-5 text-white shadow-md sm:p-6">
+              <p className="flex items-center gap-2 text-[11px] font-extrabold uppercase tracking-wider text-white/80"><Lightbulb className="h-4 w-4" />{t.tipTitle}</p>
+              <p className="mt-2 text-base font-bold leading-snug sm:text-lg">{story!.tip}</p>
+            </div>
             {(!a.time || !b.time) && <p className="mb-6 text-center text-[11px] text-[#647DA5]">{t.approx}</p>}
             <button type="button" onClick={() => setResult(null)} className="mx-auto flex items-center justify-center rounded-full border-2 border-[#2878D0] px-6 py-2.5 text-sm font-bold text-[#2878D0] hover:bg-[#2878D0] hover:text-white transition-colors cursor-pointer">{t.again}</button>
           </>

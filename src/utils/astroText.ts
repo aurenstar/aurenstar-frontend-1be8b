@@ -52,7 +52,11 @@ const PAIR: Record<string, L3> = {
   'saturn|venus': { en: 'loyalty and long-term love', pt: 'lealdade e amor duradouro', es: 'lealtad y amor duradero' },
 };
 function pairTheme(a: string, b: string, l: Lang): string {
-  return (PAIR[`${a}|${b}`] || PAIR[`${b}|${a}`])?.[l] ?? `${themeOf(a, l)} / ${themeOf(b, l)}`;
+  const known = (PAIR[`${a}|${b}`] || PAIR[`${b}|${a}`])?.[l];
+  if (known) return known;
+  // unlisted pair: name the two planets and the theme of the slower one (e.g. "Sun + Jupiter (luck and growth)")
+  const slow = ['sun', 'moon'].includes(b) ? a : b;
+  return `${planetName(a, l)} + ${planetName(b, l)} (${themeOf(slow, l)})`;
 }
 
 const AREA: Record<string, L3> = {
@@ -73,13 +77,21 @@ export function compatVerdict(score: number, l: Lang): string {
   return v.find(([min]) => score >= min)![1][l];
 }
 
-export function strongLine(a: string, b: string, l: Lang): string {
-  const t = pairTheme(a, b, l);
-  return { en: `${cap(t)} — a natural strength between you.`, pt: `${cap(t)} — um ponto forte natural entre vocês.`, es: `${cap(t)} — una fortaleza natural entre ustedes.` }[l];
+const STRONG_END: L3[] = [
+  { en: 'a natural strength between you.', pt: 'um ponto forte natural entre vocês.', es: 'una fortaleza natural entre ustedes.' },
+  { en: 'this tends to come easily to you two.', pt: 'isso costuma vir fácil para vocês dois.', es: 'esto suele venir fácil para ustedes dos.' },
+  { en: 'a gift you share.', pt: 'um presente que vocês compartilham.', es: 'un regalo que comparten.' },
+];
+const CARE_END: L3[] = [
+  { en: 'worth a little extra care, so go gently.', pt: 'merece um pouco mais de cuidado, então vão com calma.', es: 'merece un poco más de cuidado, así que vayan con calma.' },
+  { en: 'a place where patience helps a lot.', pt: 'um ponto em que a paciência ajuda muito.', es: 'un punto donde la paciencia ayuda mucho.' },
+  { en: 'a chance to learn from each other.', pt: 'uma chance de aprenderem um com o outro.', es: 'una oportunidad de aprender el uno del otro.' },
+];
+export function strongLine(a: string, b: string, l: Lang, i = 0): string {
+  return `${cap(pairTheme(a, b, l))} — ${STRONG_END[i % STRONG_END.length][l]}`;
 }
-export function careLine(a: string, b: string, l: Lang): string {
-  const t = pairTheme(a, b, l);
-  return { en: `${cap(t)} — worth a little extra care, so go gently.`, pt: `${cap(t)} — merece um pouco mais de cuidado, então vão com calma.`, es: `${cap(t)} — merece un poco más de cuidado, así que vayan con calma.` }[l];
+export function careLine(a: string, b: string, l: Lang, i = 0): string {
+  return `${cap(pairTheme(a, b, l))} — ${CARE_END[i % CARE_END.length][l]}`;
 }
 
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
