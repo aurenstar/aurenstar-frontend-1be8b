@@ -1818,3 +1818,24 @@ export const BLOG_ARTICLES: BlogArticleContent[] = [
   ...HAND_WRITTEN_ARTICLES,
   ...(wordpressArticles as unknown as BlogArticleContent[]).map(withHandTitle),
 ];
+
+/**
+ * In the browser the WordPress articles arrive without their long text (see lightArticles in vite.config.ts).
+ * Article pages call this first; it loads the full text once and fills it into the same objects.
+ */
+let fullArticlesPromise: Promise<void> | null = null;
+export const ensureFullArticles = (): Promise<void> => {
+  if (!fullArticlesPromise) {
+    fullArticlesPromise = import('./wordpressArticlesFull').then(({ default: full }) => {
+      const byId = new Map((full as unknown as BlogArticleContent[]).map((a) => [a.id, a]));
+      for (const article of BLOG_ARTICLES) {
+        const f = byId.get(article.id);
+        if (f && article.sections.length === 0) {
+          article.sections = f.sections;
+          article.keyTakeaways = f.keyTakeaways;
+        }
+      }
+    });
+  }
+  return fullArticlesPromise;
+};

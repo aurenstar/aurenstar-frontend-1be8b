@@ -34,3 +34,18 @@
 
 /article-data/*
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/assets/wp/*
+  Cache-Control: public, max-age=2592000
+
+/assets/tools/*
+  Cache-Control: public, max-age=2592000
+
+/assets/about/*
+  Cache-Control: public, max-age=2592000
+
+/*.webp
+  Cache-Control: public, max-age=2592000
+
+/*.png
+  Cache-Control: public, max-age=2592000

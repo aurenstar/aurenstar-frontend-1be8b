@@ -33,9 +33,32 @@ const lightDictionary = () => ({
   },
 });
 
+
+/**
+ * Same idea for the WordPress articles: the browser bundle (home page, blog list) only needs titles, pictures and
+ * summaries. The long text (sections, quote, key points) loads when an article is opened (ensureFullArticles).
+ * Only blogArticles.ts gets the light copy; every other importer (and Node scripts) read the full file.
+ */
+const lightArticles = () => ({
+  name: 'light-articles',
+  enforce: 'pre' as const,
+  resolveId(source: string, importer?: string) {
+    if (!source.endsWith('wordpressArticles.generated.json') || !importer) return null;
+    if (path.basename(importer.split('?')[0]) !== 'blogArticles.ts') return null;
+    return '\0light-articles:' + path.resolve(path.dirname(importer), source) + '?light.js';
+  },
+  load(id: string) {
+    if (!id.startsWith('\0light-articles:')) return null;
+    const file = id.slice('\0light-articles:'.length).replace('?light.js', '');
+    (this as any).addWatchFile?.(file);
+    const light = (JSON.parse(fs.readFileSync(file, 'utf8')) as any[]).map((a) => ({ ...a, sections: [], keyTakeaways: { pt: [], en: [], es: [] } }));
+    return { code: `export default ${JSON.stringify(light)}`, map: null };
+  },
+});
+
 export default defineConfig(() => {
   return {
-    plugins: [lightDictionary(), react(), tailwindcss()],
+    plugins: [lightDictionary(), lightArticles(), react(), tailwindcss()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),

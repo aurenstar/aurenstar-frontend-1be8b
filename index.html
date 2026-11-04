@@ -12,7 +12,10 @@
     <link rel="apple-touch-icon" href="/aurenstar-avatar.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Cinzel:wght@600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="/logo-aurenstar.webp" type="image/webp">
+    <!-- Only Montserrat is used (internal pages); load it without blocking the first paint. -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap" rel="stylesheet"></noscript>
     <!--
       SEO tags (title, description, canonical, robots, Open Graph, Twitter, JSON-LD) are
       generated per route at build time by scripts/prerender.ts and replace the marker

@@ -15,6 +15,7 @@ import { useLanguage } from '../context/LanguageContext';
 import {
   BlogArticleContent,
   BLOG_ARTICLES,
+  ensureFullArticles,
   AURENSTAR_AVATAR,
 } from '../data/blogArticles';
 import { ShareModal } from '../components/ShareModal';
@@ -33,7 +34,7 @@ interface ArticlePageProps {
   onNavigateToDiscoverSign?: () => void;
 }
 
-export const ArticlePage: React.FC<ArticlePageProps> = ({
+const ArticlePageInner: React.FC<ArticlePageProps> = ({
   articleId,
   onBackToBlog,
   onBackToHome,
@@ -593,4 +594,15 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
       )}
     </article>
   );
+};
+
+/** Waits for the full article text (a small separate download) before showing the page. */
+export const ArticlePage: React.FC<ArticlePageProps> = (props) => {
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    let alive = true;
+    ensureFullArticles().then(() => { if (alive) setReady(true); });
+    return () => { alive = false; };
+  }, []);
+  return ready ? <ArticlePageInner {...props} /> : null;
 };

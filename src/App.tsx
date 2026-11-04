@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { LanguageProvider } from './context/LanguageContext';
 import { stripLangPrefix } from './utils/urlLang';
 import { SiteLocalizer } from './components/SiteLocalizer';
@@ -11,31 +11,33 @@ import { BlogCardsSection } from './components/BlogCardsSection';
 import { AboutAurenstarSection } from './components/AboutAurenstarSection';
 import { ToolExplainerSection } from './components/ToolExplainerSection';
 import { Footer } from './components/Footer';
-import { BlogPage } from './pages/BlogPage';
-import { ArticlePage } from './pages/ArticlePage';
-import { ContactPage } from './pages/ContactPage';
-import { CreditsPage } from './pages/CreditsPage';
-import { LegalPage } from './pages/LegalPage';
-import { CompatibilityPage } from './pages/CompatibilityPage';
 import { FEATURES } from './data/features';
-import { TransitsPage } from './pages/TransitsPage';
-import { NewsletterPage } from './pages/NewsletterPage';
-import { DailyMessagePage } from './pages/DailyMessagePage';
-import { DailyReadingResultPage } from './pages/DailyReadingResultPage';
-import { AurenEffectPage } from './pages/AurenEffectPage';
-import { AurenEffectResultPage } from './pages/AurenEffectResultPage';
-import { DiscoverSignPage } from './pages/DiscoverSignPage';
-import { DiscoverSignResultPage } from './pages/DiscoverSignResultPage';
-import { DictionaryLayout } from './components/dictionary/DictionaryLayout';
-import { PublicDictionaryPage } from './pages/PublicDictionaryPage';
-import { PublicDictionaryTermPage } from './pages/PublicDictionaryTermPage';
-import { DescribeMePage } from './pages/DescribeMePage';
-import { DescribeMeResultPage } from './pages/DescribeMeResultPage';
-import { AboutProfilePage } from './pages/AboutProfilePage';
 import { updateSeo } from './utils/seo';
 import { trackPageView } from './utils/analytics';
 import { findArticleByParam, getArticleSlugById } from './utils/articleSlug';
 import { getCategoryByKey, getCategoryBySlug, getCategoryPath } from './utils/blogCategories';
+
+// Pages other than the home screen load only when visited (smaller first download).
+const BlogPage = lazy(() => import('./pages/BlogPage').then((m) => ({ default: m.BlogPage })));
+const ArticlePage = lazy(() => import('./pages/ArticlePage').then((m) => ({ default: m.ArticlePage })));
+const ContactPage = lazy(() => import('./pages/ContactPage').then((m) => ({ default: m.ContactPage })));
+const CreditsPage = lazy(() => import('./pages/CreditsPage').then((m) => ({ default: m.CreditsPage })));
+const LegalPage = lazy(() => import('./pages/LegalPage').then((m) => ({ default: m.LegalPage })));
+const CompatibilityPage = lazy(() => import('./pages/CompatibilityPage').then((m) => ({ default: m.CompatibilityPage })));
+const TransitsPage = lazy(() => import('./pages/TransitsPage').then((m) => ({ default: m.TransitsPage })));
+const NewsletterPage = lazy(() => import('./pages/NewsletterPage').then((m) => ({ default: m.NewsletterPage })));
+const DailyMessagePage = lazy(() => import('./pages/DailyMessagePage').then((m) => ({ default: m.DailyMessagePage })));
+const DailyReadingResultPage = lazy(() => import('./pages/DailyReadingResultPage').then((m) => ({ default: m.DailyReadingResultPage })));
+const AurenEffectPage = lazy(() => import('./pages/AurenEffectPage').then((m) => ({ default: m.AurenEffectPage })));
+const AurenEffectResultPage = lazy(() => import('./pages/AurenEffectResultPage').then((m) => ({ default: m.AurenEffectResultPage })));
+const DiscoverSignPage = lazy(() => import('./pages/DiscoverSignPage').then((m) => ({ default: m.DiscoverSignPage })));
+const DiscoverSignResultPage = lazy(() => import('./pages/DiscoverSignResultPage').then((m) => ({ default: m.DiscoverSignResultPage })));
+const DictionaryLayout = lazy(() => import('./components/dictionary/DictionaryLayout').then((m) => ({ default: m.DictionaryLayout })));
+const PublicDictionaryPage = lazy(() => import('./pages/PublicDictionaryPage').then((m) => ({ default: m.PublicDictionaryPage })));
+const PublicDictionaryTermPage = lazy(() => import('./pages/PublicDictionaryTermPage').then((m) => ({ default: m.PublicDictionaryTermPage })));
+const DescribeMePage = lazy(() => import('./pages/DescribeMePage').then((m) => ({ default: m.DescribeMePage })));
+const DescribeMeResultPage = lazy(() => import('./pages/DescribeMeResultPage').then((m) => ({ default: m.DescribeMeResultPage })));
+const AboutProfilePage = lazy(() => import('./pages/AboutProfilePage').then((m) => ({ default: m.AboutProfilePage })));
 
 export type AppPageRoute =
   | 'home'
@@ -240,7 +242,9 @@ export default function App() {
   if (currentPage === 'dictionary') {
     return (
       <LanguageProvider>
-        <DictionaryLayout onBackToPublicSite={() => handleNavigate('home')} />
+        <Suspense fallback={null}>
+          <DictionaryLayout onBackToPublicSite={() => handleNavigate('home')} />
+        </Suspense>
       </LanguageProvider>
     );
   }
@@ -268,6 +272,7 @@ export default function App() {
         />
 
         {/* Dynamic Page Routing (Dedicated Views for Pageviews Strategy) */}
+        <Suspense fallback={<main className="flex-1" />}>
         {currentPage === 'home' && (
           <main className="flex-1">
             {/* Hero Section with direct page routes */}
@@ -505,6 +510,8 @@ export default function App() {
         )}
 
         {/* Footer with Universal Navigation */}
+        </Suspense>
+
         <Footer onNavigate={handleNavigate} />
       </div>
     </LanguageProvider>
