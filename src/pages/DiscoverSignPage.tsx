@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   ArrowLeft,
   Sparkles,
@@ -13,6 +13,7 @@ import { ToolHero, ToolBenefits, PeriodIcon } from '../components/ToolHero';
 import { useLanguage } from '../context/LanguageContext';
 import { calculateSign, LAST_DISCOVERED_SIGN_KEY } from '../data/signsData';
 import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
+import { loadSharedProfile, saveSharedProfile, timePeriodFor } from '../utils/sharedProfile';
 
 // The calculation service answers with English sign names; the site's sign pages use these keys.
 const SIGN_KEY_BY_NAME: Record<string, string> = {
@@ -62,6 +63,14 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
     { num: 11, name: { pt: 'Novembro', en: 'November', es: 'Noviembre' } },
     { num: 12, name: { pt: 'Dezembro', en: 'December', es: 'Diciembre' } },
   ];
+
+  // Data typed in any other tool is already here: the person fills the form only once.
+  useEffect(() => {
+    const p = loadSharedProfile();
+    if (p.day && p.month && p.year) { setSelectedDay(Math.min(p.day, daysInMonth(p.year, p.month))); setSelectedMonth(p.month); setSelectedYear(p.year); }
+    if (p.time) setBirthTime(p.time);
+    if (p.place) setBirthPlace(p.place);
+  }, []);
 
   const handleDateChange = (d: number, m: number, y: number = selectedYear) => {
     setSelectedDay(Math.min(d, daysInMonth(y, m)));
@@ -114,6 +123,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
 
   const handleCalculateAndNavigate = (signToSave?: string) => {
     const finalSign = signToSave || calculateSign(selectedDay, selectedMonth);
+    saveSharedProfile({ day: selectedDay, month: selectedMonth, year: selectedYear, time: birthTime, place: birthPlace });
     try {
       localStorage.setItem(
         LAST_DISCOVERED_SIGN_KEY,

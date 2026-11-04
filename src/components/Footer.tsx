@@ -6,6 +6,7 @@ import { emailMessage } from '../utils/emailGuard';
 import { SOCIAL_LINKS } from '../data/socialLinks';
 import { SocialIcon } from './SocialIcon';
 import { reopenConsent } from '../utils/consent';
+import { clearSharedProfile } from '../utils/sharedProfile';
 
 interface FooterProps {
   onNavigate?: (
@@ -33,6 +34,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   const { t, language } = useLanguage();
   const [email, setEmail] = useState('');
   const [isSubscribed, setIsSubscribed] = useState(false);
+  const [forgot, setForgot] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -145,6 +147,21 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <li>
                 <button type="button" onClick={reopenConsent} className="hover:text-[#3982C8] transition-colors cursor-pointer text-left">
                   {language === 'pt' ? 'Configurar cookies' : language === 'es' ? 'Configurar cookies' : 'Cookie settings'}
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  onClick={() => {
+                    clearSharedProfile();
+                    setForgot(true);
+                    window.setTimeout(() => setForgot(false), 4000);
+                  }}
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer text-left"
+                >
+                  {forgot
+                    ? (language === 'pt' ? 'Dados apagados ✓' : language === 'es' ? 'Datos borrados ✓' : 'Details erased ✓')
+                    : (language === 'pt' ? 'Esquecer meus dados' : language === 'es' ? 'Olvidar mis datos' : 'Forget my details')}
                 </button>
               </li>
               <li>

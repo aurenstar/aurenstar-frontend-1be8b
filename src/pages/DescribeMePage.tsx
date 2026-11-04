@@ -1,11 +1,12 @@
 import { pickNextTheme, rememberTheme } from '../utils/unfilteredThemes';
 import { getRecentMessages, rememberMessage } from '../utils/recentMessages';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ArrowLeft, Sparkles, MapPin, RefreshCw } from 'lucide-react';
 import { ToolHero, ToolBenefits, PeriodIcon } from '../components/ToolHero';
 import { useLanguage } from '../context/LanguageContext';
 import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
 import { calculateZodiacSign } from '../utils/dailyReadingStorage';
+import { loadSharedProfile, saveSharedProfile, timePeriodFor } from '../utils/sharedProfile';
 
 type SignKey = 'aries' | 'taurus' | 'gemini' | 'cancer' | 'leo' | 'virgo' | 'libra' | 'scorpio' | 'sagittarius' | 'capricorn' | 'aquarius' | 'pisces';
 
@@ -63,6 +64,15 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
     return lang === 'pt' ? `Uma pessoa de ${signName} que ${trait}.` : lang === 'es' ? `Una persona de ${signName} que ${trait}.` : `A ${signName} who ${trait}.`;
   };
 
+  // Data typed in any other tool is already here: the person fills the form only once.
+  useEffect(() => {
+    const p = loadSharedProfile();
+    if (p.name) setName(p.name);
+    if (p.day && p.month && p.year) setBirthDate(`${p.year}-${String(p.month).padStart(2, '0')}-${String(p.day).padStart(2, '0')}`);
+    if (p.time) setBirthTime(p.time);
+    if (p.place) setBirthPlace(p.place);
+  }, []);
+
   const handleGenerate = async (event: React.FormEvent) => {
     event.preventDefault();
     if (!name.trim() || !birthDate) return;
@@ -73,6 +83,7 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
     setIsLoading(true);
     setLimitReached(false);
     const [y, m, d] = birthDate.split('-').map((n) => parseInt(n, 10));
+    saveSharedProfile({ name, day: d, month: m, year: y, time: timeUnknown ? '' : birthTime, place: birthPlace });
     const sign = PT_TO_EN[calculateZodiacSign(d || 1, m || 1)] || 'gemini';
     let payload: Record<string, unknown> = { description: buildFallback(sign) };
 

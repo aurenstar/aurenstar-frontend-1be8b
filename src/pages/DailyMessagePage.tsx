@@ -16,6 +16,7 @@ import { ToolHero, ToolBenefits, PeriodIcon } from '../components/ToolHero';
 import { useLanguage } from '../context/LanguageContext';
 import { getRecentMessages, rememberMessage } from '../utils/recentMessages';
 import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
+import { loadSharedProfile, saveSharedProfile, timePeriodFor } from '../utils/sharedProfile';
 import {
   saveDailyReading,
   hasGeneratedToday,
@@ -88,7 +89,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
   const lang = (language || 'pt') as 'pt' | 'en' | 'es';
 
   // User form states
-  const [userName, setUserName] = useState('Andriel');
+  const [userName, setUserName] = useState('');
   const [birthDay, setBirthDay] = useState(15);
   const [birthMonth, setBirthMonth] = useState(6); // Junho -> Gêmeos
   const [birthYear, setBirthYear] = useState(2000);
@@ -143,6 +144,16 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
     } catch {
       // Fallback
     }
+  }, []);
+
+  // Data typed in any other tool wins: the person fills the form only once.
+  useEffect(() => {
+    const p = loadSharedProfile();
+    if (p.name) setUserName(p.name);
+    if (p.day && p.month) { setBirthDay(p.day); setBirthMonth(p.month); setUserSign(calculateZodiacSign(p.day, p.month)); }
+    if (p.year) setBirthYear(p.year);
+    if (p.time) { setBirthTime(p.time); setBirthTimePeriod(timePeriodFor(p.time)); }
+    if (p.place) setBirthPlace(p.place);
   }, []);
 
   const handleDateChange = (newDay: number, newMonth: number) => {
@@ -482,6 +493,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       setCityError(true);
       return;
     }
+    saveSharedProfile({ name: userName, day: birthDay, month: birthMonth, year: birthYear, time: birthTime, place: birthPlace });
 
     setIsLoading(true);
     setLimitReached(false);

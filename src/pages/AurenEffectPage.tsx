@@ -33,6 +33,7 @@ import {
 } from '../utils/aurenEngine';
 import { getRecentMessages, rememberMessage } from '../utils/recentMessages';
 import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
+import { loadSharedProfile, saveSharedProfile, timePeriodFor } from '../utils/sharedProfile';
 
 interface AurenEffectPageProps {
   onBackToHome: () => void;
@@ -128,7 +129,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
   }[lang];
 
   // Form State
-  const [name, setName] = useState('Andriel');
+  const [name, setName] = useState('');
   const [birthDay, setBirthDay] = useState(15);
   const [birthMonth, setBirthMonth] = useState(6);
   const [birthYear, setBirthYear] = useState(2000);
@@ -194,6 +195,17 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
     }
   }, []);
 
+  // Data typed in any other tool wins: the person fills the form only once.
+  useEffect(() => {
+    const p = loadSharedProfile();
+    if (p.name) setName(p.name);
+    if (p.day) setBirthDay(p.day);
+    if (p.month) setBirthMonth(p.month);
+    if (p.year) setBirthYear(p.year);
+    if (p.time) { setBirthTime(p.time); setQuickTimePeriod(timePeriodFor(p.time)); }
+    if (p.place) setBirthPlace(p.place);
+  }, []);
+
   const handleTimePeriodSelect = (period: 'manha' | 'tarde' | 'noite' | 'madrugada') => {
     setQuickTimePeriod(period);
     if (period === 'manha') setBirthTime('09:00');
@@ -220,6 +232,8 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
 
     setIsLoading(true);
     setLoadingStep(1);
+
+    saveSharedProfile({ name, day: birthDay, month: birthMonth, year: birthYear, time: birthTime, place: birthPlace });
 
     // Save profile to localStorage
     try {
