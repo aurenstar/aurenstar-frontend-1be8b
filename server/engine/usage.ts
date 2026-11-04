@@ -70,15 +70,15 @@ export async function recordFeedback(env: UsageEnv, tool: string, rating: number
 /** Adds an address to the t-shirt waiting list. Returns false if the database could not be reached, so the visitor is told. */
 export async function recordSubscriber(
   env: UsageEnv,
-  s: { email: string; sign: string; lang: string; source: string; consentText: string },
+  s: { email: string; sign: string; lang: string; source: string; consentText: string; list: 'tshirts' | 'newsletter' },
 ): Promise<boolean> {
   try {
     const base = (env.SUPABASE_URL || DEFAULT_URL).replace(/\/$/, '');
     const key = env.SUPABASE_ANON_KEY || DEFAULT_KEY;
-    const res = await fetch(`${base}/rest/v1/rpc/email_subscribe`, {
+    const res = await fetch(`${base}/rest/v1/rpc/email_subscribe_list`, {
       method: 'POST',
       headers: { apikey: key, Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ p_email: s.email, p_sign: s.sign, p_lang: s.lang, p_source: s.source, p_consent_text: s.consentText }),
+      body: JSON.stringify({ p_list: s.list, p_email: s.email, p_sign: s.sign, p_lang: s.lang, p_source: s.source, p_consent_text: s.consentText }),
     });
     return res.ok;
   } catch {

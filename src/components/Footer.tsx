@@ -8,7 +8,7 @@ import { SocialIcon } from './SocialIcon';
 import { reopenConsent } from '../utils/consent';
 import { clearSharedProfile } from '../utils/sharedProfile';
 import { subscribeEmail } from '../utils/subscribe';
-import { TSHIRT_CONSENT } from '../data/subscribeConsent';
+import { NEWSLETTER_CONSENT } from '../data/subscribeConsent';
 
 interface FooterProps {
   onNavigate?: (
@@ -47,7 +47,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
     if (sending || !consent || !email.trim() || emailMessage(email, language)) return;
     setSending(true);
     setSubError(false);
-    const ok = await subscribeEmail({ email, lang: consentLang, source: 'footer' });
+    const ok = await subscribeEmail({ email, lang: consentLang, source: 'footer', list: 'newsletter' });
     setSending(false);
     if (!ok) { setSubError(true); return; }
     setIsSubscribed(true);
@@ -342,7 +342,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
               <label className="mt-3 flex cursor-pointer items-start gap-2 text-[11px] leading-snug text-[#647DA5]">
                 <input type="checkbox" required checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 h-3.5 w-3.5 shrink-0 cursor-pointer accent-[#E73578]" />
-                <span>{TSHIRT_CONSENT[consentLang]}</span>
+                <span>{NEWSLETTER_CONSENT[consentLang]}</span>
               </label>
               {isSubscribed && (
                 <p className="mt-2 text-xs font-medium text-emerald-600 animate-fadeIn">

@@ -3,7 +3,7 @@
 import { countHit, recordSubscriber, usageKey, type UsageEnv } from '../../server/engine/usage';
 import { humanCheck, humanCheckFailed } from '../../server/engine/turnstile';
 import { emailMessage } from '../../src/utils/emailGuard';
-import { TSHIRT_CONSENT } from '../../src/data/subscribeConsent';
+import { NEWSLETTER_CONSENT, TSHIRT_CONSENT } from '../../src/data/subscribeConsent';
 
 const json = (data: unknown, status = 200) =>
   new Response(JSON.stringify(data), { status, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
@@ -19,6 +19,7 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: U
   const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
   const day = new Date().toISOString().slice(0, 10);
   if ((await countHit(env, await usageKey(env, ['subscribe-ip', day, ip]), 24 * 3600)) > 10) return json({ ok: false, reason: 'limit' }, 429);
-  const saved = await recordSubscriber(env, { email, sign: String(b.sign || '').slice(0, 20), lang, source: String(b.source || '').slice(0, 30), consentText: TSHIRT_CONSENT[lang] });
+  const list = b.list === 'newsletter' ? 'newsletter' : 'tshirts';
+  const saved = await recordSubscriber(env, { list, email, sign: String(b.sign || '').slice(0, 20), lang, source: String(b.source || '').slice(0, 30), consentText: (list === 'newsletter' ? NEWSLETTER_CONSENT : TSHIRT_CONSENT)[lang] });
   return saved ? json({ ok: true }) : json({ ok: false, reason: 'unavailable' }, 502);
 };
