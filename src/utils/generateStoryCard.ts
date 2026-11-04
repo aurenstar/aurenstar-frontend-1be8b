@@ -212,7 +212,7 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
   const badgeY = nameY - 12;
   const badgeR = 14;
 
-  ctx.fillStyle = '#2878D0';
+  ctx.fillStyle = '#3982C8';
   // Scalloped verification seal, matching the social-style badge used in the UI.
   ctx.beginPath();
   const sealPoints = 24;
@@ -255,7 +255,7 @@ export async function createStoryCardCanvas(data: StoryCardData): Promise<HTMLCa
   // Título da Mensagem em Azul Orkut Moderno
   if (messageTitle) {
     ctx.textAlign = 'left';
-    ctx.fillStyle = '#2878D0';
+    ctx.fillStyle = '#3982C8';
     ctx.font = 'bold 36px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
     currentY = wrapCanvasText(ctx, messageTitle, textX, currentY, maxTextW, 48, 3);
     currentY += 20;

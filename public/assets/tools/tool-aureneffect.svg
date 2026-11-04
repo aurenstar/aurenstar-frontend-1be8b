@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#24134A"/><stop offset=".45" stop-color="#F51B83"/><stop offset=".78" stop-color="#F58CC0"/><stop offset="1" stop-color="#FF9CC6"/></linearGradient>
-<radialGradient id="moon" cx=".38" cy=".35" r=".8"><stop offset="0" stop-color="#FFE9F3"/><stop offset=".6" stop-color="#FF86B8"/><stop offset="1" stop-color="#F51B83"/></radialGradient>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#24134A"/><stop offset=".45" stop-color="#E73578"/><stop offset=".78" stop-color="#F58CC0"/><stop offset="1" stop-color="#FF9CC6"/></linearGradient>
+<radialGradient id="moon" cx=".38" cy=".35" r=".8"><stop offset="0" stop-color="#FFE9F3"/><stop offset=".6" stop-color="#FF86B8"/><stop offset="1" stop-color="#E73578"/></radialGradient>
 <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFB0D2" stop-opacity=".7"/><stop offset="1" stop-color="#FFB0D2" stop-opacity="0"/></radialGradient>
 <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF5CA8"/><stop offset="1" stop-color="#C2186B"/></linearGradient></defs><rect width="520" height="280" fill="url(#sky)"/>
 <circle cx="480.9" cy="142.3" r="1.76" fill="#fff" opacity="0.40"/>

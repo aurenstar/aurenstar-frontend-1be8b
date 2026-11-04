@@ -11,7 +11,7 @@ export const LanguageSwitcher: React.FC = () => {
         onClick={() => setLanguage('en')}
         className={`w-5 h-5 sm:w-6 sm:h-6 rounded-full overflow-hidden transition-all duration-200 cursor-pointer shadow-2xs relative flex items-center justify-center shrink-0 ${
           language === 'en'
-            ? 'ring-1.5 ring-[#2878D0] ring-offset-1 ring-offset-[#C9E5FF] scale-105'
+            ? 'ring-1.5 ring-[#3982C8] ring-offset-1 ring-offset-[#C9E5FF] scale-105'
             : 'opacity-70 hover:opacity-100 hover:scale-105'
         }`}
         title="English (US)"
@@ -56,7 +56,7 @@ export const LanguageSwitcher: React.FC = () => {
         onClick={() => setLanguage('pt')}
         className={`w-5 h-5 sm:w-6 sm:h-6 rounded-full overflow-hidden transition-all duration-200 cursor-pointer shadow-2xs relative flex items-center justify-center shrink-0 ${
           language === 'pt'
-            ? 'ring-1.5 ring-[#2878D0] ring-offset-1 ring-offset-[#C9E5FF] scale-105'
+            ? 'ring-1.5 ring-[#3982C8] ring-offset-1 ring-offset-[#C9E5FF] scale-105'
             : 'opacity-70 hover:opacity-100 hover:scale-105'
         }`}
         title="Português (Brasil)"
@@ -98,7 +98,7 @@ export const LanguageSwitcher: React.FC = () => {
         onClick={() => setLanguage('es')}
         className={`w-5 h-5 sm:w-6 sm:h-6 rounded-full overflow-hidden transition-all duration-200 cursor-pointer shadow-2xs relative flex items-center justify-center shrink-0 ${
           language === 'es'
-            ? 'ring-1.5 ring-[#2878D0] ring-offset-1 ring-offset-[#C9E5FF] scale-105'
+            ? 'ring-1.5 ring-[#3982C8] ring-offset-1 ring-offset-[#C9E5FF] scale-105'
             : 'opacity-70 hover:opacity-100 hover:scale-105'
         }`}
         title="Español"

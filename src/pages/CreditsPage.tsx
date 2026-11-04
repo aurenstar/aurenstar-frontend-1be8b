@@ -88,14 +88,14 @@ export const CreditsPage: React.FC<CreditsPageProps> = ({ onBackToHome, onNaviga
         <button
           type="button"
           onClick={onNavigateToBlog}
-          className="text-xs sm:text-sm font-bold text-[#2878D0] hover:text-[#17366F] transition-colors cursor-pointer"
+          className="text-xs sm:text-sm font-bold text-[#3982C8] hover:text-[#17366F] transition-colors cursor-pointer"
         >
           {c.blog}
         </button>
       </div>
 
       <div className="text-center mb-10">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#3982C8] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
           <Sparkles className="w-3.5 h-3.5" />
           <span>{c.tag}</span>
         </div>
@@ -111,7 +111,7 @@ export const CreditsPage: React.FC<CreditsPageProps> = ({ onBackToHome, onNaviga
             key={tool.name}
             className="bg-white rounded-3xl border border-[#D9E8F8] shadow-md p-6 sm:p-7 relative"
           >
-            <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0] rounded-t-3xl" />
+            <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#3982C8] rounded-t-3xl" />
             <h2 className="text-lg font-extrabold">{tool.name}</h2>
             <p className="text-xs font-bold uppercase tracking-wider text-[#647DA5] mt-0.5">{c.by} {tool.by}</p>
             <p className="text-sm text-[#647DA5] leading-relaxed mt-3">{tool.what[lang]}</p>
@@ -124,7 +124,7 @@ export const CreditsPage: React.FC<CreditsPageProps> = ({ onBackToHome, onNaviga
                 href={tool.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-[#2878D0] hover:text-[#17366F] transition-colors"
+                className="inline-flex items-center gap-1.5 text-[#3982C8] hover:text-[#17366F] transition-colors"
               >
                 {tool.linkLabel}
                 <ExternalLink className="w-3.5 h-3.5" />
@@ -134,7 +134,7 @@ export const CreditsPage: React.FC<CreditsPageProps> = ({ onBackToHome, onNaviga
                   href={tool.extra.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-[#2878D0] hover:text-[#17366F] transition-colors"
+                  className="inline-flex items-center gap-1.5 text-[#3982C8] hover:text-[#17366F] transition-colors"
                 >
                   {tool.extra.label[lang]}
                   <ExternalLink className="w-3.5 h-3.5" />

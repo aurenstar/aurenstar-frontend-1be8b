@@ -3,10 +3,10 @@
 @theme {
   --color-fundo-geral: #C9E5FF;
   --color-superficie: #FFFFFF;
-  --color-azul-principal: #2878D0;
+  --color-azul-principal: #3982C8;
   --color-azul-escuro: #17366F;
-  --color-rosa-principal: #F51B83;
-  --color-rosa-suave: #FFE0EF;
+  --color-rosa-principal: #E73578;
+  --color-rosa-suave: #FBE1EB;
   --color-azul-suave: #E4F1FF;
   --color-texto-principal: #172B4D;
   --color-texto-secundario: #647DA5;
@@ -32,10 +32,10 @@ body,
   --bg-principal: #C9E5FF;
   --superficie: #FFFFFF;
   --bg-secundario: #E4F1FF;
-  --azul-principal: #2878D0;
+  --azul-principal: #3982C8;
   --azul-escuro: #17366F;
-  --rosa-principal: #F51B83;
-  --rosa-suave: #FFE0EF;
+  --rosa-principal: #E73578;
+  --rosa-suave: #FBE1EB;
   --azul-suave: #E4F1FF;
   --texto-principal: #172B4D;
   --texto-secundario: #647DA5;
@@ -192,14 +192,14 @@ html {
 
 /* Article "listen" mode: animated pink ring around the passage being read */
 @keyframes listenGlow {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(245, 27, 131, 0.45); }
-  50% { box-shadow: 0 0 0 8px rgba(245, 27, 131, 0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(231, 53, 120, 0.45); }
+  50% { box-shadow: 0 0 0 8px rgba(231, 53, 120, 0); }
 }
 .listen-active {
   position: relative;
   border-radius: 14px;
-  background: rgba(245, 27, 131, 0.08);
-  outline: 2px solid #F51B83;
+  background: rgba(231, 53, 120, 0.08);
+  outline: 2px solid #E73578;
   outline-offset: 6px;
   animation: listenGlow 1.4s ease-in-out infinite;
 }

@@ -68,7 +68,7 @@ const REVIEWS_LIST: ReviewItem[] = [
       pt: 'AVALIAÇÃO VERIFICADA',
       es: 'OPINIÓN VERIFICADA',
     },
-    badgeColor: 'bg-[#2878D0] text-white',
+    badgeColor: 'bg-[#3982C8] text-white',
     quote: {
       en: 'Our experience was absolutely incredible! The destinations and celestial messages were even more beautiful than expected. Every single detail is thoughtful.',
       pt: 'Minha experiência foi absolutamente incrível! O cuidado com cada detalhe e a clareza das mensagens diárias trouxeram muita paz para o meu dia.',
@@ -118,7 +118,7 @@ const REVIEWS_LIST: ReviewItem[] = [
       pt: 'COMUNIDADE',
       es: 'COMUNIDAD',
     },
-    badgeColor: 'bg-[#2878D0] text-white',
+    badgeColor: 'bg-[#3982C8] text-white',
     quote: {
       en: 'We had a wonderful experience from start to finish. Everything is simple to understand, gentle, and deeply inspiring.',
       pt: 'Tive uma experiência fantástica desde o primeiro momento. Tudo muito simples de entender, acolhedor e cheio de paz.',
@@ -143,7 +143,7 @@ const REVIEWS_LIST: ReviewItem[] = [
       pt: 'INSPIRAÇÃO',
       es: 'INSPIRACIÓN',
     },
-    badgeColor: 'bg-[#F51B83] text-white',
+    badgeColor: 'bg-[#E73578] text-white',
     quote: {
       en: 'Exceeded all my expectations! The daily guidance brings clarity and comfort whenever I face important decisions or busy days.',
       pt: 'Superou todas as minhas expectativas! As frases e conselhos me dão um momento de calma e reflexão nos dias mais corridos.',
@@ -168,7 +168,7 @@ const REVIEWS_LIST: ReviewItem[] = [
       pt: 'PAZ & CALMA',
       es: 'PAZ Y CALMA',
     },
-    badgeColor: 'bg-[#F51B83] text-white',
+    badgeColor: 'bg-[#E73578] text-white',
     quote: {
       en: 'Fast, beautiful, and deeply soothing. Finding my astrological sign advice here is the most peaceful start to any morning.',
       pt: 'Rápido, bonito e acolhedor. Descobrir a mensagem do meu signo aqui é a forma mais leve e positiva de começar o dia.',
@@ -247,10 +247,10 @@ export const ReviewsSection: React.FC = () => {
             <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">
               {t.title}
             </h2>
-            <div className="w-12 h-1 bg-[#2878D0] rounded-full mx-auto mt-2.5" />
+            <div className="w-12 h-1 bg-[#3982C8] rounded-full mx-auto mt-2.5" />
             <div className="flex items-center justify-center gap-2 text-xs text-[#647DA5] mt-2.5 font-semibold">
               <span>{t.stats}</span>
-              <Star className="w-3.5 h-3.5 fill-[#2878D0] text-[#2878D0]" />
+              <Star className="w-3.5 h-3.5 fill-[#3982C8] text-[#3982C8]" />
               <span className="text-[#647DA5]">•</span>
               <GoogleLogo className="h-3.5 w-auto" />
             </div>
@@ -272,7 +272,7 @@ export const ReviewsSection: React.FC = () => {
               {setA.map((item, idx) => (
                 <article
                   key={`rev-a-${idx}`}
-                  className="w-[280px] sm:w-[320px] bg-[#FFFFFF] border border-[#D9E8F8] hover:border-[#2878D0]/50 rounded-2xl p-4 sm:p-4.5 shadow-[0_2px_12px_rgba(23,54,111,0.04)] hover:shadow-[0_12px_28px_rgba(40,120,208,0.12)] transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between cursor-pointer group shrink-0"
+                  className="w-[280px] sm:w-[320px] bg-[#FFFFFF] border border-[#D9E8F8] hover:border-[#3982C8]/50 rounded-2xl p-4 sm:p-4.5 shadow-[0_2px_12px_rgba(23,54,111,0.04)] hover:shadow-[0_12px_28px_rgba(57, 130, 200,0.12)] transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between cursor-pointer group shrink-0"
                 >
                   <div>
                     {/* Top Row: Category Badge + 5 Gold Stars */}
@@ -280,10 +280,10 @@ export const ReviewsSection: React.FC = () => {
                       <span
                         className={`inline-block px-2.5 py-0.5 rounded-full text-[9px] font-extrabold uppercase tracking-wider ${
                           idx % 3 === 0
-                            ? 'bg-[#2878D0] text-white'
+                            ? 'bg-[#3982C8] text-white'
                             : idx % 3 === 1
                             ? 'bg-[#17366F] text-white'
-                            : 'bg-[#F51B83] text-white'
+                            : 'bg-[#E73578] text-white'
                         }`}
                       >
                         {item.badge[lang] || item.badge.en}
@@ -292,7 +292,7 @@ export const ReviewsSection: React.FC = () => {
                         {[...Array(item.rating)].map((_, starIdx) => (
                           <Star
                             key={starIdx}
-                            className="w-3 h-3 fill-[#2878D0] text-[#2878D0]"
+                            className="w-3 h-3 fill-[#3982C8] text-[#3982C8]"
                           />
                         ))}
                       </div>
@@ -335,7 +335,7 @@ export const ReviewsSection: React.FC = () => {
               {setB.map((item, idx) => (
                 <article
                   key={`rev-b-${idx}`}
-                  className="w-[280px] sm:w-[320px] bg-[#FFFFFF] border border-[#D9E8F8] hover:border-[#2878D0]/50 rounded-2xl p-4 sm:p-4.5 shadow-[0_2px_12px_rgba(23,54,111,0.04)] hover:shadow-[0_12px_28px_rgba(40,120,208,0.12)] transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between cursor-pointer group shrink-0"
+                  className="w-[280px] sm:w-[320px] bg-[#FFFFFF] border border-[#D9E8F8] hover:border-[#3982C8]/50 rounded-2xl p-4 sm:p-4.5 shadow-[0_2px_12px_rgba(23,54,111,0.04)] hover:shadow-[0_12px_28px_rgba(57, 130, 200,0.12)] transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between cursor-pointer group shrink-0"
                 >
                   <div>
                     {/* Top Row: Category Badge + 5 Gold Stars */}
@@ -343,10 +343,10 @@ export const ReviewsSection: React.FC = () => {
                       <span
                         className={`inline-block px-2.5 py-0.5 rounded-full text-[9px] font-extrabold uppercase tracking-wider ${
                           idx % 3 === 0
-                            ? 'bg-[#2878D0] text-white'
+                            ? 'bg-[#3982C8] text-white'
                             : idx % 3 === 1
                             ? 'bg-[#17366F] text-white'
-                            : 'bg-[#F51B83] text-white'
+                            : 'bg-[#E73578] text-white'
                         }`}
                       >
                         {item.badge[lang] || item.badge.en}
@@ -355,7 +355,7 @@ export const ReviewsSection: React.FC = () => {
                         {[...Array(item.rating)].map((_, starIdx) => (
                           <Star
                             key={starIdx}
-                            className="w-3 h-3 fill-[#2878D0] text-[#2878D0]"
+                            className="w-3 h-3 fill-[#3982C8] text-[#3982C8]"
                           />
                         ))}
                       </div>

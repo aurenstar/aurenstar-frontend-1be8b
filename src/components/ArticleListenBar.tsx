@@ -203,11 +203,11 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, speechLang, 
   const cycleRate = () => changeRate(SPEEDS[(SPEEDS.indexOf(rate) + 1) % SPEEDS.length]);
 
   return (
-    <div className="my-5 inline-flex max-w-full flex-wrap items-center gap-1.5 rounded-full bg-[#2878D0] p-1.5 pr-2.5 text-white shadow-sm">
+    <div className="my-5 inline-flex max-w-full flex-wrap items-center gap-1.5 rounded-full bg-[#3982C8] p-1.5 pr-2.5 text-white shadow-sm">
       <button
         type="button"
         onClick={toggle}
-        className="inline-flex cursor-pointer items-center gap-1.5 rounded-full bg-[#F51B83] px-4 py-2 text-xs font-bold text-white transition-all hover:bg-[#D9166F] active:scale-95"
+        className="inline-flex cursor-pointer items-center gap-1.5 rounded-full bg-[#E73578] px-4 py-2 text-xs font-bold text-white transition-all hover:bg-[#D0306C] active:scale-95"
       >
         {playing ? <Pause className="h-3.5 w-3.5" /> : <Headphones className="h-3.5 w-3.5" />}
         <span>{status === 'idle' ? c.title : playing ? c.pause : c.resume}</span>
@@ -222,12 +222,12 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, speechLang, 
       )}
 
       {status !== 'idle' && (
-        <button type="button" onClick={stop} aria-label={c.stop} title={c.stop} className="flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-white/15 transition-colors hover:bg-white hover:text-[#2878D0]">
+        <button type="button" onClick={stop} aria-label={c.stop} title={c.stop} className="flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-white/15 transition-colors hover:bg-white hover:text-[#3982C8]">
           <Square className="h-3 w-3" />
         </button>
       )}
 
-      <button type="button" onClick={cycleRate} aria-label={c.speed} title={c.speed} className="h-8 min-w-[2.6rem] cursor-pointer rounded-full bg-white/15 px-2.5 text-[11px] font-bold transition-colors hover:bg-white hover:text-[#2878D0]">
+      <button type="button" onClick={cycleRate} aria-label={c.speed} title={c.speed} className="h-8 min-w-[2.6rem] cursor-pointer rounded-full bg-white/15 px-2.5 text-[11px] font-bold transition-colors hover:bg-white hover:text-[#3982C8]">
         {rate}x
       </button>
 

@@ -77,7 +77,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
         </div>
 
         {/* Hero panel: same artwork language as the Aurenstar profile cover */}
-        <div className="relative mb-8 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
+        <div className="relative mb-8 overflow-hidden rounded-[2rem] bg-[#3982C8] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
           <div className="pointer-events-none absolute inset-0"><CoverArt tone="blue" /></div>
           <div className="relative max-w-2xl">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/15 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-white">
@@ -85,7 +85,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
               <span>{c.tag}</span>
             </div>
             <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">{c.title}</h1>
-            <span aria-hidden className="mt-4 block h-1 w-12 rounded-full bg-[#F51B83]" />
+            <span aria-hidden className="mt-4 block h-1 w-12 rounded-full bg-[#E73578]" />
             <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/90 sm:text-base">{c.intro}</p>
           </div>
 
@@ -97,7 +97,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder={c.placeholder}
-              className="w-full rounded-2xl border-2 border-transparent bg-white py-3.5 pl-12 pr-20 text-sm font-medium text-[#172B4D] shadow-md outline-none placeholder:text-[#647DA5]/70 focus:border-[#F51B83] sm:text-base"
+              className="w-full rounded-2xl border-2 border-transparent bg-white py-3.5 pl-12 pr-20 text-sm font-medium text-[#172B4D] shadow-md outline-none placeholder:text-[#647DA5]/70 focus:border-[#E73578] sm:text-base"
             />
             {searchTerm && (
               <button type="button" onClick={() => setSearchTerm('')} className="absolute right-3.5 top-1/2 -translate-y-1/2 cursor-pointer p-1 text-xs font-bold text-[#647DA5] hover:text-[#172B4D]">
@@ -116,7 +116,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                   type="button"
                   onClick={() => setSelectedCategory(cat)}
                   className={`cursor-pointer rounded-full px-3.5 py-1.5 text-xs font-bold transition-all ${
-                    isSelected ? 'bg-[#F51B83] text-white shadow-md' : 'bg-white/15 text-white hover:bg-white hover:text-[#2878D0]'
+                    isSelected ? 'bg-[#E73578] text-white shadow-md' : 'bg-white/15 text-white hover:bg-white hover:text-[#3982C8]'
                   }`}
                 >
                   {cat === 'All' ? c.all : categoryLabel(cat as Parameters<typeof categoryLabel>[0], lang)}
@@ -138,7 +138,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                 setSearchTerm('');
                 setSelectedCategory('All');
               }}
-              className="text-[#2878D0] font-bold hover:underline cursor-pointer"
+              className="text-[#3982C8] font-bold hover:underline cursor-pointer"
             >
               {c.seeAll}
             </button>
@@ -148,7 +148,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
         {/* Terms Catalog (Cards Grid) */}
         {filteredTerms.length === 0 ? (
           <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] p-12 text-center shadow-xs">
-            <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#2878D0] text-white"><Search className="h-6 w-6" /></div>
+            <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#3982C8] text-white"><Search className="h-6 w-6" /></div>
             <h3 className="text-lg font-bold text-[#172B4D] mb-1">{c.none}</h3>
             <p className="text-xs text-[#647DA5] max-w-sm mx-auto mb-4">
               {c.tryText}
@@ -159,7 +159,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                 setSearchTerm('');
                 setSelectedCategory('All');
               }}
-              className="px-5 py-2.5 rounded-xl bg-[#2878D0] text-white text-xs font-bold cursor-pointer hover:bg-[#17366F] transition-colors"
+              className="px-5 py-2.5 rounded-xl bg-[#3982C8] text-white text-xs font-bold cursor-pointer hover:bg-[#17366F] transition-colors"
             >
               {c.clearSearch}
             </button>
@@ -175,17 +175,17 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                   onClick={onPlainClick(() => onSelectTerm(term.slug))}
                   className="group flex cursor-pointer flex-col overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-3 text-left shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_18px_36px_rgba(23,54,111,0.18)]"
                 >
-                  <span className="relative flex h-28 items-center justify-between overflow-hidden rounded-2xl px-4" style={{ background: pink ? '#F51B83' : '#2878D0' }}>
+                  <span className="relative flex h-28 items-center justify-between overflow-hidden rounded-2xl px-4" style={{ background: pink ? '#E73578' : '#3982C8' }}>
                     <CoverArt tone={pink ? 'pink' : 'blue'} variant={index} />
-                    <span className="relative flex h-14 w-14 items-center justify-center rounded-2xl bg-white shadow-md transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110" style={{ color: pink ? '#F51B83' : '#2878D0' }}><TermIcon slug={term.slug} className="h-7 w-7" /></span>
-                    <span className="relative self-start rounded-full bg-white px-2.5 py-0.5 text-[10px] font-extrabold uppercase tracking-wider" style={{ color: pink ? '#F51B83' : '#2878D0' }}>
+                    <span className="relative flex h-14 w-14 items-center justify-center rounded-2xl bg-white shadow-md transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110" style={{ color: pink ? '#E73578' : '#3982C8' }}><TermIcon slug={term.slug} className="h-7 w-7" /></span>
+                    <span className="relative self-start rounded-full bg-white px-2.5 py-0.5 text-[10px] font-extrabold uppercase tracking-wider" style={{ color: pink ? '#E73578' : '#3982C8' }}>
                       {categoryLabel(term.categoria, lang)}
                     </span>
                   </span>
                   <span className="flex flex-1 flex-col px-2 pb-2 pt-4">
-                    <h3 className="mb-2 text-lg font-extrabold leading-snug text-[#172B4D] transition-colors group-hover:text-[#2878D0]">{term.termo}</h3>
+                    <h3 className="mb-2 text-lg font-extrabold leading-snug text-[#172B4D] transition-colors group-hover:text-[#3982C8]">{term.termo}</h3>
                     <span className="mb-4 block text-[13px] font-medium leading-relaxed text-[#647DA5]">{term.chamadaCuriosa || term.resumoUmaLinha}</span>
-                    <span className="mt-auto inline-flex items-center gap-2 self-start rounded-full px-4 py-1.5 text-xs font-bold text-white shadow-sm transition-all duration-300 group-hover:gap-3" style={{ background: pink ? '#F51B83' : '#2878D0' }}>
+                    <span className="mt-auto inline-flex items-center gap-2 self-start rounded-full px-4 py-1.5 text-xs font-bold text-white shadow-sm transition-all duration-300 group-hover:gap-3" style={{ background: pink ? '#E73578' : '#3982C8' }}>
                       {c.read} <ArrowRight className="h-3.5 w-3.5" />
                     </span>
                   </span>

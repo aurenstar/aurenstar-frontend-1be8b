@@ -45,20 +45,20 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
   }[lang];
 
   const stats = [
-    { icon: Wrench, value: '5', label: copy.stats[0], color: '#2878D0' },
-    { icon: FileText, value: String(BLOG_ARTICLES.length), label: copy.stats[1], color: '#F51B83' },
-    { icon: BookOpen, value: String(ASTROLOGY_DICTIONARY_TERMS.length), label: copy.stats[2], color: '#2878D0' },
+    { icon: Wrench, value: '5', label: copy.stats[0], color: '#3982C8' },
+    { icon: FileText, value: String(BLOG_ARTICLES.length), label: copy.stats[1], color: '#E73578' },
+    { icon: BookOpen, value: String(ASTROLOGY_DICTIONARY_TERMS.length), label: copy.stats[2], color: '#3982C8' },
   ];
 
   return (
     <section id="about" className="w-full border-y border-[#B7D8F5] bg-[#C9E5FF] py-16 sm:py-24">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <ScrollReveal distance={24} duration={700}>
-          <p className="mb-4 text-center text-xs font-extrabold uppercase tracking-[0.24em] text-[#2878D0]">{copy.eyebrow}</p>
+          <p className="mb-4 text-center text-xs font-extrabold uppercase tracking-[0.24em] text-[#3982C8]">{copy.eyebrow}</p>
           <div className="rounded-[2rem] border border-[#D9E8F8] bg-white p-3 shadow-[0_14px_40px_rgba(23,54,111,0.12)] sm:p-4">
             {/* Cover + avatar: the same look as the profile page */}
             <div className="relative">
-              <div className="relative h-32 overflow-hidden rounded-3xl bg-[#2878D0] sm:h-44" aria-hidden><CoverArt tone="blue" /></div>
+              <div className="relative h-32 overflow-hidden rounded-3xl bg-[#3982C8] sm:h-44" aria-hidden><CoverArt tone="blue" /></div>
               <img loading="lazy" decoding="async" src="/aurenstar-avatar.webp" alt="Aurenstar" width={96} height={96} className="absolute -bottom-9 left-4 h-20 w-20 rounded-2xl border-4 border-white bg-white object-cover shadow-md sm:left-6 sm:h-24 sm:w-24" />
             </div>
 
@@ -66,18 +66,18 @@ export const AboutAurenstarSection: React.FC<AboutAurenstarSectionProps> = ({ on
               <div>
                 <div className="flex items-center gap-2 text-2xl font-extrabold text-[#172B4D]">
                   <span translate="no" className="notranslate">Aurenstar</span>
-                  <span aria-label={copy.verified} title={copy.verified} className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#2878D0] text-white"><Check className="h-3.5 w-3.5" strokeWidth={3} /></span>
+                  <span aria-label={copy.verified} title={copy.verified} className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#3982C8] text-white"><Check className="h-3.5 w-3.5" strokeWidth={3} /></span>
                 </div>
                 <p className="text-sm text-[#647DA5]">@aurenstar · aurenstar.com</p>
                 <h2 className="mt-4 text-2xl font-extrabold leading-tight text-[#172B4D] sm:text-3xl">{copy.title}</h2>
                 <p className="mt-3 text-[15px] leading-7 text-[#5575A4]">{copy.intro}</p>
                 <div className="mt-5 flex flex-wrap items-center gap-4">
-                  <button type="button" onClick={() => onOpenCard?.()} className="inline-flex items-center rounded-full bg-[#F51B83] px-6 py-3 text-sm font-bold text-white shadow-[0_8px_18px_rgba(245,27,131,0.25)] transition hover:-translate-y-0.5 hover:bg-[#D9166F] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F51B83]">
+                  <button type="button" onClick={() => onOpenCard?.()} className="inline-flex items-center rounded-full bg-[#E73578] px-6 py-3 text-sm font-bold text-white shadow-[0_8px_18px_rgba(231, 53, 120,0.25)] transition hover:-translate-y-0.5 hover:bg-[#D0306C] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#E73578]">
                     {copy.button}<span className="ml-2" aria-hidden="true">→</span>
                   </button>
                   <div className="flex items-center gap-2">
                     {SOCIAL_LINKS.map((n) => (
-                      <a key={n.key} href={n.url} target="_blank" rel="noopener noreferrer" aria-label={n.label} title={n.label} className="flex h-9 w-9 items-center justify-center rounded-full border border-[#D9E8F8] bg-[#F4F9FF] text-[#647DA5] transition-all duration-200 hover:-translate-y-0.5 hover:border-[#2878D0] hover:bg-[#2878D0] hover:text-white">
+                      <a key={n.key} href={n.url} target="_blank" rel="noopener noreferrer" aria-label={n.label} title={n.label} className="flex h-9 w-9 items-center justify-center rounded-full border border-[#D9E8F8] bg-[#F4F9FF] text-[#647DA5] transition-all duration-200 hover:-translate-y-0.5 hover:border-[#3982C8] hover:bg-[#3982C8] hover:text-white">
                         <SocialIcon name={n.key} />
                       </a>
                     ))}

@@ -58,7 +58,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
     return (
       <>
         {text.slice(0, activeWord.start)}
-        <mark className="rounded-[3px] bg-[#F51B83] px-1 py-px text-white" style={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>{text.slice(activeWord.start, activeWord.end)}</mark>
+        <mark className="rounded-[3px] bg-[#E73578] px-1 py-px text-white" style={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>{text.slice(activeWord.start, activeWord.end)}</mark>
         {text.slice(activeWord.end)}
       </>
     );
@@ -309,7 +309,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
       {/* Top Reading Progress Bar (Fixed at top) */}
       <div className="fixed top-0 left-0 right-0 h-1 bg-black/5 z-50">
         <div
-          className="h-full bg-[#2878D0] transition-all duration-150"
+          className="h-full bg-[#3982C8] transition-all duration-150"
           style={{ width: `${scrollProgress}%` }}
         />
       </div>
@@ -343,7 +343,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           <div className="flex items-center gap-2 sm:gap-3">
             <button
               onClick={onBackToBlog}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-xs font-bold text-[#2878D0] hover:text-white hover:border-[#F51B83] transition-all cursor-pointer shadow-xs group"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#E73578] text-xs font-bold text-[#3982C8] hover:text-white hover:border-[#E73578] transition-all cursor-pointer shadow-xs group"
             >
               <ArrowLeft className="w-3.5 h-3.5 transition-transform group-hover:-translate-x-1" />
               <span>{l.backBtn}</span>
@@ -351,10 +351,10 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
 
             <button
               onClick={handleShare}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-xs font-semibold text-[#2878D0] hover:text-white hover:border-[#F51B83] transition-all cursor-pointer shadow-xs group"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#E73578] text-xs font-semibold text-[#3982C8] hover:text-white hover:border-[#E73578] transition-all cursor-pointer shadow-xs group"
               title={l.shareBtn}
             >
-              <Share2 className="w-3.5 h-3.5 text-[#2878D0] group-hover:scale-110 transition-transform" />
+              <Share2 className="w-3.5 h-3.5 text-[#3982C8] group-hover:scale-110 transition-transform" />
               <span className="hidden sm:inline">{l.shareBtn}</span>
             </button>
 
@@ -362,8 +362,8 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
               onClick={handleToggleBookmark}
               className={`p-2 rounded-full border transition-all cursor-pointer shadow-xs ${
                 isBookmarked
-                  ? 'border-[#2878D0] bg-[#2878D0] text-white shadow-sm ring-2 ring-[#2878D0]/30 scale-105'
-                  : 'border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83]'
+                  ? 'border-[#3982C8] bg-[#3982C8] text-white shadow-sm ring-2 ring-[#3982C8]/30 scale-105'
+                  : 'border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#E73578] text-[#3982C8] hover:text-white hover:border-[#E73578]'
               }`}
               title={isBookmarked ? l.bookmarked : l.bookmarkBtn}
               aria-label={isBookmarked ? l.bookmarked : l.bookmarkBtn}
@@ -380,7 +380,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           {/* Category Pill & Read Time */}
           <div className="flex items-center gap-3 mb-4">
             <span
-              className={`inline-block px-3.5 py-1 rounded-full text-[11px] font-extrabold uppercase tracking-wider bg-[#E4F1FF] text-[#2878D0] shadow-xs`}
+              className={`inline-block px-3.5 py-1 rounded-full text-[11px] font-extrabold uppercase tracking-wider bg-[#E4F1FF] text-[#3982C8] shadow-xs`}
             >
               {article.category[lang] || article.category.pt}
             </span>
@@ -409,7 +409,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
             />
             <div className="flex flex-col min-w-0">
               <span className="text-xs sm:text-sm font-bold text-[#172B4D] leading-tight truncate">
-                Aurenstar <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-[9px] font-black leading-none text-white align-middle">✓</span>
+                Aurenstar <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#3982C8] text-[9px] font-black leading-none text-white align-middle">✓</span>
               </span>
               <span className="text-[11px] text-[#647DA5] font-medium leading-tight mt-0.5">
                 {l.authorTitle} • {article.author.dateTime[lang] || article.author.dateTime.pt}
@@ -445,9 +445,9 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
         <div className="prose max-w-none text-[#172B4D]">
           {/* Quote Callout Box */}
           {article.quote && (
-            <blockquote className="my-8 p-6 rounded-2xl bg-[#E4F1FF] border-l-4 border-[#2878D0] shadow-xs">
+            <blockquote className="my-8 p-6 rounded-2xl bg-[#E4F1FF] border-l-4 border-[#3982C8] shadow-xs">
               <div className="flex items-start gap-3">
-                <Sparkles className="w-5 h-5 text-[#2878D0] shrink-0 mt-0.5" />
+                <Sparkles className="w-5 h-5 text-[#3982C8] shrink-0 mt-0.5" />
                 <p className="text-sm sm:text-base font-semibold italic text-[#172B4D] leading-relaxed">
                   "{article.quote[lang] || article.quote.pt}"
                 </p>
@@ -477,7 +477,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           {article.keyTakeaways && (
             <div className="my-10 p-6 sm:p-7 rounded-2xl bg-[#E4F1FF]/60 border border-[#D9E8F8] shadow-xs">
               <h3 className="text-sm sm:text-base font-bold text-[#17366F] uppercase tracking-wider mb-4 flex items-center gap-2">
-                <Sparkles className="w-4 h-4 text-[#2878D0]" />
+                <Sparkles className="w-4 h-4 text-[#3982C8]" />
                 {l.takeaways}
               </h3>
               <ul className="space-y-2.5">
@@ -487,7 +487,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
                       key={`takeaway-${kIdx}`}
                       className="flex items-start gap-2.5 text-xs sm:text-sm text-[#172B4D]"
                     >
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#2878D0] mt-2 shrink-0" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#3982C8] mt-2 shrink-0" />
                       <span>{item}</span>
                     </li>
                   )
@@ -520,7 +520,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
               tabIndex={0}
               role="button"
               aria-label={`${l.continueReading}: ${nextArticle.title[lang] || nextArticle.title.pt}`}
-              className="w-full bg-white rounded-2xl sm:rounded-3xl border border-[#D9E8F8] shadow-sm hover:shadow-md hover:border-[#2878D0]/40 transition-all duration-300 p-3 sm:p-4.5 flex items-center justify-between gap-3 sm:gap-6 cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40"
+              className="w-full bg-white rounded-2xl sm:rounded-3xl border border-[#D9E8F8] shadow-sm hover:shadow-md hover:border-[#3982C8]/40 transition-all duration-300 p-3 sm:p-4.5 flex items-center justify-between gap-3 sm:gap-6 cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#3982C8]/40"
             >
               {/* Left Thumbnail Image */}
               <div className="w-28 sm:w-44 h-20 sm:h-28 rounded-xl sm:rounded-2xl overflow-hidden shrink-0 bg-slate-100 relative shadow-2xs">
@@ -534,11 +534,11 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
 
               {/* Middle Content */}
               <div className="flex-1 min-w-0 pr-1 sm:pr-2">
-                <span className="block text-[10px] sm:text-xs font-extrabold uppercase tracking-wider text-[#2878D0] mb-1">
+                <span className="block text-[10px] sm:text-xs font-extrabold uppercase tracking-wider text-[#3982C8] mb-1">
                   {nextArticle.category[lang] || nextArticle.category.pt}
                 </span>
 
-                <h4 className="font-bold text-xs sm:text-base lg:text-lg text-[#172B4D] leading-snug group-hover:text-[#2878D0] transition-colors line-clamp-2 mb-1">
+                <h4 className="font-bold text-xs sm:text-base lg:text-lg text-[#172B4D] leading-snug group-hover:text-[#3982C8] transition-colors line-clamp-2 mb-1">
                   {nextArticle.title[lang] || nextArticle.title.pt}
                 </h4>
 
@@ -548,7 +548,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
               </div>
 
               {/* Right Arrow */}
-              <div className="shrink-0 text-[#17366F] group-hover:text-[#2878D0] group-hover:translate-x-1.5 transition-all duration-300 pr-1 sm:pr-2">
+              <div className="shrink-0 text-[#17366F] group-hover:text-[#3982C8] group-hover:translate-x-1.5 transition-all duration-300 pr-1 sm:pr-2">
                 <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 stroke-[2.2]" />
               </div>
             </div>
@@ -567,8 +567,8 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
 
       {/* Floating Bookmark Toast Notification */}
       {bookmarkToast && (
-        <div className="fixed bottom-6 right-6 z-50 max-w-sm bg-white/95 backdrop-blur-md border border-[#2878D0]/30 rounded-2xl p-4 shadow-xl shadow-[#2878D0]/15 flex items-start gap-3 animate-fadeIn">
-          <div className="w-8 h-8 rounded-full bg-[#2878D0]/10 text-[#2878D0] flex items-center justify-center shrink-0 mt-0.5">
+        <div className="fixed bottom-6 right-6 z-50 max-w-sm bg-white/95 backdrop-blur-md border border-[#3982C8]/30 rounded-2xl p-4 shadow-xl shadow-[#3982C8]/15 flex items-start gap-3 animate-fadeIn">
+          <div className="w-8 h-8 rounded-full bg-[#3982C8]/10 text-[#3982C8] flex items-center justify-center shrink-0 mt-0.5">
             <Bookmark className="w-4 h-4 fill-current" />
           </div>
           <div className="flex-1 min-w-0 pr-1">

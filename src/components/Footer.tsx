@@ -117,7 +117,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   href={n.url}
                   target="_blank"
                   rel="noopener noreferrer me"
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
                   aria-label={n.label}
                 >
                   <SocialIcon name={n.key} />
@@ -133,17 +133,17 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </h3>
             <ul className="space-y-3 text-sm text-[#647DA5]">
               <li>
-                <a href="/terms" onClick={(e) => { e.preventDefault(); onNavigate?.('terms'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#2878D0] transition-colors cursor-pointer">
+                <a href="/terms" onClick={(e) => { e.preventDefault(); onNavigate?.('terms'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#3982C8] transition-colors cursor-pointer">
                   {t.footer.termsOfService}
                 </a>
               </li>
               <li>
-                <a href="/privacy" onClick={(e) => { e.preventDefault(); onNavigate?.('privacy'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#2878D0] transition-colors cursor-pointer">
+                <a href="/privacy" onClick={(e) => { e.preventDefault(); onNavigate?.('privacy'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#3982C8] transition-colors cursor-pointer">
                   {t.footer.privacyPolicy}
                 </a>
               </li>
               <li>
-                <button type="button" onClick={reopenConsent} className="hover:text-[#2878D0] transition-colors cursor-pointer text-left">
+                <button type="button" onClick={reopenConsent} className="hover:text-[#3982C8] transition-colors cursor-pointer text-left">
                   {language === 'pt' ? 'Configurar cookies' : language === 'es' ? 'Configurar cookies' : 'Cookie settings'}
                 </button>
               </li>
@@ -154,7 +154,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                     e.preventDefault();
                     if (onNavigate) onNavigate('about-detail');
                   }}
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
                 >
                   {t.footer.aboutUs}
                 </a>
@@ -163,7 +163,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <a
                   href="/contact"
                   onClick={handleGoContact}
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
                 >
                   {t.footer.contactLabel}
                 </a>
@@ -172,7 +172,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <a
                   href="/"
                   onClick={handleGoHome}
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
                 >
                   {t.footer.home}
                 </a>
@@ -182,7 +182,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   href="https://github.com/aurenstar/aurenstar-engine"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
                 >
                   {t.footer.sourceCode}
                 </a>
@@ -191,7 +191,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <a
                   href="/credits"
                   onClick={handleGoCredits}
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
                 >
                   {t.footer.toolsCredits}
                 </a>
@@ -213,20 +213,20 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                     if (onNavigate) onNavigate('discover-sign');
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
                 >
                   {t.footer.discoverYourSign}
                 </a>
               </li>
               {FEATURES.compatibility && (
               <li>
-                <a href="/compatibility" onClick={(e) => { e.preventDefault(); onNavigate?.('compatibility'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#2878D0] transition-colors cursor-pointer">
+                <a href="/compatibility" onClick={(e) => { e.preventDefault(); onNavigate?.('compatibility'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#3982C8] transition-colors cursor-pointer">
                   {language === 'pt' ? 'Compatibilidade' : language === 'es' ? 'Compatibilidad' : 'Compatibility'}
                 </a>
               </li>
               )}
               <li>
-                <a href="/transits" onClick={(e) => { e.preventDefault(); onNavigate?.('transits'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#2878D0] transition-colors cursor-pointer">
+                <a href="/transits" onClick={(e) => { e.preventDefault(); onNavigate?.('transits'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="hover:text-[#3982C8] transition-colors cursor-pointer">
                   {language === 'pt' ? 'Seu Céu de Hoje' : language === 'es' ? 'Tu Cielo de Hoy' : 'Your Sky Today'}
                 </a>
               </li>
@@ -238,7 +238,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                     if (onNavigate) onNavigate('daily-message');
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
                 >
                   {t.footer.dailyMessage}
                 </a>
@@ -251,7 +251,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                     if (onNavigate) onNavigate('aureneffect');
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
                 >
                   {t.footer.aurenEffect}
                 </a>
@@ -264,7 +264,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                     if (onNavigate) onNavigate('dicionario');
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
                 >
                   {t.footer.dictionaryLabel}
                 </a>
@@ -277,7 +277,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                     if (onNavigate) onNavigate('describe-me');
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
                 >
                   {t.footer.unfilteredLabel}
                 </a>
@@ -286,7 +286,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <a
                   href="/blog"
                   onClick={handleGoBlog}
-                  className="hover:text-[#2878D0] transition-colors cursor-pointer"
+                  className="hover:text-[#3982C8] transition-colors cursor-pointer"
                 >
                   {t.footer.blog}
                 </a>
@@ -305,7 +305,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
             {/* Pill-shaped subscription form */}
             <form onSubmit={handleSubmit} className="relative">
-              <div className="flex items-center bg-[#FFFFFF] border border-[#D9E8F8] rounded-full p-1 focus-within:border-[#2878D0] focus-within:ring-2 focus-within:ring-[#2878D0]/20 transition-all shadow-xs">
+              <div className="flex items-center bg-[#FFFFFF] border border-[#D9E8F8] rounded-full p-1 focus-within:border-[#3982C8] focus-within:ring-2 focus-within:ring-[#3982C8]/20 transition-all shadow-xs">
                 <input
                   type="email"
                   required
@@ -319,7 +319,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 />
                 <button
                   type="submit"
-                  className="bg-[#2878D0] hover:bg-[#17366F] text-[#FFFFFF] text-xs sm:text-sm font-semibold px-3 sm:px-5 py-2.5 rounded-full transition-all duration-200 cursor-pointer shadow-sm hover:shadow flex items-center justify-center shrink-0 active:scale-95"
+                  className="bg-[#3982C8] hover:bg-[#17366F] text-[#FFFFFF] text-xs sm:text-sm font-semibold px-3 sm:px-5 py-2.5 rounded-full transition-all duration-200 cursor-pointer shadow-sm hover:shadow flex items-center justify-center shrink-0 active:scale-95"
                 >
                   {t.footer.subscribeBtn}
                 </button>

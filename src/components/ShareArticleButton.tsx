@@ -30,7 +30,7 @@ export const ShareArticleButton: React.FC<{ article: BlogArticleContent }> = ({ 
         aria-label={label}
         title={label}
         aria-haspopup="dialog"
-        className="flex h-9 w-9 cursor-pointer items-center justify-center rounded-full text-[#172B4D] transition-colors hover:bg-[#E4F1FF] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]"
+        className="flex h-9 w-9 cursor-pointer items-center justify-center rounded-full text-[#172B4D] transition-colors hover:bg-[#E4F1FF] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#3982C8]"
       >
         <Share2 className="h-[22px] w-[22px]" strokeWidth={2} />
       </button>

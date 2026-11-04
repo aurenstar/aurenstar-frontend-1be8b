@@ -117,8 +117,8 @@ export const FaqSection: React.FC = () => {
         {/* Header com fade-in e slide-up */}
         <ScrollReveal delay={0} distance={20} duration={750}>
           <div className="text-center mb-10 sm:mb-12">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#E4F1FF] border border-[#2878D0]/30 text-[#2878D0] text-[10px] sm:text-xs font-bold tracking-widest uppercase mb-3">
-              <HelpCircle className="w-3.5 h-3.5 text-[#2878D0]" />
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#E4F1FF] border border-[#3982C8]/30 text-[#3982C8] text-[10px] sm:text-xs font-bold tracking-widest uppercase mb-3">
+              <HelpCircle className="w-3.5 h-3.5 text-[#3982C8]" />
               <span>{t.badge}</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#172B4D] tracking-tight mb-3">
@@ -144,8 +144,8 @@ export const FaqSection: React.FC = () => {
                 <div
                   className={`bg-[#FFFFFF] border rounded-2xl overflow-hidden transition-all duration-200 shadow-2xs ${
                     isOpen
-                      ? 'border-[#2878D0] shadow-sm'
-                      : 'border-[#D9E8F8] hover:border-[#2878D0]/40'
+                      ? 'border-[#3982C8] shadow-sm'
+                      : 'border-[#D9E8F8] hover:border-[#3982C8]/40'
                   }`}
                 >
                   <button
@@ -156,7 +156,7 @@ export const FaqSection: React.FC = () => {
                     <div className="flex items-center gap-3 min-w-0">
                       <span
                         className={`w-2 h-2 rounded-full shrink-0 transition-colors ${
-                          isOpen ? 'bg-[#2878D0]' : 'bg-[#D9E8F8]'
+                          isOpen ? 'bg-[#3982C8]' : 'bg-[#D9E8F8]'
                         }`}
                       />
                       <span className="font-bold text-xs sm:text-sm text-[#172B4D]">
@@ -166,7 +166,7 @@ export const FaqSection: React.FC = () => {
                     <div
                       className={`w-7 h-7 rounded-full flex items-center justify-center shrink-0 transition-transform duration-200 ${
                         isOpen
-                          ? 'bg-[#E4F1FF] text-[#2878D0] rotate-180'
+                          ? 'bg-[#E4F1FF] text-[#3982C8] rotate-180'
                           : 'bg-[#E4F1FF] text-[#647DA5]'
                       }`}
                     >

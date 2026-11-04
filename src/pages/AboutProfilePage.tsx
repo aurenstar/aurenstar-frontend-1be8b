@@ -182,11 +182,11 @@ const TOOL_ICONS: Record<string, React.ElementType> = {
 };
 
 const TOOL_COLORS: Record<string, string> = {
-  'daily-message': '#2878D0',
-  aureneffect: '#F51B83',
-  'discover-sign': '#2878D0',
-  'describe-me': '#F51B83',
-  dicionario: '#2878D0',
+  'daily-message': '#3982C8',
+  aureneffect: '#E73578',
+  'discover-sign': '#3982C8',
+  'describe-me': '#E73578',
+  dicionario: '#3982C8',
 };
 
 
@@ -210,21 +210,21 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
   return (
     <section className="min-h-[78vh] bg-[#C9E5FF] px-4 pb-20 pt-24 sm:px-6 sm:pt-28">
       <div className="mx-auto max-w-4xl">
-        <button type="button" onClick={() => onNavigate('home')} className="mb-5 inline-flex items-center gap-2 text-sm font-semibold text-[#2878D0] hover:text-[#17366F]">
+        <button type="button" onClick={() => onNavigate('home')} className="mb-5 inline-flex items-center gap-2 text-sm font-semibold text-[#3982C8] hover:text-[#17366F]">
           <ArrowLeft className="h-4 w-4" /> {c.back}
         </button>
 
         <div className="rounded-[2rem] border border-[#D9E8F8] bg-white p-3 shadow-[0_14px_40px_rgba(23,54,111,0.1)] sm:p-5">
           {/* Cover + avatar */}
           <div className="relative">
-            <div className="relative h-40 overflow-hidden rounded-2xl bg-[#2878D0] sm:h-56" aria-hidden>
+            <div className="relative h-40 overflow-hidden rounded-2xl bg-[#3982C8] sm:h-56" aria-hidden>
               <svg className="absolute inset-0 h-full w-full" viewBox="0 0 800 224" preserveAspectRatio="xMidYMid slice" fill="none">
                 <ellipse cx="640" cy="112" rx="300" ry="86" transform="rotate(-18 640 112)" stroke="#fff" strokeOpacity="0.28" strokeWidth="14" />
-                <ellipse cx="640" cy="112" rx="220" ry="58" transform="rotate(-18 640 112)" stroke="#F51B83" strokeOpacity="0.9" strokeWidth="8" />
+                <ellipse cx="640" cy="112" rx="220" ry="58" transform="rotate(-18 640 112)" stroke="#E73578" strokeOpacity="0.9" strokeWidth="8" />
                 <circle cx="90" cy="40" r="90" fill="#fff" fillOpacity="0.08" />
                 <circle cx="330" cy="215" r="70" fill="#fff" fillOpacity="0.08" />
                 <path d="M520 50 l7 18 18 7 -18 7 -7 18 -7 -18 -18 -7 18 -7z" fill="#fff" />
-                <path d="M730 150 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5z" fill="#F51B83" />
+                <path d="M730 150 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5z" fill="#E73578" />
                 <path d="M250 70 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z" fill="#fff" fillOpacity="0.8" />
                 <circle cx="420" cy="40" r="3" fill="#fff" fillOpacity="0.7" />
                 <circle cx="180" cy="150" r="2.5" fill="#fff" fillOpacity="0.6" />
@@ -240,13 +240,13 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
             <div className="min-w-0">
               <h1 className="flex items-center gap-2 text-2xl font-extrabold text-[#172B4D]">
                 <span translate="no" className="notranslate">Aurenstar</span>
-                <span aria-label={c.verified} title={c.verified} className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#2878D0] text-white"><Check className="h-3.5 w-3.5" strokeWidth={3} /></span>
+                <span aria-label={c.verified} title={c.verified} className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#3982C8] text-white"><Check className="h-3.5 w-3.5" strokeWidth={3} /></span>
               </h1>
               <p className="text-sm text-[#647DA5]">{c.handle}</p>
               <p className="mt-2 max-w-md text-sm leading-relaxed text-[#17366F]">{c.bio}</p>
               <div className="mt-3 flex items-center gap-2">
                 {SOCIAL_LINKS.map((n) => (
-                  <a key={n.key} href={n.url} target="_blank" rel="noopener noreferrer" aria-label={n.label} title={n.label} className="flex h-10 w-10 items-center justify-center rounded-full border border-[#D9E8F8] bg-[#F4F9FF] text-[#647DA5] transition-all duration-200 hover:-translate-y-0.5 hover:border-[#2878D0] hover:bg-[#2878D0] hover:text-white hover:shadow-md">
+                  <a key={n.key} href={n.url} target="_blank" rel="noopener noreferrer" aria-label={n.label} title={n.label} className="flex h-10 w-10 items-center justify-center rounded-full border border-[#D9E8F8] bg-[#F4F9FF] text-[#647DA5] transition-all duration-200 hover:-translate-y-0.5 hover:border-[#3982C8] hover:bg-[#3982C8] hover:text-white hover:shadow-md">
                     <SocialIcon name={n.key} />
                   </a>
                 ))}
@@ -254,7 +254,7 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
             </div>
             <div className="grid shrink-0 grid-cols-3 gap-2.5 sm:gap-3">
               {stats.map(({ icon: Icon, value, label }, i) => {
-                const color = i % 2 === 0 ? '#2878D0' : '#F51B83';
+                const color = i % 2 === 0 ? '#3982C8' : '#E73578';
                 return (
                   <div key={label} className="group flex min-w-[6.5rem] flex-col items-center rounded-2xl border border-[#D9E8F8] bg-white px-3 py-3 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_24px_rgba(23,54,111,0.14)] sm:min-w-[7.5rem] sm:px-4">
                     <span className="mb-1.5 flex h-9 w-9 items-center justify-center rounded-xl text-white shadow-sm transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110" style={{ background: color }}>
@@ -290,11 +290,11 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
               <div className="grid gap-4 sm:grid-cols-2">
                 {c.tools.map((tool, i) => {
                   const Icon = TOOL_ICONS[tool.key] || Sparkles;
-                  const color = TOOL_COLORS[tool.key] || '#2878D0';
+                  const color = TOOL_COLORS[tool.key] || '#3982C8';
                   return (
                     <button key={tool.key} type="button" onClick={() => onNavigate(tool.key)} className={`group flex flex-col overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-3 text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)] ${i === c.tools.length - 1 && c.tools.length % 2 === 1 ? 'sm:col-span-2 sm:flex-row sm:gap-4' : ''}`}>
                       <span className={`relative flex h-36 items-center justify-center overflow-hidden rounded-xl ${i === c.tools.length - 1 && c.tools.length % 2 === 1 ? 'sm:h-auto sm:w-64 sm:shrink-0' : ''}`} style={{ background: color }}>
-                        <CoverArt tone={color === '#F51B83' ? 'pink' : 'blue'} variant={i} />
+                        <CoverArt tone={color === '#E73578' ? 'pink' : 'blue'} variant={i} />
                         <Icon className="relative h-14 w-14 text-white transition-transform duration-300 group-hover:scale-110" />
                         <span className="absolute right-2.5 top-2.5 rounded-md bg-white px-2 py-0.5 text-[10px] font-extrabold" style={{ color }}>{c.free}</span>
                       </span>
@@ -318,18 +318,18 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
             {tab === 'about' && (
               <div className="space-y-5 px-1 pb-2 pt-3 sm:px-2">
                 <div className="max-w-2xl">
-                  <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#2878D0]">{c.aboutTitle}</p>
+                  <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-[#3982C8]">{c.aboutTitle}</p>
                   <h2 className="mt-3 text-3xl font-extrabold leading-[1.1] text-[#172B4D] sm:text-4xl">{c.aboutHeadline}</h2>
                   <div className="mt-4 space-y-3">{c.about.map((p) => <p key={p} className="text-base leading-8 text-[#5575A4]">{p}</p>)}</div>
                 </div>
-                <div className="border-l-2 border-[#F51B83] pl-4">
-                  <p className="text-[11px] font-extrabold uppercase tracking-[0.22em] text-[#2878D0]">{c.valuesTitle}</p>
+                <div className="border-l-2 border-[#E73578] pl-4">
+                  <p className="text-[11px] font-extrabold uppercase tracking-[0.22em] text-[#3982C8]">{c.valuesTitle}</p>
                 </div>
                 <div className="grid gap-4 sm:grid-cols-3">
                   {c.values.map((v, i) => {
                     const pink = i === 1;
                     return (
-                      <div key={v.title} className="group relative flex min-h-[300px] flex-col overflow-hidden rounded-2xl p-5 shadow-[0_14px_30px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(23,54,111,0.24)]" style={{ background: pink ? '#F51B83' : '#2878D0' }}>
+                      <div key={v.title} className="group relative flex min-h-[300px] flex-col overflow-hidden rounded-2xl p-5 shadow-[0_14px_30px_rgba(23,54,111,0.16)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_40px_rgba(23,54,111,0.24)]" style={{ background: pink ? '#E73578' : '#3982C8' }}>
                         <div className="absolute inset-x-0 bottom-0 h-28 overflow-hidden"><CoverArt tone={pink ? 'pink' : 'blue'} /></div>
                         <span className="relative text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/80">0{i + 1}</span>
                         <span className="relative mt-1 block text-xl font-extrabold leading-tight text-white">{v.title}</span>
@@ -339,7 +339,7 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                   })}
                 </div>
                 <div className="rounded-[18px] border border-[#F7B5D2] bg-[#FFF5FA] p-4 sm:p-5">
-                  <p className="mb-1 text-[11px] font-extrabold uppercase tracking-[0.22em] text-[#F51B83]">{c.noteTitle}</p>
+                  <p className="mb-1 text-[11px] font-extrabold uppercase tracking-[0.22em] text-[#E73578]">{c.noteTitle}</p>
                   <p className="text-sm leading-relaxed text-[#17366F]">{c.note}</p>
                 </div>
               </div>
@@ -352,7 +352,7 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                   {c.steps.map((step, i) => {
                     const Icon = STEP_ICONS[i];
                     const pink = i % 2 === 1;
-                    const color = pink ? '#F51B83' : '#2878D0';
+                    const color = pink ? '#E73578' : '#3982C8';
                     return (
                       <div key={step.title} className="group overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-3 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)]">
                         <div className="relative flex h-24 items-center justify-between overflow-hidden rounded-xl px-5" style={{ background: color }}>
@@ -367,7 +367,7 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                     );
                   })}
                 </div>
-                <button type="button" onClick={() => onNavigate('credits')} className="mt-4 inline-flex items-center gap-2 px-1 text-sm font-bold text-[#2878D0] hover:text-[#17366F]">
+                <button type="button" onClick={() => onNavigate('credits')} className="mt-4 inline-flex items-center gap-2 px-1 text-sm font-bold text-[#3982C8] hover:text-[#17366F]">
                   <ShieldCheck className="h-4 w-4" /> {c.creditsLink} <ArrowRight className="h-4 w-4" />
                 </button>
               </div>
@@ -380,14 +380,14 @@ export const AboutProfilePage: React.FC<AboutProfilePageProps> = ({ onNavigate, 
                     <button key={post.id} type="button" onClick={() => onOpenArticle(post.id)} className="group flex flex-col overflow-hidden rounded-2xl border border-[#D9E8F8] bg-white p-3 text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_32px_rgba(23,54,111,0.14)]">
                       <span className="relative block h-36 overflow-hidden rounded-xl bg-slate-100">
                         <img src={post.image} alt="" loading="lazy" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                        <span className="absolute right-2.5 top-2.5 rounded-md bg-[#F51B83] px-2 py-0.5 text-[10px] font-extrabold text-white">{post.category[lang] || post.category.pt}</span>
+                        <span className="absolute right-2.5 top-2.5 rounded-md bg-[#E73578] px-2 py-0.5 text-[10px] font-extrabold text-white">{post.category[lang] || post.category.pt}</span>
                       </span>
-                      <span className="mt-3 line-clamp-2 px-1 text-base font-extrabold leading-snug text-[#172B4D] group-hover:text-[#2878D0]">{post.title[lang] || post.title.pt}</span>
+                      <span className="mt-3 line-clamp-2 px-1 text-base font-extrabold leading-snug text-[#172B4D] group-hover:text-[#3982C8]">{post.title[lang] || post.title.pt}</span>
                       <span className="mt-1 line-clamp-2 px-1 text-sm leading-relaxed text-[#647DA5]">{post.subtitle[lang] || post.subtitle.pt}</span>
                     </button>
                   ))}
                 </div>
-                <button type="button" onClick={() => onNavigate('blog')} className="mt-4 inline-flex items-center gap-2 px-1 text-sm font-bold text-[#2878D0] hover:text-[#17366F]">
+                <button type="button" onClick={() => onNavigate('blog')} className="mt-4 inline-flex items-center gap-2 px-1 text-sm font-bold text-[#3982C8] hover:text-[#17366F]">
                   {c.seeBlog} <ArrowRight className="h-4 w-4" />
                 </button>
               </div>

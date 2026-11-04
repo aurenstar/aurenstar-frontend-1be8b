@@ -28,7 +28,7 @@ const Ring: React.FC<{ score: number }> = ({ score }) => {
     <div className="relative h-36 w-36 shrink-0">
       <svg viewBox="0 0 128 128" className="h-full w-full -rotate-90">
         <circle cx="64" cy="64" r={r} fill="none" stroke="#E4F1FF" strokeWidth="12" />
-        <circle cx="64" cy="64" r={r} fill="none" stroke="#F51B83" strokeWidth="12" strokeLinecap="round" strokeDasharray={`${(score / 100) * c} ${c}`} />
+        <circle cx="64" cy="64" r={r} fill="none" stroke="#E73578" strokeWidth="12" strokeLinecap="round" strokeDasharray={`${(score / 100) * c} ${c}`} />
       </svg>
       <div className="absolute inset-0 flex items-center justify-center text-4xl font-extrabold text-[#172B4D]">{score}%</div>
     </div>
@@ -76,7 +76,7 @@ export const CompatibilityPage: React.FC<{ onBackToHome: () => void; onNavigateT
           <button type="button" onClick={onBackToHome} className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#647DA5] hover:text-[#172B4D] transition-colors cursor-pointer group">
             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" /><span>{t.back}</span>
           </button>
-          <button type="button" onClick={onNavigateToBlog} className="text-xs sm:text-sm font-bold text-[#2878D0] hover:text-[#17366F] transition-colors cursor-pointer">{t.blog}</button>
+          <button type="button" onClick={onNavigateToBlog} className="text-xs sm:text-sm font-bold text-[#3982C8] hover:text-[#17366F] transition-colors cursor-pointer">{t.blog}</button>
         </div>
 
         {!result ? (
@@ -90,19 +90,19 @@ export const CompatibilityPage: React.FC<{ onBackToHome: () => void; onNavigateT
               <h2 className="text-base font-extrabold mb-4">{t.two}</h2>
               <PersonFields id="b" value={b} onChange={setB} lang={lang} />
             </div>
-            {error && <p role="alert" className="mb-4 text-sm font-semibold text-[#F51B83]">{error}</p>}
-            <button type="button" onClick={go} disabled={busy} className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-[#F51B83] hover:bg-[#D9166F] disabled:opacity-70 px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-[#F51B83]/25 transition-all cursor-pointer">
+            {error && <p role="alert" className="mb-4 text-sm font-semibold text-[#E73578]">{error}</p>}
+            <button type="button" onClick={go} disabled={busy} className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-[#E73578] hover:bg-[#D0306C] disabled:opacity-70 px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-[#E73578]/25 transition-all cursor-pointer">
               {busy ? <><Loader2 className="h-4 w-4 animate-spin" />{t.wait}</> : t.go}
             </button>
           </>
         ) : (
           <>
             <div className={`${card} text-center`}>
-              <p className="text-xs font-bold uppercase tracking-wider text-[#F51B83] mb-1">{names}</p>
+              <p className="text-xs font-bold uppercase tracking-wider text-[#E73578] mb-1">{names}</p>
               <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center sm:gap-6 my-4">
                 <Ring score={result.score} />
                 <div className="text-center sm:text-left max-w-xs">
-                  <p className="text-[11px] font-extrabold uppercase tracking-wider text-[#2878D0]">{compatVerdict(result.score, lang)}</p>
+                  <p className="text-[11px] font-extrabold uppercase tracking-wider text-[#3982C8]">{compatVerdict(result.score, lang)}</p>
                   <h1 className="mt-1 text-2xl font-extrabold leading-tight">{story!.title}</h1>
                 </div>
               </div>
@@ -122,7 +122,7 @@ export const CompatibilityPage: React.FC<{ onBackToHome: () => void; onNavigateT
                 {Object.entries(result.areas).map(([k, v]) => (
                   <div key={k}>
                     <div className="flex justify-between text-xs font-bold text-[#17366F] mb-1"><span>{areaName(k, lang)}</span><span>{v}%</span></div>
-                    <div className="h-2 rounded-full bg-[#E4F1FF]"><div className="h-2 rounded-full bg-[#2878D0]" style={{ width: `${v}%` }} /></div>
+                    <div className="h-2 rounded-full bg-[#E4F1FF]"><div className="h-2 rounded-full bg-[#3982C8]" style={{ width: `${v}%` }} /></div>
                   </div>
                 ))}
               </div>
@@ -130,22 +130,22 @@ export const CompatibilityPage: React.FC<{ onBackToHome: () => void; onNavigateT
 
             {result.strongest.length > 0 && (
               <div className={card}>
-                <h2 className="flex items-center gap-2 text-base font-extrabold mb-3"><Check className="h-5 w-5 text-[#2878D0]" />{t.flows}</h2>
+                <h2 className="flex items-center gap-2 text-base font-extrabold mb-3"><Check className="h-5 w-5 text-[#3982C8]" />{t.flows}</h2>
                 <ul className="space-y-2">{result.strongest.map((s, i) => <li key={i} className="text-sm leading-relaxed text-[#647DA5]">{strongLine(s.a, s.b, lang, i)}</li>)}</ul>
               </div>
             )}
             {result.challenges.length > 0 && (
               <div className={card}>
-                <h2 className="flex items-center gap-2 text-base font-extrabold mb-3"><AlertTriangle className="h-5 w-5 text-[#F51B83]" />{t.care}</h2>
+                <h2 className="flex items-center gap-2 text-base font-extrabold mb-3"><AlertTriangle className="h-5 w-5 text-[#E73578]" />{t.care}</h2>
                 <ul className="space-y-2">{result.challenges.map((s, i) => <li key={i} className="text-sm leading-relaxed text-[#647DA5]">{careLine(s.a, s.b, lang, i)}</li>)}</ul>
               </div>
             )}
-            <div className="mb-6 rounded-3xl bg-[#2878D0] p-5 text-white shadow-md sm:p-6">
+            <div className="mb-6 rounded-3xl bg-[#3982C8] p-5 text-white shadow-md sm:p-6">
               <p className="flex items-center gap-2 text-[11px] font-extrabold uppercase tracking-wider text-white/80"><Lightbulb className="h-4 w-4" />{t.tipTitle}</p>
               <p className="mt-2 text-base font-bold leading-snug sm:text-lg">{story!.tip}</p>
             </div>
             {(!a.time || !b.time) && <p className="mb-6 text-center text-[11px] text-[#647DA5]">{t.approx}</p>}
-            <button type="button" onClick={() => setResult(null)} className="mx-auto flex items-center justify-center rounded-full border-2 border-[#2878D0] px-6 py-2.5 text-sm font-bold text-[#2878D0] hover:bg-[#2878D0] hover:text-white transition-colors cursor-pointer">{t.again}</button>
+            <button type="button" onClick={() => setResult(null)} className="mx-auto flex items-center justify-center rounded-full border-2 border-[#3982C8] px-6 py-2.5 text-sm font-bold text-[#3982C8] hover:bg-[#3982C8] hover:text-white transition-colors cursor-pointer">{t.again}</button>
           </>
         )}
       </div>

@@ -154,8 +154,8 @@ export const DailyCardModal: React.FC<DailyCardModalProps> = ({
         {/* Top Header */}
         <div className="px-6 pt-5 pb-4 flex items-center justify-between border-b border-[#D9E8F8]">
           <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-xl bg-[#E4F1FF] border border-[#D9E8F8] flex items-center justify-center text-[#2878D0]">
-              <Sparkles className="w-4 h-4 text-[#2878D0]" />
+            <div className="w-8 h-8 rounded-xl bg-[#E4F1FF] border border-[#D9E8F8] flex items-center justify-center text-[#3982C8]">
+              <Sparkles className="w-4 h-4 text-[#3982C8]" />
             </div>
             <div>
               <h3 className="text-base font-extrabold text-[#172B4D] leading-tight">
@@ -169,7 +169,7 @@ export const DailyCardModal: React.FC<DailyCardModalProps> = ({
 
           <button
             onClick={onClose}
-            className="w-8 h-8 rounded-full bg-[#E4F1FF] hover:bg-[#FFE0EF] text-[#647DA5] hover:text-[#172B4D] border border-[#D9E8F8] flex items-center justify-center transition-colors cursor-pointer"
+            className="w-8 h-8 rounded-full bg-[#E4F1FF] hover:bg-[#FBE1EB] text-[#647DA5] hover:text-[#172B4D] border border-[#D9E8F8] flex items-center justify-center transition-colors cursor-pointer"
           >
             <X className="w-4 h-4" />
           </button>
@@ -184,8 +184,8 @@ export const DailyCardModal: React.FC<DailyCardModalProps> = ({
           >
             {/* Elegant Card Banner in Secondary Background */}
             <div className="p-6 rounded-2xl bg-[#E4F1FF] border border-[#D9E8F8] shadow-xs relative overflow-hidden">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FFFFFF] border border-[#D9E8F8] text-[#2878D0] text-[11px] font-black uppercase tracking-wider mb-2">
-                <Star className="w-3 h-3 text-[#2878D0] fill-[#2878D0]" />
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FFFFFF] border border-[#D9E8F8] text-[#3982C8] text-[11px] font-black uppercase tracking-wider mb-2">
+                <Star className="w-3 h-3 text-[#3982C8] fill-[#3982C8]" />
                 <span>{currentCard.sign}</span>
               </div>
 
@@ -204,7 +204,7 @@ export const DailyCardModal: React.FC<DailyCardModalProps> = ({
                 <span className="text-[10px] font-bold uppercase text-[#647DA5] block">
                   Energia
                 </span>
-                <span className="text-sm font-black text-[#2878D0] mt-0.5 block">
+                <span className="text-sm font-black text-[#3982C8] mt-0.5 block">
                   {currentCard.energy}
                 </span>
               </div>
@@ -222,19 +222,19 @@ export const DailyCardModal: React.FC<DailyCardModalProps> = ({
                 <span className="text-[10px] font-bold uppercase text-[#647DA5] block">
                   Nº da Sorte
                 </span>
-                <span className="text-sm font-black text-[#2878D0] mt-0.5 block">
+                <span className="text-sm font-black text-[#3982C8] mt-0.5 block">
                   {currentCard.luckyNumber}
                 </span>
               </div>
             </div>
 
             {/* Gentle Advice */}
-            <div className="mt-4 p-4 rounded-2xl bg-[#FFE0EF]/50 border border-[#FFE0EF] flex items-start gap-3">
-              <div className="w-6 h-6 rounded-full bg-[#F51B83] text-[#FFFFFF] flex items-center justify-center shrink-0 mt-0.5 font-bold">
+            <div className="mt-4 p-4 rounded-2xl bg-[#FBE1EB]/50 border border-[#FBE1EB] flex items-start gap-3">
+              <div className="w-6 h-6 rounded-full bg-[#E73578] text-[#FFFFFF] flex items-center justify-center shrink-0 mt-0.5 font-bold">
                 <Check className="w-3.5 h-3.5 text-[#FFFFFF]" />
               </div>
               <div>
-                <span className="text-[11px] font-bold uppercase tracking-wider text-[#F51B83] block">
+                <span className="text-[11px] font-bold uppercase tracking-wider text-[#E73578] block">
                   Conselho Simples para Hoje:
                 </span>
                 <p className="text-xs text-[#172B4D] font-medium mt-0.5 leading-relaxed">
@@ -248,15 +248,15 @@ export const DailyCardModal: React.FC<DailyCardModalProps> = ({
           <div className="mt-6 flex items-center justify-between gap-3 pt-3 border-t border-[#D9E8F8]">
             <button
               onClick={handleDrawAnother}
-              className="flex-1 py-3 px-4 rounded-2xl bg-[#FFFFFF] hover:bg-[#E4F1FF] text-[#172B4D] hover:text-[#2878D0] border border-[#D9E8F8] hover:border-[#2878D0] text-xs font-extrabold flex items-center justify-center gap-2 transition-all cursor-pointer hover:scale-102"
+              className="flex-1 py-3 px-4 rounded-2xl bg-[#FFFFFF] hover:bg-[#E4F1FF] text-[#172B4D] hover:text-[#3982C8] border border-[#D9E8F8] hover:border-[#3982C8] text-xs font-extrabold flex items-center justify-center gap-2 transition-all cursor-pointer hover:scale-102"
             >
-              <RotateCcw className="w-4 h-4 text-[#2878D0]" />
+              <RotateCcw className="w-4 h-4 text-[#3982C8]" />
               <span>Tirar Outra Carta 🎴</span>
             </button>
 
             <button
               onClick={onClose}
-              className="py-3 px-6 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-[#FFFFFF] text-xs font-black uppercase tracking-wider shadow-sm transition-all cursor-pointer hover:scale-102"
+              className="py-3 px-6 rounded-2xl bg-[#3982C8] hover:bg-[#17366F] text-[#FFFFFF] text-xs font-black uppercase tracking-wider shadow-sm transition-all cursor-pointer hover:scale-102"
             >
               Entendido ✨
             </button>

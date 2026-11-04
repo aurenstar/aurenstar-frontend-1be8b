@@ -250,7 +250,7 @@ export default function App() {
       <SiteLocalizer />
       <AdBlockGate />
       <ConsentBanner />
-      <div className="min-h-screen bg-[#C9E5FF] text-[#172B4D] font-sans selection:bg-[#F51B83] selection:text-[#FFFFFF] flex flex-col justify-between">
+      <div className="min-h-screen bg-[#C9E5FF] text-[#172B4D] font-sans selection:bg-[#E73578] selection:text-[#FFFFFF] flex flex-col justify-between">
         {/* Top Header with Navigation & Language Switcher */}
         <Navbar
           activePage={

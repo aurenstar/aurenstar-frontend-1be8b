@@ -405,7 +405,7 @@ export const SiteLocalizer: React.FC = () => {
     <div
       role="status"
       aria-label="…"
-      className="pointer-events-none fixed bottom-4 left-4 z-50 h-8 w-8 animate-spin rounded-full border-[3px] border-white border-t-[#F51B83] shadow-md"
+      className="pointer-events-none fixed bottom-4 left-4 z-50 h-8 w-8 animate-spin rounded-full border-[3px] border-white border-t-[#E73578] shadow-md"
     />
   );
 };

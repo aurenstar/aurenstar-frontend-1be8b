@@ -256,7 +256,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
         <div className="flex items-center justify-between mb-8">
           <button
             onClick={onBackToHome}
-            className="flex items-center gap-2 px-4 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-xs font-bold text-[#2878D0] hover:text-white hover:border-[#F51B83] transition-all cursor-pointer shadow-xs group"
+            className="flex items-center gap-2 px-4 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#E73578] text-xs font-bold text-[#3982C8] hover:text-white hover:border-[#E73578] transition-all cursor-pointer shadow-xs group"
           >
             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
             <span>{t.backHome}</span>
@@ -264,14 +264,14 @@ export const ContactPage: React.FC<ContactPageProps> = ({
 
           <button
             onClick={onNavigateToBlog}
-            className="text-xs font-semibold text-[#2878D0] hover:text-[#17366F] transition-colors cursor-pointer"
+            className="text-xs font-semibold text-[#3982C8] hover:text-[#17366F] transition-colors cursor-pointer"
           >
             {t.exploreBlog} →
           </button>
         </div>
 
         {/* Cover-style header */}
-        <div className="relative mb-10 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
+        <div className="relative mb-10 overflow-hidden rounded-[2rem] bg-[#3982C8] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
           <div className="relative max-w-xl pb-12 sm:pb-0 sm:pr-24">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/15 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-white">
@@ -279,7 +279,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
               <span>{t.tag}</span>
             </div>
             <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl">{t.title}</h1>
-            <span aria-hidden className="mt-4 block h-1 w-12 rounded-full bg-[#F51B83]" />
+            <span aria-hidden className="mt-4 block h-1 w-12 rounded-full bg-[#E73578]" />
             <p className="mt-4 text-sm leading-relaxed text-white/90 sm:text-base">{t.subtitle}</p>
           </div>
         </div>
@@ -303,7 +303,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
         {/* =========================================================================
             FEATURED EMAIL CTA CARD (Highlights aurenstarbusiness@gmail.com)
             ========================================================================= */}
-        <div className="relative overflow-hidden rounded-[2rem] bg-[#F51B83] p-8 sm:p-10 text-white shadow-[0_14px_40px_rgba(245,27,131,0.25)] mb-12">
+        <div className="relative overflow-hidden rounded-[2rem] bg-[#E73578] p-8 sm:p-10 text-white shadow-[0_14px_40px_rgba(231, 53, 120,0.25)] mb-12">
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="pink" variant={1} /></div>
           {/* Subtle celestial background stars glow */}
           <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
@@ -336,7 +336,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                   handleCopyEmail();
                 }}
                 title="Abrir no Gmail (Web)"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl bg-white hover:bg-[#FFE0EF] text-[#F51B83] text-xs sm:text-sm font-bold shadow-lg transition-all hover:scale-102 cursor-pointer text-center"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl bg-white hover:bg-[#FBE1EB] text-[#E73578] text-xs sm:text-sm font-bold shadow-lg transition-all hover:scale-102 cursor-pointer text-center"
               >
                 <Send className="w-4 h-4" />
                 <span>{t.sendEmailCta}</span>
@@ -367,7 +367,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                 type="button"
                 onClick={() => setShowOptionsModal(true)}
                 title="Outras formas de envio"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-3 rounded-full bg-white/15 hover:bg-white hover:text-[#F51B83] border border-white/25 text-white text-xs sm:text-sm font-medium transition-all cursor-pointer"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 py-3 rounded-full bg-white/15 hover:bg-white hover:text-[#E73578] border border-white/25 text-white text-xs sm:text-sm font-medium transition-all cursor-pointer"
               >
                 <ExternalLink className="w-3.5 h-3.5" />
                 <span>{t.moreOptionsBtn}</span>
@@ -394,7 +394,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                 <X className="w-4 h-4" />
               </button>
 
-              <div className="flex items-center gap-2 text-xs font-bold text-[#2878D0] uppercase tracking-wider mb-2">
+              <div className="flex items-center gap-2 text-xs font-bold text-[#3982C8] uppercase tracking-wider mb-2">
                 <Sparkles className="w-3.5 h-3.5" />
                 <span>Aurenstar Contato</span>
               </div>
@@ -414,13 +414,13 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setShowOptionsModal(false)}
-                  className="w-full flex items-center gap-3.5 p-3.5 rounded-2xl border border-[#D9E8F8] hover:border-[#2878D0] hover:bg-[#E4F1FF]/50 transition-all cursor-pointer group"
+                  className="w-full flex items-center gap-3.5 p-3.5 rounded-2xl border border-[#D9E8F8] hover:border-[#3982C8] hover:bg-[#E4F1FF]/50 transition-all cursor-pointer group"
                 >
                   <div className="w-10 h-10 rounded-xl bg-red-50 text-red-600 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div className="flex flex-col text-left min-w-0 flex-1">
-                    <span className="text-xs sm:text-sm font-bold text-[#172B4D] group-hover:text-[#2878D0] flex items-center gap-1.5">
+                    <span className="text-xs sm:text-sm font-bold text-[#172B4D] group-hover:text-[#3982C8] flex items-center gap-1.5">
                       <span>{t.optGmailTitle}</span>
                       <ExternalLink className="w-3 h-3 text-[#647DA5]" />
                     </span>
@@ -436,13 +436,13 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setShowOptionsModal(false)}
-                  className="w-full flex items-center gap-3.5 p-3.5 rounded-2xl border border-[#D9E8F8] hover:border-[#2878D0] hover:bg-[#E4F1FF]/50 transition-all cursor-pointer group"
+                  className="w-full flex items-center gap-3.5 p-3.5 rounded-2xl border border-[#D9E8F8] hover:border-[#3982C8] hover:bg-[#E4F1FF]/50 transition-all cursor-pointer group"
                 >
-                  <div className="w-10 h-10 rounded-xl bg-[#E4F1FF] text-[#2878D0] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                  <div className="w-10 h-10 rounded-xl bg-[#E4F1FF] text-[#3982C8] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
                     <Laptop className="w-5 h-5" />
                   </div>
                   <div className="flex flex-col text-left min-w-0 flex-1">
-                    <span className="text-xs sm:text-sm font-bold text-[#172B4D] group-hover:text-[#2878D0] flex items-center gap-1.5">
+                    <span className="text-xs sm:text-sm font-bold text-[#172B4D] group-hover:text-[#3982C8] flex items-center gap-1.5">
                       <span>{t.optAppTitle}</span>
                       <ExternalLink className="w-3 h-3 text-[#647DA5]" />
                     </span>
@@ -456,13 +456,13 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                 <button
                   type="button"
                   onClick={handleScrollToForm}
-                  className="w-full flex items-center gap-3.5 p-3.5 rounded-2xl border border-[#D9E8F8] hover:border-[#2878D0] hover:bg-[#E4F1FF]/50 transition-all cursor-pointer group text-left"
+                  className="w-full flex items-center gap-3.5 p-3.5 rounded-2xl border border-[#D9E8F8] hover:border-[#3982C8] hover:bg-[#E4F1FF]/50 transition-all cursor-pointer group text-left"
                 >
-                  <div className="w-10 h-10 rounded-xl bg-[#E4F1FF] text-[#2878D0] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                  <div className="w-10 h-10 rounded-xl bg-[#E4F1FF] text-[#3982C8] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
                     <PenTool className="w-5 h-5" />
                   </div>
                   <div className="flex flex-col text-left min-w-0 flex-1">
-                    <span className="text-xs sm:text-sm font-bold text-[#172B4D] group-hover:text-[#2878D0]">
+                    <span className="text-xs sm:text-sm font-bold text-[#172B4D] group-hover:text-[#3982C8]">
                       {t.optFormTitle}
                     </span>
                     <span className="text-[11px] text-[#647DA5] line-clamp-1">
@@ -478,13 +478,13 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                     handleCopyEmail();
                     setShowOptionsModal(false);
                   }}
-                  className="w-full flex items-center gap-3.5 p-3.5 rounded-2xl border border-[#D9E8F8] hover:border-[#2878D0] hover:bg-[#E4F1FF]/50 transition-all cursor-pointer group text-left"
+                  className="w-full flex items-center gap-3.5 p-3.5 rounded-2xl border border-[#D9E8F8] hover:border-[#3982C8] hover:bg-[#E4F1FF]/50 transition-all cursor-pointer group text-left"
                 >
                   <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
                     <Copy className="w-5 h-5" />
                   </div>
                   <div className="flex flex-col text-left min-w-0 flex-1">
-                    <span className="text-xs sm:text-sm font-bold text-[#172B4D] group-hover:text-[#2878D0]">
+                    <span className="text-xs sm:text-sm font-bold text-[#172B4D] group-hover:text-[#3982C8]">
                       {t.optCopyTitle}
                     </span>
                     <span className="text-[11px] text-[#647DA5] font-mono line-clamp-1">
@@ -514,10 +514,10 @@ export const ContactPage: React.FC<ContactPageProps> = ({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16">
           {/* Left Column: 3 Friendly Pillars */}
           <div className="lg:col-span-5 flex flex-col justify-between gap-4">
-            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#2878D0' }}>
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#3982C8' }}>
               <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="blue" variant={0} /></div>
               <div className="relative">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#2878D0' }}>
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#3982C8' }}>
                   <Clock className="h-5 w-5" />
                 </div>
                 <h3 className="mb-1 text-base font-extrabold">{t.card1Title}</h3>
@@ -525,10 +525,10 @@ export const ContactPage: React.FC<ContactPageProps> = ({
               </div>
             </div>
 
-            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#F51B83' }}>
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#E73578' }}>
               <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="pink" variant={1} /></div>
               <div className="relative">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#F51B83' }}>
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#E73578' }}>
                   <Building className="h-5 w-5" />
                 </div>
                 <h3 className="mb-1 text-base font-extrabold">{t.card2Title}</h3>
@@ -536,10 +536,10 @@ export const ContactPage: React.FC<ContactPageProps> = ({
               </div>
             </div>
 
-            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#2878D0' }}>
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#3982C8' }}>
               <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="blue" variant={2} /></div>
               <div className="relative">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#2878D0' }}>
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#3982C8' }}>
                   <Heart className="h-5 w-5" />
                 </div>
                 <h3 className="mb-1 text-base font-extrabold">{t.card3Title}</h3>
@@ -575,7 +575,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                       message: '',
                     });
                   }}
-                  className="px-5 py-2.5 rounded-xl bg-[#2878D0] hover:bg-[#17366F] text-white text-xs font-bold transition-all cursor-pointer shadow-xs"
+                  className="px-5 py-2.5 rounded-xl bg-[#3982C8] hover:bg-[#17366F] text-white text-xs font-bold transition-all cursor-pointer shadow-xs"
                 >
                   {t.sendAnother}
                 </button>
@@ -609,7 +609,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                         setFormData({ ...formData, name: e.target.value })
                       }
                       placeholder={t.namePlaceholder}
-                      className="w-full bg-white border border-[#D9E8F8] rounded-xl px-3.5 py-2.5 text-xs text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#2878D0]/30 focus:border-[#2878D0] transition-all"
+                      className="w-full bg-white border border-[#D9E8F8] rounded-xl px-3.5 py-2.5 text-xs text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#3982C8]/30 focus:border-[#3982C8] transition-all"
                     />
                   </div>
 
@@ -631,7 +631,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                         e.target.setCustomValidity(emailMessage(e.target.value, language));
                       }}
                       placeholder={t.emailPlaceholder}
-                      className="w-full bg-white border border-[#D9E8F8] rounded-xl px-3.5 py-2.5 text-xs text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#2878D0]/30 focus:border-[#2878D0] transition-all"
+                      className="w-full bg-white border border-[#D9E8F8] rounded-xl px-3.5 py-2.5 text-xs text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#3982C8]/30 focus:border-[#3982C8] transition-all"
                     />
                   </div>
                 </div>
@@ -650,7 +650,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                     onChange={(e) =>
                       setFormData({ ...formData, subject: e.target.value })
                     }
-                    className="w-full bg-white border border-[#D9E8F8] rounded-xl px-3.5 py-2.5 text-xs text-[#172B4D] outline-none focus:ring-2 focus:ring-[#2878D0]/30 focus:border-[#2878D0] transition-all cursor-pointer"
+                    className="w-full bg-white border border-[#D9E8F8] rounded-xl px-3.5 py-2.5 text-xs text-[#172B4D] outline-none focus:ring-2 focus:ring-[#3982C8]/30 focus:border-[#3982C8] transition-all cursor-pointer"
                   >
                     <option value="parceria">{t.subjects.parceria}</option>
                     <option value="duvida">{t.subjects.duvida}</option>
@@ -676,14 +676,14 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                       setFormData({ ...formData, message: e.target.value })
                     }
                     placeholder={t.messagePlaceholder}
-                    className="w-full bg-white border border-[#D9E8F8] rounded-xl px-3.5 py-2.5 text-xs text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#2878D0]/30 focus:border-[#2878D0] transition-all resize-none"
+                    className="w-full bg-white border border-[#D9E8F8] rounded-xl px-3.5 py-2.5 text-xs text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#3982C8]/30 focus:border-[#3982C8] transition-all resize-none"
                   />
                 </div>
 
                 {/* Submit Button with CTA */}
                 <button
                   type="submit"
-                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#F51B83] hover:bg-[#D9166F] text-white text-xs sm:text-sm font-bold shadow-md transition-all hover:scale-101 cursor-pointer"
+                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-[#E73578] hover:bg-[#D0306C] text-white text-xs sm:text-sm font-bold shadow-md transition-all hover:scale-101 cursor-pointer"
                 >
                   <Send className="w-4 h-4" />
                   <span>{t.submitCta}</span>

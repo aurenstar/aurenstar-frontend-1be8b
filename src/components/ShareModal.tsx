@@ -213,7 +213,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
 
         {/* Modal Header */}
         <div className="mb-4 pr-8">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#E4F1FF] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-2 border border-[#D9E8F8]">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#E4F1FF] text-[#3982C8] text-xs font-bold uppercase tracking-wider mb-2 border border-[#D9E8F8]">
             <Share2 className="w-3.5 h-3.5" />
             <span>{t.modalTitle}</span>
           </div>
@@ -227,7 +227,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
             VIRAL STORY CARD GENERATOR BUTTON (Divulgação Grátis Aurenstar)
             ========================================================================= */}
         {storyCardData && (
-          <div className="mb-5 p-4 rounded-2xl bg-[#2878D0] text-white shadow-md border border-[#2878D0]/30">
+          <div className="mb-5 p-4 rounded-2xl bg-[#3982C8] text-white shadow-md border border-[#3982C8]/30">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-lg">📸</span>
               <span className="text-xs font-extrabold uppercase tracking-wider text-[#C9E5FF]">
@@ -241,7 +241,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
               type="button"
               disabled={isGeneratingCard}
               onClick={handleDownloadStoryImage}
-              className="w-full py-3 px-4 rounded-xl bg-[#F51B83] hover:bg-[#2878D0] text-white text-xs sm:text-sm font-extrabold shadow-sm transition-all cursor-pointer flex items-center justify-center gap-2 group disabled:opacity-50"
+              className="w-full py-3 px-4 rounded-xl bg-[#E73578] hover:bg-[#3982C8] text-white text-xs sm:text-sm font-extrabold shadow-sm transition-all cursor-pointer flex items-center justify-center gap-2 group disabled:opacity-50"
             >
               <Download className="w-4 h-4 transition-transform group-hover:translate-y-0.5" />
               <span>{isGeneratingCard ? t.downloading : t.downloadCard}</span>
@@ -259,7 +259,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
             />
             <div className="min-w-0 flex-1">
               {category && (
-                <span className="text-[10px] font-extrabold uppercase tracking-wider text-[#2878D0]">
+                <span className="text-[10px] font-extrabold uppercase tracking-wider text-[#3982C8]">
                   {category}
                 </span>
               )}
@@ -306,7 +306,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
             </>
           ) : (
             <>
-              <Copy className="w-4 h-4 text-[#2878D0]" />
+              <Copy className="w-4 h-4 text-[#3982C8]" />
               <span>{t.copyLink}</span>
             </>
           )}
@@ -317,7 +317,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
           <button
             type="button"
             onClick={handleNativeShare}
-            className="w-full mt-2.5 text-center text-xs font-bold text-[#2878D0] hover:text-[#17366F] py-1 cursor-pointer transition-colors"
+            className="w-full mt-2.5 text-center text-xs font-bold text-[#3982C8] hover:text-[#17366F] py-1 cursor-pointer transition-colors"
           >
             {t.nativeShare} →
           </button>

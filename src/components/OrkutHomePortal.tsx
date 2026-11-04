@@ -267,7 +267,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
               <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                 <div className="max-w-xl space-y-3.5 text-center md:text-left">
                   {/* Category Pill Tag (Rosa Suave com Texto Rosa Vibrante) */}
-                  <span className="inline-block bg-[#FFE0EF] text-[#F51B83] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                  <span className="inline-block bg-[#FBE1EB] text-[#E73578] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                     {texts.heroTag}
                   </span>
 
@@ -288,7 +288,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                         const target = document.getElementById('orkut-signos');
                         target?.scrollIntoView({ behavior: 'smooth' });
                       }}
-                      className="h-11 px-6 rounded-full bg-[#F51B83] hover:bg-[#D91470] text-white text-xs sm:text-sm font-semibold transition-colors duration-150 cursor-pointer shadow-xs inline-flex items-center gap-2 active:scale-95"
+                      className="h-11 px-6 rounded-full bg-[#E73578] hover:bg-[#D0306C] text-white text-xs sm:text-sm font-semibold transition-colors duration-150 cursor-pointer shadow-xs inline-flex items-center gap-2 active:scale-95"
                     >
                       <span>{texts.exploreSignBtn}</span>
                       <ArrowRight className="w-4 h-4" />
@@ -298,7 +298,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                     <button
                       type="button"
                       onClick={onNavigateToDailyMessage}
-                      className="h-10 sm:h-11 px-5 rounded-xl bg-[#2878D0] hover:bg-[#1D65B5] text-white text-xs sm:text-sm font-semibold transition-colors duration-150 cursor-pointer shadow-xs inline-flex items-center gap-1.5 active:scale-95"
+                      className="h-10 sm:h-11 px-5 rounded-xl bg-[#3982C8] hover:bg-[#3375B4] text-white text-xs sm:text-sm font-semibold transition-colors duration-150 cursor-pointer shadow-xs inline-flex items-center gap-1.5 active:scale-95"
                     >
                       <Sparkles className="w-4 h-4" />
                       <span>{texts.readHoroscopeBtn}</span>
@@ -308,9 +308,9 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                     <button
                       type="button"
                       onClick={onNavigateToAurenEffect}
-                      className="h-10 sm:h-11 px-4.5 rounded-xl bg-white hover:bg-[#E4F1FF] text-[#2878D0] border border-[#D9E8F8] text-xs sm:text-sm font-semibold transition-colors duration-150 cursor-pointer inline-flex items-center gap-1.5 active:scale-95"
+                      className="h-10 sm:h-11 px-4.5 rounded-xl bg-white hover:bg-[#E4F1FF] text-[#3982C8] border border-[#D9E8F8] text-xs sm:text-sm font-semibold transition-colors duration-150 cursor-pointer inline-flex items-center gap-1.5 active:scale-95"
                     >
-                      <Heart className="w-4 h-4 text-[#F51B83]" />
+                      <Heart className="w-4 h-4 text-[#E73578]" />
                       <span>{texts.compatibilityBtn}</span>
                     </button>
                   </div>
@@ -324,7 +324,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                     className="w-full h-44 sm:h-52 object-cover rounded-xl"
                   />
                   <div className="p-2.5 text-center">
-                    <span className="text-[11px] font-bold text-[#2878D0] block">
+                    <span className="text-[11px] font-bold text-[#3982C8] block">
                       Aurenstar Diário
                     </span>
                     <span className="text-[10px] text-[#647DA5]">
@@ -343,7 +343,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 mb-6 pb-3 border-b border-[#D9E8F8]">
                 <div>
                   <h2 className="text-lg sm:text-xl font-bold text-[#172B4D] flex items-center gap-2">
-                    <Star className="w-5 h-5 text-[#2878D0] fill-[#2878D0]" />
+                    <Star className="w-5 h-5 text-[#3982C8] fill-[#3982C8]" />
                     <span>{texts.signsSectionTitle}</span>
                   </h2>
                   <p className="text-xs text-[#647DA5] mt-0.5">
@@ -355,7 +355,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                   <button
                     type="button"
                     onClick={() => onSelectSign(null)}
-                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#F51B83] hover:text-[#D91470] bg-[#FFE0EF] px-3 py-1 rounded-full cursor-pointer transition-colors"
+                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#E73578] hover:text-[#D0306C] bg-[#FBE1EB] px-3 py-1 rounded-full cursor-pointer transition-colors"
                   >
                     <X className="w-3.5 h-3.5" />
                     <span>{texts.clearFilter}</span>
@@ -363,14 +363,14 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                 )}
               </div>
 
-              {/* 12 Signs Circular Grid: Alternating between soft blue #E4F1FF and soft pink #FFE0EF */}
+              {/* 12 Signs Circular Grid: Alternating between soft blue #E4F1FF and soft pink #FBE1EB */}
               <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3 sm:gap-4">
                 {ZODIAC_SIGNS.map((sign, index) => {
                   const isSelected = selectedSign === sign.key;
                   // Alternating color scheme (even: soft blue, odd: soft pink)
                   const isEven = index % 2 === 0;
-                  const defaultBg = isEven ? 'bg-[#E4F1FF]' : 'bg-[#FFE0EF]';
-                  const defaultTextColor = isEven ? 'text-[#2878D0]' : 'text-[#F51B83]';
+                  const defaultBg = isEven ? 'bg-[#E4F1FF]' : 'bg-[#FBE1EB]';
+                  const defaultTextColor = isEven ? 'text-[#3982C8]' : 'text-[#E73578]';
 
                   return (
                     <button
@@ -383,7 +383,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                       <div
                         className={`w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center text-2xl sm:text-3xl transition-transform duration-150 group-hover:scale-105 shadow-2xs ${
                           isSelected
-                            ? 'bg-[#E4F1FF] border-2 border-[#2878D0] ring-2 ring-[#2878D0]/30 text-[#2878D0]'
+                            ? 'bg-[#E4F1FF] border-2 border-[#3982C8] ring-2 ring-[#3982C8]/30 text-[#3982C8]'
                             : `${defaultBg} ${defaultTextColor} border border-[#D9E8F8]`
                         }`}
                       >
@@ -393,7 +393,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                       {/* Sign Name Below */}
                       <span
                         className={`text-xs font-bold mt-2 tracking-tight transition-colors ${
-                          isSelected ? 'text-[#2878D0] underline' : 'text-[#172B4D] group-hover:text-[#2878D0]'
+                          isSelected ? 'text-[#3982C8] underline' : 'text-[#172B4D] group-hover:text-[#3982C8]'
                         }`}
                       >
                         {sign[lang] || sign.pt}
@@ -423,7 +423,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                   <button
                     type="button"
                     onClick={() => onSelectSign(null)}
-                    className="text-xs font-bold text-[#F51B83] hover:underline cursor-pointer"
+                    className="text-xs font-bold text-[#E73578] hover:underline cursor-pointer"
                   >
                     Ver todos os signos
                   </button>
@@ -441,7 +441,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                   <div>
                     <h2 className="text-lg sm:text-xl font-bold text-[#172B4D] flex items-center gap-2">
-                      <BookOpen className="w-5 h-5 text-[#2878D0]" />
+                      <BookOpen className="w-5 h-5 text-[#3982C8]" />
                       <span>{texts.allArticlesTitle}</span>
                     </h2>
                     <p className="text-xs text-[#647DA5] mt-0.5">
@@ -465,8 +465,8 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                         onClick={() => handleCategoryClick(cat.key)}
                         className={`h-8 px-3.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-colors duration-150 cursor-pointer ${
                           isActive
-                            ? 'bg-[#2878D0] text-white shadow-2xs font-bold'
-                            : 'bg-white text-[#17366F] border border-[#D9E8F8] hover:bg-[#E4F1FF] hover:text-[#2878D0]'
+                            ? 'bg-[#3982C8] text-white shadow-2xs font-bold'
+                            : 'bg-white text-[#17366F] border border-[#D9E8F8] hover:bg-[#E4F1FF] hover:text-[#3982C8]'
                         }`}
                       >
                         {cat.label}
@@ -489,7 +489,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                     <article
                       key={article.id}
                       onClick={() => onOpenArticle(article.id)}
-                      className="group bg-white rounded-2xl border border-[#D9E8F8] hover:border-[#2878D0] p-4 sm:p-5 shadow-2xs hover:shadow-xs transition-all duration-200 cursor-pointer flex flex-col justify-between"
+                      className="group bg-white rounded-2xl border border-[#D9E8F8] hover:border-[#3982C8] p-4 sm:p-5 shadow-2xs hover:shadow-xs transition-all duration-200 cursor-pointer flex flex-col justify-between"
                     >
                       <div>
                         {/* Article Image with 8-12px rounded corners */}
@@ -502,14 +502,14 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                           />
                           {/* Category Badge in Soft Pink with Vibrant Pink Text */}
                           <div className="absolute top-2.5 left-2.5">
-                            <span className="bg-[#FFE0EF] text-[#F51B83] text-[11px] font-bold px-2.5 py-0.5 rounded-full shadow-2xs">
+                            <span className="bg-[#FBE1EB] text-[#E73578] text-[11px] font-bold px-2.5 py-0.5 rounded-full shadow-2xs">
                               {categoryName}
                             </span>
                           </div>
                         </div>
 
                         {/* Title with Dark Navy Text */}
-                        <h3 className="text-sm sm:text-base font-bold text-[#172B4D] group-hover:text-[#2878D0] transition-colors leading-snug line-clamp-2 mb-2">
+                        <h3 className="text-sm sm:text-base font-bold text-[#172B4D] group-hover:text-[#3982C8] transition-colors leading-snug line-clamp-2 mb-2">
                           {title}
                         </h3>
 
@@ -528,7 +528,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                         </div>
 
                         {/* Blue Action Link */}
-                        <span className="text-[#2878D0] group-hover:text-[#1D65B5] font-semibold text-xs inline-flex items-center gap-1">
+                        <span className="text-[#3982C8] group-hover:text-[#3375B4] font-semibold text-xs inline-flex items-center gap-1">
                           <span>{texts.readArticle}</span>
                           <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                         </span>
@@ -547,7 +547,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
             {/* SIDEBAR CARD 1: DAILY HOROSCOPE */}
             <div className="bg-white rounded-2xl sm:rounded-3xl border border-[#D9E8F8] p-5 sm:p-6 shadow-xs">
               <div className="flex items-center gap-2 mb-3">
-                <div className="w-8 h-8 rounded-full bg-[#FFE0EF] text-[#F51B83] flex items-center justify-center text-sm font-bold">
+                <div className="w-8 h-8 rounded-full bg-[#FBE1EB] text-[#E73578] flex items-center justify-center text-sm font-bold">
                   ✨
                 </div>
                 <h3 className="text-base font-bold text-[#172B4D]">
@@ -556,7 +556,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
               </div>
 
               <div className="p-3.5 rounded-xl bg-[#E4F1FF] border border-[#D9E8F8] mb-3.5">
-                <span className="text-xs font-bold text-[#2878D0] block mb-1">
+                <span className="text-xs font-bold text-[#3982C8] block mb-1">
                   {texts.sidebarDailyEnergy}
                 </span>
                 <p className="text-xs text-[#17366F] leading-relaxed">
@@ -568,7 +568,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
               <button
                 type="button"
                 onClick={onNavigateToDailyMessage}
-                className="w-full h-11 px-4 rounded-full bg-[#F51B83] hover:bg-[#D91470] text-white text-xs font-semibold transition-colors duration-150 cursor-pointer shadow-xs flex items-center justify-center gap-2 active:scale-95"
+                className="w-full h-11 px-4 rounded-full bg-[#E73578] hover:bg-[#D0306C] text-white text-xs font-semibold transition-colors duration-150 cursor-pointer shadow-xs flex items-center justify-center gap-2 active:scale-95"
               >
                 <span>{texts.sidebarDailyBtn}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -578,7 +578,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
             {/* SIDEBAR CARD 2: POPULAR TOPICS */}
             <div className="bg-white rounded-2xl sm:rounded-3xl border border-[#D9E8F8] p-5 sm:p-6 shadow-xs">
               <div className="flex items-center gap-2 mb-4 pb-2.5 border-b border-[#D9E8F8]">
-                <TrendingUp className="w-4 h-4 text-[#2878D0]" />
+                <TrendingUp className="w-4 h-4 text-[#3982C8]" />
                 <h3 className="text-base font-bold text-[#172B4D]">
                   {texts.sidebarTopicsTitle}
                 </h3>
@@ -605,7 +605,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                     }}
                     className="w-full p-2.5 rounded-xl hover:bg-[#E4F1FF] text-left transition-colors flex items-center justify-between group cursor-pointer"
                   >
-                    <span className="text-xs font-semibold text-[#17366F] group-hover:text-[#2878D0]">
+                    <span className="text-xs font-semibold text-[#17366F] group-hover:text-[#3982C8]">
                       {topic.label}
                     </span>
                     <span className="text-[11px] font-medium text-[#647DA5] bg-white border border-[#D9E8F8] px-2 py-0.5 rounded-full">
@@ -619,7 +619,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
             {/* SIDEBAR CARD 3: TRENDING ARTICLES WITH NOSTALGIC NUMBERS */}
             <div className="bg-white rounded-2xl sm:rounded-3xl border border-[#D9E8F8] p-5 sm:p-6 shadow-xs">
               <div className="flex items-center gap-2 mb-4 pb-2.5 border-b border-[#D9E8F8]">
-                <Flame className="w-4 h-4 text-[#F51B83]" />
+                <Flame className="w-4 h-4 text-[#E73578]" />
                 <h3 className="text-base font-bold text-[#172B4D]">
                   {texts.sidebarTrendingTitle}
                 </h3>
@@ -641,13 +641,13 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                       <span
                         className={`w-6 h-6 rounded-lg shrink-0 flex items-center justify-center text-xs font-black ${
                           isFirst
-                            ? 'bg-[#FFE0EF] text-[#F51B83]'
-                            : 'bg-[#E4F1FF] text-[#2878D0]'
+                            ? 'bg-[#FBE1EB] text-[#E73578]'
+                            : 'bg-[#E4F1FF] text-[#3982C8]'
                         }`}
                       >
                         {idx + 1}
                       </span>
-                      <span className="text-xs font-semibold text-[#172B4D] group-hover:text-[#2878D0] line-clamp-2 leading-snug transition-colors">
+                      <span className="text-xs font-semibold text-[#172B4D] group-hover:text-[#3982C8] line-clamp-2 leading-snug transition-colors">
                         {artTitle}
                       </span>
                     </button>
@@ -673,7 +673,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                 <button
                   type="button"
                   onClick={onNavigateToAurenEffect}
-                  className="w-full h-8 rounded-xl bg-[#2878D0] hover:bg-[#1D65B5] text-white text-[11px] font-semibold transition-colors cursor-pointer flex items-center justify-center gap-1"
+                  className="w-full h-8 rounded-xl bg-[#3982C8] hover:bg-[#3375B4] text-white text-[11px] font-semibold transition-colors cursor-pointer flex items-center justify-center gap-1"
                 >
                   <span>Calcular Triade</span>
                   <ChevronRight className="w-3 h-3" />
@@ -681,7 +681,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
               </div>
 
               {/* Tool 2: Discover Sign */}
-              <div className="p-3 rounded-xl border border-[#D9E8F8] bg-[#FFE0EF]/40 hover:bg-[#FFE0EF] transition-colors">
+              <div className="p-3 rounded-xl border border-[#D9E8F8] bg-[#FBE1EB]/40 hover:bg-[#FBE1EB] transition-colors">
                 <span className="text-xs font-bold text-[#17366F] block mb-0.5">
                   🌟 {texts.discoverSignTitle}
                 </span>
@@ -691,7 +691,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                 <button
                   type="button"
                   onClick={onNavigateToDiscoverSign}
-                  className="w-full h-8 rounded-xl bg-white text-[#F51B83] border border-[#FFE0EF] hover:bg-[#F51B83] hover:text-white text-[11px] font-semibold transition-colors cursor-pointer flex items-center justify-center gap-1"
+                  className="w-full h-8 rounded-xl bg-white text-[#E73578] border border-[#FBE1EB] hover:bg-[#E73578] hover:text-white text-[11px] font-semibold transition-colors cursor-pointer flex items-center justify-center gap-1"
                 >
                   <span>Descobrir Signo</span>
                   <ChevronRight className="w-3 h-3" />
@@ -709,7 +709,7 @@ export const OrkutHomePortal: React.FC<OrkutHomePortalProps> = ({
                 <button
                   type="button"
                   onClick={onNavigateToDictionary}
-                  className="w-full h-8 rounded-xl bg-white text-[#2878D0] border border-[#D9E8F8] hover:bg-[#E4F1FF] text-[11px] font-semibold transition-colors cursor-pointer flex items-center justify-center gap-1"
+                  className="w-full h-8 rounded-xl bg-white text-[#3982C8] border border-[#D9E8F8] hover:bg-[#E4F1FF] text-[11px] font-semibold transition-colors cursor-pointer flex items-center justify-center gap-1"
                 >
                   <span>Dicionário Aurenstar</span>
                   <ChevronRight className="w-3 h-3" />

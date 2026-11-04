@@ -227,7 +227,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
           <button
             type="button"
             onClick={onNavigateToBlog}
-            className="text-xs sm:text-sm font-bold text-[#2878D0] hover:text-[#17366F] transition-colors cursor-pointer"
+            className="text-xs sm:text-sm font-bold text-[#3982C8] hover:text-[#17366F] transition-colors cursor-pointer"
           >
             {t.exploreBlog}
           </button>
@@ -241,7 +241,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
 
           {/* Cabeçalho do Card */}
           <div className="flex items-center gap-3 mb-5 pb-4 border-b border-[#D9E8F8]">
-            <div className="w-10 h-10 rounded-2xl bg-[#2878D0] text-white flex items-center justify-center font-bold shadow-sm">
+            <div className="w-10 h-10 rounded-2xl bg-[#3982C8] text-white flex items-center justify-center font-bold shadow-sm">
               <Calendar className="w-5 h-5" />
             </div>
             <div>
@@ -264,7 +264,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
                 <select
                   value={selectedDay}
                   onChange={(e) => handleDateChange(Number(e.target.value), selectedMonth)}
-                  className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#F51B83] focus:bg-white cursor-pointer pr-9 shadow-2xs"
+                  className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#E73578] focus:bg-white cursor-pointer pr-9 shadow-2xs"
                 >
                   {Array.from({ length: daysInMonth(selectedYear, selectedMonth) }, (_, i) => i + 1).map((d) => (
                     <option key={d} value={d}>
@@ -284,7 +284,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
                 <select
                   value={selectedMonth}
                   onChange={(e) => handleDateChange(selectedDay, Number(e.target.value))}
-                  className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#F51B83] focus:bg-white cursor-pointer pr-9 shadow-2xs"
+                  className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#E73578] focus:bg-white cursor-pointer pr-9 shadow-2xs"
                 >
                   {months.map((m) => (
                     <option key={m.num} value={m.num}>
@@ -304,7 +304,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
                 <select
                   value={selectedYear}
                   onChange={(e) => handleDateChange(selectedDay, selectedMonth, Number(e.target.value))}
-                  className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#F51B83] focus:bg-white cursor-pointer pr-9 shadow-2xs"
+                  className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#E73578] focus:bg-white cursor-pointer pr-9 shadow-2xs"
                 >
                   {Array.from({ length: CURRENT_YEAR - 1899 }, (_, i) => CURRENT_YEAR - i).map((y) => (
                     <option key={y} value={y}>
@@ -326,19 +326,19 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                 <div>
                   <label className="block text-xs font-bold uppercase tracking-wider text-[#17366F] mb-1.5 flex items-center gap-1.5">
-                    <Clock className="w-3.5 h-3.5 text-[#2878D0]" />
+                    <Clock className="w-3.5 h-3.5 text-[#3982C8]" />
                     <span>{t.timeLabel}</span>
                   </label>
                   <input
                     type="time"
                     value={birthTime}
                     onChange={(e) => setBirthTime(e.target.value)}
-                    className="w-full bg-white border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#F51B83] shadow-2xs"
+                    className="w-full bg-white border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#E73578] shadow-2xs"
                   />
                 </div>
                 <div>
                   <label className="block text-xs font-bold uppercase tracking-wider text-[#17366F] mb-1.5 flex items-center gap-1.5">
-                    <MapPin className="w-3.5 h-3.5 text-[#F51B83]" />
+                    <MapPin className="w-3.5 h-3.5 text-[#E73578]" />
                     <span>{t.cityLabel}</span>
                   </label>
                   <CityAutocomplete
@@ -349,15 +349,15 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
                     }}
                     placeholder={t.cityPlaceholder}
                     noResultsText={t.cityNoResults}
-                    className="w-full bg-white border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#F51B83] shadow-2xs"
+                    className="w-full bg-white border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#E73578] shadow-2xs"
                   />
                 </div>
               </div>
-              {needBoth && <p className="mt-3 text-[11px] font-semibold text-[#F51B83]">{t.needBoth}</p>}
+              {needBoth && <p className="mt-3 text-[11px] font-semibold text-[#E73578]">{t.needBoth}</p>}
               <button
                 type="button"
                 onClick={() => handleCalculateAndNavigate(doubt.likelyKey)}
-                className="mt-3 text-xs font-bold text-[#2878D0] hover:text-[#17366F] underline underline-offset-2 cursor-pointer"
+                className="mt-3 text-xs font-bold text-[#3982C8] hover:text-[#17366F] underline underline-offset-2 cursor-pointer"
               >
                 {t.skip}
               </button>
@@ -369,7 +369,7 @@ export const DiscoverSignPage: React.FC<DiscoverSignPageProps> = ({
             type="button"
             onClick={handleDiscover}
             disabled={busy}
-            className="w-full py-3.5 sm:py-4 px-6 rounded-2xl bg-[#F51B83] hover:bg-[#D9166F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2 group active:scale-[0.99] disabled:opacity-60"
+            className="w-full py-3.5 sm:py-4 px-6 rounded-2xl bg-[#E73578] hover:bg-[#D0306C] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2 group active:scale-[0.99] disabled:opacity-60"
           >
             {busy ? <Loader2 className="w-4 h-4 animate-spin" /> : <Sparkles className="w-4 h-4 transition-transform group-hover:rotate-12" />}
             <span>{busy ? t.checking : doubt ? t.btnConfirm : t.btnCalculate}</span>

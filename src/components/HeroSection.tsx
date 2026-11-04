@@ -127,7 +127,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
     >
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-1/4 -left-20 w-96 h-96 bg-[#E4F1FF] rounded-full blur-3xl animate-float" />
-        <div className="absolute top-1/3 -right-20 w-96 h-96 bg-[#FFE0EF]/60 rounded-full blur-3xl animate-float-alt" />
+        <div className="absolute top-1/3 -right-20 w-96 h-96 bg-[#FBE1EB]/60 rounded-full blur-3xl animate-float-alt" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#E4F1FF]/80 rounded-full blur-[140px] pointer-events-none" />
       </div>
 
@@ -139,14 +139,14 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight max-w-4xl mx-auto leading-[1.12] text-[#172B4D] min-h-[96px] sm:min-h-[125px] md:min-h-[150px] flex items-center justify-center"
           >
             <span className="inline-block">
-              <span className="text-[#2878D0]">{currentPrefix}</span>
+              <span className="text-[#3982C8]">{currentPrefix}</span>
               {currentHighlight && (
-                <span className="text-[#F51B83]">
+                <span className="text-[#E73578]">
                   {currentHighlight}
                 </span>
               )}
               <span
-                className="inline-block w-[3px] sm:w-[4px] lg:w-[5px] h-[0.85em] align-middle ml-1 sm:ml-1.5 bg-[#2878D0] rounded-full animate-pulse"
+                className="inline-block w-[3px] sm:w-[4px] lg:w-[5px] h-[0.85em] align-middle ml-1 sm:ml-1.5 bg-[#3982C8] rounded-full animate-pulse"
                 aria-hidden="true"
               />
             </span>

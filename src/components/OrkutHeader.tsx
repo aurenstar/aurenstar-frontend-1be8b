@@ -158,7 +158,7 @@ export const OrkutHeader: React.FC<OrkutHeaderProps> = ({
       <div className="bg-[#E4F1FF] border-b border-[#D9E8F8] px-4 py-1.5 text-xs text-[#17366F] flex items-center justify-between">
         <div className="flex items-center gap-2 max-w-7xl mx-auto w-full justify-between">
           <div className="flex items-center gap-2">
-            <span className="inline-block w-2 h-2 rounded-full bg-[#F51B83] animate-pulse" />
+            <span className="inline-block w-2 h-2 rounded-full bg-[#E73578] animate-pulse" />
             <span className="font-semibold text-[#17366F]">
               Aurenstar • Visual Orkut Moderno
             </span>
@@ -170,9 +170,9 @@ export const OrkutHeader: React.FC<OrkutHeaderProps> = ({
             type="button"
             onClick={returnToClassic}
             title="Clique para voltar ou diga 'retornar'"
-            className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-white hover:bg-[#FFE0EF] text-[#2878D0] hover:text-[#F51B83] border border-[#D9E8F8] font-semibold text-[11px] transition-colors cursor-pointer shadow-2xs group"
+            className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-white hover:bg-[#FBE1EB] text-[#3982C8] hover:text-[#E73578] border border-[#D9E8F8] font-semibold text-[11px] transition-colors cursor-pointer shadow-2xs group"
           >
-            <Undo2 className="w-3 h-3 text-[#2878D0] group-hover:text-[#F51B83] transition-colors" />
+            <Undo2 className="w-3 h-3 text-[#3982C8] group-hover:text-[#E73578] transition-colors" />
             <span>{labels.returnBtn}</span>
             <span className="hidden md:inline font-mono text-[10px] text-[#647DA5] bg-[#E4F1FF] px-1.5 rounded">
               {labels.returnHint}
@@ -209,8 +209,8 @@ export const OrkutHeader: React.FC<OrkutHeaderProps> = ({
                 onClick={item.action}
                 className={`h-9 sm:h-10 px-3 sm:px-3.5 rounded-xl text-xs xl:text-[13px] font-semibold transition-colors duration-150 cursor-pointer flex items-center justify-center shrink-0 ${
                   isActive
-                    ? 'bg-[#2878D0] text-white shadow-2xs font-bold'
-                    : 'text-[#17366F] hover:bg-[#E4F1FF] hover:text-[#2878D0]'
+                    ? 'bg-[#3982C8] text-white shadow-2xs font-bold'
+                    : 'text-[#17366F] hover:bg-[#E4F1FF] hover:text-[#3982C8]'
                 }`}
               >
                 {item.label}
@@ -234,9 +234,9 @@ export const OrkutHeader: React.FC<OrkutHeaderProps> = ({
                 onSearch?.(e.target.value);
               }}
               placeholder={labels.searchPlaceholder}
-              className="w-full h-9 pl-9 pr-7 rounded-xl bg-white border border-[#D9E8F8] text-xs text-[#172B4D] placeholder-[#647DA5] outline-none focus:border-[#2878D0] focus:ring-2 focus:ring-[#2878D0]/20 transition-all shadow-2xs"
+              className="w-full h-9 pl-9 pr-7 rounded-xl bg-white border border-[#D9E8F8] text-xs text-[#172B4D] placeholder-[#647DA5] outline-none focus:border-[#3982C8] focus:ring-2 focus:ring-[#3982C8]/20 transition-all shadow-2xs"
             />
-            <Search className="w-4 h-4 text-[#2878D0] absolute left-2.5 pointer-events-none" />
+            <Search className="w-4 h-4 text-[#3982C8] absolute left-2.5 pointer-events-none" />
             {searchQuery && (
               <button
                 type="button"
@@ -258,7 +258,7 @@ export const OrkutHeader: React.FC<OrkutHeaderProps> = ({
           <button
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden p-2 rounded-xl text-[#2878D0] hover:bg-[#E4F1FF] transition-colors cursor-pointer"
+            className="lg:hidden p-2 rounded-xl text-[#3982C8] hover:bg-[#E4F1FF] transition-colors cursor-pointer"
             aria-label="Abrir menu"
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -279,9 +279,9 @@ export const OrkutHeader: React.FC<OrkutHeaderProps> = ({
                 onSearch?.(e.target.value);
               }}
               placeholder={labels.searchPlaceholder}
-              className="w-full h-10 pl-9 pr-8 rounded-xl bg-white border border-[#D9E8F8] text-xs text-[#172B4D] placeholder-[#647DA5] outline-none focus:border-[#2878D0]"
+              className="w-full h-10 pl-9 pr-8 rounded-xl bg-white border border-[#D9E8F8] text-xs text-[#172B4D] placeholder-[#647DA5] outline-none focus:border-[#3982C8]"
             />
-            <Search className="w-4 h-4 text-[#2878D0] absolute left-3 top-3 pointer-events-none" />
+            <Search className="w-4 h-4 text-[#3982C8] absolute left-3 top-3 pointer-events-none" />
             {searchQuery && (
               <button
                 type="button"
@@ -306,7 +306,7 @@ export const OrkutHeader: React.FC<OrkutHeaderProps> = ({
                   item.action();
                   setMobileMenuOpen(false);
                 }}
-                className="h-10 px-3 rounded-xl text-xs font-semibold text-[#17366F] hover:bg-[#E4F1FF] hover:text-[#2878D0] border border-[#D9E8F8] text-left transition-colors flex items-center justify-start cursor-pointer"
+                className="h-10 px-3 rounded-xl text-xs font-semibold text-[#17366F] hover:bg-[#E4F1FF] hover:text-[#3982C8] border border-[#D9E8F8] text-left transition-colors flex items-center justify-start cursor-pointer"
               >
                 {item.label}
               </button>
@@ -321,7 +321,7 @@ export const OrkutHeader: React.FC<OrkutHeaderProps> = ({
                 returnToClassic();
                 setMobileMenuOpen(false);
               }}
-              className="w-full h-10 px-3 rounded-xl text-xs font-bold text-[#2878D0] bg-[#E4F1FF] hover:bg-[#D9E8F8] transition-colors flex items-center justify-center gap-2 cursor-pointer"
+              className="w-full h-10 px-3 rounded-xl text-xs font-bold text-[#3982C8] bg-[#E4F1FF] hover:bg-[#D9E8F8] transition-colors flex items-center justify-center gap-2 cursor-pointer"
             >
               <Undo2 className="w-4 h-4" />
               <span>{labels.returnBtn}</span>

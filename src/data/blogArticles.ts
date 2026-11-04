@@ -626,7 +626,7 @@ const HAND_WRITTEN_ARTICLES: BlogArticleContent[] = [
       en: 'HOROSCOPE',
       es: 'HORÓSCOPO',
     },
-    categoryColor: 'bg-[#2878D0] text-white',
+    categoryColor: 'bg-[#3982C8] text-white',
     readTime: {
       pt: '3 min de leitura',
       en: '3 min read',
@@ -715,7 +715,7 @@ const HAND_WRITTEN_ARTICLES: BlogArticleContent[] = [
       en: 'GEMINI',
       es: 'GÉMINIS',
     },
-    categoryColor: 'bg-[#F51B83] text-white',
+    categoryColor: 'bg-[#E73578] text-white',
     readTime: {
       pt: '4 min de leitura',
       en: '4 min read',

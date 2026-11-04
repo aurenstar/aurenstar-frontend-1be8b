@@ -55,18 +55,18 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
   const download = () => run('card', () => downloadStoryCard(cardData()));
   const downloadStory = () => run('story', () => downloadVerticalStoryCard(cardData()));
 
-  if (!result) return <section className="min-h-[70vh] bg-[#C9E5FF] px-4 py-32 text-center"><Sparkles className="mx-auto h-8 w-8 text-[#2878D0]" /><h1 className="mt-4 text-2xl font-extrabold text-[#172B4D]">{lang === 'pt' ? 'Crie sua descrição primeiro' : 'Create your description first'}</h1><button type="button" onClick={onBackToForm} className="mt-6 rounded-full bg-[#2878D0] px-5 py-3 text-sm font-bold text-white">{backLabel}</button></section>;
+  if (!result) return <section className="min-h-[70vh] bg-[#C9E5FF] px-4 py-32 text-center"><Sparkles className="mx-auto h-8 w-8 text-[#3982C8]" /><h1 className="mt-4 text-2xl font-extrabold text-[#172B4D]">{lang === 'pt' ? 'Crie sua descrição primeiro' : 'Create your description first'}</h1><button type="button" onClick={onBackToForm} className="mt-6 rounded-full bg-[#3982C8] px-5 py-3 text-sm font-bold text-white">{backLabel}</button></section>;
 
   return <section className="min-h-[78vh] bg-[#C9E5FF] px-4 py-28 sm:px-6 sm:py-32">
     <div className="mx-auto max-w-4xl">
-      <div className="mb-7 flex flex-wrap items-center justify-between gap-3"><button type="button" onClick={onBackToForm} className="inline-flex items-center gap-2 text-sm font-semibold text-[#2878D0] hover:text-[#17366F]"><ArrowLeft className="h-4 w-4 shrink-0" /> {backLabel}</button><button type="button" onClick={onBackToHome} className="text-sm font-semibold text-[#647DA5] hover:text-[#17366F]">Aurenstar Home</button></div>
+      <div className="mb-7 flex flex-wrap items-center justify-between gap-3"><button type="button" onClick={onBackToForm} className="inline-flex items-center gap-2 text-sm font-semibold text-[#3982C8] hover:text-[#17366F]"><ArrowLeft className="h-4 w-4 shrink-0" /> {backLabel}</button><button type="button" onClick={onBackToHome} className="text-sm font-semibold text-[#647DA5] hover:text-[#17366F]">Aurenstar Home</button></div>
       <div className="rounded-[2rem] border border-[#D9E8F8] bg-white p-6 shadow-[0_14px_40px_rgba(23,54,111,0.1)] sm:p-10">
-        <div className="mb-7 flex items-center justify-between"><div className="flex items-center gap-4"><img decoding="async" src={AVATAR} alt="Aurenstar" className="h-16 w-16 rounded-full" /><div><div className="flex items-center gap-1.5 text-xl font-extrabold text-[#172B4D]"><span translate="no" className="notranslate">Aurenstar</span> <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#2878D0] text-white"><Check className="h-3 w-3" strokeWidth={3} /></span></div><p className="text-sm text-[#647DA5]">@aurenstar · aurenstar.com</p></div></div><span className="text-2xl font-bold tracking-widest text-[#647DA5]">•••</span></div>
-                <p className="max-w-3xl text-lg font-extrabold leading-tight text-[#2878D0] sm:text-xl">{cardTitle}</p>
+        <div className="mb-7 flex items-center justify-between"><div className="flex items-center gap-4"><img decoding="async" src={AVATAR} alt="Aurenstar" className="h-16 w-16 rounded-full" /><div><div className="flex items-center gap-1.5 text-xl font-extrabold text-[#172B4D]"><span translate="no" className="notranslate">Aurenstar</span> <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#3982C8] text-white"><Check className="h-3 w-3" strokeWidth={3} /></span></div><p className="text-sm text-[#647DA5]">@aurenstar · aurenstar.com</p></div></div><span className="text-2xl font-bold tracking-widest text-[#647DA5]">•••</span></div>
+                <p className="max-w-3xl text-lg font-extrabold leading-tight text-[#3982C8] sm:text-xl">{cardTitle}</p>
         <p className="mt-5 max-w-3xl whitespace-pre-line text-xl leading-relaxed text-[#17366F] sm:text-2xl">{result.description}</p>
         <p className="mt-10 text-sm text-[#647DA5]">{formatTime(result.createdAt, lang)} · aurenstar.com</p>
       </div>
-      <div className="mt-4 flex flex-wrap justify-center gap-2"><button type="button" onClick={download} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#F51B83] px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-[#D9166F] transition-colors disabled:opacity-60 sm:px-5 sm:text-sm"><Download className="h-4 w-4 shrink-0" />{downloadLabel}</button><button type="button" onClick={downloadStory} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#F51B83] px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-[#D9166F] transition-colors disabled:opacity-60 sm:px-5 sm:text-sm"><Smartphone className="h-4 w-4 shrink-0" />{storyLabel}</button></div>
+      <div className="mt-4 flex flex-wrap justify-center gap-2"><button type="button" onClick={download} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#E73578] px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-[#D0306C] transition-colors disabled:opacity-60 sm:px-5 sm:text-sm"><Download className="h-4 w-4 shrink-0" />{downloadLabel}</button><button type="button" onClick={downloadStory} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#E73578] px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-[#D0306C] transition-colors disabled:opacity-60 sm:px-5 sm:text-sm"><Smartphone className="h-4 w-4 shrink-0" />{storyLabel}</button></div>
       {post && (
         <section className="mx-auto mt-10 max-w-3xl">
           <h3 className="mb-4 text-center text-sm font-extrabold uppercase tracking-wider text-[#17366F] sm:text-base">{recommendLabel}</h3>
@@ -75,17 +75,17 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
             tabIndex={0}
             onClick={() => (onOpenArticle ? onOpenArticle(post.id) : onNavigateToBlog())}
             onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); if (onOpenArticle) onOpenArticle(post.id); else onNavigateToBlog(); } }}
-            className="group flex w-full cursor-pointer items-center justify-between gap-3 rounded-2xl border border-[#D9E8F8] bg-white p-3 shadow-sm transition-all duration-300 hover:border-[#2878D0]/40 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40 sm:gap-6 sm:rounded-3xl sm:p-4"
+            className="group flex w-full cursor-pointer items-center justify-between gap-3 rounded-2xl border border-[#D9E8F8] bg-white p-3 shadow-sm transition-all duration-300 hover:border-[#3982C8]/40 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#3982C8]/40 sm:gap-6 sm:rounded-3xl sm:p-4"
           >
             <div className="relative h-20 w-28 shrink-0 overflow-hidden rounded-xl bg-slate-100 sm:h-28 sm:w-44 sm:rounded-2xl">
               <img src={post.image} alt={post.title[lang as 'pt' | 'en' | 'es'] || post.title.pt} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
             </div>
             <div className="min-w-0 flex-1 pr-1 sm:pr-2">
-              <span className="mb-1 block text-[10px] font-extrabold uppercase tracking-wider text-[#2878D0] sm:text-xs">{post.category[lang as 'pt' | 'en' | 'es'] || post.category.pt}</span>
-              <h4 className="mb-1 line-clamp-2 text-xs font-bold leading-snug text-[#172B4D] transition-colors group-hover:text-[#2878D0] sm:text-base lg:text-lg">{post.title[lang as 'pt' | 'en' | 'es'] || post.title.pt}</h4>
+              <span className="mb-1 block text-[10px] font-extrabold uppercase tracking-wider text-[#3982C8] sm:text-xs">{post.category[lang as 'pt' | 'en' | 'es'] || post.category.pt}</span>
+              <h4 className="mb-1 line-clamp-2 text-xs font-bold leading-snug text-[#172B4D] transition-colors group-hover:text-[#3982C8] sm:text-base lg:text-lg">{post.title[lang as 'pt' | 'en' | 'es'] || post.title.pt}</h4>
               <p className="line-clamp-2 text-[11px] font-normal leading-relaxed text-[#647DA5] sm:text-xs">{post.subtitle[lang as 'pt' | 'en' | 'es'] || post.subtitle.pt}</p>
             </div>
-            <div className="shrink-0 pr-1 text-[#17366F] transition-all duration-300 group-hover:translate-x-1.5 group-hover:text-[#2878D0] sm:pr-2"><ArrowRight className="h-5 w-5 sm:h-6 sm:w-6" /></div>
+            <div className="shrink-0 pr-1 text-[#17366F] transition-all duration-300 group-hover:translate-x-1.5 group-hover:text-[#3982C8] sm:pr-2"><ArrowRight className="h-5 w-5 sm:h-6 sm:w-6" /></div>
           </div>
         </section>
       )}

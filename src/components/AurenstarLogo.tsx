@@ -64,7 +64,7 @@ export const AurenstarLogo: React.FC<AurenstarLogoProps> = ({
       {/* Arched Wordmark with Filter Shadow */}
       <g filter="url(#aurenstarShadow)">
         <text
-          fill={variant === 'pink' ? '#F51B83' : 'url(#aurenstarExactGrad)'}
+          fill={variant === 'pink' ? '#E73578' : 'url(#aurenstarExactGrad)'}
           style={{
             fontFamily: "'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
             fontWeight: 900,

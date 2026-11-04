@@ -52,21 +52,21 @@ export const TransitsPage: React.FC<{ onBackToHome: () => void; onNavigateToBlog
           <button type="button" onClick={onBackToHome} className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#647DA5] hover:text-[#172B4D] transition-colors cursor-pointer group">
             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" /><span>{t.back}</span>
           </button>
-          <button type="button" onClick={onNavigateToBlog} className="text-xs sm:text-sm font-bold text-[#2878D0] hover:text-[#17366F] transition-colors cursor-pointer">{t.blog}</button>
+          <button type="button" onClick={onNavigateToBlog} className="text-xs sm:text-sm font-bold text-[#3982C8] hover:text-[#17366F] transition-colors cursor-pointer">{t.blog}</button>
         </div>
 
         {!result ? (
           <>
             <ToolHero icon={<Orbit className="h-8 w-8" />} tag={t.tag} title={t.title} subtitle={t.subtitle} />
             <div className={card}><PersonFields id="me" value={p} onChange={setP} lang={lang} showName={false} /></div>
-            {error && <p role="alert" className="mb-4 text-sm font-semibold text-[#F51B83]">{error}</p>}
-            <button type="button" onClick={go} disabled={busy} className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-[#F51B83] hover:bg-[#D9166F] disabled:opacity-70 px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-[#F51B83]/25 transition-all cursor-pointer">
+            {error && <p role="alert" className="mb-4 text-sm font-semibold text-[#E73578]">{error}</p>}
+            <button type="button" onClick={go} disabled={busy} className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-[#E73578] hover:bg-[#D0306C] disabled:opacity-70 px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-[#E73578]/25 transition-all cursor-pointer">
               {busy ? <><Loader2 className="h-4 w-4 animate-spin" />{t.wait}</> : t.go}
             </button>
           </>
         ) : (
           <>
-            <div className="rounded-[2rem] bg-[#2878D0] text-white p-6 sm:p-8 mb-6 shadow-[0_14px_40px_rgba(23,54,111,0.18)]">
+            <div className="rounded-[2rem] bg-[#3982C8] text-white p-6 sm:p-8 mb-6 shadow-[0_14px_40px_rgba(23,54,111,0.18)]">
               <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white/80"><Moon className="h-4 w-4" />{t.title}</p>
               <h1 className="mt-2 text-2xl sm:text-3xl font-extrabold leading-tight">{t.moonNow(signName(result.moon.sign, lang))}</h1>
             </div>
@@ -80,12 +80,12 @@ export const TransitsPage: React.FC<{ onBackToHome: () => void; onNavigateToBlog
             </div>
             {result.retrograde.length > 0 && (
               <div className={card}>
-                <h2 className="flex items-center gap-2 text-base font-extrabold mb-3"><RotateCcw className="h-5 w-5 text-[#F51B83]" />{t.backward}</h2>
+                <h2 className="flex items-center gap-2 text-base font-extrabold mb-3"><RotateCcw className="h-5 w-5 text-[#E73578]" />{t.backward}</h2>
                 <ul className="space-y-2">{result.retrograde.filter((r) => r !== 'sun' && r !== 'moon').map((r) => <li key={r} className="text-sm leading-relaxed text-[#647DA5]">{retrogradeLine(r, lang)}</li>)}</ul>
               </div>
             )}
             {!p.time && <p className="mb-6 text-center text-[11px] text-[#647DA5]">{t.approx}</p>}
-            <button type="button" onClick={() => setResult(null)} className="mx-auto flex items-center justify-center rounded-full border-2 border-[#2878D0] px-6 py-2.5 text-sm font-bold text-[#2878D0] hover:bg-[#2878D0] hover:text-white transition-colors cursor-pointer">{t.again}</button>
+            <button type="button" onClick={() => setResult(null)} className="mx-auto flex items-center justify-center rounded-full border-2 border-[#3982C8] px-6 py-2.5 text-sm font-bold text-[#3982C8] hover:bg-[#3982C8] hover:text-white transition-colors cursor-pointer">{t.again}</button>
           </>
         )}
       </div>

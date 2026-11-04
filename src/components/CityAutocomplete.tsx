@@ -153,7 +153,7 @@ export const CityAutocomplete: React.FC<CityAutocompleteProps> = ({
               onMouseEnter={() => setActive(i)}
               className={`flex items-center gap-2 px-4 py-2 text-sm font-semibold text-[#172B4D] cursor-pointer ${i === active ? 'bg-[#E4F1FF]' : ''}`}
             >
-              <MapPin className="w-3.5 h-3.5 text-[#F51B83] shrink-0" />
+              <MapPin className="w-3.5 h-3.5 text-[#E73578] shrink-0" />
               <span className="truncate">{cityLabel(c)}</span>
             </li>
           ))}

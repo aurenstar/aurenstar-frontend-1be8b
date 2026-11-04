@@ -47,7 +47,7 @@ function sectionsFrom(html: string) {
 }
 
 const CATEGORY: Record<string, { key: string; en: string; pt: string; es: string; color: string }> = {
-  guide: { key: 'GUIA DOS SIGNOS', en: 'ZODIAC GUIDE', pt: 'GUIA DOS SIGNOS', es: 'GUÍA ZODIACAL', color: 'bg-[#2878D0] text-white' },
+  guide: { key: 'GUIA DOS SIGNOS', en: 'ZODIAC GUIDE', pt: 'GUIA DOS SIGNOS', es: 'GUÍA ZODIACAL', color: 'bg-[#3982C8] text-white' },
   wellness: { key: 'BEM-ESTAR', en: 'WELLNESS', pt: 'BEM-ESTAR', es: 'BIENESTAR', color: 'bg-[#10B981] text-white' },
   astrology: { key: 'ASTROLOGIA', en: 'ASTROLOGY', pt: 'ASTROLOGIA', es: 'ASTROLOGÍA', color: 'bg-[#56C5DC] text-white' },
 };

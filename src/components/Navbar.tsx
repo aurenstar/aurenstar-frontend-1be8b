@@ -93,8 +93,8 @@ export const Navbar: React.FC<NavbarProps> = ({
                 aria-current={isActive ? 'page' : undefined}
                 className={`btn-font group relative font-sans text-[11px] sm:text-xs leading-none font-semibold tracking-wider transition-all duration-200 cursor-pointer focus:outline-none flex items-center justify-center shrink-0 rounded-full px-3.5 sm:px-4.5 py-1 sm:py-1.5 border ${
                   isActive
-                    ? 'border-[#F51B83] bg-[#F51B83] text-white font-bold shadow-[0_6px_14px_rgba(245,27,131,0.2)]'
-                    : 'border-transparent bg-[#E4F1FF]/80 text-[#2878D0] hover:border-[#F51B83] hover:bg-[#F51B83] hover:text-white'
+                    ? 'border-[#E73578] bg-[#E73578] text-white font-bold shadow-[0_6px_14px_rgba(231, 53, 120,0.2)]'
+                    : 'border-transparent bg-[#E4F1FF]/80 text-[#3982C8] hover:border-[#E73578] hover:bg-[#E73578] hover:text-white'
                 }`}
               >
                 <span>{item.label}</span>
@@ -109,7 +109,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           <button
             type="button"
             onClick={() => setIsMenuOpen((open) => !open)}
-            className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full border border-[#D9E8F8] bg-white/80 text-[#17366F] shadow-2xs focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]"
+            className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full border border-[#D9E8F8] bg-white/80 text-[#17366F] shadow-2xs focus:outline-none focus-visible:ring-2 focus-visible:ring-[#3982C8]"
             aria-label={isMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
             aria-expanded={isMenuOpen}
           >

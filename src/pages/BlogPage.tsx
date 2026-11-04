@@ -326,7 +326,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
               />
               <div className="flex flex-col min-w-0">
                 <span className="text-xs sm:text-sm font-bold text-white leading-tight truncate">
-                  Aurenstar <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span>
+                  Aurenstar <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#3982C8] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span>
                 </span>
                 <span className="text-[11px] text-white/75 font-medium leading-tight mt-0.5">
                   Insights • {currentFeatured.author.dateTime[lang] || currentFeatured.author.dateTime.pt}
@@ -339,11 +339,11 @@ export const BlogPage: React.FC<BlogPageProps> = ({
         {/* =========================================================================
             BLOG SECTION HEADER & TOOLBAR (Matching image.png)
             ========================================================================= */}
-        <div className="relative mb-8 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-9">
+        <div className="relative mb-8 overflow-hidden rounded-[2rem] bg-[#3982C8] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-9">
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
           <div className="relative max-w-2xl">
             <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-4xl">{t.blogHeading}</h2>
-            <span aria-hidden className="mt-3 block h-1 w-12 rounded-full bg-[#F51B83]" />
+            <span aria-hidden className="mt-3 block h-1 w-12 rounded-full bg-[#E73578]" />
             <p className="mt-3 text-sm leading-relaxed text-white/90">{t.blogSubheading}</p>
           </div>
 
@@ -358,7 +358,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                     onClick={onPlainClick(() => onSelectCategory(catKey))}
                     aria-current={isSelected ? 'page' : undefined}
                     className={`inline-block cursor-pointer rounded-full px-3.5 py-1.5 text-xs font-bold transition-all ${
-                      isSelected ? 'bg-[#F51B83] text-white shadow-md' : 'bg-white/15 text-white hover:bg-white hover:text-[#2878D0]'
+                      isSelected ? 'bg-[#E73578] text-white shadow-md' : 'bg-white/15 text-white hover:bg-white hover:text-[#3982C8]'
                     }`}
                   >
                     {t.categories[catKey]}
@@ -373,7 +373,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                 <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value as 'newest' | 'readTime' | 'popular')}
-                  className="cursor-pointer appearance-none rounded-full bg-white py-2 pl-4 pr-9 text-xs font-bold text-[#172B4D] outline-none focus:ring-2 focus:ring-[#F51B83]"
+                  className="cursor-pointer appearance-none rounded-full bg-white py-2 pl-4 pr-9 text-xs font-bold text-[#172B4D] outline-none focus:ring-2 focus:ring-[#E73578]"
                 >
                   <option value="newest">{t.sortOptions.newest}</option>
                   <option value="popular">{t.sortOptions.popular}</option>
@@ -402,7 +402,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
               tabIndex={0}
               role="button"
               aria-label={`${article.title[lang] || article.title.pt} - ${t.readMore}`}
-              className="bg-white rounded-3xl border border-[#D9E8F8] shadow-sm hover:shadow-[0_18px_36px_rgba(23,54,111,0.18)] transition-all duration-300 hover:-translate-y-1.5 overflow-hidden flex flex-col justify-between cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40"
+              className="bg-white rounded-3xl border border-[#D9E8F8] shadow-sm hover:shadow-[0_18px_36px_rgba(23,54,111,0.18)] transition-all duration-300 hover:-translate-y-1.5 overflow-hidden flex flex-col justify-between cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#3982C8]/40"
             >
               {/* Card Image at Top - Compact proportion matching image.png */}
               <div className="p-3.5 pb-0 shrink-0">
@@ -421,14 +421,14 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                 <div>
                   {/* Category Pill Badge INSIDE body matching cards.png */}
                   <span
-                    className="inline-block px-3.5 py-1 rounded-full text-[10px] sm:text-[11px] font-extrabold uppercase tracking-wider text-white mb-3 w-fit" style={{ background: ai % 3 === 1 ? '#F51B83' : '#2878D0' }}
+                    className="inline-block px-3.5 py-1 rounded-full text-[10px] sm:text-[11px] font-extrabold uppercase tracking-wider text-white mb-3 w-fit" style={{ background: ai % 3 === 1 ? '#E73578' : '#3982C8' }}
                   >
                     {article.category[lang] || article.category.pt}
                   </span>
 
                   {/* Article Title */}
                   <div className="mb-2 flex items-start justify-between gap-3">
-                    <h3 className="min-w-0 flex-1 font-extrabold text-base sm:text-[17px] text-[#172B4D] leading-snug group-hover:text-[#2878D0] transition-colors line-clamp-2">
+                    <h3 className="min-w-0 flex-1 font-extrabold text-base sm:text-[17px] text-[#172B4D] leading-snug group-hover:text-[#3982C8] transition-colors line-clamp-2">
                       <a href={`/blog/${getArticleSlugById(article.id)}`} onClick={cardLinkClick}>
                         {article.title[lang] || article.title.pt}
                       </a>
@@ -451,7 +451,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                   />
                   <div className="flex flex-col min-w-0">
                     <span className="text-xs sm:text-sm font-bold text-[#172B4D] leading-tight truncate">
-                      Aurenstar <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span>
+                      Aurenstar <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#3982C8] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span>
                     </span>
                     <span className="text-[11px] text-[#647DA5] font-medium leading-tight mt-0.5">
                       {article.author.dateTime[lang] || article.author.dateTime.pt}
@@ -477,7 +477,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                 setSearchQuery('');
                 onSelectCategory('ALL');
               }}
-              className="px-5 py-2 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-xs font-bold cursor-pointer transition-colors shadow-xs"
+              className="px-5 py-2 rounded-full bg-[#3982C8] hover:bg-[#E73578] text-white text-xs font-bold cursor-pointer transition-colors shadow-xs"
             >
               {t.clearSearch}
             </button>

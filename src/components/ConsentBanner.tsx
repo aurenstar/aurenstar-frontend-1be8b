@@ -44,20 +44,20 @@ export const ConsentBanner: React.FC = () => {
   return (
     <div role="dialog" aria-label={t.title} data-testid="consent-banner" className="fixed bottom-3 left-3 right-3 sm:left-auto sm:right-4 sm:bottom-4 sm:max-w-sm z-[9000] rounded-2xl bg-white border border-[#D9E8F8] shadow-xl p-4">
       <div className="flex items-start gap-3">
-        <div className="shrink-0 flex h-9 w-9 items-center justify-center rounded-xl bg-[#E4F1FF] text-[#2878D0]">
+        <div className="shrink-0 flex h-9 w-9 items-center justify-center rounded-xl bg-[#E4F1FF] text-[#3982C8]">
           <Cookie className="h-5 w-5" />
         </div>
         <div className="min-w-0">
           <p className="text-sm font-bold text-[#172B4D]">{t.title}</p>
           <p className="text-xs leading-relaxed text-[#647DA5] mt-0.5">
             {t.body}{' '}
-            <a href="/privacy" className="font-semibold text-[#2878D0] hover:underline">{t.more}</a>
+            <a href="/privacy" className="font-semibold text-[#3982C8] hover:underline">{t.more}</a>
           </p>
         </div>
       </div>
       <div className="mt-3 flex gap-2">
         <button type="button" onClick={() => setConsent('essential')} className="flex-1 rounded-full border border-[#D9E8F8] bg-white px-3 py-2 text-xs font-bold text-[#17366F] hover:bg-[#E4F1FF] transition-colors cursor-pointer">{t.essential}</button>
-        <button type="button" onClick={() => setConsent('all')} className="flex-1 rounded-full bg-[#F51B83] px-3 py-2 text-xs font-bold text-white hover:bg-[#D9166F] transition-colors cursor-pointer">{t.all}</button>
+        <button type="button" onClick={() => setConsent('all')} className="flex-1 rounded-full bg-[#E73578] px-3 py-2 text-xs font-bold text-white hover:bg-[#D0306C] transition-colors cursor-pointer">{t.all}</button>
       </div>
     </div>
   );

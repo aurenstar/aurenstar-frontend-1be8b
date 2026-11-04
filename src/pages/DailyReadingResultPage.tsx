@@ -280,16 +280,16 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
           <button
             type="button"
             onClick={onBackToHome}
-            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#F51B83] text-xs sm:text-sm font-bold text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] shadow-2xs transition-all cursor-pointer group"
+            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#E73578] text-xs sm:text-sm font-bold text-[#3982C8] hover:text-white border border-[#D9E8F8] hover:border-[#E73578] shadow-2xs transition-all cursor-pointer group"
           >
-            <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1 text-[#2878D0]" />
+            <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1 text-[#3982C8]" />
             <span>{t.backHome}</span>
           </button>
 
           <button
             type="button"
             onClick={onNavigateToBlog}
-            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#F51B83] text-xs sm:text-sm font-bold text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] transition-all cursor-pointer"
+            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#E73578] text-xs sm:text-sm font-bold text-[#3982C8] hover:text-white border border-[#D9E8F8] hover:border-[#E73578] transition-all cursor-pointer"
           >
             <span>{t.exploreBlog}</span>
             <span>→</span>
@@ -298,16 +298,16 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
 
         <h1 className="sr-only">{t.readingTitle}</h1>
         {/* Cover-style header */}
-        <header className="relative mb-6 overflow-hidden rounded-[2rem] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-9" style={{ background: '#2878D0' }}>
+        <header className="relative mb-6 overflow-hidden rounded-[2rem] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-9" style={{ background: '#3982C8' }}>
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
           <div className="relative flex flex-col gap-4 pb-12 sm:flex-row sm:items-center sm:gap-5 sm:pb-0 sm:pr-[34%]">
-            <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-3xl bg-white shadow-lg" style={{ color: '#2878D0' }}>
+            <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-3xl bg-white shadow-lg" style={{ color: '#3982C8' }}>
               <Sunrise className="h-8 w-8" />
             </div>
             <div>
               <div className="mb-2 inline-flex items-center rounded-full bg-white/15 px-3 py-1 text-[11px] font-bold uppercase tracking-wider">{tr('Tema da Mensagem','Message Theme','Tema del Mensaje')}</div>
               <h2 className="text-2xl font-extrabold leading-tight tracking-tight sm:text-3xl">{curiousTitle}</h2>
-              <span aria-hidden className="mt-3 block h-1 w-12 rounded-full" style={{ background: '#F51B83' }} />
+              <span aria-hidden className="mt-3 block h-1 w-12 rounded-full" style={{ background: '#E73578' }} />
             </div>
           </div>
         </header>
@@ -318,7 +318,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               {savedReading.message}
             </p>
           </div>
-          <div className="relative overflow-hidden rounded-2xl p-5 text-white sm:p-6" style={{ background: '#F51B83' }}>
+          <div className="relative overflow-hidden rounded-2xl p-5 text-white sm:p-6" style={{ background: '#E73578' }}>
             <div className="pointer-events-none absolute inset-x-0 bottom-0 h-12 overflow-hidden opacity-50"><CoverArt tone="pink" variant={1} /></div>
             <div className="relative mb-10">
               <h3 className="mb-2 flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-white/90"><Lightbulb className="h-4 w-4" /><span>{tr('Dica para hoje','Tip for today','Consejo para hoy')}</span></h3>
@@ -333,14 +333,14 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
         <div className="rounded-3xl bg-[#FFFFFF] border border-[#D9E8F8] p-5 sm:p-6 shadow-md space-y-4 transition-all mb-6">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-[11px] font-bold uppercase tracking-wider text-[#F51B83]">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-[#E73578]">
                 {tr('PRONTO PARA POSTAR','READY TO POST','LISTO PARA PUBLICAR')}
               </span>
               <h2 className="text-base sm:text-lg font-bold text-[#172B4D] mt-0.5">
                 {tr('Card da Mensagem','Message Card','Tarjeta del Mensaje')}
               </h2>
             </div>
-            <span className="text-[10px] font-bold text-white bg-[#F51B83] px-2.5 py-1 rounded-full">
+            <span className="text-[10px] font-bold text-white bg-[#E73578] px-2.5 py-1 rounded-full">
               Stories & Status
             </span>
           </div>
@@ -356,7 +356,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
                     <span translate="no" className="notranslate font-bold text-base sm:text-[17px] text-[#172B4D]">
                       Aurenstar
                     </span>
-                    <span aria-label={tr('Verificado','Verified','Verificado')} title={tr('Perfil verificado','Verified profile','Perfil verificado')} className="w-4 h-4 rounded-full bg-[#2878D0] text-white flex items-center justify-center shrink-0">
+                    <span aria-label={tr('Verificado','Verified','Verificado')} title={tr('Perfil verificado','Verified profile','Perfil verificado')} className="w-4 h-4 rounded-full bg-[#3982C8] text-white flex items-center justify-center shrink-0">
                       <Check className="h-2.5 w-2.5" strokeWidth={3} />
                     </span>
                   </div>
@@ -371,7 +371,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
             </div>
 
             {/* Título da Mensagem em Azul Orkut Destacado */}
-            <h3 className="text-[#2878D0] font-bold text-base sm:text-[18px] leading-snug mb-2.5">
+            <h3 className="text-[#3982C8] font-bold text-base sm:text-[18px] leading-snug mb-2.5">
               {cardTitle}:
             </h3>
 
@@ -393,7 +393,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               type="button"
               onClick={handleDownloadStory}
               disabled={isGeneratingStory}
-              className="inline-flex items-center justify-center gap-1.5 whitespace-nowrap px-3.5 py-2 rounded-full bg-[#2878D0] hover:bg-[#17366F] text-white font-bold text-xs border border-[#2878D0] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
+              className="inline-flex items-center justify-center gap-1.5 whitespace-nowrap px-3.5 py-2 rounded-full bg-[#3982C8] hover:bg-[#17366F] text-white font-bold text-xs border border-[#3982C8] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
               title={tr('Baixar imagem em PNG','Download PNG image','Descargar imagen PNG')}
             >
               <Download className="w-3 h-3 shrink-0" />
@@ -410,7 +410,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               type="button"
               onClick={handleDownloadVerticalStory}
               disabled={isGeneratingVerticalStory}
-              className="inline-flex items-center justify-center gap-1.5 whitespace-nowrap px-3.5 py-2 rounded-full bg-[#F51B83] hover:bg-[#D91670] text-white font-bold text-xs border border-[#F51B83] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
+              className="inline-flex items-center justify-center gap-1.5 whitespace-nowrap px-3.5 py-2 rounded-full bg-[#E73578] hover:bg-[#D0306C] text-white font-bold text-xs border border-[#E73578] transition-all cursor-pointer disabled:opacity-50 shadow-2xs hover:shadow-xs active:scale-95"
               title={tr('Baixar formato vertical 9:16 para Stories','Download vertical 9:16 for Stories','Descargar formato vertical 9:16 para Stories')}
             >
               <Download className="w-3 h-3 shrink-0" />
@@ -422,7 +422,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1.5 whitespace-nowrap px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="inline-flex items-center justify-center gap-1.5 whitespace-nowrap px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#E73578] text-[#3982C8] hover:text-white hover:border-[#E73578] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
               title={tr('Compartilhar no WhatsApp','Share on WhatsApp','Compartir en WhatsApp')}
             >
               <svg className="w-3 h-3 fill-current shrink-0 text-[#25D366]" viewBox="0 0 24 24">
@@ -436,7 +436,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1.5 whitespace-nowrap px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="inline-flex items-center justify-center gap-1.5 whitespace-nowrap px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#E73578] text-[#3982C8] hover:text-white hover:border-[#E73578] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
               title={tr('Abrir o Instagram','Open Instagram','Abrir Instagram')}
             >
               <svg className="w-3 h-3 fill-current shrink-0 text-[#E1306C]" viewBox="0 0 24 24">
@@ -450,7 +450,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               href={facebookUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1.5 whitespace-nowrap px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="inline-flex items-center justify-center gap-1.5 whitespace-nowrap px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#E73578] text-[#3982C8] hover:text-white hover:border-[#E73578] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
               title={tr('Compartilhar no Facebook','Share on Facebook','Compartir en Facebook')}
             >
               <svg className="w-3 h-3 fill-current shrink-0 text-[#1877F2]" viewBox="0 0 24 24">
@@ -464,7 +464,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
               href={twitterUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1.5 whitespace-nowrap px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
+              className="inline-flex items-center justify-center gap-1.5 whitespace-nowrap px-3.5 py-2 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#E73578] text-[#3982C8] hover:text-white hover:border-[#E73578] font-medium text-[11px] transition-all cursor-pointer shadow-2xs active:scale-95"
               title={tr('Postar no X','Post on X','Publicar en X')}
             >
               <svg className="w-3 h-3 fill-current shrink-0 text-[#0F1419]" viewBox="0 0 24 24">
@@ -481,7 +481,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
             <button
               type="button"
               onClick={onNavigateToBlog}
-              className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full bg-[#F51B83] hover:bg-[#D9166F] text-white font-bold text-xs sm:text-sm tracking-wide transition-all cursor-pointer shadow-xs hover:shadow-sm active:scale-95"
+              className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full bg-[#E73578] hover:bg-[#D0306C] text-white font-bold text-xs sm:text-sm tracking-wide transition-all cursor-pointer shadow-xs hover:shadow-sm active:scale-95"
             >
               <span>{tr('Acessar o Blog','Visit the Blog','Ir al Blog')}</span>
               <ArrowRight className="w-4 h-4 shrink-0" />
@@ -494,7 +494,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
           <button
             type="button"
             onClick={onNavigateToForm}
-            className="text-xs sm:text-sm font-bold text-[#647DA5] hover:text-[#2878D0] transition-colors cursor-pointer"
+            className="text-xs sm:text-sm font-bold text-[#647DA5] hover:text-[#3982C8] transition-colors cursor-pointer"
           >
             {tr('← Deseja alterar seus dados ou calcular novamente? Clique aqui', '← Want to change your details or calculate again? Click here', '← ¿Quieres cambiar tus datos o calcular de nuevo? Haz clic aquí')}
           </button>

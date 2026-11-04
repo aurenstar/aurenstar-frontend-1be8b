@@ -25,7 +25,7 @@ const L = {
   pt: { name: 'Nome (opcional)', day: 'Dia', month: 'Mês', year: 'Ano', time: 'Hora de nascimento (opcional)', city: 'Cidade de nascimento (opcional)', noCity: 'Nenhuma cidade encontrada', hint: 'Informar a hora e a cidade deixa o resultado mais exato.' },
   es: { name: 'Nombre (opcional)', day: 'Día', month: 'Mes', year: 'Año', time: 'Hora de nacimiento (opcional)', city: 'Ciudad de nacimiento (opcional)', noCity: 'Ninguna ciudad encontrada', hint: 'Agregar la hora y la ciudad hace el resultado más exacto.' },
 };
-const field = 'w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#F51B83] focus:bg-white transition-all';
+const field = 'w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-2.5 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#E73578] focus:bg-white transition-all';
 const label = 'block text-xs font-bold uppercase tracking-wider text-[#17366F] mb-1.5';
 const YEAR = new Date().getFullYear();
 

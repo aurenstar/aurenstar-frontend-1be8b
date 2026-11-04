@@ -122,32 +122,32 @@ export const DescribeMePage: React.FC<DescribeMePageProps> = ({ onBackToHome, on
 
   return <section className="min-h-[78vh] bg-[#C9E5FF] px-4 py-28 sm:px-6 sm:py-32">
     <div className="mx-auto max-w-3xl">
-      <button type="button" onClick={onBackToHome} className="mb-8 inline-flex items-center gap-2 text-sm font-semibold text-[#2878D0] hover:text-[#17366F]"><ArrowLeft className="h-4 w-4" /> {copy.back}</button>
+      <button type="button" onClick={onBackToHome} className="mb-8 inline-flex items-center gap-2 text-sm font-semibold text-[#3982C8] hover:text-[#17366F]"><ArrowLeft className="h-4 w-4" /> {copy.back}</button>
       <ToolHero icon={<Sparkles className="h-8 w-8" />} tag={copy.tag} title={copy.title} subtitle={copy.subtitle} tone="pink" />
       <div className="relative overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-6 shadow-[0_12px_35px_rgba(23,54,111,0.08)] sm:p-10">
         
           <form onSubmit={handleGenerate} className="space-y-4">
-            <label className="block text-xs font-bold text-[#172B4D]">{copy.name}<input required value={name} onChange={(e) => setName(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#F51B83]" placeholder="Andriel" /></label>
+            <label className="block text-xs font-bold text-[#172B4D]">{copy.name}<input required value={name} onChange={(e) => setName(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#E73578]" placeholder="Andriel" /></label>
             <div>
-              <label className="block text-xs font-bold text-[#172B4D]"><span className="flex items-center gap-1.5"><MapPin className="h-3.5 w-3.5 text-[#F51B83]" />{copy.city}</span></label>
+              <label className="block text-xs font-bold text-[#172B4D]"><span className="flex items-center gap-1.5"><MapPin className="h-3.5 w-3.5 text-[#E73578]" />{copy.city}</span></label>
               <div className="mt-1.5">
                 <CityAutocomplete
                   value={birthPlace}
                   onChange={(city) => { setBirthPlace(city); if (city) setCityError(false); }}
                   placeholder={copy.cityPlaceholder}
                   noResultsText={copy.cityNoResults}
-                  className="w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#F51B83]"
+                  className="w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#E73578]"
                 />
               </div>
-              {cityError && <p className="mt-1.5 text-[11px] font-semibold text-[#F51B83]">{copy.cityRequired}</p>}
+              {cityError && <p className="mt-1.5 text-[11px] font-semibold text-[#E73578]">{copy.cityRequired}</p>}
             </div>
             <div className="grid gap-3 sm:grid-cols-2">
-              <label className="block text-xs font-bold text-[#172B4D]">{copy.date}<input required type="date" value={birthDate} onChange={(e) => setBirthDate(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#F51B83]" /></label>
-              <label className="block text-xs font-bold text-[#172B4D]">{copy.time}<input type="time" disabled={timeUnknown} value={birthTime} onChange={(e) => setBirthTime(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#F51B83] disabled:opacity-40" /></label>
+              <label className="block text-xs font-bold text-[#172B4D]">{copy.date}<input required type="date" value={birthDate} onChange={(e) => setBirthDate(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#E73578]" /></label>
+              <label className="block text-xs font-bold text-[#172B4D]">{copy.time}<input type="time" disabled={timeUnknown} value={birthTime} onChange={(e) => setBirthTime(e.target.value)} className="mt-1.5 w-full rounded-xl border border-[#D9E8F8] px-3 py-2.5 text-sm outline-none focus:border-[#E73578] disabled:opacity-40" /></label>
             </div>
-            <label className="flex items-center gap-2 text-xs font-medium text-[#647DA5]"><input type="checkbox" checked={timeUnknown} onChange={(e) => setTimeUnknown(e.target.checked)} className="h-4 w-4 accent-[#2878D0]" />{copy.timeUnknown}</label>
-            {limitReached && <p className="text-[11px] font-semibold text-[#F51B83]">{copy.limited}</p>}
-            <button type="submit" disabled={isLoading} className="w-full rounded-full bg-[#F51B83] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#D9166F] disabled:opacity-60">{isLoading ? <RefreshCw className="mr-2 inline h-4 w-4 animate-spin" /> : <Sparkles className="mr-2 inline h-4 w-4" />}{isLoading ? copy.calculating : copy.generate}</button>
+            <label className="flex items-center gap-2 text-xs font-medium text-[#647DA5]"><input type="checkbox" checked={timeUnknown} onChange={(e) => setTimeUnknown(e.target.checked)} className="h-4 w-4 accent-[#3982C8]" />{copy.timeUnknown}</label>
+            {limitReached && <p className="text-[11px] font-semibold text-[#E73578]">{copy.limited}</p>}
+            <button type="submit" disabled={isLoading} className="w-full rounded-full bg-[#E73578] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#D0306C] disabled:opacity-60">{isLoading ? <RefreshCw className="mr-2 inline h-4 w-4 animate-spin" /> : <Sparkles className="mr-2 inline h-4 w-4" />}{isLoading ? copy.calculating : copy.generate}</button>
           </form>
         </div>
       <div className="mt-6"><ToolBenefits lang={lang} /></div>

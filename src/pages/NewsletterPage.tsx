@@ -182,14 +182,14 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
           <button
             type="button"
             onClick={onNavigateToBlog}
-            className="text-xs sm:text-sm font-bold text-[#2878D0] hover:text-[#17366F] transition-colors cursor-pointer"
+            className="text-xs sm:text-sm font-bold text-[#3982C8] hover:text-[#17366F] transition-colors cursor-pointer"
           >
             {t.exploreBlog} →
           </button>
         </div>
 
         {/* Cover-style header */}
-        <div className="relative mb-10 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
+        <div className="relative mb-10 overflow-hidden rounded-[2rem] bg-[#3982C8] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
           <div className="relative max-w-xl pb-12 sm:pb-0 sm:pr-24">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/15 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-white">
@@ -197,7 +197,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
               <span>{t.tag}</span>
             </div>
             <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl">{t.title}</h1>
-            <span aria-hidden className="mt-4 block h-1 w-12 rounded-full bg-[#F51B83]" />
+            <span aria-hidden className="mt-4 block h-1 w-12 rounded-full bg-[#E73578]" />
             <p className="mt-4 text-sm leading-relaxed text-white/90 sm:text-base">{t.subtitle}</p>
           </div>
         </div>
@@ -225,7 +225,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
                 )}
               </p>
 
-              <div className="p-4 rounded-2xl bg-[#E4F1FF]/50 border border-[#D9E8F8] max-w-md mx-auto text-xs text-[#2878D0] font-semibold text-center">
+              <div className="p-4 rounded-2xl bg-[#E4F1FF]/50 border border-[#D9E8F8] max-w-md mx-auto text-xs text-[#3982C8] font-semibold text-center">
                 <span>{t.successSub}</span>
               </div>
 
@@ -233,7 +233,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
                 <button
                   type="button"
                   onClick={onNavigateToBlog}
-                  className="px-6 py-2.5 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-xs font-bold transition-all cursor-pointer shadow-xs"
+                  className="px-6 py-2.5 rounded-full bg-[#3982C8] hover:bg-[#E73578] text-white text-xs font-bold transition-all cursor-pointer shadow-xs"
                 >
                   {t.readSignPostsNow}
                 </button>
@@ -265,7 +265,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
               {/* Step 1: Zodiac Sign Selection */}
               <div>
                 <label className="block text-xs font-bold text-[#172B4D] mb-2">
-                  {t.signLabel} <span className="text-[#F51B83]">*</span>
+                  {t.signLabel} <span className="text-[#E73578]">*</span>
                 </label>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
                   {zodiacSigns.map((s) => {
@@ -277,8 +277,8 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
                         onClick={() => setZodiacSign(s.value)}
                         className={`flex items-center justify-center p-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer border text-center ${
                           isSelected
-                            ? 'bg-[#F51B83] text-white border-[#F51B83] shadow-2xs scale-102'
-                            : 'bg-[#E4F1FF] border-[#D9E8F8] text-[#2878D0] hover:border-[#F51B83] hover:bg-[#F51B83] hover:text-white'
+                            ? 'bg-[#E73578] text-white border-[#E73578] shadow-2xs scale-102'
+                            : 'bg-[#E4F1FF] border-[#D9E8F8] text-[#3982C8] hover:border-[#E73578] hover:bg-[#E73578] hover:text-white'
                         }`}
                       >
                         <span className="truncate">
@@ -301,13 +301,13 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     placeholder={t.namePlaceholder}
-                    className="w-full bg-white border border-[#D9E8F8] rounded-xl px-4 py-3 text-xs sm:text-sm text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#2878D0]/30 focus:border-[#2878D0] transition-all"
+                    className="w-full bg-white border border-[#D9E8F8] rounded-xl px-4 py-3 text-xs sm:text-sm text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#3982C8]/30 focus:border-[#3982C8] transition-all"
                   />
                 </div>
 
                 <div>
                   <label className="block text-xs font-bold text-[#172B4D] mb-1.5">
-                    {t.emailLabel} <span className="text-[#F51B83]">*</span>
+                    {t.emailLabel} <span className="text-[#E73578]">*</span>
                   </label>
                   <input
                     type="email"
@@ -318,7 +318,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
                       e.target.setCustomValidity(emailMessage(e.target.value, language));
                     }}
                     placeholder={t.emailPlaceholder}
-                    className="w-full bg-white border border-[#D9E8F8] rounded-xl px-4 py-3 text-xs sm:text-sm text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#2878D0]/30 focus:border-[#2878D0] transition-all"
+                    className="w-full bg-white border border-[#D9E8F8] rounded-xl px-4 py-3 text-xs sm:text-sm text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#3982C8]/30 focus:border-[#3982C8] transition-all"
                   />
                 </div>
               </div>
@@ -327,7 +327,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
               <div className="pt-2">
                 <button
                   type="submit"
-                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-[#F51B83] hover:bg-[#D9166F] text-white text-sm font-bold shadow-lg shadow-[#F51B83]/25 transition-all hover:scale-101 cursor-pointer"
+                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-[#E73578] hover:bg-[#D0306C] text-white text-sm font-bold shadow-lg shadow-[#E73578]/25 transition-all hover:scale-101 cursor-pointer"
                 >
                   <Send className="w-4 h-4" />
                   <span>{t.submitCta}</span>
@@ -349,30 +349,30 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#2878D0' }}>
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#3982C8' }}>
               <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="blue" variant={0} /></div>
               <div className="relative">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#2878D0' }}>
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#3982C8' }}>
                   <Star className="h-5 w-5" />
                 </div>
                 <h3 className="mb-1 text-base font-extrabold">{t.benefit1Title}</h3>
                 <p className="mb-8 text-xs leading-relaxed text-white/90 sm:text-sm">{t.benefit1Desc}</p>
               </div>
             </div>
-            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#F51B83' }}>
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#E73578' }}>
               <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="pink" variant={1} /></div>
               <div className="relative">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#F51B83' }}>
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#E73578' }}>
                   <Heart className="h-5 w-5" />
                 </div>
                 <h3 className="mb-1 text-base font-extrabold">{t.benefit2Title}</h3>
                 <p className="mb-8 text-xs leading-relaxed text-white/90 sm:text-sm">{t.benefit2Desc}</p>
               </div>
             </div>
-            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#2878D0' }}>
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#3982C8' }}>
               <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="blue" variant={2} /></div>
               <div className="relative">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#2878D0' }}>
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#3982C8' }}>
                   <ShieldCheck className="h-5 w-5" />
                 </div>
                 <h3 className="mb-1 text-base font-extrabold">{t.benefit3Title}</h3>

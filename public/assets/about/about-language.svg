@@ -6,7 +6,7 @@
 <ellipse cx="200" cy="200" rx="110" ry="13" fill="url(#sh)"/>
 <path d="M92 40h118a26 26 0 0 1 26 26v46a26 26 0 0 1-26 26h-62l-40 28 4-28h-20a26 26 0 0 1-26-26V66a26 26 0 0 1 26-26z" fill="url(#b1)"/>
 <path d="M190 84h116a26 26 0 0 1 26 26v46a26 26 0 0 1-26 26h-18l4 28-40-28h-62a26 26 0 0 1-26-26v-46a26 26 0 0 1 26-26z" fill="url(#b2)"/>
-<g><circle cx="226" cy="134" r="9" fill="#F51B83"/><circle cx="258" cy="134" r="9" fill="#2878D0"/><circle cx="290" cy="134" r="9" fill="#F5B800"/></g>
+<g><circle cx="226" cy="134" r="9" fill="#E73578"/><circle cx="258" cy="134" r="9" fill="#3982C8"/><circle cx="290" cy="134" r="9" fill="#F5B800"/></g>
 <ellipse cx="122" cy="60" rx="22" ry="8" fill="#fff" opacity=".5" transform="rotate(-14 122 60)"/>
 <path d="M340 40l5 14 14 5-14 5-5 14-5-14-14-5 14-5z" fill="url(#gold)"/>
 <g fill="#fff"><circle cx="64" cy="150" r="3" opacity=".8"/><path d="M60 92l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" opacity=".8"/></g>

@@ -93,19 +93,19 @@ export const AdBlockGate: React.FC = () => {
       className="fixed inset-0 z-[100000] flex items-center justify-center bg-[#172B4D]/70 backdrop-blur-md px-4"
     >
       <div className="w-full max-w-md rounded-3xl bg-white p-6 sm:p-8 text-center shadow-2xl border border-[#D9E8F8]">
-        <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#E4F1FF] text-[#2878D0]">
+        <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#E4F1FF] text-[#3982C8]">
           <ShieldAlert className="h-7 w-7" />
         </div>
         <h2 className="text-xl font-extrabold text-[#172B4D] mb-2">{t.title}</h2>
         <p className="text-sm leading-relaxed text-[#647DA5] mb-5">{t.body}</p>
-        {retried && <p className="text-xs font-semibold text-[#F51B83] mb-3">{t.still}</p>}
+        {retried && <p className="text-xs font-semibold text-[#E73578] mb-3">{t.still}</p>}
         <button
           type="button"
           onClick={async () => {
             await check();
             setRetried(true);
           }}
-          className="w-full rounded-full bg-[#F51B83] hover:bg-[#D9166F] px-6 py-3 text-sm font-bold text-white transition-colors cursor-pointer"
+          className="w-full rounded-full bg-[#E73578] hover:bg-[#D0306C] px-6 py-3 text-sm font-bold text-white transition-colors cursor-pointer"
         >
           {t.btn}
         </button>

@@ -106,7 +106,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             <h1 className="text-2xl sm:text-3xl font-extrabold text-[#17366F]">{term.termo}</h1>
             <p className="mt-2 text-sm text-[#647DA5]">{term.resumoUmaLinha}</p>
             {loadFailed ? (
-              <button type="button" onClick={onBackToDictionary} className="mt-6 px-4 py-2.5 rounded-full bg-[#F51B83] text-white text-xs font-bold cursor-pointer">{c.back}</button>
+              <button type="button" onClick={onBackToDictionary} className="mt-6 px-4 py-2.5 rounded-full bg-[#E73578] text-white text-xs font-bold cursor-pointer">{c.back}</button>
             ) : (
               <div className="mt-6 space-y-3 animate-pulse" aria-hidden="true">
                 <div className="h-4 rounded bg-[#E4F1FF]" /><div className="h-4 rounded bg-[#E4F1FF] w-11/12" /><div className="h-4 rounded bg-[#E4F1FF] w-9/12" />
@@ -148,7 +148,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           <button
             type="button"
             onClick={onBackToDictionary}
-            className="inline-flex items-center gap-1.5 text-xs font-bold text-[#2878D0] hover:text-[#17366F] transition-colors cursor-pointer"
+            className="inline-flex items-center gap-1.5 text-xs font-bold text-[#3982C8] hover:text-[#17366F] transition-colors cursor-pointer"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             <span>{c.seeAll}</span>
@@ -156,16 +156,16 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
         </div>
 
         {/* Cover-style header */}
-        <header className="relative mb-8 overflow-hidden rounded-[2rem] bg-[#2878D0] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
+        <header className="relative mb-8 overflow-hidden rounded-[2rem] bg-[#3982C8] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-2/5"><CoverArt tone="blue" /></div>
           <div className="relative flex flex-col gap-5 pb-14 sm:flex-row sm:items-center sm:pb-0 sm:pr-[34%]">
-            <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-3xl bg-white text-[#2878D0] shadow-lg"><TermIcon slug={term.slug} className="h-10 w-10" /></div>
+            <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-3xl bg-white text-[#3982C8] shadow-lg"><TermIcon slug={term.slug} className="h-10 w-10" /></div>
             <div className="max-w-2xl">
               <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/15 px-3.5 py-1 text-xs font-bold uppercase tracking-wider">
                 <span>{categoryLabel(term.categoria, lang)}</span>
               </div>
               <h1 className="text-2xl font-black leading-tight tracking-tight sm:text-4xl">{term.perguntaGoogle}</h1>
-              <span aria-hidden className="mt-4 block h-1 w-12 rounded-full bg-[#F51B83]" />
+              <span aria-hidden className="mt-4 block h-1 w-12 rounded-full bg-[#E73578]" />
               <p className="mt-4 text-sm leading-relaxed text-white/90 sm:text-base">{term.resumoUmaLinha}</p>
             </div>
           </div>
@@ -175,7 +175,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
         <article className="relative mb-8 overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-6 shadow-md sm:p-10">
           <div className="mb-6 flex flex-wrap items-center justify-between gap-3 border-b border-[#D9E8F8] pb-5">
             <div className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#2878D0] text-white shadow-sm"><TermIcon slug={term.slug} className="h-6 w-6" /></div>
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#3982C8] text-white shadow-sm"><TermIcon slug={term.slug} className="h-6 w-6" /></div>
               <div>
                 <h2 className="text-xl font-black text-[#172B4D] sm:text-2xl">{term.termo}</h2>
                 <span className="text-xs text-[#647DA5]">{c.simple}</span>
@@ -184,14 +184,14 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
             <button
               type="button"
               onClick={handleShare}
-              className="inline-flex cursor-pointer items-center gap-1.5 rounded-full bg-[#F51B83] px-4 py-2.5 text-xs font-bold text-white shadow-sm transition-all hover:bg-[#D9166F] active:scale-95"
+              className="inline-flex cursor-pointer items-center gap-1.5 rounded-full bg-[#E73578] px-4 py-2.5 text-xs font-bold text-white shadow-sm transition-all hover:bg-[#D0306C] active:scale-95"
             >
               {copied ? (<><Check className="h-3.5 w-3.5" /><span>{c.copied}</span></>) : (<><Share2 className="h-3.5 w-3.5" /><span>{c.share}</span></>)}
             </button>
           </div>
 
           {/* Bloco 1: O que significa? */}
-          <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#2878D0] text-white">
+          <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#3982C8] text-white">
             <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-white/90 mb-2.5 flex items-center gap-2">
               <HelpCircle className="w-4 h-4 text-white" />
               <span>{c.what}</span>
@@ -202,7 +202,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           </section>
 
           {/* Bloco 2: O que isso significa na astrologia? */}
-          <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#F51B83] text-white">
+          <section className="mb-6 p-5 sm:p-6 rounded-2xl bg-[#E73578] text-white">
             <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-white/90 mb-2.5 flex items-center gap-2">
               <Sparkles className="w-4 h-4 text-white" />
               <span>{c.whatAstro}</span>
@@ -238,7 +238,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               <button
                 type="button"
                 onClick={() => onNavigateToTool(term.ferramentaRelacionada!.rota)}
-                className="px-4 py-2.5 rounded-full bg-[#F51B83] hover:bg-[#D9166F] text-white text-xs font-bold shadow-xs transition-colors cursor-pointer flex items-center gap-2 shrink-0 active:scale-95"
+                className="px-4 py-2.5 rounded-full bg-[#E73578] hover:bg-[#D0306C] text-white text-xs font-bold shadow-xs transition-colors cursor-pointer flex items-center gap-2 shrink-0 active:scale-95"
               >
                 <span>{term.ferramentaRelacionada.nome}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -266,7 +266,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
         {relatedTerms.length > 0 && (
           <div className="mb-12">
             <h3 className="text-base font-extrabold text-[#17366F] mb-4 flex items-center gap-2">
-              <Compass className="w-4 h-4 text-[#2878D0]" />
+              <Compass className="w-4 h-4 text-[#3982C8]" />
               <span>{c.more}</span>
             </h3>
 
@@ -279,18 +279,18 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
                     href={`/dicionario/${rel.slug}`}
                     onClick={onPlainClick(() => onSelectTerm(rel.slug))}
                     className="group relative flex cursor-pointer flex-col justify-between overflow-hidden rounded-2xl p-4 text-left text-white shadow-md transition-all hover:-translate-y-1 hover:shadow-xl"
-                    style={{ background: pink ? '#F51B83' : '#2878D0' }}
+                    style={{ background: pink ? '#E73578' : '#3982C8' }}
                   >
                     <div className="pointer-events-none absolute inset-x-0 bottom-0 h-14 overflow-hidden opacity-70"><CoverArt tone={pink ? 'pink' : 'blue'} variant={ri} /></div>
                     <div className="relative">
                       <div className="mb-2 flex items-center gap-2.5">
-                        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white shadow-sm" style={{ color: pink ? '#F51B83' : '#2878D0' }}><TermIcon slug={rel.slug} className="h-5 w-5" /></span>
+                        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white shadow-sm" style={{ color: pink ? '#E73578' : '#3982C8' }}><TermIcon slug={rel.slug} className="h-5 w-5" /></span>
                         <span className="text-sm font-extrabold leading-snug">{rel.termo}</span>
                       </div>
                       <p className="mb-14 line-clamp-2 text-[12px] leading-relaxed text-white/90">{rel.resumoUmaLinha}</p>
                     </div>
                     <div className="relative -mt-10 flex items-center gap-1.5 text-[11px] font-bold">
-                      <span className="rounded-full bg-white px-3 py-1" style={{ color: pink ? '#F51B83' : '#2878D0' }}>{c.open}</span>
+                      <span className="rounded-full bg-white px-3 py-1" style={{ color: pink ? '#E73578' : '#3982C8' }}>{c.open}</span>
                       <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1" />
                     </div>
                   </a>
@@ -305,7 +305,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
           <button
             type="button"
             onClick={onBackToDictionary}
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#2878D0] hover:bg-[#F51B83] text-white border border-transparent text-xs sm:text-sm font-bold shadow-2xs transition-all cursor-pointer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#3982C8] hover:bg-[#E73578] text-white border border-transparent text-xs sm:text-sm font-bold shadow-2xs transition-all cursor-pointer"
           >
             <BookOpen className="w-4 h-4" />
             <span>{c.back}</span>
