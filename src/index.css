@@ -81,15 +81,18 @@ a.btn-font {
     font-size: 15px;
   }
 
-  /* Prevent fixed-width children from creating a page-level scrollbar. */
-  main,
-  section,
-  article,
-  header,
-  footer,
-  nav,
-  div {
-    min-width: 0;
+  /* Prevent fixed-width children from creating a page-level scrollbar.
+     Kept in the base layer so explicit min-w-* classes (e.g. the blog carousel slides) still win. */
+  @layer base {
+    main,
+    section,
+    article,
+    header,
+    footer,
+    nav,
+    div {
+      min-width: 0;
+    }
   }
 }
 
