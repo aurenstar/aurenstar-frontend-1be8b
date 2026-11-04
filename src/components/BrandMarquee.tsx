@@ -70,8 +70,9 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
               <React.Fragment key={`a-${idx}`}>
               <button
                 type="button"
+                style={{ fontSize: 'clamp(1.25rem, 1rem + 0.9vw, 1.6rem)', fontWeight: 800, letterSpacing: '-0.025em' }}
                 onClick={() => handleSignClick(sign.key)}
-                className={`shrink-0 cursor-pointer border-0 bg-transparent p-0 text-base font-extrabold uppercase tracking-[0.14em] text-white outline-none underline-offset-[6px] decoration-2 decoration-[#E73578] transition-all duration-200 hover:underline sm:text-lg ${
+                className={`shrink-0 cursor-pointer border-0 bg-transparent p-0 text-white outline-none underline-offset-[6px] decoration-2 decoration-[#E73578] transition-all duration-200 hover:underline ${
                   isSelected ? 'underline' : ''
                 }`}
               >
@@ -94,9 +95,10 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
               <React.Fragment key={`b-${idx}`}>
               <button
                 type="button"
+                style={{ fontSize: 'clamp(1.25rem, 1rem + 0.9vw, 1.6rem)', fontWeight: 800, letterSpacing: '-0.025em' }}
                 onClick={() => handleSignClick(sign.key)}
                 tabIndex={-1}
-                className={`shrink-0 cursor-pointer border-0 bg-transparent p-0 text-base font-extrabold uppercase tracking-[0.14em] text-white outline-none underline-offset-[6px] decoration-2 decoration-[#E73578] transition-all duration-200 hover:underline sm:text-lg ${
+                className={`shrink-0 cursor-pointer border-0 bg-transparent p-0 text-white outline-none underline-offset-[6px] decoration-2 decoration-[#E73578] transition-all duration-200 hover:underline ${
                   isSelected ? 'underline' : ''
                 }`}
               >
