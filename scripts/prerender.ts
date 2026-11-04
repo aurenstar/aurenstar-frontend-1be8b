@@ -190,6 +190,14 @@ for (const term of ASTROLOGY_DICTIONARY_TERMS) {
   fs.writeFileSync(path.join(dist, 'dictionary-data', `${term.slug}.json`), JSON.stringify(term));
 }
 
+// Article translations (pt/es) made by the robot: the article page loads the one it needs from /article-data/.
+{
+  const from = path.join(root, 'data/article-translations');
+  const to = path.join(dist, 'article-data');
+  fs.mkdirSync(to, { recursive: true });
+  if (fs.existsSync(from)) for (const f of fs.readdirSync(from).filter((n) => n.endsWith('.json'))) fs.writeFileSync(path.join(to, f), JSON.stringify(JSON.parse(fs.readFileSync(path.join(from, f), 'utf8')).article));
+}
+
 // 4. About sections
 {
   emit(getSeoData('about-detail', {}));

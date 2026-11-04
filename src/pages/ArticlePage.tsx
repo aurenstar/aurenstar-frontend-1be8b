@@ -110,10 +110,26 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
     };
   }, [baseArticle.id, languageChosen]);
 
+  // Portuguese / Spanish text of WordPress articles (written by the translation robot; loaded only for the article being read).
+  const [translation, setTranslation] = useState<{ id: string; lang: string; data: LocalizedArticle } | null>(null);
+  useEffect(() => {
+    if (!baseArticle.id.startsWith('wp-') || (lang !== 'pt' && lang !== 'es')) return;
+    let cancelled = false;
+    fetch(`/article-data/${encodeURIComponent(baseArticle.id)}.${lang}.json`)
+      .then((r) => (r.ok ? (r.json() as Promise<LocalizedArticle>) : null))
+      .then((d) => { if (!cancelled && d) setTranslation({ id: baseArticle.id, lang, data: d }); })
+      .catch(() => {});
+    return () => { cancelled = true; };
+  }, [baseArticle.id, lang]);
+  const translatedBase = useMemo(
+    () => (translation && translation.id === baseArticle.id && translation.lang === lang ? applyLocalized(baseArticle, lang, translation.data) : baseArticle),
+    [baseArticle, translation, lang],
+  );
+
   const activeLocalized = !languageChosen && localized && localized.id === baseArticle.id ? localized : null;
   const article = useMemo(
-    () => (activeLocalized ? applyLocalized(baseArticle, lang, activeLocalized.data) : baseArticle),
-    [baseArticle, activeLocalized, lang],
+    () => (activeLocalized ? applyLocalized(translatedBase, lang, activeLocalized.data) : translatedBase),
+    [translatedBase, activeLocalized, lang],
   );
   // The voice reads the same text that is on screen: the country version (or the original when the visitor uses a site language).
   const speechSupported = !visitorLanguage || !!activeLocalized;

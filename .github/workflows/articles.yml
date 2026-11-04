@@ -1,0 +1,36 @@
+name: Article translations
+on:
+  schedule:
+    - cron: '47 7 * * *'   # every day, after the WordPress sync has brought new posts
+  workflow_dispatch:
+  push:
+    branches: [seo-tecnico]
+    paths: ['data/articles-run.trigger']   # touch this file to run it now
+permissions:
+  contents: write
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: seo-tecnico
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --legacy-peer-deps
+      - name: Translate articles (skips quietly if the key is not set)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npm run articles:translate -- --max ${{ github.event_name == 'push' && '30' || '8' }}
+      - name: Check before saving
+        run: npx tsc --noEmit
+      - name: Save
+        run: |
+          if [ -n "$(git status --porcelain data/article-translations)" ]; then
+            git config user.name "aurenstar-bot"
+            git config user.email "bot@aurenstar.com"
+            git add data/article-translations
+            git commit -m "Articles: new translations"
+            git push
+          fi
