@@ -180,7 +180,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
         {/* =========================================================================
             FEATURED HERO BANNER (Exact layout matching user's uploaded image.png)
             ========================================================================= */}
-        <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[430px] sm:h-[480px] lg:h-[540px] flex flex-col justify-between p-4 sm:p-10 mb-10 group">
+        <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[500px] sm:h-[480px] lg:h-[540px] flex flex-col justify-between p-4 sm:p-10 mb-10 group">
           {/* Stacked Background Images with Smooth Cross-Fade (Zero Flicker) */}
           {featuredArticles.map((item, idx) => (
             <img decoding="async"
@@ -229,7 +229,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
                 className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/40 hover:bg-black/60 border border-white/25 text-white text-xs font-semibold backdrop-blur-md transition-all cursor-pointer shadow-xs group/btn"
               >
                 <ArrowLeft className="w-3.5 h-3.5 transition-transform group-hover/btn:-translate-x-1" />
-                <span>{t.backHome}</span>
+                <span className="hidden sm:inline">{t.backHome}</span>
               </button>
 
               <div className="hidden sm:block">
@@ -260,7 +260,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
           </div>
 
           {/* Bottom Area inside the Hero: Featured Story Title, Description, Dots & Author */}
-          <div className="relative z-10 flex flex-row items-end justify-between gap-3 sm:gap-6 pt-6 sm:pt-10">
+          <div className="relative z-10 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end sm:gap-6 pt-6 sm:pt-10">
             {/* Story Details & Dots */}
             <div className="min-w-0 max-w-2xl">
               {/* Category Pill */}
@@ -318,14 +318,14 @@ export const BlogPage: React.FC<BlogPageProps> = ({
             {/* Author Profile on Bottom Right with Aurenstar */}
             <div
               onClick={() => onOpenArticle(currentFeatured.id)}
-              className="flex items-center gap-3.5 self-end bg-black/35 backdrop-blur-md border border-white/20 p-1.5 sm:p-3 rounded-2xl cursor-pointer hover:bg-black/50 transition-all shrink-0"
+              className="flex items-center gap-3.5 self-start sm:self-end bg-black/35 backdrop-blur-md border border-white/20 p-2 sm:p-3 rounded-2xl cursor-pointer hover:bg-black/50 transition-all shrink-0"
             >
               <img decoding="async"
                 src={AURENSTAR_AVATAR}
                 alt="Aurenstar"
                 className="w-11 h-11 rounded-full object-cover ring-2 ring-white/30 shrink-0 shadow-xs"
               />
-              <div className="hidden sm:flex flex-col min-w-0">
+              <div className="flex flex-col min-w-0">
                 <span className="text-xs sm:text-sm font-bold text-white leading-tight truncate">
                   Aurenstar <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#3982C8] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span>
                 </span>

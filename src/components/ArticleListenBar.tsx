@@ -203,11 +203,11 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, speechLang, 
   const cycleRate = () => changeRate(SPEEDS[(SPEEDS.indexOf(rate) + 1) % SPEEDS.length]);
 
   return (
-    <div className="my-5 flex w-full flex-nowrap items-center gap-1.5 rounded-full bg-[#3982C8] p-1.5 pr-2 text-white shadow-sm sm:inline-flex sm:w-auto sm:max-w-full">
+    <div className="my-4 inline-flex max-w-full flex-nowrap items-center gap-1 rounded-full bg-[#3982C8] p-1 pr-1.5 text-white shadow-sm sm:my-5 sm:gap-1.5 sm:p-1.5 sm:pr-2.5">
       <button
         type="button"
         onClick={toggle}
-        className="inline-flex shrink-0 cursor-pointer items-center gap-1.5 whitespace-nowrap rounded-full bg-[#E73578] px-3.5 py-2 text-xs font-bold text-white transition-all hover:bg-[#D0306C] active:scale-95"
+        className="inline-flex shrink-0 cursor-pointer items-center gap-1.5 whitespace-nowrap rounded-full bg-[#E73578] px-3 py-1.5 text-[11px] sm:px-4 sm:py-2 sm:text-xs font-bold text-white transition-all hover:bg-[#D0306C] active:scale-95"
       >
         {playing ? <Pause className="h-3.5 w-3.5" /> : <Headphones className="h-3.5 w-3.5" />}
         <span>{status === 'idle' ? c.title : playing ? c.pause : c.resume}</span>
@@ -227,7 +227,7 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, speechLang, 
         </button>
       )}
 
-      <button type="button" onClick={cycleRate} aria-label={c.speed} title={c.speed} className="h-8 min-w-[2.6rem] shrink-0 cursor-pointer rounded-full bg-white/15 px-2.5 text-[11px] font-bold transition-colors hover:bg-white hover:text-[#3982C8]">
+      <button type="button" onClick={cycleRate} aria-label={c.speed} title={c.speed} className="h-7 min-w-[2.2rem] shrink-0 sm:h-8 sm:min-w-[2.6rem] cursor-pointer rounded-full bg-white/15 px-2.5 text-[11px] font-bold transition-colors hover:bg-white hover:text-[#3982C8]">
         {rate}x
       </button>
 
@@ -237,7 +237,7 @@ export const ArticleListenBar: React.FC<Props> = ({ segments, lang, speechLang, 
           onChange={(e) => changeVoice(e.target.value)}
           aria-label={c.voice}
           title={c.voice}
-          className="h-8 min-w-0 flex-1 cursor-pointer truncate sm:max-w-[160px] sm:flex-none rounded-full bg-white/15 px-2.5 text-[11px] font-bold text-white outline-none hover:bg-white/25 [&>option]:text-[#172B4D]"
+          className="h-7 min-w-0 max-w-[110px] cursor-pointer truncate sm:h-8 sm:max-w-[160px] rounded-full bg-white/15 px-2.5 text-[11px] font-bold text-white outline-none hover:bg-white/25 [&>option]:text-[#172B4D]"
         >
           {voices.map((v) => <option key={v.name} value={v.name}>{v.name.replace(/^(Microsoft|Google)\s+/i, '')}</option>)}
         </select>
