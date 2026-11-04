@@ -51,12 +51,12 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
 
   const setA = ZODIAC_SIGNS;
   const setB = ZODIAC_SIGNS;
-  const signColors = ['text-[#3982C8]', 'text-[#3982C8]', 'text-[#3982C8]', 'text-[#3982C8]'];
+  const signColors = ['text-[#E73578]'];
 
   return (
     <div
       id="painel-palavras"
-      className="w-full bg-[#E4F1FF] border-y border-[#D9E8F8] py-5 sm:py-6 overflow-hidden select-none"
+      className="w-full bg-[#C9E5FF] border-y border-[#A9CDF0] py-5 sm:py-6 overflow-hidden select-none"
     >
       {/* Infinite Edge-to-Edge Marquee Track with ONLY WORDS */}
       <div
@@ -71,10 +71,11 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
               <button
                 key={`a-${idx}`}
                 type="button"
+                style={{ fontWeight: 800, letterSpacing: '-0.025em' }}
                 onClick={() => handleSignClick(sign.key)}
                 className={`text-base sm:text-lg font-bold tracking-tight transition-colors duration-200 cursor-pointer shrink-0 bg-transparent border-0 p-0 outline-none ${
                   isSelected
-                    ? 'text-[#3982C8] font-extrabold underline underline-offset-4 decoration-[#E73578]'
+                    ? 'text-[#E73578] underline underline-offset-4 decoration-[#E73578]'
                     : `${signColors[idx % signColors.length]} hover:opacity-70`
                 }`}
               >
@@ -95,11 +96,12 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
               <button
                 key={`b-${idx}`}
                 type="button"
+                style={{ fontWeight: 800, letterSpacing: '-0.025em' }}
                 onClick={() => handleSignClick(sign.key)}
                 tabIndex={-1}
                 className={`text-base sm:text-lg font-bold tracking-tight transition-colors duration-200 cursor-pointer shrink-0 bg-transparent border-0 p-0 outline-none ${
                   isSelected
-                    ? 'text-[#3982C8] font-extrabold underline underline-offset-4 decoration-[#E73578]'
+                    ? 'text-[#E73578] underline underline-offset-4 decoration-[#E73578]'
                     : `${signColors[idx % signColors.length]} hover:opacity-70`
                 }`}
               >
