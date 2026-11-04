@@ -7,6 +7,9 @@ import { ConsentBanner } from './components/ConsentBanner';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { BrandMarquee } from './components/BrandMarquee';
+import { FaqSection } from './components/FaqSection';
+import { TshirtCapture } from './components/TshirtCapture';
+import { isOnTshirtList } from './utils/subscribe';
 import { BlogCardsSection } from './components/BlogCardsSection';
 import { AboutAurenstarSection } from './components/AboutAurenstarSection';
 import { ToolExplainerSection } from './components/ToolExplainerSection';
@@ -62,6 +65,16 @@ export type AppPageRoute =
   | 'about-detail'
   | 'describe-me'
   | 'describe-me-result';
+
+/** Wide band on the home page with the t-shirt list card; gone for people who already joined. */
+function TshirtHomeSection() {
+  if (isOnTshirtList()) return null;
+  return (
+    <section className="w-full bg-[#C9E5FF] px-4 pt-4 pb-2 sm:px-6">
+      <TshirtCapture source="home" />
+    </section>
+  );
+}
 
 export default function App() {
   const [currentPage, setCurrentPageNow] = useState<AppPageRoute>('home');
@@ -303,6 +316,10 @@ export default function App() {
 
             {/* About Aurenstar Section */}
             <AboutAurenstarSection onOpenCard={handleOpenAbout} />
+
+            {/* T-shirt waiting list (hidden for people already on it), then the FAQ as the last section */}
+            <TshirtHomeSection />
+            <FaqSection />
 
             {/* Zodiac panel above the footer */}
             <BrandMarquee

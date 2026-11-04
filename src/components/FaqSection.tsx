@@ -18,64 +18,40 @@ interface FaqItem {
 
 const FAQS: FaqItem[] = [
   {
-    question: {
-      pt: 'Como a tecnologia e inteligência auxiliam na análise dos astros?',
-      en: 'How do smart technology and algorithms assist in celestial analysis?',
-      es: '¿Cómo asisten la tecnología y la inteligencia en el análisis celeste?',
-    },
-    answer: {
-      pt: 'Utilizamos cálculos astronômicos precisos combinados com inteligência para organizar as tendências de cada signo em palavras simples e mensagens acolhedoras, sem termos técnicos complicados.',
-      en: 'We combine precise celestial coordinates with smart algorithms to translate daily cosmic trends into simple, comforting words and actionable guidance.',
-      es: 'Combinamos cálculos astronómicos con inteligencia para traducir las tendencias de cada signo en palabras sencillas y consejos reconfortantes.',
-    },
+    question: { pt: 'É de graça?', en: 'Is it free?', es: '¿Es gratis?' },
+    answer: { pt: 'Sim. Todas as ferramentas e os artigos são gratuitos. O site é mantido com anúncios.', en: 'Yes. All the tools and articles are free. The site is supported by ads.', es: 'Sí. Todas las herramientas y los artículos son gratis. El sitio se mantiene con anuncios.' },
   },
   {
-    question: {
-      pt: 'Como posso aplicar os conselhos e estratégias no meu dia a dia?',
-      en: 'How can I apply these strategies and daily guidance to my routine?',
-      es: '¿Cómo puedo aplicar estos consejos y estrategias en mi día a día?',
-    },
-    answer: {
-      pt: 'Cada mensagem traz uma reflexão matinal prática, uma cor de equilíbrio e um número de foco. Você pode usar esses pequenos lembretes para manter a calma em decisões de trabalho e relacionamentos.',
-      en: 'Every daily reading features a practical morning reflection, a grounding color, and a focus number to help you navigate work decisions and relationships with calm confidence.',
-      es: 'Cada lectura ofrece una reflexión matutina práctica, un color de equilibrio y un número de enfoque para guiar tus decisiones cotidianas con serenidad.',
-    },
+    question: { pt: 'As leituras usam o céu de verdade?', en: 'Do the readings use the real sky?', es: '¿Las lecturas usan el cielo real?' },
+    answer: { pt: 'Sim. Calculamos as posições reais dos astros com a sua data, hora e cidade de nascimento e depois explicamos o resultado em palavras simples.', en: 'Yes. We calculate the real positions of the planets from your birth date, time and city, then explain the result in simple words.', es: 'Sí. Calculamos las posiciones reales de los astros con tu fecha, hora y ciudad de nacimiento y luego explicamos el resultado con palabras sencillas.' },
   },
   {
-    question: {
-      pt: 'Preciso entender de astrologia técnica para usar a Aurenstar?',
-      en: 'Do I need technical astrology knowledge to use Aurenstar?',
-      es: '¿Necesito conocimientos técnicos de astrología para usar Aurenstar?',
-    },
-    answer: {
-      pt: 'Não! Nosso compromisso é transformar toda a sabedoria dos astros em uma experiência agradável, leve e fácil de entender para qualquer pessoa.',
-      en: 'Not at all! Our promise is to deliver all celestial wisdom in clear, uplifting, and straightforward words that anyone can immediately enjoy.',
-      es: '¡Para nada! Nuestro compromiso es transformar la sabiduría celeste en una experiencia agradable, clara y accesible para todos.',
-    },
+    question: { pt: 'Preciso saber a hora exata em que nasci?', en: 'Do I need to know my exact birth time?', es: '¿Necesito saber la hora exacta en que nací?' },
+    answer: { pt: 'Não é obrigatório, mas ajuda. Sem a hora exata, algumas partes do mapa, como o ascendente, ficam menos precisas. Se você tiver a certidão de nascimento, use a hora que está nela.', en: 'It is not required, but it helps. Without the exact time, some parts of the chart, like the rising sign, are less precise. If you have your birth certificate, use the time on it.', es: 'No es obligatorio, pero ayuda. Sin la hora exacta, algunas partes de la carta, como el ascendente, son menos precisas. Si tienes tu certificado de nacimiento, usa la hora que aparece en él.' },
   },
   {
-    question: {
-      pt: 'Com que frequência as leituras e artigos são atualizados?',
-      en: 'How frequently are readings and blog articles updated?',
-      es: '¿Con qué frecuencia se actualizan las lecturas y artículos?',
-    },
-    answer: {
-      pt: 'A mensagem diária e a carta do zodíaco são renovadas a cada 24 horas. Nossos artigos e guias de bem-estar são publicados semanalmente para enriquecer sua jornada.',
-      en: 'Daily messages and zodiac cards refresh every 24 hours. Our wellness guides and celestial articles are published weekly to enrich your journey.',
-      es: 'El mensaje diario y la carta del zodíaco se renuevan cada 24 horas. Nuestros artículos y guías se publican semanalmente.',
-    },
+    question: { pt: 'O que vocês fazem com os meus dados?', en: 'What do you do with my details?', es: '¿Qué hacen con mis datos?' },
+    answer: { pt: 'Usamos o seu nome, a data, a hora e a cidade só para criar o seu resultado. Eles ficam guardados no seu aparelho para você não precisar digitar de novo, e você apaga tudo no link “Esquecer meus dados”, no rodapé. Não vendemos os seus dados. Veja a Política de Privacidade.', en: 'We use your name, date, time and city only to create your result. They are kept on your own device so you do not have to type them again, and you can erase everything with the “Forget my details” link in the footer. We do not sell your data. See the Privacy Policy.', es: 'Usamos tu nombre, fecha, hora y ciudad solo para crear tu resultado. Se guardan en tu propio dispositivo para que no tengas que escribirlos otra vez, y puedes borrarlo todo con el enlace “Olvidar mis datos” del pie de página. No vendemos tus datos. Consulta la Política de Privacidad.' },
   },
   {
-    question: {
-      pt: 'Como funciona o leitor de artigos do blog?',
-      en: 'How does the blog article reader work?',
-      es: '¿Cómo funciona el lector de artículos del blog?',
-    },
-    answer: {
-      pt: 'Basta clicar no card de qualquer artigo para abrir uma tela de leitura limpa e agradável, com barra de progresso, botão para compartilhar e pontos de reflexão.',
-      en: 'Simply click on any story card to open a full reading view equipped with a progress tracker, one-click sharing, and key takeaways.',
-      es: 'Basta con hacer clic en cualquier artículo para abrir una lectura limpia y agradable, con barra de progreso y puntos clave.',
-    },
+    question: { pt: 'Por que a leitura não muda se eu pedir de novo?', en: 'Why does my reading not change if I ask again?', es: '¿Por qué mi lectura no cambia si la pido otra vez?' },
+    answer: { pt: 'Cada leitura vale por um tempo: a Mensagem do dia muda a cada 24 horas e outras ferramentas, a cada poucas horas. Se você pedir de novo antes disso, mostramos a que você já recebeu, para o texto não ficar repetido nem confuso.', en: 'Each reading lasts for a while: the daily message changes every 24 hours and other tools every few hours. If you ask again before that, we show the one you already got, so the text is not repeated or confusing.', es: 'Cada lectura dura un tiempo: el mensaje diario cambia cada 24 horas y otras herramientas, cada pocas horas. Si la pides otra vez antes, te mostramos la que ya recibiste, para que el texto no se repita ni confunda.' },
+  },
+  {
+    question: { pt: 'Vocês vão lançar camisetas?', en: 'Are you launching t-shirts?', es: '¿Van a lanzar camisetas?' },
+    answer: { pt: 'Sim, estão a caminho. As 50 primeiras pessoas da lista ganham um cupom de desconto no lançamento. Basta entrar na lista pela caixinha que aparece nas páginas do site. Só avisamos do lançamento.', en: 'Yes, they are on the way. The first 50 people on the list get a launch discount coupon. Just join the list with the sign-up box that appears on the site\'s pages. We only write about the launch.', es: 'Sí, están en camino. Las primeras 50 personas de la lista reciben un cupón de descuento en el lanzamiento. Solo tienes que entrar en la lista con el cuadro que aparece en las páginas del sitio. Solo avisamos del lanzamiento.' },
+  },
+  {
+    question: { pt: 'Em quais idiomas o site funciona?', en: 'Which languages does the site work in?', es: '¿En qué idiomas funciona el sitio?' },
+    answer: { pt: 'Em português, inglês e espanhol. O site também pode ser traduzido para outros idiomas.', en: 'In Portuguese, English and Spanish. The site can also be translated into other languages.', es: 'En portugués, inglés y español. El sitio también se puede traducir a otros idiomas.' },
+  },
+  {
+    question: { pt: 'Astrologia é previsão do futuro?', en: 'Is astrology a prediction of the future?', es: '¿La astrología es una predicción del futuro?' },
+    answer: { pt: 'Não. Nosso conteúdo é para reflexão e autoconhecimento. Ele não garante resultados e não substitui orientação médica, financeira ou jurídica.', en: 'No. Our content is for reflection and self-knowledge. It does not guarantee results and does not replace medical, financial or legal advice.', es: 'No. Nuestro contenido es para reflexión y autoconocimiento. No garantiza resultados ni sustituye el consejo médico, financiero o legal.' },
+  },
+  {
+    question: { pt: 'Como falo com vocês?', en: 'How do I contact you?', es: '¿Cómo hablo con ustedes?' },
+    answer: { pt: 'Pela página de Contato, no menu do site. Respondemos por e-mail.', en: 'Through the Contact page in the site menu. We reply by email.', es: 'Por la página de Contacto, en el menú del sitio. Respondemos por correo.' },
   },
 ];
 
@@ -86,22 +62,22 @@ export const FaqSection: React.FC = () => {
 
   const titles = {
     pt: {
-      badge: 'DÚVIDAS FREQUENTES',
-      heading: 'Perguntas Comuns sobre o Aurenstar',
+      badge: 'PERGUNTAS FREQUENTES',
+      heading: 'Perguntas Comuns sobre a Aurenstar',
       subheading:
-        'Respostas claras e sem complicações sobre como funcionam nossas orientações e análises diárias.',
+        'Respostas simples para as dúvidas mais comuns.',
     },
     en: {
       badge: 'FREQUENT QUESTIONS',
       heading: 'Common Questions about Aurenstar',
       subheading:
-        'Clear, straightforward answers about how our celestial insights and daily strategies work.',
+        'Simple answers to the most common questions.',
     },
     es: {
       badge: 'PREGUNTAS FRECUENTES',
       heading: 'Preguntas Frecuentes sobre Aurenstar',
       subheading:
-        'Respuestas claras y sin complicaciones sobre el funcionamiento de nuestras guías y lecturas.',
+        'Respuestas sencillas a las dudas más comunes.',
     },
   };
 
@@ -112,7 +88,7 @@ export const FaqSection: React.FC = () => {
   };
 
   return (
-    <section id="faq" className="w-full bg-[#C9E5FF] border-b border-[#D9E8F8] py-14 sm:py-16 select-none">
+    <section id="faq" className="w-full bg-[#C9E5FF] py-14 sm:py-16 select-none">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         {/* Header com fade-in e slide-up */}
         <ScrollReveal delay={0} distance={20} duration={750}>

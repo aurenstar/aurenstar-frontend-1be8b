@@ -1,4 +1,4 @@
-export type SubscribeSource = 'footer' | 'newsletter_page' | 'result' | 'article';
+export type SubscribeSource = 'footer' | 'newsletter_page' | 'result' | 'article' | 'home';
 
 const FLAG = 'aurenstar_tshirt_list';
 
