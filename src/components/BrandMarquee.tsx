@@ -51,7 +51,7 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
 
   const setA = ZODIAC_SIGNS;
   const setB = ZODIAC_SIGNS;
-  const signColors = ['text-[#E73578]'];
+  const signColors = ['text-[#3982C8]'];
 
   return (
     <div
@@ -75,7 +75,7 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
                 onClick={() => handleSignClick(sign.key)}
                 className={`text-base sm:text-lg font-bold tracking-tight transition-colors duration-200 cursor-pointer shrink-0 bg-transparent border-0 p-0 outline-none ${
                   isSelected
-                    ? 'text-[#E73578] underline underline-offset-4 decoration-[#E73578]'
+                    ? 'text-[#3982C8] underline underline-offset-4 decoration-[#E73578]'
                     : `${signColors[idx % signColors.length]} hover:opacity-70`
                 }`}
               >
@@ -101,7 +101,7 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
                 tabIndex={-1}
                 className={`text-base sm:text-lg font-bold tracking-tight transition-colors duration-200 cursor-pointer shrink-0 bg-transparent border-0 p-0 outline-none ${
                   isSelected
-                    ? 'text-[#E73578] underline underline-offset-4 decoration-[#E73578]'
+                    ? 'text-[#3982C8] underline underline-offset-4 decoration-[#E73578]'
                     : `${signColors[idx % signColors.length]} hover:opacity-70`
                 }`}
               >
