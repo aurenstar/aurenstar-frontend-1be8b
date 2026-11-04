@@ -477,6 +477,9 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
         </div>
 
 
+      </div>
+
+      <FeedbackButtons tool="daily_message" sign={savedReading.signKey}>
         {/* Botão de Rodapé para Atualizar ou Voltar ao Formulário */}
         <div className="text-center pt-2">
           <button
@@ -487,9 +490,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
             {tr('← Deseja alterar seus dados ou calcular novamente? Clique aqui', '← Want to change your details or calculate again? Click here', '← ¿Quieres cambiar tus datos o calcular de nuevo? Haz clic aquí')}
           </button>
         </div>
-      </div>
-
-      <FeedbackButtons tool="daily_message" sign={savedReading.signKey} />
+      </FeedbackButtons>
 
       {/* Share Modal with Card Generator */}
       <ShareModal

@@ -69,7 +69,7 @@ export const DescribeMeResultPage: React.FC<DescribeMeResultPageProps> = ({ onBa
         <p className="mt-10 text-sm text-[#647DA5]">{formatTime(result.createdAt, lang)} · aurenstar.com</p>
       </div>
       <div className="mt-4 flex flex-wrap justify-center gap-2"><button type="button" onClick={download} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#E73578] px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-[#D0306C] transition-colors disabled:opacity-60 sm:px-5 sm:text-sm"><Download className="h-4 w-4 shrink-0" />{downloadLabel}</button><button type="button" onClick={downloadStory} disabled={!!busy} className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#E73578] px-4 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-[#D0306C] transition-colors disabled:opacity-60 sm:px-5 sm:text-sm"><Smartphone className="h-4 w-4 shrink-0" />{storyLabel}</button></div>
-      <FeedbackButtons tool="describe_me" sign={result.sign} />
+      <FeedbackButtons tool="describe_me" sign={result.sign} padded={false} />
     </div>
   </section>;
 };

@@ -157,6 +157,8 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
           )}
         </div>
 
+      </div>
+      <FeedbackButtons tool="discover_sign" sign={signKey}>
         <div className="text-center">
           <button
             type="button"
@@ -167,8 +169,7 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
             <span>{tr('Colocar Outra Data','Enter Another Date','Poner Otra Fecha')}</span>
           </button>
         </div>
-      </div>
-      <FeedbackButtons tool="discover_sign" sign={signKey} />
+      </FeedbackButtons>
     </div>
   );
 };

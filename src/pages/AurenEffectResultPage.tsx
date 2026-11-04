@@ -547,6 +547,8 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
         </div>
 
 
+      </div>
+      <FeedbackButtons tool="auren_effect" sign={signKey}>
         {/* Botão de Rodapé para Atualizar ou Voltar ao Formulário */}
         <div className="text-center pt-2 pb-6">
           <button
@@ -567,8 +569,7 @@ export const AurenEffectResultPage: React.FC<AurenEffectResultPageProps> = ({
             </p>
           </div>
         )}
-      </div>
-      <FeedbackButtons tool="auren_effect" sign={signKey} />
+      </FeedbackButtons>
     </div>
   );
 };

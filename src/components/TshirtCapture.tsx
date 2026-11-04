@@ -79,7 +79,7 @@ const TEXT = {
 } as const;
 
 /** Sign-up card for the t-shirt waiting list with the launch coupon for the first people. Hidden for people already on the list. */
-export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string; variant?: 'card' | 'mini' }> = ({ source, sign, variant = 'card' }) => {
+export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string; variant?: 'card' | 'mini'; flush?: boolean }> = ({ source, sign, variant = 'card', flush = false }) => {
   const { language } = useLanguage();
   const lang = (language === 'pt' || language === 'es' ? language : 'en') as 'pt' | 'en' | 'es';
   const t = TEXT[lang];
@@ -125,7 +125,7 @@ export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string; v
       <span>{TSHIRT_CONSENT[lang]}</span>
     </label>
   );
-  const wrap = variant === 'mini' ? 'mx-auto w-[calc(100%-2rem)] max-w-3xl' : 'mx-auto my-8 w-full max-w-3xl';
+  const wrap = variant === 'mini' ? 'mx-auto w-[calc(100%-2rem)] max-w-3xl' : (flush ? 'w-full' : 'mx-auto my-8 w-full max-w-3xl');
 
   if (state === 'done') {
     return (
