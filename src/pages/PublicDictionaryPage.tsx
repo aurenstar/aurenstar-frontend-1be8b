@@ -12,7 +12,6 @@ import { onPlainClick } from '../utils/links';
 import { useLanguage } from '../context/LanguageContext';
 import { categoryLabel, localizeTerm } from '../data/astrologyDictionaryTranslations';
 import { CoverArt } from '../components/CoverArt';
-import { TermIcon } from '../components/TermIcon';
 
 const COPY = {
   en: { back: 'Back to Home', tag: 'Astrology Made Simple', title: 'Aurenstar Dictionary', intro: 'Tap the word you are curious about to open its full page with a simple explanation, the practical meaning and fun everyday examples.', placeholder: 'Type the term you want to understand... (e.g., Mercury retrograde, Rising sign, Full Moon)', clear: 'Clear', categories: 'Categories:', all: 'All', showing: 'Showing', one: 'meaning page', many: 'meaning pages', seeAll: 'See all terms', none: 'No terms found', tryText: 'Try searching for "Mercury", "Rising", "Moon", "Venus" or "Houses".', clearSearch: 'Clear Search', read: 'Read the full explanation' },
@@ -166,8 +165,7 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
-            {filteredTerms.map((term, index) => {
-              const pink = false; // one calm colour for all cards
+            {filteredTerms.map((term) => {
               return (
                 <a
                   key={term.id}
@@ -175,17 +173,11 @@ export const PublicDictionaryPage: React.FC<PublicDictionaryPageProps> = ({
                   onClick={onPlainClick(() => onSelectTerm(term.slug))}
                   className="group flex cursor-pointer flex-col overflow-hidden rounded-3xl border border-[#D9E8F8] bg-white p-3 text-left shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_18px_36px_rgba(23,54,111,0.18)]"
                 >
-                  <span className="relative flex h-28 items-center justify-between overflow-hidden rounded-2xl px-4" style={{ background: pink ? '#E73578' : '#3982C8' }}>
-                    <CoverArt tone={pink ? 'pink' : 'blue'} variant={index} />
-                    <span className="relative flex h-14 w-14 items-center justify-center rounded-2xl bg-white shadow-md transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110" style={{ color: pink ? '#E73578' : '#3982C8' }}><TermIcon slug={term.slug} className="h-7 w-7" /></span>
-                    <span className="relative self-start rounded-full bg-white px-2.5 py-0.5 text-[10px] font-extrabold uppercase tracking-wider" style={{ color: pink ? '#E73578' : '#3982C8' }}>
-                      {categoryLabel(term.categoria, lang)}
-                    </span>
-                  </span>
-                  <span className="flex flex-1 flex-col px-2 pb-2 pt-4">
+                  <span className="flex flex-1 flex-col px-3 pb-2 pt-3">
+                    <span className="mb-1 block text-[11px] font-bold uppercase tracking-wider text-[#647DA5]">{categoryLabel(term.categoria, lang)}</span>
                     <h3 className="mb-2 text-lg font-extrabold leading-snug text-[#172B4D] transition-colors group-hover:text-[#3982C8]">{term.termo}</h3>
                     <span className="mb-4 block text-[13px] font-medium leading-relaxed text-[#647DA5]">{term.chamadaCuriosa || term.resumoUmaLinha}</span>
-                    <span className="mt-auto inline-flex items-center gap-2 self-start rounded-full px-4 py-1.5 text-xs font-bold text-white shadow-sm transition-all duration-300 group-hover:gap-3" style={{ background: pink ? '#E73578' : '#3982C8' }}>
+                    <span className="mt-auto inline-flex items-center gap-2 self-start rounded-full px-4 py-1.5 text-xs font-bold text-white shadow-sm transition-all duration-300 group-hover:gap-3" style={{ background: '#3982C8' }}>
                       {c.read} <ArrowRight className="h-3.5 w-3.5" />
                     </span>
                   </span>
