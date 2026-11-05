@@ -2,12 +2,29 @@
 // New comments are saved as "pending": they appear on the site only after the owner approves them in the database.
 import { countHit, listComments, recordComment, usageKey, type UsageEnv } from '../../server/engine/usage';
 import { humanCheck, humanCheckFailed } from '../../server/engine/turnstile';
+import { translateStrings, type TranslateEnv } from '../../server/engine/translateStrings';
+import { isTranslatedLanguage } from '../../src/utils/urlLang';
 
 const json = (data: unknown, status = 200, cache = 'no-store') =>
   new Response(JSON.stringify(data), { status, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': cache } });
 
-export const onRequestGet = async ({ env }: { env: UsageEnv }): Promise<Response> =>
-  json({ comments: await listComments(env, 20) }, 200, 'public, max-age=60');
+// GET /api/comments?lang=nl  ->  the same comments with the text in the reader's language (translated once, saved for everyone).
+// `original` keeps what the person wrote and `translated` says whether the text changed. If translating fails the originals are shown.
+export const onRequestGet = async ({ request, env }: { request: Request; env: UsageEnv }): Promise<Response> => {
+  const comments = await listComments(env, 20);
+  const asked = (new URL(request.url).searchParams.get('lang') || '').toLowerCase();
+  if (!comments.length || !(['en', 'pt', 'es'].includes(asked) || isTranslatedLanguage(asked))) return json({ comments }, 200, 'public, max-age=60');
+  const r = await translateStrings(env as TranslateEnv, request, asked, comments.map((c) => c.message));
+  if (!r.ok) return json({ comments }, 200, 'public, max-age=60');
+  const norm = (s: string) => s.trim().replace(/\s+/g, ' ');
+  return json({
+    comments: comments.map((c, i) => {
+      const text = r.texts[i] || c.message;
+      const changed = norm(text).toLowerCase() !== norm(c.message).toLowerCase();
+      return changed ? { ...c, message: text, original: c.message, translated: true } : c;
+    }),
+  }, 200, 'public, max-age=60');
+};
 
 export const onRequestPost = async ({ request, env }: { request: Request; env: UsageEnv }): Promise<Response> => {
   if (!(await humanCheck(request, env as any))) return humanCheckFailed();

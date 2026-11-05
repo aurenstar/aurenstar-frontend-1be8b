@@ -3,10 +3,20 @@ import { Check, Heart, MessageCircle, ShieldCheck, Star, UserRound } from 'lucid
 import { useLanguage } from '../context/LanguageContext';
 import { trackEvent } from '../utils/analytics';
 
-interface PublicComment { id: number; name: string; message: string; stars: number | null; sign: string; country?: string | null }
+interface PublicComment { id: number; name: string; message: string; stars: number | null; sign: string; country?: string | null; original?: string; translated?: boolean }
+
+/** Example comments, only shown on the address ?demo=comentarios (never saved, never shown to other visitors). */
+const DEMO: { id: number; name: string; country: string; stars: number; text: Record<'orig' | 'pt' | 'en' | 'es', string> }[] = [
+  { id: -1, name: 'Mariana', country: 'BR', stars: 5, text: { orig: 'Amei a minha leitura de hoje, parecia que falava de mim!', pt: 'Amei a minha leitura de hoje, parecia que falava de mim!', en: 'I loved my reading today, it felt like it was about me!', es: '¡Me encantó mi lectura de hoy, parecía que hablaba de mí!' } },
+  { id: -2, name: 'Emma', country: 'US', stars: 5, text: { orig: 'Simple words and very warm. I check it every morning now.', pt: 'Palavras simples e muito acolhedoras. Agora olho todas as manhãs.', en: 'Simple words and very warm. I check it every morning now.', es: 'Palabras sencillas y muy cálidas. Ahora lo miro cada mañana.' } },
+  { id: -3, name: 'Carlos', country: 'ES', stars: 4, text: { orig: 'Muy buena la herramienta de Aureneffect, me sorprendió.', pt: 'A ferramenta Aureneffect é muito boa, me surpreendeu.', en: 'The Aureneffect tool is really good, it surprised me.', es: 'Muy buena la herramienta de Aureneffect, me sorprendió.' } },
+  { id: -4, name: 'Yuki', country: 'JP', stars: 5, text: { orig: '毎日の星のメッセージがやさしくて、とても気に入っています。', pt: 'As mensagens diárias das estrelas são gentis, eu gosto muito.', en: 'The daily star messages are gentle and I like them a lot.', es: 'Los mensajes diarios de las estrellas son amables y me gustan mucho.' } },
+  { id: -5, name: 'Lena', country: 'DE', stars: 5, text: { orig: 'Endlich Astrologie, die man wirklich versteht. Danke!', pt: 'Finalmente astrologia que dá para entender de verdade. Obrigada!', en: 'Finally astrology you can really understand. Thank you!', es: 'Por fin astrología que se entiende de verdad. ¡Gracias!' } },
+];
 
 const TEXT = {
   pt: {
+    translated: 'Traduzido · ver original', seeTranslation: 'Ver tradução', demoNote: 'Modo demonstração: comentários de exemplo, só você vê.',
     badge: 'Comunidade', title: 'O que estão dizendo', sub: 'Conte como foi a sua experiência. Seu comentário ajuda a melhorar a Aurenstar.',
     name: 'Seu primeiro nome (opcional)', message: 'Escreva o seu comentário…', rate: 'Sua nota', send: 'Enviar comentário', sending: 'Enviando…',
     thanks: 'Obrigado! 💙 Seu comentário foi enviado e aparece aqui assim que for revisado.', error: 'Não deu certo agora. Tente de novo em instantes.',
@@ -14,6 +24,7 @@ const TEXT = {
     empty: 'Ainda não há comentários. Seja a primeira pessoa a comentar! ✨', anon: 'Visitante', ideas: 'O que você pode contar:', idea: ['Qual ferramenta você usou?', 'A leitura combinou com você?', 'O que podemos melhorar?'], emptyTitle: 'Seja a primeira pessoa a comentar', perks: ['Revisamos antes de publicar', 'Só o primeiro nome aparece', 'Ajuda a melhorar a Aurenstar'], ratings: ['', 'Pode melhorar', 'Mais ou menos', 'Bom', 'Muito bom', 'Amei!'], avg: 'média', count: (n: number) => (n === 1 ? '1 comentário' : `${n} comentários`), note: 'Não peça nem coloque dados pessoais. Os comentários são revisados antes de aparecer.',
   },
   en: {
+    translated: 'Translated · see original', seeTranslation: 'See translation', demoNote: 'Demo mode: example comments, only you can see them.',
     badge: 'Community', title: 'What people are saying', sub: 'Tell us how it went. Your comment helps make Aurenstar better.',
     name: 'Your first name (optional)', message: 'Write your comment…', rate: 'Your rating', send: 'Send comment', sending: 'Sending…',
     thanks: 'Thank you! 💙 Your comment was sent and will appear here once reviewed.', error: 'That did not work just now. Please try again in a moment.',
@@ -21,6 +32,7 @@ const TEXT = {
     empty: 'No comments yet. Be the first to comment! ✨', anon: 'Visitor', ideas: 'What you could share:', idea: ['Which tool did you use?', 'Did the reading fit you?', 'What can we improve?'], emptyTitle: 'Be the first to comment', perks: ['We review before publishing', 'Only your first name shows', 'Helps improve Aurenstar'], ratings: ['', 'Could be better', 'So-so', 'Good', 'Very good', 'Loved it!'], avg: 'average', count: (n: number) => (n === 1 ? '1 comment' : `${n} comments`), note: 'Do not share personal details. Comments are reviewed before they appear.',
   },
   es: {
+    translated: 'Traducido · ver original', seeTranslation: 'Ver traducción', demoNote: 'Modo demostración: comentarios de ejemplo, solo tú los ves.',
     badge: 'Comunidad', title: 'Lo que dicen', sub: 'Cuéntanos cómo te fue. Tu comentario ayuda a mejorar Aurenstar.',
     name: 'Tu primer nombre (opcional)', message: 'Escribe tu comentario…', rate: 'Tu nota', send: 'Enviar comentario', sending: 'Enviando…',
     thanks: '¡Gracias! 💙 Tu comentario fue enviado y aparecerá aquí cuando sea revisado.', error: 'No funcionó ahora. Inténtalo de nuevo en un momento.',
@@ -41,9 +53,23 @@ export const CommentsSection: React.FC = () => {
   const [state, setState] = useState<'idle' | 'sending' | 'done'>('idle');
   const [err, setErr] = useState('');
 
+  const { visitorLanguage } = useLanguage();
+  const readLang = visitorLanguage || lang;
+  const demo = typeof location !== 'undefined' && new URLSearchParams(location.search).get('demo') === 'comentarios';
+  const [showOriginal, setShowOriginal] = useState<Record<string, boolean>>({});
+
   useEffect(() => {
-    fetch('/api/comments').then((r) => (r.ok ? r.json() : { comments: [] })).then((d) => setList(d.comments || [])).catch(() => setList([]));
-  }, []);
+    if (demo) {
+      const k = (['pt', 'en', 'es'] as const).includes(readLang as any) ? (readLang as 'pt' | 'en' | 'es') : 'en';
+      const origLang = { BR: 'pt', US: 'en', ES: 'es', JP: 'ja', DE: 'de' } as Record<string, string>;
+      setList(DEMO.map((d) => {
+        const changed = origLang[d.country] !== k;
+        return { id: d.id, name: d.name, stars: d.stars, sign: '', country: d.country, message: changed ? d.text[k] : d.text.orig, ...(changed ? { original: d.text.orig, translated: true } : {}) };
+      }));
+      return;
+    }
+    fetch(`/api/comments?lang=${encodeURIComponent(readLang)}`).then((r) => (r.ok ? r.json() : { comments: [] })).then((d) => setList(d.comments || [])).catch(() => setList([]));
+  }, [readLang, demo]);
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -76,7 +102,12 @@ export const CommentsSection: React.FC = () => {
                   </p>
                   {c.stars ? <span className="flex" aria-label={`${c.stars}/5`}>{[1, 2, 3, 4, 5].map((n) => <Star key={n} className={`h-4 w-4 ${n <= c.stars! ? 'fill-[#E73578] text-[#E73578]' : 'text-[#D9E8F8]'}`} />)}</span> : null}
                 </div>
-                <p className="mt-2.5 whitespace-pre-line break-words text-sm leading-relaxed text-[#172B4D]">{c.message}</p>
+                <p data-no-translate className="mt-2.5 whitespace-pre-line break-words text-sm leading-relaxed text-[#172B4D]">{c.translated && showOriginal[String(c.id)] ? c.original : c.message}</p>
+                {c.translated && (
+                  <button type="button" onClick={() => setShowOriginal((o) => ({ ...o, [String(c.id)]: !o[String(c.id)] }))} style={{ fontSize: 11, lineHeight: 1.4 }} className="mt-1.5 font-bold text-[#647DA5] hover:text-[#3982C8]">
+                    🌐 {showOriginal[String(c.id)] ? t.seeTranslation : t.translated}
+                  </button>
+                )}
               </article>
   );
 
@@ -112,6 +143,7 @@ export const CommentsSection: React.FC = () => {
                 )}
               </div>
             )}
+            {demo && <p className="rounded-xl bg-[#FDE8F0] px-3 py-2 text-center text-xs font-bold text-[#E73578]">{t.demoNote}</p>}
             {list !== null && list.length > 0 && (
               list.length >= 3 ? (
                 <div className="comments-ticker relative h-[400px] overflow-hidden" style={{ maskImage: 'linear-gradient(to bottom, transparent, #000 8%, #000 92%, transparent)', WebkitMaskImage: 'linear-gradient(to bottom, transparent, #000 8%, #000 92%, transparent)' }}>
