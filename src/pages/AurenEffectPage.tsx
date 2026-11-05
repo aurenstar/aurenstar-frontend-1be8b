@@ -616,9 +616,9 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                     <>
                       <RefreshCw className="w-4 h-4 animate-spin" />
                       <span>
-                        {loadingStep === 1 && (language === 'pt' ? '1/3 Mapeando Posições dos Astros...' : language === 'es' ? '1/3 Mapeando las Posiciones de los Astros...' : '1/3 Mapping the Positions of the Stars...')}
-                        {loadingStep === 2 && (language === 'pt' ? '2/3 Cruzando com a Lua de Hoje...' : language === 'es' ? '2/3 Cruzando con la Luna de Hoy...' : '2/3 Crossing with Today\'s Moon...')}
-                        {loadingStep === 3 && (language === 'pt' ? '3/3 Lapidando seu Aureneffect...' : language === 'es' ? '3/3 Puliendo tu Aureneffect...' : '3/3 Polishing your Aureneffect...')}
+                        {loadingStep === 1 && (language === 'pt' ? 'Encontrando sua estrela Auren…' : language === 'es' ? 'Encontrando tu estrella Auren…' : 'Finding your Auren star…')}
+                        {loadingStep === 2 && (language === 'pt' ? 'Sentindo o que o céu diz agora…' : language === 'es' ? 'Sintiendo lo que dice el cielo ahora…' : 'Feeling what the sky says right now…')}
+                        {loadingStep === 3 && (language === 'pt' ? 'Quase lá, só mais um instante…' : language === 'es' ? 'Casi listo, solo un instante más…' : 'Almost there, just one more moment…')}
                       </span>
                     </>
                   ) : (
