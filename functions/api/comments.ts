@@ -27,7 +27,7 @@ export const onRequestGet = async ({ request, env }: { request: Request; env: Us
   }, 200, 'public, max-age=60');
 };
 
-export const onRequestPost = async ({ request, env }: { request: Request; env: UsageEnv }): Promise<Response> => {
+const post = async ({ request, env }: { request: Request; env: UsageEnv }, device: string): Promise<Response> => {
   if (!(await humanCheck(request, env as any))) return humanCheckFailed();
   let b: Record<string, unknown> = {};
   try { b = (await request.json()) as Record<string, unknown>; } catch { return json({ ok: false }, 400); }
@@ -42,7 +42,9 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: U
   const lang = (['pt', 'en', 'es'] as const).find((l) => l === b.lang) || 'en';
   const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
   const day = new Date().toISOString().slice(0, 10);
-  if ((await countHit(env, await usageKey(env, ['comment-ip', day, ip]), 24 * 3600)) > 3) return json({ ok: false, reason: 'limit' }, 429);
+  // Two limits: 3 per day per device (a mark kept in the browser) and, as a safety net for people who clear it, 15 per day per internet address.
+  if ((await countHit(env, await usageKey(env, ['comment-device', day, device]), 24 * 3600)) > 3) return json({ ok: false, reason: 'limit' }, 429);
+  if ((await countHit(env, await usageKey(env, ['comment-ip15', day, ip]), 24 * 3600)) > 15) return json({ ok: false, reason: 'limit' }, 429);
   // Country comes from the network (Cloudflare header), only the 2-letter code is kept, never the address itself.
   const cc = (request.headers.get('CF-IPCountry') || '').toUpperCase();
   const country = /^[A-Z]{2}$/.test(cc) && cc !== 'XX' && cc !== 'T1' ? cc : '';
@@ -64,4 +66,14 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: U
   }
   const saved = await recordComment(env, entry);
   return saved ? json({ ok: true }) : json({ ok: false, reason: 'unavailable' }, 502);
+};
+
+/** Gives each browser a random mark (cookie) so the daily limit is per device, not per shared internet address. */
+export const onRequestPost = async (ctx: { request: Request; env: UsageEnv }): Promise<Response> => {
+  const old = /(?:^|;\s*)aur_dev=([0-9a-f-]{36})/.exec(ctx.request.headers.get('Cookie') || '')?.[1];
+  const device = old || crypto.randomUUID();
+  const res = await post(ctx, device);
+  const out = new Response(res.body, res);
+  if (!old) out.headers.append('Set-Cookie', `aur_dev=${device}; Path=/; Max-Age=31536000; Secure; HttpOnly; SameSite=Lax`);
+  return out;
 };
