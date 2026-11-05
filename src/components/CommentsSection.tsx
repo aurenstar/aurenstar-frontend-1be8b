@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Check, Globe, Heart, MessageCircle, Quote, ShieldCheck, Star, UserRound } from 'lucide-react';
+import { Check, Globe, Heart, MessageCircle, ShieldCheck, Star, UserRound } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { trackEvent } from '../utils/analytics';
 
@@ -93,29 +93,30 @@ export const CommentsSection: React.FC = () => {
   const rated = (list || []).filter((c) => c.stars);
   const avg = rated.length ? rated.reduce((a, c) => a + (c.stars || 0), 0) / rated.length : 0;
 
-  const renderCard = (c: PublicComment, key: string) => (
-    <article key={key} className="relative rounded-2xl border border-[#D9E8F8] bg-[#F4F9FF] p-4 sm:p-5">
-      <Quote aria-hidden className="absolute right-4 top-4 h-6 w-6 text-[#D9E8F8]" strokeWidth={2.5} />
-      <div className="flex items-center gap-3 pr-8">
-        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#3982C8] text-sm font-extrabold text-white">{(c.name || t.anon).charAt(0).toUpperCase()}</span>
-        <div className="min-w-0 flex-1">
-          <p className="flex items-center gap-2 text-sm font-extrabold text-[#172B4D]">
-            <span className="truncate">{c.name || t.anon}</span>
-            {c.country && /^[A-Za-z]{2}$/.test(c.country) && (
-              <img src={`/flags/${c.country.toLowerCase()}.svg`} alt={c.country.toUpperCase()} title={c.country.toUpperCase()} width={20} height={14} loading="lazy" className="h-3.5 w-5 shrink-0 rounded-[2px] object-cover shadow-[0_0_0_1px_rgba(23,43,77,0.12)]" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
-            )}
-          </p>
-          {c.stars ? <span className="mt-0.5 flex" aria-label={`${c.stars}/5`}>{[1, 2, 3, 4, 5].map((n) => <Star key={n} className={`h-3.5 w-3.5 ${n <= c.stars! ? 'fill-[#E73578] text-[#E73578]' : 'text-[#D9E8F8]'}`} />)}</span> : null}
+  const renderCard = (c: PublicComment, key: string) => {
+    const hasFlag = !!c.country && /^[A-Za-z]{2}$/.test(c.country);
+    return (
+      <article key={key} className="rounded-xl border border-[#D9E8F8] bg-[#F4F9FF] p-3">
+        <div className="flex items-center gap-2.5">
+          {hasFlag ? (
+            <img src={`/flags/${c.country!.toLowerCase()}.svg`} alt={c.country!.toUpperCase()} title={c.country!.toUpperCase()} width={36} height={36} loading="lazy" className="h-9 w-9 shrink-0 rounded-full border-2 border-white object-cover shadow-[0_0_0_1px_#D9E8F8]" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+          ) : (
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#3982C8] text-sm font-extrabold text-white">{(c.name || t.anon).charAt(0).toUpperCase()}</span>
+          )}
+          <div className="min-w-0 flex-1">
+            <p className="truncate text-[13px] font-extrabold leading-tight text-[#172B4D]">{c.name || t.anon}</p>
+            {c.stars ? <span className="mt-0.5 flex" aria-label={`${c.stars}/5`}>{[1, 2, 3, 4, 5].map((n) => <Star key={n} className={`h-3 w-3 ${n <= c.stars! ? 'fill-[#E73578] text-[#E73578]' : 'text-[#D9E8F8]'}`} />)}</span> : null}
+          </div>
         </div>
-      </div>
-      <p data-no-translate className="mt-3 whitespace-pre-line break-words text-sm leading-relaxed text-[#172B4D]">{c.translated && showOriginal[String(c.id)] ? c.original : c.message}</p>
-      {c.translated && (
-        <button type="button" onClick={() => setShowOriginal((o) => ({ ...o, [String(c.id)]: !o[String(c.id)] }))} style={{ fontSize: 11, lineHeight: 1.4 }} className="mt-2 font-bold text-[#647DA5] hover:text-[#3982C8]">
-          🌐 {showOriginal[String(c.id)] ? t.seeTranslation : t.translated}
-        </button>
-      )}
-    </article>
-  );
+        <p data-no-translate className="mt-2 whitespace-pre-line break-words text-[13px] leading-snug text-[#172B4D]">{c.translated && showOriginal[String(c.id)] ? c.original : c.message}</p>
+        {c.translated && (
+          <button type="button" onClick={() => setShowOriginal((o) => ({ ...o, [String(c.id)]: !o[String(c.id)] }))} style={{ fontSize: 10.5, lineHeight: 1.4 }} className="mt-1 font-bold text-[#647DA5] hover:text-[#3982C8]">
+            🌐 {showOriginal[String(c.id)] ? t.seeTranslation : t.translated}
+          </button>
+        )}
+      </article>
+    );
+  };
 
   return (
     <section id="comentarios" className="w-full bg-[#C9E5FF] px-4 py-12 sm:px-6 sm:py-16">
@@ -162,17 +163,17 @@ export const CommentsSection: React.FC = () => {
                 {demo && <p className="mt-3 rounded-xl bg-[#FDE8F0] px-3 py-2 text-center text-xs font-bold text-[#E73578]">{t.demoNote}</p>}
                 {list !== null && list.length > 0 && (
                   list.length >= 3 ? (
-                    <div className="comments-ticker relative mt-4 h-[380px] flex-none overflow-hidden lg:h-auto lg:min-h-[380px] lg:flex-1" style={{ maskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)', WebkitMaskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)' }}>
+                    <div className="comments-ticker relative mt-4 h-[340px] flex-none overflow-hidden lg:h-auto lg:min-h-[340px] lg:flex-1" style={{ maskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)', WebkitMaskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)' }}>
                       <div className="comments-ticker-track absolute inset-x-0 top-0 grid" style={{ ['--dur' as string]: `${Math.max(1, Math.ceil(5 / list.length)) * list.length * 6}s` } as React.CSSProperties}>
                         {[0, 1].map((copy) => (
-                          <div key={copy} className="grid content-start gap-3 pb-3" aria-hidden={copy === 1 ? true : undefined}>
+                          <div key={copy} className="grid content-start gap-2.5 pb-2.5" aria-hidden={copy === 1 ? true : undefined}>
                             {Array.from({ length: Math.max(1, Math.ceil(5 / list.length)) }).flatMap((_, rep) => list.map((c) => renderCard(c, `${copy}-${rep}-${c.id}`)))}
                           </div>
                         ))}
                       </div>
                     </div>
                   ) : (
-                    <div className="mt-4 grid gap-3">{list.map((c) => renderCard(c, String(c.id)))}</div>
+                    <div className="mt-4 grid gap-2.5">{list.map((c) => renderCard(c, String(c.id)))}</div>
                   )
                 )}
               </>
