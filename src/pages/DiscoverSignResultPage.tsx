@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import {
   ArrowLeft,
   Star,
-  ArrowRight,
   Lightbulb,
   Sparkles,
   Check,
@@ -14,7 +13,6 @@ import {
 import { useLanguage } from '../context/LanguageContext';
 import { FeedbackButtons } from '../components/FeedbackButtons';
 import { CoverArt } from '../components/CoverArt';
-import { BLOG_ARTICLES } from '../data/blogArticles';
 import { SIGNS_DATA, LAST_DISCOVERED_SIGN_KEY, SignInfo } from '../data/signsData';
 
 interface DiscoverSignResultPageProps {
@@ -52,7 +50,6 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
   const signKey = savedData?.signKey || 'gemeos';
   const currentSign: SignInfo = SIGNS_DATA[signKey] || SIGNS_DATA.gemeos;
 
-  const recommended = BLOG_ARTICLES.find((a) => a.id === currentSign.articleId) || BLOG_ARTICLES.find((a) => a.zodiacSigns?.includes(signKey));
 
   const handleCopy = () => {
     const text = `✨ Meu Signo é ${currentSign.name[lang] || currentSign.name.pt} ${currentSign.symbol} ✨\n` +
@@ -123,38 +120,6 @@ export const DiscoverSignResultPage: React.FC<DiscoverSignResultPageProps> = ({
               <p className="text-sm leading-relaxed text-[#647DA5] sm:text-base">{currentSign.essence[lang] || currentSign.essence.pt}</p>
             </div>
           </section>
-
-          {recommended && (
-            <>
-            <h3 className="mt-4 text-center text-lg font-extrabold uppercase tracking-wider text-[#17366F] sm:text-xl">{tr('Artigo para você','Article for you','Artículo para ti')}</h3>
-            <div
-              role="button"
-              tabIndex={0}
-              onClick={() => onOpenArticle(recommended.id)}
-              onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onOpenArticle(recommended.id); } }}
-              aria-label={`${tr('Artigo para você','Article for you','Artículo para ti')}: ${recommended.title[lang] || recommended.title.pt}`}
-              className="group flex w-full cursor-pointer items-center justify-between gap-3 rounded-2xl border border-[#D9E8F8] bg-white p-3 shadow-sm transition-all duration-300 hover:border-[#3982C8]/40 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#3982C8]/40 sm:gap-6 sm:rounded-3xl sm:p-4"
-            >
-              <div className="relative h-20 w-28 shrink-0 overflow-hidden rounded-xl bg-slate-100 sm:h-28 sm:w-44 sm:rounded-2xl">
-                <img src={cardImage(recommended.image)} alt={recommended.title[lang] || recommended.title.pt} loading="lazy" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-              </div>
-              <div className="min-w-0 flex-1 pr-1 sm:pr-2">
-                <span className="mb-1 block text-[10px] font-extrabold uppercase tracking-wider text-[#E73578] sm:text-xs">
-                  {recommended.category[lang] || recommended.category.pt}
-                </span>
-                <h4 className="mb-1 line-clamp-2 text-xs font-bold leading-snug text-[#172B4D] transition-colors group-hover:text-[#3982C8] sm:text-base lg:text-lg">
-                  {recommended.title[lang] || recommended.title.pt}
-                </h4>
-                <p className="line-clamp-2 text-[11px] font-normal leading-relaxed text-[#647DA5] sm:text-xs">
-                  {recommended.subtitle[lang] || recommended.subtitle.pt}
-                </p>
-              </div>
-              <div className="shrink-0 pr-1 text-[#17366F] transition-all duration-300 group-hover:translate-x-1.5 group-hover:text-[#3982C8] sm:pr-2">
-                <ArrowRight className="h-5 w-5 stroke-[2.2] sm:h-6 sm:w-6" />
-              </div>
-            </div>
-            </>
-          )}
         </div>
 
       </div>
