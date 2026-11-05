@@ -101,7 +101,7 @@ export const ABOUT_SECTIONS: Record<string, { title: string; description: string
 
 const pageCopy: Record<SeoPage, { title: string; description: string; path: string }> = {
   home: {
-    title: 'Aurenstar | Simple Astrology, Daily Guidance & Zodiac Insights',
+    title: 'Aurenstar – Simple Daily Astrology & Zodiac Guidance',
     description: DEFAULT_DESCRIPTION,
     path: '/',
   },
@@ -252,6 +252,7 @@ const WEBSITE = {
   '@type': 'WebSite',
   '@id': `${SITE_URL}/#website`,
   name: SITE_NAME,
+  alternateName: ['Aurenstar Astrology', 'aurenstar.com'],
   url: SITE_URL,
   inLanguage: ['en', 'pt', 'es'],
   publisher: { '@id': `${SITE_URL}/#organization` },

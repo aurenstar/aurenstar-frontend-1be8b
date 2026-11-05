@@ -55,7 +55,7 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: A
 
   if (b.action === 'emails') {
     // One CSV per list; only people who did not unsubscribe.
-    const cols = ['email', 'sign', 'lang', 'source', 'created_at', 'consent_at'];
+    const cols = ['email', 'country', 'region', 'lang', 'sign', 'source', 'created_at', 'consent_at'];
     const cell = (v: unknown) => { const s = v === null || v === undefined ? '' : String(v); return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
     const build = async (list: string): Promise<{ csv: string; count: number } | null> => {
       const r = await fetch(`${base}/rest/v1/email_list?select=${cols.join(',')}&list=eq.${list}&unsubscribed_at=is.null&order=created_at.asc&limit=50000`, { headers });

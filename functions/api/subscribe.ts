@@ -20,6 +20,11 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: U
   const day = new Date().toISOString().slice(0, 10);
   if ((await countHit(env, await usageKey(env, ['subscribe-ip', day, ip]), 24 * 3600)) > 10) return json({ ok: false, reason: 'limit' }, 429);
   const list = b.list === 'newsletter' ? 'newsletter' : 'tshirts';
-  const saved = await recordSubscriber(env, { list, email, sign: String(b.sign || '').slice(0, 20), lang, source: String(b.source || '').slice(0, 30), consentText: (list === 'newsletter' ? NEWSLETTER_CONSENT : TSHIRT_CONSENT)[lang] });
+  // Country and region come from Cloudflare (never from the form), to see where the audience lives.
+  const cf = (request as any).cf as { country?: string; region?: string } | undefined;
+  const cc = String(cf?.country || request.headers.get('CF-IPCountry') || '').toUpperCase();
+  const country = /^[A-Z]{2}$/.test(cc) && cc !== 'XX' && cc !== 'T1' ? cc : '';
+  const region = String(cf?.region || request.headers.get('CF-Region') || '').slice(0, 60);
+  const saved = await recordSubscriber(env, { country, region, list, email, sign: String(b.sign || '').slice(0, 20), lang, source: String(b.source || '').slice(0, 30), consentText: (list === 'newsletter' ? NEWSLETTER_CONSENT : TSHIRT_CONSENT)[lang] });
   return saved ? json({ ok: true }) : json({ ok: false, reason: 'unavailable' }, 502);
 };
