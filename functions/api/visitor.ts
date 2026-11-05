@@ -7,6 +7,6 @@ export const onRequestGet = async ({ request }: { request: Request }): Promise<R
   const v = visitorLocale(request);
   const uiLanguage = (SITE_LANGUAGES as readonly string[]).includes(v.language) ? v.language : 'en';
   return new Response(JSON.stringify({ country: v.country, language: v.language, uiLanguage, known: v.known }), {
-    headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'private, max-age=3600' },
+    headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'private, max-age=86400' },
   });
 };

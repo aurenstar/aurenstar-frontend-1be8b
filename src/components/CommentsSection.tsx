@@ -74,13 +74,13 @@ export const CommentsSection: React.FC = () => {
       }));
       return;
     }
-    // The list is kept for 5 minutes in this browser (per language): going back to the home page does not call the server again.
+    // The list is kept for 15 minutes in this browser (per language, even after closing it): going back to the home page does not call the server again.
     const ck = `aurenstar_comments_${readLang}`;
     try {
-      const raw = sessionStorage.getItem(ck);
+      const raw = localStorage.getItem(ck);
       if (raw) {
         const c = JSON.parse(raw) as { at: number; list: PublicComment[] };
-        if (Date.now() - c.at < 300_000) { setList(c.list); return; }
+        if (Date.now() - c.at < 900_000) { setList(c.list); return; }
       }
     } catch { /* storage blocked */ }
     // Short wait: on a first visit the site language changes a moment after loading, and only the final one is asked for.
@@ -92,7 +92,7 @@ export const CommentsSection: React.FC = () => {
           if (cancelled) return;
           const l = (d.comments || []) as PublicComment[];
           setList(l);
-          try { sessionStorage.setItem(ck, JSON.stringify({ at: Date.now(), list: l })); } catch { /* storage blocked */ }
+          try { localStorage.setItem(ck, JSON.stringify({ at: Date.now(), list: l })); } catch { /* storage blocked */ }
         })
         .catch(() => { if (!cancelled) setList([]); });
     }, 400);

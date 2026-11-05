@@ -31,16 +31,16 @@ export async function subscribeEmail(opts: { email: string; sign?: string; lang:
 }
 
 /** Spots left for the launch coupon (first 100 people). left = null when it could not be checked: the page then shows no number.
- *  The answer is reused for 5 minutes (all cards on the page share one call, and so do the next pages), saving server calls. */
+ *  The answer is reused for 10 minutes (kept in the browser, even after closing it) (all cards on the page share one call, and so do the next pages), saving server calls. */
 let spotsMemo: { at: number; value: { limit: number; left: number | null } } | null = null;
 let spotsInFlight: Promise<{ limit: number; left: number | null }> | null = null;
 const SPOTS_KEY = 'aurenstar_spots';
-const SPOTS_MS = 300_000;
+const SPOTS_MS = 600_000; // 10 minutes
 export async function getCouponSpots(): Promise<{ limit: number; left: number | null }> {
   const now = Date.now();
   if (spotsMemo && now - spotsMemo.at < SPOTS_MS) return spotsMemo.value;
   try {
-    const raw = sessionStorage.getItem(SPOTS_KEY);
+    const raw = localStorage.getItem(SPOTS_KEY);
     if (raw) {
       const c = JSON.parse(raw) as { at: number; value: { limit: number; left: number | null } };
       if (now - c.at < SPOTS_MS) { spotsMemo = c; return c.value; }
@@ -54,7 +54,7 @@ export async function getCouponSpots(): Promise<{ limit: number; left: number | 
       const d = (await res.json()) as { limit?: number; left?: number | null };
       const value = { limit: d.limit || 100, left: typeof d.left === 'number' ? d.left : null };
       spotsMemo = { at: Date.now(), value };
-      try { sessionStorage.setItem(SPOTS_KEY, JSON.stringify(spotsMemo)); } catch { /* storage blocked */ }
+      try { localStorage.setItem(SPOTS_KEY, JSON.stringify(spotsMemo)); } catch { /* storage blocked */ }
       return value;
     } catch {
       return { limit: 100, left: null };
