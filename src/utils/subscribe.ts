@@ -30,14 +30,37 @@ export async function subscribeEmail(opts: { email: string; sign?: string; lang:
   }
 }
 
-/** Spots left for the launch coupon (first 100 people). left = null when it could not be checked: the page then shows no number. */
+/** Spots left for the launch coupon (first 100 people). left = null when it could not be checked: the page then shows no number.
+ *  The answer is reused for 5 minutes (all cards on the page share one call, and so do the next pages), saving server calls. */
+let spotsMemo: { at: number; value: { limit: number; left: number | null } } | null = null;
+let spotsInFlight: Promise<{ limit: number; left: number | null }> | null = null;
+const SPOTS_KEY = 'aurenstar_spots';
+const SPOTS_MS = 300_000;
 export async function getCouponSpots(): Promise<{ limit: number; left: number | null }> {
+  const now = Date.now();
+  if (spotsMemo && now - spotsMemo.at < SPOTS_MS) return spotsMemo.value;
   try {
-    const res = await fetch('/api/tshirt-spots');
-    if (!res.ok) return { limit: 100, left: null };
-    const d = (await res.json()) as { limit?: number; left?: number | null };
-    return { limit: d.limit || 100, left: typeof d.left === 'number' ? d.left : null };
-  } catch {
-    return { limit: 100, left: null };
-  }
+    const raw = sessionStorage.getItem(SPOTS_KEY);
+    if (raw) {
+      const c = JSON.parse(raw) as { at: number; value: { limit: number; left: number | null } };
+      if (now - c.at < SPOTS_MS) { spotsMemo = c; return c.value; }
+    }
+  } catch { /* storage blocked */ }
+  if (spotsInFlight) return spotsInFlight;
+  spotsInFlight = (async () => {
+    try {
+      const res = await fetch('/api/tshirt-spots');
+      if (!res.ok) return { limit: 100, left: null };
+      const d = (await res.json()) as { limit?: number; left?: number | null };
+      const value = { limit: d.limit || 100, left: typeof d.left === 'number' ? d.left : null };
+      spotsMemo = { at: Date.now(), value };
+      try { sessionStorage.setItem(SPOTS_KEY, JSON.stringify(spotsMemo)); } catch { /* storage blocked */ }
+      return value;
+    } catch {
+      return { limit: 100, left: null };
+    } finally {
+      spotsInFlight = null;
+    }
+  })();
+  return spotsInFlight;
 }

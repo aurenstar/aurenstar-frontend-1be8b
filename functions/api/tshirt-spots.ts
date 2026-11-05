@@ -9,6 +9,6 @@ export const onRequestGet = async ({ env }: { env: UsageEnv }): Promise<Response
   const taken = await countSubscribers(env);
   const body = taken === null ? { limit: COUPON_SPOTS, left: null } : { limit: COUPON_SPOTS, taken, left: Math.max(0, COUPON_SPOTS - taken) };
   return new Response(JSON.stringify(body), {
-    headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'public, max-age=30' },
+    headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'public, max-age=300' },
   });
 };

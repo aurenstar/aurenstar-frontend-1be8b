@@ -74,7 +74,29 @@ export const CommentsSection: React.FC = () => {
       }));
       return;
     }
-    fetch(`/api/comments?lang=${encodeURIComponent(readLang)}`).then((r) => (r.ok ? r.json() : { comments: [] })).then((d) => setList(d.comments || [])).catch(() => setList([]));
+    // The list is kept for 5 minutes in this browser (per language): going back to the home page does not call the server again.
+    const ck = `aurenstar_comments_${readLang}`;
+    try {
+      const raw = sessionStorage.getItem(ck);
+      if (raw) {
+        const c = JSON.parse(raw) as { at: number; list: PublicComment[] };
+        if (Date.now() - c.at < 300_000) { setList(c.list); return; }
+      }
+    } catch { /* storage blocked */ }
+    // Short wait: on a first visit the site language changes a moment after loading, and only the final one is asked for.
+    let cancelled = false;
+    const timer = window.setTimeout(() => {
+      fetch(`/api/comments?lang=${encodeURIComponent(readLang)}`)
+        .then((r) => (r.ok ? r.json() : { comments: [] }))
+        .then((d) => {
+          if (cancelled) return;
+          const l = (d.comments || []) as PublicComment[];
+          setList(l);
+          try { sessionStorage.setItem(ck, JSON.stringify({ at: Date.now(), list: l })); } catch { /* storage blocked */ }
+        })
+        .catch(() => { if (!cancelled) setList([]); });
+    }, 400);
+    return () => { cancelled = true; window.clearTimeout(timer); };
   }, [readLang, demo]);
 
   const submit = async (e: React.FormEvent) => {
