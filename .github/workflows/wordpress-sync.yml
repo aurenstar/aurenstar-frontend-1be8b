@@ -1,5 +1,5 @@
 name: WordPress sync
-# Every 6 hours (and on demand): copies new/changed WordPress posts into the site and commits them,
+# Every 6 hours as a safety net, on demand, and instantly when WordPress calls /api/wp-publish: copies new/changed WordPress posts into the site and commits them,
 # which makes Cloudflare rebuild the site. Publish in WordPress -> it shows up in /blog.
 on:
   schedule:
@@ -7,6 +7,10 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+# two publishes close together: wait for the first, do not run side by side
+concurrency:
+  group: wordpress-sync
+  cancel-in-progress: false
 jobs:
   sync:
     runs-on: ubuntu-latest
