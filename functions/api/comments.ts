@@ -36,6 +36,8 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: U
   const name = String(b.name || '').trim().slice(0, 40);
   if (message.length < 5 || message.length > 600) return json({ ok: false, reason: 'length' }, 400);
   if (/https?:\/\/|www\.|\.(com|net|org|ru|xyz|top)\b|@\S+\.\S+/i.test(message + ' ' + name)) return json({ ok: false, reason: 'links' }, 400);
+  // The name must look like a real first name: letters only (any alphabet), no digits, symbols, links or repeated letters.
+  if (name && (!/^\p{L}[\p{L}\p{M}'’. -]{1,29}$/u.test(name) || /(.)\1{3,}/iu.test(name) || name.split(/\s+/).length > 3)) return json({ ok: false, reason: 'name' }, 400);
   const stars = Number(b.stars);
   const lang = (['pt', 'en', 'es'] as const).find((l) => l === b.lang) || 'en';
   const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
@@ -49,6 +51,7 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: U
   const e = env as UsageEnv & { SUPABASE_SERVICE_KEY?: string; OPENAI_API_KEY?: string; OPENAI_MODEL?: string };
   if (e.SUPABASE_SERVICE_KEY && e.OPENAI_API_KEY) {
     const m = await moderateComment(e, entry);
+    if (name && m.nameOk === false) return json({ ok: false, reason: 'name' }, 400); // nickname, offensive or famous name: the person is asked to fix it
     try {
       const base = (e.SUPABASE_URL || 'https://bnetpqdpeufookvvsnaj.supabase.co').replace(/\/$/, '');
       const res = await fetch(`${base}/rest/v1/site_comments`, {

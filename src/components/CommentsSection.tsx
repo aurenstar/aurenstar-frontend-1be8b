@@ -21,6 +21,7 @@ const TEXT = {
     badge: 'Comunidade', title: 'O que estão dizendo', sub: 'Conte como foi a sua experiência. Seu comentário ajuda a melhorar a Aurenstar.',
     name: 'Seu primeiro nome (opcional)', message: 'Escreva o seu comentário…', rate: 'Sua nota', send: 'Enviar comentário', sending: 'Enviando…',
     thanks: 'Obrigado! 💙 Seu comentário foi enviado e aparece aqui assim que for revisado.', error: 'Não deu certo agora. Tente de novo em instantes.',
+    nameError: 'Use só o seu primeiro nome verdadeiro, sem números, símbolos, apelidos nem nomes de famosos.',
     links: 'Por segurança, não é possível enviar links ou e-mails no comentário.', limit: 'Você já enviou comentários demais hoje. Volte amanhã!',
     empty: 'Ainda não há comentários. Seja a primeira pessoa a comentar! ✨', anon: 'Visitante', ideas: 'O que você pode contar:', idea: ['Qual ferramenta você usou?', 'A leitura combinou com você?', 'O que podemos melhorar?'], emptyTitle: 'Seja a primeira pessoa a comentar', perks: ['Revisamos antes de publicar', 'Só o primeiro nome aparece', 'Ajuda a melhorar a Aurenstar'], ratings: ['', 'Pode melhorar', 'Mais ou menos', 'Bom', 'Muito bom', 'Amei!'], avg: 'média', count: (n: number) => (n === 1 ? '1 comentário' : `${n} comentários`), note: 'Não peça nem coloque dados pessoais. Os comentários são revisados antes de aparecer.',
   },
@@ -30,6 +31,7 @@ const TEXT = {
     badge: 'Community', title: 'What people are saying', sub: 'Tell us how it went. Your comment helps make Aurenstar better.',
     name: 'Your first name (optional)', message: 'Write your comment…', rate: 'Your rating', send: 'Send comment', sending: 'Sending…',
     thanks: 'Thank you! 💙 Your comment was sent and will appear here once reviewed.', error: 'That did not work just now. Please try again in a moment.',
+    nameError: 'Please use only your real first name: no numbers, symbols, nicknames or famous names.',
     links: 'For safety, links and emails cannot be sent in a comment.', limit: 'You have sent too many comments today. Come back tomorrow!',
     empty: 'No comments yet. Be the first to comment! ✨', anon: 'Visitor', ideas: 'What you could share:', idea: ['Which tool did you use?', 'Did the reading fit you?', 'What can we improve?'], emptyTitle: 'Be the first to comment', perks: ['We review before publishing', 'Only your first name shows', 'Helps improve Aurenstar'], ratings: ['', 'Could be better', 'So-so', 'Good', 'Very good', 'Loved it!'], avg: 'average', count: (n: number) => (n === 1 ? '1 comment' : `${n} comments`), note: 'Do not share personal details. Comments are reviewed before they appear.',
   },
@@ -39,6 +41,7 @@ const TEXT = {
     badge: 'Comunidad', title: 'Lo que dicen', sub: 'Cuéntanos cómo te fue. Tu comentario ayuda a mejorar Aurenstar.',
     name: 'Tu primer nombre (opcional)', message: 'Escribe tu comentario…', rate: 'Tu nota', send: 'Enviar comentario', sending: 'Enviando…',
     thanks: '¡Gracias! 💙 Tu comentario fue enviado y aparecerá aquí cuando sea revisado.', error: 'No funcionó ahora. Inténtalo de nuevo en un momento.',
+    nameError: 'Usa solo tu primer nombre real, sin números, símbolos, apodos ni nombres de famosos.',
     links: 'Por seguridad, no se pueden enviar enlaces ni correos en el comentario.', limit: 'Has enviado demasiados comentarios hoy. ¡Vuelve mañana!',
     empty: 'Aún no hay comentarios. ¡Sé la primera persona en comentar! ✨', anon: 'Visitante', ideas: 'Lo que puedes contar:', idea: ['¿Qué herramienta usaste?', '¿La lectura te encajó?', '¿Qué podemos mejorar?'], emptyTitle: 'Sé la primera persona en comentar', perks: ['Revisamos antes de publicar', 'Solo aparece tu primer nombre', 'Ayuda a mejorar Aurenstar'], ratings: ['', 'Puede mejorar', 'Más o menos', 'Bueno', 'Muy bueno', '¡Me encantó!'], avg: 'promedio', count: (n: number) => (n === 1 ? '1 comentario' : `${n} comentarios`), note: 'No compartas datos personales. Los comentarios se revisan antes de aparecer.',
   },
@@ -85,7 +88,7 @@ export const CommentsSection: React.FC = () => {
       });
       const d = await res.json().catch(() => ({}));
       if (res.ok && d.ok) { setState('done'); setMessage(''); trackEvent('comment_sent'); return; }
-      setErr(d.reason === 'links' ? t.links : d.reason === 'limit' ? t.limit : t.error);
+      setErr(d.reason === 'name' ? t.nameError : d.reason === 'links' ? t.links : d.reason === 'limit' ? t.limit : t.error);
     } catch { setErr(t.error); }
     setState('idle');
   };
@@ -129,7 +132,7 @@ export const CommentsSection: React.FC = () => {
 
         <div className="mt-6 grid items-stretch gap-5 lg:grid-cols-[1.1fr_1fr] lg:gap-6">
           <div className="flex flex-col rounded-[2rem] border border-[#D9E8F8] bg-white p-4 shadow-[0_10px_30px_rgba(57,130,200,0.10)] sm:p-5">
-            {list !== null && list.length === 0 ? (
+            {list !== null && list.length < 3 ? (
               <div className="flex flex-1 flex-col justify-center gap-6 py-4 text-center">
                 <div>
                   <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#E4F1FF] text-[#3982C8]"><MessageCircle className="h-8 w-8" /></span>
@@ -161,9 +164,8 @@ export const CommentsSection: React.FC = () => {
                   </div>
                 )}
                 {demo && <p className="mt-3 rounded-xl bg-[#FDE8F0] px-3 py-2 text-center text-xs font-bold text-[#E73578]">{t.demoNote}</p>}
-                {list !== null && list.length > 0 && (
-                  list.length >= 3 ? (
-                    <div className="comments-ticker relative mt-3 h-[300px] flex-none overflow-hidden lg:h-auto lg:min-h-[300px] lg:flex-1" style={{ maskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)', WebkitMaskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)' }}>
+                {list !== null && list.length >= 3 && (
+                  <div className="comments-ticker relative mt-3 h-[300px] flex-none overflow-hidden lg:h-auto lg:min-h-[300px] lg:flex-1" style={{ maskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)', WebkitMaskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)' }}>
                       <div className="comments-ticker-track absolute inset-x-0 top-0 grid" style={{ ['--dur' as string]: `${Math.max(1, Math.ceil(5 / list.length)) * list.length * 6}s` } as React.CSSProperties}>
                         {[0, 1].map((copy) => (
                           <div key={copy} className="grid content-start gap-2 pb-2" aria-hidden={copy === 1 ? true : undefined}>
@@ -172,9 +174,6 @@ export const CommentsSection: React.FC = () => {
                         ))}
                       </div>
                     </div>
-                  ) : (
-                    <div className="mt-3 grid gap-2">{list.map((c) => renderCard(c, String(c.id)))}</div>
-                  )
                 )}
               </>
             )}
@@ -197,7 +196,7 @@ export const CommentsSection: React.FC = () => {
                 ))}
                 {stars > 0 && <span className="ml-2 text-sm font-extrabold text-[#E73578]">{t.ratings[stars]}</span>}
               </div>
-              <input value={name} maxLength={40} onChange={(e) => setName(e.target.value)} placeholder={t.name} className="mt-4 w-full rounded-xl border border-[#D9E8F8] bg-[#F4F9FF] px-4 py-3 text-sm text-[#172B4D] outline-none focus:border-[#3982C8]" />
+              <input value={name} maxLength={30} onChange={(e) => setName(e.target.value.replace(/[^\p{L}\p{M}'’. -]/gu, '').slice(0, 30))} placeholder={t.name} className="mt-4 w-full rounded-xl border border-[#D9E8F8] bg-[#F4F9FF] px-4 py-3 text-sm text-[#172B4D] outline-none focus:border-[#3982C8]" />
               <textarea required minLength={5} maxLength={600} rows={3} value={message} onChange={(e) => setMessage(e.target.value)} placeholder={t.message} className="mt-3 min-h-[5.5rem] w-full flex-1 resize-none rounded-xl border border-[#D9E8F8] bg-[#F4F9FF] px-4 py-3 text-sm text-[#172B4D] outline-none focus:border-[#3982C8]" />
               <p className="mt-1 text-right text-[11px] text-[#647DA5]">{message.length}/600</p>
               {err && <p className="mt-1 text-xs font-bold text-[#E73578]">{err}</p>}
