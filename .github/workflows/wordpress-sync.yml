@@ -1,9 +1,9 @@
 name: WordPress sync
-# Every 6 hours as a safety net, on demand, and instantly when WordPress calls /api/wp-publish: copies new/changed WordPress posts into the site and commits them,
+# Every 2 hours (only does real work when WordPress has something new), on demand (Run workflow), and when WordPress calls /api/wp-publish: copies new/changed WordPress posts into the site and commits them,
 # which makes Cloudflare rebuild the site. Publish in WordPress -> it shows up in /blog.
 on:
   schedule:
-    - cron: '17 */6 * * *'
+    - cron: '17 */2 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -16,14 +16,36 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Is there anything new in WordPress?
+        id: check
+        run: |
+          BASE="https://blog.aurenstar.com/wp-json/wp/v2/posts?per_page=1&orderby=modified&order=desc"
+          LAST=$(curl -fsS "$BASE&_fields=id,modified_gmt" | tr -d '[:space:]')
+          TOTAL=$(curl -fsSI "$BASE&_fields=id" | tr -d '\r' | grep -i '^x-wp-total:' | awk '{print $2}')
+          NOW="$LAST|$TOTAL"
+          OLD=$(cat data/wp-last-seen.txt 2>/dev/null || true)
+          echo "now=$NOW" >> "$GITHUB_OUTPUT"
+          if [ "$NOW" = "$OLD" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"; echo "Nothing new in WordPress."
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/setup-node@v4
+        if: steps.check.outputs.run == 'true'
         with: { node-version: 22 }
-      - run: sudo apt-get install -y imagemagick
-      - run: npm install --legacy-peer-deps
-      - run: npm run sync:wordpress
+      - if: steps.check.outputs.run == 'true'
+        run: sudo apt-get install -y imagemagick
+      - if: steps.check.outputs.run == 'true'
+        run: npm install --legacy-peer-deps
+      - if: steps.check.outputs.run == 'true'
+        run: npm run sync:wordpress
+      - name: Remember what we saw
+        if: steps.check.outputs.run == 'true'
+        run: echo "${{ steps.check.outputs.now }}" > data/wp-last-seen.txt
       - name: Commit changes
+        if: steps.check.outputs.run == 'true'
         run: |
           git config user.name "aurenstar-sync"
           git config user.email "sync@aurenstar.com"
-          git add src/data/wordpressArticles.generated.json public/assets/wp
+          git add src/data/wordpressArticles.generated.json public/assets/wp data/wp-last-seen.txt
           git diff --cached --quiet || (git commit -m "Sync articles from WordPress" && git push)
