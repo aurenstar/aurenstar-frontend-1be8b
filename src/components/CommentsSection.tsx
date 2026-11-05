@@ -96,39 +96,39 @@ export const CommentsSection: React.FC = () => {
   const renderCard = (c: PublicComment, key: string) => {
     const hasFlag = !!c.country && /^[A-Za-z]{2}$/.test(c.country);
     return (
-      <article key={key} className="rounded-xl border border-[#D9E8F8] bg-[#F4F9FF] p-3">
-        <div className="flex items-center gap-2.5">
-          {hasFlag ? (
-            <img src={`/flags/${c.country!.toLowerCase()}.svg`} alt={c.country!.toUpperCase()} title={c.country!.toUpperCase()} width={36} height={36} loading="lazy" className="h-9 w-9 shrink-0 rounded-full border-2 border-white object-cover shadow-[0_0_0_1px_#D9E8F8]" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
-          ) : (
-            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#3982C8] text-sm font-extrabold text-white">{(c.name || t.anon).charAt(0).toUpperCase()}</span>
-          )}
-          <div className="min-w-0 flex-1">
-            <p className="truncate text-[13px] font-extrabold leading-tight text-[#172B4D]">{c.name || t.anon}</p>
-            {c.stars ? <span className="mt-0.5 flex" aria-label={`${c.stars}/5`}>{[1, 2, 3, 4, 5].map((n) => <Star key={n} className={`h-3 w-3 ${n <= c.stars! ? 'fill-[#E73578] text-[#E73578]' : 'text-[#D9E8F8]'}`} />)}</span> : null}
-          </div>
-        </div>
-        <p data-no-translate className="mt-2 whitespace-pre-line break-words text-[13px] leading-snug text-[#172B4D]">{c.translated && showOriginal[String(c.id)] ? c.original : c.message}</p>
-        {c.translated && (
-          <button type="button" onClick={() => setShowOriginal((o) => ({ ...o, [String(c.id)]: !o[String(c.id)] }))} style={{ fontSize: 10.5, lineHeight: 1.4 }} className="mt-1 font-bold text-[#647DA5] hover:text-[#3982C8]">
-            🌐 {showOriginal[String(c.id)] ? t.seeTranslation : t.translated}
-          </button>
+      <article key={key} className="flex gap-2.5 rounded-xl border border-[#D9E8F8] bg-[#F4F9FF] p-2.5">
+        {hasFlag ? (
+          <img src={`/flags/${c.country!.toLowerCase()}.svg`} alt={c.country!.toUpperCase()} title={c.country!.toUpperCase()} width={32} height={32} loading="lazy" className="h-8 w-8 shrink-0 rounded-full border-2 border-white object-cover shadow-[0_0_0_1px_#D9E8F8]" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+        ) : (
+          <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#3982C8] text-xs font-extrabold text-white">{(c.name || t.anon).charAt(0).toUpperCase()}</span>
         )}
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center justify-between gap-2">
+            <p className="truncate text-[13px] font-extrabold leading-tight text-[#172B4D]">{c.name || t.anon}</p>
+            {c.stars ? <span className="flex shrink-0" aria-label={`${c.stars}/5`}>{[1, 2, 3, 4, 5].map((n) => <Star key={n} className={`h-3 w-3 ${n <= c.stars! ? 'fill-[#E73578] text-[#E73578]' : 'text-[#D9E8F8]'}`} />)}</span> : null}
+          </div>
+          <p data-no-translate className="mt-0.5 whitespace-pre-line break-words text-[12.5px] leading-snug text-[#172B4D]">{c.translated && showOriginal[String(c.id)] ? c.original : c.message}</p>
+          {c.translated && (
+            <button type="button" onClick={() => setShowOriginal((o) => ({ ...o, [String(c.id)]: !o[String(c.id)] }))} style={{ fontSize: 10, lineHeight: 1.3 }} className="mt-0.5 font-bold text-[#647DA5] hover:text-[#3982C8]">
+              🌐 {showOriginal[String(c.id)] ? t.seeTranslation : t.translated}
+            </button>
+          )}
+        </div>
       </article>
     );
   };
 
   return (
-    <section id="comentarios" className="w-full bg-[#C9E5FF] px-4 py-12 sm:px-6 sm:py-16">
+    <section id="comentarios" className="w-full bg-[#C9E5FF] px-4 py-10 sm:px-6 sm:py-12">
       <div className="mx-auto max-w-6xl">
         <div className="text-center">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-white px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider text-[#3982C8]"><MessageCircle className="h-3.5 w-3.5" />{t.badge}</span>
-          <h2 className="mt-3 text-3xl font-extrabold text-[#172B4D] sm:text-4xl">{t.title}</h2>
+          <h2 className="mt-2 text-2xl font-extrabold text-[#172B4D] sm:text-3xl">{t.title}</h2>
           <p className="mx-auto mt-2 max-w-md text-sm text-[#647DA5]">{t.sub}</p>
         </div>
 
-        <div className="mt-8 grid items-stretch gap-6 lg:grid-cols-[1.1fr_1fr] lg:gap-8">
-          <div className="flex flex-col rounded-[2rem] border border-[#D9E8F8] bg-white p-5 shadow-[0_10px_30px_rgba(57,130,200,0.10)] sm:p-6">
+        <div className="mt-6 grid items-stretch gap-5 lg:grid-cols-[1.1fr_1fr] lg:gap-6">
+          <div className="flex flex-col rounded-[2rem] border border-[#D9E8F8] bg-white p-4 shadow-[0_10px_30px_rgba(57,130,200,0.10)] sm:p-5">
             {list !== null && list.length === 0 ? (
               <div className="flex flex-1 flex-col justify-center gap-6 py-4 text-center">
                 <div>
@@ -147,7 +147,7 @@ export const CommentsSection: React.FC = () => {
                   <div className="flex flex-wrap items-center gap-x-5 gap-y-3 border-b border-[#D9E8F8] pb-4">
                     {rated.length > 0 && (
                       <div className="flex items-center gap-3">
-                        <span className="text-4xl font-extrabold leading-none text-[#172B4D]">{avg.toFixed(1)}</span>
+                        <span className="text-3xl font-extrabold leading-none text-[#172B4D]">{avg.toFixed(1)}</span>
                         <div>
                           <span className="flex">{[1, 2, 3, 4, 5].map((n) => <Star key={n} className={`h-4 w-4 ${n <= Math.round(avg) ? 'fill-[#E73578] text-[#E73578]' : 'text-[#D9E8F8]'}`} />)}</span>
                           <p className="mt-0.5 text-xs font-bold text-[#647DA5]">{t.count(list.length)}</p>
@@ -163,17 +163,17 @@ export const CommentsSection: React.FC = () => {
                 {demo && <p className="mt-3 rounded-xl bg-[#FDE8F0] px-3 py-2 text-center text-xs font-bold text-[#E73578]">{t.demoNote}</p>}
                 {list !== null && list.length > 0 && (
                   list.length >= 3 ? (
-                    <div className="comments-ticker relative mt-4 h-[340px] flex-none overflow-hidden lg:h-auto lg:min-h-[340px] lg:flex-1" style={{ maskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)', WebkitMaskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)' }}>
+                    <div className="comments-ticker relative mt-3 h-[300px] flex-none overflow-hidden lg:h-auto lg:min-h-[300px] lg:flex-1" style={{ maskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)', WebkitMaskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)' }}>
                       <div className="comments-ticker-track absolute inset-x-0 top-0 grid" style={{ ['--dur' as string]: `${Math.max(1, Math.ceil(5 / list.length)) * list.length * 6}s` } as React.CSSProperties}>
                         {[0, 1].map((copy) => (
-                          <div key={copy} className="grid content-start gap-2.5 pb-2.5" aria-hidden={copy === 1 ? true : undefined}>
+                          <div key={copy} className="grid content-start gap-2 pb-2" aria-hidden={copy === 1 ? true : undefined}>
                             {Array.from({ length: Math.max(1, Math.ceil(5 / list.length)) }).flatMap((_, rep) => list.map((c) => renderCard(c, `${copy}-${rep}-${c.id}`)))}
                           </div>
                         ))}
                       </div>
                     </div>
                   ) : (
-                    <div className="mt-4 grid gap-2.5">{list.map((c) => renderCard(c, String(c.id)))}</div>
+                    <div className="mt-3 grid gap-2">{list.map((c) => renderCard(c, String(c.id)))}</div>
                   )
                 )}
               </>
@@ -186,7 +186,7 @@ export const CommentsSection: React.FC = () => {
               <p className="mt-4 text-sm font-bold leading-relaxed text-[#17366F]">{t.thanks}</p>
             </div>
           ) : (
-            <form onSubmit={submit} className="flex flex-col rounded-3xl border border-[#D9E8F8] bg-white p-5 shadow-[0_10px_30px_rgba(57,130,200,0.10)] sm:p-6">
+            <form onSubmit={submit} className="flex flex-col rounded-[2rem] border border-[#D9E8F8] bg-white p-4 shadow-[0_10px_30px_rgba(57,130,200,0.10)] sm:p-5">
               <input value={website} onChange={(e) => setWebsite(e.target.value)} tabIndex={-1} autoComplete="off" aria-hidden className="absolute -left-[9999px] h-0 w-0 opacity-0" />
               <p className="text-xs font-extrabold uppercase tracking-wider text-[#647DA5]">{t.rate}</p>
               <div className="mt-1.5 flex items-center gap-1" role="radiogroup" aria-label={t.rate}>
@@ -198,7 +198,7 @@ export const CommentsSection: React.FC = () => {
                 {stars > 0 && <span className="ml-2 text-sm font-extrabold text-[#E73578]">{t.ratings[stars]}</span>}
               </div>
               <input value={name} maxLength={40} onChange={(e) => setName(e.target.value)} placeholder={t.name} className="mt-4 w-full rounded-xl border border-[#D9E8F8] bg-[#F4F9FF] px-4 py-3 text-sm text-[#172B4D] outline-none focus:border-[#3982C8]" />
-              <textarea required minLength={5} maxLength={600} rows={4} value={message} onChange={(e) => setMessage(e.target.value)} placeholder={t.message} className="mt-3 min-h-[7rem] w-full flex-1 resize-none rounded-xl border border-[#D9E8F8] bg-[#F4F9FF] px-4 py-3 text-sm text-[#172B4D] outline-none focus:border-[#3982C8]" />
+              <textarea required minLength={5} maxLength={600} rows={3} value={message} onChange={(e) => setMessage(e.target.value)} placeholder={t.message} className="mt-3 min-h-[5.5rem] w-full flex-1 resize-none rounded-xl border border-[#D9E8F8] bg-[#F4F9FF] px-4 py-3 text-sm text-[#172B4D] outline-none focus:border-[#3982C8]" />
               <p className="mt-1 text-right text-[11px] text-[#647DA5]">{message.length}/600</p>
               {err && <p className="mt-1 text-xs font-bold text-[#E73578]">{err}</p>}
               <button type="submit" disabled={state === 'sending'} className="mt-2 w-full cursor-pointer rounded-full bg-[#E73578] px-6 py-3.5 text-sm font-extrabold text-white shadow-lg shadow-[#E73578]/25 transition-all hover:bg-[#D0306C] active:scale-[0.98] disabled:opacity-60">{state === 'sending' ? t.sending : t.send}</button>
