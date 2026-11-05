@@ -347,6 +347,9 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
           )}
         </div>
 
+        {/* Separate from the newsletter: the t-shirt coupon list */}
+        <div className="mx-auto -mt-6 mb-14 w-full max-w-3xl"><TshirtCapture source="newsletter_page" variant="mini" flush /></div>
+
         {/* =========================================================================
             3 BENEFITS PILLARS (Clean, Simple Words)
             ========================================================================= */}
@@ -388,9 +391,6 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
             </div>
           </div>
         </div>
-
-        {/* Separate from the newsletter: the t-shirt coupon list */}
-        <div className="mx-auto mt-10 w-full max-w-3xl"><TshirtCapture source="newsletter_page" variant="mini" flush /></div>
       </div>
     </div>
   );
