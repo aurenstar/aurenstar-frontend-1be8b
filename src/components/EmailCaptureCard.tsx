@@ -11,7 +11,7 @@ const TEXT = {
     title: 'Gostou? Receba mais, direto no seu e-mail',
     sub: 'Escolha o que você quer receber (um só e-mail para os dois).',
     news: 'Newsletter', newsSub: 'Novos artigos e novidades',
-    shirt: 'Cupom das camisetas', shirtSub: (n: number | null) => (n === null ? 'Desconto para as 100 primeiras pessoas' : `Desconto para as 100 primeiras · restam ${n}`),
+    shirt: 'Cupom das camisetas', shirtSub: (n: number | null) => (n === null || n < 10 ? 'Desconto no lançamento para quem entrar' : `Desconto no lançamento · ${n} pessoas já entraram`),
     placeholder: 'Digite o seu melhor e-mail', cta: 'Quero receber', sending: 'Enviando…',
     pick: 'Marque pelo menos uma opção para continuar.',
     trust: 'Sem spam. Você sai da lista quando quiser.',
@@ -22,7 +22,7 @@ const TEXT = {
     title: 'Enjoyed this? Get more, straight to your inbox',
     sub: 'Pick what you want to receive (one e-mail for both).',
     news: 'Newsletter', newsSub: 'New articles and news',
-    shirt: 'T-shirt coupon', shirtSub: (n: number | null) => (n === null ? 'Discount for the first 100 people' : `Discount for the first 100 · ${n} left`),
+    shirt: 'T-shirt coupon', shirtSub: (n: number | null) => (n === null || n < 10 ? 'Launch discount for everyone who joins' : `Launch discount · ${n} people have joined`),
     placeholder: 'Enter your best email', cta: 'Sign me up', sending: 'Sending…',
     pick: 'Tick at least one option to continue.',
     trust: 'No spam. Leave the list anytime.',
@@ -33,7 +33,7 @@ const TEXT = {
     title: '¿Te gustó? Recibe más, directo en tu correo',
     sub: 'Elige lo que quieres recibir (un solo correo para ambos).',
     news: 'Newsletter', newsSub: 'Nuevos artículos y novedades',
-    shirt: 'Cupón de camisetas', shirtSub: (n: number | null) => (n === null ? 'Descuento para las primeras 100 personas' : `Descuento para las primeras 100 · quedan ${n}`),
+    shirt: 'Cupón de camisetas', shirtSub: (n: number | null) => (n === null || n < 10 ? 'Descuento en el lanzamiento para quien entre' : `Descuento en el lanzamiento · ${n} personas ya entraron`),
     placeholder: 'Escribe tu mejor correo', cta: 'Quiero recibirlo', sending: 'Enviando…',
     pick: 'Marca al menos una opción para continuar.',
     trust: 'Sin spam. Sales de la lista cuando quieras.',
@@ -57,8 +57,8 @@ export const EmailCaptureCard: React.FC<{ source: SubscribeSource; sign?: string
   const [hasShirt, setHasShirt] = useState(() => isOnTshirtList());
   const [state, setState] = useState<'idle' | 'sending' | 'done' | 'error'>('idle');
   const [joined, setJoined] = useState<{ news: boolean; shirt: boolean }>({ news: false, shirt: false });
-  const [left, setLeft] = useState<number | null>(null);
-  useEffect(() => { if (!hasShirt) getCouponSpots().then((s) => setLeft(s.left)); }, [hasShirt]);
+  const [people, setPeople] = useState<number | null>(null);
+  useEffect(() => { if (!hasShirt) getCouponSpots().then((s) => setPeople(s.taken)); }, [hasShirt]);
   useEffect(() => {
     const h = () => setHasShirt(true);
     window.addEventListener('aurenstar-tshirt-joined', h);
@@ -105,7 +105,7 @@ export const EmailCaptureCard: React.FC<{ source: SubscribeSource; sign?: string
   const cta = 'shrink-0 cursor-pointer rounded-full bg-[#E73578] px-7 py-3.5 text-sm font-extrabold text-white shadow-lg shadow-[#E73578]/25 transition-all hover:scale-[1.03] hover:bg-[#D0306C] active:scale-95 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:scale-100';
   const options = [
     !hasNews && { key: 'news', on: wantNews, set: setWantNews, icon: <Mail className="h-5 w-5" />, title: t.news, sub: t.newsSub, consent: NEWSLETTER_CONSENT[lang] },
-    !hasShirt && { key: 'shirt', on: wantShirt, set: setWantShirt, icon: <Shirt className="h-5 w-5" />, title: t.shirt, sub: t.shirtSub(left === 0 ? null : left), consent: TSHIRT_CONSENT[lang] },
+    !hasShirt && { key: 'shirt', on: wantShirt, set: setWantShirt, icon: <Shirt className="h-5 w-5" />, title: t.shirt, sub: t.shirtSub(people), consent: TSHIRT_CONSENT[lang] },
   ].filter(Boolean) as { key: string; on: boolean; set: (v: boolean) => void; icon: React.ReactNode; title: string; sub: string; consent: string }[];
 
   return (

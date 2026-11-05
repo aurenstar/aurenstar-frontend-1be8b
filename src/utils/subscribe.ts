@@ -30,19 +30,19 @@ export async function subscribeEmail(opts: { email: string; sign?: string; lang:
   }
 }
 
-/** Spots left for the launch coupon (first 100 people). left = null when it could not be checked: the page then shows no number.
+/** How many people joined the t-shirt coupon list (no cap, the number only goes up). taken = null when it could not be checked: the page then shows no number.
  *  The answer is reused for 10 minutes (kept in the browser, even after closing it) (all cards on the page share one call, and so do the next pages), saving server calls. */
-let spotsMemo: { at: number; value: { limit: number; left: number | null } } | null = null;
-let spotsInFlight: Promise<{ limit: number; left: number | null }> | null = null;
+let spotsMemo: { at: number; value: { taken: number | null } } | null = null;
+let spotsInFlight: Promise<{ taken: number | null }> | null = null;
 const SPOTS_KEY = 'aurenstar_spots';
 const SPOTS_MS = 600_000; // 10 minutes
-export async function getCouponSpots(): Promise<{ limit: number; left: number | null }> {
+export async function getCouponSpots(): Promise<{ taken: number | null }> {
   const now = Date.now();
   if (spotsMemo && now - spotsMemo.at < SPOTS_MS) return spotsMemo.value;
   try {
     const raw = localStorage.getItem(SPOTS_KEY);
     if (raw) {
-      const c = JSON.parse(raw) as { at: number; value: { limit: number; left: number | null } };
+      const c = JSON.parse(raw) as { at: number; value: { taken: number | null } };
       if (now - c.at < SPOTS_MS) { spotsMemo = c; return c.value; }
     }
   } catch { /* storage blocked */ }
@@ -50,14 +50,14 @@ export async function getCouponSpots(): Promise<{ limit: number; left: number | 
   spotsInFlight = (async () => {
     try {
       const res = await fetch('/api/tshirt-spots');
-      if (!res.ok) return { limit: 100, left: null };
-      const d = (await res.json()) as { limit?: number; left?: number | null };
-      const value = { limit: d.limit || 100, left: typeof d.left === 'number' ? d.left : null };
+      if (!res.ok) return { taken: null };
+      const d = (await res.json()) as { taken?: number | null };
+      const value = { taken: typeof d.taken === 'number' ? d.taken : null };
       spotsMemo = { at: Date.now(), value };
       try { localStorage.setItem(SPOTS_KEY, JSON.stringify(spotsMemo)); } catch { /* storage blocked */ }
       return value;
     } catch {
-      return { limit: 100, left: null };
+      return { taken: null };
     } finally {
       spotsInFlight = null;
     }

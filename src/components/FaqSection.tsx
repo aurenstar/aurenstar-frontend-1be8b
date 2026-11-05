@@ -39,7 +39,7 @@ const FAQS: FaqItem[] = [
   },
   {
     question: { pt: 'Vocês vão lançar camisetas?', en: 'Are you launching t-shirts?', es: '¿Van a lanzar camisetas?' },
-    answer: { pt: 'Sim, estão a caminho. As 100 primeiras pessoas da lista ganham um cupom de desconto no lançamento. Basta entrar na lista pela caixinha que aparece nas páginas do site. Só avisamos do lançamento.', en: 'Yes, they are on the way. The first 100 people on the list get a launch discount coupon. Just join the list with the sign-up box that appears on the site\'s pages. We only write about the launch.', es: 'Sí, están en camino. Las primeras 100 personas de la lista reciben un cupón de descuento en el lanzamiento. Solo tienes que entrar en la lista con el cuadro que aparece en las páginas del sitio. Solo avisamos del lanzamiento.' },
+    answer: { pt: 'Sim, estão a caminho. Quem entra na lista ganha um cupom de desconto no lançamento. Basta entrar na lista pela caixinha que aparece nas páginas do site. Só avisamos do lançamento.', en: 'Yes, they are on the way. Everyone on the list gets a launch discount coupon. Just join the list with the sign-up box that appears on the site\'s pages. We only write about the launch.', es: 'Sí, están en camino. Quien entra en la lista recibe un cupón de descuento en el lanzamiento. Solo tienes que entrar en la lista con el cuadro que aparece en las páginas del sitio. Solo avisamos del lanzamiento.' },
   },
   {
     question: { pt: 'Em quais idiomas o site funciona?', en: 'Which languages does the site work in?', es: '¿En qué idiomas funciona el sitio?' },
