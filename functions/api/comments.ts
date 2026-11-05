@@ -1,6 +1,6 @@
 // Cloudflare Pages Function -> GET /api/comments (approved comments) and POST /api/comments { name?, message, stars?, sign?, lang, website }
 // New comments are saved as "pending": they appear on the site only after the owner approves them in the database.
-import { countHit, listComments, recordComment, usageKey, type UsageEnv } from '../../server/engine/usage';
+import { countHit, listComments, recordComment, saveReading, usageKey, type UsageEnv } from '../../server/engine/usage';
 import { humanCheck, humanCheckFailed } from '../../server/engine/turnstile';
 import { translateStrings, type TranslateEnv } from '../../server/engine/translateStrings';
 import { moderateComment, statusFor } from '../../server/engine/moderateComment';
@@ -62,7 +62,11 @@ const post = async ({ request, env }: { request: Request; env: UsageEnv }, devic
         body: JSON.stringify({ name: entry.name, message: entry.message, stars: entry.stars || null, sign: entry.sign, lang: entry.lang, country: country || null, status: statusFor(m.verdict), moderated_by: 'ai', moderation_note: m.reason, moderated_at: new Date().toISOString() }),
       });
       if (res.ok) return json({ ok: true });
-    } catch { /* falls back to the normal (pending) save below */ }
+      // Temporary diagnostics: only the error code and text returned by the database (never any key).
+      await saveReading(env, 'dbg-comment-insert', { at: new Date().toISOString(), status: res.status, body: (await res.text()).slice(0, 300) });
+    } catch (err) {
+      await saveReading(env, 'dbg-comment-insert', { at: new Date().toISOString(), error: String(err).slice(0, 200) });
+    }
   }
   const saved = await recordComment(env, entry);
   return saved ? json({ ok: true }) : json({ ok: false, reason: 'unavailable' }, 502);
