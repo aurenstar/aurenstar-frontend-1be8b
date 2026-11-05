@@ -41,6 +41,7 @@ const PublicDictionaryPage = lazy(() => import('./pages/PublicDictionaryPage').t
 const PublicDictionaryTermPage = lazy(() => import('./pages/PublicDictionaryTermPage').then((m) => ({ default: m.PublicDictionaryTermPage })));
 const DescribeMePage = lazy(() => import('./pages/DescribeMePage').then((m) => ({ default: m.DescribeMePage })));
 const DescribeMeResultPage = lazy(() => import('./pages/DescribeMeResultPage').then((m) => ({ default: m.DescribeMeResultPage })));
+const AdminPage = lazy(() => import('./pages/AdminPage').then((m) => ({ default: m.AdminPage })));
 const AboutProfilePage = lazy(() => import('./pages/AboutProfilePage').then((m) => ({ default: m.AboutProfilePage })));
 
 export type AppPageRoute =
@@ -54,6 +55,7 @@ export type AppPageRoute =
   | 'compatibility'
   | 'transits'
   | 'newsletter'
+  | 'admin'
   | 'daily-message'
   | 'daily-reading-result'
   | 'aureneffect'
@@ -140,6 +142,8 @@ export default function App() {
         setCurrentPage('privacy');
       } else if (path === '/terms' || hash === '#/terms') {
         setCurrentPage('terms');
+      } else if (path === '/admin' || hash === '#/admin') {
+        setCurrentPage('admin');
       } else if (path === '/newsletter' || hash === '#/newsletter') {
         setCurrentPage('newsletter');
       } else if (routeMatches('/descreva-me', '/describe-me', '#/descreva-me')) {
@@ -395,6 +399,12 @@ export default function App() {
         {(currentPage === 'privacy' || currentPage === 'terms') && (
           <main className="flex-1">
             <LegalPage kind={currentPage} onBackToHome={() => handleNavigate('home')} />
+          </main>
+        )}
+
+        {currentPage === 'admin' && (
+          <main className="flex-1">
+            <AdminPage onBackToHome={() => handleNavigate('home')} />
           </main>
         )}
 

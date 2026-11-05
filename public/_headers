@@ -8,6 +8,9 @@
 /dictionary
   X-Robots-Tag: noindex
 
+/admin
+  X-Robots-Tag: noindex
+
 /daily-reading-result
   X-Robots-Tag: noindex
 

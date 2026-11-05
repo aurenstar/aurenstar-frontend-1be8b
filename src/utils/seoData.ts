@@ -25,6 +25,7 @@ export type SeoPage =
   | 'compatibility'
   | 'transits'
   | 'newsletter'
+  | 'admin'
   | 'daily-message'
   | 'daily-reading-result'
   | 'aureneffect'
@@ -77,6 +78,7 @@ const NOINDEX_PAGES = new Set<SeoPage>([
   'discover-sign-result',
   'describe-me-result',
   'dictionary',
+  'admin',
 ]);
 
 export const ABOUT_SECTIONS: Record<string, { title: string; description: string }> = {
@@ -131,6 +133,7 @@ const pageCopy: Record<SeoPage, { title: string; description: string; path: stri
   },
   privacy: { title: 'Privacy Policy | Aurenstar', description: 'How Aurenstar handles your data, cookies and privacy choices.', path: '/privacy' },
   terms: { title: 'Terms of Service | Aurenstar', description: 'The simple rules for using Aurenstar astrology tools and content.', path: '/terms' },
+  admin: { title: 'Admin | Aurenstar', description: 'Owner-only panel.', path: '/admin' },
   newsletter: {
     title: 'Aurenstar Newsletter | Astrology News & New Articles',
     description: 'Subscribe to get new astrology articles, tips and Aurenstar news in your inbox.',
@@ -210,6 +213,7 @@ export const STATIC_ROUTES: SeoPage[] = ([
   'compatibility',
   'transits',
   'newsletter',
+  'admin',
   'daily-message',
   'daily-reading-result',
   'aureneffect',
