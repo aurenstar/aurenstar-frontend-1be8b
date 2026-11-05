@@ -1,109 +1,9 @@
-export type SeoPage =
-  | 'home'
-  | 'blog'
-  | 'article'
-  | 'contact'
-  | 'newsletter'
-  | 'daily-message'
-  | 'daily-reading-result'
-  | 'aureneffect'
-  | 'aureneffect-result'
-  | 'discover-sign'
-  | 'discover-sign-result'
-  | 'dictionary'
-  | 'dicionario'
-  | 'dicionario-termo'
-  | 'about-detail'
-  | 'describe-me'
-  | 'describe-me-result';
+import { getSeoData, SITE_NAME } from './seoData';
+import { getUrlLang } from './urlLang';
+import { translateUi } from './uiTranslate';
+import type { SeoOptions, SeoPage } from './seoData';
 
-const SITE_URL = 'https://aurenstar.com';
-const DEFAULT_DESCRIPTION =
-  'Explore astrology in simple language with daily messages, zodiac guidance, and the Aurenstar astrology dictionary.';
-
-const pageCopy: Record<SeoPage, { title: string; description: string; path: string }> = {
-  home: {
-    title: 'Aurenstar | Simple Astrology, Daily Guidance & Zodiac Insights',
-    description: DEFAULT_DESCRIPTION,
-    path: '/',
-  },
-  blog: {
-    title: 'Astrology Blog | Aurenstar',
-    description: 'Practical astrology articles, zodiac insights, and simple explanations from Aurenstar.',
-    path: '/blog',
-  },
-  article: {
-    title: 'Astrology Article | Aurenstar',
-    description: 'Read an accessible astrology guide from Aurenstar.',
-    path: '/blog',
-  },
-  contact: { title: 'Contact Aurenstar', description: 'Get in touch with the Aurenstar team.', path: '/contact' },
-  newsletter: {
-    title: 'Aurenstar Astrology Newsletter',
-    description: 'Receive thoughtful astrology guidance and new Aurenstar articles.',
-    path: '/newsletter',
-  },
-  'daily-message': {
-    title: 'Aurendaily | Personalized Daily Astrology',
-    description: 'Receive a gentle, practical astrology message for your day.',
-    path: '/daily-message',
-  },
-  'daily-reading-result': {
-    title: 'Aurendaily Reading | Aurenstar',
-    description: 'Your personalized daily astrology reflection from Aurenstar.',
-    path: '/daily-reading-result',
-  },
-  aureneffect: {
-    title: 'Discover Your Auren Effect | Aurenstar',
-    description: 'Explore a personalized reflection inspired by your birth details and intentions.',
-    path: '/aureneffect',
-  },
-  'aureneffect-result': {
-    title: 'Your Auren Effect Reading | Aurenstar',
-    description: 'Explore your personalized Auren Effect reading.',
-    path: '/aureneffect-result',
-  },
-  'discover-sign': {
-    title: 'Sign Calculator | Discover Your Sign',
-    description: 'Find your zodiac sign and explore its personality, element, and guidance.',
-    path: '/discover-sign',
-  },
-  'discover-sign-result': {
-    title: 'Sign Calculator Result | Aurenstar',
-    description: 'Explore your zodiac sign and personalized guidance from Aurenstar.',
-    path: '/discover-sign-result',
-  },
-  dictionary: {
-    title: 'Aurenstar Dictionary | Astrology Terms',
-    description: 'Understand astrology terms in clear, welcoming language.',
-    path: '/dictionary',
-  },
-  dicionario: {
-    title: 'Aurenstar Dictionary | Astrology Terms',
-    description: 'Understand astrology terms in clear, welcoming language.',
-    path: '/dicionario',
-  },
-  'dicionario-termo': {
-    title: 'Astrology Term | Aurenstar Dictionary',
-    description: 'Learn what an astrology term means in simple language.',
-    path: '/dicionario',
-  },
-  'about-detail': {
-    title: 'About Aurenstar | Simple Astrology Tools',
-    description: 'Learn how Aurenstar daily messages, sign discovery, astrology dictionary, and blog work.',
-    path: '/about',
-  },
-  'describe-me': {
-    title: 'Aurenstar Unfiltered | Personalized Astrology Description',
-    description: 'Create a personal, playful Aurenstar Unfiltered astrology description designed to share.',
-    path: '/descreva-me',
-  },
-  'describe-me-result': {
-    title: 'Aurenstar Unfiltered Result | Aurenstar',
-    description: 'Read and share your personalized Aurenstar Unfiltered astrology description.',
-    path: '/descreva-me-result',
-  },
-};
+export type { SeoPage, SeoOptions } from './seoData';
 
 function setMeta(attribute: 'name' | 'property', key: string, content: string) {
   let element = document.head.querySelector<HTMLMetaElement>(`meta[${attribute}="${key}"]`);
@@ -113,6 +13,10 @@ function setMeta(attribute: 'name' | 'property', key: string, content: string) {
     document.head.appendChild(element);
   }
   element.content = content;
+}
+
+function removeMeta(attribute: 'name' | 'property', key: string) {
+  document.head.querySelector(`meta[${attribute}="${key}"]`)?.remove();
 }
 
 function setCanonical(url: string) {
@@ -135,33 +39,54 @@ function setStructuredData(data: Record<string, unknown>) {
   document.head.appendChild(script);
 }
 
-export function updateSeo(page: SeoPage, options?: { articleId?: string; termSlug?: string }) {
-  const copy = pageCopy[page] ?? pageCopy.home;
-  const path =
-    page === 'article' && options?.articleId
-      ? `/blog/${encodeURIComponent(options.articleId)}`
-      : page === 'dicionario-termo' && options?.termSlug
-        ? `/dicionario/${encodeURIComponent(options.termSlug)}`
-        : copy.path;
-  const url = `${SITE_URL}${path}`;
+/**
+ * Applies the same SEO data that the build step (scripts/prerender.ts) bakes into
+ * the static HTML, so client-side navigation keeps the <head> in sync.
+ */
+export function updateSeo(page: SeoPage, options?: SeoOptions) {
+  const seo = getSeoData(page, options);
 
-  document.title = copy.title;
-  setMeta('name', 'description', copy.description || DEFAULT_DESCRIPTION);
-  setMeta('property', 'og:title', copy.title);
-  setMeta('property', 'og:description', copy.description || DEFAULT_DESCRIPTION);
-  setMeta('property', 'og:type', page === 'article' ? 'article' : 'website');
-  setMeta('property', 'og:url', url);
-  setMeta('name', 'twitter:title', copy.title);
-  setMeta('name', 'twitter:description', copy.description || DEFAULT_DESCRIPTION);
-  setCanonical(url);
+  document.title = seo.title;
+  document.documentElement.lang = seo.lang;
+  setMeta('name', 'description', seo.description);
+  setMeta('name', 'robots', seo.robots);
+  const urlLang = getUrlLang();
+  if (urlLang) document.documentElement.lang = urlLang;
+  // Language address: the canonical address is the one of that language (https://aurenstar.com/nl/blog).
+  const here = urlLang ? seo.url.replace(/^(https?:\/\/[^/]+)(\/.*)?$/, (_m, origin, rest) => `${origin}/${urlLang}${rest && rest !== '/' ? rest : ''}`) : seo.url;
+  setCanonical(here);
 
-  setStructuredData({
-    '@context': 'https://schema.org',
-    '@type': page === 'article' ? 'Article' : 'WebPage',
-    name: copy.title,
-    description: copy.description,
-    url,
-    isPartOf: { '@type': 'WebSite', name: 'Aurenstar', url: SITE_URL },
-  });
+  setMeta('property', 'og:site_name', SITE_NAME);
+  setMeta('property', 'og:locale', seo.locale);
+  setMeta('property', 'og:type', seo.ogType);
+  setMeta('property', 'og:title', seo.title);
+  setMeta('property', 'og:description', seo.description);
+  setMeta('property', 'og:url', here);
+  setMeta('property', 'og:image', seo.image);
+
+  setMeta('name', 'twitter:card', 'summary_large_image');
+  setMeta('name', 'twitter:title', seo.title);
+  setMeta('name', 'twitter:description', seo.description);
+  setMeta('name', 'twitter:image', seo.image);
+
+  if (seo.ogType === 'article' && seo.publishedTime) {
+    setMeta('property', 'article:published_time', seo.publishedTime);
+  } else {
+    removeMeta('property', 'article:published_time');
+  }
+
+  setStructuredData(seo.jsonLd);
+
+  // Moving between pages inside a language address (no new server answer): translate the tab title and descriptions here.
+  if (urlLang) {
+    translateUi(urlLang, [seo.title, seo.description]).then((out) => {
+      if (!out || getUrlLang() !== urlLang || document.title !== seo.title) return;
+      document.title = out[0];
+      setMeta('name', 'description', out[1]);
+      setMeta('property', 'og:title', out[0]);
+      setMeta('property', 'og:description', out[1]);
+      setMeta('name', 'twitter:title', out[0]);
+      setMeta('name', 'twitter:description', out[1]);
+    });
+  }
 }
-

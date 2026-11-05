@@ -21,7 +21,7 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({ lang }
           quote:
             'Eles trouxeram clareza para problemas que pareciam nós impossíveis de desatar. Quebraram barreiras e deixaram tudo simples de rodar.',
           image:
-            'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1507003211169-0a1dd7228f-600.webp',
           company: 'TECH INNOVATIONS',
         },
         {
@@ -31,7 +31,7 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({ lang }
           quote:
             'A clareza deles resolveu nossos maiores entraves. Abriram novos caminhos e criaram rotinas que dão gosto de executar todos os dias.',
           image:
-            'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1580489944761-15a19d6549-600.webp',
           company: 'STUDIO CRIATIVO',
         },
         {
@@ -41,7 +41,7 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({ lang }
           quote:
             'Encontramos foco muito rápido. Tiraram toda a enrolação e nos deram a certeza e a tranquilidade que precisávamos para crescer.',
           image:
-            'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1500648767791-00dcc994a4-600.webp',
           company: 'LOGÍSTICA EXPRESS',
         },
         {
@@ -51,7 +51,7 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({ lang }
           quote:
             'Nunca imaginei que organizar as finanças e o atendimento pudesse ser tão leve. O suporte é carinhoso, rápido e muito eficiente!',
           image:
-            'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1573496359142-b8d87734a5-600.webp',
           company: 'VIVA E-COMMERCE',
         },
       ],
@@ -68,7 +68,7 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({ lang }
           quote:
             'They brought clarity to complex problems, breaking down barriers and delivering innovative solutions.',
           image:
-            'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1507003211169-0a1dd7228f-600.webp',
           company: 'TECH INNOVATIONS',
         },
         {
@@ -78,7 +78,7 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({ lang }
           quote:
             'Their insight resolved difficult hurdles, opening new paths and creating highly effective strategies.',
           image:
-            'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1580489944761-15a19d6549-600.webp',
           company: 'STUDIO GROUP',
         },
         {
@@ -88,7 +88,7 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({ lang }
           quote:
             'We found focus fast with clear requirements, cutting ambiguity and providing true confidence.',
           image:
-            'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1500648767791-00dcc994a4-600.webp',
           company: 'EXPRESS LOGISTICS',
         },
         {
@@ -98,7 +98,7 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({ lang }
           quote:
             'Never thought managing workflows could feel this effortless. The team is warm, fast, and remarkably sharp.',
           image:
-            'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80',
+            '/assets/img/1573496359142-b8d87734a5-600.webp',
           company: 'VIVA COMMERCE',
         },
       ],
@@ -167,7 +167,7 @@ export const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({ lang }
               className="h-[460px] sm:h-[490px] rounded-3xl overflow-hidden relative shadow-lg group hover:shadow-2xl transition-all duration-300 hover:-translate-y-1.5 flex flex-col justify-between p-6 sm:p-7 text-white"
             >
               {/* Background Photo */}
-              <img
+              <img loading="lazy" decoding="async"
                 src={item.image}
                 alt={item.name}
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter brightness-90"

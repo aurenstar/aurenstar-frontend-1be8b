@@ -1,0 +1,470 @@
+[
+ {
+  "term": "Natal Chart",
+  "question": "What is a natal chart?",
+  "category": "Chart Concepts",
+  "icon": "🗺️"
+ },
+ {
+  "term": "Birth Time",
+  "question": "Why does birth time matter in astrology?",
+  "category": "Chart Concepts",
+  "icon": "⏰"
+ },
+ {
+  "term": "Astrological Houses",
+  "question": "What are the houses in astrology?",
+  "category": "Chart Concepts",
+  "icon": "🏠"
+ },
+ {
+  "term": "Midheaven",
+  "question": "What is the Midheaven in astrology?",
+  "category": "Chart Concepts",
+  "icon": "🏔️"
+ },
+ {
+  "term": "Descendant",
+  "question": "What is the descendant in astrology?",
+  "category": "Chart Concepts",
+  "icon": "🌇"
+ },
+ {
+  "term": "Imum Coeli",
+  "question": "What is the Imum Coeli (IC) in astrology?",
+  "category": "Chart Concepts",
+  "icon": "🌌"
+ },
+ {
+  "term": "Aspects",
+  "question": "What are aspects in astrology?",
+  "category": "Chart Concepts",
+  "icon": "📐"
+ },
+ {
+  "term": "Conjunction",
+  "question": "What is a conjunction in astrology?",
+  "category": "Chart Concepts",
+  "icon": "🤝"
+ },
+ {
+  "term": "Opposition",
+  "question": "What is an opposition in astrology?",
+  "category": "Chart Concepts",
+  "icon": "⚖️"
+ },
+ {
+  "term": "Square Aspect",
+  "question": "What is a square in astrology?",
+  "category": "Chart Concepts",
+  "icon": "⬛"
+ },
+ {
+  "term": "Trine Aspect",
+  "question": "What is a trine in astrology?",
+  "category": "Chart Concepts",
+  "icon": "🔺"
+ },
+ {
+  "term": "Sextile Aspect",
+  "question": "What is a sextile in astrology?",
+  "category": "Chart Concepts",
+  "icon": "✳️"
+ },
+ {
+  "term": "Transit",
+  "question": "What is a transit in astrology?",
+  "category": "Phases & Movements",
+  "icon": "🚀"
+ },
+ {
+  "term": "Synastry",
+  "question": "What is synastry in astrology?",
+  "category": "Chart Concepts",
+  "icon": "💞"
+ },
+ {
+  "term": "Composite Chart",
+  "question": "What is a composite chart?",
+  "category": "Chart Concepts",
+  "icon": "🔗"
+ },
+ {
+  "term": "Solar Return",
+  "question": "What is a solar return?",
+  "category": "Phases & Movements",
+  "icon": "🎂"
+ },
+ {
+  "term": "Saturn Return",
+  "question": "What is a Saturn return?",
+  "category": "Phases & Movements",
+  "icon": "🪐"
+ },
+ {
+  "term": "Chiron",
+  "question": "What is Chiron in astrology?",
+  "category": "Planets & Bodies",
+  "icon": "🩹"
+ },
+ {
+  "term": "Black Moon Lilith",
+  "question": "What is Lilith in astrology?",
+  "category": "Planets & Bodies",
+  "icon": "🌑"
+ },
+ {
+  "term": "North Node",
+  "question": "What is the North Node in astrology?",
+  "category": "Planets & Bodies",
+  "icon": "🧭"
+ },
+ {
+  "term": "South Node",
+  "question": "What is the South Node in astrology?",
+  "category": "Planets & Bodies",
+  "icon": "🌙"
+ },
+ {
+  "term": "Part of Fortune",
+  "question": "What is the Part of Fortune in astrology?",
+  "category": "Chart Concepts",
+  "icon": "🍀"
+ },
+ {
+  "term": "Venus Retrograde",
+  "question": "What is Venus retrograde?",
+  "category": "Phases & Movements",
+  "icon": "💗"
+ },
+ {
+  "term": "Mars Retrograde",
+  "question": "What is Mars retrograde?",
+  "category": "Phases & Movements",
+  "icon": "🔥"
+ },
+ {
+  "term": "Jupiter in Astrology",
+  "question": "What does Jupiter mean in astrology?",
+  "category": "Planets & Bodies",
+  "icon": "🌟"
+ },
+ {
+  "term": "Saturn in Astrology",
+  "question": "What does Saturn mean in astrology?",
+  "category": "Planets & Bodies",
+  "icon": "⏳"
+ },
+ {
+  "term": "Uranus in Astrology",
+  "question": "What does Uranus mean in astrology?",
+  "category": "Planets & Bodies",
+  "icon": "⚡"
+ },
+ {
+  "term": "Neptune in Astrology",
+  "question": "What does Neptune mean in astrology?",
+  "category": "Planets & Bodies",
+  "icon": "🌊"
+ },
+ {
+  "term": "Pluto in Astrology",
+  "question": "What does Pluto mean in astrology?",
+  "category": "Planets & Bodies",
+  "icon": "🔮"
+ },
+ {
+  "term": "Venus in Astrology",
+  "question": "What does Venus mean in astrology?",
+  "category": "Planets & Bodies",
+  "icon": "💖"
+ },
+ {
+  "term": "Mars in Astrology",
+  "question": "What does Mars mean in astrology?",
+  "category": "Planets & Bodies",
+  "icon": "🛡️"
+ },
+ {
+  "term": "Mercury in Astrology",
+  "question": "What does Mercury mean in astrology?",
+  "category": "Planets & Bodies",
+  "icon": "💬"
+ },
+ {
+  "term": "Moon Sign",
+  "question": "What is a moon sign?",
+  "category": "Planets & Bodies",
+  "icon": "🌙"
+ },
+ {
+  "term": "Sun Sign",
+  "question": "What is a sun sign?",
+  "category": "Planets & Bodies",
+  "icon": "☀️"
+ },
+ {
+  "term": "New Moon",
+  "question": "What is a new moon in astrology?",
+  "category": "Phases & Movements",
+  "icon": "🌑"
+ },
+ {
+  "term": "Full Moon",
+  "question": "What is a full moon in astrology?",
+  "category": "Phases & Movements",
+  "icon": "🌕"
+ },
+ {
+  "term": "Waxing Moon",
+  "question": "What is a waxing moon?",
+  "category": "Phases & Movements",
+  "icon": "🌓"
+ },
+ {
+  "term": "Waning Moon",
+  "question": "What is a waning moon?",
+  "category": "Phases & Movements",
+  "icon": "🌗"
+ },
+ {
+  "term": "Solar Eclipse",
+  "question": "What is a solar eclipse in astrology?",
+  "category": "Phases & Movements",
+  "icon": "🌒"
+ },
+ {
+  "term": "Lunar Eclipse",
+  "question": "What is a lunar eclipse in astrology?",
+  "category": "Phases & Movements",
+  "icon": "🌘"
+ },
+ {
+  "term": "Void of Course Moon",
+  "question": "What is a void of course moon?",
+  "category": "Phases & Movements",
+  "icon": "🌫️"
+ },
+ {
+  "term": "Cardinal Signs",
+  "question": "What are the cardinal signs?",
+  "category": "Signs & Elements",
+  "icon": "🚪"
+ },
+ {
+  "term": "Fixed Signs",
+  "question": "What are the fixed signs?",
+  "category": "Signs & Elements",
+  "icon": "🧱"
+ },
+ {
+  "term": "Mutable Signs",
+  "question": "What are the mutable signs?",
+  "category": "Signs & Elements",
+  "icon": "🍃"
+ },
+ {
+  "term": "Fire Signs",
+  "question": "What are the fire signs?",
+  "category": "Signs & Elements",
+  "icon": "🔥"
+ },
+ {
+  "term": "Earth Signs",
+  "question": "What are the earth signs?",
+  "category": "Signs & Elements",
+  "icon": "🌿"
+ },
+ {
+  "term": "Air Signs",
+  "question": "What are the air signs?",
+  "category": "Signs & Elements",
+  "icon": "💨"
+ },
+ {
+  "term": "Water Signs",
+  "question": "What are the water signs?",
+  "category": "Signs & Elements",
+  "icon": "💧"
+ },
+ {
+  "term": "Zodiac",
+  "question": "What is the zodiac?",
+  "category": "Signs & Elements",
+  "icon": "♈"
+ },
+ {
+  "term": "Decans",
+  "question": "What are decans in astrology?",
+  "category": "Signs & Elements",
+  "icon": "🔟"
+ },
+ {
+  "term": "Cusp Signs",
+  "question": "What does it mean to be born on the cusp?",
+  "category": "Signs & Elements",
+  "icon": "✂️"
+ },
+ {
+  "term": "Planetary Ruler",
+  "question": "What is a ruling planet in astrology?",
+  "category": "Planets & Bodies",
+  "icon": "👑"
+ },
+ {
+  "term": "Retrograde",
+  "question": "What does retrograde mean in astrology?",
+  "category": "Phases & Movements",
+  "icon": "↩️"
+ },
+ {
+  "term": "Stellium",
+  "question": "What is a stellium in astrology?",
+  "category": "Chart Concepts",
+  "icon": "✨"
+ },
+ {
+  "term": "Moon in Aries",
+  "question": "What does the Moon in Aries mean?",
+  "category": "Planets & Bodies",
+  "icon": "♈"
+ },
+ {
+  "term": "Moon in Taurus",
+  "question": "What does the Moon in Taurus mean?",
+  "category": "Planets & Bodies",
+  "icon": "♉"
+ },
+ {
+  "term": "Moon in Gemini",
+  "question": "What does the Moon in Gemini mean?",
+  "category": "Planets & Bodies",
+  "icon": "♊"
+ },
+ {
+  "term": "Moon in Cancer",
+  "question": "What does the Moon in Cancer mean?",
+  "category": "Planets & Bodies",
+  "icon": "♋"
+ },
+ {
+  "term": "Moon in Leo",
+  "question": "What does the Moon in Leo mean?",
+  "category": "Planets & Bodies",
+  "icon": "♌"
+ },
+ {
+  "term": "Moon in Virgo",
+  "question": "What does the Moon in Virgo mean?",
+  "category": "Planets & Bodies",
+  "icon": "♍"
+ },
+ {
+  "term": "Moon in Libra",
+  "question": "What does the Moon in Libra mean?",
+  "category": "Planets & Bodies",
+  "icon": "♎"
+ },
+ {
+  "term": "Moon in Scorpio",
+  "question": "What does the Moon in Scorpio mean?",
+  "category": "Planets & Bodies",
+  "icon": "♏"
+ },
+ {
+  "term": "Moon in Sagittarius",
+  "question": "What does the Moon in Sagittarius mean?",
+  "category": "Planets & Bodies",
+  "icon": "♐"
+ },
+ {
+  "term": "Moon in Capricorn",
+  "question": "What does the Moon in Capricorn mean?",
+  "category": "Planets & Bodies",
+  "icon": "♑"
+ },
+ {
+  "term": "Moon in Aquarius",
+  "question": "What does the Moon in Aquarius mean?",
+  "category": "Planets & Bodies",
+  "icon": "♒"
+ },
+ {
+  "term": "Moon in Pisces",
+  "question": "What does the Moon in Pisces mean?",
+  "category": "Planets & Bodies",
+  "icon": "♓"
+ },
+ {
+  "term": "Venus in Aries",
+  "question": "What does Venus in Aries mean?",
+  "category": "Planets & Bodies",
+  "icon": "♈"
+ },
+ {
+  "term": "Venus in Taurus",
+  "question": "What does Venus in Taurus mean?",
+  "category": "Planets & Bodies",
+  "icon": "♉"
+ },
+ {
+  "term": "Venus in Gemini",
+  "question": "What does Venus in Gemini mean?",
+  "category": "Planets & Bodies",
+  "icon": "♊"
+ },
+ {
+  "term": "Venus in Cancer",
+  "question": "What does Venus in Cancer mean?",
+  "category": "Planets & Bodies",
+  "icon": "♋"
+ },
+ {
+  "term": "Venus in Leo",
+  "question": "What does Venus in Leo mean?",
+  "category": "Planets & Bodies",
+  "icon": "♌"
+ },
+ {
+  "term": "Venus in Virgo",
+  "question": "What does Venus in Virgo mean?",
+  "category": "Planets & Bodies",
+  "icon": "♍"
+ },
+ {
+  "term": "Venus in Libra",
+  "question": "What does Venus in Libra mean?",
+  "category": "Planets & Bodies",
+  "icon": "♎"
+ },
+ {
+  "term": "Venus in Scorpio",
+  "question": "What does Venus in Scorpio mean?",
+  "category": "Planets & Bodies",
+  "icon": "♏"
+ },
+ {
+  "term": "Venus in Sagittarius",
+  "question": "What does Venus in Sagittarius mean?",
+  "category": "Planets & Bodies",
+  "icon": "♐"
+ },
+ {
+  "term": "Venus in Capricorn",
+  "question": "What does Venus in Capricorn mean?",
+  "category": "Planets & Bodies",
+  "icon": "♑"
+ },
+ {
+  "term": "Venus in Aquarius",
+  "question": "What does Venus in Aquarius mean?",
+  "category": "Planets & Bodies",
+  "icon": "♒"
+ },
+ {
+  "term": "Venus in Pisces",
+  "question": "What does Venus in Pisces mean?",
+  "category": "Planets & Bodies",
+  "icon": "♓"
+ }
+]

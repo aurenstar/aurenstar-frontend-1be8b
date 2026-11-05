@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" preserveAspectRatio="xMidYMid slice" role="img" aria-hidden="true"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B82254"/><stop offset=".55" stop-color="#DC4074"/><stop offset="1" stop-color="#F192B2"/></linearGradient>
+<linearGradient id="pic" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B82254"/><stop offset="1" stop-color="#DC4074"/></linearGradient>
+<linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C0DBF3"/><stop offset="1" stop-color="#79AFDF"/></linearGradient>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="7"/></filter></defs><rect width="520" height="280" fill="url(#bg)"/>
+<circle cx="415.5" cy="91.3" r="0.82" fill="#fff" opacity="0.66"/>
+<circle cx="59.8" cy="133.3" r="1.10" fill="#fff" opacity="0.56"/>
+<circle cx="75.6" cy="176.6" r="1.05" fill="#fff" opacity="0.68"/>
+<circle cx="14.7" cy="268.0" r="0.76" fill="#fff" opacity="0.66"/>
+<circle cx="263.8" cy="234.0" r="0.76" fill="#fff" opacity="0.41"/>
+<circle cx="45.3" cy="218.0" r="1.08" fill="#fff" opacity="0.35"/>
+<circle cx="99.7" cy="22.7" r="0.78" fill="#fff" opacity="0.53"/>
+<circle cx="227.6" cy="197.2" r="0.67" fill="#fff" opacity="0.67"/>
+<circle cx="510.7" cy="207.1" r="1.27" fill="#fff" opacity="0.67"/>
+<circle cx="49.4" cy="129.1" r="0.67" fill="#fff" opacity="0.64"/>
+<circle cx="279.7" cy="29.8" r="1.00" fill="#fff" opacity="0.64"/>
+<circle cx="287.1" cy="34.0" r="1.44" fill="#fff" opacity="0.28"/>
+<circle cx="438.4" cy="272.7" r="1.28" fill="#fff" opacity="0.72"/>
+<circle cx="276.1" cy="61.4" r="1.03" fill="#fff" opacity="0.62"/>
+<circle cx="399.6" cy="107.6" r="1.45" fill="#fff" opacity="0.27"/>
+<circle cx="257.8" cy="11.0" r="0.92" fill="#fff" opacity="0.74"/>
+<circle cx="61.3" cy="276.0" r="1.41" fill="#fff" opacity="0.59"/>
+<circle cx="29.1" cy="132.0" r="1.22" fill="#fff" opacity="0.30"/>
+<circle cx="155.1" cy="25.7" r="1.36" fill="#fff" opacity="0.71"/>
+<circle cx="480.3" cy="210.2" r="1.12" fill="#fff" opacity="0.28"/>
+<circle cx="250.3" cy="213.0" r="1.28" fill="#fff" opacity="0.26"/>
+<circle cx="4.3" cy="24.7" r="1.43" fill="#fff" opacity="0.31"/>
+<circle cx="202.9" cy="133.3" r="1.40" fill="#fff" opacity="0.32"/>
+<circle cx="136.0" cy="216.1" r="0.68" fill="#fff" opacity="0.33"/>
+<circle cx="13.0" cy="268.3" r="0.81" fill="#fff" opacity="0.50"/>
+<circle cx="197.2" cy="274.8" r="1.24" fill="#fff" opacity="0.55"/>
+<circle cx="254.6" cy="75.0" r="1.36" fill="#fff" opacity="0.30"/>
+<circle cx="323.3" cy="82.6" r="0.85" fill="#fff" opacity="0.48"/>
+<circle cx="98.3" cy="165.7" r="0.66" fill="#fff" opacity="0.26"/>
+<circle cx="73.5" cy="25.2" r="1.39" fill="#fff" opacity="0.51"/>
+<circle cx="352.9" cy="218.1" r="0.75" fill="#fff" opacity="0.73"/>
+<circle cx="199.8" cy="128.9" r="1.04" fill="#fff" opacity="0.60"/>
+<circle cx="399.6" cy="54.3" r="1.35" fill="#fff" opacity="0.46"/>
+<circle cx="130.5" cy="242.0" r="1.38" fill="#fff" opacity="0.68"/>
+<circle cx="190" cy="142" r="118" fill="#fff" opacity=".07"/>
+<g transform="translate(222 142) rotate(10)">
+  <rect x="-58" y="-86" width="116" height="172" rx="16" fill="url(#back)"/>
+  <rect x="-44" y="-70" width="60" height="8" rx="4" fill="#fff" opacity=".8"/>
+  <rect x="-44" y="-54" width="40" height="6" rx="3" fill="#fff" opacity=".55"/>
+</g>
+<g transform="translate(190 146) rotate(-7)">
+  <rect x="-58" y="-80" width="116" height="172" rx="16" fill="#12395B" opacity=".35" filter="url(#sh)" transform="translate(4 10)"/>
+  <rect x="-58" y="-86" width="116" height="172" rx="16" fill="#fff"/>
+  <rect x="-48" y="-76" width="96" height="76" rx="11" fill="url(#pic)"/>
+  <circle cx="14" cy="-42" r="22" fill="#FFE9A8"/><circle cx="23" cy="-48" r="19" fill="#DC4074"/>
+  <circle cx="-30" cy="-58" r="1.8" fill="#fff"/><circle cx="-14" cy="-26" r="1.4" fill="#fff"/><circle cx="-34" cy="-20" r="1.6" fill="#fff" opacity=".8"/><circle cx="36" cy="-12" r="1.4" fill="#fff"/>
+  <path d="M-22 -52 Q-20.68 -47.32 -16 -46 Q-20.68 -44.68 -22 -40 Q-23.32 -44.68 -28 -46 Q-23.32 -47.32 -22 -52Z" fill="#fff" opacity="1"/>
+  <rect x="-48" y="12" width="66" height="9" rx="4.5" fill="#1C3348" opacity=".88"/>
+  <rect x="-48" y="28" width="92" height="6" rx="3" fill="#F4A8C1"/>
+  <rect x="-48" y="40" width="72" height="6" rx="3" fill="#FCD3E1"/>
+  <rect x="-48" y="56" width="42" height="16" rx="8" fill="#FEE9F0"/><path d="M-37 59 Q-35.9 62.9 -32 64 Q-35.9 65.1 -37 69 Q-38.1 65.1 -42 64 Q-38.1 62.9 -37 59Z" fill="#DC4074" opacity="1"/>
+  <rect x="-2" y="56" width="38" height="16" rx="8" fill="#DFEEFC"/>
+  <path d="M17 62 c-3.4 -3.6 -8.4 -1.2 -8.4 2.8 c0 4 8.4 8 8.4 8 s8.4 -4 8.4 -8 c0 -4 -5 -6.4 -8.4 -2.8z" fill="#4684BB" transform="translate(0 -1) scale(.92) translate(1.4 1.2)"/>
+</g>
+<path d="M298 150 C350 150 372 96 428 76" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="1 8" opacity=".9"/>
+<g transform="translate(428 76) rotate(-6)">
+  <path d="M0 0 L58 -24 L34 18 L26 3Z" fill="#fff"/>
+  <path d="M26 3 L58 -24" stroke="#EF95B3" stroke-width="1.6" fill="none"/>
+  <path d="M26 3 L23 18 L34 18Z" fill="#FDDBE6"/>
+</g>
+<g transform="translate(404 172)">
+  <rect width="74" height="38" rx="19" fill="#fff" opacity=".97"/>
+  <path d="M26 20 c-4 -4.4 -10.4 -1.4 -10.4 3.4 c0 5 10.4 10 10.4 10 s10.4 -5 10.4 -10 c0 -4.8 -6.4 -7.8 -10.4 -3.4z" fill="#4684BB" transform="translate(0 -6)"/>
+  <rect x="42" y="12" width="22" height="6" rx="3" fill="#F4A8C1"/><rect x="42" y="22" width="14" height="6" rx="3" fill="#FCD3E1"/>
+</g>
+<path d="M470 36 Q472.2 43.8 480 46 Q472.2 48.2 470 56 Q467.8 48.2 460 46 Q467.8 43.8 470 36Z" fill="#fff" opacity="1"/><path d="M300 33 Q301.54 38.46 307 40 Q301.54 41.54 300 47 Q298.46 41.54 293 40 Q298.46 38.46 300 33Z" fill="#fff" opacity="0.9"/><path d="M60 45 Q61.54 50.46 67 52 Q61.54 53.54 60 59 Q58.46 53.54 53 52 Q58.46 50.46 60 45Z" fill="#fff" opacity="0.9"/><path d="M60 226 Q61.32 230.68 66 232 Q61.32 233.32 60 238 Q58.68 233.32 54 232 Q58.68 230.68 60 226Z" fill="#fff" opacity="0.8"/><path d="M330 230 Q331.32 234.68 336 236 Q331.32 237.32 330 242 Q328.68 237.32 324 236 Q328.68 234.68 330 230Z" fill="#fff" opacity="0.9"/><path d="M488 123 Q489.1 126.9 493 128 Q489.1 129.1 488 133 Q486.9 129.1 483 128 Q486.9 126.9 488 123Z" fill="#fff" opacity="0.9"/></svg>

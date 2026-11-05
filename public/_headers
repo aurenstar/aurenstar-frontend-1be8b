@@ -1,0 +1,54 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/api/*
+  X-Robots-Tag: noindex
+
+/dictionary
+  X-Robots-Tag: noindex
+
+/admin
+  X-Robots-Tag: noindex
+
+/daily-reading-result
+  X-Robots-Tag: noindex
+
+/aureneffect-result
+  X-Robots-Tag: noindex
+
+/discover-sign-result
+  X-Robots-Tag: noindex
+
+/descreva-me-result
+  X-Robots-Tag: noindex
+
+/assets/img/*
+  Cache-Control: public, max-age=2592000
+
+/assets/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/dictionary-data/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/article-data/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/assets/wp/*
+  Cache-Control: public, max-age=2592000
+
+/assets/tools/*
+  Cache-Control: public, max-age=2592000
+
+/assets/about/*
+  Cache-Control: public, max-age=2592000
+
+/*.webp
+  Cache-Control: public, max-age=2592000
+
+/*.png
+  Cache-Control: public, max-age=2592000

@@ -8,13 +8,22 @@ import {
   ChevronDown,
   CheckCircle2,
   BookOpen,
+  MapPin,
+  RefreshCw,
+  Sunrise,
 } from 'lucide-react';
+import { ToolHero, ToolBenefits, PeriodIcon } from '../components/ToolHero';
 import { useLanguage } from '../context/LanguageContext';
+import { getRecentMessages, rememberMessage } from '../utils/recentMessages';
+import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
+import { trackEvent } from '../utils/analytics';
+import { loadSharedProfile, saveSharedProfile, timePeriodFor } from '../utils/sharedProfile';
 import {
   saveDailyReading,
   hasGeneratedToday,
   getSavedDailyReading,
   calculateZodiacSign,
+  nextDailyResetLocalTime,
 } from '../utils/dailyReadingStorage';
 
 interface DailyMessagePageProps {
@@ -81,11 +90,16 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
   const lang = (language || 'pt') as 'pt' | 'en' | 'es';
 
   // User form states
-  const [userName, setUserName] = useState('Andriel');
+  const [userName, setUserName] = useState('');
   const [birthDay, setBirthDay] = useState(15);
   const [birthMonth, setBirthMonth] = useState(6); // Junho -> Gêmeos
   const [birthYear, setBirthYear] = useState(2000);
   const [birthTimePeriod, setBirthTimePeriod] = useState('tarde');
+  const [birthTime, setBirthTime] = useState('14:30');
+  const [birthPlace, setBirthPlace] = useState<PickedCity | null>(null);
+  const [cityError, setCityError] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [limitReached, setLimitReached] = useState(false);
 
   // Computed sign
   const [userSign, setUserSign] = useState('gemeos');
@@ -104,6 +118,8 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         if (savedReading.birthMonth) setBirthMonth(savedReading.birthMonth);
         if (savedReading.birthYear) setBirthYear(savedReading.birthYear);
         if (savedReading.birthTimePeriod) setBirthTimePeriod(savedReading.birthTimePeriod);
+        if (savedReading.birthTime) setBirthTime(savedReading.birthTime);
+        if (savedReading.birthPlace?.geonameid) setBirthPlace(savedReading.birthPlace);
         if (savedReading.signKey) setUserSign(savedReading.signKey);
       } else {
         const savedProfile = JSON.parse(
@@ -115,6 +131,8 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
           if (savedProfile.month) setBirthMonth(Number(savedProfile.month));
           if (savedProfile.year) setBirthYear(Number(savedProfile.year));
           if (savedProfile.timePeriod) setBirthTimePeriod(savedProfile.timePeriod);
+          if (savedProfile.birthTime) setBirthTime(savedProfile.birthTime);
+          if (savedProfile.birthPlace?.geonameid) setBirthPlace(savedProfile.birthPlace);
           if (savedProfile.sign) {
             setUserSign(savedProfile.sign);
           } else if (savedProfile.day && savedProfile.month) {
@@ -127,6 +145,16 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
     } catch {
       // Fallback
     }
+  }, []);
+
+  // Data typed in any other tool wins: the person fills the form only once.
+  useEffect(() => {
+    const p = loadSharedProfile();
+    if (p.name) setUserName(p.name);
+    if (p.day && p.month) { setBirthDay(p.day); setBirthMonth(p.month); setUserSign(calculateZodiacSign(p.day, p.month)); }
+    if (p.year) setBirthYear(p.year);
+    if (p.time) { setBirthTime(p.time); setBirthTimePeriod(timePeriodFor(p.time)); }
+    if (p.place) setBirthPlace(p.place);
   }, []);
 
   const handleDateChange = (newDay: number, newMonth: number) => {
@@ -451,7 +479,9 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
   const yearsArray = Array.from({ length: 90 }, (_, i) => 2026 - i);
 
   // Form Submission -> Save reading and open dedicated new page!
-  const handleSubmitAndOpenPage = (e: React.FormEvent) => {
+  const PERIOD_TIMES: Record<string, string> = { manha: '09:00', tarde: '14:30', noite: '20:00', madrugada: '03:30' };
+
+  const handleSubmitAndOpenPage = async (e: React.FormEvent) => {
     e.preventDefault();
 
     // Regra: 1 geração por dia! Se já gerou hoje, abre diretamente a leitura atual
@@ -460,26 +490,84 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       return;
     }
 
-    const finalSign = calculateZodiacSign(birthDay, birthMonth);
-    const readingContent = signReadings[finalSign] || signReadings.gemeos;
-    const finalSignObj = zodiacSigns.find((s) => s.key === finalSign) || zodiacSigns[2];
+    if (!birthPlace) {
+      setCityError(true);
+      trackEvent('city_missing', { tool: 'daily_message' });
+      return;
+    }
+    trackEvent('tool_submit', { tool: 'daily_message' });
+    saveSharedProfile({ name: userName, day: birthDay, month: birthMonth, year: birthYear, time: birthTime, place: birthPlace });
 
+    setIsLoading(true);
+    setLimitReached(false);
+    const finalSign = calculateZodiacSign(birthDay, birthMonth);
+    let readingContent = signReadings[finalSign] || signReadings.gemeos;
+    let finalSignObj = zodiacSigns.find((s) => s.key === finalSign) || zodiacSigns[2];
+    let theme = readingContent.theme[lang] || readingContent.theme.pt;
+    let message = readingContent.messages[lang] || readingContent.messages.pt;
+    let advice = readingContent.advices[lang] || readingContent.advices.pt;
+    let affirmation = readingContent.affirmations[lang] || readingContent.affirmations.pt;
+    let signKey = finalSign;
+    let shareText = '';
+
+    // Cálculo real do céu (Swiss Ephemeris + fuso IANA + cidade GeoNames) e texto escrito para a pessoa.
+    // Se qualquer coisa falhar, a leitura pronta do signo é usada, então a página nunca quebra.
+    try {
+      const res = await fetch('/api/aurendaily', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: userName,
+          birthDate: `${birthYear}-${String(birthMonth).padStart(2, '0')}-${String(birthDay).padStart(2, '0')}`,
+          birthTime,
+          geonameid: birthPlace.geonameid,
+          birthCity: birthPlace.label,
+          lang,
+          recent: getRecentMessages('daily'),
+        }),
+      });
+      const json = await res.json();
+      if (json?.limited) {
+        setLimitReached(true);
+        setIsLoading(false);
+        return;
+      }
+      if (json?.success && json.data) {
+        signKey = json.data.signKey || finalSign;
+        finalSignObj = zodiacSigns.find((s) => s.key === signKey) || finalSignObj;
+        readingContent = signReadings[signKey] || readingContent;
+        theme = json.data.theme || theme;
+        message = json.data.message || message;
+        advice = json.data.advice || advice;
+        affirmation = json.data.affirmation || affirmation;
+        shareText = json.data.shareText || '';
+      }
+    } catch {
+      // keep the ready-made reading
+    }
+
+    rememberMessage('daily', `${theme}: ${message.split('\n\n')[0]} ${advice}`);
     saveDailyReading({
       userName: userName.trim() || 'Andriel',
-      signKey: finalSign,
+      signKey,
       signName: finalSignObj.name[lang] || finalSignObj.name.pt,
       signSymbol: finalSignObj.symbol,
-      signTheme: readingContent.theme[lang] || readingContent.theme.pt,
+      signTheme: theme,
       birthDay,
       birthMonth,
       birthYear,
       birthTimePeriod,
-      affirmation: readingContent.affirmations[lang] || readingContent.affirmations.pt,
-      message: readingContent.messages[lang] || readingContent.messages.pt,
-      advice: readingContent.advices[lang] || readingContent.advices.pt,
+      birthTime,
+      birthPlace,
+      affirmation,
+      shareText,
+      message,
+      advice,
       articleId: readingContent.articleId,
+      lang,
     });
 
+    setIsLoading(false);
     // Navigate to dedicated new page (pageview strategy)
     onNavigateToResult();
   };
@@ -489,13 +577,13 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       tag: 'Leitura Personalizada',
       title: 'Leitura Cósmica Diária',
       subtitle:
-        'Coloque seu nome, sua data de nascimento e horário aproximado para receber sua mensagem de hoje.',
+        'Coloque seu nome, cidade, data e hora de nascimento para receber a mensagem de hoje, calculada com o céu real.',
       backHome: 'Voltar ao Início',
       exploreBlog: 'Ver Artigos do Blog',
-      alreadyGeneratedAlert: 'Sua leitura de hoje já está pronta! ✨',
+      alreadyGeneratedAlert: 'Sua leitura de hoje já está pronta!',
       alreadyGeneratedSub:
-        'Limite diário de 1 mensagem por dia. Você pode ver sua leitura e gerar seu card para os Stories a qualquer momento.',
-      viewTodayBtn: 'Ver Minha Leitura de Hoje ✨',
+        'Você tem 1 leitura por dia. A próxima abre à meia-noite de Washington, que é às',
+      viewTodayBtn: 'Ver Minha Leitura de Hoje',
       formTitle: 'Seus Dados para a Leitura',
       formSubtitle: 'Preencha abaixo para abrir sua leitura do dia:',
       nameLabel: 'Seu Nome ou Apelido:',
@@ -504,22 +592,28 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       dayLabel: 'Dia',
       monthLabel: 'Mês',
       yearLabel: 'Ano',
-      timeLabel: 'Hora Aproximada de Nascimento:',
+      timeLabel: 'Hora de Nascimento:',
+      exactTime: 'Sei a hora exata:',
+      cityLabel: 'Cidade de Nascimento:',
+      cityPlaceholder: 'Digite sua cidade (ex: São Paulo)',
+      cityNoResults: 'Nenhuma cidade encontrada. Tente outro nome.',
+      cityRequired: 'Escolha sua cidade na lista de sugestões.',
+      calculating: 'Calculando seu céu de hoje...',
       computedSignLabel: 'Signo identificado:',
-      generateBtn: 'Gerar Minha Leitura Diária ✨',
+      generateBtn: 'Gerar Minha Leitura Diária',
       generateBtnSub: 'Abre uma nova página com sua leitura e o card para Stories',
     },
     en: {
       tag: 'Personalized Reading',
       title: 'Daily Cosmic Reading',
       subtitle:
-        'Enter your name, birth date, and approximate time to receive your personalized message today.',
+        'Enter your name, birth city, date and time to receive today’s message, calculated from the real sky.',
       backHome: 'Back to Home',
       exploreBlog: 'Explore Blog Posts',
-      alreadyGeneratedAlert: 'Your reading for today is already prepared! ✨',
+      alreadyGeneratedAlert: 'Your reading for today is already prepared!',
       alreadyGeneratedSub:
-        'Daily limit of 1 message per day. You can view your reading and download your Story card anytime.',
-      viewTodayBtn: 'View Today’s Reading ✨',
+        'You get 1 reading per day. The next one opens at midnight in Washington, which is at',
+      viewTodayBtn: 'View Today’s Reading',
       formTitle: 'Your Details for the Reading',
       formSubtitle: 'Fill in below to open your daily reading:',
       nameLabel: 'Your Name or Nickname:',
@@ -528,22 +622,28 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       dayLabel: 'Day',
       monthLabel: 'Month',
       yearLabel: 'Year',
-      timeLabel: 'Approximate Birth Time:',
+      timeLabel: 'Birth Time:',
+      exactTime: 'I know the exact time:',
+      cityLabel: 'Birth City:',
+      cityPlaceholder: 'Type your city (e.g., Munich)',
+      cityNoResults: 'No city found. Try another spelling.',
+      cityRequired: 'Please pick your city from the suggestions.',
+      calculating: 'Calculating your sky for today...',
       computedSignLabel: 'Detected Sun Sign:',
-      generateBtn: 'Generate My Daily Reading ✨',
+      generateBtn: 'Generate My Daily Reading',
       generateBtnSub: 'Opens a dedicated new page with your reading & Story card',
     },
     es: {
       tag: 'Lectura Personalizada',
       title: 'Lectura Cósmica Diaria',
       subtitle:
-        'Ingresa tu nombre, fecha de nacimiento y hora aproximada para recibir tu mensaje de hoy.',
+        'Ingresa tu nombre, ciudad, fecha y hora de nacimiento para recibir el mensaje de hoy, calculado con el cielo real.',
       backHome: 'Volver al Inicio',
       exploreBlog: 'Ver Artículos del Blog',
-      alreadyGeneratedAlert: '¡Tu lectura de hoy ya está lista! ✨',
+      alreadyGeneratedAlert: '¡Tu lectura de hoy ya está lista!',
       alreadyGeneratedSub:
-        'Límite diario de 1 mensaje al día. Puedes ver tu lectura y descargar tu card para Stories cuando quieras.',
-      viewTodayBtn: 'Ver Mi Lectura de Hoy ✨',
+        'Tienes 1 lectura al día. La próxima se abre a la medianoche de Washington, que es a las',
+      viewTodayBtn: 'Ver Mi Lectura de Hoy',
       formTitle: 'Tus Datos para la Lectura',
       formSubtitle: 'Completa los campos para abrir tu lectura del día:',
       nameLabel: 'Tu Nombre o Apodo:',
@@ -552,9 +652,15 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
       dayLabel: 'Día',
       monthLabel: 'Mes',
       yearLabel: 'Año',
-      timeLabel: 'Hora Aproximada de Nacimiento:',
+      timeLabel: 'Hora de Nacimiento:',
+      exactTime: 'Sé la hora exacta:',
+      cityLabel: 'Ciudad de Nacimiento:',
+      cityPlaceholder: 'Escribe tu ciudad (ej.: Madrid)',
+      cityNoResults: 'No se encontró la ciudad. Prueba otro nombre.',
+      cityRequired: 'Elige tu ciudad en la lista de sugerencias.',
+      calculating: 'Calculando tu cielo de hoy...',
       computedSignLabel: 'Signo identificado:',
-      generateBtn: 'Generar Mi Lectura Diaria ✨',
+      generateBtn: 'Generar Mi Lectura Diaria',
       generateBtnSub: 'Abre una nueva página con tu lectura y el card para Stories',
     },
   };
@@ -573,47 +679,32 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
           <button
             type="button"
             onClick={onBackToHome}
-            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#F51B83] text-xs sm:text-sm font-bold text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] shadow-2xs transition-all cursor-pointer group"
+            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#E73578] text-xs sm:text-sm font-bold text-[#3982C8] hover:text-white border border-[#D9E8F8] hover:border-[#E73578] shadow-2xs transition-all cursor-pointer group"
           >
-            <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1 text-[#2878D0]" />
+            <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1 text-[#3982C8]" />
             <span>{t.backHome}</span>
           </button>
 
           <button
             type="button"
             onClick={onNavigateToBlog}
-            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#F51B83] text-xs sm:text-sm font-bold text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] transition-all cursor-pointer"
+            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#E73578] text-xs sm:text-sm font-bold text-[#3982C8] hover:text-white border border-[#D9E8F8] hover:border-[#E73578] transition-all cursor-pointer"
           >
             <span>{t.exploreBlog}</span>
             <span>→</span>
           </button>
         </div>
 
-        {/* Page Top Heading */}
-        <div className="text-center max-w-xl mx-auto mb-8">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-extrabold uppercase tracking-wider mb-3 shadow-2xs">
-            <Sparkles className="w-3.5 h-3.5 text-[#F51B83]" />
-            <span>{t.tag}</span>
-          </div>
-
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#172B4D] tracking-tight mb-2.5 leading-tight">
-            {t.title}
-          </h1>
-
-          <p className="text-sm text-[#647DA5] leading-relaxed max-w-md mx-auto font-medium">
-            {t.subtitle}
-          </p>
-        </div>
+        <ToolHero icon={<Sunrise className="h-8 w-8" />} tag={t.tag} title={t.title} subtitle={t.subtitle} />
 
         {/* =========================================================================
             USER INPUT FORM (Nome, Data de Nascimento, Hora Aproximada)
             ========================================================================= */}
         <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg p-6 sm:p-9 mb-8 transition-all relative overflow-hidden">
           {/* Subtle top decorative border */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
 
           <div className="flex items-center gap-3 mb-6 pb-4 border-b border-[#D9E8F8]">
-            <div className="w-10 h-10 rounded-2xl bg-[#E4F1FF] text-[#2878D0] flex items-center justify-center font-bold shadow-2xs">
+            <div className="w-10 h-10 rounded-2xl bg-[#3982C8] text-white flex items-center justify-center font-bold shadow-sm">
               <User className="w-5 h-5" />
             </div>
             <div>
@@ -630,7 +721,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
             {/* 1. Nome */}
             <div>
               <label className="block text-xs font-bold uppercase tracking-wider text-[#172B4D] mb-2 flex items-center gap-1.5">
-                <User className="w-3.5 h-3.5 text-[#2878D0]" />
+                <User className="w-3.5 h-3.5 text-[#3982C8]" />
                 <span>{t.nameLabel}</span>
               </label>
               <input
@@ -639,14 +730,34 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                 value={userName}
                 onChange={(e) => setUserName(e.target.value)}
                 placeholder={t.namePlaceholder}
-                className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
+                className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#E73578] focus:bg-white focus:ring-2 focus:ring-[#E73578]/15 transition-all shadow-2xs"
               />
+            </div>
+
+            {/* 1b. Cidade de Nascimento */}
+            <div>
+              <label className="block text-xs font-bold uppercase tracking-wider text-[#172B4D] mb-2 flex items-center gap-1.5">
+                <MapPin className="w-3.5 h-3.5 text-[#E73578]" />
+                <span>{t.cityLabel}</span>
+              </label>
+              <CityAutocomplete
+                value={birthPlace}
+                onChange={(city) => {
+                  setBirthPlace(city);
+                  if (city) setCityError(false);
+                }}
+                placeholder={t.cityPlaceholder}
+                noResultsText={t.cityNoResults}
+                className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#E73578] focus:bg-white focus:ring-2 focus:ring-[#E73578]/15 transition-all shadow-2xs"
+              />
+              {cityError && <p className="mt-1.5 text-[11px] font-semibold text-[#E73578]">{t.cityRequired}</p>}
+              {limitReached && <p className="mt-1.5 text-[11px] font-semibold text-[#E73578]">{lang === 'pt' ? 'Muitas leituras foram geradas por esta conexão hoje. Volte depois da meia-noite de Washington.' : lang === 'es' ? 'Se generaron muchas lecturas desde esta conexión hoy. Vuelve después de la medianoche de Washington.' : 'Too many readings were created from this connection today. Come back after midnight in Washington.'}</p>}
             </div>
 
             {/* 2. Data de Nascimento */}
             <div>
               <label className="block text-xs font-bold uppercase tracking-wider text-[#172B4D] mb-2 flex items-center gap-1.5">
-                <Calendar className="w-3.5 h-3.5 text-[#2878D0]" />
+                <Calendar className="w-3.5 h-3.5 text-[#3982C8]" />
                 <span>{t.birthDateLabel}</span>
               </label>
 
@@ -662,7 +773,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                       onChange={(e) =>
                         handleDateChange(Number(e.target.value), birthMonth)
                       }
-                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-8"
+                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#E73578] focus:bg-white cursor-pointer pr-8"
                     >
                       {daysArray.map((d) => (
                         <option key={d} value={d}>
@@ -685,7 +796,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                       onChange={(e) =>
                         handleDateChange(birthDay, Number(e.target.value))
                       }
-                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-8"
+                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#E73578] focus:bg-white cursor-pointer pr-8"
                     >
                       {MONTHS.map((m) => (
                         <option key={m.value} value={m.value}>
@@ -706,7 +817,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                     <select
                       value={birthYear}
                       onChange={(e) => setBirthYear(Number(e.target.value))}
-                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-8"
+                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#E73578] focus:bg-white cursor-pointer pr-8"
                     >
                       {yearsArray.map((y) => (
                         <option key={y} value={y}>
@@ -724,7 +835,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
             {/* 3. Hora Aproximada de Nascimento */}
             <div>
               <label className="block text-xs font-bold uppercase tracking-wider text-[#172B4D] mb-2 flex items-center gap-1.5">
-                <Clock className="w-3.5 h-3.5 text-[#2878D0]" />
+                <Clock className="w-3.5 h-3.5 text-[#3982C8]" />
                 <span>{t.timeLabel}</span>
               </label>
 
@@ -735,37 +846,63 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
                     <button
                       key={period.id}
                       type="button"
-                      onClick={() => setBirthTimePeriod(period.id)}
+                      onClick={() => {
+                        setBirthTimePeriod(period.id);
+                        setBirthTime(PERIOD_TIMES[period.id] || '14:30');
+                      }}
                       className={`p-3 rounded-2xl text-xs font-bold transition-all cursor-pointer border text-center flex flex-col items-center justify-center gap-1.5 ${
                         isSelected
-                          ? 'bg-[#2878D0] text-white border-[#2878D0] shadow-sm scale-[1.02]'
-                          : 'bg-[#E4F1FF]/30 border-[#D9E8F8] text-[#172B4D] hover:border-[#2878D0] hover:bg-white'
+                          ? 'bg-[#E73578] text-white border-[#E73578] shadow-md scale-[1.02]'
+                          : 'bg-[#E4F1FF]/30 border-[#D9E8F8] text-[#172B4D] hover:border-[#E73578] hover:bg-white'
                       }`}
                     >
-                      <span className="text-lg">{period.icon}</span>
+                      <span className={`flex h-9 w-9 items-center justify-center rounded-full ${isSelected ? 'bg-white text-[#E73578]' : 'bg-[#3982C8] text-white'}`}><PeriodIcon id={period.id} className="h-4 w-4" /></span>
                       <span className="leading-tight">{period[lang] || period.pt}</span>
                     </button>
                   );
                 })}
               </div>
+
+              <div className="mt-2.5 flex items-center justify-end gap-2">
+                <span className="text-[11px] text-[#647DA5] font-medium">{t.exactTime}</span>
+                <input
+                  type="time"
+                  value={birthTime}
+                  onChange={(e) => {
+                    setBirthTime(e.target.value);
+                    setBirthTimePeriod('exato');
+                  }}
+                  className="px-3 py-1.5 rounded-xl border border-[#D9E8F8] bg-[#E4F1FF]/30 text-xs font-bold text-[#172B4D] outline-none focus:border-[#E73578] focus:bg-white"
+                />
+              </div>
             </div>
+
+            {alreadyGeneratedToday && (
+              <div className="p-3.5 rounded-2xl bg-[#E4F1FF] border border-[#D9E8F8] text-center">
+                <p className="text-sm font-bold text-[#172B4D]">{t.alreadyGeneratedAlert}</p>
+                <p className="text-[11px] text-[#647DA5] mt-0.5 font-medium">
+                  {t.alreadyGeneratedSub} <span className="font-bold text-[#172B4D]">{nextDailyResetLocalTime()}</span>.
+                </p>
+              </div>
+            )}
 
             {/* Botão de Abrir Nova Página com Regra de 1 Leitura por Dia */}
             <div className="pt-3">
               <button
                 type="submit"
-                className="w-full py-4 px-6 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99]"
+                disabled={isLoading}
+                className="w-full py-4 px-6 rounded-2xl bg-[#E73578] hover:bg-[#D0306C] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99] disabled:opacity-60"
               >
-                <Sparkles className="w-4 h-4 transition-transform group-hover:rotate-12" />
+                {isLoading ? <RefreshCw className="w-4 h-4 animate-spin" /> : <Sparkles className="w-4 h-4 transition-transform group-hover:rotate-12" />}
                 <span>
-                  {alreadyGeneratedToday
-                    ? 'Ver Minha Leitura de Hoje ✨'
-                    : 'Gerar Minha Leitura Diária ✨'}
+                  {isLoading ? t.calculating : alreadyGeneratedToday ? t.viewTodayBtn : t.generateBtn}
                 </span>
               </button>
             </div>
           </form>
         </div>
+
+        <ToolBenefits lang={lang} />
       </div>
     </div>
   );

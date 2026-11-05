@@ -3,6 +3,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { AurenstarLogo } from './AurenstarLogo';
 import { Menu, X } from 'lucide-react';
+import { onPlainClick } from '../utils/links';
 
 interface NavbarProps {
   activePage?: string;
@@ -38,14 +39,32 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   const navItems = [
     { key: 'home' as const, label: t.nav.home },
-    { key: 'dicionario' as const, label: 'DICIONARY' },
+    { key: 'dicionario' as const, label: t.nav.dictionary },
     { key: 'blog' as const, label: t.nav.blog },
-    { key: 'newsletter' as const, label: 'NEWSLETTER' },
+    { key: 'newsletter' as const, label: t.nav.newsletter },
+    { key: 'faq' as const, label: 'FAQ' },
     { key: 'contact' as const, label: t.nav.contact },
   ];
 
-  const handleItemClick = (key: 'home' | 'blog' | 'contact' | 'newsletter' | 'dicionario') => {
+  // Real URLs so search engines can follow the menu; a normal click still navigates in-app.
+  const NAV_PATHS = {
+    home: '/',
+    dicionario: '/dicionario',
+    blog: '/blog',
+    newsletter: '/newsletter',
+    faq: '/#faq',
+    contact: '/contact',
+  } as const;
+
+  const handleItemClick = (key: 'home' | 'blog' | 'contact' | 'newsletter' | 'dicionario' | 'faq') => {
     setIsMenuOpen(false);
+    if (key === 'faq') {
+      // FAQ is the last section of the home page: go there (loading the home page first if needed) and scroll to it.
+      const goToFaq = () => document.getElementById('faq')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (activePage === 'home') goToFaq();
+      else { onNavigate?.('home'); window.setTimeout(goToFaq, 350); }
+      return;
+    }
     if (onNavigate) {
       onNavigate(key);
     }
@@ -56,36 +75,39 @@ export const Navbar: React.FC<NavbarProps> = ({
     <header
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         isScrolled
-          ? 'bg-[#FFFFFF]/95 backdrop-blur-md shadow-xs py-3 border-b border-[#D9E8F8]'
+          ? 'bg-[#C9E5FF]/95 backdrop-blur-md shadow-xs py-3 border-b border-[#B5D6F5]'
           : 'bg-transparent py-4 sm:py-5'
       }`}
     >
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-3">
         {/* Left: Brand Logo & Name */}
-        <button
-          onClick={() => handleItemClick('home')}
+        <a
+          href="/"
+          onClick={onPlainClick(() => handleItemClick('home'))}
           className="flex items-center cursor-pointer group focus:outline-none"
           aria-label="Aurenstar Home"
         >
           <AurenstarLogo className="h-11 sm:h-12 w-auto max-w-[12rem]" />
-        </button>
+        </a>
 
         {/* Center: Navigation Links with Pill Capsule Outline */}
         <nav className="hidden md:flex items-center gap-2 sm:gap-3 min-w-0">
           {navItems.map((item) => {
             const isActive = activePage === item.key;
             return (
-              <button
+              <a
                 key={item.key}
-                onClick={() => handleItemClick(item.key)}
-                className={`group relative font-sans text-[11px] sm:text-xs leading-none font-semibold tracking-wider transition-all duration-200 cursor-pointer focus:outline-none flex items-center justify-center shrink-0 rounded-full px-3.5 sm:px-4.5 py-1 sm:py-1.5 border ${
+                href={NAV_PATHS[item.key]}
+                onClick={onPlainClick(() => handleItemClick(item.key))}
+                aria-current={isActive ? 'page' : undefined}
+                className={`btn-font group relative font-sans text-[11px] sm:text-xs leading-none font-semibold tracking-wider transition-all duration-200 cursor-pointer focus:outline-none flex items-center justify-center shrink-0 rounded-full px-3.5 sm:px-4.5 py-1 sm:py-1.5 border ${
                   isActive
-                    ? 'border-[#F51B83] bg-[#F51B83] text-white font-bold shadow-[0_6px_14px_rgba(245,27,131,0.2)]'
-                    : 'border-transparent bg-[#E4F1FF]/80 text-[#2878D0] hover:border-[#F51B83] hover:bg-[#F51B83] hover:text-white'
+                    ? 'border-[#E73578] bg-[#E73578] text-white font-bold shadow-[0_6px_14px_rgba(231, 53, 120,0.2)]'
+                    : 'border-transparent bg-[#E4F1FF]/80 text-[#3982C8] hover:border-[#E73578] hover:bg-[#E73578] hover:text-white'
                 }`}
               >
                 <span>{item.label}</span>
-              </button>
+              </a>
             );
           })}
         </nav>
@@ -96,7 +118,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           <button
             type="button"
             onClick={() => setIsMenuOpen((open) => !open)}
-            className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full border border-[#D9E8F8] bg-white/80 text-[#17366F] shadow-2xs focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2878D0]"
+            className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full border border-[#D9E8F8] bg-white/80 text-[#17366F] shadow-2xs focus:outline-none focus-visible:ring-2 focus-visible:ring-[#3982C8]"
             aria-label={isMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
             aria-expanded={isMenuOpen}
           >
@@ -113,17 +135,18 @@ export const Navbar: React.FC<NavbarProps> = ({
               {navItems.map((item) => {
                 const isActive = activePage === item.key;
                 return (
-                  <button
+                  <a
                     key={item.key}
-                    onClick={() => handleItemClick(item.key)}
-                    className={`w-full rounded-xl px-4 py-3 text-left text-sm font-semibold tracking-wide transition-colors ${
+                    href={NAV_PATHS[item.key]}
+                    onClick={onPlainClick(() => handleItemClick(item.key))}
+                    className={`btn-font block w-full rounded-xl px-4 py-3 text-left text-sm font-semibold tracking-wide transition-colors ${
                       isActive
                         ? 'bg-[#E4F1FF] text-[#17366F]'
                         : 'text-[#172B4D] hover:bg-[#E4F1FF]/70'
                     }`}
                   >
                     {item.label}
-                  </button>
+                  </a>
                 );
               })}
             </div>

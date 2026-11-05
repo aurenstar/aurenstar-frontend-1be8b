@@ -1,9 +1,13 @@
+import { cardImage } from '../utils/cardImage';
 import React, { useState, useMemo, useEffect } from 'react';
 import { Search, X, Sparkles, Star, Check } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { BLOG_ARTICLES, AURENSTAR_AVATAR } from '../data/blogArticles';
 import { ZODIAC_SIGNS } from './BrandMarquee';
 import { ScrollReveal } from './ScrollReveal';
+import { ShareArticleButton } from './ShareArticleButton';
+import { getArticleSlugById } from '../utils/articleSlug';
+import { cardLinkClick } from '../utils/links';
 
 interface BlogCardsSectionProps {
   onOpenArticle?: (id: string) => void;
@@ -187,7 +191,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
             <h2 className="font-extrabold text-sm sm:text-base tracking-[0.2em] uppercase text-[#172B4D]">
               {t.sectionTitle}
             </h2>
-            <div className="mx-auto mt-2.5 h-1 w-12 rounded-full bg-[#2878D0]" />
+            <div className="mx-auto mt-2.5 h-1 w-12 rounded-full bg-[#3982C8]" />
           </div>
         </ScrollReveal>
 
@@ -196,9 +200,9 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
             ========================================================================= */}
         {activeSignInfo && (
           <ScrollReveal delay={50} distance={18} duration={700}>
-            <div className="mb-6 p-4 sm:p-5 rounded-2xl sm:rounded-3xl bg-[#FFFFFF] border border-[#2878D0]/30 shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-4 animate-fadeIn">
+            <div className="mb-6 p-4 sm:p-5 rounded-2xl sm:rounded-3xl bg-[#FFFFFF] border border-[#3982C8]/30 shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-4 animate-fadeIn">
               <div className="flex items-start sm:items-center gap-3">
-                <div className="w-11 h-11 rounded-2xl bg-[#2878D0] text-white flex items-center justify-center text-xl shrink-0 shadow-xs">
+                <div className="w-11 h-11 rounded-2xl bg-[#3982C8] text-white flex items-center justify-center text-xl shrink-0 shadow-xs">
                   <span>{activeSignInfo.symbol}</span>
                 </div>
                 <div>
@@ -217,7 +221,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
               <button
                 type="button"
                 onClick={() => onSelectSign && onSelectSign(null)}
-                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#E4F1FF] hover:bg-[#FFE0EF] text-[#172B4D] text-xs font-bold border border-[#D9E8F8] shadow-2xs transition-all cursor-pointer self-start sm:self-auto shrink-0"
+                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#E4F1FF] hover:bg-[#FBE1EB] text-[#172B4D] text-xs font-bold border border-[#D9E8F8] shadow-2xs transition-all cursor-pointer self-start sm:self-auto shrink-0"
               >
                 <span>{t.clearSign}</span>
                 <X className="w-3.5 h-3.5 text-[#647DA5]" />
@@ -239,7 +243,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder={t.searchPlaceholder}
-                className="w-full pl-10 pr-9 py-2 sm:py-2.5 bg-[#FFFFFF] border border-[#D9E8F8] rounded-full text-xs text-[#172B4D] placeholder-[#647DA5] outline-none focus:border-[#2878D0] focus:ring-2 focus:ring-[#2878D0]/20 transition-all shadow-2xs"
+                className="w-full pl-10 pr-9 py-2 sm:py-2.5 bg-[#FFFFFF] border border-[#D9E8F8] rounded-full text-xs text-[#172B4D] placeholder-[#647DA5] outline-none focus:border-[#3982C8] focus:ring-2 focus:ring-[#3982C8]/20 transition-all shadow-2xs"
               />
               {searchQuery && (
                 <button
@@ -264,8 +268,8 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                       onClick={() => setSelectedCategory(cat.key)}
                       className={`px-3 py-1 rounded-full text-[11px] font-semibold whitespace-nowrap transition-all duration-200 cursor-pointer ${
                         isActive
-                          ? 'bg-[#F51B83] text-white shadow-2xs font-bold'
-                          : 'bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] hover:bg-[#F51B83] hover:text-white hover:border-[#F51B83]'
+                          ? 'bg-[#E73578] text-white shadow-2xs font-bold'
+                          : 'bg-[#E4F1FF] border border-[#D9E8F8] text-[#3982C8] hover:bg-[#E73578] hover:text-white hover:border-[#E73578]'
                       }`}
                     >
                       {cat.label}
@@ -285,10 +289,10 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
         {filteredPosts.length > 0 ? (
           <div className="relative">
             <div className="mb-4 flex justify-end gap-2">
-              <button type="button" onClick={goToPrevious} disabled={!canGoBack} aria-label="Posts anteriores" className="flex h-10 w-10 items-center justify-center rounded-full border border-[#2878D0] bg-white text-[#2878D0] shadow-sm transition hover:bg-[#E4F1FF] disabled:cursor-not-allowed disabled:opacity-35">
+              <button type="button" onClick={goToPrevious} disabled={!canGoBack} aria-label="Posts anteriores" className="flex h-10 w-10 items-center justify-center rounded-full border border-[#3982C8] bg-white text-[#3982C8] shadow-sm transition hover:bg-[#E4F1FF] disabled:cursor-not-allowed disabled:opacity-35">
                 <span aria-hidden="true" className="text-xl leading-none">‹</span>
               </button>
-              <button type="button" onClick={goToNext} disabled={!canGoForward} aria-label="Próximos posts" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#F51B83] text-white shadow-sm transition hover:bg-[#D91470] disabled:cursor-not-allowed disabled:opacity-35">
+              <button type="button" onClick={goToNext} disabled={!canGoForward} aria-label="Próximos posts" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#E73578] text-white shadow-sm transition hover:bg-[#D0306C] disabled:cursor-not-allowed disabled:opacity-35">
                 <span aria-hidden="true" className="text-xl leading-none">›</span>
               </button>
             </div>
@@ -315,22 +319,24 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                             tabIndex={0}
                             role="button"
                             aria-label={`${title} - ${t.readMore}`}
-                            className="bg-[#FFFFFF] border border-[#D9E8F8] hover:border-[#2878D0]/60 rounded-2xl overflow-hidden shadow-[0_4px_20px_rgba(23,54,111,0.06)] hover:shadow-[0_12px_28px_rgba(40,120,208,0.15)] transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40 h-full"
+                            className="bg-[#FFFFFF] border border-[#D9E8F8] hover:border-[#3982C8]/60 rounded-2xl overflow-hidden shadow-[0_4px_20px_rgba(23,54,111,0.06)] hover:shadow-[0_12px_28px_rgba(57, 130, 200,0.15)] transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#3982C8]/40 h-full"
                           >
-                            <div className="w-full h-40 sm:h-44 overflow-hidden bg-[#E4F1FF] relative shrink-0">
-                              <img src={post.image} alt={title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-                              <div className="absolute inset-0 bg-black/0 group-hover:bg-[#17366F]/10 transition-colors pointer-events-none" />
+                            <div className="p-3.5 pb-0 shrink-0">
+                              <div className="w-full h-40 sm:h-44 overflow-hidden rounded-[18px] bg-[#E4F1FF] relative">
+                                <img src={cardImage(post.image)} alt={title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+                                <div className="absolute inset-0 bg-black/0 group-hover:bg-[#17366F]/10 transition-colors pointer-events-none" />
+                              </div>
                             </div>
                             <div className="p-5 flex flex-col justify-between flex-1">
                               <div>
-                                <span className="inline-block px-3 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider mb-2.5 bg-[#E4F1FF] text-[#2878D0]">{category}</span>
-                                <h3 className="font-bold text-sm sm:text-base text-[#172B4D] leading-snug mb-2 group-hover:text-[#2878D0] transition-colors line-clamp-2">{title}</h3>
+                                <span className="inline-block px-3 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider mb-2.5 bg-[#E4F1FF] text-[#3982C8]">{category}</span>
+                                <div className="mb-2 flex items-start justify-between gap-3"><h3 className="min-w-0 flex-1 font-bold text-sm sm:text-base text-[#172B4D] leading-snug group-hover:text-[#3982C8] transition-colors line-clamp-2"><a href={`/blog/${getArticleSlugById(post.id)}`} onClick={cardLinkClick}>{title}</a></h3><ShareArticleButton article={post} /></div>
                                 <p className="text-xs text-[#647DA5] leading-relaxed mb-4 line-clamp-3 font-normal">{excerpt}</p>
                               </div>
                               <div className="flex items-center gap-2.5 pt-3 border-t border-[#D9E8F8] mt-auto">
-                                <img src={AURENSTAR_AVATAR} alt="Aurenstar" className="w-8 h-8 rounded-full object-cover shrink-0 ring-1 ring-black/5" />
+                                <img loading="lazy" decoding="async" src={AURENSTAR_AVATAR} alt="Aurenstar" className="w-8 h-8 rounded-full object-cover shrink-0 ring-1 ring-black/5" />
                                 <div className="flex flex-col min-w-0">
-                                  <span className="text-xs font-bold text-[#172B4D] leading-tight truncate">Aurenstar <span aria-label="Verificado" title="Perfil verificado" className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span></span>
+                                  <span className="text-xs font-bold text-[#172B4D] leading-tight truncate">Aurenstar <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#3982C8] text-white align-middle"><Check className="h-2.5 w-2.5" strokeWidth={3} /></span></span>
                                   <span className="text-[10px] text-[#647DA5] font-medium leading-tight mt-0.5">{date}</span>
                                 </div>
                               </div>
@@ -347,7 +353,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
       ) : (
           <ScrollReveal delay={60} distance={20}>
             <div className="bg-[#FFFFFF] border border-[#D9E8F8] rounded-2xl p-8 text-center max-w-sm mx-auto my-4 shadow-2xs animate-fadeIn">
-              <Search className="w-6 h-6 text-[#2878D0] mx-auto mb-2" />
+              <Search className="w-6 h-6 text-[#3982C8] mx-auto mb-2" />
               <p className="text-xs font-bold text-[#172B4D] mb-1">
                 {t.noResultsTitle}
               </p>
@@ -361,7 +367,7 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                 setSelectedCategory('ALL');
                 if (onSelectSign) onSelectSign(null);
               }}
-              className="px-4 py-1.5 rounded-full bg-[#2878D0] hover:bg-[#17366F] text-white text-xs font-semibold transition-colors cursor-pointer"
+              className="px-4 py-1.5 rounded-full bg-[#3982C8] hover:bg-[#17366F] text-white text-xs font-semibold transition-colors cursor-pointer"
             >
               {t.resetFilters}
             </button>

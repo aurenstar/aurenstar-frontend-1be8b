@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-hidden="true"><defs>
+<linearGradient id="b1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ACD4F7"/><stop offset="1" stop-color="#5291C9"/></linearGradient>
+<linearGradient id="b2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#D7E8F6"/></linearGradient>
+<radialGradient id="sh" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#1D4161" stop-opacity=".45"/><stop offset="1" stop-color="#1D4161" stop-opacity="0"/></radialGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF1A8"/><stop offset=".5" stop-color="#F5B800"/><stop offset="1" stop-color="#B27A00"/></linearGradient></defs>
+<ellipse cx="200" cy="200" rx="110" ry="13" fill="url(#sh)"/>
+<path d="M92 40h118a26 26 0 0 1 26 26v46a26 26 0 0 1-26 26h-62l-40 28 4-28h-20a26 26 0 0 1-26-26V66a26 26 0 0 1 26-26z" fill="url(#b1)"/>
+<path d="M190 84h116a26 26 0 0 1 26 26v46a26 26 0 0 1-26 26h-18l4 28-40-28h-62a26 26 0 0 1-26-26v-46a26 26 0 0 1 26-26z" fill="url(#b2)"/>
+<g><circle cx="226" cy="134" r="9" fill="#DC4074"/><circle cx="258" cy="134" r="9" fill="#4684BB"/><circle cx="290" cy="134" r="9" fill="#F5B800"/></g>
+<ellipse cx="122" cy="60" rx="22" ry="8" fill="#fff" opacity=".5" transform="rotate(-14 122 60)"/>
+<path d="M340 40l5 14 14 5-14 5-5 14-5-14-14-5 14-5z" fill="url(#gold)"/>
+<g fill="#fff"><circle cx="64" cy="150" r="3" opacity=".8"/><path d="M60 92l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" opacity=".8"/></g>
+</svg>

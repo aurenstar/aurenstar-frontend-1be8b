@@ -1,36 +1,61 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useCallback, startTransition, lazy, Suspense } from 'react';
 import { LanguageProvider } from './context/LanguageContext';
+import { stripLangPrefix } from './utils/urlLang';
+import { SiteLocalizer } from './components/SiteLocalizer';
+import { AdBlockGate } from './components/AdBlockGate';
+import { ConsentBanner } from './components/ConsentBanner';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { BrandMarquee } from './components/BrandMarquee';
+import { FaqSection } from './components/FaqSection';
+import { CommentsSection } from './components/CommentsSection';
+import { TshirtCapture } from './components/TshirtCapture';
+import { isOnTshirtList } from './utils/subscribe';
 import { BlogCardsSection } from './components/BlogCardsSection';
 import { AboutAurenstarSection } from './components/AboutAurenstarSection';
 import { ToolExplainerSection } from './components/ToolExplainerSection';
 import { Footer } from './components/Footer';
-import { BlogPage } from './pages/BlogPage';
-import { ArticlePage } from './pages/ArticlePage';
-import { ContactPage } from './pages/ContactPage';
-import { NewsletterPage } from './pages/NewsletterPage';
-import { DailyMessagePage } from './pages/DailyMessagePage';
-import { DailyReadingResultPage } from './pages/DailyReadingResultPage';
-import { AurenEffectPage } from './pages/AurenEffectPage';
-import { AurenEffectResultPage } from './pages/AurenEffectResultPage';
-import { DiscoverSignPage } from './pages/DiscoverSignPage';
-import { DiscoverSignResultPage } from './pages/DiscoverSignResultPage';
-import { DictionaryLayout } from './components/dictionary/DictionaryLayout';
-import { PublicDictionaryPage } from './pages/PublicDictionaryPage';
-import { PublicDictionaryTermPage } from './pages/PublicDictionaryTermPage';
-import { DescribeMePage } from './pages/DescribeMePage';
-import { DescribeMeResultPage } from './pages/DescribeMeResultPage';
-import { AboutDetailPage } from './pages/AboutDetailPage';
+import { FEATURES } from './data/features';
 import { updateSeo } from './utils/seo';
+import { trackPageView } from './utils/analytics';
+import { findArticleByParam, getArticleSlugById } from './utils/articleSlug';
+import { getCategoryByKey, getCategoryBySlug, getCategoryPath } from './utils/blogCategories';
+
+// Pages other than the home screen load only when visited (smaller first download).
+const BlogPage = lazy(() => import('./pages/BlogPage').then((m) => ({ default: m.BlogPage })));
+const ArticlePage = lazy(() => import('./pages/ArticlePage').then((m) => ({ default: m.ArticlePage })));
+const ContactPage = lazy(() => import('./pages/ContactPage').then((m) => ({ default: m.ContactPage })));
+const CreditsPage = lazy(() => import('./pages/CreditsPage').then((m) => ({ default: m.CreditsPage })));
+const LegalPage = lazy(() => import('./pages/LegalPage').then((m) => ({ default: m.LegalPage })));
+const CompatibilityPage = lazy(() => import('./pages/CompatibilityPage').then((m) => ({ default: m.CompatibilityPage })));
+const TransitsPage = lazy(() => import('./pages/TransitsPage').then((m) => ({ default: m.TransitsPage })));
+const NewsletterPage = lazy(() => import('./pages/NewsletterPage').then((m) => ({ default: m.NewsletterPage })));
+const DailyMessagePage = lazy(() => import('./pages/DailyMessagePage').then((m) => ({ default: m.DailyMessagePage })));
+const DailyReadingResultPage = lazy(() => import('./pages/DailyReadingResultPage').then((m) => ({ default: m.DailyReadingResultPage })));
+const AurenEffectPage = lazy(() => import('./pages/AurenEffectPage').then((m) => ({ default: m.AurenEffectPage })));
+const AurenEffectResultPage = lazy(() => import('./pages/AurenEffectResultPage').then((m) => ({ default: m.AurenEffectResultPage })));
+const DiscoverSignPage = lazy(() => import('./pages/DiscoverSignPage').then((m) => ({ default: m.DiscoverSignPage })));
+const DiscoverSignResultPage = lazy(() => import('./pages/DiscoverSignResultPage').then((m) => ({ default: m.DiscoverSignResultPage })));
+const DictionaryLayout = lazy(() => import('./components/dictionary/DictionaryLayout').then((m) => ({ default: m.DictionaryLayout })));
+const PublicDictionaryPage = lazy(() => import('./pages/PublicDictionaryPage').then((m) => ({ default: m.PublicDictionaryPage })));
+const PublicDictionaryTermPage = lazy(() => import('./pages/PublicDictionaryTermPage').then((m) => ({ default: m.PublicDictionaryTermPage })));
+const DescribeMePage = lazy(() => import('./pages/DescribeMePage').then((m) => ({ default: m.DescribeMePage })));
+const DescribeMeResultPage = lazy(() => import('./pages/DescribeMeResultPage').then((m) => ({ default: m.DescribeMeResultPage })));
+const AdminPage = lazy(() => import('./pages/AdminPage').then((m) => ({ default: m.AdminPage })));
+const AboutProfilePage = lazy(() => import('./pages/AboutProfilePage').then((m) => ({ default: m.AboutProfilePage })));
 
 export type AppPageRoute =
   | 'home'
   | 'blog'
   | 'article'
   | 'contact'
+  | 'credits'
+  | 'privacy'
+  | 'terms'
+  | 'compatibility'
+  | 'transits'
   | 'newsletter'
+  | 'admin'
   | 'daily-message'
   | 'daily-reading-result'
   | 'aureneffect'
@@ -44,27 +69,55 @@ export type AppPageRoute =
   | 'describe-me'
   | 'describe-me-result';
 
+/** Slim version of the sign-up, right after the tools, so more visitors see it without scrolling to the end. */
+function TshirtMiniSection() {
+  if (isOnTshirtList()) return null;
+  return (
+    <section className="w-full bg-[#C9E5FF] px-0 py-8 sm:py-10">
+      <TshirtCapture source="home" variant="mini" />
+    </section>
+  );
+}
+
 export default function App() {
-  const [currentPage, setCurrentPage] = useState<AppPageRoute>('home');
+  const [currentPage, setCurrentPageNow] = useState<AppPageRoute>('home');
+  // After the first route is read, page changes are 'transitions': the page you are on stays on screen
+  // until the next one has finished loading (no empty gap with the footer jumping up).
+  const booted = useRef(false);
+  const setCurrentPage = useCallback((p: AppPageRoute) => {
+    if (booted.current) startTransition(() => setCurrentPageNow(p));
+    else setCurrentPageNow(p);
+  }, []);
   const [currentArticleId, setCurrentArticleId] = useState<string>('post-1');
   const [currentTermSlug, setCurrentTermSlug] = useState<string>('what-is-mercury-retrograde');
   const [selectedSign, setSelectedSign] = useState<string | null>(null);
-  const [aboutSection, setAboutSection] = useState<string>('platform');
+  // Blog category shown on /blog ('ALL') or /blog/categoria/<slug>
+  const [blogCategory, setBlogCategory] = useState<string>('ALL');
 
   // Initialize and synchronize with browser hash / history for pageview strategy
   useEffect(() => {
     const syncRouteFromHash = () => {
-      const path = window.location.pathname.replace(/\/$/, '') || '/';
+      const path = stripLangPrefix(window.location.pathname).replace(/\/$/, '') || '/';
       const hash = window.location.hash;
       const route = path !== '/' ? path : hash;
       const normalizedRoute = route.replace(/^#\/?/, '/');
       // Keep dedicated pages reachable on Netlify whether the browser preserves
       // the pathname or rewrites it to a hash route during the first load.
       const routeMatches = (...values: string[]) => values.includes(path) || values.includes(hash) || values.includes(normalizedRoute);
-      if (route.startsWith('/blog/') || route.startsWith('#/article/')) {
-        const id = route.startsWith('/blog/') ? route.replace('/blog/', '') : route.replace('#/article/', '');
-        setCurrentArticleId(id || 'post-1');
+      if (route.startsWith('/blog/categoria/')) {
+        const categorySlug = route.replace('/blog/categoria/', '').split('?')[0].replace(/\/$/, '');
+        setBlogCategory(getCategoryBySlug(categorySlug)?.key ?? 'ALL');
+        setCurrentPage('blog');
+      } else if (route.startsWith('/blog/') || route.startsWith('#/article/')) {
+        const rawParam = (route.startsWith('/blog/') ? route.replace('/blog/', '') : route.replace('#/article/', ''))
+          .split('?')[0];
+        // Public URLs use a keyword slug; legacy id URLs (/blog/post-1) still resolve.
+        const found = findArticleByParam(rawParam);
+        setCurrentArticleId(found?.id ?? (rawParam || 'post-1'));
         setCurrentPage('article');
+        if (found && path.startsWith('/blog/') && rawParam !== getArticleSlugById(found.id)) {
+          window.history.replaceState(window.history.state, '', `/blog/${getArticleSlugById(found.id)}`);
+        }
       } else if (
         normalizedRoute.startsWith('/dicionario/') ||
         normalizedRoute.startsWith('/dictionary/') ||
@@ -75,9 +128,22 @@ export default function App() {
         setCurrentTermSlug(slug || 'what-is-mercury-retrograde');
         setCurrentPage('dicionario-termo');
       } else if (path === '/blog' || hash === '#/blog') {
+        setBlogCategory('ALL');
         setCurrentPage('blog');
       } else if (path === '/contact' || hash === '#/contact') {
         setCurrentPage('contact');
+      } else if (path === '/credits' || hash === '#/credits') {
+        setCurrentPage('credits');
+      } else if (FEATURES.compatibility && (path === '/compatibility' || hash === '#/compatibility')) {
+        setCurrentPage('compatibility');
+      } else if (FEATURES.transits && (path === '/transits' || hash === '#/transits')) {
+        setCurrentPage('transits');
+      } else if (path === '/privacy' || hash === '#/privacy') {
+        setCurrentPage('privacy');
+      } else if (path === '/terms' || hash === '#/terms') {
+        setCurrentPage('terms');
+      } else if (path === '/admin' || hash === '#/admin') {
+        setCurrentPage('admin');
       } else if (path === '/newsletter' || hash === '#/newsletter') {
         setCurrentPage('newsletter');
       } else if (routeMatches('/descreva-me', '/describe-me', '#/descreva-me')) {
@@ -97,11 +163,14 @@ export default function App() {
       } else if (path === '/discover-sign-result' || hash === '#/discover-sign-result') {
         setCurrentPage('discover-sign-result');
       } else if (path === '/dictionary' || hash === '#/dictionary' || hash === '#/aurenstar-dictionary') {
-        setCurrentPage('dictionary');
+        // The internal dictionary editor is a work tool: visitors of the live site get the public dictionary instead.
+        // To open the editor on the live site, run localStorage.setItem('aurenstar_admin','1') once in that browser.
+        let admin = import.meta.env.DEV;
+        try { admin = admin || localStorage.getItem('aurenstar_admin') === '1'; } catch { /* storage blocked */ }
+        setCurrentPage(admin ? 'dictionary' : 'dicionario');
       } else if (path === '/dicionario' || hash === '#/dicionario' || hash === '#/dicionary') {
         setCurrentPage('dicionario');
-      } else if (path.startsWith('/about/')) {
-        setAboutSection(path.replace('/about/', '') || 'platform');
+      } else if (path === '/about' || path.startsWith('/about/')) {
         setCurrentPage('about-detail');
       } else {
         setCurrentPage('home');
@@ -109,6 +178,7 @@ export default function App() {
     };
 
     syncRouteFromHash();
+    booted.current = true;
     window.addEventListener('popstate', syncRouteFromHash);
     window.addEventListener('hashchange', syncRouteFromHash);
     return () => {
@@ -119,21 +189,47 @@ export default function App() {
 
   useEffect(() => {
     try {
-      updateSeo(currentPage, { articleId: currentArticleId, termSlug: currentTermSlug });
+      updateSeo(currentPage, {
+        articleId: currentArticleId,
+        termSlug: currentTermSlug,
+        categorySlug: getCategoryByKey(blogCategory)?.slug,
+      });
     } catch (error) {
       // SEO metadata must never prevent the application UI from rendering.
       console.error('Unable to update SEO metadata:', error);
     }
-  }, [currentPage, currentArticleId, currentTermSlug]);
+    // Deferred briefly: on a deep link the first render still shows 'home' before the URL is read,
+    // and that intermediate state must not be counted as a page view.
+    const pageViewTimer = window.setTimeout(trackPageView, 100);
+    return () => window.clearTimeout(pageViewTimer);
+  }, [currentPage, currentArticleId, currentTermSlug, blogCategory]);
 
   const handleNavigate = (page: AppPageRoute) => {
     setCurrentPage(page);
+    if (page === 'blog') setBlogCategory('ALL');
     if (page === 'home') {
       window.history.pushState({ page: 'home' }, '', '/');
     } else {
-      const path = page === 'dicionario' ? '/dicionario' : `/${page}`;
+      // Public URLs of the "describe me" pages are /descreva-me*
+      const path =
+        page === 'about-detail'
+          ? '/about'
+          : page === 'dicionario'
+          ? '/dicionario'
+          : page === 'describe-me'
+          ? '/descreva-me'
+          : page === 'describe-me-result'
+          ? '/descreva-me-result'
+          : `/${page}`;
       window.history.pushState({ page }, '', path);
     }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleSelectBlogCategory = (categoryKey: string) => {
+    setBlogCategory(categoryKey);
+    setCurrentPage('blog');
+    window.history.pushState({ page: 'blog', category: categoryKey }, '', getCategoryPath(categoryKey));
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -143,7 +239,7 @@ export default function App() {
     window.history.pushState(
       { page: 'article', id: articleId },
       '',
-      `/blog/${encodeURIComponent(articleId)}`
+      `/blog/${encodeURIComponent(getArticleSlugById(articleId))}`
     );
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -160,10 +256,9 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const handleOpenAbout = (section: string) => {
-    setAboutSection(section);
+  const handleOpenAbout = (_section?: string) => {
     setCurrentPage('about-detail');
-    window.history.pushState({ page: 'about-detail', section }, '', `/about/${section}`);
+    window.history.pushState({ page: 'about-detail' }, '', '/about');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -173,14 +268,19 @@ export default function App() {
   if (currentPage === 'dictionary') {
     return (
       <LanguageProvider>
-        <DictionaryLayout onBackToPublicSite={() => handleNavigate('home')} />
+        <Suspense fallback={null}>
+          <DictionaryLayout onBackToPublicSite={() => handleNavigate('home')} />
+        </Suspense>
       </LanguageProvider>
     );
   }
 
   return (
     <LanguageProvider>
-      <div className="min-h-screen bg-[#C9E5FF] text-[#172B4D] font-sans selection:bg-[#F51B83] selection:text-[#FFFFFF] flex flex-col justify-between">
+      <SiteLocalizer />
+      <AdBlockGate />
+      <ConsentBanner />
+      <div className="min-h-screen bg-[#C9E5FF] text-[#172B4D] font-sans selection:bg-[#E73578] selection:text-[#FFFFFF] flex flex-col justify-between">
         {/* Top Header with Navigation & Language Switcher */}
         <Navbar
           activePage={
@@ -198,6 +298,7 @@ export default function App() {
         />
 
         {/* Dynamic Page Routing (Dedicated Views for Pageviews Strategy) */}
+        <Suspense fallback={<main className="flex-1 min-h-[100vh]" />}>
         {currentPage === 'home' && (
           <main className="flex-1">
             {/* Hero Section with direct page routes */}
@@ -210,6 +311,7 @@ export default function App() {
 
             {/* Tool navigation section shown directly after the hero */}
             <ToolExplainerSection onNavigate={(tool) => handleNavigate(tool)} />
+            <TshirtMiniSection />
 
             {/* Trending Articles Section */}
             <BlogCardsSection
@@ -221,8 +323,13 @@ export default function App() {
             {/* About Aurenstar Section */}
             <AboutAurenstarSection onOpenCard={handleOpenAbout} />
 
+            {/* T-shirt waiting list (hidden for people already on it), then the FAQ as the last section */}
+            <CommentsSection />
+            <FaqSection />
+
             {/* Zodiac panel above the footer */}
             <BrandMarquee
+              joinFooter
               selectedSign={selectedSign}
               onSelectSign={setSelectedSign}
             />
@@ -237,6 +344,8 @@ export default function App() {
             <BlogPage
               onBackToHome={() => handleNavigate('home')}
               onOpenArticle={handleOpenArticle}
+              selectedCategory={blogCategory}
+              onSelectCategory={handleSelectBlogCategory}
             />
           </main>
         )}
@@ -263,6 +372,39 @@ export default function App() {
               onBackToHome={() => handleNavigate('home')}
               onNavigateToBlog={() => handleNavigate('blog')}
             />
+          </main>
+        )}
+
+        {currentPage === 'credits' && (
+          <main className="flex-1">
+            <CreditsPage
+              onBackToHome={() => handleNavigate('home')}
+              onNavigateToBlog={() => handleNavigate('blog')}
+            />
+          </main>
+        )}
+
+        {currentPage === 'compatibility' && (
+          <main className="flex-1">
+            <CompatibilityPage onBackToHome={() => handleNavigate('home')} onNavigateToBlog={() => handleNavigate('blog')} />
+          </main>
+        )}
+
+        {currentPage === 'transits' && (
+          <main className="flex-1">
+            <TransitsPage onBackToHome={() => handleNavigate('home')} onNavigateToBlog={() => handleNavigate('blog')} />
+          </main>
+        )}
+
+        {(currentPage === 'privacy' || currentPage === 'terms') && (
+          <main className="flex-1">
+            <LegalPage kind={currentPage} onBackToHome={() => handleNavigate('home')} />
+          </main>
+        )}
+
+        {currentPage === 'admin' && (
+          <main className="flex-1">
+            <AdminPage onBackToHome={() => handleNavigate('home')} />
           </main>
         )}
 
@@ -376,11 +518,9 @@ export default function App() {
 
         {currentPage === 'about-detail' && (
           <main className="flex-1">
-            <AboutDetailPage
-              section={aboutSection}
-              onBackToHome={() => handleNavigate('home')}
-              onNavigateToBlog={() => handleNavigate('blog')}
-              onNavigateToTool={(tool) => handleNavigate(tool)}
+            <AboutProfilePage
+              onNavigate={(page) => handleNavigate(page as AppPageRoute)}
+              onOpenArticle={handleOpenArticle}
             />
           </main>
         )}
@@ -401,11 +541,14 @@ export default function App() {
               onBackToForm={() => handleNavigate('describe-me')}
               onBackToHome={() => handleNavigate('home')}
               onNavigateToBlog={() => handleNavigate('blog')}
+              onOpenArticle={handleOpenArticle}
             />
           </main>
         )}
 
         {/* Footer with Universal Navigation */}
+        </Suspense>
+
         <Footer onNavigate={handleNavigate} />
       </div>
     </LanguageProvider>

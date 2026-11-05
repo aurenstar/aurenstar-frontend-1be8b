@@ -30,8 +30,8 @@ export const BottomBanner: React.FC<BottomBannerProps> = ({
       <div className="max-w-7xl mx-auto rounded-3xl overflow-hidden relative min-h-[460px] sm:min-h-[520px] flex items-center justify-center text-center p-6 sm:p-12 shadow-2xl">
         {/* Background Image: Dandelion field with blue sky matching Screenshot 8 */}
         <div className="absolute inset-0 z-0">
-          <img
-            src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=80"
+          <img loading="lazy" decoding="async"
+            src="/assets/img/1500534314209-a25ddb2bd4-1600.webp"
             alt="Field of dandelions under blue sky"
             className="w-full h-full object-cover object-bottom"
           />
@@ -47,18 +47,18 @@ export const BottomBanner: React.FC<BottomBannerProps> = ({
               {t.trusted}
             </span>
             <div className="flex items-center -space-x-2">
-              <img
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&q=80"
+              <img loading="lazy" decoding="async"
+                src="/assets/img/1534528741775-53994a69da-80.webp"
                 alt="user"
                 className="w-6 h-6 rounded-full border border-white object-cover"
               />
-              <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=80"
+              <img loading="lazy" decoding="async"
+                src="/assets/img/1507003211169-0a1dd7228f-80.webp"
                 alt="user"
                 className="w-6 h-6 rounded-full border border-white object-cover"
               />
-              <img
-                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=80&q=80"
+              <img loading="lazy" decoding="async"
+                src="/assets/img/1580489944761-15a19d6549-80.webp"
                 alt="user"
                 className="w-6 h-6 rounded-full border border-white object-cover"
               />

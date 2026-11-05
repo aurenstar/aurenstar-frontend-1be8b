@@ -82,10 +82,10 @@ export const AurenGameSection: React.FC = () => {
         <div className="bg-[#FFFFFF] border border-[#D9E8F8] rounded-3xl p-5 sm:p-7 shadow-xs">
           <div className="flex items-center justify-between mb-4">
             <span className="text-xs sm:text-sm font-bold text-[#647DA5] uppercase tracking-wider flex items-center gap-1.5">
-              <Star className="w-4 h-4 text-[#2878D0]" />
+              <Star className="w-4 h-4 text-[#3982C8]" />
               {t.selectNotice}
             </span>
-            <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-[#E4F1FF] text-[#2878D0] border border-[#D9E8F8]">
+            <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-[#E4F1FF] text-[#3982C8] border border-[#D9E8F8]">
               {getSignName(selectedSign)} • {selectedSign.dates}
             </span>
           </div>
@@ -99,13 +99,13 @@ export const AurenGameSection: React.FC = () => {
                   onClick={() => handleSignClick(sign, index)}
                   className={`relative p-3.5 sm:p-4 rounded-2xl border text-center transition-all duration-200 cursor-pointer flex flex-col items-center justify-center group hover:-translate-y-0.5 ${
                     isSelected
-                      ? 'bg-[#2878D0] text-[#FFFFFF] border-[#2878D0] shadow-md scale-[1.02]'
-                      : 'bg-[#FFFFFF] text-[#172B4D] border-[#D9E8F8] hover:border-[#2878D0] hover:bg-[#E4F1FF]'
+                      ? 'bg-[#3982C8] text-[#FFFFFF] border-[#3982C8] shadow-md scale-[1.02]'
+                      : 'bg-[#FFFFFF] text-[#172B4D] border-[#D9E8F8] hover:border-[#3982C8] hover:bg-[#E4F1FF]'
                   }`}
                 >
                   <span
                     className={`text-2xl sm:text-3xl mb-1.5 transition-transform group-hover:scale-110 ${
-                      isSelected ? 'text-[#FFFFFF]' : 'text-[#2878D0]'
+                      isSelected ? 'text-[#FFFFFF]' : 'text-[#3982C8]'
                     }`}
                   >
                     {sign.symbol}

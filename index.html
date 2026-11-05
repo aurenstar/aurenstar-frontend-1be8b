@@ -1,25 +1,34 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="en" translate="no" class="notranslate">
   <head>
     <meta charset="UTF-8" />
+    <!-- Browsers with JavaScript never flash the plain page text; search engines and no-JS readers still get it. -->
+    <script>document.documentElement.classList.add("js")</script>
+    <style>html.js #root>main[data-prerendered]{visibility:hidden}html.js body{background:#C9E5FF}</style>
+    <meta name="google" content="notranslate" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#C9E5FF" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Cinzel:wght@600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
-    <title>Aurenstar — Aurenstar Daily, Zodiac Calculator & Dictionary</title>
-    <meta name="description" content="Descubra o significado das palavras da astrologia em linguagem simples, calcule seu Efeito Auren e receba mensagens diárias inspiradoras." />
-    <meta property="og:title" content="Aurenstar — Aurenstar Daily, Zodiac Calculator & Dictionary" />
-    <meta property="og:description" content="Descubra o significado das palavras da astrologia em linguagem simples, calcule seu Efeito Auren e receba mensagens diárias inspiradoras." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://aurenstar.com/" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Aurenstar | Simple Astrology, Daily Guidance & Zodiac Insights" />
-    <meta name="twitter:description" content="Explore astrology in simple language with daily messages, zodiac guidance, and the Aurenstar astrology dictionary." />
+    <link rel="preload" as="image" href="/logo-aurenstar.webp" type="image/webp">
+    <!-- Only Montserrat is used (internal pages); load it without blocking the first paint. -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap" rel="stylesheet"></noscript>
+    <!--
+      SEO tags (title, description, canonical, robots, Open Graph, Twitter, JSON-LD) are
+      generated per route at build time by scripts/prerender.ts and replace the marker
+      below. In dev they are applied at runtime by src/utils/seo.ts.
+    -->
+    <title>Aurenstar – Simple Daily Astrology &amp; Zodiac Guidance</title>
+    <!--seo-head-->
   </head>
   <body>
     <div id="root"></div>
+    <!--seo-noscript-->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
-

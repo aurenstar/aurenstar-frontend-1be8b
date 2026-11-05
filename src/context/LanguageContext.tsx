@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import { getUrlLang, stripLangPrefix, isSiteUrlLanguage, withLangPrefix } from '../utils/urlLang';
+import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 
 export type Language = 'en' | 'pt' | 'es';
 
@@ -10,6 +11,8 @@ export interface Translations {
     terms: string;
     about: string;
     contact: string;
+    dictionary: string;
+    newsletter: string;
   };
   hero: {
     title: string;
@@ -47,6 +50,11 @@ export interface Translations {
     aurenEffect: string;
     discoverYourSign: string;
     newsletterTitle: string;
+    contactLabel: string;
+    sourceCode: string;
+    toolsCredits: string;
+    dictionaryLabel: string;
+    unfilteredLabel: string;
     newsletterDesc: string;
     emailPlaceholder: string;
     subscribeBtn: string;
@@ -63,6 +71,8 @@ const translations: Record<Language, Translations> = {
       terms: 'TERMS OF SERVICE',
       about: 'ABOUT US',
       contact: 'CONTACT',
+      dictionary: 'DICTIONARY',
+      newsletter: 'NEWSLETTER',
     },
     hero: {
       title: 'Your Daily Zodiac Guidance',
@@ -100,10 +110,15 @@ const translations: Record<Language, Translations> = {
       aurenEffect: 'Aureneffect',
       discoverYourSign: 'Sign Calculator',
       newsletterTitle: 'Newsletter',
-      newsletterDesc: 'Get tips, daily updates, and uplifting reflections sent directly to you.',
+      contactLabel: 'Contact',
+      sourceCode: 'Source code',
+      toolsCredits: 'Tools & Credits',
+      dictionaryLabel: 'Aurenstar Dictionary',
+      unfilteredLabel: 'Aurenstar Unfiltered',
+      newsletterDesc: 'New articles, astrology tips and Aurenstar news in your inbox.',
       emailPlaceholder: 'Email address',
       subscribeBtn: 'Subscribe →',
-      subscribeSuccess: 'Thank you for subscribing!',
+      subscribeSuccess: 'Done! You are subscribed.',
     },
   },
   pt: {
@@ -114,6 +129,8 @@ const translations: Record<Language, Translations> = {
       terms: 'TERMOS DE SERVIÇO',
       about: 'SOBRE NÓS',
       contact: 'CONTATO',
+      dictionary: 'DICIONÁRIO',
+      newsletter: 'NEWSLETTER',
     },
     hero: {
       title: 'Sua Orientação Astrológica Diária',
@@ -134,7 +151,7 @@ const translations: Record<Language, Translations> = {
     },
     footer: {
       description: 'Orientações astrológicas e mensagens diárias simples para você começar cada manhã com paz, ânimo e harmonia.',
-      companyTitle: 'Company',
+      companyTitle: 'Empresa',
       home: 'Início',
       aboutUs: 'Sobre nós',
       pricing: 'Planos',
@@ -142,19 +159,24 @@ const translations: Record<Language, Translations> = {
       blogDetails: 'Detalhes do Blog',
       privacyPolicy: 'Política de Privacidade',
       termsOfService: 'Termos de Serviço',
-      productTitle: 'Product',
+      productTitle: 'Produto',
       features: 'Recursos',
       careers: 'Vagas',
       howItWorks: 'Como funciona',
       contact: 'Contato',
       dailyMessage: 'Aurendaily',
       aurenEffect: 'Aureneffect',
-      discoverYourSign: 'Sign Calculator',
+      discoverYourSign: 'Calculadora de Signo',
       newsletterTitle: 'Newsletter',
-      newsletterDesc: 'Receba dicas diárias, novidades e conselhos positivos no seu e-mail.',
+      contactLabel: 'Contato',
+      sourceCode: 'Código aberto',
+      toolsCredits: 'Ferramentas e Créditos',
+      dictionaryLabel: 'Dicionário Aurenstar',
+      unfilteredLabel: 'Aurenstar Sem Filtro',
+      newsletterDesc: 'Novos artigos, dicas de astrologia e novidades da Aurenstar no seu e-mail.',
       emailPlaceholder: 'Seu endereço de e-mail',
-      subscribeBtn: 'Inscrever →',
-      subscribeSuccess: 'Inscrição realizada com sucesso!',
+      subscribeBtn: 'Assinar →',
+      subscribeSuccess: 'Pronto! Você está inscrito(a).',
     },
   },
   es: {
@@ -165,6 +187,8 @@ const translations: Record<Language, Translations> = {
       terms: 'TÉRMINOS DE SERVICIO',
       about: 'SOBRE NOSOTROS',
       contact: 'CONTACTO',
+      dictionary: 'DICCIONARIO',
+      newsletter: 'NEWSLETTER',
     },
     hero: {
       title: 'Tu Guía Astrológica Diaria',
@@ -185,7 +209,7 @@ const translations: Record<Language, Translations> = {
     },
     footer: {
       description: 'Orientación astrológica y mensajes reconfortantes para empezar cada día con energía positiva y tranquilidad.',
-      companyTitle: 'Company',
+      companyTitle: 'Empresa',
       home: 'Inicio',
       aboutUs: 'Sobre nosotros',
       pricing: 'Precios',
@@ -193,19 +217,24 @@ const translations: Record<Language, Translations> = {
       blogDetails: 'Detalles del Blog',
       privacyPolicy: 'Política de Privacidad',
       termsOfService: 'Términos de Servicio',
-      productTitle: 'Product',
+      productTitle: 'Producto',
       features: 'Funciones',
       careers: 'Empleo',
       howItWorks: 'Cómo funciona',
       contact: 'Contacto',
       dailyMessage: 'Aurendaily',
       aurenEffect: 'Aureneffect',
-      discoverYourSign: 'Sign Calculator',
+      discoverYourSign: 'Calculadora de Signo',
       newsletterTitle: 'Newsletter',
-      newsletterDesc: 'Recibe consejos diarios, novedades y reflexiones inspiradoras en tu correo.',
+      contactLabel: 'Contacto',
+      sourceCode: 'Código abierto',
+      toolsCredits: 'Herramientas y Créditos',
+      dictionaryLabel: 'Diccionario Aurenstar',
+      unfilteredLabel: 'Aurenstar Sin Filtro',
+      newsletterDesc: 'Nuevos artículos, consejos de astrología y novedades de Aurenstar en tu correo.',
       emailPlaceholder: 'Correo electrónico',
-      subscribeBtn: 'Suscribirse →',
-      subscribeSuccess: '¡Gracias por suscribirte!',
+      subscribeBtn: 'Suscribirme →',
+      subscribeSuccess: '¡Listo! Estás suscrito(a).',
     },
   },
 };
@@ -213,17 +242,72 @@ const translations: Record<Language, Translations> = {
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
+  /** true once the person picked a language themselves (then we never override it from the country) */
+  languageChosen: boolean;
+  /** language of the visitor's country when the site has no menus in it (e.g. 'nl', 'ja'); '' otherwise */
+  visitorLanguage: string;
   t: Translations;
 }
+
+const CHOICE_KEY = 'aurenstar_lang_choice';
+const readChoice = (): Language | null => {
+  try {
+    const v = localStorage.getItem(CHOICE_KEY);
+    return v === 'en' || v === 'pt' || v === 'es' ? v : null;
+  } catch {
+    return null;
+  }
+};
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('en');
+  // Opened on a language address (/nl/...): that language rules the whole visit.
+  const urlLang = getUrlLang();
+  const siteUrlLang = isSiteUrlLanguage(urlLang) ? (urlLang as Language) : null; // /pt or /es: hand-written texts
+  const [choice, setChoice] = useState<Language | null>(urlLang ? null : readChoice);
+  const [language, setLang] = useState<Language>(siteUrlLang || choice || 'en');
+  const [visitorLanguage, setVisitorLanguage] = useState(siteUrlLang ? '' : urlLang);
+
+  // First visit: pick the site language that fits the visitor's country (English when unknown). Silent on any failure.
+  useEffect(() => {
+    if (choice || urlLang) return;
+    let cancelled = false;
+    fetch('/api/visitor')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => {
+        if (cancelled || !d) return;
+        if (d.uiLanguage === 'pt' || d.uiLanguage === 'es' || d.uiLanguage === 'en') setLang(d.uiLanguage);
+        if (d.known && d.language && !['en', 'pt', 'es'].includes(d.language)) setVisitorLanguage(d.language);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [choice]);
+
+  const setLanguage = (lang: Language) => {
+    try {
+      localStorage.setItem(CHOICE_KEY, lang);
+    } catch {
+      // private mode: the choice just lasts for this visit
+    }
+    if (urlLang) {
+      // On a language address the language is the address: go to the same page in the chosen language.
+      const rest = stripLangPrefix(window.location.pathname);
+      const target = lang === 'en' ? rest : withLangPrefix(rest, lang);
+      if (target !== window.location.pathname) window.location.assign(target + window.location.search + window.location.hash);
+      return;
+    }
+    setChoice(lang);
+    setLang(lang);
+  };
 
   const value = {
     language,
     setLanguage,
+    languageChosen: choice !== null || siteUrlLang !== null, // /pt, /es: the hand-written article, no country adaptation
+    visitorLanguage: siteUrlLang ? '' : urlLang || (choice ? '' : visitorLanguage),
     t: translations[language],
   };
 

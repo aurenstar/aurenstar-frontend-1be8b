@@ -1,6 +1,6 @@
 export interface TermFaqItem {
-  pergunta: string;
-  resposta: string;
+  pergunta: string; // question
+  resposta: string; // answer
 }
 
 export interface TermMiniJogo {
@@ -12,663 +12,666 @@ export interface TermMiniJogo {
   }[];
 }
 
+// Field names stay as they are (they are code names); every visible text below is in English.
 export interface DictionaryTerm {
+  /** Portuguese / Spanish texts written together with the term (only for automatically written terms). */
+  traducoes?: { pt?: Record<string, any>; es?: Record<string, any> };
   id: string;
   slug: string;
-  termo: string;
-  tituloSEO: string;
-  perguntaGoogle: string;
-  categoria: 'Planetas & Astros' | 'Conceitos do Mapa' | 'Signos & Elementos' | 'Fases & Movimentos';
+  termo: string; // term
+  tituloSEO: string; // page title for search engines
+  perguntaGoogle: string; // the question people type in Google
+  categoria: 'Planets & Bodies' | 'Chart Concepts' | 'Signs & Elements' | 'Phases & Movements';
   icone: string;
   resumoUmaLinha: string;
   explicacaoEducativa: string;
   chamadaCuriosa: string;
   ganchoCuriosidade?: string;
-  oQueSignifica: string;
-  oQueSignificaNaAstrologia: string;
-  exemploFicticio: string;
-  dicaRapida: string;
+  oQueSignifica: string; // what it means
+  oQueSignificaNaAstrologia: string; // what it means in astrology
+  exemploFicticio: string; // fictional example
+  dicaRapida: string; // quick tip
   miniJogo: TermMiniJogo;
   faq?: TermFaqItem[];
-  termosRelacionados?: string[]; // slugs
+  termosRelacionados?: string[]; // ids
   ferramentaRelacionada?: {
     nome: string;
     rota: 'daily-message' | 'aureneffect' | 'discover-sign';
   };
 }
 
-export const ASTROLOGY_DICTIONARY_TERMS: DictionaryTerm[] = [
+const HAND_WRITTEN_TERMS: DictionaryTerm[] = [
   {
     id: 'mercurio-retrogrado',
     slug: 'what-is-mercury-retrograde',
-    termo: 'Mercúrio Retrógrado',
-    perguntaGoogle: 'O que é Mercúrio Retrógrado?',
-    tituloSEO: 'O que é Mercúrio Retrógrado? Significado Simples na Astrologia',
-    categoria: 'Planetas & Astros',
+    termo: 'Mercury Retrograde',
+    perguntaGoogle: 'What is Mercury retrograde?',
+    tituloSEO: 'What Is Mercury Retrograde? A Simple Astrology Meaning',
+    categoria: 'Planets & Bodies',
     icone: '🪐',
-    resumoUmaLinha: 'Quando parece que o planeta da comunicação está andando para trás no céu.',
-    explicacaoEducativa: 'Saiba por que Mercúrio retrógrado é tão temido e como ele realmente mexe com as conversas e atrasos do dia a dia.',
-    chamadaCuriosa: 'Saiba por que Mercúrio retrógrado é tão temido',
+    resumoUmaLinha: 'When the planet of communication seems to move backward in the sky.',
+    explicacaoEducativa: 'Learn why Mercury retrograde is so feared and how it really affects everyday conversations and delays.',
+    chamadaCuriosa: 'Learn why Mercury retrograde is so feared',
     oQueSignifica:
-      'É quando parece que o planeta Mercúrio está andando para trás no céu. Na verdade, ele nunca anda para trás de verdade; é apenas uma ilusão de ótica que temos aqui da Terra, como quando você está dentro de um carro veloz e o carro da pista ao lado parece andar de marcha à ré.',
+      'It is when the planet Mercury seems to move backward in the sky. In truth, it never really goes backward; it is just an optical illusion from here on Earth, like when you are in a fast car and the car in the next lane seems to roll in reverse.',
     oQueSignificaNaAstrologia:
-      'Na astrologia, Mercúrio comanda as conversas, as mensagens, as viagens e os aparelhos eletrônicos. Quando ele está retrógrado, esse período é associado a pequenas confusões, mensagens mal interpretadas, atrasos e à necessidade de rever com calma o que já fizemos.',
+      'In astrology, Mercury rules conversations, messages, travel and electronic devices. When it is retrograde, this period is linked to small mix-ups, misread messages, delays and the need to calmly review what we have already done.',
     exemploFicticio:
-      'Imagine que Maria combina de sair com uma amiga no shopping, mas as duas entendem horários diferentes e acabam se desencontrando. Maria brinca: "Só podia ser Mercúrio retrógrado atrapalhando meus planos!".',
-    dicaRapida: 'Leia as mensagens duas vezes antes de enviar e confirme os horários com calma.',
+      'Imagine Maria agrees to meet a friend at the mall, but they each understand a different time and miss each other. Maria jokes: "Of course, Mercury retrograde messing up my plans again!"',
+    dicaRapida: 'Read your messages twice before sending and confirm times calmly.',
     miniJogo: {
-      pergunta: 'Seu celular deu uma travadinha ou alguém entendeu sua mensagem de texto de forma errada hoje. Qual a melhor atitude?',
+      pergunta: 'Your phone glitched, or someone misunderstood your text message today. What is the best way to react?',
       opcoes: [
         {
-          texto: 'Respirar fundo, explicar com carinho e ter paciência ✨',
+          texto: 'Take a deep breath, explain kindly and be patient ✨',
           correta: true,
-          explicacao: 'Perfeito! Em Mercúrio retrógrado, a paciência e a conversa tranquila resolvem qualquer mal-entendido com facilidade!',
+          explicacao: 'Perfect! During Mercury retrograde, patience and a calm conversation clear up any misunderstanding easily!',
         },
         {
-          texto: 'Ficar bravo e mandar 20 áudios gritando',
+          texto: 'Get angry and send 20 voice messages shouting',
           correta: false,
-          explicacao: 'Calma! Isso só vai criar mais confusão. Respire fundo e converse com jeitinho.',
+          explicacao: 'Easy now! That only creates more confusion. Take a deep breath and talk it through gently.',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'Mercúrio retrógrado é perigoso?',
-        resposta: 'Não! É apenas uma época que pede mais calma, paciência e atenção nos detalhes.',
+        pergunta: 'Is Mercury retrograde dangerous?',
+        resposta: 'No! It is simply a time that asks for more calm, patience and attention to details.',
       },
       {
-        pergunta: 'Quanto tempo dura o período de Mercúrio retrógrado?',
-        resposta: 'Dura cerca de 3 semanas e acontece cerca de 3 a 4 vezes por ano.',
+        pergunta: 'How long does Mercury retrograde last?',
+        resposta: 'It lasts about 3 weeks and happens about 3 to 4 times a year.',
       },
     ],
     termosRelacionados: ['signo-ascendente', 'mapa-astral', 'lua-cheia'],
     ferramentaRelacionada: {
-      nome: 'Ver Mensagem Diária de Hoje',
+      nome: "Read Today's Daily Message",
       rota: 'daily-message',
     },
   },
   {
     id: 'signo-ascendente',
     slug: 'what-is-rising-sign',
-    termo: 'Ascendente',
-    perguntaGoogle: 'O que é Signo Ascendente?',
-    tituloSEO: 'O que é Ascendente na Astrologia? O Signo da Sua Primeira Impressão',
-    categoria: 'Conceitos do Mapa',
+    termo: 'Rising Sign (Ascendant)',
+    perguntaGoogle: 'What is a rising sign?',
+    tituloSEO: 'What Is a Rising Sign? Your First-Impression Sign Explained',
+    categoria: 'Chart Concepts',
     icone: '🌅',
-    resumoUmaLinha: 'O signo que nascia no horizonte quando você nasceu: a sua porta de entrada.',
-    explicacaoEducativa: 'Saiba por que o seu ascendente define a primeira impressão que as pessoas têm de você antes mesmo de você falar.',
-    chamadaCuriosa: 'Saiba por que o Ascendente é a primeira coisa que notam em você',
+    resumoUmaLinha: 'The sign that was rising on the horizon when you were born: your front door.',
+    explicacaoEducativa: 'Learn why your rising sign shapes the first impression people get of you before you even say a word.',
+    chamadaCuriosa: 'Learn why the Rising Sign is the first thing people notice about you',
     oQueSignifica:
-      'É o signo que estava nascendo no horizonte leste no céu no minuto exato em que você nasceu. Por isso, para saber o seu ascendente com precisão, é necessário saber o horário do nascimento.',
+      'It is the sign that was rising on the eastern horizon at the exact minute you were born. That is why you need your birth time to find your rising sign accurately.',
     oQueSignificaNaAstrologia:
-      'O ascendente é como a sua "fachada" ou a primeira impressão que você passa para o mundo. É o seu jeito de falar, como você começa coisas novas e como as pessoas te enxergam antes de te conhecerem profundamente.',
+      'The rising sign is like your "front door" or the first impression you give the world. It is how you speak, how you start new things and how people see you before they know you deeply.',
     exemploFicticio:
-      'Lucas é de Peixes (super sensível e tranquilo por dentro), mas tem Ascendente em Áries. Quando chega em uma reunião, ele fala alto, toma a frente e parece mandão. As pessoas se surpreendem quando descobrem o quanto ele é doce.',
-    dicaRapida: 'O Ascendente é a roupa que você veste para se apresentar ao mundo.',
+      'Lucas is a Pisces (very sensitive and calm inside), but has an Aries Rising. When he walks into a meeting, he speaks up, takes the lead and seems bossy. People are surprised when they find out how sweet he really is.',
+    dicaRapida: 'Your Rising Sign is the outfit you wear to introduce yourself to the world.',
     miniJogo: {
-      pergunta: 'Quando você chega pela primeira vez em uma festa ou entrevista, o que as pessoas sentem logo de cara?',
+      pergunta: 'When you arrive at a party or an interview for the first time, what do people feel right away?',
       opcoes: [
         {
-          texto: 'A energia do seu Ascendente (o seu jeito e primeira impressão)',
+          texto: 'The energy of your Rising Sign (your style and first impression)',
           correta: true,
-          explicacao: 'Isso mesmo! O Ascendente é a porta de entrada da sua personalidade no mundo.',
+          explicacao: 'That is right! The Rising Sign is the front door of your personality to the world.',
         },
         {
-          texto: 'A marca do tênis que você esqueceu em casa',
+          texto: 'The brand of sneakers you left at home',
           correta: false,
-          explicacao: 'Ninguém adivinha isso! O que aparece de imediato é o seu jeito de se expressar e sua presença.',
+          explicacao: 'Nobody can guess that! What shows up right away is your way of expressing yourself and your presence.',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'O Ascendente é mais forte que o signo do Sol?',
-        resposta: 'O Sol é quem você é no fundo do coração; o Ascendente é como as pessoas te veem à primeira vista.',
+        pergunta: 'Is the Rising Sign stronger than the Sun sign?',
+        resposta: 'The Sun is who you are deep in your heart; the Rising Sign is how people see you at first glance.',
       },
     ],
     termosRelacionados: ['signo-solar', 'signo-lunar', 'casas-astrologicas'],
     ferramentaRelacionada: {
-      nome: 'Calcular no Efeito Auren',
+      nome: 'Calculate in Aureneffect',
       rota: 'aureneffect',
     },
   },
   {
     id: 'signo-solar',
     slug: 'what-is-sun-sign',
-    termo: 'Signo Solar (Seu Signo Principal)',
-    perguntaGoogle: 'O que é Signo Solar?',
-    tituloSEO: 'O que é Signo Solar? A Sua Essência e Força Vital',
-    categoria: 'Signos & Elementos',
+    termo: 'Sun Sign (Your Main Sign)',
+    perguntaGoogle: 'What is a sun sign?',
+    tituloSEO: 'What Is a Sun Sign? Your Core Essence and Life Force',
+    categoria: 'Signs & Elements',
     icone: '☀️',
-    resumoUmaLinha: 'A posição onde o Sol estava quando você nasceu: a sua bateria de energia.',
-    explicacaoEducativa: 'Saiba por que o seu signo solar é o mais famoso de todos e o que ele revela sobre a sua verdadeira fonte de energia e brilho.',
-    chamadaCuriosa: 'Saiba por que seu signo solar não conta tudo sobre você',
+    resumoUmaLinha: 'Where the Sun was when you were born: your energy battery.',
+    explicacaoEducativa: 'Learn why your sun sign is the most famous of all and what it reveals about your true source of energy and brightness.',
+    chamadaCuriosa: "Learn why your sun sign doesn't tell the whole story about you",
     oQueSignifica:
-      'É a posição onde o Sol estava no céu no dia do seu aniversário. É o signo que todo mundo diz quando pergunta: "Qual é o seu signo?".',
+      'It is the position of the Sun in the sky on your birthday. It is the sign everyone tells you when they ask: "What\'s your sign?"',
     oQueSignificaNaAstrologia:
-      'Representa o seu coração, a sua essência básica, a sua energia e o que te dá vontade de acordar feliz todos os dias.',
+      'It represents your heart, your basic essence, your energy and what makes you want to wake up happy every day.',
     exemploFicticio:
-      'Quando Juliana diz que é do signo de Leão, ela se refere ao seu Signo Solar: ela adora comemorar aniversários e espalha bom humor e alegria por onde passa.',
-    dicaRapida: 'O Sol é a bateria do seu coração e a sua força vital mais autêntica.',
+      'When Julia says she is a Leo, she means her Sun Sign: she loves celebrating birthdays and spreads good humor and joy wherever she goes.',
+    dicaRapida: 'The Sun is the battery of your heart and your most authentic life force.',
     miniJogo: {
-      pergunta: 'Quando alguém te pergunta "Qual é o seu signo?", de qual posição ela está falando?',
+      pergunta: 'When someone asks "What\'s your sign?", which position are they talking about?',
       opcoes: [
         {
-          texto: 'Do Signo Solar (onde o Sol estava no dia do seu nascimento)',
+          texto: 'The Sun Sign (where the Sun was on the day you were born)',
           correta: true,
-          explicacao: 'Na mosca! O signo solar é o mais conhecido de todos e representa a bateria de luz do seu coração.',
+          explicacao: 'Right on! The sun sign is the best known of all and represents the battery of light in your heart.',
         },
         {
-          texto: 'Do horóscopo do jornal da semana retrasada',
+          texto: "The horoscope in the newspaper from two weeks ago",
           correta: false,
-          explicacao: 'Não! O seu signo solar vem da data do seu aniversário e nunca muda ao longo da vida.',
+          explicacao: 'No! Your sun sign comes from your birth date and never changes throughout your life.',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'Por que nem todo mundo do mesmo signo é igual?',
-        resposta: 'Porque cada pessoa tem uma combinação única de Lua, Ascendente e outros planetas no seu mapa astral.',
+        pergunta: 'Why is not everyone with the same sign alike?',
+        resposta: 'Because each person has a unique combination of Moon, Rising Sign and other planets in their birth chart.',
       },
     ],
     termosRelacionados: ['signo-lunar', 'signo-ascendente', 'elementos-astrologicos'],
     ferramentaRelacionada: {
-      nome: 'Descobrir Meu Signo',
+      nome: 'Find My Sign',
       rota: 'discover-sign',
     },
   },
   {
     id: 'signo-lunar',
     slug: 'what-is-moon-sign',
-    termo: 'Lua (Signo Lunar)',
-    perguntaGoogle: 'O que é o Signo Lunar?',
-    tituloSEO: 'O que significa a Lua no Mapa Astral? Seus Sentimentos Secretos',
-    categoria: 'Planetas & Astros',
+    termo: 'Moon Sign',
+    perguntaGoogle: 'What is a moon sign?',
+    tituloSEO: 'What Does the Moon Mean in Your Birth Chart? Your Inner Feelings',
+    categoria: 'Planets & Bodies',
     icone: '🌙',
-    resumoUmaLinha: 'O signo das suas emoções mais profundas e do que te traz conforto.',
-    explicacaoEducativa: 'Saiba por que a sua Lua cuida dos seus sentimentos secretos e do que você precisa para se sentir seguro em paz.',
-    chamadaCuriosa: 'Saiba por que a Lua manda no seu humor e no seu choro',
+    resumoUmaLinha: 'The sign of your deepest emotions and of what brings you comfort.',
+    explicacaoEducativa: 'Learn why your Moon looks after your secret feelings and what you need to feel safe and at peace.',
+    chamadaCuriosa: 'Learn why the Moon rules your mood and your tears',
     oQueSignifica:
-      'É o signo onde a Lua estava no momento exato em que você deu o primeiro respiro no mundo.',
+      'It is the sign where the Moon was at the exact moment you took your first breath in the world.',
     oQueSignificaNaAstrologia:
-      'Enquanto o Sol cuida do que você faz de dia para todo mundo ver, a Lua cuida do que você sente por dentro: suas emoções íntimas, seus medos e como você gosta de ser acolhido.',
+      'While the Sun takes care of what you do in the daytime for everyone to see, the Moon takes care of what you feel inside: your private emotions, your fears and how you like to be comforted.',
     exemploFicticio:
-      'Pedro é de Capricórnio (muito focado e sério no trabalho), mas tem a Lua em Câncer. Em casa, ele assiste a desenhos comendo pipoca e se emociona facilmente com histórias de família.',
-    dicaRapida: 'A Lua representa a sua criança interior e o seu porto seguro.',
+      'Peter is a Capricorn (very focused and serious at work), but has his Moon in Cancer. At home, he watches cartoons while eating popcorn and gets emotional easily over family stories.',
+    dicaRapida: 'The Moon represents your inner child and your safe harbor.',
     miniJogo: {
-      pergunta: 'Quando você teve um dia cansativo e só quer ficar quietinho no seu canto recebendo carinho, qual astro está falando mais alto?',
+      pergunta: 'You had a tiring day and just want to stay quiet in your corner and be comforted. Which body in the sky is speaking loudest?',
       opcoes: [
         {
-          texto: 'A Lua (ela cuida das suas emoções íntimas e do seu aconchego)',
+          texto: 'The Moon (it looks after your private emotions and your coziness)',
           correta: true,
-          explicacao: 'Exato! A Lua é o seu cantinho seguro onde você se sente acolhido, descansado e em paz.',
+          explicacao: 'Exactly! The Moon is your safe little corner where you feel welcome, rested and at peace.',
         },
         {
-          texto: 'O despertador de segunda-feira de manhã',
+          texto: 'The Monday morning alarm clock',
           correta: false,
-          explicacao: 'O despertador só quer pressa! Quem cuida do seu descanso de verdade é a energia da Lua.',
+          explicacao: 'The alarm clock only wants you to hurry! What truly looks after your rest is the energy of the Moon.',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'Como saber qual é a minha Lua?',
-        resposta: 'Basta colocar sua data, horário e cidade de nascimento na nossa calculadora gratuita do Efeito Auren.',
+        pergunta: 'How do I find out my Moon sign?',
+        resposta: 'Just enter your birth date, time and city in our free Aureneffect calculator.',
       },
     ],
     termosRelacionados: ['signo-solar', 'lua-cheia', 'lua-nova'],
     ferramentaRelacionada: {
-      nome: 'Calcular Lua no Efeito Auren',
+      nome: 'Calculate Your Moon in Aureneffect',
       rota: 'aureneffect',
     },
   },
   {
     id: 'mapa-astral',
     slug: 'what-is-birth-chart',
-    termo: 'Mapa Astral (Mapa Natal)',
-    perguntaGoogle: 'O que é um Mapa Astral?',
-    tituloSEO: 'O que é Mapa Astral? O Guia Definitivo Explicado de Forma Simples',
-    categoria: 'Conceitos do Mapa',
+    termo: 'Birth Chart (Natal Chart)',
+    perguntaGoogle: 'What is a birth chart?',
+    tituloSEO: 'What Is a Birth Chart? The Complete Guide, Made Simple',
+    categoria: 'Chart Concepts',
     icone: '🧭',
-    resumoUmaLinha: 'Uma fotografia do céu tirada no segundo exato em que você nasceu.',
-    explicacaoEducativa: 'Saiba por que o mapa astral é considerado uma fotografia única do céu que funciona como o seu manual pessoal de talentos.',
-    chamadaCuriosa: 'Saiba por que seu Mapa Astral é como sua impressão digital no céu',
+    resumoUmaLinha: 'A photograph of the sky taken at the exact second you were born.',
+    explicacaoEducativa: 'Learn why the birth chart is seen as a one-of-a-kind photograph of the sky that works like your personal manual of talents.',
+    chamadaCuriosa: 'Learn why your Birth Chart is like your fingerprint in the sky',
     oQueSignifica:
-      'É uma foto panorâmica do céu no exato instante e cidade em que você nasceu, marcando onde cada planeta e constelação estava.',
+      'It is a panoramic photo of the sky at the exact moment and city where you were born, showing where each planet and constellation was.',
     oQueSignificaNaAstrologia:
-      'É o seu manual pessoal. Ele mostra seus talentos naturais, onde você tem mais facilidade para ter sucesso e quais pontos você precisa exercitar com mais carinho.',
+      'It is your personal manual. It shows your natural talents, where you find success most easily and which areas you need to nurture with more care.',
     exemploFicticio:
-      'Carla fez seu mapa astral e entendeu por que gosta tanto de ensinar, mas ao mesmo tempo precisa de momentos em silêncio todos os dias para recarregar as energias.',
-    dicaRapida: 'Ninguém no mundo tem um mapa astral 100% igual ao seu.',
+      'Carla had her birth chart done and understood why she loves teaching so much, yet needs quiet moments every day to recharge.',
+    dicaRapida: 'Nobody in the world has a birth chart exactly like yours.',
     miniJogo: {
-      pergunta: 'Para que serve o Mapa Astral na vida real?',
+      pergunta: 'What is the Birth Chart for in real life?',
       opcoes: [
         {
-          texto: 'Como um mapa de talentos para você se conhecer melhor e fazer boas escolhas',
+          texto: 'As a map of talents so you can know yourself better and make good choices',
           correta: true,
-          explicacao: 'Muito bem! Ele é como um manual de instruções dos seus dons naturais e da sua essência.',
+          explicacao: 'Well done! It is like an instruction manual for your natural gifts and your essence.',
         },
         {
-          texto: 'Para adivinhar os números da loteria da virada',
+          texto: 'To guess next week\'s lottery numbers',
           correta: false,
-          explicacao: 'Astrologia é sobre autoconhecimento e vida prática, não sobre adivinhar loterias!',
+          explicacao: 'Astrology is about self-knowledge and everyday life, not about guessing the lottery!',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'O mapa astral prevê o futuro?',
-        resposta: 'Não! Ele é como um mapa de navegação que mostra quem você é para você fazer as melhores escolhas.',
+        pergunta: 'Does the birth chart predict the future?',
+        resposta: 'No! It is like a navigation map that shows who you are so you can make the best choices.',
       },
     ],
     termosRelacionados: ['casas-astrologicas', 'signo-ascendente', 'retorno-de-saturno'],
     ferramentaRelacionada: {
-      nome: 'Calcular Efeito Auren',
+      nome: 'Try Aureneffect',
       rota: 'aureneffect',
     },
   },
   {
     id: 'retorno-de-saturno',
     slug: 'what-is-saturn-return',
-    termo: 'Retorno de Saturno',
-    perguntaGoogle: 'O que é o Retorno de Saturno?',
-    tituloSEO: 'O que é o Retorno de Saturno aos 29 anos? Entenda Sem Medo',
-    categoria: 'Fases & Movimentos',
+    termo: 'Saturn Return',
+    perguntaGoogle: 'What is the Saturn return?',
+    tituloSEO: 'What Is the Saturn Return at 29? Understand It Without Fear',
+    categoria: 'Phases & Movements',
     icone: '🪐',
-    resumoUmaLinha: 'A formatura da vida adulta que acontece por volta dos 28 a 30 anos.',
-    explicacaoEducativa: 'Saiba por que o Retorno de Saturno aos 29 anos é tão marcante e como ele transforma de verdade a sua vida adulta.',
-    chamadaCuriosa: 'Saiba por que chegar aos 29 anos vira a vida do avesso',
+    resumoUmaLinha: 'The "graduation" into adult life that happens around ages 28 to 30.',
+    explicacaoEducativa: 'Learn why the Saturn return around age 29 is so memorable and how it truly transforms your adult life.',
+    chamadaCuriosa: 'Learn why turning 29 can turn your life upside down',
     oQueSignifica:
-      'O planeta Saturno demora quase 30 anos para dar uma volta completa em torno do Sol. Quando ele volta para o mesmo lugar de quando você nasceu, temos o Retorno de Saturno.',
+      'The planet Saturn takes almost 30 years to make a full trip around the Sun. When it returns to the same place it was when you were born, we have the Saturn Return.',
     oQueSignificaNaAstrologia:
-      'É o momento em que a vida te pergunta: "Você está feliz com o caminho que escolheu?". É uma época em que assumimos responsabilidades reais, mudamos de carreira ou deixamos para trás o que não faz mais sentido.',
+      'It is the moment when life asks you: "Are you happy with the path you chose?" It is a time when we take on real responsibilities, change careers or leave behind what no longer makes sense.',
     exemploFicticio:
-      'Aos 29 anos, Rodrigo largou um trabalho que não aguentava mais e finalmente abriu sua padaria artesanal, assumindo a liderança do seu próprio sonho.',
-    dicaRapida: 'O Retorno de Saturno não é castigo; é a vida te ajudando a construir coisas sólidas.',
+      'At 29, Rodrigo quit a job he could not stand anymore and finally opened his artisan bakery, taking the lead on his own dream.',
+    dicaRapida: 'The Saturn Return is not a punishment; it is life helping you build solid things.',
     miniJogo: {
-      pergunta: 'Você chegou perto dos 29 ou 30 anos e sente vontade de mudar de rumo e amadurecer. Qual a melhor atitude?',
+      pergunta: 'You are close to 29 or 30 and feel like changing direction and growing up. What is the best attitude?',
       opcoes: [
         {
-          texto: 'Assumir as rédeas da sua vida e construir planos que durem de verdade',
+          texto: 'Take the reins of your life and build plans that truly last',
           correta: true,
-          explicacao: 'Exatamente! Saturno recompensa quem tem coragem de amadurecer e fazer escolhas com o coração.',
+          explicacao: 'Exactly! Saturn rewards those who have the courage to mature and make choices with the heart.',
         },
         {
-          texto: 'Se desesperar e achar que tudo acabou',
+          texto: 'Panic and think everything is over',
           correta: false,
-          explicacao: 'Não tem por que se assustar! É uma das fases mais bonitas de crescimento e conquista.',
+          explicacao: 'There is no reason to be scared! It is one of the most beautiful phases of growth and achievement.',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'O Retorno de Saturno acontece mais de uma vez?',
-        resposta: 'Sim, por volta dos 29 anos e novamente por volta dos 58 anos de idade.',
+        pergunta: 'Does the Saturn Return happen more than once?',
+        resposta: 'Yes, around age 29 and again around age 58.',
       },
     ],
     termosRelacionados: ['mapa-astral', 'casas-astrologicas', 'revolucao-solar'],
     ferramentaRelacionada: {
-      nome: 'Ler Mensagem Diária',
+      nome: 'Read the Daily Message',
       rota: 'daily-message',
     },
   },
   {
     id: 'casas-astrologicas',
     slug: 'what-are-astrological-houses',
-    termo: 'Casas Astrológicas',
-    perguntaGoogle: 'O que são as 12 Casas Astrológicas?',
-    tituloSEO: 'O que são as Casas Astrológicas? A Pizza das 12 Áreas da Vida',
-    categoria: 'Conceitos do Mapa',
+    termo: 'Astrological Houses',
+    perguntaGoogle: 'What are the 12 astrological houses?',
+    tituloSEO: 'What Are the Astrological Houses? The Pizza of Your 12 Life Areas',
+    categoria: 'Chart Concepts',
     icone: '🏠',
-    resumoUmaLinha: 'As 12 divisões do mapa que representam cada assunto da sua vida.',
-    explicacaoEducativa: 'Saiba por que o mapa astral é dividido em 12 casas e como cada uma cuida de uma área como amor, dinheiro e trabalho.',
-    chamadaCuriosa: 'Saiba como a astrologia divide a sua vida em 12 áreas secretas',
+    resumoUmaLinha: 'The 12 sections of the chart that each stand for a subject of your life.',
+    explicacaoEducativa: 'Learn why the birth chart is divided into 12 houses and how each one looks after an area like love, money and work.',
+    chamadaCuriosa: 'Learn how astrology divides your life into 12 secret areas',
     oQueSignifica:
-      'Imagine que o mapa astral é uma pizza redonda fatiada em 12 pedaços iguais. Cada pedaço do céu é chamado de "casa".',
+      'Imagine the birth chart is a round pizza sliced into 12 equal pieces. Each piece of the sky is called a "house".',
     oQueSignificaNaAstrologia:
-      'Cada casa cuida de um tema: a Casa 1 cuida de você, a Casa 2 do dinheiro, a Casa 4 da sua casa e família, a Casa 7 dos amores e parcerias, e a Casa 10 da sua carreira.',
+      'Each house looks after a theme: the 1st House is about you, the 2nd about money, the 4th about your home and family, the 7th about love and partnerships, and the 10th about your career.',
     exemploFicticio:
-      'Se você tem vários planetas reunidos na Casa 4, seu lar é o lugar mais sagrado da sua vida e você adora receber pessoas queridas em casa.',
-    dicaRapida: 'Os signos mostram COMO você sente; as casas mostram ONDE as coisas acontecem.',
+      'If you have several planets gathered in the 4th House, your home is the most sacred place in your life and you love having loved ones over.',
+    dicaRapida: 'Signs show HOW you feel; houses show WHERE things happen.',
     miniJogo: {
-      pergunta: 'Se o mapa astral fosse uma casa de verdade, o que as 12 casas astrológicas seriam?',
+      pergunta: 'If the birth chart were a real house, what would the 12 astrological houses be?',
       opcoes: [
         {
-          texto: 'Os cômodos da casa: quarto do amor, cozinha da família, escritório do trabalho',
+          texto: 'The rooms of the house: the love bedroom, the family kitchen, the work office',
           correta: true,
-          explicacao: 'Show! Cada casa cuida de um cantinho importante da sua rotina e da sua vida.',
+          explicacao: 'Nice! Each house looks after an important corner of your routine and your life.',
         },
         {
-          texto: 'Doze tijolos quebrados na calçada',
+          texto: 'Twelve broken bricks on the sidewalk',
           correta: false,
-          explicacao: 'Elas são divisões com significado profundo para cada sonho seu!',
+          explicacao: 'They are divisions with deep meaning for each of your dreams!',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'Todo mundo tem todas as 12 casas?',
-        resposta: 'Sim! Todos nós temos as 12 casas no mapa, mesmo as que não têm planetas dentro.',
+        pergunta: 'Does everyone have all 12 houses?',
+        resposta: 'Yes! We all have all 12 houses in our chart, even the ones with no planets in them.',
       },
     ],
     termosRelacionados: ['signo-ascendente', 'mapa-astral', 'venus-no-mapa'],
     ferramentaRelacionada: {
-      nome: 'Ver Efeito Auren',
+      nome: 'Try Aureneffect',
       rota: 'aureneffect',
     },
   },
   {
     id: 'venus-no-mapa',
     slug: 'what-does-venus-mean',
-    termo: 'Vênus (O Planeta do Amor)',
-    perguntaGoogle: 'O que Vênus significa na Astrologia?',
-    tituloSEO: 'O que Vênus Representa na Astrologia? Seu Estilo de Amar e Seduzir',
-    categoria: 'Planetas & Astros',
+    termo: 'Venus (The Planet of Love)',
+    perguntaGoogle: 'What does Venus mean in astrology?',
+    tituloSEO: 'What Does Venus Mean in Astrology? Your Style of Love and Attraction',
+    categoria: 'Planets & Bodies',
     icone: '💖',
-    resumoUmaLinha: 'O planeta do amor, da beleza, dos prazeres e de como você se relaciona.',
-    explicacaoEducativa: 'Saiba por que Vênus é tão famoso no amor e como ele mostra o tipo de carinho e afeto que realmente conquista você.',
-    chamadaCuriosa: 'Saiba por que Vênus define quem você ama e quem te atrai',
+    resumoUmaLinha: 'The planet of love, beauty, pleasures and how you relate to others.',
+    explicacaoEducativa: 'Learn why Venus is so famous in love and how it shows the kind of care and affection that truly wins you over.',
+    chamadaCuriosa: 'Learn why Venus defines who you love and who attracts you',
     oQueSignifica:
-      'É o planeta brilhante que vemos no início da noite ou ao amanhecer, conhecido popularmente como Estrela d’Alva.',
+      'It is the bright planet we see early in the evening or at dawn, popularly known as the Morning Star or the Evening Star.',
     oQueSignificaNaAstrologia:
-      'Vênus mostra o seu jeito de amar, o que você acha bonito, o que te dá prazer e como você gosta de ser tratado por quem você ama.',
+      'Venus shows your way of loving, what you find beautiful, what gives you pleasure and how you like to be treated by the people you love.',
     exemploFicticio:
-      'Beatriz tem Vênus em Touro. Para ela, carinho bom é um jantar caprichado feito em casa com direito a sobremesa gostosa.',
-    dicaRapida: 'Vênus revela a sua linguagem do amor favorita.',
+      'Beatrice has Venus in Taurus. For her, good affection is a carefully made dinner at home with a delicious dessert.',
+    dicaRapida: 'Venus reveals your favorite love language.',
     miniJogo: {
-      pergunta: 'Se você quer saber qual tipo de carinho faz seu coração bater mais forte, qual astro te ensina isso?',
+      pergunta: 'If you want to know which kind of affection makes your heart beat faster, which planet teaches you that?',
       opcoes: [
         {
-          texto: 'O planeta Vênus (o mestre do amor, do afeto e dos prazeres)',
+          texto: 'The planet Venus (the master of love, affection and pleasures)',
           correta: true,
-          explicacao: 'Certinho! Vênus é o cupido da astrologia e ensina como você gosta de ser amado e acolhido.',
+          explicacao: 'Spot on! Venus is the cupid of astrology and shows how you like to be loved and cared for.',
         },
         {
-          texto: 'A calculadora de juros do banco',
+          texto: "The bank's interest calculator",
           correta: false,
-          explicacao: 'O banco só cuida de boletos! Quem cuida do seu coração apaixonado é Vênus.',
+          explicacao: 'The bank only cares about bills! The one who cares about your loving heart is Venus.',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'Vênus só cuida de relacionamentos amorosos?',
-        resposta: 'Também fala sobre amizades, dinheiro, beleza e as coisas que você valoriza.',
+        pergunta: 'Does Venus only look after romantic relationships?',
+        resposta: 'It also speaks about friendships, money, beauty and the things you value.',
       },
     ],
     termosRelacionados: ['marte-no-mapa', 'sinastria-amorosa', 'signo-solar'],
     ferramentaRelacionada: {
-      nome: 'Descobrir Meu Signo',
+      nome: 'Find My Sign',
       rota: 'discover-sign',
     },
   },
   {
     id: 'marte-no-mapa',
     slug: 'what-does-mars-mean',
-    termo: 'Marte (O Planeta da Ação)',
-    perguntaGoogle: 'O que significa Marte na Astrologia?',
-    tituloSEO: 'O que Marte Representa na Astrologia? Sua Coragem e Força de Ação',
-    categoria: 'Planetas & Astros',
+    termo: 'Mars (The Planet of Action)',
+    perguntaGoogle: 'What does Mars mean in astrology?',
+    tituloSEO: 'What Does Mars Mean in Astrology? Your Courage and Drive',
+    categoria: 'Planets & Bodies',
     icone: '🔥',
-    resumoUmaLinha: 'A sua força de vontade, coragem e capacidade de começar coisas novas.',
-    explicacaoEducativa: 'Saiba por que Marte é o planeta da ação e como ele te dá coragem e força de vontade para começar coisas novas.',
-    chamadaCuriosa: 'Saiba por que Marte é o acelerador que te dá coragem para agir',
+    resumoUmaLinha: 'Your willpower, courage and ability to start new things.',
+    explicacaoEducativa: 'Learn why Mars is the planet of action and how it gives you courage and willpower to start new things.',
+    chamadaCuriosa: 'Learn why Mars is the accelerator that gives you courage to act',
     oQueSignifica:
-      'É o famoso planeta vermelho vizinho da Terra no nosso sistema solar.',
+      'It is the famous red planet, our neighbor in the solar system.',
     oQueSignificaNaAstrologia:
-      'Marte é o seu acelerador! Ele mostra como você luta pelo que quer, a sua coragem, como reage sob pressão e a sua energia física.',
+      'Mars is your accelerator! It shows how you fight for what you want, your courage, how you react under pressure and your physical energy.',
     exemploFicticio:
-      'Quando toca o alarme para fazer exercícios físicos e você pula da cama com disposição, é a energia de Marte falando alto.',
-    dicaRapida: 'Marte é a faísca que transforma planos em ação de verdade.',
+      'When the alarm goes off for your workout and you jump out of bed full of energy, that is the energy of Mars speaking loud.',
+    dicaRapida: 'Mars is the spark that turns plans into real action.',
     miniJogo: {
-      pergunta: 'Quando você precisa de coragem para dizer "chega" ou começar um projeto novo, qual energia você ativa?',
+      pergunta: 'When you need courage to say "enough" or to start a new project, which energy are you activating?',
       opcoes: [
         {
-          texto: 'A força de Marte (o acelerador que coloca seus planos em movimento)',
+          texto: 'The strength of Mars (the accelerator that sets your plans in motion)',
           correta: true,
-          explicacao: 'Exato! Marte é a faísca de coragem que tira qualquer sonho do papel e faz acontecer.',
+          explicacao: 'Exactly! Mars is the spark of courage that takes any dream off the paper and makes it happen.',
         },
         {
-          texto: 'O modo soneca do despertador',
+          texto: "The alarm clock's snooze mode",
           correta: false,
-          explicacao: 'O modo soneca quer descanso! Marte quer atitude e vitória!',
+          explicacao: 'Snooze wants rest! Mars wants action and victory!',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'Marte significa agressividade?',
-        resposta: 'Não obrigatoriamente. Quando equilibrado, ele representa iniciativa e coragem saudável.',
+        pergunta: 'Does Mars mean aggression?',
+        resposta: 'Not necessarily. When balanced, it stands for initiative and healthy courage.',
       },
     ],
     termosRelacionados: ['venus-no-mapa', 'signo-solar', 'elementos-astrologicos'],
     ferramentaRelacionada: {
-      nome: 'Calcular Efeito Auren',
+      nome: 'Try Aureneffect',
       rota: 'aureneffect',
     },
   },
   {
     id: 'elementos-astrologicos',
     slug: 'what-are-astrology-elements',
-    termo: 'Os 4 Elementos (Fogo, Terra, Ar e Água)',
-    perguntaGoogle: 'O que são os 4 elementos da Astrologia?',
-    tituloSEO: 'Os 4 Elementos na Astrologia: Fogo, Terra, Ar e Água Explicados',
-    categoria: 'Signos & Elementos',
+    termo: 'The 4 Elements (Fire, Earth, Air and Water)',
+    perguntaGoogle: 'What are the 4 elements in astrology?',
+    tituloSEO: 'The 4 Elements in Astrology: Fire, Earth, Air and Water Explained',
+    categoria: 'Signs & Elements',
     icone: '🌿',
-    resumoUmaLinha: 'As 4 energias da natureza que dividem os 12 signos do zodíaco.',
-    explicacaoEducativa: 'Saiba por que os 4 elementos (Fogo, Terra, Ar e Água) definem o seu temperamento e como equilibrar cada um na rotina.',
-    chamadaCuriosa: 'Saiba qual dos 4 elementos comanda o seu jeito de ser',
+    resumoUmaLinha: 'The 4 energies of nature that divide the 12 zodiac signs.',
+    explicacaoEducativa: 'Learn why the 4 elements (Fire, Earth, Air and Water) define your temperament and how to balance each one in your routine.',
+    chamadaCuriosa: 'Learn which of the 4 elements rules your way of being',
     oQueSignifica:
-      'São as quatro forças básicas que compõem a Terra e que dividem os 12 signos em 4 grupos de 3 signos cada.',
+      'They are the four basic forces that make up the Earth and that divide the 12 signs into 4 groups of 3 signs each.',
     oQueSignificaNaAstrologia:
-      'Fogo traz entusiasmo e ação. Terra traz pés no chão e segurança. Ar traz ideias e comunicação. Água traz sentimentos e carinho.',
+      'Fire brings enthusiasm and action. Earth brings grounding and security. Air brings ideas and communication. Water brings feelings and affection.',
     exemploFicticio:
-      'Num projeto em grupo: o de Fogo dá a ideia empolgada, o de Terra faz a planilha de custos, o de Ar escreve a apresentação e o de Água cuida do clima da equipe.',
-    dicaRapida: 'Ter um pouco de cada elemento na vida é a receita para o equilíbrio.',
+      'In a group project: the Fire person comes up with the exciting idea, the Earth person builds the budget spreadsheet, the Air person writes the presentation and the Water person looks after the team mood.',
+    dicaRapida: 'Having a bit of each element in your life is the recipe for balance.',
     miniJogo: {
-      pergunta: 'Qual elemento na astrologia é conhecido por ser o mais pé no chão, organizado e prático?',
+      pergunta: 'Which element in astrology is known for being the most down-to-earth, organized and practical?',
       opcoes: [
         {
-          texto: 'Terra (Touro, Virgem e Capricórnio)',
+          texto: 'Earth (Taurus, Virgo and Capricorn)',
           correta: true,
-          explicacao: 'Perfeito! O elemento Terra adora segurança, organização, pés no chão e resultados reais.',
+          explicacao: 'Perfect! The Earth element loves security, organization, being grounded and real results.',
         },
         {
-          texto: 'Ar (Gêmeos, Libra e Aquário)',
+          texto: 'Air (Gemini, Libra and Aquarius)',
           correta: false,
-          explicacao: 'O elemento Ar adora ideias voando livres e boas conversas, mas a Terra é quem organiza tudo!',
+          explicacao: 'The Air element loves ideas flying free and good conversations, but Earth is the one that organizes everything!',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'Quais são os signos de cada elemento?',
-        resposta: 'Fogo (Áries, Leão, Sagitário), Terra (Touro, Virgem, Capricórnio), Ar (Gêmeos, Libra, Aquário) e Água (Câncer, Escorpião, Peixes).',
+        pergunta: 'Which signs belong to each element?',
+        resposta: 'Fire (Aries, Leo, Sagittarius), Earth (Taurus, Virgo, Capricorn), Air (Gemini, Libra, Aquarius) and Water (Cancer, Scorpio, Pisces).',
       },
     ],
     termosRelacionados: ['signo-solar', 'signo-ascendente', 'cuspide'],
     ferramentaRelacionada: {
-      nome: 'Descobrir Meu Signo',
+      nome: 'Find My Sign',
       rota: 'discover-sign',
     },
   },
   {
     id: 'sinastria-amorosa',
     slug: 'what-is-synastry',
-    termo: 'Sinastria (Compatibilidade entre Signos)',
-    perguntaGoogle: 'O que é Sinastria Amorosa?',
-    tituloSEO: 'O que é Sinastria? Como os Signos Combinam no Amor e na Amizade',
-    categoria: 'Conceitos do Mapa',
+    termo: 'Synastry (Sign Compatibility)',
+    perguntaGoogle: 'What is synastry in astrology?',
+    tituloSEO: 'What Is Synastry? How Signs Match in Love and Friendship',
+    categoria: 'Chart Concepts',
     icone: '💞',
-    resumoUmaLinha: 'A comparação de dois mapas astrais para entender a sintonia de um casal.',
-    explicacaoEducativa: 'Saiba por que certas pessoas combinam tão fácil e como a sinastria explica a sintonia e a química de um casal.',
-    chamadaCuriosa: 'Saiba se o seu signo combina mesmo com o crush ou vai dar briga',
+    resumoUmaLinha: "Comparing two birth charts to understand a couple's connection.",
+    explicacaoEducativa: 'Learn why some people click so easily and how synastry explains the connection and chemistry of a couple.',
+    chamadaCuriosa: 'Find out if your sign really matches your crush or if a fight is coming',
     oQueSignifica:
-      'É o estudo de colocar o mapa astral de duas pessoas lado a lado para ver como elas se conectam.',
+      'It is the study of placing two people\'s birth charts side by side to see how they connect.',
     oQueSignificaNaAstrologia:
-      'Mostra onde o casal tem química e conversa fácil, e onde precisa de um pouquinho mais de paciência e empatia.',
+      'It shows where the couple has chemistry and easy conversation, and where they need a little more patience and empathy.',
     exemploFicticio:
-      'Paula e Thiago fizeram uma sinastria e riram ao ver que se entendem pelo olhar, mas precisam combinar com antecedência os passeios do fim de semana.',
-    dicaRapida: 'Nenhum signo é incompatível quando existe respeito e amor.',
+      'Paula and Thiago did a synastry and laughed to see that they understand each other with just a look, but need to plan weekend outings ahead of time.',
+    dicaRapida: 'No sign is incompatible when there is respect and love.',
     miniJogo: {
-      pergunta: 'O que a Sinastria nos ensina sobre duas pessoas que se gostam?',
+      pergunta: 'What does Synastry teach us about two people who like each other?',
       opcoes: [
         {
-          texto: 'Onde o casal tem sintonia natural e onde precisa de mais conversa e carinho',
+          texto: 'Where the couple has natural harmony and where they need more conversation and care',
           correta: true,
-          explicacao: 'Muito lindo! A sinastria é uma ferramenta de amor e empatia para viverem em harmonia.',
+          explicacao: 'Beautiful! Synastry is a tool of love and empathy to live in harmony.',
         },
         {
-          texto: 'Quem deve pagar a conta do restaurante',
+          texto: 'Who should pay the restaurant bill',
           correta: false,
-          explicacao: 'A conta do restaurante é melhor combinar com carinho e bom humor na hora!',
+          explicacao: 'The restaurant bill is better settled with kindness and good humor on the spot!',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'Sinastria serve só para namoro?',
-        resposta: 'Serve para namoro, casamento, amizades e até para sócios em negócios.',
+        pergunta: 'Is synastry only for dating?',
+        resposta: 'It works for dating, marriage, friendships and even business partners.',
       },
     ],
     termosRelacionados: ['venus-no-mapa', 'mapa-astral', 'signo-lunar'],
     ferramentaRelacionada: {
-      nome: 'Ver Mensagem Diária',
+      nome: 'Read the Daily Message',
       rota: 'daily-message',
     },
   },
   {
     id: 'revolucao-solar',
     slug: 'what-is-solar-return',
-    termo: 'Revolução Solar (Seu Ano Novo Pessoal)',
-    perguntaGoogle: 'O que é Revolução Solar?',
-    tituloSEO: 'O que é Revolução Solar? O Seu Mapa Astral de Aniversário',
-    categoria: 'Fases & Movimentos',
+    termo: 'Solar Return (Your Personal New Year)',
+    perguntaGoogle: 'What is a solar return?',
+    tituloSEO: 'What Is a Solar Return? Your Birthday Birth Chart',
+    categoria: 'Phases & Movements',
     icone: '🎂',
-    resumoUmaLinha: 'O mapa astral anual calculado no dia exato do seu aniversário.',
-    explicacaoEducativa: 'Saiba por que o seu aniversário é o seu Ano Novo pessoal e o que a Revolução Solar prevê para os seus próximos 12 meses.',
-    chamadaCuriosa: 'Saiba por que no seu aniversário a sua sorte recomeça do zero',
+    resumoUmaLinha: 'The yearly chart calculated on the exact day of your birthday.',
+    explicacaoEducativa: 'Learn why your birthday is your personal New Year and what the Solar Return shows for your next 12 months.',
+    chamadaCuriosa: 'Learn why your luck starts over from zero on your birthday',
     oQueSignifica:
-      'Todo ano, no dia do seu aniversário, o Sol volta exatamente ao mesmo grau onde estava quando você nasceu.',
+      'Every year, on your birthday, the Sun returns to exactly the same degree where it was when you were born.',
     oQueSignificaNaAstrologia:
-      'É o mapa das energias do seu novo ano de vida! Mostra os temas centrais que vão marcar os próximos 12 meses da sua jornada.',
+      'It is the chart of the energies of your new year of life! It shows the central themes that will mark the next 12 months of your journey.',
     exemploFicticio:
-      'No ano em que completou 25 anos, a Revolução Solar de Vanessa indicava muito foco em estudos e ela ganhou uma bolsa de pós-graduação.',
-    dicaRapida: 'O seu aniversário é o momento mais poderoso de renovação do seu ano.',
+      'In the year she turned 25, Vanessa\'s Solar Return pointed to a strong focus on studies, and she won a graduate school scholarship.',
+    dicaRapida: 'Your birthday is the most powerful moment of renewal in your year.',
     miniJogo: {
-      pergunta: 'Quando a sua energia cósmica zera e você começa um ano novinho em folha?',
+      pergunta: 'When does your cosmic energy reset and you start a brand-new year?',
       opcoes: [
         {
-          texto: 'No dia do seu aniversário (o seu verdadeiro Ano Novo particular)',
+          texto: 'On your birthday (your true private New Year)',
           correta: true,
-          explicacao: 'Parabéns! O dia do aniversário é o momento mágico de soprar as velinhas e renovar todos os desejos.',
+          explicacao: 'Congratulations! Your birthday is the magical moment to blow out the candles and renew every wish.',
         },
         {
-          texto: 'Na quarta-feira de cinzas depois do almoço',
+          texto: 'On the Tuesday after a long weekend, right after lunch',
           correta: false,
-          explicacao: 'Não! O seu ciclo particular recomeça no dia do seu nascimento.',
+          explicacao: 'No! Your personal cycle starts over on the day you were born.',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'A Revolução Solar muda o meu signo?',
-        resposta: 'Não, o seu signo natal nunca muda; apenas mostra os focos e novidades daquele ano.',
+        pergunta: 'Does the Solar Return change my sign?',
+        resposta: 'No, your natal sign never changes; it only shows that year\'s focuses and novelties.',
       },
     ],
     termosRelacionados: ['signo-solar', 'retorno-de-saturno', 'mapa-astral'],
     ferramentaRelacionada: {
-      nome: 'Calcular Efeito Auren',
+      nome: 'Try Aureneffect',
       rota: 'aureneffect',
     },
   },
   {
     id: 'lua-cheia',
     slug: 'what-is-full-moon-meaning',
-    termo: 'Lua Cheia',
-    perguntaGoogle: 'O que a Lua Cheia significa na Astrologia?',
-    tituloSEO: 'Lua Cheia na Astrologia: O Ponto Alto das Emoções e Celebração',
-    categoria: 'Fases & Movimentos',
+    termo: 'Full Moon',
+    perguntaGoogle: 'What does the full moon mean in astrology?',
+    tituloSEO: 'Full Moon in Astrology: The Peak of Emotions and Celebration',
+    categoria: 'Phases & Movements',
     icone: '🌕',
-    resumoUmaLinha: 'A fase da colheita, das emoções vibrantes e de celebrar conquistas.',
-    explicacaoEducativa: 'Saiba por que a Lua Cheia mexe tanto com as nossas emoções e por que ficamos mais sensíveis e com vontade de celebrar.',
-    chamadaCuriosa: 'Saiba por que na Lua Cheia as pessoas ficam tão agitadas e sem sono',
+    resumoUmaLinha: 'The phase of harvest, vibrant emotions and celebrating achievements.',
+    explicacaoEducativa: 'Learn why the Full Moon stirs our emotions so much and why we feel more sensitive and ready to celebrate.',
+    chamadaCuriosa: 'Learn why people get so restless and sleepless on a Full Moon',
     oQueSignifica:
-      'É a fase em que a Lua fica totalmente iluminada pelo Sol, brilhando redonda e prateada no céu noturno.',
+      'It is the phase when the Moon is fully lit by the Sun, shining round and silver in the night sky.',
     oQueSignificaNaAstrologia:
-      'Representa o ápice da energia do mês! As emoções ficam mais intensas e sentimos vontade de celebrar o que colhemos.',
+      'It represents the peak of the month\'s energy! Emotions become more intense and we feel like celebrating what we have harvested.',
     exemploFicticio:
-      'Na noite de Lua Cheia, Camila percebe que fica cheia de ideias, sonha bastante e sente vontade de reunir os amigos.',
-    dicaRapida: 'Na Lua Cheia, agradeça por tudo de bom que aconteceu no mês.',
+      'On a Full Moon night, Camila notices she is full of ideas, dreams a lot and feels like gathering her friends.',
+    dicaRapida: 'On the Full Moon, be thankful for all the good that happened this month.',
     miniJogo: {
-      pergunta: 'Na noite de Lua Cheia, como costumam ficar as nossas emoções e nossa energia?',
+      pergunta: 'On a Full Moon night, how do our emotions and energy usually feel?',
       opcoes: [
         {
-          texto: 'Mais intensas, vibrantes e cheias de vontade de conversar ou festejar',
+          texto: 'More intense, vibrant and full of desire to talk or celebrate',
           correta: true,
-          explicacao: 'Isso aí! A Lua Cheia ilumina tudo com muita intensidade e celebração.',
+          explicacao: 'That is it! The Full Moon lights everything up with a lot of intensity and celebration.',
         },
         {
-          texto: 'Totalmente desligadas feito um computador sem bateria',
+          texto: 'Completely off, like a computer with no battery',
           correta: false,
-          explicacao: 'Pelo contrário! A Lua Cheia transborda energia e luz na nossa noite.',
+          explicacao: 'Quite the opposite! The Full Moon overflows with energy and light in our night.',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'A Lua Cheia atrapalha o sono?',
-        resposta: 'Como há mais luz natural e energia no ar, muitas pessoas sentem a mente mais ativa.',
+        pergunta: 'Does the Full Moon disturb sleep?',
+        resposta: 'Since there is more natural light and energy in the air, many people feel their mind is more active.',
       },
     ],
     termosRelacionados: ['lua-nova', 'signo-lunar', 'eclipse-astrologico'],
     ferramentaRelacionada: {
-      nome: 'Ver Lua de Hoje',
+      nome: "See Today's Moon",
       rota: 'daily-message',
     },
   },
   {
     id: 'lua-nova',
     slug: 'what-is-new-moon-meaning',
-    termo: 'Lua Nova',
-    perguntaGoogle: 'O que a Lua Nova significa na Astrologia?',
-    tituloSEO: 'Lua Nova na Astrologia: O Melhor Momento para Começar Sonhos',
-    categoria: 'Fases & Movimentos',
+    termo: 'New Moon',
+    perguntaGoogle: 'What does the new moon mean in astrology?',
+    tituloSEO: 'New Moon in Astrology: The Best Time to Start Your Dreams',
+    categoria: 'Phases & Movements',
     icone: '🌑',
-    resumoUmaLinha: 'O início de um ciclo: a hora certa de plantar novos planos.',
-    explicacaoEducativa: 'Saiba por que a Lua Nova é a fase perfeita para plantar novas metas e recomeçar sonhos do zero com calma.',
-    chamadaCuriosa: 'Saiba por que a Lua Nova é a melhor noite do mês para recomeçar planos',
+    resumoUmaLinha: 'The start of a cycle: the right time to plant new plans.',
+    explicacaoEducativa: 'Learn why the New Moon is the perfect phase to plant new goals and calmly restart your dreams from scratch.',
+    chamadaCuriosa: 'Learn why the New Moon is the best night of the month to restart your plans',
     oQueSignifica:
-      'É quando a Lua está alinhada entre a Terra e o Sol, ficando invisível no céu noturno.',
+      'It is when the Moon is lined up between the Earth and the Sun, becoming invisible in the night sky.',
     oQueSignificaNaAstrologia:
-      'É a fase de plantar sementes e recomeçar. É o momento perfeito para escrever metas e iniciar projetos.',
+      'It is the phase for planting seeds and starting over. It is the perfect moment to write down goals and begin projects.',
     exemploFicticio:
-      'Na primeira noite de Lua Nova, Bruno escreve no caderno suas metas profissionais para os próximos 30 dias com muita calma.',
-    dicaRapida: 'A Lua Nova é o melhor dia para dar o primeiro passo.',
+      'On the first night of the New Moon, Bruno calmly writes his professional goals for the next 30 days in his notebook.',
+    dicaRapida: 'The New Moon is the best day to take the first step.',
     miniJogo: {
-      pergunta: 'Quando o céu está escuro na noite de Lua Nova, qual é a atitude mais bonita para você tomar?',
+      pergunta: 'When the sky is dark on a New Moon night, what is the most beautiful thing you can do?',
       opcoes: [
         {
-          texto: 'Escrever novos desejos no caderno e plantar boas ideias para o mês',
+          texto: 'Write new wishes in your notebook and plant good ideas for the month',
           correta: true,
-          explicacao: 'Excelente! A Lua Nova é como um terreno fértil esperando pelas suas melhores sementes.',
+          explicacao: 'Excellent! The New Moon is like fertile ground waiting for your best seeds.',
         },
         {
-          texto: 'Desistir de tudo e achar que o mês está perdido',
+          texto: 'Give up on everything and think the month is lost',
           correta: false,
-          explicacao: 'De jeito nenhum! É tempo de recomeço, esperança e novas chances.',
+          explicacao: 'Not at all! It is a time of fresh starts, hope and new chances.',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'Quantos dias dura o ciclo da Lua?',
-        resposta: 'Dura cerca de 29,5 dias, passando por Nova, Crescente, Cheia e Minguante.',
+        pergunta: 'How many days does the Moon cycle last?',
+        resposta: 'It lasts about 29.5 days, going through New, Waxing, Full and Waning.',
       },
     ],
     termosRelacionados: ['lua-cheia', 'signo-lunar', 'eclipse-astrologico'],
     ferramentaRelacionada: {
-      nome: 'Mensagem Diária',
+      nome: 'Daily Message',
       rota: 'daily-message',
     },
   },
@@ -676,101 +679,114 @@ export const ASTROLOGY_DICTIONARY_TERMS: DictionaryTerm[] = [
     id: 'eclipse-astrologico',
     slug: 'what-is-eclipse-meaning',
     termo: 'Eclipse',
-    perguntaGoogle: 'O que significa um Eclipse na Astrologia?',
-    tituloSEO: 'O que Significa Eclipse na Astrologia? Mudanças e Novos Caminhos',
-    categoria: 'Fases & Movimentos',
+    perguntaGoogle: 'What does an eclipse mean in astrology?',
+    tituloSEO: 'What Does an Eclipse Mean in Astrology? Change and New Paths',
+    categoria: 'Phases & Movements',
     icone: '🌘',
-    resumoUmaLinha: 'A aceleração de mudanças importantes e o encerramento de velhos ciclos.',
-    explicacaoEducativa: 'Saiba por que os eclipses trazem mudanças tão rápidas e funcionam como aceleradores da vida para virar a página.',
-    chamadaCuriosa: 'Saiba por que os eclipses trazem reviravoltas que mudam seu destino',
+    resumoUmaLinha: 'The speeding up of important changes and the closing of old cycles.',
+    explicacaoEducativa: 'Learn why eclipses bring such fast changes and work as life accelerators to help you turn the page.',
+    chamadaCuriosa: 'Learn why eclipses bring twists that change your destiny',
     oQueSignifica:
-      'É quando a Terra ou a Lua passa na frente da luz do Sol, projetando uma sombra temporária.',
+      'It is when the Earth or the Moon passes in front of the light of the Sun, casting a temporary shadow.',
     oQueSignificaNaAstrologia:
-      'Os eclipses funcionam como um botão de acelerador da vida, trazendo viradas de página necessárias.',
+      'Eclipses work like a life accelerator button, bringing necessary turns of the page.',
     exemploFicticio:
-      'Na semana do eclipse, Mariana tomou coragem para se mudar para uma casa perto da praia, algo que sonhava há anos.',
-    dicaRapida: 'Em dias de eclipse, descanse e evite discussões acaloradas.',
+      'During eclipse week, Mariana finally found the courage to move to a house near the beach, something she had dreamed of for years.',
+    dicaRapida: 'On eclipse days, rest and avoid heated arguments.',
     miniJogo: {
-      pergunta: 'Quando um eclipse acontece no céu, o que ele costuma acelerar na nossa vida?',
+      pergunta: 'When an eclipse happens in the sky, what does it usually speed up in our lives?',
       opcoes: [
         {
-          texto: 'Mudanças necessárias para abrir espaço para histórias melhores',
+          texto: 'Necessary changes that make room for better stories',
           correta: true,
-          explicacao: 'Muito bem! O eclipse dá um empurrãozinho carinhoso para a gente virar a página com coragem.',
+          explicacao: 'Well done! The eclipse gives us a gentle push to turn the page with courage.',
         },
         {
-          texto: 'A velocidade com que a água do miojo ferve',
+          texto: 'How fast the water boils for instant ramen',
           correta: false,
-          explicacao: 'O fogão continua igualzinho! O eclipse mexe é com os nossos caminhos de vida.',
+          explicacao: 'The stove stays exactly the same! The eclipse stirs up our life paths.',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'Quantos eclipses acontecem por ano?',
-        resposta: 'Geralmente acontecem de 4 a 6 eclipses (solares e lunares) a cada ano.',
+        pergunta: 'How many eclipses happen per year?',
+        resposta: 'Usually between 4 and 6 eclipses (solar and lunar) happen each year.',
       },
     ],
     termosRelacionados: ['lua-cheia', 'lua-nova', 'retorno-de-saturno'],
     ferramentaRelacionada: {
-      nome: 'Ver Efeito Auren',
+      nome: 'Try Aureneffect',
       rota: 'aureneffect',
     },
   },
   {
     id: 'cuspide',
     slug: 'what-is-cusp-astrology',
-    termo: 'Cúspide (Transição de Signos)',
-    perguntaGoogle: 'O que é nascer na Cúspide?',
-    tituloSEO: 'O que é Cúspide na Astrologia? Nascer no Dia da Troca de Signos',
-    categoria: 'Signos & Elementos',
+    termo: 'Cusp (Sign Transition)',
+    perguntaGoogle: 'What does it mean to be born on the cusp?',
+    tituloSEO: 'What Is a Cusp in Astrology? Born on the Day Signs Change',
+    categoria: 'Signs & Elements',
     icone: '🔄',
-    resumoUmaLinha: 'Nascer bem no dia em que o Sol muda de um signo para o outro.',
-    explicacaoEducativa: 'Saiba por que nascer no dia da virada de signo te dá um charme especial e como você herda a energia do vizinho.',
-    chamadaCuriosa: 'Saiba por que quem nasce na troca de signo sente que tem dois lados',
+    resumoUmaLinha: 'Being born right on the day the Sun moves from one sign to the next.',
+    explicacaoEducativa: 'Learn why being born on the day a sign changes gives you a special charm and how you inherit the neighbor sign\'s energy.',
+    chamadaCuriosa: 'Learn why people born at a sign change feel they have two sides',
     oQueSignifica:
-      'É a fronteira invisível que divide um signo do signo vizinho no céu.',
+      'It is the invisible border that separates one sign from the neighboring sign in the sky.',
     oQueSignificaNaAstrologia:
-      'Quem nasce no primeiro ou último dia de um signo sente um pouco da influência do signo vizinho.',
+      'People born on the first or last day of a sign feel a little of the influence of the neighboring sign.',
     exemploFicticio:
-      'Renato nasceu na virada de Touro para Gêmeos: ama cozinhar em paz em casa (Touro), mas adora passar horas proseando no WhatsApp (Gêmeos).',
-    dicaRapida: 'Você tem um signo solar oficial, mas pode carregar o charme do vizinho.',
+      'Ryan was born at the turn from Taurus to Gemini: he loves cooking in peace at home (Taurus), but also loves spending hours chatting by text (Gemini).',
+    dicaRapida: 'You have one official sun sign, but you may carry the charm of the neighbor.',
     miniJogo: {
-      pergunta: 'Quem nasce bem no dia em que o signo está mudando ganha o quê de especial?',
+      pergunta: 'What special thing do people born right on the day a sign is changing get?',
       opcoes: [
         {
-          texto: 'O charme e o tempero especial do signo vizinho',
+          texto: 'The charm and special flavor of the neighboring sign',
           correta: true,
-          explicacao: 'Na mosca! Você tem o seu signo oficial e ainda ganha uma pitada mágica do vizinho.',
+          explicacao: 'Right on! You have your official sign and still get a magical pinch of the neighbor.',
         },
         {
-          texto: 'Fica sem signo nenhum para sempre',
+          texto: 'They have no sign at all, forever',
           correta: false,
-          explicacao: 'Todo mundo tem seu signo solar único e oficial no mapa!',
+          explicacao: 'Everyone has their own single official sun sign in the chart!',
         },
       ],
     },
     faq: [
       {
-        pergunta: 'Uma pessoa pode ter dois signos solares?',
-        resposta: 'Não, dependendo do minuto exato do nascimento o Sol já estava em um signo específico.',
+        pergunta: 'Can a person have two sun signs?',
+        resposta: 'No. Depending on the exact minute of birth, the Sun was already in one specific sign.',
       },
     ],
     termosRelacionados: ['signo-solar', 'elementos-astrologicos', 'signo-ascendente'],
     ferramentaRelacionada: {
-      nome: 'Descobrir Meu Signo',
+      nome: 'Find My Sign',
       rota: 'discover-sign',
     },
   },
 ];
 
+// Terms written and checked automatically (see scripts/dictionary/generate.ts), published with the hand-written ones.
+import generatedTerms from './dictionaryGenerated.json';
+
+export const ASTROLOGY_DICTIONARY_TERMS: DictionaryTerm[] = [
+  ...HAND_WRITTEN_TERMS,
+  ...(generatedTerms as unknown as DictionaryTerm[]),
+];
+
+/**
+ * In the browser, automatically written terms arrive "light" (name, summary, translations of those) so the site stays fast
+ * no matter how many terms exist; the full text is fetched when a term page opens (see PublicDictionaryTermPage).
+ * Once fetched, the full term is remembered here so everything (page, search data) sees it.
+ */
+const fullTerms = new Map<string, DictionaryTerm>();
+export const registerFullTerm = (term: DictionaryTerm) => { fullTerms.set(term.slug, term); };
+
 export const getDictionaryTermBySlug = (slug: string): DictionaryTerm | undefined => {
   const cleanSlug = slug.toLowerCase().trim();
-  return ASTROLOGY_DICTIONARY_TERMS.find(
-    (t) =>
-      t.slug.toLowerCase() === cleanSlug ||
-      t.id.toLowerCase() === cleanSlug ||
-      cleanSlug.includes(t.slug.toLowerCase()) ||
-      t.slug.toLowerCase().includes(cleanSlug)
-  );
+  const found =
+    ASTROLOGY_DICTIONARY_TERMS.find((t) => t.slug.toLowerCase() === cleanSlug || t.id.toLowerCase() === cleanSlug) ||
+    ASTROLOGY_DICTIONARY_TERMS.find((t) => cleanSlug.includes(t.slug.toLowerCase()) || t.slug.toLowerCase().includes(cleanSlug));
+  return found ? fullTerms.get(found.slug) || found : undefined;
 };

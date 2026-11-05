@@ -15,9 +15,15 @@ import { useLanguage } from '../context/LanguageContext';
 import {
   BlogArticleContent,
   BLOG_ARTICLES,
+  ensureFullArticles,
   AURENSTAR_AVATAR,
 } from '../data/blogArticles';
+import { TshirtCapture } from '../components/TshirtCapture';
 import { ShareModal } from '../components/ShareModal';
+import { getUrlLang } from '../utils/urlLang';
+import { withHandTitle } from '../data/articleTitles';
+import { applyLocalized, type LocalizedArticle, type LocalizedResponse } from '../utils/localizedArticle';
+import { ArticleListenBar, ListenSegment, ListenWord } from '../components/ArticleListenBar';
 
 interface ArticlePageProps {
   articleId: string;
@@ -29,7 +35,7 @@ interface ArticlePageProps {
   onNavigateToDiscoverSign?: () => void;
 }
 
-export const ArticlePage: React.FC<ArticlePageProps> = ({
+const ArticlePageInner: React.FC<ArticlePageProps> = ({
   articleId,
   onBackToBlog,
   onBackToHome,
@@ -38,13 +44,27 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
   onNavigateToAurenEffect,
   onNavigateToDiscoverSign,
 }) => {
-  const { language, t } = useLanguage();
+  const { language, languageChosen, visitorLanguage, t } = useLanguage();
   const lang = (language || 'pt') as 'pt' | 'en' | 'es';
 
   const [copied, setCopied] = useState(false);
   const [isBookmarked, setIsBookmarked] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
+  const [activeSeg, setActiveSeg] = useState<string | null>(null);
+  const [activeWord, setActiveWord] = useState<ListenWord | null>(null);
+  const act = (_id: string) => '';
+  // Karaoke-style: the word being spoken gets a pink background with white text
+  const hl = (id: string, text: string): React.ReactNode => {
+    if (!activeWord || activeWord.id !== id) return text;
+    return (
+      <>
+        {text.slice(0, activeWord.start)}
+        <mark className="rounded-[3px] bg-[#E73578] px-1 py-px text-white" style={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>{text.slice(activeWord.start, activeWord.end)}</mark>
+        {text.slice(activeWord.end)}
+      </>
+    );
+  };
 
   // Check if article is already saved in browser favorites
   useEffect(() => {
@@ -64,8 +84,71 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
     submessage: string;
   } | null>(null);
 
-  const article =
+  const baseArticle =
     BLOG_ARTICLES.find((a) => a.id === articleId) || BLOG_ARTICLES[0];
+
+  // Country version (own language + local references). Created once per country on the server and reused.
+  // Skipped when the person picked a language by hand. On any failure the original article stays.
+  const [localized, setLocalized] = useState<{ id: string; rtl: boolean; language: string; data: LocalizedArticle } | null>(null);
+  const [adapting, setAdapting] = useState(false);
+  useEffect(() => {
+    if (languageChosen) return;
+    let cancelled = false;
+    const slow = window.setTimeout(() => !cancelled && setAdapting(true), 1500);
+    fetch(`/api/localize?article=${encodeURIComponent(baseArticle.id)}${getUrlLang() ? `&lang=${getUrlLang()}` : ''}`)
+      .then((r) => (r.ok ? (r.json() as Promise<LocalizedResponse>) : null))
+      .then((d) => {
+        if (cancelled || !d?.success || !d.article) return;
+        setLocalized({ id: baseArticle.id, rtl: !!d.rtl, language: d.language || '', data: d.article });
+      })
+      .catch(() => {})
+      .finally(() => {
+        window.clearTimeout(slow);
+        if (!cancelled) setAdapting(false);
+      });
+    return () => {
+      cancelled = true;
+      window.clearTimeout(slow);
+      setAdapting(false);
+    };
+  }, [baseArticle.id, languageChosen]);
+
+  // Portuguese / Spanish text of WordPress articles (written by the translation robot; loaded only for the article being read).
+  const [translation, setTranslation] = useState<{ id: string; lang: string; data: LocalizedArticle } | null>(null);
+  useEffect(() => {
+    if (!baseArticle.id.startsWith('wp-') || (lang !== 'pt' && lang !== 'es')) return;
+    let cancelled = false;
+    fetch(`/article-data/${encodeURIComponent(baseArticle.id)}.${lang}.json`)
+      .then((r) => (r.ok ? (r.json() as Promise<LocalizedArticle>) : null))
+      .then((d) => { if (!cancelled && d) setTranslation({ id: baseArticle.id, lang, data: d }); })
+      .catch(() => {});
+    return () => { cancelled = true; };
+  }, [baseArticle.id, lang]);
+  const translatedBase = useMemo(
+    () => (translation && translation.id === baseArticle.id && translation.lang === lang ? applyLocalized(baseArticle, lang, translation.data) : baseArticle),
+    [baseArticle, translation, lang],
+  );
+
+  const activeLocalized = !languageChosen && localized && localized.id === baseArticle.id ? localized : null;
+  const article = useMemo(
+    () => (activeLocalized ? applyLocalized(translatedBase, lang, activeLocalized.data) : withHandTitle(translatedBase)),
+    [translatedBase, activeLocalized, lang],
+  );
+  // The voice reads the same text that is on screen: the country version (or the original when the visitor uses a site language).
+  const speechSupported = !visitorLanguage || !!activeLocalized;
+  const speechLang = activeLocalized && !['en', 'pt', 'es'].includes(activeLocalized.language) ? activeLocalized.language : undefined;
+
+  const listenSegments = useMemo<ListenSegment[]>(() => {
+    const out: ListenSegment[] = [
+      { id: 'title', text: article.title[lang] || article.title.pt },
+      { id: 'subtitle', text: article.subtitle[lang] || article.subtitle.pt },
+    ];
+    article.sections.forEach((sec, i) => {
+      out.push({ id: `s${i}h`, text: sec.heading[lang] || sec.heading.pt });
+      sec.paragraphs.forEach((p, j) => out.push({ id: `s${i}p${j}`, text: p[lang] || p.pt }));
+    });
+    return out;
+  }, [article, lang]);
 
   // Scroll to top on article change
   useEffect(() => {
@@ -179,7 +262,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
       shareBtn: 'Compartilhar',
       bookmarkBtn: 'Salvar reflexão',
       bookmarked: 'Salvo nos favoritos',
-      bookmarkSuccess: 'Publicação favoritada no seu navegador! ✨',
+      bookmarkSuccess: 'Publicação favoritada no seu navegador!',
       bookmarkTip: (key: string) =>
         `Dica: Pressione ${key} para fixar na barra de favoritos do navegador.`,
       bookmarkRemoved: 'Publicação removida dos seus favoritos.',
@@ -196,7 +279,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
       shareBtn: 'Share',
       bookmarkBtn: 'Save reflection',
       bookmarked: 'Saved to favorites',
-      bookmarkSuccess: 'Post saved to your browser favorites! ✨',
+      bookmarkSuccess: 'Post saved to your browser favorites!',
       bookmarkTip: (key: string) =>
         `Tip: Press ${key} to pin to your browser bookmarks bar.`,
       bookmarkRemoved: 'Post removed from your favorites.',
@@ -213,7 +296,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
       shareBtn: 'Compartir',
       bookmarkBtn: 'Guardar reflexión',
       bookmarked: 'Guardado en favoritos',
-      bookmarkSuccess: '¡Publicación guardada en los favoritos del navegador! ✨',
+      bookmarkSuccess: '¡Publicación guardada en los favoritos del navegador!',
       bookmarkTip: (key: string) =>
         `Consejo: Presiona ${key} para fijar en la barra del navegador.`,
       bookmarkRemoved: 'Publicación eliminada de tus favoritos.',
@@ -224,11 +307,11 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
   const l = labels[lang] || labels.pt;
 
   return (
-    <article className="w-full bg-[#C9E5FF] min-h-screen text-[#172B4D] pt-20 sm:pt-24 pb-24 animate-fadeIn select-none">
+    <article dir={activeLocalized?.rtl ? 'rtl' : undefined} className="w-full bg-[#C9E5FF] min-h-screen text-[#172B4D] pt-20 sm:pt-24 pb-24 animate-fadeIn select-none">
       {/* Top Reading Progress Bar (Fixed at top) */}
       <div className="fixed top-0 left-0 right-0 h-1 bg-black/5 z-50">
         <div
-          className="h-full bg-[#2878D0] transition-all duration-150"
+          className="h-full bg-[#3982C8] transition-all duration-150"
           style={{ width: `${scrollProgress}%` }}
         />
       </div>
@@ -262,7 +345,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           <div className="flex items-center gap-2 sm:gap-3">
             <button
               onClick={onBackToBlog}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-xs font-bold text-[#2878D0] hover:text-white hover:border-[#F51B83] transition-all cursor-pointer shadow-xs group"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#E73578] text-xs font-bold text-[#3982C8] hover:text-white hover:border-[#E73578] transition-all cursor-pointer shadow-xs group"
             >
               <ArrowLeft className="w-3.5 h-3.5 transition-transform group-hover:-translate-x-1" />
               <span>{l.backBtn}</span>
@@ -270,10 +353,10 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
 
             <button
               onClick={handleShare}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-xs font-semibold text-[#2878D0] hover:text-white hover:border-[#F51B83] transition-all cursor-pointer shadow-xs group"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#E73578] text-xs font-semibold text-[#3982C8] hover:text-white hover:border-[#E73578] transition-all cursor-pointer shadow-xs group"
               title={l.shareBtn}
             >
-              <Share2 className="w-3.5 h-3.5 text-[#2878D0] group-hover:scale-110 transition-transform" />
+              <Share2 className="w-3.5 h-3.5 text-[#3982C8] group-hover:scale-110 transition-transform" />
               <span className="hidden sm:inline">{l.shareBtn}</span>
             </button>
 
@@ -281,8 +364,8 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
               onClick={handleToggleBookmark}
               className={`p-2 rounded-full border transition-all cursor-pointer shadow-xs ${
                 isBookmarked
-                  ? 'border-[#2878D0] bg-[#2878D0] text-white shadow-sm ring-2 ring-[#2878D0]/30 scale-105'
-                  : 'border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#F51B83] text-[#2878D0] hover:text-white hover:border-[#F51B83]'
+                  ? 'border-[#3982C8] bg-[#3982C8] text-white shadow-sm ring-2 ring-[#3982C8]/30 scale-105'
+                  : 'border-[#D9E8F8] bg-[#E4F1FF] hover:bg-[#E73578] text-[#3982C8] hover:text-white hover:border-[#E73578]'
               }`}
               title={isBookmarked ? l.bookmarked : l.bookmarkBtn}
               aria-label={isBookmarked ? l.bookmarked : l.bookmarkBtn}
@@ -299,7 +382,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           {/* Category Pill & Read Time */}
           <div className="flex items-center gap-3 mb-4">
             <span
-              className={`inline-block px-3.5 py-1 rounded-full text-[11px] font-extrabold uppercase tracking-wider bg-[#E4F1FF] text-[#2878D0] shadow-xs`}
+              className={`inline-block px-3.5 py-1 rounded-full text-[11px] font-extrabold uppercase tracking-wider bg-[#E4F1FF] text-[#3982C8] shadow-xs`}
             >
               {article.category[lang] || article.category.pt}
             </span>
@@ -310,25 +393,25 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           </div>
 
           {/* Main Title */}
-          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-[#172B4D] leading-tight mb-4 tracking-tight">
-            {article.title[lang] || article.title.pt}
+          <h1 data-loc={activeLocalized ? '' : undefined} data-seg="title" className={"text-2xl sm:text-4xl lg:text-5xl font-extrabold text-[#172B4D] leading-tight mb-4 tracking-tight" + act('title')}>
+            {hl('title', article.title[lang] || article.title.pt)}
           </h1>
 
           {/* Subtitle / Excerpt */}
-          <p className="text-sm sm:text-lg text-[#647DA5] leading-relaxed mb-6 font-normal">
-            {article.subtitle[lang] || article.subtitle.pt}
+          <p data-loc={activeLocalized ? '' : undefined} data-seg="subtitle" className={"text-sm sm:text-lg text-[#647DA5] leading-relaxed mb-6 font-normal" + act('subtitle')}>
+            {hl('subtitle', article.subtitle[lang] || article.subtitle.pt)}
           </p>
 
           {/* Author Profile Row with Date & Time */}
           <div className="flex items-center gap-3.5 py-3.5 border-y border-[#D9E8F8]">
-            <img
+            <img decoding="async"
               src={AURENSTAR_AVATAR}
               alt="Aurenstar"
               className="w-11 h-11 rounded-full object-cover shrink-0 ring-1 ring-black/5 shadow-2xs"
             />
             <div className="flex flex-col min-w-0">
               <span className="text-xs sm:text-sm font-bold text-[#172B4D] leading-tight truncate">
-                Aurenstar <span aria-label="Verificado" title="Perfil verificado" className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#2878D0] text-[9px] font-black leading-none text-white align-middle">✓</span>
+                Aurenstar <span aria-label={language === 'en' ? 'Verified' : 'Verificado'} title={language === 'en' ? 'Verified profile' : 'Perfil verificado'} className="ml-1 inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#3982C8] text-[9px] font-black leading-none text-white align-middle">✓</span>
               </span>
               <span className="text-[11px] text-[#647DA5] font-medium leading-tight mt-0.5">
                 {l.authorTitle} • {article.author.dateTime[lang] || article.author.dateTime.pt}
@@ -337,13 +420,20 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           </div>
         </header>
 
+        {adapting && (
+          <p className="mb-3 text-center text-xs font-semibold text-[#647DA5]" role="status">
+            {lang === 'pt' ? 'Preparando a versão do seu país…' : lang === 'es' ? 'Preparando la versión de tu país…' : 'Preparing the version for your country…'}
+          </p>
+        )}
+        {speechSupported && <ArticleListenBar segments={listenSegments} lang={lang} speechLang={speechLang} onActiveChange={setActiveSeg} onWordChange={setActiveWord} />}
+
         {/* Featured Image - Aligned with Aurenstar profile */}
         <figure className="mb-10 w-full">
           <div className="w-full rounded-2xl sm:rounded-3xl overflow-hidden border border-[#D9E8F8] shadow-sm bg-slate-50">
-            <img
+            <img decoding="async"
               src={article.image}
               alt={article.title[lang] || article.title.pt}
-              className="w-full h-auto max-h-[380px] sm:max-h-[420px] object-cover"
+              className="aspect-video w-full object-cover"
             />
           </div>
           {article.imageCaption && (
@@ -357,9 +447,9 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
         <div className="prose max-w-none text-[#172B4D]">
           {/* Quote Callout Box */}
           {article.quote && (
-            <blockquote className="my-8 p-6 rounded-2xl bg-[#E4F1FF] border-l-4 border-[#2878D0] shadow-xs">
+            <blockquote className="my-8 p-6 rounded-2xl bg-[#E4F1FF] border-l-4 border-[#3982C8] shadow-xs">
               <div className="flex items-start gap-3">
-                <Sparkles className="w-5 h-5 text-[#2878D0] shrink-0 mt-0.5" />
+                <Sparkles className="w-5 h-5 text-[#3982C8] shrink-0 mt-0.5" />
                 <p className="text-sm sm:text-base font-semibold italic text-[#172B4D] leading-relaxed">
                   "{article.quote[lang] || article.quote.pt}"
                 </p>
@@ -370,15 +460,16 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           {/* Sections */}
           {article.sections.map((section, idx) => (
             <section key={`sec-${idx}`} className="mb-8">
-              <h2 className="text-xl sm:text-2xl font-bold text-[#17366F] mb-3 tracking-tight">
-                {section.heading[lang] || section.heading.pt}
+              <h2 data-loc={activeLocalized ? '' : undefined} data-seg={`s${idx}h`} className={"text-xl sm:text-2xl font-bold text-[#17366F] mb-3 tracking-tight" + act(`s${idx}h`)}>
+                {hl(`s${idx}h`, section.heading[lang] || section.heading.pt)}
               </h2>
               {section.paragraphs.map((p, pIdx) => (
                 <p
                   key={`p-${pIdx}`}
-                  className="text-sm sm:text-base text-[#172B4D] leading-relaxed mb-4 font-normal"
+                  data-loc={activeLocalized ? '' : undefined} data-seg={`s${idx}p${pIdx}`}
+                  className={"text-sm sm:text-base text-[#172B4D] leading-relaxed mb-4 font-normal" + act(`s${idx}p${pIdx}`)}
                 >
-                  {p[lang] || p.pt}
+                  {hl(`s${idx}p${pIdx}`, p[lang] || p.pt)}
                 </p>
               ))}
             </section>
@@ -388,7 +479,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           {article.keyTakeaways && (
             <div className="my-10 p-6 sm:p-7 rounded-2xl bg-[#E4F1FF]/60 border border-[#D9E8F8] shadow-xs">
               <h3 className="text-sm sm:text-base font-bold text-[#17366F] uppercase tracking-wider mb-4 flex items-center gap-2">
-                <Sparkles className="w-4 h-4 text-[#2878D0]" />
+                <Sparkles className="w-4 h-4 text-[#3982C8]" />
                 {l.takeaways}
               </h3>
               <ul className="space-y-2.5">
@@ -398,7 +489,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
                       key={`takeaway-${kIdx}`}
                       className="flex items-start gap-2.5 text-xs sm:text-sm text-[#172B4D]"
                     >
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#2878D0] mt-2 shrink-0" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#3982C8] mt-2 shrink-0" />
                       <span>{item}</span>
                     </li>
                   )
@@ -431,11 +522,11 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
               tabIndex={0}
               role="button"
               aria-label={`${l.continueReading}: ${nextArticle.title[lang] || nextArticle.title.pt}`}
-              className="w-full bg-white rounded-2xl sm:rounded-3xl border border-[#D9E8F8] shadow-sm hover:shadow-md hover:border-[#2878D0]/40 transition-all duration-300 p-3 sm:p-4.5 flex items-center justify-between gap-3 sm:gap-6 cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#2878D0]/40"
+              className="w-full bg-white rounded-2xl sm:rounded-3xl border border-[#D9E8F8] shadow-sm hover:shadow-md hover:border-[#3982C8]/40 transition-all duration-300 p-3 sm:p-4.5 flex items-center justify-between gap-3 sm:gap-6 cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#3982C8]/40"
             >
               {/* Left Thumbnail Image */}
               <div className="w-28 sm:w-44 h-20 sm:h-28 rounded-xl sm:rounded-2xl overflow-hidden shrink-0 bg-slate-100 relative shadow-2xs">
-                <img
+                <img decoding="async"
                   src={nextArticle.image}
                   alt={nextArticle.title[lang] || nextArticle.title.pt}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -445,11 +536,11 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
 
               {/* Middle Content */}
               <div className="flex-1 min-w-0 pr-1 sm:pr-2">
-                <span className="block text-[10px] sm:text-xs font-extrabold uppercase tracking-wider text-[#2878D0] mb-1">
+                <span className="block text-[10px] sm:text-xs font-extrabold uppercase tracking-wider text-[#3982C8] mb-1">
                   {nextArticle.category[lang] || nextArticle.category.pt}
                 </span>
 
-                <h4 className="font-bold text-xs sm:text-base lg:text-lg text-[#172B4D] leading-snug group-hover:text-[#2878D0] transition-colors line-clamp-2 mb-1">
+                <h4 className="font-bold text-xs sm:text-base lg:text-lg text-[#172B4D] leading-snug group-hover:text-[#3982C8] transition-colors line-clamp-2 mb-1">
                   {nextArticle.title[lang] || nextArticle.title.pt}
                 </h4>
 
@@ -459,12 +550,14 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
               </div>
 
               {/* Right Arrow */}
-              <div className="shrink-0 text-[#17366F] group-hover:text-[#2878D0] group-hover:translate-x-1.5 transition-all duration-300 pr-1 sm:pr-2">
+              <div className="shrink-0 text-[#17366F] group-hover:text-[#3982C8] group-hover:translate-x-1.5 transition-all duration-300 pr-1 sm:pr-2">
                 <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 stroke-[2.2]" />
               </div>
             </div>
           </section>
         )}
+
+        <div className="mx-auto -mt-4 mb-10 w-full max-w-3xl"><TshirtCapture source="article" variant="mini" flush /></div>
       </div>
 
       {/* Modal Interativo de Compartilhamento em Redes Sociais */}
@@ -478,8 +571,8 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
 
       {/* Floating Bookmark Toast Notification */}
       {bookmarkToast && (
-        <div className="fixed bottom-6 right-6 z-50 max-w-sm bg-white/95 backdrop-blur-md border border-[#2878D0]/30 rounded-2xl p-4 shadow-xl shadow-[#2878D0]/15 flex items-start gap-3 animate-fadeIn">
-          <div className="w-8 h-8 rounded-full bg-[#2878D0]/10 text-[#2878D0] flex items-center justify-center shrink-0 mt-0.5">
+        <div className="fixed bottom-6 right-6 z-50 max-w-sm bg-white/95 backdrop-blur-md border border-[#3982C8]/30 rounded-2xl p-4 shadow-xl shadow-[#3982C8]/15 flex items-start gap-3 animate-fadeIn">
+          <div className="w-8 h-8 rounded-full bg-[#3982C8]/10 text-[#3982C8] flex items-center justify-center shrink-0 mt-0.5">
             <Bookmark className="w-4 h-4 fill-current" />
           </div>
           <div className="flex-1 min-w-0 pr-1">
@@ -504,4 +597,15 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
       )}
     </article>
   );
+};
+
+/** Waits for the full article text (a small separate download) before showing the page. */
+export const ArticlePage: React.FC<ArticlePageProps> = (props) => {
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    let alive = true;
+    ensureFullArticles().then(() => { if (alive) setReady(true); });
+    return () => { alive = false; };
+  }, []);
+  return ready ? <ArticlePageInner {...props} /> : <main className="flex-1 min-h-[100vh]" />;
 };

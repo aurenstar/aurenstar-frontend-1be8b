@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import { subscribeEmail } from '../utils/subscribe';
+import { TshirtCapture } from '../components/TshirtCapture';
+import { NEWSLETTER_CONSENT } from '../data/subscribeConsent';
 import {
   Mail,
   Send,
@@ -11,6 +14,8 @@ import {
   BookOpen,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { CoverArt } from '../components/CoverArt';
+import { emailMessage } from '../utils/emailGuard';
 
 interface NewsletterPageProps {
   onBackToHome: () => void;
@@ -46,118 +51,112 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
 
   const selectedSignObj = zodiacSigns.find((s) => s.value === zodiacSign) || zodiacSigns[2];
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [consent, setConsent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [subError, setSubError] = useState(false);
+  const consentLang = (language === 'pt' || language === 'es' ? language : 'en') as 'pt' | 'en' | 'es';
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!email.trim() || !zodiacSign) return;
-
-    try {
-      const existing = JSON.parse(
-        localStorage.getItem('aurenstar_subscribers') || '[]'
-      );
-      existing.push({
-        email,
-        name: name.trim(),
-        zodiacSign,
-        subscribedAt: new Date().toISOString(),
-      });
-      localStorage.setItem('aurenstar_subscribers', JSON.stringify(existing));
-    } catch {
-      // Storage fallback
-    }
-
+    if (sending || !consent || !email.trim() || !zodiacSign || emailMessage(email, language)) return;
+    setSending(true);
+    setSubError(false);
+    const ok = await subscribeEmail({ email, sign: zodiacSign, lang: consentLang, source: 'newsletter_page', list: 'newsletter' });
+    setSending(false);
+    if (!ok) { setSubError(true); return; }
     setIsSubscribed(true);
   };
 
   const texts = {
     pt: {
-      tag: 'Conteúdos Feitos para Você',
-      title: 'Receba Posts do Blog Sobre o Seu Signo',
+      tag: 'Newsletter da Aurenstar',
+      title: 'Receba a Newsletter da Aurenstar',
       subtitle:
-        'Escolha o seu signo, digite seu nome e e-mail. Nós enviamos todas as novas publicações, reflexões e conselhos dedicados ao seu signo com palavras simples e acolhedoras.',
+        'Novos artigos, dicas de astrologia e novidades da Aurenstar direto no seu e-mail. Escolha o seu signo e digite seu e-mail.',
       backHome: 'Voltar ao Início',
       exploreBlog: 'Ver Artigos do Blog',
-      formTitle: 'Cadastre-se Gratuitamente',
-      formSubtitle: 'Leva menos de 1 minuto para começar a receber matérias sobre o seu signo.',
+      formTitle: 'Assine a Newsletter',
+      formSubtitle: 'Leva menos de 1 minuto. Você pode sair quando quiser.',
       nameLabel: 'Seu Nome',
       namePlaceholder: 'Como você gosta de ser chamado?',
       emailLabel: 'Seu Melhor E-mail',
       emailPlaceholder: 'seu.email@exemplo.com',
       signLabel: 'Escolha o Seu Signo',
-      submitCta: 'Quero Receber os Posts do Meu Signo',
-      privacyNotice: '🔒 Respeitamos sua paz: zero propagandas chatas. Cancele quando quiser.',
-      successTitle: 'Inscrição confirmada com sucesso! ✨',
+      submitCta: 'Quero Receber a Newsletter',
+      privacyNotice: 'Sem spam: só novidades e conteúdos da Aurenstar. Você sai da lista quando quiser.',
+      successTitle: 'Você está na newsletter!',
       successDesc: (userName: string, signName: string, userEmail: string) =>
-        `Que maravilha, ${userName || 'amigo(a)'}! Agora você receberá os novos posts do blog preparados com carinho para ${signName} no e-mail ${userEmail}.`,
-      successSub: 'Fique de olho na sua caixa de entrada para ler as novidades!',
+        `Que bom, ${userName || 'amigo(a)'}! Enviaremos as novidades da Aurenstar para ${userEmail} (${signName}).`,
+      successSub: 'Fique de olho na sua caixa de entrada.',
       readSignPostsNow: 'Ver Artigos do Meu Signo Agora',
       anotherEmail: 'Cadastrar outro e-mail',
-      benefitsTitle: 'Por que acompanhar os posts do seu signo?',
-      benefit1Title: 'Feito Especialmente para Você',
-      benefit1Desc: 'Você recebe apenas mensagens e reflexões que combinam com o signo que escolheu.',
-      benefit2Title: 'Palavras Fáceis e Calmas',
-      benefit2Desc: 'Textos simples e diretos para relaxar a mente, sem termos técnicos ou difíceis.',
-      benefit3Title: 'Totalmente Gratuito',
-      benefit3Desc: 'Você nunca paga nada. Nosso carinho é levar leveza e paz para o seu dia a dia.',
+      benefitsTitle: 'Por que assinar?',
+      benefit1Title: 'Artigos Novos Primeiro',
+      benefit1Desc: 'Você recebe os novos artigos e conteúdos assim que saírem.',
+      benefit2Title: 'Conteúdo do Seu Signo',
+      benefit2Desc: 'Usamos o signo que você escolheu para destacar o que combina com você.',
+      benefit3Title: 'Sem Spam',
+      benefit3Desc: 'Só novidades da Aurenstar. Você sai da lista quando quiser.',
     },
     en: {
-      tag: 'Posts Made Just for You',
-      title: 'Receive Blog Posts About Your Zodiac Sign',
+      tag: 'Aurenstar Newsletter',
+      title: 'Get the Aurenstar Newsletter',
       subtitle:
-        'Select your sign, enter your name and email. We send all new blog posts, soothing reflections, and peaceful guidance created for your sign.',
+        'New articles, astrology tips and Aurenstar news straight to your inbox. Choose your sign and enter your email.',
       backHome: 'Back to Home',
       exploreBlog: 'Explore Blog Posts',
-      formTitle: 'Join for Free',
-      formSubtitle: 'Takes less than a minute to receive posts crafted for your sign.',
+      formTitle: 'Subscribe to the Newsletter',
+      formSubtitle: 'Takes less than a minute. Leave anytime.',
       nameLabel: 'Your Name',
       namePlaceholder: 'What should we call you?',
       emailLabel: 'Your Best Email',
       emailPlaceholder: 'your.email@example.com',
       signLabel: 'Choose Your Zodiac Sign',
-      submitCta: 'Send Me Posts for My Sign',
-      privacyNotice: '🔒 We respect your peace: zero spam. Unsubscribe anytime with 1 click.',
-      successTitle: 'Subscription confirmed! ✨',
+      submitCta: 'Send Me the Newsletter',
+      privacyNotice: 'No spam: only Aurenstar news and content. Leave the list anytime.',
+      successTitle: 'You are on the newsletter!',
       successDesc: (userName: string, signName: string, userEmail: string) =>
-        `Wonderful, ${userName || 'friend'}! You will now receive all new blog articles crafted for ${signName} directly at ${userEmail}.`,
-      successSub: 'Keep an eye on your inbox for gentle and inspiring reads!',
+        `Wonderful, ${userName || 'friend'}! We will send Aurenstar news to ${userEmail} (${signName}).`,
+      successSub: 'Keep an eye on your inbox.',
       readSignPostsNow: 'Read Posts for My Sign Now',
-      anotherEmail: 'Subscribe another email',
-      benefitsTitle: 'Why read posts about your sign?',
-      benefit1Title: 'Tailored to Your Energy',
-      benefit1Desc: 'You receive only stories and guidance matching the sign you selected.',
-      benefit2Title: 'Simple, Soothing Words',
-      benefit2Desc: 'Gentle, comforting texts without confusing words, created to bring inner peace.',
-      benefit3Title: '100% Free Forever',
-      benefit3Desc: 'No hidden charges. Our goal is bringing joy and quiet calmness to your daily life.',
+      anotherEmail: 'Add another email',
+      benefitsTitle: 'Why subscribe?',
+      benefit1Title: 'New Articles First',
+      benefit1Desc: 'You get new articles and content as soon as they are out.',
+      benefit2Title: 'Content for Your Sign',
+      benefit2Desc: 'We use the sign you chose to highlight what fits you.',
+      benefit3Title: 'No Spam',
+      benefit3Desc: 'Only Aurenstar news. Leave the list anytime.',
     },
     es: {
-      tag: 'Contenidos Creados para Ti',
-      title: 'Recibe Publicaciones Sobre Tu Signo Zodiacal',
+      tag: 'Newsletter de Aurenstar',
+      title: 'Recibe la Newsletter de Aurenstar',
       subtitle:
-        'Elige tu signo, escribe tu nombre y correo. Te enviaremos nuevos artículos del blog, reflexiones y consejos preparados para tu signo.',
+        'Nuevos artículos, consejos de astrología y novedades de Aurenstar en tu correo. Elige tu signo y escribe tu correo.',
       backHome: 'Volver al Inicio',
       exploreBlog: 'Ver Artículos del Blog',
-      formTitle: 'Suscríbete Gratis',
-      formSubtitle: 'Toma menos de 1 minuto empezar a recibir lecturas sobre tu signo.',
+      formTitle: 'Suscríbete a la Newsletter',
+      formSubtitle: 'Toma menos de 1 minuto. Sales cuando quieras.',
       nameLabel: 'Tu Nombre',
       namePlaceholder: '¿Cómo te gusta que te llamen?',
       emailLabel: 'Tu Mejor Correo',
       emailPlaceholder: 'tu.correo@ejemplo.com',
       signLabel: 'Elige Tu Signo Zodiacal',
-      submitCta: 'Quiero Recibir Publicaciones de Mi Signo',
-      privacyNotice: '🔒 Respetamos tu tranquilidad: cero spam. Cancela cuando quieras.',
-      successTitle: '¡Suscripción confirmada con éxito! ✨',
+      submitCta: 'Quiero Recibir la Newsletter',
+      privacyNotice: 'Sin spam: solo novedades y contenidos de Aurenstar. Sales de la lista cuando quieras.',
+      successTitle: '¡Estás en la newsletter!',
       successDesc: (userName: string, signName: string, userEmail: string) =>
-        `¡Qué alegría, ${userName || 'amigo(a)'}! Ahora recibirás las novedades del blog para ${signName} en ${userEmail}.`,
-      successSub: '¡Revisa tu bandeja de entrada para disfrutar de tus lecturas!',
+        `¡Qué alegría, ${userName || 'amigo(a)'}! Enviaremos las novedades de Aurenstar a ${userEmail} (${signName}).`,
+      successSub: 'Revisa tu bandeja de entrada.',
       readSignPostsNow: 'Ver Artículos de Mi Signo Ahora',
-      anotherEmail: 'Suscribir otro correo',
-      benefitsTitle: '¿Por qué recibir publicaciones de tu signo?',
-      benefit1Title: 'Especialmente para Ti',
-      benefit1Desc: 'Recibes lecturas y consejos que combinan con el signo que elegiste.',
-      benefit2Title: 'Palabras Claras y Cálidas',
-      benefit2Desc: 'Textos sencillos y serenos, sin términos difíciles, para calmar tu mente.',
-      benefit3Title: 'Totalmente Gratuito',
-      benefit3Desc: 'Nunca pagarás nada. Nuestra intención es compartir paz y serenidad.',
+      anotherEmail: 'Añadir otro correo',
+      benefitsTitle: '¿Por qué suscribirte?',
+      benefit1Title: 'Artículos Nuevos Primero',
+      benefit1Desc: 'Recibes los nuevos artículos y contenidos en cuanto salen.',
+      benefit2Title: 'Contenido de Tu Signo',
+      benefit2Desc: 'Usamos el signo que elegiste para destacar lo que va contigo.',
+      benefit3Title: 'Sin Spam',
+      benefit3Desc: 'Solo novedades de Aurenstar. Sales de la lista cuando quieras.',
     },
   };
 
@@ -180,26 +179,24 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
           <button
             type="button"
             onClick={onNavigateToBlog}
-            className="text-xs sm:text-sm font-bold text-[#2878D0] hover:text-[#17366F] transition-colors cursor-pointer"
+            className="text-xs sm:text-sm font-bold text-[#3982C8] hover:text-[#17366F] transition-colors cursor-pointer"
           >
             {t.exploreBlog} →
           </button>
         </div>
 
-        {/* Page Header */}
-        <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-bold uppercase tracking-wider mb-3 shadow-2xs">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>{t.tag}</span>
+        {/* Cover-style header */}
+        <div className="relative mb-10 overflow-hidden rounded-[2rem] bg-[#3982C8] p-6 text-white shadow-[0_14px_40px_rgba(23,54,111,0.18)] sm:p-10">
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden sm:inset-y-0 sm:left-auto sm:right-0 sm:h-auto sm:w-1/2"><CoverArt tone="blue" /></div>
+          <div className="relative max-w-xl pb-12 sm:pb-0 sm:pr-24">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/15 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-white">
+              <Sparkles className="h-3.5 w-3.5" />
+              <span>{t.tag}</span>
+            </div>
+            <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl">{t.title}</h1>
+            <span aria-hidden className="mt-4 block h-1 w-12 rounded-full bg-[#E73578]" />
+            <p className="mt-4 text-sm leading-relaxed text-white/90 sm:text-base">{t.subtitle}</p>
           </div>
-
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#172B4D] tracking-tight mb-4 leading-tight">
-            {t.title}
-          </h1>
-
-          <p className="text-sm sm:text-base text-[#647DA5] leading-relaxed">
-            {t.subtitle}
-          </p>
         </div>
 
         {/* =========================================================================
@@ -225,7 +222,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
                 )}
               </p>
 
-              <div className="p-4 rounded-2xl bg-[#E4F1FF]/50 border border-[#D9E8F8] max-w-md mx-auto text-xs text-[#2878D0] font-semibold text-center">
+              <div className="p-4 rounded-2xl bg-[#E4F1FF]/50 border border-[#D9E8F8] max-w-md mx-auto text-xs text-[#3982C8] font-semibold text-center">
                 <span>{t.successSub}</span>
               </div>
 
@@ -233,7 +230,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
                 <button
                   type="button"
                   onClick={onNavigateToBlog}
-                  className="px-6 py-2.5 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-xs font-bold transition-all cursor-pointer shadow-xs"
+                  className="px-6 py-2.5 rounded-full bg-[#3982C8] hover:bg-[#E73578] text-white text-xs font-bold transition-all cursor-pointer shadow-xs"
                 >
                   {t.readSignPostsNow}
                 </button>
@@ -265,7 +262,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
               {/* Step 1: Zodiac Sign Selection */}
               <div>
                 <label className="block text-xs font-bold text-[#172B4D] mb-2">
-                  {t.signLabel} <span className="text-[#F51B83]">*</span>
+                  {t.signLabel} <span className="text-[#E73578]">*</span>
                 </label>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
                   {zodiacSigns.map((s) => {
@@ -277,8 +274,8 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
                         onClick={() => setZodiacSign(s.value)}
                         className={`flex items-center justify-center p-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer border text-center ${
                           isSelected
-                            ? 'bg-[#F51B83] text-white border-[#F51B83] shadow-2xs scale-102'
-                            : 'bg-[#E4F1FF] border-[#D9E8F8] text-[#2878D0] hover:border-[#F51B83] hover:bg-[#F51B83] hover:text-white'
+                            ? 'bg-[#E73578] text-white border-[#E73578] shadow-2xs scale-102'
+                            : 'bg-[#E4F1FF] border-[#D9E8F8] text-[#3982C8] hover:border-[#E73578] hover:bg-[#E73578] hover:text-white'
                         }`}
                       >
                         <span className="truncate">
@@ -301,30 +298,43 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     placeholder={t.namePlaceholder}
-                    className="w-full bg-white border border-[#D9E8F8] rounded-xl px-4 py-3 text-xs sm:text-sm text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#2878D0]/30 focus:border-[#2878D0] transition-all"
+                    className="w-full bg-white border border-[#D9E8F8] rounded-xl px-4 py-3 text-xs sm:text-sm text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#3982C8]/30 focus:border-[#3982C8] transition-all"
                   />
                 </div>
 
                 <div>
                   <label className="block text-xs font-bold text-[#172B4D] mb-1.5">
-                    {t.emailLabel} <span className="text-[#F51B83]">*</span>
+                    {t.emailLabel} <span className="text-[#E73578]">*</span>
                   </label>
                   <input
                     type="email"
                     required
                     value={email}
-                    onChange={(e) => setEmail(e.target.value)}
+                    onChange={(e) => {
+                      setEmail(e.target.value);
+                      e.target.setCustomValidity(emailMessage(e.target.value, language));
+                    }}
                     placeholder={t.emailPlaceholder}
-                    className="w-full bg-white border border-[#D9E8F8] rounded-xl px-4 py-3 text-xs sm:text-sm text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#2878D0]/30 focus:border-[#2878D0] transition-all"
+                    className="w-full bg-white border border-[#D9E8F8] rounded-xl px-4 py-3 text-xs sm:text-sm text-[#172B4D] placeholder-[#647DA5]/60 outline-none focus:ring-2 focus:ring-[#3982C8]/30 focus:border-[#3982C8] transition-all"
                   />
                 </div>
               </div>
+
+              <label className="flex cursor-pointer items-start gap-2.5 text-xs leading-snug text-[#172B4D]">
+                <input type="checkbox" required checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 h-4 w-4 shrink-0 cursor-pointer accent-[#E73578]" />
+                <span>{NEWSLETTER_CONSENT[consentLang]}</span>
+              </label>
+              {subError && (
+                <p className="text-xs font-semibold text-[#E73578]">
+                  {consentLang === 'pt' ? 'Não deu certo agora. Tente de novo em instantes.' : consentLang === 'es' ? 'No funcionó ahora. Inténtalo de nuevo en un momento.' : 'That did not work just now. Please try again in a moment.'}
+                </p>
+              )}
 
               {/* Submit CTA Button */}
               <div className="pt-2">
                 <button
                   type="submit"
-                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-[#2878D0] hover:bg-[#F51B83] text-white text-sm font-bold shadow-lg shadow-[#2878D0]/25 transition-all hover:scale-101 cursor-pointer"
+                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-[#E73578] hover:bg-[#D0306C] text-white text-sm font-bold shadow-lg shadow-[#E73578]/25 transition-all hover:scale-101 cursor-pointer"
                 >
                   <Send className="w-4 h-4" />
                   <span>{t.submitCta}</span>
@@ -337,6 +347,9 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
           )}
         </div>
 
+        {/* Separate from the newsletter: the t-shirt coupon list */}
+        <div className="mx-auto -mt-6 mb-14 w-full max-w-3xl"><TshirtCapture source="newsletter_page" variant="mini" flush /></div>
+
         {/* =========================================================================
             3 BENEFITS PILLARS (Clean, Simple Words)
             ========================================================================= */}
@@ -346,40 +359,35 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            <div className="p-6 rounded-2xl bg-[#FFFFFF] border border-[#D9E8F8] shadow-2xs">
-              <div className="w-10 h-10 rounded-xl bg-[#2878D0]/10 text-[#2878D0] flex items-center justify-center mb-3">
-                <Star className="w-5 h-5" />
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#3982C8' }}>
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="blue" variant={0} /></div>
+              <div className="relative">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#3982C8' }}>
+                  <Star className="h-5 w-5" />
+                </div>
+                <h3 className="mb-1 text-base font-extrabold">{t.benefit1Title}</h3>
+                <p className="mb-8 text-xs leading-relaxed text-white/90 sm:text-sm">{t.benefit1Desc}</p>
               </div>
-              <h3 className="text-base font-bold text-[#172B4D] mb-1">
-                {t.benefit1Title}
-              </h3>
-              <p className="text-xs sm:text-sm text-[#647DA5] leading-relaxed">
-                {t.benefit1Desc}
-              </p>
             </div>
-
-            <div className="p-6 rounded-2xl bg-[#FFFFFF] border border-[#D9E8F8] shadow-2xs">
-              <div className="w-10 h-10 rounded-xl bg-[#FFE0EF] text-[#F51B83] flex items-center justify-center mb-3">
-                <Heart className="w-5 h-5" />
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#E73578' }}>
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="pink" variant={1} /></div>
+              <div className="relative">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#E73578' }}>
+                  <Heart className="h-5 w-5" />
+                </div>
+                <h3 className="mb-1 text-base font-extrabold">{t.benefit2Title}</h3>
+                <p className="mb-8 text-xs leading-relaxed text-white/90 sm:text-sm">{t.benefit2Desc}</p>
               </div>
-              <h3 className="text-base font-bold text-[#172B4D] mb-1">
-                {t.benefit2Title}
-              </h3>
-              <p className="text-xs sm:text-sm text-[#647DA5] leading-relaxed">
-                {t.benefit2Desc}
-              </p>
             </div>
-
-            <div className="p-6 rounded-2xl bg-[#FFFFFF] border border-[#D9E8F8] shadow-2xs">
-              <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-3">
-                <ShieldCheck className="w-5 h-5" />
+            <div className="relative overflow-hidden rounded-2xl p-6 text-white shadow-md transition-transform hover:-translate-y-1" style={{ background: '#3982C8' }}>
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 overflow-hidden opacity-60"><CoverArt tone="blue" variant={2} /></div>
+              <div className="relative">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white" style={{ color: '#3982C8' }}>
+                  <ShieldCheck className="h-5 w-5" />
+                </div>
+                <h3 className="mb-1 text-base font-extrabold">{t.benefit3Title}</h3>
+                <p className="mb-8 text-xs leading-relaxed text-white/90 sm:text-sm">{t.benefit3Desc}</p>
               </div>
-              <h3 className="text-base font-bold text-[#172B4D] mb-1">
-                {t.benefit3Title}
-              </h3>
-              <p className="text-xs sm:text-sm text-[#647DA5] leading-relaxed">
-                {t.benefit3Desc}
-              </p>
             </div>
           </div>
         </div>

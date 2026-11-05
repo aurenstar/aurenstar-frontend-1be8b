@@ -27,11 +27,14 @@ export const ZODIAC_SIGNS: ZodiacSignItem[] = [
 interface BrandMarqueeProps {
   selectedSign?: string | null;
   onSelectSign?: (signKey: string | null) => void;
+  /** Fade into the footer colour (only the strip right above the footer). */
+  joinFooter?: boolean;
 }
 
 export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
   selectedSign,
   onSelectSign,
+  joinFooter = false,
 }) => {
   const { language } = useLanguage();
   const lang = (language || 'pt') as 'pt' | 'en' | 'es';
@@ -51,12 +54,12 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
 
   const setA = ZODIAC_SIGNS;
   const setB = ZODIAC_SIGNS;
-  const signColors = ['text-[#2878D0]', 'text-[#2878D0]', 'text-[#2878D0]', 'text-[#2878D0]'];
+  const signColors = ['text-[#3982C8]'];
 
   return (
     <div
       id="painel-palavras"
-      className="w-full bg-[#E4F1FF] border-y border-[#D9E8F8] py-5 sm:py-6 overflow-hidden select-none"
+      className={`w-full py-5 sm:py-6 overflow-hidden select-none ${joinFooter ? 'bg-gradient-to-b from-[#C9E5FF] to-[#E4F1FF]' : 'bg-[#C9E5FF] border-y border-[#A9CDF0]'}`}
     >
       {/* Infinite Edge-to-Edge Marquee Track with ONLY WORDS */}
       <div
@@ -71,10 +74,11 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
               <button
                 key={`a-${idx}`}
                 type="button"
+                style={{ fontWeight: 800, letterSpacing: '-0.025em' }}
                 onClick={() => handleSignClick(sign.key)}
                 className={`text-base sm:text-lg font-bold tracking-tight transition-colors duration-200 cursor-pointer shrink-0 bg-transparent border-0 p-0 outline-none ${
                   isSelected
-                    ? 'text-[#2878D0] font-extrabold underline underline-offset-4 decoration-[#F51B83]'
+                    ? 'text-[#3982C8] underline underline-offset-4 decoration-[#E73578]'
                     : `${signColors[idx % signColors.length]} hover:opacity-70`
                 }`}
               >
@@ -95,11 +99,12 @@ export const BrandMarquee: React.FC<BrandMarqueeProps> = ({
               <button
                 key={`b-${idx}`}
                 type="button"
+                style={{ fontWeight: 800, letterSpacing: '-0.025em' }}
                 onClick={() => handleSignClick(sign.key)}
                 tabIndex={-1}
                 className={`text-base sm:text-lg font-bold tracking-tight transition-colors duration-200 cursor-pointer shrink-0 bg-transparent border-0 p-0 outline-none ${
                   isSelected
-                    ? 'text-[#2878D0] font-extrabold underline underline-offset-4 decoration-[#F51B83]'
+                    ? 'text-[#3982C8] underline underline-offset-4 decoration-[#E73578]'
                     : `${signColors[idx % signColors.length]} hover:opacity-70`
                 }`}
               >

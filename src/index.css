@@ -3,10 +3,10 @@
 @theme {
   --color-fundo-geral: #C9E5FF;
   --color-superficie: #FFFFFF;
-  --color-azul-principal: #2878D0;
+  --color-azul-principal: #3982C8;
   --color-azul-escuro: #17366F;
-  --color-rosa-principal: #F51B83;
-  --color-rosa-suave: #FFE0EF;
+  --color-rosa-principal: #E73578;
+  --color-rosa-suave: #FBE1EB;
   --color-azul-suave: #E4F1FF;
   --color-texto-principal: #172B4D;
   --color-texto-secundario: #647DA5;
@@ -32,10 +32,10 @@ body,
   --bg-principal: #C9E5FF;
   --superficie: #FFFFFF;
   --bg-secundario: #E4F1FF;
-  --azul-principal: #2878D0;
+  --azul-principal: #3982C8;
   --azul-escuro: #17366F;
-  --rosa-principal: #F51B83;
-  --rosa-suave: #FFE0EF;
+  --rosa-principal: #E73578;
+  --rosa-suave: #FBE1EB;
   --azul-suave: #E4F1FF;
   --texto-principal: #172B4D;
   --texto-secundario: #647DA5;
@@ -70,20 +70,29 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+/* Real links that replaced former <button>s (menu, blog category tabs): keep the exact text
+   rendering buttons had, so the design is unchanged. */
+a.btn-font {
+  font: inherit;
+}
+
 @media (max-width: 640px) {
   body {
     font-size: 15px;
   }
 
-  /* Prevent fixed-width children from creating a page-level scrollbar. */
-  main,
-  section,
-  article,
-  header,
-  footer,
-  nav,
-  div {
-    min-width: 0;
+  /* Prevent fixed-width children from creating a page-level scrollbar.
+     Kept in the base layer so explicit min-w-* classes (e.g. the blog carousel slides) still win. */
+  @layer base {
+    main,
+    section,
+    article,
+    header,
+    footer,
+    nav,
+    div {
+      min-width: 0;
+    }
   }
 }
 
@@ -182,4 +191,36 @@ html {
     17% 82%, 4% 78%, 6% 63%, 0% 50%, 6% 35%,
     4% 21%, 17% 17%, 25% 5%, 39% 8%
   );
+}
+
+/* Article "listen" mode: animated pink ring around the passage being read */
+@keyframes listenGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(231, 53, 120, 0.45); }
+  50% { box-shadow: 0 0 0 8px rgba(231, 53, 120, 0); }
+}
+.listen-active {
+  position: relative;
+  border-radius: 14px;
+  background: rgba(231, 53, 120, 0.08);
+  outline: 2px solid #E73578;
+  outline-offset: 6px;
+  animation: listenGlow 1.4s ease-in-out infinite;
+}
+@keyframes listenBars {
+  0%, 100% { transform: scaleY(0.35); }
+  50% { transform: scaleY(1); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .listen-active { animation: none; }
+}
+
+/* Comments: a slow vertical ticker, new ones glide in from the top. Never stops (the owner wants it always on). */
+@keyframes commentsDown {
+  from { transform: translateY(-50%); }
+  to { transform: translateY(0); }
+}
+.comments-ticker-track { animation: commentsDown var(--dur, 30s) linear infinite; will-change: transform; }
+/* The site-wide "reduce motion" rule would freeze it; the owner asked for it to always run. */
+@media (prefers-reduced-motion: reduce) {
+  .comments-ticker .comments-ticker-track { animation-duration: var(--dur, 30s) !important; animation-iteration-count: infinite !important; }
 }

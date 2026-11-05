@@ -23,19 +23,39 @@ export interface DailyReadingRecord {
   birthMonth: number;
   birthYear: number;
   birthTimePeriod: string;
+  birthTime?: string;
+  birthPlace?: { geonameid: number; label: string } | null;
   affirmation: string;
+  /** Short first-person post for the share card. */
+  shareText?: string;
   message: string;
   advice: string;
   articleId: string;
   generatedDate: string; // YYYY-MM-DD
+  /** Language the reading was written in (so it can be translated if the site language changes). */
+  lang?: 'pt' | 'en' | 'es';
 }
 
+/** The "day" of Aurendaily starts at midnight in Washington, D.C. (America/New_York), for everyone in the world. */
 export function getTodayDateString(): string {
-  const now = new Date();
-  const year = now.getFullYear();
-  const month = String(now.getMonth() + 1).padStart(2, '0');
-  const day = String(now.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
+  try {
+    // en-CA formats as YYYY-MM-DD
+    return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+  } catch {
+    return new Date().toISOString().slice(0, 10);
+  }
+}
+
+/** Local clock time (HH:mm) when the next Aurendaily day starts, i.e. the next midnight in Washington. */
+export function nextDailyResetLocalTime(): string {
+  const todayNY = getTodayDateString();
+  const start = Date.now();
+  for (let m = 1; m <= 25 * 60; m += 1) {
+    const t = new Date(start + m * 60000);
+    const ny = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' }).format(t);
+    if (ny !== todayNY) return t.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  }
+  return '';
 }
 
 const STORAGE_KEY = 'aurenstar_daily_reading_record';
@@ -54,6 +74,8 @@ export function saveDailyReading(data: Omit<DailyReadingRecord, 'generatedDate'>
       month: data.birthMonth,
       year: data.birthYear,
       timePeriod: data.birthTimePeriod,
+      birthTime: data.birthTime,
+      birthPlace: data.birthPlace,
       sign: data.signKey,
     }));
   } catch {

@@ -1,3 +1,4 @@
+import { buildSignals, factsFromTriad } from '../utils/readingSignals';
 import React, { useState, useEffect } from 'react';
 import {
   ArrowLeft,
@@ -20,15 +21,20 @@ import {
   Activity,
   Layers,
   ChevronDown,
+  Orbit,
 } from 'lucide-react';
+import { ToolHero, ToolBenefits, PeriodIcon } from '../components/ToolHero';
 import { useLanguage } from '../context/LanguageContext';
 import {
   calculateAstrologicalTriad,
   queryAurenstarEngine,
   generateLocalAurenEffectReading,
-  REFERENCE_CITIES,
   AurenEffectResult,
 } from '../utils/aurenEngine';
+import { getRecentMessages, rememberMessage } from '../utils/recentMessages';
+import { CityAutocomplete, type PickedCity } from '../components/CityAutocomplete';
+import { trackEvent } from '../utils/analytics';
+import { loadSharedProfile, saveSharedProfile, timePeriodFor } from '../utils/sharedProfile';
 
 interface AurenEffectPageProps {
   onBackToHome: () => void;
@@ -38,9 +44,9 @@ interface AurenEffectPageProps {
 }
 
 const STORAGE_KEY = 'aurenstar_effect_profile';
-const LAST_RESULT_KEY = 'aurenstar_effect_last_result';
-const LAST_CALCULATED_TIME_KEY = 'aurenstar_effect_last_calculated_at';
-const SIX_HOURS_MS = 6 * 60 * 60 * 1000;
+const LAST_RESULT_KEY = 'aurenstar_effect_last_result_v13';
+const LAST_CALCULATED_TIME_KEY = 'aurenstar_effect_last_calculated_at_v13';
+const COOLDOWN_MS = 4 * 60 * 60 * 1000; // one reading every 4 hours
 
 export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
   onBackToHome,
@@ -61,12 +67,15 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       name: 'Seu Nome ou Apelido',
       namePlaceholder: 'Digite seu nome (ex: Andriel)',
       city: 'Cidade de Nascimento',
+      cityPlaceholder: 'Digite sua cidade (ex: São Paulo)',
+      cityNoResults: 'Nenhuma cidade encontrada. Tente outro nome.',
+      cityRequired: 'Escolha sua cidade na lista de sugestões.',
       birthDate: 'Data de Nascimento',
       day: 'Dia', month: 'Mês', year: 'Ano',
       birthTime: 'Hora Aproximada de Nascimento',
       exactTime: 'Ou horário exato (opcional):',
-      viewCurrent: 'Ver Meu Aureneffect Atual ✨',
-      calculate: 'Calcular Meu Aureneffect ✨',
+      viewCurrent: 'Ver Meu Aureneffect Atual',
+      calculate: 'Calcular Meu Aureneffect',
     },
     en: {
       backHome: 'Back to Home',
@@ -78,12 +87,15 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       name: 'Your Name or Nickname',
       namePlaceholder: 'Type your name (e.g., Andriel)',
       city: 'Birth City',
+      cityPlaceholder: 'Type your city (e.g., Munich)',
+      cityNoResults: 'No city found. Try another spelling.',
+      cityRequired: 'Please pick your city from the suggestions.',
       birthDate: 'Date of Birth',
       day: 'Day', month: 'Month', year: 'Year',
       birthTime: 'Approximate Birth Time',
       exactTime: 'Or exact time (optional):',
-      viewCurrent: 'View My Current Aureneffect ✨',
-      calculate: 'Calculate My Aureneffect ✨',
+      viewCurrent: 'View My Current Aureneffect',
+      calculate: 'Calculate My Aureneffect',
     },
     es: {
       backHome: 'Volver al Inicio',
@@ -95,12 +107,15 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       name: 'Tu Nombre o Apodo',
       namePlaceholder: 'Escribe tu nombre (ej.: Andriel)',
       city: 'Ciudad de Nacimiento',
+      cityPlaceholder: 'Escribe tu ciudad (ej.: Madrid)',
+      cityNoResults: 'No se encontró la ciudad. Prueba otro nombre.',
+      cityRequired: 'Elige tu ciudad en la lista de sugerencias.',
       birthDate: 'Fecha de Nacimiento',
       day: 'Día', month: 'Mes', year: 'Año',
       birthTime: 'Hora Aproximada de Nacimiento',
       exactTime: 'O hora exacta (opcional):',
-      viewCurrent: 'Ver Mi Aureneffect Actual ✨',
-      calculate: 'Calcular Mi Aureneffect ✨',
+      viewCurrent: 'Ver Mi Aureneffect Actual',
+      calculate: 'Calcular Mi Aureneffect',
     },
   }[lang];
   const monthNames = {
@@ -115,13 +130,15 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
   }[lang];
 
   // Form State
-  const [name, setName] = useState('Andriel');
+  const [name, setName] = useState('');
   const [birthDay, setBirthDay] = useState(15);
   const [birthMonth, setBirthMonth] = useState(6);
   const [birthYear, setBirthYear] = useState(2000);
   const [birthTime, setBirthTime] = useState('14:30');
   const [quickTimePeriod, setQuickTimePeriod] = useState<'manha' | 'tarde' | 'noite' | 'madrugada' | 'exato'>('tarde');
-  const [birthCity, setBirthCity] = useState('sao-paulo');
+  const [birthPlace, setBirthPlace] = useState<PickedCity | null>(null);
+  const [cityError, setCityError] = useState(false);
+  const [limitReached, setLimitReached] = useState(false);
 
   // Interactive Checklist
   const [completedSteps, setCompletedSteps] = useState<number[]>([]);
@@ -133,15 +150,15 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
   const [result, setResult] = useState<AurenEffectResult | null>(null);
   const [cooldownRemainingMs, setCooldownRemainingMs] = useState<number>(0);
 
-  // Check 6-hour cooldown rule
+  // Check 4-hour cooldown rule
   useEffect(() => {
     const updateCooldown = () => {
       try {
         const lastTime = Number(localStorage.getItem(LAST_CALCULATED_TIME_KEY) || '0');
         if (lastTime) {
           const diff = Date.now() - lastTime;
-          if (diff < SIX_HOURS_MS) {
-            setCooldownRemainingMs(SIX_HOURS_MS - diff);
+          if (diff < COOLDOWN_MS) {
+            setCooldownRemainingMs(COOLDOWN_MS - diff);
             return;
           }
         }
@@ -167,7 +184,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
         if (parsed.birthMonth) setBirthMonth(parsed.birthMonth);
         if (parsed.birthYear) setBirthYear(parsed.birthYear);
         if (parsed.birthTime) setBirthTime(parsed.birthTime);
-        if (parsed.birthCity) setBirthCity(parsed.birthCity);
+        if (parsed.birthPlace?.geonameid && parsed.birthPlace?.label) setBirthPlace(parsed.birthPlace);
       }
 
       const savedResult = localStorage.getItem(LAST_RESULT_KEY);
@@ -177,6 +194,17 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
     } catch {
       // Ignora erro de parsing
     }
+  }, []);
+
+  // Data typed in any other tool wins: the person fills the form only once.
+  useEffect(() => {
+    const p = loadSharedProfile();
+    if (p.name) setName(p.name);
+    if (p.day) setBirthDay(p.day);
+    if (p.month) setBirthMonth(p.month);
+    if (p.year) setBirthYear(p.year);
+    if (p.time) { setBirthTime(p.time); setQuickTimePeriod(timePeriodFor(p.time)); }
+    if (p.place) setBirthPlace(p.place);
   }, []);
 
   const handleTimePeriodSelect = (period: 'manha' | 'tarde' | 'noite' | 'madrugada') => {
@@ -190,7 +218,14 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
   const handleGenerate = async (e?: React.FormEvent) => {
     if (e) e.preventDefault();
 
-    // Se estiver em cooldown de 6 horas e já tiver resultado anterior, abre o resultado atual
+    if (!birthPlace) {
+      setCityError(true);
+      trackEvent('city_missing', { tool: 'auren_effect' });
+      return;
+    }
+    trackEvent('tool_submit', { tool: 'auren_effect' });
+
+    // Se estiver em cooldown de 4 horas e já tiver resultado anterior, abre o resultado atual
     if (cooldownRemainingMs > 0 && result) {
       if (onNavigateToResult) {
         onNavigateToResult();
@@ -200,6 +235,8 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
 
     setIsLoading(true);
     setLoadingStep(1);
+
+    saveSharedProfile({ name, day: birthDay, month: birthMonth, year: birthYear, time: birthTime, place: birthPlace });
 
     // Save profile to localStorage
     try {
@@ -211,13 +248,15 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
           birthMonth,
           birthYear,
           birthTime,
-          birthCity,
+          birthPlace,
         })
       );
     } catch {
       // silencioso
     }
 
+    let limitReached = false;
+    setLimitReached(false);
     const birthDateISO = `${birthYear}-${String(birthMonth).padStart(2, '0')}-${String(birthDay).padStart(2, '0')}`;
 
     // Animação progressiva das 3 camadas
@@ -233,7 +272,10 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
           name,
           birthDate: birthDateISO,
           birthTime,
-          birthCity,
+          geonameid: birthPlace.geonameid,
+          birthCity: birthPlace.label,
+          lang,
+          recent: getRecentMessages('effect'),
         }),
       });
 
@@ -242,9 +284,15 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       }
 
       const json = await response.json();
+      if (json.limited) {
+        limitReached = true;
+        setLimitReached(true);
+        return;
+      }
       if (json.success && json.data) {
         setResult(json.data);
-        localStorage.setItem(LAST_RESULT_KEY, JSON.stringify(json.data));
+        rememberMessage('effect', `${json.data.headline || ''}: ${json.data.question1Answer || ''}`);
+        localStorage.setItem(LAST_RESULT_KEY, JSON.stringify({ ...json.data, lang }));
       } else {
         throw new Error('Dado inválido');
       }
@@ -252,20 +300,21 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       console.warn('Fallback local do Aureneffect ativado:', err);
       // Fallback local instantâneo da Camada 01 e 02
       const [h, m] = (birthTime || '14:30').split(':').map((n) => parseInt(n, 10) || 0);
-      const triad = calculateAstrologicalTriad(birthYear, birthMonth, birthDay, h, m, birthCity);
-      const trigger = queryAurenstarEngine(triad);
-      const cityName = REFERENCE_CITIES[birthCity]?.label || 'São Paulo, SP';
+      const triad = calculateAstrologicalTriad(birthYear, birthMonth, birthDay, h, m);
+      const trigger = queryAurenstarEngine(triad, lang, buildSignals(factsFromTriad(triad), lang, triad.todayMoon.phase).need);
+      const cityName = birthPlace.label;
       const localResult = generateLocalAurenEffectReading(
         name,
         `${String(birthDay).padStart(2, '0')}/${String(birthMonth).padStart(2, '0')}/${birthYear}`,
         birthTime,
         cityName,
         triad,
-        trigger
+        trigger,
+        lang
       );
       setResult(localResult);
       try {
-        localStorage.setItem(LAST_RESULT_KEY, JSON.stringify(localResult));
+        localStorage.setItem(LAST_RESULT_KEY, JSON.stringify({ ...localResult, lang }));
       } catch {
         // silencioso
       }
@@ -274,16 +323,18 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
       clearTimeout(timer2);
       setIsLoading(false);
       setCompletedSteps([]);
-      try {
-        localStorage.setItem(LAST_CALCULATED_TIME_KEY, String(Date.now()));
-        setCooldownRemainingMs(SIX_HOURS_MS);
-      } catch {
-        // ignore
-      }
-      if (onNavigateToResult) {
-        onNavigateToResult();
-      } else {
-        window.scrollTo({ top: 380, behavior: 'smooth' });
+      if (!limitReached) {
+        try {
+          localStorage.setItem(LAST_CALCULATED_TIME_KEY, String(Date.now()));
+          setCooldownRemainingMs(COOLDOWN_MS);
+        } catch {
+          // ignore
+        }
+        if (onNavigateToResult) {
+          onNavigateToResult();
+        } else {
+          window.scrollTo({ top: 380, behavior: 'smooth' });
+        }
       }
     }
   };
@@ -298,12 +349,12 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
 
   const handleCopy = () => {
     if (!result) return;
-    const text = `✨ Efeito Auren de ${result.userName} ✨\n` +
+    const text = `✨ Aureneffect de ${result.userName} ✨\n` +
       `☀️ Sol em ${result.astronomy.sun.sign} | 🌙 Lua em ${result.astronomy.moon.sign} | 🧭 Ascendente em ${result.astronomy.ascendant.sign}\n` +
       `🌌 Lua de Hoje: ${result.astronomy.todayMoon.sign} (${result.astronomy.todayMoon.phase})\n\n` +
       `💭 Por que estou agindo assim hoje:\n${result.question1Answer}\n\n` +
       `🚀 O que fazer agora:\n${result.practicalSteps.map((s) => `${s.stepNumber}. ${s.title}: ${s.action}`).join('\n')}\n\n` +
-      `Descubra o seu Efeito Auren gratuitamente em: ${window.location.origin}/#/aureneffect`;
+      `Descubra o seu Aureneffect gratuitamente em: ${window.location.origin}/#/aureneffect`;
 
     navigator.clipboard.writeText(text);
     setCopiedLink(true);
@@ -312,7 +363,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
 
   const handleShareWhatsApp = () => {
     if (!result) return;
-    const text = `✨ Meu Efeito Auren de Hoje (${result.userName}) ✨\n` +
+    const text = `✨ Meu Aureneffect de Hoje (${result.userName}) ✨\n` +
       `Por que estou me sentindo assim hoje:\n"${result.question1Answer.slice(0, 160)}..."\n\n` +
       `Descubra o seu também na Aurenstar: ${window.location.origin}/#/aureneffect`;
     window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`, '_blank');
@@ -329,47 +380,32 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
           <button
             type="button"
             onClick={onBackToHome}
-            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#F51B83] text-xs sm:text-sm font-bold text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] shadow-2xs transition-all cursor-pointer group"
+            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#E73578] text-xs sm:text-sm font-bold text-[#3982C8] hover:text-white border border-[#D9E8F8] hover:border-[#E73578] shadow-2xs transition-all cursor-pointer group"
           >
-            <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1 text-[#2878D0]" />
+            <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1 text-[#3982C8]" />
             <span>{copy.backHome}</span>
           </button>
 
           <button
             type="button"
             onClick={onNavigateToBlog}
-            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#F51B83] text-xs sm:text-sm font-bold text-[#2878D0] hover:text-white border border-[#D9E8F8] hover:border-[#F51B83] transition-all cursor-pointer"
+            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#E4F1FF] hover:bg-[#E73578] text-xs sm:text-sm font-bold text-[#3982C8] hover:text-white border border-[#D9E8F8] hover:border-[#E73578] transition-all cursor-pointer"
           >
             <span>{copy.blog}</span>
             <span>→</span>
           </button>
         </div>
 
-        {/* Page Top Heading (CSS selector 1) */}
-        <div className="text-center max-w-xl mx-auto mb-8">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#E4F1FF] border border-[#D9E8F8] text-[#2878D0] text-xs font-extrabold uppercase tracking-wider mb-3 shadow-2xs">
-            <Sparkles className="w-3.5 h-3.5 text-[#F51B83]" />
-            <span>{copy.realTime}</span>
-          </div>
-
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#172B4D] tracking-tight mb-2.5 leading-tight">
-            Aureneffect
-          </h1>
-
-          <p className="text-sm text-[#647DA5] leading-relaxed max-w-md mx-auto font-medium">
-            {copy.subtitle}
-          </p>
-        </div>
+        <ToolHero icon={<Orbit className="h-8 w-8" />} tag={copy.realTime} title="Aureneffect" subtitle={copy.subtitle} tone="pink" />
 
         {/* =========================================================================
             USER INPUT FORM (CSS selector 2)
             ========================================================================= */}
-        <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg p-6 sm:p-9 mb-8 transition-all relative overflow-hidden">
+        <div className="bg-[#FFFFFF] rounded-3xl border border-[#D9E8F8] shadow-md hover:shadow-lg p-6 sm:p-9 mb-8 transition-all relative">
           {/* Subtle top decorative border */}
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#2878D0]" />
 
           <div className="flex items-center gap-3 mb-6 pb-4 border-b border-[#D9E8F8]">
-            <div className="w-10 h-10 rounded-2xl bg-[#E4F1FF] text-[#2878D0] flex items-center justify-center font-bold shadow-2xs">
+            <div className="w-10 h-10 rounded-2xl bg-[#3982C8] text-white flex items-center justify-center font-bold shadow-sm">
               <Compass className="w-5 h-5" />
             </div>
             <div>
@@ -388,7 +424,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
               {/* Campo 1: Nome */}
               <div>
                 <label className="block text-xs font-bold uppercase tracking-wider text-[#172B4D] mb-2 flex items-center gap-1.5">
-                  <User className="w-3.5 h-3.5 text-[#2878D0]" />
+                  <User className="w-3.5 h-3.5 text-[#3982C8]" />
                   <span>{copy.name}</span>
                 </label>
                 <input
@@ -396,7 +432,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   placeholder={copy.namePlaceholder}
-                  className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#2878D0] focus:bg-white focus:ring-2 focus:ring-[#2878D0]/15 transition-all shadow-2xs"
+                  className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#E73578] focus:bg-white focus:ring-2 focus:ring-[#E73578]/15 transition-all shadow-2xs"
                   required
                 />
               </div>
@@ -404,30 +440,28 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
               {/* Campo 2: Cidade de Nascimento */}
               <div>
                 <label className="block text-xs font-bold uppercase tracking-wider text-[#172B4D] mb-2 flex items-center gap-1.5">
-                  <MapPin className="w-3.5 h-3.5 text-[#F51B83]" />
+                  <MapPin className="w-3.5 h-3.5 text-[#E73578]" />
                   <span>{copy.city}</span>
                 </label>
-                <div className="relative">
-                  <select
-                    value={birthCity}
-                    onChange={(e) => setBirthCity(e.target.value)}
-                    className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-9 shadow-2xs"
-                  >
-                    {Object.entries(REFERENCE_CITIES).map(([key, item]) => (
-                      <option key={key} value={key}>
-                        {item.label}
-                      </option>
-                    ))}
-                  </select>
-                  <ChevronDown className="w-3.5 h-3.5 text-[#647DA5] absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none" />
-                </div>
+                <CityAutocomplete
+                  value={birthPlace}
+                  onChange={(city) => {
+                    setBirthPlace(city);
+                    if (city) setCityError(false);
+                  }}
+                  placeholder={copy.cityPlaceholder}
+                  noResultsText={copy.cityNoResults}
+                  className="w-full bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-2xl px-4 py-3 text-sm text-[#172B4D] font-semibold outline-none focus:border-[#E73578] focus:bg-white focus:ring-2 focus:ring-[#E73578]/15 transition-all shadow-2xs"
+                />
+                {cityError && <p className="mt-1.5 text-[11px] font-semibold text-[#E73578]">{copy.cityRequired}</p>}
+                {limitReached && <p className="mt-1.5 text-[11px] font-semibold text-[#E73578]">{lang === 'pt' ? 'Muitas leituras foram geradas por esta conexão. Tente de novo em algumas horas.' : lang === 'es' ? 'Se generaron muchas lecturas desde esta conexión. Inténtalo de nuevo en unas horas.' : 'Too many readings were created from this connection. Please try again in a few hours.'}</p>}
               </div>
             </div>
 
             {/* 2. Data de Nascimento */}
             <div>
               <label className="block text-xs font-bold uppercase tracking-wider text-[#172B4D] mb-2 flex items-center gap-1.5">
-                <Calendar className="w-3.5 h-3.5 text-[#2878D0]" />
+                <Calendar className="w-3.5 h-3.5 text-[#3982C8]" />
                 <span>{copy.birthDate}</span>
               </label>
               <div className="grid grid-cols-3 gap-2.5 sm:gap-3">
@@ -438,7 +472,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                     <select
                       value={birthDay}
                       onChange={(e) => setBirthDay(Number(e.target.value))}
-                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-8"
+                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#E73578] focus:bg-white cursor-pointer pr-8"
                     >
                       {Array.from({ length: 31 }, (_, i) => i + 1).map((d) => (
                         <option key={d} value={d}>
@@ -457,7 +491,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                     <select
                       value={birthMonth}
                       onChange={(e) => setBirthMonth(Number(e.target.value))}
-                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-8"
+                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#E73578] focus:bg-white cursor-pointer pr-8"
                     >
                       {monthNames.map((m, idx) => (
                         <option key={idx + 1} value={idx + 1}>
@@ -476,7 +510,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                     <select
                       value={birthYear}
                       onChange={(e) => setBirthYear(Number(e.target.value))}
-                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white cursor-pointer pr-8"
+                      className="w-full appearance-none bg-[#E4F1FF]/30 border border-[#D9E8F8] rounded-xl px-3 py-2.5 text-xs sm:text-sm font-semibold text-[#172B4D] outline-none focus:border-[#E73578] focus:bg-white cursor-pointer pr-8"
                     >
                       {Array.from({ length: 90 }, (_, i) => 2026 - i).map((y) => (
                         <option key={y} value={y}>
@@ -494,11 +528,11 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
             <div>
               <div className="flex items-center justify-between mb-2">
                 <label className="text-xs font-bold uppercase tracking-wider text-[#172B4D] flex items-center gap-1.5">
-                  <Clock className="w-3.5 h-3.5 text-[#2878D0]" />
+                  <Clock className="w-3.5 h-3.5 text-[#3982C8]" />
                   <span>{copy.birthTime}</span>
                 </label>
                 {birthTime && (
-                  <span className="text-xs text-[#2878D0] font-bold bg-[#E4F1FF] px-2.5 py-0.5 rounded-full border border-[#D9E8F8]">
+                  <span className="text-xs text-[#3982C8] font-bold bg-[#E4F1FF] px-2.5 py-0.5 rounded-full border border-[#D9E8F8]">
                     {birthTime}
                   </span>
                 )}
@@ -520,11 +554,11 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                       onClick={() => handleTimePeriodSelect(period.id)}
                       className={`p-3 rounded-2xl text-xs font-bold transition-all cursor-pointer border text-center flex flex-col items-center justify-center gap-1.5 ${
                         isSelected
-                          ? 'bg-[#2878D0] text-white border-[#2878D0] shadow-sm scale-[1.02]'
-                          : 'bg-[#E4F1FF]/30 border-[#D9E8F8] text-[#172B4D] hover:border-[#2878D0] hover:bg-white'
+                          ? 'bg-[#E73578] text-white border-[#E73578] shadow-md scale-[1.02]'
+                          : 'bg-[#E4F1FF]/30 border-[#D9E8F8] text-[#172B4D] hover:border-[#E73578] hover:bg-white'
                       }`}
                     >
-                      <span className="text-lg">{period.icon}</span>
+                      <span className={`flex h-9 w-9 items-center justify-center rounded-full ${isSelected ? 'bg-white text-[#E73578]' : 'bg-[#3982C8] text-white'}`}><PeriodIcon id={period.id} className="h-4 w-4" /></span>
                       <span className="leading-tight">
                         {period.label} <span className="opacity-75 text-[10px]">({period.time})</span>
                       </span>
@@ -543,7 +577,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                     setBirthTime(e.target.value);
                     setQuickTimePeriod('exato');
                   }}
-                  className="px-3 py-1.5 rounded-xl border border-[#D9E8F8] bg-[#E4F1FF]/30 text-xs font-bold text-[#172B4D] outline-none focus:border-[#2878D0] focus:bg-white"
+                  className="px-3 py-1.5 rounded-xl border border-[#D9E8F8] bg-[#E4F1FF]/30 text-xs font-bold text-[#172B4D] outline-none focus:border-[#E73578] focus:bg-white"
                 />
               </div>
             </div>
@@ -566,7 +600,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                     onClick={() => {
                       if (onNavigateToResult) onNavigateToResult();
                     }}
-                    className="w-full py-4 px-6 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99]"
+                    className="w-full py-4 px-6 rounded-2xl bg-[#E73578] hover:bg-[#D0306C] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99]"
                   >
                     <Sparkles className="w-4 h-4 transition-transform group-hover:rotate-12" />
                     <span>{copy.viewCurrent}</span>
@@ -576,7 +610,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                 <button
                   type="submit"
                   disabled={isLoading}
-                  className="w-full py-4 px-6 rounded-2xl bg-[#2878D0] hover:bg-[#17366F] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99] disabled:opacity-50"
+                  className="w-full py-4 px-6 rounded-2xl bg-[#E73578] hover:bg-[#D0306C] text-white font-extrabold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-2.5 group active:scale-[0.99] disabled:opacity-50"
                 >
                   {isLoading ? (
                     <>
@@ -584,7 +618,7 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
                       <span>
                         {loadingStep === 1 && '1/3 Mapeando Posições dos Astros...'}
                         {loadingStep === 2 && '2/3 Cruzando com a Lua de Hoje...'}
-                        {loadingStep === 3 && '3/3 Lapidando seu Efeito Auren...'}
+                        {loadingStep === 3 && '3/3 Lapidando seu Aureneffect...'}
                       </span>
                     </>
                   ) : (
@@ -598,6 +632,8 @@ export const AurenEffectPage: React.FC<AurenEffectPageProps> = ({
             </div>
           </form>
         </div>
+
+        <ToolBenefits lang={lang} />
       </div>
     </div>
   );
