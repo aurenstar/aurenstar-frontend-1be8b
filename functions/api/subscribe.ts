@@ -18,7 +18,7 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: U
   if (!email || email.length > 254 || emailMessage(email, 'en')) return json({ ok: false, reason: 'email' }, 400);
   const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
   const day = new Date().toISOString().slice(0, 10);
-  if ((await countHit(env, await usageKey(env, ['subscribe-ip', day, ip]), 24 * 3600)) > 10) return json({ ok: false, reason: 'limit' }, 429);
+  if ((await countHit(env, await usageKey(env, ['subscribe-ip', day, ip]), 24 * 3600)) > 30) return json({ ok: false, reason: 'limit' }, 429);
   const list = b.list === 'newsletter' ? 'newsletter' : 'tshirts';
   // Country and region come from Cloudflare (never from the form), to see where the audience lives.
   const cf = (request as any).cf as { country?: string; region?: string } | undefined;
