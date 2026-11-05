@@ -1,11 +1,17 @@
 export type SubscribeSource = 'footer' | 'newsletter_page' | 'result' | 'article' | 'home';
 
 const FLAG = 'aurenstar_tshirt_list';
+const NEWS_FLAG = 'aurenstar_newsletter_list';
 export type ListName = 'tshirts' | 'newsletter';
 
 /** True when this browser already joined the list: the sign-up cards then stay hidden. */
 export function isOnTshirtList(): boolean {
   try { return localStorage.getItem(FLAG) === '1'; } catch { return false; }
+}
+
+/** True when this browser already joined the newsletter. */
+export function isOnNewsletterList(): boolean {
+  try { return localStorage.getItem(NEWS_FLAG) === '1'; } catch { return false; }
 }
 
 /** Sends an address to the t-shirt waiting list. Call it only when the visitor ticked the consent box. */
@@ -17,6 +23,7 @@ export async function subscribeEmail(opts: { email: string; sign?: string; lang:
       body: JSON.stringify({ email: opts.email.trim(), sign: opts.sign || '', lang: opts.lang, source: opts.source, list: opts.list || 'tshirts', consent: true }),
     });
     if (res.ok && (opts.list || 'tshirts') === 'tshirts') { try { localStorage.setItem(FLAG, '1'); } catch { /* ignore */ } }
+    if (res.ok && opts.list === 'newsletter') { try { localStorage.setItem(NEWS_FLAG, '1'); } catch { /* ignore */ } }
     return res.ok;
   } catch {
     return false;

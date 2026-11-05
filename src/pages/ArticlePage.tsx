@@ -18,7 +18,7 @@ import {
   ensureFullArticles,
   AURENSTAR_AVATAR,
 } from '../data/blogArticles';
-import { TshirtCapture } from '../components/TshirtCapture';
+import { EmailCaptureCard } from '../components/EmailCaptureCard';
 import { ShareModal } from '../components/ShareModal';
 import { getUrlLang } from '../utils/urlLang';
 import { withHandTitle } from '../data/articleTitles';
@@ -557,7 +557,7 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
           </section>
         )}
 
-        <div className="mx-auto -mt-4 mb-10 w-full max-w-3xl"><TshirtCapture source="article" variant="mini" flush /></div>
+        <div className="mx-auto -mt-4 mb-10 w-full max-w-3xl"><EmailCaptureCard source="article" /></div>
       </div>
 
       {/* Modal Interativo de Compartilhamento em Redes Sociais */}
