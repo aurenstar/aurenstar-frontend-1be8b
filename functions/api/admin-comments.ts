@@ -2,7 +2,7 @@
 //   { password, action: 'list' }                         -> every comment (pending, approved, hidden) + e-mail counts
 //   { password, action: 'set', id, status }              -> status = 'approved' | 'hidden' | 'pending'
 //   { password, action: 'report' }                       -> CSV of the comments + links to the monthly archive files
-//   { password, action: 'emails' }                       -> two CSVs: tshirts list and newsletter list
+//   { password, action: 'emails' }                       -> two CSVs (separated by ; so Brazilian Excel opens them in columns): tshirts list and newsletter list
 // Protected by two secrets that the owner adds in Cloudflare (never in the code):
 //   ADMIN_PASSWORD       the password typed on the /admin page
 //   SUPABASE_SERVICE_KEY the database "secret key" (lets the server read comments that are still pending)
@@ -56,12 +56,12 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: A
   if (b.action === 'emails') {
     // One CSV per list; only people who did not unsubscribe.
     const cols = ['email', 'country', 'region', 'lang', 'sign', 'source', 'created_at', 'consent_at'];
-    const cell = (v: unknown) => { const s = v === null || v === undefined ? '' : String(v); return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
+    const cell = (v: unknown) => { const s = v === null || v === undefined ? '' : String(v); return /[";,\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
     const build = async (list: string): Promise<{ csv: string; count: number } | null> => {
-      const r = await fetch(`${base}/rest/v1/email_list?select=${cols.join(',')}&list=eq.${list}&unsubscribed_at=is.null&order=created_at.asc&limit=50000`, { headers });
+      const r = await fetch(`${base}/rest/v1/email_list?select=${cols.join(",")}&list=eq.${list}&unsubscribed_at=is.null&order=created_at.asc&limit=50000`, { headers });
       if (!r.ok) return null;
       const rows = (await r.json()) as Record<string, unknown>[];
-      return { csv: '﻿' + [cols.join(','), ...rows.map((x) => cols.map((c) => cell(x[c])).join(','))].join('\n') + '\n', count: rows.length };
+      return { csv: '﻿' + [cols.join(';'), ...rows.map((x) => cols.map((c) => cell(x[c])).join(';'))].join('\n') + '\n', count: rows.length };
     };
     const [tshirts, newsletter] = await Promise.all([build('tshirts'), build('newsletter')]);
     if (!tshirts || !newsletter) return json({ ok: false, reason: 'database' }, 502);
@@ -71,11 +71,11 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: A
   if (b.action === 'report') {
     // 1) comments still in the database as CSV text, 2) monthly archive files (private) with a 1-hour download link.
     const cols = ['id', 'created_at', 'country', 'lang', 'stars', 'sign', 'status', 'moderated_by', 'moderation_note', 'name', 'message'];
-    const cell = (v: unknown) => { const s = v === null || v === undefined ? '' : String(v); return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
-    const r = await fetch(`${base}/rest/v1/site_comments?select=${cols.join(',')}&status=in.(approved,pending)&order=created_at.desc&limit=5000`, { headers });
+    const cell = (v: unknown) => { const s = v === null || v === undefined ? '' : String(v); return /[";,\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
+    const r = await fetch(`${base}/rest/v1/site_comments?select=${cols.join(",")}&status=in.(approved,pending)&order=created_at.desc&limit=5000`, { headers });
     if (!r.ok) return json({ ok: false, reason: 'database' }, 502);
     const rows = (await r.json()) as Record<string, unknown>[];
-    const csv = '﻿' + [cols.join(','), ...rows.map((x) => cols.map((c) => cell(x[c])).join(','))].join('\n') + '\n';
+    const csv = '﻿' + [cols.join(';'), ...rows.map((x) => cols.map((c) => cell(x[c])).join(';'))].join('\n') + '\n';
     const files: { name: string; url: string }[] = [];
     try {
       const l = await fetch(`${base}/storage/v1/object/list/feedback-archive`, { method: 'POST', headers, body: JSON.stringify({ prefix: 'comments', limit: 200, sortBy: { column: 'name', order: 'desc' } }) });
