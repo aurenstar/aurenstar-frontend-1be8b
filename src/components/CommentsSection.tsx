@@ -64,6 +64,22 @@ export const CommentsSection: React.FC = () => {
   const rated = (list || []).filter((c) => c.stars);
   const avg = rated.length ? rated.reduce((a, c) => a + (c.stars || 0), 0) / rated.length : 0;
 
+  const renderCard = (c: PublicComment, key: string) => (
+    <article key={key} className="rounded-2xl border border-[#D9E8F8] bg-white p-4 shadow-sm">
+                <div className="flex items-center gap-3">
+                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#3982C8] text-sm font-extrabold text-white">{(c.name || t.anon).charAt(0).toUpperCase()}</span>
+                  <p className="flex min-w-0 flex-1 items-center gap-2 text-sm font-extrabold text-[#172B4D]">
+                    <span className="truncate">{c.name || t.anon}</span>
+                    {c.country && /^[A-Za-z]{2}$/.test(c.country) && (
+                      <img src={`/flags/${c.country.toLowerCase()}.svg`} alt={c.country.toUpperCase()} title={c.country.toUpperCase()} width={20} height={14} loading="lazy" className="h-3.5 w-5 shrink-0 rounded-[2px] object-cover shadow-[0_0_0_1px_rgba(23,43,77,0.12)]" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                    )}
+                  </p>
+                  {c.stars ? <span className="flex" aria-label={`${c.stars}/5`}>{[1, 2, 3, 4, 5].map((n) => <Star key={n} className={`h-4 w-4 ${n <= c.stars! ? 'fill-[#E73578] text-[#E73578]' : 'text-[#D9E8F8]'}`} />)}</span> : null}
+                </div>
+                <p className="mt-2.5 whitespace-pre-line break-words text-sm leading-relaxed text-[#172B4D]">{c.message}</p>
+              </article>
+  );
+
   return (
     <section id="comentarios" className="w-full bg-[#C9E5FF] px-4 py-12 sm:px-6 sm:py-16">
       <div className="mx-auto max-w-5xl">
@@ -78,7 +94,7 @@ export const CommentsSection: React.FC = () => {
             {list !== null && list.length === 0 && (
               <div className="flex h-full flex-col justify-center gap-6 rounded-3xl border border-[#D9E8F8] bg-white p-6 text-center shadow-[0_10px_30px_rgba(57,130,200,0.10)] sm:p-8">
                 <div>
-                  <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#E4F1FF] to-[#FDE8F0] text-[#3982C8]"><MessageCircle className="h-8 w-8" /></span>
+                  <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#E4F1FF] text-[#3982C8]"><MessageCircle className="h-8 w-8" /></span>
                   <p className="mt-4 text-xl font-extrabold text-[#172B4D]">{t.emptyTitle}</p>
                 </div>
                 <ul className="grid gap-2.5 border-t border-[#D9E8F8] pt-5 text-left sm:grid-cols-1">
@@ -96,21 +112,21 @@ export const CommentsSection: React.FC = () => {
                 )}
               </div>
             )}
-            {list?.map((c) => (
-              <article key={c.id} className="rounded-2xl border border-[#D9E8F8] bg-white p-4 shadow-sm">
-                <div className="flex items-center gap-3">
-                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#3982C8] to-[#E73578] text-sm font-extrabold text-white">{(c.name || t.anon).charAt(0).toUpperCase()}</span>
-                  <p className="flex min-w-0 flex-1 items-center gap-2 text-sm font-extrabold text-[#172B4D]">
-                    <span className="truncate">{c.name || t.anon}</span>
-                    {c.country && /^[A-Za-z]{2}$/.test(c.country) && (
-                      <img src={`/flags/${c.country.toLowerCase()}.svg`} alt={c.country.toUpperCase()} title={c.country.toUpperCase()} width={20} height={14} loading="lazy" className="h-3.5 w-5 shrink-0 rounded-[2px] object-cover shadow-[0_0_0_1px_rgba(23,43,77,0.12)]" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
-                    )}
-                  </p>
-                  {c.stars ? <span className="flex" aria-label={`${c.stars}/5`}>{[1, 2, 3, 4, 5].map((n) => <Star key={n} className={`h-4 w-4 ${n <= c.stars! ? 'fill-[#E73578] text-[#E73578]' : 'text-[#D9E8F8]'}`} />)}</span> : null}
+            {list !== null && list.length > 0 && (
+              list.length >= 3 ? (
+                <div className="comments-ticker relative h-[400px] overflow-hidden" style={{ maskImage: 'linear-gradient(to bottom, transparent, #000 8%, #000 92%, transparent)', WebkitMaskImage: 'linear-gradient(to bottom, transparent, #000 8%, #000 92%, transparent)' }}>
+                  <div className="comments-ticker-track grid" style={{ animationDuration: `${Math.max(1, Math.ceil(5 / list.length)) * list.length * 6}s` }}>
+                    {[0, 1].map((copy) => (
+                      <div key={copy} className="grid content-start gap-3 pb-3" aria-hidden={copy === 1 ? true : undefined}>
+                        {Array.from({ length: Math.max(1, Math.ceil(5 / list.length)) }).flatMap((_, rep) => list.map((c) => renderCard(c, `${copy}-${rep}-${c.id}`)))}
+                      </div>
+                    ))}
+                  </div>
                 </div>
-                <p className="mt-2.5 whitespace-pre-line break-words text-sm leading-relaxed text-[#172B4D]">{c.message}</p>
-              </article>
-            ))}
+              ) : (
+                list.map((c) => renderCard(c, String(c.id)))
+              )
+            )}
           </div>
 
           {state === 'done' ? (
