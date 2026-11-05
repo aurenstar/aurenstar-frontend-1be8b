@@ -11,6 +11,7 @@ import { countHit, usageKey, type UsageEnv } from '../../server/engine/usage';
 interface AdminEnv extends UsageEnv {
   ADMIN_PASSWORD?: string;
   SUPABASE_SERVICE_KEY?: string;
+  OPENAI_API_KEY?: string;
 }
 
 const DEFAULT_URL = 'https://bnetpqdpeufookvvsnaj.supabase.co';
@@ -102,5 +103,6 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: A
     count('newsletter'),
   ]);
   if (!res.ok) return json({ ok: false, reason: 'database' }, 502);
-  return json({ ok: true, comments: await res.json(), emails: { tshirts, newsletter } });
+  // Only yes/no: is the AI moderation switched on in this environment? (never the keys themselves)
+  return json({ ok: true, comments: await res.json(), emails: { tshirts, newsletter }, ai: Boolean((env.OPENAI_API_KEY || '').trim()) });
 };

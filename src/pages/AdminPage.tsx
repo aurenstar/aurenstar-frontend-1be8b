@@ -31,6 +31,7 @@ export function AdminPage({ onBackToHome }: { onBackToHome: () => void }) {
   const [typed, setTyped] = useState('');
   const [password, setPassword] = useState('');
   const [rows, setRows] = useState<Row[] | null>(null);
+  const [aiOn, setAiOn] = useState<boolean | null>(null);
   const [emails, setEmails] = useState<{ tshirts: number; newsletter: number } | null>(null);
   const [tab, setTab] = useState<Status>('pending');
   const [error, setError] = useState('');
@@ -48,6 +49,7 @@ export function AdminPage({ onBackToHome }: { onBackToHome: () => void }) {
       setPassword(pw);
       setRows(data.comments);
       setEmails(data.emails);
+      setAiOn(typeof data.ai === 'boolean' ? data.ai : null);
       try { sessionStorage.setItem(KEY, pw); } catch { /* storage blocked */ }
     } else {
       try { sessionStorage.removeItem(KEY); } catch { /* storage blocked */ }
@@ -144,6 +146,11 @@ export function AdminPage({ onBackToHome }: { onBackToHome: () => void }) {
 
         {rows && (
           <>
+            {aiOn !== null && (
+              <p className={`mt-4 rounded-xl px-4 py-2 text-xs font-bold sm:text-sm ${aiOn ? 'bg-white/70 text-[#3982C8]' : 'bg-[#FDE8F0] text-[#E73578]'}`}>
+                {aiOn ? '🤖 IA que confere os comentários: ligada ✅' : '🤖 IA que confere os comentários: DESLIGADA ❌ (falta a chave OPENAI_API_KEY nesta versão do site; os comentários ficam esperando você)'}
+              </p>
+            )}
             {emails && (
               <div className="mt-4 rounded-xl bg-white/70 px-4 py-3 text-xs font-bold text-[#647DA5] sm:text-sm">
                 <p>📧 E-mails guardados (quem saiu da lista não conta):</p>
