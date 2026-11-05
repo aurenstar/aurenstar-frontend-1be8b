@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Cookie } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { CONSENT_EVENT, getConsent, setConsent } from '../utils/consent';
+import { getConsentRule } from '../utils/region';
 
 const TEXT = {
   pt: {
@@ -34,10 +35,20 @@ export const ConsentBanner: React.FC = () => {
 
   useEffect(() => {
     if (location.pathname.startsWith('/dictionary') || navigator.webdriver) return;
-    setOpen(getConsent() === null);
-    const onChange = () => setOpen(getConsent() === null);
+    let cancelled = false;
+    // First visit: the banner appears only where the law asks for a "yes" first (or when the country is unknown).
+    if (getConsent() === null) {
+      getConsentRule().then((rule) => {
+        if (!cancelled && rule === 'required' && getConsent() === null) setOpen(true);
+      });
+    }
+    // The footer link "Cookie settings" reopens it everywhere; an answer closes it.
+    const onChange = (e: Event) => setOpen((e as CustomEvent).detail === null);
     window.addEventListener(CONSENT_EVENT, onChange);
-    return () => window.removeEventListener(CONSENT_EVENT, onChange);
+    return () => {
+      cancelled = true;
+      window.removeEventListener(CONSENT_EVENT, onChange);
+    };
   }, []);
 
   if (!open) return null;
