@@ -47,7 +47,7 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: A
     const id = Number(b.id);
     const status = String(b.status);
     if (!Number.isInteger(id) || id < 1 || !['approved', 'hidden', 'pending'].includes(status)) return json({ ok: false }, 400);
-    const res = await fetch(`${base}/rest/v1/site_comments?id=eq.${id}`, { method: 'PATCH', headers: { ...headers, Prefer: 'return=minimal' }, body: JSON.stringify({ status }) });
+    const res = await fetch(`${base}/rest/v1/site_comments?id=eq.${id}`, { method: 'PATCH', headers: { ...headers, Prefer: 'return=minimal' }, body: JSON.stringify({ status, moderated_by: 'owner', moderation_note: null, moderated_at: new Date().toISOString() }) });
     return res.ok ? json({ ok: true }) : json({ ok: false, reason: 'database' }, 502);
   }
 
@@ -58,7 +58,7 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: A
     } catch { return 0; }
   };
   const [res, tshirts, newsletter] = await Promise.all([
-    fetch(`${base}/rest/v1/site_comments?select=id,name,message,stars,sign,lang,country,status,created_at&order=created_at.desc&limit=300`, { headers }),
+    fetch(`${base}/rest/v1/site_comments?select=id,name,message,stars,sign,lang,country,status,moderated_by,moderation_note,created_at&order=created_at.desc&limit=300`, { headers }),
     count('tshirts'),
     count('newsletter'),
   ]);

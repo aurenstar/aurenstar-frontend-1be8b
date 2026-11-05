@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Check, Heart, MessageCircle, ShieldCheck, Star, UserRound } from 'lucide-react';
+import { Check, Globe, Heart, MessageCircle, Quote, ShieldCheck, Star, UserRound } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { trackEvent } from '../utils/analytics';
 
@@ -16,6 +16,7 @@ const DEMO: { id: number; name: string; country: string; stars: number; text: Re
 
 const TEXT = {
   pt: {
+    chipTranslate: 'Traduzido para o seu idioma',
     translated: 'Traduzido · ver original', seeTranslation: 'Ver tradução', demoNote: 'Modo demonstração: comentários de exemplo, só você vê.',
     badge: 'Comunidade', title: 'O que estão dizendo', sub: 'Conte como foi a sua experiência. Seu comentário ajuda a melhorar a Aurenstar.',
     name: 'Seu primeiro nome (opcional)', message: 'Escreva o seu comentário…', rate: 'Sua nota', send: 'Enviar comentário', sending: 'Enviando…',
@@ -24,6 +25,7 @@ const TEXT = {
     empty: 'Ainda não há comentários. Seja a primeira pessoa a comentar! ✨', anon: 'Visitante', ideas: 'O que você pode contar:', idea: ['Qual ferramenta você usou?', 'A leitura combinou com você?', 'O que podemos melhorar?'], emptyTitle: 'Seja a primeira pessoa a comentar', perks: ['Revisamos antes de publicar', 'Só o primeiro nome aparece', 'Ajuda a melhorar a Aurenstar'], ratings: ['', 'Pode melhorar', 'Mais ou menos', 'Bom', 'Muito bom', 'Amei!'], avg: 'média', count: (n: number) => (n === 1 ? '1 comentário' : `${n} comentários`), note: 'Não peça nem coloque dados pessoais. Os comentários são revisados antes de aparecer.',
   },
   en: {
+    chipTranslate: 'Translated to your language',
     translated: 'Translated · see original', seeTranslation: 'See translation', demoNote: 'Demo mode: example comments, only you can see them.',
     badge: 'Community', title: 'What people are saying', sub: 'Tell us how it went. Your comment helps make Aurenstar better.',
     name: 'Your first name (optional)', message: 'Write your comment…', rate: 'Your rating', send: 'Send comment', sending: 'Sending…',
@@ -32,6 +34,7 @@ const TEXT = {
     empty: 'No comments yet. Be the first to comment! ✨', anon: 'Visitor', ideas: 'What you could share:', idea: ['Which tool did you use?', 'Did the reading fit you?', 'What can we improve?'], emptyTitle: 'Be the first to comment', perks: ['We review before publishing', 'Only your first name shows', 'Helps improve Aurenstar'], ratings: ['', 'Could be better', 'So-so', 'Good', 'Very good', 'Loved it!'], avg: 'average', count: (n: number) => (n === 1 ? '1 comment' : `${n} comments`), note: 'Do not share personal details. Comments are reviewed before they appear.',
   },
   es: {
+    chipTranslate: 'Traducido a tu idioma',
     translated: 'Traducido · ver original', seeTranslation: 'Ver traducción', demoNote: 'Modo demostración: comentarios de ejemplo, solo tú los ves.',
     badge: 'Comunidad', title: 'Lo que dicen', sub: 'Cuéntanos cómo te fue. Tu comentario ayuda a mejorar Aurenstar.',
     name: 'Tu primer nombre (opcional)', message: 'Escribe tu comentario…', rate: 'Tu nota', send: 'Enviar comentario', sending: 'Enviando…',
@@ -91,73 +94,88 @@ export const CommentsSection: React.FC = () => {
   const avg = rated.length ? rated.reduce((a, c) => a + (c.stars || 0), 0) / rated.length : 0;
 
   const renderCard = (c: PublicComment, key: string) => (
-    <article key={key} className="rounded-2xl border border-[#D9E8F8] bg-white p-4 shadow-sm">
-                <div className="flex items-center gap-3">
-                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#3982C8] text-sm font-extrabold text-white">{(c.name || t.anon).charAt(0).toUpperCase()}</span>
-                  <p className="flex min-w-0 flex-1 items-center gap-2 text-sm font-extrabold text-[#172B4D]">
-                    <span className="truncate">{c.name || t.anon}</span>
-                    {c.country && /^[A-Za-z]{2}$/.test(c.country) && (
-                      <img src={`/flags/${c.country.toLowerCase()}.svg`} alt={c.country.toUpperCase()} title={c.country.toUpperCase()} width={20} height={14} loading="lazy" className="h-3.5 w-5 shrink-0 rounded-[2px] object-cover shadow-[0_0_0_1px_rgba(23,43,77,0.12)]" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
-                    )}
-                  </p>
-                  {c.stars ? <span className="flex" aria-label={`${c.stars}/5`}>{[1, 2, 3, 4, 5].map((n) => <Star key={n} className={`h-4 w-4 ${n <= c.stars! ? 'fill-[#E73578] text-[#E73578]' : 'text-[#D9E8F8]'}`} />)}</span> : null}
-                </div>
-                <p data-no-translate className="mt-2.5 whitespace-pre-line break-words text-sm leading-relaxed text-[#172B4D]">{c.translated && showOriginal[String(c.id)] ? c.original : c.message}</p>
-                {c.translated && (
-                  <button type="button" onClick={() => setShowOriginal((o) => ({ ...o, [String(c.id)]: !o[String(c.id)] }))} style={{ fontSize: 11, lineHeight: 1.4 }} className="mt-1.5 font-bold text-[#647DA5] hover:text-[#3982C8]">
-                    🌐 {showOriginal[String(c.id)] ? t.seeTranslation : t.translated}
-                  </button>
-                )}
-              </article>
+    <article key={key} className="relative rounded-2xl border border-[#D9E8F8] bg-[#F4F9FF] p-4 sm:p-5">
+      <Quote aria-hidden className="absolute right-4 top-4 h-6 w-6 text-[#D9E8F8]" strokeWidth={2.5} />
+      <div className="flex items-center gap-3 pr-8">
+        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#3982C8] text-sm font-extrabold text-white">{(c.name || t.anon).charAt(0).toUpperCase()}</span>
+        <div className="min-w-0 flex-1">
+          <p className="flex items-center gap-2 text-sm font-extrabold text-[#172B4D]">
+            <span className="truncate">{c.name || t.anon}</span>
+            {c.country && /^[A-Za-z]{2}$/.test(c.country) && (
+              <img src={`/flags/${c.country.toLowerCase()}.svg`} alt={c.country.toUpperCase()} title={c.country.toUpperCase()} width={20} height={14} loading="lazy" className="h-3.5 w-5 shrink-0 rounded-[2px] object-cover shadow-[0_0_0_1px_rgba(23,43,77,0.12)]" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+            )}
+          </p>
+          {c.stars ? <span className="mt-0.5 flex" aria-label={`${c.stars}/5`}>{[1, 2, 3, 4, 5].map((n) => <Star key={n} className={`h-3.5 w-3.5 ${n <= c.stars! ? 'fill-[#E73578] text-[#E73578]' : 'text-[#D9E8F8]'}`} />)}</span> : null}
+        </div>
+      </div>
+      <p data-no-translate className="mt-3 whitespace-pre-line break-words text-sm leading-relaxed text-[#172B4D]">{c.translated && showOriginal[String(c.id)] ? c.original : c.message}</p>
+      {c.translated && (
+        <button type="button" onClick={() => setShowOriginal((o) => ({ ...o, [String(c.id)]: !o[String(c.id)] }))} style={{ fontSize: 11, lineHeight: 1.4 }} className="mt-2 font-bold text-[#647DA5] hover:text-[#3982C8]">
+          🌐 {showOriginal[String(c.id)] ? t.seeTranslation : t.translated}
+        </button>
+      )}
+    </article>
   );
 
   return (
     <section id="comentarios" className="w-full bg-[#C9E5FF] px-4 py-12 sm:px-6 sm:py-16">
-      <div className="mx-auto max-w-5xl">
+      <div className="mx-auto max-w-6xl">
         <div className="text-center">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-white px-3 py-1 text-[11px] font-extrabold uppercase tracking-wider text-[#3982C8]"><MessageCircle className="h-3.5 w-3.5" />{t.badge}</span>
           <h2 className="mt-3 text-3xl font-extrabold text-[#172B4D] sm:text-4xl">{t.title}</h2>
           <p className="mx-auto mt-2 max-w-md text-sm text-[#647DA5]">{t.sub}</p>
         </div>
 
-        <div className="mt-8 grid items-stretch gap-6 lg:grid-cols-2">
-          <div className={`grid gap-3 ${list !== null && list.length === 0 ? '' : 'content-start'}`}>
-            {list !== null && list.length === 0 && (
-              <div className="flex h-full flex-col justify-center gap-6 rounded-3xl border border-[#D9E8F8] bg-white p-6 text-center shadow-[0_10px_30px_rgba(57,130,200,0.10)] sm:p-8">
+        <div className="mt-8 grid items-stretch gap-6 lg:grid-cols-[1.1fr_1fr] lg:gap-8">
+          <div className="flex flex-col rounded-[2rem] border border-[#D9E8F8] bg-white p-5 shadow-[0_10px_30px_rgba(57,130,200,0.10)] sm:p-6">
+            {list !== null && list.length === 0 ? (
+              <div className="flex flex-1 flex-col justify-center gap-6 py-4 text-center">
                 <div>
                   <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#E4F1FF] text-[#3982C8]"><MessageCircle className="h-8 w-8" /></span>
                   <p className="mt-4 text-xl font-extrabold text-[#172B4D]">{t.emptyTitle}</p>
                 </div>
-                <ul className="grid gap-2.5 border-t border-[#D9E8F8] pt-5 text-left sm:grid-cols-1">
+                <ul className="grid gap-2.5 border-t border-[#D9E8F8] pt-5 text-left">
                   {[ShieldCheck, UserRound, Heart].map((Icon, i) => (
                     <li key={i} className="flex items-center gap-2.5 text-xs font-semibold text-[#647DA5]"><span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#E4F1FF] text-[#3982C8]"><Icon className="h-3.5 w-3.5" /></span>{t.perks[i]}</li>
                   ))}
                 </ul>
               </div>
-            )}
-            {list !== null && list.length > 0 && (
-              <div className="flex items-center justify-between rounded-2xl bg-white/70 px-4 py-3">
-                <p className="text-sm font-extrabold text-[#17366F]">{t.count(list.length)}</p>
-                {rated.length > 0 && (
-                  <p className="flex items-center gap-1.5 text-sm font-extrabold text-[#17366F]"><Star className="h-4 w-4 fill-[#E73578] text-[#E73578]" />{avg.toFixed(1)} <span className="text-xs font-semibold text-[#647DA5]">{t.avg}</span></p>
-                )}
-              </div>
-            )}
-            {demo && <p className="rounded-xl bg-[#FDE8F0] px-3 py-2 text-center text-xs font-bold text-[#E73578]">{t.demoNote}</p>}
-            {list !== null && list.length > 0 && (
-              list.length >= 3 ? (
-                <div className="comments-ticker relative h-[400px] overflow-hidden" style={{ maskImage: 'linear-gradient(to bottom, transparent, #000 8%, #000 92%, transparent)', WebkitMaskImage: 'linear-gradient(to bottom, transparent, #000 8%, #000 92%, transparent)' }}>
-                  <div className="comments-ticker-track grid" style={{ animationDuration: `${Math.max(1, Math.ceil(5 / list.length)) * list.length * 6}s` }}>
-                    {[0, 1].map((copy) => (
-                      <div key={copy} className="grid content-start gap-3 pb-3" aria-hidden={copy === 1 ? true : undefined}>
-                        {Array.from({ length: Math.max(1, Math.ceil(5 / list.length)) }).flatMap((_, rep) => list.map((c) => renderCard(c, `${copy}-${rep}-${c.id}`)))}
+            ) : (
+              <>
+                {list !== null && (
+                  <div className="flex flex-wrap items-center gap-x-5 gap-y-3 border-b border-[#D9E8F8] pb-4">
+                    {rated.length > 0 && (
+                      <div className="flex items-center gap-3">
+                        <span className="text-4xl font-extrabold leading-none text-[#172B4D]">{avg.toFixed(1)}</span>
+                        <div>
+                          <span className="flex">{[1, 2, 3, 4, 5].map((n) => <Star key={n} className={`h-4 w-4 ${n <= Math.round(avg) ? 'fill-[#E73578] text-[#E73578]' : 'text-[#D9E8F8]'}`} />)}</span>
+                          <p className="mt-0.5 text-xs font-bold text-[#647DA5]">{t.count(list.length)}</p>
+                        </div>
                       </div>
-                    ))}
+                    )}
+                    <div className="flex flex-wrap gap-2 sm:ml-auto">
+                      <span className="inline-flex items-center gap-1.5 rounded-full bg-[#E4F1FF] px-3 py-1 text-[11px] font-bold text-[#3982C8]"><ShieldCheck className="h-3.5 w-3.5" />{t.perks[0]}</span>
+                      <span className="inline-flex items-center gap-1.5 rounded-full bg-[#E4F1FF] px-3 py-1 text-[11px] font-bold text-[#3982C8]"><Globe className="h-3.5 w-3.5" />{t.chipTranslate}</span>
+                    </div>
                   </div>
-                </div>
-              ) : (
-                list.map((c) => renderCard(c, String(c.id)))
-              )
+                )}
+                {demo && <p className="mt-3 rounded-xl bg-[#FDE8F0] px-3 py-2 text-center text-xs font-bold text-[#E73578]">{t.demoNote}</p>}
+                {list !== null && list.length > 0 && (
+                  list.length >= 3 ? (
+                    <div className="comments-ticker relative mt-4 h-[380px] flex-none overflow-hidden lg:h-auto lg:min-h-[380px] lg:flex-1" style={{ maskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)', WebkitMaskImage: 'linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent)' }}>
+                      <div className="comments-ticker-track absolute inset-x-0 top-0 grid" style={{ ['--dur' as string]: `${Math.max(1, Math.ceil(5 / list.length)) * list.length * 6}s` } as React.CSSProperties}>
+                        {[0, 1].map((copy) => (
+                          <div key={copy} className="grid content-start gap-3 pb-3" aria-hidden={copy === 1 ? true : undefined}>
+                            {Array.from({ length: Math.max(1, Math.ceil(5 / list.length)) }).flatMap((_, rep) => list.map((c) => renderCard(c, `${copy}-${rep}-${c.id}`)))}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="mt-4 grid gap-3">{list.map((c) => renderCard(c, String(c.id)))}</div>
+                  )
+                )}
+              </>
             )}
           </div>
 

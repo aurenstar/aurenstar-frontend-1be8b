@@ -214,14 +214,13 @@ html {
   .listen-active { animation: none; }
 }
 
-/* Comments: a slow vertical ticker, new ones glide in from the top. Never stops, except for people who prefer less motion. */
+/* Comments: a slow vertical ticker, new ones glide in from the top. Never stops (the owner wants it always on). */
 @keyframes commentsDown {
   from { transform: translateY(-50%); }
   to { transform: translateY(0); }
 }
-.comments-ticker-track { animation: commentsDown 30s linear infinite; will-change: transform; }
+.comments-ticker-track { animation: commentsDown var(--dur, 30s) linear infinite; will-change: transform; }
+/* The site-wide "reduce motion" rule would freeze it; the owner asked for it to always run. */
 @media (prefers-reduced-motion: reduce) {
-  .comments-ticker { overflow-y: auto; }
-  .comments-ticker-track { animation: none; }
-  .comments-ticker-track > :nth-child(2) { display: none; }
+  .comments-ticker .comments-ticker-track { animation-duration: var(--dur, 30s) !important; animation-iteration-count: infinite !important; }
 }

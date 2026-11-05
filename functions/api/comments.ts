@@ -3,6 +3,7 @@
 import { countHit, listComments, recordComment, usageKey, type UsageEnv } from '../../server/engine/usage';
 import { humanCheck, humanCheckFailed } from '../../server/engine/turnstile';
 import { translateStrings, type TranslateEnv } from '../../server/engine/translateStrings';
+import { moderateComment, statusFor } from '../../server/engine/moderateComment';
 import { isTranslatedLanguage } from '../../src/utils/urlLang';
 
 const json = (data: unknown, status = 200, cache = 'no-store') =>
@@ -43,6 +44,21 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: U
   // Country comes from the network (Cloudflare header), only the 2-letter code is kept, never the address itself.
   const cc = (request.headers.get('CF-IPCountry') || '').toUpperCase();
   const country = /^[A-Z]{2}$/.test(cc) && cc !== 'XX' && cc !== 'T1' ? cc : '';
-  const saved = await recordComment(env, { name, message, stars: stars >= 1 && stars <= 5 ? Math.round(stars) : 0, sign: String(b.sign || '').slice(0, 20), lang, country });
+  const entry = { name, message, stars: stars >= 1 && stars <= 5 ? Math.round(stars) : 0, sign: String(b.sign || '').slice(0, 20), lang, country };
+  // AI moderation: approve / hide / leave pending. Needs the database secret key (to choose the status); without it the comment stays pending.
+  const e = env as UsageEnv & { SUPABASE_SERVICE_KEY?: string; OPENAI_API_KEY?: string; OPENAI_MODEL?: string };
+  if (e.SUPABASE_SERVICE_KEY && e.OPENAI_API_KEY) {
+    const m = await moderateComment(e, entry);
+    try {
+      const base = (e.SUPABASE_URL || 'https://bnetpqdpeufookvvsnaj.supabase.co').replace(/\/$/, '');
+      const res = await fetch(`${base}/rest/v1/site_comments`, {
+        method: 'POST',
+        headers: { apikey: e.SUPABASE_SERVICE_KEY, Authorization: `Bearer ${e.SUPABASE_SERVICE_KEY}`, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
+        body: JSON.stringify({ name: entry.name, message: entry.message, stars: entry.stars || null, sign: entry.sign, lang: entry.lang, country: country || null, status: statusFor(m.verdict), moderated_by: 'ai', moderation_note: m.reason, moderated_at: new Date().toISOString() }),
+      });
+      if (res.ok) return json({ ok: true });
+    } catch { /* falls back to the normal (pending) save below */ }
+  }
+  const saved = await recordComment(env, entry);
   return saved ? json({ ok: true }) : json({ ok: false, reason: 'unavailable' }, 502);
 };

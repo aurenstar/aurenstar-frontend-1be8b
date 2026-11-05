@@ -5,7 +5,7 @@ import { useCallback, useEffect, useState } from 'react';
  * Not linked anywhere, not indexed, and every action needs the password that the owner set in Cloudflare.
  */
 type Status = 'pending' | 'approved' | 'hidden';
-interface Row { id: number; name: string; message: string; stars: number | null; sign: string; lang: string; country?: string | null; status: Status; created_at: string }
+interface Row { id: number; name: string; message: string; stars: number | null; sign: string; lang: string; country?: string | null; moderated_by?: string | null; moderation_note?: string | null; status: Status; created_at: string }
 
 const KEY = 'aurenstar_admin_pw';
 const TABS: { id: Status; label: string }[] = [
@@ -150,6 +150,11 @@ export function AdminPage({ onBackToHome }: { onBackToHome: () => void }) {
                     <span>{new Date(r.created_at).toLocaleString('pt-BR')}</span>
                   </div>
                   <p className="mt-2 whitespace-pre-wrap break-words text-sm leading-relaxed">{r.message}</p>
+                  {r.moderated_by === 'ai' && (
+                    <p className="mt-2 rounded-lg bg-[#E4F1FF] px-3 py-1.5 text-xs font-bold text-[#3982C8]">
+                      🤖 IA: {r.status === 'approved' ? 'publicou' : r.status === 'hidden' ? 'escondeu' : 'deixou para você decidir'}{r.moderation_note ? ` — ${r.moderation_note}` : ''}
+                    </p>
+                  )}
                   <div className="mt-3 flex flex-wrap gap-2">
                     {r.status !== 'approved' && (
                       <button type="button" disabled={busy} onClick={() => setStatus(r.id, 'approved')} className="rounded-full bg-[#3982C8] px-4 py-2 text-xs font-extrabold text-white hover:bg-[#17366F] disabled:opacity-60">
