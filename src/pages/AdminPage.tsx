@@ -81,11 +81,18 @@ export function AdminPage({ onBackToHome }: { onBackToHome: () => void }) {
     if (data.ok) setReport({ csv: data.csv, count: data.count, files: data.files || [] });
     else setError('Não consegui preparar o relatório. Tente de novo.');
   };
-  const downloadCsv = (csv: string) => {
+  const downloadEmails = async (list: 'tshirts' | 'newsletter') => {
+    setBusy(true);
+    const { data } = await api({ password, action: 'emails' });
+    setBusy(false);
+    if (data.ok) downloadCsv(data[list].csv, list === 'tshirts' ? 'emails-camisetas' : 'emails-newsletter');
+    else setError('Não consegui preparar os e-mails. Tente de novo.');
+  };
+  const downloadCsv = (csv: string, base = 'comentarios-aurenstar') => {
     const url = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
     const a = document.createElement('a');
     a.href = url;
-    a.download = `comentarios-aurenstar-${new Date().toISOString().slice(0, 10)}.csv`;
+    a.download = `${base}-${new Date().toISOString().slice(0, 10)}.csv`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -138,9 +145,17 @@ export function AdminPage({ onBackToHome }: { onBackToHome: () => void }) {
         {rows && (
           <>
             {emails && (
-              <p className="mt-4 rounded-xl bg-white/70 px-4 py-2 text-xs font-bold text-[#647DA5] sm:text-sm">
-                📧 E-mails guardados: {emails.tshirts} do cupom de camisetas · {emails.newsletter} da newsletter
-              </p>
+              <div className="mt-4 rounded-xl bg-white/70 px-4 py-3 text-xs font-bold text-[#647DA5] sm:text-sm">
+                <p>📧 E-mails guardados (quem saiu da lista não conta):</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  <button type="button" disabled={busy} onClick={() => void downloadEmails('tshirts')} className="rounded-full border border-[#D9E8F8] bg-white px-4 py-2 font-extrabold text-[#3982C8] hover:bg-[#E4F1FF] disabled:opacity-60">
+                    ⬇️ Camisetas ({emails.tshirts})
+                  </button>
+                  <button type="button" disabled={busy} onClick={() => void downloadEmails('newsletter')} className="rounded-full border border-[#D9E8F8] bg-white px-4 py-2 font-extrabold text-[#3982C8] hover:bg-[#E4F1FF] disabled:opacity-60">
+                    ⬇️ Newsletter ({emails.newsletter})
+                  </button>
+                </div>
+              </div>
             )}
             <div className="mt-5 flex gap-2">
               {TABS.map((t) => (

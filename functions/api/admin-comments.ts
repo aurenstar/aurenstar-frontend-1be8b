@@ -2,6 +2,7 @@
 //   { password, action: 'list' }                         -> every comment (pending, approved, hidden) + e-mail counts
 //   { password, action: 'set', id, status }              -> status = 'approved' | 'hidden' | 'pending'
 //   { password, action: 'report' }                       -> CSV of the comments + links to the monthly archive files
+//   { password, action: 'emails' }                       -> two CSVs: tshirts list and newsletter list
 // Protected by two secrets that the owner adds in Cloudflare (never in the code):
 //   ADMIN_PASSWORD       the password typed on the /admin page
 //   SUPABASE_SERVICE_KEY the database "secret key" (lets the server read comments that are still pending)
@@ -50,6 +51,21 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: A
     if (!Number.isInteger(id) || id < 1 || !['approved', 'hidden', 'pending'].includes(status)) return json({ ok: false }, 400);
     const res = await fetch(`${base}/rest/v1/site_comments?id=eq.${id}`, { method: 'PATCH', headers: { ...headers, Prefer: 'return=minimal' }, body: JSON.stringify({ status, moderated_by: 'owner', moderation_note: null, moderated_at: new Date().toISOString() }) });
     return res.ok ? json({ ok: true }) : json({ ok: false, reason: 'database' }, 502);
+  }
+
+  if (b.action === 'emails') {
+    // One CSV per list; only people who did not unsubscribe.
+    const cols = ['email', 'sign', 'lang', 'source', 'created_at', 'consent_at'];
+    const cell = (v: unknown) => { const s = v === null || v === undefined ? '' : String(v); return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
+    const build = async (list: string): Promise<{ csv: string; count: number } | null> => {
+      const r = await fetch(`${base}/rest/v1/email_list?select=${cols.join(',')}&list=eq.${list}&unsubscribed_at=is.null&order=created_at.asc&limit=50000`, { headers });
+      if (!r.ok) return null;
+      const rows = (await r.json()) as Record<string, unknown>[];
+      return { csv: '﻿' + [cols.join(','), ...rows.map((x) => cols.map((c) => cell(x[c])).join(','))].join('\n') + '\n', count: rows.length };
+    };
+    const [tshirts, newsletter] = await Promise.all([build('tshirts'), build('newsletter')]);
+    if (!tshirts || !newsletter) return json({ ok: false, reason: 'database' }, 502);
+    return json({ ok: true, tshirts, newsletter });
   }
 
   if (b.action === 'report') {
