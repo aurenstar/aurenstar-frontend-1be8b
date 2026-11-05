@@ -8,6 +8,10 @@ type Status = 'pending' | 'approved' | 'hidden';
 interface Row { id: number; name: string; message: string; stars: number | null; sign: string; lang: string; country?: string | null; moderated_by?: string | null; moderation_note?: string | null; status: Status; created_at: string }
 
 const KEY = 'aurenstar_admin_pw';
+const AI_PROMPT =
+  'Anexei uma planilha com comentários reais de visitantes do site Aurenstar (colunas: data, país, idioma, estrelas, signo, nome, mensagem). ' +
+  'Leia tudo e me diga, em português simples: 1) o que as pessoas mais elogiam; 2) as reclamações e dificuldades; 3) pedidos de novas ferramentas ou melhorias; ' +
+  '4) diferenças por país ou idioma; 5) as 5 melhorias mais importantes para eu fazer primeiro no site. Ignore spam.';
 const TABS: { id: Status; label: string }[] = [
   { id: 'pending', label: 'Esperando' },
   { id: 'approved', label: 'Publicados' },
@@ -32,6 +36,8 @@ export function AdminPage({ onBackToHome }: { onBackToHome: () => void }) {
   const [error, setError] = useState('');
   const [missing, setMissing] = useState<string[]>([]);
   const [busy, setBusy] = useState(false);
+  const [report, setReport] = useState<{ csv: string; count: number; files: { name: string; url: string }[] } | null>(null);
+  const [copied, setCopied] = useState(false);
 
   const load = useCallback(async (pw: string) => {
     setBusy(true);
@@ -65,6 +71,23 @@ export function AdminPage({ onBackToHome }: { onBackToHome: () => void }) {
     setBusy(false);
     if (data.ok) setRows((r) => r && r.map((x) => (x.id === id ? { ...x, status } : x)));
     else setError('Não deu certo. Tente de novo.');
+  };
+
+  const makeReport = async () => {
+    setBusy(true);
+    setCopied(false);
+    const { data } = await api({ password, action: 'report' });
+    setBusy(false);
+    if (data.ok) setReport({ csv: data.csv, count: data.count, files: data.files || [] });
+    else setError('Não consegui preparar o relatório. Tente de novo.');
+  };
+  const downloadCsv = (csv: string) => {
+    const url = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `comentarios-aurenstar-${new Date().toISOString().slice(0, 10)}.csv`;
+    a.click();
+    URL.revokeObjectURL(url);
   };
 
   const shown = (rows || []).filter((r) => r.status === tab);
@@ -170,6 +193,32 @@ export function AdminPage({ onBackToHome }: { onBackToHome: () => void }) {
                 </article>
               ))}
             </div>
+
+            <section className="mt-6 rounded-2xl border border-[#D9E8F8] bg-white p-4 sm:p-5">
+              <p className="text-sm font-extrabold">📥 Relatório para a IA analisar</p>
+              <p className="mt-1 text-xs leading-relaxed text-[#647DA5]">
+                Todo mês os comentários antigos viram uma planilha guardada fora do banco (não pesa nada). Aqui você baixa tudo para mandar a uma IA ver o que as pessoas pensam.
+              </p>
+              <button type="button" disabled={busy} onClick={() => void makeReport()} className="mt-3 rounded-full bg-[#E73578] px-4 py-2 text-xs font-extrabold text-white hover:bg-[#D0306C] disabled:opacity-60">
+                Preparar relatório
+              </button>
+              {report && (
+                <div className="mt-3 space-y-2 text-xs">
+                  <button type="button" onClick={() => downloadCsv(report.csv)} className="block rounded-full border border-[#D9E8F8] bg-[#F4F9FF] px-4 py-2 font-extrabold text-[#3982C8] hover:bg-[#E4F1FF]">
+                    ⬇️ Baixar comentários de agora ({report.count})
+                  </button>
+                  {report.files.map((f) => (
+                    <a key={f.name} href={f.url} className="block rounded-full border border-[#D9E8F8] bg-[#F4F9FF] px-4 py-2 font-extrabold text-[#3982C8] hover:bg-[#E4F1FF]">
+                      ⬇️ Arquivo guardado: {f.name}
+                    </a>
+                  ))}
+                  {report.files.length === 0 && <p className="text-[#647DA5]">Ainda não há arquivos mensais (o primeiro nasce quando existirem comentários com mais de 30 dias).</p>}
+                  <button type="button" onClick={() => { void navigator.clipboard?.writeText(AI_PROMPT); setCopied(true); }} className="block rounded-full border border-[#D9E8F8] bg-white px-4 py-2 font-extrabold text-[#647DA5] hover:text-[#172B4D]">
+                    {copied ? '✅ Pedido copiado!' : '📋 Copiar o pedido pronto para colar na IA'}
+                  </button>
+                </div>
+              )}
+            </section>
 
             <div className="mt-6 flex gap-4 text-xs font-bold text-[#647DA5]">
               <button type="button" onClick={() => void load(password)} className="hover:text-[#172B4D]">↻ Atualizar</button>

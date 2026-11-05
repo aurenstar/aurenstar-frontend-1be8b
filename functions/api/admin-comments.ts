@@ -1,6 +1,7 @@
 // Cloudflare Pages Function -> POST /api/admin-comments   (owner only)
 //   { password, action: 'list' }                         -> every comment (pending, approved, hidden) + e-mail counts
 //   { password, action: 'set', id, status }              -> status = 'approved' | 'hidden' | 'pending'
+//   { password, action: 'report' }                       -> CSV of the comments + links to the monthly archive files
 // Protected by two secrets that the owner adds in Cloudflare (never in the code):
 //   ADMIN_PASSWORD       the password typed on the /admin page
 //   SUPABASE_SERVICE_KEY the database "secret key" (lets the server read comments that are still pending)
@@ -49,6 +50,28 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: A
     if (!Number.isInteger(id) || id < 1 || !['approved', 'hidden', 'pending'].includes(status)) return json({ ok: false }, 400);
     const res = await fetch(`${base}/rest/v1/site_comments?id=eq.${id}`, { method: 'PATCH', headers: { ...headers, Prefer: 'return=minimal' }, body: JSON.stringify({ status, moderated_by: 'owner', moderation_note: null, moderated_at: new Date().toISOString() }) });
     return res.ok ? json({ ok: true }) : json({ ok: false, reason: 'database' }, 502);
+  }
+
+  if (b.action === 'report') {
+    // 1) comments still in the database as CSV text, 2) monthly archive files (private) with a 1-hour download link.
+    const cols = ['id', 'created_at', 'country', 'lang', 'stars', 'sign', 'status', 'moderated_by', 'moderation_note', 'name', 'message'];
+    const cell = (v: unknown) => { const s = v === null || v === undefined ? '' : String(v); return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
+    const r = await fetch(`${base}/rest/v1/site_comments?select=${cols.join(',')}&status=in.(approved,pending)&order=created_at.desc&limit=5000`, { headers });
+    if (!r.ok) return json({ ok: false, reason: 'database' }, 502);
+    const rows = (await r.json()) as Record<string, unknown>[];
+    const csv = '﻿' + [cols.join(','), ...rows.map((x) => cols.map((c) => cell(x[c])).join(','))].join('\n') + '\n';
+    const files: { name: string; url: string }[] = [];
+    try {
+      const l = await fetch(`${base}/storage/v1/object/list/feedback-archive`, { method: 'POST', headers, body: JSON.stringify({ prefix: 'comments', limit: 200, sortBy: { column: 'name', order: 'desc' } }) });
+      const list = l.ok ? ((await l.json()) as { name: string }[]) : [];
+      for (const f of list.filter((x) => x.name.endsWith('.csv'))) {
+        const s = await fetch(`${base}/storage/v1/object/sign/feedback-archive/comments/${encodeURIComponent(f.name)}`, { method: 'POST', headers, body: JSON.stringify({ expiresIn: 3600 }) });
+        if (!s.ok) continue;
+        const { signedURL } = (await s.json()) as { signedURL: string };
+        files.push({ name: f.name, url: `${base}/storage/v1${signedURL}` });
+      }
+    } catch { /* archive list is optional */ }
+    return json({ ok: true, csv, count: rows.length, files });
   }
 
   const count = async (list: string): Promise<number> => {
