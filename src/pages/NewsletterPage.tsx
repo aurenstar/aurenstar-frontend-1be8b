@@ -390,7 +390,7 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
         </div>
 
         {/* Separate from the newsletter: the t-shirt coupon list */}
-        <div className="mt-12"><TshirtCapture source="newsletter_page" /></div>
+        <div className="mx-auto mt-10 w-full max-w-3xl"><TshirtCapture source="newsletter_page" variant="mini" flush /></div>
       </div>
     </div>
   );
