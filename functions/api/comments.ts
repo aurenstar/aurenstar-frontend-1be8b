@@ -23,6 +23,9 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: U
   const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
   const day = new Date().toISOString().slice(0, 10);
   if ((await countHit(env, await usageKey(env, ['comment-ip', day, ip]), 24 * 3600)) > 3) return json({ ok: false, reason: 'limit' }, 429);
-  const saved = await recordComment(env, { name, message, stars: stars >= 1 && stars <= 5 ? Math.round(stars) : 0, sign: String(b.sign || '').slice(0, 20), lang });
+  // Country comes from the network (Cloudflare header), only the 2-letter code is kept, never the address itself.
+  const cc = (request.headers.get('CF-IPCountry') || '').toUpperCase();
+  const country = /^[A-Z]{2}$/.test(cc) && cc !== 'XX' && cc !== 'T1' ? cc : '';
+  const saved = await recordComment(env, { name, message, stars: stars >= 1 && stars <= 5 ? Math.round(stars) : 0, sign: String(b.sign || '').slice(0, 20), lang, country });
   return saved ? json({ ok: true }) : json({ ok: false, reason: 'unavailable' }, 502);
 };

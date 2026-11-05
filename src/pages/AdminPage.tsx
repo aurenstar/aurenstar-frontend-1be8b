@@ -5,7 +5,7 @@ import { useCallback, useEffect, useState } from 'react';
  * Not linked anywhere, not indexed, and every action needs the password that the owner set in Cloudflare.
  */
 type Status = 'pending' | 'approved' | 'hidden';
-interface Row { id: number; name: string; message: string; stars: number | null; sign: string; lang: string; status: Status; created_at: string }
+interface Row { id: number; name: string; message: string; stars: number | null; sign: string; lang: string; country?: string | null; status: Status; created_at: string }
 
 const KEY = 'aurenstar_admin_pw';
 const TABS: { id: Status; label: string }[] = [
@@ -146,6 +146,7 @@ export function AdminPage({ onBackToHome }: { onBackToHome: () => void }) {
                     {r.stars ? <span className="text-[#E73578]">{'★'.repeat(r.stars)}{'☆'.repeat(5 - r.stars)}</span> : null}
                     {r.sign && <span>{r.sign}</span>}
                     <span className="uppercase">{r.lang}</span>
+                    {r.country && <img src={`/flags/${r.country.toLowerCase()}.svg`} alt={r.country} title={r.country} className="h-3.5 w-5 rounded-[2px] object-cover" />}
                     <span>{new Date(r.created_at).toLocaleString('pt-BR')}</span>
                   </div>
                   <p className="mt-2 whitespace-pre-wrap break-words text-sm leading-relaxed">{r.message}</p>

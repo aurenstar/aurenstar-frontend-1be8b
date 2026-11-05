@@ -93,12 +93,12 @@ export async function countSubscribers(env: UsageEnv): Promise<number | null> {
 }
 
 /** Saves a visitor comment as "pending" (it only shows on the site after the owner approves it). */
-export async function recordComment(env: UsageEnv, c: { name: string; message: string; stars: number; sign: string; lang: string }): Promise<boolean> {
-  const r = await call<boolean>(env, 'comment_add', { p_name: c.name, p_message: c.message, p_stars: c.stars, p_sign: c.sign, p_lang: c.lang });
+export async function recordComment(env: UsageEnv, c: { name: string; message: string; stars: number; sign: string; lang: string; country?: string }): Promise<boolean> {
+  const r = await call<boolean>(env, 'comment_add', { p_name: c.name, p_message: c.message, p_stars: c.stars, p_sign: c.sign, p_lang: c.lang, p_country: c.country || null });
   return r === true;
 }
 
-export interface PublicComment { id: number; name: string; message: string; stars: number | null; sign: string; created_at: string }
+export interface PublicComment { id: number; name: string; message: string; stars: number | null; sign: string; created_at: string; country: string | null }
 export async function listComments(env: UsageEnv, limit = 20): Promise<PublicComment[]> {
   return (await call<PublicComment[]>(env, 'comments_list', { p_limit: limit })) ?? [];
 }

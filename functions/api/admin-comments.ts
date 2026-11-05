@@ -58,7 +58,7 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: A
     } catch { return 0; }
   };
   const [res, tshirts, newsletter] = await Promise.all([
-    fetch(`${base}/rest/v1/site_comments?select=id,name,message,stars,sign,lang,status,created_at&order=created_at.desc&limit=300`, { headers }),
+    fetch(`${base}/rest/v1/site_comments?select=id,name,message,stars,sign,lang,country,status,created_at&order=created_at.desc&limit=300`, { headers }),
     count('tshirts'),
     count('newsletter'),
   ]);

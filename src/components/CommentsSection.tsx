@@ -3,7 +3,7 @@ import { Check, Heart, MessageCircle, ShieldCheck, Star, UserRound } from 'lucid
 import { useLanguage } from '../context/LanguageContext';
 import { trackEvent } from '../utils/analytics';
 
-interface PublicComment { id: number; name: string; message: string; stars: number | null; sign: string }
+interface PublicComment { id: number; name: string; message: string; stars: number | null; sign: string; country?: string | null }
 
 const TEXT = {
   pt: {
@@ -100,7 +100,12 @@ export const CommentsSection: React.FC = () => {
               <article key={c.id} className="rounded-2xl border border-[#D9E8F8] bg-white p-4 shadow-sm">
                 <div className="flex items-center gap-3">
                   <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#3982C8] to-[#E73578] text-sm font-extrabold text-white">{(c.name || t.anon).charAt(0).toUpperCase()}</span>
-                  <p className="min-w-0 flex-1 truncate text-sm font-extrabold text-[#172B4D]">{c.name || t.anon}</p>
+                  <p className="flex min-w-0 flex-1 items-center gap-2 text-sm font-extrabold text-[#172B4D]">
+                    <span className="truncate">{c.name || t.anon}</span>
+                    {c.country && /^[A-Za-z]{2}$/.test(c.country) && (
+                      <img src={`/flags/${c.country.toLowerCase()}.svg`} alt={c.country.toUpperCase()} title={c.country.toUpperCase()} width={20} height={14} loading="lazy" className="h-3.5 w-5 shrink-0 rounded-[2px] object-cover shadow-[0_0_0_1px_rgba(23,43,77,0.12)]" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                    )}
+                  </p>
                   {c.stars ? <span className="flex" aria-label={`${c.stars}/5`}>{[1, 2, 3, 4, 5].map((n) => <Star key={n} className={`h-4 w-4 ${n <= c.stars! ? 'fill-[#E73578] text-[#E73578]' : 'text-[#D9E8F8]'}`} />)}</span> : null}
                 </div>
                 <p className="mt-2.5 whitespace-pre-line break-words text-sm leading-relaxed text-[#172B4D]">{c.message}</p>
