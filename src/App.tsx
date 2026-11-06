@@ -88,7 +88,7 @@ export default function App() {
     if (booted.current) startTransition(() => setCurrentPageNow(p));
     else setCurrentPageNow(p);
   }, []);
-  const [currentArticleId, setCurrentArticleId] = useState<string>('post-1');
+  const [currentArticleId, setCurrentArticleId] = useState<string>('');
   const [currentTermSlug, setCurrentTermSlug] = useState<string>('what-is-mercury-retrograde');
   const [selectedSign, setSelectedSign] = useState<string | null>(null);
   // Blog category shown on /blog ('ALL') or /blog/categoria/<slug>
@@ -113,7 +113,7 @@ export default function App() {
           .split('?')[0];
         // Public URLs use a keyword slug; legacy id URLs (/blog/post-1) still resolve.
         const found = findArticleByParam(rawParam);
-        setCurrentArticleId(found?.id ?? (rawParam || 'post-1'));
+        setCurrentArticleId(found?.id ?? rawParam);
         setCurrentPage('article');
         if (found && path.startsWith('/blog/') && rawParam !== getArticleSlugById(found.id)) {
           window.history.replaceState(window.history.state, '', `/blog/${getArticleSlugById(found.id)}`);

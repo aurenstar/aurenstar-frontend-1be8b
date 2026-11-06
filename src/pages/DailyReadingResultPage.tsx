@@ -66,7 +66,7 @@ export const DailyReadingResultPage: React.FC<DailyReadingResultPageProps> = ({
     message:
       'Gêmeos tem uma mente ágil e curiosa que adora aprender coisas novas. Hoje, uma conversa simples ou uma ideia diferente pode abrir portas no seu dia. Confie no seu bom humor e na sua capacidade de fazer amigos por onde passa.',
     advice: 'Mande uma mensagem carinhosa para uma pessoa que você não fala faz tempo.',
-    articleId: 'post-gemeos',
+    articleId: 'wp-442',
     generatedDate: new Date().toISOString().split('T')[0],
   };
 

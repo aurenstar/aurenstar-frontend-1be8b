@@ -28,7 +28,7 @@ export const SIGNS_DATA: Record<string, SignInfo> = {
       en: 'Take deep breaths before quick choices and celebrate your small steps peacefully.',
       es: 'Respira profundo antes de decidir y disfruta de tus logros con calma.',
     },
-    articleId: 'post-aries',
+    articleId: 'wp-1338',
   },
   touro: {
     key: 'touro',
@@ -47,7 +47,7 @@ export const SIGNS_DATA: Record<string, SignInfo> = {
       en: 'Honor your steady pace: the finest things in life need time to blossom.',
       es: 'Respeta tu ritmo natural: las cosas más hermosas florecen con paciencia.',
     },
-    articleId: 'post-touro',
+    articleId: 'wp-1296',
   },
   gemeos: {
     key: 'gemeos',
@@ -66,7 +66,7 @@ export const SIGNS_DATA: Record<string, SignInfo> = {
       en: 'Take quiet breath breaks every day to recharge your vibrant imagination.',
       es: 'Regálate pausas de silencio a diario para renovar tu mente creativa.',
     },
-    articleId: 'post-gemeos',
+    articleId: 'wp-442',
   },
   cancer: {
     key: 'cancer',
@@ -85,7 +85,7 @@ export const SIGNS_DATA: Record<string, SignInfo> = {
       en: 'Remember to nurture yourself with the exact same warmth you offer to others.',
       es: 'Cuida de ti mismo con la misma ternura que entregas a quienes amas.',
     },
-    articleId: 'post-cancer',
+    articleId: 'wp-1319',
   },
   leao: {
     key: 'leao',
@@ -104,7 +104,7 @@ export const SIGNS_DATA: Record<string, SignInfo> = {
       en: 'Your true light shines brightest when you lead with gentle humility.',
       es: 'Tu luz es más hermosa cuando compartes tus éxitos con humildad.',
     },
-    articleId: 'post-leao',
+    articleId: 'wp-653',
   },
   virgem: {
     key: 'virgem',
@@ -123,7 +123,7 @@ export const SIGNS_DATA: Record<string, SignInfo> = {
       en: 'Release the pressure for perfection: done with kindness is truly enough.',
       es: 'No te exijas perfección: hacer las cosas con amor vale mucho más.',
     },
-    articleId: 'post-virgem',
+    articleId: 'wp-654',
   },
   libra: {
     key: 'libra',
@@ -142,7 +142,7 @@ export const SIGNS_DATA: Record<string, SignInfo> = {
       en: 'When choosing a path, trust the first feeling of inner peace in your heart.',
       es: 'Al tomar decisiones, confía en el primer sentimiento de calma en tu corazón.',
     },
-    articleId: 'post-libra',
+    articleId: 'wp-655',
   },
   escorpiao: {
     key: 'escorpiao',
@@ -161,7 +161,7 @@ export const SIGNS_DATA: Record<string, SignInfo> = {
       en: 'Practice letting go of old hurts to make welcoming room for fresh blessings.',
       es: 'Suelta cargas pasadas para recibir todo lo bueno que viene a tu vida.',
     },
-    articleId: 'post-escorpiao',
+    articleId: 'wp-656',
   },
   sagitario: {
     key: 'sagitario',
@@ -180,7 +180,7 @@ export const SIGNS_DATA: Record<string, SignInfo> = {
       en: 'Keep your hope for tomorrow, while savoring the beauty of today.',
       es: 'Confía en el futuro mientras disfrutas de cada bendición de hoy.',
     },
-    articleId: 'post-sagitario',
+    articleId: 'wp-657',
   },
   capricornio: {
     key: 'capricornio',
@@ -218,7 +218,7 @@ export const SIGNS_DATA: Record<string, SignInfo> = {
       en: 'Your unique spirit is your greatest gift: stay true to your values.',
       es: 'Tu originalidad es un regalo: sigue siendo tú mismo con orgullo.',
     },
-    articleId: 'post-aquario',
+    articleId: 'wp-658',
   },
   peixes: {
     key: 'peixes',
@@ -237,7 +237,7 @@ export const SIGNS_DATA: Record<string, SignInfo> = {
       en: 'Cherish peaceful music and quiet stillness to protect your gentle heart.',
       es: 'Cuida tus momentos de silencio y música suave para proteger tu paz.',
     },
-    articleId: 'post-peixes',
+    articleId: 'wp-659',
   },
 };
 

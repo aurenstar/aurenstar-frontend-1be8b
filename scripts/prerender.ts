@@ -18,6 +18,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { BLOG_ARTICLES } from '../src/data/blogArticles';
+import { REMOVED_ARTICLES } from '../src/data/removedArticles';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 import { hreflangLinks, langUrl } from '../server/engine/localizePage';
 import { URL_LANGUAGES } from '../src/utils/urlLang';
@@ -176,6 +177,16 @@ for (const article of BLOG_ARTICLES) {
   if (article.id !== getArticleSlug(article)) {
     redirects.push(`/blog/${article.id} /blog/${getArticleSlug(article)} 301`);
   }
+}
+
+// 2-removed. Placeholder articles that no longer exist: old id and keyword addresses (all languages) -> the real article, or the blog list
+for (const removed of REMOVED_ARTICLES) {
+  const replacement = removed.replacement ? BLOG_ARTICLES.find((a) => a.id === removed.replacement) : undefined;
+  if (removed.replacement && !replacement) throw new Error(`removed article ${removed.id}: replacement ${removed.replacement} not found`);
+  const to = replacement ? `/blog/${getArticleSlug(replacement)}` : '/blog';
+  redirects.push(`/blog/${removed.id} ${to} 301`);
+  redirects.push(`/blog/${removed.slug} ${to} 301`);
+  for (const l of URL_LANGUAGES) redirects.push(`/${l}/blog/${removed.slug} /${l}${to} 301`);
 }
 
 // 2a. Old WordPress addresses (blog.aurenstar.com/2026/10/19/<wp-slug>/) -> the same article on the new site.
