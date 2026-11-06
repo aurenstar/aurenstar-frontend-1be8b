@@ -1,4 +1,5 @@
 import { FEATURES } from '../data/features';
+import SendingLabel from './SendingLabel';
 import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { AurenstarLogo } from './AurenstarLogo';
@@ -334,9 +335,10 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 />
                 <button
                   type="submit"
-                  className="bg-[#3982C8] hover:bg-[#17366F] text-[#FFFFFF] text-xs sm:text-sm font-semibold px-3 sm:px-5 py-2.5 rounded-full transition-all duration-200 cursor-pointer shadow-sm hover:shadow flex items-center justify-center shrink-0 active:scale-95"
+                  disabled={sending}
+                  className="bg-[#3982C8] hover:bg-[#17366F] text-[#FFFFFF] text-xs sm:text-sm font-semibold px-3 sm:px-5 py-2.5 rounded-full transition-all duration-200 cursor-pointer shadow-sm hover:shadow flex items-center justify-center shrink-0 active:scale-95 disabled:cursor-wait disabled:opacity-80"
                 >
-                  {t.footer.subscribeBtn}
+                  {sending ? <SendingLabel lang={language} compact /> : t.footer.subscribeBtn}
                 </button>
               </div>
 

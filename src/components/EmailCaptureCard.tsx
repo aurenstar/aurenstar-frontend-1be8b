@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import SendingLabel from './SendingLabel';
 import { Check, Lock, Mail, Shirt } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { emailMessage } from '../utils/emailGuard';
@@ -126,7 +127,7 @@ export const EmailCaptureCard: React.FC<{ source: SubscribeSource; sign?: string
       </div>
       <div className="mt-4 flex flex-col gap-2.5 sm:flex-row">
         <input type="email" required value={email} onChange={onEmail} placeholder={t.placeholder} className={field} />
-        <button type="submit" disabled={state === 'sending' || nothingTicked} className={cta}>{state === 'sending' ? t.sending : `${t.cta} →`}</button>
+        <button type="submit" disabled={state === 'sending' || nothingTicked} className={cta}>{state === 'sending' ? <SendingLabel lang={lang} /> : `${t.cta} →`}</button>
       </div>
       {nothingTicked && email.trim() !== '' && <p className="mt-2 text-xs font-semibold text-[#647DA5]">{t.pick}</p>}
       <p className="mt-3 flex items-start gap-1.5 text-[11px] leading-snug text-[#647DA5]"><Lock className="mt-0.5 h-3 w-3 shrink-0" />{t.trust}</p>

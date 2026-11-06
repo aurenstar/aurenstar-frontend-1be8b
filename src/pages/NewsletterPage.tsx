@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SendingLabel from '../components/SendingLabel';
 import { subscribeEmail } from '../utils/subscribe';
 import { TshirtCapture } from '../components/TshirtCapture';
 import { NEWSLETTER_CONSENT } from '../data/subscribeConsent';
@@ -334,10 +335,10 @@ export const NewsletterPage: React.FC<NewsletterPageProps> = ({
               <div className="pt-2">
                 <button
                   type="submit"
-                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-[#E73578] hover:bg-[#D0306C] text-white text-sm font-bold shadow-lg shadow-[#E73578]/25 transition-all hover:scale-101 cursor-pointer"
+                  disabled={sending}
+                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-[#E73578] hover:bg-[#D0306C] text-white text-sm font-bold shadow-lg shadow-[#E73578]/25 transition-all hover:scale-101 cursor-pointer disabled:cursor-wait disabled:opacity-80 disabled:hover:scale-100"
                 >
-                  <Send className="w-4 h-4" />
-                  <span>{t.submitCta}</span>
+                  {sending ? <SendingLabel lang={lang} /> : (<><Send className="w-4 h-4" /><span>{t.submitCta}</span></>)}
                 </button>
                 <p className="text-center text-[11px] text-[#647DA5] mt-3">
                   {t.privacyNotice}
