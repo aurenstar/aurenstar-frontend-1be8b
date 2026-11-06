@@ -62,10 +62,21 @@ function init(choice: 'all' | 'essential'): boolean {
     allow_google_signals: false,
     allow_ad_personalization_signals: false,
   });
-  const script = document.createElement('script');
-  script.async = true;
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(MEASUREMENT_ID)}`;
-  document.head.appendChild(script);
+  // The measuring script is fetched only after the page has shown itself (or at the first touch/scroll/key, whichever comes first).
+  // Everything sent meanwhile waits in dataLayer and is delivered as soon as the script arrives, so no visit is lost.
+  const load = () => {
+    if (document.getElementById('ga-script')) return;
+    const script = document.createElement('script');
+    script.id = 'ga-script';
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(MEASUREMENT_ID)}`;
+    document.head.appendChild(script);
+  };
+  const events = ['pointerdown', 'keydown', 'scroll', 'touchstart'] as const;
+  const go = () => { events.forEach((ev) => window.removeEventListener(ev, go)); load(); };
+  events.forEach((ev) => window.addEventListener(ev, go, { once: true, passive: true }));
+  const later = () => { const idle = (window as any).requestIdleCallback as undefined | ((cb: () => void, o?: { timeout: number }) => void); if (idle) idle(go, { timeout: 3000 }); else setTimeout(go, 2500); };
+  if (document.readyState === 'complete') later(); else window.addEventListener('load', later, { once: true });
   initialized = true;
   return true;
 }
