@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import SendingLabel from './SendingLabel';
 import { Check, Lock, Shirt, Ticket } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { emailMessage } from '../utils/emailGuard';
@@ -88,7 +89,7 @@ export const TshirtCapture: React.FC<{ source: SubscribeSource; sign?: string; v
   const cta = 'shrink-0 cursor-pointer rounded-full bg-[#E73578] px-7 py-3.5 text-sm font-extrabold text-white shadow-lg shadow-[#E73578]/25 transition-all hover:scale-[1.03] hover:bg-[#D0306C] active:scale-95 disabled:opacity-60';
   const box = 'rounded-3xl border border-[#D9E8F8] bg-white shadow-[0_10px_30px_rgba(57,130,200,0.12)]';
   const onEmail = (e: React.ChangeEvent<HTMLInputElement>) => { setEmail(e.target.value); e.target.setCustomValidity(emailMessage(e.target.value, lang)); };
-  const ctaLabel = state === 'sending' ? t.sending : `${t.cta} →`;
+  const ctaLabel = state === 'sending' ? <SendingLabel lang={lang} /> : `${t.cta} →`;
   const consentRow = (
     <label className="flex cursor-pointer items-start gap-2.5 text-xs leading-snug text-[#17366F]">
       <input type="checkbox" required checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 h-4 w-4 shrink-0 cursor-pointer accent-[#E73578]" />
