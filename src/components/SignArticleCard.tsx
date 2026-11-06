@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { BLOG_ARTICLES } from '../data/blogArticles';
@@ -19,14 +19,34 @@ const plain = (v: string) => v.toLowerCase().normalize('NFD').replace(/[\u0300-\
 export const SignArticleCard: React.FC<{ sign?: string; tool: string; flush?: boolean }> = ({ sign, tool, flush = false }) => {
   const { language } = useLanguage();
   const lang = (language === 'pt' || language === 'es' ? language : 'en') as 'pt' | 'en' | 'es';
-  if (!sign) return null;
-  const key = plain(sign);
+  const key = sign ? plain(sign) : '';
   const info = Object.values(SIGNS_DATA).find((x) => x.key === key || plain(x.name.pt) === key || plain(x.name.en) === key || plain(x.name.es) === key);
-  const article = info && BLOG_ARTICLES.find((a) => a.id === info.articleId);
-  if (!info || !article) return null;
+  // Which article of this sign to show: the server picks the one people click AND keep reading most (testing all of them fairly at first).
+  // If it does not answer in time, the sign's usual article is shown, exactly as before.
+  const [pickedId, setPickedId] = useState<string | null>(null);
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    if (!info) return;
+    let alive = true;
+    const done = (id: string | null) => { if (alive) { setPickedId(id); setReady(true); } };
+    const timer = window.setTimeout(() => done(null), 1500);
+    fetch(`/api/reco?sign=${encodeURIComponent(info.key)}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => { window.clearTimeout(timer); done(typeof d?.article === 'string' ? d.article : null); })
+      .catch(() => { window.clearTimeout(timer); done(null); });
+    return () => { alive = false; window.clearTimeout(timer); };
+  }, [info?.key]);
+  if (!info || !ready) return null;
+  const article = BLOG_ARTICLES.find((a) => a.id === pickedId) || BLOG_ARTICLES.find((a) => a.id === info.articleId);
+  if (!article) return null;
   const url = `/blog/${getArticleSlugById(article.id)}`;
   const open = (e: React.MouseEvent) => {
     trackEvent('sign_article_click', { tool, sign: info.key });
+    try {
+      const body = JSON.stringify({ sign: info.key, article: article.id, kind: 'click' });
+      if (!navigator.sendBeacon?.('/api/reco', new Blob([body], { type: 'application/json' }))) fetch('/api/reco', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body, keepalive: true }).catch(() => {});
+      sessionStorage.setItem('aurenstar_reco', JSON.stringify({ sign: info.key, article: article.id, at: Date.now() }));
+    } catch { /* never block the click */ }
     if (!isPlainLeftClick(e)) return;
     e.preventDefault();
     window.history.pushState({ page: 'article', id: article.id }, '', url);
