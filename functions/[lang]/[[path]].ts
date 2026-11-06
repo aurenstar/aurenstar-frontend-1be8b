@@ -25,7 +25,16 @@ export const onRequest = async ({ request, env, params, next }: Context): Promis
     return Response.redirect(`${url.origin}/${lang}${url.search}`, 301);
   }
 
-  const asset = await env.ASSETS.fetch(new Request(new URL(pagePath, url).toString(), { headers: { Accept: 'text/html' } }));
+  // redirect: 'manual' -> an old address that has a redirect in _redirects (/blog/post-aries ...) is not served under the old
+  // address; the visitor and Google are sent on to the new one, keeping the language prefix (/pt/blog/old -> /pt/blog/new).
+  const asset = await env.ASSETS.fetch(new Request(new URL(pagePath, url).toString(), { headers: { Accept: 'text/html' }, redirect: 'manual' }));
+  if (asset.status >= 300 && asset.status < 400 && asset.headers.get('Location')) {
+    const target = new URL(asset.headers.get('Location') as string, url);
+    if (target.origin === url.origin) {
+      const path = target.pathname === `/${lang}` || target.pathname.startsWith(`/${lang}/`) ? target.pathname : `/${lang}${target.pathname === '/' ? '' : target.pathname}`;
+      return Response.redirect(`${url.origin}${path}${target.search || url.search}`, 301);
+    }
+  }
   const type = asset.headers.get('Content-Type') || '';
   if (!asset.ok || !type.includes('text/html')) return asset; // unknown address: real 404 as usual
 
