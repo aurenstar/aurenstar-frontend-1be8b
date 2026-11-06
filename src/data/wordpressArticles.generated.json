@@ -2021,9 +2021,9 @@
     },
     "categoryColor": "bg-[#3982C8] text-white",
     "readTime": {
-      "pt": "4 min de leitura",
-      "en": "4 min read",
-      "es": "4 min de lectura"
+      "pt": "2 min de leitura",
+      "en": "2 min read",
+      "es": "2 min de lectura"
     },
     "date": {
       "pt": "25 Set 2026",
@@ -2085,9 +2085,9 @@
             "es": "One day the conversation is effortless. Then the messages get shorter. The energy changes. Gemini seems elsewhere. You start wondering whether something happened."
           },
           {
-            "pt": "The important thing is that emotional distance does not always mean the same thing. Astrology can suggest themes, but it cannot tell you the reason behind one person’s silence. What follows are common possibilities, not a diagnosis.",
-            "en": "The important thing is that emotional distance does not always mean the same thing. Astrology can suggest themes, but it cannot tell you the reason behind one person’s silence. What follows are common possibilities, not a diagnosis.",
-            "es": "The important thing is that emotional distance does not always mean the same thing. Astrology can suggest themes, but it cannot tell you the reason behind one person’s silence. What follows are common possibilities, not a diagnosis."
+            "pt": "The important thing is that emotional distance does not always mean the same thing.",
+            "en": "The important thing is that emotional distance does not always mean the same thing.",
+            "es": "The important thing is that emotional distance does not always mean the same thing."
           }
         ]
       },
@@ -2133,9 +2133,9 @@
             "es": "When every quiet moment becomes suspicious or every decision needs an explanation, closeness can start feeling like pressure."
           },
           {
-            "pt": "In that situation, pulling back can become a way to protect a sense of autonomy. Picture Rafa, who stops answering right away because his partner asks “where are you?” every evening. The more he is asked, the less he wants to reply.",
-            "en": "In that situation, pulling back can become a way to protect a sense of autonomy. Picture Rafa, who stops answering right away because his partner asks “where are you?” every evening. The more he is asked, the less he wants to reply.",
-            "es": "In that situation, pulling back can become a way to protect a sense of autonomy. Picture Rafa, who stops answering right away because his partner asks “where are you?” every evening. The more he is asked, the less he wants to reply."
+            "pt": "In that situation, pulling back can become a way to protect a sense of autonomy.",
+            "en": "In that situation, pulling back can become a way to protect a sense of autonomy.",
+            "es": "In that situation, pulling back can become a way to protect a sense of autonomy."
           }
         ]
       },
@@ -2157,9 +2157,14 @@
             "es": "They can need time to figure out what they actually feel before they are ready to explain it clearly."
           },
           {
-            "pt": "From the outside, that can look like indifference. Inside, there may be a lot of thought happening.",
-            "en": "From the outside, that can look like indifference. Inside, there may be a lot of thought happening.",
-            "es": "From the outside, that can look like indifference. Inside, there may be a lot of thought happening."
+            "pt": "From the outside, that can look like indifference.",
+            "en": "From the outside, that can look like indifference.",
+            "es": "From the outside, that can look like indifference."
+          },
+          {
+            "pt": "Inside, there may be a lot of thought happening.",
+            "en": "Inside, there may be a lot of thought happening.",
+            "es": "Inside, there may be a lot of thought happening."
           }
         ]
       },
@@ -2184,35 +2189,6 @@
             "pt": "That does not automatically mean the relationship is over. It does mean the pattern deserves an honest conversation.",
             "en": "That does not automatically mean the relationship is over. It does mean the pattern deserves an honest conversation.",
             "es": "That does not automatically mean the relationship is over. It does mean the pattern deserves an honest conversation."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Other Reasons the Distance Can Appear",
-          "en": "Other Reasons the Distance Can Appear",
-          "es": "Other Reasons the Distance Can Appear"
-        },
-        "paragraphs": [
-          {
-            "pt": "• Stress outside the relationship. Work, family, or health worries can quiet anyone.",
-            "en": "• Stress outside the relationship. Work, family, or health worries can quiet anyone.",
-            "es": "• Stress outside the relationship. Work, family, or health worries can quiet anyone."
-          },
-          {
-            "pt": "• Fear of getting too close. Strong feelings can feel risky, so some people step back to catch their breath.",
-            "en": "• Fear of getting too close. Strong feelings can feel risky, so some people step back to catch their breath.",
-            "es": "• Fear of getting too close. Strong feelings can feel risky, so some people step back to catch their breath."
-          },
-          {
-            "pt": "• Unspoken disappointment. A small hurt that was never mentioned can grow into silence.",
-            "en": "• Unspoken disappointment. A small hurt that was never mentioned can grow into silence.",
-            "es": "• Unspoken disappointment. A small hurt that was never mentioned can grow into silence."
-          },
-          {
-            "pt": "• Losing interest. This can happen too, and it usually shows in a lasting pattern, not in one quiet week.",
-            "en": "• Losing interest. This can happen too, and it usually shows in a lasting pattern, not in one quiet week.",
-            "es": "• Losing interest. This can happen too, and it usually shows in a lasting pattern, not in one quiet week."
           }
         ]
       },
@@ -2258,67 +2234,14 @@
             "es": "Repeated emotional distance with no explanation tells you much more."
           },
           {
-            "pt": "Look at what happens after the space: does Gemini return to the conversation, show care, explain what changed, and make an effort to repair the connection? That pattern is far more useful than guessing what one silence means.",
-            "en": "Look at what happens after the space: does Gemini return to the conversation, show care, explain what changed, and make an effort to repair the connection? That pattern is far more useful than guessing what one silence means.",
-            "es": "Look at what happens after the space: does Gemini return to the conversation, show care, explain what changed, and make an effort to repair the connection? That pattern is far more useful than guessing what one silence means."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "What Helps When Gemini Goes Quiet",
-          "en": "What Helps When Gemini Goes Quiet",
-          "es": "What Helps When Gemini Goes Quiet"
-        },
-        "paragraphs": [
-          {
-            "pt": "• Give a little room first. A short pause often does more than an urgent message.",
-            "en": "• Give a little room first. A short pause often does more than an urgent message.",
-            "es": "• Give a little room first. A short pause often does more than an urgent message."
+            "pt": "Look at what happens after the space: does Gemini return to the conversation, show care, explain what changed, and make an effort to repair the connection?",
+            "en": "Look at what happens after the space: does Gemini return to the conversation, show care, explain what changed, and make an effort to repair the connection?",
+            "es": "Look at what happens after the space: does Gemini return to the conversation, show care, explain what changed, and make an effort to repair the connection?"
           },
           {
-            "pt": "• Make it easy to talk. A light, low-pressure invitation works better than a list of questions.",
-            "en": "• Make it easy to talk. A light, low-pressure invitation works better than a list of questions.",
-            "es": "• Make it easy to talk. A light, low-pressure invitation works better than a list of questions."
-          },
-          {
-            "pt": "• Say how you feel, not what they did wrong. “I miss talking to you” opens a door; “you ignore me” closes it.",
-            "en": "• Say how you feel, not what they did wrong. “I miss talking to you” opens a door; “you ignore me” closes it.",
-            "es": "• Say how you feel, not what they did wrong. “I miss talking to you” opens a door; “you ignore me” closes it."
-          },
-          {
-            "pt": "• Name what you need. Clear and kind beats waiting and guessing.",
-            "en": "• Name what you need. Clear and kind beats waiting and guessing.",
-            "es": "• Name what you need. Clear and kind beats waiting and guessing."
-          },
-          {
-            "pt": "• Notice what follows. Effort over time matters more than a single reply.",
-            "en": "• Notice what follows. Effort over time matters more than a single reply.",
-            "es": "• Notice what follows. Effort over time matters more than a single reply."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Frequently Asked Questions",
-          "en": "Frequently Asked Questions",
-          "es": "Frequently Asked Questions"
-        },
-        "paragraphs": [
-          {
-            "pt": "Does Gemini pull away when they lose interest? Sometimes, but not always. Distance has many causes, so look for a lasting pattern before drawing conclusions.",
-            "en": "Does Gemini pull away when they lose interest? Sometimes, but not always. Distance has many causes, so look for a lasting pattern before drawing conclusions.",
-            "es": "Does Gemini pull away when they lose interest? Sometimes, but not always. Distance has many causes, so look for a lasting pattern before drawing conclusions."
-          },
-          {
-            "pt": "Should I give a Gemini space or ask what is wrong? Usually both: a short pause, followed by a calm, open question.",
-            "en": "Should I give a Gemini space or ask what is wrong? Usually both: a short pause, followed by a calm, open question.",
-            "es": "Should I give a Gemini space or ask what is wrong? Usually both: a short pause, followed by a calm, open question."
-          },
-          {
-            "pt": "Will Gemini come back after pulling away? Many do, especially when they feel no pressure and know the door is open. Whether they return and repair matters more than the silence itself.",
-            "en": "Will Gemini come back after pulling away? Many do, especially when they feel no pressure and know the door is open. Whether they return and repair matters more than the silence itself.",
-            "es": "Will Gemini come back after pulling away? Many do, especially when they feel no pressure and know the door is open. Whether they return and repair matters more than the silence itself."
+            "pt": "That pattern is far more useful than guessing what one silence means.",
+            "en": "That pattern is far more useful than guessing what one silence means.",
+            "es": "That pattern is far more useful than guessing what one silence means."
           }
         ]
       },
@@ -2340,14 +2263,9 @@
             "es": "With Gemini, the surrounding pattern matters: what changed, how long the distance lasts, whether communication returns, and whether there is still an effort to understand each other."
           },
           {
-            "pt": "The zodiac sign may offer a lens for the behavior, but the relationship itself provides the evidence. And behind much of this distance sits one deep need: the need for freedom, which is its own story.",
-            "en": "The zodiac sign may offer a lens for the behavior, but the relationship itself provides the evidence. And behind much of this distance sits one deep need: the need for freedom, which is its own story.",
-            "es": "The zodiac sign may offer a lens for the behavior, but the relationship itself provides the evidence. And behind much of this distance sits one deep need: the need for freedom, which is its own story."
-          },
-          {
-            "pt": "Astrology is a lens for reflection, not a rule about any one person.",
-            "en": "Astrology is a lens for reflection, not a rule about any one person.",
-            "es": "Astrology is a lens for reflection, not a rule about any one person."
+            "pt": "The zodiac sign may offer a lens for the behavior, but the relationship itself provides the evidence.",
+            "en": "The zodiac sign may offer a lens for the behavior, but the relationship itself provides the evidence.",
+            "es": "The zodiac sign may offer a lens for the behavior, but the relationship itself provides the evidence."
           }
         ]
       }
@@ -2360,7 +2278,7 @@
     "wordpress": {
       "id": 461,
       "slug": "why-gemini-pulls-away-emotionally",
-      "modified": "2026-11-06T16:44:53"
+      "modified": "2026-09-30T02:10:30"
     }
   },
   {
@@ -2372,9 +2290,9 @@
     },
     "categoryColor": "bg-[#3982C8] text-white",
     "readTime": {
-      "pt": "4 min de leitura",
-      "en": "4 min read",
-      "es": "4 min de lectura"
+      "pt": "2 min de leitura",
+      "en": "2 min read",
+      "es": "2 min de lectura"
     },
     "date": {
       "pt": "25 Set 2026",
@@ -2434,30 +2352,6 @@
             "pt": "That combination can feel amazing when both people understand it. It can also become confusing when one person assumes that closeness must always look like constant contact.",
             "en": "That combination can feel amazing when both people understand it. It can also become confusing when one person assumes that closeness must always look like constant contact.",
             "es": "That combination can feel amazing when both people understand it. It can also become confusing when one person assumes that closeness must always look like constant contact."
-          },
-          {
-            "pt": "This is not a rule for every Gemini. People differ widely, and a birth chart has many other influences. Think of what follows as common patterns, useful for understanding rather than predicting.",
-            "en": "This is not a rule for every Gemini. People differ widely, and a birth chart has many other influences. Think of what follows as common patterns, useful for understanding rather than predicting.",
-            "es": "This is not a rule for every Gemini. People differ widely, and a birth chart has many other influences. Think of what follows as common patterns, useful for understanding rather than predicting."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "What Shapes Gemini in a Relationship",
-          "en": "What Shapes Gemini in a Relationship",
-          "es": "What Shapes Gemini in a Relationship"
-        },
-        "paragraphs": [
-          {
-            "pt": "Gemini is an air sign ruled by Mercury, the planet of ideas and communication. In astrology, that is linked to curiosity, humor, and a mind that always wants something new to explore.",
-            "en": "Gemini is an air sign ruled by Mercury, the planet of ideas and communication. In astrology, that is linked to curiosity, humor, and a mind that always wants something new to explore.",
-            "es": "Gemini is an air sign ruled by Mercury, the planet of ideas and communication. In astrology, that is linked to curiosity, humor, and a mind that always wants something new to explore."
-          },
-          {
-            "pt": "In a relationship, this often means the mind comes first. Gemini tends to feel close to people who keep them interested, make them laugh, and let them think out loud.",
-            "en": "In a relationship, this often means the mind comes first. Gemini tends to feel close to people who keep them interested, make them laugh, and let them think out loud.",
-            "es": "In a relationship, this often means the mind comes first. Gemini tends to feel close to people who keep them interested, make them laugh, and let them think out loud."
           }
         ]
       },
@@ -2474,14 +2368,14 @@
             "es": "For Gemini, conversation can be one of the clearest signs that a relationship is alive."
           },
           {
-            "pt": "Talking about the day, sharing random thoughts, debating ideas, laughing over something silly, or discovering something new together can create a powerful sense of closeness.",
-            "en": "Talking about the day, sharing random thoughts, debating ideas, laughing over something silly, or discovering something new together can create a powerful sense of closeness.",
-            "es": "Talking about the day, sharing random thoughts, debating ideas, laughing over something silly, or discovering something new together can create a powerful sense of closeness."
+            "pt": "Talking about the day, sharing random thoughts, debating ideas, laughing over something stupid, or discovering something new together can create a powerful sense of closeness.",
+            "en": "Talking about the day, sharing random thoughts, debating ideas, laughing over something stupid, or discovering something new together can create a powerful sense of closeness.",
+            "es": "Talking about the day, sharing random thoughts, debating ideas, laughing over something stupid, or discovering something new together can create a powerful sense of closeness."
           },
           {
-            "pt": "A relationship can be physically close and still feel distant to Gemini if there is no mental connection. Imagine a couple, Lia and Caio. They live together, but they only talk about bills and schedules. Caio may feel more alone than when they were apart, simply because the curiosity went quiet.",
-            "en": "A relationship can be physically close and still feel distant to Gemini if there is no mental connection. Imagine a couple, Lia and Caio. They live together, but they only talk about bills and schedules. Caio may feel more alone than when they were apart, simply because the curiosity went quiet.",
-            "es": "A relationship can be physically close and still feel distant to Gemini if there is no mental connection. Imagine a couple, Lia and Caio. They live together, but they only talk about bills and schedules. Caio may feel more alone than when they were apart, simply because the curiosity went quiet."
+            "pt": "A relationship can be physically close and still feel distant to Gemini if there is no mental connection.",
+            "en": "A relationship can be physically close and still feel distant to Gemini if there is no mental connection.",
+            "es": "A relationship can be physically close and still feel distant to Gemini if there is no mental connection."
           }
         ]
       },
@@ -2503,9 +2397,14 @@
             "es": "Gemini can genuinely want intimacy while still protecting personal interests, friendships, routines, and time to think."
           },
           {
-            "pt": "That does not automatically mean a lack of commitment. For many Gemini personalities, space helps closeness feel easier because there is less pressure to perform the relationship every minute.",
-            "en": "That does not automatically mean a lack of commitment. For many Gemini personalities, space helps closeness feel easier because there is less pressure to perform the relationship every minute.",
-            "es": "That does not automatically mean a lack of commitment. For many Gemini personalities, space helps closeness feel easier because there is less pressure to perform the relationship every minute."
+            "pt": "That does not automatically mean a lack of commitment.",
+            "en": "That does not automatically mean a lack of commitment.",
+            "es": "That does not automatically mean a lack of commitment."
+          },
+          {
+            "pt": "For many Gemini personalities, space helps closeness feel easier because there is less pressure to perform the relationship every minute.",
+            "en": "For many Gemini personalities, space helps closeness feel easier because there is less pressure to perform the relationship every minute.",
+            "es": "For many Gemini personalities, space helps closeness feel easier because there is less pressure to perform the relationship every minute."
           }
         ]
       },
@@ -2535,35 +2434,6 @@
       },
       {
         "heading": {
-          "pt": "Everyday Habits That Keep the Bond Strong",
-          "en": "Everyday Habits That Keep the Bond Strong",
-          "es": "Everyday Habits That Keep the Bond Strong"
-        },
-        "paragraphs": [
-          {
-            "pt": "• Keep talking about small things. Ordinary conversation feeds the connection.",
-            "en": "• Keep talking about small things. Ordinary conversation feeds the connection.",
-            "es": "• Keep talking about small things. Ordinary conversation feeds the connection."
-          },
-          {
-            "pt": "• Try something new now and then. A new place or activity can make familiar routines feel fresh.",
-            "en": "• Try something new now and then. A new place or activity can make familiar routines feel fresh.",
-            "es": "• Try something new now and then. A new place or activity can make familiar routines feel fresh."
-          },
-          {
-            "pt": "• Respect personal time. A free evening is not a rejection.",
-            "en": "• Respect personal time. A free evening is not a rejection.",
-            "es": "• Respect personal time. A free evening is not a rejection."
-          },
-          {
-            "pt": "• Say things directly. Gemini usually responds better to honesty than to hints.",
-            "en": "• Say things directly. Gemini usually responds better to honesty than to hints.",
-            "es": "• Say things directly. Gemini usually responds better to honesty than to hints."
-          }
-        ]
-      },
-      {
-        "heading": {
           "pt": "What Creates Tension?",
           "en": "What Creates Tension?",
           "es": "What Creates Tension?"
@@ -2583,25 +2453,6 @@
             "pt": "But independence is not a license to ignore a partner’s needs either. A healthy relationship still requires honesty, consistency, and accountability.",
             "en": "But independence is not a license to ignore a partner’s needs either. A healthy relationship still requires honesty, consistency, and accountability.",
             "es": "But independence is not a license to ignore a partner’s needs either. A healthy relationship still requires honesty, consistency, and accountability."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "How Gemini Handles Conflict",
-          "en": "How Gemini Handles Conflict",
-          "es": "How Gemini Handles Conflict"
-        },
-        "paragraphs": [
-          {
-            "pt": "Gemini often prefers to talk a problem through, but may avoid heavy emotional intensity. A calm, clear conversation usually works better than a dramatic confrontation.",
-            "en": "Gemini often prefers to talk a problem through, but may avoid heavy emotional intensity. A calm, clear conversation usually works better than a dramatic confrontation.",
-            "es": "Gemini often prefers to talk a problem through, but may avoid heavy emotional intensity. A calm, clear conversation usually works better than a dramatic confrontation."
-          },
-          {
-            "pt": "The risk is using humor or distance to escape the hard part. The healthiest pattern is a Gemini who lightens the mood and then comes back to the subject.",
-            "en": "The risk is using humor or distance to escape the hard part. The healthiest pattern is a Gemini who lightens the mood and then comes back to the subject.",
-            "es": "The risk is using humor or distance to escape the hard part. The healthiest pattern is a Gemini who lightens the mood and then comes back to the subject."
           }
         ]
       },
@@ -2655,35 +2506,6 @@
       },
       {
         "heading": {
-          "pt": "Frequently Asked Questions",
-          "en": "Frequently Asked Questions",
-          "es": "Frequently Asked Questions"
-        },
-        "paragraphs": [
-          {
-            "pt": "Can Gemini be loyal? Yes. Loyalty depends on the person and the relationship, not on the sign. Many Geminis are deeply committed to a partner who keeps them curious.",
-            "en": "Can Gemini be loyal? Yes. Loyalty depends on the person and the relationship, not on the sign. Many Geminis are deeply committed to a partner who keeps them curious.",
-            "es": "Can Gemini be loyal? Yes. Loyalty depends on the person and the relationship, not on the sign. Many Geminis are deeply committed to a partner who keeps them curious."
-          },
-          {
-            "pt": "Does Gemini need a lot of space? Often some, yes. It is usually about mental breathing room, not about caring less.",
-            "en": "Does Gemini need a lot of space? Often some, yes. It is usually about mental breathing room, not about caring less.",
-            "es": "Does Gemini need a lot of space? Often some, yes. It is usually about mental breathing room, not about caring less."
-          },
-          {
-            "pt": "What is the best way to love a Gemini? Stay curious, keep some play in the relationship, communicate honestly, and let them be more than one thing.",
-            "en": "What is the best way to love a Gemini? Stay curious, keep some play in the relationship, communicate honestly, and let them be more than one thing.",
-            "es": "What is the best way to love a Gemini? Stay curious, keep some play in the relationship, communicate honestly, and let them be more than one thing."
-          },
-          {
-            "pt": "How do I know if a Gemini is losing interest? Look for a lasting pattern: shorter conversations, fewer plans, and no effort to reconnect, not just one distracted week.",
-            "en": "How do I know if a Gemini is losing interest? Look for a lasting pattern: shorter conversations, fewer plans, and no effort to reconnect, not just one distracted week.",
-            "es": "How do I know if a Gemini is losing interest? Look for a lasting pattern: shorter conversations, fewer plans, and no effort to reconnect, not just one distracted week."
-          }
-        ]
-      },
-      {
-        "heading": {
           "pt": "The Pattern Matters More Than the Moment",
           "en": "The Pattern Matters More Than the Moment",
           "es": "The Pattern Matters More Than the Moment"
@@ -2700,14 +2522,9 @@
             "es": "Conversation, affection, independence, attention and consistency all tell part of the story. A relationship can have plenty of space without lacking closeness, just as constant contact does not automatically create a strong connection."
           },
           {
-            "pt": "What matters most is whether the bond still feels mutual, honest and alive over time. And when that bond starts to feel distant, the next question is why Gemini pulls away emotionally, and what that distance can really mean.",
-            "en": "What matters most is whether the bond still feels mutual, honest and alive over time. And when that bond starts to feel distant, the next question is why Gemini pulls away emotionally, and what that distance can really mean.",
-            "es": "What matters most is whether the bond still feels mutual, honest and alive over time. And when that bond starts to feel distant, the next question is why Gemini pulls away emotionally, and what that distance can really mean."
-          },
-          {
-            "pt": "Astrology is a lens for reflection, not a rule about any one person.",
-            "en": "Astrology is a lens for reflection, not a rule about any one person.",
-            "es": "Astrology is a lens for reflection, not a rule about any one person."
+            "pt": "What matters most is whether the bond still feels mutual, honest and alive over time.",
+            "en": "What matters most is whether the bond still feels mutual, honest and alive over time.",
+            "es": "What matters most is whether the bond still feels mutual, honest and alive over time."
           }
         ]
       }
@@ -2720,7 +2537,7 @@
     "wordpress": {
       "id": 460,
       "slug": "how-gemini-acts-in-relationships",
-      "modified": "2026-11-06T16:44:50"
+      "modified": "2026-09-30T02:10:27"
     }
   },
   {
@@ -3948,9 +3765,9 @@
     },
     "categoryColor": "bg-[#3982C8] text-white",
     "readTime": {
-      "pt": "4 min de leitura",
-      "en": "4 min read",
-      "es": "4 min de lectura"
+      "pt": "2 min de leitura",
+      "en": "2 min read",
+      "es": "2 min de lectura"
     },
     "date": {
       "pt": "25 Set 2026",
@@ -4007,14 +3824,14 @@
             "es": "How does Gemini act when they fall in love? It may not look like the most predictable romantic story."
           },
           {
-            "pt": "This zodiac sign can become more curious, more attentive, more playful, and sometimes more vulnerable, but still protective of its independence.",
-            "en": "This zodiac sign can become more curious, more attentive, more playful, and sometimes more vulnerable, but still protective of its independence.",
-            "es": "This zodiac sign can become more curious, more attentive, more playful, and sometimes more vulnerable, but still protective of its independence."
+            "pt": "This zodiac sign can become more curious, more attentive, more playful, and sometimes more vulnerable — but still protective of its independence.",
+            "en": "This zodiac sign can become more curious, more attentive, more playful, and sometimes more vulnerable — but still protective of its independence.",
+            "es": "This zodiac sign can become more curious, more attentive, more playful, and sometimes more vulnerable — but still protective of its independence."
           },
           {
-            "pt": "The biggest clues often appear in patterns rather than one dramatic confession. This is not a rule for every Gemini, only a set of signs that many people recognize.",
-            "en": "The biggest clues often appear in patterns rather than one dramatic confession. This is not a rule for every Gemini, only a set of signs that many people recognize.",
-            "es": "The biggest clues often appear in patterns rather than one dramatic confession. This is not a rule for every Gemini, only a set of signs that many people recognize."
+            "pt": "The biggest clues often appear in patterns rather than one dramatic confession.",
+            "en": "The biggest clues often appear in patterns rather than one dramatic confession.",
+            "es": "The biggest clues often appear in patterns rather than one dramatic confession."
           }
         ]
       },
@@ -4036,9 +3853,9 @@
             "es": "Gemini may remember small details, ask follow-up questions, bring up an old conversation, or keep finding new reasons to continue talking."
           },
           {
-            "pt": "When someone genuinely matters, knowing them can become part of the attraction. Imagine Nina mentioning a childhood trip once, and weeks later her Gemini friend asks how the old town looked. That kind of memory is often a quiet declaration.",
-            "en": "When someone genuinely matters, knowing them can become part of the attraction. Imagine Nina mentioning a childhood trip once, and weeks later her Gemini friend asks how the old town looked. That kind of memory is often a quiet declaration.",
-            "es": "When someone genuinely matters, knowing them can become part of the attraction. Imagine Nina mentioning a childhood trip once, and weeks later her Gemini friend asks how the old town looked. That kind of memory is often a quiet declaration."
+            "pt": "When someone genuinely matters, knowing them can become part of the attraction.",
+            "en": "When someone genuinely matters, knowing them can become part of the attraction.",
+            "es": "When someone genuinely matters, knowing them can become part of the attraction."
           }
         ]
       },
@@ -4068,40 +3885,6 @@
       },
       {
         "heading": {
-          "pt": "Early Signs Gemini Is Falling for You",
-          "en": "Early Signs Gemini Is Falling for You",
-          "es": "Early Signs Gemini Is Falling for You"
-        },
-        "paragraphs": [
-          {
-            "pt": "• They make time. Even with a full schedule, you get real attention.",
-            "en": "• They make time. Even with a full schedule, you get real attention.",
-            "es": "• They make time. Even with a full schedule, you get real attention."
-          },
-          {
-            "pt": "• They get a little shy. The usual quick wit may soften around you.",
-            "en": "• They get a little shy. The usual quick wit may soften around you.",
-            "es": "• They get a little shy. The usual quick wit may soften around you."
-          },
-          {
-            "pt": "• They share their world. Friends, interests, and ideas start to include you.",
-            "en": "• They share their world. Friends, interests, and ideas start to include you.",
-            "es": "• They share their world. Friends, interests, and ideas start to include you."
-          },
-          {
-            "pt": "• They plan ahead. “We should do this sometime” becomes a real date.",
-            "en": "• They plan ahead. “We should do this sometime” becomes a real date.",
-            "es": "• They plan ahead. “We should do this sometime” becomes a real date."
-          },
-          {
-            "pt": "• They tease less to hide and more to connect. Humor turns warmer.",
-            "en": "• They tease less to hide and more to connect. Humor turns warmer.",
-            "es": "• They tease less to hide and more to connect. Humor turns warmer."
-          }
-        ]
-      },
-      {
-        "heading": {
           "pt": "Gemini Still Needs to Feel Like an Individual",
           "en": "Gemini Still Needs to Feel Like an Individual",
           "es": "Gemini Still Needs to Feel Like an Individual"
@@ -4118,9 +3901,14 @@
             "es": "They may want closeness and still want their own interests, friends, routines, or quiet time."
           },
           {
-            "pt": "That can be confusing if you expect love to remove every boundary. For Gemini, healthy closeness can actually include freedom.",
-            "en": "That can be confusing if you expect love to remove every boundary. For Gemini, healthy closeness can actually include freedom.",
-            "es": "That can be confusing if you expect love to remove every boundary. For Gemini, healthy closeness can actually include freedom."
+            "pt": "That can be confusing if you expect love to remove every boundary.",
+            "en": "That can be confusing if you expect love to remove every boundary.",
+            "es": "That can be confusing if you expect love to remove every boundary."
+          },
+          {
+            "pt": "For Gemini, healthy closeness can actually include freedom.",
+            "en": "For Gemini, healthy closeness can actually include freedom.",
+            "es": "For Gemini, healthy closeness can actually include freedom."
           }
         ]
       },
@@ -4150,25 +3938,6 @@
       },
       {
         "heading": {
-          "pt": "Mixed Signals That Are Not Always Bad News",
-          "en": "Mixed Signals That Are Not Always Bad News",
-          "es": "Mixed Signals That Are Not Always Bad News"
-        },
-        "paragraphs": [
-          {
-            "pt": "Strong feelings can make some Geminis hesitate. They may be warm one day and quiet the next, not because they feel less, but because they feel more than they expected.",
-            "en": "Strong feelings can make some Geminis hesitate. They may be warm one day and quiet the next, not because they feel less, but because they feel more than they expected.",
-            "es": "Strong feelings can make some Geminis hesitate. They may be warm one day and quiet the next, not because they feel less, but because they feel more than they expected."
-          },
-          {
-            "pt": "Patience helps, and so does gentle honesty. The difference between nervous and uninterested is usually what happens next: do they come back, explain, and keep making an effort?",
-            "en": "Patience helps, and so does gentle honesty. The difference between nervous and uninterested is usually what happens next: do they come back, explain, and keep making an effort?",
-            "es": "Patience helps, and so does gentle honesty. The difference between nervous and uninterested is usually what happens next: do they come back, explain, and keep making an effort?"
-          }
-        ]
-      },
-      {
-        "heading": {
           "pt": "The Real Test Is Consistency",
           "en": "The Real Test Is Consistency",
           "es": "The Real Test Is Consistency"
@@ -4185,9 +3954,14 @@
             "es": "The more revealing question is what happens after the excitement settles."
           },
           {
-            "pt": "Does Gemini still make time? Do they keep communicating? Do they work through awkward moments? Do they let the connection become part of ordinary life? That is where attraction becomes something more grounded.",
-            "en": "Does Gemini still make time? Do they keep communicating? Do they work through awkward moments? Do they let the connection become part of ordinary life? That is where attraction becomes something more grounded.",
-            "es": "Does Gemini still make time? Do they keep communicating? Do they work through awkward moments? Do they let the connection become part of ordinary life? That is where attraction becomes something more grounded."
+            "pt": "Does Gemini still make time? Do they keep communicating? Do they work through awkward moments? Do they let the connection become part of ordinary life?",
+            "en": "Does Gemini still make time? Do they keep communicating? Do they work through awkward moments? Do they let the connection become part of ordinary life?",
+            "es": "Does Gemini still make time? Do they keep communicating? Do they work through awkward moments? Do they let the connection become part of ordinary life?"
+          },
+          {
+            "pt": "That is where attraction becomes something more grounded.",
+            "en": "That is where attraction becomes something more grounded.",
+            "es": "That is where attraction becomes something more grounded."
           }
         ]
       },
@@ -4217,35 +3991,6 @@
       },
       {
         "heading": {
-          "pt": "Frequently Asked Questions",
-          "en": "Frequently Asked Questions",
-          "es": "Frequently Asked Questions"
-        },
-        "paragraphs": [
-          {
-            "pt": "How fast does Gemini fall in love? It varies. Some feel an instant spark, but deeper love usually grows through conversation and shared experiences.",
-            "en": "How fast does Gemini fall in love? It varies. Some feel an instant spark, but deeper love usually grows through conversation and shared experiences.",
-            "es": "How fast does Gemini fall in love? It varies. Some feel an instant spark, but deeper love usually grows through conversation and shared experiences."
-          },
-          {
-            "pt": "Does Gemini say “I love you” easily? Words come naturally to many Geminis, but meaning matters more than speed. Look for actions that match the words.",
-            "en": "Does Gemini say “I love you” easily? Words come naturally to many Geminis, but meaning matters more than speed. Look for actions that match the words.",
-            "es": "Does Gemini say “I love you” easily? Words come naturally to many Geminis, but meaning matters more than speed. Look for actions that match the words."
-          },
-          {
-            "pt": "Can Gemini fall in love with a friend? Very often. Because conversation is such a big part of attraction, many Gemini romances begin as friendships.",
-            "en": "Can Gemini fall in love with a friend? Very often. Because conversation is such a big part of attraction, many Gemini romances begin as friendships.",
-            "es": "Can Gemini fall in love with a friend? Very often. Because conversation is such a big part of attraction, many Gemini romances begin as friendships."
-          },
-          {
-            "pt": "How can I tell if it is real? Look for consistency over time, curiosity about your life, and honesty when things get complicated.",
-            "en": "How can I tell if it is real? Look for consistency over time, curiosity about your life, and honesty when things get complicated.",
-            "es": "How can I tell if it is real? Look for consistency over time, curiosity about your life, and honesty when things get complicated."
-          }
-        ]
-      },
-      {
-        "heading": {
           "pt": "When Feelings Become Real",
           "en": "When Feelings Become Real",
           "es": "When Feelings Become Real"
@@ -4262,14 +4007,9 @@
             "es": "Curiosity can become more personal. Conversation can become more meaningful. Vulnerability can become more visible. At the same time, the need to remain an individual can stay intact."
           },
           {
-            "pt": "That combination is part of what makes Gemini’s romantic side so distinctive: closeness does not have to mean losing freedom. And once the feelings are real, the next chapter is what daily life with a Gemini in a relationship actually looks like.",
-            "en": "That combination is part of what makes Gemini’s romantic side so distinctive: closeness does not have to mean losing freedom. And once the feelings are real, the next chapter is what daily life with a Gemini in a relationship actually looks like.",
-            "es": "That combination is part of what makes Gemini’s romantic side so distinctive: closeness does not have to mean losing freedom. And once the feelings are real, the next chapter is what daily life with a Gemini in a relationship actually looks like."
-          },
-          {
-            "pt": "Astrology is a lens for reflection, not a rule about any one person.",
-            "en": "Astrology is a lens for reflection, not a rule about any one person.",
-            "es": "Astrology is a lens for reflection, not a rule about any one person."
+            "pt": "That combination is part of what makes Gemini’s romantic side so distinctive: closeness does not have to mean losing freedom.",
+            "en": "That combination is part of what makes Gemini’s romantic side so distinctive: closeness does not have to mean losing freedom.",
+            "es": "That combination is part of what makes Gemini’s romantic side so distinctive: closeness does not have to mean losing freedom."
           }
         ]
       }
@@ -4282,7 +4022,7 @@
     "wordpress": {
       "id": 429,
       "slug": "how-does-gemini-act-when-they-fall-in-love",
-      "modified": "2026-11-06T16:44:56"
+      "modified": "2026-09-30T02:10:33"
     }
   },
   {
@@ -4788,260 +4528,6 @@
       "id": 156,
       "slug": "gemini-personality",
       "modified": "2026-09-30T03:16:23"
-    }
-  },
-  {
-    "id": "wp-1390",
-    "category": {
-      "pt": "GUIA DOS SIGNOS",
-      "en": "ZODIAC GUIDE",
-      "es": "GUÍA ZODIACAL"
-    },
-    "categoryColor": "bg-[#3982C8] text-white",
-    "readTime": {
-      "pt": "3 min de leitura",
-      "en": "3 min read",
-      "es": "3 min de lectura"
-    },
-    "date": {
-      "pt": "06 Nov 2026",
-      "en": "Nov 06, 2026",
-      "es": "06 Nov 2026"
-    },
-    "author": {
-      "name": "Aurenstar",
-      "role": "Insights",
-      "avatar": "/aurenstar-avatar.webp",
-      "dateTime": {
-        "pt": "06 Nov 2026 às 16:47",
-        "en": "Nov 06, 2026 • 4:47 PM",
-        "es": "06 Nov 2026 a las 16:47"
-      },
-      "date": {
-        "pt": "06 Nov 2026",
-        "en": "Nov 06, 2026",
-        "es": "06 Nov 2026"
-      }
-    },
-    "image": "/assets/wp/horoscope-today-november-6-2026.webp",
-    "imageCaption": {
-      "pt": "Horoscope Today, Friday, November 6, 2026: All 12 Signs",
-      "en": "Horoscope Today, Friday, November 6, 2026: All 12 Signs",
-      "es": "Horoscope Today, Friday, November 6, 2026: All 12 Signs"
-    },
-    "title": {
-      "pt": "Horoscope Today, Friday, November 6, 2026: All 12 Signs",
-      "en": "Horoscope Today, Friday, November 6, 2026: All 12 Signs",
-      "es": "Horoscope Today, Friday, November 6, 2026: All 12 Signs"
-    },
-    "subtitle": {
-      "pt": "Daily entertainment horoscope for November 6, 2026: Scorpio Sun and Waning Crescent Moon inspire introspection and gentle shifts for all signs.",
-      "en": "Daily entertainment horoscope for November 6, 2026: Scorpio Sun and Waning Crescent Moon inspire introspection and gentle shifts for all signs.",
-      "es": "Daily entertainment horoscope for November 6, 2026: Scorpio Sun and Waning Crescent Moon inspire introspection and gentle shifts for all signs."
-    },
-    "quote": {
-      "pt": "On this November 6th, as the Sun continues its journey through Scorpio and the Moon nears the quiet Waning Crescent phase, the energy invites introspection and subtle shifts.",
-      "en": "On this November 6th, as the Sun continues its journey through Scorpio and the Moon nears the quiet Waning Crescent phase, the energy invites introspection and subtle shifts.",
-      "es": "On this November 6th, as the Sun continues its journey through Scorpio and the Moon nears the quiet Waning Crescent phase, the energy invites introspection and subtle shifts."
-    },
-    "sections": [
-      {
-        "heading": {
-          "pt": "Overview",
-          "en": "Overview",
-          "es": "Overview"
-        },
-        "paragraphs": [
-          {
-            "pt": "On this November 6th, as the Sun continues its journey through Scorpio and the Moon nears the quiet Waning Crescent phase, the energy invites introspection and subtle shifts. It’s a perfect day for tuning into your inner world, embracing transformation in gentle ways, and preparing thoughtfully for what’s ahead.",
-            "en": "On this November 6th, as the Sun continues its journey through Scorpio and the Moon nears the quiet Waning Crescent phase, the energy invites introspection and subtle shifts. It’s a perfect day for tuning into your inner world, embracing transformation in gentle ways, and preparing thoughtfully for what’s ahead.",
-            "es": "On this November 6th, as the Sun continues its journey through Scorpio and the Moon nears the quiet Waning Crescent phase, the energy invites introspection and subtle shifts. It’s a perfect day for tuning into your inner world, embracing transformation in gentle ways, and preparing thoughtfully for what’s ahead."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Aries (March 21 – April 19)",
-          "en": "Aries (March 21 – April 19)",
-          "es": "Aries (March 21 – April 19)"
-        },
-        "paragraphs": [
-          {
-            "pt": "Today, focus on your friendships and social connections. You might find inspiration in a quiet moment of reflection, helping you see who truly supports your growth. Small gestures of kindness can deepen bonds. Embrace a calm approach to communication, allowing patience to guide your interactions rather than rushing into action.",
-            "en": "Today, focus on your friendships and social connections. You might find inspiration in a quiet moment of reflection, helping you see who truly supports your growth. Small gestures of kindness can deepen bonds. Embrace a calm approach to communication, allowing patience to guide your interactions rather than rushing into action.",
-            "es": "Today, focus on your friendships and social connections. You might find inspiration in a quiet moment of reflection, helping you see who truly supports your growth. Small gestures of kindness can deepen bonds. Embrace a calm approach to communication, allowing patience to guide your interactions rather than rushing into action."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Taurus (April 20 – May 20)",
-          "en": "Taurus (April 20 – May 20)",
-          "es": "Taurus (April 20 – May 20)"
-        },
-        "paragraphs": [
-          {
-            "pt": "Turn your attention to your finances and spending habits. This is a time to review your budget quietly and consider practical adjustments that support long-term stability. Avoid impulsive purchases; instead, think about what brings lasting value. Rest is also important today—nurture yourself with a soothing routine that replenishes your energy.",
-            "en": "Turn your attention to your finances and spending habits. This is a time to review your budget quietly and consider practical adjustments that support long-term stability. Avoid impulsive purchases; instead, think about what brings lasting value. Rest is also important today—nurture yourself with a soothing routine that replenishes your energy.",
-            "es": "Turn your attention to your finances and spending habits. This is a time to review your budget quietly and consider practical adjustments that support long-term stability. Avoid impulsive purchases; instead, think about what brings lasting value. Rest is also important today—nurture yourself with a soothing routine that replenishes your energy."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Gemini (May 21 – June 20)",
-          "en": "Gemini (May 21 – June 20)",
-          "es": "Gemini (May 21 – June 20)"
-        },
-        "paragraphs": [
-          {
-            "pt": "Work matters take a gentle spotlight now. You might find that a bit of quiet organization or planning helps you prepare for upcoming challenges. Avoid overloading your schedule; instead, prioritize tasks that bring a sense of accomplishment and peace. Remember to take breaks, giving your mind space to refresh and innovate.",
-            "en": "Work matters take a gentle spotlight now. You might find that a bit of quiet organization or planning helps you prepare for upcoming challenges. Avoid overloading your schedule; instead, prioritize tasks that bring a sense of accomplishment and peace. Remember to take breaks, giving your mind space to refresh and innovate.",
-            "es": "Work matters take a gentle spotlight now. You might find that a bit of quiet organization or planning helps you prepare for upcoming challenges. Avoid overloading your schedule; instead, prioritize tasks that bring a sense of accomplishment and peace. Remember to take breaks, giving your mind space to refresh and innovate."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Cancer (June 21 – July 22)",
-          "en": "Cancer (June 21 – July 22)",
-          "es": "Cancer (June 21 – July 22)"
-        },
-        "paragraphs": [
-          {
-            "pt": "Love and close relationships call for a soft, thoughtful touch today. Honest conversations can deepen connections, but timing matters—choose moments of calm to share your feelings. Allow space for both you and your partner or loved ones to reflect, fostering understanding without pressure or haste.",
-            "en": "Love and close relationships call for a soft, thoughtful touch today. Honest conversations can deepen connections, but timing matters—choose moments of calm to share your feelings. Allow space for both you and your partner or loved ones to reflect, fostering understanding without pressure or haste.",
-            "es": "Love and close relationships call for a soft, thoughtful touch today. Honest conversations can deepen connections, but timing matters—choose moments of calm to share your feelings. Allow space for both you and your partner or loved ones to reflect, fostering understanding without pressure or haste."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Leo (July 23 – August 22)",
-          "en": "Leo (July 23 – August 22)",
-          "es": "Leo (July 23 – August 22)"
-        },
-        "paragraphs": [
-          {
-            "pt": "Energy levels may feel more subdued, inviting you to focus on self-care. Engage in activities that restore your vitality, like gentle exercise or creative outlets that soothe your spirit. Recognize moments when rest is more productive than pushing forward. Your warmth shines brightest when you nurture your own well-being first.",
-            "en": "Energy levels may feel more subdued, inviting you to focus on self-care. Engage in activities that restore your vitality, like gentle exercise or creative outlets that soothe your spirit. Recognize moments when rest is more productive than pushing forward. Your warmth shines brightest when you nurture your own well-being first.",
-            "es": "Energy levels may feel more subdued, inviting you to focus on self-care. Engage in activities that restore your vitality, like gentle exercise or creative outlets that soothe your spirit. Recognize moments when rest is more productive than pushing forward. Your warmth shines brightest when you nurture your own well-being first."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Virgo (August 23 – September 22)",
-          "en": "Virgo (August 23 – September 22)",
-          "es": "Virgo (August 23 – September 22)"
-        },
-        "paragraphs": [
-          {
-            "pt": "Today, your mind is primed for reflection on personal goals and self-improvement. Consider what small changes could enhance your daily routine or health habits. It’s a great day for organizing your space, making it a sanctuary that supports calm and focus. Balance productivity with moments of rest to maintain harmony.",
-            "en": "Today, your mind is primed for reflection on personal goals and self-improvement. Consider what small changes could enhance your daily routine or health habits. It’s a great day for organizing your space, making it a sanctuary that supports calm and focus. Balance productivity with moments of rest to maintain harmony.",
-            "es": "Today, your mind is primed for reflection on personal goals and self-improvement. Consider what small changes could enhance your daily routine or health habits. It’s a great day for organizing your space, making it a sanctuary that supports calm and focus. Balance productivity with moments of rest to maintain harmony."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Libra (September 23 – October 22)",
-          "en": "Libra (September 23 – October 22)",
-          "es": "Libra (September 23 – October 22)"
-        },
-        "paragraphs": [
-          {
-            "pt": "Friendships and group activities hold potential for subtle but meaningful connections. You may find joy in listening more deeply and offering support quietly. Avoid overcommitting; instead, choose interactions that feel mutually uplifting. Balancing social time with solitude helps maintain your emotional equilibrium today.",
-            "en": "Friendships and group activities hold potential for subtle but meaningful connections. You may find joy in listening more deeply and offering support quietly. Avoid overcommitting; instead, choose interactions that feel mutually uplifting. Balancing social time with solitude helps maintain your emotional equilibrium today.",
-            "es": "Friendships and group activities hold potential for subtle but meaningful connections. You may find joy in listening more deeply and offering support quietly. Avoid overcommitting; instead, choose interactions that feel mutually uplifting. Balancing social time with solitude helps maintain your emotional equilibrium today."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Scorpio (October 23 – November 21)",
-          "en": "Scorpio (October 23 – November 21)",
-          "es": "Scorpio (October 23 – November 21)"
-        },
-        "paragraphs": [
-          {
-            "pt": "With the Sun in your sign, inner transformation is highlighted. Use this waning energy period to release what no longer serves you, emotionally or mentally. Journaling or meditation can provide clarity. Allow yourself the patience to evolve naturally, knowing that quiet progress lays the foundation for future strength.",
-            "en": "With the Sun in your sign, inner transformation is highlighted. Use this waning energy period to release what no longer serves you, emotionally or mentally. Journaling or meditation can provide clarity. Allow yourself the patience to evolve naturally, knowing that quiet progress lays the foundation for future strength.",
-            "es": "With the Sun in your sign, inner transformation is highlighted. Use this waning energy period to release what no longer serves you, emotionally or mentally. Journaling or meditation can provide clarity. Allow yourself the patience to evolve naturally, knowing that quiet progress lays the foundation for future strength."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Sagittarius (November 22 – December 21)",
-          "en": "Sagittarius (November 22 – December 21)",
-          "es": "Sagittarius (November 22 – December 21)"
-        },
-        "paragraphs": [
-          {
-            "pt": "Focus on your work environment and daily responsibilities with an eye toward gentle improvement. Small adjustments in how you approach tasks can enhance efficiency and reduce stress. Stay mindful of your limits, and don’t hesitate to delegate or ask for help. Incorporate moments of lightheartedness to keep your spirit buoyant.",
-            "en": "Focus on your work environment and daily responsibilities with an eye toward gentle improvement. Small adjustments in how you approach tasks can enhance efficiency and reduce stress. Stay mindful of your limits, and don’t hesitate to delegate or ask for help. Incorporate moments of lightheartedness to keep your spirit buoyant.",
-            "es": "Focus on your work environment and daily responsibilities with an eye toward gentle improvement. Small adjustments in how you approach tasks can enhance efficiency and reduce stress. Stay mindful of your limits, and don’t hesitate to delegate or ask for help. Incorporate moments of lightheartedness to keep your spirit buoyant."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Capricorn (December 22 – January 19)",
-          "en": "Capricorn (December 22 – January 19)",
-          "es": "Capricorn (December 22 – January 19)"
-        },
-        "paragraphs": [
-          {
-            "pt": "Today is ideal for reassessing your financial plans and values. Reflect quietly on what truly matters to you and consider practical strategies for security. Avoid making sudden decisions; instead, gather information and prepare thoughtfully. Balance this practical focus with nurturing rest to keep your confidence steady.",
-            "en": "Today is ideal for reassessing your financial plans and values. Reflect quietly on what truly matters to you and consider practical strategies for security. Avoid making sudden decisions; instead, gather information and prepare thoughtfully. Balance this practical focus with nurturing rest to keep your confidence steady.",
-            "es": "Today is ideal for reassessing your financial plans and values. Reflect quietly on what truly matters to you and consider practical strategies for security. Avoid making sudden decisions; instead, gather information and prepare thoughtfully. Balance this practical focus with nurturing rest to keep your confidence steady."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Aquarius (January 20 – February 18)",
-          "en": "Aquarius (January 20 – February 18)",
-          "es": "Aquarius (January 20 – February 18)"
-        },
-        "paragraphs": [
-          {
-            "pt": "Energy for creative projects and hobbies may feel subtle but meaningful. Embrace slower, more deliberate progress rather than pushing for quick results. Sharing your ideas with a trusted friend can spark inspiration and encouragement. Prioritize rest to fuel your innovation, allowing your unique perspective to bloom gently.",
-            "en": "Energy for creative projects and hobbies may feel subtle but meaningful. Embrace slower, more deliberate progress rather than pushing for quick results. Sharing your ideas with a trusted friend can spark inspiration and encouragement. Prioritize rest to fuel your innovation, allowing your unique perspective to bloom gently.",
-            "es": "Energy for creative projects and hobbies may feel subtle but meaningful. Embrace slower, more deliberate progress rather than pushing for quick results. Sharing your ideas with a trusted friend can spark inspiration and encouragement. Prioritize rest to fuel your innovation, allowing your unique perspective to bloom gently."
-          }
-        ]
-      },
-      {
-        "heading": {
-          "pt": "Pisces (February 19 – March 20)",
-          "en": "Pisces (February 19 – March 20)",
-          "es": "Pisces (February 19 – March 20)"
-        },
-        "paragraphs": [
-          {
-            "pt": "Love and emotional connections benefit from gentle attentiveness today. Listen carefully and create space for heartfelt exchanges without rushing to conclusions. A quiet evening spent in nurturing self-reflection can also deepen your understanding of your desires and boundaries, setting a peaceful tone for your relationships.",
-            "en": "Love and emotional connections benefit from gentle attentiveness today. Listen carefully and create space for heartfelt exchanges without rushing to conclusions. A quiet evening spent in nurturing self-reflection can also deepen your understanding of your desires and boundaries, setting a peaceful tone for your relationships.",
-            "es": "Love and emotional connections benefit from gentle attentiveness today. Listen carefully and create space for heartfelt exchanges without rushing to conclusions. A quiet evening spent in nurturing self-reflection can also deepen your understanding of your desires and boundaries, setting a peaceful tone for your relationships."
-          },
-          {
-            "pt": "Remember, astrology offers a fun and thoughtful way to explore your day, encouraging reflection without certainties. Let these insights inspire mindfulness and kindness toward yourself as you navigate today’s energies.",
-            "en": "Remember, astrology offers a fun and thoughtful way to explore your day, encouraging reflection without certainties. Let these insights inspire mindfulness and kindness toward yourself as you navigate today’s energies.",
-            "es": "Remember, astrology offers a fun and thoughtful way to explore your day, encouraging reflection without certainties. Let these insights inspire mindfulness and kindness toward yourself as you navigate today’s energies."
-          }
-        ]
-      }
-    ],
-    "keyTakeaways": {
-      "pt": [],
-      "en": [],
-      "es": []
-    },
-    "wordpress": {
-      "id": 1390,
-      "slug": "horoscope-today-november-6-2026",
-      "modified": "2026-11-06T16:47:56"
     }
   },
   {
