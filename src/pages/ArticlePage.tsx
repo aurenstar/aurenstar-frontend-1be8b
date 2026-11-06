@@ -2,6 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react';
 import { fetchWithHumanCheck } from '../utils/turnstile';
 import { getArticleSlugById } from '../utils/articleSlug';
 import { onPlainClick } from '../utils/links';
+import { postReco, rememberReco } from '../utils/reco';
 import { SIGNS_DATA } from '../data/signsData';
 import {
   ArrowLeft,
@@ -253,7 +254,7 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
     return cleanup;
   }, [article.id]);
 
-  const nextArticle = useMemo(() => {
+  const fallbackNext = useMemo(() => {
     // Which zodiac sign is an article about? (found by the sign's name in its title; general guides have none)
     const signNames = Object.values(SIGNS_DATA).map((x) => x.name.en.toLowerCase());
     const signOf = (a: { title: { en?: string; pt: string } }) => {
@@ -277,6 +278,34 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
     // 2. Otherwise: the next one in the list
     return after(all) || all[0];
   }, [article.id]);
+
+  // "Next episode": the server picks, among the other articles about the same sign, the one that makes readers keep reading most
+  // (testing them fairly at first). Until it answers (or if it cannot), the fixed chain above is shown, so the card is never empty.
+  const [pickedNextId, setPickedNextId] = useState<string | null>(null);
+  useEffect(() => {
+    setPickedNextId(null);
+    if (!article.id.startsWith('wp-')) return;
+    let alive = true;
+    fetch(`/api/reco?sign=next-${encodeURIComponent(article.id)}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => { if (alive && typeof d?.article === 'string') setPickedNextId(d.article); })
+      .catch(() => {});
+    return () => { alive = false; };
+  }, [article.id]);
+  const nextArticle = BLOG_ARTICLES.find((a) => a.id === pickedNextId && a.id !== article.id) || fallbackNext;
+  // Counts one "shown" when the card really comes into view.
+  const nextCardRef = React.useRef<HTMLElement | null>(null);
+  useEffect(() => {
+    const el = nextCardRef.current;
+    if (!el || !nextArticle || !article.id.startsWith('wp-') || typeof IntersectionObserver === 'undefined') return;
+    const key = `next-${article.id}`;
+    const target = nextArticle.id;
+    const io = new IntersectionObserver((entries) => {
+      if (entries.some((e) => e.isIntersecting)) { postReco(key, target, 'shown'); io.disconnect(); }
+    }, { threshold: 0.6 });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [article.id, nextArticle?.id]);
 
   const labels = {
     pt: {
@@ -532,7 +561,7 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
             NEXT CHAPTER / CONTINUE LENDO CARD (Matching user uploaded card)
             ========================================================================= */}
         {nextArticle && (
-          <section className="pt-10 pb-4 border-t border-[#D9E8F8] max-w-3xl mx-auto my-10">
+          <section ref={nextCardRef} className="pt-10 pb-4 border-t border-[#D9E8F8] max-w-3xl mx-auto my-10">
             {/* Centered Heading */}
             <h3 className="text-center font-extrabold text-lg sm:text-xl text-[#17366F] tracking-wider uppercase mb-5">
               {l.continueReading}
@@ -541,7 +570,10 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
             {/* Horizontal Chapter Card matching Card Continue Lendo.png */}
             <a
               href={`/blog/${getArticleSlugById(nextArticle.id)}`}
-              onClick={onPlainClick(() => onSelectArticle(nextArticle.id))}
+              onClick={(e) => {
+                if (article.id.startsWith('wp-')) { postReco(`next-${article.id}`, nextArticle.id, 'click'); rememberReco(`next-${article.id}`, nextArticle.id); }
+                onPlainClick(() => onSelectArticle(nextArticle.id))(e);
+              }}
               aria-label={`${l.continueReading}: ${nextArticle.title[lang] || nextArticle.title.pt}`}
               className="w-full bg-white rounded-2xl sm:rounded-3xl border border-[#D9E8F8] shadow-sm hover:shadow-md hover:border-[#3982C8]/40 transition-all duration-300 p-3 sm:p-4.5 flex items-center justify-between gap-3 sm:gap-6 cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#3982C8]/40"
             >

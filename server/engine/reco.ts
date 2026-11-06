@@ -24,6 +24,26 @@ export function articlesOfSign(sign: string): string[] {
   return BLOG_ARTICLES.filter((a) => re.test((a.title.en || a.title.pt).toLowerCase())).map((a) => a.id);
 }
 
+/** Key of the sign an article is about (e.g. "gemeos"), or '' for general guides. */
+export function signKeyOfArticle(id: string): string {
+  const a = BLOG_ARTICLES.find((x) => x.id === id);
+  if (!a) return '';
+  const t = (a.title.en || a.title.pt).toLowerCase();
+  return Object.values(SIGNS_DATA).find((i) => new RegExp(`\\b${i.name.en.toLowerCase()}\\b`).test(t))?.key || '';
+}
+
+/**
+ * Candidates for a key: a sign key ("gemeos") = every article about that sign;
+ * "next-wp-123" = the other articles about the same sign as wp-123 (what can be suggested as the "next episode" after it).
+ */
+export function candidatesFor(key: string): string[] {
+  if (SIGNS_DATA[key]) return articlesOfSign(key);
+  const m = /^next-(wp-\d{1,8})$/.exec(key);
+  if (!m) return [];
+  const sign = signKeyOfArticle(m[1]);
+  return sign ? articlesOfSign(sign).filter((id) => id !== m[1]) : [];
+}
+
 /** Score: a click counts 1, a click followed by real reading counts 3 (1 + 2), divided by how many times it was shown. */
 export const score = (r: RecoRow) => (r.shown > 0 ? (r.clicked + 2 * r.journey) / r.shown : 0);
 
