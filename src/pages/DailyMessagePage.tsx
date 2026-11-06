@@ -421,7 +421,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         en: 'Take a guilt-free 10-minute break with zero thoughts of work or chores.',
         es: 'Haz una pausa de 10 minutos sin pensar en obligaciones.',
       },
-      articleId: 'post-capricornio',
+      articleId: 'wp-1377',
     },
     aquario: {
       theme: {

@@ -199,7 +199,7 @@ export const SIGNS_DATA: Record<string, SignInfo> = {
       en: 'Rest is part of genuine success: allow yourself guilt-free downtime.',
       es: 'El descanso también es parte del éxito: date tiempo para relajarte sin culpas.',
     },
-    articleId: 'post-capricornio',
+    articleId: 'wp-1377',
   },
   aquario: {
     key: 'aquario',
