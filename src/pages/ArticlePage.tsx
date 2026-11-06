@@ -2,6 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react';
 import { fetchWithHumanCheck } from '../utils/turnstile';
 import { getArticleSlugById } from '../utils/articleSlug';
 import { onPlainClick } from '../utils/links';
+import { SIGNS_DATA } from '../data/signsData';
 import {
   ArrowLeft,
   ArrowRight,
@@ -226,16 +227,28 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
   };
 
   const nextArticle = useMemo(() => {
-    // 1. Same category
-    const sameCat = BLOG_ARTICLES.find(
-      (a) => a.id !== article.id && a.category.pt === article.category.pt
-    );
-    if (sameCat) return sameCat;
-
-    // 2. Next one in the list
-    const currentIdx = BLOG_ARTICLES.findIndex((a) => a.id === article.id);
-    const nextIdx = (currentIdx + 1) % BLOG_ARTICLES.length;
-    return BLOG_ARTICLES[nextIdx] || BLOG_ARTICLES[0];
+    // Which zodiac sign is an article about? (found by the sign's name in its title; general guides have none)
+    const signNames = Object.values(SIGNS_DATA).map((x) => x.name.en.toLowerCase());
+    const signOf = (a: { title: { en?: string; pt: string } }) => {
+      const t = (a.title.en || a.title.pt).toLowerCase();
+      return signNames.find((n) => new RegExp(`\\b${n}\\b`).test(t)) || '';
+    };
+    const all = BLOG_ARTICLES;
+    const idx = all.findIndex((a) => a.id === article.id);
+    const after = (list: typeof all) => {
+      // the next one after this article in the list, going round to the start (so a chain of articles never points all to the same one)
+      const pos = (x: { id: string }) => all.findIndex((a) => a.id === x.id);
+      const others = list.filter((a) => a.id !== article.id);
+      return others.find((a) => pos(a) > idx) || others[0];
+    };
+    // 1. Another article about the same sign
+    const sign = signOf(article);
+    if (sign) {
+      const same = after(all.filter((a) => signOf(a) === sign));
+      if (same) return same;
+    }
+    // 2. Otherwise: the next one in the list
+    return after(all) || all[0];
   }, [article.id]);
 
   const labels = {
