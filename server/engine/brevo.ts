@@ -17,17 +17,21 @@ export async function sendToBrevo(
 ): Promise<'sent' | 'off' | 'failed'> {
   const listId = Number(s.list === 'newsletter' ? env.BREVO_LIST_NEWSLETTER : env.BREVO_LIST_TSHIRTS);
   if (!env.BREVO_API_KEY || !Number.isInteger(listId) || listId <= 0) return 'off';
-  try {
-    const res = await fetch('https://api.brevo.com/v3/contacts', {
+  const send = (withAttributes: boolean) =>
+    fetch('https://api.brevo.com/v3/contacts', {
       method: 'POST',
-      headers: { 'api-key': env.BREVO_API_KEY, 'Content-Type': 'application/json', Accept: 'application/json' },
+      headers: { 'api-key': env.BREVO_API_KEY as string, 'Content-Type': 'application/json', Accept: 'application/json' },
       body: JSON.stringify({
         email: s.email,
         listIds: [listId],
         updateEnabled: true, // same person signing up twice just updates the contact
-        attributes: { SIGN: s.sign, LANG: s.lang, COUNTRY: s.country, SOURCE: s.source },
+        ...(withAttributes ? { attributes: { SIGN: s.sign, LANG: s.lang, COUNTRY: s.country, SOURCE: s.source } } : {}),
       }),
     });
+  try {
+    let res = await send(true);
+    // The extra fields (SIGN, LANG...) must exist in Brevo. If Brevo refuses them, still add the person with just the e-mail.
+    if (res.status === 400) res = await send(false);
     return res.ok ? 'sent' : 'failed';
   } catch {
     return 'failed';
