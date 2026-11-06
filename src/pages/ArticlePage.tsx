@@ -225,6 +225,33 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
     }, 4500);
   };
 
+  // Journey: the visitor came from a result's "Keep exploring your sign" card and kept reading (30 s on the page or half of it scrolled).
+  // Counted once, anonymously, so the best article for each sign can be recommended.
+  useEffect(() => {
+    let info: { sign: string; article: string; at?: number } | null = null;
+    try { info = JSON.parse(sessionStorage.getItem('aurenstar_reco') || 'null'); } catch { /* ignore */ }
+    if (!info || info.article !== article.id || Date.now() - (info.at || 0) > 600000) return;
+    let sent = false;
+    const send = () => {
+      if (sent) return;
+      sent = true;
+      cleanup();
+      try {
+        sessionStorage.removeItem('aurenstar_reco');
+        const body = JSON.stringify({ sign: info!.sign, article: info!.article, kind: 'journey' });
+        if (!navigator.sendBeacon?.('/api/reco', new Blob([body], { type: 'application/json' }))) fetch('/api/reco', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body, keepalive: true }).catch(() => {});
+      } catch { /* ignore */ }
+    };
+    const onScroll = () => {
+      const h = document.documentElement;
+      if ((window.scrollY + window.innerHeight) / Math.max(h.scrollHeight, 1) >= 0.5) send();
+    };
+    const timer = window.setTimeout(send, 30000);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    function cleanup() { window.clearTimeout(timer); window.removeEventListener('scroll', onScroll); }
+    return cleanup;
+  }, [article.id]);
+
   const nextArticle = useMemo(() => {
     // 1. Same category
     const sameCat = BLOG_ARTICLES.find(
