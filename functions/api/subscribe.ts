@@ -28,8 +28,7 @@ export const onRequestPost = async ({ request, env, waitUntil }: { request: Requ
   const region = String(cf?.region || request.headers.get('CF-Region') || '').slice(0, 60);
   const saved = await recordSubscriber(env, { country, region, list, email, sign: String(b.sign || '').slice(0, 20), lang, source: String(b.source || '').slice(0, 30), consentText: (list === 'newsletter' ? NEWSLETTER_CONSENT : TSHIRT_CONSENT)[lang] });
   if (!saved) return json({ ok: false, reason: 'unavailable' }, 502);
-  // Copy to Brevo in the background (does nothing until the owner sets the Brevo variables; never blocks or fails the sign-up)
-  const copy = sendToBrevo(env, { email, list, sign: String(b.sign || '').slice(0, 20), lang, country, source: String(b.source || '').slice(0, 30) });
-  if (waitUntil) waitUntil(copy);
-  return json({ ok: true });
+  // Copy to Brevo (does nothing until the owner sets the Brevo variables; a Brevo problem never fails the sign-up). Waits at most 4 s.
+  const brevo = await sendToBrevo(env, { email, list, sign: String(b.sign || '').slice(0, 20), lang, country, source: String(b.source || '').slice(0, 30) });
+  return json({ ok: true, brevo });
 };
