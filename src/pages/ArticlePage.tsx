@@ -219,32 +219,14 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
     }, 4500);
   };
 
-  // Logical narrative next chapter flow
-  const NEXT_CHAPTER_MAP: Record<string, string> = {
-    'post-1': 'post-gemeos',     // Sun Signs -> Gemini Freedom Deep-Dive
-    'post-gemeos': 'post-4',     // Gemini -> Zodiac Elements & Compatibility
-    'post-4': 'post-2',          // Compatibility -> Moon Phases & Lunar Cycles
-    'post-2': 'post-3',          // Moon Phases -> Morning Calm Rituals
-    'post-3': 'post-5',          // Morning Rituals -> Cozy Peaceful Space at Home
-    'post-5': 'post-6',          // Home Peace -> Zodiac & Evening Gratitude
-    'post-6': 'post-1',          // Gratitude -> Sun Signs & Core Essence
-  };
-
   const nextArticle = useMemo(() => {
-    // 1. Explicit narrative chapter flow
-    const targetId = NEXT_CHAPTER_MAP[article.id];
-    if (targetId) {
-      const found = BLOG_ARTICLES.find((a) => a.id === targetId);
-      if (found) return found;
-    }
-
-    // 2. Same category fallback
+    // 1. Same category
     const sameCat = BLOG_ARTICLES.find(
       (a) => a.id !== article.id && a.category.pt === article.category.pt
     );
     if (sameCat) return sameCat;
 
-    // 3. Sequential fallback
+    // 2. Next one in the list
     const currentIdx = BLOG_ARTICLES.findIndex((a) => a.id === article.id);
     const nextIdx = (currentIdx + 1) % BLOG_ARTICLES.length;
     return BLOG_ARTICLES[nextIdx] || BLOG_ARTICLES[0];

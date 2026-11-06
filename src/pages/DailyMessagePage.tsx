@@ -214,7 +214,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         en: 'Take a quiet 5-minute screen-free pause to breathe deeply and rest your thoughts.',
         es: 'Toma una pausa de 5 minutos sin pantallas para respirar hondo y relajar tu mente.',
       },
-      articleId: 'post-gemeos',
+      articleId: 'wp-442',
     },
     aries: {
       theme: {
@@ -237,7 +237,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         en: 'Take a pleasant walk or gentle stretch to balance your physical energy.',
         es: 'Haz una caminata agradable para equilibrar tu energía.',
       },
-      articleId: 'post-aries',
+      articleId: 'wp-1338',
     },
     touro: {
       theme: {
@@ -260,7 +260,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         en: 'Enjoy your meals slowly, paying mindful attention to every flavor.',
         es: 'Come sin prisas, saboreando cada bocado con gratitud.',
       },
-      articleId: 'post-touro',
+      articleId: 'wp-1296',
     },
     cancer: {
       theme: {
@@ -283,7 +283,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         en: 'Take a soothing warm shower and reserve quiet time at home tonight.',
         es: 'Date un baño reconfortante y descansa en la tranquilidad de tu hogar.',
       },
-      articleId: 'post-cancer',
+      articleId: 'wp-1319',
     },
     leao: {
       theme: {
@@ -306,7 +306,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         en: 'Give a sincere, heartfelt compliment to someone in your daily circle.',
         es: 'Haz un cumplido sincero a alguien de tu entorno hoy.',
       },
-      articleId: 'post-leao',
+      articleId: 'wp-653',
     },
     virgem: {
       theme: {
@@ -329,7 +329,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         en: 'Tidy one small corner of your desk or room and take a deep breath of relief.',
         es: 'Ordena un rincón de tu espacio y respira con tranquilidad.',
       },
-      articleId: 'post-virgem',
+      articleId: 'wp-654',
     },
     libra: {
       theme: {
@@ -352,7 +352,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         en: 'Play soft, comforting music you love and relax your mind for 5 minutes.',
         es: 'Escucha música suave y relaja tus pensamientos durante 5 minutos.',
       },
-      articleId: 'post-libra',
+      articleId: 'wp-655',
     },
     escorpiao: {
       theme: {
@@ -375,7 +375,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         en: 'Write down an annoying thought on paper and toss it as a peaceful release.',
         es: 'Anota un pensamiento que te pese y bótalo como símbolo de desapego.',
       },
-      articleId: 'post-escorpiao',
+      articleId: 'wp-656',
     },
     sagitario: {
       theme: {
@@ -398,7 +398,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         en: 'Gaze at the open sky for a few quiet moments and breathe fresh air with thanks.',
         es: 'Mira al cielo unos instantes y respira hondo con gratitud.',
       },
-      articleId: 'post-sagitario',
+      articleId: 'wp-657',
     },
     capricornio: {
       theme: {
@@ -444,7 +444,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         en: 'Jot down an inventive idea that crossed your mind today.',
         es: 'Anota una idea creativa que te haya surgido hoy.',
       },
-      articleId: 'post-aquario',
+      articleId: 'wp-658',
     },
     peixes: {
       theme: {
@@ -467,7 +467,7 @@ export const DailyMessagePage: React.FC<DailyMessagePageProps> = ({
         en: 'Sip a warm tea and enjoy a few minutes of serene, gentle daydreaming.',
         es: 'Toma una infusión tibia y date unos minutos para soñar con calma.',
       },
-      articleId: 'post-peixes',
+      articleId: 'wp-659',
     },
   };
 

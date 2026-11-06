@@ -9,7 +9,7 @@ import { themeTitle } from '../utils/unfilteredThemes';
 import { useTranslated } from '../utils/useTranslated';
 import { BLOG_ARTICLES } from '../data/blogArticles';
 
-const POST_BY_SIGN: Record<string, string> = { aries: 'post-aries', taurus: 'post-touro', gemini: 'post-gemeos', cancer: 'post-cancer', leo: 'post-leao', virgo: 'post-virgem', libra: 'post-libra', scorpio: 'post-escorpiao', sagittarius: 'post-sagitario', capricorn: 'post-capricornio', aquarius: 'post-aquario', pisces: 'post-peixes' };
+const POST_BY_SIGN: Record<string, string> = { aries: 'wp-1338', taurus: 'wp-1296', gemini: 'wp-442', cancer: 'wp-1319', leo: 'wp-653', virgo: 'wp-654', libra: 'wp-655', scorpio: 'wp-656', sagittarius: 'wp-657', capricorn: 'post-capricornio', aquarius: 'wp-658', pisces: 'wp-659' };
 
 interface DescribeMeResult { name: string; sign: string; birthDate: string; birthTime?: string; birthCity?: string; description: string; createdAt: string; tagline?: string; themeKey?: string; lang?: 'en' | 'pt' | 'es'; bigThree?: { sun: { name: string; symbol: string }; moon: { name: string; symbol: string }; rising: { name: string; symbol: string } | null }; }
 interface DescribeMeResultPageProps { onBackToForm: () => void; onBackToHome: () => void; onNavigateToBlog: () => void; onOpenArticle?: (articleId: string) => void; }
