@@ -98,7 +98,7 @@ function freshToken(): Promise<string | null> {
     const api = await load();
     if (!api || !widgetId) return null;
     return new Promise<string | null>((resolve) => {
-      let timer = setTimeout(() => { extend = null; pending = null; resolve(null); }, 12000);
+      let timer = setTimeout(() => { extend = null; pending = null; resolve(null); }, 20000);
       extend = () => { clearTimeout(timer); timer = setTimeout(() => { extend = null; pending = null; showHint(false); resolve(null); }, 120000); };
       pending = (token) => { clearTimeout(timer); extend = null; pending = null; resolve(token); };
       try { api.reset(widgetId as string); api.execute(widgetId as string); } catch { clearTimeout(timer); extend = null; pending = null; resolve(null); }
@@ -109,9 +109,25 @@ function freshToken(): Promise<string | null> {
   return next;
 }
 
+/** Starts the check early, while the person is still typing, so the proof is ready when they press send. */
+let warming = false;
+function warmUp() {
+  if (warming || (kept && Date.now() - kept.at < KEEP_MS - 30_000)) return;
+  warming = true;
+  freshToken()
+    .then((t) => { if (t) kept = { token: t, at: Date.now() }; })
+    .catch(() => null)
+    .finally(() => { warming = false; });
+}
+
 /** Wraps window.fetch once. */
 export function installHumanCheck() {
   if (!SITE_KEY || typeof window === 'undefined') return;
+  // First time someone touches a form field: run the check in the background (kept for the next request, valid ~4 min).
+  window.addEventListener('focusin', (e) => {
+    const t = e.target as HTMLElement | null;
+    if (t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) warmUp();
+  });
   const original = window.fetch.bind(window);
   window.fetch = async (input: RequestInfo | URL, init?: RequestInit) => {
     try {
