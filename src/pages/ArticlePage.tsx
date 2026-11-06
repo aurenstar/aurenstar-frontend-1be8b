@@ -1,5 +1,7 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { fetchWithHumanCheck } from '../utils/turnstile';
+import { getArticleSlugById } from '../utils/articleSlug';
+import { onPlainClick } from '../utils/links';
 import {
   ArrowLeft,
   ArrowRight,
@@ -497,16 +499,9 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
             </h3>
 
             {/* Horizontal Chapter Card matching Card Continue Lendo.png */}
-            <div
-              onClick={() => onSelectArticle(nextArticle.id)}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                  e.preventDefault();
-                  onSelectArticle(nextArticle.id);
-                }
-              }}
-              tabIndex={0}
-              role="button"
+            <a
+              href={`/blog/${getArticleSlugById(nextArticle.id)}`}
+              onClick={onPlainClick(() => onSelectArticle(nextArticle.id))}
               aria-label={`${l.continueReading}: ${nextArticle.title[lang] || nextArticle.title.pt}`}
               className="w-full bg-white rounded-2xl sm:rounded-3xl border border-[#D9E8F8] shadow-sm hover:shadow-md hover:border-[#3982C8]/40 transition-all duration-300 p-3 sm:p-4.5 flex items-center justify-between gap-3 sm:gap-6 cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#3982C8]/40"
             >
@@ -539,7 +534,7 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
               <div className="shrink-0 text-[#17366F] group-hover:text-[#3982C8] group-hover:translate-x-1.5 transition-all duration-300 pr-1 sm:pr-2">
                 <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 stroke-[2.2]" />
               </div>
-            </div>
+            </a>
           </section>
         )}
 
