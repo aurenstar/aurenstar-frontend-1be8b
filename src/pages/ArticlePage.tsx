@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useMemo } from 'react';
+import { fetchWithHumanCheck } from '../utils/turnstile';
 import {
   ArrowLeft,
   ArrowRight,
@@ -95,7 +96,10 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
     if (languageChosen) return;
     let cancelled = false;
     const slow = window.setTimeout(() => !cancelled && setAdapting(true), 1500);
-    fetch(`/api/localize?article=${encodeURIComponent(baseArticle.id)}${getUrlLang() ? `&lang=${getUrlLang()}` : ''}`)
+    const localizeUrl = `/api/localize?article=${encodeURIComponent(baseArticle.id)}${getUrlLang() ? `&lang=${getUrlLang()}` : ''}`;
+    // First without the person-check (enough for every version that already exists); only if the server says a new version must be made (403) the check is added.
+    fetch(localizeUrl)
+      .then((r) => (r.status === 403 ? fetchWithHumanCheck(localizeUrl) : r))
       .then((r) => (r.ok ? (r.json() as Promise<LocalizedResponse>) : null))
       .then((d) => {
         if (cancelled || !d?.success || !d.article) return;

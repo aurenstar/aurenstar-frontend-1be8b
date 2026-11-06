@@ -4,7 +4,7 @@
  * carries a fresh, invisible "this is a person" proof in the header x-turnstile.
  */
 const SITE_KEY = (import.meta.env.VITE_TURNSTILE_SITE_KEY as string | undefined)?.trim();
-const PROTECTED = /^\/api\/(aureneffect|aurendaily|unfiltered|translate-ui|translate|localize|compatibility|transits|subscribe|comments)(\?|$)/;
+const PROTECTED = /^\/api\/(aureneffect|aurendaily|unfiltered|translate-ui|translate|compatibility|transits|subscribe|comments)(\?|$)/;
 
 type TurnstileApi = {
   render: (el: HTMLElement, opts: Record<string, unknown>) => string;
@@ -107,6 +107,15 @@ function freshToken(): Promise<string | null> {
   const next = queue.then(run, run);
   queue = next.catch(() => null);
   return next;
+}
+
+/** For endpoints that only ask for the proof when they really need it (answer 403): sends the request again with a fresh proof. */
+export async function fetchWithHumanCheck(url: string, init?: RequestInit): Promise<Response> {
+  if (!SITE_KEY) return fetch(url, init);
+  const token = await freshToken();
+  const headers = new Headers(init?.headers);
+  if (token) headers.set('x-turnstile', token);
+  return fetch(url, { ...init, headers });
 }
 
 /** Starts the check early, while the person is still typing, so the proof is ready when they press send. */

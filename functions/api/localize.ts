@@ -19,7 +19,8 @@ interface Context {
 }
 
 export const onRequestGet = async ({ request, env }: Context): Promise<Response> => {
-  if (!(await humanCheck(request, env as any))) return humanCheckFailed();
+  // The "am I a person?" check is asked only when a NEW country version has to be written by the AI (that is what costs money).
+  // Reading a version that already exists, or the original article, needs no check, so most readers never load the check at all.
   const headers = { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'private, max-age=600' };
   const none = (reason: string) => new Response(JSON.stringify({ success: false, reason }), { headers });
   try {
@@ -37,6 +38,7 @@ export const onRequestGet = async ({ request, env }: Context): Promise<Response>
     let article = await getCachedReading<LocalizedArticle>(env, key, CACHE_SECONDS);
 
     if (!article) {
+      if (!(await humanCheck(request, env as any))) return humanCheckFailed();
       const day = new Date().toISOString().slice(0, 10);
       const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
       const ipHits = await countHit(env, await usageKey(env, ['article-loc-ip', day, ip]), 24 * 3600);
