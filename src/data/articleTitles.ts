@@ -22,6 +22,7 @@ export const ARTICLE_TITLES: Record<string, { en: string; pt: string; es: string
     ['wp-429', 'How Gemini Acts When Falling in Love: Signs People Miss', 'Como Gêmeos age quando se apaixona: os sinais que passam despercebidos', 'Cómo actúa Géminis cuando se enamora: las señales que pasan desapercibidas'],
     ['wp-413', 'Why Gemini Needs Freedom (And What That Means for You)', 'Por que Gêmeos valoriza tanto a liberdade?', '¿Por qué Géminis valora tanto la libertad?'],
     ['wp-156', 'What Is Gemini Really Like? A Closer Look', 'Como Gêmeos realmente é? Um olhar mais de perto', '¿Cómo es Géminis en realidad? Una mirada más cercana'],
+    ['wp-1377', 'Capricorn Traits: Key Personality Patterns Explained', 'Características de Capricórnio: padrões de personalidade explicados', 'Rasgos de Capricornio: patrones de personalidad explicados'],
     ['wp-1338', 'Aries Traits: Key Personality Patterns Explained', 'Características de Áries: padrões de personalidade explicados', 'Rasgos de Aries: patrones de personalidad explicados'],
     ['wp-1319', 'Cancer Zodiac Traits: Personality Insights Explained', 'Características de Câncer: a personalidade do signo explicada', 'Rasgos de Cáncer: la personalidad del signo explicada'],
     ['wp-1314', 'Leo Personality: Key Traits and What Drives This Sign', 'Personalidade de Leão: características e o que move este signo', 'Personalidad de Leo: rasgos y lo que mueve a este signo'],
