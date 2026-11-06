@@ -178,6 +178,15 @@ for (const article of BLOG_ARTICLES) {
   }
 }
 
+// 2a. Old WordPress addresses (blog.aurenstar.com/2026/10/19/<wp-slug>/) -> the same article on the new site.
+// Cloudflare sends blog.aurenstar.com/<path> to /old-blog/<path>; functions/old-blog looks the WordPress slug up in this map
+// (a small file instead of one redirect line per post, because Cloudflare allows only 100 pattern lines).
+const oldBlogMap: Record<string, string> = {};
+for (const article of BLOG_ARTICLES) {
+  const wpSlug = (article as { wordpress?: { slug?: string } }).wordpress?.slug;
+  if (wpSlug) oldBlogMap[wpSlug] = getArticleSlug(article);
+}
+
 // 2b. Blog category pages (/blog/categoria/<slug>); thin ones are written but marked noindex
 for (const category of BLOG_CATEGORIES) {
   emit(getSeoData('blog', { categorySlug: category.slug }));
@@ -263,10 +272,12 @@ if (sorted.length <= PAGES_PER_FILE) {
   );
 }
 
+fs.writeFileSync(path.join(dist, 'old-blog-map.json'), JSON.stringify(oldBlogMap));
+
 // _routes.json: the only addresses that run Functions (the API and the language addresses); everything else is static.
 fs.writeFileSync(
   path.join(dist, '_routes.json'),
-  JSON.stringify({ version: 1, include: ['/api/*', ...URL_LANGUAGES.flatMap((l) => [`/${l}`, `/${l}/*`])], exclude: [] }, null, 2) + '\n'
+  JSON.stringify({ version: 1, include: ['/api/*', '/old-blog', '/old-blog/*', ...URL_LANGUAGES.flatMap((l) => [`/${l}`, `/${l}/*`])], exclude: [] }, null, 2) + '\n'
 );
 
 // _redirects: keep the hand-written rules from public/_redirects and add the generated ones
