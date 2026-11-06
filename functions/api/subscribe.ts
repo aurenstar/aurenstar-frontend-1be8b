@@ -4,11 +4,12 @@ import { countHit, recordSubscriber, usageKey, type UsageEnv } from '../../serve
 import { humanCheck, humanCheckFailed } from '../../server/engine/turnstile';
 import { emailMessage } from '../../src/utils/emailGuard';
 import { NEWSLETTER_CONSENT, TSHIRT_CONSENT } from '../../src/data/subscribeConsent';
+import { sendToBrevo, type BrevoEnv } from '../../server/engine/brevo';
 
 const json = (data: unknown, status = 200) =>
   new Response(JSON.stringify(data), { status, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
 
-export const onRequestPost = async ({ request, env }: { request: Request; env: UsageEnv }): Promise<Response> => {
+export const onRequestPost = async ({ request, env, waitUntil }: { request: Request; env: UsageEnv & BrevoEnv; waitUntil?: (p: Promise<unknown>) => void }): Promise<Response> => {
   if (!(await humanCheck(request, env as any))) return humanCheckFailed();
   let b: Record<string, unknown> = {};
   try { b = (await request.json()) as Record<string, unknown>; } catch { return json({ ok: false }, 400); }
@@ -26,5 +27,9 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: U
   const country = /^[A-Z]{2}$/.test(cc) && cc !== 'XX' && cc !== 'T1' ? cc : '';
   const region = String(cf?.region || request.headers.get('CF-Region') || '').slice(0, 60);
   const saved = await recordSubscriber(env, { country, region, list, email, sign: String(b.sign || '').slice(0, 20), lang, source: String(b.source || '').slice(0, 30), consentText: (list === 'newsletter' ? NEWSLETTER_CONSENT : TSHIRT_CONSENT)[lang] });
-  return saved ? json({ ok: true }) : json({ ok: false, reason: 'unavailable' }, 502);
+  if (!saved) return json({ ok: false, reason: 'unavailable' }, 502);
+  // Copy to Brevo in the background (does nothing until the owner sets the Brevo variables; never blocks or fails the sign-up)
+  const copy = sendToBrevo(env, { email, list, sign: String(b.sign || '').slice(0, 20), lang, country, source: String(b.source || '').slice(0, 30) });
+  if (waitUntil) waitUntil(copy);
+  return json({ ok: true });
 };
