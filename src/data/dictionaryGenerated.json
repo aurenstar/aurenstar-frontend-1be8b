@@ -1166,5 +1166,274 @@
         ]
       }
     }
+  },
+  {
+    "termo": "Saturn Return",
+    "tituloSEO": "What Is a Saturn Return? A Simple Guide",
+    "perguntaGoogle": "What is a Saturn return?",
+    "resumoUmaLinha": "A Saturn return is when Saturn returns to the place it held at your birth.",
+    "explicacaoEducativa": "Learn what a Saturn return means in astrology, when it often happens, and why people link it with growing up.",
+    "chamadaCuriosa": "Why do people connect Saturn with life chapters?",
+    "oQueSignifica": "A Saturn return happens when Saturn comes back to the same spot in the sky that it held when you were born. This takes about 29 years, so the first return often happens around ages 29 or 30. Think of it like reaching a familiar mile marker and checking where you want to go next.",
+    "oQueSignificaNaAstrologia": "In astrology, a Saturn return is linked to growing up, taking responsibility, and looking at your goals. Astrologers may see it as a time to review your choices, limits, and plans. It does not mean that one event must happen; people can understand this phase in different ways.",
+    "exemploFicticio": "Maria is turning 29 and thinks about whether her busy weekly schedule still fits her. She uses the moment to consider what matters to her, without feeling she has to change everything at once.",
+    "dicaRapida": "Write down one goal that matters to you and one small step you could take toward it.",
+    "miniJogo": {
+      "pergunta": "You are thinking about a goal during a Saturn return. What is a thoughtful next step?",
+      "opcoes": [
+        {
+          "texto": "Pause and consider what matters before choosing a small step.",
+          "correta": true,
+          "explicacao": "Astrology links this phase with reflection and responsibility, not rushed decisions."
+        },
+        {
+          "texto": "Assume you must make a major change right away.",
+          "correta": false,
+          "explicacao": "A Saturn return does not require one big change or a fixed choice."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "When does a Saturn return happen?",
+        "resposta": "The first often happens around ages 29 or 30. Saturn returns about every 29 years."
+      },
+      {
+        "pergunta": "Does a Saturn return affect everyone the same way?",
+        "resposta": "No. In astrology, it is a time linked with reflection, but each person may experience it differently."
+      }
+    ],
+    "termosRelacionados": [
+      "mapa-astral",
+      "what-is-a-transit-in-astrology",
+      "casas-astrologicas"
+    ],
+    "id": "what-is-a-saturn-return",
+    "slug": "what-is-a-saturn-return",
+    "categoria": "Phases & Movements",
+    "icone": "🪐",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Retorno de Saturno",
+        "perguntaGoogle": "O que é o retorno de Saturno?",
+        "resumoUmaLinha": "O retorno de Saturno acontece quando Saturno volta à posição que ocupava quando você nasceu.",
+        "chamadaCuriosa": "Por que as pessoas associam Saturno a fases da vida?",
+        "oQueSignifica": "O retorno de Saturno acontece quando Saturno volta ao mesmo ponto no céu que ocupava quando você nasceu. Isso leva cerca de 29 anos, então o primeiro retorno costuma acontecer por volta dos 29 ou 30 anos. Pense nele como um marco conhecido na estrada, que faz você parar e pensar para onde quer ir agora.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o retorno de Saturno está ligado a amadurecer, assumir responsabilidades e refletir sobre seus objetivos. Astrólogos podem ver esse período como uma oportunidade para rever suas escolhas, seus limites e seus planos. Isso não quer dizer que um acontecimento específico precise acontecer. Cada pessoa pode entender essa fase de um jeito diferente.",
+        "exemploFicticio": "Maria está fazendo 29 anos e pensa se a rotina corrida da semana ainda combina com ela. Ela aproveita esse momento para pensar no que é importante, sem sentir que precisa mudar tudo de uma vez.",
+        "faq": [
+          {
+            "pergunta": "Quando acontece o retorno de Saturno?",
+            "resposta": "O primeiro costuma acontecer por volta dos 29 ou 30 anos. Saturno retorna a cada 29 anos, aproximadamente."
+          },
+          {
+            "pergunta": "O retorno de Saturno afeta todo mundo do mesmo jeito?",
+            "resposta": "Não. Na astrologia, ele é um período ligado à reflexão, mas cada pessoa pode vivê-lo de um jeito diferente."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Retorno de Saturno",
+        "perguntaGoogle": "¿Qué es el retorno de Saturno?",
+        "resumoUmaLinha": "El retorno de Saturno ocurre cuando Saturno vuelve al lugar que ocupaba cuando naciste.",
+        "chamadaCuriosa": "¿Por qué se relaciona a Saturno con las etapas de la vida?",
+        "oQueSignifica": "El retorno de Saturno ocurre cuando Saturno vuelve al mismo lugar del cielo que ocupaba cuando naciste. Esto tarda unos 29 años, así que el primer retorno suele ocurrir alrededor de los 29 o 30 años. Piensa en ello como llegar a un punto conocido del camino y revisar hacia dónde quieres ir después.",
+        "oQueSignificaNaAstrologia": "En astrología, el retorno de Saturno se relaciona con madurar, asumir responsabilidades y revisar tus metas. Los astrólogos pueden verlo como un momento para evaluar tus decisiones, límites y planes. No significa que tenga que ocurrir un evento específico; cada persona puede entender esta etapa de distintas maneras.",
+        "exemploFicticio": "Maria está por cumplir 29 años y se pregunta si su apretada rutina semanal todavía le funciona. Aprovecha este momento para pensar en lo que es importante para ella, sin sentir que tiene que cambiarlo todo de una vez.",
+        "faq": [
+          {
+            "pergunta": "¿Cuándo ocurre el retorno de Saturno?",
+            "resposta": "El primero suele ocurrir alrededor de los 29 o 30 años. Saturno regresa aproximadamente cada 29 años."
+          },
+          {
+            "pergunta": "¿El retorno de Saturno afecta a todas las personas de la misma manera?",
+            "resposta": "No. En astrología, es un momento relacionado con la reflexión, pero cada persona puede vivirlo de manera diferente."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Black Moon Lilith",
+    "tituloSEO": "What Is Lilith in Astrology? A Simple Guide",
+    "perguntaGoogle": "What is Lilith in astrology?",
+    "resumoUmaLinha": "Black Moon Lilith is a chart point linked with independence, boundaries, and parts of self we hide.",
+    "explicacaoEducativa": "Learn how Black Moon Lilith is read in a birth chart and why it is not a planet.",
+    "chamadaCuriosa": "What might Lilith show about your need for freedom?",
+    "oQueSignifica": "Black Moon Lilith is not a planet or a physical object in space. It is a point worked out from the Moon’s path around Earth. Think of it like a marker on a map: it shows a place astrologers pay attention to, not a thing you can see.",
+    "oQueSignificaNaAstrologia": "In astrology, Black Moon Lilith is linked to independence, strong boundaries, and feelings or wishes a person may keep hidden. Its sign and house can suggest where someone wants more freedom or feels judged. These are symbolic ideas, not fixed facts about a person.",
+    "exemploFicticio": "When Maria sees Black Moon Lilith in her chart, she reads about its link to speaking up. At work, she calmly shares an idea she usually keeps to herself.",
+    "dicaRapida": "Use Lilith as a prompt to notice where you want clearer boundaries, not as a label.",
+    "miniJogo": {
+      "pergunta": "Your friend says no to an extra task because they need rest. Which Lilith theme might this bring to mind?",
+      "opcoes": [
+        {
+          "texto": "Setting a boundary and making room for personal needs",
+          "correta": true,
+          "explicacao": "Yes. Boundaries and independence are themes often linked with Black Moon Lilith."
+        },
+        {
+          "texto": "A planet changing its orbit",
+          "correta": false,
+          "explicacao": "Black Moon Lilith is a calculated point, not a planet moving through space."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "What does Black Moon Lilith represent?",
+        "resposta": "In astrology, it is linked with independence, boundaries, and parts of ourselves we may hide."
+      },
+      {
+        "pergunta": "Is Black Moon Lilith a planet?",
+        "resposta": "No. It is a calculated point connected to the Moon’s orbit. Astrologers may use different ways to calculate it."
+      }
+    ],
+    "termosRelacionados": [
+      "mapa-astral",
+      "casas-astrologicas",
+      "what-is-a-natal-chart"
+    ],
+    "id": "what-is-lilith-in-astrology",
+    "slug": "what-is-lilith-in-astrology",
+    "categoria": "Planets & Bodies",
+    "icone": "🌑",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Lilith Negra",
+        "perguntaGoogle": "O que é Lilith na astrologia?",
+        "resumoUmaLinha": "Lilith Negra é um ponto do mapa astral ligado à independência, aos limites e a partes de nós que escondemos.",
+        "chamadaCuriosa": "O que Lilith pode mostrar sobre sua necessidade de liberdade?",
+        "oQueSignifica": "Lilith Negra não é um planeta nem um objeto físico no espaço. É um ponto calculado a partir do caminho da Lua ao redor da Terra. Pense nela como uma marca no mapa: ela mostra um lugar ao qual os astrólogos dão atenção, não algo que você possa ver.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Lilith Negra está ligada à independência, a limites firmes e a sentimentos ou desejos que a pessoa pode manter escondidos. O signo e a casa podem indicar onde alguém quer mais liberdade ou sente que está sendo julgado. São ideias simbólicas, não fatos definitivos sobre uma pessoa.",
+        "exemploFicticio": "Quando Maria vê Lilith Negra no mapa astral, ela lê sobre a ligação dela com falar o que pensa. No trabalho, compartilha com calma uma ideia que costuma guardar para si.",
+        "faq": [
+          {
+            "pergunta": "O que Lilith Negra representa?",
+            "resposta": "Na astrologia, ela está ligada à independência, aos limites e a partes de nós que talvez escondamos."
+          },
+          {
+            "pergunta": "Lilith Negra é um planeta?",
+            "resposta": "Não. É um ponto calculado ligado à órbita da Lua. Os astrólogos podem usar formas diferentes para calculá-lo."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Lilith de la Luna Negra",
+        "perguntaGoogle": "¿Qué es Lilith en astrología?",
+        "resumoUmaLinha": "Lilith de la Luna Negra es un punto de la carta natal relacionado con la independencia, los límites y las partes de uno mismo que ocultamos.",
+        "chamadaCuriosa": "¿Qué podría mostrar Lilith sobre tu necesidad de libertad?",
+        "oQueSignifica": "Lilith de la Luna Negra no es un planeta ni un objeto físico en el espacio. Es un punto calculado a partir del recorrido de la Luna alrededor de la Tierra. Piensa en él como una marca en un mapa: señala un lugar al que los astrólogos prestan atención, no algo que puedas ver.",
+        "oQueSignificaNaAstrologia": "En astrología, Lilith de la Luna Negra se relaciona con la independencia, los límites firmes y los sentimientos o deseos que una persona quizá oculte. Su signo y su casa pueden sugerir dónde alguien quiere más libertad o siente que lo juzgan. Son ideas simbólicas, no hechos definitivos sobre una persona.",
+        "exemploFicticio": "Cuando Maria ve a Lilith de la Luna Negra en su carta natal, lee sobre su relación con expresar lo que piensa. En el trabajo, comparte con calma una idea que suele guardarse.",
+        "faq": [
+          {
+            "pergunta": "¿Qué representa Lilith de la Luna Negra?",
+            "resposta": "En astrología, se relaciona con la independencia, los límites y las partes de nosotros mismos que quizá ocultemos."
+          },
+          {
+            "pergunta": "¿Lilith de la Luna Negra es un planeta?",
+            "resposta": "No. Es un punto calculado relacionado con la órbita de la Luna. Los astrólogos pueden usar distintos métodos para calcularlo."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "North Node",
+    "tituloSEO": "What Is the North Node in Astrology?",
+    "perguntaGoogle": "What is the North Node in astrology?",
+    "resumoUmaLinha": "The North Node is a point in a birth chart linked to growth and new experiences.",
+    "explicacaoEducativa": "Learn what the North Node is and how astrologers connect it with growth, learning, and new experiences.",
+    "chamadaCuriosa": "What can this point say about your next steps?",
+    "oQueSignifica": "The North Node is a point where the Moon’s path crosses the Sun’s path in the sky. It is not a planet or a star. Think of it like a signpost on a map: it marks a direction, but you choose where to go.",
+    "oQueSignificaNaAstrologia": "In astrology, the North Node is linked to growth, learning, and experiences that may feel new. Astrologers read its place in a birth chart for clues about qualities a person might explore. It does not promise what will happen or tell anyone exactly what to do.",
+    "exemploFicticio": "Maria sees that her North Node is linked with speaking up. At a team meeting, she shares an idea, even though she feels shy, and learns from the experience.",
+    "dicaRapida": "Use the North Node as a prompt to notice what feels new, not as a rule you must follow.",
+    "miniJogo": {
+      "pergunta": "A chart reader is talking about the North Node. What might they focus on?",
+      "opcoes": [
+        {
+          "texto": "Qualities and experiences a person may explore",
+          "correta": true,
+          "explicacao": "In astrology, the North Node is linked to growth and new experiences."
+        },
+        {
+          "texto": "The exact weather a person will have tomorrow",
+          "correta": false,
+          "explicacao": "The North Node is a point in a chart, not a weather forecast."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the North Node a planet?",
+        "resposta": "No. It is a point where the Moon’s path crosses the Sun’s path in the sky."
+      },
+      {
+        "pergunta": "Does the North Node predict my future?",
+        "resposta": "No. In astrology, it is linked to growth, but it cannot promise what will happen."
+      }
+    ],
+    "termosRelacionados": [
+      "what-is-a-natal-chart",
+      "what-are-the-houses-in-astrology"
+    ],
+    "id": "what-is-the-north-node-in-astrology",
+    "slug": "what-is-the-north-node-in-astrology",
+    "categoria": "Planets & Bodies",
+    "icone": "🧭",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Nodo Norte",
+        "perguntaGoogle": "O que é o Nodo Norte na astrologia?",
+        "resumoUmaLinha": "O Nodo Norte é um ponto do mapa astral ligado ao crescimento e a novas experiências.",
+        "chamadaCuriosa": "O que esse ponto pode dizer sobre seus próximos passos?",
+        "oQueSignifica": "O Nodo Norte é um ponto onde o caminho da Lua cruza o caminho do Sol no céu. Não é um planeta nem uma estrela. Pense nele como uma placa em um mapa: ele mostra uma direção, mas você escolhe para onde ir.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o Nodo Norte está ligado ao crescimento, ao aprendizado e a experiências que podem parecer novas. Os astrólogos observam sua posição no mapa astral para encontrar pistas sobre qualidades que uma pessoa pode explorar. Ele não promete o que vai acontecer nem diz exatamente o que alguém deve fazer.",
+        "exemploFicticio": "Maria vê que o Nodo Norte dela está ligado a se expressar. Em uma reunião de equipe, ela compartilha uma ideia, mesmo estando tímida, e aprende com a experiência.",
+        "faq": [
+          {
+            "pergunta": "O Nodo Norte é um planeta?",
+            "resposta": "Não. É um ponto onde o caminho da Lua cruza o caminho do Sol no céu."
+          },
+          {
+            "pergunta": "O Nodo Norte prevê meu futuro?",
+            "resposta": "Não. Na astrologia, ele está ligado ao crescimento, mas não pode prometer o que vai acontecer."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Nodo Norte",
+        "perguntaGoogle": "¿Qué es el Nodo Norte en astrología?",
+        "resumoUmaLinha": "El Nodo Norte es un punto de la carta natal relacionado con el crecimiento y las nuevas experiencias.",
+        "chamadaCuriosa": "¿Qué puede decir este punto sobre tus próximos pasos?",
+        "oQueSignifica": "El Nodo Norte es un punto donde la órbita de la Luna cruza la trayectoria del Sol en el cielo. No es un planeta ni una estrella. Piensa en él como una señal en un mapa: marca una dirección, pero tú decides adónde ir.",
+        "oQueSignificaNaAstrologia": "En astrología, el Nodo Norte se relaciona con el crecimiento, el aprendizaje y las experiencias que pueden sentirse nuevas. Los astrólogos observan su posición en la carta natal para encontrar pistas sobre cualidades que una persona podría explorar. No promete lo que va a pasar ni le dice a nadie exactamente qué hacer.",
+        "exemploFicticio": "Maria ve que su Nodo Norte está relacionado con expresarse con seguridad. En una reunión de equipo, comparte una idea aunque se siente tímida, y aprende de la experiencia.",
+        "faq": [
+          {
+            "pergunta": "¿El Nodo Norte es un planeta?",
+            "resposta": "No. Es un punto donde la órbita de la Luna cruza la trayectoria del Sol en el cielo."
+          },
+          {
+            "pergunta": "¿El Nodo Norte predice mi futuro?",
+            "resposta": "No. En astrología, se relaciona con el crecimiento, pero no puede prometer lo que va a pasar."
+          }
+        ]
+      }
+    }
   }
 ]
