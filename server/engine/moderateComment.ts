@@ -34,7 +34,7 @@ ${JSON.stringify({ name: c.name, stars: c.stars || null, comment: c.message })}`
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${env.OPENAI_API_KEY}` },
       signal: controller.signal,
-      body: JSON.stringify({ model: env.OPENAI_MODEL || 'gpt-6.1-terra', response_format: { type: 'json_object' }, messages: [{ role: 'user', content: prompt }] }),
+      body: JSON.stringify({ model: env.OPENAI_MODEL || 'gpt-4.1-mini', response_format: { type: 'json_object' }, messages: [{ role: 'user', content: prompt }] }),
     });
     if (!res.ok) return FALLBACK;
     const json: any = await res.json();

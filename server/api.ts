@@ -460,7 +460,7 @@ Return ONLY a valid JSON object:
             headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${openai.key}` },
             signal: controller.signal,
             body: JSON.stringify({
-              model: openai.model || 'gpt-6.1-terra',
+              model: openai.model || 'gpt-4.1-mini',
               response_format: { type: 'json_object' },
               messages: [{ role: 'user', content: prompt }],
             }),
@@ -623,7 +623,7 @@ Return ONLY valid JSON:
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${openai.key}` },
         signal: controller.signal,
         body: JSON.stringify({
-          model: openai.model || 'gpt-6.1-terra',
+          model: openai.model || 'gpt-4.1-mini',
           response_format: { type: 'json_object' },
           messages: [{ role: 'user', content: prompt }],
         }),
@@ -718,7 +718,7 @@ Return ONLY valid JSON:
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${openai.key}` },
         signal: controller.signal,
         body: JSON.stringify({
-          model: openai.model || 'gpt-6.1-terra',
+          model: openai.model || 'gpt-4.1-mini',
           response_format: { type: 'json_object' },
           messages: [{ role: 'user', content: prompt }],
         }),

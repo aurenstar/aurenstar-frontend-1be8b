@@ -104,7 +104,7 @@ async function callModel(env: LocalizeEnv, prompt: string, expected: number, sig
     headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${env.OPENAI_API_KEY}` },
     signal,
     body: JSON.stringify({
-      model: env.OPENAI_MODEL || 'gpt-6.1-terra',
+      model: env.OPENAI_MODEL || 'gpt-4.1-mini',
       response_format: { type: 'json_object' },
       messages: [{ role: 'user', content: prompt }],
     }),
