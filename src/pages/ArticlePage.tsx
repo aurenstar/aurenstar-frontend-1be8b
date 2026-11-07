@@ -533,7 +533,7 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
           ))}
 
           {/* Key Takeaways Box */}
-          {article.keyTakeaways && (
+          {(article.keyTakeaways?.[lang]?.length || article.keyTakeaways?.pt?.length) ? (
             <div className="my-10 p-6 sm:p-7 rounded-2xl bg-[#E4F1FF]/60 border border-[#D9E8F8] shadow-xs">
               <h3 className="text-sm sm:text-base font-bold text-[#17366F] uppercase tracking-wider mb-4 flex items-center gap-2">
                 <Sparkles className="w-4 h-4 text-[#3982C8]" />
@@ -553,7 +553,7 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
                 )}
               </ul>
             </div>
-          )}
+          ) : null}
         </div>
         </div>
 

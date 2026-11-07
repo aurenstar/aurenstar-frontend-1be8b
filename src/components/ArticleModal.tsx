@@ -251,6 +251,7 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({
             </div>
 
             {/* Key Takeaways Card */}
+            {(article.keyTakeaways?.[lang]?.length || article.keyTakeaways?.pt?.length) ? (
             <div className="p-5 sm:p-6 rounded-2xl bg-[#FFFFFF] border border-[#D9E8F8] shadow-xs">
               <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#172B4D] mb-3 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-[#3982C8]" />
@@ -265,6 +266,7 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({
                 ))}
               </ul>
             </div>
+            ) : null}
           </div>
 
           {/* Next Article Card recommendation */}
