@@ -4,11 +4,23 @@
     "last": "miniJogo option without text or explanation"
   },
   "What is a trine in astrology?": {
-    "count": 2,
-    "last": "miniJogo option without text or explanation; contains a risky claim (cure, guarantee, medical...)"
+    "count": 3,
+    "last": "error: model error 403"
   },
   "What is Chiron in astrology?": {
+    "count": 2,
+    "last": "error: model error 403"
+  },
+  "What is the South Node in astrology?": {
     "count": 1,
-    "last": "miniJogo option without text or explanation"
+    "last": "error: model error 403"
+  },
+  "What is the Part of Fortune in astrology?": {
+    "count": 1,
+    "last": "error: model error 403"
+  },
+  "What is Venus retrograde?": {
+    "count": 1,
+    "last": "error: model error 403"
   }
 }
