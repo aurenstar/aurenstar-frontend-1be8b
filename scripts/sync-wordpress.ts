@@ -78,7 +78,9 @@ function dates(iso: string) {
   };
 }
 
-async function getJson(url: string) {
+async function getJson(rawUrl: string) {
+  // WordPress.com serves old copies of the post list from its cache; a unique value on every call forces the fresh list
+  const url = rawUrl + (rawUrl.includes('?') ? '&' : '?') + `_cb=${Date.now()}`;
   const res = await fetch(url, { headers: { 'User-Agent': 'AurenstarSync/1.0' } });
   if (!res.ok) throw new Error(`${url} -> ${res.status}`);
   return { json: await res.json(), pages: Number(res.headers.get('x-wp-totalpages') || 1) };
@@ -147,6 +149,15 @@ async function main() {
     });
   }
   articles.sort((a, b) => (a.id < b.id ? 1 : -1));
+  // safety: never silently drop published articles (a stale list would delete live pages)
+  try {
+    const before = JSON.parse(fs.readFileSync(OUT, 'utf8')).length;
+    if (articles.length < before && !process.env.ALLOW_SHRINK) {
+      throw new Error(`WordPress list has ${articles.length} posts but the site has ${before}; refusing to remove articles (set ALLOW_SHRINK=1 to allow)`);
+    }
+  } catch (e: any) {
+    if (String(e.message).startsWith('WordPress list')) throw e;
+  }
   fs.writeFileSync(OUT, JSON.stringify(articles, null, 2) + '\n');
   console.log(`wordpress: ${articles.length} articles written from ${WP}`);
 }

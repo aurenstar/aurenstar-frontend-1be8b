@@ -19,7 +19,7 @@ jobs:
       - name: Is there anything new in WordPress?
         id: check
         run: |
-          BASE="https://blog.aurenstar.com/wp-json/wp/v2/posts?per_page=1&orderby=modified&order=desc"
+          BASE="https://blog.aurenstar.com/wp-json/wp/v2/posts?per_page=1&orderby=modified&order=desc&_cb=$(date +%s%N)"
           LAST=$(curl -fsS "$BASE&_fields=id,modified_gmt" | tr -d '[:space:]')
           TOTAL=$(curl -fsSI "$BASE&_fields=id" | tr -d '\r' | grep -i '^x-wp-total:' | awk '{print $2}')
           NOW="$LAST|$TOTAL"
