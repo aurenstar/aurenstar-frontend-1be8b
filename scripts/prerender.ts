@@ -287,24 +287,39 @@ if (sorted.length <= PAGES_PER_FILE) {
 const feedItems = BLOG_ARTICLES.map((article) => ({ article, iso: getArticleIsoDate(article) }))
   .filter((x) => x.iso)
   .sort((a, b) => (b.iso as string).localeCompare(a.iso as string) || getArticleSlug(a.article).localeCompare(getArticleSlug(b.article)))
-  .slice(0, 50);
+  ;
 const feedImage = (img: string) => {
   const card = img.replace(/\.webp$/, '-card.webp');
   const pick = card !== img && fs.existsSync(path.join(dist, card.replace(/^\//, ''))) ? card : img;
   return pick.startsWith('/') ? `${SITE_URL}${pick}` : pick;
 };
-const feedXml =
+// Pinterest board section (the "playlist" inside a board) for each article, worked out from its address.
+const SIGNS = ['aries', 'taurus', 'gemini', 'cancer', 'leo', 'virgo', 'libra', 'scorpio', 'sagittarius', 'capricorn', 'aquarius', 'pisces'];
+const signOf = (slug: string) => SIGNS.find((sg) => slug.includes(sg));
+function sectionOf(slug: string): string {
+  if (/horoscope/.test(slug)) return 'Horoscopes';
+  if (/friend/.test(slug)) return 'Friendship';
+  if (/money|budget|financ|side-hustle|wealth/.test(slug)) return 'Money & Wealth';
+  if (/career|work|negotiation|job|talent/.test(slug)) return 'Career & Work';
+  if (/red-flag|stress|hurt|pulls-away|turn-off|trigger|mistake/.test(slug)) return 'Red Flags & Challenges';
+  if (/love|relationship|bed|soulmate|compatib|dating|body-language|family|romance|desire/.test(slug)) return 'Love & Relationships';
+  return 'Personality & Traits';
+}
+// Feed key = one Pinterest board: one per zodiac sign, "compatibility", and "general" (everything else, daily horoscopes included).
+const feedKeyOf = (slug: string) => signOf(slug) ?? (/compatib/.test(slug) ? 'compatibility' : 'general');
+const buildFeed = (title: string, file: string, entries: typeof feedItems) =>
   `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">\n<channel>\n` +
-  `  <title>${escapeXml(SITE_NAME)} Blog</title>\n  <link>${SITE_URL}/blog</link>\n  <description>Astrology in simple language: zodiac guides, personality and daily insights.</description>\n  <language>en-US</language>\n` +
-  `  <atom:link href="${SITE_URL}/blog/feed.xml" rel="self" type="application/rss+xml" />\n` +
+  `  <title>${escapeXml(title)}</title>\n  <link>${SITE_URL}/blog</link>\n  <description>Astrology in simple language: zodiac guides, personality and daily insights.</description>\n  <language>en-US</language>\n` +
+  `  <atom:link href="${SITE_URL}/blog/${file}" rel="self" type="application/rss+xml" />\n` +
   `  <lastBuildDate>${new Date(`${feedItems[0]?.iso ?? '2026-01-01'}T12:00:00Z`).toUTCString()}</lastBuildDate>\n` +
-  feedItems
+  entries
     .map(({ article, iso }) => {
-      const link = `${SITE_URL}/blog/${getArticleSlug(article)}`;
+      const slug = getArticleSlug(article);
+      const link = `${SITE_URL}/blog/${slug}`;
       const img = feedImage(article.image);
       return (
         `  <item>\n    <title>${escapeXml(article.title.en)}</title>\n    <link>${link}</link>\n    <guid isPermaLink="true">${link}</guid>\n` +
-        `    <pubDate>${new Date(`${iso}T12:00:00Z`).toUTCString()}</pubDate>\n    <category>${escapeXml(article.category.en)}</category>\n` +
+        `    <pubDate>${new Date(`${iso}T12:00:00Z`).toUTCString()}</pubDate>\n    <category>${escapeXml(sectionOf(slug))}</category>\n` +
         `    <description>${escapeXml(article.subtitle.en)}</description>\n` +
         `    <enclosure url="${escapeXml(img)}" length="0" type="${img.endsWith('.webp') ? 'image/webp' : img.endsWith('.png') ? 'image/png' : 'image/jpeg'}" />\n` +
         `    <media:content url="${escapeXml(img)}" medium="image" />\n  </item>`
@@ -313,7 +328,12 @@ const feedXml =
     .join('\n') +
   `\n</channel>\n</rss>\n`;
 fs.mkdirSync(path.join(dist, 'blog'), { recursive: true });
-fs.writeFileSync(path.join(dist, 'blog', 'feed.xml'), feedXml);
+fs.writeFileSync(path.join(dist, 'blog', 'feed.xml'), buildFeed(`${SITE_NAME} Blog`, 'feed.xml', feedItems.slice(0, 50)));
+// One feed per Pinterest board (feed-gemini.xml, feed-leo.xml, ..., feed-compatibility.xml, feed-general.xml). Same item format, newest first.
+for (const key of [...SIGNS, 'compatibility', 'general']) {
+  const entries = feedItems.filter(({ article }) => feedKeyOf(getArticleSlug(article)) === key);
+  fs.writeFileSync(path.join(dist, 'blog', `feed-${key}.xml`), buildFeed(`${SITE_NAME} Blog - ${key}`, `feed-${key}.xml`, entries));
+}
 redirects.push('/blog/feed /blog/feed.xml 301', '/feed /blog/feed.xml 301');
 
 fs.writeFileSync(path.join(dist, 'old-blog-map.json'), JSON.stringify(oldBlogMap));
