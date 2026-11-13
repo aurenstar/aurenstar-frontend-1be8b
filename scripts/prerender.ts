@@ -329,11 +329,31 @@ const buildFeed = (title: string, file: string, entries: typeof feedItems) =>
   `\n</channel>\n</rss>\n`;
 fs.mkdirSync(path.join(dist, 'blog'), { recursive: true });
 fs.writeFileSync(path.join(dist, 'blog', 'feed.xml'), buildFeed(`${SITE_NAME} Blog`, 'feed.xml', feedItems.slice(0, 50)));
-// One feed per Pinterest board (feed-gemini.xml, feed-leo.xml, ..., feed-compatibility.xml, feed-general.xml). Same item format, newest first.
-for (const key of [...SIGNS, 'compatibility', 'general']) {
-  const entries = feedItems.filter(({ article }) => feedKeyOf(getArticleSlug(article)) === key);
-  fs.writeFileSync(path.join(dist, 'blog', `feed-${key}.xml`), buildFeed(`${SITE_NAME} Blog - ${key}`, `feed-${key}.xml`, entries));
+// One feed per Pinterest board section: feed-<sign>-<section>.xml (e.g. feed-gemini-love.xml). Pinterest lets an RSS feed save straight into a section,
+// so every pin lands in the right "playlist". Also feed-general-<section>.xml (daily horoscopes, guides) and feed-compatibility.xml (one board, no sections).
+// Empty combinations are still written (with zero items) so a new article is picked up the moment it appears.
+const SECTION_SLUGS: Record<string, string> = {
+  'Personality & Traits': 'personality',
+  'Love & Relationships': 'love',
+  'Career & Work': 'career',
+  'Money & Wealth': 'money',
+  'Red Flags & Challenges': 'redflags',
+  Friendship: 'friendship',
+  Horoscopes: 'horoscopes',
+};
+for (const key of [...SIGNS, 'general']) {
+  for (const [sectionName, sectionSlug] of Object.entries(SECTION_SLUGS)) {
+    const entries = feedItems.filter(({ article }) => {
+      const slug = getArticleSlug(article);
+      return feedKeyOf(slug) === key && sectionOf(slug) === sectionName;
+    });
+    fs.writeFileSync(path.join(dist, 'blog', `feed-${key}-${sectionSlug}.xml`), buildFeed(`${SITE_NAME} Blog - ${key} - ${sectionName}`, `feed-${key}-${sectionSlug}.xml`, entries));
+  }
 }
+fs.writeFileSync(
+  path.join(dist, 'blog', 'feed-compatibility.xml'),
+  buildFeed(`${SITE_NAME} Blog - compatibility`, 'feed-compatibility.xml', feedItems.filter(({ article }) => feedKeyOf(getArticleSlug(article)) === 'compatibility'))
+);
 redirects.push('/blog/feed /blog/feed.xml 301', '/feed /blog/feed.xml 301');
 
 fs.writeFileSync(path.join(dist, 'old-blog-map.json'), JSON.stringify(oldBlogMap));
