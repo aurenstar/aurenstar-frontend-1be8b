@@ -282,6 +282,40 @@ if (sorted.length <= PAGES_PER_FILE) {
   );
 }
 
+// RSS feed of the blog (/blog/feed.xml). Pinterest reads it and turns every new article into a pin automatically.
+// Newest first, last 50 articles. Image: the tall "-card" picture when the article has one (2:3, ideal for pins), else its normal picture.
+const feedItems = BLOG_ARTICLES.map((article) => ({ article, iso: getArticleIsoDate(article) }))
+  .filter((x) => x.iso)
+  .sort((a, b) => (b.iso as string).localeCompare(a.iso as string) || getArticleSlug(a.article).localeCompare(getArticleSlug(b.article)))
+  .slice(0, 50);
+const feedImage = (img: string) => {
+  const card = img.replace(/\.webp$/, '-card.webp');
+  const pick = card !== img && fs.existsSync(path.join(dist, card.replace(/^\//, ''))) ? card : img;
+  return pick.startsWith('/') ? `${SITE_URL}${pick}` : pick;
+};
+const feedXml =
+  `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">\n<channel>\n` +
+  `  <title>${escapeXml(SITE_NAME)} Blog</title>\n  <link>${SITE_URL}/blog</link>\n  <description>Astrology in simple language: zodiac guides, personality and daily insights.</description>\n  <language>en-US</language>\n` +
+  `  <atom:link href="${SITE_URL}/blog/feed.xml" rel="self" type="application/rss+xml" />\n` +
+  `  <lastBuildDate>${new Date(`${feedItems[0]?.iso ?? '2026-01-01'}T12:00:00Z`).toUTCString()}</lastBuildDate>\n` +
+  feedItems
+    .map(({ article, iso }) => {
+      const link = `${SITE_URL}/blog/${getArticleSlug(article)}`;
+      const img = feedImage(article.image);
+      return (
+        `  <item>\n    <title>${escapeXml(article.title.en)}</title>\n    <link>${link}</link>\n    <guid isPermaLink="true">${link}</guid>\n` +
+        `    <pubDate>${new Date(`${iso}T12:00:00Z`).toUTCString()}</pubDate>\n    <category>${escapeXml(article.category.en)}</category>\n` +
+        `    <description>${escapeXml(article.subtitle.en)}</description>\n` +
+        `    <enclosure url="${escapeXml(img)}" length="0" type="${img.endsWith('.webp') ? 'image/webp' : img.endsWith('.png') ? 'image/png' : 'image/jpeg'}" />\n` +
+        `    <media:content url="${escapeXml(img)}" medium="image" />\n  </item>`
+      );
+    })
+    .join('\n') +
+  `\n</channel>\n</rss>\n`;
+fs.mkdirSync(path.join(dist, 'blog'), { recursive: true });
+fs.writeFileSync(path.join(dist, 'blog', 'feed.xml'), feedXml);
+redirects.push('/blog/feed /blog/feed.xml 301', '/feed /blog/feed.xml 301');
+
 fs.writeFileSync(path.join(dist, 'old-blog-map.json'), JSON.stringify(oldBlogMap));
 
 // _routes.json: the only addresses that run Functions (the API and the language addresses); everything else is static.
