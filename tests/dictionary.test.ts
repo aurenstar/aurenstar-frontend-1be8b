@@ -1,4 +1,5 @@
 import { validateTerm, slugify } from '../scripts/dictionary/checks';
+import { conceptKey, toQuestion, categoryFor } from '../scripts/dictionary/demand';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 
 let failed = 0;
@@ -29,4 +30,16 @@ ok('bad category blocked', validateTerm({ ...good, categoria: 'Other' as any }, 
 ok('slugify', slugify('What is a Saturn return?') === 'what-is-a-saturn-return');
 const slugs = ASTROLOGY_DICTIONARY_TERMS.map((t) => t.slug);
 ok('no duplicate slugs on site', new Set(slugs).size === slugs.length);
+// --- real-demand finder ---
+{
+  const t = (name: string, ok: boolean) => { console.log(`${ok ? 'ok  ' : 'FAIL'} ${name}`); if (!ok) failed++; };
+  t('same idea gets the same key', conceptKey('What is a stellium in astrology?') === conceptKey('what is a stellium'));
+  t('different idea gets a different key', conceptKey('what is a stellium in gemini') !== conceptKey('what is a stellium'));
+  t('question is cleaned', toQuestion('what is a stellium in astrology') === 'What is a stellium in astrology?');
+  t('meaning form becomes a question', toQuestion('chiron meaning astrology') === 'What does chiron mean in astrology?');
+  t('tools and predictions are blocked', toQuestion('what is my horoscope today') === null && toQuestion('will i get rich astrology') === null);
+  t('not astrology is blocked', toQuestion('what is a good pizza recipe') === null);
+  t('category guess', categoryFor('What is a full moon in astrology?') === 'Phases & Movements');
+}
+
 process.exit(failed ? 1 : 0);

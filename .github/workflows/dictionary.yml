@@ -33,10 +33,10 @@ jobs:
         run: npx tsc --noEmit && npm run test:dictionary
       - name: Save
         run: |
-          if [ -n "$(git status --porcelain src/data/dictionaryGenerated.json data/dictionary-failures.json)" ]; then
+          if [ -n "$(git status --porcelain src/data/dictionaryGenerated.json data/dictionary-failures.json data/dictionary-demand.json)" ]; then
             git config user.name "aurenstar-bot"
             git config user.email "bot@aurenstar.com"
-            git add src/data/dictionaryGenerated.json data/dictionary-failures.json
+            git add src/data/dictionaryGenerated.json data/dictionary-failures.json data/dictionary-demand.json
             git commit -m "Dictionary: new terms"
             git pull --rebase origin main
             git push
