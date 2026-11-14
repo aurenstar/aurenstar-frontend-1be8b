@@ -25,7 +25,27 @@ const arg = (name: string) => {
 const MAX = Math.max(0, Math.min(20, Number(arg('max') ?? 5)));
 const DRY = process.argv.includes('--dry');
 const KEY = process.env.OPENAI_API_KEY;
-const MODEL = process.env.OPENAI_MODEL || 'gpt-4.1-mini';
+// The model is picked at run time: the first one from this list that the OpenAI key is really allowed to use (cheapest first).
+// OPENAI_MODEL (if set) is tried first. A model the account cannot use is simply skipped.
+const MODEL_CHOICES = [process.env.OPENAI_MODEL, 'gpt-6-luna', 'gpt-5-nano', 'gpt-5-mini', 'gpt-4.1-nano', 'gpt-4.1-mini', 'gpt-4o-mini'].filter(Boolean) as string[];
+let MODEL = MODEL_CHOICES[0];
+
+async function pickModel(): Promise<boolean> {
+  const tried: string[] = [];
+  for (const m of [...new Set(MODEL_CHOICES)]) {
+    try {
+      const res = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${KEY}` },
+        body: JSON.stringify({ model: m, response_format: { type: 'json_object' }, messages: [{ role: 'user', content: 'Reply with this JSON only: {"ok":true}' }] }),
+      });
+      if (res.ok) { MODEL = m; console.log(`dictionary: using model ${m}`); return true; }
+      tried.push(`${m}=${res.status}`);
+    } catch (e) { tried.push(`${m}=${(e as Error).message}`); }
+  }
+  console.log(`dictionary: no allowed model found for this key (${tried.join(', ')})`);
+  return false;
+}
 
 // Counts what the model really used, so the log shows the real cost of each run (prices in US$ per 1M tokens, from OpenAI's pricing page).
 const PRICE_IN = Number(process.env.PRICE_IN ?? 0.1);
@@ -150,6 +170,10 @@ async function main() {
   if (!DRY && !KEY) {
     console.log('dictionary: OPENAI_API_KEY is not set, nothing to do (add it as a GitHub secret to turn this on).');
     return;
+  }
+  if (!DRY && !(await pickModel())) {
+    console.error('dictionary failed: the OpenAI key cannot use any of the models we tried, so nothing was written. Allow a model for this key in the OpenAI project.');
+    process.exit(1); // makes the daily run show a red X instead of a quiet green check
   }
   let queue = readJson<Seed[]>(QUEUE, []);
   const generated = readJson<DictionaryTerm[]>(OUT, []);
