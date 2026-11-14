@@ -11,6 +11,7 @@ import { fileURLToPath } from 'node:url';
 import { ASTROLOGY_DICTIONARY_TERMS, type DictionaryTerm } from '../../src/data/astrologyDictionaryData';
 import { validateTerm, slugify, CATEGORIES } from './checks';
 import { ruleBasedTopics, type Seed } from './topics';
+import { refreshDemand, readDemand, conceptKey, DEMAND_FILE } from './demand';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const QUEUE = path.join(root, 'data/dictionary-queue.json');
@@ -189,10 +190,22 @@ async function main() {
 
   const isPending = (s: Seed) => !doneSlugs.has(slugify(s.question.replace(/\?$/, ''))) && !all.some((t) => t.perguntaGoogle === s.question) && (fails[s.question]?.count ?? 0) < 3;
   // 1) hand-made queue, 2) rule-based combinations, 3) fresh suggestions from the model (saved to the queue file)
-  let pool = [...queue, ...ruleBasedTopics()];
+  // 0) REAL demand first: questions people really type in Google (and Keyword Planner volume, if a CSV is in data/), best first.
+  const demand = MAX > 0 && !DRY ? await refreshDemand().catch(() => readDemand()) : readDemand();
+  if (!DRY && demand.items.length && MAX > 0) fs.writeFileSync(DEMAND_FILE, JSON.stringify(demand, null, 1) + '\n');
+  // one page per idea: skip a question whose idea is already covered by a published term or by a better-ranked question
+  const covered = new Set(all.flatMap((t) => [conceptKey(t.perguntaGoogle || ''), conceptKey(t.termo || '')]).filter(Boolean));
+  const demandSeeds: Seed[] = [];
+  for (const d of demand.items) {
+    const k = conceptKey(d.question);
+    if (!k || covered.has(k)) continue;
+    covered.add(k);
+    demandSeeds.push({ term: d.term, question: d.question, category: d.category, icon: d.icon });
+  }
+  let pool = [...demandSeeds, ...queue, ...ruleBasedTopics()];
   if (MAX > 0 && pool.filter(isPending).length < MAX * 2) {
     const fresh = await suggestQuestions(new Set([...doneSlugs, ...pool.map((q) => slugify(q.question.replace(/\?$/, '')))]));
-    if (fresh.length) { queue = [...queue, ...fresh]; pool = [...queue, ...ruleBasedTopics()]; if (!DRY) fs.writeFileSync(QUEUE, JSON.stringify(queue, null, 1) + '\n'); console.log(`dictionary: ${fresh.length} new questions suggested`); }
+    if (fresh.length) { queue = [...queue, ...fresh]; pool = [...demandSeeds, ...queue, ...ruleBasedTopics()]; if (!DRY) fs.writeFileSync(QUEUE, JSON.stringify(queue, null, 1) + '\n'); console.log(`dictionary: ${fresh.length} new questions suggested`); }
   }
   const seen = new Set<string>();
   const todo = MAX === 0 ? [] : pool.filter((q) => { const k = slugify(q.question.replace(/\?$/, '')); if (seen.has(k)) return false; seen.add(k); return isPending(q); }).slice(0, MAX);
