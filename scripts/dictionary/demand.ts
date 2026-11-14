@@ -14,8 +14,9 @@ import type { Seed } from './topics';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 export const DEMAND_FILE = path.join(root, 'data/dictionary-demand.json');
 const PLANNER_CSV = path.join(root, 'data/keyword-planner.csv');
+const GSC_FILE = path.join(root, 'data/search-console.json');
 
-export interface DemandItem extends Seed { score: number; source: 'google-suggest' | 'keyword-planner'; volume?: number }
+export interface DemandItem extends Seed { score: number; source: 'google-suggest' | 'keyword-planner' | 'search-console'; volume?: number }
 interface DemandFile { updated: string; items: DemandItem[] }
 
 const BASES = [
@@ -97,6 +98,20 @@ function readPlanner(): DemandItem[] {
   return out;
 }
 
+/** Optional: what people really typed in Google before landing on aurenstar.com (an n8n flow saves it weekly as data/search-console.json: [{query, clicks, impressions, position}]). */
+function readSearchConsole(): DemandItem[] {
+  try {
+    const rows = JSON.parse(fs.readFileSync(GSC_FILE, 'utf8')) as { query?: string; clicks?: number; impressions?: number }[];
+    const out: DemandItem[] = [];
+    for (const r of Array.isArray(rows) ? rows : []) {
+      const q = toQuestion(String(r.query || ''));
+      const impressions = Number(r.impressions) || 0;
+      if (q && impressions > 0) out.push({ ...seedFromQuestion(q), score: 500_000 + impressions + (Number(r.clicks) || 0) * 10, source: 'search-console', volume: impressions });
+    }
+    return out;
+  } catch { return []; }
+}
+
 export function readDemand(): DemandFile {
   try { return JSON.parse(fs.readFileSync(DEMAND_FILE, 'utf8')) as DemandFile; } catch { return { updated: '', items: [] }; }
 }
@@ -105,7 +120,8 @@ export async function refreshDemand(force = false, log = console.log): Promise<D
   const old = readDemand();
   const ageDays = old.updated ? (Date.now() - Date.parse(old.updated)) / 86_400_000 : Infinity;
   const planner = readPlanner();
-  if (!force && ageDays < 6 && old.items.length && !planner.length) return old;
+  const gsc = readSearchConsole();
+  if (!force && ageDays < 6 && old.items.length && !planner.length && !gsc.length) return old;
   const scores = new Map<string, { q: string; score: number }>();
   for (const b of BASES) {
     for (const p of PATTERNS(b)) {
@@ -124,8 +140,8 @@ export async function refreshDemand(force = false, log = console.log): Promise<D
   }
   const items: DemandItem[] = [...scores.values()].map((v) => ({ ...seedFromQuestion(v.q), score: v.score, source: 'google-suggest' as const }));
   const merged = new Map<string, DemandItem>();
-  for (const it of [...items, ...planner]) { const k = slugify(it.question.replace(/\?$/, '')); const cur = merged.get(k); if (!cur || it.score > cur.score) merged.set(k, it); }
+  for (const it of [...items, ...gsc, ...planner]) { const k = slugify(it.question.replace(/\?$/, '')); const cur = merged.get(k); if (!cur || it.score > cur.score) merged.set(k, it); }
   const out: DemandFile = { updated: new Date().toISOString(), items: [...merged.values()].sort((a, b) => b.score - a.score) };
-  log(`dictionary: demand list refreshed (${out.items.length} real questions from Google suggestions${planner.length ? ` + ${planner.length} from Keyword Planner` : ''})`);
+  log(`dictionary: demand list refreshed (${out.items.length} real questions from Google suggestions${planner.length ? ` + ${planner.length} from Keyword Planner` : ''}${gsc.length ? ` + ${gsc.length} from Search Console` : ''})`);
   return out;
 }
