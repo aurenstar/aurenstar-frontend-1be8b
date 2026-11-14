@@ -806,5 +806,460 @@
         ]
       }
     }
+  },
+  {
+    "termo": "Square Aspect",
+    "tituloSEO": "What is a Square in Astrology? - Square Aspect Explained",
+    "perguntaGoogle": "What is a square in astrology?",
+    "resumoUmaLinha": "A square in astrology is an angle that shows tension between two planets.",
+    "explicacaoEducativa": "Learn that a square is a 90-degree angle between planets, linked to challenge and growth.",
+    "chamadaCuriosa": "Why do squares shake things up in your chart?",
+    "oQueSignifica": "A square is like two friends trying to carry a heavy box from different sides — it is tricky and causes strain. They need to figure out how to work together despite pulling in different directions. This tug-of-war helps solve problems but can feel uncomfortable at first.",
+    "oQueSignificaNaAstrologia": "In astrology, a square is linked to tension or challenges between two planets. It asks for attention and learning through effort. While it can feel tough, this aspect often sparks growth and change. Planets in square push you to fix what is out of balance.",
+    "exemploFicticio": "Maria wants to host a party but feels stressed deciding what food to buy. Her friends' different tastes pull her attention in two ways, like a square causing tension. She learns to mix ideas for a fun menu everyone enjoys.",
+    "dicaRapida": "When you feel stuck, see squares as chances to learn and find new solutions.",
+    "miniJogo": {
+      "pergunta": "If two planets form a square, what feeling might you notice in daily life?",
+      "opcoes": [
+        {
+          "texto": "A little tension pushing you to solve a problem",
+          "correta": true,
+          "explicacao": "Squares often bring small challenges that help you grow by solving them."
+        },
+        {
+          "texto": "Complete peace and no need to change anything",
+          "correta": false,
+          "explicacao": "Squares usually mean some challenge, not total peace."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is a square a bad aspect in astrology?",
+        "resposta": "Not bad, just a sign of challenge. It helps you learn and grow."
+      },
+      {
+        "pergunta": "How is a square different from a conjunction?",
+        "resposta": "A square shows tension between planets; a conjunction means they work closely together."
+      }
+    ],
+    "termosRelacionados": [
+      "what-are-aspects-in-astrology",
+      "what-is-a-conjunction-in-astrology",
+      "what-is-an-opposition-in-astrology"
+    ],
+    "id": "what-is-a-square-in-astrology",
+    "slug": "what-is-a-square-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "⬛",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Aspecto Quadratura",
+        "perguntaGoogle": "O que é uma quadratura na astrologia?",
+        "resumoUmaLinha": "A quadratura na astrologia é um ângulo que mostra tensão entre dois planetas.",
+        "chamadaCuriosa": "Por que as quadraturas mexem tanto com seu mapa?",
+        "oQueSignifica": "A quadratura é como dois amigos tentando carregar uma caixa pesada de lados diferentes — é difícil e gera esforço. Eles precisam aprender a trabalhar juntos, mesmo puxando em direções opostas. Essa disputa ajuda a resolver problemas, mas pode ser desconfortável no começo.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a quadratura está ligada à tensão ou desafios entre dois planetas. Ela pede atenção e aprendizado através do esforço. Apesar de parecer difícil, esse aspecto costuma trazer crescimento e mudança. Os planetas na quadratura te empurram a consertar o que está fora do equilíbrio.",
+        "exemploFicticio": "Maria quer fazer uma festa, mas fica estressada decidindo que comida comprar. O gosto diferente dos amigos dela puxa sua atenção para dois lados, como uma quadratura que causa tensão. Ela aprende a juntar as ideias para montar um cardápio divertido que todo mundo gosta.",
+        "faq": [
+          {
+            "pergunta": "Quadratura é um aspecto ruim na astrologia?",
+            "resposta": "Não é ruim, só um sinal de desafio. Isso ajuda você a aprender e crescer."
+          },
+          {
+            "pergunta": "Qual a diferença entre quadratura e conjunção?",
+            "resposta": "Quadratura mostra tensão entre planetas; conjunção significa que eles trabalham juntos bem perto."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Aspecto Cuadrado",
+        "perguntaGoogle": "¿Qué es un cuadrado en astrología?",
+        "resumoUmaLinha": "Un cuadrado en astrología es un ángulo que muestra tensión entre dos planetas.",
+        "chamadaCuriosa": "¿Por qué los cuadrados mueven las cosas en tu carta?",
+        "oQueSignifica": "Un cuadrado es como dos amigos intentando cargar una caja pesada desde lados diferentes — es complicado y causa tensión. Tienen que aprender a trabajar juntos, aunque jalen en direcciones opuestas. Esta lucha ayuda a resolver problemas, pero puede sentirse incómoda al principio.",
+        "oQueSignificaNaAstrologia": "En astrología, un cuadrado está ligado a tensión o desafíos entre dos planetas. Pide atención y aprendizaje a través del esfuerzo. Aunque puede parecer difícil, este aspecto suele impulsar crecimiento y cambio. Los planetas en cuadrado te motivan a arreglar lo que está fuera de balance.",
+        "exemploFicticio": "María quiere hacer una fiesta, pero se siente estresada al decidir qué comida comprar. Los gustos diferentes de sus amigos tiran su atención en dos direcciones, como un cuadrado que genera tensión. Ella aprende a mezclar ideas para un menú divertido que todos disfruten.",
+        "faq": [
+          {
+            "pergunta": "¿Es un cuadrado un aspecto malo en astrología?",
+            "resposta": "No es malo, solo es una señal de desafío. Te ayuda a aprender y crecer."
+          },
+          {
+            "pergunta": "¿Cómo es un cuadrado diferente de una conjunción?",
+            "resposta": "Un cuadrado muestra tensión entre planetas; una conjunción significa que trabajan muy juntos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Trino",
+    "tituloSEO": "What is a trine in astrology? Simple explanation",
+    "perguntaGoogle": "What is a trine in astrology?",
+    "resumoUmaLinha": "A trine in astrology is an easy, flowing angle between two planets in your chart.",
+    "explicacaoEducativa": "Learn a trine is a 120-degree angle between planets. It is linked to natural harmony and ease.",
+    "chamadaCuriosa": "Discover why some things in your chart just click!",
+    "oQueSignifica": "Imagine two friends who get along without trying. A trine is like that in astrology. It means two planets share good vibes and work smoothly together. It’s like having a song that naturally sounds nice when played with another tune.",
+    "oQueSignificaNaAstrologia": "In astrology, a trine means the planets are 120 degrees apart. This angle is linked to cooperation and natural flow. When planets form a trine, their energies tend to support each other easily. It is often seen as a sign of talents or strength in those chart areas.",
+    "exemploFicticio": "Maria feels calm when she paints. Her Venus and Jupiter form a trine, helping her enjoy art and make new friends easily. It feels natural and fun, like a smooth dance between colors and smiles.",
+    "dicaRapida": "Look for trines in your chart to find areas of natural ease and strength.",
+    "miniJogo": {
+      "pergunta": "If two planets form a trine, what might that feel like?",
+      "opcoes": [
+        {
+          "texto": "Like two friends getting along easily",
+          "correta": true,
+          "explicacao": "Trines mean harmony and smooth energy between planets, like good friends."
+        },
+        {
+          "texto": "Like two people arguing loudly",
+          "correta": false,
+          "explicacao": "Arguments are more like challenging aspects, not trines."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is a trine always good in astrology?",
+        "resposta": "A trine is linked to ease and harmony, but it’s just part of your full chart picture."
+      },
+      {
+        "pergunta": "Can a trine help me with my talents?",
+        "resposta": "Learn that a trine may show areas where your skills or energy flow naturally."
+      }
+    ],
+    "termosRelacionados": [
+      "what-are-aspects-in-astrology",
+      "signo-solar",
+      "mapa-astral"
+    ],
+    "id": "what-is-a-trine-in-astrology",
+    "slug": "what-is-a-trine-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "🔺",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Trino",
+        "perguntaGoogle": "O que é um trino na astrologia?",
+        "resumoUmaLinha": "Um trino na astrologia é um ângulo fácil e harmonioso entre dois planetas no seu mapa.",
+        "chamadaCuriosa": "Descubra por que algumas coisas no seu mapa simplesmente combinam!",
+        "oQueSignifica": "Imagine dois amigos que se dão bem sem esforço. Um trino é isso na astrologia. Significa que dois planetas trocam boas energias e funcionam juntos numa boa. É como uma música que toca bem com outra, natural e agradável.",
+        "oQueSignificaNaAstrologia": "Na astrologia, um trino acontece quando os planetas estão separados por 120 graus. Esse ângulo traz cooperação e um fluxo natural. Quando os planetas formam um trino, suas energias se ajudam facilmente. Muitas vezes indica talentos ou pontos fortes nessas áreas do mapa.",
+        "exemploFicticio": "Maria se sente tranquila quando pinta. Sua Vênus e Júpiter formam um trino, ajudando ela a curtir arte e fazer amigos com facilidade. É algo natural e gostoso, como uma dança suave entre cores e sorrisos.",
+        "faq": [
+          {
+            "pergunta": "Um trino é sempre bom na astrologia?",
+            "resposta": "O trino está ligado à facilidade e harmonia, mas é só uma parte do seu mapa completo."
+          },
+          {
+            "pergunta": "Um trino pode ajudar com meus talentos?",
+            "resposta": "Sim, um trino pode mostrar áreas onde suas habilidades ou energia fluem com naturalidade."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Trino",
+        "perguntaGoogle": "¿Qué es un trino en astrología?",
+        "resumoUmaLinha": "Un trino en astrología es un ángulo fácil y fluido entre dos planetas en tu carta.",
+        "chamadaCuriosa": "¡Descubre por qué algunas cosas en tu carta simplemente funcionan!",
+        "oQueSignifica": "Imagina a dos amigos que se llevan bien sin esfuerzo. Un trino es así en astrología. Significa que dos planetas comparten buena energía y trabajan bien juntos. Es como una canción que suena natural y bonita cuando se toca con otra melodía.",
+        "oQueSignificaNaAstrologia": "En astrología, un trino es cuando los planetas están a 120 grados de distancia. Este ángulo está relacionado con la cooperación y el flujo natural. Cuando los planetas forman un trino, sus energías se apoyan fácilmente. A menudo se ve como una señal de talentos o fortalezas en esas áreas de la carta.",
+        "exemploFicticio": "María se siente tranquila cuando pinta. Su Venus y Júpiter forman un trino, ayudándola a disfrutar el arte y hacer amigos con facilidad. Se siente natural y divertido, como un baile suave entre colores y sonrisas.",
+        "faq": [
+          {
+            "pergunta": "¿Un trino siempre es bueno en astrología?",
+            "resposta": "Un trino está relacionado con la facilidad y la armonía, pero es sólo parte de toda tu carta."
+          },
+          {
+            "pergunta": "¿Un trino puede ayudarme con mis talentos?",
+            "resposta": "Saber que un trino puede mostrar áreas donde tus habilidades o energía fluyen de forma natural."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Sextile",
+    "tituloSEO": "What is a Sextile in Astrology? Simple Chart Explanation",
+    "perguntaGoogle": "What is a sextile in astrology?",
+    "resumoUmaLinha": "A sextile is an easy, friendly angle between planets, linked to chances and help.",
+    "explicacaoEducativa": "Learn that a sextile is an angle of 60 degrees in astrology, linked to helpful energy and opportunities.",
+    "chamadaCuriosa": "Did you know a sextile is like a friendly handshake in astrology?",
+    "oQueSignifica": "A sextile is like two friends standing close by, sharing ideas easily. Imagine two kids passing notes quickly across the classroom. This angle means things flow with little trouble, making it easier to try new things or solve problems together.",
+    "oQueSignificaNaAstrologia": "In astrology, a sextile happens when two planets are 60 degrees apart. This connection suggests chances for cooperation and learning. It is linked to smooth energy that encourages growth and teamwork without big struggles. It’s often seen as a sign of potential help and friendly opportunities in a chart.",
+    "exemploFicticio": "Maria notices she gets along well with her classmate Carlos during group projects. Their ideas combine smoothly, like a sextile helping planets work well together. This friendly connection makes their work easier and more fun.",
+    "dicaRapida": "Look for sextiles in your chart for easy chances to grow and connect with others.",
+    "miniJogo": {
+      "pergunta": "If two friends share ideas easily without conflict, which astrology aspect fits best?",
+      "opcoes": [
+        {
+          "texto": "A Sextile, because it shows smooth and helpful energy.",
+          "correta": true,
+          "explicacao": "Sextiles represent friendly, easy interactions between planets, like friends sharing ideas."
+        },
+        {
+          "texto": "An Opposition, because it means they always agree.",
+          "correta": false,
+          "explicacao": "Opposition means tension or challenge, not always agreement or easy sharing."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is a sextile a positive or negative aspect?",
+        "resposta": "A sextile is generally seen as positive, linked to easy chances and cooperation."
+      },
+      {
+        "pergunta": "How many degrees are in a sextile angle?",
+        "resposta": "A sextile is an angle of about 60 degrees between two planets."
+      }
+    ],
+    "termosRelacionados": [
+      "what-are-aspects-in-astrology",
+      "what-is-a-trine-in-astrology",
+      "mapa-astral"
+    ],
+    "id": "what-is-a-sextile-in-astrology",
+    "slug": "what-is-a-sextile-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✳️",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Sextil",
+        "perguntaGoogle": "O que é um sextil na astrologia?",
+        "resumoUmaLinha": "Um sextil é um ângulo fácil e amigável entre planetas, ligado a oportunidades e ajuda.",
+        "chamadaCuriosa": "Você sabia que um sextil é como um aperto de mão amigo na astrologia?",
+        "oQueSignifica": "Um sextil é como dois amigos próximos, trocando ideias com facilidade. Imagine duas crianças passando bilhetes rápido pela sala de aula. Esse ângulo significa que tudo flui com pouco esforço, facilitando tentar coisas novas ou resolver problemas juntos.",
+        "oQueSignificaNaAstrologia": "Na astrologia, um sextil acontece quando dois planetas estão separados por 60 graus. Essa conexão indica chances de cooperação e aprendizado. Está ligada a uma energia suave que incentiva crescimento e trabalho em equipe sem grandes dificuldades. Muitas vezes é visto como um sinal de ajuda e oportunidades amigáveis no mapa.",
+        "exemploFicticio": "Maria percebe que se dá bem com o colega Carlos durante trabalhos em grupo. As ideias deles se encaixam naturalmente, como um sextil que ajuda os planetas a trabalharem juntos. Essa conexão amigável torna o trabalho mais fácil e divertido.",
+        "faq": [
+          {
+            "pergunta": "O sextil é um aspecto positivo ou negativo?",
+            "resposta": "O sextil geralmente é visto como positivo, ligado a oportunidades fáceis e cooperação."
+          },
+          {
+            "pergunta": "Quantos graus tem um ângulo de sextil?",
+            "resposta": "Um sextil é um ângulo de cerca de 60 graus entre dois planetas."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Sextil",
+        "perguntaGoogle": "¿Qué es un sextil en astrología?",
+        "resumoUmaLinha": "Un sextil es un ángulo simple y amigable entre planetas, relacionado con oportunidades y ayuda.",
+        "chamadaCuriosa": "¿Sabías que un sextil es como un saludo amistoso en la astrología?",
+        "oQueSignifica": "Un sextil es como dos amigos cerca, compartiendo ideas fácilmente. Imagina a dos niños pasando notas rápido en la clase. Este ángulo hace que las cosas fluyan sin problemas, facilitando probar cosas nuevas o resolver problemas juntos.",
+        "oQueSignificaNaAstrologia": "En astrología, un sextil ocurre cuando dos planetas están a 60 grados de distancia. Esta conexión muestra oportunidades para cooperar y aprender. Está relacionado con una energía suave que impulsa el crecimiento y el trabajo en equipo sin grandes conflictos. A menudo se ve como una señal de ayuda y oportunidades amistosas en una carta.",
+        "exemploFicticio": "María nota que se lleva bien con su compañero Carlos en los proyectos en grupo. Sus ideas se combinan fácilmente, como un sextil que ayuda a que los planetas trabajen bien juntos. Esta conexión amigable hace que su trabajo sea más fácil y divertido.",
+        "faq": [
+          {
+            "pergunta": "¿El sextil es un aspecto positivo o negativo?",
+            "resposta": "El sextil se ve generalmente como positivo, relacionado con oportunidades fáciles y cooperación."
+          },
+          {
+            "pergunta": "¿Cuántos grados tiene un ángulo de sextil?",
+            "resposta": "Un sextil es un ángulo de aproximadamente 60 grados entre dos planetas."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Transit",
+    "tituloSEO": "What is a transit in astrology? Simple explanation",
+    "perguntaGoogle": "What is a transit in astrology?",
+    "resumoUmaLinha": "A transit is a planet’s current move crossing your birth chart points in astrology.",
+    "explicacaoEducativa": "Learn that a transit happens when a planet moves across a spot in your birth chart. It can show shifts in moods or events.",
+    "chamadaCuriosa": "Ever notice how planets moving might affect your day?",
+    "oQueSignifica": "A transit is like when a car drives past your favorite park. The car is the planet moving, and the park is a spot in your chart. Just as the car’s visit might bring noise or fun, a transit can bring a change or new feeling. It doesn’t stay long, but it can catch your attention for a while.",
+    "oQueSignificaNaAstrologia": "In astrology, a transit means a planet moves over a point in your birth chart, like your Sun or Moon. This movement is linked to new opportunities, moods, or changes in life. Transits don’t decide your fate but can highlight times to notice feelings or events. They help you understand when things might feel different or when you have a chance to grow.",
+    "exemploFicticio": "Maria sees Mars transit over her birth Moon. She feels more energetic at work and finishes tasks faster. Carlos notices a Venus transit near his Sun and enjoys extra time with friends, feeling happy and relaxed.",
+    "dicaRapida": "Notice your feelings during a transit; it helps you understand your changes better.",
+    "miniJogo": {
+      "pergunta": "What is a transit in astrology like?",
+      "opcoes": [
+        {
+          "texto": "A planet moving past a spot in your birth chart",
+          "correta": true,
+          "explicacao": "Correct! A transit is when a planet moves over a point in your chart."
+        },
+        {
+          "texto": "Your yearly birthday party plan",
+          "correta": false,
+          "explicacao": "No, that’s a personal event, not a transit in astrology."
+        },
+        {
+          "texto": "The time when you pick a new zodiac sign",
+          "correta": false,
+          "explicacao": "People don’t switch zodiac signs; transits are planetary movements."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Do transits affect everyone the same way?",
+        "resposta": "No, transits affect each person based on their birth chart, so experiences vary."
+      },
+      {
+        "pergunta": "How long does a transit last?",
+        "resposta": "Transits can last from a few days to several months, depending on the planet."
+      }
+    ],
+    "termosRelacionados": [
+      "mapa-astral",
+      "signo-solar",
+      "casas-astrologicas"
+    ],
+    "id": "what-is-a-transit-in-astrology",
+    "slug": "what-is-a-transit-in-astrology",
+    "categoria": "Phases & Movements",
+    "icone": "🚀",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Trânsito",
+        "perguntaGoogle": "O que é um trânsito na astrologia?",
+        "resumoUmaLinha": "Um trânsito é o movimento atual de um planeta passando pelos pontos do seu mapa natal na astrologia.",
+        "chamadaCuriosa": "Já reparou como o movimento dos planetas pode influenciar seu dia?",
+        "oQueSignifica": "Um trânsito é como um carro passando pelo seu parque favorito. O carro é o planeta em movimento, e o parque é um ponto no seu mapa. Assim como a visita do carro pode trazer barulho ou alegria, um trânsito pode trazer uma mudança ou um sentimento novo. Não dura muito, mas pode chamar sua atenção por um tempo.",
+        "oQueSignificaNaAstrologia": "Na astrologia, um trânsito acontece quando um planeta passa sobre um ponto do seu mapa natal, como o Sol ou a Lua. Esse movimento está ligado a novas oportunidades, humores ou mudanças na vida. Os trânsitos não determinam seu destino, mas podem mostrar momentos para perceber sentimentos ou acontecimentos. Eles ajudam a entender quando as coisas podem parecer diferentes ou quando você tem chance de crescer.",
+        "exemploFicticio": "Maria vê Marte em trânsito sobre a Lua no seu mapa natal. Ela se sente mais energizada no trabalho e termina as tarefas mais rápido. Carlos nota um trânsito de Vênus perto do Sol dele e aproveita mais tempo com os amigos, se sentindo feliz e relaxado.",
+        "faq": [
+          {
+            "pergunta": "Os trânsitos afetam todo mundo do mesmo jeito?",
+            "resposta": "Não, os trânsitos afetam cada pessoa de acordo com o seu mapa natal, então as experiências variam."
+          },
+          {
+            "pergunta": "Quanto tempo dura um trânsito?",
+            "resposta": "Os trânsitos podem durar de alguns dias até vários meses, dependendo do planeta."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Tránsito",
+        "perguntaGoogle": "¿Qué es un tránsito en astrología?",
+        "resumoUmaLinha": "Un tránsito es el paso actual de un planeta sobre puntos de tu carta natal en astrología.",
+        "chamadaCuriosa": "¿Alguna vez notaste cómo el movimiento de los planetas puede afectar tu día?",
+        "oQueSignifica": "Un tránsito es como cuando un auto pasa por tu parque favorito. El auto es el planeta que se mueve, y el parque es un punto en tu carta. Así como el auto puede traer ruido o diversión, un tránsito puede traer cambio o un nuevo sentimiento. No se queda mucho, pero puede llamar tu atención por un tiempo.",
+        "oQueSignificaNaAstrologia": "En astrología, un tránsito significa que un planeta se mueve sobre un punto de tu carta natal, como tu Sol o Luna. Este movimiento está relacionado con nuevas oportunidades, estados de ánimo o cambios en la vida. Los tránsitos no deciden tu destino, pero pueden señalar momentos para notar sentimientos o eventos. Te ayudan a entender cuándo las cosas pueden sentirse diferentes o cuándo tienes oportunidad para crecer.",
+        "exemploFicticio": "María ve un tránsito de Marte sobre su Luna natal. Se siente más enérgica en el trabajo y termina tareas más rápido. Carlos nota un tránsito de Venus cerca de su Sol y disfruta más tiempo con sus amigos, sintiéndose feliz y relajado.",
+        "faq": [
+          {
+            "pergunta": "¿Los tránsitos afectan a todos por igual?",
+            "resposta": "No, los tránsitos afectan a cada persona según su carta natal, por eso las experiencias varían."
+          },
+          {
+            "pergunta": "¿Cuánto dura un tránsito?",
+            "resposta": "Los tránsitos pueden durar desde unos días hasta varios meses, dependiendo del planeta."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Composite Chart",
+    "tituloSEO": "What is a Composite Chart? Simple Astrology Guide",
+    "perguntaGoogle": "What is a composite chart?",
+    "resumoUmaLinha": "A composite chart shows combined energies between two people in one astrology map.",
+    "explicacaoEducativa": "Learn how a composite chart blends two birth charts into one, revealing shared vibes and connections.",
+    "chamadaCuriosa": "What happens when two star maps merge into one?",
+    "oQueSignifica": "A composite chart is like mixing two paint colors to make a new shade. It combines two people’s birth charts to create one new chart. This new chart shows how the two connect and interact. Think of it as a map of the relationship itself, not just each person alone.",
+    "oQueSignificaNaAstrologia": "In astrology, a composite chart is linked to how two people relate to each other. It reveals the energy of their relationship, like how they work or feel together. This chart helps understand the strengths and challenges in their connection by blending their star signs, planets, and houses into one picture.",
+    "exemploFicticio": "Maria and Carlos want to see their bond in a new way. Their composite chart shows where they share excitement and where they may need patience. For example, in a chat, Maria feels calm when Carlos listens, which the chart highlights as a warm connection.",
+    "dicaRapida": "Use a composite chart to learn how you and a friend or partner connect deeply.",
+    "miniJogo": {
+      "pergunta": "If a composite chart blends two people’s stars, what does it mainly show?",
+      "opcoes": [
+        {
+          "texto": "The energy of their relationship as one mix",
+          "correta": true,
+          "explicacao": "Correct! It shows the combined vibe between two people, like a unique relationship map."
+        },
+        {
+          "texto": "Only the biggest planet in each person’s chart",
+          "correta": false,
+          "explicacao": "Not quite. It’s about the relationship, not just single planets."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is a composite chart the same as a synastry chart?",
+        "resposta": "No, a composite chart merges charts into one, while synastry compares two charts side by side."
+      },
+      {
+        "pergunta": "Can I use a composite chart for friends?",
+        "resposta": "Yes! Composite charts can show the connection between friends, family, or partners."
+      }
+    ],
+    "termosRelacionados": [
+      "sinastria-amorosa",
+      "mapa-astral",
+      "signo-ascendente"
+    ],
+    "id": "what-is-a-composite-chart",
+    "slug": "what-is-a-composite-chart",
+    "categoria": "Chart Concepts",
+    "icone": "🔗",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Mapa Composto",
+        "perguntaGoogle": "O que é um mapa composto?",
+        "resumoUmaLinha": "Um mapa composto mostra as energias combinadas entre duas pessoas em um só mapa de astrologia.",
+        "chamadaCuriosa": "O que acontece quando dois mapas astrais se juntam em um só?",
+        "oQueSignifica": "Um mapa composto é como misturar duas cores de tinta para criar uma nova. Ele junta os mapas natais de duas pessoas para formar um novo mapa. Esse mapa mostra como os dois se conectam e interagem. Pense nele como um mapa do relacionamento em si, não só de cada pessoa.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o mapa composto está ligado a como duas pessoas se relacionam. Ele revela a energia da relação, mostrando como elas funcionam ou sentem juntas. Esse mapa ajuda a entender os pontos fortes e desafios da conexão, unindo signos, planetas e casas em uma imagem só.",
+        "exemploFicticio": "Maria e Carlos querem ver o vínculo deles de um jeito novo. O mapa composto deles mostra onde sentem empolgação e onde precisam de paciência. Por exemplo, numa conversa, Maria fica tranquila quando Carlos escuta, e o mapa destaca isso como uma conexão calorosa.",
+        "faq": [
+          {
+            "pergunta": "Mapa composto é igual a mapa comparativo (sinastria)?",
+            "resposta": "Não, o mapa composto junta os mapas em um só, enquanto a sinastria compara dois mapas lado a lado."
+          },
+          {
+            "pergunta": "Posso usar mapa composto para amigos?",
+            "resposta": "Sim! Mapas compostos podem mostrar a conexão entre amigos, família ou parceiros."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Carta Compuesta",
+        "perguntaGoogle": "¿Qué es una carta compuesta?",
+        "resumoUmaLinha": "Una carta compuesta muestra las energías combinadas entre dos personas en un solo mapa astrológico.",
+        "chamadaCuriosa": "¿Qué pasa cuando se juntan dos mapas estelares en uno solo?",
+        "oQueSignifica": "Una carta compuesta es como mezclar dos colores de pintura para crear uno nuevo. Une las cartas natales de dos personas y crea una carta nueva. Esta nueva carta muestra cómo se conectan e interactúan. Piensa en ella como un mapa de la relación misma, no solo de cada persona por separado.",
+        "oQueSignificaNaAstrologia": "En astrología, una carta compuesta está relacionada con cómo dos personas se relacionan entre sí. Revela la energía de su relación, cómo trabajan o sienten juntos. Esta carta ayuda a entender las fortalezas y los retos en su conexión al unir sus signos, planetas y casas en una sola imagen.",
+        "exemploFicticio": "María y Carlos quieren ver su vínculo de una forma nueva. Su carta compuesta muestra dónde comparten entusiasmo y dónde pueden necesitar paciencia. Por ejemplo, en una charla, María se siente tranquila cuando Carlos la escucha, algo que la carta muestra como una conexión cálida.",
+        "faq": [
+          {
+            "pergunta": "¿Es una carta compuesta lo mismo que una carta de sinastría?",
+            "resposta": "No, una carta compuesta mezcla las cartas en una sola, mientras que la sinastría compara dos cartas lado a lado."
+          },
+          {
+            "pergunta": "¿Puedo usar una carta compuesta para amigos?",
+            "resposta": "¡Sí! Las cartas compuestas pueden mostrar la conexión entre amigos, familia o parejas."
+          }
+        ]
+      }
+    }
   }
 ]
