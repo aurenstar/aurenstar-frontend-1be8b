@@ -76,8 +76,25 @@ async function suggest(q: string): Promise<string[]> {
   } catch { return []; }
 }
 
+/** Optional: volumes an n8n flow gets from the Google Ads API (Keyword Planner) and saves monthly as data/keyword-planner.json: [{keyword, volume}]. */
+const PLANNER_JSON = path.join(root, 'data/keyword-planner.json');
+function readPlannerJson(): DemandItem[] {
+  try {
+    const rows = JSON.parse(fs.readFileSync(PLANNER_JSON, 'utf8')) as { keyword?: string; volume?: number | string }[];
+    const out: DemandItem[] = [];
+    for (const r of Array.isArray(rows) ? rows : []) {
+      const volume = Number(r.volume) || 0;
+      const q = toQuestion(String(r.keyword || ''));
+      if (q && volume > 0) out.push({ ...seedFromQuestion(q), score: 1_000_000 + volume, source: 'keyword-planner', volume });
+    }
+    return out;
+  } catch { return []; }
+}
+
 /** Optional: Keyword Planner export (CSV or tab-separated). Looks for a "Keyword" column and an "Avg. monthly searches" column. */
 function readPlanner(): DemandItem[] {
+  const fromApi = readPlannerJson();
+  if (fromApi.length) return fromApi;
   if (!fs.existsSync(PLANNER_CSV)) return [];
   const lines = fs.readFileSync(PLANNER_CSV, 'utf8').replace(/^﻿/, '').split(/\r?\n/).filter(Boolean);
   const sep = lines.some((l) => l.includes('\t')) ? '\t' : ',';
