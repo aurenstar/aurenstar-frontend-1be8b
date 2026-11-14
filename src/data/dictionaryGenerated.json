@@ -1261,5 +1261,1801 @@
         ]
       }
     }
+  },
+  {
+    "termo": "Saturn Return",
+    "tituloSEO": "What is a Saturn Return? Simple Astrology Explained",
+    "perguntaGoogle": "What is a Saturn return?",
+    "resumoUmaLinha": "Saturn return is a time when Saturn comes back to its birth spot, signaling big life growth.",
+    "explicacaoEducativa": "Learn that in astrology, Saturn return is linked to important changes and feeling more responsible.",
+    "chamadaCuriosa": "Ever felt like life is changing every 29 years? That’s Saturn return!",
+    "oQueSignifica": "A Saturn return happens about every 29 years when the planet Saturn returns to where it was when you were born. Think of it like a birthday for Saturn. It often feels like a big checkpoint in life, where you might think about your goals and what you want to do next. Just like finishing a school grade and moving up, Saturn return can feel like you’re growing into a new phase.",
+    "oQueSignificaNaAstrologia": "In astrology, Saturn return is linked to a time of growth and learning important life lessons. It is when Saturn returns to its natal place, reminding you to focus on responsibility, choices, and future plans. Many people feel changes in their lives, like starting a new job or thinking about big personal ideas. It is seen as a natural and helpful moment to reflect and grow.",
+    "exemploFicticio": "Maria just turned 29 and feels like she’s thinking about what she really wants from life. She talks to her friend Carlos about changing jobs and feels more ready to take on new challenges. This is Maria’s Saturn return showing up as a helpful nudge.",
+    "dicaRapida": "Use your Saturn return to set small goals and think calmly about your next steps.",
+    "miniJogo": {
+      "pergunta": "If you feel ready to take on new challenges around age 29, what could be happening?",
+      "opcoes": [
+        {
+          "texto": "You might be experiencing your Saturn return.",
+          "correta": true,
+          "explicacao": "Saturn return happens around age 29 and invites growth and new responsibilities."
+        },
+        {
+          "texto": "You just had your Mercury retrograde.",
+          "correta": false,
+          "explicacao": "Mercury retrograde happens more often and is about communication, not age milestones."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "How often does Saturn return happen?",
+        "resposta": "It happens about every 29 years as Saturn completes its orbit around the sun."
+      },
+      {
+        "pergunta": "Does Saturn return mean big problems?",
+        "resposta": "Not at all. It’s linked to growth and new starts, not bad luck or problems."
+      }
+    ],
+    "termosRelacionados": [
+      "retorno-de-saturno",
+      "mapa-astral",
+      "casas-astrologicas"
+    ],
+    "id": "what-is-a-saturn-return",
+    "slug": "what-is-a-saturn-return",
+    "categoria": "Phases & Movements",
+    "icone": "🪐",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Retorno de Saturno",
+        "perguntaGoogle": "O que é um retorno de Saturno?",
+        "resumoUmaLinha": "Retorno de Saturno é quando Saturno volta para o lugar onde estava no seu nascimento, sinalizando um grande crescimento na vida.",
+        "chamadaCuriosa": "Já sentiu que a vida muda a cada 29 anos? Esse é o retorno de Saturno!",
+        "oQueSignifica": "O retorno de Saturno acontece mais ou menos a cada 29 anos, quando o planeta Saturno volta para a posição em que estava quando você nasceu. É como o aniversário do Saturno. Muitas vezes, é um momento importante na vida, quando você pensa nos seus objetivos e no que quer fazer depois. Igual quando termina uma série na escola e passa para a próxima, o retorno de Saturno pode parecer que você está entrando numa nova fase.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o retorno de Saturno está ligado a um período de crescimento e aprendizado de lições importantes. É quando Saturno volta para o lugar natal, lembrando você de focar na responsabilidade, nas escolhas e nos planos para o futuro. Muitas pessoas sentem mudanças na vida, como começar um novo emprego ou refletir sobre ideias pessoais importantes. É visto como um momento natural e útil para se refletir e crescer.",
+        "exemploFicticio": "Maria acabou de fazer 29 anos e sente que está pensando no que realmente quer da vida. Ela conversa com o amigo Carlos sobre mudar de emprego e se sente mais preparada para encarar novos desafios. Esse é o retorno de Saturno da Maria aparecendo como um empurrãozinho bom.",
+        "faq": [
+          {
+            "pergunta": "Com que frequência acontece o retorno de Saturno?",
+            "resposta": "Acontece mais ou menos a cada 29 anos, quando Saturno completa sua volta ao redor do Sol."
+          },
+          {
+            "pergunta": "O retorno de Saturno significa grandes problemas?",
+            "resposta": "De jeito nenhum. Ele está ligado ao crescimento e novos começos, não a azar ou problemas."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Retorno de Saturno",
+        "perguntaGoogle": "¿Qué es un retorno de Saturno?",
+        "resumoUmaLinha": "El retorno de Saturno es cuando Saturno vuelve a la posición donde nació, señalando un gran crecimiento en la vida.",
+        "chamadaCuriosa": "¿Has sentido que la vida cambia cada 29 años? ¡Eso es el retorno de Saturno!",
+        "oQueSignifica": "El retorno de Saturno ocurre cada 29 años cuando el planeta vuelve al lugar en el que estaba cuando naciste. Es como el cumpleaños de Saturno. A menudo se siente como un gran punto de revisión en la vida, donde piensas en tus metas y qué quieres hacer después. Como terminar un grado en la escuela y avanzar, el retorno de Saturno puede parecer que estás entrando en una nueva etapa.",
+        "oQueSignificaNaAstrologia": "En astrología, el retorno de Saturno está relacionado con un tiempo de crecimiento y lecciones importantes en la vida. Es cuando Saturno regresa a su lugar natal, recordándote enfocarte en la responsabilidad, las decisiones y los planes a futuro. Muchas personas sienten cambios en su vida, como comenzar un nuevo trabajo o pensar en ideas personales grandes. Se ve como un momento natural y útil para reflexionar y crecer.",
+        "exemploFicticio": "María acaba de cumplir 29 años y siente que está pensando en lo que realmente quiere de la vida. Habla con su amigo Carlos sobre cambiar de trabajo y se siente más lista para asumir nuevos desafíos. Este es el retorno de Saturno de María, apareciendo como un empujón que ayuda.",
+        "faq": [
+          {
+            "pergunta": "¿Cada cuánto ocurre el retorno de Saturno?",
+            "resposta": "Sucede aproximadamente cada 29 años, cuando Saturno completa su órbita alrededor del sol."
+          },
+          {
+            "pergunta": "¿El retorno de Saturno significa grandes problemas?",
+            "resposta": "Para nada. Está relacionado con crecimiento y nuevos comienzos, no con mala suerte o problemas."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Chiron",
+    "tituloSEO": "What is Chiron in astrology? Meaning and symbolism",
+    "perguntaGoogle": "What is Chiron in astrology?",
+    "resumoUmaLinha": "Chiron is an asteroid linked to healing and inner wounds in astrology.",
+    "explicacaoEducativa": "Learn that Chiron in astrology is linked to healing old hurts and learning from them.",
+    "chamadaCuriosa": "Chiron shows where we heal and grow from small hurts.",
+    "oQueSignifica": "Chiron is like a small star that helps us understand our deepest hurts. Imagine a scrape you get but then learn how to take care of it. Chiron shows the spots inside us where we feel pain but can also grow stronger by caring for it.",
+    "oQueSignificaNaAstrologia": "In astrology, Chiron is linked to feeling hurt but also healing. It points to where we might feel sensitive or wounded inside. But it also helps us learn how to heal those wounds. It’s like a wise teacher that shows us how to turn pain into strength and kindness toward ourselves.",
+    "exemploFicticio": "Maria felt shy about sharing her art because of past criticism. When she learned about Chiron, she saw her shy feelings as a place to heal. This helped her grow more confident and share her creativity without fear.",
+    "dicaRapida": "Notice where you feel hurt and be gentle with yourself there. That’s your Chiron at work.",
+    "miniJogo": {
+      "pergunta": "If your friend feels shy to try new things because of past mistakes, what might help?",
+      "opcoes": [
+        {
+          "texto": "Being kind and patient with their feelings.",
+          "correta": true,
+          "explicacao": "Being kind helps heal those old hurts, like what Chiron suggests."
+        },
+        {
+          "texto": "Ignoring their feelings to make them tough.",
+          "correta": false,
+          "explicacao": "Ignoring feelings can make pain worse, not better."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is Chiron a planet?",
+        "resposta": "No, Chiron is an asteroid or minor planet, often called a 'wounded healer' in astrology."
+      },
+      {
+        "pergunta": "Can Chiron show where I need to heal?",
+        "resposta": "In astrology, Chiron is linked to spots where you might feel hurt and where healing can happen."
+      }
+    ],
+    "termosRelacionados": [
+      "mapa-astral",
+      "signo-solar",
+      "casas-astrologicas"
+    ],
+    "id": "what-is-chiron-in-astrology",
+    "slug": "what-is-chiron-in-astrology",
+    "categoria": "Planets & Bodies",
+    "icone": "🩹",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Quíron",
+        "perguntaGoogle": "O que é Quíron na astrologia?",
+        "resumoUmaLinha": "Quíron é um asteroide ligado à cura e às feridas internas na astrologia.",
+        "chamadaCuriosa": "Quíron mostra onde a gente cura e cresce a partir de pequenas dores.",
+        "oQueSignifica": "Quíron é como uma estrelinha que ajuda a entender nossas feridas mais profundas. Imagine um machucado pequeno que você aprende a cuidar. Quíron aponta as partes dentro da gente onde sentimos dor, mas que também podem ficar mais fortes com atenção e cuidado.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Quíron está ligado a sentir dor, mas também a se curar. Ele mostra onde a gente pode se sentir sensível ou ferido por dentro. Mas também ajuda a aprender a curar essas feridas. É como um professor sábio que ensina a transformar a dor em força e carinho por si mesmo.",
+        "exemploFicticio": "A Maria se sentia tímida para mostrar sua arte por causa de críticas que recebeu antes. Quando ela conheceu o Quíron, viu essa timidez como um lugar para se curar. Isso ajudou ela a ficar mais confiante e compartilhar sua criatividade sem medo.",
+        "faq": [
+          {
+            "pergunta": "Quíron é um planeta?",
+            "resposta": "Não, Quíron é um asteroide ou planeta menor, muitas vezes chamado de 'curador ferido' na astrologia."
+          },
+          {
+            "pergunta": "Quíron pode mostrar onde eu preciso me curar?",
+            "resposta": "Na astrologia, Quíron está ligado aos lugares onde você pode se sentir ferido e onde a cura pode acontecer."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Quirón",
+        "perguntaGoogle": "¿Qué es Quirón en astrología?",
+        "resumoUmaLinha": "Quirón es un asteroide relacionado con la sanación y las heridas internas en astrología.",
+        "chamadaCuriosa": "Quirón muestra dónde sanamos y crecemos a partir de pequeñas heridas.",
+        "oQueSignifica": "Quirón es como una pequeña estrella que nos ayuda a entender nuestras heridas más profundas. Imagina un raspón que te haces y luego aprendes a cuidarlo. Quirón indica esos lugares dentro de nosotros donde sentimos dolor pero también podemos crecer al cuidarlos.",
+        "oQueSignificaNaAstrologia": "En astrología, Quirón está ligado a sentir dolor pero también a sanar. Señala dónde podemos sentirnos sensibles o heridos por dentro. Pero también nos ayuda a aprender a curar esas heridas. Es como un maestro sabio que nos muestra cómo convertir el dolor en fuerza y en cariño hacia nosotros mismos.",
+        "exemploFicticio": "María sentía timidez para compartir su arte por críticas del pasado. Cuando conoció sobre Quirón, vio esos sentimientos tímidos como un lugar para sanar. Eso la ayudó a crecer con más confianza y a mostrar su creatividad sin miedo.",
+        "faq": [
+          {
+            "pergunta": "¿Es Quirón un planeta?",
+            "resposta": "No, Quirón es un asteroide o planeta menor, a menudo llamado 'sanador herido' en astrología."
+          },
+          {
+            "pergunta": "¿Quirón puede mostrar dónde necesito sanar?",
+            "resposta": "En astrología, Quirón está ligado a los lugares donde podrías sentir dolor y donde puede ocurrir sanación."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Black Moon Lilith",
+    "tituloSEO": "What is Lilith in Astrology? Understanding Black Moon Lilith",
+    "perguntaGoogle": "What is Lilith in astrology?",
+    "resumoUmaLinha": "Lilith in astrology is linked to hidden feelings and deep personal truth.",
+    "explicacaoEducativa": "Learn that Lilith in astrology is linked to your inner strength and parts of yourself you may keep private.",
+    "chamadaCuriosa": "Discover the secret side of Lilith in your birth chart!",
+    "oQueSignifica": "Lilith is like a shadow that follows you, showing parts of you that are wild or proud. Imagine you have a secret place where you feel strong and free. Lilith helps point to that special spot inside you, where you can be honest and true, even if it's different from what others expect.",
+    "oQueSignificaNaAstrologia": "In astrology, Black Moon Lilith is linked to independence and personal power. It shows where you might stand firm or challenge rules. Lilith helps you understand hidden feelings, like pride or things you don’t easily share. It invites you to accept all parts of yourself, even the ones you don’t usually show.",
+    "exemploFicticio": "Maria feels shy in big groups but stands up strongly when defending her ideas at school. Her Lilith helps her find courage in quiet moments, even if she looks calm outside.",
+    "dicaRapida": "Notice moments you feel quietly strong—this may be where Lilith shines in you.",
+    "miniJogo": {
+      "pergunta": "If you suddenly speak up for yourself, which part of your chart might be helping you?",
+      "opcoes": [
+        {
+          "texto": "Black Moon Lilith, showing inner strength",
+          "correta": true,
+          "explicacao": "Lilith is linked to inner power and standing up for yourself."
+        },
+        {
+          "texto": "Mercury Retrograde, causing confusion",
+          "correta": false,
+          "explicacao": "Mercury Retrograde is about communication delays, not inner strength."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is Lilith a planet?",
+        "resposta": "No, Lilith is not a planet. It is a special point in the moon’s orbit used in astrology."
+      },
+      {
+        "pergunta": "Does Lilith affect everyone the same way?",
+        "resposta": "No, Lilith’s meaning changes based on where it sits in your birth chart."
+      }
+    ],
+    "termosRelacionados": [
+      "mapa-astral",
+      "signo-lunar",
+      "casas-astrologicas"
+    ],
+    "id": "what-is-lilith-in-astrology",
+    "slug": "what-is-lilith-in-astrology",
+    "categoria": "Planets & Bodies",
+    "icone": "🌑",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Lua Negra Lilith",
+        "perguntaGoogle": "O que é Lilith na astrologia?",
+        "resumoUmaLinha": "Lilith na astrologia está ligada a sentimentos ocultos e à verdade profunda pessoal.",
+        "chamadaCuriosa": "Descubra o lado secreto da Lilith no seu mapa astral!",
+        "oQueSignifica": "Lilith é como uma sombra que te acompanha, mostrando partes suas que são selvagens ou orgulhosas. Imagine que você tem um cantinho secreto onde se sente forte e livre. Lilith ajuda a apontar esse lugar especial dentro de você, onde pode ser honesto e verdadeiro, mesmo que seja diferente do que os outros esperam.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a Lua Negra Lilith está ligada à independência e ao poder pessoal. Mostra onde você pode ser firme ou desafiar regras. Lilith ajuda a entender sentimentos escondidos, como o orgulho ou coisas que você não compartilha facilmente. Ela convida você a aceitar todas as partes de si mesmo, até aquelas que normalmente não mostra.",
+        "exemploFicticio": "Maria se sente tímida em grupos grandes, mas defende suas ideias com muita força na escola. A Lilith dela ajuda a encontrar coragem nos momentos silenciosos, mesmo que pareça calma por fora.",
+        "faq": [
+          {
+            "pergunta": "Lilith é um planeta?",
+            "resposta": "Não, Lilith não é um planeta. É um ponto especial na órbita da lua usado na astrologia."
+          },
+          {
+            "pergunta": "Lilith afeta todo mundo do mesmo jeito?",
+            "resposta": "Não, o significado da Lilith muda dependendo de onde ela está no seu mapa astral."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Luna Negra Lilith",
+        "perguntaGoogle": "¿Qué es Lilith en la astrología?",
+        "resumoUmaLinha": "Lilith en la astrología está relacionada con sentimientos ocultos y la verdad profunda de cada persona.",
+        "chamadaCuriosa": "¡Descubre el lado secreto de Lilith en tu carta natal!",
+        "oQueSignifica": "Lilith es como una sombra que te acompaña, mostrando partes de ti que son salvajes o orgullosas. Imagina que tienes un lugar secreto donde te sientes fuerte y libre. Lilith señala ese lugar especial dentro de ti, donde puedes ser honesto y auténtico, aunque sea diferente a lo que otros esperan.",
+        "oQueSignificaNaAstrologia": "En astrología, la Luna Negra Lilith está ligada a la independencia y al poder personal. Muestra dónde puedes mantenerte firme o desafiar las reglas. Lilith te ayuda a entender sentimientos escondidos, como el orgullo o cosas que no compartes fácilmente. Te invita a aceptar todas las partes de ti, incluso las que no sueles mostrar.",
+        "exemploFicticio": "María se siente tímida en grupos grandes, pero defiende sus ideas con firmeza en la escuela. Su Lilith la ayuda a encontrar valor en momentos de calma, aunque parezca tranquila por fuera.",
+        "faq": [
+          {
+            "pergunta": "¿Lilith es un planeta?",
+            "resposta": "No, Lilith no es un planeta. Es un punto especial en la órbita de la luna que se usa en astrología."
+          },
+          {
+            "pergunta": "¿Lilith afecta a todos de la misma manera?",
+            "resposta": "No, el significado de Lilith cambia según dónde esté en tu carta natal."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "North Node",
+    "tituloSEO": "What is the North Node in astrology? Simple guide",
+    "perguntaGoogle": "What is the North Node in astrology?",
+    "resumoUmaLinha": "The North Node in astrology is linked to your life’s path and growth.",
+    "explicacaoEducativa": "Learn that the North Node shows where you can grow and learn new things in life.",
+    "chamadaCuriosa": "Discover your life’s path with the mysterious North Node!",
+    "oQueSignifica": "The North Node is like a compass pointing to where you can grow. Imagine walking in a forest. The North Node shows the path you haven’t explored yet but can bring new lessons and fun adventures. It’s not about predicting what will happen. It’s more like a friendly guide helping you try new things and learn about yourself.",
+    "oQueSignificaNaAstrologia": "In astrology, the North Node is linked to your soul’s growth and future goals. It shows qualities or experiences you might need to embrace to feel more balanced. It helps you understand the direction your life can take to learn and improve. The South Node is opposite and shows habits or past lessons you already know well.",
+    "exemploFicticio": "Maria feels shy at work but her North Node points to being braver and speaking up. One day, she tries to share an idea in a meeting and feels proud. Carlos’ North Node asks him to be more patient, so he practices waiting calmly in traffic instead of feeling stressed.",
+    "dicaRapida": "Look at your North Node to find new ways to grow and enjoy life more.",
+    "miniJogo": {
+      "pergunta": "Maria's North Node suggests she try new things. What might she do?",
+      "opcoes": [
+        {
+          "texto": "Speak up in a meeting even if she feels shy.",
+          "correta": true,
+          "explicacao": "Trying to speak in a meeting helps Maria grow and follow her North Node’s advice."
+        },
+        {
+          "texto": "Avoid talking to coworkers to stay comfortable.",
+          "correta": false,
+          "explicacao": "Avoiding coworkers keeps Maria in her comfort zone, which is not what the North Node encourages."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the North Node a planet?",
+        "resposta": "No, it’s not a planet but a point where the moon’s orbit crosses the sun’s path."
+      },
+      {
+        "pergunta": "Can my North Node change?",
+        "resposta": "No, it stays the same based on your birth date and time."
+      }
+    ],
+    "termosRelacionados": [
+      "mapa-astral",
+      "signo-ascendente",
+      "signo-solar"
+    ],
+    "id": "what-is-the-north-node-in-astrology",
+    "slug": "what-is-the-north-node-in-astrology",
+    "categoria": "Planets & Bodies",
+    "icone": "🧭",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Nodo Norte",
+        "perguntaGoogle": "O que é o Nodo Norte na astrologia?",
+        "resumoUmaLinha": "O Nodo Norte na astrologia está ligado ao seu caminho de vida e crescimento.",
+        "chamadaCuriosa": "Descubra o seu caminho de vida com o misterioso Nodo Norte!",
+        "oQueSignifica": "O Nodo Norte é como uma bússola mostrando onde você pode crescer. Imagine que você está caminhando numa floresta. O Nodo Norte mostra um caminho que você ainda não explorou, mas que pode trazer novas lições e aventuras legais. Não é sobre prever o que vai acontecer. É como um guia amigo que ajuda você a tentar coisas novas e aprender sobre você mesmo.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o Nodo Norte está ligado ao crescimento da sua alma e aos seus objetivos futuros. Ele mostra qualidades ou experiências que você pode precisar abraçar para se sentir mais equilibrado. Ajuda você a entender a direção que sua vida pode seguir para aprender e melhorar. O Nodo Sul é o oposto e mostra hábitos ou lições do passado que você já conhece bem.",
+        "exemploFicticio": "Maria se sente tímida no trabalho, mas o Nodo Norte dela aponta para ser mais corajosa e falar o que pensa. Um dia, ela tenta compartilhar uma ideia numa reunião e se sente orgulhosa. O Nodo Norte do Carlos pede para ele ser mais paciente, então ele pratica esperar tranquilo no trânsito, em vez de ficar estressado.",
+        "faq": [
+          {
+            "pergunta": "O Nodo Norte é um planeta?",
+            "resposta": "Não, não é um planeta, mas um ponto onde a órbita da lua cruza o caminho do sol."
+          },
+          {
+            "pergunta": "Meu Nodo Norte pode mudar?",
+            "resposta": "Não, ele permanece o mesmo com base na data e hora do seu nascimento."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Nodo Norte",
+        "perguntaGoogle": "¿Qué es el Nodo Norte en astrología?",
+        "resumoUmaLinha": "El Nodo Norte en astrología está relacionado con tu camino de vida y crecimiento.",
+        "chamadaCuriosa": "¡Descubre tu camino de vida con el misterioso Nodo Norte!",
+        "oQueSignifica": "El Nodo Norte es como una brújula que señala hacia dónde puedes crecer. Imagina que caminas en un bosque. El Nodo Norte muestra el camino que aún no has explorado, pero que puede traer nuevas lecciones y aventuras divertidas. No se trata de predecir lo que pasará. Más bien es una guía amable que te ayuda a probar cosas nuevas y a conocerte mejor.",
+        "oQueSignificaNaAstrologia": "En astrología, el Nodo Norte está relacionado con el crecimiento de tu alma y tus metas futuras. Muestra cualidades o experiencias que necesitas aceptar para sentirte más equilibrado. Te ayuda a entender la dirección que puede tomar tu vida para aprender y mejorar. El Nodo Sur está en el lado contrario y muestra hábitos o lecciones del pasado que ya conoces bien.",
+        "exemploFicticio": "María se siente tímida en el trabajo, pero su Nodo Norte la invita a ser más valiente y a expresarse. Un día intenta compartir una idea en una reunión y se siente orgullosa. El Nodo Norte de Carlos le pide ser más paciente, así que practica esperar tranquilo en el tráfico en lugar de estresarse.",
+        "faq": [
+          {
+            "pergunta": "¿El Nodo Norte es un planeta?",
+            "resposta": "No, no es un planeta, sino un punto donde la órbita de la luna cruza el camino del sol."
+          },
+          {
+            "pergunta": "¿Puede cambiar mi Nodo Norte?",
+            "resposta": "No, se mantiene igual según la fecha y hora de tu nacimiento."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "South Node",
+    "tituloSEO": "What is the South Node in astrology? Simple explanation",
+    "perguntaGoogle": "What is the South Node in astrology?",
+    "resumoUmaLinha": "The South Node in astrology shows past habits and lessons to learn from life before.",
+    "explicacaoEducativa": "Learn about the South Node in astrology, linked to past experiences and what we bring with us.",
+    "chamadaCuriosa": "Ever wonder what your South Node says about your past?",
+    "oQueSignifica": "The South Node is like a backpack you carry filled with old habits and skills. Imagine Maria who loves drawing because she practiced it a lot before. This node shows things that feel easy or familiar, like your comfort zone from past times. It’s good to notice it but not to get stuck there.",
+    "oQueSignificaNaAstrologia": "In astrology, the South Node is linked to your past life or past experiences in this life. It shows traits you know well but might need to balance by trying new things. It points to patterns or talents that come naturally but can hold you back if not balanced with the North Node, which is about growth and new paths.",
+    "exemploFicticio": "Carlos loves helping friends because he feels comfortable solving problems. His South Node hints that he has always been caring and responsible. But sometimes, Carlos needs to try new ways to grow, not just rely on what he’s used to.",
+    "dicaRapida": "Notice what feels easy but try one small new thing to balance old habits.",
+    "miniJogo": {
+      "pergunta": "If your South Node shows old habits, what should you do?",
+      "opcoes": [
+        {
+          "texto": "Use your strengths but try new things to grow.",
+          "correta": true,
+          "explicacao": "Balancing familiar skills with new experiences helps personal growth."
+        },
+        {
+          "texto": "Only do what feels comfortable all the time.",
+          "correta": false,
+          "explicacao": "Sticking only to comfort zones may stop you from learning and growing."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the South Node about the future?",
+        "resposta": "No, it shows past habits and experiences, not future events."
+      },
+      {
+        "pergunta": "Do I need to follow everything from my South Node?",
+        "resposta": "You can use its strengths but balance them with new actions for growth."
+      }
+    ],
+    "termosRelacionados": [
+      "what-is-the-north-node-in-astrology",
+      "mapa-astral",
+      "signo-solar"
+    ],
+    "id": "what-is-the-south-node-in-astrology",
+    "slug": "what-is-the-south-node-in-astrology",
+    "categoria": "Planets & Bodies",
+    "icone": "🌙",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Nodo Sul",
+        "perguntaGoogle": "O que é o Nodo Sul na astrologia?",
+        "resumoUmaLinha": "O Nodo Sul na astrologia mostra hábitos do passado e lições para aprender na vida.",
+        "chamadaCuriosa": "Já se perguntou o que seu Nodo Sul revela sobre seu passado?",
+        "oQueSignifica": "O Nodo Sul é como uma mochila que você carrega cheia de hábitos e habilidades antigas. Imagine a Maria, que adora desenhar porque praticou muito antes. Esse nodo mostra coisas que parecem fáceis ou familiares, como sua zona de conforto do passado. É bom perceber isso, mas sem ficar preso lá.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o Nodo Sul está ligado à sua vida passada ou às experiências anteriores nesta vida. Ele revela características que você conhece bem, mas que precisam ser equilibradas tentando coisas novas. Aponta para padrões ou talentos que vêm naturalmente, mas que podem te segurar se não forem balanceados com o Nodo Norte, que fala de crescimento e novos caminhos.",
+        "exemploFicticio": "O Carlos adora ajudar os amigos porque se sente à vontade para resolver problemas. O Nodo Sul dele indica que ele sempre foi cuidadoso e responsável. Mas às vezes, o Carlos precisa experimentar novos jeitos para crescer, não só confiar no que já conhece.",
+        "faq": [
+          {
+            "pergunta": "O Nodo Sul fala do futuro?",
+            "resposta": "Não, ele mostra hábitos e experiências do passado, não eventos futuros."
+          },
+          {
+            "pergunta": "Preciso seguir tudo que meu Nodo Sul diz?",
+            "resposta": "Você pode usar os pontos fortes dele, mas equilibrando com ações novas para crescer."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Nodo Sur",
+        "perguntaGoogle": "¿Qué es el Nodo Sur en astrología?",
+        "resumoUmaLinha": "El Nodo Sur en astrología muestra hábitos pasados y lecciones de vidas anteriores.",
+        "chamadaCuriosa": "¿Alguna vez te has preguntado qué dice tu Nodo Sur sobre tu pasado?",
+        "oQueSignifica": "El Nodo Sur es como una mochila que llevas con hábitos y habilidades antiguas. Imagina a María, que ama dibujar porque lo practicó mucho antes. Este nodo muestra cosas que se sienten fáciles o conocidas, como tu zona de confort del pasado. Es bueno reconocerlo, pero no quedarse atascado ahí.",
+        "oQueSignificaNaAstrologia": "En astrología, el Nodo Sur está relacionado con tu vida pasada o experiencias anteriores en esta vida. Muestra rasgos que conoces bien, pero que debes equilibrar intentando cosas nuevas. Señala patrones o talentos que vienen naturalmente, pero pueden frenarte si no los equilibras con el Nodo Norte, que habla de crecimiento y nuevos caminos.",
+        "exemploFicticio": "A Carlos le encanta ayudar a sus amigos porque se siente cómodo resolviendo problemas. Su Nodo Sur muestra que siempre ha sido cuidadoso y responsable. Pero a veces, Carlos necesita probar nuevas formas para crecer, no solo apoyarse en lo que ya conoce.",
+        "faq": [
+          {
+            "pergunta": "¿El Nodo Sur habla del futuro?",
+            "resposta": "No, muestra hábitos y experiencias del pasado, no eventos futuros."
+          },
+          {
+            "pergunta": "¿Debo seguir todo lo que dice mi Nodo Sur?",
+            "resposta": "Puedes usar sus fortalezas, pero equílbralas con nuevas acciones para crecer."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Part of Fortune",
+    "tituloSEO": "What is the Part of Fortune in Astrology? Simple Guide",
+    "perguntaGoogle": "What is the Part of Fortune in astrology?",
+    "resumoUmaLinha": "The Part of Fortune shows where personal happiness and balance may be found in a chart.",
+    "explicacaoEducativa": "Learn the Part of Fortune is a special point linked to joy and wellbeing in astrology charts.",
+    "chamadaCuriosa": "Find out where your little spark of good fortune shines in your chart!",
+    "oQueSignifica": "The Part of Fortune is like a hidden treasure spot on your map. Imagine you have a map of a park, and there’s a special bench where you always feel happy and calm. That spot is your Part of Fortune. It shows where you might find balance and little moments of joy in everyday life.",
+    "oQueSignificaNaAstrologia": "In astrology, the Part of Fortune is linked to where you may feel lucky or at ease. It combines the sun, moon, and rising sign to highlight a place of harmony in your chart. It’s not a planet but a point that can show areas where things can flow more smoothly or bring satisfaction. Many use it to understand personal wellbeing and happiness.",
+    "exemploFicticio": "Maria notices she feels happiest when working with friends, helping out together. Her Part of Fortune is in the 11th house, which is about friendships and groups. This fits well with how she finds joy around others.",
+    "dicaRapida": "Look at your Part of Fortune’s sign and house to see where little joys may come naturally.",
+    "miniJogo": {
+      "pergunta": "You find a cozy spot in a park where you always relax and smile. What is this spot like your Part of Fortune?",
+      "opcoes": [
+        {
+          "texto": "A special place that makes you feel happy and peaceful.",
+          "correta": true,
+          "explicacao": "Correct! The Part of Fortune is like that special place in your life chart."
+        },
+        {
+          "texto": "A place you visit rarely and don’t enjoy much.",
+          "correta": false,
+          "explicacao": "No, the Part of Fortune relates to where joy and comfort are found."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the Part of Fortune a planet?",
+        "resposta": "No, it is a calculated point based on the sun, moon, and rising sign positions."
+      },
+      {
+        "pergunta": "Can the Part of Fortune change over time?",
+        "resposta": "No, it stays the same in your birth chart because it's based on your birth time."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-ascendente",
+      "signo-solar",
+      "casas-astrologicas"
+    ],
+    "id": "what-is-the-part-of-fortune-in-astrology",
+    "slug": "what-is-the-part-of-fortune-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "🍀",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Parte da Fortuna",
+        "perguntaGoogle": "O que é a Parte da Fortuna na astrologia?",
+        "resumoUmaLinha": "A Parte da Fortuna mostra onde a felicidade e o equilíbrio pessoal podem ser encontrados no mapa astral.",
+        "chamadaCuriosa": "Descubra onde a sua pequena faísca de sorte brilha no seu mapa!",
+        "oQueSignifica": "A Parte da Fortuna é como um lugar especial escondido no seu mapa. Imagina que você tem um mapa de um parque, e tem um banco especial onde você sempre se sente feliz e tranquilo. Esse lugar é a sua Parte da Fortuna. Ela mostra onde você pode encontrar equilíbrio e pequenos momentos de alegria no dia a dia.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a Parte da Fortuna está ligada a onde você pode se sentir com sorte ou à vontade. Ela junta o sol, a lua e o ascendente para destacar um ponto de harmonia no seu mapa. Não é um planeta, mas um ponto que pode mostrar áreas onde as coisas fluem melhor ou trazem satisfação. Muitos usam isso pra entender o bem-estar pessoal e a felicidade.",
+        "exemploFicticio": "A Maria percebe que ela se sente mais feliz quando trabalha com os amigos, ajudando juntos. A Parte da Fortuna dela está na 11ª casa, que fala sobre amizade e grupos. Isso combina muito com o jeito que ela encontra alegria perto dos outros.",
+        "faq": [
+          {
+            "pergunta": "A Parte da Fortuna é um planeta?",
+            "resposta": "Não, é um ponto calculado com base nas posições do sol, da lua e do ascendente."
+          },
+          {
+            "pergunta": "A Parte da Fortuna pode mudar com o tempo?",
+            "resposta": "Não, ela permanece igual no seu mapa de nascimento porque depende do horário em que você nasceu."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Parte de la Fortuna",
+        "perguntaGoogle": "¿Qué es la Parte de la Fortuna en astrología?",
+        "resumoUmaLinha": "La Parte de la Fortuna muestra dónde puedes encontrar felicidad personal y equilibrio en una carta natal.",
+        "chamadaCuriosa": "¡Descubre dónde brilla tu pequeña chispa de buena suerte en tu carta!",
+        "oQueSignifica": "La Parte de la Fortuna es como un lugar secreto en tu mapa. Imagina que tienes un mapa de un parque, y hay un banco especial donde siempre te sientes feliz y tranquilo. Ese lugar es tu Parte de la Fortuna. Muestra dónde puedes encontrar equilibrio y momentos de alegría en la vida diaria.",
+        "oQueSignificaNaAstrologia": "En astrología, la Parte de la Fortuna está ligada a dónde puedes sentirte afortunado o en paz. Combina el sol, la luna y el signo ascendente para resaltar un punto de armonía en tu carta. No es un planeta, sino un punto que indica áreas donde las cosas pueden fluir mejor o traer satisfacción. Muchos lo usan para entender el bienestar personal y la felicidad.",
+        "exemploFicticio": "María nota que se siente más feliz cuando trabaja con amigos, ayudándose juntos. Su Parte de la Fortuna está en la casa 11, que habla de amistades y grupos. Esto encaja muy bien con cómo encuentra alegría cerca de otros.",
+        "faq": [
+          {
+            "pergunta": "¿La Parte de la Fortuna es un planeta?",
+            "resposta": "No, es un punto calculado basado en las posiciones del sol, la luna y el signo ascendente."
+          },
+          {
+            "pergunta": "¿La Parte de la Fortuna puede cambiar con el tiempo?",
+            "resposta": "No, se mantiene igual en tu carta natal porque depende del momento de tu nacimiento."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Venus Retrograde",
+    "tituloSEO": "What is Venus Retrograde? Simple Astrology Explanation",
+    "perguntaGoogle": "What is Venus retrograde?",
+    "resumoUmaLinha": "Venus retrograde is when Venus seems to move backward in the sky, linked to love and values.",
+    "explicacaoEducativa": "Learn that Venus retrograde happens when Venus looks like it moves backward. In astrology, this is linked to review and reflection in relationships and feelings.",
+    "chamadaCuriosa": "Why does Venus sometimes look like it’s moving backward?",
+    "oQueSignifica": "Imagine watching a car on the highway seeming to go backward because of your angle. Venus retrograde is like that, a visual trick from Earth. It means Venus looks like it’s moving backward in the sky when really, planets just move at different speeds.",
+    "oQueSignificaNaAstrologia": "In astrology, Venus retrograde is linked to rethinking love, friendships, or what matters most to you. It’s a time to slow down and think about feelings or money. People may revisit past relationships or old choices about what they value. It’s a quiet reset, not a time to rush.",
+    "exemploFicticio": "Maria notices her phone calls with Carlos feel different during Venus retrograde. She decides to think more about what she wants before answering him, giving herself space to feel calm.",
+    "dicaRapida": "Use Venus retrograde to pause and reflect, not to start big changes.",
+    "miniJogo": {
+      "pergunta": "During Venus retrograde, what is a good idea to do?",
+      "opcoes": [
+        {
+          "texto": "Think about what you really want in relationships.",
+          "correta": true,
+          "explicacao": "Venus retrograde is a good time to reflect on feelings and choices."
+        },
+        {
+          "texto": "Start a brand new romantic relationship quickly.",
+          "correta": false,
+          "explicacao": "Venus retrograde is not the best time for big new beginnings in love."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Does Venus really move backward in space?",
+        "resposta": "No, it only looks like it moves backward from Earth because of the planets’ paths."
+      },
+      {
+        "pergunta": "How long does Venus retrograde last?",
+        "resposta": "It usually lasts about 40 to 43 days, happening every 18 months."
+      }
+    ],
+    "termosRelacionados": [
+      "mercurio-retrogrado",
+      "venus-no-mapa",
+      "sinastria-amorosa"
+    ],
+    "id": "what-is-venus-retrograde",
+    "slug": "what-is-venus-retrograde",
+    "categoria": "Phases & Movements",
+    "icone": "💗",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Vênus Retrógrado",
+        "perguntaGoogle": "O que é Vênus retrógrado?",
+        "resumoUmaLinha": "Vênus retrógrado é quando Vênus parece andar para trás no céu, ligado ao amor e aos valores.",
+        "chamadaCuriosa": "Por que Vênus às vezes parece andar para trás?",
+        "oQueSignifica": "Imagine ver um carro na estrada que parece estar andando para trás por causa do seu ângulo. Vênus retrógrado é algo assim, uma ilusão de quem está na Terra. Vênus só parece andar para trás no céu, mas os planetas se movem em velocidades diferentes.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Vênus retrógrado está ligado a repensar o amor, as amizades ou o que é mais importante pra você. É um momento para desacelerar e pensar nos sentimentos ou no dinheiro. A gente pode revisitar relacionamentos passados ou escolhas antigas sobre o que valorizamos. É uma pausa tranquila, não é hora de pressa.",
+        "exemploFicticio": "Maria percebe que as ligações dela com Carlos são diferentes durante Vênus retrógrado. Ela decide pensar mais no que quer antes de responder, dando espaço para se sentir calma.",
+        "faq": [
+          {
+            "pergunta": "Será que Vênus realmente anda para trás no espaço?",
+            "resposta": "Não, ele só parece andar para trás visto da Terra por causa do caminho dos planetas."
+          },
+          {
+            "pergunta": "Quanto tempo dura Vênus retrógrado?",
+            "resposta": "Geralmente dura de 40 a 43 dias, e acontece a cada 18 meses."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Venus Retrógrado",
+        "perguntaGoogle": "¿Qué es Venus retrógrado?",
+        "resumoUmaLinha": "Venus retrógrado es cuando Venus parece moverse hacia atrás en el cielo, ligado al amor y los valores.",
+        "chamadaCuriosa": "¿Por qué a veces Venus parece moverse hacia atrás?",
+        "oQueSignifica": "Imagina ver un coche en la carretera que parece ir hacia atrás por el ángulo desde donde lo ves. Venus retrógrado es algo parecido, un truco visual desde la Tierra. Significa que Venus parece moverse hacia atrás en el cielo, aunque en realidad los planetas sólo van a diferentes velocidades.",
+        "oQueSignificaNaAstrologia": "En astrología, Venus retrógrado está relacionado con reevaluar el amor, la amistad o lo que más valoras. Es un momento para bajar el ritmo y pensar en tus sentimientos o en el dinero. Algunas personas pueden revisar relaciones pasadas o decisiones antiguas sobre lo que valoran. Es un reinicio tranquilo, no es momento de apresurarse.",
+        "exemploFicticio": "María nota que sus llamadas con Carlos se sienten diferentes durante Venus retrógrado. Decide pensar más en lo que quiere antes de responderle, dándose espacio para sentirse tranquila.",
+        "faq": [
+          {
+            "pergunta": "¿Venus realmente se mueve hacia atrás en el espacio?",
+            "resposta": "No, sólo parece moverse hacia atrás desde la Tierra por el camino que siguen los planetas."
+          },
+          {
+            "pergunta": "¿Cuánto dura Venus retrógrado?",
+            "resposta": "Suele durar entre 40 y 43 días, y ocurre cada 18 meses."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Mars Retrograde",
+    "tituloSEO": "What is Mars Retrograde? Simple Astrology Explained",
+    "perguntaGoogle": "What is Mars retrograde?",
+    "resumoUmaLinha": "Mars retrograde is when Mars seems to move backward in the sky for a while.",
+    "explicacaoEducativa": "Learn that Mars retrograde happens when Mars appears to go backward from Earth. It’s a time linked to slowing down or rethinking actions.",
+    "chamadaCuriosa": "Why does Mars sometimes look like it’s moving backward?",
+    "oQueSignifica": "Imagine watching a car in the distance. Sometimes, it looks like it’s moving backward, but it really isn’t. Mars retrograde is similar. Mars orbits the Sun, and from Earth, it sometimes looks like it moves backward. This is just an optical trick, not a real change in Mars’ path. It lasts a few weeks and happens about every two years.",
+    "oQueSignificaNaAstrologia": "In astrology, Mars retrograde is linked to a time when energy and action may feel slowed or unclear. It might encourage people to think twice before reacting or starting new projects. People often reflect on how they handle anger, goals, or motivation. It’s a chance to revisit past decisions or slow down instead of rushing.",
+    "exemploFicticio": "Maria planned to fix her bike quickly, but Mars was retrograde. She took extra care and double-checked her tools. Carlos decided to pause before arguing with a friend, thinking about his words first.",
+    "dicaRapida": "Use Mars retrograde to slow down and check your plans before acting.",
+    "miniJogo": {
+      "pergunta": "If Mars is retrograde, what’s a smart thing to do?",
+      "opcoes": [
+        {
+          "texto": "Double-check your plans before acting",
+          "correta": true,
+          "explicacao": "Mars retrograde is a good time to pause and rethink actions."
+        },
+        {
+          "texto": "Start big new projects without planning",
+          "correta": false,
+          "explicacao": "Mars retrograde suggests caution, not rushing into things."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "How long does Mars retrograde last?",
+        "resposta": "Mars retrograde lasts about two to three months every two years."
+      },
+      {
+        "pergunta": "Does Mars retrograde mean bad luck?",
+        "resposta": "In astrology, it’s linked to reflection and slowing down, not bad luck."
+      }
+    ],
+    "termosRelacionados": [
+      "mercurio-retrogrado",
+      "marte-no-mapa",
+      "casas-astrologicas"
+    ],
+    "id": "what-is-mars-retrograde",
+    "slug": "what-is-mars-retrograde",
+    "categoria": "Phases & Movements",
+    "icone": "🔥",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Marte Retrógrado",
+        "perguntaGoogle": "O que é Marte retrógrado?",
+        "resumoUmaLinha": "Marte retrógrado é quando Marte parece se mover para trás no céu por um tempo.",
+        "chamadaCuriosa": "Por que às vezes Marte parece estar andando para trás?",
+        "oQueSignifica": "Imagine ver um carro longe. Às vezes parece que ele está voltando, mas não está. Marte retrógrado é parecido. Marte gira em volta do Sol, e aqui da Terra às vezes parece que ele vai para trás. É só um truque de visão, não uma mudança real no caminho de Marte. Dura algumas semanas e acontece mais ou menos a cada dois anos.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Marte retrógrado está ligado a uma fase em que a energia e a ação podem parecer lentas ou confusas. Pode ser um convite para pensar duas vezes antes de reagir ou começar algo novo. As pessoas costumam refletir sobre como lidam com raiva, objetivos e motivação. É uma chance de revisitar decisões passadas ou desacelerar em vez de correr.",
+        "exemploFicticio": "Maria planejava consertar a bicicleta rápido, mas Marte estava retrógrado. Ela teve mais cuidado e conferiu as ferramentas duas vezes. Carlos resolveu pausar antes de discutir com um amigo, pensando bem nas palavras.",
+        "faq": [
+          {
+            "pergunta": "Quanto tempo dura Marte retrógrado?",
+            "resposta": "Marte retrógrado dura cerca de dois a três meses a cada dois anos."
+          },
+          {
+            "pergunta": "Marte retrógrado traz má sorte?",
+            "resposta": "Na astrologia, está mais ligado a reflexão e desaceleração, não a má sorte."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Marte Retrógrado",
+        "perguntaGoogle": "¿Qué es Marte retrógrado?",
+        "resumoUmaLinha": "Marte retrógrado es cuando Marte parece moverse hacia atrás en el cielo por un tiempo.",
+        "chamadaCuriosa": "¿Por qué a veces Marte parece moverse hacia atrás?",
+        "oQueSignifica": "Imagina que ves un auto a lo lejos. A veces parece que va hacia atrás, pero no es así. Marte retrógrado es parecido. Marte gira alrededor del Sol, y desde la Tierra a veces parece que se mueve hacia atrás. Esto es solo un truco óptico, no un cambio real en su camino. Dura unas semanas y ocurre más o menos cada dos años.",
+        "oQueSignificaNaAstrologia": "En astrología, Marte retrógrado está relacionado con un momento en que la energía y la acción pueden sentirse lentas o poco claras. Puede hacer que las personas piensen dos veces antes de actuar o comenzar proyectos nuevos. La gente suele reflexionar sobre cómo maneja la ira, sus metas o la motivación. Es una oportunidad para revisar decisiones pasadas o para bajar el ritmo en vez de apresurarse.",
+        "exemploFicticio": "María planeó arreglar su bicicleta rápido, pero Marte estaba retrógrado. Ella fue más cuidadosa y revisó bien sus herramientas. Carlos decidió pausar antes de pelear con un amigo y pensó bien sus palabras.",
+        "faq": [
+          {
+            "pergunta": "¿Cuánto dura Marte retrógrado?",
+            "resposta": "Marte retrógrado dura alrededor de dos a tres meses cada dos años."
+          },
+          {
+            "pergunta": "¿Marte retrógrado significa mala suerte?",
+            "resposta": "En astrología, está relacionado con reflexión y tomar las cosas con calma, no con mala suerte."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Jupiter",
+    "tituloSEO": "What Does Jupiter Mean in Astrology? Simple Guide",
+    "perguntaGoogle": "What does Jupiter mean in astrology?",
+    "resumoUmaLinha": "Jupiter in astrology is linked to growth, luck, learning, and big opportunities.",
+    "explicacaoEducativa": "Learn that Jupiter represents growth and good fortune in astrology. It’s about hopes and new ideas.",
+    "chamadaCuriosa": "Why is Jupiter called the lucky planet in astrology?",
+    "oQueSignifica": "Imagine Jupiter as a big friendly teacher who helps you learn and grow. It shows where you can have good luck and feel more hopeful. Like when you try something new and things go well, that’s a bit like Jupiter’s energy. It’s about opening doors and feeling bigger inside.",
+    "oQueSignificaNaAstrologia": "In astrology, Jupiter is linked to growth and adventure. It helps us see where we can learn more about life and find new chances. It’s about feeling hopeful and exploring ideas that expand our mind. Jupiter’s place in your chart shows where you might find good luck or feel inspired to grow.",
+    "exemploFicticio": "Maria was nervous about her school project. When she thought about Jupiter, she remembered to be hopeful and try her best. Her project went well, and she felt proud and excited to learn even more.",
+    "dicaRapida": "Look at where Jupiter is in your chart to find your best chances to grow and learn.",
+    "miniJogo": {
+      "pergunta": "If you feel lucky trying something new, which planet might be helping you in astrology?",
+      "opcoes": [
+        {
+          "texto": "Jupiter, the planet of growth and good luck",
+          "correta": true,
+          "explicacao": "Correct! Jupiter is linked to luck, growth, and new chances."
+        },
+        {
+          "texto": "Saturn, the planet of rules and limits",
+          "correta": false,
+          "explicacao": "No, Saturn is more about rules and working hard, not luck."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is Jupiter always lucky in astrology?",
+        "resposta": "Jupiter is linked to luck and growth, but it depends on how it connects with other parts of your chart."
+      },
+      {
+        "pergunta": "How can I find where Jupiter is in my chart?",
+        "resposta": "You can use an astrology website or app to enter your birth info and see Jupiter’s position."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "mapa-astral",
+      "casas-astrologicas"
+    ],
+    "id": "what-does-jupiter-mean-in-astrology",
+    "slug": "what-does-jupiter-mean-in-astrology",
+    "categoria": "Planets & Bodies",
+    "icone": "🌟",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Júpiter",
+        "perguntaGoogle": "O que significa Júpiter na astrologia?",
+        "resumoUmaLinha": "Júpiter na astrologia está ligado ao crescimento, sorte, aprendizado e grandes oportunidades.",
+        "chamadaCuriosa": "Por que Júpiter é chamado de planeta da sorte na astrologia?",
+        "oQueSignifica": "Imagine Júpiter como um professor grande e amigo que ajuda você a aprender e crescer. Ele mostra onde você pode ter boa sorte e se sentir mais otimista. Como quando você tenta algo novo e tudo dá certo, essa é a energia do Júpiter. É sobre abrir portas e sentir que você cresce por dentro.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Júpiter está ligado ao crescimento e aventura. Ele ajuda a gente a ver onde pode aprender mais sobre a vida e encontrar novas chances. É sobre ter esperança e explorar ideias que ampliam nossa mente. O lugar do Júpiter no seu mapa mostra onde você pode encontrar sorte ou se sentir inspirado para crescer.",
+        "exemploFicticio": "Maria estava nervosa com o projeto da escola. Quando ela pensou em Júpiter, lembrou de ter esperança e dar o seu melhor. O projeto dela deu certo, e ela ficou orgulhosa e animada para aprender ainda mais.",
+        "faq": [
+          {
+            "pergunta": "Júpiter é sempre um sinal de sorte na astrologia?",
+            "resposta": "Júpiter está ligado à sorte e crescimento, mas depende de como ele se conecta com outras partes do seu mapa."
+          },
+          {
+            "pergunta": "Como eu descubro onde está Júpiter no meu mapa?",
+            "resposta": "Você pode usar um site ou app de astrologia para colocar seus dados de nascimento e ver onde Júpiter está."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Júpiter",
+        "perguntaGoogle": "¿Qué significa Júpiter en astrología?",
+        "resumoUmaLinha": "Júpiter en astrología está relacionado con el crecimiento, la suerte, el aprendizaje y grandes oportunidades.",
+        "chamadaCuriosa": "¿Por qué a Júpiter se le llama el planeta de la suerte en astrología?",
+        "oQueSignifica": "Imagina a Júpiter como un maestro grande y amigable que te ayuda a aprender y crecer. Muestra dónde puedes tener buena suerte y sentirte con más esperanza. Como cuando intentas algo nuevo y te va bien, eso es un poco como la energía de Júpiter. Se trata de abrir puertas y sentir que creces por dentro.",
+        "oQueSignificaNaAstrologia": "En astrología, Júpiter está ligado al crecimiento y la aventura. Nos ayuda a ver dónde podemos aprender más sobre la vida y encontrar nuevas oportunidades. Se trata de sentir esperanza y explorar ideas que amplían nuestra mente. La posición de Júpiter en tu carta muestra dónde puedes encontrar buena suerte o sentirte inspirado para crecer.",
+        "exemploFicticio": "María estaba nerviosa por su proyecto escolar. Cuando pensó en Júpiter, recordó ser esperanzada y dar lo mejor de sí. Su proyecto salió bien y se sintió orgullosa y emocionada por aprender aún más.",
+        "faq": [
+          {
+            "pergunta": "¿Júpiter siempre trae suerte en astrología?",
+            "resposta": "Júpiter está relacionado con la suerte y el crecimiento, pero depende de cómo se conecte con otras partes de tu carta."
+          },
+          {
+            "pergunta": "¿Cómo puedo encontrar dónde está Júpiter en mi carta?",
+            "resposta": "Puedes usar una página web o una app de astrología para poner tus datos de nacimiento y ver la posición de Júpiter."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Saturno",
+    "tituloSEO": "O que significa Saturno em astrologia? Guia simples",
+    "perguntaGoogle": "What does Saturn mean in astrology?",
+    "resumoUmaLinha": "Saturno em astrologia está ligado a lições, responsabilidade e limites na vida.",
+    "explicacaoEducativa": "Learn Saturn is linked to growth through challenges and learning to be patient.",
+    "chamadaCuriosa": "Descubra o que Saturno pode ensinar sobre sua vida!",
+    "oQueSignifica": "Saturno é como um professor que ensina com calma e paciência. Imagine aprender a andar de bicicleta; no começo, pode ser difícil e lento. Saturno simboliza essas lições que exigem esforço e disciplina. Ele ajuda a entender limites e a construir algo sólido com o tempo, um passo de cada vez.",
+    "oQueSignificaNaAstrologia": "Em astrologia, Saturno está ligado a responsabilidade e regras. Ele mostra onde precisamos ser pacientes e aprender com nossos erros. Saturno ajuda a organizar a vida, colocar ordem e ser firme. Ele não é algo para temer, mas para respeitar e entender como crescer melhor.",
+    "exemploFicticio": "Maria quer melhorar na escola, mas fica frustrada com as tarefas difíceis. Ela aprende que, com calma e esforço, o que parece difícil melhora. Saturno está ajudando ela a ter paciência para não desistir rápido.",
+    "dicaRapida": "Quando sentir dificuldades, lembre-se que Saturno sugere paciência e aprendizado passo a passo.",
+    "miniJogo": {
+      "pergunta": "Se você tem uma tarefa difícil, o que Saturno em astrologia sugere que você faça?",
+      "opcoes": [
+        {
+          "texto": "Ser paciente e aprender aos poucos",
+          "correta": true,
+          "explicacao": "Saturno está ligado a paciência e aprendizado gradual."
+        },
+        {
+          "texto": "Ignorar e esperar que passe rápido",
+          "correta": false,
+          "explicacao": "Saturno não sugere fugir, mas enfrentar com calma e disciplina."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Saturno traz coisas ruins na vida?",
+        "resposta": "Saturno está ligado a desafios, mas eles são para ajudar a crescer com sabedoria."
+      },
+      {
+        "pergunta": "Saturno influencia todos os signos da mesma forma?",
+        "resposta": "Saturno age de maneiras diferentes dependendo do signo e posição no mapa astral."
+      }
+    ],
+    "termosRelacionados": [
+      "retorno-de-saturno",
+      "casas-astrologicas",
+      "mapa-astral"
+    ],
+    "id": "what-does-saturn-mean-in-astrology",
+    "slug": "what-does-saturn-mean-in-astrology",
+    "categoria": "Planets & Bodies",
+    "icone": "⏳",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Saturno",
+        "perguntaGoogle": "O que significa Saturno na astrologia?",
+        "resumoUmaLinha": "Saturno na astrologia está ligado a lições, responsabilidade e limites na vida.",
+        "chamadaCuriosa": "Descubra o que Saturno pode ensinar sobre a sua vida!",
+        "oQueSignifica": "Saturno é como um professor que ensina com calma e paciência. Imagine aprender a andar de bicicleta; no começo, pode ser difícil e lento. Saturno simboliza essas lições que pedem esforço e disciplina. Ele ajuda a entender limites e a construir algo sólido com o tempo, passo a passo.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Saturno está ligado à responsabilidade e regras. Ele mostra onde a gente precisa ter paciência e aprender com os erros. Saturno ajuda a organizar a vida, colocar ordem e ser firme. Não é algo para temer, mas para respeitar e entender como crescer melhor.",
+        "exemploFicticio": "Maria quer melhorar na escola, mas fica frustrada com as tarefas difíceis. Ela aprende que, com calma e esforço, o que parece difícil melhora. Saturno está ajudando ela a ter paciência para não desistir rápido.",
+        "faq": [
+          {
+            "pergunta": "Saturno traz coisas ruins na vida?",
+            "resposta": "Saturno está ligado a desafios, mas eles são para ajudar a crescer com sabedoria."
+          },
+          {
+            "pergunta": "Saturno influencia todos os signos da mesma forma?",
+            "resposta": "Saturno age de jeitos diferentes dependendo do signo e da posição no mapa astral."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Saturno",
+        "perguntaGoogle": "¿Qué significa Saturno en astrología?",
+        "resumoUmaLinha": "Saturno en astrología está relacionado con lecciones, responsabilidad y límites en la vida.",
+        "chamadaCuriosa": "¡Descubre qué puede enseñarte Saturno sobre tu vida!",
+        "oQueSignifica": "Saturno es como un maestro que enseña con calma y paciencia. Imagina aprender a andar en bicicleta; al principio puede ser difícil y lento. Saturno simboliza esas lecciones que requieren esfuerzo y disciplina. Ayuda a entender límites y a construir algo sólido con el tiempo, paso a paso.",
+        "oQueSignificaNaAstrologia": "En astrología, Saturno está ligado a la responsabilidad y las reglas. Muestra dónde debemos ser pacientes y aprender de nuestros errores. Saturno ayuda a organizar la vida, poner orden y ser firme. No es algo que haya que temer, sino respetar y entender para crecer mejor.",
+        "exemploFicticio": "María quiere mejorar en la escuela, pero se frustra con las tareas difíciles. Ella aprende que, con calma y esfuerzo, lo que parece complicado mejora. Saturno le está ayudando a tener paciencia para no rendirse rápido.",
+        "faq": [
+          {
+            "pergunta": "¿Saturno trae cosas malas a la vida?",
+            "resposta": "Saturno está relacionado con retos, pero son para ayudar a crecer con sabiduría."
+          },
+          {
+            "pergunta": "¿Saturno influye igual en todos los signos?",
+            "resposta": "Saturno actúa de formas distintas según el signo y la posición en la carta astral."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Uranus",
+    "tituloSEO": "What Does Uranus Mean in Astrology? Simple Guide",
+    "perguntaGoogle": "What does Uranus mean in astrology?",
+    "resumoUmaLinha": "Uranus in astrology is linked to sudden change, freedom, and new ideas.",
+    "explicacaoEducativa": "Learn how Uranus relates to breaking rules and trying fresh ways in life.",
+    "chamadaCuriosa": "Uranus brings surprises and sparks new ways to think!",
+    "oQueSignifica": "Uranus is like a sudden gust of wind that shakes up a calm day. It brings surprises and makes people want to try new things. Just like when someone has a bright idea that changes the game, Uranus encourages change and independence.",
+    "oQueSignificaNaAstrologia": "In astrology, Uranus is linked to sudden changes and new ideas. It inspires people to be different and break free from old habits. Uranus shows where we want to be original and enjoy freedom. It’s like a push for exciting surprises and fresh starts in life.",
+    "exemploFicticio": "Maria was used to her daily routine, but one day, she suddenly decided to try a new hobby. Inspired by Uranus, she loved painting in unexpected colors and styles, feeling free and creative.",
+    "dicaRapida": "When Uranus energy shows, try something new and enjoy the surprise!",
+    "miniJogo": {
+      "pergunta": "If a friend suddenly wants to try a new hobby, what might Uranus be encouraging?",
+      "opcoes": [
+        {
+          "texto": "Encouraging freedom and trying new things.",
+          "correta": true,
+          "explicacao": "Uranus inspires breaking routines and enjoying fresh experiences."
+        },
+        {
+          "texto": "Asking to follow strict, old rules exactly.",
+          "correta": false,
+          "explicacao": "Uranus is about change, not sticking to old habits."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is Uranus linked to sudden or slow changes?",
+        "resposta": "Uranus is linked to sudden and surprising changes in astrology."
+      },
+      {
+        "pergunta": "Does Uranus show where I want to feel free?",
+        "resposta": "Yes, Uranus reveals areas in life where freedom and independence matter most."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-ascendente",
+      "mapa-astral"
+    ],
+    "id": "what-does-uranus-mean-in-astrology",
+    "slug": "what-does-uranus-mean-in-astrology",
+    "categoria": "Planets & Bodies",
+    "icone": "⚡",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Urano",
+        "perguntaGoogle": "O que Urano significa na astrologia?",
+        "resumoUmaLinha": "Urano na astrologia está ligado a mudanças repentinas, liberdade e ideias novas.",
+        "chamadaCuriosa": "Urano traz surpresas e acende novas formas de pensar!",
+        "oQueSignifica": "Urano é como uma rajada de vento que balança um dia tranquilo. Ele traz surpresas e faz a gente querer experimentar coisas novas. Igual quando alguém tem uma ideia brilhante que muda tudo, Urano incentiva a mudança e a independência.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Urano está ligado a mudanças rápidas e novos pensamentos. Ele inspira as pessoas a serem diferentes e romperem com velhos hábitos. Urano mostra onde queremos ser originais e aproveitar a liberdade. É como um empurrão para surpresas empolgantes e novos começos na vida.",
+        "exemploFicticio": "A Maria estava acostumada com sua rotina diária, mas um dia ela decidiu, de repente, experimentar um hobby novo. Inspirada por Urano, ela adorou pintar com cores e estilos inesperados, se sentindo livre e criativa.",
+        "faq": [
+          {
+            "pergunta": "Urano está ligado a mudanças rápidas ou lentas?",
+            "resposta": "Urano está ligado a mudanças rápidas e surpreendentes na astrologia."
+          },
+          {
+            "pergunta": "Urano mostra onde eu quero me sentir livre?",
+            "resposta": "Sim, Urano revela áreas da vida onde a liberdade e independência são mais importantes."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Urano",
+        "perguntaGoogle": "¿Qué significa Urano en la astrología?",
+        "resumoUmaLinha": "Urano en astrología está relacionado con cambios súbitos, libertad e ideas nuevas.",
+        "chamadaCuriosa": "¡Urano trae sorpresas y enciende nuevas formas de pensar!",
+        "oQueSignifica": "Urano es como una ráfaga de viento que mueve un día tranquilo. Trae sorpresas y hace que la gente quiera probar cosas nuevas. Como cuando alguien tiene una idea brillante que cambia todo, Urano impulsa el cambio y la independencia.",
+        "oQueSignificaNaAstrologia": "En astrología, Urano está relacionado con cambios repentinos e ideas nuevas. Inspira a las personas a ser diferentes y a romper con viejos hábitos. Urano muestra dónde queremos ser originales y disfrutar de la libertad. Es un empujón para vivir sorpresas emocionantes y nuevos comienzos.",
+        "exemploFicticio": "María estaba acostumbrada a su rutina diaria, pero un día decidió de repente probar un nuevo pasatiempo. Inspirada por Urano, le encantó pintar con colores y estilos inesperados, sintiéndose libre y creativa.",
+        "faq": [
+          {
+            "pergunta": "¿Urano está relacionado con cambios rápidos o lentos?",
+            "resposta": "Urano está relacionado con cambios rápidos y sorprendentes en la astrología."
+          },
+          {
+            "pergunta": "¿Urano muestra en qué áreas quiero sentirme libre?",
+            "resposta": "Sí, Urano revela en qué áreas de la vida la libertad y la independencia son más importantes."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Neptune",
+    "tituloSEO": "What Does Neptune Mean in Astrology? Simple Guide",
+    "perguntaGoogle": "What does Neptune mean in astrology?",
+    "resumoUmaLinha": "Neptune in astrology is linked to dreams, imagination, and deep feelings.",
+    "explicacaoEducativa": "Learn how Neptune relates to creativity and intuition in astrology. It shows where we feel magic and mystery.",
+    "chamadaCuriosa": "Why does Neptune make us dream and see differently?",
+    "oQueSignifica": "Neptune is like a foggy window showing us a softer, dreamier world. It’s about imagination and things we can’t always see clearly. Think about when Maria listens to music and feels like she’s in a story—Neptune is part of that feeling.",
+    "oQueSignificaNaAstrologia": "In astrology, Neptune is linked to imagination, dreams, and deep emotions. It shows where we feel connected to art or mystery. Neptune can make us more creative but sometimes confused about what is real. It helps us understand feelings beyond words.",
+    "exemploFicticio": "Carlos loves painting pictures he imagines in his mind. When he feels unsure about tough choices, he daydreams to find calm. This soft, dreamy side is Neptune’s energy showing up.",
+    "dicaRapida": "When Neptune is strong, trust your dreams but check facts twice.",
+    "miniJogo": {
+      "pergunta": "If someone feels very dreamy and loves art, which planet might be strong in their chart?",
+      "opcoes": [
+        {
+          "texto": "Neptune",
+          "correta": true,
+          "explicacao": "Yes! Neptune is linked to dreams, art, and imagination."
+        },
+        {
+          "texto": "Mars",
+          "correta": false,
+          "explicacao": "No. Mars is about energy and action, not dreams or art."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is Neptune responsible for magic and dreams?",
+        "resposta": "Neptune relates to feelings of magic and dreams, showing how we imagine and feel deeply."
+      },
+      {
+        "pergunta": "Can Neptune make someone confused?",
+        "resposta": "Yes, in astrology Neptune can bring unclear feelings or confusion about reality sometimes."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-lunar",
+      "mapa-astral",
+      "elementos-astrologicos"
+    ],
+    "id": "what-does-neptune-mean-in-astrology",
+    "slug": "what-does-neptune-mean-in-astrology",
+    "categoria": "Planets & Bodies",
+    "icone": "🌊",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Netuno",
+        "perguntaGoogle": "O que Netuno significa na astrologia?",
+        "resumoUmaLinha": "Netuno na astrologia está ligado a sonhos, imaginação e sentimentos profundos.",
+        "chamadaCuriosa": "Por que Netuno faz a gente sonhar e ver o mundo de um jeito diferente?",
+        "oQueSignifica": "Netuno é como uma janela embaçada que mostra um mundo mais suave e sonhador. É sobre imaginação e coisas que nem sempre conseguimos ver direito. Pense na Maria ouvindo música e sentindo como se estivesse dentro de uma história — Netuno faz parte dessa sensação.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Netuno está ligado à imaginação, aos sonhos e às emoções profundas. Ele mostra onde nos sentimos conectados à arte ou ao mistério. Netuno pode deixar a gente mais criativo, mas às vezes confuso sobre o que é real. Ele ajuda a entender sentimentos que vão além das palavras.",
+        "exemploFicticio": "O Carlos adora pintar os quadros que imagina na cabeça. Quando fica em dúvida sobre decisões difíceis, ele sonha acordado para encontrar calma. Esse lado suave e sonhador é a energia de Netuno aparecendo.",
+        "faq": [
+          {
+            "pergunta": "Netuno é responsável pela magia e pelos sonhos?",
+            "resposta": "Netuno está ligado à sensação de magia e aos sonhos, mostrando como a gente imagina e sente profundamente."
+          },
+          {
+            "pergunta": "Netuno pode deixar alguém confuso?",
+            "resposta": "Sim, na astrologia Netuno às vezes traz sentimentos confusos ou dificulta distinguir o que é real."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Neptuno",
+        "perguntaGoogle": "¿Qué significa Neptuno en astrología?",
+        "resumoUmaLinha": "Neptuno en astrología está relacionado con los sueños, la imaginación y los sentimientos profundos.",
+        "chamadaCuriosa": "¿Por qué Neptuno nos hace soñar y ver las cosas diferente?",
+        "oQueSignifica": "Neptuno es como una ventana con niebla que nos muestra un mundo más suave y lleno de sueños. Se trata de la imaginación y de cosas que no siempre podemos ver con claridad. Piensa en cuando María escucha música y siente que está dentro de una historia: Neptuno es parte de ese sentimiento.",
+        "oQueSignificaNaAstrologia": "En astrología, Neptuno está vinculado a la imaginación, los sueños y las emociones profundas. Muestra dónde nos sentimos conectados con el arte o el misterio. Neptuno puede hacernos más creativos, pero a veces también nos confunde sobre lo que es real. Nos ayuda a comprender sentimientos que van más allá de las palabras.",
+        "exemploFicticio": "A Carlos le encanta pintar imágenes que imagina en su mente. Cuando se siente inseguro sobre decisiones difíciles, sueña despierto para encontrar calma. Este lado suave y soñador es la energía de Neptuno apareciendo.",
+        "faq": [
+          {
+            "pergunta": "¿Neptuno es responsable de la magia y los sueños?",
+            "resposta": "Neptuno está relacionado con las sensaciones de magia y sueños, mostrando cómo imaginamos y sentimos profundamente."
+          },
+          {
+            "pergunta": "¿Neptuno puede hacer que alguien se confunda?",
+            "resposta": "Sí, en astrología Neptuno a veces puede traer sentimientos poco claros o confusión sobre la realidad."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Pluto",
+    "tituloSEO": "What Does Pluto Mean in Astrology? Simple Explanation",
+    "perguntaGoogle": "What does Pluto mean in astrology?",
+    "resumoUmaLinha": "Pluto in astrology is linked to deep change, transformation, and renewal.",
+    "explicacaoEducativa": "Learn how Pluto symbolizes powerful changes and new beginnings in astrology.",
+    "chamadaCuriosa": "Pluto: the planet of change and new starts!",
+    "oQueSignifica": "Pluto is like a hidden seed that grows quietly underground. When ready, it breaks the surface and changes everything around it. It means strong change happens over time, often in surprising ways. Just like a caterpillar turning into a butterfly, Pluto’s power is all about big transformations.",
+    "oQueSignificaNaAstrologia": "In astrology, Pluto is linked to deep personal change and renewal. It helps us let go of old habits and rise stronger. This planet guides us through endings and new beginnings, often in a hidden or slow way. Pluto also connects to what we feel deeply inside and teaches us about power and healing.",
+    "exemploFicticio": "Maria found out she no longer liked her old job. She felt ready for a big change. Pluto’s energy helped her slowly discover new dreams and move forward with confidence.",
+    "dicaRapida": "When Pluto’s energy feels strong, try embracing change as a chance to grow.",
+    "miniJogo": {
+      "pergunta": "If Pluto is like a hidden seed, what does it help you do?",
+      "opcoes": [
+        {
+          "texto": "Make deep changes and start new things",
+          "correta": true,
+          "explicacao": "Correct! Pluto helps you transform and grow in important ways."
+        },
+        {
+          "texto": "Choose what to eat for lunch",
+          "correta": false,
+          "explicacao": "Not really! Pluto’s about big life changes, not small daily choices."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is Pluto a planet or something else in astrology?",
+        "resposta": "Pluto is called a dwarf planet in astronomy, but in astrology it’s still a powerful symbol of change."
+      },
+      {
+        "pergunta": "Does Pluto change quickly or slowly?",
+        "resposta": "Pluto moves slowly, so its effects come over time and often in deep ways."
+      }
+    ],
+    "termosRelacionados": [
+      "mapa-astral",
+      "casas-astrologicas",
+      "signo-solar"
+    ],
+    "id": "what-does-pluto-mean-in-astrology",
+    "slug": "what-does-pluto-mean-in-astrology",
+    "categoria": "Planets & Bodies",
+    "icone": "🔮",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Plutão",
+        "perguntaGoogle": "O que Plutão significa na astrologia?",
+        "resumoUmaLinha": "Plutão na astrologia está ligado a mudanças profundas, transformação e renovação.",
+        "chamadaCuriosa": "Plutão: o planeta da mudança e dos novos começos!",
+        "oQueSignifica": "Plutão é como uma semente escondida que cresce silenciosamente no subsolo. Quando está pronta, rompe a superfície e muda tudo ao redor. Significa que grandes mudanças acontecem aos poucos, muitas vezes de formas surpreendentes. Igual uma lagarta virando borboleta, o poder de Plutão é sobre transformações enormes.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Plutão está ligado a mudanças pessoais profundas e renovação. Ele ajuda você a deixar para trás velhos hábitos e se fortalecer. Esse planeta nos guia por finais e novos começos, geralmente de maneira lenta ou secreta. Plutão também conecta a gente com o que sente lá no fundo e ensina sobre poder e cura.",
+        "exemploFicticio": "Maria descobriu que não gostava mais do trabalho antigo. Ela se sentiu pronta para uma mudança grande. A energia de Plutão ajudou ela a encontrar novos sonhos devagar e seguir com confiança.",
+        "faq": [
+          {
+            "pergunta": "Plutão é um planeta ou outra coisa na astrologia?",
+            "resposta": "Plutão é chamado de planeta anão na astronomia, mas na astrologia ele ainda é um símbolo poderoso de mudança."
+          },
+          {
+            "pergunta": "Plutão muda rápido ou devagar?",
+            "resposta": "Plutão se move devagar, por isso seus efeitos aparecem com o tempo e geralmente de forma profunda."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Plutón",
+        "perguntaGoogle": "¿Qué significa Plutón en astrología?",
+        "resumoUmaLinha": "Plutón en astrología está ligado a cambios profundos, transformación y renovación.",
+        "chamadaCuriosa": "¡Plutón: el planeta del cambio y los nuevos comienzos!",
+        "oQueSignifica": "Plutón es como una semilla oculta que crece en silencio bajo tierra. Cuando está lista, rompe la superficie y cambia todo a su alrededor. Significa que suceden cambios fuertes con el tiempo, muchas veces de formas sorprendentes. Como una oruga que se convierte en mariposa, el poder de Plutón está en las grandes transformaciones.",
+        "oQueSignificaNaAstrologia": "En astrología, Plutón está relacionado con cambios personales profundos y renovación. Nos ayuda a dejar atrás viejos hábitos y a levantarnos más fuertes. Este planeta nos guía en los finales y nuevos comienzos, a menudo de forma oculta o lenta. Plutón también conecta con lo que sentimos muy adentro y nos enseña sobre el poder y la sanación.",
+        "exemploFicticio": "María descubrió que ya no le gustaba su trabajo viejo. Se sentía lista para un gran cambio. La energía de Plutón la ayudó a descubrir poco a poco nuevos sueños y a avanzar con confianza.",
+        "faq": [
+          {
+            "pergunta": "¿Es Plutón un planeta o algo diferente en astrología?",
+            "resposta": "Plutón es llamado planeta enano en astronomía, pero en astrología sigue siendo un símbolo poderoso de cambio."
+          },
+          {
+            "pergunta": "¿Plutón cambia rápido o despacio?",
+            "resposta": "Plutón se mueve despacio, por eso sus efectos llegan con el tiempo y casi siempre en formas profundas."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Mercury",
+    "tituloSEO": "What Does Mercury Mean in Astrology? Simple Guide",
+    "perguntaGoogle": "What does Mercury mean in astrology?",
+    "resumoUmaLinha": "Mercury in astrology is linked to communication, thinking, and learning styles.",
+    "explicacaoEducativa": "Learn how Mercury shows the way we talk, think, and share ideas with others.",
+    "chamadaCuriosa": "Why is Mercury the planet of talk and thought?",
+    "oQueSignifica": "Mercury is like the messenger of the planets, helping ideas travel quickly. Imagine a student passing notes in class or texting friends—Mercury is behind that energy. It’s about how we understand things and express ourselves in everyday life.",
+    "oQueSignificaNaAstrologia": "In astrology, Mercury is linked to how you think and talk. It shows your learning style and how you share ideas. When Mercury is strong, people might be quick and clear in conversations. It also influences small daily decisions and how easy learning can feel for someone.",
+    "exemploFicticio": "Maria is chatting with her friends about a school project. Because Mercury is active in her chart, she thinks fast and explains ideas clearly. This helps the group finish their work on time and have fun doing it.",
+    "dicaRapida": "To boost Mercury energy, try reading a new book or sharing your thoughts with friends today.",
+    "miniJogo": {
+      "pergunta": "If Mercury is the planet of communication, what should you do when it’s strong in your chart?",
+      "opcoes": [
+        {
+          "texto": "Share your ideas and listen carefully.",
+          "correta": true,
+          "explicacao": "Mercury energy helps when you talk and pay attention to new information."
+        },
+        {
+          "texto": "Stay silent and avoid sharing your thoughts.",
+          "correta": false,
+          "explicacao": "Avoiding talk doesn’t use Mercury’s communicative energy well."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Can Mercury affect how I learn?",
+        "resposta": "Yes, Mercury is connected to your learning style and how you process information."
+      },
+      {
+        "pergunta": "Does Mercury control emotions?",
+        "resposta": "Not exactly. Mercury mainly relates to thinking and talking, not feelings."
+      }
+    ],
+    "termosRelacionados": [
+      "mercurio-retrogrado",
+      "signo-solar",
+      "mapa-astral"
+    ],
+    "id": "what-does-mercury-mean-in-astrology",
+    "slug": "what-does-mercury-mean-in-astrology",
+    "categoria": "Planets & Bodies",
+    "icone": "💬",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Mercúrio",
+        "perguntaGoogle": "O que significa Mercúrio na astrologia?",
+        "resumoUmaLinha": "Mercúrio na astrologia está ligado à comunicação, pensamento e jeito de aprender.",
+        "chamadaCuriosa": "Por que Mercúrio é o planeta da fala e do pensamento?",
+        "oQueSignifica": "Mercúrio é como o mensageiro dos planetas, ajudando as ideias a viajarem rápido. Imagine um aluno passando bilhete na aula ou mandando mensagem para os amigos—é Mercúrio por trás dessa energia. É sobre como a gente entende as coisas e se expressa no dia a dia.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Mercúrio está ligado a como você pensa e fala. Mostra seu jeito de aprender e como você compartilha suas ideias. Quando Mercúrio está forte, a pessoa costuma ser rápida e clara nas conversas. Também influencia pequenas decisões do dia a dia e como a aprendizagem pode ser fácil ou difícil.",
+        "exemploFicticio": "Maria está conversando com os amigos sobre um trabalho da escola. Como Mercúrio está ativo no mapa dela, ela pensa rápido e explica as ideias de um jeito claro. Isso ajuda o grupo a terminar o trabalho no prazo e ainda se divertir.",
+        "faq": [
+          {
+            "pergunta": "Mercúrio pode influenciar o jeito que eu aprendo?",
+            "resposta": "Sim, Mercúrio está ligado ao seu estilo de aprendizado e como você processa as informações."
+          },
+          {
+            "pergunta": "Mercúrio controla as emoções?",
+            "resposta": "Não exatamente. Mercúrio está mais ligado ao pensamento e à fala, não aos sentimentos."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Mercurio",
+        "perguntaGoogle": "¿Qué significa Mercurio en la astrología?",
+        "resumoUmaLinha": "Mercurio en astrología está ligado a la comunicación, el pensamiento y las formas de aprender.",
+        "chamadaCuriosa": "¿Por qué Mercurio es el planeta del habla y el pensamiento?",
+        "oQueSignifica": "Mercurio es como el mensajero de los planetas, ayudando a que las ideas viajen rápido. Imagínate a un estudiante pasando notas en clase o enviando mensajes a sus amigos; Mercurio está detrás de esa energía. Se trata de cómo entendemos las cosas y nos expresamos en la vida diaria.",
+        "oQueSignificaNaAstrologia": "En astrología, Mercurio está relacionado con cómo piensas y hablas. Muestra tu forma de aprender y cómo compartes tus ideas. Cuando Mercurio está fuerte, las personas pueden ser rápidas y claras al hablar. También influye en las decisiones pequeñas del día a día y en lo fácil o difícil que puede ser aprender para alguien.",
+        "exemploFicticio": "María está charlando con sus amigos sobre un trabajo escolar. Como Mercurio está activo en su carta, piensa rápido y explica las ideas con claridad. Esto ayuda al grupo a terminar el trabajo a tiempo y a disfrutar mientras lo hacen.",
+        "faq": [
+          {
+            "pergunta": "¿Puede Mercurio afectar mi forma de aprender?",
+            "resposta": "Sí, Mercurio está conectado a tu estilo de aprendizaje y a cómo procesas la información."
+          },
+          {
+            "pergunta": "¿Mercurio controla las emociones?",
+            "resposta": "No exactamente. Mercurio se relaciona principalmente con el pensamiento y el habla, no con los sentimientos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "New Moon",
+    "tituloSEO": "What is a New Moon in Astrology? Simple Explanation",
+    "perguntaGoogle": "What is a new moon in astrology?",
+    "resumoUmaLinha": "The new moon is a phase linked to fresh starts and new energy in astrology.",
+    "explicacaoEducativa": "Learn that the new moon happens when the moon is dark and signals new beginnings in astrology.",
+    "chamadaCuriosa": "Did you know the new moon means a fresh start in astrology?",
+    "oQueSignifica": "A new moon is when the moon is not visible because it’s between the Earth and sun. It’s like a blank page, ready for new ideas. Just like planting a seed, the new moon starts a fresh cycle in the sky that lasts about a month.",
+    "oQueSignificaNaAstrologia": "In astrology, the new moon is linked to new beginnings and setting intentions. It’s a good time to think about goals and plant ideas for growth. People often use this phase to start projects or make positive changes in their lives.",
+    "exemploFicticio": "Maria looked up at the sky and noticed the moon was dark. She decided to start a new hobby. This quiet moment helped her feel ready to try something different.",
+    "dicaRapida": "Use the new moon to set a simple goal or start a fresh habit.",
+    "miniJogo": {
+      "pergunta": "If you see the moon is dark in the sky, what phase is it?",
+      "opcoes": [
+        {
+          "texto": "New Moon",
+          "correta": true,
+          "explicacao": "Correct! The moon is dark because it’s the new moon phase."
+        },
+        {
+          "texto": "Full Moon",
+          "correta": false,
+          "explicacao": "No, the full moon is bright and fully visible in the sky."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "How often does a new moon happen?",
+        "resposta": "A new moon happens about once every 29 days, starting a new cycle."
+      },
+      {
+        "pergunta": "Can I see the new moon in the sky?",
+        "resposta": "No, the new moon is not visible because the sun lights the side facing away from Earth."
+      }
+    ],
+    "termosRelacionados": [
+      "lua-nova",
+      "lua-cheia",
+      "signo-lunar"
+    ],
+    "id": "what-is-a-new-moon-in-astrology",
+    "slug": "what-is-a-new-moon-in-astrology",
+    "categoria": "Phases & Movements",
+    "icone": "🌑",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Lua Nova",
+        "perguntaGoogle": "O que é lua nova em astrologia?",
+        "resumoUmaLinha": "A lua nova é uma fase ligada a começos fresquinhos e energia nova na astrologia.",
+        "chamadaCuriosa": "Você sabia que a lua nova significa um recomeço na astrologia?",
+        "oQueSignifica": "A lua nova é quando a lua não aparece porque está entre a Terra e o sol. É como uma página em branco, pronta para novas ideias. Igual plantar uma semente, a lua nova dá início a um ciclo novo no céu que dura mais ou menos um mês.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a lua nova está ligada a novos começos e a definir intenções. É um ótimo momento para pensar nas suas metas e plantar ideias que vão crescer. Muita gente aproveita essa fase para começar projetos ou fazer mudanças positivas na vida.",
+        "exemploFicticio": "A Maria olhou para o céu e percebeu que a lua estava escura. Ela decidiu começar um hobby novo. Esse momento tranquilo fez ela se sentir pronta para tentar algo diferente.",
+        "faq": [
+          {
+            "pergunta": "Com que frequência acontece a lua nova?",
+            "resposta": "A lua nova acontece mais ou menos a cada 29 dias, começando um ciclo novo."
+          },
+          {
+            "pergunta": "Eu consigo ver a lua nova no céu?",
+            "resposta": "Não, a lua nova não aparece porque o sol ilumina o lado que fica para longe da Terra."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Luna Nueva",
+        "perguntaGoogle": "¿Qué es una luna nueva en astrología?",
+        "resumoUmaLinha": "La luna nueva es una fase que está relacionada con nuevos comienzos y energía renovada en astrología.",
+        "chamadaCuriosa": "¿Sabías que la luna nueva significa un nuevo comienzo en astrología?",
+        "oQueSignifica": "La luna nueva es cuando la luna no se ve porque está entre la Tierra y el sol. Es como una hoja en blanco, lista para nuevas ideas. Igual que sembrar una semilla, la luna nueva inicia un nuevo ciclo en el cielo que dura casi un mes.",
+        "oQueSignificaNaAstrologia": "En astrología, la luna nueva está relacionada con nuevos comienzos y poner intenciones. Es un buen momento para pensar en metas y plantar ideas para crecer. La gente suele usar esta fase para empezar proyectos o hacer cambios positivos en su vida.",
+        "exemploFicticio": "María miró al cielo y vio que la luna estaba oscura. Decidió empezar un nuevo hobby. Ese momento tranquilo la ayudó a sentirse lista para probar algo diferente.",
+        "faq": [
+          {
+            "pergunta": "¿Con qué frecuencia ocurre una luna nueva?",
+            "resposta": "Una luna nueva ocurre aproximadamente cada 29 días, iniciando un nuevo ciclo."
+          },
+          {
+            "pergunta": "¿Puedo ver la luna nueva en el cielo?",
+            "resposta": "No, la luna nueva no se ve porque el sol ilumina el lado que no está hacia la Tierra."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Full Moon",
+    "tituloSEO": "What is a Full Moon in Astrology? Meaning & Effects",
+    "perguntaGoogle": "What is a full moon in astrology?",
+    "resumoUmaLinha": "A full moon is when the whole moon shines brightly and links to feelings and endings in astrology.",
+    "explicacaoEducativa": "Learn that a full moon happens when the moon is fully lit and often connects to completion or change in astrology.",
+    "chamadaCuriosa": "Why does the full moon feel so powerful in astrology?",
+    "oQueSignifica": "A full moon happens when we see the moon fully lit in the night sky, like a bright round light. It is like finishing a chapter in a book, showing what is clear and ready to close or change. Just like how a bright light makes things easier to see, a full moon lights up feelings and ideas.",
+    "oQueSignificaNaAstrologia": "In astrology, the full moon is linked to endings and new beginnings. It usually happens halfway through a cycle, showing results from what started at the new moon. It invites people to reflect on their feelings and see things from a new view. This phase can bring a time to release old habits and prepare for fresh starts.",
+    "exemploFicticio": "Maria was thinking about a friendship that was hard lately. On the night of the full moon, she felt sure it was time to talk honestly with her friend and maybe change how things were between them. The bright moon helped Maria understand her feelings clearly.",
+    "dicaRapida": "Notice how you feel during a full moon and consider what you might want to finish or start fresh.",
+    "miniJogo": {
+      "pergunta": "During a full moon night, you feel like finishing a project. What does this mean in astrology?",
+      "opcoes": [
+        {
+          "texto": "It may be a good time to complete or see results.",
+          "correta": true,
+          "explicacao": "The full moon often signals completion and seeing clear outcomes."
+        },
+        {
+          "texto": "It means nothing changes and you should wait.",
+          "correta": false,
+          "explicacao": "Astrology links the full moon to change and endings, not to doing nothing."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "How often does a full moon happen?",
+        "resposta": "A full moon happens about once every month when the moon is fully lit."
+      },
+      {
+        "pergunta": "Is a full moon good or bad in astrology?",
+        "resposta": "In astrology, a full moon is neither good nor bad. It is a time for seeing endings and fresh starts."
+      }
+    ],
+    "termosRelacionados": [
+      "lua-nova",
+      "signo-lunar",
+      "mapa-astral"
+    ],
+    "id": "what-is-a-full-moon-in-astrology",
+    "slug": "what-is-a-full-moon-in-astrology",
+    "categoria": "Phases & Movements",
+    "icone": "🌕",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Lua Cheia",
+        "perguntaGoogle": "O que é uma lua cheia na astrologia?",
+        "resumoUmaLinha": "A lua cheia é quando a lua inteira brilha forte e está ligada a sentimentos e finais na astrologia.",
+        "chamadaCuriosa": "Por que a lua cheia parece tão poderosa na astrologia?",
+        "oQueSignifica": "A lua cheia acontece quando vemos a lua totalmente iluminada no céu à noite, parecendo uma luz redonda e brilhante. É como terminar um capítulo de um livro, mostrando o que está claro e pronto para fechar ou mudar. Igual a uma luz forte que facilita ver, a lua cheia ilumina sentimentos e ideias.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a lua cheia está ligada a finais e novos começos. Geralmente acontece na metade de um ciclo, mostrando os resultados do que começou na lua nova. Ela convida as pessoas a refletirem sobre seus sentimentos e ver as coisas de um jeito novo. Essa fase pode trazer um momento para deixar antigos hábitos para trás e se preparar para recomeços.",
+        "exemploFicticio": "Maria estava pensando numa amizade que estava difícil ultimamente. Na noite da lua cheia, ela sentiu que era hora de conversar com honestidade com a amiga e talvez mudar como as coisas eram entre elas. A lua brilhante ajudou a Maria a entender seus sentimentos claramente.",
+        "faq": [
+          {
+            "pergunta": "Com que frequência acontece uma lua cheia?",
+            "resposta": "A lua cheia acontece mais ou menos uma vez por mês, quando a lua está totalmente iluminada."
+          },
+          {
+            "pergunta": "Lua cheia é boa ou ruim na astrologia?",
+            "resposta": "Na astrologia, a lua cheia não é nem boa nem ruim. É um momento para enxergar finais e novos começos."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Luna Llena",
+        "perguntaGoogle": "¿Qué es una luna llena en astrología?",
+        "resumoUmaLinha": "La luna llena es cuando la luna brilla completamente y se relaciona con sentimientos y finales en astrología.",
+        "chamadaCuriosa": "¿Por qué la luna llena se siente tan poderosa en astrología?",
+        "oQueSignifica": "La luna llena sucede cuando vemos la luna totalmente iluminada en el cielo nocturno, como una luz redonda y brillante. Es como terminar un capítulo en un libro, mostrando lo que está claro y listo para cerrar o cambiar. Así como una luz fuerte ayuda a ver mejor, la luna llena ilumina los sentimientos e ideas.",
+        "oQueSignificaNaAstrologia": "En astrología, la luna llena está ligada a los finales y los nuevos comienzos. Usualmente pasa a la mitad de un ciclo, mostrando resultados de lo que empezó en la luna nueva. Invita a la gente a reflexionar sobre sus sentimientos y a ver las cosas desde otra perspectiva. Esta fase puede traer un momento para soltar hábitos viejos y prepararse para nuevos comienzos.",
+        "exemploFicticio": "María estaba pensando en una amistad que había estado difícil últimamente. En la noche de la luna llena, sintió que era momento de hablar con sinceridad con su amiga y tal vez cambiar cómo estaban las cosas entre ellas. La luz brillante de la luna ayudó a María a entender claramente sus sentimientos.",
+        "faq": [
+          {
+            "pergunta": "¿Con qué frecuencia ocurre una luna llena?",
+            "resposta": "La luna llena ocurre aproximadamente una vez al mes, cuando la luna está completamente iluminada."
+          },
+          {
+            "pergunta": "¿La luna llena es buena o mala en astrología?",
+            "resposta": "En astrología, la luna llena no es ni buena ni mala. Es un momento para ver finales y nuevos comienzos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Waxing Moon",
+    "tituloSEO": "What is a Waxing Moon? Simple Astrology Explained",
+    "perguntaGoogle": "What is a waxing moon?",
+    "resumoUmaLinha": "A waxing moon is when the moon grows brighter each night after a new moon.",
+    "explicacaoEducativa": "Learn that a waxing moon means the moon is getting bigger in the sky, moving from dark to full.",
+    "chamadaCuriosa": "Did you know the moon’s light grows before it’s full?",
+    "oQueSignifica": "A waxing moon is the moon phase after the new moon. It looks like a small sliver at first. Each night, more of the moon shines until it becomes full. It’s like watching a balloon slowly fill with air—for a few weeks, the moon’s light grows stronger and brighter in the sky.",
+    "oQueSignificaNaAstrologia": "In astrology, a waxing moon is linked to growth and new energy. It’s a time to start projects or build ideas. People feel hopeful and ready to try new things. This moon phase encourages moving forward and gaining strength, like planting seeds that will soon bloom.",
+    "exemploFicticio": "Maria looked up and saw a small, glowing sliver of moon growing bigger every night. She felt excited to start a new hobby during this bright, growing moon phase.",
+    "dicaRapida": "Use waxing moon days to begin a new habit or plan small goals.",
+    "miniJogo": {
+      "pergunta": "You see a small bright sliver moon each night growing bigger. What moon phase is this?",
+      "opcoes": [
+        {
+          "texto": "Waxing Moon",
+          "correta": true,
+          "explicacao": "Correct! A waxing moon grows in brightness and size each night."
+        },
+        {
+          "texto": "Waning Moon",
+          "correta": false,
+          "explicacao": "No, waning means the moon is getting smaller, not bigger."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "How long does the waxing moon last?",
+        "resposta": "It lasts about two weeks, from new moon to full moon."
+      },
+      {
+        "pergunta": "Is waxing moon a good time to start something new?",
+        "resposta": "In astrology, yes, it’s linked to growth and starting fresh."
+      }
+    ],
+    "termosRelacionados": [
+      "lua-nova",
+      "lua-cheia"
+    ],
+    "id": "what-is-a-waxing-moon",
+    "slug": "what-is-a-waxing-moon",
+    "categoria": "Phases & Movements",
+    "icone": "🌓",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Lua Crescente",
+        "perguntaGoogle": "O que é uma lua crescente?",
+        "resumoUmaLinha": "A lua crescente é quando a lua fica mais clara a cada noite depois da lua nova.",
+        "chamadaCuriosa": "Você sabia que a luz da lua aumenta antes dela ficar cheia?",
+        "oQueSignifica": "A lua crescente é a fase da lua depois da lua nova. No começo, ela parece uma pequena faixa. A cada noite, mais da lua aparece até ficar cheia. É como ver um balão enchendo devagar — por algumas semanas, a luz da lua vai ficando mais forte e brilhante no céu.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a lua crescente está ligada ao crescimento e a novas energias. É um momento para começar projetos ou desenvolver ideias. As pessoas se sentem esperançosas e prontas para tentar coisas novas. Essa fase da lua incentiva avançar e ganhar força, como plantar sementes que logo vão florescer.",
+        "exemploFicticio": "Maria olhou para cima e viu uma pequena faixa brilhando, ficando maior a cada noite. Ela ficou animada para começar um novo hobby nessa fase clara e crescente da lua.",
+        "faq": [
+          {
+            "pergunta": "Quanto tempo dura a lua crescente?",
+            "resposta": "Dura cerca de duas semanas, da lua nova até a lua cheia."
+          },
+          {
+            "pergunta": "A lua crescente é um bom momento para começar algo novo?",
+            "resposta": "Na astrologia, sim, ela está ligada a crescimento e recomeços."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Luna Creciente",
+        "perguntaGoogle": "¿Qué es una luna creciente?",
+        "resumoUmaLinha": "Una luna creciente es cuando la luna se va iluminando más cada noche después de la luna nueva.",
+        "chamadaCuriosa": "¿Sabías que la luz de la luna crece antes de estar llena?",
+        "oQueSignifica": "La luna creciente es la fase que sigue a la luna nueva. Al principio se ve como una pequeña raya. Cada noche, más parte de la luna brilla hasta que se llena por completo. Es como ver un globo que se va inflando poco a poco; por unas semanas, la luz de la luna crece y se hace más fuerte en el cielo.",
+        "oQueSignificaNaAstrologia": "En astrología, la luna creciente está relacionada con el crecimiento y la energía nueva. Es un momento para empezar proyectos o ideas nuevas. La gente se siente con esperanza y lista para probar cosas nuevas. Esta fase lunar anima a avanzar y ganar fuerza, como plantar semillas que pronto florecerán.",
+        "exemploFicticio": "María miró al cielo y vio una pequeña raya brillante de luna que crecía cada noche. Se emocionó para comenzar un nuevo pasatiempo durante esta fase de luna creciente y luminosa.",
+        "faq": [
+          {
+            "pergunta": "¿Cuánto dura la luna creciente?",
+            "resposta": "Dura aproximadamente dos semanas, desde la luna nueva hasta la luna llena."
+          },
+          {
+            "pergunta": "¿La luna creciente es un buen momento para empezar algo nuevo?",
+            "resposta": "En astrología, sí, está vinculada al crecimiento y a los nuevos comienzos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Waning Moon",
+    "tituloSEO": "What Is a Waning Moon? Simple Astrology Guide",
+    "perguntaGoogle": "What is a waning moon?",
+    "resumoUmaLinha": "The waning moon is when the moon’s visible light shrinks after a full moon.",
+    "explicacaoEducativa": "Learn that the waning moon means the moon’s bright part is getting smaller each night.",
+    "chamadaCuriosa": "Why does the moon seem to shrink in the sky?",
+    "oQueSignifica": "The waning moon is like a candle slowly burning down. After the moon is full and very bright, it starts to show less light. Night by night, the bright shape gets smaller until it disappears, making way for the new moon. It’s a natural cycle we see every month.",
+    "oQueSignificaNaAstrologia": "In astrology, the waning moon is linked to letting go and finishing things. It’s a time to slow down, reflect, and clear out old patterns. People often feel calm and ready to move on from past ideas or habits during this phase.",
+    "exemploFicticio": "Maria looks up and notices her moon lamp’s light is dimming. She takes a deep breath, feeling it's a good time to tidy her room and think about what she wants to leave behind.",
+    "dicaRapida": "Use waning moon days to finish tasks and relax before starting fresh.",
+    "miniJogo": {
+      "pergunta": "If tonight the moon looks smaller than last night, what phase is it in?",
+      "opcoes": [
+        {
+          "texto": "Waning moon",
+          "correta": true,
+          "explicacao": "Correct! The moon is shrinking, so it’s waning."
+        },
+        {
+          "texto": "Waxing moon",
+          "correta": false,
+          "explicacao": "No, waxing means the moon is growing bigger, not smaller."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "How long does the waning moon last?",
+        "resposta": "It lasts about two weeks, from full moon to new moon."
+      },
+      {
+        "pergunta": "Can I see the waning moon every night?",
+        "resposta": "Yes, but it looks different each night as the light gets smaller."
+      }
+    ],
+    "termosRelacionados": [
+      "lua-nova",
+      "signo-lunar"
+    ],
+    "id": "what-is-a-waning-moon",
+    "slug": "what-is-a-waning-moon",
+    "categoria": "Phases & Movements",
+    "icone": "🌗",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Lua Minguante",
+        "perguntaGoogle": "O que é a lua minguante?",
+        "resumoUmaLinha": "A lua minguante é quando a luz visível da lua diminui depois da lua cheia.",
+        "chamadaCuriosa": "Por que a lua parece encolher no céu?",
+        "oQueSignifica": "A lua minguante é como uma vela que vai queimando devagar. Depois que a lua fica cheia e bem brilhante, ela começa a mostrar menos luz. Noite após noite, a forma iluminada vai ficando menor até sumir, dando lugar à lua nova. É um ciclo natural que vemos todo mês.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a lua minguante está ligada a deixar ir e terminar coisas. É um momento para desacelerar, refletir e eliminar velhos padrões. As pessoas costumam se sentir calmas e prontas para seguir em frente das ideias ou hábitos antigos durante essa fase.",
+        "exemploFicticio": "Maria olha para cima e percebe que a luz do seu abajur de lua está ficando mais fraca. Ela respira fundo, sentindo que é uma boa hora para arrumar o quarto e pensar no que quer deixar para trás.",
+        "faq": [
+          {
+            "pergunta": "Quanto tempo dura a lua minguante?",
+            "resposta": "Ela dura cerca de duas semanas, da lua cheia até a lua nova."
+          },
+          {
+            "pergunta": "Posso ver a lua minguante toda noite?",
+            "resposta": "Sim, mas ela parece diferente a cada noite, porque a luz vai diminuindo."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Luna Menguante",
+        "perguntaGoogle": "¿Qué es una luna menguante?",
+        "resumoUmaLinha": "La luna menguante es cuando la luz visible de la luna disminuye después de la luna llena.",
+        "chamadaCuriosa": "¿Por qué la luna parece achicarse en el cielo?",
+        "oQueSignifica": "La luna menguante es como una vela que se va apagando poco a poco. Después de que la luna está llena y bien brillante, empieza a mostrar menos luz. Noche tras noche, la figura luminosa se hace más pequeña hasta que desaparece, dando paso a la luna nueva. Es un ciclo natural que vemos cada mes.",
+        "oQueSignificaNaAstrologia": "En astrología, la luna menguante está relacionada con dejar ir y terminar cosas. Es un momento para bajar el ritmo, reflexionar y limpiar viejos patrones. Muchas personas se sienten tranquilas y listas para seguir adelante con nuevas ideas o hábitos en esta fase.",
+        "exemploFicticio": "María mira hacia arriba y nota que la luz de su lámpara de luna se está apagando. Respira profundo, sintiendo que es buen momento para ordenar su cuarto y pensar qué quiere dejar atrás.",
+        "faq": [
+          {
+            "pergunta": "¿Cuánto dura la luna menguante?",
+            "resposta": "Dura aproximadamente dos semanas, desde la luna llena hasta la luna nueva."
+          },
+          {
+            "pergunta": "¿Puedo ver la luna menguante todas las noches?",
+            "resposta": "Sí, pero se ve diferente cada noche porque la luz va disminuyendo."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Solar Eclipse",
+    "tituloSEO": "What is a Solar Eclipse in Astrology? Simple Guide",
+    "perguntaGoogle": "What is a solar eclipse in astrology?",
+    "resumoUmaLinha": "A solar eclipse in astrology marks new beginnings and shifts in energy.",
+    "explicacaoEducativa": "Learn that a solar eclipse is a rare event linked to fresh starts and change in astrology.",
+    "chamadaCuriosa": "Did you know solar eclipses can inspire big new steps?",
+    "oQueSignifica": "A solar eclipse happens when the moon blocks the sun’s light for a short time. It’s like when you turn off a lamp then switch it back on. This dark moment before light can feel special and noticeable in the sky.",
+    "oQueSignificaNaAstrologia": "In astrology, a solar eclipse is linked to new beginnings and important changes. It’s like a reset button that helps people start fresh in some areas of life. These changes can bring new energy, ideas, or feelings to explore, much like planting seeds for future growth.",
+    "exemploFicticio": "Maria noticed a solar eclipse as she walked to school. That day, she felt excited to try a new hobby, like drawing. It was a small fresh start for her, inspired by the eclipse’s energy.",
+    "dicaRapida": "Use a solar eclipse moment to think about new goals or adventures you want to start.",
+    "miniJogo": {
+      "pergunta": "What might you feel during a solar eclipse in astrology?",
+      "opcoes": [
+        {
+          "texto": "Excited for new beginnings",
+          "correta": true,
+          "explicacao": "A solar eclipse often links to fresh starts and new energy, making people feel excited."
+        },
+        {
+          "texto": "Tired and wanting to sleep all day",
+          "correta": false,
+          "explicacao": "Feeling tired all day is not what astrology connects with solar eclipses."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is a solar eclipse the same as a lunar eclipse?",
+        "resposta": "No, a solar eclipse happens when the moon blocks the sun. A lunar eclipse happens when the earth blocks the sun’s light on the moon."
+      },
+      {
+        "pergunta": "Can a solar eclipse affect everyone the same way?",
+        "resposta": "No, in astrology, its effects can feel different for each person depending on their own birth chart."
+      }
+    ],
+    "termosRelacionados": [
+      "eclipse-astrologico",
+      "lua-nova",
+      "mapa-astral"
+    ],
+    "id": "what-is-a-solar-eclipse-in-astrology",
+    "slug": "what-is-a-solar-eclipse-in-astrology",
+    "categoria": "Phases & Movements",
+    "icone": "🌒",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Eclipse Solar",
+        "perguntaGoogle": "O que é um eclipse solar na astrologia?",
+        "resumoUmaLinha": "Um eclipse solar na astrologia marca novos começos e mudanças de energia.",
+        "chamadaCuriosa": "Você sabia que eclipses solares podem despertar grandes passos novos?",
+        "oQueSignifica": "Um eclipse solar acontece quando a lua bloqueia a luz do sol por um curto tempo. É como quando você apaga uma lâmpada e acende de novo. Esse momento escuro antes da luz pode ser especial e visível no céu.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o eclipse solar está ligado a novos começos e mudanças importantes. É como um botão de reset que ajuda a gente a recomeçar em algumas áreas da vida. Essas mudanças trazem nova energia, ideias ou sentimentos para explorar, como plantar sementes para um crescimento futuro.",
+        "exemploFicticio": "Maria viu um eclipse solar enquanto caminhava para a escola. Naquele dia, ela ficou animada para tentar um novo hobby, como desenhar. Foi um pequeno recomeço para ela, inspirado na energia do eclipse.",
+        "faq": [
+          {
+            "pergunta": "Eclipse solar é a mesma coisa que eclipse lunar?",
+            "resposta": "Não, eclipse solar acontece quando a lua bloqueia o sol. Eclipse lunar acontece quando a terra bloqueia a luz do sol que chega na lua."
+          },
+          {
+            "pergunta": "Um eclipse solar afeta todo mundo do mesmo jeito?",
+            "resposta": "Não, na astrologia, os efeitos podem ser diferentes para cada pessoa, dependendo do mapa astral dela."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Eclipse Solar",
+        "perguntaGoogle": "¿Qué es un eclipse solar en astrología?",
+        "resumoUmaLinha": "Un eclipse solar en astrología marca nuevos comienzos y cambios de energía.",
+        "chamadaCuriosa": "¿Sabías que los eclipses solares pueden inspirar grandes pasos nuevos?",
+        "oQueSignifica": "Un eclipse solar ocurre cuando la luna bloquea la luz del sol por un corto tiempo. Es como cuando apagas una lámpara y luego la enciendes de nuevo. Este momento oscuro antes de la luz puede sentirse especial y notorio en el cielo.",
+        "oQueSignificaNaAstrologia": "En astrología, un eclipse solar está relacionado con nuevos comienzos y cambios importantes. Es como un botón de reinicio que ayuda a las personas a empezar de nuevo en algunas áreas de su vida. Estos cambios pueden traer nueva energía, ideas o sentimientos para explorar, como sembrar semillas para crecer en el futuro.",
+        "exemploFicticio": "María notó un eclipse solar mientras caminaba a la escuela. Ese día se sintió emocionada por probar un nuevo hobby, como dibujar. Fue un pequeño comienzo fresco para ella, inspirado por la energía del eclipse.",
+        "faq": [
+          {
+            "pergunta": "¿Es un eclipse solar lo mismo que un eclipse lunar?",
+            "resposta": "No, un eclipse solar pasa cuando la luna bloquea el sol. Un eclipse lunar ocurre cuando la tierra bloquea la luz del sol sobre la luna."
+          },
+          {
+            "pergunta": "¿Puede un eclipse solar afectar a todos de la misma manera?",
+            "resposta": "No, en astrología sus efectos pueden sentirse diferentes para cada persona según su propia carta natal."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Lunar Eclipse",
+    "tituloSEO": "What is a lunar eclipse in astrology? Meaning & Insights",
+    "perguntaGoogle": "What is a lunar eclipse in astrology?",
+    "resumoUmaLinha": "A lunar eclipse is an astrological event linked to endings and big changes.",
+    "explicacaoEducativa": "Learn that a lunar eclipse happens when Earth blocks the sun’s light from the moon, signaling shifts in emotions or situations.",
+    "chamadaCuriosa": "Did you know a lunar eclipse can feel like a natural reset button?",
+    "oQueSignifica": "A lunar eclipse happens when the Earth stands between the sun and moon, casting a shadow. Imagine turning off a lamp for a moment—things look different and softer. It’s like a pause in the night sky that invites us to notice what’s changing around us.",
+    "oQueSignificaNaAstrologia": "In astrology, a lunar eclipse often links to endings or important completions. It can shine light on feelings or situations needing attention. People may feel ready to let go of old habits or prepare for new beginnings. It’s a time to reflect and embrace change gently.",
+    "exemploFicticio": "Maria felt unsure about a big decision while watching a lunar eclipse. That evening, she decided to finish a long-delayed project. The eclipse helped her feel ready for a fresh start.",
+    "dicaRapida": "Use lunar eclipses to pause and think about what you want to leave behind.",
+    "miniJogo": {
+      "pergunta": "During a lunar eclipse, what might you feel in everyday life?",
+      "opcoes": [
+        {
+          "texto": "Ready to finish old tasks and start new ones.",
+          "correta": true,
+          "explicacao": "A lunar eclipse often brings feelings about endings and beginnings."
+        },
+        {
+          "texto": "Like nothing has changed at all.",
+          "correta": false,
+          "explicacao": "Eclipses usually signal shifts, not no change."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "How often do lunar eclipses happen?",
+        "resposta": "Lunar eclipses usually happen about 2 to 4 times a year."
+      },
+      {
+        "pergunta": "Can a lunar eclipse affect my mood?",
+        "resposta": "In astrology, a lunar eclipse may link to stronger feelings or awareness."
+      }
+    ],
+    "termosRelacionados": [
+      "lua-cheia",
+      "eclipse-astrologico"
+    ],
+    "id": "what-is-a-lunar-eclipse-in-astrology",
+    "slug": "what-is-a-lunar-eclipse-in-astrology",
+    "categoria": "Phases & Movements",
+    "icone": "🌘",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Eclipse Lunar",
+        "perguntaGoogle": "O que é um eclipse lunar na astrologia?",
+        "resumoUmaLinha": "Um eclipse lunar é um evento astrológico ligado a finais e mudanças grandes.",
+        "chamadaCuriosa": "Você sabia que um eclipse lunar pode parecer um botão de reset natural?",
+        "oQueSignifica": "Um eclipse lunar acontece quando a Terra fica entre o sol e a lua, criando uma sombra. Imagina apagar a luz por um momento — tudo fica diferente e mais suave. É como uma pausa no céu à noite que convida a gente a perceber o que está mudando ao nosso redor.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o eclipse lunar costuma estar ligado a finais ou conclusões importantes. Ele pode iluminar sentimentos ou situações que precisam de atenção. A gente pode se sentir pronto para deixar hábitos antigos ou se preparar para novos começos. É um momento para refletir e aceitar a mudança com carinho.",
+        "exemploFicticio": "Maria ficou insegura sobre uma decisão importante enquanto via um eclipse lunar. Naquela noite, ela decidiu terminar um projeto que estava adiando há tempo. O eclipse ajudou ela a se sentir pronta para um recomeço.",
+        "faq": [
+          {
+            "pergunta": "Com que frequência os eclipses lunares acontecem?",
+            "resposta": "Os eclipses lunares geralmente acontecem cerca de 2 a 4 vezes por ano."
+          },
+          {
+            "pergunta": "Um eclipse lunar pode afetar meu humor?",
+            "resposta": "Na astrologia, um eclipse lunar pode estar ligado a sentimentos mais intensos ou maior consciência."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Eclipse Lunar",
+        "perguntaGoogle": "¿Qué es un eclipse lunar en astrología?",
+        "resumoUmaLinha": "Un eclipse lunar es un evento astrológico relacionado con finales y grandes cambios.",
+        "chamadaCuriosa": "¿Sabías que un eclipse lunar puede sentirse como un botón de reinicio natural?",
+        "oQueSignifica": "Un eclipse lunar ocurre cuando la Tierra se pone entre el sol y la luna, creando una sombra. Imagina apagar una lámpara por un momento; todo se ve diferente y más suave. Es como una pausa en el cielo nocturno que nos invita a notar lo que está cambiando a nuestro alrededor.",
+        "oQueSignificaNaAstrologia": "En astrología, un eclipse lunar suele estar relacionado con finales o cierres importantes. Puede iluminar sentimientos o situaciones que necesitan atención. La gente puede sentirse lista para dejar atrás viejos hábitos o prepararse para nuevos comienzos. Es un momento para reflexionar y aceptar el cambio con calma.",
+        "exemploFicticio": "María se sentía insegura sobre una decisión importante mientras veía un eclipse lunar. Esa noche decidió terminar un proyecto que había dejado pendiente por mucho tiempo. El eclipse la ayudó a sentirse lista para un nuevo comienzo.",
+        "faq": [
+          {
+            "pergunta": "¿Con qué frecuencia ocurren los eclipses lunares?",
+            "resposta": "Los eclipses lunares suelen ocurrir entre 2 y 4 veces al año."
+          },
+          {
+            "pergunta": "¿Puede un eclipse lunar afectar mi estado de ánimo?",
+            "resposta": "En astrología, un eclipse lunar puede estar relacionado con emociones más intensas o mayor conciencia."
+          }
+        ]
+      }
+    }
   }
 ]
