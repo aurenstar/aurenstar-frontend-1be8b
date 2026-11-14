@@ -44,10 +44,22 @@
     "last": "error: model error 403"
   },
   "What does Pluto mean in astrology?": {
-    "count": 2,
+    "count": 3,
     "last": "error: model error 403"
   },
   "What does Mercury mean in astrology?": {
+    "count": 2,
+    "last": "error: model error 403"
+  },
+  "What is a new moon in astrology?": {
+    "count": 1,
+    "last": "error: model error 403"
+  },
+  "What is a full moon in astrology?": {
+    "count": 1,
+    "last": "error: model error 403"
+  },
+  "What is a waxing moon?": {
     "count": 1,
     "last": "error: model error 403"
   }
