@@ -1,6 +1,7 @@
 import { validateTerm, slugify } from '../scripts/dictionary/checks';
 import { conceptKey, toQuestion, categoryFor, foreignToQuestion, plannerPriority } from '../scripts/dictionary/demand';
 import { chooseNames, applyNames, applyNamesToTerm } from '../scripts/dictionary/names';
+import { verdictFor, boostFor } from '../scripts/dictionary/report';
 import { toolForTerm } from '../src/data/dictionaryLinks';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 
@@ -76,5 +77,13 @@ ok('tool: signs', toolForTerm('Fire Sign', 'fire-sign').rota === 'discover-sign'
 ok('tool: sky', toolForTerm('Mercury Retrograde').rota === 'transits');
 ok('tool: pair', toolForTerm('Composite Chart').rota === 'compatibility');
 ok('tool: chart', toolForTerm('Natal Chart').rota === 'describe-me');
+
+ok('report: clicks mean working', verdictFor(5, 1, 30) === 'funcionando');
+ok('report: top 10 with views means working', verdictFor(12, 0, 6) === 'funcionando');
+ok('report: positions 11-20 are almost', verdictFor(8, 0, 14) === 'quase');
+ok('report: seen but low', verdictFor(2, 0, 70) === 'aparecendo');
+ok('report: nothing yet', verdictFor(0, 0, null) === 'sem-dados');
+ok('boost needs enough data', boostFor(10, 2, 2, 100) === 1 && boostFor(10, 2, 5, 10) === 1);
+ok('boost is capped 0.8..1.3', boostFor(100, 2, 5, 500) === 1.3 && boostFor(0.1, 2, 5, 500) === 0.8);
 
 process.exit(failed ? 1 : 0);
