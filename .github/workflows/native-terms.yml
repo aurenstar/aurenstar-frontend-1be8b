@@ -1,0 +1,54 @@
+name: Native dictionary entries
+on:
+  schedule:
+    - cron: '53 11 * * *'   # every day: a few new short dictionary entries (verbetes) written directly in each language (the drip)
+  workflow_dispatch:
+    inputs:
+      max:
+        description: 'Most articles in this run (empty = what data/native-plan.json allows today)'
+        default: ''
+      per_lang:
+        description: 'Most articles per language in total (empty = the plan)'
+        default: ''
+      langs:
+        description: 'Languages (empty = the ones open in the plan)'
+        default: ''
+permissions:
+  contents: write
+concurrency:
+  group: native-articles
+  cancel-in-progress: false
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --legacy-peer-deps
+      - name: Write dictionary entries (skips quietly if the key is not set)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          args=""
+          if [ -n "${{ github.event.inputs.max }}" ]; then args="$args --max ${{ github.event.inputs.max }}"; fi
+          if [ -n "${{ github.event.inputs.per_lang }}" ]; then args="$args --per-lang ${{ github.event.inputs.per_lang }}"; fi
+          if [ -n "${{ github.event.inputs.langs }}" ]; then args="$args --langs ${{ github.event.inputs.langs }}"; fi
+          npx tsx scripts/native/write.ts --kind term $args
+      - name: Check before saving
+        run: |
+          npx tsc --noEmit
+          npx tsx tests/native.test.ts
+      - name: Save
+        run: |
+          if [ -n "$(git status --porcelain data/native-terms)" ]; then
+            git config user.name "aurenstar-bot"
+            git config user.email "bot@aurenstar.com"
+            git add data/native-terms
+            git commit -m "Native dictionary entries: new ones written directly in each language"
+            git pull --rebase origin main
+            git push
+          fi

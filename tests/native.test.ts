@@ -1,6 +1,6 @@
 import { activeWave } from '../scripts/native/plan';
 import { statsFor, verdictOf } from '../scripts/native/care';
-import { checkArticle, renderNativeArticle, renderNativeHub, articlePath, type NativeArticle } from '../server/engine/nativeArticle';
+import { checkArticle, pathOf, renderNativeArticle, renderNativeHub, articlePath, type NativeArticle } from '../server/engine/nativeArticle';
 
 let failed = 0;
 const ok = (name: string, cond: boolean) => { if (!cond) { failed++; console.log('FAIL', name); } else console.log('ok  ', name); };
@@ -47,5 +47,15 @@ ok('care: nothing after 120 days is "sem-sinal", before that still waiting', ver
 const linked = renderNativeArticle(base({ tool: 'daily-message', term: 'rising-sign', ui: { ...base().ui, dictionary: 'Wörterbuch' } }));
 ok('native page: links to the chosen tool and dictionary term', linked.includes('class="cta" href="/de/daily-message"') && linked.includes('href="/de/dicionario/rising-sign"'));
 ok('native page: retired article is noindex', renderNativeArticle(base({ retired: true })).includes('content="noindex,follow"'));
+
+const shortTerm = (over: Partial<NativeArticle> = {}) => base({ kind: 'term', slug: 'aszendent', title: 'Aszendent: was ist das?', keyword: 'aszendent', sections: [1, 2, 3].map((i) => ({ h2: i === 1 ? 'Was ist ein Aszendent' : `Teil ${i}`, paragraphs: [para, para, para] })), faq: base().faq.slice(0, 3), ...over });
+ok('term: a short entry passes (shorter floor, 3 sections)', checkArticle(shortTerm()).length === 0);
+ok('term: too short is still rejected', checkArticle(shortTerm({ sections: [1, 2, 3].map((i) => ({ h2: i === 1 ? 'Was ist ein Aszendent' : `Teil ${i}`, paragraphs: ['Kurz.'] })), intro: 'Der Aszendent ist ein Aszendent zeichen im Horoskop und das ist wichtig für alle Menschen die es wissen wollen und mehr.' })).some((m) => m.startsWith('too short')));
+ok('term: address is under /dicionario, article under /blog', pathOf(shortTerm()) === '/de/dicionario/aszendent' && pathOf(base()) === '/de/blog/aszendent-berechnen');
+const termHtml = renderNativeArticle(shortTerm());
+ok('term page: canonical under /dicionario', termHtml.includes('<link rel="canonical" href="https://aurenstar.com/de/dicionario/aszendent" />'));
+const hub = renderNativeHub('de', [base(), shortTerm({ ui: { ...base().ui, dictionary: 'Wörterbuch' } })]);
+ok('native hub: lists articles and dictionary entries apart', hub.includes('/de/blog/aszendent-berechnen') && hub.includes('/de/dicionario/aszendent') && hub.includes('Wörterbuch'));
+ok('plan: entries have their own limits (fall back to the article limits)', activeWave({ waves: [{ from: '2026-11-14', name: 'a', langs: ['de'], perLang: 3, maxPerDay: 10, termsPerLang: 4, termsMaxPerDay: 12 }] }, '2026-11-15').termsPerLang === 4 && activeWave(P, '2026-11-15').termsPerLang === 3);
 
 process.exit(failed ? 1 : 0);

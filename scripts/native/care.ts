@@ -13,6 +13,7 @@ import { fold, checkArticle, type NativeArticle } from '../../server/engine/nati
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const DIR = path.join(root, 'data/native-articles');
+const TERMS = path.join(root, 'data/native-terms');
 const APPLY = process.argv.includes('--apply');
 const KEY = process.env.OPENAI_API_KEY;
 const MODEL = process.env.OPENAI_MODEL || 'gpt-4.1-mini';
@@ -47,7 +48,8 @@ export function verdictOf(st: Stats, ageDays: number): NativeVerdict {
 }
 
 const days = (from: string) => Math.floor((Date.parse(TODAY) - Date.parse(from)) / 86400000);
-const file = (a: NativeArticle) => path.join(DIR, a.lang, `${a.slug}.json`);
+const file = (a: NativeArticle) => path.join(a.kind === 'term' ? TERMS : DIR, a.lang, `${a.slug}.json`);
+const loadDir = (dir: string, kind?: 'term'): NativeArticle[] => (fs.existsSync(dir) ? fs.readdirSync(dir).flatMap((l) => fs.readdirSync(path.join(dir, l)).filter((f) => f.endsWith('.json')).map((f) => ({ ...JSON.parse(fs.readFileSync(path.join(dir, l, f), 'utf8')), ...(kind ? { kind } : {}) }) as NativeArticle)) : []);
 
 async function betterMeta(a: NativeArticle): Promise<{ title: string; description: string } | null> {
   if (!KEY) return null;
@@ -64,7 +66,7 @@ async function betterMeta(a: NativeArticle): Promise<{ title: string; descriptio
 
 async function main() {
   const rows: Row[] = fs.existsSync(path.join(root, 'data/search-console.json')) ? JSON.parse(fs.readFileSync(path.join(root, 'data/search-console.json'), 'utf8')) : [];
-  const articles: NativeArticle[] = fs.existsSync(DIR) ? fs.readdirSync(DIR).flatMap((l) => fs.readdirSync(path.join(DIR, l)).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(DIR, l, f), 'utf8')) as NativeArticle)) : [];
+  const articles: NativeArticle[] = [...loadDir(DIR), ...loadDir(TERMS, 'term')];
   const out: { lang: string; slug: string; busca: string; buscasPorMes: number; dias: number; impressions: number; clicks: number; position: number | null; veredito: NativeVerdict; acao?: string }[] = [];
   for (const a of articles) {
     const st = statsFor(a.keyword, rows);
@@ -75,7 +77,7 @@ async function main() {
       if (m) { Object.assign(a, m, { metaRewrittenAt: TODAY }); fs.writeFileSync(file(a), JSON.stringify(a, null, 1) + '\n'); action = 'título e descrição melhorados'; }
     }
     if (APPLY && v === 'sem-sinal' && !a.retired) { a.retired = true; fs.writeFileSync(file(a), JSON.stringify(a, null, 1) + '\n'); action = 'aposentado (fora do Google, página mantida)'; }
-    out.push({ lang: a.lang, slug: a.slug, busca: a.keyword, buscasPorMes: a.volume, dias: days(a.date), ...st, veredito: v, acao: action || undefined });
+    out.push({ lang: a.lang, slug: `${a.kind === 'term' ? 'dicionario/' : ''}${a.slug}`, busca: a.keyword, buscasPorMes: a.volume, dias: days(a.date), ...st, veredito: v, acao: action || undefined });
   }
   const count = (v: NativeVerdict) => out.filter((e) => e.veredito === v).length;
   const perLang = new Map<string, { n: number; imp: number; clk: number }>();
@@ -83,7 +85,7 @@ async function main() {
   const report = { updated: TODAY, resumo: { artigos: out.length, novos: count('novo'), funcionando: count('funcionando'), apareceSemClique: count('aparece-sem-clique'), aparecendo: count('aparecendo'), semSinal: count('sem-sinal'), impressoes: out.reduce((a, e) => a + e.impressions, 0), cliques: out.reduce((a, e) => a + e.clicks, 0) }, idiomas: [...perLang].map(([lang, c]) => ({ lang, artigos: c.n, impressoes: c.imp, cliques: c.clk })).sort((a, b) => b.impressoes - a.impressoes), artigos: out.sort((a, b) => b.impressions - a.impressions) };
   fs.writeFileSync(path.join(root, 'data/native-report.json'), JSON.stringify(report, null, 1) + '\n');
   const s = report.resumo;
-  const L = [`# Artigos nativos: semáforo (${TODAY})`, '', '_Só para o robô e para a equipe. Não aparece no site._', '', `**${s.artigos} artigos** · 🆕 novos (menos de 3 semanas): ${s.novos} · ✅ funcionando: ${s.funcionando} · 👀 aparecendo: ${s.aparecendo} · 🟡 aparece mas ninguém clica: ${s.apareceSemClique} · ⛔ sem sinal: ${s.semSinal}`, `Aparições no Google: ${s.impressoes} · Cliques: ${s.cliques}`, '', '## Por idioma', '', '| Idioma | Artigos | Aparições | Cliques |', '|---|---|---|---|', ...report.idiomas.map((i) => `| ${i.lang} | ${i.artigos} | ${i.impressoes} | ${i.cliques} |`)];
+  const L = [`# Artigos e verbetes nativos: semáforo (${TODAY})`, '', '_Só para o robô e para a equipe. Não aparece no site._', '', `**${s.artigos} artigos** · 🆕 novos (menos de 3 semanas): ${s.novos} · ✅ funcionando: ${s.funcionando} · 👀 aparecendo: ${s.aparecendo} · 🟡 aparece mas ninguém clica: ${s.apareceSemClique} · ⛔ sem sinal: ${s.semSinal}`, `Aparições no Google: ${s.impressoes} · Cliques: ${s.cliques}`, '', '## Por idioma', '', '| Idioma | Artigos | Aparições | Cliques |', '|---|---|---|---|', ...report.idiomas.map((i) => `| ${i.lang} | ${i.artigos} | ${i.impressoes} | ${i.cliques} |`)];
   const show = (title: string, v: NativeVerdict) => { const l = report.artigos.filter((e) => e.veredito === v).slice(0, 15); if (l.length) L.push('', `## ${title}`, '', ...l.map((e) => `- ${e.lang}/${e.slug} ("${e.busca}"): ${e.impressions} aparições, ${e.clicks} cliques${e.position ? `, melhor posição ${Math.round(e.position)}` : ''}${e.acao ? ` → ${e.acao}` : ''}`)); };
   show('✅ O que está funcionando', 'funcionando'); show('🟡 Aparece, mas ninguém clica (o robô melhora título e descrição)', 'aparece-sem-clique'); show(`⛔ Sem sinal depois de ${RETIRE_DAYS} dias (o robô aposenta)`, 'sem-sinal');
   L.push('', '_O Search Console guardado aqui traz as buscas, não a página: cada artigo é ligado pelas buscas que contêm as palavras dele._', '');

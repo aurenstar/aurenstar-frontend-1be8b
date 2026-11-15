@@ -27,8 +27,8 @@ export const onRequest = async ({ request, env, params, next }: Context): Promis
 
   // Native articles (written directly in this language, not translated): /<lang>/blog/<slug> and the list /<lang>/articles are ready-made
   // standalone pages saved by the build under /_native/<lang>/. If one exists, serve it as it is.
-  if (rest === 'articles' || /^blog\/[^/]+$/.test(rest)) {
-    const nativePath = rest === 'articles' ? `/_native/${lang}/` : `/_native/${lang}/${rest.slice(5)}`;
+  if (rest === 'articles' || /^blog\/[^/]+$/.test(rest) || /^dicionario\/[^/]+$/.test(rest)) {
+    const nativePath = rest === 'articles' ? `/_native/${lang}/` : rest.startsWith('dicionario/') ? `/_native/${lang}/d/${rest.slice(11)}` : `/_native/${lang}/${rest.slice(5)}`;
     const nat = await env.ASSETS.fetch(new Request(new URL(nativePath, url).toString(), { headers: { Accept: 'text/html' }, redirect: 'manual' }));
     if ((nat.headers.get('Content-Type') || '').includes('text/html') && nat.ok) {
       return new Response(request.method === 'HEAD' ? null : await nat.text(), { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Content-Language': lang, 'Cache-Control': 'public, max-age=300' } });
