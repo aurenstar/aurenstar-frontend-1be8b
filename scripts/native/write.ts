@@ -1,6 +1,6 @@
 /**
- * Writes native articles: directly in each language, for the searches people there really type (data/native-topics.json), not translated.
- *   npx tsx scripts/native/write.ts --max 10 --per-lang 3 [--langs de,fr] [--dry]
+ * Writes native articles (and, with --kind term, short dictionary entries): directly in each language, for the searches people there really type (data/native-topics.json), not translated.
+ *   npx tsx scripts/native/write.ts [--kind term] --max 10 --per-lang 3 [--langs de,fr] [--dry]
  * Needs OPENAI_API_KEY (skips quietly without it). Saves data/native-articles/<lang>/<slug>.json only when every quality check passes.
  * Drip: --max is the most articles per run, --per-lang the most per language in total (raise it slowly, after reading the report).
  */
@@ -16,24 +16,29 @@ import { activeWave } from './plan';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../../src/data/astrologyDictionaryData';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
-const DIR = path.join(root, 'data/native-articles');
+/** --kind term writes short dictionary entries (verbetes) instead of full articles; both kinds follow the same language waves. */
+const KIND: 'article' | 'term' = (process.argv.includes('--kind') && process.argv[process.argv.indexOf('--kind') + 1] === 'term') ? 'term' : 'article';
+const DIR = path.join(root, KIND === 'term' ? 'data/native-terms' : 'data/native-articles');
+const ARTICLES_DIR = path.join(root, 'data/native-articles');
+const TERMS_DIR = path.join(root, 'data/native-terms');
 const arg = (n: string) => { const i = process.argv.indexOf(`--${n}`); return i < 0 ? undefined : process.argv[i + 1]; };
 const DRY = process.argv.includes('--dry');
 const KEY = process.env.OPENAI_API_KEY;
 /** The wave plan (data/native-plan.json) says which languages are open today and how many articles are allowed; --langs / --max / --per-lang or the NATIVE_* variables override it. */
 const WAVE = activeWave();
 const LANGS = (arg('langs') || process.env.NATIVE_LANGS || WAVE.langs.join(',')).split(',').map((s) => s.trim()).filter(Boolean);
-const MAX = Math.max(0, Math.min(40, Number(arg('max') ?? WAVE.maxPerDay)));
-const PER_LANG = Math.max(0, Number(arg('per-lang') ?? (process.env.NATIVE_PER_LANG || WAVE.perLang)));
+const MAX = Math.max(0, Math.min(40, Number(arg('max') ?? (KIND === 'term' ? WAVE.termsMaxPerDay : WAVE.maxPerDay))));
+const PER_LANG = Math.max(0, Number(arg('per-lang') ?? (process.env.NATIVE_PER_LANG || (KIND === 'term' ? WAVE.termsPerLang : WAVE.perLang))));
 const WRITE_MODEL = process.env.OPENAI_WRITE_MODEL || 'gpt-4.1';
 const FALLBACK_MODEL = process.env.OPENAI_MODEL || 'gpt-4.1-mini';
 
 const LANG_NAME: Record<string, string> = { de: 'German (Germany, Austria, Switzerland)', fr: 'French (France and French-speaking countries)', ar: 'Arabic (Modern Standard, easy to read across the Arab world)', ru: 'Russian', tr: 'Turkish', hi: 'Hindi', it: 'Italian', vi: 'Vietnamese', ja: 'Japanese', id: 'Indonesian', nl: 'Dutch', ko: 'Korean', zh: 'Simplified Chinese', pl: 'Polish', th: 'Thai', sv: 'Swedish', da: 'Danish', no: 'Norwegian', fi: 'Finnish', el: 'Greek', he: 'Hebrew', uk: 'Ukrainian', cs: 'Czech', ro: 'Romanian', bg: 'Bulgarian', hu: 'Hungarian', sk: 'Slovak', hr: 'Croatian', sr: 'Serbian (Latin script)', ca: 'Catalan', lt: 'Lithuanian', lv: 'Latvian', sl: 'Slovenian', et: 'Estonian', ms: 'Malay', bn: 'Bengali', ta: 'Tamil', te: 'Telugu', mr: 'Marathi', ur: 'Urdu', fa: 'Persian', fil: 'Filipino', zht: 'Traditional Chinese (Taiwan, Hong Kong)' };
 
-export const load = (): NativeArticle[] => {
-  if (!fs.existsSync(DIR)) return [];
-  return fs.readdirSync(DIR).flatMap((l) => fs.readdirSync(path.join(DIR, l)).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(DIR, l, f), 'utf8')) as NativeArticle));
+const loadDir = (dir: string, kind?: 'term'): NativeArticle[] => {
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).flatMap((l) => fs.readdirSync(path.join(dir, l)).filter((f) => f.endsWith('.json')).map((f) => ({ ...JSON.parse(fs.readFileSync(path.join(dir, l, f), 'utf8')), ...(kind ? { kind } : {}) }) as NativeArticle));
 };
+export const load = (): NativeArticle[] => loadDir(DIR, KIND === 'term' ? 'term' : undefined);
 const tokens = (s: string) => new Set(fold(s).split(/\s+/).filter(Boolean));
 /** Same wish? Every word of the shorter search has a matching word (same word, or the same first 5 letters: "berechnung"/"berechnen") in the other. */
 const sameWord = (a: string, b: string) => a === b || (a.length >= 5 && b.length >= 5 && a.slice(0, 5) === b.slice(0, 5));
@@ -51,7 +56,17 @@ async function ask(model: string, prompt: string): Promise<any> {
 }
 
 const DICT_SLUGS = ASTROLOGY_DICTIONARY_TERMS.map((t) => t.slug).join(', ');
-const promptFor = (lang: string, keyword: string) => `You are a native ${LANG_NAME[lang] || lang}-speaking astrology writer for the website Aurenstar. Write ONE original article directly in that language (do NOT translate from English) for people who type this Google search: "${keyword}".
+const termPrompt = (lang: string, keyword: string) => `You are a native ${LANG_NAME[lang] || lang}-speaking astrology writer for the website Aurenstar. Write ONE original short dictionary entry (a "verbete") directly in that language (do NOT translate from English) for people who type this Google search: "${keyword}".
+
+Rules:
+- Use the everyday words people in that language really use. Use the exact search words "${keyword}" naturally in the title, the intro (the first 2 sentences must answer the question in plain words), at least one heading and a few times in the text.
+- 3 to 4 sections (for example: what it is, what it means in a birth chart or in everyday life, a small made-up example, related ideas), 450 to 700 words in total, never fewer than 350 (for Japanese, Chinese and Thai: 1200 to 1800 characters). Short paragraphs, warm and simple.
+- Every astrology statement must be correct and commonly accepted in astrology. Astrology for reflection and fun: never promise outcomes, never give medical, legal or money advice, never invent studies, statistics, quotes or sources.
+- No links, no mention of AI or translation, no English words except proper names. 3 FAQ items.
+- "tool": "discover-sign", "daily-message" or "descreva-me" (the free tool that fits best). "term": the best matching entry of this astrology dictionary, exactly one of [${DICT_SLUGS}], or "".
+- "slug": 3 to 7 lowercase English words with hyphens (ASCII only). "ui": home (Home), tools (Free astrology tools), articles (Articles), faq (Frequently asked questions), more (Keep reading), dictionary (Astrology dictionary), in that language.
+Return ONLY JSON: {"slug":"","title":"","description":"(110 to 160 characters)","intro":"","sections":[{"h2":"","paragraphs":[""]}],"faq":[{"q":"","a":""}],"tool":"","term":"","ui":{"home":"","tools":"","articles":"","faq":"","more":"","dictionary":""}}`;
+const promptFor = (lang: string, keyword: string) => KIND === 'term' ? termPrompt(lang, keyword) : `You are a native ${LANG_NAME[lang] || lang}-speaking astrology writer for the website Aurenstar. Write ONE original article directly in that language (do NOT translate from English) for people who type this Google search: "${keyword}".
 
 Rules:
 - Use the everyday words people in that language really use for these ideas. Use the exact search words "${keyword}" naturally in the title, the intro, at least one heading and a few times in the text.
@@ -85,7 +100,7 @@ async function write(lang: string, keyword: string, volume: number, taken: Set<s
       let slug = String(j.slug || '').toLowerCase().replace(/[^a-z0-9-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 70);
       if (!slug) slug = fold(keyword).replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'article';
       if (taken.has(slug)) slug = `${slug}-${lang}`;
-      const a: NativeArticle = { lang, keyword, volume, slug, date: new Date().toISOString().slice(0, 10), title: j.title, description: j.description, intro: j.intro, sections: j.sections, faq: j.faq, ui: j.ui, ...(TOOLS.includes(j.tool) ? { tool: j.tool } : {}), ...(ASTROLOGY_DICTIONARY_TERMS.some((t) => t.slug === j.term) ? { term: j.term } : {}) };
+      const a: NativeArticle = { lang, keyword, volume, slug, date: new Date().toISOString().slice(0, 10), ...(KIND === 'term' ? { kind: 'term' as const } : {}), title: j.title, description: j.description, intro: j.intro, sections: j.sections, faq: j.faq, ui: j.ui, ...(TOOLS.includes(j.tool) ? { tool: j.tool } : {}), ...(ASTROLOGY_DICTIONARY_TERMS.some((t) => t.slug === j.term) ? { term: j.term } : {}) };
       const bad = checkArticle(a);
       if (!bad.length) { const why = await review(a); if (!why.length) return a; console.log(`  ${lang} "${keyword}" (${model}) editor: ${why.join('; ')}`); continue; }
       console.log(`  ${lang} "${keyword}" (${model}) rejected: ${bad.join('; ')}`);
@@ -95,20 +110,22 @@ async function write(lang: string, keyword: string, volume: number, taken: Set<s
 }
 
 async function main() {
-  if (WAVE.paused && !arg('langs')) { console.log('native articles: paused in data/native-plan.json'); return; }
-  console.log(`native articles: wave "${WAVE.name}", ${LANGS.length} languages open, up to ${PER_LANG} per language, up to ${MAX} today`);
-  if (!KEY && !DRY) { console.log('native articles: no OPENAI_API_KEY, nothing to do'); return; }
+  if (WAVE.paused && !arg('langs')) { console.log(`native ${KIND === 'term' ? 'dictionary entries' : 'articles'}: paused in data/native-plan.json`); return; }
+  console.log(`native ${KIND === 'term' ? 'dictionary entries' : 'articles'}: wave "${WAVE.name}", ${LANGS.length} languages open, up to ${PER_LANG} per language, up to ${MAX} today`);
+  if (!KEY && !DRY) { console.log(`native ${KIND === 'term' ? 'dictionary entries' : 'articles'}: no OPENAI_API_KEY, nothing to do`); return; }
   const have = load();
-  const englishSlugs = new Set(BLOG_ARTICLES.map((a) => getArticleSlug(a)));
+  const everything = [...loadDir(ARTICLES_DIR), ...loadDir(TERMS_DIR, 'term')];   // a wish that already has an article or an entry is not written again
+  const englishSlugs = new Set(KIND === 'term' ? ASTROLOGY_DICTIONARY_TERMS.map((t) => t.slug) : BLOG_ARTICLES.map((a) => getArticleSlug(a)));
   const taken = new Set(['index', ...englishSlugs, ...have.map((a) => a.slug)]);
   const queue = new Map<string, { keyword: string; volume: number }[]>();
   for (const lang of LANGS) {
     const written = have.filter((a) => a.lang === lang);
+    const seenWishes = everything.filter((a) => a.lang === lang);
     const room = PER_LANG - written.length;
     const picks: { keyword: string; volume: number }[] = [];
     for (const t of ((topicsFile as any).topics[lang] || []) as { keyword: string; volume: number }[]) {
       if (picks.length >= room) break;
-      if (written.some((w) => similar(w.keyword, t.keyword)) || picks.some((p) => similar(p.keyword, t.keyword))) continue;
+      if (seenWishes.some((w) => similar(w.keyword, t.keyword)) || picks.some((p) => similar(p.keyword, t.keyword))) continue;
       picks.push(t);
     }
     if (picks.length) queue.set(lang, picks);
@@ -130,7 +147,7 @@ async function main() {
       done++;
     }
   }
-  console.log(`native articles: ${done} saved, ${tried - done} rejected or failed, ${have.length + (DRY ? 0 : done)} in total`);
+  console.log(`native ${KIND === 'term' ? 'dictionary entries' : 'articles'}: ${done} saved, ${tried - done} rejected or failed, ${have.length + (DRY ? 0 : done)} in total`);
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) await main();

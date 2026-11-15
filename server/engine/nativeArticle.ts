@@ -16,6 +16,8 @@ export interface NativeArticle {
   ui: { home: string; tools: string; articles: string; faq: string; more: string; dictionary?: string };
   /** the free tool and the dictionary term that fit this topic (checked against real addresses) */
   tool?: string; term?: string;
+  /** 'term' = a short dictionary entry (verbete) written natively; missing = a full article */
+  kind?: 'term';
   /** care robot: marks an article that gets no signal for a long time (kept, but not indexed) and when its title was last improved */
   retired?: boolean; metaRewrittenAt?: string;
 }
@@ -25,6 +27,8 @@ export const fold = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').to
 const esc = (v: string) => v.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 export const articlePath = (lang: string, slug: string) => `/${lang}/blog/${slug}`;
 export const hubPath = (lang: string) => `/${lang}/articles`;
+export const termPath = (lang: string, slug: string) => `/${lang}/dicionario/${slug}`;
+export const pathOf = (a: Pick<NativeArticle, 'lang' | 'slug' | 'kind'>) => (a.kind === 'term' ? termPath(a.lang, a.slug) : articlePath(a.lang, a.slug));
 
 // ---------- quality checks (an article that fails any of them is NOT saved) ----------
 const SCRIPTS: Record<string, RegExp> = {
@@ -43,12 +47,13 @@ export function checkArticle(a: NativeArticle): string[] {
   const bad: string[] = [];
   const str = (v: unknown, min = 1) => typeof v === 'string' && v.trim().length >= min;
   if (!str(a.title, 8) || !str(a.description, 40) || !str(a.intro, 80)) bad.push('missing title, description or intro');
-  if (!Array.isArray(a.sections) || a.sections.length < 4 || a.sections.some((s) => !str(s.h2, 3) || !Array.isArray(s.paragraphs) || s.paragraphs.length < 1)) bad.push('needs at least 4 sections with paragraphs');
+  const isTerm = a.kind === 'term';
+  if (!Array.isArray(a.sections) || a.sections.length < (isTerm ? 3 : 4) || a.sections.some((s) => !str(s.h2, 3) || !Array.isArray(s.paragraphs) || s.paragraphs.length < 1)) bad.push('needs enough sections with paragraphs');
   if (!Array.isArray(a.faq) || a.faq.length < 3 || a.faq.some((f) => !str(f.q, 6) || !str(f.a, 20))) bad.push('needs at least 3 questions with answers');
   if (!a.ui || !['home', 'tools', 'articles', 'faq', 'more'].every((k) => str((a.ui as any)[k]))) bad.push('missing page words');
   if (bad.length) return bad;
   const text = allText(a);
-  const need = NO_SPACES.has(a.lang) ? 1500 : 550;
+  const need = isTerm ? (NO_SPACES.has(a.lang) ? 700 : 280) : NO_SPACES.has(a.lang) ? 1500 : 550;
   if (sizeOf(a.lang, text) < need) bad.push(`too short (${sizeOf(a.lang, text)} < ${need})`);
   if (a.title.length > 90 || a.title.length < 8) bad.push('title length');
   if (a.description.length > 200) bad.push('description too long');
@@ -113,7 +118,7 @@ ${body}
 }
 
 export function renderNativeArticle(a: NativeArticle, others: NativeArticle[] = []): string {
-  const url = `${SITE}${articlePath(a.lang, a.slug)}`;
+  const url = `${SITE}${pathOf(a)}`;
   const jsonLd = [
     { '@context': 'https://schema.org', '@type': 'Article', headline: a.title, description: a.description, inLanguage: langTag(a.lang), mainEntityOfPage: url, datePublished: a.date, dateModified: a.date, author: { '@type': 'Organization', name: 'Aurenstar' }, publisher: { '@type': 'Organization', name: 'Aurenstar', logo: { '@type': 'ImageObject', url: `${SITE}/logo-aurenstar.webp` } } },
     { '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: langTag(a.lang), mainEntity: a.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
@@ -127,14 +132,16 @@ ${a.sections.map((s) => `<h2>${esc(s.h2)}</h2>\n${s.paragraphs.map((p) => `<p>${
 ${a.term && a.ui.dictionary ? `<p><a href="/${a.lang}/dicionario/${esc(a.term)}">${esc(a.ui.dictionary)}</a></p>` : ''}
 <h2>${esc(a.ui.faq)}</h2>
 ${a.faq.map((f) => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('\n')}
-${more.length ? `<h2>${esc(a.ui.more)}</h2>\n<ul class="l">${more.map((o) => `<li><a href="${articlePath(o.lang, o.slug)}">${esc(o.title)}</a></li>`).join('')}</ul>` : ''}
+${more.length ? `<h2>${esc(a.ui.more)}</h2>\n<ul class="l">${more.map((o) => `<li><a href="${pathOf(o)}">${esc(o.title)}</a></li>`).join('')}</ul>` : ''}
 </main>`;
   return shell(a.lang, a.title, a.description, url, jsonLd, body, a.ui, 'article', a.retired ? 'noindex,follow' : 'index,follow');
 }
 
 export function renderNativeHub(lang: string, list: NativeArticle[]): string {
-  const ui = list[0].ui;
+  const ui = list.find((x) => x.ui.dictionary)?.ui || list[0].ui;
   const url = `${SITE}${hubPath(lang)}`;
-  const body = `<main><h1>${esc(ui.articles)}</h1>\n<ul class="l">${list.map((o) => `<li><a href="${articlePath(lang, o.slug)}">${esc(o.title)}</a><br /><small>${esc(o.description)}</small></li>`).join('\n')}</ul></main>`;
+  const items = (l: NativeArticle[]) => `<ul class="l">${l.map((o) => `<li><a href="${pathOf(o)}">${esc(o.title)}</a><br /><small>${esc(o.description)}</small></li>`).join('\n')}</ul>`;
+  const arts = list.filter((x) => x.kind !== 'term'), terms = list.filter((x) => x.kind === 'term');
+  const body = `<main><h1>${esc(ui.articles)}</h1>\n${arts.length ? items(arts) : ''}${terms.length ? `\n<h2>${esc(ui.dictionary || ui.articles)}</h2>\n${items(terms)}` : ''}</main>`;
   return shell(lang, ui.articles, list[0].description, url, [{ '@context': 'https://schema.org', '@type': 'CollectionPage', name: ui.articles, inLanguage: langTag(lang), url }], body, ui, 'website');
 }
