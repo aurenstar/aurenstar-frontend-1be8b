@@ -196,10 +196,20 @@ export function plannerPriority(volume: number, comp: number | null, position: n
   const push = position !== null && position >= 8 && position <= 20 ? 1.5 : 1; // already close to page 1
   return Math.round(volume * ease * push);
 }
+/** Small push from the internal report (data/dictionary-report.json): subjects that get seen more are written a bit sooner. 1 when unknown. */
+function categoryBoosts(): Map<string, number> {
+  const m = new Map<string, number>();
+  try {
+    const r = JSON.parse(fs.readFileSync(path.join(root, 'data/dictionary-report.json'), 'utf8')) as { categorias?: { categoria: string; boost: number }[] };
+    for (const c of r.categorias || []) if (c.boost >= 0.8 && c.boost <= 1.3) m.set(c.categoria, c.boost);
+  } catch { /* no report yet */ }
+  return m;
+}
 function readPlannerJson(): DemandItem[] {
   try {
     const rows = JSON.parse(fs.readFileSync(PLANNER_JSON, 'utf8')) as { keyword?: string; volume?: number | string; market?: string; comp?: number | string }[];
     const pos = gscPositions();
+    const boosts = categoryBoosts();
     const byConcept = new Map<string, { q: string; best: number; total: number; compSum: number; compW: number }>();
     for (const r of Array.isArray(rows) ? rows : []) {
       const volume = Number(r.volume) || 0;
@@ -217,7 +227,7 @@ function readPlannerJson(): DemandItem[] {
     const out: DemandItem[] = [];
     for (const [k, v] of byConcept) {
       const comp = v.compW ? v.compSum / v.compW : null;
-      out.push({ ...seedFromQuestion(v.q), score: 1_000_000 + plannerPriority(v.total, comp, pos.get(k) ?? null), source: 'keyword-planner', volume: v.total });
+      out.push({ ...seedFromQuestion(v.q), score: 1_000_000 + Math.round(plannerPriority(v.total, comp, pos.get(k) ?? null) * (boosts.get(categoryFor(v.q)) ?? 1)), source: 'keyword-planner', volume: v.total });
     }
     return out;
   } catch { return []; }
