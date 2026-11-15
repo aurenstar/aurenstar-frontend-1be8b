@@ -4,6 +4,7 @@ import { chooseNames, applyNames, applyNamesToTerm } from '../scripts/dictionary
 import { verdictFor, boostFor } from '../scripts/dictionary/report';
 import { chooseWorldNames, worldTotals } from '../scripts/dictionary/worldNames';
 import { mergeEntry } from '../scripts/dictionary/buildWorldGlossary';
+import { LANGUAGE_IDS } from '../scripts/dictionary/worldGlossary';
 import { toolForTerm } from '../src/data/dictionaryLinks';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 
@@ -98,5 +99,8 @@ ok('world: totals add languages', (worldTotals(wv).get('natal chart') || 0) >= 3
 ok('glossary: hand-written name is kept', mergeEntry('Sternzeichen', 'Tierkreis') === 'Sternzeichen');
 ok('glossary: missing name is filled (max 2)', mergeEntry('', ' a | b | c ') === 'a|b');
 ok('glossary: nothing to fill stays empty', mergeEntry(undefined, undefined) === '');
+
+// Google Ads language ids (official table): Lithuanian 1029 (1026 is Icelandic), Persian 1064, Norwegian 1013, Malay 1102
+ok('language ids: lt/fa/no/ms are the official ones', LANGUAGE_IDS.lt === 1029 && LANGUAGE_IDS.fa === 1064 && LANGUAGE_IDS.no === 1013 && LANGUAGE_IDS.ms === 1102);
 
 process.exit(failed ? 1 : 0);
