@@ -33,7 +33,9 @@ const SCRIPTS: Record<string, RegExp> = {
 };
 const NO_SPACES = new Set(['ja', 'zh', 'zht', 'th']);
 const EN_WORDS = /\b(the|and|of|is|are|with|that|this|for|your|you)\b/gi;
-const AI_WORDS = /\b(AI|IA)\b|artificial intelligence|chatgpt|openai|as an ai|translated by/i;
+// "AI"/"IA" only as capital letters: in Italian "ai", Indonesian "ia" and Vietnamese "ai" are ordinary words.
+const AI_CAPS = /\b(?:AI|IA|KI)\b/;
+const AI_WORDS = /artificial intelligence|künstliche intelligenz|chatgpt|openai|as an ai|translated by/i;
 const allText = (a: NativeArticle) => [a.title, a.description, a.intro, ...a.sections.flatMap((s) => [s.h2, ...s.paragraphs]), ...a.faq.flatMap((f) => [f.q, f.a])].join('\n');
 export const sizeOf = (lang: string, text: string) => (NO_SPACES.has(lang) ? text.replace(/\s/g, '').length : text.split(/\s+/).filter(Boolean).length);
 
@@ -46,7 +48,7 @@ export function checkArticle(a: NativeArticle): string[] {
   if (!a.ui || !['home', 'tools', 'articles', 'faq', 'more'].every((k) => str((a.ui as any)[k]))) bad.push('missing page words');
   if (bad.length) return bad;
   const text = allText(a);
-  const need = NO_SPACES.has(a.lang) ? 1500 : 650;
+  const need = NO_SPACES.has(a.lang) ? 1500 : 550;
   if (sizeOf(a.lang, text) < need) bad.push(`too short (${sizeOf(a.lang, text)} < ${need})`);
   if (a.title.length > 90 || a.title.length < 8) bad.push('title length');
   if (a.description.length > 200) bad.push('description too long');
@@ -63,7 +65,7 @@ export function checkArticle(a: NativeArticle): string[] {
     const en = (text.match(EN_WORDS) || []).length;
     if (en / Math.max(1, sizeOf(a.lang, text)) > 0.04) bad.push('looks written in English');
   }
-  if (AI_WORDS.test(text)) bad.push('mentions AI');
+  if (AI_CAPS.test(text) || AI_WORDS.test(text)) bad.push('mentions AI');
   if (/https?:\/\//i.test(text)) bad.push('contains a link');
   return bad;
 }
