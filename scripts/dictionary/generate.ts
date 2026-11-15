@@ -12,6 +12,7 @@ import { fileURLToPath } from 'node:url';
 import { ASTROLOGY_DICTIONARY_TERMS, type DictionaryTerm } from '../../src/data/astrologyDictionaryData';
 import { validateTerm, slugify, CATEGORIES } from './checks';
 import { ruleBasedTopics, type Seed } from './topics';
+import mergedTerms from '../../src/data/mergedDictionaryTerms.json';
 import { refreshDemand, readDemand, conceptKey, DEMAND_FILE } from './demand';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
@@ -195,7 +196,7 @@ async function main() {
   const demand = MAX > 0 && !DRY ? await refreshDemand().catch(() => readDemand()) : readDemand();
   if (!DRY && demand.items.length && MAX > 0) fs.writeFileSync(DEMAND_FILE, JSON.stringify(demand, null, 1) + '\n');
   // one page per idea: skip a question whose idea is already covered by a published term or by a better-ranked question
-  const covered = new Set(all.flatMap((t) => [conceptKey(t.perguntaGoogle || ''), conceptKey(t.termo || '')]).filter(Boolean));
+  const covered = new Set([...all.flatMap((t) => [conceptKey(t.perguntaGoogle || ''), conceptKey(t.termo || '')]), ...mergedTerms.flatMap((m) => [conceptKey(m.question), conceptKey(m.termo)])].filter(Boolean));   // joined duplicates stay covered, so they are not written again
   const demandSeeds: Seed[] = [];
   for (const d of demand.items) {
     const k = conceptKey(d.question);

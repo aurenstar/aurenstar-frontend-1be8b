@@ -11,7 +11,7 @@ import topicsFile from '../../data/native-topics.json';
 import { BLOG_ARTICLES } from '../../src/data/blogArticles';
 import { getArticleSlug } from '../../src/utils/articleSlug';
 import { checkArticle, fold, TOOLS, type NativeArticle } from '../../server/engine/nativeArticle';
-import { intentKey } from '../dictionary/nativeTopics';
+import { intentKey, hasNumber } from '../dictionary/nativeTopics';
 import { activeWave } from './plan';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../../src/data/astrologyDictionaryData';
 
@@ -61,7 +61,7 @@ const termPrompt = (lang: string, keyword: string) => `You are a native ${LANG_N
 Rules:
 - Use the everyday words people in that language really use. Use the exact search words "${keyword}" naturally in the title, the intro (the first 2 sentences must answer the question in plain words), at least one heading and a few times in the text.
 - 3 to 4 sections (for example: what it is, what it means in a birth chart or in everyday life, a small made-up example, related ideas), 450 to 700 words in total, never fewer than 350 (for Japanese, Chinese and Thai: 1200 to 1800 characters). Short paragraphs, warm and simple.
-- Every astrology statement must be correct and commonly accepted in astrology. Astrology for reflection and fun: never promise outcomes, never give medical, legal or money advice, never invent studies, statistics, quotes or sources.
+- Zodiac date ranges change a little by year: always say "around". Every astrology statement must be correct and commonly accepted in astrology. Astrology for reflection and fun: never promise outcomes, never give medical, legal or money advice, never invent studies, statistics, quotes or sources.
 - No links, no mention of AI or translation, no English words except proper names. 3 FAQ items.
 - "tool": "discover-sign", "daily-message" or "descreva-me" (the free tool that fits best). "term": the best matching entry of this astrology dictionary, exactly one of [${DICT_SLUGS}], or "".
 - "slug": 3 to 7 lowercase English words with hyphens (ASCII only). "ui": home (Home), tools (Free astrology tools), articles (Articles), faq (Frequently asked questions), more (Keep reading), dictionary (Astrology dictionary), in that language.
@@ -72,6 +72,7 @@ Rules:
 - Use the everyday words people in that language really use for these ideas. Use the exact search words "${keyword}" naturally in the title, the intro, at least one heading and a few times in the text.
 - Answer what the person wants clearly and quickly in the intro, then go deeper. 5 to 7 sections, 1300 to 1800 words in total, never fewer than 1100 (count them: long languages like Arabic and Russian often come out too short, so write each section with at least 4 full paragraphs) (for Japanese, Chinese and Thai: 3500 to 4500 characters). Short paragraphs, warm and simple, with small concrete examples (invented, never real people).
 - The title must say honestly what the article gives (no clickbait, no wrong claims: an ascendant is not a partner, a sign is not a destiny). Every astrology statement must be correct and commonly accepted in astrology.
+- Zodiac date ranges change a little by year: always say "around" (for example "around 20 January to 18 February").
 - Astrology for reflection and fun. Never promise outcomes, never give medical, legal or money advice, never invent studies, statistics, quotes or sources.
 - No links, no mention of AI or translation, no English words except proper names.
 - Include real small examples (a made-up person, a made-up situation) in at least three sections; do not repeat the same idea in different words.
@@ -84,7 +85,7 @@ async function review(a: NativeArticle): Promise<string[]> {
   if (DRY) return [];
   try {
     const text = [a.title, a.description, a.intro, ...a.sections.flatMap((s) => [s.h2, ...s.paragraphs]), ...a.faq.flatMap((f) => [f.q, f.a])].join('\n').slice(0, 14000);
-    const j = await ask(FALLBACK_MODEL, `You are a strict editor and a native speaker of the language "${a.lang}". Review this astrology article written for the search "${a.keyword}". Reject it ("ok": false) if ANY of these is true: the title or description promises something the text does not give or is clickbait or wrong; it states invented facts, statistics, studies or quotes; it gives medical, legal or money advice or promises outcomes; the astrology is factually wrong; the language is unnatural, machine-like or mixes in another language; it is mostly filler or has no concrete examples. Return ONLY JSON {"ok":boolean,"problems":["max 10 words each"]}.\n\n${text}`);
+    const j = await ask(FALLBACK_MODEL, `You are a strict editor and a native speaker of the language "${a.lang}". Review this astrology article written for the search "${a.keyword}". Reject it ("ok": false) if ANY of these is true: the title or description promises something the text does not give or is clickbait or wrong; it states invented facts, statistics, studies or quotes; it gives medical, legal or money advice or promises outcomes; the astrology is factually wrong; the language is unnatural, machine-like or mixes in another language; it is mostly filler or has no concrete examples; the search words are unclear, a loose fragment, or the text had to guess what they mean and explains something that is not a real astrology idea. Return ONLY JSON {"ok":boolean,"problems":["max 10 words each"]}.\n\n${text}`);
     return j.ok === false || (Array.isArray(j.problems) && j.problems.length >= 3) ? (j.problems || ['editor rejected']).map(String) : [];
   } catch { return []; }
 }
@@ -125,6 +126,7 @@ async function main() {
     const picks: { keyword: string; volume: number }[] = [];
     for (const t of ((topicsFile as any).topics[lang] || []) as { keyword: string; volume: number }[]) {
       if (picks.length >= room) break;
+      if (hasNumber(t.keyword)) continue;
       if (seenWishes.some((w) => similar(w.keyword, t.keyword)) || picks.some((p) => similar(p.keyword, t.keyword))) continue;
       picks.push(t);
     }

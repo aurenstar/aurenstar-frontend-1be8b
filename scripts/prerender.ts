@@ -19,6 +19,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { BLOG_ARTICLES } from '../src/data/blogArticles';
 import { REMOVED_ARTICLES } from '../src/data/removedArticles';
+import mergedTerms from '../src/data/mergedDictionaryTerms.json';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 import { hreflangLinks, langUrl } from '../server/engine/localizePage';
 import { renderNativeArticle, renderNativeHub, pathOf, hubPath, type NativeArticle } from '../server/engine/nativeArticle';
@@ -188,6 +189,9 @@ for (const removed of REMOVED_ARTICLES) {
   redirects.push(`/blog/${removed.id} ${to} 301`);
   redirects.push(`/blog/${removed.slug} ${to} 301`);
 }
+
+// 2-merged. Two dictionary entries about the same idea were joined into one: the old address goes to the kept one (the language addresses follow through functions/[lang]).
+for (const m of mergedTerms) redirects.push(`/dicionario/${m.from} /dicionario/${m.into} 301`);
 
 // 2a. Old WordPress addresses (blog.aurenstar.com/2026/10/19/<wp-slug>/) -> the same article on the new site.
 // Cloudflare sends blog.aurenstar.com/<path> to /old-blog/<path>; functions/old-blog looks the WordPress slug up in this map

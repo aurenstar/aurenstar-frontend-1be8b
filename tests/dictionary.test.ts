@@ -4,8 +4,9 @@ import { chooseNames, applyNames, applyNamesToTerm } from '../scripts/dictionary
 import { verdictFor, boostFor, visitGoals } from '../scripts/dictionary/report';
 import { chooseWorldNames, worldTotals } from '../scripts/dictionary/worldNames';
 import { mergeEntry } from '../scripts/dictionary/buildWorldGlossary';
-import { candidates, intentKey } from '../scripts/dictionary/nativeTopics';
+import { candidates, intentKey, hasNumber } from '../scripts/dictionary/nativeTopics';
 import { LANGUAGE_IDS } from '../scripts/dictionary/worldGlossary';
+import mergedTerms from '../src/data/mergedDictionaryTerms.json';
 import { toolForTerm } from '../src/data/dictionaryLinks';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 
@@ -111,6 +112,12 @@ ok('goals: 0.05% and 0.5% follow the totals', vg.metas[0].medido === 26 && vg.me
 const nt = candidates('de', [{ lang: 'de', keyword: 'sternzeichen löwe', volume: 100 }, { lang: 'de', keyword: 'berechnung aszendent', volume: 90 }, { lang: 'de', keyword: 'aszendent berechnung', volume: 80 }, { lang: 'de', keyword: 'gemini ai sternzeichen', volume: 70 }, { lang: 'de', keyword: 'leo', volume: 999 }]);
 ok('topics: same wish in another order counts once', nt.filter((t) => t.keyword.includes('aszendent')).length === 1);
 ok('topics: other meanings and one-word names are left out', !nt.some((t) => /gemini|^leo$/.test(t.keyword)) && nt.some((t) => t.keyword === 'sternzeichen löwe'));
+ok('topics: a search with a loose number is left out', hasNumber('trine 5') && !hasNumber('sternzeichen löwe') && candidates('de', [{ lang: 'de', keyword: 'sternzeichen 5', volume: 9 }]).length === 0);
 ok('topics: intent key ignores order', intentKey('b a') === intentKey('a b'));
+
+const liveSlugs = new Set(ASTROLOGY_DICTIONARY_TERMS.map((t) => t.slug));
+ok('merged terms: the old address is gone and the kept one exists', mergedTerms.length >= 5 && mergedTerms.every((m) => !liveSlugs.has(m.from) && liveSlugs.has(m.into)));
+ok('merged terms: nothing still points to an old address', ASTROLOGY_DICTIONARY_TERMS.every((t) => ((t as any).termosRelacionados || []).every((r: string) => !mergedTerms.some((m) => m.from === r))));
+ok('merged terms: the same idea is not written again', mergedTerms.every((m) => conceptKey(m.question) !== ''));
 
 process.exit(failed ? 1 : 0);
