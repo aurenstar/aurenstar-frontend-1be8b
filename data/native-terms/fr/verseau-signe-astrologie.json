@@ -1,0 +1,61 @@
+{
+ "lang": "fr",
+ "keyword": "verseau signe",
+ "volume": 33100,
+ "slug": "verseau-signe-astrologie",
+ "date": "2026-11-15",
+ "kind": "term",
+ "title": "Verseau signe : tout savoir sur ce signe astrologique unique",
+ "description": "Découvrez ce que signifie le signe du Verseau en astrologie : personnalité, influence dans le thème natal, éléments clés et FAQ pratiques.",
+ "intro": "Verseau signe : c’est le onzième signe du zodiaque, associé à l’originalité et à l’indépendance. Si vous êtes né entre le 20 janvier et le 18 février, votre signe solaire est le Verseau. Mais que veut dire être Verseau et comment cela influence-t-il la vie quotidienne ?",
+ "sections": [
+  {
+   "h2": "Verseau signe : qu’est-ce que c’est ?",
+   "paragraphs": [
+    "Le Verseau est un signe d’Air, symbolisé par le porteur d’eau. Dans l’astrologie occidentale, le signe du Verseau correspond à ceux nés entre le 20 janvier et le 18 février. C’est un signe fixe, ce qui lui confère une certaine stabilité et détermination. Les natifs du Verseau sont réputés pour leur esprit innovant, leur ouverture d’esprit et leur envie de sortir des sentiers battus."
+   ]
+  },
+  {
+   "h2": "Le Verseau signe dans votre vie quotidienne et dans le thème natal",
+   "paragraphs": [
+    "Avoir le Verseau signe dans son thème natal signifie souvent avoir une personnalité indépendante, tournée vers l’avenir, parfois un peu rebelle. Les Verseaux aiment la liberté, que ce soit dans leurs idées, leurs relations ou leur mode de vie. Ils sont souvent attirés par les causes humanitaires et la nouveauté. Dans un thème astrologique, la présence forte du Verseau (Soleil, Lune ou Ascendant) peut indiquer une facilité à se démarquer et à innover."
+   ]
+  },
+  {
+   "h2": "Petit exemple de Verseau signe en action",
+   "paragraphs": [
+    "Imaginons Lila, née le 25 janvier. Elle adore explorer de nouveaux concepts et n’a pas peur d’aller à contre-courant. Dans son groupe d’amis, elle est souvent celle qui propose des idées originales et qui défend la tolérance. Lila montre bien l’énergie du Verseau signe : elle valorise l’amitié, l’indépendance et la créativité, tout en restant fidèle à elle-même."
+   ]
+  },
+  {
+   "h2": "Idées associées au signe du Verseau",
+   "paragraphs": [
+    "Le Verseau signe est souvent relié à l’innovation, à la technologie et aux mouvements collectifs. Il fait partie des signes d’air, tout comme la Balance et les Gémeaux, ce qui lui donne un côté sociable et intellectuel. Le maître du Verseau est Uranus, planète du changement et de la surprise."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quels sont les points forts du Verseau signe ?",
+   "a": "L’originalité, l’indépendance, la créativité et l’ouverture d’esprit sont les grandes forces du Verseau."
+  },
+  {
+   "q": "Quels métiers conviennent au Verseau signe ?",
+   "a": "Les Verseaux s’épanouissent dans les domaines liés à l’innovation, à la technologie, aux sciences ou aux causes humanitaires."
+  },
+  {
+   "q": "Le Verseau signe est-il compatible avec quels signes ?",
+   "a": "Il s’entend bien avec les autres signes d’air (Gémeaux, Balance) et certains signes de feu comme le Bélier et le Sagittaire."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils astro gratuits",
+  "articles": "Articles",
+  "faq": "Foire aux questions",
+  "more": "Lire la suite",
+  "dictionary": "Dictionnaire astrologique"
+ },
+ "tool": "discover-sign",
+ "term": "what-does-each-sign-mean-in-astrology"
+}

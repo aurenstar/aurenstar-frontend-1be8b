@@ -1,0 +1,61 @@
+{
+ "lang": "vi",
+ "keyword": "vedic astrology",
+ "volume": 110000,
+ "slug": "vedic-astrology-la-gi",
+ "date": "2026-11-15",
+ "kind": "term",
+ "title": "Vedic astrology là gì? Giải mã chiêm tinh Ấn Độ cổ đại",
+ "description": "Khám phá vedic astrology – chiêm tinh Ấn Độ cổ đại, khác gì chiêm tinh phương Tây và ý nghĩa trong bản đồ sao cá nhân.",
+ "intro": "Vedic astrology là tên gọi của chiêm tinh học Ấn Độ cổ đại, còn gọi là Jyotish. Vedic astrology giúp giải mã vận mệnh, tính cách, các mối quan hệ và những bài học cuộc đời qua bản đồ sao cá nhân dựa trên ngày, giờ, nơi sinh.",
+ "sections": [
+  {
+   "h2": "Vedic astrology là gì?",
+   "paragraphs": [
+    "Vedic astrology, hay còn gọi là Jyotish, là hệ thống chiêm tinh xuất phát từ Ấn Độ cách đây hàng ngàn năm. Khác với chiêm tinh phương Tây, vedic astrology sử dụng hệ thống các chòm sao thật trên bầu trời (sidereal zodiac) thay vì hoàng đạo nhiệt đới (tropical zodiac). Điều này dẫn đến kết quả các vị trí hành tinh trong bản đồ sao có thể khác biệt so với phương Tây. Vedic astrology nhấn mạnh đến nghiệp quả (karma), mục đích sống và các giai đoạn phát triển quan trọng trong cuộc đời mỗi người."
+   ]
+  },
+  {
+   "h2": "Ý nghĩa vedic astrology trong bản đồ sao cá nhân",
+   "paragraphs": [
+    "Trong vedic astrology, bản đồ sao cá nhân (Janma Kundali) được lập dựa trên thời gian, địa điểm và ngày tháng năm sinh cụ thể. Vị trí các hành tinh và các cung (Rashi) sẽ tiết lộ về tính cách, tiềm năng, những thử thách và cơ hội của mỗi người. Vedic astrology còn phân tích các chu kỳ hành tinh lớn (Dasha) ảnh hưởng mạnh mẽ đến từng giai đoạn cuộc đời. Ví dụ, thời kỳ sao Mộc (Guru Dasha) thường được xem là may mắn, mở ra nhiều cơ hội phát triển."
+   ]
+  },
+  {
+   "h2": "Ví dụ đơn giản về vedic astrology",
+   "paragraphs": [
+    "Ví dụ, bạn sinh ngày 10/8/1995 lúc 8h sáng tại Hà Nội. Theo vedic astrology, Mặt Trời của bạn có thể nằm ở cung Sư Tử (Simha) nhưng Mặt Trăng lại ở cung Song Ngư (Meena). Điều này cho thấy bạn vừa mạnh mẽ, tự tin (Sư Tử), vừa nhạy cảm, giàu tình cảm (Song Ngư). Nếu đang ở giai đoạn Dasha của sao Thổ, bạn sẽ trải nghiệm nhiều thử thách để trưởng thành hơn."
+   ]
+  },
+  {
+   "h2": "Một số khái niệm liên quan",
+   "paragraphs": [
+    "- Janma Kundali: Bản đồ sao cá nhân trong vedic astrology\n- Dasha: Các chu kỳ hành tinh tác động đến từng giai đoạn đời người\n- Rashi: Các cung hoàng đạo theo vedic astrology\n- Nakshatra: 27 chòm sao nhỏ, đóng vai trò quan trọng trong phân tích sâu về tính cách"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vedic astrology khác gì chiêm tinh phương Tây?",
+   "a": "Vedic astrology dùng hoàng đạo theo chòm sao thật, còn phương Tây dùng hoàng đạo nhiệt đới. Cách giải thích và ý nghĩa các hành tinh cũng có khác biệt."
+  },
+  {
+   "q": "Có thể dùng vedic astrology để đoán tương lai không?",
+   "a": "Vedic astrology giúp bạn hiểu sâu về bản thân, các giai đoạn cuộc đời, chứ không dự đoán chính xác từng sự kiện."
+  },
+  {
+   "q": "Cần gì để lập bản đồ sao vedic astrology?",
+   "a": "Bạn cần biết chính xác ngày, giờ và nơi sinh để có bản đồ sao vedic astrology chuẩn xác nhất."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ chiêm tinh miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc thêm",
+  "dictionary": "Từ điển chiêm tinh"
+ },
+ "tool": "discover-sign",
+ "term": "what-is-a-natal-chart"
+}

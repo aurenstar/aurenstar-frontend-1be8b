@@ -1,0 +1,61 @@
+{
+ "lang": "id",
+ "keyword": "natal chart",
+ "volume": 246000,
+ "slug": "apa-itu-natal-chart",
+ "date": "2026-11-15",
+ "kind": "term",
+ "title": "Natal Chart: Peta Langit Kelahiran Anda",
+ "description": "Natal chart adalah peta posisi planet saat Anda lahir. Temukan bagaimana natal chart membantu memahami kepribadian dan potensi diri Anda.",
+ "intro": "Natal chart adalah peta langit yang menggambarkan posisi planet-planet pada saat dan tempat Anda lahir. Dengan natal chart, Anda bisa mengetahui karakter, potensi, dan tantangan dalam hidup berdasarkan astrologi.",
+ "sections": [
+  {
+   "h2": "Apa itu Natal Chart?",
+   "paragraphs": [
+    "Natal chart, atau sering disebut juga birth chart, adalah gambaran posisi Matahari, Bulan, dan planet-planet di langit pada detik Anda lahir. Setiap orang punya natal chart yang unik, karena dipengaruhi oleh tanggal, jam, dan lokasi kelahiran. Melalui natal chart, para astrolog bisa membaca pola-pola kepribadian, bakat alami, serta pelajaran hidup yang penting untuk Anda."
+   ]
+  },
+  {
+   "h2": "Kenapa Natal Chart Penting dalam Astrologi?",
+   "paragraphs": [
+    "Natal chart adalah dasar utama dalam membaca astrologi pribadi. Dari sini, kita bisa menemukan letak zodiak Matahari (sun sign), Bulan (moon sign), dan Ascendant (rising sign) Anda. Selain itu, natal chart juga menunjukkan di rumah mana planet-planet berada dan bagaimana hubungan (aspek) antar planet. Semua ini saling berhubungan dan membentuk gambaran menyeluruh tentang diri Anda—mulai dari cara berpikir, cara berhubungan dengan orang lain, hingga area hidup yang sering jadi fokus atau tantangan."
+   ]
+  },
+  {
+   "h2": "Contoh Sederhana Membaca Natal Chart",
+   "paragraphs": [
+    "Misalnya, seseorang lahir 20 Maret 1995 pukul 07.15 di Jakarta. Dari natal chart-nya, diketahui Matahari di Pisces, Bulan di Taurus, dan Ascendant di Aries. Artinya, dia cenderung sensitif dan imajinatif (Pisces), stabil secara emosi (Taurus), tapi juga berani memulai sesuatu yang baru (Aries). Penempatan planet lain dan aspek di natal chart akan menambah detail tentang potensi atau tantangan yang mungkin dihadapi."
+   ]
+  },
+  {
+   "h2": "Istilah Terkait Natal Chart",
+   "paragraphs": [
+    "Beberapa istilah yang sering muncul saat membahas natal chart antara lain: planet, zodiak, rumah (house), aspek, sun sign, moon sign, dan rising sign. Semua istilah ini saling melengkapi dalam membaca makna dari natal chart Anda."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Apakah natal chart bisa berubah seiring waktu?",
+   "a": "Natal chart tidak berubah, karena berdasarkan data kelahiran. Namun, pergerakan planet (transit) bisa mempengaruhi pengalaman hidup Anda."
+  },
+  {
+   "q": "Apa yang dibutuhkan untuk membuat natal chart?",
+   "a": "Anda perlu tahu tanggal, jam, dan tempat lahir secara akurat agar hasil natal chart tepat."
+  },
+  {
+   "q": "Bisakah membaca natal chart sendiri?",
+   "a": "Bisa saja, asalkan memahami dasar-dasar astrologi. Namun, konsultasi dengan astrolog bisa memberikan pemahaman yang lebih dalam."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat astrologi gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca selengkapnya",
+  "dictionary": "Kamus astrologi"
+ },
+ "tool": "discover-sign",
+ "term": "what-is-a-natal-chart"
+}

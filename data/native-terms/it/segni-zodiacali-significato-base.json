@@ -1,0 +1,61 @@
+{
+ "lang": "it",
+ "keyword": "segni zodiacali",
+ "volume": 110000,
+ "slug": "segni-zodiacali-significato-base",
+ "date": "2026-11-15",
+ "kind": "term",
+ "title": "Segni zodiacali: cosa sono e perché ci incuriosiscono",
+ "description": "Scopri il significato dei segni zodiacali, come funzionano nell’oroscopo e nella carta natale, e perché sono così popolari nella vita di tutti i giorni.",
+ "intro": "I segni zodiacali sono dodici archetipi astrologici che rappresentano differenti modi di essere e di vivere le esperienze. Quando chiediamo “quali sono i segni zodiacali?”, ci riferiamo ai dodici simboli che compongono lo Zodiaco, da Ariete a Pesci.",
+ "sections": [
+  {
+   "h2": "Cosa sono i segni zodiacali?",
+   "paragraphs": [
+    "I segni zodiacali derivano dalla suddivisione dell’eclittica, ovvero il percorso apparente del Sole durante l’anno, in dodici parti uguali. Ogni segno dura circa un mese e possiede caratteristiche simboliche uniche. L’ordine classico dei segni zodiacali è: Ariete, Toro, Gemelli, Cancro, Leone, Vergine, Bilancia, Scorpione, Sagittario, Capricorno, Acquario e Pesci. Ognuno di noi nasce con il Sole in uno di questi segni, che diventa il nostro segno solare."
+   ]
+  },
+  {
+   "h2": "Segni zodiacali nella carta natale e nella vita quotidiana",
+   "paragraphs": [
+    "Nel tema natale, i segni zodiacali non si limitano a descrivere solo il Sole: anche la Luna e gli altri pianeti si trovano in uno dei dodici segni al momento della nascita. Il segno zodiacale del Sole rappresenta la nostra identità e il modo in cui ci esprimiamo. Quello della Luna indica le emozioni, mentre l’Ascendente mostra come ci presentiamo agli altri. Nella vita di tutti i giorni, i segni zodiacali sono spesso usati per divertirsi, riflettere su se stessi e capire le dinamiche relazionali."
+   ]
+  },
+  {
+   "h2": "Esempio pratico: come si usano i segni zodiacali",
+   "paragraphs": [
+    "Immagina una persona nata il 10 agosto: il suo segno zodiacale sarà Leone. Secondo l’astrologia, chi è del Leone tende ad essere generoso, creativo e ama stare al centro dell’attenzione. Se invece qualcuno è nato il 25 febbraio, il suo segno sarà Pesci, associato a una natura sensibile, empatica e sognatrice. Anche senza conoscere tutta la carta natale, molte persone si riconoscono almeno in parte nei tratti del loro segno zodiacale."
+   ]
+  },
+  {
+   "h2": "Concetti collegati ai segni zodiacali",
+   "paragraphs": [
+    "Oltre ai segni zodiacali, l’astrologia considera anche gli elementi (fuoco, terra, aria, acqua), le modalità (cardinali, fissi, mutevoli) e le case astrologiche. La combinazione tra segni, pianeti e case crea un ritratto unico di ogni persona. Per scoprire il proprio segno zodiacale basta conoscere la data di nascita, ma per approfondire serve anche l’ora e il luogo, così da calcolare l’intera carta natale."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quali sono i segni zodiacali?",
+   "a": "Sono Ariete, Toro, Gemelli, Cancro, Leone, Vergine, Bilancia, Scorpione, Sagittario, Capricorno, Acquario e Pesci."
+  },
+  {
+   "q": "Il mio segno zodiacale dice tutto su di me?",
+   "a": "No, il segno zodiacale è solo una parte. Per capire meglio la propria personalità astrologica bisogna guardare anche Luna, Ascendente e gli altri pianeti."
+  },
+  {
+   "q": "Come posso scoprire il mio segno zodiacale?",
+   "a": "Basta conoscere la propria data di nascita. Per dettagli più personali, come l’Ascendente, servono anche ora e luogo di nascita."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti astrologici gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Continua a leggere",
+  "dictionary": "Dizionario astrologico"
+ },
+ "tool": "discover-sign",
+ "term": "what-does-each-sign-mean-in-astrology"
+}
