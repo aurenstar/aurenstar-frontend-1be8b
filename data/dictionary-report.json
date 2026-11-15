@@ -1,12 +1,12 @@
 {
   "updated": "2026-11-15",
   "resumo": {
-    "termosPublicados": 54,
+    "termosPublicados": 49,
     "funcionando": 0,
     "quase": 0,
-    "aparecendo": 10,
-    "semDados": 44,
-    "impressoes": 71,
+    "aparecendo": 6,
+    "semDados": 43,
+    "impressoes": 32,
     "cliques": 0
   },
   "metas": {
@@ -32,18 +32,18 @@
   "categorias": [
     {
       "categoria": "Chart Concepts",
-      "termos": 24,
-      "impressoes": 62,
+      "termos": 22,
+      "impressoes": 32,
       "cliques": 0,
-      "impressoesPorTermo": 2.6,
-      "boost": 1.3
+      "impressoesPorTermo": 1.5,
+      "boost": 1
     },
     {
       "categoria": "Phases & Movements",
-      "termos": 12,
-      "impressoes": 9,
+      "termos": 9,
+      "impressoes": 0,
       "cliques": 0,
-      "impressoesPorTermo": 0.8,
+      "impressoesPorTermo": 0,
       "boost": 1
     },
     {
@@ -65,16 +65,6 @@
   ],
   "termos": [
     {
-      "slug": "what-are-the-houses-in-astrology",
-      "termo": "Astrological Houses",
-      "categoria": "Chart Concepts",
-      "impressoes": 30,
-      "cliques": 0,
-      "melhorPosicao": 44.6,
-      "buscasMensaisNoMundo": 171470,
-      "veredito": "aparecendo"
-    },
-    {
       "slug": "what-is-a-natal-chart",
       "termo": "Natal Chart",
       "categoria": "Chart Concepts",
@@ -95,16 +85,6 @@
       "veredito": "aparecendo"
     },
     {
-      "slug": "what-is-a-full-moon-in-astrology",
-      "termo": "Full Moon",
-      "categoria": "Phases & Movements",
-      "impressoes": 5,
-      "cliques": 0,
-      "melhorPosicao": 47,
-      "buscasMensaisNoMundo": 970,
-      "veredito": "aparecendo"
-    },
-    {
       "slug": "what-are-aspects-in-astrology",
       "termo": "Aspects",
       "categoria": "Chart Concepts",
@@ -112,16 +92,6 @@
       "cliques": 0,
       "melhorPosicao": 91.5,
       "buscasMensaisNoMundo": 0,
-      "veredito": "aparecendo"
-    },
-    {
-      "slug": "what-is-a-saturn-return",
-      "termo": "Saturn Return",
-      "categoria": "Phases & Movements",
-      "impressoes": 2,
-      "cliques": 0,
-      "melhorPosicao": 92,
-      "buscasMensaisNoMundo": 70620,
       "veredito": "aparecendo"
     },
     {
@@ -142,16 +112,6 @@
       "cliques": 0,
       "melhorPosicao": 86,
       "buscasMensaisNoMundo": 520,
-      "veredito": "aparecendo"
-    },
-    {
-      "slug": "what-is-a-new-moon-in-astrology",
-      "termo": "New Moon",
-      "categoria": "Phases & Movements",
-      "impressoes": 2,
-      "cliques": 0,
-      "melhorPosicao": 40,
-      "buscasMensaisNoMundo": 340,
       "veredito": "aparecendo"
     },
     {
@@ -462,16 +422,6 @@
       "cliques": 0,
       "melhorPosicao": null,
       "buscasMensaisNoMundo": 110,
-      "veredito": "sem-dados"
-    },
-    {
-      "slug": "what-is-the-imum-coeli-ic-in-astrology",
-      "termo": "Imum Coeli (IC)",
-      "categoria": "Chart Concepts",
-      "impressoes": 0,
-      "cliques": 0,
-      "melhorPosicao": null,
-      "buscasMensaisNoMundo": 0,
       "veredito": "sem-dados"
     },
     {

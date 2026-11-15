@@ -112,6 +112,13 @@
    "saturn return": "Saturn return",
    "synastry": "synastri"
   },
+  "no": {
+   "zodiac signs": "stjernetegn",
+   "rising sign": "ascendent",
+   "sun sign": "soltegn",
+   "saturn return": "Saturn retur",
+   "synastry": "synastri"
+  },
   "fi": {
    "natal chart": "syntymäkartta",
    "zodiac signs": "horoskooppimerkit",
@@ -214,6 +221,20 @@
    "north node": "north node",
    "synastry": "synastry"
   },
+  "ms": {
+   "natal chart": "natal chart",
+   "zodiac signs": "zodiac signs",
+   "rising sign": "ascendant",
+   "moon sign": "bulan",
+   "sun sign": "matahari",
+   "mercury retrograde": "mercury retrograde",
+   "saturn return": "saturn return",
+   "north node": "north node",
+   "synastry": "synastry"
+  },
+  "bn": {
+   "zodiac signs": "রাশিচক্র"
+  },
   "ta": {
    "natal chart": "ஜாதகம்",
    "moon sign": "Moon Sign",
@@ -235,7 +256,8 @@
    "zodiac signs": "zodiac signs",
    "rising sign": "rising sign",
    "moon sign": "moon sign",
-   "sun sign": "sun sign"
+   "sun sign": "sun sign",
+   "synastry": "synastry"
   },
   "ur": {
    "natal chart": "Natal Chart",
@@ -247,6 +269,9 @@
    "saturn return": "Saturn return",
    "north node": "North node",
    "synastry": "Synastry"
+  },
+  "fa": {
+   "natal chart": "چارت تولد"
   },
   "fil": {
    "natal chart": "natal chart",
