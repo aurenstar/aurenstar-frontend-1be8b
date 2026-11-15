@@ -10,19 +10,21 @@ import { fileURLToPath } from 'node:url';
 import topicsFile from '../../data/native-topics.json';
 import { BLOG_ARTICLES } from '../../src/data/blogArticles';
 import { getArticleSlug } from '../../src/utils/articleSlug';
-import { checkArticle, fold, type NativeArticle } from '../../server/engine/nativeArticle';
+import { checkArticle, fold, TOOLS, type NativeArticle } from '../../server/engine/nativeArticle';
 import { intentKey } from '../dictionary/nativeTopics';
+import { activeWave } from './plan';
+import { ASTROLOGY_DICTIONARY_TERMS } from '../../src/data/astrologyDictionaryData';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const DIR = path.join(root, 'data/native-articles');
 const arg = (n: string) => { const i = process.argv.indexOf(`--${n}`); return i < 0 ? undefined : process.argv[i + 1]; };
 const DRY = process.argv.includes('--dry');
 const KEY = process.env.OPENAI_API_KEY;
-/** Pilot languages: the ten with the most searches. Widen by setting NATIVE_LANGS (or --langs). */
-const PILOT = 'de,fr,ar,ru,tr,hi,it,vi,ja,id'.split(',');
-const LANGS = (arg('langs') || process.env.NATIVE_LANGS || PILOT.join(',')).split(',').map((s) => s.trim()).filter(Boolean);
-const MAX = Math.max(0, Math.min(40, Number(arg('max') ?? 10)));
-const PER_LANG = Math.max(0, Number(arg('per-lang') ?? process.env.NATIVE_PER_LANG ?? 3));
+/** The wave plan (data/native-plan.json) says which languages are open today and how many articles are allowed; --langs / --max / --per-lang or the NATIVE_* variables override it. */
+const WAVE = activeWave();
+const LANGS = (arg('langs') || process.env.NATIVE_LANGS || WAVE.langs.join(',')).split(',').map((s) => s.trim()).filter(Boolean);
+const MAX = Math.max(0, Math.min(40, Number(arg('max') ?? WAVE.maxPerDay)));
+const PER_LANG = Math.max(0, Number(arg('per-lang') ?? (process.env.NATIVE_PER_LANG || WAVE.perLang)));
 const WRITE_MODEL = process.env.OPENAI_WRITE_MODEL || 'gpt-4.1';
 const FALLBACK_MODEL = process.env.OPENAI_MODEL || 'gpt-4.1-mini';
 
@@ -48,6 +50,7 @@ async function ask(model: string, prompt: string): Promise<any> {
   return JSON.parse(String(j?.choices?.[0]?.message?.content || '{}'));
 }
 
+const DICT_SLUGS = ASTROLOGY_DICTIONARY_TERMS.map((t) => t.slug).join(', ');
 const promptFor = (lang: string, keyword: string) => `You are a native ${LANG_NAME[lang] || lang}-speaking astrology writer for the website Aurenstar. Write ONE original article directly in that language (do NOT translate from English) for people who type this Google search: "${keyword}".
 
 Rules:
@@ -56,15 +59,17 @@ Rules:
 - The title must say honestly what the article gives (no clickbait, no wrong claims: an ascendant is not a partner, a sign is not a destiny). Every astrology statement must be correct and commonly accepted in astrology.
 - Astrology for reflection and fun. Never promise outcomes, never give medical, legal or money advice, never invent studies, statistics, quotes or sources.
 - No links, no mention of AI or translation, no English words except proper names.
-- "slug": 3 to 7 lowercase English words with hyphens describing the topic (ASCII only). "ui": the five short words for the page in that language: home (Home), tools (Free astrology tools), articles (Articles), faq (Frequently asked questions), more (Keep reading).
-Return ONLY JSON: {"slug":"","title":"","description":"(110 to 160 characters)","intro":"","sections":[{"h2":"","paragraphs":[""]}],"faq":[{"q":"","a":""}],"ui":{"home":"","tools":"","articles":"","faq":"","more":""}} with 4 FAQ items.`;
+- Include real small examples (a made-up person, a made-up situation) in at least three sections; do not repeat the same idea in different words.
+- "tool": which free tool fits best: "discover-sign" (find your sign / ascendant / chart), "daily-message" (daily horoscope-style message) or "descreva-me" (a personal description). "term": the best matching entry of this astrology dictionary, exactly one of [${DICT_SLUGS}], or "" if none fits.
+- "slug": 3 to 7 lowercase English words with hyphens describing the topic (ASCII only). "ui": the five short words for the page in that language: home (Home), tools (Free astrology tools), articles (Articles), faq (Frequently asked questions), more (Keep reading), dictionary (Astrology dictionary).
+Return ONLY JSON: {"slug":"","title":"","description":"(110 to 160 characters)","intro":"","sections":[{"h2":"","paragraphs":[""]}],"faq":[{"q":"","a":""}],"tool":"","term":"","ui":{"home":"","tools":"","articles":"","faq":"","more":"","dictionary":""}} with 4 FAQ items.`;
 
 /** A second reader (a different, cheaper model call) rejects articles with a wrong or clickbait title, invented facts, unnatural language or wrong astrology. */
 async function review(a: NativeArticle): Promise<string[]> {
   if (DRY) return [];
   try {
     const text = [a.title, a.description, a.intro, ...a.sections.flatMap((s) => [s.h2, ...s.paragraphs]), ...a.faq.flatMap((f) => [f.q, f.a])].join('\n').slice(0, 14000);
-    const j = await ask(FALLBACK_MODEL, `You are a strict editor and a native speaker of the language "${a.lang}". Review this astrology article written for the search "${a.keyword}". Reject it ("ok": false) if ANY of these is true: the title or description promises something the text does not give or is clickbait or wrong; it states invented facts, statistics, studies or quotes; it gives medical, legal or money advice or promises outcomes; the astrology is factually wrong; the language is unnatural, machine-like or mixes in another language; it is mostly filler. Return ONLY JSON {"ok":boolean,"problems":["max 10 words each"]}.\n\n${text}`);
+    const j = await ask(FALLBACK_MODEL, `You are a strict editor and a native speaker of the language "${a.lang}". Review this astrology article written for the search "${a.keyword}". Reject it ("ok": false) if ANY of these is true: the title or description promises something the text does not give or is clickbait or wrong; it states invented facts, statistics, studies or quotes; it gives medical, legal or money advice or promises outcomes; the astrology is factually wrong; the language is unnatural, machine-like or mixes in another language; it is mostly filler or has no concrete examples. Return ONLY JSON {"ok":boolean,"problems":["max 10 words each"]}.\n\n${text}`);
     return j.ok === false || (Array.isArray(j.problems) && j.problems.length >= 3) ? (j.problems || ['editor rejected']).map(String) : [];
   } catch { return []; }
 }
@@ -80,7 +85,7 @@ async function write(lang: string, keyword: string, volume: number, taken: Set<s
       let slug = String(j.slug || '').toLowerCase().replace(/[^a-z0-9-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 70);
       if (!slug) slug = fold(keyword).replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'article';
       if (taken.has(slug)) slug = `${slug}-${lang}`;
-      const a: NativeArticle = { lang, keyword, volume, slug, date: new Date().toISOString().slice(0, 10), title: j.title, description: j.description, intro: j.intro, sections: j.sections, faq: j.faq, ui: j.ui };
+      const a: NativeArticle = { lang, keyword, volume, slug, date: new Date().toISOString().slice(0, 10), title: j.title, description: j.description, intro: j.intro, sections: j.sections, faq: j.faq, ui: j.ui, ...(TOOLS.includes(j.tool) ? { tool: j.tool } : {}), ...(ASTROLOGY_DICTIONARY_TERMS.some((t) => t.slug === j.term) ? { term: j.term } : {}) };
       const bad = checkArticle(a);
       if (!bad.length) { const why = await review(a); if (!why.length) return a; console.log(`  ${lang} "${keyword}" (${model}) editor: ${why.join('; ')}`); continue; }
       console.log(`  ${lang} "${keyword}" (${model}) rejected: ${bad.join('; ')}`);
@@ -90,6 +95,8 @@ async function write(lang: string, keyword: string, volume: number, taken: Set<s
 }
 
 async function main() {
+  if (WAVE.paused && !arg('langs')) { console.log('native articles: paused in data/native-plan.json'); return; }
+  console.log(`native articles: wave "${WAVE.name}", ${LANGS.length} languages open, up to ${PER_LANG} per language, up to ${MAX} today`);
   if (!KEY && !DRY) { console.log('native articles: no OPENAI_API_KEY, nothing to do'); return; }
   const have = load();
   const englishSlugs = new Set(BLOG_ARTICLES.map((a) => getArticleSlug(a)));

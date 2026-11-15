@@ -1,0 +1,37 @@
+name: Native articles care
+on:
+  schedule:
+    - cron: '11 12 * * 0'   # every Sunday: semaphore + better titles for articles seen but not clicked + retire the ones with no sign
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: native-articles
+  cancel-in-progress: false
+jobs:
+  care:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --legacy-peer-deps
+      - name: Report and care
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npx tsx scripts/native/care.ts --apply
+      - name: Check before saving
+        run: npx tsc --noEmit
+      - name: Save
+        run: |
+          if [ -n "$(git status --porcelain data/native-articles data/native-report.json data/native-report.md)" ]; then
+            git config user.name "aurenstar-bot"
+            git config user.email "bot@aurenstar.com"
+            git add data/native-articles data/native-report.json data/native-report.md
+            git commit -m "Native articles: weekly semaphore and care"
+            git pull --rebase origin main
+            git push
+          fi

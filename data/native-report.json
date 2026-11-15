@@ -1,0 +1,275 @@
+{
+ "updated": "2026-11-15",
+ "resumo": {
+  "artigos": 18,
+  "novos": 18,
+  "funcionando": 0,
+  "apareceSemClique": 0,
+  "aparecendo": 0,
+  "semSinal": 0,
+  "impressoes": 1,
+  "cliques": 0
+ },
+ "idiomas": [
+  {
+   "lang": "ru",
+   "artigos": 2,
+   "impressoes": 1,
+   "cliques": 0
+  },
+  {
+   "lang": "ar",
+   "artigos": 1,
+   "impressoes": 0,
+   "cliques": 0
+  },
+  {
+   "lang": "de",
+   "artigos": 3,
+   "impressoes": 0,
+   "cliques": 0
+  },
+  {
+   "lang": "fr",
+   "artigos": 3,
+   "impressoes": 0,
+   "cliques": 0
+  },
+  {
+   "lang": "hi",
+   "artigos": 1,
+   "impressoes": 0,
+   "cliques": 0
+  },
+  {
+   "lang": "id",
+   "artigos": 1,
+   "impressoes": 0,
+   "cliques": 0
+  },
+  {
+   "lang": "it",
+   "artigos": 2,
+   "impressoes": 0,
+   "cliques": 0
+  },
+  {
+   "lang": "ja",
+   "artigos": 2,
+   "impressoes": 0,
+   "cliques": 0
+  },
+  {
+   "lang": "tr",
+   "artigos": 1,
+   "impressoes": 0,
+   "cliques": 0
+  },
+  {
+   "lang": "vi",
+   "artigos": 2,
+   "impressoes": 0,
+   "cliques": 0
+  }
+ ],
+ "artigos": [
+  {
+   "lang": "ru",
+   "slug": "osnovy-znakov-zodiaka",
+   "busca": "знаки зодиака",
+   "buscasPorMes": 368000,
+   "dias": 0,
+   "impressions": 1,
+   "clicks": 0,
+   "position": 95,
+   "veredito": "novo"
+  },
+  {
+   "lang": "ar",
+   "slug": "scorpio-zodiac-sign-guide",
+   "busca": "برج العقرب",
+   "buscasPorMes": 165000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "de",
+   "slug": "aszendent-berechnen-einfach-verstehen",
+   "busca": "aszendent berechnen",
+   "buscasPorMes": 135000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "de",
+   "slug": "sternzeichen-loewe-eigenschaften-tipps",
+   "busca": "sternzeichen löwe",
+   "buscasPorMes": 74000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "de",
+   "slug": "was-ist-vedic-astrology",
+   "busca": "vedic astrology",
+   "buscasPorMes": 110000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "fr",
+   "slug": "eclipse-lunaire-sens-astrologie",
+   "busca": "éclipse lunaire",
+   "buscasPorMes": 90500,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "fr",
+   "slug": "scorpion-signe-astrologique-guide",
+   "busca": "scorpion signe astrologique",
+   "buscasPorMes": 40500,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "fr",
+   "slug": "tout-sur-les-signes-zodiaque",
+   "busca": "signes du zodiaque",
+   "buscasPorMes": 90500,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "hi",
+   "slug": "kumbh-rashi-guide",
+   "busca": "कुंभ राशि",
+   "buscasPorMes": 135000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "id",
+   "slug": "mengenal-planet-uranus-dalam-astrologi",
+   "busca": "planet uranus",
+   "buscasPorMes": 673000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "it",
+   "slug": "ascendente-come-calcolarlo-guida",
+   "busca": "ascendente come calcolarlo",
+   "buscasPorMes": 201000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "it",
+   "slug": "mercurio-retrogrado-cosa-significa",
+   "busca": "mercurio retrogrado",
+   "buscasPorMes": 201000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "ja",
+   "slug": "aspect-astrology-basics",
+   "busca": "アスペクト 占星術",
+   "buscasPorMes": 480,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "ja",
+   "slug": "pluto-in-astrology-meaning",
+   "busca": "冥王星 占星術",
+   "buscasPorMes": 720,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "ru",
+   "slug": "vvedenie-v-natalnuyu-kartu",
+   "busca": "натальная карта",
+   "buscasPorMes": 450000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "tr",
+   "slug": "dogum-haritasi-nedir-nasil-anlanir",
+   "busca": "doğum haritası",
+   "buscasPorMes": 246000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "vi",
+   "slug": "hien-tuong-lunar-eclipse-chiem-tinh",
+   "busca": "lunar eclipse",
+   "buscasPorMes": 823000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "vi",
+   "slug": "tim-hieu-la-so-tu-vi",
+   "busca": "lá số tử vi",
+   "buscasPorMes": 368000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  }
+ ]
+}

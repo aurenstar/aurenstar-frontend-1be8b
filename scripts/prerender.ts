@@ -277,12 +277,15 @@ for (const a of nativeAll.sort((x, y) => y.volume - x.volume)) nativeByLang.set(
 const nativeUrls: { loc: string; lastmod: string }[] = [];
 for (const [lang, list] of nativeByLang) {
   fs.mkdirSync(path.join(dist, '_native', lang), { recursive: true });
+  const live = list.filter((a) => !a.retired);
   for (const a of list) {
-    fs.writeFileSync(path.join(dist, '_native', lang, `${a.slug}.html`), renderNativeArticle(a, list));
-    nativeUrls.push({ loc: `${SITE_URL}${articlePath(lang, a.slug)}`, lastmod: a.date });
+    fs.writeFileSync(path.join(dist, '_native', lang, `${a.slug}.html`), renderNativeArticle(a, live));
+    if (!a.retired) nativeUrls.push({ loc: `${SITE_URL}${articlePath(lang, a.slug)}`, lastmod: a.date });
   }
-  fs.writeFileSync(path.join(dist, '_native', lang, 'index.html'), renderNativeHub(lang, list));
-  nativeUrls.push({ loc: `${SITE_URL}${hubPath(lang)}`, lastmod: list.map((a) => a.date).sort().pop() as string });
+  if (live.length) {
+    fs.writeFileSync(path.join(dist, '_native', lang, 'index.html'), renderNativeHub(lang, live));
+    nativeUrls.push({ loc: `${SITE_URL}${hubPath(lang)}`, lastmod: live.map((a) => a.date).sort().pop() as string });
+  }
 }
 if (nativeUrls.length) fs.writeFileSync(path.join(dist, 'sitemap-native.xml'), urlset(nativeUrls.map((u) => `  <url><loc>${escapeXml(u.loc)}</loc><lastmod>${u.lastmod}</lastmod></url>`).join('\n')));
 

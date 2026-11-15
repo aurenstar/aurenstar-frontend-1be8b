@@ -13,8 +13,13 @@ export interface NativeArticle {
   title: string; description: string; intro: string;
   sections: { h2: string; paragraphs: string[] }[];
   faq: { q: string; a: string }[];
-  ui: { home: string; tools: string; articles: string; faq: string; more: string };
+  ui: { home: string; tools: string; articles: string; faq: string; more: string; dictionary?: string };
+  /** the free tool and the dictionary term that fit this topic (checked against real addresses) */
+  tool?: string; term?: string;
+  /** care robot: marks an article that gets no signal for a long time (kept, but not indexed) and when its title was last improved */
+  retired?: boolean; metaRewrittenAt?: string;
 }
+export const TOOLS = ['discover-sign', 'daily-message', 'descreva-me'];
 
 export const fold = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
 const esc = (v: string) => v.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -72,7 +77,7 @@ h1{font-size:2rem;line-height:1.25;margin:.4em 0}h2{font-size:1.35rem;margin:1.6
 .lead{font-size:1.1rem;color:#3a3556}.cta{display:inline-block;margin:1.4em 0;padding:.8em 1.4em;background:#5b34b0;color:#fff;border-radius:999px;text-decoration:none;font-weight:600}
 details{border-top:1px solid #e3dcf5;padding:.6em 0}summary{cursor:pointer;font-weight:600}ul.l{padding-inline-start:1.1em}footer{font-size:.9rem;color:#6b6585;border-top:1px solid #e3dcf5}`;
 
-function shell(lang: string, title: string, description: string, canonical: string, jsonLd: unknown[], body: string, ui: NativeArticle['ui'], ogType: string): string {
+function shell(lang: string, title: string, description: string, canonical: string, jsonLd: unknown[], body: string, ui: NativeArticle['ui'], ogType: string, robots = 'index,follow'): string {
   const tag = langTag(lang);
   return `<!doctype html>
 <html lang="${tag}"${RTL.has(lang) ? ' dir="rtl"' : ''}>
@@ -81,7 +86,7 @@ function shell(lang: string, title: string, description: string, canonical: stri
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>${esc(title)} | Aurenstar</title>
 <meta name="description" content="${esc(description)}" />
-<meta name="robots" content="index,follow" />
+<meta name="robots" content="${robots}" />
 <link rel="canonical" href="${esc(canonical)}" />
 <link rel="alternate" hreflang="${tag}" href="${esc(canonical)}" />
 <link rel="icon" href="/favicon-32.png" />
@@ -116,12 +121,13 @@ export function renderNativeArticle(a: NativeArticle, others: NativeArticle[] = 
 <h1>${esc(a.title)}</h1>
 <p class="lead">${esc(a.intro)}</p>
 ${a.sections.map((s) => `<h2>${esc(s.h2)}</h2>\n${s.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('\n')}`).join('\n')}
-<a class="cta" href="/${a.lang}/discover-sign">${esc(a.ui.tools)}</a>
+<a class="cta" href="/${a.lang}/${a.tool && TOOLS.includes(a.tool) ? a.tool : 'discover-sign'}">${esc(a.ui.tools)}</a>
+${a.term && a.ui.dictionary ? `<p><a href="/${a.lang}/dicionario/${esc(a.term)}">${esc(a.ui.dictionary)}</a></p>` : ''}
 <h2>${esc(a.ui.faq)}</h2>
 ${a.faq.map((f) => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('\n')}
 ${more.length ? `<h2>${esc(a.ui.more)}</h2>\n<ul class="l">${more.map((o) => `<li><a href="${articlePath(o.lang, o.slug)}">${esc(o.title)}</a></li>`).join('')}</ul>` : ''}
 </main>`;
-  return shell(a.lang, a.title, a.description, url, jsonLd, body, a.ui, 'article');
+  return shell(a.lang, a.title, a.description, url, jsonLd, body, a.ui, 'article', a.retired ? 'noindex,follow' : 'index,follow');
 }
 
 export function renderNativeHub(lang: string, list: NativeArticle[]): string {

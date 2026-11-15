@@ -5,13 +5,13 @@ on:
   workflow_dispatch:
     inputs:
       max:
-        description: 'Most articles in this run'
-        default: '10'
+        description: 'Most articles in this run (empty = what data/native-plan.json allows today)'
+        default: ''
       per_lang:
-        description: 'Most articles per language in total (raise slowly)'
-        default: '3'
+        description: 'Most articles per language in total (empty = the plan)'
+        default: ''
       langs:
-        description: 'Languages (empty = the pilot ten)'
+        description: 'Languages (empty = the ones open in the plan)'
         default: ''
 permissions:
   contents: write
@@ -32,10 +32,9 @@ jobs:
       - name: Write articles (skips quietly if the key is not set)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          NATIVE_PER_LANG: ${{ vars.NATIVE_PER_LANG || '3' }}
-          NATIVE_LANGS: ${{ vars.NATIVE_LANGS || '' }}
         run: |
-          args="--max ${{ github.event.inputs.max || '10' }}"
+          args=""
+          if [ -n "${{ github.event.inputs.max }}" ]; then args="$args --max ${{ github.event.inputs.max }}"; fi
           if [ -n "${{ github.event.inputs.per_lang }}" ]; then args="$args --per-lang ${{ github.event.inputs.per_lang }}"; fi
           if [ -n "${{ github.event.inputs.langs }}" ]; then args="$args --langs ${{ github.event.inputs.langs }}"; fi
           npx tsx scripts/native/write.ts $args
