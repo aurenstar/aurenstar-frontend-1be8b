@@ -1,5 +1,5 @@
 import { validateTerm, slugify } from '../scripts/dictionary/checks';
-import { conceptKey, toQuestion, categoryFor } from '../scripts/dictionary/demand';
+import { conceptKey, toQuestion, categoryFor, foreignToQuestion, plannerPriority } from '../scripts/dictionary/demand';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 
 let failed = 0;
@@ -36,7 +36,17 @@ ok('no duplicate slugs on site', new Set(slugs).size === slugs.length);
   t('same idea gets the same key', conceptKey('What is a stellium in astrology?') === conceptKey('what is a stellium'));
   t('different idea gets a different key', conceptKey('what is a stellium in gemini') !== conceptKey('what is a stellium'));
   t('question is cleaned', toQuestion('what is a stellium in astrology') === 'What is a stellium in astrology?');
-  t('meaning form becomes a question', toQuestion('chiron meaning astrology') === 'What does chiron mean in astrology?');
+  t('meaning form becomes a question', toQuestion('chiron meaning astrology') === 'What does Chiron mean in astrology?');
+  t('plural meaning grammar', toQuestion('zodiac signs meaning') === 'What are zodiac signs in astrology?' || toQuestion('zodiac signs meaning') === 'What do zodiac signs mean in astrology?');
+  t('short term becomes a question', toQuestion('yod astrology') === 'What is a yod in astrology?');
+  t('planet in sign', toQuestion('venus in leo') === 'What does Venus in Leo mean?');
+  t('personal searches are skipped', toQuestion('what is my birth chart') === null);
+  t('dangling word skipped', toQuestion('chiron and meaning') === null);
+  t('portuguese becomes the english question', foreignToQuestion('o que significa mercúrio retrógrado') === 'What is mercury retrograde in astrology?');
+  t('spanish planet in sign', foreignToQuestion('luna en escorpio') === 'What does the Moon in Scorpio mean?');
+  t('unknown foreign word is skipped, never guessed', foreignToQuestion('o que significa blablabla') === null);
+  t('less ad competition ranks higher', plannerPriority(1000, 0, null) > plannerPriority(1000, 100, null));
+  t('page-2 positions get a push', plannerPriority(1000, 50, 12) > plannerPriority(1000, 50, null));
   t('tools and predictions are blocked', toQuestion('what is my horoscope today') === null && toQuestion('will i get rich astrology') === null);
   t('not astrology is blocked', toQuestion('what is a good pizza recipe') === null);
   t('category guess', categoryFor('What is a full moon in astrology?') === 'Phases & Movements');

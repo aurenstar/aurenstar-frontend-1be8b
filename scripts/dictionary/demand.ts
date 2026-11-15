@@ -49,16 +49,103 @@ export function categoryFor(q: string): Seed['category'] {
   return 'Chart Concepts';
 }
 
+
+// ---- Short searches ("yod astrology", "mercury retrograde", "virgo") -> clean questions. Only well-known concepts, so no junk gets written. ----
+const SIGN_NAMES = ['aries', 'taurus', 'gemini', 'cancer', 'leo', 'virgo', 'libra', 'scorpio', 'sagittarius', 'capricorn', 'aquarius', 'pisces'];
+const BODY_NAMES: Record<string, string> = { sun: 'the Sun', moon: 'the Moon', mercury: 'Mercury', venus: 'Venus', mars: 'Mars', jupiter: 'Jupiter', saturn: 'Saturn', uranus: 'Uranus', neptune: 'Neptune', pluto: 'Pluto', chiron: 'Chiron', lilith: 'Lilith', 'north node': 'the North Node', 'south node': 'the South Node' };
+// [phrase, article]  article: a | an | the | '' (none) | PL (plural: "What are ...")
+const CONCEPTS: [string, string][] = [
+  ['stellium', 'a'], ['yod', 'a'], ['grand trine', 'a'], ['grand cross', 'a'], ['t-square', 'a'], ['kite', 'a'], ['mystic rectangle', 'a'], ['conjunction', 'a'], ['opposition', 'an'], ['trine', 'a'], ['sextile', 'a'], ['quincunx', 'a'],
+  ['retrograde', 'a'], ['mercury retrograde', ''], ['saturn return', ''], ['solar return', 'a'], ['lunar return', 'a'], ['synastry', ''], ['composite chart', 'a'], ['davison chart', 'a'], ['natal chart', 'a'], ['draconic chart', 'a'], ['progressed chart', 'a'],
+  ['secondary progressions', 'PL'], ['solar arc directions', 'PL'], ['transits', 'PL'], ['aspects', 'PL'], ['houses', 'PL'], ['whole sign houses', 'PL'], ['placidus houses', 'PL'], ['angular houses', 'PL'], ['cadent houses', 'PL'], ['succedent houses', 'PL'],
+  ['midheaven', 'the'], ['ascendant', 'the'], ['descendant', 'the'], ['imum coeli', 'the'], ['part of fortune', 'the'], ['vertex', 'the'], ['rising sign', 'a'], ['moon sign', 'a'], ['sun sign', 'a'], ['cusp', 'a'], ['decan', 'a'], ['decans', 'PL'], ['orb', 'an'],
+  ['dignities', 'PL'], ['essential dignities', 'PL'], ['void of course moon', 'a'], ['new moon', 'a'], ['full moon', 'a'], ['blood moon', 'a'], ['lunar eclipse', 'a'], ['solar eclipse', 'a'], ['eclipse', 'an'],
+  ['cardinal signs', 'PL'], ['fixed signs', 'PL'], ['mutable signs', 'PL'], ['fire signs', 'PL'], ['earth signs', 'PL'], ['air signs', 'PL'], ['water signs', 'PL'], ['elements', 'PL'],
+  ['sidereal astrology', ''], ['tropical astrology', ''], ['vedic astrology', ''], ['western astrology', ''], ['lunar nodes', 'PL'], ['planets', 'PL'], ['zodiac signs', 'PL'], ['big three', 'the'],
+];
+const ordinalOf = (n: number) => `${n}${n === 1 ? 'st' : n === 2 ? 'nd' : n === 3 ? 'rd' : 'th'}`;
+const CONCEPT_BY_KEY = new Map<string, [string, string]>();
+for (const [ph, art] of CONCEPTS) { const k = conceptKey(ph); if (k) CONCEPT_BY_KEY.set(k, [ph, art]); }
+
+/** "yod astrology" -> "What is a yod in astrology?" ; "venus in leo" -> "What does Venus in Leo mean?" ; null when it is not a known concept. */
+export function termToQuestion(raw: string): string | null {
+  let t = raw.toLowerCase().replace(/[^a-z0-9' -]/g, ' ').replace(/\s+/g, ' ').trim();
+  t = t.replace(/\b(astrology|astrological|meaning|definition|explained|in astrology)\b/g, ' ').replace(/\bbirth chart\b/g, 'natal chart').replace(/\s+/g, ' ').trim();
+  if (!t) return null;
+  const cap = (x: string) => x.replace(/\b\w/g, (c) => c.toUpperCase());
+  // sign alone ("virgo", "virgo sign", "virgo zodiac sign")
+  const signOnly = t.replace(/\b(zodiac sign|sign|zodiac)\b/g, '').trim();
+  if (SIGN_NAMES.includes(signOnly)) return `What does ${cap(signOnly)} mean in astrology?`;
+  // body alone
+  if (BODY_NAMES[t]) return `What does ${BODY_NAMES[t]} mean in astrology?`;
+  // body in sign / in Nth house
+  const m = t.match(/^(sun|moon|mercury|venus|mars|jupiter|saturn|uranus|neptune|pluto|chiron|lilith|north node|south node) in (?:the )?(?:(aries|taurus|gemini|cancer|leo|virgo|libra|scorpio|sagittarius|capricorn|aquarius|pisces)|(\d{1,2})(?:st|nd|rd|th)? house)$/);
+  if (m) {
+    if (m[2]) return `What does ${BODY_NAMES[m[1]]} in ${cap(m[2])} mean?`;
+    const h = Number(m[3]); if (h >= 1 && h <= 12) return `What does ${BODY_NAMES[m[1]]} in the ${ordinalOf(h)} house mean?`;
+    return null;
+  }
+  const h = t.match(/^(?:the )?(\d{1,2})(?:st|nd|rd|th)? house$/);
+  if (h) { const n = Number(h[1]); return n >= 1 && n <= 12 ? `What does the ${ordinalOf(n)} house mean in astrology?` : null; }
+  const retro = t.match(/^(sun|moon|venus|mars|jupiter|saturn|uranus|neptune|pluto|chiron|lilith) retrograde$/);
+  if (retro) return `What does ${BODY_NAMES[retro[1]]} retrograde mean in astrology?`;
+  const hit = CONCEPT_BY_KEY.get(conceptKey(t));
+  if (!hit) return null;
+  const [ph, art] = hit;
+  return art === 'PL' ? `What are ${ph} in astrology?` : `What is ${art ? art + ' ' : ''}${ph} in astrology?`;
+}
+
+// ---- Portuguese / Spanish searches -> the English question we write about (the site serves all three languages) ----
+const FOLD = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const FOREIGN: [string, string][] = [
+  ['touro', 'taurus'], ['tauro', 'taurus'], ['gemeos', 'gemini'], ['geminis', 'gemini'], ['leao', 'leo'], ['virgem', 'virgo'], ['escorpiao', 'scorpio'], ['escorpio', 'scorpio'], ['sagitario', 'sagittarius'], ['capricornio', 'capricorn'], ['aquario', 'aquarius'], ['acuario', 'aquarius'], ['peixes', 'pisces'], ['piscis', 'pisces'],
+  ['aries', 'aries'], ['cancer', 'cancer'], ['leo', 'leo'], ['virgo', 'virgo'], ['libra', 'libra'],
+  ['sol', 'sun'], ['lua', 'moon'], ['luna', 'moon'], ['mercurio', 'mercury'], ['venus', 'venus'], ['marte', 'mars'], ['jupiter', 'jupiter'], ['saturno', 'saturn'], ['urano', 'uranus'], ['netuno', 'neptune'], ['neptuno', 'neptune'], ['plutao', 'pluto'], ['pluton', 'pluto'], ['quiron', 'chiron'], ['lilith', 'lilith'],
+  ['nodo norte', 'north node'], ['nodo sul', 'south node'], ['nodo sur', 'south node'], ['nodos lunares', 'lunar nodes'], ['parte da fortuna', 'part of fortune'], ['parte de la fortuna', 'part of fortune'],
+  ['mapa astral', 'natal chart'], ['carta natal', 'natal chart'], ['ascendente', 'ascendant'], ['descendente', 'descendant'], ['meio do ceu', 'midheaven'], ['medio cielo', 'midheaven'], ['fundo do ceu', 'imum coeli'], ['fondo del cielo', 'imum coeli'],
+  ['signo solar', 'sun sign'], ['signo lunar', 'moon sign'], ['signo ascendente', 'rising sign'], ['retrogrado', 'retrograde'], ['retrograda', 'retrograde'], ['conjuncao', 'conjunction'], ['conjuncion', 'conjunction'], ['oposicao', 'opposition'], ['oposicion', 'opposition'],
+  ['trigono', 'trine'], ['trino', 'trine'], ['sextil', 'sextile'], ['quincuncio', 'quincunx'], ['stellium', 'stellium'], ['stelium', 'stellium'], ['estelio', 'stellium'], ['yod', 'yod'], ['grande trigono', 'grand trine'], ['grande cruz', 'grand cross'], ['grande cruzamento', 'grand cross'],
+  ['eclipse lunar', 'lunar eclipse'], ['eclipse solar', 'solar eclipse'], ['eclipse', 'eclipse'], ['lua nova', 'new moon'], ['luna nueva', 'new moon'], ['lua cheia', 'full moon'], ['luna llena', 'full moon'], ['lua de sangue', 'blood moon'], ['luna de sangre', 'blood moon'],
+  ['retorno de saturno', 'saturn return'], ['retorno de saturno', 'saturn return'], ['revolucao solar', 'solar return'], ['revolucion solar', 'solar return'], ['sinastria', 'synastry'], ['cuspide', 'cusp'], ['decanato', 'decan'],
+  ['casas astrologicas', 'houses'], ['casas', 'houses'], ['casa', 'house'], ['aspectos', 'aspects'], ['transitos', 'transits'], ['planetas', 'planets'], ['elementos', 'elements'],
+  ['signos do zodiaco', 'zodiac signs'], ['signos del zodiaco', 'zodiac signs'], ['signos', 'signs'], ['em', 'in'], ['en', 'in'],
+];
+const FOREIGN_SORTED = [...FOREIGN].sort((a, b) => b[0].length - a[0].length);
+const FOREIGN_NOISE = /\b(o que e|o que significa|o que quer dizer|quer dizer|que es|que significa|que quiere decir|significado de|significados de|significado do|significado da|significado|significados|significa|na astrologia|en astrologia|astrologia|astrologico|astrologica|qual|cual|como|el|la|los|las|lo|o|a|os|as|de|do|da|dos|das|del|no|na|nos|nas|um|uma|un|una|e|es)\b/g;
+const WORD_ORD: Record<string, number> = { primeira: 1, primera: 1, segunda: 2, terceira: 3, tercera: 3, quarta: 4, cuarta: 4, quinta: 5, sexta: 6, setima: 7, septima: 7, oitava: 8, octava: 8, nona: 9, novena: 9, decima: 10, 'decima primeira': 11, 'decima segunda': 12 };
+
+/** "o que significa mercurio retrogrado" -> "What is mercury retrograde in astrology?". null if any word is unknown (we never guess). */
+export function foreignToQuestion(raw: string): string | null {
+  let t = ` ${FOLD(raw).replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim()} `;
+  t = t.replace(/\b(\d{1,2})\s*(?:a|o)?\s+casa\b/g, ' $1th house ').replace(/\bcasa\s+(\d{1,2})\b/g, ' $1th house ');
+  for (const [w, n] of Object.entries(WORD_ORD)) t = t.replace(new RegExp(`\\b${w}\\s+casa\\b`, 'g'), ` ${n}th house `);
+  const houseNum = (t.match(/\b(\d{1,2})th house\b/) || [])[1];
+  t = t.replace(/\b\d{1,2}th house\b/g, ' ');
+  for (const [pt, en] of FOREIGN_SORTED) t = t.replace(new RegExp(`(?<=\\s)${pt}(?=\\s)`, 'g'), `\u0001${en}\u0001`);
+  const pieces = t.split('\u0001');
+  const leftovers = pieces.filter((_, i) => i % 2 === 0).join(' ').replace(FOREIGN_NOISE, ' ').replace(/\s+/g, ' ').trim();
+  if (leftovers) return null; // a word we do not know: skip instead of guessing
+  let phrase = pieces.filter((_, i) => i % 2 === 1).join(' ').replace(/\s+/g, ' ').trim();
+  if (houseNum) phrase = BODY_NAMES[phrase] ? `${phrase} in ${houseNum}th house` : `${phrase} ${houseNum}th house`.trim();
+  if (!phrase) return null;
+  const q = termToQuestion(phrase);
+  return q && !BLOCK.test(q) ? q : null;
+}
+
 /** "what is a stellium in astrology" -> a clean question; returns null when it is not a good dictionary question. */
 export function toQuestion(raw: string): string | null {
   let q = raw.trim().replace(/\s+/g, ' ').replace(/\?+$/, '');
   if (!/^(what|why|how|when|which|is|does|do|are|can)\b/i.test(q)) {
     const m = q.match(/^(.*?)\s+meaning(?:\s+astrology)?$/i); // "chiron meaning astrology" -> "What does chiron mean in astrology?"
-    if (!m) return null;
-    const subject = m[1].trim();
-    if (/\b(and|of|the|for|in|my|your|with|vs)$/i.test(subject)) return null; // "zodiac signs and meaning" is not a clean question
-    const plural = /\b(signs|houses|planets|aspects|elements|transits|nodes|cusps|decans|eclipses|retrogrades|symbols|degrees)$/i.test(subject);
-    q = `what ${plural ? 'do' : 'does'} ${subject} mean in astrology`;
+    const known = termToQuestion(m ? m[1] : q); // known concepts get the cleanest wording ("What is a yod in astrology?")
+    if (known) q = known.replace(/\?$/, '');
+    else if (!m) return null;
+    else {
+      const subject = m[1].trim();
+      if (/\b(and|of|the|for|in|my|your|with|vs)$/i.test(subject)) return null; // "zodiac signs and meaning" is not a clean question
+      const plural = /\b(signs|houses|planets|aspects|elements|transits|nodes|cusps|decans|eclipses|retrogrades|symbols|degrees)$/i.test(subject);
+      q = `what ${plural ? 'do' : 'does'} ${subject} mean in astrology`;
+    }
   }
   if (q.length < 12 || q.length > 80 || BLOCK.test(q) || !ASTRO.test(q) || /\b(my|me|i)\b/i.test(q)) return null; // personal queries ("what is my birth chart") belong to the calculators, not the dictionary
   if (/^(how|when|can|do|is|are)\b/i.test(q) && !/^(how does|how do)\b/i.test(q)) return null; // keep "what ..." / "why ..." / "how does ..." style
@@ -79,16 +166,55 @@ async function suggest(q: string): Promise<string[]> {
   } catch { return []; }
 }
 
-/** Optional: volumes an n8n flow gets from the Google Ads API (Keyword Planner) and saves monthly as data/keyword-planner.json: [{keyword, volume}]. */
+/**
+ * Volumes an n8n flow gets from the Google Ads API (Keyword Planner) and saves monthly as data/keyword-planner.json:
+ * [{ keyword, volume, market: 'us' | 'br' | 'mx', comp: 0-100 }]  (market and comp are optional).
+ * Searches in Portuguese (Brazil) and Spanish (Mexico) are matched to the English question we write about, because every term is published in all three languages.
+ * Priority = total monthly searches x ease. Ease is lower when Google says advertisers fight over it (mild weight, it is an ads signal),
+ * and higher when aurenstar.com already shows up around positions 8-20 in Google for it (a small push can win page 1).
+ */
 const PLANNER_JSON = path.join(root, 'data/keyword-planner.json');
+function gscPositions(): Map<string, number> {
+  const m = new Map<string, number>();
+  try {
+    const rows = JSON.parse(fs.readFileSync(GSC_FILE, 'utf8')) as { query?: string; impressions?: number; position?: number }[];
+    for (const r of Array.isArray(rows) ? rows : []) {
+      const q = toQuestion(String(r.query || ''));
+      const pos = Number(r.position) || 0;
+      if (!q || !pos || (Number(r.impressions) || 0) < 3) continue;
+      const k = conceptKey(q);
+      if (!m.has(k) || pos < (m.get(k) as number)) m.set(k, pos);
+    }
+  } catch { /* no Search Console data yet */ }
+  return m;
+}
+export function plannerPriority(volume: number, comp: number | null, position: number | null): number {
+  const ease = 1 - 0.4 * ((comp ?? 50) / 100); // 1.0 (no ad competition) ... 0.6 (heavy ad competition)
+  const push = position !== null && position >= 8 && position <= 20 ? 1.5 : 1; // already close to page 1
+  return Math.round(volume * ease * push);
+}
 function readPlannerJson(): DemandItem[] {
   try {
-    const rows = JSON.parse(fs.readFileSync(PLANNER_JSON, 'utf8')) as { keyword?: string; volume?: number | string }[];
-    const out: DemandItem[] = [];
+    const rows = JSON.parse(fs.readFileSync(PLANNER_JSON, 'utf8')) as { keyword?: string; volume?: number | string; market?: string; comp?: number | string }[];
+    const pos = gscPositions();
+    const byConcept = new Map<string, { q: string; best: number; total: number; compSum: number; compW: number }>();
     for (const r of Array.isArray(rows) ? rows : []) {
       const volume = Number(r.volume) || 0;
-      const q = toQuestion(String(r.keyword || ''));
-      if (q && volume > 0) out.push({ ...seedFromQuestion(q), score: 1_000_000 + volume, source: 'keyword-planner', volume });
+      if (volume <= 0) continue;
+      const market = String(r.market || 'us');
+      const q = market === 'us' ? toQuestion(String(r.keyword || '')) : foreignToQuestion(String(r.keyword || ''));
+      if (!q) continue;
+      const k = conceptKey(q) || slugify(q);
+      const cur = byConcept.get(k) || { q, best: 0, total: 0, compSum: 0, compW: 0 };
+      cur.total += volume;
+      if (volume > cur.best) { cur.best = volume; cur.q = q; }
+      if (r.comp !== undefined && r.comp !== null && r.comp !== '') { cur.compSum += Number(r.comp) * volume; cur.compW += volume; }
+      byConcept.set(k, cur);
+    }
+    const out: DemandItem[] = [];
+    for (const [k, v] of byConcept) {
+      const comp = v.compW ? v.compSum / v.compW : null;
+      out.push({ ...seedFromQuestion(v.q), score: 1_000_000 + plannerPriority(v.total, comp, pos.get(k) ?? null), source: 'keyword-planner', volume: v.total });
     }
     return out;
   } catch { return []; }
