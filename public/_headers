@@ -52,3 +52,6 @@
 
 /*.png
   Cache-Control: public, max-age=2592000
+
+/_native/*
+  X-Robots-Tag: noindex
