@@ -33,7 +33,9 @@ export const load = (): NativeArticle[] => {
   return fs.readdirSync(DIR).flatMap((l) => fs.readdirSync(path.join(DIR, l)).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(DIR, l, f), 'utf8')) as NativeArticle));
 };
 const tokens = (s: string) => new Set(fold(s).split(/\s+/).filter(Boolean));
-const similar = (a: string, b: string) => { const x = tokens(a), y = tokens(b); const i = [...x].filter((t) => y.has(t)).length; return i / Math.max(1, Math.min(x.size, y.size)) >= 0.75 || intentKey(a) === intentKey(b); };
+/** Same wish? Every word of the shorter search has a matching word (same word, or the same first 5 letters: "berechnung"/"berechnen") in the other. */
+const sameWord = (a: string, b: string) => a === b || (a.length >= 5 && b.length >= 5 && a.slice(0, 5) === b.slice(0, 5));
+const similar = (a: string, b: string) => { const x = [...tokens(a)], y = [...tokens(b)]; const [s, l] = x.length <= y.length ? [x, y] : [y, x]; return s.every((t) => l.some((u) => sameWord(t, u))) || intentKey(a) === intentKey(b); };
 
 async function ask(model: string, prompt: string): Promise<any> {
   const res = await fetch('https://api.openai.com/v1/chat/completions', {
@@ -50,18 +52,29 @@ const promptFor = (lang: string, keyword: string) => `You are a native ${LANG_NA
 
 Rules:
 - Use the everyday words people in that language really use for these ideas. Use the exact search words "${keyword}" naturally in the title, the intro, at least one heading and a few times in the text.
-- Answer what the person wants clearly and quickly in the intro, then go deeper. 5 to 7 sections, 900 to 1300 words in total (for Japanese, Chinese and Thai: 2500 to 3500 characters). Short paragraphs, warm and simple, with small concrete examples (invented, never real people).
+- Answer what the person wants clearly and quickly in the intro, then go deeper. 5 to 7 sections, 1300 to 1800 words in total, never fewer than 1100 (for Japanese, Chinese and Thai: 3500 to 4500 characters). Short paragraphs, warm and simple, with small concrete examples (invented, never real people).
+- The title must say honestly what the article gives (no clickbait, no wrong claims: an ascendant is not a partner, a sign is not a destiny). Every astrology statement must be correct and commonly accepted in astrology.
 - Astrology for reflection and fun. Never promise outcomes, never give medical, legal or money advice, never invent studies, statistics, quotes or sources.
 - No links, no mention of AI or translation, no English words except proper names.
 - "slug": 3 to 7 lowercase English words with hyphens describing the topic (ASCII only). "ui": the five short words for the page in that language: home (Home), tools (Free astrology tools), articles (Articles), faq (Frequently asked questions), more (Keep reading).
 Return ONLY JSON: {"slug":"","title":"","description":"(110 to 160 characters)","intro":"","sections":[{"h2":"","paragraphs":[""]}],"faq":[{"q":"","a":""}],"ui":{"home":"","tools":"","articles":"","faq":"","more":""}} with 4 FAQ items.`;
+
+/** A second reader (a different, cheaper model call) rejects articles with a wrong or clickbait title, invented facts, unnatural language or wrong astrology. */
+async function review(a: NativeArticle): Promise<string[]> {
+  if (DRY) return [];
+  try {
+    const text = [a.title, a.description, a.intro, ...a.sections.flatMap((s) => [s.h2, ...s.paragraphs]), ...a.faq.flatMap((f) => [f.q, f.a])].join('\n').slice(0, 14000);
+    const j = await ask(FALLBACK_MODEL, `You are a strict editor and a native speaker of the language "${a.lang}". Review this astrology article written for the search "${a.keyword}". Reject it ("ok": false) if ANY of these is true: the title or description promises something the text does not give or is clickbait or wrong; it states invented facts, statistics, studies or quotes; it gives medical, legal or money advice or promises outcomes; the astrology is factually wrong; the language is unnatural, machine-like or mixes in another language; it is mostly filler. Return ONLY JSON {"ok":boolean,"problems":["max 10 words each"]}.\n\n${text}`);
+    return j.ok === false || (Array.isArray(j.problems) && j.problems.length >= 3) ? (j.problems || ['editor rejected']).map(String) : [];
+  } catch { return []; }
+}
 
 async function write(lang: string, keyword: string, volume: number, taken: Set<string>): Promise<NativeArticle | null> {
   if (DRY) {
     const p = `${keyword} ${'lorem ipsum dolor sit amet '.repeat(30)}`;
     return { lang, keyword, volume, slug: `dry-${fold(keyword).replace(/\W+/g, '-')}`, date: '2026-01-01', title: `${keyword} (dry)`, description: p.slice(0, 120), intro: p, sections: [1, 2, 3, 4].map((i) => ({ h2: `${keyword} ${i}`, paragraphs: [p] })), faq: [1, 2, 3].map((i) => ({ q: `${keyword} question ${i}?`, a: p.slice(0, 60) })), ui: { home: 'Home', tools: 'Tools', articles: 'Articles', faq: 'FAQ', more: 'More' } };
   }
-  for (const model of [WRITE_MODEL, FALLBACK_MODEL]) {
+  for (const model of [WRITE_MODEL, WRITE_MODEL, FALLBACK_MODEL]) {
     try {
       const j = await ask(model, promptFor(lang, keyword));
       let slug = String(j.slug || '').toLowerCase().replace(/[^a-z0-9-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 70);
@@ -69,7 +82,7 @@ async function write(lang: string, keyword: string, volume: number, taken: Set<s
       if (taken.has(slug)) slug = `${slug}-${lang}`;
       const a: NativeArticle = { lang, keyword, volume, slug, date: new Date().toISOString().slice(0, 10), title: j.title, description: j.description, intro: j.intro, sections: j.sections, faq: j.faq, ui: j.ui };
       const bad = checkArticle(a);
-      if (!bad.length) return a;
+      if (!bad.length) { const why = await review(a); if (!why.length) return a; console.log(`  ${lang} "${keyword}" (${model}) editor: ${why.join('; ')}`); continue; }
       console.log(`  ${lang} "${keyword}" (${model}) rejected: ${bad.join('; ')}`);
     } catch (e) { console.log(`  ${lang} "${keyword}" (${model}) failed: ${(e as Error).message}`); }
   }
