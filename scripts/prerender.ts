@@ -21,6 +21,7 @@ import { BLOG_ARTICLES } from '../src/data/blogArticles';
 import { REMOVED_ARTICLES } from '../src/data/removedArticles';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 import { hreflangLinks, langUrl } from '../server/engine/localizePage';
+import { renderNativeArticle, renderNativeHub, articlePath, hubPath, type NativeArticle } from '../server/engine/nativeArticle';
 import { URL_LANGUAGES } from '../src/utils/urlLang';
 import { getArticleIsoDate, getArticleSlug } from '../src/utils/articleSlug';
 import { BLOG_CATEGORIES } from '../src/utils/blogCategories';
@@ -265,8 +266,28 @@ const urlEntries = (items: typeof sitemap) =>
     .join('\n');
 const urlset = (body: string) =>
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
+// Native articles (written directly in each language, see server/engine/nativeArticle.ts): one standalone page each + a list page per language.
+// They are written to dist/_native/<lang>/... (the language function serves them at /<lang>/blog/<slug> and /<lang>/articles) and get their own sitemap file.
+const nativeDir = path.join(root, 'data/native-articles');
+const nativeAll: NativeArticle[] = fs.existsSync(nativeDir)
+  ? fs.readdirSync(nativeDir).flatMap((l) => fs.readdirSync(path.join(nativeDir, l)).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(nativeDir, l, f), 'utf8')) as NativeArticle))
+  : [];
+const nativeByLang = new Map<string, NativeArticle[]>();
+for (const a of nativeAll.sort((x, y) => y.volume - x.volume)) nativeByLang.set(a.lang, [...(nativeByLang.get(a.lang) || []), a]);
+const nativeUrls: { loc: string; lastmod: string }[] = [];
+for (const [lang, list] of nativeByLang) {
+  fs.mkdirSync(path.join(dist, '_native', lang), { recursive: true });
+  for (const a of list) {
+    fs.writeFileSync(path.join(dist, '_native', lang, `${a.slug}.html`), renderNativeArticle(a, list));
+    nativeUrls.push({ loc: `${SITE_URL}${articlePath(lang, a.slug)}`, lastmod: a.date });
+  }
+  fs.writeFileSync(path.join(dist, '_native', lang, 'index.html'), renderNativeHub(lang, list));
+  nativeUrls.push({ loc: `${SITE_URL}${hubPath(lang)}`, lastmod: list.map((a) => a.date).sort().pop() as string });
+}
+if (nativeUrls.length) fs.writeFileSync(path.join(dist, 'sitemap-native.xml'), urlset(nativeUrls.map((u) => `  <url><loc>${escapeXml(u.loc)}</loc><lastmod>${u.lastmod}</lastmod></url>`).join('\n')));
+
 const sorted = sitemap.sort((a, b) => a.loc.localeCompare(b.loc));
-if (sorted.length <= PAGES_PER_FILE) {
+if (sorted.length <= PAGES_PER_FILE && !nativeUrls.length) {
   fs.writeFileSync(path.join(dist, 'sitemap.xml'), urlset(urlEntries(sorted)));
 } else {
   const parts: string[] = [];
@@ -275,6 +296,7 @@ if (sorted.length <= PAGES_PER_FILE) {
     fs.writeFileSync(path.join(dist, name), urlset(urlEntries(sorted.slice(i, i + PAGES_PER_FILE))));
     parts.push(name);
   }
+  if (nativeUrls.length) parts.push('sitemap-native.xml');
   const today = new Date().toISOString().slice(0, 10);
   fs.writeFileSync(
     path.join(dist, 'sitemap.xml'),
@@ -373,5 +395,5 @@ fs.writeFileSync(
 );
 
 console.log(
-  `prerender: ${seen.size} pages written, ${sitemap.length * (URL_LANGUAGES.length + 1)} URLs in sitemap, ${redirects.length} redirect rules (${SITE_URL})`
+  `prerender: ${seen.size} pages written, ${nativeAll.length} native articles, ${sitemap.length * (URL_LANGUAGES.length + 1)} URLs in sitemap, ${redirects.length} redirect rules (${SITE_URL})`
 );

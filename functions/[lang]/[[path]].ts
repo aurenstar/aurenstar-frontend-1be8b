@@ -25,6 +25,16 @@ export const onRequest = async ({ request, env, params, next }: Context): Promis
     return Response.redirect(`${url.origin}/${lang}${url.search}`, 301);
   }
 
+  // Native articles (written directly in this language, not translated): /<lang>/blog/<slug> and the list /<lang>/articles are ready-made
+  // standalone pages saved by the build under /_native/<lang>/. If one exists, serve it as it is.
+  if (rest === 'articles' || /^blog\/[^/]+$/.test(rest)) {
+    const nativePath = rest === 'articles' ? `/_native/${lang}/` : `/_native/${lang}/${rest.slice(5)}`;
+    const nat = await env.ASSETS.fetch(new Request(new URL(nativePath, url).toString(), { headers: { Accept: 'text/html' }, redirect: 'manual' }));
+    if ((nat.headers.get('Content-Type') || '').includes('text/html') && nat.ok) {
+      return new Response(request.method === 'HEAD' ? null : await nat.text(), { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Content-Language': lang, 'Cache-Control': 'public, max-age=300' } });
+    }
+  }
+
   // redirect: 'manual' -> an old address that has a redirect in _redirects (/blog/post-aries ...) is not served under the old
   // address; the visitor and Google are sent on to the new one, keeping the language prefix (/pt/blog/old -> /pt/blog/new).
   const asset = await env.ASSETS.fetch(new Request(new URL(pagePath, url).toString(), { headers: { Accept: 'text/html' }, redirect: 'manual' }));

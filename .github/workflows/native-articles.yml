@@ -1,0 +1,55 @@
+name: Native articles
+on:
+  schedule:
+    - cron: '23 11 * * *'   # every day: a few new articles written directly in each language (the drip)
+  workflow_dispatch:
+    inputs:
+      max:
+        description: 'Most articles in this run'
+        default: '10'
+      per_lang:
+        description: 'Most articles per language in total (raise slowly)'
+        default: '3'
+      langs:
+        description: 'Languages (empty = the pilot ten)'
+        default: ''
+permissions:
+  contents: write
+concurrency:
+  group: native-articles
+  cancel-in-progress: false
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --legacy-peer-deps
+      - name: Write articles (skips quietly if the key is not set)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          NATIVE_PER_LANG: ${{ vars.NATIVE_PER_LANG || '3' }}
+          NATIVE_LANGS: ${{ vars.NATIVE_LANGS || '' }}
+        run: |
+          args="--max ${{ github.event.inputs.max || '10' }}"
+          if [ -n "${{ github.event.inputs.per_lang }}" ]; then args="$args --per-lang ${{ github.event.inputs.per_lang }}"; fi
+          if [ -n "${{ github.event.inputs.langs }}" ]; then args="$args --langs ${{ github.event.inputs.langs }}"; fi
+          npx tsx scripts/native/write.ts $args
+      - name: Check before saving
+        run: |
+          npx tsc --noEmit
+          npx tsx tests/native.test.ts
+      - name: Save
+        run: |
+          if [ -n "$(git status --porcelain data/native-articles)" ]; then
+            git config user.name "aurenstar-bot"
+            git config user.email "bot@aurenstar.com"
+            git add data/native-articles
+            git commit -m "Native articles: new ones written directly in each language"
+            git pull --rebase origin main
+            git push
+          fi
