@@ -6,5 +6,5 @@ check('brand lost is caught', !brandsKept('Welcome to Aurenstar', 'Bem-vindo à 
 check('no brand = fine', brandsKept('Hello', 'Olá'));
 check('portuguese table present', glossaryRules('pt', 'Brazilian Portuguese').includes('Mercúrio retrógrado'));
 check('spanish table present', glossaryRules('es', 'Spanish').includes('carta natal'));
-check('other languages get the rule without a table', !glossaryRules('nl', 'Dutch').includes('Always use exactly'));
+check('languages with measured names get a table, others only the rule', glossaryRules('de', 'German').includes('Geburtshoroskop') && !glossaryRules('xx', 'Other').includes('Always use exactly'));
 process.exit(bad ? 1 : 0);

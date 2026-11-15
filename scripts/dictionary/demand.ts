@@ -10,6 +10,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { slugify } from './checks';
 import type { Seed } from './topics';
+import { worldTotals } from './worldNames';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 export const DEMAND_FILE = path.join(root, 'data/dictionary-demand.json');
@@ -210,6 +211,8 @@ function readPlannerJson(): DemandItem[] {
     const rows = JSON.parse(fs.readFileSync(PLANNER_JSON, 'utf8')) as { keyword?: string; volume?: number | string; market?: string; comp?: number | string }[];
     const pos = gscPositions();
     const boosts = categoryBoosts();
+    const worldBy = new Map<string, number>(); // how many people search the same idea in the 24 other languages
+    for (const [idea, v] of worldTotals()) { const wk = conceptKey(idea); worldBy.set(wk, (worldBy.get(wk) || 0) + v); }
     const byConcept = new Map<string, { q: string; best: number; total: number; compSum: number; compW: number }>();
     for (const r of Array.isArray(rows) ? rows : []) {
       const volume = Number(r.volume) || 0;
@@ -227,6 +230,7 @@ function readPlannerJson(): DemandItem[] {
     const out: DemandItem[] = [];
     for (const [k, v] of byConcept) {
       const comp = v.compW ? v.compSum / v.compW : null;
+      v.total += worldBy.get(k) || 0;
       out.push({ ...seedFromQuestion(v.q), score: 1_000_000 + Math.round(plannerPriority(v.total, comp, pos.get(k) ?? null) * (boosts.get(categoryFor(v.q)) ?? 1)), source: 'keyword-planner', volume: v.total });
     }
     return out;

@@ -1,0 +1,160 @@
+{
+ "updated": "2026-11-15",
+ "names": {
+  "de": {
+   "natal chart": "Geburtshoroskop",
+   "zodiac signs": "Sternzeichen",
+   "rising sign": "Aszendent",
+   "moon sign": "Mondzeichen",
+   "sun sign": "Sonnenzeichen",
+   "mercury retrograde": "Merkur rückläufig",
+   "saturn return": "Saturn Return",
+   "north node": "Mondknoten",
+   "synastry": "Synastrie"
+  },
+  "fr": {
+   "natal chart": "thème natal",
+   "zodiac signs": "signes du zodiaque",
+   "moon sign": "signe lunaire",
+   "sun sign": "signe solaire",
+   "mercury retrograde": "Mercure rétrograde",
+   "synastry": "synastrie"
+  },
+  "it": {
+   "natal chart": "tema natale",
+   "zodiac signs": "segni zodiacali",
+   "rising sign": "ascendente",
+   "mercury retrograde": "Mercurio retrogrado",
+   "synastry": "sinastria"
+  },
+  "nl": {
+   "natal chart": "geboortehoroscoop",
+   "zodiac signs": "sterrenbeelden",
+   "rising sign": "ascendant",
+   "synastry": "synastrie"
+  },
+  "ja": {
+   "zodiac signs": "星座",
+   "rising sign": "アセンダント"
+  },
+  "ko": {
+   "zodiac signs": "별자리"
+  },
+  "zh": {
+   "zodiac signs": "星座"
+  },
+  "ru": {
+   "natal chart": "натальная карта",
+   "zodiac signs": "знаки зодиака",
+   "rising sign": "асцендент",
+   "mercury retrograde": "ретроградный Меркурий",
+   "north node": "северный узел",
+   "synastry": "синастрия"
+  },
+  "tr": {
+   "natal chart": "doğum haritası",
+   "zodiac signs": "burçlar",
+   "rising sign": "yükselen burç",
+   "moon sign": "ay burcu",
+   "sun sign": "güneş burcu",
+   "mercury retrograde": "Merkür retrosu",
+   "north node": "kuzey ay düğümü",
+   "synastry": "sinastri"
+  },
+  "pl": {
+   "natal chart": "horoskop urodzeniowy",
+   "zodiac signs": "znaki zodiaku",
+   "rising sign": "ascendent",
+   "synastry": "synastria"
+  },
+  "ar": {
+   "natal chart": "الخريطة الفلكية",
+   "zodiac signs": "الأبراج",
+   "rising sign": "الطالع",
+   "moon sign": "برج القمر",
+   "sun sign": "برج الشمس",
+   "north node": "العقدة الشمالية"
+  },
+  "hi": {
+   "natal chart": "जन्म कुंडली",
+   "zodiac signs": "राशि",
+   "rising sign": "लग्न",
+   "saturn return": "शनि की साढ़े साती",
+   "north node": "राहु",
+   "synastry": "कुंडली मिलान"
+  },
+  "id": {
+   "natal chart": "natal chart",
+   "zodiac signs": "zodiak",
+   "rising sign": "ascendant",
+   "moon sign": "moon sign",
+   "sun sign": "sun sign",
+   "saturn return": "saturn return",
+   "north node": "north node",
+   "synastry": "sinastri"
+  },
+  "th": {
+   "zodiac signs": "ราศี",
+   "rising sign": "ลัคนา",
+   "north node": "ราหู"
+  },
+  "vi": {
+   "natal chart": "lá số tử vi",
+   "rising sign": "ascendant",
+   "mercury retrograde": "sao Thủy nghịch hành",
+   "saturn return": "Saturn return",
+   "north node": "north node",
+   "synastry": "synastry"
+  },
+  "sv": {
+   "zodiac signs": "stjärntecken",
+   "rising sign": "ascendent",
+   "synastry": "synastri"
+  },
+  "da": {
+   "zodiac signs": "stjernetegn",
+   "rising sign": "ascendant",
+   "sun sign": "soltegn",
+   "saturn return": "Saturn return",
+   "synastry": "synastri"
+  },
+  "no": {
+   "zodiac signs": "stjernetegn",
+   "rising sign": "ascendent",
+   "sun sign": "soltegn",
+   "saturn return": "Saturn retur",
+   "synastry": "synastri"
+  },
+  "fi": {
+   "natal chart": "syntymäkartta",
+   "zodiac signs": "horoskooppimerkit",
+   "rising sign": "nousevamerkki",
+   "moon sign": "kuumerkki",
+   "synastry": "synastria"
+  },
+  "el": {
+   "zodiac signs": "ζώδια"
+  },
+  "he": {
+   "natal chart": "מפת לידה",
+   "zodiac signs": "מזלות",
+   "mercury retrograde": "מרקורי בנסיגה"
+  },
+  "uk": {
+   "natal chart": "натальна карта",
+   "zodiac signs": "знаки зодіаку",
+   "rising sign": "асцендент",
+   "mercury retrograde": "ретроградний Меркурій"
+  },
+  "cs": {
+   "zodiac signs": "znamení zvěrokruhu",
+   "rising sign": "ascendent",
+   "synastry": "synastrie"
+  },
+  "ro": {
+   "zodiac signs": "zodii",
+   "rising sign": "ascendent",
+   "mercury retrograde": "Mercur retrograd"
+  }
+ }
+}
