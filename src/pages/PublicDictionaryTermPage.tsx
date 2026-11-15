@@ -22,12 +22,15 @@ import { TermIcon } from '../components/TermIcon';
 import { onPlainClick } from '../utils/links';
 import { useLanguage } from '../context/LanguageContext';
 import { updateSeo } from '../utils/seo';
+import { toolForTerm, relatedArticlesFor, type ToolRoute } from '../data/dictionaryLinks';
+import { BLOG_ARTICLES } from '../data/blogArticles';
+import { getArticleSlugById } from '../utils/articleSlug';
 import { categoryLabel, localizeTerm } from '../data/astrologyDictionaryTranslations';
 
 const COPY = {
-  en: { home: 'Home', dict: 'Aurenstar Dictionary', seeAll: 'See All Terms', simple: 'A simple explanation, no technical words', copied: 'Link Copied!', share: 'Share This Page', what: 'What does it mean?', whatAstro: 'What does it mean in astrology?', example: 'A fictional everyday example:', want: 'Want to see how this affects your day today?', quick: 'Take a quick, free test in clear, simple language.', more: 'Explore more Aurenstar Dictionary terms on their own pages:', open: 'Open page', back: 'Back to the Full Dictionary', shareTitle: 'What does it mean in astrology?', itIs: 'What it is:', practice: 'In practice:', simpleEx: 'Simple example:', seeFull: 'See the full page, without difficult words, at:', faq: 'Common questions' },
-  pt: { home: 'Início', dict: 'Dicionário Aurenstar', seeAll: 'Ver Todos os Termos', simple: 'Uma explicação simples, sem palavras técnicas', copied: 'Link Copiado!', share: 'Compartilhar Esta Página', what: 'O que significa?', whatAstro: 'O que significa na astrologia?', example: 'Um exemplo fictício do dia a dia:', want: 'Quer ver como isso afeta o seu dia hoje?', quick: 'Faça um teste rápido e gratuito, em linguagem simples e clara.', more: 'Explore mais termos do Dicionário Aurenstar, cada um na sua própria página:', open: 'Abrir página', back: 'Voltar ao Dicionário Completo', shareTitle: 'O que significa na astrologia?', itIs: 'O que é:', practice: 'Na prática:', simpleEx: 'Exemplo simples:', seeFull: 'Veja a página completa, sem palavras difíceis, em:', faq: 'Perguntas frequentes' },
-  es: { home: 'Inicio', dict: 'Diccionario Aurenstar', seeAll: 'Ver Todos los Términos', simple: 'Una explicación sencilla, sin palabras técnicas', copied: '¡Enlace Copiado!', share: 'Compartir Esta Página', what: '¿Qué significa?', whatAstro: '¿Qué significa en astrología?', example: 'Un ejemplo ficticio del día a día:', want: '¿Quieres ver cómo esto afecta tu día de hoy?', quick: 'Haz una prueba rápida y gratuita, en un lenguaje claro y sencillo.', more: 'Explora más términos del Diccionario Aurenstar, cada uno en su propia página:', open: 'Abrir página', back: 'Volver al Diccionario Completo', shareTitle: '¿Qué significa en astrología?', itIs: 'Qué es:', practice: 'En la práctica:', simpleEx: 'Ejemplo sencillo:', seeFull: 'Mira la página completa, sin palabras difíciles, en:', faq: 'Preguntas frecuentes' },
+  en: { home: 'Home', dict: 'Aurenstar Dictionary', seeAll: 'See All Terms', simple: 'A simple explanation, no technical words', copied: 'Link Copied!', share: 'Share This Page', what: 'What does it mean?', whatAstro: 'What does it mean in astrology?', example: 'A fictional everyday example:', want: 'Want to see how this affects your day today?', quick: 'Take a quick, free test in clear, simple language.', more: 'Explore more Aurenstar Dictionary terms on their own pages:', open: 'Open page', back: 'Back to the Full Dictionary', shareTitle: 'What does it mean in astrology?', itIs: 'What it is:', practice: 'In practice:', simpleEx: 'Simple example:', seeFull: 'See the full page, without difficult words, at:', faq: 'Common questions', readMore: 'Read more on the blog:' },
+  pt: { home: 'Início', dict: 'Dicionário Aurenstar', seeAll: 'Ver Todos os Termos', simple: 'Uma explicação simples, sem palavras técnicas', copied: 'Link Copiado!', share: 'Compartilhar Esta Página', what: 'O que significa?', whatAstro: 'O que significa na astrologia?', example: 'Um exemplo fictício do dia a dia:', want: 'Quer ver como isso afeta o seu dia hoje?', quick: 'Faça um teste rápido e gratuito, em linguagem simples e clara.', more: 'Explore mais termos do Dicionário Aurenstar, cada um na sua própria página:', open: 'Abrir página', back: 'Voltar ao Dicionário Completo', shareTitle: 'O que significa na astrologia?', itIs: 'O que é:', practice: 'Na prática:', simpleEx: 'Exemplo simples:', seeFull: 'Veja a página completa, sem palavras difíceis, em:', faq: 'Perguntas frequentes', readMore: 'Leia mais no blog:' },
+  es: { home: 'Inicio', dict: 'Diccionario Aurenstar', seeAll: 'Ver Todos los Términos', simple: 'Una explicación sencilla, sin palabras técnicas', copied: '¡Enlace Copiado!', share: 'Compartir Esta Página', what: '¿Qué significa?', whatAstro: '¿Qué significa en astrología?', example: 'Un ejemplo ficticio del día a día:', want: '¿Quieres ver cómo esto afecta tu día de hoy?', quick: 'Haz una prueba rápida y gratuita, en un lenguaje claro y sencillo.', more: 'Explora más términos del Diccionario Aurenstar, cada uno en su propia página:', open: 'Abrir página', back: 'Volver al Diccionario Completo', shareTitle: '¿Qué significa en astrología?', itIs: 'Qué es:', practice: 'En la práctica:', simpleEx: 'Ejemplo sencillo:', seeFull: 'Mira la página completa, sin palabras difíciles, en:', faq: 'Preguntas frecuentes', readMore: 'Lee más en el blog:' },
 } as const;
 
 interface PublicDictionaryTermPageProps {
@@ -35,7 +38,8 @@ interface PublicDictionaryTermPageProps {
   onBackToDictionary: () => void;
   onBackToHome: () => void;
   onSelectTerm: (slug: string) => void;
-  onNavigateToTool: (tool: 'daily-message' | 'aureneffect' | 'discover-sign') => void;
+  onNavigateToTool: (tool: ToolRoute) => void;
+  onOpenArticle?: (articleId: string) => void;
 }
 
 export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> = ({
@@ -44,6 +48,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
   onBackToHome,
   onSelectTerm,
   onNavigateToTool,
+  onOpenArticle,
 }) => {
   const { language } = useLanguage();
   const lang = (language || 'en') as 'en' | 'pt' | 'es';
@@ -82,6 +87,11 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
     .map((slug) => getDictionaryTermBySlug(slug))
     .filter((t): t is DictionaryTerm => Boolean(t))
     .map((t) => localizeTerm(t, lang));
+
+  const tool = toolForTerm(baseTerm.termo, baseTerm.slug);
+  const articles = relatedArticlesFor(baseTerm.termo, baseTerm.slug)
+    .map((id) => BLOG_ARTICLES.find((a) => a.id === id))
+    .filter((a): a is NonNullable<typeof a> => Boolean(a));
 
   const pageUrl = `${window.location.origin}/dicionario/${term.slug}`;
 
@@ -225,7 +235,7 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
 
 
           {/* Ferramenta Recomendada Direta */}
-          {term.ferramentaRelacionada && (
+          {(
             <div className="mt-8 pt-6 border-t border-[#D9E8F8] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
               <div>
                 <span className="text-xs font-bold text-[#172B4D] block">
@@ -237,10 +247,10 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               </div>
               <button
                 type="button"
-                onClick={() => onNavigateToTool(term.ferramentaRelacionada!.rota)}
+                onClick={() => onNavigateToTool(tool.rota)}
                 className="px-4 py-2.5 rounded-full bg-[#E73578] hover:bg-[#D0306C] text-white text-xs font-bold shadow-xs transition-colors cursor-pointer flex items-center gap-2 shrink-0 active:scale-95"
               >
-                <span>{term.ferramentaRelacionada.nome}</span>
+                <span>{tool.nome[lang]}</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </button>
             </div>
@@ -260,6 +270,30 @@ export const PublicDictionaryTermPage: React.FC<PublicDictionaryTermPageProps> =
               ))}
             </div>
           </section>
+        )}
+
+        {/* Related blog articles (real links, so Google can follow them) */}
+        {articles.length > 0 && (
+          <div className="mb-10">
+            <h3 className="text-base font-extrabold text-[#17366F] mb-3 flex items-center gap-2">
+              <BookOpen className="w-4 h-4 text-[#3982C8]" />
+              <span>{c.readMore}</span>
+            </h3>
+            <ul className="space-y-2">
+              {articles.map((a) => (
+                <li key={a.id}>
+                  <a
+                    href={`/blog/${encodeURIComponent(getArticleSlugById(a.id))}`}
+                    onClick={onPlainClick(() => { if (onOpenArticle) onOpenArticle(a.id); else window.location.assign(`/blog/${encodeURIComponent(getArticleSlugById(a.id))}`); })}
+                    className="flex items-center gap-2 rounded-2xl bg-white border border-[#D9E8F8] px-4 py-3 text-sm font-bold text-[#17366F] hover:border-[#E73578] hover:text-[#E73578] transition-colors"
+                  >
+                    <ArrowRight className="w-3.5 h-3.5 shrink-0" />
+                    <span>{a.title[lang]}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         )}
 
         {/* Termos Relacionados */}

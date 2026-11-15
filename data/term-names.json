@@ -1,0 +1,105 @@
+{
+  "updated": "2026-11-15",
+  "names": [
+    {
+      "group": "natal chart",
+      "lang": "pt",
+      "name": "mapa astral",
+      "volume": 201000,
+      "all": [
+        {
+          "name": "mapa astral",
+          "volume": 201000
+        },
+        {
+          "name": "mapa natal",
+          "volume": 4400
+        }
+      ]
+    },
+    {
+      "group": "natal chart",
+      "lang": "es",
+      "name": "carta astral",
+      "volume": 550000,
+      "all": [
+        {
+          "name": "carta astral",
+          "volume": 550000
+        },
+        {
+          "name": "carta natal",
+          "volume": 550000
+        }
+      ]
+    },
+    {
+      "group": "north node",
+      "lang": "pt",
+      "name": "nodo norte",
+      "volume": 2900,
+      "all": [
+        {
+          "name": "nodo norte",
+          "volume": 2900
+        }
+      ]
+    },
+    {
+      "group": "south node",
+      "lang": "pt",
+      "name": "nodo sul",
+      "volume": 320,
+      "all": [
+        {
+          "name": "nodo sul",
+          "volume": 320
+        }
+      ]
+    },
+    {
+      "group": "imum coeli",
+      "lang": "es",
+      "name": "fondo del cielo",
+      "volume": 18100,
+      "all": [
+        {
+          "name": "fondo del cielo",
+          "volume": 18100
+        },
+        {
+          "name": "imum coeli",
+          "volume": 0
+        }
+      ]
+    },
+    {
+      "group": "conjunction",
+      "lang": "es",
+      "name": "conjunción",
+      "volume": 0,
+      "all": [
+        {
+          "name": "conjunción",
+          "volume": 0
+        }
+      ]
+    },
+    {
+      "group": "birth time",
+      "lang": "pt",
+      "name": "hora de nascimento",
+      "volume": 140,
+      "all": [
+        {
+          "name": "hora de nascimento",
+          "volume": 140
+        },
+        {
+          "name": "horário de nascimento",
+          "volume": 0
+        }
+      ]
+    }
+  ]
+}

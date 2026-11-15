@@ -1,5 +1,7 @@
 import { validateTerm, slugify } from '../scripts/dictionary/checks';
 import { conceptKey, toQuestion, categoryFor, foreignToQuestion, plannerPriority } from '../scripts/dictionary/demand';
+import { chooseNames, applyNames, applyNamesToTerm } from '../scripts/dictionary/names';
+import { toolForTerm } from '../src/data/dictionaryLinks';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 
 let failed = 0;
@@ -57,5 +59,22 @@ ok('no duplicate slugs on site', new Set(slugs).size === slugs.length);
   t('not astrology is blocked', toQuestion('what is a good pizza recipe') === null);
   t('category guess', categoryFor('What is a full moon in astrology?') === 'Phases & Movements');
 }
+
+
+// ---- names by real search volume ----
+const fakeVol = { pt: new Map([['mapa astral', 201000], ['mapa natal', 4400], ['nodo norte', 2900]]), es: new Map([['carta astral', 550000], ['carta natal', 550000]]) } as any;
+const ch = chooseNames(fakeVol);
+ok('pt: most searched name wins', ch.find((c) => c.group === 'natal chart' && c.lang === 'pt')?.name === 'mapa astral');
+ok('es: tie keeps the first listed', ch.find((c) => c.group === 'natal chart' && c.lang === 'es')?.name === 'carta astral');
+ok('swap keeps capital letters', applyNames('O Mapa Natal mostra, e um mapa natal e unico.', 'pt', ch).text === 'O Mapa Astral mostra, e um mapa astral e unico.');
+ok('plural is swapped', applyNames('Os mapas natais.', 'pt', ch).text === 'Os mapas astrais.');
+ok('equal numbers leave the text alone', applyNames('Tu carta natal.', 'es', ch).text === 'Tu carta natal.');
+ok('known mistake is always fixed', applyNames('O Nódulo Norte.', 'pt', ch).text === 'O Nodo Norte.');
+ok('inside another word is untouched', applyNames('mapa natalino', 'pt', ch).text === 'mapa natalino');
+ok('term texts fixed in place', (() => { const t: any = { traducoes: { pt: { termo: 'Mapa Natal', faq: [{ pergunta: 'O que e um mapa natal?', resposta: 'x' }] } } }; applyNamesToTerm(t, ch); return t.traducoes.pt.termo === 'Mapa Astral' && t.traducoes.pt.faq[0].pergunta.includes('mapa astral'); })());
+ok('tool: signs', toolForTerm('Fire Sign', 'fire-sign').rota === 'discover-sign');
+ok('tool: sky', toolForTerm('Mercury Retrograde').rota === 'transits');
+ok('tool: pair', toolForTerm('Composite Chart').rota === 'compatibility');
+ok('tool: chart', toolForTerm('Natal Chart').rota === 'describe-me');
 
 process.exit(failed ? 1 : 0);

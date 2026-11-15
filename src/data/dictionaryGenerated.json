@@ -50,21 +50,21 @@
     },
     "traducoes": {
       "pt": {
-        "termo": "Mapa Natal",
-        "perguntaGoogle": "O que é um mapa natal?",
-        "resumoUmaLinha": "Um mapa natal é um mapa do céu quando você nasceu.",
+        "termo": "Mapa Astral",
+        "perguntaGoogle": "O que é um mapa astral?",
+        "resumoUmaLinha": "Um mapa astral é um mapa do céu quando você nasceu.",
         "chamadaCuriosa": "Descubra sua impressão digital cósmica!",
-        "oQueSignifica": "Um mapa natal é como uma foto do céu no momento em que você nasceu. Imagine como um mapa cósmico mostrando onde os planetas estavam. É único, como sua impressão digital, e ajuda a entender sua personalidade.",
-        "oQueSignificaNaAstrologia": "Na astrologia, um mapa natal mostra as posições dos planetas quando você nasceu. É dividido em 12 partes chamadas casas, que regem diferentes áreas da vida. As pessoas o veem como um guia para pontos fortes, desafios e potenciais pessoais.",
-        "exemploFicticio": "Maria olhou para seu mapa natal e viu que o sol estava em Leão. Ela se sentiu orgulhosa ao ver como combinava com sua personalidade audaciosa e radiante.",
+        "oQueSignifica": "Um mapa astral é como uma foto do céu no momento em que você nasceu. Imagine como um mapa cósmico mostrando onde os planetas estavam. É único, como sua impressão digital, e ajuda a entender sua personalidade.",
+        "oQueSignificaNaAstrologia": "Na astrologia, um mapa astral mostra as posições dos planetas quando você nasceu. É dividido em 12 partes chamadas casas, que regem diferentes áreas da vida. As pessoas o veem como um guia para pontos fortes, desafios e potenciais pessoais.",
+        "exemploFicticio": "Maria olhou para seu mapa astral e viu que o sol estava em Leão. Ela se sentiu orgulhosa ao ver como combinava com sua personalidade audaciosa e radiante.",
         "faq": [
           {
             "pergunta": "Preciso da hora exata do meu nascimento?",
             "resposta": "Sim, para obter um mapa preciso, você precisa da hora e local exatos do nascimento."
           },
           {
-            "pergunta": "Meu mapa natal pode mudar?",
-            "resposta": "Não, seu mapa natal permanece o mesmo durante toda a sua vida."
+            "pergunta": "Meu mapa astral pode mudar?",
+            "resposta": "Não, seu mapa astral permanece o mesmo durante toda a sua vida."
           }
         ]
       },
@@ -518,11 +518,11 @@
         ]
       },
       "es": {
-        "termo": "Imum Coeli (IC)",
-        "perguntaGoogle": "¿Qué es el Imum Coeli (IC) en astrología?",
+        "termo": "Fondo del Cielo (IC)",
+        "perguntaGoogle": "¿Qué es el Fondo del Cielo (IC) en astrología?",
         "resumoUmaLinha": "El IC señala el hogar, las raíces y el lado privado de la vida en una carta astral.",
         "chamadaCuriosa": "¿Qué dice la parte más baja de tu carta sobre el hogar?",
-        "oQueSignifica": "El Imum Coeli, llamado a menudo IC, es el punto más bajo de una carta natal. Puedes imaginarlo como los cimientos de una casa: representa lo que se siente privado, familiar y reconfortante. También puede señalar cómo fue el hogar durante los primeros años y las raíces personales.",
+        "oQueSignifica": "El Fondo del Cielo, llamado a menudo IC, es el punto más bajo de una carta natal. Puedes imaginarlo como los cimientos de una casa: representa lo que se siente privado, familiar y reconfortante. También puede señalar cómo fue el hogar durante los primeros años y las raíces personales.",
         "oQueSignificaNaAstrologia": "En astrología, el IC se relaciona con el hogar, las raíces familiares y tu sentido interno de pertenencia. Los astrólogos pueden interpretar su signo zodiacal y los planetas cercanos como pistas sobre lo que te ayuda a sentir estabilidad. Está frente al Medio Cielo, relacionado con la vida pública y las metas.",
         "exemploFicticio": "Maria nota que se siente más a gusto cocinando en casa con su familia. Un astrólogo podría explorar su IC como un símbolo de las rutinas privadas y las raíces que son importantes para ella.",
         "faq": [
@@ -698,7 +698,7 @@
         ]
       },
       "es": {
-        "termo": "Conjunction",
+        "termo": "Conjunción",
         "perguntaGoogle": "¿Qué es una conjunción en astrología?",
         "resumoUmaLinha": "Una conjunción ocurre cuando dos planetas aparecen cerca uno del otro en una carta natal.",
         "chamadaCuriosa": "¿Qué pasa cuando dos planetas comparten el protagonismo?",
@@ -1135,15 +1135,15 @@
       "pt": {
         "termo": "Trânsito",
         "perguntaGoogle": "O que é um trânsito na astrologia?",
-        "resumoUmaLinha": "Um trânsito é o movimento atual de um planeta passando pelos pontos do seu mapa natal na astrologia.",
+        "resumoUmaLinha": "Um trânsito é o movimento atual de um planeta passando pelos pontos do seu mapa astral na astrologia.",
         "chamadaCuriosa": "Já reparou como o movimento dos planetas pode influenciar seu dia?",
         "oQueSignifica": "Um trânsito é como um carro passando pelo seu parque favorito. O carro é o planeta em movimento, e o parque é um ponto no seu mapa. Assim como a visita do carro pode trazer barulho ou alegria, um trânsito pode trazer uma mudança ou um sentimento novo. Não dura muito, mas pode chamar sua atenção por um tempo.",
-        "oQueSignificaNaAstrologia": "Na astrologia, um trânsito acontece quando um planeta passa sobre um ponto do seu mapa natal, como o Sol ou a Lua. Esse movimento está ligado a novas oportunidades, humores ou mudanças na vida. Os trânsitos não determinam seu destino, mas podem mostrar momentos para perceber sentimentos ou acontecimentos. Eles ajudam a entender quando as coisas podem parecer diferentes ou quando você tem chance de crescer.",
-        "exemploFicticio": "Maria vê Marte em trânsito sobre a Lua no seu mapa natal. Ela se sente mais energizada no trabalho e termina as tarefas mais rápido. Carlos nota um trânsito de Vênus perto do Sol dele e aproveita mais tempo com os amigos, se sentindo feliz e relaxado.",
+        "oQueSignificaNaAstrologia": "Na astrologia, um trânsito acontece quando um planeta passa sobre um ponto do seu mapa astral, como o Sol ou a Lua. Esse movimento está ligado a novas oportunidades, humores ou mudanças na vida. Os trânsitos não determinam seu destino, mas podem mostrar momentos para perceber sentimentos ou acontecimentos. Eles ajudam a entender quando as coisas podem parecer diferentes ou quando você tem chance de crescer.",
+        "exemploFicticio": "Maria vê Marte em trânsito sobre a Lua no seu mapa astral. Ela se sente mais energizada no trabalho e termina as tarefas mais rápido. Carlos nota um trânsito de Vênus perto do Sol dele e aproveita mais tempo com os amigos, se sentindo feliz e relaxado.",
         "faq": [
           {
             "pergunta": "Os trânsitos afetam todo mundo do mesmo jeito?",
-            "resposta": "Não, os trânsitos afetam cada pessoa de acordo com o seu mapa natal, então as experiências variam."
+            "resposta": "Não, os trânsitos afetam cada pessoa de acordo com o seu mapa astral, então as experiências variam."
           },
           {
             "pergunta": "Quanto tempo dura um trânsito?",
@@ -1227,7 +1227,7 @@
         "perguntaGoogle": "O que é um mapa composto?",
         "resumoUmaLinha": "Um mapa composto mostra as energias combinadas entre duas pessoas em um só mapa de astrologia.",
         "chamadaCuriosa": "O que acontece quando dois mapas astrais se juntam em um só?",
-        "oQueSignifica": "Um mapa composto é como misturar duas cores de tinta para criar uma nova. Ele junta os mapas natais de duas pessoas para formar um novo mapa. Esse mapa mostra como os dois se conectam e interagem. Pense nele como um mapa do relacionamento em si, não só de cada pessoa.",
+        "oQueSignifica": "Um mapa composto é como misturar duas cores de tinta para criar uma nova. Ele junta os mapas astrais de duas pessoas para formar um novo mapa. Esse mapa mostra como os dois se conectam e interagem. Pense nele como um mapa do relacionamento em si, não só de cada pessoa.",
         "oQueSignificaNaAstrologia": "Na astrologia, o mapa composto está ligado a como duas pessoas se relacionam. Ele revela a energia da relação, mostrando como elas funcionam ou sentem juntas. Esse mapa ajuda a entender os pontos fortes e desafios da conexão, unindo signos, planetas e casas em uma imagem só.",
         "exemploFicticio": "Maria e Carlos querem ver o vínculo deles de um jeito novo. O mapa composto deles mostra onde sentem empolgação e onde precisam de paciência. Por exemplo, numa conversa, Maria fica tranquila quando Carlos escuta, e o mapa destaca isso como uma conexão calorosa.",
         "faq": [
@@ -3398,20 +3398,20 @@
         ]
       },
       "es": {
-        "termo": "Imum Coeli",
-        "perguntaGoogle": "¿Qué significa imum coeli en astrología?",
-        "resumoUmaLinha": "El Imum Coeli muestra tus raíces y vida privada en tu carta astral.",
-        "chamadaCuriosa": "¡Descubre qué dice tu Imum Coeli sobre tu mundo privado!",
-        "oQueSignifica": "Imum Coeli significa 'parte baja del cielo' en latín. Imagina la base de una casa, la parte oculta bajo tierra. Marca el punto más bajo en tu carta natal, como tu lugar privado y tranquilo. Es donde empieza tu historia con la familia y el hogar, como tus raíces que te sostienen firme.",
-        "oQueSignificaNaAstrologia": "En astrología, el Imum Coeli está ligado a tu vida en casa y tus sentimientos más íntimos. Muestra tu lado privado, la familia temprana y dónde te sientes seguro. Este punto ayuda a revelar qué te hace sentir con los pies en la tierra y protegido. Piensa en él como la base sólida que sostiene tu personalidad bajo la superficie.",
-        "exemploFicticio": "A María le encanta decorar su sala acogedora, creando un espacio cálido y seguro. Su Imum Coeli sugiere que se siente mejor rodeada de familia y lugares conocidos. A menudo piensa en la casa donde creció cuando necesita consuelo.",
+        "termo": "Fondo del Cielo",
+        "perguntaGoogle": "¿Qué significa fondo del cielo en astrología?",
+        "resumoUmaLinha": "El Fondo del Cielo muestra tus raíces y vida privada en tu carta astral.",
+        "chamadaCuriosa": "¡Descubre qué dice tu Fondo del Cielo sobre tu mundo privado!",
+        "oQueSignifica": "Fondo del Cielo significa 'parte baja del cielo' en latín. Imagina la base de una casa, la parte oculta bajo tierra. Marca el punto más bajo en tu carta natal, como tu lugar privado y tranquilo. Es donde empieza tu historia con la familia y el hogar, como tus raíces que te sostienen firme.",
+        "oQueSignificaNaAstrologia": "En astrología, el Fondo del Cielo está ligado a tu vida en casa y tus sentimientos más íntimos. Muestra tu lado privado, la familia temprana y dónde te sientes seguro. Este punto ayuda a revelar qué te hace sentir con los pies en la tierra y protegido. Piensa en él como la base sólida que sostiene tu personalidad bajo la superficie.",
+        "exemploFicticio": "A María le encanta decorar su sala acogedora, creando un espacio cálido y seguro. Su Fondo del Cielo sugiere que se siente mejor rodeada de familia y lugares conocidos. A menudo piensa en la casa donde creció cuando necesita consuelo.",
         "faq": [
           {
-            "pergunta": "¿Es igual el Imum Coeli para todos?",
+            "pergunta": "¿Es igual el Fondo del Cielo para todos?",
             "resposta": "No, cambia según la hora y el lugar exacto de tu nacimiento en la carta."
           },
           {
-            "pergunta": "¿Puede el Imum Coeli influir en cómo veo a mi familia?",
+            "pergunta": "¿Puede el Fondo del Cielo influir en cómo veo a mi familia?",
             "resposta": "Sí, está relacionado con las experiencias familiares tempranas y sentirse en casa."
           }
         ]
@@ -4639,13 +4639,13 @@
     },
     "traducoes": {
       "pt": {
-        "termo": "Nódulo Norte e Nódulo Sul",
-        "perguntaGoogle": "O que significa nódulo norte e nódulo sul na astrologia?",
+        "termo": "Nodo Norte e Nodo Sul",
+        "perguntaGoogle": "O que significa nodo norte e nodo sul na astrologia?",
         "resumoUmaLinha": "Os Nódulos Norte e Sul mostram o caminho da sua vida para crescer e suas zonas de conforto.",
         "chamadaCuriosa": "Descubra como o caminho da sua alma guia suas escolhas do dia a dia!",
-        "oQueSignifica": "Pense no Nódulo Norte como um lugar para onde você está aprendendo a ir, tipo uma nova aventura. O Nódulo Sul é como sua casa quentinha, que você conhece bem. Imagine a Maria que adora cozinhar em casa (Nódulo Sul) mas está começando a tentar pintar (Nódulo Norte). Os dois ajudam ela a crescer e se sentir segura.",
-        "oQueSignificaNaAstrologia": "Na astrologia, o Nódulo Norte aponta qualidades e experiências que sua alma quer desenvolver agora. O Nódulo Sul mostra habilidades, hábitos ou sentimentos de vidas passadas que você já conhece. Eles funcionam juntos como uma bússola: o Nódulo Sul é o que você traz, e o Nódulo Norte é onde acontece o crescimento, ajudando a encontrar equilíbrio na vida.",
-        "exemploFicticio": "O Carlos gosta de trabalhar em equipe (Nódulo Sul), mas seu Nódulo Norte o incentiva a liderar e tomar decisões sozinho. No trabalho, ele começa a se voluntariar para liderar pequenos projetos. Ele fica um pouco assustado, mas animado, aprendendo novas habilidades que o fazem crescer.",
+        "oQueSignifica": "Pense no Nodo Norte como um lugar para onde você está aprendendo a ir, tipo uma nova aventura. O Nodo Sul é como sua casa quentinha, que você conhece bem. Imagine a Maria que adora cozinhar em casa (Nodo Sul) mas está começando a tentar pintar (Nodo Norte). Os dois ajudam ela a crescer e se sentir segura.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o Nodo Norte aponta qualidades e experiências que sua alma quer desenvolver agora. O Nodo Sul mostra habilidades, hábitos ou sentimentos de vidas passadas que você já conhece. Eles funcionam juntos como uma bússola: o Nodo Sul é o que você traz, e o Nodo Norte é onde acontece o crescimento, ajudando a encontrar equilíbrio na vida.",
+        "exemploFicticio": "O Carlos gosta de trabalhar em equipe (Nodo Sul), mas seu Nodo Norte o incentiva a liderar e tomar decisões sozinho. No trabalho, ele começa a se voluntariar para liderar pequenos projetos. Ele fica um pouco assustado, mas animado, aprendendo novas habilidades que o fazem crescer.",
         "faq": [
           {
             "pergunta": "Os Nódulos Norte e Sul são planetas?",

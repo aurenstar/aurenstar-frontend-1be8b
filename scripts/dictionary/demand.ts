@@ -205,7 +205,7 @@ function readPlannerJson(): DemandItem[] {
       const volume = Number(r.volume) || 0;
       if (volume <= 0) continue;
       const market = String(r.market || 'us');
-      const q = market === 'us' ? toQuestion(String(r.keyword || '')) : foreignToQuestion(String(r.keyword || ''));
+      const q = (market === 'us' || market === 'en') ? toQuestion(String(r.keyword || '')) : foreignToQuestion(String(r.keyword || ''));
       if (!q) continue;
       const k = conceptKey(q) || slugify(q);
       const cur = byConcept.get(k) || { q, best: 0, total: 0, compSum: 0, compW: 0 };

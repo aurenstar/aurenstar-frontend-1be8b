@@ -5,6 +5,7 @@
  * Reads data/dictionary-queue.json (the list of questions to answer), writes src/data/dictionaryGenerated.json.
  * Safe pace: --max terms per run, and a term that fails the checks 3 times is parked in data/dictionary-failures.json.
  */
+import { nameHint, applyNamesToTerm } from './names';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -138,7 +139,7 @@ async function translateTerm(term: DictionaryTerm): Promise<DictionaryTerm['trad
       const res = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${KEY}` },
-        body: JSON.stringify({ model: MODEL, response_format: { type: 'json_object' }, messages: [{ role: 'user', content: `Translate these astrology dictionary texts into ${label}. Keep the meaning, the short sentences and the fictional names (Maria, Carlos). Keep astrology terms people really use in that language. Never mention AI. Return ONLY JSON with exactly the same keys; faq stays a list of {pergunta, resposta} with the same number of items.\n\n${JSON.stringify(source)}` }] }),
+        body: JSON.stringify({ model: MODEL, response_format: { type: 'json_object' }, messages: [{ role: 'user', content: `Translate these astrology dictionary texts into ${label}. Keep the meaning, the short sentences and the fictional names (Maria, Carlos). Keep astrology terms people really use in that language.${nameHint()} Never mention AI. Return ONLY JSON with exactly the same keys; faq stays a list of {pergunta, resposta} with the same number of items.\n\n${JSON.stringify(source)}` }] }),
       });
       if (!res.ok) return null;
       tr = JSON.parse(String(((await res.json()) as any)?.choices?.[0]?.message?.content || '{}'));
@@ -232,7 +233,7 @@ async function main() {
         };
         problems = validateTerm(term, all.map((t) => ({ id: t.id, slug: t.slug })));
         if (!problems.length) {
-          try { term.traducoes = (await translateTerm(term)) || undefined; } catch { /* translated on the next run */ }
+          try { term.traducoes = (await translateTerm(term)) || undefined; if (term.traducoes) applyNamesToTerm(term); } catch { /* translated on the next run */ }
           generated.push(term);
           all.push(term);
           added++;
