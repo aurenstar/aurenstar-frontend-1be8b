@@ -512,6 +512,7 @@ export default function App() {
               onBackToHome={() => handleNavigate('home')}
               onSelectTerm={handleOpenTerm}
               onNavigateToTool={(tool) => handleNavigate(tool)}
+              onOpenArticle={handleOpenArticle}
             />
           </main>
         )}
