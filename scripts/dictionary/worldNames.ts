@@ -23,6 +23,8 @@ const isBad = (lang: string, name: string) => NOT_RELIABLE.has(`${lang}|${fold(n
 /** Ideas whose names are clean nouns that can sit in a translation glossary ("birth chart", not "houses astrology"). */
 const GLOSSARY_IDEAS = new Set(['natal chart', 'zodiac signs', 'rising sign', 'moon sign', 'sun sign', 'mercury retrograde', 'saturn return', 'north node', 'synastry']);
 
+const CORE_IDEAS = 20;
+const EXTRA_COUNTED = new Set(['stellium', 'chiron astrology', 'black moon lilith']);
 type Row = { keyword: string; volume: number; lang: string };
 function volumes(): Map<string, number> {
   const m = new Map<string, number>();
@@ -50,15 +52,21 @@ export function chooseWorldNames(vol = volumes()): WorldChoice[] {
   return out;
 }
 
-/** Total monthly searches per idea over all 24 languages (exact names only, reliable ones only). */
+/**
+ * Total monthly searches per idea over all languages (exact names only, reliable ones only).
+ * Only clean astrology ideas count (the first 20 minus the phrase-like ones). The second-wave ideas are bare names ("Gemini" is also Google's AI, "Libra" a currency,
+ * "Jupiter" a planet in every language), so their numbers are not about astrology. One name is also capped at 1 million a month.
+ */
 export function worldTotals(vol = volumes()): Map<string, number> {
   const tot = new Map<string, number>();
   for (const [lang, list] of Object.entries(world.glossary as Record<string, string[]>)) {
     list.forEach((entry, i) => {
+      if (i >= CORE_IDEAS) return;
       const idea = IDEAS[i];
+      if (!GLOSSARY_IDEAS.has(idea) && !EXTRA_COUNTED.has(idea)) return; // phrase-like ideas ("transits", "conjunction") are common words in many languages
       let best = 0;
       for (const n of entry.split('|')) if (!isBad(lang, n)) best = Math.max(best, vol.get(`${lang}|${fold(n)}`) || 0);
-      if (best) tot.set(idea, (tot.get(idea) || 0) + best);
+      if (best) tot.set(idea, (tot.get(idea) || 0) + Math.min(best, 1_000_000));
     });
   }
   return tot;

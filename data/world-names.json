@@ -9,16 +9,11 @@
    "sun sign": "Sonnenzeichen",
    "mercury retrograde": "Merkur rückläufig",
    "saturn return": "Saturn Return",
-   "north node": "Mondknoten",
    "synastry": "Synastrie"
   },
   "fr": {
-   "natal chart": "thème natal",
    "zodiac signs": "signes du zodiaque",
-   "moon sign": "signe lunaire",
-   "sun sign": "signe solaire",
-   "mercury retrograde": "Mercure rétrograde",
-   "synastry": "synastrie"
+   "moon sign": "signe lunaire"
   },
   "it": {
    "natal chart": "tema natale",
@@ -48,7 +43,6 @@
    "zodiac signs": "знаки зодиака",
    "rising sign": "асцендент",
    "mercury retrograde": "ретроградный Меркурий",
-   "north node": "северный узел",
    "synastry": "синастрия"
   },
   "tr": {
@@ -118,13 +112,6 @@
    "saturn return": "Saturn return",
    "synastry": "synastri"
   },
-  "no": {
-   "zodiac signs": "stjernetegn",
-   "rising sign": "ascendent",
-   "sun sign": "soltegn",
-   "saturn return": "Saturn retur",
-   "synastry": "synastri"
-  },
   "fi": {
    "natal chart": "syntymäkartta",
    "zodiac signs": "horoskooppimerkit",
@@ -155,6 +142,125 @@
    "zodiac signs": "zodii",
    "rising sign": "ascendent",
    "mercury retrograde": "Mercur retrograd"
+  },
+  "bg": {
+   "natal chart": "натална карта",
+   "zodiac signs": "зодии",
+   "rising sign": "асцендент",
+   "mercury retrograde": "ретрограден меркурий",
+   "synastry": "синастрия"
+  },
+  "hu": {
+   "natal chart": "natal chart",
+   "zodiac signs": "állatövi jegyek",
+   "rising sign": "aszcendens"
+  },
+  "sk": {
+   "natal chart": "natal chart",
+   "zodiac signs": "znamenia zverokruhu",
+   "moon sign": "moon sign",
+   "sun sign": "sun sign",
+   "mercury retrograde": "mercury retrograde",
+   "saturn return": "saturn return",
+   "synastry": "synastry"
+  },
+  "hr": {
+   "natal chart": "natal chart",
+   "zodiac signs": "zodijak",
+   "moon sign": "moon sign",
+   "sun sign": "sun sign",
+   "mercury retrograde": "mercury retrograde",
+   "saturn return": "saturn return",
+   "synastry": "synastry"
+  },
+  "sr": {
+   "natal chart": "natal chart",
+   "zodiac signs": "zodijak",
+   "moon sign": "moon sign",
+   "sun sign": "sun sign",
+   "mercury retrograde": "mercury retrograde",
+   "saturn return": "saturn return",
+   "north node": "north node",
+   "synastry": "synastry"
+  },
+  "ca": {
+   "natal chart": "carta natal",
+   "rising sign": "ascendent",
+   "synastry": "sinastria"
+  },
+  "lt": {
+   "zodiac signs": "zodiakas",
+   "synastry": "sinastrija"
+  },
+  "lv": {
+   "natal chart": "natal chart",
+   "zodiac signs": "zodiaks",
+   "moon sign": "mēness",
+   "sun sign": "saule",
+   "north node": "north node",
+   "synastry": "synastry"
+  },
+  "sl": {
+   "natal chart": "natalna karta",
+   "zodiac signs": "zodiak",
+   "rising sign": "ascendent",
+   "mercury retrograde": "retrogradni Merkur"
+  },
+  "et": {
+   "natal chart": "natal chart",
+   "rising sign": "ascendant",
+   "mercury retrograde": "mercury retrograde",
+   "saturn return": "saturn return",
+   "north node": "north node",
+   "synastry": "synastry"
+  },
+  "ta": {
+   "natal chart": "ஜாதகம்",
+   "moon sign": "Moon Sign",
+   "synastry": "Synastry"
+  },
+  "te": {
+   "natal chart": "natal chart",
+   "zodiac signs": "zodiac signs",
+   "rising sign": "rising sign",
+   "moon sign": "moon sign",
+   "sun sign": "sun sign",
+   "mercury retrograde": "mercury retrograde",
+   "saturn return": "saturn return",
+   "north node": "north node",
+   "synastry": "synastry"
+  },
+  "mr": {
+   "natal chart": "natal chart",
+   "zodiac signs": "zodiac signs",
+   "rising sign": "rising sign",
+   "moon sign": "moon sign",
+   "sun sign": "sun sign"
+  },
+  "ur": {
+   "natal chart": "Natal Chart",
+   "zodiac signs": "zodiac signs",
+   "rising sign": "Rising sign",
+   "moon sign": "Moon sign",
+   "sun sign": "Sun sign",
+   "mercury retrograde": "Mercury retrograde",
+   "saturn return": "Saturn return",
+   "north node": "North node",
+   "synastry": "Synastry"
+  },
+  "fil": {
+   "natal chart": "natal chart",
+   "zodiac signs": "zodiac signs",
+   "synastry": "synastry"
+  },
+  "zht": {
+   "zodiac signs": "星座",
+   "rising sign": "上升",
+   "moon sign": "月亮",
+   "sun sign": "太陽",
+   "mercury retrograde": "Mercury retrograde",
+   "saturn return": "Saturn return",
+   "synastry": "配對"
   }
  }
 }
