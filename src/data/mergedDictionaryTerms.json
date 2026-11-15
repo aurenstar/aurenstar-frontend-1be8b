@@ -1,0 +1,32 @@
+[
+ {
+  "from": "what-are-the-houses-in-astrology",
+  "into": "what-are-astrological-houses",
+  "termo": "Astrological Houses",
+  "question": "What are the houses in astrology?"
+ },
+ {
+  "from": "what-is-the-imum-coeli-ic-in-astrology",
+  "into": "what-does-imum-coeli-mean-in-astrology",
+  "termo": "Imum Coeli (IC)",
+  "question": "What is the Imum Coeli (IC) in astrology?"
+ },
+ {
+  "from": "what-is-a-saturn-return",
+  "into": "what-is-saturn-return",
+  "termo": "Saturn Return",
+  "question": "What is a Saturn return?"
+ },
+ {
+  "from": "what-is-a-new-moon-in-astrology",
+  "into": "what-is-new-moon-meaning",
+  "termo": "New Moon",
+  "question": "What is a new moon in astrology?"
+ },
+ {
+  "from": "what-is-a-full-moon-in-astrology",
+  "into": "what-is-full-moon-meaning",
+  "termo": "Full Moon",
+  "question": "What is a full moon in astrology?"
+ }
+]

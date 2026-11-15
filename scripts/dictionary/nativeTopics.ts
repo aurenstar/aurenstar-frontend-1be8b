@@ -19,6 +19,8 @@ const arg = (n: string) => { const i = process.argv.indexOf(`--${n}`); return i 
 /** Other meanings that look like astrology words (Google's AI, shoes, a payment company, diseases...). */
 export const OTHER_MEANINGS = /gemini|gemeni|gèminis|medium coeli|mediamarkt|new ?balance|cancer(?!ian)|hodgkin|melanom|\bsein\b|lion$|canceru|\bgbm\b|colon|pancreas|nike|adidas|iphone|samsung|jordan|tv na|スクエア|レジ|pos |カード|bitcoin|crypto/i;
 
+/** A search with a loose number ("trine 5") is unclear: an article would have to guess what it means. */
+export const hasNumber = (kw: string) => /\d/.test(kw);
 export interface Topic { lang: string; keyword: string; volume: number; reason?: string }
 type Row = { keyword: string; volume: number; lang: string };
 
@@ -33,7 +35,7 @@ export function candidates(lang: string, rows: Row[], per = 40): Topic[] {
   const out: Topic[] = [];
   for (const r of rows.filter((x) => x.lang === lang).sort((a, b) => b.volume - a.volume)) {
     const f = fold(r.keyword);
-    if (OTHER_MEANINGS.test(r.keyword) || r.keyword.split(/\s+/).length < 2) continue;
+    if (OTHER_MEANINGS.test(r.keyword) || hasNumber(r.keyword) || r.keyword.split(/\s+/).length < 2) continue;
     if (![...names].some((n) => f.includes(n))) continue;
     const k = intentKey(r.keyword);
     if (seen.has(k)) continue;
