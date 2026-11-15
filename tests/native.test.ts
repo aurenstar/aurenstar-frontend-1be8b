@@ -43,7 +43,7 @@ ok('care: stats add the searches that contain the words', JSON.stringify(statsFo
 ok('care: young article is "novo"', verdictOf({ impressions: 0, clicks: 0, position: null }, 10) === 'novo');
 ok('care: seen a lot but not clicked', verdictOf({ impressions: 400, clicks: 1, position: 14 }, 40) === 'aparece-sem-clique');
 ok('care: page 1 is working', verdictOf({ impressions: 60, clicks: 0, position: 6 }, 40) === 'funcionando');
-ok('care: nothing after 60 days is "sem-sinal", before that still waiting', verdictOf({ impressions: 0, clicks: 0, position: null }, 61) === 'sem-sinal' && verdictOf({ impressions: 0, clicks: 0, position: null }, 40) === 'aparecendo');
+ok('care: nothing after 120 days is "sem-sinal", before that still waiting', verdictOf({ impressions: 0, clicks: 0, position: null }, 121) === 'sem-sinal' && verdictOf({ impressions: 0, clicks: 0, position: null }, 100) === 'aparecendo');
 const linked = renderNativeArticle(base({ tool: 'daily-message', term: 'rising-sign', ui: { ...base().ui, dictionary: 'Wörterbuch' } }));
 ok('native page: links to the chosen tool and dictionary term', linked.includes('class="cta" href="/de/daily-message"') && linked.includes('href="/de/dicionario/rising-sign"'));
 ok('native page: retired article is noindex', renderNativeArticle(base({ retired: true })).includes('content="noindex,follow"'));

@@ -3,7 +3,7 @@
  * 1) Reads what Google shows for each article (data/search-console.json: the searches that contain the article's search words).
  * 2) Writes the semaphore: data/native-report.json and data/native-report.md.
  * 3) With --apply: improves the title and description of articles that appear but are not clicked, and "retires" (keeps the page, but
- *    noindex and out of the sitemap) articles with no sign at all after 60 days, so weak pages do not weigh on the site.
+ *    noindex and out of the sitemap) articles with no sign at all after 120 days, so weak pages do not weigh on the site.
  *   npx tsx scripts/native/care.ts [--apply]
  */
 import fs from 'node:fs';
@@ -18,6 +18,8 @@ const KEY = process.env.OPENAI_API_KEY;
 const MODEL = process.env.OPENAI_MODEL || 'gpt-4.1-mini';
 const TODAY = new Date().toISOString().slice(0, 10);
 
+/** Days without any sign before an article is retired. Google needs months to trust new pages, so this is long on purpose. */
+export const RETIRE_DAYS = 120;
 export type NativeVerdict = 'novo' | 'funcionando' | 'aparece-sem-clique' | 'aparecendo' | 'sem-sinal';
 export interface Stats { impressions: number; clicks: number; position: number | null }
 type Row = { query?: string; clicks?: number; impressions?: number; position?: number };
@@ -35,13 +37,13 @@ export function statsFor(keyword: string, rows: Row[]): Stats {
   return st;
 }
 
-/** New: under 21 days, Google needs time. Working: clicks, or page 1 with some views. Seen but not clicked: 100+ views and under 1% clicks. No sign: nothing after 60 days. */
+/** New: under 21 days, Google needs time. Working: clicks, or page 1 with some views. Seen but not clicked: 100+ views and under 1% clicks. No sign: nothing after 120 days. */
 export function verdictOf(st: Stats, ageDays: number): NativeVerdict {
   if (ageDays < 21) return 'novo';
   if (st.clicks >= 3 || (st.position !== null && st.position <= 10 && st.impressions >= 30)) return 'funcionando';
   if (st.impressions >= 100 && st.clicks / st.impressions < 0.01) return 'aparece-sem-clique';
   if (st.impressions > 0) return 'aparecendo';
-  return ageDays >= 60 ? 'sem-sinal' : 'aparecendo';
+  return ageDays >= RETIRE_DAYS ? 'sem-sinal' : 'aparecendo';
 }
 
 const days = (from: string) => Math.floor((Date.parse(TODAY) - Date.parse(from)) / 86400000);
@@ -83,7 +85,7 @@ async function main() {
   const s = report.resumo;
   const L = [`# Artigos nativos: semáforo (${TODAY})`, '', '_Só para o robô e para a equipe. Não aparece no site._', '', `**${s.artigos} artigos** · 🆕 novos (menos de 3 semanas): ${s.novos} · ✅ funcionando: ${s.funcionando} · 👀 aparecendo: ${s.aparecendo} · 🟡 aparece mas ninguém clica: ${s.apareceSemClique} · ⛔ sem sinal: ${s.semSinal}`, `Aparições no Google: ${s.impressoes} · Cliques: ${s.cliques}`, '', '## Por idioma', '', '| Idioma | Artigos | Aparições | Cliques |', '|---|---|---|---|', ...report.idiomas.map((i) => `| ${i.lang} | ${i.artigos} | ${i.impressoes} | ${i.cliques} |`)];
   const show = (title: string, v: NativeVerdict) => { const l = report.artigos.filter((e) => e.veredito === v).slice(0, 15); if (l.length) L.push('', `## ${title}`, '', ...l.map((e) => `- ${e.lang}/${e.slug} ("${e.busca}"): ${e.impressions} aparições, ${e.clicks} cliques${e.position ? `, melhor posição ${Math.round(e.position)}` : ''}${e.acao ? ` → ${e.acao}` : ''}`)); };
-  show('✅ O que está funcionando', 'funcionando'); show('🟡 Aparece, mas ninguém clica (o robô melhora título e descrição)', 'aparece-sem-clique'); show('⛔ Sem sinal depois de 60 dias (o robô aposenta)', 'sem-sinal');
+  show('✅ O que está funcionando', 'funcionando'); show('🟡 Aparece, mas ninguém clica (o robô melhora título e descrição)', 'aparece-sem-clique'); show(`⛔ Sem sinal depois de ${RETIRE_DAYS} dias (o robô aposenta)`, 'sem-sinal');
   L.push('', '_O Search Console guardado aqui traz as buscas, não a página: cada artigo é ligado pelas buscas que contêm as palavras dele._', '');
   fs.writeFileSync(path.join(root, 'data/native-report.md'), L.join('\n'));
   console.log('native care:', JSON.stringify(report.resumo));
