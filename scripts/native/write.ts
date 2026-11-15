@@ -55,7 +55,7 @@ const promptFor = (lang: string, keyword: string) => `You are a native ${LANG_NA
 
 Rules:
 - Use the everyday words people in that language really use for these ideas. Use the exact search words "${keyword}" naturally in the title, the intro, at least one heading and a few times in the text.
-- Answer what the person wants clearly and quickly in the intro, then go deeper. 5 to 7 sections, 1300 to 1800 words in total, never fewer than 1100 (for Japanese, Chinese and Thai: 3500 to 4500 characters). Short paragraphs, warm and simple, with small concrete examples (invented, never real people).
+- Answer what the person wants clearly and quickly in the intro, then go deeper. 5 to 7 sections, 1300 to 1800 words in total, never fewer than 1100 (count them: long languages like Arabic and Russian often come out too short, so write each section with at least 4 full paragraphs) (for Japanese, Chinese and Thai: 3500 to 4500 characters). Short paragraphs, warm and simple, with small concrete examples (invented, never real people).
 - The title must say honestly what the article gives (no clickbait, no wrong claims: an ascendant is not a partner, a sign is not a destiny). Every astrology statement must be correct and commonly accepted in astrology.
 - Astrology for reflection and fun. Never promise outcomes, never give medical, legal or money advice, never invent studies, statistics, quotes or sources.
 - No links, no mention of AI or translation, no English words except proper names.

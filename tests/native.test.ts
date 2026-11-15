@@ -20,6 +20,7 @@ ok('native: a good German article passes', checkArticle(long(base())).length ===
 ok('native: too short is rejected', checkArticle(base({ sections: base().sections.slice(0, 4).map((s) => ({ ...s, paragraphs: ['Kurz.'] })) })).some((m) => m.startsWith('too short')));
 ok('native: English text in a German article is rejected', checkArticle(long(base({ intro: 'the and of is are with that this for your you '.repeat(40) }))).length > 0);
 ok('native: missing search words are rejected', checkArticle(long(base({ keyword: 'mondknoten bedeutung' }))).some((m) => m.includes('search words')));
+ok('native: ordinary words "ai" (Italian) and "ia" (Indonesian) are not AI mentions', !checkArticle(long(base({ intro: base().intro + ' ai segni ia berkata' }))).includes('mentions AI'));
 ok('native: AI words are rejected', checkArticle(long(base({ intro: base().intro + ' As an AI I wrote this.' }))).includes('mentions AI'));
 ok('native: Arabic written in Latin letters is rejected', checkArticle(long(base({ lang: 'ar' }))).includes('text is not mostly in the language script'));
 ok('native: fewer than 3 questions is rejected', checkArticle(long(base({ faq: base().faq.slice(0, 2) }))).length > 0);
