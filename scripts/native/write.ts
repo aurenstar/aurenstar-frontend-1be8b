@@ -13,6 +13,7 @@ import { getArticleSlug } from '../../src/utils/articleSlug';
 import { checkArticle, fold, TOOLS, type NativeArticle } from '../../server/engine/nativeArticle';
 import { intentKey, hasNumber } from '../dictionary/nativeTopics';
 import { activeWave } from './plan';
+import { loadSenseLists, checkSense, type SenseLists } from './sense';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../../src/data/astrologyDictionaryData';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
@@ -114,6 +115,10 @@ async function main() {
   if (WAVE.paused && !arg('langs')) { console.log(`native ${KIND === 'term' ? 'dictionary entries' : 'articles'}: paused in data/native-plan.json`); return; }
   console.log(`native ${KIND === 'term' ? 'dictionary entries' : 'articles'}: wave "${WAVE.name}", ${LANGS.length} languages open, up to ${PER_LANG} per language, up to ${MAX} today`);
   if (!KEY && !DRY) { console.log(`native ${KIND === 'term' ? 'dictionary entries' : 'articles'}: no OPENAI_API_KEY, nothing to do`); return; }
+  // Before choosing what to write: is the search really about astrology? (lists in the database, 44 languages). If the lists cannot be read, nothing is written (fail closed).
+  let sense: SenseLists;
+  try { sense = await loadSenseLists(); } catch (e) { console.log(`native: sense lists not available (${(e as Error).message}), nothing written`); return; }
+  const rejectedBySense: string[] = [];
   const have = load();
   const everything = [...loadDir(ARTICLES_DIR), ...loadDir(TERMS_DIR, 'term')];   // a wish that already has an article or an entry is not written again
   const englishSlugs = new Set(KIND === 'term' ? ASTROLOGY_DICTIONARY_TERMS.map((t) => t.slug) : BLOG_ARTICLES.map((a) => getArticleSlug(a)));
@@ -127,11 +132,14 @@ async function main() {
     for (const t of ((topicsFile as any).topics[lang] || []) as { keyword: string; volume: number }[]) {
       if (picks.length >= room) break;
       if (hasNumber(t.keyword)) continue;
+      const sn = checkSense(t.keyword, lang, sense);
+      if (!sn.ok) { rejectedBySense.push(`${lang} "${t.keyword}": ${sn.why}`); continue; }
       if (seenWishes.some((w) => similar(w.keyword, t.keyword)) || picks.some((p) => similar(p.keyword, t.keyword))) continue;
       picks.push(t);
     }
     if (picks.length) queue.set(lang, picks);
   }
+  if (rejectedBySense.length) console.log(`native: ${rejectedBySense.length} searches skipped by the meaning check:\n  ${rejectedBySense.slice(0, 40).join('\n  ')}`);
   let done = 0, tried = 0;
   while (done < MAX && [...queue.values()].some((q) => q.length)) {
     for (const [lang, q] of queue) {          // one per language per round, so every language moves together

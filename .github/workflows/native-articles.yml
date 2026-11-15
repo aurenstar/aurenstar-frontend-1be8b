@@ -32,6 +32,8 @@ jobs:
       - name: Write articles (skips quietly if the key is not set)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SUPABASE_URL: https://bnetpqdpeufookvvsnaj.supabase.co
+          SUPABASE_PUBLISHABLE_KEY: sb_publishable_n_gHt5IxrtmAxybHE6i9ug_aMJ4ozeY   # public key: it can only read the meaning lists
         run: |
           args=""
           if [ -n "${{ github.event.inputs.max }}" ]; then args="$args --max ${{ github.event.inputs.max }}"; fi

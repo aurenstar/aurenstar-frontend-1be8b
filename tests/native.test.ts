@@ -58,4 +58,23 @@ const hub = renderNativeHub('de', [base(), shortTerm({ ui: { ...base().ui, dicti
 ok('native hub: lists articles and dictionary entries apart', hub.includes('/de/blog/aszendent-berechnen') && hub.includes('/de/dicionario/aszendent') && hub.includes('Wörterbuch'));
 ok('plan: entries have their own limits (fall back to the article limits)', activeWave({ waves: [{ from: '2026-11-14', name: 'a', langs: ['de'], perLang: 3, maxPerDay: 10, termsPerLang: 4, termsMaxPerDay: 12 }] }, '2026-11-15').termsPerLang === 4 && activeWave(P, '2026-11-15').termsPerLang === 3);
 
+
+import { checkSense, type SenseLists } from '../scripts/native/sense';
+const LISTS: SenseLists = {
+  de: { bloqueio: ['krebs behandlung*', 'google gemini*'], contexto: ['sternzeichen*', 'horoskop'], ambiguo: ['krebs', 'waage'], modificador: ['mann', 'eigenschaften'] },
+  ja: { bloqueio: ['乳がん'], contexto: ['双子座', '占い'] },
+  tr: { contexto: ['burç*'], ambiguo: ['yengeç*'], modificador: ['erkek*', 'özellik*'], bloqueio: ['meme kanseri*'] },
+};
+ok('meaning: sign + modifier passes (Krebs Mann Eigenschaften)', checkSense('Krebs Mann Eigenschaften', 'de', LISTS).ok);
+ok('meaning: another meaning is blocked (Krebs Behandlung)', !checkSense('Krebs Behandlung Kosten', 'de', LISTS).ok);
+ok('meaning: google gemini is blocked', !checkSense('Google Gemini App', 'de', LISTS).ok);
+ok('meaning: ambiguous sign alone is rejected (Waage kaufen)', !checkSense('Waage kaufen online', 'de', LISTS).ok);
+ok('meaning: context word passes (Sternzeichen Zwillinge Liebe)', checkSense('Sternzeichen Zwillinge Liebe', 'de', LISTS).ok);
+ok('meaning: one word is rejected', !checkSense('horoskop', 'de', LISTS).ok);
+ok('meaning: loose number is rejected', !checkSense('5 sternzeichen', 'de', LISTS).ok);
+ok('meaning: no list for the language is rejected', !checkSense('horoscope today', 'xx', LISTS).ok);
+ok('meaning: Japanese without spaces passes', checkSense('双子座の性格', 'ja', LISTS).ok);
+ok('meaning: Japanese other meaning is blocked', !checkSense('乳がんの検査', 'ja', LISTS).ok);
+ok('meaning: Turkish endings pass (Yengeç erkeği özellikleri)', checkSense('Yengeç erkeği özellikleri', 'tr', LISTS).ok);
+ok('meaning: Turkish illness is blocked', !checkSense('meme kanseri belirtileri', 'tr', LISTS).ok);
 process.exit(failed ? 1 : 0);
