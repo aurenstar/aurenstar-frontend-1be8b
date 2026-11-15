@@ -29,6 +29,17 @@ export function boostFor(catPerTerm: number, allPerTerm: number, terms: number, 
   return Math.round(Math.min(1.3, Math.max(0.8, catPerTerm / allPerTerm)) * 100) / 100;
 }
 
+/** Words that are not about astrology (Google's AI, shoes, diseases...). Left out of the demand count. */
+const NOT_ASTROLOGY = /gemini|gemeni|gèminis|mediamarkt|new ?balance|cancer(?!ian)|hodgkin|melanom|\bsein\b|mc$|^mc |lion$|square|canceru|\bgbm\b|colon|pancreas|nike|adidas|iphone|samsung|jordan|tv na/i;
+export interface Goals { buscasPorMes: number; cauteloso: number; medido: number; otimista: number; metas: { share: string; cauteloso: number; medido: number; otimista: number }[] }
+/** Monthly searches worldwide for the words we measured, and the visits that 0.05% and 0.5% of them would mean. Each word is capped (50k / 100k) so one huge word cannot inflate it. */
+export function visitGoals(rows: { keyword?: string; volume?: number }[]): Goals {
+  const sum = (cap: number) => rows.reduce((a, r) => (NOT_ASTROLOGY.test(String(r.keyword || '')) ? a : a + Math.min(Number(r.volume) || 0, cap)), 0);
+  const medido = sum(50_000), otimista = sum(100_000), cauteloso = Math.round(medido / 1.65);
+  const at = (pct: number) => ({ cauteloso: Math.round(cauteloso * pct), medido: Math.round(medido * pct), otimista: Math.round(otimista * pct) });
+  return { buscasPorMes: medido, cauteloso, medido, otimista, metas: [{ share: '0,05%', ...at(0.0005) }, { share: '0,5%', ...at(0.005) }] };
+}
+
 export function buildReport() {
   const terms: any[] = (() => { const d = read('src/data/dictionaryGenerated.json'); return Array.isArray(d) ? d : d?.terms || []; })();
   const gsc: { query?: string; clicks?: number; impressions?: number; position?: number }[] = read('data/search-console.json') || [];
@@ -53,6 +64,8 @@ export function buildReport() {
     const k = q ? conceptKey(q) : '';
     if (k && byKey.has(k)) slot(k).vol += Number(r.volume) || 0;
   }
+  const worldRows: { keyword?: string; volume?: number }[] = read('data/keyword-planner-world.json') || [];
+  const metas = visitGoals([...planner, ...worldRows]);
   const entries: EntryReport[] = terms.map((t) => {
     const s = stats.get(conceptKey(t.perguntaGoogle || t.termo)) || { imp: 0, clk: 0, pos: null, vol: 0 };
     return { slug: t.slug, termo: t.termo, categoria: t.categoria || categoryFor(t.perguntaGoogle || t.termo), impressoes: s.imp, cliques: s.clk, melhorPosicao: s.pos, buscasMensaisNoMundo: s.vol, veredito: verdictFor(s.imp, s.clk, s.pos) };
@@ -73,6 +86,7 @@ export function buildReport() {
   return {
     updated: new Date().toISOString().slice(0, 10),
     resumo: { termosPublicados: entries.length, funcionando: count('funcionando'), quase: count('quase'), aparecendo: count('aparecendo'), semDados: count('sem-dados'), impressoes: allImp, cliques: entries.reduce((a, e) => a + e.cliques, 0) },
+    metas,
     categorias,
     termos: entries.sort((a, b) => b.impressoes - a.impressoes || b.buscasMensaisNoMundo - a.buscasMensaisNoMundo),
   };
@@ -83,6 +97,11 @@ export function toMarkdown(r: ReturnType<typeof buildReport>): string {
   const s = r.resumo;
   L.push(`**${s.termosPublicados} verbetes publicados** · ✅ funcionando: ${s.funcionando} · 🟡 quase na página 1: ${s.quase} · 👀 aparecendo: ${s.aparecendo} · ⏳ sem dados ainda: ${s.semDados}`, `Aparições no Google: ${s.impressoes} · Cliques: ${s.cliques}`, '', '## Por assunto', '', '| Assunto | Verbetes | Aparições | Cliques | Peso do robô |', '|---|---|---|---|---|');
   for (const c of r.categorias) L.push(`| ${c.categoria} | ${c.termos} | ${c.impressoes} | ${c.cliques} | x${c.boost} |`);
+  const g = r.metas;
+  const n = (x: number) => x.toLocaleString('pt-BR');
+  L.push('', '## 🎯 Metas de visitas por mês (se o site aparecer para uma fatia das buscas medidas)', '', `Buscas por mês nas palavras medidas (43 idiomas, sem o que não é astrologia): cauteloso ~${n(g.cauteloso)} · medido ~${n(g.medido)} · otimista ~${n(g.otimista)}`, '', '| Fatia | Cauteloso | Medido | Otimista |', '|---|---|---|---|');
+  for (const m of g.metas) L.push(`| ${m.share} | ${n(m.cauteloso)} visitas | ${n(m.medido)} visitas | ${n(m.otimista)} visitas |`);
+  L.push('', `Cliques reais no Google hoje: ${s.cliques}. Compare com a linha de 0,05% para ver quanto falta.`);
   const show = (title: string, v: Verdict, n = 10) => {
     const list = r.termos.filter((e) => e.veredito === v).slice(0, n);
     if (!list.length) return;
