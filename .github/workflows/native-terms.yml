@@ -1,7 +1,6 @@
 name: Native dictionary entries
 on:
-  schedule:
-    - cron: '53 11 * * *'   # every day: a few new short dictionary entries (verbetes) written directly in each language (the drip)
+  # Daily schedule switched off: the Aurenstar n8n factory now writes native dictionary entries (workflows 'Site · Nativos'). Manual run only.
   workflow_dispatch:
     inputs:
       max:

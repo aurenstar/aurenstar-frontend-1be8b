@@ -1,7 +1,6 @@
 name: Native articles
 on:
-  schedule:
-    - cron: '23 11 * * *'   # every day: a few new articles written directly in each language (the drip)
+  # Daily schedule switched off: the Aurenstar n8n factory now writes native articles (workflows 'Site · Nativos'). Manual run only.
   workflow_dispatch:
     inputs:
       max:
