@@ -3,7 +3,7 @@
  * translated title + descriptions, language and canonical address of that version, and the list of all language versions (hreflang).
  * The body is translated in the browser (SiteLocalizer), the same way for people and for Google's renderer.
  */
-import { URL_LANGUAGES } from '../../src/utils/urlLang';
+import { URL_LANGUAGES, langTag } from '../../src/utils/urlLang';
 
 const SITE = 'https://aurenstar.com';
 const RTL = new Set(['ar', 'he', 'fa', 'ur']);
@@ -27,7 +27,7 @@ export const langUrl = (pagePath: string, lang: string) => `${SITE}/${lang}${pag
 export function hreflangLinks(pagePath: string): string {
   const en = `${SITE}${pagePath === '/' ? '/' : pagePath}`;
   const lines = [`<link rel="alternate" hreflang="x-default" href="${en}" />`, `<link rel="alternate" hreflang="en" href="${en}" />`];
-  for (const l of URL_LANGUAGES) lines.push(`<link rel="alternate" hreflang="${l}" href="${langUrl(pagePath, l)}" />`);
+  for (const l of URL_LANGUAGES) lines.push(`<link rel="alternate" hreflang="${langTag(l)}" href="${langUrl(pagePath, l)}" />`);
   return lines.join('\n    ');
 }
 
@@ -64,10 +64,10 @@ export async function localizeHtml(
   // The readable English text in the HTML would not match the page language: the app shows the right language in the browser.
   page = page.replace(/<main data-prerendered[\s\S]*?<\/main>/, '');
   page = page
-    .replace(/<html lang="[^"]*"/, `<html lang="${lang}"${RTL.has(lang) ? ' dir="rtl"' : ''}`)
+    .replace(/<html lang="[^"]*"/, `<html lang="${langTag(lang)}"${RTL.has(lang) ? ' dir="rtl"' : ''}`)
     .replace(/(<link rel="canonical" href=")[^"]*(")/, `$1${here}$2`)
     .replace(/(<meta property="og:url" content=")[^"]*(")/, `$1${here}$2`)
-    .replace(/(<meta property="og:locale" content=")[^"]*(")/, `$1${lang}$2`)
+    .replace(/(<meta property="og:locale" content=")[^"]*(")/, `$1${langTag(lang).replace("-", "_")}$2`)
     .replace('</head>', `    ${hreflangLinks(pagePath)}\n  </head>`);
   return page;
 }
