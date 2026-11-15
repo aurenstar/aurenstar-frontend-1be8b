@@ -55,9 +55,12 @@ export function toQuestion(raw: string): string | null {
   if (!/^(what|why|how|when|which|is|does|do|are|can)\b/i.test(q)) {
     const m = q.match(/^(.*?)\s+meaning(?:\s+astrology)?$/i); // "chiron meaning astrology" -> "What does chiron mean in astrology?"
     if (!m) return null;
-    q = `what does ${m[1]} mean in astrology`;
+    const subject = m[1].trim();
+    if (/\b(and|of|the|for|in|my|your|with|vs)$/i.test(subject)) return null; // "zodiac signs and meaning" is not a clean question
+    const plural = /\b(signs|houses|planets|aspects|elements|transits|nodes|cusps|decans|eclipses|retrogrades|symbols|degrees)$/i.test(subject);
+    q = `what ${plural ? 'do' : 'does'} ${subject} mean in astrology`;
   }
-  if (q.length < 12 || q.length > 80 || BLOCK.test(q) || !ASTRO.test(q)) return null;
+  if (q.length < 12 || q.length > 80 || BLOCK.test(q) || !ASTRO.test(q) || /\b(my|me|i)\b/i.test(q)) return null; // personal queries ("what is my birth chart") belong to the calculators, not the dictionary
   if (/^(how|when|can|do|is|are)\b/i.test(q) && !/^(how does|how do)\b/i.test(q)) return null; // keep "what ..." / "why ..." / "how does ..." style
   return `${q[0].toUpperCase()}${q.slice(1)}?`;
 }
