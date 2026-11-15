@@ -1,0 +1,7279 @@
+{
+ "updated": "2026-11-15",
+ "topics": {
+  "de": [
+   {
+    "lang": "de",
+    "keyword": "aszendent berechnen",
+    "volume": 135000,
+    "reason": "Calculating astrological ascendant sign"
+   },
+   {
+    "lang": "de",
+    "keyword": "berechnung aszendent",
+    "volume": 135000,
+    "reason": "Calculating astrological ascendant sign"
+   },
+   {
+    "lang": "de",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "Vedic astrology related content"
+   },
+   {
+    "lang": "de",
+    "keyword": "sternzeichen löwe",
+    "volume": 74000,
+    "reason": "Zodiac sign Leo"
+   },
+   {
+    "lang": "de",
+    "keyword": "wassermann sternzeichen",
+    "volume": 74000,
+    "reason": "Zodiac sign Aquarius"
+   },
+   {
+    "lang": "de",
+    "keyword": "sternzeichen jungfrau",
+    "volume": 74000,
+    "reason": "Zodiac sign Virgo"
+   },
+   {
+    "lang": "de",
+    "keyword": "zwilling sternzeichen",
+    "volume": 74000,
+    "reason": "Zodiac sign Gemini"
+   },
+   {
+    "lang": "de",
+    "keyword": "steinbock sternzeichen",
+    "volume": 74000,
+    "reason": "Zodiac sign Capricorn"
+   },
+   {
+    "lang": "de",
+    "keyword": "skorpion sternzeichen",
+    "volume": 74000,
+    "reason": "Zodiac sign Scorpio"
+   },
+   {
+    "lang": "de",
+    "keyword": "sternzeichen krebs",
+    "volume": 74000,
+    "reason": "Zodiac sign Cancer"
+   },
+   {
+    "lang": "de",
+    "keyword": "sternzeichen stier",
+    "volume": 74000,
+    "reason": "Zodiac sign Taurus"
+   },
+   {
+    "lang": "de",
+    "keyword": "sternzeichen fisch",
+    "volume": 74000,
+    "reason": "Zodiac sign Pisces"
+   },
+   {
+    "lang": "de",
+    "keyword": "schütze sternzeichen",
+    "volume": 60500,
+    "reason": "Zodiac sign Sagittarius"
+   },
+   {
+    "lang": "de",
+    "keyword": "saturn return",
+    "volume": 49500,
+    "reason": "Astrological term Saturn return"
+   },
+   {
+    "lang": "de",
+    "keyword": "widder sternzeichen",
+    "volume": 49500,
+    "reason": "Zodiac sign Aries"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop skorpion",
+    "volume": 40500,
+    "reason": "Scorpio horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "waage sternzeichen",
+    "volume": 40500,
+    "reason": "Zodiac sign Libra"
+   },
+   {
+    "lang": "de",
+    "keyword": "chinesische sternzeichen",
+    "volume": 40500,
+    "reason": "Chinese zodiac signs"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop krebs heute",
+    "volume": 40500,
+    "reason": "Cancer daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop skorpion heute",
+    "volume": 40500,
+    "reason": "Scorpio daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop fische heute",
+    "volume": 33100,
+    "reason": "Pisces daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "tageshoroskop skorpion",
+    "volume": 33100,
+    "reason": "Scorpio daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop widder heute",
+    "volume": 33100,
+    "reason": "Aries daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop löwe heute",
+    "volume": 33100,
+    "reason": "Leo daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop wassermann heute",
+    "volume": 33100,
+    "reason": "Aquarius daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop zwilling heute",
+    "volume": 33100,
+    "reason": "Gemini daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskope heute wassermann",
+    "volume": 33100,
+    "reason": "Aquarius daily horoscopes"
+   },
+   {
+    "lang": "de",
+    "keyword": "tageshoroskop krebs",
+    "volume": 27100,
+    "reason": "Cancer daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop heute jungfrau",
+    "volume": 27100,
+    "reason": "Virgo daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "waage horoskop heute",
+    "volume": 27100,
+    "reason": "Libra daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop heute steinbock",
+    "volume": 27100,
+    "reason": "Capricorn daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop schütze heute",
+    "volume": 27100,
+    "reason": "Sagittarius daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop heute stier",
+    "volume": 27100,
+    "reason": "Taurus daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskope heute steinbock",
+    "volume": 27100,
+    "reason": "Capricorn daily horoscopes"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop krebs",
+    "volume": 22200,
+    "reason": "Cancer horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop stier",
+    "volume": 22200,
+    "reason": "Taurus horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "tageshoroskop jungfrau",
+    "volume": 22200,
+    "reason": "Virgo daily horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "sternzeichen horoskop",
+    "volume": 22200,
+    "reason": "Zodiac sign horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "horoskop jungfrau",
+    "volume": 18100,
+    "reason": "Virgo horoscope"
+   },
+   {
+    "lang": "de",
+    "keyword": "tageshoroskop löwe",
+    "volume": 18100,
+    "reason": "Leo daily horoscope"
+   }
+  ],
+  "fr": [
+   {
+    "lang": "fr",
+    "keyword": "signes du zodiaque",
+    "volume": 90500,
+    "reason": "Zodiac signs in astrology"
+   },
+   {
+    "lang": "fr",
+    "keyword": "éclipse lunaire",
+    "volume": 90500,
+    "reason": "Lunar eclipse in astrology"
+   },
+   {
+    "lang": "fr",
+    "keyword": "scorpion signe astrologique",
+    "volume": 40500,
+    "reason": "Scorpio astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "scorpion signe astro",
+    "volume": 40500,
+    "reason": "Scorpio astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "verseau signe",
+    "volume": 33100,
+    "reason": "Aquarius sign astrology"
+   },
+   {
+    "lang": "fr",
+    "keyword": "horoscope verseau",
+    "volume": 33100,
+    "reason": "Aquarius horoscope"
+   },
+   {
+    "lang": "fr",
+    "keyword": "balance signe astrologique",
+    "volume": 33100,
+    "reason": "Libra astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "horoscope gemeaux",
+    "volume": 33100,
+    "reason": "Gemini horoscope"
+   },
+   {
+    "lang": "fr",
+    "keyword": "signe du verseau",
+    "volume": 33100,
+    "reason": "Aquarius zodiac sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "horoscope capricorne du jour",
+    "volume": 33100,
+    "reason": "Capricorn daily horoscope"
+   },
+   {
+    "lang": "fr",
+    "keyword": "horoscope gémeaux du jour",
+    "volume": 33100,
+    "reason": "Gemini daily horoscope"
+   },
+   {
+    "lang": "fr",
+    "keyword": "horoscope du verseau",
+    "volume": 33100,
+    "reason": "Aquarius horoscope"
+   },
+   {
+    "lang": "fr",
+    "keyword": "balance signe astro",
+    "volume": 33100,
+    "reason": "Libra astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "horoscope du sagittaire",
+    "volume": 33100,
+    "reason": "Sagittarius horoscope"
+   },
+   {
+    "lang": "fr",
+    "keyword": "scorpion signe",
+    "volume": 27100,
+    "reason": "Scorpio zodiac sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "belier signe astro",
+    "volume": 27100,
+    "reason": "Aries astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "vierge signe astrologique",
+    "volume": 27100,
+    "reason": "Virgo astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "signe taureau",
+    "volume": 27100,
+    "reason": "Taurus zodiac sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "horoscope du jour verseau",
+    "volume": 27100,
+    "reason": "Aquarius daily horoscope"
+   },
+   {
+    "lang": "fr",
+    "keyword": "verseau signe astrologique",
+    "volume": 27100,
+    "reason": "Aquarius astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "gémeaux signe",
+    "volume": 27100,
+    "reason": "Gemini sign astrology"
+   },
+   {
+    "lang": "fr",
+    "keyword": "signe du scorpion",
+    "volume": 27100,
+    "reason": "Scorpio zodiac sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "bélier signe astrologique",
+    "volume": 27100,
+    "reason": "Aries astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "gémeaux signe astrologique",
+    "volume": 27100,
+    "reason": "Gemini astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "signe du gemeaux",
+    "volume": 27100,
+    "reason": "Gemini zodiac sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "vierge signe astro",
+    "volume": 27100,
+    "reason": "Virgo astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "verseau signe astro",
+    "volume": 27100,
+    "reason": "Aquarius astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "ascendant astrologique",
+    "volume": 22200,
+    "reason": "Astrological ascendant"
+   },
+   {
+    "lang": "fr",
+    "keyword": "signe lunaire",
+    "volume": 18100,
+    "reason": "Lunar sign astrology"
+   },
+   {
+    "lang": "fr",
+    "keyword": "sagittaire signe",
+    "volume": 18100,
+    "reason": "Sagittarius zodiac sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "lion signe astro",
+    "volume": 18100,
+    "reason": "Leo astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "lion signe astrologique",
+    "volume": 18100,
+    "reason": "Leo astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "signe du sagittaire",
+    "volume": 18100,
+    "reason": "Sagittarius zodiac sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "signes du zodiaque dates",
+    "volume": 18100,
+    "reason": "Zodiac signs with dates"
+   },
+   {
+    "lang": "fr",
+    "keyword": "poissons signe",
+    "volume": 18100,
+    "reason": "Pisces zodiac sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "signe balance",
+    "volume": 14800,
+    "reason": "Libra zodiac sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "capricorne signe astrologique",
+    "volume": 14800,
+    "reason": "Capricorn astrology sign"
+   },
+   {
+    "lang": "fr",
+    "keyword": "taureau signe astrologique",
+    "volume": 14800,
+    "reason": "Taurus astrology sign"
+   }
+  ],
+  "it": [
+   {
+    "lang": "it",
+    "keyword": "mercurio retrogrado",
+    "volume": 201000,
+    "reason": "Mercury retrograde in astrology"
+   },
+   {
+    "lang": "it",
+    "keyword": "ascendente come calcolarlo",
+    "volume": 201000,
+    "reason": "Calculate astrological ascendant"
+   },
+   {
+    "lang": "it",
+    "keyword": "segni zodiacali",
+    "volume": 110000,
+    "reason": "Zodiac signs"
+   },
+   {
+    "lang": "it",
+    "keyword": "cancro oggi oroscopo",
+    "volume": 49500,
+    "reason": "Cancer daily horoscope"
+   },
+   {
+    "lang": "it",
+    "keyword": "oroscopo toro oggi",
+    "volume": 40500,
+    "reason": "Taurus horoscope today"
+   },
+   {
+    "lang": "it",
+    "keyword": "bilancia oroscopo oggi",
+    "volume": 40500,
+    "reason": "Libra horoscope today"
+   },
+   {
+    "lang": "it",
+    "keyword": "capricorno oggi oroscopo",
+    "volume": 40500,
+    "reason": "Capricorn daily horoscope"
+   },
+   {
+    "lang": "it",
+    "keyword": "capricorno oroscopo di oggi",
+    "volume": 40500,
+    "reason": "Capricorn horoscope today"
+   },
+   {
+    "lang": "it",
+    "keyword": "tema natale",
+    "volume": 33100,
+    "reason": "Natal birth chart astrology"
+   },
+   {
+    "lang": "it",
+    "keyword": "date dei segni zodiacali",
+    "volume": 33100,
+    "reason": "Zodiac sign dates"
+   },
+   {
+    "lang": "it",
+    "keyword": "date e segni zodiacali",
+    "volume": 33100,
+    "reason": "Dates and zodiac signs"
+   },
+   {
+    "lang": "it",
+    "keyword": "date segni zodiacali",
+    "volume": 33100,
+    "reason": "Zodiac signs dates"
+   },
+   {
+    "lang": "it",
+    "keyword": "oroscopo pesci",
+    "volume": 27100,
+    "reason": "Pisces horoscope"
+   },
+   {
+    "lang": "it",
+    "keyword": "ariete oggi oroscopo",
+    "volume": 27100,
+    "reason": "Aries daily horoscope"
+   },
+   {
+    "lang": "it",
+    "keyword": "ariete oroscopo di oggi",
+    "volume": 27100,
+    "reason": "Aries horoscope today"
+   },
+   {
+    "lang": "it",
+    "keyword": "capricorno oroscopo",
+    "volume": 27100,
+    "reason": "Capricorn horoscope"
+   },
+   {
+    "lang": "it",
+    "keyword": "gemelli oroscopo",
+    "volume": 27100,
+    "reason": "Gemini horoscope"
+   },
+   {
+    "lang": "it",
+    "keyword": "oroscopo ariete",
+    "volume": 18100,
+    "reason": "Aries horoscope"
+   },
+   {
+    "lang": "it",
+    "keyword": "acquario domani oroscopo",
+    "volume": 18100,
+    "reason": "Aquarius horoscope tomorrow"
+   },
+   {
+    "lang": "it",
+    "keyword": "acquario segni zodiacali",
+    "volume": 18100,
+    "reason": "Aquarius zodiac signs"
+   },
+   {
+    "lang": "it",
+    "keyword": "acquario segno zodiacale",
+    "volume": 18100,
+    "reason": "Aquarius zodiac sign"
+   },
+   {
+    "lang": "it",
+    "keyword": "astro seek tema natale",
+    "volume": 18100,
+    "reason": "Astro Seek birth chart tool"
+   },
+   {
+    "lang": "it",
+    "keyword": "bilancia segni",
+    "volume": 18100,
+    "reason": "Libra zodiac signs"
+   },
+   {
+    "lang": "it",
+    "keyword": "cancro oroscopo di domani",
+    "volume": 18100,
+    "reason": "Cancer horoscope tomorrow"
+   },
+   {
+    "lang": "it",
+    "keyword": "capricorno segno",
+    "volume": 18100,
+    "reason": "Capricorn zodiac sign"
+   },
+   {
+    "lang": "it",
+    "keyword": "ariete segno",
+    "volume": 14800,
+    "reason": "Aries zodiac sign"
+   },
+   {
+    "lang": "it",
+    "keyword": "acquario segno",
+    "volume": 14800,
+    "reason": "Aquarius zodiac sign"
+   },
+   {
+    "lang": "it",
+    "keyword": "cancro segni zodiacali",
+    "volume": 14800,
+    "reason": "Cancer zodiac signs"
+   },
+   {
+    "lang": "it",
+    "keyword": "cancro segno",
+    "volume": 14800,
+    "reason": "Cancer zodiac sign"
+   },
+   {
+    "lang": "it",
+    "keyword": "cancro segno zodiacale",
+    "volume": 14800,
+    "reason": "Cancer zodiac sign"
+   },
+   {
+    "lang": "it",
+    "keyword": "capricorno oroscopo di domani",
+    "volume": 14800,
+    "reason": "Capricorn horoscope tomorrow"
+   },
+   {
+    "lang": "it",
+    "keyword": "capricorno oroscopo domani",
+    "volume": 14800,
+    "reason": "Capricorn horoscope tomorrow"
+   },
+   {
+    "lang": "it",
+    "keyword": "gemelli domani oroscopo",
+    "volume": 14800,
+    "reason": "Gemini horoscope tomorrow"
+   },
+   {
+    "lang": "it",
+    "keyword": "gemelli segni",
+    "volume": 14800,
+    "reason": "Gemini zodiac signs"
+   },
+   {
+    "lang": "it",
+    "keyword": "gemelli segni zodiacali",
+    "volume": 14800,
+    "reason": "Gemini zodiac signs"
+   },
+   {
+    "lang": "it",
+    "keyword": "gemelli segno",
+    "volume": 14800,
+    "reason": "Gemini zodiac sign"
+   },
+   {
+    "lang": "it",
+    "keyword": "gemelli segno zodiacale",
+    "volume": 14800,
+    "reason": "Gemini zodiac sign"
+   },
+   {
+    "lang": "it",
+    "keyword": "ariete oroscopo di domani",
+    "volume": 12100,
+    "reason": "Aries horoscope tomorrow"
+   },
+   {
+    "lang": "it",
+    "keyword": "ariete oroscopo domani",
+    "volume": 12100,
+    "reason": "Aries horoscope tomorrow"
+   }
+  ],
+  "nl": [
+   {
+    "lang": "nl",
+    "keyword": "lunar eclipse",
+    "volume": 823000,
+    "reason": "Lunar eclipse in astrology context"
+   },
+   {
+    "lang": "nl",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "Vedic astrology system"
+   },
+   {
+    "lang": "nl",
+    "keyword": "schorpioen sterrenbeeld",
+    "volume": 18100,
+    "reason": "Scorpio zodiac sign"
+   },
+   {
+    "lang": "nl",
+    "keyword": "boogschutter sterrenbeeld",
+    "volume": 14800,
+    "reason": "Sagittarius zodiac sign"
+   },
+   {
+    "lang": "nl",
+    "keyword": "jupiter venus",
+    "volume": 14800,
+    "reason": "Planets Jupiter and Venus astrology"
+   },
+   {
+    "lang": "nl",
+    "keyword": "dag horoscoop kreeft",
+    "volume": 12100,
+    "reason": "Daily horoscope Cancer"
+   },
+   {
+    "lang": "nl",
+    "keyword": "dag horoscoop stier",
+    "volume": 12100,
+    "reason": "Daily horoscope Taurus"
+   },
+   {
+    "lang": "nl",
+    "keyword": "jupiter saturnus",
+    "volume": 12100,
+    "reason": "Jupiter and Saturn planets astrology"
+   },
+   {
+    "lang": "nl",
+    "keyword": "horoscoop kreeft",
+    "volume": 9900,
+    "reason": "Horoscope Cancer sign"
+   },
+   {
+    "lang": "nl",
+    "keyword": "dag horoscoop maagd",
+    "volume": 9900,
+    "reason": "Daily horoscope Virgo"
+   },
+   {
+    "lang": "nl",
+    "keyword": "dag horoscoop schorpioen",
+    "volume": 9900,
+    "reason": "Daily horoscope Scorpio"
+   },
+   {
+    "lang": "nl",
+    "keyword": "dag horoscoop steenbok",
+    "volume": 9900,
+    "reason": "Daily horoscope Capricorn"
+   },
+   {
+    "lang": "nl",
+    "keyword": "dag horoscoop boogschutter",
+    "volume": 8100,
+    "reason": "Daily horoscope Sagittarius"
+   },
+   {
+    "lang": "nl",
+    "keyword": "dag horoscoop leeuw",
+    "volume": 8100,
+    "reason": "Daily horoscope Leo"
+   },
+   {
+    "lang": "nl",
+    "keyword": "horoscoop vandaag waterman",
+    "volume": 6600,
+    "reason": "Horoscope Aquarius today"
+   },
+   {
+    "lang": "nl",
+    "keyword": "ascendant bereken",
+    "volume": 6600,
+    "reason": "Calculate ascendant in astrology"
+   },
+   {
+    "lang": "nl",
+    "keyword": "dag horoscoop tweeling",
+    "volume": 6600,
+    "reason": "Daily horoscope Gemini"
+   },
+   {
+    "lang": "nl",
+    "keyword": "pluto in schorpioen",
+    "volume": 5400,
+    "reason": "Pluto in Scorpio astrology"
+   },
+   {
+    "lang": "nl",
+    "keyword": "boogschutter horoscoop vandaag",
+    "volume": 4400,
+    "reason": "Sagittarius horoscope today"
+   },
+   {
+    "lang": "nl",
+    "keyword": "boogschutter horoscoop",
+    "volume": 3600,
+    "reason": "Sagittarius horoscope"
+   }
+  ],
+  "ja": [
+   {
+    "lang": "ja",
+    "keyword": "冥王星 占星術",
+    "volume": 720,
+    "reason": "Pluto in astrology context"
+   },
+   {
+    "lang": "ja",
+    "keyword": "アスペクト 占星術",
+    "volume": 480,
+    "reason": "Aspect in astrology"
+   },
+   {
+    "lang": "ja",
+    "keyword": "ハウス 占星術",
+    "volume": 390,
+    "reason": "House in astrology"
+   },
+   {
+    "lang": "ja",
+    "keyword": "トライン 5",
+    "volume": 390,
+    "reason": "Trine aspect, astrology term"
+   },
+   {
+    "lang": "ja",
+    "keyword": "天王星 占星術",
+    "volume": 210,
+    "reason": "Uranus in astrology"
+   },
+   {
+    "lang": "ja",
+    "keyword": "トランジット 占星術",
+    "volume": 170,
+    "reason": "Transit in astrology"
+   },
+   {
+    "lang": "ja",
+    "keyword": "木星 占星術",
+    "volume": 170,
+    "reason": "Jupiter in astrology"
+   },
+   {
+    "lang": "ja",
+    "keyword": "土星 占星術",
+    "volume": 170,
+    "reason": "Saturn in astrology"
+   },
+   {
+    "lang": "ja",
+    "keyword": "海王星 占星術",
+    "volume": 170,
+    "reason": "Neptune in astrology"
+   },
+   {
+    "lang": "ja",
+    "keyword": "mc 占星術",
+    "volume": 140,
+    "reason": "MC (Midheaven) astrology term"
+   },
+   {
+    "lang": "ja",
+    "keyword": "金星 占星術",
+    "volume": 140,
+    "reason": "Venus in astrology"
+   },
+   {
+    "lang": "ja",
+    "keyword": "キロン 占星術",
+    "volume": 110,
+    "reason": "Chiron in astrology"
+   },
+   {
+    "lang": "ja",
+    "keyword": "火星 占星術",
+    "volume": 110,
+    "reason": "Mars in astrology"
+   },
+   {
+    "lang": "ja",
+    "keyword": "オポジション ホロスコープ",
+    "volume": 110,
+    "reason": "Opposition in horoscope astrology"
+   }
+  ],
+  "ko": [
+   {
+    "lang": "ko",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "Pisces zodiac symbol"
+   },
+   {
+    "lang": "ko",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "Aries zodiac symbol"
+   },
+   {
+    "lang": "ko",
+    "keyword": "libra simbol",
+    "volume": 22200,
+    "reason": "Libra zodiac symbol"
+   },
+   {
+    "lang": "ko",
+    "keyword": "mars astrology",
+    "volume": 6600,
+    "reason": "Mars in astrology"
+   },
+   {
+    "lang": "ko",
+    "keyword": "saturn astrology",
+    "volume": 6600,
+    "reason": "Saturn in astrology"
+   },
+   {
+    "lang": "ko",
+    "keyword": "uranus astrology",
+    "volume": 5400,
+    "reason": "Uranus in astrology"
+   },
+   {
+    "lang": "ko",
+    "keyword": "pluto astrology",
+    "volume": 3600,
+    "reason": "Pluto in astrology"
+   },
+   {
+    "lang": "ko",
+    "keyword": "jupiter astrology",
+    "volume": 2900,
+    "reason": "Jupiter in astrology"
+   },
+   {
+    "lang": "ko",
+    "keyword": "별자리 종류",
+    "volume": 2400,
+    "reason": "Types of zodiac signs"
+   },
+   {
+    "lang": "ko",
+    "keyword": "horoscopo libra dinero hoy",
+    "volume": 2400,
+    "reason": "Libra money horoscope today"
+   },
+   {
+    "lang": "ko",
+    "keyword": "neptune astrology",
+    "volume": 1900,
+    "reason": "Neptune in astrology"
+   },
+   {
+    "lang": "ko",
+    "keyword": "12 월 별자리",
+    "volume": 1600,
+    "reason": "December zodiac signs"
+   },
+   {
+    "lang": "ko",
+    "keyword": "겨울 별자리",
+    "volume": 1600,
+    "reason": "Winter zodiac signs"
+   },
+   {
+    "lang": "ko",
+    "keyword": "capricorn la cung gi",
+    "volume": 1600,
+    "reason": "Capricorn zodiac meaning"
+   },
+   {
+    "lang": "ko",
+    "keyword": "virgo la cung gi",
+    "volume": 1600,
+    "reason": "Virgo zodiac meaning"
+   },
+   {
+    "lang": "ko",
+    "keyword": "1 월 별자리",
+    "volume": 1300,
+    "reason": "January zodiac signs"
+   },
+   {
+    "lang": "ko",
+    "keyword": "카시오페아 별자리",
+    "volume": 1300,
+    "reason": "Cassiopeia constellation"
+   },
+   {
+    "lang": "ko",
+    "keyword": "10 월 별자리",
+    "volume": 1000,
+    "reason": "October zodiac signs"
+   },
+   {
+    "lang": "ko",
+    "keyword": "2 월 별자리",
+    "volume": 880,
+    "reason": "February zodiac signs"
+   },
+   {
+    "lang": "ko",
+    "keyword": "6 월 별자리",
+    "volume": 880,
+    "reason": "June zodiac signs"
+   },
+   {
+    "lang": "ko",
+    "keyword": "8 월 별자리",
+    "volume": 880,
+    "reason": "August zodiac signs"
+   },
+   {
+    "lang": "ko",
+    "keyword": "9 월 별자리",
+    "volume": 880,
+    "reason": "September zodiac signs"
+   },
+   {
+    "lang": "ko",
+    "keyword": "계절별 별자리",
+    "volume": 880,
+    "reason": "Zodiac signs by season"
+   },
+   {
+    "lang": "ko",
+    "keyword": "가을 별자리",
+    "volume": 720,
+    "reason": "Autumn zodiac signs"
+   },
+   {
+    "lang": "ko",
+    "keyword": "여름 별자리",
+    "volume": 720,
+    "reason": "Summer zodiac signs"
+   },
+   {
+    "lang": "ko",
+    "keyword": "horoscope gratuit du capricorne",
+    "volume": 720,
+    "reason": "Capricorn free horoscope"
+   },
+   {
+    "lang": "ko",
+    "keyword": "sagittarius 星座",
+    "volume": 720,
+    "reason": "Sagittarius zodiac sign"
+   },
+   {
+    "lang": "ko",
+    "keyword": "봄 별자리",
+    "volume": 590,
+    "reason": "Spring zodiac signs"
+   },
+   {
+    "lang": "ko",
+    "keyword": "오리온 별자리",
+    "volume": 590,
+    "reason": "Orion constellation"
+   },
+   {
+    "lang": "ko",
+    "keyword": "horoscopo de libra para manana",
+    "volume": 590,
+    "reason": "Libra horoscope for tomorrow"
+   }
+  ],
+  "zh": [
+   {
+    "lang": "zh",
+    "keyword": "lunar eclipse",
+    "volume": 823000,
+    "reason": "lunar eclipse relates to astrology"
+   },
+   {
+    "lang": "zh",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "vedic astrology term"
+   },
+   {
+    "lang": "zh",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "pisces symbol zodiac sign"
+   },
+   {
+    "lang": "zh",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "aries symbol zodiac sign"
+   },
+   {
+    "lang": "zh",
+    "keyword": "virgo 星座",
+    "volume": 1900,
+    "reason": "virgo zodiac sign"
+   },
+   {
+    "lang": "zh",
+    "keyword": "capricorn la cung gi",
+    "volume": 1600,
+    "reason": "capricorn zodiac term"
+   },
+   {
+    "lang": "zh",
+    "keyword": "capricorn 星座",
+    "volume": 1300,
+    "reason": "capricorn zodiac sign"
+   },
+   {
+    "lang": "zh",
+    "keyword": "sidereal zodiac",
+    "volume": 1000,
+    "reason": "sidereal zodiac astrology"
+   },
+   {
+    "lang": "zh",
+    "keyword": "aries horoscopo de hoy en el amor",
+    "volume": 880,
+    "reason": "aries daily love horoscope"
+   },
+   {
+    "lang": "zh",
+    "keyword": "sagittarius 星座",
+    "volume": 720,
+    "reason": "sagittarius zodiac sign"
+   },
+   {
+    "lang": "zh",
+    "keyword": "scorpio 星座",
+    "volume": 720,
+    "reason": "scorpio zodiac sign"
+   },
+   {
+    "lang": "zh",
+    "keyword": "horoscope gratuit du capricorne",
+    "volume": 720,
+    "reason": "capricorn free horoscope"
+   },
+   {
+    "lang": "zh",
+    "keyword": "aries horoscopo de hoy",
+    "volume": 590,
+    "reason": "aries daily horoscope"
+   },
+   {
+    "lang": "zh",
+    "keyword": "aries x libra",
+    "volume": 320,
+    "reason": "aries and libra zodiac signs"
+   },
+   {
+    "lang": "zh",
+    "keyword": "horoscop de azi capricorn",
+    "volume": 260,
+    "reason": "capricorn horoscope today"
+   },
+   {
+    "lang": "zh",
+    "keyword": "aries horoscope today bengali",
+    "volume": 210,
+    "reason": "aries horoscope in Bengali"
+   },
+   {
+    "lang": "zh",
+    "keyword": "scorpion capricorn compatibilitate",
+    "volume": 210,
+    "reason": "scorpio capricorn compatibility"
+   },
+   {
+    "lang": "zh",
+    "keyword": "horoscope du jour capricorne idealvoyance",
+    "volume": 170,
+    "reason": "capricorn daily horoscope"
+   }
+  ],
+  "ru": [
+   {
+    "lang": "ru",
+    "keyword": "натальная карта",
+    "volume": 450000,
+    "reason": "Birth chart astrology term"
+   },
+   {
+    "lang": "ru",
+    "keyword": "знаки зодиака",
+    "volume": 368000,
+    "reason": "Zodiac signs astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "натальная карта онлайн",
+    "volume": 246000,
+    "reason": "Online birth chart astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "знаки зодиака по месяцам",
+    "volume": 60500,
+    "reason": "Zodiac signs by months astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "ретроградный меркурий",
+    "volume": 49500,
+    "reason": "Mercury retrograde astrology term"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп близнецы",
+    "volume": 49500,
+    "reason": "Gemini horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп телец",
+    "volume": 49500,
+    "reason": "Taurus horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп дева",
+    "volume": 40500,
+    "reason": "Virgo horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "скорпион знак зодиака",
+    "volume": 40500,
+    "reason": "Scorpio zodiac sign astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп рыбы",
+    "volume": 40500,
+    "reason": "Pisces horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "весы знак зодиака",
+    "volume": 40500,
+    "reason": "Libra zodiac sign astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп весы",
+    "volume": 40500,
+    "reason": "Libra horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп весы на сегодня",
+    "volume": 40500,
+    "reason": "Libra daily horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп на сегодня близнецы",
+    "volume": 40500,
+    "reason": "Gemini daily horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "знаки зодиака даты",
+    "volume": 33100,
+    "reason": "Zodiac sign date ranges astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "натальная карта рассчитать",
+    "volume": 33100,
+    "reason": "Calculate birth chart astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп дева на сегодня",
+    "volume": 33100,
+    "reason": "Virgo daily horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "дева знак зодиака",
+    "volume": 33100,
+    "reason": "Virgo zodiac sign astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "знаки зодиака по датам",
+    "volume": 33100,
+    "reason": "Zodiac signs by dates astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп овен",
+    "volume": 33100,
+    "reason": "Aries horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "скорпион даты",
+    "volume": 33100,
+    "reason": "Scorpio zodiac date ranges astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп скорпион",
+    "volume": 33100,
+    "reason": "Scorpio horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "козерог даты",
+    "volume": 33100,
+    "reason": "Capricorn zodiac dates astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп рыбы на сегодня",
+    "volume": 33100,
+    "reason": "Pisces daily horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп овен на сегодня",
+    "volume": 33100,
+    "reason": "Aries daily horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп козерог",
+    "volume": 27100,
+    "reason": "Capricorn horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "овен даты",
+    "volume": 27100,
+    "reason": "Aries zodiac dates astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп на сегодня скорпион",
+    "volume": 27100,
+    "reason": "Scorpio daily horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "телец даты",
+    "volume": 27100,
+    "reason": "Taurus zodiac dates astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп на сегодня козерог",
+    "volume": 27100,
+    "reason": "Capricorn daily horoscope astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "близнецы знак зодиака",
+    "volume": 27100,
+    "reason": "Gemini zodiac sign astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп козерога на сегодня",
+    "volume": 27100,
+    "reason": "Capricorn horoscope today astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "овен знак зодиака",
+    "volume": 22200,
+    "reason": "Aries zodiac sign astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "телец знак зодиака",
+    "volume": 22200,
+    "reason": "Taurus zodiac sign astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "лунное затмение",
+    "volume": 22200,
+    "reason": "Lunar eclipse astrology relevance"
+   },
+   {
+    "lang": "ru",
+    "keyword": "козерог знак зодиака",
+    "volume": 18100,
+    "reason": "Capricorn zodiac sign astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп дева на завтра",
+    "volume": 14800,
+    "reason": "Virgo horoscope for tomorrow astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "синастрия онлайн",
+    "volume": 14800,
+    "reason": "Sinastry astrology online"
+   },
+   {
+    "lang": "ru",
+    "keyword": "геокульт натальная карта",
+    "volume": 14800,
+    "reason": "Geocult birth chart astrology"
+   },
+   {
+    "lang": "ru",
+    "keyword": "гороскоп овен на завтра",
+    "volume": 14800,
+    "reason": "Aries horoscope tomorrow astrology"
+   }
+  ],
+  "tr": [
+   {
+    "lang": "tr",
+    "keyword": "doğum haritası",
+    "volume": 246000,
+    "reason": "birth chart in astrology"
+   },
+   {
+    "lang": "tr",
+    "keyword": "yükselen burç hesaplama",
+    "volume": 246000,
+    "reason": "calculate ascendant sign"
+   },
+   {
+    "lang": "tr",
+    "keyword": "yükselen burcu hesaplama",
+    "volume": 246000,
+    "reason": "calculate ascendant sign"
+   },
+   {
+    "lang": "tr",
+    "keyword": "yükselen burcu hesapla",
+    "volume": 246000,
+    "reason": "calculate ascendant sign"
+   },
+   {
+    "lang": "tr",
+    "keyword": "doğum haritası hesaplama",
+    "volume": 165000,
+    "reason": "calculate birth chart"
+   },
+   {
+    "lang": "tr",
+    "keyword": "kova burcu özellikleri",
+    "volume": 74000,
+    "reason": "zodiac sign characteristics"
+   },
+   {
+    "lang": "tr",
+    "keyword": "akrep burcu özellikleri",
+    "volume": 74000,
+    "reason": "zodiac sign characteristics"
+   },
+   {
+    "lang": "tr",
+    "keyword": "ay burcu hesaplama",
+    "volume": 74000,
+    "reason": "calculate moon sign"
+   },
+   {
+    "lang": "tr",
+    "keyword": "oğlak burcu özellikleri",
+    "volume": 74000,
+    "reason": "zodiac sign characteristics"
+   },
+   {
+    "lang": "tr",
+    "keyword": "ikizler burcu özellikleri",
+    "volume": 74000,
+    "reason": "zodiac sign characteristics"
+   },
+   {
+    "lang": "tr",
+    "keyword": "yengeç burcu özellikleri",
+    "volume": 74000,
+    "reason": "zodiac sign characteristics"
+   },
+   {
+    "lang": "tr",
+    "keyword": "aslan burcu özellikleri",
+    "volume": 74000,
+    "reason": "zodiac sign characteristics"
+   },
+   {
+    "lang": "tr",
+    "keyword": "terazi burcu özellikleri",
+    "volume": 74000,
+    "reason": "zodiac sign characteristics"
+   },
+   {
+    "lang": "tr",
+    "keyword": "burçların tarihleri",
+    "volume": 74000,
+    "reason": "dates of zodiac signs"
+   },
+   {
+    "lang": "tr",
+    "keyword": "burçlar tarihleri",
+    "volume": 74000,
+    "reason": "dates of zodiac signs"
+   },
+   {
+    "lang": "tr",
+    "keyword": "boğa burcu özellikleri",
+    "volume": 60500,
+    "reason": "zodiac sign characteristics"
+   },
+   {
+    "lang": "tr",
+    "keyword": "koç burcu özellikleri",
+    "volume": 60500,
+    "reason": "zodiac sign characteristics"
+   },
+   {
+    "lang": "tr",
+    "keyword": "yay burcu özellikleri",
+    "volume": 60500,
+    "reason": "zodiac sign characteristics"
+   },
+   {
+    "lang": "tr",
+    "keyword": "başak burcu özellikleri",
+    "volume": 60500,
+    "reason": "zodiac sign characteristics"
+   },
+   {
+    "lang": "tr",
+    "keyword": "balık burcu özellikleri",
+    "volume": 49500,
+    "reason": "zodiac sign characteristics"
+   },
+   {
+    "lang": "tr",
+    "keyword": "başak burcu",
+    "volume": 40500,
+    "reason": "zodiac sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "boğa burcu",
+    "volume": 40500,
+    "reason": "zodiac sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "yengeç burcu",
+    "volume": 40500,
+    "reason": "zodiac sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "oğlak burcu",
+    "volume": 40500,
+    "reason": "zodiac sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "yükselen burç",
+    "volume": 33100,
+    "reason": "ascendant sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "koç burcu",
+    "volume": 33100,
+    "reason": "zodiac sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "aslan burcu",
+    "volume": 33100,
+    "reason": "zodiac sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "ikizler burcu",
+    "volume": 33100,
+    "reason": "zodiac sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "terazi burcu",
+    "volume": 33100,
+    "reason": "zodiac sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "kova burcu",
+    "volume": 33100,
+    "reason": "zodiac sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "balık burcu",
+    "volume": 33100,
+    "reason": "zodiac sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "akrep burcu",
+    "volume": 33100,
+    "reason": "zodiac sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "yükselen burcu",
+    "volume": 33100,
+    "reason": "ascendant sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "hassas terazi",
+    "volume": 33100,
+    "reason": "zodiac personality trait"
+   },
+   {
+    "lang": "tr",
+    "keyword": "yay burcu",
+    "volume": 27100,
+    "reason": "zodiac sign mention"
+   },
+   {
+    "lang": "tr",
+    "keyword": "burçlar ve tarihleri",
+    "volume": 27100,
+    "reason": "zodiac signs and dates"
+   },
+   {
+    "lang": "tr",
+    "keyword": "venüs burcu hesaplama",
+    "volume": 18100,
+    "reason": "calculate Venus sign"
+   },
+   {
+    "lang": "tr",
+    "keyword": "akrep erkeği özellikleri",
+    "volume": 14800,
+    "reason": "zodiac man personality"
+   }
+  ],
+  "pl": [
+   {
+    "lang": "pl",
+    "keyword": "znaki zodiaku",
+    "volume": 135000,
+    "reason": "zodiac signs topic"
+   },
+   {
+    "lang": "pl",
+    "keyword": "calcule ascendent",
+    "volume": 90500,
+    "reason": "calculate ascendant astrology"
+   },
+   {
+    "lang": "pl",
+    "keyword": "skorpion znak zodiaku",
+    "volume": 27100,
+    "reason": "Scorpio zodiac sign"
+   },
+   {
+    "lang": "pl",
+    "keyword": "ascendent astrologie",
+    "volume": 22200,
+    "reason": "ascendant astrology"
+   },
+   {
+    "lang": "pl",
+    "keyword": "zaćmienie księżyca",
+    "volume": 22200,
+    "reason": "moon eclipse astrology"
+   },
+   {
+    "lang": "pl",
+    "keyword": "chińskie znaki zodiaku",
+    "volume": 18100,
+    "reason": "Chinese zodiac signs"
+   },
+   {
+    "lang": "pl",
+    "keyword": "wodnik znak zodiaku",
+    "volume": 18100,
+    "reason": "Aquarius zodiac sign"
+   },
+   {
+    "lang": "pl",
+    "keyword": "baran znak zodiaku",
+    "volume": 18100,
+    "reason": "Aries zodiac sign"
+   },
+   {
+    "lang": "pl",
+    "keyword": "baran znaki zodiaku",
+    "volume": 18100,
+    "reason": "Aries zodiac signs"
+   },
+   {
+    "lang": "pl",
+    "keyword": "byk znaki zodiaku",
+    "volume": 18100,
+    "reason": "Taurus zodiac signs"
+   },
+   {
+    "lang": "pl",
+    "keyword": "baran znak z odiaku",
+    "volume": 18100,
+    "reason": "Aries zodiac sign misspelled"
+   },
+   {
+    "lang": "pl",
+    "keyword": "rak znak zodiaku",
+    "volume": 14800,
+    "reason": "Cancer zodiac sign"
+   },
+   {
+    "lang": "pl",
+    "keyword": "bliźnieta znak zodiaku",
+    "volume": 14800,
+    "reason": "Gemini zodiac sign"
+   },
+   {
+    "lang": "pl",
+    "keyword": "horoskopy wodnik",
+    "volume": 12100,
+    "reason": "Aquarius horoscopes"
+   },
+   {
+    "lang": "pl",
+    "keyword": "horoskop urodzeniowy",
+    "volume": 4400,
+    "reason": "birth horoscope astrology"
+   },
+   {
+    "lang": "pl",
+    "keyword": "baran horoskopy",
+    "volume": 2900,
+    "reason": "Aries horoscopes"
+   },
+   {
+    "lang": "pl",
+    "keyword": "venus astrologia",
+    "volume": 2400,
+    "reason": "Venus in astrology"
+   },
+   {
+    "lang": "pl",
+    "keyword": "astrologia wedyjska",
+    "volume": 2400,
+    "reason": "Vedic astrology"
+   },
+   {
+    "lang": "pl",
+    "keyword": "ascendent oblicz",
+    "volume": 1600,
+    "reason": "calculate ascendant astrology"
+   },
+   {
+    "lang": "pl",
+    "keyword": "bliźnięta znak",
+    "volume": 1600,
+    "reason": "Gemini zodiac sign"
+   },
+   {
+    "lang": "pl",
+    "keyword": "calculeaza ascendentul fara ora nasterii",
+    "volume": 1600,
+    "reason": "ascendant calculation no birthtime"
+   },
+   {
+    "lang": "pl",
+    "keyword": "bliźniaki znak",
+    "volume": 1600,
+    "reason": "Gemini zodiac sign"
+   },
+   {
+    "lang": "pl",
+    "keyword": "baran znak zodiaku po angielsku",
+    "volume": 1300,
+    "reason": "Aries zodiac English"
+   },
+   {
+    "lang": "pl",
+    "keyword": "dopasowane znaki zodiaku",
+    "volume": 1300,
+    "reason": "zodiac sign compatibility"
+   },
+   {
+    "lang": "pl",
+    "keyword": "ascendent co to",
+    "volume": 1000,
+    "reason": "what is ascendant astrology"
+   },
+   {
+    "lang": "pl",
+    "keyword": "7 dom",
+    "volume": 1000,
+    "reason": "7th house astrology"
+   }
+  ],
+  "ar": [
+   {
+    "lang": "ar",
+    "keyword": "برج العقرب",
+    "volume": 165000,
+    "reason": "Scorpio zodiac sign"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الحوت",
+    "volume": 165000,
+    "reason": "Pisces zodiac sign"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الجدي",
+    "volume": 165000,
+    "reason": "Capricorn zodiac sign"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الحمل",
+    "volume": 135000,
+    "reason": "Aries zodiac sign"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الأسد",
+    "volume": 135000,
+    "reason": "Leo zodiac sign"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الميزان",
+    "volume": 135000,
+    "reason": "Libra zodiac sign"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج القوس",
+    "volume": 135000,
+    "reason": "Sagittarius zodiac sign"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الدلو",
+    "volume": 135000,
+    "reason": "Aquarius zodiac sign"
+   },
+   {
+    "lang": "ar",
+    "keyword": "الخريطة الفلكية",
+    "volume": 110000,
+    "reason": "Birth chart astrology"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الثور",
+    "volume": 110000,
+    "reason": "Taurus zodiac sign"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الجوزاء",
+    "volume": 110000,
+    "reason": "Gemini zodiac sign"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج السرطان",
+    "volume": 110000,
+    "reason": "Cancer zodiac sign"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الجدي اليوم",
+    "volume": 90500,
+    "reason": "Capricorn daily horoscope"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الحوت اليوم",
+    "volume": 74000,
+    "reason": "Pisces daily horoscope"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الحمل اليوم",
+    "volume": 74000,
+    "reason": "Aries daily horoscope"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج العقرب اليوم",
+    "volume": 74000,
+    "reason": "Scorpio daily horoscope"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الميزان اليوم",
+    "volume": 74000,
+    "reason": "Libra daily horoscope"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الجوزاء اليوم",
+    "volume": 60500,
+    "reason": "Gemini daily horoscope"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج السرطان اليوم",
+    "volume": 60500,
+    "reason": "Cancer daily horoscope"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج القوس اليوم",
+    "volume": 60500,
+    "reason": "Sagittarius daily horoscope"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الثور اليوم",
+    "volume": 60500,
+    "reason": "Taurus daily horoscope"
+   },
+   {
+    "lang": "ar",
+    "keyword": "برج الدلو اليوم",
+    "volume": 60500,
+    "reason": "Aquarius daily horoscope"
+   },
+   {
+    "lang": "ar",
+    "keyword": "خسوف القمر",
+    "volume": 60500,
+    "reason": "Lunar eclipse astrology event"
+   },
+   {
+    "lang": "ar",
+    "keyword": "الخريطة الفلكية astrology",
+    "volume": 27100,
+    "reason": "Birth chart astrology explicitly"
+   },
+   {
+    "lang": "ar",
+    "keyword": "صفات برج العقرب",
+    "volume": 22200,
+    "reason": "Scorpio zodiac traits"
+   },
+   {
+    "lang": "ar",
+    "keyword": "صفات برج الميزان",
+    "volume": 22200,
+    "reason": "Libra zodiac traits"
+   },
+   {
+    "lang": "ar",
+    "keyword": "صفات برج الحمل",
+    "volume": 22200,
+    "reason": "Aries zodiac traits"
+   }
+  ],
+  "hi": [
+   {
+    "lang": "hi",
+    "keyword": "कुंभ राशि",
+    "volume": 135000,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "सिंह राशि",
+    "volume": 110000,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "वृश्चिक राशि",
+    "volume": 110000,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "explicit astrology term English"
+   },
+   {
+    "lang": "hi",
+    "keyword": "मिथुन राशि",
+    "volume": 90500,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "तुला राशि",
+    "volume": 74000,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "मेष राशि",
+    "volume": 74000,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "कन्या राशि",
+    "volume": 74000,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "धनु राशि",
+    "volume": 74000,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "मीन राशि",
+    "volume": 60500,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "वृष राशि",
+    "volume": 40500,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "मकर राशि",
+    "volume": 40500,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "कुंडली मिलान",
+    "volume": 22200,
+    "reason": "birth chart matching astrology"
+   },
+   {
+    "lang": "hi",
+    "keyword": "शनि की साढ़े साती",
+    "volume": 18100,
+    "reason": "astrological period of Saturn"
+   },
+   {
+    "lang": "hi",
+    "keyword": "कुंभ राशिफल",
+    "volume": 14800,
+    "reason": "zodiac horoscope"
+   },
+   {
+    "lang": "hi",
+    "keyword": "10th house astrology",
+    "volume": 14800,
+    "reason": "astrology house concept English"
+   },
+   {
+    "lang": "hi",
+    "keyword": "जन्म कुंडली हिंदी में",
+    "volume": 12100,
+    "reason": "birth chart Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "वृषभ राशि",
+    "volume": 12100,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "कर्क राशि",
+    "volume": 12100,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "7th house astrology",
+    "volume": 12100,
+    "reason": "astrology house concept English"
+   },
+   {
+    "lang": "hi",
+    "keyword": "venus astrology",
+    "volume": 8100,
+    "reason": "planet Venus astrology"
+   },
+   {
+    "lang": "hi",
+    "keyword": "जन्म कुंडली भविष्य देखना",
+    "volume": 6600,
+    "reason": "birth chart future prediction Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "12 राशि के नाम",
+    "volume": 6600,
+    "reason": "names of 12 zodiac signs Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "mars astrology",
+    "volume": 6600,
+    "reason": "planet Mars astrology"
+   },
+   {
+    "lang": "hi",
+    "keyword": "saturn astrology",
+    "volume": 6600,
+    "reason": "planet Saturn astrology"
+   },
+   {
+    "lang": "hi",
+    "keyword": "aquarius in hindi rashi",
+    "volume": 6600,
+    "reason": "Aquarius zodiac Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "capricorn hindi rashi",
+    "volume": 6600,
+    "reason": "Capricorn zodiac Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "capricorn in hindi rashi",
+    "volume": 6600,
+    "reason": "Capricorn zodiac Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "जन्म कुंडली",
+    "volume": 5400,
+    "reason": "birth chart Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "uranus astrology",
+    "volume": 5400,
+    "reason": "planet Uranus astrology"
+   },
+   {
+    "lang": "hi",
+    "keyword": "trine aspect",
+    "volume": 5400,
+    "reason": "astrological aspect term"
+   },
+   {
+    "lang": "hi",
+    "keyword": "फ्री जन्म कुंडली",
+    "volume": 3600,
+    "reason": "free birth chart"
+   },
+   {
+    "lang": "hi",
+    "keyword": "capricorn rashifal",
+    "volume": 3600,
+    "reason": "Capricorn horoscope"
+   },
+   {
+    "lang": "hi",
+    "keyword": "pluto astrology",
+    "volume": 3600,
+    "reason": "planet Pluto astrology"
+   },
+   {
+    "lang": "hi",
+    "keyword": "वॄश्चिक राशि",
+    "volume": 2900,
+    "reason": "zodiac sign in Hindi"
+   },
+   {
+    "lang": "hi",
+    "keyword": "जन्म कुंडली फ्री डाउनलोड",
+    "volume": 2900,
+    "reason": "free birth chart download"
+   },
+   {
+    "lang": "hi",
+    "keyword": "jupiter astrology",
+    "volume": 2900,
+    "reason": "planet Jupiter astrology"
+   },
+   {
+    "lang": "hi",
+    "keyword": "मकर राशिफल इस महीने का",
+    "volume": 2400,
+    "reason": "Capricorn monthly horoscope"
+   }
+  ],
+  "id": [
+   {
+    "lang": "id",
+    "keyword": "planet uranus",
+    "volume": 673000,
+    "reason": "Planet in astrology context"
+   },
+   {
+    "lang": "id",
+    "keyword": "natal chart",
+    "volume": 246000,
+    "reason": "Natal chart is astrology term"
+   },
+   {
+    "lang": "id",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "Vedic astrology is astrology system"
+   },
+   {
+    "lang": "id",
+    "keyword": "moon sign",
+    "volume": 49500,
+    "reason": "Moon sign is astrology term"
+   },
+   {
+    "lang": "id",
+    "keyword": "saturn return",
+    "volume": 49500,
+    "reason": "Saturn return is astrology event"
+   },
+   {
+    "lang": "id",
+    "keyword": "rising sign",
+    "volume": 40500,
+    "reason": "Rising sign is astrology term"
+   },
+   {
+    "lang": "id",
+    "keyword": "sun sign",
+    "volume": 33100,
+    "reason": "Sun sign is astrology term"
+   },
+   {
+    "lang": "id",
+    "keyword": "zodiak leo",
+    "volume": 33100,
+    "reason": "Zodiac Leo astrology sign"
+   },
+   {
+    "lang": "id",
+    "keyword": "zodiak scorpio",
+    "volume": 27100,
+    "reason": "Zodiac Scorpio astrology sign"
+   },
+   {
+    "lang": "id",
+    "keyword": "zodiak taurus",
+    "volume": 27100,
+    "reason": "Zodiac Taurus astrology sign"
+   },
+   {
+    "lang": "id",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "Aries symbol zodiac sign"
+   },
+   {
+    "lang": "id",
+    "keyword": "zodiak hari ini",
+    "volume": 22200,
+    "reason": "Today zodiac horoscope"
+   },
+   {
+    "lang": "id",
+    "keyword": "zodiak aries",
+    "volume": 22200,
+    "reason": "Zodiac Aries astrology sign"
+   },
+   {
+    "lang": "id",
+    "keyword": "ramalan zodiak hari ini",
+    "volume": 18100,
+    "reason": "Zodiac daily horoscope"
+   },
+   {
+    "lang": "id",
+    "keyword": "zodiak virgo",
+    "volume": 18100,
+    "reason": "Zodiac Virgo astrology sign"
+   },
+   {
+    "lang": "id",
+    "keyword": "zodiak libra",
+    "volume": 18100,
+    "reason": "Zodiac Libra astrology sign"
+   },
+   {
+    "lang": "id",
+    "keyword": "zodiak pisces",
+    "volume": 18100,
+    "reason": "Zodiac Pisces astrology sign"
+   },
+   {
+    "lang": "id",
+    "keyword": "north node",
+    "volume": 14800,
+    "reason": "North node astrology point"
+   },
+   {
+    "lang": "id",
+    "keyword": "zodiak aquarius",
+    "volume": 14800,
+    "reason": "Zodiac Aquarius astrology sign"
+   },
+   {
+    "lang": "id",
+    "keyword": "zodiak capricorn",
+    "volume": 14800,
+    "reason": "Zodiac Capricorn astrology sign"
+   },
+   {
+    "lang": "id",
+    "keyword": "astrologi aries",
+    "volume": 14800,
+    "reason": "Aries astrology content"
+   },
+   {
+    "lang": "id",
+    "keyword": "10th house astrology",
+    "volume": 14800,
+    "reason": "Tenth house in astrology"
+   },
+   {
+    "lang": "id",
+    "keyword": "ramalan zodiak",
+    "volume": 12100,
+    "reason": "Zodiac prediction horoscope"
+   },
+   {
+    "lang": "id",
+    "keyword": "zodiak sagitarius",
+    "volume": 12100,
+    "reason": "Zodiac Sagittarius sign"
+   },
+   {
+    "lang": "id",
+    "keyword": "7th house astrology",
+    "volume": 12100,
+    "reason": "Seventh house astrology term"
+   },
+   {
+    "lang": "id",
+    "keyword": "ramalan zodiak aries",
+    "volume": 9900,
+    "reason": "Aries zodiac prediction"
+   },
+   {
+    "lang": "id",
+    "keyword": "zodiak leo hari ini",
+    "volume": 9900,
+    "reason": "Leo zodiac today horoscope"
+   },
+   {
+    "lang": "id",
+    "keyword": "chiron astrologi",
+    "volume": 9900,
+    "reason": "Chiron in astrology"
+   },
+   {
+    "lang": "id",
+    "keyword": "ramalan zodiak besok",
+    "volume": 8100,
+    "reason": "Tomorrow zodiac horoscope"
+   },
+   {
+    "lang": "id",
+    "keyword": "urutan zodiak",
+    "volume": 8100,
+    "reason": "Order of zodiac signs"
+   },
+   {
+    "lang": "id",
+    "keyword": "taurus hari ini",
+    "volume": 8100,
+    "reason": "Taurus daily astrology"
+   }
+  ],
+  "th": [
+   {
+    "lang": "th",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "Vedic astrology is zodiac system"
+   },
+   {
+    "lang": "th",
+    "keyword": "ลัคนา ราศี",
+    "volume": 27100,
+    "reason": "Ascendant and zodiac signs"
+   },
+   {
+    "lang": "th",
+    "keyword": "12 ราศี",
+    "volume": 14800,
+    "reason": "12 zodiac signs"
+   },
+   {
+    "lang": "th",
+    "keyword": "ราศี กันย์",
+    "volume": 14800,
+    "reason": "Virgo zodiac sign"
+   },
+   {
+    "lang": "th",
+    "keyword": "ราศี เมษ",
+    "volume": 14800,
+    "reason": "Aries zodiac sign"
+   },
+   {
+    "lang": "th",
+    "keyword": "ราศี พฤษภ",
+    "volume": 14800,
+    "reason": "Taurus zodiac sign"
+   },
+   {
+    "lang": "th",
+    "keyword": "ราศี กรกฎ",
+    "volume": 14800,
+    "reason": "Cancer zodiac sign"
+   },
+   {
+    "lang": "th",
+    "keyword": "ราศี พิจิก",
+    "volume": 14800,
+    "reason": "Scorpio zodiac sign"
+   },
+   {
+    "lang": "th",
+    "keyword": "ราศี กุมภ์",
+    "volume": 14800,
+    "reason": "Aquarius zodiac sign"
+   },
+   {
+    "lang": "th",
+    "keyword": "venus jupiter",
+    "volume": 14800,
+    "reason": "Venus and Jupiter planets astrology"
+   },
+   {
+    "lang": "th",
+    "keyword": "10th house astrology",
+    "volume": 14800,
+    "reason": "10th house is astrology term"
+   },
+   {
+    "lang": "th",
+    "keyword": "ราศี มังกร",
+    "volume": 12100,
+    "reason": "Capricorn zodiac sign"
+   },
+   {
+    "lang": "th",
+    "keyword": "ราศี มี น",
+    "volume": 12100,
+    "reason": "Part of zodiac name"
+   },
+   {
+    "lang": "th",
+    "keyword": "ราศี ตุล ย์",
+    "volume": 12100,
+    "reason": "Libra zodiac sign"
+   },
+   {
+    "lang": "th",
+    "keyword": "ราศี สิงห์",
+    "volume": 12100,
+    "reason": "Leo zodiac sign"
+   },
+   {
+    "lang": "th",
+    "keyword": "io jupiter",
+    "volume": 12100,
+    "reason": "Io and Jupiter planets astrology"
+   },
+   {
+    "lang": "th",
+    "keyword": "7th house astrology",
+    "volume": 12100,
+    "reason": "7th house is astrology term"
+   },
+   {
+    "lang": "th",
+    "keyword": "ราศี เมถุน",
+    "volume": 9900,
+    "reason": "Gemini zodiac sign"
+   },
+   {
+    "lang": "th",
+    "keyword": "ราศี ธนู",
+    "volume": 9900,
+    "reason": "Sagittarius zodiac sign"
+   },
+   {
+    "lang": "th",
+    "keyword": "ผูกดวง ลัคนา",
+    "volume": 8100,
+    "reason": "Birth chart ascendant astrology"
+   },
+   {
+    "lang": "th",
+    "keyword": "พระ ราหู",
+    "volume": 6600,
+    "reason": "Rahu is astrology planet"
+   },
+   {
+    "lang": "th",
+    "keyword": "นับ ราศี แบบ สากล",
+    "volume": 4400,
+    "reason": "Counting zodiac signs internationally"
+   },
+   {
+    "lang": "th",
+    "keyword": "ผูกดวง ลัคนา ฟรี",
+    "volume": 3600,
+    "reason": "Free birth chart ascendant"
+   },
+   {
+    "lang": "th",
+    "keyword": "การ นับ ปี นักษัตร 12 ราศี",
+    "volume": 3600,
+    "reason": "Counting lunar zodiac years"
+   },
+   {
+    "lang": "th",
+    "keyword": "พระ ราหู ทรง ครุฑ",
+    "volume": 2900,
+    "reason": "Rahu deity in astrology"
+   },
+   {
+    "lang": "th",
+    "keyword": "นักษัตร 12 ราศี",
+    "volume": 2400,
+    "reason": "12 zodiac animal signs"
+   }
+  ],
+  "vi": [
+   {
+    "lang": "vi",
+    "keyword": "lunar eclipse",
+    "volume": 823000,
+    "reason": "lunar eclipse is an astrological event"
+   },
+   {
+    "lang": "vi",
+    "keyword": "lá số tử vi",
+    "volume": 368000,
+    "reason": "lá số tử vi means birth chart"
+   },
+   {
+    "lang": "vi",
+    "keyword": "bản đồ sao",
+    "volume": 135000,
+    "reason": "bản đồ sao means star chart in astrology"
+   },
+   {
+    "lang": "vi",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "vedic astrology is astrology system"
+   },
+   {
+    "lang": "vi",
+    "keyword": "lập lá số tử vi",
+    "volume": 90500,
+    "reason": "lập lá số tử vi means make birth chart"
+   },
+   {
+    "lang": "vi",
+    "keyword": "cung hoàng đạo",
+    "volume": 60500,
+    "reason": "cung hoàng đạo means zodiac signs"
+   },
+   {
+    "lang": "vi",
+    "keyword": "saturn return",
+    "volume": 49500,
+    "reason": "saturn return is astrological event"
+   },
+   {
+    "lang": "vi",
+    "keyword": "12 cung hoàng đạo",
+    "volume": 33100,
+    "reason": "12 cung hoàng đạo means zodiac signs"
+   },
+   {
+    "lang": "vi",
+    "keyword": "12cung hoàng đạo",
+    "volume": 33100,
+    "reason": "12cung hoàng đạo means zodiac signs"
+   },
+   {
+    "lang": "vi",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "aries symbole relates to zodiac sign Aries"
+   },
+   {
+    "lang": "vi",
+    "keyword": "bảo bình",
+    "volume": 27100,
+    "reason": "bảo bình is Aquarius zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "lấy lá số tử vi",
+    "volume": 18100,
+    "reason": "lấy lá số tử vi means get birth chart"
+   },
+   {
+    "lang": "vi",
+    "keyword": "north node",
+    "volume": 14800,
+    "reason": "north node is astrology term"
+   },
+   {
+    "lang": "vi",
+    "keyword": "kim ngưu",
+    "volume": 14800,
+    "reason": "kim ngưu is Taurus zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "ma kết",
+    "volume": 14800,
+    "reason": "ma kết is Capricorn zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "song ngư",
+    "volume": 14800,
+    "reason": "song ngư is Pisces zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "nguyệt thực",
+    "volume": 14800,
+    "reason": "nguyệt thực means lunar eclipse event"
+   },
+   {
+    "lang": "vi",
+    "keyword": "xử nữ",
+    "volume": 12100,
+    "reason": "xử nữ is Virgo zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "thiên bình",
+    "volume": 12100,
+    "reason": "thiên bình is Libra zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "bò cạp",
+    "volume": 12100,
+    "reason": "bò cạp is Scorpio zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "sao thổ",
+    "volume": 12100,
+    "reason": "sao thổ means planet Saturn in astrology"
+   },
+   {
+    "lang": "vi",
+    "keyword": "7th house",
+    "volume": 12100,
+    "reason": "7th house is astrology birth chart term"
+   },
+   {
+    "lang": "vi",
+    "keyword": "nhân mã",
+    "volume": 9900,
+    "reason": "nhân mã is Sagittarius zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "astro com bản đồ sao",
+    "volume": 9900,
+    "reason": "astro com bản đồ sao means astro star chart"
+   },
+   {
+    "lang": "vi",
+    "keyword": "bản đồ sao cá nhân",
+    "volume": 9900,
+    "reason": "bản đồ sao cá nhân means personal birth chart"
+   },
+   {
+    "lang": "vi",
+    "keyword": "bạch dương",
+    "volume": 9900,
+    "reason": "bạch dương is Aries zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "cự giải",
+    "volume": 9900,
+    "reason": "cự giải is Cancer zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "sao kim",
+    "volume": 9900,
+    "reason": "sao kim means planet Venus in astrology"
+   },
+   {
+    "lang": "vi",
+    "keyword": "sao mộc",
+    "volume": 9900,
+    "reason": "sao mộc means planet Jupiter astrology"
+   },
+   {
+    "lang": "vi",
+    "keyword": "cung thiên bình",
+    "volume": 9900,
+    "reason": "cung thiên bình means Libra zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "cung xử nữ",
+    "volume": 8100,
+    "reason": "cung xử nữ means Virgo zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "cung bạch dương",
+    "volume": 8100,
+    "reason": "cung bạch dương means Aries zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "cung ma kết",
+    "volume": 8100,
+    "reason": "cung ma kết means Capricorn zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "cung nhân mã",
+    "volume": 8100,
+    "reason": "cung nhân mã means Sagittarius zodiac sign"
+   },
+   {
+    "lang": "vi",
+    "keyword": "cung bảo bình",
+    "volume": 8100,
+    "reason": "cung bảo bình means Aquarius zodiac sign"
+   }
+  ],
+  "sv": [
+   {
+    "lang": "sv",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "vedic astrology is astrology type"
+   },
+   {
+    "lang": "sv",
+    "keyword": "calcule ascendent",
+    "volume": 90500,
+    "reason": "ascendent calculation in astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "pisces zodiac symbol astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "aries zodiac symbol astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "ascendent astrologie",
+    "volume": 22200,
+    "reason": "ascendent and astrology term"
+   },
+   {
+    "lang": "sv",
+    "keyword": "astrologi aries",
+    "volume": 14800,
+    "reason": "Aries and astrology mentioned"
+   },
+   {
+    "lang": "sv",
+    "keyword": "horoskop aquarius",
+    "volume": 14800,
+    "reason": "horoscope for Aquarius zodiac"
+   },
+   {
+    "lang": "sv",
+    "keyword": "10th house astrology",
+    "volume": 14800,
+    "reason": "10th house is astrology term"
+   },
+   {
+    "lang": "sv",
+    "keyword": "7th house astrology",
+    "volume": 12100,
+    "reason": "7th house is astrology concept"
+   },
+   {
+    "lang": "sv",
+    "keyword": "chiron astrologi",
+    "volume": 9900,
+    "reason": "chiron in astrology context"
+   },
+   {
+    "lang": "sv",
+    "keyword": "fisk stjärntecken",
+    "volume": 8100,
+    "reason": "fisk zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "fiskarna stjärntecken",
+    "volume": 8100,
+    "reason": "fiskarna zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "jungfru stjärntecken",
+    "volume": 8100,
+    "reason": "jungfru zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "kräfta stjärntecken",
+    "volume": 8100,
+    "reason": "kräfta zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "oxens stjärntecken",
+    "volume": 8100,
+    "reason": "oxens zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "stenbocken stjärntecken",
+    "volume": 8100,
+    "reason": "stenbocken zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "stjärntecken vädur",
+    "volume": 8100,
+    "reason": "vädur zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "venus astrologi",
+    "volume": 8100,
+    "reason": "venus planet in astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "fiskar stjärntecken",
+    "volume": 8100,
+    "reason": "fiskar zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "fiskarnas stjärntecken",
+    "volume": 8100,
+    "reason": "fiskarnas zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "stenbock stjärntecken",
+    "volume": 8100,
+    "reason": "stenbock zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "skorpion stjärntecken",
+    "volume": 6600,
+    "reason": "skorpion zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "stjärntecken vattumannen",
+    "volume": 6600,
+    "reason": "vattumannen zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "saturn astrologi",
+    "volume": 6600,
+    "reason": "saturn planet in astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "stjärntecken vattuman",
+    "volume": 6600,
+    "reason": "vattuman zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "kinesisk stjärntecken",
+    "volume": 4400,
+    "reason": "kinesisk zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "calculeaza ascendentul fara ora nasterii",
+    "volume": 1600,
+    "reason": "ascendent calculation astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "aries stjärntecken",
+    "volume": 1600,
+    "reason": "aries zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "oktobers stjärntecken",
+    "volume": 1300,
+    "reason": "oktobers zodiac signs"
+   },
+   {
+    "lang": "sv",
+    "keyword": "jupiter astrologi",
+    "volume": 1300,
+    "reason": "jupiter planet in astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "cusp astrology",
+    "volume": 1300,
+    "reason": "cusp term in astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "stjärntecken november",
+    "volume": 1000,
+    "reason": "november zodiac signs"
+   },
+   {
+    "lang": "sv",
+    "keyword": "uranus astrologi",
+    "volume": 1000,
+    "reason": "uranus planet astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "mars stjärntecken",
+    "volume": 1000,
+    "reason": "mars zodiac sign astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "sidereal zodiac",
+    "volume": 1000,
+    "reason": "sidereal zodiac astrology"
+   },
+   {
+    "lang": "sv",
+    "keyword": "alla stjärntecken",
+    "volume": 880,
+    "reason": "all zodiac signs astrology"
+   }
+  ],
+  "da": [
+   {
+    "lang": "da",
+    "keyword": "lunar eclipse",
+    "volume": 823000,
+    "reason": "Lunar eclipse relevant in astrology"
+   },
+   {
+    "lang": "da",
+    "keyword": "vedic astrologi",
+    "volume": 110000,
+    "reason": "Vedic astrology term"
+   },
+   {
+    "lang": "da",
+    "keyword": "saturn return",
+    "volume": 49500,
+    "reason": "Saturn return is astrology concept"
+   },
+   {
+    "lang": "da",
+    "keyword": "skorpion horoskop",
+    "volume": 40500,
+    "reason": "Scorpio horoscope zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "astrologi ascendant",
+    "volume": 9900,
+    "reason": "Astrology ascendant term"
+   },
+   {
+    "lang": "da",
+    "keyword": "dato for stjernetegn",
+    "volume": 9900,
+    "reason": "Date for zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "dato stjernetegn",
+    "volume": 9900,
+    "reason": "Date zodiac sign refers to astrology"
+   },
+   {
+    "lang": "da",
+    "keyword": "chiron astrologi",
+    "volume": 9900,
+    "reason": "Chiron in astrology context"
+   },
+   {
+    "lang": "da",
+    "keyword": "stjernetegn løve",
+    "volume": 8100,
+    "reason": "Leo zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "kinesisk stjernetegn",
+    "volume": 8100,
+    "reason": "Chinese zodiac signs"
+   },
+   {
+    "lang": "da",
+    "keyword": "stjernetegn jomfru",
+    "volume": 8100,
+    "reason": "Virgo zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "jomfru i stjernetegn",
+    "volume": 8100,
+    "reason": "Virgo in zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "løve stjerne tegn",
+    "volume": 8100,
+    "reason": "Leo star sign zodiac"
+   },
+   {
+    "lang": "da",
+    "keyword": "løven som stjernetegn",
+    "volume": 8100,
+    "reason": "Leo as zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "venus astrologi",
+    "volume": 8100,
+    "reason": "Venus in astrology"
+   },
+   {
+    "lang": "da",
+    "keyword": "stjernetegn skytten",
+    "volume": 6600,
+    "reason": "Sagittarius zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "skytte stjernetegn",
+    "volume": 6600,
+    "reason": "Sagittarius zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "saturn astrologi",
+    "volume": 6600,
+    "reason": "Saturn in astrology"
+   },
+   {
+    "lang": "da",
+    "keyword": "tvilling stjernetegn",
+    "volume": 5400,
+    "reason": "Gemini zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "skorpion stjernetegn",
+    "volume": 5400,
+    "reason": "Scorpio zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "stjernetegn vædder",
+    "volume": 5400,
+    "reason": "Aries zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "tvillingerne stjernetegn",
+    "volume": 5400,
+    "reason": "Gemini zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "væddet stjernetegn",
+    "volume": 5400,
+    "reason": "Aries zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "stjernetegn tvillinger",
+    "volume": 5400,
+    "reason": "Gemini zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "krebsen stjernetegn",
+    "volume": 4400,
+    "reason": "Cancer zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "stenbukken stjernetegn",
+    "volume": 4400,
+    "reason": "Capricorn zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "stjernetegn vandmand",
+    "volume": 4400,
+    "reason": "Aquarius zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "stjernetegn krebs",
+    "volume": 4400,
+    "reason": "Cancer zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "stjernetegn vægt",
+    "volume": 4400,
+    "reason": "Libra zodiac sign"
+   },
+   {
+    "lang": "da",
+    "keyword": "fisk i stjernetegn",
+    "volume": 4400,
+    "reason": "Pisces zodiac sign"
+   }
+  ],
+  "no": [
+   {
+    "lang": "no",
+    "keyword": "lunar eclipse",
+    "volume": 823000,
+    "reason": "lunar eclipse relevant in astrology"
+   },
+   {
+    "lang": "no",
+    "keyword": "planeter pluto",
+    "volume": 135000,
+    "reason": "planeter pluto in astrology"
+   },
+   {
+    "lang": "no",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "vedic astrology mentioned explicitly"
+   },
+   {
+    "lang": "no",
+    "keyword": "calcule ascendent",
+    "volume": 90500,
+    "reason": "calcule ascendent is astrology term"
+   },
+   {
+    "lang": "no",
+    "keyword": "saturn retur",
+    "volume": 49500,
+    "reason": "saturn return is astrology event"
+   },
+   {
+    "lang": "no",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "pisces symbol is zodiac sign"
+   },
+   {
+    "lang": "no",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "aries symbol is zodiac sign"
+   },
+   {
+    "lang": "no",
+    "keyword": "ascendent astrologie",
+    "volume": 22200,
+    "reason": "ascendent astrologie clearly astrology"
+   },
+   {
+    "lang": "no",
+    "keyword": "libra simbol",
+    "volume": 22200,
+    "reason": "libra symbol zodiac sign"
+   },
+   {
+    "lang": "no",
+    "keyword": "horoskop aquarius",
+    "volume": 14800,
+    "reason": "horoskop aquarius astrology"
+   },
+   {
+    "lang": "no",
+    "keyword": "venus jupiter",
+    "volume": 14800,
+    "reason": "venus jupiter astrology planets"
+   },
+   {
+    "lang": "no",
+    "keyword": "chiron astrologi",
+    "volume": 9900,
+    "reason": "chiron astrologi directly astrology"
+   },
+   {
+    "lang": "no",
+    "keyword": "jomfruen stjernetegn",
+    "volume": 8100,
+    "reason": "jomfruen stjernetegn zodiac sign"
+   },
+   {
+    "lang": "no",
+    "keyword": "løven stjernetegn",
+    "volume": 8100,
+    "reason": "løven stjernetegn zodiac sign"
+   },
+   {
+    "lang": "no",
+    "keyword": "venus astrologi",
+    "volume": 8100,
+    "reason": "venus astrologi clearly astrology"
+   },
+   {
+    "lang": "no",
+    "keyword": "stjernetegn skytten",
+    "volume": 6600,
+    "reason": "stjernetegn skytten zodiac sign"
+   },
+   {
+    "lang": "no",
+    "keyword": "saturn astrologi",
+    "volume": 6600,
+    "reason": "saturn astrologi astrology planet"
+   },
+   {
+    "lang": "no",
+    "keyword": "stjernetegn tyren",
+    "volume": 4400,
+    "reason": "stjernetegn tyren zodiac sign"
+   },
+   {
+    "lang": "no",
+    "keyword": "fiskene stjernetegn",
+    "volume": 4400,
+    "reason": "fiskene stjernetegn zodiac sign"
+   },
+   {
+    "lang": "no",
+    "keyword": "horoscopo libra dinero hoy",
+    "volume": 2400,
+    "reason": "horoscopo libra dinero hoy astrology"
+   }
+  ],
+  "fi": [
+   {
+    "lang": "fi",
+    "keyword": "lunar eclipse",
+    "volume": 823000,
+    "reason": "Lunar eclipse relevant in astrology"
+   },
+   {
+    "lang": "fi",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "Vedic astrology is zodiac system"
+   },
+   {
+    "lang": "fi",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "Pisces symbol is zodiac sign"
+   },
+   {
+    "lang": "fi",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "Aries symbol is zodiac sign"
+   },
+   {
+    "lang": "fi",
+    "keyword": "venus jupiter",
+    "volume": 14800,
+    "reason": "Venus Jupiter are astrology planets"
+   },
+   {
+    "lang": "fi",
+    "keyword": "aquarius 2016",
+    "volume": 12100,
+    "reason": "Aquarius year relates to astrology"
+   },
+   {
+    "lang": "fi",
+    "keyword": "vaaka horoskooppi",
+    "volume": 5400,
+    "reason": "Vaaka horoskooppi is zodiac horoscope"
+   },
+   {
+    "lang": "fi",
+    "keyword": "leijona horoskooppi",
+    "volume": 4400,
+    "reason": "Leijona horoskooppi is zodiac horoscope"
+   },
+   {
+    "lang": "fi",
+    "keyword": "venus astrologia",
+    "volume": 2400,
+    "reason": "Venus astrologia is astrology content"
+   },
+   {
+    "lang": "fi",
+    "keyword": "sextiles astrology",
+    "volume": 2400,
+    "reason": "Sextiles are astrology aspects"
+   },
+   {
+    "lang": "fi",
+    "keyword": "capricorn la cung gi",
+    "volume": 1600,
+    "reason": "Capricorn zodiac sign astrology"
+   }
+  ],
+  "el": [
+   {
+    "lang": "el",
+    "keyword": "ζωδια σημερα",
+    "volume": 246000,
+    "reason": "zodiac signs today"
+   },
+   {
+    "lang": "el",
+    "keyword": "ζωδια αυριο",
+    "volume": 74000,
+    "reason": "zodiac signs tomorrow"
+   },
+   {
+    "lang": "el",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "Pisces zodiac symbol"
+   },
+   {
+    "lang": "el",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "Aries zodiac symbol"
+   },
+   {
+    "lang": "el",
+    "keyword": "libra simbol",
+    "volume": 22200,
+    "reason": "Libra zodiac symbol"
+   },
+   {
+    "lang": "el",
+    "keyword": "ζωδια εβδομαδασ",
+    "volume": 18100,
+    "reason": "weekly zodiac horoscope"
+   },
+   {
+    "lang": "el",
+    "keyword": "κριοσ σημερα",
+    "volume": 18100,
+    "reason": "Aries zodiac today"
+   },
+   {
+    "lang": "el",
+    "keyword": "αιγοκεροσ σημερα",
+    "volume": 18100,
+    "reason": "Capricorn zodiac today"
+   },
+   {
+    "lang": "el",
+    "keyword": "ζωδια σημερα λεφακησ",
+    "volume": 14800,
+    "reason": "zodiac horoscope Lefakis"
+   },
+   {
+    "lang": "el",
+    "keyword": "ζωδια προβλεψεισ",
+    "volume": 12100,
+    "reason": "zodiac predictions"
+   },
+   {
+    "lang": "el",
+    "keyword": "τα ζωδια σημερα",
+    "volume": 12100,
+    "reason": "zodiac signs today"
+   },
+   {
+    "lang": "el",
+    "keyword": "popaganda ζωδια",
+    "volume": 12100,
+    "reason": "Popaganda zodiac content"
+   },
+   {
+    "lang": "el",
+    "keyword": "lifo ζωδια",
+    "volume": 8100,
+    "reason": "Lifo zodiac content"
+   },
+   {
+    "lang": "el",
+    "keyword": "venus astrology",
+    "volume": 8100,
+    "reason": "Venus astrology planet"
+   },
+   {
+    "lang": "el",
+    "keyword": "αιγοκεροσ αυριο",
+    "volume": 8100,
+    "reason": "Capricorn zodiac tomorrow"
+   },
+   {
+    "lang": "el",
+    "keyword": "τοξοτησ αυριο",
+    "volume": 8100,
+    "reason": "Sagittarius zodiac tomorrow"
+   },
+   {
+    "lang": "el",
+    "keyword": "ζωδια λεφακησ",
+    "volume": 6600,
+    "reason": "Lefakis zodiac horoscope"
+   },
+   {
+    "lang": "el",
+    "keyword": "mars astrology",
+    "volume": 6600,
+    "reason": "Mars astrology planet"
+   },
+   {
+    "lang": "el",
+    "keyword": "saturn astrology",
+    "volume": 6600,
+    "reason": "Saturn astrology planet"
+   },
+   {
+    "lang": "el",
+    "keyword": "uranus astrology",
+    "volume": 5400,
+    "reason": "Uranus astrology planet"
+   },
+   {
+    "lang": "el",
+    "keyword": "athens voice ζωδια",
+    "volume": 3600,
+    "reason": "Athens Voice zodiac content"
+   },
+   {
+    "lang": "el",
+    "keyword": "propaganda ζωδια",
+    "volume": 3600,
+    "reason": "Propaganda zodiac content"
+   },
+   {
+    "lang": "el",
+    "keyword": "pluto astrology",
+    "volume": 3600,
+    "reason": "Pluto astrology planet"
+   },
+   {
+    "lang": "el",
+    "keyword": "ζωδια σημερα πανοπουλοσ",
+    "volume": 2900,
+    "reason": "zodiac today Panopoulos"
+   },
+   {
+    "lang": "el",
+    "keyword": "pillowfights ζωδια",
+    "volume": 2900,
+    "reason": "Pillowfights zodiac content"
+   },
+   {
+    "lang": "el",
+    "keyword": "jupiter astrology",
+    "volume": 2900,
+    "reason": "Jupiter astrology planet"
+   },
+   {
+    "lang": "el",
+    "keyword": "popaganda ζωδια εβδομαδασ",
+    "volume": 2400,
+    "reason": "Popaganda weekly zodiac"
+   },
+   {
+    "lang": "el",
+    "keyword": "horoscopo libra dinero hoy",
+    "volume": 2400,
+    "reason": "horoscope Libra money today"
+   },
+   {
+    "lang": "el",
+    "keyword": "scorpios simera",
+    "volume": 2400,
+    "reason": "Scorpio zodiac today"
+   },
+   {
+    "lang": "el",
+    "keyword": "τοξοτησ ζωδιο",
+    "volume": 2400,
+    "reason": "Sagittarius zodiac sign"
+   },
+   {
+    "lang": "el",
+    "keyword": "τα ζωδια",
+    "volume": 1900,
+    "reason": "zodiac signs general"
+   },
+   {
+    "lang": "el",
+    "keyword": "neptune astrology",
+    "volume": 1900,
+    "reason": "Neptune astrology planet"
+   },
+   {
+    "lang": "el",
+    "keyword": "breakfast star ζωδια σημερα",
+    "volume": 1600,
+    "reason": "Breakfast Star zodiac today"
+   },
+   {
+    "lang": "el",
+    "keyword": "tlife ζωδια",
+    "volume": 1600,
+    "reason": "Tlife zodiac content"
+   },
+   {
+    "lang": "el",
+    "keyword": "virgo la cung gi",
+    "volume": 1600,
+    "reason": "Virgo zodiac meaning"
+   },
+   {
+    "lang": "el",
+    "keyword": "capricorn la cung gi",
+    "volume": 1600,
+    "reason": "Capricorn zodiac meaning"
+   },
+   {
+    "lang": "el",
+    "keyword": "τοξοτησ εβδομάδα",
+    "volume": 1600,
+    "reason": "Sagittarius weekly horoscope"
+   },
+   {
+    "lang": "el",
+    "keyword": "best ζωδια σημερα",
+    "volume": 1300,
+    "reason": "best zodiac today"
+   }
+  ],
+  "he": [
+   {
+    "lang": "he",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "Pisces zodiac symbol"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזלות דגים",
+    "volume": 9900,
+    "reason": "Pisces zodiac signs"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזלות גדי",
+    "volume": 8100,
+    "reason": "Capricorn zodiac sign"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזלות עקרב",
+    "volume": 8100,
+    "reason": "Scorpio zodiac sign"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזלות קשת",
+    "volume": 8100,
+    "reason": "Sagittarius zodiac sign"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזל עקרב",
+    "volume": 8100,
+    "reason": "Scorpio zodiac sign"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזלות אריה",
+    "volume": 6600,
+    "reason": "Leo zodiac sign"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזלות דלי",
+    "volume": 6600,
+    "reason": "Aquarius zodiac sign"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזלות טלה",
+    "volume": 6600,
+    "reason": "Aries zodiac sign"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזלות שור",
+    "volume": 6600,
+    "reason": "Taurus zodiac sign"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזל בתולה",
+    "volume": 6600,
+    "reason": "Virgo zodiac sign"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזלות סרטן",
+    "volume": 5400,
+    "reason": "Cancer zodiac sign"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזל מאזניים",
+    "volume": 5400,
+    "reason": "Libra zodiac sign"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזלות תאריכים",
+    "volume": 3600,
+    "reason": "Zodiac signs dates"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזלות לפי חודשים",
+    "volume": 2400,
+    "reason": "Zodiac signs by months"
+   },
+   {
+    "lang": "he",
+    "keyword": "capricorn la cung gi",
+    "volume": 1600,
+    "reason": "Capricorn zodiac sign in another language"
+   },
+   {
+    "lang": "he",
+    "keyword": "מרקורי בנסיגה",
+    "volume": 1300,
+    "reason": "Mercury retrograde astrology"
+   },
+   {
+    "lang": "he",
+    "keyword": "מפת לידה",
+    "volume": 1000,
+    "reason": "Birth chart astrology"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזלות לפי תאריכים",
+    "volume": 1000,
+    "reason": "Zodiac signs by dates"
+   },
+   {
+    "lang": "he",
+    "keyword": "תאריכי מזלות",
+    "volume": 1000,
+    "reason": "Zodiac signs dates"
+   },
+   {
+    "lang": "he",
+    "keyword": "גלגל המזלות תאריכים",
+    "volume": 880,
+    "reason": "Zodiac wheel dates"
+   },
+   {
+    "lang": "he",
+    "keyword": "מזלות בעברית ובאנגלית",
+    "volume": 880,
+    "reason": "Zodiac signs Hebrew English"
+   }
+  ],
+  "uk": [
+   {
+    "lang": "uk",
+    "keyword": "натальна карта",
+    "volume": 450000,
+    "reason": "Natal chart relates to birth astrology"
+   },
+   {
+    "lang": "uk",
+    "keyword": "знаки зодіаку",
+    "volume": 110000,
+    "reason": "Zodiac signs in astrology"
+   },
+   {
+    "lang": "uk",
+    "keyword": "ретроградний меркурій",
+    "volume": 8100,
+    "reason": "Mercury retrograde is astrology term"
+   },
+   {
+    "lang": "uk",
+    "keyword": "гороскоп на завтра риби",
+    "volume": 8100,
+    "reason": "Horoscope for Pisces tomorrow"
+   },
+   {
+    "lang": "uk",
+    "keyword": "знаки зодіаку по місяцях",
+    "volume": 6600,
+    "reason": "Zodiac signs by month"
+   },
+   {
+    "lang": "uk",
+    "keyword": "скорпіон знак зодіаку",
+    "volume": 6600,
+    "reason": "Scorpio zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "риби знак зодіака",
+    "volume": 5400,
+    "reason": "Pisces zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "риби знак зодіаку",
+    "volume": 5400,
+    "reason": "Pisces zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "знак телець",
+    "volume": 3600,
+    "reason": "Taurus zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "знаки зодіаку по датах",
+    "volume": 2400,
+    "reason": "Zodiac signs by dates"
+   },
+   {
+    "lang": "uk",
+    "keyword": "водолій знак зодіаку",
+    "volume": 2400,
+    "reason": "Aquarius zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "козеріг дата",
+    "volume": 2400,
+    "reason": "Capricorn date relates astrology"
+   },
+   {
+    "lang": "uk",
+    "keyword": "асцендент калкулатор",
+    "volume": 1900,
+    "reason": "Ascendant calculator astrology tool"
+   },
+   {
+    "lang": "uk",
+    "keyword": "гороскоп водолій на сьогодні",
+    "volume": 1900,
+    "reason": "Aquarius horoscope today"
+   },
+   {
+    "lang": "uk",
+    "keyword": "дева знак",
+    "volume": 1900,
+    "reason": "Virgo zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "козеріг знак зодіаку",
+    "volume": 1900,
+    "reason": "Capricorn zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "гороскоп козеріг на сьогодні",
+    "volume": 1600,
+    "reason": "Capricorn horoscope today"
+   },
+   {
+    "lang": "uk",
+    "keyword": "знак зодіака скорпіон",
+    "volume": 1300,
+    "reason": "Scorpio zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "овен знак",
+    "volume": 1300,
+    "reason": "Aries zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "гороскоп водолій",
+    "volume": 1300,
+    "reason": "Aquarius horoscope"
+   },
+   {
+    "lang": "uk",
+    "keyword": "асцендент розрахувати",
+    "volume": 1000,
+    "reason": "Ascendant calculation astrology"
+   },
+   {
+    "lang": "uk",
+    "keyword": "асцендент це",
+    "volume": 1000,
+    "reason": "Ascendant meaning in astrology"
+   },
+   {
+    "lang": "uk",
+    "keyword": "земні знаки зодіаку",
+    "volume": 1000,
+    "reason": "Earth zodiac signs classification"
+   },
+   {
+    "lang": "uk",
+    "keyword": "рак знак",
+    "volume": 1000,
+    "reason": "Cancer zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "гороскоп на завтра близнюки",
+    "volume": 1000,
+    "reason": "Gemini horoscope tomorrow"
+   },
+   {
+    "lang": "uk",
+    "keyword": "знак зодіака близнюки",
+    "volume": 1000,
+    "reason": "Gemini zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "лев знак",
+    "volume": 880,
+    "reason": "Leo zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "гороскоп стрілець на завтра",
+    "volume": 880,
+    "reason": "Sagittarius horoscope tomorrow"
+   },
+   {
+    "lang": "uk",
+    "keyword": "знак риби",
+    "volume": 880,
+    "reason": "Pisces zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "розрахувати асцендент безкоштовно",
+    "volume": 720,
+    "reason": "Ascendant calculation free astrology"
+   },
+   {
+    "lang": "uk",
+    "keyword": "знак зодіака стрілець",
+    "volume": 720,
+    "reason": "Sagittarius zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "знак зодіака телець",
+    "volume": 720,
+    "reason": "Taurus zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "гороскоп стрілець",
+    "volume": 720,
+    "reason": "Sagittarius horoscope"
+   },
+   {
+    "lang": "uk",
+    "keyword": "знак зодіаку телець",
+    "volume": 720,
+    "reason": "Taurus zodiac sign"
+   },
+   {
+    "lang": "uk",
+    "keyword": "риби гороскоп",
+    "volume": 720,
+    "reason": "Pisces horoscope"
+   }
+  ],
+  "cs": [
+   {
+    "lang": "cs",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "vedic astrology is astrological system"
+   },
+   {
+    "lang": "cs",
+    "keyword": "calcule ascendent",
+    "volume": 90500,
+    "reason": "ascendent calculation is astrology"
+   },
+   {
+    "lang": "cs",
+    "keyword": "znamení zvěrokruhu",
+    "volume": 40500,
+    "reason": "zodiac signs are astrology"
+   },
+   {
+    "lang": "cs",
+    "keyword": "ascendent astrologie",
+    "volume": 22200,
+    "reason": "ascendent in astrology"
+   },
+   {
+    "lang": "cs",
+    "keyword": "venus jupiter",
+    "volume": 14800,
+    "reason": "venus and jupiter are planets in astrology"
+   },
+   {
+    "lang": "cs",
+    "keyword": "beran znameni",
+    "volume": 6600,
+    "reason": "beran znamení is zodiac sign"
+   },
+   {
+    "lang": "cs",
+    "keyword": "rak znamení",
+    "volume": 5400,
+    "reason": "rak znamení is zodiac sign"
+   },
+   {
+    "lang": "cs",
+    "keyword": "štír znamení",
+    "volume": 4400,
+    "reason": "štír znamení is zodiac sign"
+   },
+   {
+    "lang": "cs",
+    "keyword": "kozoroh znamení",
+    "volume": 4400,
+    "reason": "kozoroh znamení is zodiac sign"
+   },
+   {
+    "lang": "cs",
+    "keyword": "horoskopy kozoroh",
+    "volume": 3600,
+    "reason": "horoskopy kozoroh is horoscope"
+   },
+   {
+    "lang": "cs",
+    "keyword": "střelec znamení",
+    "volume": 2900,
+    "reason": "střelec znamení is zodiac sign"
+   },
+   {
+    "lang": "cs",
+    "keyword": "horoskopy blizenci",
+    "volume": 2400,
+    "reason": "horoskopy blizenci is horoscope"
+   },
+   {
+    "lang": "cs",
+    "keyword": "chiron astrologie",
+    "volume": 1900,
+    "reason": "chiron is astrology planet"
+   },
+   {
+    "lang": "cs",
+    "keyword": "calculeaza ascendentul fara ora nasterii",
+    "volume": 1600,
+    "reason": "ascendent calculation without time"
+   },
+   {
+    "lang": "cs",
+    "keyword": "vypočet ascendentu",
+    "volume": 1600,
+    "reason": "calculation of ascendent astrologically"
+   },
+   {
+    "lang": "cs",
+    "keyword": "horoskopy kozoroh dnes",
+    "volume": 1600,
+    "reason": "horoskopy kozoroh dnes horoscope today"
+   },
+   {
+    "lang": "cs",
+    "keyword": "horoskopy stir",
+    "volume": 1600,
+    "reason": "horoskopy stir horoscope"
+   },
+   {
+    "lang": "cs",
+    "keyword": "horoskopy vodnář",
+    "volume": 1600,
+    "reason": "horoskopy vodnář is horoscope"
+   },
+   {
+    "lang": "cs",
+    "keyword": "mořské ryby",
+    "volume": 1300,
+    "reason": "mořské ryby is zodiac sign"
+   },
+   {
+    "lang": "cs",
+    "keyword": "horoskopy střelec",
+    "volume": 1300,
+    "reason": "horoskopy střelec is horoscope"
+   },
+   {
+    "lang": "cs",
+    "keyword": "čínská znamení zvěrokruhu",
+    "volume": 1000,
+    "reason": "Chinese zodiac signs astrology"
+   },
+   {
+    "lang": "cs",
+    "keyword": "čínské znamení zvěrokruhu",
+    "volume": 1000,
+    "reason": "Chinese zodiac signs astrology"
+   }
+  ],
+  "ro": [
+   {
+    "lang": "ro",
+    "keyword": "calcule ascendent",
+    "volume": 90500,
+    "reason": "Ascendent calculation in astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "scorpion zodiac",
+    "volume": 33100,
+    "reason": "Scorpion zodiac sign astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "taur zodiac",
+    "volume": 27100,
+    "reason": "Taur zodiac sign astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "ascendent astrologie",
+    "volume": 22200,
+    "reason": "Ascendent related to astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "capricorn zodiac",
+    "volume": 14800,
+    "reason": "Capricorn zodiac sign astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "capricorn zodia",
+    "volume": 14800,
+    "reason": "Capricorn zodiac astrology misspelling"
+   },
+   {
+    "lang": "ro",
+    "keyword": "venus astro",
+    "volume": 8100,
+    "reason": "Venus planet in astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "calcul ascendent",
+    "volume": 6600,
+    "reason": "Ascendent calculation in astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "calcul ascendent gratuit",
+    "volume": 6600,
+    "reason": "Free ascendent calculation astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "saturn astro",
+    "volume": 6600,
+    "reason": "Saturn planet astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "ascendent zodie",
+    "volume": 5400,
+    "reason": "Ascendent zodiac related astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "ascendent zodii",
+    "volume": 5400,
+    "reason": "Ascendent of zodiac signs astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "ascendentul zodiei",
+    "volume": 5400,
+    "reason": "Ascendent of zodiac astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "capricorn horoscop",
+    "volume": 5400,
+    "reason": "Capricorn horoscope astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "calculator ascendent",
+    "volume": 3600,
+    "reason": "Calculator for ascendent astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "balanta azi",
+    "volume": 3600,
+    "reason": "Balanta daily horoscope astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "berbec zodia",
+    "volume": 3600,
+    "reason": "Berbec zodiac astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "berbec zodie",
+    "volume": 3600,
+    "reason": "Berbec zodiac astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "berbeci zodie",
+    "volume": 3600,
+    "reason": "Berbec zodiac astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "fecioara zodia",
+    "volume": 3600,
+    "reason": "Fecioara zodiac astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "pluto astro",
+    "volume": 3600,
+    "reason": "Pluto planet astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "mercur retrograd",
+    "volume": 2900,
+    "reason": "Mercury retrograde astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "balanta zodia",
+    "volume": 2900,
+    "reason": "Balanta zodiac astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "balanta zodie",
+    "volume": 2900,
+    "reason": "Balanta zodiac astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "jupiter astro",
+    "volume": 2900,
+    "reason": "Jupiter planet astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "calculam ascendentul",
+    "volume": 2400,
+    "reason": "Ascendent calculation astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "calculare ascendent",
+    "volume": 2400,
+    "reason": "Ascendent calculation astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "calculul ascendent",
+    "volume": 2400,
+    "reason": "Ascendent calculation astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "calculul ascendentului",
+    "volume": 2400,
+    "reason": "Ascendent calculation astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "harta natala",
+    "volume": 1900,
+    "reason": "Natal chart astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "chiron astrologie",
+    "volume": 1900,
+    "reason": "Chiron in astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "capricorn zodie",
+    "volume": 1900,
+    "reason": "Capricorn zodiac astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "calcul ascendent fara ora nasterii",
+    "volume": 1600,
+    "reason": "Ascendent without birth time astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "calcul ascendent zodie",
+    "volume": 1600,
+    "reason": "Ascendent zodiac calculation astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "calculare ascendent fara ora nasterii",
+    "volume": 1600,
+    "reason": "Ascendent without birth time astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "calculare ascendent zodie",
+    "volume": 1600,
+    "reason": "Ascendent zodiac calculation astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "calculeaza ascendent zodie",
+    "volume": 1600,
+    "reason": "Ascendent zodiac calculation astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "calculeaza ascendentul fara ora nasterii",
+    "volume": 1600,
+    "reason": "Ascendent no birth time astrology"
+   },
+   {
+    "lang": "ro",
+    "keyword": "horoscop astazi scorpion",
+    "volume": 1600,
+    "reason": "Scorpion daily horoscope astrology"
+   }
+  ],
+  "bg": [
+   {
+    "lang": "bg",
+    "keyword": "натална карта онлайн",
+    "volume": 246000,
+    "reason": "natal chart online astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "натална карта",
+    "volume": 22200,
+    "reason": "natal chart astrology term"
+   },
+   {
+    "lang": "bg",
+    "keyword": "дева хороскоп",
+    "volume": 9900,
+    "reason": "Virgo horoscope astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "ретрограден меркурий",
+    "volume": 8100,
+    "reason": "Mercury retrograde astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "натална карта онлайн безплатно",
+    "volume": 5400,
+    "reason": "natal chart online free astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "натална карта онлайн бесплатно",
+    "volume": 5400,
+    "reason": "natal chart online free astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодии близнаци",
+    "volume": 4400,
+    "reason": "Gemini zodiac signs astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодия близнаци",
+    "volume": 4400,
+    "reason": "zodiac sign Gemini astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодия дева",
+    "volume": 4400,
+    "reason": "Virgo zodiac sign astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "ведическа астрология",
+    "volume": 4400,
+    "reason": "Vedic astrology term"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодии везни",
+    "volume": 3600,
+    "reason": "Libra zodiac signs astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодии дати",
+    "volume": 3600,
+    "reason": "zodiac signs dates astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодии овен",
+    "volume": 3600,
+    "reason": "Aries zodiac signs astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "изчисляване на асцендент",
+    "volume": 3600,
+    "reason": "ascendant calculation astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодия везни",
+    "volume": 3600,
+    "reason": "Libra zodiac sign astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "асцендент изчисляване",
+    "volume": 2900,
+    "reason": "ascendant calculation astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодии по месеци",
+    "volume": 2900,
+    "reason": "zodiac signs by months astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодии скорпион",
+    "volume": 2900,
+    "reason": "Scorpio zodiac signs astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодии стрелец",
+    "volume": 2900,
+    "reason": "Sagittarius zodiac signs astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодии телец",
+    "volume": 2900,
+    "reason": "Taurus zodiac signs astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодиите по месеци",
+    "volume": 2900,
+    "reason": "zodiac signs by months astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "дневен хороскоп телец",
+    "volume": 2900,
+    "reason": "daily Taurus horoscope astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодия водолеи",
+    "volume": 2400,
+    "reason": "Aquarius zodiac sign astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "асцендент калкулатор",
+    "volume": 1900,
+    "reason": "ascendant calculator astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "ведическа натална карта",
+    "volume": 1900,
+    "reason": "Vedic natal chart astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодии днес",
+    "volume": 1900,
+    "reason": "zodiac signs today astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодии козирог",
+    "volume": 1900,
+    "reason": "Capricorn zodiac sign astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодиите днес",
+    "volume": 1900,
+    "reason": "zodiac signs today astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "натална карта безплатно",
+    "volume": 1900,
+    "reason": "natal chart free astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "дневен хороскоп дева",
+    "volume": 1900,
+    "reason": "daily horoscope Virgo astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "дневен хороскоп овен",
+    "volume": 1600,
+    "reason": "daily horoscope Aries astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "дневен хороскоп козирог",
+    "volume": 1300,
+    "reason": "daily horoscope Capricorn astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодии за днес",
+    "volume": 1000,
+    "reason": "zodiac signs for today astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "натална карта изчисляване",
+    "volume": 1000,
+    "reason": "natal chart calculation astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "таблица асцендент",
+    "volume": 1000,
+    "reason": "ascendant table astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодия дева днес",
+    "volume": 1000,
+    "reason": "Virgo zodiac today astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "астрология натална карта",
+    "volume": 880,
+    "reason": "astrology natal chart"
+   },
+   {
+    "lang": "bg",
+    "keyword": "дневен хороскоп козирог розали",
+    "volume": 880,
+    "reason": "daily Capricorn horoscope astrology"
+   },
+   {
+    "lang": "bg",
+    "keyword": "зодиакални знаци",
+    "volume": 720,
+    "reason": "zodiac signs astrology"
+   }
+  ],
+  "hu": [
+   {
+    "lang": "hu",
+    "keyword": "natal chart",
+    "volume": 246000,
+    "reason": "natal chart is astrology birth chart"
+   },
+   {
+    "lang": "hu",
+    "keyword": "nyilas horoszkóp",
+    "volume": 14800,
+    "reason": "Nyilas horoscope zodiac sign"
+   },
+   {
+    "lang": "hu",
+    "keyword": "aszcendens kalkulátor",
+    "volume": 9900,
+    "reason": "ascendant calculator for astrology"
+   },
+   {
+    "lang": "hu",
+    "keyword": "állatövi jegyek",
+    "volume": 6600,
+    "reason": "zodiac signs list"
+   },
+   {
+    "lang": "hu",
+    "keyword": "aszcendens számítás",
+    "volume": 6600,
+    "reason": "ascendant calculation astrology"
+   },
+   {
+    "lang": "hu",
+    "keyword": "black moon lilith",
+    "volume": 5400,
+    "reason": "Black Moon Lilith astrology"
+   },
+   {
+    "lang": "hu",
+    "keyword": "ikrek csillagjegy",
+    "volume": 3600,
+    "reason": "Gemini zodiac sign astrology"
+   },
+   {
+    "lang": "hu",
+    "keyword": "halak csillagjegy",
+    "volume": 3600,
+    "reason": "Pisces zodiac sign astrology"
+   },
+   {
+    "lang": "hu",
+    "keyword": "nyilas csillagjegy",
+    "volume": 2900,
+    "reason": "Sagittarius zodiac sign astrology"
+   },
+   {
+    "lang": "hu",
+    "keyword": "horoszkóp oroszlán",
+    "volume": 2400,
+    "reason": "Leo horoscope astrology"
+   },
+   {
+    "lang": "hu",
+    "keyword": "horoszkópok mérleg",
+    "volume": 2400,
+    "reason": "Libra horoscopes astrology"
+   },
+   {
+    "lang": "hu",
+    "keyword": "horoszkópok szűz",
+    "volume": 2400,
+    "reason": "Virgo horoscopes astrology"
+   },
+   {
+    "lang": "hu",
+    "keyword": "mérleg csillagjegy",
+    "volume": 2400,
+    "reason": "Libra zodiac sign astrology"
+   },
+   {
+    "lang": "hu",
+    "keyword": "napi horoszkop halak",
+    "volume": 2400,
+    "reason": "daily Pisces horoscope"
+   },
+   {
+    "lang": "hu",
+    "keyword": "napi horoszkóp ikrek",
+    "volume": 2400,
+    "reason": "daily Gemini horoscope"
+   },
+   {
+    "lang": "hu",
+    "keyword": "halak horoszkop",
+    "volume": 1600,
+    "reason": "Pisces horoscope astrology"
+   },
+   {
+    "lang": "hu",
+    "keyword": "halak horoszkópja",
+    "volume": 1600,
+    "reason": "Pisces horoscope astrology"
+   },
+   {
+    "lang": "hu",
+    "keyword": "napi horoszkóp vizöntő",
+    "volume": 1600,
+    "reason": "daily Aquarius horoscope"
+   },
+   {
+    "lang": "hu",
+    "keyword": "aszcendens kalkulátor ingyen",
+    "volume": 1300,
+    "reason": "free ascendant calculator"
+   },
+   {
+    "lang": "hu",
+    "keyword": "napi horoszkop nyilas",
+    "volume": 1300,
+    "reason": "daily Sagittarius horoscope"
+   },
+   {
+    "lang": "hu",
+    "keyword": "aszcendens jelentése",
+    "volume": 720,
+    "reason": "meaning of ascendant astrology"
+   },
+   {
+    "lang": "hu",
+    "keyword": "halak horoszkóp jellemzői",
+    "volume": 720,
+    "reason": "Pisces horoscope characteristics"
+   }
+  ],
+  "sk": [
+   {
+    "lang": "sk",
+    "keyword": "natal chart",
+    "volume": 246000,
+    "reason": "natal chart relates to birth astrology"
+   },
+   {
+    "lang": "sk",
+    "keyword": "mercury retrograde",
+    "volume": 201000,
+    "reason": "mercury retrograde is astrological event"
+   },
+   {
+    "lang": "sk",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "vedic astrology is a branch of astrology"
+   },
+   {
+    "lang": "sk",
+    "keyword": "calcule ascendent",
+    "volume": 90500,
+    "reason": "calculate ascendant is astrology term"
+   },
+   {
+    "lang": "sk",
+    "keyword": "natalna karta",
+    "volume": 49500,
+    "reason": "natalna karta means natal chart astrology"
+   },
+   {
+    "lang": "sk",
+    "keyword": "moon sign",
+    "volume": 49500,
+    "reason": "moon sign relates to astrology"
+   },
+   {
+    "lang": "sk",
+    "keyword": "saturn return",
+    "volume": 49500,
+    "reason": "saturn return is astrological concept"
+   },
+   {
+    "lang": "sk",
+    "keyword": "rising sign",
+    "volume": 40500,
+    "reason": "rising sign is astrology term"
+   },
+   {
+    "lang": "sk",
+    "keyword": "sun sign",
+    "volume": 33100,
+    "reason": "sun sign is astrology term"
+   },
+   {
+    "lang": "sk",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "pisces symbol relates to zodiac"
+   },
+   {
+    "lang": "sk",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "aries symbol is zodiac sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "ascendent astrologie",
+    "volume": 22200,
+    "reason": "ascendent astrologie means ascendant astrology"
+   },
+   {
+    "lang": "sk",
+    "keyword": "znamenia zverokruhu",
+    "volume": 14800,
+    "reason": "znamenia zverokruhu means zodiac signs"
+   },
+   {
+    "lang": "sk",
+    "keyword": "ryby znamenia",
+    "volume": 6600,
+    "reason": "ryby znamenia means Pisces sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "blíženci znamenie",
+    "volume": 5400,
+    "reason": "blíženci znamenie means Gemini sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "rak znamenie",
+    "volume": 5400,
+    "reason": "rak znamenie means Cancer sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "full moon astrology",
+    "volume": 5400,
+    "reason": "full moon astrology is astrological"
+   },
+   {
+    "lang": "sk",
+    "keyword": "black moon lilith",
+    "volume": 5400,
+    "reason": "black moon lilith is astrology concept"
+   },
+   {
+    "lang": "sk",
+    "keyword": "vahy znameni",
+    "volume": 3600,
+    "reason": "vahy znameni means Libra sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "horoskop strelec",
+    "volume": 3600,
+    "reason": "horoskop strelec is horoscope Sagittarius"
+   },
+   {
+    "lang": "sk",
+    "keyword": "baran znamenia",
+    "volume": 2900,
+    "reason": "baran znamenia means Aries sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "baran znamenie",
+    "volume": 2900,
+    "reason": "baran znamenie means Aries sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "skorpion znamenie",
+    "volume": 2900,
+    "reason": "skorpion znamenie means Scorpio sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "strelec znamení",
+    "volume": 2900,
+    "reason": "strelec znamení means Sagittarius sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "horoscopo libra dinero hoy",
+    "volume": 2400,
+    "reason": "horoscopo Libra dinero is horoscope"
+   },
+   {
+    "lang": "sk",
+    "keyword": "horoskopy blizenci",
+    "volume": 2400,
+    "reason": "horoskopy blizenci means Gemini horoscopes"
+   },
+   {
+    "lang": "sk",
+    "keyword": "decan astrology",
+    "volume": 2400,
+    "reason": "decan astrology is astrological division"
+   },
+   {
+    "lang": "sk",
+    "keyword": "strelec znamenie",
+    "volume": 1900,
+    "reason": "strelec znamenie means Sagittarius sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "vahy znamenie",
+    "volume": 1900,
+    "reason": "vahy znamenie means Libra sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "calculeaza ascendentul fara ora nasterii",
+    "volume": 1600,
+    "reason": "calculate ascendant without birth time"
+   },
+   {
+    "lang": "sk",
+    "keyword": "kozorožec znamenie",
+    "volume": 1600,
+    "reason": "kozorožec znamenie means Capricorn sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "panna znamenia",
+    "volume": 1600,
+    "reason": "panna znamenia means Virgo sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "panna znamenie",
+    "volume": 1600,
+    "reason": "panna znamenie means Virgo sign"
+   },
+   {
+    "lang": "sk",
+    "keyword": "vypocet ascendentu",
+    "volume": 1600,
+    "reason": "vypocet ascendentu means ascendant calculation"
+   },
+   {
+    "lang": "sk",
+    "keyword": "capricorn la cung gi",
+    "volume": 1600,
+    "reason": "capricorn la cung gi means Capricorn sign"
+   }
+  ],
+  "hr": [
+   {
+    "lang": "hr",
+    "keyword": "natal chart",
+    "volume": 246000,
+    "reason": "natal chart related to astrology"
+   },
+   {
+    "lang": "hr",
+    "keyword": "mercury retrograde",
+    "volume": 201000,
+    "reason": "mercury retrograde is astrology term"
+   },
+   {
+    "lang": "hr",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "vedic astrology is astrology system"
+   },
+   {
+    "lang": "hr",
+    "keyword": "calcule ascendent",
+    "volume": 90500,
+    "reason": "calculate ascendant is astrology"
+   },
+   {
+    "lang": "hr",
+    "keyword": "natalna karta",
+    "volume": 49500,
+    "reason": "natalna karta means natal chart"
+   },
+   {
+    "lang": "hr",
+    "keyword": "moon sign",
+    "volume": 49500,
+    "reason": "moon sign is astrology concept"
+   },
+   {
+    "lang": "hr",
+    "keyword": "saturn return",
+    "volume": 49500,
+    "reason": "saturn return is astrology event"
+   },
+   {
+    "lang": "hr",
+    "keyword": "rising sign",
+    "volume": 40500,
+    "reason": "rising sign is astrology term"
+   },
+   {
+    "lang": "hr",
+    "keyword": "sun sign",
+    "volume": 33100,
+    "reason": "sun sign is astrology"
+   },
+   {
+    "lang": "hr",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "pisces symbol relates to zodiac"
+   },
+   {
+    "lang": "hr",
+    "keyword": "astroseek natal chart",
+    "volume": 27100,
+    "reason": "astroseek is astrology website"
+   },
+   {
+    "lang": "hr",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "aries symbol is zodiac sign"
+   },
+   {
+    "lang": "hr",
+    "keyword": "ascendent astrologie",
+    "volume": 22200,
+    "reason": "ascendent astrologie is astrology"
+   },
+   {
+    "lang": "hr",
+    "keyword": "natal chart free analysis",
+    "volume": 18100,
+    "reason": "natal chart free analysis astrology"
+   },
+   {
+    "lang": "hr",
+    "keyword": "horoskop aquarius",
+    "volume": 14800,
+    "reason": "horoskop aquarius is astrology"
+   },
+   {
+    "lang": "hr",
+    "keyword": "natalna karta online",
+    "volume": 9900,
+    "reason": "natalna karta online astrology"
+   },
+   {
+    "lang": "hr",
+    "keyword": "blizanci horoskop",
+    "volume": 8100,
+    "reason": "blizanci horoskop is zodiac horoscope"
+   },
+   {
+    "lang": "hr",
+    "keyword": "besplatna natalna karta",
+    "volume": 5400,
+    "reason": "besplatna natalna karta astrology"
+   },
+   {
+    "lang": "hr",
+    "keyword": "black moon lilith",
+    "volume": 5400,
+    "reason": "black moon lilith astrology term"
+   },
+   {
+    "lang": "hr",
+    "keyword": "djevica horoskop",
+    "volume": 5400,
+    "reason": "djevica horoskop is zodiac horoscope"
+   },
+   {
+    "lang": "hr",
+    "keyword": "ehoroskop djevica",
+    "volume": 3600,
+    "reason": "ehoroskop djevica astrology horoscope"
+   },
+   {
+    "lang": "hr",
+    "keyword": "horoskop vodenjak",
+    "volume": 3600,
+    "reason": "horoskop vodenjak astrology zodiac"
+   },
+   {
+    "lang": "hr",
+    "keyword": "ehoroskop strijelac",
+    "volume": 2900,
+    "reason": "ehoroskop strijelac astrology"
+   },
+   {
+    "lang": "hr",
+    "keyword": "horoscopo libra dinero hoy",
+    "volume": 2400,
+    "reason": "horoscopo libra dinero today horoscope"
+   },
+   {
+    "lang": "hr",
+    "keyword": "aries znak",
+    "volume": 1900,
+    "reason": "aries znak means aries sign zodiac"
+   },
+   {
+    "lang": "hr",
+    "keyword": "dnevni horoskop jarac",
+    "volume": 1900,
+    "reason": "dnevni horoskop jarac daily horoscope"
+   },
+   {
+    "lang": "hr",
+    "keyword": "calculeaza ascendentul fara ora nasterii",
+    "volume": 1600,
+    "reason": "calculate ascendant without birth time"
+   },
+   {
+    "lang": "hr",
+    "keyword": "besplatna natalna karta veoma precizna",
+    "volume": 1300,
+    "reason": "besplatna natalna karta very precise astrology"
+   },
+   {
+    "lang": "hr",
+    "keyword": "tranziti danas",
+    "volume": 1000,
+    "reason": "tranziti danas means transits today astrology"
+   }
+  ],
+  "sr": [
+   {
+    "lang": "sr",
+    "keyword": "natal chart",
+    "volume": 246000,
+    "reason": "natal chart astrology term"
+   },
+   {
+    "lang": "sr",
+    "keyword": "mercury retrograde",
+    "volume": 201000,
+    "reason": "mercury retrograde astrology term"
+   },
+   {
+    "lang": "sr",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "vedic astrology explicitly mentioned"
+   },
+   {
+    "lang": "sr",
+    "keyword": "calcule ascendent",
+    "volume": 90500,
+    "reason": "calculate ascendant birth chart"
+   },
+   {
+    "lang": "sr",
+    "keyword": "natalna karta",
+    "volume": 49500,
+    "reason": "natalna karta means birth chart"
+   },
+   {
+    "lang": "sr",
+    "keyword": "moon sign",
+    "volume": 49500,
+    "reason": "moon sign astrology term"
+   },
+   {
+    "lang": "sr",
+    "keyword": "saturn return",
+    "volume": 49500,
+    "reason": "saturn return astrology event"
+   },
+   {
+    "lang": "sr",
+    "keyword": "rising sign",
+    "volume": 40500,
+    "reason": "rising sign astrology term"
+   },
+   {
+    "lang": "sr",
+    "keyword": "sun sign",
+    "volume": 33100,
+    "reason": "sun sign astrology term"
+   },
+   {
+    "lang": "sr",
+    "keyword": "astroseek natal chart",
+    "volume": 27100,
+    "reason": "astroseek natal chart site"
+   },
+   {
+    "lang": "sr",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "aries symbol zodiac sign"
+   },
+   {
+    "lang": "sr",
+    "keyword": "era aquarius",
+    "volume": 27100,
+    "reason": "era aquarius astrological age"
+   },
+   {
+    "lang": "sr",
+    "keyword": "ascendent astrologie",
+    "volume": 22200,
+    "reason": "ascendent astrologie means ascendant"
+   },
+   {
+    "lang": "sr",
+    "keyword": "astrocom natal chart",
+    "volume": 18100,
+    "reason": "astrocom natal chart astrology"
+   },
+   {
+    "lang": "sr",
+    "keyword": "north node",
+    "volume": 14800,
+    "reason": "north node astrology term"
+   },
+   {
+    "lang": "sr",
+    "keyword": "horoskop aquarius",
+    "volume": 14800,
+    "reason": "horoskop aquarius zodiac horoscope"
+   },
+   {
+    "lang": "sr",
+    "keyword": "natalna karta online",
+    "volume": 9900,
+    "reason": "natalna karta online birth chart"
+   },
+   {
+    "lang": "sr",
+    "keyword": "astrodienst natal chart free",
+    "volume": 8100,
+    "reason": "astrodienst natal chart astrology site"
+   },
+   {
+    "lang": "sr",
+    "keyword": "blizanci horoskop",
+    "volume": 8100,
+    "reason": "blizanci horoskop zodiac horoscope"
+   },
+   {
+    "lang": "sr",
+    "keyword": "besplatna natalna karta",
+    "volume": 5400,
+    "reason": "besplatna natalna karta free chart"
+   },
+   {
+    "lang": "sr",
+    "keyword": "black moon lilith",
+    "volume": 5400,
+    "reason": "black moon lilith astrology term"
+   }
+  ],
+  "ca": [
+   {
+    "lang": "ca",
+    "keyword": "carta natal",
+    "volume": 550000,
+    "reason": "birth chart in astrology"
+   },
+   {
+    "lang": "ca",
+    "keyword": "calcule ascendent",
+    "volume": 90500,
+    "reason": "calculate astrological ascendant"
+   },
+   {
+    "lang": "ca",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "aries zodiac symbol"
+   },
+   {
+    "lang": "ca",
+    "keyword": "ascendent astrologie",
+    "volume": 22200,
+    "reason": "ascendant in astrology"
+   },
+   {
+    "lang": "ca",
+    "keyword": "casa 7 astrologia",
+    "volume": 3600,
+    "reason": "house 7 in astrology"
+   },
+   {
+    "lang": "ca",
+    "keyword": "casa 10 astrologia",
+    "volume": 3600,
+    "reason": "house 10 in astrology"
+   },
+   {
+    "lang": "ca",
+    "keyword": "venus astrologia",
+    "volume": 2400,
+    "reason": "Venus in astrology"
+   },
+   {
+    "lang": "ca",
+    "keyword": "calculeaza ascendentul fara ora nasterii",
+    "volume": 1600,
+    "reason": "calculate ascendant without birth time"
+   },
+   {
+    "lang": "ca",
+    "keyword": "capricorn la cung gi",
+    "volume": 1600,
+    "reason": "Capricorn zodiac sign"
+   },
+   {
+    "lang": "ca",
+    "keyword": "júpiter astrologia",
+    "volume": 1300,
+    "reason": "Jupiter in astrology"
+   },
+   {
+    "lang": "ca",
+    "keyword": "sinastria carta natal",
+    "volume": 1000,
+    "reason": "synastry birth charts"
+   },
+   {
+    "lang": "ca",
+    "keyword": "aries horoscopo de hoy en el amor",
+    "volume": 880,
+    "reason": "Aries love horoscope today"
+   },
+   {
+    "lang": "ca",
+    "keyword": "tauro horóscopo fechas",
+    "volume": 880,
+    "reason": "Taurus horoscope dates"
+   },
+   {
+    "lang": "ca",
+    "keyword": "aries horoscopo de hoy",
+    "volume": 590,
+    "reason": "Aries horoscope today"
+   },
+   {
+    "lang": "ca",
+    "keyword": "sinastria carta astral",
+    "volume": 480,
+    "reason": "synastry birth chart"
+   }
+  ],
+  "lt": [
+   {
+    "lang": "lt",
+    "keyword": "zodiako zenklai",
+    "volume": 6600,
+    "reason": "zodiac signs"
+   },
+   {
+    "lang": "lt",
+    "keyword": "zodiako zenklai datos",
+    "volume": 1300,
+    "reason": "zodiac signs dates"
+   },
+   {
+    "lang": "lt",
+    "keyword": "skorpionai zodiakas",
+    "volume": 1000,
+    "reason": "Scorpio zodiac sign"
+   },
+   {
+    "lang": "lt",
+    "keyword": "skorpionas zodiakas",
+    "volume": 1000,
+    "reason": "Scorpio zodiac sign"
+   },
+   {
+    "lang": "lt",
+    "keyword": "svarstykles zodiakas",
+    "volume": 1000,
+    "reason": "Libra zodiac sign"
+   },
+   {
+    "lang": "lt",
+    "keyword": "sidereal zodiac",
+    "volume": 1000,
+    "reason": "sidereal zodiac astrological system"
+   },
+   {
+    "lang": "lt",
+    "keyword": "avinas zodiakas",
+    "volume": 880,
+    "reason": "Aries zodiac sign"
+   },
+   {
+    "lang": "lt",
+    "keyword": "jautis zodiakas",
+    "volume": 880,
+    "reason": "Taurus zodiac sign"
+   },
+   {
+    "lang": "lt",
+    "keyword": "vandenis zodiakas",
+    "volume": 880,
+    "reason": "Aquarius zodiac sign"
+   },
+   {
+    "lang": "lt",
+    "keyword": "vezys zodiakas",
+    "volume": 880,
+    "reason": "Cancer zodiac sign"
+   },
+   {
+    "lang": "lt",
+    "keyword": "dvyniai zodiakas",
+    "volume": 720,
+    "reason": "Gemini zodiac sign"
+   },
+   {
+    "lang": "lt",
+    "keyword": "liutas zodiakas",
+    "volume": 720,
+    "reason": "Leo zodiac sign"
+   },
+   {
+    "lang": "lt",
+    "keyword": "mergele zodiakas",
+    "volume": 720,
+    "reason": "Virgo zodiac sign"
+   },
+   {
+    "lang": "lt",
+    "keyword": "zodiako ženklai pagal mėnesį",
+    "volume": 720,
+    "reason": "zodiac signs by month"
+   },
+   {
+    "lang": "lt",
+    "keyword": "šaulys zodiakas",
+    "volume": 590,
+    "reason": "Sagittarius zodiac sign"
+   },
+   {
+    "lang": "lt",
+    "keyword": "oziaragis zodiakas",
+    "volume": 480,
+    "reason": "Capricorn zodiac sign"
+   },
+   {
+    "lang": "lt",
+    "keyword": "zodiako zenklai pagal menesius",
+    "volume": 480,
+    "reason": "zodiac signs by month"
+   },
+   {
+    "lang": "lt",
+    "keyword": "zodiako zenklai pagal metus",
+    "volume": 480,
+    "reason": "zodiac signs by year"
+   },
+   {
+    "lang": "lt",
+    "keyword": "žuvys zodiakas",
+    "volume": 480,
+    "reason": "Pisces zodiac sign"
+   }
+  ],
+  "lv": [
+   {
+    "lang": "lv",
+    "keyword": "natal chart",
+    "volume": 246000,
+    "reason": "natal chart is astrology birth chart"
+   },
+   {
+    "lang": "lv",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "vedic astrology is zodiac system"
+   },
+   {
+    "lang": "lv",
+    "keyword": "rising sign",
+    "volume": 40500,
+    "reason": "rising sign is astrology term"
+   },
+   {
+    "lang": "lv",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "pisces symbol is zodiac sign"
+   },
+   {
+    "lang": "lv",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "aries symbol is zodiac sign"
+   },
+   {
+    "lang": "lv",
+    "keyword": "north node",
+    "volume": 14800,
+    "reason": "north node in astrology"
+   },
+   {
+    "lang": "lv",
+    "keyword": "zodiaka zīmes",
+    "volume": 12100,
+    "reason": "zodiaka zīmes means zodiac signs"
+   },
+   {
+    "lang": "lv",
+    "keyword": "saules aptumsums",
+    "volume": 3600,
+    "reason": "saules aptumsums means solar eclipse"
+   },
+   {
+    "lang": "lv",
+    "keyword": "mēness aptumsums",
+    "volume": 2900,
+    "reason": "mēness aptumsums means lunar eclipse"
+   },
+   {
+    "lang": "lv",
+    "keyword": "capricorn la cung gi",
+    "volume": 1600,
+    "reason": "capricorn is zodiac sign"
+   }
+  ],
+  "sl": [
+   {
+    "lang": "sl",
+    "keyword": "calcule ascendent",
+    "volume": 90500,
+    "reason": "ascendant calculation in astrology"
+   },
+   {
+    "lang": "sl",
+    "keyword": "natalna karta",
+    "volume": 49500,
+    "reason": "natal chart astrological chart"
+   },
+   {
+    "lang": "sl",
+    "keyword": "ascendent astrologie",
+    "volume": 22200,
+    "reason": "ascendant in astrology"
+   },
+   {
+    "lang": "sl",
+    "keyword": "retrogradni merkur",
+    "volume": 8100,
+    "reason": "Mercury retrograde astrology term"
+   },
+   {
+    "lang": "sl",
+    "keyword": "horoskop vodnar",
+    "volume": 4400,
+    "reason": "Aquarius horoscope"
+   },
+   {
+    "lang": "sl",
+    "keyword": "devica horoskop",
+    "volume": 3600,
+    "reason": "Virgo horoscope"
+   },
+   {
+    "lang": "sl",
+    "keyword": "calculeaza ascendentul fara ora nasterii",
+    "volume": 1600,
+    "reason": "ascendant without birth time"
+   },
+   {
+    "lang": "sl",
+    "keyword": "horoskop kozorog",
+    "volume": 1000,
+    "reason": "Capricorn horoscope"
+   },
+   {
+    "lang": "sl",
+    "keyword": "horoskop škorpijon",
+    "volume": 1000,
+    "reason": "Scorpio horoscope"
+   },
+   {
+    "lang": "sl",
+    "keyword": "dnevni horoskop devica",
+    "volume": 880,
+    "reason": "daily horoscope Virgo"
+   },
+   {
+    "lang": "sl",
+    "keyword": "dnevni horoskop vodnar",
+    "volume": 720,
+    "reason": "daily horoscope Aquarius"
+   },
+   {
+    "lang": "sl",
+    "keyword": "dnevni horoskop vodnarka",
+    "volume": 720,
+    "reason": "daily horoscope female Aquarius"
+   },
+   {
+    "lang": "sl",
+    "keyword": "natalna karta izracun",
+    "volume": 390,
+    "reason": "calculate natal chart"
+   },
+   {
+    "lang": "sl",
+    "keyword": "današnji horoskop devica",
+    "volume": 390,
+    "reason": "today's horoscope Virgo"
+   },
+   {
+    "lang": "sl",
+    "keyword": "dnevni horoskop kozorog",
+    "volume": 390,
+    "reason": "daily horoscope Capricorn"
+   },
+   {
+    "lang": "sl",
+    "keyword": "dnevni horoskop škorpijon",
+    "volume": 390,
+    "reason": "daily horoscope Scorpio"
+   },
+   {
+    "lang": "sl",
+    "keyword": "horoskop devica danes",
+    "volume": 390,
+    "reason": "Virgo horoscope today"
+   },
+   {
+    "lang": "sl",
+    "keyword": "vedska astrologija",
+    "volume": 390,
+    "reason": "Vedic astrology"
+   },
+   {
+    "lang": "sl",
+    "keyword": "merkur retrograd",
+    "volume": 320,
+    "reason": "Mercury retrograde astrology"
+   },
+   {
+    "lang": "sl",
+    "keyword": "horoskop ascendent",
+    "volume": 320,
+    "reason": "horoscope ascendant"
+   },
+   {
+    "lang": "sl",
+    "keyword": "natalna karta tranziti",
+    "volume": 320,
+    "reason": "natal chart transits"
+   },
+   {
+    "lang": "sl",
+    "keyword": "devica znak",
+    "volume": 320,
+    "reason": "Virgo zodiac sign"
+   },
+   {
+    "lang": "sl",
+    "keyword": "dnevni horoskop dvojčka",
+    "volume": 320,
+    "reason": "daily horoscope Gemini"
+   },
+   {
+    "lang": "sl",
+    "keyword": "horoskop za jutri devica",
+    "volume": 260,
+    "reason": "tomorrow horoscope Virgo"
+   },
+   {
+    "lang": "sl",
+    "keyword": "današnji tranziti",
+    "volume": 210,
+    "reason": "today's transits astrology"
+   }
+  ],
+  "et": [
+   {
+    "lang": "et",
+    "keyword": "natal chart",
+    "volume": 246000,
+    "reason": "Natal chart is birth chart astrology"
+   },
+   {
+    "lang": "et",
+    "keyword": "mercury retrograde",
+    "volume": 201000,
+    "reason": "Mercury retrograde is astrology term"
+   },
+   {
+    "lang": "et",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "Vedic astrology is a branch astrology"
+   },
+   {
+    "lang": "et",
+    "keyword": "saturn return",
+    "volume": 49500,
+    "reason": "Saturn return is astrology event"
+   },
+   {
+    "lang": "et",
+    "keyword": "rising sign",
+    "volume": 40500,
+    "reason": "Rising sign is astrology term"
+   },
+   {
+    "lang": "et",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "Pisces symbol relates to zodiac"
+   },
+   {
+    "lang": "et",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "Aries symbol relates to zodiac"
+   },
+   {
+    "lang": "et",
+    "keyword": "north node",
+    "volume": 14800,
+    "reason": "North node is astrology term"
+   },
+   {
+    "lang": "et",
+    "keyword": "venus jupiter",
+    "volume": 14800,
+    "reason": "Venus Jupiter are planets astrology"
+   },
+   {
+    "lang": "et",
+    "keyword": "black moon lilith",
+    "volume": 5400,
+    "reason": "Black Moon Lilith is astrology"
+   },
+   {
+    "lang": "et",
+    "keyword": "decan astrology",
+    "volume": 2400,
+    "reason": "Decan astrology is astrology detail"
+   },
+   {
+    "lang": "et",
+    "keyword": "sextiles astrology",
+    "volume": 2400,
+    "reason": "Sextiles astrology is astrology aspect"
+   },
+   {
+    "lang": "et",
+    "keyword": "capricorn la cung gi",
+    "volume": 1600,
+    "reason": "Capricorn is zodiac sign"
+   }
+  ],
+  "ms": [
+   {
+    "lang": "ms",
+    "keyword": "zodiac signs",
+    "volume": 1000000,
+    "reason": "zodiac signs relate to astrology"
+   },
+   {
+    "lang": "ms",
+    "keyword": "natal chart",
+    "volume": 246000,
+    "reason": "natal chart is birth chart astrology"
+   },
+   {
+    "lang": "ms",
+    "keyword": "mercury retrograde",
+    "volume": 201000,
+    "reason": "mercury retrograde is astrology term"
+   },
+   {
+    "lang": "ms",
+    "keyword": "new moon",
+    "volume": 201000,
+    "reason": "new moon important in astrology"
+   },
+   {
+    "lang": "ms",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "vedic astrology is astrology system"
+   },
+   {
+    "lang": "ms",
+    "keyword": "moon sign",
+    "volume": 49500,
+    "reason": "moon sign is astrology"
+   },
+   {
+    "lang": "ms",
+    "keyword": "astrological houses",
+    "volume": 49500,
+    "reason": "astrological houses are in astrology"
+   },
+   {
+    "lang": "ms",
+    "keyword": "saturn return",
+    "volume": 49500,
+    "reason": "saturn return is astrology concept"
+   },
+   {
+    "lang": "ms",
+    "keyword": "rising sign",
+    "volume": 40500,
+    "reason": "rising sign is zodiac term"
+   },
+   {
+    "lang": "ms",
+    "keyword": "sun sign",
+    "volume": 33100,
+    "reason": "sun sign is astrology term"
+   },
+   {
+    "lang": "ms",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "pisces symbole zodiac symbol"
+   },
+   {
+    "lang": "ms",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "aries symbole zodiac symbol"
+   },
+   {
+    "lang": "ms",
+    "keyword": "north node",
+    "volume": 14800,
+    "reason": "north node is astrology"
+   },
+   {
+    "lang": "ms",
+    "keyword": "horoskop aquarius",
+    "volume": 14800,
+    "reason": "horoskop aquarius is astrology"
+   },
+   {
+    "lang": "ms",
+    "keyword": "horoskop taurus",
+    "volume": 12100,
+    "reason": "horoskop taurus is astrology"
+   },
+   {
+    "lang": "ms",
+    "keyword": "chiron astrologi",
+    "volume": 9900,
+    "reason": "chiron astrologi is astrology"
+   },
+   {
+    "lang": "ms",
+    "keyword": "venus astrologi",
+    "volume": 8100,
+    "reason": "venus astrologi is astrology"
+   },
+   {
+    "lang": "ms",
+    "keyword": "saturn astrologi",
+    "volume": 6600,
+    "reason": "saturn astrologi is astrology"
+   },
+   {
+    "lang": "ms",
+    "keyword": "black moon lilith",
+    "volume": 5400,
+    "reason": "black moon lilith is astrology term"
+   },
+   {
+    "lang": "ms",
+    "keyword": "sextiles astrology",
+    "volume": 2400,
+    "reason": "sextiles astrology is astrology"
+   }
+  ],
+  "bn": [
+   {
+    "lang": "bn",
+    "keyword": "মিথুন রাশি",
+    "volume": 40500,
+    "reason": "Gemini zodiac sign term"
+   },
+   {
+    "lang": "bn",
+    "keyword": "কুম্ভ রাশি",
+    "volume": 22200,
+    "reason": "Aquarius zodiac sign term"
+   },
+   {
+    "lang": "bn",
+    "keyword": "কুম্ভ রাশি আজকের রাশিফল",
+    "volume": 22200,
+    "reason": "Aquarius daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "কুম্ভ রাশির আজকের রাশিফল",
+    "volume": 22200,
+    "reason": "Aquarius daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "তুলা রাশি",
+    "volume": 18100,
+    "reason": "Libra zodiac sign term"
+   },
+   {
+    "lang": "bn",
+    "keyword": "সিংহ রাশি",
+    "volume": 18100,
+    "reason": "Leo zodiac sign term"
+   },
+   {
+    "lang": "bn",
+    "keyword": "কন্যা রাশি",
+    "volume": 14800,
+    "reason": "Virgo zodiac sign term"
+   },
+   {
+    "lang": "bn",
+    "keyword": "বৃশ্চিক রাশি",
+    "volume": 14800,
+    "reason": "Scorpio zodiac sign term"
+   },
+   {
+    "lang": "bn",
+    "keyword": "মিথুন রাশি আজকের রাশিফল",
+    "volume": 14800,
+    "reason": "Gemini daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "কন্যা রাশির আজকের রাশিফল",
+    "volume": 12100,
+    "reason": "Virgo daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "তুলা রাশি আজকের রাশিফল",
+    "volume": 12100,
+    "reason": "Libra daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "তুলা রাশি রাশিফল",
+    "volume": 12100,
+    "reason": "Libra daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "বৃশ্চিক রাশি আজকের রাশিফল",
+    "volume": 9900,
+    "reason": "Scorpio daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "কুম্ভ রাশি ফল",
+    "volume": 9900,
+    "reason": "Aquarius horoscope meaning"
+   },
+   {
+    "lang": "bn",
+    "keyword": "কুম্ভ রাশি রাশিফল",
+    "volume": 9900,
+    "reason": "Aquarius horoscope meaning"
+   },
+   {
+    "lang": "bn",
+    "keyword": "আজকের তুলা রাশি",
+    "volume": 8100,
+    "reason": "Libra zodiac daily reference"
+   },
+   {
+    "lang": "bn",
+    "keyword": "কর্কট রাশি",
+    "volume": 6600,
+    "reason": "Cancer zodiac sign term"
+   },
+   {
+    "lang": "bn",
+    "keyword": "কন্যা রাশি ফল",
+    "volume": 4400,
+    "reason": "Virgo horoscope meaning"
+   },
+   {
+    "lang": "bn",
+    "keyword": "কর্কট রাশির আজকের রাশিফল",
+    "volume": 4400,
+    "reason": "Cancer daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "তুলা রাশিফল",
+    "volume": 4400,
+    "reason": "Libra horoscope term"
+   },
+   {
+    "lang": "bn",
+    "keyword": "দৈনিক কুম্ভ রাশিফল",
+    "volume": 4400,
+    "reason": "Aquarius daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "কর্কট রাশির আজকের দিন",
+    "volume": 3600,
+    "reason": "Cancer daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "বৃশ্চিক রাশি রাশিফল",
+    "volume": 3600,
+    "reason": "Scorpio horoscope meaning"
+   },
+   {
+    "lang": "bn",
+    "keyword": "আজকের রাশিফল কর্কট",
+    "volume": 2900,
+    "reason": "Cancer daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "আজকের সিংহ রাশিফল",
+    "volume": 2900,
+    "reason": "Leo daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "আজকের কুম্ভ রাশি",
+    "volume": 2900,
+    "reason": "Aquarius daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "আজকের কুম্ভ রাশিফল",
+    "volume": 2900,
+    "reason": "Aquarius daily horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "রাশিচক্র নির্ণয়",
+    "volume": 2400,
+    "reason": "Zodiac chart calculation"
+   },
+   {
+    "lang": "bn",
+    "keyword": "আগামীকালের রাশিফল তুলা রাশি",
+    "volume": 2400,
+    "reason": "Tomorrow's Libra horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "কালকের রাশিফল কুম্ভ রাশি",
+    "volume": 1900,
+    "reason": "Aquarius tomorrow horoscope"
+   },
+   {
+    "lang": "bn",
+    "keyword": "আজকের রাশিফল কন্যা রাশি",
+    "volume": 1600,
+    "reason": "Virgo daily horoscope"
+   }
+  ],
+  "ta": [
+   {
+    "lang": "ta",
+    "keyword": "moon sign",
+    "volume": 49500,
+    "reason": "Moon sign is astrology term"
+   },
+   {
+    "lang": "ta",
+    "keyword": "black moon lilith",
+    "volume": 5400,
+    "reason": "Black Moon Lilith is astrology term"
+   },
+   {
+    "lang": "ta",
+    "keyword": "பிறந்த தேதி நேரம் வைத்து ஜாதகம் app",
+    "volume": 4400,
+    "reason": "Birth date time horoscope app"
+   },
+   {
+    "lang": "ta",
+    "keyword": "தனுசு ராசி",
+    "volume": 4400,
+    "reason": "தனுசு ராசி is zodiac sign"
+   },
+   {
+    "lang": "ta",
+    "keyword": "இலவச ஜாதகம் பார்க்க வேண்டும் தமிழில்",
+    "volume": 3600,
+    "reason": "Free horoscope in Tamil"
+   },
+   {
+    "lang": "ta",
+    "keyword": "பிறந்த ஜாதகம் கணிக்க",
+    "volume": 3600,
+    "reason": "Calculate birth horoscope"
+   },
+   {
+    "lang": "ta",
+    "keyword": "இலவச வாழ்நாள் ஜாதகம்",
+    "volume": 2900,
+    "reason": "Free lifetime horoscope"
+   },
+   {
+    "lang": "ta",
+    "keyword": "கும்ப ராசி",
+    "volume": 1900,
+    "reason": "கும்ப ராசி is zodiac sign"
+   },
+   {
+    "lang": "ta",
+    "keyword": "கன்னி ராசி",
+    "volume": 1600,
+    "reason": "கன்னி ராசி is zodiac sign"
+   },
+   {
+    "lang": "ta",
+    "keyword": "சிம்ம ராசி",
+    "volume": 1600,
+    "reason": "சிம்ம ராசி is zodiac sign"
+   },
+   {
+    "lang": "ta",
+    "keyword": "ஜாதகம் பார்க்க வேண்டும் தமிழில்",
+    "volume": 1300,
+    "reason": "Want to see horoscope Tamil"
+   },
+   {
+    "lang": "ta",
+    "keyword": "ஜாதகம் ஆன்லைன்",
+    "volume": 1300,
+    "reason": "Online horoscope requested"
+   },
+   {
+    "lang": "ta",
+    "keyword": "மீனம் ராசி பலன் நாளை",
+    "volume": 1300,
+    "reason": "மீனம் ராசி daily prediction"
+   },
+   {
+    "lang": "ta",
+    "keyword": "பிறந்த தேதி நேரம் வைத்து ஜாதகம் பார்க்க",
+    "volume": 1000,
+    "reason": "Birth date time horoscope viewing"
+   },
+   {
+    "lang": "ta",
+    "keyword": "கடகம் ராசி",
+    "volume": 1000,
+    "reason": "கடகம் ராசி is zodiac sign"
+   },
+   {
+    "lang": "ta",
+    "keyword": "மீன ராசி",
+    "volume": 1000,
+    "reason": "மீன ராசி is zodiac sign"
+   },
+   {
+    "lang": "ta",
+    "keyword": "மீனம் ராசி பலன் இன்று",
+    "volume": 1000,
+    "reason": "மீனம் ராசி daily prediction"
+   },
+   {
+    "lang": "ta",
+    "keyword": "ஜாதகம் பார்க்க சாப்ட்வேர் free download",
+    "volume": 880,
+    "reason": "Horoscope viewing software free"
+   },
+   {
+    "lang": "ta",
+    "keyword": "கன்னி ராசி நட்சத்திரங்கள்",
+    "volume": 880,
+    "reason": "கன்னி ராசி nakshatras astrology"
+   },
+   {
+    "lang": "ta",
+    "keyword": "கன்னி ராசி பலன்",
+    "volume": 880,
+    "reason": "கன்னி ராசி prediction"
+   },
+   {
+    "lang": "ta",
+    "keyword": "தனுசு ராசி பலன் today",
+    "volume": 880,
+    "reason": "தனுசு ராசி prediction today"
+   },
+   {
+    "lang": "ta",
+    "keyword": "கன்னி ராசி பலன் இன்று",
+    "volume": 720,
+    "reason": "கன்னி ராசி prediction today"
+   },
+   {
+    "lang": "ta",
+    "keyword": "தனுசு ராசி பலன்",
+    "volume": 720,
+    "reason": "தனுசு ராசி prediction"
+   },
+   {
+    "lang": "ta",
+    "keyword": "தனுசு ராசி பூராடம்",
+    "volume": 720,
+    "reason": "தனுசு ராசி பூராடம் is nakshatra"
+   },
+   {
+    "lang": "ta",
+    "keyword": "இன்றைய துலாம் ராசி பலன்",
+    "volume": 590,
+    "reason": "இன்றைய ராசி பலன் zodiac horoscope"
+   },
+   {
+    "lang": "ta",
+    "keyword": "இன்றைய ராசி பலன் துலாம் தினமலர்",
+    "volume": 590,
+    "reason": "Today's horoscope daily newspaper"
+   },
+   {
+    "lang": "ta",
+    "keyword": "சிம்ம ராசி பலன்",
+    "volume": 590,
+    "reason": "சிம்ம ராசி prediction"
+   },
+   {
+    "lang": "ta",
+    "keyword": "சிம்ம ராசி பலன் இன்று",
+    "volume": 590,
+    "reason": "சிம்ம ராசி prediction today"
+   },
+   {
+    "lang": "ta",
+    "keyword": "சிம்மம் ராசி பலன் இன்று",
+    "volume": 590,
+    "reason": "சிம்மம் ராசி prediction today"
+   },
+   {
+    "lang": "ta",
+    "keyword": "கும்ப ராசி நட்சத்திரம்",
+    "volume": 590,
+    "reason": "கும்ப ராசி nakshatra astrology"
+   },
+   {
+    "lang": "ta",
+    "keyword": "மீன ராசி ரேவதி நட்சத்திரம்",
+    "volume": 590,
+    "reason": "மீன ராசி ரேவதி nakshatra"
+   },
+   {
+    "lang": "ta",
+    "keyword": "கடகம் ராசி பலன் இன்று",
+    "volume": 480,
+    "reason": "கடகம் ராசி prediction today"
+   },
+   {
+    "lang": "ta",
+    "keyword": "சிம்மம் ராசி நட்சத்திரம்",
+    "volume": 480,
+    "reason": "சிம்மம் ராசி nakshatra astrology"
+   },
+   {
+    "lang": "ta",
+    "keyword": "தனுசு ராசி நட்சத்திரம்",
+    "volume": 480,
+    "reason": "தனுசு ராசி nakshatra astrology"
+   },
+   {
+    "lang": "ta",
+    "keyword": "கும்பம் ராசி பலன் இன்று",
+    "volume": 480,
+    "reason": "கும்பம் ராசி prediction today"
+   },
+   {
+    "lang": "ta",
+    "keyword": "இன்றைய கன்னி ராசி பலன்",
+    "volume": 390,
+    "reason": "இன்றைய கன்னி ராசி prediction"
+   },
+   {
+    "lang": "ta",
+    "keyword": "சிம்ம ராசி மகம் நட்சத்திரம்",
+    "volume": 390,
+    "reason": "சிம்ம ராசி nakshatra astrology"
+   },
+   {
+    "lang": "ta",
+    "keyword": "சிம்மம் இன்று",
+    "volume": 390,
+    "reason": "சிம்மம் இன்று relates to astrology"
+   }
+  ],
+  "te": [
+   {
+    "lang": "te",
+    "keyword": "zodiac signs",
+    "volume": 1000000,
+    "reason": "Zodiac signs are astrology content"
+   },
+   {
+    "lang": "te",
+    "keyword": "natal chart",
+    "volume": 246000,
+    "reason": "Natal chart is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "mercury retrograde",
+    "volume": 201000,
+    "reason": "Mercury retrograde is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "Vedic astrology is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "moon sign",
+    "volume": 49500,
+    "reason": "Moon sign is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "astrological houses",
+    "volume": 49500,
+    "reason": "Astrological houses are astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "saturn return",
+    "volume": 49500,
+    "reason": "Saturn return is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "rising sign",
+    "volume": 40500,
+    "reason": "Rising sign is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "sun sign",
+    "volume": 33100,
+    "reason": "Sun sign is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "Pisces symbol is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "Aries symbol is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "libra simbol",
+    "volume": 22200,
+    "reason": "Libra symbol is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "north node",
+    "volume": 14800,
+    "reason": "North node is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "10th house astrology",
+    "volume": 14800,
+    "reason": "10th house astrology is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "capricorn in telugu",
+    "volume": 12100,
+    "reason": "Capricorn zodiac in Telugu"
+   },
+   {
+    "lang": "te",
+    "keyword": "capricorn telugu",
+    "volume": 12100,
+    "reason": "Capricorn zodiac in Telugu"
+   },
+   {
+    "lang": "te",
+    "keyword": "7th house astrology",
+    "volume": 12100,
+    "reason": "7th house astrology is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "sagittarius in telugu",
+    "volume": 9900,
+    "reason": "Sagittarius zodiac in Telugu"
+   },
+   {
+    "lang": "te",
+    "keyword": "sagittarius telugu",
+    "volume": 9900,
+    "reason": "Sagittarius zodiac in Telugu"
+   },
+   {
+    "lang": "te",
+    "keyword": "chiron astrology",
+    "volume": 9900,
+    "reason": "Chiron is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "aquarius telugu",
+    "volume": 8100,
+    "reason": "Aquarius zodiac in Telugu"
+   },
+   {
+    "lang": "te",
+    "keyword": "libra telugu",
+    "volume": 8100,
+    "reason": "Libra zodiac in Telugu"
+   },
+   {
+    "lang": "te",
+    "keyword": "venus astrology",
+    "volume": 8100,
+    "reason": "Venus in astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "mars astrology",
+    "volume": 6600,
+    "reason": "Mars in astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "saturn astrology",
+    "volume": 6600,
+    "reason": "Saturn in astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "scorpio zodiac in telugu",
+    "volume": 5400,
+    "reason": "Scorpio zodiac in Telugu"
+   },
+   {
+    "lang": "te",
+    "keyword": "full moon astrology",
+    "volume": 5400,
+    "reason": "Full moon astrology content"
+   },
+   {
+    "lang": "te",
+    "keyword": "black moon lilith",
+    "volume": 5400,
+    "reason": "Black moon Lilith is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "scorpio in telugu",
+    "volume": 5400,
+    "reason": "Scorpio zodiac in Telugu"
+   },
+   {
+    "lang": "te",
+    "keyword": "uranus astrology",
+    "volume": 5400,
+    "reason": "Uranus in astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "trine aspect",
+    "volume": 5400,
+    "reason": "Trine aspect is astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "pluto astrology",
+    "volume": 3600,
+    "reason": "Pluto in astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "jupiter astrology",
+    "volume": 2900,
+    "reason": "Jupiter in astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "horoscopo libra dinero hoy",
+    "volume": 2400,
+    "reason": "Libra horoscope and money today"
+   },
+   {
+    "lang": "te",
+    "keyword": "decans astrology",
+    "volume": 2400,
+    "reason": "Decans are astrology concept"
+   },
+   {
+    "lang": "te",
+    "keyword": "scorpio rasi in telugu",
+    "volume": 1900,
+    "reason": "Scorpio rasi in Telugu astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "neptune astrology",
+    "volume": 1900,
+    "reason": "Neptune in astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "capricorn la cung gi",
+    "volume": 1600,
+    "reason": "Capricorn meaning in astrology"
+   },
+   {
+    "lang": "te",
+    "keyword": "natal chart in telugu",
+    "volume": 1300,
+    "reason": "Natal chart in Telugu"
+   },
+   {
+    "lang": "te",
+    "keyword": "today తులా రాశి ఫలితాలు",
+    "volume": 1300,
+    "reason": "Today Tula Rasi results (horoscope)"
+   }
+  ],
+  "mr": [
+   {
+    "lang": "mr",
+    "keyword": "zodiac signs",
+    "volume": 1000000,
+    "reason": "Zodiac signs relate to astrology"
+   },
+   {
+    "lang": "mr",
+    "keyword": "natal chart",
+    "volume": 246000,
+    "reason": "Natal chart is astrological birth chart"
+   },
+   {
+    "lang": "mr",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "Vedic astrology is a form of astrology"
+   },
+   {
+    "lang": "mr",
+    "keyword": "moon sign",
+    "volume": 49500,
+    "reason": "Moon sign is astrology term"
+   },
+   {
+    "lang": "mr",
+    "keyword": "astrological houses",
+    "volume": 49500,
+    "reason": "Astrological houses are astrology concept"
+   },
+   {
+    "lang": "mr",
+    "keyword": "rising sign",
+    "volume": 40500,
+    "reason": "Rising sign is astrology term"
+   },
+   {
+    "lang": "mr",
+    "keyword": "sun sign",
+    "volume": 33100,
+    "reason": "Sun sign is astrology term"
+   },
+   {
+    "lang": "mr",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "Pisces symbol is zodiac astrology"
+   },
+   {
+    "lang": "mr",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "Aries symbol is zodiac astrology"
+   },
+   {
+    "lang": "mr",
+    "keyword": "libra simbol",
+    "volume": 22200,
+    "reason": "Libra symbol relates to zodiac astrology"
+   },
+   {
+    "lang": "mr",
+    "keyword": "10th house astrology",
+    "volume": 14800,
+    "reason": "10th house is astrology concept"
+   },
+   {
+    "lang": "mr",
+    "keyword": "7th house astrology",
+    "volume": 12100,
+    "reason": "7th house is astrology concept"
+   },
+   {
+    "lang": "mr",
+    "keyword": "capricorn in marathi",
+    "volume": 9900,
+    "reason": "Capricorn in Marathi zodiac sign"
+   },
+   {
+    "lang": "mr",
+    "keyword": "chiron astrology",
+    "volume": 9900,
+    "reason": "Chiron is astrology body"
+   },
+   {
+    "lang": "mr",
+    "keyword": "taurus in marathi",
+    "volume": 8100,
+    "reason": "Taurus in Marathi zodiac sign"
+   },
+   {
+    "lang": "mr",
+    "keyword": "कुंभ राशी आजचे भविष्य",
+    "volume": 8100,
+    "reason": "Kumbh Rashi daily horoscope"
+   },
+   {
+    "lang": "mr",
+    "keyword": "कुंभ राशीचे आजचे भविष्य",
+    "volume": 8100,
+    "reason": "Kumbh Rashi daily horoscope"
+   },
+   {
+    "lang": "mr",
+    "keyword": "venus astrology",
+    "volume": 8100,
+    "reason": "Venus in astrology"
+   },
+   {
+    "lang": "mr",
+    "keyword": "aquarius in marathi",
+    "volume": 6600,
+    "reason": "Aquarius in Marathi zodiac sign"
+   },
+   {
+    "lang": "mr",
+    "keyword": "libra in marathi",
+    "volume": 6600,
+    "reason": "Libra in Marathi zodiac sign"
+   },
+   {
+    "lang": "mr",
+    "keyword": "sagittarius in marathi",
+    "volume": 6600,
+    "reason": "Sagittarius in Marathi zodiac sign"
+   },
+   {
+    "lang": "mr",
+    "keyword": "aries in marathi",
+    "volume": 6600,
+    "reason": "Aries in Marathi zodiac sign"
+   },
+   {
+    "lang": "mr",
+    "keyword": "mars astrology",
+    "volume": 6600,
+    "reason": "Mars in astrology"
+   },
+   {
+    "lang": "mr",
+    "keyword": "saturn astrology",
+    "volume": 6600,
+    "reason": "Saturn in astrology"
+   },
+   {
+    "lang": "mr",
+    "keyword": "full moon astrology",
+    "volume": 5400,
+    "reason": "Full moon in astrology context"
+   },
+   {
+    "lang": "mr",
+    "keyword": "black moon lilith",
+    "volume": 5400,
+    "reason": "Black moon Lilith astrology body"
+   },
+   {
+    "lang": "mr",
+    "keyword": "वृषभ राशीचे आजचे भविष्य",
+    "volume": 5400,
+    "reason": "Vrishabh daily horoscope"
+   },
+   {
+    "lang": "mr",
+    "keyword": "uranus astrology",
+    "volume": 5400,
+    "reason": "Uranus in astrology"
+   },
+   {
+    "lang": "mr",
+    "keyword": "trine aspect",
+    "volume": 5400,
+    "reason": "Trine aspect is astrology term"
+   },
+   {
+    "lang": "mr",
+    "keyword": "pluto astrology",
+    "volume": 3600,
+    "reason": "Pluto in astrology"
+   },
+   {
+    "lang": "mr",
+    "keyword": "उद्याचे राशी भविष्य कुंभ",
+    "volume": 2900,
+    "reason": "Tomorrow's Kumbh horoscope"
+   },
+   {
+    "lang": "mr",
+    "keyword": "jupiter astrology",
+    "volume": 2900,
+    "reason": "Jupiter in astrology"
+   },
+   {
+    "lang": "mr",
+    "keyword": "horoscopo libra dinero hoy",
+    "volume": 2400,
+    "reason": "Libra horoscope about money today"
+   },
+   {
+    "lang": "mr",
+    "keyword": "decans astrology",
+    "volume": 2400,
+    "reason": "Decans are astrology subdivisions"
+   },
+   {
+    "lang": "mr",
+    "keyword": "scorpio rashi in marathi",
+    "volume": 1900,
+    "reason": "Scorpio zodiac Marathi sign"
+   },
+   {
+    "lang": "mr",
+    "keyword": "उद्याचे राशी भविष्य वृषभ",
+    "volume": 1900,
+    "reason": "Tomorrow Vrishabh horoscope"
+   },
+   {
+    "lang": "mr",
+    "keyword": "कन्या राशीचे आजचे भविष्य",
+    "volume": 1900,
+    "reason": "Kanya Rashi daily horoscope"
+   },
+   {
+    "lang": "mr",
+    "keyword": "neptune astrology",
+    "volume": 1900,
+    "reason": "Neptune in astrology"
+   },
+   {
+    "lang": "mr",
+    "keyword": "capricorn la cung gi",
+    "volume": 1600,
+    "reason": "Capricorn zodiac in Vietnamese"
+   },
+   {
+    "lang": "mr",
+    "keyword": "virgo la cung gi",
+    "volume": 1600,
+    "reason": "Virgo zodiac in Vietnamese"
+   }
+  ],
+  "ur": [
+   {
+    "lang": "ur",
+    "keyword": "zodiac signs",
+    "volume": 1000000,
+    "reason": "Zodiac signs are astrology content"
+   },
+   {
+    "lang": "ur",
+    "keyword": "natal chart",
+    "volume": 246000,
+    "reason": "Natal chart is astrology birth chart"
+   },
+   {
+    "lang": "ur",
+    "keyword": "mercury retrograde",
+    "volume": 201000,
+    "reason": "Mercury retrograde is astrology term"
+   },
+   {
+    "lang": "ur",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "Vedic astrology is astrology system"
+   },
+   {
+    "lang": "ur",
+    "keyword": "moon sign",
+    "volume": 49500,
+    "reason": "Moon sign relates to astrology"
+   },
+   {
+    "lang": "ur",
+    "keyword": "astrological houses",
+    "volume": 49500,
+    "reason": "Astrological houses are astrology concept"
+   },
+   {
+    "lang": "ur",
+    "keyword": "saturn return",
+    "volume": 49500,
+    "reason": "Saturn return is astrology event"
+   },
+   {
+    "lang": "ur",
+    "keyword": "rising sign",
+    "volume": 40500,
+    "reason": "Rising sign is astrology term"
+   },
+   {
+    "lang": "ur",
+    "keyword": "sun sign",
+    "volume": 33100,
+    "reason": "Sun sign relates to astrology"
+   },
+   {
+    "lang": "ur",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "Pisces symbol is zodiac sign"
+   },
+   {
+    "lang": "ur",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "Aries symbol is zodiac sign"
+   },
+   {
+    "lang": "ur",
+    "keyword": "libra simbol",
+    "volume": 22200,
+    "reason": "Libra symbol relates to zodiac"
+   },
+   {
+    "lang": "ur",
+    "keyword": "north node",
+    "volume": 14800,
+    "reason": "North node is astrology point"
+   },
+   {
+    "lang": "ur",
+    "keyword": "10th house astrology",
+    "volume": 14800,
+    "reason": "10th house is astrology concept"
+   },
+   {
+    "lang": "ur",
+    "keyword": "libra today urdu",
+    "volume": 12100,
+    "reason": "Libra daily horoscope in Urdu"
+   },
+   {
+    "lang": "ur",
+    "keyword": "7th house astrology",
+    "volume": 12100,
+    "reason": "7th house is astrology concept"
+   },
+   {
+    "lang": "ur",
+    "keyword": "chiron astrology",
+    "volume": 9900,
+    "reason": "Chiron is astrology asteroid"
+   },
+   {
+    "lang": "ur",
+    "keyword": "today horoscope in urdu aries",
+    "volume": 9900,
+    "reason": "Today horoscope Aries in Urdu"
+   },
+   {
+    "lang": "ur",
+    "keyword": "venus astrology",
+    "volume": 8100,
+    "reason": "Venus in astrology context"
+   },
+   {
+    "lang": "ur",
+    "keyword": "mars astrology",
+    "volume": 6600,
+    "reason": "Mars in astrology context"
+   },
+   {
+    "lang": "ur",
+    "keyword": "saturn astrology",
+    "volume": 6600,
+    "reason": "Saturn in astrology context"
+   },
+   {
+    "lang": "ur",
+    "keyword": "full moon astrology",
+    "volume": 5400,
+    "reason": "Full moon has astrology meaning"
+   },
+   {
+    "lang": "ur",
+    "keyword": "black moon lilith",
+    "volume": 5400,
+    "reason": "Black moon Lilith astrology term"
+   },
+   {
+    "lang": "ur",
+    "keyword": "uranus astrology",
+    "volume": 5400,
+    "reason": "Uranus astrology reference"
+   },
+   {
+    "lang": "ur",
+    "keyword": "trine aspect",
+    "volume": 5400,
+    "reason": "Trine aspect is astrology term"
+   },
+   {
+    "lang": "ur",
+    "keyword": "pluto astrology",
+    "volume": 3600,
+    "reason": "Pluto in astrology"
+   },
+   {
+    "lang": "ur",
+    "keyword": "jupiter astrology",
+    "volume": 2900,
+    "reason": "Jupiter in astrology"
+   },
+   {
+    "lang": "ur",
+    "keyword": "horoscopo libra dinero hoy",
+    "volume": 2400,
+    "reason": "Libra money horoscope today"
+   },
+   {
+    "lang": "ur",
+    "keyword": "decans astrology",
+    "volume": 2400,
+    "reason": "Decans are astrology divisions"
+   },
+   {
+    "lang": "ur",
+    "keyword": "neptune astrology",
+    "volume": 1900,
+    "reason": "Neptune in astrology"
+   },
+   {
+    "lang": "ur",
+    "keyword": "virgo star urdu",
+    "volume": 1600,
+    "reason": "Virgo star refers to astrology"
+   },
+   {
+    "lang": "ur",
+    "keyword": "capricorn la cung gi",
+    "volume": 1600,
+    "reason": "Capricorn in astrology"
+   },
+   {
+    "lang": "ur",
+    "keyword": "virgo la cung gi",
+    "volume": 1600,
+    "reason": "Virgo in astrology"
+   },
+   {
+    "lang": "ur",
+    "keyword": "virgo urdu",
+    "volume": 1600,
+    "reason": "Virgo term in Urdu astrology"
+   },
+   {
+    "lang": "ur",
+    "keyword": "cusp astrology",
+    "volume": 1300,
+    "reason": "Cusp is astrology boundary"
+   },
+   {
+    "lang": "ur",
+    "keyword": "aries star urdu",
+    "volume": 1000,
+    "reason": "Aries star relates to astrology"
+   },
+   {
+    "lang": "ur",
+    "keyword": "new moon astrology",
+    "volume": 1000,
+    "reason": "New moon in astrology"
+   },
+   {
+    "lang": "ur",
+    "keyword": "sidereal zodiac",
+    "volume": 1000,
+    "reason": "Sidereal zodiac is astrology system"
+   },
+   {
+    "lang": "ur",
+    "keyword": "aries horoscopo de hoy en el amor",
+    "volume": 880,
+    "reason": "Aries love horoscope today"
+   },
+   {
+    "lang": "ur",
+    "keyword": "horoscope gratuit du capricorne",
+    "volume": 720,
+    "reason": "Capricorn horoscope in French"
+   }
+  ],
+  "fa": [
+   {
+    "lang": "fa",
+    "keyword": "برج عقرب",
+    "volume": 165000,
+    "reason": "Zodiac sign Scorpio"
+   },
+   {
+    "lang": "fa",
+    "keyword": "برج حوت",
+    "volume": 165000,
+    "reason": "Zodiac sign Pisces"
+   },
+   {
+    "lang": "fa",
+    "keyword": "برج حمل",
+    "volume": 135000,
+    "reason": "Zodiac sign Aries"
+   },
+   {
+    "lang": "fa",
+    "keyword": "برج قوس",
+    "volume": 135000,
+    "reason": "Zodiac sign Sagittarius"
+   },
+   {
+    "lang": "fa",
+    "keyword": "برج دلو",
+    "volume": 135000,
+    "reason": "Zodiac sign Aquarius"
+   },
+   {
+    "lang": "fa",
+    "keyword": "برج ثور",
+    "volume": 110000,
+    "reason": "Zodiac sign Taurus"
+   },
+   {
+    "lang": "fa",
+    "keyword": "برج سرطان",
+    "volume": 110000,
+    "reason": "Zodiac sign Cancer"
+   },
+   {
+    "lang": "fa",
+    "keyword": "چارت تولد",
+    "volume": 1600,
+    "reason": "Birth chart, astrology"
+   },
+   {
+    "lang": "fa",
+    "keyword": "برج اسد",
+    "volume": 720,
+    "reason": "Zodiac sign Leo"
+   },
+   {
+    "lang": "fa",
+    "keyword": "برج سنبله",
+    "volume": 590,
+    "reason": "Zodiac sign Virgo"
+   }
+  ],
+  "fil": [
+   {
+    "lang": "fil",
+    "keyword": "zodiac signs",
+    "volume": 1000000,
+    "reason": "Zodiac signs relate to astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "lunar eclipse",
+    "volume": 823000,
+    "reason": "Lunar eclipse studied in astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "natal chart",
+    "volume": 246000,
+    "reason": "Natal chart is an astrology chart"
+   },
+   {
+    "lang": "fil",
+    "keyword": "mercury retrograde",
+    "volume": 201000,
+    "reason": "Mercury retrograde is astrology term"
+   },
+   {
+    "lang": "fil",
+    "keyword": "vedic astrology",
+    "volume": 110000,
+    "reason": "Vedic astrology is astrological system"
+   },
+   {
+    "lang": "fil",
+    "keyword": "moon sign",
+    "volume": 49500,
+    "reason": "Moon sign is astrology concept"
+   },
+   {
+    "lang": "fil",
+    "keyword": "astrological houses",
+    "volume": 49500,
+    "reason": "Astrological houses are astrology terms"
+   },
+   {
+    "lang": "fil",
+    "keyword": "saturn return",
+    "volume": 49500,
+    "reason": "Saturn return is astrology event"
+   },
+   {
+    "lang": "fil",
+    "keyword": "rising sign",
+    "volume": 40500,
+    "reason": "Rising sign is astrology term"
+   },
+   {
+    "lang": "fil",
+    "keyword": "sun sign",
+    "volume": 33100,
+    "reason": "Sun sign refers to astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "pisces symbole",
+    "volume": 33100,
+    "reason": "Pisces symbol used in astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "aries symbole",
+    "volume": 27100,
+    "reason": "Aries symbol related to astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "north node",
+    "volume": 14800,
+    "reason": "North node is astrology concept"
+   },
+   {
+    "lang": "fil",
+    "keyword": "10th house astrology",
+    "volume": 14800,
+    "reason": "10th house is astrology term"
+   },
+   {
+    "lang": "fil",
+    "keyword": "7th house astrology",
+    "volume": 12100,
+    "reason": "7th house is astrology term"
+   },
+   {
+    "lang": "fil",
+    "keyword": "7th house",
+    "volume": 12100,
+    "reason": "7th house usually means astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "astrology transits",
+    "volume": 9900,
+    "reason": "Astrology transits relate to zodiac"
+   },
+   {
+    "lang": "fil",
+    "keyword": "chiron astrology",
+    "volume": 9900,
+    "reason": "Chiron is asteroid in astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "full moon meaning",
+    "volume": 8100,
+    "reason": "Full moon meanings used in astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "venus astrology",
+    "volume": 8100,
+    "reason": "Venus related to astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "10th house",
+    "volume": 8100,
+    "reason": "10th house refers to astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "mars astrology",
+    "volume": 6600,
+    "reason": "Mars is planet in astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "saturn astrology",
+    "volume": 6600,
+    "reason": "Saturn is planet in astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "aspects astrology",
+    "volume": 5400,
+    "reason": "Aspects are astrology term"
+   },
+   {
+    "lang": "fil",
+    "keyword": "full moon astrology",
+    "volume": 5400,
+    "reason": "Full moon astrology is astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "new moon meaning",
+    "volume": 5400,
+    "reason": "New moon meaning used in astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "black moon lilith",
+    "volume": 5400,
+    "reason": "Black moon Lilith in astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "uranus astrology",
+    "volume": 5400,
+    "reason": "Uranus is planet in astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "trine aspect",
+    "volume": 5400,
+    "reason": "Trine aspect used in astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "synastry astrology",
+    "volume": 3600,
+    "reason": "Synastry relates to astrology charts"
+   },
+   {
+    "lang": "fil",
+    "keyword": "pluto astrology",
+    "volume": 3600,
+    "reason": "Pluto is astrology planet"
+   },
+   {
+    "lang": "fil",
+    "keyword": "natal chart meaning",
+    "volume": 2900,
+    "reason": "Natal chart meaning is astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "conjunction astrology",
+    "volume": 2900,
+    "reason": "Conjunction is astrology term"
+   },
+   {
+    "lang": "fil",
+    "keyword": "jupiter astrology",
+    "volume": 2900,
+    "reason": "Jupiter in astrology"
+   },
+   {
+    "lang": "fil",
+    "keyword": "decans astrology",
+    "volume": 2400,
+    "reason": "Decans are astrology divisions"
+   },
+   {
+    "lang": "fil",
+    "keyword": "neptune astrology",
+    "volume": 1900,
+    "reason": "Neptune is planet in astrology"
+   }
+  ],
+  "zht": [
+   {
+    "lang": "zht",
+    "keyword": "mercury retrograde",
+    "volume": 201000,
+    "reason": "Mercury retrograde is astrology term"
+   },
+   {
+    "lang": "zht",
+    "keyword": "saturn return",
+    "volume": 49500,
+    "reason": "Saturn return is astrology event"
+   }
+  ]
+ }
+}
