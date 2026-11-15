@@ -32,6 +32,8 @@ jobs:
       - name: Write dictionary entries (skips quietly if the key is not set)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SUPABASE_URL: https://bnetpqdpeufookvvsnaj.supabase.co
+          SUPABASE_PUBLISHABLE_KEY: sb_publishable_n_gHt5IxrtmAxybHE6i9ug_aMJ4ozeY
         run: |
           args=""
           if [ -n "${{ github.event.inputs.max }}" ]; then args="$args --max ${{ github.event.inputs.max }}"; fi
@@ -44,10 +46,10 @@ jobs:
           npx tsx tests/native.test.ts
       - name: Save
         run: |
-          if [ -n "$(git status --porcelain data/native-terms)" ]; then
+          if [ -n "$(git status --porcelain data/native-terms data/native-cost.json)" ]; then
             git config user.name "aurenstar-bot"
             git config user.email "bot@aurenstar.com"
-            git add data/native-terms
+            git add data/native-terms data/native-cost.json
             git commit -m "Native dictionary entries: new ones written directly in each language"
             git pull --rebase origin main
             git push

@@ -46,10 +46,10 @@ jobs:
           npx tsx tests/native.test.ts
       - name: Save
         run: |
-          if [ -n "$(git status --porcelain data/native-articles)" ]; then
+          if [ -n "$(git status --porcelain data/native-articles data/native-cost.json)" ]; then
             git config user.name "aurenstar-bot"
             git config user.email "bot@aurenstar.com"
-            git add data/native-articles
+            git add data/native-articles data/native-cost.json
             git commit -m "Native articles: new ones written directly in each language"
             git pull --rebase origin main
             git push

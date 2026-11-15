@@ -13,6 +13,7 @@ import { getArticleSlug } from '../../src/utils/articleSlug';
 import { checkArticle, fold, TOOLS, type NativeArticle } from '../../server/engine/nativeArticle';
 import { intentKey, hasNumber } from '../dictionary/nativeTopics';
 import { activeWave } from './plan';
+import planFile from '../../data/native-plan.json';
 import { loadSenseLists, checkSense, type SenseLists } from './sense';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../../src/data/astrologyDictionaryData';
 
@@ -45,6 +46,24 @@ const tokens = (s: string) => new Set(fold(s).split(/\s+/).filter(Boolean));
 const sameWord = (a: string, b: string) => a === b || (a.length >= 5 && b.length >= 5 && a.slice(0, 5) === b.slice(0, 5));
 const similar = (a: string, b: string) => { const x = [...tokens(a)], y = [...tokens(b)]; const [s, l] = x.length <= y.length ? [x, y] : [y, x]; return s.every((t) => l.some((u) => sameWord(t, u))) || intentKey(a) === intentKey(b); };
 
+/** Cost counter (US$ per 1M tokens: input, output). Everything this run spends is added up and saved in data/native-cost.json, so the factory can see it. */
+const PRICE: Record<string, [number, number]> = { 'gpt-4.1': [2, 8], 'gpt-4.1-mini': [0.4, 1.6] };
+let spentToday = 0;
+/** Daily limit in US$ for the native robot. Source: env NATIVE_DAILY_CAP_USD, else "dailyCapUsd" in data/native-plan.json, else 0.10 (provisional; the owner will set the final value at the end). */
+const DAILY_CAP = Number(process.env.NATIVE_DAILY_CAP_USD || (planFile as any).dailyCapUsd || 0.10);
+const COST_FILE = path.join(root, 'data/native-cost.json');
+const today = () => new Date().toISOString().slice(0, 10);
+const readCost = (): Record<string, { usd: number; articles: number; kind: Record<string, number> }> => { try { return JSON.parse(fs.readFileSync(COST_FILE, 'utf8')); } catch { return {}; } };
+const spentBefore = () => readCost()[today()]?.usd || 0;
+const capReached = () => spentBefore() + spentToday >= DAILY_CAP;
+function saveCost(articles: number) {
+  if (DRY || spentToday <= 0) return;
+  const all = readCost(); const d = all[today()] || { usd: 0, articles: 0, kind: {} };
+  d.usd = Math.round((d.usd + spentToday) * 1e5) / 1e5; d.articles += articles; d.kind[KIND] = Math.round(((d.kind[KIND] || 0) + spentToday) * 1e5) / 1e5;
+  all[today()] = d;
+  fs.writeFileSync(COST_FILE, JSON.stringify(all, null, 1) + '\n');
+}
+
 async function ask(model: string, prompt: string): Promise<any> {
   const res = await fetch('https://api.openai.com/v1/chat/completions', {
     method: 'POST',
@@ -53,6 +72,8 @@ async function ask(model: string, prompt: string): Promise<any> {
   });
   if (!res.ok) throw new Error(`model error ${res.status}`);
   const j: any = await res.json();
+  const [pi, po] = PRICE[model] || [2, 8];
+  spentToday += ((j?.usage?.prompt_tokens || 0) * pi + (j?.usage?.completion_tokens || 0) * po) / 1e6;
   return JSON.parse(String(j?.choices?.[0]?.message?.content || '{}'));
 }
 
@@ -144,6 +165,7 @@ async function main() {
   while (done < MAX && [...queue.values()].some((q) => q.length)) {
     for (const [lang, q] of queue) {          // one per language per round, so every language moves together
       if (done >= MAX) break;
+      if (!DRY && capReached()) { console.log(`native: daily cost limit reached (US$ ${(spentBefore() + spentToday).toFixed(3)} of ${DAILY_CAP}), stopping`); queue.clear(); break; }
       const t = q.shift();
       if (!t) continue;
       tried++;
@@ -157,6 +179,8 @@ async function main() {
       done++;
     }
   }
+  saveCost(done);
+  console.log(`native cost today: US$ ${(spentBefore() + (DRY ? 0 : 0)).toFixed(4)} saved so far; this run US$ ${spentToday.toFixed(4)} (limit ${DAILY_CAP})`);
   console.log(`native ${KIND === 'term' ? 'dictionary entries' : 'articles'}: ${done} saved, ${tried - done} rejected or failed, ${have.length + (DRY ? 0 : done)} in total`);
 }
 
