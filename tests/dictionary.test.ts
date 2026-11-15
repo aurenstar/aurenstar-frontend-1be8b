@@ -3,6 +3,7 @@ import { conceptKey, toQuestion, categoryFor, foreignToQuestion, plannerPriority
 import { chooseNames, applyNames, applyNamesToTerm } from '../scripts/dictionary/names';
 import { verdictFor, boostFor } from '../scripts/dictionary/report';
 import { chooseWorldNames, worldTotals } from '../scripts/dictionary/worldNames';
+import { mergeEntry } from '../scripts/dictionary/buildWorldGlossary';
 import { toolForTerm } from '../src/data/dictionaryLinks';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 
@@ -93,5 +94,9 @@ ok('world: ambiguous name never wins', wn.find((c) => c.lang === 'de' && c.idea 
 ok('world: decisive winner (2x) is picked', wn.find((c) => c.lang === 'it' && c.idea === 'natal chart')?.name === 'tema natale');
 ok('world: tiny numbers are not trusted', !wn.some((c) => c.volume < 500));
 ok('world: totals add languages', (worldTotals(wv).get('natal chart') || 0) >= 33100);
+
+ok('glossary: hand-written name is kept', mergeEntry('Sternzeichen', 'Tierkreis') === 'Sternzeichen');
+ok('glossary: missing name is filled (max 2)', mergeEntry('', ' a | b | c ') === 'a|b');
+ok('glossary: nothing to fill stays empty', mergeEntry(undefined, undefined) === '');
 
 process.exit(failed ? 1 : 0);

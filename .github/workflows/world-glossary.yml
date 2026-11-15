@@ -1,0 +1,34 @@
+name: World glossary
+on:
+  schedule:
+    - cron: '41 2 1 * *'   # monthly: fills names for new ideas / languages
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --legacy-peer-deps
+      - name: Fill missing names (skips quietly if the key is not set)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npx tsx scripts/dictionary/buildWorldGlossary.ts
+      - name: Check
+        run: npx tsc --noEmit
+      - name: Save
+        run: |
+          if [ -n "$(git status --porcelain data/world-glossary.json)" ]; then
+            git config user.name "aurenstar-bot"
+            git config user.email "bot@aurenstar.com"
+            git add data/world-glossary.json
+            git commit -m "World glossary: names for new ideas and languages"
+            git pull --rebase origin main
+            git push
+          fi

@@ -8,7 +8,11 @@
  * Several names for one idea are separated by "|" (the most searched one wins).
  */
 import world from '../../data/world-glossary.json';
-export const IDEAS = ['natal chart', 'zodiac signs', 'rising sign', 'moon sign', 'sun sign', 'astrological houses', 'mercury retrograde', 'saturn return', 'north node', 'midheaven', 'synastry', 'transits', 'aspects', 'conjunction', 'full moon astrology', 'new moon astrology', 'solar eclipse astrology', 'chiron astrology', 'black moon lilith', 'stellium'] as const;
+export const IDEAS = ['natal chart', 'zodiac signs', 'rising sign', 'moon sign', 'sun sign', 'astrological houses', 'mercury retrograde', 'saturn return', 'north node', 'midheaven', 'synastry', 'transits', 'aspects', 'conjunction', 'full moon astrology', 'new moon astrology', 'solar eclipse astrology', 'chiron astrology', 'black moon lilith', 'stellium',
+  // second wave (added by scripts/dictionary/buildWorldGlossary.ts)
+  'aries', 'taurus', 'gemini', 'cancer sign', 'leo', 'virgo', 'libra', 'scorpio', 'sagittarius', 'capricorn', 'aquarius', 'pisces',
+  'venus astrology', 'mars astrology', 'jupiter astrology', 'saturn astrology', 'uranus astrology', 'neptune astrology', 'pluto astrology',
+  'trine aspect', 'square aspect', 'sextile aspect', 'opposition aspect', 'lunar eclipse astrology', 'vedic astrology', 'sidereal zodiac', 'decans astrology', 'cusp astrology', '7th house astrology', '10th house astrology'] as const;
 
 /** The names live in data/world-glossary.json (the monthly n8n flow reads the same file). Google Ads language ids + the names per language. */
 export const LANGUAGE_IDS: Record<string, number> = world.ids;
