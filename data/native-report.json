@@ -1,78 +1,89 @@
 {
  "updated": "2026-11-15",
  "resumo": {
-  "artigos": 18,
-  "novos": 18,
+  "artigos": 34,
+  "novos": 34,
   "funcionando": 0,
   "apareceSemClique": 0,
   "aparecendo": 0,
   "semSinal": 0,
-  "impressoes": 1,
+  "impressoes": 21,
   "cliques": 0
  },
  "idiomas": [
   {
+   "lang": "id",
+   "artigos": 3,
+   "impressoes": 20,
+   "cliques": 0
+  },
+  {
    "lang": "ru",
-   "artigos": 2,
+   "artigos": 3,
    "impressoes": 1,
    "cliques": 0
   },
   {
    "lang": "ar",
-   "artigos": 1,
+   "artigos": 2,
    "impressoes": 0,
    "cliques": 0
   },
   {
    "lang": "de",
-   "artigos": 3,
+   "artigos": 4,
    "impressoes": 0,
    "cliques": 0
   },
   {
    "lang": "fr",
-   "artigos": 3,
+   "artigos": 4,
    "impressoes": 0,
    "cliques": 0
   },
   {
    "lang": "hi",
-   "artigos": 1,
-   "impressoes": 0,
-   "cliques": 0
-  },
-  {
-   "lang": "id",
-   "artigos": 1,
+   "artigos": 4,
    "impressoes": 0,
    "cliques": 0
   },
   {
    "lang": "it",
-   "artigos": 2,
+   "artigos": 3,
    "impressoes": 0,
    "cliques": 0
   },
   {
    "lang": "ja",
-   "artigos": 2,
+   "artigos": 3,
    "impressoes": 0,
    "cliques": 0
   },
   {
    "lang": "tr",
-   "artigos": 1,
+   "artigos": 4,
    "impressoes": 0,
    "cliques": 0
   },
   {
    "lang": "vi",
-   "artigos": 2,
+   "artigos": 4,
    "impressoes": 0,
    "cliques": 0
   }
  ],
  "artigos": [
+  {
+   "lang": "id",
+   "slug": "dicionario/apa-itu-natal-chart",
+   "busca": "natal chart",
+   "buscasPorMes": 246000,
+   "dias": 0,
+   "impressions": 20,
+   "clicks": 0,
+   "position": 11,
+   "veredito": "novo"
+  },
   {
    "lang": "ru",
    "slug": "osnovy-znakov-zodiaka",
@@ -173,6 +184,39 @@
    "veredito": "novo"
   },
   {
+   "lang": "hi",
+   "slug": "sinh-rashi-meaning-traits",
+   "busca": "सिंह राशि",
+   "buscasPorMes": 110000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "hi",
+   "slug": "vrishchik-rashi-scorpio-meaning",
+   "busca": "वृश्चिक राशि",
+   "buscasPorMes": 110000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "id",
+   "slug": "dasar-vedic-astrology-indonesia",
+   "busca": "vedic astrology",
+   "buscasPorMes": 110000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
    "lang": "id",
    "slug": "mengenal-planet-uranus-dalam-astrologi",
    "busca": "planet uranus",
@@ -218,6 +262,17 @@
   },
   {
    "lang": "ja",
+   "slug": "house-astrology-basic-guide",
+   "busca": "ハウス 占星術",
+   "buscasPorMes": 390,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "ja",
    "slug": "pluto-in-astrology-meaning",
    "busca": "冥王星 占星術",
    "buscasPorMes": 720,
@@ -250,6 +305,28 @@
    "veredito": "novo"
   },
   {
+   "lang": "tr",
+   "slug": "yukselen-burc-hesaplama-nedir-nasil",
+   "busca": "yükselen burç hesaplama",
+   "buscasPorMes": 246000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "tr",
+   "slug": "yukslen-burcu-hesaplama-rehberi",
+   "busca": "yükselen burcu hesaplama",
+   "buscasPorMes": 246000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
    "lang": "vi",
    "slug": "hien-tuong-lunar-eclipse-chiem-tinh",
    "busca": "lunar eclipse",
@@ -262,9 +339,108 @@
   },
   {
    "lang": "vi",
+   "slug": "huong-dan-ban-do-sao",
+   "busca": "bản đồ sao",
+   "buscasPorMes": 135000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "vi",
    "slug": "tim-hieu-la-so-tu-vi",
    "busca": "lá số tử vi",
    "buscasPorMes": 368000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "ar",
+   "slug": "dicionario/burj-alhout-meaning-in-life",
+   "busca": "برج الحوت",
+   "buscasPorMes": 165000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "de",
+   "slug": "dicionario/wassermann-sternzeichen-bedeutung-eigenschaften",
+   "busca": "wassermann sternzeichen",
+   "buscasPorMes": 74000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "fr",
+   "slug": "dicionario/verseau-signe-astrologie",
+   "busca": "verseau signe",
+   "buscasPorMes": 33100,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "hi",
+   "slug": "dicionario/vedic-astrology-kya-hai",
+   "busca": "vedic astrology",
+   "buscasPorMes": 110000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "it",
+   "slug": "dicionario/segni-zodiacali-significato-base",
+   "busca": "segni zodiacali",
+   "buscasPorMes": 110000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "ru",
+   "slug": "dicionario/retrogradny-mercury-v-astrologii",
+   "busca": "ретроградный меркурий",
+   "buscasPorMes": 49500,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "tr",
+   "slug": "dicionario/kova-burcu-ozellikleri-neler",
+   "busca": "kova burcu özellikleri",
+   "buscasPorMes": 74000,
+   "dias": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "veredito": "novo"
+  },
+  {
+   "lang": "vi",
+   "slug": "dicionario/vedic-astrology-la-gi",
+   "busca": "vedic astrology",
+   "buscasPorMes": 110000,
    "dias": 0,
    "impressions": 0,
    "clicks": 0,
