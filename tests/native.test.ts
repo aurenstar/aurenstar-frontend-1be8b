@@ -1,3 +1,5 @@
+import { activeWave } from '../scripts/native/plan';
+import { statsFor, verdictOf } from '../scripts/native/care';
 import { checkArticle, renderNativeArticle, renderNativeHub, articlePath, type NativeArticle } from '../server/engine/nativeArticle';
 
 let failed = 0;
@@ -29,5 +31,20 @@ ok('native page: links to the other article of the language, not itself', html.i
 ok('native page: Arabic is right to left', renderNativeArticle(base({ lang: 'ar' })).includes('dir="rtl"'));
 ok('native page: text is escaped', !renderNativeArticle(base({ title: 'A <script>x</script> & B' })).includes('<script>x</script>'));
 ok('native hub: lists the articles', renderNativeHub('de', [base()]).includes(articlePath('de', 'aszendent-berechnen')));
+
+const P = { waves: [{ from: '2026-11-14', name: 'a', langs: ['de'], perLang: 3, maxPerDay: 10 }, { from: '2026-11-22', name: 'b', langs: ['ko'], perLang: 5, maxPerDay: 15 }] };
+ok('plan: before the first wave nothing is open', activeWave(P, '2026-11-01').langs.length === 0);
+ok('plan: first wave opens its languages', activeWave(P, '2026-11-15').langs.join() === 'de' && activeWave(P, '2026-11-15').maxPerDay === 10);
+ok('plan: later wave adds languages and raises the limits', activeWave(P, '2026-11-22').langs.join() === 'de,ko' && activeWave(P, '2026-11-30').perLang === 5);
+ok('plan: paused is passed on', activeWave({ ...P, paused: true }, '2026-11-15').paused);
+const rows = [{ query: 'Aszendent berechnen kostenlos', clicks: 2, impressions: 80, position: 7 }, { query: 'aszendent berechnen', clicks: 0, impressions: 40, position: 12 }, { query: 'mond', clicks: 9, impressions: 9, position: 1 }];
+ok('care: stats add the searches that contain the words', JSON.stringify(statsFor('aszendent berechnen', rows)) === JSON.stringify({ impressions: 120, clicks: 2, position: 7 }));
+ok('care: young article is "novo"', verdictOf({ impressions: 0, clicks: 0, position: null }, 10) === 'novo');
+ok('care: seen a lot but not clicked', verdictOf({ impressions: 400, clicks: 1, position: 14 }, 40) === 'aparece-sem-clique');
+ok('care: page 1 is working', verdictOf({ impressions: 60, clicks: 0, position: 6 }, 40) === 'funcionando');
+ok('care: nothing after 60 days is "sem-sinal", before that still waiting', verdictOf({ impressions: 0, clicks: 0, position: null }, 61) === 'sem-sinal' && verdictOf({ impressions: 0, clicks: 0, position: null }, 40) === 'aparecendo');
+const linked = renderNativeArticle(base({ tool: 'daily-message', term: 'rising-sign', ui: { ...base().ui, dictionary: 'Wörterbuch' } }));
+ok('native page: links to the chosen tool and dictionary term', linked.includes('class="cta" href="/de/daily-message"') && linked.includes('href="/de/dicionario/rising-sign"'));
+ok('native page: retired article is noindex', renderNativeArticle(base({ retired: true })).includes('content="noindex,follow"'));
 
 process.exit(failed ? 1 : 0);
