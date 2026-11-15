@@ -19,6 +19,8 @@ jobs:
         with:
           node-version: 22
       - run: npm install --legacy-peer-deps
+      - name: Most searched names in the 24 other languages
+        run: npx tsx scripts/dictionary/worldNames.ts
       - name: Internal report (what works, what does not; never shown on the site)
         run: npx tsx scripts/dictionary/report.ts
       - name: Write new terms (skips quietly if the key is not set)
@@ -35,10 +37,10 @@ jobs:
         run: npx tsc --noEmit && npm run test:dictionary
       - name: Save
         run: |
-          if [ -n "$(git status --porcelain src/data/dictionaryGenerated.json data/dictionary-failures.json data/dictionary-demand.json data/dictionary-report.json data/dictionary-report.md)" ]; then
+          if [ -n "$(git status --porcelain src/data/dictionaryGenerated.json data/dictionary-failures.json data/dictionary-demand.json data/dictionary-report.json data/dictionary-report.md data/world-names.json)" ]; then
             git config user.name "aurenstar-bot"
             git config user.email "bot@aurenstar.com"
-            git add src/data/dictionaryGenerated.json data/dictionary-failures.json data/dictionary-demand.json data/dictionary-report.json data/dictionary-report.md
+            git add src/data/dictionaryGenerated.json data/dictionary-failures.json data/dictionary-demand.json data/dictionary-report.json data/dictionary-report.md data/world-names.json
             git commit -m "Dictionary: new terms"
             git pull --rebase origin main
             git push

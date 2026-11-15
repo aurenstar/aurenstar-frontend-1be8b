@@ -10,7 +10,7 @@ export const BRAND_TERMS = ['Aurenstar', 'Aurendaily', 'Aureneffect', 'Auren Eff
 const FIXED: Record<string, Record<string, string>> = {
   pt: {
     'Mercury retrograde': 'Mercúrio retrógrado', 'Sun sign': 'signo solar', 'Moon sign': 'signo lunar', 'Rising sign': 'signo ascendente',
-    Ascendant: 'Ascendente', 'birth chart': 'mapa astral', 'natal chart': 'mapa natal', horoscope: 'horóscopo', transit: 'trânsito',
+    Ascendant: 'Ascendente', 'birth chart': 'mapa astral', 'natal chart': 'mapa astral', horoscope: 'horóscopo', transit: 'trânsito',
     compatibility: 'compatibilidade', 'new moon': 'lua nova', 'full moon': 'lua cheia', 'Midheaven': 'Meio do Céu',
   },
   es: {
@@ -20,9 +20,14 @@ const FIXED: Record<string, Record<string, string>> = {
   },
 };
 
+import worldNames from '../../data/world-names.json';
+
+/** Most searched names in the other languages (data/world-names.json, refreshed by the dictionary robot). */
+const WORLD: Record<string, Record<string, string>> = (worldNames as { names?: Record<string, Record<string, string>> }).names || {};
+
 /** Text added to every translation prompt. */
 export function glossaryRules(lang: string, languageName: string): string {
-  const fixed = FIXED[lang];
+  const fixed = FIXED[lang] || (WORLD[lang] && Object.keys(WORLD[lang]).length ? WORLD[lang] : undefined);
   const table = fixed ? ` Always use exactly these words: ${Object.entries(fixed).map(([k, v]) => `"${k}" = "${v}"`).join('; ')}.` : '';
   return (
     `GLOSSARY: never translate these names: ${BRAND_TERMS.join(', ')}.` +

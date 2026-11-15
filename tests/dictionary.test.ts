@@ -2,6 +2,7 @@ import { validateTerm, slugify } from '../scripts/dictionary/checks';
 import { conceptKey, toQuestion, categoryFor, foreignToQuestion, plannerPriority } from '../scripts/dictionary/demand';
 import { chooseNames, applyNames, applyNamesToTerm } from '../scripts/dictionary/names';
 import { verdictFor, boostFor } from '../scripts/dictionary/report';
+import { chooseWorldNames, worldTotals } from '../scripts/dictionary/worldNames';
 import { toolForTerm } from '../src/data/dictionaryLinks';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 
@@ -85,5 +86,12 @@ ok('report: seen but low', verdictFor(2, 0, 70) === 'aparecendo');
 ok('report: nothing yet', verdictFor(0, 0, null) === 'sem-dados');
 ok('boost needs enough data', boostFor(10, 2, 2, 100) === 1 && boostFor(10, 2, 5, 10) === 1);
 ok('boost is capped 0.8..1.3', boostFor(100, 2, 5, 500) === 1.3 && boostFor(0.1, 2, 5, 500) === 0.8);
+
+const wv = new Map([['de|radix', 90500], ['de|geburtshoroskop', 3600], ['it|tema natale', 33100], ['it|carta natale', 6600], ['fr|thème natal', 2400]].map(([k, v]) => [String(k).normalize('NFD').replace(/[\u0300-\u036f]/g, ''), v as number]));
+const wn = chooseWorldNames(wv);
+ok('world: ambiguous name never wins', wn.find((c) => c.lang === 'de' && c.idea === 'natal chart')?.name === 'Geburtshoroskop');
+ok('world: decisive winner (2x) is picked', wn.find((c) => c.lang === 'it' && c.idea === 'natal chart')?.name === 'tema natale');
+ok('world: tiny numbers are not trusted', !wn.some((c) => c.volume < 500));
+ok('world: totals add languages', (worldTotals(wv).get('natal chart') || 0) >= 33100);
 
 process.exit(failed ? 1 : 0);
