@@ -4,6 +4,7 @@ import { chooseNames, applyNames, applyNamesToTerm } from '../scripts/dictionary
 import { verdictFor, boostFor, visitGoals } from '../scripts/dictionary/report';
 import { chooseWorldNames, worldTotals } from '../scripts/dictionary/worldNames';
 import { mergeEntry } from '../scripts/dictionary/buildWorldGlossary';
+import { candidates, intentKey } from '../scripts/dictionary/nativeTopics';
 import { LANGUAGE_IDS } from '../scripts/dictionary/worldGlossary';
 import { toolForTerm } from '../src/data/dictionaryLinks';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
@@ -106,5 +107,10 @@ ok('language ids: lt/fa/no/ms are the official ones', LANGUAGE_IDS.lt === 1029 &
 const vg = visitGoals([{ keyword: 'moon sign', volume: 1000 }, { keyword: 'gemini', volume: 9e9 }, { keyword: 'nike shoes', volume: 9e9 }, { keyword: 'horoscope', volume: 9e9 }]);
 ok('goals: not-astrology words are left out, each word is capped', vg.medido === 51_000 && vg.otimista === 101_000);
 ok('goals: 0.05% and 0.5% follow the totals', vg.metas[0].medido === 26 && vg.metas[1].medido === 255);
+
+const nt = candidates('de', [{ lang: 'de', keyword: 'sternzeichen löwe', volume: 100 }, { lang: 'de', keyword: 'berechnung aszendent', volume: 90 }, { lang: 'de', keyword: 'aszendent berechnung', volume: 80 }, { lang: 'de', keyword: 'gemini ai sternzeichen', volume: 70 }, { lang: 'de', keyword: 'leo', volume: 999 }]);
+ok('topics: same wish in another order counts once', nt.filter((t) => t.keyword.includes('aszendent')).length === 1);
+ok('topics: other meanings and one-word names are left out', !nt.some((t) => /gemini|^leo$/.test(t.keyword)) && nt.some((t) => t.keyword === 'sternzeichen löwe'));
+ok('topics: intent key ignores order', intentKey('b a') === intentKey('a b'));
 
 process.exit(failed ? 1 : 0);
