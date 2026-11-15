@@ -68,16 +68,18 @@ const CONCEPT_BY_KEY = new Map<string, [string, string]>();
 for (const [ph, art] of CONCEPTS) { const k = conceptKey(ph); if (k) CONCEPT_BY_KEY.set(k, [ph, art]); }
 
 /** "yod astrology" -> "What is a yod in astrology?" ; "venus in leo" -> "What does Venus in Leo mean?" ; null when it is not a known concept. */
-export function termToQuestion(raw: string): string | null {
+export function termToQuestion(raw: string, qualifiedOverride?: boolean): string | null {
+  // A bare word like "gemini", "cancer", "mars" or "kite" is mostly NOT astrology (an AI, a disease, a candy, a toy). It only counts with an astrology word next to it.
+  const qualified = qualifiedOverride ?? /\b(astrology|astrological|astro|meaning|sign|signs|zodiac|horoscope|natal|birth chart)\b/i.test(raw);
   let t = raw.toLowerCase().replace(/[^a-z0-9' -]/g, ' ').replace(/\s+/g, ' ').trim();
   t = t.replace(/\b(astrology|astrological|meaning|definition|explained|in astrology)\b/g, ' ').replace(/\bbirth chart\b/g, 'natal chart').replace(/\s+/g, ' ').trim();
   if (!t) return null;
   const cap = (x: string) => x.replace(/\b\w/g, (c) => c.toUpperCase());
   // sign alone ("virgo", "virgo sign", "virgo zodiac sign")
   const signOnly = t.replace(/\b(zodiac sign|sign|zodiac)\b/g, '').trim();
-  if (SIGN_NAMES.includes(signOnly)) return `What does ${cap(signOnly)} mean in astrology?`;
+  if (SIGN_NAMES.includes(signOnly)) { if (!qualified) return null; return `What does ${cap(signOnly)} mean in astrology?`; }
   // body alone
-  if (BODY_NAMES[t]) return `What does ${BODY_NAMES[t]} mean in astrology?`;
+  if (BODY_NAMES[t]) return qualified ? `What does ${BODY_NAMES[t]} mean in astrology?` : null;
   // body in sign / in Nth house
   const m = t.match(/^(sun|moon|mercury|venus|mars|jupiter|saturn|uranus|neptune|pluto|chiron|lilith|north node|south node) in (?:the )?(?:(aries|taurus|gemini|cancer|leo|virgo|libra|scorpio|sagittarius|capricorn|aquarius|pisces)|(\d{1,2})(?:st|nd|rd|th)? house)$/);
   if (m) {
@@ -92,6 +94,7 @@ export function termToQuestion(raw: string): string | null {
   const hit = CONCEPT_BY_KEY.get(conceptKey(t));
   if (!hit) return null;
   const [ph, art] = hit;
+  if (!qualified && !/\s/.test(ph)) return null; // one-word concepts ("kite", "orb", "vertex") need an astrology word with them
   return art === 'PL' ? `What are ${ph} in astrology?` : `What is ${art ? art + ' ' : ''}${ph} in astrology?`;
 }
 
@@ -128,7 +131,7 @@ export function foreignToQuestion(raw: string): string | null {
   let phrase = pieces.filter((_, i) => i % 2 === 1).join(' ').replace(/\s+/g, ' ').trim();
   if (houseNum) phrase = BODY_NAMES[phrase] ? `${phrase} in ${houseNum}th house` : `${phrase} ${houseNum}th house`.trim();
   if (!phrase) return null;
-  const q = termToQuestion(phrase);
+  const q = termToQuestion(phrase, /signific|astrolog|signo|zodiac|horoscop|natal|astral|carta/.test(FOLD(raw)));
   return q && !BLOCK.test(q) ? q : null;
 }
 
@@ -137,7 +140,7 @@ export function toQuestion(raw: string): string | null {
   let q = raw.trim().replace(/\s+/g, ' ').replace(/\?+$/, '');
   if (!/^(what|why|how|when|which|is|does|do|are|can)\b/i.test(q)) {
     const m = q.match(/^(.*?)\s+meaning(?:\s+astrology)?$/i); // "chiron meaning astrology" -> "What does chiron mean in astrology?"
-    const known = termToQuestion(m ? m[1] : q); // known concepts get the cleanest wording ("What is a yod in astrology?")
+    const known = termToQuestion(m ? m[1] : q, m ? true : undefined); // known concepts get the cleanest wording ("What is a yod in astrology?")
     if (known) q = known.replace(/\?$/, '');
     else if (!m) return null;
     else {
