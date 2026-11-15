@@ -27,7 +27,8 @@ const WORLD: Record<string, Record<string, string>> = (worldNames as { names?: R
 
 /** Text added to every translation prompt. */
 export function glossaryRules(lang: string, languageName: string): string {
-  const fixed = FIXED[lang] || (WORLD[lang] && Object.keys(WORLD[lang]).length ? WORLD[lang] : undefined);
+  const wl = WORLD[lang] || WORLD[({ tw: 'zht', tl: 'fil' } as Record<string, string>)[lang]];
+  const fixed = FIXED[lang] || (wl && Object.keys(wl).length ? wl : undefined);
   const table = fixed ? ` Always use exactly these words: ${Object.entries(fixed).map(([k, v]) => `"${k}" = "${v}"`).join('; ')}.` : '';
   return (
     `GLOSSARY: never translate these names: ${BRAND_TERMS.join(', ')}.` +
