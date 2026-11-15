@@ -1,7 +1,7 @@
 import { validateTerm, slugify } from '../scripts/dictionary/checks';
 import { conceptKey, toQuestion, categoryFor, foreignToQuestion, plannerPriority } from '../scripts/dictionary/demand';
 import { chooseNames, applyNames, applyNamesToTerm } from '../scripts/dictionary/names';
-import { verdictFor, boostFor } from '../scripts/dictionary/report';
+import { verdictFor, boostFor, visitGoals } from '../scripts/dictionary/report';
 import { chooseWorldNames, worldTotals } from '../scripts/dictionary/worldNames';
 import { mergeEntry } from '../scripts/dictionary/buildWorldGlossary';
 import { LANGUAGE_IDS } from '../scripts/dictionary/worldGlossary';
@@ -102,5 +102,9 @@ ok('glossary: nothing to fill stays empty', mergeEntry(undefined, undefined) ===
 
 // Google Ads language ids (official table): Lithuanian 1029 (1026 is Icelandic), Persian 1064, Norwegian 1013, Malay 1102
 ok('language ids: lt/fa/no/ms are the official ones', LANGUAGE_IDS.lt === 1029 && LANGUAGE_IDS.fa === 1064 && LANGUAGE_IDS.no === 1013 && LANGUAGE_IDS.ms === 1102);
+
+const vg = visitGoals([{ keyword: 'moon sign', volume: 1000 }, { keyword: 'gemini', volume: 9e9 }, { keyword: 'nike shoes', volume: 9e9 }, { keyword: 'horoscope', volume: 9e9 }]);
+ok('goals: not-astrology words are left out, each word is capped', vg.medido === 51_000 && vg.otimista === 101_000);
+ok('goals: 0.05% and 0.5% follow the totals', vg.metas[0].medido === 26 && vg.metas[1].medido === 255);
 
 process.exit(failed ? 1 : 0);

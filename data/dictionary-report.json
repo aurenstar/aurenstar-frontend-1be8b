@@ -9,6 +9,26 @@
     "impressoes": 71,
     "cliques": 0
   },
+  "metas": {
+    "buscasPorMes": 165123540,
+    "cauteloso": 100074873,
+    "medido": 165123540,
+    "otimista": 223837040,
+    "metas": [
+      {
+        "share": "0,05%",
+        "cauteloso": 50037,
+        "medido": 82562,
+        "otimista": 111919
+      },
+      {
+        "share": "0,5%",
+        "cauteloso": 500374,
+        "medido": 825618,
+        "otimista": 1119185
+      }
+    ]
+  },
   "categorias": [
     {
       "categoria": "Chart Concepts",

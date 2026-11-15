@@ -14,6 +14,17 @@ Aparições no Google: 71 · Cliques: 0
 | Planets & Bodies | 11 | 0 | 0 | x1 |
 | Signs & Elements | 7 | 0 | 0 | x1 |
 
+## 🎯 Metas de visitas por mês (se o site aparecer para uma fatia das buscas medidas)
+
+Buscas por mês nas palavras medidas (43 idiomas, sem o que não é astrologia): cauteloso ~100.074.873 · medido ~165.123.540 · otimista ~223.837.040
+
+| Fatia | Cauteloso | Medido | Otimista |
+|---|---|---|---|
+| 0,05% | 50.037 visitas | 82.562 visitas | 111.919 visitas |
+| 0,5% | 500.374 visitas | 825.618 visitas | 1.119.185 visitas |
+
+Cliques reais no Google hoje: 0. Compare com a linha de 0,05% para ver quanto falta.
+
 ## 👀 Aparecendo, mas ainda sem força
 
 - Astrological Houses: 30 aparições, 0 cliques, melhor posição 44.6, ~171470 buscas/mês no mundo
