@@ -26,7 +26,11 @@ const decode = (s: string) =>
 const text = (html: string) => decode(html.replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, '')).replace(/\s+/g, ' ').trim();
 
 /** <h2>/<h3> start a section; <p> and <li> become paragraphs. */
-function sectionsFrom(html: string) {
+function sectionsFrom(rawHtml: string) {
+  // the WordPress "Keep reading" list is plain text here (no links) and the site has its own "Continue reading" card: leave it out
+  const html = rawHtml
+    .replace(/<!--\s*aurenstar-leia-tambem\s*-->[\s\S]*?<!--\s*\/aurenstar-leia-tambem\s*-->/gi, '')
+    .replace(/<h3[^>]*>\s*Keep reading\s*<\/h3>\s*<ul[\s\S]*?<\/ul>/gi, '');
   const sections: { heading: string; paragraphs: string[] }[] = [];
   let current: { heading: string; paragraphs: string[] } | null = null;
   const re = /<(h[1-6]|p|li|blockquote)\b[^>]*>([\s\S]*?)<\/\1>/gi;
