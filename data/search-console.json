@@ -1,15 +1,15 @@
 [
  {
   "query": "auren star",
-  "clicks": 21,
-  "impressions": 463,
+  "clicks": 20,
+  "impressions": 454,
   "position": 1.9
  },
  {
   "query": "gemini red flags",
   "clicks": 1,
-  "impressions": 125,
-  "position": 10.6
+  "impressions": 132,
+  "position": 10.4
  },
  {
   "query": "\"all about horoscope dates\"",
@@ -22,6 +22,12 @@
   "clicks": 0,
   "impressions": 1,
   "position": 47
+ },
+ {
+  "query": "11 июнь знак зодиака",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 9
  },
  {
   "query": "11 июня знак зодиака",
@@ -50,8 +56,8 @@
  {
   "query": "16 de mayo signo",
   "clicks": 0,
-  "impressions": 2,
-  "position": 87.5
+  "impressions": 5,
+  "position": 81
  },
  {
   "query": "16 июнь знак зодиака",
@@ -106,6 +112,12 @@
   "clicks": 0,
   "impressions": 1,
   "position": 42
+ },
+ {
+  "query": "27 de julho signo",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 53
  },
  {
   "query": "29 junho signo",
@@ -300,6 +312,12 @@
   "position": 93
  },
  {
+  "query": "aspecting meaning",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 25
+ },
+ {
   "query": "aspecting meaning in astrology",
   "clicks": 0,
   "impressions": 1,
@@ -318,10 +336,34 @@
   "position": 79
  },
  {
+  "query": "astro houses",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 58
+ },
+ {
   "query": "astrologia blog",
   "clicks": 0,
   "impressions": 1,
   "position": 47
+ },
+ {
+  "query": "astrological aspects meaning",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 37
+ },
+ {
+  "query": "astrological conjunction",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 73
+ },
+ {
+  "query": "astrological house",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 76
  },
  {
   "query": "astrological houses",
@@ -350,8 +392,8 @@
  {
   "query": "astrology aspects",
   "clicks": 0,
-  "impressions": 2,
-  "position": 91.5
+  "impressions": 3,
+  "position": 63.3
  },
  {
   "query": "astrology cancer characteristics",
@@ -372,6 +414,18 @@
   "position": 81.5
  },
  {
+  "query": "astrology conjunction",
+  "clicks": 0,
+  "impressions": 2,
+  "position": 75.5
+ },
+ {
+  "query": "astrology conjunctions",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 70
+ },
+ {
   "query": "astrology gemini characteristics",
   "clicks": 0,
   "impressions": 3,
@@ -380,14 +434,20 @@
  {
   "query": "astrology gemini personality",
   "clicks": 0,
-  "impressions": 4,
-  "position": 74.3
+  "impressions": 3,
+  "position": 74
  },
  {
   "query": "astrology gemini traits",
   "clicks": 0,
   "impressions": 2,
   "position": 80
+ },
+ {
+  "query": "astrology house",
+  "clicks": 0,
+  "impressions": 3,
+  "position": 71
  },
  {
   "query": "astrology house meanings",
@@ -404,8 +464,8 @@
  {
   "query": "astrology houses",
   "clicks": 0,
-  "impressions": 3,
-  "position": 74
+  "impressions": 4,
+  "position": 78.8
  },
  {
   "query": "astrology houses and meanings",
@@ -424,6 +484,12 @@
   "clicks": 0,
   "impressions": 1,
   "position": 94
+ },
+ {
+  "query": "astrology leo traits",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 92
  },
  {
   "query": "astrology natal chart houses",
@@ -486,10 +552,22 @@
   "position": 69
  },
  {
+  "query": "birth date and time meaning",
+  "clicks": 0,
+  "impressions": 3,
+  "position": 89
+ },
+ {
   "query": "birth month signs",
   "clicks": 0,
-  "impressions": 5,
-  "position": 67.6
+  "impressions": 7,
+  "position": 68.1
+ },
+ {
+  "query": "birth month zodiac signs",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 99
  },
  {
   "query": "birth signs by month",
@@ -548,8 +626,8 @@
  {
   "query": "cancer definition personality",
   "clicks": 0,
-  "impressions": 1,
-  "position": 89
+  "impressions": 2,
+  "position": 55
  },
  {
   "query": "cancer horoscope qualities",
@@ -620,8 +698,8 @@
  {
   "query": "cancer traits",
   "clicks": 0,
-  "impressions": 4,
-  "position": 87
+  "impressions": 5,
+  "position": 87.8
  },
  {
   "query": "cancer zodiac characteristics",
@@ -636,6 +714,12 @@
   "position": 98
  },
  {
+  "query": "cancer zodiac personality traits",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 32
+ },
+ {
   "query": "cancer zodiac sign character",
   "clicks": 0,
   "impressions": 1,
@@ -644,8 +728,8 @@
  {
   "query": "cancer zodiac traits",
   "clicks": 0,
-  "impressions": 1,
-  "position": 97
+  "impressions": 2,
+  "position": 80
  },
  {
   "query": "cancerian traits",
@@ -684,6 +768,12 @@
   "position": 99
  },
  {
+  "query": "capricorn מזל",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 73
+ },
+ {
   "query": "capricornio personalidad",
   "clicks": 0,
   "impressions": 1,
@@ -710,13 +800,19 @@
  {
   "query": "caracter escorpio",
   "clicks": 0,
-  "impressions": 1,
-  "position": 86
+  "impressions": 2,
+  "position": 73.5
+ },
+ {
+  "query": "caracter sagitario",
+  "clicks": 0,
+  "impressions": 2,
+  "position": 86.5
  },
  {
   "query": "caracter tauro",
   "clicks": 0,
-  "impressions": 2,
+  "impressions": 3,
   "position": 84
  },
  {
@@ -732,6 +828,12 @@
   "position": 97
  },
  {
+  "query": "caracteristicas de geminis",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 80
+ },
+ {
   "query": "caracteristicas de leo",
   "clicks": 0,
   "impressions": 1,
@@ -744,9 +846,15 @@
   "position": 58
  },
  {
-  "query": "caracteristicas do signo de cancer",
+  "query": "caracteristicas de tauro",
   "clicks": 0,
   "impressions": 1,
+  "position": 72
+ },
+ {
+  "query": "caracteristicas do signo de cancer",
+  "clicks": 0,
+  "impressions": 2,
   "position": 86
  },
  {
@@ -756,10 +864,28 @@
   "position": 98
  },
  {
-  "query": "características de gêmeos signo",
+  "query": "caracteristicas geminis",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 80
+ },
+ {
+  "query": "caracteristicas sagitario",
   "clicks": 0,
   "impressions": 2,
-  "position": 48
+  "position": 93
+ },
+ {
+  "query": "características de gêmeos signo",
+  "clicks": 0,
+  "impressions": 4,
+  "position": 44.5
+ },
+ {
+  "query": "características de tauro",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 68
  },
  {
   "query": "características do signo câncer",
@@ -800,8 +926,8 @@
  {
   "query": "carta natal",
   "clicks": 0,
-  "impressions": 4,
-  "position": 72.3
+  "impressions": 6,
+  "position": 78.5
  },
  {
   "query": "carta natal interpretacion",
@@ -818,8 +944,8 @@
  {
   "query": "casas astrologia",
   "clicks": 0,
-  "impressions": 2,
-  "position": 92.5
+  "impressions": 4,
+  "position": 95.8
  },
  {
   "query": "casas astrologicas",
@@ -896,8 +1022,8 @@
  {
   "query": "characteristics for gemini",
   "clicks": 0,
-  "impressions": 5,
-  "position": 75.4
+  "impressions": 4,
+  "position": 76.5
  },
  {
   "query": "characteristics for leo",
@@ -908,8 +1034,14 @@
  {
   "query": "characteristics gemini",
   "clicks": 0,
-  "impressions": 2,
-  "position": 75.5
+  "impressions": 1,
+  "position": 76
+ },
+ {
+  "query": "characteristics leo",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 65
  },
  {
   "query": "characteristics of a gemini",
@@ -932,8 +1064,8 @@
  {
   "query": "characteristics of gemini",
   "clicks": 0,
-  "impressions": 4,
-  "position": 74.8
+  "impressions": 3,
+  "position": 75.3
  },
  {
   "query": "characteristics of gemini horoscope",
@@ -1032,6 +1164,12 @@
   "position": 80.5
  },
  {
+  "query": "compatibilidade amorosa de signos",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 42
+ },
+ {
   "query": "compatibilidade astrológica",
   "clicks": 0,
   "impressions": 1,
@@ -1052,8 +1190,20 @@
  {
   "query": "compatibilidade entre signos",
   "clicks": 0,
+  "impressions": 2,
+  "position": 94
+ },
+ {
+  "query": "compatibilidade signo",
+  "clicks": 0,
   "impressions": 1,
-  "position": 91
+  "position": 57
+ },
+ {
+  "query": "compatibilidades",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 86
  },
  {
   "query": "compatibilitat entre signes del zodiac",
@@ -1080,10 +1230,22 @@
   "position": 93.5
  },
  {
+  "query": "conjuncion astrologia",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 20
+ },
+ {
   "query": "conjuncion simbolo astrologia",
   "clicks": 0,
   "impressions": 1,
   "position": 11
+ },
+ {
+  "query": "conjunct astrology",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 79
  },
  {
   "query": "conjunction astrology",
@@ -1094,8 +1256,14 @@
  {
   "query": "conjunction in astrology",
   "clicks": 0,
+  "impressions": 2,
+  "position": 81
+ },
+ {
+  "query": "conjunctions in astrology",
+  "clicks": 0,
   "impressions": 1,
-  "position": 84
+  "position": 100
  },
  {
   "query": "cta natal rn",
@@ -1266,6 +1434,12 @@
   "position": 1
  },
  {
+  "query": "en que mes naciste segun tu mes de nacimiento",
+  "clicks": 0,
+  "impressions": 2,
+  "position": 11
+ },
+ {
   "query": "en que signo estamos",
   "clicks": 0,
   "impressions": 2,
@@ -1388,14 +1562,26 @@
  {
   "query": "full moon meaning",
   "clicks": 0,
-  "impressions": 1,
-  "position": 70
+  "impressions": 2,
+  "position": 80.5
  },
  {
   "query": "full moon spiritual meaning",
   "clicks": 0,
   "impressions": 2,
   "position": 46.5
+ },
+ {
+  "query": "full moon tonight meaning",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 89
+ },
+ {
+  "query": "gemeos personalidade",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 53
  },
  {
   "query": "gemeos signo",
@@ -1406,8 +1592,8 @@
  {
   "query": "gemeos signo personalidade",
   "clicks": 0,
-  "impressions": 2,
-  "position": 63.5
+  "impressions": 3,
+  "position": 54
  },
  {
   "query": "gemini (astrology)",
@@ -1490,8 +1676,8 @@
  {
   "query": "gemini character traits",
   "clicks": 0,
-  "impressions": 5,
-  "position": 61.2
+  "impressions": 4,
+  "position": 57
  },
  {
   "query": "gemini characteristic",
@@ -1528,12 +1714,6 @@
   "clicks": 0,
   "impressions": 2,
   "position": 82
- },
- {
-  "query": "gemini characterstics",
-  "clicks": 0,
-  "impressions": 1,
-  "position": 74
  },
  {
   "query": "gemini charecteristics",
@@ -1610,8 +1790,8 @@
  {
   "query": "gemini friendship",
   "clicks": 0,
-  "impressions": 10,
-  "position": 38.9
+  "impressions": 9,
+  "position": 37.1
  },
  {
   "query": "gemini friendship compatibility",
@@ -1658,8 +1838,8 @@
  {
   "query": "gemini horoscope personality",
   "clicks": 0,
-  "impressions": 4,
-  "position": 67.5
+  "impressions": 3,
+  "position": 65.3
  },
  {
   "query": "gemini horoscope personality traits",
@@ -1694,8 +1874,8 @@
  {
   "query": "gemini in love behavior",
   "clicks": 0,
-  "impressions": 1,
-  "position": 54
+  "impressions": 2,
+  "position": 34
  },
  {
   "query": "gemini in relationships",
@@ -1784,8 +1964,8 @@
  {
   "query": "gemini personality",
   "clicks": 0,
-  "impressions": 70,
-  "position": 40.2
+  "impressions": 66,
+  "position": 36
  },
  {
   "query": "gemini personality and traits",
@@ -1796,14 +1976,14 @@
  {
   "query": "gemini personality characteristics",
   "clicks": 0,
-  "impressions": 2,
+  "impressions": 1,
   "position": 76
  },
  {
   "query": "gemini personality description",
   "clicks": 0,
-  "impressions": 2,
-  "position": 76.5
+  "impressions": 1,
+  "position": 76
  },
  {
   "query": "gemini personality disorder",
@@ -1838,8 +2018,8 @@
  {
   "query": "gemini personality traits",
   "clicks": 0,
-  "impressions": 24,
-  "position": 63
+  "impressions": 23,
+  "position": 62.5
  },
  {
   "query": "gemini personality traits male",
@@ -1850,8 +2030,8 @@
  {
   "query": "gemini profession",
   "clicks": 0,
-  "impressions": 56,
-  "position": 75.3
+  "impressions": 54,
+  "position": 75.2
  },
  {
   "query": "gemini qualities",
@@ -1874,20 +2054,14 @@
  {
   "query": "gemini red flag",
   "clicks": 0,
-  "impressions": 12,
-  "position": 9.9
+  "impressions": 14,
+  "position": 9.8
  },
  {
   "query": "gemini red flags in relationships",
   "clicks": 0,
   "impressions": 1,
   "position": 7
- },
- {
-  "query": "gemini red flags men",
-  "clicks": 0,
-  "impressions": 1,
-  "position": 47
  },
  {
   "query": "gemini red flags woman",
@@ -1928,8 +2102,8 @@
  {
   "query": "gemini sign traits",
   "clicks": 0,
-  "impressions": 2,
-  "position": 41
+  "impressions": 1,
+  "position": 3
  },
  {
   "query": "gemini sign weakness",
@@ -2085,7 +2259,7 @@
   "query": "gemini traits",
   "clicks": 0,
   "impressions": 48,
-  "position": 71.8
+  "position": 65.1
  },
  {
   "query": "gemini traits and characteristics",
@@ -2096,8 +2270,8 @@
  {
   "query": "gemini traits and personality",
   "clicks": 0,
-  "impressions": 6,
-  "position": 56.3
+  "impressions": 7,
+  "position": 48.7
  },
  {
   "query": "gemini traits astrology",
@@ -2130,12 +2304,6 @@
   "position": 5.8
  },
  {
-  "query": "gemini traits strengths and weaknesses",
-  "clicks": 0,
-  "impressions": 1,
-  "position": 74
- },
- {
   "query": "gemini traits stubborn",
   "clicks": 0,
   "impressions": 57,
@@ -2146,6 +2314,12 @@
   "clicks": 0,
   "impressions": 3,
   "position": 78.7
+ },
+ {
+  "query": "gemini type",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 49
  },
  {
   "query": "gemini weakness",
@@ -2196,6 +2370,12 @@
   "position": 3
  },
  {
+  "query": "gemini zodiac",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 2
+ },
+ {
   "query": "gemini zodiac characteristics",
   "clicks": 0,
   "impressions": 8,
@@ -2204,8 +2384,8 @@
  {
   "query": "gemini zodiac personality",
   "clicks": 0,
-  "impressions": 10,
-  "position": 77.6
+  "impressions": 9,
+  "position": 78.4
  },
  {
   "query": "gemini zodiac personality traits",
@@ -2292,12 +2472,6 @@
   "position": 83.5
  },
  {
-  "query": "geminis characteristics",
-  "clicks": 0,
-  "impressions": 1,
-  "position": 57
- },
- {
   "query": "geminis como son",
   "clicks": 0,
   "impressions": 2,
@@ -2342,20 +2516,20 @@
  {
   "query": "geminis in relationships",
   "clicks": 0,
-  "impressions": 4,
-  "position": 55
+  "impressions": 3,
+  "position": 54.7
  },
  {
   "query": "geminis personalidad",
   "clicks": 0,
-  "impressions": 3,
-  "position": 85
+  "impressions": 5,
+  "position": 84.2
  },
  {
   "query": "geminis personality",
   "clicks": 0,
-  "impressions": 7,
-  "position": 22.1
+  "impressions": 59,
+  "position": 11.6
  },
  {
   "query": "geminis personality traits",
@@ -2368,6 +2542,12 @@
   "clicks": 0,
   "impressions": 7,
   "position": 9
+ },
+ {
+  "query": "geminis sign",
+  "clicks": 0,
+  "impressions": 7,
+  "position": 10.1
  },
  {
   "query": "geminis signo",
@@ -2402,8 +2582,8 @@
  {
   "query": "hombre geminis enamorado",
   "clicks": 0,
-  "impressions": 2,
-  "position": 77
+  "impressions": 4,
+  "position": 74.5
  },
  {
   "query": "homem do signo de gemeos",
@@ -2526,16 +2706,34 @@
   "position": 79
  },
  {
+  "query": "house astrology",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 82
+ },
+ {
+  "query": "house zodiac",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 86
+ },
+ {
+  "query": "houses and planets in astrology",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 93
+ },
+ {
   "query": "houses astrology",
   "clicks": 0,
-  "impressions": 2,
-  "position": 83.5
+  "impressions": 3,
+  "position": 59.3
  },
  {
   "query": "houses in astrology",
   "clicks": 0,
-  "impressions": 4,
-  "position": 90.8
+  "impressions": 5,
+  "position": 89.2
  },
  {
   "query": "houses in the birth chart",
@@ -2548,6 +2746,12 @@
   "clicks": 0,
   "impressions": 1,
   "position": 86
+ },
+ {
+  "query": "houses zodiac",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 55
  },
  {
   "query": "houses zodiac meaning",
@@ -2578,6 +2782,12 @@
   "clicks": 0,
   "impressions": 1,
   "position": 9
+ },
+ {
+  "query": "how important is birth time in astrology",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 57
  },
  {
   "query": "information about gemini",
@@ -2714,14 +2924,20 @@
  {
   "query": "leo characteristics",
   "clicks": 0,
-  "impressions": 4,
-  "position": 94.8
+  "impressions": 6,
+  "position": 94.2
  },
  {
   "query": "leo characteristics and personality",
   "clicks": 0,
+  "impressions": 2,
+  "position": 87.5
+ },
+ {
+  "query": "leo characteristics zodiac",
+  "clicks": 0,
   "impressions": 1,
-  "position": 89
+  "position": 93
  },
  {
   "query": "leo personalidad",
@@ -2730,10 +2946,16 @@
   "position": 84.5
  },
  {
-  "query": "leo personality",
+  "query": "leo personalities",
   "clicks": 0,
   "impressions": 1,
-  "position": 95
+  "position": 76
+ },
+ {
+  "query": "leo personality",
+  "clicks": 0,
+  "impressions": 2,
+  "position": 92
  },
  {
   "query": "leo personality traits",
@@ -2742,10 +2964,22 @@
   "position": 75
  },
  {
-  "query": "leo sign personality",
+  "query": "leo qualities",
   "clicks": 0,
   "impressions": 1,
-  "position": 100
+  "position": 92
+ },
+ {
+  "query": "leo sign characteristics",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 97
+ },
+ {
+  "query": "leo sign personality",
+  "clicks": 0,
+  "impressions": 3,
+  "position": 96.7
  },
  {
   "query": "leo star qualities",
@@ -2766,6 +3000,18 @@
   "position": 93.7
  },
  {
+  "query": "leo star sign traits",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 94
+ },
+ {
+  "query": "leo star signs traits",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 93
+ },
+ {
   "query": "leo star traits",
   "clicks": 0,
   "impressions": 2,
@@ -2780,14 +3026,32 @@
  {
   "query": "leo traits",
   "clicks": 0,
-  "impressions": 3,
-  "position": 94.3
+  "impressions": 4,
+  "position": 93.5
+ },
+ {
+  "query": "leo zodiac attributes",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 95
  },
  {
   "query": "leo zodiac qualities",
   "clicks": 0,
-  "impressions": 1,
+  "impressions": 2,
   "position": 91
+ },
+ {
+  "query": "leo zodiac sign: personality",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 92
+ },
+ {
+  "query": "leo zodiac signs personality",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 97
  },
  {
   "query": "leos attributes",
@@ -2808,6 +3072,12 @@
   "position": 71
  },
  {
+  "query": "leão signo personalidade",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 81
+ },
+ {
   "query": "libra method",
   "clicks": 0,
   "impressions": 1,
@@ -2822,8 +3092,14 @@
  {
   "query": "los signos de los meses",
   "clicks": 0,
+  "impressions": 3,
+  "position": 44
+ },
+ {
+  "query": "los signos del mes",
+  "clicks": 0,
   "impressions": 1,
-  "position": 80
+  "position": 10
  },
  {
   "query": "los signos zodiacales con sus fechas",
@@ -2886,6 +3162,12 @@
   "position": 3
  },
  {
+  "query": "meaning of full moon",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 79
+ },
+ {
   "query": "meaning of the full moon",
   "clicks": 0,
   "impressions": 1,
@@ -2904,6 +3186,12 @@
   "position": 30
  },
  {
+  "query": "mercury retrograde",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 98
+ },
+ {
   "query": "mes de cada signo",
   "clicks": 0,
   "impressions": 1,
@@ -2918,8 +3206,8 @@
  {
   "query": "mes signo zodiacal",
   "clicks": 0,
-  "impressions": 1,
-  "position": 49
+  "impressions": 2,
+  "position": 47
  },
  {
   "query": "mes y su signo zodiacal",
@@ -2948,8 +3236,8 @@
  {
   "query": "meses de los signos",
   "clicks": 0,
-  "impressions": 3,
-  "position": 69.3
+  "impressions": 4,
+  "position": 71.8
  },
  {
   "query": "meses de signos zodiacales",
@@ -2992,6 +3280,18 @@
   "clicks": 0,
   "impressions": 1,
   "position": 98
+ },
+ {
+  "query": "meses y sus signos zodiacales",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 11
+ },
+ {
+  "query": "mi signo",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 77
  },
  {
   "query": "midheaven",
@@ -3038,8 +3338,14 @@
  {
   "query": "natal chart explained",
   "clicks": 0,
+  "impressions": 2,
+  "position": 66.5
+ },
+ {
+  "query": "natal chart houses",
+  "clicks": 0,
   "impressions": 1,
-  "position": 74
+  "position": 10
  },
  {
   "query": "natal chart meaning",
@@ -3076,6 +3382,12 @@
   "clicks": 0,
   "impressions": 2,
   "position": 86
+ },
+ {
+  "query": "orden del zodiaco por mes",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 49
  },
  {
   "query": "orden signo del zodiaco",
@@ -3138,6 +3450,12 @@
   "position": 68
  },
  {
+  "query": "personalidad de geminis",
+  "clicks": 0,
+  "impressions": 2,
+  "position": 98.5
+ },
+ {
   "query": "personalidad de los geminis",
   "clicks": 0,
   "impressions": 1,
@@ -3182,8 +3500,8 @@
  {
   "query": "personalidad geminis",
   "clicks": 0,
-  "impressions": 1,
-  "position": 94
+  "impressions": 2,
+  "position": 96
  },
  {
   "query": "personalidad piscis",
@@ -3200,14 +3518,14 @@
  {
   "query": "personalidad tauro",
   "clicks": 0,
-  "impressions": 6,
-  "position": 83.3
+  "impressions": 7,
+  "position": 85.4
  },
  {
   "query": "personalidad virgo",
   "clicks": 0,
-  "impressions": 1,
-  "position": 81
+  "impressions": 2,
+  "position": 83
  },
  {
   "query": "personalidade aquario",
@@ -3254,8 +3572,8 @@
  {
   "query": "personalidade signo gemeos",
   "clicks": 0,
-  "impressions": 2,
-  "position": 52.5
+  "impressions": 4,
+  "position": 63.8
  },
  {
   "query": "personalidades de leo",
@@ -3302,8 +3620,8 @@
  {
   "query": "personality traits for gemini",
   "clicks": 0,
-  "impressions": 6,
-  "position": 72.5
+  "impressions": 5,
+  "position": 72.4
  },
  {
   "query": "personality traits for leo",
@@ -3326,8 +3644,14 @@
  {
   "query": "personality traits of gemini",
   "clicks": 0,
-  "impressions": 9,
-  "position": 74.6
+  "impressions": 8,
+  "position": 75.3
+ },
+ {
+  "query": "pisces relationship traits",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 15
  },
  {
   "query": "pisces traits in relationships",
@@ -3414,10 +3738,22 @@
   "position": 69
  },
  {
+  "query": "quality of leo zodiac sign",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 93
+ },
+ {
   "query": "que es geminis",
   "clicks": 0,
   "impressions": 2,
   "position": 27.5
+ },
+ {
+  "query": "que es géminis",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 61
  },
  {
   "query": "que fechas tienen los signos zodiacales",
@@ -3474,6 +3810,12 @@
   "position": 84.3
  },
  {
+  "query": "que signo es el mes de enero",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 50
+ },
+ {
   "query": "que signo es el mes de julio",
   "clicks": 0,
   "impressions": 1,
@@ -3506,8 +3848,8 @@
  {
   "query": "que signo son los de mayo",
   "clicks": 0,
-  "impressions": 2,
-  "position": 62
+  "impressions": 3,
+  "position": 51
  },
  {
   "query": "que signo son los nacidos en junio",
@@ -3536,8 +3878,8 @@
  {
   "query": "que signo soy segun mi mes",
   "clicks": 0,
-  "impressions": 1,
-  "position": 85
+  "impressions": 2,
+  "position": 81.5
  },
  {
   "query": "que signo soy si naci el 22 de marzo",
@@ -3550,6 +3892,18 @@
   "clicks": 0,
   "impressions": 1,
   "position": 25
+ },
+ {
+  "query": "que signo soy si naci en enero",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 66
+ },
+ {
+  "query": "que signo soy si nací en febrero",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 51
  },
  {
   "query": "que signo viene despues de tauro",
@@ -3594,6 +3948,12 @@
   "position": 99
  },
  {
+  "query": "qué signo eres si naciste en abril",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 100
+ },
+ {
   "query": "qué signo eres si naciste en enero",
   "clicks": 0,
   "impressions": 2,
@@ -3618,6 +3978,12 @@
   "position": 89.5
  },
  {
+  "query": "qué signo soy si nací en febrero",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 53
+ },
+ {
   "query": "qué signo zodiacal eres según tu mes de nacimiento",
   "clicks": 0,
   "impressions": 1,
@@ -3638,8 +4004,8 @@
  {
   "query": "red flags de geminis",
   "clicks": 0,
-  "impressions": 2,
-  "position": 5.5
+  "impressions": 3,
+  "position": 6.3
  },
  {
   "query": "red flags for gemini",
@@ -3680,8 +4046,20 @@
  {
   "query": "sagittarius",
   "clicks": 0,
-  "impressions": 2,
-  "position": 56.5
+  "impressions": 10,
+  "position": 18.8
+ },
+ {
+  "query": "sagittarius soulmate",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 92
+ },
+ {
+  "query": "sagittarius soulmates",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 74
  },
  {
   "query": "sagitário qualidades e defeitos",
@@ -3702,6 +4080,12 @@
   "position": 91
  },
  {
+  "query": "scorpio family",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 11
+ },
+ {
   "query": "scorpio personalities",
   "clicks": 0,
   "impressions": 1,
@@ -3716,8 +4100,8 @@
  {
   "query": "scorpio personality traits",
   "clicks": 0,
-  "impressions": 1,
-  "position": 93
+  "impressions": 3,
+  "position": 73.3
  },
  {
   "query": "scorpio personality traits explained",
@@ -3776,8 +4160,8 @@
  {
   "query": "significado signo tauro",
   "clicks": 0,
-  "impressions": 2,
-  "position": 90.5
+  "impressions": 3,
+  "position": 90
  },
  {
   "query": "signo 18 de junho",
@@ -3866,8 +4250,8 @@
  {
   "query": "signo del mes de junio",
   "clicks": 0,
-  "impressions": 1,
-  "position": 84
+  "impressions": 2,
+  "position": 88
  },
  {
   "query": "signo del mes de mayo",
@@ -3902,14 +4286,20 @@
  {
   "query": "signo gemeos caracteristicas",
   "clicks": 0,
-  "impressions": 2,
-  "position": 74.5
+  "impressions": 3,
+  "position": 68.7
  },
  {
   "query": "signo gemeos perfil",
   "clicks": 0,
   "impressions": 1,
   "position": 100
+ },
+ {
+  "query": "signo geminis caracteristicas",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 96
  },
  {
   "query": "signo gêmeos características",
@@ -3942,10 +4332,28 @@
   "position": 8.5
  },
  {
+  "query": "signo segun tu mes",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 47
+ },
+ {
+  "query": "signo según el mes",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 70
+ },
+ {
   "query": "signo según tu mes",
   "clicks": 0,
   "impressions": 1,
   "position": 44
+ },
+ {
+  "query": "signo tauro caracteristicas",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 78
  },
  {
   "query": "signo y mes",
@@ -3962,14 +4370,20 @@
  {
   "query": "signo zodiacal por mes",
   "clicks": 0,
-  "impressions": 5,
-  "position": 28.2
+  "impressions": 6,
+  "position": 28.3
  },
  {
   "query": "signo zodiacal por meses",
   "clicks": 0,
   "impressions": 1,
   "position": 63
+ },
+ {
+  "query": "signo zodiacal segun el mes",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 50
  },
  {
   "query": "signo zodiacal segun mes",
@@ -3982,6 +4396,18 @@
   "clicks": 0,
   "impressions": 2,
   "position": 86.5
+ },
+ {
+  "query": "signo zodiaco meses",
+  "clicks": 0,
+  "impressions": 2,
+  "position": 75
+ },
+ {
+  "query": "signos compatíveis",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 94
  },
  {
   "query": "signos con fechas",
@@ -4026,6 +4452,18 @@
   "position": 74
  },
  {
+  "query": "signos de meses",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 32
+ },
+ {
+  "query": "signos del mes",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 24
+ },
+ {
   "query": "signos del zodiaco cuando empiezan y terminan",
   "clicks": 0,
   "impressions": 1,
@@ -4058,8 +4496,8 @@
  {
   "query": "signos del zodiaco meses",
   "clicks": 0,
-  "impressions": 2,
-  "position": 66.5
+  "impressions": 3,
+  "position": 68.7
  },
  {
   "query": "signos del zodiaco por fechas",
@@ -4072,6 +4510,12 @@
   "clicks": 0,
   "impressions": 1,
   "position": 10
+ },
+ {
+  "query": "signos del zodiaco y meses",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 61
  },
  {
   "query": "signos del zodíaco en orden",
@@ -4154,8 +4598,8 @@
  {
   "query": "signos segun el mes",
   "clicks": 0,
-  "impressions": 12,
-  "position": 19
+  "impressions": 13,
+  "position": 21.2
  },
  {
   "query": "signos segun fecha",
@@ -4174,6 +4618,12 @@
   "clicks": 0,
   "impressions": 1,
   "position": 89
+ },
+ {
+  "query": "signos segun tu mes",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 49
  },
  {
   "query": "signos según fecha",
@@ -4244,8 +4694,8 @@
  {
   "query": "signos zodiacales por mes",
   "clicks": 0,
-  "impressions": 27,
-  "position": 24.4
+  "impressions": 29,
+  "position": 23.4
  },
  {
   "query": "signos zodiacales por meses",
@@ -4352,8 +4802,8 @@
  {
   "query": "solar return",
   "clicks": 0,
-  "impressions": 1,
-  "position": 88
+  "impressions": 3,
+  "position": 80.7
  },
  {
   "query": "solar return berechnen",
@@ -4366,6 +4816,12 @@
   "clicks": 0,
   "impressions": 1,
   "position": 92
+ },
+ {
+  "query": "soulmate of sagittarius",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 72
  },
  {
   "query": "star sign dates",
@@ -4392,6 +4848,18 @@
   "position": 88
  },
  {
+  "query": "star sign leo personality",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 95
+ },
+ {
+  "query": "star sign leo traits",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 91
+ },
+ {
   "query": "star sign traits gemini",
   "clicks": 0,
   "impressions": 1,
@@ -4404,6 +4872,12 @@
   "position": 77
  },
  {
+  "query": "star signs leo personality",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 53
+ },
+ {
   "query": "sun sign dates",
   "clicks": 0,
   "impressions": 2,
@@ -4414,6 +4888,12 @@
   "clicks": 0,
   "impressions": 1,
   "position": 83
+ },
+ {
+  "query": "synastry",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 91
  },
  {
   "query": "synastry meaning",
@@ -4452,6 +4932,12 @@
   "position": 82.3
  },
  {
+  "query": "taurus",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 12
+ },
+ {
   "query": "taurus personality traits",
   "clicks": 0,
   "impressions": 1,
@@ -4482,6 +4968,12 @@
   "position": 69
  },
  {
+  "query": "todo sobre geminis",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 95
+ },
+ {
   "query": "tonight full moon meaning spiritual",
   "clicks": 0,
   "impressions": 1,
@@ -4508,8 +5000,8 @@
  {
   "query": "traits about gemini",
   "clicks": 0,
-  "impressions": 4,
-  "position": 79
+  "impressions": 3,
+  "position": 81.7
  },
  {
   "query": "traits for a gemini",
@@ -4578,12 +5070,6 @@
   "position": 82
  },
  {
-  "query": "traits of gemini zodiac",
-  "clicks": 0,
-  "impressions": 1,
-  "position": 78
- },
- {
   "query": "traits of gemini zodiac sign",
   "clicks": 0,
   "impressions": 1,
@@ -4610,8 +5096,8 @@
  {
   "query": "tudo sobre o signo de gemeos",
   "clicks": 0,
-  "impressions": 1,
-  "position": 66
+  "impressions": 4,
+  "position": 47.3
  },
  {
   "query": "tudo sobre o signo gemeos",
@@ -4628,8 +5114,8 @@
  {
   "query": "typical gemini traits",
   "clicks": 0,
-  "impressions": 2,
-  "position": 80
+  "impressions": 1,
+  "position": 75
  },
  {
   "query": "vad betyder eclipse",
@@ -4644,10 +5130,16 @@
   "position": 90
  },
  {
-  "query": "venus meaning",
+  "query": "venus là sao gì",
   "clicks": 0,
   "impressions": 1,
-  "position": 86
+  "position": 9
+ },
+ {
+  "query": "venus meaning",
+  "clicks": 0,
+  "impressions": 2,
+  "position": 90
  },
  {
   "query": "virgo personalidad",
@@ -4662,6 +5154,18 @@
   "position": 97
  },
  {
+  "query": "water sign compatibility",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 17
+ },
+ {
+  "query": "welke sterrenbeelden passen bij leeuw?",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 10
+ },
+ {
   "query": "what about gem",
   "clicks": 0,
   "impressions": 1,
@@ -4672,6 +5176,12 @@
   "clicks": 0,
   "impressions": 1,
   "position": 79
+ },
+ {
+  "query": "what are gemini",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 25
  },
  {
   "query": "what are gemini personas",
@@ -4794,16 +5304,10 @@
   "position": 98
  },
  {
-  "query": "what are the personality traits of a gemini",
-  "clicks": 0,
-  "impressions": 1,
-  "position": 65
- },
- {
   "query": "what are the qualities of a cancer",
   "clicks": 0,
-  "impressions": 1,
-  "position": 99
+  "impressions": 2,
+  "position": 99.5
  },
  {
   "query": "what are the qualities of a leo",
@@ -4838,8 +5342,32 @@
  {
   "query": "what do a full moon mean",
   "clicks": 0,
+  "impressions": 2,
+  "position": 86.5
+ },
+ {
+  "query": "what do conjunctions mean in astrology",
+  "clicks": 0,
   "impressions": 1,
-  "position": 97
+  "position": 65
+ },
+ {
+  "query": "what do the houses mean in astrology",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 91
+ },
+ {
+  "query": "what does a conjunction mean in astrology",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 80
+ },
+ {
+  "query": "what does a full moon mean",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 76
  },
  {
   "query": "what does a new moon mean",
@@ -4848,10 +5376,28 @@
   "position": 86
  },
  {
+  "query": "what does conjunct mean in astrology",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 84
+ },
+ {
   "query": "what does conjunction mean in astrology",
   "clicks": 0,
-  "impressions": 3,
-  "position": 91.7
+  "impressions": 4,
+  "position": 85.5
+ },
+ {
+  "query": "what does full moon mean",
+  "clicks": 0,
+  "impressions": 2,
+  "position": 81.5
+ },
+ {
+  "query": "what does house mean in astrology",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 86
  },
  {
   "query": "what does my natal chart mean?",
@@ -4868,8 +5414,14 @@
  {
   "query": "what does the full moon mean",
   "clicks": 0,
-  "impressions": 1,
-  "position": 47
+  "impressions": 2,
+  "position": 59
+ },
+ {
+  "query": "what is a birth chart",
+  "clicks": 0,
+  "impressions": 3,
+  "position": 8.7
  },
  {
   "query": "what is a full moon in astrology",
@@ -4884,10 +5436,16 @@
   "position": 44.5
  },
  {
+  "query": "what is a gemini like",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 37
+ },
+ {
   "query": "what is a gemini personality",
   "clicks": 0,
-  "impressions": 6,
-  "position": 55.7
+  "impressions": 5,
+  "position": 56.2
  },
  {
   "query": "what is a gemini red flag? explain how to deal with gemini inconsistency",
@@ -4910,7 +5468,7 @@
  {
   "query": "what is a natal chart",
   "clicks": 0,
-  "impressions": 6,
+  "impressions": 10,
   "position": 82.8
  },
  {
@@ -4932,6 +5490,24 @@
   "position": 53
  },
  {
+  "query": "what is a venus sign in astrology",
+  "clicks": 0,
+  "impressions": 2,
+  "position": 3
+ },
+ {
+  "query": "what is a venus sign mean",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 8
+ },
+ {
+  "query": "what is birth chart in astrology",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 65
+ },
+ {
   "query": "what is gemini personality",
   "clicks": 0,
   "impressions": 1,
@@ -4950,10 +5526,16 @@
   "position": 3
  },
  {
-  "query": "what is natal chart",
+  "query": "what is house in astrology",
   "clicks": 0,
   "impressions": 1,
-  "position": 58
+  "position": 85
+ },
+ {
+  "query": "what is natal chart",
+  "clicks": 0,
+  "impressions": 2,
+  "position": 70.5
  },
  {
   "query": "what is natal chart astrology",
@@ -5046,6 +5628,12 @@
   "position": 26
  },
  {
+  "query": "why is birth time important in astrology",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 49
+ },
+ {
   "query": "zodiac cancer traits",
   "clicks": 0,
   "impressions": 1,
@@ -5072,8 +5660,8 @@
  {
   "query": "zodiac leo personality",
   "clicks": 0,
-  "impressions": 1,
-  "position": 99
+  "impressions": 2,
+  "position": 98.5
  },
  {
   "query": "zodiac sign by month",
@@ -5112,6 +5700,12 @@
   "position": 100
  },
  {
+  "query": "zodiac sign leo personality",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 92
+ },
+ {
   "query": "zodiac sign months january",
   "clicks": 0,
   "impressions": 1,
@@ -5126,20 +5720,14 @@
  {
   "query": "zodiac signs by month",
   "clicks": 0,
-  "impressions": 2,
-  "position": 80.5
+  "impressions": 4,
+  "position": 82.8
  },
  {
   "query": "zodiac signs dates",
   "clicks": 0,
   "impressions": 1,
   "position": 100
- },
- {
-  "query": "zodiac signs gemini personality",
-  "clicks": 0,
-  "impressions": 1,
-  "position": 78
  },
  {
   "query": "zodiac signs gemini traits",
@@ -5230,5 +5818,17 @@
   "clicks": 0,
   "impressions": 1,
   "position": 95
+ },
+ {
+  "query": "מזל גדי גבר",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 37
+ },
+ {
+  "query": "सौर रिटर्न",
+  "clicks": 0,
+  "impressions": 1,
+  "position": 71
  }
 ]
