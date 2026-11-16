@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T13:54:38.843Z",
+ "updated": "2026-11-16T15:40:17.119Z",
  "items": [
   {
    "term": "Zodiac signs",
@@ -1145,18 +1145,18 @@
    "volume": 1600
   },
   {
-   "term": "Chiron in Sagittarius",
-   "question": "What does Chiron in Sagittarius mean?",
-   "category": "Signs & Elements",
+   "term": "Conjunct",
+   "question": "What does conjunct mean in astrology?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1001600,
    "source": "keyword-planner",
    "volume": 1600
   },
   {
-   "term": "Conjunct",
-   "question": "What does conjunct mean in astrology?",
-   "category": "Chart Concepts",
+   "term": "Chiron in Sagittarius",
+   "question": "What does Chiron in Sagittarius mean?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 1001600,
    "source": "keyword-planner",
@@ -3719,6 +3719,15 @@
    "volume": 20
   },
   {
+   "term": "Natal chart",
+   "question": "What is a natal chart?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 500010,
+   "source": "search-console",
+   "volume": 10
+  },
+  {
    "term": "Gemini red flags",
    "question": "What are gemini red flags?",
    "category": "Signs & Elements",
@@ -3732,18 +3741,9 @@
    "question": "What is a gemini personality?",
    "category": "Signs & Elements",
    "icon": "✨",
-   "score": 500006,
+   "score": 500005,
    "source": "search-console",
-   "volume": 6
-  },
-  {
-   "term": "Natal chart",
-   "question": "What is a natal chart?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 500006,
-   "source": "search-console",
-   "volume": 6
+   "volume": 5
   },
   {
    "term": "Characteristics of a gemini",
@@ -3755,17 +3755,26 @@
    "volume": 4
   },
   {
-   "term": "Gemini traits",
-   "question": "What are gemini traits?",
-   "category": "Signs & Elements",
+   "term": "Conjunction",
+   "question": "What does conjunction mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 500004,
+   "source": "search-console",
+   "volume": 4
+  },
+  {
+   "term": "Birth chart",
+   "question": "What is a birth chart?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 500003,
    "source": "search-console",
    "volume": 3
   },
   {
-   "term": "Conjunction",
-   "question": "What does conjunction mean in astrology?",
+   "term": "Birth date and time",
+   "question": "What does birth date and time mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 500003,
@@ -3777,9 +3786,18 @@
    "question": "What are aspects in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 500002,
+   "score": 500003,
    "source": "search-console",
-   "volume": 2
+   "volume": 3
+  },
+  {
+   "term": "Gemini traits",
+   "question": "What are gemini traits?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 500003,
+   "source": "search-console",
+   "volume": 3
   },
   {
    "term": "Full moon spiritual",
@@ -3827,6 +3845,15 @@
    "volume": 2
   },
   {
+   "term": "Qualities of a cancer",
+   "question": "What are the qualities of a cancer?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 500002,
+   "source": "search-console",
+   "volume": 2
+  },
+  {
    "term": "Traits of gemini",
    "question": "What are the traits of gemini?",
    "category": "Signs & Elements",
@@ -3854,9 +3881,54 @@
    "volume": 2
   },
   {
+   "term": "Full moon",
+   "question": "What do a full moon mean?",
+   "category": "Phases & Movements",
+   "icon": "✨",
+   "score": 500002,
+   "source": "search-console",
+   "volume": 2
+  },
+  {
+   "term": "Full moon",
+   "question": "What does full moon mean?",
+   "category": "Phases & Movements",
+   "icon": "✨",
+   "score": 500002,
+   "source": "search-console",
+   "volume": 2
+  },
+  {
+   "term": "Full moon",
+   "question": "What does the full moon mean?",
+   "category": "Phases & Movements",
+   "icon": "✨",
+   "score": 500002,
+   "source": "search-console",
+   "volume": 2
+  },
+  {
    "term": "Gemini",
    "question": "What is a gemini?",
    "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 500002,
+   "source": "search-console",
+   "volume": 2
+  },
+  {
+   "term": "Venus sign",
+   "question": "What is a venus sign in astrology?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 500002,
+   "source": "search-console",
+   "volume": 2
+  },
+  {
+   "term": "Natal chart",
+   "question": "What is natal chart?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 500002,
    "source": "search-console",
@@ -3890,6 +3962,33 @@
    "volume": 2
   },
   {
+   "term": "Houses",
+   "question": "What do the houses mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 500001,
+   "source": "search-console",
+   "volume": 1
+  },
+  {
+   "term": "Conjunction",
+   "question": "What does a conjunction mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 500001,
+   "source": "search-console",
+   "volume": 1
+  },
+  {
+   "term": "Full moon",
+   "question": "What does a full moon mean?",
+   "category": "Phases & Movements",
+   "icon": "✨",
+   "score": 500001,
+   "source": "search-console",
+   "volume": 1
+  },
+  {
    "term": "New moon",
    "question": "What does a new moon mean?",
    "category": "Phases & Movements",
@@ -3908,8 +4007,26 @@
    "volume": 1
   },
   {
+   "term": "Birth time important",
+   "question": "Why is birth time important in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 500001,
+   "source": "search-console",
+   "volume": 1
+  },
+  {
    "term": "Birth time matter",
    "question": "Why does birth time matter in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 500001,
+   "source": "search-console",
+   "volume": 1
+  },
+  {
+   "term": "Aspecting",
+   "question": "What does aspecting mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 500001,
@@ -3946,6 +4063,15 @@
   {
    "term": "Characteristics of a gemini",
    "question": "What are characteristics of a gemini?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 500001,
+   "source": "search-console",
+   "volume": 1
+  },
+  {
+   "term": "Gemini",
+   "question": "What are gemini?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 500001,
@@ -4079,24 +4205,6 @@
    "volume": 1
   },
   {
-   "term": "Personality traits of a gemini",
-   "question": "What are the personality traits of a gemini?",
-   "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 500001,
-   "source": "search-console",
-   "volume": 1
-  },
-  {
-   "term": "Qualities of a cancer",
-   "question": "What are the qualities of a cancer?",
-   "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 500001,
-   "source": "search-console",
-   "volume": 1
-  },
-  {
    "term": "Qualities of a leo",
    "question": "What are the qualities of a leo?",
    "category": "Signs & Elements",
@@ -4106,9 +4214,18 @@
    "volume": 1
   },
   {
-   "term": "Full moon",
-   "question": "What do a full moon mean?",
-   "category": "Phases & Movements",
+   "term": "Conjunctions",
+   "question": "What do conjunctions mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 500001,
+   "source": "search-console",
+   "volume": 1
+  },
+  {
+   "term": "House",
+   "question": "What does house mean in astrology?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 500001,
    "source": "search-console",
@@ -4124,9 +4241,9 @@
    "volume": 1
   },
   {
-   "term": "Full moon",
-   "question": "What does the full moon mean?",
-   "category": "Phases & Movements",
+   "term": "Gemini like",
+   "question": "What is a gemini like?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 500001,
    "source": "search-console",
@@ -4178,6 +4295,24 @@
    "volume": 1
   },
   {
+   "term": "Venus sign",
+   "question": "What is a venus sign mean?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 500001,
+   "source": "search-console",
+   "volume": 1
+  },
+  {
+   "term": "Birth chart",
+   "question": "What is birth chart in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 500001,
+   "source": "search-console",
+   "volume": 1
+  },
+  {
    "term": "Gemini personality",
    "question": "What is gemini personality?",
    "category": "Signs & Elements",
@@ -4190,15 +4325,6 @@
    "term": "Gemini personality traits",
    "question": "What is gemini personality traits?",
    "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 500001,
-   "source": "search-console",
-   "volume": 1
-  },
-  {
-   "term": "Natal chart",
-   "question": "What is natal chart?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 500001,
    "source": "search-console",
@@ -4298,7 +4424,7 @@
    "question": "What does each sign mean in astrology?",
    "category": "Signs & Elements",
    "icon": "✨",
-   "score": 44,
+   "score": 52,
    "source": "google-suggest"
   },
   {
@@ -4344,6 +4470,14 @@
   {
    "term": "Fixed sign",
    "question": "What is a fixed sign in astrology?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 30,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Water sign",
+   "question": "What is a water sign in astrology?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 30,
@@ -4406,11 +4540,11 @@
    "source": "google-suggest"
   },
   {
-   "term": "Water sign",
-   "question": "What is a water sign in astrology?",
-   "category": "Signs & Elements",
+   "term": "Grand trine in a birth chart",
+   "question": "What is a grand trine in a birth chart?",
+   "category": "Chart Concepts",
    "icon": "✨",
-   "score": 25,
+   "score": 26,
    "source": "google-suggest"
   },
   {
@@ -4489,14 +4623,6 @@
    "term": "Grand trines",
    "question": "What do grand trines mean in astrology?",
    "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 21,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Full moon",
-   "question": "What does a full moon mean?",
-   "category": "Phases & Movements",
    "icon": "✨",
    "score": 21,
    "source": "google-suggest"
@@ -4752,6 +4878,14 @@
   {
    "term": "Detriment",
    "question": "What does detriment mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 18,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Yod mean in a birth chart",
+   "question": "What does a yod mean in a birth chart?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 18,
@@ -5470,14 +5604,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Mercury retrograde",
-   "question": "What is mercury retrograde?",
-   "category": "Phases & Movements",
-   "icon": "✨",
-   "score": 11,
-   "source": "google-suggest"
-  },
-  {
    "term": "Venus retrograde",
    "question": "What is venus retrograde?",
    "category": "Phases & Movements",
@@ -5696,14 +5822,6 @@
   {
    "term": "Houses",
    "question": "What does the houses mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 11,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Conjunction",
-   "question": "What does a conjunction mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 11,
@@ -6056,6 +6174,14 @@
   {
    "term": "Moon represent",
    "question": "What does the moon represent in astrology?",
+   "category": "Phases & Movements",
+   "icon": "✨",
+   "score": 10,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Mercury retrograde",
+   "question": "What is mercury retrograde?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 10,
@@ -6814,14 +6940,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Yod mean in a birth chart",
-   "question": "What does a yod mean in a birth chart?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 10,
-   "source": "google-suggest"
-  },
-  {
    "term": "Meaning of a yod",
    "question": "What is the meaning of a yod in astrology?",
    "category": "Chart Concepts",
@@ -6840,6 +6958,14 @@
   {
    "term": "It mean to square something",
    "question": "What does it mean to square something in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 10,
+   "source": "google-suggest"
+  },
+  {
+   "term": "T square",
+   "question": "What does t square mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 10,
@@ -6918,14 +7044,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Gemini 4 hydrogen",
-   "question": "What is gemini 4 hydrogen?",
-   "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 10,
-   "source": "google-suggest"
-  },
-  {
    "term": "Gemini represent",
    "question": "What does gemini represent in astrology?",
    "category": "Signs & Elements",
@@ -6953,6 +7071,14 @@
    "term": "Cancer astrology sign",
    "question": "What does cancer astrology sign mean?",
    "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 10,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Leonida",
+   "question": "What is leonida?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 10,
    "source": "google-suggest"
@@ -7328,14 +7454,6 @@
   {
    "term": "Birth time rectification",
    "question": "What is birth time rectification in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 10,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Birth time important",
-   "question": "Why is birth time important in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 10,
@@ -8374,14 +8492,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Grand trine in a birth chart",
-   "question": "What is a grand trine in a birth chart?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 9,
-   "source": "google-suggest"
-  },
-  {
    "term": "Grand water trine",
    "question": "What does a grand water trine mean?",
    "category": "Signs & Elements",
@@ -8494,6 +8604,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Gemini notebook",
+   "question": "What is gemini notebook?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 9,
+   "source": "google-suggest"
+  },
+  {
    "term": "Gemini mean in latin",
    "question": "What does gemini mean in latin?",
    "category": "Signs & Elements",
@@ -8529,14 +8647,6 @@
    "term": "Cancer symbol astrology",
    "question": "What does cancer symbol astrology mean in astrology?",
    "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 9,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Leonida",
-   "question": "What is leonida?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 9,
    "source": "google-suggest"
@@ -10102,8 +10212,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Gemini notebook",
-   "question": "What is gemini notebook?",
+   "term": "Gemini spark",
+   "question": "What is gemini spark?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 8,
@@ -10126,9 +10236,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leonida in gta 6",
-   "question": "What is leonida in gta 6?",
-   "category": "Chart Concepts",
+   "term": "Leo season",
+   "question": "What is leo season?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 8,
    "source": "google-suggest"
@@ -10632,14 +10742,6 @@
   {
    "term": "Birth chart",
    "question": "What does birth chart mean?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 8,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Birth date and time",
-   "question": "What does birth date and time mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 8,
@@ -11486,6 +11588,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Each sign represent",
+   "question": "What does each sign represent in astrology?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 7,
+   "source": "google-suggest"
+  },
+  {
    "term": "Cuspidor",
    "question": "What is a cuspidor?",
    "category": "Chart Concepts",
@@ -11694,8 +11804,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Gemini spark",
-   "question": "What is gemini spark?",
+   "term": "Gemini hydrogen",
+   "question": "What is gemini hydrogen?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 7,
@@ -11750,8 +11860,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leo season",
-   "question": "What is leo season?",
+   "term": "Leo short for",
+   "question": "What is leo short for?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 7,
@@ -12638,14 +12748,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Birth chart",
-   "question": "What is a birth chart?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 6,
-   "source": "google-suggest"
-  },
-  {
    "term": "Birth charts",
    "question": "What do birth charts mean?",
    "category": "Chart Concepts",
@@ -12736,14 +12838,6 @@
   {
    "term": "Different houses",
    "question": "What does the different houses mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 6,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Houses",
-   "question": "What do the houses mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 6,
@@ -13078,6 +13172,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "There no earth sign",
+   "question": "Why is there no earth sign in astrology?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 6,
+   "source": "google-suggest"
+  },
+  {
    "term": "Air sign",
    "question": "What is an air sign in astrology?",
    "category": "Signs & Elements",
@@ -13254,14 +13356,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Gemini hydrogen",
-   "question": "What is gemini hydrogen?",
-   "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 6,
-   "source": "google-suggest"
-  },
-  {
    "term": "Gemini mean for a person",
    "question": "What does gemini mean for a person?",
    "category": "Signs & Elements",
@@ -13294,9 +13388,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leo short for",
-   "question": "What is leo short for?",
-   "category": "Signs & Elements",
+   "term": "Leonardo dicaprio's net worth",
+   "question": "What is leonardo dicaprio's net worth?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 6,
    "source": "google-suggest"
@@ -14726,6 +14820,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Gemini in google messages",
+   "question": "What is gemini in google messages?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 5,
+   "source": "google-suggest"
+  },
+  {
    "term": "Gemini mean in slang",
    "question": "What does gemini mean in slang?",
    "category": "Signs & Elements",
@@ -14750,9 +14852,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leonardo dicaprio's net worth",
-   "question": "What is leonardo dicaprio's net worth?",
-   "category": "Chart Concepts",
+   "term": "Leo sign",
+   "question": "What is leo sign?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 5,
    "source": "google-suggest"
@@ -16222,8 +16324,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Gemini in google messages",
-   "question": "What is gemini in google messages?",
+   "term": "Gemini 4 hydrogen",
+   "question": "What is gemini 4 hydrogen?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 4,
@@ -16270,8 +16372,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leo sign",
-   "question": "What is leo sign?",
+   "term": "Leo's birthstone",
+   "question": "What is leo's birthstone?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 4,
@@ -17582,8 +17684,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leo's birthstone",
-   "question": "What is leo's birthstone?",
+   "term": "Leo zodiac sign",
+   "question": "What is leo zodiac sign?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -18864,14 +18966,6 @@
   {
    "term": "Cancer zodiac sign mean in hindi",
    "question": "What does cancer zodiac sign mean in hindi?",
-   "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 2,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Leo zodiac sign",
-   "question": "What is leo zodiac sign?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,

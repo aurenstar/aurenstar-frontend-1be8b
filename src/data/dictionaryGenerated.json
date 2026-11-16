@@ -6211,5 +6211,1774 @@
         ]
       }
     }
+  },
+  {
+    "termo": "Cardinal signs",
+    "tituloSEO": "What Are Cardinal Signs in Astrology? Simple Guide",
+    "perguntaGoogle": "What are cardinal signs in astrology?",
+    "resumoUmaLinha": "Cardinal signs in astrology start new seasons and bring new energy.",
+    "explicacaoEducativa": "Learn that cardinal signs in astrology are linked to beginnings and new starts in life.",
+    "chamadaCuriosa": "Did you know some signs are natural starters?",
+    "oQueSignifica": "Cardinal signs are like the leaders who start new projects or activities. Imagine a friend who always plans the first day of a trip—that’s the energy of cardinal signs. They help start the four seasons, like the first step you take to begin something fresh.",
+    "oQueSignificaNaAstrologia": "In astrology, cardinal signs are Aries, Cancer, Libra, and Capricorn. They are linked to starting new phases and taking initiative. People with strong cardinal signs may feel ready to lead or begin new things. This energy helps move life forward, like a natural push to jump into action.",
+    "exemploFicticio": "Maria just decided to organize a group hike for the weekend. Her friend Carlos notices she loves planning and starting fun activities. Maria shows the energy of a cardinal sign by getting everyone excited to try something new.",
+    "dicaRapida": "If you feel stuck, try acting like a cardinal sign and start something small today.",
+    "miniJogo": {
+      "pergunta": "If a friend always plans new adventures, which type of sign energy might they have?",
+      "opcoes": [
+        {
+          "texto": "Cardinal sign energy",
+          "correta": true,
+          "explicacao": "Cardinal signs like to start things and lead new adventures."
+        },
+        {
+          "texto": "Fixed sign energy",
+          "correta": false,
+          "explicacao": "Fixed signs like to keep things steady, not always start new plans."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Which signs are cardinal signs?",
+        "resposta": "Aries, Cancer, Libra, and Capricorn are the cardinal signs in astrology."
+      },
+      {
+        "pergunta": "What does cardinal mean for my personality?",
+        "resposta": "It means you might like beginning new projects or leading others."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "elementos-astrologicos",
+      "casas-astrologicas"
+    ],
+    "id": "what-are-cardinal-signs-in-astrology",
+    "slug": "what-are-cardinal-signs-in-astrology",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Signos cardeais",
+        "perguntaGoogle": "Quais são os signos cardeais na astrologia?",
+        "resumoUmaLinha": "Os signos cardeais na astrologia começam novas estações e trazem energia nova.",
+        "chamadaCuriosa": "Você sabia que alguns signos são os líderes naturais para começar as coisas?",
+        "oQueSignifica": "Signos cardeais são como os líderes que começam novos projetos ou atividades. Imagine um amigo que sempre planeja o primeiro dia de uma viagem — essa é a energia dos signos cardeais. Eles ajudam a iniciar as quatro estações, como o primeiro passo para algo novo.",
+        "oQueSignificaNaAstrologia": "Na astrologia, os signos cardeais são Áries, Câncer, Libra e Capricórnio. Eles estão ligados a começar novas fases e tomar iniciativa. Quem tem sinais cardeais fortes geralmente sente vontade de liderar ou começar coisas novas. Essa energia ajuda a vida a seguir em frente, como um empurrão natural para agir.",
+        "exemploFicticio": "Maria acabou de decidir organizar uma trilha em grupo para o fim de semana. O amigo dela, Carlos, percebe que ela adora planejar e começar atividades divertidas. Maria mostra a energia de um signo cardeal ao animar todo mundo para tentar algo novo.",
+        "faq": [
+          {
+            "pergunta": "Quais signos são cardeais?",
+            "resposta": "Áries, Câncer, Libra e Capricórnio são os signos cardeais na astrologia."
+          },
+          {
+            "pergunta": "O que significa ser cardeal na minha personalidade?",
+            "resposta": "Significa que você pode gostar de começar novos projetos ou liderar outras pessoas."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Signos cardinales",
+        "perguntaGoogle": "¿Qué son los signos cardinales en astrología?",
+        "resumoUmaLinha": "Los signos cardinales en astrología inician nuevas estaciones y traen nueva energía.",
+        "chamadaCuriosa": "¿Sabías que algunos signos son los que siempre empiezan?",
+        "oQueSignifica": "Los signos cardinales son como líderes que comienzan nuevos proyectos o actividades. Imagina a un amigo que siempre planifica el primer día de un viaje—esa es la energía de los signos cardinales. Ellos ayudan a iniciar las cuatro estaciones, como el primer paso para empezar algo fresco.",
+        "oQueSignificaNaAstrologia": "En astrología, los signos cardinales son Aries, Cáncer, Libra y Capricornio. Están relacionados con comenzar nuevas fases y tomar la iniciativa. Las personas con signos cardinales fuertes suelen sentirse listas para liderar o empezar cosas nuevas. Esta energía impulsa la vida hacia adelante, como un empujón natural para pasar a la acción.",
+        "exemploFicticio": "María acaba de decidir organizar una caminata en grupo para el fin de semana. Su amigo Carlos nota que a ella le encanta planear y comenzar actividades divertidas. María muestra la energía de un signo cardinal al entusiasmar a todos para probar algo nuevo.",
+        "faq": [
+          {
+            "pergunta": "¿Cuáles son los signos cardinales?",
+            "resposta": "Aries, Cáncer, Libra y Capricornio son los signos cardinales en astrología."
+          },
+          {
+            "pergunta": "¿Qué significa cardinal para mi personalidad?",
+            "resposta": "Significa que te puede gustar empezar nuevos proyectos o liderar a otros."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Retrograde",
+    "tituloSEO": "What is a Retrograde in Astrology? Simple Explanation",
+    "perguntaGoogle": "What is a retrograde in astrology?",
+    "resumoUmaLinha": "Retrograde is when a planet seems to move backward in the sky, linked to review and reflection.",
+    "explicacaoEducativa": "Learn that retrograde means a planet looks like it’s moving backward from Earth’s view. It’s linked to slowing down or rethinking things.",
+    "chamadaCuriosa": "Why do planets seem to move backward sometimes?",
+    "oQueSignifica": "Retrograde is like when a car on the highway slows down and seems to go backward compared to other cars. Planets don’t actually move backward, but from Earth, they look like they do for a while. It’s a natural optical illusion, like watching a movie in reverse for a bit.",
+    "oQueSignificaNaAstrologia": "In astrology, retrograde is linked to times for looking back, rethinking, or fixing old things. It might feel like slowing down or needing patience. People often notice retrogrades of planets like Mercury, associated with communication or travel. It’s not a bad time, but a moment to pause and review quietly.",
+    "exemploFicticio": "Maria planned to send an important email, but Mercury was retrograde. She noticed some mistakes and fixed them before sending. Carlos also slowed down and double-checked his travel plans during retrograde.",
+    "dicaRapida": "During retrograde, take extra time to check details and rethink plans before acting.",
+    "miniJogo": {
+      "pergunta": "If Mercury is retrograde, what might be a smart choice?",
+      "opcoes": [
+        {
+          "texto": "Double-check emails and plans before sending or confirming.",
+          "correta": true,
+          "explicacao": "Retrograde calls for rethinking and reviewing details carefully."
+        },
+        {
+          "texto": "Ignore everything and rush new projects quickly.",
+          "correta": false,
+          "explicacao": "Rushing during retrograde can lead to mistakes or misunderstandings."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Do planets actually move backward during retrograde?",
+        "resposta": "No, retrograde is an optical effect making planets appear backward from Earth."
+      },
+      {
+        "pergunta": "Is retrograde a bad time in astrology?",
+        "resposta": "In astrology, retrograde is linked to reflection, not bad luck or harm."
+      }
+    ],
+    "termosRelacionados": [
+      "mercurio-retrogrado",
+      "signo-ascendente",
+      "mapa-astral"
+    ],
+    "id": "what-is-a-retrograde-in-astrology",
+    "slug": "what-is-a-retrograde-in-astrology",
+    "categoria": "Phases & Movements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    }
+  },
+  {
+    "termo": "11th house",
+    "tituloSEO": "What Does the 11th House Mean in Astrology? Simple Guide",
+    "perguntaGoogle": "What does the 11th house mean in astrology?",
+    "resumoUmaLinha": "The 11th house in astrology is linked to friendships, groups, and dreams.",
+    "explicacaoEducativa": "Learn that the 11th house connects to social circles and future hopes in astrology.",
+    "chamadaCuriosa": "Want to know what your 11th house says about your friends?",
+    "oQueSignifica": "The 11th house is like a big club where you meet friends and share dreams. Imagine your circle of friends planning a fun trip together. This house shows how we connect with groups and hope for the future. It’s about the people we trust and the goals that bring us together.",
+    "oQueSignificaNaAstrologia": "In astrology, the 11th house is linked to friendships, social networks, and community. It shows how we find support in groups and what hopes or dreams inspire us. This house can also highlight the causes or ideas we care about deeply. It’s about our place in the larger circle beyond family and close friends.",
+    "exemploFicticio": "Maria loves joining clubs at school because her 11th house is strong. She feels happy when planning group projects and cheering her friends on in games. Her friends often come to her with ideas, showing how her 11th house helps her connect and inspire others.",
+    "dicaRapida": "Spend time with friends and explore group activities to feel your 11th house energy.",
+    "miniJogo": {
+      "pergunta": "If someone’s 11th house is important, what might they enjoy?",
+      "opcoes": [
+        {
+          "texto": "Joining clubs and making new friends",
+          "correta": true,
+          "explicacao": "The 11th house connects to social groups and friendships."
+        },
+        {
+          "texto": "Spending all day alone in their room",
+          "correta": false,
+          "explicacao": "The 11th house is about social connection, not isolation."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the 11th house only about friendships?",
+        "resposta": "No, it also relates to groups, community goals, and hopes for the future."
+      },
+      {
+        "pergunta": "Can the 11th house affect how I make dreams?",
+        "resposta": "Yes, it influences your hopes and the kinds of dreams you share with others."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "mapa-astral",
+      "signo-ascendente"
+    ],
+    "id": "what-does-the-11th-house-mean-in-astrology",
+    "slug": "what-does-the-11th-house-mean-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "11ª casa",
+        "perguntaGoogle": "O que significa a 11ª casa na astrologia?",
+        "resumoUmaLinha": "A 11ª casa na astrologia está ligada a amizades, grupos e sonhos.",
+        "chamadaCuriosa": "Quer saber o que sua 11ª casa diz sobre seus amigos?",
+        "oQueSignifica": "A 11ª casa é como um grande clube onde você encontra amigos e compartilha sonhos. Imagine seu grupo de amigos planejando uma viagem divertida juntos. Essa casa mostra como nos conectamos com grupos e quais são nossas esperanças para o futuro. É sobre as pessoas em quem confiamos e os objetivos que nos unem.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a 11ª casa está ligada a amizades, redes sociais e comunidade. Ela mostra como encontramos apoio em grupos e quais esperanças ou sonhos nos inspiram. Essa casa também pode destacar as causas ou ideias que você acredita com paixão. É sobre o seu lugar nesse círculo maior, além da família e amigos próximos.",
+        "exemploFicticio": "Maria adora entrar em clubes na escola porque a 11ª casa dela é forte. Ela se sente feliz planejando projetos em grupo e torcendo pelos amigos nas partidas. Os amigos dela sempre vêm com ideias, mostrando como a 11ª casa ajuda Maria a se conectar e inspirar os outros.",
+        "faq": [
+          {
+            "pergunta": "A 11ª casa é só sobre amizades?",
+            "resposta": "Não, ela também envolve grupos, objetivos comunitários e esperanças para o futuro."
+          },
+          {
+            "pergunta": "A 11ª casa pode influenciar como faço meus sonhos?",
+            "resposta": "Sim, ela influencia suas esperanças e os tipos de sonhos que você compartilha com os outros."
+          }
+        ]
+      },
+      "es": {
+        "termo": "11ª casa",
+        "perguntaGoogle": "¿Qué significa la 11ª casa en astrología?",
+        "resumoUmaLinha": "La 11ª casa en astrología está relacionada con la amistad, los grupos y los sueños.",
+        "chamadaCuriosa": "¿Quieres saber qué dice tu 11ª casa sobre tus amigos?",
+        "oQueSignifica": "La 11ª casa es como un gran club donde conoces amigos y compartes sueños. Imagina tu grupo planeando un viaje divertido juntos. Esta casa muestra cómo nos conectamos con grupos y nuestras esperanzas para el futuro. Se trata de las personas en las que confiamos y los objetivos que nos unen.",
+        "oQueSignificaNaAstrologia": "En astrología, la 11ª casa está ligada a las amistades, las redes sociales y la comunidad. Muestra cómo encontramos apoyo en los grupos y qué esperanzas o sueños nos motivan. Esta casa también puede destacar las causas o ideas que nos importan profundamente. Es nuestro lugar en el círculo más amplio, más allá de la familia y los amigos cercanos.",
+        "exemploFicticio": "A María le encanta unirse a clubes en la escuela porque su 11ª casa es fuerte. Se siente feliz planeando proyectos en grupo y animando a sus amigos en los juegos. Sus amigos a menudo vienen a ella con ideas, mostrando cómo su 11ª casa la ayuda a conectar e inspirar a los demás.",
+        "faq": [
+          {
+            "pergunta": "¿La 11ª casa es solo sobre amistades?",
+            "resposta": "No, también se relaciona con grupos, metas comunitarias y esperanzas para el futuro."
+          },
+          {
+            "pergunta": "¿La 11ª casa afecta cómo hago mis sueños?",
+            "resposta": "Sí, influye en tus esperanzas y el tipo de sueños que compartes con otros."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Star Sign",
+    "tituloSEO": "What Does Star Sign Mean in Astrology? Easy Explanation",
+    "perguntaGoogle": "What does star sign mean in astrology?",
+    "resumoUmaLinha": "A star sign shows your birth date's zodiac group in astrology.",
+    "explicacaoEducativa": "Learn that a star sign is the zodiac sign linked to your birth date in astrology. It gives clues about personality.",
+    "chamadaCuriosa": "Which star sign are you? Discover your zodiac identity!",
+    "oQueSignifica": "A star sign is like your zodiac name based on when you were born. Imagine a calendar with 12 groups. Each group has its own name and traits, like Leo or Cancer. Just like sports teams have colors, star signs have symbols and stories that make them special.",
+    "oQueSignificaNaAstrologia": "In astrology, your star sign is linked to the Sun’s position when you were born. It is called your Sun sign. This sign is said to hint at your basic nature and how you show yourself to others. Many people use star signs to start learning about astrology and personality traits connected to each zodiac group.",
+    "exemploFicticio": "Maria and Carlos were talking at the park. Maria said, 'I’m a Taurus, so I like calm places.' Carlos smiled, 'I’m a Gemini, I love chatting and trying new things!' They enjoyed sharing their star signs and learning about each other.",
+    "dicaRapida": "Find your star sign by checking your birthday in a simple zodiac calendar.",
+    "miniJogo": {
+      "pergunta": "If your birthday is April 10, what is your star sign?",
+      "opcoes": [
+        {
+          "texto": "Aries",
+          "correta": true,
+          "explicacao": "Aries covers March 21 to April 19, so April 10 is Aries."
+        },
+        {
+          "texto": "Taurus",
+          "correta": false,
+          "explicacao": "Taurus starts April 20, so April 10 is still Aries."
+        },
+        {
+          "texto": "Gemini",
+          "correta": false,
+          "explicacao": "Gemini begins May 21, much later than April 10."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is my star sign the same as my zodiac sign?",
+        "resposta": "Yes, star sign and zodiac sign usually mean your Sun sign based on birth date."
+      },
+      {
+        "pergunta": "Can star signs tell my future?",
+        "resposta": "Star signs in astrology hint at traits but don't predict exact future events."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "signo-ascendente",
+      "elementos-astrologicos"
+    ],
+    "id": "what-does-star-sign-mean-in-astrology",
+    "slug": "what-does-star-sign-mean-in-astrology",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Signo",
+        "perguntaGoogle": "O que significa signo na astrologia?",
+        "resumoUmaLinha": "O signo mostra o grupo do zodíaco da sua data de nascimento na astrologia.",
+        "chamadaCuriosa": "Qual é o seu signo? Descubra sua identidade no zodíaco!",
+        "oQueSignifica": "O signo é como o seu nome no zodíaco baseado no dia que você nasceu. Imagine um calendário com 12 grupos. Cada grupo tem um nome e características, como Leão ou Câncer. Assim como times de esporte têm cores, os signos têm símbolos e histórias que os tornam únicos.",
+        "oQueSignificaNaAstrologia": "Na astrologia, seu signo está ligado à posição do Sol na sua hora de nascimento. Esse signo é chamado de signo solar. Dizem que ele mostra sua natureza básica e como você se apresenta para os outros. Muitas pessoas começam a estudar astrologia e traços da personalidade pelo signo solar.",
+        "exemploFicticio": "Maria e Carlos estavam conversando no parque. Maria disse: 'Eu sou Touro, então gosto de lugares calmos.' Carlos sorriu: 'Eu sou Gêmeos, adoro conversar e experimentar coisas novas!' Eles se divertiram trocando seus signos e aprendendo um sobre o outro.",
+        "faq": [
+          {
+            "pergunta": "Meu signo é o mesmo que meu signo do zodíaco?",
+            "resposta": "Sim, signo e signo do zodíaco geralmente significam seu signo solar, baseado na data de nascimento."
+          },
+          {
+            "pergunta": "Signos conseguem prever meu futuro?",
+            "resposta": "Signos na astrologia mostram traços da personalidade, mas não prevêem eventos exatos do futuro."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Signo del Zodiaco",
+        "perguntaGoogle": "¿Qué significa signo del zodiaco en astrología?",
+        "resumoUmaLinha": "Un signo del zodiaco muestra el grupo zodiacal de tu fecha de nacimiento en astrología.",
+        "chamadaCuriosa": "¿Cuál es tu signo del zodiaco? ¡Descubre tu identidad astrológica!",
+        "oQueSignifica": "Un signo del zodiaco es como tu nombre zodiacal según cuándo naciste. Imagina un calendario con 12 grupos. Cada grupo tiene su nombre y sus características, como Leo o Cáncer. Igual que los equipos deportivos tienen colores, los signos del zodiaco tienen símbolos e historias que los hacen especiales.",
+        "oQueSignificaNaAstrologia": "En astrología, tu signo del zodiaco está ligado a la posición del Sol cuando naciste. Esto se llama tu signo solar. Se dice que este signo muestra tu naturaleza básica y cómo te muestras a los demás. Muchas personas usan los signos del zodiaco para empezar a aprender sobre astrología y las características de personalidad de cada grupo zodiacal.",
+        "exemploFicticio": "María y Carlos estaban hablando en el parque. María dijo, 'Soy Tauro, por eso me gustan los lugares tranquilos.' Carlos sonrió, 'Soy Géminis, me encanta charlar y probar cosas nuevas.' Disfrutaron compartir sus signos del zodiaco y aprender uno del otro.",
+        "faq": [
+          {
+            "pergunta": "¿Mi signo del zodiaco es lo mismo que mi signo solar?",
+            "resposta": "Sí, signo del zodiaco y signo solar generalmente se refieren a tu signo según la fecha de nacimiento."
+          },
+          {
+            "pergunta": "¿Los signos del zodiaco pueden predecir mi futuro?",
+            "resposta": "Los signos del zodiaco en astrología sugieren características, pero no predicen eventos futuros exactos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Ascendente",
+    "tituloSEO": "What is the Ascendant in Astrology? Simple Guide",
+    "perguntaGoogle": "What is the ascendant in astrology?",
+    "resumoUmaLinha": "Learn that the ascendant is the zodiac sign rising when you were born, shaping your first impression.",
+    "explicacaoEducativa": "Learn the ascendant is the zodiac sign on the horizon at your birth time. It’s linked to how others see you first.",
+    "chamadaCuriosa": "Your ascendant shows your first impression to the world.",
+    "oQueSignifica": "The ascendant is like the front door of a house. It’s the first thing people notice about you. Just like a door color can give a feeling about a home, your ascendant gives hints about your style and personality face. It’s not everything about you, but it opens a window on how you show yourself at first.",
+    "oQueSignificaNaAstrologia": "In astrology, the ascendant sets the start of your birth chart and influences your look and style. It’s linked to your behavior around new people and how you react first. While your sun sign shows who you are inside, the ascendant shows how you appear outside. It can shape your energy in daily life and how you begin new things.",
+    "exemploFicticio": "Maria met new classmates on the first school day. Her ascendant made her seem very friendly and open, so people smiled and talked to her easily. Even if she felt shy inside, her first impression was warm and inviting.",
+    "dicaRapida": "Know your birth time to find your ascendant and learn your natural vibe.",
+    "miniJogo": {
+      "pergunta": "If you meet someone for the first time, what does their ascendant show?",
+      "opcoes": [
+        {
+          "texto": "How they seem when you first see them.",
+          "correta": true,
+          "explicacao": "The ascendant is about the first impression someone gives when you meet them."
+        },
+        {
+          "texto": "Exactly how they feel all day long.",
+          "correta": false,
+          "explicacao": "Feelings change all day; the ascendant is more about first appearances."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the ascendant the same as the sun sign?",
+        "resposta": "No, the sun sign is your core self, while the ascendant shows your first impression."
+      },
+      {
+        "pergunta": "Can my ascendant change over time?",
+        "resposta": "No, your ascendant is fixed based on your exact birth time and place."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-ascendente",
+      "mapa-astral",
+      "casas-astrologicas"
+    ],
+    "id": "what-is-the-ascendant-in-astrology",
+    "slug": "what-is-the-ascendant-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Ascendente",
+        "perguntaGoogle": "O que é o ascendente na astrologia?",
+        "resumoUmaLinha": "Saiba que o ascendente é o signo do zodíaco que estava surgindo quando você nasceu, moldando sua primeira impressão.",
+        "chamadaCuriosa": "Seu ascendente mostra a primeira impressão que você passa pro mundo.",
+        "oQueSignifica": "O ascendente é como a porta da frente de uma casa. É a primeira coisa que as pessoas percebem em você. Assim como a cor da porta dá uma sensação sobre o lar, seu ascendente dá pistas sobre seu estilo e jeito de se mostrar. Não é tudo sobre você, mas abre uma janela para como você aparece de primeira.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o ascendente define o começo do seu mapa astral e influencia sua aparência e estilo. Ele está ligado ao seu comportamento com pessoas novas e à sua reação inicial. Enquanto o signo solar mostra quem você é por dentro, o ascendente mostra como você se mostra por fora. Ele pode determinar sua energia no dia a dia e como você começa coisas novas.",
+        "exemploFicticio": "Maria conheceu novos colegas no primeiro dia de aula. Seu ascendente fez ela parecer muito simpática e aberta, então as pessoas sorriam e conversavam com ela facilmente. Mesmo que ela estivesse tímida por dentro, sua primeira impressão foi calorosa e acolhedora.",
+        "faq": [
+          {
+            "pergunta": "O ascendente é a mesma coisa que o signo solar?",
+            "resposta": "Não, o signo solar é seu eu mais íntimo, enquanto o ascendente mostra a primeira impressão que você passa."
+          },
+          {
+            "pergunta": "Meu ascendente pode mudar com o tempo?",
+            "resposta": "Não, seu ascendente é fixo, baseado na sua hora de nascimento exata e no lugar onde você nasceu."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Ascendente",
+        "perguntaGoogle": "¿Qué es el ascendente en astrología?",
+        "resumoUmaLinha": "Aprende que el ascendente es el signo zodiacal que estaba saliendo cuando naciste y define tu primera impresión.",
+        "chamadaCuriosa": "Tu ascendente muestra la primera impresión que das al mundo.",
+        "oQueSignifica": "El ascendente es como la puerta principal de una casa. Es lo primero que la gente nota de ti. Así como el color de una puerta puede dar una sensación sobre un hogar, tu ascendente da pistas sobre tu estilo y tu forma de ser visible. No es todo sobre ti, pero abre una ventana para entender cómo te muestras al principio.",
+        "oQueSignificaNaAstrologia": "En la astrología, el ascendente marca el inicio de tu carta astral y afecta tu apariencia y estilo. Está relacionado con cómo te comportas con gente nueva y tu reacción inicial. Mientras tu signo solar muestra quién eres por dentro, el ascendente muestra cómo te ven los demás. Puede moldear tu energía diaria y cómo comienzas cosas nuevas.",
+        "exemploFicticio": "María conoció a nuevos compañeros de clase el primer día de escuela. Su ascendente la hacía parecer muy amigable y abierta, así que la gente sonreía y hablaba con ella fácilmente. Aunque se sentía tímida por dentro, su primera impresión fue cálida y acogedora.",
+        "faq": [
+          {
+            "pergunta": "¿El ascendente es lo mismo que el signo solar?",
+            "resposta": "No, el signo solar es tu esencia, mientras que el ascendente muestra tu primera impresión."
+          },
+          {
+            "pergunta": "¿Puede cambiar mi ascendente con el tiempo?",
+            "resposta": "No, tu ascendente está fijo según la hora de nacimiento y el lugar exacto."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "7th House",
+    "tituloSEO": "What Does the 7th House Mean in Astrology? Simple Guide",
+    "perguntaGoogle": "What does the 7th house mean in astrology?",
+    "resumoUmaLinha": "The 7th house in astrology is linked to partnerships and close relationships.",
+    "explicacaoEducativa": "Learn how the 7th house is connected to friendships, marriage, and teamwork in astrology.",
+    "chamadaCuriosa": "Why is the 7th house all about ‘togetherness’?",
+    "oQueSignifica": "Think of the 7th house like the seat next to you on a bus. It shows the people you share life with, like friends or partners. This house helps us understand how we give and take in close bonds, like in marriage or a strong friendship.",
+    "oQueSignificaNaAstrologia": "In astrology, the 7th house is linked to close relationships and partnerships. It shows how you connect with others in one-on-one ways. This spot can reveal your approach to marriage, teamwork, and agreements. It helps explain how you balance your needs with someone else's.",
+    "exemploFicticio": "Maria loves spending time with her best friend to plan school projects. Her 7th house, showing friendships and partnerships, helps her work well with others.",
+    "dicaRapida": "Pay attention to your 7th house to learn about your style in close relationships.",
+    "miniJogo": {
+      "pergunta": "If the 7th house is about partnerships, what might it help you understand?",
+      "opcoes": [
+        {
+          "texto": "How you work with a friend on a project",
+          "correta": true,
+          "explicacao": "Correct! The 7th house relates to close relationships and teamwork."
+        },
+        {
+          "texto": "What your favorite food is",
+          "correta": false,
+          "explicacao": "Incorrect. Food preferences are not linked to the 7th house."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the 7th house only about marriage?",
+        "resposta": "No, the 7th house covers all close partnerships, including friendships and business."
+      },
+      {
+        "pergunta": "Can the 7th house tell how I handle arguments?",
+        "resposta": "It can show your style in balancing and resolving differences with others."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "sinastria-amorosa",
+      "signo-ascendente"
+    ],
+    "id": "what-does-the-7th-house-mean-in-astrology",
+    "slug": "what-does-the-7th-house-mean-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "7ª Casa",
+        "perguntaGoogle": "O que significa a 7ª casa na astrologia?",
+        "resumoUmaLinha": "A 7ª casa na astrologia está ligada a parcerias e relacionamentos próximos.",
+        "chamadaCuriosa": "Por que a 7ª casa é toda sobre 'estar junto'?",
+        "oQueSignifica": "Pense na 7ª casa como o assento do lado no ônibus. Ela mostra as pessoas com quem você compartilha a vida, como amigos ou parceiros. Essa casa ajuda a entender como damos e recebemos em vínculos próximos, como casamento ou uma amizade forte.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a 7ª casa está ligada a relacionamentos próximos e parcerias. Ela mostra como você se conecta com os outros de forma um a um. Esse lugar pode revelar seu jeito de lidar com casamento, trabalho em grupo e acordos. Ajuda a explicar como você equilibra suas necessidades com as do outro.",
+        "exemploFicticio": "A Maria adora passar tempo com a melhor amiga para planejar trabalhos da escola. A 7ª casa dela, que mostra amizades e parcerias, ajuda a trabalhar bem com os outros.",
+        "faq": [
+          {
+            "pergunta": "A 7ª casa é só sobre casamento?",
+            "resposta": "Não, a 7ª casa cobre todas as parcerias próximas, incluindo amizades e negócios."
+          },
+          {
+            "pergunta": "A 7ª casa pode mostrar como eu lido com brigas?",
+            "resposta": "Pode mostrar seu jeito de equilibrar e resolver diferenças com os outros."
+          }
+        ]
+      },
+      "es": {
+        "termo": "7ma Casa",
+        "perguntaGoogle": "¿Qué significa la 7ma casa en astrología?",
+        "resumoUmaLinha": "La 7ma casa en astrología está relacionada con las parejas y las relaciones cercanas.",
+        "chamadaCuriosa": "¿Por qué la 7ma casa habla de ‘estar juntos’?",
+        "oQueSignifica": "Piensa en la 7ma casa como el asiento junto a ti en el bus. Muestra a las personas con las que compartes la vida, como amigos o pareja. Esta casa nos ayuda a entender cómo damos y recibimos en relaciones cercanas, como en el matrimonio o una buena amistad.",
+        "oQueSignificaNaAstrologia": "En astrología, la 7ma casa está ligada a las relaciones cercanas y las parejas. Muestra cómo te conectas con otros cara a cara. Este espacio puede revelar tu forma de ver el matrimonio, el trabajo en equipo y los acuerdos. Ayuda a entender cómo equilibras tus necesidades con las de otra persona.",
+        "exemploFicticio": "A María le encanta pasar tiempo con su mejor amigo para planear proyectos de la escuela. Su 7ma casa, que muestra amistades y parejas, la ayuda a trabajar bien con otros.",
+        "faq": [
+          {
+            "pergunta": "¿La 7ma casa es solo para el matrimonio?",
+            "resposta": "No, la 7ma casa incluye todas las parejas cercanas, como amistades y negocios."
+          },
+          {
+            "pergunta": "¿La 7ma casa puede decir cómo manejo las discusiones?",
+            "resposta": "Puede mostrar tu forma de equilibrar y resolver diferencias con los demás."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "8th house",
+    "tituloSEO": "What does the 8th house mean in astrology? Simple guide",
+    "perguntaGoogle": "What does the 8th house mean in astrology?",
+    "resumoUmaLinha": "The 8th house in astrology relates to change, deep feelings, and shared resources.",
+    "explicacaoEducativa": "Learn the 8th house connects to big life changes, emotions, and things we share with others.",
+    "chamadaCuriosa": "What secrets does the 8th house hold in your chart?",
+    "oQueSignifica": "Think of the 8th house like a trusted friend who helps with deep talks and big changes. It’s where we face endings and new beginnings, and where we share things like money or feelings with others. Like when Maria and Carlos decide to share their savings or open up about their feelings, the 8th house is at work.",
+    "oQueSignificaNaAstrologia": "In astrology, the 8th house is linked to transformation, emotions, shared money, and life’s mysteries. It shows how a person deals with change, trust, and intimacy. This house can highlight how we handle big shifts, secrets, and partnerships involving joint resources. It’s not about predicting the future but understanding deeper personal growth and connection.",
+    "exemploFicticio": "Carlos and Maria talk seriously about their plans to buy a house together. They share money and dreams, trusting each other deeply. This moment connects with the 8th house energy of sharing and change.",
+    "dicaRapida": "Look at your 8th house to understand how you handle trust and important life changes.",
+    "miniJogo": {
+      "pergunta": "If a friend opens up about a big secret, which astrology house could be at work?",
+      "opcoes": [
+        {
+          "texto": "8th house",
+          "correta": true,
+          "explicacao": "The 8th house is linked to deep feelings, secrets, and trust."
+        },
+        {
+          "texto": "5th house",
+          "correta": false,
+          "explicacao": "The 5th house is about fun, creativity, and romance, not secrets."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the 8th house only about money?",
+        "resposta": "No, it is also about emotions, trust, and personal changes."
+      },
+      {
+        "pergunta": "Does the 8th house predict death?",
+        "resposta": "In astrology, it relates to transformation and endings, not exact events."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "mapa-astral",
+      "signo-ascendente"
+    ],
+    "id": "what-does-the-8th-house-mean-in-astrology",
+    "slug": "what-does-the-8th-house-mean-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "8ª casa",
+        "perguntaGoogle": "O que significa a 8ª casa na astrologia?",
+        "resumoUmaLinha": "A 8ª casa na astrologia fala sobre mudanças, sentimentos profundos e recursos compartilhados.",
+        "chamadaCuriosa": "Que segredos a 8ª casa guarda no seu mapa astral?",
+        "oQueSignifica": "Pense na 8ª casa como um amigo de confiança que ajuda nas conversas profundas e nas grandes mudanças. É onde enfrentamos finais e novos começos, e onde compartilhamos coisas, como dinheiro ou emoções, com os outros. Como quando Maria e Carlos decidem dividir as economias ou se abrir sobre os sentimentos, a 8ª casa está em ação.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a 8ª casa está ligada à transformação, emoções, dinheiro compartilhado e mistérios da vida. Mostra como a pessoa lida com mudanças, confiança e intimidade. Essa casa destaca como gerenciamos grandes mudanças, segredos e parcerias que envolvem recursos em comum. Não é sobre prever o futuro, mas entender o crescimento pessoal e a conexão mais profunda.",
+        "exemploFicticio": "Carlos e Maria conversam sério sobre os planos de comprar uma casa juntos. Eles compartilham dinheiro e sonhos, confiando um no outro profundamente. Esse momento tem a energia da 8ª casa, de compartilhar e mudar.",
+        "faq": [
+          {
+            "pergunta": "A 8ª casa é só sobre dinheiro?",
+            "resposta": "Não, ela também fala sobre emoções, confiança e mudanças na vida."
+          },
+          {
+            "pergunta": "A 8ª casa prediz a morte?",
+            "resposta": "Na astrologia, ela está ligada à transformação e finais, não a eventos exatos."
+          }
+        ]
+      },
+      "es": {
+        "termo": "8ª casa",
+        "perguntaGoogle": "¿Qué significa la 8ª casa en astrología?",
+        "resumoUmaLinha": "La 8ª casa en astrología se relaciona con el cambio, los sentimientos profundos y los recursos compartidos.",
+        "chamadaCuriosa": "¿Qué secretos guarda la 8ª casa en tu carta astral?",
+        "oQueSignifica": "Piensa en la 8ª casa como un amigo de confianza que ayuda en las conversaciones profundas y los grandes cambios. Es donde enfrentamos finales y nuevos comienzos, y donde compartimos cosas como el dinero o los sentimientos con otros. Como cuando María y Carlos deciden compartir sus ahorros o abrir su corazón, la 8ª casa está trabajando.",
+        "oQueSignificaNaAstrologia": "En astrología, la 8ª casa está ligada a la transformación, las emociones, el dinero compartido y los misterios de la vida. Muestra cómo una persona enfrenta el cambio, la confianza y la intimidad. Esta casa puede destacar cómo manejamos grandes cambios, secretos y asociaciones con recursos conjuntos. No se trata de predecir el futuro, sino de entender el crecimiento personal profundo y la conexión.",
+        "exemploFicticio": "Carlos y María hablan seriamente sobre sus planes para comprar una casa juntos. Comparten dinero y sueños, confiando profundamente el uno en el otro. Este momento conecta con la energía de la 8ª casa de compartir y cambiar.",
+        "faq": [
+          {
+            "pergunta": "¿La 8ª casa es solo sobre dinero?",
+            "resposta": "No, también trata sobre emociones, confianza y cambios personales."
+          },
+          {
+            "pergunta": "¿La 8ª casa predice la muerte?",
+            "resposta": "En astrología, se relaciona con la transformación y los finales, no con eventos exactos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "3rd house",
+    "tituloSEO": "What Does the 3rd House Mean in Astrology? Simple Guide",
+    "perguntaGoogle": "What does the 3rd house mean in astrology?",
+    "resumoUmaLinha": "The 3rd house in astrology is linked to communication, learning, and nearby travel.",
+    "explicacaoEducativa": "Learn that the 3rd house is about how you share ideas, talk, and explore close places.",
+    "chamadaCuriosa": "Ever wonder what the 3rd house says about your daily chats?",
+    "oQueSignifica": "Think of the 3rd house like your neighborhood and the people you talk to every day. It’s about chatting with friends, going to school, or learning new things nearby. Just like passing notes in class or chatting with a neighbor, this house shows how you connect in your daily life.",
+    "oQueSignificaNaAstrologia": "In astrology, the 3rd house is linked to how you communicate, learn, and connect with siblings or neighbors. It highlights your style of sharing ideas and your curiosity about the world around you. It also relates to short trips or local travel. This area of your chart helps show how you think and speak in everyday situations.",
+    "exemploFicticio": "Maria loves talking with her brother on the phone every day. She also enjoys learning new words from books nearby. This shows how her 3rd house may focus on close connections and communication.",
+    "dicaRapida": "Notice how often you talk or travel nearby; that reflects your 3rd house energy.",
+    "miniJogo": {
+      "pergunta": "If you want to learn something new fast, where might your 3rd house energy help?",
+      "opcoes": [
+        {
+          "texto": "Chatting with a friend to understand better",
+          "correta": true,
+          "explicacao": "The 3rd house connects to learning through communication and local interactions."
+        },
+        {
+          "texto": "Planning a big trip overseas",
+          "correta": false,
+          "explicacao": "Big trips relate more to the 9th house, not the 3rd house."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the 3rd house only about talking?",
+        "resposta": "No, it’s about communication, learning, and nearby travel too."
+      },
+      {
+        "pergunta": "Does the 3rd house relate to family?",
+        "resposta": "Yes, especially siblings and close relatives you connect with often."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "signo-ascendente",
+      "signo-solar"
+    ],
+    "id": "what-does-the-3rd-house-mean-in-astrology",
+    "slug": "what-does-the-3rd-house-mean-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "3ª casa",
+        "perguntaGoogle": "O que significa a 3ª casa na astrologia?",
+        "resumoUmaLinha": "A 3ª casa na astrologia está ligada à comunicação, aprendizado e viagens curtas.",
+        "chamadaCuriosa": "Já pensou no que a 3ª casa revela sobre suas conversas do dia a dia?",
+        "oQueSignifica": "Pense na 3ª casa como seu bairro e as pessoas com quem você fala todo dia. Ela trata de bater papo com amigos, ir à escola ou aprender coisas novas por perto. Como passar bilhetinhos na aula ou conversar com o vizinho, essa casa mostra como você se conecta na rotina.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a 3ª casa está ligada a como você se comunica, aprende e se relaciona com irmãos ou vizinhos. Ela revela seu jeito de compartilhar ideias e sua curiosidade sobre o mundo ao redor. Também se conecta com viagens curtas ou locais. Essa parte do mapa astral mostra como você pensa e fala no dia a dia.",
+        "exemploFicticio": "Maria adora conversar com o irmão pelo telefone todos os dias. Ela também gosta de aprender novas palavras com livros perto dela. Isso mostra como a 3ª casa dela pode focar nas conexões próximas e na comunicação.",
+        "faq": [
+          {
+            "pergunta": "A 3ª casa é só sobre falar?",
+            "resposta": "Não, ela também fala sobre comunicação, aprendizado e viagens curtas."
+          },
+          {
+            "pergunta": "A 3ª casa tem relação com a família?",
+            "resposta": "Sim, especialmente com irmãos e parentes próximos com quem você se conecta com frequência."
+          }
+        ]
+      },
+      "es": {
+        "termo": "casa 3",
+        "perguntaGoogle": "¿Qué significa la casa 3 en astrología?",
+        "resumoUmaLinha": "La casa 3 en astrología está relacionada con la comunicación, el aprendizaje y los viajes cortos.",
+        "chamadaCuriosa": "¿Te has preguntado qué dice la casa 3 sobre tus charlas diarias?",
+        "oQueSignifica": "Piensa en la casa 3 como tu vecindario y las personas con las que hablas todos los días. Se trata de conversar con amigos, ir a la escuela o aprender cosas nuevas cerca. Como pasar notas en clase o platicar con un vecino, esta casa muestra cómo te conectas en tu vida diaria.",
+        "oQueSignificaNaAstrologia": "En astrología, la casa 3 está ligada a cómo te comunicas, aprendes y conectas con hermanos o vecinos. Destaca tu estilo para compartir ideas y tu curiosidad por el mundo que te rodea. También se relaciona con viajes cortos o locales. Esta parte de tu carta astral ayuda a mostrar cómo piensas y hablas en situaciones cotidianas.",
+        "exemploFicticio": "A María le encanta hablar con su hermano por teléfono todos los días. También disfruta aprender nuevas palabras de los libros que tiene cerca. Esto muestra cómo su casa 3 puede estar enfocada en conexiones cercanas y comunicación.",
+        "faq": [
+          {
+            "pergunta": "¿La casa 3 es solo sobre hablar?",
+            "resposta": "No, también se trata de comunicación, aprendizaje y viajes cortos."
+          },
+          {
+            "pergunta": "¿La casa 3 tiene que ver con la familia?",
+            "resposta": "Sí, especialmente con hermanos y parientes cercanos con quienes te conectas seguido."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Elements",
+    "tituloSEO": "What Are Elements in Astrology? Simple Guide",
+    "perguntaGoogle": "What are elements in astrology?",
+    "resumoUmaLinha": "Elements in astrology are four types that show how signs relate to energy and feelings.",
+    "explicacaoEducativa": "Learn that elements are Earth, Air, Fire, and Water. They help explain star sign traits in a simple way.",
+    "chamadaCuriosa": "Why do star signs group into four elements?",
+    "oQueSignifica": "Elements are like the basic types of energy, like water, fire, air, and earth around us. Imagine how water flows, fire warms, air blows, and earth feels solid. These describe how people’s signs show emotions, actions, and thoughts. Just like you dress differently for rain or sun, star signs act in ways linked to these elements.",
+    "oQueSignificaNaAstrologia": "In astrology, elements show how signs relate to feelings and behavior. Fire signs tend to be lively and brave, like a campfire. Earth signs feel grounded and steady, like the soil under your feet. Air signs think fast and love talking, like the wind. Water signs connect deeply, like rivers and lakes. Each element helps us understand the style behind each star sign.",
+    "exemploFicticio": "Maria loves hiking outside and feels calm near trees, showing Earth’s steady energy. Carlos talks a lot and loves new ideas, just like Air signs. In a chat, Maria calmly listens while Carlos shares his fast thoughts—they balance well because of their elements.",
+    "dicaRapida": "Think about your sign’s element to understand how you usually feel and react.",
+    "miniJogo": {
+      "pergunta": "If your friend is quick to talk and loves ideas, what element fits them?",
+      "opcoes": [
+        {
+          "texto": "Air",
+          "correta": true,
+          "explicacao": "Air signs love talking and thinking fast, like your friend."
+        },
+        {
+          "texto": "Water",
+          "correta": false,
+          "explicacao": "Water signs feel deep emotions but aren’t mostly about quick talk."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "How many elements are in astrology?",
+        "resposta": "There are four elements: Fire, Earth, Air, and Water."
+      },
+      {
+        "pergunta": "Do all star signs share the same element?",
+        "resposta": "No, each star sign belongs to one of the four elements."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "signo-lunar",
+      "elementos-astrologicos"
+    ],
+    "id": "what-are-elements-in-astrology",
+    "slug": "what-are-elements-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Elementos",
+        "perguntaGoogle": "O que são elementos na astrologia?",
+        "resumoUmaLinha": "Os elementos na astrologia são quatro tipos que mostram como os signos se relacionam com energia e sentimentos.",
+        "chamadaCuriosa": "Por que os signos do zodíaco se agrupam em quatro elementos?",
+        "oQueSignifica": "Elementos são como os tipos básicos de energia, como a água, o fogo, o ar e a terra que estão ao nosso redor. Imagine como a água flui, o fogo aquece, o ar sopra e a terra é sólida. Isso mostra como os signos das pessoas expressam emoções, ações e pensamentos. Assim como você se veste diferente para chuva ou sol, os signos agem de jeitos ligados a esses elementos.",
+        "oQueSignificaNaAstrologia": "Na astrologia, os elementos mostram como os signos se relacionam com sentimentos e comportamento. Signos de fogo são animados e corajosos, como uma fogueira. Signos de terra são firmes e estáveis, como o chão sob seus pés. Signos de ar pensam rápido e adoram conversar, como o vento. Signos de água se conectam profundamente, como rios e lagos. Cada elemento ajuda a entender o jeito de cada signo.",
+        "exemploFicticio": "Maria adora fazer trilha ao ar livre e se sente calma perto das árvores, mostrando a energia firme da Terra. Carlos fala muito e ama novas ideias, assim como os signos de Ar. Numa conversa, Maria escuta tranquila enquanto Carlos compartilha seus pensamentos rápidos — eles se equilibram por causa dos seus elementos.",
+        "faq": [
+          {
+            "pergunta": "Quantos elementos existem na astrologia?",
+            "resposta": "Existem quatro elementos: Fogo, Terra, Ar e Água."
+          },
+          {
+            "pergunta": "Todos os signos têm o mesmo elemento?",
+            "resposta": "Não, cada signo pertence a um dos quatro elementos."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Elementos",
+        "perguntaGoogle": "¿Qué son los elementos en la astrología?",
+        "resumoUmaLinha": "Los elementos en astrología son cuatro tipos que muestran cómo los signos se relacionan con la energía y los sentimientos.",
+        "chamadaCuriosa": "¿Por qué los signos del zodiaco se agrupan en cuatro elementos?",
+        "oQueSignifica": "Los elementos son como los tipos básicos de energía, como el agua, el fuego, el aire y la tierra que nos rodean. Imagina cómo el agua fluye, el fuego calienta, el aire sopla y la tierra es sólida. Esto describe cómo los signos muestran emociones, acciones y pensamientos. Igual que te vistes distinto para lluvia o sol, los signos actúan en formas relacionadas con estos elementos.",
+        "oQueSignificaNaAstrologia": "En la astrología, los elementos muestran cómo los signos se relacionan con los sentimientos y el comportamiento. Los signos de fuego suelen ser vivos y valientes, como una fogata. Los signos de tierra se sienten firmes y estables, como el suelo bajo tus pies. Los signos de aire piensan rápido y les encanta hablar, como el viento. Los signos de agua se conectan profundo, como ríos y lagos. Cada elemento nos ayuda a entender el estilo de cada signo del zodiaco.",
+        "exemploFicticio": "A María le encanta caminar en la naturaleza y se siente tranquila cerca de los árboles, mostrando la energía estable de la Tierra. Carlos habla mucho y le gustan las ideas nuevas, como los signos de Aire. En una charla, María escucha calmada mientras Carlos cuenta rápido sus pensamientos—se equilibran bien por sus elementos.",
+        "faq": [
+          {
+            "pergunta": "¿Cuántos elementos hay en la astrología?",
+            "resposta": "Hay cuatro elementos: Fuego, Tierra, Aire y Agua."
+          },
+          {
+            "pergunta": "¿Todos los signos del zodiaco comparten el mismo elemento?",
+            "resposta": "No, cada signo pertenece a uno de los cuatro elementos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Mutable Signs",
+    "tituloSEO": "What Are Mutable Signs in Astrology? Easy Guide",
+    "perguntaGoogle": "What are mutable signs in astrology?",
+    "resumoUmaLinha": "Mutable signs are astrology signs linked to change, flexibility, and going with the flow.",
+    "explicacaoEducativa": "Learn that mutable signs in astrology are about adapting to new situations and being flexible.",
+    "chamadaCuriosa": "Which signs help us adapt like water or air?",
+    "oQueSignifica": "Mutable signs are like chameleons. They help people change easily when life shifts. Imagine Maria moving to a new school. She learns new rules fast and makes new friends quickly—that’s the flexible energy mutable signs bring. Just like she adjusts, mutable signs help handle change smoothly instead of feeling stuck.",
+    "oQueSignificaNaAstrologia": "In astrology, mutable signs are connected to endings and new beginnings. They help us stay open to change and adapt without stress. These signs often guide how we finish one phase and start another. They link with being flexible, clear-minded, and ready to learn from whatever life brings next.",
+    "exemploFicticio": "Carlos just moved to a new city. Because he’s a mutable sign, he quickly learns about the new bus routes and makes new friends at school. His flexible mindset helps him enjoy the change instead of worrying.",
+    "dicaRapida": "When plans change, think like a mutable sign—try to stay calm and adjust easily.",
+    "miniJogo": {
+      "pergunta": "If your weekend plans change last minute, what might a mutable sign do?",
+      "opcoes": [
+        {
+          "texto": "Find a new fun plan and enjoy it without stress.",
+          "correta": true,
+          "explicacao": "Mutable signs stay flexible and adapt quickly to new things."
+        },
+        {
+          "texto": "Feel upset and refuse to change any plans.",
+          "correta": false,
+          "explicacao": "This is less like a mutable sign, which prefers going with the flow."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Which signs are mutable in astrology?",
+        "resposta": "The mutable signs are Gemini, Virgo, Sagittarius, and Pisces."
+      },
+      {
+        "pergunta": "How do mutable signs act in daily life?",
+        "resposta": "They often adapt easily, enjoy learning, and can go with changes calmly."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "elementos-astrologicos",
+      "mapa-astral"
+    ],
+    "id": "what-are-mutable-signs-in-astrology",
+    "slug": "what-are-mutable-signs-in-astrology",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Signos Mutáveis",
+        "perguntaGoogle": "O que são signos mutáveis na astrologia?",
+        "resumoUmaLinha": "Signos mutáveis são ligados a mudança, flexibilidade e seguir o fluxo da vida.",
+        "chamadaCuriosa": "Quais signos nos ajudam a nos adaptar como água ou ar?",
+        "oQueSignifica": "Signos mutáveis são como camaleões. Eles ajudam as pessoas a mudarem com facilidade quando a vida muda. Imagine a Maria fazendo uma nova escola. Ela aprende as regras rápido e faz novos amigos fácil — essa é a energia flexível dos signos mutáveis. Assim como ela se ajusta, esses signos ajudam a lidar com mudanças sem travar.",
+        "oQueSignificaNaAstrologia": "Na astrologia, signos mutáveis estão ligados a finais e novos começos. Eles nos mantêm abertos para a mudança e prontos para nos adaptar sem stress. Esses signos mostram como terminar uma fase e iniciar outra. Eles têm a ver com flexibilidade, mente clara e vontade de aprender com tudo que a vida traz.",
+        "exemploFicticio": "O Carlos acabou de se mudar para uma cidade nova. Como ele é de signo mutável, ele aprende rápido os caminhos do ônibus e faz amigos na escola. A mente flexível dele faz tudo ficar mais fácil e até divertido ao invés de preocupante.",
+        "faq": [
+          {
+            "pergunta": "Quais são os signos mutáveis na astrologia?",
+            "resposta": "Os signos mutáveis são Gêmeos, Virgem, Sagitário e Peixes."
+          },
+          {
+            "pergunta": "Como os signos mutáveis agem no dia a dia?",
+            "resposta": "Eles costumam se adaptar fácil, gostam de aprender e aceitam mudanças com calma."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Signos Mutables",
+        "perguntaGoogle": "¿Qué son los signos mutables en astrología?",
+        "resumoUmaLinha": "Los signos mutables están relacionados con el cambio, la flexibilidad y adaptarse fácilmente.",
+        "chamadaCuriosa": "¿Qué signos nos ayudan a adaptarnos como el agua o el aire?",
+        "oQueSignifica": "Los signos mutables son como camaleones. Ayudan a las personas a cambiar fácilmente cuando la vida cambia. Imagina a María que se muda a una escuela nueva. Aprende rápido las reglas y hace amigos nuevos; esa es la energía flexible que traen los signos mutables. Así como ella se adapta, estos signos ayudan a manejar el cambio sin sentirse atrapados.",
+        "oQueSignificaNaAstrologia": "En astrología, los signos mutables están ligados a los finales y los nuevos comienzos. Nos ayudan a estar abiertos al cambio y a adaptarnos sin estrés. Estos signos suelen mostrar cómo terminamos una etapa y empezamos otra. Se relacionan con la flexibilidad, la mente clara y con estar listos para aprender de lo que venga.",
+        "exemploFicticio": "Carlos acaba de mudarse a una ciudad nueva. Como es un signo mutable, aprende rápido las rutas del bus y hace amigos en la escuela. Su mente flexible le ayuda a disfrutar el cambio en lugar de preocuparse.",
+        "faq": [
+          {
+            "pergunta": "¿Cuáles son los signos mutables en astrología?",
+            "resposta": "Los signos mutables son Géminis, Virgo, Sagitario y Piscis."
+          },
+          {
+            "pergunta": "¿Cómo actúan los signos mutables en la vida diaria?",
+            "resposta": "Suelen adaptarse fácilmente, disfrutan aprender y pueden manejar los cambios con calma."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "12th house",
+    "tituloSEO": "What Does the 12th House Mean in Astrology? Simple Guide",
+    "perguntaGoogle": "What does the 12th house mean in astrology?",
+    "resumoUmaLinha": "The 12th house in astrology is linked to secrets, dreams, and quiet moments.",
+    "explicacaoEducativa": "Learn the 12th house is about hidden feelings, rest, and things we keep inside.",
+    "chamadaCuriosa": "What secrets hide in your 12th house?",
+    "oQueSignifica": "The 12th house is like a quiet room where we store feelings and dreams. Imagine Maria sitting alone, thinking about her hopes and fears. This house is about what’s hidden from others, like secrets or things we need to heal inside. It’s the part of us that rests, reflects, or feels dreamy and calm.",
+    "oQueSignificaNaAstrologia": "In astrology, the 12th house relates to the hidden parts of our mind and soul. It’s linked to privacy, healing, and sometimes feeling alone or needing a break. This house can show where we explore deep thoughts, dreams, or even unconscious feelings. People may feel peaceful or mysterious here, like a secret inner world.",
+    "exemploFicticio": "Carlos often spends quiet evenings writing in his journal. His 12th house encourages him to explore feelings that he doesn’t usually share, helping him understand himself better in peaceful moments.",
+    "dicaRapida": "Spend some quiet time alone to understand what your 12th house might show you.",
+    "miniJogo": {
+      "pergunta": "If someone wants to relax and reflect quietly, which house might they explore in astrology?",
+      "opcoes": [
+        {
+          "texto": "12th house",
+          "correta": true,
+          "explicacao": "The 12th house is linked to solitude, dreams, and inner peace."
+        },
+        {
+          "texto": "5th house",
+          "correta": false,
+          "explicacao": "The 5th house is about fun, creativity, and social activities, not quiet reflection."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the 12th house about bad things or fears?",
+        "resposta": "Not exactly. It’s about hidden feelings, healing, and sometimes quiet or private moments."
+      },
+      {
+        "pergunta": "Can the 12th house help me understand my dreams?",
+        "resposta": "Yes, it’s linked to dreams and the part of the mind where we imagine and reflect."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "mapa-astral",
+      "signo-lunar"
+    ],
+    "id": "what-does-the-12th-house-mean-in-astrology",
+    "slug": "what-does-the-12th-house-mean-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "12ª casa",
+        "perguntaGoogle": "O que significa a 12ª casa na astrologia?",
+        "resumoUmaLinha": "A 12ª casa na astrologia está ligada a segredos, sonhos e momentos de tranquilidade.",
+        "chamadaCuriosa": "Que segredos sua 12ª casa esconde?",
+        "oQueSignifica": "A 12ª casa é como um lugar quieto onde guardamos sentimentos e sonhos. Imagine a Maria sentada sozinha, pensando nas suas esperanças e medos. Essa casa fala do que está escondido dos outros, como segredos ou coisas que precisamos cuidar por dentro. É a parte da gente que descansa, reflete, ou se sente calma e sonhadora.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a 12ª casa se relaciona com as partes escondidas da mente e da alma. Está ligada à privacidade, cura e, às vezes, à sensação de solidão ou necessidade de pausa. Essa casa mostra onde exploramos pensamentos profundos, sonhos ou sentimentos que nem sempre percebemos. A pessoa pode se sentir em paz ou misteriosa aqui, como um mundo secreto por dentro.",
+        "exemploFicticio": "O Carlos costuma passar noites tranquilas escrevendo no diário. A 12ª casa dele o ajuda a explorar sentimentos que ele não costuma compartilhar, fazendo ele se entender melhor nesses momentos de paz.",
+        "faq": [
+          {
+            "pergunta": "A 12ª casa fala de coisas ruins ou medos?",
+            "resposta": "Não exatamente. É sobre sentimentos escondidos, cura e, às vezes, momentos silenciosos ou privados."
+          },
+          {
+            "pergunta": "A 12ª casa pode ajudar a entender meus sonhos?",
+            "resposta": "Sim, ela está ligada aos sonhos e à parte da mente onde imaginamos e refletimos."
+          }
+        ]
+      },
+      "es": {
+        "termo": "casa 12",
+        "perguntaGoogle": "¿Qué significa la casa 12 en astrología?",
+        "resumoUmaLinha": "La casa 12 en astrología está ligada a secretos, sueños y momentos tranquilos.",
+        "chamadaCuriosa": "¿Qué secretos se esconden en tu casa 12?",
+        "oQueSignifica": "La casa 12 es como un cuarto tranquilo donde guardamos sentimientos y sueños. Imagina a María sentada sola, pensando en sus esperanzas y miedos. Esta casa habla de lo que está oculto para los demás, como secretos o cosas que necesitamos sanar por dentro. Es la parte de nosotros que descansa, reflexiona o se siente soñadora y tranquila.",
+        "oQueSignificaNaAstrologia": "En astrología, la casa 12 se relaciona con las partes ocultas de nuestra mente y alma. Está ligada a la privacidad, la sanación y a veces a sentirse solo o necesitar un descanso. Esta casa puede mostrar dónde exploramos pensamientos profundos, sueños o sentimientos inconscientes. Las personas pueden sentirse en paz o misteriosas aquí, como un mundo interior secreto.",
+        "exemploFicticio": "Carlos suele pasar tardes tranquilas escribiendo en su diario. Su casa 12 lo invita a explorar sentimientos que no suele compartir, ayudándolo a entenderse mejor en momentos de calma.",
+        "faq": [
+          {
+            "pergunta": "¿La casa 12 es sobre cosas malas o miedos?",
+            "resposta": "No exactamente. Se trata de sentimientos ocultos, sanación y a veces momentos tranquilos o privados."
+          },
+          {
+            "pergunta": "¿La casa 12 puede ayudarme a entender mis sueños?",
+            "resposta": "Sí, está ligada a los sueños y a la parte de la mente donde imaginamos y reflexionamos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "5th house",
+    "tituloSEO": "What does the 5th house mean in astrology? Simple guide",
+    "perguntaGoogle": "What does the 5th house mean in astrology?",
+    "resumoUmaLinha": "The 5th house in astrology is linked to fun, creativity, and love.",
+    "explicacaoEducativa": "Learn that the 5th house in astrology relates to joy, hobbies, romance, and how you express yourself.",
+    "chamadaCuriosa": "Why is the 5th house the house of fun and love?",
+    "oQueSignifica": "Imagine the 5th house as your personal playground. It's where you enjoy hobbies, creative projects, and special moments with people you like. Just like kids play and show who they are, this house shows what makes you happy and how you share your feelings in fun ways.",
+    "oQueSignificaNaAstrologia": "In astrology, the 5th house is linked to creativity, romance, and joy. It shows how you have fun and what hobbies you enjoy. This house also connects to children, love affairs, and how you express your unique self. Planets in the 5th house can highlight what brings happiness and excitement in life.",
+    "exemploFicticio": "Maria loves painting and often feels happiest when she paints after school. Her 5th house in astrology might tell why she feels joy in such creative hobbies and how she shares love with friends.",
+    "dicaRapida": "Spend time on hobbies that make you smile—your 5th house thanks you!",
+    "miniJogo": {
+      "pergunta": "If your 5th house is strong, what might you enjoy most?",
+      "opcoes": [
+        {
+          "texto": "Doing fun creative activities like painting or dancing",
+          "correta": true,
+          "explicacao": "The 5th house is all about creativity and fun activities."
+        },
+        {
+          "texto": "Doing serious work or chores every day",
+          "correta": false,
+          "explicacao": "Serious work is linked more to other areas of life, not the 5th house."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Does the 5th house only mean romance?",
+        "resposta": "No, it also relates to creativity, hobbies, fun, and children."
+      },
+      {
+        "pergunta": "Can the 5th house show how I express myself?",
+        "resposta": "Yes, it reflects how you enjoy life and show your true colors."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "signo-solar",
+      "mapa-astral"
+    ],
+    "id": "what-does-the-5th-house-mean-in-astrology",
+    "slug": "what-does-the-5th-house-mean-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "5ª casa",
+        "perguntaGoogle": "O que significa a 5ª casa na astrologia?",
+        "resumoUmaLinha": "A 5ª casa na astrologia está ligada à diversão, criatividade e amor.",
+        "chamadaCuriosa": "Por que a 5ª casa é a casa da diversão e do amor?",
+        "oQueSignifica": "Imagine a 5ª casa como seu parquinho pessoal. É onde você curte seus hobbies, projetos criativos e momentos especiais com quem você gosta. Assim como crianças brincam e mostram quem são, essa casa mostra o que te faz feliz e como você compartilha seus sentimentos de forma divertida.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a 5ª casa está ligada à criatividade, romance e alegria. Ela mostra como você se diverte e quais hobbies você gosta. Essa casa também conecta a crianças, casos de amor e como você expressa seu jeito único. Planetas na 5ª casa podem destacar o que traz felicidade e emoção na vida.",
+        "exemploFicticio": "Maria adora pintar e se sente mais feliz quando pinta depois da aula. O mapa astral dela pode revelar por que ela sente tanta alegria nesses hobbies criativos e como ela compartilha seu amor com os amigos.",
+        "faq": [
+          {
+            "pergunta": "A 5ª casa significa só romance?",
+            "resposta": "Não, ela também se relaciona com criatividade, hobbies, diversão e crianças."
+          },
+          {
+            "pergunta": "A 5ª casa pode mostrar como eu me expresso?",
+            "resposta": "Sim, ela reflete como você aproveita a vida e mostra suas cores de verdade."
+          }
+        ]
+      },
+      "es": {
+        "termo": "casa 5",
+        "perguntaGoogle": "¿Qué significa la casa 5 en astrología?",
+        "resumoUmaLinha": "La casa 5 en astrología está relacionada con la diversión, la creatividad y el amor.",
+        "chamadaCuriosa": "¿Por qué la casa 5 es la casa de la diversión y el amor?",
+        "oQueSignifica": "Imagina la casa 5 como tu lugar de juegos personal. Ahí disfrutas tus pasatiempos, proyectos creativos y momentos especiales con personas que te gustan. Así como los niños juegan y muestran quiénes son, esta casa revela qué te hace feliz y cómo compartes tus sentimientos de forma divertida.",
+        "oQueSignificaNaAstrologia": "En astrología, la casa 5 está ligada a la creatividad, el romance y la alegría. Muestra cómo te diviertes y qué hobbies disfrutas. Esta casa también se conecta con los niños, los amores y cómo expresas tu personalidad única. Los planetas en la casa 5 pueden destacar lo que trae felicidad y emoción a tu vida.",
+        "exemploFicticio": "A María le encanta pintar y se siente más feliz cuando pinta después de la escuela. Su casa 5 en la carta astral podría explicar por qué encuentra alegría en esos hobbies creativos y cómo comparte amor con sus amigos.",
+        "faq": [
+          {
+            "pergunta": "¿La casa 5 solo significa romance?",
+            "resposta": "No, también está relacionada con la creatividad, los pasatiempos, la diversión y los niños."
+          },
+          {
+            "pergunta": "¿La casa 5 puede mostrar cómo me expreso?",
+            "resposta": "Sí, refleja cómo disfrutas la vida y muestras tu verdadera personalidad."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "6th house",
+    "tituloSEO": "What Does the 6th House Mean in Astrology? Easy Guide",
+    "perguntaGoogle": "What does the 6th house mean in astrology?",
+    "resumoUmaLinha": "The 6th house in astrology is linked to daily routines, health, and work habits.",
+    "explicacaoEducativa": "Learn how the 6th house relates to your daily habits and how you take care of yourself.",
+    "chamadaCuriosa": "Discover what the 6th house says about your daily life!",
+    "oQueSignifica": "The 6th house is like your daily to-do list. It shows how you handle small tasks, stay organized, and care for your body. Just like brushing your teeth every day keeps you healthy, the 6th house points to simple habits that shape your life. It also connects to the work you do regularly, not big events but everyday jobs and chores.",
+    "oQueSignificaNaAstrologia": "In astrology, the 6th house relates to your daily routines, health habits, and small work tasks. It reveals how you manage regular responsibilities and take care of yourself through everyday actions. This house also shows how you solve problems in daily life and how you cope with stress and small challenges. Planets in this house add more detail about your approach to routines and wellness.",
+    "exemploFicticio": "Maria starts her day with a short walk and makes a to-do list before work. Her 6th house shows she cares about daily habits and likes to stay organized. Carlos prefers working step by step and takes breaks to relax, reflecting his 6th house’s focus on balance.",
+    "dicaRapida": "Try adding one small healthy habit to your daily routine this week.",
+    "miniJogo": {
+      "pergunta": "If you notice you're tired often, what daily habit might the 6th house suggest you check?",
+      "opcoes": [
+        {
+          "texto": "Your sleep and eating routines",
+          "correta": true,
+          "explicacao": "The 6th house links to daily care, so sleep and food habits matter here."
+        },
+        {
+          "texto": "Your big life plans",
+          "correta": false,
+          "explicacao": "Big plans are not in the 6th house focus; it looks at daily habits instead."
+        },
+        {
+          "texto": "Your friendships",
+          "correta": false,
+          "explicacao": "Friendships belong more to other parts of the chart, not the 6th house."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the 6th house about health?",
+        "resposta": "Yes, it links to health through daily habits and routines, not medical advice."
+      },
+      {
+        "pergunta": "Does the 6th house show your job?",
+        "resposta": "It shows everyday work and tasks, not your main career or big events."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "signo-ascendente",
+      "mapa-astral"
+    ],
+    "id": "what-does-the-6th-house-mean-in-astrology",
+    "slug": "what-does-the-6th-house-mean-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "6ª casa",
+        "perguntaGoogle": "O que significa a 6ª casa na astrologia?",
+        "resumoUmaLinha": "A 6ª casa na astrologia está ligada às rotinas diárias, saúde e hábitos de trabalho.",
+        "chamadaCuriosa": "Descubra o que a 6ª casa diz sobre o seu dia a dia!",
+        "oQueSignifica": "A 6ª casa é como sua lista de tarefas diárias. Ela mostra como você lida com pequenas coisas, se organiza e cuida do seu corpo. Assim como escovar os dentes todo dia mantém a saúde, a 6ª casa aponta os hábitos simples que mudam sua vida. Também tem a ver com o trabalho que você faz todo dia, não os grandes eventos, mas as tarefas e deveres do cotidiano.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a 6ª casa está ligada às suas rotinas diárias, hábitos de saúde e pequenos trabalhos. Ela revela como você cuida das suas responsabilidades diárias e de si mesmo com ações simples. Essa casa também mostra como você resolve problemas no dia a dia e lida com o estresse e desafios pequenos. Os planetas nessa casa dão mais detalhes sobre seu jeito de encarar rotinas e bem-estar.",
+        "exemploFicticio": "Maria começa o dia com uma caminhada rápida e faz uma lista de tarefas antes de trabalhar. A 6ª casa dela mostra que ela se importa com os hábitos diários e gosta de se organizar. Carlos prefere trabalhar passo a passo e faz pausas para relaxar, refletindo o foco da 6ª casa dele no equilíbrio.",
+        "faq": [
+          {
+            "pergunta": "A 6ª casa é sobre saúde?",
+            "resposta": "Sim, ela está ligada à saúde pelos hábitos e rotinas diárias, não é um conselho médico."
+          },
+          {
+            "pergunta": "A 6ª casa mostra seu emprego?",
+            "resposta": "Mostra o trabalho diário e as tarefas, não sua carreira principal ou eventos grandes."
+          }
+        ]
+      },
+      "es": {
+        "termo": "casa 6",
+        "perguntaGoogle": "¿Qué significa la casa 6 en astrología?",
+        "resumoUmaLinha": "La casa 6 en astrología está ligada a las rutinas diarias, la salud y los hábitos de trabajo.",
+        "chamadaCuriosa": "¡Descubre qué dice la casa 6 sobre tu vida diaria!",
+        "oQueSignifica": "La casa 6 es como tu lista de cosas por hacer cada día. Muestra cómo manejas las tareas pequeñas, te mantienes organizado y cuidas tu cuerpo. Como cepillarte los dientes todos los días para estar saludable, la casa 6 señala los hábitos simples que forman tu vida. También se conecta con el trabajo que haces regularmente, no eventos grandes, sino tareas y quehaceres diarios.",
+        "oQueSignificaNaAstrologia": "En astrología, la casa 6 está relacionada con tus rutinas diarias, hábitos de salud y pequeñas tareas laborales. Revela cómo afrontas las responsabilidades regulares y te cuidas con acciones cotidianas. Esta casa también muestra cómo resuelves problemas diarios y cómo manejas el estrés y los pequeños desafíos. Los planetas en esta casa dan más detalles sobre tu forma de llevar las rutinas y el bienestar.",
+        "exemploFicticio": "María empieza su día con una caminata corta y hace una lista de cosas por hacer antes del trabajo. Su casa 6 refleja que le importan los hábitos diarios y que le gusta mantenerse organizada. Carlos prefiere trabajar paso a paso y toma descansos para relajarse, lo que muestra el enfoque de su casa 6 en el equilibrio.",
+        "faq": [
+          {
+            "pergunta": "¿La casa 6 tiene que ver con la salud?",
+            "resposta": "Sí, se relaciona con la salud a través de hábitos y rutinas diarias, no es un consejo médico."
+          },
+          {
+            "pergunta": "¿La casa 6 muestra tu trabajo?",
+            "resposta": "Muestra el trabajo y las tareas cotidianas, no tu carrera principal ni eventos grandes."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "2nd house",
+    "tituloSEO": "What Does the 2nd House Mean in Astrology? Easy Guide",
+    "perguntaGoogle": "What does the 2nd house mean in astrology?",
+    "resumoUmaLinha": "The 2nd house in astrology is linked to money, values, and what you own.",
+    "explicacaoEducativa": "Learn the 2nd house is linked to your money, belongings, and what you truly value in life.",
+    "chamadaCuriosa": "What do your things and values say about you?",
+    "oQueSignifica": "Think of the 2nd house as your personal treasure box. It shows what you like to collect or keep safe. Just like you might have toys, clothes, or snacks you really like, the 2nd house is about things and feelings that feel important. It’s where we see how much you care about comfort and what you work for.",
+    "oQueSignificaNaAstrologia": "In astrology, the 2nd house is linked to money, possessions, and personal values. It helps show what you find important in your life and how you try to feel secure. This house can reveal your habits around earning and spending, and how you value yourself and your things. It’s about what you own, not just things, but also skills or talents you feel proud of.",
+    "exemploFicticio": "Maria loves to save her favorite books and toys. When she thinks about the 2nd house, it’s like seeing what she treasures at home. Carlos notices he spends money on healthy food because he cares about himself. They both show the 2nd house in action.",
+    "dicaRapida": "Think about what you really care for—it may show your 2nd house energy.",
+    "miniJogo": {
+      "pergunta": "If you find a dollar on the ground, what might your 2nd house energy say?",
+      "opcoes": [
+        {
+          "texto": "Save it carefully because it’s a small treasure.",
+          "correta": true,
+          "explicacao": "The 2nd house values security and what we own, so saving fits it well."
+        },
+        {
+          "texto": "Ignore it because it’s just a small amount.",
+          "correta": false,
+          "explicacao": "The 2nd house is about valuing what you have, even small things."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the 2nd house only about money?",
+        "resposta": "No, it’s also about your values and things that make you feel safe and proud."
+      },
+      {
+        "pergunta": "Can the 2nd house tell me how I spend money?",
+        "resposta": "It can show your habits and feelings around money, but not exact details."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "signo-ascendente",
+      "signo-solar"
+    ],
+    "id": "what-does-the-2nd-house-mean-in-astrology",
+    "slug": "what-does-the-2nd-house-mean-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "2ª casa",
+        "perguntaGoogle": "O que significa a 2ª casa na astrologia?",
+        "resumoUmaLinha": "A 2ª casa na astrologia está ligada ao dinheiro, valores e tudo o que você tem.",
+        "chamadaCuriosa": "O que suas coisas e valores dizem sobre você?",
+        "oQueSignifica": "Pense na 2ª casa como sua caixinha de tesouro pessoal. Ela mostra o que você gosta de reunir ou guardar. Igual quando você tem seus brinquedos, roupas ou lanchinhos favoritos, a 2ª casa fala das coisas e sentimentos que são importantes para você. É onde vemos o quanto você valoriza conforto e pelo que você trabalha.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a 2ª casa está ligada ao dinheiro, posses e valores pessoais. Ela ajuda a mostrar o que você considera importante na vida e como você busca se sentir seguro. Essa casa pode revelar seus hábitos com ganhar e gastar, e como você valoriza a si mesmo e suas coisas. Não é só sobre o que você tem, mas também sobre habilidades ou talentos que te deixam orgulhoso.",
+        "exemploFicticio": "Maria adora guardar seus livros e brinquedos preferidos. Quando ela pensa na 2ª casa, é como entender o que ela valoriza em casa. Carlos percebe que gasta dinheiro com comida saudável porque se cuida. Os dois mostram a 2ª casa em ação.",
+        "faq": [
+          {
+            "pergunta": "A 2ª casa é só sobre dinheiro?",
+            "resposta": "Não, também é sobre seus valores e coisas que fazem você se sentir seguro e orgulhoso."
+          },
+          {
+            "pergunta": "A 2ª casa pode dizer como eu gasto dinheiro?",
+            "resposta": "Ela pode mostrar seus hábitos e sentimentos sobre dinheiro, mas não detalhes exatos."
+          }
+        ]
+      },
+      "es": {
+        "termo": "2da casa",
+        "perguntaGoogle": "¿Qué significa la 2da casa en la astrología?",
+        "resumoUmaLinha": "La 2da casa en astrología está relacionada con el dinero, los valores y lo que posees.",
+        "chamadaCuriosa": "¿Qué dicen tus cosas y valores sobre ti?",
+        "oQueSignifica": "Piensa en la 2da casa como tu caja de tesoros personal. Muestra lo que te gusta coleccionar o cuidar. Así como tienes juguetes, ropa o snacks que te encantan, la 2da casa habla de cosas y sentimientos importantes para ti. Aquí vemos cuánto valoras la comodidad y por qué te esfuerzas.",
+        "oQueSignificaNaAstrologia": "En astrología, la 2da casa está ligada al dinero, las posesiones y los valores personales. Ayuda a mostrar qué es importante en tu vida y cómo buscas sentirte seguro. Esta casa revela tus hábitos al ganar y gastar dinero, y cómo te valoras a ti y a tus cosas. Se trata no solo de lo que tienes, sino también de habilidades o talentos que te enorgullecen.",
+        "exemploFicticio": "A María le gusta guardar sus libros y juguetes favoritos. Pensar en la 2da casa es como ver lo que ella valora en su casa. Carlos nota que gasta dinero en comida saludable porque cuida de sí mismo. Los dos muestran la 2da casa en acción.",
+        "faq": [
+          {
+            "pergunta": "¿La 2da casa es solo sobre dinero?",
+            "resposta": "No, también es sobre tus valores y cosas que te hacen sentir seguro y orgulloso."
+          },
+          {
+            "pergunta": "¿La 2da casa puede decirme cómo gasto mi dinero?",
+            "resposta": "Puede mostrar tus hábitos y sentimientos sobre el dinero, pero no detalles exactos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Fixed signs",
+    "tituloSEO": "What Are Fixed Signs in Astrology? Simple Explanation",
+    "perguntaGoogle": "What are fixed signs in astrology?",
+    "resumoUmaLinha": "Fixed signs in astrology are linked to stability and staying strong.",
+    "explicacaoEducativa": "Learn that fixed signs in astrology are known for being steady and reliable. They help keep things firm and stable.",
+    "chamadaCuriosa": "Why do some zodiac signs never like to change?",
+    "oQueSignifica": "Fixed signs are like a sturdy tree that stands firm during strong winds. While other signs might change quickly, fixed signs stay steady and don’t give up easily. Think of them like friends who you can always count on to keep their promises and stay with you through thick and thin.",
+    "oQueSignificaNaAstrologia": "In astrology, fixed signs are linked to holding onto things, like ideas, plans, or goals. They give slow but steady energy that helps finish what is started. These signs can be strong-willed and patient, often helping others by providing a calm and steady presence. The fixed signs are Taurus, Leo, Scorpio, and Aquarius.",
+    "exemploFicticio": "Maria decides to finish a big school project even when it gets hard. Her friend Carlos, a fixed sign, helps by reminding her to keep going and not give up. Together, they stay steady until the work is done.",
+    "dicaRapida": "Lean on fixed signs’ steady energy when you need calm and persistence.",
+    "miniJogo": {
+      "pergunta": "If your plans suddenly change, what would a fixed sign likely do?",
+      "opcoes": [
+        {
+          "texto": "Try to stick to the original plan and stay steady.",
+          "correta": true,
+          "explicacao": "Fixed signs like to keep things stable and don’t like sudden changes."
+        },
+        {
+          "texto": "Quickly change plans to try something new and different.",
+          "correta": false,
+          "explicacao": "This is more typical of mutable signs, not fixed signs."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Which zodiac signs are fixed signs?",
+        "resposta": "The fixed signs are Taurus, Leo, Scorpio, and Aquarius."
+      },
+      {
+        "pergunta": "What makes fixed signs special in astrology?",
+        "resposta": "They bring stability and help finish things with patience and strong will."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "elementos-astrologicos",
+      "signo-ascendente"
+    ],
+    "id": "what-are-fixed-signs-in-astrology",
+    "slug": "what-are-fixed-signs-in-astrology",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Signos fixos",
+        "perguntaGoogle": "O que são signos fixos na astrologia?",
+        "resumoUmaLinha": "Signos fixos na astrologia estão ligados à estabilidade e força para aguentar firme.",
+        "chamadaCuriosa": "Por que alguns signos do zodíaco não gostam de mudar?",
+        "oQueSignifica": "Signos fixos são como uma árvore forte que resiste ao vento. Enquanto outros signos mudam rápido, os fixos ficam firmes e não desistem fácil. Pense neles como amigos que você pode sempre contar para cumprir a palavra e estar do seu lado, não importa o que aconteça.",
+        "oQueSignificaNaAstrologia": "Na astrologia, signos fixos significam segurar firme nas ideias, planos ou objetivos. Eles têm uma energia lenta, mas constante, que ajuda a terminar o que começou. Esses signos podem ser teimosos e pacientes, e muitas vezes ajudam com uma presença calma e segura. Os signos fixos são Touro, Leão, Escorpião e Aquário.",
+        "exemploFicticio": "Maria decide terminar um grande trabalho da escola, mesmo quando fica difícil. Seu amigo Carlos, que é de um signo fixo, ajuda lembrando ela de continuar e não desistir. Juntos, eles ficam firmes até o trabalho estar pronto.",
+        "faq": [
+          {
+            "pergunta": "Quais signos do zodíaco são signos fixos?",
+            "resposta": "Os signos fixos são Touro, Leão, Escorpião e Aquário."
+          },
+          {
+            "pergunta": "O que faz os signos fixos serem especiais na astrologia?",
+            "resposta": "Eles trazem estabilidade e ajudam a terminar as coisas com paciência e força de vontade."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Signos fijos",
+        "perguntaGoogle": "¿Qué son los signos fijos en astrología?",
+        "resumoUmaLinha": "Los signos fijos en astrología están relacionados con la estabilidad y la resistencia.",
+        "chamadaCuriosa": "¿Por qué algunos signos del zodiaco nunca quieren cambiar?",
+        "oQueSignifica": "Los signos fijos son como un árbol fuerte que se mantiene firme ante vientos fuertes. Mientras otros signos cambian rápido, los fijos se mantienen estables y no se rinden fácilmente. Son como amigos en quien siempre puedes confiar para cumplir sus promesas y estar contigo en las buenas y en las malas.",
+        "oQueSignificaNaAstrologia": "En astrología, los signos fijos tienen que ver con aferrarse a cosas, como ideas, planes o metas. Dan una energía lenta pero constante que ayuda a terminar lo que se empieza. Estos signos suelen ser decididos y pacientes, y muchas veces ayudan a los demás al ofrecer una presencia tranquila y estable. Los signos fijos son Tauro, Leo, Escorpio y Acuario.",
+        "exemploFicticio": "María decide terminar un gran proyecto de la escuela aunque se ponga difícil. Su amigo Carlos, que es un signo fijo, la ayuda recordándole que siga adelante y no se rinda. Juntos se mantienen firmes hasta que el trabajo está terminado.",
+        "faq": [
+          {
+            "pergunta": "¿Cuáles son los signos fijos del zodiaco?",
+            "resposta": "Los signos fijos son Tauro, Leo, Escorpio y Acuario."
+          },
+          {
+            "pergunta": "¿Qué hace especiales a los signos fijos en astrología?",
+            "resposta": "Ellos aportan estabilidad y ayudan a terminar las cosas con paciencia y mucha fuerza de voluntad."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Sidereal Astrology",
+    "tituloSEO": "What Is Sidereal Astrology in Astrology? Simple Guide",
+    "perguntaGoogle": "What is sidereal astrology in astrology?",
+    "resumoUmaLinha": "Sidereal astrology uses star positions to read charts, based on real sky constellations.",
+    "explicacaoEducativa": "Learn that sidereal astrology links astrology signs to actual star locations seen in the sky.",
+    "chamadaCuriosa": "Why do star signs shift in sidereal astrology?",
+    "oQueSignifica": "Sidereal astrology is like looking at a map that shows real stars instead of old guesswork. Imagine you have two clocks set differently: one shows time by the sun, another by the stars. Sidereal astrology checks where the stars really are now, not where they were a long time ago. This makes it different from tropical astrology, which uses seasons.",
+    "oQueSignificaNaAstrologia": "In astrology, sidereal means charts are matched to the actual star constellations. This way, your zodiac sign may shift by one or two signs compared to tropical astrology. Sidereal astrology is linked to the idea that the stars' real positions affect your personality or life path. People who use this system believe it shows a truer star map above you.",
+    "exemploFicticio": "Carlos checks his sidereal chart and sees he’s a Pisces, but his tropical chart says Aquarius. He laughs and says it’s like having two star maps. His friend Maria prefers tropical because she likes the old style.",
+    "dicaRapida": "Try comparing your sidereal and tropical signs to see how star maps can differ.",
+    "miniJogo": {
+      "pergunta": "If today’s stars have moved, which astrology checks their real place now?",
+      "opcoes": [
+        {
+          "texto": "Sidereal astrology",
+          "correta": true,
+          "explicacao": "Sidereal astrology uses actual star positions in the sky today."
+        },
+        {
+          "texto": "Tropical astrology",
+          "correta": false,
+          "explicacao": "Tropical astrology uses seasons, not current star positions."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "How is sidereal astrology different from tropical astrology?",
+        "resposta": "Sidereal astrology uses real star positions, while tropical astrology uses the seasons."
+      },
+      {
+        "pergunta": "Can sidereal astrology change your zodiac sign?",
+        "resposta": "Yes, sidereal astrology may shift your sign because star positions differ from tropical signs."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "mapa-astral",
+      "casas-astrologicas"
+    ],
+    "id": "what-is-sidereal-astrology-in-astrology",
+    "slug": "what-is-sidereal-astrology-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Astrologia Sideral",
+        "perguntaGoogle": "O que é astrologia sideral em astrologia?",
+        "resumoUmaLinha": "A astrologia sideral usa a posição real das estrelas para interpretar mapas, baseada nas constelações do céu de verdade.",
+        "chamadaCuriosa": "Por que os signos mudam na astrologia sideral?",
+        "oQueSignifica": "Astrologia sideral é como olhar um mapa que mostra as estrelas reais, e não um palpite antigo. Imagine que você tem dois relógios com horários diferentes: um mostra a hora pelo sol, outro pelo movimento das estrelas. A astrologia sideral confere onde as estrelas estão agora, não onde estavam há muito tempo. Isso a torna diferente da astrologia tropical, que usa as estações do ano.",
+        "oQueSignificaNaAstrologia": "Na astrologia, sideral significa que os mapas são alinhados com as constelações reais das estrelas. Por isso, seu signo pode mudar um ou dois signos em relação à astrologia tropical. A astrologia sideral está ligada à ideia de que as posições reais das estrelas influenciam sua personalidade ou seu caminho de vida. Quem usa esse sistema acredita que ele mostra um mapa astral mais verdadeiro sobre você.",
+        "exemploFicticio": "Carlos olha seu mapa astral sideral e vê que é Peixes, mas no tropical aparece Aquário. Ele ri e fala que é como ter dois mapas das estrelas. A amiga dele, Maria, prefere o tropical porque gosta do estilo mais antigo.",
+        "faq": [
+          {
+            "pergunta": "Como a astrologia sideral é diferente da astrologia tropical?",
+            "resposta": "A astrologia sideral usa a posição real das estrelas, enquanto a tropical usa as estações do ano."
+          },
+          {
+            "pergunta": "A astrologia sideral pode mudar o seu signo?",
+            "resposta": "Sim, a astrologia sideral pode mudar seu signo porque as posições das estrelas são diferentes dos signos tropicais."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Astrología sideral",
+        "perguntaGoogle": "¿Qué es la astrología sideral en astrología?",
+        "resumoUmaLinha": "La astrología sideral usa las posiciones reales de las estrellas para leer la carta, basada en las constelaciones del cielo real.",
+        "chamadaCuriosa": "¿Por qué cambian los signos en la astrología sideral?",
+        "oQueSignifica": "La astrología sideral es como ver un mapa que muestra las estrellas verdaderas, no suposiciones antiguas. Imagina que tienes dos relojes con diferentes horarios: uno marca la hora según el sol, el otro según las estrellas. La astrología sideral mira dónde están las estrellas realmente ahora, no dónde estaban hace mucho tiempo. Eso la hace diferente de la astrología tropical, que usa las estaciones.",
+        "oQueSignificaNaAstrologia": "En astrología, sideral significa que las cartas se ajustan a las constelaciones reales de estrellas. Así, tu signo zodiacal puede cambiar uno o dos signos comparado con la astrología tropical. La astrología sideral está ligada a la idea de que las posiciones reales de las estrellas influyen en tu personalidad o camino de vida. Quienes usan este sistema creen que muestra un mapa astral más verdadero para ti.",
+        "exemploFicticio": "Carlos revisa su carta sideral y ve que es Piscis, pero su carta astral tropical dice Acuario. Él se ríe y dice que es como tener dos mapas astrales. Su amiga María prefiere la tropical porque le gusta el estilo clásico.",
+        "faq": [
+          {
+            "pergunta": "¿Cómo se diferencia la astrología sideral de la tropical?",
+            "resposta": "La astrología sideral usa las posiciones reales de las estrellas, mientras que la tropical usa las estaciones."
+          },
+          {
+            "pergunta": "¿Puede la astrología sideral cambiar tu signo zodiacal?",
+            "resposta": "Sí, la astrología sideral puede cambiar tu signo porque las posiciones de las estrellas son diferentes a las del sistema tropical."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "1st house",
+    "tituloSEO": "What does the 1st house mean in astrology? Simple guide",
+    "perguntaGoogle": "What does the 1st house mean in astrology?",
+    "resumoUmaLinha": "The 1st house relates to how you show yourself and your personality.",
+    "explicacaoEducativa": "Learn that the 1st house in astrology is linked to your self-image and first impressions.",
+    "chamadaCuriosa": "Did you know the 1st house is like your personal front door?",
+    "oQueSignifica": "The 1st house is like the cover of your favorite book. It shows how people see you at first. It includes your style, energy, and ways you start things. Just like how a smile or the way you dress sends a message, the 1st house tells about your outer vibe.",
+    "oQueSignificaNaAstrologia": "In astrology, the 1st house is tied to your rising sign and first impressions. It describes your outer personality and how you approach new experiences. This house shows your basic attitude and physical appearance. Think of it as the mask you wear when meeting others, shaping how they feel about you right away.",
+    "exemploFicticio": "Maria met new classmates on the first day of school. Her friendly smile and confident walk showed her 1st house energy. People quickly felt she was approachable and positive.",
+    "dicaRapida": "Notice how you first react to new people; it shows your 1st house in action.",
+    "miniJogo": {
+      "pergunta": "If you meet someone for the first time, what tells you about their 1st house?",
+      "opcoes": [
+        {
+          "texto": "How they dress and smile.",
+          "correta": true,
+          "explicacao": "The 1st house relates to first impressions, including appearance and energy."
+        },
+        {
+          "texto": "Their favorite food.",
+          "correta": false,
+          "explicacao": "Food preferences are not connected to the 1st house."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the 1st house the same as my zodiac sign?",
+        "resposta": "No, your zodiac sign is your sun sign; the 1st house is about how you show yourself to others."
+      },
+      {
+        "pergunta": "Can the 1st house change?",
+        "resposta": "Your rising sign and 1st house can change with your birth time, but it stays the same once set."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-ascendente",
+      "casas-astrologicas",
+      "mapa-astral"
+    ],
+    "id": "what-does-the-1st-house-mean-in-astrology",
+    "slug": "what-does-the-1st-house-mean-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "1ª casa",
+        "perguntaGoogle": "O que significa a 1ª casa na astrologia?",
+        "resumoUmaLinha": "A 1ª casa está ligada a como você se mostra e à sua personalidade.",
+        "chamadaCuriosa": "Sabia que a 1ª casa é como a porta da sua casa, só que para o mundo?",
+        "oQueSignifica": "A 1ª casa é como a capa do seu livro favorito. Ela mostra como as pessoas te veem à primeira vista. Inclui seu jeito, sua energia e como você começa as coisas. Assim como um sorriso ou seu jeito de se vestir passam uma mensagem, a 1ª casa fala sobre a sua vibe exterior.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a 1ª casa está ligada ao seu signo ascendente e à primeira impressão que você causa. Ela descreve sua personalidade exterior e como você encara coisas novas. Essa casa mostra sua atitude básica e seu jeito físico. Pense nela como a máscara que você usa ao conhecer alguém, moldando o que a pessoa sente sobre você na hora.",
+        "exemploFicticio": "Maria conheceu novos colegas no primeiro dia de aula. Seu sorriso amigável e jeito confiante mostraram a energia da 1ª casa dela. As pessoas logo sentiram que ela era acessível e positiva.",
+        "faq": [
+          {
+            "pergunta": "A 1ª casa é a mesma coisa que meu signo do zodíaco?",
+            "resposta": "Não. Seu signo do zodíaco é o seu signo solar; a 1ª casa é sobre como você se mostra para os outros."
+          },
+          {
+            "pergunta": "A 1ª casa pode mudar?",
+            "resposta": "Seu ascendente e a 1ª casa podem mudar dependendo da sua hora de nascimento, mas ficam fixos depois que o mapa astral é feito."
+          }
+        ]
+      },
+      "es": {
+        "termo": "casa 1",
+        "perguntaGoogle": "¿Qué significa la casa 1 en astrología?",
+        "resumoUmaLinha": "La casa 1 está relacionada con cómo te muestras y tu personalidad.",
+        "chamadaCuriosa": "¿Sabías que la casa 1 es como la puerta de entrada personal?",
+        "oQueSignifica": "La casa 1 es como la portada de tu libro favorito. Muestra cómo te ven los demás al principio. Incluye tu estilo, energía y la forma en que empiezas las cosas. Así como una sonrisa o cómo te vistes manda un mensaje, la casa 1 habla sobre tu vibración externa.",
+        "oQueSignificaNaAstrologia": "En astrología, la casa 1 está ligada a tu signo ascendente y las primeras impresiones. Describe tu personalidad exterior y cómo enfrentas nuevas experiencias. Esta casa muestra tu actitud básica y tu apariencia física. Piensa en ella como la máscara que usas al conocer gente, moldeando lo que sienten de ti desde el primer momento.",
+        "exemploFicticio": "Maria conoció a nuevos compañeros el primer día de clases. Su sonrisa amigable y paso seguro mostraron la energía de su casa 1. La gente rápidamente sintió que era accesible y positiva.",
+        "faq": [
+          {
+            "pergunta": "¿La casa 1 es lo mismo que mi signo zodiacal?",
+            "resposta": "No, tu signo zodiacal es tu signo solar; la casa 1 habla de cómo te muestras a los demás."
+          },
+          {
+            "pergunta": "¿Puede cambiar la casa 1?",
+            "resposta": "Tu signo ascendente y la casa 1 pueden variar según la hora de nacimiento, pero una vez que se establece, permanece igual."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Transits",
+    "tituloSEO": "What Are Transits in Astrology? Simple Explanation",
+    "perguntaGoogle": "What are transits in astrology?",
+    "resumoUmaLinha": "Transits show how planets' current moves relate to your birth chart over time.",
+    "explicacaoEducativa": "Learn how planets moving now link to your birth chart and affect daily experiences.",
+    "chamadaCuriosa": "See how today’s planets connect to your personal stars!",
+    "oQueSignifica": "Transits are like the weather for your birth chart. Imagine your birth chart as a map of your life, and transits are the moving clouds and sun changes. Just as weather shifts can change your day, transits show how planets passing certain points might influence everyday feelings or events.",
+    "oQueSignificaNaAstrologia": "In astrology, transits are when planets in the sky move over parts of your birth chart. This is linked to times when you might notice changes or new chances in life. Transits help you understand the timing of personal growth, moods, or challenges, but they don’t mean fixed events will happen. Think of them as gentle nudges from the universe.",
+    "exemploFicticio": "Maria noticed she felt extra motivated one morning. That day, Mars was moving over her birth chart’s goal area, linked to drive and energy in astrology. This transit helped her start a new hobby with extra excitement.",
+    "dicaRapida": "Check transits to see when you might feel more energized or need extra rest.",
+    "miniJogo": {
+      "pergunta": "If you notice feeling more curious than usual, what might be happening in astrology?",
+      "opcoes": [
+        {
+          "texto": "A planet is moving over your birth chart, creating a transit.",
+          "correta": true,
+          "explicacao": "Feeling different can happen when a planet passes a point in your chart, called a transit."
+        },
+        {
+          "texto": "Your birth chart changes every year, causing feelings to change.",
+          "correta": false,
+          "explicacao": "Your birth chart stays the same; feelings change because of current planet moves or transits."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Do transits predict exact events?",
+        "resposta": "No, transits show times when changes or feelings may be stronger, not exact events."
+      },
+      {
+        "pergunta": "How long do transits last?",
+        "resposta": "Some transits last a few days, others can last weeks or months, depending on the planet."
+      }
+    ],
+    "termosRelacionados": [
+      "mapa-astral",
+      "casas-astrologicas"
+    ],
+    "id": "what-are-transits-in-astrology",
+    "slug": "what-are-transits-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Trânsitos",
+        "perguntaGoogle": "O que são trânsitos na astrologia?",
+        "resumoUmaLinha": "Trânsitos mostram como os movimentos atuais dos planetas se relacionam com seu mapa astral ao longo do tempo.",
+        "chamadaCuriosa": "Veja como os planetas de hoje se conectam com suas estrelas pessoais!",
+        "oQueSignifica": "Trânsitos são como a previsão do tempo para o seu mapa astral. Imagine seu mapa astral como um mapa da sua vida, e os trânsitos são as nuvens e o sol que vão mudando. Assim como o clima pode mudar seu dia, os trânsitos mostram como os planetas passando por certos pontos podem influenciar sentimentos ou acontecimentos diários.",
+        "oQueSignificaNaAstrologia": "Na astrologia, trânsitos são quando os planetas no céu passam por partes do seu mapa astral. Isso está ligado aos momentos em que você pode perceber mudanças ou novas chances na vida. Os trânsitos ajudam você a entender o timing de crescimento pessoal, humores ou desafios, mas não querem dizer que eventos fixos vão acontecer. Pense neles como empurrõezinhos suaves do universo.",
+        "exemploFicticio": "Maria percebeu que estava se sentindo super motivada numa manhã. Naquele dia, Marte estava passando pela área do seu mapa astral ligada a objetivos, relacionada a força e energia na astrologia. Esse trânsito ajudou ela a começar um novo hobby com mais empolgação.",
+        "faq": [
+          {
+            "pergunta": "Trânsitos prevêem eventos exatos?",
+            "resposta": "Não, trânsitos mostram momentos em que mudanças ou sentimentos podem ser mais fortes, não eventos exatos."
+          },
+          {
+            "pergunta": "Quanto tempo duram os trânsitos?",
+            "resposta": "Alguns trânsitos duram poucos dias, outros podem durar semanas ou meses, dependendo do planeta."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Tránsitos",
+        "perguntaGoogle": "¿Qué son los tránsitos en astrología?",
+        "resumoUmaLinha": "Los tránsitos muestran cómo los movimientos actuales de los planetas se relacionan con tu carta astral a lo largo del tiempo.",
+        "chamadaCuriosa": "¡Mira cómo los planetas de hoy conectan con tus estrellas personales!",
+        "oQueSignifica": "Los tránsitos son como el clima para tu carta astral. Imagina tu carta astral como un mapa de tu vida, y los tránsitos son las nubes y cambios del sol que se mueven. Así como el clima puede cambiar tu día, los tránsitos muestran cómo los planetas pasando por ciertos puntos pueden influir en sentimientos o eventos diarios.",
+        "oQueSignificaNaAstrologia": "En astrología, los tránsitos son cuando los planetas en el cielo pasan sobre partes de tu carta astral. Esto está relacionado con momentos en los que puedes notar cambios o nuevas oportunidades en la vida. Los tránsitos te ayudan a entender el momento para el crecimiento personal, estados de ánimo o retos, pero no significan que eventos fijos ocurrirán. Piensa en ellos como pequeños empujones del universo.",
+        "exemploFicticio": "María notó que se sentía muy motivada una mañana. Ese día, Marte estaba pasando sobre el área de metas en su carta astral, relacionada con la energía y el impulso en astrología. Este tránsito la ayudó a empezar un nuevo hobby con mucha emoción.",
+        "faq": [
+          {
+            "pergunta": "¿Los tránsitos predicen eventos exactos?",
+            "resposta": "No, los tránsitos muestran momentos en que los cambios o sentimientos pueden ser más fuertes, no eventos exactos."
+          },
+          {
+            "pergunta": "¿Cuánto duran los tránsitos?",
+            "resposta": "Algunos tránsitos duran unos días, otros pueden durar semanas o meses, dependiendo del planeta."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Progressed chart",
+    "tituloSEO": "What is a Progressed Chart in Astrology? Simple Explanation",
+    "perguntaGoogle": "What is a progressed chart in astrology?",
+    "resumoUmaLinha": "A progressed chart shows how your astrological chart changes slowly over time.",
+    "explicacaoEducativa": "Learn that a progressed chart is a way to see how your birth chart moves forward as you grow.",
+    "chamadaCuriosa": "How does your star map grow with time?",
+    "oQueSignifica": "A progressed chart is like a photo album of you over time. Just as you change inside and outside, your astrological chart also 'moves' slightly. This chart helps to imagine how your personality and life might slowly shift, like turning pages in a storybook about yourself.",
+    "oQueSignificaNaAstrologia": "In astrology, a progressed chart is linked to your inner growth and changes. It shows the slow movement of planets after your birth and helps understand evolving feelings or ideas. Astrologers use it to explore how your path and moods gently develop, not sudden events but steady progress.",
+    "exemploFicticio": "Maria looks at her progressed chart and notices her Sun moving into a new house. She feels more ready to try new hobbies. It's like a soft nudge from her stars to explore, while doing her everyday chores.",
+    "dicaRapida": "Check your progressed chart yearly to reflect on personal growth and new feelings.",
+    "miniJogo": {
+      "pergunta": "If your progressed chart slowly changes like a photo album, what does it show?",
+      "opcoes": [
+        {
+          "texto": "How your personality grows with time",
+          "correta": true,
+          "explicacao": "Correct! The progressed chart shows slow, steady growth in your personality and life."
+        },
+        {
+          "texto": "Sudden events happening to you tomorrow",
+          "correta": false,
+          "explicacao": "Not quite. Progressed charts show slow changes, not quick events or predictions."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is a progressed chart different from my birth chart?",
+        "resposta": "Yes, your birth chart is fixed at birth, while a progressed chart slowly changes over time."
+      },
+      {
+        "pergunta": "Can a progressed chart predict exact events?",
+        "resposta": "No, it suggests gentle changes in feelings and inner growth, not exact future events."
+      }
+    ],
+    "termosRelacionados": [
+      "what-is-a-natal-chart",
+      "signo-solar",
+      "casas-astrologicas"
+    ],
+    "id": "what-is-a-progressed-chart-in-astrology",
+    "slug": "what-is-a-progressed-chart-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Mapa astral progressivo",
+        "perguntaGoogle": "O que é um mapa astral progressivo em astrologia?",
+        "resumoUmaLinha": "Um mapa astral progressivo mostra como seu mapa astral muda devagar com o tempo.",
+        "chamadaCuriosa": "Como seu mapa das estrelas cresce com o tempo?",
+        "oQueSignifica": "Um mapa astral progressivo é como um álbum de fotos seu ao longo do tempo. Assim como você muda por dentro e por fora, seu mapa astral também 'se move' um pouco. Esse mapa ajuda a imaginar como sua personalidade e sua vida podem mudar devagar, como virar as páginas de um livro sobre você.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o mapa astral progressivo está ligado ao seu crescimento interior e mudanças. Ele mostra o movimento lento dos planetas depois do seu nascimento e ajuda a entender sentimentos ou ideias que vão evoluindo. Os astrólogos usam ele para explorar como seu caminho e seus humores se desenvolvem de forma gradual, não são eventos repentinos, mas um progresso constante.",
+        "exemploFicticio": "Maria olha o mapa astral progressivo e percebe que o Sol dela está entrando em uma nova casa. Ela se sente mais pronta para tentar novos hobbies. É como um empurrãozinho suave das estrelas para explorar, mesmo fazendo suas tarefas do dia a dia.",
+        "faq": [
+          {
+            "pergunta": "Um mapa astral progressivo é diferente do meu mapa astral natal?",
+            "resposta": "Sim, seu mapa astral natal é fixo no momento do nascimento, já o mapa astral progressivo muda devagar com o tempo."
+          },
+          {
+            "pergunta": "Um mapa astral progressivo pode prever eventos exatos?",
+            "resposta": "Não, ele sugere mudanças suaves nos sentimentos e crescimento interior, não eventos futuros exatamente definidos."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Carta progresada",
+        "perguntaGoogle": "¿Qué es una carta progresada en astrología?",
+        "resumoUmaLinha": "Una carta progresada muestra cómo cambia lentamente tu carta astral con el tiempo.",
+        "chamadaCuriosa": "¿Cómo crece tu mapa estelar con el paso del tiempo?",
+        "oQueSignifica": "Una carta progresada es como un álbum de fotos tuyo a lo largo del tiempo. Así como cambias por dentro y por fuera, tu carta astral también 'se mueve' un poco. Esta carta ayuda a imaginar cómo puede cambiar tu personalidad y vida poco a poco, como pasar páginas en un libro sobre ti mismo.",
+        "oQueSignificaNaAstrologia": "En astrología, una carta progresada está ligada a tu crecimiento interior y cambios. Muestra el movimiento lento de los planetas después de tu nacimiento y ayuda a entender sentimientos o ideas que van cambiando. Los astrólogos la usan para explorar cómo tu camino y estados de ánimo se desarrollan de forma suave, no para eventos repentinos, sino un progreso constante.",
+        "exemploFicticio": "María mira su carta progresada y nota que su Sol se mueve a una casa nueva. Se siente más lista para probar nuevos pasatiempos. Es como un suave empujón de sus estrellas para explorar, mientras hace sus tareas diarias.",
+        "faq": [
+          {
+            "pergunta": "¿Es una carta progresada diferente de mi carta astral?",
+            "resposta": "Sí, tu carta astral está fija en el momento de tu nacimiento, mientras que la carta progresada cambia lentamente con el tiempo."
+          },
+          {
+            "pergunta": "¿Puede una carta progresada predecir eventos exactos?",
+            "resposta": "No, sugiere cambios suaves en los sentimientos y crecimiento interior, no hechos futuros exactos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Gemini Traits",
+    "tituloSEO": "What are the traits of a Gemini? Simple Gemini Traits Guide",
+    "perguntaGoogle": "What are the traits of a gemini?",
+    "resumoUmaLinha": "Geminis are curious, talkative, and quick thinkers, often loving change and new ideas.",
+    "explicacaoEducativa": "Learn that Geminis are linked to communication and curiosity in astrology. They enjoy learning and talking.",
+    "chamadaCuriosa": "Why do Geminis love to learn and chat so much?",
+    "oQueSignifica": "Geminis are like friendly chatterboxes who love exploring new ideas. Imagine a kid who asks many questions and loves switching games often. They like being around people and sharing what they know. Sometimes they can be restless or change their mind fast, like flipping a light switch.",
+    "oQueSignificaNaAstrologia": "In astrology, Gemini is an air sign ruled by Mercury. It is linked to communication, learning, and flexibility. Geminis may find joy in connecting with others and trying new things. Their energy can be lively and curious, making them quick thinkers and good at seeing both sides of a story.",
+    "exemploFicticio": "Maria is a Gemini who loves talking to friends at school. She quickly switches between topics, from books to movies, and always asks many questions to learn more.",
+    "dicaRapida": "If you’re a Gemini, try writing down your ideas to keep track of your thoughts.",
+    "miniJogo": {
+      "pergunta": "If a Gemini friend suddenly changes plans, what should you do?",
+      "opcoes": [
+        {
+          "texto": "Be flexible and try the new plan.",
+          "correta": true,
+          "explicacao": "Geminis enjoy change, so being flexible helps keep things fun and easy."
+        },
+        {
+          "texto": "Insist on the original plan to keep things steady.",
+          "correta": false,
+          "explicacao": "Geminis usually prefer change, so insisting might cause frustration."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Are Geminis always talkative?",
+        "resposta": "In astrology, Geminis are linked to communication and often enjoy talking, but it can vary by person."
+      },
+      {
+        "pergunta": "Do Geminis get bored easily?",
+        "resposta": "Geminis like new ideas and change, so they may lose interest quickly if things feel too slow."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "mercurio-retrogrado",
+      "elementos-astrologicos"
+    ],
+    "id": "what-are-the-traits-of-a-gemini",
+    "slug": "what-are-the-traits-of-a-gemini",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Traços de Gêmeos",
+        "perguntaGoogle": "Quais são as características de um geminiano?",
+        "resumoUmaLinha": "Geminianos são curiosos, comunicativos e rápidos no raciocínio, adoram mudanças e novidades.",
+        "chamadaCuriosa": "Por que os geminianos amam aprender e conversar tanto?",
+        "oQueSignifica": "Geminianos são como tagarelas simpáticos que adoram explorar ideias novas. Imagine uma criança que faz muitas perguntas e gosta de trocar de brincadeira o tempo todo. Eles gostam de estar perto das pessoas e compartilhar o que sabem. Às vezes, podem ficar inquietos ou mudar de opinião rápido, como se acendesse e apagasse uma luz.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Gêmeos é um signo de ar regido por Mercúrio. Está ligado à comunicação, aprendizado e flexibilidade. Geminianos sentem prazer em se conectar com os outros e experimentar coisas novas. A energia deles é viva e curiosa, fazendo com que pensem rápido e consigam ver os dois lados da história.",
+        "exemploFicticio": "Maria é geminiana e adora conversar com os amigos na escola. Ela troca de assunto rápido, falando de livros, filmes, e sempre faz muitas perguntas para aprender mais.",
+        "faq": [
+          {
+            "pergunta": "Geminianos são sempre comunicativos?",
+            "resposta": "Na astrologia, geminianos têm ligação com a comunicação e costumam gostar de falar, mas isso pode variar de pessoa para pessoa."
+          },
+          {
+            "pergunta": "Geminianos se entediam fácil?",
+            "resposta": "Geminianos gostam de novidades e mudanças, por isso podem perder o interesse rápido se tudo parecer muito devagar."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Características de Géminis",
+        "perguntaGoogle": "¿Cuáles son las características de un géminis?",
+        "resumoUmaLinha": "Los géminis son curiosos, habladores y rápidos para pensar, con gusto por el cambio y las nuevas ideas.",
+        "chamadaCuriosa": "¿Por qué a los géminis les encanta aprender y platicar tanto?",
+        "oQueSignifica": "Los géminis son como charlatanes amigables que disfrutan explorar ideas nuevas. Imagina a un niño que hace muchas preguntas y cambia de juego seguido. Les gusta estar con gente y compartir lo que saben. A veces pueden ser inquietos o cambiar de opinión rápido, como si prendieran y apagaran una luz.",
+        "oQueSignificaNaAstrologia": "En astrología, Géminis es un signo de aire gobernado por Mercurio. Está relacionado con la comunicación, el aprendizaje y la flexibilidad. Los géminis suelen encontrar alegría al conectar con otros y probar cosas nuevas. Su energía es ágil y curiosa, lo que les hace buenos para pensar rápido y ver ambos lados de una historia.",
+        "exemploFicticio": "María es géminis y le encanta platicar con sus amigos en la escuela. Cambia rápido de tema, habla de libros o películas, y siempre hace muchas preguntas para aprender más.",
+        "faq": [
+          {
+            "pergunta": "¿Los géminis siempre son habladores?",
+            "resposta": "En astrología, los géminis están ligados a la comunicación y suelen disfrutar hablar, pero puede variar según la persona."
+          },
+          {
+            "pergunta": "¿Los géminis se aburren fácilmente?",
+            "resposta": "A los géminis les gustan las nuevas ideas y el cambio, por eso pueden perder interés rápido si las cosas van muy lento."
+          }
+        ]
+      }
+    }
   }
 ]

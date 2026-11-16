@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "resumo": {
-    "termosPublicados": 49,
-    "funcionando": 0,
-    "quase": 0,
-    "aparecendo": 6,
-    "semDados": 43,
-    "impressoes": 32,
+    "termosPublicados": 69,
+    "funcionando": 1,
+    "quase": 1,
+    "aparecendo": 5,
+    "semDados": 62,
+    "impressoes": 65,
     "cliques": 0
   },
   "metas": {
@@ -32,10 +32,10 @@
   "categorias": [
     {
       "categoria": "Chart Concepts",
-      "termos": 22,
-      "impressoes": 32,
+      "termos": 25,
+      "impressoes": 49,
       "cliques": 0,
-      "impressoesPorTermo": 1.5,
+      "impressoesPorTermo": 2,
       "boost": 1
     },
     {
@@ -56,10 +56,10 @@
     },
     {
       "categoria": "Signs & Elements",
-      "termos": 7,
-      "impressoes": 0,
+      "termos": 24,
+      "impressoes": 16,
       "cliques": 0,
-      "impressoesPorTermo": 0,
+      "impressoesPorTermo": 0.7,
       "boost": 1
     }
   ],
@@ -68,29 +68,39 @@
       "slug": "what-is-a-natal-chart",
       "termo": "Natal Chart",
       "categoria": "Chart Concepts",
-      "impressoes": 19,
+      "impressoes": 27,
       "cliques": 0,
       "melhorPosicao": 32,
       "buscasMensaisNoMundo": 3455610,
       "veredito": "aparecendo"
     },
     {
+      "slug": "what-does-gemini-mean-in-astrology",
+      "termo": "Gemini",
+      "categoria": "Signs & Elements",
+      "impressoes": 16,
+      "cliques": 0,
+      "melhorPosicao": 2,
+      "buscasMensaisNoMundo": 535250,
+      "veredito": "funcionando"
+    },
+    {
       "slug": "what-is-a-conjunction-in-astrology",
       "termo": "Conjunction",
       "categoria": "Chart Concepts",
-      "impressoes": 5,
+      "impressoes": 12,
       "cliques": 0,
-      "melhorPosicao": 83,
+      "melhorPosicao": 20,
       "buscasMensaisNoMundo": 4020,
-      "veredito": "aparecendo"
+      "veredito": "quase"
     },
     {
       "slug": "what-are-aspects-in-astrology",
       "termo": "Aspects",
       "categoria": "Chart Concepts",
-      "impressoes": 3,
+      "impressoes": 5,
       "cliques": 0,
-      "melhorPosicao": 91.5,
+      "melhorPosicao": 37,
       "buscasMensaisNoMundo": 0,
       "veredito": "aparecendo"
     },
@@ -123,6 +133,186 @@
       "melhorPosicao": 26,
       "buscasMensaisNoMundo": 0,
       "veredito": "aparecendo"
+    },
+    {
+      "slug": "what-are-zodiac-signs-in-astrology",
+      "termo": "Zodiac Signs",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 3090570,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-aries-mean-in-astrology",
+      "termo": "Aries",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 791030,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-libra-mean-in-astrology",
+      "termo": "Libra",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 522210,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-cancer-mean-in-astrology",
+      "termo": "Cancer",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 498900,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-aquarius-mean-in-astrology",
+      "termo": "Aquarius",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 431930,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-virgo-mean-in-astrology",
+      "termo": "Virgo",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 414980,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-are-air-signs-in-astrology",
+      "termo": "Air Signs",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 405090,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-scorpio-mean-in-astrology",
+      "termo": "Scorpio",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 397700,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-leo-mean-in-astrology",
+      "termo": "Leo",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 397100,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-are-water-signs-in-astrology",
+      "termo": "Water signs",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 330000,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-taurus-mean-in-astrology",
+      "termo": "Taurus",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 272890,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-capricorn-mean-in-astrology",
+      "termo": "Capricórnio",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 268760,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-pisces-mean-in-astrology",
+      "termo": "Pisces",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 265380,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-are-earth-signs-in-astrology",
+      "termo": "Earth Signs",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 221020,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-are-fire-signs-in-astrology",
+      "termo": "Fire Signs",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 171500,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-sagittarius-mean-in-astrology",
+      "termo": "Sagittarius",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 152180,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-vedic-astrology-in-astrology",
+      "termo": "Vedic astrology",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 89390,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-9th-house-mean-in-astrology",
+      "termo": "9th house",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 63260,
+      "veredito": "sem-dados"
     },
     {
       "slug": "what-does-10th-house-mean-in-astrology",
@@ -222,6 +412,16 @@
       "cliques": 0,
       "melhorPosicao": null,
       "buscasMensaisNoMundo": 10070,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-a-stellium-in-astrology",
+      "termo": "Stellium",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 9060,
       "veredito": "sem-dados"
     },
     {
