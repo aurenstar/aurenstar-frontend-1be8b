@@ -6,7 +6,23 @@ on:
 permissions:
   contents: write
 jobs:
+  # Factory gate: the n8n factory decides if this routine may run (pause + per-routine switch in the database). Manual runs always go.
+  porteiro:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.p.outputs.run }}
+    steps:
+      - id: p
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ] || [ "$EVENT" = "push" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          R=$(curl -sS --max-time 30 -X POST "https://bnetpqdpeufookvvsnaj.supabase.co/rest/v1/rpc/site_github_pode_rodar" -H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJuZXRwcWRwZXVmb29rdnZzbmFqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA0NjMyMjQsImV4cCI6MjEwNjAzOTIyNH0.wt2vuHS_f4DirYlqrly-6BcA6FsmeL9mwemWm12n6hk" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJuZXRwcWRwZXVmb29rdnZzbmFqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA0NjMyMjQsImV4cCI6MjEwNjAzOTIyNH0.wt2vuHS_f4DirYlqrly-6BcA6FsmeL9mwemWm12n6hk" -H "Content-Type: application/json" -d '{"p_job":"world_glossary"}' || echo '{"run":false,"motivo":"sem resposta da fabrica"}')
+          echo "Factory answer: $R"
+          if echo "$R" | grep -Eq '"run": *true'; then echo "run=true" >> "$GITHUB_OUTPUT"; else echo "run=false" >> "$GITHUB_OUTPUT"; fi
   build:
+    needs: porteiro
+    if: needs.porteiro.outputs.run == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
