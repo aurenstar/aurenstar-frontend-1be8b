@@ -671,8 +671,12 @@
     "wordpress": {
       "id": 657,
       "slug": "sagittarius-personality",
-      "modified": "2026-10-19T22:32:39"
-    }
+      "modified": "2026-11-16T15:10:04"
+    },
+    "related": [
+      "wp-1460",
+      "wp-1466"
+    ]
   },
   {
     "id": "wp-656",
@@ -6778,8 +6782,11 @@
     "wordpress": {
       "id": 1472,
       "slug": "how-aquarius-handles-financial-stress",
-      "modified": "2026-11-11T21:05:06"
-    }
+      "modified": "2026-11-16T15:10:04"
+    },
+    "related": [
+      "wp-1475"
+    ]
   },
   {
     "id": "wp-1466",
@@ -7079,8 +7086,11 @@
     "wordpress": {
       "id": 1466,
       "slug": "sagittarius-soulmate-sign",
-      "modified": "2026-11-10T16:30:08"
-    }
+      "modified": "2026-11-16T15:10:04"
+    },
+    "related": [
+      "wp-1460"
+    ]
   },
   {
     "id": "wp-1463",
@@ -7588,8 +7598,11 @@
     "wordpress": {
       "id": 1460,
       "slug": "sagittarius-hidden-talents",
-      "modified": "2026-11-10T16:30:08"
-    }
+      "modified": "2026-11-16T15:10:04"
+    },
+    "related": [
+      "wp-1466"
+    ]
   },
   {
     "id": "wp-1451",
@@ -11707,8 +11720,11 @@
     "wordpress": {
       "id": 1377,
       "slug": "capricorn-traits-personality-patterns",
-      "modified": "2026-11-06T13:22:18"
-    }
+      "modified": "2026-11-16T15:10:04"
+    },
+    "related": [
+      "wp-1463"
+    ]
   },
   {
     "id": "wp-1338",
