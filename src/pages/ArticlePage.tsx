@@ -315,6 +315,7 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
       authorTitle: 'Insights Aurenstar',
       takeaways: 'Principais Reflexões',
       continueReading: 'CONTINUE LENDO',
+      keepReading: 'Leia também',
       copiedToast: 'Link copiado com sucesso!',
       shareBtn: 'Compartilhar',
       bookmarkBtn: 'Salvar reflexão',
@@ -332,6 +333,7 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
       authorTitle: 'Aurenstar Insights',
       takeaways: 'Key Takeaways',
       continueReading: 'CONTINUE READING',
+      keepReading: 'Keep reading',
       copiedToast: 'Link copied successfully!',
       shareBtn: 'Share',
       bookmarkBtn: 'Save reflection',
@@ -349,6 +351,7 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
       authorTitle: 'Insights Aurenstar',
       takeaways: 'Puntos Clave',
       continueReading: 'CONTINÚA LEYENDO',
+      keepReading: 'Sigue leyendo',
       copiedToast: '¡Enlace copiado con éxito!',
       shareBtn: 'Compartir',
       bookmarkBtn: 'Guardar reflexión',
@@ -554,6 +557,31 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
               </ul>
             </div>
           ) : null}
+          {/* Keep reading: real links to related articles picked by the factory */}
+          {(() => {
+            const rel = (article.related || [])
+              .map((id) => BLOG_ARTICLES.find((a) => a.id === id))
+              .filter((a): a is NonNullable<typeof a> => !!a && a.id !== article.id);
+            if (!rel.length) return null;
+            return (
+              <nav aria-label={l.keepReading} className="my-10">
+                <h3 className="text-sm sm:text-base font-bold text-[#17366F] uppercase tracking-wider mb-3">{l.keepReading}</h3>
+                <ul className="space-y-2 list-disc pl-5">
+                  {rel.map((a) => (
+                    <li key={a.id} className="text-sm sm:text-base">
+                      <a
+                        href={`/blog/${getArticleSlugById(a.id)}`}
+                        onClick={onPlainClick(() => onSelectArticle(a.id))}
+                        className="text-[#3982C8] hover:underline"
+                      >
+                        {a.title[lang] || a.title.pt}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            );
+          })()}
         </div>
         </div>
 

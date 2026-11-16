@@ -50,6 +50,20 @@ function sectionsFrom(rawHtml: string) {
   return sections.filter((s) => s.paragraphs.length);
 }
 
+/** The "Keep reading" list written by the factory: keep only the WordPress slugs it points to (turned into real links later). */
+function relatedSlugsFrom(raw: string): string[] {
+  const block =
+    raw.match(/<!--\s*aurenstar-leia-tambem\s*-->([\s\S]*?)<!--\s*\/aurenstar-leia-tambem\s*-->/i)?.[1] ||
+    raw.match(/<h3[^>]*>\s*Keep reading\s*<\/h3>\s*(<ul[\s\S]*?<\/ul>)/i)?.[1] ||
+    '';
+  const out: string[] = [];
+  for (const m of block.matchAll(/href=["']([^"']+)["']/gi)) {
+    const seg = m[1].split(/[?#]/)[0].replace(/\/+$/, '').split('/').pop();
+    if (seg && !out.includes(seg)) out.push(seg);
+  }
+  return out;
+}
+
 const CATEGORY: Record<string, { key: string; en: string; pt: string; es: string; color: string }> = {
   guide: { key: 'GUIA DOS SIGNOS', en: 'ZODIAC GUIDE', pt: 'GUIA DOS SIGNOS', es: 'GUÍA ZODIACAL', color: 'bg-[#3982C8] text-white' },
   wellness: { key: 'BEM-ESTAR', en: 'WELLNESS', pt: 'BEM-ESTAR', es: 'BIENESTAR', color: 'bg-[#10B981] text-white' },
@@ -150,7 +164,15 @@ async function main() {
       sections: sections.map((s) => ({ heading: { pt: s.heading, en: s.heading, es: s.heading }, paragraphs: s.paragraphs.map((t) => ({ pt: t, en: t, es: t })) })),
       keyTakeaways: { pt: [], en: [], es: [] },
       wordpress: { id: p.id, slug: p.slug, modified: p.modified_gmt || p.modified },
+      _rel: relatedSlugsFrom(p.content?.rendered || ''),
     });
+  }
+  // "Keep reading": WordPress slugs -> ids of articles that exist on the site
+  const idBySlug = new Map<string, string>(articles.map((a) => [a.wordpress.slug, a.id]));
+  for (const a of articles) {
+    const ids = (a._rel as string[]).map((sl) => idBySlug.get(sl)).filter((id): id is string => !!id && id !== a.id).slice(0, 6);
+    delete a._rel;
+    if (ids.length) a.related = ids;
   }
   articles.sort((a, b) => (a.id < b.id ? 1 : -1));
   // safety: never silently drop published articles (a stale list would delete live pages)

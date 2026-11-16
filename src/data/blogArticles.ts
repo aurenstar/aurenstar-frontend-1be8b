@@ -76,6 +76,8 @@ export interface BlogArticleContent {
     es: string[];
   };
   zodiacSigns?: string[];
+  /** ids of other articles the author picked as "keep reading" (real links on the page) */
+  related?: string[];
 }
 
 
