@@ -47,18 +47,21 @@ export function checkStory(s: WebStory): string[] {
 const BOILERPLATE =
   '<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>';
 
+// Look of the site: blue background (#C9E5FF family), white rounded cards, blue headings (#3982C8, Montserrat 800), pink accents (#E73578), navy text (#172B4D), pill shapes.
 const CSS = `
-amp-story{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#fff}
-.k{font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:#FBE1EB;margin:0 0 10px;font-weight:600}
-h1,h2{margin:0 0 14px;line-height:1.12;font-weight:700;text-shadow:0 2px 14px rgba(8,20,50,.55)}
-h1{font-size:40px}
-h2{font-size:32px}
-p{margin:0;font-size:21px;line-height:1.4;text-shadow:0 2px 12px rgba(8,20,50,.6)}
-.hint{margin-top:26px;font-size:15px;opacity:.85}
-.card{background:rgba(23,54,111,.55);padding:22px 20px;border-radius:16px}
-.low{padding:28px 28px 96px;align-content:end}
-.brand{position:absolute;top:28px;left:28px;font-size:14px;letter-spacing:.2em;font-weight:700;color:#fff;opacity:.9}
-.cta{font-size:24px;font-weight:700}
+amp-story{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#172B4D}
+.low{padding:28px 24px 96px;align-content:end}
+.logo{position:absolute;top:26px;left:20px;background:#fff;border-radius:999px;padding:6px 14px;box-shadow:0 4px 14px rgba(23,54,111,.25)}
+.card{background:rgba(255,255,255,.95);border:1px solid #D9E8F8;border-radius:28px;padding:26px 24px 28px;box-shadow:0 10px 30px rgba(23,54,111,.25)}
+.k{display:inline-block;margin:0 0 14px;padding:6px 14px;border-radius:999px;background:#E73578;color:#fff;font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:700}
+h1,h2{margin:0 0 12px;line-height:1.1;font-family:Montserrat,-apple-system,"Segoe UI",Arial,sans-serif;font-weight:800;color:#3982C8}
+h1{font-size:36px}
+h2{font-size:30px}
+.pk{color:#E73578}
+p{margin:0;font-size:20px;line-height:1.4;color:#172B4D}
+.sub{color:#647DA5}
+.hint{margin-top:18px;font-size:15px;color:#E73578;font-weight:700}
+.cta{font-size:28px}
 `;
 
 /** The full AMP page for one story. `site` is the origin, e.g. https://aurenstar.com */
@@ -66,25 +69,28 @@ export function renderWebStory(s: WebStory, site: string): string {
   const url = `${site}${storyPath(s)}`;
   const loc = LOCALE[s.lang] || s.lang;
   const img = (src: string, alt = '') => `<amp-img src="${esc(src)}" width="720" height="1280" layout="responsive" alt="${esc(alt)}"></amp-img>`;
+  const logo = `<div class="logo"><amp-img src="${esc(site + '/logo-aurenstar.webp')}" width="108" height="36" layout="fixed" alt="Aurenstar"></amp-img></div>`;
   const cover = `<amp-story-page id="cover">
 <amp-story-grid-layer template="fill">${img(s.sign ? coverPath(s.sign) : bgPath(s.theme))}</amp-story-grid-layer>
 <amp-story-grid-layer template="vertical" class="low">
-<p class="brand">AURENSTAR</p>
-<div><h1>${esc(s.title)}</h1><p>${esc(s.description)}</p>${s.swipe ? `<p class="hint">${esc(s.swipe)} →</p>` : ''}</div>
+${logo}
+<div class="card"><h1>${esc(s.title)}</h1><p class="sub">${esc(s.description)}</p>${s.swipe ? `<p class="hint">${esc(s.swipe)} →</p>` : ''}</div>
 </amp-story-grid-layer>
 </amp-story-page>`;
   const pages = s.pages.map((g, i) => `<amp-story-page id="p${i + 1}">
 <amp-story-grid-layer template="fill">${img(bgPath(g.theme))}</amp-story-grid-layer>
 <amp-story-grid-layer template="vertical" class="low">
+${logo}
 <div class="card">${g.kicker ? `<p class="k">${esc(g.kicker)}</p>` : ''}<h2>${esc(g.title)}</h2><p>${esc(g.text)}</p></div>
 </amp-story-grid-layer>
 </amp-story-page>`).join('\n');
   const last = `<amp-story-page id="end">
 <amp-story-grid-layer template="fill">${img(bgPath('night'))}</amp-story-grid-layer>
 <amp-story-grid-layer template="vertical" class="low">
+${logo}
 <div class="card"><h2 class="cta">${esc(s.cta.text)}</h2></div>
 </amp-story-grid-layer>
-<amp-story-page-outlink layout="nodisplay"><a href="${esc(s.cta.url.startsWith('/') ? site + s.cta.url : s.cta.url)}">${esc(s.cta.label)}</a></amp-story-page-outlink>
+<amp-story-page-outlink layout="nodisplay" theme="custom" cta-accent-color="#E73578" cta-accent-element="background"><a href="${esc(s.cta.url.startsWith('/') ? site + s.cta.url : s.cta.url)}">${esc(s.cta.label)}</a></amp-story-page-outlink>
 </amp-story-page>`;
   const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: s.title, description: s.description, datePublished: s.date, dateModified: s.date, inLanguage: loc, mainEntityOfPage: url, image: `${site}${posterPath(s)}`, author: { '@type': 'Organization', name: 'Aurenstar' }, publisher: { '@type': 'Organization', name: 'Aurenstar', logo: { '@type': 'ImageObject', url: `${site}${LOGO}` } } };
   return `<!doctype html>
@@ -93,6 +99,7 @@ export function renderWebStory(s: WebStory, site: string): string {
 <meta charset="utf-8">
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap" rel="stylesheet">
 <title>${esc(s.title)} | Aurenstar</title>
 <link rel="canonical" href="${esc(url)}">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">

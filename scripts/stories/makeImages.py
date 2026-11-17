@@ -6,13 +6,15 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 OUT = 'public/stories/img'
 os.makedirs(OUT, exist_ok=True)
-THEMES = {  # top colour, bottom colour (Aurenstar blues and pink, darker at the bottom so white text reads well)
-    'fire': ((231, 53, 120), (92, 24, 70)),
-    'earth': ((47, 120, 100), (16, 52, 56)),
-    'air': ((91, 163, 232), (23, 54, 111)),
-    'water': ((57, 130, 200), (14, 34, 80)),
-    'night': ((23, 54, 111), (8, 17, 46)),
+THEMES = {  # three colours from top to bottom, taken from the site (azul-principal #3982C8, azul-escuro #17366F, rosa #E73578, fundo #C9E5FF):
+    # dark enough at the top for the white Google story controls, light at the bottom for the white text cards
+    'fire': ((231, 53, 120), (245, 156, 187), (251, 225, 235)),
+    'water': ((57, 130, 200), (143, 193, 240), (201, 229, 255)),
+    'air': ((91, 163, 232), (181, 216, 248), (228, 241, 255)),
+    'earth': ((23, 54, 111), (57, 130, 200), (201, 229, 255)),
+    'night': ((23, 54, 111), (43, 90, 168), (143, 193, 240)),
 }
+NAVY = (23, 54, 111)
 SIGNS = {  # key: (zodiac symbol, element theme)
     'aries': ('♈', 'fire'), 'touro': ('♉', 'earth'), 'gemeos': ('♊', 'air'), 'cancer': ('♋', 'water'),
     'leao': ('♌', 'fire'), 'virgem': ('♍', 'earth'), 'libra': ('♎', 'air'), 'escorpiao': ('♏', 'water'),
@@ -21,12 +23,14 @@ SIGNS = {  # key: (zodiac symbol, element theme)
 FONT = '/usr/share/fonts/opentype/inter/Inter-Bold.otf'
 SYMBOLS = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
 
-def base(w, h, top, bot, seed, rings=True):
+def base(w, h, cols, seed, rings=True):
+    top, mid, bot = cols
     im = Image.new('RGB', (w, h))
     d = ImageDraw.Draw(im)
     for y in range(h):
         t = y / (h - 1)
-        d.line([(0, y), (w, y)], fill=tuple(int(top[i] + (bot[i] - top[i]) * t) for i in range(3)))
+        a, b, u = (top, mid, t / .55) if t < .55 else (mid, bot, (t - .55) / .45)
+        d.line([(0, y), (w, y)], fill=tuple(int(a[i] + (b[i] - a[i]) * u) for i in range(3)))
     im = im.convert('RGBA')
     rnd = random.Random(seed)
     ov = Image.new('RGBA', (w, h), (0, 0, 0, 0))
@@ -47,8 +51,7 @@ def base(w, h, top, bot, seed, rings=True):
     d = ImageDraw.Draw(im)
     for _ in range(70):  # small stars
         x, y, rs = rnd.randint(0, w), rnd.randint(0, h), rnd.choice([1, 1, 2, 2, 3])
-        a = rnd.randint(150, 250)
-        d.ellipse([x - rs, y - rs, x + rs, y + rs], fill=(a, a, a, 255))
+        d.ellipse([x - rs, y - rs, x + rs, y + rs], fill=(255, 255, 255, 255))
     return im
 
 def glyph(im, ch, size, cx, cy, alpha):
@@ -59,12 +62,11 @@ def glyph(im, ch, size, cx, cy, alpha):
     d.text((cx - (b[0] + b[2]) / 2, cy - (b[1] + b[3]) / 2), ch, font=f, fill=(255, 255, 255, alpha))
     return Image.alpha_composite(im, ov)
 
-for name, (top, bot) in THEMES.items():
-    base(720, 1280, top, bot, name).convert('RGB').save(f'{OUT}/bg-{name}.webp', quality=78)
+for name, cols in THEMES.items():
+    base(720, 1280, cols, name).convert('RGB').save(f'{OUT}/bg-{name}.webp', quality=78)
 
 for key, (ch, theme) in SIGNS.items():
-    top, bot = THEMES[theme]
-    im = base(720, 1280, top, bot, 'cover-' + key)
+    im = base(720, 1280, THEMES[theme], 'cover-' + key)
     im = glyph(im, ch, 440, 360, 300, 215)
     im.convert('RGB').save(f'{OUT}/cover-{key}.webp', quality=80)
 
@@ -78,8 +80,8 @@ def wrap(draw, text, font, width):
 
 # language-neutral poster per sign (used by stories the robot writes in other languages: no text, so every script works)
 for key, (ch, theme) in SIGNS.items():
-    top, bot = THEMES[theme]
-    im = base(640, 853, top, bot, 'poster-' + key)
+    c = THEMES[theme]
+    im = base(640, 853, (c[0], c[1], NAVY), 'poster-' + key)
     im = glyph(im, ch, 330, 320, 380, 215)
     ImageDraw.Draw(im).text((48, 52), 'AURENSTAR', font=ImageFont.truetype(FONT, 22), fill=(255, 255, 255))
     im.convert('RGB').save(f'{OUT}/poster-sign-{key}.webp', quality=80)
@@ -87,8 +89,8 @@ for key, (ch, theme) in SIGNS.items():
 for f in sorted(glob.glob('data/stories/*/*.json')):
     s = json.load(open(f, encoding='utf-8'))
     if s['lang'] not in ('pt', 'en', 'es'): continue  # other languages use the poster of the sign
-    top, bot = THEMES[s['theme']]
-    im = base(640, 853, top, bot, s['slug'])
+    c = THEMES[s['theme']]
+    im = base(640, 853, (c[0], c[1], NAVY), s['slug'])
     if s.get('sign') in SIGNS:
         im = glyph(im, SIGNS[s['sign']][0], 330, 320, 250, 215)
     d = ImageDraw.Draw(im)
