@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { renderWebStory, checkStory, storyPath, posterPath, type WebStory } from '../server/engine/webStory';
+import { renderWebStory, checkStory, storyPath, posterPath, coverPath, SIGNS, type WebStory } from '../server/engine/webStory';
 
 let failed = 0;
 const ok = (name: string, cond: boolean) => { if (!cond) { failed++; console.log('FAIL', name); } else console.log('ok  ', name); };
@@ -23,6 +23,8 @@ for (const s of all) {
   ok(`story ${s.lang}/${s.slug}: last page links to the tool`, html.includes('<amp-story-page-outlink') && html.includes(`href="${SITE}${s.cta.url}"`));
   ok(`story ${s.lang}/${s.slug}: no script besides the AMP ones and JSON-LD`, (html.match(/<script(?![^>]*(ampproject|ld\+json))/g) || []).length === 0);
 }
+ok('stories: the 12 signs each have a story in pt and en', SIGNS.every((k) => ['pt', 'en'].every((l) => all.some((s) => s.lang === l && s.sign === k))));
+for (const s of all.filter((x) => x.sign)) ok(`story ${s.lang}/${s.slug}: cover with the sign symbol exists and is used`, fs.existsSync(path.join(__dirname, '..', 'public', coverPath(s.sign as string))) && renderWebStory(s, SITE).includes(coverPath(s.sign as string)));
 ok('stories: slugs are unique per language', new Set(all.map((s) => `${s.lang}/${s.slug}`)).size === all.length);
 ok('check: too few pages is rejected', checkStory({ ...all[0], pages: all[0].pages.slice(0, 2) }).length > 0);
 ok('check: a long page text is rejected', checkStory({ ...all[0], pages: all[0].pages.map((p) => ({ ...p, text: 'x'.repeat(300) })) }).length > 0);
