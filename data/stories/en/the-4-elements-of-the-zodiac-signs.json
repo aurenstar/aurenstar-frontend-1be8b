@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "the-4-elements-of-the-zodiac-signs",
+  "date": "2026-11-17",
+  "title": "The 4 elements of the zodiac signs",
+  "description": "Fire, earth, air and water: see what each element says about the way each sign behaves.",
+  "theme": "fire",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Fire",
+      "title": "Aries, Leo and Sagittarius",
+      "text": "Energy, courage and drive. People with a lot of fire start things with enthusiasm and hate waiting."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Earth",
+      "title": "Taurus, Virgo and Capricorn",
+      "text": "Practical, patient and steady. People with a lot of earth like concrete results and security."
+    },
+    {
+      "theme": "air",
+      "kicker": "Air",
+      "title": "Gemini, Libra and Aquarius",
+      "text": "Ideas, conversation and curiosity. People with a lot of air think fast and need to talk things through."
+    },
+    {
+      "theme": "water",
+      "kicker": "Water",
+      "title": "Cancer, Scorpio and Pisces",
+      "text": "Emotion, intuition and sensitivity. People with a lot of water feel the mood of a room before anyone speaks."
+    },
+    {
+      "theme": "night",
+      "kicker": "And yours?",
+      "title": "Your chart mixes all four",
+      "text": "Nobody is only one element. Your birth chart shows the exact mix, and it explains a lot."
+    }
+  ],
+  "cta": {
+    "text": "Find your sign and your element",
+    "label": "Open the tool",
+    "url": "/discover-sign"
+  }
+}

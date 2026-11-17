@@ -1,0 +1,40 @@
+{
+  "lang": "pt",
+  "slug": "sol-lua-e-ascendente",
+  "date": "2026-11-17",
+  "title": "Sol, Lua e Ascendente",
+  "description": "Os três pontos que mais explicam a sua personalidade no mapa astral.",
+  "theme": "water",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Sol",
+      "title": "Quem você é",
+      "text": "O signo do Sol é o que todo mundo conhece. Mostra a sua essência, a sua vontade e o seu jeito de brilhar."
+    },
+    {
+      "theme": "water",
+      "kicker": "Lua",
+      "title": "O que você sente",
+      "text": "A Lua mostra as emoções, o que acalma você e o que faz você se sentir em casa."
+    },
+    {
+      "theme": "air",
+      "kicker": "Ascendente",
+      "title": "Como você aparece",
+      "text": "O ascendente é a primeira impressão e a forma como você se apresenta ao mundo."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Juntos",
+      "title": "Três peças, uma personalidade",
+      "text": "Sol, Lua e ascendente se misturam. É por isso que duas pessoas do mesmo signo podem ser tão diferentes."
+    }
+  ],
+  "cta": {
+    "text": "Comece pelo seu signo do Sol",
+    "label": "Abrir a ferramenta",
+    "url": "/pt/discover-sign"
+  }
+}

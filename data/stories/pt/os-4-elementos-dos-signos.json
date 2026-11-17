@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "os-4-elementos-dos-signos",
+  "date": "2026-11-17",
+  "title": "Os 4 elementos dos signos",
+  "description": "Fogo, terra, ar e água: veja o que cada elemento diz sobre o jeito de ser de cada signo.",
+  "theme": "fire",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Fogo",
+      "title": "Áries, Leão e Sagitário",
+      "text": "Energia, coragem e iniciativa. Quem tem muito fogo começa as coisas com entusiasmo e não gosta de esperar."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Terra",
+      "title": "Touro, Virgem e Capricórnio",
+      "text": "Praticidade, paciência e constância. Quem tem muita terra gosta de resultado concreto e de segurança."
+    },
+    {
+      "theme": "air",
+      "kicker": "Ar",
+      "title": "Gêmeos, Libra e Aquário",
+      "text": "Ideias, conversa e curiosidade. Quem tem muito ar pensa rápido e precisa trocar com as pessoas."
+    },
+    {
+      "theme": "water",
+      "kicker": "Água",
+      "title": "Câncer, Escorpião e Peixes",
+      "text": "Emoção, intuição e sensibilidade. Quem tem muita água sente o clima do ambiente antes de qualquer palavra."
+    },
+    {
+      "theme": "night",
+      "kicker": "E o seu?",
+      "title": "Seu mapa mistura os quatro",
+      "text": "Ninguém é só um elemento. O mapa astral mostra a mistura exata, e ela explica muita coisa."
+    }
+  ],
+  "cta": {
+    "text": "Descubra o seu signo e o seu elemento",
+    "label": "Abrir a ferramenta",
+    "url": "/pt/discover-sign"
+  }
+}

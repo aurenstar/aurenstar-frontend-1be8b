@@ -1,0 +1,40 @@
+{
+  "lang": "en",
+  "slug": "sun-moon-and-rising-sign",
+  "date": "2026-11-17",
+  "title": "Sun, Moon and Rising sign",
+  "description": "The three points that explain most of your personality in a birth chart.",
+  "theme": "water",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Sun",
+      "title": "Who you are",
+      "text": "Your Sun sign is the one everyone knows. It shows your core, your drive and the way you shine."
+    },
+    {
+      "theme": "water",
+      "kicker": "Moon",
+      "title": "What you feel",
+      "text": "The Moon shows your emotions, what calms you down and what makes you feel at home."
+    },
+    {
+      "theme": "air",
+      "kicker": "Rising",
+      "title": "How you appear",
+      "text": "The rising sign is your first impression and the way you introduce yourself to the world."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Together",
+      "title": "Three pieces, one personality",
+      "text": "Sun, Moon and rising sign blend together. That is why two people with the same sign can be so different."
+    }
+  ],
+  "cta": {
+    "text": "Start with your Sun sign",
+    "label": "Open the tool",
+    "url": "/discover-sign"
+  }
+}
