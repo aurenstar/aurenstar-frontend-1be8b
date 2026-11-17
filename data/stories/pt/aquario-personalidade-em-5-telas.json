@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "aquario-personalidade-em-5-telas",
+  "date": "2026-11-17",
+  "title": "Aquário: o que você precisa saber",
+  "description": "O essencial sobre Aquário em poucas telas: pontos fortes, desafios, amor e trabalho.",
+  "theme": "air",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Quem é",
+      "title": "Aquário: o básico",
+      "text": "Datas aproximadas: 20/1 a 18/2. Elemento ar, modalidade fixa, regido por Urano (e Saturno na astrologia clássica)."
+    },
+    {
+      "theme": "air",
+      "kicker": "Ponto forte",
+      "title": "Originalidade",
+      "text": "Aquário pensa diferente, valoriza a liberdade e traz ideias que ninguém tinha considerado."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ponto de atenção",
+      "title": "Distância",
+      "text": "Pode parecer frio ou desapegado quando precisa pensar. Dizer o que sente aproxima."
+    },
+    {
+      "theme": "air",
+      "kicker": "No amor",
+      "title": "Amizade primeiro",
+      "text": "Gosta de conexão mental e de respeito ao espaço. O amor cresce sobre a parceria."
+    },
+    {
+      "theme": "night",
+      "kicker": "No trabalho",
+      "title": "Quem inova",
+      "text": "Vai bem em tecnologia, causas coletivas e projetos que mudam o jeito de fazer as coisas."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Aquário a fundo?",
+    "label": "Ler o artigo completo",
+    "url": "/pt/blog/aquarius-personality-why-this-sign-thinks-differently"
+  }
+}

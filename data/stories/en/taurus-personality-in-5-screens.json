@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "taurus-personality-in-5-screens",
+  "date": "2026-11-17",
+  "title": "Taurus: what to know",
+  "description": "The essentials of Taurus in a few screens: strengths, challenges, love and work.",
+  "theme": "earth",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "The basics",
+      "title": "Taurus: the basics",
+      "text": "Approximate dates: Apr 20 - May 20. Earth element, fixed quality, ruled by Venus."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Strength",
+      "title": "Steadiness",
+      "text": "Taurus builds slowly and firmly. What they promise, they usually deliver."
+    },
+    {
+      "theme": "night",
+      "kicker": "Watch out",
+      "title": "Stubbornness",
+      "text": "Once decided, it is hard to change their mind. Hearing another view avoids fights over pride."
+    },
+    {
+      "theme": "earth",
+      "kicker": "In love",
+      "title": "Loyal and sensual",
+      "text": "Values affection, presence and real gestures. Trust comes with time."
+    },
+    {
+      "theme": "night",
+      "kicker": "At work",
+      "title": "The one who sustains",
+      "text": "Patient and reliable, good with money, details and long-term goals."
+    }
+  ],
+  "cta": {
+    "text": "Want to know Taurus in depth?",
+    "label": "Read the full article",
+    "url": "/blog/taurus-traits-what-shapes-this-steadfast-sign"
+  }
+}

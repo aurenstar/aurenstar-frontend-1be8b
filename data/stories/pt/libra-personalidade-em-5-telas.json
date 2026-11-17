@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "libra-personalidade-em-5-telas",
+  "date": "2026-11-17",
+  "title": "Libra: o que você precisa saber",
+  "description": "O essencial sobre Libra em poucas telas: pontos fortes, desafios, amor e trabalho.",
+  "theme": "air",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Quem é",
+      "title": "Libra: o básico",
+      "text": "Datas aproximadas: 23/9 a 22/10. Elemento ar, modalidade cardinal, regido por Vênus."
+    },
+    {
+      "theme": "air",
+      "kicker": "Ponto forte",
+      "title": "Equilíbrio",
+      "text": "Libra enxerga os dois lados, busca harmonia e tem jeito para mediar conflitos."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ponto de atenção",
+      "title": "Indecisão",
+      "text": "Pesar demais as opções pode atrasar escolhas. Definir um prazo ajuda."
+    },
+    {
+      "theme": "air",
+      "kicker": "No amor",
+      "title": "Parceria",
+      "text": "Valoriza gentileza, beleza e reciprocidade. Quer um relacionamento de igual para igual."
+    },
+    {
+      "theme": "night",
+      "kicker": "No trabalho",
+      "title": "Quem une",
+      "text": "Vai bem em equipe, negociação, design e atendimento, onde a diplomacia faz diferença."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Libra a fundo?",
+    "label": "Ler o artigo completo",
+    "url": "/pt/blog/libra-personality-why-this-sign-sees-every-side"
+  }
+}

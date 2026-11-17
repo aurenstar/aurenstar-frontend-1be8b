@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "peixes-personalidade-em-5-telas",
+  "date": "2026-11-17",
+  "title": "Peixes: o que você precisa saber",
+  "description": "O essencial sobre Peixes em poucas telas: pontos fortes, desafios, amor e trabalho.",
+  "theme": "water",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Quem é",
+      "title": "Peixes: o básico",
+      "text": "Datas aproximadas: 19/2 a 20/3. Elemento água, modalidade mutável, regido por Netuno (e Júpiter na astrologia clássica)."
+    },
+    {
+      "theme": "water",
+      "kicker": "Ponto forte",
+      "title": "Sensibilidade",
+      "text": "Quem é de Peixes tem imaginação, empatia e uma intuição que capta o que ninguém disse."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ponto de atenção",
+      "title": "Fuga",
+      "text": "Quando o mundo pesa, pode se refugiar nos sonhos. Rotina e limites ajudam a manter os pés no chão."
+    },
+    {
+      "theme": "water",
+      "kicker": "No amor",
+      "title": "Romântico",
+      "text": "Ama com entrega, poesia e compaixão. Precisa de ternura e de se sentir compreendido."
+    },
+    {
+      "theme": "night",
+      "kicker": "No trabalho",
+      "title": "Quem inspira",
+      "text": "Vai bem em arte, cuidado, música e áreas onde empatia e criatividade contam."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Peixes a fundo?",
+    "label": "Ler o artigo completo",
+    "url": "/pt/blog/pisces-personality-the-depth-behind-the-dreamy-side"
+  }
+}

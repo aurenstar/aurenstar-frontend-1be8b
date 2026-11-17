@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "cancer-personality-in-5-screens",
+  "date": "2026-11-17",
+  "title": "Cancer: what to know",
+  "description": "The essentials of Cancer in a few screens: strengths, challenges, love and work.",
+  "theme": "water",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "The basics",
+      "title": "Cancer: the basics",
+      "text": "Approximate dates: Jun 21 - Jul 22. Water element, cardinal quality, ruled by the Moon."
+    },
+    {
+      "theme": "water",
+      "kicker": "Strength",
+      "title": "Care",
+      "text": "Cancer senses what others feel and creates a safe place for the people they love."
+    },
+    {
+      "theme": "night",
+      "kicker": "Watch out",
+      "title": "Sensitivity",
+      "text": "Can take things personally and withdraw. Saying how they feel avoids stored-up hurt."
+    },
+    {
+      "theme": "water",
+      "kicker": "In love",
+      "title": "Affection and protection",
+      "text": "Wants a bond, everyday tenderness and loyalty. Opens up little by little."
+    },
+    {
+      "theme": "night",
+      "kicker": "At work",
+      "title": "The one who welcomes",
+      "text": "Looks after teams and clients and remembers details others forget."
+    }
+  ],
+  "cta": {
+    "text": "Want to know Cancer in depth?",
+    "label": "Read the full article",
+    "url": "/blog/cancer-zodiac-traits-personality-insights-explained"
+  }
+}

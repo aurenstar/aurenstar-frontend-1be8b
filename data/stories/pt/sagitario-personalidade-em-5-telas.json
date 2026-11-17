@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "sagitario-personalidade-em-5-telas",
+  "date": "2026-11-17",
+  "title": "Sagitário: o que você precisa saber",
+  "description": "O essencial sobre Sagitário em poucas telas: pontos fortes, desafios, amor e trabalho.",
+  "theme": "fire",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Quem é",
+      "title": "Sagitário: o básico",
+      "text": "Datas aproximadas: 22/11 a 21/12. Elemento fogo, modalidade mutável, regido por Júpiter."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Ponto forte",
+      "title": "Otimismo",
+      "text": "Sagitário enxerga possibilidades, gosta de aprender e contagia com entusiasmo."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ponto de atenção",
+      "title": "Franqueza demais",
+      "text": "Falar sem filtro pode ferir sem querer. Um pouco de tato mantém a honestidade."
+    },
+    {
+      "theme": "fire",
+      "kicker": "No amor",
+      "title": "Liberdade",
+      "text": "Precisa de espaço e aventura. Gosta de quem cresce junto e não prende."
+    },
+    {
+      "theme": "night",
+      "kicker": "No trabalho",
+      "title": "Quem amplia",
+      "text": "Vai bem com viagens, ensino, comunicação e projetos que abrem horizontes."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Sagitário a fundo?",
+    "label": "Ler o artigo completo",
+    "url": "/pt/blog/sagittarius-personality-why-this-sign-needs-room-to-grow"
+  }
+}

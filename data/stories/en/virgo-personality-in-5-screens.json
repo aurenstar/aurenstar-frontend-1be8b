@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "virgo-personality-in-5-screens",
+  "date": "2026-11-17",
+  "title": "Virgo: what to know",
+  "description": "The essentials of Virgo in a few screens: strengths, challenges, love and work.",
+  "theme": "earth",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "The basics",
+      "title": "Virgo: the basics",
+      "text": "Approximate dates: Aug 23 - Sep 22. Earth element, mutable quality, ruled by Mercury."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Strength",
+      "title": "Attention",
+      "text": "Virgo notices what goes unseen, organizes and improves whatever they touch."
+    },
+    {
+      "theme": "night",
+      "kicker": "Watch out",
+      "title": "Self-criticism",
+      "text": "The search for perfect can turn into too much pressure. Accepting good enough brings relief."
+    },
+    {
+      "theme": "earth",
+      "kicker": "In love",
+      "title": "Care in the details",
+      "text": "Shows love through practical acts and attention to detail, more than big speeches."
+    },
+    {
+      "theme": "night",
+      "kicker": "At work",
+      "title": "The one who refines",
+      "text": "Reliable and analytical, great for processes, health, review and planning."
+    }
+  ],
+  "cta": {
+    "text": "Want to know Virgo in depth?",
+    "label": "Read the full article",
+    "url": "/blog/virgo-personality-why-this-sign-notices-what-others-miss"
+  }
+}

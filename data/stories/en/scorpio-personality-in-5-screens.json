@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "scorpio-personality-in-5-screens",
+  "date": "2026-11-17",
+  "title": "Scorpio: what to know",
+  "description": "The essentials of Scorpio in a few screens: strengths, challenges, love and work.",
+  "theme": "water",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "The basics",
+      "title": "Scorpio: the basics",
+      "text": "Approximate dates: Oct 23 - Nov 21. Water element, fixed quality, ruled by Pluto (and Mars in classical astrology)."
+    },
+    {
+      "theme": "water",
+      "kicker": "Strength",
+      "title": "Depth",
+      "text": "Scorpio is focused, intense and goes to the bottom of things, never settling for the surface."
+    },
+    {
+      "theme": "night",
+      "kicker": "Watch out",
+      "title": "Distrust",
+      "text": "Can hold grudges and test others. Trusting step by step avoids needless distance."
+    },
+    {
+      "theme": "water",
+      "kicker": "In love",
+      "title": "All or nothing",
+      "text": "Gives themselves fully, but only after trusting. Expects total loyalty."
+    },
+    {
+      "theme": "night",
+      "kicker": "At work",
+      "title": "The one who investigates",
+      "text": "Focused and resilient. Shines in research, strategy, analysis and high-pressure moments."
+    }
+  ],
+  "cta": {
+    "text": "Want to know Scorpio in depth?",
+    "label": "Read the full article",
+    "url": "/blog/scorpio-personality-traits-explained"
+  }
+}

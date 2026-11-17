@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "sagittarius-personality-in-5-screens",
+  "date": "2026-11-17",
+  "title": "Sagittarius: what to know",
+  "description": "The essentials of Sagittarius in a few screens: strengths, challenges, love and work.",
+  "theme": "fire",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "The basics",
+      "title": "Sagittarius: the basics",
+      "text": "Approximate dates: Nov 22 - Dec 21. Fire element, mutable quality, ruled by Jupiter."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Strength",
+      "title": "Optimism",
+      "text": "Sagittarius sees possibilities, loves to learn and spreads enthusiasm."
+    },
+    {
+      "theme": "night",
+      "kicker": "Watch out",
+      "title": "Too frank",
+      "text": "Speaking without a filter can hurt without meaning to. A little tact keeps the honesty."
+    },
+    {
+      "theme": "fire",
+      "kicker": "In love",
+      "title": "Freedom",
+      "text": "Needs space and adventure. Likes a partner who grows alongside and does not cling."
+    },
+    {
+      "theme": "night",
+      "kicker": "At work",
+      "title": "The one who expands",
+      "text": "Does well with travel, teaching, communication and projects that widen horizons."
+    }
+  ],
+  "cta": {
+    "text": "Want to know Sagittarius in depth?",
+    "label": "Read the full article",
+    "url": "/blog/sagittarius-personality-why-this-sign-needs-room-to-grow"
+  }
+}

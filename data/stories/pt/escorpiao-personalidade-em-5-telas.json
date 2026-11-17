@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "escorpiao-personalidade-em-5-telas",
+  "date": "2026-11-17",
+  "title": "Escorpião: o que você precisa saber",
+  "description": "O essencial sobre Escorpião em poucas telas: pontos fortes, desafios, amor e trabalho.",
+  "theme": "water",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Quem é",
+      "title": "Escorpião: o básico",
+      "text": "Datas aproximadas: 23/10 a 21/11. Elemento água, modalidade fixa, regido por Plutão (e Marte na astrologia clássica)."
+    },
+    {
+      "theme": "water",
+      "kicker": "Ponto forte",
+      "title": "Profundidade",
+      "text": "Escorpião é focado, intenso e vai até o fundo das coisas, sem se contentar com o superficial."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ponto de atenção",
+      "title": "Desconfiança",
+      "text": "Pode guardar mágoas e testar os outros. Confiar aos poucos evita distâncias desnecessárias."
+    },
+    {
+      "theme": "water",
+      "kicker": "No amor",
+      "title": "Tudo ou nada",
+      "text": "Se entrega de verdade, mas só depois de confiar. Espera lealdade total."
+    },
+    {
+      "theme": "night",
+      "kicker": "No trabalho",
+      "title": "Quem investiga",
+      "text": "Tem foco e resistência. Rende em pesquisa, estratégia, análise e situações de pressão."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Escorpião a fundo?",
+    "label": "Ler o artigo completo",
+    "url": "/pt/blog/scorpio-personality-traits-explained"
+  }
+}
