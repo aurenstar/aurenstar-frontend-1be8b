@@ -302,13 +302,18 @@ const storyUrls: { loc: string; lastmod: string }[] = [];
 const storiesDir = path.join(root, 'data/stories');
 if (fs.existsSync(storiesDir)) {
   for (const l of fs.readdirSync(storiesDir)) {
-    for (const f of fs.readdirSync(path.join(storiesDir, l)).filter((x) => x.endsWith('.json'))) {
-      const st: WebStory = JSON.parse(fs.readFileSync(path.join(storiesDir, l, f), 'utf8'));
+    const all: WebStory[] = fs.readdirSync(path.join(storiesDir, l)).filter((x) => x.endsWith('.json')).sort().map((f) => JSON.parse(fs.readFileSync(path.join(storiesDir, l, f), 'utf8')));
+    for (const st of all) {
+      const f = `${st.slug}.json`;
       const bad = checkStory(st);
       if (bad.length) { console.warn(`prerender: story ${l}/${f} skipped (${bad.join(', ')})`); continue; }
+      // "Keep reading" cards: the next 3 other stories of the same language, always the same ones for the same story.
+      const others = all.filter((o) => o.slug !== st.slug && !checkStory(o).length);
+      const at = others.findIndex((o) => o.slug > st.slug);
+      const rel = Array.from({ length: Math.min(3, others.length) }, (_, i) => others[((at < 0 ? 0 : at) + i) % others.length]).map((o) => ({ title: o.title, url: storyPath(o), sign: o.sign, theme: o.theme }));
       fs.mkdirSync(path.join(dist, 'stories', st.lang), { recursive: true });
-      fs.writeFileSync(path.join(dist, 'stories', st.lang, `${st.slug}.html`), renderWebStory(st, SITE_URL));
-      storyUrls.push({ loc: `${SITE_URL}${storyPath(st)}`, lastmod: st.date });
+      fs.writeFileSync(path.join(dist, 'stories', st.lang, `${st.slug}.html`), renderWebStory(st, SITE_URL, rel));
+storyUrls.push({ loc: `${SITE_URL}${storyPath(st)}`, lastmod: st.date });
     }
   }
 }
