@@ -1,0 +1,31 @@
+name: WordPress stories sync
+# Every 2 hours and on demand: copies stories PUBLISHED in the WordPress Web Stories plugin into data/wp-stories
+# (drafts are ignored). The commit makes Cloudflare rebuild the site, and they appear at aurenstar.com/blog/stories/<name>.
+on:
+  schedule:
+    - cron: '41 */2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: wordpress-stories-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm install --legacy-peer-deps
+      - name: Copy published stories
+        env:
+          WP_APP_PASSWORD: ${{ secrets.ROBO_WEBSTORIES }}
+          WP_USER: oficialsafare
+        run: npx tsx scripts/stories/syncWpStories.ts
+      - name: Commit changes
+        run: |
+          git config user.name "aurenstar-sync"
+          git config user.email "sync@aurenstar.com"
+          git add data/wp-stories
+          git diff --cached --quiet || (git commit -m "Sync stories from WordPress" && git push)

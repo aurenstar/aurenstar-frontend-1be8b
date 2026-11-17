@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { renderWebStory, checkStory, storyPath, posterPath, coverPath, SIGNS, type WebStory } from '../server/engine/webStory';
 
+import { pluginStory, wrapPluginStory } from '../server/engine/storyPlugin';
 import { buildStory, problemsOf } from '../scripts/stories/build';
 import { SIGN_FACTS } from '../scripts/stories/signs';
 
@@ -49,4 +50,18 @@ ok('robot story: Latin letters for Arabic are rejected', problemsOf(good(), 'ar'
 ok('robot story: a link is rejected', problemsOf({ ...good(), description: 'Mehr auf https://example.com bei Widder und seinen Eigenschaften im Überblick hier' }, 'de', widder).length > 0);
 ok('robot story: the editor can reject', !(await buildStory('de', widder, 'articles', fake(good(), { ok: false, problems: ['wrong fact'] }), '2026-11-17')).story);
 ok('robot story: Arabic page is right to left', renderWebStory({ ...(built.story as WebStory), lang: 'ar' }, SITE).includes('dir="rtl"'));
+// WordPress plugin: our story -> plugin data -> page at /blog/stories
+{
+  const s = all.find((x) => x.slug === 'escorpiao-personalidade-em-5-telas') as WebStory;
+  const rel = all.filter((x) => x.lang === s.lang && x.slug !== s.slug).slice(0, 3).map((o) => ({ title: o.title, url: `/blog/stories/${o.slug}`, sign: o.sign, theme: o.theme }));
+  const pl = pluginStory(s, SITE, rel, 'Continue lendo');
+  ok('plugin story: one plugin page per screen (cover + pages + last)', pl.story_data.pages.length === s.pages.length + 2);
+  ok('plugin story: data version and elements are set', pl.story_data.version === 47 && pl.story_data.pages.every((p: any) => p.elements.length >= 4));
+  ok('plugin story: last page has the article button', pl.story_data.pages[pl.story_data.pages.length - 1].pageAttachment?.url.startsWith(SITE) === true && pl.content.includes('<amp-story-page-outlink'));
+  ok('plugin story: keep-reading cards point to /blog/stories', rel.length === 3 && rel.every((r) => pl.content.includes(`${SITE}${r.url}`)));
+  const page = wrapPluginStory({ slug: s.slug, lang: 'pt-BR', title: s.title, description: s.description, modified: '2026-11-17', content: pl.content }, SITE);
+  ok('wp story page: AMP story with canonical on /blog/stories', /<html amp /.test(page) && page.includes(`<link rel="canonical" href="${SITE}/blog/stories/${s.slug}">`) && page.includes('<amp-story standalone'));
+  ok('wp story page: no inline style attributes and no scripts from content', !/\sstyle="/.test(page.split('</head>')[1]) && !/<script/i.test(page.split('</head>')[1]));
+  ok('wp story page: poster and publisher kept', page.includes('poster-portrait-src=') && page.includes('publisher="Aurenstar"'));
+}
 process.exit(failed ? 1 : 0);
