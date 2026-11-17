@@ -1,6 +1,6 @@
 {
   "_help": "The robot opens languages in waves by date. From each date on, that wave is active: its languages are the ones in 'langs' plus every earlier wave. perLang = most articles per language in total, maxPerDay = most articles in one run. Set paused to true to stop the writing (nothing is deleted). termsPerLang / termsMaxPerDay do the same for the short dictionary entries (verbetes).",
-  "paused": true,
+  "paused": false,
   "waves": [
     {
       "from": "2026-11-14",
