@@ -96,7 +96,7 @@ ${logo}
 <amp-story-grid-layer template="fill">${img(bgPath('night'))}</amp-story-grid-layer>
 <amp-story-grid-layer template="vertical" class="low">
 ${logo}
-<div class="card"><h2 class="cta">${esc(s.cta.text)}</h2>${related.length ? `<p class="k">${esc(s.more || MORE[s.lang] || MORE.en)}</p><div class="more">${related.slice(0, 3).map((r) => `<a class="rc" href="${esc(site + r.url)}"><amp-img src="${esc(site + (r.sign ? coverPath(r.sign) : bgPath(r.theme)))}" width="64" height="64" layout="fixed" object-fit="cover" alt=""></amp-img><span>${esc(r.title)}</span></a>`).join('')}</div>` : ''}</div>
+<div class="card"><h2 class="cta">${esc(s.cta.text)}</h2>${related.length ? `<p class="k">${esc(s.more || MORE[s.lang] || MORE.en)}</p><div class="more">${related.slice(0, 3).map((r) => `<a class="rc" href="${esc(site + r.url)}"><amp-img src="${esc(site + (r.sign ? coverPath(r.sign) : bgPath(r.theme)))}" width="64" height="64" layout="fixed" object-fit="cover" object-position="50% 10%" alt=""></amp-img><span>${esc(r.title)}</span></a>`).join('')}</div>` : ''}</div>
 </amp-story-grid-layer>
 <amp-story-page-outlink layout="nodisplay" theme="custom" cta-accent-color="#E73578" cta-accent-element="background"><a href="${esc(s.cta.url.startsWith('/') ? site + s.cta.url : s.cta.url)}">${esc(s.cta.label)}</a></amp-story-page-outlink>
 </amp-story-page>`;
