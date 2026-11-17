@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "resumo": {
-    "termosPublicados": 69,
+    "termosPublicados": 89,
     "funcionando": 1,
     "quase": 1,
-    "aparecendo": 5,
-    "semDados": 62,
-    "impressoes": 65,
+    "aparecendo": 6,
+    "semDados": 81,
+    "impressoes": 86,
     "cliques": 0
   },
   "metas": {
@@ -32,15 +32,15 @@
   "categorias": [
     {
       "categoria": "Chart Concepts",
-      "termos": 25,
+      "termos": 39,
       "impressoes": 49,
       "cliques": 0,
-      "impressoesPorTermo": 2,
+      "impressoesPorTermo": 1.3,
       "boost": 1
     },
     {
       "categoria": "Phases & Movements",
-      "termos": 9,
+      "termos": 10,
       "impressoes": 0,
       "cliques": 0,
       "impressoesPorTermo": 0,
@@ -56,10 +56,10 @@
     },
     {
       "categoria": "Signs & Elements",
-      "termos": 24,
-      "impressoes": 16,
+      "termos": 29,
+      "impressoes": 37,
       "cliques": 0,
-      "impressoesPorTermo": 0.7,
+      "impressoesPorTermo": 1.3,
       "boost": 1
     }
   ],
@@ -72,6 +72,16 @@
       "cliques": 0,
       "melhorPosicao": 32,
       "buscasMensaisNoMundo": 3455610,
+      "veredito": "aparecendo"
+    },
+    {
+      "slug": "what-are-the-traits-of-a-gemini",
+      "termo": "Gemini Traits",
+      "categoria": "Signs & Elements",
+      "impressoes": 21,
+      "cliques": 0,
+      "melhorPosicao": 69,
+      "buscasMensaisNoMundo": 8100,
       "veredito": "aparecendo"
     },
     {
@@ -315,6 +325,106 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-are-cardinal-signs-in-astrology",
+      "termo": "Cardinal signs",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 59480,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-a-retrograde-in-astrology",
+      "termo": "Retrograde",
+      "categoria": "Phases & Movements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 55380,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-11th-house-mean-in-astrology",
+      "termo": "11th house",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 49790,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-star-sign-mean-in-astrology",
+      "termo": "Star Sign",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 49500,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-the-ascendant-in-astrology",
+      "termo": "Ascendente",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 44850,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-7th-house-mean-in-astrology",
+      "termo": "7th House",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 41690,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-8th-house-mean-in-astrology",
+      "termo": "8th house",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 40560,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-3rd-house-mean-in-astrology",
+      "termo": "3rd house",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 39230,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-are-elements-in-astrology",
+      "termo": "Elements",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 36600,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-are-mutable-signs-in-astrology",
+      "termo": "Mutable Signs",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 36200,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-does-10th-house-mean-in-astrology",
       "termo": "10th house",
       "categoria": "Chart Concepts",
@@ -322,6 +432,66 @@
       "cliques": 0,
       "melhorPosicao": null,
       "buscasMensaisNoMundo": 35580,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-12th-house-mean-in-astrology",
+      "termo": "12th house",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 33500,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-5th-house-mean-in-astrology",
+      "termo": "5th house",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 33260,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-6th-house-mean-in-astrology",
+      "termo": "6th house",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 31780,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-2nd-house-mean-in-astrology",
+      "termo": "2nd house",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 31560,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-are-fixed-signs-in-astrology",
+      "termo": "Fixed signs",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 29180,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-sidereal-astrology-in-astrology",
+      "termo": "Sidereal Astrology",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 27600,
       "veredito": "sem-dados"
     },
     {
@@ -342,6 +512,16 @@
       "cliques": 0,
       "melhorPosicao": null,
       "buscasMensaisNoMundo": 20480,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-1st-house-mean-in-astrology",
+      "termo": "1st house",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 16450,
       "veredito": "sem-dados"
     },
     {
@@ -412,6 +592,26 @@
       "cliques": 0,
       "melhorPosicao": null,
       "buscasMensaisNoMundo": 10070,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-are-transits-in-astrology",
+      "termo": "Transits",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 9900,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-a-progressed-chart-in-astrology",
+      "termo": "Progressed chart",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 9900,
       "veredito": "sem-dados"
     },
     {
