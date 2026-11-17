@@ -56,7 +56,8 @@ h2{font-size:32px}
 p{margin:0;font-size:21px;line-height:1.4;text-shadow:0 2px 12px rgba(8,20,50,.6)}
 .hint{margin-top:26px;font-size:15px;opacity:.85}
 .card{background:rgba(23,54,111,.55);padding:22px 20px;border-radius:16px}
-.brand{font-size:14px;letter-spacing:.2em;font-weight:700;color:#fff;opacity:.9}
+.low{padding:28px 28px 96px;align-content:end}
+.brand{position:absolute;top:28px;left:28px;font-size:14px;letter-spacing:.2em;font-weight:700;color:#fff;opacity:.9}
 .cta{font-size:24px;font-weight:700}
 `;
 
@@ -67,21 +68,21 @@ export function renderWebStory(s: WebStory, site: string): string {
   const img = (src: string, alt = '') => `<amp-img src="${esc(src)}" width="720" height="1280" layout="responsive" alt="${esc(alt)}"></amp-img>`;
   const cover = `<amp-story-page id="cover">
 <amp-story-grid-layer template="fill">${img(s.sign ? coverPath(s.sign) : bgPath(s.theme))}</amp-story-grid-layer>
-<amp-story-grid-layer template="vertical" class="card-wrap" style="padding:28px">
+<amp-story-grid-layer template="vertical" class="low">
 <p class="brand">AURENSTAR</p>
-<div style="margin-top:auto;margin-bottom:auto"><h1>${esc(s.title)}</h1><p>${esc(s.description)}</p>${s.swipe ? `<p class="hint">${esc(s.swipe)} →</p>` : ''}</div>
+<div><h1>${esc(s.title)}</h1><p>${esc(s.description)}</p>${s.swipe ? `<p class="hint">${esc(s.swipe)} →</p>` : ''}</div>
 </amp-story-grid-layer>
 </amp-story-page>`;
   const pages = s.pages.map((g, i) => `<amp-story-page id="p${i + 1}">
 <amp-story-grid-layer template="fill">${img(bgPath(g.theme))}</amp-story-grid-layer>
-<amp-story-grid-layer template="vertical" style="padding:28px">
-<div style="margin-top:auto;margin-bottom:auto" class="card">${g.kicker ? `<p class="k">${esc(g.kicker)}</p>` : ''}<h2>${esc(g.title)}</h2><p>${esc(g.text)}</p></div>
+<amp-story-grid-layer template="vertical" class="low">
+<div class="card">${g.kicker ? `<p class="k">${esc(g.kicker)}</p>` : ''}<h2>${esc(g.title)}</h2><p>${esc(g.text)}</p></div>
 </amp-story-grid-layer>
 </amp-story-page>`).join('\n');
   const last = `<amp-story-page id="end">
 <amp-story-grid-layer template="fill">${img(bgPath('night'))}</amp-story-grid-layer>
-<amp-story-grid-layer template="vertical" style="padding:28px">
-<div style="margin-top:auto;margin-bottom:auto" class="card"><h2 class="cta">${esc(s.cta.text)}</h2></div>
+<amp-story-grid-layer template="vertical" class="low">
+<div class="card"><h2 class="cta">${esc(s.cta.text)}</h2></div>
 </amp-story-grid-layer>
 <amp-story-page-outlink layout="nodisplay"><a href="${esc(s.cta.url.startsWith('/') ? site + s.cta.url : s.cta.url)}">${esc(s.cta.label)}</a></amp-story-page-outlink>
 </amp-story-page>`;
