@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "aquarius-personality-in-5-screens",
+  "date": "2026-11-17",
+  "title": "Aquarius: what to know",
+  "description": "The essentials of Aquarius in a few screens: strengths, challenges, love and work.",
+  "theme": "air",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "The basics",
+      "title": "Aquarius: the basics",
+      "text": "Approximate dates: Jan 20 - Feb 18. Air element, fixed quality, ruled by Uranus (and Saturn in classical astrology)."
+    },
+    {
+      "theme": "air",
+      "kicker": "Strength",
+      "title": "Originality",
+      "text": "Aquarius thinks differently, values freedom and brings ideas nobody had considered."
+    },
+    {
+      "theme": "night",
+      "kicker": "Watch out",
+      "title": "Distance",
+      "text": "Can seem cold or detached when they need to think. Saying what they feel brings people closer."
+    },
+    {
+      "theme": "air",
+      "kicker": "In love",
+      "title": "Friendship first",
+      "text": "Likes mental connection and respect for space. Love grows on top of partnership."
+    },
+    {
+      "theme": "night",
+      "kicker": "At work",
+      "title": "The one who innovates",
+      "text": "Does well in technology, group causes and projects that change how things are done."
+    }
+  ],
+  "cta": {
+    "text": "Want to know Aquarius in depth?",
+    "label": "Read the full article",
+    "url": "/blog/aquarius-personality-why-this-sign-thinks-differently"
+  }
+}

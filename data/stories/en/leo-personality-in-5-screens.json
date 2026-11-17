@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "leo-personality-in-5-screens",
+  "date": "2026-11-17",
+  "title": "Leo: what to know",
+  "description": "The essentials of Leo in a few screens: strengths, challenges, love and work.",
+  "theme": "fire",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "The basics",
+      "title": "Leo: the basics",
+      "text": "Approximate dates: Jul 23 - Aug 22. Fire element, fixed quality, ruled by the Sun."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Strength",
+      "title": "Shine",
+      "text": "Leo has presence, generosity and a wish to inspire the people around."
+    },
+    {
+      "theme": "night",
+      "kicker": "Watch out",
+      "title": "Pride",
+      "text": "Needs recognition and can be hurt easily. Appreciating others also brings shine."
+    },
+    {
+      "theme": "fire",
+      "kicker": "In love",
+      "title": "Warm and loyal",
+      "text": "Loves with celebration and affection in public. Expects to be valued the same way."
+    },
+    {
+      "theme": "night",
+      "kicker": "At work",
+      "title": "The one who leads",
+      "text": "Likes to lead, present and motivate. Works best with room to create."
+    }
+  ],
+  "cta": {
+    "text": "Want to know Leo in depth?",
+    "label": "Read the full article",
+    "url": "/blog/leo-personality-key-traits-and-what-drives-this-sign"
+  }
+}

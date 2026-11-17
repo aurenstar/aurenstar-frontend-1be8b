@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "capricorn-personality-in-5-screens",
+  "date": "2026-11-17",
+  "title": "Capricorn: what to know",
+  "description": "The essentials of Capricorn in a few screens: strengths, challenges, love and work.",
+  "theme": "earth",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "The basics",
+      "title": "Capricorn: the basics",
+      "text": "Approximate dates: Dec 22 - Jan 19. Earth element, cardinal quality, ruled by Saturn."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Strength",
+      "title": "Discipline",
+      "text": "Capricorn has the focus, patience and responsibility to go far."
+    },
+    {
+      "theme": "night",
+      "kicker": "Watch out",
+      "title": "Rigidity",
+      "text": "Demanding too much of yourself and others is tiring. Making time to rest is productive too."
+    },
+    {
+      "theme": "earth",
+      "kicker": "In love",
+      "title": "Commitment",
+      "text": "Takes the person they choose seriously. Shows love with consistency and long-term plans."
+    },
+    {
+      "theme": "night",
+      "kicker": "At work",
+      "title": "The one who builds",
+      "text": "Organized and ambitious, grows in careers that reward results and persistence."
+    }
+  ],
+  "cta": {
+    "text": "Want to know Capricorn in depth?",
+    "label": "Read the full article",
+    "url": "/blog/capricorn-traits-key-personality-patterns-explained"
+  }
+}

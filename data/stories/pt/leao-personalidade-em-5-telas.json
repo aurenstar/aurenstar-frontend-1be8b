@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "leao-personalidade-em-5-telas",
+  "date": "2026-11-17",
+  "title": "Leão: o que você precisa saber",
+  "description": "O essencial sobre Leão em poucas telas: pontos fortes, desafios, amor e trabalho.",
+  "theme": "fire",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Quem é",
+      "title": "Leão: o básico",
+      "text": "Datas aproximadas: 23/7 a 22/8. Elemento fogo, modalidade fixa, regido por o Sol."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Ponto forte",
+      "title": "Brilho",
+      "text": "Leão tem presença, generosidade e vontade de inspirar quem está por perto."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ponto de atenção",
+      "title": "Orgulho",
+      "text": "Precisa de reconhecimento e pode se ferir com facilidade. Valorizar os outros também traz brilho."
+    },
+    {
+      "theme": "fire",
+      "kicker": "No amor",
+      "title": "Caloroso e leal",
+      "text": "Ama com festa e carinho em público. Espera ser valorizado na mesma medida."
+    },
+    {
+      "theme": "night",
+      "kicker": "No trabalho",
+      "title": "Quem lidera",
+      "text": "Gosta de liderar, apresentar e motivar. Funciona bem quando tem espaço para criar."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Leão a fundo?",
+    "label": "Ler o artigo completo",
+    "url": "/pt/blog/leo-personality-key-traits-and-what-drives-this-sign"
+  }
+}

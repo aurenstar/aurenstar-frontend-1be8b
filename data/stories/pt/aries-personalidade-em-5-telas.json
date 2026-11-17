@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "aries-personalidade-em-5-telas",
+  "date": "2026-11-17",
+  "title": "Áries: o que você precisa saber",
+  "description": "O essencial sobre Áries em poucas telas: pontos fortes, desafios, amor e trabalho.",
+  "theme": "fire",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Quem é",
+      "title": "Áries: o básico",
+      "text": "Datas aproximadas: 21/3 a 19/4. Elemento fogo, modalidade cardinal, regido por Marte."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Ponto forte",
+      "title": "Coragem",
+      "text": "Áries não espera a hora perfeita. Toma a iniciativa, encara o desafio de frente e puxa o grupo junto."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ponto de atenção",
+      "title": "Impaciência",
+      "text": "A pressa pode atropelar os outros. Respirar antes de responder ajuda a não se arrepender depois."
+    },
+    {
+      "theme": "fire",
+      "kicker": "No amor",
+      "title": "Intenso e direto",
+      "text": "Gosta de conquista e de clareza. Joga aberto e espera sinceridade em troca."
+    },
+    {
+      "theme": "night",
+      "kicker": "No trabalho",
+      "title": "Quem dá a largada",
+      "text": "É bom em começar projetos, liderar e resolver o que está parado."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Áries a fundo?",
+    "label": "Ler o artigo completo",
+    "url": "/pt/blog/aries-traits-key-personality-patterns-explained"
+  }
+}

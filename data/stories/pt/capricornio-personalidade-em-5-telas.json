@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "capricornio-personalidade-em-5-telas",
+  "date": "2026-11-17",
+  "title": "Capricórnio: o que você precisa saber",
+  "description": "O essencial sobre Capricórnio em poucas telas: pontos fortes, desafios, amor e trabalho.",
+  "theme": "earth",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Quem é",
+      "title": "Capricórnio: o básico",
+      "text": "Datas aproximadas: 22/12 a 19/1. Elemento terra, modalidade cardinal, regido por Saturno."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Ponto forte",
+      "title": "Disciplina",
+      "text": "Capricórnio tem foco, paciência e responsabilidade para chegar longe."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ponto de atenção",
+      "title": "Rigidez",
+      "text": "Cobrar demais de si e dos outros cansa. Reservar tempo para descansar também é produtivo."
+    },
+    {
+      "theme": "earth",
+      "kicker": "No amor",
+      "title": "Compromisso",
+      "text": "Leva a sério quem escolhe. Mostra amor com constância e planos de longo prazo."
+    },
+    {
+      "theme": "night",
+      "kicker": "No trabalho",
+      "title": "Quem constrói",
+      "text": "Organizado e ambicioso, cresce em carreiras que premiam resultado e persistência."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Capricórnio a fundo?",
+    "label": "Ler o artigo completo",
+    "url": "/pt/blog/capricorn-traits-key-personality-patterns-explained"
+  }
+}

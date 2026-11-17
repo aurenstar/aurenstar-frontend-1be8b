@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "virgem-personalidade-em-5-telas",
+  "date": "2026-11-17",
+  "title": "Virgem: o que você precisa saber",
+  "description": "O essencial sobre Virgem em poucas telas: pontos fortes, desafios, amor e trabalho.",
+  "theme": "earth",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Quem é",
+      "title": "Virgem: o básico",
+      "text": "Datas aproximadas: 23/8 a 22/9. Elemento terra, modalidade mutável, regido por Mercúrio."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Ponto forte",
+      "title": "Atenção",
+      "text": "Virgem nota o que passa despercebido, organiza e melhora tudo que toca."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ponto de atenção",
+      "title": "Autocrítica",
+      "text": "A busca pelo perfeito pode virar cobrança demais. Aceitar o bom o bastante alivia."
+    },
+    {
+      "theme": "earth",
+      "kicker": "No amor",
+      "title": "Cuidado nos gestos",
+      "text": "Mostra amor em atitudes práticas e atenção aos detalhes, mais do que em grandes discursos."
+    },
+    {
+      "theme": "night",
+      "kicker": "No trabalho",
+      "title": "Quem aperfeiçoa",
+      "text": "É confiável e analítico, ótimo para processos, saúde, revisão e planejamento."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Virgem a fundo?",
+    "label": "Ler o artigo completo",
+    "url": "/pt/blog/virgo-personality-why-this-sign-notices-what-others-miss"
+  }
+}

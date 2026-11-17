@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "gemini-personality-in-5-screens",
+  "date": "2026-11-17",
+  "title": "Gemini: what to know",
+  "description": "The essentials of Gemini in a few screens: strengths, challenges, love and work.",
+  "theme": "air",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "The basics",
+      "title": "Gemini: the basics",
+      "text": "Approximate dates: May 21 - Jun 20. Air element, mutable quality, ruled by Mercury."
+    },
+    {
+      "theme": "air",
+      "kicker": "Strength",
+      "title": "Curiosity",
+      "text": "Gemini learns fast, adapts and talks to anyone. There is always a new idea."
+    },
+    {
+      "theme": "night",
+      "kicker": "Watch out",
+      "title": "Scattered focus",
+      "text": "Interests that change quickly can leave projects half done. Picking one priority helps."
+    },
+    {
+      "theme": "air",
+      "kicker": "In love",
+      "title": "Talk and lightness",
+      "text": "Falls for the mind. Good conversation and humor beat big promises."
+    },
+    {
+      "theme": "night",
+      "kicker": "At work",
+      "title": "The one who communicates",
+      "text": "Does well where ideas flow: writing, teaching, sales and anything that changes often."
+    }
+  ],
+  "cta": {
+    "text": "Want to know Gemini in depth?",
+    "label": "Read the full article",
+    "url": "/blog/gemini-personality-traits-a-complete-guide"
+  }
+}

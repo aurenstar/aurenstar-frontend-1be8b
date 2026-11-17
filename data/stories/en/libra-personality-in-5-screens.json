@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "libra-personality-in-5-screens",
+  "date": "2026-11-17",
+  "title": "Libra: what to know",
+  "description": "The essentials of Libra in a few screens: strengths, challenges, love and work.",
+  "theme": "air",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "The basics",
+      "title": "Libra: the basics",
+      "text": "Approximate dates: Sep 23 - Oct 22. Air element, cardinal quality, ruled by Venus."
+    },
+    {
+      "theme": "air",
+      "kicker": "Strength",
+      "title": "Balance",
+      "text": "Libra sees both sides, seeks harmony and is good at mediating conflict."
+    },
+    {
+      "theme": "night",
+      "kicker": "Watch out",
+      "title": "Indecision",
+      "text": "Weighing options too long can delay choices. Setting a deadline helps."
+    },
+    {
+      "theme": "air",
+      "kicker": "In love",
+      "title": "Partnership",
+      "text": "Values kindness, beauty and reciprocity. Wants a relationship between equals."
+    },
+    {
+      "theme": "night",
+      "kicker": "At work",
+      "title": "The one who unites",
+      "text": "Does well in teams, negotiation, design and service, where diplomacy matters."
+    }
+  ],
+  "cta": {
+    "text": "Want to know Libra in depth?",
+    "label": "Read the full article",
+    "url": "/blog/libra-personality-why-this-sign-sees-every-side"
+  }
+}

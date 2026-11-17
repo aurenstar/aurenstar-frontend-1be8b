@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "pisces-personality-in-5-screens",
+  "date": "2026-11-17",
+  "title": "Pisces: what to know",
+  "description": "The essentials of Pisces in a few screens: strengths, challenges, love and work.",
+  "theme": "water",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "The basics",
+      "title": "Pisces: the basics",
+      "text": "Approximate dates: Feb 19 - Mar 20. Water element, mutable quality, ruled by Neptune (and Jupiter in classical astrology)."
+    },
+    {
+      "theme": "water",
+      "kicker": "Strength",
+      "title": "Sensitivity",
+      "text": "Pisces has imagination, empathy and an intuition that picks up what nobody said."
+    },
+    {
+      "theme": "night",
+      "kicker": "Watch out",
+      "title": "Escape",
+      "text": "When the world feels heavy, they can retreat into dreams. Routine and limits keep feet on the ground."
+    },
+    {
+      "theme": "water",
+      "kicker": "In love",
+      "title": "Romantic",
+      "text": "Loves with devotion, poetry and compassion. Needs tenderness and to feel understood."
+    },
+    {
+      "theme": "night",
+      "kicker": "At work",
+      "title": "The one who inspires",
+      "text": "Does well in art, caregiving, music and fields where empathy and creativity count."
+    }
+  ],
+  "cta": {
+    "text": "Want to know Pisces in depth?",
+    "label": "Read the full article",
+    "url": "/blog/pisces-personality-the-depth-behind-the-dreamy-side"
+  }
+}

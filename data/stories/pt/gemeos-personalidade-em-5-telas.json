@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "gemeos-personalidade-em-5-telas",
+  "date": "2026-11-17",
+  "title": "Gêmeos: o que você precisa saber",
+  "description": "O essencial sobre Gêmeos em poucas telas: pontos fortes, desafios, amor e trabalho.",
+  "theme": "air",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Quem é",
+      "title": "Gêmeos: o básico",
+      "text": "Datas aproximadas: 21/5 a 20/6. Elemento ar, modalidade mutável, regido por Mercúrio."
+    },
+    {
+      "theme": "air",
+      "kicker": "Ponto forte",
+      "title": "Curiosidade",
+      "text": "Gêmeos aprende rápido, se adapta e conversa com qualquer pessoa. Sempre tem uma ideia nova."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ponto de atenção",
+      "title": "Dispersão",
+      "text": "Interesses que mudam depressa podem deixar projetos pela metade. Escolher uma prioridade ajuda."
+    },
+    {
+      "theme": "air",
+      "kicker": "No amor",
+      "title": "Papo e leveza",
+      "text": "Se apaixona pela mente. Uma boa conversa e humor valem mais que grandes promessas."
+    },
+    {
+      "theme": "night",
+      "kicker": "No trabalho",
+      "title": "Quem comunica",
+      "text": "Vai bem onde há troca de ideias: texto, ensino, vendas e tudo que muda com frequência."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Gêmeos a fundo?",
+    "label": "Ler o artigo completo",
+    "url": "/pt/blog/gemini-personality-traits-a-complete-guide"
+  }
+}

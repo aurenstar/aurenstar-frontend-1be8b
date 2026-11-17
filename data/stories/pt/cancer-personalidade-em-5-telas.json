@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "cancer-personalidade-em-5-telas",
+  "date": "2026-11-17",
+  "title": "Câncer: o que você precisa saber",
+  "description": "O essencial sobre Câncer em poucas telas: pontos fortes, desafios, amor e trabalho.",
+  "theme": "water",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Quem é",
+      "title": "Câncer: o básico",
+      "text": "Datas aproximadas: 21/6 a 22/7. Elemento água, modalidade cardinal, regido por a Lua."
+    },
+    {
+      "theme": "water",
+      "kicker": "Ponto forte",
+      "title": "Cuidado",
+      "text": "Câncer percebe o que os outros sentem e cria um lugar seguro para quem ama."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ponto de atenção",
+      "title": "Sensibilidade",
+      "text": "Pode levar as coisas para o lado pessoal e se fechar. Dizer o que sente evita mágoa guardada."
+    },
+    {
+      "theme": "water",
+      "kicker": "No amor",
+      "title": "Afeto e proteção",
+      "text": "Quer vínculo, carinho na rotina e lealdade. Se entrega aos poucos."
+    },
+    {
+      "theme": "night",
+      "kicker": "No trabalho",
+      "title": "Quem acolhe",
+      "text": "Cuida bem de equipes e clientes e lembra de detalhes que outras pessoas esquecem."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Câncer a fundo?",
+    "label": "Ler o artigo completo",
+    "url": "/pt/blog/cancer-zodiac-traits-personality-insights-explained"
+  }
+}

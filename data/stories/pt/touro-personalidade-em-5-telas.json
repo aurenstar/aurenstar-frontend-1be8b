@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "touro-personalidade-em-5-telas",
+  "date": "2026-11-17",
+  "title": "Touro: o que você precisa saber",
+  "description": "O essencial sobre Touro em poucas telas: pontos fortes, desafios, amor e trabalho.",
+  "theme": "earth",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Quem é",
+      "title": "Touro: o básico",
+      "text": "Datas aproximadas: 20/4 a 20/5. Elemento terra, modalidade fixa, regido por Vênus."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Ponto forte",
+      "title": "Constância",
+      "text": "Touro constrói devagar e com firmeza. O que promete, costuma cumprir."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ponto de atenção",
+      "title": "Teimosia",
+      "text": "Quando decide, é difícil mudar de ideia. Ouvir outro ponto de vista evita brigas por orgulho."
+    },
+    {
+      "theme": "earth",
+      "kicker": "No amor",
+      "title": "Leal e sensorial",
+      "text": "Valoriza carinho, presença e gestos concretos. A confiança vem com o tempo."
+    },
+    {
+      "theme": "night",
+      "kicker": "No trabalho",
+      "title": "Quem sustenta",
+      "text": "É paciente e confiável, bom com dinheiro, detalhes e metas de longo prazo."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Touro a fundo?",
+    "label": "Ler o artigo completo",
+    "url": "/pt/blog/taurus-traits-what-shapes-this-steadfast-sign"
+  }
+}

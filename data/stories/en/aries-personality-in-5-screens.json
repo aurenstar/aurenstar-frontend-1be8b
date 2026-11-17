@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "aries-personality-in-5-screens",
+  "date": "2026-11-17",
+  "title": "Aries: what to know",
+  "description": "The essentials of Aries in a few screens: strengths, challenges, love and work.",
+  "theme": "fire",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "The basics",
+      "title": "Aries: the basics",
+      "text": "Approximate dates: Mar 21 - Apr 19. Fire element, cardinal quality, ruled by Mars."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Strength",
+      "title": "Courage",
+      "text": "Aries does not wait for the perfect moment. They take the initiative, face the challenge head on and pull the group along."
+    },
+    {
+      "theme": "night",
+      "kicker": "Watch out",
+      "title": "Impatience",
+      "text": "Rushing can run over other people. Taking a breath before answering helps avoid regrets."
+    },
+    {
+      "theme": "fire",
+      "kicker": "In love",
+      "title": "Intense and direct",
+      "text": "Likes the chase and clear signals. Plays open and expects honesty back."
+    },
+    {
+      "theme": "night",
+      "kicker": "At work",
+      "title": "The one who starts",
+      "text": "Great at kicking off projects, leading and fixing what is stuck."
+    }
+  ],
+  "cta": {
+    "text": "Want to know Aries in depth?",
+    "label": "Read the full article",
+    "url": "/blog/aries-traits-key-personality-patterns-explained"
+  }
+}
