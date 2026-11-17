@@ -221,8 +221,11 @@
     "wordpress": {
       "id": 659,
       "slug": "pisces-personality",
-      "modified": "2026-10-19T22:32:59"
-    }
+      "modified": "2026-11-17T15:10:04"
+    },
+    "related": [
+      "wp-1478"
+    ]
   },
   {
     "id": "wp-658",
@@ -1360,8 +1363,11 @@
     "wordpress": {
       "id": 654,
       "slug": "virgo-personality",
-      "modified": "2026-10-19T22:32:26"
-    }
+      "modified": "2026-11-17T15:10:04"
+    },
+    "related": [
+      "wp-1500"
+    ]
   },
   {
     "id": "wp-653",
@@ -5631,8 +5637,11 @@
     "wordpress": {
       "id": 1522,
       "slug": "cancer-sign-creative-strengths",
-      "modified": "2026-11-17T12:30:05"
-    }
+      "modified": "2026-11-17T15:10:04"
+    },
+    "related": [
+      "wp-1519"
+    ]
   },
   {
     "id": "wp-1519",
@@ -10362,8 +10371,11 @@
     "wordpress": {
       "id": 1435,
       "slug": "virgo-stress-triggers",
-      "modified": "2026-11-08T16:30:05"
-    }
+      "modified": "2026-11-17T15:10:04"
+    },
+    "related": [
+      "wp-1500"
+    ]
   },
   {
     "id": "wp-1432",
@@ -11634,8 +11646,11 @@
     "wordpress": {
       "id": 1416,
       "slug": "cancer-turn-offs-dating",
-      "modified": "2026-11-07T16:30:08"
-    }
+      "modified": "2026-11-17T15:10:04"
+    },
+    "related": [
+      "wp-1519"
+    ]
   },
   {
     "id": "wp-1411",
@@ -14388,8 +14403,11 @@
     "wordpress": {
       "id": 1291,
       "slug": "pisces-personality-traits-relationships",
-      "modified": "2026-10-19T13:44:45"
-    }
+      "modified": "2026-11-17T15:10:04"
+    },
+    "related": [
+      "wp-1478"
+    ]
   },
   {
     "id": "wp-1281",
