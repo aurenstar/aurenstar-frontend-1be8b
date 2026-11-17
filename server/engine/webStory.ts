@@ -8,9 +8,12 @@ export interface WebStory {
   lang: string; slug: string; date: string; title: string; description: string;
   theme: Theme; pages: StoryPage[];
   cta: { text: string; label: string; url: string };
+  sign?: string; // one of SIGNS: the cover then gets that sign's symbol
   swipe?: string; // short hint on the cover, e.g. "Toque para avançar"
 }
 
+export const SIGNS = ['aries', 'touro', 'gemeos', 'cancer', 'leao', 'virgem', 'libra', 'escorpiao', 'sagitario', 'capricornio', 'aquario', 'peixes'];
+export const coverPath = (sign: string) => `/stories/img/cover-${sign}.webp`;
 export const STORY_THEMES: Theme[] = ['fire', 'earth', 'air', 'water', 'night'];
 export const storyPath = (s: Pick<WebStory, 'lang' | 'slug'>) => `/stories/${s.lang}/${s.slug}`;
 export const posterPath = (s: Pick<WebStory, 'lang' | 'slug'>) => `/stories/img/poster-${s.lang}-${s.slug}.webp`;
@@ -33,6 +36,7 @@ export function checkStory(s: WebStory): string[] {
     if (!STORY_THEMES.includes(g.theme)) p.push(`page ${i + 1} theme`);
   }
   if (!/^\/[^/]/.test(s.cta.url) && !/^https:\/\//.test(s.cta.url)) p.push('cta url');
+  if (s.sign && !SIGNS.includes(s.sign)) p.push('sign');
   if (!s.cta.text || !s.cta.label) p.push('cta text');
   return p;
 }
@@ -59,7 +63,7 @@ export function renderWebStory(s: WebStory, site: string): string {
   const loc = LOCALE[s.lang] || s.lang;
   const img = (src: string, alt = '') => `<amp-img src="${esc(src)}" width="720" height="1280" layout="responsive" alt="${esc(alt)}"></amp-img>`;
   const cover = `<amp-story-page id="cover">
-<amp-story-grid-layer template="fill">${img(bgPath(s.theme))}</amp-story-grid-layer>
+<amp-story-grid-layer template="fill">${img(s.sign ? coverPath(s.sign) : bgPath(s.theme))}</amp-story-grid-layer>
 <amp-story-grid-layer template="vertical" class="card-wrap" style="padding:28px">
 <p class="brand">AURENSTAR</p>
 <div style="margin-top:auto;margin-bottom:auto"><h1>${esc(s.title)}</h1><p>${esc(s.description)}</p>${s.swipe ? `<p class="hint">${esc(s.swipe)} →</p>` : ''}</div>
