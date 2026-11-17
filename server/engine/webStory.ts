@@ -20,12 +20,12 @@ export const storyPath = (s: Pick<WebStory, 'lang' | 'slug'>) => `/stories/${s.l
 // Hand-written stories (pt, en, es) have a poster with their own title. Stories the robot writes in other languages use a language-neutral poster per sign (symbol only, no text).
 export const HAND_LANGS = ['pt', 'en', 'es'];
 export const posterPath = (s: Pick<WebStory, 'lang' | 'slug'> & { sign?: string }) => (s.sign && !HAND_LANGS.includes(s.lang) ? `/stories/img/poster-sign-${s.sign}.webp` : `/stories/img/poster-${s.lang}-${s.slug}.webp`);
-const RTL = new Set(['ar', 'he', 'fa', 'ur']);
+export const RTL = new Set(['ar', 'he', 'fa', 'ur']);
 export const bgPath = (t: Theme) => `/stories/img/bg-${t}.webp`;
-const LOGO = '/stories/img/logo-96.png';
-const LOCALE: Record<string, string> = { pt: 'pt-BR', en: 'en', es: 'es' };
+export const LOGO = '/stories/img/logo-96.png';
+export const LOCALE: Record<string, string> = { pt: 'pt-BR', en: 'en', es: 'es' };
 
-const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+export const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 /** Problems that would stop Google from showing the story. Empty = fine. */
 export function checkStory(s: WebStory): string[] {
@@ -45,7 +45,7 @@ export function checkStory(s: WebStory): string[] {
   return p;
 }
 
-const BOILERPLATE =
+export const BOILERPLATE =
   '<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>';
 
 // Look of the site: blue background (#C9E5FF family), white rounded cards, blue headings (#3982C8, Montserrat 800), pink accents (#E73578), navy text (#172B4D), pill shapes.

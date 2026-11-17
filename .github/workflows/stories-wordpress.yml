@@ -1,0 +1,27 @@
+name: Stories to WordPress
+# Puts our stories into the WordPress "Web Stories" plugin (as drafts unless "publish" is ticked).
+# Run by hand (Run workflow). Needs the secret ROBO_WEBSTORIES = WordPress application password of user oficialsafare.
+on:
+  workflow_dispatch:
+    inputs:
+      lang: { description: 'Only this language (empty = all)', required: false, default: '' }
+      slug: { description: 'Only this story (empty = all)', required: false, default: '' }
+      publish: { description: 'Publish them (otherwise drafts)', type: boolean, default: false }
+permissions:
+  contents: read
+concurrency:
+  group: stories-wordpress
+  cancel-in-progress: false
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm install --legacy-peer-deps
+      - name: Send stories
+        env:
+          WP_APP_PASSWORD: ${{ secrets.ROBO_WEBSTORIES }}
+          WP_USER: oficialsafare
+        run: npx tsx scripts/stories/pushToWordPress.ts ${{ inputs.lang && format('--lang {0}', inputs.lang) || '' }} ${{ inputs.slug && format('--slug {0}', inputs.slug) || '' }} ${{ inputs.publish && '--publish' || '' }}
