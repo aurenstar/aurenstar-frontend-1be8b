@@ -1,0 +1,48 @@
+{
+  "lang": "de",
+  "slug": "aries-de",
+  "date": "2026-11-17",
+  "title": "Widder: Alles, was du wissen solltest",
+  "description": "Entdecke die wichtigsten Eigenschaften des Widders: seine Stärken, Herausforderungen, Liebe und Beruf. Für alle, die dieses Feuerzeichen besser verstehen möchten.",
+  "theme": "fire",
+  "sign": "aries",
+  "swipe": "Tippe zum Weitergehen",
+  "more": "Mehr lesen",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Widder Basics",
+      "title": "Feuerzeichen mit Power",
+      "text": "Widder: geboren rund um 21. März bis 19. April. Element: Feuer, Qualität: kardinal, Herrscher: Mars."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Stärke",
+      "title": "Mutig voran",
+      "text": "Widder sind oft voller Energie und gehen neue Wege mutig und entschlossen an."
+    },
+    {
+      "theme": "night",
+      "kicker": "Achte darauf",
+      "title": "Geduld braucht Übung",
+      "text": "Manchmal fehlt dem Widder ein wenig Geduld. Ein kurzer Moment zum Nachdenken kann viel bewirken."
+    },
+    {
+      "theme": "fire",
+      "kicker": "In der Liebe",
+      "title": "Leidenschaftlich & direkt",
+      "text": "Widder zeigen ihre Gefühle offen und lieben es, das Herz sprechen zu lassen."
+    },
+    {
+      "theme": "night",
+      "kicker": "Im Beruf",
+      "title": "Motiviert & tatkräftig",
+      "text": "Im Job bringt der Widder frischen Schwung ins Team und packt Herausforderungen mit Begeisterung an."
+    }
+  ],
+  "cta": {
+    "text": "Noch mehr über Sternzeichen entdecken",
+    "label": "Alle Artikel",
+    "url": "/de/articles"
+  }
+}

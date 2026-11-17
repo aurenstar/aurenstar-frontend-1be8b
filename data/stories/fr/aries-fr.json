@@ -1,0 +1,48 @@
+{
+  "lang": "fr",
+  "slug": "aries-fr",
+  "date": "2026-11-17",
+  "title": "Bélier : ce qu’il faut savoir sur ce signe",
+  "description": "Découvrez les particularités du signe du Bélier : ses dates, ses forces, ses défis, son style en amour et au travail. Un tour d’horizon inspirant et positif.",
+  "theme": "fire",
+  "sign": "aries",
+  "swipe": "Tapez pour avancer",
+  "more": "Lire plus",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Le saviez-vous ?",
+      "title": "Bélier en bref",
+      "text": "Né(e) autour du 21 mars au 19 avril, le Bélier est un signe de feu, de qualité cardinale, gouverné par Mars."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Force",
+      "title": "Une énergie contagieuse",
+      "text": "Le Bélier rayonne d’enthousiasme et d’élan. Il n’hésite pas à ouvrir la voie et à inspirer son entourage par son dynamisme."
+    },
+    {
+      "theme": "night",
+      "kicker": "À surveiller",
+      "title": "Attention à l’impatience",
+      "text": "Le Bélier peut vouloir tout, tout de suite. Prendre le temps d’écouter les autres lui apporte plus d’équilibre au quotidien."
+    },
+    {
+      "theme": "fire",
+      "kicker": "En amour",
+      "title": "Un cœur passionné",
+      "text": "Le Bélier s’engage avec spontanéité et chaleur. Il aime vivre des relations sincères, vibrantes et pleines d’initiative."
+    },
+    {
+      "theme": "night",
+      "kicker": "Au travail",
+      "title": "Toujours prêt à foncer",
+      "text": "Au bureau, le Bélier adore démarrer de nouveaux projets et motiver son équipe. Il se distingue par son esprit d’initiative."
+    }
+  ],
+  "cta": {
+    "text": "Découvrez d’autres signes du zodiaque",
+    "label": "Voir plus d’articles",
+    "url": "/fr/articles"
+  }
+}

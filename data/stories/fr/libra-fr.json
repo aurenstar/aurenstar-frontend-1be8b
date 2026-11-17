@@ -1,0 +1,48 @@
+{
+  "lang": "fr",
+  "slug": "libra-fr",
+  "date": "2026-11-17",
+  "title": "Balance : tout savoir sur ce signe",
+  "description": "Découvrez les secrets de la Balance, signe d’air gouverné par Vénus. Forces, défis, amour et travail : apprenez-en plus sur ce signe raffiné et sociable.",
+  "theme": "air",
+  "sign": "libra",
+  "swipe": "Touchez pour continuer",
+  "more": "Lire plus",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Le saviez-vous ?",
+      "title": "Les bases de la Balance",
+      "text": "La Balance règne autour du 23 septembre au 22 octobre. Signe d’air, de qualité cardinale, gouverné par Vénus : charme, harmonie et nouveauté sont au rendez-vous."
+    },
+    {
+      "theme": "air",
+      "kicker": "Son atout",
+      "title": "L’art de la diplomatie",
+      "text": "La Balance excelle pour créer la paix et rapprocher les gens. Elle sait écouter et trouver le bon compromis avec élégance."
+    },
+    {
+      "theme": "night",
+      "kicker": "Attention à…",
+      "title": "Difficulté à trancher",
+      "text": "Cherchant souvent l’équilibre, la Balance peut avoir du mal à prendre une décision ferme ou à exprimer un désaccord."
+    },
+    {
+      "theme": "air",
+      "kicker": "En amour",
+      "title": "Recherche d’harmonie",
+      "text": "En couple, la Balance aime la complicité et la beauté du lien. Elle cherche à bâtir une relation équilibrée et douce."
+    },
+    {
+      "theme": "night",
+      "kicker": "Au travail",
+      "title": "Travail d’équipe apprécié",
+      "text": "La Balance brille dans les métiers où coopération et esthétique comptent. Elle favorise un climat agréable et juste au bureau."
+    }
+  ],
+  "cta": {
+    "text": "Découvrez d’autres signes et thèmes !",
+    "label": "Voir tout",
+    "url": "/fr/articles"
+  }
+}

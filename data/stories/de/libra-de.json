@@ -1,0 +1,48 @@
+{
+  "lang": "de",
+  "slug": "libra-de",
+  "date": "2026-11-17",
+  "title": "Waage: Was du wissen solltest",
+  "description": "Die Waage ist das Zeichen der Harmonie und Schönheit. Erfahre mehr über Stärken, Herausforderungen, Liebe und Beruf bei diesem Luftzeichen.",
+  "theme": "air",
+  "sign": "libra",
+  "swipe": "Zum Weiterlesen tippen",
+  "more": "Mehr entdecken",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Grundlagen",
+      "title": "Das Zeichen Waage",
+      "text": "Geboren rund um den 23. September bis 22. Oktober. Element Luft, kardinale Qualität und regiert von Venus."
+    },
+    {
+      "theme": "air",
+      "kicker": "Stärke",
+      "title": "Harmonie im Herzen",
+      "text": "Waagen bringen Frieden und Ausgleich in jede Situation. Ihr Sinn für Gerechtigkeit macht sie zu echten Vermittlern."
+    },
+    {
+      "theme": "night",
+      "kicker": "Achtsamkeit",
+      "title": "Entscheidungen treffen",
+      "text": "Manchmal fällt es Waagen schwer, sich festzulegen. Zu viel Abwägen kann sie verunsichern."
+    },
+    {
+      "theme": "air",
+      "kicker": "In der Liebe",
+      "title": "Romantik und Balance",
+      "text": "Waagen suchen Partnerschaften voller Schönheit und Gleichgewicht. Sie legen viel Wert auf gemeinsame Harmonie."
+    },
+    {
+      "theme": "night",
+      "kicker": "Im Beruf",
+      "title": "Teamgeist zählt",
+      "text": "Waagen arbeiten am liebsten im Team. Ihr diplomatisches Talent bringt Menschen zusammen und fördert ein gutes Arbeitsklima."
+    }
+  ],
+  "cta": {
+    "text": "Lerne weitere Sternzeichen kennen!",
+    "label": "Alle Artikel",
+    "url": "/de/articles"
+  }
+}

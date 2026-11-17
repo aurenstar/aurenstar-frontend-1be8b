@@ -1,0 +1,48 @@
+{
+  "lang": "de",
+  "slug": "cancer-de",
+  "date": "2026-11-17",
+  "title": "Krebs: Das solltest du wissen",
+  "description": "Krebs-Geborene (ca. 21. Juni–22. Juli) sind sensibel, fürsorglich und intuitiv. Erfahre mehr über Stärken, Herausforderungen, Liebe und Beruf.",
+  "theme": "water",
+  "sign": "cancer",
+  "swipe": "Zum Weiterlesen tippen",
+  "more": "Mehr entdecken",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Überblick",
+      "title": "Krebs – die Basics",
+      "text": "Geburtszeit: ca. 21. Juni bis 22. Juli. Element Wasser, kardinale Qualität, regiert vom Mond."
+    },
+    {
+      "theme": "water",
+      "kicker": "Stärke",
+      "title": "Einfühlsames Herz",
+      "text": "Krebse spüren, was andere bewegt. Sie schenken Geborgenheit und haben großes Mitgefühl."
+    },
+    {
+      "theme": "night",
+      "kicker": "Achte darauf",
+      "title": "Manchmal zu sensibel",
+      "text": "Krebse nehmen vieles schnell zu Herzen. Es hilft, sich hin und wieder abzugrenzen."
+    },
+    {
+      "theme": "water",
+      "kicker": "In der Liebe",
+      "title": "Zärtlich & loyal",
+      "text": "Wer das Herz eines Krebses gewinnt, erlebt tiefe Zuneigung und treue Verbundenheit."
+    },
+    {
+      "theme": "night",
+      "kicker": "Im Job",
+      "title": "Teamgeist pur",
+      "text": "Krebse unterstützen ihr Umfeld und glänzen in Berufen, bei denen Fürsorge zählt."
+    }
+  ],
+  "cta": {
+    "text": "Erkunde weitere Sternzeichen-Artikel",
+    "label": "Mehr Artikel",
+    "url": "/de/articles"
+  }
+}

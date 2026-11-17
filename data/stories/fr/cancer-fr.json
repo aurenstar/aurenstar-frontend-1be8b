@@ -1,0 +1,48 @@
+{
+  "lang": "fr",
+  "slug": "cancer-fr",
+  "date": "2026-11-17",
+  "title": "Cancer : l’essentiel à découvrir",
+  "description": "Découvrez les points clés du signe du Cancer : ses forces, ses défis, l’amour et le travail, pour mieux comprendre ce signe d’eau cardinal gouverné par la Lune.",
+  "theme": "water",
+  "sign": "cancer",
+  "swipe": "Touchez pour avancer",
+  "more": "Lire plus",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Le saviez-vous ?",
+      "title": "Cancer en bref",
+      "text": "Né.e autour du 21 juin au 22 juillet, le Cancer est un signe d’eau cardinal gouverné par la Lune."
+    },
+    {
+      "theme": "water",
+      "kicker": "Point fort",
+      "title": "Grande sensibilité",
+      "text": "Le Cancer se distingue par son intuition et sa capacité à ressentir profondément les émotions des autres."
+    },
+    {
+      "theme": "night",
+      "kicker": "À surveiller",
+      "title": "Émotions intenses",
+      "text": "Parfois, le Cancer peut se laisser submerger par ses propres émotions. Prendre du recul lui fait du bien."
+    },
+    {
+      "theme": "water",
+      "kicker": "En amour",
+      "title": "Tendre et loyal",
+      "text": "Le Cancer aime intensément. Il recherche la sécurité affective et prend soin de ceux qu’il aime."
+    },
+    {
+      "theme": "night",
+      "kicker": "Au travail",
+      "title": "Esprit d’équipe",
+      "text": "Le Cancer apprécie l’harmonie au travail et apporte une touche de bienveillance dans ses relations professionnelles."
+    }
+  ],
+  "cta": {
+    "text": "Explorez d’autres signes sur Aurenstar",
+    "label": "Voir les articles",
+    "url": "/fr/articles"
+  }
+}
