@@ -76,8 +76,17 @@ def wrap(draw, text, font, width):
         else: lines.append(cur); cur = w
     return lines + [cur]
 
+# language-neutral poster per sign (used by stories the robot writes in other languages: no text, so every script works)
+for key, (ch, theme) in SIGNS.items():
+    top, bot = THEMES[theme]
+    im = base(640, 853, top, bot, 'poster-' + key)
+    im = glyph(im, ch, 330, 320, 380, 215)
+    ImageDraw.Draw(im).text((48, 52), 'AURENSTAR', font=ImageFont.truetype(FONT, 22), fill=(255, 255, 255))
+    im.convert('RGB').save(f'{OUT}/poster-sign-{key}.webp', quality=80)
+
 for f in sorted(glob.glob('data/stories/*/*.json')):
     s = json.load(open(f, encoding='utf-8'))
+    if s['lang'] not in ('pt', 'en', 'es'): continue  # other languages use the poster of the sign
     top, bot = THEMES[s['theme']]
     im = base(640, 853, top, bot, s['slug'])
     if s.get('sign') in SIGNS:
