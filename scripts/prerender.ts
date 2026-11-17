@@ -22,6 +22,7 @@ import { REMOVED_ARTICLES } from '../src/data/removedArticles';
 import mergedTerms from '../src/data/mergedDictionaryTerms.json';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 import { hreflangLinks, langUrl } from '../server/engine/localizePage';
+import { renderWebStory, checkStory, storyPath, type WebStory } from '../server/engine/webStory';
 import { renderNativeArticle, renderNativeHub, pathOf, hubPath, type NativeArticle } from '../server/engine/nativeArticle';
 import { URL_LANGUAGES } from '../src/utils/urlLang';
 import { getArticleIsoDate, getArticleSlug } from '../src/utils/articleSlug';
@@ -296,8 +297,25 @@ for (const [lang, list] of nativeByLang) {
 }
 if (nativeUrls.length) fs.writeFileSync(path.join(dist, 'sitemap-native.xml'), urlset(nativeUrls.map((u) => `  <url><loc>${escapeXml(u.loc)}</loc><lastmod>${u.lastmod}</lastmod></url>`).join('\n')));
 
+// Web Stories (Google, see server/engine/webStory.ts): one AMP page each, written to dist/stories/<lang>/<slug>.html (served at /stories/<lang>/<slug>), own sitemap file.
+const storyUrls: { loc: string; lastmod: string }[] = [];
+const storiesDir = path.join(root, 'data/stories');
+if (fs.existsSync(storiesDir)) {
+  for (const l of fs.readdirSync(storiesDir)) {
+    for (const f of fs.readdirSync(path.join(storiesDir, l)).filter((x) => x.endsWith('.json'))) {
+      const st: WebStory = JSON.parse(fs.readFileSync(path.join(storiesDir, l, f), 'utf8'));
+      const bad = checkStory(st);
+      if (bad.length) { console.warn(`prerender: story ${l}/${f} skipped (${bad.join(', ')})`); continue; }
+      fs.mkdirSync(path.join(dist, 'stories', st.lang), { recursive: true });
+      fs.writeFileSync(path.join(dist, 'stories', st.lang, `${st.slug}.html`), renderWebStory(st, SITE_URL));
+      storyUrls.push({ loc: `${SITE_URL}${storyPath(st)}`, lastmod: st.date });
+    }
+  }
+}
+if (storyUrls.length) fs.writeFileSync(path.join(dist, 'sitemap-stories.xml'), urlset(storyUrls.map((u) => `  <url><loc>${escapeXml(u.loc)}</loc><lastmod>${u.lastmod}</lastmod></url>`).join('\n')));
+
 const sorted = sitemap.sort((a, b) => a.loc.localeCompare(b.loc));
-if (sorted.length <= PAGES_PER_FILE && !nativeUrls.length) {
+if (sorted.length <= PAGES_PER_FILE && !nativeUrls.length && !storyUrls.length) {
   fs.writeFileSync(path.join(dist, 'sitemap.xml'), urlset(urlEntries(sorted)));
 } else {
   const parts: string[] = [];
@@ -307,6 +325,7 @@ if (sorted.length <= PAGES_PER_FILE && !nativeUrls.length) {
     parts.push(name);
   }
   if (nativeUrls.length) parts.push('sitemap-native.xml');
+  if (storyUrls.length) parts.push('sitemap-stories.xml');
   const today = new Date().toISOString().slice(0, 10);
   fs.writeFileSync(
     path.join(dist, 'sitemap.xml'),

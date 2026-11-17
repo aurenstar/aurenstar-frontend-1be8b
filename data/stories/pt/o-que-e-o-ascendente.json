@@ -1,0 +1,46 @@
+{
+  "lang": "pt",
+  "slug": "o-que-e-o-ascendente",
+  "date": "2026-11-17",
+  "title": "O que é o ascendente?",
+  "description": "Entenda o signo que mostra a primeira impressão que você causa nas pessoas.",
+  "theme": "night",
+  "swipe": "Toque para avançar",
+  "pages": [
+    {
+      "theme": "night",
+      "kicker": "O que é",
+      "title": "O signo que subia no horizonte",
+      "text": "No instante em que você nasceu, um signo estava nascendo no horizonte leste. Esse é o seu ascendente."
+    },
+    {
+      "theme": "air",
+      "kicker": "Como os outros veem",
+      "title": "A sua primeira impressão",
+      "text": "O ascendente mostra como você chega: a postura, o tom de voz e a energia que as pessoas percebem logo de cara."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Muda rápido",
+      "title": "Um novo signo a cada 2 horas, mais ou menos",
+      "text": "Por isso duas pessoas nascidas no mesmo dia podem ter ascendentes diferentes. Em média, cada signo sobe por cerca de 2 horas."
+    },
+    {
+      "theme": "water",
+      "kicker": "Precisa da hora",
+      "title": "A hora do nascimento faz diferença",
+      "text": "Sem a hora certa, o ascendente pode sair errado. Procure a hora na certidão de nascimento."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Exemplo inventado",
+      "title": "Sol em Leão, ascendente em Virgem",
+      "text": "Por dentro, a pessoa é expansiva e vaidosa. Por fora, parece reservada e organizada. O ascendente muda o jeito de aparecer."
+    }
+  ],
+  "cta": {
+    "text": "Descubra mais sobre o seu signo",
+    "label": "Abrir a ferramenta",
+    "url": "/pt/discover-sign"
+  }
+}

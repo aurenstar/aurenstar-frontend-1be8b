@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "what-is-a-rising-sign",
+  "date": "2026-11-17",
+  "title": "What is a rising sign?",
+  "description": "Learn about the sign that shows the first impression you make on people.",
+  "theme": "night",
+  "swipe": "Tap to continue",
+  "pages": [
+    {
+      "theme": "night",
+      "kicker": "What it is",
+      "title": "The sign rising on the horizon",
+      "text": "At the moment you were born, one sign was rising over the eastern horizon. That is your rising sign."
+    },
+    {
+      "theme": "air",
+      "kicker": "How others see you",
+      "title": "Your first impression",
+      "text": "The rising sign shows how you come across: your posture, your tone of voice and the energy people notice right away."
+    },
+    {
+      "theme": "fire",
+      "kicker": "It changes fast",
+      "title": "A new sign about every 2 hours",
+      "text": "That is why two people born on the same day can have different rising signs. On average, each sign rises for about 2 hours."
+    },
+    {
+      "theme": "water",
+      "kicker": "You need the time",
+      "title": "Your birth time matters",
+      "text": "Without the right time, the rising sign can come out wrong. Look for it on your birth certificate."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Made-up example",
+      "title": "Sun in Leo, rising in Virgo",
+      "text": "Inside, the person is outgoing and proud. On the outside, they seem reserved and organized. The rising sign changes how you show up."
+    }
+  ],
+  "cta": {
+    "text": "Find out more about your sign",
+    "label": "Open the tool",
+    "url": "/discover-sign"
+  }
+}
