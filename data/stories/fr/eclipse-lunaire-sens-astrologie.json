@@ -1,0 +1,47 @@
+{
+  "lang": "fr",
+  "slug": "eclipse-lunaire-sens-astrologie",
+  "date": "2026-11-17",
+  "title": "Éclipse lunaire : révélation ou tournant pour vous ?",
+  "description": "Découvrez comment l'éclipse lunaire peut bouleverser vos émotions et ouvrir la voie à un nouveau départ dans votre vie.",
+  "theme": "water",
+  "kind": "article",
+  "swipe": "Glissez pour savoir",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Surprise",
+      "title": "Une Lune pas comme les autres",
+      "text": "Lors d’une éclipse lunaire, la Lune prend une teinte rougeâtre surnommée « lune de sang ». Pourquoi ce phénomène touche-t-il vos émotions ?"
+    },
+    {
+      "theme": "water",
+      "kicker": "Clé 1",
+      "title": "Émotions sous les projecteurs",
+      "text": "Sous cette éclipse, vos sentiments cachés remontent à la surface. Vous sentez-vous prêt à affronter ce que vous refoulez ?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Clé 2",
+      "title": "Fin ou nouveau départ ?",
+      "text": "L’éclipse marque souvent la fin d’un cycle pour préparer un nouveau départ. Quel changement pourrait bientôt vous concerner ?"
+    },
+    {
+      "theme": "water",
+      "kicker": "Clé 3",
+      "title": "Votre signe en première ligne",
+      "text": "L’éclipse agit plus fort sur certains signes. Saviez-vous que votre signe peut influencer l’intensité de ces effets ?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Invitation",
+      "title": "Pourquoi lire l’article complet ?",
+      "text": "Découvrez comment utiliser cette énergie puissante pour évoluer et transformer votre vie. Êtes-vous prêt à franchir ce cap ?"
+    }
+  ],
+  "cta": {
+    "text": "Envie d'en savoir plus ?",
+    "label": "Lire l'article",
+    "url": "/fr/blog/eclipse-lunaire-sens-astrologie"
+  }
+}

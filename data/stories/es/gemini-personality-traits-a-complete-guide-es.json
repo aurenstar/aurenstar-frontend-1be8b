@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "gemini-personality-traits-a-complete-guide-es",
+  "date": "2026-11-17",
+  "title": "¿Sabes qué hace único a Géminis?",
+  "description": "Descubre rasgos sorprendentes de Géminis que afectan su forma de comunicar, sentir y relacionarse. ¿Te sientes identificado?",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Desliza para saber",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Curiosidad",
+      "title": "Géminis y su mente inquieta",
+      "text": "Géminis siempre busca estímulos mentales y sociales, saltando de tema en tema con una energía que fascina y desconcierta."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Comunicación",
+      "title": "El don y reto de hablar",
+      "text": "Su habilidad para cambiar rápido de conversación los hace encantadores, pero también pueden parecer superficiales. ¿Lo notaste?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Emociones",
+      "title": "Cambios de humor inesperados",
+      "text": "Un Géminis puede pasar de alegre a distante en segundos, reflejando su mente activa más que su entorno."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Social",
+      "title": "El alma de la fiesta",
+      "text": "En grupo, Géminis alterna entre charlas profundas y bromas ligeras, manteniendo siempre a todos atentos."
+    },
+    {
+      "theme": "night",
+      "kicker": "Descubre",
+      "title": "¿Qué hay detrás de Géminis?",
+      "text": "En el artículo completo entenderás por qué Géminis actúa así y cómo eso impacta tus relaciones y crecimiento personal."
+    }
+  ],
+  "cta": {
+    "text": "Conoce más sobre Géminis",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/gemini-personality-traits-a-complete-guide"
+  }
+}

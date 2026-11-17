@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "astrology-chart-your-cosmic-blueprint-explained-es",
+  "date": "2026-11-17",
+  "title": "¿Por qué actúas como actúas? Tu carta astral lo explica",
+  "description": "Descubre cómo tu carta astral revela patrones ocultos en tu personalidad y te guía para tomar mejores decisiones en la vida.",
+  "theme": "water",
+  "kind": "article",
+  "swipe": "Sigue leyendo",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Sorpresa",
+      "title": "Tu carta astral es única",
+      "text": "Es un mapa del cielo en el momento exacto de tu nacimiento. ¿Sabías que revela mucho más que tu signo solar?"
+    },
+    {
+      "theme": "water",
+      "kicker": "Dato clave",
+      "title": "Más que solo tu signo",
+      "text": "Tu carta muestra por qué te atraen ciertas cosas o por qué te sientes inquieto en algunas situaciones. ¿Quieres saber cómo?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Conexión",
+      "title": "Sol, Luna y Ascendente",
+      "text": "Estos tres signos cuentan quién eres en esencia, tus emociones y cómo te muestras a los demás. ¿Qué te estarán diciendo?"
+    },
+    {
+      "theme": "water",
+      "kicker": "Profundidad",
+      "title": "Planetas y sus juegos",
+      "text": "Venus habla de amor y Marte de tus ganas de avanzar. Las relaciones entre planetas revelan tus desafíos internos. ¿Lo reconoces?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Revelación",
+      "title": "Tu guía para la vida",
+      "text": "Entender tu carta te ayuda a tomar decisiones conscientes en relaciones y trabajo. ¿Quieres descubrir tu verdadero potencial?"
+    }
+  ],
+  "cta": {
+    "text": "Descubre tu mapa cósmico",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/astrology-chart-your-cosmic-blueprint-explained"
+  }
+}

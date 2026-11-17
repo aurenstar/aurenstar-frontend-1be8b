@@ -1,0 +1,47 @@
+{
+  "lang": "tr",
+  "slug": "dogum-haritasi-nedir-nasil-anlanir",
+  "date": "2026-11-17",
+  "title": "Doğum Haritan Neden Önemli?",
+  "description": "Doğum haritanın gizemli dünyasına adım at. Kişiliğini ve potansiyelini nasıl keşfedebileceğini öğren!",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Kaydır, keşfet",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Merak Ettin Mi?",
+      "title": "Gökyüzü Anlatıyor",
+      "text": "Doğduğun an gökyüzü sana kim olduğunu fısıldar. Peki, bu harita senin hakkında neler söyler?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Kendi Haritan",
+      "title": "Burçlar ve Evler",
+      "text": "Güneş burcun kişiliğini şekillendirir. Evler ise hayatındaki önceliklerini gösterir. Senin evlerin hangi sırları saklıyor?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Duyguların Şifresi",
+      "title": "Ay ve Merkür",
+      "text": "Ay duygularını, Merkür iletişim tarzını anlatır. Bu gezegenlerin konumları hayatını nasıl etkiliyor olabilir?"
+    },
+    {
+      "theme": "air",
+      "kicker": "İpuçları",
+      "title": "Yükselen Burcun ve Daha Fazlası",
+      "text": "Yükselen burcun dış dünyaya yansıman. Bu harita, kendini daha iyi tanıman için ipuçları veriyor. Peki detaylar nasıl?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Önemli",
+      "title": "Tamamen Anlamanın Yolu",
+      "text": "Basit örneklerle doğum haritasını nasıl okuyacağını öğren. Kişisel gelişimin için bu bilgiler neden çok değerli?"
+    }
+  ],
+  "cta": {
+    "text": "Doğum haritanı keşfet",
+    "label": "Tam yazıyı oku",
+    "url": "/tr/blog/dogum-haritasi-nedir-nasil-anlanir"
+  }
+}
