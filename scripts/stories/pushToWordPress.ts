@@ -1,6 +1,6 @@
 /**
  * Creates (or updates) our stories inside the WordPress "Web Stories" plugin.
- *   npx tsx scripts/stories/pushToWordPress.ts [--lang pt] [--slug <slug>] [--publish] [--max 40] [--dry]
+ *   npx tsx scripts/stories/pushToWordPress.ts [--lang pt] [--slug <slug>] [--publish] [--new-only] [--max 40] [--dry]
  * Needs WP_APP_PASSWORD (the WordPress application password) and optionally WP_USER / WP_URL.
  * Without --publish new stories are saved as DRAFT and old ones keep their status, so nothing goes live by accident.
  * One story = one WordPress story with the same slug; running it twice only updates.
@@ -19,6 +19,7 @@ const SITE = 'https://aurenstar.com';
 const USER = process.env.WP_USER || 'oficialsafare';
 const PASS = (process.env.WP_APP_PASSWORD || '').trim();
 const auth = 'Basic ' + Buffer.from(`${USER}:${PASS}`).toString('base64');
+const NEW_ONLY = flag('new-only');
 const MORE: Record<string, string> = { pt: 'Continue lendo', en: 'Keep reading', es: 'Sigue leyendo' };
 
 async function wp(method: string, p: string, body?: unknown) {
@@ -46,6 +47,7 @@ for (const s of pick) {
   const found = await wp('GET', `/web-stories/v1/web-story?slug=${encodeURIComponent(s.slug)}&status=any&_fields=id,status`);
   if (found.status === 401 || found.status === 403) { console.error(`WordPress refused the password (${found.status}). Stop.`); process.exit(1); }
   const old = Array.isArray(found.json) ? found.json[0] : undefined;
+  if (old && NEW_ONLY) continue;
   const payload: Record<string, unknown> = { title: s.title, slug: s.slug, excerpt: s.description, story_data, content };
   if (flag('publish')) payload.status = 'publish'; else if (!old) payload.status = 'draft';
   const r = old ? await wp('POST', `/web-stories/v1/web-story/${old.id}`, payload) : await wp('POST', '/web-stories/v1/web-story', payload);

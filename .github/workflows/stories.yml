@@ -9,8 +9,12 @@ on:
       langs:
         description: 'Languages (empty = the ones open in data/native-plan.json)'
         default: ''
+      cap:
+        description: 'Most US$ this run may spend (empty = the plan daily limit)'
+        default: ''
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: native-articles
   cancel-in-progress: false
@@ -28,6 +32,7 @@ jobs:
       - name: Write stories (skips quietly if the key is not set or the plan is paused)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          STORY_CAP_USD: ${{ github.event.inputs.cap }}
         run: |
           args="--max ${{ github.event.inputs.max }}"
           if [ -n "${{ github.event.inputs.langs }}" ]; then args="$args --langs ${{ github.event.inputs.langs }}"; fi
@@ -45,4 +50,14 @@ jobs:
             git commit -m "Web Stories: new ones written directly in each language"
             git pull --rebase origin main
             git push
+          fi
+      - name: Put the new stories in the WordPress plugin (published) and on the site right away
+        env:
+          WP_APP_PASSWORD: ${{ secrets.ROBO_WEBSTORIES }}
+          WP_USER: oficialsafare
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -n "$WP_APP_PASSWORD" ]; then
+            npx tsx scripts/stories/pushToWordPress.ts --publish --new-only --max 600
+            gh workflow run wordpress-stories-sync.yml --repo ${{ github.repository }} --ref main
           fi

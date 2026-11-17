@@ -18,10 +18,11 @@ const DRY = process.argv.includes('--dry');
 const KEY = process.env.OPENAI_API_KEY;
 const WAVE = activeWave();
 const LANGS = (arg('langs') || process.env.STORY_LANGS || WAVE.langs.join(',')).split(',').map((s) => s.trim()).filter((l) => l && !HAND_LANGS.includes(l));
-const MAX = Math.max(0, Math.min(24, Number(arg('max') ?? (process.env.STORY_MAX || 6))));
+const MAX = Math.max(0, Math.min(600, Number(arg('max') ?? (process.env.STORY_MAX || 6))));
 const MODELS = { write: process.env.OPENAI_WRITE_MODEL || 'gpt-4.1', review: process.env.OPENAI_MODEL || 'gpt-4.1-mini' };
 const PRICE: Record<string, [number, number]> = { 'gpt-4.1': [2, 8], 'gpt-4.1-mini': [0.4, 1.6] };
-const DAILY_CAP = Number((planFile as any).dailyCapUsd || process.env.NATIVE_DAILY_CAP_USD || 0.10);
+// STORY_CAP_USD = the most this run may spend (set by the workflow when the owner asks for all languages); otherwise the plan's daily limit
+const DAILY_CAP = Number(process.env.STORY_CAP_USD || (planFile as any).dailyCapUsd || process.env.NATIVE_DAILY_CAP_USD || 0.10);
 const COST_FILE = path.join(root, 'data/native-cost.json');
 const today = new Date().toISOString().slice(0, 10);
 const readCost = (): Record<string, any> => { try { return JSON.parse(fs.readFileSync(COST_FILE, 'utf8')); } catch { return {}; } };
