@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { Fragment, useEffect, useState, useMemo } from 'react';
 import { fetchWithHumanCheck } from '../utils/turnstile';
 import { getArticleSlugById } from '../utils/articleSlug';
 import { onPlainClick } from '../utils/links';
@@ -519,7 +519,8 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
 
           {/* Sections */}
           {article.sections.map((section, idx) => (
-            <section key={`sec-${idx}`} className="mb-8">
+            <Fragment key={`sec-${idx}`}>
+            <section className="mb-8">
               <h2 data-loc={activeLocalized ? '' : undefined} data-seg={`s${idx}h`} className={"text-xl sm:text-2xl font-bold text-[#17366F] mb-3 tracking-tight" + act(`s${idx}h`)}>
                 {hl(`s${idx}h`, section.heading[lang] || section.heading.pt)}
               </h2>
@@ -533,6 +534,33 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
                 </p>
               ))}
             </section>
+            {/* Keep reading: 3 real links in the middle of the article (not competing with the end-of-page "Continue reading" card) */}
+            {idx === Math.max(0, Math.ceil(article.sections.length / 2) - 1) ? (() => {
+            const rel = (article.related || [])
+              .map((id) => BLOG_ARTICLES.find((a) => a.id === id))
+              .filter((a): a is NonNullable<typeof a> => !!a && a.id !== article.id)
+              .slice(0, 3);
+            if (!rel.length) return null;
+            return (
+              <nav aria-label={l.keepReading} className="my-10">
+                <h3 className="text-sm sm:text-base font-bold text-[#17366F] uppercase tracking-wider mb-3">{l.keepReading}</h3>
+                <ul className="space-y-2 list-disc pl-5">
+                  {rel.map((a) => (
+                    <li key={a.id} className="text-sm sm:text-base">
+                      <a
+                        href={`/blog/${getArticleSlugById(a.id)}`}
+                        onClick={onPlainClick(() => onSelectArticle(a.id))}
+                        className="text-[#3982C8] hover:underline"
+                      >
+                        {a.title[lang] || a.title.pt}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            );
+          })() : null}
+            </Fragment>
           ))}
 
           {/* Key Takeaways Box */}
@@ -557,31 +585,6 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
               </ul>
             </div>
           ) : null}
-          {/* Keep reading: real links to related articles picked by the factory */}
-          {(() => {
-            const rel = (article.related || [])
-              .map((id) => BLOG_ARTICLES.find((a) => a.id === id))
-              .filter((a): a is NonNullable<typeof a> => !!a && a.id !== article.id);
-            if (!rel.length) return null;
-            return (
-              <nav aria-label={l.keepReading} className="my-10">
-                <h3 className="text-sm sm:text-base font-bold text-[#17366F] uppercase tracking-wider mb-3">{l.keepReading}</h3>
-                <ul className="space-y-2 list-disc pl-5">
-                  {rel.map((a) => (
-                    <li key={a.id} className="text-sm sm:text-base">
-                      <a
-                        href={`/blog/${getArticleSlugById(a.id)}`}
-                        onClick={onPlainClick(() => onSelectArticle(a.id))}
-                        className="text-[#3982C8] hover:underline"
-                      >
-                        {a.title[lang] || a.title.pt}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </nav>
-            );
-          })()}
         </div>
         </div>
 
