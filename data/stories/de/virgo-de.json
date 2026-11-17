@@ -1,0 +1,48 @@
+{
+  "lang": "de",
+  "slug": "virgo-de",
+  "date": "2026-11-17",
+  "title": "Jungfrau: Das solltest du wissen",
+  "description": "Entdecke die wichtigsten Eigenschaften der Jungfrau: Von den Geburtsdaten bis zu ihren Stärken, Herausforderungen, Liebe und Beruf.",
+  "theme": "earth",
+  "sign": "virgem",
+  "swipe": "Tippe weiter",
+  "more": "Mehr lesen",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Grundlagen",
+      "title": "Jungfrau auf einen Blick",
+      "text": "Geboren rund um den 23. August bis 22. September. Element Erde, veränderliche Qualität, regiert vom Merkur."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Stärke",
+      "title": "Analytisch und ordentlich",
+      "text": "Jungfrauen haben ein gutes Auge für Details. Sie erkennen schnell, was gebraucht wird, und sind oft sehr hilfsbereit."
+    },
+    {
+      "theme": "night",
+      "kicker": "Achte darauf",
+      "title": "Nicht zu kritisch sein",
+      "text": "Jungfrauen neigen dazu, sich und andere streng zu beurteilen. Ein wenig Nachsicht tut manchmal gut."
+    },
+    {
+      "theme": "earth",
+      "kicker": "In der Liebe",
+      "title": "Zuverlässige Partner",
+      "text": "Jungfrauen zeigen ihre Liebe oft durch kleine, praktische Gesten. Ehrlichkeit und Vertrauen sind ihnen wichtig."
+    },
+    {
+      "theme": "night",
+      "kicker": "Im Beruf",
+      "title": "Sorgfalt zahlt sich aus",
+      "text": "Bei der Arbeit sind Jungfrauen gründlich und organisiert. Sie schätzen klare Abläufe und unterstützen ihr Team."
+    }
+  ],
+  "cta": {
+    "text": "Entdecke weitere Sternzeichen bei Aurenstar!",
+    "label": "Weitere Artikel",
+    "url": "/de/articles"
+  }
+}

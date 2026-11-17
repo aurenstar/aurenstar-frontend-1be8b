@@ -1,0 +1,48 @@
+{
+  "lang": "fr",
+  "slug": "taurus-fr",
+  "date": "2026-11-17",
+  "title": "Taureau : ce qu’il faut savoir",
+  "description": "Découvrez les essentiels du Taureau : ses dates, forces, défis, amour et travail. Un tour d’horizon chaleureux pour mieux comprendre ce signe de terre.",
+  "theme": "earth",
+  "sign": "touro",
+  "swipe": "Touchez pour continuer",
+  "more": "À découvrir",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Le saviez-vous ?",
+      "title": "Profil du Taureau",
+      "text": "Né autour du 20 avril au 20 mai, le Taureau est un signe de terre, de qualité fixe, gouverné par Vénus."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Point fort",
+      "title": "Fiabilité tranquille",
+      "text": "Le Taureau est reconnu pour sa constance et sa loyauté. On peut compter sur lui dans la durée."
+    },
+    {
+      "theme": "night",
+      "kicker": "À surveiller",
+      "title": "Routines rigides",
+      "text": "Attention à ne pas rester bloqué dans ses habitudes : un peu de souplesse fait parfois du bien."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Vie amoureuse",
+      "title": "Sensible et fidèle",
+      "text": "En amour, le Taureau cherche la stabilité et apprécie les gestes tendres. Il aime construire sur du solide."
+    },
+    {
+      "theme": "night",
+      "kicker": "Au travail",
+      "title": "Persévérance au rendez-vous",
+      "text": "Le Taureau avance à son rythme, mais il va loin ! Sa patience et son sens pratique sont de vrais atouts au quotidien."
+    }
+  ],
+  "cta": {
+    "text": "Explorez tous nos articles Taureau",
+    "label": "Voir plus",
+    "url": "/fr/articles"
+  }
+}

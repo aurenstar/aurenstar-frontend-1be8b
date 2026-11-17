@@ -1,0 +1,48 @@
+{
+  "lang": "de",
+  "slug": "pisces-de",
+  "date": "2026-11-17",
+  "title": "Fische: Was du wissen solltest",
+  "description": "Entdecke die wichtigsten Eigenschaften des Sternzeichens Fische: Stärken, Herausforderungen, Liebe und Beruf – alles auf einen Blick erklärt.",
+  "theme": "water",
+  "sign": "peixes",
+  "swipe": "Tippe weiter",
+  "more": "Mehr lesen",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Sternzeichen-Basics",
+      "title": "Fische im Überblick",
+      "text": "Geboren rund um 19. Februar bis 20. März. Element Wasser, veränderlich. Herrscher: Neptun (klassisch auch Jupiter)."
+    },
+    {
+      "theme": "water",
+      "kicker": "Stärke",
+      "title": "Mitgefühl pur",
+      "text": "Fische spüren oft, wie es anderen geht, und helfen gern. Ihr Herz ist offen für die Gefühle ihrer Mitmenschen."
+    },
+    {
+      "theme": "night",
+      "kicker": "Achte darauf",
+      "title": "Nicht alles aufsaugen",
+      "text": "Manchmal nehmen Fische zu viel von anderen auf. Es ist wichtig, auch auf die eigenen Grenzen zu achten."
+    },
+    {
+      "theme": "water",
+      "kicker": "In der Liebe",
+      "title": "Romantisch & einfühlsam",
+      "text": "Fische lieben tief und träumen gern. Sie suchen emotionale Nähe und teilen ihre Fantasie mit ihrem Herzensmenschen."
+    },
+    {
+      "theme": "night",
+      "kicker": "Im Beruf",
+      "title": "Kreativ und hilfsbereit",
+      "text": "Fische bringen kreative Ideen ein und schätzen Teamarbeit. Sie blühen auf, wenn sie anderen helfen können."
+    }
+  ],
+  "cta": {
+    "text": "Entdecke weitere Sternzeichen-Artikel",
+    "label": "Alle Artikel",
+    "url": "/de/articles"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "lang": "fr",
+  "slug": "virgo-fr",
+  "date": "2026-11-17",
+  "title": "Vierge : ce qu’il faut savoir",
+  "description": "Découvre les essentiels sur la Vierge : ses dates, ses atouts, ce à quoi elle doit veiller, et comment elle aime et travaille au quotidien.",
+  "theme": "earth",
+  "sign": "virgem",
+  "swipe": "Tape pour continuer",
+  "more": "Encore plus",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Les bases",
+      "title": "Vierge en bref",
+      "text": "Signe de Terre, mutable, la Vierge est gouvernée par Mercure. Dates : autour du 23 août au 22 septembre."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Un atout",
+      "title": "Sens du détail",
+      "text": "La Vierge remarque ce que d’autres oublient. Son regard précis fait toute la différence au quotidien."
+    },
+    {
+      "theme": "night",
+      "kicker": "À surveiller",
+      "title": "Tendance à l’inquiétude",
+      "text": "La Vierge peut parfois trop analyser. Prendre du recul l’aide à mieux vivre les imprévus."
+    },
+    {
+      "theme": "earth",
+      "kicker": "En amour",
+      "title": "Discrétion et sincérité",
+      "text": "En amour, la Vierge préfère les gestes vrais et la confiance qui grandit doucement."
+    },
+    {
+      "theme": "night",
+      "kicker": "Au travail",
+      "title": "Fiable et organisée",
+      "text": "La Vierge aime que les choses soient bien faites. Sa méthode inspire ses collègues."
+    }
+  ],
+  "cta": {
+    "text": "Découvre d'autres signes astrologiques",
+    "label": "Voir les articles",
+    "url": "/fr/articles"
+  }
+}

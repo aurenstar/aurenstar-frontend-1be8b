@@ -1,0 +1,48 @@
+{
+  "lang": "fr",
+  "slug": "capricorn-fr",
+  "date": "2026-11-17",
+  "title": "Capricorne : l'essentiel à savoir",
+  "description": "Découvrez les points clés du signe Capricorne : dates, qualités, amour, travail et plus. Un aperçu chaleureux pour mieux comprendre ce signe de Terre.",
+  "theme": "earth",
+  "sign": "capricornio",
+  "swipe": "Appuyez pour avancer",
+  "more": "À découvrir",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Le saviez-vous ?",
+      "title": "Capricorne en bref",
+      "text": "Né(e) autour du 22 décembre au 19 janvier, le Capricorne appartient à l’élément Terre, de qualité cardinale, et il est gouverné par Saturne."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Un atout",
+      "title": "La persévérance",
+      "text": "Le Capricorne est reconnu pour sa grande persévérance. Il avance pas à pas vers ses buts, même face aux défis."
+    },
+    {
+      "theme": "night",
+      "kicker": "À surveiller",
+      "title": "Trop exigeant ?",
+      "text": "Parfois, le Capricorne peut se montrer trop dur envers lui-même. Se détendre un peu aide à garder l’équilibre."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Côté cœur",
+      "title": "Amour réfléchi",
+      "text": "En amour, le Capricorne avance prudemment. Il cherche une relation solide et durable, bâtie sur la confiance."
+    },
+    {
+      "theme": "night",
+      "kicker": "Au travail",
+      "title": "Ambition tranquille",
+      "text": "Au travail, son sérieux et sa fiabilité font du Capricorne un pilier sur qui compter. Il aime progresser avec méthode."
+    }
+  ],
+  "cta": {
+    "text": "Explorez plus de signes et conseils",
+    "label": "Voir plus",
+    "url": "/fr/articles"
+  }
+}

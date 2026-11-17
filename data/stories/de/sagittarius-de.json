@@ -1,0 +1,48 @@
+{
+  "lang": "de",
+  "slug": "sagittarius-de",
+  "date": "2026-11-17",
+  "title": "Schütze: Was du wissen solltest",
+  "description": "Entdecke die wichtigsten Eigenschaften des Schützen: Von den Geburtsdaten bis zu Liebe und Beruf. Ein kurzer Einblick in dieses Feuerzeichen.",
+  "theme": "fire",
+  "sign": "sagitario",
+  "swipe": "Tippe zum Weiterlesen",
+  "more": "Mehr erfahren",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Das Wichtigste",
+      "title": "Schütze auf einen Blick",
+      "text": "Geboren rund um 22. November bis 21. Dezember. Element Feuer, veränderliche Qualität, regiert von Jupiter."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Stärke",
+      "title": "Optimismus pur",
+      "text": "Schützen sind bekannt für ihre positive Einstellung. Sie sehen oft das Gute – auch wenn es schwierig wird."
+    },
+    {
+      "theme": "night",
+      "kicker": "Achte darauf",
+      "title": "Manchmal zu direkt",
+      "text": "Offenheit ist klasse, aber ab und zu kann ein Schütze mit Worten etwas zu ehrlich sein."
+    },
+    {
+      "theme": "fire",
+      "kicker": "In der Liebe",
+      "title": "Freiheit zählt",
+      "text": "In Beziehungen brauchen Schützen Raum für Abenteuer und gemeinsame Erlebnisse."
+    },
+    {
+      "theme": "night",
+      "kicker": "Im Beruf",
+      "title": "Neue Horizonte",
+      "text": "Schützen blühen auf, wenn sie Neues lernen können und Abwechslung im Job haben."
+    }
+  ],
+  "cta": {
+    "text": "Erkunde weitere Themen bei Aurenstar",
+    "label": "Weitere Artikel",
+    "url": "/de/articles"
+  }
+}

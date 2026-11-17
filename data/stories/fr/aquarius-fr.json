@@ -1,0 +1,48 @@
+{
+  "lang": "fr",
+  "slug": "aquarius-fr",
+  "date": "2026-11-17",
+  "title": "Verseau : L’essentiel à savoir",
+  "description": "Découvrez les points clés du signe du Verseau : ses dates, ses forces, ses défis, et comment il aime et travaille au quotidien. Astuces pour mieux le comprendre !",
+  "theme": "air",
+  "sign": "aquario",
+  "swipe": "Touchez pour avancer",
+  "more": "Voir plus",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Portrait Verseau",
+      "title": "Dates, élément, planètes",
+      "text": "Né(e) autour du 20 janvier au 18 février, le Verseau est un signe d’air, de qualité fixe, gouverné par Uranus et, en classique, Saturne."
+    },
+    {
+      "theme": "air",
+      "kicker": "Son atout",
+      "title": "Ouverture d’esprit",
+      "text": "Le Verseau se distingue par sa curiosité et sa capacité à accueillir les idées nouvelles, toujours prêt à bousculer les habitudes."
+    },
+    {
+      "theme": "night",
+      "kicker": "À surveiller",
+      "title": "Parfois détaché",
+      "text": "Parfois, son besoin d’indépendance peut le rendre un peu distant ou difficile à suivre pour les autres."
+    },
+    {
+      "theme": "air",
+      "kicker": "Côté cœur",
+      "title": "Libre et sincère",
+      "text": "En amour, le Verseau recherche une relation authentique, avec beaucoup de respect pour la liberté de chacun."
+    },
+    {
+      "theme": "night",
+      "kicker": "Au travail",
+      "title": "Créatif et collectif",
+      "text": "Il aime innover, travailler en équipe et apporter des solutions originales à chaque défi professionnel."
+    }
+  ],
+  "cta": {
+    "text": "Explorez plus de signes et conseils",
+    "label": "Tous les articles",
+    "url": "/fr/articles"
+  }
+}

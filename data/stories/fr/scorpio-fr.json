@@ -1,0 +1,48 @@
+{
+  "lang": "fr",
+  "slug": "scorpio-fr",
+  "date": "2026-11-17",
+  "title": "Scorpion : l’essentiel à savoir",
+  "description": "Découvrez le Scorpion : dates, éléments clés, forces, points d’attention, amour et travail. Plongez dans l’univers mystérieux de ce signe d’eau !",
+  "theme": "water",
+  "sign": "escorpiao",
+  "swipe": "Appuyez pour continuer",
+  "more": "Voir plus",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Le saviez-vous ?",
+      "title": "Le Scorpion en bref",
+      "text": "Né autour du 23 octobre au 21 novembre, signe d’eau, de qualité fixe, gouverné par Pluton (et Mars en astrologie classique)."
+    },
+    {
+      "theme": "water",
+      "kicker": "Force principale",
+      "title": "Une intensité unique",
+      "text": "Le Scorpion ressent tout très fort. Sa passion et sa détermination sont ses moteurs pour avancer dans la vie."
+    },
+    {
+      "theme": "night",
+      "kicker": "À surveiller",
+      "title": "Attention à la rancune",
+      "text": "Le Scorpion peut avoir du mal à tourner la page. Il gagne à apprendre le lâcher-prise pour avancer plus sereinement."
+    },
+    {
+      "theme": "water",
+      "kicker": "En amour",
+      "title": "Un partenaire loyal",
+      "text": "En couple, le Scorpion est intense et fidèle. Il recherche une connexion profonde et sincère avec l’autre."
+    },
+    {
+      "theme": "night",
+      "kicker": "Au travail",
+      "title": "Une volonté de fer",
+      "text": "Persévérant, le Scorpion ne lâche rien. Il excelle dans les missions qui demandent intuition et endurance."
+    }
+  ],
+  "cta": {
+    "text": "Découvrez d’autres signes et conseils",
+    "label": "Voir les articles",
+    "url": "/fr/articles"
+  }
+}

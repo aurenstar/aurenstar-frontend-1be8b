@@ -1,0 +1,48 @@
+{
+  "lang": "de",
+  "slug": "leo-de",
+  "date": "2026-11-17",
+  "title": "Löwe: Was du wissen solltest",
+  "description": "Entdecke den Löwen: seine Stärken, Herausforderungen, Liebe und Beruf. Für alle, die zwischen ca. 23. Juli und 22. August geboren sind.",
+  "theme": "fire",
+  "sign": "leao",
+  "swipe": "Zum Weiterlesen tippen",
+  "more": "Mehr erfahren",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Die Grundlagen",
+      "title": "Löwe auf einen Blick",
+      "text": "Geboren ca. 23. Juli–22. August. Element: Feuer. Qualität: Fix. Herrscherplanet: die Sonne."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Stärke",
+      "title": "Großes Herz",
+      "text": "Löwen sind großzügig und lieben es, anderen Freude zu bereiten. Ihr Optimismus steckt an."
+    },
+    {
+      "theme": "night",
+      "kicker": "Achte darauf",
+      "title": "Manchmal zu stolz",
+      "text": "Manchmal fällt es Löwen schwer, Kritik anzunehmen oder sich zurückzuhalten. Offenheit hilft."
+    },
+    {
+      "theme": "fire",
+      "kicker": "In der Liebe",
+      "title": "Leidenschaftlich & loyal",
+      "text": "Löwen lieben mit ganzem Herzen. Sie suchen Nähe, Aufmerksamkeit und echte Verbundenheit."
+    },
+    {
+      "theme": "night",
+      "kicker": "Im Beruf",
+      "title": "Motivierend & kreativ",
+      "text": "Löwen bringen frische Ideen ins Team und begeistern andere mit ihrem Engagement."
+    }
+  ],
+  "cta": {
+    "text": "Lust auf mehr Astrowissen?",
+    "label": "Weitere Artikel",
+    "url": "/de/articles"
+  }
+}

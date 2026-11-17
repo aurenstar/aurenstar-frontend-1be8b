@@ -1,0 +1,48 @@
+{
+  "lang": "de",
+  "slug": "gemini-de",
+  "date": "2026-11-17",
+  "title": "Zwillinge: Das solltest du wissen",
+  "description": "Entdecke die wichtigsten Fakten über das Sternzeichen Zwillinge: Stärken, Herausforderungen, Liebe und Beruf – kompakt und leicht verständlich.",
+  "theme": "air",
+  "sign": "gemeos",
+  "swipe": "Tippe weiter",
+  "more": "Mehr lesen",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Sternzeichen Basics",
+      "title": "Zwillinge auf einen Blick",
+      "text": "Geboren rund um 21. Mai bis 20. Juni. Element: Luft. Qualität: veränderlich. Herrscher: Merkur."
+    },
+    {
+      "theme": "air",
+      "kicker": "Stärke",
+      "title": "Neugier und Offenheit",
+      "text": "Zwillinge sind wissbegierig und lieben es, Neues zu entdecken. Sie bringen frischen Wind in jede Runde."
+    },
+    {
+      "theme": "night",
+      "kicker": "Achte darauf",
+      "title": "Unruhe und Zerstreuung",
+      "text": "Manchmal fällt es Zwillingen schwer, sich zu fokussieren. Kleine Pausen helfen, den Kopf klar zu halten."
+    },
+    {
+      "theme": "air",
+      "kicker": "In der Liebe",
+      "title": "Gespräch ist alles",
+      "text": "Kommunikation ist für Zwillinge das A und O in Beziehungen. Gemeinsame Gespräche verbinden sie tief."
+    },
+    {
+      "theme": "night",
+      "kicker": "Im Beruf",
+      "title": "Flexibel und vielseitig",
+      "text": "Zwillinge passen sich schnell an neue Aufgaben an. Sie blühen auf, wenn Abwechslung gefragt ist."
+    }
+  ],
+  "cta": {
+    "text": "Entdecke mehr Sternzeichen!",
+    "label": "Weitere Artikel",
+    "url": "/de/articles"
+  }
+}

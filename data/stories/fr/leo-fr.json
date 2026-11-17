@@ -1,0 +1,48 @@
+{
+  "lang": "fr",
+  "slug": "leo-fr",
+  "date": "2026-11-17",
+  "title": "Lion : l’essentiel à connaître",
+  "description": "Découvrez les points clés du signe Lion : ses dates, ses points forts, ses défis, et comment il rayonne en amour et au travail.",
+  "theme": "fire",
+  "sign": "leao",
+  "swipe": "Appuyez pour continuer",
+  "more": "Lire plus",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Le signe Lion",
+      "title": "Les bases du Lion",
+      "text": "Né(e) autour du 23 juillet au 22 août. Élément : feu. Qualité : fixe. Maître : le Soleil, source de lumière et de chaleur."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Point fort",
+      "title": "Confiance éclatante",
+      "text": "Le Lion rayonne naturellement ; il croit en lui et inspire les autres à s’affirmer aussi. Son énergie chaude attire et motive."
+    },
+    {
+      "theme": "night",
+      "kicker": "À surveiller",
+      "title": "Attention à l’orgueil",
+      "text": "Le Lion aime briller mais doit veiller à ne pas tout vouloir diriger, ni prendre la critique trop à cœur."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Côté cœur",
+      "title": "Un amour généreux",
+      "text": "En amour, le Lion est passionné et loyal. Il aime offrir, surprendre et recevoir toute l’attention de son partenaire."
+    },
+    {
+      "theme": "night",
+      "kicker": "Au travail",
+      "title": "Leadership naturel",
+      "text": "Créatif et ambitieux, le Lion excelle dans les rôles où il peut guider et inspirer. Il aime quand ses efforts sont remarqués."
+    }
+  ],
+  "cta": {
+    "text": "Découvrez d’autres signes maintenant !",
+    "label": "Voir les signes",
+    "url": "/fr/articles"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "lang": "de",
+  "slug": "capricorn-de",
+  "date": "2026-11-17",
+  "title": "Steinbock: Was du wissen solltest",
+  "description": "Entdecke die wichtigsten Eigenschaften des Steinbocks: Von den Basics zu Liebe und Beruf. Für alle, die um den Jahreswechsel geboren sind!",
+  "theme": "earth",
+  "sign": "capricornio",
+  "swipe": "Tippe weiter",
+  "more": "Mehr lesen",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Basics",
+      "title": "Steinbock auf einen Blick",
+      "text": "Geboren rund um 22. Dezember bis 19. Januar. Element Erde, kardinale Qualität. Herrscherplanet: Saturn."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Stärke",
+      "title": "Zielstrebig und verlässlich",
+      "text": "Steinböcke setzen sich Ziele und arbeiten geduldig darauf hin. Sie sind echte Durchhalter und stehen zu ihrem Wort."
+    },
+    {
+      "theme": "night",
+      "kicker": "Achte darauf",
+      "title": "Nicht zu streng sein",
+      "text": "Manchmal können Steinböcke zu kritisch mit sich selbst sein. Erlaube dir Pausen – niemand muss perfekt sein."
+    },
+    {
+      "theme": "earth",
+      "kicker": "In der Liebe",
+      "title": "Langsam, aber tief",
+      "text": "Steinböcke öffnen ihr Herz nicht sofort, doch wenn sie lieben, dann ehrlich und treu."
+    },
+    {
+      "theme": "night",
+      "kicker": "Im Beruf",
+      "title": "Verantwortung übernehmen",
+      "text": "Im Job glänzen Steinböcke durch Disziplin und Zuverlässigkeit. Sie werden oft für Führungsaufgaben geschätzt."
+    }
+  ],
+  "cta": {
+    "text": "Finde mehr Sternzeichen-Tipps",
+    "label": "Mehr entdecken",
+    "url": "/de/articles"
+  }
+}

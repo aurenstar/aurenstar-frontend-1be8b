@@ -1,0 +1,48 @@
+{
+  "lang": "fr",
+  "slug": "sagittarius-fr",
+  "date": "2026-11-17",
+  "title": "Sagittaire : l’essentiel à savoir",
+  "description": "Découvrez les bases du signe Sagittaire : ses dates, ses forces, son tempérament amoureux et son attitude au travail. L’optimisme et la curiosité à l’honneur !",
+  "theme": "fire",
+  "sign": "sagitario",
+  "swipe": "Touchez pour continuer",
+  "more": "Lire plus",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Le saviez-vous ?",
+      "title": "Sagittaire en bref",
+      "text": "Né(e) autour du 22 novembre au 21 décembre. Élément : feu. Qualité : mutable. Maître : Jupiter. Un signe dynamique et enthousiaste."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Son atout",
+      "title": "L’optimisme naturel",
+      "text": "Le Sagittaire voit toujours le bon côté des choses et inspire les autres à garder espoir et bonne humeur."
+    },
+    {
+      "theme": "night",
+      "kicker": "À surveiller",
+      "title": "Trop d’impatience",
+      "text": "Parfois, le Sagittaire veut aller trop vite et manque de patience avec ceux qui avancent à leur rythme."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Côté cœur",
+      "title": "Libre et passionné",
+      "text": "En amour, le Sagittaire aime l’aventure et la sincérité. Il a besoin de liberté et d’honnêteté dans la relation."
+    },
+    {
+      "theme": "night",
+      "kicker": "Au travail",
+      "title": "Toujours en mouvement",
+      "text": "Curieux, le Sagittaire adore apprendre et relever de nouveaux défis. Il s’épanouit dans un environnement stimulant."
+    }
+  ],
+  "cta": {
+    "text": "Découvrez d’autres signes ici",
+    "label": "Voir les articles",
+    "url": "/fr/articles"
+  }
+}

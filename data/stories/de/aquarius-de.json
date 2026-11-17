@@ -1,0 +1,48 @@
+{
+  "lang": "de",
+  "slug": "aquarius-de",
+  "date": "2026-11-17",
+  "title": "Wassermann: Was du wissen solltest",
+  "description": "Der Wassermann ist originell, unabhängig und voller Ideen. Erfahre hier alles Wichtige über dieses Luftzeichen – von Stärken bis zu Liebe und Beruf.",
+  "theme": "air",
+  "sign": "aquario",
+  "swipe": "Zum Weiterlesen tippen",
+  "more": "Mehr entdecken",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Sternzeichen-Basics",
+      "title": "Wassermann auf einen Blick",
+      "text": "Geboren rund um 20. Januar bis 18. Februar. Element: Luft. Qualität: fest. Herrscherplanet: Uranus (klassisch auch Saturn)."
+    },
+    {
+      "theme": "air",
+      "kicker": "Stärke",
+      "title": "Kreativität und Offenheit",
+      "text": "Wassermann-Geborene lieben neue Ideen und denken gerne anders. Ihr Einfallsreichtum inspiriert andere."
+    },
+    {
+      "theme": "night",
+      "kicker": "Hinweis",
+      "title": "Manchmal distanziert",
+      "text": "Wassermänner brauchen oft Freiraum und können sich zurückziehen. Nähe zuzulassen, fällt manchmal schwer."
+    },
+    {
+      "theme": "air",
+      "kicker": "In der Liebe",
+      "title": "Unabhängig und loyal",
+      "text": "In Beziehungen sind Wassermänner treu, aber sie schätzen ihre Freiheit. Gemeinsame Abenteuer stärken die Partnerschaft."
+    },
+    {
+      "theme": "night",
+      "kicker": "Im Beruf",
+      "title": "Innovative Teamplayer",
+      "text": "Im Job bringen sie frischen Wind und originelle Lösungen ein. Sie arbeiten gern im Team, wollen aber auch ihren eigenen Weg gehen."
+    }
+  ],
+  "cta": {
+    "text": "Mehr über Sternzeichen bei Aurenstar",
+    "label": "Weitere Artikel",
+    "url": "/de/articles"
+  }
+}

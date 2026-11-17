@@ -1,0 +1,48 @@
+{
+  "lang": "fr",
+  "slug": "pisces-fr",
+  "date": "2026-11-17",
+  "title": "Poissons : l’essentiel à savoir",
+  "description": "Découvrez les Poissons, signe d’eau sensible et intuitif, du 19 février au 20 mars environ. Qualité mutable, gouverné par Neptune et Jupiter.",
+  "theme": "water",
+  "sign": "peixes",
+  "swipe": "Touchez pour avancer",
+  "more": "Lire plus",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Les bases",
+      "title": "Poissons en bref",
+      "text": "Dates : autour du 19 février au 20 mars. Élément : eau. Qualité : mutable. Gouverné par Neptune, et Jupiter en astrologie classique."
+    },
+    {
+      "theme": "water",
+      "kicker": "Atout clé",
+      "title": "Grande empathie",
+      "text": "Les Poissons ressentent facilement les émotions des autres et savent offrir écoute et réconfort à leur entourage."
+    },
+    {
+      "theme": "night",
+      "kicker": "Attention à",
+      "title": "La tendance à fuir",
+      "text": "Parfois, les Poissons préfèrent s’évader plutôt que d’affronter les difficultés du quotidien."
+    },
+    {
+      "theme": "water",
+      "kicker": "En amour",
+      "title": "Romantisme profond",
+      "text": "Les Poissons aiment de tout leur cœur et recherchent des connexions sincères et rêveuses avec leur partenaire."
+    },
+    {
+      "theme": "night",
+      "kicker": "Au travail",
+      "title": "Créativité à partager",
+      "text": "Imaginatifs, les Poissons excellent dans les métiers artistiques ou d’aide, où leur intuition fait la différence."
+    }
+  ],
+  "cta": {
+    "text": "Explorez d’autres signes et conseils",
+    "label": "Voir plus",
+    "url": "/fr/articles"
+  }
+}

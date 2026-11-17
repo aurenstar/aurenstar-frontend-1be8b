@@ -1,0 +1,48 @@
+{
+  "lang": "de",
+  "slug": "scorpio-de",
+  "date": "2026-11-17",
+  "title": "Skorpion: Was du wissen solltest",
+  "description": "Entdecke spannende Fakten über das Sternzeichen Skorpion: Eigenschaften, Stärken, Herausforderungen, Liebe und Beruf. Alles auf einen Blick.",
+  "theme": "water",
+  "sign": "escorpiao",
+  "swipe": "Tippe weiter",
+  "more": "Mehr lesen",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Überblick",
+      "title": "Skorpion auf einen Blick",
+      "text": "Geboren rund um 23. Oktober bis 21. November. Element Wasser. Qualität: Fix. Herrscher: Pluto, klassisch auch Mars."
+    },
+    {
+      "theme": "water",
+      "kicker": "Stärke",
+      "title": "Tiefe Emotionen",
+      "text": "Skorpione fühlen intensiv und gehen Dingen gerne auf den Grund. Ihre Leidenschaft steckt oft andere an."
+    },
+    {
+      "theme": "night",
+      "kicker": "Achtsamkeit",
+      "title": "Loslassen lernen",
+      "text": "Manchmal fällt es Skorpionen schwer, Altes loszulassen. Ein bisschen Leichtigkeit tut ihnen gut."
+    },
+    {
+      "theme": "water",
+      "kicker": "In der Liebe",
+      "title": "Treue und Intensität",
+      "text": "Skorpione lieben mit voller Hingabe und sind sehr loyal. Ehrlichkeit ist ihnen in Beziehungen besonders wichtig."
+    },
+    {
+      "theme": "night",
+      "kicker": "Im Beruf",
+      "title": "Fokus und Ehrgeiz",
+      "text": "Im Job zeigen Skorpione Ausdauer und Durchhaltevermögen. Sie bringen Projekte gern zum Abschluss."
+    }
+  ],
+  "cta": {
+    "text": "Lust auf mehr Astrowissen?",
+    "label": "Zu den Artikeln",
+    "url": "/de/articles"
+  }
+}

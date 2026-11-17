@@ -1,0 +1,48 @@
+{
+  "lang": "fr",
+  "slug": "gemini-fr",
+  "date": "2026-11-17",
+  "title": "Gémeaux : l’essentiel à savoir",
+  "description": "Découvrez les bases du signe Gémeaux : dates, atouts, points d’attention, amour et travail. Un guide bref et chaleureux pour mieux comprendre ce signe d’air mutable.",
+  "theme": "air",
+  "sign": "gemeos",
+  "swipe": "Appuyez pour continuer",
+  "more": "Lire plus",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Le saviez-vous ?",
+      "title": "Le signe Gémeaux",
+      "text": "Né(e) autour du 21 mai au 20 juin, le Gémeaux est un signe d’air, mutable, gouverné par Mercure."
+    },
+    {
+      "theme": "air",
+      "kicker": "Point fort",
+      "title": "Adaptable et curieux",
+      "text": "Le Gémeaux s’adapte avec aisance. Sa curiosité naturelle l’amène à explorer de nouveaux horizons et à aimer apprendre."
+    },
+    {
+      "theme": "night",
+      "kicker": "À surveiller",
+      "title": "Attention à la dispersion",
+      "text": "Le Gémeaux peut parfois se disperser ou avoir du mal à se concentrer sur une seule chose à la fois."
+    },
+    {
+      "theme": "air",
+      "kicker": "En amour",
+      "title": "Communicatif et joueur",
+      "text": "En amour, le Gémeaux séduit par son humour, sa légèreté et son envie de dialoguer. Il aime la complicité."
+    },
+    {
+      "theme": "night",
+      "kicker": "Au travail",
+      "title": "Esprit vif et mobile",
+      "text": "Au travail, le Gémeaux excelle dans les tâches variées. Son agilité mentale le rend à l’aise dans les échanges et les changements."
+    }
+  ],
+  "cta": {
+    "text": "Explorez d’autres signes et thèmes !",
+    "label": "Voir les articles",
+    "url": "/fr/articles"
+  }
+}

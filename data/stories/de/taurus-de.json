@@ -1,0 +1,48 @@
+{
+  "lang": "de",
+  "slug": "taurus-de",
+  "date": "2026-11-17",
+  "title": "Stier: Was du wissen solltest",
+  "description": "Erfahre mehr über den Stier: seine Stärken, Herausforderungen, Liebe und Beruf. Praktische Einblicke für Fans dieses erdverbundenen Sternzeichens.",
+  "theme": "earth",
+  "sign": "touro",
+  "swipe": "Tippe weiter",
+  "more": "Mehr lesen",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Überblick",
+      "title": "Stier auf einen Blick",
+      "text": "Geboren rund um den 20. April bis 20. Mai. Element Erde, fixe Qualität, regiert von Venus: Genießer mit Sinn für Beständigkeit."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Starke Seite",
+      "title": "Verlässlich und bodenständig",
+      "text": "Stiere sind bekannt für ihre Geduld und Zuverlässigkeit. Auf sie kann man sich immer verlassen – ein echter Fels in der Brandung."
+    },
+    {
+      "theme": "night",
+      "kicker": "Achte darauf",
+      "title": "Manchmal etwas stur",
+      "text": "Stiere halten gerne an Bewährtem fest. Offen für Neues zu bleiben, bringt frischen Wind und tut manchmal gut."
+    },
+    {
+      "theme": "earth",
+      "kicker": "In der Liebe",
+      "title": "Zärtlich und treu",
+      "text": "Stiere lieben mit Herz und Hingabe. Sie schätzen Nähe und zeigen ihre Gefühle gern durch kleine Gesten und Aufmerksamkeit."
+    },
+    {
+      "theme": "night",
+      "kicker": "Im Beruf",
+      "title": "Ausdauer zahlt sich aus",
+      "text": "Im Job glänzen Stiere mit Durchhaltevermögen. Sie arbeiten beständig und bringen Projekte mit viel Geduld zum Erfolg."
+    }
+  ],
+  "cta": {
+    "text": "Entdecke weitere Sternzeichen-Artikel",
+    "label": "Mehr anzeigen",
+    "url": "/de/articles"
+  }
+}
