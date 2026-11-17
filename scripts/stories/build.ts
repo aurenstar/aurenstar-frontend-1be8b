@@ -55,7 +55,7 @@ export async function buildStory(lang: string, s: SignFacts, goes: 'articles' | 
     const bad2 = checkStory(story);
     if (bad2.length) { if (attempt) return { why: bad2.join(', ') }; continue; }
     // second reader: a different call that rejects wrong astrology, clickbait or unnatural language
-    const r = await ask('review', `You are a strict native ${LANG_NAME[lang] || lang} editor of astrology content. Facts that are correct: ${s.en} is ${s.dates}, ${s.element} element, ${s.mode}, ruled by ${s.ruler}. Read this story JSON and answer ONLY JSON {"ok":true|false,"problems":["..."]}. ok=false if the language is unnatural or machine-translated, a fact about the sign is wrong or insulting, a screen promises outcomes or gives medical/legal/money advice, or the sign is named wrongly for that language.\n${JSON.stringify(story)}`);
+    const r = await ask('review', `You are a strict native ${LANG_NAME[lang] || lang} editor of astrology content. Facts that are correct: ${s.en} is ${s.dates}, ${s.element} element, ${s.mode}, ruled by ${s.ruler}. Read this story JSON and answer ONLY JSON {"ok":true|false,"problems":["..."]}. ok=false if the language is unnatural or machine-translated, a fact about the sign is wrong or insulting, a screen promises outcomes or gives medical/legal/money advice, or the sign is named wrongly for that language.\n${JSON.stringify({ ...story, sign: undefined, slug: undefined, theme: undefined, lang: undefined, date: undefined })}`);
     if (r?.ok === true) return { story };
     if (attempt) return { why: `editor: ${(r?.problems || []).join('; ') || 'rejected'}` };
   }
