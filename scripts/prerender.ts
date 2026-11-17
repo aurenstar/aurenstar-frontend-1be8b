@@ -23,6 +23,7 @@ import mergedTerms from '../src/data/mergedDictionaryTerms.json';
 import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData';
 import { hreflangLinks, langUrl } from '../server/engine/localizePage';
 import { renderWebStory, checkStory, storyPath, type WebStory } from '../server/engine/webStory';
+import { wrapPluginStory, type WpStory } from '../server/engine/storyPlugin';
 import { renderNativeArticle, renderNativeHub, pathOf, hubPath, type NativeArticle } from '../server/engine/nativeArticle';
 import { URL_LANGUAGES } from '../src/utils/urlLang';
 import { getArticleIsoDate, getArticleSlug } from '../src/utils/articleSlug';
@@ -300,6 +301,11 @@ if (nativeUrls.length) fs.writeFileSync(path.join(dist, 'sitemap-native.xml'), u
 // Web Stories (Google, see server/engine/webStory.ts): one AMP page each, written to dist/stories/<lang>/<slug>.html (served at /stories/<lang>/<slug>), own sitemap file.
 const storyUrls: { loc: string; lastmod: string }[] = [];
 const storiesDir = path.join(root, 'data/stories');
+// Stories published in the WordPress plugin (data/wp-stories, see scripts/stories/syncWpStories.ts) live at /blog/stories/<slug>.
+// A story that is in WordPress replaces our own /stories/<lang>/<slug> page: that old address is redirected for good.
+const wpDir = path.join(root, 'data/wp-stories');
+const wpStories: WpStory[] = fs.existsSync(wpDir) ? fs.readdirSync(wpDir).filter((x) => x.endsWith('.json')).sort().map((f) => JSON.parse(fs.readFileSync(path.join(wpDir, f), 'utf8'))) : [];
+const inWp = new Set(wpStories.map((w) => w.slug));
 if (fs.existsSync(storiesDir)) {
   for (const l of fs.readdirSync(storiesDir)) {
     const all: WebStory[] = fs.readdirSync(path.join(storiesDir, l)).filter((x) => x.endsWith('.json')).sort().map((f) => JSON.parse(fs.readFileSync(path.join(storiesDir, l, f), 'utf8')));
@@ -311,11 +317,17 @@ if (fs.existsSync(storiesDir)) {
       const others = all.filter((o) => o.slug !== st.slug && !checkStory(o).length);
       const at = others.findIndex((o) => o.slug > st.slug);
       const rel = Array.from({ length: Math.min(3, others.length) }, (_, i) => others[((at < 0 ? 0 : at) + i) % others.length]).map((o) => ({ title: o.title, url: storyPath(o), sign: o.sign, theme: o.theme }));
+      if (inWp.has(st.slug)) { redirects.push(`${storyPath(st)} /blog/stories/${st.slug} 301`); continue; }
       fs.mkdirSync(path.join(dist, 'stories', st.lang), { recursive: true });
       fs.writeFileSync(path.join(dist, 'stories', st.lang, `${st.slug}.html`), renderWebStory(st, SITE_URL, rel));
 storyUrls.push({ loc: `${SITE_URL}${storyPath(st)}`, lastmod: st.date });
     }
   }
+}
+for (const w of wpStories) {
+  fs.mkdirSync(path.join(dist, 'blog', 'stories'), { recursive: true });
+  fs.writeFileSync(path.join(dist, 'blog', 'stories', `${w.slug}.html`), wrapPluginStory(w, SITE_URL));
+  storyUrls.push({ loc: `${SITE_URL}/blog/stories/${w.slug}`, lastmod: w.modified });
 }
 if (storyUrls.length) fs.writeFileSync(path.join(dist, 'sitemap-stories.xml'), urlset(storyUrls.map((u) => `  <url><loc>${escapeXml(u.loc)}</loc><lastmod>${u.lastmod}</lastmod></url>`).join('\n')));
 

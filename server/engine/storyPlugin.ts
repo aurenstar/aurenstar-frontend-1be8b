@@ -4,7 +4,7 @@
  *   content    = the page markup the plugin keeps (the site later wraps it, see wrapPluginStory)
  * Same look as the site: blue sky picture, white rounded cards, pink pills, blue Montserrat titles, colored logo.
  */
-import { bgPath, coverPath, esc, LOGO, posterPath, type RelatedStory, type WebStory } from './webStory';
+import { BOILERPLATE, bgPath, coverPath, esc, LOGO, posterPath, type RelatedStory, type WebStory } from './webStory';
 
 const W = 412, H = 732;
 const BLUE = '#3982C8', PINK = '#E73578', NAVY = '#172B4D', SOFT = '#647DA5';
@@ -125,4 +125,49 @@ export function pluginStory(s: WebStory, site: string, related: RelatedStory[] =
   }).join('');
   const content = `<amp-story standalone="" title="${esc(s.title)}" publisher="Aurenstar" publisher-logo-src="${esc(site + LOGO)}" poster-portrait-src="${esc(site + posterPath(s))}">${markup}</amp-story>`;
   return { story_data, content };
+}
+
+/** A story as saved from WordPress by scripts/stories/syncWpStories.ts */
+export interface WpStory { slug: string; lang: string; title: string; description: string; modified: string; content: string }
+
+/**
+ * Wraps the markup stored in the plugin into a full AMP page that lives at aurenstar.com/blog/stories/<slug>.
+ * AMP does not allow style="..." on elements, so each inline style becomes a small class in the page style.
+ */
+export function wrapPluginStory(w: WpStory, site: string): string {
+  const url = `${site}/blog/stories/${w.slug}`;
+  const rules = new Map<string, string>();
+  const body = w.content
+    .replace(/<\/?(?:script|iframe|style)\b[^>]*>/gi, '')
+    .replace(/\sstyle="([^"]*)"/g, (_m, css: string) => {
+      const c = css.replace(/&quot;/g, '"').replace(/&#039;/g, "'").trim().replace(/;$/, '');
+      let cls = [...rules.entries()].find(([, v]) => v === c)?.[0];
+      if (!cls) { cls = `s${rules.size}`; rules.set(cls, c); }
+      return ` class="${cls}"`;
+    });
+  // two class attributes on one element are invalid: merge them
+  const merged = body.replace(/<([a-z-]+)([^>]*?)\sclass="([^"]*)"([^>]*?)\sclass="([^"]*)"/gi, '<$1$2 class="$3 $5"$4');
+  const css = `amp-story{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}${[...rules].map(([k, v]) => `.${k}{${v}}`).join('')}`;
+  const poster = (w.content.match(/poster-portrait-src="([^"]+)"/) || [])[1] || `${site}/stories/img/bg-air.webp`;
+  const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: w.title, description: w.description, datePublished: w.modified, dateModified: w.modified, mainEntityOfPage: url, image: poster, author: { '@type': 'Organization', name: 'Aurenstar' }, publisher: { '@type': 'Organization', name: 'Aurenstar', logo: { '@type': 'ImageObject', url: `${site}${LOGO}` } } };
+  return `<!doctype html>
+<html amp lang="${esc(w.lang)}">
+<head>
+<meta charset="utf-8">
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&amp;display=swap" rel="stylesheet">
+<title>${esc(w.title)} | Aurenstar</title>
+<link rel="canonical" href="${esc(url)}">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="description" content="${esc(w.description)}">
+<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>
+${BOILERPLATE}
+<style amp-custom>${css}</style>
+</head>
+<body>
+${merged}
+</body>
+</html>
+`;
 }
