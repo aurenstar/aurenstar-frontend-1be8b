@@ -9,6 +9,7 @@ on:
       publish: { description: 'Publish them (otherwise drafts)', type: boolean, default: false }
 permissions:
   contents: read
+  actions: write
 concurrency:
   group: stories-wordpress
   cancel-in-progress: false
@@ -25,3 +26,8 @@ jobs:
           WP_APP_PASSWORD: ${{ secrets.ROBO_WEBSTORIES }}
           WP_USER: oficialsafare
         run: npx tsx scripts/stories/pushToWordPress.ts ${{ inputs.lang && format('--lang {0}', inputs.lang) || '' }} ${{ inputs.slug && format('--slug {0}', inputs.slug) || '' }} ${{ inputs.publish && '--publish' || '' }}
+      - name: Show published stories on the site right away
+        if: ${{ inputs.publish }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run wordpress-stories-sync.yml --repo ${{ github.repository }} --ref main

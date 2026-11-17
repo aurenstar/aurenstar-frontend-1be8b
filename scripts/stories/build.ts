@@ -16,8 +16,8 @@ Rules:
 - Everyday words, warm and clear. Astrology for reflection and fun: no promises, no medical, legal or money advice, no stereotypes that insult anyone. Every astrology statement must be commonly accepted.
 - No links, no mention of AI or translation, no English words except proper names.
 - "title" of the story: 20 to 60 characters, like "${s.en}: what to know" in that language. "description": 70 to 160 characters.
-- "ctaText": 3 to 8 words that invite the reader to go on (the last screen). "ctaLabel": 2 to 4 words for the button, which opens ${goes === 'articles' ? 'the list of Aurenstar articles in this language' : 'a free tool that finds your sign'}. "swipe": 2 to 4 words meaning "Tap to continue".
-Return ONLY JSON: {"title":"","description":"","swipe":"","ctaText":"","ctaLabel":"","pages":[{"kicker":"","title":"","text":""}]}`;
+- "ctaText": 3 to 8 words that invite the reader to go on (the last screen). "ctaLabel": 2 to 4 words for the button, which opens ${goes === 'articles' ? 'the list of Aurenstar articles in this language' : 'a free tool that finds your sign'}. "swipe": 2 to 4 words meaning "Tap to continue". "more": 2 to 3 words meaning "Keep reading" (a heading above links to other stories).
+Return ONLY JSON: {"title":"","description":"","swipe":"","more":"","ctaText":"","ctaLabel":"","pages":[{"kicker":"","title":"","text":""}]}`;
 
 const THEMES = (el: SignFacts['element']): Theme[] => [el, el, 'night', el, 'night', el].slice(0, 5) as Theme[];
 
@@ -48,6 +48,7 @@ export async function buildStory(lang: string, s: SignFacts, goes: 'articles' | 
     const story: WebStory = {
       lang, slug: `${s.en.toLowerCase()}-${lang}`, date: today, title: String(w.title).trim(), description: String(w.description).trim(), theme: s.element, sign: s.key,
       swipe: String(w.swipe).trim(),
+      ...(w.more && String(w.more).trim().length <= 30 ? { more: String(w.more).trim() } : {}),
       pages: w.pages.map((g: any, i: number) => ({ theme: THEMES(s.element)[i], kicker: String(g.kicker).trim(), title: String(g.title).trim(), text: String(g.text).trim() })),
       cta: { text: String(w.ctaText).trim(), label: String(w.ctaLabel).trim(), url: goes === 'articles' ? `/${lang}/articles` : `/${lang}/discover-sign` },
     };
