@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "horoscope-today-monday-november-16-2026-all-12-signs-pt",
+  "date": "2026-11-17",
+  "title": "O que o dia 16/11 reserva para seu signo?",
+  "description": "Descubra insights surpreendentes do horóscopo de hoje e prepare-se para transformar sua segunda-feira.",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Deslize para saber",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Surpresa",
+      "title": "Sua amizade vai surpreender",
+      "text": "Uma conversa inesperada pode revelar segredos que mudam sua visão sobre seu círculo social. Curioso para entender como?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Detalhe",
+      "title": "Progresso no trabalho",
+      "text": "Focar em pequenas tarefas pode acelerar seu sucesso. Já pensou como isso pode impactar seus projetos atuais?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Equilíbrio",
+      "title": "Cuidado com gastos",
+      "text": "Revisar seus hábitos financeiros hoje pode trazer mais liberdade amanhã. Quer saber quais ajustes fazer?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Energia",
+      "title": "Renove suas forças",
+      "text": "Descubra métodos simples para recarregar sua energia e manter o foco o dia todo. Preparado para experimentar?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Revelação",
+      "title": "O que o céu revela",
+      "text": "O Sol em Escorpião traz intensidade e transformação. Saiba como essa energia pode influenciar suas relações e desafios hoje."
+    }
+  ],
+  "cta": {
+    "text": "Quer saber tudo sobre hoje?",
+    "label": "Leia o horóscopo completo",
+    "url": "/pt/blog/horoscope-today-monday-november-16-2026-all-12-signs"
+  }
+}

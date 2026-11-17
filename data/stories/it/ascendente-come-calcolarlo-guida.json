@@ -1,0 +1,47 @@
+{
+  "lang": "it",
+  "slug": "ascendente-come-calcolarlo-guida",
+  "date": "2026-11-17",
+  "title": "Sai davvero qual è il tuo ascendente? Scoprilo ora!",
+  "description": "Calcolare l'ascendente è più facile di quanto pensi e può svelarti lati nascosti della tua personalità. Scopri come e perché!",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Scorri per scoprire",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Curiosità",
+      "title": "Cos'è l'ascendente?",
+      "text": "È il segno zodiacale che sorge nel momento esatto della tua nascita, e cambia ogni due ore."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Dato importante",
+      "title": "Serve l’ora precisa",
+      "text": "Solo con data, ora e luogo di nascita puoi calcolare il tuo ascendente esatto. Hai il tuo orario preciso?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Personalità",
+      "title": "L’ascendente cambia tutto",
+      "text": "Non è solo il segno solare: l’ascendente mostra come ti presentano gli altri e come affronti la vita."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Esempio reale",
+      "title": "Segno e ascendente a confronto",
+      "text": "Un Sole in Pesci con ascendente Leone? Energia e carisma che non ti aspetti. Ti riconosci?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Perché leggere",
+      "title": "Scopri il tuo vero io nascosto",
+      "text": "Nel nostro articolo trovi esempi pratici e trucchi per calcolare il tuo ascendente con facilità. Non perderti questa chiave segreta!"
+    }
+  ],
+  "cta": {
+    "text": "Calcola il tuo ascendente ora",
+    "label": "Leggi l'articolo",
+    "url": "/it/blog/ascendente-come-calcolarlo-guida"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "lang": "vi",
+  "slug": "huong-dan-ban-do-sao",
+  "date": "2026-11-17",
+  "title": "Bản đồ sao tiết lộ điều gì về bạn?",
+  "description": "Khám phá bản đồ sao cá nhân để hiểu rõ tính cách, cảm xúc và tiềm năng ẩn giấu của chính mình.",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Vuốt để khám phá",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Bí mật cá nhân",
+      "title": "Bản đồ sao là gì?",
+      "text": "Bản đồ sao mô tả vị trí hành tinh khi bạn sinh ra, hé lộ con người thật bên trong bạn."
+    },
+    {
+      "theme": "air",
+      "kicker": "Khám phá bản thân",
+      "title": "3 yếu tố cơ bản",
+      "text": "Chỉ cần biết cung Mặt Trời, Mặt Trăng và Cung Mọc, bạn đã mở được cánh cửa hiểu chính mình."
+    },
+    {
+      "theme": "night",
+      "kicker": "Điểm khác biệt",
+      "title": "Bản đồ mỗi người",
+      "text": "Hai người sinh cùng ngày có thể có bản đồ sao khác nhau hoàn toàn, vì giờ và nơi sinh rất quan trọng."
+    },
+    {
+      "theme": "air",
+      "kicker": "Ý nghĩa sâu xa",
+      "title": "12 nhà chiêm tinh",
+      "text": "Mỗi nhà thể hiện một lĩnh vực cuộc sống như gia đình, sự nghiệp, tình cảm... bạn đã biết về nhà mình chưa?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Khám phá sâu hơn",
+      "title": "Hiểu rõ bản đồ sao",
+      "text": "Bài viết hướng dẫn bạn cách đọc bản đồ sao cá nhân dễ hiểu và ví dụ thực tế giúp bạn tự khám phá chính mình."
+    }
+  ],
+  "cta": {
+    "text": "Muốn biết bản đồ sao của bạn?",
+    "label": "Đọc bài chi tiết",
+    "url": "/vi/blog/huong-dan-ban-do-sao"
+  }
+}

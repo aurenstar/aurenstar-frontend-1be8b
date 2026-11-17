@@ -1,0 +1,47 @@
+{
+  "lang": "vi",
+  "slug": "tim-hieu-la-so-tu-vi",
+  "date": "2026-11-17",
+  "title": "Bạn có biết lá số tử vi tiết lộ điều gì về bạn?",
+  "description": "Khám phá cách đọc lá số tử vi, ý nghĩa từng cung, sao và bí quyết áp dụng vào đời sống hàng ngày.",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Chạm để khám phá",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Bí mật lá số",
+      "title": "Lá số tử vi là gì?",
+      "text": "Lá số tử vi như bản đồ cuộc đời, dựa vào giờ sinh của bạn để tiết lộ tính cách, nghề nghiệp và vận hạn."
+    },
+    {
+      "theme": "air",
+      "kicker": "Cách xem dễ hiểu",
+      "title": "Lập lá số tử vi",
+      "text": "Bạn chỉ cần nhập ngày giờ sinh âm lịch, hệ thống sẽ tạo lá số với 12 cung và các ngôi sao đặc biệt."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ý nghĩa sâu sắc",
+      "title": "Mỗi cung một ý nghĩa",
+      "text": "Cung Mệnh nói lên con người bạn, Cung Quan Lộc tiết lộ công việc, Cung Phu Thê hé lộ chuyện hôn nhân."
+    },
+    {
+      "theme": "air",
+      "kicker": "Sao quyết định",
+      "title": "Sao trên lá số",
+      "text": "Sao Tử Vi chủ quyền lực, Thái Dương mang năng lượng tích cực, mỗi sao ảnh hưởng lớn đến cuộc đời bạn."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ứng dụng thực tế",
+      "title": "Tử vi không chỉ để xem",
+      "text": "Ngoài đoán vận mệnh, lá số tử vi còn giúp bạn hiểu và tận dụng điểm mạnh, tránh rủi ro trong cuộc sống."
+    }
+  ],
+  "cta": {
+    "text": "Muốn hiểu lá số tử vi?",
+    "label": "Xem bài chi tiết",
+    "url": "/vi/blog/tim-hieu-la-so-tu-vi"
+  }
+}

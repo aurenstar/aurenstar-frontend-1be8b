@@ -1,0 +1,47 @@
+{
+  "lang": "fr",
+  "slug": "tout-sur-les-signes-zodiaque",
+  "date": "2026-11-17",
+  "title": "Votre signe révèle-t-il vraiment qui vous êtes ?",
+  "description": "Découvrez comment votre signe du zodiaque influence votre personnalité et ce que cela dit de vous au quotidien.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Découvrez plus",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Surprise",
+      "title": "Votre signe, c’est quoi ?",
+      "text": "Saviez-vous que votre signe du zodiaque dépend simplement de votre date de naissance ? Par exemple, êtes-vous un Taureau né en mai ?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Insight",
+      "title": "Les 4 éléments clés",
+      "text": "Feu, Terre, Air ou Eau : votre élément zodiacal explique beaucoup de votre énergie et de votre façon d’être. Quel est le vôtre ?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Personnalité",
+      "title": "Traits uniques à chaque signe",
+      "text": "Lion passionné, Poissons rêveur… Chaque signe colore votre caractère avec des forces et faiblesses bien précises. Vous vous reconnaissez ?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Utilité",
+      "title": "Pourquoi ça compte au quotidien",
+      "text": "Connaître votre signe vous aide à mieux comprendre vos goûts, vos réactions et même vos affinités avec les autres. Envie d’en savoir plus ?"
+    },
+    {
+      "theme": "night",
+      "kicker": "À découvrir",
+      "title": "Plongez dans l’univers astrologique",
+      "text": "Dans l’article complet, explorez les dates, éléments et secrets de chaque signe pour mieux vous connaître et valoriser votre personnalité unique."
+    }
+  ],
+  "cta": {
+    "text": "Explorez votre caractère zodiacal",
+    "label": "Lire l'article complet",
+    "url": "/fr/blog/tout-sur-les-signes-zodiaque"
+  }
+}

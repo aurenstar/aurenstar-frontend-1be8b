@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "what-is-gemini-really-like-a-closer-look-pt",
+  "date": "2026-11-17",
+  "title": "O que realmente é um geminiano? Descubra!",
+  "description": "Gêmeos é muito mais que falação: entenda a mente por trás do signo mais curioso e imprevisível do zodíaco.",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Deslize para saber",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Curiosidade",
+      "title": "Gêmeos é inquieto?",
+      "text": "Nem sempre barulhento ou agitado, Gêmeos tem uma mente que nunca para. Já sentiu isso em alguém?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Destaque",
+      "title": "O que chama atenção?",
+      "text": "Geminianos brilham em conversas, com perguntas que ninguém faz e detalhes que passam despercebidos."
+    },
+    {
+      "theme": "night",
+      "kicker": "Segredo",
+      "title": "Mais que falar",
+      "text": "Para Gêmeos, conversar é organizar ideias e descobrir o que realmente pensa. Isso muda tudo, não acha?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Variedade",
+      "title": "Por que parecem diferentes?",
+      "text": "Eles podem ser brincalhões num momento e introspectivos no outro. Tudo depende do que a mente quer explorar."
+    },
+    {
+      "theme": "night",
+      "kicker": "Revelação",
+      "title": "Quer entender Gêmeos?",
+      "text": "No artigo, veja por que essa mente inquieta faz Gêmeos ser tão único e como isso influencia suas relações."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Gêmeos a fundo?",
+    "label": "Leia o artigo completo",
+    "url": "/pt/blog/what-is-gemini-really-like-a-closer-look"
+  }
+}

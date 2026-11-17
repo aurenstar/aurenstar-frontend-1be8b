@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "taurus-traits-what-shapes-this-steadfast-sign-es",
+  "date": "2026-11-17",
+  "title": "¿Por qué los Tauro son tan firmes?",
+  "description": "Descubre qué rasgos hacen a Tauro un signo tan constante y cómo influye en tu vida y relaciones.",
+  "theme": "water",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Sorpresa",
+      "title": "Tauro y la estabilidad",
+      "text": "¿Sabías que los Tauro buscan seguridad en todo? Esa necesidad los hace confiables, pero también resistentes al cambio."
+    },
+    {
+      "theme": "water",
+      "kicker": "Ejemplo real",
+      "title": "Tauro en el trabajo",
+      "text": "Un Tauro cumple plazos y ama el orden. Esto los convierte en apoyos sólidos en ambientes caóticos. ¿Eres así?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Rasgo clave",
+      "title": "Paciencia y placer",
+      "text": "Son pacientes y disfrutan de los placeres sencillos: buena comida, música y naturaleza. ¿Notas ese gusto en ti?"
+    },
+    {
+      "theme": "water",
+      "kicker": "Advertencia",
+      "title": "¿Obstinación o prudencia?",
+      "text": "A veces se aferran a lo conocido, incluso si hay mejores opciones. ¿Es terquedad o búsqueda de seguridad?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Lo que encontrarás",
+      "title": "Más sobre Tauro",
+      "text": "Conoce cómo Tauro equilibra comodidad y decisiones prácticas, y por qué eso puede cambiar tu forma de ver a este signo."
+    }
+  ],
+  "cta": {
+    "text": "¿Quieres conocer sus secretos?",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/taurus-traits-what-shapes-this-steadfast-sign"
+  }
+}

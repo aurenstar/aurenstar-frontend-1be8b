@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "pisces-personality-the-depth-behind-the-dreamy-side-es",
+  "date": "2026-11-17",
+  "title": "¿Sabías que Piscis siente lo que otros no?",
+  "description": "Descubre por qué Piscis es mucho más que soñador y sensible. Su intuición y empatía esconden un poder inesperado.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Intriga",
+      "title": "Percibe lo invisible",
+      "text": "Piscis capta cambios sutiles en el ambiente y emociones que otros no ven. ¿Quieres saber cómo lo hace?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Insight",
+      "title": "Imaginación sin límites",
+      "text": "Para Piscis, la creatividad no es un hobby, es parte de su vida diaria. ¿Cómo afecta esto su manera de vivir?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Revelación",
+      "title": "Empatía profunda",
+      "text": "Antes de juzgar, Piscis siente el mundo desde varios ángulos. ¿Sabes por qué eso lo puede complicar?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Dato clave",
+      "title": "Fuerza oculta",
+      "text": "Detrás de su sensibilidad, Piscis es resiliente y adaptable. ¿Qué hace que esta combinación sea tan única?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Invitación",
+      "title": "Va más allá del estereotipo",
+      "text": "Descubre cómo la mezcla de intuición, imaginación y fuerza interior define a Piscis y por qué importa para ti."
+    }
+  ],
+  "cta": {
+    "text": "Descubre el misterio de Piscis",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/pisces-personality-the-depth-behind-the-dreamy-side"
+  }
+}

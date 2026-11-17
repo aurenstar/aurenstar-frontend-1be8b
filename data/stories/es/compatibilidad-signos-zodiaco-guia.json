@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "compatibilidad-signos-zodiaco-guia",
+  "date": "2026-11-17",
+  "title": "¿Tu signo realmente influye en tus relaciones?",
+  "description": "Descubre cómo la astrología puede explicar por qué conectas mejor con ciertos signos y qué aprender de las diferencias.",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Pregunta clave",
+      "title": "¿Por qué conectas con unos signos?",
+      "text": "No es casualidad que con algunos fluyas mejor. Tu signo solar y su energía influyen más de lo que imaginas."
+    },
+    {
+      "theme": "air",
+      "kicker": "Dato curioso",
+      "title": "Elementos que definen vínculos",
+      "text": "Fuego, tierra, aire y agua marcan cómo te comunicas y sientes. ¿Sabías que fuego y aire suelen llevarse genial?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Realidad práctica",
+      "title": "Las diferencias también suman",
+      "text": "No todo es igual: signos opuestos pueden complementarse si hay apertura. ¿Quieres saber cómo?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Ejemplo real",
+      "title": "Sagitario y Virgo, ¿cómo encajan?",
+      "text": "Marta y Pablo son distintos, pero pueden aprender mucho juntos. ¿Quieres saber qué los une?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Lo que descubrirás",
+      "title": "Guía práctica para entender tus relaciones",
+      "text": "Con ejemplos y consejos claros, aprende a usar la astrología para mejorar tus vínculos personales y laborales."
+    }
+  ],
+  "cta": {
+    "text": "Descubre tu compatibilidad zodiacal",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/compatibilidad-signos-zodiaco-guia"
+  }
+}

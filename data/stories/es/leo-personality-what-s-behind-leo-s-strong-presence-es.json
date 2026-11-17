@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "leo-personality-what-s-behind-leo-s-strong-presence-es",
+  "date": "2026-11-17",
+  "title": "¿Qué hay detrás del fuerte Leo?",
+  "description": "Leo no es solo confianza y presencia. Descubre la complejidad que esconde este signo del zodiaco y por qué impacta tanto.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Desliza para descubrir",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Sorpresa",
+      "title": "No solo busca atención",
+      "text": "Leo no siempre quiere ser el centro; muchas veces solo expresa su entusiasmo sin miedo. ¿Quieres saber por qué?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Razón 1",
+      "title": "Creatividad en acción",
+      "text": "Leo crea para dejar huella, ya sea con arte, ideas o energía. Hay mucho más detrás de esa chispa."
+    },
+    {
+      "theme": "night",
+      "kicker": "Razón 2",
+      "title": "Orgullo y dignidad",
+      "text": "Para Leo, el respeto es clave. No soporta sentirse ignorado, aunque otros no vean el problema."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Razón 3",
+      "title": "Calidez que impacta",
+      "text": "Cuando Leo se preocupa, su generosidad brilla y hace sentir importantes a los demás. ¿Quieres descubrir su otra cara?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Lo esencial",
+      "title": "Un Leo más complejo",
+      "text": "Confianza y sensibilidad conviven en Leo, creando un signo lleno de matices que pocos conocen. Descubre todo en el artículo."
+    }
+  ],
+  "cta": {
+    "text": "¿Quieres saber más?",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/leo-personality-what-s-behind-leo-s-strong-presence"
+  }
+}

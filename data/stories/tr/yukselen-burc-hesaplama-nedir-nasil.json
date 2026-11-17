@@ -1,0 +1,47 @@
+{
+  "lang": "tr",
+  "slug": "yukselen-burc-hesaplama-nedir-nasil",
+  "date": "2026-11-17",
+  "title": "Yükselen Burcunuzu Doğru Hesapladınız mı?",
+  "description": "Doğum saatiniz, kişiliğinizi nasıl etkiliyor? Yükselen burcunuzu keşfedin, kendinizle ilgili bilinmeyenleri öğrenin.",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Devam etmek için dokun",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Şaşırtıcı Gerçek",
+      "title": "Yükselen Burç Nedir?",
+      "text": "Yükselen burç, başkalarının sizi ilk gördüğünde fark ettiği kişiliğinizdir. Siz hiç düşündünüz mü, dışarıdan nasıl göründüğünüzü?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Neden Önemli?",
+      "title": "Güneş Burcunuzdan Farklı",
+      "text": "Güneş burcunuz sizin özünüzü anlatır, ama yükselen burcunuz dış dünyaya yansıttığınız imajdır. Bu, insanları nasıl etkilediğinizi gösterir."
+    },
+    {
+      "theme": "night",
+      "kicker": "Hesaplama İpuçları",
+      "title": "Doğum Saati Çok Kritik",
+      "text": "Yükselen burç, doğduğunuz anda ufuktaki burçtur. Saat 08:15 doğan biriyle, 19:30 doğan biri aynı gün farklı yükselenlere sahip olabilir."
+    },
+    {
+      "theme": "air",
+      "kicker": "Hayatınıza Etkisi",
+      "title": "Çevrenizdeki İlk İzlenim",
+      "text": "Yükselen burcunuz, yeni insanlarla tanışırken ortaya çıkar. Bu özelliklerinizi keşfetmek, sosyal hayatınızı nasıl değiştirebilir?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Keşfe Hazır Mısınız?",
+      "title": "Yükseleninizi Hesaplayın",
+      "text": "Doğum tarihiniz, saatiniz ve şehrinizle yükseleninizi kolayca öğrenin. Kendinizi daha iyi anlamak için tam makaleye göz atın!"
+    }
+  ],
+  "cta": {
+    "text": "Yükseleninizi hemen bulun!",
+    "label": "Tam Makaleyi Oku",
+    "url": "/tr/blog/yukselen-burc-hesaplama-nedir-nasil"
+  }
+}

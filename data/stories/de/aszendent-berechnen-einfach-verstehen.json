@@ -1,0 +1,47 @@
+{
+  "lang": "de",
+  "slug": "aszendent-berechnen-einfach-verstehen",
+  "date": "2026-11-17",
+  "title": "Kennst du wirklich deinen Aszendenten?",
+  "description": "Entdecke, wie dein Aszendent deine Persönlichkeit und Wirkung verändert – und wie du ihn ganz einfach berechnen kannst.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Weiter entdecken",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Überraschung",
+      "title": "Mehr als nur dein Sternzeichen",
+      "text": "Dein Aszendent zeigt, wie dich andere zuerst wahrnehmen – oft ganz anders als dein Sternzeichen vermuten lässt."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Tatsache",
+      "title": "Geburtszeit ist entscheidend",
+      "text": "Schon Minuten Unterschied bei der Uhrzeit können deinen Aszendenten komplett verändern. Weißt du deine genau?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Tipp",
+      "title": "Einfach online berechnen",
+      "text": "Früher schwer, heute kinderleicht: Mit einem kostenlosen Online-Rechner findest du deinen Aszendenten in Sekunden."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Neugierig?",
+      "title": "Was dein Aszendent verrät",
+      "text": "Dein Aufstiegszeichen gibt spannende Einblicke in deine Ausstrahlung und Persönlichkeit – und macht dein Horoskop viel persönlicher."
+    },
+    {
+      "theme": "night",
+      "kicker": "Bonus",
+      "title": "So findest du deinen Aszendenten",
+      "text": "Im Artikel zeigen wir dir Schritt für Schritt, wie du ihn berechnest und warum das für dich so wertvoll ist."
+    }
+  ],
+  "cta": {
+    "text": "Finde jetzt deinen Aszendenten",
+    "label": "Artikel lesen",
+    "url": "/de/blog/aszendent-berechnen-einfach-verstehen"
+  }
+}

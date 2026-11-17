@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "pisces-traits-and-relationships-a-simple-guide-es",
+  "date": "2026-11-17",
+  "title": "¿Sabías que los Piscis pueden sentir lo que no dices?",
+  "description": "Descubre cómo la sensibilidad y empatía de Piscis transforman sus relaciones y su mundo interior.",
+  "theme": "water",
+  "kind": "article",
+  "swipe": "Desliza para descubrir",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Sorpresa",
+      "title": "Sensibilidad única",
+      "text": "Piscis capta cambios sutiles en tu ánimo incluso en un chat grupal. ¿Cómo lo hacen sin que te des cuenta?"
+    },
+    {
+      "theme": "water",
+      "kicker": "Rasgo clave",
+      "title": "Imaginación y empatía",
+      "text": "Su vida interior es un océano de creatividad y compasión. ¿Sabías que eso moldea sus vínculos más que nada?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Relaciones",
+      "title": "Conexiones profundas",
+      "text": "Prefieren charlas íntimas a fiestas multitudinarias. ¿Quieres saber cómo gestionan su mundo emocional?"
+    },
+    {
+      "theme": "water",
+      "kicker": "Desafío",
+      "title": "Evitan el estrés",
+      "text": "Cuando el trabajo aprieta, pueden perderse en sus pensamientos para escapar. ¿Y cómo afecta eso a quienes los rodean?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Descubre más",
+      "title": "Piscis en tu vida",
+      "text": "Entender su complejidad te ayudará a mejorar tu relación con ellos y contigo mismo. ¿Listo para explorar su mundo?"
+    }
+  ],
+  "cta": {
+    "text": "Conoce el alma de Piscis",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/pisces-traits-and-relationships-a-simple-guide"
+  }
+}

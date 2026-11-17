@@ -1,0 +1,47 @@
+{
+  "lang": "fr",
+  "slug": "scorpion-signe-astrologique-guide",
+  "date": "2026-11-17",
+  "title": "Le Scorpion, signe le plus intense du zodiaque ?",
+  "description": "Découvrez pourquoi le Scorpion fascine tant avec sa personnalité secrète, son intensité et ses forces cachées. Prêt(e) à plonger dans son univers ?",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Glissez pour savoir",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Intrigue",
+      "title": "Un signe d'eau mystérieux",
+      "text": "Le Scorpion est connu pour son intensité et son secret. Mais savez-vous ce que cache vraiment ce signe puissant ?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Personnalité",
+      "title": "Authenticité et intensité",
+      "text": "Le Scorpion vit tout à fond, entre loyauté extrême et émotions fortes. Sa vérité dérange parfois... Curieux(se) d’en savoir plus ?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Force cachée",
+      "title": "Intuition et persévérance",
+      "text": "Déterminé et intuitif, le Scorpion excelle là où il doit creuser en profondeur. Sa force est un vrai atout, mais pourquoi ?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Défi",
+      "title": "Secret et jalousie",
+      "text": "Son côté secret peut dérouter, et sa jalousie le rendre difficile. Comment gérer ces facettes ? La réponse pourrait vous surprendre."
+    },
+    {
+      "theme": "night",
+      "kicker": "À découvrir",
+      "title": "Tous les secrets du Scorpion",
+      "text": "Comportement, amour, travail, compatibilité : découvrez tout ce qui fait la complexité et la puissance du Scorpion. Vous ne verrez plus ce signe de la même façon."
+    }
+  ],
+  "cta": {
+    "text": "Explorez le mystère Scorpion",
+    "label": "Lire l'article complet",
+    "url": "/fr/blog/scorpion-signe-astrologique-guide"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "daily-horoscope-for-wednesday-november-11-2026-all-12-signs-es",
+  "date": "2026-11-17",
+  "title": "¿Qué te revela el cosmos este 11 de noviembre?",
+  "description": "Descubre cómo la energía de Scorpio y la Luna creciente influirán en tu día. ¿Listo para transformar tus relaciones y decisiones?",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Curiosidad",
+      "title": "Energía profunda hoy",
+      "text": "Con el Sol en Escorpio y la Luna creciente, la energía invita a explorar tus emociones más allá de lo evidente."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Amistad",
+      "title": "Aries y las conexiones",
+      "text": "Tu entusiasmo crea lazos fuertes en conversaciones sinceras. ¿Qué historia cambiará tu día hoy?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Paciencia",
+      "title": "Tauro y el amor",
+      "text": "Pequeños gestos fortalecen tu relación. ¿Qué detalle inesperado podría surgir esta noche?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Claridad",
+      "title": "Géminis y tus ideas",
+      "text": "Compartir tus pensamientos inspira a otros. ¿Qué idea tuya prenderá la chispa en el trabajo?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Revelación",
+      "title": "Tu horóscopo completo",
+      "text": "Conoce el consejo para tu signo sobre amor, trabajo y dinero. Descubre lo que tu energía lunar puede transformar."
+    }
+  ],
+  "cta": {
+    "text": "Descubre tu predicción completa",
+    "label": "Leer horóscopo completo",
+    "url": "/es/blog/daily-horoscope-for-wednesday-november-11-2026-all-12-signs"
+  }
+}

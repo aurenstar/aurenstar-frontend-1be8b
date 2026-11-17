@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "zodiac-sign-dates-when-each-sign-begins-and-ends-pt",
+  "date": "2026-11-17",
+  "title": "Você sabe quando seu signo realmente começa?",
+  "description": "Descubra como as datas do zodíaco influenciam sua personalidade e seus comportamentos diários.",
+  "theme": "water",
+  "kind": "article",
+  "swipe": "Deslize para descobrir",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Curiosidade",
+      "title": "Datas do zodíaco",
+      "text": "Cada signo tem um período exato, em que o sol passa por ele, moldando traços únicos em você."
+    },
+    {
+      "theme": "water",
+      "kicker": "Insight",
+      "title": "Nascer na cúspide",
+      "text": "Se você nasceu perto do fim ou começo de um signo, pode ter características de dois signos diferentes."
+    },
+    {
+      "theme": "night",
+      "kicker": "Exemplo real",
+      "title": "Como signos afetam você",
+      "text": "Um taurino no trabalho pode misturar urgência com calma – um equilíbrio que só o zodíaco explica."
+    },
+    {
+      "theme": "water",
+      "kicker": "Profundidade",
+      "title": "Mudança de humor e signos",
+      "text": "Sua variação emocional pode estar ligada ao seu signo, revelando padrões que você nem percebe."
+    },
+    {
+      "theme": "night",
+      "kicker": "Descubra mais",
+      "title": "Por que isso importa para você",
+      "text": "No artigo, veja como entender seu signo e suas datas pode transformar sua visão sobre si mesmo e suas relações."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender seu signo melhor?",
+    "label": "Leia o artigo completo",
+    "url": "/pt/blog/zodiac-sign-dates-when-each-sign-begins-and-ends"
+  }
+}

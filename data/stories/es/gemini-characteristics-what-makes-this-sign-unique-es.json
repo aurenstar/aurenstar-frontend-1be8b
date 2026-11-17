@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "gemini-characteristics-what-makes-this-sign-unique-es",
+  "date": "2026-11-17",
+  "title": "¿Sabías que Géminis cambia de personalidad según la ocasión?",
+  "description": "Descubre por qué los Géminis son tan versátiles y cómo sus rasgos únicos los hacen fascinantes y complejos.",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Sigue descubriendo",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Doble naturaleza",
+      "title": "Personalidad gemela",
+      "text": "Géminis puede ser extrovertido y reservado al mismo tiempo. ¿Cómo manejan estos cambios? Te sorprenderá."
+    },
+    {
+      "theme": "air",
+      "kicker": "Curiosidad",
+      "title": "Amantes del conocimiento",
+      "text": "Son inquietos y siempre buscan aprender algo nuevo. ¿Qué los impulsa a explorar tanto?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Sociales",
+      "title": "El alma de la fiesta",
+      "text": "Su don para la comunicación conecta con todos. Descubre cómo esto transforma sus relaciones."
+    },
+    {
+      "theme": "air",
+      "kicker": "Fortalezas",
+      "title": "Pensadores innovadores",
+      "text": "Géminis no solo habla, también genera ideas frescas. ¿Cómo usan esta capacidad a su favor?"
+    },
+    {
+      "theme": "night",
+      "kicker": "¿Quieres saber más?",
+      "title": "Descubre el misterio de Géminis",
+      "text": "Explora sus virtudes y debilidades, y cómo influyen en su forma de amar y vivir. No te lo pierdas."
+    }
+  ],
+  "cta": {
+    "text": "Conoce todos los secretos de Géminis",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/gemini-characteristics-what-makes-this-sign-unique"
+  }
+}

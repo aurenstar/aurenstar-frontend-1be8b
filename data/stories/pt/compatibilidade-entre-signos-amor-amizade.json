@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "compatibilidade-entre-signos-amor-amizade",
+  "date": "2026-11-17",
+  "title": "Compatibilidade entre signos: amor e amizade revelados",
+  "description": "Descubra como seu signo combina com outros no amor e na amizade e o que pode transformar suas relações para melhor.",
+  "theme": "water",
+  "kind": "article",
+  "swipe": "Toque para saber",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Surpresa",
+      "title": "Seu signo é só o começo",
+      "text": "A combinação dos signos solares influencia muito, mas seu mapa astral completo revela detalhes que podem mudar tudo."
+    },
+    {
+      "theme": "water",
+      "kicker": "Exemplo real",
+      "title": "Touro e Peixes se conectam",
+      "text": "Júlia (Touro) e Bruno (Peixes) têm uma ligação forte porque ambos valorizam segurança e afeto. Quer saber por quê?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Amor e desafios",
+      "title": "Áries e Libra: opostos que atraem",
+      "text": "Eles se complementam, mas a impaciência de Áries pode criar tensão. Como superar isso? Descubra logo."
+    },
+    {
+      "theme": "water",
+      "kicker": "Amizades diferentes",
+      "title": "Signos opostos se complementam",
+      "text": "Na amizade, diferenças podem ser um ponto forte, criando aprendizados únicos. Você sabia disso?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Por que importa",
+      "title": "Compatibilidade vai além do signo",
+      "text": "No artigo, veja dicas práticas e exemplos para melhorar sua convivência com qualquer signo. Quer transformar suas relações?"
+    }
+  ],
+  "cta": {
+    "text": "Quer entender suas relações?",
+    "label": "Leia o artigo completo",
+    "url": "/pt/blog/compatibilidade-entre-signos-amor-amizade"
+  }
+}

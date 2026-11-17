@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "gemini-traits-a-simple-guide-to-the-star-sign-es",
+  "date": "2026-11-17",
+  "title": "¿Sabías que Géminis puede ser todo lo contrario a lo que imaginas?",
+  "description": "Descubre por qué Géminis es mucho más que un signo dual y qué secretos esconden sus rasgos más sorprendentes.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Intriga",
+      "title": "La dualidad de Géminis",
+      "text": "Representados por los Gemelos, los Géminis tienen personalidades que parecen dos en una. ¿Sabrías cuándo muestran su lado oculto?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Dato clave",
+      "title": "Comunicación única",
+      "text": "Regidos por Mercurio, son expertos en conversaciones que capturan la atención. Pero, ¿qué los hace tan irresistibles al hablar?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Curiosidad",
+      "title": "Adaptabilidad sorprendente",
+      "text": "Pueden cambiar de planes y ambientes sin perder su esencia. ¿Quieres saber cómo esto afecta sus relaciones?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Revelación",
+      "title": "Un pensamiento veloz y juguetón",
+      "text": "Su mente nunca para y su humor conecta con todos. Pero esta agilidad mental también puede ser un reto. ¿Quieres entender por qué?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Lo mejor viene",
+      "title": "¿Qué hace a Géminis tan especial?",
+      "text": "En el artículo completo descubrirás sus fortalezas y desafíos, y cómo esta mezcla impacta su vida y la de quienes los rodean."
+    }
+  ],
+  "cta": {
+    "text": "Descubre el misterio de Géminis",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/gemini-traits-a-simple-guide-to-the-star-sign"
+  }
+}

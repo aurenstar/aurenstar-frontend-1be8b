@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "scorpio-personality-traits-explained-es",
+  "date": "2026-11-17",
+  "title": "¿Sabes qué oculta realmente un Escorpio?",
+  "description": "Descubre rasgos de personalidad de Escorpio que te sorprenderán y cómo influyen en sus relaciones y éxito personal.",
+  "theme": "water",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Intriga",
+      "title": "El misterio Escorpio",
+      "text": "Escorpio no es solo intensidad; guarda secretos y emociones que pocos logran descifrar. ¿Quieres saber cuáles?"
+    },
+    {
+      "theme": "water",
+      "kicker": "Dato clave",
+      "title": "Pasión sin límites",
+      "text": "Tu pasión escorpiana te hace entregarte al máximo en todo. Pero, ¿cómo afecta esto a quienes te rodean?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Poder",
+      "title": "Intuición poderosa",
+      "text": "Sientes y entiendes más de lo que dices. Esa intuición te guía, pero también te hace desconfiar."
+    },
+    {
+      "theme": "water",
+      "kicker": "Reto",
+      "title": "Sus sombras ocultas",
+      "text": "La intensidad trae celos y terquedad. ¿Cómo manejas estas emociones para no afectar tus relaciones?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Descubre más",
+      "title": "Profundiza en Escorpio",
+      "text": "Explora sus fortalezas, debilidades y cómo influyen en tu vida diaria. Conocer esto puede cambiar tu perspectiva."
+    }
+  ],
+  "cta": {
+    "text": "Conoce su lado oculto",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/scorpio-personality-traits-explained"
+  }
+}

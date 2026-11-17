@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "aries-problem-solving-style-how-this-sign-tackles-es",
+  "date": "2026-11-17",
+  "title": "¿Sabes cómo Aries resuelve problemas?",
+  "description": "Descubre el estilo único de Aries para enfrentar retos con acción y confianza. ¿Te identificas con su forma de actuar?",
+  "theme": "water",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Intriga",
+      "title": "Aries y la urgencia",
+      "text": "Cuando surge un problema, Aries no duda: actúa rápido y sin miedo. ¿Te imaginas cómo sería un equipo con esa energía?"
+    },
+    {
+      "theme": "water",
+      "kicker": "Dato clave",
+      "title": "Confianza al mando",
+      "text": "Aries confía en su instinto y toma la iniciativa. Siempre quiere resultados ya, ¿y tú? ¿Eres tan directo como ellos?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Sorpresa",
+      "title": "¿Impaciencia o rapidez?",
+      "text": "Prefieren acción rápida a debates largos. Eso puede acelerar soluciones... pero también dejar cosas sin ver."
+    },
+    {
+      "theme": "water",
+      "kicker": "Relaciones",
+      "title": "Conflictos sin rodeos",
+      "text": "En pareja, Aries enfrenta problemas con franqueza y rapidez. ¿Eso ayuda o complica? Descubre por qué importa."
+    },
+    {
+      "theme": "night",
+      "kicker": "Revelación",
+      "title": "¿Qué más hay detrás?",
+      "text": "Conoce en el artículo completo cómo la energía y liderazgo de Aries marcan la diferencia en cada desafío."
+    }
+  ],
+  "cta": {
+    "text": "Descubre su estilo único",
+    "label": "Lee el artículo completo",
+    "url": "/es/blog/aries-problem-solving-style-how-this-sign-tackles"
+  }
+}

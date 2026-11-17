@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "pisces-money-mistakes-to-avoid-for-better-financial-health-pt",
+  "date": "2026-11-17",
+  "title": "Você é de Peixes? Cuidado com esses erros financeiros!",
+  "description": "Descubra os erros que Peixes cometem com dinheiro e como evitá-los para ter uma vida financeira mais saudável.",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Deslize para saber",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Surpresa",
+      "title": "Já gastou demais por impulso?",
+      "text": "Peixes adoram fazer compras por impulso e depois se arrependem ao ver o saldo bancário minguar."
+    },
+    {
+      "theme": "air",
+      "kicker": "Alerta",
+      "title": "Generosidade pode ser armadilha",
+      "text": "Você empresta dinheiro e nunca recebe de volta? Sua empatia pode estar prejudicando seu bolso."
+    },
+    {
+      "theme": "night",
+      "kicker": "Fato",
+      "title": "Procrastinar conta caro",
+      "text": "Deixar contas para depois pode gerar juros e dívidas que se acumulam rápido. Já percebeu isso?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Sinal vermelho",
+      "title": "Cuidado com investimentos arriscados",
+      "text": "Peixes tendem a confiar demais em promessas de ganhar dinheiro rápido, mas o risco é real."
+    },
+    {
+      "theme": "night",
+      "kicker": "Descubra",
+      "title": "Como evitar esses erros e cuidar do seu dinheiro",
+      "text": "No artigo completo, entenda por que você age assim e aprenda estratégias para proteger suas finanças."
+    }
+  ],
+  "cta": {
+    "text": "Quer evitar esses erros?",
+    "label": "Leia o artigo completo",
+    "url": "/pt/blog/pisces-money-mistakes-to-avoid-for-better-financial-health"
+  }
+}

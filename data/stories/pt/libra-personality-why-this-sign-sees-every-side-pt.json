@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "libra-personality-why-this-sign-sees-every-side-pt",
+  "date": "2026-11-17",
+  "title": "Por que Libra vê além do óbvio?",
+  "description": "Descubra o que realmente move os librianos e como eles entendem o mundo ao redor de um jeito único.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Toque para saber",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Surpresa",
+      "title": "Mais que charme",
+      "text": "Libra não é só agradável: percebe o clima entre as pessoas, sentindo o que vai além das palavras."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Insight",
+      "title": "Busca pelo equilíbrio",
+      "text": "Libra evita extremos e quer entender todos os lados antes de formar uma opinião."
+    },
+    {
+      "theme": "night",
+      "kicker": "Detalhe",
+      "title": "Beleza importa",
+      "text": "Para Libra, beleza é harmonia, desde o ambiente até a conversa mais simples."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Curiosidade",
+      "title": "O que poucos notam",
+      "text": "Evitar conflitos não é fraqueza; às vezes, é uma escolha estratégica para manter a paz."
+    },
+    {
+      "theme": "night",
+      "kicker": "Por dentro",
+      "title": "O dilema de Libra",
+      "text": "Libra luta entre ser justo e decidir rápido. Quer saber como isso se revela no dia a dia?"
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Libra de verdade?",
+    "label": "Leia o artigo completo",
+    "url": "/pt/blog/libra-personality-why-this-sign-sees-every-side"
+  }
+}

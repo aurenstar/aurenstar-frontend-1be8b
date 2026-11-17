@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "astrology-chart-your-cosmic-blueprint-explained-pt",
+  "date": "2026-11-17",
+  "title": "O que seu mapa astral revela sobre você?",
+  "description": "Descubra como seu mapa astral vai além do signo solar e revela padrões que impactam suas escolhas e relacionamentos.",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Toque para saber",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Surpresa",
+      "title": "Mais que seu signo",
+      "text": "Seu mapa astral é uma foto do céu no instante do seu nascimento, mostrando muito mais do que só seu signo solar."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Insight",
+      "title": "Personalidade revelada",
+      "text": "Ele mostra por que você reage de certos jeitos e quais ambientes fazem você se sentir mais vivo. Já sentiu isso?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Detalhe",
+      "title": "Sol, Lua e Ascendente",
+      "text": "Cada um desses elementos explica partes diferentes de você, das emoções à forma como se apresenta ao mundo."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Curiosidade",
+      "title": "Planetas e desafios",
+      "text": "Posições e ângulos entre planetas indicam tensões internas que influenciam suas decisões. Quer saber quais são?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Por que ler",
+      "title": "Descubra seu mapa",
+      "text": "No artigo completo, entenda seu blueprint cósmico e como usar essa sabedoria para fazer escolhas mais conscientes."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender seu mapa astral?",
+    "label": "Leia o artigo completo",
+    "url": "/pt/blog/astrology-chart-your-cosmic-blueprint-explained"
+  }
+}

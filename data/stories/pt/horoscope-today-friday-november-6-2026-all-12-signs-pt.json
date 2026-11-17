@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "horoscope-today-friday-november-6-2026-all-12-signs-pt",
+  "date": "2026-11-17",
+  "title": "Por que hoje é dia de olhar para dentro?",
+  "description": "Sol em Escorpião e Lua Minguante pedem introspecção e mudanças suaves. Descubra o que seu signo precisa ouvir agora.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Deslize para saber",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Reflexão",
+      "title": "Amizades em foco",
+      "text": "Áries, pequenas gentilezas podem fortalecer seus laços. Quem realmente apoia você vai se revelar. Quer saber como agir?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Cuidado",
+      "title": "Finanças sob olhar",
+      "text": "Touro, hoje é dia de rever gastos com calma e valorizar o que traz estabilidade. Como ajustar seu orçamento?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Trabalho",
+      "title": "Organize e priorize",
+      "text": "Gêmeos, evitar exageros e planejar com calma ajuda a passar por desafios. Quer descobrir quais tarefas focar?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Relacionamento",
+      "title": "Converse com calma",
+      "text": "Câncer, momentos tranquilos são perfeitos para falar do coração e fortalecer laços. Já pensou em quando é o momento ideal?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Descoberta",
+      "title": "Transformação suave",
+      "text": "No horóscopo completo, veja como cada signo pode usar essa energia para mudar sem pressa e se preparar para o que vem. Curioso?"
+    }
+  ],
+  "cta": {
+    "text": "Quer entender seu dia?",
+    "label": "Veja o horóscopo completo",
+    "url": "/pt/blog/horoscope-today-friday-november-6-2026-all-12-signs"
+  }
+}

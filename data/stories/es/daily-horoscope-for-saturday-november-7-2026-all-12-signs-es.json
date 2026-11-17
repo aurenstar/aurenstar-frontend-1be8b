@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "daily-horoscope-for-saturday-november-7-2026-all-12-signs-es",
+  "date": "2026-11-17",
+  "title": "¿Qué te revela el cielo este sábado?",
+  "description": "Descubre cómo la energía de Escorpio y la Luna en menguante invitan a un cambio interior que puede transformar tu día.",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Reflexión",
+      "title": "Pausa necesaria",
+      "text": "Este sábado, la calma es tu aliada. El Sol en Escorpio te invita a bajar el ritmo y reencontrarte contigo."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Energía",
+      "title": "Recarga tu fuerza",
+      "text": "Aries, ¿sabías que descansar puede renovar tu motivación? Un cambio pequeño en tu rutina traerá gran equilibrio."
+    },
+    {
+      "theme": "night",
+      "kicker": "Conexión",
+      "title": "Amistades profundas",
+      "text": "Géminis, hoy tu curiosidad brilla más con empatía. Profundiza tus lazos y siente el poder de la escucha."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Sorpresa",
+      "title": "Un giro inesperado",
+      "text": "Tauro, revisa tus finanzas con calma. Este día invita a replantear sin prisas, poniendo la seguridad primero."
+    },
+    {
+      "theme": "night",
+      "kicker": "Descubre más",
+      "title": "Tu guía para el sábado",
+      "text": "En el horóscopo completo te espera cómo aprovechar esta energía para transformar tus emociones y planes."
+    }
+  ],
+  "cta": {
+    "text": "Descubre tu mensaje del día",
+    "label": "Leer horóscopo completo",
+    "url": "/es/blog/daily-horoscope-for-saturday-november-7-2026-all-12-signs"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "horoscope-today-monday-november-16-2026-all-12-signs-es",
+  "date": "2026-11-17",
+  "title": "¿Qué te revela hoy tu signo bajo el Sol de Escorpio?",
+  "description": "Descubre las sorpresas que trae este lunes con la energía intensa del Sol en Escorpio y la Luna en cuarto creciente.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Intriga",
+      "title": "¿Una charla que cambia todo?",
+      "text": "Hoy una conversación inesperada podría transformar tus amistades, dándote una nueva perspectiva que no imaginabas."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Atención",
+      "title": "Pequeños cambios, gran libertad",
+      "text": "Revisar tus gastos diarios puede darte más control financiero del que crees. ¿Te animas a intentarlo?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Conexiones",
+      "title": "El poder de compartir",
+      "text": "Cocinar o planear juntos fortalece vínculos. Hoy es un buen día para acercarte a quienes amas."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Energía",
+      "title": "Equilibrio para tu mente y cuerpo",
+      "text": "Una actividad tranquila al final del día puede recargar tu energía. ¿Sabes cuál es la tuya ideal?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Revelación",
+      "title": "Horóscopo completo para hoy",
+      "text": "Descubre cómo cada signo puede aprovechar la energía del día para crecer y transformar su rutina. No te pierdas estos consejos."
+    }
+  ],
+  "cta": {
+    "text": "¿Quieres conocer tu guía completa?",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/horoscope-today-monday-november-16-2026-all-12-signs"
+  }
+}

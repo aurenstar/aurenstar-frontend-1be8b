@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "horoscope-today-thursday-november-12-2026-all-12-signs-pt",
+  "date": "2026-11-17",
+  "title": "Seu horóscopo de hoje revela um segredo inesperado",
+  "description": "Descubra como o céu de 12 de novembro pode transformar suas relações, trabalho e energia de forma surpreendente.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Toque para saber",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Surpresa",
+      "title": "Amizades que brilham",
+      "text": "Hoje, conversas sinceras fortalecem laços. Um encontro pode trazer alegrias que você nem esperava."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Dica Útil",
+      "title": "Trabalho com foco",
+      "text": "Uma tarefa desafiante vai mostrar sua liderança. Como você vai usar essa oportunidade?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Alerta",
+      "title": "Controle financeiro",
+      "text": "Evite compras impulsivas que só ocupam espaço. Qual é a verdadeira prioridade para você?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Equilíbrio",
+      "title": "Energia em alta e baixa",
+      "text": "Momentos de ação e descanso se alternam. Você está preparado para esse ritmo?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Revelação",
+      "title": "Mais do que um horóscopo",
+      "text": "No artigo completo, veja como o Sol em Escorpião e a Lua crescente moldam sua vida amorosa, trabalho e bem-estar. Não perca!"
+    }
+  ],
+  "cta": {
+    "text": "Quer saber o que o dia reserva?",
+    "label": "Leia o horóscopo",
+    "url": "/pt/blog/horoscope-today-thursday-november-12-2026-all-12-signs"
+  }
+}

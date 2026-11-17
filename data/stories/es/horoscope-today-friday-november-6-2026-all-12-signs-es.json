@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "horoscope-today-friday-november-6-2026-all-12-signs-es",
+  "date": "2026-11-17",
+  "title": "¿Qué te revela el cielo hoy, 6 de noviembre?",
+  "description": "Descubre cómo la Luna menguante y el sol en Escorpio pueden transformar tu día con pequeños cambios que harán la diferencia.",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Reflexión",
+      "title": "Energía para mirar dentro",
+      "text": "La Luna menguante invita a la introspección. ¿Qué parte de tu interior está pidiendo atención hoy?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Amistad",
+      "title": "Aries, cuida tus lazos",
+      "text": "Un gesto sencillo puede fortalecer tus relaciones. ¿Sabes quién realmente te apoya?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Finanzas",
+      "title": "Tauro, revisa tus gastos",
+      "text": "Hoy es ideal para ajustar tu presupuesto con calma. ¿Qué compras valen la pena a largo plazo?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Amor",
+      "title": "Cáncer, habla con calma",
+      "text": "El momento correcto para compartir tus sentimientos puede profundizar tu conexión. ¿Estás listo para abrirte?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Descubre más",
+      "title": "Transforma tu día con la astrología",
+      "text": "Consulta el horóscopo completo y prepárate para cambios suaves que pueden mejorar tu vida hoy."
+    }
+  ],
+  "cta": {
+    "text": "Descubre tu horóscopo completo",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/horoscope-today-friday-november-6-2026-all-12-signs"
+  }
+}

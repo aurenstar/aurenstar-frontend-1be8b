@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "pisces-traits-and-relationships-a-simple-guide-pt",
+  "date": "2026-11-17",
+  "title": "Você conhece o lado secreto de Peixes?",
+  "description": "Descubra as emoções profundas e o poder intuitivo de Peixes que poucos percebem no dia a dia.",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Toque para descobrir",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Surpresa",
+      "title": "Sensibilidade Única",
+      "text": "Peixes sente o que ninguém vê, captando até as mudanças sutis no seu humor. Já percebeu isso em alguém?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Insight",
+      "title": "Criatividade e Emoção",
+      "text": "Eles transformam sentimentos em arte e apoio. Mas pode ser difícil lidar com suas fugas da realidade."
+    },
+    {
+      "theme": "night",
+      "kicker": "Relações",
+      "title": "Parceiro Atento",
+      "text": "Peixes percebe até a ansiedade do parceiro e age com cuidado. Você sabe como isso afeta um relacionamento?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Social",
+      "title": "Poucos, mas Fiéis",
+      "text": "Prefere conversas profundas a festas lotadas, criando laços fortes e verdadeiros. Quer saber por quê?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Curiosidade",
+      "title": "O Desafio Por Trás da Compaixão",
+      "text": "A empatia intensa deles pode causar cansaço emocional. No artigo, veja como isso impacta sua vida e relacionamentos."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Peixes de verdade?",
+    "label": "Leia o artigo completo",
+    "url": "/pt/blog/pisces-traits-and-relationships-a-simple-guide"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "libra-personality-why-this-sign-sees-every-side-es",
+  "date": "2026-11-17",
+  "title": "¿Por qué Libra ve más de un lado?",
+  "description": "Descubre cómo Libra equilibra encanto, justicia y dudas internas para entender el mundo desde varias perspectivas.",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Sorprendente",
+      "title": "No solo es encantador",
+      "text": "Libra siente el ambiente y detecta tensiones sociales que otros ni notan. ¿Sabes por qué eso lo hace especial?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Perspectivas",
+      "title": "Busca el equilibrio",
+      "text": "No evita opinar, pero prefiere entender todos los ángulos antes de decidir. ¿Cómo influye eso en sus relaciones?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Detalle clave",
+      "title": "Más que apariencia",
+      "text": "Para Libra, la belleza está en la armonía del entorno y el momento, no solo en lo externo. ¿Qué más percibe?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Lo que pocos ven",
+      "title": "Tensión entre paz y verdad",
+      "text": "Evitar conflictos puede ser una estrategia, no debilidad. Libra lucha entre ser honesto y mantener la calma."
+    },
+    {
+      "theme": "night",
+      "kicker": "Profundiza",
+      "title": "El misterio de Libra",
+      "text": "Descubre cómo Libra equilibra su justicia con sus dudas internas y por qué eso lo hace tan fascinante para ti."
+    }
+  ],
+  "cta": {
+    "text": "Entiende la mente de Libra",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/libra-personality-why-this-sign-sees-every-side"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "lang": "de",
+  "slug": "sternzeichen-loewe-eigenschaften-tipps",
+  "date": "2026-11-17",
+  "title": "Bist du wirklich ein typischer Löwe?",
+  "description": "Entdecke, was Löwen im Alltag ausmacht, welche Stärken sie haben und warum sie so anziehend wirken. Finde heraus, was dein Sternzeichen verrät!",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Wische für mehr",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Überraschung",
+      "title": "Löwen lieben den Mittelpunkt",
+      "text": "Geborene zwischen 23. Juli und 23. August strahlen natürliche Wärme aus und lieben es, im Rampenlicht zu stehen. Warum das so ist, erfährst du gleich."
+    },
+    {
+      "theme": "air",
+      "kicker": "Tipp",
+      "title": "Stark und selbstbewusst",
+      "text": "Löwen sind mutig, großzügig und übernehmen gern Verantwortung. Doch was passiert, wenn sie keine Anerkennung bekommen?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Alltag",
+      "title": "Löwen sind echte Organisatoren",
+      "text": "Ob Party oder Arbeit – Löwen bringen Schwung rein und motivieren andere. Aber Vorsicht: Was passiert, wenn sie zu dominant werden?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Charakter",
+      "title": "Herzlich und loyal",
+      "text": "Löwen zeigen Gefühle offen und sind treue Freunde. Doch manchmal kann ihre Ungeduld leicht überkochen. Was steckt dahinter?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Mehr erfahren",
+      "title": "Das macht Löwen einzigartig",
+      "text": "Im Artikel erfährst du, welche Stärken und Schwächen Löwen wirklich ausmachen – und wie du sie im Alltag und in Beziehungen besser verstehst."
+    }
+  ],
+  "cta": {
+    "text": "Neugierig auf mehr?",
+    "label": "Artikel lesen",
+    "url": "/de/blog/sternzeichen-loewe-eigenschaften-tipps"
+  }
+}

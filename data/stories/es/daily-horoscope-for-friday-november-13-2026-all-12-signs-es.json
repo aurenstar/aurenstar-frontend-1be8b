@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "daily-horoscope-for-friday-november-13-2026-all-12-signs-es",
+  "date": "2026-11-17",
+  "title": "¿Qué trae el 13 de noviembre para tu signo?",
+  "description": "Descubre cómo el Sol en Escorpio y la Luna creciente influirán en tus relaciones y metas este viernes 13 de noviembre.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Emoción Oculta",
+      "title": "¿Sientes que algo crece?",
+      "text": "Hoy, tus emociones se fortalecen bajo la Luna en creciente. ¿Qué secretos podría revelarte el día?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Amistad Profunda",
+      "title": "Aries, conecta más",
+      "text": "Una charla sincera puede abrir nuevas puertas con amigos. ¿Estás listo para compartir tus sueños?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Amor Sutil",
+      "title": "Tauro, pequeños detalles",
+      "text": "Un gesto o nota escrita puede transformar tu relación. ¿Qué sorpresa tienes preparada?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Claridad Mental",
+      "title": "Géminis, comunica y crece",
+      "text": "Hoy la comunicación es clave para entender y avanzar. ¿Qué preguntas te ayudarán?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Tu día especial",
+      "title": "Horóscopo completo aquí",
+      "text": "Conoce cómo las estrellas guían tu vida personal y profesional este viernes. No te pierdas lo que viene."
+    }
+  ],
+  "cta": {
+    "text": "Descubre tu horóscopo completo",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/daily-horoscope-for-friday-november-13-2026-all-12-signs"
+  }
+}

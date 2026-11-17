@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "zodiac-compatibility-what-works-and-what-challenges-pt",
+  "date": "2026-11-17",
+  "title": "Como seu signo afeta suas relações? Descubra!",
+  "description": "Descubra como a compatibilidade entre signos pode transformar seus relacionamentos, revelando o que realmente funciona e o que desafia você.",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Veja mais",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Curiosidade",
+      "title": "Gêmeos e suas conexões",
+      "text": "Gêmeos brilha com parceiros que acompanham sua agilidade mental, mas sofre com quem exige profundidade emocional constante. Você já passou por isso?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Exemplo real",
+      "title": "Leão e Virgem no trabalho",
+      "text": "Leão traz ideias ousadas, Virgem foca nos detalhes. Juntos, podem criar soluções poderosas, se souberem respeitar seus ritmos distintos."
+    },
+    {
+      "theme": "night",
+      "kicker": "Amizades",
+      "title": "Sagitário e Libra em ação",
+      "text": "Aventureiro Sagitário energiza o equilibrado Libra, formando duplas sociais cheias de harmonia e energia. Quer saber como isso funciona?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Fogo e Ar",
+      "title": "Chamas e ventos que se misturam",
+      "text": "Signos de Fogo e Ar se atraem pela energia e ideias, mas podem esbarrar na impulsividade e na análise excessiva. Como lidar com isso?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Revelação",
+      "title": "Compatibilidade vai além da perfeição",
+      "text": "Saiba como entender padrões e ajustar expectativas pode transformar suas relações, tornando-as mais leves e profundas. Quer descobrir como?"
+    }
+  ],
+  "cta": {
+    "text": "Quer entender sua química?",
+    "label": "Leia o artigo completo",
+    "url": "/pt/blog/zodiac-compatibility-what-works-and-what-challenges"
+  }
+}

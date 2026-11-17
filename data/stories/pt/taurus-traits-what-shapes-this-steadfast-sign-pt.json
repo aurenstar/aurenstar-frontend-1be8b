@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "taurus-traits-what-shapes-this-steadfast-sign-pt",
+  "date": "2026-11-17",
+  "title": "Descubra o que torna Touro tão confiável",
+  "description": "Saiba por que pessoas de Touro são sinônimo de estabilidade e como essa força impacta tudo ao seu redor.",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Toque para saber",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Surpresa",
+      "title": "Touro é o pilar",
+      "text": "Taurinos prezam estabilidade e conforto acima de tudo. Você sabia que isso pode transformar até o ambiente de trabalho?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Exemplo real",
+      "title": "Constância no dia a dia",
+      "text": "Um colega Touro sempre entrega no prazo e mantém tudo organizado. Quer saber por que isso importa?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Curiosidade",
+      "title": "Paciência que dá frutos",
+      "text": "Touro prefere preparar tudo com calma, sem pressa. Isso explica seu sucesso a longo prazo. Quer entender como?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Detalhe único",
+      "title": "Amante do prazer",
+      "text": "Para um Touro, uma boa comida e música são essenciais. Descubra como isso revela sua conexão com o mundo."
+    },
+    {
+      "theme": "night",
+      "kicker": "Essencial",
+      "title": "Força e teimosia",
+      "text": "Taurinos são leais e práticos, mas podem resistir a mudanças mesmo quando são boas. Veja como isso afeta suas escolhas."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender Touro a fundo?",
+    "label": "Leia o artigo completo",
+    "url": "/pt/blog/taurus-traits-what-shapes-this-steadfast-sign"
+  }
+}

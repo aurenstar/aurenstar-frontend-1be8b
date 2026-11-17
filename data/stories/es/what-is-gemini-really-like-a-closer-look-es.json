@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "what-is-gemini-really-like-a-closer-look-es",
+  "date": "2026-11-17",
+  "title": "¿Sabes qué realmente mueve a Géminis?",
+  "description": "Descubre la curiosidad insaciable y la mente inquieta que hacen único a Géminis. ¿Quieres saber más?",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Desliza para descubrir",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Curiosidad",
+      "title": "Siempre está explorando",
+      "text": "Géminis no para de buscar nuevas ideas. Su mente nunca se detiene y eso cambia todo a su alrededor."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Comunicación",
+      "title": "Más que palabras",
+      "text": "Hablar es solo el inicio. Para Géminis, conversar es descubrir qué realmente piensa."
+    },
+    {
+      "theme": "night",
+      "kicker": "Impredecible",
+      "title": "Un signo que cambia",
+      "text": "Un Géminis puede ser juguetón o serio según el momento. ¿Cómo lo logra? Hay algo detrás..."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Alerta",
+      "title": "Observa lo que otros no ven",
+      "text": "Su atención rápida captura detalles sorprendentes. Eso lo hace fascinante e impredecible."
+    },
+    {
+      "theme": "night",
+      "kicker": "Descubre más",
+      "title": "Géminis va más allá del estereotipo",
+      "text": "Entender su mente inquieta te ayudará a conectar mejor con ellos. ¿Quieres conocer cada capa? Por eso debes leer el artículo completo."
+    }
+  ],
+  "cta": {
+    "text": "Explora la verdadera esencia de Géminis",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/what-is-gemini-really-like-a-closer-look"
+  }
+}

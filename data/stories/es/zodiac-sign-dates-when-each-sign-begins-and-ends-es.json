@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "zodiac-sign-dates-when-each-sign-begins-and-ends-es",
+  "date": "2026-11-17",
+  "title": "¿Sabes qué dice tu fecha zodiacal de ti?",
+  "description": "Descubre cómo las fechas de tu signo influyen en tu personalidad y emociones. ¿Eres realmente como crees?",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Intriga",
+      "title": "Tu signo no es solo un símbolo",
+      "text": "La fecha exacta en que nace tu signo impacta tus emociones y decisiones. ¿Sabías que incluso el día puede cambiar todo?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Dato clave",
+      "title": "¿Naciste en la cúspide?",
+      "text": "Si tu cumpleaños está al límite entre dos signos, puedes tener rasgos de ambos. Esto explica por qué te sientes diferente."
+    },
+    {
+      "theme": "night",
+      "kicker": "Ejemplo real",
+      "title": "Tú en el trabajo",
+      "text": "Un Aries-Tauro enfrenta retos con mezcla de audacia y paciencia. ¿Reconoces esa combinación en ti?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Más que un mes",
+      "title": "Tu signo habla de ti",
+      "text": "Las fechas zodiacales revelan patrones emocionales que afectan tu vida diaria. ¿Quieres saber cómo te influye?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Lo mejor",
+      "title": "Lo que descubrirás",
+      "text": "En el artículo completo entenderás las fechas exactas de cada signo y cómo usarlas para conocerte mejor. ¡Vale la pena!"
+    }
+  ],
+  "cta": {
+    "text": "Entiende tu signo hoy",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/zodiac-sign-dates-when-each-sign-begins-and-ends"
+  }
+}
