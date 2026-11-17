@@ -16,7 +16,10 @@ export const SIGNS = ['aries', 'touro', 'gemeos', 'cancer', 'leao', 'virgem', 'l
 export const coverPath = (sign: string) => `/stories/img/cover-${sign}.webp`;
 export const STORY_THEMES: Theme[] = ['fire', 'earth', 'air', 'water', 'night'];
 export const storyPath = (s: Pick<WebStory, 'lang' | 'slug'>) => `/stories/${s.lang}/${s.slug}`;
-export const posterPath = (s: Pick<WebStory, 'lang' | 'slug'>) => `/stories/img/poster-${s.lang}-${s.slug}.webp`;
+// Hand-written stories (pt, en, es) have a poster with their own title. Stories the robot writes in other languages use a language-neutral poster per sign (symbol only, no text).
+export const HAND_LANGS = ['pt', 'en', 'es'];
+export const posterPath = (s: Pick<WebStory, 'lang' | 'slug'> & { sign?: string }) => (s.sign && !HAND_LANGS.includes(s.lang) ? `/stories/img/poster-sign-${s.sign}.webp` : `/stories/img/poster-${s.lang}-${s.slug}.webp`);
+const RTL = new Set(['ar', 'he', 'fa', 'ur']);
 export const bgPath = (t: Theme) => `/stories/img/bg-${t}.webp`;
 const LOGO = '/stories/img/logo-96.png';
 const LOCALE: Record<string, string> = { pt: 'pt-BR', en: 'en', es: 'es' };
@@ -84,7 +87,7 @@ export function renderWebStory(s: WebStory, site: string): string {
 </amp-story-page>`;
   const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: s.title, description: s.description, datePublished: s.date, dateModified: s.date, inLanguage: loc, mainEntityOfPage: url, image: `${site}${posterPath(s)}`, author: { '@type': 'Organization', name: 'Aurenstar' }, publisher: { '@type': 'Organization', name: 'Aurenstar', logo: { '@type': 'ImageObject', url: `${site}${LOGO}` } } };
   return `<!doctype html>
-<html amp lang="${esc(loc)}">
+<html amp lang="${esc(loc)}"${RTL.has(s.lang) ? ' dir="rtl"' : ''}>
 <head>
 <meta charset="utf-8">
 <script async src="https://cdn.ampproject.org/v0.js"></script>

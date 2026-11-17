@@ -3,6 +3,9 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { renderWebStory, checkStory, storyPath, posterPath, coverPath, SIGNS, type WebStory } from '../server/engine/webStory';
 
+import { buildStory, problemsOf } from '../scripts/stories/build';
+import { SIGN_FACTS } from '../scripts/stories/signs';
+
 let failed = 0;
 const ok = (name: string, cond: boolean) => { if (!cond) { failed++; console.log('FAIL', name); } else console.log('ok  ', name); };
 
@@ -29,4 +32,21 @@ ok('stories: slugs are unique per language', new Set(all.map((s) => `${s.lang}/$
 ok('check: too few pages is rejected', checkStory({ ...all[0], pages: all[0].pages.slice(0, 2) }).length > 0);
 ok('check: a long page text is rejected', checkStory({ ...all[0], pages: all[0].pages.map((p) => ({ ...p, text: 'x'.repeat(300) })) }).length > 0);
 ok('render: text is escaped', !renderWebStory({ ...all[0], title: 'A <b>"quoted"</b> story title' }, SITE).includes('<b>'));
+
+// Stories written by the robot in other languages (the AI call is replaced by a fake one here)
+const widder = SIGN_FACTS[0];
+const page = (i: number) => ({ kicker: `Stärke ${i}`, title: `Mut und Antrieb ${i}`, text: 'Der Widder packt Dinge an, ohne lange zu zögern, und reißt andere mit sich.' });
+const good = () => ({ title: 'Widder: das solltest du wissen', description: 'Das Wichtigste über das Sternzeichen Widder in wenigen Bildschirmen: Stärken, Schwächen, Liebe und Beruf.', swipe: 'Weiter tippen', ctaText: 'Mehr über den Widder lesen', ctaLabel: 'Artikel ansehen', pages: [1, 2, 3, 4, 5].map(page) });
+const fake = (w: any, review: any = { ok: true }) => async (kind: 'write' | 'review') => (kind === 'write' ? w : review);
+const built = await buildStory('de', widder, 'articles', fake(good()), '2026-11-17');
+ok('robot story: a good German story is accepted', !!built.story && built.story.sign === 'aries' && built.story.lang === 'de' && checkStory(built.story as WebStory).length === 0);
+ok('robot story: button goes to the language article list when it has articles', built.story?.cta.url === '/de/articles');
+ok('robot story: button goes to the tool when the language has no articles yet', (await buildStory('de', widder, 'tool', fake(good()), '2026-11-17')).story?.cta.url === '/de/discover-sign');
+ok('robot story: poster is the language-neutral one of the sign', !!built.story && posterPath(built.story) === '/stories/img/poster-sign-aries.webp' && fs.existsSync(path.join(__dirname, '..', 'public', posterPath(built.story))));
+ok('robot story: 4 screens are rejected', !(await buildStory('de', widder, 'articles', fake({ ...good(), pages: [1, 2, 3, 4].map(page) }), '2026-11-17')).story);
+ok('robot story: English text for German is rejected', problemsOf({ ...good(), pages: [1, 2, 3, 4, 5].map(() => ({ kicker: 'Strength', title: 'Courage and drive', text: 'The sign is the one that will start things with the people that you know and that you can trust.' })) }, 'de', widder).length > 0);
+ok('robot story: Latin letters for Arabic are rejected', problemsOf(good(), 'ar', widder).length > 0);
+ok('robot story: a link is rejected', problemsOf({ ...good(), description: 'Mehr auf https://example.com bei Widder und seinen Eigenschaften im Überblick hier' }, 'de', widder).length > 0);
+ok('robot story: the editor can reject', !(await buildStory('de', widder, 'articles', fake(good(), { ok: false, problems: ['wrong fact'] }), '2026-11-17')).story);
+ok('robot story: Arabic page is right to left', renderWebStory({ ...(built.story as WebStory), lang: 'ar' }, SITE).includes('dir="rtl"'));
 process.exit(failed ? 1 : 0);

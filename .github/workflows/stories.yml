@@ -1,0 +1,48 @@
+name: Web Stories (other languages)
+on:
+  # No schedule on purpose: the Aurenstar n8n factory starts this when the owner says so. Today the plan is paused, so nothing is written.
+  workflow_dispatch:
+    inputs:
+      max:
+        description: 'Most stories in this run'
+        default: '6'
+      langs:
+        description: 'Languages (empty = the ones open in data/native-plan.json)'
+        default: ''
+permissions:
+  contents: write
+concurrency:
+  group: native-articles
+  cancel-in-progress: false
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --legacy-peer-deps
+      - name: Write stories (skips quietly if the key is not set or the plan is paused)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          args="--max ${{ github.event.inputs.max }}"
+          if [ -n "${{ github.event.inputs.langs }}" ]; then args="$args --langs ${{ github.event.inputs.langs }}"; fi
+          npx tsx scripts/stories/write.ts $args
+      - name: Check before saving
+        run: |
+          npx tsc --noEmit
+          npx tsx tests/stories.test.ts
+      - name: Save
+        run: |
+          if [ -n "$(git status --porcelain data/stories data/native-cost.json)" ]; then
+            git config user.name "aurenstar-bot"
+            git config user.email "bot@aurenstar.com"
+            git add data/stories data/native-cost.json
+            git commit -m "Web Stories: new ones written directly in each language"
+            git pull --rebase origin main
+            git push
+          fi
