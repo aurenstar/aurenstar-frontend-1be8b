@@ -313,13 +313,9 @@ if (fs.existsSync(storiesDir)) {
       const f = `${st.slug}.json`;
       const bad = checkStory(st);
       if (bad.length) { console.warn(`prerender: story ${l}/${f} skipped (${bad.join(', ')})`); continue; }
-      // "Keep reading" cards: the next 3 other stories of the same language, always the same ones for the same story.
-      const others = all.filter((o) => o.slug !== st.slug && !checkStory(o).length);
-      const at = others.findIndex((o) => o.slug > st.slug);
-      const rel = Array.from({ length: Math.min(3, others.length) }, (_, i) => others[((at < 0 ? 0 : at) + i) % others.length]).map((o) => ({ title: o.title, url: storyPath(o), sign: o.sign, theme: o.theme }));
       if (inWp.has(st.slug)) { redirects.push(`${storyPath(st)} /blog/stories/${st.slug} 301`); continue; }
       fs.mkdirSync(path.join(dist, 'stories', st.lang), { recursive: true });
-      fs.writeFileSync(path.join(dist, 'stories', st.lang, `${st.slug}.html`), renderWebStory(st, SITE_URL, rel));
+      fs.writeFileSync(path.join(dist, 'stories', st.lang, `${st.slug}.html`), renderWebStory(st, SITE_URL));
 storyUrls.push({ loc: `${SITE_URL}${storyPath(st)}`, lastmod: st.date });
     }
   }

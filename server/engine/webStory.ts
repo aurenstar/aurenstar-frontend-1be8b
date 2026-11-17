@@ -10,7 +10,9 @@ export interface WebStory {
   cta: { text: string; label: string; url: string };
   sign?: string; // one of SIGNS: the cover then gets that sign's symbol
   swipe?: string; // short hint on the cover, e.g. "Toque para avançar"
-  more?: string; // heading above the related cards on the last screen
+  more?: string; // heading above the related cards on the last screen (cards are off for now)
+  /** 'article' = made from an existing article to bring readers to it; its poster is the sky picture of its theme */
+  kind?: 'article';
 }
 
 export const SIGNS = ['aries', 'touro', 'gemeos', 'cancer', 'leao', 'virgem', 'libra', 'escorpiao', 'sagitario', 'capricornio', 'aquario', 'peixes'];
@@ -19,7 +21,7 @@ export const STORY_THEMES: Theme[] = ['fire', 'earth', 'air', 'water', 'night'];
 export const storyPath = (s: Pick<WebStory, 'lang' | 'slug'>) => `/stories/${s.lang}/${s.slug}`;
 // Hand-written stories (pt, en, es) have a poster with their own title. Stories the robot writes in other languages use a language-neutral poster per sign (symbol only, no text).
 export const HAND_LANGS = ['pt', 'en', 'es'];
-export const posterPath = (s: Pick<WebStory, 'lang' | 'slug'> & { sign?: string }) => (s.sign && !HAND_LANGS.includes(s.lang) ? `/stories/img/poster-sign-${s.sign}.webp` : `/stories/img/poster-${s.lang}-${s.slug}.webp`);
+export const posterPath = (s: Pick<WebStory, 'lang' | 'slug'> & { sign?: string; kind?: 'article'; theme?: Theme }) => (s.kind === 'article' && s.theme ? `/stories/img/bg-${s.theme}.webp` : s.sign && !HAND_LANGS.includes(s.lang) ? `/stories/img/poster-sign-${s.sign}.webp` : `/stories/img/poster-${s.lang}-${s.slug}.webp`);
 export const RTL = new Set(['ar', 'he', 'fa', 'ur']);
 export const bgPath = (t: Theme) => `/stories/img/bg-${t}.webp`;
 export const LOGO = '/stories/img/logo-96.png';

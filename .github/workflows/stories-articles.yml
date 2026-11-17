@@ -1,0 +1,61 @@
+name: Web Stories from articles
+# One story per existing article, written to make people open the article. Every day it only does NEW work (articles that have no story yet),
+# and the stories go to the WordPress Web Stories plugin (published) and to aurenstar.com/blog/stories right away.
+on:
+  schedule:
+    - cron: '27 13 * * *'
+  workflow_dispatch:
+    inputs:
+      max: { description: 'Most stories in this run', default: '40' }
+      cap: { description: 'Most US$ this run may spend', default: '0.30' }
+      only: { description: 'wp (blog articles), native (native articles) or empty = both', default: '' }
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: stories-articles
+  cancel-in-progress: false
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --legacy-peer-deps
+      - name: Write stories for articles that have none
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          STORY_CAP_USD: ${{ github.event.inputs.cap || '0.30' }}
+        run: |
+          args="--max ${{ github.event.inputs.max || '40' }}"
+          if [ -n "${{ github.event.inputs.only }}" ]; then args="$args --only ${{ github.event.inputs.only }}"; fi
+          npx tsx scripts/stories/fromArticles.ts $args
+      - name: Check before saving
+        run: |
+          npx tsc --noEmit
+          npx tsx tests/stories.test.ts
+      - name: Save
+        run: |
+          if [ -n "$(git status --porcelain data/stories)" ]; then
+            git config user.name "aurenstar-bot"
+            git config user.email "bot@aurenstar.com"
+            git add data/stories
+            git commit -m "Web Stories: new ones made from articles"
+            git pull --rebase origin main
+            git push
+          fi
+      - name: Put the new stories in the WordPress plugin (published) and on the site right away
+        env:
+          WP_APP_PASSWORD: ${{ secrets.ROBO_WEBSTORIES }}
+          WP_USER: oficialsafare
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -n "$WP_APP_PASSWORD" ]; then
+            npx tsx scripts/stories/pushToWordPress.ts --publish --new-only --max 600
+            gh workflow run wordpress-stories-sync.yml --repo ${{ github.repository }} --ref main
+          fi

@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { renderWebStory, checkStory, storyPath, posterPath, coverPath, SIGNS, type WebStory } from '../server/engine/webStory';
 
 import { pluginStory, wrapPluginStory } from '../server/engine/storyPlugin';
+import { buildArticleStory, promptForArticle } from '../scripts/stories/buildFromArticle';
 import { buildStory, problemsOf } from '../scripts/stories/build';
 import { SIGN_FACTS } from '../scripts/stories/signs';
 
@@ -63,5 +64,19 @@ ok('robot story: Arabic page is right to left', renderWebStory({ ...(built.story
   ok('wp story page: AMP story with canonical on /blog/stories', /<html amp /.test(page) && page.includes(`<link rel="canonical" href="${SITE}/blog/stories/${s.slug}">`) && page.includes('<amp-story standalone'));
   ok('wp story page: no inline style attributes and no scripts from content', !/\sstyle="/.test(page.split('</head>')[1]) && !/<script/i.test(page.split('</head>')[1]));
   ok('wp story page: poster and publisher kept', page.includes('poster-portrait-src=') && page.includes('publisher="Aurenstar"'));
+}
+// stories made from existing articles (to bring readers to the article)
+{
+  const art = { lang: 'de', slug: 'sternzeichen-loewe-test-de', title: 'Sternzeichen Löwe: Eigenschaften und Tipps', summary: 'Alles über das Sternzeichen Löwe, seine Stärken und Schwächen im Alltag.', text: 'Löwe ist stolz und großzügig. '.repeat(30), url: '/de/blog/sternzeichen-loewe-test' };
+  const pageW = (i: number) => ({ kicker: 'Überraschung', title: `Deine Stärke Nummer ${i}`, text: 'Löwe zeigt Wärme und Mut, wenn es darauf ankommt, und die Menschen um ihn herum spüren das sofort und gern.' });
+  const goodW = () => ({ title: 'Warum Löwe nie leise bleibt', description: 'Ein kurzer Blick auf das, was Löwe im Alltag antreibt und warum andere ihn so schnell mögen und bewundern.', swipe: 'Tippen zum Weiterlesen', ctaText: 'Willst du den Rest wissen?', ctaLabel: 'Ganzen Artikel lesen', pages: [1, 2, 3, 4, 5].map(pageW) });
+  const fakeAsk = (w: any, rv: any = { ok: true }) => async (k: 'write' | 'review') => (k === 'write' ? w : rv);
+  const r = await buildArticleStory(art, fakeAsk(goodW()), '2026-11-17');
+  ok('article story: built, links to the article and is marked as article', !!r.story && r.story.cta.url === '/de/blog/sternzeichen-loewe-test' && r.story.kind === 'article' && r.story.pages.length === 5);
+  ok('article story: poster is the sky picture of its theme and exists', !!r.story && posterPath(r.story) === `/stories/img/bg-${r.story.theme}.webp` && fs.existsSync(path.join(__dirname, '..', 'public', posterPath(r.story))));
+  ok('article story: passes the story checks and renders as AMP', !!r.story && checkStory(r.story).length === 0 && /<html amp /.test(renderWebStory(r.story, SITE)));
+  ok('article story: the editor can reject', !(await buildArticleStory(art, fakeAsk(goodW(), { ok: false, problems: ['not in article'] }), '2026-11-17')).story);
+  ok('article story: 4 screens are rejected', !(await buildArticleStory(art, fakeAsk({ ...goodW(), pages: [1, 2, 3, 4].map(pageW) }), '2026-11-17')).story);
+  ok('article story: the prompt carries the article and the click goal', promptForArticle(art).includes('Sternzeichen Löwe') && promptForArticle(art).includes('HOOK') && promptForArticle(art).includes('German'));
 }
 process.exit(failed ? 1 : 0);

@@ -39,9 +39,8 @@ if (!flag('dry') && !PASS) { console.error('WP_APP_PASSWORD is empty: the secret
 
 let made = 0, updated = 0, failed = 0;
 for (const s of pick) {
-  const same = stories.filter((o) => o.lang === s.lang && o.slug !== s.slug && !checkStory(o).length);
-  const at = same.findIndex((o) => o.slug > s.slug);
-  const related = Array.from({ length: Math.min(3, same.length) }, (_, i) => same[((at < 0 ? 0 : at) + i) % same.length]).map((o) => ({ title: o.title, url: `/blog/stories/${o.slug}`, sign: o.sign, theme: o.theme }));
+  // no "keep reading" cards on the last screen (the owner prefers the page to end on the article button)
+  const related: never[] = [];
   const { story_data, content } = pluginStory(s, SITE, related, s.more || MORE[s.lang] || 'Keep reading');
   if (flag('dry')) { console.log(`ok ${s.lang}/${s.slug}: ${story_data.pages.length} pages, ${content.length} chars`); continue; }
   const found = await wp('GET', `/web-stories/v1/web-story?slug=${encodeURIComponent(s.slug)}&status=any&_fields=id,status`);
