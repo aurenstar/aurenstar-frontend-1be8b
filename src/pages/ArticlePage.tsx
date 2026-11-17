@@ -366,6 +366,46 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
 
   const l = labels[lang] || labels.pt;
 
+  // "Keep reading": 3 separate links spread through the article, each about the same topic as what is being read.
+  // First the ones picked by the factory, then the most similar articles (same sign + shared topic words).
+  const inlineLinks: Record<number, (typeof BLOG_ARTICLES)[number]> = {};
+  {
+    const STOP = new Set(['the','a','an','and','or','of','for','to','in','on','with','is','are','what','how','why','does','do','your','you','this','that','zodiac','sign','signs','astrology','guide','best','key','insights','why','always','never','rarely','often','what','reveals','only','more','than','behind','smart','strong','better','real','their','his','her','its','from','about','into','de','da','do','e','o','a','os','as','para','com','que','como','por']);
+    const SIGNS = ['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces'];
+    const words = (a: (typeof BLOG_ARTICLES)[number]) =>
+      new Set((a.title.en || a.title.pt).toLowerCase().replace(/[^a-z\s]/g, ' ').split(/\s+/).filter((w) => w.length > 2 && !STOP.has(w)));
+    const signOf = (ws: Set<string>) => SIGNS.find((sg) => ws.has(sg));
+    const mine = words(article);
+    const mySign = signOf(mine);
+    const chosen: (typeof BLOG_ARTICLES)[number][] = [];
+    for (const id of article.related || []) {
+      const a = BLOG_ARTICLES.find((x) => x.id === id);
+      if (a && a.id !== article.id && !chosen.includes(a)) chosen.push(a);
+    }
+    const scored = BLOG_ARTICLES.filter((a) => a.id !== article.id && !chosen.includes(a))
+      .map((a) => {
+        const w = words(a);
+        let shared = 0;
+        w.forEach((x) => { if (mine.has(x) && !SIGNS.includes(x)) shared += 1; });
+        const sameSign = !!mySign && signOf(w) === mySign;
+        // same sign is required when the article is about one sign; general articles need 2 shared topic words
+        const ok = mySign ? sameSign : shared >= 2;
+        return { a, sc: ok ? shared + (sameSign ? 1 : 0) : -1 };
+      })
+      .filter((x) => x.sc >= 0)
+      .sort((x, y) => y.sc - x.sc);
+    for (const x of scored) { if (chosen.length >= 3) break; chosen.push(x.a); }
+    const n = article.sections.length;
+    const slots: number[] = [];
+    for (let k = 1; k <= 3; k++) {
+      let i = Math.min(n - 1, Math.max(0, Math.round((n * k) / 4) - 1));
+      while (slots.includes(i) && i < n - 1) i++;
+      if (!slots.includes(i)) slots.push(i);
+    }
+    chosen.slice(0, 3).forEach((a, k) => { if (slots[k] !== undefined) inlineLinks[slots[k]] = a; });
+  }
+
+
   return (
     <article dir={activeLocalized?.rtl ? 'rtl' : undefined} className="w-full bg-[#C9E5FF] min-h-screen text-[#172B4D] pt-20 sm:pt-24 pb-24 animate-fadeIn select-none">
       {/* Top Reading Progress Bar (Fixed at top) */}
@@ -534,32 +574,18 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
                 </p>
               ))}
             </section>
-            {/* Keep reading: 3 real links in the middle of the article (not competing with the end-of-page "Continue reading" card) */}
-            {idx === Math.max(0, Math.ceil(article.sections.length / 2) - 1) ? (() => {
-            const rel = (article.related || [])
-              .map((id) => BLOG_ARTICLES.find((a) => a.id === id))
-              .filter((a): a is NonNullable<typeof a> => !!a && a.id !== article.id)
-              .slice(0, 3);
-            if (!rel.length) return null;
-            return (
-              <nav aria-label={l.keepReading} className="my-10">
-                <h3 className="text-sm sm:text-base font-bold text-[#17366F] uppercase tracking-wider mb-3">{l.keepReading}</h3>
-                <ul className="space-y-2 list-disc pl-5">
-                  {rel.map((a) => (
-                    <li key={a.id} className="text-sm sm:text-base">
-                      <a
-                        href={`/blog/${getArticleSlugById(a.id)}`}
-                        onClick={onPlainClick(() => onSelectArticle(a.id))}
-                        className="text-[#3982C8] hover:underline"
-                      >
-                        {a.title[lang] || a.title.pt}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </nav>
-            );
-          })() : null}
+            {inlineLinks[idx] ? (
+              <aside aria-label={l.keepReading} className="my-6 pl-4 border-l-4 border-[#3982C8] text-sm sm:text-base text-[#172B4D]">
+                <span className="font-bold text-[#17366F] uppercase tracking-wider text-xs mr-2">{l.keepReading}:</span>
+                <a
+                  href={`/blog/${getArticleSlugById(inlineLinks[idx].id)}`}
+                  onClick={onPlainClick(() => onSelectArticle(inlineLinks[idx].id))}
+                  className="text-[#3982C8] hover:underline"
+                >
+                  {inlineLinks[idx].title[lang] || inlineLinks[idx].title.pt}
+                </a>
+              </aside>
+            ) : null}
             </Fragment>
           ))}
 
