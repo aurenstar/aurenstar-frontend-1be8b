@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T15:57:57.704Z",
+ "updated": "2026-11-18T15:37:31.415Z",
  "items": [
   {
    "term": "Zodiac signs",
@@ -15,7 +15,7 @@
    "question": "What is a natal chart in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 9472319,
+   "score": 12014015,
    "source": "keyword-planner",
    "volume": 8716200
   },
@@ -47,6 +47,15 @@
    "volume": 1012180
   },
   {
+   "term": "Stellium",
+   "question": "What is a stellium in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1850548,
+   "source": "keyword-planner",
+   "volume": 654560
+  },
+  {
    "term": "Moon sign",
    "question": "What is a moon sign in astrology?",
    "category": "Phases & Movements",
@@ -74,15 +83,6 @@
    "volume": 781720
   },
   {
-   "term": "Stellium",
-   "question": "What is a stellium in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1654268,
-   "source": "keyword-planner",
-   "volume": 654560
-  },
-  {
    "term": "Chiron",
    "question": "What does Chiron mean in astrology?",
    "category": "Planets & Bodies",
@@ -90,6 +90,15 @@
    "score": 1593816,
    "source": "keyword-planner",
    "volume": 596410
+  },
+  {
+   "term": "Synastry",
+   "question": "What is synastry in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1556292,
+   "source": "keyword-planner",
+   "volume": 429610
   },
   {
    "term": "Gemini",
@@ -117,15 +126,6 @@
    "score": 1494380,
    "source": "keyword-planner",
    "volume": 498900
-  },
-  {
-   "term": "Synastry",
-   "question": "What is synastry in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1427917,
-   "source": "keyword-planner",
-   "volume": 429610
   },
   {
    "term": "Aquarius",
@@ -218,6 +218,15 @@
    "volume": 221020
   },
   {
+   "term": "Houses",
+   "question": "What are houses in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1219699,
+   "source": "keyword-planner",
+   "volume": 171470
+  },
+  {
    "term": "North Node",
    "question": "What does the North Node mean in astrology?",
    "category": "Planets & Bodies",
@@ -236,15 +245,6 @@
    "volume": 171500
   },
   {
-   "term": "Houses",
-   "question": "What are houses in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1168999,
-   "source": "keyword-planner",
-   "volume": 171470
-  },
-  {
    "term": "Sagittarius",
    "question": "What does Sagittarius mean in astrology?",
    "category": "Signs & Elements",
@@ -258,7 +258,7 @@
    "question": "What is vedic astrology in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1088736,
+   "score": 1115357,
    "source": "keyword-planner",
    "volume": 89390
   },
@@ -267,9 +267,18 @@
    "question": "What does the 9th house mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1063087,
+   "score": 1082013,
    "source": "keyword-planner",
    "volume": 63260
+  },
+  {
+   "term": "11th house",
+   "question": "What does the 11th house mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1064416,
+   "source": "keyword-planner",
+   "volume": 49790
   },
   {
    "term": "Black moon lilith",
@@ -290,6 +299,15 @@
    "volume": 59480
   },
   {
+   "term": "Ascendant",
+   "question": "What is the ascendant in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1057941,
+   "source": "keyword-planner",
+   "volume": 44850
+  },
+  {
    "term": "Retrograde",
    "question": "What is a retrograde in astrology?",
    "category": "Phases & Movements",
@@ -299,13 +317,31 @@
    "volume": 55380
   },
   {
-   "term": "11th house",
-   "question": "What does the 11th house mean in astrology?",
+   "term": "7th house",
+   "question": "What does the 7th house mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1049551,
+   "score": 1054036,
    "source": "keyword-planner",
-   "volume": 49790
+   "volume": 41690
+  },
+  {
+   "term": "8th house",
+   "question": "What does the 8th house mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1052533,
+   "source": "keyword-planner",
+   "volume": 40560
+  },
+  {
+   "term": "3rd house",
+   "question": "What does the 3rd house mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1050842,
+   "source": "keyword-planner",
+   "volume": 39230
   },
   {
    "term": "Star sign",
@@ -317,13 +353,22 @@
    "volume": 49500
   },
   {
-   "term": "Ascendant",
-   "question": "What is the ascendant in astrology?",
+   "term": "Elements",
+   "question": "What are elements in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1044570,
+   "score": 1047199,
    "source": "keyword-planner",
-   "volume": 44850
+   "volume": 36600
+  },
+  {
+   "term": "10th house",
+   "question": "What does the 10th house mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1046094,
+   "source": "keyword-planner",
+   "volume": 35580
   },
   {
    "term": "Solar return",
@@ -335,40 +380,40 @@
    "volume": 45190
   },
   {
-   "term": "7th house",
-   "question": "What does the 7th house mean in astrology?",
+   "term": "12th house",
+   "question": "What does the 12th house mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1041566,
+   "score": 1043308,
    "source": "keyword-planner",
-   "volume": 41690
+   "volume": 33500
   },
   {
-   "term": "8th house",
-   "question": "What does the 8th house mean in astrology?",
+   "term": "5th house",
+   "question": "What does the 5th house mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1040410,
+   "score": 1042975,
    "source": "keyword-planner",
-   "volume": 40560
+   "volume": 33260
   },
   {
-   "term": "3rd house",
-   "question": "What does the 3rd house mean in astrology?",
+   "term": "6th house",
+   "question": "What does the 6th house mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1039109,
+   "score": 1041187,
    "source": "keyword-planner",
-   "volume": 39230
+   "volume": 31780
   },
   {
-   "term": "Elements",
-   "question": "What are elements in astrology?",
+   "term": "2nd house",
+   "question": "What does the 2nd house mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1036307,
+   "score": 1040950,
    "source": "keyword-planner",
-   "volume": 36600
+   "volume": 31560
   },
   {
    "term": "Mutable signs",
@@ -380,49 +425,13 @@
    "volume": 36200
   },
   {
-   "term": "10th house",
-   "question": "What does the 10th house mean in astrology?",
+   "term": "Sidereal astrology",
+   "question": "What is sidereal astrology in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1035457,
+   "score": 1035880,
    "source": "keyword-planner",
-   "volume": 35580
-  },
-  {
-   "term": "12th house",
-   "question": "What does the 12th house mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1033314,
-   "source": "keyword-planner",
-   "volume": 33500
-  },
-  {
-   "term": "5th house",
-   "question": "What does the 5th house mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1033058,
-   "source": "keyword-planner",
-   "volume": 33260
-  },
-  {
-   "term": "6th house",
-   "question": "What does the 6th house mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1031682,
-   "source": "keyword-planner",
-   "volume": 31780
-  },
-  {
-   "term": "2nd house",
-   "question": "What does the 2nd house mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1031500,
-   "source": "keyword-planner",
-   "volume": 31560
+   "volume": 27600
   },
   {
    "term": "Fixed signs",
@@ -434,20 +443,11 @@
    "volume": 29180
   },
   {
-   "term": "Sidereal astrology",
-   "question": "What is sidereal astrology in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1027600,
-   "source": "keyword-planner",
-   "volume": 27600
-  },
-  {
    "term": "4th house",
    "question": "What does the 4th house mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1022031,
+   "score": 1028640,
    "source": "keyword-planner",
    "volume": 22110
   },
@@ -456,9 +456,18 @@
    "question": "What is the imum coeli in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1020335,
+   "score": 1026436,
    "source": "keyword-planner",
    "volume": 20480
+  },
+  {
+   "term": "1st house",
+   "question": "What does the 1st house mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1021330,
+   "source": "keyword-planner",
+   "volume": 16450
   },
   {
    "term": "Zodiac",
@@ -470,22 +479,31 @@
    "volume": 18100
   },
   {
-   "term": "1st house",
-   "question": "What does the 1st house mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1016408,
-   "source": "keyword-planner",
-   "volume": 16450
-  },
-  {
    "term": "Composite chart",
    "question": "What is a composite chart in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1013810,
+   "score": 1017953,
    "source": "keyword-planner",
    "volume": 13810
+  },
+  {
+   "term": "Transits",
+   "question": "What are transits in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1012870,
+   "source": "keyword-planner",
+   "volume": 9900
+  },
+  {
+   "term": "Progressed chart",
+   "question": "What is a progressed chart in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1012818,
+   "source": "keyword-planner",
+   "volume": 9900
   },
   {
    "term": "Saturn",
@@ -542,22 +560,13 @@
    "volume": 10070
   },
   {
-   "term": "Transits",
-   "question": "What are transits in astrology?",
+   "term": "Midheaven",
+   "question": "What is the midheaven in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1009900,
+   "score": 1009876,
    "source": "keyword-planner",
-   "volume": 9900
-  },
-  {
-   "term": "Progressed chart",
-   "question": "What is a progressed chart in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1009860,
-   "source": "keyword-planner",
-   "volume": 9900
+   "volume": 7600
   },
   {
    "term": "Mars",
@@ -578,15 +587,6 @@
    "volume": 8100
   },
   {
-   "term": "Midheaven",
-   "question": "What is the midheaven in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1007597,
-   "source": "keyword-planner",
-   "volume": 7600
-  },
-  {
    "term": "Saturn returns",
    "question": "What does saturn returns mean in astrology?",
    "category": "Planets & Bodies",
@@ -594,6 +594,51 @@
    "score": 1006547,
    "source": "keyword-planner",
    "volume": 6600
+  },
+  {
+   "term": "Draconic chart",
+   "question": "What is a draconic chart in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1006253,
+   "source": "keyword-planner",
+   "volume": 4810
+  },
+  {
+   "term": "Decans",
+   "question": "What are decans in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1006240,
+   "source": "keyword-planner",
+   "volume": 4800
+  },
+  {
+   "term": "Big three",
+   "question": "What is the big three in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1005772,
+   "source": "keyword-planner",
+   "volume": 4590
+  },
+  {
+   "term": "Lunar nodes",
+   "question": "What are lunar nodes in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1005564,
+   "source": "keyword-planner",
+   "volume": 4300
+  },
+  {
+   "term": "Trine",
+   "question": "What is a trine in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1005525,
+   "source": "keyword-planner",
+   "volume": 4250
   },
   {
    "term": "South Node",
@@ -614,6 +659,15 @@
    "volume": 5380
   },
   {
+   "term": "Conjunction",
+   "question": "What is a conjunction in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1005226,
+   "source": "keyword-planner",
+   "volume": 4020
+  },
+  {
    "term": "Pluto",
    "question": "What does Pluto mean in astrology?",
    "category": "Planets & Bodies",
@@ -623,22 +677,31 @@
    "volume": 5150
   },
   {
-   "term": "Draconic chart",
-   "question": "What is a draconic chart in astrology?",
+   "term": "Sextile",
+   "question": "What is a sextile in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1004810,
+   "score": 1005096,
    "source": "keyword-planner",
-   "volume": 4810
+   "volume": 3920
   },
   {
-   "term": "Decans",
-   "question": "What are decans in astrology?",
+   "term": "Descendant",
+   "question": "What is the descendant in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1004800,
+   "score": 1004962,
    "source": "keyword-planner",
-   "volume": 4800
+   "volume": 3830
+  },
+  {
+   "term": "Tenth house",
+   "question": "What is tenth house in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1004940,
+   "source": "keyword-planner",
+   "volume": 3800
   },
   {
    "term": "Gemini zodiac symbol",
@@ -648,6 +711,33 @@
    "score": 1004699,
    "source": "keyword-planner",
    "volume": 4720
+  },
+  {
+   "term": "House",
+   "question": "What is house in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1004688,
+   "source": "keyword-planner",
+   "volume": 3630
+  },
+  {
+   "term": "Vertex",
+   "question": "What is the vertex in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1004680,
+   "source": "keyword-planner",
+   "volume": 3600
+  },
+  {
+   "term": "Western astrology",
+   "question": "What is western astrology in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1004662,
+   "source": "keyword-planner",
+   "volume": 3600
   },
   {
    "term": "Libra zodiac symbol",
@@ -664,15 +754,6 @@
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 1004590,
-   "source": "keyword-planner",
-   "volume": 4590
-  },
-  {
-   "term": "Big three",
-   "question": "What is the big three in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1004440,
    "source": "keyword-planner",
    "volume": 4590
   },
@@ -713,33 +794,6 @@
    "volume": 4400
   },
   {
-   "term": "Lunar nodes",
-   "question": "What are lunar nodes in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1004280,
-   "source": "keyword-planner",
-   "volume": 4300
-  },
-  {
-   "term": "Trine",
-   "question": "What is a trine in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1004250,
-   "source": "keyword-planner",
-   "volume": 4250
-  },
-  {
-   "term": "Conjunction",
-   "question": "What is a conjunction in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1004020,
-   "source": "keyword-planner",
-   "volume": 4020
-  },
-  {
    "term": "Moon in Aries",
    "question": "What does the Moon in Aries mean?",
    "category": "Phases & Movements",
@@ -758,15 +812,6 @@
    "volume": 3950
   },
   {
-   "term": "Sextile",
-   "question": "What is a sextile in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1003920,
-   "source": "keyword-planner",
-   "volume": 3920
-  },
-  {
    "term": "Jupiter in Sagittarius",
    "question": "What does Jupiter in Sagittarius mean?",
    "category": "Signs & Elements",
@@ -776,45 +821,27 @@
    "volume": 3910
   },
   {
-   "term": "Descendant",
-   "question": "What is the descendant in astrology?",
+   "term": "Astrology chart",
+   "question": "What does astrology chart mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1003817,
+   "score": 1003754,
    "source": "keyword-planner",
-   "volume": 3830
+   "volume": 2900
   },
   {
-   "term": "Tenth house",
-   "question": "What is tenth house in astrology?",
+   "term": "Astro chart",
+   "question": "What does astro chart mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1003800,
+   "score": 1003754,
    "source": "keyword-planner",
-   "volume": 3800
-  },
-  {
-   "term": "House",
-   "question": "What is house in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1003606,
-   "source": "keyword-planner",
-   "volume": 3630
+   "volume": 2900
   },
   {
    "term": "Jupiter in the 4th house",
    "question": "What does Jupiter in the 4th house mean?",
    "category": "Planets & Bodies",
-   "icon": "✨",
-   "score": 1003600,
-   "source": "keyword-planner",
-   "volume": 3600
-  },
-  {
-   "term": "Vertex",
-   "question": "What is the vertex in astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1003600,
    "source": "keyword-planner",
@@ -833,15 +860,6 @@
    "term": "Leo zodiac symbol",
    "question": "What does leo zodiac symbol mean in astrology?",
    "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 1003586,
-   "source": "keyword-planner",
-   "volume": 3600
-  },
-  {
-   "term": "Western astrology",
-   "question": "What is western astrology in astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1003586,
    "source": "keyword-planner",
@@ -884,6 +902,33 @@
    "volume": 3290
   },
   {
+   "term": "Eighth house",
+   "question": "What is the eighth house in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1003120,
+   "source": "keyword-planner",
+   "volume": 2400
+  },
+  {
+   "term": "Yod",
+   "question": "What is a yod in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1003006,
+   "source": "keyword-planner",
+   "volume": 2320
+  },
+  {
+   "term": "Each house represent",
+   "question": "What do each house represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1002968,
+   "source": "keyword-planner",
+   "volume": 2290
+  },
+  {
    "term": "Chiron retrograde",
    "question": "What does Chiron retrograde mean in astrology?",
    "category": "Phases & Movements",
@@ -911,24 +956,6 @@
    "volume": 2900
   },
   {
-   "term": "Astrology chart",
-   "question": "What does astrology chart mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1002888,
-   "source": "keyword-planner",
-   "volume": 2900
-  },
-  {
-   "term": "Astro chart",
-   "question": "What does astro chart mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1002888,
-   "source": "keyword-planner",
-   "volume": 2900
-  },
-  {
    "term": "Moon in Capricorn",
    "question": "What does the Moon in Capricorn mean?",
    "category": "Phases & Movements",
@@ -936,6 +963,51 @@
    "score": 1002846,
    "source": "keyword-planner",
    "volume": 2850
+  },
+  {
+   "term": "Davison chart",
+   "question": "What is a davison chart in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1002743,
+   "source": "keyword-planner",
+   "volume": 2110
+  },
+  {
+   "term": "Part of fortune",
+   "question": "What is the part of fortune in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1002678,
+   "source": "keyword-planner",
+   "volume": 2060
+  },
+  {
+   "term": "Fifth house",
+   "question": "What is the fifth house in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1002613,
+   "source": "keyword-planner",
+   "volume": 2010
+  },
+  {
+   "term": "Grand trine",
+   "question": "What is a grand trine in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1002600,
+   "source": "keyword-planner",
+   "volume": 2000
+  },
+  {
+   "term": "Seventh house",
+   "question": "What is the seventh house in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1002577,
+   "source": "keyword-planner",
+   "volume": 1990
   },
   {
    "term": "Chiron in Aries",
@@ -965,15 +1037,6 @@
    "volume": 2400
   },
   {
-   "term": "Eighth house",
-   "question": "What is the eighth house in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1002400,
-   "source": "keyword-planner",
-   "volume": 2400
-  },
-  {
    "term": "Gemini man",
    "question": "What does gemini man mean in astrology?",
    "category": "Signs & Elements",
@@ -992,67 +1055,49 @@
    "volume": 2400
   },
   {
-   "term": "Yod",
-   "question": "What is a yod in astrology?",
+   "term": "7th house represent",
+   "question": "What does the 7th house represent?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1002312,
+   "score": 1002170,
    "source": "keyword-planner",
-   "volume": 2320
+   "volume": 1670
   },
   {
-   "term": "Each house represent",
-   "question": "What do each house represent in astrology?",
+   "term": "Secondary progressions",
+   "question": "What are secondary progressions in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1002283,
+   "score": 1002106,
    "source": "keyword-planner",
-   "volume": 2290
+   "volume": 1620
   },
   {
-   "term": "Davison chart",
-   "question": "What is a davison chart in astrology?",
+   "term": "Grand cross",
+   "question": "What is a grand cross in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1002110,
+   "score": 1002080,
    "source": "keyword-planner",
-   "volume": 2110
+   "volume": 1600
   },
   {
-   "term": "Part of fortune",
-   "question": "What is the part of fortune in astrology?",
+   "term": "Conjunct",
+   "question": "What does conjunct mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1002060,
+   "score": 1002080,
    "source": "keyword-planner",
-   "volume": 2060
+   "volume": 1600
   },
   {
-   "term": "Fifth house",
-   "question": "What is the fifth house in astrology?",
+   "term": "First house",
+   "question": "What is first house in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1002010,
+   "score": 1001950,
    "source": "keyword-planner",
-   "volume": 2010
-  },
-  {
-   "term": "Grand trine",
-   "question": "What is a grand trine in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1002000,
-   "source": "keyword-planner",
-   "volume": 2000
-  },
-  {
-   "term": "Seventh house",
-   "question": "What is the seventh house in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1001982,
-   "source": "keyword-planner",
-   "volume": 1990
+   "volume": 1500
   },
   {
    "term": "Aquarius moon",
@@ -1082,6 +1127,15 @@
    "volume": 1900
   },
   {
+   "term": "12th house represent",
+   "question": "What does the 12th house represent?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1001894,
+   "source": "keyword-planner",
+   "volume": 1460
+  },
+  {
    "term": "Aquarius star sign",
    "question": "What does aquarius star sign mean in astrology?",
    "category": "Signs & Elements",
@@ -1100,6 +1154,15 @@
    "volume": 1900
   },
   {
+   "term": "Lagna",
+   "question": "What is lagna in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1001854,
+   "source": "keyword-planner",
+   "volume": 1430
+  },
+  {
    "term": "Sun",
    "question": "What does the Sun mean in astrology?",
    "category": "Planets & Bodies",
@@ -1109,45 +1172,36 @@
    "volume": 1750
   },
   {
-   "term": "7th house represent",
-   "question": "What does the 7th house represent?",
+   "term": "8th house represent",
+   "question": "What does 8th house represent?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1001669,
+   "score": 1001741,
    "source": "keyword-planner",
-   "volume": 1670
+   "volume": 1340
   },
   {
-   "term": "Secondary progressions",
-   "question": "What are secondary progressions in astrology?",
+   "term": "T-square",
+   "question": "What is a t-square in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1001620,
+   "score": 1001690,
    "source": "keyword-planner",
-   "volume": 1620
+   "volume": 1300
+  },
+  {
+   "term": "Second house",
+   "question": "What is the second house in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1001619,
+   "source": "keyword-planner",
+   "volume": 1250
   },
   {
    "term": "Chiron in Capricorn",
    "question": "What does Chiron in Capricorn mean?",
    "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 1001600,
-   "source": "keyword-planner",
-   "volume": 1600
-  },
-  {
-   "term": "Grand cross",
-   "question": "What is a grand cross in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1001600,
-   "source": "keyword-planner",
-   "volume": 1600
-  },
-  {
-   "term": "Conjunct",
-   "question": "What does conjunct mean in astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1001600,
    "source": "keyword-planner",
@@ -1190,40 +1244,13 @@
    "volume": 1600
   },
   {
-   "term": "First house",
-   "question": "What is first house in astrology?",
+   "term": "11th house represent",
+   "question": "What does the 11th house represent?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1001500,
+   "score": 1001560,
    "source": "keyword-planner",
-   "volume": 1500
-  },
-  {
-   "term": "12th house represent",
-   "question": "What does the 12th house represent?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1001457,
-   "source": "keyword-planner",
-   "volume": 1460
-  },
-  {
-   "term": "Lagna",
-   "question": "What is lagna in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1001426,
-   "source": "keyword-planner",
-   "volume": 1430
-  },
-  {
-   "term": "8th house represent",
-   "question": "What does 8th house represent?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1001339,
-   "source": "keyword-planner",
-   "volume": 1340
+   "volume": 1200
   },
   {
    "term": "Venus sign",
@@ -1235,13 +1262,13 @@
    "volume": 1300
   },
   {
-   "term": "T-square",
-   "question": "What is a t-square in astrology?",
+   "term": "Quincunx",
+   "question": "What is a quincunx in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 1001300,
    "source": "keyword-planner",
-   "volume": 1300
+   "volume": 1000
   },
   {
    "term": "Capricorn urdu",
@@ -1289,6 +1316,24 @@
    "volume": 1300
   },
   {
+   "term": "Eleventh house",
+   "question": "What is the eleventh house in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1001295,
+   "source": "keyword-planner",
+   "volume": 1000
+  },
+  {
+   "term": "Sixth house",
+   "question": "What is the sixth house in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1001295,
+   "source": "keyword-planner",
+   "volume": 1000
+  },
+  {
    "term": "Aries rising",
    "question": "What does aries rising mean in astrology?",
    "category": "Signs & Elements",
@@ -1298,22 +1343,13 @@
    "volume": 1300
   },
   {
-   "term": "Second house",
-   "question": "What is the second house in astrology?",
+   "term": "12 houses",
+   "question": "What are the 12 houses?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1001245,
+   "score": 1001243,
    "source": "keyword-planner",
-   "volume": 1250
-  },
-  {
-   "term": "11th house represent",
-   "question": "What does the 11th house represent?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1001200,
-   "source": "keyword-planner",
-   "volume": 1200
+   "volume": 960
   },
   {
    "term": "Sun in Aries",
@@ -1343,13 +1379,13 @@
    "volume": 1160
   },
   {
-   "term": "Quincunx",
-   "question": "What is a quincunx in astrology?",
+   "term": "5th house represent",
+   "question": "What does 5th house represent?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1001000,
+   "score": 1001131,
    "source": "keyword-planner",
-   "volume": 1000
+   "volume": 870
   },
   {
    "term": "Chiron in Cancer",
@@ -1388,22 +1424,13 @@
    "volume": 1000
   },
   {
-   "term": "Eleventh house",
-   "question": "What is the eleventh house in astrology?",
+   "term": "Third house",
+   "question": "What is the third house in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1000996,
+   "score": 1000988,
    "source": "keyword-planner",
-   "volume": 1000
-  },
-  {
-   "term": "Sixth house",
-   "question": "What is the sixth house in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000996,
-   "source": "keyword-planner",
-   "volume": 1000
+   "volume": 760
   },
   {
    "term": "Aquarius zodiac symbol",
@@ -1424,13 +1451,31 @@
    "volume": 970
   },
   {
-   "term": "12 houses",
-   "question": "What are the 12 houses?",
+   "term": "Orb",
+   "question": "What is an orb in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1000956,
+   "score": 1000966,
    "source": "keyword-planner",
-   "volume": 960
+   "volume": 780
+  },
+  {
+   "term": "Astrology rising",
+   "question": "What does astrology rising mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000945,
+   "source": "keyword-planner",
+   "volume": 730
+  },
+  {
+   "term": "10th house represent",
+   "question": "What does the 10th house represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000936,
+   "source": "keyword-planner",
+   "volume": 720
   },
   {
    "term": "Planet retrograde",
@@ -1478,13 +1523,13 @@
    "volume": 880
   },
   {
-   "term": "5th house represent",
-   "question": "What does 5th house represent?",
+   "term": "3rd house represent",
+   "question": "What does 3rd house represent?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1000870,
+   "score": 1000845,
    "source": "keyword-planner",
-   "volume": 870
+   "volume": 650
   },
   {
    "term": "Blood moon",
@@ -1505,31 +1550,13 @@
    "volume": 990
   },
   {
-   "term": "Third house",
-   "question": "What is the third house in astrology?",
+   "term": "Mystic rectangle",
+   "question": "What is a mystic rectangle in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1000760,
+   "score": 1000767,
    "source": "keyword-planner",
-   "volume": 760
-  },
-  {
-   "term": "Orb",
-   "question": "What is an orb in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000743,
-   "source": "keyword-planner",
-   "volume": 780
-  },
-  {
-   "term": "Astrology rising",
-   "question": "What does astrology rising mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000727,
-   "source": "keyword-planner",
-   "volume": 730
+   "volume": 590
   },
   {
    "term": "Air sign",
@@ -1544,15 +1571,6 @@
    "term": "Cancer moon",
    "question": "What does cancer moon mean in astrology?",
    "category": "Phases & Movements",
-   "icon": "✨",
-   "score": 1000720,
-   "source": "keyword-planner",
-   "volume": 720
-  },
-  {
-   "term": "10th house represent",
-   "question": "What does the 10th house represent in astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1000720,
    "source": "keyword-planner",
@@ -1604,6 +1622,15 @@
    "volume": 720
   },
   {
+   "term": "Cadent houses",
+   "question": "What are cadent houses in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000689,
+   "source": "keyword-planner",
+   "volume": 530
+  },
+  {
    "term": "Gemini venus",
    "question": "What does gemini venus mean in astrology?",
    "category": "Signs & Elements",
@@ -1613,13 +1640,13 @@
    "volume": 680
   },
   {
-   "term": "3rd house represent",
-   "question": "What does 3rd house represent?",
+   "term": "Opposition",
+   "question": "What is an opposition in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1000650,
+   "score": 1000676,
    "source": "keyword-planner",
-   "volume": 650
+   "volume": 520
   },
   {
    "term": "Decan",
@@ -1629,6 +1656,69 @@
    "score": 1000637,
    "source": "keyword-planner",
    "volume": 640
+  },
+  {
+   "term": "Placidus",
+   "question": "What is placidus in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000637,
+   "source": "keyword-planner",
+   "volume": 490
+  },
+  {
+   "term": "Solar arc directions",
+   "question": "What are solar arc directions in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000624,
+   "source": "keyword-planner",
+   "volume": 480
+  },
+  {
+   "term": "Jyotish",
+   "question": "What does jyotish mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000624,
+   "source": "keyword-planner",
+   "volume": 480
+  },
+  {
+   "term": "Planets in birth chart",
+   "question": "What does planets in birth chart mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000619,
+   "source": "keyword-planner",
+   "volume": 480
+  },
+  {
+   "term": "2nd house represent",
+   "question": "What does 2nd house represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000611,
+   "source": "keyword-planner",
+   "volume": 470
+  },
+  {
+   "term": "6th house represent",
+   "question": "What does 6th house represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000611,
+   "source": "keyword-planner",
+   "volume": 470
+  },
+  {
+   "term": "Essential dignities",
+   "question": "What are essential dignities in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000598,
+   "source": "keyword-planner",
+   "volume": 460
   },
   {
    "term": "Mercury in Capricorn",
@@ -1643,15 +1733,6 @@
    "term": "Solar eclipse",
    "question": "What is a solar eclipse in astrology?",
    "category": "Phases & Movements",
-   "icon": "✨",
-   "score": 1000590,
-   "source": "keyword-planner",
-   "volume": 590
-  },
-  {
-   "term": "Mystic rectangle",
-   "question": "What is a mystic rectangle in astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1000590,
    "source": "keyword-planner",
@@ -1748,15 +1829,6 @@
    "volume": 580
   },
   {
-   "term": "Cadent houses",
-   "question": "What are cadent houses in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000530,
-   "source": "keyword-planner",
-   "volume": 530
-  },
-  {
    "term": "Mars in Capricorn",
    "question": "What does Mars in Capricorn mean?",
    "category": "Signs & Elements",
@@ -1764,15 +1836,6 @@
    "score": 1000530,
    "source": "keyword-planner",
    "volume": 530
-  },
-  {
-   "term": "Opposition",
-   "question": "What is an opposition in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000520,
-   "source": "keyword-planner",
-   "volume": 520
   },
   {
    "term": "Aries venus",
@@ -1784,13 +1847,22 @@
    "volume": 510
   },
   {
-   "term": "Placidus",
-   "question": "What is placidus in astrology?",
+   "term": "7th lord",
+   "question": "What is 7th lord in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1000490,
+   "score": 1000507,
    "source": "keyword-planner",
-   "volume": 490
+   "volume": 390
+  },
+  {
+   "term": "1st house represent",
+   "question": "What does 1st house represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000506,
+   "source": "keyword-planner",
+   "volume": 390
   },
   {
    "term": "Earth sign",
@@ -1820,24 +1892,6 @@
    "volume": 480
   },
   {
-   "term": "Solar arc directions",
-   "question": "What are solar arc directions in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000480,
-   "source": "keyword-planner",
-   "volume": 480
-  },
-  {
-   "term": "Jyotish",
-   "question": "What does jyotish mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000480,
-   "source": "keyword-planner",
-   "volume": 480
-  },
-  {
    "term": "Leos zodiac sign",
    "question": "What does leos zodiac sign mean in astrology?",
    "category": "Signs & Elements",
@@ -1845,33 +1899,6 @@
    "score": 1000476,
    "source": "keyword-planner",
    "volume": 480
-  },
-  {
-   "term": "Planets in birth chart",
-   "question": "What does planets in birth chart mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000476,
-   "source": "keyword-planner",
-   "volume": 480
-  },
-  {
-   "term": "2nd house represent",
-   "question": "What does 2nd house represent in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000470,
-   "source": "keyword-planner",
-   "volume": 470
-  },
-  {
-   "term": "6th house represent",
-   "question": "What does 6th house represent in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000470,
-   "source": "keyword-planner",
-   "volume": 470
   },
   {
    "term": "Cancer zodiac symbol",
@@ -1883,13 +1910,22 @@
    "volume": 470
   },
   {
-   "term": "Essential dignities",
-   "question": "What are essential dignities in astrology?",
+   "term": "Fourth house",
+   "question": "What is the fourth house in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1000460,
+   "score": 1000454,
    "source": "keyword-planner",
-   "volume": 460
+   "volume": 350
+  },
+  {
+   "term": "Different houses",
+   "question": "What are the different houses in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000437,
+   "source": "keyword-planner",
+   "volume": 340
   },
   {
    "term": "Moon in Scorpio",
@@ -1899,6 +1935,42 @@
    "score": 1000420,
    "source": "keyword-planner",
    "volume": 420
+  },
+  {
+   "term": "Angular houses",
+   "question": "What are angular houses in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000416,
+   "source": "keyword-planner",
+   "volume": 320
+  },
+  {
+   "term": "8th house represent in vedic astrology",
+   "question": "What does 8th house represent in vedic astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000415,
+   "source": "keyword-planner",
+   "volume": 320
+  },
+  {
+   "term": "Which house represents what",
+   "question": "Which house represents what in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000412,
+   "source": "keyword-planner",
+   "volume": 320
+  },
+  {
+   "term": "Tropical astrology",
+   "question": "What is tropical astrology in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000410,
+   "source": "keyword-planner",
+   "volume": 320
   },
   {
    "term": "North Node in Capricorn",
@@ -1946,15 +2018,6 @@
    "volume": 390
   },
   {
-   "term": "7th lord",
-   "question": "What is 7th lord in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000390,
-   "source": "keyword-planner",
-   "volume": 390
-  },
-  {
    "term": "Capricorn stellium",
    "question": "What does capricorn stellium mean in astrology?",
    "category": "Signs & Elements",
@@ -1978,15 +2041,6 @@
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 1000390,
-   "source": "keyword-planner",
-   "volume": 390
-  },
-  {
-   "term": "1st house represent",
-   "question": "What does 1st house represent in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000389,
    "source": "keyword-planner",
    "volume": 390
   },
@@ -2036,20 +2090,29 @@
    "volume": 390
   },
   {
+   "term": "Third house represent",
+   "question": "What does third house represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000364,
+   "source": "keyword-planner",
+   "volume": 280
+  },
+  {
+   "term": "First house represent",
+   "question": "What does first house represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000363,
+   "source": "keyword-planner",
+   "volume": 280
+  },
+  {
    "term": "Full moon in aries",
    "question": "What does full moon in aries mean in astrology?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 1000350,
-   "source": "keyword-planner",
-   "volume": 350
-  },
-  {
-   "term": "Fourth house",
-   "question": "What is the fourth house in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000349,
    "source": "keyword-planner",
    "volume": 350
   },
@@ -2081,13 +2144,67 @@
    "volume": 340
   },
   {
-   "term": "Different houses",
-   "question": "What are the different houses in astrology?",
+   "term": "12th house stellium",
+   "question": "What does 12th house stellium mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1000336,
+   "score": 1000338,
    "source": "keyword-planner",
-   "volume": 340
+   "volume": 260
+  },
+  {
+   "term": "Kundli house",
+   "question": "What does kundli house mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000338,
+   "source": "keyword-planner",
+   "volume": 260
+  },
+  {
+   "term": "4th house represent",
+   "question": "What does 4th house represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000337,
+   "source": "keyword-planner",
+   "volume": 260
+  },
+  {
+   "term": "6th house represent in vedic astrology",
+   "question": "What does 6th house represent in vedic astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000337,
+   "source": "keyword-planner",
+   "volume": 260
+  },
+  {
+   "term": "9th house represent in vedic astrology",
+   "question": "What does 9th house represent in vedic astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000337,
+   "source": "keyword-planner",
+   "volume": 260
+  },
+  {
+   "term": "3rd house represent in vedic astrology",
+   "question": "What does 3rd house represent in vedic astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000335,
+   "source": "keyword-planner",
+   "volume": 260
+  },
+  {
+   "term": "Ashtakoot matching",
+   "question": "What does ashtakoot matching mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000335,
+   "source": "keyword-planner",
+   "volume": 260
   },
   {
    "term": "Moon in Taurus",
@@ -2097,6 +2214,15 @@
    "score": 1000330,
    "source": "keyword-planner",
    "volume": 330
+  },
+  {
+   "term": "Each house",
+   "question": "What does each house mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000324,
+   "source": "keyword-planner",
+   "volume": 250
   },
   {
    "term": "Aquarius stellium",
@@ -2129,15 +2255,6 @@
    "term": "Gemini spiritual",
    "question": "What does gemini spiritual mean in astrology?",
    "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 1000320,
-   "source": "keyword-planner",
-   "volume": 320
-  },
-  {
-   "term": "Angular houses",
-   "question": "What are angular houses in astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1000320,
    "source": "keyword-planner",
@@ -2180,38 +2297,11 @@
    "volume": 320
   },
   {
-   "term": "8th house represent in vedic astrology",
-   "question": "What does 8th house represent in vedic astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000319,
-   "source": "keyword-planner",
-   "volume": 320
-  },
-  {
    "term": "Birth sign cancer",
    "question": "What does birth sign cancer mean in astrology?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 1000317,
-   "source": "keyword-planner",
-   "volume": 320
-  },
-  {
-   "term": "Which house represents what",
-   "question": "Which house represents what in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000317,
-   "source": "keyword-planner",
-   "volume": 320
-  },
-  {
-   "term": "Tropical astrology",
-   "question": "What is tropical astrology in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000315,
    "source": "keyword-planner",
    "volume": 320
   },
@@ -2225,6 +2315,24 @@
    "volume": 310
   },
   {
+   "term": "12 house",
+   "question": "What is 12 house in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000285,
+   "source": "keyword-planner",
+   "volume": 220
+  },
+  {
+   "term": "Birth date",
+   "question": "What does birth date mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000282,
+   "source": "keyword-planner",
+   "volume": 220
+  },
+  {
    "term": "Cusp",
    "question": "What is a cusp in astrology?",
    "category": "Signs & Elements",
@@ -2234,27 +2342,9 @@
    "volume": 280
   },
   {
-   "term": "Third house represent",
-   "question": "What does third house represent in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000280,
-   "source": "keyword-planner",
-   "volume": 280
-  },
-  {
    "term": "North Node in Sagittarius",
    "question": "What does the North Node in Sagittarius mean?",
    "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 1000279,
-   "source": "keyword-planner",
-   "volume": 280
-  },
-  {
-   "term": "First house represent",
-   "question": "What does first house represent in astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1000279,
    "source": "keyword-planner",
@@ -2277,6 +2367,51 @@
    "score": 1000279,
    "source": "keyword-planner",
    "volume": 280
+  },
+  {
+   "term": "8th house stellium",
+   "question": "What does 8th house stellium mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000273,
+   "source": "keyword-planner",
+   "volume": 210
+  },
+  {
+   "term": "9th house represent",
+   "question": "What does 9th house represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000273,
+   "source": "keyword-planner",
+   "volume": 210
+  },
+  {
+   "term": "Chalit chart",
+   "question": "What is chalit chart in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000273,
+   "source": "keyword-planner",
+   "volume": 210
+  },
+  {
+   "term": "Ninth house",
+   "question": "What is the ninth house in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000272,
+   "source": "keyword-planner",
+   "volume": 210
+  },
+  {
+   "term": "4th house represent in vedic astrology",
+   "question": "What does 4th house represent in vedic astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000270,
+   "source": "keyword-planner",
+   "volume": 210
   },
   {
    "term": "Neptune retrograde",
@@ -2333,15 +2468,6 @@
    "volume": 260
   },
   {
-   "term": "12th house stellium",
-   "question": "What does 12th house stellium mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000260,
-   "source": "keyword-planner",
-   "volume": 260
-  },
-  {
    "term": "Leo stellium",
    "question": "What does leo stellium mean in astrology?",
    "category": "Signs & Elements",
@@ -2351,45 +2477,9 @@
    "volume": 260
   },
   {
-   "term": "Kundli house",
-   "question": "What does kundli house mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000260,
-   "source": "keyword-planner",
-   "volume": 260
-  },
-  {
-   "term": "4th house represent",
-   "question": "What does 4th house represent in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000259,
-   "source": "keyword-planner",
-   "volume": 260
-  },
-  {
    "term": "Aries moon sign",
    "question": "What does aries moon sign mean in astrology?",
    "category": "Phases & Movements",
-   "icon": "✨",
-   "score": 1000259,
-   "source": "keyword-planner",
-   "volume": 260
-  },
-  {
-   "term": "6th house represent in vedic astrology",
-   "question": "What does 6th house represent in vedic astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000259,
-   "source": "keyword-planner",
-   "volume": 260
-  },
-  {
-   "term": "9th house represent in vedic astrology",
-   "question": "What does 9th house represent in vedic astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1000259,
    "source": "keyword-planner",
@@ -2405,33 +2495,6 @@
    "volume": 260
   },
   {
-   "term": "3rd house represent in vedic astrology",
-   "question": "What does 3rd house represent in vedic astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000258,
-   "source": "keyword-planner",
-   "volume": 260
-  },
-  {
-   "term": "Ashtakoot matching",
-   "question": "What does ashtakoot matching mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000258,
-   "source": "keyword-planner",
-   "volume": 260
-  },
-  {
-   "term": "Each house",
-   "question": "What does each house mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000249,
-   "source": "keyword-planner",
-   "volume": 250
-  },
-  {
    "term": "What house is aries",
    "question": "What house is aries?",
    "category": "Signs & Elements",
@@ -2439,6 +2502,51 @@
    "score": 1000230,
    "source": "keyword-planner",
    "volume": 230
+  },
+  {
+   "term": "Placidus houses",
+   "question": "What are placidus houses in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000221,
+   "source": "keyword-planner",
+   "volume": 170
+  },
+  {
+   "term": "Second house represent",
+   "question": "What does second house represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000221,
+   "source": "keyword-planner",
+   "volume": 170
+  },
+  {
+   "term": "Navamsa chart",
+   "question": "What is navamsa chart in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000221,
+   "source": "keyword-planner",
+   "volume": 170
+  },
+  {
+   "term": "Trikona",
+   "question": "What is trikona in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000221,
+   "source": "keyword-planner",
+   "volume": 170
+  },
+  {
+   "term": "Fifth house represent",
+   "question": "What does the fifth house represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000220,
+   "source": "keyword-planner",
+   "volume": 170
   },
   {
    "term": "Pluto in the 1st house",
@@ -2450,36 +2558,9 @@
    "volume": 220
   },
   {
-   "term": "12 house",
-   "question": "What is 12 house in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000219,
-   "source": "keyword-planner",
-   "volume": 220
-  },
-  {
-   "term": "Birth date",
-   "question": "What does birth date mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000217,
-   "source": "keyword-planner",
-   "volume": 220
-  },
-  {
    "term": "North Node in Pisces",
    "question": "What does the North Node in Pisces mean?",
    "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 1000210,
-   "source": "keyword-planner",
-   "volume": 210
-  },
-  {
-   "term": "8th house stellium",
-   "question": "What does 8th house stellium mean in astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1000210,
    "source": "keyword-planner",
@@ -2522,15 +2603,6 @@
    "volume": 210
   },
   {
-   "term": "9th house represent",
-   "question": "What does 9th house represent in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000210,
-   "source": "keyword-planner",
-   "volume": 210
-  },
-  {
    "term": "What house is capricorn",
    "question": "What house is capricorn?",
    "category": "Signs & Elements",
@@ -2543,15 +2615,6 @@
    "term": "What house is gemini",
    "question": "What house is gemini?",
    "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 1000210,
-   "source": "keyword-planner",
-   "volume": 210
-  },
-  {
-   "term": "Chalit chart",
-   "question": "What is chalit chart in astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1000210,
    "source": "keyword-planner",
@@ -2666,15 +2729,6 @@
    "volume": 210
   },
   {
-   "term": "Ninth house",
-   "question": "What is the ninth house in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000209,
-   "source": "keyword-planner",
-   "volume": 210
-  },
-  {
    "term": "Moon in Virgo",
    "question": "What does the Moon in Virgo mean?",
    "category": "Phases & Movements",
@@ -2693,13 +2747,67 @@
    "volume": 210
   },
   {
-   "term": "4th house represent in vedic astrology",
-   "question": "What does 4th house represent in vedic astrology?",
+   "term": "11th house stellium",
+   "question": "What does 11th house stellium mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
-   "score": 1000208,
+   "score": 1000182,
    "source": "keyword-planner",
-   "volume": 210
+   "volume": 140
+  },
+  {
+   "term": "9th house stellium",
+   "question": "What does 9th house stellium mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000182,
+   "source": "keyword-planner",
+   "volume": 140
+  },
+  {
+   "term": "Birth star",
+   "question": "What does birth star mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000182,
+   "source": "keyword-planner",
+   "volume": 140
+  },
+  {
+   "term": "Chalit kundali",
+   "question": "What does chalit kundali mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000182,
+   "source": "keyword-planner",
+   "volume": 140
+  },
+  {
+   "term": "Fourth house represent",
+   "question": "What does the fourth house represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000181,
+   "source": "keyword-planner",
+   "volume": 140
+  },
+  {
+   "term": "5th house represent in vedic astrology",
+   "question": "What does 5th house represent in vedic astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000181,
+   "source": "keyword-planner",
+   "volume": 140
+  },
+  {
+   "term": "Lagna in vedic astrology",
+   "question": "What is lagna in vedic astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000181,
+   "source": "keyword-planner",
+   "volume": 140
   },
   {
    "term": "Uranus in Aries",
@@ -2768,42 +2876,6 @@
    "term": "Full moon in leo",
    "question": "What does full moon in leo mean in astrology?",
    "category": "Phases & Movements",
-   "icon": "✨",
-   "score": 1000170,
-   "source": "keyword-planner",
-   "volume": 170
-  },
-  {
-   "term": "Placidus houses",
-   "question": "What are placidus houses in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000170,
-   "source": "keyword-planner",
-   "volume": 170
-  },
-  {
-   "term": "Second house represent",
-   "question": "What does second house represent in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000170,
-   "source": "keyword-planner",
-   "volume": 170
-  },
-  {
-   "term": "Navamsa chart",
-   "question": "What is navamsa chart in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000170,
-   "source": "keyword-planner",
-   "volume": 170
-  },
-  {
-   "term": "Trikona",
-   "question": "What is trikona in astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1000170,
    "source": "keyword-planner",
@@ -2900,15 +2972,6 @@
    "volume": 170
   },
   {
-   "term": "Fifth house represent",
-   "question": "What does the fifth house represent in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000169,
-   "source": "keyword-planner",
-   "volume": 170
-  },
-  {
    "term": "North Node in the 6th house",
    "question": "What does the North Node in the 6th house mean?",
    "category": "Planets & Bodies",
@@ -2934,6 +2997,96 @@
    "score": 1000150,
    "source": "keyword-planner",
    "volume": 150
+  },
+  {
+   "term": "Budhaditya yoga",
+   "question": "What does budhaditya yoga mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000143,
+   "source": "keyword-planner",
+   "volume": 110
+  },
+  {
+   "term": "Succedent houses",
+   "question": "What are succedent houses in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000143,
+   "source": "keyword-planner",
+   "volume": 110
+  },
+  {
+   "term": "All the houses",
+   "question": "What do all the houses mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000143,
+   "source": "keyword-planner",
+   "volume": 110
+  },
+  {
+   "term": "Houses represent",
+   "question": "What do houses represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000143,
+   "source": "keyword-planner",
+   "volume": 110
+  },
+  {
+   "term": "10th house stellium",
+   "question": "What does 10th house stellium mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000143,
+   "source": "keyword-planner",
+   "volume": 110
+  },
+  {
+   "term": "5th house stellium",
+   "question": "What does 5th house stellium mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000143,
+   "source": "keyword-planner",
+   "volume": 110
+  },
+  {
+   "term": "7th house stellium",
+   "question": "What does 7th house stellium mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000143,
+   "source": "keyword-planner",
+   "volume": 110
+  },
+  {
+   "term": "Square astrology",
+   "question": "What does square astrology mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000143,
+   "source": "keyword-planner",
+   "volume": 110
+  },
+  {
+   "term": "Dignities",
+   "question": "What are dignities in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000143,
+   "source": "keyword-planner",
+   "volume": 110
+  },
+  {
+   "term": "2nd house represent in vedic astrology",
+   "question": "What does 2nd house represent in vedic astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000142,
+   "source": "keyword-planner",
+   "volume": 110
   },
   {
    "term": "Ascendant leo",
@@ -2972,45 +3125,9 @@
    "volume": 140
   },
   {
-   "term": "11th house stellium",
-   "question": "What does 11th house stellium mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000140,
-   "source": "keyword-planner",
-   "volume": 140
-  },
-  {
-   "term": "9th house stellium",
-   "question": "What does 9th house stellium mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000140,
-   "source": "keyword-planner",
-   "volume": 140
-  },
-  {
    "term": "Pisces stellium",
    "question": "What does pisces stellium mean in astrology?",
    "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 1000140,
-   "source": "keyword-planner",
-   "volume": 140
-  },
-  {
-   "term": "Birth star",
-   "question": "What does birth star mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000140,
-   "source": "keyword-planner",
-   "volume": 140
-  },
-  {
-   "term": "Chalit kundali",
-   "question": "What does chalit kundali mean in astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1000140,
    "source": "keyword-planner",
@@ -3035,38 +3152,20 @@
    "volume": 140
   },
   {
+   "term": "Each house represent in vedic astrology",
+   "question": "What does each house represent in vedic astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000140,
+   "source": "keyword-planner",
+   "volume": 110
+  },
+  {
    "term": "North Node in the 12th house",
    "question": "What does the North Node in the 12th house mean?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 1000140,
-   "source": "keyword-planner",
-   "volume": 140
-  },
-  {
-   "term": "Fourth house represent",
-   "question": "What does the fourth house represent in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000139,
-   "source": "keyword-planner",
-   "volume": 140
-  },
-  {
-   "term": "5th house represent in vedic astrology",
-   "question": "What does 5th house represent in vedic astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000139,
-   "source": "keyword-planner",
-   "volume": 140
-  },
-  {
-   "term": "Lagna in vedic astrology",
-   "question": "What is lagna in vedic astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000139,
    "source": "keyword-planner",
    "volume": 140
   },
@@ -3087,6 +3186,60 @@
    "score": 1000120,
    "source": "keyword-planner",
    "volume": 120
+  },
+  {
+   "term": "12 houses represent",
+   "question": "What do the 12 houses represent?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000117,
+   "source": "keyword-planner",
+   "volume": 90
+  },
+  {
+   "term": "Eighth house represent",
+   "question": "What does the eighth house represent in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000117,
+   "source": "keyword-planner",
+   "volume": 90
+  },
+  {
+   "term": "8th house in vedic astrology",
+   "question": "What is 8th house in vedic astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000117,
+   "source": "keyword-planner",
+   "volume": 90
+  },
+  {
+   "term": "1st house stellium",
+   "question": "What does 1st house stellium mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000117,
+   "source": "keyword-planner",
+   "volume": 90
+  },
+  {
+   "term": "4th house stellium",
+   "question": "What does 4th house stellium mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000117,
+   "source": "keyword-planner",
+   "volume": 90
+  },
+  {
+   "term": "6th house stellium",
+   "question": "What does 6th house stellium mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 1000117,
+   "source": "keyword-planner",
+   "volume": 90
   },
   {
    "term": "Saturn retrograde",
@@ -3152,15 +3305,6 @@
    "volume": 110
   },
   {
-   "term": "Budhaditya yoga",
-   "question": "What does budhaditya yoga mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000110,
-   "source": "keyword-planner",
-   "volume": 110
-  },
-  {
    "term": "Full moon in pisces",
    "question": "What does full moon in pisces mean in astrology?",
    "category": "Phases & Movements",
@@ -3170,81 +3314,9 @@
    "volume": 110
   },
   {
-   "term": "Succedent houses",
-   "question": "What are succedent houses in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000110,
-   "source": "keyword-planner",
-   "volume": 110
-  },
-  {
-   "term": "All the houses",
-   "question": "What do all the houses mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000110,
-   "source": "keyword-planner",
-   "volume": 110
-  },
-  {
-   "term": "Houses represent",
-   "question": "What do houses represent in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000110,
-   "source": "keyword-planner",
-   "volume": 110
-  },
-  {
    "term": "What house is your rising sign",
    "question": "What house is your rising sign?",
    "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 1000110,
-   "source": "keyword-planner",
-   "volume": 110
-  },
-  {
-   "term": "10th house stellium",
-   "question": "What does 10th house stellium mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000110,
-   "source": "keyword-planner",
-   "volume": 110
-  },
-  {
-   "term": "5th house stellium",
-   "question": "What does 5th house stellium mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000110,
-   "source": "keyword-planner",
-   "volume": 110
-  },
-  {
-   "term": "7th house stellium",
-   "question": "What does 7th house stellium mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000110,
-   "source": "keyword-planner",
-   "volume": 110
-  },
-  {
-   "term": "Square astrology",
-   "question": "What does square astrology mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000110,
-   "source": "keyword-planner",
-   "volume": 110
-  },
-  {
-   "term": "Dignities",
-   "question": "What are dignities in astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1000110,
    "source": "keyword-planner",
@@ -3287,22 +3359,13 @@
    "volume": 110
   },
   {
-   "term": "2nd house represent in vedic astrology",
-   "question": "What does 2nd house represent in vedic astrology?",
+   "term": "Birth chart symbols",
+   "question": "What do birth chart symbols mean in astrology?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 1000109,
    "source": "keyword-planner",
-   "volume": 110
-  },
-  {
-   "term": "Each house represent in vedic astrology",
-   "question": "What does each house represent in vedic astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000108,
-   "source": "keyword-planner",
-   "volume": 110
+   "volume": 90
   },
   {
    "term": "North Node in the 1st house",
@@ -3404,24 +3467,6 @@
    "volume": 90
   },
   {
-   "term": "12 houses represent",
-   "question": "What do the 12 houses represent?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000090,
-   "source": "keyword-planner",
-   "volume": 90
-  },
-  {
-   "term": "Eighth house represent",
-   "question": "What does the eighth house represent in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000090,
-   "source": "keyword-planner",
-   "volume": 90
-  },
-  {
    "term": "What house does aries rule",
    "question": "What house does aries rule?",
    "category": "Signs & Elements",
@@ -3434,42 +3479,6 @@
    "term": "What house does libra rule",
    "question": "What house does libra rule?",
    "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 1000090,
-   "source": "keyword-planner",
-   "volume": 90
-  },
-  {
-   "term": "8th house in vedic astrology",
-   "question": "What is 8th house in vedic astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000090,
-   "source": "keyword-planner",
-   "volume": 90
-  },
-  {
-   "term": "1st house stellium",
-   "question": "What does 1st house stellium mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000090,
-   "source": "keyword-planner",
-   "volume": 90
-  },
-  {
-   "term": "4th house stellium",
-   "question": "What does 4th house stellium mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000090,
-   "source": "keyword-planner",
-   "volume": 90
-  },
-  {
-   "term": "6th house stellium",
-   "question": "What does 6th house stellium mean in astrology?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 1000090,
    "source": "keyword-planner",
@@ -3499,15 +3508,6 @@
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 1000090,
-   "source": "keyword-planner",
-   "volume": 90
-  },
-  {
-   "term": "Birth chart symbols",
-   "question": "What do birth chart symbols mean in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 1000084,
    "source": "keyword-planner",
    "volume": 90
   },
@@ -4868,14 +4868,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Square number",
-   "question": "What is a square number?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 18,
-   "source": "google-suggest"
-  },
-  {
    "term": "Decan",
    "question": "What does decan mean in astrology?",
    "category": "Signs & Elements",
@@ -4991,6 +4983,14 @@
    "term": "South node",
    "question": "What is south node in astrology?",
    "category": "Planets & Bodies",
+   "icon": "✨",
+   "score": 17,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Square root",
+   "question": "What is a square root?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 17,
    "source": "google-suggest"
@@ -5132,14 +5132,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Square root",
-   "question": "What is a square root?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 16,
-   "source": "google-suggest"
-  },
-  {
    "term": "Progressions",
    "question": "What are progressions in astrology?",
    "category": "Chart Concepts",
@@ -5190,6 +5182,14 @@
   {
    "term": "Opposing",
    "question": "What does opposing mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 15,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Square number",
+   "question": "What is a square number?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 15,
@@ -5300,6 +5300,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Square foot",
+   "question": "What is a square foot?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 14,
+   "source": "google-suggest"
+  },
+  {
    "term": "Square mean in slang",
    "question": "What does a square mean in slang?",
    "category": "Chart Concepts",
@@ -5380,8 +5388,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Square foot",
-   "question": "What is a square foot?",
+   "term": "Square wave",
+   "question": "What is a square wave?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 13,
@@ -5532,14 +5540,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Square wave",
-   "question": "What is a square wave?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 12,
-   "source": "google-suggest"
-  },
-  {
    "term": "Full moon called",
    "question": "What is a full moon called?",
    "category": "Phases & Movements",
@@ -5604,9 +5604,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Venus made of",
-   "question": "What is venus made of?",
-   "category": "Planets & Bodies",
+   "term": "Venus retrograde",
+   "question": "What is venus retrograde?",
+   "category": "Phases & Movements",
    "icon": "✨",
    "score": 11,
    "source": "google-suggest"
@@ -5764,17 +5764,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Transitive verb",
-   "question": "What is a transitive verb?",
+   "term": "Transition team in politics",
+   "question": "What is a transition team in politics?",
    "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 11,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Transit aba number",
-   "question": "What is a transit aba number?",
-   "category": "Phases & Movements",
    "icon": "✨",
    "score": 11,
    "source": "google-suggest"
@@ -5788,8 +5780,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "House manager",
-   "question": "What is a house manager?",
+   "term": "Housewife",
+   "question": "What is a housewife?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 11,
@@ -5911,14 +5903,6 @@
    "term": "Progressions astrology",
    "question": "What does progressions astrology mean in astrology?",
    "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 11,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Eclipse of the moon",
-   "question": "What is an eclipse of the moon?",
-   "category": "Phases & Movements",
    "icon": "✨",
    "score": 11,
    "source": "google-suggest"
@@ -6180,14 +6164,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Moon made of",
-   "question": "What is the moon made of?",
-   "category": "Phases & Movements",
-   "icon": "✨",
-   "score": 10,
-   "source": "google-suggest"
-  },
-  {
    "term": "Moon mean in tarot",
    "question": "What does the moon mean in tarot?",
    "category": "Phases & Movements",
@@ -6220,9 +6196,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Venus retrograde",
-   "question": "What is venus retrograde?",
-   "category": "Phases & Movements",
+   "term": "Venus made of",
+   "question": "What is venus made of?",
+   "category": "Planets & Bodies",
    "icon": "✨",
    "score": 10,
    "source": "google-suggest"
@@ -6404,14 +6380,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Stellium in your birth chart",
-   "question": "What is a stellium in your birth chart?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 10,
-   "source": "google-suggest"
-  },
-  {
    "term": "Stellium",
    "question": "What does a stellium mean in astrology?",
    "category": "Chart Concepts",
@@ -6476,6 +6444,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Transitive verb",
+   "question": "What is a transitive verb?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 10,
+   "source": "google-suggest"
+  },
+  {
    "term": "Transit",
    "question": "What does a transit mean in astrology?",
    "category": "Phases & Movements",
@@ -6500,8 +6476,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Housewife",
-   "question": "What is a housewife?",
+   "term": "House manager",
+   "question": "What is a house manager?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 10,
@@ -6702,6 +6678,14 @@
   {
    "term": "Red moon",
    "question": "What does a red moon mean in astrology?",
+   "category": "Phases & Movements",
+   "icon": "✨",
+   "score": 10,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Eclipse of the moon",
+   "question": "What is an eclipse of the moon?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 10,
@@ -7220,14 +7204,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "1st house in astrology represent",
-   "question": "What is the 1st house in astrology represent?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 10,
-   "source": "google-suggest"
-  },
-  {
    "term": "1st house represent",
    "question": "What does the 1st house represent in astrology?",
    "category": "Chart Concepts",
@@ -7503,6 +7479,14 @@
    "term": "Ring around the sun",
    "question": "What does ring around the sun mean in astrology?",
    "category": "Planets & Bodies",
+   "icon": "✨",
+   "score": 9,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Moon made of",
+   "question": "What is the moon made of?",
+   "category": "Phases & Movements",
    "icon": "✨",
    "score": 9,
    "source": "google-suggest"
@@ -7876,8 +7860,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Stellium astrology",
-   "question": "What is a stellium astrology?",
+   "term": "Stellium in your birth chart",
+   "question": "What is a stellium in your birth chart?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 9,
@@ -7918,14 +7902,6 @@
   {
    "term": "Composite chart synastry",
    "question": "What is a composite chart synastry?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 9,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Transition metal",
-   "question": "What is a transition metal?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 9,
@@ -8668,8 +8644,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leo mean in piano",
-   "question": "What does leo mean in piano?",
+   "term": "Leo mean in spanish",
+   "question": "What does leo mean in spanish?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 9,
@@ -8791,6 +8767,14 @@
    "term": "Pisces mean in spanish",
    "question": "What does pisces mean in spanish?",
    "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 9,
+   "source": "google-suggest"
+  },
+  {
+   "term": "1st house in astrology represent",
+   "question": "What is the 1st house in astrology represent?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 9,
    "source": "google-suggest"
@@ -9340,9 +9324,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Chiron in percy jackson",
-   "question": "What is chiron in percy jackson?",
-   "category": "Planets & Bodies",
+   "term": "Chironji in english",
+   "question": "What is chironji in english?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 8,
    "source": "google-suggest"
@@ -9564,6 +9548,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Transition metal",
+   "question": "What is a transition metal?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 8,
+   "source": "google-suggest"
+  },
+  {
    "term": "Transit passenger",
    "question": "What does a transit passenger mean?",
    "category": "Phases & Movements",
@@ -9678,14 +9670,6 @@
   {
    "term": "Opposition",
    "question": "What is opposition in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 8,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Square mile",
-   "question": "What is a square mile?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 8,
@@ -10052,9 +10036,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cuspidor",
-   "question": "What is a cuspidor?",
-   "category": "Chart Concepts",
+   "term": "Cusp on a graph",
+   "question": "What is a cusp on a graph?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 8,
    "source": "google-suggest"
@@ -10196,8 +10180,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aries birthstone",
-   "question": "What is aries birthstone?",
+   "term": "Aries compatible with",
+   "question": "What is aries compatible with?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 8,
@@ -10220,6 +10204,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Gemini spark",
+   "question": "What is gemini spark?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 8,
+   "source": "google-suggest"
+  },
+  {
    "term": "Cancer sign dates",
    "question": "What is cancer sign dates?",
    "category": "Signs & Elements",
@@ -10236,16 +10228,16 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leo season",
-   "question": "What is leo season?",
-   "category": "Signs & Elements",
+   "term": "Leonida in gta 6",
+   "question": "What is leonida in gta 6?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 8,
    "source": "google-suggest"
   },
   {
-   "term": "Leo mean in spanish",
-   "question": "What does leo mean in spanish?",
+   "term": "Leo mean in piano",
+   "question": "What does leo mean in piano?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 8,
@@ -10964,9 +10956,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Chironji in english",
-   "question": "What is chironji in english?",
-   "category": "Chart Concepts",
+   "term": "Chiron in percy jackson",
+   "question": "What is chiron in percy jackson?",
+   "category": "Planets & Bodies",
    "icon": "✨",
    "score": 7,
    "source": "google-suggest"
@@ -11214,6 +11206,14 @@
   {
    "term": "Filing an opposition",
    "question": "What does filing an opposition mean?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 7,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Square mile",
+   "question": "What is a square mile?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 7,
@@ -11596,9 +11596,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cusp sign",
-   "question": "What is a cusp sign?",
-   "category": "Signs & Elements",
+   "term": "Cuspidor",
+   "question": "What is a cuspidor?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 7,
    "source": "google-suggest"
@@ -11764,8 +11764,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aries compatible with",
-   "question": "What is aries compatible with?",
+   "term": "Aries birthstone",
+   "question": "What is aries birthstone?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 7,
@@ -11798,14 +11798,6 @@
   {
    "term": "Taurus rising",
    "question": "What does taurus rising mean in astrology?",
-   "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 7,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Gemini spark",
-   "question": "What is gemini spark?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 7,
@@ -11860,17 +11852,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leo short for",
-   "question": "What is leo short for?",
-   "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 7,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Virgo birthstone",
-   "question": "What is virgo birthstone?",
-   "category": "Signs & Elements",
+   "term": "Leonid meteor shower",
+   "question": "What is leonid meteor shower?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 7,
    "source": "google-suggest"
@@ -12388,14 +12372,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Moon phase",
-   "question": "What is the moon phase?",
-   "category": "Phases & Movements",
-   "icon": "✨",
-   "score": 6,
-   "source": "google-suggest"
-  },
-  {
    "term": "Moon mean on iphone",
    "question": "What does the moon mean on iphone?",
    "category": "Phases & Movements",
@@ -12527,14 +12503,6 @@
    "term": "Jupiter ascending",
    "question": "What does jupiter ascending mean in astrology?",
    "category": "Planets & Bodies",
-   "icon": "✨",
-   "score": 6,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Saturnalia",
-   "question": "What is saturnalia?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 6,
    "source": "google-suggest"
@@ -12796,9 +12764,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Transition word",
-   "question": "What is a transition word?",
-   "category": "Chart Concepts",
+   "term": "Transit aba number",
+   "question": "What is a transit aba number?",
+   "category": "Phases & Movements",
    "icon": "✨",
    "score": 6,
    "source": "google-suggest"
@@ -12820,8 +12788,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "House hippo",
-   "question": "What is a house hippo?",
+   "term": "House number",
+   "question": "What is a house number?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 6,
@@ -12910,6 +12878,14 @@
   {
    "term": "Attraction opposition",
    "question": "What does attraction opposition mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 6,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Square grouper",
+   "question": "What is a square grouper?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 6,
@@ -13204,8 +13180,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cusp on a graph",
-   "question": "What is a cusp on a graph?",
+   "term": "Cusp sign",
+   "question": "What is a cusp sign?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 6,
@@ -13372,8 +13348,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Gemini hydrogen",
-   "question": "What is gemini hydrogen?",
+   "term": "Gemini in google messages",
+   "question": "What is gemini in google messages?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 6,
@@ -13412,9 +13388,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leonardo dicaprio's net worth",
-   "question": "What is leonardo dicaprio's net worth?",
-   "category": "Chart Concepts",
+   "term": "Leo season",
+   "question": "What is leo season?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 6,
    "source": "google-suggest"
@@ -13430,6 +13406,14 @@
   {
    "term": "Leo rising",
    "question": "What does leo rising mean in astrology?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 6,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Virgo birthstone",
+   "question": "What is virgo birthstone?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 6,
@@ -13868,8 +13852,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Moon phase right now",
-   "question": "What is the moon phase right now?",
+   "term": "Moon phase",
+   "question": "What is the moon phase?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 5,
@@ -13964,9 +13948,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Saturn the god of",
-   "question": "What is saturn the god of?",
-   "category": "Planets & Bodies",
+   "term": "Saturnalia",
+   "question": "What is saturnalia?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 5,
    "source": "google-suggest"
@@ -13988,8 +13972,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Uranus distance from the sun",
-   "question": "What is uranus distance from the sun?",
+   "term": "Uranus in one piece",
+   "question": "What is uranus in one piece?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 5,
@@ -14244,8 +14228,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Transitional year residency",
-   "question": "What is a transitional year residency?",
+   "term": "Transition word",
+   "question": "What is a transition word?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 5,
@@ -14260,8 +14244,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "House centipede",
-   "question": "What is a house centipede?",
+   "term": "House hippo",
+   "question": "What is a house hippo?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 5,
@@ -14356,14 +14340,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Square grouper",
-   "question": "What is a square grouper?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 5,
-   "source": "google-suggest"
-  },
-  {
    "term": "Square mean on a golf scorecard",
    "question": "What does a square mean on a golf scorecard?",
    "category": "Chart Concepts",
@@ -14420,8 +14396,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aspect in diablo 4",
-   "question": "What is an aspect in diablo 4?",
+   "term": "Aspects score",
+   "question": "What is an aspects score?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 5,
@@ -14436,8 +14412,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Retrograde planet",
-   "question": "What is a retrograde planet?",
+   "term": "Retrograde watch",
+   "question": "What is a retrograde watch?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 5,
@@ -14668,9 +14644,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cuspid",
-   "question": "What is a cuspid?",
-   "category": "Chart Concepts",
+   "term": "Cusp in math",
+   "question": "What is a cusp in math?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 5,
    "source": "google-suggest"
@@ -14844,8 +14820,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Gemini in google messages",
-   "question": "What is gemini in google messages?",
+   "term": "Gemini hydrogen",
+   "question": "What is gemini hydrogen?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 5,
@@ -14860,8 +14836,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cancer sign symbol",
-   "question": "What is cancer sign symbol?",
+   "term": "Cancer sign like",
+   "question": "What is cancer sign like?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 5,
@@ -14876,9 +14852,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leonida gta 6",
-   "question": "What is leonida gta 6?",
-   "category": "Chart Concepts",
+   "term": "Leo short for",
+   "question": "What is leo short for?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 5,
    "source": "google-suggest"
@@ -15372,8 +15348,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Moon right now",
-   "question": "What is the moon right now?",
+   "term": "Moon phase right now",
+   "question": "What is the moon phase right now?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 4,
@@ -15388,8 +15364,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Mercury the god of",
-   "question": "What is mercury the god of?",
+   "term": "Mercury opinion",
+   "question": "What is mercury opinion?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 4,
@@ -15476,6 +15452,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Saturn the god of",
+   "question": "What is saturn the god of?",
+   "category": "Planets & Bodies",
+   "icon": "✨",
+   "score": 4,
+   "source": "google-suggest"
+  },
+  {
    "term": "Saturn mean in love",
    "question": "What does saturn mean in love?",
    "category": "Planets & Bodies",
@@ -15484,8 +15468,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Uranus in one piece",
-   "question": "What is uranus in one piece?",
+   "term": "Uranus distance from the sun",
+   "question": "What is uranus distance from the sun?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 4,
@@ -15508,8 +15492,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Neptune",
-   "question": "What is neptune in astrology?",
+   "term": "Neptune's distance from the sun",
+   "question": "What is neptune's distance from the sun?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 4,
@@ -15548,9 +15532,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Chiron in astronomy",
-   "question": "What is chiron in astronomy?",
-   "category": "Planets & Bodies",
+   "term": "Chironji",
+   "question": "What is chironji?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 4,
    "source": "google-suggest"
@@ -15644,8 +15628,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Descendant of capricorn rising",
-   "question": "What is the descendant of capricorn rising?",
+   "term": "Descendant sign",
+   "question": "What is the descendant sign in astrology?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 4,
@@ -15740,9 +15724,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Transit number",
-   "question": "What is a transit number?",
-   "category": "Phases & Movements",
+   "term": "Transitional year residency",
+   "question": "What is a transitional year residency?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 4,
    "source": "google-suggest"
@@ -15756,8 +15740,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "House deed",
-   "question": "What is a house deed?",
+   "term": "House centipede",
+   "question": "What is a house centipede?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 4,
@@ -15924,8 +15908,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aspects score",
-   "question": "What is an aspects score?",
+   "term": "Aspect ratio in film",
+   "question": "What is an aspect ratio in film?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 4,
@@ -15940,8 +15924,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Retrograde watch",
-   "question": "What is a retrograde watch?",
+   "term": "Retrograde planet",
+   "question": "What is a retrograde planet?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 4,
@@ -16148,9 +16132,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cusp on a tooth",
-   "question": "What is a cusp on a tooth?",
-   "category": "Signs & Elements",
+   "term": "Cuspid",
+   "question": "What is a cuspid?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 4,
    "source": "google-suggest"
@@ -16292,8 +16276,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aries animal",
-   "question": "What is aries animal?",
+   "term": "Aries ruled by",
+   "question": "What is aries ruled by?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 4,
@@ -16340,8 +16324,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Gemini 4 hydrogen",
-   "question": "What is gemini 4 hydrogen?",
+   "term": "Gemini ai",
+   "question": "What is gemini ai?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 4,
@@ -16364,6 +16348,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Cancer sign symbol",
+   "question": "What is cancer sign symbol?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 4,
+   "source": "google-suggest"
+  },
+  {
    "term": "Purple cancer ribbon",
    "question": "What does purple cancer ribbon mean?",
    "category": "Signs & Elements",
@@ -16380,9 +16372,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leo sign",
-   "question": "What is leo sign?",
-   "category": "Signs & Elements",
+   "term": "Leonardo dicaprio's net worth",
+   "question": "What is leonardo dicaprio's net worth?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 4,
    "source": "google-suggest"
@@ -16524,8 +16516,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Pisces planet",
-   "question": "What is pisces planet?",
+   "term": "Pisces spirit animal",
+   "question": "What is pisces spirit animal?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 4,
@@ -16828,6 +16820,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Moon right now",
+   "question": "What is the moon right now?",
+   "category": "Phases & Movements",
+   "icon": "✨",
+   "score": 3,
+   "source": "google-suggest"
+  },
+  {
    "term": "Moon mean on instagram",
    "question": "What does the moon mean on instagram?",
    "category": "Phases & Movements",
@@ -16839,6 +16839,14 @@
    "term": "Pink moon",
    "question": "What does the pink moon mean in astrology?",
    "category": "Phases & Movements",
+   "icon": "✨",
+   "score": 3,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Mercury on the periodic table",
+   "question": "What is mercury on the periodic table?",
+   "category": "Planets & Bodies",
    "icon": "✨",
    "score": 3,
    "source": "google-suggest"
@@ -16956,8 +16964,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Neptune's distance from the sun",
-   "question": "What is neptune's distance from the sun?",
+   "term": "Neptune",
+   "question": "What is neptune in astrology?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 3,
@@ -17004,9 +17012,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Chironji",
-   "question": "What is chironji?",
-   "category": "Chart Concepts",
+   "term": "Chiron in astronomy",
+   "question": "What is chiron in astronomy?",
+   "category": "Planets & Bodies",
    "icon": "✨",
    "score": 3,
    "source": "google-suggest"
@@ -17092,8 +17100,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Descendant sign",
-   "question": "What is the descendant sign in astrology?",
+   "term": "Descendant of capricorn rising",
+   "question": "What is the descendant of capricorn rising?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -17140,6 +17148,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Transit number",
+   "question": "What is a transit number?",
+   "category": "Phases & Movements",
+   "icon": "✨",
+   "score": 3,
+   "source": "google-suggest"
+  },
+  {
    "term": "Transit flight",
    "question": "What does a transit flight mean?",
    "category": "Phases & Movements",
@@ -17148,8 +17164,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "House call",
-   "question": "What is a house call?",
+   "term": "House deed",
+   "question": "What is a house deed?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 3,
@@ -17276,8 +17292,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aspect ratio in film",
-   "question": "What is an aspect ratio in film?",
+   "term": "Aspect in diablo 4",
+   "question": "What is an aspect in diablo 4?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 3,
@@ -17476,8 +17492,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cusp in math",
-   "question": "What is a cusp in math?",
+   "term": "Cusp on a tooth",
+   "question": "What is a cusp on a tooth?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -17588,8 +17604,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aries ruled by",
-   "question": "What is aries ruled by?",
+   "term": "Aries zodiac sign",
+   "question": "What is aries zodiac sign?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -17604,8 +17620,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Taurus sister sign",
-   "question": "What is taurus sister sign?",
+   "term": "Taurus planet",
+   "question": "What is taurus planet?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -17628,8 +17644,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Gemini ai",
-   "question": "What is gemini ai?",
+   "term": "Gemini 4 hydrogen",
+   "question": "What is gemini 4 hydrogen?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -17652,14 +17668,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cancer sign like",
-   "question": "What is cancer sign like?",
-   "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 3,
-   "source": "google-suggest"
-  },
-  {
    "term": "Green cancer ribbon",
    "question": "What does green cancer ribbon mean?",
    "category": "Signs & Elements",
@@ -17676,8 +17684,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leo's birthstone",
-   "question": "What is leo's birthstone?",
+   "term": "Leo sign",
+   "question": "What is leo sign?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -17812,8 +17820,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Pisces most compatible with",
-   "question": "What is pisces most compatible with?",
+   "term": "Pisces planet",
+   "question": "What is pisces planet?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -18100,8 +18108,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Mercury on the periodic table",
-   "question": "What is mercury on the periodic table?",
+   "term": "Mercury the god of",
+   "question": "What is mercury the god of?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 2,
@@ -18500,8 +18508,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Square yard",
-   "question": "What is a square yard?",
+   "term": "Square of shingles",
+   "question": "What is a square of shingles?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 2,
@@ -18588,8 +18596,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Mercury retrograde over",
-   "question": "What is mercury retrograde over?",
+   "term": "Mercury retrograde in cancer",
+   "question": "What is mercury retrograde in cancer?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 2,
@@ -18900,8 +18908,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aries zodiac sign",
-   "question": "What is aries zodiac sign?",
+   "term": "Aries animal",
+   "question": "What is aries animal?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,
@@ -18924,16 +18932,16 @@
    "source": "google-suggest"
   },
   {
-   "term": "Taurus planet",
-   "question": "What is taurus planet?",
+   "term": "Taurus sister sign",
+   "question": "What is taurus sister sign?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,
    "source": "google-suggest"
   },
   {
-   "term": "Gemini google",
-   "question": "What is gemini google?",
+   "term": "Gemini task",
+   "question": "What is gemini task?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,
@@ -18980,8 +18988,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leo zodiac sign",
-   "question": "What is leo zodiac sign?",
+   "term": "Leo's birthstone",
+   "question": "What is leo's birthstone?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,
@@ -19028,6 +19036,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Library in spanish",
+   "question": "What is library in spanish?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 2,
+   "source": "google-suggest"
+  },
+  {
    "term": "Libra mean personality",
    "question": "What does libra mean personality?",
    "category": "Signs & Elements",
@@ -19052,8 +19068,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Scorpio season",
-   "question": "What is scorpio season?",
+   "term": "Scorpio compatible with",
+   "question": "What is scorpio compatible with?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,
@@ -19132,8 +19148,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Pisces spirit animal",
-   "question": "What is pisces spirit animal?",
+   "term": "Pisces most compatible with",
+   "question": "What is pisces most compatible with?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,

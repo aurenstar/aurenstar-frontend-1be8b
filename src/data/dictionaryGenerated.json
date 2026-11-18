@@ -9819,5 +9819,1808 @@
         ]
       }
     }
+  },
+  {
+    "termo": "Western astrology",
+    "tituloSEO": "What is Western astrology in astrology? Simple guide",
+    "perguntaGoogle": "What is western astrology in astrology?",
+    "resumoUmaLinha": "Western astrology studies how the Sun, Moon, and planets relate to your birth and personality.",
+    "explicacaoEducativa": "Learn how Western astrology links the positions of planets at birth to your character and life patterns.",
+    "chamadaCuriosa": "Discover how stars might connect to your daily life!",
+    "oQueSignifica": "Western astrology is like a map of the sky made when you are born. Think of it as a snapshot of the stars and planets that can show parts of your personality. Just like a weather report helps us plan the day, this map can give ideas about moods and habits.",
+    "oQueSignificaNaAstrologia": "In astrology, Western astrology focuses on the Sun, Moon, and planets using twelve zodiac signs. Each sign covers about a month and represents different traits. Your birth chart shows where these bodies were, which is linked to your feelings and choices. It helps explain patterns in your life without saying exactly what will happen.",
+    "exemploFicticio": "Maria looks at her birthday and learns she is a Leo in Western astrology. She finds it fun to see how some Leo qualities, like being cheerful and friendly, show up when she meets new friends. Carlos, a Pisces, notices he feels more creative during those Pisces traits he reads about.",
+    "dicaRapida": "Check your Sun sign to start understanding basic parts of your astrology chart.",
+    "miniJogo": {
+      "pergunta": "If your birthday is April 15, which Western astrology sign are you?",
+      "opcoes": [
+        {
+          "texto": "Aries",
+          "correta": true,
+          "explicacao": "Aries covers March 21 to April 19, so April 15 is Aries."
+        },
+        {
+          "texto": "Taurus",
+          "correta": false,
+          "explicacao": "Taurus starts April 20; April 15 is too early for Taurus."
+        },
+        {
+          "texto": "Gemini",
+          "correta": false,
+          "explicacao": "Gemini begins May 21, well after April 15."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is Western astrology the same as horoscope in newspapers?",
+        "resposta": "Western astrology is the main idea behind horoscopes but horoscopes are simple daily or weekly hints."
+      },
+      {
+        "pergunta": "Can I change my Western astrology sign?",
+        "resposta": "No, your sign depends on when you were born and does not change."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "mapa-astral",
+      "casas-astrologicas"
+    ],
+    "id": "what-is-western-astrology-in-astrology",
+    "slug": "what-is-western-astrology-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Astrologia Ocidental",
+        "perguntaGoogle": "O que é astrologia ocidental na astrologia?",
+        "resumoUmaLinha": "A astrologia ocidental estuda como o Sol, a Lua e os planetas se relacionam com seu nascimento e personalidade.",
+        "chamadaCuriosa": "Descubra como as estrelas podem se conectar ao seu dia a dia!",
+        "oQueSignifica": "A astrologia ocidental é como um mapa do céu feito na hora que você nasce. Pense nisso como uma foto dos astros que pode mostrar partes da sua personalidade. Assim como a previsão do tempo ajuda a planejar o dia, esse mapa pode dar ideias sobre seus humores e hábitos.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a ocidental foca no Sol, na Lua e nos planetas usando doze signos do zodíaco. Cada signo cobre cerca de um mês e representa diferentes características. Seu mapa astral mostra onde estavam esses corpos, ligado aos seus sentimentos e escolhas. Isso ajuda a entender padrões na sua vida sem dizer exatamente o que vai acontecer.",
+        "exemploFicticio": "Maria olha a data do seu nascimento e descobre que é Leão na astrologia ocidental. Ela acha divertido ver como algumas qualidades de Leão, como ser alegre e amigável, aparecem quando conhece novas pessoas. Carlos, um Peixes, percebe que se sente mais criativo durante aquelas características de Peixes que ele lê.",
+        "faq": [
+          {
+            "pergunta": "Astrologia ocidental é a mesma coisa que horóscopo de jornal?",
+            "resposta": "A astrologia ocidental é a base dos horóscopos, mas os horóscopos são só dicas simples diárias ou semanais."
+          },
+          {
+            "pergunta": "Posso mudar meu signo da astrologia ocidental?",
+            "resposta": "Não, seu signo depende da sua hora de nascimento e não muda."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Astrología occidental",
+        "perguntaGoogle": "¿Qué es la astrología occidental en astrología?",
+        "resumoUmaLinha": "La astrología occidental estudia cómo el Sol, la Luna y los planetas se relacionan con tu nacimiento y personalidad.",
+        "chamadaCuriosa": "¡Descubre cómo las estrellas pueden conectar con tu vida diaria!",
+        "oQueSignifica": "La astrología occidental es como un mapa del cielo hecho en el momento en que naciste. Piensa en ella como una foto de las estrellas y planetas que puede mostrar partes de tu personalidad. Así como un reporte del clima nos ayuda a planear el día, este mapa da pistas sobre tu estado de ánimo y hábitos.",
+        "oQueSignificaNaAstrologia": "En astrología, la astrología occidental se enfoca en el Sol, la Luna y los planetas usando doce signos zodiacales. Cada signo dura cerca de un mes y representa rasgos diferentes. Tu carta astral muestra dónde estaban estos cuerpos, lo que se relaciona con tus sentimientos y decisiones. Ayuda a entender patrones en tu vida sin decir exactamente qué pasará.",
+        "exemploFicticio": "María revisa su fecha de nacimiento y descubre que es Leo en la astrología occidental. Le parece divertido ver cómo algunas cualidades de Leo, como ser alegre y amigable, se reflejan cuando conoce nuevos amigos. Carlos, un Piscis, nota que se siente más creativo durante esas épocas con características de Piscis que lee.",
+        "faq": [
+          {
+            "pergunta": "¿La astrología occidental es lo mismo que el horóscopo en los periódicos?",
+            "resposta": "La astrología occidental es la idea principal detrás de los horóscopos, pero los horóscopos son consejos simples diarios o semanales."
+          },
+          {
+            "pergunta": "¿Puedo cambiar mi signo de astrología occidental?",
+            "resposta": "No, tu signo depende de cuándo naciste y no cambia."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Astro chart",
+    "tituloSEO": "What Does Astro Chart Mean in Astrology? Simple Guide",
+    "perguntaGoogle": "What does astro chart mean in astrology?",
+    "resumoUmaLinha": "An astro chart is a map of the sky at your birth showing planet positions.",
+    "explicacaoEducativa": "Learn that an astro chart shows where planets and signs were when you were born. It’s like a cosmic snapshot.",
+    "chamadaCuriosa": "Discover your personal star map at the moment you were born!",
+    "oQueSignifica": "An astro chart is like a snapshot of the sky at your exact birth time. Imagine looking up and drawing where the sun, moon, and planets are right then. It’s your own star map that helps you understand more about yourself, kind of like a photo album of your first moments.",
+    "oQueSignificaNaAstrologia": "In astrology, an astro chart is linked to who you are and how you might feel or act. It shows the signs the planets were in when you were born. This “map” can help explain your personality, strengths, and challenges in a gentle way. Think of it as your unique cosmic fingerprint.",
+    "exemploFicticio": "Maria looked at her astro chart and saw her sun was in Leo, which is a fun, warm sign. She smiled, thinking about how much she enjoys making friends and being creative at school.",
+    "dicaRapida": "Try reading your astro chart with curiosity—think of it as a story about you, not a rulebook.",
+    "miniJogo": {
+      "pergunta": "If you want to know your moods and personality from the sky, what do you look at?",
+      "opcoes": [
+        {
+          "texto": "Your astro chart showing planets and signs at birth",
+          "correta": true,
+          "explicacao": "An astro chart maps the sky at your birth, helping you explore personality traits."
+        },
+        {
+          "texto": "A weather forecast for today",
+          "correta": false,
+          "explicacao": "Weather forecasts tell about the day’s weather, not your personality or birth sky."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Can my astro chart change over time?",
+        "resposta": "No, it stays the same because it’s based on exactly when and where you were born."
+      },
+      {
+        "pergunta": "Do I need my exact birth time for an accurate astro chart?",
+        "resposta": "Yes, because the exact time helps place planets and houses correctly in your chart."
+      }
+    ],
+    "termosRelacionados": [
+      "mapa-astral",
+      "signo-solar",
+      "casas-astrologicas"
+    ],
+    "id": "what-does-astro-chart-mean-in-astrology",
+    "slug": "what-does-astro-chart-mean-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Mapa astral",
+        "perguntaGoogle": "O que significa mapa astral na astrologia?",
+        "resumoUmaLinha": "Um mapa astral é um desenho do céu no momento do seu nascimento, mostrando a posição dos planetas.",
+        "chamadaCuriosa": "Descubra seu mapa das estrelas pessoal na hora que você nasceu!",
+        "oQueSignifica": "O mapa astral é como uma foto do céu no exato momento do seu nascimento. Imagine olhar para cima e desenhar onde estavam o sol, a lua e os planetas naquele instante. É seu próprio mapa das estrelas que ajuda a entender mais sobre você, como se fosse um álbum de fotos dos seus primeiros momentos.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o mapa astral está ligado a quem você é e como você pode se sentir ou agir. Ele mostra os signos onde os planetas estavam quando você nasceu. Esse “mapa” ajuda a explicar sua personalidade, seus pontos fortes e desafios de um jeito carinhoso. Pense nele como sua impressão digital cósmica única.",
+        "exemploFicticio": "Maria olhou para o seu mapa astral e viu que o sol dela estava em Leão, um signo alegre e caloroso. Ela sorriu, pensando em como gosta de fazer amigos e ser criativa na escola.",
+        "faq": [
+          {
+            "pergunta": "Meu mapa astral pode mudar com o tempo?",
+            "resposta": "Não, ele fica sempre igual porque é baseado no momento e lugar exatos do seu nascimento."
+          },
+          {
+            "pergunta": "Eu preciso saber a hora de nascimento certinha para ter um mapa astral preciso?",
+            "resposta": "Sim, porque a hora certinha ajuda a colocar os planetas e as casas de forma correta no seu mapa."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Carta astral",
+        "perguntaGoogle": "¿Qué significa carta astral en astrología?",
+        "resumoUmaLinha": "Una carta astral es un mapa del cielo en el momento de tu nacimiento que muestra la posición de los planetas.",
+        "chamadaCuriosa": "¡Descubre tu mapa personal de las estrellas en el instante que naciste!",
+        "oQueSignifica": "Una carta astral es como una foto del cielo justo en la hora de tu nacimiento. Imagina mirar arriba y marcar dónde están el sol, la luna y los planetas en ese momento. Es tu propio mapa de las estrellas que te ayuda a conocerte mejor, como un álbum de fotos de tus primeros minutos.",
+        "oQueSignificaNaAstrologia": "En astrología, una carta astral está relacionada con quién eres y cómo puedes sentirte o actuar. Muestra en qué signos estaban los planetas cuando naciste. Este “mapa” puede explicar tu personalidad, fortalezas y desafíos de manera sencilla. Piensa en ello como tu huella cósmica única.",
+        "exemploFicticio": "María vio su carta astral y notó que su sol estaba en Leo, un signo divertido y cálido. Sonrió, pensando en cuánto disfruta hacer amigos y ser creativa en la escuela.",
+        "faq": [
+          {
+            "pergunta": "¿Puede mi carta astral cambiar con el tiempo?",
+            "resposta": "No, permanece igual porque se basa en el momento y lugar exactos de tu nacimiento."
+          },
+          {
+            "pergunta": "¿Necesito la hora exacta de nacimiento para una carta astral precisa?",
+            "resposta": "Sí, porque la hora exacta ayuda a colocar los planetas y las casas correctamente en tu carta."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Leo zodiac symbol",
+    "tituloSEO": "What Does Leo Zodiac Symbol Mean in Astrology? Easy Guide",
+    "perguntaGoogle": "What does leo zodiac symbol mean in astrology?",
+    "resumoUmaLinha": "Leo’s symbol is the lion, standing for courage and strong hearted nature.",
+    "explicacaoEducativa": "Learn that Leo’s symbol, the lion, is linked to bravery, warmth, and being a leader.",
+    "chamadaCuriosa": "Why is Leo symbolized by a lion? Discover its meaning!",
+    "oQueSignifica": "The Leo symbol is a lion’s head and mane. Think of it like a lion standing proudly in the sun. This shows someone who’s brave and shines bright. Like a friend who loves to help others and be kind but also strong when needed. It’s about feeling confident and warm inside.",
+    "oQueSignificaNaAstrologia": "In astrology, Leo’s symbol connects to the fire element and the Sun. It is linked to courage, creativity, and being warm-hearted. People who relate to Leo may enjoy being in the spotlight and leading others. Leo energy is about shining your light while caring for those around you.",
+    "exemploFicticio": "Maria loves organizing classroom plays. She stands confidently in front of classmates and helps others shine. Like a Leo lion, she shows warm kindness and courage every day.",
+    "dicaRapida": "Try showing your confidence gently, like a Leo lion protecting friends without shouting.",
+    "miniJogo": {
+      "pergunta": "If someone is like a Leo symbol, what might they do in a school group?",
+      "opcoes": [
+        {
+          "texto": "Lead the group kindly and help others feel confident",
+          "correta": true,
+          "explicacao": "Leos often lead with warmth and boost confidence in friends."
+        },
+        {
+          "texto": "Stay quiet and never share ideas",
+          "correta": false,
+          "explicacao": "Leo energy likes being active and sharing, not hiding away."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is the Leo symbol always a lion in astrology?",
+        "resposta": "Yes, the lion represents Leo’s brave and proud nature in astrology."
+      },
+      {
+        "pergunta": "Does Leo symbol mean someone is loud or bossy?",
+        "resposta": "Not always; Leo’s warmth is about caring courage and friendly leadership."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "elementos-astrologicos",
+      "signo-ascendente"
+    ],
+    "id": "what-does-leo-zodiac-symbol-mean-in-astrology",
+    "slug": "what-does-leo-zodiac-symbol-mean-in-astrology",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Símbolo do signo de Leão",
+        "perguntaGoogle": "O que significa o símbolo de Leão na astrologia?",
+        "resumoUmaLinha": "O símbolo de Leão é o leão, que representa coragem e um coração forte.",
+        "chamadaCuriosa": "Por que Leão é representado por um leão? Descubra o significado!",
+        "oQueSignifica": "O símbolo de Leão é a cabeça e a juba do leão. Imagine um leão orgulhoso ao sol. Isso mostra alguém corajoso e que brilha. Como um amigo que adora ajudar os outros e ser gentil, mas também forte quando precisa. É sobre se sentir confiante e caloroso por dentro.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o símbolo de Leão está ligado ao elemento fogo e ao Sol. Representa coragem, criatividade e um coração caloroso. Quem se identifica com Leão gosta de estar em destaque e de liderar. A energia de Leão é sobre brilhar sua luz enquanto cuida de quem está ao redor.",
+        "exemploFicticio": "Maria adora organizar peças de teatro na sala de aula. Ela fica confiante na frente dos colegas e ajuda todo mundo a brilhar. Como um leão de Leão, ela mostra carinho e coragem todo dia.",
+        "faq": [
+          {
+            "pergunta": "O símbolo de Leão é sempre um leão na astrologia?",
+            "resposta": "Sim, o leão representa a coragem e o orgulho de Leão na astrologia."
+          },
+          {
+            "pergunta": "O símbolo de Leão significa que a pessoa é barulhenta ou mandona?",
+            "resposta": "Nem sempre; o calor de Leão é sobre coragem carinhosa e liderança amigável."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Símbolo zodiacal de Leo",
+        "perguntaGoogle": "¿Qué significa el símbolo de Leo en astrología?",
+        "resumoUmaLinha": "El símbolo de Leo es el león, que representa el valor y el corazón fuerte.",
+        "chamadaCuriosa": "¿Por qué el símbolo de Leo es un león? ¡Descubre su significado!",
+        "oQueSignifica": "El símbolo de Leo es la cabeza y la melena de un león. Imagina un león parado con orgullo bajo el sol. Esto representa a alguien valiente y que brilla con fuerza. Como un amigo que ama ayudar y ser amable, pero también fuerte cuando hace falta. Es sentirse seguro y con calidez por dentro.",
+        "oQueSignificaNaAstrologia": "En astrología, el símbolo de Leo está ligado al elemento fuego y al Sol. Se asocia con valor, creatividad y un corazón cálido. Las personas que se identifican con Leo disfrutan estar en el centro de atención y liderar a otros. La energía de Leo es brillar con tu luz mientras cuidas a quienes te rodean.",
+        "exemploFicticio": "María ama organizar obras en la escuela. Ella se para confiada frente a sus compañeros y ayuda a que otros brillen. Como un león de Leo, muestra amabilidad cálida y valor todos los días.",
+        "faq": [
+          {
+            "pergunta": "¿El símbolo de Leo siempre es un león en astrología?",
+            "resposta": "Sí, el león representa la naturaleza valiente y orgullosa de Leo en astrología."
+          },
+          {
+            "pergunta": "¿El símbolo de Leo significa que alguien es rudo o mandón?",
+            "resposta": "No siempre; la calidez de Leo es sobre valor con cuidado y liderazgo amigable."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "12th Zodiac Sign",
+    "tituloSEO": "What is the 12th zodiac sign? Simple Astrology Guide",
+    "perguntaGoogle": "What is the 12th zodiac sign?",
+    "resumoUmaLinha": "The 12th zodiac sign is Pisces, linked to dreams and kindness in astrology.",
+    "explicacaoEducativa": "Learn that the 12th zodiac sign is Pisces. This sign is connected to imagination and feeling deeply.",
+    "chamadaCuriosa": "Did you know the 12th zodiac sign symbolizes dreams and caring hearts?",
+    "oQueSignifica": "The 12th zodiac sign means the last in the zodiac circle. Like the last page in a book, it wraps up a story. Pisces, the 12th sign, is like a gentle wave in the ocean—soft and caring. It reminds us about kindness and imagination in everyday life.",
+    "oQueSignificaNaAstrologia": "In astrology, Pisces is the 12th sign. It’s linked to creativity, dreams, and understanding others’ feelings. People with Pisces energy often enjoy helping and feeling connected. This sign invites us to trust our intuition and see the world in a gentle, peaceful way.",
+    "exemploFicticio": "Maria loves drawing and caring for her small dog. As a Pisces, she feels happy when helping friends. One day, Maria noticed her friend was sad and offered a warm hug, showing her kind heart.",
+    "dicaRapida": "Try spending quiet time imagining happy scenes to connect with gentle Pisces energy.",
+    "miniJogo": {
+      "pergunta": "If your friend feels sad, what could you do like a Pisces?",
+      "opcoes": [
+        {
+          "texto": "Give them a kind hug and listen carefully.",
+          "correta": true,
+          "explicacao": "Pisces energy is about kindness and understanding feelings."
+        },
+        {
+          "texto": "Ignore and continue playing your game.",
+          "correta": false,
+          "explicacao": "Ignoring doesn’t match Pisces’ caring and dreamy nature."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "When is the 12th zodiac sign's birthday range?",
+        "resposta": "Pisces season is from about February 19 to March 20."
+      },
+      {
+        "pergunta": "What element is Pisces linked to?",
+        "resposta": "Pisces is linked to the Water element, which means feelings and dreams."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "signo-lunar",
+      "elementos-astrologicos"
+    ],
+    "id": "what-is-the-12th-zodiac-sign",
+    "slug": "what-is-the-12th-zodiac-sign",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "12º Signo do Zodíaco",
+        "perguntaGoogle": "Qual é o 12º signo do zodíaco?",
+        "resumoUmaLinha": "O 12º signo do zodíaco é Peixes, ligado a sonhos e bondade na astrologia.",
+        "chamadaCuriosa": "Você sabia que o 12º signo do zodíaco simboliza sonhos e corações carinhosos?",
+        "oQueSignifica": "O 12º signo do zodíaco é o último no círculo do zodíaco. Como a última página de um livro, ele encerra uma história. Peixes, o 12º signo, é como uma onda suave no mar – gentil e cuidadoso. Ele nos lembra da bondade e da imaginação no dia a dia.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Peixes é o 12º signo. Ele está ligado à criatividade, aos sonhos e a entender os sentimentos dos outros. Pessoas com energia de Peixes gostam de ajudar e se sentir conectadas. Esse signo nos convida a confiar na intuição e ver o mundo de forma calma e pacífica.",
+        "exemploFicticio": "Maria adora desenhar e cuidar do seu cachorrinho. Como uma pisciana, ela se sente feliz ajudando os amigos. Um dia, Maria percebeu que a amiga estava triste e ofereceu um abraço quente, mostrando seu coração bondoso.",
+        "faq": [
+          {
+            "pergunta": "Quando é o período do 12º signo do zodíaco?",
+            "resposta": "A temporada de Peixes vai mais ou menos de 19 de fevereiro a 20 de março."
+          },
+          {
+            "pergunta": "Com qual elemento Peixes está ligado?",
+            "resposta": "Peixes está ligado ao elemento Água, que representa sentimentos e sonhos."
+          }
+        ]
+      },
+      "es": {
+        "termo": "12º Signo del Zodiaco",
+        "perguntaGoogle": "¿Cuál es el 12º signo del zodiaco?",
+        "resumoUmaLinha": "El 12º signo del zodiaco es Piscis, asociado con los sueños y la bondad en astrología.",
+        "chamadaCuriosa": "¿Sabías que el 12º signo del zodiaco simboliza los sueños y los corazones atentos?",
+        "oQueSignifica": "El 12º signo del zodiaco es el último en el círculo zodiacal. Como la última página de un libro, cierra una historia. Piscis, el 12º signo, es como una ola suave en el mar: tierno y cuidadoso. Nos recuerda la bondad y la imaginación en la vida diaria.",
+        "oQueSignificaNaAstrologia": "En astrología, Piscis es el signo 12. Está relacionado con la creatividad, los sueños y entender los sentimientos de los demás. A las personas con energía de Piscis les gusta ayudar y sentirse conectadas. Este signo nos invita a confiar en nuestra intuición y ver el mundo con calma y ternura.",
+        "exemploFicticio": "A María le encanta dibujar y cuidar a su perrito. Como Piscis, se siente feliz ayudando a sus amigos. Un día, María vio que su amiga estaba triste y le dio un abrazo cálido, mostrando su gran corazón.",
+        "faq": [
+          {
+            "pergunta": "¿Cuándo es el rango de cumpleaños del 12º signo zodiacal?",
+            "resposta": "La temporada de Piscis es aproximadamente del 19 de febrero al 20 de marzo."
+          },
+          {
+            "pergunta": "¿A qué elemento está ligado Piscis?",
+            "resposta": "Piscis está ligado al elemento Agua, que representa sentimientos y sueños."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Jupiter in Pisces",
+    "tituloSEO": "What does Jupiter in Pisces mean? Simple Astrology Guide",
+    "perguntaGoogle": "What does Jupiter in Pisces mean?",
+    "resumoUmaLinha": "Jupiter in Pisces is linked to kindness, dreams, and deep feelings in astrology.",
+    "explicacaoEducativa": "Learn how Jupiter in Pisces can inspire imagination and a gentle, caring nature in astrology.",
+    "chamadaCuriosa": "Discover the magic of Jupiter shining in dreamy Pisces!",
+    "oQueSignifica": "Jupiter in Pisces feels like having a big heart that dreams a lot. It’s like seeing the world with soft colors and hoping for good things for everyone. People with this can imagine new ideas and feel close to others’ feelings, like a friend who really listens and cares.",
+    "oQueSignificaNaAstrologia": "In astrology, Jupiter in Pisces is linked to kindness, creativity, and spiritual growth. It encourages people to trust their intuition and be open to emotional connections. This placement often helps with understanding deep feelings and wanting to help others quietly. It’s like a gentle guide for exploring dreams and hope.",
+    "exemploFicticio": "Maria loves painting and often imagines new stories while working. When her friend feels sad, Maria listens carefully and offers warm kindness, making her friend feel better without many words.",
+    "dicaRapida": "Try to spend time helping others or enjoying creative projects to feel Jupiter in Pisces energy.",
+    "miniJogo": {
+      "pergunta": "If your friend feels sad, what might Jupiter in Pisces suggest you do?",
+      "opcoes": [
+        {
+          "texto": "Listen carefully and offer kind words.",
+          "correta": true,
+          "explicacao": "Jupiter in Pisces values helping with gentle care and understanding feelings."
+        },
+        {
+          "texto": "Ignore the feelings and change the subject.",
+          "correta": false,
+          "explicacao": "This doesn’t match Jupiter in Pisces, which encourages kindness and empathy."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Does Jupiter in Pisces mean I am always dreaming?",
+        "resposta": "It means you may enjoy imagination and feelings, but everyone balances dreams with real life."
+      },
+      {
+        "pergunta": "Can Jupiter in Pisces help me be more kind?",
+        "resposta": "In astrology, this is linked to kindness and understanding, inspiring gentle care for others."
+      }
+    ],
+    "termosRelacionados": [
+      "what-does-jupiter-mean-in-astrology",
+      "elementos-astrologicos"
+    ],
+    "id": "what-does-jupiter-in-pisces-mean",
+    "slug": "what-does-jupiter-in-pisces-mean",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Júpiter em Peixes",
+        "perguntaGoogle": "O que significa Júpiter em Peixes?",
+        "resumoUmaLinha": "Júpiter em Peixes está ligado à bondade, sonhos e sentimentos profundos na astrologia.",
+        "chamadaCuriosa": "Descubra a magia do Júpiter brilhando no sonhador Peixes!",
+        "oQueSignifica": "Júpiter em Peixes é como ter um coração grande que sonha muito. É como ver o mundo com cores suaves e esperar coisas boas para todo mundo. Quem tem isso imagina novas ideias e sente perto dos sentimentos dos outros, como um amigo que ouve de verdade e se importa.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Júpiter em Peixes está ligado à bondade, criatividade e crescimento espiritual. Ele incentiva as pessoas a confiarem na intuição e se abrirem para conexões emocionais. Essa posição ajuda a entender sentimentos profundos e querer ajudar os outros de forma discreta. É como um guia gentil para explorar sonhos e esperança.",
+        "exemploFicticio": "Maria adora pintar e costuma imaginar novas histórias enquanto trabalha. Quando um amigo dela fica triste, Maria escuta com atenção e oferece uma gentileza calorosa, fazendo o amigo se sentir melhor, sem precisar de muitas palavras.",
+        "faq": [
+          {
+            "pergunta": "Júpiter em Peixes significa que eu estou sempre sonhando?",
+            "resposta": "Significa que você pode gostar de imaginação e sentimentos, mas todo mundo equilibra os sonhos com a vida real."
+          },
+          {
+            "pergunta": "Júpiter em Peixes pode me ajudar a ser mais gentil?",
+            "resposta": "Na astrologia, isso está ligado à bondade e entendimento, inspirando um cuidado delicado com os outros."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Júpiter en Piscis",
+        "perguntaGoogle": "¿Qué significa Júpiter en Piscis?",
+        "resumoUmaLinha": "Júpiter en Piscis está relacionado con la bondad, los sueños y los sentimientos profundos en astrología.",
+        "chamadaCuriosa": "¡Descubre la magia de Júpiter brillando en los soñadores Piscis!",
+        "oQueSignifica": "Júpiter en Piscis es como tener un corazón grande que sueña mucho. Es como ver el mundo con colores suaves y esperar cosas buenas para todos. Quienes tienen esto pueden imaginar nuevas ideas y sentir cerca los sentimientos de otros, como un amigo que escucha y cuida mucho.",
+        "oQueSignificaNaAstrologia": "En astrología, Júpiter en Piscis está vinculado a la bondad, la creatividad y el crecimiento espiritual. Anima a las personas a confiar en su intuición y a abrirse a conexiones emocionales. Esta posición ayuda a entender sentimientos profundos y a querer ayudar en silencio. Es como una guía suave para explorar sueños y esperanza.",
+        "exemploFicticio": "A María le encanta pintar y a menudo imagina nuevas historias mientras trabaja. Cuando su amiga está triste, María escucha con atención y le da una calidez amable, haciendo que su amiga se sienta mejor sin muchas palabras.",
+        "faq": [
+          {
+            "pergunta": "¿Significa que si tengo Júpiter en Piscis siempre estoy soñando?",
+            "resposta": "Significa que puedes disfrutar de la imaginación y los sentimientos, pero todos equilibran los sueños con la vida real."
+          },
+          {
+            "pergunta": "¿Júpiter en Piscis puede ayudarme a ser más bondadoso?",
+            "resposta": "En astrología, esto está ligado a la bondad y comprensión, inspirando un cuidado suave hacia los demás."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Eighth House",
+    "tituloSEO": "What is the Eighth House in Astrology? Simple Guide",
+    "perguntaGoogle": "What is the eighth house in astrology?",
+    "resumoUmaLinha": "The eighth house in astrology links to change, secrets, and deep feelings.",
+    "explicacaoEducativa": "Learn the eighth house is about deep changes and private parts of life like shared resources and emotions.",
+    "chamadaCuriosa": "Discover the house of secrets and big changes!",
+    "oQueSignifica": "The eighth house is like a hidden door in life. It’s where we go when things change a lot, like new beginnings or endings. Imagine a treasure chest with secrets inside—that’s the eighth house. It helps us understand shared things, like money with others, and how we handle emotions deep inside us. It’s not about scary stuff, but about the important hidden parts of life.",
+    "oQueSignificaNaAstrologia": "In astrology, the eighth house is linked to transformation and deep emotional bonds. It talks about shared money, such as with partners or family, and how we deal with changes. This house also connects to mystery and what lies beneath the surface of our feelings. Planets here can show how a person faces challenges that lead to personal growth. It’s like a quiet room where we learn about trust and letting go.",
+    "exemploFicticio": "Maria noticed that when she talks with her friend Carlos about their shared plans, she feels more open and honest. Their talks often lead to new ideas or changes, helping Maria understand herself better. This shows how the eighth house plays in everyday life with friendships and secrets.",
+    "dicaRapida": "Think about moments when you share or change plans—that’s your eighth house in action.",
+    "miniJogo": {
+      "pergunta": "If a friend shares a secret with you, which 'house' in astrology might this relate to?",
+      "opcoes": [
+        {
+          "texto": "Eighth house, because it relates to secrets and trust.",
+          "correta": true,
+          "explicacao": "The eighth house links to private matters and deep trust between people."
+        },
+        {
+          "texto": "First house, because it is about how you look to others.",
+          "correta": false,
+          "explicacao": "The first house is about your personality and how you appear, not secrets."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Does the eighth house mean something scary or bad?",
+        "resposta": "No, the eighth house is about deep change and trust, not fear."
+      },
+      {
+        "pergunta": "Is the eighth house only about money?",
+        "resposta": "It includes shared money but also feelings, secrets, and life changes."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "signo-ascendente",
+      "mapa-astral"
+    ],
+    "id": "what-is-the-eighth-house-in-astrology",
+    "slug": "what-is-the-eighth-house-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Casa Oitava",
+        "perguntaGoogle": "O que é a casa oitava na astrologia?",
+        "resumoUmaLinha": "A casa oitava na astrologia está ligada a mudanças, segredos e sentimentos profundos.",
+        "chamadaCuriosa": "Descubra a casa dos segredos e grandes transformações!",
+        "oQueSignifica": "A casa oitava é como uma porta escondida na vida. É por onde passamos quando as coisas mudam muito, como novos começos ou finais. Imagine um baú do tesouro cheio de segredos—essa é a casa oitava. Ela ajuda a entender o que é compartilhado, como dinheiro com outras pessoas, e como lidamos com emoções profundas. Não é sobre coisas assustadoras, mas sobre as partes importantes e ocultas da vida.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a casa oitava está ligada à transformação e aos laços emocionais profundos. Fala sobre dinheiro compartilhado, como com parceiros ou família, e como enfrentamos mudanças. Essa casa também conecta ao mistério e ao que está por trás dos nossos sentimentos. Os planetas aqui mostram como a pessoa enfrenta desafios que levam ao crescimento pessoal. É como um lugar tranquilo onde aprendemos sobre confiança e desapegar.",
+        "exemploFicticio": "Maria percebeu que, quando conversa com o amigo Carlos sobre os planos que têm juntos, ela se sente mais aberta e sincera. Essas conversas muitas vezes geram novas ideias ou mudanças, ajudando Maria a se entender melhor. Isso mostra como a casa oitava age na vida cotidiana, com amizades e segredos.",
+        "faq": [
+          {
+            "pergunta": "A casa oitava significa algo assustador ou ruim?",
+            "resposta": "Não, a casa oitava é sobre mudanças profundas e confiança, não sobre medo."
+          },
+          {
+            "pergunta": "A casa oitava é só sobre dinheiro?",
+            "resposta": "Inclui dinheiro compartilhado, mas também sentimentos, segredos e mudanças na vida."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Casa Ocho",
+        "perguntaGoogle": "¿Qué es la casa ocho en astrología?",
+        "resumoUmaLinha": "La casa ocho en astrología está relacionada con cambios, secretos y sentimientos profundos.",
+        "chamadaCuriosa": "¡Descubre la casa de los secretos y los grandes cambios!",
+        "oQueSignifica": "La casa ocho es como una puerta oculta en la vida. Es donde vamos cuando las cosas cambian mucho, como nuevos comienzos o finales. Imagina un cofre con secretos adentro—esa es la casa ocho. Nos ayuda a entender lo que compartimos, como el dinero con otros, y cómo manejamos los sentimientos profundos. No es para asustarse, sino para conocer las partes importantes y ocultas de la vida.",
+        "oQueSignificaNaAstrologia": "En la astrología, la casa ocho está ligada a la transformación y los vínculos emocionales profundos. Habla del dinero compartido, como con la pareja o familia, y cómo enfrentamos los cambios. Esta casa también conecta con el misterio y lo que hay debajo de nuestros sentimientos. Los planetas aquí muestran cómo una persona enfrenta retos que llevan al crecimiento personal. Es como un lugar tranquilo donde aprendemos sobre la confianza y el dejar ir.",
+        "exemploFicticio": "María notó que cuando habla con su amigo Carlos sobre sus planes compartidos, se siente más abierta y sincera. Sus conversaciones suelen traer nuevas ideas o cambios, ayudando a María a entenderse mejor. Esto muestra cómo la casa ocho actúa en la vida diaria con las amistades y los secretos.",
+        "faq": [
+          {
+            "pergunta": "¿La casa ocho significa algo peligroso o malo?",
+            "resposta": "No, la casa ocho trata de cambios profundos y confianza, no de miedo."
+          },
+          {
+            "pergunta": "¿La casa ocho es solo sobre dinero?",
+            "resposta": "Incluye dinero compartido, pero también sentimientos, secretos y cambios en la vida."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Yod",
+    "tituloSEO": "What is a Yod in Astrology? Simple Chart Meaning",
+    "perguntaGoogle": "What is a yod in astrology?",
+    "resumoUmaLinha": "A yod is a special triangle pattern in your astrological chart showing unique energy.",
+    "explicacaoEducativa": "Learn that a yod is a rare three-planet pattern shaped like a pointer finger in astrology charts.",
+    "chamadaCuriosa": "Discover the 'finger of God' shape in your star chart!",
+    "oQueSignifica": "A yod looks like a triangle with two planets close together and one far apart, like a finger pointing. Imagine two friends whispering secrets and a third listening carefully, trying to understand. It feels like a special message or a task waiting for attention.",
+    "oQueSignificaNaAstrologia": "In astrology, a yod is linked to unique challenges or important choices. It connects three planets that form an unusual angle. People with a yod in their chart may feel pulled toward a special direction or purpose. It can show a path to grow and learn in ways that are different from others.",
+    "exemploFicticio": "Maria notices her yod when planning a big school project. She feels unsure but also excited about trying a new idea. Her friends help, but Maria feels this task is hers alone to solve.",
+    "dicaRapida": "If you find a yod in your chart, try to stay open to new ways of thinking. It’s okay to take your time.",
+    "miniJogo": {
+      "pergunta": "If two friends talk closely and a third listens carefully, what is this like in a yod?",
+      "opcoes": [
+        {
+          "texto": "Two planets close and one far, like a special triangle",
+          "correta": true,
+          "explicacao": "Exactly! A yod has two planets close together and one planet at a different angle."
+        },
+        {
+          "texto": "Three planets equally spaced in a circle",
+          "correta": false,
+          "explicacao": "No, that’s a different pattern called a trine, not a yod."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is a yod common in astrology charts?",
+        "resposta": "No, yods are rare and show special energy patterns in a chart."
+      },
+      {
+        "pergunta": "Does having a yod mean something bad will happen?",
+        "resposta": "No, yods show challenges but also chances to grow and learn."
+      }
+    ],
+    "termosRelacionados": [
+      "mapa-astral",
+      "what-are-aspects-in-astrology",
+      "signo-ascendente"
+    ],
+    "id": "what-is-a-yod-in-astrology",
+    "slug": "what-is-a-yod-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Yod",
+        "perguntaGoogle": "O que é um yod na astrologia?",
+        "resumoUmaLinha": "Um yod é um padrão especial em forma de triângulo no seu mapa astral que mostra uma energia única.",
+        "chamadaCuriosa": "Descubra a forma 'dedo de Deus' no seu mapa astral!",
+        "oQueSignifica": "Um yod parece um triângulo com dois planetas bem próximos e um terceiro afastado, como um dedo apontando. Imagine dois amigos sussurrando segredos e um terceiro escutando atento, tentando entender. É como uma mensagem especial ou uma missão esperando atenção.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o yod está ligado a desafios únicos ou escolhas importantes. Ele conecta três planetas que formam um ângulo diferente. Quem tem um yod no mapa astral pode sentir um chamado para um caminho ou propósito especial. É uma forma de crescer e aprender de um jeito diferente.",
+        "exemploFicticio": "A Maria percebe seu yod enquanto planeja um grande projeto na escola. Ela se sente insegura, mas também animada para tentar uma ideia nova. Os amigos ajudam, mas a Maria sente que essa tarefa é dela para resolver sozinha.",
+        "faq": [
+          {
+            "pergunta": "Yods são comuns nos mapas astrais?",
+            "resposta": "Não, yods são raros e mostram padrões de energia especiais no mapa astral."
+          },
+          {
+            "pergunta": "Ter um yod significa que vai acontecer algo ruim?",
+            "resposta": "Não, yods mostram desafios, mas também oportunidades para crescer e aprender."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Yod",
+        "perguntaGoogle": "¿Qué es un yod en astrología?",
+        "resumoUmaLinha": "Un yod es un patrón triangular especial en tu carta astral que muestra una energía única.",
+        "chamadaCuriosa": "¡Descubre la figura del 'dedo de Dios' en tu carta astral!",
+        "oQueSignifica": "Un yod parece un triángulo con dos planetas cerca y uno más lejos, como un dedo que apunta. Imagina dos amigos susurrando secretos y un tercero que escucha atento, tratando de entender. Se siente como un mensaje especial o una tarea que espera atención.",
+        "oQueSignificaNaAstrologia": "En astrología, un yod está ligado a retos únicos o decisiones importantes. Conecta tres planetas que forman un ángulo poco común. Las personas con un yod en su carta astral pueden sentir que las guía un propósito especial. Puede mostrar un camino para crecer y aprender de manera diferente.",
+        "exemploFicticio": "María nota su yod mientras planifica un gran proyecto escolar. Se siente insegura pero también emocionada por probar una idea nueva. Sus amigos la apoyan, pero María siente que esta tarea es solo suya para resolver.",
+        "faq": [
+          {
+            "pergunta": "¿Un yod es común en las cartas astrales?",
+            "resposta": "No, los yods son raros y muestran patrones de energía especiales en una carta."
+          },
+          {
+            "pergunta": "¿Tener un yod significa que pasará algo malo?",
+            "resposta": "No, los yods muestran desafíos pero también oportunidades para crecer y aprender."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Each House Represent",
+    "tituloSEO": "What Do Each House Represent in Astrology? Simple Guide",
+    "perguntaGoogle": "What do each house represent in astrology?",
+    "resumoUmaLinha": "Learn what each of the 12 astrological houses means in your birth chart.",
+    "explicacaoEducativa": "Learn how each of the 12 houses in astrology links to different life areas like home, work, love, and self.",
+    "chamadaCuriosa": "Do you know what each astrology house really means?",
+    "oQueSignifica": "Imagine your life split into 12 rooms in a big house. Each room holds a special story—one for family, one for friends, one for work, and so on. The astrological houses work the same way. They show different parts of your life, helping you see where your focus or energy might be.",
+    "oQueSignificaNaAstrologia": "In astrology, the 12 houses map out different life areas, such as identity, money, communication, and relationships. Each house gives clues about where events or feelings may happen. The first house links to self-image, while the seventh house relates to partnerships. Together, the houses help create a fuller picture in your birth chart.",
+    "exemploFicticio": "Maria looks at her chart and sees her 4th house shining bright, which in astrology links to home and family. She decides to spend more time with her parents this weekend. Carlos notices his 10th house is active, reminding him to focus on his job projects.",
+    "dicaRapida": "Check which house your Sun is in to see where your main focus often lies.",
+    "miniJogo": {
+      "pergunta": "If your 7th house is strong, what area of life might be highlighted?",
+      "opcoes": [
+        {
+          "texto": "Relationships and partnerships",
+          "correta": true,
+          "explicacao": "The 7th house relates to close one-on-one connections like marriage or business partners."
+        },
+        {
+          "texto": "Personal health and daily habits",
+          "correta": false,
+          "explicacao": "Personal health is linked more with the 6th house, not the 7th."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "How many houses are there in astrology?",
+        "resposta": "There are 12 houses, each covering a different part of life."
+      },
+      {
+        "pergunta": "Do all houses matter equally in a chart?",
+        "resposta": "Some houses stand out more depending on where planets and signs appear."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "signo-ascendente",
+      "mapa-astral"
+    ],
+    "id": "what-do-each-house-represent-in-astrology",
+    "slug": "what-do-each-house-represent-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "O Que Cada Casa Representa",
+        "perguntaGoogle": "O que cada casa representa na astrologia?",
+        "resumoUmaLinha": "Descubra o significado das 12 casas do seu mapa astral.",
+        "chamadaCuriosa": "Você sabe o que cada casa da astrologia realmente significa?",
+        "oQueSignifica": "Imagine sua vida dividida em 12 cômodos de uma grande casa. Cada cômodo tem uma história especial—um para a família, outro para amigos, outro para o trabalho, e por aí vai. As casas astrológicas funcionam assim. Elas mostram partes diferentes da sua vida, ajudando você a entender onde está sua energia ou foco.",
+        "oQueSignificaNaAstrologia": "Na astrologia, as 12 casas mostram áreas da vida, como identidade, dinheiro, comunicação e relacionamentos. Cada casa dá pistas de onde coisas ou sentimentos podem acontecer. A primeira casa está ligada à sua imagem pessoal, enquanto a sétima casa fala sobre parcerias. Juntas, as casas ajudam a formar um quadro completo no seu mapa astral.",
+        "exemploFicticio": "Maria olha seu mapa astral e vê a 4ª casa brilhando, que na astrologia está ligada à casa e à família. Ela decide passar mais tempo com os pais neste fim de semana. Carlos percebe que sua 10ª casa está ativa, lembrando ele de focar nos projetos do trabalho.",
+        "faq": [
+          {
+            "pergunta": "Quantas casas existem na astrologia?",
+            "resposta": "São 12 casas, cada uma cobrindo uma parte diferente da vida."
+          },
+          {
+            "pergunta": "Todas as casas têm a mesma importância no mapa?",
+            "resposta": "Algumas casas se destacam mais, dependendo de onde os planetas e signos aparecem."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Qué representa cada casa",
+        "perguntaGoogle": "¿Qué representa cada casa en la astrología?",
+        "resumoUmaLinha": "Descubre qué significa cada una de las 12 casas astrológicas en tu carta astral.",
+        "chamadaCuriosa": "¿Sabes qué significa realmente cada casa en la astrología?",
+        "oQueSignifica": "Imagina tu vida dividida en 12 cuartos dentro de una gran casa. Cada cuarto tiene una historia especial: uno para la familia, otro para los amigos, otro para el trabajo, y así sucesivamente. Las casas astrológicas funcionan igual. Muestran diferentes partes de tu vida y te ayudan a ver dónde está tu atención o energía.",
+        "oQueSignificaNaAstrologia": "En astrología, las 12 casas dividen distintas áreas de la vida como la identidad, el dinero, la comunicación y las relaciones. Cada casa da pistas sobre dónde pueden ocurrir eventos o sentimientos. La primera casa está relacionada con la imagen personal, y la séptima con las parejas. Juntas, las casas ayudan a formar una imagen más completa en tu carta astral.",
+        "exemploFicticio": "María ve en su carta astral que su casa 4 está muy activa, que en astrología se asocia con el hogar y la familia. Decide pasar más tiempo con sus padres este fin de semana. Carlos nota que su casa 10 está activa, lo que le recuerda enfocarse en sus proyectos de trabajo.",
+        "faq": [
+          {
+            "pergunta": "¿Cuántas casas hay en la astrología?",
+            "resposta": "Hay 12 casas, cada una cubriendo una parte diferente de la vida."
+          },
+          {
+            "pergunta": "¿Todas las casas son igual de importantes en una carta?",
+            "resposta": "Algunas casas resaltan más según dónde estén los planetas y signos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Chiron retrograde",
+    "tituloSEO": "What does Chiron retrograde mean in astrology? Simple Guide",
+    "perguntaGoogle": "What does Chiron retrograde mean in astrology?",
+    "resumoUmaLinha": "Chiron retrograde is linked to revisiting healing and inner growth in astrology.",
+    "explicacaoEducativa": "Learn that Chiron retrograde means looking inward to heal old emotional wounds and find strength.",
+    "chamadaCuriosa": "Why does Chiron sometimes seem to move backward in the sky?",
+    "oQueSignifica": "Imagine you are walking forward but stop to look back at old photos. Chiron retrograde is like that. It’s a time when we pause and reflect on past hurts or lessons. It’s not about moving backward for no reason, but about understanding what we need to heal. Think of it as a quiet moment where you check your heart’s feelings again.",
+    "oQueSignificaNaAstrologia": "In astrology, Chiron is called the wounded healer. When it goes retrograde, it is linked to deep inner reflection. This phase invites you to revisit emotional scars or challenges. It helps explore how you can heal old wounds and grow stronger inside. It’s not about quick fixes but gentle, careful self-care and understanding.",
+    "exemploFicticio": "Maria noticed she felt a bit more thoughtful when Chiron went retrograde. She remembered a friendship that once hurt her. Instead of ignoring it, she wrote about her feelings in a journal. This helped her feel lighter and more ready to move forward.",
+    "dicaRapida": "Use Chiron retrograde to gently reflect on feelings you might have ignored.",
+    "miniJogo": {
+      "pergunta": "If something from your past feels uncomfortable during Chiron retrograde, what could you do?",
+      "opcoes": [
+        {
+          "texto": "Think about it quietly and try to understand your feelings.",
+          "correta": true,
+          "explicacao": "Chiron retrograde encourages reflection to help heal old emotional wounds."
+        },
+        {
+          "texto": "Ignore it and keep busy to avoid thinking about feelings.",
+          "correta": false,
+          "explicacao": "Avoiding feelings misses the chance Chiron retrograde offers for healing."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "How long does Chiron retrograde last?",
+        "resposta": "Chiron retrograde usually lasts about 4-5 months each year."
+      },
+      {
+        "pergunta": "Can Chiron retrograde help with personal growth?",
+        "resposta": "In astrology, it is linked to deeper self-healing and inner awareness."
+      }
+    ],
+    "termosRelacionados": [
+      "what-is-chiron-in-astrology",
+      "mapa-astral",
+      "retorno-de-saturno"
+    ],
+    "id": "what-does-chiron-retrograde-mean-in-astrology",
+    "slug": "what-does-chiron-retrograde-mean-in-astrology",
+    "categoria": "Phases & Movements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Quíron retrógrado",
+        "perguntaGoogle": "O que significa Quíron retrógrado na astrologia?",
+        "resumoUmaLinha": "Quíron retrógrado está ligado a revisitar a cura e o crescimento interior na astrologia.",
+        "chamadaCuriosa": "Por que às vezes Quíron parece andar para trás no céu?",
+        "oQueSignifica": "Imagine que você está andando para frente, mas para para olhar fotos antigas. Quíron retrógrado é isso. É um momento para fazer uma pausa e refletir sobre feridas ou aprendizados do passado. Não é um retrocesso à toa, mas uma chance de entender o que você precisa curar. É como um instante tranquilo para revisar os sentimentos do seu coração.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Quíron é chamado de curador ferido. Quando ele fica retrógrado, está ligado a uma reflexão profunda dentro de você. Essa fase te convida a revisitar cicatrizes emocionais ou desafios. Ela ajuda a explorar como curar velhas feridas e crescer mais forte por dentro. Não é sobre soluções rápidas, mas um cuidado suave e atencioso consigo mesmo.",
+        "exemploFicticio": "Maria percebeu que se sentia mais pensativa quando Quíron ficou retrógrado. Ela lembrou de uma amizade que a machucou. Em vez de ignorar, escreveu sobre seus sentimentos num diário. Isso ajudou ela a se sentir mais leve e pronta para seguir em frente.",
+        "faq": [
+          {
+            "pergunta": "Quanto tempo dura o Quíron retrógrado?",
+            "resposta": "O Quíron retrógrado geralmente dura cerca de 4 a 5 meses por ano."
+          },
+          {
+            "pergunta": "O Quíron retrógrado pode ajudar no crescimento pessoal?",
+            "resposta": "Na astrologia, ele está ligado a uma cura mais profunda e à consciência interna."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Quirón retrógrado",
+        "perguntaGoogle": "¿Qué significa Quirón retrógrado en astrología?",
+        "resumoUmaLinha": "Quirón retrógrado está relacionado con revisar la sanación y el crecimiento interior en astrología.",
+        "chamadaCuriosa": "¿Por qué a veces parece que Quirón se mueve hacia atrás en el cielo?",
+        "oQueSignifica": "Imagina que caminas hacia adelante pero te detienes para mirar fotos antiguas. Quirón retrógrado es así. Es un momento para pausar y reflexionar sobre heridas o lecciones del pasado. No es regresar sin razón, sino entender qué necesitamos sanar. Es como un instante tranquilo para revisar lo que siente tu corazón.",
+        "oQueSignificaNaAstrologia": "En astrología, Quirón es llamado el sanador herido. Cuando está retrógrado, invita a una reflexión profunda. Esta fase te pide volver a mirar cicatrices emocionales o desafíos. Ayuda a explorar cómo sanar viejas heridas y crecer por dentro. No se trata de soluciones rápidas, sino de un cuidado suave y entendimiento.",
+        "exemploFicticio": "María notó que se sentía más pensativa cuando Quirón estuvo retrógrado. Recordó una amistad que la lastimó antes. En vez de ignorarlo, escribió sus sentimientos en un diario. Eso la ayudó a sentirse más liviana y lista para seguir adelante.",
+        "faq": [
+          {
+            "pergunta": "¿Cuánto dura Quirón retrógrado?",
+            "resposta": "Quirón retrógrado suele durar alrededor de 4 a 5 meses cada año."
+          },
+          {
+            "pergunta": "¿Puede Quirón retrógrado ayudar al crecimiento personal?",
+            "resposta": "En astrología, está relacionado con una sanación interna más profunda y mayor conciencia de uno mismo."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Jupiter in Libra",
+    "tituloSEO": "What Does Jupiter in Libra Mean? Friendly Astrology Guide",
+    "perguntaGoogle": "What does Jupiter in Libra mean?",
+    "resumoUmaLinha": "Jupiter in Libra in astrology links growth to balance, fairness, and relationships.",
+    "explicacaoEducativa": "Learn about Jupiter in Libra, linked to luck and growth through harmony and sharing.",
+    "chamadaCuriosa": "How does Jupiter bring luck when it’s in charming Libra?",
+    "oQueSignifica": "Jupiter in Libra means good things grow when people work together and stay fair. Think of a group project where everyone shares ideas nicely. When things are balanced, Jupiter’s positive energy feels stronger. It’s like planting a garden—when you give equal care to every flower, the whole garden looks more beautiful.",
+    "oQueSignificaNaAstrologia": "In astrology, Jupiter in Libra is linked to luck, growth, and learning through fairness. It helps people find good fortune by building peaceful relationships and making fair choices. This placement encourages balance and kindness as ways to grow. Jupiter’s energy in Libra shines brightest when people cooperate rather than compete.",
+    "exemploFicticio": "Maria noticed her team worked better when everyone listened and shared ideas. With Jupiter in Libra, she felt luck come from fairness. That’s why their project was a success and everyone felt happy.",
+    "dicaRapida": "Try to see both sides before deciding—balance brings better results.",
+    "miniJogo": {
+      "pergunta": "If your friend feels upset, what’s the best way to help with Jupiter in Libra energy?",
+      "opcoes": [
+        {
+          "texto": "Listen calmly and try to understand their side.",
+          "correta": true,
+          "explicacao": "Being fair and gentle fits Jupiter in Libra’s way of growing through peace."
+        },
+        {
+          "texto": "Ignore them and talk about your own problems instead.",
+          "correta": false,
+          "explicacao": "Jupiter in Libra wants balance, not ignoring or selfishness."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Does Jupiter in Libra make people lucky all the time?",
+        "resposta": "Not always, it means luck comes from being fair and kind, not just chance."
+      },
+      {
+        "pergunta": "Can Jupiter in Libra help with friendships?",
+        "resposta": "Yes, it’s linked to growing strong and happy friendships through balance."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-lunar",
+      "venus-no-mapa",
+      "what-does-jupiter-mean-in-astrology"
+    ],
+    "id": "what-does-jupiter-in-libra-mean",
+    "slug": "what-does-jupiter-in-libra-mean",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Júpiter em Libra",
+        "perguntaGoogle": "O que significa Júpiter em Libra?",
+        "resumoUmaLinha": "Júpiter em Libra na astrologia conecta crescimento com equilíbrio, justiça e relacionamentos.",
+        "chamadaCuriosa": "Como Júpiter traz sorte quando está no charmoso signo de Libra?",
+        "oQueSignifica": "Júpiter em Libra significa que coisas boas crescem quando as pessoas trabalham juntas e são justas. Pense num trabalho em grupo onde todo mundo compartilha as ideias com carinho. Quando tudo está equilibrado, a energia positiva de Júpiter fica mais forte. É como plantar um jardim — quando você cuida igualmente de cada flor, o jardim inteiro fica mais bonito.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Júpiter em Libra está ligado à sorte, crescimento e aprendizado através da justiça. Ele ajuda as pessoas a encontrar a boa sorte construindo relacionamentos pacíficos e fazendo escolhas justas. Essa posição incentiva o equilíbrio e a bondade como formas de crescer. A energia de Júpiter em Libra brilha mais quando as pessoas cooperam em vez de competir.",
+        "exemploFicticio": "Maria percebeu que o time dela funcionava melhor quando todos ouviam e compartilhavam ideias. Com Júpiter em Libra, ela sentiu a sorte vindo da justiça. Por isso o projeto deles foi um sucesso e todo mundo ficou feliz.",
+        "faq": [
+          {
+            "pergunta": "Júpiter em Libra faz as pessoas terem sorte o tempo todo?",
+            "resposta": "Nem sempre, significa que a sorte vem de ser justo e gentil, não só do acaso."
+          },
+          {
+            "pergunta": "Júpiter em Libra pode ajudar nas amizades?",
+            "resposta": "Sim, está ligado a crescer amizades fortes e felizes por meio do equilíbrio."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Júpiter en Libra",
+        "perguntaGoogle": "¿Qué significa Júpiter en Libra?",
+        "resumoUmaLinha": "Júpiter en Libra en astrología une el crecimiento con el equilibrio, la justicia y las relaciones.",
+        "chamadaCuriosa": "¿Cómo trae suerte Júpiter cuando está en el encantador signo de Libra?",
+        "oQueSignifica": "Júpiter en Libra significa que las cosas buenas crecen cuando las personas trabajan juntas y son justas. Piensa en un proyecto en grupo donde todos comparten sus ideas con respeto. Cuando todo está equilibrado, la energía positiva de Júpiter se siente más fuerte. Es como plantar un jardín: si cuidas igual a cada flor, todo el jardín se ve más bonito.",
+        "oQueSignificaNaAstrologia": "En astrología, Júpiter en Libra está ligado a la suerte, el crecimiento y el aprendizaje a través de la justicia. Ayuda a las personas a encontrar buena fortuna construyendo relaciones pacíficas y tomando decisiones justas. Esta posición fomenta el equilibrio y la amabilidad como formas de crecer. La energía de Júpiter en Libra brilla más cuando la gente coopera en lugar de competir.",
+        "exemploFicticio": "María notó que su equipo trabajaba mejor cuando todos escuchaban y compartían ideas. Con Júpiter en Libra, sentía que la suerte venía de la justicia. Por eso su proyecto fue un éxito y todos se sintieron felices.",
+        "faq": [
+          {
+            "pergunta": "¿Júpiter en Libra hace que las personas tengan suerte todo el tiempo?",
+            "resposta": "No siempre, significa que la suerte llega por ser justo y amable, no solo por casualidad."
+          },
+          {
+            "pergunta": "¿Puede Júpiter en Libra ayudar con las amistades?",
+            "resposta": "Sí, está relacionado con crear amistades fuertes y felices a través del equilibrio."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Moon in Gemini",
+    "tituloSEO": "What Does the Moon in Gemini Mean? | Astrology Basics",
+    "perguntaGoogle": "What does the Moon in Gemini mean?",
+    "resumoUmaLinha": "Learn how the Moon in Gemini influences your feelings and thoughts in astrology.",
+    "explicacaoEducativa": "Learn that Moon in Gemini shows a quick, curious emotional side. Feelings change fast like flipping pages.",
+    "chamadaCuriosa": "Ever feel chatty and curious? Moon in Gemini might explain why!",
+    "oQueSignifica": "Having the Moon in Gemini means your feelings are lively and quick. It's like your emotions like to talk and explore many ideas at once. Imagine someone who loves texting and chatting with friends all day. Their feelings might switch fast, from happy to thoughtful, just like changing TV channels. This makes them good at learning and sharing stories.",
+    "oQueSignificaNaAstrologia": "In astrology, the Moon in Gemini is linked to a curious and flexible emotional nature. People with this Moon like to think and talk about their feelings instead of just feeling them quietly. They may enjoy socializing and learning new things to keep their emotions fresh. This placement invites a playful, youthful mood and a love for variety in daily life.",
+    "exemploFicticio": "Maria has her Moon in Gemini. One day, she easily switches from laughing with friends to asking deep questions about a book. She loves texting and sharing funny stories. Her feelings flow like a river, always moving and changing.",
+    "dicaRapida": "Try writing down your thoughts and feelings to understand your changing moods better.",
+    "miniJogo": {
+      "pergunta": "If your emotions are like switching TV channels quickly, what Moon sign might you have?",
+      "opcoes": [
+        {
+          "texto": "Moon in Gemini",
+          "correta": true,
+          "explicacao": "Correct! Moon in Gemini is about quick, curious, and changing feelings."
+        },
+        {
+          "texto": "Moon in Taurus",
+          "correta": false,
+          "explicacao": "Not quite. Moon in Taurus feels steady and calm, not quick to change."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Can Moon in Gemini make people feel restless?",
+        "resposta": "Yes, in astrology, this Moon can bring a need for mental activity and variety."
+      },
+      {
+        "pergunta": "Does Moon in Gemini mean someone is always happy?",
+        "resposta": "No, it means feelings can change fast, not that they are always positive."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-lunar",
+      "mercurio-retrogrado",
+      "mapa-astral"
+    ],
+    "id": "what-does-the-moon-in-gemini-mean",
+    "slug": "what-does-the-moon-in-gemini-mean",
+    "categoria": "Phases & Movements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Lua em Gêmeos",
+        "perguntaGoogle": "O que significa Lua em Gêmeos?",
+        "resumoUmaLinha": "Descubra como a Lua em Gêmeos influencia seus sentimentos e pensamentos na astrologia.",
+        "chamadaCuriosa": "Já se sentiu falante e curioso? A Lua em Gêmeos pode explicar por quê!",
+        "oQueSignifica": "Ter a Lua em Gêmeos significa que seus sentimentos são animados e rápidos. É como se suas emoções gostassem de conversar e explorar várias ideias ao mesmo tempo. Imagine alguém que adora mandar mensagem e falar com os amigos o dia todo. Os sentimentos podem mudar rápido, de feliz a pensativo, como quem troca de canal na TV. Isso ajuda a aprender e contar histórias.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a Lua em Gêmeos está ligada a uma natureza emocional curiosa e flexível. Pessoas com essa Lua gostam de pensar e falar sobre o que sentem, em vez de só sentir em silêncio. Elas curtem socializar e aprender coisas novas para manter as emoções fresquinhas. Essa posição traz um jeito brincalhão, jovem e um amor por variedade no dia a dia.",
+        "exemploFicticio": "Maria tem a Lua em Gêmeos. Um dia, ela passa fácil de rir com os amigos para fazer perguntas profundas sobre um livro. Ela adora mandar mensagens e contar histórias engraçadas. Seus sentimentos fluem como um rio, sempre se mexendo e mudando.",
+        "faq": [
+          {
+            "pergunta": "A Lua em Gêmeos pode fazer a pessoa ficar inquieta?",
+            "resposta": "Sim, na astrologia essa Lua traz uma necessidade de atividade mental e variedade."
+          },
+          {
+            "pergunta": "Ter a Lua em Gêmeos significa que a pessoa está sempre feliz?",
+            "resposta": "Não, significa que os sentimentos podem mudar rápido, não que sejam sempre positivos."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Luna en Géminis",
+        "perguntaGoogle": "¿Qué significa la Luna en Géminis?",
+        "resumoUmaLinha": "Aprende cómo la Luna en Géminis influye en tus emociones y pensamientos en astrología.",
+        "chamadaCuriosa": "¿Te sientes hablador y curioso? ¡La Luna en Géminis puede explicar por qué!",
+        "oQueSignifica": "Tener la Luna en Géminis significa que tus sentimientos son vivos y rápidos. Es como si tus emociones quisieran hablar y explorar muchas ideas al mismo tiempo. Imagina a alguien que ama enviar mensajes y charlar con amigos todo el día. Sus sentimientos pueden cambiar rápido, de feliz a pensativo, como cambiando de canal en la televisión. Esto los hace buenos para aprender y contar historias.",
+        "oQueSignificaNaAstrologia": "En astrología, la Luna en Géminis está relacionada con una naturaleza emocional curiosa y flexible. Las personas con esta Luna prefieren pensar y hablar sobre sus sentimientos en lugar de solo sentirlos en silencio. Les gusta socializar y aprender cosas nuevas para mantener sus emociones vivas. Esta posición invita a una energía juguetona, juvenil y un amor por la variedad en la vida diaria.",
+        "exemploFicticio": "María tiene la Luna en Géminis. Un día, cambia fácilmente de reír con sus amigos a hacer preguntas profundas sobre un libro. Le encanta enviar mensajes y contar historias divertidas. Sus sentimientos fluyen como un río, siempre moviéndose y cambiando.",
+        "faq": [
+          {
+            "pergunta": "¿La Luna en Géminis puede hacer que alguien se sienta inquieto?",
+            "resposta": "Sí, en astrología, esta Luna puede traer una necesidad de actividad mental y variedad."
+          },
+          {
+            "pergunta": "¿Significa la Luna en Géminis que alguien está siempre feliz?",
+            "resposta": "No, significa que los sentimientos pueden cambiar rápido, no que siempre sean positivos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Moon in Capricorn",
+    "tituloSEO": "What Does the Moon in Capricorn Mean? Simple Astrology Guide",
+    "perguntaGoogle": "What does the Moon in Capricorn mean?",
+    "resumoUmaLinha": "Moon in Capricorn means your feelings might be steady and practical in astrology.",
+    "explicacaoEducativa": "Learn how Moon in Capricorn links feelings with responsibility and calm patience in everyday life.",
+    "chamadaCuriosa": "Why does the Moon in Capricorn feel like a steady friend?",
+    "oQueSignifica": "Moon in Capricorn means you may feel serious and careful with your emotions. Imagine a friend who always stays calm during a storm. They don’t rush to show feelings but show care by being dependable. This is like having emotions wrapped in a warm, quiet blanket.",
+    "oQueSignificaNaAstrologia": "In astrology, the Moon in Capricorn is linked to feeling safe through hard work and control. People with this placement tend to manage their emotions responsibly and value stability. They may not show feelings quickly, but they show love by being reliable. This helps them face challenges without panic.",
+    "exemploFicticio": "Maria had a tough day at work. Instead of worrying, she made a plan to fix things. Her calm and steady mood helped her family feel safe. This shows how Moon in Capricorn can bring quiet strength in tricky times.",
+    "dicaRapida": "When feeling stressed, slow down and focus on small tasks to feel more in control.",
+    "miniJogo": {
+      "pergunta": "Your friend with Moon in Capricorn seems quiet when upset. What should you do?",
+      "opcoes": [
+        {
+          "texto": "Give them space and offer practical help.",
+          "correta": true,
+          "explicacao": "Capricorn Moons appreciate calm and helpful support over loud emotions."
+        },
+        {
+          "texto": "Try to cheer them up with lots of hugs and loud talks.",
+          "correta": false,
+          "explicacao": "They usually prefer calm and reserved ways to handle emotions, not big gestures."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Does Moon in Capricorn mean I am cold or unemotional?",
+        "resposta": "Not really. It means you show feelings in calm and responsible ways, like a steady rock."
+      },
+      {
+        "pergunta": "Can Moon in Capricorn help me in tough times?",
+        "resposta": "Yes, it is linked to emotional strength and patience during challenges."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-lunar",
+      "mapa-astral",
+      "lua-cheia"
+    ],
+    "id": "what-does-the-moon-in-capricorn-mean",
+    "slug": "what-does-the-moon-in-capricorn-mean",
+    "categoria": "Phases & Movements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Lua em Capricórnio",
+        "perguntaGoogle": "O que significa Lua em Capricórnio?",
+        "resumoUmaLinha": "Lua em Capricórnio significa que seus sentimentos podem ser firmes e práticos na astrologia.",
+        "chamadaCuriosa": "Por que a Lua em Capricórnio parece um amigo firme e confiável?",
+        "oQueSignifica": "Lua em Capricórnio quer dizer que você pode se sentir sério e cuidadoso com suas emoções. Pense num amigo que sempre fica calmo na tempestade. Ele não mostra os sentimentos rápido, mas cuida sendo confiável. É como ter as emoções embrulhadas num cobertor quente e silencioso.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a Lua em Capricórnio está ligada a se sentir seguro através de trabalho duro e controle. Quem tem isso no mapa astral geralmente administra as emoções com responsabilidade e valoriza estabilidade. Pode não mostrar os sentimentos rápido, mas demonstra amor sendo confiável. Isso ajuda a enfrentar desafios sem entrar em pânico.",
+        "exemploFicticio": "Maria teve um dia difícil no trabalho. Em vez de ficar preocupada, ela fez um plano para resolver as coisas. O humor calmo e firme dela ajudou a família a se sentir segura. Isso mostra como a Lua em Capricórnio traz força silenciosa em momentos complicados.",
+        "faq": [
+          {
+            "pergunta": "Lua em Capricórnio significa que sou frio ou sem emoção?",
+            "resposta": "Não, não é bem assim. Significa que você mostra os sentimentos de um jeito calmo e responsável, como uma rocha firme."
+          },
+          {
+            "pergunta": "Lua em Capricórnio pode me ajudar em momentos difíceis?",
+            "resposta": "Sim, ela está ligada à força emocional e paciência quando surgem desafios."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Luna en Capricornio",
+        "perguntaGoogle": "¿Qué significa la Luna en Capricornio?",
+        "resumoUmaLinha": "La Luna en Capricornio significa que tus sentimientos pueden ser firmes y prácticos en astrología.",
+        "chamadaCuriosa": "¿Por qué la Luna en Capricornio se siente como un amigo confiable?",
+        "oQueSignifica": "La Luna en Capricornio quiere decir que puedes sentirte serio y cuidadoso con tus emociones. Imagina a un amigo que siempre se mantiene tranquilo durante una tormenta. No muestra sus sentimientos rápido, pero demuestra cuidado siendo confiable. Es como tener emociones envueltas en una manta cálida y tranquila.",
+        "oQueSignificaNaAstrologia": "En astrología, la Luna en Capricornio está relacionada con sentirse seguro a través del trabajo duro y el control. Las personas con esta posición suelen manejar sus emociones de manera responsable y valoran la estabilidad. Tal vez no muestran sus sentimientos fácilmente, pero demuestran amor siendo confiables. Esto les ayuda a enfrentar los retos sin entrar en pánico.",
+        "exemploFicticio": "María tuvo un día difícil en el trabajo. En vez de preocuparse, hizo un plan para solucionarlo. Su ánimo calmado y constante ayudó a su familia a sentirse segura. Esto muestra cómo la Luna en Capricornio puede traer fuerza tranquila en momentos difíciles.",
+        "faq": [
+          {
+            "pergunta": "¿Significa la Luna en Capricornio que soy frío o poco emocional?",
+            "resposta": "No realmente. Significa que muestras tus sentimientos de forma calmada y responsable, como una roca firme."
+          },
+          {
+            "pergunta": "¿Me puede ayudar la Luna en Capricornio en tiempos difíciles?",
+            "resposta": "Sí, está relacionada con la fortaleza emocional y la paciencia ante los desafíos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Davison Chart",
+    "tituloSEO": "What is a Davison Chart in Astrology? Simple Explanation",
+    "perguntaGoogle": "What is a davison chart in astrology?",
+    "resumoUmaLinha": "A Davison chart combines two people’s birth times to explore their shared connection.",
+    "explicacaoEducativa": "Learn how a Davison chart blends two birth charts to create a shared astrological map.",
+    "chamadaCuriosa": "Want to see the astrology of your relationship?",
+    "oQueSignifica": "A Davison chart is like making a map from two addresses to find one meeting spot. When two people share a relationship, this chart shows a middle point in time and space. It’s like creating a new 'birthday' for the connection itself, rather than just for each person. Think of it like finding common ground on a journey together.",
+    "oQueSignificaNaAstrologia": "In astrology, the Davison chart is linked to understanding the shared energies between two people. It blends their birth details to reveal how their relationship or friendship might feel. This chart helps astrologers see the timing and style of interactions, focusing on the partnership as a whole. It’s often used in synastry to explore how two lives mix.",
+    "exemploFicticio": "Maria and Carlos want to understand their friendship better. An astrologer creates their Davison chart, showing when and where their connection shines. This helps Maria see what makes their friendship special, like shared strengths and easy moments.",
+    "dicaRapida": "Use a Davison chart to explore the unique energy of any close relationship.",
+    "miniJogo": {
+      "pergunta": "If you want to explore the energy of your friendship with someone, what do you use?",
+      "opcoes": [
+        {
+          "texto": "A Davison chart that mixes both birth details.",
+          "correta": true,
+          "explicacao": "A Davison chart combines two birth charts to explore the relationship’s energy."
+        },
+        {
+          "texto": "Just a normal birthday chart for one person.",
+          "correta": false,
+          "explicacao": "A single birth chart shows only one person, not the shared connection."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Can a Davison chart be used for any type of relationship?",
+        "resposta": "Yes, it can be used for friendships, family, or romantic partnerships to understand shared energy."
+      },
+      {
+        "pergunta": "Is the Davison chart the same as a composite chart?",
+        "resposta": "No, the Davison chart uses birth times and places to find a midpoint, while composite charts average planetary positions."
+      }
+    ],
+    "termosRelacionados": [
+      "sinastria-amorosa",
+      "what-is-a-composite-chart",
+      "mapa-astral"
+    ],
+    "id": "what-is-a-davison-chart-in-astrology",
+    "slug": "what-is-a-davison-chart-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Mapa Davison",
+        "perguntaGoogle": "O que é um mapa Davison em astrologia?",
+        "resumoUmaLinha": "O mapa Davison junta os horários de nascimento de duas pessoas para explorar a conexão entre elas.",
+        "chamadaCuriosa": "Quer ver a astrologia do seu relacionamento?",
+        "oQueSignifica": "O mapa Davison é como fazer um mapa a partir de dois endereços para encontrar um ponto de encontro. Quando duas pessoas têm uma relação, esse mapa mostra um ponto médio no tempo e no espaço. É como criar um novo 'aniversário' para a conexão entre eles, não só para cada pessoa. Imagine como achar um terreno comum numa jornada juntos.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o mapa Davison está ligado a entender as energias compartilhadas entre duas pessoas. Ele une os dados de nascimento para mostrar como a relação ou amizade pode ser sentida. Esse mapa ajuda os astrólogos a ver o momento e o estilo das interações, focando na parceria como um todo. É muito usado na sinastria para explorar como duas vidas se misturam.",
+        "exemploFicticio": "Maria e Carlos querem entender melhor a amizade deles. Um astrólogo cria o mapa Davison, mostrando quando e onde a conexão deles brilha. Isso ajuda a Maria a ver o que torna a amizade especial, como forças em comum e momentos de facilidade.",
+        "faq": [
+          {
+            "pergunta": "Um mapa Davison pode ser usado para qualquer tipo de relacionamento?",
+            "resposta": "Sim, pode ser usado para amizades, família ou parcerias românticas para entender a energia compartilhada."
+          },
+          {
+            "pergunta": "O mapa Davison é o mesmo que um mapa composto?",
+            "resposta": "Não, o mapa Davison usa horários e lugares de nascimento para encontrar um ponto médio, enquanto mapas compostos fazem a média das posições dos planetas."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Carta Davison",
+        "perguntaGoogle": "¿Qué es una carta Davison en astrología?",
+        "resumoUmaLinha": "Una carta Davison une los datos de dos personas para explorar su conexión compartida.",
+        "chamadaCuriosa": "¿Quieres conocer la astrología de tu relación?",
+        "oQueSignifica": "Una carta Davison es como crear un mapa a partir de dos direcciones para encontrar un punto en común. Cuando dos personas están conectadas, esta carta muestra un momento y lugar medio. Es como darle un 'cumpleaños' nuevo a la relación, no solo a cada persona. Piensa en ella como un camino común en un viaje juntos.",
+        "oQueSignificaNaAstrologia": "En astrología, la carta Davison ayuda a entender las energías compartidas entre dos personas. Combina sus datos de nacimiento para mostrar cómo puede sentirse su relación o amistad. Esta carta ayuda a los astrólogos a ver el ritmo y estilo de la interacción, enfocándose en la pareja como un todo. Se usa mucho en sinastría para descubrir cómo se mezclan dos vidas.",
+        "exemploFicticio": "María y Carlos quieren comprender mejor su amistad. Un astrólogo crea su carta Davison, mostrando cuándo y dónde brilla su conexión. Esto ayuda a María a ver qué hace especial su amistad, como las fuerzas que comparten y los momentos fáciles.",
+        "faq": [
+          {
+            "pergunta": "¿Se puede usar la carta Davison para cualquier tipo de relación?",
+            "resposta": "Sí, puede usarse para amistades, familia o parejas para entender la energía compartida."
+          },
+          {
+            "pergunta": "¿La carta Davison es lo mismo que una carta compuesta?",
+            "resposta": "No, la carta Davison usa horas y lugares de nacimiento para encontrar un punto medio, mientras que las compuestas promedian las posiciones planetarias."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Fifth house",
+    "tituloSEO": "What is the Fifth House in Astrology? Simple Guide",
+    "perguntaGoogle": "What is the fifth house in astrology?",
+    "resumoUmaLinha": "The fifth house in astrology is linked to creativity, fun, and personal joy.",
+    "explicacaoEducativa": "Learn that the fifth house in astrology is about your fun, hobbies, and how you express love.",
+    "chamadaCuriosa": "Want to know where your fun and creativity live in your chart?",
+    "oQueSignifica": "Imagine a playground where you enjoy games, art, and funny moments. The fifth house is like that playground in your life. It’s where you get happy doing creative things, playing, and even flirting a little. Think of it as your personal space for joy and self-expression, like when you paint, dance, or share a joke with friends.",
+    "oQueSignificaNaAstrologia": "In astrology, the fifth house is linked to creativity, hobbies, romance, and how you have fun. It shows how you like to express yourself in light and enjoyable ways. It’s not about work or serious matters, but about play, love, and pleasure. This house also connects to children and how you nurture your playful side.",
+    "exemploFicticio": "Maria loves drawing and spends weekends painting. Her fifth house in astrology is strong, showing her love for creative hobbies. Carlos enjoys joking and dating new people, which the fifth house also talks about.",
+    "dicaRapida": "Try doing something fun today, like drawing or playing a game, to feed your fifth house energy.",
+    "miniJogo": {
+      "pergunta": "If your friend invites you to a fun hobby class, how does this relate to the fifth house?",
+      "opcoes": [
+        {
+          "texto": "It’s about enjoying hobbies and creativity, a fifth house topic.",
+          "correta": true,
+          "explicacao": "The fifth house is linked to fun hobbies and creative expression."
+        },
+        {
+          "texto": "It’s about work and career progress, not the fifth house.",
+          "correta": false,
+          "explicacao": "Work and career relate more to the tenth house, not the fifth."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Does the fifth house tell me about my love life?",
+        "resposta": "The fifth house connects to romance and dating, showing how you enjoy love playfully."
+      },
+      {
+        "pergunta": "Is the fifth house about having children?",
+        "resposta": "Yes, the fifth house also links to children and how you experience joy with them."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "signo-solar",
+      "mapa-astral"
+    ],
+    "id": "what-is-the-fifth-house-in-astrology",
+    "slug": "what-is-the-fifth-house-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Casa 5",
+        "perguntaGoogle": "O que é a casa 5 na astrologia?",
+        "resumoUmaLinha": "A casa 5 na astrologia está ligada à criatividade, diversão e alegria pessoal.",
+        "chamadaCuriosa": "Quer saber onde moram sua diversão e criatividade no seu mapa astral?",
+        "oQueSignifica": "Imagine um playground onde você curte jogos, arte e momentos engraçados. A casa 5 é como esse playground na sua vida. É onde você fica feliz fazendo coisas criativas, brincando e até dando um flerte. Pense nela como seu espaço pessoal para alegria e se expressar, como quando você pinta, dança ou conta uma piada para os amigos.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a casa 5 está ligada à criatividade, hobbies, romance e à forma que você se diverte. Ela mostra como você gosta de se expressar de um jeito leve e gostoso. Não é sobre trabalho ou coisas sérias, e sim sobre brincadeira, amor e prazer. Essa casa também se conecta com os filhos e como você cuida do seu lado brincalhão.",
+        "exemploFicticio": "Maria adora desenhar e passa os fins de semana pintando. A casa 5 dela no mapa astral é forte, mostrando seu amor por hobbies criativos. Carlos gosta de brincar com piadas e de sair com gente nova, que é o que a casa 5 também revela.",
+        "faq": [
+          {
+            "pergunta": "A casa 5 fala sobre minha vida amorosa?",
+            "resposta": "A casa 5 conecta ao romance e aos encontros, mostrando como você curte o amor de forma divertida."
+          },
+          {
+            "pergunta": "A casa 5 é sobre ter filhos?",
+            "resposta": "Sim, a casa 5 também liga aos filhos e a alegria que você tem com eles."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Casa cinco",
+        "perguntaGoogle": "¿Qué es la casa cinco en astrología?",
+        "resumoUmaLinha": "La casa cinco en astrología está relacionada con la creatividad, la diversión y la alegría personal.",
+        "chamadaCuriosa": "¿Quieres saber dónde viven tu diversión y creatividad en tu carta astral?",
+        "oQueSignifica": "Imagina un parque donde disfrutas de juegos, arte y momentos divertidos. La casa cinco es como ese parque en tu vida. Es donde te haces feliz haciendo cosas creativas, jugando y hasta coqueteando un poco. Piensa en ella como tu espacio personal de alegría y expresión, como cuando pintas, bailas o compartes un chiste con amigos.",
+        "oQueSignificaNaAstrologia": "En astrología, la casa cinco está ligada a la creatividad, los hobbies, el romance y cómo te diviertes. Muestra cómo te gusta expresarte de manera ligera y agradable. No se trata de trabajo o temas serios, sino de juego, amor y placer. Esta casa también está conectada con los niños y cómo cultivas tu lado juguetón.",
+        "exemploFicticio": "A María le encanta dibujar y pasa los fines de semana pintando. Su casa cinco en la carta astral es fuerte, mostrando su amor por los hobbies creativos. A Carlos le gusta bromear y salir con gente nueva, que también es lo que refleja la casa cinco.",
+        "faq": [
+          {
+            "pergunta": "¿La casa cinco me habla de mi vida amorosa?",
+            "resposta": "La casa cinco se conecta con el romance y las citas, mostrando cómo disfrutas el amor de forma juguetona."
+          },
+          {
+            "pergunta": "¿La casa cinco tiene que ver con tener hijos?",
+            "resposta": "Sí, la casa cinco también está ligada a los hijos y a cómo experimentas alegría con ellos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Seventh House",
+    "tituloSEO": "What is the Seventh House in Astrology? Simple Guide",
+    "perguntaGoogle": "What is the seventh house in astrology?",
+    "resumoUmaLinha": "The seventh house in astrology is linked to partnerships, like friendships and marriage.",
+    "explicacaoEducativa": "Learn that in astrology, the seventh house shows how we connect with others and form close bonds.",
+    "chamadaCuriosa": "Curious about the house of partners and close friends?",
+    "oQueSignifica": "The seventh house is like the seat for your important connections. Imagine a door you open to meet partners, friends, or even important agreements. It shows the way you relate to others and what you might look for in friendships or love. Just like when Maria chooses a friend she trusts, the seventh house reflects how those bonds feel.",
+    "oQueSignificaNaAstrologia": "In astrology, the seventh house is linked to relationships and partnerships. It helps show how we handle one-on-one connections, like marriage or close friendships. The planets and signs in this house can give clues about how a person approaches commitments, teamwork, and balance with others. It’s often called the 'house of partnerships' because of this focus.",
+    "exemploFicticio": "Carlos met his new business partner at a coffee shop. His chart’s seventh house hints he likes clear, balanced relationships. This helps him feel calm and work well together.",
+    "dicaRapida": "Think about how you like to connect with close friends or partners—it’s your seventh house in action.",
+    "miniJogo": {
+      "pergunta": "If you’re thinking about who to trust or team up with, which house in astrology helps with that?",
+      "opcoes": [
+        {
+          "texto": "Seventh house, the house of partnerships.",
+          "correta": true,
+          "explicacao": "Correct! The seventh house is all about close partnerships and teamwork."
+        },
+        {
+          "texto": "Tenth house, the house of career and goals.",
+          "correta": false,
+          "explicacao": "Not quite. The tenth house relates to work and public life, not personal partnerships."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Does the seventh house only mean marriage?",
+        "resposta": "No, it includes all close partnerships like friendships, business partners, and even agreements."
+      },
+      {
+        "pergunta": "Can the seventh house show if someone is good at teamwork?",
+        "resposta": "Yes, it can suggest how someone works with others in close relationships or partnerships."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "what-is-the-descendant-in-astrology",
+      "sinastria-amorosa"
+    ],
+    "id": "what-is-the-seventh-house-in-astrology",
+    "slug": "what-is-the-seventh-house-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Sétima Casa",
+        "perguntaGoogle": "O que é a sétima casa na astrologia?",
+        "resumoUmaLinha": "A sétima casa na astrologia está ligada a parcerias, como amizades e casamento.",
+        "chamadaCuriosa": "Quer saber sobre a casa dos parceiros e amigos próximos?",
+        "oQueSignifica": "A sétima casa é como a cadeira das suas conexões importantes. Imagine uma porta que você abre para encontrar parceiros, amigos ou até acordos importantes. Ela mostra como você se relaciona com os outros e o que você busca nas amizades ou no amor. Igual quando a Maria escolhe um amigo em quem confia, a sétima casa reflete como esses laços são.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a sétima casa está ligada a relacionamentos e parcerias. Ela ajuda a mostrar como lidamos com conexões um a um, como casamento ou amizades próximas. Os planetas e signos nessa casa dão pistas de como a pessoa encara compromissos, trabalho em equipe e equilíbrio com os outros. Por isso, é chamada de ‘casa das parcerias’.",
+        "exemploFicticio": "O Carlos conheceu seu novo sócio numa cafeteria. O mapa astral dele mostra que a sétima casa indica que ele prefere relações claras e equilibradas. Isso deixa ele tranquilo e ajuda a trabalhar bem junto.",
+        "faq": [
+          {
+            "pergunta": "A sétima casa significa só casamento?",
+            "resposta": "Não, inclui todas as parcerias próximas, como amizades, sócios e até acordos."
+          },
+          {
+            "pergunta": "A sétima casa pode mostrar se a pessoa é boa em trabalho em equipe?",
+            "resposta": "Sim, ela pode sugerir como a pessoa se relaciona e trabalha com os outros em parcerias próximas."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Séptima Casa",
+        "perguntaGoogle": "¿Qué es la séptima casa en astrología?",
+        "resumoUmaLinha": "La séptima casa en astrología está ligada a las relaciones, como la amistad y el matrimonio.",
+        "chamadaCuriosa": "¿Quieres saber sobre la casa de los compañeros y amigos cercanos?",
+        "oQueSignifica": "La séptima casa es como el lugar para tus conexiones importantes. Imagina una puerta que abres para conocer a parejas, amigos o acuerdos importantes. Muestra cómo te relacionas con otros y qué buscas en la amistad o el amor. Como cuando María elige a un amigo de confianza, la séptima casa refleja cómo se sienten esos lazos.",
+        "oQueSignificaNaAstrologia": "En astrología, la séptima casa está relacionada con las relaciones y las parejas. Ayuda a entender cómo manejamos las conexiones uno a uno, como el matrimonio o amistades cercanas. Los planetas y signos en esta casa pueden dar pistas sobre cómo una persona afronta compromisos, el trabajo en equipo y el equilibrio con otros. A menudo se le llama la “casa de las parejas” por esta razón.",
+        "exemploFicticio": "Carlos conoció a su nuevo socio de negocios en una cafetería. La séptima casa de su carta astral muestra que le gustan las relaciones claras y equilibradas. Esto lo ayuda a sentirse tranquilo y a trabajar bien en equipo.",
+        "faq": [
+          {
+            "pergunta": "¿La séptima casa sólo significa matrimonio?",
+            "resposta": "No, incluye todas las relaciones cercanas como amistades, socios de trabajo e incluso acuerdos."
+          },
+          {
+            "pergunta": "¿La séptima casa puede mostrar si alguien trabaja bien en equipo?",
+            "resposta": "Sí, puede indicar cómo alguien se relaciona con otros en relaciones cercanas o asociaciones."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Chiron in Aries",
+    "tituloSEO": "What Does Chiron in Aries Mean? Astrology Explained Simply",
+    "perguntaGoogle": "What does Chiron in Aries mean?",
+    "resumoUmaLinha": "Chiron in Aries in astrology links to healing courage and self-confidence growth.",
+    "explicacaoEducativa": "Learn how Chiron in Aries relates to finding your inner strength and healing your fears about being yourself.",
+    "chamadaCuriosa": "Could your courage be healing your biggest wound?",
+    "oQueSignifica": "Chiron in Aries is like having a small hurt in your bravest part. You might feel shy or unsure about starting new things. But this pain also gives you a chance to grow strong and brave. Imagine a kid who’s scared to try riding a bike but keeps practicing. That’s Chiron in Aries encouraging you to heal by being bold.",
+    "oQueSignificaNaAstrologia": "In astrology, Chiron in Aries is linked to wounds around self-identity and courage. It often shows where you feel weak or unsure about acting boldly. But it also points to your power to heal by learning to trust and stand up for yourself. This placement invites you to grow confidence by facing fears and embracing who you truly are.",
+    "exemploFicticio": "Maria always hesitates to speak up in class because she worries about being wrong. One day, she volunteers to lead a group project and feels nervous but proud. This is like Chiron in Aries helping Maria heal by being brave.",
+    "dicaRapida": "Try small brave acts every day to slowly build your self-confidence and heal old fears.",
+    "miniJogo": {
+      "pergunta": "If you feel shy to start a new hobby, what can Chiron in Aries inspire you to do?",
+      "opcoes": [
+        {
+          "texto": "Try the hobby anyway and learn from mistakes.",
+          "correta": true,
+          "explicacao": "Chiron in Aries encourages bravery and healing through action despite fear."
+        },
+        {
+          "texto": "Avoid the hobby to stay safe and comfortable.",
+          "correta": false,
+          "explicacao": "Avoiding new things misses the chance to grow your courage, which Chiron in Aries invites."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is Chiron in Aries the same as Aries sun sign?",
+        "resposta": "No, Chiron in Aries relates to healing wounds in courage, while Aries sun is about core personality."
+      },
+      {
+        "pergunta": "Can Chiron in Aries help me be more confident?",
+        "resposta": "In astrology, Chiron in Aries links to healing fears and building self-confidence over time."
+      }
+    ],
+    "termosRelacionados": [
+      "what-is-chiron-in-astrology",
+      "elementos-astrologicos"
+    ],
+    "id": "what-does-chiron-in-aries-mean",
+    "slug": "what-does-chiron-in-aries-mean",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Quíron em Áries",
+        "perguntaGoogle": "O que significa Quíron em Áries?",
+        "resumoUmaLinha": "Quíron em Áries na astrologia liga coragem de cura e crescimento da autoconfiança.",
+        "chamadaCuriosa": "Será que sua coragem pode estar curando sua maior ferida?",
+        "oQueSignifica": "Quíron em Áries é como ter uma pequena dor na sua parte mais corajosa. Você pode se sentir tímido ou inseguro para começar coisas novas. Mas essa dor também traz uma chance de crescer forte e valente. Imagine uma criança com medo de andar de bicicleta, mas que insiste em praticar. É Quíron em Áries te ajudando a curar sendo ousado.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Quíron em Áries está ligado a feridas na identidade e na coragem. Ele mostra onde você se sente fraco ou inseguro para agir com ousadia. Mas também aponta seu poder de cura, aprendendo a confiar e se defender. Essa posição te convida a crescer a autoconfiança enfrentando medos e abraçando quem você realmente é.",
+        "exemploFicticio": "Maria sempre fica com medo de falar na aula porque acha que vai errar. Um dia, ela se oferece para liderar um trabalho em grupo e sente nervosismo, mas também orgulho. É como se Quíron em Áries estivesse ajudando a Maria a curar sendo corajosa.",
+        "faq": [
+          {
+            "pergunta": "Quíron em Áries é igual ao signo solar em Áries?",
+            "resposta": "Não, Quíron em Áries fala das feridas que curam a coragem, enquanto o signo solar em Áries mostra a personalidade principal."
+          },
+          {
+            "pergunta": "Quíron em Áries pode me ajudar a ser mais confiante?",
+            "resposta": "Na astrologia, Quíron em Áries está ligado a curar medos e construir autoconfiança com o tempo."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Quirón en Aries",
+        "perguntaGoogle": "¿Qué significa Quirón en Aries?",
+        "resumoUmaLinha": "Quirón en Aries en astrología está relacionado con sanar el valor y el crecimiento de la confianza en uno mismo.",
+        "chamadaCuriosa": "¿Podría tu valentía estar sanando tu herida más grande?",
+        "oQueSignifica": "Quirón en Aries es como tener una pequeña herida en la parte donde más eres valiente. Puede que te sientas tímido o inseguro para empezar cosas nuevas. Pero ese dolor también te da la oportunidad de crecer fuerte y valiente. Imagina a un niño que tiene miedo de aprender a andar en bicicleta, pero sigue practicando. Así es Quirón en Aries, animándote a sanar siendo valiente.",
+        "oQueSignificaNaAstrologia": "En astrología, Quirón en Aries está ligado a heridas sobre la identidad y el valor personal. A menudo muestra donde te sientes débil o inseguro para actuar con valentía. Pero también señala tu poder para sanar aprendiendo a confiar y defenderte. Esta posición te invita a crecer tu confianza enfrentando miedos y aceptando quién eres realmente.",
+        "exemploFicticio": "María siempre duda en hablar en clase porque teme equivocarse. Un día, se ofrece para guiar un proyecto grupal y se siente nerviosa pero orgullosa. Esto es como Quirón en Aries ayudando a María a sanar siendo valiente.",
+        "faq": [
+          {
+            "pergunta": "¿Quirón en Aries es lo mismo que el signo solar Aries?",
+            "resposta": "No, Quirón en Aries se relaciona con sanar heridas en el valor, mientras que Aries sol habla de la personalidad central."
+          },
+          {
+            "pergunta": "¿Puede Quirón en Aries ayudarme a tener más confianza?",
+            "resposta": "En astrología, Quirón en Aries está vinculado a sanar miedos y construir confianza con el tiempo."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Gemini Season",
+    "tituloSEO": "What Does Gemini Season Mean in Astrology? Easy Guide",
+    "perguntaGoogle": "What does gemini season mean in astrology?",
+    "resumoUmaLinha": "Gemini season is the time when the sun is in Gemini, linked to curiosity and communication.",
+    "explicacaoEducativa": "Learn how Gemini season means a time of more talking, learning, and being curious.",
+    "chamadaCuriosa": "Talk more and explore ideas? That’s Gemini season’s vibe!",
+    "oQueSignifica": "Gemini season happens when the sun moves through Gemini, roughly May 21 to June 20. Think of it like spring turning up the volume on your phone—people tend to talk more, ask questions, and share new ideas. It’s a time to be curious and connect, like when you and your friend swap stories during lunch.",
+    "oQueSignificaNaAstrologia": "In astrology, Gemini season is linked to communication and mental energy. It’s a time to be more curious and social. Gemini is an air sign, which means it relates to thoughts and ideas. During this season, people might feel like learning new things or chatting with others more often.",
+    "exemploFicticio": "Maria notices she wants to text her friends more and ask lots of questions. At school, Carlos shares a funny story with his classmates instead of keeping quiet. This chatty, curious mood is what people feel during Gemini season.",
+    "dicaRapida": "Use Gemini season to ask questions and try learning something new every day.",
+    "miniJogo": {
+      "pergunta": "During Gemini season, what might you feel like doing more?",
+      "opcoes": [
+        {
+          "texto": "Talking and asking lots of questions",
+          "correta": true,
+          "explicacao": "Gemini season encourages curiosity and communication, so talking more fits perfectly!"
+        },
+        {
+          "texto": "Staying quiet and avoiding conversations",
+          "correta": false,
+          "explicacao": "Gemini season is about sharing ideas, so avoiding talk doesn’t match this vibe."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "When is Gemini season?",
+        "resposta": "Gemini season runs roughly from May 21 to June 20 every year."
+      },
+      {
+        "pergunta": "What kind of energy does Gemini season bring?",
+        "resposta": "It brings lively, curious, and talkative energy connected to learning and sharing ideas."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "elementos-astrologicos",
+      "mercurio-retrogrado"
+    ],
+    "id": "what-does-gemini-season-mean-in-astrology",
+    "slug": "what-does-gemini-season-mean-in-astrology",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Temporada de Gêmeos",
+        "perguntaGoogle": "O que significa temporada de Gêmeos na astrologia?",
+        "resumoUmaLinha": "Temporada de Gêmeos é quando o sol está em Gêmeos, ligado à curiosidade e comunicação.",
+        "chamadaCuriosa": "Quer falar mais e explorar ideias? Essa é a vibe da temporada de Gêmeos!",
+        "oQueSignifica": "A temporada de Gêmeos acontece quando o sol passa por Gêmeos, mais ou menos de 21 de maio a 20 de junho. Imagine como se a primavera aumentasse o volume do seu celular — a galera tende a falar mais, fazer perguntas e compartilhar ideias novas. É um momento para ser curioso e se conectar, como quando você e seu amigo trocam histórias no almoço.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a temporada de Gêmeos está ligada à comunicação e à energia mental. É hora de ficar mais curioso e social. Gêmeos é um signo de ar, que representa pensamentos e ideias. Durante essa temporada, as pessoas costumam querer aprender coisas novas ou conversar mais com os outros.",
+        "exemploFicticio": "Maria percebe que quer mandar mais mensagens para os amigos e fazer muitas perguntas. Na escola, o Carlos conta uma história engraçada para a turma em vez de ficar quieto. Essa vontade de conversar e explorar é o que a gente sente na temporada de Gêmeos.",
+        "faq": [
+          {
+            "pergunta": "Quando é a temporada de Gêmeos?",
+            "resposta": "A temporada de Gêmeos vai mais ou menos de 21 de maio a 20 de junho todo ano."
+          },
+          {
+            "pergunta": "Que tipo de energia a temporada de Gêmeos traz?",
+            "resposta": "Ela traz uma energia animada, curiosa e comunicativa, ligada a aprender e compartilhar ideias."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Temporada de Géminis",
+        "perguntaGoogle": "¿Qué significa la temporada de géminis en astrología?",
+        "resumoUmaLinha": "La temporada de Géminis es cuando el sol está en Géminis, relacionada con la curiosidad y la comunicación.",
+        "chamadaCuriosa": "¿Quieres hablar más y explorar ideas? ¡Esa es la energía de la temporada de Géminis!",
+        "oQueSignifica": "La temporada de Géminis ocurre cuando el sol pasa por Géminis, más o menos del 21 de mayo al 20 de junio. Piensa en esto como si la primavera subiera el volumen del teléfono: la gente habla más, hace preguntas y comparte ideas nuevas. Es un momento para ser curioso y conectar, como cuando tú y tu amigo se cuentan historias durante el almuerzo.",
+        "oQueSignificaNaAstrologia": "En astrología, la temporada de Géminis está ligada a la comunicación y la energía mental. Es tiempo para ser más curioso y social. Géminis es un signo de aire, lo que significa que tiene que ver con pensamientos e ideas. Durante esta temporada, la gente puede sentirse con ganas de aprender cosas nuevas o de charlar más con los demás.",
+        "exemploFicticio": "María nota que quiere mandar más mensajes a sus amigos y hacer muchas preguntas. En la escuela, Carlos cuenta una historia graciosa a sus compañeros en lugar de quedarse callado. Ese ánimo conversador y curioso es lo que se siente durante la temporada de Géminis.",
+        "faq": [
+          {
+            "pergunta": "¿Cuándo es la temporada de Géminis?",
+            "resposta": "La temporada de Géminis va más o menos del 21 de mayo al 20 de junio cada año."
+          },
+          {
+            "pergunta": "¿Qué tipo de energía trae la temporada de Géminis?",
+            "resposta": "Trae una energía viva, curiosa y habladora, relacionada con aprender y compartir ideas."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Sun in 1st House",
+    "tituloSEO": "What Does the Sun in the 1st House Mean in Astrology?",
+    "perguntaGoogle": "What does the Sun in the 1st house mean?",
+    "resumoUmaLinha": "Sun in the 1st house often links to confidence and a bright personality.",
+    "explicacaoEducativa": "Learn how the Sun in the 1st house is linked to how people show themselves to others and shine naturally.",
+    "chamadaCuriosa": "Why does the Sun here make you stand out?",
+    "oQueSignifica": "The Sun in the 1st house means you often feel bright and noticeable. Imagine walking into a room and people quickly see your smile or energy. You might naturally want to be a leader or shine in what you do. It's like being the spotlight on stage, but in everyday life.",
+    "oQueSignificaNaAstrologia": "In astrology, the Sun in the 1st house is linked to how you express your true self. It suggests a strong sense of identity and a bright, open personality. People with this placement often feel confident and want to be seen as important. It can bring natural leadership and vitality.",
+    "exemploFicticio": "Maria walks into her classroom with a big, warm smile. Everyone notices her energy right away. She loves to start projects and cheer up her friends.",
+    "dicaRapida": "Remember to let your true self shine, but also listen to others' ideas and feelings.",
+    "miniJogo": {
+      "pergunta": "If your Sun is in the 1st house, how might you act in a new group of friends?",
+      "opcoes": [
+        {
+          "texto": "You quickly share your ideas and show your energy.",
+          "correta": true,
+          "explicacao": "This shows confidence and a natural way to shine in groups."
+        },
+        {
+          "texto": "You stay quiet and avoid the spotlight at all costs.",
+          "correta": false,
+          "explicacao": "Sun in the 1st house usually makes people want to be seen and heard."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Does the Sun in the 1st house mean you will always be outgoing?",
+        "resposta": "Not always. It means you tend to express yourself openly, but everyone is unique."
+      },
+      {
+        "pergunta": "Can Sun in the 1st house affect self-confidence?",
+        "resposta": "Yes, it often links to strong self-confidence and personal energy."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-ascendente",
+      "casas-astrologicas",
+      "signo-solar"
+    ],
+    "id": "what-does-the-sun-in-the-1st-house-mean",
+    "slug": "what-does-the-sun-in-the-1st-house-mean",
+    "categoria": "Planets & Bodies",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Sol na 1ª Casa",
+        "perguntaGoogle": "O que significa o Sol na 1ª casa?",
+        "resumoUmaLinha": "O Sol na 1ª casa costuma estar ligado à confiança e uma personalidade iluminada.",
+        "chamadaCuriosa": "Por que o Sol aqui faz você se destacar?",
+        "oQueSignifica": "O Sol na 1ª casa significa que você geralmente se sente brilhante e notado. Imagine entrar numa sala e as pessoas notarem seu sorriso e sua energia logo de cara. Você pode querer naturalmente liderar ou brilhar no que faz. É como estar no centro das atenções no dia a dia.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o Sol na 1ª casa está ligado a como você mostra seu eu verdadeiro. Indica uma forte sensação de identidade e uma personalidade aberta e radiante. Quem tem isso, geralmente sente confiança e quer ser visto como alguém importante. Pode trazer liderança natural e vitalidade.",
+        "exemploFicticio": "Maria entra na sala de aula com um sorriso grande e acolhedor. Todo mundo percebe sua energia logo de cara. Ela adora começar projetos e animar os amigos.",
+        "faq": [
+          {
+            "pergunta": "O Sol na 1ª casa significa que você sempre será extrovertido?",
+            "resposta": "Nem sempre. Isso quer dizer que você tende a se expressar de forma aberta, mas cada pessoa é única."
+          },
+          {
+            "pergunta": "O Sol na 1ª casa pode influenciar a autoconfiança?",
+            "resposta": "Sim, costuma estar ligado a uma autoconfiança forte e energia pessoal."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Sol en la casa 1",
+        "perguntaGoogle": "¿Qué significa el Sol en la casa 1?",
+        "resumoUmaLinha": "El Sol en la casa 1 suele estar relacionado con la confianza y una personalidad brillante.",
+        "chamadaCuriosa": "¿Por qué el Sol aquí te hace destacar?",
+        "oQueSignifica": "El Sol en la casa 1 significa que a menudo te sientes brillante y llamativo. Imagina entrar a una habitación y que la gente note rápido tu sonrisa o energía. Puede que naturalmente quieras liderar o brillar en lo que haces. Es como ser el centro de atención en el día a día.",
+        "oQueSignificaNaAstrologia": "En astrología, el Sol en la casa 1 está conectado con cómo expresas tu verdadero yo. Sugiere una identidad fuerte y una personalidad abierta y luminosa. Las personas con esta posición suelen sentirse seguras y quieren ser vistas como importantes. Puede dar liderazgo natural y mucha vitalidad.",
+        "exemploFicticio": "María entra a su salón con una sonrisa grande y cálida. Todos notan su energía de inmediato. Le encanta iniciar proyectos y animar a sus amigos.",
+        "faq": [
+          {
+            "pergunta": "¿El Sol en la casa 1 significa que siempre serás extrovertido?",
+            "resposta": "No siempre. Significa que tiendes a expresarte con sinceridad, pero cada persona es única."
+          },
+          {
+            "pergunta": "¿Puede el Sol en la casa 1 influir en la confianza en uno mismo?",
+            "resposta": "Sí, a menudo está relacionado con una fuerte confianza y energía personal."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Gemini Man",
+    "tituloSEO": "What Does Gemini Man Mean in Astrology? Signs & Elements",
+    "perguntaGoogle": "What does gemini man mean in astrology?",
+    "resumoUmaLinha": "Gemini man means a man born under Gemini sign, linked to curious and flexible traits.",
+    "explicacaoEducativa": "Learn that in astrology, a Gemini man is linked to being curious, social, and quick in thinking.",
+    "chamadaCuriosa": "Why is a Gemini man like a friendly breeze?",
+    "oQueSignifica": "A Gemini man is like a buzzing bee: always moving, curious, and ready to chat. He can enjoy many ideas and switch topics fast. Imagine someone who loves learning new things and making friends easily. Just like a story that changes chapters often, a Gemini man likes variety and fresh conversations.",
+    "oQueSignificaNaAstrologia": "In astrology, the Gemini man is tied to the air element. He tends to be sociable, clever, and loves to explore ideas. People born under Gemini are thought to adapt well and enjoy talking with others. The Gemini man usually values freedom and mental activity, bringing energy and fun to conversations and daily life.",
+    "exemploFicticio": "Carlos, a Gemini man, chats with his friend Maria about books and music. He quickly shifts from talking about a new novel to planning a weekend hiking trip. His lively mind keeps the talk interesting and full of fresh ideas.",
+    "dicaRapida": "Give a Gemini man interesting topics to discuss and he will open up happily.",
+    "miniJogo": {
+      "pergunta": "If a Gemini man is curious, what might he enjoy doing?",
+      "opcoes": [
+        {
+          "texto": "Talking about different topics with friends",
+          "correta": true,
+          "explicacao": "Gemini men love variety and sharing ideas in conversations."
+        },
+        {
+          "texto": "Sitting quietly alone all day",
+          "correta": false,
+          "explicacao": "Geminis usually prefer engaging with others and exploring thoughts."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is a Gemini man always talkative?",
+        "resposta": "In astrology, Gemini men often enjoy talking but may also like quiet moments sometimes."
+      },
+      {
+        "pergunta": "Does being a Gemini man mean he changes his mind a lot?",
+        "resposta": "Geminis are linked to flexibility and curiosity, so they can explore many ideas and change opinions."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "elementos-astrologicos",
+      "mercurio-retrogrado"
+    ],
+    "id": "what-does-gemini-man-mean-in-astrology",
+    "slug": "what-does-gemini-man-mean-in-astrology",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Homem de Gêmeos",
+        "perguntaGoogle": "O que significa homem de Gêmeos na astrologia?",
+        "resumoUmaLinha": "Homem de Gêmeos é um homem nascido sob o signo de Gêmeos, ligado a características curiosas e flexíveis.",
+        "chamadaCuriosa": "Por que o homem de Gêmeos é como uma brisa amigável?",
+        "oQueSignifica": "Um homem de Gêmeos é como uma abelha animada: está sempre em movimento, curioso e pronto para conversar. Ele gosta de várias ideias e muda de assunto rapidinho. Imagine alguém que adora aprender coisas novas e fazer amigos com facilidade. Assim como uma história que troca de capítulo com frequência, o homem de Gêmeos gosta de variedade e de conversas fresquinhas.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o homem de Gêmeos está ligado ao elemento ar. Ele tende a ser sociável, inteligente e ama explorar ideias. Quem nasce em Gêmeos costuma se adaptar bem e curte bater papo com outras pessoas. O homem de Gêmeos geralmente valoriza sua liberdade e a atividade mental, trazendo energia e diversão para as conversas e para o dia a dia.",
+        "exemploFicticio": "Carlos, um homem de Gêmeos, conversa com sua amiga Maria sobre livros e música. Ele passa rapidinho de uma nova novela para planejar uma trilha no final de semana. A mente animada dele mantém o papo interessante e cheio de ideias fresquinhas.",
+        "faq": [
+          {
+            "pergunta": "Homem de Gêmeos é sempre falante?",
+            "resposta": "Na astrologia, homens de Gêmeos gostam de conversar, mas também apreciam momentos de silêncio às vezes."
+          },
+          {
+            "pergunta": "Ser homem de Gêmeos significa que ele muda muito de ideia?",
+            "resposta": "Gêmeos está ligado à flexibilidade e curiosidade, então ele pode explorar muitas ideias e mudar de opinião."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Hombre Géminis",
+        "perguntaGoogle": "¿Qué significa hombre Géminis en astrología?",
+        "resumoUmaLinha": "Hombre Géminis es un hombre nacido bajo el signo de Géminis, vinculado a rasgos curiosos y flexibles.",
+        "chamadaCuriosa": "¿Por qué un hombre Géminis es como una brisa amigable?",
+        "oQueSignifica": "Un hombre Géminis es como una abeja zumbante: siempre en movimiento, curioso y listo para platicar. Le gustan muchas ideas y puede cambiar de tema rápido. Imagina alguien que ama aprender cosas nuevas y hacer amigos fácilmente. Como una historia que cambia de capítulo seguido, un hombre Géminis disfruta la variedad y las conversaciones frescas.",
+        "oQueSignificaNaAstrologia": "En astrología, el hombre Géminis está ligado al elemento aire. Suele ser sociable, inteligente y le encanta explorar ideas. Se piensa que las personas nacidas bajo Géminis se adaptan bien y disfrutan platicar con otros. El hombre Géminis suele valorar la libertad y la actividad mental, aportando energía y diversión a las conversaciones y el día a día.",
+        "exemploFicticio": "Carlos, un hombre Géminis, charla con su amiga María sobre libros y música. Cambia rápido de hablar sobre una novela nueva a planear una excursión para el fin de semana. Su mente activa mantiene la plática interesante y llena de ideas frescas.",
+        "faq": [
+          {
+            "pergunta": "¿Un hombre Géminis siempre habla mucho?",
+            "resposta": "En astrología, a los hombres Géminis les gusta platicar, pero a veces también disfrutan momentos de silencio."
+          },
+          {
+            "pergunta": "¿Ser hombre Géminis significa que cambia mucho de opinión?",
+            "resposta": "Los Géminis están ligados a la flexibilidad y la curiosidad, así que pueden explorar muchas ideas y cambiar de opinión."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Ascendente Escorpião",
+    "tituloSEO": "What Does Ascendant Scorpio Mean in Astrology? Simple Guide",
+    "perguntaGoogle": "What does ascendant scorpio mean in astrology?",
+    "resumoUmaLinha": "Ascendant Scorpio shows how you appear to others and how you start new things.",
+    "explicacaoEducativa": "Learn how Ascendant Scorpio links to your first impression and approach in life.",
+    "chamadaCuriosa": "Why does Ascendant Scorpio make you seem mysterious at first?",
+    "oQueSignifica": "Ascendant Scorpio means you come across as intense and private, like a secret keeper. Imagine meeting Carlos, who seems quiet but notices everything around him. People feel he’s strong and serious when they first see him. This sign can give you strong feelings inside, but you might not show them right away.",
+    "oQueSignificaNaAstrologia": "In astrology, Ascendant Scorpio is linked to a deep, powerful way you show yourself. It guides how you start new things and how others see you. You may seem calm but have strong emotions under the surface. This rising sign brings focus and a strong will to your personality.",
+    "exemploFicticio": "Maria just met her new coworker, Jake, who has Ascendant Scorpio. Jake didn’t speak much but watched carefully and smiled at the right time. Maria thought Jake was a bit mysterious but very confident in how he acted.",
+    "dicaRapida": "Use your natural focus to listen closely and understand what others feel.",
+    "miniJogo": {
+      "pergunta": "If your friend has Ascendant Scorpio, how might they act when meeting new people?",
+      "opcoes": [
+        {
+          "texto": "They might be quiet and watchful at first.",
+          "correta": true,
+          "explicacao": "Ascendant Scorpio often shows as calm and observant when meeting strangers."
+        },
+        {
+          "texto": "They will be very loud and always talk first.",
+          "correta": false,
+          "explicacao": "Ascendant Scorpio tends to be more private and doesn’t always speak first."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is Ascendant Scorpio the same as the Scorpio zodiac sign?",
+        "resposta": "No, Ascendant Scorpio is about how you appear to others, while your zodiac sign is your sun sign."
+      },
+      {
+        "pergunta": "Can Ascendant Scorpio change?",
+        "resposta": "Your Ascendant stays the same because it depends on your birth time and place."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-ascendente",
+      "signo-solar",
+      "elementos-astrologicos"
+    ],
+    "id": "what-does-ascendant-scorpio-mean-in-astrology",
+    "slug": "what-does-ascendant-scorpio-mean-in-astrology",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Ascendente Escorpião",
+        "perguntaGoogle": "O que significa ascendente escorpião na astrologia?",
+        "resumoUmaLinha": "Ascendente Escorpião mostra como você aparece para os outros e como começa as coisas.",
+        "chamadaCuriosa": "Por que o Ascendente Escorpião faz você parecer misterioso no começo?",
+        "oQueSignifica": "Ascendente Escorpião significa que você passa a ideia de ser intenso e reservado, como um guardião de segredos. Imagine o Carlos, que parece quieto, mas percebe tudo ao redor. As pessoas sentem que ele é forte e sério quando o veem pela primeira vez. Esse signo pode te deixar com sentimentos fortes por dentro, mas você nem sempre mostra isso na hora.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o Ascendente Escorpião está ligado a um jeito profundo e poderoso de se expressar. Ele mostra como você começa as coisas e como os outros te veem. Você pode parecer calmo, mas tem emoções fortes escondidas. Esse ascendente traz foco e força de vontade pra sua personalidade.",
+        "exemploFicticio": "A Maria acabou de conhecer o novo colega de trabalho, o Jake, que tem Ascendente Escorpião. O Jake falava pouco, observava tudo e sorria na hora certa. A Maria achou o Jake meio misterioso, mas muito seguro do jeito que agia.",
+        "faq": [
+          {
+            "pergunta": "Ascendente Escorpião é o mesmo que signo de Escorpião?",
+            "resposta": "Não, Ascendente Escorpião mostra como você aparece para os outros, já seu signo é o signo do Sol."
+          },
+          {
+            "pergunta": "O Ascendente Escorpião pode mudar?",
+            "resposta": "Seu Ascendente não muda, porque depende da sua hora de nascimento e do lugar onde nasceu."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Ascendente Escorpión",
+        "perguntaGoogle": "¿Qué significa ascendente Escorpión en astrología?",
+        "resumoUmaLinha": "Ascendente Escorpión muestra cómo te ven los demás y cómo empiezas cosas nuevas.",
+        "chamadaCuriosa": "¿Por qué el Ascendente Escorpión te hace parecer misterioso al principio?",
+        "oQueSignifica": "Ascendente Escorpión significa que pareces intenso y reservado, como alguien que guarda secretos. Imagina a Carlos, que parece callado pero nota todo a su alrededor. La gente siente que es fuerte y serio cuando lo conoce. Este signo te puede dar emociones profundas, pero tal vez no las muestras de inmediato.",
+        "oQueSignificaNaAstrologia": "En astrología, Ascendente Escorpión está ligado a una forma profunda y poderosa de mostrarte. Muestra cómo empiezas cosas nuevas y cómo te ven los demás. Puedes parecer tranquilo, pero tienes emociones fuertes bajo la superficie. Este signo ascendente da enfoque y mucha voluntad a tu personalidad.",
+        "exemploFicticio": "María acaba de conocer a su nuevo compañero de trabajo, Jake, que tiene Ascendente Escorpión. Jake no hablaba mucho, pero observaba con atención y sonreía en el momento justo. María pensó que Jake era un poco misterioso, pero muy seguro en su forma de actuar.",
+        "faq": [
+          {
+            "pergunta": "¿El Ascendente Escorpión es lo mismo que el signo zodiacal Escorpión?",
+            "resposta": "No, el Ascendente Escorpión muestra cómo te ven los demás, mientras que tu signo zodiacal es tu signo solar."
+          },
+          {
+            "pergunta": "¿Puede cambiar el Ascendente Escorpión?",
+            "resposta": "Tu Ascendente no cambia porque depende de tu hora de nacimiento y lugar."
+          }
+        ]
+      }
+    }
   }
 ]

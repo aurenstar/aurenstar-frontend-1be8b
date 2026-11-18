@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "resumo": {
-    "termosPublicados": 89,
+    "termosPublicados": 109,
     "funcionando": 1,
     "quase": 1,
-    "aparecendo": 6,
-    "semDados": 81,
-    "impressoes": 86,
+    "aparecendo": 7,
+    "semDados": 100,
+    "impressoes": 88,
     "cliques": 0
   },
   "metas": {
@@ -32,15 +32,15 @@
   "categorias": [
     {
       "categoria": "Chart Concepts",
-      "termos": 39,
-      "impressoes": 49,
+      "termos": 46,
+      "impressoes": 51,
       "cliques": 0,
-      "impressoesPorTermo": 1.3,
-      "boost": 1
+      "impressoesPorTermo": 1.1,
+      "boost": 1.3
     },
     {
       "categoria": "Phases & Movements",
-      "termos": 10,
+      "termos": 14,
       "impressoes": 0,
       "cliques": 0,
       "impressoesPorTermo": 0,
@@ -48,7 +48,7 @@
     },
     {
       "categoria": "Planets & Bodies",
-      "termos": 11,
+      "termos": 13,
       "impressoes": 0,
       "cliques": 0,
       "impressoesPorTermo": 0,
@@ -56,10 +56,10 @@
     },
     {
       "categoria": "Signs & Elements",
-      "termos": 29,
+      "termos": 36,
       "impressoes": 37,
       "cliques": 0,
-      "impressoesPorTermo": 1.3,
+      "impressoesPorTermo": 1,
       "boost": 1
     }
   ],
@@ -122,6 +122,16 @@
       "cliques": 0,
       "melhorPosicao": 87,
       "buscasMensaisNoMundo": 7600,
+      "veredito": "aparecendo"
+    },
+    {
+      "slug": "what-is-house-in-astrology",
+      "termo": "House",
+      "categoria": "Chart Concepts",
+      "impressoes": 2,
+      "cliques": 0,
+      "melhorPosicao": 85,
+      "buscasMensaisNoMundo": 3630,
       "veredito": "aparecendo"
     },
     {
@@ -625,6 +635,26 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-does-saturn-returns-mean-in-astrology",
+      "termo": "Saturn Return",
+      "categoria": "Planets & Bodies",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 6600,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-moon-mean-in-astrology",
+      "termo": "Moon",
+      "categoria": "Phases & Movements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 5380,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-is-the-south-node-in-astrology",
       "termo": "South Node",
       "categoria": "Planets & Bodies",
@@ -645,6 +675,66 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-is-a-draconic-chart-in-astrology",
+      "termo": "Draconic chart",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 4810,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-are-decans-in-astrology",
+      "termo": "Decans",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 4800,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-gemini-zodiac-symbol-mean-in-astrology",
+      "termo": "Gemini Symbol",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 4720,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-libra-zodiac-symbol-mean-in-astrology",
+      "termo": "Libra symbol",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 4660,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-a-lunar-return-in-astrology",
+      "termo": "Lunar Return",
+      "categoria": "Phases & Movements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 4590,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-the-big-three-in-astrology",
+      "termo": "Big Three",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 4590,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-is-a-cardinal-sign-in-astrology",
       "termo": "Cardinal Sign",
       "categoria": "Signs & Elements",
@@ -652,6 +742,46 @@
       "cliques": 0,
       "melhorPosicao": null,
       "buscasMensaisNoMundo": 4400,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-chiron-in-taurus-mean",
+      "termo": "Chiron in Taurus",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 4400,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-cardinal-astrology-mean-in-astrology",
+      "termo": "Cardinal Astrology",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 4400,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-libra-star-sign-mean-in-astrology",
+      "termo": "Libra",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 4400,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-are-lunar-nodes-in-astrology",
+      "termo": "Lunar Nodes",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 4300,
       "veredito": "sem-dados"
     },
     {
@@ -665,6 +795,26 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-does-the-moon-in-aries-mean",
+      "termo": "Moon in Aries",
+      "categoria": "Phases & Movements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 3990,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-sun-moon-rising-mean-in-astrology",
+      "termo": "Sun Moon Rising",
+      "categoria": "Phases & Movements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 3950,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-is-a-sextile-in-astrology",
       "termo": "Sextile",
       "categoria": "Chart Concepts",
@@ -675,6 +825,16 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-does-jupiter-in-sagittarius-mean",
+      "termo": "Jupiter in Sagittarius",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 3910,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-is-the-descendant-in-astrology",
       "termo": "Descendant",
       "categoria": "Chart Concepts",
@@ -682,6 +842,46 @@
       "cliques": 0,
       "melhorPosicao": null,
       "buscasMensaisNoMundo": 3830,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-tenth-house-in-astrology",
+      "termo": "Tenth House",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 3800,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-jupiter-in-the-4th-house-mean",
+      "termo": "Jupiter in the 4th house",
+      "categoria": "Planets & Bodies",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 3600,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-the-vertex-in-astrology",
+      "termo": "Vertex",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 3600,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-leo-birth-sign-mean-in-astrology",
+      "termo": "Leo Sign",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 3600,
       "veredito": "sem-dados"
     },
     {

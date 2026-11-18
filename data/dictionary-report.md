@@ -1,18 +1,18 @@
-# Relatório interno do dicionário (2026-11-17)
+# Relatório interno do dicionário (2026-11-18)
 
 _Só para o robô e para a equipe. Não aparece no site._
 
-**89 verbetes publicados** · ✅ funcionando: 1 · 🟡 quase na página 1: 1 · 👀 aparecendo: 6 · ⏳ sem dados ainda: 81
-Aparições no Google: 86 · Cliques: 0
+**109 verbetes publicados** · ✅ funcionando: 1 · 🟡 quase na página 1: 1 · 👀 aparecendo: 7 · ⏳ sem dados ainda: 100
+Aparições no Google: 88 · Cliques: 0
 
 ## Por assunto
 
 | Assunto | Verbetes | Aparições | Cliques | Peso do robô |
 |---|---|---|---|---|
-| Chart Concepts | 39 | 49 | 0 | x1 |
-| Phases & Movements | 10 | 0 | 0 | x1 |
-| Planets & Bodies | 11 | 0 | 0 | x1 |
-| Signs & Elements | 29 | 37 | 0 | x1 |
+| Chart Concepts | 46 | 51 | 0 | x1.3 |
+| Phases & Movements | 14 | 0 | 0 | x1 |
+| Planets & Bodies | 13 | 0 | 0 | x1 |
+| Signs & Elements | 36 | 37 | 0 | x1 |
 
 ## 🎯 Metas de visitas por mês (se o site aparecer para uma fatia das buscas medidas)
 
@@ -39,6 +39,7 @@ Cliques reais no Google hoje: 0. Compare com a linha de 0,05% para ver quanto fa
 - Gemini Traits: 21 aparições, 0 cliques, melhor posição 69, ~8100 buscas/mês no mundo
 - Aspects: 5 aparições, 0 cliques, melhor posição 37
 - Midheaven: 2 aparições, 0 cliques, melhor posição 87, ~7600 buscas/mês no mundo
+- House: 2 aparições, 0 cliques, melhor posição 85, ~3630 buscas/mês no mundo
 - Opposition: 2 aparições, 0 cliques, melhor posição 86, ~520 buscas/mês no mundo
 - Birth Time: 1 aparições, 0 cliques, melhor posição 26
 
