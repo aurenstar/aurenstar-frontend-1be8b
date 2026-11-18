@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "horoscope-today-wednesday-november-18-2026-all-12-signs-es",
+  "date": "2026-11-18",
+  "title": "¿Qué secretos te revela la Luna de Escorpio hoy?",
+  "description": "Descubre cómo la Luna en Cuarto Creciente y el Sol en Escorpio impactan tus emociones y decisiones este 18 de noviembre.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Sigue leyendo",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Intriga",
+      "title": "Emociones intensas",
+      "text": "Bajo el Sol en Escorpio, tus pasiones se encienden. ¿Estás listo para transformar tus sentimientos en acción?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Conexiones",
+      "title": "Vínculos profundos",
+      "text": "Conversaciones sinceras pueden abrir puertas en tus relaciones. ¿Qué descubrirás al abrir tu corazón hoy?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Impulso",
+      "title": "Avanza con valor",
+      "text": "La Luna creciente te invita a tomar decisiones clave. ¿Qué paso valiente estás a punto de dar?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Sugerencia",
+      "title": "Equilibrio vital",
+      "text": "Combina energía y descanso para potenciar tu día. ¿Cómo lograrás ese balance hoy?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Revela más",
+      "title": "Tu horóscopo completo",
+      "text": "Conoce cómo cada signo puede aprovechar esta jornada para crecer emocional y profesionalmente. No querrás perderte estos consejos."
+    }
+  ],
+  "cta": {
+    "text": "Descubre tu horóscopo hoy",
+    "label": "Ver horóscopo completo",
+    "url": "/es/blog/horoscope-today-wednesday-november-18-2026-all-12-signs"
+  }
+}
