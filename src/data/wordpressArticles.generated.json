@@ -1136,10 +1136,11 @@
     "wordpress": {
       "id": 655,
       "slug": "libra-personality",
-      "modified": "2026-11-18T15:10:03"
+      "modified": "2026-11-19T15:10:04"
     },
     "related": [
-      "wp-1445"
+      "wp-1445",
+      "wp-1448"
     ]
   },
   {
@@ -1602,8 +1603,12 @@
     "wordpress": {
       "id": 653,
       "slug": "leo-personality",
-      "modified": "2026-10-19T22:32:17"
-    }
+      "modified": "2026-11-19T15:10:04"
+    },
+    "related": [
+      "wp-1432",
+      "wp-1438"
+    ]
   },
   {
     "id": "wp-462",
@@ -10460,8 +10465,11 @@
     "wordpress": {
       "id": 1445,
       "slug": "libra-compatibility-best-worst",
-      "modified": "2026-11-18T15:40:08"
-    }
+      "modified": "2026-11-19T15:10:04"
+    },
+    "related": [
+      "wp-1448"
+    ]
   },
   {
     "id": "wp-1438",
@@ -10729,8 +10737,11 @@
     "wordpress": {
       "id": 1438,
       "slug": "leo-body-language-interest",
-      "modified": "2026-11-08T16:30:05"
-    }
+      "modified": "2026-11-19T15:10:04"
+    },
+    "related": [
+      "wp-1432"
+    ]
   },
   {
     "id": "wp-1435",
@@ -11282,8 +11293,11 @@
     "wordpress": {
       "id": 1432,
       "slug": "leo-work-partner-match",
-      "modified": "2026-11-08T16:30:05"
-    }
+      "modified": "2026-11-19T15:10:04"
+    },
+    "related": [
+      "wp-1438"
+    ]
   },
   {
     "id": "wp-1425",
