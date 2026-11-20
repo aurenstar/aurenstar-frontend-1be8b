@@ -1,0 +1,47 @@
+{
+  "lang": "de",
+  "slug": "was-ist-vedic-astrology",
+  "date": "2026-11-20",
+  "title": "Kennst du dein wahres Sternzeichen?",
+  "description": "Vedic Astrology zeigt dir, warum dein Horoskop ganz anders sein könnte als du denkst – entdecke den geheimen Unterschied!",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Tippe zum Entdecken",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Überraschung",
+      "title": "Nicht dein Sonnenzeichen?",
+      "text": "Im vedischen Horoskop kann dein Sternzeichen ganz anders sein als im westlichen – weil hier echte Sternbilder zählen!"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Tiefer Blick",
+      "title": "Mond & Aszendent zählen mehr",
+      "text": "Anders als bei uns geht es in Indien vor allem um dein Mondzeichen und den Aszendenten. Was verraten sie über dich?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Neuer Blickwinkel",
+      "title": "Ein anderer Tierkreis",
+      "text": "Der siderische Tierkreis zeigt die Planetenpositionen so, wie sie tatsächlich am Himmel stehen – und das verändert alles."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Spannend",
+      "title": "Dein persönliches Horoskop",
+      "text": "Deine Geburt, der Ort und die Zeit bestimmen dein Janma Kundali – dein individuelles vedisches Horoskop. Wie genau?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Mehr erfahren",
+      "title": "Warum das für dich wichtig ist",
+      "text": "Finde heraus, wie vedic astrology dir neue Einsichten und Orientierung für wichtige Lebensphasen geben kann – das solltest du nicht verpassen!"
+    }
+  ],
+  "cta": {
+    "text": "Willst du dein echtes Horoskop?",
+    "label": "Artikel lesen",
+    "url": "/de/blog/was-ist-vedic-astrology"
+  }
+}

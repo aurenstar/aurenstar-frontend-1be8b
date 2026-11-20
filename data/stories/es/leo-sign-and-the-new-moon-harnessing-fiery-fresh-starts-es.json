@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "leo-sign-and-the-new-moon-harnessing-fiery-fresh-starts-es",
+  "date": "2026-11-20",
+  "title": "¿Sabías que la Luna Nueva impulsa a Leo a brillar?",
+  "description": "Descubre cómo la Luna Nueva despierta tu fuego interior y te invita a renacer con más confianza y creatividad que nunca.",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Sigue leyendo",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Inicio",
+      "title": "Energía renovada",
+      "text": "La Luna Nueva despierta en ti un fuego interno que te impulsa a empezar de nuevo. ¿Sientes esa chispa? Sigue descubriendo."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Creatividad",
+      "title": "Impulso creativo",
+      "text": "Tu creatividad se enciende con fuerza en esta fase lunar. ¿Qué proyectos podrías iniciar que reflejen tu esencia?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Confianza",
+      "title": "Valiente y seguro",
+      "text": "Es momento de actuar con audacia y mostrar tu verdadero yo. ¿Listo para liderar tu camino con confianza?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Oportunidad",
+      "title": "Renacer personal",
+      "text": "La Luna Nueva te invita a resetear tus metas y abrazar una versión más vibrante de ti mismo. ¿Qué cambios estás listo para hacer?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Clave",
+      "title": "¿Por qué importa?",
+      "text": "Esta fase puede transformar tu vida si sabes cómo aprovecharla. En el artículo descubrirás cómo usar esta energía para crecer y brillar."
+    }
+  ],
+  "cta": {
+    "text": "Descubre tu nuevo poder",
+    "label": "Leer el artículo",
+    "url": "/es/blog/leo-sign-and-the-new-moon-harnessing-fiery-fresh-starts"
+  }
+}
