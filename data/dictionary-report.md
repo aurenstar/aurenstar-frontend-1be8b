@@ -1,18 +1,18 @@
-# Relatório interno do dicionário (2026-11-19)
+# Relatório interno do dicionário (2026-11-20)
 
 _Só para o robô e para a equipe. Não aparece no site._
 
-**129 verbetes publicados** · ✅ funcionando: 1 · 🟡 quase na página 1: 1 · 👀 aparecendo: 7 · ⏳ sem dados ainda: 120
-Aparições no Google: 88 · Cliques: 0
+**149 verbetes publicados** · ✅ funcionando: 1 · 🟡 quase na página 1: 1 · 👀 aparecendo: 8 · ⏳ sem dados ainda: 139
+Aparições no Google: 89 · Cliques: 0
 
 ## Por assunto
 
 | Assunto | Verbetes | Aparições | Cliques | Peso do robô |
 |---|---|---|---|---|
-| Chart Concepts | 54 | 51 | 0 | x1.3 |
-| Phases & Movements | 17 | 0 | 0 | x1 |
-| Planets & Bodies | 14 | 0 | 0 | x1 |
-| Signs & Elements | 44 | 37 | 0 | x1 |
+| Chart Concepts | 63 | 52 | 0 | x1.3 |
+| Phases & Movements | 19 | 0 | 0 | x1 |
+| Planets & Bodies | 15 | 0 | 0 | x1 |
+| Signs & Elements | 52 | 37 | 0 | x1 |
 
 ## 🎯 Metas de visitas por mês (se o site aparecer para uma fatia das buscas medidas)
 
@@ -41,6 +41,7 @@ Cliques reais no Google hoje: 0. Compare com a linha de 0,05% para ver quanto fa
 - Midheaven: 2 aparições, 0 cliques, melhor posição 87, ~7600 buscas/mês no mundo
 - House: 2 aparições, 0 cliques, melhor posição 85, ~3630 buscas/mês no mundo
 - Opposition: 2 aparições, 0 cliques, melhor posição 86, ~520 buscas/mês no mundo
+- Conjunct: 1 aparições, 0 cliques, melhor posição 84, ~1600 buscas/mês no mundo
 - Birth Time: 1 aparições, 0 cliques, melhor posição 26
 
 ## ⏳ Muito procurados, mas o Google ainda não mostra a gente

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T15:42:31.937Z",
+ "updated": "2026-11-20T15:25:05.817Z",
  "items": [
   {
    "term": "Zodiac signs",
@@ -5188,6 +5188,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Square number",
+   "question": "What is a square number?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 15,
+   "source": "google-suggest"
+  },
+  {
    "term": "Grand water trine",
    "question": "What does grand water trine mean in astrology?",
    "category": "Signs & Elements",
@@ -5294,14 +5302,6 @@
   {
    "term": "Square foot",
    "question": "What is a square foot?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 14,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Square number",
-   "question": "What is a square number?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 14,
@@ -5604,9 +5604,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Venus made of",
-   "question": "What is venus made of?",
-   "category": "Planets & Bodies",
+   "term": "Venus retrograde",
+   "question": "What is venus retrograde?",
+   "category": "Phases & Movements",
    "icon": "✨",
    "score": 11,
    "source": "google-suggest"
@@ -5780,8 +5780,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "House manager",
-   "question": "What is a house manager?",
+   "term": "Housewife",
+   "question": "What is a housewife?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 11,
@@ -6028,14 +6028,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Library of congress",
-   "question": "What is library of congress?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 11,
-   "source": "google-suggest"
-  },
-  {
    "term": "1st house",
    "question": "What is the 1st house in astrology?",
    "category": "Chart Concepts",
@@ -6204,9 +6196,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Venus retrograde",
-   "question": "What is venus retrograde?",
-   "category": "Phases & Movements",
+   "term": "Venus made of",
+   "question": "What is venus made of?",
+   "category": "Planets & Bodies",
    "icon": "✨",
    "score": 10,
    "source": "google-suggest"
@@ -6484,8 +6476,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Housewife",
-   "question": "What is a housewife?",
+   "term": "House manager",
+   "question": "What is a house manager?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 10,
@@ -7060,14 +7052,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Gemini neon",
-   "question": "What is gemini neon?",
-   "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 10,
-   "source": "google-suggest"
-  },
-  {
    "term": "Gemini represent",
    "question": "What does gemini represent in astrology?",
    "category": "Signs & Elements",
@@ -7127,6 +7111,14 @@
    "term": "Virgo represent",
    "question": "What does virgo represent in astrology?",
    "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 10,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Library binding",
+   "question": "What is library binding?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 10,
    "source": "google-suggest"
@@ -7207,14 +7199,6 @@
    "term": "Pisces represent",
    "question": "What does pisces represent in astrology?",
    "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 10,
-   "source": "google-suggest"
-  },
-  {
-   "term": "1st house in astrology represent",
-   "question": "What is the 1st house in astrology represent?",
-   "category": "Chart Concepts",
    "icon": "✨",
    "score": 10,
    "source": "google-suggest"
@@ -7636,8 +7620,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Uranus known for",
-   "question": "What is uranus known for?",
+   "term": "Uranus the god of",
+   "question": "What is uranus the god of?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 9,
@@ -8660,16 +8644,16 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leo drawing in the body",
-   "question": "What is leo drawing in the body?",
-   "category": "Signs & Elements",
+   "term": "Leonard county in gta 6",
+   "question": "What is leonard county in gta 6?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 9,
    "source": "google-suggest"
   },
   {
-   "term": "Leo mean in piano",
-   "question": "What does leo mean in piano?",
+   "term": "Leo mean in spanish",
+   "question": "What does leo mean in spanish?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 9,
@@ -8708,9 +8692,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Library binding",
-   "question": "What is library binding?",
-   "category": "Chart Concepts",
+   "term": "Libra sign",
+   "question": "What is libra sign?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 9,
    "source": "google-suggest"
@@ -8791,6 +8775,14 @@
    "term": "Pisces mean in spanish",
    "question": "What does pisces mean in spanish?",
    "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 9,
+   "source": "google-suggest"
+  },
+  {
+   "term": "1st house in astrology represent",
+   "question": "What is the 1st house in astrology represent?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 9,
    "source": "google-suggest"
@@ -9260,8 +9252,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Uranus the god of",
-   "question": "What is uranus the god of?",
+   "term": "Uranus named after",
+   "question": "What is uranus named after?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 8,
@@ -9340,9 +9332,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Chiron in percy jackson",
-   "question": "What is chiron in percy jackson?",
-   "category": "Planets & Bodies",
+   "term": "Chironji in english",
+   "question": "What is chironji in english?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 8,
    "source": "google-suggest"
@@ -9686,14 +9678,6 @@
   {
    "term": "Opposition",
    "question": "What is opposition in astrology?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 8,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Square mile",
-   "question": "What is a square mile?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 8,
@@ -10060,9 +10044,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cuspidor",
-   "question": "What is a cuspidor?",
-   "category": "Chart Concepts",
+   "term": "Cusp on a graph",
+   "question": "What is a cusp on a graph?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 8,
    "source": "google-suggest"
@@ -10204,8 +10188,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aries birthstone",
-   "question": "What is aries birthstone?",
+   "term": "Aries compatible with",
+   "question": "What is aries compatible with?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 8,
@@ -10228,6 +10212,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Gemini spark",
+   "question": "What is gemini spark?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 8,
+   "source": "google-suggest"
+  },
+  {
    "term": "Cancer sign dates",
    "question": "What is cancer sign dates?",
    "category": "Signs & Elements",
@@ -10244,8 +10236,16 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leo mean in spanish",
-   "question": "What does leo mean in spanish?",
+   "term": "Leo drawing in the body",
+   "question": "What is leo drawing in the body?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 8,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Leo mean in piano",
+   "question": "What does leo mean in piano?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 8,
@@ -10284,9 +10284,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Libra sign",
-   "question": "What is libra sign?",
-   "category": "Signs & Elements",
+   "term": "Library science",
+   "question": "What is library science?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 8,
    "source": "google-suggest"
@@ -10892,8 +10892,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Uranus named after",
-   "question": "What is uranus named after?",
+   "term": "Uranus made out of",
+   "question": "What is uranus made out of?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 7,
@@ -10964,9 +10964,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Chironji in english",
-   "question": "What is chironji in english?",
-   "category": "Chart Concepts",
+   "term": "Chiron in percy jackson",
+   "question": "What is chiron in percy jackson?",
+   "category": "Planets & Bodies",
    "icon": "✨",
    "score": 7,
    "source": "google-suggest"
@@ -11132,8 +11132,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Transit aba number",
-   "question": "What is a transit aba number?",
+   "term": "Transit number for a bank",
+   "question": "What is a transit number for a bank?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 7,
@@ -11214,6 +11214,14 @@
   {
    "term": "Filing an opposition",
    "question": "What does filing an opposition mean?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 7,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Square mile",
+   "question": "What is a square mile?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 7,
@@ -11596,9 +11604,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cusp sign",
-   "question": "What is a cusp sign?",
-   "category": "Signs & Elements",
+   "term": "Cuspidor",
+   "question": "What is a cuspidor?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 7,
    "source": "google-suggest"
@@ -11764,8 +11772,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aries compatible with",
-   "question": "What is aries compatible with?",
+   "term": "Aries birthstone",
+   "question": "What is aries birthstone?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 7,
@@ -11804,8 +11812,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Gemini spark",
-   "question": "What is gemini spark?",
+   "term": "Gemini neon",
+   "question": "What is gemini neon?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 7,
@@ -11860,22 +11868,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leonida based on",
-   "question": "What is leonida based on?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 7,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Virgo birthstone",
-   "question": "What is virgo birthstone?",
-   "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 7,
-   "source": "google-suggest"
-  },
-  {
    "term": "Virgo mean as a boy",
    "question": "What does virgo mean as a boy?",
    "category": "Signs & Elements",
@@ -11892,9 +11884,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Library science",
-   "question": "What is library science?",
-   "category": "Chart Concepts",
+   "term": "Libra element",
+   "question": "What is libra element?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 7,
    "source": "google-suggest"
@@ -12436,8 +12428,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Venus surface made of",
-   "question": "What is venus surface made of?",
+   "term": "Venus atmosphere made of",
+   "question": "What is venus atmosphere made of?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 6,
@@ -12524,14 +12516,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Saturnalia",
-   "question": "What is saturnalia?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 6,
-   "source": "google-suggest"
-  },
-  {
    "term": "Saturn mean in the bible",
    "question": "What does saturn mean in the bible?",
    "category": "Planets & Bodies",
@@ -12548,8 +12532,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Uranus made out of",
-   "question": "What is uranus made out of?",
+   "term": "Uranus",
+   "question": "What is uranus in astrology?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 6,
@@ -12788,8 +12772,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Transit number for a bank",
-   "question": "What is a transit number for a bank?",
+   "term": "Transit aba number",
+   "question": "What is a transit aba number?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 6,
@@ -12812,8 +12796,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "House location survey",
-   "question": "What is a house location survey?",
+   "term": "House number",
+   "question": "What is a house number?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 6,
@@ -12902,6 +12886,14 @@
   {
    "term": "Attraction opposition",
    "question": "What does attraction opposition mean in astrology?",
+   "category": "Chart Concepts",
+   "icon": "✨",
+   "score": 6,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Square grouper",
+   "question": "What is a square grouper?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 6,
@@ -13196,8 +13188,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cusp on a graph",
-   "question": "What is a cusp on a graph?",
+   "term": "Cusp sign",
+   "question": "What is a cusp sign?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 6,
@@ -13364,14 +13356,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Gemini 4 neon",
-   "question": "What is gemini 4 neon?",
-   "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 6,
-   "source": "google-suggest"
-  },
-  {
    "term": "Gemini mean for a person",
    "question": "What does gemini mean for a person?",
    "category": "Signs & Elements",
@@ -13428,8 +13412,16 @@
    "source": "google-suggest"
   },
   {
-   "term": "Libra element",
-   "question": "What is libra element?",
+   "term": "Virgo birthstone",
+   "question": "What is virgo birthstone?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 6,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Libra season",
+   "question": "What is libra season?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 6,
@@ -13900,9 +13892,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Venus atmosphere made of",
-   "question": "What is venus atmosphere made of?",
-   "category": "Planets & Bodies",
+   "term": "Venusaur weak to",
+   "question": "What is venusaur weak to?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 5,
    "source": "google-suggest"
@@ -13956,9 +13948,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Saturn the god of",
-   "question": "What is saturn the god of?",
-   "category": "Planets & Bodies",
+   "term": "Saturnalia",
+   "question": "What is saturnalia?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 5,
    "source": "google-suggest"
@@ -13980,8 +13972,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Uranus",
-   "question": "What is uranus in astrology?",
+   "term": "Uranus in one piece",
+   "question": "What is uranus in one piece?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 5,
@@ -14348,14 +14340,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Square grouper",
-   "question": "What is a square grouper?",
-   "category": "Chart Concepts",
-   "icon": "✨",
-   "score": 5,
-   "source": "google-suggest"
-  },
-  {
    "term": "Square mean on a golf scorecard",
    "question": "What does a square mean on a golf scorecard?",
    "category": "Chart Concepts",
@@ -14412,8 +14396,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aspect in diablo 4",
-   "question": "What is an aspect in diablo 4?",
+   "term": "Aspects score",
+   "question": "What is an aspects score?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 5,
@@ -14428,8 +14412,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Retrograde planet",
-   "question": "What is a retrograde planet?",
+   "term": "Retrograde watch",
+   "question": "What is a retrograde watch?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 5,
@@ -14660,9 +14644,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cuspid",
-   "question": "What is a cuspid?",
-   "category": "Chart Concepts",
+   "term": "Cusp in math",
+   "question": "What is a cusp in math?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 5,
    "source": "google-suggest"
@@ -14852,8 +14836,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cancer sign symbol",
-   "question": "What is cancer sign symbol?",
+   "term": "Cancer sign like",
+   "question": "What is cancer sign like?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 5,
@@ -14868,9 +14852,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leon harris doing now",
-   "question": "What is leon harris doing now?",
-   "category": "Chart Concepts",
+   "term": "Leo short for",
+   "question": "What is leo short for?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 5,
    "source": "google-suggest"
@@ -14900,8 +14884,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Libra season",
-   "question": "What is libra season?",
+   "term": "Libra's birthstone",
+   "question": "What is libra's birthstone?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 5,
@@ -15380,8 +15364,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Mercury planet",
-   "question": "What is mercury planet?",
+   "term": "Mercury opinion",
+   "question": "What is mercury opinion?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 4,
@@ -15396,8 +15380,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Venus bliss treatment",
-   "question": "What is venus bliss treatment?",
+   "term": "Venus in right now",
+   "question": "What is venus in right now?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 4,
@@ -15468,6 +15452,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Saturn the god of",
+   "question": "What is saturn the god of?",
+   "category": "Planets & Bodies",
+   "icon": "✨",
+   "score": 4,
+   "source": "google-suggest"
+  },
+  {
    "term": "Saturn mean in love",
    "question": "What does saturn mean in love?",
    "category": "Planets & Bodies",
@@ -15500,8 +15492,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Neptune",
-   "question": "What is neptune in astrology?",
+   "term": "Neptune's distance from the sun",
+   "question": "What is neptune's distance from the sun?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 4,
@@ -15540,9 +15532,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Chiron in astronomy",
-   "question": "What is chiron in astronomy?",
-   "category": "Planets & Bodies",
+   "term": "Chironji",
+   "question": "What is chironji?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 4,
    "source": "google-suggest"
@@ -15636,8 +15628,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Descendant of capricorn rising",
-   "question": "What is the descendant of capricorn rising?",
+   "term": "Descendant sign",
+   "question": "What is the descendant sign in astrology?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 4,
@@ -15732,8 +15724,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Transitory record",
-   "question": "What is a transitory record?",
+   "term": "Transitional year residency",
+   "question": "What is a transitional year residency?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 4,
@@ -15916,8 +15908,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aspects score",
-   "question": "What is an aspects score?",
+   "term": "Aspect ratio in film",
+   "question": "What is an aspect ratio in film?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 4,
@@ -15932,8 +15924,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Retrograde watch",
-   "question": "What is a retrograde watch?",
+   "term": "Retrograde planet",
+   "question": "What is a retrograde planet?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 4,
@@ -16140,9 +16132,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cusp on a tooth",
-   "question": "What is a cusp on a tooth?",
-   "category": "Signs & Elements",
+   "term": "Cuspid",
+   "question": "What is a cuspid?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 4,
    "source": "google-suggest"
@@ -16284,8 +16276,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aries animal",
-   "question": "What is aries animal?",
+   "term": "Aries ruled by",
+   "question": "What is aries ruled by?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 4,
@@ -16332,6 +16324,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Gemini 4 neon",
+   "question": "What is gemini 4 neon?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 4,
+   "source": "google-suggest"
+  },
+  {
    "term": "Gemini mean zodiac",
    "question": "What does gemini mean zodiac?",
    "category": "Signs & Elements",
@@ -16343,6 +16343,14 @@
    "term": "Gemini moon",
    "question": "What does gemini moon mean in astrology?",
    "category": "Phases & Movements",
+   "icon": "✨",
+   "score": 4,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Cancer sign symbol",
+   "question": "What is cancer sign symbol?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 4,
    "source": "google-suggest"
@@ -16364,8 +16372,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leosa",
-   "question": "What is leosa?",
+   "term": "Leonardo dicaprio's net worth",
+   "question": "What is leonardo dicaprio's net worth?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 4,
@@ -16398,14 +16406,6 @@
   {
    "term": "Triple virgo",
    "question": "What does triple virgo mean in astrology?",
-   "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 4,
-   "source": "google-suggest"
-  },
-  {
-   "term": "Libra's birthstone",
-   "question": "What is libra's birthstone?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 4,
@@ -16516,8 +16516,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Pisces planet",
-   "question": "What is pisces planet?",
+   "term": "Pisces spirit animal",
+   "question": "What is pisces spirit animal?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 4,
@@ -16844,8 +16844,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Mercury the god of",
-   "question": "What is mercury the god of?",
+   "term": "Mercury on the periodic table",
+   "question": "What is mercury on the periodic table?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 3,
@@ -16868,9 +16868,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Venusaur weak to",
-   "question": "What is venusaur weak to?",
-   "category": "Chart Concepts",
+   "term": "Venus sign",
+   "question": "What is venus sign?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
    "source": "google-suggest"
@@ -16940,8 +16940,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Uranus in one piece",
-   "question": "What is uranus in one piece?",
+   "term": "Uranus like",
+   "question": "What is uranus like?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 3,
@@ -16964,8 +16964,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Neptune's distance from the sun",
-   "question": "What is neptune's distance from the sun?",
+   "term": "Neptune",
+   "question": "What is neptune in astrology?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 3,
@@ -17012,9 +17012,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Chironji",
-   "question": "What is chironji?",
-   "category": "Chart Concepts",
+   "term": "Chiron in astronomy",
+   "question": "What is chiron in astronomy?",
+   "category": "Planets & Bodies",
    "icon": "✨",
    "score": 3,
    "source": "google-suggest"
@@ -17100,8 +17100,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Descendant sign",
-   "question": "What is the descendant sign in astrology?",
+   "term": "Descendant of capricorn rising",
+   "question": "What is the descendant of capricorn rising?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -17148,8 +17148,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Transit visa",
-   "question": "What is a transit visa?",
+   "term": "Transit number",
+   "question": "What is a transit number?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 3,
@@ -17292,8 +17292,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aspect ratio in film",
-   "question": "What is an aspect ratio in film?",
+   "term": "Aspect in diablo 4",
+   "question": "What is an aspect in diablo 4?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 3,
@@ -17492,8 +17492,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cusp in math",
-   "question": "What is a cusp in math?",
+   "term": "Cusp on a tooth",
+   "question": "What is a cusp on a tooth?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -17604,8 +17604,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aries ruled by",
-   "question": "What is aries ruled by?",
+   "term": "Aries zodiac sign",
+   "question": "What is aries zodiac sign?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -17620,8 +17620,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Taurus sister sign",
-   "question": "What is taurus sister sign?",
+   "term": "Taurus planet",
+   "question": "What is taurus planet?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -17668,14 +17668,6 @@
    "source": "google-suggest"
   },
   {
-   "term": "Cancer sign like",
-   "question": "What is cancer sign like?",
-   "category": "Signs & Elements",
-   "icon": "✨",
-   "score": 3,
-   "source": "google-suggest"
-  },
-  {
    "term": "Green cancer ribbon",
    "question": "What does green cancer ribbon mean?",
    "category": "Signs & Elements",
@@ -17692,9 +17684,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leo short for",
-   "question": "What is leo short for?",
-   "category": "Signs & Elements",
+   "term": "Leonida based on",
+   "question": "What is leonida based on?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 3,
    "source": "google-suggest"
@@ -17726,6 +17718,14 @@
   {
    "term": "Mc in virgo",
    "question": "What does mc in virgo mean in astrology?",
+   "category": "Signs & Elements",
+   "icon": "✨",
+   "score": 3,
+   "source": "google-suggest"
+  },
+  {
+   "term": "Libra dates",
+   "question": "What is libra dates?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -17820,8 +17820,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Pisces most compatible with",
-   "question": "What is pisces most compatible with?",
+   "term": "Pisces planet",
+   "question": "What is pisces planet?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 3,
@@ -18108,6 +18108,14 @@
    "source": "google-suggest"
   },
   {
+   "term": "Mercury the god of",
+   "question": "What is mercury the god of?",
+   "category": "Planets & Bodies",
+   "icon": "✨",
+   "score": 2,
+   "source": "google-suggest"
+  },
+  {
    "term": "Mercury direct",
    "question": "What does mercury direct mean in astrology?",
    "category": "Planets & Bodies",
@@ -18124,8 +18132,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Venus in right now",
-   "question": "What is venus in right now?",
+   "term": "Venus like",
+   "question": "What is venus like?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 2,
@@ -18204,8 +18212,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Uranus like",
-   "question": "What is uranus like?",
+   "term": "Uranus atmosphere made of",
+   "question": "What is uranus atmosphere made of?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 2,
@@ -18244,8 +18252,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Pluto named after",
-   "question": "What is pluto named after?",
+   "term": "Pluto considered now",
+   "question": "What is pluto considered now?",
    "category": "Planets & Bodies",
    "icon": "✨",
    "score": 2,
@@ -18412,9 +18420,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Transition day at school",
-   "question": "What is a transition day at school?",
-   "category": "Chart Concepts",
+   "term": "Transition element",
+   "question": "What is a transition element?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,
    "source": "google-suggest"
@@ -18428,8 +18436,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "House call",
-   "question": "What is a house call?",
+   "term": "House appraisal",
+   "question": "What is a house appraisal?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 2,
@@ -18500,8 +18508,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Square yard",
-   "question": "What is a square yard?",
+   "term": "Square of shingles",
+   "question": "What is a square of shingles?",
    "category": "Chart Concepts",
    "icon": "✨",
    "score": 2,
@@ -18588,8 +18596,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Mercury retrograde over",
-   "question": "What is mercury retrograde over?",
+   "term": "Mercury retrograde in cancer",
+   "question": "What is mercury retrograde in cancer?",
    "category": "Phases & Movements",
    "icon": "✨",
    "score": 2,
@@ -18900,8 +18908,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Aries zodiac sign",
-   "question": "What is aries zodiac sign?",
+   "term": "Aries animal",
+   "question": "What is aries animal?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,
@@ -18924,16 +18932,16 @@
    "source": "google-suggest"
   },
   {
-   "term": "Taurus planet",
-   "question": "What is taurus planet?",
+   "term": "Taurus sister sign",
+   "question": "What is taurus sister sign?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,
    "source": "google-suggest"
   },
   {
-   "term": "Gemini hydrogen",
-   "question": "What is gemini hydrogen?",
+   "term": "Gemini 4 hydrogen",
+   "question": "What is gemini 4 hydrogen?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,
@@ -18980,9 +18988,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Leonardo dicaprio's net worth",
-   "question": "What is leonardo dicaprio's net worth?",
-   "category": "Chart Concepts",
+   "term": "Leo sign",
+   "question": "What is leo sign?",
+   "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,
    "source": "google-suggest"
@@ -19028,9 +19036,9 @@
    "source": "google-suggest"
   },
   {
-   "term": "Libra dates",
-   "question": "What is libra dates?",
-   "category": "Signs & Elements",
+   "term": "Library in spanish",
+   "question": "What is library in spanish?",
+   "category": "Chart Concepts",
    "icon": "✨",
    "score": 2,
    "source": "google-suggest"
@@ -19060,8 +19068,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Scorpio season",
-   "question": "What is scorpio season?",
+   "term": "Scorpio compatible with",
+   "question": "What is scorpio compatible with?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,
@@ -19140,8 +19148,8 @@
    "source": "google-suggest"
   },
   {
-   "term": "Pisces spirit animal",
-   "question": "What is pisces spirit animal?",
+   "term": "Pisces most compatible with",
+   "question": "What is pisces most compatible with?",
    "category": "Signs & Elements",
    "icon": "✨",
    "score": 2,

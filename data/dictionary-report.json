@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "resumo": {
-    "termosPublicados": 129,
+    "termosPublicados": 149,
     "funcionando": 1,
     "quase": 1,
-    "aparecendo": 7,
-    "semDados": 120,
-    "impressoes": 88,
+    "aparecendo": 8,
+    "semDados": 139,
+    "impressoes": 89,
     "cliques": 0
   },
   "metas": {
@@ -32,15 +32,15 @@
   "categorias": [
     {
       "categoria": "Chart Concepts",
-      "termos": 54,
-      "impressoes": 51,
+      "termos": 63,
+      "impressoes": 52,
       "cliques": 0,
-      "impressoesPorTermo": 0.9,
+      "impressoesPorTermo": 0.8,
       "boost": 1.3
     },
     {
       "categoria": "Phases & Movements",
-      "termos": 17,
+      "termos": 19,
       "impressoes": 0,
       "cliques": 0,
       "impressoesPorTermo": 0,
@@ -48,7 +48,7 @@
     },
     {
       "categoria": "Planets & Bodies",
-      "termos": 14,
+      "termos": 15,
       "impressoes": 0,
       "cliques": 0,
       "impressoesPorTermo": 0,
@@ -56,10 +56,10 @@
     },
     {
       "categoria": "Signs & Elements",
-      "termos": 44,
+      "termos": 52,
       "impressoes": 37,
       "cliques": 0,
-      "impressoesPorTermo": 0.8,
+      "impressoesPorTermo": 0.7,
       "boost": 1
     }
   ],
@@ -142,6 +142,16 @@
       "cliques": 0,
       "melhorPosicao": 86,
       "buscasMensaisNoMundo": 520,
+      "veredito": "aparecendo"
+    },
+    {
+      "slug": "what-does-conjunct-mean-in-astrology",
+      "termo": "Conjunct",
+      "categoria": "Chart Concepts",
+      "impressoes": 1,
+      "cliques": 0,
+      "melhorPosicao": 84,
+      "buscasMensaisNoMundo": 1600,
       "veredito": "aparecendo"
     },
     {
@@ -1135,6 +1145,86 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-does-aquarius-moon-mean-in-astrology",
+      "termo": "Aquarius Moon",
+      "categoria": "Phases & Movements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1910,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-chiron-in-scorpio-mean",
+      "termo": "Chiron in Scorpio",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1900,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-ascendant-sign-mean-in-astrology",
+      "termo": "Ascendente",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1900,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-aquarius-star-sign-mean-in-astrology",
+      "termo": "Aquarius",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1900,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-do-gemini-signs-mean-in-astrology",
+      "termo": "Gemini",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1900,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-sun-mean-in-astrology",
+      "termo": "Sun",
+      "categoria": "Planets & Bodies",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1750,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-7th-house-represent",
+      "termo": "7th House",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1670,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-are-secondary-progressions-in-astrology",
+      "termo": "Secondary Progressions",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1620,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-is-a-grand-cross-in-astrology",
       "termo": "Grand Cross",
       "categoria": "Chart Concepts",
@@ -1145,6 +1235,96 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-does-chiron-in-capricorn-mean",
+      "termo": "Chiron in Capricorn",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1600,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-chiron-in-sagittarius-mean",
+      "termo": "Chiron in Sagittarius",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1600,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-leo-moon-mean-in-astrology",
+      "termo": "Leo Moon",
+      "categoria": "Phases & Movements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1600,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-gemini-star-sign-mean-in-astrology",
+      "termo": "Gemini",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1600,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-leo-star-sign-mean-in-astrology",
+      "termo": "Leo",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1600,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-first-house-in-astrology",
+      "termo": "First House",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1500,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-12th-house-represent",
+      "termo": "12th House",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1460,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-lagna-in-astrology",
+      "termo": "Lagna",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1430,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-8th-house-represent",
+      "termo": "8th House",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1340,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-does-a-t-square-mean-in-astrology",
       "termo": "T square",
       "categoria": "Chart Concepts",
@@ -1152,6 +1332,26 @@
       "cliques": 0,
       "melhorPosicao": null,
       "buscasMensaisNoMundo": 1300,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-the-second-house-in-astrology",
+      "termo": "Second House",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1250,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-11th-house-represent",
+      "termo": "11th House",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1200,
       "veredito": "sem-dados"
     },
     {
