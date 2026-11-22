@@ -1,7 +1,15 @@
 name: Site check
+# Saves GitHub minutes: only the main branch and pull requests, never for robot commits that only add data files,
+# and a newer run cancels the older one for the same branch.
 on:
   push:
+    branches: [main]
+    paths-ignore: ['data/**', 'public/stories/**', '**.md']
   pull_request:
+    paths-ignore: ['data/**', 'public/stories/**', '**.md']
+concurrency:
+  group: site-check-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   smoke:
     runs-on: ubuntu-latest

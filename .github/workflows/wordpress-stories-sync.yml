@@ -3,7 +3,7 @@ name: WordPress stories sync
 # (drafts are ignored). The commit makes Cloudflare rebuild the site, and they appear at aurenstar.com/blog/stories/<name>.
 on:
   schedule:
-    - cron: '41 */2 * * *'
+    - cron: '41 */6 * * *'   # publishing in WordPress starts it at once; this is only the safety net
   workflow_dispatch:
 permissions:
   contents: write

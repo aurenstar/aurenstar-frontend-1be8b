@@ -1,9 +1,9 @@
 name: Uptime check
-# Every 30 minutes: opens the site and its key pages. If anything fails, GitHub emails the repository owner.
+# Every 6 hours (was every 30 minutes; that alone used most of the free GitHub minutes): opens the site and its key pages. If anything fails, GitHub emails the repository owner.
 # Set the repository variable SITE_URL (Settings > Secrets and variables > Actions > Variables) once the real domain is live.
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '7 */6 * * *'
   workflow_dispatch:
 jobs:
   check:
