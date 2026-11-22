@@ -24,7 +24,7 @@ const CAP = Number(process.env.STORY_CAP_USD || 0.3);
 // the small model is enough for short hooks and costs about a fifth of the big one
 const MODELS = { write: process.env.STORY_WRITE_MODEL || 'gpt-4.1-mini', review: process.env.OPENAI_MODEL || 'gpt-4.1-mini' };
 const PRICE: Record<string, [number, number]> = { 'gpt-4.1': [2, 8], 'gpt-4.1-mini': [0.4, 1.6] };
-const today = new Date().toISOString().slice(0, 10);
+const today = process.env.STORY_TODAY || new Date().toISOString().slice(0, 10);
 let spent = 0;
 
 const ask: Ask = async (kind, prompt) => {
@@ -55,6 +55,27 @@ if (ONLY !== 'wp') {
     sources.push({ lang: n.lang, slug: `${n.slug}`, title: n.title, summary: n.description, text: `${n.intro}\n${(n.sections || []).map((s: any) => `${s.h2}. ${(s.paragraphs || []).join(' ')}`).join('\n')}`, url: `/${n.lang}/blog/${n.slug}` });
   }
 }
+
+// Stories tied to a date (data/story-seasonal.json): written from "showFrom" on, ahead of the other work, and they send the reader to a related article.
+const seasonal: ArticleSource[] = [];
+{
+  const file = path.join(root, 'data/story-seasonal.json');
+  if (ONLY !== 'wp' && ONLY !== 'native' && fs.existsSync(file)) {
+    const plan = JSON.parse(fs.readFileSync(file, 'utf8'));
+    for (const ev of plan.events as any[]) {
+      if (ev.showFrom > today) continue;
+      const a = (wp as any[]).find((x) => x.id === ev.article);
+      if (!a) continue;
+      for (const lang of plan.langs as string[]) {
+        const t = (v: any) => String(v?.[lang] ?? v?.en ?? '');
+        const slug = getArticleSlug(a);
+        const body = (a.sections || []).slice(0, 3).map((s: any) => `${t(s.heading)}. ${(s.paragraphs || []).map(t).join(' ')}`).join('\n');
+        seasonal.push({ lang, slug: `${ev.id}-${lang}`, title: t(a.title), summary: t(a.subtitle), text: `WHAT IS HAPPENING (${ev.when[lang] || ev.when.en}): ${ev.facts}\n\nTHE ARTICLE THE READER WILL OPEN (it is about the sign, not about the date; the story may use the date as the hook and then promise what the article really gives): ${t(a.title)}. ${body}`, url: `${lang === 'en' ? '' : `/${lang}`}/blog/${slug}` });
+      }
+    }
+  }
+}
+sources.unshift(...seasonal);
 
 const todo = sources.filter((s) => (!LANGS || LANGS.includes(s.lang)) && s.text.length > 200 && !fs.existsSync(path.join(root, 'data/stories', s.lang, `${s.slug}.json`)));
 console.log(`articles without a story: ${todo.length}${DRY ? ' (dry run)' : ''}`);

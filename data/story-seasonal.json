@@ -1,0 +1,38 @@
+{
+  "_note": "Stories tied to a date (moons, solstice, planet turns). The daily story robot writes them from showFrom on, in pt/en/es, and sends the reader to the linked article. Dates checked on 22/11/2026 against several astronomy/astrology calendars; times in UTC, Brazil (Brasilia) is UTC-3.",
+  "langs": ["pt", "en", "es"],
+  "events": [
+    {
+      "id": "lua-nova-sagitario-dez-2026",
+      "date": "2026-12-08",
+      "showFrom": "2026-11-28",
+      "article": "wp-657",
+      "when": { "pt": "na noite de 8 de dezembro (horário de Brasília)", "en": "on 9 December (UTC; the night of 8 December in Brazil)", "es": "el 9 de diciembre (UTC; la noche del 8 en Brasil)" },
+      "facts": "New Moon in Sagittarius (about 16 degrees). A new moon is the start of a lunar cycle: a good moment to set an intention. Sagittarius is about travel, learning, beliefs, optimism and the need for freedom. Exact moment: 9 December 2026, 00:52 UTC."
+    },
+    {
+      "id": "jupiter-retrogrado-leao-dez-2026",
+      "date": "2026-12-13",
+      "showFrom": "2026-12-03",
+      "article": "wp-1778",
+      "when": { "pt": "em meados de dezembro (por volta de 13 de dezembro) até abril de 2027", "en": "from mid-December (around 13 December) until April 2027", "es": "desde mediados de diciembre (hacia el 13) hasta abril de 2027" },
+      "facts": "Jupiter turns retrograde in Leo around 13 December 2026 and stays retrograde until about 12 April 2027. Retrograde means the planet seems to move backwards when seen from Earth; in astrology it is read as a time to review, not to rush. Jupiter is the planet of growth, luck and confidence; Leo is about heart, creativity, pride and being seen."
+    },
+    {
+      "id": "sol-em-capricornio-solsticio-dez-2026",
+      "date": "2026-12-21",
+      "showFrom": "2026-12-11",
+      "article": "wp-1377",
+      "when": { "pt": "em 21 de dezembro", "en": "on 21 December", "es": "el 21 de diciembre" },
+      "facts": "On 21 December 2026 the Sun enters Capricorn at the December solstice: the start of summer in the Southern Hemisphere (Brazil) and of winter in the Northern Hemisphere. Capricorn season is read as a time of discipline, long-term goals, responsibility and building step by step."
+    },
+    {
+      "id": "lua-cheia-cancer-natal-2026",
+      "date": "2026-12-23",
+      "showFrom": "2026-12-13",
+      "article": "wp-1319",
+      "when": { "pt": "na noite de 23 de dezembro (horário de Brasília)", "en": "on 24 December (UTC; the night of 23 December in Brazil)", "es": "el 24 de diciembre (UTC; la noche del 23 en Brasil)" },
+      "facts": "Full Moon in Cancer (about 2 degrees), the last full moon of 2026 and a supermoon, just before Christmas. Exact moment: 24 December 2026, 01:28 UTC. A full moon is a peak: things become visible and feelings run high. Cancer is about home, family, memory, care and emotions."
+    }
+  ]
+}
