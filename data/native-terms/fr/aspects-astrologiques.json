@@ -1,0 +1,61 @@
+{
+ "lang": "fr",
+ "keyword": "aspects astrologiques",
+ "volume": 990,
+ "slug": "aspects-astrologiques",
+ "date": "2026-11-22",
+ "kind": "term",
+ "title": "Aspects astrologiques : comprendre leurs influences",
+ "description": "Les aspects astrologiques révèlent les relations entre planètes et influencent la lecture d’un thème natal en astrologie.",
+ "intro": "Les aspects astrologiques sont les angles formés entre les planètes dans un thème astral. Ils montrent comment ces planètes interagissent et influencent la personnalité ou les événements de vie.",
+ "sections": [
+  {
+   "h2": "Qu’est-ce que les aspects astrologiques ?",
+   "paragraphs": [
+    "En astrologie, les aspects astrologiques désignent les relations angulaires entre deux planètes ou points importants du ciel au moment d’une naissance. Ces angles, mesurés en degrés, créent des énergies spécifiques qui peuvent être harmonieuses ou difficiles. Parmi les aspects les plus connus, on trouve la conjonction (0°), le carré (90°), l’opposition (180°), le trigone (120°) et le sextile (60°). Chaque aspect colore la façon dont deux planètes dialoguent dans un thème natal."
+   ]
+  },
+  {
+   "h2": "Le rôle des aspects astrologiques dans un thème de naissance",
+   "paragraphs": [
+    "Dans un thème natal, les aspects astrologiques sont essentiels pour interpréter la dynamique interne d’une personne. Par exemple, un trigone entre Vénus et Mars peut indiquer une bonne harmonie entre l’expression des sentiments et l’énergie d’action. À l’inverse, un carré entre la Lune et Saturne peut signaler des tensions émotionnelles ou un sentiment de restriction. En observant ces aspects, l’astrologue comprend mieux les forces et les défis qui caractérisent le vécu de chacun."
+   ]
+  },
+  {
+   "h2": "Un exemple simple d’aspects astrologiques au quotidien",
+   "paragraphs": [
+    "Imaginez quelqu’un avec un aspect d’opposition entre Mercure et Jupiter dans son thème. Cela peut se traduire par un dialogue intérieur entre une pensée précise et rigoureuse (Mercure) et un désir d’expansion ou d’idéalisme (Jupiter). Cette tension peut créer des hauts et des bas dans la communication ou la prise de décision, mais aussi une capacité à voir les choses sous plusieurs angles. Ainsi, les aspects astrologiques ne déterminent pas le destin, mais ils invitent à mieux se connaître."
+   ]
+  },
+  {
+   "h2": "Aspects astrologiques et idées associées",
+   "paragraphs": [
+    "Les aspects astrologiques sont liés au fonctionnement des planètes, aux signes du zodiaque et aux maisons astrologiques. Ils s’inscrivent dans une lecture globale du thème astral. Ils peuvent aussi s’étudier en synastrie, pour analyser les relations entre deux personnes. Enfin, ils aident à comprendre les périodes importantes comme les retours de Saturne ou les éclipses, où certaines configurations planétaires deviennent plus marquées."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quels sont les aspects astrologiques les plus importants ?",
+   "a": "Les aspects principaux sont la conjonction, le carré, l’opposition, le trigone et le sextile, chacun ayant une influence différente entre planètes."
+  },
+  {
+   "q": "Les aspects astrologiques changent-ils avec le temps ?",
+   "a": "Dans un thème natal, les aspects sont fixes car ils correspondent au moment précis de la naissance. En revanche, les transits planétaires créent de nouveaux aspects dans le temps."
+  },
+  {
+   "q": "Peut-on avoir plusieurs aspects astrologiques dans un thème ?",
+   "a": "Oui, un thème natal comporte souvent plusieurs aspects entre différentes planètes, ce qui enrichit la complexité de l’interprétation."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "FAQ",
+  "more": "À lire aussi",
+  "dictionary": "Dictionnaire"
+ },
+ "tool": "discover-sign",
+ "term": "what-is-birth-chart"
+}
