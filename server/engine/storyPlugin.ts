@@ -4,7 +4,7 @@
  *   content    = the page markup the plugin keeps (the site later wraps it, see wrapPluginStory)
  * Same look as the site: blue sky picture, white rounded cards, pink pills, blue Montserrat titles, colored logo.
  */
-import { BOILERPLATE, bgPath, coverPath, esc, LOGO, posterPath, type RelatedStory, type WebStory } from './webStory';
+import { BOILERPLATE, GA_ID, bgPath, coverPath, esc, LOGO, posterPath, type RelatedStory, type WebStory } from './webStory';
 
 const W = 412, H = 732;
 const BLUE = '#3982C8', PINK = '#E73578', NAVY = '#172B4D', SOFT = '#647DA5';
@@ -147,6 +147,16 @@ export function wrapPluginStory(w: WpStory, site: string): string {
     });
   // two class attributes on one element are invalid: merge them
   const merged = body.replace(/<([a-z-]+)([^>]*?)\sclass="([^"]*)"([^>]*?)\sclass="([^"]*)"/gi, '<$1$2 class="$3 $5"$4');
+  // measurement: page views, how far people swipe, finishing the story, and the click to the article (Google Analytics 4)
+  const ev = (name: string, extra: Record<string, string> = {}) => ({ request: 'event', vars: { event_name: name, story_slug: w.slug, story_lang: w.lang, ...extra } });
+  const analytics = { vars: { gtag_id: GA_ID, config: { [GA_ID]: { groups: 'default' } } }, triggers: {
+    pageview: { on: 'visible', request: 'pageview' },
+    pageVisible: { on: 'story-page-visible', ...ev('story_page', { story_page_index: '${storyPageIndex}' }) },
+    lastPage: { on: 'story-last-page-visible', ...ev('story_finished') },
+    toArticle: { on: 'story-click-through', ...ev('story_to_article') },
+  } };
+  const analyticsTag = `<amp-analytics type="gtag" data-credentials="include"><script type="application/json">${JSON.stringify(analytics).replace(/</g, '\\u003c')}</script></amp-analytics>`;
+  const withAnalytics = merged.includes('</amp-story>') ? merged.replace(/<\/amp-story>\s*$/, `${analyticsTag}</amp-story>`) : merged;
   const css = `amp-story{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}${[...rules].map(([k, v]) => `.${k}{${v}}`).join('')}`;
   const poster = (w.content.match(/poster-portrait-src="([^"]+)"/) || [])[1] || `${site}/stories/img/bg-air.webp`;
   const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: w.title, description: w.description, datePublished: w.modified, dateModified: w.modified, mainEntityOfPage: url, image: poster, author: { '@type': 'Organization', name: 'Aurenstar' }, publisher: { '@type': 'Organization', name: 'Aurenstar', logo: { '@type': 'ImageObject', url: `${site}${LOGO}` } } };
@@ -156,6 +166,7 @@ export function wrapPluginStory(w: WpStory, site: string): string {
 <meta charset="utf-8">
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&amp;display=swap" rel="stylesheet">
 <title>${esc(w.title)} | Aurenstar</title>
 <link rel="canonical" href="${esc(url)}">
@@ -166,7 +177,7 @@ ${BOILERPLATE}
 <style amp-custom>${css}</style>
 </head>
 <body>
-${merged}
+${withAnalytics}
 </body>
 </html>
 `;

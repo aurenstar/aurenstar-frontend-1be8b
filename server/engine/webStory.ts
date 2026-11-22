@@ -25,6 +25,8 @@ export const posterPath = (s: Pick<WebStory, 'lang' | 'slug'> & { sign?: string;
 export const RTL = new Set(['ar', 'he', 'fa', 'ur']);
 export const bgPath = (t: Theme) => `/stories/img/bg-${t}.webp`;
 export const LOGO = '/stories/img/logo-96.png';
+/** Google Analytics 4 measurement id (public, it is in every page that uses it). Stories and the gallery report to it. */
+export const GA_ID = 'G-WJ710H7JZ7';
 export const LOCALE: Record<string, string> = { pt: 'pt-BR', en: 'en', es: 'es' };
 
 export const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
