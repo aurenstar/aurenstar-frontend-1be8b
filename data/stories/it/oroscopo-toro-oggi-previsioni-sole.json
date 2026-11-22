@@ -1,0 +1,47 @@
+{
+  "lang": "it",
+  "slug": "oroscopo-toro-oggi-previsioni-sole",
+  "date": "2026-11-22",
+  "title": "Oroscopo Toro oggi: scopri cosa ti aspetta!",
+  "description": "Energia, amore e piccoli segreti per vivere al meglio questa giornata. Sei pronto a scoprire cosa dice il cielo per te?",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Sfoglia per saperne di più",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Fatto curioso",
+      "title": "Un inizio lento?",
+      "text": "Se ti svegli con voglia di restare a letto, ascoltala: il Toro trova forza nei piccoli piaceri. Cosa ti riserva oggi questo momento?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Consiglio utile",
+      "title": "Rallenta e gusta",
+      "text": "Una pausa lenta e una passeggiata nella natura possono ricaricarti. Hai mai provato a fermarti davvero a goderti l’istante?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Amore e verità",
+      "title": "Sii autentico oggi",
+      "text": "In amore, la sincerità è la chiave. Un semplice gesto può cambiare tutto. Cosa sceglierai di mostrare oggi?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Esempio reale",
+      "title": "Piccola pausa, grande energia",
+      "text": "Come Laura, che ha ritrovato forza con un pranzo all’aperto. Cosa potresti fare tu per rinnovarti nel pomeriggio?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Scoperta finale",
+      "title": "Cosa ti aspetta oggi",
+      "text": "Nel nostro oroscopo Toro trovi il modo perfetto per affrontare emozioni, lavoro e relazioni. Vuoi sapere come?"
+    }
+  ],
+  "cta": {
+    "text": "Scopri il segreto del Toro",
+    "label": "Leggi l'articolo completo",
+    "url": "/it/blog/oroscopo-toro-oggi-previsioni-sole"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "horoscope-today-friday-november-20-2026-all-12-signs-es",
+  "date": "2026-11-22",
+  "title": "¿Qué sorpresas trae tu horóscopo hoy?",
+  "description": "Descubre cómo el Sol en Escorpio y la Luna creciente influyen en tu amor, trabajo y energía este viernes 20 de noviembre.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Sigue leyendo",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Inesperado",
+      "title": "Amistades que sorprenden",
+      "text": "Aries, una charla matutina puede revelar sueños compartidos que fortalecerán tus lazos más de lo que imaginas."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Consejo",
+      "title": "Toma decisiones sabias",
+      "text": "Tauro, revisar tu presupuesto antes de comprar te mantiene firme en tus metas. ¿Qué gastos podrían esperar?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Oportunidad",
+      "title": "Nuevas conexiones hoy",
+      "text": "Géminis, un brunch casual puede abrir puertas inesperadas. ¿Quién aparecerá en tu día?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Atención",
+      "title": "Energía que pide pausa",
+      "text": "Tu impulso es fuerte, pero un paseo al atardecer te recargará para la noche. ¿Lo intentarás?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Motivo",
+      "title": "Todo en el detalle",
+      "text": "En el artículo completo, verás cómo la Luna en fase Gibosa y el Sol en Escorpio te guían para aprovechar al máximo tu viernes. No te lo pierdas."
+    }
+  ],
+  "cta": {
+    "text": "Descubre tu predicción completa",
+    "label": "Ver horóscopo completo",
+    "url": "/es/blog/horoscope-today-friday-november-20-2026-all-12-signs"
+  }
+}

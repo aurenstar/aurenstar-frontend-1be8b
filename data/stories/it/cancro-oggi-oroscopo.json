@@ -1,0 +1,47 @@
+{
+  "lang": "it",
+  "slug": "cancro-oggi-oroscopo",
+  "date": "2026-11-22",
+  "title": "Cancro oggi: cosa ti riserva il cielo?",
+  "description": "Scopri come le energie di oggi influenzeranno il tuo umore, il lavoro e l’amore. Preparati a vivere la giornata con più consapevolezza.",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Scorri per scoprire",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Sensibilità",
+      "title": "La Luna ti coinvolge",
+      "text": "Oggi ti senti più emotivo: la Luna nel tuo segno ti spinge a mostrare il tuo lato più vero. Come reagirai a questa energia?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Lavoro",
+      "title": "Rileggi prima di agire",
+      "text": "Un dettaglio può fare la differenza. Prenditi il tempo di controllare tutto con calma: potresti evitare un errore importante."
+    },
+    {
+      "theme": "night",
+      "kicker": "Famiglia",
+      "title": "Un gesto che fa bene",
+      "text": "Una chiamata o una visita a un parente possono portarti serenità. Hai già pensato a chi vorresti sentire oggi?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Amore",
+      "title": "Apriti con il cuore",
+      "text": "Se sei in coppia, è il momento di condividere paure e sogni nascosti. Single? Lasciati sorprendere dagli incontri spontanei."
+    },
+    {
+      "theme": "night",
+      "kicker": "Consiglio",
+      "title": "Pazienza e calma",
+      "text": "Ritardi e imprevisti non devono rovinarti la giornata. Scopri come trasformare queste sfide in occasioni di crescita."
+    }
+  ],
+  "cta": {
+    "text": "Vuoi sapere di più?",
+    "label": "Leggi l'articolo completo",
+    "url": "/it/blog/cancro-oggi-oroscopo"
+  }
+}

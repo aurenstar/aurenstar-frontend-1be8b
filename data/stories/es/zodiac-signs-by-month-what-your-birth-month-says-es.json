@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "zodiac-signs-by-month-what-your-birth-month-says-es",
+  "date": "2026-11-22",
+  "title": "¿Qué revela tu mes de nacimiento sobre ti?",
+  "description": "Descubre cómo tu signo zodiacal y mes de nacimiento influyen en tu personalidad y relaciones. ¿Estás listo para conocer tus secretos?",
+  "theme": "water",
+  "kind": "article",
+  "swipe": "Sigue leyendo",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Intriga",
+      "title": "Tu mes influye en ti",
+      "text": "¿Sabías que cada mes revela rasgos únicos según tu signo zodiacal? Esto puede explicar mucho de tu forma de ser."
+    },
+    {
+      "theme": "water",
+      "kicker": "Dato clave",
+      "title": "Enero: disciplina y creatividad",
+      "text": "Capricornio trae orden; Acuario, innovación. ¿Cuál de estos lados crees que domina en ti?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Ejemplo real",
+      "title": "Mayo: curiosidad geminiana",
+      "text": "Los nacidos en mayo suelen ser adaptables y muy curiosos. ¿Te reconoces en estas características?"
+    },
+    {
+      "theme": "water",
+      "kicker": "Relaciones y más",
+      "title": "Junio: energía en acción",
+      "text": "Géminis impulsa el diálogo y la creatividad, pero también un poco de inquietud. ¿Cómo afecta esto tu entorno?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Descubre más",
+      "title": "Zodiacal y personal",
+      "text": "El mes de nacimiento ofrece pistas, pero tu historia añade profundidad. Lee el artículo para entenderlo todo."
+    }
+  ],
+  "cta": {
+    "text": "Descubre tu verdad zodiacal",
+    "label": "Ver artículo completo",
+    "url": "/es/blog/zodiac-signs-by-month-what-your-birth-month-says"
+  }
+}

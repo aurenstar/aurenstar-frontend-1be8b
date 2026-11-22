@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "como-saber-mi-signo-ascendente",
+  "date": "2026-11-22",
+  "title": "¿Sabes qué revela tu signo ascendente?",
+  "description": "Descubre cómo tu ascendente cambia la forma en que te ven los demás y por qué es clave para entender tu personalidad.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Desliza para descubrir",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Dato curioso",
+      "title": "El signo que te muestra al mundo",
+      "text": "Tu ascendente es el signo que aparece en el horizonte al nacer y define cómo te perciben los demás."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Importancia",
+      "title": "Más que tu signo solar",
+      "text": "Mientras el signo solar es tu esencia, el ascendente es tu imagen y estilo. ¿Sabías que pueden ser muy diferentes?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Clave para calcular",
+      "title": "Hora, fecha y lugar",
+      "text": "Tu ascendente cambia cada dos horas. Por eso la hora exacta y el lugar de nacimiento son esenciales."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Ejemplo real",
+      "title": "¿Por qué no encajas?",
+      "text": "Laura tiene Sol en Cáncer pero ascendente en Aries, lo que explica su energía y decisión rápida."
+    },
+    {
+      "theme": "night",
+      "kicker": "Lo que descubrirás",
+      "title": "Tu personalidad completa",
+      "text": "En el artículo te mostramos cómo calcular tu ascendente y descubrir qué dice de ti. ¡Es más importante de lo que crees!"
+    }
+  ],
+  "cta": {
+    "text": "Aprende a calcular tu ascendente",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/como-saber-mi-signo-ascendente"
+  }
+}

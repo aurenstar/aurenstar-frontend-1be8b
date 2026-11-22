@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "como-descobrir-meu-signo-ascendente",
+  "date": "2026-11-22",
+  "title": "Você realmente conhece seu signo ascendente?",
+  "description": "Descubra o que seu ascendente revela sobre você e como descobrir o seu com passos simples.",
+  "theme": "water",
+  "kind": "article",
+  "swipe": "Toque para saber",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Curiosidade",
+      "title": "O que é seu ascendente?",
+      "text": "Ele mostra a primeira impressão que você passa ao mundo, diferente do seu signo solar."
+    },
+    {
+      "theme": "water",
+      "kicker": "Exemplo real",
+      "title": "Como ele muda você",
+      "text": "Áries no sol, mas ascendente em Libra? Você pode parecer mais calmo e diplomático."
+    },
+    {
+      "theme": "night",
+      "kicker": "Dica essencial",
+      "title": "Hora do nascimento importa",
+      "text": "O signo ascendente muda a cada 2 horas. Saber a hora certa faz toda a diferença."
+    },
+    {
+      "theme": "water",
+      "kicker": "Passo a passo",
+      "title": "Como descobrir seu ascendente",
+      "text": "Reúna data, hora e local do nascimento e use uma calculadora confiável, como a nossa."
+    },
+    {
+      "theme": "night",
+      "kicker": "Descubra mais",
+      "title": "Por que conhecer seu ascendente importa",
+      "text": "Ele revela nuances da sua personalidade que seu signo solar não mostra. Quer entender tudo?"
+    }
+  ],
+  "cta": {
+    "text": "Quer saber seu ascendente?",
+    "label": "Leia o artigo completo",
+    "url": "/pt/blog/como-descobrir-meu-signo-ascendente"
+  }
+}

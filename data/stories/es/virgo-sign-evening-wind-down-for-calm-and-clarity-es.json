@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "virgo-sign-evening-wind-down-for-calm-and-clarity-es",
+  "date": "2026-11-22",
+  "title": "¿Sabías que Virgo necesita un ritual nocturno para calmar su mente?",
+  "description": "Descubre por qué las noches estructuradas son clave para los Virgo y cómo su rutina puede transformar sus días.",
+  "theme": "water",
+  "kind": "article",
+  "swipe": "Desliza para saber",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Intriga",
+      "title": "Virgo y su mente atareada",
+      "text": "Tras un día lleno de detalles, Virgo necesita algo más que descansar. ¿Qué ritual crea orden en su mente? Descúbrelo."
+    },
+    {
+      "theme": "water",
+      "kicker": "Dato clave",
+      "title": "Rutina que calma",
+      "text": "Virgo cierra su día dejando pendientes en un diario, liberando la tensión para dormir en paz. ¿Cómo lo logra?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Sorpresa",
+      "title": "No es solo relajación",
+      "text": "Para Virgo, el descanso es un balance entre tareas prácticas y rituales suaves. ¿Qué pasos siguen para desconectar?"
+    },
+    {
+      "theme": "water",
+      "kicker": "Perfil Virgo",
+      "title": "La mente analítica",
+      "text": "Virgo piensa en todo, incluso en la noche, y eso puede impedir el descanso. Su espacio ordenado es vital. ¿Por qué?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Descubre más",
+      "title": "La importancia de la calma",
+      "text": "Sin su rutina, Virgo puede quedar atrapado en la preocupación y perder productividad. ¿Quieres saber cómo evitarlo?"
+    }
+  ],
+  "cta": {
+    "text": "¿Quieres calma y enfoque?",
+    "label": "Leer el artículo",
+    "url": "/es/blog/virgo-sign-evening-wind-down-for-calm-and-clarity"
+  }
+}

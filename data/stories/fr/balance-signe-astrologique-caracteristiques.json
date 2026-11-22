@@ -1,0 +1,47 @@
+{
+  "lang": "fr",
+  "slug": "balance-signe-astrologique-caracteristiques",
+  "date": "2026-11-22",
+  "title": "Balance : ce qui vous surprendra vraiment",
+  "description": "Découvrez les secrets du signe Balance, son besoin d'harmonie et comment il peut influencer votre vie au quotidien.",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Faites glisser",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Surprise",
+      "title": "Balance et harmonie",
+      "text": "Saviez-vous que la Balance cherche avant tout l’équilibre dans toutes ses relations ? Un besoin qui guide chacun de ses choix."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Trait clé",
+      "title": "Le médiateur naturel",
+      "text": "Comme Claire, la Balance apaise les conflits avec calme et diplomatie. Vous vous reconnaîtrez peut-être dans ce talent."
+    },
+    {
+      "theme": "night",
+      "kicker": "Curiosité",
+      "title": "Indécision ou sagesse ?",
+      "text": "La Balance pèse chaque décision, parfois longuement, pour ne rien déséquilibrer. Mais pourquoi cette hésitation constante ?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Atout secret",
+      "title": "Un sens esthétique unique",
+      "text": "Attirée par la beauté sous toutes ses formes, la Balance sait transformer son environnement. Que révèle cela sur vous ?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Invitation",
+      "title": "Votre portrait Balance complet",
+      "text": "Découvrez comment ce signe d’air influence votre caractère, vos forces et faiblesses. Un guide essentiel pour mieux vous comprendre."
+    }
+  ],
+  "cta": {
+    "text": "Découvrez votre profil Balance",
+    "label": "Lire l'article complet",
+    "url": "/fr/blog/balance-signe-astrologique-caracteristiques"
+  }
+}

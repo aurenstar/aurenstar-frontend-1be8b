@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "pisces-sign-pets-which-animal-fits-your-personality-best-es",
+  "date": "2026-11-22",
+  "title": "¿Qué mascota conecta mejor con Piscis? Descúbrelo aquí",
+  "description": "Si eres Piscis, tu mascota ideal va más allá de la belleza: busca un alma que entienda tu sensibilidad y sueños.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Pregunta",
+      "title": "¿Tu mascota te entiende?",
+      "text": "Piscis necesita un compañero que capte sus emociones sin palabras. ¿Sabes qué animal es el indicado?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Rasgo Clave",
+      "title": "Sensibilidad y calma",
+      "text": "Tu naturaleza empática pide un amigo tranquilo que te brinde paz y no te agobie. ¿Quieres saber cuál?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Conexión especial",
+      "title": "Alma soñadora y tierna",
+      "text": "Buscas un animal que inspire y acompañe tus momentos de reflexión. ¿Ya imaginas quién puede ser?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Mascotas ideales",
+      "title": "Gatos y más",
+      "text": "Los gatos cariñosos suelen ser el match perfecto para Piscis. Pero hay otras opciones que encajan igual de bien."
+    },
+    {
+      "theme": "night",
+      "kicker": "Lo más importante",
+      "title": "¿Por qué importa elegir bien?",
+      "text": "Tu mascota puede ser tu refugio y musa diaria. En el artículo descubrirás qué animal potenciará tu mundo interior."
+    }
+  ],
+  "cta": {
+    "text": "Descubre tu mascota ideal",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/pisces-sign-pets-which-animal-fits-your-personality-best"
+  }
+}

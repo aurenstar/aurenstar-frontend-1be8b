@@ -1,0 +1,47 @@
+{
+  "lang": "vi",
+  "slug": "giai-ma-cung-hoang-dao-co-ban",
+  "date": "2026-11-22",
+  "title": "Bạn đã thực sự hiểu về cung hoàng đạo chưa?",
+  "description": "Khám phá ý nghĩa 12 cung, cách xác định chính xác và bí mật thú vị mà bạn chưa biết về cung của mình.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Vuốt để khám phá",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Bí ẩn cung",
+      "title": "Cung hoàng đạo là gì?",
+      "text": "Mỗi người sinh ra đều thuộc một cung, đại diện cho tính cách và tiềm năng riêng. Bạn đã biết mình thuộc cung nào chưa?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Cách xác định",
+      "title": "Dựa vào ngày sinh",
+      "text": "Chỉ cần nhớ ngày sinh, bạn có thể biết mình thuộc cung nào trong 12 chòm sao. Bạn có thuộc nhóm nổi bật nào không?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Điểm đặc trưng",
+      "title": "Tính cách từng cung",
+      "text": "Bạch Dương nhiệt huyết, Song Ngư mơ mộng... Bạn có biết cung mình phản ánh điều gì thú vị về bạn?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Câu chuyện thực",
+      "title": "Xác định ranh giới cung",
+      "text": "Sinh sát ngày chuyển giao giữa hai cung? Có công cụ giúp bạn chính xác hơn, giúp bạn hiểu sâu về bản thân hơn đấy."
+    },
+    {
+      "theme": "night",
+      "kicker": "Khám phá sâu",
+      "title": "Ý nghĩa và ứng dụng",
+      "text": "Bài viết không chỉ giải thích cung hoàng đạo mà còn giúp bạn phát triển bản thân, hiểu người thân và bạn bè tốt hơn."
+    }
+  ],
+  "cta": {
+    "text": "Tìm hiểu chi tiết ngay",
+    "label": "Xem bài viết đầy đủ",
+    "url": "/vi/blog/giai-ma-cung-hoang-dao-co-ban"
+  }
+}

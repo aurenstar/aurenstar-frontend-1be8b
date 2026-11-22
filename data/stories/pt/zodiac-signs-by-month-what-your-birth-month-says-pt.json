@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "zodiac-signs-by-month-what-your-birth-month-says-pt",
+  "date": "2026-11-22",
+  "title": "O que seu mês de nascimento diz sobre você?",
+  "description": "Descubra como cada mês molda sua personalidade, comportamento e relações segundo seu signo do zodíaco.",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Toque para descobrir",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Curiosidade",
+      "title": "Você é mais que seu signo",
+      "text": "Cada mês combina um ou dois signos que influenciam traços únicos da sua personalidade. Já percebeu como isso afeta seu jeito?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Exemplo real",
+      "title": "Janeiro: foco ou inovação?",
+      "text": "Capricornianos planejam tudo com precisão, enquanto aquarianos buscam mudanças ousadas. Qual lado você se encaixa?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Detalhe surpreendente",
+      "title": "Junho revela sua energia",
+      "text": "Gêmeos de junho são flexíveis e comunicativos. Isso muda a forma como você lida com conflitos e ideias novas."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Entenda melhor",
+      "title": "Mais que só o mês de nascimento",
+      "text": "Seus hábitos e emoções também são moldados pelo signo do mês. Já sentiu alguma dessas influências no trabalho ou amigos?"
+    },
+    {
+      "theme": "night",
+      "kicker": "O que vem no artigo",
+      "title": "Descubra o que seu mês mostra",
+      "text": "No artigo completo, explore como seu signo afeta seu dia a dia e relações. Saber isso pode transformar sua visão de si mesmo."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender seu signo melhor?",
+    "label": "Leia o artigo completo",
+    "url": "/pt/blog/zodiac-signs-by-month-what-your-birth-month-says"
+  }
+}
