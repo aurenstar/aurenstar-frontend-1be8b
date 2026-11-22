@@ -166,7 +166,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
 
     // newest = highest WordPress number first; most popular = most visits (src/data/articleViews.json), then newest; longest read = most minutes, then newest
     const num = (a: BlogArticleContent) => Number((a as any).wordpress?.id) || Number(String(a.id).replace(/\D/g, '')) || 0;
-    const views = (a: BlogArticleContent) => (articleViews as Record<string, number>)[(a as any).wordpress?.slug] || 0;
+    const views = (a: BlogArticleContent) => (articleViews as Record<string, number>)[getArticleSlugById(a.id)] || 0;
     const mins = (a: BlogArticleContent) => parseInt(a.readTime.pt) || 0;
     result = [...result].sort((a, b) => {
       if (sortBy === 'popular') return views(b) - views(a) || num(b) - num(a);
