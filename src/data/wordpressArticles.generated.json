@@ -1029,8 +1029,11 @@
     "wordpress": {
       "id": 1908,
       "slug": "virgo-sign-friendship-red-flags",
-      "modified": "2026-11-22T14:30:04"
-    }
+      "modified": "2026-11-22T15:10:03"
+    },
+    "related": [
+      "wp-1784"
+    ]
   },
   {
     "id": "wp-1862",
@@ -3514,8 +3517,12 @@
     "wordpress": {
       "id": 1787,
       "slug": "virgo-sign-new-moon-energy",
-      "modified": "2026-11-20T23:14:04"
-    }
+      "modified": "2026-11-22T15:10:03"
+    },
+    "related": [
+      "wp-1784",
+      "wp-1908"
+    ]
   },
   {
     "id": "wp-1784",
@@ -3810,8 +3817,11 @@
     "wordpress": {
       "id": 1784,
       "slug": "virgo-sign-evening-wind-down",
-      "modified": "2026-11-20T23:14:04"
-    }
+      "modified": "2026-11-22T15:10:04"
+    },
+    "related": [
+      "wp-1908"
+    ]
   },
   {
     "id": "wp-1781",
@@ -4339,8 +4349,11 @@
     "wordpress": {
       "id": 1778,
       "slug": "leo-sign-new-moon",
-      "modified": "2026-11-20T20:30:03"
-    }
+      "modified": "2026-11-22T15:10:04"
+    },
+    "related": [
+      "wp-1790"
+    ]
   },
   {
     "id": "wp-1775",
@@ -11071,10 +11084,11 @@
     "wordpress": {
       "id": 1438,
       "slug": "leo-body-language-interest",
-      "modified": "2026-11-19T15:10:04"
+      "modified": "2026-11-22T15:10:03"
     },
     "related": [
-      "wp-1432"
+      "wp-1432",
+      "wp-1790"
     ]
   },
   {
