@@ -24,8 +24,8 @@ const id = (s: string) => `${s}-${++uid}`;
 function screen(bg: string, logoSrc: string, site: string, parts: El[]): El[] {
   return [
     { kind: 'img', src: site + bg, w0: 720, h0: 1280, x: 0, y: 0, w: W, h: H, bg: true },
-    { kind: 'shape', color: '#FFFFFF', x: 20, y: 26, w: 128, h: 44, radius: 22 },
-    { kind: 'img', src: logoSrc, w0: 540, h0: 180, x: 32, y: 34, w: 108, h: 36 },
+    { kind: 'shape', color: '#FFFFFF', x: 20, y: 26, w: 132, h: 48, radius: 24 },
+    { kind: 'img', src: logoSrc, w0: 540, h0: 180, x: 32, y: 31, w: 108, h: 36 },
     ...parts,
   ];
 }

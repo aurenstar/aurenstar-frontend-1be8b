@@ -54,7 +54,7 @@ export const BOILERPLATE =
 const CSS = `
 amp-story{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#172B4D}
 .low{padding:28px 24px 96px;align-content:end}
-.logo{position:absolute;top:26px;left:20px;background:#fff;border-radius:999px;padding:6px 14px;box-shadow:0 4px 14px rgba(23,54,111,.25)}
+.logo{position:absolute;top:26px;left:20px;line-height:0;background:#fff;border-radius:999px;padding:6px 14px;box-shadow:0 4px 14px rgba(23,54,111,.25)}
 .card{background:rgba(255,255,255,.95);border:1px solid #D9E8F8;border-radius:28px;padding:26px 24px 28px;box-shadow:0 10px 30px rgba(23,54,111,.25)}
 .k{display:inline-block;margin:0 0 14px;padding:6px 14px;border-radius:999px;background:#E73578;color:#fff;font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:700}
 h1,h2{margin:0 0 12px;line-height:1.1;font-family:Montserrat,-apple-system,"Segoe UI",Arial,sans-serif;font-weight:800;color:#3982C8}
