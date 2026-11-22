@@ -3,7 +3,7 @@
  * Same look as the site (sky blue background, white rounded cards, Montserrat titles, pink pills).
  * Plain HTML, no scripts: fast, and Google can follow every link.
  */
-import { esc, LOGO } from './webStory';
+import { esc, GA_ID, LOGO } from './webStory';
 import type { WpStory } from './storyPlugin';
 
 const ORDER = ['en', 'pt', 'es'];
@@ -42,6 +42,8 @@ export function renderStoriesIndex(stories: WpStory[], site: string): string {
 <link rel="canonical" href="${esc(url)}/">
 <link rel="icon" href="/favicon-32.png" sizes="32x32">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=${GA_ID}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","${GA_ID}");</script>
 <script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#C9E5FF;color:#172B4D;font-family:Montserrat,system-ui,sans-serif}
