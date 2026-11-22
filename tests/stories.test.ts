@@ -86,4 +86,25 @@ ok('robot story: Arabic page is right to left', renderWebStory({ ...(built.story
   const wpList = (await import('../src/data/wordpressArticles.generated.json')).default as any[];
   ok('seasonal plan: every event has date, showFrom before date, text for every language and an existing article', plan.events.length > 0 && plan.events.every((e: any) => /^\d{4}-\d{2}-\d{2}$/.test(e.date) && e.showFrom < e.date && e.facts.length > 60 && plan.langs.every((l: string) => e.when[l]) && wpList.some((a) => a.id === e.article)));
 }
+// OpenAI batch mode (fake network)
+{
+  const { submitBatch, readBatch } = await import('../scripts/stories/batch');
+  const seen: string[] = [];
+  const fake = (statusObj: any, lines = '') => (async (url: any, init?: any) => {
+    const u = String(url); seen.push(`${init?.method || 'GET'} ${u.replace(/^.*\/v1/, '')}`);
+    const json = (o: any) => new Response(JSON.stringify(o), { status: 200 });
+    if (u.endsWith('/files') ) return json({ id: 'f1' });
+    if (u.endsWith('/batches')) return json({ id: 'b1' });
+    if (u.includes('/batches/')) return json(statusObj);
+    return new Response(lines, { status: 200 });
+  }) as unknown as typeof fetch;
+  const id = await submitBatch('k', 'gpt-4.1-mini', [{ id: 'a', prompt: 'x' }], 0.8, fake({}));
+  ok('batch: submit uploads the file then creates the batch', id === 'b1' && seen[0].startsWith('POST /files') && seen[1].startsWith('POST /batches'));
+  ok('batch: still running = waiting', (await readBatch('k', 'b1', fake({ status: 'in_progress' }))).state === 'waiting');
+  ok('batch: failed or expired = dead', (await readBatch('k', 'b1', fake({ status: 'expired' }))).state === 'dead');
+  const line = JSON.stringify({ custom_id: 'a', response: { status_code: 200, body: { choices: [{ message: { content: '{"title":"t"}' } }], usage: { prompt_tokens: 10, completion_tokens: 5 } } } });
+  const bad = JSON.stringify({ custom_id: 'b', response: { status_code: 500, body: {} } });
+  const done = await readBatch('k', 'b1', fake({ status: 'completed', output_file_id: 'o1' }, `${line}\n${bad}\nnot json`));
+  ok('batch: completed = answers by id, bad lines skipped', done.state === 'done' && done.answers.size === 1 && done.answers.get('a')?.json.title === 't' && done.answers.get('a')?.promptTokens === 10);
+}
 process.exit(failed ? 1 : 0);

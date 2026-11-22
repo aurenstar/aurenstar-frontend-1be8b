@@ -9,6 +9,7 @@ on:
       max: { description: 'Most stories in this run', default: '40' }
       cap: { description: 'Most US$ this run may spend', default: '0.30' }
       only: { description: 'wp (blog articles), native (native articles) or empty = both', default: '' }
+      batch: { description: '1 = ask OpenAI in a batch (half price, stories arrive the next run); 0 = write right now', default: '1' }
 permissions:
   contents: write
   actions: write
@@ -33,6 +34,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           STORY_CAP_USD: ${{ github.event.inputs.cap || '0.30' }}
+          STORY_BATCH: ${{ github.event.inputs.batch || '1' }}
         run: |
           args="--max ${{ github.event.inputs.max || '40' }}"
           if [ -n "${{ github.event.inputs.only }}" ]; then args="$args --only ${{ github.event.inputs.only }}"; fi
@@ -43,11 +45,11 @@ jobs:
           npx tsx tests/stories.test.ts
       - name: Save
         run: |
-          if [ -n "$(git status --porcelain data/stories)" ]; then
+          if [ -n "$(git status --porcelain data/stories data/story-batch.json)" ]; then
             git config user.name "aurenstar-bot"
             git config user.email "bot@aurenstar.com"
-            git add data/stories
-            git commit -m "Web Stories: new ones made from articles"
+            git add -A data/stories data/story-batch.json
+            git commit -m "Web Stories: new ones made from articles (and the batch waiting for tomorrow)"
             git pull --rebase origin main
             git push
           fi
