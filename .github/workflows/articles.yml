@@ -1,7 +1,6 @@
 name: Article translations
+# TURNED OFF by the owner on 2026-11-21 (no automatic start any more; the site translates on its own). It can still be run by hand (Run workflow).
 on:
-  schedule:
-    - cron: '47 7 * * *'   # once a day (it used to also run after every WordPress sync, which spent many GitHub minutes)
   workflow_dispatch:
   push:
     branches: [seo-tecnico]
