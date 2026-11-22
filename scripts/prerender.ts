@@ -24,6 +24,7 @@ import { ASTROLOGY_DICTIONARY_TERMS } from '../src/data/astrologyDictionaryData'
 import { hreflangLinks, langUrl } from '../server/engine/localizePage';
 import { renderWebStory, checkStory, storyPath, type WebStory } from '../server/engine/webStory';
 import { wrapPluginStory, type WpStory } from '../server/engine/storyPlugin';
+import { renderStoriesIndex } from '../server/engine/storiesIndex';
 import { renderNativeArticle, renderNativeHub, pathOf, hubPath, type NativeArticle } from '../server/engine/nativeArticle';
 import { URL_LANGUAGES } from '../src/utils/urlLang';
 import { getArticleIsoDate, getArticleSlug } from '../src/utils/articleSlug';
@@ -324,6 +325,11 @@ for (const w of wpStories) {
   fs.mkdirSync(path.join(dist, 'blog', 'stories'), { recursive: true });
   fs.writeFileSync(path.join(dist, 'blog', 'stories', `${w.slug}.html`), wrapPluginStory(w, SITE_URL));
   storyUrls.push({ loc: `${SITE_URL}/blog/stories/${w.slug}`, lastmod: w.modified });
+}
+if (wpStories.length) {
+  fs.mkdirSync(path.join(dist, 'blog', 'stories'), { recursive: true });
+  fs.writeFileSync(path.join(dist, 'blog', 'stories', 'index.html'), renderStoriesIndex(wpStories, SITE_URL));
+  storyUrls.unshift({ loc: `${SITE_URL}/blog/stories`, lastmod: wpStories.map((w) => w.modified).sort().pop() as string });
 }
 if (storyUrls.length) fs.writeFileSync(path.join(dist, 'sitemap-stories.xml'), urlset(storyUrls.map((u) => `  <url><loc>${escapeXml(u.loc)}</loc><lastmod>${u.lastmod}</lastmod></url>`).join('\n')));
 
