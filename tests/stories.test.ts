@@ -80,10 +80,10 @@ ok('robot story: Arabic page is right to left', renderWebStory({ ...(built.story
   ok('article story: 4 screens are rejected', !(await buildArticleStory(art, fakeAsk({ ...goodW(), pages: [1, 2, 3, 4].map(pageW) }), '2026-11-17')).story);
   ok('article story: the prompt carries the article and the click goal', promptForArticle(art).includes('Sternzeichen Löwe') && promptForArticle(art).includes('HOOK') && promptForArticle(art).includes('German'));
 }
-process.exit(failed ? 1 : 0);
 // stories tied to dates (data/story-seasonal.json)
 {
   const plan = JSON.parse(fs.readFileSync(path.join(root, '..', 'story-seasonal.json'), 'utf8'));
   const wpList = (await import('../src/data/wordpressArticles.generated.json')).default as any[];
   ok('seasonal plan: every event has date, showFrom before date, text for every language and an existing article', plan.events.length > 0 && plan.events.every((e: any) => /^\d{4}-\d{2}-\d{2}$/.test(e.date) && e.showFrom < e.date && e.facts.length > 60 && plan.langs.every((l: string) => e.when[l]) && wpList.some((a) => a.id === e.article)));
 }
+process.exit(failed ? 1 : 0);
