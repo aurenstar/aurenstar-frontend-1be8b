@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-22",
   "resumo": {
-    "termosPublicados": 149,
+    "termosPublicados": 169,
     "funcionando": 1,
     "quase": 1,
-    "aparecendo": 8,
-    "semDados": 139,
-    "impressoes": 89,
+    "aparecendo": 9,
+    "semDados": 158,
+    "impressoes": 92,
     "cliques": 0
   },
   "metas": {
@@ -32,7 +32,7 @@
   "categorias": [
     {
       "categoria": "Chart Concepts",
-      "termos": 63,
+      "termos": 68,
       "impressoes": 52,
       "cliques": 0,
       "impressoesPorTermo": 0.8,
@@ -40,7 +40,7 @@
     },
     {
       "categoria": "Phases & Movements",
-      "termos": 19,
+      "termos": 21,
       "impressoes": 0,
       "cliques": 0,
       "impressoesPorTermo": 0,
@@ -48,7 +48,7 @@
     },
     {
       "categoria": "Planets & Bodies",
-      "termos": 15,
+      "termos": 16,
       "impressoes": 0,
       "cliques": 0,
       "impressoesPorTermo": 0,
@@ -56,10 +56,10 @@
     },
     {
       "categoria": "Signs & Elements",
-      "termos": 52,
-      "impressoes": 37,
+      "termos": 64,
+      "impressoes": 40,
       "cliques": 0,
-      "impressoesPorTermo": 0.7,
+      "impressoesPorTermo": 0.6,
       "boost": 1
     }
   ],
@@ -112,6 +112,16 @@
       "cliques": 0,
       "melhorPosicao": 37,
       "buscasMensaisNoMundo": 0,
+      "veredito": "aparecendo"
+    },
+    {
+      "slug": "what-does-venus-sign-mean-in-astrology",
+      "termo": "Venus Sign",
+      "categoria": "Signs & Elements",
+      "impressoes": 3,
+      "cliques": 0,
+      "melhorPosicao": 3,
+      "buscasMensaisNoMundo": 1300,
       "veredito": "aparecendo"
     },
     {
@@ -1335,6 +1345,66 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-does-capricorn-urdu-mean-in-astrology",
+      "termo": "Capricorn Urdu",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1300,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-chiron-in-the-8th-house-mean",
+      "termo": "Chiron 8ª Casa",
+      "categoria": "Planets & Bodies",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1300,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-chiron-in-libra-mean",
+      "termo": "Chiron in Libra",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1300,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-gemini-rising-mean-in-astrology",
+      "termo": "Gemini Rising",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1300,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-leo-moon-sign-mean-in-astrology",
+      "termo": "Moon in Leo",
+      "categoria": "Phases & Movements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1300,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-aries-rising-mean-in-astrology",
+      "termo": "Aries Rising",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1300,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-is-the-second-house-in-astrology",
       "termo": "Second House",
       "categoria": "Chart Concepts",
@@ -1355,6 +1425,36 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-does-the-sun-in-aries-mean",
+      "termo": "Sun in Aries",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1200,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-saturn-in-aries-mean",
+      "termo": "Saturn in Aries",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1170,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-venus-in-taurus-mean",
+      "termo": "Venus in Taurus",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1160,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-is-a-quincunx-in-astrology",
       "termo": "Quincunx",
       "categoria": "Chart Concepts",
@@ -1365,6 +1465,86 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-is-the-eleventh-house-in-astrology",
+      "termo": "Eleventh house",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1000,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-the-sixth-house-in-astrology",
+      "termo": "Sixth House",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1000,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-chiron-in-cancer-mean",
+      "termo": "Chiron in Cancer",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1000,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-chiron-in-pisces-mean",
+      "termo": "Chiron em Peixes",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1000,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-chiron-in-virgo-mean",
+      "termo": "Chiron in Virgo",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1000,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-eclipse-spiritual-mean-in-astrology",
+      "termo": "Eclipse espiritual",
+      "categoria": "Phases & Movements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 1000,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-aquarius-zodiac-symbol-mean-in-astrology",
+      "termo": "Aquarius Symbol",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 980,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-5th-house-represent",
+      "termo": "5th House",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 870,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-does-the-blood-moon-mean-in-astrology",
       "termo": "Blood Moon",
       "categoria": "Phases & Movements",
@@ -1372,6 +1552,26 @@
       "cliques": 0,
       "melhorPosicao": null,
       "buscasMensaisNoMundo": 840,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-an-orb-in-astrology",
+      "termo": "Orb",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 780,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-the-third-house-in-astrology",
+      "termo": "Third House",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 760,
       "veredito": "sem-dados"
     },
     {
