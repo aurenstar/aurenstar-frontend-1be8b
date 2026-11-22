@@ -21,9 +21,17 @@ const langOf = new Map<string, string>();
 const sd = path.join(root, 'data/stories');
 for (const l of fs.readdirSync(sd)) for (const f of fs.readdirSync(path.join(sd, l)).filter((x) => x.endsWith('.json'))) langOf.set(f.replace(/\.json$/, ''), l);
 
-const res = await fetch(`${WP}/wp-json/web-stories/v1/web-story?status=publish&per_page=100&context=edit&_fields=slug,title,excerpt,content,modified_gmt`, { headers: { Authorization: 'Basic ' + Buffer.from(`${USER}:${PASS}`).toString('base64') } });
-if (!res.ok) { console.error(`WordPress answered ${res.status}. Nothing changed.`); process.exit(1); }
-const list = (await res.json()) as any[];
+const headers = { Authorization: 'Basic ' + Buffer.from(`${USER}:${PASS}`).toString('base64') };
+const list: any[] = [];
+// WordPress gives at most 100 per page: ask page after page until it runs out
+for (let page = 1; page <= 20; page++) {
+  const res = await fetch(`${WP}/wp-json/web-stories/v1/web-story?status=publish&per_page=100&page=${page}&context=edit&_fields=slug,title,excerpt,content,modified_gmt`, { headers });
+  if (res.status === 400 && page > 1) break; // page past the end
+  if (!res.ok) { console.error(`WordPress answered ${res.status}. Nothing changed.`); process.exit(1); }
+  const part = (await res.json()) as any[];
+  list.push(...part);
+  if (part.length < 100) break;
+}
 const strip = (s: string) => String(s || '').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 fs.mkdirSync(OUT, { recursive: true });
 const keep = new Set<string>();
