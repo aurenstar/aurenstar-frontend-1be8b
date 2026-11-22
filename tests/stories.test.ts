@@ -62,7 +62,8 @@ ok('robot story: Arabic page is right to left', renderWebStory({ ...(built.story
   ok('plugin story: keep-reading cards point to /blog/stories', rel.length === 3 && rel.every((r) => pl.content.includes(`${SITE}${r.url}`)));
   const page = wrapPluginStory({ slug: s.slug, lang: 'pt-BR', title: s.title, description: s.description, modified: '2026-11-17', content: pl.content }, SITE);
   ok('wp story page: AMP story with canonical on /blog/stories', /<html amp /.test(page) && page.includes(`<link rel="canonical" href="${SITE}/blog/stories/${s.slug}">`) && page.includes('<amp-story standalone'));
-  ok('wp story page: no inline style attributes and no scripts from content', !/\sstyle="/.test(page.split('</head>')[1]) && !/<script/i.test(page.split('</head>')[1]));
+  ok('wp story page: no inline style attributes and no scripts from content', !/\sstyle="/.test(page.split('</head>')[1]) && !/<script/i.test(page.split('</head>')[1].replace(/<amp-analytics[\s\S]*?<\/amp-analytics>/g, '')));
+  ok('wp story page: Google Analytics reports views, swipes, finishing and the click to the article', page.includes('<amp-analytics type="gtag"') && ['story-page-visible', 'story-last-page-visible', 'story-click-through'].every((t) => page.includes(t)));
   ok('wp story page: poster and publisher kept', page.includes('poster-portrait-src=') && page.includes('publisher="Aurenstar"'));
 }
 // stories made from existing articles (to bring readers to the article)
