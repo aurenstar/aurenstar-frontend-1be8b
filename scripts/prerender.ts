@@ -160,6 +160,15 @@ const seen = new Set<string>();
 const sitemap: { loc: string; path: string; lastmod?: string }[] = [];
 const redirects: string[] = [];
 
+// Which languages we ask Google to index: the three main ones plus every language that already has native articles (written from what people
+// search in that country). The other languages (translated copies) stay reachable and keep their hreflang, but are left out of the sitemap so Google
+// spends its time on the pages that matter. A language enters the sitemap on its own as soon as it gets its first native article.
+// Set SITEMAP_ALL=1 to put every language back.
+const hasFiles = (d: string) => fs.existsSync(path.join(root, d)) && fs.readdirSync(path.join(root, d)).some((x) => x.endsWith('.json'));
+const strongLangs = new Set<string>(['en', 'pt', 'es']);
+for (const d of ['data/native-articles', 'data/native-terms']) if (fs.existsSync(path.join(root, d))) for (const l of fs.readdirSync(path.join(root, d))) if (hasFiles(`${d}/${l}`)) strongLangs.add(l);
+const sitemapLangs = () => URL_LANGUAGES.filter((l) => strongLangs.has(l) || process.env.SITEMAP_ALL === '1');
+
 function emit(seo: SeoData, lastmod?: string, body = '') {
   if (seen.has(seo.path)) return;
   seen.add(seo.path);
@@ -267,7 +276,7 @@ const urlEntries = (items: typeof sitemap) =>
       const mod = lastmod ? `<lastmod>${lastmod}</lastmod>` : '';
       return [
         `  <url><loc>${escapeXml(loc)}</loc>${mod}</url>`,
-        ...URL_LANGUAGES.map((l) => `  <url><loc>${escapeXml(langUrl(pagePath, l))}</loc>${mod}</url>`),
+        ...sitemapLangs().map((l) => `  <url><loc>${escapeXml(langUrl(pagePath, l))}</loc>${mod}</url>`),
       ];
     })
     .join('\n');
@@ -443,5 +452,5 @@ fs.writeFileSync(
 );
 
 console.log(
-  `prerender: ${seen.size} pages written, ${nativeAll.length} native articles, ${sitemap.length * (URL_LANGUAGES.length + 1)} URLs in sitemap, ${redirects.length} redirect rules (${SITE_URL})`
+  `prerender: ${seen.size} pages written, ${nativeAll.length} native articles, ${sitemap.length * (sitemapLangs().length + 1)} URLs in sitemap (${[...strongLangs].filter((l) => URL_LANGUAGES.includes(l as any)).length + 0} languages; the rest are left out on purpose), ${redirects.length} redirect rules (${SITE_URL})`
 );
