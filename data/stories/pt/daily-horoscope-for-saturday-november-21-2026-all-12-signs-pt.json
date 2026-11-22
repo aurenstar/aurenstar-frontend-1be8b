@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "daily-horoscope-for-saturday-november-21-2026-all-12-signs-pt",
+  "date": "2026-11-22",
+  "title": "Seu sábado sob o Sol de Escorpião: o que esperar?",
+  "description": "Em 21 de novembro, emoções profundas e descobertas inesperadas te aguardam. Prepare-se para transformar seu dia!",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Toque para saber",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Surpresa",
+      "title": "Conexões que emocionam",
+      "text": "Você pode se ver em conversas sinceras que revelam novos laços. Já sentiu isso hoje?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Detalhe",
+      "title": "Trabalho com surpresas",
+      "text": "Um projeto difícil pode trazer avanços inesperados se você permitir um momento criativo."
+    },
+    {
+      "theme": "night",
+      "kicker": "Dica",
+      "title": "Reveja seus gastos",
+      "text": "Pequenos ajustes no orçamento hoje podem liberar recursos para algo especial que você deseja."
+    },
+    {
+      "theme": "earth",
+      "kicker": "Momento",
+      "title": "Ritual para recarregar",
+      "text": "Uma pausa calma, como um chá quente, pode renovar sua energia para o que vem pela frente."
+    },
+    {
+      "theme": "night",
+      "kicker": "Convite",
+      "title": "Quer saber mais?",
+      "text": "O horóscopo completo revela como aproveitar essa fase lunar para transformar cada área da sua vida."
+    }
+  ],
+  "cta": {
+    "text": "Descubra seu horóscopo hoje",
+    "label": "Leia o horóscopo",
+    "url": "/pt/blog/daily-horoscope-for-saturday-november-21-2026-all-12-signs"
+  }
+}

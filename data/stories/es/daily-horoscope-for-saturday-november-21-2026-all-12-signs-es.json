@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "daily-horoscope-for-saturday-november-21-2026-all-12-signs-es",
+  "date": "2026-11-22",
+  "title": "¿Qué revelará tu signo este sábado?",
+  "description": "Descubre cómo la Luna y el Sol en Escorpio influyen en tus emociones y decisiones hoy, 21 de noviembre.",
+  "theme": "water",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "water",
+      "kicker": "Pregunta clave",
+      "title": "¿Qué emociones aparecen?",
+      "text": "Hoy, bajo el Sol en Escorpio, tus sentimientos se intensifican. ¿Listo para descubrir qué verdades ocultas salen a la luz?"
+    },
+    {
+      "theme": "water",
+      "kicker": "Conexiones",
+      "title": "Amistades profundas",
+      "text": "Aries, tus conversaciones pueden revelar conexiones inesperadas. ¿Qué secretos compartirá tu alma hoy?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Energía y calma",
+      "title": "Ritual para recargar",
+      "text": "Un té caliente y un buen libro podrían renovar tu energía. ¿Sabes cómo aprovechar mejor este momento?"
+    },
+    {
+      "theme": "water",
+      "kicker": "Dinero y decisiones",
+      "title": "Pequeños cambios con impacto",
+      "text": "Revisar tus finanzas puede abrir espacio para algo importante. ¿Qué ajuste te sorprenderá?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Lo más importante",
+      "title": "Tu horóscopo hoy, completo",
+      "text": "Explora las predicciones para los 12 signos y aprende a navegar esta jornada de transformación y claridad."
+    }
+  ],
+  "cta": {
+    "text": "Conoce tu horóscopo completo",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/daily-horoscope-for-saturday-november-21-2026-all-12-signs"
+  }
+}
