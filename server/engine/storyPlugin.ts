@@ -4,7 +4,7 @@
  *   content    = the page markup the plugin keeps (the site later wraps it, see wrapPluginStory)
  * Same look as the site: blue sky picture, white rounded cards, pink pills, blue Montserrat titles, colored logo.
  */
-import { BOILERPLATE, GA_ID, bgPath, coverPath, esc, LOGO, posterPath, type RelatedStory, type WebStory } from './webStory';
+import { BOILERPLATE, GA_ID, bgPath, coverPath, esc, LOGO, posterPath, signOf, type RelatedStory, type WebStory } from './webStory';
 
 const W = 412, H = 732;
 const BLUE = '#3982C8', PINK = '#E73578', NAVY = '#172B4D', SOFT = '#647DA5';
@@ -46,7 +46,8 @@ export function pluginStory(s: WebStory, site: string, related: RelatedStory[] =
       { kind: 'text', text: s.title, x: 48, y: top + 24, w: 316, h: tl * 38, size: 32, weight: 800, color: BLUE, font: 'Montserrat' },
       { kind: 'text', text: s.description, x: 48, y: top + 24 + tl * 38 + 8, w: 316, h: dl * 24, size: 17, weight: 400, color: SOFT, font: 'Inter' }];
     if (s.swipe) parts.push({ kind: 'text', text: `${s.swipe} →`, x: 48, y: top + h - 38, w: 316, h: 22, size: 14, weight: 700, color: PINK, font: 'Inter' });
-    pages.push({ name: 'cover', els: screen(s.sign ? coverPath(s.sign) : bgPath(s.theme), logo, site, parts) });
+    const cv = signOf(s);
+    pages.push({ name: 'cover', els: screen(cv ? coverPath(cv) : bgPath(s.theme), logo, site, parts) });
   }
   for (const [i, g] of s.pages.entries()) {
     const tl = lines(g.title, 18), bl = lines(g.text, 30);
