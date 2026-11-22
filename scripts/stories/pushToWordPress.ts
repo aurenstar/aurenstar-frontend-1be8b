@@ -33,7 +33,7 @@ const stories: WebStory[] = [];
 const dir = path.join(root, 'data/stories');
 for (const l of fs.readdirSync(dir)) for (const f of fs.readdirSync(path.join(dir, l)).filter((x) => x.endsWith('.json')).sort()) stories.push(JSON.parse(fs.readFileSync(path.join(dir, l, f), 'utf8')));
 
-const pick = stories.filter((s) => (!arg('lang') || s.lang === arg('lang')) && (!arg('slug') || s.slug === arg('slug')) && !checkStory(s).length).slice(0, Number(arg('max') || 100));
+const pick = stories.filter((s) => (!arg('lang') || s.lang === arg('lang')) && (!arg('slug') || s.slug === arg('slug')) && !checkStory(s).length).slice(0, Number(arg('max') || 700));
 console.log(`${pick.length} stories to send${flag('dry') ? ' (dry run)' : ''}${flag('publish') ? ', status: publish' : ', status: draft for new ones'}`);
 if (!flag('dry') && !PASS) { console.error('WP_APP_PASSWORD is empty: the secret is missing.'); process.exit(1); }
 
