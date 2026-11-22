@@ -3,6 +3,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { Search, X, Sparkles, Star, Check } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { BLOG_ARTICLES, AURENSTAR_AVATAR } from '../data/blogArticles';
+import articleViews from '../data/articleViews.json';
 import { ZODIAC_SIGNS } from './BrandMarquee';
 import { ScrollReveal } from './ScrollReveal';
 import { ShareArticleButton } from './ShareArticleButton';
@@ -160,6 +161,12 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
       return true;
     });
   }, [selectedSign, selectedCategory, searchQuery, lang]);
+
+  // "Em alta": the 6 most visited articles (real Google Analytics counts) get a badge and a highlight
+  const trendingIds = useMemo(() => {
+    const v = (id: string) => (articleViews as Record<string, number>)[getArticleSlugById(id)] || 0;
+    return new Set([...BLOG_ARTICLES].filter((a) => v(a.id) > 0).sort((a, b) => v(b.id) - v(a.id)).slice(0, 6).map((a) => a.id));
+  }, []);
 
   const slideGroups = useMemo(() => {
     const groups: typeof filteredPosts[] = [];
@@ -319,10 +326,13 @@ export const BlogCardsSection: React.FC<BlogCardsSectionProps> = ({
                             tabIndex={0}
                             role="button"
                             aria-label={`${title} - ${t.readMore}`}
-                            className="bg-[#FFFFFF] border border-[#D9E8F8] hover:border-[#3982C8]/60 rounded-2xl overflow-hidden shadow-[0_4px_20px_rgba(23,54,111,0.06)] hover:shadow-[0_12px_28px_rgba(57, 130, 200,0.15)] transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#3982C8]/40 h-full"
+                            className={`bg-[#FFFFFF] border border-[#D9E8F8] hover:border-[#3982C8]/60 rounded-2xl overflow-hidden ${trendingIds.has(post.id) ? 'ring-2 ring-[#E73578]/40 ' : ''}shadow-[0_4px_20px_rgba(23,54,111,0.06)] hover:shadow-[0_12px_28px_rgba(57, 130, 200,0.15)] transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#3982C8]/40 h-full`}
                           >
                             <div className="p-3.5 pb-0 shrink-0">
                               <div className="w-full h-40 sm:h-44 overflow-hidden rounded-[18px] bg-[#E4F1FF] relative">
+                                {trendingIds.has(post.id) && (
+                                  <span className="absolute left-2.5 top-2.5 z-10 inline-flex items-center gap-1 rounded-full bg-[#E73578] px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-white shadow-md">🔥 {lang === 'en' ? 'Trending' : lang === 'es' ? 'En alza' : 'Em alta'}</span>
+                                )}
                                 <img src={cardImage(post.image)} alt={title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-[#17366F]/10 transition-colors pointer-events-none" />
                               </div>
