@@ -17,11 +17,28 @@ export interface WebStory {
 
 export const SIGNS = ['aries', 'touro', 'gemeos', 'cancer', 'leao', 'virgem', 'libra', 'escorpiao', 'sagitario', 'capricornio', 'aquario', 'peixes'];
 export const coverPath = (sign: string) => `/stories/img/cover-${sign}.webp`;
+// Names of each sign as they appear in article addresses and titles (English, Portuguese, Spanish). Used to give article stories the cover with that sign's symbol.
+const SIGN_NAMES: Record<string, RegExp> = {
+  aries: /\baries\b|\bárie[s]\b/i, touro: /\btaurus\b|\btouro\b|\btauro\b/i, gemeos: /\bgemini\b|\bg[eê]meos\b|\bg[eé]minis\b/i,
+  cancer: /\bcancer\b|\bc[aâá]ncer\b/i, leao: /\bleo\b|\ble[aã]o\b/i, virgem: /\bvirgo\b|\bvirgem\b/i, libra: /\blibra\b/i,
+  escorpiao: /\bscorpio\b|\bescorpi[aã]o\b|\bescorpio\b/i, sagitario: /\bsagittarius\b|\bsagit[aá]rio\b/i,
+  capricornio: /\bcapricorn\b|\bcapric[oó]rnio\b/i, aquario: /\baquarius\b|\baqu[aá]rio\b|\bacuario\b/i, peixes: /\bpisces\b|\bpeixes\b|\bpiscis\b/i,
+};
+/** The sign a story is about: the one it declares, else the first sign named in its article address or title. */
+export function signOf(s: { sign?: string; title?: string; cta?: { url?: string } }): string | undefined {
+  if (s.sign && SIGNS.includes(s.sign)) return s.sign;
+  for (const text of [s.cta?.url || '', s.title || '']) {
+    let best: string | undefined, at = Infinity;
+    for (const [k, re] of Object.entries(SIGN_NAMES)) { const m = text.replace(/[-_/]/g, ' ').search(re); if (m >= 0 && m < at) { at = m; best = k; } }
+    if (best) return best;
+  }
+  return undefined;
+}
 export const STORY_THEMES: Theme[] = ['fire', 'earth', 'air', 'water', 'night'];
 export const storyPath = (s: Pick<WebStory, 'lang' | 'slug'>) => `/stories/${s.lang}/${s.slug}`;
 // Hand-written stories (pt, en, es) have a poster with their own title. Stories the robot writes in other languages use a language-neutral poster per sign (symbol only, no text).
 export const HAND_LANGS = ['pt', 'en', 'es'];
-export const posterPath = (s: Pick<WebStory, 'lang' | 'slug'> & { sign?: string; kind?: 'article'; theme?: Theme }) => (s.kind === 'article' && s.theme ? `/stories/img/bg-${s.theme}.webp` : s.sign && !HAND_LANGS.includes(s.lang) ? `/stories/img/poster-sign-${s.sign}.webp` : `/stories/img/poster-${s.lang}-${s.slug}.webp`);
+export const posterPath = (s: Pick<WebStory, 'lang' | 'slug'> & { sign?: string; kind?: 'article'; theme?: Theme; title?: string; cta?: { url?: string } }) => (s.kind === 'article' && s.theme ? (signOf(s) ? coverPath(signOf(s) as string) : `/stories/img/bg-${s.theme}.webp`) : s.sign && !HAND_LANGS.includes(s.lang) ? `/stories/img/poster-sign-${s.sign}.webp` : `/stories/img/poster-${s.lang}-${s.slug}.webp`);
 export const RTL = new Set(['ar', 'he', 'fa', 'ur']);
 export const bgPath = (t: Theme) => `/stories/img/bg-${t}.webp`;
 export const LOGO = '/stories/img/logo-96.png';
