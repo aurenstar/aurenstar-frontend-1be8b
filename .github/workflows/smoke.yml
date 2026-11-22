@@ -4,9 +4,9 @@ name: Site check
 on:
   push:
     branches: [main]
-    paths-ignore: ['data/**', 'public/stories/**', '**.md']
+    paths-ignore: ['data/**', 'src/data/**', 'public/**', '**.md']
   pull_request:
-    paths-ignore: ['data/**', 'public/stories/**', '**.md']
+    paths-ignore: ['data/**', 'src/data/**', 'public/**', '**.md']
 concurrency:
   group: site-check-${{ github.ref }}
   cancel-in-progress: true

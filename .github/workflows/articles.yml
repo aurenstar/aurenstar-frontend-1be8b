@@ -1,10 +1,7 @@
 name: Article translations
 on:
-  workflow_run:
-    workflows: ['WordPress sync']   # right after new posts arrive from WordPress
-    types: [completed]
   schedule:
-    - cron: '47 7 * * *'   # safety net: once a day
+    - cron: '47 7 * * *'   # once a day (it used to also run after every WordPress sync, which spent many GitHub minutes)
   workflow_dispatch:
   push:
     branches: [seo-tecnico]
