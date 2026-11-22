@@ -52,6 +52,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+          cache-dependency-path: package.json
       - if: steps.gate.outputs.go == 'true'
         run: npm install --legacy-peer-deps
       - name: Translate articles (skips quietly if the key is not set)
