@@ -39,7 +39,7 @@ export function renderStoriesIndex(stories: WpStory[], site: string): string {
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Astrology Web Stories | Aurenstar</title>
 <meta name="description" content="Quick, swipeable astrology stories: signs, compatibility, houses and more. Pick a story and swipe through in 30 seconds.">
-<link rel="canonical" href="${esc(url)}">
+<link rel="canonical" href="${esc(url)}/">
 <link rel="icon" href="/favicon-32.png" sizes="32x32">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
 <script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>

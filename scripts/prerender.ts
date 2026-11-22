@@ -329,7 +329,7 @@ for (const w of wpStories) {
 if (wpStories.length) {
   fs.mkdirSync(path.join(dist, 'blog', 'stories'), { recursive: true });
   fs.writeFileSync(path.join(dist, 'blog', 'stories', 'index.html'), renderStoriesIndex(wpStories, SITE_URL));
-  storyUrls.unshift({ loc: `${SITE_URL}/blog/stories`, lastmod: wpStories.map((w) => w.modified).sort().pop() as string });
+  storyUrls.unshift({ loc: `${SITE_URL}/blog/stories/`, lastmod: wpStories.map((w) => w.modified).sort().pop() as string });
 }
 if (storyUrls.length) fs.writeFileSync(path.join(dist, 'sitemap-stories.xml'), urlset(storyUrls.map((u) => `  <url><loc>${escapeXml(u.loc)}</loc><lastmod>${u.lastmod}</lastmod></url>`).join('\n')));
 
