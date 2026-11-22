@@ -307,6 +307,12 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   {t.footer.blog}
                 </a>
               </li>
+              <li>
+                {/* plain link on purpose: the gallery is a static page, not part of the app */}
+                <a href="/blog/stories/" className="hover:text-[#3982C8] transition-colors cursor-pointer">
+                  Web Stories
+                </a>
+              </li>
             </ul>
           </div>
 
