@@ -3,7 +3,7 @@
  * Same look as the site (sky blue background, white rounded cards, Montserrat titles, pink pills).
  * Plain HTML, no scripts: fast, and Google can follow every link.
  */
-import { esc, GA_ID, LOGO } from './webStory';
+import { coverPath, esc, GA_ID, LOGO, signOf } from './webStory';
 import type { WpStory } from './storyPlugin';
 
 const ORDER = ['en', 'pt', 'es'];
@@ -20,7 +20,14 @@ export function renderStoriesIndex(stories: WpStory[], site: string): string {
     const ia = ORDER.indexOf(a), ib = ORDER.indexOf(b);
     return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b);
   });
-  const poster = (s: WpStory) => (s.content.match(/poster-portrait-src="([^"]+)"/) || [])[1] || `${site}/stories/img/bg-air.webp`;
+  // The hand-made posters (pt/en/es) have their own title and logo printed on them: in a card that repeats the title and clashes with the play button.
+  // For those we show the plain cover with the sign's symbol (or the night sky when no sign is named).
+  const poster = (s: WpStory) => {
+    const p = (s.content.match(/poster-portrait-src="([^"]+)"/) || [])[1] || `${site}/stories/img/bg-air.webp`;
+    if (!/\/poster-(pt|en|es)-/.test(p)) return p;
+    const sg = signOf({ title: `${s.title} ${s.slug}` });
+    return sg ? `${site}${coverPath(sg)}` : `${site}/stories/img/bg-night.webp`;
+  };
   const sections = langs.map((l) => {
     const cards = byLang.get(l)!.sort((a, b) => b.modified.localeCompare(a.modified) || a.title.localeCompare(b.title)).map((s) =>
       `<a class="card" href="/blog/stories/${esc(s.slug)}"><span class="pic"><img src="${esc(poster(s))}" width="180" height="320" loading="lazy" alt=""><span class="play">&#9654;</span></span><span class="t">${esc(s.title)}</span></a>`).join('\n');
@@ -61,8 +68,8 @@ h2{font-weight:800;color:#17366F;font-size:22px;margin:30px 0 14px;display:flex;
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
 .card{background:#fff;border-radius:22px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 6px 18px rgba(23,54,111,.12);transition:transform .15s}
 .card:hover{transform:translateY(-3px)}
-.pic{position:relative;display:block;aspect-ratio:9/12;overflow:hidden;background:#3982C8}
-.pic img{width:100%;height:100%;object-fit:cover;display:block}
+.pic{position:relative;display:block;aspect-ratio:9/13;overflow:hidden;background:#3982C8}
+.pic img{width:100%;height:100%;object-fit:cover;object-position:50% 0;display:block}
 .play{position:absolute;right:10px;bottom:10px;background:#E73578;color:#fff;border-radius:999px;width:30px;height:30px;display:flex;align-items:center;justify-content:center;font-size:12px}
 .t{padding:12px 14px 16px;font-weight:700;font-size:14px;line-height:1.35;color:#172B4D}
 footer{text-align:center;padding:0 20px 40px;font-size:13px;color:#17366F}

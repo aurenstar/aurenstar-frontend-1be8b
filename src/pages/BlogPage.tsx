@@ -16,6 +16,7 @@ import {
 import { useLanguage } from '../context/LanguageContext';
 import { CoverArt } from '../components/CoverArt';
 import { BLOG_ARTICLES, BlogArticleContent, AURENSTAR_AVATAR } from '../data/blogArticles';
+import articleViews from '../data/articleViews.json';
 import { AurenstarLogo } from '../components/AurenstarLogo';
 import { ShareArticleButton } from '../components/ShareArticleButton';
 import { getArticleSlugById } from '../utils/articleSlug';
@@ -79,7 +80,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
       sortOptions: {
         newest: 'Mais Recentes',
         popular: 'Mais Populares',
-        readTime: 'Tempo de Leitura',
+        readTime: 'Leitura Mais Longa',
       },
       readMore: 'Ler artigo completo',
       noResultsTitle: 'Nenhum artigo encontrado',
@@ -104,7 +105,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
       sortOptions: {
         newest: 'Newest',
         popular: 'Most Popular',
-        readTime: 'Reading Time',
+        readTime: 'Longest Read',
       },
       readMore: 'Read full article',
       noResultsTitle: 'No articles found',
@@ -129,7 +130,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({
       sortOptions: {
         newest: 'Más Recientes',
         popular: 'Más Populares',
-        readTime: 'Tiempo de Lectura',
+        readTime: 'Lectura Más Larga',
       },
       readMore: 'Leer artículo completo',
       noResultsTitle: 'No se encontraron artículos',
@@ -163,13 +164,15 @@ export const BlogPage: React.FC<BlogPageProps> = ({
       );
     });
 
-    if (sortBy === 'readTime') {
-      result = [...result].sort((a, b) => {
-        const tA = parseInt(a.readTime.pt) || 0;
-        const tB = parseInt(b.readTime.pt) || 0;
-        return tA - tB;
-      });
-    }
+    // newest = highest WordPress number first; most popular = most visits (src/data/articleViews.json), then newest; longest read = most minutes, then newest
+    const num = (a: BlogArticleContent) => Number((a as any).wordpress?.id) || Number(String(a.id).replace(/\D/g, '')) || 0;
+    const views = (a: BlogArticleContent) => (articleViews as Record<string, number>)[(a as any).wordpress?.slug] || 0;
+    const mins = (a: BlogArticleContent) => parseInt(a.readTime.pt) || 0;
+    result = [...result].sort((a, b) => {
+      if (sortBy === 'popular') return views(b) - views(a) || num(b) - num(a);
+      if (sortBy === 'readTime') return mins(b) - mins(a) || num(b) - num(a);
+      return num(b) - num(a);
+    });
 
     return result;
   }, [selectedCategory, searchQuery, sortBy, lang]);

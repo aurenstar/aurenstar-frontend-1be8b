@@ -174,7 +174,8 @@ async function main() {
     delete a._rel;
     if (ids.length) a.related = ids;
   }
-  articles.sort((a, b) => (a.id < b.id ? 1 : -1));
+  // newest first: by the WordPress number (a plain text comparison put "wp-659" before "wp-1793", so the newest articles ended up last)
+  articles.sort((a, b) => Number(b.wordpress.id) - Number(a.wordpress.id));
   // safety: never silently drop published articles (a stale list would delete live pages)
   try {
     const before = JSON.parse(fs.readFileSync(OUT, 'utf8')).length;
