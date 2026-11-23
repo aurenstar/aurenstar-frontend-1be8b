@@ -1,18 +1,18 @@
-# Relatório interno do dicionário (2026-11-22)
+# Relatório interno do dicionário (2026-11-23)
 
 _Só para o robô e para a equipe. Não aparece no site._
 
-**169 verbetes publicados** · ✅ funcionando: 1 · 🟡 quase na página 1: 1 · 👀 aparecendo: 9 · ⏳ sem dados ainda: 158
-Aparições no Google: 92 · Cliques: 0
+**189 verbetes publicados** · ✅ funcionando: 6 · 🟡 quase na página 1: 4 · 👀 aparecendo: 80 · ⏳ sem dados ainda: 99
+Aparições no Google: 775 · Cliques: 0
 
 ## Por assunto
 
 | Assunto | Verbetes | Aparições | Cliques | Peso do robô |
 |---|---|---|---|---|
-| Chart Concepts | 68 | 52 | 0 | x1.3 |
-| Phases & Movements | 21 | 0 | 0 | x1 |
-| Planets & Bodies | 16 | 0 | 0 | x1 |
-| Signs & Elements | 64 | 40 | 0 | x1 |
+| Chart Concepts | 74 | 232 | 0 | x0.8 |
+| Phases & Movements | 23 | 69 | 0 | x0.8 |
+| Planets & Bodies | 16 | 38 | 0 | x1 |
+| Signs & Elements | 76 | 436 | 0 | x1.3 |
 
 ## 🎯 Metas de visitas por mês (se o site aparecer para uma fatia das buscas medidas)
 
@@ -27,35 +27,44 @@ Cliques reais no Google hoje: 0. Compare com a linha de 0,05% para ver quanto fa
 
 ## ✅ O que está funcionando
 
-- Gemini: 16 aparições, 0 cliques, melhor posição 2, ~535250 buscas/mês no mundo
+- Venus Sign: 115 aparições, 0 cliques, melhor posição 3.1, ~1300 buscas/mês no mundo
+- Gemini: 70 aparições, 0 cliques, melhor posição 2.5, ~535250 buscas/mês no mundo
+- Water signs: 48 aparições, 0 cliques, melhor posição 6, ~330000 buscas/mês no mundo
+- Cardinal signs: 18 aparições, 0 cliques, melhor posição 10, ~59480 buscas/mês no mundo
+- Retrograde: 18 aparições, 0 cliques, melhor posição 7.5, ~55380 buscas/mês no mundo
+- Aspects: 18 aparições, 0 cliques, melhor posição 8
 
 ## 🟡 Quase lá (posições 11 a 20: um empurrãozinho pode levar à página 1)
 
-- Conjunction: 12 aparições, 0 cliques, melhor posição 20, ~4020 buscas/mês no mundo
+- Natal Chart: 31 aparições, 0 cliques, melhor posição 11, ~3455610 buscas/mês no mundo
+- Conjunction: 15 aparições, 0 cliques, melhor posição 20, ~4020 buscas/mês no mundo
+- Sidereal Astrology: 13 aparições, 0 cliques, melhor posição 17, ~27600 buscas/mês no mundo
+- 5th house: 5 aparições, 0 cliques, melhor posição 12, ~33260 buscas/mês no mundo
 
 ## 👀 Aparecendo, mas ainda sem força
 
-- Natal Chart: 27 aparições, 0 cliques, melhor posição 32, ~3455610 buscas/mês no mundo
-- Gemini Traits: 21 aparições, 0 cliques, melhor posição 69, ~8100 buscas/mês no mundo
-- Aspects: 5 aparições, 0 cliques, melhor posição 37
-- Venus Sign: 3 aparições, 0 cliques, melhor posição 3, ~1300 buscas/mês no mundo
-- Midheaven: 2 aparições, 0 cliques, melhor posição 87, ~7600 buscas/mês no mundo
-- House: 2 aparições, 0 cliques, melhor posição 85, ~3630 buscas/mês no mundo
-- Opposition: 2 aparições, 0 cliques, melhor posição 86, ~520 buscas/mês no mundo
-- Conjunct: 1 aparições, 0 cliques, melhor posição 84, ~1600 buscas/mês no mundo
-- Birth Time: 1 aparições, 0 cliques, melhor posição 26
+- Air Signs: 39 aparições, 0 cliques, melhor posição 28.4, ~405090 buscas/mês no mundo
+- Earth Signs: 25 aparições, 0 cliques, melhor posição 57, ~221020 buscas/mês no mundo
+- Fire Signs: 21 aparições, 0 cliques, melhor posição 44, ~171500 buscas/mês no mundo
+- 10th house: 18 aparições, 0 cliques, melhor posição 22, ~35580 buscas/mês no mundo
+- Aries: 16 aparições, 0 cliques, melhor posição 38, ~791030 buscas/mês no mundo
+- Transits: 14 aparições, 0 cliques, melhor posição 61, ~9900 buscas/mês no mundo
+- Virgo: 13 aparições, 0 cliques, melhor posição 54, ~414980 buscas/mês no mundo
+- Elements: 13 aparições, 0 cliques, melhor posição 56, ~36600 buscas/mês no mundo
+- Gemini Traits: 13 aparições, 0 cliques, melhor posição 69, ~8100 buscas/mês no mundo
+- Lunar Eclipse: 13 aparições, 0 cliques, melhor posição 61, ~3360 buscas/mês no mundo
 
 ## ⏳ Muito procurados, mas o Google ainda não mostra a gente
 
-- Zodiac Signs: ~3090570 buscas/mês no mundo
-- Aries: ~791030 buscas/mês no mundo
-- Libra: ~522210 buscas/mês no mundo
 - Cancer: ~498900 buscas/mês no mundo
-- Aquarius: ~431930 buscas/mês no mundo
-- Virgo: ~414980 buscas/mês no mundo
-- Air Signs: ~405090 buscas/mês no mundo
 - Scorpio: ~397700 buscas/mês no mundo
-- Leo: ~397100 buscas/mês no mundo
-- Water signs: ~330000 buscas/mês no mundo
+- Capricórnio: ~268760 buscas/mês no mundo
+- 9th house: ~63260 buscas/mês no mundo
+- 12th house: ~33500 buscas/mês no mundo
+- 2nd house: ~31560 buscas/mês no mundo
+- Imum Coeli: ~20480 buscas/mês no mundo
+- Stellium: ~9060 buscas/mês no mundo
+- Saturn Return: ~6600 buscas/mês no mundo
+- Moon: ~5380 buscas/mês no mundo
 
 _Limite: o Search Console guardado aqui traz as palavras buscadas, não a página. Cada verbete é ligado pelo que as pessoas digitaram._
