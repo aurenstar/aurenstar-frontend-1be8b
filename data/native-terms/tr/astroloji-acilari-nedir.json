@@ -1,0 +1,57 @@
+{
+ "lang": "tr",
+ "keyword": "astroloji açıları",
+ "volume": 990,
+ "slug": "astroloji-acilari-nedir",
+ "date": "2026-11-24",
+ "kind": "term",
+ "title": "Astroloji Açıları Nedir?",
+ "description": "Astroloji açıları, gezegenlerin birbirleriyle yaptığı açılar olup haritada önemli etkiler taşır. Kişilik ve olayları yorumlamada kullanılır.",
+ "intro": "Astroloji açıları, doğum haritasında gezegenlerin birbirlerine göre belirli açılar yapmasıdır. Bu açılar, gezegenlerin enerjilerinin nasıl etkileştiğini gösterir ve kişinin karakteri ile yaşamındaki olayları anlamaya yardımcı olur.",
+ "sections": [
+  {
+   "h2": "Astroloji Açıları Ne Anlama Gelir?",
+   "paragraphs": [
+    "Astroloji açıları, gezegenlerin gökyüzünde birbirlerine olan pozisyonlarına göre oluşturduğu açılardır. En bilinen açılar kavuşum (0°), kare (90°), karşıtlık (180°), üçgen (120°) ve altmışlık (60°) açılardır. Bu açılar, gezegenlerin enerjilerinin uyumlu veya zorlu bir şekilde etkileşime girdiğini gösterir.",
+    "Örneğin, üçgen açı çoğunlukla uyumlu ve akıcı enerjiyi temsil ederken, kare açı zorluk ve gerilim yaratabilir. Astroloji açıları, bireyin doğum haritasında hangi alanlarda destek veya engel yaşayabileceğini anlamaya yardımcı olur."
+   ]
+  },
+  {
+   "h2": "Doğum Haritasında Astroloji Açıları",
+   "paragraphs": [
+    "Doğum haritasında astroloji açıları, kişiliğin farklı yönlerini ve yaşamda karşılaşılabilecek fırsat ya da zorlukları ifade eder. Gezegenler arasındaki olumlu açılar, kişinin yeteneklerini kolayca kullanabileceği alanları gösterirken; zorlayıcı açılar, içsel çatışmalar veya dışsal engelleri simgeler.",
+    "Örneğin, Güneş ile Mars arasında güçlü bir açı varsa, kişi enerjik ve kararlı olabilir. Ancak Mars ile Satürn arasında zorlu bir açı varsa, sabır ve disiplin gerektiren durumlarla karşılaşabilir. Bu yüzden astroloji açıları, haritanın okunmasında önemli bir yer tutar."
+   ]
+  },
+  {
+   "h2": "Günlük Hayatta Astroloji Açıları ve Etkileri",
+   "paragraphs": [
+    "Günlük hayatımızda gökyüzündeki gezegenlerin yaptığı açılar da önemli kabul edilir. Transit astroloji dediğimiz bu alanda, gezegenlerin sürekli hareketiyle oluşan açıların etkileri değerlendirilir. Bazı günler daha olumlu, bazı günler ise daha zorlayıcı enerjiler hissedilebilir.",
+    "Örneğin, Venüs ile Jüpiter arasında güzel bir açı varsa, sosyal ilişkiler ve şanslı durumlar artabilir. Öte yandan, Merkür ile Satürn arasında sert bir açı iletişim problemleri veya gecikmeler yaratabilir. Astroloji açıları, bu tür günlük enerjileri anlamak için kullanılır."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Astroloji açıları nasıl hesaplanır?",
+   "a": "Gezegenlerin doğum haritasındaki dereceleri hesaplanarak aralarındaki açılar belirlenir. Bu açıların belirli sınırlar içinde olması önemlidir."
+  },
+  {
+   "q": "Hangi astroloji açıları en güçlü kabul edilir?",
+   "a": "Kavuşum (0°), karşıtlık (180°), kare (90°), üçgen (120°) ve altmışlık (60°) açılar en temel ve güçlü açılar arasında sayılır."
+  },
+  {
+   "q": "Astroloji açıları kaderi belirler mi?",
+   "a": "Astroloji açıları kişilik ve olası eğilimler hakkında ipuçları verir, ancak kesin sonuç veya kader belirlemez."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz Astroloji Araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını Oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}
