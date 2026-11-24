@@ -4,6 +4,7 @@
 import { translateStrings, type TranslateEnv } from '../../server/engine/translateStrings';
 import { localizeHtml } from '../../server/engine/localizePage';
 import { isUrlLanguage } from '../../src/utils/urlLang';
+import { enToLocal, localToEn } from '../../src/utils/localizedSlugs';
 
 interface Context {
   request: Request;
@@ -18,7 +19,7 @@ export const onRequest = async ({ request, env, params, next }: Context): Promis
 
   const url = new URL(request.url);
   const rest = Array.isArray(params.path) ? params.path.join('/') : String(params.path || '');
-  const pagePath = ('/' + rest).replace(/\/+$/, '') || '/';
+  let pagePath = ('/' + rest).replace(/\/+$/, '') || '/';
 
   // /nl/ -> /nl (one address per page)
   if (rest === '' && url.pathname.endsWith('/') && url.pathname.length > 1) {
@@ -32,6 +33,18 @@ export const onRequest = async ({ request, env, params, next }: Context): Promis
     const nat = await env.ASSETS.fetch(new Request(new URL(nativePath, url).toString(), { headers: { Accept: 'text/html' }, redirect: 'manual' }));
     if ((nat.headers.get('Content-Type') || '').includes('text/html') && nat.ok) {
       return new Response(request.method === 'HEAD' ? null : await nat.text(), { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Content-Language': lang, 'Cache-Control': 'public, max-age=300' } });
+    }
+  }
+
+  // Articles with their own address in pt/es: /pt/blog/<slug in Portuguese> serves the article; the old /pt/blog/<english slug> redirects (301) to it.
+  const art = /^blog\/([^/]+)$/.exec(rest);
+  if (art && (lang === 'pt' || lang === 'es')) {
+    const slug = decodeURIComponent(art[1]);
+    const en = localToEn(lang, slug);
+    if (en) pagePath = `/blog/${en}`;
+    else {
+      const local = enToLocal(lang, slug);
+      if (local) return Response.redirect(`${url.origin}/${lang}/blog/${local}${url.search}`, 301);
     }
   }
 

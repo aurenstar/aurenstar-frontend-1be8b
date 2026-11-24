@@ -1,4 +1,6 @@
 import { BLOG_ARTICLES, BlogArticleContent } from '../data/blogArticles';
+import { enToLocal, localToEn } from './localizedSlugs';
+import { getUrlLang } from './urlLang';
 
 /**
  * Keyword URLs for blog articles.
@@ -45,19 +47,22 @@ for (const article of BLOG_ARTICLES) {
   idBySlug.set(slug, article.id);
 }
 
-export function getArticleSlug(article: Pick<BlogArticleContent, 'id'>): string {
-  return slugById.get(article.id) ?? article.id;
+/** On /pt and /es pages the public slug is the one in that language when the article has one; everywhere else it is the English slug. */
+export function getArticleSlugById(id: string): string {
+  const en = slugById.get(id) ?? id;
+  return enToLocal(getUrlLang(), en) ?? en;
 }
 
-export function getArticleSlugById(id: string): string {
-  return slugById.get(id) ?? id;
+export function getArticleSlug(article: Pick<BlogArticleContent, 'id'>): string {
+  return getArticleSlugById(article.id);
 }
 
 /** Accepts either a public slug or a legacy internal id. */
 export function findArticleByParam(param: string): BlogArticleContent | undefined {
   const clean = decodeURIComponent(param || '').trim().toLowerCase();
   if (!clean) return undefined;
-  const id = idBySlug.get(clean) ?? BLOG_ARTICLES.find((a) => a.id.toLowerCase() === clean)?.id;
+  const asEn = localToEn('pt', clean) ?? localToEn('es', clean);
+  const id = idBySlug.get(clean) ?? (asEn ? idBySlug.get(asEn) : undefined) ?? BLOG_ARTICLES.find((a) => a.id.toLowerCase() === clean)?.id;
   return id ? BLOG_ARTICLES.find((a) => a.id === id) : undefined;
 }
 
