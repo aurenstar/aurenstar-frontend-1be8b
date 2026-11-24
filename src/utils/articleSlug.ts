@@ -26,11 +26,19 @@ export function slugify(text: string): string {
   return (lastDash > 30 ? cut.slice(0, lastDash) : cut).replace(/-+$/, '');
 }
 
+/**
+ * Addresses that must never change even if the title is edited (pages already indexed by Google).
+ * The slug normally comes from the English title, so changing a title would move the page and the old address would return 404.
+ */
+const FIXED_SLUGS: Record<string, string> = {
+  'wp-443': 'gemini-red-flags-behaviors-people-often-misread',
+};
+
 const slugById = new Map<string, string>();
 const idBySlug = new Map<string, string>();
 
 for (const article of BLOG_ARTICLES) {
-  let slug = slugify(article.title.en) || article.id;
+  let slug = FIXED_SLUGS[article.id] || slugify(article.title.en) || article.id;
   // Guarantee uniqueness if two titles ever collapse into the same slug.
   if (idBySlug.has(slug)) slug = `${slug}-${slugify(article.id)}`;
   slugById.set(article.id, slug);
