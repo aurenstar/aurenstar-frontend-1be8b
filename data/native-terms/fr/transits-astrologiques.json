@@ -1,0 +1,68 @@
+{
+ "lang": "fr",
+ "keyword": "transits astrologiques",
+ "volume": 980,
+ "slug": "transits-astrologiques",
+ "date": "2026-11-24",
+ "kind": "term",
+ "title": "Transits astrologiques",
+ "description": "Les transits astrologiques expliquent comment les planètes en mouvement influencent notre thème natal et notre vie quotidienne.",
+ "intro": "Les transits astrologiques sont les déplacements actuels des planètes dans le ciel et leur influence sur notre carte du ciel de naissance. Ils donnent des indications sur des périodes de changements, d'opportunités ou de défis possibles dans notre vie.",
+ "sections": [
+  {
+   "h2": "Qu'est-ce que les transits astrologiques ?",
+   "paragraphs": [
+    "Les transits astrologiques correspondent aux positions actuelles des planètes par rapport aux planètes et points de votre thème natal. Chaque planète en transit forme un aspect, c’est-à-dire un angle, avec les planètes de naissance, ce qui active certaines énergies ou situations. Ces mouvements ne modifient pas votre thème natal mais révèlent des moments où des événements peuvent se produire ou des émotions se renforcer.",
+    "Les transits sont donc une sorte de dialogue entre le ciel du moment et votre carte du ciel personnelle. Par exemple, quand Jupiter transite près de votre Soleil natal, cela peut signifier une période d'expansion, d'optimisme et de nouvelles opportunités."
+   ]
+  },
+  {
+   "h2": "Pourquoi les transits astrologiques sont-ils importants au quotidien ?",
+   "paragraphs": [
+    "Ils permettent de mieux comprendre les phases que l'on traverse, que ce soit sur le plan relationnel, professionnel ou personnel. Les transits astrologiques aident à anticiper les moments favorables ou plus difficiles, sans prédire l’avenir de façon certaine, mais en offrant un cadre de réflexion.",
+    "Par exemple, un transit de Saturne peut indiquer une période où il faut faire preuve de patience et de rigueur, tandis qu’un transit de Vénus favorisera les rencontres et les plaisirs.",
+    "Ils sont très utiles pour approfondir la connaissance de soi et pour prendre conscience des cycles naturels de la vie. On peut suivre les transits grâce à des outils ou des applications spécialisées."
+   ]
+  },
+  {
+   "h2": "Exemple simple de transit astrologique",
+   "paragraphs": [
+    "Imaginons que Mars transite votre Maison 7, la maison des relations. Ce transit peut donner plus d'énergie et de dynamisme dans vos interactions avec les autres, mais aussi parfois des conflits à gérer. Cela vous invite à canaliser cette énergie pour améliorer vos échanges, plutôt que de vous laisser emporter par des tensions inutiles.",
+    "Ainsi, les transits astrologiques ne dictent pas ce qui va arriver, mais montrent des climats énergétiques favorables à certains types d’actions ou de réflexions.",
+    "En somme, ils sont comme une météo céleste qui vous aide à mieux naviguer dans votre vie."
+   ]
+  },
+  {
+   "h2": "Idées liées aux transits astrologiques",
+   "paragraphs": [
+    "Les transits astrologiques sont souvent étudiés en complément d'autres notions comme le retour de Saturne, les éclipses, ou les nouvelles lunes qui marquent des moments clés dans le temps.",
+    "Ils s’inscrivent aussi dans la lecture des maisons astrologiques, qui précisent les domaines de vie concernés.",
+    "Pour approfondir, on peut consulter son thème natal et observer où passent les planètes en transit aujourd’hui pour mieux capter les énergies du moment."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Comment savoir quels transits astrologiques me concernent ?",
+   "a": "Il faut consulter votre thème natal et comparer les positions actuelles des planètes. Des outils en ligne peuvent le faire automatiquement."
+  },
+  {
+   "q": "Les transits astrologiques prédisent-ils l'avenir ?",
+   "a": "Non, ils indiquent des tendances ou des climats énergétiques, mais ne garantissent pas un résultat précis."
+  },
+  {
+   "q": "Peut-on agir pendant les transits difficiles ?",
+   "a": "Oui, connaître les transits aide à mieux gérer les défis et à prendre des décisions plus conscientes."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "FAQ",
+  "more": "À lire aussi",
+  "dictionary": "Dictionnaire"
+ },
+ "tool": "discover-sign",
+ "term": "what-is-birth-chart"
+}
