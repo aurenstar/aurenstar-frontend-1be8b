@@ -25,6 +25,8 @@ jobs:
         env:
           WP_APP_PASSWORD: ${{ secrets.ROBO_WEBSTORIES }}
           WP_USER: oficialsafare
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          STORY_COVER_MAX: '10'
         run: npx tsx scripts/stories/pushToWordPress.ts ${{ inputs.lang && format('--lang {0}', inputs.lang) || '' }} ${{ inputs.slug && format('--slug {0}', inputs.slug) || '' }} ${{ inputs.publish && '--publish' || '' }}
       - name: Show published stories on the site right away
         if: ${{ inputs.publish }}

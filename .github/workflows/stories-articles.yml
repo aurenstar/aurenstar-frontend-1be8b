@@ -57,6 +57,8 @@ jobs:
         env:
           WP_APP_PASSWORD: ${{ secrets.ROBO_WEBSTORIES }}
           WP_USER: oficialsafare
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          STORY_COVER_MAX: '10'
           GH_TOKEN: ${{ github.token }}
         run: |
           if [ -n "$WP_APP_PASSWORD" ]; then

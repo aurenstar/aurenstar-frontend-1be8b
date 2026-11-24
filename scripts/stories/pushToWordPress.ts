@@ -8,7 +8,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { checkStory, type WebStory } from '../../server/engine/webStory';
+import { checkStory, signOf, type WebStory } from '../../server/engine/webStory';
 import { pluginStory } from '../../server/engine/storyPlugin';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
@@ -20,6 +20,9 @@ const USER = process.env.WP_USER || 'oficialsafare';
 const PASS = (process.env.WP_APP_PASSWORD || '').trim();
 const auth = 'Basic ' + Buffer.from(`${USER}:${PASS}`).toString('base64');
 const NEW_ONLY = flag('new-only');
+const OPENAI_KEY = (process.env.OPENAI_API_KEY || '').trim();
+const COVER_MAX = Number(process.env.STORY_COVER_MAX || 10); // new pictures made per run (about US$0.02 each)
+let coversMade = 0;
 const MORE: Record<string, string> = { pt: 'Continue lendo', en: 'Keep reading', es: 'Sigue leyendo' };
 
 async function wp(method: string, p: string, body?: unknown) {
@@ -37,11 +40,36 @@ const pick = stories.filter((s) => (!arg('lang') || s.lang === arg('lang')) && (
 console.log(`${pick.length} stories to send${flag('dry') ? ' (dry run)' : ''}${flag('publish') ? ', status: publish' : ', status: draft for new ones'}`);
 if (!flag('dry') && !PASS) { console.error('WP_APP_PASSWORD is empty: the secret is missing.'); process.exit(1); }
 
+/**
+ * Stories about a sign use that sign's cover. Any other story gets its own picture, made by the robot (gpt-image-1-mini),
+ * saved in the WordPress media library (so it is live at once) and found again on the next run by its name.
+ */
+async function coverFor(s: WebStory): Promise<string | undefined> {
+  if (signOf(s) || !OPENAI_KEY) return undefined;
+  const name = `story-cover-${s.slug}`.slice(0, 80);
+  const found = await wp('GET', `/wp/v2/media?slug=${encodeURIComponent(name)}&_fields=id,source_url`);
+  if (Array.isArray(found.json) && found.json[0]?.source_url) return found.json[0].source_url;
+  if (coversMade >= COVER_MAX || flag('dry')) return undefined;
+  const prompt = `Cinematic realistic photograph, vertical 2:3, soft golden light, one or two real people living the moment of this idea: "${s.title}". Natural expressions, shallow depth of field, calm empty space in the lower half. No text, no letters, no logos, no watermark.`;
+  const res = await fetch('https://api.openai.com/v1/images/generations', { method: 'POST', headers: { Authorization: `Bearer ${OPENAI_KEY}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ model: 'gpt-image-1-mini', prompt, size: '1024x1536', quality: 'medium', output_format: 'jpeg', output_compression: 80, n: 1 }) });
+  const j: any = await res.json().catch(() => ({}));
+  const b64 = j?.data?.[0]?.b64_json;
+  if (!res.ok || !b64) { console.error(`cover failed for ${s.slug}: ${res.status} ${j?.error?.message || ''}`); return undefined; }
+  const up = await fetch(`${WP}/wp-json/wp/v2/media`, { method: 'POST', headers: { Authorization: auth, 'Content-Type': 'image/jpeg', 'Content-Disposition': `attachment; filename="${name}.jpg"` }, body: Buffer.from(b64, 'base64') });
+  const uj: any = await up.json().catch(() => ({}));
+  if (!up.ok || !uj.source_url) { console.error(`cover upload failed for ${s.slug}: ${up.status}`); return undefined; }
+  await wp('POST', `/wp/v2/media/${uj.id}`, { slug: name, alt_text: s.title });
+  coversMade++;
+  console.log(`cover made for ${s.slug}`);
+  return uj.source_url;
+}
+
 let made = 0, updated = 0, failed = 0;
 for (const s of pick) {
   // no "keep reading" cards on the last screen (the owner prefers the page to end on the article button)
   const related: never[] = [];
-  const { story_data, content } = pluginStory(s, SITE, related, s.more || MORE[s.lang] || 'Keep reading');
+  const cover = flag('dry') ? undefined : await coverFor(s);
+  const { story_data, content } = pluginStory(s, SITE, related, s.more || MORE[s.lang] || 'Keep reading', cover);
   if (flag('dry')) { console.log(`ok ${s.lang}/${s.slug}: ${story_data.pages.length} pages, ${content.length} chars`); continue; }
   const found = await wp('GET', `/web-stories/v1/web-story?slug=${encodeURIComponent(s.slug)}&status=any&_fields=id,status`);
   if (found.status === 401 || found.status === 403) { console.error(`WordPress refused the password (${found.status}). Stop.`); process.exit(1); }
