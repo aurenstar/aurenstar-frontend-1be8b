@@ -1,0 +1,61 @@
+{
+ "lang": "de",
+ "keyword": "elemente sternzeichen",
+ "volume": 980,
+ "slug": "elemente-sternzeichen-bedeutung",
+ "date": "2026-11-24",
+ "kind": "term",
+ "title": "Elemente Sternzeichen: Was sie über dich verraten",
+ "description": "Elemente Sternzeichen: Erfahre, welchem Element dein Sternzeichen zugeordnet ist und was das über deine Persönlichkeit aussagt.",
+ "intro": "Elemente Sternzeichen – was bedeutet das eigentlich? Jedes Sternzeichen gehört zu einem der vier Elemente: Feuer, Erde, Luft oder Wasser. Diese Zuordnung verrät viel über die Grundenergie und den Charakter eines Sternzeichens. Wer wissen möchte, welches Element zum eigenen Sternzeichen gehört und wie sich das im Alltag zeigt, ist hier genau richtig.",
+ "sections": [
+  {
+   "h2": "Was sind Elemente bei Sternzeichen?",
+   "paragraphs": [
+    "In der Astrologie spricht man von den vier Elementen – Feuer, Erde, Luft und Wasser. Jedes der zwölf Sternzeichen wird einem dieser Elemente zugeordnet. Die Feuerzeichen sind Widder (ca. 21. März – 20. April), Löwe (ca. 23. Juli – 23. August) und Schütze (ca. 23. November – 21. Dezember). Die Erdzeichen sind Stier (ca. 21. April – 21. Mai), Jungfrau (ca. 24. August – 23. September) und Steinbock (ca. 22. Dezember – 20. Januar). Die Luftzeichen sind Zwillinge (ca. 22. Mai – 21. Juni), Waage (ca. 24. September – 23. Oktober) und Wassermann (ca. 21. Januar – 19. Februar). Zu den Wasserzeichen zählen Krebs (ca. 22. Juni – 22. Juli), Skorpion (ca. 24. Oktober – 22. November) und Fische (ca. 20. Februar – 20. März)."
+   ]
+  },
+  {
+   "h2": "Was bedeuten die Elemente Sternzeichen im Alltag?",
+   "paragraphs": [
+    "Das Element eines Sternzeichens beschreibt die grundlegende Art, wie man fühlt, denkt und handelt. Feuerzeichen sind leidenschaftlich, voller Energie und Tatendrang. Erdzeichen sind praktisch, bodenständig und zuverlässig. Luftzeichen gelten als kommunikativ, offen und geistreich. Wasserzeichen sind gefühlvoll, intuitiv und sensibel. Im Geburtshoroskop spielt die Verteilung dieser Elemente eine große Rolle, denn sie zeigen, wie die verschiedenen Lebensbereiche angegangen werden."
+   ]
+  },
+  {
+   "h2": "Beispiel: So wirken die Elemente Sternzeichen",
+   "paragraphs": [
+    "Nehmen wir Anna, geboren am 5. August – sie ist Löwe, also ein Feuerzeichen. Anna ist oft voller Lebensfreude, liebt es, im Mittelpunkt zu stehen und steckt andere mit ihrer Begeisterung an. Ihr Freund Ben ist Stier, ein Erdzeichen. Er ist ruhiger, mag Stabilität und sorgt dafür, dass Anna auch mal zur Ruhe kommt. Die Kombination ihrer Elemente hilft beiden, voneinander zu lernen und sich zu ergänzen."
+   ]
+  },
+  {
+   "h2": "Verwandte Begriffe: Modalitäten und Geburtshoroskop",
+   "paragraphs": [
+    "Neben den Elementen gibt es in der Astrologie auch noch die sogenannten Modalitäten (kardinal, fix, veränderlich). Diese geben an, wie ein Zeichen seine Energie ausdrückt. Im Geburtshoroskop zeigt sich, welche Elemente und Modalitäten besonders stark vertreten sind und welche Themen dadurch im Leben betont werden."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kann ein Sternzeichen zu mehr als einem Element gehören?",
+   "a": "Nein, jedes Sternzeichen ist immer genau einem Element zugeordnet. Im Geburtshoroskop können aber verschiedene Elemente vertreten sein."
+  },
+  {
+   "q": "Warum ist das Element meines Sternzeichens wichtig?",
+   "a": "Das Element gibt Hinweise auf grundlegende Charakterzüge und auf die Art, wie man Probleme angeht oder Beziehungen gestaltet."
+  },
+  {
+   "q": "Wie finde ich das Element meines Sternzeichens heraus?",
+   "a": "Schau nach deinem Sternzeichen und siehe oben nach, welchem Element es zugeordnet ist. Im Geburtshoroskop können noch weitere Elemente eine Rolle spielen."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Kostenlose Astro-Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Weiterlesen",
+  "dictionary": "Astro-Lexikon"
+ },
+ "tool": "discover-sign",
+ "term": "what-are-astrology-elements"
+}
