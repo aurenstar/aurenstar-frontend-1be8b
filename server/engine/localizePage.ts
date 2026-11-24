@@ -3,7 +3,7 @@
  * translated title + descriptions, language and canonical address of that version, and the list of all language versions (hreflang).
  * The body is translated in the browser (SiteLocalizer), the same way for people and for Google's renderer.
  */
-import { URL_LANGUAGES, langTag } from '../../src/utils/urlLang';
+import { SITE_URL_LANGUAGES, isTranslatedLanguage, langTag } from '../../src/utils/urlLang';
 
 const SITE = 'https://aurenstar.com';
 const RTL = new Set(['ar', 'he', 'fa', 'ur']);
@@ -27,7 +27,8 @@ export const langUrl = (pagePath: string, lang: string) => `${SITE}/${lang}${pag
 export function hreflangLinks(pagePath: string): string {
   const en = `${SITE}${pagePath === '/' ? '/' : pagePath}`;
   const lines = [`<link rel="alternate" hreflang="x-default" href="${en}" />`, `<link rel="alternate" hreflang="en" href="${en}" />`];
-  for (const l of URL_LANGUAGES) lines.push(`<link rel="alternate" hreflang="${langTag(l)}" href="${langUrl(pagePath, l)}" />`);
+  // Only the versions Google should index (English + the hand-written pt and es). The machine-translated copies are noindex, so they are not listed.
+  for (const l of SITE_URL_LANGUAGES) lines.push(`<link rel="alternate" hreflang="${langTag(l)}" href="${langUrl(pagePath, l)}" />`);
   return lines.join('\n    ');
 }
 
@@ -69,5 +70,12 @@ export async function localizeHtml(
     .replace(/(<meta property="og:url" content=")[^"]*(")/, `$1${here}$2`)
     .replace(/(<meta property="og:locale" content=")[^"]*(")/, `$1${langTag(lang).replace("-", "_")}$2`)
     .replace('</head>', `    ${hreflangLinks(pagePath)}\n  </head>`);
+  // Machine-translated copies (only the head is translated, the text loads in the browser): keep them for visitors but out of Google's index,
+  // so Google never shows an empty/wrong-language copy or treats it as a duplicate. Native, English, pt and es pages stay indexed.
+  if (isTranslatedLanguage(lang)) {
+    page = /<meta\s+name="robots"[^>]*>/.test(page)
+      ? page.replace(/<meta\s+name="robots"[^>]*>/, '<meta name="robots" content="noindex,follow" />')
+      : page.replace('</head>', '    <meta name="robots" content="noindex,follow" />\n  </head>');
+  }
   return page;
 }
