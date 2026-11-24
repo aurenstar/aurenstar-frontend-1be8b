@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "resumo": {
-    "termosPublicados": 189,
+    "termosPublicados": 209,
     "funcionando": 6,
     "quase": 4,
     "aparecendo": 80,
-    "semDados": 99,
+    "semDados": 119,
     "impressoes": 775,
     "cliques": 0
   },
@@ -36,7 +36,7 @@
       "impressoes": 232,
       "cliques": 0,
       "impressoesPorTermo": 3.1,
-      "boost": 0.8
+      "boost": 0.85
     },
     {
       "categoria": "Phases & Movements",
@@ -44,7 +44,7 @@
       "impressoes": 69,
       "cliques": 0,
       "impressoesPorTermo": 3,
-      "boost": 0.8
+      "boost": 0.81
     },
     {
       "categoria": "Planets & Bodies",
@@ -56,11 +56,11 @@
     },
     {
       "categoria": "Signs & Elements",
-      "termos": 76,
+      "termos": 96,
       "impressoes": 436,
       "cliques": 0,
-      "impressoesPorTermo": 5.7,
-      "boost": 1.3
+      "impressoesPorTermo": 4.5,
+      "boost": 1.22
     }
   ],
   "termos": [
@@ -1815,6 +1815,26 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-does-mercury-in-capricorn-mean",
+      "termo": "Mercury in Capricorn",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 600,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-capricorn-zodiac-symbol-mean-in-astrology",
+      "termo": "Capricorn Symbol",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 600,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-is-a-solar-eclipse-in-astrology",
       "termo": "Solar Eclipse",
       "categoria": "Phases & Movements",
@@ -1835,6 +1855,76 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-does-ascendent-sign-mean-in-astrology",
+      "termo": "Ascendente",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 590,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-mars-in-sagittarius-mean",
+      "termo": "Mars in Sagittarius",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 590,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-saturn-in-pisces-mean",
+      "termo": "Saturn in Pisces",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 590,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-mars-in-pisces-mean",
+      "termo": "Mars in Pisces",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 590,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-mercury-in-scorpio-mean",
+      "termo": "Mercury in Scorpio",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 590,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-mercury-in-pisces-mean",
+      "termo": "Mercúrio em Peixes",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 590,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-mercury-in-libra-mean",
+      "termo": "Mercury in Libra",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 580,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-are-cadent-houses-in-astrology",
       "termo": "Casas cadentes",
       "categoria": "Chart Concepts",
@@ -1842,6 +1932,26 @@
       "cliques": 0,
       "melhorPosicao": null,
       "buscasMensaisNoMundo": 530,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-mars-in-capricorn-mean",
+      "termo": "Mars in Capricorn",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 530,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-aries-venus-mean-in-astrology",
+      "termo": "Aries Venus",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 510,
       "veredito": "sem-dados"
     },
     {
@@ -1862,6 +1972,96 @@
       "cliques": 0,
       "melhorPosicao": null,
       "buscasMensaisNoMundo": 480,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-earth-sign-mean-in-astrology",
+      "termo": "Earth sign",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 480,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-gemini-star-mean-in-astrology",
+      "termo": "Gemini star",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 480,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-lilith-in-pisces-mean",
+      "termo": "Lilith em Peixes",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 480,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-leos-zodiac-sign-mean-in-astrology",
+      "termo": "Leo",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 480,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-cancer-zodiac-symbol-mean-in-astrology",
+      "termo": "Cancer Symbol",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 470,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-north-node-in-capricorn-mean",
+      "termo": "North Node in Capricorn",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 410,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-capricorn-star-sign-mean-in-astrology",
+      "termo": "Capricórnio",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 390,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-libra-scales-mean-in-astrology",
+      "termo": "Libra scales",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 390,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-gemini-rising-sign-mean-in-astrology",
+      "termo": "Gemini Rising",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 390,
       "veredito": "sem-dados"
     },
     {
