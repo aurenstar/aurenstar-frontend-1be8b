@@ -6,16 +6,14 @@
 import { CSS } from './nativeArticle';
 import { langTag } from '../../src/utils/urlLang';
 import type { SignInfo } from '../../src/data/signsData';
+import { hubSlug, hubUrlPath, type HubLang } from '../../src/utils/signHubLinks';
+export { hubSlug, hubUrlPath };
+export type { HubLang };
 
 const SITE = 'https://aurenstar.com';
-export type HubLang = 'en' | 'pt' | 'es';
 export const HUB_LANGS: HubLang[] = ['en', 'pt', 'es'];
 const esc = (v: string) => v.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const fold = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '-');
 
-/** Address of the hub of a sign in a language ("/signs/gemini", "/pt/signos/gemeos", "/es/signos/geminis"). */
-export const hubSlug = (s: SignInfo, lang: HubLang) => fold(s.name[lang]);
-export const hubUrlPath = (s: SignInfo, lang: HubLang) => (lang === 'en' ? `/signs/${hubSlug(s, 'en')}` : `/${lang}/signos/${hubSlug(s, lang)}`);
 
 const T: Record<HubLang, {
   home: string; tools: string; articles: string; faq: string; articlesAbout: (n: string) => string; cta: string; facts: string;
@@ -52,7 +50,7 @@ const T: Record<HubLang, {
 
 const clip = (s: string, max = 155) => (s.length <= max ? s : `${s.slice(0, max - 1).replace(/[\s,;:.-]+\S*$/, '')}…`);
 
-export function renderSignHub(lang: HubLang, sign: SignInfo, articles: { title: string; href: string }[]): string {
+export function renderSignHub(lang: HubLang, sign: SignInfo, articles: { title: string; href: string }[], sections: { h: string; p: string }[] = []): string {
   const t = T[lang], n = sign.name[lang], p = sign.period[lang], e = sign.element[lang];
   const base = lang === 'en' ? '' : `/${lang}`;
   const url = `${SITE}${hubUrlPath(sign, lang)}`;
@@ -99,6 +97,7 @@ ${alt}
 <p class="lead">${esc(sign.essence[lang])}</p>
 <h2>${esc(t.facts)}</h2>
 <ul class="l"><li><strong>${esc(t.period)}:</strong> ${esc(p)}</li><li><strong>${esc(t.element)}:</strong> ${esc(e)}</li></ul>
+${sections.map((x) => `<h2>${esc(x.h)}</h2>\n<p>${esc(x.p)}</p>`).join('\n')}
 <h2>${esc(t.advice)}</h2>
 <p>${esc(sign.advice[lang])}</p>
 ${articles.length ? `<h2>${esc(t.articlesAbout(n))}</h2>\n<ul class="l">${articles.map((a) => `<li><a href="${esc(a.href)}">${esc(a.title)}</a></li>`).join('\n')}</ul>` : ''}

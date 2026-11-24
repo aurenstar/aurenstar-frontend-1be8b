@@ -30,6 +30,7 @@ import { URL_LANGUAGES } from '../src/utils/urlLang';
 import { SIGNS_DATA } from '../src/data/signsData';
 import { renderSignHub, hubUrlPath, HUB_LANGS, type HubLang } from '../server/engine/signHub';
 import { enToLocal } from '../src/utils/localizedSlugs';
+import { signForTitle, hubUrlPath as signHubPath, hubLinkLabel } from '../src/utils/signHubLinks';
 import { getArticleIsoDate, getArticleSlug } from '../src/utils/articleSlug';
 import { BLOG_CATEGORIES } from '../src/utils/blogCategories';
 import {
@@ -125,6 +126,7 @@ function articleBody(article: (typeof BLOG_ARTICLES)[number]): string {
   return MAIN(
     `<article><p>${escapeText(article.category.en)} · ${escapeText(article.readTime.en)}</p><h1>${escapeText(article.title.en)}</h1>` +
       `${pEl(article.subtitle.en)}<blockquote>${escapeText(article.quote.en)}</blockquote>${sections}${takeaways}</article>` +
+      `${(() => { const sg = signForTitle(article.title.en); return sg ? `<p><a href="${signHubPath(sg, 'en')}">${escapeText(hubLinkLabel(sg.name.en, 'en'))}</a></p>` : ''; })()}` +
       `<nav><a href="/blog">All articles</a> · <a href="/">Aurenstar</a></nav>`
   );
 }
@@ -349,7 +351,9 @@ const signUrls: { loc: string }[] = [];
         const h = heads[lang]?.[enSlug]?.t;
         return { title: (h || a.title.en).replace(/\s*\|\s*Aurenstar$/, ''), href: `/${lang}/blog/${enToLocal(lang, enSlug) ?? enSlug}` };
       });
-      const html = renderSignHub(lang as HubLang, sign, list);
+      const tf = path.join(root, 'data/sign-texts', `${sign.key}.json`);
+      const sections = fs.existsSync(tf) ? (JSON.parse(fs.readFileSync(tf, 'utf8'))[lang] as { h: string; p: string }[]) : [];
+      const html = renderSignHub(lang as HubLang, sign, list, sections);
       const urlPath = hubUrlPath(sign, lang as HubLang);
       const file = lang === 'en' ? path.join(dist, `${urlPath.slice(1)}.html`) : path.join(dist, '_native', lang, `${urlPath.replace(`/${lang}/`, '')}.html`);
       fs.mkdirSync(path.dirname(file), { recursive: true });

@@ -26,6 +26,7 @@ import {
 import { EmailCaptureCard } from '../components/EmailCaptureCard';
 import { ShareModal } from '../components/ShareModal';
 import { getUrlLang } from '../utils/urlLang';
+import { signForTitle, hubUrlPath, hubLinkLabel } from '../utils/signHubLinks';
 import { withHandTitle } from '../data/articleTitles';
 import { applyLocalized, type LocalizedArticle, type LocalizedResponse } from '../utils/localizedArticle';
 import { ArticleListenBar, ListenSegment, ListenWord } from '../components/ArticleListenBar';
@@ -611,6 +612,18 @@ const ArticlePageInner: React.FC<ArticlePageProps> = ({
               </ul>
             </div>
           ) : null}
+
+          {/* Link back to the hub page of the sign this article is about */}
+          {(() => {
+            const sg = signForTitle(baseArticle.title.en);
+            return sg ? (
+              <p className="my-8 text-center">
+                <a href={hubUrlPath(sg, lang)} className="inline-block rounded-full bg-[#E4F1FF] px-5 py-3 text-sm font-bold text-[#17366F] hover:bg-[#D9E8F8]">
+                  {sg.symbol} {hubLinkLabel(sg.name[lang], lang)}
+                </a>
+              </p>
+            ) : null;
+          })()}
         </div>
         </div>
 
