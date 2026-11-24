@@ -1947,8 +1947,11 @@
     "wordpress": {
       "id": 1913,
       "slug": "capricorn-sign-biggest-fears",
-      "modified": "2026-11-22T12:30:04"
-    }
+      "modified": "2026-11-24T15:10:04"
+    },
+    "related": [
+      "wp-2604"
+    ]
   },
   {
     "id": "wp-1908",
@@ -4976,8 +4979,11 @@
     "wordpress": {
       "id": 1793,
       "slug": "capricorn-sign-dream-home-style",
-      "modified": "2026-11-20T20:30:02"
-    }
+      "modified": "2026-11-24T15:10:04"
+    },
+    "related": [
+      "wp-2604"
+    ]
   },
   {
     "id": "wp-1790",
@@ -12500,10 +12506,11 @@
     "wordpress": {
       "id": 1448,
       "slug": "libra-side-hustle-ideas",
-      "modified": "2026-11-18T15:10:03"
+      "modified": "2026-11-24T15:10:04"
     },
     "related": [
-      "wp-1445"
+      "wp-1445",
+      "wp-1919"
     ]
   },
   {
@@ -12838,10 +12845,11 @@
     "wordpress": {
       "id": 1445,
       "slug": "libra-compatibility-best-worst",
-      "modified": "2026-11-19T15:10:04"
+      "modified": "2026-11-24T15:10:04"
     },
     "related": [
-      "wp-1448"
+      "wp-1448",
+      "wp-1919"
     ]
   },
   {
@@ -17758,8 +17766,11 @@
     "wordpress": {
       "id": 1281,
       "slug": "astrology-chart-cosmic-blueprint",
-      "modified": "2026-10-17T15:22:37"
-    }
+      "modified": "2026-11-24T15:10:04"
+    },
+    "related": [
+      "wp-1916"
+    ]
   },
   {
     "id": "wp-1277",
@@ -18053,8 +18064,11 @@
     "wordpress": {
       "id": 1277,
       "slug": "zodiac-signs-dates",
-      "modified": "2026-10-19T16:34:37"
-    }
+      "modified": "2026-11-24T15:10:04"
+    },
+    "related": [
+      "wp-1916"
+    ]
   },
   {
     "id": "wp-1259",
