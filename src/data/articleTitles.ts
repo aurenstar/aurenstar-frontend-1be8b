@@ -17,7 +17,7 @@ export const ARTICLE_TITLES: Record<string, { en: string; pt: string; es: string
     ['wp-460', 'How Gemini Acts in Relationships: The Signals That Matter', 'Como Gêmeos age nos relacionamentos: os sinais que importam', 'Cómo actúa Géminis en las relaciones: las señales que importan'],
     ['wp-446', 'What Gemini Is Like as a Friend: The Side People Miss', 'Como Gêmeos é como amigo: o lado que quase ninguém vê', 'Cómo es Géminis como amigo: el lado que casi nadie ve'],
     ['wp-445', 'Gemini Career Personality: How This Sign Thrives at Work', 'Gêmeos no trabalho: o que faz este signo brilhar na carreira', 'Géminis en el trabajo: qué hace brillar a este signo en su carrera'],
-    ['wp-443', 'Gemini Traits & Red Flags: Behaviors People Misread', 'Gêmeos: características e sinais de alerta mal interpretados', 'Géminis: rasgos y señales de alerta mal interpretados'],
+    ['wp-443', 'Gemini Red Flags: Behaviors People Often Misread', 'Sinais de alerta de Gêmeos: comportamentos mal interpretados', 'Señales de alerta de Géminis: comportamientos mal interpretados'],
     ['wp-442', 'Gemini Personality Traits: A Complete Guide', 'Personalidade de Gêmeos: guia completo das características', 'Personalidad de Géminis: guía completa de sus características'],
     ['wp-429', 'How Gemini Acts When Falling in Love: Signs People Miss', 'Como Gêmeos age quando se apaixona: os sinais que passam despercebidos', 'Cómo actúa Géminis cuando se enamora: las señales que pasan desapercibidas'],
     ['wp-413', 'Why Gemini Needs Freedom (And What That Means for You)', 'Por que Gêmeos valoriza tanto a liberdade?', '¿Por qué Géminis valora tanto la libertad?'],
