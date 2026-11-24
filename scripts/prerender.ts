@@ -34,6 +34,7 @@ import {
   SITE_URL,
   STATIC_ROUTES,
   getSeoData,
+  truncate,
   type SeoData,
 } from '../src/utils/seoData';
 
@@ -233,6 +234,27 @@ for (const term of ASTROLOGY_DICTIONARY_TERMS) {
   const to = path.join(dist, 'article-data');
   fs.mkdirSync(to, { recursive: true });
   if (fs.existsSync(from)) for (const f of fs.readdirSync(from).filter((n) => n.endsWith('.json'))) fs.writeFileSync(path.join(to, f), JSON.stringify(JSON.parse(fs.readFileSync(path.join(from, f), 'utf8')).article));
+}
+
+// Ready-made title + description of every article in pt and es (hand-written title first, then the robot's translation), so the page head
+// never depends on a machine translation at request time. The language function reads this file (functions/[lang]/[[path]].ts).
+{
+  const out: Record<string, Record<string, { t: string; d: string }>> = { pt: {}, es: {} };
+  const dir = path.join(root, 'data/article-translations');
+  for (const a of BLOG_ARTICLES) {
+    const slug = getArticleSlug(a);
+    for (const l of ['pt', 'es'] as const) {
+      let tr: { title?: string; subtitle?: string } | null = null;
+      try { tr = JSON.parse(fs.readFileSync(path.join(dir, `${a.id}.${l}.json`), 'utf8')).article; } catch { tr = null; }
+      const hand = a.title[l] && a.title[l] !== a.title.en ? a.title[l] : '';
+      const title = hand || tr?.title || '';
+      if (!title) continue;
+      const branded = `${title} | Aurenstar`;
+      out[l][slug] = { t: branded.length <= 65 ? branded : title, d: tr?.subtitle ? truncate(String(tr.subtitle)) : '' };
+    }
+  }
+  fs.writeFileSync(path.join(dist, 'article-head.json'), JSON.stringify(out));
+  console.log(`prerender: article-head.json -> pt ${Object.keys(out.pt).length}, es ${Object.keys(out.es).length}`);
 }
 
 // 4. About sections
