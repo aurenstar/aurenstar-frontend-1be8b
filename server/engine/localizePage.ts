@@ -4,6 +4,7 @@
  * The body is translated in the browser (SiteLocalizer), the same way for people and for Google's renderer.
  */
 import { SITE_URL_LANGUAGES, isTranslatedLanguage, langTag } from '../../src/utils/urlLang';
+import { localizeBlogPath } from '../../src/utils/localizedSlugs';
 
 const SITE = 'https://aurenstar.com';
 const RTL = new Set(['ar', 'he', 'fa', 'ur']);
@@ -22,7 +23,7 @@ const META_KEYS: [string, string][] = [
 const metaRe = (attr: string, key: string) => new RegExp(`(<meta\\s+${attr}="${key}"\\s+content=")([^"]*)(")`);
 
 /** Address of the same page in a language ("/blog" + "nl" -> "https://aurenstar.com/nl/blog"). */
-export const langUrl = (pagePath: string, lang: string) => `${SITE}/${lang}${pagePath === '/' ? '' : pagePath}`;
+export const langUrl = (pagePath: string, lang: string) => { const p = localizeBlogPath(pagePath, lang); return `${SITE}/${lang}${p === '/' ? '' : p}`; };
 
 export function hreflangLinks(pagePath: string): string {
   const en = `${SITE}${pagePath === '/' ? '/' : pagePath}`;
