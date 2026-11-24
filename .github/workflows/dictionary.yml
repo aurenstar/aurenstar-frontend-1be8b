@@ -1,7 +1,7 @@
 name: Dictionary writer
 on:
   schedule:
-    - cron: '17 6 * * *'   # every day, up to 20 new terms
+    - cron: '17 6 * * *'   # every day, up to 4 new terms (owner decision 24/11: 4 EN, 2 PT, 2 ES, 1 DE, 1 FR = 10 per day)
   workflow_dispatch:
   push:
     branches: [main]
@@ -45,7 +45,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          MAX=20
+          MAX=4
           if [ "${{ github.event_name }}" = "push" ]; then
             MAX=$(grep -oE 'max=[0-9]+' data/dictionary-run.trigger | head -1 | cut -d= -f2)
             MAX=${MAX:-0}
