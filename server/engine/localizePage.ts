@@ -37,6 +37,7 @@ export async function localizeHtml(
   lang: string,
   pagePath: string,
   translate: (strings: string[]) => Promise<string[] | null>,
+  fixed?: { t: string; d?: string } | null,
 ): Promise<string> {
   const titleMatch = /<title>([\s\S]*?)<\/title>/.exec(html);
   const wanted: { kind: 'title' | 'meta'; attr?: string; key?: string; value: string }[] = [];
@@ -45,21 +46,37 @@ export async function localizeHtml(
     const m = metaRe(attr, key).exec(html);
     if (m) wanted.push({ kind: 'meta', attr, key, value: unescape(m[2]) });
   }
+  // Hand-written / ready-made title and description for this page and language (built at deploy time) win over the machine translation.
+  const fixedFor = (w: { kind: string; key?: string }): string | null => {
+    if (!fixed) return null;
+    if (w.kind === 'title' || w.key === 'og:title' || w.key === 'twitter:title') return fixed.t || null;
+    if (fixed.d && (w.key === 'description' || w.key === 'og:description' || w.key === 'twitter:description')) return fixed.d;
+    return null;
+  };
+  const need = wanted.filter((w) => fixedFor(w) === null);
   // The noscript text (what crawlers without JavaScript read) repeats the title and the description.
-  const out = wanted.length ? await translate(wanted.map((w) => w.value)) : null;
+  const tr = need.length ? await translate(need.map((w) => w.value)) : [];
+  const okTr = !!tr && tr.length === need.length;
+  let ti = 0;
+  const texts: (string | null)[] = wanted.map((w) => {
+    const f = fixedFor(w);
+    if (f !== null) return f;
+    const v = okTr ? (tr as string[])[ti] || w.value : null;
+    ti++;
+    return v;
+  });
 
   let page = html;
-  if (out && out.length === wanted.length) {
-    wanted.forEach((w, i) => {
-      const text = out[i] || w.value;
-      if (w.kind === 'title') page = page.replace(/<title>[\s\S]*?<\/title>/, `<title>${escText(text)}</title>`);
-      else page = page.replace(metaRe(w.attr as string, w.key as string), (_m, a, _v, c) => `${a}${escAttr(text)}${c}`);
-    });
-    const titleT = out[wanted.findIndex((w) => w.kind === 'title')];
-    const descT = out[wanted.findIndex((w) => w.key === 'description')];
-    if (titleT && descT) {
-      page = page.replace(/<noscript><h1>[\s\S]*?<\/h1><p>[\s\S]*?<\/p>/, `<noscript><h1>${escText(titleT)}</h1><p>${escText(descT)}</p>`);
-    }
+  wanted.forEach((w, i) => {
+    const text = texts[i];
+    if (text === null) return;
+    if (w.kind === 'title') page = page.replace(/<title>[\s\S]*?<\/title>/, `<title>${escText(text)}</title>`);
+    else page = page.replace(metaRe(w.attr as string, w.key as string), (_m, a, _v, c) => `${a}${escAttr(text)}${c}`);
+  });
+  const titleT = texts[wanted.findIndex((w) => w.kind === 'title')];
+  const descT = texts[wanted.findIndex((w) => w.key === 'description')];
+  if (titleT && descT) {
+    page = page.replace(/<noscript><h1>[\s\S]*?<\/h1><p>[\s\S]*?<\/p>/, `<noscript><h1>${escText(titleT)}</h1><p>${escText(descT)}</p>`);
   }
   const here = langUrl(pagePath, lang);
   // The readable English text in the HTML would not match the page language: the app shows the right language in the browser.

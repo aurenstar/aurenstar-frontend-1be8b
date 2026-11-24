@@ -49,10 +49,19 @@ export const onRequest = async ({ request, env, params, next }: Context): Promis
   if (!asset.ok || !type.includes('text/html')) return asset; // unknown address: real 404 as usual
 
   const html = await asset.text();
+  // pt/es article pages: ready-made title and description built at deploy time (hand-written titles + the robot's translation).
+  let fixed: { t: string; d?: string } | null = null;
+  const m = /^\/blog\/([^/]+)$/.exec(pagePath);
+  if (m && (lang === 'pt' || lang === 'es')) {
+    try {
+      const r = await env.ASSETS.fetch(new Request(new URL('/article-head.json', url).toString(), { headers: { Accept: 'application/json' } }));
+      if (r.ok) fixed = ((await r.json()) as Record<string, Record<string, { t: string; d?: string }>>)[lang]?.[decodeURIComponent(m[1])] || null;
+    } catch { fixed = null; }
+  }
   const page = await localizeHtml(html, lang, pagePath, async (strings) => {
     const r = await translateStrings(env, request, lang, strings);
     return r.ok ? r.texts : null;
-  });
+  }, fixed);
   return new Response(request.method === 'HEAD' ? null : page, {
     status: 200,
     headers: {
