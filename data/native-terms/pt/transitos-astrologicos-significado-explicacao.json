@@ -1,0 +1,60 @@
+{
+ "lang": "pt",
+ "keyword": "trânsitos astrológicos",
+ "volume": 990,
+ "slug": "transitos-astrologicos-significado-explicacao",
+ "date": "2026-11-24",
+ "kind": "term",
+ "title": "Trânsitos astrológicos: o que são e como influenciam você",
+ "description": "Entenda o que são trânsitos astrológicos, como eles afetam seu mapa astral e veja exemplos práticos de mudanças no dia a dia.",
+ "intro": "Trânsitos astrológicos são os movimentos atuais dos planetas no céu e como eles interagem com o seu mapa astral de nascimento. Eles ajudam a entender fases de mudanças, desafios e oportunidades no cotidiano.",
+ "sections": [
+  {
+   "h2": "O que são trânsitos astrológicos?",
+   "paragraphs": [
+    "Trânsitos astrológicos são o estudo da posição dos planetas hoje em relação ao seu mapa astral. Quando um planeta passa por um ponto importante do seu mapa natal, como seu Sol, Lua ou Ascendente, ele ativa temas ligados àquele planeta ou casa. Por exemplo, quando Marte faz um trânsito sobre o seu Sol natal, você pode sentir mais energia ou vontade de agir."
+   ]
+  },
+  {
+   "h2": "Como os trânsitos afetam o dia a dia?",
+   "paragraphs": [
+    "No dia a dia, os trânsitos astrológicos mostram tendências de humor, desafios e oportunidades. Eles não determinam o que vai acontecer, mas apontam temas que podem surgir, como vontade de mudar de emprego, início de um relacionamento ou momentos de reflexão. Por exemplo, um trânsito de Saturno pode trazer mais responsabilidade ou cobranças, enquanto um trânsito de Vênus pode indicar um período mais leve e prazeroso."
+   ]
+  },
+  {
+   "h2": "Exemplo prático de trânsito astrológico",
+   "paragraphs": [
+    "Imagine que você tem o Sol em Câncer (nascidos por volta de 21 de junho a 21 de julho) e o planeta Júpiter, no céu, está passando por Peixes. Se Júpiter faz um bom aspecto com o seu Sol, esse pode ser um momento de crescimento, otimismo ou novas oportunidades. Já se Marte está passando pelo seu Ascendente, talvez você sinta mais energia para começar projetos ou cuidar do corpo."
+   ]
+  },
+  {
+   "h2": "Ideias relacionadas aos trânsitos astrológicos",
+   "paragraphs": [
+    "Além dos trânsitos, outros conceitos importantes são a Revolução Solar (aniversário astrológico), progressões e ciclos lunares. Todos esses movimentos ajudam a entender melhor os ciclos da vida. Os trânsitos astrológicos servem como ferramentas de autoconhecimento e reflexão, para você perceber os temas mais presentes em determinada fase."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Como descubro meus trânsitos astrológicos?",
+   "a": "Você pode usar ferramentas online ou consultar um astrólogo para ver como os planetas estão interagindo com seu mapa natal."
+  },
+  {
+   "q": "Trânsitos astrológicos preveem o futuro?",
+   "a": "Eles não preveem o futuro de forma exata, mas mostram temas e tendências que podem se manifestar na sua vida."
+  },
+  {
+   "q": "Todos sentem os trânsitos da mesma forma?",
+   "a": "Não. Cada pessoa sente os trânsitos de um jeito, dependendo do próprio mapa astral e do momento de vida."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas gratuitas de astrologia",
+  "articles": "Artigos",
+  "faq": "Perguntas frequentes",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário de astrologia"
+ },
+ "tool": "daily-message"
+}
