@@ -27,6 +27,9 @@ import { wrapPluginStory, type WpStory } from '../server/engine/storyPlugin';
 import { renderStoriesIndex } from '../server/engine/storiesIndex';
 import { renderNativeArticle, renderNativeHub, pathOf, hubPath, type NativeArticle } from '../server/engine/nativeArticle';
 import { URL_LANGUAGES } from '../src/utils/urlLang';
+import { SIGNS_DATA } from '../src/data/signsData';
+import { renderSignHub, hubUrlPath, HUB_LANGS, type HubLang } from '../server/engine/signHub';
+import { enToLocal } from '../src/utils/localizedSlugs';
 import { getArticleIsoDate, getArticleSlug } from '../src/utils/articleSlug';
 import { BLOG_CATEGORIES } from '../src/utils/blogCategories';
 import {
@@ -330,6 +333,34 @@ for (const [lang, list] of nativeByLang) {
 }
 if (nativeUrls.length) fs.writeFileSync(path.join(dist, 'sitemap-native.xml'), urlset(nativeUrls.map((u) => `  <url><loc>${escapeXml(u.loc)}</loc><lastmod>${u.lastmod}</lastmod></url>`).join('\n')));
 
+// Sign hub pages (server/engine/signHub.ts): one standalone page per sign and language (en /signs/gemini, pt /pt/signos/gemeos, es /es/signos/geminis),
+// linking to every article about the sign. en lives in dist/signs/, pt/es in dist/_native/<lang>/signos/ (the language function serves them). Own sitemap file.
+const signUrls: { loc: string }[] = [];
+{
+  const foldS = (x: string) => x.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const heads = JSON.parse(fs.readFileSync(path.join(dist, 'article-head.json'), 'utf8')) as Record<string, Record<string, { t: string }>>;
+  for (const sign of Object.values(SIGNS_DATA)) {
+    const re = new RegExp(`\\b${foldS(sign.name.en)}\\b`);
+    const mine = BLOG_ARTICLES.filter((a) => re.test(foldS(a.title.en))).sort((x, y) => (x.id === sign.articleId ? -1 : y.id === sign.articleId ? 1 : 0));
+    for (const lang of HUB_LANGS) {
+      const list = mine.map((a) => {
+        const enSlug = getArticleSlug(a);
+        if (lang === 'en') return { title: a.title.en, href: `/blog/${enSlug}` };
+        const h = heads[lang]?.[enSlug]?.t;
+        return { title: (h || a.title.en).replace(/\s*\|\s*Aurenstar$/, ''), href: `/${lang}/blog/${enToLocal(lang, enSlug) ?? enSlug}` };
+      });
+      const html = renderSignHub(lang as HubLang, sign, list);
+      const urlPath = hubUrlPath(sign, lang as HubLang);
+      const file = lang === 'en' ? path.join(dist, `${urlPath.slice(1)}.html`) : path.join(dist, '_native', lang, `${urlPath.replace(`/${lang}/`, '')}.html`);
+      fs.mkdirSync(path.dirname(file), { recursive: true });
+      fs.writeFileSync(file, html);
+      signUrls.push({ loc: `${SITE_URL}${urlPath}` });
+    }
+  }
+  fs.writeFileSync(path.join(dist, 'sitemap-signs.xml'), urlset(signUrls.map((u) => `  <url><loc>${escapeXml(u.loc)}</loc></url>`).join('\n')));
+  console.log(`prerender: ${signUrls.length} sign hub pages`);
+}
+
 // Web Stories (Google, see server/engine/webStory.ts): one AMP page each, written to dist/stories/<lang>/<slug>.html (served at /stories/<lang>/<slug>), own sitemap file.
 const storyUrls: { loc: string; lastmod: string }[] = [];
 const storiesDir = path.join(root, 'data/stories');
@@ -375,6 +406,7 @@ if (sorted.length <= PAGES_PER_FILE && !nativeUrls.length && !storyUrls.length) 
     parts.push(name);
   }
   if (nativeUrls.length) parts.push('sitemap-native.xml');
+  if (signUrls.length) parts.push('sitemap-signs.xml');
   if (storyUrls.length) parts.push('sitemap-stories.xml');
   const today = new Date().toISOString().slice(0, 10);
   fs.writeFileSync(

@@ -76,7 +76,7 @@ export function checkArticle(a: NativeArticle): string[] {
 }
 
 // ---------- pages ----------
-const CSS = `body{margin:0;font:18px/1.7 system-ui,-apple-system,Segoe UI,Roboto,"Noto Sans",sans-serif;color:#1d1b2e;background:#faf8ff}
+export const CSS = `body{margin:0;font:18px/1.7 system-ui,-apple-system,Segoe UI,Roboto,"Noto Sans",sans-serif;color:#1d1b2e;background:#faf8ff}
 header,footer{max-width:760px;margin:0 auto;padding:18px 20px;display:flex;gap:18px;flex-wrap:wrap;align-items:center}
 header a.b{font-weight:700;letter-spacing:.08em;text-decoration:none;color:#4b2a8f}
 a{color:#5b34b0}main{max-width:760px;margin:0 auto;padding:8px 20px 40px}
