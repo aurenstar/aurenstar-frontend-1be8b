@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "what-makes-aries-sign-solo-travel-exciting-and-rewarding-pt",
+  "date": "2026-11-25",
+  "title": "Por que arianos amam viajar sozinhos?",
+  "description": "Descubra o que torna a viagem solo uma aventura perfeita para o signo de Áries, cheia de desafios e liberdade.",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Deslize para saber",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Surpresa",
+      "title": "Viagem solo é adrenalina",
+      "text": "Arianos sentem uma energia única ao viajar sozinhos, pois isso alimenta sua sede por independência e novas experiências."
+    },
+    {
+      "theme": "air",
+      "kicker": "Insight 1",
+      "title": "Espontaneidade no comando",
+      "text": "Você pode mudar planos no meio da viagem, impulsionado pela vontade de explorar algo novo e inesperado. Já pensou nisso?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Insight 2",
+      "title": "Atividades que energizam",
+      "text": "Caminhadas e aventuras físicas são o combustível para o ariano. Isso torna cada dia uma conquista pessoal e cheia de emoção."
+    },
+    {
+      "theme": "air",
+      "kicker": "Insight 3",
+      "title": "Desafios são motivação",
+      "text": "Competir consigo mesmo faz parte da jornada. Quantos pontos turísticos você conseguiria visitar em um único dia?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Convite",
+      "title": "Quer saber mais?",
+      "text": "No artigo completo, você vai descobrir dicas para aproveitar cada desafio e fazer da sua viagem solo uma experiência inesquecível."
+    }
+  ],
+  "cta": {
+    "text": "Quer viver essa aventura?",
+    "label": "Leia o artigo completo",
+    "url": "/pt/blog/what-makes-aries-sign-solo-travel-exciting-and-rewarding"
+  }
+}
