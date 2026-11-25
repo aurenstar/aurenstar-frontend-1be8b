@@ -1,0 +1,65 @@
+{
+ "lang": "pt",
+ "keyword": "mapa astral",
+ "volume": 960,
+ "slug": "mapa-astral-o-que-e-como-funciona",
+ "date": "2026-11-25",
+ "kind": "term",
+ "title": "Mapa Astral: O que é e como funciona",
+ "description": "Descubra o que é o mapa astral, como ele revela suas características e influencia sua vida, de forma simples e prática.",
+ "intro": "O mapa astral é um desenho do céu no exato momento do seu nascimento. Ele mostra a posição dos planetas e signos, ajudando a entender quem você é, suas tendências e desafios.",
+ "sections": [
+  {
+   "h2": "O que é o mapa astral?",
+   "paragraphs": [
+    "O mapa astral, também chamado de carta natal, é um gráfico que representa a posição dos planetas, do Sol e da Lua na hora que você nasceu. Cada planeta está em um signo do zodíaco e em uma das doze casas astrológicas, que indicam áreas da vida. Por isso, o mapa astral é uma ferramenta que ajuda a conhecer melhor a personalidade, emoções, relacionamentos e caminhos possíveis.",
+    "Para montar um mapa astral, é preciso saber a data, hora e local exato do nascimento. Com esses dados, é possível calcular a posição dos astros naquele momento e criar o desenho do céu particular de cada pessoa."
+   ]
+  },
+  {
+   "h2": "O que o mapa astral revela no dia a dia",
+   "paragraphs": [
+    "No mapa astral, o Sol revela seu jeito básico e a essência do seu ser, enquanto a Lua fala das suas emoções e necessidades. Os planetas como Mercúrio mostram como você pensa e se comunica, Vênus fala sobre amor e o que você valoriza, e Marte traz energia e vontade de agir. As casas indicam em quais áreas da vida essas características se manifestam mais.",
+    "Por exemplo, se seu Sol está em Leão (que acontece para quem nasce por volta de 22 de julho a 22 de agosto) na casa 10, você pode ter uma personalidade que gosta de brilhar e ser reconhecida no trabalho ou na carreira. Mas lembre-se: o mapa astral é um convite para refletir sobre você, não uma previsão rígida do futuro."
+   ]
+  },
+  {
+   "h2": "Um exemplo simples de mapa astral",
+   "paragraphs": [
+    "Imagine uma pessoa nascida num dia de outubro, com o Sol em Libra e a Lua em Câncer. Essa combinação pode indicar alguém que busca equilíbrio e harmonia nas relações (Libra), mas que também valoriza muito o conforto emocional e a família (Lua em Câncer). Se Marte está na casa 7, essa pessoa pode agir com energia especialmente em parcerias e relacionamentos.",
+    "O mapa astral mostra essa mistura única, que ajuda cada um a entender melhor suas qualidades, desafios e o que pode desenvolver na vida."
+   ]
+  },
+  {
+   "h2": "Termos relacionados ao mapa astral",
+   "paragraphs": [
+    "Alguns termos ajudam a entender melhor o mapa astral, como \"ascendente\", que é o signo que estava nascendo no horizonte no momento do seu nascimento. Ele influencia a forma como você se mostra para o mundo. Outro termo é \"casas astrológicas\", que dividem o mapa em doze áreas da vida, como carreira, amor, família e saúde.",
+    "Também é comum falar dos \"elementos\" (fogo, terra, ar e água), que agrupam os signos segundo características básicas, e dos \"aspectos\", que mostram como os planetas se relacionam entre si no mapa, indicando harmonias ou desafios."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Posso fazer meu mapa astral sozinho?",
+   "a": "Sim! Com a data, hora e local do seu nascimento, você pode usar ferramentas online para gerar seu mapa astral automaticamente."
+  },
+  {
+   "q": "O mapa astral muda com o tempo?",
+   "a": "O mapa astral de nascimento é fixo, pois mostra o céu no momento em que você nasceu. O que muda são as posições atuais dos planetas, que influenciam seu dia a dia."
+  },
+  {
+   "q": "O que é mais importante no mapa astral?",
+   "a": "Todos os elementos do mapa têm importância, mas o Sol, a Lua e o ascendente são os principais para entender sua personalidade e como você se expressa."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas grátis",
+  "articles": "Artigos",
+  "faq": "Perguntas frequentes",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me",
+ "term": "what-is-birth-chart"
+}
