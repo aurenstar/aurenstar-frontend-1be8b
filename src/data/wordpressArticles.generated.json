@@ -1682,8 +1682,11 @@
     "wordpress": {
       "id": 2604,
       "slug": "capricorn-sign-emotional-needs",
-      "modified": "2026-11-22T18:30:05"
-    }
+      "modified": "2026-11-25T15:10:05"
+    },
+    "related": [
+      "wp-1913"
+    ]
   },
   {
     "id": "wp-1919",
@@ -2718,10 +2721,11 @@
     "wordpress": {
       "id": 1908,
       "slug": "virgo-sign-friendship-red-flags",
-      "modified": "2026-11-22T15:10:03"
+      "modified": "2026-11-25T15:10:05"
     },
     "related": [
-      "wp-1784"
+      "wp-1784",
+      "wp-2607"
     ]
   },
   {
@@ -3546,8 +3550,11 @@
     "wordpress": {
       "id": 1899,
       "slug": "how-pisces-sign-acts-when-they-like-you",
-      "modified": "2026-11-22T16:30:04"
-    }
+      "modified": "2026-11-25T15:10:05"
+    },
+    "related": [
+      "wp-1804"
+    ]
   },
   {
     "id": "wp-1862",
@@ -4919,10 +4926,11 @@
     "wordpress": {
       "id": 1801,
       "slug": "pisces-sign-lucky-charms-crystals",
-      "modified": "2026-11-23T15:10:04"
+      "modified": "2026-11-25T15:10:05"
     },
     "related": [
-      "wp-1899"
+      "wp-1899",
+      "wp-1804"
     ]
   },
   {
@@ -5478,10 +5486,11 @@
     "wordpress": {
       "id": 1793,
       "slug": "capricorn-sign-dream-home-style",
-      "modified": "2026-11-24T15:10:04"
+      "modified": "2026-11-25T15:10:05"
     },
     "related": [
-      "wp-2604"
+      "wp-2604",
+      "wp-1913"
     ]
   },
   {
@@ -6346,10 +6355,11 @@
     "wordpress": {
       "id": 1784,
       "slug": "virgo-sign-evening-wind-down",
-      "modified": "2026-11-22T15:10:04"
+      "modified": "2026-11-25T15:10:05"
     },
     "related": [
-      "wp-1908"
+      "wp-1908",
+      "wp-2607"
     ]
   },
   {
