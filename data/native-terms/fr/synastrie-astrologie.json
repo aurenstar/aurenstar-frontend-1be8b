@@ -1,0 +1,61 @@
+{
+ "lang": "fr",
+ "keyword": "synastrie astrologie",
+ "volume": 970,
+ "slug": "synastrie-astrologie",
+ "date": "2026-11-25",
+ "kind": "term",
+ "title": "Synastrie astrologie : comprendre la compatibilité entre deux thèmes",
+ "description": "La synastrie astrologie compare deux thèmes de naissance pour analyser la dynamique relationnelle et la compatibilité entre deux personnes.",
+ "intro": "La synastrie astrologie est une méthode qui consiste à comparer les thèmes astraux de deux personnes pour mieux comprendre leur relation. Elle permet d’observer comment leurs planètes interagissent et influencent leurs échanges au quotidien.",
+ "sections": [
+  {
+   "h2": "Qu’est-ce que la synastrie en astrologie ?",
+   "paragraphs": [
+    "La synastrie astrologie est l’étude des rapports entre les cartes du ciel de deux individus. En superposant leurs thèmes natals, l’astrologue identifie les aspects (angles) formés entre leurs planètes, ce qui donne des indices sur leur compatibilité affective, amicale ou professionnelle. On cherche ainsi à comprendre les forces d’attraction, les tensions possibles, mais aussi les points d’harmonie dans leur relation.",
+    "Cette technique est très utilisée pour analyser les couples, mais aussi toute forme de partenariat. Elle ne prédit pas un avenir précis, mais offre un éclairage sur la dynamique énergétique entre deux personnes.",
+    "Les planètes clés à observer en synastrie astrologie sont le Soleil, la Lune, Vénus, Mars et parfois Saturne, car elles révèlent les émotions, les désirs et les défis communs."
+   ]
+  },
+  {
+   "h2": "Que révèle la synastrie astrologie dans un thème de naissance ?",
+   "paragraphs": [
+    "Dans un thème de naissance, la synastrie astrologie met en lumière les interactions entre les signes, les maisons et les planètes des deux cartes. Par exemple, si le Soleil de l’un forme un trigone avec la Lune de l’autre, cela traduit souvent une belle harmonie émotionnelle.",
+    "À l’inverse, un carré entre Mars et Saturne peut signaler des tensions ou des défis à relever ensemble. Ces aspects sont des pistes pour mieux comprendre la communication et les besoins de chacun.",
+    "La position des planètes dans les maisons astrologiques des deux thèmes indique aussi dans quels domaines de vie la relation se manifeste le plus, comme le travail, la famille ou la créativité."
+   ]
+  },
+  {
+   "h2": "Un exemple simple de synastrie astrologie",
+   "paragraphs": [
+    "Imaginez deux personnes dont la Vénus de l’un est en aspect favorable à la Lune de l’autre. Cela peut signifier une grande douceur dans les échanges affectifs et une compréhension intuitive des émotions. Ils se sentent naturellement bien ensemble, ce qui facilite leur complicité.",
+    "En revanche, si le Mars de l’un forme un carré à Saturne de l’autre, il peut y avoir des frustrations ou des blocages à surmonter, mais aussi une belle opportunité de croissance personnelle et collective.",
+    "Ces exemples montrent que la synastrie astrologie aide à mieux connaître les forces et les défis d’une relation, sans pour autant juger ou prédire un destin."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "La synastrie astrologie peut-elle prédire si un couple durera ?",
+   "a": "Non, la synastrie offre des pistes sur la compatibilité et les dynamiques entre deux personnes, mais ne prédit pas l’avenir ni la durée d’un couple."
+  },
+  {
+   "q": "Peut-on faire une synastrie pour une relation amicale ?",
+   "a": "Oui, la synastrie astrologie s’applique à toutes sortes de relations, amoureuses, amicales ou professionnelles pour mieux comprendre les interactions."
+  },
+  {
+   "q": "Doit-on connaître ses deux thèmes natals pour une synastrie ?",
+   "a": "Oui, la synastrie nécessite les deux thèmes de naissance complets pour comparer les positions planétaires et leurs aspects."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "FAQ",
+  "more": "À lire aussi",
+  "dictionary": "Dictionnaire"
+ },
+ "tool": "descreva-me",
+ "term": "what-is-synastry"
+}
