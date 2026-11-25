@@ -31,4 +31,14 @@ jobs:
           git config user.name "aurenstar-sync"
           git config user.email "sync@aurenstar.com"
           git add data/wp-stories
-          git diff --cached --quiet || (git commit -m "Sync stories from WordPress" && git push)
+          if ! git diff --cached --quiet; then
+            git commit -m "Sync stories from WordPress"
+            # the main branch moves often (other robots and merges), so catch up and try again a few times
+            ok=0
+            for i in 1 2 3 4 5; do
+              if git pull --rebase origin main && git push; then ok=1; break; fi
+              git rebase --abort 2>/dev/null || true
+              sleep $((i * 6))
+            done
+            [ "$ok" = 1 ]
+          fi
