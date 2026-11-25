@@ -1,5 +1,306 @@
 [
   {
+    "id": "wp-2856",
+    "category": {
+      "pt": "GUIA DOS SIGNOS",
+      "en": "ZODIAC GUIDE",
+      "es": "GUÍA ZODIACAL"
+    },
+    "categoryColor": "bg-[#3982C8] text-white",
+    "readTime": {
+      "pt": "6 min de leitura",
+      "en": "6 min read",
+      "es": "6 min de lectura"
+    },
+    "date": {
+      "pt": "25 Nov 2026",
+      "en": "Nov 25, 2026",
+      "es": "25 Nov 2026"
+    },
+    "author": {
+      "name": "Aurenstar",
+      "role": "Insights",
+      "avatar": "/aurenstar-avatar.webp",
+      "dateTime": {
+        "pt": "25 Nov 2026 às 18:30",
+        "en": "Nov 25, 2026 • 6:30 PM",
+        "es": "25 Nov 2026 a las 18:30"
+      },
+      "date": {
+        "pt": "25 Nov 2026",
+        "en": "Nov 25, 2026",
+        "es": "25 Nov 2026"
+      }
+    },
+    "image": "/assets/wp/cancer-sign-full-moon.webp",
+    "imageCaption": {
+      "pt": "How Does the Cancer Sign Respond to the Full Moon?",
+      "en": "How Does the Cancer Sign Respond to the Full Moon?",
+      "es": "How Does the Cancer Sign Respond to the Full Moon?"
+    },
+    "title": {
+      "pt": "How Does the Cancer Sign Respond to the Full Moon?",
+      "en": "How Does the Cancer Sign Respond to the Full Moon?",
+      "es": "How Does the Cancer Sign Respond to the Full Moon?"
+    },
+    "subtitle": {
+      "pt": "The full moon often amplifies emotional tides for Cancer, offering insights into their intuitive nature and ways to channel lunar energy effectively.",
+      "en": "The full moon often amplifies emotional tides for Cancer, offering insights into their intuitive nature and ways to channel lunar energy effectively.",
+      "es": "The full moon often amplifies emotional tides for Cancer, offering insights into their intuitive nature and ways to channel lunar energy effectively."
+    },
+    "quote": {
+      "pt": "Imagine a person of the Cancer sign noticing their feelings swell unexpectedly on a clear night when the full moon hangs bright.",
+      "en": "Imagine a person of the Cancer sign noticing their feelings swell unexpectedly on a clear night when the full moon hangs bright.",
+      "es": "Imagine a person of the Cancer sign noticing their feelings swell unexpectedly on a clear night when the full moon hangs bright."
+    },
+    "sections": [
+      {
+        "heading": {
+          "pt": "Overview",
+          "en": "Overview",
+          "es": "Overview"
+        },
+        "paragraphs": [
+          {
+            "pt": "Imagine a person of the Cancer sign noticing their feelings swell unexpectedly on a clear night when the full moon hangs bright. This lunar phase tends to heighten emotional awareness and intuition, especially for those born under Cancer. The full moon’s glow can illuminate hidden feelings, prompting a deep internal reckoning that many Cancer individuals experience as both challenging and clarifying.",
+            "en": "Imagine a person of the Cancer sign noticing their feelings swell unexpectedly on a clear night when the full moon hangs bright. This lunar phase tends to heighten emotional awareness and intuition, especially for those born under Cancer. The full moon’s glow can illuminate hidden feelings, prompting a deep internal reckoning that many Cancer individuals experience as both challenging and clarifying.",
+            "es": "Imagine a person of the Cancer sign noticing their feelings swell unexpectedly on a clear night when the full moon hangs bright. This lunar phase tends to heighten emotional awareness and intuition, especially for those born under Cancer. The full moon’s glow can illuminate hidden feelings, prompting a deep internal reckoning that many Cancer individuals experience as both challenging and clarifying."
+          },
+          {
+            "pt": "People born under the Cancer sign often find that the full moon acts like a spotlight on their inner world, intensifying moods and stirring memories. This connection is not just poetic; it reflects a tangible shift in emotional energy that can influence behaviors and decisions. Understanding this dynamic can help those with Cancer traits navigate their feelings with greater ease and purpose.",
+            "en": "People born under the Cancer sign often find that the full moon acts like a spotlight on their inner world, intensifying moods and stirring memories. This connection is not just poetic; it reflects a tangible shift in emotional energy that can influence behaviors and decisions. Understanding this dynamic can help those with Cancer traits navigate their feelings with greater ease and purpose.",
+            "es": "People born under the Cancer sign often find that the full moon acts like a spotlight on their inner world, intensifying moods and stirring memories. This connection is not just poetic; it reflects a tangible shift in emotional energy that can influence behaviors and decisions. Understanding this dynamic can help those with Cancer traits navigate their feelings with greater ease and purpose."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "pt": "How Does the Full Moon Influence Emotional Energy?",
+          "en": "How Does the Full Moon Influence Emotional Energy?",
+          "es": "How Does the Full Moon Influence Emotional Energy?"
+        },
+        "paragraphs": [
+          {
+            "pt": "The full moon is widely associated with heightened emotional energy and a surge in intuition. During this phase, many people sense an increase in sensitivity, restlessness, or even creative inspiration. For example, someone might find themselves more reflective or prone to emotional outbursts during the full moon, as the lunar light seems to amplify what lies beneath the surface.",
+            "en": "The full moon is widely associated with heightened emotional energy and a surge in intuition. During this phase, many people sense an increase in sensitivity, restlessness, or even creative inspiration. For example, someone might find themselves more reflective or prone to emotional outbursts during the full moon, as the lunar light seems to amplify what lies beneath the surface.",
+            "es": "The full moon is widely associated with heightened emotional energy and a surge in intuition. During this phase, many people sense an increase in sensitivity, restlessness, or even creative inspiration. For example, someone might find themselves more reflective or prone to emotional outbursts during the full moon, as the lunar light seems to amplify what lies beneath the surface."
+          },
+          {
+            "pt": "Consider a scenario where a person of the Leo sign feels unusually restless and seeks out a creative outlet like painting or writing during the full moon. This surge in emotional energy can be a catalyst for self-expression. Similarly, a person of the Virgo sign might notice an increased urge to organize their surroundings, channeling the moon’s energy into practical tasks.",
+            "en": "Consider a scenario where a person of the Leo sign feels unusually restless and seeks out a creative outlet like painting or writing during the full moon. This surge in emotional energy can be a catalyst for self-expression. Similarly, a person of the Virgo sign might notice an increased urge to organize their surroundings, channeling the moon’s energy into practical tasks.",
+            "es": "Consider a scenario where a person of the Leo sign feels unusually restless and seeks out a creative outlet like painting or writing during the full moon. This surge in emotional energy can be a catalyst for self-expression. Similarly, a person of the Virgo sign might notice an increased urge to organize their surroundings, channeling the moon’s energy into practical tasks."
+          },
+          {
+            "pt": "These emotional tides are not random; they often coincide with the moon’s peak illumination, which symbolizes fullness and completion. This phase encourages reflection on what has been nurtured and what might need release, setting the stage for transformation.",
+            "en": "These emotional tides are not random; they often coincide with the moon’s peak illumination, which symbolizes fullness and completion. This phase encourages reflection on what has been nurtured and what might need release, setting the stage for transformation.",
+            "es": "These emotional tides are not random; they often coincide with the moon’s peak illumination, which symbolizes fullness and completion. This phase encourages reflection on what has been nurtured and what might need release, setting the stage for transformation."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "pt": "What Makes Cancer’s Connection to the Full Moon Special?",
+          "en": "What Makes Cancer’s Connection to the Full Moon Special?",
+          "es": "What Makes Cancer’s Connection to the Full Moon Special?"
+        },
+        "paragraphs": [
+          {
+            "pt": "Cancer is ruled by the moon, which naturally ties this sign to lunar cycles more deeply than others. This connection means that the full moon’s energy resonates strongly with Cancer’s emotional and intuitive nature. For instance, a person of the Cancer sign might find their empathy and sensitivity amplified during the full moon, making them more attuned to the feelings of those around them.",
+            "en": "Cancer is ruled by the moon, which naturally ties this sign to lunar cycles more deeply than others. This connection means that the full moon’s energy resonates strongly with Cancer’s emotional and intuitive nature. For instance, a person of the Cancer sign might find their empathy and sensitivity amplified during the full moon, making them more attuned to the feelings of those around them.",
+            "es": "Cancer is ruled by the moon, which naturally ties this sign to lunar cycles more deeply than others. This connection means that the full moon’s energy resonates strongly with Cancer’s emotional and intuitive nature. For instance, a person of the Cancer sign might find their empathy and sensitivity amplified during the full moon, making them more attuned to the feelings of those around them."
+          },
+          {
+            "pt": "Imagine a Cancer individual in a group setting during a full moon evening. They might pick up on subtle emotional undercurrents that others miss, offering comfort or insight that feels almost instinctual. This heightened awareness can be a double-edged sword, as it may also lead to emotional overwhelm if not managed mindfully.",
+            "en": "Imagine a Cancer individual in a group setting during a full moon evening. They might pick up on subtle emotional undercurrents that others miss, offering comfort or insight that feels almost instinctual. This heightened awareness can be a double-edged sword, as it may also lead to emotional overwhelm if not managed mindfully.",
+            "es": "Imagine a Cancer individual in a group setting during a full moon evening. They might pick up on subtle emotional undercurrents that others miss, offering comfort or insight that feels almost instinctual. This heightened awareness can be a double-edged sword, as it may also lead to emotional overwhelm if not managed mindfully."
+          },
+          {
+            "pt": "Furthermore, the full moon can intensify Cancer’s natural tendency to protect and nurture. This might manifest as a stronger desire to connect with family or close friends, or to create a safe, comforting environment. The lunar influence often encourages Cancer to reflect on their emotional boundaries and personal needs.",
+            "en": "Furthermore, the full moon can intensify Cancer’s natural tendency to protect and nurture. This might manifest as a stronger desire to connect with family or close friends, or to create a safe, comforting environment. The lunar influence often encourages Cancer to reflect on their emotional boundaries and personal needs.",
+            "es": "Furthermore, the full moon can intensify Cancer’s natural tendency to protect and nurture. This might manifest as a stronger desire to connect with family or close friends, or to create a safe, comforting environment. The lunar influence often encourages Cancer to reflect on their emotional boundaries and personal needs."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "pt": "What Are Some Practical Examples of Cancer’s Reactions During the Full Moon?",
+          "en": "What Are Some Practical Examples of Cancer’s Reactions During the Full Moon?",
+          "es": "What Are Some Practical Examples of Cancer’s Reactions During the Full Moon?"
+        },
+        "paragraphs": [
+          {
+            "pt": "Many people born under the Cancer sign report specific emotional and behavioral patterns during the full moon. For example, a Cancer person might experience a surge of nostalgia, recalling past experiences with vivid clarity. This could lead to reaching out to old friends or revisiting family traditions.",
+            "en": "Many people born under the Cancer sign report specific emotional and behavioral patterns during the full moon. For example, a Cancer person might experience a surge of nostalgia, recalling past experiences with vivid clarity. This could lead to reaching out to old friends or revisiting family traditions.",
+            "es": "Many people born under the Cancer sign report specific emotional and behavioral patterns during the full moon. For example, a Cancer person might experience a surge of nostalgia, recalling past experiences with vivid clarity. This could lead to reaching out to old friends or revisiting family traditions."
+          },
+          {
+            "pt": "In a workplace scenario, a Cancer individual might feel unusually protective of their team during a full moon, stepping up to mediate conflicts or offer support. Their intuition could guide them to sense tensions before they become overt, allowing for timely interventions.",
+            "en": "In a workplace scenario, a Cancer individual might feel unusually protective of their team during a full moon, stepping up to mediate conflicts or offer support. Their intuition could guide them to sense tensions before they become overt, allowing for timely interventions.",
+            "es": "In a workplace scenario, a Cancer individual might feel unusually protective of their team during a full moon, stepping up to mediate conflicts or offer support. Their intuition could guide them to sense tensions before they become overt, allowing for timely interventions."
+          },
+          {
+            "pt": "Another common reaction is an intensified need for solitude. Picture a Cancer person retreating to a quiet space during the full moon to journal or meditate, processing the flood of emotions stirred by the lunar phase. This inward focus helps them regain balance and clarity.",
+            "en": "Another common reaction is an intensified need for solitude. Picture a Cancer person retreating to a quiet space during the full moon to journal or meditate, processing the flood of emotions stirred by the lunar phase. This inward focus helps them regain balance and clarity.",
+            "es": "Another common reaction is an intensified need for solitude. Picture a Cancer person retreating to a quiet space during the full moon to journal or meditate, processing the flood of emotions stirred by the lunar phase. This inward focus helps them regain balance and clarity."
+          },
+          {
+            "pt": "• Heightened emotional sensitivity leading to deep conversations with loved ones",
+            "en": "• Heightened emotional sensitivity leading to deep conversations with loved ones",
+            "es": "• Heightened emotional sensitivity leading to deep conversations with loved ones"
+          },
+          {
+            "pt": "• Increased intuition prompting creative or nurturing projects",
+            "en": "• Increased intuition prompting creative or nurturing projects",
+            "es": "• Increased intuition prompting creative or nurturing projects"
+          },
+          {
+            "pt": "• A tendency to revisit memories or past relationships",
+            "en": "• A tendency to revisit memories or past relationships",
+            "es": "• A tendency to revisit memories or past relationships"
+          },
+          {
+            "pt": "• Stronger desire to create a comforting home environment",
+            "en": "• Stronger desire to create a comforting home environment",
+            "es": "• Stronger desire to create a comforting home environment"
+          }
+        ]
+      },
+      {
+        "heading": {
+          "pt": "How Can Cancer Harness the Full Moon’s Energy Positively?",
+          "en": "How Can Cancer Harness the Full Moon’s Energy Positively?",
+          "es": "How Can Cancer Harness the Full Moon’s Energy Positively?"
+        },
+        "paragraphs": [
+          {
+            "pt": "To make the most of the full moon’s influence, a person of the Cancer sign can engage in reflective practices that honor their emotional depth. For example, setting aside time for journaling or mindful breathing during the full moon can help channel intense feelings constructively rather than letting them become overwhelming.",
+            "en": "To make the most of the full moon’s influence, a person of the Cancer sign can engage in reflective practices that honor their emotional depth. For example, setting aside time for journaling or mindful breathing during the full moon can help channel intense feelings constructively rather than letting them become overwhelming.",
+            "es": "To make the most of the full moon’s influence, a person of the Cancer sign can engage in reflective practices that honor their emotional depth. For example, setting aside time for journaling or mindful breathing during the full moon can help channel intense feelings constructively rather than letting them become overwhelming."
+          },
+          {
+            "pt": "Imagine a Cancer individual lighting a candle and writing down emotions or intentions under the full moon’s glow. This ritual can serve as a symbolic release and a way to clarify personal goals. It also aligns with Cancer’s nurturing nature, encouraging self-care and emotional renewal.",
+            "en": "Imagine a Cancer individual lighting a candle and writing down emotions or intentions under the full moon’s glow. This ritual can serve as a symbolic release and a way to clarify personal goals. It also aligns with Cancer’s nurturing nature, encouraging self-care and emotional renewal.",
+            "es": "Imagine a Cancer individual lighting a candle and writing down emotions or intentions under the full moon’s glow. This ritual can serve as a symbolic release and a way to clarify personal goals. It also aligns with Cancer’s nurturing nature, encouraging self-care and emotional renewal."
+          },
+          {
+            "pt": "Additionally, connecting with close friends or family during this time can provide grounding support. Sharing feelings in a trusted circle often helps Cancer individuals process their heightened sensitivity and gain perspective. Practical steps like organizing a cozy gathering or preparing a comforting meal can transform lunar energy into meaningful connection.",
+            "en": "Additionally, connecting with close friends or family during this time can provide grounding support. Sharing feelings in a trusted circle often helps Cancer individuals process their heightened sensitivity and gain perspective. Practical steps like organizing a cozy gathering or preparing a comforting meal can transform lunar energy into meaningful connection.",
+            "es": "Additionally, connecting with close friends or family during this time can provide grounding support. Sharing feelings in a trusted circle often helps Cancer individuals process their heightened sensitivity and gain perspective. Practical steps like organizing a cozy gathering or preparing a comforting meal can transform lunar energy into meaningful connection."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "pt": "How Does the Full Moon Affect Other Zodiac Signs Differently?",
+          "en": "How Does the Full Moon Affect Other Zodiac Signs Differently?",
+          "es": "How Does the Full Moon Affect Other Zodiac Signs Differently?"
+        },
+        "paragraphs": [
+          {
+            "pt": "While Cancer’s lunar connection is profound, other zodiac signs experience the full moon’s energy uniquely. For example, a person of the Aries sign might feel a burst of motivation and assertiveness, using the full moon to initiate new projects or assert boundaries.",
+            "en": "While Cancer’s lunar connection is profound, other zodiac signs experience the full moon’s energy uniquely. For example, a person of the Aries sign might feel a burst of motivation and assertiveness, using the full moon to initiate new projects or assert boundaries.",
+            "es": "While Cancer’s lunar connection is profound, other zodiac signs experience the full moon’s energy uniquely. For example, a person of the Aries sign might feel a burst of motivation and assertiveness, using the full moon to initiate new projects or assert boundaries."
+          },
+          {
+            "pt": "Someone born under the Libra sign could find the full moon highlighting relationship dynamics, prompting them to seek balance or resolve conflicts. Picture a Libra negotiating compromises or planning a social event to harmonize differing perspectives.",
+            "en": "Someone born under the Libra sign could find the full moon highlighting relationship dynamics, prompting them to seek balance or resolve conflicts. Picture a Libra negotiating compromises or planning a social event to harmonize differing perspectives.",
+            "es": "Someone born under the Libra sign could find the full moon highlighting relationship dynamics, prompting them to seek balance or resolve conflicts. Picture a Libra negotiating compromises or planning a social event to harmonize differing perspectives."
+          },
+          {
+            "pt": "Meanwhile, a person of the Scorpio sign may experience intensified emotions similar to Cancer but with a focus on transformation and uncovering hidden truths. This might lead to deep personal insights or a desire to let go of what no longer serves them.",
+            "en": "Meanwhile, a person of the Scorpio sign may experience intensified emotions similar to Cancer but with a focus on transformation and uncovering hidden truths. This might lead to deep personal insights or a desire to let go of what no longer serves them.",
+            "es": "Meanwhile, a person of the Scorpio sign may experience intensified emotions similar to Cancer but with a focus on transformation and uncovering hidden truths. This might lead to deep personal insights or a desire to let go of what no longer serves them."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "pt": "Does the full moon always affect people of the Cancer sign emotionally?",
+          "en": "Does the full moon always affect people of the Cancer sign emotionally?",
+          "es": "Does the full moon always affect people of the Cancer sign emotionally?"
+        },
+        "paragraphs": [
+          {
+            "pt": "Many people born under the Cancer sign tend to feel emotional shifts during the full moon, but the intensity varies. Some may notice subtle changes, while others experience more pronounced feelings depending on their personal lunar chart and current life circumstances.",
+            "en": "Many people born under the Cancer sign tend to feel emotional shifts during the full moon, but the intensity varies. Some may notice subtle changes, while others experience more pronounced feelings depending on their personal lunar chart and current life circumstances.",
+            "es": "Many people born under the Cancer sign tend to feel emotional shifts during the full moon, but the intensity varies. Some may notice subtle changes, while others experience more pronounced feelings depending on their personal lunar chart and current life circumstances."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "pt": "Can the full moon influence Cancer’s intuition in practical ways?",
+          "en": "Can the full moon influence Cancer’s intuition in practical ways?",
+          "es": "Can the full moon influence Cancer’s intuition in practical ways?"
+        },
+        "paragraphs": [
+          {
+            "pt": "Yes, the full moon often heightens Cancer’s natural intuition, making them more perceptive in social or work situations. For instance, they might sense unspoken concerns in a conversation or intuitively know when a loved one needs support.",
+            "en": "Yes, the full moon often heightens Cancer’s natural intuition, making them more perceptive in social or work situations. For instance, they might sense unspoken concerns in a conversation or intuitively know when a loved one needs support.",
+            "es": "Yes, the full moon often heightens Cancer’s natural intuition, making them more perceptive in social or work situations. For instance, they might sense unspoken concerns in a conversation or intuitively know when a loved one needs support."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "pt": "What are some simple rituals Cancer can try during the full moon?",
+          "en": "What are some simple rituals Cancer can try during the full moon?",
+          "es": "What are some simple rituals Cancer can try during the full moon?"
+        },
+        "paragraphs": [
+          {
+            "pt": "Journaling emotions, meditating, or creating a calming space at home are effective rituals. Lighting a candle or spending time near water can also resonate with Cancer’s lunar energy, helping to process feelings and set intentions.",
+            "en": "Journaling emotions, meditating, or creating a calming space at home are effective rituals. Lighting a candle or spending time near water can also resonate with Cancer’s lunar energy, helping to process feelings and set intentions.",
+            "es": "Journaling emotions, meditating, or creating a calming space at home are effective rituals. Lighting a candle or spending time near water can also resonate with Cancer’s lunar energy, helping to process feelings and set intentions."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "pt": "How does the full moon impact Cancer’s relationships?",
+          "en": "How does the full moon impact Cancer’s relationships?",
+          "es": "How does the full moon impact Cancer’s relationships?"
+        },
+        "paragraphs": [
+          {
+            "pt": "During the full moon, Cancer individuals often feel a stronger urge to nurture and connect with close ones. They may initiate heartfelt conversations or seek reassurance, fostering deeper bonds but also sometimes feeling vulnerable.",
+            "en": "During the full moon, Cancer individuals often feel a stronger urge to nurture and connect with close ones. They may initiate heartfelt conversations or seek reassurance, fostering deeper bonds but also sometimes feeling vulnerable.",
+            "es": "During the full moon, Cancer individuals often feel a stronger urge to nurture and connect with close ones. They may initiate heartfelt conversations or seek reassurance, fostering deeper bonds but also sometimes feeling vulnerable."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "pt": "Is the full moon a good time for Cancer to make decisions?",
+          "en": "Is the full moon a good time for Cancer to make decisions?",
+          "es": "Is the full moon a good time for Cancer to make decisions?"
+        },
+        "paragraphs": [
+          {
+            "pt": "The full moon can bring clarity but also emotional intensity, so Cancer people might benefit from waiting a day or two before making major decisions. Using the lunar energy for reflection rather than immediate action often leads to better outcomes.",
+            "en": "The full moon can bring clarity but also emotional intensity, so Cancer people might benefit from waiting a day or two before making major decisions. Using the lunar energy for reflection rather than immediate action often leads to better outcomes.",
+            "es": "The full moon can bring clarity but also emotional intensity, so Cancer people might benefit from waiting a day or two before making major decisions. Using the lunar energy for reflection rather than immediate action often leads to better outcomes."
+          },
+          {
+            "pt": "For more insights on Cancer’s traits and how they interact with cosmic cycles, exploring Cancer zodiac traits can be enlightening. Additionally, understanding how Mercury retrograde affects Cancer offers further perspective on managing emotional and communicative shifts.",
+            "en": "For more insights on Cancer’s traits and how they interact with cosmic cycles, exploring Cancer zodiac traits can be enlightening. Additionally, understanding how Mercury retrograde affects Cancer offers further perspective on managing emotional and communicative shifts.",
+            "es": "For more insights on Cancer’s traits and how they interact with cosmic cycles, exploring Cancer zodiac traits can be enlightening. Additionally, understanding how Mercury retrograde affects Cancer offers further perspective on managing emotional and communicative shifts."
+          }
+        ]
+      }
+    ],
+    "keyTakeaways": {
+      "pt": [],
+      "en": [],
+      "es": []
+    },
+    "wordpress": {
+      "id": 2856,
+      "slug": "cancer-sign-full-moon",
+      "modified": "2026-11-25T18:30:05"
+    }
+  },
+  {
     "id": "wp-2853",
     "category": {
       "pt": "GUIA DOS SIGNOS",
