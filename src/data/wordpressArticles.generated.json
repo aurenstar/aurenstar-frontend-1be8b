@@ -22801,9 +22801,9 @@
     },
     "categoryColor": "bg-[#3982C8] text-white",
     "readTime": {
-      "pt": "2 min de leitura",
-      "en": "2 min read",
-      "es": "2 min de lectura"
+      "pt": "3 min de leitura",
+      "en": "3 min read",
+      "es": "3 min de lectura"
     },
     "date": {
       "pt": "25 Set 2026",
@@ -23028,6 +23028,72 @@
             "es": "That balance between closeness and freedom is one of the most recognizable parts of how Gemini connects with people."
           }
         ]
+      },
+      {
+        "heading": {
+          "pt": "How to Keep a Gemini Friend Feeling Valued and Understood",
+          "en": "How to Keep a Gemini Friend Feeling Valued and Understood",
+          "es": "How to Keep a Gemini Friend Feeling Valued and Understood"
+        },
+        "paragraphs": [
+          {
+            "pt": "Geminis thrive when their friends recognize their need for both connection and independence. Take Sarah, for example, who has a Gemini friend named Leo. When Sarah invites Leo to hang out, she makes sure to keep plans flexible and light-hearted. Sometimes Leo shows up full of energy, ready to chat for hours, and other times he might be quieter or distracted, needing space to recharge. Sarah has learned that giving Leo room to be himself without pressure makes their friendship stronger.",
+            "en": "Geminis thrive when their friends recognize their need for both connection and independence. Take Sarah, for example, who has a Gemini friend named Leo. When Sarah invites Leo to hang out, she makes sure to keep plans flexible and light-hearted. Sometimes Leo shows up full of energy, ready to chat for hours, and other times he might be quieter or distracted, needing space to recharge. Sarah has learned that giving Leo room to be himself without pressure makes their friendship stronger.",
+            "es": "Geminis thrive when their friends recognize their need for both connection and independence. Take Sarah, for example, who has a Gemini friend named Leo. When Sarah invites Leo to hang out, she makes sure to keep plans flexible and light-hearted. Sometimes Leo shows up full of energy, ready to chat for hours, and other times he might be quieter or distracted, needing space to recharge. Sarah has learned that giving Leo room to be himself without pressure makes their friendship stronger."
+          },
+          {
+            "pt": "Being playful and curious together also helps. Sarah and Leo enjoy swapping book recommendations or debating silly “what if” scenarios, which keeps their bond lively and engaging. When Sarah notices Leo pulling away, she checks in gently rather than pushing for explanations, understanding that a Gemini’s need for variety isn’t about distance but about exploring life in their own way.",
+            "en": "Being playful and curious together also helps. Sarah and Leo enjoy swapping book recommendations or debating silly “what if” scenarios, which keeps their bond lively and engaging. When Sarah notices Leo pulling away, she checks in gently rather than pushing for explanations, understanding that a Gemini’s need for variety isn’t about distance but about exploring life in their own way.",
+            "es": "Being playful and curious together also helps. Sarah and Leo enjoy swapping book recommendations or debating silly “what if” scenarios, which keeps their bond lively and engaging. When Sarah notices Leo pulling away, she checks in gently rather than pushing for explanations, understanding that a Gemini’s need for variety isn’t about distance but about exploring life in their own way."
+          },
+          {
+            "pt": "By staying open, flexible, and curious, Sarah helps Leo feel appreciated for who he is—not just for what he can give in any moment.",
+            "en": "By staying open, flexible, and curious, Sarah helps Leo feel appreciated for who he is—not just for what he can give in any moment.",
+            "es": "By staying open, flexible, and curious, Sarah helps Leo feel appreciated for who he is—not just for what he can give in any moment."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "pt": "How can I support a Gemini friend during stressful times?",
+          "en": "How can I support a Gemini friend during stressful times?",
+          "es": "How can I support a Gemini friend during stressful times?"
+        },
+        "paragraphs": [
+          {
+            "pt": "Offer a listening ear without overwhelming them with advice or pressure. Gemini friends often need space to process feelings through conversation when they’re ready. Keep things light if possible, and let them guide how much they want to share.",
+            "en": "Offer a listening ear without overwhelming them with advice or pressure. Gemini friends often need space to process feelings through conversation when they’re ready. Keep things light if possible, and let them guide how much they want to share.",
+            "es": "Offer a listening ear without overwhelming them with advice or pressure. Gemini friends often need space to process feelings through conversation when they’re ready. Keep things light if possible, and let them guide how much they want to share."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "pt": "What’s a good way to handle sudden changes in plans with a Gemini?",
+          "en": "What’s a good way to handle sudden changes in plans with a Gemini?",
+          "es": "What’s a good way to handle sudden changes in plans with a Gemini?"
+        },
+        "paragraphs": [
+          {
+            "pt": "Try to be spontaneous yourself and show understanding. Geminis can be unpredictable, and responding with flexibility rather than frustration helps keep things positive and stress-free.",
+            "en": "Try to be spontaneous yourself and show understanding. Geminis can be unpredictable, and responding with flexibility rather than frustration helps keep things positive and stress-free.",
+            "es": "Try to be spontaneous yourself and show understanding. Geminis can be unpredictable, and responding with flexibility rather than frustration helps keep things positive and stress-free."
+          }
+        ]
+      },
+      {
+        "heading": {
+          "pt": "How do I know when my Gemini friend needs space versus connection?",
+          "en": "How do I know when my Gemini friend needs space versus connection?",
+          "es": "How do I know when my Gemini friend needs space versus connection?"
+        },
+        "paragraphs": [
+          {
+            "pt": "Look for clues in their communication style. Shorter, less frequent messages might mean they are recharging. If they reach out with questions or fun ideas, it’s a good time to engage. When in doubt, asking gently is the best way to show care.",
+            "en": "Look for clues in their communication style. Shorter, less frequent messages might mean they are recharging. If they reach out with questions or fun ideas, it’s a good time to engage. When in doubt, asking gently is the best way to show care.",
+            "es": "Look for clues in their communication style. Shorter, less frequent messages might mean they are recharging. If they reach out with questions or fun ideas, it’s a good time to engage. When in doubt, asking gently is the best way to show care."
+          }
+        ]
       }
     ],
     "keyTakeaways": {
@@ -23038,7 +23104,7 @@
     "wordpress": {
       "id": 446,
       "slug": "gemini-friendship-personality",
-      "modified": "2026-09-30T02:10:43"
+      "modified": "2026-11-25T15:40:11"
     }
   },
   {
