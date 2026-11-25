@@ -19847,6 +19847,46 @@
     "ferramentaRelacionada": {
       "nome": "Read Today's Daily Message",
       "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Jyotish",
+        "perguntaGoogle": "O que significa jyotish na astrologia?",
+        "resumoUmaLinha": "Jyotish é a astrologia védica, um jeito antigo de estudar as estrelas e a vida.",
+        "chamadaCuriosa": "Descubra o Jyotish, a antiga sabedoria das estrelas da Índia!",
+        "oQueSignifica": "Jyotish é uma palavra da Índia que quer dizer 'ciência da luz'. Pense nisso como usar uma lanterna no escuro para enxergar melhor. Assim como a lanterna ajuda a encontrar o caminho, o Jyotish ajuda as pessoas a entender suas vidas olhando as estrelas e planetas.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Jyotish está ligado à astrologia védica, um sistema antigo da Índia. Ele observa os planetas e estrelas no céu para aprender sobre a vida e o caráter de uma pessoa. O Jyotish pode ajudar nas escolhas e nos momentos certos mostrando padrões no mapa astral. É como ler um mapa do céu para entender o caminho da vida com calma.",
+        "exemploFicticio": "Maria queria saber qual era o melhor momento para começar um hobby novo. Ela perguntou a um especialista em Jyotish, que olhou seu mapa astral. As estrelas mostraram para Maria quando ela poderia curtir mais aprender. Isso ajudou a Maria a escolher um bom dia para começar.",
+        "faq": [
+          {
+            "pergunta": "Jyotish é a mesma coisa que a astrologia comum?",
+            "resposta": "Jyotish é um tipo de astrologia da Índia, diferente do estilo ocidental."
+          },
+          {
+            "pergunta": "Jyotish pode prever meu futuro com exatidão?",
+            "resposta": "Jyotish dá orientações olhando os padrões das estrelas, mas não promete resultados exatos."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Jyotish",
+        "perguntaGoogle": "¿Qué significa jyotish en astrología?",
+        "resumoUmaLinha": "Jyotish significa astrología védica, una manera antigua de estudiar las estrellas y la vida.",
+        "chamadaCuriosa": "¡Descubre Jyotish, la antigua sabiduría de las estrellas de la India!",
+        "oQueSignifica": "Jyotish es una palabra de la India que significa ‘ciencia de la luz.’ Piénsalo como usar una linterna en la oscuridad para ver claro. Así como una linterna te ayuda a encontrar el camino, Jyotish ayuda a las personas a entender su vida mirando las estrellas y los planetas.",
+        "oQueSignificaNaAstrologia": "En astrología, Jyotish está relacionado con la astrología védica, un sistema antiguo de la India. Observa los planetas y estrellas del cielo para aprender sobre la vida y el carácter de una persona. Jyotish puede guiar decisiones y tiempos mostrando patrones en la carta astral. Es como leer un mapa del cielo para entender el camino de la vida con suavidad.",
+        "exemploFicticio": "María quería saber cuál era el mejor momento para empezar un nuevo pasatiempo. Consultó con un lector de Jyotish, que revisó su carta astral. Las estrellas le mostraron a María cuándo podría disfrutar más aprendiendo. Esto ayudó a María a elegir un buen día para comenzar.",
+        "faq": [
+          {
+            "pergunta": "¿Jyotish es igual que la astrología común?",
+            "resposta": "Jyotish es un tipo de astrología que viene de la India, diferente del estilo occidental."
+          },
+          {
+            "pergunta": "¿Jyotish puede predecir mi futuro con exactitud?",
+            "resposta": "Jyotish ofrece orientación mirando patrones de las estrellas, pero no promete resultados exactos."
+          }
+        ]
+      }
     }
   },
   {
@@ -20569,6 +20609,366 @@
           {
             "pergunta": "¿Cualquiera puede sentir la energía espiritual de Géminis?",
             "resposta": "¡Sí! Todos pueden usar la energía de Géminis si mantienen la curiosidad y están abiertos a nuevas ideas."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Scorpio House",
+    "tituloSEO": "What house is Scorpio in astrology? A simple guide",
+    "perguntaGoogle": "What house is scorpio?",
+    "resumoUmaLinha": "Learn which house Scorpio rules and what it means in astrology.",
+    "explicacaoEducativa": "Learn that Scorpio links to the 8th house in astrology, related to deep changes and mysteries.",
+    "chamadaCuriosa": "Do you know which house Scorpio rules? It’s full of secrets!",
+    "oQueSignifica": "Imagine your home has 12 rooms. Each room shows a part of your life. Scorpio’s room is the 8th house. This house is like a secret room, where people keep things about big changes, close bonds, and things we don’t see right away. It’s a space for trust and sometimes mystery, like a quiet place to understand the deeper parts of life.",
+    "oQueSignificaNaAstrologia": "In astrology, Scorpio is linked to the 8th house. This house is about transformation, rebirth, and shared resources. It talks about emotions that run deep and moments when things change a lot. People use this house to learn about trust, secrets, and how they grow from strong experiences. Scorpio’s energy makes this house intense but also very powerful in personal growth.",
+    "exemploFicticio": "Carlos was cleaning the attic and found old boxes full of memories. Like Scorpio in the 8th house, he discovered hidden stories that changed how he saw his family’s past.",
+    "dicaRapida": "Think about what parts of your life feel mysterious or need change—that’s Scorpio’s 8th house at work.",
+    "miniJogo": {
+      "pergunta": "If Scorpio rules the 8th house, what can this house represent?",
+      "opcoes": [
+        {
+          "texto": "Secrets, big life changes, and deep feelings.",
+          "correta": true,
+          "explicacao": "Yes! The 8th house is about deep emotions, transformations, and hidden things."
+        },
+        {
+          "texto": "Daily routines and simple chores.",
+          "correta": false,
+          "explicacao": "No, daily routines are more linked to the 6th house, not Scorpio’s 8th house."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Does Scorpio always appear in the 8th house on a birth chart?",
+        "resposta": "No, Scorpio naturally rules the 8th house, but astrologers need your birth time to see your personal chart."
+      },
+      {
+        "pergunta": "Can other signs be in the 8th house too?",
+        "resposta": "Yes, the 8th house can have any sign depending on your exact birth chart."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "signo-solar",
+      "mapa-astral"
+    ],
+    "id": "what-house-is-scorpio",
+    "slug": "what-house-is-scorpio",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Casa de Escorpião",
+        "perguntaGoogle": "Qual casa é Escorpião?",
+        "resumoUmaLinha": "Descubra qual casa Escorpião rege e o que isso significa na astrologia.",
+        "chamadaCuriosa": "Você sabe qual casa Escorpião governa? É cheia de segredos!",
+        "oQueSignifica": "Imagine que sua casa tem 12 quartos. Cada quarto mostra uma parte da sua vida. O quarto de Escorpião é a 8ª casa. Essa casa é como um quarto secreto, onde as pessoas guardam coisas sobre grandes mudanças, laços próximos e coisas que não vemos logo de cara. É um espaço de confiança e, às vezes, mistério, tipo um lugar quieto para entender os lados mais profundos da vida.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Escorpião está ligado à 8ª casa. Essa casa fala de transformação, renascimento e recursos compartilhados. Ela mostra emoções intensas e momentos em que tudo muda muito. A gente usa essa casa para aprender sobre confiança, segredos e como crescer com experiências fortes. A energia de Escorpião deixa essa casa intensa, mas também muito poderosa para o crescimento pessoal.",
+        "exemploFicticio": "Carlos estava limpando o sótão e encontrou caixas antigas cheias de lembranças. Igual Escorpião na 8ª casa, ele descobriu histórias escondidas que mudaram a forma como ele via o passado da família.",
+        "faq": [
+          {
+            "pergunta": "Escorpião aparece sempre na 8ª casa no mapa astral?",
+            "resposta": "Não, Escorpião rege naturalmente a 8ª casa, mas os astrólogos precisam da sua hora de nascimento para ver seu mapa astral pessoal."
+          },
+          {
+            "pergunta": "Outros signos também podem estar na 8ª casa?",
+            "resposta": "Sim, qualquer signo pode estar na 8ª casa, dependendo do seu mapa astral exato."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Casa de Escorpio",
+        "perguntaGoogle": "¿En qué casa está Escorpio?",
+        "resumoUmaLinha": "Descubre qué casa rige Escorpio y qué significa en astrología.",
+        "chamadaCuriosa": "¿Sabes qué casa rige Escorpio? ¡Está llena de secretos!",
+        "oQueSignifica": "Imagina que tu hogar tiene 12 cuartos. Cada cuarto muestra una parte de tu vida. El cuarto de Escorpio es la casa 8. Esta casa es como un cuarto secreto, donde se guardan cosas sobre cambios grandes, lazos cercanos y cosas que no se ven de inmediato. Es un espacio de confianza y a veces misterio, como un lugar tranquilo para entender lo más profundo de la vida.",
+        "oQueSignificaNaAstrologia": "En astrología, Escorpio está ligado a la casa 8. Esta casa trata sobre transformación, renacimiento y recursos compartidos. Habla de emociones profundas y momentos en los que todo cambia mucho. La gente usa esta casa para aprender sobre la confianza, secretos y cómo crecen con experiencias intensas. La energía de Escorpio hace que esta casa sea intensa pero también muy poderosa para el crecimiento personal.",
+        "exemploFicticio": "Carlos estaba limpiando el ático y encontró cajas viejas llenas de recuerdos. Como Escorpio en la casa 8, descubrió historias ocultas que cambiaron cómo veía el pasado de su familia.",
+        "faq": [
+          {
+            "pergunta": "¿Escorpio siempre aparece en la casa 8 en la carta astral?",
+            "resposta": "No, Escorpio rige naturalmente la casa 8, pero los astrólogos necesitan la hora de nacimiento para ver tu carta personal."
+          },
+          {
+            "pergunta": "¿Pueden haber otros signos en la casa 8 también?",
+            "resposta": "Sí, la casa 8 puede tener cualquier signo según tu carta astral exacta."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Libra House",
+    "tituloSEO": "What House Is Libra? Simple Astrology Guide",
+    "perguntaGoogle": "What house is libra?",
+    "resumoUmaLinha": "Libra is linked to the 7th house in astrology, the house of partnerships and friends.",
+    "explicacaoEducativa": "Learn that Libra is connected to the 7th house, which talks about relationships and teamwork.",
+    "chamadaCuriosa": "Libra lives in the house of togetherness and balance!",
+    "oQueSignifica": "Imagine your home has many rooms. Each room shows a part of life. Libra is like the room where you invite friends and partners. It’s the place to share, work together, and find fairness with others. It’s all about cooperation, like when Maria and Carlos decide together which movie to watch.",
+    "oQueSignificaNaAstrologia": "In astrology, Libra rules the 7th house, linked to one-on-one relationships. This house shows how people connect with partners, friends, and even business mates. It helps us understand how we seek balance and fairness in our bonds. So, if Libra is strong in your chart, you might care a lot about peaceful and equal connections with others.",
+    "exemploFicticio": "Maria just met a new friend at school. They talked about sharing homework and playing after class. Maria’s Libra is in the 7th house, so she loves making partnerships that feel fair and friendly.",
+    "dicaRapida": "Focus on fairness and listening well when working with others today.",
+    "miniJogo": {
+      "pergunta": "If Libra is the 7th house, what kind of feelings might it bring?",
+      "opcoes": [
+        {
+          "texto": "Wanting to be fair and balanced with friends",
+          "correta": true,
+          "explicacao": "Right! The 7th house is about fair partnerships and good teamwork."
+        },
+        {
+          "texto": "Enjoying being alone and quiet",
+          "correta": false,
+          "explicacao": "Not quite. Libra in the 7th house is more about sharing and connecting with others."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Why is Libra connected to the 7th house?",
+        "resposta": "Because Libra focuses on balance and partnership, and the 7th house represents close relationships."
+      },
+      {
+        "pergunta": "Can the 7th house mean friendship, not just love?",
+        "resposta": "Yes, the 7th house covers all one-on-one connections, including friends and business partners."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "signo-ascendente",
+      "mapa-astral"
+    ],
+    "id": "what-house-is-libra",
+    "slug": "what-house-is-libra",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Casa em Libra",
+        "perguntaGoogle": "Qual casa é Libra?",
+        "resumoUmaLinha": "Libra está ligada à casa 7 na astrologia, a casa dos relacionamentos e amizades.",
+        "chamadaCuriosa": "Libra mora na casa da união e do equilíbrio!",
+        "oQueSignifica": "Imagine que sua casa tem vários cômodos. Cada cômodo mostra uma parte da vida. Libra é como aquele cômodo onde você recebe amigos e parceiros. É o lugar para compartilhar, trabalhar junto e buscar justiça com os outros. É tudo sobre cooperação, tipo quando Maria e Carlos decidem juntos qual filme vão assistir.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Libra governa a casa 7, ligada aos relacionamentos um a um. Essa casa mostra como as pessoas se conectam com parceiros, amigos e até sócios. Ela ajuda a entender como buscamos equilíbrio e justiça nas nossas relações. Então, se Libra está forte no seu mapa astral, você pode valorizar muito conexões pacíficas e iguais com os outros.",
+        "exemploFicticio": "Maria acabou de fazer um novo amigo na escola. Eles conversaram sobre dividir a lição de casa e brincar depois da aula. O Libra de Maria está na casa 7, por isso ela adora fazer parcerias que sejam justas e amigáveis.",
+        "faq": [
+          {
+            "pergunta": "Por que Libra está ligada à casa 7?",
+            "resposta": "Porque Libra foca no equilíbrio e na parceria, e a casa 7 representa relacionamentos próximos."
+          },
+          {
+            "pergunta": "A casa 7 pode significar amizade, não só amor?",
+            "resposta": "Sim, a casa 7 cobre todas as conexões um a um, incluindo amigos e sócios."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Casa Libra",
+        "perguntaGoogle": "¿Qué casa es Libra?",
+        "resumoUmaLinha": "Libra está relacionada con la casa 7 en astrología, la casa de las asociaciones y los amigos.",
+        "chamadaCuriosa": "¡Libra vive en la casa de la unión y el equilibrio!",
+        "oQueSignifica": "Imagina que tu casa tiene muchos cuartos. Cada cuarto muestra una parte de la vida. Libra es como el cuarto donde invitas a tus amigos y pareja. Es el lugar para compartir, trabajar juntos y buscar justicia con los demás. Todo trata de la cooperación, como cuando María y Carlos deciden juntos qué película ver.",
+        "oQueSignificaNaAstrologia": "En astrología, Libra gobierna la casa 7, relacionada con las relaciones uno a uno. Esta casa muestra cómo nos conectamos con parejas, amigos y hasta compañeros de trabajo. Nos ayuda a entender cómo buscamos equilibrio y justicia en nuestros vínculos. Así que, si Libra es fuerte en tu carta astral, puede que te importe mucho tener conexiones pacíficas y equitativas con los demás.",
+        "exemploFicticio": "María acaba de conocer a una nueva amiga en la escuela. Hablaban de compartir tarea y de jugar después de clase. El Libra de María está en la casa 7, por eso le encanta crear asociaciones que sean justas y amistosas.",
+        "faq": [
+          {
+            "pergunta": "¿Por qué Libra está conectado con la casa 7?",
+            "resposta": "Porque Libra se enfoca en el equilibrio y la asociación, y la casa 7 representa las relaciones cercanas."
+          },
+          {
+            "pergunta": "¿Puede la casa 7 significar amistad, no solo amor?",
+            "resposta": "Sí, la casa 7 abarca todas las relaciones uno a uno, incluyendo amigos y socios de negocios."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Virgo and the 6th House",
+    "tituloSEO": "What House is Virgo? Learn Virgo's Astrological House",
+    "perguntaGoogle": "What house is virgo?",
+    "resumoUmaLinha": "Virgo is linked to the 6th house, related to work and daily habits.",
+    "explicacaoEducativa": "Learn that Virgo is connected to the 6th house in astrology. This house relates to health, work routines, and helping others.",
+    "chamadaCuriosa": "Did you know Virgo rules the 6th house of daily life?",
+    "oQueSignifica": "Think of Virgo and the 6th house like a school day. Just like you plan homework and chores, the 6th house is about daily tasks and care. It helps us stay organized and healthy. If you imagine Carlos checking his to-do list every morning, that’s Virgo energy in action through the 6th house.",
+    "oQueSignificaNaAstrologia": "In astrology, Virgo is linked to the 6th house, which covers work, health, and daily habits. It shows how people like to organize their routines and care for themselves and others. This house also relates to service and paying attention to small details. When Virgo appears here, it inspires neatness, helpfulness, and a love for improving everyday life.",
+    "exemploFicticio": "Maria loves to clean and help her friends stay healthy. She plans her day carefully and notices little things others miss. This shows Virgo’s influence in the 6th house, guiding her daily habits and service to others.",
+    "dicaRapida": "Try making a simple daily checklist to bring Virgo's 6th house energy into your life.",
+    "miniJogo": {
+      "pergunta": "You want to feel more organized daily. What helps most?",
+      "opcoes": [
+        {
+          "texto": "Writing a daily to-do list.",
+          "correta": true,
+          "explicacao": "Making a list relates to Virgo's 6th house focus on daily tasks and order."
+        },
+        {
+          "texto": "Ignoring your routine and doing things randomly.",
+          "correta": false,
+          "explicacao": "This goes against Virgo's 6th house energy, which values order and planning."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is Virgo always the 6th house in my chart?",
+        "resposta": "No, Virgo rules the 6th house naturally, but in your personal chart, houses can be different."
+      },
+      {
+        "pergunta": "What kinds of things does the 6th house represent?",
+        "resposta": "It represents daily work, health, routines, and how we help others regularly."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "signo-solar",
+      "elementos-astrologicos"
+    ],
+    "id": "what-house-is-virgo",
+    "slug": "what-house-is-virgo",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Virgem e a 6ª Casa",
+        "perguntaGoogle": "Qual casa é Virgem?",
+        "resumoUmaLinha": "Virgem está ligada à 6ª casa, que fala de trabalho e hábitos do dia a dia.",
+        "chamadaCuriosa": "Você sabia que Virgem é a dona da 6ª casa da vida diária?",
+        "oQueSignifica": "Pense em Virgem e a 6ª casa como um dia de escola. Assim como planejamos a lição de casa e as tarefas, a 6ª casa cuida das atividades diárias e do cuidado pessoal. Ela ajuda a gente a ficar organizado e saudável. Imagine o Carlos conferindo sua lista de tarefas toda manhã, essa é a energia de Virgem agindo pela 6ª casa.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Virgem está ligada à 6ª casa, que mostra trabalho, saúde e hábitos diários. Ela revela como as pessoas gostam de organizar a rotina e cuidar de si e dos outros. Essa casa também fala de serviço e atenção aos pequenos detalhes. Quando Virgem aparece aqui, ela inspira capricho, vontade de ajudar e amor por melhorar o dia a dia.",
+        "exemploFicticio": "Maria adora limpar e ajudar os amigos a se manterem saudáveis. Ela planeja seu dia com cuidado e percebe detalhes que os outros deixam passar. Isso mostra a influência de Virgem na 6ª casa, guiando seus hábitos diários e seu jeito de servir os outros.",
+        "faq": [
+          {
+            "pergunta": "Virgem é sempre a 6ª casa no meu mapa astral?",
+            "resposta": "Não, Virgem rege naturalmente a 6ª casa, mas no seu mapa astral pessoal, as casas podem ser diferentes."
+          },
+          {
+            "pergunta": "Que tipo de assuntos a 6ª casa representa?",
+            "resposta": "Ela representa trabalho diário, saúde, rotinas e como ajudamos os outros no dia a dia."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Virgo y la Casa 6",
+        "perguntaGoogle": "¿Qué casa es Virgo?",
+        "resumoUmaLinha": "Virgo está relacionado con la casa 6, que tiene que ver con el trabajo y los hábitos diarios.",
+        "chamadaCuriosa": "¿Sabías que Virgo gobierna la casa 6, donde está la vida cotidiana?",
+        "oQueSignifica": "Piensa en Virgo y la casa 6 como un día de escuela. Así como planeas las tareas y los quehaceres, la casa 6 trata sobre las actividades diarias y el cuidado. Nos ayuda a mantenernos organizados y saludables. Si imaginas a Carlos revisando su lista de cosas por hacer cada mañana, esa es la energía de Virgo en acción por medio de la casa 6.",
+        "oQueSignificaNaAstrologia": "En astrología, Virgo está ligado a la casa 6, que abarca el trabajo, la salud y los hábitos diarios. Muestra cómo nos gusta organizar nuestras rutinas y cuidar de nosotros y de los demás. Esta casa también está relacionada con el servicio y prestar atención a los detalles pequeños. Cuando Virgo aparece aquí, inspira orden, ayuda y el gusto por mejorar la vida cotidiana.",
+        "exemploFicticio": "A María le encanta limpiar y ayudar a sus amigos a mantenerse sanos. Planea su día con cuidado y nota cosas que otros no ven. Eso muestra la influencia de Virgo en la casa 6, guiando sus hábitos diarios y su servicio a otros.",
+        "faq": [
+          {
+            "pergunta": "¿Virgo siempre es la casa 6 en mi carta astral?",
+            "resposta": "No, Virgo naturalmente gobierna la casa 6, pero en tu carta personal las casas pueden variar."
+          },
+          {
+            "pergunta": "¿Qué representa la casa 6?",
+            "resposta": "Representa el trabajo diario, la salud, las rutinas y cómo ayudamos a otros con frecuencia."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Birth Sign Cancer",
+    "tituloSEO": "What does birth sign Cancer mean in astrology? Simple guide",
+    "perguntaGoogle": "What does birth sign cancer mean in astrology?",
+    "resumoUmaLinha": "Cancer is a water sign linked to feelings, home, and caring for others.",
+    "explicacaoEducativa": "Learn that Cancer, a water sign, is connected to emotions, family, and protection.",
+    "chamadaCuriosa": "Why is Cancer called the ‘homebody’ of the zodiac?",
+    "oQueSignifica": "Cancer is like a cozy shell that keeps feelings safe and close. People with Cancer as their birth sign often care a lot about family and home. They may feel things deeply and want to help others feel loved and secure. Imagine someone always ready to hug you when you’re sad—that’s Cancer energy.",
+    "oQueSignificaNaAstrologia": "In astrology, Cancer is linked to the moon, which governs emotions and intuition. This sign often focuses on caring, protecting, and feeling connected to close ones. Cancer may prefer comfort and security and can be very loyal. It’s known as a water sign, meaning it is sensitive and tuned in to feelings and moods.",
+    "exemploFicticio": "Maria loves baking cookies for her friends when they’re feeling down. She keeps a cozy room where her family gathers every weekend. Maria’s birth sign is Cancer, so she enjoys caring for others and creating a safe space.",
+    "dicaRapida": "Try listening carefully when someone shares feelings—that’s very Cancer-like and helpful.",
+    "miniJogo": {
+      "pergunta": "If your friend looks sad, what would a Cancer birth sign likely do?",
+      "opcoes": [
+        {
+          "texto": "Offer a hug or listen closely to their feelings.",
+          "correta": true,
+          "explicacao": "Cancer signs often show care by offering comfort and gently listening."
+        },
+        {
+          "texto": "Ignore the feelings and change the subject quickly.",
+          "correta": false,
+          "explicacao": "Cancer signs usually don’t ignore feelings; they want to help and understand."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "What dates are people born under the Cancer sign?",
+        "resposta": "Cancer covers birthdays from about June 21 to July 22."
+      },
+      {
+        "pergunta": "Is Cancer a water or fire sign?",
+        "resposta": "Cancer is a water sign, linked to emotions and feelings."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "signo-lunar",
+      "elementos-astrologicos"
+    ],
+    "id": "what-does-birth-sign-cancer-mean-in-astrology",
+    "slug": "what-does-birth-sign-cancer-mean-in-astrology",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Signo Solar de Câncer",
+        "perguntaGoogle": "O que significa signo solar de Câncer na astrologia?",
+        "resumoUmaLinha": "Câncer é um signo de água ligado aos sentimentos, ao lar e ao cuidado com os outros.",
+        "chamadaCuriosa": "Por que Câncer é chamado de ‘caseiro’ do zodíaco?",
+        "oQueSignifica": "Câncer é como uma concha aconchegante que guarda os sentimentos seguros e perto. Pessoas com Câncer como signo solar geralmente se importam muito com a família e a casa. Elas sentem as coisas profundamente e querem ajudar os outros a se sentirem amados e protegidos. Imagine alguém sempre pronto para te abraçar quando você está triste — essa é a energia de Câncer.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Câncer está ligado à Lua, que governa as emoções e a intuição. Esse signo costuma focar no cuidado, na proteção e em se sentir conectado com os mais próximos. Câncer prefere conforto e segurança e pode ser muito leal. É um signo de água, ou seja, sensível e ligado aos sentimentos e humores.",
+        "exemploFicticio": "A Maria adora fazer biscoitos para os amigos quando eles estão tristes. Ela mantém um cantinho aconchegante onde a família dela se reúne todo fim de semana. O signo solar da Maria é Câncer, por isso ela gosta de cuidar dos outros e criar um espaço seguro.",
+        "faq": [
+          {
+            "pergunta": "Quais datas são para pessoas do signo de Câncer?",
+            "resposta": "Câncer cobre aniversários de cerca de 21 de junho a 22 de julho."
+          },
+          {
+            "pergunta": "Câncer é signo de água ou de fogo?",
+            "resposta": "Câncer é um signo de água, ligado às emoções e aos sentimentos."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Signo de nacimiento Cáncer",
+        "perguntaGoogle": "¿Qué significa el signo de nacimiento Cáncer en astrología?",
+        "resumoUmaLinha": "Cáncer es un signo de agua relacionado con los sentimientos, el hogar y cuidar a los demás.",
+        "chamadaCuriosa": "¿Por qué llaman a Cáncer el ‘hogareño’ del zodiaco?",
+        "oQueSignifica": "Cáncer es como un caparazón acogedor que mantiene los sentimientos seguros y cerca. Las personas con Cáncer como signo de nacimiento suelen preocuparse mucho por la familia y el hogar. Sienten todo con profundidad y quieren ayudar a que otros se sientan queridos y protegidos. Imagina a alguien que siempre está listo para abrazarte cuando estás triste, esa es la energía de Cáncer.",
+        "oQueSignificaNaAstrologia": "En astrología, Cáncer está ligado a la luna, que controla las emociones y la intuición. Este signo se enfoca mucho en cuidar, proteger y sentirse conectado con sus seres cercanos. Cáncer suele preferir la comodidad y la seguridad, y es muy leal. Es un signo de agua, lo que significa que es sensible y está en sintonía con los sentimientos y estados de ánimo.",
+        "exemploFicticio": "María le encanta hornear galletas para sus amigos cuando están tristes. Tiene un cuarto acogedor donde su familia se junta cada fin de semana. El signo de nacimiento de María es Cáncer, por eso disfruta cuidar a los demás y crear un espacio seguro.",
+        "faq": [
+          {
+            "pergunta": "¿Qué fechas abarcan las personas nacidas bajo el signo de Cáncer?",
+            "resposta": "Cáncer cubre cumpleaños desde aproximadamente el 21 de junio hasta el 22 de julio."
+          },
+          {
+            "pergunta": "¿Cáncer es un signo de agua o de fuego?",
+            "resposta": "Cáncer es un signo de agua, relacionado con las emociones y los sentimientos."
           }
         ]
       }

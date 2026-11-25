@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "resumo": {
-    "termosPublicados": 209,
+    "termosPublicados": 229,
     "funcionando": 6,
     "quase": 4,
-    "aparecendo": 80,
-    "semDados": 119,
-    "impressoes": 775,
+    "aparecendo": 81,
+    "semDados": 138,
+    "impressoes": 776,
     "cliques": 0
   },
   "metas": {
@@ -32,18 +32,18 @@
   "categorias": [
     {
       "categoria": "Chart Concepts",
-      "termos": 74,
-      "impressoes": 232,
+      "termos": 79,
+      "impressoes": 233,
       "cliques": 0,
-      "impressoesPorTermo": 3.1,
-      "boost": 0.85
+      "impressoesPorTermo": 2.9,
+      "boost": 0.87
     },
     {
       "categoria": "Phases & Movements",
-      "termos": 23,
+      "termos": 25,
       "impressoes": 69,
       "cliques": 0,
-      "impressoesPorTermo": 3,
+      "impressoesPorTermo": 2.8,
       "boost": 0.81
     },
     {
@@ -56,11 +56,11 @@
     },
     {
       "categoria": "Signs & Elements",
-      "termos": 96,
+      "termos": 109,
       "impressoes": 436,
       "cliques": 0,
-      "impressoesPorTermo": 4.5,
-      "boost": 1.22
+      "impressoesPorTermo": 4,
+      "boost": 1.18
     }
   ],
   "termos": [
@@ -942,6 +942,16 @@
       "cliques": 0,
       "melhorPosicao": 98,
       "buscasMensaisNoMundo": 870,
+      "veredito": "aparecendo"
+    },
+    {
+      "slug": "what-does-6th-house-represent-in-astrology",
+      "termo": "6th House",
+      "categoria": "Chart Concepts",
+      "impressoes": 1,
+      "cliques": 0,
+      "melhorPosicao": 94,
+      "buscasMensaisNoMundo": 470,
       "veredito": "aparecendo"
     },
     {
@@ -1915,6 +1925,26 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-does-full-moon-in-scorpio-mean-in-astrology",
+      "termo": "Full Moon in Scorpio",
+      "categoria": "Phases & Movements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 590,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-full-moon-in-taurus-mean-in-astrology",
+      "termo": "Full Moon in Taurus",
+      "categoria": "Phases & Movements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 590,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-does-mercury-in-libra-mean",
       "termo": "Mercury in Libra",
       "categoria": "Signs & Elements",
@@ -2015,6 +2045,26 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-does-jyotish-mean-in-astrology",
+      "termo": "Jyotish",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 480,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-planets-in-birth-chart-mean-in-astrology",
+      "termo": "Planets in birth chart",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 480,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-does-cancer-zodiac-symbol-mean-in-astrology",
       "termo": "Cancer Symbol",
       "categoria": "Signs & Elements",
@@ -2022,6 +2072,26 @@
       "cliques": 0,
       "melhorPosicao": null,
       "buscasMensaisNoMundo": 470,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-2nd-house-represent-in-astrology",
+      "termo": "2nd House",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 470,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-are-essential-dignities-in-astrology",
+      "termo": "Essential dignities",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 460,
       "veredito": "sem-dados"
     },
     {
@@ -2065,8 +2135,138 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-does-capricorn-stellium-mean-in-astrology",
+      "termo": "Capricorn Stellium",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 390,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-scorpio-stellium-mean-in-astrology",
+      "termo": "Scorpio Stellium",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 390,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-uranus-in-taurus-mean",
+      "termo": "Uranus in Taurus",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 390,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-are-whole-sign-houses-in-astrology",
+      "termo": "Whole sign houses",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 390,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-mercury-in-aquarius-mean",
+      "termo": "Mercúrio em Aquário",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 390,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-mercury-in-gemini-mean",
+      "termo": "Mercury in Gemini",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 390,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-mercury-in-virgo-mean",
+      "termo": "Mercury in Virgo",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 390,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-north-node-in-aquarius-mean",
+      "termo": "North Node in Aquarius",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 340,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-the-north-node-in-scorpio-mean",
+      "termo": "North Node in Scorpio",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 340,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-is-a-fixed-sign-in-astrology",
       "termo": "Fixed sign",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 320,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-aquarius-stellium-mean-in-astrology",
+      "termo": "Aquarius Stellium",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 320,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-aquarius-water-bearer-mean-in-astrology",
+      "termo": "Aquarius Water Bearer",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 320,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-gemini-air-sign-mean-in-astrology",
+      "termo": "Gemini Air Sign",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 320,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-gemini-spiritual-mean-in-astrology",
+      "termo": "Gemini Spiritual",
       "categoria": "Signs & Elements",
       "impressoes": 0,
       "cliques": 0,
