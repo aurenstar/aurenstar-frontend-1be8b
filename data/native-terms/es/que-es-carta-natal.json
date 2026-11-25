@@ -1,0 +1,60 @@
+{
+ "lang": "es",
+ "keyword": "carta natal",
+ "volume": 970,
+ "slug": "que-es-carta-natal",
+ "date": "2026-11-25",
+ "kind": "term",
+ "title": "Carta natal: qué es y para qué sirve",
+ "description": "La carta natal es un mapa astrológico que muestra la posición de los planetas al nacer. Revela rasgos y potenciales personales.",
+ "intro": "La carta natal es un dibujo astrológico que representa la posición exacta de los planetas y signos zodiacales en el momento de tu nacimiento. Sirve para entender mejor tu personalidad, talentos y desafíos a partir de la influencia de los astros.",
+ "sections": [
+  {
+   "h2": "¿Qué es una carta natal?",
+   "paragraphs": [
+    "Una carta natal, también llamada carta astral, es un mapa que se elabora con la fecha, hora y lugar de nacimiento. En ella se muestran las posiciones del Sol, la Luna y los planetas dentro de los doce signos del zodiaco y las casas astrológicas. Esta representación ayuda a tener una visión más profunda sobre las tendencias de la personalidad y las experiencias de vida.",
+    "Aunque en algunos países se use más el término carta astral, carta natal es la expresión más común y entendida en toda América Latina y España."
+   ]
+  },
+  {
+   "h2": "¿Qué significa la carta natal en la astrología?",
+   "paragraphs": [
+    "Cada planeta y signo en la carta natal señala diferentes aspectos de tu carácter. Por ejemplo, el Sol habla de tu esencia y propósito, la Luna de tus emociones y necesidades, y el Ascendente, o signo que subía en el horizonte al nacer, muestra cómo te presentas a otros.",
+    "Las casas astrológicas dividen la carta en áreas de la vida, como trabajo, relaciones o salud. La interpretación combinada de signos, planetas y casas da un panorama integral de quién eres y los posibles retos y oportunidades que tendrás.",
+    "Por eso, la carta natal se usa como una herramienta de reflexión y autoconocimiento, no para predecir el futuro con certeza, sino para entender mejor tu camino personal."
+   ]
+  },
+  {
+   "h2": "Ejemplo sencillo de una carta natal",
+   "paragraphs": [
+    "Imagina que tu Sol está en Aries, un signo de fuego conocido por su energía y liderazgo, y tu Luna en Tauro, signo de tierra que aporta estabilidad y calma. Esto sugiere que puedes ser una persona entusiasta y decidida, pero que también valora la seguridad y la tranquilidad.",
+    "Si tu Ascendente está en Géminis, probablemente te muestres comunicativo y curioso al conocer gente nueva. Esta combinación te da un perfil dinámico y versátil, con ganas de explorar y aprender constantemente.",
+    "Conocer estos detalles en tu carta natal puede ayudarte a valorar tus fortalezas y a identificar áreas para crecer."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Puedo hacer una carta natal sin conocer la hora exacta de nacimiento?",
+   "a": "La hora exacta es importante para definir el Ascendente y las casas, pero sin ella se puede hacer una carta aproximada que muestre la posición de los planetas en los signos."
+  },
+  {
+   "q": "¿La carta natal cambia con los años?",
+   "a": "No, la carta natal es fija y única, porque se basa en el momento exacto de tu nacimiento. Lo que puede cambiar es cómo interpretas sus influencias a lo largo de la vida."
+  },
+  {
+   "q": "¿La carta natal predice el futuro?",
+   "a": "La carta natal no es una predicción exacta. Más bien ayuda a entender tus tendencias y potenciales para que tomes decisiones conscientes y reflexivas."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Sigue leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me",
+ "term": "what-is-birth-chart"
+}
