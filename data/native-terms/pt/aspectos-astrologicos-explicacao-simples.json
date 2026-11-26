@@ -1,0 +1,61 @@
+{
+ "lang": "pt",
+ "keyword": "aspectos astrológicos",
+ "volume": 940,
+ "slug": "aspectos-astrologicos-explicacao-simples",
+ "date": "2026-11-26",
+ "kind": "term",
+ "title": "Aspectos astrológicos: entenda o que são e como influenciam suas experiências",
+ "description": "Descubra o que são aspectos astrológicos, como eles aparecem no seu mapa astral e de que forma impactam suas relações e rotina.",
+ "intro": "Aspectos astrológicos são as relações que os planetas formam entre si no céu ou no seu mapa astral. Eles mostram como as energias planetárias interagem e se influenciam, ajudando a entender dinâmicas pessoais, desafios e potenciais.",
+ "sections": [
+  {
+   "h2": "O que são aspectos astrológicos?",
+   "paragraphs": [
+    "Na astrologia, aspectos astrológicos são ângulos específicos entre dois ou mais planetas, medidos em graus. Quando você faz um mapa astral, por exemplo, é comum ver linhas ligando planetas: cada linha representa um aspecto. Os principais aspectos são conjunção, oposição, quadratura, trígono e sextil. Cada um tem um significado e mostra como as energias se misturam, gerando harmonia ou tensão."
+   ]
+  },
+  {
+   "h2": "Como os aspectos aparecem no mapa astral",
+   "paragraphs": [
+    "No mapa astral, os aspectos astrológicos indicam como diferentes partes da sua personalidade conversam entre si. Um trígono, por exemplo, mostra talentos naturais, enquanto uma quadratura pode apontar para desafios internos. Eles também revelam como você lida com emoções, trabalho, relações e até com mudanças repentinas. Observar seus aspectos ajuda a se conhecer melhor e navegar a vida com mais consciência."
+   ]
+  },
+  {
+   "h2": "Exemplo prático do dia a dia",
+   "paragraphs": [
+    "Imagine que você tem uma conjunção entre Sol e Marte no seu mapa astral. Isso indica muita energia, iniciativa e vontade de agir, especialmente nas situações onde seu ego está envolvido. Já uma oposição entre Vênus e Saturno pode trazer desafios nos relacionamentos, por exemplo, exigindo mais maturidade e paciência. Essas dinâmicas aparecem naturalmente nas suas escolhas e reações cotidianas."
+   ]
+  },
+  {
+   "h2": "Ideias relacionadas aos aspectos astrológicos",
+   "paragraphs": [
+    "Os aspectos astrológicos estão ligados a outros conceitos, como casas astrológicas e signos. Eles também são importantes em previsões do dia a dia, como trânsitos planetários, e em comparações de mapas, como na sinastria. Compreender esses aspectos é essencial para quem busca autoconhecimento por meio da astrologia."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Os aspectos astrológicos mudam com o tempo?",
+   "a": "Sim, os aspectos de trânsitos mudam conforme os planetas se movem no céu. Os do seu mapa natal permanecem os mesmos."
+  },
+  {
+   "q": "Qual aspecto é considerado o mais harmonioso?",
+   "a": "O trígono costuma ser visto como o aspecto mais fluido e harmonioso, favorecendo facilidade e talentos naturais."
+  },
+  {
+   "q": "Preciso saber todos os aspectos do meu mapa para me entender?",
+   "a": "Não é obrigatório, mas conhecer seus principais aspectos já ajuda bastante no autoconhecimento."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas gratuitas de astrologia",
+  "articles": "Artigos",
+  "faq": "Perguntas frequentes",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário de astrologia"
+ },
+ "tool": "descreva-me",
+ "term": "what-is-birth-chart"
+}
