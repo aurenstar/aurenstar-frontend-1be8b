@@ -1,0 +1,61 @@
+{
+ "lang": "es",
+ "keyword": "casas astrologicas",
+ "volume": 940,
+ "slug": "casas-astrologicas-que-son",
+ "date": "2026-11-26",
+ "kind": "term",
+ "title": "Casas Astrológicas: Qué Son y Para Qué Sirven en la Carta Natal",
+ "description": "Descubre qué son las casas astrológicas, cómo influyen en la carta natal y qué representan en la vida diaria según la astrología.",
+ "intro": "Las casas astrológicas son doce divisiones del cielo en la carta natal que muestran en qué áreas de la vida se manifiestan las energías de los planetas y signos. Entender las casas astrológicas ayuda a interpretar mejor cómo y dónde se expresan las influencias astrológicas en nuestra vida cotidiana.",
+ "sections": [
+  {
+   "h2": "¿Qué son las casas astrológicas?",
+   "paragraphs": [
+    "Las casas astrológicas son segmentos que dividen la carta natal en doce partes, cada una relacionada con diferentes aspectos de la experiencia humana. Estas casas representan áreas como la personalidad, la familia, el trabajo, las relaciones o la espiritualidad, entre otras. La posición de los planetas dentro de estas casas indica en qué ámbitos se activan esas energías."
+   ]
+  },
+  {
+   "h2": "El significado de las casas astrológicas en la carta natal",
+   "paragraphs": [
+    "Cada casa tiene un significado específico: por ejemplo, la primera casa está relacionada con la identidad y la forma en que nos mostramos al mundo, mientras que la séptima tiene que ver con las relaciones de pareja y asociaciones. Las casas astrológicas permiten ver en qué áreas se experimentan los desafíos y las oportunidades según la ubicación de los planetas."
+   ]
+  },
+  {
+   "h2": "Un ejemplo sencillo para entender las casas astrológicas",
+   "paragraphs": [
+    "Imagina que tienes a Venus en la quinta casa. Esto puede interpretarse como una fuerte inclinación hacia el amor, la creatividad y el disfrute de la vida en el área que representa esta casa, que suele estar ligada a los hobbies, el romance y la expresión personal. Así, las casas astrológicas ayudan a detallar cómo se manifiestan las cualidades del planeta."
+   ]
+  },
+  {
+   "h2": "Conceptos relacionados con las casas astrológicas",
+   "paragraphs": [
+    "Las casas astrológicas están relacionadas con signos zodiacales y planetas, pero no coinciden exactamente, ya que cada casa cubre áreas de la vida y cada signo representa una forma de ser. También es importante conocer el Ascendente, que marca el inicio de la primera casa. En algunos países se usa el término \"casas astrológicas\", mientras que en otros se puede encontrar \"casas zodiacales\" como variante usada en contextos similares."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Cuántas casas astrológicas hay y por qué son doce?",
+   "a": "Hay doce casas astrológicas porque el círculo zodiacal se divide en doce partes iguales, cada una representando diferentes áreas de la vida."
+  },
+  {
+   "q": "¿Las casas astrológicas cambian según el lugar y la hora de nacimiento?",
+   "a": "Sí, las casas dependen de la hora y lugar exactos de nacimiento, ya que estas determinan cómo se divide el cielo en el momento de nacer."
+  },
+  {
+   "q": "¿Es lo mismo una casa astrológica que un signo zodiacal?",
+   "a": "No, un signo zodiacal representa un conjunto de características o energía, mientras que una casa muestra el área de la vida donde esa energía se expresa."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Sigue leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me",
+ "term": "what-are-astrological-houses"
+}
