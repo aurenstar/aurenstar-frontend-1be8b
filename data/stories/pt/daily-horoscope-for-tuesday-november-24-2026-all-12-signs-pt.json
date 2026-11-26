@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "daily-horoscope-for-tuesday-november-24-2026-all-12-signs-pt",
+  "date": "2026-11-26",
+  "title": "Como a Lua Cheia vai transformar seu dia?",
+  "description": "Descubra o que o Sol em Sagitário e a Lua Cheia reservam para seu signo nesta terça, 24 de novembro de 2026.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Toque para saber",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Surpresa",
+      "title": "Amor e amizades brilham",
+      "text": "Hoje suas conexões ficam mais intensas e sinceras. Já pensou que uma simples conversa pode mudar tudo?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Dica Útil",
+      "title": "Foco e criatividade no trabalho",
+      "text": "Seu jeito único de resolver problemas vai conquistar quem está ao seu redor. Quer saber como usar isso a seu favor?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Cuidados",
+      "title": "Controle seus gastos",
+      "text": "Pequenas despesas podem escapar do controle. Será que você está atento ao que realmente importa no seu bolso?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Bem-estar",
+      "title": "Hora do descanso consciente",
+      "text": "Uma pausa estratégica pode recarregar suas energias para o restante do dia. Sente que precisa disso agora?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Convite",
+      "title": "Seu signo e a Lua Cheia",
+      "text": "No artigo completo, veja como essa energia lunar influencia seu signo e ajuda a liberar o que não serve mais para você."
+    }
+  ],
+  "cta": {
+    "text": "Quer entender seu horóscopo?",
+    "label": "Veja o horóscopo completo",
+    "url": "/pt/blog/daily-horoscope-for-tuesday-november-24-2026-all-12-signs"
+  }
+}

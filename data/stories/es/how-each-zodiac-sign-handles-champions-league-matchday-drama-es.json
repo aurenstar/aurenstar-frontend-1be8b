@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "how-each-zodiac-sign-handles-champions-league-matchday-drama-es",
+  "date": "2026-11-26",
+  "title": "¿Cómo reacciona tu signo en la Champions?",
+  "description": "Descubre cómo cada signo del zodiaco vive el drama de la Champions League y qué dice eso de tu personalidad.",
+  "theme": "fire",
+  "kind": "article",
+  "swipe": "Desliza para descubrir",
+  "pages": [
+    {
+      "theme": "fire",
+      "kicker": "Impacto Zodiacal",
+      "title": "Tu signo y la Champions",
+      "text": "¿Sabías que tu forma de vivir un partido refleja tu signo zodiacal? La tensión del juego saca lo mejor y lo peor de ti."
+    },
+    {
+      "theme": "fire",
+      "kicker": "Fuego y Pasión",
+      "title": "Aries no se calla",
+      "text": "Si eres Aries, seguro gritas y reaccionas al instante con cada jugada polémica. ¿Y tú, cómo explotas en la cancha?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Equilibrio y análisis",
+      "title": "Virgo y Libra en el drama",
+      "text": "Virgo desmenuza cada jugada con precisión, mientras Libra intenta calmar las peleas. ¿Te identificas con alguno?"
+    },
+    {
+      "theme": "fire",
+      "kicker": "Magia emocional",
+      "title": "Piscis y Cáncer sienten todo",
+      "text": "Estos signos viven cada gol y falta intensamente, sumergiéndose en el ambiente y reflejando la energía del grupo."
+    },
+    {
+      "theme": "night",
+      "kicker": "Lo más revelador",
+      "title": "Tu signo define tu experiencia",
+      "text": "Desde el estallido de Aries hasta la calma estratégica de Capricornio, tu signo dicta cómo vives cada momento del partido. ¿Quieres saber cómo?"
+    }
+  ],
+  "cta": {
+    "text": "¿Quieres saber más?",
+    "label": "Leer artículo completo",
+    "url": "/es/blog/how-each-zodiac-sign-handles-champions-league-matchday-drama"
+  }
+}
