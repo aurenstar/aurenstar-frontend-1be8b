@@ -903,8 +903,12 @@
     "wordpress": {
       "id": 2868,
       "slug": "hunger-games-zodiac-box-office",
-      "modified": "2026-11-26T12:30:06"
-    }
+      "modified": "2026-11-26T15:10:04"
+    },
+    "related": [
+      "wp-2859",
+      "wp-2862"
+    ]
   },
   {
     "id": "wp-2865",
@@ -1508,8 +1512,11 @@
     "wordpress": {
       "id": 2862,
       "slug": "zodiac-champions-league-matchday-drama",
-      "modified": "2026-11-25T22:30:06"
-    }
+      "modified": "2026-11-26T15:10:05"
+    },
+    "related": [
+      "wp-2859"
+    ]
   },
   {
     "id": "wp-2859",
@@ -1753,8 +1760,11 @@
     "wordpress": {
       "id": 2859,
       "slug": "zodiac-sign-win-plaud-ai-recorder",
-      "modified": "2026-11-25T20:30:05"
-    }
+      "modified": "2026-11-26T15:10:04"
+    },
+    "related": [
+      "wp-2862"
+    ]
   },
   {
     "id": "wp-2856",
@@ -5343,8 +5353,11 @@
     "wordpress": {
       "id": 1905,
       "slug": "aquarius-sign-strengths-weaknesses",
-      "modified": "2026-11-22T18:30:05"
-    }
+      "modified": "2026-11-26T15:10:04"
+    },
+    "related": [
+      "wp-2865"
+    ]
   },
   {
     "id": "wp-1902",
@@ -6735,10 +6748,11 @@
     "wordpress": {
       "id": 1807,
       "slug": "worst-jobs-aquarius-sign",
-      "modified": "2026-11-23T15:10:04"
+      "modified": "2026-11-26T15:10:04"
     },
     "related": [
-      "wp-1905"
+      "wp-1905",
+      "wp-2865"
     ]
   },
   {
