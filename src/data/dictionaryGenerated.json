@@ -20973,5 +20973,363 @@
         ]
       }
     }
+  },
+  {
+    "termo": "Jupiter in Capricorn",
+    "tituloSEO": "What does Jupiter in Capricorn mean? Simple Astrology Guide",
+    "perguntaGoogle": "What does Jupiter in Capricorn mean?",
+    "resumoUmaLinha": "Jupiter in Capricorn means growth through hard work and smart planning.",
+    "explicacaoEducativa": "Learn how Jupiter in Capricorn means luck comes with patience and responsibility.",
+    "chamadaCuriosa": "Want to grow? Jupiter in Capricorn shows the slow and steady way!",
+    "oQueSignifica": "Jupiter in Capricorn is like planting a seed and caring for it every day. It means you grow your opportunities by being patient and working steadily. Success doesn’t come fast, but when you plan well and stay focused, good things happen.",
+    "oQueSignificaNaAstrologia": "In astrology, Jupiter is linked to growth and luck. Capricorn is about being practical and disciplined. When Jupiter is in Capricorn, it means you learn and grow through structure, effort, and responsibility. This placement favors setting goals and following steps carefully instead of rushing or hoping for quick wins.",
+    "exemploFicticio": "Maria wants to start a small business. Instead of rushing, she makes a plan and saves money slowly. Jupiter in Capricorn helps her succeed by teaching patience and steady work.",
+    "dicaRapida": "Make clear goals and take small steps every day to reach them.",
+    "miniJogo": {
+      "pergunta": "If Jupiter in Capricorn guides you, how should you start a project?",
+      "opcoes": [
+        {
+          "texto": "Plan carefully and work step by step.",
+          "correta": true,
+          "explicacao": "Jupiter in Capricorn values slow, steady progress and planning."
+        },
+        {
+          "texto": "Jump in quickly and hope for the best.",
+          "correta": false,
+          "explicacao": "This is the opposite of Capricorn’s careful and disciplined approach."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Is Jupiter in Capricorn lucky?",
+        "resposta": "It can bring luck through hard work and smart planning, not quick wins."
+      },
+      {
+        "pergunta": "Can Jupiter in Capricorn make you patient?",
+        "resposta": "Yes, this placement encourages patience and steady growth over time."
+      }
+    ],
+    "termosRelacionados": [
+      "what-does-jupiter-mean-in-astrology",
+      "mapa-astral"
+    ],
+    "id": "what-does-jupiter-in-capricorn-mean",
+    "slug": "what-does-jupiter-in-capricorn-mean",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Júpiter em Capricórnio",
+        "perguntaGoogle": "O que significa Júpiter em Capricórnio?",
+        "resumoUmaLinha": "Júpiter em Capricórnio significa crescimento através de trabalho duro e planejamento inteligente.",
+        "chamadaCuriosa": "Quer crescer? Júpiter em Capricórnio mostra o caminho devagar e sempre!",
+        "oQueSignifica": "Júpiter em Capricórnio é como plantar uma semente e cuidar dela todo dia. Você cresce as suas oportunidades sendo paciente e trabalhando com constância. O sucesso não vem rápido, mas quando você planeja bem e foca, coisas boas acontecem.",
+        "oQueSignificaNaAstrologia": "Na astrologia, Júpiter está ligado ao crescimento e à sorte. Capricórnio fala de ser prático e disciplinado. Quando Júpiter está em Capricórnio, você aprende e cresce com estrutura, esforço e responsabilidade. Essa posição incentiva a definir metas e seguir os passos com calma, em vez de correr ou esperar ganhos rápidos.",
+        "exemploFicticio": "Maria quer abrir um pequeno negócio. Em vez de correr, ela faz um plano e vai juntando dinheiro devagar. Júpiter em Capricórnio ajuda ela a ter sucesso ensinando paciência e trabalho constante.",
+        "faq": [
+          {
+            "pergunta": "Júpiter em Capricórnio traz sorte?",
+            "resposta": "Pode trazer sorte através de trabalho duro e planejamento inteligente, não ganhos rápidos."
+          },
+          {
+            "pergunta": "Júpiter em Capricórnio pode te deixar paciente?",
+            "resposta": "Sim, essa posição incentiva paciência e crescimento constante ao longo do tempo."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Júpiter en Capricornio",
+        "perguntaGoogle": "¿Qué significa Júpiter en Capricornio?",
+        "resumoUmaLinha": "Júpiter en Capricornio significa crecer con trabajo duro y buena planificación.",
+        "chamadaCuriosa": "¿Quieres crecer? Júpiter en Capricornio muestra el camino lento y seguro.",
+        "oQueSignifica": "Júpiter en Capricornio es como plantar una semilla y cuidarla todos los días. Significa que aumentas tus oportunidades siendo paciente y trabajando con constancia. El éxito no llega rápido, pero cuando planeas bien y te concentras, pasan cosas buenas.",
+        "oQueSignificaNaAstrologia": "En astrología, Júpiter está relacionado con el crecimiento y la suerte. Capricornio trata de ser práctico y disciplinado. Cuando Júpiter está en Capricornio, significa que aprendes y creces con estructura, esfuerzo y responsabilidad. Esta posición favorece fijar metas y seguir pasos con cuidado en lugar de apresurarse o esperar resultados rápidos.",
+        "exemploFicticio": "María quiere empezar un negocio pequeño. En vez de apurarse, hace un plan y ahorra dinero poco a poco. Júpiter en Capricornio la ayuda a tener éxito enseñándole paciencia y trabajo constante.",
+        "faq": [
+          {
+            "pergunta": "¿Júpiter en Capricornio trae suerte?",
+            "resposta": "Puede traer suerte a través del trabajo duro y la buena planificación, no con resultados rápidos."
+          },
+          {
+            "pergunta": "¿Júpiter en Capricornio puede hacerte más paciente?",
+            "resposta": "Sí, esta posición anima a tener paciencia y crecer poco a poco en el tiempo."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "Moon in Scorpio",
+    "tituloSEO": "What Does the Moon in Scorpio Mean? Friendly Astrology Guide",
+    "perguntaGoogle": "What does the Moon in Scorpio mean?",
+    "resumoUmaLinha": "Moon in Scorpio is linked to deep feelings and strong emotional power in astrology.",
+    "explicacaoEducativa": "Learn that Moon in Scorpio relates to intense emotions and a desire for trust and honesty.",
+    "chamadaCuriosa": "Why does the Moon in Scorpio feel so deeply?",
+    "oQueSignifica": "Having the Moon in Scorpio means your feelings run deep, like a secret river. You might keep emotions private but feel them very strongly inside. Imagine a quiet friend who doesn’t say much but cares a lot. Your emotions can be powerful and sometimes mysterious, like a hidden treasure underwater.",
+    "oQueSignificaNaAstrologia": "In astrology, the Moon shows your feelings and inner world. When it is in Scorpio, it is linked to emotional depth and privacy. People with this Moon sign may experience strong moods and need trust to open up. They often sense what others feel and can be very loyal once they feel safe.",
+    "exemploFicticio": "Maria feels close to her best friend even without many words. When her Moon is in Scorpio, she trusts only a few people and keeps her feelings safe. Even if Maria looks calm, inside she feels very deeply, like the ocean.",
+    "dicaRapida": "Try sharing one small feeling today with someone you trust—it builds closeness gently.",
+    "miniJogo": {
+      "pergunta": "If your friend with Moon in Scorpio looks quiet, what should you do?",
+      "opcoes": [
+        {
+          "texto": "Give them space and show you care by listening.",
+          "correta": true,
+          "explicacao": "People with Moon in Scorpio often open up when they feel safe and listened to."
+        },
+        {
+          "texto": "Keep asking what's wrong until they tell you.",
+          "correta": false,
+          "explicacao": "Pressuring them too much might make them close off even more."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Can Moon in Scorpio make someone very emotional?",
+        "resposta": "Yes, it is linked to strong and intense feelings, often felt deeply."
+      },
+      {
+        "pergunta": "Does Moon in Scorpio mean a person is secretive?",
+        "resposta": "Often, yes. People with this Moon sign usually protect their emotions."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-lunar",
+      "mapa-astral"
+    ],
+    "id": "what-does-the-moon-in-scorpio-mean",
+    "slug": "what-does-the-moon-in-scorpio-mean",
+    "categoria": "Phases & Movements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Lua em Escorpião",
+        "perguntaGoogle": "O que significa Lua em Escorpião?",
+        "resumoUmaLinha": "Lua em Escorpião está ligada a sentimentos profundos e muita força emocional na astrologia.",
+        "chamadaCuriosa": "Por que a Lua em Escorpião faz a gente sentir tão intensamente?",
+        "oQueSignifica": "Ter a Lua em Escorpião significa que seus sentimentos são profundos, como um rio secreto. Você pode guardar suas emoções para você, mas sente tudo muito forte por dentro. Imagina um amigo quieto que não fala muito, mas se importa demais. Suas emoções são poderosas e às vezes misteriosas, como um tesouro escondido debaixo d'água.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a Lua mostra seus sentimentos e seu mundo interior. Quando está em Escorpião, ela traz profundidade emocional e privacidade. Quem tem a Lua nesse signo vive emoções fortes e precisa de confiança para se abrir. Essas pessoas costumam perceber o que os outros sentem e são muito fiéis quando se sentem seguras.",
+        "exemploFicticio": "Maria se sente perto da melhor amiga mesmo sem falar muito. Com a Lua em Escorpião, ela confia em poucas pessoas e protege seus sentimentos. Mesmo quando Maria parece calma, por dentro ela sente tudo intensamente, como o oceano.",
+        "faq": [
+          {
+            "pergunta": "A Lua em Escorpião pode deixar alguém muito emotivo?",
+            "resposta": "Sim, está ligada a sentimentos fortes e intensos, que são sentidos muito profundamente."
+          },
+          {
+            "pergunta": "Lua em Escorpião significa que a pessoa é reservada?",
+            "resposta": "Quase sempre, sim. Quem tem essa Lua costuma proteger suas emoções."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Luna en Escorpio",
+        "perguntaGoogle": "¿Qué significa tener la Luna en Escorpio?",
+        "resumoUmaLinha": "La Luna en Escorpio está relacionada con sentimientos profundos y una gran fuerza emocional en la astrología.",
+        "chamadaCuriosa": "¿Por qué la Luna en Escorpio siente tan intensamente?",
+        "oQueSignifica": "Tener la Luna en Escorpio significa que tus sentimientos son profundos, como un río secreto. Puedes guardar tus emociones en privado, pero las sientes muy fuerte por dentro. Imagina a un amigo callado que no habla mucho, pero que se preocupa mucho. Tus emociones pueden ser poderosas y a veces misteriosas, como un tesoro escondido bajo el agua.",
+        "oQueSignificaNaAstrologia": "En astrología, la Luna muestra tus sentimientos y tu mundo interior. Cuando está en Escorpio, está ligada a la profundidad emocional y la privacidad. Las personas con esta Luna suelen tener cambios de humor fuertes y necesitan confianza para abrirse. A menudo perciben lo que sienten los demás y pueden ser muy leales cuando se sienten seguros.",
+        "exemploFicticio": "María se siente muy cercana a su mejor amiga aunque no hablen mucho. Cuando su Luna está en Escorpio, solo confía en pocas personas y protege sus emociones. Aunque María parezca tranquila, por dentro siente muy intensamente, como el océano.",
+        "faq": [
+          {
+            "pergunta": "¿Puede la Luna en Escorpio hacer que alguien sea muy emocional?",
+            "resposta": "Sí, está relacionada con sentimientos fuertes e intensos, que se sienten profundamente."
+          },
+          {
+            "pergunta": "¿Significa la Luna en Escorpio que una persona es reservada?",
+            "resposta": "Muchas veces, sí. Las personas con esta Luna suelen proteger sus emociones."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "7th lord",
+    "tituloSEO": "What is 7th Lord in Astrology? Simple Guide",
+    "perguntaGoogle": "What is 7th lord in astrology?",
+    "resumoUmaLinha": "The 7th lord is the planet that rules your 7th house in astrology.",
+    "explicacaoEducativa": "Learn that the 7th lord is linked to partnerships and relationships in your birth chart.",
+    "chamadaCuriosa": "Discover who rules your 7th house and what it means for you!",
+    "oQueSignifica": "Think of your birth chart as a house with different rooms. The 7th lord is like the person in charge of the 'partnership' room. This planet shows how you connect with others, like friends or partners, and how those relationships may feel.",
+    "oQueSignificaNaAstrologia": "In astrology, the 7th lord rules the 7th house, which is where partnerships and close connections live. This planet’s sign and place in the chart give clues about how you relate to others, what kind of people you attract, and how you handle teamwork or romance. It’s one of the main planets to look at for understanding your social side.",
+    "exemploFicticio": "Maria found out that Venus is her 7th lord, which means she may enjoy warm and peaceful partnerships. When she meets new people, she feels comfortable and likes to build friendships that feel calm and happy.",
+    "dicaRapida": "Look to your 7th lord to learn about your style in close relationships.",
+    "miniJogo": {
+      "pergunta": "If your 7th lord is in a friendly planet, how might this affect your friendships?",
+      "opcoes": [
+        {
+          "texto": "You probably find it easy to make kind and close friends.",
+          "correta": true,
+          "explicacao": "A friendly planet as 7th lord usually means smooth, warm connections."
+        },
+        {
+          "texto": "You might avoid meeting new people completely.",
+          "correta": false,
+          "explicacao": "The 7th lord influences partnerships, so it’s unlikely to cause total avoidance."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "How do I find my 7th lord in astrology?",
+        "resposta": "Find the zodiac sign on your 7th house and see which planet rules that sign."
+      },
+      {
+        "pergunta": "Does the 7th lord only talk about marriage?",
+        "resposta": "No, it relates to all close partnerships, like friends or business partners."
+      }
+    ],
+    "termosRelacionados": [
+      "casas-astrologicas",
+      "signo-ascendente",
+      "sinastria-amorosa"
+    ],
+    "id": "what-is-7th-lord-in-astrology",
+    "slug": "what-is-7th-lord-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "7º senhor",
+        "perguntaGoogle": "O que é o 7º senhor na astrologia?",
+        "resumoUmaLinha": "O 7º senhor é o planeta que governa a sua 7ª casa no mapa astral.",
+        "chamadaCuriosa": "Descubra quem comanda sua 7ª casa e o que isso significa para você!",
+        "oQueSignifica": "Pense no seu mapa astral como uma casa com vários quartos. O 7º senhor é como a pessoa que controla o 'quarto das parcerias'. Esse planeta mostra como você se conecta com os outros, como amigos ou parceiros, e como essas relações podem ser.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o 7º senhor governa a 7ª casa, onde ficam as parcerias e conexões próximas. O signo e o lugar desse planeta no mapa dão pistas sobre como você se relaciona, que tipo de pessoas atrai e como lida com trabalho em equipe ou romance. É um dos planetas principais para entender seu lado social.",
+        "exemploFicticio": "Maria descobriu que Vênus é seu 7º senhor, o que indica que ela pode gostar de parcerias calorosas e tranquilas. Quando conhece pessoas novas, ela se sente à vontade e gosta de construir amizades que tragam paz e alegria.",
+        "faq": [
+          {
+            "pergunta": "Como eu encontro meu 7º senhor na astrologia?",
+            "resposta": "Encontre o signo do zodíaco que está na sua 7ª casa e veja qual planeta rege esse signo."
+          },
+          {
+            "pergunta": "O 7º senhor fala só sobre casamento?",
+            "resposta": "Não, ele se relaciona com todas as parcerias próximas, como amigos ou sócios."
+          }
+        ]
+      },
+      "es": {
+        "termo": "7º señor",
+        "perguntaGoogle": "¿Qué es el 7º señor en astrología?",
+        "resumoUmaLinha": "El 7º señor es el planeta que gobierna tu casa 7 en astrología.",
+        "chamadaCuriosa": "¡Descubre quién manda en tu casa 7 y qué significa para ti!",
+        "oQueSignifica": "Piensa en tu carta astral como una casa con diferentes cuartos. El 7º señor es como la persona a cargo del cuarto de 'parejas y relaciones'. Este planeta muestra cómo te conectas con otros, como amigos o parejas, y cómo se sienten esas relaciones.",
+        "oQueSignificaNaAstrologia": "En astrología, el 7º señor gobierna la casa 7, donde están las parejas y relaciones cercanas. El signo y la posición de ese planeta en la carta dan pistas sobre cómo te relacionas con otros, qué tipo de personas atraes y cómo manejas el trabajo en equipo o el romance. Es uno de los planetas clave para entender tu lado social.",
+        "exemploFicticio": "María descubrió que Venus es su 7º señor, lo que significa que puede disfrutar de relaciones cálidas y armoniosas. Cuando conoce gente nueva, se siente cómoda y le gusta construir amistades que sean tranquilas y felices.",
+        "faq": [
+          {
+            "pergunta": "¿Cómo encuentro mi 7º señor en astrología?",
+            "resposta": "Encuentra el signo zodiacal en tu casa 7 y mira qué planeta gobierna ese signo."
+          },
+          {
+            "pergunta": "¿El 7º señor solo habla de matrimonio?",
+            "resposta": "No, se refiere a todas las relaciones cercanas, como amigos o socios de trabajo."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "1st House",
+    "tituloSEO": "What does 1st House represent in astrology? | Chart Concepts",
+    "perguntaGoogle": "What does 1st house represent in astrology?",
+    "resumoUmaLinha": "The 1st house in astrology relates to your self-image and how others see you.",
+    "explicacaoEducativa": "Learn the 1st house shows the start of your life and how you express yourself to the world.",
+    "chamadaCuriosa": "Your astrology 1st house is like your personal front door!",
+    "oQueSignifica": "Imagine meeting someone for the first time. The 1st house is like the first impression you give. It covers your style, attitude, and how you appear to others. Just like when you choose your clothes or how you smile, the 1st house shows your outer self and the energy you bring when you enter a room.",
+    "oQueSignificaNaAstrologia": "In astrology, the 1st house is linked to your identity and personal way of being. It reveals your natural behavior and how you start new things. This house can show your physical look and your first reactions to situations. Its energy shapes how others notice you right away.",
+    "exemploFicticio": "Maria is at a school party. Her 1st house energy makes her confident and friendly, so many people come say hello first. Carlos, on the other hand, has a quiet 1st house, so he listens more before joining the fun.",
+    "dicaRapida": "Notice how you greet new people; it shows your 1st house style.",
+    "miniJogo": {
+      "pergunta": "If you want to make a good first impression, which 1st house trait helps you?",
+      "opcoes": [
+        {
+          "texto": "Being friendly and open",
+          "correta": true,
+          "explicacao": "The 1st house shows your outward behavior, like friendliness at first meetings."
+        },
+        {
+          "texto": "Keeping your thoughts secret",
+          "correta": false,
+          "explicacao": "This is more about inner feelings, not how the 1st house works on first impressions."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Does the 1st house show my personality?",
+        "resposta": "It reflects how you show yourself at first and how others see you, part of your personality."
+      },
+      {
+        "pergunta": "Can the 1st house change over time?",
+        "resposta": "Your 1st house energy stays, but how you express it can grow with experience."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-ascendente",
+      "casas-astrologicas",
+      "mapa-astral"
+    ],
+    "id": "what-does-1st-house-represent-in-astrology",
+    "slug": "what-does-1st-house-represent-in-astrology",
+    "categoria": "Chart Concepts",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "1ª Casa",
+        "perguntaGoogle": "O que a 1ª casa representa na astrologia?",
+        "resumoUmaLinha": "A 1ª casa na astrologia está ligada à sua autoimagem e como os outros te veem.",
+        "chamadaCuriosa": "Sua 1ª casa no mapa astral é como a sua porta de entrada pessoal!",
+        "oQueSignifica": "Imagine conhecer alguém pela primeira vez. A 1ª casa é como a impressão inicial que você passa. Ela mostra seu estilo, atitude e como você aparece para os outros. Assim como quando escolhe sua roupa ou sorri, a 1ª casa revela seu lado externo e a energia que você traz ao entrar em um lugar.",
+        "oQueSignificaNaAstrologia": "Na astrologia, a 1ª casa está ligada à sua identidade e ao seu jeito de ser. Ela revela seu comportamento natural e como você começa coisas novas. Essa casa pode mostrar sua aparência física e suas primeiras reações às situações. A energia dela molda como os outros percebem você na hora.",
+        "exemploFicticio": "Maria está numa festa da escola. A energia da 1ª casa dela a deixa confiante e simpática, então muitas pessoas vão falar com ela primeiro. Carlos, por outro lado, tem uma 1ª casa mais reservada, então ele escuta mais antes de entrar na diversão.",
+        "faq": [
+          {
+            "pergunta": "A 1ª casa mostra minha personalidade?",
+            "resposta": "Ela reflete como você se mostra no começo e como os outros te veem, parte da sua personalidade."
+          },
+          {
+            "pergunta": "A 1ª casa pode mudar com o tempo?",
+            "resposta": "A energia da sua 1ª casa fica, mas a forma de expressá-la pode crescer com sua experiência."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Casa 1",
+        "perguntaGoogle": "¿Qué representa la casa 1 en astrología?",
+        "resumoUmaLinha": "La casa 1 en astrología se relaciona con tu imagen personal y cómo te ven los demás.",
+        "chamadaCuriosa": "¡Tu casa 1 es como la puerta principal de tu carta astral!",
+        "oQueSignifica": "Imagina conocer a alguien por primera vez. La casa 1 es como la primera impresión que das. Incluye tu estilo, actitud y cómo te muestras a los demás. Al igual que eliges tu ropa o cómo sonríes, la casa 1 muestra tu lado exterior y la energía que llevas cuando entras a un lugar.",
+        "oQueSignificaNaAstrologia": "En astrología, la casa 1 está ligada a tu identidad y tu forma personal de ser. Revela tu comportamiento natural y cómo empiezas cosas nuevas. Esta casa puede mostrar tu apariencia física y tus reacciones iniciales ante las situaciones. Su energía influye en cómo te notan los demás de inmediato.",
+        "exemploFicticio": "María está en una fiesta de la escuela. La energía de su casa 1 la hace segura y amigable, por eso muchas personas vienen a saludarla primero. Carlos, en cambio, tiene una casa 1 más tranquila, así que escucha más antes de unirse a la diversión.",
+        "faq": [
+          {
+            "pergunta": "¿La casa 1 muestra mi personalidad?",
+            "resposta": "Refleja cómo te muestras al principio y cómo te ven los demás, parte de tu personalidad."
+          },
+          {
+            "pergunta": "¿Puede la casa 1 cambiar con el tiempo?",
+            "resposta": "Tu energía de la casa 1 permanece, pero la forma en que la expresas puede crecer con la experiencia."
+          }
+        ]
+      }
+    }
   }
 ]

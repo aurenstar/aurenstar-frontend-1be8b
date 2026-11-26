@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "resumo": {
-    "termosPublicados": 229,
+    "termosPublicados": 233,
     "funcionando": 6,
     "quase": 4,
     "aparecendo": 81,
-    "semDados": 138,
+    "semDados": 142,
     "impressoes": 776,
     "cliques": 0
   },
@@ -36,7 +36,7 @@
       "impressoes": 233,
       "cliques": 0,
       "impressoesPorTermo": 2.9,
-      "boost": 0.87
+      "boost": 0.89
     },
     {
       "categoria": "Phases & Movements",
@@ -44,7 +44,7 @@
       "impressoes": 69,
       "cliques": 0,
       "impressoesPorTermo": 2.8,
-      "boost": 0.81
+      "boost": 0.83
     },
     {
       "categoria": "Planets & Bodies",
@@ -56,11 +56,11 @@
     },
     {
       "categoria": "Signs & Elements",
-      "termos": 109,
+      "termos": 113,
       "impressoes": 436,
       "cliques": 0,
-      "impressoesPorTermo": 4,
-      "boost": 1.18
+      "impressoesPorTermo": 3.9,
+      "boost": 1.16
     }
   ],
   "termos": [
@@ -2267,6 +2267,46 @@
     {
       "slug": "what-does-gemini-spiritual-mean-in-astrology",
       "termo": "Gemini Spiritual",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 320,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-house-is-scorpio",
+      "termo": "Scorpio House",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 320,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-house-is-libra",
+      "termo": "Libra House",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 320,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-house-is-virgo",
+      "termo": "Virgo and the 6th House",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 320,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-birth-sign-cancer-mean-in-astrology",
+      "termo": "Birth Sign Cancer",
       "categoria": "Signs & Elements",
       "impressoes": 0,
       "cliques": 0,
