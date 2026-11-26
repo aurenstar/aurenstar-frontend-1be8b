@@ -1,0 +1,60 @@
+{
+ "lang": "fr",
+ "keyword": "nœud nord astrologie",
+ "volume": 960,
+ "slug": "noeud-nord-astrologie",
+ "date": "2026-11-26",
+ "kind": "term",
+ "title": "Nœud Nord astrologie : sens et rôle dans le thème natal",
+ "description": "Découvrez ce qu'est le nœud nord en astrologie, son importance dans le thème natal et comment il guide votre évolution personnelle.",
+ "intro": "Le nœud nord en astrologie représente la direction vers laquelle notre âme est invitée à évoluer dans cette vie. Il symbolise les leçons à apprendre et les expériences à vivre pour grandir.",
+ "sections": [
+  {
+   "h2": "Qu'est-ce que le nœud nord en astrologie ?",
+   "paragraphs": [
+    "Le nœud nord astrologie désigne un point fictif calculé à partir de l'orbite de la Lune autour de la Terre. Contrairement aux planètes, il n’a pas de masse physique, mais il est essentiel en astrologie karmique et évolutive. Le nœud nord indique la voie à suivre pour avancer dans sa vie, tandis que le nœud sud, toujours à l’opposé, montre les habitudes ou talents déjà maîtrisés."
+   ]
+  },
+  {
+   "h2": "Le rôle du nœud nord dans le thème natal",
+   "paragraphs": [
+    "Dans un thème natal, le nœud nord astrologie révèle les domaines de vie où il est important de sortir de sa zone de confort. Par exemple, il peut se trouver dans une maison liée aux relations, à la carrière ou à la créativité, ce qui suggère où l’on doit investir davantage d’efforts. Son signe zodiacal apporte aussi des indications sur les qualités à développer, telles que l’indépendance, la patience ou la communication. C’est un guide pour se diriger vers un accomplissement plus profond."
+   ]
+  },
+  {
+   "h2": "Un exemple simple pour comprendre le nœud nord",
+   "paragraphs": [
+    "Imaginons une personne avec son nœud nord en Balance, signe d’harmonie et de partenariat. Cette personne pourrait naturellement avoir tendance à s'isoler (nœud sud en Bélier), mais son défi sera d'apprendre à coopérer, écouter et construire des relations équilibrées. Ainsi, le nœud nord astrologie invite à dépasser l’égo et à s’ouvrir aux autres, pour grandir sur le plan personnel."
+   ]
+  },
+  {
+   "h2": "Idées liées au nœud nord en astrologie",
+   "paragraphs": [
+    "Le nœud nord est souvent associé à la notion de destinée personnelle, sans pour autant prédire un chemin figé. Il dialogue avec d’autres éléments du thème, comme la Lune ou Saturne, pour mieux comprendre nos défis. Il peut aussi servir à réfléchir sur les cycles de vie et sur les changements importants, notamment lors des retours nodaux, qui surviennent environ tous les 18 ans."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quelle est la différence entre nœud nord et nœud sud ?",
+   "a": "Le nœud nord indique la direction vers laquelle évoluer, tandis que le nœud sud montre les comportements ou talents déjà acquis à dépasser."
+  },
+  {
+   "q": "Comment trouver son nœud nord astrologie ?",
+   "a": "Il faut consulter un thème natal complet, où la position exacte du nœud nord est calculée selon la date, l’heure et le lieu de naissance."
+  },
+  {
+   "q": "Le nœud nord change-t-il de signe ?",
+   "a": "Oui, il change de signe environ tous les 18 mois, ce qui modifie les thèmes d’évolution pour les générations nées à ces périodes."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "FAQ",
+  "more": "À lire aussi",
+  "dictionary": "Dictionnaire"
+ },
+ "tool": "discover-sign"
+}
