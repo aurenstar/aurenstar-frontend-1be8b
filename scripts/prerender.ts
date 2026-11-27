@@ -355,7 +355,7 @@ const signUrls: { loc: string }[] = [];
     for (const lang of HUB_LANGS) {
       const list = mine.map((a) => {
         const enSlug = getArticleSlug(a);
-        const extra = { image: cardImage(a.image), category: (a.category as Record<string, string>)[lang], subtitle: (a.subtitle as Record<string, string>)[lang] };
+        const extra = { image: cardImage(a.image), category: (a.category as Record<string, string>)[lang], subtitle: lang !== 'en' && (a.subtitle as Record<string, string>)[lang] === a.subtitle.en ? undefined : (a.subtitle as Record<string, string>)[lang] };
         if (lang === 'en') return { title: a.title.en, href: `/blog/${enSlug}`, ...extra };
         const h = heads[lang]?.[enSlug]?.t;
         return { title: (h || a.title.en).replace(/\s*\|\s*Aurenstar$/, ''), href: `/${lang}/blog/${enToLocal(lang, enSlug) ?? enSlug}`, ...extra };
