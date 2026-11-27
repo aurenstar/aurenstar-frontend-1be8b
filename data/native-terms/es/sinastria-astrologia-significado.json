@@ -1,0 +1,61 @@
+{
+ "lang": "es",
+ "keyword": "sinastria astrologia",
+ "volume": 920,
+ "slug": "sinastria-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sinastria en astrología: qué es y cómo se interpreta",
+ "description": "Descubre qué significa sinastría en astrología, cómo se usa para comparar cartas natales y entender la compatibilidad de pareja o relaciones.",
+ "intro": "Sinastria astrología es el análisis de la compatibilidad entre dos personas a través de sus cartas natales. Se utiliza para entender cómo interactúan sus energías y qué desafíos o fortalezas pueden surgir en la relación.",
+ "sections": [
+  {
+   "h2": "¿Qué es la sinastría en astrología?",
+   "paragraphs": [
+    "La sinastría astrología es una técnica que compara dos cartas natales (también llamadas cartas astrales o mapas natales) para analizar la relación entre dos personas. Es muy popular al explorar vínculos de pareja, pero también se puede usar para amistades, familiares o socios de trabajo. La palabra viene del griego 'syn', que significa 'juntos', y 'astron', que significa 'estrella'."
+   ]
+  },
+  {
+   "h2": "¿Cómo se interpreta la sinastría en una carta natal?",
+   "paragraphs": [
+    "Para hacer una sinastría astrología, se superponen las cartas natales de ambas personas y se observa cómo los planetas y puntos importantes (como el Sol, la Luna, el Ascendente o el signo ascendente y Venus) se relacionan entre sí. Se analizan los aspectos (distancias angulares entre planetas), como conjunciones, oposiciones y trígonos, para descubrir armonías, posibles tensiones y áreas de crecimiento en la relación. Por ejemplo, si el Sol de una persona está en conjunción con la Luna de la otra, suele favorecer la comprensión emocional."
+   ]
+  },
+  {
+   "h2": "Ejemplo sencillo de sinastría",
+   "paragraphs": [
+    "Imagina que Marta es Aries (nació alrededor del 5 de abril) y Juan es Libra (nacido alrededor del 10 de octubre). Al comparar sus cartas natales, el Sol de Marta se opone al Sol de Juan. En sinastría astrología, esta oposición puede indicar que ambos se atraen por sus diferencias, pero también que tendrán que aprender a equilibrar sus personalidades para crecer juntos."
+   ]
+  },
+  {
+   "h2": "Conceptos relacionados y variantes",
+   "paragraphs": [
+    "La sinastría es diferente de la carta compuesta, que crea un solo mapa simbólico de la relación. Además, para calcular la sinastría, se necesita la hora y lugar de nacimiento de ambas personas, ya que así se obtiene información más precisa. En algunos países se usa 'carta astral' y en otros 'carta natal', ambos significan lo mismo: el mapa del cielo en el momento del nacimiento."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Sirve la sinastría solo para parejas románticas?",
+   "a": "No, la sinastría astrología puede aplicarse a cualquier tipo de relación: amistad, trabajo, familia o pareja."
+  },
+  {
+   "q": "¿Qué se necesita para hacer una sinastría?",
+   "a": "Se requieren las fechas, horas y lugares de nacimiento de ambas personas para obtener cartas natales precisas."
+  },
+  {
+   "q": "¿La sinastría predice el futuro de una relación?",
+   "a": "No predice el futuro, pero ayuda a entender compatibilidades, desafíos y a reflexionar sobre la dinámica entre dos personas."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas de astrología gratis",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario de astrología"
+ },
+ "tool": "discover-sign",
+ "term": "what-is-synastry"
+}
