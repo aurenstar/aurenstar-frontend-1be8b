@@ -2002,10 +2002,11 @@
     "wordpress": {
       "id": 2862,
       "slug": "zodiac-champions-league-matchday-drama",
-      "modified": "2026-11-26T15:10:05"
+      "modified": "2026-11-27T15:10:08"
     },
     "related": [
-      "wp-2859"
+      "wp-2859",
+      "wp-2868"
     ]
   },
   {
@@ -2250,10 +2251,11 @@
     "wordpress": {
       "id": 2859,
       "slug": "zodiac-sign-win-plaud-ai-recorder",
-      "modified": "2026-11-26T15:10:04"
+      "modified": "2026-11-27T15:10:07"
     },
     "related": [
-      "wp-2862"
+      "wp-2862",
+      "wp-2868"
     ]
   },
   {
@@ -3998,8 +4000,11 @@
     "wordpress": {
       "id": 2656,
       "slug": "cancer-sign-leadership-style",
-      "modified": "2026-11-24T12:30:04"
-    }
+      "modified": "2026-11-27T15:10:08"
+    },
+    "related": [
+      "wp-2856"
+    ]
   },
   {
     "id": "wp-2607",
@@ -5858,9 +5863,9 @@
     },
     "categoryColor": "bg-[#3982C8] text-white",
     "readTime": {
-      "pt": "6 min de leitura",
-      "en": "6 min read",
-      "es": "6 min de lectura"
+      "pt": "5 min de leitura",
+      "en": "5 min read",
+      "es": "5 min de lectura"
     },
     "date": {
       "pt": "22 Nov 2026",
@@ -6094,11 +6099,6 @@
             "pt": "• Is it important to consider their home environment when choosing a gift? Absolutely. Since many Cancer individuals treasure their home as a sanctuary, gifts that enhance this space often resonate deeply.",
             "en": "• Is it important to consider their home environment when choosing a gift? Absolutely. Since many Cancer individuals treasure their home as a sanctuary, gifts that enhance this space often resonate deeply.",
             "es": "• Is it important to consider their home environment when choosing a gift? Absolutely. Since many Cancer individuals treasure their home as a sanctuary, gifts that enhance this space often resonate deeply."
-          },
-          {
-            "pt": "Understanding the nuances of a Cancer sign partner’s personality can transform gift-giving from a routine task into a meaningful expression of affection. By focusing on their emotional needs, nurturing tendencies, and preference for comfort, you can select gifts that not only please but also deepen your connection. For more on Cancer traits and compatibility, explore Cancer zodiac traits and Cancer sign compatibility to better understand how to nurture your relationship.",
-            "en": "Understanding the nuances of a Cancer sign partner’s personality can transform gift-giving from a routine task into a meaningful expression of affection. By focusing on their emotional needs, nurturing tendencies, and preference for comfort, you can select gifts that not only please but also deepen your connection. For more on Cancer traits and compatibility, explore Cancer zodiac traits and Cancer sign compatibility to better understand how to nurture your relationship.",
-            "es": "Understanding the nuances of a Cancer sign partner’s personality can transform gift-giving from a routine task into a meaningful expression of affection. By focusing on their emotional needs, nurturing tendencies, and preference for comfort, you can select gifts that not only please but also deepen your connection. For more on Cancer traits and compatibility, explore Cancer zodiac traits and Cancer sign compatibility to better understand how to nurture your relationship."
           }
         ]
       }
@@ -6111,8 +6111,11 @@
     "wordpress": {
       "id": 1902,
       "slug": "best-gifts-cancer-sign-partner",
-      "modified": "2026-11-22T16:30:04"
-    }
+      "modified": "2026-11-27T15:10:08"
+    },
+    "related": [
+      "wp-2856"
+    ]
   },
   {
     "id": "wp-1899",
@@ -8612,8 +8615,11 @@
     "wordpress": {
       "id": 1790,
       "slug": "how-leo-sign-flirts",
-      "modified": "2026-11-20T23:14:13"
-    }
+      "modified": "2026-11-27T15:10:07"
+    },
+    "related": [
+      "wp-2871"
+    ]
   },
   {
     "id": "wp-1787",
@@ -9746,10 +9752,11 @@
     "wordpress": {
       "id": 1778,
       "slug": "leo-sign-new-moon",
-      "modified": "2026-11-22T15:10:04"
+      "modified": "2026-11-27T15:10:08"
     },
     "related": [
-      "wp-1790"
+      "wp-1790",
+      "wp-2871"
     ]
   },
   {
