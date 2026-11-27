@@ -15,12 +15,33 @@ export interface NativeArticle {
   faq: { q: string; a: string }[];
   ui: { home: string; tools: string; articles: string; faq: string; more: string; dictionary?: string };
   /** the free tool and the dictionary term that fit this topic (checked against real addresses) */
+  /** real searches people type in that country for this topic (native script); shown as tags and used as keywords */
+  tags?: string[];
   tool?: string; term?: string;
   /** 'term' = a short dictionary entry (verbete) written natively; missing = a full article */
   kind?: 'term';
   /** care robot: marks an article that gets no signal for a long time (kept, but not indexed) and when its title was last improved */
   retired?: boolean; metaRewrittenAt?: string;
 }
+/** Footer words and the dictionary label in each language (so nothing on a native page is left in English). */
+export const FOOT: Record<string, { about: string; privacy: string; dictionary: string }> = {
+  pt: { about: 'Sobre', privacy: 'Privacidade', dictionary: 'Dicionário astrológico' },
+  es: { about: 'Acerca de', privacy: 'Privacidad', dictionary: 'Diccionario astrológico' },
+  de: { about: 'Über uns', privacy: 'Datenschutz', dictionary: 'Astrologie Lexikon' },
+  fr: { about: 'À propos', privacy: 'Confidentialité', dictionary: "Dictionnaire d'astrologie" },
+  it: { about: 'Chi siamo', privacy: 'Privacy', dictionary: 'Dizionario astrologico' },
+  hi: { about: 'हमारे बारे में', privacy: 'गोपनीयता', dictionary: 'ज्योतिष शब्दकोश' },
+  ar: { about: 'من نحن', privacy: 'الخصوصية', dictionary: 'قاموس الأبراج' },
+  id: { about: 'Tentang', privacy: 'Privasi', dictionary: 'Kamus astrologi' },
+  ja: { about: '概要', privacy: 'プライバシー', dictionary: '占星術辞典' },
+  ko: { about: '소개', privacy: '개인정보처리방침', dictionary: '점성술 사전' },
+  ru: { about: 'О нас', privacy: 'Конфиденциальность', dictionary: 'Астрологический словарь' },
+  tr: { about: 'Hakkında', privacy: 'Gizlilik', dictionary: 'Astroloji sözlüğü' },
+  vi: { about: 'Giới thiệu', privacy: 'Quyền riêng tư', dictionary: 'Từ điển chiêm tinh' },
+  zh: { about: '关于我们', privacy: '隐私政策', dictionary: '占星词典' },
+  zht: { about: '關於我們', privacy: '隱私權政策', dictionary: '占星詞典' },
+};
+export const footWords = (lang: string) => FOOT[lang] || { about: 'About', privacy: 'Privacy', dictionary: 'Astrology dictionary' };
 export const TOOLS = ['discover-sign', 'daily-message', 'descreva-me'];
 
 export const fold = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
@@ -82,17 +103,19 @@ header a.b{font-weight:700;letter-spacing:.08em;text-decoration:none;color:#4b2a
 a{color:#5b34b0}main{max-width:760px;margin:0 auto;padding:8px 20px 40px}
 h1{font-size:2rem;line-height:1.25;margin:.4em 0}h2{font-size:1.35rem;margin:1.6em 0 .4em}
 .lead{font-size:1.1rem;color:#3a3556}.cta{display:inline-block;margin:1.4em 0;padding:.8em 1.4em;background:#5b34b0;color:#fff;border-radius:999px;text-decoration:none;font-weight:600}
-details{border-top:1px solid #e3dcf5;padding:.6em 0}summary{cursor:pointer;font-weight:600}ul.l{padding-inline-start:1.1em}footer{font-size:.9rem;color:#6b6585;border-top:1px solid #e3dcf5}`;
+details{border-top:1px solid #e3dcf5;padding:.6em 0}summary{cursor:pointer;font-weight:600}ul.l{padding-inline-start:1.1em}p.tg span{display:inline-block;margin:0 6px 6px 0;padding:2px 10px;border:1px solid #e3dcf5;border-radius:999px;font-size:.85rem;color:#4b2a8f}footer{font-size:.9rem;color:#6b6585;border-top:1px solid #e3dcf5}`;
 
-function shell(lang: string, title: string, description: string, canonical: string, jsonLd: unknown[], body: string, ui: NativeArticle['ui'], ogType: string, robots = 'index,follow'): string {
+function shell(lang: string, title: string, description: string, canonical: string, jsonLd: unknown[], body: string, ui: NativeArticle['ui'], ogType: string, robots = 'index,follow', tags: string[] = []): string {
   const tag = langTag(lang);
+  const fw = footWords(lang);
+  const kw = tags.length ? `\n<meta name="keywords" content="${esc(tags.join(', '))}" />${tags.map((t) => `\n<meta property="article:tag" content="${esc(t)}" />`).join('')}` : '';
   return `<!doctype html>
 <html lang="${tag}"${RTL.has(lang) ? ' dir="rtl"' : ''}>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>${esc(title)} | Aurenstar</title>
-<meta name="description" content="${esc(description)}" />
+<meta name="description" content="${esc(description)}" />${kw}
 <meta name="robots" content="${robots}" />
 <link rel="canonical" href="${esc(canonical)}" />
 <link rel="alternate" hreflang="${tag}" href="${esc(canonical)}" />
@@ -111,7 +134,7 @@ function shell(lang: string, title: string, description: string, canonical: stri
 <body>
 <header><a class="b" href="/${lang}">AURENSTAR</a><a href="/${lang}">${esc(ui.home)}</a><a href="/${lang}/discover-sign">${esc(ui.tools)}</a><a href="${hubPath(lang)}">${esc(ui.articles)}</a></header>
 ${body}
-<footer><a href="/${lang}">Aurenstar</a><a href="/${lang}/about">About</a><a href="/${lang}/privacy">Privacy</a></footer>
+<footer><a href="/${lang}">Aurenstar</a><a href="/${lang}/about">${esc(fw.about)}</a><a href="/${lang}/privacy">${esc(fw.privacy)}</a></footer>
 </body>
 </html>
 `;
@@ -120,7 +143,7 @@ ${body}
 export function renderNativeArticle(a: NativeArticle, others: NativeArticle[] = []): string {
   const url = `${SITE}${pathOf(a)}`;
   const jsonLd = [
-    { '@context': 'https://schema.org', '@type': 'Article', headline: a.title, description: a.description, inLanguage: langTag(a.lang), mainEntityOfPage: url, datePublished: a.date, dateModified: a.date, author: { '@type': 'Organization', name: 'Aurenstar' }, publisher: { '@type': 'Organization', name: 'Aurenstar', logo: { '@type': 'ImageObject', url: `${SITE}/logo-aurenstar.webp` } } },
+    { '@context': 'https://schema.org', '@type': 'Article', headline: a.title, description: a.description, inLanguage: langTag(a.lang), mainEntityOfPage: url, ...(a.tags?.length ? { keywords: a.tags.join(', ') } : {}), datePublished: a.date, dateModified: a.date, author: { '@type': 'Organization', name: 'Aurenstar' }, publisher: { '@type': 'Organization', name: 'Aurenstar', logo: { '@type': 'ImageObject', url: `${SITE}/logo-aurenstar.webp` } } },
     { '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: langTag(a.lang), mainEntity: a.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
   ];
   const more = others.filter((o) => o.slug !== a.slug).slice(0, 5);
@@ -129,12 +152,12 @@ export function renderNativeArticle(a: NativeArticle, others: NativeArticle[] = 
 <p class="lead">${esc(a.intro)}</p>
 ${a.sections.map((s) => `<h2>${esc(s.h2)}</h2>\n${s.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('\n')}`).join('\n')}
 <a class="cta" href="/${a.lang}/${a.tool && TOOLS.includes(a.tool) ? a.tool : 'discover-sign'}">${esc(a.ui.tools)}</a>
-${a.term && a.ui.dictionary ? `<p><a href="/${a.lang}/dicionario/${esc(a.term)}">${esc(a.ui.dictionary)}</a></p>` : ''}
-<h2>${esc(a.ui.faq)}</h2>
+${a.term ? `<p><a href="/${a.lang}/dicionario/${esc(a.term)}">${esc(a.ui.dictionary || footWords(a.lang).dictionary)}</a></p>` : ''}
+${a.tags?.length ? `<p class="tg">${a.tags.map((t) => `<span>${esc(t)}</span>`).join(' ')}</p>\n` : ''}<h2>${esc(a.ui.faq)}</h2>
 ${a.faq.map((f) => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('\n')}
 ${more.length ? `<h2>${esc(a.ui.more)}</h2>\n<ul class="l">${more.map((o) => `<li><a href="${pathOf(o)}">${esc(o.title)}</a></li>`).join('')}</ul>` : ''}
 </main>`;
-  return shell(a.lang, a.title, a.description, url, jsonLd, body, a.ui, 'article', a.retired ? 'noindex,follow' : 'index,follow');
+  return shell(a.lang, a.title, a.description, url, jsonLd, body, a.ui, 'article', a.retired ? 'noindex,follow' : 'index,follow', a.tags || []);
 }
 
 export function renderNativeHub(lang: string, list: NativeArticle[]): string {
