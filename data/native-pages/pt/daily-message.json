@@ -1,0 +1,61 @@
+{
+ "lang": "pt",
+ "page": "daily-message",
+ "keyword": "horóscopo do dia",
+ "volume": 0,
+ "title": "Horóscopo do dia grátis: sua mensagem para hoje",
+ "description": "Seu horóscopo do dia em palavras simples: escolha seu signo e leia uma mensagem carinhosa com uma pequena dica para o seu dia de hoje.",
+ "intro": "Com o horóscopo do dia da Aurenstar você recebe, todos os dias, uma mensagem curta e carinhosa para o seu signo. Ela deixa uma ideia para pensar e uma dica pequena que dá para colocar em prática hoje.",
+ "sections": [
+  {
+   "h2": "Como funciona o seu horóscopo do dia",
+   "paragraphs": [
+    "Você escolhe o seu signo lá em cima e lê a sua mensagem. Ela traz uma frase positiva para acompanhar o dia e uma dica simples que não toma muito do seu tempo.",
+    "Os textos são calmos e práticos, sem grandes promessas."
+   ]
+  },
+  {
+   "h2": "Um exemplo para o seu dia a dia",
+   "paragraphs": [
+    "O Pedro é de Áries e lê que hoje pode fazer aquela ligação que vinha adiando. Ele separa dez minutos e percebe que a tarefa era menor do que imaginava.",
+    "Assim, o horóscopo do dia funciona como um empurrãozinho carinhoso: você decide se usa e como."
+   ]
+  },
+  {
+   "h2": "Como entender o horóscopo do dia",
+   "paragraphs": [
+    "A mensagem não é uma previsão. Ela serve para fazer você refletir e dar um momento para você mesmo.",
+    "Para assuntos de saúde, leis ou dinheiro, procure profissionais."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "O horóscopo do dia é grátis?",
+   "a": "Sim, você pode ler a sua mensagem do dia sem pagar."
+  },
+  {
+   "q": "De quanto em quanto tempo a mensagem muda?",
+   "a": "Você pode ler uma mensagem nova para o seu signo todos os dias."
+  },
+  {
+   "q": "Preciso informar a minha data de nascimento?",
+   "a": "Você escolhe o seu signo. Se não souber qual é, descubra na calculadora da Aurenstar."
+  },
+  {
+   "q": "O horóscopo do dia prevê o futuro?",
+   "a": "Não, ele é um convite para refletir e não uma previsão."
+  }
+ ],
+ "tags": [
+  "horóscopo do dia",
+  "horóscopo do dia touro",
+  "horóscopo do dia escorpião",
+  "horóscopo do dia grátis",
+  "horóscopo do dia capricórnio",
+  "horóscopo do dia aquário"
+ ],
+ "ui": {
+  "faq": "Perguntas frequentes"
+ }
+}

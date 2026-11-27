@@ -1,0 +1,61 @@
+{
+ "lang": "es",
+ "page": "daily-message",
+ "keyword": "horóscopo del día",
+ "volume": 0,
+ "title": "Horóscopo del día gratis: tu mensaje para hoy",
+ "description": "Tu horóscopo del día en palabras sencillas: elige tu signo y lee un mensaje amable con un pequeño consejo para tu jornada de hoy.",
+ "intro": "Con el horóscopo del día de Aurenstar recibes cada jornada un mensaje corto y amable para tu signo. Te deja una idea para pensar y un consejo pequeño que puedes poner en práctica hoy.",
+ "sections": [
+  {
+   "h2": "Cómo funciona tu horóscopo del día",
+   "paragraphs": [
+    "Eliges tu signo arriba y lees tu mensaje. Incluye una frase positiva que puede acompañarte durante el día y un consejo sencillo que no te quita mucho tiempo.",
+    "Los textos están escritos con calma y de forma práctica, sin grandes promesas."
+   ]
+  },
+  {
+   "h2": "Un ejemplo para tu día a día",
+   "paragraphs": [
+    "Marcos es Aries y lee que hoy puede dar por fin esa llamada que venía posponiendo. Se toma diez minutos y descubre que la tarea era más pequeña de lo que pensaba.",
+    "Así, el horóscopo del día es un empujoncito amable: tú decides si lo usas y cómo."
+   ]
+  },
+  {
+   "h2": "Cómo entender el horóscopo del día",
+   "paragraphs": [
+    "El mensaje no es una predicción. Está pensado para hacerte reflexionar y regalarte un momento para ti.",
+    "Para temas de salud, leyes o dinero, consulta a profesionales."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿El horóscopo del día es gratis?",
+   "a": "Sí, puedes leer tu mensaje del día sin pagar."
+  },
+  {
+   "q": "¿Cada cuánto cambia el mensaje?",
+   "a": "Puedes leer un mensaje nuevo para tu signo cada día."
+  },
+  {
+   "q": "¿Tengo que poner mi fecha de nacimiento?",
+   "a": "Eliges tu signo. Si no lo conoces, puedes descubrirlo con la calculadora de Aurenstar."
+  },
+  {
+   "q": "¿El horóscopo del día predice el futuro?",
+   "a": "No, es una invitación a reflexionar y no una predicción."
+  }
+ ],
+ "tags": [
+  "horóscopo del día",
+  "horóscopo del día de hoy",
+  "horóscopo del día de hoy capricornio",
+  "horóscopo del día de hoy virgo",
+  "horóscopo del día de hoy libra",
+  "horóscopo del día de hoy sagitario"
+ ],
+ "ui": {
+  "faq": "Preguntas frecuentes"
+ }
+}

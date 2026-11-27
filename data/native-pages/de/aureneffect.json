@@ -1,0 +1,60 @@
+{
+ "lang": "de",
+ "page": "aureneffect",
+ "keyword": "persönliches horoskop",
+ "volume": 0,
+ "title": "Persönliches Horoskop kostenlos: der Auren Effect",
+ "description": "Dein persönliches Horoskop mit Namen, Geburtsdatum und Ort: Verstehe, wie du dich heute fühlst, und erhalte einfache, praktische Tipps für deinen Tag.",
+ "intro": "Der Auren Effect ist dein persönliches Horoskop zum Nachdenken. Du gibst deinen Namen und deine Geburtsdaten ein und bekommst eine Einordnung, wie du dich heute fühlen könntest, plus einfache Tipps für deinen Tag.",
+ "sections": [
+  {
+   "h2": "Was dein persönliches Horoskop dir zeigt",
+   "paragraphs": [
+    "Anders als ein allgemeines Tageshoroskop richtet sich der Auren Effect nach deinen eigenen Angaben: Name, Geburtsdatum und Geburtsort. Dadurch fühlt sich der Text näher an dir an.",
+    "Du bekommst keine Vorhersage, sondern eine ruhige Beschreibung deiner Stimmung und praktische Anregungen."
+   ]
+  },
+  {
+   "h2": "So füllst du das Formular aus",
+   "paragraphs": [
+    "Trage oben deinen Namen ein, wähle dein Geburtsdatum und suche deinen Geburtsort aus der Liste. Danach berechnest du deinen Auren Effect.",
+    "Beispiel: Sarah gibt ihre Daten ein, liest einen Hinweis, sich heute Zeit für ein ruhiges Gespräch zu nehmen, und plant am Abend eine kurze Pause ohne Handy."
+   ]
+  },
+  {
+   "h2": "Wofür du das Ergebnis nutzen kannst",
+   "paragraphs": [
+    "Betrachte das Ergebnis als Anstoß, um in dich hineinzuhören. Wenn dir ein Tipp gefällt, probiere ihn aus, wenn nicht, lass ihn einfach weg.",
+    "Bei Fragen zu Gesundheit, Recht oder Geld sind Fachleute die richtige Adresse."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist das persönliche Horoskop kostenlos?",
+   "a": "Ja, du kannst den Auren Effect kostenlos berechnen."
+  },
+  {
+   "q": "Welche Angaben brauche ich?",
+   "a": "Du brauchst deinen Namen, dein Geburtsdatum und deinen Geburtsort."
+  },
+  {
+   "q": "Was unterscheidet es vom Tageshoroskop?",
+   "a": "Es richtet sich nach deinen persönlichen Angaben und nicht nur nach deinem Sternzeichen."
+  },
+  {
+   "q": "Sagt der Auren Effect die Zukunft voraus?",
+   "a": "Nein, er gibt Anregungen zum Nachdenken und keine Vorhersagen."
+  }
+ ],
+ "tags": [
+  "persönliches horoskop",
+  "persönliches horoskop kostenlos",
+  "persönliches horoskop berechnen",
+  "persönliches horoskop erstellen",
+  "persönliches horoskop heute"
+ ],
+ "ui": {
+  "faq": "Häufige Fragen"
+ }
+}

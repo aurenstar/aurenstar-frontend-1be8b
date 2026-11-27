@@ -1,0 +1,61 @@
+{
+ "lang": "de",
+ "page": "descreva-me",
+ "keyword": "sternzeichen eigenschaften",
+ "volume": 0,
+ "title": "Sternzeichen Eigenschaften: deine persönliche Beschreibung",
+ "description": "Entdecke die Eigenschaften deines Sternzeichens: Mit Geburtsdaten erstellst du eine persönliche, verspielte Astrologie-Beschreibung, die du teilen kannst.",
+ "intro": "Welche Sternzeichen Eigenschaften passen zu dir? Mit „Beschreibe mich“ erstellst du aus deinen Geburtsdaten eine persönliche, verspielte Astrologie-Beschreibung, die du mit Freunden teilen kannst.",
+ "sections": [
+  {
+   "h2": "So entsteht deine Beschreibung",
+   "paragraphs": [
+    "Du trägst oben dein Geburtsdatum ein, wählst deinen Geburtsort aus der Liste und erhältst einen Text über dich, der zu deinen Daten passt. Er ist freundlich, spielerisch und zum Teilen gedacht.",
+    "Es geht um Spaß und Selbstreflexion, nicht um feste Urteile über dich."
+   ]
+  },
+  {
+   "h2": "Sternzeichen Eigenschaften im Alltag",
+   "paragraphs": [
+    "Ein Beispiel: Jonas liest, dass er gern Ruhe sucht und dennoch neugierig auf neue Menschen ist. Er erkennt sich darin wieder und schickt den Text einem Freund, der lachend antwortet: „Das bist wirklich du.“",
+    "Solche Beschreibungen können Gespräche anstoßen, etwa darüber, wie ihr beide Pausen, Nähe oder Planung erlebt."
+   ]
+  },
+  {
+   "h2": "Was du beachten solltest",
+   "paragraphs": [
+    "Kein Text kann beschreiben, wer du wirklich bist. Nimm die Beschreibung als Einladung, über dich nachzudenken, und streiche, was nicht passt.",
+    "Für Fragen zu Gesundheit, Recht oder Geld sind Fachleute die richtige Adresse."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist „Beschreibe mich“ kostenlos?",
+   "a": "Ja, du kannst deine Beschreibung kostenlos erstellen."
+  },
+  {
+   "q": "Was brauche ich dafür?",
+   "a": "Du brauchst dein Geburtsdatum und deinen Geburtsort."
+  },
+  {
+   "q": "Kann ich die Beschreibung teilen?",
+   "a": "Ja, der Text ist so gemacht, dass du ihn mit anderen teilen kannst."
+  },
+  {
+   "q": "Sind die Sternzeichen Eigenschaften wissenschaftlich bewiesen?",
+   "a": "Nein, Astrologie ist zur Unterhaltung und zum Nachdenken gedacht und kein wissenschaftlicher Beweis."
+  }
+ ],
+ "tags": [
+  "sternzeichen eigenschaften",
+  "sternzeichen eigenschaften tabelle",
+  "sternzeichen eigenschaften kurz",
+  "sternzeichen eigenschaften skorpion",
+  "sternzeichen eigenschaften jungfrau",
+  "sternzeichen eigenschaften fische"
+ ],
+ "ui": {
+  "faq": "Häufige Fragen"
+ }
+}

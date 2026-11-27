@@ -1,0 +1,61 @@
+{
+ "lang": "es",
+ "page": "descreva-me",
+ "keyword": "personalidad de los signos",
+ "volume": 0,
+ "title": "Personalidad de los signos: tu descripción personal",
+ "description": "Descubre la personalidad de tu signo: con tus datos de nacimiento creas una descripción astrológica personal y divertida para compartir con quien quieras.",
+ "intro": "¿Qué personalidad de los signos encaja contigo? Con “Descríbeme” creas, a partir de tus datos de nacimiento, una descripción astrológica personal y divertida que puedes compartir con tus amigos.",
+ "sections": [
+  {
+   "h2": "Cómo se crea tu descripción",
+   "paragraphs": [
+    "Pones arriba tu fecha de nacimiento, eliges tu ciudad en la lista y recibes un texto sobre ti que encaja con tus datos. Es amable, juguetón y está pensado para compartir.",
+    "Se trata de diversión y de reflexionar sobre ti, no de juicios definitivos."
+   ]
+  },
+  {
+   "h2": "La personalidad de los signos en la vida diaria",
+   "paragraphs": [
+    "Un ejemplo: Javier lee que le gusta la calma pero también tiene curiosidad por conocer gente nueva. Se reconoce y manda el texto a un amigo, que le responde riendo: “Eres tú”.",
+    "Estas descripciones pueden abrir conversaciones, por ejemplo sobre cómo vive cada uno los descansos, la cercanía o los planes."
+   ]
+  },
+  {
+   "h2": "Qué debes tener en cuenta",
+   "paragraphs": [
+    "Ningún texto puede decir quién eres de verdad. Toma la descripción como una invitación a pensar en ti y quédate solo con lo que te sirva.",
+    "Para temas de salud, leyes o dinero, acude a profesionales."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿“Descríbeme” es gratis?",
+   "a": "Sí, puedes crear tu descripción sin pagar."
+  },
+  {
+   "q": "¿Qué necesito para usarlo?",
+   "a": "Necesitas tu fecha de nacimiento y tu lugar de nacimiento."
+  },
+  {
+   "q": "¿Puedo compartir la descripción?",
+   "a": "Sí, el texto está hecho para que lo compartas con otras personas."
+  },
+  {
+   "q": "¿La personalidad de los signos está demostrada científicamente?",
+   "a": "No, la astrología es para entretener y reflexionar y no es una prueba científica."
+  }
+ ],
+ "tags": [
+  "personalidad de los signos",
+  "personalidad de los signos zodiacales",
+  "personalidad de los signos de aire",
+  "personalidad de los signos cancer",
+  "personalidad de los signos libra",
+  "personalidad de los signos virgo"
+ ],
+ "ui": {
+  "faq": "Preguntas frecuentes"
+ }
+}

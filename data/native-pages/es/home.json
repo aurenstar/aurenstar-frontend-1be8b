@@ -1,0 +1,61 @@
+{
+ "lang": "es",
+ "page": "home",
+ "keyword": "horóscopo",
+ "volume": 0,
+ "title": "Horóscopo gratis: tu signo y tu mensaje del día",
+ "description": "Tu horóscopo gratis en palabras sencillas: descubre tu signo, lee un mensaje para tu día y explora los artículos y el diccionario de astrología de Aurenstar.",
+ "intro": "En Aurenstar encuentras tu horóscopo sin palabras complicadas. Puedes descubrir tu signo, leer un mensaje corto para tu día y explorar con calma artículos de astrología.",
+ "sections": [
+  {
+   "h2": "Qué encontrarás en Aurenstar",
+   "paragraphs": [
+    "Arriba están las herramientas gratuitas: pones tu fecha de nacimiento, ves tu signo y recibes consejos amables y sencillos. También hay un mensaje del día para tu signo y una descripción personal para compartir.",
+    "Si quieres saber más, puedes leer los artículos y consultar el diccionario para entender, por ejemplo, qué es un ascendente o un elemento."
+   ]
+  },
+  {
+   "h2": "Cómo usar tu horóscopo en el día a día",
+   "paragraphs": [
+    "Un ejemplo: Lucía lee su mensaje por la mañana, se queda con una frase y por la noche piensa si le sirvió para su día. Un horóscopo no necesita ser más que eso.",
+    "También puedes tomar los consejos como una invitación a reflexionar, por ejemplo cuando dudas cómo enfrentar una conversación o planear un descanso."
+   ]
+  },
+  {
+   "h2": "Astrología para reflexionar, no para predecir",
+   "paragraphs": [
+    "Aurenstar no promete resultados ni da consejos médicos, legales o de dinero. Los textos son para orientarte y disfrutar.",
+    "Las decisiones importantes es mejor tomarlas con personas de confianza y, si hace falta, con profesionales."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿El horóscopo de Aurenstar es gratis?",
+   "a": "Sí, puedes usar las herramientas y leer los artículos sin pagar."
+  },
+  {
+   "q": "¿Necesito crear una cuenta?",
+   "a": "No, para usar las herramientas no hace falta registrarse."
+  },
+  {
+   "q": "¿Qué puedo hacer en Aurenstar?",
+   "a": "Puedes descubrir tu signo, leer un mensaje del día, crear una descripción personal y leer artículos y el diccionario de astrología."
+  },
+  {
+   "q": "¿El horóscopo predice el futuro?",
+   "a": "No, los textos son para reflexionar y no hacen predicciones."
+  }
+ ],
+ "tags": [
+  "horóscopo",
+  "horóscopo de hoy",
+  "horóscopo semanal",
+  "horóscopo escorpio hoy",
+  "horóscopo leo hoy",
+  "horóscopo fechas"
+ ],
+ "ui": {
+  "faq": "Preguntas frecuentes"
+ }
+}

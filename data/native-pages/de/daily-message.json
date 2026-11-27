@@ -1,0 +1,62 @@
+{
+ "lang": "de",
+ "page": "daily-message",
+ "keyword": "tageshoroskop",
+ "volume": 0,
+ "title": "Tageshoroskop kostenlos: deine Botschaft für heute",
+ "description": "Dein Tageshoroskop in einfachen Worten: Wähle dein Sternzeichen und lies eine freundliche Botschaft mit einem kleinen Tipp für deinen heutigen Tag.",
+ "intro": "Mit dem Tageshoroskop von Aurenstar bekommst du jeden Tag eine kurze, freundliche Botschaft für dein Sternzeichen. Sie gibt dir einen Gedanken und einen kleinen, machbaren Tipp mit auf den Weg.",
+ "sections": [
+  {
+   "h2": "So funktioniert dein Tageshoroskop",
+   "paragraphs": [
+    "Du wählst oben dein Sternzeichen und liest deine Botschaft für den Tag. Dazu gibt es einen positiven Satz, der dich durch den Tag begleiten kann, und einen kleinen Tipp, den du ohne großen Aufwand umsetzt.",
+    "Die Texte sind ruhig und praktisch geschrieben, ohne große Versprechen."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel für den Alltag",
+   "paragraphs": [
+    "Tom ist Widder und liest, dass er einen aufgeschobenen Anruf heute endlich erledigen könnte. Er nimmt sich zehn Minuten dafür und merkt, dass die Aufgabe kleiner war, als er dachte.",
+    "So ein Tageshoroskop ist wie ein freundlicher Anstoß: Du entscheidest selbst, ob und wie du ihn nutzt."
+   ]
+  },
+  {
+   "h2": "Das Tageshoroskop richtig verstehen",
+   "paragraphs": [
+    "Die Botschaft ist keine Vorhersage. Sie soll dich zum Nachdenken anregen und dir einen Moment für dich selbst schenken.",
+    "Für Fragen zu Gesundheit, Recht oder Geld wende dich bitte an Fachleute."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist das Tageshoroskop kostenlos?",
+   "a": "Ja, du kannst deine Tagesbotschaft kostenlos lesen."
+  },
+  {
+   "q": "Wie oft ändert sich die Botschaft?",
+   "a": "Du kannst jeden Tag eine neue Botschaft für dein Sternzeichen lesen."
+  },
+  {
+   "q": "Muss ich mein Geburtsdatum eingeben?",
+   "a": "Du wählst dein Sternzeichen aus. Wenn du es nicht kennst, findest du es mit dem Rechner von Aurenstar heraus."
+  },
+  {
+   "q": "Sagt das Tageshoroskop die Zukunft voraus?",
+   "a": "Nein, es ist ein Impuls zum Nachdenken und keine Vorhersage."
+  }
+ ],
+ "tags": [
+  "tageshoroskop",
+  "tageshoroskop krebs",
+  "tageshoroskop skorpion",
+  "tageshoroskop jungfrau",
+  "tageshoroskop fische",
+  "tageshoroskop steinbock",
+  "tageshoroskop löwe"
+ ],
+ "ui": {
+  "faq": "Häufige Fragen"
+ }
+}

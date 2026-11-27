@@ -1,0 +1,60 @@
+{
+ "lang": "es",
+ "page": "aureneffect",
+ "keyword": "horóscopo personalizado",
+ "volume": 0,
+ "title": "Horóscopo personalizado gratis: el Auren Effect",
+ "description": "Tu horóscopo personalizado con nombre, fecha y lugar de nacimiento: entiende cómo te sientes hoy y recibe consejos sencillos y prácticos para tu día.",
+ "intro": "El Auren Effect es tu horóscopo personalizado para reflexionar. Pones tu nombre y tus datos de nacimiento y recibes una idea de cómo podrías sentirte hoy, con consejos sencillos para tu día.",
+ "sections": [
+  {
+   "h2": "Qué te muestra tu horóscopo personalizado",
+   "paragraphs": [
+    "A diferencia de un horóscopo general del día, el Auren Effect usa tus propios datos: nombre, fecha y lugar de nacimiento. Por eso el texto se siente más cercano.",
+    "No recibes una predicción, sino una descripción tranquila de tu ánimo y propuestas prácticas."
+   ]
+  },
+  {
+   "h2": "Cómo rellenar el formulario",
+   "paragraphs": [
+    "Escribe tu nombre arriba, elige tu fecha de nacimiento y busca tu ciudad en la lista. Después calcula tu Auren Effect.",
+    "Ejemplo: Sara introduce sus datos, lee una sugerencia para dedicar tiempo a una conversación tranquila y por la noche planea una pausa corta sin móvil."
+   ]
+  },
+  {
+   "h2": "Para qué puedes usar el resultado",
+   "paragraphs": [
+    "Toma el resultado como un empujón para escucharte. Si un consejo te gusta, pruébalo; si no, déjalo pasar.",
+    "Para temas de salud, leyes o dinero, lo mejor es acudir a profesionales."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿El horóscopo personalizado es gratis?",
+   "a": "Sí, puedes calcular tu Auren Effect sin pagar."
+  },
+  {
+   "q": "¿Qué datos necesito?",
+   "a": "Necesitas tu nombre, tu fecha de nacimiento y tu lugar de nacimiento."
+  },
+  {
+   "q": "¿En qué se diferencia del horóscopo del día?",
+   "a": "Usa tus datos personales y no solo tu signo."
+  },
+  {
+   "q": "¿El Auren Effect predice el futuro?",
+   "a": "No, ofrece ideas para reflexionar y no predicciones."
+  }
+ ],
+ "tags": [
+  "horóscopo personalizado",
+  "horóscopo personalizado gratis",
+  "horóscopo personalizado por fecha de nacimiento",
+  "horoscopo personalizado hoy",
+  "horoscopo personalizado 2026"
+ ],
+ "ui": {
+  "faq": "Preguntas frecuentes"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "lang": "de",
+ "page": "home",
+ "keyword": "horoskop",
+ "volume": 0,
+ "title": "Horoskop kostenlos: Dein Sternzeichen und deine Tagesbotschaft",
+ "description": "Dein kostenloses Horoskop in einfachen Worten: Sternzeichen entdecken, eine Botschaft für den Tag lesen und Artikel sowie das Astrologie-Lexikon nutzen.",
+ "intro": "Bei Aurenstar findest du dein Horoskop ohne komplizierte Fachwörter. Du kannst dein Sternzeichen herausfinden, eine kurze Botschaft für deinen Tag lesen und in Ruhe Artikel über Astrologie entdecken.",
+ "sections": [
+  {
+   "h2": "Was dich bei Aurenstar erwartet",
+   "paragraphs": [
+    "Auf dieser Seite sind die kostenlosen Werkzeuge gleich oben: Du gibst dein Geburtsdatum ein, siehst dein Sternzeichen und bekommst freundliche, einfache Hinweise dazu. Dazu gibt es eine Tagesbotschaft für dein Zeichen und eine persönliche Beschreibung zum Teilen.",
+    "Wer mehr wissen möchte, liest die Artikel und schlägt im Astrologie-Lexikon nach, was zum Beispiel ein Aszendent oder ein Element bedeutet."
+   ]
+  },
+  {
+   "h2": "So nutzt du dein Horoskop im Alltag",
+   "paragraphs": [
+    "Ein Beispiel: Lena liest morgens ihre Tagesbotschaft, nimmt sich einen Satz daraus mit und denkt abends kurz darüber nach, ob er zu ihrem Tag gepasst hat. Mehr muss ein Horoskop nicht sein.",
+    "Du kannst die Hinweise auch einfach als Anstoß zum Nachdenken nehmen, etwa wenn du dich fragst, wie du ein Gespräch angehen oder eine Pause planen möchtest."
+   ]
+  },
+  {
+   "h2": "Astrologie zum Nachdenken, nicht zum Vorhersagen",
+   "paragraphs": [
+    "Aurenstar verspricht keine Ergebnisse und gibt keine medizinischen, rechtlichen oder finanziellen Ratschläge. Die Texte sind für Orientierung und Freude gedacht.",
+    "Wichtige Entscheidungen triffst du am besten mit Menschen, denen du vertraust, und bei Bedarf mit Fachleuten."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist das Horoskop bei Aurenstar kostenlos?",
+   "a": "Ja, die Werkzeuge und die Artikel kannst du kostenlos nutzen."
+  },
+  {
+   "q": "Brauche ich ein Konto?",
+   "a": "Nein, für die Werkzeuge musst du dich nicht anmelden."
+  },
+  {
+   "q": "Was kann ich auf Aurenstar machen?",
+   "a": "Du kannst dein Sternzeichen herausfinden, eine Tagesbotschaft lesen, eine persönliche Beschreibung erstellen und Artikel sowie das Astrologie-Lexikon lesen."
+  },
+  {
+   "q": "Sagt das Horoskop die Zukunft voraus?",
+   "a": "Nein, die Texte sind zum Nachdenken gedacht und machen keine Vorhersagen."
+  }
+ ],
+ "tags": [
+  "horoskop",
+  "horoskop heute",
+  "horoskop morgen",
+  "horoskop krebs heute",
+  "horoskop stier heute",
+  "horoskop jungfrau heute"
+ ],
+ "ui": {
+  "faq": "Häufige Fragen"
+ }
+}

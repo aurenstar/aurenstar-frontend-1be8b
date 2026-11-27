@@ -1,0 +1,59 @@
+{
+ "lang": "pt",
+ "page": "aureneffect",
+ "keyword": "horóscopo personalizado",
+ "volume": 0,
+ "title": "Horóscopo personalizado grátis: o Auren Effect",
+ "description": "Seu horóscopo personalizado com nome, data e local de nascimento: entenda como você se sente hoje e receba dicas simples e práticas para o seu dia.",
+ "intro": "O Auren Effect é o seu horóscopo personalizado para refletir. Você informa seu nome e seus dados de nascimento e recebe uma ideia de como pode se sentir hoje, com dicas simples para o seu dia.",
+ "sections": [
+  {
+   "h2": "O que o seu horóscopo personalizado mostra",
+   "paragraphs": [
+    "Ao contrário de um horóscopo geral do dia, o Auren Effect usa os seus próprios dados: nome, data e local de nascimento. Por isso o texto parece mais próximo de você.",
+    "Você não recebe uma previsão, mas uma descrição tranquila do seu momento e sugestões práticas."
+   ]
+  },
+  {
+   "h2": "Como preencher o formulário",
+   "paragraphs": [
+    "Digite seu nome lá em cima, escolha a data de nascimento e procure a sua cidade na lista. Depois calcule o seu Auren Effect.",
+    "Exemplo: a Sara informa seus dados, lê uma sugestão de dedicar tempo a uma conversa tranquila e, à noite, planeja uma pausa curta sem celular."
+   ]
+  },
+  {
+   "h2": "Para que usar o resultado",
+   "paragraphs": [
+    "Use o resultado como um empurrãozinho para se escutar. Se uma dica agradar, experimente; se não, deixe passar.",
+    "Para assuntos de saúde, leis ou dinheiro, o melhor é procurar profissionais."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "O horóscopo personalizado é grátis?",
+   "a": "Sim, você pode calcular o seu Auren Effect sem pagar."
+  },
+  {
+   "q": "Que dados eu preciso informar?",
+   "a": "Você precisa do seu nome, da data de nascimento e do local de nascimento."
+  },
+  {
+   "q": "Qual a diferença para o horóscopo do dia?",
+   "a": "Ele usa os seus dados pessoais e não só o seu signo."
+  },
+  {
+   "q": "O Auren Effect prevê o futuro?",
+   "a": "Não, ele oferece ideias para refletir e não previsões."
+  }
+ ],
+ "tags": [
+  "horóscopo personalizado",
+  "horóscopo personalizado gratuito",
+  "horoscopo personalizado online gratis",
+  "horoscopo personalizado diario"
+ ],
+ "ui": {
+  "faq": "Perguntas frequentes"
+ }
+}
