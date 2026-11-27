@@ -16,7 +16,8 @@ const esc = (v: string) => v.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 
 export function checkNativePage(p: NativePage): string[] {
   const bad: string[] = [];
-  const s = (v: unknown, n: number) => typeof v === 'string' && v.trim().length >= n;
+  // Chinese, Japanese and Korean pack much more meaning in each character, so the minimum length is lower for them.
+  const s = (v: unknown, n: number) => typeof v === 'string' && v.trim().length >= (/[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af]/.test(v) ? Math.ceil(n / 2.5) : n);
   if (!s(p?.title, 8) || !s(p?.description, 40) || !s(p?.intro, 40) || !s(p?.keyword, 2)) bad.push('missing title, description, intro or keyword');
   if (!Array.isArray(p?.sections) || p.sections.length < 2 || p.sections.some((x) => !s(x.h2, 3) || !Array.isArray(x.paragraphs) || !x.paragraphs.length)) bad.push('needs sections');
   if (!Array.isArray(p?.faq) || p.faq.length < 3 || p.faq.some((f) => !s(f.q, 6) || !s(f.a, 20))) bad.push('needs 3+ questions');
