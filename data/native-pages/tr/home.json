@@ -1,0 +1,60 @@
+{
+  "lang": "tr",
+  "page": "home",
+  "keyword": "burç yorumları",
+  "volume": 0,
+  "title": "Burç yorumları ücretsiz: burcunuz ve günün mesajı",
+  "description": "Ücretsiz burç yorumları sade bir dille: burcunuzu öğrenin, gününüz için bir mesaj okuyun ve Aurenstar'ın makalelerini ile astroloji sözlüğünü keşfedin.",
+  "intro": "Aurenstar'da burç yorumlarını karmaşık terimler olmadan bulursunuz. Burcunuzu öğrenebilir, gününüz için kısa bir mesaj okuyabilir ve astroloji makalelerini rahatça keşfedebilirsiniz.",
+  "sections": [
+    {
+      "h2": "Aurenstar'da neler var",
+      "paragraphs": [
+        "Ücretsiz araçlar sayfanın en üstünde: doğum tarihinizi girin, burcunuzu görün ve sade, nazik öneriler alın. Ayrıca burcunuza özel günlük bir mesaj ve paylaşabileceğiniz kişisel bir açıklama var.",
+        "Daha fazlasını öğrenmek isterseniz makaleleri okuyun ve sözlükte yükselen burcun ya da elementin ne demek olduğuna bakın."
+      ]
+    },
+    {
+      "h2": "Burç yorumlarını günlük hayatta nasıl kullanırsınız",
+      "paragraphs": [
+        "Örneğin Elif sabah mesajını okuyor, bir cümleyi aklında tutuyor ve akşam bu cümlenin gününe uyup uymadığını düşünüyor. Burç yorumunun bundan fazlası olması gerekmez.",
+        "Önerileri bir düşünme daveti olarak da görebilirsiniz; örneğin bir konuşmaya nasıl başlayacağınıza ya da molayı nasıl planlayacağınıza karar verirken."
+      ]
+    },
+    {
+      "h2": "Astroloji düşünmek içindir, tahmin için değil",
+      "paragraphs": [
+        "Aurenstar hiçbir sonuç vaat etmez; sağlık, hukuk veya para konusunda tavsiye vermez. Metinler yön göstermek ve keyif vermek içindir.",
+        "Önemli kararları güvendiğiniz kişilerle ve gerekirse uzmanlarla vermek daha iyidir."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Aurenstar burç yorumları ücretsiz mi?",
+      "a": "Evet, araçları kullanabilir ve makaleleri ücretsiz okuyabilirsiniz."
+    },
+    {
+      "q": "Hesap açmam gerekiyor mu?",
+      "a": "Hayır, araçları kullanmak için kayıt olmanız gerekmez."
+    },
+    {
+      "q": "Aurenstar'da neler yapabilirim?",
+      "a": "Burcunuzu öğrenebilir, günlük mesajı okuyabilir, kişisel bir açıklama oluşturabilir, makaleleri ve astroloji sözlüğünü okuyabilirsiniz."
+    },
+    {
+      "q": "Burç yorumları geleceği tahmin eder mi?",
+      "a": "Hayır, metinler düşünmek içindir ve tahmin içermez."
+    }
+  ],
+  "tags": [
+    "burç yorumları",
+    "burç yorumları haftalık",
+    "burç yorumları aylık",
+    "burç yorumları bugün",
+    "burç yorumları ikizler"
+  ],
+  "ui": {
+    "faq": "Sık sorulan sorular"
+  }
+}

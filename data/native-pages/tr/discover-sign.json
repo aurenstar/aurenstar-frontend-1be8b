@@ -1,0 +1,59 @@
+{
+  "lang": "tr",
+  "page": "discover-sign",
+  "keyword": "yükselen burç hesaplama",
+  "volume": 0,
+  "title": "Yükselen burç hesaplama: burcunuzu ücretsiz öğrenin",
+  "description": "Yükselen burç hesaplama kolay: doğum tarihinizi, saatinizi ve yerinizi girin, açık ve nazik önerilerle burcunuzu ücretsiz öğrenin.",
+  "intro": "Yükselen burç hesaplama yapıp burcunuzu öğrenmek ister misiniz? Bu ücretsiz araçta doğum tarihinizi, biliyorsanız saat ve şehri girerek burcunuzu ve yükselenin görürsünüz.",
+  "sections": [
+    {
+      "h2": "Yükselen burç nedir",
+      "paragraphs": [
+        "Yükselen burç, doğduğunuz anda doğu ufkunda yükselen burçtur. Güneş burcu özünüzü anlatır, yükselen ise daha çok başkalarında bıraktığınız izlenimi anlatır.",
+        "Örneğin Ayşe Terazi burcu ve Aslan yükseleni. Diplomatiktir ama çevresi onu çok özgüvenli biri olarak görür."
+      ]
+    },
+    {
+      "h2": "Yükselen burç hesaplama nasıl yapılır",
+      "paragraphs": [
+        "Doğum gününüzü, ayınızı ve yılınızı seçin, sonra saati ekleyip listeden şehrinizi seçin. Saat önemlidir çünkü yükselen burç yaklaşık iki saatte bir değişir.",
+        "Saati bilmiyorsanız araç en olası burcu gösterir. Burcunuzu zaten biliyorsanız doğrudan da seçebilirsiniz."
+      ]
+    },
+    {
+      "h2": "Sonuçtan sonra",
+      "paragraphs": [
+        "Burcunuza ayrılmış bir sayfaya gidersiniz; orada sade ve nazik öneriler bulursunuz. Kendinizi daha iyi tanımaya bir davet olarak okuyun.",
+        "İçerik düşünmek ve eğlenmek içindir, tahmin içermez. Sağlık, hukuk veya para için uzmanlara danışın."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Yükselen burç hesaplama nasıl yapılır?",
+      "a": "Araca doğum tarihinizi, saatinizi ve yerinizi girin."
+    },
+    {
+      "q": "Tam saati bilmem gerekir mi?",
+      "a": "Saat ne kadar kesinse sonuç o kadar güvenilir olur, çünkü yükselen burç yaklaşık iki saatte bir değişir."
+    },
+    {
+      "q": "Araç ücretsiz mi?",
+      "a": "Evet, ücretsiz ve hesap açmadan kullanabilirsiniz."
+    },
+    {
+      "q": "Doğum saatimi bilmiyorsam ne olur?",
+      "a": "Araç size en olası burcu gösterebilir."
+    }
+  ],
+  "tags": [
+    "yükselen burç hesaplama",
+    "yükselen burç hesaplama tablosu",
+    "yükselen burç hesaplama astro",
+    "yükselen burç hesaplama yurtdışı"
+  ],
+  "ui": {
+    "faq": "Sık sorulan sorular"
+  }
+}

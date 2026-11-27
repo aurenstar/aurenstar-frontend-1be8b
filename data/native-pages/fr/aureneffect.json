@@ -1,0 +1,60 @@
+{
+  "lang": "fr",
+  "page": "aureneffect",
+  "keyword": "horoscope personnalisé",
+  "volume": 0,
+  "title": "Horoscope personnalisé gratuit : l'Auren Effect",
+  "description": "Votre horoscope personnalisé avec prénom, date et lieu de naissance : comprenez comment vous vous sentez aujourd'hui et recevez des conseils simples et pratiques.",
+  "intro": "L'Auren Effect est votre horoscope personnalisé pour réfléchir. Vous indiquez votre prénom et vos données de naissance et vous découvrez comment vous pourriez vous sentir aujourd'hui, avec des conseils simples pour votre journée.",
+  "sections": [
+    {
+      "h2": "Ce que montre votre horoscope personnalisé",
+      "paragraphs": [
+        "Contrairement à un horoscope général du jour, l'Auren Effect utilise vos propres données : prénom, date et lieu de naissance. Le texte vous paraît donc plus proche.",
+        "Vous ne recevez pas de prédiction, mais une description calme de votre humeur et des idées pratiques."
+      ]
+    },
+    {
+      "h2": "Comment remplir le formulaire",
+      "paragraphs": [
+        "Écrivez votre prénom en haut, choisissez votre date de naissance et cherchez votre ville dans la liste. Calculez ensuite votre Auren Effect.",
+        "Exemple : Sarah saisit ses données, lit une suggestion de prendre le temps d'une conversation tranquille et prévoit le soir une courte pause sans téléphone."
+      ]
+    },
+    {
+      "h2": "À quoi sert le résultat",
+      "paragraphs": [
+        "Prenez le résultat comme une occasion de vous écouter. Si un conseil vous plaît, essayez-le ; sinon, laissez-le de côté.",
+        "Pour la santé, le droit ou l'argent, le mieux est de consulter des professionnels."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "L'horoscope personnalisé est-il gratuit ?",
+      "a": "Oui, vous pouvez calculer votre Auren Effect sans payer."
+    },
+    {
+      "q": "De quelles données ai-je besoin ?",
+      "a": "Il vous faut votre prénom, votre date de naissance et votre lieu de naissance."
+    },
+    {
+      "q": "Quelle différence avec l'horoscope du jour ?",
+      "a": "Il utilise vos données personnelles et pas seulement votre signe."
+    },
+    {
+      "q": "L'Auren Effect prédit-il l'avenir ?",
+      "a": "Non, il propose des idées pour réfléchir et aucune prédiction."
+    }
+  ],
+  "tags": [
+    "horoscope personnalisé",
+    "horoscope personnalisé gratuit",
+    "horoscope personnalisé du jour",
+    "horoscope personnalisé amour",
+    "horoscope personnalisé semaine"
+  ],
+  "ui": {
+    "faq": "Questions fréquentes"
+  }
+}

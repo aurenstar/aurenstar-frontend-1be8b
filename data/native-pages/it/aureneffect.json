@@ -1,0 +1,60 @@
+{
+  "lang": "it",
+  "page": "aureneffect",
+  "keyword": "oroscopo personalizzato",
+  "volume": 0,
+  "title": "Oroscopo personalizzato gratis: l'Auren Effect",
+  "description": "Il tuo oroscopo personalizzato con nome, data e luogo di nascita: capisci come ti senti oggi e ricevi consigli semplici e pratici per la tua giornata.",
+  "intro": "L'Auren Effect è il tuo oroscopo personalizzato per riflettere. Inserisci il tuo nome e i tuoi dati di nascita e scopri come potresti sentirti oggi, con consigli semplici per la tua giornata.",
+  "sections": [
+    {
+      "h2": "Cosa ti mostra il tuo oroscopo personalizzato",
+      "paragraphs": [
+        "A differenza di un oroscopo generale del giorno, l'Auren Effect usa i tuoi dati: nome, data e luogo di nascita. Per questo il testo ti sembra più vicino.",
+        "Non ricevi una previsione, ma una descrizione tranquilla del tuo umore e idee pratiche."
+      ]
+    },
+    {
+      "h2": "Come compilare il modulo",
+      "paragraphs": [
+        "Scrivi il tuo nome in alto, scegli la data di nascita e cerca la tua città nell'elenco. Poi calcola il tuo Auren Effect.",
+        "Esempio: Sara inserisce i suoi dati, legge il suggerimento di dedicare tempo a una conversazione tranquilla e la sera programma una breve pausa senza telefono."
+      ]
+    },
+    {
+      "h2": "A cosa ti serve il risultato",
+      "paragraphs": [
+        "Considera il risultato come uno stimolo per ascoltarti. Se un consiglio ti piace, provalo; altrimenti lascialo andare.",
+        "Per salute, diritto o denaro è meglio rivolgersi a dei professionisti."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "L'oroscopo personalizzato è gratis?",
+      "a": "Sì, puoi calcolare il tuo Auren Effect senza pagare."
+    },
+    {
+      "q": "Di quali dati ho bisogno?",
+      "a": "Ti servono il tuo nome, la data di nascita e il luogo di nascita."
+    },
+    {
+      "q": "Che differenza c'è con l'oroscopo del giorno?",
+      "a": "Usa i tuoi dati personali e non solo il tuo segno."
+    },
+    {
+      "q": "L'Auren Effect prevede il futuro?",
+      "a": "No, offre spunti di riflessione e non previsioni."
+    }
+  ],
+  "tags": [
+    "oroscopo personalizzato",
+    "oroscopo personalizzato gratis",
+    "oroscopo personalizzato data di nascita",
+    "oroscopo personalizzato del giorno",
+    "oroscopo personalizzato amore gratis"
+  ],
+  "ui": {
+    "faq": "Domande frequenti"
+  }
+}

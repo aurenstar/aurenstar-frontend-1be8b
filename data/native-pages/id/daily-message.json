@@ -1,0 +1,60 @@
+{
+  "lang": "id",
+  "page": "daily-message",
+  "keyword": "zodiak hari ini",
+  "volume": 0,
+  "title": "Zodiak hari ini gratis: pesan untukmu hari ini",
+  "description": "Zodiak hari ini dengan kata-kata sederhana: pilih zodiakmu dan baca pesan hangat dengan satu saran kecil untuk harimu.",
+  "intro": "Dengan zodiak hari ini dari Aurenstar, kamu menerima pesan singkat dan hangat untuk zodiakmu setiap hari. Pesan itu memberimu satu gagasan untuk direnungkan dan satu saran kecil yang bisa dicoba hari ini.",
+  "sections": [
+    {
+      "h2": "Cara kerja zodiak hari ini",
+      "paragraphs": [
+        "Kamu memilih zodiakmu di bagian atas dan membaca pesanmu. Isinya satu kalimat positif yang menemanimu seharian dan satu saran sederhana yang tidak memakan banyak waktu.",
+        "Tulisannya tenang dan praktis, tanpa janji muluk."
+      ]
+    },
+    {
+      "h2": "Contoh untuk hari-harimu",
+      "paragraphs": [
+        "Budi berzodiak Aries dan membaca bahwa hari ini ia bisa akhirnya menelepon seseorang yang selama ini ditundanya. Ia meluangkan sepuluh menit dan menyadari tugasnya lebih kecil dari yang ia kira.",
+        "Zodiak hari ini adalah dorongan kecil yang hangat: kamu yang memutuskan apakah dan bagaimana memakainya."
+      ]
+    },
+    {
+      "h2": "Memahami zodiak hari ini dengan benar",
+      "paragraphs": [
+        "Pesannya bukan ramalan. Pesan ini dibuat agar kamu merenung dan punya waktu sejenak untuk dirimu sendiri.",
+        "Untuk urusan kesehatan, hukum, atau uang, tanyakan kepada ahlinya."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Apakah zodiak hari ini gratis?",
+      "a": "Ya, kamu bisa membaca pesan harianmu tanpa membayar."
+    },
+    {
+      "q": "Seberapa sering pesannya berganti?",
+      "a": "Kamu bisa membaca pesan baru untuk zodiakmu setiap hari."
+    },
+    {
+      "q": "Apakah saya harus memasukkan tanggal lahir?",
+      "a": "Kamu memilih zodiakmu. Jika belum tahu, cari tahu lewat kalkulator Aurenstar."
+    },
+    {
+      "q": "Apakah zodiak hari ini memprediksi masa depan?",
+      "a": "Tidak, ini ajakan untuk merenung dan bukan prediksi."
+    }
+  ],
+  "tags": [
+    "zodiak hari ini",
+    "zodiak hari ini cancer",
+    "zodiak hari ini dan besok",
+    "zodiak hari ini pisces",
+    "zodiak hari ini gemini"
+  ],
+  "ui": {
+    "faq": "Pertanyaan yang sering diajukan"
+  }
+}

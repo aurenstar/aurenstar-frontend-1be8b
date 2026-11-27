@@ -1,0 +1,60 @@
+{
+  "lang": "id",
+  "page": "descreva-me",
+  "keyword": "sifat zodiak",
+  "volume": 0,
+  "title": "Sifat zodiak: deskripsi pribadi tentang dirimu",
+  "description": "Temukan sifat zodiakmu: dengan data lahirmu, buat deskripsi astrologi pribadi yang seru untuk dibagikan kepada siapa pun yang kamu mau.",
+  "intro": "Sifat zodiak mana yang cocok denganmu? Dengan “Deskripsikan Aku”, kamu membuat deskripsi astrologi pribadi yang seru dari data lahirmu untuk dibagikan ke teman-teman.",
+  "sections": [
+    {
+      "h2": "Bagaimana deskripsimu dibuat",
+      "paragraphs": [
+        "Kamu memasukkan tanggal lahir di bagian atas, memilih kotamu dari daftar, lalu menerima tulisan tentang dirimu yang sesuai dengan datamu. Isinya hangat, ringan, dan dibuat untuk dibagikan.",
+        "Tujuannya bersenang-senang dan merenungi diri, bukan menjatuhkan penilaian mutlak."
+      ]
+    },
+    {
+      "h2": "Sifat zodiak dalam keseharian",
+      "paragraphs": [
+        "Contohnya: Andi membaca bahwa ia suka ketenangan tetapi penasaran bertemu orang baru. Ia merasa itu dirinya dan mengirimkannya ke temannya, yang membalas sambil tertawa: “Ini kamu banget.”",
+        "Deskripsi seperti ini bisa membuka obrolan, misalnya tentang cara masing-masing menikmati waktu jeda, kedekatan, atau rencana."
+      ]
+    },
+    {
+      "h2": "Hal yang perlu diingat",
+      "paragraphs": [
+        "Tidak ada tulisan yang bisa menjelaskan siapa dirimu sebenarnya. Anggap deskripsi ini ajakan untuk memikirkan dirimu dan ambil yang terasa cocok.",
+        "Untuk urusan kesehatan, hukum, atau uang, tanyakan kepada ahlinya."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Apakah “Deskripsikan Aku” gratis?",
+      "a": "Ya, kamu bisa membuat deskripsimu tanpa membayar."
+    },
+    {
+      "q": "Apa yang saya butuhkan?",
+      "a": "Tanggal lahir dan tempat lahirmu."
+    },
+    {
+      "q": "Bolehkah saya membagikan deskripsinya?",
+      "a": "Ya, tulisannya memang dibuat untuk dibagikan kepada orang lain."
+    },
+    {
+      "q": "Apakah sifat zodiak terbukti secara ilmiah?",
+      "a": "Tidak, astrologi untuk hiburan dan perenungan dan bukan bukti ilmiah."
+    }
+  ],
+  "tags": [
+    "sifat zodiak",
+    "sifat zodiak cancer",
+    "sifat zodiak virgo",
+    "sifat zodiak taurus",
+    "sifat zodiak aries"
+  ],
+  "ui": {
+    "faq": "Pertanyaan yang sering diajukan"
+  }
+}

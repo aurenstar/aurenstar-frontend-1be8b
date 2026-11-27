@@ -1,0 +1,60 @@
+{
+  "lang": "fr",
+  "page": "discover-sign",
+  "keyword": "trouver son ascendant",
+  "volume": 0,
+  "title": "Trouver son ascendant : découvrez votre signe gratuitement",
+  "description": "Trouver son ascendant est simple : indiquez votre date, votre heure et votre lieu de naissance et découvrez gratuitement votre signe avec des conseils clairs.",
+  "intro": "Pour trouver son ascendant et connaître son signe, il suffit d'utiliser cet outil gratuit : vous indiquez votre date de naissance et, si vous les connaissez, l'heure et la ville, pour voir votre signe et votre ascendant.",
+  "sections": [
+    {
+      "h2": "Qu'est-ce que l'ascendant ?",
+      "paragraphs": [
+        "L'ascendant est le signe qui se levait à l'horizon est au moment de votre naissance. Le signe solaire parle de votre essence, l'ascendant décrit plutôt l'impression que vous donnez aux autres.",
+        "Un exemple : Julie est Balance avec un ascendant Lion. Elle est diplomate, mais on la perçoit comme quelqu'un de très sûr d'elle."
+      ]
+    },
+    {
+      "h2": "Comment trouver son ascendant avec l'outil",
+      "paragraphs": [
+        "Choisissez le jour, le mois et l'année de naissance, puis ajoutez l'heure et sélectionnez votre ville dans la liste. L'heure compte, car l'ascendant change environ toutes les deux heures.",
+        "Si vous ne connaissez pas l'heure, l'outil propose le signe le plus probable. Vous pouvez aussi choisir directement votre signe si vous le connaissez déjà."
+      ]
+    },
+    {
+      "h2": "Après le résultat",
+      "paragraphs": [
+        "Vous arrivez sur une page consacrée à votre signe, avec des conseils simples et bienveillants. Lisez-la comme une invitation à mieux vous connaître.",
+        "Ce contenu est fait pour réfléchir et pour le plaisir, sans prédiction. Pour la santé, le droit ou l'argent, consultez des professionnels."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Comment trouver son ascendant ?",
+      "a": "Indiquez votre date, votre heure et votre lieu de naissance dans l'outil."
+    },
+    {
+      "q": "Faut-il connaître l'heure exacte ?",
+      "a": "Plus l'heure est précise, plus le résultat est fiable, car l'ascendant change environ toutes les deux heures."
+    },
+    {
+      "q": "L'outil est-il gratuit ?",
+      "a": "Oui, vous pouvez l'utiliser gratuitement et sans créer de compte."
+    },
+    {
+      "q": "Et si je ne connais pas mon heure de naissance ?",
+      "a": "L'outil peut vous montrer le signe le plus probable."
+    }
+  ],
+  "tags": [
+    "trouver son ascendant",
+    "trouver son ascendant astrologique",
+    "trouver son ascendant astrologique gratuit",
+    "trouver son ascendant et son signe lunaire",
+    "trouver son ascendant lunaire"
+  ],
+  "ui": {
+    "faq": "Questions fréquentes"
+  }
+}

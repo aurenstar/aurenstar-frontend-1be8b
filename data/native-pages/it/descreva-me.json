@@ -1,0 +1,60 @@
+{
+  "lang": "it",
+  "page": "descreva-me",
+  "keyword": "caratteristiche dei segni zodiacali",
+  "volume": 0,
+  "title": "Caratteristiche dei segni zodiacali: la tua descrizione",
+  "description": "Scopri le caratteristiche del tuo segno: con i tuoi dati di nascita crei una descrizione astrologica personale e divertente da condividere con chi vuoi.",
+  "intro": "Quali caratteristiche dei segni zodiacali ti somigliano? Con « Descrivimi » crei, dai tuoi dati di nascita, una descrizione astrologica personale e divertente da condividere con gli amici.",
+  "sections": [
+    {
+      "h2": "Come nasce la tua descrizione",
+      "paragraphs": [
+        "Inserisci in alto la tua data di nascita, scegli la città dall'elenco e ricevi un testo su di te in linea con i tuoi dati. È gentile, leggero e fatto per essere condiviso.",
+        "L'obiettivo è divertirsi e riflettere su di sé, non dare giudizi definitivi."
+      ]
+    },
+    {
+      "h2": "Le caratteristiche dei segni zodiacali nella vita di tutti i giorni",
+      "paragraphs": [
+        "Un esempio: Luca legge che ama la tranquillità ma è curioso di conoscere persone nuove. Si riconosce e manda il testo a un amico, che risponde ridendo: « Sei proprio tu ».",
+        "Queste descrizioni possono aprire conversazioni, per esempio su come ognuno vive pause, vicinanza o progetti."
+      ]
+    },
+    {
+      "h2": "Cosa tenere a mente",
+      "paragraphs": [
+        "Nessun testo può dire chi sei davvero. Usa la descrizione come un invito a pensare a te e tieni solo ciò che ti rappresenta.",
+        "Per salute, diritto o denaro rivolgiti a dei professionisti."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "« Descrivimi » è gratis?",
+      "a": "Sì, puoi creare la tua descrizione senza pagare."
+    },
+    {
+      "q": "Di cosa ho bisogno?",
+      "a": "Della tua data e del tuo luogo di nascita."
+    },
+    {
+      "q": "Posso condividere la descrizione?",
+      "a": "Sì, il testo è fatto per essere condiviso con altre persone."
+    },
+    {
+      "q": "Le caratteristiche dei segni sono provate scientificamente?",
+      "a": "No, l'astrologia serve per divertirsi e riflettere e non è una prova scientifica."
+    }
+  ],
+  "tags": [
+    "caratteristiche dei segni zodiacali",
+    "caratteristiche dei segni zodiacali gemelli",
+    "caratteristiche dei segni zodiacali toro",
+    "caratteristiche dei segni zodiacali pesci",
+    "caratteristiche dei segni zodiacali vergine"
+  ],
+  "ui": {
+    "faq": "Domande frequenti"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "lang": "vi",
+  "page": "daily-message",
+  "keyword": "tử vi hôm nay",
+  "volume": 0,
+  "title": "Tử vi hôm nay miễn phí: thông điệp dành cho bạn",
+  "description": "Xem tử vi hôm nay bằng lời lẽ đơn giản: chọn cung của bạn và đọc thông điệp nhẹ nhàng cùng một lời khuyên nhỏ cho ngày hôm nay.",
+  "intro": "Với tử vi hôm nay của Aurenstar, mỗi ngày bạn nhận một thông điệp ngắn, nhẹ nhàng dành cho cung của mình. Thông điệp để lại một ý tưởng để suy ngẫm và một lời khuyên nhỏ có thể thử ngay hôm nay.",
+  "sections": [
+    {
+      "h2": "Tử vi hôm nay hoạt động thế nào",
+      "paragraphs": [
+        "Bạn chọn cung của mình ở đầu trang và đọc thông điệp. Trong đó có một câu tích cực đồng hành cùng bạn cả ngày và một lời khuyên đơn giản không tốn nhiều thời gian.",
+        "Nội dung được viết bình tĩnh và thực tế, không hứa hẹn lớn lao."
+      ]
+    },
+    {
+      "h2": "Một ví dụ trong ngày thường",
+      "paragraphs": [
+        "Nam thuộc cung Bạch Dương và đọc rằng hôm nay anh có thể gọi cuộc điện thoại mà anh vẫn trì hoãn. Anh dành mười phút và nhận ra việc nhỏ hơn mình nghĩ.",
+        "Tử vi hôm nay là cú hích nhẹ nhàng: bạn quyết định có dùng hay không và dùng thế nào."
+      ]
+    },
+    {
+      "h2": "Hiểu đúng về tử vi hôm nay",
+      "paragraphs": [
+        "Thông điệp không phải là lời tiên đoán. Nó giúp bạn suy ngẫm và dành cho mình một chút thời gian.",
+        "Về sức khỏe, pháp lý hay tiền bạc, hãy hỏi chuyên gia."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Tử vi hôm nay có miễn phí không?",
+      "a": "Có, bạn có thể đọc thông điệp mỗi ngày mà không phải trả tiền."
+    },
+    {
+      "q": "Thông điệp đổi bao lâu một lần?",
+      "a": "Bạn có thể đọc thông điệp mới cho cung của mình mỗi ngày."
+    },
+    {
+      "q": "Tôi có phải nhập ngày sinh không?",
+      "a": "Bạn chọn cung của mình. Nếu chưa biết, hãy dùng công cụ tính của Aurenstar."
+    },
+    {
+      "q": "Tử vi hôm nay có đoán trước tương lai không?",
+      "a": "Không, đây là lời mời suy ngẫm chứ không phải dự đoán."
+    }
+  ],
+  "tags": [
+    "tử vi hôm nay",
+    "tử vi hôm nay của tôi",
+    "tử vi hôm nay cung hoàng đạo",
+    "tử vi hôm nay theo ngày sinh",
+    "tử vi ngày mai"
+  ],
+  "ui": {
+    "faq": "Câu hỏi thường gặp"
+  }
+}

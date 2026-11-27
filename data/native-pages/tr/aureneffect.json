@@ -1,0 +1,58 @@
+{
+  "lang": "tr",
+  "page": "aureneffect",
+  "keyword": "kişisel burç yorumu",
+  "volume": 0,
+  "title": "Kişisel burç yorumu ücretsiz: Auren Effect",
+  "description": "Adınız, doğum tarihiniz ve yerinizle kişisel burç yorumu: bugün nasıl hissettiğinizi anlayın ve gününüz için basit, pratik öneriler alın.",
+  "intro": "Auren Effect, düşünmeniz için hazırlanmış kişisel burç yorumunuzdur. Adınızı ve doğum bilgilerinizi girer, bugün nasıl hissedebileceğinizi öğrenir ve gününüz için basit öneriler alırsınız.",
+  "sections": [
+    {
+      "h2": "Kişisel burç yorumunuz size neyi gösterir",
+      "paragraphs": [
+        "Genel bir günlük burç yorumundan farklı olarak Auren Effect kendi bilgilerinizi kullanır: ad, doğum tarihi ve doğum yeri. Bu yüzden metin size daha yakın gelir.",
+        "Tahmin değil, ruh halinizin sakin bir tarifini ve pratik fikirler alırsınız."
+      ]
+    },
+    {
+      "h2": "Formu nasıl doldurursunuz",
+      "paragraphs": [
+        "Üstteki alana adınızı yazın, doğum tarihinizi seçin ve listeden şehrinizi bulun. Sonra Auren Effect'inizi hesaplayın.",
+        "Örnek: Sema bilgilerini giriyor, sakin bir sohbete zaman ayırma önerisini okuyor ve akşam için telefonsuz kısa bir mola planlıyor."
+      ]
+    },
+    {
+      "h2": "Sonucu ne için kullanabilirsiniz",
+      "paragraphs": [
+        "Sonucu kendinizi dinlemek için bir itiş olarak görün. Bir öneri hoşunuza giderse deneyin, gitmezse bırakın.",
+        "Sağlık, hukuk veya para konularında en doğrusu uzmanlara danışmaktır."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kişisel burç yorumu ücretsiz mi?",
+      "a": "Evet, Auren Effect'inizi ücretsiz hesaplayabilirsiniz."
+    },
+    {
+      "q": "Hangi bilgilere ihtiyacım var?",
+      "a": "Adınıza, doğum tarihinize ve doğum yerinize ihtiyacınız var."
+    },
+    {
+      "q": "Günlük burç yorumundan farkı ne?",
+      "a": "Yalnızca burcunuzu değil, kişisel bilgilerinizi de kullanır."
+    },
+    {
+      "q": "Auren Effect geleceği tahmin eder mi?",
+      "a": "Hayır, düşünmek için fikirler sunar, tahmin yapmaz."
+    }
+  ],
+  "tags": [
+    "kişisel burç yorumu",
+    "burç yorumları bugün",
+    "yükselen burç hesaplama"
+  ],
+  "ui": {
+    "faq": "Sık sorulan sorular"
+  }
+}

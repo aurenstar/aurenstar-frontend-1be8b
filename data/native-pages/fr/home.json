@@ -1,0 +1,59 @@
+{
+  "lang": "fr",
+  "page": "home",
+  "keyword": "horoscope",
+  "volume": 0,
+  "title": "Horoscope gratuit : votre signe et votre message du jour",
+  "description": "Votre horoscope gratuit en mots simples : découvrez votre signe, lisez un message pour votre journée et explorez les articles et le dictionnaire d'astrologie d'Aurenstar.",
+  "intro": "Sur Aurenstar, vous trouvez votre horoscope sans jargon compliqué. Vous pouvez découvrir votre signe, lire un court message pour votre journée et explorer tranquillement des articles d'astrologie.",
+  "sections": [
+    {
+      "h2": "Ce que vous trouverez sur Aurenstar",
+      "paragraphs": [
+        "Les outils gratuits sont en haut de la page : vous indiquez votre date de naissance, vous voyez votre signe et vous recevez des conseils simples et bienveillants. Il y a aussi un message du jour pour votre signe et une description personnelle à partager.",
+        "Pour aller plus loin, lisez les articles et consultez le dictionnaire afin de comprendre, par exemple, ce qu'est un ascendant ou un élément."
+      ]
+    },
+    {
+      "h2": "Comment utiliser votre horoscope au quotidien",
+      "paragraphs": [
+        "Un exemple : Claire lit son message le matin, retient une phrase et se demande le soir si elle correspondait à sa journée. Un horoscope n'a pas besoin d'être plus que cela.",
+        "Vous pouvez aussi prendre ces conseils comme une invitation à réfléchir, par exemple pour préparer une conversation ou planifier une pause."
+      ]
+    },
+    {
+      "h2": "L'astrologie pour réfléchir, pas pour prédire",
+      "paragraphs": [
+        "Aurenstar ne promet aucun résultat et ne donne aucun conseil médical, juridique ou financier. Les textes servent à vous orienter et à vous faire plaisir.",
+        "Pour les décisions importantes, mieux vaut en parler à des personnes de confiance et, si besoin, à des professionnels."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "L'horoscope d'Aurenstar est-il gratuit ?",
+      "a": "Oui, vous pouvez utiliser les outils et lire les articles sans payer."
+    },
+    {
+      "q": "Faut-il créer un compte ?",
+      "a": "Non, il n'est pas nécessaire de s'inscrire pour utiliser les outils."
+    },
+    {
+      "q": "Que puis-je faire sur Aurenstar ?",
+      "a": "Vous pouvez découvrir votre signe, lire un message du jour, créer une description personnelle et lire des articles et le dictionnaire d'astrologie."
+    },
+    {
+      "q": "L'horoscope prédit-il l'avenir ?",
+      "a": "Non, les textes servent à réfléchir et ne font aucune prédiction."
+    }
+  ],
+  "tags": [
+    "horoscope",
+    "horoscope du jour",
+    "horoscope de demain",
+    "horoscope gratuit"
+  ],
+  "ui": {
+    "faq": "Questions fréquentes"
+  }
+}

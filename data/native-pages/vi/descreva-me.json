@@ -1,0 +1,58 @@
+{
+  "lang": "vi",
+  "page": "descreva-me",
+  "keyword": "tính cách 12 cung hoàng đạo",
+  "volume": 0,
+  "title": "Tính cách 12 cung hoàng đạo: bản mô tả riêng của bạn",
+  "description": "Khám phá tính cách 12 cung hoàng đạo: từ thông tin ngày sinh, tạo bản mô tả chiêm tinh riêng, vui nhộn để chia sẻ với bất kỳ ai bạn muốn.",
+  "intro": "Trong tính cách 12 cung hoàng đạo, điều nào giống bạn? Với “Mô tả tôi”, bạn tạo từ thông tin ngày sinh một bản mô tả chiêm tinh riêng, vui nhộn để chia sẻ với bạn bè.",
+  "sections": [
+    {
+      "h2": "Bản mô tả của bạn được tạo thế nào",
+      "paragraphs": [
+        "Bạn nhập ngày sinh ở phía trên, chọn thành phố trong danh sách và nhận một đoạn văn về mình phù hợp với thông tin đó. Nội dung nhẹ nhàng, vui vẻ và được viết để chia sẻ.",
+        "Mục đích là vui và suy ngẫm về bản thân, chứ không phải đưa ra phán xét cuối cùng."
+      ]
+    },
+    {
+      "h2": "Tính cách 12 cung hoàng đạo trong đời sống",
+      "paragraphs": [
+        "Ví dụ: Tuấn đọc rằng mình thích sự yên tĩnh nhưng tò mò muốn gặp người mới. Anh thấy đúng và gửi cho bạn, người đó cười đáp: “Đúng là cậu rồi.”",
+        "Những bản mô tả như vậy có thể mở đầu câu chuyện, chẳng hạn về cách mỗi người trải qua những lúc nghỉ ngơi, sự gần gũi hay kế hoạch."
+      ]
+    },
+    {
+      "h2": "Những điều cần nhớ",
+      "paragraphs": [
+        "Không văn bản nào có thể nói bạn thật sự là ai. Hãy xem bản mô tả là lời mời nghĩ về mình và giữ lại điều thấy hợp.",
+        "Về sức khỏe, pháp lý hay tiền bạc, hãy hỏi chuyên gia."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "“Mô tả tôi” có miễn phí không?",
+      "a": "Có, bạn có thể tạo bản mô tả của mình mà không phải trả tiền."
+    },
+    {
+      "q": "Tôi cần gì để dùng?",
+      "a": "Ngày sinh và nơi sinh của bạn."
+    },
+    {
+      "q": "Tôi có thể chia sẻ bản mô tả không?",
+      "a": "Có, văn bản được viết để bạn chia sẻ với người khác."
+    },
+    {
+      "q": "Tính cách 12 cung hoàng đạo có được khoa học chứng minh không?",
+      "a": "Không, chiêm tinh dùng để giải trí và suy ngẫm, không phải bằng chứng khoa học."
+    }
+  ],
+  "tags": [
+    "tính cách 12 cung hoàng đạo",
+    "xem cung hoàng đạo theo ngày sinh",
+    "tử vi cá nhân"
+  ],
+  "ui": {
+    "faq": "Câu hỏi thường gặp"
+  }
+}

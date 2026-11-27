@@ -1,0 +1,60 @@
+{
+  "lang": "id",
+  "page": "discover-sign",
+  "keyword": "cek zodiak",
+  "volume": 0,
+  "title": "Cek zodiak: cari tahu zodiak dan ascendant gratis",
+  "description": "Cek zodiak dengan mudah: masukkan tanggal, jam, dan tempat lahir untuk mengetahui zodiakmu secara gratis, lengkap dengan saran yang jelas dan hangat.",
+  "intro": "Ingin cek zodiak dan mengetahui ascendant-mu? Dengan alat gratis ini kamu memasukkan tanggal lahir dan, bila tahu, jam serta kotanya, untuk melihat zodiak dan ascendant-mu.",
+  "sections": [
+    {
+      "h2": "Apa itu ascendant",
+      "paragraphs": [
+        "Ascendant adalah zodiak yang terbit di ufuk timur saat kamu lahir. Zodiak matahari menggambarkan jati dirimu, sedangkan ascendant lebih menggambarkan kesan yang kamu berikan kepada orang lain.",
+        "Contohnya: Dewi berzodiak Libra dengan ascendant Leo. Ia penuh diplomasi, tetapi orang melihatnya sebagai sosok yang sangat percaya diri."
+      ]
+    },
+    {
+      "h2": "Cara cek zodiak dengan alat ini",
+      "paragraphs": [
+        "Pilih tanggal, bulan, dan tahun lahir, lalu tambahkan jam dan pilih kotamu dari daftar. Jam itu penting karena ascendant berganti kira-kira setiap dua jam.",
+        "Jika tidak tahu jamnya, alat ini menampilkan zodiak yang paling mungkin. Kamu juga bisa langsung memilih zodiakmu bila sudah tahu."
+      ]
+    },
+    {
+      "h2": "Setelah hasilnya muncul",
+      "paragraphs": [
+        "Kamu akan masuk ke halaman khusus untuk zodiakmu dengan saran yang sederhana dan hangat. Bacalah sebagai ajakan untuk lebih mengenal diri sendiri.",
+        "Isinya untuk merenung dan bersenang-senang, tanpa prediksi. Untuk urusan kesehatan, hukum, atau uang, tanyakan kepada ahlinya."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Bagaimana cara cek zodiak?",
+      "a": "Masukkan tanggal, jam, dan tempat lahirmu ke dalam alat."
+    },
+    {
+      "q": "Apakah saya harus tahu jam lahir yang tepat?",
+      "a": "Semakin tepat jamnya, semakin bisa diandalkan hasilnya, karena ascendant berganti kira-kira setiap dua jam."
+    },
+    {
+      "q": "Apakah alatnya gratis?",
+      "a": "Ya, kamu bisa memakainya gratis dan tanpa membuat akun."
+    },
+    {
+      "q": "Bagaimana kalau saya tidak tahu jam lahir?",
+      "a": "Alat ini bisa menampilkan zodiak yang paling mungkin."
+    }
+  ],
+  "tags": [
+    "cek zodiak",
+    "cek zodiak jodoh",
+    "cek zodiak tanggal lahir",
+    "cek zodiak online",
+    "cek zodiak saya"
+  ],
+  "ui": {
+    "faq": "Pertanyaan yang sering diajukan"
+  }
+}

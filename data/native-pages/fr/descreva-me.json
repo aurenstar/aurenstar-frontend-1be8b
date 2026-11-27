@@ -1,0 +1,58 @@
+{
+  "lang": "fr",
+  "page": "descreva-me",
+  "keyword": "caractère des signes",
+  "volume": 0,
+  "title": "Caractère des signes : votre description personnelle",
+  "description": "Découvrez le caractère de votre signe : avec vos données de naissance, créez une description astrologique personnelle et amusante à partager avec qui vous voulez.",
+  "intro": "Quel caractère des signes vous ressemble ? Avec « Décris-moi », vous créez à partir de vos données de naissance une description astrologique personnelle et amusante à partager avec vos amis.",
+  "sections": [
+    {
+      "h2": "Comment votre description est créée",
+      "paragraphs": [
+        "Vous indiquez votre date de naissance en haut, choisissez votre ville dans la liste et recevez un texte sur vous qui correspond à vos données. Il est bienveillant, léger et fait pour être partagé.",
+        "Le but est de s'amuser et de réfléchir à soi, pas de rendre des jugements définitifs."
+      ]
+    },
+    {
+      "h2": "Le caractère des signes au quotidien",
+      "paragraphs": [
+        "Un exemple : Hugo lit qu'il aime le calme tout en restant curieux de rencontrer de nouvelles personnes. Il se reconnaît et envoie le texte à un ami qui répond en riant : « C'est tout toi ».",
+        "Ces descriptions peuvent lancer des discussions, par exemple sur la façon dont chacun vit les pauses, la proximité ou les projets."
+      ]
+    },
+    {
+      "h2": "Ce qu'il faut garder en tête",
+      "paragraphs": [
+        "Aucun texte ne peut dire qui vous êtes vraiment. Prenez la description comme une invitation à penser à vous et gardez ce qui vous parle.",
+        "Pour la santé, le droit ou l'argent, adressez-vous à des professionnels."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "« Décris-moi » est-il gratuit ?",
+      "a": "Oui, vous pouvez créer votre description sans payer."
+    },
+    {
+      "q": "De quoi ai-je besoin ?",
+      "a": "De votre date de naissance et de votre lieu de naissance."
+    },
+    {
+      "q": "Puis-je partager la description ?",
+      "a": "Oui, le texte est fait pour être partagé avec d'autres personnes."
+    },
+    {
+      "q": "Le caractère des signes est-il prouvé scientifiquement ?",
+      "a": "Non, l'astrologie sert à se divertir et à réfléchir et ne constitue pas une preuve scientifique."
+    }
+  ],
+  "tags": [
+    "caractère des signes",
+    "caractère des signes astrologiques",
+    "caractère des signes taureau"
+  ],
+  "ui": {
+    "faq": "Questions fréquentes"
+  }
+}

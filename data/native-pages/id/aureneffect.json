@@ -1,0 +1,59 @@
+{
+  "lang": "id",
+  "page": "aureneffect",
+  "keyword": "ramalan zodiak pribadi",
+  "volume": 0,
+  "title": "Ramalan zodiak pribadi gratis: Auren Effect",
+  "description": "Ramalan zodiak pribadi dengan nama, tanggal, dan tempat lahir: pahami perasaanmu hari ini dan dapatkan saran sederhana yang praktis untuk harimu.",
+  "intro": "Auren Effect adalah ramalan zodiak pribadi untuk merenung. Kamu memasukkan nama dan data lahirmu lalu mengetahui bagaimana perasaanmu hari ini, lengkap dengan saran sederhana.",
+  "sections": [
+    {
+      "h2": "Apa yang ditunjukkan ramalan zodiak pribadimu",
+      "paragraphs": [
+        "Berbeda dari ramalan zodiak umum, Auren Effect memakai datamu sendiri: nama, tanggal, dan tempat lahir. Karena itu tulisannya terasa lebih dekat denganmu.",
+        "Kamu tidak menerima prediksi, tetapi gambaran suasana hatimu yang tenang dan ide-ide praktis."
+      ]
+    },
+    {
+      "h2": "Cara mengisi formulirnya",
+      "paragraphs": [
+        "Tulis namamu di bagian atas, pilih tanggal lahir, lalu cari kotamu dalam daftar. Setelah itu hitung Auren Effect-mu.",
+        "Contoh: Sari memasukkan datanya, membaca saran untuk meluangkan waktu bagi percakapan yang tenang, lalu merencanakan jeda singkat tanpa ponsel di malam hari."
+      ]
+    },
+    {
+      "h2": "Untuk apa hasilnya",
+      "paragraphs": [
+        "Anggap hasilnya sebagai dorongan untuk mendengarkan diri sendiri. Jika ada saran yang cocok, coba; jika tidak, abaikan saja.",
+        "Untuk urusan kesehatan, hukum, atau uang, sebaiknya tanyakan kepada ahlinya."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Apakah ramalan zodiak pribadi ini gratis?",
+      "a": "Ya, kamu bisa menghitung Auren Effect tanpa membayar."
+    },
+    {
+      "q": "Data apa yang saya butuhkan?",
+      "a": "Kamu butuh nama, tanggal lahir, dan tempat lahir."
+    },
+    {
+      "q": "Apa bedanya dengan zodiak hari ini?",
+      "a": "Ini memakai data pribadimu, bukan hanya zodiakmu."
+    },
+    {
+      "q": "Apakah Auren Effect memprediksi masa depan?",
+      "a": "Tidak, ini memberi gagasan untuk merenung dan bukan prediksi."
+    }
+  ],
+  "tags": [
+    "ramalan zodiak pribadi",
+    "ramalan zodiak hari ini",
+    "ramalan zodiak tanggal lahir",
+    "cek zodiak tanggal lahir"
+  ],
+  "ui": {
+    "faq": "Pertanyaan yang sering diajukan"
+  }
+}

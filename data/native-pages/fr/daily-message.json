@@ -1,0 +1,61 @@
+{
+  "lang": "fr",
+  "page": "daily-message",
+  "keyword": "horoscope du jour",
+  "volume": 0,
+  "title": "Horoscope du jour gratuit : votre message pour aujourd'hui",
+  "description": "Votre horoscope du jour en mots simples : choisissez votre signe et lisez un message bienveillant avec un petit conseil pour votre journée.",
+  "intro": "Avec l'horoscope du jour d'Aurenstar, vous recevez chaque jour un message court et bienveillant pour votre signe. Il vous laisse une idée à méditer et un petit conseil à essayer dès aujourd'hui.",
+  "sections": [
+    {
+      "h2": "Comment fonctionne votre horoscope du jour",
+      "paragraphs": [
+        "Vous choisissez votre signe en haut de la page et vous lisez votre message. Il contient une phrase positive pour accompagner la journée et un conseil simple qui ne prend pas beaucoup de temps.",
+        "Les textes sont calmes et pratiques, sans grandes promesses."
+      ]
+    },
+    {
+      "h2": "Un exemple pour votre quotidien",
+      "paragraphs": [
+        "Paul est Bélier et lit qu'il peut enfin passer cet appel qu'il repoussait. Il y consacre dix minutes et se rend compte que la tâche était plus petite que prévu.",
+        "L'horoscope du jour est un petit coup de pouce : vous décidez si vous l'utilisez et comment."
+      ]
+    },
+    {
+      "h2": "Bien comprendre l'horoscope du jour",
+      "paragraphs": [
+        "Le message n'est pas une prédiction. Il sert à vous faire réfléchir et à vous offrir un moment pour vous.",
+        "Pour la santé, le droit ou l'argent, adressez-vous à des professionnels."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "L'horoscope du jour est-il gratuit ?",
+      "a": "Oui, vous pouvez lire votre message du jour sans payer."
+    },
+    {
+      "q": "Le message change-t-il chaque jour ?",
+      "a": "Vous pouvez lire un nouveau message pour votre signe chaque jour."
+    },
+    {
+      "q": "Dois-je saisir ma date de naissance ?",
+      "a": "Vous choisissez votre signe. Si vous ne le connaissez pas, trouvez-le avec le calculateur d'Aurenstar."
+    },
+    {
+      "q": "L'horoscope du jour prédit-il l'avenir ?",
+      "a": "Non, c'est une invitation à réfléchir et pas une prédiction."
+    }
+  ],
+  "tags": [
+    "horoscope du jour",
+    "horoscope du jour gratuit",
+    "horoscope du jour cancer",
+    "horoscope du jour vierge",
+    "horoscope du jour scorpion",
+    "horoscope du jour balance"
+  ],
+  "ui": {
+    "faq": "Questions fréquentes"
+  }
+}

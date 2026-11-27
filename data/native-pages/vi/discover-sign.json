@@ -1,0 +1,60 @@
+{
+  "lang": "vi",
+  "page": "discover-sign",
+  "keyword": "xem cung hoàng đạo",
+  "volume": 0,
+  "title": "Xem cung hoàng đạo: tìm cung mọc của bạn miễn phí",
+  "description": "Xem cung hoàng đạo thật dễ: nhập ngày, giờ và nơi sinh để biết cung của bạn miễn phí, kèm lời khuyên rõ ràng và nhẹ nhàng.",
+  "intro": "Bạn muốn xem cung hoàng đạo và biết cung mọc của mình? Với công cụ miễn phí này, bạn nhập ngày sinh và, nếu biết, cả giờ và thành phố để thấy cung của mình và cung mọc.",
+  "sections": [
+    {
+      "h2": "Cung mọc là gì",
+      "paragraphs": [
+        "Cung mọc là cung đang mọc ở chân trời phía đông vào lúc bạn chào đời. Cung mặt trời nói về bản chất của bạn, còn cung mọc nói nhiều hơn về ấn tượng bạn để lại cho người khác.",
+        "Ví dụ: Mai thuộc cung Thiên Bình với cung mọc Sư Tử. Cô ấy khéo léo nhưng mọi người thấy cô rất tự tin."
+      ]
+    },
+    {
+      "h2": "Cách xem cung hoàng đạo bằng công cụ",
+      "paragraphs": [
+        "Chọn ngày, tháng và năm sinh, rồi thêm giờ sinh và chọn thành phố trong danh sách. Giờ sinh quan trọng vì cung mọc đổi khoảng hai giờ một lần.",
+        "Nếu không biết giờ sinh, công cụ sẽ cho thấy cung có khả năng cao nhất. Bạn cũng có thể chọn thẳng cung của mình nếu đã biết."
+      ]
+    },
+    {
+      "h2": "Sau khi có kết quả",
+      "paragraphs": [
+        "Bạn sẽ đến trang dành riêng cho cung của mình với những lời khuyên đơn giản, nhẹ nhàng. Hãy đọc như một lời mời hiểu mình hơn.",
+        "Nội dung dùng để suy ngẫm và giải trí, không có dự đoán. Về sức khỏe, pháp lý hay tiền bạc, hãy hỏi chuyên gia."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Làm sao để xem cung hoàng đạo?",
+      "a": "Nhập ngày, giờ và nơi sinh của bạn vào công cụ."
+    },
+    {
+      "q": "Tôi có cần biết chính xác giờ sinh không?",
+      "a": "Giờ càng chính xác thì kết quả càng đáng tin, vì cung mọc đổi khoảng hai giờ một lần."
+    },
+    {
+      "q": "Công cụ có miễn phí không?",
+      "a": "Có, bạn dùng miễn phí và không cần tạo tài khoản."
+    },
+    {
+      "q": "Nếu không biết giờ sinh thì sao?",
+      "a": "Công cụ có thể cho bạn thấy cung có khả năng cao nhất."
+    }
+  ],
+  "tags": [
+    "xem cung hoàng đạo",
+    "xem cung hoàng đạo theo ngày sinh",
+    "xem cung hoàng đạo qua ngày tháng năm sinh",
+    "xem cung hoàng đạo cung mọc",
+    "xem cung hoàng đạo tình yêu"
+  ],
+  "ui": {
+    "faq": "Câu hỏi thường gặp"
+  }
+}

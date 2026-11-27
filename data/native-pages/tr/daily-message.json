@@ -1,0 +1,58 @@
+{
+  "lang": "tr",
+  "page": "daily-message",
+  "keyword": "günlük burç yorumları",
+  "volume": 0,
+  "title": "Günlük burç yorumları ücretsiz: bugünün mesajı",
+  "description": "Günlük burç yorumlarını sade bir dille okuyun: burcunuzu seçin ve gününüz için nazik bir mesaj ile küçük bir öneri alın.",
+  "intro": "Aurenstar'ın günlük burç yorumları ile her gün burcunuza özel kısa ve nazik bir mesaj alırsınız. Size düşünmek için bir fikir ve bugün deneyebileceğiniz küçük bir öneri bırakır.",
+  "sections": [
+    {
+      "h2": "Günlük burç yorumları nasıl çalışır",
+      "paragraphs": [
+        "Sayfanın üstünden burcunuzu seçer ve mesajınızı okursunuz. Mesajda gün boyu size eşlik edebilecek olumlu bir cümle ve çok zaman almayan basit bir öneri bulunur.",
+        "Metinler sakin ve pratiktir, büyük vaatler içermez."
+      ]
+    },
+    {
+      "h2": "Günlük hayattan bir örnek",
+      "paragraphs": [
+        "Murat Koç burcu ve ertelediği telefon görüşmesini bugün nihayet yapabileceğini okuyor. On dakika ayırıyor ve işin sandığından küçük olduğunu görüyor.",
+        "Günlük burç yorumları nazik bir itiştir: kullanıp kullanmayacağınıza ve nasıl kullanacağınıza siz karar verirsiniz."
+      ]
+    },
+    {
+      "h2": "Günlük burç yorumlarını doğru anlamak",
+      "paragraphs": [
+        "Mesaj bir tahmin değildir. Düşünmenizi sağlamak ve kendinize kısa bir an ayırmanıza yardım etmek için yazılmıştır.",
+        "Sağlık, hukuk veya para konularında uzmanlara danışın."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Günlük burç yorumları ücretsiz mi?",
+      "a": "Evet, günlük mesajınızı ücretsiz okuyabilirsiniz."
+    },
+    {
+      "q": "Mesaj ne sıklıkla değişir?",
+      "a": "Burcunuz için her gün yeni bir mesaj okuyabilirsiniz."
+    },
+    {
+      "q": "Doğum tarihimi girmem gerekir mi?",
+      "a": "Burcunuzu seçersiniz. Bilmiyorsanız Aurenstar hesaplayıcısıyla öğrenebilirsiniz."
+    },
+    {
+      "q": "Günlük burç yorumları geleceği tahmin eder mi?",
+      "a": "Hayır, bu bir düşünme davetidir, tahmin değildir."
+    }
+  ],
+  "tags": [
+    "günlük burç yorumları",
+    "günlük burç yorumları aslan",
+    "günlük burç yorumları akrep"
+  ],
+  "ui": {
+    "faq": "Sık sorulan sorular"
+  }
+}

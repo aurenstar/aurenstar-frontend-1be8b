@@ -1,0 +1,61 @@
+{
+  "lang": "tr",
+  "page": "descreva-me",
+  "keyword": "burç özellikleri",
+  "volume": 0,
+  "title": "Burç özellikleri: kendinize özel açıklama",
+  "description": "Burcunuzun özelliklerini keşfedin: doğum bilgilerinizle istediğiniz kişiyle paylaşabileceğiniz kişisel ve eğlenceli bir astroloji açıklaması oluşturun.",
+  "intro": "Hangi burç özellikleri size benziyor? “Beni Tanımla” ile doğum bilgilerinizden arkadaşlarınızla paylaşabileceğiniz kişisel ve eğlenceli bir astroloji açıklaması oluşturursunuz.",
+  "sections": [
+    {
+      "h2": "Açıklamanız nasıl oluşturulur",
+      "paragraphs": [
+        "Üstte doğum tarihinizi girer, listeden şehrinizi seçer ve bilgilerinize uygun, kendinizle ilgili bir metin alırsınız. Metin nazik, hafif ve paylaşmak için hazırlanmıştır.",
+        "Amaç eğlenmek ve kendinizi düşünmektir; kesin hükümler vermek değil."
+      ]
+    },
+    {
+      "h2": "Günlük hayatta burç özellikleri",
+      "paragraphs": [
+        "Örneğin Kerem, huzuru sevdiğini ama yeni insanlar tanımaya meraklı olduğunu okuyor. Kendini buluyor ve metni bir arkadaşına gönderiyor; arkadaşı gülerek cevap veriyor: “Bu tam sensin.”",
+        "Böyle açıklamalar sohbet başlatabilir; örneğin herkesin molayı, yakınlığı veya planları nasıl yaşadığı üzerine."
+      ]
+    },
+    {
+      "h2": "Aklınızda bulunması gerekenler",
+      "paragraphs": [
+        "Hiçbir metin sizin gerçekte kim olduğunuzu anlatamaz. Açıklamayı kendinizi düşünmeye davet olarak alın ve size uyanı tutun.",
+        "Sağlık, hukuk veya para konularında uzmanlara danışın."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "“Beni Tanımla” ücretsiz mi?",
+      "a": "Evet, açıklamanızı ücretsiz oluşturabilirsiniz."
+    },
+    {
+      "q": "Ne gerekiyor?",
+      "a": "Doğum tarihiniz ve doğum yeriniz."
+    },
+    {
+      "q": "Açıklamayı paylaşabilir miyim?",
+      "a": "Evet, metin başkalarıyla paylaşmanız için hazırlanmıştır."
+    },
+    {
+      "q": "Burç özellikleri bilimsel olarak kanıtlandı mı?",
+      "a": "Hayır, astroloji eğlence ve düşünme içindir; bilimsel bir kanıt değildir."
+    }
+  ],
+  "tags": [
+    "burç özellikleri",
+    "burç özellikleri kadın",
+    "burç özellikleri erkek",
+    "burç özellikleri hesaplama",
+    "burç özellikleri gerçek mi",
+    "burç özellikleri aslan"
+  ],
+  "ui": {
+    "faq": "Sık sorulan sorular"
+  }
+}

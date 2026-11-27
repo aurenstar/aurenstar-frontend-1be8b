@@ -1,0 +1,58 @@
+{
+  "lang": "vi",
+  "page": "aureneffect",
+  "keyword": "tử vi cá nhân",
+  "volume": 0,
+  "title": "Tử vi cá nhân miễn phí: Auren Effect",
+  "description": "Tử vi cá nhân theo tên, ngày và nơi sinh: hiểu hôm nay bạn có thể cảm thấy thế nào và nhận lời khuyên đơn giản, thiết thực cho ngày của mình.",
+  "intro": "Auren Effect là tử vi cá nhân để bạn suy ngẫm. Bạn nhập tên và thông tin ngày sinh rồi biết hôm nay mình có thể cảm thấy thế nào, kèm những lời khuyên đơn giản cho ngày của bạn.",
+  "sections": [
+    {
+      "h2": "Tử vi cá nhân cho bạn thấy điều gì",
+      "paragraphs": [
+        "Khác với tử vi chung mỗi ngày, Auren Effect dùng thông tin của riêng bạn: tên, ngày và nơi sinh. Vì vậy nội dung nghe gần gũi với bạn hơn.",
+        "Bạn không nhận dự đoán mà nhận một mô tả nhẹ nhàng về tâm trạng cùng các gợi ý thiết thực."
+      ]
+    },
+    {
+      "h2": "Cách điền biểu mẫu",
+      "paragraphs": [
+        "Viết tên của bạn ở phía trên, chọn ngày sinh và tìm thành phố trong danh sách. Sau đó tính Auren Effect của bạn.",
+        "Ví dụ: Thảo nhập thông tin, đọc gợi ý dành thời gian cho một cuộc trò chuyện nhẹ nhàng và buổi tối lên kế hoạch nghỉ ngắn không điện thoại."
+      ]
+    },
+    {
+      "h2": "Bạn có thể dùng kết quả để làm gì",
+      "paragraphs": [
+        "Hãy xem kết quả như cú hích để lắng nghe bản thân. Lời khuyên nào hợp thì thử, không hợp thì bỏ qua.",
+        "Về sức khỏe, pháp lý hay tiền bạc, tốt nhất hãy hỏi chuyên gia."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Tử vi cá nhân có miễn phí không?",
+      "a": "Có, bạn có thể tính Auren Effect mà không phải trả tiền."
+    },
+    {
+      "q": "Tôi cần những thông tin gì?",
+      "a": "Bạn cần tên, ngày sinh và nơi sinh."
+    },
+    {
+      "q": "Khác gì với tử vi hôm nay?",
+      "a": "Nó dùng thông tin cá nhân của bạn chứ không chỉ cung hoàng đạo."
+    },
+    {
+      "q": "Auren Effect có đoán trước tương lai không?",
+      "a": "Không, nó đưa ra ý tưởng để suy ngẫm chứ không phải dự đoán."
+    }
+  ],
+  "tags": [
+    "tử vi cá nhân",
+    "tử vi cá nhân miễn phí",
+    "tử vi hôm nay theo ngày sinh"
+  ],
+  "ui": {
+    "faq": "Câu hỏi thường gặp"
+  }
+}

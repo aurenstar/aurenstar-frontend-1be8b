@@ -1,0 +1,60 @@
+{
+  "lang": "it",
+  "page": "discover-sign",
+  "keyword": "calcolo ascendente",
+  "volume": 0,
+  "title": "Calcolo ascendente: scopri il tuo segno gratis",
+  "description": "Il calcolo dell'ascendente è semplice: inserisci data, ora e luogo di nascita e scopri gratis il tuo segno con consigli chiari e gentili.",
+  "intro": "Vuoi fare il calcolo ascendente e conoscere il tuo segno? Con questo strumento gratuito inserisci la data di nascita e, se li conosci, l'ora e la città, per vedere il tuo segno e il tuo ascendente.",
+  "sections": [
+    {
+      "h2": "Che cos'è l'ascendente",
+      "paragraphs": [
+        "L'ascendente è il segno che sorgeva a est all'orizzonte nel momento della tua nascita. Il segno solare parla della tua essenza, l'ascendente descrive di più l'impressione che dai agli altri.",
+        "Un esempio: Marta è Bilancia con ascendente Leone. È diplomatica, ma gli altri la vedono come una persona molto sicura di sé."
+      ]
+    },
+    {
+      "h2": "Come fare il calcolo ascendente",
+      "paragraphs": [
+        "Scegli giorno, mese e anno di nascita, poi aggiungi l'ora e seleziona la città dall'elenco. L'ora conta perché l'ascendente cambia circa ogni due ore.",
+        "Se non conosci l'ora, lo strumento mostra il segno più probabile. Puoi anche scegliere direttamente il tuo segno se già lo conosci."
+      ]
+    },
+    {
+      "h2": "Dopo il risultato",
+      "paragraphs": [
+        "Arrivi a una pagina dedicata al tuo segno, con consigli semplici e gentili. Leggila come un invito a conoscerti meglio.",
+        "Il contenuto serve per riflettere e per divertirti, senza previsioni. Per salute, diritto o denaro rivolgiti a dei professionisti."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Come si fa il calcolo dell'ascendente?",
+      "a": "Inserisci nello strumento data, ora e luogo di nascita."
+    },
+    {
+      "q": "Devo conoscere l'ora esatta?",
+      "a": "Più l'ora è precisa, più il risultato è affidabile, perché l'ascendente cambia circa ogni due ore."
+    },
+    {
+      "q": "Lo strumento è gratuito?",
+      "a": "Sì, puoi usarlo gratis e senza creare un account."
+    },
+    {
+      "q": "E se non conosco l'ora di nascita?",
+      "a": "Lo strumento può mostrarti il segno più probabile."
+    }
+  ],
+  "tags": [
+    "calcolo ascendente",
+    "calcolo ascendente gratis",
+    "calcolo ascendente preciso",
+    "calcolo ascendente zodiacale",
+    "calcolo ascendente e luna"
+  ],
+  "ui": {
+    "faq": "Domande frequenti"
+  }
+}

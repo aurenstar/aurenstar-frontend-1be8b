@@ -1,0 +1,59 @@
+{
+  "lang": "id",
+  "page": "home",
+  "keyword": "ramalan zodiak",
+  "volume": 0,
+  "title": "Ramalan zodiak gratis: zodiakmu dan pesan hari ini",
+  "description": "Ramalan zodiak gratis dengan kata-kata sederhana: cari tahu zodiakmu, baca pesan untuk harimu, dan jelajahi artikel serta kamus astrologi Aurenstar.",
+  "intro": "Di Aurenstar kamu menemukan ramalan zodiak tanpa istilah rumit. Kamu bisa mencari tahu zodiakmu, membaca pesan singkat untuk hari ini, dan menjelajahi artikel astrologi dengan santai.",
+  "sections": [
+    {
+      "h2": "Apa yang ada di Aurenstar",
+      "paragraphs": [
+        "Alat gratis ada di bagian atas halaman: masukkan tanggal lahir, lihat zodiakmu, dan dapatkan saran yang sederhana dan hangat. Ada juga pesan harian untuk zodiakmu dan deskripsi pribadi yang bisa dibagikan.",
+        "Kalau ingin tahu lebih banyak, baca artikelnya dan buka kamus untuk memahami, misalnya, apa itu ascendant atau elemen."
+      ]
+    },
+    {
+      "h2": "Cara memakai ramalan zodiak sehari-hari",
+      "paragraphs": [
+        "Contohnya: Rina membaca pesannya di pagi hari, mengingat satu kalimat, lalu malam harinya bertanya pada diri sendiri apakah kalimat itu cocok dengan harinya. Ramalan zodiak tidak harus lebih dari itu.",
+        "Kamu juga bisa menganggap sarannya sebagai ajakan untuk merenung, misalnya saat bingung memulai percakapan atau merencanakan waktu istirahat."
+      ]
+    },
+    {
+      "h2": "Astrologi untuk merenung, bukan meramal",
+      "paragraphs": [
+        "Aurenstar tidak menjanjikan hasil apa pun dan tidak memberi saran medis, hukum, atau keuangan. Teksnya dibuat untuk memberi arah dan hiburan.",
+        "Keputusan penting sebaiknya diambil bersama orang yang kamu percaya dan, bila perlu, bersama ahlinya."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Apakah ramalan zodiak Aurenstar gratis?",
+      "a": "Ya, kamu bisa memakai alatnya dan membaca artikelnya tanpa membayar."
+    },
+    {
+      "q": "Apakah saya harus membuat akun?",
+      "a": "Tidak, kamu tidak perlu mendaftar untuk memakai alatnya."
+    },
+    {
+      "q": "Apa yang bisa saya lakukan di Aurenstar?",
+      "a": "Kamu bisa mencari tahu zodiakmu, membaca pesan harian, membuat deskripsi pribadi, serta membaca artikel dan kamus astrologi."
+    },
+    {
+      "q": "Apakah ramalan zodiak memprediksi masa depan?",
+      "a": "Tidak, teksnya untuk merenung dan tidak berisi prediksi."
+    }
+  ],
+  "tags": [
+    "ramalan zodiak",
+    "ramalan zodiak hari ini",
+    "ramalan zodiak besok",
+    "ramalan zodiak leo hari ini"
+  ],
+  "ui": {
+    "faq": "Pertanyaan yang sering diajukan"
+  }
+}

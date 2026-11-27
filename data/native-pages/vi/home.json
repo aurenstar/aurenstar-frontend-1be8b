@@ -1,0 +1,60 @@
+{
+  "lang": "vi",
+  "page": "home",
+  "keyword": "tử vi",
+  "volume": 0,
+  "title": "Tử vi miễn phí: cung của bạn và thông điệp hôm nay",
+  "description": "Xem tử vi miễn phí bằng lời lẽ đơn giản: tìm cung hoàng đạo của bạn, đọc thông điệp cho ngày hôm nay và khám phá bài viết cùng từ điển chiêm tinh của Aurenstar.",
+  "intro": "Tại Aurenstar, bạn xem tử vi mà không gặp thuật ngữ rắc rối. Bạn có thể tìm cung hoàng đạo của mình, đọc một thông điệp ngắn cho ngày hôm nay và thong thả khám phá các bài viết chiêm tinh.",
+  "sections": [
+    {
+      "h2": "Bạn sẽ tìm thấy gì ở Aurenstar",
+      "paragraphs": [
+        "Các công cụ miễn phí nằm ngay đầu trang: bạn nhập ngày sinh, xem cung hoàng đạo và nhận những lời khuyên đơn giản, nhẹ nhàng. Ngoài ra còn có thông điệp mỗi ngày cho cung của bạn và bản mô tả cá nhân để chia sẻ.",
+        "Nếu muốn hiểu thêm, hãy đọc các bài viết và tra từ điển để biết, chẳng hạn, cung mọc hay nguyên tố nghĩa là gì."
+      ]
+    },
+    {
+      "h2": "Cách dùng tử vi trong cuộc sống hằng ngày",
+      "paragraphs": [
+        "Ví dụ: Lan đọc thông điệp vào buổi sáng, nhớ lấy một câu và buổi tối tự hỏi câu đó có hợp với ngày của mình không. Tử vi không cần phải nhiều hơn thế.",
+        "Bạn cũng có thể xem những lời khuyên như lời mời để suy ngẫm, chẳng hạn khi đang phân vân cách mở lời một cuộc trò chuyện hay lên kế hoạch nghỉ ngơi."
+      ]
+    },
+    {
+      "h2": "Chiêm tinh để suy ngẫm, không phải để tiên đoán",
+      "paragraphs": [
+        "Aurenstar không hứa hẹn kết quả nào và không đưa ra lời khuyên về y tế, pháp lý hay tài chính. Các bài viết chỉ để định hướng và giải trí.",
+        "Những quyết định quan trọng nên được cân nhắc cùng người bạn tin tưởng và khi cần là các chuyên gia."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Tử vi của Aurenstar có miễn phí không?",
+      "a": "Có, bạn có thể dùng các công cụ và đọc bài viết mà không phải trả tiền."
+    },
+    {
+      "q": "Tôi có cần tạo tài khoản không?",
+      "a": "Không, bạn không cần đăng ký để dùng các công cụ."
+    },
+    {
+      "q": "Tôi có thể làm gì ở Aurenstar?",
+      "a": "Bạn có thể tìm cung hoàng đạo, đọc thông điệp mỗi ngày, tạo bản mô tả cá nhân, đọc bài viết và từ điển chiêm tinh."
+    },
+    {
+      "q": "Tử vi có đoán trước tương lai không?",
+      "a": "Không, các bài viết dùng để suy ngẫm và không đưa ra dự đoán."
+    }
+  ],
+  "tags": [
+    "tử vi",
+    "tử vi hôm nay",
+    "tử vi việt nam",
+    "tử vi trọn đời",
+    "tử vi lá số"
+  ],
+  "ui": {
+    "faq": "Câu hỏi thường gặp"
+  }
+}

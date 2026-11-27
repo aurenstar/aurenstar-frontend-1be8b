@@ -1,0 +1,60 @@
+{
+  "lang": "it",
+  "page": "daily-message",
+  "keyword": "oroscopo del giorno",
+  "volume": 0,
+  "title": "Oroscopo del giorno gratis: il tuo messaggio di oggi",
+  "description": "Il tuo oroscopo del giorno in parole semplici: scegli il tuo segno e leggi un messaggio gentile con un piccolo consiglio per la tua giornata.",
+  "intro": "Con l'oroscopo del giorno di Aurenstar ricevi ogni giorno un messaggio breve e gentile per il tuo segno. Ti lascia un'idea su cui riflettere e un piccolo consiglio da provare oggi stesso.",
+  "sections": [
+    {
+      "h2": "Come funziona il tuo oroscopo del giorno",
+      "paragraphs": [
+        "Scegli il tuo segno in alto e leggi il tuo messaggio. Contiene una frase positiva che può accompagnarti durante il giorno e un consiglio semplice che non richiede molto tempo.",
+        "I testi sono calmi e pratici, senza grandi promesse."
+      ]
+    },
+    {
+      "h2": "Un esempio per la tua giornata",
+      "paragraphs": [
+        "Paolo è Ariete e legge che oggi può finalmente fare quella telefonata che rimandava. Si prende dieci minuti e scopre che il compito era più piccolo del previsto.",
+        "L'oroscopo del giorno è una piccola spinta gentile: decidi tu se usarla e come."
+      ]
+    },
+    {
+      "h2": "Come capire l'oroscopo del giorno",
+      "paragraphs": [
+        "Il messaggio non è una previsione. Serve a farti riflettere e a regalarti un momento per te.",
+        "Per salute, diritto o denaro rivolgiti a dei professionisti."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "L'oroscopo del giorno è gratis?",
+      "a": "Sì, puoi leggere il tuo messaggio del giorno senza pagare."
+    },
+    {
+      "q": "Ogni quanto cambia il messaggio?",
+      "a": "Puoi leggere un nuovo messaggio per il tuo segno ogni giorno."
+    },
+    {
+      "q": "Devo inserire la mia data di nascita?",
+      "a": "Scegli il tuo segno. Se non lo conosci, scoprilo con il calcolatore di Aurenstar."
+    },
+    {
+      "q": "L'oroscopo del giorno prevede il futuro?",
+      "a": "No, è un invito a riflettere e non una previsione."
+    }
+  ],
+  "tags": [
+    "oroscopo del giorno",
+    "oroscopo del giorno bilancia",
+    "oroscopo del giorno ariete",
+    "oroscopo del giorno gemelli",
+    "oroscopo del giorno capricorno"
+  ],
+  "ui": {
+    "faq": "Domande frequenti"
+  }
+}

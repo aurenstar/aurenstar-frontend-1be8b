@@ -1,0 +1,59 @@
+{
+  "lang": "it",
+  "page": "home",
+  "keyword": "oroscopo",
+  "volume": 0,
+  "title": "Oroscopo gratis: il tuo segno e il messaggio del giorno",
+  "description": "Il tuo oroscopo gratis in parole semplici: scopri il tuo segno, leggi un messaggio per la tua giornata ed esplora gli articoli e il dizionario di astrologia di Aurenstar.",
+  "intro": "Su Aurenstar trovi il tuo oroscopo senza paroloni. Puoi scoprire il tuo segno, leggere un breve messaggio per la tua giornata ed esplorare con calma articoli di astrologia.",
+  "sections": [
+    {
+      "h2": "Cosa trovi su Aurenstar",
+      "paragraphs": [
+        "In alto ci sono gli strumenti gratuiti: inserisci la tua data di nascita, vedi il tuo segno e ricevi consigli semplici e gentili. C'è anche un messaggio del giorno per il tuo segno e una descrizione personale da condividere.",
+        "Se vuoi saperne di più, leggi gli articoli e consulta il dizionario per capire, ad esempio, cos'è un ascendente o un elemento."
+      ]
+    },
+    {
+      "h2": "Come usare l'oroscopo ogni giorno",
+      "paragraphs": [
+        "Un esempio: Giulia legge il messaggio al mattino, si tiene una frase e la sera pensa se si addiceva alla sua giornata. Un oroscopo non deve essere più di questo.",
+        "Puoi anche usare i consigli come spunto di riflessione, per esempio quando devi decidere come affrontare una conversazione o organizzare una pausa."
+      ]
+    },
+    {
+      "h2": "Astrologia per riflettere, non per prevedere",
+      "paragraphs": [
+        "Aurenstar non promette risultati e non dà consigli medici, legali o finanziari. I testi servono a orientarti e a divertirti.",
+        "Le decisioni importanti è meglio prenderle con persone di fiducia e, se serve, con dei professionisti."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "L'oroscopo di Aurenstar è gratis?",
+      "a": "Sì, puoi usare gli strumenti e leggere gli articoli senza pagare."
+    },
+    {
+      "q": "Devo creare un account?",
+      "a": "No, per usare gli strumenti non serve registrarsi."
+    },
+    {
+      "q": "Cosa posso fare su Aurenstar?",
+      "a": "Puoi scoprire il tuo segno, leggere un messaggio del giorno, creare una descrizione personale e leggere articoli e il dizionario di astrologia."
+    },
+    {
+      "q": "L'oroscopo prevede il futuro?",
+      "a": "No, i testi servono per riflettere e non fanno previsioni."
+    }
+  ],
+  "tags": [
+    "oroscopo",
+    "oroscopo oggi",
+    "oroscopo domani",
+    "oroscopo leone"
+  ],
+  "ui": {
+    "faq": "Domande frequenti"
+  }
+}
