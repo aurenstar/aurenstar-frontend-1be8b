@@ -218,7 +218,14 @@ export const SiteLocalizer: React.FC = () => {
             });
             groups.forEach((items, P) => {
               const out = cache[groupString(items)];
-              if (!out) return;
+              if (!out) {
+                // the joined block is not in the dictionary: if every piece is known, use the pieces
+                const pieces = items.filter((i) => hasLetters(orig(i.node)));
+                if (pieces.length && pieces.every((i) => cache[orig(i.node).trim()])) {
+                  pieces.forEach((i) => i.node.isConnected && setText(i.node, cache[orig(i.node).trim()]));
+                }
+                return;
+              }
               const parts = parseGroup(out, items);
               const nodes = items.filter((i) => hasLetters(orig(i.node)) || i.kind === 'E');
               if (!parts || parts.length !== nodes.length) {
