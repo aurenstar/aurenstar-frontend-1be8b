@@ -1,0 +1,58 @@
+{
+  "lang": "tl",
+  "page": "home",
+  "keyword": "horoscope",
+  "volume": 0,
+  "title": "Libreng horoscope: ang iyong sign at mensahe ngayon",
+  "description": "Libreng horoscope sa simpleng salita: alamin ang iyong sign, magbasa ng mensahe para sa araw mo at tuklasin ang mga artikulo at diksyunaryo ng astrolohiya ng Aurenstar.",
+  "intro": "Sa Aurenstar, makikita mo ang iyong horoscope nang walang masalimuot na termino. Maaari mong alamin ang iyong sign, magbasa ng maikling mensahe para ngayong araw at dahan-dahang tuklasin ang mga artikulo tungkol sa astrolohiya.",
+  "sections": [
+    {
+      "h2": "Ano ang makikita mo sa Aurenstar",
+      "paragraphs": [
+        "Nasa itaas ng pahina ang mga libreng tool: ilagay ang petsa ng kapanganakan, makikita mo ang iyong sign at makakakuha ng simple at magiliw na payo. Mayroon ding pang-araw-araw na mensahe para sa sign mo at personal na paglalarawan na maibabahagi mo.",
+        "Kung gusto mong matuto pa, basahin ang mga artikulo at tingnan ang diksyunaryo para maintindihan, halimbawa, kung ano ang rising sign o elemento."
+      ]
+    },
+    {
+      "h2": "Paano gamitin ang horoscope araw-araw",
+      "paragraphs": [
+        "Halimbawa: Binabasa ni Maria ang mensahe sa umaga, iniisip ang isang pangungusap at sa gabi ay tinatanong kung bagay ba ito sa araw niya. Hindi kailangang higit pa roon ang horoscope.",
+        "Puwede mo ring ituring ang payo bilang imbitasyong mag-isip, halimbawa kapag nagpapasya kung paano magsisimula ng usapan o kailan magpapahinga."
+      ]
+    },
+    {
+      "h2": "Astrolohiya para pag-isipan, hindi para manghula",
+      "paragraphs": [
+        "Hindi nangangako ng anumang resulta ang Aurenstar at hindi nagbibigay ng payong medikal, legal o pinansyal. Ang mga teksto ay para magbigay ng direksyon at kasiyahan.",
+        "Mas mabuting gawin ang mahahalagang desisyon kasama ang mga taong pinagkakatiwalaan mo at, kung kailangan, mga propesyonal."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Libre ba ang horoscope ng Aurenstar?",
+      "a": "Oo, magagamit mo ang mga tool at mababasa ang mga artikulo nang walang bayad."
+    },
+    {
+      "q": "Kailangan ko bang gumawa ng account?",
+      "a": "Hindi, hindi kailangang magrehistro para magamit ang mga tool."
+    },
+    {
+      "q": "Ano ang magagawa ko sa Aurenstar?",
+      "a": "Maaari mong alamin ang iyong sign, magbasa ng pang-araw-araw na mensahe, gumawa ng personal na paglalarawan at magbasa ng mga artikulo at diksyunaryo ng astrolohiya."
+    },
+    {
+      "q": "Hinuhulaan ba ng horoscope ang hinaharap?",
+      "a": "Hindi, ang mga teksto ay para pag-isipan at walang hula."
+    }
+  ],
+  "tags": [
+    "horoscope",
+    "horoscope ngayon",
+    "horoscope today"
+  ],
+  "ui": {
+    "faq": "Mga madalas itanong"
+  }
+}

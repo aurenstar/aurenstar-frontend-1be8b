@@ -1,0 +1,56 @@
+{
+  "lang": "tl",
+  "page": "aureneffect",
+  "keyword": "personal na horoscope",
+  "volume": 0,
+  "title": "Libreng personal na horoscope: Auren Effect",
+  "description": "Personal na horoscope ayon sa pangalan, petsa at lugar ng kapanganakan: unawain kung ano ang maaari mong maramdaman ngayon at kumuha ng simple at praktikal na payo.",
+  "intro": "Ang Auren Effect ay iyong personal na horoscope para pag-isipan. Ilalagay mo ang pangalan at datos ng kapanganakan at malalaman kung ano ang maaari mong maramdaman ngayon, kasama ang simpleng payo para sa araw mo.",
+  "sections": [
+    {
+      "h2": "Ano ang ipinapakita ng personal na horoscope mo",
+      "paragraphs": [
+        "Hindi tulad ng pangkalahatang horoscope sa araw-araw, ginagamit ng Auren Effect ang sarili mong datos: pangalan, petsa at lugar ng kapanganakan. Kaya mas malapit sa iyo ang pakiramdam ng teksto.",
+        "Hindi hula ang matatanggap mo kundi mahinahong paglalarawan ng mood mo at mga praktikal na ideya."
+      ]
+    },
+    {
+      "h2": "Paano punan ang form",
+      "paragraphs": [
+        "Isulat ang pangalan mo sa itaas, piliin ang petsa ng kapanganakan at hanapin ang lungsod mo sa listahan. Pagkatapos ay kalkulahin ang iyong Auren Effect.",
+        "Halimbawa: Inilagay ni Liza ang kanyang datos, nabasa ang mungkahing maglaan ng oras para sa mahinahong usapan at nagplano ng maikling pahinga nang walang telepono sa gabi."
+      ]
+    },
+    {
+      "h2": "Para saan ang resulta",
+      "paragraphs": [
+        "Ituring ang resulta bilang pagkakataong pakinggan ang sarili. Kung bagay sa iyo ang payo, subukan mo; kung hindi, bitawan mo.",
+        "Para sa kalusugan, batas o pera, mas mabuting kumonsulta sa mga propesyonal."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Libre ba ang personal na horoscope?",
+      "a": "Oo, makakalkula mo ang iyong Auren Effect nang walang bayad."
+    },
+    {
+      "q": "Anong datos ang kailangan ko?",
+      "a": "Kailangan mo ang pangalan, petsa ng kapanganakan at lugar ng kapanganakan."
+    },
+    {
+      "q": "Ano ang pagkakaiba nito sa horoscope ngayon?",
+      "a": "Ginagamit nito ang iyong personal na datos at hindi lang ang sign mo."
+    },
+    {
+      "q": "Hinuhulaan ba ng Auren Effect ang hinaharap?",
+      "a": "Hindi, nagbibigay ito ng mga ideyang pag-isipan at walang hula."
+    }
+  ],
+  "tags": [
+    "personal na horoscope"
+  ],
+  "ui": {
+    "faq": "Mga madalas itanong"
+  }
+}

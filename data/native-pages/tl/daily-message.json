@@ -1,0 +1,56 @@
+{
+  "lang": "tl",
+  "page": "daily-message",
+  "keyword": "horoscope ngayon",
+  "volume": 0,
+  "title": "Horoscope ngayon nang libre: ang mensahe mo para sa araw na ito",
+  "description": "Horoscope ngayon sa simpleng salita: piliin ang iyong sign at magbasa ng magiliw na mensahe na may maliit na payo para sa araw mo.",
+  "intro": "Sa horoscope ngayon ng Aurenstar, nakakatanggap ka araw-araw ng maikli at magiliw na mensahe para sa sign mo. May iniiwan itong kaisipang pag-isipan at maliit na payong puwede mong subukan ngayon din.",
+  "sections": [
+    {
+      "h2": "Paano gumagana ang horoscope ngayon",
+      "paragraphs": [
+        "Pipiliin mo ang sign mo sa itaas at babasahin ang mensahe. May isang positibong pangungusap itong kasama mo sa buong araw at simpleng payong hindi tumatagal.",
+        "Kalmado at praktikal ang mga teksto, walang malalaking pangako."
+      ]
+    },
+    {
+      "h2": "Halimbawa sa araw-araw na buhay",
+      "paragraphs": [
+        "Si Paolo ay Aries at nabasa niyang maaari na niyang gawin ngayon ang tawag na ipinagpapaliban niya. Naglaan siya ng sampung minuto at nakitang mas maliit pala ang gawain kaysa inakala.",
+        "Ang horoscope ngayon ay banayad na tulak: ikaw ang magpapasya kung gagamitin mo ito at paano."
+      ]
+    },
+    {
+      "h2": "Paano unawain ang horoscope ngayon",
+      "paragraphs": [
+        "Ang mensahe ay hindi hula. Tinutulungan ka nitong mag-isip at binibigyan ka ng sandali para sa sarili.",
+        "Para sa kalusugan, batas o pera, kumonsulta sa mga propesyonal."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Libre ba ang horoscope ngayon?",
+      "a": "Oo, mababasa mo ang pang-araw-araw na mensahe nang walang bayad."
+    },
+    {
+      "q": "Gaano kadalas nagbabago ang mensahe?",
+      "a": "Makakabasa ka ng bagong mensahe para sa sign mo araw-araw."
+    },
+    {
+      "q": "Kailangan ko bang ilagay ang petsa ng kapanganakan?",
+      "a": "Pipiliin mo ang iyong sign. Kung hindi mo alam, alamin ito gamit ang calculator ng Aurenstar."
+    },
+    {
+      "q": "Hinuhulaan ba ng horoscope ngayon ang hinaharap?",
+      "a": "Hindi, imbitasyon itong mag-isip at hindi hula."
+    }
+  ],
+  "tags": [
+    "horoscope ngayon"
+  ],
+  "ui": {
+    "faq": "Mga madalas itanong"
+  }
+}

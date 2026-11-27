@@ -1,0 +1,56 @@
+{
+  "lang": "tl",
+  "page": "descreva-me",
+  "keyword": "katangian ng zodiac sign",
+  "volume": 0,
+  "title": "Katangian ng zodiac sign: ang iyong personal na paglalarawan",
+  "description": "Tuklasin ang katangian ng zodiac sign na bagay sa iyo: gamit ang datos ng kapanganakan, gumawa ng personal at nakakatuwang paglalarawang astrolohikal na maibabahagi mo.",
+  "intro": "Aling katangian ng zodiac sign ang kamukha mo? Sa “Ilarawan Mo Ako,” gumagawa ka mula sa datos ng kapanganakan ng personal at nakakatuwang paglalarawang astrolohikal na maibabahagi sa mga kaibigan.",
+  "sections": [
+    {
+      "h2": "Paano ginagawa ang paglalarawan mo",
+      "paragraphs": [
+        "Ilalagay mo sa itaas ang petsa ng kapanganakan, pipiliin ang lungsod mula sa listahan at makakakuha ng teksto tungkol sa iyo na tugma sa datos mo. Magiliw ito, magaan at isinulat para maibahagi.",
+        "Ang layunin ay magsaya at pag-isipan ang sarili, hindi magbigay ng pinal na hatol."
+      ]
+    },
+    {
+      "h2": "Katangian ng zodiac sign sa araw-araw",
+      "paragraphs": [
+        "Halimbawa: Nabasa ni Ramon na mahilig siya sa katahimikan ngunit usisero sa mga bagong tao. Nakilala niya ang sarili at ipinadala ang teksto sa kaibigan, na tumatawang sumagot: “Ikaw na ikaw ito.”",
+        "Ang ganitong paglalarawan ay puwedeng magsimula ng usapan, halimbawa tungkol sa kung paano nararanasan ng bawat isa ang pahinga, pagiging malapit o mga plano."
+      ]
+    },
+    {
+      "h2": "Mga dapat tandaan",
+      "paragraphs": [
+        "Walang tekstong makapagsasabi kung sino ka talaga. Ituring ang paglalarawan bilang imbitasyong isipin ang sarili at itago ang bagay sa iyo.",
+        "Para sa kalusugan, batas o pera, kumonsulta sa mga propesyonal."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Libre ba ang “Ilarawan Mo Ako”?",
+      "a": "Oo, makakagawa ka ng paglalarawan nang walang bayad."
+    },
+    {
+      "q": "Ano ang kailangan ko?",
+      "a": "Ang petsa at lugar ng iyong kapanganakan."
+    },
+    {
+      "q": "Puwede ko bang ibahagi ang paglalarawan?",
+      "a": "Oo, ginawa ang teksto para maibahagi sa iba."
+    },
+    {
+      "q": "Napatunayan ba sa siyensya ang katangian ng zodiac sign?",
+      "a": "Hindi, ang astrolohiya ay para sa libangan at pag-iisip at hindi siyentipikong patunay."
+    }
+  ],
+  "tags": [
+    "katangian ng zodiac sign"
+  ],
+  "ui": {
+    "faq": "Mga madalas itanong"
+  }
+}

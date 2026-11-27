@@ -1,0 +1,56 @@
+{
+  "lang": "tl",
+  "page": "discover-sign",
+  "keyword": "kalkulahin ang rising sign",
+  "volume": 0,
+  "title": "Kalkulahin ang rising sign: alamin nang libre ang iyong sign",
+  "description": "Madaling kalkulahin ang rising sign: ilagay ang petsa, oras at lugar ng kapanganakan at alamin nang libre ang iyong sign na may malinaw at magiliw na payo.",
+  "intro": "Gusto mo bang kalkulahin ang rising sign at makilala ang iyong sign? Sa libreng tool na ito, ilalagay mo ang petsa ng kapanganakan at, kung alam mo, ang oras at lungsod para makita ang iyong sign at rising sign.",
+  "sections": [
+    {
+      "h2": "Ano ang rising sign",
+      "paragraphs": [
+        "Ang rising sign ay ang sign na sumisikat sa silangang abot-tanaw sa sandali ng iyong kapanganakan. Ang sun sign ay nagsasabi tungkol sa iyong diwa, habang ang rising sign ay mas naglalarawan ng impresyong naiiwan mo sa iba.",
+        "Halimbawa: Si Ana ay Libra na may Leo na rising sign. Magaling siyang makipagkasundo, ngunit nakikita siya ng iba bilang napakatiwala sa sarili."
+      ]
+    },
+    {
+      "h2": "Paano kalkulahin ang rising sign sa tool",
+      "paragraphs": [
+        "Piliin ang araw, buwan at taon ng kapanganakan, idagdag ang oras at piliin ang lungsod mula sa listahan. Mahalaga ang oras dahil nagbabago ang rising sign mga bawat dalawang oras.",
+        "Kung hindi mo alam ang oras, ipapakita ng tool ang pinakamalamang na sign. Kung alam mo na ang sign mo, puwede mo rin itong piliin nang direkta."
+      ]
+    },
+    {
+      "h2": "Pagkatapos ng resulta",
+      "paragraphs": [
+        "Mapupunta ka sa pahina tungkol sa iyong sign na may simple at magiliw na payo. Basahin ito bilang imbitasyong makilala ang sarili nang mas mabuti.",
+        "Ang nilalaman ay para pag-isipan at kasiyahan, walang hula. Para sa kalusugan, batas o pera, kumonsulta sa mga propesyonal."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Paano kalkulahin ang rising sign?",
+      "a": "Ilagay sa tool ang petsa, oras at lugar ng iyong kapanganakan."
+    },
+    {
+      "q": "Kailangan bang alam ko ang eksaktong oras?",
+      "a": "Kung mas eksakto ang oras, mas maaasahan ang resulta, dahil nagbabago ang rising sign mga bawat dalawang oras."
+    },
+    {
+      "q": "Libre ba ang tool?",
+      "a": "Oo, magagamit mo ito nang libre at walang account."
+    },
+    {
+      "q": "Paano kung hindi ko alam ang oras ng kapanganakan ko?",
+      "a": "Maaaring ipakita ng tool ang pinakamalamang na sign."
+    }
+  ],
+  "tags": [
+    "kalkulahin ang rising sign"
+  ],
+  "ui": {
+    "faq": "Mga madalas itanong"
+  }
+}
