@@ -43,7 +43,7 @@ const FAQS: FaqItem[] = [
   },
   {
     question: { pt: 'Em quais idiomas o site funciona?', en: 'Which languages does the site work in?', es: '¿En qué idiomas funciona el sitio?' },
-    answer: { pt: 'Em português, inglês e espanhol. O site também pode ser traduzido para outros idiomas.', en: 'In Portuguese, English and Spanish. The site can also be translated into other languages.', es: 'En portugués, inglés y español. El sitio también se puede traducir a otros idiomas.' },
+    answer: { pt: 'Em mais de 45 idiomas, incluindo português, inglês e espanhol. Escolha o idioma no menu do site.', en: 'In more than 45 languages, including Portuguese, English and Spanish. Choose the language in the site menu.', es: 'En más de 45 idiomas, incluidos portugués, inglés y español. Elige el idioma en el menú del sitio.' },
   },
   {
     question: { pt: 'Astrologia é previsão do futuro?', en: 'Is astrology a prediction of the future?', es: '¿La astrología es una predicción del futuro?' },
