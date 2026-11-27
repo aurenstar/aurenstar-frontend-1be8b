@@ -25,11 +25,14 @@ const metaRe = (attr: string, key: string) => new RegExp(`(<meta\\s+${attr}="${k
 /** Address of the same page in a language ("/blog" + "nl" -> "https://aurenstar.com/nl/blog"). */
 export const langUrl = (pagePath: string, lang: string) => { const p = localizeBlogPath(pagePath, lang); return `${SITE}/${lang}${p === '/' ? '' : p}`; };
 
-export function hreflangLinks(pagePath: string): string {
+export function hreflangLinks(pagePath: string, extraLangs: string[] = []): string {
   const en = `${SITE}${pagePath === '/' ? '/' : pagePath}`;
   const lines = [`<link rel="alternate" hreflang="x-default" href="${en}" />`, `<link rel="alternate" hreflang="en" href="${en}" />`];
   // Only the versions Google should index (English + the hand-written pt and es). The machine-translated copies are noindex, so they are not listed.
-  for (const l of SITE_URL_LANGUAGES) lines.push(`<link rel="alternate" hreflang="${langTag(l)}" href="${langUrl(pagePath, l)}" />`);
+  // Also every language that has its own hand-written text for this page (data/native-pages): each version lists all the others and itself,
+  // so Google reads them as the same page in other languages and never as a duplicate.
+  const langs = [...new Set([...SITE_URL_LANGUAGES, ...extraLangs])];
+  for (const l of langs) lines.push(`<link rel="alternate" hreflang="${langTag(l)}" href="${langUrl(pagePath, l)}" />`);
   return lines.join('\n    ');
 }
 
@@ -39,6 +42,7 @@ export async function localizeHtml(
   pagePath: string,
   translate: (strings: string[]) => Promise<string[] | null>,
   fixed?: { t: string; d?: string } | null,
+  nativeLangs: string[] = [],
 ): Promise<string> {
   const titleMatch = /<title>([\s\S]*?)<\/title>/.exec(html);
   const wanted: { kind: 'title' | 'meta'; attr?: string; key?: string; value: string }[] = [];
@@ -87,7 +91,7 @@ export async function localizeHtml(
     .replace(/(<link rel="canonical" href=")[^"]*(")/, `$1${here}$2`)
     .replace(/(<meta property="og:url" content=")[^"]*(")/, `$1${here}$2`)
     .replace(/(<meta property="og:locale" content=")[^"]*(")/, `$1${langTag(lang).replace("-", "_")}$2`)
-    .replace('</head>', `    ${hreflangLinks(pagePath)}\n  </head>`);
+    .replace('</head>', `    ${hreflangLinks(pagePath, nativeLangs)}\n  </head>`);
   // Machine-translated copies (only the head is translated, the text loads in the browser): keep them for visitors but out of Google's index,
   // so Google never shows an empty/wrong-language copy or treats it as a duplicate. Native, English, pt and es pages stay indexed.
   if (isTranslatedLanguage(lang)) {

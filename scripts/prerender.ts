@@ -44,6 +44,12 @@ import {
 } from '../src/utils/seoData';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+// Languages that have their own hand-written text for a main page: they are listed as alternates (hreflang) on the English page too.
+const NATIVE_PAGE_LANGS: Record<string, string[]> = {};
+if (fs.existsSync(path.join(root, 'data/native-pages'))) for (const l of fs.readdirSync(path.join(root, 'data/native-pages'))) for (const f of fs.readdirSync(path.join(root, 'data/native-pages', l)).filter((x) => x.endsWith('.json'))) {
+  const pg = JSON.parse(fs.readFileSync(path.join(root, 'data/native-pages', l, f), 'utf8')).page as string;
+  (NATIVE_PAGE_LANGS[pg === 'home' ? '/' : `/${pg}`] ||= []).push(l);
+}
 const dist = path.join(root, 'dist');
 const templatePath = path.join(dist, 'index.html');
 
@@ -82,7 +88,7 @@ function headBlock(seo: SeoData): string {
     `<meta name="twitter:description" content="${escapeAttr(seo.description)}" />`,
     `<meta name="twitter:image" content="${escapeAttr(seo.image)}" />`,
   ];
-  if (seo.robots === 'index,follow') lines.push(hreflangLinks(seo.path));
+  if (seo.robots === 'index,follow') lines.push(hreflangLinks(seo.path, NATIVE_PAGE_LANGS[seo.path] || []));
   if (seo.ogType === 'article' && seo.publishedTime) {
     lines.push(`<meta property="article:published_time" content="${seo.publishedTime}" />`);
   }

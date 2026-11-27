@@ -74,15 +74,20 @@ export const onRequest = async ({ request, env, params, next }: Context): Promis
   }
   // Main pages (tools, home ...) with their own native text for this language: title, description, keywords and a text block of that country.
   let nativePage: NativePage | null = null;
+  let nativeLangs: string[] = [];
   try {
     const r = await env.ASSETS.fetch(new Request(new URL('/native-pages.json', url).toString(), { headers: { Accept: 'application/json' } }));
-    if (r.ok) nativePage = ((await r.json()) as Record<string, Record<string, NativePage>>)[lang]?.[pagePath] || null;
+    if (r.ok) {
+      const all = (await r.json()) as Record<string, Record<string, NativePage>>;
+      nativePage = all[lang]?.[pagePath] || null;
+      nativeLangs = Object.keys(all).filter((l) => all[l]?.[pagePath]);
+    }
   } catch { nativePage = null; }
   if (nativePage) { const br = `${nativePage.title} | Aurenstar`; fixed = { t: br.length <= 65 ? br : nativePage.title, d: nativePage.description }; }
   let page = await localizeHtml(html, lang, pagePath, async (strings) => {
     const r = await translateStrings(env, request, lang, strings);
     return r.ok ? r.texts : null;
-  }, fixed);
+  }, fixed, nativeLangs);
   if (nativePage) page = injectNativePage(page, nativePage);
   return new Response(request.method === 'HEAD' ? null : page, {
     status: 200,
