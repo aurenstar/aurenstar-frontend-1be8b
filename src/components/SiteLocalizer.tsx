@@ -347,15 +347,27 @@ export const SiteLocalizer: React.FC = () => {
       window.clearTimeout(timer);
       timer = window.setTimeout(() => !stopped && run(), 350);
     };
-    const observer = new MutationObserver(schedule);
-    observer.observe(document.body, { childList: true, subtree: true, characterData: true });
-    const titleEl = document.querySelector('title');
-    if (titleEl) observer.observe(titleEl, { childList: true, characterData: true, subtree: true });
-    schedule();
+    // Hand-written texts of this language (public/ui/<lang>.json: English text -> native text) win over anything saved before and need no network or AI.
+    let observer: MutationObserver | undefined;
+    const start = () => {
+      if (stopped) return;
+      observer = new MutationObserver(schedule);
+      observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+      const titleEl = document.querySelector('title');
+      if (titleEl) observer.observe(titleEl, { childList: true, characterData: true, subtree: true });
+      schedule();
+    };
+    fetch(`/ui/${lang}.json`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((m) => {
+        if (m && typeof m === 'object') Object.assign(cache, m);
+      })
+      .catch(() => {})
+      .finally(start);
 
     return () => {
       stopped = true;
-      observer.disconnect();
+      observer?.disconnect();
       window.clearTimeout(timer);
       window.clearTimeout(slow);
       setBusy(false);
