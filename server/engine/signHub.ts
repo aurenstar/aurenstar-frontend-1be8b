@@ -55,19 +55,19 @@ const HUB_CSS = `*{box-sizing:border-box}body{margin:0;font:17px/1.7 -apple-syst
 main{max-width:860px;margin:0 auto;padding:14px 20px 56px}
 .card{background:#fff;border-radius:24px;padding:28px 30px;margin:0 0 20px;box-shadow:0 10px 26px rgba(23,54,111,.08)}
 .card.hero{padding:0;overflow:hidden;text-align:center}
-.card.hero .band{height:170px;background:#3982C8 url(/assets/tools/tool-signcalc.svg) center/cover no-repeat}
-.card.hero .in{padding:0 28px 30px;margin-top:-38px}
-.sym{display:inline-flex;align-items:center;justify-content:center;width:76px;height:76px;border-radius:50%;background:#E73578;color:#fff;font:400 2.3rem/1 "Segoe UI Symbol","Noto Sans Symbols",sans-serif;border:5px solid #fff;box-shadow:0 8px 20px rgba(231,53,120,.30)}
+.card.hero .band{position:relative;height:200px;overflow:hidden;background:radial-gradient(circle at 18% 25%,rgba(255,255,255,.38) 0,transparent 38%),radial-gradient(circle at 85% 80%,rgba(231,53,120,.75) 0,transparent 55%),linear-gradient(135deg,#3982C8 0%,#2a5fa8 45%,#17366F 100%)}.card.hero .band::before{content:"";position:absolute;top:34px;left:9%;width:4px;height:4px;border-radius:50%;background:#fff;box-shadow:110px 46px 0 #fff,250px -8px 0 rgba(255,255,255,.7),420px 70px 0 #fff,560px 18px 0 rgba(255,255,255,.7),690px 96px 0 #fff,330px 112px 0 rgba(255,255,255,.55),150px 120px 0 rgba(255,255,255,.55)}.card.hero .band::after{content:"";position:absolute;right:-60px;top:-70px;width:240px;height:240px;border-radius:50%;border:2px dashed rgba(255,255,255,.35)}.card.hero .wm{position:absolute;left:50%;top:50%;transform:translate(-50%,-62%);font:400 9rem/1 "Segoe UI Symbol","Noto Sans Symbols",sans-serif;color:rgba(255,255,255,.16)}.card.hero::after{content:"";display:block;height:5px;background:linear-gradient(90deg,#3982C8,#E73578)}
+.card.hero .in{padding:0 28px 26px;margin-top:-40px}.chips{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:16px 0 0}.chips span{background:#FBE1EB;color:#E73578;font-weight:700;font-size:.88rem;padding:7px 16px;border-radius:999px;letter-spacing:.02em}.chips span.b{background:#E4F1FF;color:#3982C8}
+.sym{display:inline-flex;align-items:center;justify-content:center;width:76px;height:76px;border-radius:50%;background:#E73578;color:#fff;font:400 2.3rem/1 "Segoe UI Symbol","Noto Sans Symbols",sans-serif;border:5px solid #fff;box-shadow:0 0 0 6px rgba(231,53,120,.18),0 8px 22px rgba(231,53,120,.40)}
 h1{font-size:2rem;line-height:1.25;margin:.5em 0 .2em;color:#172B4D;font-weight:700}
-h2{font-size:.95rem;margin:0 0 .9em;color:#172B4D;font-weight:800;letter-spacing:.2em;text-transform:uppercase;display:inline-block;padding-bottom:8px;border-bottom:3px solid #3982C8}
+h2{font-size:.95rem;margin:0 0 .9em;color:#172B4D;font-weight:800;letter-spacing:.2em;text-transform:uppercase;display:inline-block;padding-bottom:8px;border-bottom:3px solid #E73578}
 .lead{font-size:1.08rem;color:#647DA5;margin:.4em auto 0;max-width:620px}
-.facts{display:flex;gap:12px;flex-wrap:wrap}.facts div{flex:1 1 200px;background:#E4F1FF;border-radius:18px;padding:14px 18px}
+.facts{display:flex;gap:12px;flex-wrap:wrap}.facts div{flex:1 1 200px;background:#E4F1FF;border-radius:18px;padding:14px 18px;border-inline-start:5px solid #E73578}
 .facts span{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;color:#647DA5;font-weight:700}.facts b{color:#172B4D;font-size:1.15rem;font-weight:600}
-p{margin:.3em 0;color:#172B4D}a{color:#3982C8;text-decoration:none}a:hover{text-decoration:underline}ul.l{list-style:none;padding:0;margin:.3em 0}ul.l li{margin:.5em 0;padding:12px 16px;background:#E4F1FF;border-radius:16px;font-weight:500}
+p{margin:.3em 0;color:#172B4D}a{color:#3982C8;text-decoration:none}a:hover{color:#E73578}ul.l{list-style:none;padding:0;margin:.3em 0}ul.l li{margin:.5em 0;padding:12px 16px;background:#E4F1FF;border-radius:16px;font-weight:500;border-inline-start:4px solid #E73578}
 .cta{display:inline-block;margin:.2em 0 20px;padding:.9em 2em;background:#E73578;color:#fff!important;border-radius:999px;text-decoration:none!important;font-weight:700;box-shadow:0 8px 20px rgba(231,53,120,.30)}
-details{border-top:1px solid #D9E8F8;padding:.8em 0}details:first-of-type{border-top:0}summary{cursor:pointer;font-weight:600;color:#172B4D;font-size:1.05rem}details p{color:#647DA5}
+details{border-top:1px solid #D9E8F8;padding:.8em 0}details:first-of-type{border-top:0}summary{cursor:pointer;font-weight:600;color:#172B4D;font-size:1.05rem}summary::marker{color:#E73578}details p{color:#647DA5}
 footer{max-width:860px;margin:0 auto;padding:10px 20px 40px;display:flex;gap:18px;flex-wrap:wrap;justify-content:center;font-size:.9rem}footer a{color:#647DA5}
-@media(max-width:560px){.card{padding:22px 20px}.card.hero{padding:0}.card.hero .band{height:120px}h1{font-size:1.5rem}.top a.p{padding:8px 13px;font-size:.75rem}}`;
+@media(max-width:560px){.card{padding:22px 20px}.card.hero{padding:0}.card.hero .band{height:140px}.card.hero .wm{font-size:6rem}h1{font-size:1.5rem}.top a.p{padding:8px 13px;font-size:.75rem}}`;
 
 const clip = (s: string, max = 155) => (s.length <= max ? s : `${s.slice(0, max - 1).replace(/[\s,;:.-]+\S*$/, '')}…`);
 
@@ -114,7 +114,7 @@ ${alt}
 <body>
 <header class="top"><a href="${base || '/'}"><img src="/logo-aurenstar.webp" alt="Aurenstar" /></a><a class="p" href="${base || '/'}">${esc(t.home)}</a><a class="p" href="${lang === 'en' ? '/dictionary' : base + '/dicionario'}">${esc(t.dict)}</a><a class="p" href="${base}/blog">Blog</a><a class="p" href="${base}/newsletter">Newsletter</a><a class="p" href="${base || ''}/#faq">FAQ</a><a class="p" href="${base}/contact">${esc(t.contact)}</a></header>
 <main>
-<section class="card hero"><div class="band"></div><div class="in"><div class="sym">${esc(sign.symbol)}&#xFE0E;</div><h1>${esc(title)}</h1><p class="lead">${esc(sign.essence[lang])}</p></div></section>
+<section class="card hero"><div class="band"><span class="wm">${esc(sign.symbol)}&#xFE0E;</span></div><div class="in"><div class="sym">${esc(sign.symbol)}&#xFE0E;</div><h1>${esc(title)}</h1><p class="lead">${esc(sign.essence[lang])}</p><div class="chips"><span>${esc(p)}</span><span class="b">${esc(e)}</span></div></div></section>
 <section class="card"><h2>${esc(t.facts)}</h2><div class="facts"><div><span>${esc(t.period)}</span><b>${esc(p)}</b></div><div><span>${esc(t.element)}</span><b>${esc(e)}</b></div></div></section>
 ${sections.map((x) => `<section class="card"><h2>${esc(x.h)}</h2>\n<p>${esc(x.p)}</p></section>`).join('\n')}
 <section class="card"><h2>${esc(t.advice)}</h2>
