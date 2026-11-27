@@ -25,6 +25,7 @@ import { hreflangLinks, langUrl } from '../server/engine/localizePage';
 import { renderWebStory, checkStory, storyPath, type WebStory } from '../server/engine/webStory';
 import { wrapPluginStory, type WpStory } from '../server/engine/storyPlugin';
 import { renderStoriesIndex } from '../server/engine/storiesIndex';
+import { checkNativePage, type NativePage } from '../server/engine/nativePage';
 import { renderNativeArticle, renderNativeHub, pathOf, hubPath, type NativeArticle } from '../server/engine/nativeArticle';
 import { URL_LANGUAGES } from '../src/utils/urlLang';
 import { SIGNS_DATA } from '../src/data/signsData';
@@ -512,3 +513,17 @@ fs.writeFileSync(
 console.log(
   `prerender: ${seen.size} pages written, ${nativeAll.length} native articles, ${sitemap.length * (sitemapLangs().length + 1)} URLs in sitemap (${[...strongLangs].filter((l) => URL_LANGUAGES.includes(l as any)).length + 0} languages; the rest are left out on purpose), ${redirects.length} redirect rules (${SITE_URL})`
 );
+
+// ---- native text for the main pages (tools, home ...): data/native-pages/<lang>/<page>.json -> dist/native-pages.json { lang: { '/page': {...} } }
+{
+  const dir = path.join(root, 'data/native-pages');
+  const out: Record<string, Record<string, NativePage>> = {};
+  if (fs.existsSync(dir)) for (const l of fs.readdirSync(dir)) for (const f of fs.readdirSync(path.join(dir, l)).filter((x) => x.endsWith('.json'))) {
+    const p = JSON.parse(fs.readFileSync(path.join(dir, l, f), 'utf8')) as NativePage;
+    const bad = checkNativePage(p);
+    if (bad.length) { console.warn(`prerender: native page ${l}/${f} skipped: ${bad.join('; ')}`); continue; }
+    (out[l] ||= {})[p.page === 'home' ? '/' : `/${p.page}`] = p;
+  }
+  fs.writeFileSync(path.join(dist, 'native-pages.json'), JSON.stringify(out));
+  console.log(`prerender: native-pages.json -> ${Object.values(out).reduce((n, o) => n + Object.keys(o).length, 0)} pages`);
+}

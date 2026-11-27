@@ -1,0 +1,51 @@
+{
+ "lang": "de",
+ "page": "discover-sign",
+ "keyword": "aszendent berechnen",
+ "volume": 135000,
+ "title": "Aszendent berechnen: Dein Aszendent kostenlos in Sekunden",
+ "description": "Aszendent berechnen leicht gemacht: Gib Geburtsdatum, Uhrzeit und Ort ein und finde kostenlos dein Aszendent-Zeichen heraus, mit verständlicher Erklärung.",
+ "intro": "Mit dem kostenlosen Rechner von Aurenstar kannst du deinen Aszendenten berechnen. Du brauchst nur dein Geburtsdatum, die möglichst genaue Uhrzeit und deinen Geburtsort.",
+ "sections": [
+  {
+   "h2": "Was ist der Aszendent?",
+   "paragraphs": [
+    "Der Aszendent ist das Sternzeichen, das im Moment deiner Geburt am Osthorizont aufgegangen ist. Während dein Sonnenzeichen zeigt, wie du dich innerlich fühlst, beschreibt der Aszendent oft den ersten Eindruck, den andere von dir bekommen.",
+    "Zwei Menschen mit dem gleichen Sonnenzeichen können deshalb ganz unterschiedlich wirken. Ein Beispiel: Anna ist Waage mit Löwe-Aszendent und tritt sehr selbstbewusst auf, Ben ist ebenfalls Waage mit Jungfrau-Aszendent und wirkt eher zurückhaltend und genau."
+   ]
+  },
+  {
+   "h2": "So kannst du deinen Aszendenten berechnen",
+   "paragraphs": [
+    "Der Aszendent ändert sich ungefähr alle zwei Stunden, weil sich der Himmel im Laufe des Tages einmal um die Erde dreht. Darum reicht das Geburtsdatum allein nicht aus: Du brauchst auch die Uhrzeit und den Ort deiner Geburt.",
+    "Die Geburtsuhrzeit findest du oft im Geburtsregister, im Mutterpass oder im Familienbuch. Gib die Daten oben in den Rechner ein, und du siehst sofort dein Aszendent-Zeichen."
+   ]
+  },
+  {
+   "h2": "Was tun, wenn du die Geburtszeit nicht kennst?",
+   "paragraphs": [
+    "Wenn die Uhrzeit fehlt, ist die Berechnung nur eine grobe Annäherung. Frage am besten Eltern oder Verwandte, oder sieh in alten Unterlagen nach. Schon eine Abweichung von einer Stunde kann das Zeichen verändern."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie kann ich meinen Aszendenten berechnen?",
+   "a": "Gib im Rechner dein Geburtsdatum, die Geburtsuhrzeit und den Geburtsort ein. Aus diesen drei Angaben ergibt sich dein Aszendent-Zeichen."
+  },
+  {
+   "q": "Muss ich die genaue Uhrzeit kennen?",
+   "a": "Ja, je genauer die Uhrzeit, desto verlässlicher das Ergebnis, denn der Aszendent wechselt etwa alle zwei Stunden."
+  },
+  {
+   "q": "Ist die Berechnung des Aszendenten kostenlos?",
+   "a": "Ja, der Rechner auf Aurenstar ist kostenlos und du musst dich dafür nicht anmelden."
+  },
+  {
+   "q": "Was ist der Unterschied zwischen Sonnenzeichen und Aszendent?",
+   "a": "Das Sonnenzeichen hängt vom Geburtstag ab und steht für dein Inneres. Der Aszendent hängt von der Uhrzeit ab und beschreibt eher, wie du auf andere wirkst."
+  }
+ ],
+ "tags": ["aszendent berechnen", "berechnung aszendent", "Aszendent Sternzeichen", "Geburtszeit Aszendent"],
+ "ui": { "faq": "Häufige Fragen" }
+}

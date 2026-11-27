@@ -3,6 +3,7 @@
 // address, hreflang list). The page text is translated in the browser. Anything that is not a language address passes through.
 import { translateStrings, type TranslateEnv } from '../../server/engine/translateStrings';
 import { localizeHtml } from '../../server/engine/localizePage';
+import { injectNativePage, type NativePage } from '../../server/engine/nativePage';
 import { isUrlLanguage } from '../../src/utils/urlLang';
 import { enToLocal, localToEn } from '../../src/utils/localizedSlugs';
 
@@ -71,10 +72,18 @@ export const onRequest = async ({ request, env, params, next }: Context): Promis
       if (r.ok) fixed = ((await r.json()) as Record<string, Record<string, { t: string; d?: string }>>)[lang]?.[decodeURIComponent(m[1])] || null;
     } catch { fixed = null; }
   }
-  const page = await localizeHtml(html, lang, pagePath, async (strings) => {
+  // Main pages (tools, home ...) with their own native text for this language: title, description, keywords and a text block of that country.
+  let nativePage: NativePage | null = null;
+  try {
+    const r = await env.ASSETS.fetch(new Request(new URL('/native-pages.json', url).toString(), { headers: { Accept: 'application/json' } }));
+    if (r.ok) nativePage = ((await r.json()) as Record<string, Record<string, NativePage>>)[lang]?.[pagePath] || null;
+  } catch { nativePage = null; }
+  if (nativePage) { const br = `${nativePage.title} | Aurenstar`; fixed = { t: br.length <= 65 ? br : nativePage.title, d: nativePage.description }; }
+  let page = await localizeHtml(html, lang, pagePath, async (strings) => {
     const r = await translateStrings(env, request, lang, strings);
     return r.ok ? r.texts : null;
   }, fixed);
+  if (nativePage) page = injectNativePage(page, nativePage);
   return new Response(request.method === 'HEAD' ? null : page, {
     status: 200,
     headers: {
