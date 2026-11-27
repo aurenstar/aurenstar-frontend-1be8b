@@ -15,14 +15,14 @@ const esc = (v: string) => v.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 
 
 const T: Record<HubLang, {
-  home: string; tools: string; articles: string; faq: string; articlesAbout: (n: string) => string; cta: string; facts: string;
+  home: string; dict: string; contact: string; tools: string; articles: string; faq: string; articlesAbout: (n: string) => string; cta: string; facts: string;
   title: (n: string) => string; desc: (n: string, p: string, e: string) => string;
   period: string; element: string; advice: string;
   q: { dates: (n: string) => string; element: (n: string) => string; personality: (n: string) => string; tip: (n: string) => string };
   a: { dates: (n: string, p: string) => string; element: (n: string, e: string) => string };
 }> = {
   en: {
-    home: 'Home', tools: 'Free tools', articles: 'Articles', faq: 'Common questions', articlesAbout: (n) => `Articles about ${n}`, cta: 'Discover your sign', facts: 'Quick facts',
+    home: 'Home', dict: 'Dictionary', contact: 'Contact', tools: 'Free tools', articles: 'Articles', faq: 'Common questions', articlesAbout: (n) => `Articles about ${n}`, cta: 'Discover your sign', facts: 'Quick facts',
     title: (n) => `${n}: Personality, Traits and Everything About the Sign`,
     desc: (n, p, e) => `${n} (${p}): ${e.toLowerCase()} sign. Personality, strengths and articles to understand ${n} in simple language.`,
     period: 'Dates', element: 'Element', advice: 'A simple tip',
@@ -30,7 +30,7 @@ const T: Record<HubLang, {
     a: { dates: (n, p) => `${n} covers ${p}.`, element: (n, e) => `${n} is a ${e.toLowerCase()} sign.` },
   },
   pt: {
-    home: 'Início', tools: 'Ferramentas grátis', articles: 'Artigos', faq: 'Perguntas frequentes', articlesAbout: (n) => `Artigos sobre ${n}`, cta: 'Descubra o seu signo', facts: 'Em resumo',
+    home: 'Início', dict: 'Dicionário', contact: 'Contato', tools: 'Ferramentas grátis', articles: 'Artigos', faq: 'Perguntas frequentes', articlesAbout: (n) => `Artigos sobre ${n}`, cta: 'Descubra o seu signo', facts: 'Em resumo',
     title: (n) => `${n}: personalidade, características e tudo sobre o signo`,
     desc: (n, p, e) => `${n} (${p}): signo de ${e.toLowerCase()}. Personalidade, pontos fortes e artigos para entender ${n} de forma simples.`,
     period: 'Datas', element: 'Elemento', advice: 'Uma dica simples',
@@ -38,7 +38,7 @@ const T: Record<HubLang, {
     a: { dates: (n, p) => `${n} vai de ${p}.`, element: (n, e) => `${n} é um signo de ${e.toLowerCase()}.` },
   },
   es: {
-    home: 'Inicio', tools: 'Herramientas gratis', articles: 'Artículos', faq: 'Preguntas frecuentes', articlesAbout: (n) => `Artículos sobre ${n}`, cta: 'Descubre tu signo', facts: 'En resumen',
+    home: 'Inicio', dict: 'Diccionario', contact: 'Contacto', tools: 'Herramientas gratis', articles: 'Artículos', faq: 'Preguntas frecuentes', articlesAbout: (n) => `Artículos sobre ${n}`, cta: 'Descubre tu signo', facts: 'En resumen',
     title: (n) => `${n}: personalidad, rasgos y todo sobre el signo`,
     desc: (n, p, e) => `${n} (${p}): signo de ${e.toLowerCase()}. Personalidad, puntos fuertes y artículos para entender ${n} de forma sencilla.`,
     period: 'Fechas', element: 'Elemento', advice: 'Un consejo sencillo',
@@ -47,25 +47,27 @@ const T: Record<HubLang, {
   },
 };
 
-const HUB_CSS = `*{box-sizing:border-box}body{margin:0;font:17px/1.7 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",sans-serif;color:#172B4D;background:linear-gradient(135deg,#C9E5FF 0%,#DCEBFF 55%,#E9E4FA 100%);background-attachment:fixed;min-height:100vh}
-.top{max-width:1040px;margin:0 auto;padding:16px 20px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-.top img{height:38px;width:auto;margin-inline-end:10px;display:block}
-.top a.p{padding:9px 18px;border-radius:999px;background:#E4F1FF;color:#3982C8;text-decoration:none;font-weight:600;font-size:.82rem;letter-spacing:.04em;text-transform:uppercase}
+const HUB_CSS = `*{box-sizing:border-box}body{margin:0;font:17px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;color:#172B4D;background:#C9E5FF;min-height:100vh}
+.top{max-width:1180px;margin:0 auto;padding:18px 24px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.top img{height:40px;width:auto;margin-inline-end:auto;display:block}
+.top a.p{padding:10px 18px;border-radius:999px;background:#E4F1FF;color:#3982C8;text-decoration:none;font-weight:500;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase}
 .top a.p.on{background:#E73578;color:#fff}
-main{max-width:820px;margin:0 auto;padding:8px 20px 48px}
-.card{background:#fff;border:1px solid #D9E8F8;border-radius:24px;padding:26px 28px;margin:0 0 18px;box-shadow:0 8px 30px rgba(57,130,200,.10)}
-.hero{text-align:center;padding:34px 28px}
-.sym{display:inline-flex;align-items:center;justify-content:center;width:72px;height:72px;border-radius:20px;background:#FBE1EB;color:#E73578;font-size:2.2rem;margin-bottom:10px}
-h1{font-size:1.9rem;line-height:1.25;margin:.2em 0;color:#17366F}
-h2{font-size:1.25rem;margin:0 0 .5em;color:#17366F}
-.lead{font-size:1.08rem;color:#647DA5;margin:.4em auto 0;max-width:640px}
-.facts{display:flex;gap:12px;flex-wrap:wrap}.facts div{flex:1 1 200px;background:#E4F1FF;border-radius:16px;padding:14px 18px}
-.facts span{display:block;font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:#647DA5;font-weight:700}.facts b{color:#17366F;font-size:1.1rem}
-p{margin:.3em 0}a{color:#3982C8}ul.l{padding-inline-start:1.1em;margin:.3em 0}ul.l li{margin:.35em 0}
-.cta{display:inline-block;margin:.2em 0 18px;padding:.85em 1.7em;background:#E73578;color:#fff;border-radius:999px;text-decoration:none;font-weight:700;box-shadow:0 6px 18px rgba(231,53,120,.30)}
-details{border-top:1px solid #D9E8F8;padding:.7em 0}details:first-of-type{border-top:0}summary{cursor:pointer;font-weight:700;color:#17366F}
-footer{max-width:820px;margin:0 auto;padding:10px 20px 36px;display:flex;gap:18px;flex-wrap:wrap;justify-content:center;font-size:.9rem}footer a{color:#647DA5}
-@media(max-width:560px){.card{padding:20px 18px;border-radius:20px}h1{font-size:1.5rem}}`;
+main{max-width:860px;margin:0 auto;padding:14px 20px 56px}
+.card{background:#fff;border-radius:24px;padding:28px 30px;margin:0 0 20px;box-shadow:0 10px 26px rgba(23,54,111,.08)}
+.card.hero{padding:0;overflow:hidden;text-align:center}
+.card.hero .band{height:170px;background:#3982C8 url(/assets/tools/tool-signcalc.svg) center/cover no-repeat}
+.card.hero .in{padding:0 28px 30px;margin-top:-38px}
+.sym{display:inline-flex;align-items:center;justify-content:center;width:76px;height:76px;border-radius:50%;background:#E73578;color:#fff;font:400 2.3rem/1 "Segoe UI Symbol","Noto Sans Symbols",sans-serif;border:5px solid #fff;box-shadow:0 8px 20px rgba(231,53,120,.30)}
+h1{font-size:2rem;line-height:1.25;margin:.5em 0 .2em;color:#172B4D;font-weight:700}
+h2{font-size:.95rem;margin:0 0 .9em;color:#172B4D;font-weight:800;letter-spacing:.2em;text-transform:uppercase;display:inline-block;padding-bottom:8px;border-bottom:3px solid #3982C8}
+.lead{font-size:1.08rem;color:#647DA5;margin:.4em auto 0;max-width:620px}
+.facts{display:flex;gap:12px;flex-wrap:wrap}.facts div{flex:1 1 200px;background:#E4F1FF;border-radius:18px;padding:14px 18px}
+.facts span{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;color:#647DA5;font-weight:700}.facts b{color:#172B4D;font-size:1.15rem;font-weight:600}
+p{margin:.3em 0;color:#172B4D}a{color:#3982C8;text-decoration:none}a:hover{text-decoration:underline}ul.l{list-style:none;padding:0;margin:.3em 0}ul.l li{margin:.5em 0;padding:12px 16px;background:#E4F1FF;border-radius:16px;font-weight:500}
+.cta{display:inline-block;margin:.2em 0 20px;padding:.9em 2em;background:#E73578;color:#fff!important;border-radius:999px;text-decoration:none!important;font-weight:700;box-shadow:0 8px 20px rgba(231,53,120,.30)}
+details{border-top:1px solid #D9E8F8;padding:.8em 0}details:first-of-type{border-top:0}summary{cursor:pointer;font-weight:600;color:#172B4D;font-size:1.05rem}details p{color:#647DA5}
+footer{max-width:860px;margin:0 auto;padding:10px 20px 40px;display:flex;gap:18px;flex-wrap:wrap;justify-content:center;font-size:.9rem}footer a{color:#647DA5}
+@media(max-width:560px){.card{padding:22px 20px}.card.hero{padding:0}.card.hero .band{height:120px}h1{font-size:1.5rem}.top a.p{padding:8px 13px;font-size:.75rem}}`;
 
 const clip = (s: string, max = 155) => (s.length <= max ? s : `${s.slice(0, max - 1).replace(/[\s,;:.-]+\S*$/, '')}…`);
 
@@ -110,9 +112,9 @@ ${alt}
 <style>${HUB_CSS}</style>
 </head>
 <body>
-<header class="top"><a href="${base || '/'}"><img src="/logo-aurenstar.webp" alt="Aurenstar" /></a><a class="p" href="${base || '/'}">${esc(t.home)}</a><a class="p" href="${base}/discover-sign">${esc(t.tools)}</a><a class="p" href="${base}/blog">${esc(t.articles)}</a></header>
+<header class="top"><a href="${base || '/'}"><img src="/logo-aurenstar.webp" alt="Aurenstar" /></a><a class="p" href="${base || '/'}">${esc(t.home)}</a><a class="p" href="${lang === 'en' ? '/dictionary' : base + '/dicionario'}">${esc(t.dict)}</a><a class="p" href="${base}/blog">Blog</a><a class="p" href="${base}/newsletter">Newsletter</a><a class="p" href="${base || ''}/#faq">FAQ</a><a class="p" href="${base}/contact">${esc(t.contact)}</a></header>
 <main>
-<section class="card hero"><div class="sym">${esc(sign.symbol)}</div><h1>${esc(title)}</h1><p class="lead">${esc(sign.essence[lang])}</p></section>
+<section class="card hero"><div class="band"></div><div class="in"><div class="sym">${esc(sign.symbol)}&#xFE0E;</div><h1>${esc(title)}</h1><p class="lead">${esc(sign.essence[lang])}</p></div></section>
 <section class="card"><h2>${esc(t.facts)}</h2><div class="facts"><div><span>${esc(t.period)}</span><b>${esc(p)}</b></div><div><span>${esc(t.element)}</span><b>${esc(e)}</b></div></div></section>
 ${sections.map((x) => `<section class="card"><h2>${esc(x.h)}</h2>\n<p>${esc(x.p)}</p></section>`).join('\n')}
 <section class="card"><h2>${esc(t.advice)}</h2>
