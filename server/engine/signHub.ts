@@ -110,7 +110,7 @@ ${alt}
 <style>${HUB_CSS}</style>
 </head>
 <body>
-<header class="top"><a href="${base || '/'}"><img src="/assets/aurenstar-logo-v2.png" alt="Aurenstar" /></a><a class="p" href="${base || '/'}">${esc(t.home)}</a><a class="p" href="${base}/discover-sign">${esc(t.tools)}</a><a class="p" href="${base}/blog">${esc(t.articles)}</a></header>
+<header class="top"><a href="${base || '/'}"><img src="/logo-aurenstar.webp" alt="Aurenstar" /></a><a class="p" href="${base || '/'}">${esc(t.home)}</a><a class="p" href="${base}/discover-sign">${esc(t.tools)}</a><a class="p" href="${base}/blog">${esc(t.articles)}</a></header>
 <main>
 <section class="card hero"><div class="sym">${esc(sign.symbol)}</div><h1>${esc(title)}</h1><p class="lead">${esc(sign.essence[lang])}</p></section>
 <section class="card"><h2>${esc(t.facts)}</h2><div class="facts"><div><span>${esc(t.period)}</span><b>${esc(p)}</b></div><div><span>${esc(t.element)}</span><b>${esc(e)}</b></div></div></section>
