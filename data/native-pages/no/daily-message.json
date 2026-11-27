@@ -1,0 +1,59 @@
+{
+  "lang": "no",
+  "page": "daily-message",
+  "keyword": "dagens horoskop",
+  "volume": 0,
+  "title": "Dagens horoskop gratis: budskapet ditt i dag",
+  "description": "Dagens horoskop med enkle ord: velg stjernetegnet ditt og les et vennlig budskap med et lite råd for dagen. Helt gratis.",
+  "intro": "Med dagens horoskop fra Aurenstar får du hver dag et kort, vennlig budskap for tegnet ditt. Det gir deg en tanke å fundere på og et lite råd du kan prøve allerede i dag.",
+  "sections": [
+    {
+      "h2": "Slik fungerer dagens horoskop",
+      "paragraphs": [
+        "Du velger tegnet ditt øverst og leser budskapet ditt. Det inneholder én positiv setning som følger deg gjennom dagen og et enkelt råd som ikke tar lang tid.",
+        "Tekstene er rolige og praktiske, uten store løfter."
+      ]
+    },
+    {
+      "h2": "Et eksempel fra hverdagen",
+      "paragraphs": [
+        "Erik er Væren og leser at han i dag endelig kan ta den telefonen han har utsatt. Han bruker ti minutter og oppdager at oppgaven var mindre enn han trodde.",
+        "Dagens horoskop er et vennlig dytt: du bestemmer om og hvordan du bruker det."
+      ]
+    },
+    {
+      "h2": "Slik forstår du dagens horoskop",
+      "paragraphs": [
+        "Budskapet er ikke en spådom. Det hjelper deg å tenke etter og gir deg et øyeblikk for deg selv.",
+        "Spør fagfolk om helse, jus og penger."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Er dagens horoskop gratis?",
+      "a": "Ja, du kan lese det daglige budskapet uten å betale."
+    },
+    {
+      "q": "Hvor ofte endres budskapet?",
+      "a": "Du kan lese et nytt budskap for tegnet ditt hver dag."
+    },
+    {
+      "q": "Må jeg skrive inn fødselsdatoen?",
+      "a": "Du velger tegnet ditt. Vet du ikke hvilket det er, kan du finne det med Aurenstars kalkulator."
+    },
+    {
+      "q": "Spår dagens horoskop framtiden?",
+      "a": "Nei, det er en invitasjon til ettertanke og ikke en spådom."
+    }
+  ],
+  "tags": [
+    "dagens horoskop",
+    "dagens horoskop skorpion",
+    "dagens horoskop fiskene",
+    "dagens horoskop vekten"
+  ],
+  "ui": {
+    "faq": "Vanlige spørsmål"
+  }
+}

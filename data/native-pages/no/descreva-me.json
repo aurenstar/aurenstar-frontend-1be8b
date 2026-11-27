@@ -1,0 +1,56 @@
+{
+  "lang": "no",
+  "page": "descreva-me",
+  "keyword": "stjernetegn egenskaper",
+  "volume": 0,
+  "title": "Stjernetegn egenskaper: din personlige beskrivelse",
+  "description": "Finn ut hvilke stjernetegn egenskaper som passer deg: lag med fødselsopplysningene dine en personlig, morsom astrologisk beskrivelse du kan dele.",
+  "intro": "Hvilke stjernetegn egenskaper ligner på deg? Med “Beskriv meg” lager du ut fra fødselsopplysningene dine en personlig, morsom astrologisk beskrivelse du kan dele med venner.",
+  "sections": [
+    {
+      "h2": "Slik blir beskrivelsen til",
+      "paragraphs": [
+        "Du skriver inn fødselsdatoen øverst, velger byen din fra listen og får en tekst om deg selv som passer opplysningene dine. Den er vennlig, lett og laget for å deles.",
+        "Målet er å ha det moro og tenke over seg selv, ikke å felle endelige dommer."
+      ]
+    },
+    {
+      "h2": "Stjernetegn egenskaper i hverdagen",
+      "paragraphs": [
+        "Et eksempel: Henrik leser at han elsker ro, men er nysgjerrig på nye mennesker. Han kjenner seg igjen og sender teksten til en venn, som ler og svarer: «Det er jo deg.»",
+        "Slike beskrivelser kan sette i gang en samtale, for eksempel om hvordan hver og en opplever pauser, nærhet eller planer."
+      ]
+    },
+    {
+      "h2": "Dette bør du huske",
+      "paragraphs": [
+        "Ingen tekst kan si hvem du egentlig er. Se beskrivelsen som en invitasjon til å tenke på deg selv og behold det som passer.",
+        "Spør fagfolk om helse, jus og penger."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Er «Beskriv meg» gratis?",
+      "a": "Ja, du kan lage beskrivelsen din uten å betale."
+    },
+    {
+      "q": "Hva trenger jeg?",
+      "a": "Fødselsdatoen og fødestedet ditt."
+    },
+    {
+      "q": "Kan jeg dele beskrivelsen?",
+      "a": "Ja, teksten er laget for å deles med andre."
+    },
+    {
+      "q": "Er stjernetegn egenskaper vitenskapelig bevist?",
+      "a": "Nei, astrologi er til underholdning og ettertanke og er ikke vitenskapelig bevis."
+    }
+  ],
+  "tags": [
+    "stjernetegn egenskaper"
+  ],
+  "ui": {
+    "faq": "Vanlige spørsmål"
+  }
+}

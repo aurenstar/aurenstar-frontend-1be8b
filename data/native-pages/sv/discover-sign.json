@@ -1,0 +1,57 @@
+{
+  "lang": "sv",
+  "page": "discover-sign",
+  "keyword": "beräkna ascendent",
+  "volume": 0,
+  "title": "Beräkna ascendent: ta reda på ditt tecken gratis",
+  "description": "Att beräkna ascendent är enkelt: fyll i födelsedatum, tid och plats och ta reda på ditt tecken gratis med tydliga, vänliga tips.",
+  "intro": "Vill du beräkna ascendent och lära känna ditt stjärntecken? I det här gratisverktyget fyller du i ditt födelsedatum och, om du vet, tid och stad, för att se ditt tecken och din ascendent.",
+  "sections": [
+    {
+      "h2": "Vad är en ascendent",
+      "paragraphs": [
+        "Ascendenten är det tecken som steg upp vid den östra horisonten i samma stund som du föddes. Ditt solstjärntecken berättar om din kärna, ascendenten beskriver mer det intryck du ger andra.",
+        "Ett exempel: Sara är Våg med Lejon som ascendent. Hon är diplomatisk men andra ser henne som mycket självsäker."
+      ]
+    },
+    {
+      "h2": "Så gör du för att beräkna ascendent",
+      "paragraphs": [
+        "Välj dag, månad och år för din födelse, lägg till tiden och välj din stad i listan. Tiden är viktig eftersom ascendenten byter tecken ungefär varannan timme.",
+        "Om du inte vet tiden visar verktyget det mest sannolika tecknet. Känner du redan ditt tecken kan du också välja det direkt."
+      ]
+    },
+    {
+      "h2": "Efter resultatet",
+      "paragraphs": [
+        "Du kommer till en sida om ditt tecken med enkla, vänliga tips. Läs den som en inbjudan att lära känna dig själv bättre.",
+        "Innehållet är till för eftertanke och nöje, utan förutsägelser. För hälsa, juridik eller pengar vänder du dig till en yrkesperson."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Hur kan jag beräkna ascendent?",
+      "a": "Fyll i ditt födelsedatum, din tid och din plats i verktyget."
+    },
+    {
+      "q": "Måste jag veta exakt tid?",
+      "a": "Ju exaktare tid, desto säkrare resultat, eftersom ascendenten byter ungefär varannan timme."
+    },
+    {
+      "q": "Är verktyget gratis?",
+      "a": "Ja, du kan använda det gratis och utan konto."
+    },
+    {
+      "q": "Vad gör jag om jag inte vet min födelsetid?",
+      "a": "Verktyget kan visa dig det mest sannolika tecknet."
+    }
+  ],
+  "tags": [
+    "beräkna ascendent",
+    "beräkna ascendent gratis"
+  ],
+  "ui": {
+    "faq": "Vanliga frågor"
+  }
+}

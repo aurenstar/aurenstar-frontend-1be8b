@@ -1,0 +1,58 @@
+{
+  "lang": "sv",
+  "page": "aureneffect",
+  "keyword": "personligt horoskop",
+  "volume": 0,
+  "title": "Gratis personligt horoskop: Auren Effect",
+  "description": "Ditt personliga horoskop med namn, födelsedatum och födelseort: förstå hur du kan må idag och få enkla, praktiska tips för din dag.",
+  "intro": "Auren Effect är ett personligt horoskop för eftertanke. Du fyller i ditt namn och dina födelseuppgifter och får veta hur du kan må idag, med enkla tips för din dag.",
+  "sections": [
+    {
+      "h2": "Vad ett personligt horoskop visar",
+      "paragraphs": [
+        "Till skillnad från ett allmänt dagshoroskop använder Auren Effect dina egna uppgifter: namn, födelsedatum och födelseort. Därför känns texten närmare dig.",
+        "Du får ingen förutsägelse utan en lugn beskrivning av ditt humör och praktiska idéer."
+      ]
+    },
+    {
+      "h2": "Så fyller du i formuläret",
+      "paragraphs": [
+        "Skriv ditt namn högst upp, välj ditt födelsedatum och sök efter din stad i listan. Beräkna sedan din Auren Effect.",
+        "Ett exempel: Lisa fyller i sina uppgifter, läser förslaget att avsätta tid för ett lugnt samtal och planerar en kort paus utan telefon på kvällen."
+      ]
+    },
+    {
+      "h2": "Vad du kan använda resultatet till",
+      "paragraphs": [
+        "Se resultatet som ett tillfälle att lyssna på dig själv. Passar ett tips dig, prova det; annars låter du det vara.",
+        "För hälsa, juridik eller pengar är det bäst att vända sig till en yrkesperson."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Är det personliga horoskopet gratis?",
+      "a": "Ja, du kan beräkna din Auren Effect gratis."
+    },
+    {
+      "q": "Vilka uppgifter behöver jag?",
+      "a": "Du behöver ditt namn, ditt födelsedatum och din födelseort."
+    },
+    {
+      "q": "Vad är skillnaden mot dagens horoskop?",
+      "a": "Det använder dina personliga uppgifter och inte bara ditt tecken."
+    },
+    {
+      "q": "Förutsäger Auren Effect framtiden?",
+      "a": "Nej, den ger idéer att fundera på och inga förutsägelser."
+    }
+  ],
+  "tags": [
+    "personligt horoskop",
+    "personligt horoskop gratis online",
+    "personligt horoskop gratis"
+  ],
+  "ui": {
+    "faq": "Vanliga frågor"
+  }
+}

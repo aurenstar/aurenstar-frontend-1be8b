@@ -1,0 +1,59 @@
+{
+  "lang": "nl",
+  "page": "discover-sign",
+  "keyword": "ascendant berekenen",
+  "volume": 0,
+  "title": "Ascendant berekenen: ontdek gratis je sterrenbeeld",
+  "description": "Ascendant berekenen is eenvoudig: vul je geboortedatum, tijd en plaats in en ontdek gratis je sterrenbeeld met duidelijke, vriendelijke tips.",
+  "intro": "Wil je je ascendant berekenen en je sterrenbeeld leren kennen? Met dit gratis hulpmiddel vul je je geboortedatum in en, als je ze weet, de tijd en de stad, om je sterrenbeeld en ascendant te zien.",
+  "sections": [
+    {
+      "h2": "Wat is een ascendant",
+      "paragraphs": [
+        "De ascendant is het teken dat op het moment van je geboorte aan de oostelijke horizon opkwam. Je zonneteken zegt iets over je kern, de ascendant beschrijft meer de indruk die je op anderen maakt.",
+        "Een voorbeeld: Lotte is Weegschaal met Leeuw als ascendant. Ze is diplomatiek, maar anderen zien haar als iemand die heel zelfverzekerd is."
+      ]
+    },
+    {
+      "h2": "Zo ga je je ascendant berekenen",
+      "paragraphs": [
+        "Kies de dag, maand en het jaar van je geboorte, vul de tijd in en kies je stad uit de lijst. De tijd is belangrijk, want de ascendant verandert ongeveer elke twee uur.",
+        "Weet je de tijd niet, dan toont het hulpmiddel het meest waarschijnlijke teken. Ken je je sterrenbeeld al, dan kun je het ook direct kiezen."
+      ]
+    },
+    {
+      "h2": "Na het resultaat",
+      "paragraphs": [
+        "Je komt op een pagina over jouw sterrenbeeld met eenvoudige, vriendelijke tips. Lees die als een uitnodiging om jezelf beter te leren kennen.",
+        "De inhoud is om over na te denken en om plezier aan te beleven, zonder voorspellingen. Voor gezondheid, recht of geld ga je naar een professional."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Hoe kan ik mijn ascendant berekenen?",
+      "a": "Vul je geboortedatum, tijd en plaats in het hulpmiddel in."
+    },
+    {
+      "q": "Moet ik de exacte tijd weten?",
+      "a": "Hoe nauwkeuriger de tijd, hoe betrouwbaarder het resultaat, omdat de ascendant ongeveer elke twee uur verandert."
+    },
+    {
+      "q": "Is het hulpmiddel gratis?",
+      "a": "Ja, je kunt het gratis gebruiken en zonder account."
+    },
+    {
+      "q": "Wat als ik mijn geboortetijd niet weet?",
+      "a": "Het hulpmiddel kan je het meest waarschijnlijke teken laten zien."
+    }
+  ],
+  "tags": [
+    "ascendant berekenen",
+    "ascendant berekenen gratis",
+    "ascendant berekenen zonder geboortetijd",
+    "ascendant berekenen met uitleg"
+  ],
+  "ui": {
+    "faq": "Veelgestelde vragen"
+  }
+}

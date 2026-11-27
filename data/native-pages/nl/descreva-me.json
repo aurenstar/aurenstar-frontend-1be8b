@@ -1,0 +1,57 @@
+{
+  "lang": "nl",
+  "page": "descreva-me",
+  "keyword": "eigenschappen sterrenbeelden",
+  "volume": 0,
+  "title": "Eigenschappen sterrenbeelden: jouw persoonlijke beschrijving",
+  "description": "Ontdek de eigenschappen van jouw sterrenbeeld: maak met je geboortegegevens een persoonlijke, leuke astrologische beschrijving om te delen met wie je maar wilt.",
+  "intro": "Welke eigenschappen sterrenbeelden hebben, en welke lijken op jou? Met “Beschrijf mij” maak je met je geboortegegevens een persoonlijke, leuke astrologische beschrijving om met vrienden te delen.",
+  "sections": [
+    {
+      "h2": "Hoe je beschrijving ontstaat",
+      "paragraphs": [
+        "Je vult bovenaan je geboortedatum in, kiest je stad uit de lijst en krijgt een tekst over jezelf die bij je gegevens past. Hij is vriendelijk, luchtig en gemaakt om te delen.",
+        "Het doel is plezier hebben en over jezelf nadenken, niet een definitief oordeel vellen."
+      ]
+    },
+    {
+      "h2": "Eigenschappen sterrenbeelden in het dagelijks leven",
+      "paragraphs": [
+        "Een voorbeeld: Bram leest dat hij van rust houdt maar nieuwsgierig is naar nieuwe mensen. Hij herkent zichzelf en stuurt de tekst naar een vriend, die lachend antwoordt: “Dat ben jij.”",
+        "Zulke beschrijvingen kunnen een gesprek op gang brengen, bijvoorbeeld over hoe iedereen pauzes, nabijheid of plannen beleeft."
+      ]
+    },
+    {
+      "h2": "Wat je moet onthouden",
+      "paragraphs": [
+        "Geen enkele tekst kan zeggen wie je echt bent. Zie de beschrijving als een uitnodiging om over jezelf na te denken en houd wat bij je past.",
+        "Voor gezondheid, recht of geld ga je naar een professional."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is “Beschrijf mij” gratis?",
+      "a": "Ja, je kunt je beschrijving gratis maken."
+    },
+    {
+      "q": "Wat heb ik nodig?",
+      "a": "Je geboortedatum en geboorteplaats."
+    },
+    {
+      "q": "Mag ik de beschrijving delen?",
+      "a": "Ja, de tekst is gemaakt om met anderen te delen."
+    },
+    {
+      "q": "Zijn de eigenschappen van sterrenbeelden wetenschappelijk bewezen?",
+      "a": "Nee, astrologie is voor vermaak en om over na te denken en geen wetenschappelijk bewijs."
+    }
+  ],
+  "tags": [
+    "eigenschappen sterrenbeelden",
+    "sterrenbeelden eigenschappen"
+  ],
+  "ui": {
+    "faq": "Veelgestelde vragen"
+  }
+}

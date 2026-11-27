@@ -1,0 +1,56 @@
+{
+  "lang": "fi",
+  "page": "descreva-me",
+  "keyword": "horoskooppimerkkien ominaisuudet",
+  "volume": 0,
+  "title": "Horoskooppimerkkien ominaisuudet: oma kuvauksesi",
+  "description": "Tutustu horoskooppimerkkien ominaisuuksiin: tee syntymätiedoistasi henkilökohtainen, hauska astrologinen kuvaus, jonka voit jakaa kenelle haluat.",
+  "intro": "Mitkä horoskooppimerkkien ominaisuudet muistuttavat sinua? “Kuvaile minut” tekee syntymätiedoistasi henkilökohtaisen, hauskan astrologisen kuvauksen, jonka voit jakaa ystävillesi.",
+  "sections": [
+    {
+      "h2": "Miten kuvauksesi syntyy",
+      "paragraphs": [
+        "Kirjoitat syntymäpäiväsi yläosaan, valitset kaupunkisi luettelosta ja saat tiedoillesi sopivan tekstin itsestäsi. Se on ystävällinen, kevyt ja tehty jaettavaksi.",
+        "Tarkoitus on pitää hauskaa ja pohtia itseään, ei langettaa lopullisia tuomioita."
+      ]
+    },
+    {
+      "h2": "Horoskooppimerkkien ominaisuudet arjessa",
+      "paragraphs": [
+        "Esimerkki: Jussi lukee, että hän rakastaa rauhaa mutta on utelias tapaamaan uusia ihmisiä. Hän tunnistaa itsensä ja lähettää tekstin ystävälle, joka vastaa nauraen: ”Tämähän olet sinä.”",
+        "Tällaiset kuvaukset voivat avata keskustelun, esimerkiksi siitä, miten kukin kokee tauot, läheisyyden tai suunnitelmat."
+      ]
+    },
+    {
+      "h2": "Mitä kannattaa muistaa",
+      "paragraphs": [
+        "Mikään teksti ei voi kertoa, kuka todella olet. Pidä kuvausta kutsuna ajatella itseäsi ja säilytä se, mikä tuntuu omalta.",
+        "Terveyteen, lakiin ja rahaan liittyvissä asioissa käänny ammattilaisen puoleen."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Onko “Kuvaile minut” ilmainen?",
+      "a": "Kyllä, kuvauksen voi tehdä ilman maksua."
+    },
+    {
+      "q": "Mitä tarvitsen?",
+      "a": "Syntymäaikasi ja syntymäpaikkasi."
+    },
+    {
+      "q": "Saanko jakaa kuvauksen?",
+      "a": "Kyllä, teksti on tehty jaettavaksi muiden kanssa."
+    },
+    {
+      "q": "Ovatko horoskooppimerkkien ominaisuudet tieteellisesti todistettuja?",
+      "a": "Ei, astrologia on viihdettä ja pohdintaa eikä tieteellinen todiste."
+    }
+  ],
+  "tags": [
+    "horoskooppimerkkien ominaisuudet"
+  ],
+  "ui": {
+    "faq": "Usein kysytyt kysymykset"
+  }
+}

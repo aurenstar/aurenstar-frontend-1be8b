@@ -1,0 +1,60 @@
+{
+  "lang": "pl",
+  "page": "home",
+  "keyword": "horoskop",
+  "volume": 0,
+  "title": "Darmowy horoskop: Twój znak i wiadomość na dziś",
+  "description": "Darmowy horoskop prostymi słowami: poznaj swój znak, przeczytaj wiadomość na dzień i zajrzyj do artykułów oraz słownika astrologii Aurenstar.",
+  "intro": "Na Aurenstar znajdziesz horoskop bez trudnych słów. Możesz poznać swój znak, przeczytać krótką wiadomość na dziś i spokojnie przeglądać artykuły o astrologii.",
+  "sections": [
+    {
+      "h2": "Co znajdziesz na Aurenstar",
+      "paragraphs": [
+        "Darmowe narzędzia są na górze strony: wpisujesz datę urodzenia, widzisz swój znak i dostajesz proste, życzliwe wskazówki. Jest też wiadomość dnia dla Twojego znaku oraz osobisty opis, którym możesz się podzielić.",
+        "Jeśli chcesz wiedzieć więcej, czytaj artykuły i zaglądaj do słownika, by zrozumieć na przykład, czym jest ascendent lub żywioł."
+      ]
+    },
+    {
+      "h2": "Jak korzystać z horoskopu na co dzień",
+      "paragraphs": [
+        "Przykład: Kasia czyta wiadomość rano, zapamiętuje jedno zdanie, a wieczorem zastanawia się, czy pasowało do jej dnia. Horoskop nie musi być niczym więcej.",
+        "Wskazówki możesz też traktować jako pretekst do namysłu, na przykład gdy decydujesz, jak zacząć rozmowę albo kiedy zrobić przerwę."
+      ]
+    },
+    {
+      "h2": "Astrologia do namysłu, nie do przepowiadania",
+      "paragraphs": [
+        "Aurenstar niczego nie obiecuje i nie udziela porad medycznych, prawnych ani finansowych. Teksty mają dawać kierunek i przyjemność.",
+        "Ważne decyzje lepiej podejmować z zaufanymi osobami, a w razie potrzeby ze specjalistami."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Czy horoskop Aurenstar jest darmowy?",
+      "a": "Tak, z narzędzi i artykułów możesz korzystać bez płacenia."
+    },
+    {
+      "q": "Czy muszę zakładać konto?",
+      "a": "Nie, do korzystania z narzędzi nie trzeba się rejestrować."
+    },
+    {
+      "q": "Co mogę robić na Aurenstar?",
+      "a": "Możesz poznać swój znak, przeczytać wiadomość dnia, stworzyć osobisty opis oraz czytać artykuły i słownik astrologii."
+    },
+    {
+      "q": "Czy horoskop przepowiada przyszłość?",
+      "a": "Nie, teksty służą do namysłu i nie zawierają przepowiedni."
+    }
+  ],
+  "tags": [
+    "horoskop",
+    "horoskop dzienny",
+    "horoskop tygodniowy",
+    "horoskop na jutro",
+    "horoskop na dziś"
+  ],
+  "ui": {
+    "faq": "Najczęstsze pytania"
+  }
+}

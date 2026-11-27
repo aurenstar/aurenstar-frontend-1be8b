@@ -1,0 +1,57 @@
+{
+  "lang": "sv",
+  "page": "descreva-me",
+  "keyword": "stjärntecknens egenskaper",
+  "volume": 0,
+  "title": "Stjärntecknens egenskaper: din personliga beskrivning",
+  "description": "Upptäck stjärntecknens egenskaper: med dina födelseuppgifter skapar du en personlig, rolig astrologisk beskrivning att dela med vem du vill.",
+  "intro": "Vilka av stjärntecknens egenskaper liknar dig? Med “Beskriv mig” skapar du av dina födelseuppgifter en personlig, rolig astrologisk beskrivning att dela med vänner.",
+  "sections": [
+    {
+      "h2": "Så blir din beskrivning till",
+      "paragraphs": [
+        "Du fyller i ditt födelsedatum högst upp, väljer din stad i listan och får en text om dig själv som passar dina uppgifter. Den är vänlig, lätt och gjord för att delas.",
+        "Målet är att ha roligt och fundera över sig själv, inte att fälla slutgiltiga domar."
+      ]
+    },
+    {
+      "h2": "Stjärntecknens egenskaper i vardagen",
+      "paragraphs": [
+        "Ett exempel: Johan läser att han älskar lugn men är nyfiken på nya människor. Han känner igen sig och skickar texten till en vän som skrattande svarar: “Det är ju du.”",
+        "Sådana beskrivningar kan starta samtal, till exempel om hur var och en upplever pauser, närhet eller planer."
+      ]
+    },
+    {
+      "h2": "Att tänka på",
+      "paragraphs": [
+        "Ingen text kan säga vem du verkligen är. Se beskrivningen som en inbjudan att tänka på dig själv och behåll det som känns rätt.",
+        "För hälsa, juridik eller pengar vänder du dig till en yrkesperson."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Är “Beskriv mig” gratis?",
+      "a": "Ja, du kan skapa din beskrivning utan att betala."
+    },
+    {
+      "q": "Vad behöver jag?",
+      "a": "Ditt födelsedatum och din födelseort."
+    },
+    {
+      "q": "Får jag dela beskrivningen?",
+      "a": "Ja, texten är gjord för att delas med andra."
+    },
+    {
+      "q": "Är stjärntecknens egenskaper vetenskapligt bevisade?",
+      "a": "Nej, astrologi är till för nöje och eftertanke och är inget vetenskapligt bevis."
+    }
+  ],
+  "tags": [
+    "stjärntecknens egenskaper",
+    "stjärntecken egenskaper"
+  ],
+  "ui": {
+    "faq": "Vanliga frågor"
+  }
+}

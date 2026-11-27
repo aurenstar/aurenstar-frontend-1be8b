@@ -1,0 +1,59 @@
+{
+  "lang": "da",
+  "page": "discover-sign",
+  "keyword": "beregn ascendant",
+  "volume": 0,
+  "title": "Beregn ascendant: find dit stjernetegn gratis",
+  "description": "Du kan beregne ascendant let: skriv fødselsdato, tidspunkt og sted, og find dit stjernetegn gratis med tydelige, venlige råd.",
+  "intro": "Søger du “beregn ascendant” og vil lære dit stjernetegn at kende? I dette gratis værktøj skriver du din fødselsdato og, hvis du kender dem, tidspunkt og by, for at se dit tegn og din ascendant.",
+  "sections": [
+    {
+      "h2": "Hvad er en ascendant",
+      "paragraphs": [
+        "Ascendanten er det tegn, der steg op over den østlige horisont i det øjeblik, du blev født. Dit solstjernetegn fortæller om din kerne, mens ascendanten mere beskriver det indtryk, du gør på andre.",
+        "Et eksempel: Sofie er Vægt med Løve som ascendant. Hun er diplomatisk, men andre ser hende som meget selvsikker."
+      ]
+    },
+    {
+      "h2": "Beregn ascendant i værktøjet trin for trin",
+      "paragraphs": [
+        "Vælg dag, måned og år for din fødsel, tilføj tidspunktet og vælg din by på listen. Tidspunktet er vigtigt, fordi ascendanten skifter cirka hver anden time.",
+        "Kender du ikke tidspunktet, viser værktøjet det mest sandsynlige tegn. Kender du allerede dit tegn, kan du også vælge det direkte."
+      ]
+    },
+    {
+      "h2": "Efter resultatet",
+      "paragraphs": [
+        "Du kommer til en side om dit tegn med enkle, venlige råd. Læs den som en invitation til at lære dig selv bedre at kende.",
+        "Indholdet er til eftertanke og fornøjelse, uden spådomme. Spørg fagfolk om sundhed, jura og penge."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Hvordan kan jeg beregne ascendant?",
+      "a": "Skriv din fødselsdato, dit tidspunkt og dit sted i værktøjet."
+    },
+    {
+      "q": "Skal jeg kende det nøjagtige tidspunkt?",
+      "a": "Jo mere præcist tidspunkt, jo mere pålideligt resultat, fordi ascendanten skifter cirka hver anden time."
+    },
+    {
+      "q": "Er værktøjet gratis?",
+      "a": "Ja, du kan bruge det gratis og uden konto."
+    },
+    {
+      "q": "Hvad hvis jeg ikke kender mit fødselstidspunkt?",
+      "a": "Værktøjet kan vise dig det mest sandsynlige tegn."
+    }
+  ],
+  "tags": [
+    "beregn ascendant",
+    "beregn ascendant og måne gratis",
+    "beregn ascendant gratis",
+    "beregn ascendant stjernetegn"
+  ],
+  "ui": {
+    "faq": "Ofte stillede spørgsmål"
+  }
+}

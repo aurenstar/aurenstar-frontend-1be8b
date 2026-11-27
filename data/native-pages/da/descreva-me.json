@@ -1,0 +1,56 @@
+{
+  "lang": "da",
+  "page": "descreva-me",
+  "keyword": "stjernetegn egenskaber",
+  "volume": 0,
+  "title": "Stjernetegn egenskaber: din personlige beskrivelse",
+  "description": "Find ud af, hvilke stjernetegn egenskaber der passer til dig: lav med dine fødselsoplysninger en personlig, sjov astrologisk beskrivelse til at dele.",
+  "intro": "Hvilke stjernetegn egenskaber ligner dig? Med “Beskriv mig” laver du ud fra dine fødselsoplysninger en personlig, sjov astrologisk beskrivelse, som du kan dele med venner.",
+  "sections": [
+    {
+      "h2": "Sådan bliver din beskrivelse til",
+      "paragraphs": [
+        "Du skriver din fødselsdato øverst, vælger din by på listen og får en tekst om dig selv, der passer til dine oplysninger. Den er venlig, let og lavet til at blive delt.",
+        "Målet er at more sig og tænke over sig selv, ikke at fælde endelige domme."
+      ]
+    },
+    {
+      "h2": "Stjernetegn egenskaber i hverdagen",
+      "paragraphs": [
+        "Et eksempel: Anders læser, at han elsker ro, men er nysgerrig efter nye mennesker. Han kan genkende sig selv og sender teksten til en ven, der griner og svarer: “Det er dig.”",
+        "Den slags beskrivelser kan sætte en samtale i gang, for eksempel om, hvordan hver især oplever pauser, nærhed eller planer."
+      ]
+    },
+    {
+      "h2": "Det skal du huske",
+      "paragraphs": [
+        "Ingen tekst kan sige, hvem du egentlig er. Se beskrivelsen som en invitation til at tænke på dig selv og behold det, der passer.",
+        "Spørg fagfolk om sundhed, jura og penge."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Er “Beskriv mig” gratis?",
+      "a": "Ja, du kan lave din beskrivelse uden at betale."
+    },
+    {
+      "q": "Hvad skal jeg bruge?",
+      "a": "Din fødselsdato og dit fødested."
+    },
+    {
+      "q": "Må jeg dele beskrivelsen?",
+      "a": "Ja, teksten er lavet til at blive delt med andre."
+    },
+    {
+      "q": "Er stjernetegn egenskaber videnskabeligt bevist?",
+      "a": "Nej, astrologi er til underholdning og eftertanke og er ikke videnskabeligt bevis."
+    }
+  ],
+  "tags": [
+    "stjernetegn egenskaber"
+  ],
+  "ui": {
+    "faq": "Ofte stillede spørgsmål"
+  }
+}

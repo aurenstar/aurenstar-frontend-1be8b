@@ -1,0 +1,58 @@
+{
+  "lang": "pl",
+  "page": "discover-sign",
+  "keyword": "ascendent kalkulator",
+  "volume": 0,
+  "title": "Ascendent kalkulator: poznaj swój znak za darmo",
+  "description": "Ascendent kalkulator jest prosty: wpisz datę, godzinę i miejsce urodzenia i poznaj za darmo swój znak z jasnymi, życzliwymi wskazówkami.",
+  "intro": "Ascendent kalkulator pomoże Ci poznać swój znak: w tym darmowym narzędziu wpisujesz datę urodzenia oraz, jeśli je znasz, godzinę i miasto, by zobaczyć swój znak i ascendent.",
+  "sections": [
+    {
+      "h2": "Czym jest ascendent",
+      "paragraphs": [
+        "Ascendent to znak, który w chwili Twoich narodzin wschodził na wschodnim horyzoncie. Znak słoneczny mówi o Twojej istocie, a ascendent bardziej opisuje wrażenie, jakie robisz na innych.",
+        "Przykład: Marta jest Wagą z ascendentem w Lwie. Jest dyplomatyczna, ale inni postrzegają ją jako osobę bardzo pewną siebie."
+      ]
+    },
+    {
+      "h2": "Jak używać narzędzia – ascendent kalkulator",
+      "paragraphs": [
+        "Wybierz dzień, miesiąc i rok urodzenia, dodaj godzinę i wybierz swoje miasto z listy. Godzina jest ważna, bo ascendent zmienia się mniej więcej co dwie godziny.",
+        "Jeśli nie znasz godziny, narzędzie pokaże najbardziej prawdopodobny znak. Możesz też od razu wybrać swój znak, jeśli już go znasz."
+      ]
+    },
+    {
+      "h2": "Po wyniku",
+      "paragraphs": [
+        "Przechodzisz na stronę poświęconą Twojemu znakowi z prostymi, życzliwymi wskazówkami. Czytaj ją jak zaproszenie do lepszego poznania siebie.",
+        "Treść służy do namysłu i zabawy, bez przepowiedni. W sprawach zdrowia, prawa lub pieniędzy zwróć się do specjalistów."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak obliczyć ascendent?",
+      "a": "Wpisz w narzędziu datę, godzinę i miejsce urodzenia."
+    },
+    {
+      "q": "Czy muszę znać dokładną godzinę?",
+      "a": "Im dokładniejsza godzina, tym bardziej wiarygodny wynik, bo ascendent zmienia się mniej więcej co dwie godziny."
+    },
+    {
+      "q": "Czy narzędzie jest darmowe?",
+      "a": "Tak, możesz z niego korzystać za darmo i bez konta."
+    },
+    {
+      "q": "Co, jeśli nie znam godziny urodzenia?",
+      "a": "Narzędzie może pokazać najbardziej prawdopodobny znak."
+    }
+  ],
+  "tags": [
+    "ascendent kalkulator",
+    "ascendent kalkulator bez godziny",
+    "ascendent kalkulator i opis"
+  ],
+  "ui": {
+    "faq": "Najczęstsze pytania"
+  }
+}

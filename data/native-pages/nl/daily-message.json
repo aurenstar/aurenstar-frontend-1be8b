@@ -1,0 +1,60 @@
+{
+  "lang": "nl",
+  "page": "daily-message",
+  "keyword": "horoscoop vandaag",
+  "volume": 0,
+  "title": "Horoscoop vandaag gratis: jouw bericht voor vandaag",
+  "description": "Je horoscoop vandaag in gewone woorden: kies je sterrenbeeld en lees een vriendelijk bericht met een klein advies voor je dag.",
+  "intro": "Met de horoscoop vandaag van Aurenstar krijg je elke dag een kort, vriendelijk bericht voor je sterrenbeeld. Het geeft je een gedachte om over na te denken en een klein advies dat je vandaag al kunt proberen.",
+  "sections": [
+    {
+      "h2": "Zo werkt de horoscoop vandaag",
+      "paragraphs": [
+        "Je kiest bovenaan je sterrenbeeld en leest je bericht. Het bevat één positieve zin die je door de dag begeleidt en een eenvoudig advies dat niet veel tijd kost.",
+        "De teksten zijn rustig en praktisch, zonder grote beloftes."
+      ]
+    },
+    {
+      "h2": "Een voorbeeld uit het dagelijks leven",
+      "paragraphs": [
+        "Daan is Ram en leest dat hij vandaag eindelijk dat telefoontje kan plegen dat hij uitstelde. Hij maakt tien minuten vrij en merkt dat de klus kleiner was dan gedacht.",
+        "De horoscoop vandaag is een vriendelijke duw: jij beslist of en hoe je hem gebruikt."
+      ]
+    },
+    {
+      "h2": "De horoscoop vandaag goed begrijpen",
+      "paragraphs": [
+        "Het bericht is geen voorspelling. Het helpt je nadenken en geeft je even tijd voor jezelf.",
+        "Voor gezondheid, recht of geld ga je naar een professional."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is de horoscoop vandaag gratis?",
+      "a": "Ja, je kunt je dagbericht gratis lezen."
+    },
+    {
+      "q": "Hoe vaak verandert het bericht?",
+      "a": "Je kunt elke dag een nieuw bericht voor je sterrenbeeld lezen."
+    },
+    {
+      "q": "Moet ik mijn geboortedatum invullen?",
+      "a": "Je kiest je sterrenbeeld. Ken je het niet, ontdek het dan met de rekenmachine van Aurenstar."
+    },
+    {
+      "q": "Voorspelt de horoscoop vandaag de toekomst?",
+      "a": "Nee, het is een uitnodiging om na te denken en geen voorspelling."
+    }
+  ],
+  "tags": [
+    "horoscoop vandaag",
+    "horoscoop vandaag tweeling",
+    "horoscoop vandaag schorpioen",
+    "horoscoop vandaag maagd",
+    "horoscoop vandaag kreeft"
+  ],
+  "ui": {
+    "faq": "Veelgestelde vragen"
+  }
+}

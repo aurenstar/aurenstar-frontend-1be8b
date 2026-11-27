@@ -1,0 +1,58 @@
+{
+  "lang": "nl",
+  "page": "home",
+  "keyword": "horoscoop",
+  "volume": 0,
+  "title": "Gratis horoscoop: je sterrenbeeld en het bericht van vandaag",
+  "description": "Je gratis horoscoop in gewone woorden: ontdek je sterrenbeeld, lees een bericht voor je dag en bekijk de artikelen en het astrologiewoordenboek van Aurenstar.",
+  "intro": "Op Aurenstar vind je je horoscoop zonder ingewikkelde woorden. Je kunt je sterrenbeeld ontdekken, een kort bericht voor je dag lezen en rustig astrologieartikelen bekijken.",
+  "sections": [
+    {
+      "h2": "Wat je op Aurenstar vindt",
+      "paragraphs": [
+        "De gratis hulpmiddelen staan bovenaan de pagina: je vult je geboortedatum in, ziet je sterrenbeeld en krijgt eenvoudige, vriendelijke tips. Er is ook een dagbericht voor jouw sterrenbeeld en een persoonlijke beschrijving om te delen.",
+        "Wil je meer weten? Lees dan de artikelen en zoek in het woordenboek wat bijvoorbeeld een ascendant of een element is."
+      ]
+    },
+    {
+      "h2": "Zo gebruik je je horoscoop elke dag",
+      "paragraphs": [
+        "Een voorbeeld: Anouk leest 's ochtends haar bericht, onthoudt één zin en vraagt zich 's avonds af of die bij haar dag paste. Meer hoeft een horoscoop niet te zijn.",
+        "Je kunt de tips ook gebruiken als aanleiding om na te denken, bijvoorbeeld als je moet kiezen hoe je een gesprek begint of wanneer je pauze neemt."
+      ]
+    },
+    {
+      "h2": "Astrologie om over na te denken, niet om te voorspellen",
+      "paragraphs": [
+        "Aurenstar belooft geen resultaten en geeft geen medisch, juridisch of financieel advies. De teksten zijn bedoeld om richting te geven en om van te genieten.",
+        "Belangrijke beslissingen neem je het best samen met mensen die je vertrouwt en zo nodig met een professional."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is de horoscoop van Aurenstar gratis?",
+      "a": "Ja, je kunt de hulpmiddelen gebruiken en de artikelen lezen zonder te betalen."
+    },
+    {
+      "q": "Moet ik een account maken?",
+      "a": "Nee, je hoeft je niet te registreren om de hulpmiddelen te gebruiken."
+    },
+    {
+      "q": "Wat kan ik op Aurenstar doen?",
+      "a": "Je kunt je sterrenbeeld ontdekken, een dagbericht lezen, een persoonlijke beschrijving maken en artikelen en het astrologiewoordenboek lezen."
+    },
+    {
+      "q": "Voorspelt de horoscoop de toekomst?",
+      "a": "Nee, de teksten zijn om over na te denken en bevatten geen voorspellingen."
+    }
+  ],
+  "tags": [
+    "horoscoop",
+    "horoscoop vandaag",
+    "horoscoop morgen"
+  ],
+  "ui": {
+    "faq": "Veelgestelde vragen"
+  }
+}

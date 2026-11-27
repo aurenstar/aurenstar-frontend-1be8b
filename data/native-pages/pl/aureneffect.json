@@ -1,0 +1,57 @@
+{
+  "lang": "pl",
+  "page": "aureneffect",
+  "keyword": "horoskop osobisty",
+  "volume": 0,
+  "title": "Darmowy horoskop osobisty: Auren Effect",
+  "description": "Horoskop osobisty według imienia, daty i miejsca urodzenia: zrozum, jak możesz się dziś czuć, i dostań proste, praktyczne wskazówki.",
+  "intro": "Auren Effect to Twój horoskop osobisty do namysłu. Wpisujesz imię i dane urodzenia i dowiadujesz się, jak możesz się dziś czuć, wraz z prostymi wskazówkami na dzień.",
+  "sections": [
+    {
+      "h2": "Co pokazuje Twój horoskop osobisty",
+      "paragraphs": [
+        "W odróżnieniu od ogólnego horoskopu dziennego Auren Effect korzysta z Twoich danych: imienia, daty i miejsca urodzenia. Dzięki temu tekst jest Ci bliższy.",
+        "Nie dostajesz przepowiedni, lecz spokojny opis nastroju i praktyczne pomysły."
+      ]
+    },
+    {
+      "h2": "Jak wypełnić formularz",
+      "paragraphs": [
+        "Wpisz na górze swoje imię, wybierz datę urodzenia i znajdź swoje miasto na liście. Potem oblicz swój Auren Effect.",
+        "Przykład: Ola wpisuje dane, czyta sugestię, by znaleźć czas na spokojną rozmowę, i planuje na wieczór krótką przerwę bez telefonu."
+      ]
+    },
+    {
+      "h2": "Do czego służy wynik",
+      "paragraphs": [
+        "Potraktuj wynik jako okazję, by wsłuchać się w siebie. Jeśli wskazówka Ci odpowiada, wypróbuj ją; jeśli nie, odpuść.",
+        "W sprawach zdrowia, prawa lub pieniędzy najlepiej zwrócić się do specjalistów."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Czy horoskop osobisty jest darmowy?",
+      "a": "Tak, swój Auren Effect możesz obliczyć za darmo."
+    },
+    {
+      "q": "Jakich danych potrzebuję?",
+      "a": "Potrzebne są imię, data urodzenia i miejsce urodzenia."
+    },
+    {
+      "q": "Czym różni się od horoskopu dziennego?",
+      "a": "Korzysta z Twoich danych osobistych, a nie tylko ze znaku."
+    },
+    {
+      "q": "Czy Auren Effect przepowiada przyszłość?",
+      "a": "Nie, podsuwa pomysły do namysłu i nie zawiera przepowiedni."
+    }
+  ],
+  "tags": [
+    "horoskop osobisty",
+    "horoskop dzienny"
+  ],
+  "ui": {
+    "faq": "Najczęstsze pytania"
+  }
+}

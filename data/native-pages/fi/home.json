@@ -1,0 +1,58 @@
+{
+  "lang": "fi",
+  "page": "home",
+  "keyword": "horoskooppi",
+  "volume": 0,
+  "title": "Ilmainen horoskooppi: merkkisi ja päivän viesti",
+  "description": "Ilmainen horoskooppi selkein sanoin: selvitä merkkisi, lue päivän viesti ja tutustu Aurenstarin artikkeleihin ja astrologian sanakirjaan.",
+  "intro": "Aurenstarista löydät horoskooppisi ilman vaikeita sanoja. Voit selvittää merkkisi, lukea lyhyen viestin päiväksesi ja tutustua rauhassa astrologian artikkeleihin.",
+  "sections": [
+    {
+      "h2": "Mitä Aurenstarista löytyy",
+      "paragraphs": [
+        "Ilmaiset työkalut ovat sivun yläosassa: kirjoitat syntymäpäiväsi, näet merkkisi ja saat yksinkertaisia, ystävällisiä vinkkejä. Mukana on myös merkkisi päivän viesti ja henkilökohtainen kuvaus, jonka voit jakaa.",
+        "Jos haluat tietää enemmän, lue artikkelit ja katso sanakirjasta, mikä on esimerkiksi nouseva merkki tai elementti."
+      ]
+    },
+    {
+      "h2": "Näin käytät horoskooppia joka päivä",
+      "paragraphs": [
+        "Esimerkki: Laura lukee viestin aamulla, muistaa yhden lauseen ja miettii illalla, sopiko se hänen päiväänsä. Horoskoopin ei tarvitse olla sen enempää.",
+        "Voit pitää vinkkejä myös kutsuna pysähtyä miettimään, esimerkiksi kun pohdit, miten aloittaa keskustelu tai milloin pitää tauko."
+      ]
+    },
+    {
+      "h2": "Astrologia pohdintaan, ei ennustamiseen",
+      "paragraphs": [
+        "Aurenstar ei lupaa tuloksia eikä anna lääketieteellisiä, oikeudellisia tai taloudellisia neuvoja. Tekstit on tarkoitettu antamaan suuntaa ja iloa.",
+        "Tärkeät päätökset kannattaa tehdä luotettavien ihmisten ja tarvittaessa ammattilaisten kanssa."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Onko Aurenstarin horoskooppi ilmainen?",
+      "a": "Kyllä, työkaluja ja artikkeleita voi käyttää ilman maksua."
+    },
+    {
+      "q": "Pitääkö minun luoda tili?",
+      "a": "Ei, työkalujen käyttö ei vaadi rekisteröitymistä."
+    },
+    {
+      "q": "Mitä voin tehdä Aurenstarissa?",
+      "a": "Voit selvittää merkkisi, lukea päivän viestin, luoda henkilökohtaisen kuvauksen ja lukea artikkeleita sekä astrologian sanakirjaa."
+    },
+    {
+      "q": "Ennustaako horoskooppi tulevaisuutta?",
+      "a": "Ei, tekstit on tarkoitettu pohdintaan eivätkä sisällä ennustuksia."
+    }
+  ],
+  "tags": [
+    "horoskooppi",
+    "horoskooppi tänään",
+    "horoskooppi merkit"
+  ],
+  "ui": {
+    "faq": "Usein kysytyt kysymykset"
+  }
+}

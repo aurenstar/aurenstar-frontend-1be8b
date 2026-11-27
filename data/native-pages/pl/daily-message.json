@@ -1,0 +1,60 @@
+{
+  "lang": "pl",
+  "page": "daily-message",
+  "keyword": "horoskop dzienny",
+  "volume": 0,
+  "title": "Horoskop dzienny za darmo: Twoja wiadomość na dziś",
+  "description": "Horoskop dzienny prostymi słowami: wybierz swój znak i przeczytaj życzliwą wiadomość z małą wskazówką na dzień.",
+  "intro": "Horoskop dzienny od Aurenstar to krótka, życzliwa wiadomość dla Twojego znaku, którą dostajesz codziennie. Daje Ci myśl do przemyślenia i małą wskazówkę, którą możesz wypróbować już dziś.",
+  "sections": [
+    {
+      "h2": "Jak działa horoskop dzienny",
+      "paragraphs": [
+        "Na górze strony wybierasz swój znak i czytasz wiadomość. Zawiera jedno pozytywne zdanie na cały dzień i prostą wskazówkę, która nie zabiera dużo czasu.",
+        "Teksty są spokojne i praktyczne, bez wielkich obietnic."
+      ]
+    },
+    {
+      "h2": "Przykład z codziennego życia",
+      "paragraphs": [
+        "Paweł jest Baranem i czyta, że dziś może wreszcie wykonać telefon, który odkładał. Poświęca dziesięć minut i widzi, że sprawa była mniejsza, niż myślał.",
+        "Horoskop dzienny to delikatne szturchnięcie: Ty decydujesz, czy i jak z niego skorzystasz."
+      ]
+    },
+    {
+      "h2": "Jak rozumieć horoskop dzienny",
+      "paragraphs": [
+        "Wiadomość nie jest przepowiednią. Pomaga zastanowić się i daje chwilę dla siebie.",
+        "W sprawach zdrowia, prawa lub pieniędzy zwróć się do specjalistów."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Czy horoskop dzienny jest darmowy?",
+      "a": "Tak, wiadomość dnia możesz czytać za darmo."
+    },
+    {
+      "q": "Jak często zmienia się wiadomość?",
+      "a": "Dla swojego znaku możesz czytać nową wiadomość każdego dnia."
+    },
+    {
+      "q": "Czy muszę podawać datę urodzenia?",
+      "a": "Wybierasz swój znak. Jeśli go nie znasz, sprawdź go w kalkulatorze Aurenstar."
+    },
+    {
+      "q": "Czy horoskop dzienny przepowiada przyszłość?",
+      "a": "Nie, to zaproszenie do namysłu, a nie przepowiednia."
+    }
+  ],
+  "tags": [
+    "horoskop dzienny",
+    "horoskop dzienny skorpion",
+    "horoskop dzienny lew",
+    "horoskop dzienny byk",
+    "horoskop dzienny ryby"
+  ],
+  "ui": {
+    "faq": "Najczęstsze pytania"
+  }
+}

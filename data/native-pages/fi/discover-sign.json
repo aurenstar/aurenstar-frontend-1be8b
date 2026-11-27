@@ -1,0 +1,56 @@
+{
+  "lang": "fi",
+  "page": "discover-sign",
+  "keyword": "nousevan merkin laskuri",
+  "volume": 0,
+  "title": "Nousevan merkin laskuri: selvitä merkkisi ilmaiseksi",
+  "description": "Nousevan merkin laskuri on helppo: kirjoita syntymäaika, kellonaika ja paikka ja selvitä merkkisi ilmaiseksi selkeiden, ystävällisten vinkkien kanssa.",
+  "intro": "Haluatko käyttää nousevan merkin laskuria ja tutustua merkkiisi? Tässä ilmaisessa työkalussa kirjoitat syntymäpäiväsi ja, jos tiedät, kellonajan ja kaupungin, ja näet merkkisi ja nousevan merkkisi.",
+  "sections": [
+    {
+      "h2": "Mikä on nouseva merkki",
+      "paragraphs": [
+        "Nouseva merkki on se merkki, joka nousi itäiselle taivaanrannalle syntymäsi hetkellä. Aurinkomerkki kertoo ytimestäsi, nouseva merkki kuvaa enemmän vaikutelmaa, jonka annat muille.",
+        "Esimerkki: Minna on Vaaka ja nouseva merkki Leijona. Hän on diplomaattinen, mutta muut näkevät hänet hyvin itsevarmana."
+      ]
+    },
+    {
+      "h2": "Näin käytät nousevan merkin laskuria",
+      "paragraphs": [
+        "Valitse syntymäpäivä, kuukausi ja vuosi, lisää kellonaika ja valitse kaupunkisi luettelosta. Kellonaika on tärkeä, koska nouseva merkki vaihtuu noin kahden tunnin välein.",
+        "Jos et tiedä kellonaikaa, työkalu näyttää todennäköisimmän merkin. Voit myös valita merkkisi suoraan, jos jo tiedät sen."
+      ]
+    },
+    {
+      "h2": "Tuloksen jälkeen",
+      "paragraphs": [
+        "Pääset merkkiäsi käsittelevälle sivulle, jossa on yksinkertaisia, ystävällisiä vinkkejä. Lue se kutsuna tutustua itseesi paremmin.",
+        "Sisältö on tarkoitettu pohdintaan ja ilolle, ei ennustuksiin. Terveyteen, lakiin ja rahaan liittyvissä asioissa käänny ammattilaisen puoleen."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Miten nousevan merkin voi laskea?",
+      "a": "Kirjoita työkaluun syntymäaikasi, kellonaikasi ja syntymäpaikkasi."
+    },
+    {
+      "q": "Pitääkö tarkka kellonaika tietää?",
+      "a": "Mitä tarkempi kellonaika, sitä luotettavampi tulos, koska nouseva merkki vaihtuu noin kahden tunnin välein."
+    },
+    {
+      "q": "Onko työkalu ilmainen?",
+      "a": "Kyllä, voit käyttää sitä ilmaiseksi ja ilman tiliä."
+    },
+    {
+      "q": "Entä jos en tiedä syntymäaikaani kellonajan tarkkuudella?",
+      "a": "Työkalu voi näyttää sinulle todennäköisimmän merkin."
+    }
+  ],
+  "tags": [
+    "nousevan merkin laskuri"
+  ],
+  "ui": {
+    "faq": "Usein kysytyt kysymykset"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "lang": "fi",
+  "page": "aureneffect",
+  "keyword": "henkilökohtainen horoskooppi",
+  "volume": 0,
+  "title": "Ilmainen henkilökohtainen horoskooppi: Auren Effect",
+  "description": "Henkilökohtainen horoskooppi nimen, syntymäajan ja -paikan mukaan: ymmärrä, miltä sinusta voi tuntua tänään, ja saa yksinkertaisia, käytännöllisiä vinkkejä.",
+  "intro": "Auren Effect on henkilökohtainen horoskooppisi pohdintaan. Kirjoitat nimesi ja syntymätietosi ja saat tietää, miltä sinusta voi tuntua tänään, yksinkertaisten päivävinkkien kera.",
+  "sections": [
+    {
+      "h2": "Mitä henkilökohtainen horoskooppisi näyttää",
+      "paragraphs": [
+        "Yleisestä päivän horoskoopista poiketen Auren Effect käyttää omia tietojasi: nimeä, syntymäaikaa ja syntymäpaikkaa. Siksi teksti tuntuu sinua lähempänä.",
+        "Et saa ennustusta vaan rauhallisen kuvauksen mielialastasi ja käytännön ideoita."
+      ]
+    },
+    {
+      "h2": "Näin täytät lomakkeen",
+      "paragraphs": [
+        "Kirjoita nimesi yläosaan, valitse syntymäaikasi ja etsi kaupunkisi luettelosta. Laske sen jälkeen oma Auren Effectisi.",
+        "Esimerkki: Sari kirjoittaa tietonsa, lukee ehdotuksen varata aikaa rauhalliselle keskustelulle ja suunnittelee illaksi lyhyen tauon ilman puhelinta."
+      ]
+    },
+    {
+      "h2": "Mihin tulosta voi käyttää",
+      "paragraphs": [
+        "Pidä tulosta tilaisuutena kuunnella itseäsi. Jos vinkki sopii sinulle, kokeile sitä; muuten jätä se sikseen.",
+        "Terveyteen, lakiin ja rahaan liittyvissä asioissa on parasta kääntyä ammattilaisen puoleen."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Onko henkilökohtainen horoskooppi ilmainen?",
+      "a": "Kyllä, Auren Effectin voi laskea ilman maksua."
+    },
+    {
+      "q": "Mitä tietoja tarvitsen?",
+      "a": "Tarvitset nimesi, syntymäaikasi ja syntymäpaikkasi."
+    },
+    {
+      "q": "Miten se eroaa päivän horoskoopista?",
+      "a": "Se käyttää henkilökohtaisia tietojasi eikä vain merkkiäsi."
+    },
+    {
+      "q": "Ennustaako Auren Effect tulevaisuutta?",
+      "a": "Ei, se antaa ideoita pohdittavaksi eikä sisällä ennustuksia."
+    }
+  ],
+  "tags": [
+    "henkilökohtainen horoskooppi"
+  ],
+  "ui": {
+    "faq": "Usein kysytyt kysymykset"
+  }
+}

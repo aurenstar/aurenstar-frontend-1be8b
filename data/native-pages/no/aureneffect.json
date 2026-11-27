@@ -1,0 +1,57 @@
+{
+  "lang": "no",
+  "page": "aureneffect",
+  "keyword": "personlig horoskop",
+  "volume": 0,
+  "title": "Gratis personlig horoskop: Auren Effect",
+  "description": "Ditt personlige horoskop med navn, fødselsdato og fødested: forstå hvordan du kan ha det i dag, og få enkle, praktiske råd for dagen.",
+  "intro": "Auren Effect er et personlig horoskop til ettertanke. Du skriver inn navnet og fødselsopplysningene dine og finner ut hvordan du kan ha det i dag, med enkle råd for dagen.",
+  "sections": [
+    {
+      "h2": "Hva et personlig horoskop viser",
+      "paragraphs": [
+        "I motsetning til et vanlig dagshoroskop bruker Auren Effect dine egne opplysninger: navn, fødselsdato og fødested. Derfor føles teksten nærmere deg.",
+        "Du får ikke en spådom, men en rolig beskrivelse av humøret ditt og praktiske ideer."
+      ]
+    },
+    {
+      "h2": "Slik fyller du ut skjemaet",
+      "paragraphs": [
+        "Skriv navnet ditt øverst, velg fødselsdatoen og finn byen din i listen. Beregn deretter Auren Effect.",
+        "Et eksempel: Marte skriver inn opplysningene, leser forslaget om å sette av tid til en rolig samtale og planlegger en kort pause uten telefon om kvelden."
+      ]
+    },
+    {
+      "h2": "Hva du kan bruke resultatet til",
+      "paragraphs": [
+        "Se på resultatet som en anledning til å lytte til deg selv. Passer et råd, kan du prøve det; ellers lar du det ligge.",
+        "Spør helst fagfolk om helse, jus og penger."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Er det personlige horoskopet gratis?",
+      "a": "Ja, du kan beregne Auren Effect uten å betale."
+    },
+    {
+      "q": "Hvilke opplysninger trenger jeg?",
+      "a": "Du trenger navnet ditt, fødselsdatoen og fødestedet."
+    },
+    {
+      "q": "Hva er forskjellen fra dagens horoskop?",
+      "a": "Det bruker dine personlige opplysninger og ikke bare tegnet ditt."
+    },
+    {
+      "q": "Spår Auren Effect framtiden?",
+      "a": "Nei, den gir ideer til ettertanke og ingen spådommer."
+    }
+  ],
+  "tags": [
+    "personlig horoskop",
+    "personlig horoskop gratis"
+  ],
+  "ui": {
+    "faq": "Vanlige spørsmål"
+  }
+}

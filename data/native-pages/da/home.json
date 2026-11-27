@@ -1,0 +1,57 @@
+{
+  "lang": "da",
+  "page": "home",
+  "keyword": "horoskop",
+  "volume": 0,
+  "title": "Gratis horoskop: dit stjernetegn og dagens budskab",
+  "description": "Dit gratis horoskop med enkle ord: find dit stjernetegn, læs et budskab til dagen og udforsk Aurenstars artikler og astrologiordbog.",
+  "intro": "På Aurenstar finder du dit horoskop uden indviklede ord. Du kan finde dit stjernetegn, læse et kort budskab til dagen og i ro og mag udforske artikler om astrologi.",
+  "sections": [
+    {
+      "h2": "Det finder du på Aurenstar",
+      "paragraphs": [
+        "De gratis værktøjer ligger øverst på siden: du skriver din fødselsdato, ser dit tegn og får enkle, venlige råd. Der er også et dagligt budskab til dit tegn og en personlig beskrivelse, du kan dele.",
+        "Vil du vide mere, kan du læse artiklerne og slå op i ordbogen, hvad en ascendant eller et element er."
+      ]
+    },
+    {
+      "h2": "Sådan bruger du dit horoskop hver dag",
+      "paragraphs": [
+        "Et eksempel: Mette læser sit budskab om morgenen, husker én sætning og spørger sig selv om aftenen, om den passede til hendes dag. Mere behøver et horoskop ikke at være.",
+        "Du kan også se rådene som en invitation til at tænke over tingene, for eksempel når du skal vælge, hvordan du starter en samtale, eller hvornår du holder pause."
+      ]
+    },
+    {
+      "h2": "Astrologi til eftertanke, ikke til spådomme",
+      "paragraphs": [
+        "Aurenstar lover ingen resultater og giver ikke medicinske, juridiske eller økonomiske råd. Tekstene er til for at give retning og glæde.",
+        "Vigtige beslutninger træffer du bedst sammen med mennesker, du stoler på, og om nødvendigt med fagfolk."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Er Aurenstars horoskop gratis?",
+      "a": "Ja, du kan bruge værktøjerne og læse artiklerne uden at betale."
+    },
+    {
+      "q": "Skal jeg oprette en konto?",
+      "a": "Nej, du behøver ikke at registrere dig for at bruge værktøjerne."
+    },
+    {
+      "q": "Hvad kan jeg gøre på Aurenstar?",
+      "a": "Du kan finde dit tegn, læse et dagligt budskab, lave en personlig beskrivelse og læse artikler og astrologiordbogen."
+    },
+    {
+      "q": "Forudsiger horoskopet fremtiden?",
+      "a": "Nej, tekstene er til eftertanke og indeholder ingen spådomme."
+    }
+  ],
+  "tags": [
+    "horoskop",
+    "horoskop i dag"
+  ],
+  "ui": {
+    "faq": "Ofte stillede spørgsmål"
+  }
+}

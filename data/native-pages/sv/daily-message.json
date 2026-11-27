@@ -1,0 +1,57 @@
+{
+  "lang": "sv",
+  "page": "daily-message",
+  "keyword": "dagens horoskop",
+  "volume": 0,
+  "title": "Dagens horoskop gratis: ditt budskap för idag",
+  "description": "Dagens horoskop med enkla ord: välj ditt stjärntecken och läs ett vänligt budskap med ett litet tips för din dag.",
+  "intro": "Med dagens horoskop från Aurenstar får du varje dag ett kort, vänligt budskap för ditt tecken. Det ger dig en tanke att fundera på och ett litet tips du kan prova redan idag.",
+  "sections": [
+    {
+      "h2": "Så fungerar dagens horoskop",
+      "paragraphs": [
+        "Du väljer ditt tecken högst upp och läser ditt budskap. Det innehåller en positiv mening som följer dig genom dagen och ett enkelt tips som inte tar mycket tid.",
+        "Texterna är lugna och praktiska, utan stora löften."
+      ]
+    },
+    {
+      "h2": "Ett exempel ur vardagen",
+      "paragraphs": [
+        "Oskar är Väduren och läser att han idag äntligen kan ringa det samtal han skjutit upp. Han tar tio minuter och märker att uppgiften var mindre än han trodde.",
+        "Dagens horoskop är en vänlig knuff: du bestämmer om och hur du använder den."
+      ]
+    },
+    {
+      "h2": "Förstå dagens horoskop rätt",
+      "paragraphs": [
+        "Budskapet är ingen förutsägelse. Det hjälper dig tänka efter och ger dig en stund för dig själv.",
+        "För hälsa, juridik eller pengar vänder du dig till en yrkesperson."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Är dagens horoskop gratis?",
+      "a": "Ja, du kan läsa ditt dagliga budskap utan att betala."
+    },
+    {
+      "q": "Hur ofta ändras budskapet?",
+      "a": "Du kan läsa ett nytt budskap för ditt tecken varje dag."
+    },
+    {
+      "q": "Måste jag fylla i mitt födelsedatum?",
+      "a": "Du väljer ditt tecken. Vet du inte vilket det är kan du räkna ut det med Aurenstars kalkylator."
+    },
+    {
+      "q": "Förutsäger dagens horoskop framtiden?",
+      "a": "Nej, det är en inbjudan till eftertanke och ingen förutsägelse."
+    }
+  ],
+  "tags": [
+    "dagens horoskop",
+    "dagens horoskop idag"
+  ],
+  "ui": {
+    "faq": "Vanliga frågor"
+  }
+}

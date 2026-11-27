@@ -1,0 +1,59 @@
+{
+  "lang": "fi",
+  "page": "daily-message",
+  "keyword": "päivän horoskooppi",
+  "volume": 0,
+  "title": "Päivän horoskooppi ilmaiseksi: viestisi tälle päivälle",
+  "description": "Päivän horoskooppi selkein sanoin: valitse merkkisi ja lue ystävällinen viesti pienen vinkin kera päiväsi tueksi.",
+  "intro": "Aurenstarin päivän horoskooppi tuo sinulle joka päivä lyhyen, ystävällisen viestin merkillesi. Siinä on ajatus pohdittavaksi ja pieni vinkki, jonka voit kokeilla jo tänään.",
+  "sections": [
+    {
+      "h2": "Näin päivän horoskooppi toimii",
+      "paragraphs": [
+        "Valitset merkkisi sivun yläosasta ja luet viestisi. Siinä on yksi myönteinen lause, joka kulkee mukanasi päivän, ja yksinkertainen vinkki, joka ei vie paljon aikaa.",
+        "Tekstit ovat rauhallisia ja käytännöllisiä, ilman suuria lupauksia."
+      ]
+    },
+    {
+      "h2": "Esimerkki arjesta",
+      "paragraphs": [
+        "Oinas-merkkinen Antti lukee, että tänään hän voi vihdoin soittaa sen puhelun, jota on lykännyt. Hän käyttää kymmenen minuuttia ja huomaa asian olleen pienempi kuin luuli.",
+        "Päivän horoskooppi on ystävällinen töytäisy: päätät itse, käytätkö sitä ja miten."
+      ]
+    },
+    {
+      "h2": "Päivän horoskoopin ymmärtäminen",
+      "paragraphs": [
+        "Viesti ei ole ennustus. Se auttaa pohtimaan ja antaa hetken itsellesi.",
+        "Terveyteen, lakiin ja rahaan liittyvissä asioissa käänny ammattilaisen puoleen."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Onko päivän horoskooppi ilmainen?",
+      "a": "Kyllä, päivän viestin voi lukea ilman maksua."
+    },
+    {
+      "q": "Kuinka usein viesti vaihtuu?",
+      "a": "Voit lukea uuden viestin merkillesi joka päivä."
+    },
+    {
+      "q": "Pitääkö minun kirjoittaa syntymäaikani?",
+      "a": "Valitset merkkisi. Jos et tiedä sitä, selvitä se Aurenstarin laskurilla."
+    },
+    {
+      "q": "Ennustaako päivän horoskooppi tulevaisuutta?",
+      "a": "Ei, se on kutsu pohdintaan eikä ennustus."
+    }
+  ],
+  "tags": [
+    "päivän horoskooppi",
+    "päivän horoskooppi rapu",
+    "päivän horoskooppi kalat",
+    "päivän horoskooppi härkä"
+  ],
+  "ui": {
+    "faq": "Usein kysytyt kysymykset"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "lang": "da",
+  "page": "daily-message",
+  "keyword": "dagens horoskop",
+  "volume": 0,
+  "title": "Dagens horoskop gratis: dit budskab i dag",
+  "description": "Dagens horoskop med enkle ord: vælg dit stjernetegn og læs et venligt budskab med et lille råd til din dag. Helt gratis.",
+  "intro": "Med dagens horoskop fra Aurenstar får du hver dag et kort, venligt budskab til dit tegn. Det giver dig en tanke at overveje og et lille råd, du kan prøve allerede i dag.",
+  "sections": [
+    {
+      "h2": "Sådan virker dagens horoskop",
+      "paragraphs": [
+        "Du vælger dit tegn øverst og læser dit budskab. Det indeholder en positiv sætning, der følger dig gennem dagen, og et enkelt råd, der ikke tager lang tid.",
+        "Tekstene er rolige og praktiske uden store løfter."
+      ]
+    },
+    {
+      "h2": "Et eksempel fra hverdagen",
+      "paragraphs": [
+        "Lars er Vædder og læser, at han i dag endelig kan ringe det opkald, han har udskudt. Han tager ti minutter og opdager, at opgaven var mindre, end han troede.",
+        "Dagens horoskop er et venligt puf: du bestemmer, om og hvordan du bruger det."
+      ]
+    },
+    {
+      "h2": "Sådan forstår du dagens horoskop",
+      "paragraphs": [
+        "Budskabet er ikke en spådom. Det hjælper dig med at tænke over tingene og giver dig et øjeblik for dig selv.",
+        "Spørg fagfolk om sundhed, jura og penge."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Er dagens horoskop gratis?",
+      "a": "Ja, du kan læse dit daglige budskab uden at betale."
+    },
+    {
+      "q": "Hvor ofte skifter budskabet?",
+      "a": "Du kan læse et nyt budskab til dit tegn hver dag."
+    },
+    {
+      "q": "Skal jeg skrive min fødselsdato?",
+      "a": "Du vælger dit tegn. Kender du det ikke, kan du finde det med Aurenstars beregner."
+    },
+    {
+      "q": "Forudsiger dagens horoskop fremtiden?",
+      "a": "Nej, det er en invitation til eftertanke og ikke en spådom."
+    }
+  ],
+  "tags": [
+    "dagens horoskop",
+    "dagens horoskop fisk",
+    "dagens horoskop krebs"
+  ],
+  "ui": {
+    "faq": "Ofte stillede spørgsmål"
+  }
+}

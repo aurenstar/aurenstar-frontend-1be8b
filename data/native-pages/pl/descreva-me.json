@@ -1,0 +1,57 @@
+{
+  "lang": "pl",
+  "page": "descreva-me",
+  "keyword": "cechy znaków zodiaku",
+  "volume": 0,
+  "title": "Cechy znaków zodiaku: Twój osobisty opis",
+  "description": "Poznaj cechy swojego znaku zodiaku: z danych urodzenia stwórz osobisty, zabawny opis astrologiczny, którym podzielisz się z kim zechcesz.",
+  "intro": "Które cechy znaków zodiaku pasują do Ciebie? Dzięki „Opisz mnie” tworzysz z danych urodzenia osobisty, zabawny opis astrologiczny, którym możesz podzielić się z przyjaciółmi.",
+  "sections": [
+    {
+      "h2": "Jak powstaje Twój opis",
+      "paragraphs": [
+        "Na górze wpisujesz datę urodzenia, wybierasz miasto z listy i dostajesz tekst o sobie, dopasowany do Twoich danych. Jest życzliwy, lekki i stworzony do dzielenia się.",
+        "Celem jest zabawa i namysł nad sobą, a nie wydawanie ostatecznych wyroków."
+      ]
+    },
+    {
+      "h2": "Cechy znaków zodiaku w codziennym życiu",
+      "paragraphs": [
+        "Przykład: Tomek czyta, że lubi spokój, ale ciekawi go poznawanie nowych ludzi. Rozpoznaje siebie i wysyła tekst przyjacielowi, który ze śmiechem odpisuje: „To cały Ty”.",
+        "Takie opisy mogą zacząć rozmowę, na przykład o tym, jak każdy przeżywa przerwy, bliskość czy plany."
+      ]
+    },
+    {
+      "h2": "O czym warto pamiętać",
+      "paragraphs": [
+        "Żaden tekst nie powie, kim naprawdę jesteś. Potraktuj opis jako zaproszenie do myślenia o sobie i zachowaj to, co do Ciebie pasuje.",
+        "W sprawach zdrowia, prawa lub pieniędzy zwróć się do specjalistów."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Czy „Opisz mnie” jest darmowe?",
+      "a": "Tak, swój opis możesz stworzyć za darmo."
+    },
+    {
+      "q": "Czego potrzebuję?",
+      "a": "Daty i miejsca urodzenia."
+    },
+    {
+      "q": "Czy mogę udostępnić opis?",
+      "a": "Tak, tekst jest stworzony do dzielenia się z innymi."
+    },
+    {
+      "q": "Czy cechy znaków zodiaku są naukowo udowodnione?",
+      "a": "Nie, astrologia służy rozrywce i namysłowi i nie jest dowodem naukowym."
+    }
+  ],
+  "tags": [
+    "cechy znaków zodiaku",
+    "znaki zodiaku cechy"
+  ],
+  "ui": {
+    "faq": "Najczęstsze pytania"
+  }
+}

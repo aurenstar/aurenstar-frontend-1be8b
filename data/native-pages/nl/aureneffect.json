@@ -1,0 +1,58 @@
+{
+  "lang": "nl",
+  "page": "aureneffect",
+  "keyword": "persoonlijke horoscoop",
+  "volume": 0,
+  "title": "Gratis persoonlijke horoscoop: het Auren Effect",
+  "description": "Je persoonlijke horoscoop met naam, geboortedatum en geboorteplaats: begrijp hoe je je vandaag kunt voelen en krijg eenvoudige, praktische tips.",
+  "intro": "Het Auren Effect is je persoonlijke horoscoop om over na te denken. Je vult je naam en geboortegegevens in en ontdekt hoe je je vandaag kunt voelen, met eenvoudige tips voor je dag.",
+  "sections": [
+    {
+      "h2": "Wat je persoonlijke horoscoop laat zien",
+      "paragraphs": [
+        "Anders dan een algemene dagelijkse horoscoop gebruikt het Auren Effect je eigen gegevens: naam, geboortedatum en geboorteplaats. Daardoor voelt de tekst dichter bij jou.",
+        "Je krijgt geen voorspelling, maar een rustige beschrijving van je stemming en praktische ideeën."
+      ]
+    },
+    {
+      "h2": "Zo vul je het formulier in",
+      "paragraphs": [
+        "Schrijf bovenaan je naam, kies je geboortedatum en zoek je stad in de lijst. Bereken daarna je Auren Effect.",
+        "Een voorbeeld: Sanne vult haar gegevens in, leest de suggestie om tijd te maken voor een rustig gesprek en plant 's avonds een korte pauze zonder telefoon."
+      ]
+    },
+    {
+      "h2": "Waar het resultaat voor dient",
+      "paragraphs": [
+        "Zie het resultaat als een aanleiding om naar jezelf te luisteren. Past een tip bij je, probeer hem dan; zo niet, laat hem los.",
+        "Voor gezondheid, recht of geld is het beter een professional te raadplegen."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is de persoonlijke horoscoop gratis?",
+      "a": "Ja, je kunt je Auren Effect gratis berekenen."
+    },
+    {
+      "q": "Welke gegevens heb ik nodig?",
+      "a": "Je hebt je naam, geboortedatum en geboorteplaats nodig."
+    },
+    {
+      "q": "Wat is het verschil met de horoscoop vandaag?",
+      "a": "Het gebruikt je persoonlijke gegevens en niet alleen je sterrenbeeld."
+    },
+    {
+      "q": "Voorspelt het Auren Effect de toekomst?",
+      "a": "Nee, het geeft ideeën om over na te denken en geen voorspellingen."
+    }
+  ],
+  "tags": [
+    "persoonlijke horoscoop",
+    "persoonlijke horoscoop gratis",
+    "persoonlijke horoscoop berekenen"
+  ],
+  "ui": {
+    "faq": "Veelgestelde vragen"
+  }
+}
