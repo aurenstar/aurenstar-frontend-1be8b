@@ -1,0 +1,61 @@
+{
+ "lang": "de",
+ "keyword": "synastrie astrologie",
+ "volume": 950,
+ "slug": "synastrie-astrologie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Synastrie Astrologie – Bedeutung und Anwendung",
+ "description": "Synastrie Astrologie beschreibt die Beziehung zwischen zwei Horoskopen und zeigt, wie Menschen miteinander harmonieren können.",
+ "intro": "Synastrie Astrologie ist die Kunst, zwei Geburtshoroskope miteinander zu vergleichen, um zu sehen, wie Menschen aufeinander wirken. Dabei schaut man, wie Planeten und Zeichen in beiden Karten zueinanderstehen und was das für die Beziehung bedeutet.",
+ "sections": [
+  {
+   "h2": "Was ist Synastrie Astrologie?",
+   "paragraphs": [
+    "Synastrie Astrologie ist ein Teilbereich der Astrologie, der sich mit der Analyse von zwei Personen beschäftigt. Dabei vergleicht man die Geburtshoroskope, um herauszufinden, wie sich die Energien der beiden verbinden. Es geht nicht nur um Liebesbeziehungen, sondern auch um Freundschaften, Familie oder Zusammenarbeit.",
+    "In der Synastrie schaut man vor allem auf Aspekte zwischen den Planeten beider Horoskope. Positive Aspekte wie Trigon oder Sextil zeigen oft Harmonie, während Quadrate oder Oppositionen Herausforderungen andeuten können. So gibt die Synastrie Hinweise darauf, wo es leicht oder schwer wird, sich zu verstehen.",
+    "Der Begriff Synastrie kommt aus dem Griechischen und bedeutet so viel wie ‚Zusammenstellung der Sterne‘. Durch diesen Vergleich lassen sich die Stärken und Schwächen einer Verbindung besser kennenlernen."
+   ]
+  },
+  {
+   "h2": "Synastrie Astrologie im Alltag",
+   "paragraphs": [
+    "Im Alltag hilft Synastrie Astrologie, Beziehungen besser zu verstehen und zu reflektieren. Wenn zwei Menschen zum Beispiel wissen, welche Themen in ihrer Verbindung besonders sind, können sie bewusster miteinander umgehen.",
+    "Ein Beispiel: Hat eine Person viele Planeten im Zeichen Löwe (etwa vom 23. Juli bis 23. August) und die andere im Zeichen Wassermann (ungefähr 21. Januar bis 19. Februar), könnten unterschiedliche Erwartungen an Freiheit und Nähe entstehen. Die Synastrie zeigt, wie diese Unterschiede harmonisiert oder ausgeglichen werden können.",
+    "Auch in der Partnerschaft oder im Beruf kann Synastrie Astrologie helfen, die Dynamik zu erkennen und Missverständnisse zu vermeiden. Es geht nicht darum, dass alles perfekt sein muss, sondern darum, die Verbindung besser zu verstehen."
+   ]
+  },
+  {
+   "h2": "Ein kleines Beispiel für Synastrie",
+   "paragraphs": [
+    "Stell dir vor, Anna hat ihre Sonne im Stier (ungefähr 20. April bis 20. Mai) und Markus seine Venus im Jungfrau-Zeichen (ungefähr 23. August bis 22. September). Die Sonne symbolisiert die Persönlichkeit, die Venus zeigt, wie jemand liebt und schätzt.",
+    "In der Synastrie kann man sehen, dass Stier und Jungfrau beide Erdzeichen sind und gut zusammenpassen. Das bedeutet, dass Anna und Markus in der Beziehung Sicherheit und Verlässlichkeit schätzen. Gleichzeitig kann Markus durch seine Venus Anna zeigen, wie wichtig kleine Details in der Liebe sind.",
+    "So kann die Synastrie Astrologie einfache Antworten geben, warum zwei Menschen sich verstehen oder wo es Reibung geben könnte."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Was ist der Unterschied zwischen Synastrie und Partnerschaftshoroskop?",
+   "a": "Synastrie vergleicht zwei Geburtshoroskope, um die Beziehung zu verstehen, während das Partnerschaftshoroskop eine eigene, kombinierte Karte beider Personen ist."
+  },
+  {
+   "q": "Kann Synastrie Astrologie vorhersagen, ob eine Beziehung hält?",
+   "a": "Nein, Synastrie zeigt nur Tendenzen und Dynamiken, aber keine sicheren Vorhersagen. Beziehungen hängen von vielen Faktoren ab."
+  },
+  {
+   "q": "Braucht man genaue Geburtszeiten für Synastrie?",
+   "a": "Ja, genaue Geburtszeiten machen die Analyse genauer, besonders für Aspekte des Aszendenten und der Häuser."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Weiterlesen",
+  "dictionary": "Astrologie-Lexikon"
+ },
+ "tool": "discover-sign",
+ "term": "what-is-synastry"
+}
