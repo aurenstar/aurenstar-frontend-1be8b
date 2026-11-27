@@ -28,6 +28,7 @@ export function checkNativePage(p: NativePage): string[] {
 export function injectNativePage(html: string, p: NativePage): string {
   const kws = [p.keyword, ...(p.tags || [])].filter((v, i, a) => v && a.findIndex((x) => x.toLowerCase() === v.toLowerCase()) === i);
   const head =
+    `    <meta name="native-page" content="${esc(p.page === 'home' ? '/' : '/' + p.page)}" />\n` +
     `    <meta name="keywords" content="${esc(kws.join(', '))}" />\n` +
     `    <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: langTag(p.lang), mainEntity: p.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }).replace(/</g, '\\u003c')}</script>\n`;
   const block =
@@ -38,7 +39,9 @@ export function injectNativePage(html: string, p: NativePage): string {
     p.faq.map((f) => `<details style="border-top:1px solid #e3dcf5;padding:.6em 0"><summary style="cursor:pointer;font-weight:600">${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('') +
     (p.tags?.length ? `<p>${p.tags.map((t) => `<span style="display:inline-block;margin:0 6px 6px 0;padding:2px 10px;border:1px solid #e3dcf5;border-radius:999px;font-size:.85rem;color:#4b2a8f">${esc(t)}</span>`).join(' ')}</p>` : '') +
     `</section>\n`;
-  let out = html.replace('</head>', `${head}  </head>`);
+  // This page has real text for its country: it may be indexed (the machine-translated copies stay out of the index).
+  let out = /<meta\s+name="robots"[^>]*>/.test(html) ? html.replace(/<meta\s+name="robots"[^>]*>/, '<meta name="robots" content="index,follow" />') : html;
+  out = out.replace('</head>', `${head}  </head>`);
   out = /<\/body>/.test(out) ? out.replace('</body>', `${block}</body>`) : out + block;
   return out;
 }

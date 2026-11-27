@@ -46,6 +46,16 @@ function setStructuredData(data: Record<string, unknown>) {
 export function updateSeo(page: SeoPage, options?: SeoOptions) {
   const seo = getSeoData(page, options);
 
+  // A main page with its own native text (written for that country): the server already put the right title, description, keywords and
+  // address in the head, so the browser must not replace them with the English/translated ones. Moving to another page clears the mark.
+  const nativeMark = document.head.querySelector<HTMLMetaElement>('meta[name="native-page"]');
+  if (nativeMark) {
+    const lg = getUrlLang();
+    const here = (lg ? window.location.pathname.slice(lg.length + 1) : window.location.pathname).replace(/\/+$/, '') || '/';
+    if (nativeMark.content === here) { setStructuredData(seo.jsonLd); return; }
+    nativeMark.remove();
+  }
+
   document.title = seo.title;
   document.documentElement.lang = seo.lang;
   setMeta('name', 'description', seo.description);
