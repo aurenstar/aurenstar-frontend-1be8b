@@ -211,8 +211,51 @@ export const SiteLocalizer: React.FC = () => {
           // On a language address the tab title and descriptions are already set in that language (server + seo.ts).
           const titleOriginal = !getUrlLang() && document.title && document.title !== titleWritten ? document.title : '';
           if (titleOriginal && hasLetters(titleOriginal)) wanted.add(titleOriginal);
+          const applyKnown = () => {
+            loose.forEach((t) => {
+              const out = cache[(t.nodeValue || '').trim()];
+              if (out && t.isConnected) setText(t, out);
+            });
+            groups.forEach((items, P) => {
+              const out = cache[groupString(items)];
+              if (!out) return;
+              const parts = parseGroup(out, items);
+              const nodes = items.filter((i) => hasLetters(orig(i.node)) || i.kind === 'E');
+              if (!parts || parts.length !== nodes.length) {
+                noGroup.add(P); // translate this block piece by piece on the next round
+                again = true;
+                return;
+              }
+              nodes.forEach((i, k) => i.node.isConnected && setText(i.node, parts[k]));
+            });
+            attrNodes.forEach(({ el, attr, value }) => {
+              const out = cache[value.trim()];
+              if (!out) return;
+              attrOriginals.set(el, { ...(attrOriginals.get(el) || {}), [attr]: value });
+              el.setAttribute(attr, out);
+            });
+            shareLinks.forEach(({ el, key, value }) => {
+              const out = cache[value];
+              if (!out) return;
+              const href = el.getAttribute('href') || '';
+              try {
+                const u = new URL(href);
+                u.searchParams.set(key, out);
+                hrefOriginals.set(el, href);
+                el.setAttribute('href', u.toString());
+              } catch {
+                // leave the link as it is
+              }
+            });
+            if (titleOriginal && cache[titleOriginal]) {
+              titleOriginals.push(titleOriginal);
+              titleWritten = cache[titleOriginal];
+              document.title = titleWritten;
+            }
+          };
           const missing = [...wanted].filter((s) => s && !cache[s] && !failed.has(s));
 
+          if (missing.length) applyKnown(); // texts we already know show up at once, the rest follows
           if (missing.length) {
             slow = window.setTimeout(() => !stopped && setBusy(true), 800);
             const batches: string[][] = [];
@@ -237,46 +280,7 @@ export const SiteLocalizer: React.FC = () => {
           }
           if (stopped) return;
 
-          loose.forEach((t) => {
-            const out = cache[(t.nodeValue || '').trim()];
-            if (out && t.isConnected) setText(t, out);
-          });
-          groups.forEach((items, P) => {
-            const out = cache[groupString(items)];
-            if (!out) return;
-            const parts = parseGroup(out, items);
-            const nodes = items.filter((i) => hasLetters(orig(i.node)) || i.kind === 'E');
-            if (!parts || parts.length !== nodes.length) {
-              noGroup.add(P); // translate this block piece by piece on the next round
-              again = true;
-              return;
-            }
-            nodes.forEach((i, k) => i.node.isConnected && setText(i.node, parts[k]));
-          });
-          attrNodes.forEach(({ el, attr, value }) => {
-            const out = cache[value.trim()];
-            if (!out) return;
-            attrOriginals.set(el, { ...(attrOriginals.get(el) || {}), [attr]: value });
-            el.setAttribute(attr, out);
-          });
-          shareLinks.forEach(({ el, key, value }) => {
-            const out = cache[value];
-            if (!out) return;
-            const href = el.getAttribute('href') || '';
-            try {
-              const u = new URL(href);
-              u.searchParams.set(key, out);
-              hrefOriginals.set(el, href);
-              el.setAttribute('href', u.toString());
-            } catch {
-              // leave the link as it is
-            }
-          });
-          if (titleOriginal && cache[titleOriginal]) {
-            titleOriginals.push(titleOriginal);
-            titleWritten = cache[titleOriginal];
-            document.title = titleWritten;
-          }
+          applyKnown();
         } while (again && !stopped);
       } finally {
         running = false;
