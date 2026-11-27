@@ -30,7 +30,7 @@ import { renderNativeArticle, renderNativeHub, pathOf, hubPath, type NativeArtic
 import { URL_LANGUAGES } from '../src/utils/urlLang';
 import { SIGNS_DATA } from '../src/data/signsData';
 import { cardImage } from '../src/utils/cardImage';
-import { renderSignHub, hubUrlPath, HUB_LANGS, type HubLang } from '../server/engine/signHub';
+import { renderSignHub, hubUrlPath, HUB_LANGS, type HubLang, type NativeUi, type NativeSign } from '../server/engine/signHub';
 import { enToLocal } from '../src/utils/localizedSlugs';
 import { signForTitle, hubUrlPath as signHubPath, hubLinkLabel } from '../src/utils/signHubLinks';
 import { getArticleIsoDate, getArticleSlug } from '../src/utils/articleSlug';
@@ -349,8 +349,13 @@ const signUrls: { loc: string }[] = [];
 {
   const foldS = (x: string) => x.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   const heads = JSON.parse(fs.readFileSync(path.join(dist, 'article-head.json'), 'utf8')) as Record<string, Record<string, { t: string }>>;
+  // Sign pages written natively in other languages: data/sign-native/<lang>/_ui.json + <sign key>.json (only those that exist are published).
+  const nativeDir = path.join(root, 'data/sign-native');
+  const nativeLangs = fs.existsSync(nativeDir) ? fs.readdirSync(nativeDir).filter((l) => fs.existsSync(path.join(nativeDir, l, '_ui.json'))).sort() : [];
+  const nativeSignOf = (l: string, key: string): NativeSign | null => { const f = path.join(nativeDir, l, `${key}.json`); return fs.existsSync(f) ? (JSON.parse(fs.readFileSync(f, 'utf8')) as NativeSign) : null; };
   for (const sign of Object.values(SIGNS_DATA)) {
     const re = new RegExp(`\\b${foldS(sign.name.en)}\\b`);
+    const natAlt = nativeLangs.filter((l) => nativeSignOf(l, sign.key)).map((l) => ({ lang: l, path: `/${l}/signos/${nativeSignOf(l, sign.key)!.slug}` }));
     const mine = BLOG_ARTICLES.filter((a) => re.test(foldS(a.title.en))).sort((x, y) => (x.id === sign.articleId ? -1 : y.id === sign.articleId ? 1 : 0));
     for (const lang of HUB_LANGS) {
       const list = mine.map((a) => {
@@ -362,12 +367,28 @@ const signUrls: { loc: string }[] = [];
       });
       const tf = path.join(root, 'data/sign-texts', `${sign.key}.json`);
       const sections = fs.existsSync(tf) ? (JSON.parse(fs.readFileSync(tf, 'utf8'))[lang] as { h: string; p: string }[]) : [];
-      const html = renderSignHub(lang as HubLang, sign, list, sections);
+      const html = renderSignHub(lang as HubLang, sign, list, sections, undefined, natAlt);
       const urlPath = hubUrlPath(sign, lang as HubLang);
       const file = lang === 'en' ? path.join(dist, `${urlPath.slice(1)}.html`) : path.join(dist, '_native', lang, `${urlPath.replace(`/${lang}/`, '')}.html`);
       fs.mkdirSync(path.dirname(file), { recursive: true });
       fs.writeFileSync(file, html);
       signUrls.push({ loc: `${SITE_URL}${urlPath}` });
+    }
+    const coreAlt = HUB_LANGS.map((l) => ({ lang: l, path: hubUrlPath(sign, l) }));
+    for (const lang of nativeLangs) {
+      const ns = nativeSignOf(lang, sign.key);
+      if (!ns) continue;
+      const ui = JSON.parse(fs.readFileSync(path.join(nativeDir, lang, '_ui.json'), 'utf8')) as NativeUi;
+      const list = mine.flatMap((a) => {
+        const enSlug = getArticleSlug(a);
+        const h = heads[lang]?.[enSlug]?.t;
+        return h ? [{ title: h.replace(/\s*\|\s*Aurenstar$/, ''), href: `/${lang}/blog/${enToLocal(lang, enSlug) ?? enSlug}`, image: cardImage(a.image) }] : [];
+      });
+      const html = renderSignHub(lang, sign, list, [], { ui, sign: ns, alt: [...coreAlt, ...natAlt] });
+      const file = path.join(dist, '_native', lang, 'signos', `${ns.slug}.html`);
+      fs.mkdirSync(path.dirname(file), { recursive: true });
+      fs.writeFileSync(file, html);
+      signUrls.push({ loc: `${SITE_URL}/${lang}/signos/${ns.slug}` });
     }
   }
   fs.writeFileSync(path.join(dist, 'sitemap-signs.xml'), urlset(signUrls.map((u) => `  <url><loc>${escapeXml(u.loc)}</loc></url>`).join('\n')));

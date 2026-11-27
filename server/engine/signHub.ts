@@ -85,26 +85,47 @@ footer{max-width:880px;margin:0 auto;padding:10px 20px 40px;display:flex;gap:18p
 
 const clip = (s: string, max = 155) => (s.length <= max ? s : `${s.slice(0, max - 1).replace(/[\s,;:.-]+\S*$/, '')}…`);
 
-export function renderSignHub(lang: HubLang, sign: SignInfo, articles: { title: string; href: string; image?: string; category?: string; subtitle?: string }[], sections: { h: string; p: string }[] = []): string {
-  const t = T[lang], n = sign.name[lang], p = sign.period[lang], e = sign.element[lang];
+/** Native sign page for any other language (data/sign-native/<lang>/): everything is written in that language. */
+export interface NativeUi { home: string; read: string; dict: string; contact: string; tools: string; articles: string; faq: string; articlesAbout: string; cta: string; facts: string; period: string; element: string; advice: string; title: string; desc: string; qDates: string; qElement: string; qPersonality: string; qTip: string; aDates: string; aElement: string }
+export interface NativeSign { name: string; slug: string; period: string; element: string; essence: string; advice: string; sections: { h: string; p: string }[] }
+export interface HubOverride { ui: NativeUi; sign: NativeSign; alt: { lang: string; path: string }[] }
+const RTL = new Set(['ar', 'he', 'fa', 'ur', 'dv']);
+const fill = (tpl: string, v: Record<string, string>) => tpl.replace(/\{(\w+)\}/g, (_, k) => v[k] ?? '');
+
+export function renderSignHub(lang: HubLang | string, sign: SignInfo, articles: { title: string; href: string; image?: string; category?: string; subtitle?: string }[], sections: { h: string; p: string }[] = [], ov?: HubOverride, extraAlt: { lang: string; path: string }[] = []): string {
+  const nu = ov?.ui, ns = ov?.sign;
+  const t = (nu
+    ? { home: nu.home, read: nu.read, dict: nu.dict, contact: nu.contact, tools: nu.tools, articles: nu.articles, faq: nu.faq, articlesAbout: (x: string) => fill(nu.articlesAbout, { n: x }), cta: nu.cta, facts: nu.facts, period: nu.period, element: nu.element, advice: nu.advice }
+    : T[lang as HubLang]) as typeof T[HubLang];
+  const n = ns ? ns.name : sign.name[lang as HubLang], p = ns ? ns.period : sign.period[lang as HubLang], e = ns ? ns.element : sign.element[lang as HubLang];
+  const essence = ns ? ns.essence : sign.essence[lang as HubLang], adviceTxt = ns ? ns.advice : sign.advice[lang as HubLang];
+  if (ns) sections = ns.sections;
   const base = lang === 'en' ? '' : `/${lang}`;
-  const url = `${SITE}${hubUrlPath(sign, lang)}`;
-  const title = t.title(n), description = clip(t.desc(n, p, e));
-  const faq = [
+  const url = ns ? `${SITE}/${lang}/signos/${ns.slug}` : `${SITE}${hubUrlPath(sign, lang as HubLang)}`;
+  const vars = { n, p, e };
+  const title = nu ? fill(nu.title, vars) : t.title(n), description = clip(nu ? fill(nu.desc, vars) : t.desc(n, p, e));
+  const faq = nu ? [
+    { q: fill(nu.qDates, vars), a: fill(nu.aDates, vars) },
+    { q: fill(nu.qElement, vars), a: fill(nu.aElement, vars) },
+    { q: fill(nu.qPersonality, vars), a: essence },
+    { q: fill(nu.qTip, vars), a: adviceTxt },
+  ] : [
     { q: t.q.dates(n), a: t.a.dates(n, p) },
     { q: t.q.element(n), a: t.a.element(n, e) },
-    { q: t.q.personality(n), a: sign.essence[lang] },
-    { q: t.q.tip(n), a: sign.advice[lang] },
+    { q: t.q.personality(n), a: essence },
+    { q: t.q.tip(n), a: adviceTxt },
   ];
   const jsonLd = [
     { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, inLanguage: langTag(lang), url },
     { '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: langTag(lang), mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
     { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: t.home, item: `${SITE}${base || '/'}` }, { '@type': 'ListItem', position: 2, name: n, item: url }] },
   ];
-  const alt = HUB_LANGS.map((l) => `<link rel="alternate" hreflang="${langTag(l)}" href="${SITE}${hubUrlPath(sign, l)}" />`).join('\n') + `\n<link rel="alternate" hreflang="x-default" href="${SITE}${hubUrlPath(sign, 'en')}" />`;
+  const alt = (ov
+    ? [...ov.alt.map((x) => `<link rel="alternate" hreflang="${langTag(x.lang)}" href="${SITE}${x.path}" />`), `<link rel="alternate" hreflang="x-default" href="${SITE}${hubUrlPath(sign, 'en')}" />`].join('\n')
+    : [...HUB_LANGS.map((l) => `<link rel="alternate" hreflang="${langTag(l)}" href="${SITE}${hubUrlPath(sign, l)}" />`), ...extraAlt.map((x) => `<link rel="alternate" hreflang="${langTag(x.lang)}" href="${SITE}${x.path}" />`)].join('\n') + `\n<link rel="alternate" hreflang="x-default" href="${SITE}${hubUrlPath(sign, 'en')}" />`);
   const tag = langTag(lang);
   return `<!doctype html>
-<html lang="${tag}">
+<html lang="${tag}" dir="${RTL.has(lang) ? 'rtl' : 'ltr'}">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -126,12 +147,12 @@ ${alt}
 <style>${HUB_CSS}</style>
 </head>
 <body>
-<header class="top"><a href="${base || '/'}"><img src="/logo-aurenstar.webp" alt="Aurenstar" /></a><a class="p" href="${base || '/'}">${esc(t.home)}</a><a class="p" href="${lang === 'en' ? '/dictionary' : base + '/dicionario'}">${esc(t.dict)}</a><a class="p" href="${base}/blog">Blog</a><a class="p" href="${base}/newsletter">Newsletter</a><a class="p" href="${base || ''}/#faq">FAQ</a><a class="p" href="${base}/contact">${esc(t.contact)}</a></header>
+<header class="top"><a href="${base || '/'}"><img src="/logo-aurenstar.webp" alt="Aurenstar" /></a><a class="p" href="${base || '/'}">${esc(t.home)}</a><a class="p" href="${lang === 'en' ? '/dictionary' : lang === 'pt' || lang === 'es' ? base + '/dicionario' : base + '/dictionary'}">${esc(t.dict)}</a><a class="p" href="${base}/blog">Blog</a><a class="p" href="${base}/newsletter">Newsletter</a><a class="p" href="${base || ''}/#faq">FAQ</a><a class="p" href="${base}/contact">${esc(t.contact)}</a></header>
 <main>
-<section class="card hero"><div class="sym">${esc(sign.symbol)}&#xFE0E;</div><h1>${esc(n)}<em>${esc(title.slice(n.length).replace(/^[:\s]+/, ''))}</em></h1><p class="lead">${esc(sign.essence[lang])}</p><div class="chips"><span class="k">${esc(p)}</span><span>${esc(e)}</span></div></section>
+<section class="card hero"><div class="sym">${esc(sign.symbol)}&#xFE0E;</div><h1>${esc(n)}<em>${esc(title.startsWith(n) ? title.slice(n.length).replace(/^[:\uFF1A\s]+/, '') : title)}</em></h1><p class="lead">${esc(essence)}</p><div class="chips"><span class="k">${esc(p)}</span><span>${esc(e)}</span></div></section>
 ${sections.map((x) => `<section class="card"><h2>${esc(x.h)}</h2>\n<p>${esc(x.p)}</p></section>`).join('\n')}
 <section class="card pk"><h2>${esc(t.advice)}</h2>
-<p>${esc(sign.advice[lang])}</p></section>
+<p>${esc(adviceTxt)}</p></section>
 ${articles.length ? `<section class="card"><h2>${esc(t.articlesAbout(n))}</h2>\n<ul class="l">${articles.map((a) => `<li><a class="ac" href="${esc(a.href)}"><span class="th">${a.image ? `<img src="${esc(a.image)}" alt="" loading="lazy" decoding="async" />` : `${esc(sign.symbol)}&#xFE0E;`}</span><span class="tx">${a.category ? `<span class="cat">${esc(a.category)}</span>` : ''}<b>${esc(a.title)}</b>${a.subtitle ? `<span class="sb">${esc(a.subtitle)}</span>` : ''}</span><span class="ar"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></li>`).join('\n')}</ul></section>` : ''}
 <div class="ctaw"><a class="cta" href="${base}/discover-sign">${esc(t.cta)}</a></div>
 <section class="card"><h2>${esc(t.faq)}</h2>
