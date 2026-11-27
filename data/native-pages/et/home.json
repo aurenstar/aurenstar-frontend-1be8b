@@ -1,0 +1,58 @@
+{
+  "lang": "et",
+  "page": "home",
+  "keyword": "horoskoop",
+  "volume": 0,
+  "title": "Tasuta horoskoop: sinu tähtkuju ja päeva sõnum",
+  "description": "Tasuta horoskoop lihtsate sõnadega: selgita välja oma tähtkuju, loe päeva sõnumit ning tutvu Aurenstari artiklite ja astroloogiasõnastikuga.",
+  "intro": "Aurenstari horoskoop on ilma keeruliste terminiteta. Saad teada oma tähtkuju, lugeda lühikest sõnumit päevaks ja rahulikult sirvida astroloogia artikleid.",
+  "sections": [
+    {
+      "h2": "Mida Aurenstaris leiad",
+      "paragraphs": [
+        "Tasuta tööriistad asuvad lehe ülaosas: sisestad sünniaja, näed oma tähtkuju ja saad lihtsaid, sõbralikke nõuandeid. On ka päeva sõnum sinu tähtkujule ja isiklik kirjeldus, mida saad jagada.",
+        "Kui tahad rohkem teada, loe artikleid ja vaata sõnastikku, et mõista näiteks, mis on tõusev märk või element."
+      ]
+    },
+    {
+      "h2": "Kuidas horoskoopi iga päev kasutada",
+      "paragraphs": [
+        "Näide: Mari loeb hommikul sõnumit, jätab meelde ühe lause ja õhtul mõtleb, kas see sobis tema päevaga. Horoskoop ei pea olema midagi enamat.",
+        "Nõuandeid võid võtta ka kutsena järele mõelda, näiteks kui otsustad, kuidas vestlust alustada või millal pausi teha."
+      ]
+    },
+    {
+      "h2": "Astroloogia järelemõtlemiseks, mitte ennustamiseks",
+      "paragraphs": [
+        "Aurenstar ei luba tulemusi ega anna meditsiinilisi, õiguslikke ega rahalisi nõuandeid. Tekstid on mõeldud suuna andmiseks ja rõõmuks.",
+        "Tähtsaid otsuseid on parem teha koos inimestega, keda usaldad, ja vajadusel spetsialistidega."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kas Aurenstari horoskoop on tasuta?",
+      "a": "Jah, tööriistu ja artikleid saad kasutada tasuta."
+    },
+    {
+      "q": "Kas pean konto looma?",
+      "a": "Ei, tööriistade kasutamiseks pole registreerimist vaja."
+    },
+    {
+      "q": "Mida saan Aurenstaris teha?",
+      "a": "Saad teada oma tähtkuju, lugeda päeva sõnumit, luua isikliku kirjelduse ning lugeda artikleid ja astroloogiasõnastikku."
+    },
+    {
+      "q": "Kas horoskoop ennustab tulevikku?",
+      "a": "Ei, tekstid on mõeldud järelemõtlemiseks ega sisalda ennustusi."
+    }
+  ],
+  "tags": [
+    "horoskoop",
+    "horoskoop täna",
+    "horoskoop homme"
+  ],
+  "ui": {
+    "faq": "Korduma kippuvad küsimused"
+  }
+}

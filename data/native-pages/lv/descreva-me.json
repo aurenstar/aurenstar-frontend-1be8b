@@ -1,0 +1,56 @@
+{
+  "lang": "lv",
+  "page": "descreva-me",
+  "keyword": "zodiaka zīmju raksturojums",
+  "volume": 0,
+  "title": "Zodiaka zīmju raksturojums: jūsu personīgais apraksts",
+  "description": "Atklājiet jums piemērotu zodiaka zīmju raksturojumu: no dzimšanas datiem izveidojiet personīgu, jautru astroloģisku aprakstu, ar ko dalīties.",
+  "intro": "Kurš zodiaka zīmju raksturojums līdzinās jums? Ar „Apraksti mani” no dzimšanas datiem izveidojat personīgu, jautru astroloģisku aprakstu, ar ko varat dalīties ar draugiem.",
+  "sections": [
+    {
+      "h2": "Kā rodas jūsu apraksts",
+      "paragraphs": [
+        "Augšā ievadāt dzimšanas datumu, izvēlaties pilsētu no saraksta un saņemat tekstu par sevi, kas atbilst jūsu datiem. Tas ir laipns, viegls un uzrakstīts, lai ar to dalītos.",
+        "Mērķis ir uzjautrināties un padomāt par sevi, nevis pasludināt galīgus spriedumus."
+      ]
+    },
+    {
+      "h2": "Zodiaka zīmju raksturojums ikdienā",
+      "paragraphs": [
+        "Piemērs: Kārlis izlasa, ka mīl mieru, bet ir ziņkārīgs satikt jaunus cilvēkus. Viņš sevi atpazīst un nosūta tekstu draugam, kas smejoties atbild: „Tas esi tu.”",
+        "Šādi apraksti var iesākt sarunu, piemēram, par to, kā katrs pārdzīvo pauzes, tuvību vai plānus."
+      ]
+    },
+    {
+      "h2": "Ko vērts atcerēties",
+      "paragraphs": [
+        "Neviens teksts nevar pateikt, kas jūs patiesībā esat. Uztveriet aprakstu kā aicinājumu padomāt par sevi un paturiet to, kas der.",
+        "Veselības, tiesību vai naudas jautājumos vērsieties pie speciālistiem."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Vai „Apraksti mani” ir bezmaksas?",
+      "a": "Jā, savu aprakstu varat izveidot bez maksas."
+    },
+    {
+      "q": "Kas man vajadzīgs?",
+      "a": "Dzimšanas datums un vieta."
+    },
+    {
+      "q": "Vai drīkstu dalīties ar aprakstu?",
+      "a": "Jā, teksts radīts, lai ar to dalītos ar citiem."
+    },
+    {
+      "q": "Vai zodiaka zīmju raksturojums ir zinātniski pierādīts?",
+      "a": "Nē, astroloģija ir izklaidei un pārdomām, un tā nav zinātnisks pierādījums."
+    }
+  ],
+  "tags": [
+    "zodiaka zīmju raksturojums"
+  ],
+  "ui": {
+    "faq": "Biežāk uzdotie jautājumi"
+  }
+}

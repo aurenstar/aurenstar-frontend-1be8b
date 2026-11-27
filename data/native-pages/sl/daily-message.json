@@ -1,0 +1,57 @@
+{
+  "lang": "sl",
+  "page": "daily-message",
+  "keyword": "dnevni horoskop",
+  "volume": 0,
+  "title": "Dnevni horoskop brezplačno: vaše sporočilo za danes",
+  "description": "Dnevni horoskop z enostavnimi besedami: izberite svoje znamenje in preberite prijazno sporočilo z majhnim nasvetom za svoj dan.",
+  "intro": "Dnevni horoskop Aurenstar je kratko, prijazno sporočilo za vaše znamenje, ki ga prejmete vsak dan. Pusti vam misel za razmislek in majhen nasvet, ki ga lahko preizkusite že danes.",
+  "sections": [
+    {
+      "h2": "Kako deluje dnevni horoskop",
+      "paragraphs": [
+        "Na vrhu strani izberete svoje znamenje in preberete sporočilo. Vsebuje en pozitiven stavek, ki vas spremlja čez dan, in preprost nasvet, ki ne vzame veliko časa.",
+        "Besedila so mirna in praktična, brez velikih obljub."
+      ]
+    },
+    {
+      "h2": "Primer iz vsakdana",
+      "paragraphs": [
+        "Luka je Oven in prebere, da lahko danes končno opravi klic, ki ga je odlašal. Nameni mu deset minut in vidi, da je bila stvar manjša, kot je mislil.",
+        "Dnevni horoskop je nežen sunek: vi odločite, ali ga boste uporabili in kako."
+      ]
+    },
+    {
+      "h2": "Kako razumeti dnevni horoskop",
+      "paragraphs": [
+        "Sporočilo ni napoved. Pomaga vam razmisliti in vam da trenutek zase.",
+        "Za zdravje, pravo ali denar se obrnite na strokovnjake."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Je dnevni horoskop brezplačen?",
+      "a": "Da, dnevno sporočilo lahko berete brez plačila."
+    },
+    {
+      "q": "Kako pogosto se sporočilo spremeni?",
+      "a": "Za svoje znamenje lahko vsak dan preberete novo sporočilo."
+    },
+    {
+      "q": "Ali moram vnesti datum rojstva?",
+      "a": "Izberete svoje znamenje. Če ga ne poznate, ga izvedite z Aurenstar kalkulatorjem."
+    },
+    {
+      "q": "Ali dnevni horoskop napoveduje prihodnost?",
+      "a": "Ne, je povabilo k razmisleku in ne napoved."
+    }
+  ],
+  "tags": [
+    "dnevni horoskop",
+    "dnevni horoskop znamenja"
+  ],
+  "ui": {
+    "faq": "Pogosta vprašanja"
+  }
+}

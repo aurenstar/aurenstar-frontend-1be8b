@@ -1,0 +1,58 @@
+{
+  "lang": "lt",
+  "page": "daily-message",
+  "keyword": "dienos horoskopas",
+  "volume": 0,
+  "title": "Dienos horoskopas nemokamai: jūsų žinutė šiandien",
+  "description": "Dienos horoskopas paprastais žodžiais: pasirinkite savo ženklą ir perskaitykite malonią žinutę su nedideliu patarimu savo dienai.",
+  "intro": "Aurenstar dienos horoskopas yra trumpa, maloni žinutė jūsų ženklui, kurią gaunate kasdien. Ji palieka mintį apmąstymams ir nedidelį patarimą, kurį galite išbandyti jau šiandien.",
+  "sections": [
+    {
+      "h2": "Kaip veikia dienos horoskopas",
+      "paragraphs": [
+        "Puslapio viršuje pasirenkate savo ženklą ir skaitote žinutę. Joje yra vienas teigiamas sakinys, lydintis jus visą dieną, ir paprastas patarimas, kuriam neprireikia daug laiko.",
+        "Tekstai ramūs ir praktiški, be didelių pažadų."
+      ]
+    },
+    {
+      "h2": "Pavyzdys iš kasdienybės",
+      "paragraphs": [
+        "Tomas yra Avinas ir skaito, kad šiandien pagaliau gali paskambinti, ką atidėliojo. Skiria dešimt minučių ir pamato, kad reikalas buvo mažesnis, nei manė.",
+        "Dienos horoskopas yra švelnus pastūmėjimas: jūs nusprendžiate, ar juo naudotis ir kaip."
+      ]
+    },
+    {
+      "h2": "Kaip suprasti dienos horoskopą",
+      "paragraphs": [
+        "Žinutė nėra spėjimas. Ji padeda susimąstyti ir suteikia akimirką sau.",
+        "Dėl sveikatos, teisės ar pinigų kreipkitės į specialistus."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ar dienos horoskopas nemokamas?",
+      "a": "Taip, dienos žinutę galite skaityti nemokėdami."
+    },
+    {
+      "q": "Kaip dažnai žinutė keičiasi?",
+      "a": "Savo ženklui galite skaityti naują žinutę kiekvieną dieną."
+    },
+    {
+      "q": "Ar reikia įvesti gimimo datą?",
+      "a": "Pasirenkate savo ženklą. Jei jo nežinote, sužinokite su Aurenstar skaičiuokle."
+    },
+    {
+      "q": "Ar dienos horoskopas spėja ateitį?",
+      "a": "Ne, tai kvietimas apmąstymams, o ne spėjimas."
+    }
+  ],
+  "tags": [
+    "dienos horoskopas",
+    "dienos horoskopas dvyniams",
+    "dienos horoskopas vandeniui"
+  ],
+  "ui": {
+    "faq": "Dažniausiai užduodami klausimai"
+  }
+}

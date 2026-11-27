@@ -1,0 +1,56 @@
+{
+  "lang": "et",
+  "page": "discover-sign",
+  "keyword": "tõusva märgi arvutus",
+  "volume": 0,
+  "title": "Tõusva märgi arvutus tasuta: selgita välja oma tähtkuju",
+  "description": "Tõusva märgi arvutus on lihtne: sisesta sünniaeg, kellaaeg ja koht ning selgita tasuta välja oma tähtkuju selgete ja sõbralike nõuannetega.",
+  "intro": "Tahad teha tõusva märgi arvutuse ja oma tähtkuju tundma õppida? Selles tasuta tööriistas sisestad sünniaja ning kui tead, siis kellaaja ja linna, et näha oma tähtkuju ja tõusvat märki.",
+  "sections": [
+    {
+      "h2": "Mis on tõusev märk",
+      "paragraphs": [
+        "Tõusev märk on tähtkuju, mis sinu sündimise hetkel idahorisondil tõusis. Päikesemärk räägib sinu olemusest, tõusev märk kirjeldab rohkem muljet, mille teistele jätad.",
+        "Näide: Liis on Kaalud ja tõusev märk on Lõvi. Ta on diplomaatiline, kuid teised näevad teda väga enesekindlana."
+      ]
+    },
+    {
+      "h2": "Kuidas teha tõusva märgi arvutus tööriistas",
+      "paragraphs": [
+        "Vali sünnipäev, -kuu ja -aasta, lisa kellaaeg ja vali oma linn loendist. Kellaaeg on oluline, sest tõusev märk muutub umbes iga kahe tunni järel.",
+        "Kui kellaaega ei tea, näitab tööriist kõige tõenäolisemat märki. Kui oma tähtkuju juba tead, võid selle otse valida."
+      ]
+    },
+    {
+      "h2": "Pärast tulemust",
+      "paragraphs": [
+        "Jõuad oma tähtkuju lehele lihtsate, sõbralike nõuannetega. Loe seda kui kutset ennast paremini tundma õppida.",
+        "Sisu on mõeldud järelemõtlemiseks ja rõõmuks, ilma ennustusteta. Tervise, õiguse või raha küsimustes pöördu spetsialisti poole."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kuidas teha tõusva märgi arvutus?",
+      "a": "Sisesta tööriista sünniaeg, kellaaeg ja koht."
+    },
+    {
+      "q": "Kas pean täpset kellaaega teadma?",
+      "a": "Mida täpsem kellaaeg, seda usaldusväärsem tulemus, sest tõusev märk muutub umbes iga kahe tunni järel."
+    },
+    {
+      "q": "Kas tööriist on tasuta?",
+      "a": "Jah, saad seda kasutada tasuta ja ilma kontota."
+    },
+    {
+      "q": "Mis siis, kui ma sünniaega ei tea?",
+      "a": "Tööriist saab näidata sulle kõige tõenäolisemat märki."
+    }
+  ],
+  "tags": [
+    "tõusva märgi arvutus"
+  ],
+  "ui": {
+    "faq": "Korduma kippuvad küsimused"
+  }
+}

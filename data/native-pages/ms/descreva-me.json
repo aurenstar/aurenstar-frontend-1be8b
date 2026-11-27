@@ -1,0 +1,59 @@
+{
+  "lang": "ms",
+  "page": "descreva-me",
+  "keyword": "sifat zodiak",
+  "volume": 0,
+  "title": "Sifat zodiak: penerangan peribadi anda",
+  "description": "Temui sifat zodiak yang sesuai dengan anda: dengan data kelahiran, cipta penerangan astrologi peribadi yang menyeronokkan untuk dikongsi.",
+  "intro": "Sifat zodiak manakah yang serupa dengan anda? Dengan “Terangkan Saya”, anda mencipta penerangan astrologi peribadi yang menyeronokkan daripada data kelahiran untuk dikongsi dengan rakan.",
+  "sections": [
+    {
+      "h2": "Bagaimana penerangan anda dicipta",
+      "paragraphs": [
+        "Anda memasukkan tarikh lahir di bahagian atas, memilih bandar daripada senarai dan menerima teks tentang diri anda yang sesuai dengan data anda. Ia mesra, ringan dan ditulis untuk dikongsi.",
+        "Tujuannya ialah berseronok dan memikirkan diri sendiri, bukan menjatuhkan hukuman muktamad."
+      ]
+    },
+    {
+      "h2": "Sifat zodiak dalam kehidupan harian",
+      "paragraphs": [
+        "Contohnya: Amir membaca bahawa dia sukakan ketenangan tetapi ingin tahu tentang orang baharu. Dia mengenali dirinya dan menghantar teks itu kepada seorang rakan, yang membalas sambil ketawa: “Memang awak.”",
+        "Penerangan seperti ini boleh memulakan perbualan, contohnya tentang bagaimana setiap orang menghayati waktu rehat, kedekatan atau rancangan."
+      ]
+    },
+    {
+      "h2": "Perkara yang perlu diingat",
+      "paragraphs": [
+        "Tiada teks yang boleh memberitahu siapa anda sebenarnya. Anggaplah penerangan ini sebagai jemputan untuk memikirkan diri anda dan simpan yang sesuai.",
+        "Untuk kesihatan, undang-undang atau wang, rujuk pakar."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Adakah “Terangkan Saya” percuma?",
+      "a": "Ya, anda boleh mencipta penerangan anda tanpa membayar."
+    },
+    {
+      "q": "Apa yang saya perlukan?",
+      "a": "Tarikh dan tempat lahir anda."
+    },
+    {
+      "q": "Bolehkah saya kongsikan penerangan itu?",
+      "a": "Ya, teks itu dibuat untuk dikongsi dengan orang lain."
+    },
+    {
+      "q": "Adakah sifat zodiak terbukti secara saintifik?",
+      "a": "Tidak, astrologi adalah untuk hiburan dan renungan dan bukan bukti saintifik."
+    }
+  ],
+  "tags": [
+    "sifat zodiak",
+    "sifat zodiak libra",
+    "sifat zodiak gemini",
+    "sifat zodiak virgo"
+  ],
+  "ui": {
+    "faq": "Soalan lazim"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "lang": "ca",
+  "page": "daily-message",
+  "keyword": "horòscop d'avui",
+  "volume": 0,
+  "title": "Horòscop d'avui gratuït: el teu missatge per a avui",
+  "description": "L'horòscop d'avui amb paraules senzilles: tria el teu signe i llegeix un missatge amable amb un petit consell per al teu dia.",
+  "intro": "Amb l'horòscop d'avui d'Aurenstar reps cada dia un missatge curt i amable per al teu signe. Et deixa una idea per pensar i un petit consell que pots provar des d'avui mateix.",
+  "sections": [
+    {
+      "h2": "Com funciona l'horòscop d'avui",
+      "paragraphs": [
+        "Tries el teu signe a dalt de tot i llegeixes el missatge. Conté una frase positiva que t'acompanya durant el dia i un consell senzill que no porta gaire temps.",
+        "Els textos són tranquils i pràctics, sense grans promeses."
+      ]
+    },
+    {
+      "h2": "Un exemple del dia a dia",
+      "paragraphs": [
+        "El Pau és Be i llegeix que avui per fi pot fer aquella trucada que ajornava. Hi dedica deu minuts i veu que la feina era més petita del que pensava.",
+        "L'horòscop d'avui és un petit empenyiment: tu decideixes si l'utilitzes i com."
+      ]
+    },
+    {
+      "h2": "Com entendre l'horòscop d'avui",
+      "paragraphs": [
+        "El missatge no és una predicció. T'ajuda a reflexionar i et dona un moment per a tu.",
+        "Per a salut, dret o diners, adreça't a professionals."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "L'horòscop d'avui és gratuït?",
+      "a": "Sí, pots llegir el missatge diari sense pagar."
+    },
+    {
+      "q": "Cada quan canvia el missatge?",
+      "a": "Pots llegir un missatge nou per al teu signe cada dia."
+    },
+    {
+      "q": "He d'escriure la meva data de naixement?",
+      "a": "Tries el teu signe. Si no el saps, descobreix-lo amb la calculadora d'Aurenstar."
+    },
+    {
+      "q": "L'horòscop d'avui prediu el futur?",
+      "a": "No, és una invitació a reflexionar i no una predicció."
+    }
+  ],
+  "tags": [
+    "horòscop d'avui"
+  ],
+  "ui": {
+    "faq": "Preguntes freqüents"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "lang": "ms",
+  "page": "aureneffect",
+  "keyword": "ramalan bintang peribadi",
+  "volume": 0,
+  "title": "Ramalan bintang peribadi percuma: Auren Effect",
+  "description": "Ramalan bintang peribadi mengikut nama, tarikh dan tempat lahir: fahami bagaimana perasaan anda hari ini dan dapatkan nasihat mudah dan praktikal.",
+  "intro": "Auren Effect ialah ramalan bintang peribadi anda untuk renungan. Anda memasukkan nama dan data kelahiran, lalu mengetahui bagaimana perasaan anda hari ini, dengan nasihat mudah untuk hari anda.",
+  "sections": [
+    {
+      "h2": "Apa yang ditunjukkan oleh ramalan bintang peribadi anda",
+      "paragraphs": [
+        "Berbeza daripada ramalan harian yang umum, Auren Effect menggunakan data anda sendiri: nama, tarikh dan tempat lahir. Oleh itu teksnya terasa lebih dekat dengan anda.",
+        "Anda tidak menerima ramalan, tetapi gambaran tenang tentang suasana hati dan idea praktikal."
+      ]
+    },
+    {
+      "h2": "Cara mengisi borang",
+      "paragraphs": [
+        "Tulis nama anda di bahagian atas, pilih tarikh lahir dan cari bandar anda dalam senarai. Kemudian kira Auren Effect anda.",
+        "Contohnya: Nurul memasukkan datanya, membaca cadangan untuk meluangkan masa bagi perbualan yang tenang dan merancang rehat singkat tanpa telefon pada waktu malam."
+      ]
+    },
+    {
+      "h2": "Kegunaan keputusan",
+      "paragraphs": [
+        "Anggaplah keputusan sebagai peluang untuk mendengar diri sendiri. Jika nasihat sesuai, cubalah; jika tidak, lepaskan sahaja.",
+        "Untuk kesihatan, undang-undang atau wang, lebih baik rujuk pakar."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Adakah ramalan bintang peribadi percuma?",
+      "a": "Ya, anda boleh mengira Auren Effect anda tanpa membayar."
+    },
+    {
+      "q": "Apakah data yang saya perlukan?",
+      "a": "Anda memerlukan nama, tarikh lahir dan tempat lahir."
+    },
+    {
+      "q": "Apakah bezanya dengan ramalan bintang hari ini?",
+      "a": "Ia menggunakan data peribadi anda dan bukan sekadar zodiak."
+    },
+    {
+      "q": "Adakah Auren Effect meramal masa depan?",
+      "a": "Tidak, ia memberi idea untuk renungan dan bukan ramalan."
+    }
+  ],
+  "tags": [
+    "ramalan bintang peribadi"
+  ],
+  "ui": {
+    "faq": "Soalan lazim"
+  }
+}

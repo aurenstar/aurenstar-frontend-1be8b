@@ -1,0 +1,56 @@
+{
+  "lang": "et",
+  "page": "descreva-me",
+  "keyword": "tähtkujude omadused",
+  "volume": 0,
+  "title": "Tähtkujude omadused: sinu isiklik kirjeldus",
+  "description": "Avasta sulle sobivad tähtkujude omadused: sünniandmetest loo isiklik, lõbus astroloogiline kirjeldus, mida saad jagada.",
+  "intro": "Millised tähtkujude omadused sinuga sarnanevad? Funktsiooniga „Kirjelda mind“ lood sünniandmetest isikliku, lõbusa astroloogilise kirjelduse, mida saad sõpradega jagada.",
+  "sections": [
+    {
+      "h2": "Kuidas sinu kirjeldus tekib",
+      "paragraphs": [
+        "Sisestad ülaosas sünniaja, valid linna loendist ja saad enda kohta teksti, mis sobib sinu andmetega. See on sõbralik, kerge ja kirjutatud jagamiseks.",
+        "Eesmärk on lõbutseda ja endale mõelda, mitte teha lõplikke otsuseid."
+      ]
+    },
+    {
+      "h2": "Tähtkujude omadused igapäevaelus",
+      "paragraphs": [
+        "Näide: Marko loeb, et ta armastab rahu, kuid on uudishimulik uute inimeste vastu. Ta tunneb end ära ja saadab teksti sõbrale, kes vastab naerdes: „See oled sina.“",
+        "Sellised kirjeldused võivad vestluse käima tõmmata, näiteks selle üle, kuidas igaüks pause, lähedust või plaane kogeb."
+      ]
+    },
+    {
+      "h2": "Mida meeles pidada",
+      "paragraphs": [
+        "Ükski tekst ei saa öelda, kes sa tegelikult oled. Võta kirjeldust kui kutset enda üle mõelda ja jäta alles see, mis sobib.",
+        "Tervise, õiguse või raha küsimustes pöördu spetsialisti poole."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kas „Kirjelda mind“ on tasuta?",
+      "a": "Jah, oma kirjelduse saad luua tasuta."
+    },
+    {
+      "q": "Mida mul vaja on?",
+      "a": "Sünniaega ja -kohta."
+    },
+    {
+      "q": "Kas ma võin kirjeldust jagada?",
+      "a": "Jah, tekst on loodud teistega jagamiseks."
+    },
+    {
+      "q": "Kas tähtkujude omadused on teaduslikult tõestatud?",
+      "a": "Ei, astroloogia on meelelahutuseks ja järelemõtlemiseks ega ole teaduslik tõend."
+    }
+  ],
+  "tags": [
+    "tähtkujude omadused"
+  ],
+  "ui": {
+    "faq": "Korduma kippuvad küsimused"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "lang": "lt",
+  "page": "descreva-me",
+  "keyword": "zodiako ženklų savybės",
+  "volume": 0,
+  "title": "Zodiako ženklų savybės: jūsų asmeninis aprašymas",
+  "description": "Atraskite jums tinkančias zodiako ženklų savybes: iš gimimo duomenų sukurkite asmeninį, smagų astrologinį aprašymą, kuriuo galėsite pasidalyti.",
+  "intro": "Kurios zodiako ženklų savybės panašios į jus? Su „Apibūdink mane“ iš gimimo duomenų sukuriate asmeninį, smagų astrologinį aprašymą, kuriuo galite pasidalyti su draugais.",
+  "sections": [
+    {
+      "h2": "Kaip sukuriamas jūsų aprašymas",
+      "paragraphs": [
+        "Viršuje įvedate gimimo datą, pasirenkate miestą iš sąrašo ir gaunate tekstą apie save, atitinkantį jūsų duomenis. Jis malonus, lengvas ir parašytas dalytis.",
+        "Tikslas yra pasilinksminti ir pamąstyti apie save, o ne skelbti galutinius nuosprendžius."
+      ]
+    },
+    {
+      "h2": "Zodiako ženklų savybės kasdienybėje",
+      "paragraphs": [
+        "Pavyzdys: Mantas skaito, kad myli ramybę, bet jam smalsu susipažinti su naujais žmonėmis. Jis save atpažįsta ir išsiunčia tekstą draugui, kuris juokdamasis atsako: „Tai tu.“",
+        "Tokie aprašymai gali pradėti pokalbį, pavyzdžiui, apie tai, kaip kiekvienas išgyvena pauzes, artumą ar planus."
+      ]
+    },
+    {
+      "h2": "Ką verta prisiminti",
+      "paragraphs": [
+        "Joks tekstas negali pasakyti, kas esate iš tikrųjų. Aprašymą laikykite kvietimu pagalvoti apie save ir pasilikite tai, kas tinka.",
+        "Dėl sveikatos, teisės ar pinigų kreipkitės į specialistus."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ar „Apibūdink mane“ nemokama?",
+      "a": "Taip, savo aprašymą galite sukurti nemokėdami."
+    },
+    {
+      "q": "Ko man reikia?",
+      "a": "Gimimo datos ir vietos."
+    },
+    {
+      "q": "Ar galiu pasidalyti aprašymu?",
+      "a": "Taip, tekstas sukurtas dalytis su kitais."
+    },
+    {
+      "q": "Ar zodiako ženklų savybės moksliškai įrodytos?",
+      "a": "Ne, astrologija skirta pramogai ir apmąstymams ir nėra mokslinis įrodymas."
+    }
+  ],
+  "tags": [
+    "zodiako ženklų savybės"
+  ],
+  "ui": {
+    "faq": "Dažniausiai užduodami klausimai"
+  }
+}

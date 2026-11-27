@@ -1,0 +1,56 @@
+{
+  "lang": "lt",
+  "page": "discover-sign",
+  "keyword": "ascendento skaičiuoklė",
+  "volume": 0,
+  "title": "Ascendento skaičiuoklė nemokamai: sužinokite savo ženklą",
+  "description": "Ascendento skaičiuoklė paprasta: įveskite gimimo datą, laiką ir vietą ir nemokamai sužinokite savo ženklą su aiškiais, maloniais patarimais.",
+  "intro": "Ascendento skaičiuoklė padės pažinti jūsų ženklą. Šiame nemokamame įrankyje įvedate gimimo datą ir, jei žinote, laiką bei miestą, kad pamatytumėte savo ženklą ir ascendentą.",
+  "sections": [
+    {
+      "h2": "Kas yra ascendentas",
+      "paragraphs": [
+        "Ascendentas yra ženklas, kuris jūsų gimimo akimirką kilo rytiniame horizonte. Saulės ženklas pasakoja apie jūsų esmę, o ascendentas labiau apibūdina įspūdį, kurį darote kitiems.",
+        "Pavyzdys: Ieva yra Svarstyklės su Liūto ascendentu. Ji diplomatiška, bet kiti ją mato kaip labai pasitikinčią savimi."
+      ]
+    },
+    {
+      "h2": "Ascendento skaičiuoklė: kaip ja naudotis",
+      "paragraphs": [
+        "Pasirinkite gimimo dieną, mėnesį ir metus, pridėkite laiką ir pasirinkite miestą iš sąrašo. Laikas svarbus, nes ascendentas keičiasi maždaug kas dvi valandas.",
+        "Jei laiko nežinote, įrankis parodys labiausiai tikėtiną ženklą. Jei savo ženklą jau žinote, galite jį pasirinkti tiesiogiai."
+      ]
+    },
+    {
+      "h2": "Po rezultato",
+      "paragraphs": [
+        "Pateksite į puslapį apie savo ženklą su paprastais, maloniais patarimais. Skaitykite jį kaip kvietimą geriau pažinti save.",
+        "Turinys skirtas apmąstymams ir malonumui, be spėjimų. Dėl sveikatos, teisės ar pinigų kreipkitės į specialistus."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kaip naudotis ascendento skaičiuokle?",
+      "a": "Įveskite į įrankį gimimo datą, laiką ir vietą."
+    },
+    {
+      "q": "Ar reikia žinoti tikslų laiką?",
+      "a": "Kuo tikslesnis laikas, tuo patikimesnis rezultatas, nes ascendentas keičiasi maždaug kas dvi valandas."
+    },
+    {
+      "q": "Ar įrankis nemokamas?",
+      "a": "Taip, juo galite naudotis nemokamai ir be paskyros."
+    },
+    {
+      "q": "Kas, jei nežinau gimimo laiko?",
+      "a": "Įrankis gali parodyti labiausiai tikėtiną ženklą."
+    }
+  ],
+  "tags": [
+    "ascendento skaičiuoklė"
+  ],
+  "ui": {
+    "faq": "Dažniausiai užduodami klausimai"
+  }
+}

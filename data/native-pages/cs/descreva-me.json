@@ -1,0 +1,56 @@
+{
+  "lang": "cs",
+  "page": "descreva-me",
+  "keyword": "vlastnosti znamení zvěrokruhu",
+  "volume": 0,
+  "title": "Vlastnosti znamení zvěrokruhu: váš osobní popis",
+  "description": "Poznejte vlastnosti znamení zvěrokruhu, které vám sedí: z údajů o narození vytvořte osobní, zábavný astrologický popis ke sdílení.",
+  "intro": "Které vlastnosti znamení zvěrokruhu se vám podobají? S funkcí „Popiš mě“ vytvoříte z údajů o narození osobní, zábavný astrologický popis, který můžete sdílet s přáteli.",
+  "sections": [
+    {
+      "h2": "Jak vzniká váš popis",
+      "paragraphs": [
+        "Nahoře zadáte datum narození, vyberete město ze seznamu a dostanete text o sobě, který odpovídá vašim údajům. Je laskavý, lehký a napsaný ke sdílení.",
+        "Cílem je pobavit se a přemýšlet o sobě, ne vynášet konečné soudy."
+      ]
+    },
+    {
+      "h2": "Vlastnosti znamení zvěrokruhu v každodenním životě",
+      "paragraphs": [
+        "Příklad: Martin čte, že miluje klid, ale zajímají ho noví lidé. Pozná se a pošle text kamarádovi, který se smíchem odpoví: „To jsi celý ty.“",
+        "Takové popisy mohou odstartovat rozhovor, například o tom, jak kdo prožívá pauzy, blízkost nebo plány."
+      ]
+    },
+    {
+      "h2": "Co si pamatovat",
+      "paragraphs": [
+        "Žádný text vám neřekne, kdo doopravdy jste. Berte popis jako pozvání přemýšlet o sobě a nechte si to, co vám sedí.",
+        "Se zdravím, právem a penězi se obraťte na odborníky."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Je „Popiš mě“ zdarma?",
+      "a": "Ano, svůj popis můžete vytvořit bez placení."
+    },
+    {
+      "q": "Co potřebuji?",
+      "a": "Datum a místo narození."
+    },
+    {
+      "q": "Mohu popis sdílet?",
+      "a": "Ano, text je vytvořen ke sdílení s ostatními."
+    },
+    {
+      "q": "Jsou vlastnosti znamení zvěrokruhu vědecky prokázány?",
+      "a": "Ne, astrologie slouží k zábavě a zamyšlení a není vědeckým důkazem."
+    }
+  ],
+  "tags": [
+    "vlastnosti znamení zvěrokruhu"
+  ],
+  "ui": {
+    "faq": "Často kladené otázky"
+  }
+}

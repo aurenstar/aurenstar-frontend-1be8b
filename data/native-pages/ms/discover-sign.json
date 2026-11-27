@@ -1,0 +1,56 @@
+{
+  "lang": "ms",
+  "page": "discover-sign",
+  "keyword": "kira ascendant",
+  "volume": 0,
+  "title": "Kira ascendant percuma: ketahui zodiak anda",
+  "description": "Kira ascendant dengan mudah: masukkan tarikh, masa dan tempat lahir, dan ketahui zodiak anda secara percuma dengan nasihat yang jelas dan mesra.",
+  "intro": "Mahu kira ascendant dan mengenali zodiak anda? Dalam alat percuma ini, anda memasukkan tarikh lahir dan, jika tahu, masa serta bandar untuk melihat zodiak dan ascendant anda.",
+  "sections": [
+    {
+      "h2": "Apakah ascendant",
+      "paragraphs": [
+        "Ascendant ialah tanda yang naik di ufuk timur pada saat anda dilahirkan. Zodiak matahari bercerita tentang diri anda, manakala ascendant lebih menggambarkan kesan yang anda berikan kepada orang lain.",
+        "Contohnya: Farah berzodiak Libra dengan ascendant Leo. Dia berdiplomasi, tetapi orang lain melihatnya sebagai sangat yakin diri."
+      ]
+    },
+    {
+      "h2": "Cara kira ascendant dalam alat",
+      "paragraphs": [
+        "Pilih hari, bulan dan tahun lahir, tambah masa dan pilih bandar anda daripada senarai. Masa penting kerana ascendant berubah kira-kira setiap dua jam.",
+        "Jika tidak tahu masa, alat akan menunjukkan zodiak yang paling mungkin. Jika sudah tahu zodiak anda, anda juga boleh memilihnya terus."
+      ]
+    },
+    {
+      "h2": "Selepas keputusan",
+      "paragraphs": [
+        "Anda akan dibawa ke halaman tentang zodiak anda dengan nasihat yang mudah dan mesra. Bacalah sebagai jemputan untuk mengenali diri dengan lebih baik.",
+        "Kandungan ini untuk renungan dan keseronokan, tanpa ramalan. Untuk kesihatan, undang-undang atau wang, rujuk pakar."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Bagaimana hendak kira ascendant?",
+      "a": "Masukkan tarikh, masa dan tempat lahir anda dalam alat."
+    },
+    {
+      "q": "Perlukah saya tahu masa yang tepat?",
+      "a": "Semakin tepat masanya, semakin boleh dipercayai keputusannya, kerana ascendant berubah kira-kira setiap dua jam."
+    },
+    {
+      "q": "Adakah alat ini percuma?",
+      "a": "Ya, anda boleh menggunakannya secara percuma dan tanpa akaun."
+    },
+    {
+      "q": "Bagaimana jika saya tidak tahu masa lahir?",
+      "a": "Alat boleh menunjukkan zodiak yang paling mungkin."
+    }
+  ],
+  "tags": [
+    "kira ascendant"
+  ],
+  "ui": {
+    "faq": "Soalan lazim"
+  }
+}

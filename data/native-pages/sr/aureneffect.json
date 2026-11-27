@@ -1,0 +1,59 @@
+{
+  "lang": "sr",
+  "page": "aureneffect",
+  "keyword": "lični horoskop",
+  "volume": 0,
+  "title": "Besplatan lični horoskop: Auren Effect",
+  "description": "Lični horoskop prema imenu, datumu i mestu rođenja: shvatite kako se danas možete osećati i dobijte jednostavne, praktične savete.",
+  "intro": "Auren Effect je vaš lični horoskop za razmišljanje. Unesete ime i podatke o rođenju i saznate kako se danas možete osećati, uz jednostavne savete za dan.",
+  "sections": [
+    {
+      "h2": "Šta pokazuje vaš lični horoskop",
+      "paragraphs": [
+        "Za razliku od opšteg dnevnog horoskopa, Auren Effect koristi vaše podatke: ime, datum i mesto rođenja. Zato tekst deluje bliže vama.",
+        "Ne dobijate predviđanje, nego miran opis raspoloženja i praktične ideje."
+      ]
+    },
+    {
+      "h2": "Kako da popunite obrazac",
+      "paragraphs": [
+        "Upišite ime na vrhu, izaberite datum rođenja i pronađite svoj grad na spisku. Zatim izračunajte svoj Auren Effect.",
+        "Primer: Petra unese podatke, pročita predlog da odvoji vreme za miran razgovor i uveče planira kratku pauzu bez telefona."
+      ]
+    },
+    {
+      "h2": "Čemu služi rezultat",
+      "paragraphs": [
+        "Rezultat shvatite kao priliku da saslušate sebe. Ako vam savet odgovara, isprobajte ga; ako ne, pustite ga.",
+        "Za zdravlje, pravo ili novac najbolje je obratiti se stručnjacima."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Da li je lični horoskop besplatan?",
+      "a": "Da, svoj Auren Effect možete izračunati bez plaćanja."
+    },
+    {
+      "q": "Koji su mi podaci potrebni?",
+      "a": "Potrebni su ime, datum rođenja i mesto rođenja."
+    },
+    {
+      "q": "Po čemu se razlikuje od dnevnog horoskopa?",
+      "a": "Koristi vaše lične podatke, a ne samo znak."
+    },
+    {
+      "q": "Da li Auren Effect predviđa budućnost?",
+      "a": "Ne, nudi ideje za razmišljanje, a ne predviđanja."
+    }
+  ],
+  "tags": [
+    "lični horoskop",
+    "lični horoskop besplatno tumačenje",
+    "lični horoskop besplatno",
+    "lični horoskop online besplatno"
+  ],
+  "ui": {
+    "faq": "Često postavljana pitanja"
+  }
+}

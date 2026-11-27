@@ -1,0 +1,59 @@
+{
+  "lang": "cs",
+  "page": "daily-message",
+  "keyword": "denní horoskop",
+  "volume": 0,
+  "title": "Denní horoskop zdarma: vaše zpráva na dnešek",
+  "description": "Denní horoskop jednoduchými slovy: vyberte své znamení a přečtěte si laskavou zprávu s malou radou na den. Zcela zdarma.",
+  "intro": "Denní horoskop od Aurenstar je krátká, laskavá zpráva pro vaše znamení, kterou dostáváte každý den. Dává vám myšlenku k zamyšlení a malou radu, kterou můžete vyzkoušet už dnes.",
+  "sections": [
+    {
+      "h2": "Jak funguje denní horoskop",
+      "paragraphs": [
+        "Nahoře vyberete své znamení a přečtete si zprávu. Obsahuje jednu pozitivní větu, která vás provází dnem, a jednoduchou radu, která nezabere moc času.",
+        "Texty jsou klidné a praktické, bez velkých slibů."
+      ]
+    },
+    {
+      "h2": "Příklad z každodenního života",
+      "paragraphs": [
+        "Honza je Beran a čte, že dnes může konečně zavolat, co odkládal. Věnuje tomu deset minut a zjistí, že to byla menší věc, než myslel.",
+        "Denní horoskop je jemné postrčení: sami rozhodnete, zda a jak ho využijete."
+      ]
+    },
+    {
+      "h2": "Jak rozumět dennímu horoskopu",
+      "paragraphs": [
+        "Zpráva není předpověď. Pomáhá vám zamyslet se a dává vám chvilku pro sebe.",
+        "Se zdravím, právem a penězi se obraťte na odborníky."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Je denní horoskop zdarma?",
+      "a": "Ano, denní zprávu si můžete přečíst bez placení."
+    },
+    {
+      "q": "Jak často se zpráva mění?",
+      "a": "Pro své znamení si můžete přečíst novou zprávu každý den."
+    },
+    {
+      "q": "Musím zadávat datum narození?",
+      "a": "Vyberete své znamení. Pokud ho neznáte, zjistěte ho v kalkulačce Aurenstar."
+    },
+    {
+      "q": "Předpovídá denní horoskop budoucnost?",
+      "a": "Ne, je to pozvání k zamyšlení, nikoli předpověď."
+    }
+  ],
+  "tags": [
+    "denní horoskop",
+    "denní horoskop vodnář",
+    "denní horoskop býk",
+    "denní horoskop váhy"
+  ],
+  "ui": {
+    "faq": "Často kladené otázky"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "lang": "lv",
+  "page": "discover-sign",
+  "keyword": "ascendenta aprēķins",
+  "volume": 0,
+  "title": "Ascendenta aprēķins bez maksas: uzziniet savu zīmi",
+  "description": "Ascendenta aprēķins ir viegls: ievadiet dzimšanas datumu, laiku un vietu un bez maksas uzziniet savu zīmi ar skaidriem, laipniem padomiem.",
+  "intro": "Ascendenta aprēķins palīdzēs iepazīt savu zīmi. Šajā bezmaksas rīkā ievadāt dzimšanas datumu un, ja zināt, laiku un pilsētu, lai redzētu savu zīmi un ascendentu.",
+  "sections": [
+    {
+      "h2": "Kas ir ascendents",
+      "paragraphs": [
+        "Ascendents ir zīme, kas jūsu dzimšanas brīdī lēca austrumu horizontā. Saules zīme stāsta par jūsu būtību, bet ascendents vairāk raksturo iespaidu, ko atstājat uz citiem.",
+        "Piemērs: Laura ir Svari ar Lauvas ascendentu. Viņa ir diplomātiska, bet citi viņu uztver kā ļoti pašpārliecinātu."
+      ]
+    },
+    {
+      "h2": "Ascendenta aprēķins rīkā: kā to veikt",
+      "paragraphs": [
+        "Izvēlieties dzimšanas dienu, mēnesi un gadu, pievienojiet laiku un izvēlieties pilsētu no saraksta. Laiks ir svarīgs, jo ascendents mainās aptuveni ik pēc divām stundām.",
+        "Ja laiku nezināt, rīks parāda visticamāko zīmi. Ja savu zīmi jau zināt, varat to izvēlēties tieši."
+      ]
+    },
+    {
+      "h2": "Pēc rezultāta",
+      "paragraphs": [
+        "Nonākat lapā par savu zīmi ar vienkāršiem, laipniem padomiem. Lasiet to kā uzaicinājumu labāk iepazīt sevi.",
+        "Saturs paredzēts pārdomām un baudai, bez pareģojumiem. Veselības, tiesību vai naudas jautājumos vērsieties pie speciālistiem."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kā veikt ascendenta aprēķinu?",
+      "a": "Ievadiet rīkā dzimšanas datumu, laiku un vietu."
+    },
+    {
+      "q": "Vai man jāzina precīzs laiks?",
+      "a": "Jo precīzāks laiks, jo drošāks rezultāts, jo ascendents mainās aptuveni ik pēc divām stundām."
+    },
+    {
+      "q": "Vai rīks ir bezmaksas?",
+      "a": "Jā, varat to izmantot bez maksas un bez konta."
+    },
+    {
+      "q": "Ko darīt, ja nezinu dzimšanas laiku?",
+      "a": "Rīks var parādīt visticamāko zīmi."
+    }
+  ],
+  "tags": [
+    "ascendenta aprēķins"
+  ],
+  "ui": {
+    "faq": "Biežāk uzdotie jautājumi"
+  }
+}

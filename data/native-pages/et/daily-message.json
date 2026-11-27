@@ -1,0 +1,56 @@
+{
+  "lang": "et",
+  "page": "daily-message",
+  "keyword": "päevahoroskoop",
+  "volume": 0,
+  "title": "Päevahoroskoop tasuta: sinu sõnum tänaseks",
+  "description": "Päevahoroskoop lihtsate sõnadega: vali oma tähtkuju ja loe sõbralikku sõnumit koos väikese nõuandega oma päevaks.",
+  "intro": "Aurenstari päevahoroskoop on lühike, sõbralik sõnum sinu tähtkujule, mille saad iga päev. See jätab sulle mõtte järelemõtlemiseks ja väikese nõuande, mida võid proovida juba täna.",
+  "sections": [
+    {
+      "h2": "Kuidas päevahoroskoop töötab",
+      "paragraphs": [
+        "Valid lehe ülaosas oma tähtkuju ja loed sõnumit. Selles on üks positiivne lause, mis saadab sind päeva jooksul, ja lihtne nõuanne, mis ei võta palju aega.",
+        "Tekstid on rahulikud ja praktilised, ilma suurte lubadusteta."
+      ]
+    },
+    {
+      "h2": "Näide igapäevaelust",
+      "paragraphs": [
+        "Karl on Jäär ja loeb, et täna võib ta lõpuks teha selle kõne, mida ta edasi lükkas. Ta pühendab sellele kümme minutit ja näeb, et asi oli väiksem, kui ta arvas.",
+        "Päevahoroskoop on õrn müks: sina otsustad, kas ja kuidas seda kasutad."
+      ]
+    },
+    {
+      "h2": "Kuidas päevahoroskoopi mõista",
+      "paragraphs": [
+        "Sõnum ei ole ennustus. See aitab järele mõelda ja annab hetke endale.",
+        "Tervise, õiguse või raha küsimustes pöördu spetsialisti poole."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kas päevahoroskoop on tasuta?",
+      "a": "Jah, päeva sõnumit saad lugeda tasuta."
+    },
+    {
+      "q": "Kui tihti sõnum muutub?",
+      "a": "Oma tähtkujule saad lugeda uut sõnumit iga päev."
+    },
+    {
+      "q": "Kas pean sisestama sünniaja?",
+      "a": "Valid oma tähtkuju. Kui sa seda ei tea, selgita see välja Aurenstari kalkulaatoriga."
+    },
+    {
+      "q": "Kas päevahoroskoop ennustab tulevikku?",
+      "a": "Ei, see on kutse järelemõtlemiseks, mitte ennustus."
+    }
+  ],
+  "tags": [
+    "päevahoroskoop"
+  ],
+  "ui": {
+    "faq": "Korduma kippuvad küsimused"
+  }
+}

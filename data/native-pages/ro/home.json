@@ -1,0 +1,57 @@
+{
+  "lang": "ro",
+  "page": "home",
+  "keyword": "horoscop",
+  "volume": 0,
+  "title": "Horoscop gratuit: zodia ta și mesajul zilei",
+  "description": "Horoscop gratuit pe înțelesul tuturor: descoperă-ți zodia, citește un mesaj pentru ziua ta și explorează articolele și dicționarul de astrologie Aurenstar.",
+  "intro": "Pe Aurenstar găsești horoscop fără termeni complicați. Poți afla zodia ta, citi un mesaj scurt pentru ziua de azi și răsfoi liniștit articole de astrologie.",
+  "sections": [
+    {
+      "h2": "Ce găsești pe Aurenstar",
+      "paragraphs": [
+        "Instrumentele gratuite sunt în partea de sus a paginii: introduci data nașterii, vezi zodia și primești sfaturi simple și blânde. Există și un mesaj zilnic pentru zodia ta și o descriere personală pe care o poți distribui.",
+        "Dacă vrei să afli mai mult, citește articolele și caută în dicționar ce este, de exemplu, ascendentul sau elementul."
+      ]
+    },
+    {
+      "h2": "Cum folosești horoscopul în fiecare zi",
+      "paragraphs": [
+        "Un exemplu: Ioana citește mesajul dimineața, reține o propoziție și seara se întreabă dacă s-a potrivit zilei ei. Un horoscop nu trebuie să fie mai mult de atât.",
+        "Poți privi sfaturile și ca pe o invitație la reflecție, de pildă când decizi cum începi o discuție sau când faci o pauză."
+      ]
+    },
+    {
+      "h2": "Astrologie pentru reflecție, nu pentru prezicere",
+      "paragraphs": [
+        "Aurenstar nu promite rezultate și nu oferă sfaturi medicale, juridice sau financiare. Textele sunt făcute să dea direcție și bucurie.",
+        "Deciziile importante e mai bine să le iei împreună cu oameni de încredere și, la nevoie, cu specialiști."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Este horoscopul Aurenstar gratuit?",
+      "a": "Da, poți folosi instrumentele și citi articolele fără să plătești."
+    },
+    {
+      "q": "Trebuie să-mi fac cont?",
+      "a": "Nu, nu este nevoie de înregistrare pentru a folosi instrumentele."
+    },
+    {
+      "q": "Ce pot face pe Aurenstar?",
+      "a": "Poți afla zodia ta, citi un mesaj zilnic, crea o descriere personală și citi articole și dicționarul de astrologie."
+    },
+    {
+      "q": "Prezice horoscopul viitorul?",
+      "a": "Nu, textele sunt pentru reflecție și nu conțin predicții."
+    }
+  ],
+  "tags": [
+    "horoscop",
+    "horoscop azi"
+  ],
+  "ui": {
+    "faq": "Întrebări frecvente"
+  }
+}

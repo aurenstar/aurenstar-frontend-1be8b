@@ -1,0 +1,57 @@
+{
+  "lang": "sl",
+  "page": "aureneffect",
+  "keyword": "osebni horoskop",
+  "volume": 0,
+  "title": "Brezplačni osebni horoskop: Auren Effect",
+  "description": "Osebni horoskop po imenu, datumu in kraju rojstva: razumite, kako se danes lahko počutite, in prejmite preproste, praktične nasvete.",
+  "intro": "Auren Effect je vaš osebni horoskop za razmislek. Vnesete ime in podatke o rojstvu ter izveste, kako se danes lahko počutite, s preprostimi nasveti za dan.",
+  "sections": [
+    {
+      "h2": "Kaj prikazuje vaš osebni horoskop",
+      "paragraphs": [
+        "Za razliko od splošnega dnevnega horoskopa Auren Effect uporablja vaše podatke: ime, datum in kraj rojstva. Zato se vam besedilo zdi bližje.",
+        "Ne dobite napovedi, ampak mirni opis razpoloženja in praktične ideje."
+      ]
+    },
+    {
+      "h2": "Kako izpolniti obrazec",
+      "paragraphs": [
+        "Na vrh napišite svoje ime, izberite datum rojstva in poiščite svoje mesto na seznamu. Nato izračunajte svoj Auren Effect.",
+        "Primer: Petra vnese podatke, prebere predlog, da si vzame čas za miren pogovor, in za večer načrtuje kratek odmor brez telefona."
+      ]
+    },
+    {
+      "h2": "Čemu služi rezultat",
+      "paragraphs": [
+        "Rezultat vzemite kot priložnost, da prisluhnete sebi. Če vam nasvet ustreza, ga preizkusite; če ne, ga spustite.",
+        "Za zdravje, pravo ali denar je najbolje, da se obrnete na strokovnjake."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Je osebni horoskop brezplačen?",
+      "a": "Da, svoj Auren Effect lahko izračunate brez plačila."
+    },
+    {
+      "q": "Katere podatke potrebujem?",
+      "a": "Potrebujete ime, datum rojstva in kraj rojstva."
+    },
+    {
+      "q": "Po čem se razlikuje od dnevnega horoskopa?",
+      "a": "Uporablja vaše osebne podatke, ne le znamenja."
+    },
+    {
+      "q": "Ali Auren Effect napoveduje prihodnost?",
+      "a": "Ne, ponuja ideje za razmislek in ne napovedi."
+    }
+  ],
+  "tags": [
+    "osebni horoskop",
+    "osebni horoskop izračun"
+  ],
+  "ui": {
+    "faq": "Pogosta vprašanja"
+  }
+}

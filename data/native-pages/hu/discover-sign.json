@@ -1,0 +1,56 @@
+{
+  "lang": "hu",
+  "page": "discover-sign",
+  "keyword": "ascendens számítás",
+  "volume": 0,
+  "title": "Ascendens számítás ingyen: ismerd meg a csillagjegyedet",
+  "description": "Az ascendens számítás egyszerű: add meg a születési dátumot, időt és helyet, és ingyen megtudhatod a csillagjegyedet világos, kedves tanácsokkal.",
+  "intro": "Szeretnél ascendens számítást végezni, és megismerni a csillagjegyedet? Ebben az ingyenes eszközben megadod a születési dátumot, és ha tudod, az időt és a várost, hogy lásd a csillagjegyedet és az ascendensedet.",
+  "sections": [
+    {
+      "h2": "Mi az az ascendens",
+      "paragraphs": [
+        "Az ascendens az a jegy, amely a születésed pillanatában emelkedett a keleti horizonton. A napjegy a lényedről mesél, az ascendens inkább azt írja le, milyen benyomást keltesz másokban.",
+        "Példa: Zsófi Mérleg ascendens Oroszlánnal. Diplomatikus, de mások nagyon magabiztosnak látják."
+      ]
+    },
+    {
+      "h2": "Így működik az ascendens számítás az eszközben",
+      "paragraphs": [
+        "Válaszd ki a születésed napját, hónapját és évét, add meg az időt, és válaszd ki a városodat a listából. Az idő fontos, mert az ascendens nagyjából kétóránként változik.",
+        "Ha nem tudod az időt, az eszköz a legvalószínűbb jegyet mutatja. Ha már ismered a csillagjegyedet, közvetlenül is kiválaszthatod."
+      ]
+    },
+    {
+      "h2": "Az eredmény után",
+      "paragraphs": [
+        "Egy a csillagjegyedről szóló oldalra jutsz egyszerű, kedves tanácsokkal. Olvasd meghívásként arra, hogy jobban megismerd magad.",
+        "A tartalom elgondolkodásra és szórakozásra készült, jóslatok nélkül. Egészségügyi, jogi vagy pénzügyi kérdésekben fordulj szakemberhez."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Hogyan végezhetek ascendens számítást?",
+      "a": "Add meg az eszközben a születési dátumot, időt és helyet."
+    },
+    {
+      "q": "Pontosan tudnom kell az időt?",
+      "a": "Minél pontosabb az idő, annál megbízhatóbb az eredmény, mert az ascendens nagyjából kétóránként változik."
+    },
+    {
+      "q": "Ingyenes az eszköz?",
+      "a": "Igen, ingyen és fiók nélkül használhatod."
+    },
+    {
+      "q": "Mi van, ha nem tudom a születési időmet?",
+      "a": "Az eszköz megmutathatja a legvalószínűbb jegyet."
+    }
+  ],
+  "tags": [
+    "ascendens számítás"
+  ],
+  "ui": {
+    "faq": "Gyakori kérdések"
+  }
+}

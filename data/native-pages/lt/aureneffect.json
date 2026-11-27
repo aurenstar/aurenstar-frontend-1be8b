@@ -1,0 +1,58 @@
+{
+  "lang": "lt",
+  "page": "aureneffect",
+  "keyword": "asmeninis horoskopas",
+  "volume": 0,
+  "title": "Nemokamas asmeninis horoskopas: Auren Effect",
+  "description": "Asmeninis horoskopas pagal vardą, gimimo datą ir vietą: suprask, kaip šiandien galite jaustis, ir gaukite paprastų, praktiškų patarimų.",
+  "intro": "Auren Effect yra jūsų asmeninis horoskopas apmąstymams. Įvedate vardą ir gimimo duomenis ir sužinote, kaip šiandien galite jaustis, su paprastais patarimais dienai.",
+  "sections": [
+    {
+      "h2": "Ką rodo jūsų asmeninis horoskopas",
+      "paragraphs": [
+        "Skirtingai nei bendras dienos horoskopas, Auren Effect naudoja jūsų duomenis: vardą, gimimo datą ir vietą. Todėl tekstas atrodo artimesnis jums.",
+        "Gaunate ne spėjimą, o ramų nuotaikos aprašymą ir praktinių idėjų."
+      ]
+    },
+    {
+      "h2": "Kaip užpildyti formą",
+      "paragraphs": [
+        "Viršuje įrašykite savo vardą, pasirinkite gimimo datą ir susiraskite miestą sąraše. Tada apskaičiuokite savo Auren Effect.",
+        "Pavyzdys: Gabija įveda duomenis, perskaito pasiūlymą skirti laiko ramiam pokalbiui ir vakarui planuoja trumpą pertrauką be telefono."
+      ]
+    },
+    {
+      "h2": "Kam skirtas rezultatas",
+      "paragraphs": [
+        "Rezultatą laikykite proga išklausyti save. Jei patarimas tinka, išbandykite; jei ne, paleiskite.",
+        "Dėl sveikatos, teisės ar pinigų geriausia kreiptis į specialistus."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ar asmeninis horoskopas nemokamas?",
+      "a": "Taip, savo Auren Effect galite apskaičiuoti nemokėdami."
+    },
+    {
+      "q": "Kokių duomenų man reikia?",
+      "a": "Reikia vardo, gimimo datos ir gimimo vietos."
+    },
+    {
+      "q": "Kuo skiriasi nuo dienos horoskopo?",
+      "a": "Jis naudoja jūsų asmeninius duomenis, o ne tik ženklą."
+    },
+    {
+      "q": "Ar Auren Effect spėja ateitį?",
+      "a": "Ne, jis siūlo idėjų apmąstymams, o ne spėjimų."
+    }
+  ],
+  "tags": [
+    "asmeninis horoskopas",
+    "asmeninis horoskopas pagal gimimo datą",
+    "asmeninis horoskopas nemokamai"
+  ],
+  "ui": {
+    "faq": "Dažniausiai užduodami klausimai"
+  }
+}

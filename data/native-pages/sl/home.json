@@ -1,0 +1,58 @@
+{
+  "lang": "sl",
+  "page": "home",
+  "keyword": "horoskop",
+  "volume": 0,
+  "title": "Brezplačni horoskop: vaše znamenje in sporočilo dneva",
+  "description": "Brezplačni horoskop z enostavnimi besedami: odkrijte svoje znamenje, preberite sporočilo za dan in si oglejte članke ter slovar astrologije Aurenstar.",
+  "intro": "Na Aurenstar najdete horoskop brez zapletenih izrazov. Lahko izveste svoje znamenje, preberete kratko sporočilo za dan in v miru brskate po člankih o astrologiji.",
+  "sections": [
+    {
+      "h2": "Kaj najdete na Aurenstar",
+      "paragraphs": [
+        "Brezplačna orodja so na vrhu strani: vnesete datum rojstva, vidite svoje znamenje in prejmete preproste, prijazne nasvete. Na voljo je tudi dnevno sporočilo za vaše znamenje in osebni opis, ki ga lahko delite.",
+        "Če želite izvedeti več, berite članke in poglejte v slovar, da razumete, kaj je na primer ascendent ali element."
+      ]
+    },
+    {
+      "h2": "Kako uporabljati horoskop vsak dan",
+      "paragraphs": [
+        "Primer: Ana zjutraj prebere sporočilo, si zapomni en stavek in zvečer premisli, ali se je ujemal z njenim dnem. Horoskop ne rabi biti več kot to.",
+        "Nasvete lahko vzamete tudi kot spodbudo za razmislek, na primer ko se odločate, kako začeti pogovor ali kdaj narediti odmor."
+      ]
+    },
+    {
+      "h2": "Astrologija za razmislek, ne za napovedovanje",
+      "paragraphs": [
+        "Aurenstar ne obljublja rezultatov in ne daje zdravstvenih, pravnih ali finančnih nasvetov. Besedila so namenjena usmerjanju in veselju.",
+        "Pomembne odločitve je bolje sprejemati z ljudmi, ki jim zaupate, in po potrebi s strokovnjaki."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Je horoskop Aurenstar brezplačen?",
+      "a": "Da, orodja in članke lahko uporabljate brez plačila."
+    },
+    {
+      "q": "Ali moram ustvariti račun?",
+      "a": "Ne, za uporabo orodij registracija ni potrebna."
+    },
+    {
+      "q": "Kaj lahko počnem na Aurenstar?",
+      "a": "Lahko izveste svoje znamenje, preberete dnevno sporočilo, ustvarite osebni opis ter berete članke in slovar astrologije."
+    },
+    {
+      "q": "Ali horoskop napoveduje prihodnost?",
+      "a": "Ne, besedila so namenjena razmisleku in ne vsebujejo napovedi."
+    }
+  ],
+  "tags": [
+    "horoskop",
+    "horoskop danes",
+    "horoskop znamenja"
+  ],
+  "ui": {
+    "faq": "Pogosta vprašanja"
+  }
+}

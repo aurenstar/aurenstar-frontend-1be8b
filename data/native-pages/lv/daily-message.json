@@ -1,0 +1,59 @@
+{
+  "lang": "lv",
+  "page": "daily-message",
+  "keyword": "dienas horoskops",
+  "volume": 0,
+  "title": "Dienas horoskops bez maksas: jūsu ziņa šodien",
+  "description": "Dienas horoskops vienkāršiem vārdiem: izvēlieties savu zīmi un izlasiet laipnu ziņu ar nelielu padomu savai dienai.",
+  "intro": "Aurenstar dienas horoskops ir īsa, laipna ziņa jūsu zīmei, ko saņemat katru dienu. Tā atstāj domu pārdomām un nelielu padomu, ko varat izmēģināt jau šodien.",
+  "sections": [
+    {
+      "h2": "Kā darbojas dienas horoskops",
+      "paragraphs": [
+        "Lapas augšā izvēlaties savu zīmi un lasāt ziņu. Tajā ir viens pozitīvs teikums, kas pavada jūs visu dienu, un vienkāršs padoms, kas neaizņem daudz laika.",
+        "Teksti ir mierīgi un praktiski, bez lieliem solījumiem."
+      ]
+    },
+    {
+      "h2": "Piemērs no ikdienas",
+      "paragraphs": [
+        "Jānis ir Auns un izlasa, ka šodien beidzot var piezvanīt, ko atlika. Viņš velta desmit minūtes un redz, ka darbs bija mazāks, nekā domāja.",
+        "Dienas horoskops ir saudzīgs mudinājums: jūs izlemjat, vai un kā to izmantot."
+      ]
+    },
+    {
+      "h2": "Kā saprast dienas horoskopu",
+      "paragraphs": [
+        "Ziņa nav pareģojums. Tā palīdz padomāt un dod brīdi sev.",
+        "Veselības, tiesību vai naudas jautājumos vērsieties pie speciālistiem."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Vai dienas horoskops ir bezmaksas?",
+      "a": "Jā, dienas ziņu varat lasīt bez maksas."
+    },
+    {
+      "q": "Cik bieži ziņa mainās?",
+      "a": "Savai zīmei varat lasīt jaunu ziņu katru dienu."
+    },
+    {
+      "q": "Vai man jāievada dzimšanas datums?",
+      "a": "Jūs izvēlaties savu zīmi. Ja to nezināt, uzziniet ar Aurenstar kalkulatoru."
+    },
+    {
+      "q": "Vai dienas horoskops pareģo nākotni?",
+      "a": "Nē, tas ir aicinājums pārdomām, nevis pareģojums."
+    }
+  ],
+  "tags": [
+    "dienas horoskops",
+    "dienas horoskops vērsis",
+    "dienas horoskops strēlnieks",
+    "dienas horoskops zivs"
+  ],
+  "ui": {
+    "faq": "Biežāk uzdotie jautājumi"
+  }
+}

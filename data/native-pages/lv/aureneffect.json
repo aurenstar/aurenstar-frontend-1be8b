@@ -1,0 +1,57 @@
+{
+  "lang": "lv",
+  "page": "aureneffect",
+  "keyword": "personīgais horoskops",
+  "volume": 0,
+  "title": "Bezmaksas personīgais horoskops: Auren Effect",
+  "description": "Personīgais horoskops pēc vārda, dzimšanas datuma un vietas: saprotiet, kā šodien varat justies, un saņemiet vienkāršus, praktiskus padomus.",
+  "intro": "Auren Effect ir jūsu personīgais horoskops pārdomām. Ievadāt vārdu un dzimšanas datus un uzzināt, kā šodien varat justies, ar vienkāršiem padomiem dienai.",
+  "sections": [
+    {
+      "h2": "Ko rāda jūsu personīgais horoskops",
+      "paragraphs": [
+        "Atšķirībā no vispārīga dienas horoskopa Auren Effect izmanto jūsu datus: vārdu, dzimšanas datumu un vietu. Tāpēc teksts šķiet tuvāks jums.",
+        "Jūs nesaņemat pareģojumu, bet mierīgu garastāvokļa aprakstu un praktiskas idejas."
+      ]
+    },
+    {
+      "h2": "Kā aizpildīt veidlapu",
+      "paragraphs": [
+        "Augšā ierakstiet savu vārdu, izvēlieties dzimšanas datumu un atrodiet savu pilsētu sarakstā. Pēc tam aprēķiniet savu Auren Effect.",
+        "Piemērs: Marta ievada datus, izlasa ieteikumu atvēlēt laiku mierīgai sarunai un vakaram ieplāno īsu pauzi bez telefona."
+      ]
+    },
+    {
+      "h2": "Kam der rezultāts",
+      "paragraphs": [
+        "Uztveriet rezultātu kā iespēju sevi uzklausīt. Ja padoms der, izmēģiniet to; ja nē, palaidiet vaļā.",
+        "Veselības, tiesību vai naudas jautājumos labāk vērsties pie speciālistiem."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Vai personīgais horoskops ir bezmaksas?",
+      "a": "Jā, savu Auren Effect varat aprēķināt bez maksas."
+    },
+    {
+      "q": "Kādi dati man vajadzīgi?",
+      "a": "Vajadzīgs vārds, dzimšanas datums un dzimšanas vieta."
+    },
+    {
+      "q": "Ar ko tas atšķiras no dienas horoskopa?",
+      "a": "Tas izmanto jūsu personīgos datus, ne tikai zīmi."
+    },
+    {
+      "q": "Vai Auren Effect pareģo nākotni?",
+      "a": "Nē, tas piedāvā idejas pārdomām, nevis pareģojumus."
+    }
+  ],
+  "tags": [
+    "personīgais horoskops",
+    "personīgais horoskops bezmaksas"
+  ],
+  "ui": {
+    "faq": "Biežāk uzdotie jautājumi"
+  }
+}

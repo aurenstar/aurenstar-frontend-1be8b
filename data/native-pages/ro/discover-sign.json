@@ -1,0 +1,59 @@
+{
+  "lang": "ro",
+  "page": "discover-sign",
+  "keyword": "calcul ascendent",
+  "volume": 0,
+  "title": "Calcul ascendent gratuit: descoperă-ți zodia",
+  "description": "Calcul ascendent simplu: introdu data, ora și locul nașterii și descoperă gratuit zodia ta, cu sfaturi clare și blânde.",
+  "intro": "Vrei să faci un calcul ascendent și să-ți cunoști zodia? În acest instrument gratuit introduci data nașterii și, dacă le știi, ora și orașul, ca să vezi zodia și ascendentul.",
+  "sections": [
+    {
+      "h2": "Ce este ascendentul",
+      "paragraphs": [
+        "Ascendentul este semnul care răsărea la orizontul estic în clipa nașterii tale. Zodia solară vorbește despre esența ta, iar ascendentul descrie mai mult impresia pe care o faci celorlalți.",
+        "Un exemplu: Andreea este Balanță cu ascendent în Leu. E diplomată, dar ceilalți o văd foarte sigură pe ea."
+      ]
+    },
+    {
+      "h2": "Cum faci calcul ascendent în instrument",
+      "paragraphs": [
+        "Alege ziua, luna și anul nașterii, adaugă ora și selectează orașul din listă. Ora contează, deoarece ascendentul se schimbă aproximativ din două în două ore.",
+        "Dacă nu știi ora, instrumentul arată cea mai probabilă zodie. Dacă îți cunoști deja zodia, o poți alege direct."
+      ]
+    },
+    {
+      "h2": "După rezultat",
+      "paragraphs": [
+        "Ajungi pe o pagină despre zodia ta, cu sfaturi simple și blânde. Citește-o ca pe o invitație de a te cunoaște mai bine.",
+        "Conținutul este pentru reflecție și plăcere, fără predicții. Pentru sănătate, drept sau bani, adresează-te specialiștilor."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Cum fac calcul ascendent?",
+      "a": "Introdu în instrument data, ora și locul nașterii."
+    },
+    {
+      "q": "Trebuie să știu ora exactă?",
+      "a": "Cu cât ora e mai exactă, cu atât rezultatul e mai sigur, pentru că ascendentul se schimbă aproximativ din două în două ore."
+    },
+    {
+      "q": "Este instrumentul gratuit?",
+      "a": "Da, îl poți folosi gratuit și fără cont."
+    },
+    {
+      "q": "Ce fac dacă nu știu ora nașterii?",
+      "a": "Instrumentul îți poate arăta cea mai probabilă zodie."
+    }
+  ],
+  "tags": [
+    "calcul ascendent",
+    "calcul ascendent fara ora nasterii",
+    "calcul ascendent zodie",
+    "calcul ascendent gratuit"
+  ],
+  "ui": {
+    "faq": "Întrebări frecvente"
+  }
+}

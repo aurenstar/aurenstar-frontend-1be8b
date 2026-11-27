@@ -1,0 +1,58 @@
+{
+  "lang": "hr",
+  "page": "aureneffect",
+  "keyword": "osobni horoskop",
+  "volume": 0,
+  "title": "Besplatni osobni horoskop: Auren Effect",
+  "description": "Osobni horoskop prema imenu, datumu i mjestu rođenja: shvatite kako se danas možete osjećati i dobijte jednostavne, praktične savjete.",
+  "intro": "Auren Effect je vaš osobni horoskop za razmišljanje. Unesete ime i podatke o rođenju i saznate kako se danas možete osjećati, uz jednostavne savjete za dan.",
+  "sections": [
+    {
+      "h2": "Što pokazuje vaš osobni horoskop",
+      "paragraphs": [
+        "Za razliku od općeg dnevnog horoskopa, Auren Effect koristi vaše podatke: ime, datum i mjesto rođenja. Zato tekst djeluje bliže vama.",
+        "Ne dobivate predviđanje, nego miran opis raspoloženja i praktične ideje."
+      ]
+    },
+    {
+      "h2": "Kako ispuniti obrazac",
+      "paragraphs": [
+        "Upišite ime na vrhu, odaberite datum rođenja i pronađite svoj grad na popisu. Zatim izračunajte svoj Auren Effect.",
+        "Primjer: Petra unese podatke, pročita prijedlog da izdvoji vrijeme za miran razgovor i navečer planira kratku stanku bez telefona."
+      ]
+    },
+    {
+      "h2": "Čemu služi rezultat",
+      "paragraphs": [
+        "Rezultat shvatite kao priliku da saslušate sebe. Ako vam savjet odgovara, isprobajte ga; ako ne, pustite ga.",
+        "Za zdravlje, pravo ili novac najbolje je obratiti se stručnjacima."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Je li osobni horoskop besplatan?",
+      "a": "Da, svoj Auren Effect možete izračunati bez plaćanja."
+    },
+    {
+      "q": "Koji su mi podaci potrebni?",
+      "a": "Potrebni su ime, datum rođenja i mjesto rođenja."
+    },
+    {
+      "q": "Po čemu se razlikuje od dnevnog horoskopa?",
+      "a": "Koristi vaše osobne podatke, a ne samo znak."
+    },
+    {
+      "q": "Predviđa li Auren Effect budućnost?",
+      "a": "Ne, nudi ideje za razmišljanje, a ne predviđanja."
+    }
+  ],
+  "tags": [
+    "osobni horoskop",
+    "osobni horoskop po datumu rođenja",
+    "osobni horoskop besplatno"
+  ],
+  "ui": {
+    "faq": "Često postavljana pitanja"
+  }
+}

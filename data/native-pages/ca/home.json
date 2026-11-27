@@ -1,0 +1,57 @@
+{
+  "lang": "ca",
+  "page": "home",
+  "keyword": "horòscop",
+  "volume": 0,
+  "title": "Horòscop gratuït: el teu signe i el missatge del dia",
+  "description": "Horòscop gratuït amb paraules senzilles: descobreix el teu signe, llegeix un missatge per al dia i explora els articles i el diccionari d'astrologia d'Aurenstar.",
+  "intro": "A Aurenstar trobaràs el teu horòscop sense paraules complicades. Pots descobrir el teu signe, llegir un missatge curt per al dia d'avui i explorar tranquil·lament articles d'astrologia.",
+  "sections": [
+    {
+      "h2": "Què trobaràs a Aurenstar",
+      "paragraphs": [
+        "Les eines gratuïtes són a dalt de la pàgina: introdueixes la data de naixement, veus el teu signe i reps consells senzills i amables. També hi ha un missatge diari per al teu signe i una descripció personal que pots compartir.",
+        "Si vols saber-ne més, llegeix els articles i consulta el diccionari per entendre, per exemple, què és un ascendent o un element."
+      ]
+    },
+    {
+      "h2": "Com utilitzar l'horòscop cada dia",
+      "paragraphs": [
+        "Un exemple: la Marta llegeix el missatge al matí, es queda amb una frase i al vespre es pregunta si encaixava amb el seu dia. Un horòscop no cal que sigui res més.",
+        "També pots veure els consells com una invitació a reflexionar, per exemple quan decideixes com començar una conversa o quan fer una pausa."
+      ]
+    },
+    {
+      "h2": "Astrologia per reflexionar, no per predir",
+      "paragraphs": [
+        "Aurenstar no promet resultats i no dona consells mèdics, legals ni financers. Els textos són per orientar i per gaudir.",
+        "Les decisions importants és millor prendre-les amb persones de confiança i, si cal, amb professionals."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "L'horòscop d'Aurenstar és gratuït?",
+      "a": "Sí, pots fer servir les eines i llegir els articles sense pagar."
+    },
+    {
+      "q": "Cal que em creï un compte?",
+      "a": "No, no cal registrar-se per utilitzar les eines."
+    },
+    {
+      "q": "Què puc fer a Aurenstar?",
+      "a": "Pots descobrir el teu signe, llegir un missatge diari, crear una descripció personal i llegir articles i el diccionari d'astrologia."
+    },
+    {
+      "q": "L'horòscop prediu el futur?",
+      "a": "No, els textos són per reflexionar i no contenen prediccions."
+    }
+  ],
+  "tags": [
+    "horòscop",
+    "horòscop avui"
+  ],
+  "ui": {
+    "faq": "Preguntes freqüents"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "lang": "ms",
+  "page": "home",
+  "keyword": "ramalan bintang",
+  "volume": 0,
+  "title": "Ramalan bintang percuma: zodiak anda dan mesej hari ini",
+  "description": "Ramalan bintang percuma dengan kata-kata mudah: ketahui zodiak anda, baca mesej untuk hari anda dan terokai artikel serta kamus astrologi Aurenstar.",
+  "intro": "Di Aurenstar, anda boleh mendapat ramalan bintang tanpa istilah yang rumit. Anda boleh mengetahui zodiak anda, membaca mesej ringkas untuk hari ini dan menyelongkar artikel astrologi dengan santai.",
+  "sections": [
+    {
+      "h2": "Apa yang ada di Aurenstar",
+      "paragraphs": [
+        "Alat percuma terdapat di bahagian atas halaman: masukkan tarikh lahir, lihat zodiak anda dan terima nasihat yang mudah dan mesra. Ada juga mesej harian untuk zodiak anda dan penerangan peribadi yang boleh dikongsi.",
+        "Jika mahu tahu lebih lanjut, baca artikel dan semak kamus untuk memahami, contohnya, apa itu ascendant atau unsur."
+      ]
+    },
+    {
+      "h2": "Cara menggunakan ramalan bintang setiap hari",
+      "paragraphs": [
+        "Contohnya: Aisyah membaca mesej pada waktu pagi, mengingati satu ayat dan pada waktu malam bertanya sama ada ayat itu sesuai dengan harinya. Ramalan bintang tidak perlu lebih daripada itu.",
+        "Anda juga boleh menganggap nasihat itu sebagai jemputan untuk berfikir, contohnya apabila memutuskan cara memulakan perbualan atau bila hendak berehat."
+      ]
+    },
+    {
+      "h2": "Astrologi untuk renungan, bukan untuk ramalan",
+      "paragraphs": [
+        "Aurenstar tidak menjanjikan sebarang hasil dan tidak memberi nasihat perubatan, undang-undang atau kewangan. Teks ini dibuat untuk memberi hala tuju dan keseronokan.",
+        "Keputusan penting lebih baik dibuat bersama orang yang anda percayai dan, jika perlu, bersama pakar."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Adakah ramalan bintang Aurenstar percuma?",
+      "a": "Ya, anda boleh menggunakan alat dan membaca artikel tanpa membayar."
+    },
+    {
+      "q": "Perlukah saya membuat akaun?",
+      "a": "Tidak, anda tidak perlu mendaftar untuk menggunakan alat."
+    },
+    {
+      "q": "Apa yang boleh saya lakukan di Aurenstar?",
+      "a": "Anda boleh mengetahui zodiak anda, membaca mesej harian, membuat penerangan peribadi serta membaca artikel dan kamus astrologi."
+    },
+    {
+      "q": "Adakah ramalan bintang meramal masa depan?",
+      "a": "Tidak, teks adalah untuk renungan dan tidak mengandungi ramalan."
+    }
+  ],
+  "tags": [
+    "ramalan bintang",
+    "ramalan bintang scorpio hari ini",
+    "ramalan bintang virgo hari ini"
+  ],
+  "ui": {
+    "faq": "Soalan lazim"
+  }
+}

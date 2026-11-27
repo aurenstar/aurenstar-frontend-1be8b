@@ -1,0 +1,56 @@
+{
+  "lang": "ca",
+  "page": "aureneffect",
+  "keyword": "horòscop personalitzat",
+  "volume": 0,
+  "title": "Horòscop personalitzat gratuït: Auren Effect",
+  "description": "Horòscop personalitzat segons el nom, la data i el lloc de naixement: entén com et pots sentir avui i rep consells senzills i pràctics.",
+  "intro": "Auren Effect és el teu horòscop personalitzat per reflexionar. Introdueixes el nom i les dades de naixement i descobreixes com et pots sentir avui, amb consells senzills per al teu dia.",
+  "sections": [
+    {
+      "h2": "Què et mostra l'horòscop personalitzat",
+      "paragraphs": [
+        "A diferència d'un horòscop diari general, Auren Effect fa servir les teves dades: nom, data i lloc de naixement. Per això el text et sembla més proper.",
+        "No reps una predicció, sinó una descripció tranquil·la del teu estat d'ànim i idees pràctiques."
+      ]
+    },
+    {
+      "h2": "Com omplir el formulari",
+      "paragraphs": [
+        "Escriu el teu nom a dalt, tria la data de naixement i busca la teva ciutat a la llista. Després calcula el teu Auren Effect.",
+        "Un exemple: la Laia introdueix les dades, llegeix el suggeriment de reservar temps per a una conversa tranquil·la i planifica per al vespre una pausa curta sense telèfon."
+      ]
+    },
+    {
+      "h2": "Per a què serveix el resultat",
+      "paragraphs": [
+        "Pren el resultat com una ocasió per escoltar-te. Si un consell et va bé, prova'l; si no, deixa'l estar.",
+        "Per a salut, dret o diners, el millor és adreçar-se a professionals."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "L'horòscop personalitzat és gratuït?",
+      "a": "Sí, pots calcular el teu Auren Effect sense pagar."
+    },
+    {
+      "q": "Quines dades necessito?",
+      "a": "Necessites el teu nom, la data i el lloc de naixement."
+    },
+    {
+      "q": "Quina diferència hi ha amb l'horòscop d'avui?",
+      "a": "Fa servir les teves dades personals i no només el signe."
+    },
+    {
+      "q": "Auren Effect prediu el futur?",
+      "a": "No, ofereix idees per reflexionar i no prediccions."
+    }
+  ],
+  "tags": [
+    "horòscop personalitzat"
+  ],
+  "ui": {
+    "faq": "Preguntes freqüents"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "lang": "sk",
+  "page": "aureneffect",
+  "keyword": "osobný horoskop",
+  "volume": 0,
+  "title": "Osobný horoskop zadarmo: Auren Effect",
+  "description": "Osobný horoskop podľa mena, dátumu a miesta narodenia: pochopte, ako sa dnes môžete cítiť, a získajte jednoduché praktické rady.",
+  "intro": "Auren Effect je váš osobný horoskop na zamyslenie. Zadáte meno a údaje o narodení a zistíte, ako sa dnes môžete cítiť, s jednoduchými radami na deň.",
+  "sections": [
+    {
+      "h2": "Čo ukazuje váš osobný horoskop",
+      "paragraphs": [
+        "Na rozdiel od všeobecného denného horoskopu používa Auren Effect vaše vlastné údaje: meno, dátum a miesto narodenia. Preto text pôsobí bližšie k vám.",
+        "Nedostanete predpoveď, ale pokojný opis nálady a praktické nápady."
+      ]
+    },
+    {
+      "h2": "Ako vyplniť formulár",
+      "paragraphs": [
+        "Hore napíšte svoje meno, vyberte dátum narodenia a nájdite svoje mesto v zozname. Potom si vypočítajte svoj Auren Effect.",
+        "Príklad: Zuzana zadá údaje, prečíta si radu vyhradiť čas na pokojný rozhovor a na večer si naplánuje krátku pauzu bez telefónu."
+      ]
+    },
+    {
+      "h2": "Na čo slúži výsledok",
+      "paragraphs": [
+        "Berte výsledok ako príležitosť počúvať seba. Ak vám rada sedí, vyskúšajte ju; ak nie, nechajte ju tak.",
+        "So zdravím, právom a peniazmi je najlepšie obrátiť sa na odborníkov."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Je osobný horoskop zadarmo?",
+      "a": "Áno, svoj Auren Effect si môžete vypočítať bez platenia."
+    },
+    {
+      "q": "Aké údaje potrebujem?",
+      "a": "Potrebujete meno, dátum a miesto narodenia."
+    },
+    {
+      "q": "Čím sa líši od denného horoskopu?",
+      "a": "Používa vaše osobné údaje, nielen znamenie."
+    },
+    {
+      "q": "Predpovedá Auren Effect budúcnosť?",
+      "a": "Nie, ponúka nápady na zamyslenie, nie predpovede."
+    }
+  ],
+  "tags": [
+    "osobný horoskop",
+    "osobný horoskop podľa dátumu narodenia",
+    "osobný horoskop zdarma"
+  ],
+  "ui": {
+    "faq": "Často kladené otázky"
+  }
+}

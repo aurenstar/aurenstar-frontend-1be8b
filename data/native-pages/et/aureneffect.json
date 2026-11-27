@@ -1,0 +1,56 @@
+{
+  "lang": "et",
+  "page": "aureneffect",
+  "keyword": "isiklik horoskoop",
+  "volume": 0,
+  "title": "Tasuta isiklik horoskoop: Auren Effect",
+  "description": "Isiklik horoskoop nime, sünniaja ja -koha järgi: mõista, kuidas sa täna end tunda võid, ning saa lihtsaid, praktilisi nõuandeid.",
+  "intro": "Auren Effect on sinu isiklik horoskoop järelemõtlemiseks. Sisestad nime ja sünniandmed ning saad teada, kuidas võid end täna tunda, koos lihtsate nõuannetega päevaks.",
+  "sections": [
+    {
+      "h2": "Mida sinu isiklik horoskoop näitab",
+      "paragraphs": [
+        "Erinevalt üldisest päevahoroskoobist kasutab Auren Effect sinu enda andmeid: nime, sünniaega ja -kohta. Seetõttu tundub tekst sulle lähedasem.",
+        "Sa ei saa ennustust, vaid rahuliku kirjelduse oma meeleolust ja praktilisi ideid."
+      ]
+    },
+    {
+      "h2": "Kuidas vormi täita",
+      "paragraphs": [
+        "Kirjuta ülaossa oma nimi, vali sünniaeg ja leia oma linn loendist. Seejärel arvuta oma Auren Effect.",
+        "Näide: Kati sisestab andmed, loeb ettepanekut leida aega rahulikuks vestluseks ning planeerib õhtuks lühikese pausi ilma telefonita."
+      ]
+    },
+    {
+      "h2": "Mille jaoks tulemus on",
+      "paragraphs": [
+        "Võta tulemust kui võimalust endale kuulatada. Kui nõuanne sobib, proovi seda; kui mitte, lase sel minna.",
+        "Tervise, õiguse või raha küsimustes on parim pöörduda spetsialisti poole."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kas isiklik horoskoop on tasuta?",
+      "a": "Jah, oma Auren Effecti saad arvutada tasuta."
+    },
+    {
+      "q": "Milliseid andmeid mul vaja on?",
+      "a": "Vaja on nime, sünniaega ja sünnikohta."
+    },
+    {
+      "q": "Mille poolest see päevahoroskoobist erineb?",
+      "a": "See kasutab sinu isiklikke andmeid, mitte ainult tähtkuju."
+    },
+    {
+      "q": "Kas Auren Effect ennustab tulevikku?",
+      "a": "Ei, see pakub ideid järelemõtlemiseks, mitte ennustusi."
+    }
+  ],
+  "tags": [
+    "isiklik horoskoop"
+  ],
+  "ui": {
+    "faq": "Korduma kippuvad küsimused"
+  }
+}

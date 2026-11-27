@@ -1,0 +1,59 @@
+{
+  "lang": "lt",
+  "page": "home",
+  "keyword": "horoskopas",
+  "volume": 0,
+  "title": "Nemokamas horoskopas: jūsų ženklas ir dienos žinutė",
+  "description": "Nemokamas horoskopas paprastais žodžiais: sužinokite savo ženklą, perskaitykite dienos žinutę ir peržiūrėkite Aurenstar straipsnius bei astrologijos žodyną.",
+  "intro": "Aurenstar horoskopas pateikiamas be sudėtingų terminų. Galite sužinoti savo ženklą, perskaityti trumpą dienos žinutę ir ramiai naršyti astrologijos straipsnius.",
+  "sections": [
+    {
+      "h2": "Ką rasite Aurenstar",
+      "paragraphs": [
+        "Nemokami įrankiai yra puslapio viršuje: įvedate gimimo datą, matote savo ženklą ir gaunate paprastų, malonių patarimų. Taip pat yra dienos žinutė jūsų ženklui ir asmeninis aprašymas, kuriuo galite pasidalyti.",
+        "Jei norite sužinoti daugiau, skaitykite straipsnius ir žvilgtelėkite į žodyną, kad suprastumėte, pavyzdžiui, kas yra ascendentas ar elementas."
+      ]
+    },
+    {
+      "h2": "Horoskopas kasdienybėje: kaip juo naudotis",
+      "paragraphs": [
+        "Pavyzdys: Rūta ryte perskaito žinutę, įsimena vieną sakinį, o vakare svarsto, ar jis tiko jos dienai. Horoskopas neturi būti daugiau nei tai.",
+        "Patarimus galite laikyti ir kvietimu susimąstyti, pavyzdžiui, kai spręsite, kaip pradėti pokalbį ar kada pailsėti."
+      ]
+    },
+    {
+      "h2": "Astrologija apmąstymams, o ne spėjimams",
+      "paragraphs": [
+        "Aurenstar nežada rezultatų ir neteikia medicininių, teisinių ar finansinių patarimų. Tekstai skirti suteikti kryptį ir džiaugsmą.",
+        "Svarbius sprendimus geriau priimti su žmonėmis, kuriais pasitikite, o prireikus ir su specialistais."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ar Aurenstar horoskopas nemokamas?",
+      "a": "Taip, įrankiais ir straipsniais galite naudotis nemokėdami."
+    },
+    {
+      "q": "Ar reikia susikurti paskyrą?",
+      "a": "Ne, naudotis įrankiais registruotis nereikia."
+    },
+    {
+      "q": "Ką galiu daryti Aurenstar?",
+      "a": "Galite sužinoti savo ženklą, perskaityti dienos žinutę, sukurti asmeninį aprašymą ir skaityti straipsnius bei astrologijos žodyną."
+    },
+    {
+      "q": "Ar horoskopas spėja ateitį?",
+      "a": "Ne, tekstai skirti apmąstymams ir neturi spėjimų."
+    }
+  ],
+  "tags": [
+    "horoskopas",
+    "horoskopas šiandienai",
+    "horoskopas rytojui",
+    "horoskopas savaitei"
+  ],
+  "ui": {
+    "faq": "Dažniausiai užduodami klausimai"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "lang": "hu",
+  "page": "home",
+  "keyword": "horoszkóp",
+  "volume": 0,
+  "title": "Ingyenes horoszkóp: a csillagjegyed és a nap üzenete",
+  "description": "Ingyenes horoszkóp egyszerű szavakkal: ismerd meg a csillagjegyedet, olvass egy üzenetet a napodra, és böngészd az Aurenstar cikkeit és asztrológiai szótárát.",
+  "intro": "Az Aurenstaron bonyolult kifejezések nélkül találsz horoszkópot. Megtudhatod a csillagjegyedet, elolvashatsz egy rövid üzenetet a napodra, és nyugodtan böngészhetsz asztrológiai cikkek között.",
+  "sections": [
+    {
+      "h2": "Mit találsz az Aurenstaron",
+      "paragraphs": [
+        "Az ingyenes eszközök az oldal tetején vannak: megadod a születési dátumot, látod a csillagjegyedet, és egyszerű, kedves tanácsokat kapsz. Van napi üzenet a csillagjegyedhez és személyes leírás, amit megoszthatsz.",
+        "Ha többet szeretnél tudni, olvasd el a cikkeket, és nézd meg a szótárban, mi az például az ascendens vagy az elem."
+      ]
+    },
+    {
+      "h2": "Így használd a horoszkópot minden nap",
+      "paragraphs": [
+        "Példa: Anna reggel elolvassa az üzenetet, megjegyez egy mondatot, este pedig elgondolkodik, illett-e a napjához. A horoszkópnak nem kell ennél több lennie.",
+        "A tanácsokat felfoghatod elgondolkodtató ötletként is, például amikor eldöntöd, hogyan kezdj egy beszélgetést, vagy mikor tarts szünetet."
+      ]
+    },
+    {
+      "h2": "Asztrológia gondolkodáshoz, nem jóslásra",
+      "paragraphs": [
+        "Az Aurenstar nem ígér eredményeket, és nem ad orvosi, jogi vagy pénzügyi tanácsot. A szövegek iránymutatásra és örömszerzésre készültek.",
+        "A fontos döntéseket jobb olyan emberekkel meghozni, akikben megbízol, és szükség esetén szakemberekkel."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ingyenes az Aurenstar horoszkópja?",
+      "a": "Igen, az eszközöket és a cikkeket fizetés nélkül használhatod."
+    },
+    {
+      "q": "Kell fiókot létrehoznom?",
+      "a": "Nem, az eszközök használatához nem kell regisztrálni."
+    },
+    {
+      "q": "Mit tehetek az Aurenstaron?",
+      "a": "Megtudhatod a csillagjegyedet, olvashatsz napi üzenetet, készíthetsz személyes leírást, és olvashatsz cikkeket és asztrológiai szótárat."
+    },
+    {
+      "q": "Megjósolja a horoszkóp a jövőt?",
+      "a": "Nem, a szövegek elgondolkodtatnak, és nem tartalmaznak jóslatokat."
+    }
+  ],
+  "tags": [
+    "horoszkóp",
+    "horoszkóp jegyek"
+  ],
+  "ui": {
+    "faq": "Gyakori kérdések"
+  }
+}

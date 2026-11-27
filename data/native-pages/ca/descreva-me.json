@@ -1,0 +1,56 @@
+{
+  "lang": "ca",
+  "page": "descreva-me",
+  "keyword": "característiques dels signes del zodíac",
+  "volume": 0,
+  "title": "Característiques dels signes del zodíac: la teva descripció",
+  "description": "Descobreix les característiques dels signes del zodíac que et defineixen: amb les dades de naixement crea una descripció astrològica personal i divertida per compartir.",
+  "intro": "Quines característiques dels signes del zodíac s'assemblen a tu? Amb «Descriu-me» crees, a partir de les dades de naixement, una descripció astrològica personal i divertida per compartir amb els amics.",
+  "sections": [
+    {
+      "h2": "Com es crea la teva descripció",
+      "paragraphs": [
+        "Escrius la data de naixement a dalt, tries la ciutat de la llista i reps un text sobre tu que encaixa amb les teves dades. És amable, lleuger i pensat per compartir.",
+        "L'objectiu és passar-ho bé i pensar en un mateix, no dictar sentències definitives."
+      ]
+    },
+    {
+      "h2": "Les característiques dels signes del zodíac en el dia a dia",
+      "paragraphs": [
+        "Un exemple: l'Oriol llegeix que estima la calma però té curiositat per conèixer gent nova. Es reconeix i envia el text a un amic, que li respon rient: «Ets tu».",
+        "Aquestes descripcions poden obrir converses, per exemple sobre com cadascú viu les pauses, la proximitat o els plans."
+      ]
+    },
+    {
+      "h2": "Què cal recordar",
+      "paragraphs": [
+        "Cap text no pot dir qui ets de debò. Pren la descripció com una invitació a pensar en tu i queda't amb el que et representa.",
+        "Per a salut, dret o diners, adreça't a professionals."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "«Descriu-me» és gratuït?",
+      "a": "Sí, pots crear la teva descripció sense pagar."
+    },
+    {
+      "q": "Què necessito?",
+      "a": "La teva data i el teu lloc de naixement."
+    },
+    {
+      "q": "Puc compartir la descripció?",
+      "a": "Sí, el text està pensat per compartir-lo amb altres persones."
+    },
+    {
+      "q": "Les característiques dels signes del zodíac estan demostrades científicament?",
+      "a": "No, l'astrologia és per entretenir i reflexionar i no és una prova científica."
+    }
+  ],
+  "tags": [
+    "característiques dels signes del zodíac"
+  ],
+  "ui": {
+    "faq": "Preguntes freqüents"
+  }
+}

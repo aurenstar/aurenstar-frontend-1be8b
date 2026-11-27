@@ -1,0 +1,56 @@
+{
+  "lang": "sk",
+  "page": "descreva-me",
+  "keyword": "vlastnosti znamení zverokruhu",
+  "volume": 0,
+  "title": "Vlastnosti znamení zverokruhu: váš osobný popis",
+  "description": "Spoznajte vlastnosti znamení zverokruhu, ktoré vám sedia: z údajov o narodení vytvorte osobný, zábavný astrologický popis na zdieľanie.",
+  "intro": "Ktoré vlastnosti znamení zverokruhu sa vám podobajú? S funkciou „Opíš ma“ vytvoríte z údajov o narodení osobný, zábavný astrologický popis, ktorý môžete zdieľať s priateľmi.",
+  "sections": [
+    {
+      "h2": "Ako vzniká váš popis",
+      "paragraphs": [
+        "Hore zadáte dátum narodenia, vyberiete mesto zo zoznamu a dostanete text o sebe, ktorý zodpovedá vašim údajom. Je láskavý, ľahký a napísaný na zdieľanie.",
+        "Cieľom je zabaviť sa a premýšľať o sebe, nie vynášať konečné súdy."
+      ]
+    },
+    {
+      "h2": "Vlastnosti znamení zverokruhu v každodennom živote",
+      "paragraphs": [
+        "Príklad: Tomáš číta, že miluje pokoj, ale zaujímajú ho noví ľudia. Spozná sa a pošle text kamarátovi, ktorý sa so smiechom ozve: „To si celý ty.“",
+        "Takéto popisy môžu odštartovať rozhovor, napríklad o tom, ako kto prežíva pauzy, blízkosť alebo plány."
+      ]
+    },
+    {
+      "h2": "Čo si pamätať",
+      "paragraphs": [
+        "Žiadny text vám nepovie, kým naozaj ste. Berte popis ako pozvanie premýšľať o sebe a nechajte si to, čo vám sedí.",
+        "So zdravím, právom a peniazmi sa obráťte na odborníkov."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Je „Opíš ma“ zadarmo?",
+      "a": "Áno, svoj popis môžete vytvoriť bez platenia."
+    },
+    {
+      "q": "Čo potrebujem?",
+      "a": "Dátum a miesto narodenia."
+    },
+    {
+      "q": "Môžem popis zdieľať?",
+      "a": "Áno, text je vytvorený na zdieľanie s inými."
+    },
+    {
+      "q": "Sú vlastnosti znamení zverokruhu vedecky dokázané?",
+      "a": "Nie, astrológia slúži na zábavu a zamyslenie a nie je vedeckým dôkazom."
+    }
+  ],
+  "tags": [
+    "vlastnosti znamení zverokruhu"
+  ],
+  "ui": {
+    "faq": "Často kladené otázky"
+  }
+}

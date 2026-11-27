@@ -1,0 +1,57 @@
+{
+  "lang": "lv",
+  "page": "home",
+  "keyword": "horoskops",
+  "volume": 0,
+  "title": "Bezmaksas horoskops: jūsu zīme un dienas ziņa",
+  "description": "Bezmaksas horoskops vienkāršiem vārdiem: uzziniet savu zīmi, izlasiet dienas ziņu un apskatiet Aurenstar rakstus un astroloģijas vārdnīcu.",
+  "intro": "Aurenstar horoskops ir bez sarežģītiem terminiem. Varat uzzināt savu zīmi, izlasīt īsu ziņu dienai un mierīgi pārlūkot rakstus par astroloģiju.",
+  "sections": [
+    {
+      "h2": "Ko atradīsiet Aurenstar",
+      "paragraphs": [
+        "Bezmaksas rīki ir lapas augšdaļā: ievadāt dzimšanas datumu, redzat savu zīmi un saņemat vienkāršus, laipnus padomus. Ir arī dienas ziņa jūsu zīmei un personīgs apraksts, ar ko varat dalīties.",
+        "Ja vēlaties uzzināt vairāk, lasiet rakstus un ieskatieties vārdnīcā, lai saprastu, piemēram, kas ir ascendents vai elements."
+      ]
+    },
+    {
+      "h2": "Horoskops katru dienu: kā to lietot",
+      "paragraphs": [
+        "Piemērs: Anna no rīta izlasa ziņu, atceras vienu teikumu un vakarā aizdomājas, vai tas piestāvēja viņas dienai. Horoskopam nav jābūt vairāk par to.",
+        "Padomus varat uztvert arī kā ielūgumu padomāt, piemēram, kad izlemjat, kā sākt sarunu vai kad atpūsties."
+      ]
+    },
+    {
+      "h2": "Astroloģija pārdomām, nevis pareģojumiem",
+      "paragraphs": [
+        "Aurenstar neko nesola un nesniedz medicīniskus, juridiskus vai finanšu padomus. Teksti paredzēti, lai dotu virzienu un prieku.",
+        "Svarīgus lēmumus labāk pieņemt kopā ar cilvēkiem, kam uzticaties, un vajadzības gadījumā ar speciālistiem."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Vai Aurenstar horoskops ir bezmaksas?",
+      "a": "Jā, rīkus un rakstus varat izmantot bez maksas."
+    },
+    {
+      "q": "Vai man jāveido konts?",
+      "a": "Nē, lai izmantotu rīkus, reģistrācija nav vajadzīga."
+    },
+    {
+      "q": "Ko es varu darīt Aurenstar?",
+      "a": "Varat uzzināt savu zīmi, izlasīt dienas ziņu, izveidot personīgu aprakstu un lasīt rakstus un astroloģijas vārdnīcu."
+    },
+    {
+      "q": "Vai horoskops pareģo nākotni?",
+      "a": "Nē, teksti paredzēti pārdomām un nesatur pareģojumus."
+    }
+  ],
+  "tags": [
+    "horoskops",
+    "horoskops šodienai"
+  ],
+  "ui": {
+    "faq": "Biežāk uzdotie jautājumi"
+  }
+}

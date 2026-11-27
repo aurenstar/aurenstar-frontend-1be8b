@@ -1,0 +1,58 @@
+{
+  "lang": "ro",
+  "page": "daily-message",
+  "keyword": "horoscop zilnic",
+  "volume": 0,
+  "title": "Horoscop zilnic gratuit: mesajul tău de azi",
+  "description": "Horoscop zilnic pe înțelesul tuturor: alege-ți zodia și citește un mesaj blând, cu un mic sfat pentru ziua ta.",
+  "intro": "Horoscop zilnic de la Aurenstar înseamnă că primești în fiecare zi un mesaj scurt și blând pentru zodia ta. Îți lasă o idee de reflecție și un mic sfat pe care îl poți încerca chiar azi.",
+  "sections": [
+    {
+      "h2": "Horoscop zilnic: cum funcționează",
+      "paragraphs": [
+        "Alegi zodia sus pe pagină și citești mesajul. Conține o propoziție pozitivă care te însoțește toată ziua și un sfat simplu care nu ia mult timp.",
+        "Textele sunt calme și practice, fără promisiuni mari."
+      ]
+    },
+    {
+      "h2": "Un exemplu din viața de zi cu zi",
+      "paragraphs": [
+        "Radu este Berbec și citește că azi poate da în sfârșit telefonul amânat. Își face zece minute și vede că treaba era mai mică decât credea.",
+        "Horoscopul zilnic este o mică îmboldire: tu decizi dacă și cum îl folosești."
+      ]
+    },
+    {
+      "h2": "Cum înțelegi horoscopul zilnic",
+      "paragraphs": [
+        "Mesajul nu este o predicție. Te ajută să reflectezi și îți oferă un moment pentru tine.",
+        "Pentru sănătate, drept sau bani, adresează-te specialiștilor."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Este horoscopul zilnic gratuit?",
+      "a": "Da, poți citi mesajul zilnic fără să plătești."
+    },
+    {
+      "q": "Cât de des se schimbă mesajul?",
+      "a": "Poți citi un mesaj nou pentru zodia ta în fiecare zi."
+    },
+    {
+      "q": "Trebuie să introduc data nașterii?",
+      "a": "Îți alegi zodia. Dacă nu o știi, află-o cu calculatorul Aurenstar."
+    },
+    {
+      "q": "Prezice horoscopul zilnic viitorul?",
+      "a": "Nu, este o invitație la reflecție și nu o predicție."
+    }
+  ],
+  "tags": [
+    "horoscop zilnic",
+    "horoscop zilnic gemeni",
+    "horoscop zilnic leu"
+  ],
+  "ui": {
+    "faq": "Întrebări frecvente"
+  }
+}

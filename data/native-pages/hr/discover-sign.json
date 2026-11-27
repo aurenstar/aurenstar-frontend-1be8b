@@ -1,0 +1,56 @@
+{
+  "lang": "hr",
+  "page": "discover-sign",
+  "keyword": "izračun ascendenta",
+  "volume": 0,
+  "title": "Izračun ascendenta besplatno: saznajte svoj znak",
+  "description": "Izračun ascendenta je jednostavan: unesite datum, vrijeme i mjesto rođenja i besplatno saznajte svoj znak uz jasne i ljubazne savjete.",
+  "intro": "Želite napraviti izračun ascendenta i upoznati svoj znak? U ovom besplatnom alatu unosite datum rođenja i, ako ih znate, vrijeme i grad kako biste vidjeli svoj znak i ascendent.",
+  "sections": [
+    {
+      "h2": "Što je ascendent",
+      "paragraphs": [
+        "Ascendent je znak koji se uzdizao na istočnom horizontu u trenutku vašeg rođenja. Sunčev znak govori o vašoj biti, a ascendent više opisuje dojam koji ostavljate na druge.",
+        "Primjer: Maja je Vaga s ascendentom u Lavu. Diplomatična je, ali je drugi vide kao vrlo samouvjerenu."
+      ]
+    },
+    {
+      "h2": "Kako napraviti izračun ascendenta u alatu",
+      "paragraphs": [
+        "Odaberite dan, mjesec i godinu rođenja, dodajte vrijeme i odaberite svoj grad s popisa. Vrijeme je važno jer se ascendent mijenja otprilike svaka dva sata.",
+        "Ako ne znate vrijeme, alat prikazuje najvjerojatniji znak. Ako već znate svoj znak, možete ga odabrati izravno."
+      ]
+    },
+    {
+      "h2": "Nakon rezultata",
+      "paragraphs": [
+        "Dolazite na stranicu o svom znaku s jednostavnim, ljubaznim savjetima. Čitajte je kao poziv da bolje upoznate sebe.",
+        "Sadržaj je za razmišljanje i zadovoljstvo, bez predviđanja. Za zdravlje, pravo ili novac obratite se stručnjacima."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kako napraviti izračun ascendenta?",
+      "a": "Unesite u alat datum, vrijeme i mjesto rođenja."
+    },
+    {
+      "q": "Moram li znati točno vrijeme?",
+      "a": "Što je vrijeme točnije, to je rezultat pouzdaniji jer se ascendent mijenja otprilike svaka dva sata."
+    },
+    {
+      "q": "Je li alat besplatan?",
+      "a": "Da, možete ga koristiti besplatno i bez računa."
+    },
+    {
+      "q": "Što ako ne znam vrijeme rođenja?",
+      "a": "Alat vam može pokazati najvjerojatniji znak."
+    }
+  ],
+  "tags": [
+    "izračun ascendenta"
+  ],
+  "ui": {
+    "faq": "Često postavljana pitanja"
+  }
+}

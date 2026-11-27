@@ -1,0 +1,57 @@
+{
+  "lang": "hr",
+  "page": "home",
+  "keyword": "horoskop",
+  "volume": 0,
+  "title": "Besplatni horoskop: vaš znak i poruka dana",
+  "description": "Besplatni horoskop jednostavnim riječima: otkrijte svoj znak, pročitajte poruku za dan i pogledajte članke i rječnik astrologije Aurenstar.",
+  "intro": "Na Aurenstaru ćete pronaći horoskop bez složenih pojmova. Možete saznati svoj znak, pročitati kratku poruku za dan i u miru pregledavati članke o astrologiji.",
+  "sections": [
+    {
+      "h2": "Što možete pronaći na Aurenstaru",
+      "paragraphs": [
+        "Besplatni alati nalaze se na vrhu stranice: unesete datum rođenja, vidite svoj znak i dobivate jednostavne, ljubazne savjete. Tu je i poruka dana za vaš znak te osobni opis koji možete podijeliti.",
+        "Ako želite znati više, čitajte članke i pogledajte rječnik da biste razumjeli, na primjer, što je ascendent ili element."
+      ]
+    },
+    {
+      "h2": "Kako koristiti horoskop svaki dan",
+      "paragraphs": [
+        "Primjer: Ana ujutro pročita poruku, zapamti jednu rečenicu, a navečer razmisli je li pristajala njezinu danu. Horoskop ne mora biti ništa više od toga.",
+        "Savjete možete shvatiti i kao poticaj na razmišljanje, na primjer kad odlučujete kako započeti razgovor ili kada napraviti stanku."
+      ]
+    },
+    {
+      "h2": "Astrologija za razmišljanje, a ne za predviđanje",
+      "paragraphs": [
+        "Aurenstar ne obećava rezultate i ne daje medicinske, pravne ni financijske savjete. Tekstovi su namijenjeni usmjeravanju i radosti.",
+        "Važne odluke bolje je donositi s ljudima kojima vjerujete i, po potrebi, sa stručnjacima."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Je li horoskop Aurenstar besplatan?",
+      "a": "Da, alate i članke možete koristiti bez plaćanja."
+    },
+    {
+      "q": "Moram li otvoriti račun?",
+      "a": "Ne, za korištenje alata nije potrebna registracija."
+    },
+    {
+      "q": "Što mogu raditi na Aurenstaru?",
+      "a": "Možete saznati svoj znak, pročitati poruku dana, izraditi osobni opis te čitati članke i rječnik astrologije."
+    },
+    {
+      "q": "Predviđa li horoskop budućnost?",
+      "a": "Ne, tekstovi služe za razmišljanje i ne sadrže predviđanja."
+    }
+  ],
+  "tags": [
+    "horoskop",
+    "horoskop danas"
+  ],
+  "ui": {
+    "faq": "Često postavljana pitanja"
+  }
+}

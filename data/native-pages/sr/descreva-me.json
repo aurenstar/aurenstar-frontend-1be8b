@@ -1,0 +1,56 @@
+{
+  "lang": "sr",
+  "page": "descreva-me",
+  "keyword": "karakteristike znakova zodijaka",
+  "volume": 0,
+  "title": "Karakteristike znakova zodijaka: vaš lični opis",
+  "description": "Otkrijte karakteristike znakova zodijaka koje vam odgovaraju: iz podataka o rođenju napravite lični, zabavni astrološki opis za deljenje.",
+  "intro": "Koje karakteristike znakova zodijaka liče na vas? Uz „Opiši me“ iz podataka o rođenju pravite lični, zabavni astrološki opis koji možete podeliti sa prijateljima.",
+  "sections": [
+    {
+      "h2": "Kako nastaje vaš opis",
+      "paragraphs": [
+        "Na vrhu unesete datum rođenja, izaberete grad sa spiska i dobijete tekst o sebi koji odgovara vašim podacima. Ljubazan je, lagan i napisan za deljenje.",
+        "Cilj je zabava i razmišljanje o sebi, a ne izricanje konačnih presuda."
+      ]
+    },
+    {
+      "h2": "Karakteristike znakova zodijaka u svakodnevici",
+      "paragraphs": [
+        "Primer: Marko čita da voli mir, ali je radoznao prema novim ljudima. Prepozna se i pošalje tekst prijatelju, koji se smejući javi: „To si ti.“",
+        "Takvi opisi mogu pokrenuti razgovor, na primer o tome kako ko doživljava pauze, blizinu ili planove."
+      ]
+    },
+    {
+      "h2": "Šta je dobro zapamtiti",
+      "paragraphs": [
+        "Nijedan tekst ne može reći ko ste zaista. Opis shvatite kao poziv da razmislite o sebi i zadržite ono što vam odgovara.",
+        "Za zdravlje, pravo ili novac obratite se stručnjacima."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Da li je „Opiši me“ besplatno?",
+      "a": "Da, svoj opis možete napraviti bez plaćanja."
+    },
+    {
+      "q": "Šta mi treba?",
+      "a": "Datum i mesto rođenja."
+    },
+    {
+      "q": "Mogu li da podelim opis?",
+      "a": "Da, tekst je napravljen za deljenje sa drugima."
+    },
+    {
+      "q": "Da li su karakteristike znakova zodijaka naučno dokazane?",
+      "a": "Ne, astrologija služi za zabavu i razmišljanje i nije naučni dokaz."
+    }
+  ],
+  "tags": [
+    "karakteristike znakova zodijaka"
+  ],
+  "ui": {
+    "faq": "Često postavljana pitanja"
+  }
+}

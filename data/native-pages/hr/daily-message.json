@@ -1,0 +1,57 @@
+{
+  "lang": "hr",
+  "page": "daily-message",
+  "keyword": "dnevni horoskop",
+  "volume": 0,
+  "title": "Dnevni horoskop besplatno: vaša poruka za danas",
+  "description": "Dnevni horoskop jednostavnim riječima: odaberite svoj znak i pročitajte ljubaznu poruku s malim savjetom za svoj dan.",
+  "intro": "Uz dnevni horoskop Aurenstara svaki dan dobivate kratku, ljubaznu poruku za svoj znak. Ostavlja vam misao za razmišljanje i mali savjet koji možete isprobati već danas.",
+  "sections": [
+    {
+      "h2": "Kako radi dnevni horoskop",
+      "paragraphs": [
+        "Na vrhu stranice odaberete svoj znak i pročitate poruku. Sadrži jednu pozitivnu rečenicu koja vas prati kroz dan i jednostavan savjet koji ne oduzima puno vremena.",
+        "Tekstovi su mirni i praktični, bez velikih obećanja."
+      ]
+    },
+    {
+      "h2": "Primjer iz svakodnevice",
+      "paragraphs": [
+        "Luka je Ovan i čita da danas napokon može obaviti poziv koji je odgađao. Odvoji deset minuta i vidi da je posao bio manji nego što je mislio.",
+        "Dnevni horoskop je nježan poticaj: vi odlučujete hoćete li ga i kako koristiti."
+      ]
+    },
+    {
+      "h2": "Kako razumjeti dnevni horoskop",
+      "paragraphs": [
+        "Poruka nije predviđanje. Pomaže vam da razmislite i daje vam trenutak za sebe.",
+        "Za zdravlje, pravo ili novac obratite se stručnjacima."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Je li dnevni horoskop besplatan?",
+      "a": "Da, poruku dana možete čitati bez plaćanja."
+    },
+    {
+      "q": "Koliko se često poruka mijenja?",
+      "a": "Za svoj znak možete čitati novu poruku svaki dan."
+    },
+    {
+      "q": "Moram li unijeti datum rođenja?",
+      "a": "Odabirete svoj znak. Ako ga ne znate, saznajte ga uz Aurenstarov kalkulator."
+    },
+    {
+      "q": "Predviđa li dnevni horoskop budućnost?",
+      "a": "Ne, to je poziv na razmišljanje, a ne predviđanje."
+    }
+  ],
+  "tags": [
+    "dnevni horoskop",
+    "dnevni horoskop jarac"
+  ],
+  "ui": {
+    "faq": "Često postavljana pitanja"
+  }
+}

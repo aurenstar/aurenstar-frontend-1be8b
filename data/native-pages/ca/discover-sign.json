@@ -1,0 +1,56 @@
+{
+  "lang": "ca",
+  "page": "discover-sign",
+  "keyword": "calcular ascendent",
+  "volume": 0,
+  "title": "Calcular ascendent gratis: descobreix el teu signe",
+  "description": "Calcular ascendent és fàcil: escriu la data, l'hora i el lloc de naixement i descobreix gratis el teu signe amb consells clars i amables.",
+  "intro": "Vols calcular ascendent i conèixer el teu signe? En aquesta eina gratuïta escrius la data de naixement i, si ho saps, l'hora i la ciutat, per veure el teu signe i el teu ascendent.",
+  "sections": [
+    {
+      "h2": "Què és l'ascendent",
+      "paragraphs": [
+        "L'ascendent és el signe que sortia per l'horitzó est en el moment del teu naixement. El signe solar parla de la teva essència, i l'ascendent descriu més la impressió que fas als altres.",
+        "Un exemple: l'Anna és Balança amb ascendent Lleó. És diplomàtica, però els altres la veuen molt segura de si mateixa."
+      ]
+    },
+    {
+      "h2": "Com calcular ascendent a l'eina",
+      "paragraphs": [
+        "Tria el dia, el mes i l'any de naixement, afegeix l'hora i selecciona la ciutat de la llista. L'hora és important perquè l'ascendent canvia aproximadament cada dues hores.",
+        "Si no saps l'hora, l'eina mostra el signe més probable. Si ja coneixes el teu signe, també el pots triar directament."
+      ]
+    },
+    {
+      "h2": "Després del resultat",
+      "paragraphs": [
+        "Arribes a una pàgina sobre el teu signe amb consells senzills i amables. Llegeix-la com una invitació a conèixer-te millor.",
+        "El contingut és per reflexionar i gaudir, sense prediccions. Per a salut, dret o diners, adreça't a professionals."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Com puc calcular ascendent?",
+      "a": "Introdueix a l'eina la data, l'hora i el lloc de naixement."
+    },
+    {
+      "q": "He de saber l'hora exacta?",
+      "a": "Com més exacta sigui l'hora, més fiable serà el resultat, perquè l'ascendent canvia aproximadament cada dues hores."
+    },
+    {
+      "q": "L'eina és gratuïta?",
+      "a": "Sí, pots fer-la servir gratis i sense compte."
+    },
+    {
+      "q": "Què passa si no sé l'hora de naixement?",
+      "a": "L'eina et pot mostrar el signe més probable."
+    }
+  ],
+  "tags": [
+    "calcular ascendent"
+  ],
+  "ui": {
+    "faq": "Preguntes freqüents"
+  }
+}

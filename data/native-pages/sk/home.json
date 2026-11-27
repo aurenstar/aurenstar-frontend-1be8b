@@ -1,0 +1,58 @@
+{
+  "lang": "sk",
+  "page": "home",
+  "keyword": "horoskop",
+  "volume": 0,
+  "title": "Horoskop zadarmo: vaše znamenie a správa na dnes",
+  "description": "Horoskop zadarmo jednoduchými slovami: zistite svoje znamenie, prečítajte si správu na deň a pozrite si články a slovník astrológie Aurenstar.",
+  "intro": "Na Aurenstar nájdete horoskop bez zložitých slov. Môžete zistiť svoje znamenie, prečítať si krátku správu na deň a pokojne si prezerať články o astrológii.",
+  "sections": [
+    {
+      "h2": "Čo nájdete na Aurenstar",
+      "paragraphs": [
+        "Bezplatné nástroje sú hore na stránke: zadáte dátum narodenia, uvidíte svoje znamenie a dostanete jednoduché, láskavé rady. Je tu aj denná správa pre vaše znamenie a osobný popis, ktorý môžete zdieľať.",
+        "Ak chcete vedieť viac, čítajte články a nahliadnite do slovníka, aby ste pochopili napríklad, čo je ascendent alebo živel."
+      ]
+    },
+    {
+      "h2": "Ako používať horoskop každý deň",
+      "paragraphs": [
+        "Príklad: Lucia si ráno prečíta správu, zapamätá si jednu vetu a večer sa zamyslí, či sa hodila k jej dňu. Horoskop nemusí byť nič viac.",
+        "Rady môžete brať aj ako podnet na zamyslenie, napríklad keď sa rozhodujete, ako začať rozhovor alebo kedy si dať prestávku."
+      ]
+    },
+    {
+      "h2": "Astrológia na zamyslenie, nie na predpovedanie",
+      "paragraphs": [
+        "Aurenstar nič neslúbi a neposkytuje lekárske, právne ani finančné rady. Texty majú dať smer a radosť.",
+        "Dôležité rozhodnutia je lepšie robiť s ľuďmi, ktorým dôverujete, a podľa potreby s odborníkmi."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Je horoskop Aurenstar zadarmo?",
+      "a": "Áno, nástroje aj články môžete používať bez platenia."
+    },
+    {
+      "q": "Musím si vytvoriť účet?",
+      "a": "Nie, na používanie nástrojov nie je potrebná registrácia."
+    },
+    {
+      "q": "Čo môžem robiť na Aurenstar?",
+      "a": "Môžete zistiť svoje znamenie, prečítať si dennú správu, vytvoriť osobný popis a čítať články a slovník astrológie."
+    },
+    {
+      "q": "Predpovedá horoskop budúcnosť?",
+      "a": "Nie, texty slúžia na zamyslenie a neobsahujú predpovede."
+    }
+  ],
+  "tags": [
+    "horoskop",
+    "horoskop na dnes",
+    "horoskop na zajtra"
+  ],
+  "ui": {
+    "faq": "Často kladené otázky"
+  }
+}

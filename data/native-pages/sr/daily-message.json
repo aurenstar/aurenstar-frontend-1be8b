@@ -1,0 +1,56 @@
+{
+  "lang": "sr",
+  "page": "daily-message",
+  "keyword": "dnevni horoskop",
+  "volume": 0,
+  "title": "Dnevni horoskop besplatno: vaša poruka za danas",
+  "description": "Dnevni horoskop jednostavnim rečima: izaberite svoj znak i pročitajte ljubaznu poruku sa malim savetom za svoj dan.",
+  "intro": "Uz dnevni horoskop Aurenstara svaki dan dobijate kratku, ljubaznu poruku za svoj znak. Ostavlja vam misao za razmišljanje i mali savet koji možete isprobati već danas.",
+  "sections": [
+    {
+      "h2": "Kako radi dnevni horoskop",
+      "paragraphs": [
+        "Na vrhu stranice izaberete svoj znak i pročitate poruku. Sadrži jednu pozitivnu rečenicu koja vas prati kroz dan i jednostavan savet koji ne oduzima mnogo vremena.",
+        "Tekstovi su mirni i praktični, bez velikih obećanja."
+      ]
+    },
+    {
+      "h2": "Primer iz svakodnevice",
+      "paragraphs": [
+        "Luka je Ovan i čita da danas konačno može da obavi poziv koji je odlagao. Odvoji deset minuta i vidi da je posao bio manji nego što je mislio.",
+        "Dnevni horoskop je nežan podsticaj: vi odlučujete da li ćete ga i kako koristiti."
+      ]
+    },
+    {
+      "h2": "Kako razumeti dnevni horoskop",
+      "paragraphs": [
+        "Poruka nije predviđanje. Pomaže vam da razmislite i daje vam trenutak za sebe.",
+        "Za zdravlje, pravo ili novac obratite se stručnjacima."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Da li je dnevni horoskop besplatan?",
+      "a": "Da, poruku dana možete čitati bez plaćanja."
+    },
+    {
+      "q": "Koliko često se poruka menja?",
+      "a": "Za svoj znak možete čitati novu poruku svaki dan."
+    },
+    {
+      "q": "Moram li da unesem datum rođenja?",
+      "a": "Birate svoj znak. Ako ga ne znate, saznajte ga uz Aurenstarov kalkulator."
+    },
+    {
+      "q": "Da li dnevni horoskop predviđa budućnost?",
+      "a": "Ne, to je poziv na razmišljanje, a ne predviđanje."
+    }
+  ],
+  "tags": [
+    "dnevni horoskop"
+  ],
+  "ui": {
+    "faq": "Često postavljana pitanja"
+  }
+}

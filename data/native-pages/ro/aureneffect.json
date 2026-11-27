@@ -1,0 +1,58 @@
+{
+  "lang": "ro",
+  "page": "aureneffect",
+  "keyword": "horoscop personalizat",
+  "volume": 0,
+  "title": "Horoscop personalizat gratuit: Auren Effect",
+  "description": "Horoscop personalizat după nume, dată și loc de naștere: înțelege cum te poți simți azi și primește sfaturi simple și practice.",
+  "intro": "Auren Effect este un horoscop personalizat pentru reflecție. Introduci numele și datele nașterii și afli cum te-ai putea simți azi, cu sfaturi simple pentru ziua ta.",
+  "sections": [
+    {
+      "h2": "Ce îți arată un horoscop personalizat",
+      "paragraphs": [
+        "Spre deosebire de un horoscop zilnic general, Auren Effect folosește datele tale: nume, dată și loc de naștere. De aceea textul pare mai apropiat de tine.",
+        "Nu primești o predicție, ci o descriere calmă a stării tale și idei practice."
+      ]
+    },
+    {
+      "h2": "Cum completezi formularul",
+      "paragraphs": [
+        "Scrie-ți numele sus, alege data nașterii și caută-ți orașul în listă. Apoi calculează-ți Auren Effect.",
+        "Un exemplu: Maria introduce datele, citește sugestia de a face timp pentru o discuție liniștită și își planifică seara o pauză scurtă fără telefon."
+      ]
+    },
+    {
+      "h2": "La ce folosește rezultatul",
+      "paragraphs": [
+        "Privește rezultatul ca pe o ocazie de a te asculta. Dacă un sfat ți se potrivește, încearcă-l; dacă nu, lasă-l.",
+        "Pentru sănătate, drept sau bani, este mai bine să te adresezi specialiștilor."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Este horoscopul personalizat gratuit?",
+      "a": "Da, îți poți calcula Auren Effect fără să plătești."
+    },
+    {
+      "q": "De ce date am nevoie?",
+      "a": "Ai nevoie de nume, data nașterii și locul nașterii."
+    },
+    {
+      "q": "Cu ce diferă de horoscopul zilnic?",
+      "a": "Folosește datele tale personale, nu doar zodia."
+    },
+    {
+      "q": "Prezice Auren Effect viitorul?",
+      "a": "Nu, oferă idei de reflecție și nu predicții."
+    }
+  ],
+  "tags": [
+    "horoscop personalizat",
+    "horoscop personalizat gratuit",
+    "horoscop personalizat zilnic"
+  ],
+  "ui": {
+    "faq": "Întrebări frecvente"
+  }
+}

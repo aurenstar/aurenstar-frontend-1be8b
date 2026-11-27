@@ -1,0 +1,58 @@
+{
+  "lang": "cs",
+  "page": "aureneffect",
+  "keyword": "osobní horoskop",
+  "volume": 0,
+  "title": "Osobní horoskop zdarma: Auren Effect",
+  "description": "Osobní horoskop podle jména, data a místa narození: pochopte, jak se dnes můžete cítit, a získejte jednoduché praktické rady.",
+  "intro": "Auren Effect je váš osobní horoskop k zamyšlení. Zadáte jméno a údaje o narození a zjistíte, jak se dnes můžete cítit, s jednoduchými radami na den.",
+  "sections": [
+    {
+      "h2": "Co ukazuje váš osobní horoskop",
+      "paragraphs": [
+        "Na rozdíl od obecného denního horoskopu používá Auren Effect vaše vlastní údaje: jméno, datum a místo narození. Proto text působí blíž vám.",
+        "Nedostanete předpověď, ale klidný popis nálady a praktické nápady."
+      ]
+    },
+    {
+      "h2": "Jak vyplnit formulář",
+      "paragraphs": [
+        "Nahoře napište své jméno, vyberte datum narození a najděte své město v seznamu. Poté spočítejte svůj Auren Effect.",
+        "Příklad: Lucie zadá údaje, přečte si radu vyhradit čas na klidný rozhovor a večer si naplánuje krátkou pauzu bez telefonu."
+      ]
+    },
+    {
+      "h2": "K čemu výsledek slouží",
+      "paragraphs": [
+        "Berte výsledek jako příležitost naslouchat sobě. Pokud vám rada sedí, vyzkoušejte ji; pokud ne, nechte ji být.",
+        "Se zdravím, právem a penězi je nejlepší obrátit se na odborníky."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Je osobní horoskop zdarma?",
+      "a": "Ano, svůj Auren Effect můžete spočítat bez placení."
+    },
+    {
+      "q": "Jaké údaje potřebuji?",
+      "a": "Potřebujete jméno, datum a místo narození."
+    },
+    {
+      "q": "Čím se liší od denního horoskopu?",
+      "a": "Používá vaše osobní údaje, nejen znamení."
+    },
+    {
+      "q": "Předpovídá Auren Effect budoucnost?",
+      "a": "Ne, nabízí nápady k zamyšlení, nikoli předpovědi."
+    }
+  ],
+  "tags": [
+    "osobní horoskop",
+    "osobní horoskop zdarma",
+    "osobní horoskop podle data narození"
+  ],
+  "ui": {
+    "faq": "Často kladené otázky"
+  }
+}

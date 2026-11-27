@@ -1,0 +1,59 @@
+{
+  "lang": "cs",
+  "page": "discover-sign",
+  "keyword": "výpočet ascendentu",
+  "volume": 0,
+  "title": "Výpočet ascendentu zdarma: zjistěte své znamení",
+  "description": "Výpočet ascendentu je jednoduchý: zadejte datum, čas a místo narození a zdarma zjistěte své znamení s jasnými a laskavými radami.",
+  "intro": "Chcete provést výpočet ascendentu a poznat své znamení? V tomto bezplatném nástroji zadáte datum narození a, pokud znáte, čas a město, abyste viděli své znamení a ascendent.",
+  "sections": [
+    {
+      "h2": "Co je ascendent",
+      "paragraphs": [
+        "Ascendent je znamení, které vycházelo na východním obzoru v okamžiku vašeho narození. Sluneční znamení vypovídá o vaší podstatě, ascendent spíše popisuje dojem, který děláte na ostatní.",
+        "Příklad: Tereza je Váhy s ascendentem ve Lvu. Je diplomatická, ale ostatní ji vnímají jako velmi sebevědomou."
+      ]
+    },
+    {
+      "h2": "Jak provést výpočet ascendentu v nástroji",
+      "paragraphs": [
+        "Vyberte den, měsíc a rok narození, přidejte čas a vyberte své město ze seznamu. Čas je důležitý, protože se ascendent mění zhruba každé dvě hodiny.",
+        "Pokud čas neznáte, nástroj ukáže nejpravděpodobnější znamení. Pokud už své znamení znáte, můžete ho zvolit rovnou."
+      ]
+    },
+    {
+      "h2": "Po výsledku",
+      "paragraphs": [
+        "Dostanete se na stránku o svém znamení s jednoduchými, laskavými radami. Čtěte ji jako pozvání k lepšímu poznání sebe sama.",
+        "Obsah slouží k zamyšlení a potěšení, bez předpovědí. Se zdravím, právem a penězi se obraťte na odborníky."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak provést výpočet ascendentu?",
+      "a": "Zadejte do nástroje datum, čas a místo narození."
+    },
+    {
+      "q": "Musím znát přesný čas?",
+      "a": "Čím přesnější čas, tím spolehlivější výsledek, protože se ascendent mění zhruba každé dvě hodiny."
+    },
+    {
+      "q": "Je nástroj zdarma?",
+      "a": "Ano, můžete ho používat zdarma a bez účtu."
+    },
+    {
+      "q": "Co když neznám čas narození?",
+      "a": "Nástroj vám může ukázat nejpravděpodobnější znamení."
+    }
+  ],
+  "tags": [
+    "výpočet ascendentu",
+    "výpočet ascendentu online",
+    "výpočet ascendentu kalkulačka",
+    "výpočet ascendentu znamení"
+  ],
+  "ui": {
+    "faq": "Často kladené otázky"
+  }
+}

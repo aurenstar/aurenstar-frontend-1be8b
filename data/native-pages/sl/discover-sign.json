@@ -1,0 +1,56 @@
+{
+  "lang": "sl",
+  "page": "discover-sign",
+  "keyword": "izračun ascendenta",
+  "volume": 0,
+  "title": "Izračun ascendenta brezplačno: izvedite svoje znamenje",
+  "description": "Izračun ascendenta je preprost: vnesite datum, uro in kraj rojstva ter brezplačno izvedite svoje znamenje z jasnimi in prijaznimi nasveti.",
+  "intro": "Želite narediti izračun ascendenta in spoznati svoje znamenje? V tem brezplačnem orodju vnesete datum rojstva in, če ju poznate, uro in mesto, da vidite svoje znamenje in ascendent.",
+  "sections": [
+    {
+      "h2": "Kaj je ascendent",
+      "paragraphs": [
+        "Ascendent je znamenje, ki se je ob vašem rojstvu dvigalo na vzhodnem obzorju. Sončno znamenje govori o vaši bistvu, ascendent pa bolj opisuje vtis, ki ga naredite na druge.",
+        "Primer: Maja je Tehtnica z ascendentom v Levu. Je diplomatska, a drugi jo vidijo kot zelo samozavestno."
+      ]
+    },
+    {
+      "h2": "Kako narediti izračun ascendenta v orodju",
+      "paragraphs": [
+        "Izberite dan, mesec in leto rojstva, dodajte uro in izberite svoje mesto s seznama. Ura je pomembna, ker se ascendent spreminja približno vsaki dve uri.",
+        "Če ure ne poznate, orodje pokaže najverjetnejše znamenje. Če svoje znamenje že poznate, ga lahko izberete neposredno."
+      ]
+    },
+    {
+      "h2": "Po rezultatu",
+      "paragraphs": [
+        "Pridete na stran o svojem znamenju s preprostimi, prijaznimi nasveti. Berite jo kot povabilo, da bolje spoznate sebe.",
+        "Vsebina je namenjena razmisleku in užitku, brez napovedi. Za zdravje, pravo ali denar se obrnite na strokovnjake."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kako narediti izračun ascendenta?",
+      "a": "V orodje vnesite datum, uro in kraj rojstva."
+    },
+    {
+      "q": "Ali moram poznati natančno uro?",
+      "a": "Čim natančnejša je ura, tem zanesljivejši je rezultat, ker se ascendent spreminja približno vsaki dve uri."
+    },
+    {
+      "q": "Je orodje brezplačno?",
+      "a": "Da, uporabljate ga lahko brezplačno in brez računa."
+    },
+    {
+      "q": "Kaj, če ne poznam ure rojstva?",
+      "a": "Orodje vam lahko pokaže najverjetnejše znamenje."
+    }
+  ],
+  "tags": [
+    "izračun ascendenta"
+  ],
+  "ui": {
+    "faq": "Pogosta vprašanja"
+  }
+}

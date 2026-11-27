@@ -1,0 +1,56 @@
+{
+  "lang": "sl",
+  "page": "descreva-me",
+  "keyword": "lastnosti znamenj zodiaka",
+  "volume": 0,
+  "title": "Lastnosti znamenj zodiaka: vaš osebni opis",
+  "description": "Odkrijte lastnosti znamenj zodiaka, ki vam ustrezajo: iz podatkov o rojstvu ustvarite oseben, zabaven astrološki opis za deljenje.",
+  "intro": "Katere lastnosti znamenj zodiaka so podobne vam? Z „Opiši me“ iz podatkov o rojstvu ustvarite oseben, zabaven astrološki opis, ki ga lahko delite s prijatelji.",
+  "sections": [
+    {
+      "h2": "Kako nastane vaš opis",
+      "paragraphs": [
+        "Na vrhu vnesete datum rojstva, izberete mesto s seznama in prejmete besedilo o sebi, ki ustreza vašim podatkom. Je prijazno, lahkotno in napisano za deljenje.",
+        "Cilj je zabava in razmislek o sebi, ne izrekanje dokončnih sodb."
+      ]
+    },
+    {
+      "h2": "Lastnosti znamenj zodiaka v vsakdanjem življenju",
+      "paragraphs": [
+        "Primer: Marko prebere, da ljubi mir, a ga zanimajo novi ljudje. Prepozna se in pošlje besedilo prijatelju, ki se smeje odzove: „To si ti.“",
+        "Taki opisi lahko sprožijo pogovor, na primer o tem, kako kdo doživlja odmore, bližino ali načrte."
+      ]
+    },
+    {
+      "h2": "Kaj je dobro vedeti",
+      "paragraphs": [
+        "Nobeno besedilo ne more povedati, kdo ste v resnici. Opis vzemite kot povabilo, da pomislite nase, in obdržite, kar vam ustreza.",
+        "Za zdravje, pravo ali denar se obrnite na strokovnjake."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Je „Opiši me“ brezplačno?",
+      "a": "Da, svoj opis lahko ustvarite brez plačila."
+    },
+    {
+      "q": "Kaj potrebujem?",
+      "a": "Datum in kraj rojstva."
+    },
+    {
+      "q": "Ali lahko opis delim?",
+      "a": "Da, besedilo je narejeno za deljenje z drugimi."
+    },
+    {
+      "q": "So lastnosti znamenj zodiaka znanstveno dokazane?",
+      "a": "Ne, astrologija je namenjena zabavi in razmisleku in ni znanstveni dokaz."
+    }
+  ],
+  "tags": [
+    "lastnosti znamenj zodiaka"
+  ],
+  "ui": {
+    "faq": "Pogosta vprašanja"
+  }
+}

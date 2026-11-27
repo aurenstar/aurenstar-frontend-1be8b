@@ -1,0 +1,56 @@
+{
+  "lang": "ro",
+  "page": "descreva-me",
+  "keyword": "caracteristicile zodiilor",
+  "volume": 0,
+  "title": "Caracteristicile zodiilor: descrierea ta personală",
+  "description": "Descoperă caracteristicile zodiilor care ți se potrivesc: cu datele nașterii creează o descriere astrologică personală și amuzantă de distribuit.",
+  "intro": "Care dintre caracteristicile zodiilor îți seamănă? Cu „Descrie-mă” creezi, din datele nașterii, o descriere astrologică personală și amuzantă pe care o poți distribui prietenilor.",
+  "sections": [
+    {
+      "h2": "Cum se creează descrierea ta",
+      "paragraphs": [
+        "Introduci sus data nașterii, alegi orașul din listă și primești un text despre tine care se potrivește datelor tale. Este blând, ușor și făcut pentru a fi distribuit.",
+        "Scopul este distracția și reflecția asupra ta, nu verdicte definitive."
+      ]
+    },
+    {
+      "h2": "Caracteristicile zodiilor în viața de zi cu zi",
+      "paragraphs": [
+        "Un exemplu: Vlad citește că iubește liniștea, dar e curios să cunoască oameni noi. Se recunoaște și trimite textul unui prieten, care răspunde râzând: „Ești tu întocmai”.",
+        "Astfel de descrieri pot porni o conversație, de pildă despre cum își trăiește fiecare pauzele, apropierea sau planurile."
+      ]
+    },
+    {
+      "h2": "Ce merită ținut minte",
+      "paragraphs": [
+        "Niciun text nu poate spune cine ești cu adevărat. Privește descrierea ca pe o invitație de a te gândi la tine și păstrează ce ți se potrivește.",
+        "Pentru sănătate, drept sau bani, adresează-te specialiștilor."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Este „Descrie-mă” gratuit?",
+      "a": "Da, îți poți crea descrierea fără să plătești."
+    },
+    {
+      "q": "De ce am nevoie?",
+      "a": "De data și locul nașterii."
+    },
+    {
+      "q": "Pot distribui descrierea?",
+      "a": "Da, textul este făcut pentru a fi distribuit altora."
+    },
+    {
+      "q": "Sunt caracteristicile zodiilor dovedite științific?",
+      "a": "Nu, astrologia este pentru distracție și reflecție și nu e dovadă științifică."
+    }
+  ],
+  "tags": [
+    "caracteristicile zodiilor"
+  ],
+  "ui": {
+    "faq": "Întrebări frecvente"
+  }
+}

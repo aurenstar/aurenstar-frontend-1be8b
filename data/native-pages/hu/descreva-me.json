@@ -1,0 +1,56 @@
+{
+  "lang": "hu",
+  "page": "descreva-me",
+  "keyword": "csillagjegyek jellemzői",
+  "volume": 0,
+  "title": "Csillagjegyek jellemzői: a személyes leírásod",
+  "description": "Fedezd fel a rád illő csillagjegyek jellemzőit: a születési adataidból készíts személyes, szórakoztató asztrológiai leírást, amit megoszthatsz.",
+  "intro": "Melyek a csillagjegyek jellemzői közül hasonlítanak rád? A „Írj le engem” segítségével a születési adataidból személyes, szórakoztató asztrológiai leírást készítesz, amit megoszthatsz a barátaiddal.",
+  "sections": [
+    {
+      "h2": "Hogyan készül a leírásod",
+      "paragraphs": [
+        "Felül megadod a születési dátumot, kiválasztod a várost a listából, és kapsz egy rólad szóló szöveget, amely illik az adataidhoz. Kedves, könnyed, és megosztásra készült.",
+        "A cél a szórakozás és az önmagunkon való gondolkodás, nem a végleges ítéletek."
+      ]
+    },
+    {
+      "h2": "A csillagjegyek jellemzői a mindennapokban",
+      "paragraphs": [
+        "Példa: Gábor azt olvassa, hogy szereti a nyugalmat, de kíváncsi új emberekre. Magára ismer, és elküldi a szöveget egy barátjának, aki nevetve válaszol: „Pont te vagy.”",
+        "Az ilyen leírások beszélgetést indíthatnak, például arról, ki hogyan éli meg a szüneteket, a közelséget vagy a terveket."
+      ]
+    },
+    {
+      "h2": "Mit érdemes észben tartani",
+      "paragraphs": [
+        "Semmilyen szöveg nem mondhatja meg, ki vagy valójában. Tekintsd a leírást meghívásnak, hogy gondolkodj magadról, és tartsd meg, ami rád illik.",
+        "Egészségügyi, jogi vagy pénzügyi kérdésekben fordulj szakemberhez."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ingyenes az „Írj le engem”?",
+      "a": "Igen, a leírásodat fizetés nélkül elkészítheted."
+    },
+    {
+      "q": "Mire van szükségem?",
+      "a": "A születési dátumodra és helyedre."
+    },
+    {
+      "q": "Megoszthatom a leírást?",
+      "a": "Igen, a szöveg arra készült, hogy másokkal megosszák."
+    },
+    {
+      "q": "Tudományosan bizonyítottak a csillagjegyek jellemzői?",
+      "a": "Nem, az asztrológia szórakozásra és gondolkodásra való, és nem tudományos bizonyíték."
+    }
+  ],
+  "tags": [
+    "csillagjegyek jellemzői"
+  ],
+  "ui": {
+    "faq": "Gyakori kérdések"
+  }
+}
