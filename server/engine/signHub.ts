@@ -86,7 +86,7 @@ footer{max-width:880px;margin:0 auto;padding:10px 20px 40px;display:flex;gap:18p
 const clip = (s: string, max = 155) => (s.length <= max ? s : `${s.slice(0, max - 1).replace(/[\s,;:.-]+\S*$/, '')}…`);
 
 /** Native sign page for any other language (data/sign-native/<lang>/): everything is written in that language. */
-export interface NativeUi { home: string; read: string; dict: string; contact: string; tools: string; articles: string; faq: string; articlesAbout: string; cta: string; facts: string; period: string; element: string; advice: string; title: string; desc: string; qDates: string; qElement: string; qPersonality: string; qTip: string; aDates: string; aElement: string }
+export interface NativeUi { home: string; read: string; dict: string; contact: string; tools: string; articles: string; faq: string; articlesAbout: string; cta: string; facts: string; period: string; element: string; advice: string; title: string; desc: string; qDates: string; qElement: string; qPersonality: string; qTip: string; aDates: string; aElement: string; blog?: string; news?: string }
 export interface NativeSign { name: string; slug: string; period: string; element: string; essence: string; advice: string; sections: { h: string; p: string }[] }
 export interface HubOverride { ui: NativeUi; sign: NativeSign; alt: { lang: string; path: string }[] }
 const RTL = new Set(['ar', 'he', 'fa', 'ur', 'dv']);
@@ -147,7 +147,7 @@ ${alt}
 <style>${HUB_CSS}</style>
 </head>
 <body>
-<header class="top"><a href="${base || '/'}"><img src="/logo-aurenstar.webp" alt="Aurenstar" /></a><a class="p" href="${base || '/'}">${esc(t.home)}</a><a class="p" href="${lang === 'en' ? '/dictionary' : lang === 'pt' || lang === 'es' ? base + '/dicionario' : base + '/dictionary'}">${esc(t.dict)}</a><a class="p" href="${base}/blog">Blog</a><a class="p" href="${base}/newsletter">Newsletter</a><a class="p" href="${base || ''}/#faq">FAQ</a><a class="p" href="${base}/contact">${esc(t.contact)}</a></header>
+<header class="top"><a href="${base || '/'}"><img src="/logo-aurenstar.webp" alt="Aurenstar" /></a><a class="p" href="${base || '/'}">${esc(t.home)}</a><a class="p" href="${lang === 'en' ? '/dictionary' : lang === 'pt' || lang === 'es' ? base + '/dicionario' : base + '/dictionary'}">${esc(t.dict)}</a><a class="p" href="${base}/blog">${esc(nu?.blog ?? 'Blog')}</a><a class="p" href="${base}/newsletter">${esc(nu?.news ?? 'Newsletter')}</a><a class="p" href="${base || ''}/#faq">FAQ</a><a class="p" href="${base}/contact">${esc(t.contact)}</a></header>
 <main>
 <section class="card hero"><div class="sym">${esc(sign.symbol)}&#xFE0E;</div><h1>${esc(n)}<em>${esc(title.startsWith(n) ? title.slice(n.length).replace(/^[:\uFF1A\s]+/, '') : title)}</em></h1><p class="lead">${esc(essence)}</p><div class="chips"><span class="k">${esc(p)}</span><span>${esc(e)}</span></div></section>
 ${sections.map((x) => `<section class="card"><h2>${esc(x.h)}</h2>\n<p>${esc(x.p)}</p></section>`).join('\n')}
