@@ -15,14 +15,14 @@ const esc = (v: string) => v.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 
 
 const T: Record<HubLang, {
-  home: string; dict: string; contact: string; tools: string; articles: string; faq: string; articlesAbout: (n: string) => string; cta: string; facts: string;
+  home: string; read: string; dict: string; contact: string; tools: string; articles: string; faq: string; articlesAbout: (n: string) => string; cta: string; facts: string;
   title: (n: string) => string; desc: (n: string, p: string, e: string) => string;
   period: string; element: string; advice: string;
   q: { dates: (n: string) => string; element: (n: string) => string; personality: (n: string) => string; tip: (n: string) => string };
   a: { dates: (n: string, p: string) => string; element: (n: string, e: string) => string };
 }> = {
   en: {
-    home: 'Home', dict: 'Dictionary', contact: 'Contact', tools: 'Free tools', articles: 'Articles', faq: 'Common questions', articlesAbout: (n) => `Articles about ${n}`, cta: 'Discover your sign', facts: 'Quick facts',
+    home: 'Home', read: 'Read article', dict: 'Dictionary', contact: 'Contact', tools: 'Free tools', articles: 'Articles', faq: 'Common questions', articlesAbout: (n) => `Articles about ${n}`, cta: 'Discover your sign', facts: 'Quick facts',
     title: (n) => `${n}: Personality, Traits and Everything About the Sign`,
     desc: (n, p, e) => `${n} (${p}): ${e.toLowerCase()} sign. Personality, strengths and articles to understand ${n} in simple language.`,
     period: 'Dates', element: 'Element', advice: 'A simple tip',
@@ -30,7 +30,7 @@ const T: Record<HubLang, {
     a: { dates: (n, p) => `${n} covers ${p}.`, element: (n, e) => `${n} is a ${e.toLowerCase()} sign.` },
   },
   pt: {
-    home: 'Início', dict: 'Dicionário', contact: 'Contato', tools: 'Ferramentas grátis', articles: 'Artigos', faq: 'Perguntas frequentes', articlesAbout: (n) => `Artigos sobre ${n}`, cta: 'Descubra o seu signo', facts: 'Em resumo',
+    home: 'Início', read: 'Ler artigo', dict: 'Dicionário', contact: 'Contato', tools: 'Ferramentas grátis', articles: 'Artigos', faq: 'Perguntas frequentes', articlesAbout: (n) => `Artigos sobre ${n}`, cta: 'Descubra o seu signo', facts: 'Em resumo',
     title: (n) => `${n}: personalidade, características e tudo sobre o signo`,
     desc: (n, p, e) => `${n} (${p}): signo de ${e.toLowerCase()}. Personalidade, pontos fortes e artigos para entender ${n} de forma simples.`,
     period: 'Datas', element: 'Elemento', advice: 'Uma dica simples',
@@ -38,7 +38,7 @@ const T: Record<HubLang, {
     a: { dates: (n, p) => `${n} vai de ${p}.`, element: (n, e) => `${n} é um signo de ${e.toLowerCase()}.` },
   },
   es: {
-    home: 'Inicio', dict: 'Diccionario', contact: 'Contacto', tools: 'Herramientas gratis', articles: 'Artículos', faq: 'Preguntas frecuentes', articlesAbout: (n) => `Artículos sobre ${n}`, cta: 'Descubre tu signo', facts: 'En resumen',
+    home: 'Inicio', read: 'Leer artículo', dict: 'Diccionario', contact: 'Contacto', tools: 'Herramientas gratis', articles: 'Artículos', faq: 'Preguntas frecuentes', articlesAbout: (n) => `Artículos sobre ${n}`, cta: 'Descubre tu signo', facts: 'En resumen',
     title: (n) => `${n}: personalidad, rasgos y todo sobre el signo`,
     desc: (n, p, e) => `${n} (${p}): signo de ${e.toLowerCase()}. Personalidad, puntos fuertes y artículos para entender ${n} de forma sencilla.`,
     period: 'Fechas', element: 'Elemento', advice: 'Un consejo sencillo',
@@ -65,11 +65,18 @@ h1 em{display:block;font-style:normal;color:#E73578;font-size:.62em;line-height:
 h2{font-size:1rem;margin:0 0 1.1em;color:#172B4D;font-weight:800;letter-spacing:.2em;text-transform:uppercase}
 h2::after{content:"";display:block;width:48px;height:4px;border-radius:4px;background:#3982C8;margin-top:10px}
 p{margin:.3em 0;color:#172B4D}.card.pk p{color:#172B4D}a{color:#3982C8;text-decoration:none}a:hover{color:#E73578}
-ul.l{list-style:none;padding:0;margin:.2em 0}ul.l li{padding:12px 0;border-top:1px solid #D9E8F8}ul.l li:first-child{border-top:0}ul.l li a{color:#3982C8;font-weight:600;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:4px}ul.l li a::after{content:" \\2192";color:#E73578;text-decoration:none;display:inline-block}ul.l li a:hover{color:#E73578}
+ul.l{list-style:none;padding:0;margin:.2em 0;display:grid;grid-template-columns:repeat(2,1fr);gap:14px}ul.l li{margin:0;padding:0;border:0}
+a.ac{display:flex;gap:14px;align-items:flex-start;height:100%;background:#fff;border:1px solid #D9E8F8;border-radius:20px;padding:16px 18px;text-decoration:none!important;box-shadow:0 4px 14px rgba(23,54,111,.06);transition:transform .2s,box-shadow .2s,border-color .2s}
+a.ac:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(23,54,111,.14);border-color:#F7B5D2}
+a.ac .ic{flex:none;width:44px;height:44px;border-radius:14px;background:#FBE1EB;color:#E73578;display:flex;align-items:center;justify-content:center;font:400 1.5rem/1 "Segoe UI Symbol","Noto Sans Symbols",sans-serif}
+a.ac .tx{display:block;min-width:0}a.ac b{display:block;color:#172B4D;font-weight:700;font-size:.98rem;line-height:1.35}
+a.ac .rd{display:inline-block;margin-top:8px;color:#E73578;font-weight:700;font-size:.82rem;letter-spacing:.05em;text-transform:uppercase}
+a.ac:hover b{color:#3982C8}
 .cta{display:inline-block;margin:6px 0 24px;padding:.95em 2.2em;background:#E73578;color:#fff!important;border-radius:999px;text-decoration:none!important;font-weight:700;letter-spacing:.04em;box-shadow:0 10px 24px rgba(231,53,120,.30)}
 .ctaw{text-align:center}
 details{border-top:1px solid #D9E8F8;padding:.8em 0}details:first-of-type{border-top:0}summary{cursor:pointer;font-weight:600;color:#172B4D}summary::marker{color:#E73578}details p{color:#647DA5}
 footer{max-width:880px;margin:0 auto;padding:10px 20px 40px;display:flex;gap:18px;flex-wrap:wrap;justify-content:center;font-size:.9rem}footer a{color:#647DA5}
+@media(max-width:700px){ul.l{grid-template-columns:1fr}}
 @media(max-width:560px){.card{padding:22px 20px;border-radius:20px}h1{font-size:1.9rem}.top a.p{padding:8px 13px;font-size:.75rem}}`;
 
 const clip = (s: string, max = 155) => (s.length <= max ? s : `${s.slice(0, max - 1).replace(/[\s,;:.-]+\S*$/, '')}…`);
@@ -121,7 +128,7 @@ ${alt}
 ${sections.map((x) => `<section class="card"><h2>${esc(x.h)}</h2>\n<p>${esc(x.p)}</p></section>`).join('\n')}
 <section class="card pk"><h2>${esc(t.advice)}</h2>
 <p>${esc(sign.advice[lang])}</p></section>
-${articles.length ? `<section class="card"><h2>${esc(t.articlesAbout(n))}</h2>\n<ul class="l">${articles.map((a) => `<li><a href="${esc(a.href)}">${esc(a.title)}</a></li>`).join('\n')}</ul></section>` : ''}
+${articles.length ? `<section class="card"><h2>${esc(t.articlesAbout(n))}</h2>\n<ul class="l">${articles.map((a) => `<li><a class="ac" href="${esc(a.href)}"><span class="ic">${esc(sign.symbol)}&#xFE0E;</span><span class="tx"><b>${esc(a.title)}</b><span class="rd">${esc(t.read)} &rarr;</span></span></a></li>`).join('\n')}</ul></section>` : ''}
 <div class="ctaw"><a class="cta" href="${base}/discover-sign">${esc(t.cta)}</a></div>
 <section class="card"><h2>${esc(t.faq)}</h2>
 ${faq.map((f) => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('\n')}</section>
