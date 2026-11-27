@@ -1,0 +1,62 @@
+{
+ "lang": "pt",
+ "keyword": "casas astrológicas",
+ "volume": 920,
+ "slug": "casas-astrologicas",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Casas Astrológicas: O que são e para que servem",
+ "description": "Entenda de forma simples o que são casas astrológicas e como elas influenciam a interpretação do seu mapa natal e da sua vida.",
+ "intro": "Casas astrológicas são divisões do céu em 12 partes que mostram diferentes áreas da vida da pessoa. Elas ajudam a entender onde as energias dos planetas se manifestam no seu mapa astral.",
+ "sections": [
+  {
+   "h2": "O que são casas astrológicas?",
+   "paragraphs": [
+    "As casas astrológicas são como cômodos de uma casa invisível que divide o céu em 12 setores. Cada casa representa um aspecto da vida, como família, trabalho, relacionamentos, finanças ou espiritualidade. Elas mostram onde as influências dos planetas e signos vão agir com mais força na sua vida. O mapa astral é sempre dividido em 12 casas, começando pelo Ascendente, que é o signo que estava nascendo no horizonte no momento do seu nascimento."
+   ]
+  },
+  {
+   "h2": "O que as casas astrológicas significam no mapa natal",
+   "paragraphs": [
+    "No seu mapa natal, as casas astrológicas indicam as áreas da vida em que as energias dos planetas e signos vão se expressar. Por exemplo, se Marte está na 7ª casa, o planeta da ação vai influenciar principalmente seus relacionamentos e parcerias. Se a Lua está na 4ª casa, ela mostra como você sente segurança e sua ligação com a família. Por isso, conhecer as casas astrológicas ajuda a entender melhor quais temas são mais importantes para você, quais desafios pode enfrentar e onde pode crescer."
+   ]
+  },
+  {
+   "h2": "Exemplo prático das casas astrológicas",
+   "paragraphs": [
+    "Imagine alguém com o Sol na 10ª casa, que fala sobre carreira e reconhecimento público. Essa pessoa pode sentir uma vontade grande de se destacar profissionalmente e buscar sucesso social. Já se a Vênus está na 5ª casa, que fala de diversão e amor, essa pessoa tende a valorizar romances, criatividade e momentos de lazer. Cada combinação entre planeta, signo e casa conta uma história única sobre como a energia astrológica se manifesta na vida real."
+   ]
+  },
+  {
+   "h2": "Outras ideias relacionadas às casas astrológicas",
+   "paragraphs": [
+    "Além das 12 casas, é importante lembrar que os signos e planetas também influenciam o mapa. As casas astrológicas funcionam em conjunto com eles para dar um panorama completo da personalidade e dos caminhos da pessoa. Você pode usar ferramentas como o “descreva-me” para descobrir quais planetas estão em quais casas no seu mapa e refletir sobre o significado disso para a sua rotina e suas escolhas.",
+    "Também é legal pensar nas casas como áreas de foco para cada fase da vida, já que o movimento dos planetas pode ativar diferentes casas em momentos diferentes. Isso ajuda a refletir sobre quais temas estão mais em evidência para você no presente."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quantas casas astrológicas existem?",
+   "a": "São 12 casas astrológicas, cada uma representando uma área específica da vida."
+  },
+  {
+   "q": "Como sei em qual casa está meu planeta?",
+   "a": "Você precisa do seu mapa natal, que mostra a posição dos planetas dentro das 12 casas no momento do seu nascimento."
+  },
+  {
+   "q": "As casas astrológicas mudam com o tempo?",
+   "a": "Sim, o mapa natal é fixo, mas o trânsito dos planetas ativa diferentes casas ao longo da vida."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas grátis",
+  "articles": "Artigos",
+  "faq": "Dúvidas frequentes",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me",
+ "term": "what-are-astrological-houses"
+}
