@@ -1,18 +1,18 @@
-# Relatório interno do dicionário (2026-11-26)
+# Relatório interno do dicionário (2026-11-27)
 
 _Só para o robô e para a equipe. Não aparece no site._
 
-**233 verbetes publicados** · ✅ funcionando: 6 · 🟡 quase na página 1: 4 · 👀 aparecendo: 81 · ⏳ sem dados ainda: 142
+**237 verbetes publicados** · ✅ funcionando: 6 · 🟡 quase na página 1: 4 · 👀 aparecendo: 81 · ⏳ sem dados ainda: 146
 Aparições no Google: 776 · Cliques: 0
 
 ## Por assunto
 
 | Assunto | Verbetes | Aparições | Cliques | Peso do robô |
 |---|---|---|---|---|
-| Chart Concepts | 79 | 233 | 0 | x0.89 |
-| Phases & Movements | 25 | 69 | 0 | x0.83 |
+| Chart Concepts | 81 | 233 | 0 | x0.88 |
+| Phases & Movements | 26 | 69 | 0 | x0.81 |
 | Planets & Bodies | 16 | 38 | 0 | x1 |
-| Signs & Elements | 113 | 436 | 0 | x1.16 |
+| Signs & Elements | 114 | 436 | 0 | x1.17 |
 
 ## 🎯 Metas de visitas por mês (se o site aparecer para uma fatia das buscas medidas)
 

@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "resumo": {
-    "termosPublicados": 233,
+    "termosPublicados": 237,
     "funcionando": 6,
     "quase": 4,
     "aparecendo": 81,
-    "semDados": 142,
+    "semDados": 146,
     "impressoes": 776,
     "cliques": 0
   },
@@ -32,19 +32,19 @@
   "categorias": [
     {
       "categoria": "Chart Concepts",
-      "termos": 79,
+      "termos": 81,
       "impressoes": 233,
       "cliques": 0,
       "impressoesPorTermo": 2.9,
-      "boost": 0.89
+      "boost": 0.88
     },
     {
       "categoria": "Phases & Movements",
-      "termos": 25,
+      "termos": 26,
       "impressoes": 69,
       "cliques": 0,
-      "impressoesPorTermo": 2.8,
-      "boost": 0.83
+      "impressoesPorTermo": 2.7,
+      "boost": 0.81
     },
     {
       "categoria": "Planets & Bodies",
@@ -56,11 +56,11 @@
     },
     {
       "categoria": "Signs & Elements",
-      "termos": 113,
+      "termos": 114,
       "impressoes": 436,
       "cliques": 0,
-      "impressoesPorTermo": 3.9,
-      "boost": 1.16
+      "impressoesPorTermo": 3.8,
+      "boost": 1.17
     }
   ],
   "termos": [
@@ -2095,6 +2095,16 @@
       "veredito": "sem-dados"
     },
     {
+      "slug": "what-does-the-moon-in-scorpio-mean",
+      "termo": "Moon in Scorpio",
+      "categoria": "Phases & Movements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 420,
+      "veredito": "sem-dados"
+    },
+    {
       "slug": "what-does-the-north-node-in-capricorn-mean",
       "termo": "North Node in Capricorn",
       "categoria": "Signs & Elements",
@@ -2198,6 +2208,26 @@
       "slug": "what-does-mercury-in-virgo-mean",
       "termo": "Mercury in Virgo",
       "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 390,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-is-7th-lord-in-astrology",
+      "termo": "7th lord",
+      "categoria": "Chart Concepts",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 390,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-1st-house-represent-in-astrology",
+      "termo": "1st House",
+      "categoria": "Chart Concepts",
       "impressoes": 0,
       "cliques": 0,
       "melhorPosicao": null,
@@ -2312,6 +2342,16 @@
       "cliques": 0,
       "melhorPosicao": null,
       "buscasMensaisNoMundo": 320,
+      "veredito": "sem-dados"
+    },
+    {
+      "slug": "what-does-jupiter-in-capricorn-mean",
+      "termo": "Jupiter in Capricorn",
+      "categoria": "Signs & Elements",
+      "impressoes": 0,
+      "cliques": 0,
+      "melhorPosicao": null,
+      "buscasMensaisNoMundo": 310,
       "veredito": "sem-dados"
     },
     {

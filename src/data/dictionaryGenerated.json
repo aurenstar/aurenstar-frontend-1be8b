@@ -21331,5 +21331,365 @@
         ]
       }
     }
+  },
+  {
+    "termo": "Cusp",
+    "tituloSEO": "What is a Cusp in Astrology? Easy Explanation",
+    "perguntaGoogle": "What is a cusp in astrology?",
+    "resumoUmaLinha": "A cusp is when a birthday falls between two zodiac signs, blending traits.",
+    "explicacaoEducativa": "Learn that a cusp means your birthday is near two zodiac signs, mixing their qualities.",
+    "chamadaCuriosa": "Born between signs? Discover what a cusp means!",
+    "oQueSignifica": "Imagine standing on the edge between two rooms. A cusp is like that edge, but between zodiac signs. If your birthday falls near this edge, you might feel a mix of traits from both signs. It’s like enjoying flavors from two different dishes at once.",
+    "oQueSignificaNaAstrologia": "In astrology, a cusp happens when a person is born near the end of one zodiac sign and the start of another. This can mean they relate to qualities from both signs. People on a cusp may feel connected to two kinds of energies, offering a unique blend of personality traits.",
+    "exemploFicticio": "Maria was born on March 20, right between Pisces and Aries. Sometimes she feels dreamy like a Pisces, other times bold like an Aries, showing how cusps mix signs.",
+    "dicaRapida": "If you're on a cusp, explore both signs to better understand yourself.",
+    "miniJogo": {
+      "pergunta": "If your birthday is March 20, which zodiac signs might affect you?",
+      "opcoes": [
+        {
+          "texto": "Pisces and Aries",
+          "correta": true,
+          "explicacao": "March 20 is on the cusp between Pisces and Aries."
+        },
+        {
+          "texto": "Taurus and Gemini",
+          "correta": false,
+          "explicacao": "These signs fall later in the year, not near March 20."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Can a cusp change your main zodiac sign?",
+        "resposta": "No, your zodiac sign is fixed by your birth time, but cusp means traits from two signs may mix."
+      },
+      {
+        "pergunta": "Is being on a cusp common?",
+        "resposta": "Yes, many people have birthdays near sign changes, making cusps quite normal."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-solar",
+      "signo-lunar",
+      "mapa-astral"
+    ],
+    "id": "what-is-a-cusp-in-astrology",
+    "slug": "what-is-a-cusp-in-astrology",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Cúspide",
+        "perguntaGoogle": "O que é uma cúspide na astrologia?",
+        "resumoUmaLinha": "Cúspide é quando seu aniversário é entre dois signos, juntando características dos dois.",
+        "chamadaCuriosa": "Nascido entre signos? Descubra o que é uma cúspide!",
+        "oQueSignifica": "Imagine que você está na borda entre dois cômodos. A cúspide é como essa borda, só que entre signos do zodíaco. Se seu aniversário for perto dessa linha, pode sentir um pouco das qualidades dos dois. É como provar dois pratos diferentes ao mesmo tempo.",
+        "oQueSignificaNaAstrologia": "Na astrologia, cúspide é quando alguém nasce perto do fim de um signo e do começo do outro. Isso pode fazer a pessoa se identificar com qualidades dos dois signos. Quem está na cúspide sente duas energias, criando uma mistura única na personalidade.",
+        "exemploFicticio": "A Maria nasceu em 20 de março, bem entre Peixes e Áries. Às vezes ela se sente sonhadora como Peixes, outras vezes corajosa como Áries, mostrando como a cúspide mistura os signos.",
+        "faq": [
+          {
+            "pergunta": "A cúspide pode mudar seu signo principal?",
+            "resposta": "Não, seu signo é definido pela sua hora de nascimento, mas a cúspide indica que os traços de dois signos podem se misturar."
+          },
+          {
+            "pergunta": "É comum estar na cúspide?",
+            "resposta": "Sim, muitas pessoas fazem aniversário perto da troca dos signos, então a cúspide é bem normal."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Cúspide",
+        "perguntaGoogle": "¿Qué es una cúspide en astrología?",
+        "resumoUmaLinha": "Una cúspide es cuando un cumpleaños cae entre dos signos zodiacales, mezclando características.",
+        "chamadaCuriosa": "¿Naciste entre signos? ¡Descubre qué significa una cúspide!",
+        "oQueSignifica": "Imagina estar en el borde entre dos habitaciones. Una cúspide es como ese borde, pero entre signos zodiacales. Si tu cumpleaños está cerca de ese límite, puedes sentir una mezcla de rasgos de ambos signos. Es como disfrutar sabores de dos platos distintos al mismo tiempo.",
+        "oQueSignificaNaAstrologia": "En astrología, la cúspide ocurre cuando alguien nace cerca del final de un signo zodiacal y el inicio de otro. Esto puede hacer que se identifique con cualidades de ambos signos. Las personas en cúspide pueden sentir conexión con dos tipos de energías, ofreciendo una combinación única de rasgos en su personalidad.",
+        "exemploFicticio": "Carlos nació el 20 de marzo, justo entre Piscis y Aries. A veces se siente soñador como Piscis, y otras veces valiente como Aries, mostrando cómo las cúspides mezclan los signos.",
+        "faq": [
+          {
+            "pergunta": "¿Puede una cúspide cambiar tu signo zodiacal principal?",
+            "resposta": "No, tu signo zodiacal está fijo según la hora de nacimiento, pero la cúspide significa que pueden mezclarse rasgos de dos signos."
+          },
+          {
+            "pergunta": "¿Es común estar en una cúspide?",
+            "resposta": "Sí, muchas personas cumplen años cerca de los cambios de signo, por lo que las cúspides son bastante normales."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "North Node in Sagittarius",
+    "tituloSEO": "What Does the North Node in Sagittarius Mean? Simple Guide",
+    "perguntaGoogle": "What does the North Node in Sagittarius mean?",
+    "resumoUmaLinha": "Learn how the North Node in Sagittarius inspires growth through truth and adventure in astrology.",
+    "explicacaoEducativa": "Learn the North Node in Sagittarius encourages exploring new ideas and being honest with yourself.",
+    "chamadaCuriosa": "Ready to explore new paths with the North Node in Sagittarius?",
+    "oQueSignifica": "The North Node in Sagittarius means your life path invites you to learn more about the world. Imagine walking on a trail into a big forest. You don’t know everything yet, but each step shows new views and fun discoveries. It’s like being curious about different cultures, stories, or ideas and learning from them every day.",
+    "oQueSignificaNaAstrologia": "In astrology, the North Node shows where you grow and learn in this life. When it’s in Sagittarius, this is linked to seeking truth, adventure, and open-minded thinking. It asks you to trust your beliefs, explore far places or ideas, and share what you learn. It helps you leave comfort zones and become more confident about your own path.",
+    "exemploFicticio": "Maria always loved her small town, but her North Node in Sagittarius asked her to try new things. One day, she joined a travel club, meeting people from other countries. She felt excited and open to new adventures, learning more about herself and the world.",
+    "dicaRapida": "Try reading about a new culture this week or explore a topic that inspires your curiosity.",
+    "miniJogo": {
+      "pergunta": "If your North Node is in Sagittarius, which activity fits best?",
+      "opcoes": [
+        {
+          "texto": "Planning a trip to learn about different cultures",
+          "correta": true,
+          "explicacao": "Travel and learning new cultures match Sagittarius’s adventurous spirit."
+        },
+        {
+          "texto": "Staying home and watching TV all day",
+          "correta": false,
+          "explicacao": "Staying still doesn’t encourage the growth linked with the North Node in Sagittarius."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Can the North Node in Sagittarius change during life?",
+        "resposta": "No, the North Node stays the same in your birth chart and guides your lifelong growth."
+      },
+      {
+        "pergunta": "Is North Node in Sagittarius about travel only?",
+        "resposta": "Not just travel—it's about exploring ideas, beliefs, and seeking truth too."
+      }
+    ],
+    "termosRelacionados": [
+      "what-is-the-north-node-in-astrology",
+      "signo-solar",
+      "elementos-astrologicos"
+    ],
+    "id": "what-does-the-north-node-in-sagittarius-mean",
+    "slug": "what-does-the-north-node-in-sagittarius-mean",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Nodo Norte em Sagitário",
+        "perguntaGoogle": "O que significa o Nodo Norte em Sagitário?",
+        "resumoUmaLinha": "Descubra como o Nodo Norte em Sagitário inspira crescimento pela verdade e aventura na astrologia.",
+        "chamadaCuriosa": "Pronto para explorar novos caminhos com o Nodo Norte em Sagitário?",
+        "oQueSignifica": "O Nodo Norte em Sagitário quer que você aprenda mais sobre o mundo. Imagine caminhar por uma trilha numa grande floresta. Você ainda não sabe tudo, mas cada passo mostra novas paisagens e descobertas legais. É como ser curioso sobre diferentes culturas, histórias ou ideias e aprender com elas todo dia.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o Nodo Norte mostra onde você cresce e aprende nesta vida. Quando ele está em Sagitário, tem a ver com buscar a verdade, aventura e pensar de forma aberta. Ele te convida a confiar nas suas crenças, explorar lugares ou ideias distantes e compartilhar tudo o que você aprende. Ajuda você a sair da zona de conforto e ficar mais confiante no seu caminho.",
+        "exemploFicticio": "Maria sempre amou sua cidade pequena, mas seu Nodo Norte em Sagitário pediu para ela experimentar coisas novas. Um dia, ela entrou num grupo de viagens e conheceu pessoas de outros países. Ela ficou animada, aberta para novas aventuras, aprendendo mais sobre si mesma e o mundo.",
+        "faq": [
+          {
+            "pergunta": "O Nodo Norte em Sagitário pode mudar durante a vida?",
+            "resposta": "Não, o Nodo Norte fica igual no seu mapa astral e guia o seu crescimento ao longo da vida."
+          },
+          {
+            "pergunta": "Nodo Norte em Sagitário é só sobre viagens?",
+            "resposta": "Não é só sobre viajar — é sobre explorar ideias, crenças e buscar a verdade também."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Nodo Norte en Sagitario",
+        "perguntaGoogle": "¿Qué significa el Nodo Norte en Sagitario?",
+        "resumoUmaLinha": "Descubre cómo el Nodo Norte en Sagitario inspira crecimiento con la verdad y la aventura en la astrología.",
+        "chamadaCuriosa": "¿Listo para explorar nuevos caminos con el Nodo Norte en Sagitario?",
+        "oQueSignifica": "El Nodo Norte en Sagitario significa que tu camino de vida te invita a aprender más sobre el mundo. Imagina caminar por un sendero dentro de un gran bosque. Aún no sabes todo, pero cada paso muestra nuevas vistas y descubrimientos divertidos. Es como tener curiosidad por distintas culturas, historias o ideas y aprender de ellas cada día.",
+        "oQueSignificaNaAstrologia": "En la astrología, el Nodo Norte señala dónde creces y aprendes en esta vida. Cuando está en Sagitario, está relacionado con buscar la verdad, la aventura y tener una mente abierta. Te pide confiar en tus creencias, explorar lugares o ideas lejanas y compartir lo que aprendes. Te ayuda a salir de tu zona de confort y ser más seguro de tu propio camino.",
+        "exemploFicticio": "María siempre amó su pueblo pequeño, pero su Nodo Norte en Sagitario le pidió probar cosas nuevas. Un día se unió a un club de viajes donde conoció gente de otros países. Se sintió emocionada y abierta a nuevas aventuras, aprendiendo más sobre ella misma y el mundo.",
+        "faq": [
+          {
+            "pergunta": "¿Puede cambiar el Nodo Norte en Sagitario durante la vida?",
+            "resposta": "No, el Nodo Norte se mantiene igual en tu carta astral y guía tu crecimiento para toda la vida."
+          },
+          {
+            "pergunta": "¿El Nodo Norte en Sagitario solo tiene que ver con viajar?",
+            "resposta": "No solo con viajar: también se trata de explorar ideas, creencias y buscar la verdad."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "North Node in Aries",
+    "tituloSEO": "North Node in Aries: What Does It Mean in Astrology?",
+    "perguntaGoogle": "What does the North Node in Aries mean?",
+    "resumoUmaLinha": "Learn what the North Node in Aries means about your growth and new beginnings.",
+    "explicacaoEducativa": "Learn that the North Node in Aries is linked to finding courage and leading your own path.",
+    "chamadaCuriosa": "Ready to take charge and be brave? Your North Node in Aries may help!",
+    "oQueSignifica": "The North Node in Aries means you are learning to be brave and independent. Imagine learning to ride a bike alone for the first time. You might feel scared, but it helps you grow stronger. This placement encourages trying new things and starting fresh, even if it feels tricky at first. It’s about trusting yourself to do what feels right in the moment.",
+    "oQueSignificaNaAstrologia": "In astrology, the North Node shows where your soul wants to grow. With it in Aries, this growth is linked to being bold and acting on your own. Aries is a sign of fresh starts and courage. People with this placement may feel called to lead, take risks, and make their own decisions. It teaches lessons about trusting yourself instead of always following others.",
+    "exemploFicticio": "Maria usually waits for her friends to choose what to do. But with her North Node in Aries, she starts suggesting new ideas and tries things alone. One day, she signed up for a dance class by herself. It felt scary, but Maria loved being the one to take charge of her fun.",
+    "dicaRapida": "Try doing one small thing alone today—like choosing your snack or going for a walk by yourself.",
+    "miniJogo": {
+      "pergunta": "If you have the North Node in Aries, what might you try to do more?",
+      "opcoes": [
+        {
+          "texto": "Make your own decisions and be brave.",
+          "correta": true,
+          "explicacao": "North Node in Aries encourages courage and doing things independently."
+        },
+        {
+          "texto": "Always rely on others to tell you what to do.",
+          "correta": false,
+          "explicacao": "This is more like the South Node, which North Node in Aries helps you move away from."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Can North Node in Aries make me more confident?",
+        "resposta": "In astrology, this placement is linked to growing confidence and independence over time."
+      },
+      {
+        "pergunta": "Is the North Node the same as my sun sign?",
+        "resposta": "No, the North Node shows your soul’s growth path, which is different from your sun sign’s traits."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-ascendente",
+      "what-is-the-north-node-in-astrology",
+      "elementos-astrologicos"
+    ],
+    "id": "what-does-the-north-node-in-aries-mean",
+    "slug": "what-does-the-north-node-in-aries-mean",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Nodo Norte em Áries",
+        "perguntaGoogle": "O que significa o Nodo Norte em Áries?",
+        "resumoUmaLinha": "Descubra o que o Nodo Norte em Áries diz sobre seu crescimento e novos começos.",
+        "chamadaCuriosa": "Pronto para assumir o controle e ser corajoso? Seu Nodo Norte em Áries pode ajudar!",
+        "oQueSignifica": "O Nodo Norte em Áries significa que você está aprendendo a ser corajoso e independente. Imagine aprender a andar de bicicleta sozinho pela primeira vez. Você pode sentir medo, mas isso te ajuda a ficar mais forte. Essa posição incentiva a tentar coisas novas e começar do zero, mesmo que pareça difícil no começo. É sobre confiar em si mesmo e fazer o que parece certo no momento.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o Nodo Norte mostra onde sua alma quer crescer. Com ele em Áries, esse crescimento está ligado a ser ousado e agir por conta própria. Áries é um signo de recomeços e coragem. Pessoas com essa posição podem sentir um chamado para liderar, arriscar e tomar suas próprias decisões. Ensina a confiar mais em si do que em seguir sempre os outros.",
+        "exemploFicticio": "Maria geralmente espera seus amigos escolherem o que fazer. Mas com o Nodo Norte em Áries, ela começa a sugerir novas ideias e tentar coisas sozinha. Um dia, ela se matriculou numa aula de dança sozinha. Foi assustador, mas Maria adorou ser quem comandava a diversão.",
+        "faq": [
+          {
+            "pergunta": "O Nodo Norte em Áries pode me deixar mais confiante?",
+            "resposta": "Na astrologia, essa posição está ligada ao crescimento da confiança e da independência com o tempo."
+          },
+          {
+            "pergunta": "O Nodo Norte é igual ao meu signo solar?",
+            "resposta": "Não, o Nodo Norte mostra o caminho de crescimento da sua alma, que é diferente das características do seu signo solar."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Nodo Norte en Aries",
+        "perguntaGoogle": "¿Qué significa el Nodo Norte en Aries?",
+        "resumoUmaLinha": "Descubre qué significa el Nodo Norte en Aries sobre tu crecimiento y nuevos comienzos.",
+        "chamadaCuriosa": "¿Listo para tomar el control y ser valiente? ¡Tu Nodo Norte en Aries te puede ayudar!",
+        "oQueSignifica": "El Nodo Norte en Aries significa que estás aprendiendo a ser valiente e independiente. Imagina que aprendes a andar en bicicleta solo por primera vez. Puede dar miedo, pero eso te hace más fuerte. Esta posición te anima a probar cosas nuevas y empezar de cero, aunque al principio sea difícil. Se trata de confiar en ti mismo para hacer lo que sientes correcto en el momento.",
+        "oQueSignificaNaAstrologia": "En astrología, el Nodo Norte muestra hacia dónde quiere crecer tu alma. Con él en Aries, ese crecimiento está ligado a ser audaz y actuar por cuenta propia. Aries es un signo de nuevos comienzos y coraje. Las personas con esta posición pueden sentirse llamadas a liderar, arriesgarse y tomar sus propias decisiones. Enseña a confiar en uno mismo en lugar de seguir siempre a otros.",
+        "exemploFicticio": "María generalmente espera que sus amigos elijan qué hacer. Pero con su Nodo Norte en Aries, ella empieza a proponer nuevas ideas y a intentar cosas sola. Un día se inscribió sola en una clase de baile. Le dio miedo, pero a María le encantó ser quien lleva el control de su diversión.",
+        "faq": [
+          {
+            "pergunta": "¿Puede el Nodo Norte en Aries hacerme más seguro de mí mismo?",
+            "resposta": "En astrología, esta posición está ligada a ganar confianza e independencia con el tiempo."
+          },
+          {
+            "pergunta": "¿El Nodo Norte es lo mismo que mi signo solar?",
+            "resposta": "No, el Nodo Norte muestra el camino de crecimiento de tu alma, que es diferente de las características de tu signo solar."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "termo": "North Node in Cancer",
+    "tituloSEO": "What Does the North Node in Cancer Mean? Astrology Explained",
+    "perguntaGoogle": "What does the North Node in Cancer mean?",
+    "resumoUmaLinha": "North Node in Cancer in astrology points to learning about care, home, and feelings.",
+    "explicacaoEducativa": "Learn that North Node in Cancer is linked to growing through kindness, family, and emotions.",
+    "chamadaCuriosa": "Why is your North Node in Cancer gently guiding you?",
+    "oQueSignifica": "The North Node in Cancer means you are learning to care and feel safe. It’s like moving from being a busy traveler to feeling cozy at home. Imagine Carlos, who loved being out with friends but begins to see how much comfort he finds talking with his family. This energy encourages you to slow down and trust your feelings, like hugging someone you love or cooking a favorite meal.",
+    "oQueSignificaNaAstrologia": "In astrology, the North Node shows where you can grow in this life. With the North Node in Cancer, this growth links to caring deeply, building close bonds, and trusting your heart. It suggests learning to value your home, emotions, and past. This placement invites you to become more nurturing and open to others’ feelings, creating a safe space both inside and out.",
+    "exemploFicticio": "Maria used to spend all her time working and forgot to call her mom. With her North Node in Cancer, she started making small chats with family and found happier moments. At dinner, she shared stories, feeling warmth she hadn’t noticed before.",
+    "dicaRapida": "Spend a little time each day connecting with someone you care about.",
+    "miniJogo": {
+      "pergunta": "If your North Node is in Cancer, which activity might help you grow?",
+      "opcoes": [
+        {
+          "texto": "Calling a family member to share your day",
+          "correta": true,
+          "explicacao": "Cancer energy supports family bonds and emotional sharing."
+        },
+        {
+          "texto": "Planning a solo adventure in a new city",
+          "correta": false,
+          "explicacao": "While fun, solo travel is less related to Cancer’s focus on home and feelings."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "pergunta": "Can the North Node in Cancer affect my emotions?",
+        "resposta": "Yes, it encourages you to understand and trust your feelings more."
+      },
+      {
+        "pergunta": "Does North Node in Cancer mean I should focus only on family?",
+        "resposta": "It suggests growing through family and care but balance with other life areas is okay."
+      }
+    ],
+    "termosRelacionados": [
+      "signo-lunar",
+      "mapa-astral",
+      "what-is-the-north-node-in-astrology"
+    ],
+    "id": "what-does-the-north-node-in-cancer-mean",
+    "slug": "what-does-the-north-node-in-cancer-mean",
+    "categoria": "Signs & Elements",
+    "icone": "✨",
+    "ferramentaRelacionada": {
+      "nome": "Read Today's Daily Message",
+      "rota": "daily-message"
+    },
+    "traducoes": {
+      "pt": {
+        "termo": "Nodo Norte em Câncer",
+        "perguntaGoogle": "O que significa o Nodo Norte em Câncer?",
+        "resumoUmaLinha": "Nodo Norte em Câncer na astrologia indica que você vai aprender sobre cuidar, o lar e os sentimentos.",
+        "chamadaCuriosa": "Por que seu Nodo Norte em Câncer está te guiando com carinho?",
+        "oQueSignifica": "O Nodo Norte em Câncer mostra que você está aprendendo a cuidar e se sentir seguro. É como parar de ser um viajante ocupado para se sentir confortável em casa. Imagine o Carlos, que gostava de sair com os amigos, mas começa a perceber como é bom conversar com a família. Essa energia te convida a desacelerar e confiar no que sente, como abraçar alguém que ama ou preparar sua comida preferida.",
+        "oQueSignificaNaAstrologia": "Na astrologia, o Nodo Norte mostra onde você pode crescer nesta vida. Com o Nodo Norte em Câncer, esse crescimento está ligado a cuidar com carinho, criar laços fortes e confiar no coração. Isso diz para você valorizar seu lar, as emoções e o passado. Essa posição te chama para ser mais acolhedor e abrir espaço para os sentimentos dos outros, criando um ambiente seguro por dentro e por fora.",
+        "exemploFicticio": "Maria costumava passar todo o tempo trabalhando e esquecia de ligar para a mãe. Com o Nodo Norte em Câncer, ela começou a fazer pequenas conversas com a família e encontrou momentos mais felizes. No jantar, ela compartilhava histórias e sentia um carinho que antes não notava.",
+        "faq": [
+          {
+            "pergunta": "O Nodo Norte em Câncer pode afetar minhas emoções?",
+            "resposta": "Sim, ele te encoraja a entender e confiar mais nos seus sentimentos."
+          },
+          {
+            "pergunta": "Significa que devo focar só na família?",
+            "resposta": "Ele sugere crescer através da família e do cuidado, mas é legal equilibrar com outras áreas da vida."
+          }
+        ]
+      },
+      "es": {
+        "termo": "Nodo Norte en Cáncer",
+        "perguntaGoogle": "¿Qué significa el Nodo Norte en Cáncer?",
+        "resumoUmaLinha": "El Nodo Norte en Cáncer en astrología señala aprender sobre el cuidado, el hogar y los sentimientos.",
+        "chamadaCuriosa": "¿Por qué tu Nodo Norte en Cáncer te guía con suavidad?",
+        "oQueSignifica": "El Nodo Norte en Cáncer significa que estás aprendiendo a cuidar y sentirte seguro. Es como pasar de ser un viajero ocupado a sentirte cómodo en casa. Imagina a Carlos, que amaba salir con amigos, pero empieza a darse cuenta de cuánto consuelo encuentra en charlar con su familia. Esta energía te invita a bajar el ritmo y confiar más en tus emociones, como abrazar a alguien querido o preparar una comida favorita.",
+        "oQueSignificaNaAstrologia": "En astrología, el Nodo Norte muestra dónde puedes crecer en esta vida. Con el Nodo Norte en Cáncer, ese crecimiento está ligado a cuidar profundamente, crear lazos cercanos y confiar en tu corazón. Te sugiere aprender a valorar tu hogar, tus emociones y tu pasado. Esta posición te invita a ser más cariñoso y abierto a los sentimientos de los demás, creando un espacio seguro dentro y fuera de ti.",
+        "exemploFicticio": "María solía pasar todo su tiempo trabajando y se olvidaba de llamar a su mamá. Con su Nodo Norte en Cáncer, empezó a tener pequeñas charlas con su familia y encontró momentos más felices. En la cena, compartía historias, sintiendo una calidez que antes no notaba.",
+        "faq": [
+          {
+            "pergunta": "¿Puede el Nodo Norte en Cáncer afectar mis emociones?",
+            "resposta": "Sí, te anima a entender y confiar más en tus sentimientos."
+          },
+          {
+            "pergunta": "¿Significa que con Nodo Norte en Cáncer debo enfocarme solo en la familia?",
+            "resposta": "Sugiere crecer a través de la familia y el cuidado, pero está bien mantener el equilibrio con otras áreas de la vida."
+          }
+        ]
+      }
+    }
   }
 ]
