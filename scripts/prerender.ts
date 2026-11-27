@@ -29,6 +29,7 @@ import { checkNativePage, type NativePage } from '../server/engine/nativePage';
 import { renderNativeArticle, renderNativeHub, pathOf, hubPath, type NativeArticle } from '../server/engine/nativeArticle';
 import { URL_LANGUAGES } from '../src/utils/urlLang';
 import { SIGNS_DATA } from '../src/data/signsData';
+import { cardImage } from '../src/utils/cardImage';
 import { renderSignHub, hubUrlPath, HUB_LANGS, type HubLang } from '../server/engine/signHub';
 import { enToLocal } from '../src/utils/localizedSlugs';
 import { signForTitle, hubUrlPath as signHubPath, hubLinkLabel } from '../src/utils/signHubLinks';
@@ -354,9 +355,10 @@ const signUrls: { loc: string }[] = [];
     for (const lang of HUB_LANGS) {
       const list = mine.map((a) => {
         const enSlug = getArticleSlug(a);
-        if (lang === 'en') return { title: a.title.en, href: `/blog/${enSlug}` };
+        const extra = { image: cardImage(a.image), category: (a.category as Record<string, string>)[lang], subtitle: (a.subtitle as Record<string, string>)[lang] };
+        if (lang === 'en') return { title: a.title.en, href: `/blog/${enSlug}`, ...extra };
         const h = heads[lang]?.[enSlug]?.t;
-        return { title: (h || a.title.en).replace(/\s*\|\s*Aurenstar$/, ''), href: `/${lang}/blog/${enToLocal(lang, enSlug) ?? enSlug}` };
+        return { title: (h || a.title.en).replace(/\s*\|\s*Aurenstar$/, ''), href: `/${lang}/blog/${enToLocal(lang, enSlug) ?? enSlug}`, ...extra };
       });
       const tf = path.join(root, 'data/sign-texts', `${sign.key}.json`);
       const sections = fs.existsSync(tf) ? (JSON.parse(fs.readFileSync(tf, 'utf8'))[lang] as { h: string; p: string }[]) : [];

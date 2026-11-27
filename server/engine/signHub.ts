@@ -65,23 +65,27 @@ h1 em{display:block;font-style:normal;color:#E73578;font-size:.62em;line-height:
 h2{font-size:1rem;margin:0 0 1.1em;color:#172B4D;font-weight:800;letter-spacing:.2em;text-transform:uppercase}
 h2::after{content:"";display:block;width:48px;height:4px;border-radius:4px;background:#3982C8;margin-top:10px}
 p{margin:.3em 0;color:#172B4D}.card.pk p{color:#172B4D}a{color:#3982C8;text-decoration:none}a:hover{color:#E73578}
-ul.l{list-style:none;padding:0;margin:.2em 0;display:grid;grid-template-columns:repeat(2,1fr);gap:14px}ul.l li{margin:0;padding:0;border:0}
-a.ac{display:flex;gap:14px;align-items:flex-start;height:100%;background:#fff;border:1px solid #D9E8F8;border-radius:20px;padding:16px 18px;text-decoration:none!important;box-shadow:0 4px 14px rgba(23,54,111,.06);transition:transform .2s,box-shadow .2s,border-color .2s}
-a.ac:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(23,54,111,.14);border-color:#F7B5D2}
-a.ac .ic{flex:none;width:44px;height:44px;border-radius:14px;background:#FBE1EB;color:#E73578;display:flex;align-items:center;justify-content:center;font:400 1.5rem/1 "Segoe UI Symbol","Noto Sans Symbols",sans-serif}
-a.ac .tx{display:block;min-width:0}a.ac b{display:block;color:#172B4D;font-weight:700;font-size:.98rem;line-height:1.35}
-a.ac .rd{display:inline-block;margin-top:8px;color:#E73578;font-weight:700;font-size:.82rem;letter-spacing:.05em;text-transform:uppercase}
+ul.l{list-style:none;padding:0;margin:.2em 0;display:grid;grid-template-columns:1fr;gap:14px}ul.l li{margin:0;padding:0;border:0}
+a.ac{display:flex;gap:16px;align-items:center;background:#fff;border:1px solid #D9E8F8;border-radius:16px;padding:14px;text-decoration:none!important;box-shadow:0 1px 3px rgba(23,54,111,.08);transition:box-shadow .3s,border-color .3s}
+a.ac:hover{border-color:rgba(57,130,200,.45);box-shadow:0 8px 22px rgba(23,54,111,.12)}
+a.ac .th{flex:none;width:144px;height:96px;border-radius:16px;overflow:hidden;background:#E4F1FF;display:flex;align-items:center;justify-content:center;color:#E73578;font:400 2rem/1 "Segoe UI Symbol","Noto Sans Symbols",sans-serif}
+a.ac .th img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}a.ac:hover .th img{transform:scale(1.05)}
+a.ac .tx{display:block;min-width:0;flex:1}
+a.ac .cat{display:block;margin-bottom:4px;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#3982C8}
+a.ac b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:#172B4D;font-weight:700;font-size:1rem;line-height:1.35;margin-bottom:4px;transition:color .3s}
 a.ac:hover b{color:#3982C8}
+a.ac .sb{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:#647DA5;font-size:.8rem;line-height:1.5}
+a.ac .ar{flex:none;color:#17366F;transition:transform .3s,color .3s;display:flex}a.ac:hover .ar{transform:translateX(6px);color:#E73578}
 .cta{display:inline-block;margin:6px 0 24px;padding:.95em 2.2em;background:#E73578;color:#fff!important;border-radius:999px;text-decoration:none!important;font-weight:700;letter-spacing:.04em;box-shadow:0 10px 24px rgba(231,53,120,.30)}
 .ctaw{text-align:center}
 details{border-top:1px solid #D9E8F8;padding:.8em 0}details:first-of-type{border-top:0}summary{cursor:pointer;font-weight:600;color:#172B4D}summary::marker{color:#E73578}details p{color:#647DA5}
 footer{max-width:880px;margin:0 auto;padding:10px 20px 40px;display:flex;gap:18px;flex-wrap:wrap;justify-content:center;font-size:.9rem}footer a{color:#647DA5}
-@media(max-width:700px){ul.l{grid-template-columns:1fr}}
+@media(max-width:560px){a.ac .th{width:104px;height:78px}a.ac b{font-size:.88rem}a.ac .sb{font-size:.72rem}}
 @media(max-width:560px){.card{padding:22px 20px;border-radius:20px}h1{font-size:1.9rem}.top a.p{padding:8px 13px;font-size:.75rem}}`;
 
 const clip = (s: string, max = 155) => (s.length <= max ? s : `${s.slice(0, max - 1).replace(/[\s,;:.-]+\S*$/, '')}…`);
 
-export function renderSignHub(lang: HubLang, sign: SignInfo, articles: { title: string; href: string }[], sections: { h: string; p: string }[] = []): string {
+export function renderSignHub(lang: HubLang, sign: SignInfo, articles: { title: string; href: string; image?: string; category?: string; subtitle?: string }[], sections: { h: string; p: string }[] = []): string {
   const t = T[lang], n = sign.name[lang], p = sign.period[lang], e = sign.element[lang];
   const base = lang === 'en' ? '' : `/${lang}`;
   const url = `${SITE}${hubUrlPath(sign, lang)}`;
@@ -128,7 +132,7 @@ ${alt}
 ${sections.map((x) => `<section class="card"><h2>${esc(x.h)}</h2>\n<p>${esc(x.p)}</p></section>`).join('\n')}
 <section class="card pk"><h2>${esc(t.advice)}</h2>
 <p>${esc(sign.advice[lang])}</p></section>
-${articles.length ? `<section class="card"><h2>${esc(t.articlesAbout(n))}</h2>\n<ul class="l">${articles.map((a) => `<li><a class="ac" href="${esc(a.href)}"><span class="ic">${esc(sign.symbol)}&#xFE0E;</span><span class="tx"><b>${esc(a.title)}</b><span class="rd">${esc(t.read)} &rarr;</span></span></a></li>`).join('\n')}</ul></section>` : ''}
+${articles.length ? `<section class="card"><h2>${esc(t.articlesAbout(n))}</h2>\n<ul class="l">${articles.map((a) => `<li><a class="ac" href="${esc(a.href)}"><span class="th">${a.image ? `<img src="${esc(a.image)}" alt="" loading="lazy" decoding="async" />` : `${esc(sign.symbol)}&#xFE0E;`}</span><span class="tx">${a.category ? `<span class="cat">${esc(a.category)}</span>` : ''}<b>${esc(a.title)}</b>${a.subtitle ? `<span class="sb">${esc(a.subtitle)}</span>` : ''}</span><span class="ar"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></li>`).join('\n')}</ul></section>` : ''}
 <div class="ctaw"><a class="cta" href="${base}/discover-sign">${esc(t.cta)}</a></div>
 <section class="card"><h2>${esc(t.faq)}</h2>
 ${faq.map((f) => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('\n')}</section>
