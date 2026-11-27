@@ -1,0 +1,47 @@
+{
+  "lang": "pt",
+  "slug": "scorpio-sign-personality-traits-strengths-and-blind-spots-pt",
+  "date": "2026-11-27",
+  "title": "Você conhece o lado oculto do Escorpião?",
+  "description": "Descubra os traços intensos, forças surpreendentes e pontos cegos que definem a personalidade do signo de Escorpião.",
+  "theme": "earth",
+  "kind": "article",
+  "swipe": "Toque para revelar",
+  "pages": [
+    {
+      "theme": "earth",
+      "kicker": "Intuição",
+      "title": "Escorpião observa tudo",
+      "text": "Eles percebem tensões invisíveis, mas evitam agir na hora. Por quê?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Profundidade",
+      "title": "Emoções à flor da pele",
+      "text": "A intensidade emocional deles é fonte de força e conflito. Quer entender?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Lealdade",
+      "title": "Proteção e ressentimento",
+      "text": "Loyal até o fim, mas guardar mágoa pode ser uma armadilha. Como lidar?"
+    },
+    {
+      "theme": "earth",
+      "kicker": "Resiliência",
+      "title": "Força para recomeçar",
+      "text": "Críticas só os fazem crescer. Qual o segredo para essa superação?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Conhecimento",
+      "title": "Por dentro de Escorpião",
+      "text": "Saiba como esses traços moldam suas relações e escolhas. Isso pode mudar sua visão."
+    }
+  ],
+  "cta": {
+    "text": "Descubra os mistérios de Escorpião",
+    "label": "Leia o artigo completo",
+    "url": "/pt/blog/scorpio-sign-personality-traits-strengths-and-blind-spots"
+  }
+}

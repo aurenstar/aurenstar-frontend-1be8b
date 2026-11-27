@@ -1,0 +1,47 @@
+{
+  "lang": "es",
+  "slug": "daily-horoscope-for-tuesday-november-24-2026-all-12-signs-es",
+  "date": "2026-11-27",
+  "title": "¿Qué secretos revela la Luna llena hoy?",
+  "description": "Descubre cómo la energía del Sol en Sagitario y la Luna llena impactan tu día con sorpresas y reflexión profunda.",
+  "theme": "air",
+  "kind": "article",
+  "swipe": "Desliza para saber más",
+  "pages": [
+    {
+      "theme": "air",
+      "kicker": "Pregunta",
+      "title": "¿Dónde busca tu corazón crecer?",
+      "text": "Hoy, la Luna llena te invita a observar qué áreas de tu vida necesitan expansión o cierre. ¿Lo habías pensado?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Amistad",
+      "title": "Conexiones que brillan",
+      "text": "Tus relaciones pueden sorprenderte con momentos llenos de risas y sinceridad. ¿Quién te sorprenderá hoy?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Descanso",
+      "title": "Energía recargada",
+      "text": "Un breve descanso a media tarde puede cambiar tu día. ¿Te tomarás ese tiempo para ti?"
+    },
+    {
+      "theme": "air",
+      "kicker": "Dinero",
+      "title": "Control sin sacrificios",
+      "text": "Pequeños presupuestos diarios te ayudan a equilibrar gastos y disfrutar sin culpa. ¿Lo estás aplicando?"
+    },
+    {
+      "theme": "night",
+      "kicker": "Revelación",
+      "title": "Un horóscopo para ti",
+      "text": "Conoce cómo influye esta combinación de astros en tu signo y qué oportunidades te esperan. ¿Listo para descubrirlo?"
+    }
+  ],
+  "cta": {
+    "text": "¿Quieres saber qué te espera?",
+    "label": "Leer horóscopo completo",
+    "url": "/es/blog/daily-horoscope-for-tuesday-november-24-2026-all-12-signs"
+  }
+}
