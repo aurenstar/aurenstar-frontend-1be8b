@@ -1,0 +1,58 @@
+{
+ "lang": "pt",
+ "keyword": "mercúrio retrógrado",
+ "volume": 930,
+ "slug": "mercurio-retrogrado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mercúrio Retrógrado",
+ "description": "Entenda o que é Mercúrio retrógrado, seus efeitos no dia a dia e como lidar com essa fase astrológica de reflexão e revisão.",
+ "intro": "Mercúrio retrógrado é um fenômeno astrológico que acontece quando o planeta Mercúrio parece andar para trás no céu. Essa fase costuma ser associada a atrasos, confusões e revisões, mas também é um convite para repensar e reorganizar a vida.",
+ "sections": [
+  {
+   "h2": "O que é Mercúrio retrógrado?",
+   "paragraphs": [
+    "Na astrologia, Mercúrio retrógrado ocorre quando Mercúrio, planeta ligado à comunicação, pensamento e viagens, parece se mover para trás em relação à Terra. Isso é um efeito visual causado pela diferença na velocidade orbital entre os dois planetas. Normalmente, Mercúrio fica retrógrado cerca de três vezes por ano, por aproximadamente três semanas cada vez, em datas que variam, mas costumam acontecer por volta de março, julho e novembro.",
+    "Durante esse período, a energia de Mercúrio fica mais introspectiva, convidando a gente a revisar ideias, projetos e acordos antes de seguir em frente."
+   ]
+  },
+  {
+   "h2": "Mercúrio retrógrado no dia a dia",
+   "paragraphs": [
+    "Quando Mercúrio está retrógrado, é comum sentir mais dificuldade para se comunicar claramente, entender mensagens e resolver problemas tecnológicos. Planos podem atrasar, e mal-entendidos tendem a acontecer com mais frequência. Por isso, é um momento ideal para evitar decisões importantes, assinar contratos ou iniciar projetos novos, se possível.",
+    "No entanto, Mercúrio retrógrado também é uma excelente oportunidade para revisar o que já foi feito, corrigir erros, retomar conversas antigas e refletir sobre o caminho que estamos seguindo. Em vez de temer essa fase, vale aproveitar para desacelerar e organizar a vida com calma."
+   ]
+  },
+  {
+   "h2": "Exemplo prático de Mercúrio retrógrado",
+   "paragraphs": [
+    "Imagina que você marcou uma reunião importante para apresentar uma ideia no trabalho durante Mercúrio retrógrado. Pode ser que o computador trave, a internet caia ou que as informações não estejam bem claras para todo mundo. Em vez de se estressar, essa situação é um sinal para revisar o projeto, ajustar os detalhes e tentar novamente mais tarde, com mais segurança.",
+    "Assim, Mercúrio retrógrado funciona como um aviso para ir com calma, evitar pressa e não pular etapas."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mercúrio retrógrado sempre traz problemas?",
+   "a": "Não necessariamente. Ele pode causar atrasos e confusões, mas também é uma chance de refletir, revisar e corrigir o que precisa."
+  },
+  {
+   "q": "Posso começar algo novo durante Mercúrio retrógrado?",
+   "a": "É melhor evitar decisões importantes, mas se precisar, revise tudo com atenção e esteja aberto a ajustes."
+  },
+  {
+   "q": "Quanto tempo dura Mercúrio retrógrado?",
+   "a": "Geralmente, cerca de três semanas, em três períodos diferentes ao longo do ano, com datas que mudam a cada ano."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas grátis",
+  "articles": "Artigos",
+  "faq": "Perguntas frequentes",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "daily-message",
+ "term": "what-is-mercury-retrograde"
+}
