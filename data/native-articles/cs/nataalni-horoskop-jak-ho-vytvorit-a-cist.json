@@ -1,0 +1,65 @@
+{
+ "lang": "cs",
+ "keyword": "natální horoskop",
+ "volume": 246000,
+ "slug": "nataalni-horoskop-jak-ho-vytvorit-a-cist",
+ "date": "2026-11-27",
+ "title": "Natální horoskop: jak ho vytvořit a číst krok za krokem",
+ "description": "Jak vytvořit natální horoskop online a přečíst Slunce, Měsíc a ascendent – jednoduše a s příklady.",
+ "intro": "Natální horoskop je jako fotografie oblohy v okamžiku vašeho narození. Online vznikne za pár minut, ale kruh plný symbolů může zmást. Tady je to nejdůležitější.",
+ "sections": [
+  {
+   "h2": "Co potřebujete",
+   "paragraphs": [
+    "Potřebujete datum narození, co nejpřesnější čas a místo. Čas je důležitý, protože ascendent mění znamení zhruba každé dvě hodiny.",
+    "Příklad: Eva se narodila v 7:40 v Brně. Při 9:40 by měla jiný ascendent. Čas často najdete v rodném listu."
+   ]
+  },
+  {
+   "h2": "Začněte „velkou trojkou“",
+   "paragraphs": [
+    "Slunce, Měsíc a ascendent jsou jádrem: Slunce je vaše podstata, Měsíc city a návyky, ascendent první dojem.",
+    "Slunce v Býku, Měsíc v Panně a ascendent v Beranu: navenek rázný, uvnitř klidný a praktický."
+   ]
+  },
+  {
+   "h2": "Planety, domy a aspekty",
+   "paragraphs": [
+    "Planety říkají „co“, znamení „jak“ a domy „kde“ (práce, láska, domov). Aspekty jsou úhly mezi planetami: trigon a sextil plynou lehce, kvadratura a opozice dávají napětí, které pomáhá růst."
+   ]
+  },
+  {
+   "h2": "Časté chyby začátečníků",
+   "paragraphs": [
+    "Nevyvozujte závěry z jedné planety a nebojte se „těžkých“ aspektů. Každý horoskop má silné stránky. Není to předpověď osudu."
+   ]
+  },
+  {
+   "h2": "Využití v běžném životě",
+   "paragraphs": [
+    "Zapište si tři silné stránky a tři oblasti růstu a porovnejte se životem. Astrologie je pak nástroj sebepoznání. Nenahrazuje lékaře, právníka ani finančního poradce."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jde to bez času narození?",
+   "a": "Ano, ale bez ascendentu a domů. Slunce a planety ve znameních jsou správně."
+  },
+  {
+   "q": "Jaký je rozdíl oproti denním horoskopům?",
+   "a": "Natální horoskop je jen váš; denní platí pro všechny daného znamení."
+  },
+  {
+   "q": "Jsou online výpočty přesné?",
+   "a": "Pozice planet jsou astronomicky přesné; výklad závisí na přístupu."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ }
+}

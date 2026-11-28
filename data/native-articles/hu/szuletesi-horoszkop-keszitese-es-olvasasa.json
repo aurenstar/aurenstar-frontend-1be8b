@@ -1,0 +1,65 @@
+{
+ "lang": "hu",
+ "keyword": "születési horoszkóp",
+ "volume": 246000,
+ "slug": "szuletesi-horoszkop-keszitese-es-olvasasa",
+ "date": "2026-11-27",
+ "title": "Születési horoszkóp: így készítsd el és olvasd lépésről lépésre",
+ "description": "Így készíthetsz születési horoszkópot online, és olvashatod ki a Napot, a Holdat és az aszcendenst – egyszerűen, példákkal.",
+ "intro": "A születési horoszkóp olyan, mint az ég fényképe a születésed pillanatában. Online percek alatt elkészül, de a szimbólumokkal teli kör összezavarhat. Íme a lényeg.",
+ "sections": [
+  {
+   "h2": "Mi kell hozzá?",
+   "paragraphs": [
+    "Kell a születési dátum, a lehető legpontosabb időpont és a születési hely. Az idő azért fontos, mert az aszcendens nagyjából kétóránként vált jegyet.",
+    "Példa: Eszter 7:40-kor született Szegeden. 9:40-nel más aszcendense lenne. Az időpont gyakran szerepel a születési anyakönyvben."
+   ]
+  },
+  {
+   "h2": "Kezdd a „nagy hármassal”",
+   "paragraphs": [
+    "A Nap, a Hold és az aszcendens az alap: a Nap a lényeged, a Hold az érzelmeid és szokásaid, az aszcendens az első benyomás.",
+    "Nap a Bikában, Hold a Szűzben, Kos aszcendens: kifelé határozott, belül nyugodt és gyakorlatias."
+   ]
+  },
+  {
+   "h2": "Bolygók, házak és szögek",
+   "paragraphs": [
+    "A bolygók a „mit”, a jegyek a „hogyan”, a házak a „hol” (munka, szerelem, otthon) mutatják. A szögek a bolygók közti kapcsolatok: a trigon és szextil könnyen folyik, a négyzet és szembenállás feszültséget ad, ami fejleszt."
+   ]
+  },
+  {
+   "h2": "Gyakori kezdő hibák",
+   "paragraphs": [
+    "Ne következtess egyetlen bolygóból, és ne félj a „nehéz” szögektől. Minden horoszkópban vannak erősségek. Nem sorsjóslás."
+   ]
+  },
+  {
+   "h2": "Használat a hétköznapokban",
+   "paragraphs": [
+    "Írj le három erősséget és három fejlődési területet, és vesd össze az életeddel. Így az asztrológia önismereti eszköz. Nem helyettesíti az orvost, ügyvédet vagy pénzügyi tanácsadót."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Megy születési idő nélkül?",
+   "a": "Igen, de aszcendens és házak nélkül. A Nap és a bolygók jegyei így is helyesek."
+  },
+  {
+   "q": "Mi a különbség a napi horoszkóphoz képest?",
+   "a": "A születési horoszkóp csak a tiéd; a napi minden azonos jegyűre vonatkozik."
+  },
+  {
+   "q": "Pontosak az online számítások?",
+   "a": "A bolygók helyzete csillagászatilag pontos; az értelmezés a megközelítéstől függ."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ }
+}

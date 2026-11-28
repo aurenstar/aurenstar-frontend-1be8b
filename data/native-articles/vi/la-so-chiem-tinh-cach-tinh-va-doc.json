@@ -1,0 +1,66 @@
+{
+ "lang": "vi",
+ "keyword": "lá số chiêm tinh",
+ "volume": 246000,
+ "slug": "la-so-chiem-tinh-cach-tinh-va-doc",
+ "date": "2026-11-27",
+ "title": "Lá số chiêm tinh (natal chart): cách tính và đọc từng bước",
+ "description": "Cách lập lá số chiêm tinh online và đọc Mặt Trời, Mặt Trăng, Cung Mọc – dễ hiểu, có ví dụ.",
+ "intro": "Lá số chiêm tinh giống như bức ảnh bầu trời lúc bạn chào đời. Lập online chỉ vài phút, nhưng vòng tròn đầy ký hiệu dễ gây rối. Đây là những điều cốt lõi.",
+ "sections": [
+  {
+   "h2": "Cần chuẩn bị gì",
+   "paragraphs": [
+    "Bạn cần ngày sinh, giờ sinh càng chính xác càng tốt và nơi sinh. Giờ sinh quan trọng vì Cung Mọc đổi cung khoảng mỗi hai giờ.",
+    "Ví dụ: Lan sinh lúc 7 giờ 40 ở Đà Nẵng. Nếu nhập 9 giờ 40, Cung Mọc sẽ khác. Giờ sinh thường có trong giấy khai sinh."
+   ]
+  },
+  {
+   "h2": "Bắt đầu từ “bộ ba lớn”",
+   "paragraphs": [
+    "Mặt Trời, Mặt Trăng và Cung Mọc là cốt lõi: Mặt Trời là bản chất, Mặt Trăng là cảm xúc và thói quen, Cung Mọc là ấn tượng đầu tiên.",
+    "Mặt Trời Kim Ngưu, Mặt Trăng Xử Nữ, Cung Mọc Bạch Dương: bên ngoài thẳng thắn, bên trong điềm tĩnh và thực tế."
+   ]
+  },
+  {
+   "h2": "Hành tinh, nhà và góc chiếu",
+   "paragraphs": [
+    "Hành tinh cho biết “cái gì”, cung cho biết “như thế nào”, nhà cho biết “ở đâu” (công việc, tình yêu, gia đình). Góc chiếu là góc giữa các hành tinh: tam hợp và lục hợp êm ả, vuông góc và đối đỉnh tạo căng thẳng giúp trưởng thành."
+   ]
+  },
+  {
+   "h2": "Lỗi người mới hay gặp",
+   "paragraphs": [
+    "Đừng kết luận chỉ từ một hành tinh và đừng sợ các góc “khó”. Lá số nào cũng có điểm mạnh. Đây cũng không phải lời tiên đoán số phận."
+   ]
+  },
+  {
+   "h2": "Dùng trong đời sống hằng ngày",
+   "paragraphs": [
+    "Hãy viết ra ba điểm mạnh và ba lĩnh vực cần phát triển rồi đối chiếu với đời sống. Khi đó chiêm tinh là công cụ hiểu mình. Nó không thay lời khuyên của bác sĩ, luật sư hay chuyên gia tài chính."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Không biết giờ sinh có lập được không?",
+   "a": "Được, nhưng không có Cung Mọc và các nhà. Mặt Trời và hành tinh vẫn đúng."
+  },
+  {
+   "q": "Khác gì cung hoàng đạo hằng ngày?",
+   "a": "Lá số chỉ của riêng bạn; cung hằng ngày áp dụng cho mọi người cùng cung."
+  },
+  {
+   "q": "Tính online có chính xác không?",
+   "a": "Vị trí hành tinh chính xác về thiên văn; phần diễn giải tùy cách tiếp cận."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ chiêm tinh miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc thêm",
+  "dictionary": "Từ điển chiêm tinh"
+ }
+}

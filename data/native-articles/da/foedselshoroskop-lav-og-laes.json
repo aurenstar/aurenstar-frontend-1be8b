@@ -1,0 +1,65 @@
+{
+ "lang": "da",
+ "keyword": "fødselshoroskop",
+ "volume": 246000,
+ "slug": "foedselshoroskop-lav-og-laes",
+ "date": "2026-11-27",
+ "title": "Fødselshoroskop: sådan laver og læser du det trin for trin",
+ "description": "Sådan laver du dit fødselshoroskop online og læser sol, måne og ascendant – forklaret enkelt med eksempler.",
+ "intro": "Et fødselshoroskop er som et foto af himlen i det øjeblik, du blev født. Online tager det få minutter, men cirklen fuld af symboler kan forvirre. Her er det vigtigste.",
+ "sections": [
+  {
+   "h2": "Det skal du bruge",
+   "paragraphs": [
+    "Du skal bruge fødselsdato, så præcist et klokkeslæt som muligt og fødested. Tiden er vigtig, fordi ascendanten skifter tegn cirka hver anden time.",
+    "Eksempel: Sofie blev født kl. 07.40 i Aarhus. Med kl. 09.40 får hun en anden ascendant. Tiden står ofte på fødselsattesten."
+   ]
+  },
+  {
+   "h2": "Start med de ”tre store”",
+   "paragraphs": [
+    "Sol, måne og ascendant er kernen: solen er dit væsen, månen dine følelser og vaner, ascendanten dit første indtryk.",
+    "Sol i Tyren, måne i Jomfruen og Vædder-ascendant: direkte udadtil, rolig og praktisk indeni."
+   ]
+  },
+  {
+   "h2": "Planeter, huse og aspekter",
+   "paragraphs": [
+    "Planeter viser ”hvad”, tegn ”hvordan” og huse ”hvor” (job, kærlighed, hjem). Aspekter er vinkler mellem planeter: trigon og sekstil flyder let, kvadrat og opposition giver spænding, der får dig til at vokse."
+   ]
+  },
+  {
+   "h2": "Typiske begyndefejl",
+   "paragraphs": [
+    "Træk ikke konklusioner ud fra én planet, og frygt ikke ”svære” aspekter. Alle horoskoper har styrker. Det er heller ikke en forudsigelse af skæbnen."
+   ]
+  },
+  {
+   "h2": "Brug det i hverdagen",
+   "paragraphs": [
+    "Skriv tre styrker og tre udviklingsområder ned og sammenlign med dit liv. Så bliver astrologi et redskab til selvindsigt. Det erstatter ikke læge, jurist eller økonomisk rådgiver."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kan man uden fødselstidspunkt?",
+   "a": "Ja, men uden ascendant og huse. Sol og planeter i tegnene er stadig rigtige."
+  },
+  {
+   "q": "Forskel på dagshoroskop?",
+   "a": "Fødselshoroskopet er kun dit; dagshoroskopet gælder alle med samme tegn."
+  },
+  {
+   "q": "Er onlineberegninger præcise?",
+   "a": "Planeternes positioner er astronomisk korrekte; tolkningen afhænger af tilgangen."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ }
+}

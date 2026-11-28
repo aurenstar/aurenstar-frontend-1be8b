@@ -1,0 +1,65 @@
+{
+ "lang": "pl",
+ "keyword": "horoskop urodzeniowy",
+ "volume": 246000,
+ "slug": "horoskop-urodzeniowy-jak-stworzyc-i-czytac",
+ "date": "2026-11-27",
+ "title": "Horoskop urodzeniowy: jak go stworzyć i czytać krok po kroku",
+ "description": "Jak stworzyć horoskop urodzeniowy online i odczytać Słońce, Księżyc i ascendent – prosto i z przykładami.",
+ "intro": "Horoskop urodzeniowy to jak zdjęcie nieba z chwili Twoich narodzin. Online powstaje w kilka minut, ale koło pełne symboli może zmylić. Oto najważniejsze rzeczy.",
+ "sections": [
+  {
+   "h2": "Co jest potrzebne",
+   "paragraphs": [
+    "Potrzebujesz daty urodzenia, możliwie dokładnej godziny i miejsca. Godzina jest ważna, bo ascendent zmienia znak mniej więcej co dwie godziny.",
+    "Przykład: Ania urodziła się o 7:40 w Poznaniu. Przy 9:40 miałaby inny ascendent. Godzinę często znajdziesz w akcie urodzenia."
+   ]
+  },
+  {
+   "h2": "Zacznij od „wielkiej trójki”",
+   "paragraphs": [
+    "Słońce, Księżyc i ascendent to podstawa: Słońce to Twoja istota, Księżyc emocje i nawyki, ascendent pierwsze wrażenie.",
+    "Słońce w Byku, Księżyc w Pannie i ascendent w Baranie: na zewnątrz zdecydowana, w środku spokojna i praktyczna."
+   ]
+  },
+  {
+   "h2": "Planety, domy i aspekty",
+   "paragraphs": [
+    "Planety mówią „co”, znaki „jak”, a domy „gdzie” (praca, miłość, dom). Aspekty to kąty między planetami: trygon i sekstyl płyną lekko, kwadratura i opozycja dają napięcie, które pomaga rosnąć."
+   ]
+  },
+  {
+   "h2": "Błędy początkujących",
+   "paragraphs": [
+    "Nie wyciągaj wniosków z jednej planety i nie bój się „trudnych” aspektów. Każdy horoskop ma mocne strony. To też nie wyrocznia losu."
+   ]
+  },
+  {
+   "h2": "Jak używać horoskopu na co dzień",
+   "paragraphs": [
+    "Zapisz trzy mocne strony i trzy obszary rozwoju i porównaj z życiem. Wtedy astrologia staje się narzędziem poznawania siebie. Nie zastępuje lekarza, prawnika ani doradcy finansowego."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy da się bez godziny urodzenia?",
+   "a": "Tak, ale bez ascendentu i domów. Słońce i planety w znakach są nadal poprawne."
+  },
+  {
+   "q": "Czym różni się od horoskopu dziennego?",
+   "a": "Horoskop urodzeniowy jest tylko Twój; dzienny dotyczy wszystkich z danego znaku."
+  },
+  {
+   "q": "Czy kalkulatory online są dokładne?",
+   "a": "Pozycje planet są astronomicznie dokładne; interpretacja zależy od podejścia."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia astrologiczne",
+  "articles": "Lista artykułów",
+  "faq": "Najczęstsze pytania",
+  "more": "Czytaj dalej"
+ }
+}

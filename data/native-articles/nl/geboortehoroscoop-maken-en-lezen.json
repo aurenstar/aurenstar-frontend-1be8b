@@ -1,0 +1,65 @@
+{
+ "lang": "nl",
+ "keyword": "geboortehoroscoop",
+ "volume": 246000,
+ "slug": "geboortehoroscoop-maken-en-lezen",
+ "date": "2026-11-27",
+ "title": "Geboortehoroscoop maken en lezen: stap voor stap",
+ "description": "Zo maak je online je geboortehoroscoop en lees je zon, maan en ascendant, eenvoudig uitgelegd met voorbeelden.",
+ "intro": "Een geboortehoroscoop is als een foto van de hemel op het moment van je geboorte. Online is hij in een paar minuten gemaakt, maar de cirkel vol symbolen kan verwarrend zijn. Dit zijn de belangrijkste punten.",
+ "sections": [
+  {
+   "h2": "Wat heb je nodig?",
+   "paragraphs": [
+    "Je hebt je geboortedatum, een zo precies mogelijke geboortetijd en je geboorteplaats nodig. De tijd is belangrijk omdat de ascendant ongeveer elke twee uur van teken wisselt.",
+    "Voorbeeld: Lisa is om 07.40 uur in Utrecht geboren. Met 09.40 uur krijgt ze een andere ascendant. Je vindt de tijd vaak op je geboorteakte."
+   ]
+  },
+  {
+   "h2": "Begin met de “grote drie”",
+   "paragraphs": [
+    "Zon, maan en ascendant vormen de kern: de zon is je wezen, de maan je gevoelens en gewoonten, de ascendant je eerste indruk.",
+    "Zon in Stier, maan in Maagd en Ram-ascendant: van buiten direct, van binnen rustig en praktisch."
+   ]
+  },
+  {
+   "h2": "Planeten, huizen en aspecten",
+   "paragraphs": [
+    "Planeten tonen het “wat”, tekens het “hoe” en huizen het “waar” (werk, liefde, thuis). Aspecten zijn hoeken tussen planeten: trigoon en sextiel lopen soepel, kwadraat en oppositie geven spanning die groei brengt."
+   ]
+  },
+  {
+   "h2": "Veelgemaakte beginnersfouten",
+   "paragraphs": [
+    "Trek geen conclusies uit één planeet en wees niet bang voor “moeilijke” aspecten. Elke horoscoop heeft sterke punten. Het is ook geen voorspelling van je lot."
+   ]
+  },
+  {
+   "h2": "Gebruik in het dagelijks leven",
+   "paragraphs": [
+    "Schrijf drie sterke punten en drie groeigebieden op en vergelijk ze met je leven. Zo wordt astrologie een hulpmiddel om jezelf te leren kennen. Het vervangt geen arts, jurist of financieel adviseur."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kan het zonder geboortetijd?",
+   "a": "Ja, maar zonder ascendant en huizen. Zon en planeten in de tekens blijven kloppen."
+  },
+  {
+   "q": "Wat is het verschil met een dagelijkse horoscoop?",
+   "a": "De geboortehoroscoop is alleen van jou; de dagelijkse geldt voor iedereen met hetzelfde teken."
+  },
+  {
+   "q": "Hoe nauwkeurig zijn online rekenhulpen?",
+   "a": "De planeetstanden zijn astronomisch exact; de duiding hangt van de aanpak af."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "lang": "fi",
+ "keyword": "syntymähoroskooppi",
+ "volume": 246000,
+ "slug": "syntymahoroskooppi-tee-ja-lue",
+ "date": "2026-11-27",
+ "title": "Syntymähoroskooppi: näin teet ja luet sen vaihe vaiheelta",
+ "description": "Näin teet syntymähoroskoopin netissä ja luet Auringon, Kuun ja nousevan merkin – yksinkertaisesti esimerkein.",
+ "intro": "Syntymähoroskooppi on kuin valokuva taivaasta syntymäsi hetkellä. Netissä se syntyy minuuteissa, mutta symbolien täyttämä ympyrä voi hämmentää. Tässä olennaisin.",
+ "sections": [
+  {
+   "h2": "Mitä tarvitset",
+   "paragraphs": [
+    "Tarvitset syntymäpäivän, mahdollisimman tarkan kellonajan ja syntymäpaikan. Kellonaika on tärkeä, koska nouseva merkki vaihtuu noin kahden tunnin välein.",
+    "Esimerkki: Aino syntyi klo 7.40 Tampereella. Klo 9.40 hänellä olisi eri nouseva merkki. Aika löytyy usein syntymätodistuksesta."
+   ]
+  },
+  {
+   "h2": "Aloita ”isosta kolmikosta”",
+   "paragraphs": [
+    "Aurinko, Kuu ja nouseva merkki ovat ydin: Aurinko on olemuksesi, Kuu tunteet ja tavat, nouseva merkki ensivaikutelma.",
+    "Aurinko Härässä, Kuu Neitsyessä ja nouseva Oinas: ulospäin suora, sisältä rauhallinen ja käytännöllinen."
+   ]
+  },
+  {
+   "h2": "Planeetat, huoneet ja aspektit",
+   "paragraphs": [
+    "Planeetat kertovat ”mitä”, merkit ”miten” ja huoneet ”missä” (työ, rakkaus, koti). Aspektit ovat planeettojen välisiä kulmia: trigoni ja sekstiili sujuvat helposti, neliö ja oppositio tuovat jännitettä, joka auttaa kasvamaan."
+   ]
+  },
+  {
+   "h2": "Aloittelijan yleiset virheet",
+   "paragraphs": [
+    "Älä päättele yhden planeetan perusteella äläkä pelkää ”vaikeita” aspekteja. Jokaisella horoskoopilla on vahvuuksia. Se ei ole kohtalon ennustus."
+   ]
+  },
+  {
+   "h2": "Käyttö arjessa",
+   "paragraphs": [
+    "Kirjoita ylös kolme vahvuutta ja kolme kasvualuetta ja vertaa elämääsi. Silloin astrologia on itsetuntemuksen työkalu. Se ei korvaa lääkäriä, juristia tai talousneuvojaa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Onnistuuko ilman syntymäaikaa?",
+   "a": "Kyllä, mutta ilman nousevaa merkkiä ja huoneita. Aurinko ja planeetat merkeissä pitävät paikkansa."
+  },
+  {
+   "q": "Mikä ero on päivähoroskooppiin?",
+   "a": "Syntymähoroskooppi on vain sinun; päivähoroskooppi koskee kaikkia samassa merkissä."
+  },
+  {
+   "q": "Ovatko verkkolaskurit tarkkoja?",
+   "a": "Planeettojen asemat ovat tähtitieteellisesti tarkat; tulkinta riippuu lähestymistavasta."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ }
+}

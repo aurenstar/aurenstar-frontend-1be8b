@@ -1,0 +1,65 @@
+{
+ "lang": "ro",
+ "keyword": "hartă natală",
+ "volume": 246000,
+ "slug": "harta-natala-cum-o-calculezi-si-o-citesti",
+ "date": "2026-11-27",
+ "title": "Harta natală: cum o calculezi și o citești pas cu pas",
+ "description": "Cum calculezi harta natală online și citești Soarele, Luna și ascendentul – simplu, cu exemple.",
+ "intro": "Harta natală este ca o fotografie a cerului în clipa nașterii tale. Online se face în câteva minute, dar cercul plin de simboluri poate încurca. Iată esențialul.",
+ "sections": [
+  {
+   "h2": "Ce ai nevoie",
+   "paragraphs": [
+    "Ai nevoie de data nașterii, ora cât mai exactă și locul. Ora contează pentru că ascendentul își schimbă semnul cam la două ore.",
+    "Exemplu: Ana s-a născut la 7:40 la Cluj. Cu 9:40 ar avea alt ascendent. Ora apare adesea în certificatul de naștere."
+   ]
+  },
+  {
+   "h2": "Începe cu „cei trei mari”",
+   "paragraphs": [
+    "Soarele, Luna și ascendentul sunt nucleul: Soarele e esența ta, Luna emoțiile și obiceiurile, ascendentul prima impresie.",
+    "Soare în Taur, Lună în Fecioară și ascendent Berbec: direct la exterior, calm și practic înăuntru."
+   ]
+  },
+  {
+   "h2": "Planete, case și aspecte",
+   "paragraphs": [
+    "Planetele spun „ce”, semnele „cum”, casele „unde” (muncă, iubire, casă). Aspectele sunt unghiuri între planete: trigonul și sextilul curg ușor, pătratul și opoziția dau tensiune care ajută să crești."
+   ]
+  },
+  {
+   "h2": "Greșeli frecvente ale începătorilor",
+   "paragraphs": [
+    "Nu trage concluzii dintr-o singură planetă și nu te teme de aspectele „grele”. Orice hartă are puncte forte. Nu este o prezicere a destinului."
+   ]
+  },
+  {
+   "h2": "Cum o folosești în viața de zi cu zi",
+   "paragraphs": [
+    "Notează trei puncte forte și trei zone de dezvoltare și compară-le cu viața ta. Astrologia devine un instrument de cunoaștere de sine. Nu înlocuiește medicul, avocatul sau consilierul financiar."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Se poate fără ora nașterii?",
+   "a": "Da, dar fără ascendent și case. Soarele și planetele în semne rămân corecte."
+  },
+  {
+   "q": "Care e diferența față de horoscopul zilnic?",
+   "a": "Harta natală e doar a ta; horoscopul zilnic e pentru toți cei din aceeași zodie."
+  },
+  {
+   "q": "Sunt exacte calculatoarele online?",
+   "a": "Pozițiile planetelor sunt exacte astronomic; interpretarea depinde de abordare."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ }
+}

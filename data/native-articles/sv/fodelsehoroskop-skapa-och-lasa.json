@@ -1,0 +1,65 @@
+{
+ "lang": "sv",
+ "keyword": "födelsehoroskop",
+ "volume": 246000,
+ "slug": "fodelsehoroskop-skapa-och-lasa",
+ "date": "2026-11-27",
+ "title": "Födelsehoroskop: så skapar och läser du det steg för steg",
+ "description": "Så skapar du ditt födelsehoroskop online och läser sol, måne och ascendent – enkelt förklarat med exempel.",
+ "intro": "Ett födelsehoroskop är som ett foto av himlen i ögonblicket du föddes. Online tar det några minuter, men cirkeln full av symboler kan verka rörig. Här är det viktigaste.",
+ "sections": [
+  {
+   "h2": "Vad du behöver",
+   "paragraphs": [
+    "Du behöver födelsedatum, så exakt tid som möjligt och födelseort. Tiden är viktig eftersom ascendenten byter tecken ungefär varannan timme.",
+    "Exempel: Sara föddes 07.40 i Göteborg. Med 09.40 får hon en annan ascendent. Tiden står ofta i födelsebeviset."
+   ]
+  },
+  {
+   "h2": "Börja med de ”tre stora”",
+   "paragraphs": [
+    "Sol, måne och ascendent är grunden: solen är ditt väsen, månen dina känslor och vanor, ascendenten ditt första intryck.",
+    "Sol i Oxen, måne i Jungfrun och Väduren som ascendent: rak utåt, lugn och praktisk inombords."
+   ]
+  },
+  {
+   "h2": "Planeter, hus och aspekter",
+   "paragraphs": [
+    "Planeterna visar ”vad”, tecknen ”hur” och husen ”var” (jobb, kärlek, hem). Aspekter är vinklar mellan planeter: trigon och sextil flyter lätt, kvadrat och opposition ger spänning som får dig att växa."
+   ]
+  },
+  {
+   "h2": "Vanliga nybörjarmisstag",
+   "paragraphs": [
+    "Dra inte slutsatser av en enda planet och var inte rädd för ”svåra” aspekter. Varje horoskop har styrkor. Det är heller ingen förutsägelse av ödet."
+   ]
+  },
+  {
+   "h2": "Använd det i vardagen",
+   "paragraphs": [
+    "Skriv ner tre styrkor och tre utvecklingsområden och jämför med ditt liv. Då blir astrologi ett verktyg för självkännedom. Den ersätter inte läkare, jurist eller ekonomisk rådgivare."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Går det utan födelsetid?",
+   "a": "Ja, men utan ascendent och hus. Sol och planeter i tecknen stämmer ändå."
+  },
+  {
+   "q": "Skillnad mot dagshoroskop?",
+   "a": "Födelsehoroskopet är bara ditt; dagshoroskopet gäller alla med samma tecken."
+  },
+  {
+   "q": "Hur exakta är onlineräknare?",
+   "a": "Planeternas lägen är astronomiskt exakta; tolkningen beror på metod."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ }
+}
