@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "retrograd planet",
+ "volume": "1000",
+ "slug": "retrograd-planet-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retrograd planet: vad betyder det?",
+ "description": "En planet verkar ibland gå baklänges på himlen. Det kallas retrograd. Enkelt förklarat med exempel.",
+ "intro": "Retrograd betyder att en planet sett från jorden verkar gå bakåt. I astrologin är det en tid för att se över, sakta ner och göra om.",
+ "sections": [
+  {
+   "h2": "Vad är retrograd?",
+   "paragraphs": [
+    "Tänk på ett tåg som kör om dig: en stund verkar ditt tåg backa. Det är en synvilla, men astrologer ser det som en signal att ta det lugnare."
+   ]
+  },
+  {
+   "h2": "Vad gör du?",
+   "paragraphs": [
+    "Använd perioden till att avsluta det som ligger, kontrollera och tänka om. Starta helst inga stora nya saker."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Under Merkurius retrograd hittar Rosa en gammal vän och rättar till ett glömt avtal. Hon väntar med att skriva på ett nytt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Är retrograd farligt?",
+   "a": "Nej, det är en tid för eftertanke, inte panik."
+  },
+  {
+   "q": "Vilka planeter går retrograda?",
+   "a": "Alla utom solen och månen; Merkurius oftast."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

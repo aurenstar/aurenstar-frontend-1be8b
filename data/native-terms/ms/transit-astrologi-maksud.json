@@ -1,0 +1,49 @@
+{
+ "lang": "ms",
+ "keyword": "transit",
+ "volume": "1000",
+ "slug": "transit-astrologi-maksud",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Transit dalam astrologi: apa itu?",
+ "description": "Transit ialah planet yang sedang melalui satu titik dalam carta kelahiran anda. Mudah, dengan contoh.",
+ "intro": "Transit ialah planet yang hari ini berada di langit dan menyentuh satu titik dalam carta kelahiran anda. Dengan itu anda nampak tema yang sedang aktif dalam hidup.",
+ "sections": [
+  {
+   "h2": "Apakah transit?",
+   "paragraphs": [
+    "Carta anda ialah gambar langit semasa anda lahir. Transit ialah planet hari ini yang bergerak melepasi gambar itu. Begitulah tempoh tenang dan bergolak kelihatan."
+   ]
+  },
+  {
+   "h2": "Bagaimana menggunakannya?",
+   "paragraphs": [
+    "Lihat planet perlahan seperti Zuhal dan Musytari: transit mereka berlangsung berbulan. Planet pantas seperti Bulan hanya terasa beberapa hari."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Musytari melalui rumah kesepuluh Aina. Tahun itu dia mendapat lebih banyak peluang kerja dan kenaikan pangkat."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Adakah transit ramalan?",
+   "a": "Tidak, ia menunjukkan tema dan masa, tetapi anda yang memutuskan apa yang dilakukan."
+  },
+  {
+   "q": "Berapa lama satu transit?",
+   "a": "Daripada beberapa jam (Bulan) hingga bertahun (Pluto), bergantung pada planet."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "tranzit",
+ "volume": "1000",
+ "slug": "tranzit-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Tranzit az asztrológiában: mi ez?",
+ "description": "A tranzit egy bolygó, amely éppen most halad át a születési képleted egy pontján. Egyszerűen, példával.",
+ "intro": "A tranzit egy bolygó, amely ma az égen áll, és érinti a születési képleted egy pontját. Így látod, mely témák aktuálisak most az életedben.",
+ "sections": [
+  {
+   "h2": "Mi a tranzit?",
+   "paragraphs": [
+    "A képleted az ég pillanatfelvétele a születésedkor. A tranzitok a mai bolygók, amelyek e kép mellett haladnak el. Így látszanak a nyugodt és a viharos időszakok."
+   ]
+  },
+  {
+   "h2": "Hogyan használd?",
+   "paragraphs": [
+    "Figyeld a lassú bolygókat, mint a Szaturnusz és a Jupiter: tranzitjuk hónapokig tart. A gyors bolygók, mint a Hold, csak napokig érezhetők."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "A Jupiter Anna tizedik házán halad át. Abban az évben több esélye lesz a munkában, és előléptetést kap."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "A tranzitok jóslatok?",
+   "a": "Nem, témákat és időzítést mutatnak, de te döntöd el, mit kezdesz velük."
+  },
+  {
+   "q": "Meddig tart egy tranzit?",
+   "a": "Néhány órától (Hold) évekig (Plútó), a bolygótól függően."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

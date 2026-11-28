@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "tranzit",
+ "volume": "1000",
+ "slug": "tranzit-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Tranzitul în astrologie: ce este?",
+ "description": "Tranzitul este o planetă care trece acum printr-un punct din harta ta natală. Explicat simplu, cu exemplu.",
+ "intro": "Tranzitul este o planetă aflată azi pe cer care atinge un punct din harta ta natală. Așa vezi ce teme sunt actuale în viața ta.",
+ "sections": [
+  {
+   "h2": "Ce este un tranzit?",
+   "paragraphs": [
+    "Harta ta este o fotografie a cerului la naștere. Tranzitele sunt planetele de azi care se mișcă pe lângă ea. Așa se văd perioadele liniștite și cele furtunoase."
+   ]
+  },
+  {
+   "h2": "Cum îl folosești?",
+   "paragraphs": [
+    "Urmărește planetele lente, ca Saturn și Jupiter: tranzitele lor durează luni. Planetele rapide, ca Luna, se simt doar câteva zile."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Jupiter trece prin casa a zecea a Anei. Anul acela are mai multe șanse la job și o promovare."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Sunt tranzitele predicții?",
+   "a": "Nu, arată teme și momente, dar tu alegi ce faci cu ele."
+  },
+  {
+   "q": "Cât durează un tranzit?",
+   "a": "De la câteva ore (Luna) la ani (Pluto), în funcție de planetă."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

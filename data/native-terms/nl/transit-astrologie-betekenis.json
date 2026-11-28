@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "transit",
+ "volume": "1000",
+ "slug": "transit-astrologie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Transit in de astrologie: wat is het?",
+ "description": "Een transit is een planeet die nu langs een punt in je geboortekaart trekt. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "Een transit is een planeet die vandaag aan de hemel staat en een punt in je geboortekaart raakt. Zo zie je welke thema’s nu in je leven spelen.",
+ "sections": [
+  {
+   "h2": "Wat is een transit?",
+   "paragraphs": [
+    "Je geboortekaart is een foto van de hemel bij je geboorte. Transits zijn de planeten van nu die langs die foto bewegen. Zo wordt een rustige periode of een drukke periode zichtbaar."
+   ]
+  },
+  {
+   "h2": "Hoe gebruik je het?",
+   "paragraphs": [
+    "Kijk naar langzame planeten zoals Saturnus en Jupiter: hun transits duren maanden. Snelle planeten zoals de Maan zijn maar dagen merkbaar."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Jupiter trekt door Anna’s tiende huis. Ze krijgt in dat jaar meer kansen in haar werk en een promotie."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Zijn transits voorspellingen?",
+   "a": "Nee, ze tonen thema’s en timing, maar jij kiest wat je ermee doet."
+  },
+  {
+   "q": "Hoe lang duurt een transit?",
+   "a": "Van een paar uur (Maan) tot jaren (Pluto), afhankelijk van de planeet."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

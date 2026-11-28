@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "tranzitas",
+ "volume": "1000",
+ "slug": "tranzitas-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Tranzitas astrologijoje: kas tai?",
+ "description": "Tranzitas – planeta, kuri dabar praeina tavo gimimo žemėlapio tašką. Paprastai, su pavyzdžiu.",
+ "intro": "Tranzitas – tai planeta, šiandien esanti danguje ir liečianti tavo gimimo žemėlapio tašką. Taip matai, kurios temos dabar aktualios tavo gyvenime.",
+ "sections": [
+  {
+   "h2": "Kas yra tranzitas?",
+   "paragraphs": [
+    "Tavo žemėlapis – dangaus nuotrauka gimimo metu. Tranzitai – šiandienos planetos, judančios pro ją. Taip matosi ramūs ir audringi laikotarpiai."
+   ]
+  },
+  {
+   "h2": "Kaip juo naudotis?",
+   "paragraphs": [
+    "Stebėk lėtas planetas, tokias kaip Saturnas ir Jupiteris: jų tranzitai trunka mėnesius. Greitas, kaip Mėnulis, jaučiamas tik kelias dienas."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Jupiteris praeina pro Anos dešimtus namus. Tais metais ji turi daugiau galimybių darbe ir gauna paaukštinimą."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar tranzitai yra pranašystės?",
+   "a": "Ne, jie rodo temas ir laiką, bet tu nusprendi, ką daryti."
+  },
+  {
+   "q": "Kiek trunka tranzitas?",
+   "a": "Nuo kelių valandų (Mėnulis) iki metų (Plutonas), priklausomai nuo planetos."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

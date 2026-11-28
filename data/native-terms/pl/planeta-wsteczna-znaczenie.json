@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "planeta wsteczna",
+ "volume": "1000",
+ "slug": "planeta-wsteczna-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Planeta wsteczna: co to oznacza?",
+ "description": "Planeta czasem wydaje się cofać na niebie. To ruch wsteczny. Wyjaśnione prosto, z przykładem.",
+ "intro": "Ruch wsteczny oznacza, że planeta z Ziemi wydaje się cofać. W astrologii to czas na przegląd, spowolnienie i powtórki.",
+ "sections": [
+  {
+   "h2": "Czym jest ruch wsteczny?",
+   "paragraphs": [
+    "Wyobraź sobie pociąg, który Cię wyprzedza: przez chwilę Twój pociąg wydaje się jechać do tyłu. To złudzenie, ale astrolodzy widzą w nim sygnał do zwolnienia."
+   ]
+  },
+  {
+   "h2": "Co z tym zrobić?",
+   "paragraphs": [
+    "Wykorzystaj ten czas, by dokończyć zaległe sprawy, sprawdzić i przemyśleć. Lepiej nie zaczynać wielkich nowych rzeczy."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Podczas wstecznego Merkurego Róża odnajduje starego przyjaciela i poprawia zapomnianą umowę. Podpisanie nowej odkłada."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy ruch wsteczny jest groźny?",
+   "a": "Nie, to czas na refleksję, nie na panikę."
+  },
+  {
+   "q": "Które planety bywają wsteczne?",
+   "a": "Wszystkie oprócz Słońca i Księżyca; najczęściej Merkury."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

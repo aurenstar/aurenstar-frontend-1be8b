@@ -1,0 +1,49 @@
+{
+ "lang": "ms",
+ "keyword": "planet retrograde",
+ "volume": "1000",
+ "slug": "planet-retrograde-maksud",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Planet retrograde: apa maksudnya?",
+ "description": "Kadangkala planet kelihatan bergerak ke belakang di langit. Ini dipanggil retrograde. Mudah, dengan contoh.",
+ "intro": "Retrograde bermaksud planet, dilihat dari Bumi, kelihatan bergerak ke belakang. Dalam astrologi, ia masa untuk menyemak, memperlahankan dan mengulang.",
+ "sections": [
+  {
+   "h2": "Apakah retrograde?",
+   "paragraphs": [
+    "Bayangkan kereta api memotong anda: seketika kereta api anda seolah-olah mengundur. Itu ilusi mata, tetapi ahli astrologi melihatnya sebagai isyarat untuk perlahan."
+   ]
+  },
+  {
+   "h2": "Apa yang dibuat?",
+   "paragraphs": [
+    "Gunakan tempoh ini untuk menyiapkan yang tertangguh, menyemak dan memikir semula. Elakkan memulakan perkara besar yang baharu."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Semasa Utarid retrograde, Aina berjumpa semula kawan lama dan membetulkan kontrak yang terlupa. Dia menangguhkan menandatangani kontrak baharu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Adakah retrograde berbahaya?",
+   "a": "Tidak, ia masa untuk merenung, bukan panik."
+  },
+  {
+   "q": "Planet mana yang retrograde?",
+   "a": "Semua kecuali Matahari dan Bulan; Utarid paling kerap."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

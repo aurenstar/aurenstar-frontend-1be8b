@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "trànsit",
+ "volume": "1000",
+ "slug": "transit-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trànsit en astrologia: què és?",
+ "description": "Un trànsit és un planeta que ara mateix passa per un punt de la teva carta natal. Explicat fàcil, amb exemple.",
+ "intro": "Un trànsit és un planeta que avui és al cel i toca un punt de la teva carta natal. Així veus quins temes són actuals a la teva vida.",
+ "sections": [
+  {
+   "h2": "Què és un trànsit?",
+   "paragraphs": [
+    "La teva carta és una foto del cel quan vas néixer. Els trànsits són els planetes d’avui que es mouen al costat d’aquesta foto. Així es veuen els períodes tranquils i els tempestuosos."
+   ]
+  },
+  {
+   "h2": "Com l’utilitzes?",
+   "paragraphs": [
+    "Mira els planetes lents, com Saturn i Júpiter: els seus trànsits duren mesos. Els ràpids, com la Lluna, només es noten uns dies."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Júpiter passa per la casa deu de l’Anna. Aquell any té més oportunitats a la feina i un ascens."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Els trànsits són prediccions?",
+   "a": "No, mostren temes i moments, però tu decideixes què en fas."
+  },
+  {
+   "q": "Quant dura un trànsit?",
+   "a": "Des d’unes hores (Lluna) fins a anys (Plutó), segons el planeta."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

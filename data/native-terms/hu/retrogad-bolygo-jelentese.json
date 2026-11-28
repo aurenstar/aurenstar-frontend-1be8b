@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "retrográd bolygó",
+ "volume": "1000",
+ "slug": "retrogad-bolygo-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retrográd bolygó: mit jelent?",
+ "description": "A bolygó néha visszafelé látszik haladni az égen. Ezt hívják retrográdnak. Egyszerűen, példával.",
+ "intro": "A retrográd azt jelenti, hogy egy bolygó a Földről nézve visszafelé haladni látszik. Az asztrológiában ez az átnézés, lassítás és újrakezdés ideje.",
+ "sections": [
+  {
+   "h2": "Mi a retrográd?",
+   "paragraphs": [
+    "Gondolj egy vonatra, ami megelőz: egy pillanatra úgy tűnik, a te vonatod tolat. Ez érzékcsalódás, de az asztrológusok jelzésnek tekintik, hogy lassíts."
+   ]
+  },
+  {
+   "h2": "Mit tegyél?",
+   "paragraphs": [
+    "Használd az időt a félbehagyott dolgok befejezésére, ellenőrzésre és újragondolásra. Nagy új dolgokba inkább ne kezdj."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "A Merkúr retrográdja alatt Rózsa megtalálja egy régi barátját és helyrehoz egy elfelejtett szerződést. Az újat későbbre halasztja."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Veszélyes a retrográd?",
+   "a": "Nem, a gondolkodás ideje, nem a pánik."
+  },
+  {
+   "q": "Mely bolygók lesznek retrográdok?",
+   "a": "Mind, kivéve a Napot és a Holdat; leggyakrabban a Merkúr."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "transit",
+ "volume": "1000",
+ "slug": "transit-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Transit sa Astrolohiya: Ano Ito?",
+ "description": "Ang transit ay planetang dumaraan ngayon sa isang punto ng birth chart mo. Simple, may halimbawa.",
+ "intro": "Ang transit ay planetang nasa langit ngayon at humahawak sa isang punto ng birth chart mo. Makikita mo kung anong mga tema ang aktibo ngayon sa buhay mo.",
+ "sections": [
+  {
+   "h2": "Ano ang transit?",
+   "paragraphs": [
+    "Ang birth chart mo ay larawan ng langit nang ipanganak ka. Ang transit ay mga planeta ngayon na gumagalaw sa tabi ng larawang iyon. Kaya nakikita ang tahimik at magulong yugto."
+   ]
+  },
+  {
+   "h2": "Paano ito gagamitin?",
+   "paragraphs": [
+    "Tingnan ang mabagal na planeta tulad ng Saturn at Jupiter: buwan ang tagal ng transit nila. Ang mabilis tulad ng Buwan ay ilang araw lang ramdam."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Dumaraan ang Jupiter sa ikasampung bahay ni Mika. Sa taong iyon, mas maraming pagkakataon sa trabaho at nakakuha siya ng promosyon."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hula ba ang transit?",
+   "a": "Hindi, ipinapakita nito ang mga tema at tiyempo, pero ikaw ang magpapasya kung ano ang gagawin."
+  },
+  {
+   "q": "Gaano katagal ang isang transit?",
+   "a": "Depende sa planeta, mula ilang oras (Buwan) hanggang ilang taon (Pluto)."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "retrograde na planeta",
+ "volume": "1000",
+ "slug": "retrograde-planeta-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retrograde na Planeta: Ano ang Ibig Sabihin?",
+ "description": "Minsan parang paurong ang lakad ng planeta sa langit. Tinatawag itong retrograde. Simple, may halimbawa.",
+ "intro": "Ang retrograde ay kapag ang planeta, sa tingin mula sa Mundo, ay parang paurong ang galaw. Sa astrolohiya, panahon ito para magrepaso, magdahan-dahan, at ulitin.",
+ "sections": [
+  {
+   "h2": "Ano ang retrograde?",
+   "paragraphs": [
+    "Isipin ang tren na nilalampasan ka: sandali, parang umaatras ang tren mo. Ilusyon ito, pero tinitingnan ito ng mga astrologo bilang hudyat na magdahan-dahan."
+   ]
+  },
+  {
+   "h2": "Ano ang gagawin?",
+   "paragraphs": [
+    "Gamitin ang panahong ito para tapusin ang naiwan, mag-check, at mag-isip muli. Mas mabuting huwag magsimula ng malalaking bagong bagay."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Sa Mercury retrograde, nakita ni Mika ang matandang kaibigan at inayos ang nakalimutang kontrata. Ipinagpaliban niya ang pagpirma ng bago."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Delikado ba ang retrograde?",
+   "a": "Hindi, panahon ito ng pagninilay, hindi ng pagpapanic."
+  },
+  {
+   "q": "Aling planeta ang nagre-retrograde?",
+   "a": "Lahat maliban sa Araw at Buwan; ang Mercury ang pinakamadalas."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

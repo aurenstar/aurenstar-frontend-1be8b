@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "planeta retrògrad",
+ "volume": "1000",
+ "slug": "planeta-retrograd-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Planeta retrògrad: què significa?",
+ "description": "De vegades un planeta sembla anar enrere al cel. S’anomena retrogradació. Explicat fàcil, amb exemple.",
+ "intro": "Retrògrad vol dir que un planeta, vist des de la Terra, sembla anar enrere. En astrologia és un temps per revisar, alentir i repetir.",
+ "sections": [
+  {
+   "h2": "Què és la retrogradació?",
+   "paragraphs": [
+    "Pensa en un tren que et supera: per un moment el teu tren sembla anar enrere. És una il·lusió òptica, però els astròlegs hi veuen un senyal per anar més a poc a poc."
+   ]
+  },
+  {
+   "h2": "Què fas?",
+   "paragraphs": [
+    "Aprofita el període per acabar el que has deixat, revisar i replantejar. Millor no començar coses grans de nou."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Durant Mercuri retrògrad, la Rosa retroba un vell amic i arregla un contracte oblidat. Ajorna signar-ne un de nou."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "La retrogradació és perillosa?",
+   "a": "No, és un temps de reflexió, no de pànic."
+  },
+  {
+   "q": "Quins planetes van retrògrads?",
+   "a": "Tots menys el Sol i la Lluna; Mercuri el més sovint."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

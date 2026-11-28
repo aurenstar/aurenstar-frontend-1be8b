@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "retrograde planeet",
+ "volume": "1000",
+ "slug": "retrograde-planeet-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retrograde planeet: wat betekent het?",
+ "description": "Een planeet lijkt soms achteruit te lopen aan de hemel. Dat heet retrograde. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "Retrograde betekent dat een planeet vanaf de aarde gezien achteruit lijkt te lopen. In de astrologie is dat een tijd om te herzien, te vertragen en opnieuw te doen.",
+ "sections": [
+  {
+   "h2": "Wat is retrograde?",
+   "paragraphs": [
+    "Denk aan een trein die jou inhaalt: voor even lijkt jouw trein achteruit te rijden. Dat is een schijnbeweging, maar astrologen zien het als een signaal om langzamer te doen."
+   ]
+  },
+  {
+   "h2": "Wat doe je ermee?",
+   "paragraphs": [
+    "Gebruik de periode om af te maken wat blijft liggen, te controleren en te heroverwegen. Begin liever geen grote nieuwe dingen."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Tijdens Mercurius retrograde vindt Roos een oude vriend terug en repareert ze een vergeten contract. Ze wacht met het tekenen van een nieuw contract."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is retrograde gevaarlijk?",
+   "a": "Nee, het is een tijd voor reflectie, niet voor paniek."
+  },
+  {
+   "q": "Welke planeten gaan retrograde?",
+   "a": "Alle planeten behalve Zon en Maan; Mercurius het vaakst."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

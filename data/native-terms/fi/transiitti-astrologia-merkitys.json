@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "transiitti",
+ "volume": "1000",
+ "slug": "transiitti-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Transiitti astrologiassa: mikä se on?",
+ "description": "Transiitti on planeetta, joka juuri nyt ohittaa pisteen syntymäkartassasi. Selitetty esimerkillä.",
+ "intro": "Transiitti on planeetta, joka on tänään taivaalla ja koskettaa syntymäkarttasi pistettä. Näin näet, mitkä teemat ovat nyt ajankohtaisia elämässäsi.",
+ "sections": [
+  {
+   "h2": "Mikä transiitti on?",
+   "paragraphs": [
+    "Syntymäkarttasi on kuva taivaasta syntyessäsi. Transiitit ovat tämän päivän planeettoja, jotka liikkuvat sen ohi. Näin näkyvät rauhalliset ja myrskyisät jaksot."
+   ]
+  },
+  {
+   "h2": "Miten sitä käytetään?",
+   "paragraphs": [
+    "Katso hitaita planeettoja, kuten Saturnusta ja Jupiteria: niiden transiitit kestävät kuukausia. Nopeat planeetat, kuten Kuu, tuntuvat vain päiviä."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Jupiter ohittaa Annan kymmenennen huoneen. Sinä vuonna hän saa enemmän mahdollisuuksia työssä ja ylennyksen."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ovatko transiitit ennustuksia?",
+   "a": "Eivät, ne näyttävät teemoja ja ajoitusta, mutta sinä päätät, mitä teet."
+  },
+  {
+   "q": "Kuinka kauan transiitti kestää?",
+   "a": "Muutamasta tunnista (Kuu) vuosiin (Pluto) planeetasta riippuen."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "retrograadne planeet",
+ "volume": "1000",
+ "slug": "retrograadne-planeet-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retrograadne planeet: mida see tähendab?",
+ "description": "Planeet näib vahel taevas tagurpidi liikuvat. Seda nimetatakse retrograadseks. Lihtsalt ja näitega.",
+ "intro": "Retrograadne tähendab, et planeet näib Maalt vaadates tagurpidi liikuvat. Astroloogias on see aeg üle vaadata, aeglustada ja uuesti teha.",
+ "sections": [
+  {
+   "h2": "Mis on retrograad?",
+   "paragraphs": [
+    "Mõtle rongile, mis sind möödub: hetkeks tundub, et sinu rong tagurdab. See on optiline pettus, kuid astroloogid näevad selles märki aeglustada."
+   ]
+  },
+  {
+   "h2": "Mida teha?",
+   "paragraphs": [
+    "Kasuta perioodi poolelijäänu lõpetamiseks, kontrollimiseks ja ümbermõtlemiseks. Ära alusta suuri uusi asju."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Merkuuri retrograadi ajal leiab Roosi vana sõbra ja parandab unustatud lepingu. Uue allkirjastamise lükkab edasi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas retrograad on ohtlik?",
+   "a": "Ei, see on järelemõtlemise aeg, mitte paanika."
+  },
+  {
+   "q": "Millised planeedid lähevad retrograadi?",
+   "a": "Kõik peale Päikese ja Kuu; Merkuur kõige sagedamini."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

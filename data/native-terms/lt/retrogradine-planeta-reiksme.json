@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "retrogradinė planeta",
+ "volume": "1000",
+ "slug": "retrogradine-planeta-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retrogradinė planeta: ką tai reiškia?",
+ "description": "Planeta kartais atrodo judanti atgal dangumi. Tai vadinama retrogradu. Paprastai, su pavyzdžiu.",
+ "intro": "Retrogradas reiškia, kad planeta, žiūrint iš Žemės, atrodo juda atgal. Astrologijoje tai laikas peržiūrėti, sulėtinti ir kartoti.",
+ "sections": [
+  {
+   "h2": "Kas yra retrogradas?",
+   "paragraphs": [
+    "Įsivaizduok traukinį, kuris tave aplenkia: akimirką atrodo, kad tavo traukinys važiuoja atgal. Tai optinis apgaulė, bet astrologai tai mato kaip ženklą sulėtinti."
+   ]
+  },
+  {
+   "h2": "Ką daryti?",
+   "paragraphs": [
+    "Pasinaudok laikotarpiu užbaigti nebaigtus darbus, patikrinti ir permąstyti. Geriau nepradėk didelių naujų dalykų."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Per retrogradinį Merkurijų Rūta suranda seną draugą ir sutvarko užmirštą sutartį. Naujos pasirašymą atideda."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar retrogradas pavojingas?",
+   "a": "Ne, tai apmąstymų, o ne panikos laikas."
+  },
+  {
+   "q": "Kurios planetos eina retrogradu?",
+   "a": "Visos, išskyrus Saulę ir Mėnulį; dažniausiai Merkurijus."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "tranzyt",
+ "volume": "1000",
+ "slug": "tranzyt-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Tranzyt w astrologii: co to jest?",
+ "description": "Tranzyt to planeta, która właśnie teraz przechodzi przez punkt na Twojej mapie urodzeniowej. Prosto, z przykładem.",
+ "intro": "Tranzyt to planeta, która dziś stoi na niebie i dotyka punktu na Twojej mapie urodzeniowej. Dzięki temu widzisz, jakie tematy są teraz aktualne w Twoim życiu.",
+ "sections": [
+  {
+   "h2": "Czym jest tranzyt?",
+   "paragraphs": [
+    "Twoja mapa to zdjęcie nieba z chwili urodzenia. Tranzyty to dzisiejsze planety poruszające się obok tego zdjęcia. Tak widać spokojne i burzliwe okresy."
+   ]
+  },
+  {
+   "h2": "Jak z niego korzystać?",
+   "paragraphs": [
+    "Patrz na wolne planety, jak Saturn i Jowisz: ich tranzyty trwają miesiące. Szybkie planety, jak Księżyc, czuć tylko kilka dni."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Jowisz przechodzi przez dziesiąty dom Ani. W tym roku ma więcej szans w pracy i awans."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy tranzyty to przepowiednie?",
+   "a": "Nie, pokazują tematy i czas, ale to Ty decydujesz, co z nimi zrobisz."
+  },
+  {
+   "q": "Jak długo trwa tranzyt?",
+   "a": "Od kilku godzin (Księżyc) po lata (Pluton), zależnie od planety."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

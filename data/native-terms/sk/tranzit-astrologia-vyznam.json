@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "tranzit",
+ "volume": "1000",
+ "slug": "tranzit-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Tranzit v astrológii: čo to je?",
+ "description": "Tranzit je planéta, ktorá práve teraz prechádza bodom vo vašom rodnom horoskope. Jednoducho s príkladom.",
+ "intro": "Tranzit je planéta, ktorá dnes stojí na oblohe a dotýka sa bodu vo vašom rodnom horoskope. Tak uvidíte, ktoré témy sú vo vašom živote práve aktuálne.",
+ "sections": [
+  {
+   "h2": "Čo je tranzit?",
+   "paragraphs": [
+    "Váš horoskop je snímka oblohy pri narodení. Tranzity sú dnešné planéty, ktoré sa okolo nej pohybujú. Tak vidíte pokojné aj búrlivé obdobia."
+   ]
+  },
+  {
+   "h2": "Ako ho používať?",
+   "paragraphs": [
+    "Sledujte pomalé planéty ako Saturn a Jupiter: ich tranzity trvajú mesiace. Rýchle planéty ako Mesiac je cítiť len pár dní."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Jupiter prechádza Aniným desiatym domom. Ten rok má viac šancí v práci a povýšenie."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Sú tranzity predpovede?",
+   "a": "Nie, ukazujú témy a načasovanie, ale čo s nimi urobíte, rozhodujete vy."
+  },
+  {
+   "q": "Ako dlho tranzit trvá?",
+   "a": "Od pár hodín (Mesiac) po roky (Pluto), podľa planéty."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

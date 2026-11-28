@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "transitt",
+ "volume": "1000",
+ "slug": "transitt-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Transitt i astrologi: hva er det?",
+ "description": "En transitt er en planet som akkurat nå passerer et punkt i horoskopet ditt. Enkelt forklart med eksempel.",
+ "intro": "En transitt er en planet som står på himmelen i dag og berører et punkt i fødselshoroskopet ditt. Slik ser du hvilke temaer som er aktuelle i livet ditt.",
+ "sections": [
+  {
+   "h2": "Hva er en transitt?",
+   "paragraphs": [
+    "Horoskopet ditt er et bilde av himmelen da du ble født. Transitter er dagens planeter som beveger seg forbi bildet. Slik vises både rolige og stormfulle perioder."
+   ]
+  },
+  {
+   "h2": "Hvordan bruker du det?",
+   "paragraphs": [
+    "Se på trege planeter som Saturn og Jupiter: transittene deres varer i måneder. Raske planeter som Månen merkes bare i dager."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Jupiter passerer Annes tiende hus. Det året får hun flere sjanser i jobben og en forfremmelse."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Er transitter spådommer?",
+   "a": "Nei, de viser temaer og timing, men du velger hva du gjør."
+  },
+  {
+   "q": "Hvor lenge varer en transitt?",
+   "a": "Fra noen timer (Månen) til år (Pluto), avhengig av planeten."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

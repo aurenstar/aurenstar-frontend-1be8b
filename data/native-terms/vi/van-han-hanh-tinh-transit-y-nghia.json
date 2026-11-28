@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "vận hạn hành tinh",
+ "volume": "1000",
+ "slug": "van-han-hanh-tinh-transit-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Transit (hành tinh quá cảnh) là gì?",
+ "description": "Transit là hành tinh đang đi qua một điểm trong lá số của bạn lúc này. Giải thích đơn giản, có ví dụ.",
+ "intro": "Transit là hành tinh hôm nay đang ở trên trời và chạm vào một điểm trong lá số của bạn. Nhờ đó bạn thấy chủ đề nào đang nổi lên trong cuộc sống.",
+ "sections": [
+  {
+   "h2": "Transit là gì?",
+   "paragraphs": [
+    "Lá số là bức ảnh bầu trời lúc bạn sinh ra. Transit là các hành tinh hôm nay di chuyển ngang bức ảnh đó. Nhờ vậy thấy được giai đoạn yên ả và giai đoạn sóng gió."
+   ]
+  },
+  {
+   "h2": "Cách dùng",
+   "paragraphs": [
+    "Hãy xem các hành tinh chậm như Thổ Tinh và Mộc Tinh: transit của chúng kéo dài nhiều tháng. Hành tinh nhanh như Mặt Trăng chỉ cảm nhận vài ngày."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Mộc Tinh đi qua Nhà 10 của Lan. Năm đó cô có thêm cơ hội trong công việc và được thăng chức."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Transit có phải lời tiên đoán không?",
+   "a": "Không, chúng chỉ cho thấy chủ đề và thời điểm, còn bạn quyết định làm gì."
+  },
+  {
+   "q": "Một transit kéo dài bao lâu?",
+   "a": "Từ vài giờ (Mặt Trăng) đến nhiều năm (Diêm Vương Tinh), tùy hành tinh."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

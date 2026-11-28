@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "retrogrāda planēta",
+ "volume": "1000",
+ "slug": "retrograda-planeta-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retrogrāda planēta: ko tas nozīmē?",
+ "description": "Planēta dažkārt šķiet virzāmies atpakaļ pa debesīm. To sauc par retrogrādu. Vienkārši, ar piemēru.",
+ "intro": "Retrogrāds nozīmē, ka planēta, raugoties no Zemes, šķiet virzāmies atpakaļ. Astroloģijā tas ir laiks pārskatīt, palēnināt un atkārtot.",
+ "sections": [
+  {
+   "h2": "Kas ir retrogrāds?",
+   "paragraphs": [
+    "Iedomājies vilcienu, kas tevi apdzen: brīdi šķiet, ka tavs vilciens brauc atpakaļ. Tā ir optiska ilūzija, bet astrologi to redz kā zīmi palēnināties."
+   ]
+  },
+  {
+   "h2": "Ko darīt?",
+   "paragraphs": [
+    "Izmanto periodu, lai pabeigtu nepabeigto, pārbaudītu un pārdomātu. Labāk nesāc lielas jaunas lietas."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Merkura retrogrāda laikā Roze atrod vecu draugu un sakārto aizmirstu līgumu. Jauna parakstīšanu atliek."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai retrogrāds ir bīstams?",
+   "a": "Nē, tas ir pārdomu, nevis panikas laiks."
+  },
+  {
+   "q": "Kuras planētas iet retrogrādā?",
+   "a": "Visas, izņemot Sauli un Mēnesi; visbiežāk Merkurs."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

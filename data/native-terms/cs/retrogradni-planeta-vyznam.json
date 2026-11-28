@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "retrográdní planeta",
+ "volume": "1000",
+ "slug": "retrogradni-planeta-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retrográdní planeta: co to znamená?",
+ "description": "Planeta se občas zdánlivě pohybuje po obloze zpět. Říká se tomu retrográdní pohyb. Jednoduše s příkladem.",
+ "intro": "Retrográdní znamená, že se planeta při pohledu ze Země zdánlivě pohybuje zpět. V astrologii je to čas na revizi, zpomalení a opakování.",
+ "sections": [
+  {
+   "h2": "Co je retrográdní pohyb?",
+   "paragraphs": [
+    "Představte si vlak, který vás předjíždí: na okamžik se zdá, že váš vlak couvá. Je to optický klam, ale astrologové v něm vidí signál zpomalit."
+   ]
+  },
+  {
+   "h2": "Co s tím?",
+   "paragraphs": [
+    "Využijte období k dokončení rozdělaného, kontrole a přehodnocení. Raději nezačínejte velké nové věci."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Při retrográdním Merkuru najde Růža starého přítele a opraví zapomenutou smlouvu. Nový podpis odloží."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je retrográdní pohyb nebezpečný?",
+   "a": "Ne, je to čas na zamyšlení, ne na paniku."
+  },
+  {
+   "q": "Které planety bývají retrográdní?",
+   "a": "Všechny kromě Slunce a Měsíce; nejčastěji Merkur."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

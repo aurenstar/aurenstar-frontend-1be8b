@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "tranzīts",
+ "volume": "1000",
+ "slug": "tranzits-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Tranzīts astroloģijā: kas tas ir?",
+ "description": "Tranzīts ir planēta, kas tieši tagad iet cauri punktam tavā dzimšanas kartē. Vienkārši, ar piemēru.",
+ "intro": "Tranzīts ir planēta, kas šodien atrodas debesīs un skar punktu tavā dzimšanas kartē. Tā redzi, kuras tēmas tagad ir aktuālas tavā dzīvē.",
+ "sections": [
+  {
+   "h2": "Kas ir tranzīts?",
+   "paragraphs": [
+    "Tava karte ir debesu foto tavā dzimšanas brīdī. Tranzīti ir šodienas planētas, kas virzās garām tai. Tā redzami mierīgie un vētrainie periodi."
+   ]
+  },
+  {
+   "h2": "Kā to izmantot?",
+   "paragraphs": [
+    "Skaties uz lēnajām planētām, piemēram, Saturnu un Jupiteru: to tranzīti ilgst mēnešus. Ātrās, kā Mēness, jūtamas tikai dažas dienas."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Jupiters iet cauri Annas desmitajai mājai. Tajā gadā viņai ir vairāk iespēju darbā un paaugstinājums."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai tranzīti ir pareģojumi?",
+   "a": "Nē, tie rāda tēmas un laiku, bet tu izlem, ko ar tiem darīt."
+  },
+  {
+   "q": "Cik ilgi ilgst tranzīts?",
+   "a": "No dažām stundām (Mēness) līdz gadiem (Plutons), atkarībā no planētas."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

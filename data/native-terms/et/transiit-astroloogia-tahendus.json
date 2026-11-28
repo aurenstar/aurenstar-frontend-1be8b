@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "transiit",
+ "volume": "1000",
+ "slug": "transiit-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Transiit astroloogias: mis see on?",
+ "description": "Transiit on planeet, mis parajasti läbib punkti sinu sünnikaardil. Lihtsalt ja näitega.",
+ "intro": "Transiit on planeet, mis täna taevas seisab ja puudutab punkti sinu sünnikaardil. Nii näed, millised teemad on praegu sinu elus aktuaalsed.",
+ "sections": [
+  {
+   "h2": "Mis on transiit?",
+   "paragraphs": [
+    "Sinu kaart on taevapilt sünnihetkest. Transiidid on tänased planeedid, mis liiguvad sellest pildist mööda. Nii paistavad rahulikud ja tormised perioodid."
+   ]
+  },
+  {
+   "h2": "Kuidas seda kasutada?",
+   "paragraphs": [
+    "Jälgi aeglasi planeete, nagu Saturn ja Jupiter: nende transiidid kestavad kuid. Kiired, nagu Kuu, on tuntavad vaid päevi."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Jupiter läbib Anna kümnendat maja. Sel aastal on tal tööl rohkem võimalusi ja ta saab ametikõrgenduse."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas transiidid on ennustused?",
+   "a": "Ei, need näitavad teemasid ja ajastust, kuid sina otsustad, mida sellega teed."
+  },
+  {
+   "q": "Kui kaua transiit kestab?",
+   "a": "Mõnest tunnist (Kuu) aastateni (Pluuto), olenevalt planeedist."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

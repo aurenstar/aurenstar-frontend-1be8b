@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "planetă retrogradă",
+ "volume": "1000",
+ "slug": "planeta-retrograda-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Planetă retrogradă: ce înseamnă?",
+ "description": "O planetă pare uneori că merge înapoi pe cer. Se numește retrogradare. Explicat simplu, cu exemplu.",
+ "intro": "Retrograd înseamnă că o planetă, văzută de pe Pământ, pare să meargă înapoi. În astrologie e un timp de revizuit, încetinit și refăcut.",
+ "sections": [
+  {
+   "h2": "Ce este retrogradarea?",
+   "paragraphs": [
+    "Gândește-te la un tren care te depășește: o clipă trenul tău pare să dea înapoi. E o iluzie optică, dar astrologii o văd ca semnal să încetinești."
+   ]
+  },
+  {
+   "h2": "Ce faci?",
+   "paragraphs": [
+    "Folosește perioada ca să termini ce a rămas, să verifici și să reconsideri. Mai bine nu începe lucruri mari noi."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "În retrogradarea lui Mercur, Roza regăsește un vechi prieten și repară un contract uitat. Amână semnarea unuia nou."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Este retrogradarea periculoasă?",
+   "a": "Nu, e un timp de reflecție, nu de panică."
+  },
+  {
+   "q": "Care planete devin retrograde?",
+   "a": "Toate în afară de Soare și Lună; Mercur cel mai des."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

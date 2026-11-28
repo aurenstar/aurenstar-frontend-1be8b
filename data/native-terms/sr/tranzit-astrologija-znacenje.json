@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "tranzit",
+ "volume": "1000",
+ "slug": "tranzit-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Tranzit u astrologiji: šta je?",
+ "description": "Tranzit je planeta koja upravo sada prolazi kroz tačku tvoje natalne karte. Jednostavno, sa primerom.",
+ "intro": "Tranzit je planeta koja danas stoji na nebu i dodiruje tačku tvoje natalne karte. Tako vidiš koje su teme sada aktuelne u tvom životu.",
+ "sections": [
+  {
+   "h2": "Šta je tranzit?",
+   "paragraphs": [
+    "Tvoja karta je snimak neba pri rođenju. Tranziti su današnje planete koje se kreću pored nje. Tako se vide mirna i olujna razdoblja."
+   ]
+  },
+  {
+   "h2": "Kako ga koristiti?",
+   "paragraphs": [
+    "Gledaj spore planete, poput Saturna i Jupitera: njihovi tranziti traju mesecima. Brze planete, poput Meseca, osetiš samo nekoliko dana."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Jupiter prolazi kroz deseti dom Ane. Te godine ima više prilika na poslu i napredovanje."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jesu li tranziti predviđanja?",
+   "a": "Ne, pokazuju teme i vreme, ali ti biraš šta ćeš s tim."
+  },
+  {
+   "q": "Koliko traje tranzit?",
+   "a": "Od nekoliko sati (Mesec) do godina (Pluton), zavisno od planete."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

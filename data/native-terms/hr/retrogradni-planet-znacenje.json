@@ -1,0 +1,49 @@
+{
+ "lang": "hr",
+ "keyword": "retrogradni planet",
+ "volume": "1000",
+ "slug": "retrogradni-planet-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retrogradni planet: što znači?",
+ "description": "Planet se ponekad čini da ide unatrag po nebu. To je retrogradno kretanje. Jednostavno, s primjerom.",
+ "intro": "Retrogradno znači da se planet, gledano sa Zemlje, čini da ide unatrag. U astrologiji je to vrijeme za preispitivanje, usporavanje i ponavljanje.",
+ "sections": [
+  {
+   "h2": "Što je retrogradno kretanje?",
+   "paragraphs": [
+    "Zamisli vlak koji te pretječe: na tren se čini da tvoj vlak ide unatrag. To je optička varka, ali astrolozi u tome vide znak da uspore."
+   ]
+  },
+  {
+   "h2": "Što učiniti?",
+   "paragraphs": [
+    "Iskoristi razdoblje za dovršavanje započetog, provjeru i preispitivanje. Bolje ne započinji velike nove stvari."
+   ]
+  },
+  {
+   "h2": "Primjer",
+   "paragraphs": [
+    "Tijekom retrogradnog Merkura Ruža pronalazi starog prijatelja i ispravlja zaboravljen ugovor. Potpisivanje novog odgađa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je li retrogradno opasno?",
+   "a": "Ne, to je vrijeme za razmišljanje, ne za paniku."
+  },
+  {
+   "q": "Koji planeti idu retrogradno?",
+   "a": "Svi osim Sunca i Mjeseca; Merkur najčešće."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

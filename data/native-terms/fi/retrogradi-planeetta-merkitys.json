@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "retrogradi planeetta",
+ "volume": "1000",
+ "slug": "retrogradi-planeetta-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retrogradi planeetta: mitä se tarkoittaa?",
+ "description": "Planeetta näyttää joskus kulkevan taaksepäin taivaalla. Sitä kutsutaan retrogradiksi. Selitetty esimerkillä.",
+ "intro": "Retrogradi tarkoittaa, että planeetta näyttää maasta katsottuna kulkevan taaksepäin. Astrologiassa se on aika tarkistaa, hidastaa ja tehdä uudelleen.",
+ "sections": [
+  {
+   "h2": "Mitä retrogradi on?",
+   "paragraphs": [
+    "Ajattele junaa, joka ohittaa sinut: hetken oma junasi näyttää peruuttavan. Se on näköharha, mutta astrologit näkevät sen merkkinä rauhoittua."
+   ]
+  },
+  {
+   "h2": "Mitä teet?",
+   "paragraphs": [
+    "Käytä jaksoa keskeneräisen viimeistelyyn, tarkistamiseen ja uudelleenarviointiin. Älä aloita isoja uusia asioita."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Merkuriuksen retrogradin aikana Rosa löytää vanhan ystävän ja korjaa unohtuneen sopimuksen. Hän odottaa uuden sopimuksen allekirjoittamista."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Onko retrogradi vaarallinen?",
+   "a": "Ei, se on pohdinnan aikaa, ei paniikin."
+  },
+  {
+   "q": "Mitkä planeetat kulkevat retrogradina?",
+   "a": "Kaikki paitsi Aurinko ja Kuu; Merkurius useimmin."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}
