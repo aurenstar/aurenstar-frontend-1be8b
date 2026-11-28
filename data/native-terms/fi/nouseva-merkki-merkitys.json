@@ -1,0 +1,53 @@
+{
+ "lang": "fi",
+ "keyword": "nouseva merkki",
+ "volume": "1000",
+ "slug": "nouseva-merkki-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nouseva merkki: mikä se on ja mitä se tarkoittaa?",
+ "description": "Nouseva merkki eli askendentti on merkki, joka nousi itäiselle taivaanrannalle syntyessäsi. Selitetty yksinkertaisesti esimerkillä.",
+ "intro": "Nouseva merkki on se horoskooppimerkki, joka nousi itäiselle taivaanrannalle syntymäsi hetkellä. Se kuvaa ensivaikutelmaasi ja tapaasi kohdata uusia tilanteita.",
+ "sections": [
+  {
+   "h2": "Mikä nouseva merkki on?",
+   "paragraphs": [
+    "Noin kahden tunnin välein taivaanrannalle nousee uusi merkki. Se merkki on nousevasi. Siksi kaksi samana päivänä syntynyttä voi saada eri nousevan merkin."
+   ]
+  },
+  {
+   "h2": "Miten löydät nousevan merkkisi?",
+   "paragraphs": [
+    "Tarvitset syntymäpäivän, mahdollisimman tarkan kellonajan ja syntymäpaikan. Ilmainen laskuri hoitaa lopun sekunneissa."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Aino on Rapu (aurinko), mutta hänen nouseva merkkinsä on Oinas. Muut näkevät hänet suorana ja energisenä, ystävät tuntevat hänen pehmeän, huolehtivan puolensa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Onko nouseva merkki tärkeämpi kuin aurinkomerkki?",
+   "a": "Ne täydentävät toisiaan: aurinko on ydin, nouseva merkki säteily."
+  },
+  {
+   "q": "Voinko tietää nousevan merkin ilman syntymäaikaa?",
+   "a": "En varmasti, koska se vaihtuu noin kahden tunnin välein."
+  },
+  {
+   "q": "Muuttuuko nouseva merkki elämän aikana?",
+   "a": "Ei, se liittyy syntymäsi aikaan ja paikkaan."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

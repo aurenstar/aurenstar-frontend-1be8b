@@ -1,0 +1,53 @@
+{
+ "lang": "nl",
+ "keyword": "ascendant",
+ "volume": "1000",
+ "slug": "ascendant-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ascendant: wat is het en wat betekent het?",
+ "description": "De ascendant (stijgend teken) is het teken dat bij je geboorte aan de oostelijke horizon opkwam. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "Je ascendant is het sterrenteken dat op het moment van je geboorte aan de oostelijke horizon opkwam. Hij beschrijft je eerste indruk en de manier waarop je nieuwe situaties tegemoet treedt.",
+ "sections": [
+  {
+   "h2": "Wat is de ascendant?",
+   "paragraphs": [
+    "Elke twee uur komt er een ander teken boven de horizon. Dat teken is je ascendant. Daarom hebben twee mensen met dezelfde verjaardag soms een heel andere ascendant."
+   ]
+  },
+  {
+   "h2": "Hoe vind je je ascendant?",
+   "paragraphs": [
+    "Je hebt je geboortedatum, een zo precies mogelijke geboortetijd en je geboorteplaats nodig. Een gratis rekentool doet de rest in een paar seconden."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Femke is Kreeft (zon), maar heeft Ram als ascendant. Mensen zien haar als direct en energiek; vrienden kennen haar zachte, zorgzame kant."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is de ascendant belangrijker dan mijn zonneteken?",
+   "a": "Ze vullen elkaar aan: het zonneteken is je kern, de ascendant je uitstraling."
+  },
+  {
+   "q": "Kan ik mijn ascendant zonder geboortetijd weten?",
+   "a": "Niet nauwkeurig, want hij wisselt ongeveer elke twee uur van teken."
+  },
+  {
+   "q": "Verandert mijn ascendant in de loop van het leven?",
+   "a": "Nee, hij hangt vast aan het moment en de plaats van je geboorte."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

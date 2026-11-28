@@ -1,0 +1,53 @@
+{
+ "lang": "pl",
+ "keyword": "ascendent",
+ "volume": "1000",
+ "slug": "ascendent-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ascendent: co to jest i co oznacza?",
+ "description": "Ascendent to znak, który wschodził na wschodnim horyzoncie w chwili Twoich narodzin. Prosto, z przykładem.",
+ "intro": "Ascendent to znak zodiaku, który w chwili Twoich narodzin wschodził nad wschodnim horyzontem. Opisuje pierwsze wrażenie i sposób, w jaki podchodzisz do nowych sytuacji.",
+ "sections": [
+  {
+   "h2": "Czym jest ascendent?",
+   "paragraphs": [
+    "Mniej więcej co dwie godziny nad horyzont wschodzi nowy znak. To Twój ascendent. Dlatego dwie osoby urodzone tego samego dnia mogą mieć zupełnie inny ascendent."
+   ]
+  },
+  {
+   "h2": "Jak go znaleźć?",
+   "paragraphs": [
+    "Potrzebujesz daty urodzenia, możliwie dokładnej godziny i miejsca. Resztę w kilka sekund zrobi darmowy kalkulator."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Ola jest Rakiem (Słońce), ale ma ascendent w Baranie. Inni widzą ją jako bezpośrednią i energiczną, a przyjaciele znają jej łagodną, opiekuńczą stronę."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy ascendent jest ważniejszy niż znak słoneczny?",
+   "a": "Uzupełniają się: Słońce to Twoje jądro, ascendent to Twoja aura."
+  },
+  {
+   "q": "Czy da się poznać ascendent bez godziny urodzenia?",
+   "a": "Nie dokładnie, bo zmienia się mniej więcej co dwie godziny."
+  },
+  {
+   "q": "Czy ascendent zmienia się w ciągu życia?",
+   "a": "Nie, jest związany z czasem i miejscem urodzenia."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,53 @@
+{
+ "lang": "cs",
+ "keyword": "ascendent",
+ "volume": "1000",
+ "slug": "ascendent-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ascendent: co to je a co znamená?",
+ "description": "Ascendent je znamení, které při vašem narození vystupovalo na východním obzoru. Jednoduše s příkladem.",
+ "intro": "Ascendent je znamení zvěrokruhu, které v okamžiku vašeho narození vystupovalo na východním obzoru. Popisuje první dojem a způsob, jak přistupujete k novým situacím.",
+ "sections": [
+  {
+   "h2": "Co je ascendent?",
+   "paragraphs": [
+    "Zhruba každé dvě hodiny vystoupí nad obzor nové znamení. To je váš ascendent. Proto mohou mít dva lidé narození ve stejný den zcela jiný ascendent."
+   ]
+  },
+  {
+   "h2": "Jak ascendent zjistit?",
+   "paragraphs": [
+    "Potřebujete datum narození, co nejpřesnější čas a místo. Zbytek za pár vteřin zvládne bezplatná kalkulačka."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Eva je Rak (Slunce), ale má ascendent Beran. Okolí ji vidí jako přímou a energickou, přátelé znají její jemnou a pečující stránku."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je ascendent důležitější než sluneční znamení?",
+   "a": "Doplňují se: Slunce je vaše jádro, ascendent vaše vyzařování."
+  },
+  {
+   "q": "Jde zjistit ascendent bez času narození?",
+   "a": "Spolehlivě ne, mění se zhruba každé dvě hodiny."
+  },
+  {
+   "q": "Mění se ascendent v průběhu života?",
+   "a": "Ne, je dán časem a místem narození."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

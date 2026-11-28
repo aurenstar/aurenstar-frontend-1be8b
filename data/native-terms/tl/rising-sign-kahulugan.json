@@ -1,0 +1,53 @@
+{
+ "lang": "tl",
+ "keyword": "rising sign",
+ "volume": "1000",
+ "slug": "rising-sign-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Rising Sign (Ascendant): Ano Ito at Ano ang Kahulugan?",
+ "description": "Ang rising sign ay ang sign na sumisikat sa silangang abot-tanaw nang ipanganak ka. Simpleng paliwanag na may halimbawa.",
+ "intro": "Ang rising sign o ascendant ay ang zodiac sign na sumisikat sa silangang abot-tanaw sa mismong sandali ng iyong kapanganakan. Inilalarawan nito ang unang impresyon at kung paano ka humaharap sa mga bagong sitwasyon.",
+ "sections": [
+  {
+   "h2": "Ano ang rising sign?",
+   "paragraphs": [
+    "Halos kada dalawang oras, may bagong sign na sumisikat. Iyon ang rising sign mo. Kaya ang dalawang taong isinilang sa parehong araw ay maaaring magkaiba ang rising sign."
+   ]
+  },
+  {
+   "h2": "Paano ito hahanapin?",
+   "paragraphs": [
+    "Kailangan mo ng petsa ng kapanganakan, kasing-tumpak hangga’t maaari na oras, at lugar ng kapanganakan. Isang libreng tool ang gagawa ng iba sa ilang segundo."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Si Mika ay Cancer (Araw) pero Aries ang rising sign. Nakikita siya ng iba bilang prangka at masigla, habang alam ng mga kaibigan ang malambot at maalaga niyang panig."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mas mahalaga ba ang rising sign kaysa sun sign?",
+   "a": "Nagkukumplemento sila: ang Araw ang iyong ubod, ang rising sign ang iyong dating."
+  },
+  {
+   "q": "Malalaman ba ang rising sign nang walang oras ng kapanganakan?",
+   "a": "Hindi tiyak, dahil nagpapalit ito ng sign halos kada dalawang oras."
+  },
+  {
+   "q": "Nagbabago ba ang rising sign sa buhay?",
+   "a": "Hindi, nakatali ito sa oras at lugar ng kapanganakan."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

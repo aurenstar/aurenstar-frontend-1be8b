@@ -1,0 +1,53 @@
+{
+ "lang": "lt",
+ "keyword": "kylantis ženklas",
+ "volume": "1000",
+ "slug": "kylantis-zenklas-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kylantis ženklas: kas tai ir ką reiškia?",
+ "description": "Kylantis ženklas (ascendentas) – tai ženklas, kuris tau gimstant kilo rytiniame horizonte. Paprastai, su pavyzdžiu.",
+ "intro": "Kylantis ženklas – tai zodiako ženklas, kuris tavo gimimo akimirką kilo rytiniame horizonte. Jis apibūdina pirmą įspūdį ir tai, kaip sutinki naujas situacijas.",
+ "sections": [
+  {
+   "h2": "Kas yra kylantis ženklas?",
+   "paragraphs": [
+    "Maždaug kas dvi valandas virš horizonto pakyla naujas ženklas. Tai ir yra tavo kylantis ženklas. Todėl dviejų tą pačią dieną gimusių žmonių kylantys ženklai gali būti visiškai skirtingi."
+   ]
+  },
+  {
+   "h2": "Kaip jį rasti?",
+   "paragraphs": [
+    "Reikia gimimo datos, kuo tikslesnio laiko ir vietos. Likusį darbą per kelias sekundes atlieka nemokamas skaičiuoklis."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Rūta yra Vėžys (Saulė), bet jos kylantis ženklas – Avinas. Kiti ją mato kaip tiesią ir energingą, o draugai pažįsta jos švelnią, rūpestingą pusę."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar kylantis ženklas svarbesnis už saulės ženklą?",
+   "a": "Jie papildo vienas kitą: Saulė – tavo branduolys, kylantis ženklas – tavo aura."
+  },
+  {
+   "q": "Ar galima sužinoti kylantį ženklą be gimimo laiko?",
+   "a": "Patikimai ne, nes jis keičiasi maždaug kas dvi valandas."
+  },
+  {
+   "q": "Ar kylantis ženklas keičiasi per gyvenimą?",
+   "a": "Ne, jis susijęs su gimimo laiku ir vieta."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

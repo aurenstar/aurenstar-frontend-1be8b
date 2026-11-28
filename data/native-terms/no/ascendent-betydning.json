@@ -1,0 +1,53 @@
+{
+ "lang": "no",
+ "keyword": "ascendent",
+ "volume": "1000",
+ "slug": "ascendent-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ascendent: hva er det og hva betyr det?",
+ "description": "Ascendenten (det stigende tegnet) er tegnet som steg opp i øst da du ble født. Enkelt forklart med eksempel.",
+ "intro": "Ascendenten din er stjernetegnet som steg opp over den østlige horisonten i det øyeblikket du ble født. Den beskriver førsteinntrykket ditt og måten du møter nye situasjoner på.",
+ "sections": [
+  {
+   "h2": "Hva er ascendenten?",
+   "paragraphs": [
+    "Omtrent hver andre time stiger et nytt tegn over horisonten. Det tegnet er ascendenten din. Derfor kan to personer med samme bursdag ha helt ulik ascendent."
+   ]
+  },
+  {
+   "h2": "Hvordan finner du ascendenten?",
+   "paragraphs": [
+    "Du trenger fødselsdato, så nøyaktig klokkeslett som mulig og fødested. Et gratis verktøy gjør resten på noen sekunder."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Ida er Krebs (sol), men har Væren som ascendent. Andre ser henne som direkte og energisk, mens vennene kjenner den myke, omsorgsfulle siden hennes."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Er ascendenten viktigere enn solstjernetegnet?",
+   "a": "De utfyller hverandre: solen er kjernen din, ascendenten utstrålingen."
+  },
+  {
+   "q": "Kan jeg vite ascendenten uten fødselstidspunkt?",
+   "a": "Ikke sikkert, siden den bytter tegn omtrent hver andre time."
+  },
+  {
+   "q": "Endrer ascendenten seg gjennom livet?",
+   "a": "Nei, den hører til tid og sted for fødselen din."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,53 @@
+{
+ "lang": "ro",
+ "keyword": "ascendent",
+ "volume": "1000",
+ "slug": "ascendent-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ascendent: ce este și ce înseamnă?",
+ "description": "Ascendentul este semnul care răsărea la orizontul estic în momentul nașterii tale. Explicat simplu, cu exemplu.",
+ "intro": "Ascendentul este semnul zodiacal care răsărea la orizontul estic în clipa nașterii tale. Descrie prima impresie și felul în care întâmpini situațiile noi.",
+ "sections": [
+  {
+   "h2": "Ce este ascendentul?",
+   "paragraphs": [
+    "Aproximativ la fiecare două ore răsare un alt semn. Acela este ascendentul tău. De aceea doi oameni născuți în aceeași zi pot avea ascendente foarte diferite."
+   ]
+  },
+  {
+   "h2": "Cum îl găsești?",
+   "paragraphs": [
+    "Ai nevoie de data nașterii, de ora cât mai exactă și de locul nașterii. Un calculator gratuit face restul în câteva secunde."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Ioana este Rac (Soare), dar are ascendent Berbec. Ceilalți o văd directă și energică, iar prietenii îi cunosc latura blândă și grijulie."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Este ascendentul mai important decât zodia solară?",
+   "a": "Se completează: Soarele este nucleul tău, ascendentul este aura ta."
+  },
+  {
+   "q": "Pot afla ascendentul fără ora nașterii?",
+   "a": "Nu sigur, pentru că își schimbă semnul cam la două ore."
+  },
+  {
+   "q": "Se schimbă ascendentul în timpul vieții?",
+   "a": "Nu, este legat de ora și locul nașterii."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

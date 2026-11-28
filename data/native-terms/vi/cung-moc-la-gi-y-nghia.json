@@ -1,0 +1,53 @@
+{
+ "lang": "vi",
+ "keyword": "cung mọc",
+ "volume": "1000",
+ "slug": "cung-moc-la-gi-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Cung Mọc (Ascendant) là gì? Ý nghĩa dễ hiểu",
+ "description": "Cung Mọc là cung hoàng đạo đang mọc ở chân trời phía đông khi bạn sinh ra. Giải thích đơn giản, có ví dụ.",
+ "intro": "Cung Mọc (Ascendant) là cung hoàng đạo mọc ở chân trời phía đông đúng lúc bạn chào đời. Nó cho thấy ấn tượng ban đầu và cách bạn đón nhận những tình huống mới.",
+ "sections": [
+  {
+   "h2": "Cung Mọc là gì?",
+   "paragraphs": [
+    "Khoảng mỗi hai giờ lại có một cung mới mọc lên. Đó là Cung Mọc của bạn. Vì vậy hai người sinh cùng ngày có thể có Cung Mọc rất khác nhau."
+   ]
+  },
+  {
+   "h2": "Cách tìm Cung Mọc",
+   "paragraphs": [
+    "Bạn cần ngày sinh, giờ sinh càng chính xác càng tốt và nơi sinh. Công cụ miễn phí sẽ tính trong vài giây."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Lan là Cự Giải (Mặt Trời) nhưng Cung Mọc là Bạch Dương. Người ngoài thấy cô thẳng thắn, năng động; bạn thân biết mặt dịu dàng, chu đáo của cô."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cung Mọc có quan trọng hơn cung Mặt Trời không?",
+   "a": "Hai cung bổ sung cho nhau: Mặt Trời là bản chất, Cung Mọc là vẻ ngoài."
+  },
+  {
+   "q": "Không biết giờ sinh có tìm được Cung Mọc không?",
+   "a": "Không chắc chắn, vì nó đổi cung khoảng mỗi hai giờ."
+  },
+  {
+   "q": "Cung Mọc có thay đổi theo thời gian không?",
+   "a": "Không, nó gắn với giờ và nơi sinh."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

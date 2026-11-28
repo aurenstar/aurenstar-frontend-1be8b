@@ -1,0 +1,53 @@
+{
+ "lang": "ca",
+ "keyword": "ascendent",
+ "volume": "1000",
+ "slug": "ascendent-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ascendent: què és i què significa?",
+ "description": "L’ascendent és el signe que sortia a l’horitzó est quan vas néixer. Explicat fàcil, amb exemple.",
+ "intro": "L’ascendent és el signe zodiacal que sortia per l’horitzó est en el moment del teu naixement. Descriu la primera impressió i la manera com afrontes situacions noves.",
+ "sections": [
+  {
+   "h2": "Què és l’ascendent?",
+   "paragraphs": [
+    "Aproximadament cada dues hores surt un signe nou per l’horitzó. Aquest és el teu ascendent. Per això dues persones nascudes el mateix dia poden tenir ascendents molt diferents."
+   ]
+  },
+  {
+   "h2": "Com el trobes?",
+   "paragraphs": [
+    "Necessites la data de naixement, l’hora el més exacta possible i el lloc. Una eina gratuïta fa la resta en pocs segons."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "La Laia és Cranc (Sol) però té ascendent Àries. Els altres la veuen directa i enèrgica, i els amics coneixen el seu costat tendre i protector."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "L’ascendent és més important que el signe solar?",
+   "a": "Es complementen: el Sol és la teva essència, l’ascendent la teva aura."
+  },
+  {
+   "q": "Puc saber l’ascendent sense l’hora de naixement?",
+   "a": "No amb seguretat, perquè canvia de signe cada dues hores aproximadament."
+  },
+  {
+   "q": "L’ascendent canvia durant la vida?",
+   "a": "No, depèn de l’hora i el lloc de naixement."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

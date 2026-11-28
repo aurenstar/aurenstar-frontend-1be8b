@@ -1,0 +1,53 @@
+{
+ "lang": "ms",
+ "keyword": "ascendant",
+ "volume": "1000",
+ "slug": "ascendant-maksud",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ascendant: apa itu dan apa maknanya?",
+ "description": "Ascendant ialah tanda yang naik di ufuk timur ketika anda dilahirkan. Dijelaskan mudah dengan contoh.",
+ "intro": "Ascendant ialah tanda zodiak yang naik di ufuk timur pada saat anda dilahirkan. Ia menggambarkan kesan pertama dan cara anda menghadapi situasi baharu.",
+ "sections": [
+  {
+   "h2": "Apakah ascendant?",
+   "paragraphs": [
+    "Kira-kira setiap dua jam, satu tanda baharu naik di ufuk. Itulah ascendant anda. Sebab itu dua orang yang lahir pada hari yang sama boleh mempunyai ascendant yang sangat berbeza."
+   ]
+  },
+  {
+   "h2": "Bagaimana mencarinya?",
+   "paragraphs": [
+    "Anda perlukan tarikh lahir, masa lahir sepersis mungkin dan tempat lahir. Alat percuma akan mengiranya dalam beberapa saat."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Aina ialah Cancer (Matahari) tetapi ascendant-nya Aries. Orang lain melihatnya terus terang dan bertenaga, manakala kawan rapat tahu sisi lembut dan penyayangnya."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Adakah ascendant lebih penting daripada zodiak matahari?",
+   "a": "Keduanya saling melengkapi: Matahari ialah teras anda, ascendant ialah aura anda."
+  },
+  {
+   "q": "Boleh tahu ascendant tanpa masa lahir?",
+   "a": "Tidak pasti, kerana ia bertukar tanda kira-kira setiap dua jam."
+  },
+  {
+   "q": "Adakah ascendant berubah sepanjang hidup?",
+   "a": "Tidak, ia terikat pada masa dan tempat lahir."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

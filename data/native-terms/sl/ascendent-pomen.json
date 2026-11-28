@@ -1,0 +1,53 @@
+{
+ "lang": "sl",
+ "keyword": "ascendent",
+ "volume": "1000",
+ "slug": "ascendent-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ascendent: kaj je in kaj pomeni?",
+ "description": "Ascendent je znamenje, ki je ob vašem rojstvu vzhajalo na vzhodnem obzorju. Preprosto, s primerom.",
+ "intro": "Ascendent je znamenje zodiaka, ki je ob trenutku vašega rojstva vzhajalo na vzhodnem obzorju. Opisuje prvi vtis in način, kako se soočate z novimi situacijami.",
+ "sections": [
+  {
+   "h2": "Kaj je ascendent?",
+   "paragraphs": [
+    "Približno vsaki dve uri nad obzorje vzide novo znamenje. To je vaš ascendent. Zato imata dva človeka, rojena isti dan, lahko povsem različen ascendent."
+   ]
+  },
+  {
+   "h2": "Kako ga najdete?",
+   "paragraphs": [
+    "Potrebujete datum rojstva, čim natančnejšo uro in kraj. Ostalo v nekaj sekundah opravi brezplačni kalkulator."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Nina je Rak (Sonce), a ima ascendent Oven. Drugi jo vidijo kot neposredno in energično, prijatelji poznajo njeno nežno, skrbno plat."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je ascendent pomembnejši od sončnega znamenja?",
+   "a": "Dopolnjujeta se: Sonce je vaše jedro, ascendent vaša avra."
+  },
+  {
+   "q": "Ali lahko ascendent izvem brez ure rojstva?",
+   "a": "Zanesljivo ne, ker se menja približno vsaki dve uri."
+  },
+  {
+   "q": "Ali se ascendent med življenjem spreminja?",
+   "a": "Ne, vezan je na čas in kraj rojstva."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

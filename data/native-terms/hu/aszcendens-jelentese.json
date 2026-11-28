@@ -1,0 +1,53 @@
+{
+ "lang": "hu",
+ "keyword": "aszcendens",
+ "volume": "1000",
+ "slug": "aszcendens-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aszcendens: mi ez, és mit jelent?",
+ "description": "Az aszcendens az a jegy, amely születésedkor a keleti horizonton emelkedett. Egyszerűen, példával.",
+ "intro": "Az aszcendens az a csillagjegy, amely a születésed pillanatában a keleti horizonton emelkedett. Az első benyomásodat és az új helyzetekhez való hozzáállásodat írja le.",
+ "sections": [
+  {
+   "h2": "Mi az aszcendens?",
+   "paragraphs": [
+    "Nagyjából kétóránként egy új jegy emelkedik a horizont fölé. Ez a te aszcendensed. Ezért két, ugyanazon a napon született embernek is lehet teljesen más aszcendense."
+   ]
+  },
+  {
+   "h2": "Hogyan találod meg?",
+   "paragraphs": [
+    "Szükséged van a születési dátumra, a lehető legpontosabb időpontra és a születési helyre. A többit egy ingyenes kalkulátor másodpercek alatt elvégzi."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Anna Rák (Nap), de aszcendense Kos. Mások egyenesnek és energikusnak látják, a barátok ismerik a lágy, gondoskodó oldalát."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Fontosabb az aszcendens, mint a napjegy?",
+   "a": "Kiegészítik egymást: a Nap a lényeged, az aszcendens a kisugárzásod."
+  },
+  {
+   "q": "Megtudható az aszcendens születési idő nélkül?",
+   "a": "Biztosan nem, mert nagyjából kétóránként vált jegyet."
+  },
+  {
+   "q": "Változik az aszcendens az életed során?",
+   "a": "Nem, a születésed idejéhez és helyéhez kötött."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

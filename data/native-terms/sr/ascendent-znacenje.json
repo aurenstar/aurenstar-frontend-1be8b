@@ -1,0 +1,53 @@
+{
+ "lang": "sr",
+ "keyword": "асцендент",
+ "volume": "1000",
+ "slug": "ascendent-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ascendent: šta je i šta znači?",
+ "description": "Ascendent je znak koji je izlazio na istočnom horizontu kad si rođen/a. Jednostavno, s primerom.",
+ "intro": "Ascendent je znak zodijaka koji je u trenutku tvog rođenja izlazio na istočnom horizontu. Opisuje prvi utisak i način na koji se suočavaš s novim situacijama.",
+ "sections": [
+  {
+   "h2": "Šta je ascendent?",
+   "paragraphs": [
+    "Otprilike svaka dva sata iznad horizonta izlazi novi znak. To je tvoj ascendent. Zato dve osobe rođene istog dana mogu imati sasvim različit ascendent."
+   ]
+  },
+  {
+   "h2": "Kako da ga pronađeš?",
+   "paragraphs": [
+    "Potrebni su ti datum rođenja, što tačnije vreme i mesto. Ostatak za nekoliko sekundi uradi besplatni kalkulator."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Ana je Rak (Sunce), ali ima ascendent Ovan. Drugi je vide kao direktnu i energičnu, a prijatelji znaju njenu nežnu, brižnu stranu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Da li je ascendent važniji od sunčevog znaka?",
+   "a": "Dopunjuju se: Sunce je tvoja srž, ascendent tvoja aura."
+  },
+  {
+   "q": "Mogu li da saznam ascendent bez vremena rođenja?",
+   "a": "Ne pouzdano, jer menja znak otprilike na svaka dva sata."
+  },
+  {
+   "q": "Menja li se ascendent tokom života?",
+   "a": "Ne, vezan je za vreme i mesto rođenja."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

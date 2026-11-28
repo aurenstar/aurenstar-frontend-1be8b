@@ -1,0 +1,53 @@
+{
+ "lang": "sv",
+ "keyword": "ascendent",
+ "volume": "1000",
+ "slug": "ascendent-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ascendent: vad är det och vad betyder det?",
+ "description": "Ascendenten (det stigande tecknet) är det tecken som steg i öster vid din födelse. Enkelt förklarat med exempel.",
+ "intro": "Din ascendent är det stjärntecken som steg upp vid östra horisonten i samma stund som du föddes. Den beskriver ditt första intryck och hur du möter nya situationer.",
+ "sections": [
+  {
+   "h2": "Vad är ascendenten?",
+   "paragraphs": [
+    "Ungefär varannan timme stiger ett nytt tecken över horisonten. Det tecknet är din ascendent. Därför kan två personer med samma födelsedag ha helt olika ascendent."
+   ]
+  },
+  {
+   "h2": "Hur hittar du din ascendent?",
+   "paragraphs": [
+    "Du behöver födelsedatum, så exakt tid som möjligt och födelseort. Ett gratis verktyg räknar ut resten på några sekunder."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Elin är Kräfta (sol) men har Väduren som ascendent. Andra ser henne som rak och energisk, medan vännerna känner hennes mjuka, omtänksamma sida."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Är ascendenten viktigare än solstjärntecknet?",
+   "a": "De kompletterar varandra: solen är din kärna, ascendenten din utstrålning."
+  },
+  {
+   "q": "Kan jag veta min ascendent utan födelsetid?",
+   "a": "Inte säkert, eftersom den byter tecken ungefär varannan timme."
+  },
+  {
+   "q": "Ändras ascendenten under livet?",
+   "a": "Nej, den hör ihop med tid och plats för din födelse."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

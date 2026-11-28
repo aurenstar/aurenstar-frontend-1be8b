@@ -1,0 +1,53 @@
+{
+ "lang": "lv",
+ "keyword": "augošā zīme",
+ "volume": "1000",
+ "slug": "augosa-zime-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Augošā zīme: kas tā ir un ko nozīmē?",
+ "description": "Augošā zīme (ascendents) ir zīme, kas tavā dzimšanas brīdī lēca austrumu horizontā. Vienkārši, ar piemēru.",
+ "intro": "Augošā zīme ir zodiaka zīme, kas tavā dzimšanas brīdī lēca austrumu horizontā. Tā raksturo pirmo iespaidu un to, kā tu sagaidi jaunas situācijas.",
+ "sections": [
+  {
+   "h2": "Kas ir augošā zīme?",
+   "paragraphs": [
+    "Aptuveni ik pēc divām stundām pie horizonta uzlec jauna zīme. Tā ir tava augošā zīme. Tāpēc diviem vienā dienā dzimušiem cilvēkiem var būt pilnīgi atšķirīga augošā zīme."
+   ]
+  },
+  {
+   "h2": "Kā to atrast?",
+   "paragraphs": [
+    "Vajag dzimšanas datumu, pēc iespējas precīzu laiku un vietu. Pārējo dažās sekundēs izdara bezmaksas kalkulators."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Anna ir Vēzis (Saule), bet viņas augošā zīme ir Auns. Citi viņu redz kā tiešu un enerģisku, draugi zina viņas maigo, gādīgo pusi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai augošā zīme ir svarīgāka par saules zīmi?",
+   "a": "Tās papildina viena otru: Saule ir tava būtība, augošā zīme – tava aura."
+  },
+  {
+   "q": "Vai augošo zīmi var uzzināt bez dzimšanas laika?",
+   "a": "Droši nē, jo tā mainās aptuveni ik pēc divām stundām."
+  },
+  {
+   "q": "Vai augošā zīme mainās dzīves laikā?",
+   "a": "Nē, tā ir saistīta ar dzimšanas laiku un vietu."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

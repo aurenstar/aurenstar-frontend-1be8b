@@ -1,0 +1,53 @@
+{
+ "lang": "et",
+ "keyword": "tõusev märk",
+ "volume": "1000",
+ "slug": "tousev-mark-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Tõusev märk: mis see on ja mida tähendab?",
+ "description": "Tõusev märk ehk ascendent on märk, mis sinu sündides idahorisondil tõusis. Lihtsalt ja näitega.",
+ "intro": "Tõusev märk on sodiaagimärk, mis sinu sünnihetkel idahorisondil tõusis. See kirjeldab esmamuljet ja seda, kuidas sa uutesse olukordadesse suhtud.",
+ "sections": [
+  {
+   "h2": "Mis on tõusev märk?",
+   "paragraphs": [
+    "Umbes iga kahe tunni järel tõuseb horisondile uus märk. See on sinu tõusev märk. Seetõttu võib samal päeval sündinud kahel inimesel olla täiesti erinev tõusev märk."
+   ]
+  },
+  {
+   "h2": "Kuidas seda leida?",
+   "paragraphs": [
+    "Vaja on sünnikuupäeva, võimalikult täpset kellaaega ja sünnikohta. Ülejäänu teeb tasuta kalkulaator sekunditega."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Liis on Vähk (Päike), kuid tõusev märk on Jäär. Teised näevad teda otsekohese ja energilisena, sõbrad tunnevad tema pehmet, hoolivat poolt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas tõusev märk on olulisem kui päikesemärk?",
+   "a": "Need täiendavad teineteist: Päike on sinu tuum, tõusev märk sinu kuvand."
+  },
+  {
+   "q": "Kas tõusvat märki saab teada ilma sünniajata?",
+   "a": "Kindlalt mitte, sest see vahetub umbes iga kahe tunni järel."
+  },
+  {
+   "q": "Kas tõusev märk muutub elu jooksul?",
+   "a": "Ei, see on seotud sünniaja ja -kohaga."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}
