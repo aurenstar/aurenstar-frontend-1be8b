@@ -1,0 +1,65 @@
+{
+ "lang": "it",
+ "keyword": "tema natale gratuito",
+ "volume": 110000,
+ "slug": "tema-natale-gratuito-come-calcolarlo-e-leggerlo",
+ "date": "2026-11-27",
+ "title": "Tema natale gratuito: come calcolarlo e leggerlo facilmente",
+ "description": "Come calcolare il tema natale online e leggere Sole, Luna e ascendente con parole semplici ed esempi.",
+ "intro": "Il tema natale è una fotografia del cielo nel momento della tua nascita. Online si calcola in pochi minuti, ma il cerchio pieno di simboli può disorientare. Ecco l’essenziale.",
+ "sections": [
+  {
+   "h2": "Cosa serve per il calcolo",
+   "paragraphs": [
+    "Servono data, ora esatta e luogo di nascita. L’ora è importante perché l’ascendente cambia segno circa ogni due ore.",
+    "Esempio: Marta è nata alle 7:40 a Torino. Con le 9:40 avrebbe un ascendente diverso. L’ora si trova spesso sul certificato di nascita."
+   ]
+  },
+  {
+   "h2": "Partire dai «tre grandi»",
+   "paragraphs": [
+    "Sole, Luna e ascendente sono il cuore del tema: il Sole è la tua identità, la Luna le emozioni e le abitudini, l’ascendente la prima impressione.",
+    "Sole in Toro, Luna in Vergine, ascendente Ariete: deciso fuori, calmo e pratico dentro."
+   ]
+  },
+  {
+   "h2": "Pianeti, case e aspetti",
+   "paragraphs": [
+    "I pianeti dicono «cosa», i segni «come», le case «dove» (lavoro, amore, casa). Gli aspetti sono angoli: trigono e sestile scorrono facili, quadratura e opposizione creano tensione che fa crescere."
+   ]
+  },
+  {
+   "h2": "Errori da principianti",
+   "paragraphs": [
+    "Non giudicare da un solo pianeta e non temere gli aspetti «difficili»: ogni tema ha punti di forza. Non è una previsione del destino."
+   ]
+  },
+  {
+   "h2": "Usarlo nella vita di tutti i giorni",
+   "paragraphs": [
+    "Scrivi tre punti di forza e tre aree da migliorare e confrontali con la tua vita. L’astrologia è uno strumento di conoscenza di sé e non sostituisce medico, avvocato o consulente finanziario."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Si può fare senza l’ora di nascita?",
+   "a": "Sì, ma senza ascendente e case. Sole e pianeti nei segni restano corretti."
+  },
+  {
+   "q": "Che differenza c’è con l’oroscopo del giorno?",
+   "a": "Il tema è solo tuo; l’oroscopo vale per tutto un segno."
+  },
+  {
+   "q": "I calcoli online sono precisi?",
+   "a": "Le posizioni dei pianeti sono esatte; l’interpretazione dipende dall’approccio."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti astrologici gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Continua a leggere"
+ }
+}

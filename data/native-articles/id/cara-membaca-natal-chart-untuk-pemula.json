@@ -1,0 +1,66 @@
+{
+ "lang": "id",
+ "keyword": "cara membaca natal chart",
+ "volume": 246000,
+ "slug": "cara-membaca-natal-chart-untuk-pemula",
+ "date": "2026-11-27",
+ "title": "Cara Membaca Natal Chart untuk Pemula: Panduan Mudah",
+ "description": "Cara membuat natal chart online dan membaca Matahari, Bulan, serta Ascendant dengan bahasa sederhana dan contoh.",
+ "intro": "Natal chart adalah “foto langit” saat kamu lahir. Membuatnya online hanya butuh beberapa menit, tapi lingkaran penuh simbol bisa membingungkan. Berikut hal-hal pentingnya.",
+ "sections": [
+  {
+   "h2": "Data yang dibutuhkan",
+   "paragraphs": [
+    "Kamu butuh tanggal lahir, jam lahir yang sedekat mungkin, dan kota kelahiran. Jam penting karena Ascendant berganti tanda kira-kira tiap dua jam.",
+    "Contoh: Rina lahir pukul 07.40 di Bandung. Jika diisi 09.40, Ascendant-nya berbeda. Cek akta lahir atau tanya orang tua."
+   ]
+  },
+  {
+   "h2": "Mulai dari “tiga besar”",
+   "paragraphs": [
+    "Matahari, Bulan, dan Ascendant adalah inti. Matahari menunjukkan jati diri, Bulan perasaan dan kebiasaan, Ascendant kesan pertama.",
+    "Matahari Taurus, Bulan Virgo, Ascendant Aries: tampak tegas di luar, tenang dan praktis di dalam."
+   ]
+  },
+  {
+   "h2": "Planet, rumah, dan aspek",
+   "paragraphs": [
+    "Planet menunjukkan “apa”, tanda “bagaimana”, dan rumah “di mana” (karier, cinta, keluarga). Aspek adalah sudut antarplanet: trine dan sextile terasa mengalir, square dan oposisi memberi ketegangan yang mendorong tumbuh."
+   ]
+  },
+  {
+   "h2": "Kesalahan pemula",
+   "paragraphs": [
+    "Jangan menyimpulkan dari satu planet saja dan jangan takut pada aspek “sulit”. Setiap chart punya kekuatan. Ini juga bukan ramalan nasib."
+   ]
+  },
+  {
+   "h2": "Memakai natal chart sehari-hari",
+   "paragraphs": [
+    "Tulis tiga kekuatan dan tiga area berkembang, lalu bandingkan dengan hidupmu. Anggap astrologi sebagai alat mengenal diri. Ini tidak menggantikan saran dokter, pengacara, atau penasihat keuangan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Bisa tanpa jam lahir?",
+   "a": "Bisa, tetapi tanpa Ascendant dan rumah. Matahari dan planet tetap akurat."
+  },
+  {
+   "q": "Apa bedanya dengan horoskop harian?",
+   "a": "Natal chart khusus untukmu; horoskop harian berlaku untuk semua orang satu zodiak."
+  },
+  {
+   "q": "Seberapa akurat kalkulator online?",
+   "a": "Posisi planet akurat secara astronomi; tafsirannya tergantung pendekatan."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca lagi",
+  "dictionary": "Kamus astrologi"
+ }
+}

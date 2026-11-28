@@ -1,0 +1,65 @@
+{
+ "lang": "tr",
+ "keyword": "merkür retrosu",
+ "volume": 201000,
+ "slug": "merkur-retrosu-ne-demek-ipuclari",
+ "date": "2026-11-27",
+ "title": "Merkür Retrosu Nedir? Anlamı, Süresi ve 5 Basit İpucu",
+ "description": "Merkür retrosu ne demek, yılda kaç kez olur ve nasıl rahat geçirilir? Basit anlatım ve örneklerle.",
+ "intro": "“Telefon takıldı, toplantı kaydı, iş yerinde yanlış anlaşıldım… Merkür retrosu olmalı!” Bu cümleyi sık duyarız. İşte ağır terimler olmadan basit bir açıklama.",
+ "sections": [
+  {
+   "h2": "“Retro” ne demek?",
+   "paragraphs": [
+    "Dünya’dan bakınca Merkür bir süre geriye gidiyormuş gibi görünür. Bu bir göz yanılsamasıdır; yavaş bir arabayı geçerken onun geri gidiyormuş gibi görünmesi gibi."
+   ]
+  },
+  {
+   "h2": "Yılda kaç kez, ne kadar sürer?",
+   "paragraphs": [
+    "Yılda üç ila dört kez olur ve her seferinde yaklaşık üç hafta sürer. Öncesinde ve sonrasında bazı kişilerin etkisini hissettiği “gölge dönemi” vardır."
+   ]
+  },
+  {
+   "h2": "Astroloji ne diyor?",
+   "paragraphs": [
+    "Astrolojide Merkür düşünce, konuşma, yolculuk ve teknolojiyi temsil eder. Retro sırasında iletişimde yanlış anlamalar, gecikmeler ve cihaz sorunları yaşanabileceği söylenir."
+   ]
+  },
+  {
+   "h2": "5 basit ipucu",
+   "paragraphs": [
+    "1. Önemli dosyaları yedekleyin. 2. Mesajları göndermeden önce tekrar okuyun. 3. Yolculuklarda fazladan süre bırakın. 4. Sözleşmeleri dikkatle inceleyin. 5. Eski işleri toparlayın.",
+    "Örnek: Zeynep ev sahibine yazdığı e-postayı tekrar okuyunca yanlış tarihi fark etti."
+   ]
+  },
+  {
+   "h2": "Çok da ciddiye almayın",
+   "paragraphs": [
+    "Merkür retrosunun arızalara yol açtığına dair bilimsel kanıt yoktur. Dikkatli olmak için bir hatırlatma olarak görün, korku sebebi olarak değil. Önemli kararlarda uzmana danışın."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Merkür yılda kaç kez retro olur?",
+   "a": "Yaklaşık üç-dört kez, her biri yaklaşık üç hafta."
+  },
+  {
+   "q": "Merkür gerçekten geri mi gidiyor?",
+   "a": "Hayır, Dünya’dan görünen bir yanılsamadır."
+  },
+  {
+   "q": "Bu dönemde yeni bir şey başlatmamalı mıyım?",
+   "a": "Bu bir astroloji kuralıdır, yasa değil. Sadece daha dikkatli planlayın."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz Astroloji Araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını Oku",
+  "dictionary": "Astroloji Sözlüğü"
+ }
+}

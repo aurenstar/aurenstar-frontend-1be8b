@@ -1,0 +1,66 @@
+{
+ "lang": "fr",
+ "keyword": "thème natal gratuit",
+ "volume": 110000,
+ "slug": "theme-natal-gratuit-calculer-et-lire",
+ "date": "2026-11-27",
+ "title": "Thème natal gratuit : comment le calculer et le lire simplement",
+ "description": "Comment calculer votre thème natal en ligne et lire le Soleil, la Lune et l’ascendant avec des mots simples.",
+ "intro": "Le thème natal est une photo du ciel au moment de votre naissance. En ligne, il se calcule en quelques minutes, mais le cercle plein de symboles peut dérouter. Voici l’essentiel.",
+ "sections": [
+  {
+   "h2": "Ce qu’il faut pour le calcul",
+   "paragraphs": [
+    "Il faut la date, l’heure précise et le lieu de naissance. L’heure compte car l’ascendant change de signe environ toutes les deux heures.",
+    "Exemple : Léa est née à 07 h 40 à Lyon. Avec 09 h 40, son ascendant serait différent. L’heure figure souvent sur l’acte de naissance."
+   ]
+  },
+  {
+   "h2": "Commencer par les « trois grands »",
+   "paragraphs": [
+    "Soleil, Lune et ascendant forment le cœur du thème : le Soleil est votre identité, la Lune vos émotions et habitudes, l’ascendant votre première impression.",
+    "Soleil Taureau, Lune Vierge, ascendant Bélier : direct à l’extérieur, calme et pratique à l’intérieur."
+   ]
+  },
+  {
+   "h2": "Planètes, maisons et aspects",
+   "paragraphs": [
+    "Les planètes disent « quoi », les signes « comment », les maisons « où » dans la vie : travail, couple, foyer. Les aspects sont des angles : trigone et sextile sont fluides, carré et opposition créent une tension qui fait grandir."
+   ]
+  },
+  {
+   "h2": "Erreurs de débutant",
+   "paragraphs": [
+    "Ne concluez pas à partir d’une seule planète et ne craignez pas les aspects « difficiles ». Chaque thème a des forces. Et ce n’est pas une prédiction du destin."
+   ]
+  },
+  {
+   "h2": "Utiliser votre thème au quotidien",
+   "paragraphs": [
+    "Notez trois forces et trois axes de progrès, puis comparez avec votre vie. L’astrologie devient un outil de connaissance de soi. Elle ne remplace pas un médecin, un avocat ou un conseiller financier."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Peut-on le faire sans l’heure de naissance ?",
+   "a": "Oui, mais sans ascendant ni maisons. Le Soleil et les planètes restent justes."
+  },
+  {
+   "q": "Quelle différence avec l’horoscope du jour ?",
+   "a": "Le thème est personnel ; l’horoscope du jour vaut pour tout un signe."
+  },
+  {
+   "q": "Les calculs en ligne sont-ils fiables ?",
+   "a": "Les positions des planètes sont exactes ; l’interprétation dépend de l’approche."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "FAQ",
+  "more": "Suite",
+  "dictionary": "Dictionnaire"
+ }
+}

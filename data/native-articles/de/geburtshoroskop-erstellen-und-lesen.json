@@ -1,0 +1,65 @@
+{
+ "lang": "de",
+ "keyword": "geburtshoroskop erstellen",
+ "volume": 110000,
+ "slug": "geburtshoroskop-erstellen-und-lesen",
+ "date": "2026-11-27",
+ "title": "Geburtshoroskop erstellen und lesen: Schritt für Schritt",
+ "description": "So erstellst du dein Geburtshoroskop online und liest Sonne, Mond und Aszendent – einfach erklärt mit Beispielen.",
+ "intro": "Ein Geburtshoroskop ist wie ein Foto des Himmels im Moment deiner Geburt. Online ist es in wenigen Minuten erstellt – aber der Kreis voller Symbole wirkt am Anfang verwirrend. Hier lernst du, worauf es ankommt.",
+ "sections": [
+  {
+   "h2": "Was du für die Berechnung brauchst",
+   "paragraphs": [
+    "Du brauchst Geburtsdatum, möglichst genaue Uhrzeit und Geburtsort. Die Uhrzeit ist wichtig, weil der Aszendent etwa alle zwei Stunden das Zeichen wechselt.",
+    "Beispiel: Mara wurde um 07:40 Uhr in Köln geboren. Mit 09:40 Uhr bekäme sie einen anderen Aszendenten. Im Geburtsschein oder bei den Eltern findest du die Zeit."
+   ]
+  },
+  {
+   "h2": "Mit der „Großen Drei“ beginnen",
+   "paragraphs": [
+    "Sonne, Mond und Aszendent bilden den Kern. Die Sonne steht für dein Wesen, der Mond für Gefühle und Gewohnheiten, der Aszendent für den ersten Eindruck.",
+    "Sonne im Stier, Mond in der Jungfrau, Aszendent Widder: nach außen direkt, innen ruhig und praktisch."
+   ]
+  },
+  {
+   "h2": "Planeten, Häuser und Aspekte",
+   "paragraphs": [
+    "Planeten zeigen das „Was“, Zeichen das „Wie“ und Häuser das „Wo“ im Leben, etwa Beruf, Beziehung oder Zuhause. Aspekte sind Winkel zwischen Planeten: Trigon und Sextil gelten als leicht, Quadrat und Opposition als Spannung, die wachsen lässt."
+   ]
+  },
+  {
+   "h2": "Typische Anfängerfehler",
+   "paragraphs": [
+    "Schließe nicht aus einem einzelnen Planeten auf alles und erschrick nicht vor „schwierigen“ Aspekten. Jedes Horoskop hat Stärken. Außerdem ist es keine Schicksalsvorhersage."
+   ]
+  },
+  {
+   "h2": "So nutzt du dein Horoskop im Alltag",
+   "paragraphs": [
+    "Schreibe drei Stärken und drei Wachstumsfelder auf und vergleiche sie mit deinem Alltag. So wird Astrologie zu einem Werkzeug der Selbsterkenntnis. Sie ersetzt keine Beratung durch Ärzte, Juristen oder Finanzfachleute."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Geht es ohne Geburtszeit?",
+   "a": "Ja, aber ohne Aszendent und Häuser. Sonne und Planeten in den Zeichen sind trotzdem genau."
+  },
+  {
+   "q": "Was ist der Unterschied zum Tageshoroskop?",
+   "a": "Das Geburtshoroskop gehört nur dir, das Tageshoroskop gilt für alle eines Sternzeichens."
+  },
+  {
+   "q": "Wie genau sind Online-Rechner?",
+   "a": "Die Planetenstände sind astronomisch genau; die Deutung hängt vom Ansatz ab."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Mehr lesen"
+ }
+}
