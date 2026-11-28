@@ -1,0 +1,23 @@
+{
+ "home": "首頁",
+ "read": "閱讀文章",
+ "dict": "字典",
+ "contact": "聯絡我們",
+ "tools": "免費工具",
+ "articles": "文章",
+ "faq": "常見問題",
+ "articlesAbout": "關於{n}的文章",
+ "cta": "發現你的星座",
+ "facts": "一目了然",
+ "period": "日期",
+ "element": "元素",
+ "advice": "一個簡單的建議",
+ "title": "{n}：個性、特點與星座全解析",
+ "desc": "{n}（{p}）：{e}元素星座。個性、優點、愛情，以及幫助你輕鬆了解{n}的文章。",
+ "qDates": "{n}的日期是什麼時候？",
+ "qElement": "{n}屬於什麼元素？",
+ "qPersonality": "{n}的個性如何？",
+ "qTip": "什麼對{n}的日常有幫助？",
+ "aDates": "{n}的日期是{p}。",
+ "aElement": "{n}屬於{e}元素。"
+}

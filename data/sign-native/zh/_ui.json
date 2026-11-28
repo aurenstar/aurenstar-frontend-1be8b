@@ -1,0 +1,23 @@
+{
+ "home": "首页",
+ "read": "阅读文章",
+ "dict": "词典",
+ "contact": "联系我们",
+ "tools": "免费工具",
+ "articles": "文章",
+ "faq": "常见问题",
+ "articlesAbout": "关于{n}的文章",
+ "cta": "发现你的星座",
+ "facts": "一目了然",
+ "period": "日期",
+ "element": "元素",
+ "advice": "一个简单的建议",
+ "title": "{n}：性格、特点与星座全解析",
+ "desc": "{n}（{p}）：{e}元素星座。性格、优点、爱情，以及帮助你轻松了解{n}的文章。",
+ "qDates": "{n}的日期是什么时候？",
+ "qElement": "{n}属于什么元素？",
+ "qPersonality": "{n}的性格怎么样？",
+ "qTip": "什么对{n}的日常有帮助？",
+ "aDates": "{n}的日期是{p}。",
+ "aElement": "{n}属于{e}元素。"
+}

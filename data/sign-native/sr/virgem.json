@@ -1,0 +1,22 @@
+{
+ "name": "Devica",
+ "slug": "virgo",
+ "period": "23. avgust – 22. septembar",
+ "element": "Zemlja",
+ "essence": "Savesna i pažljiva. Devica primećuje detalje i rado pomaže.",
+ "advice": "Ne traži od sebe savršenstvo. Uveče reci sebi: danas je bilo dovoljno.",
+ "sections": [
+  {
+   "h": "Ličnost i snage",
+   "p": "Devicom vlada Merkur. Dobro posmatra, planira i pouzdana je. Stroga je prema sebi i lako se brine."
+  },
+  {
+   "h": "Ljubav i prijateljstvo",
+   "p": "U ljubavi Devica naklonost pokazuje više delima nego velikim rečima. Prijatelji je vide kao pouzdanu savetnicu. Gledanje na dobro u drugom olakšava vezu."
+  },
+  {
+   "h": "Posao i svakodnevica",
+   "p": "Na poslu se ističe preciznim radom, analizom, zdravstvom i podučavanjem. Spisak zadataka je smiruje. Dobar savet je unapred planirati pauze."
+  }
+ ]
+}

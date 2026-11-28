@@ -1,0 +1,22 @@
+{
+ "name": "Vaga",
+ "slug": "libra",
+ "period": "23. septembar – 22. oktobar",
+ "element": "Vazduh",
+ "essence": "Ljubazna, uravnotežena i miroljubiva. Vaga voli prijatnu atmosferu i dobro sluša.",
+ "advice": "Kad ne možeš da izabereš, zadrži dve opcije i uzmi onu koja ti se prva učini dobrom.",
+ "sections": [
+  {
+   "h": "Ličnost i snage",
+   "p": "Vagom vlada Venera. Diplomatična je, pravedna i vidi obe strane stvari. Lepota i sklad su joj važni. Teško odlučuje i ponekad kaže da, a misli ne."
+  },
+  {
+   "h": "Ljubav i prijateljstvo",
+   "p": "U ljubavi je Vaga romantična i želi vezu ravnopravnih. Među prijateljima miri zavađene. Dobro se slaže sa ljudima koji jasno kažu šta im treba."
+  },
+  {
+   "h": "Posao i svakodnevica",
+   "p": "Na poslu Vaga blista u timu, pregovorima, dizajnu i savetovanju. Pod pritiskom lošije razmišlja. Mali dnevni ciljevi štede vreme za premišljanje."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Lav",
+ "slug": "leo",
+ "period": "23. jul – 22. avgust",
+ "element": "Vatra",
+ "essence": "Velikodušan, veseo i samouveren. Lav sija sam od sebe i obasjava svaku prostoriju.",
+ "advice": "Ceni i sopstveni trud, ne samo tuđi.",
+ "sections": [
+  {
+   "h": "Ličnost i snage",
+   "p": "Lavom vlada Sunce. Topao je, ponosan i voli da bude u središtu. Obožava da slavi i hrabri druge. Ako ga previde, lako se povredi."
+  },
+  {
+   "h": "Ljubav i prijateljstvo",
+   "p": "U ljubavi Lav velikodušno pokazuje naklonost. Među prijateljima sve nasmeje. Iskren kompliment mu ide pravo u srce."
+  },
+  {
+   "h": "Posao i svakodnevica",
+   "p": "Na poslu Lav blista kad može da vodi, predstavlja ili stvara. U svakodnevici mu vreme za omiljene stvari vraća samopouzdanje. Prepustiti scenu i drugima čini ga još simpatičnijim."
+  }
+ ]
+}

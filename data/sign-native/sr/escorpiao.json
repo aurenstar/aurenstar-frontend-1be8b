@@ -1,0 +1,22 @@
+{
+ "name": "Škorpija",
+ "slug": "scorpio",
+ "period": "23. oktobar – 21. novembar",
+ "element": "Voda",
+ "essence": "Veran, strastven i dubok. Škorpija oseti šta drugi zaista misle.",
+ "advice": "O potisnutim osećanjima razgovaraj sa nekim kome veruješ, malo po malo.",
+ "sections": [
+  {
+   "h": "Ličnost i snage",
+   "p": "Škorpijom vladaju Pluton i Mars. Ima jaku volju i veliku izdržljivost. Šta počne, to završi. Otvara se polako i može postati sumnjičav."
+  },
+  {
+   "h": "Ljubav i prijateljstvo",
+   "p": "U ljubavi voli duboko i verno. Traži pravu bliskost, a ne površnost. Prijatelja ima malo, ali veoma bliskih. Otvoren razgovor gradi poverenje."
+  },
+  {
+   "h": "Posao i svakodnevica",
+   "p": "Na poslu mu odgovaraju istraživanje, analiza i rad sa ljudima u teškim situacijama. U svakodnevici mu trebaju koncentracija i kretanje da otpusti napetost."
+  }
+ ]
+}

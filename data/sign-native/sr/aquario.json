@@ -1,0 +1,22 @@
+{
+ "name": "Vodolija",
+ "slug": "aquarius",
+ "period": "20. januar – 18. februar",
+ "element": "Vazduh",
+ "essence": "Slobodan, originalan i human. Vodolija misli drugačije i sanja o budućnosti.",
+ "advice": "Slobodno izgovori svoje neobične ideje, čak i ako nisu „normalne“.",
+ "sections": [
+  {
+   "h": "Ličnost i snage",
+   "p": "Vodolijom vladaju Saturn i Uran. Nezavisan je, pun novih ideja i želi jednakost za sve. Treba mu vremena nasamo pa ponekad deluje distancirano."
+  },
+  {
+   "h": "Ljubav i prijateljstvo",
+   "p": "U ljubavi voli vezu kao između najboljih prijatelja, sa prostorom za oboje. Prijatelji su mu iz različitih svetova. Reči o osećanjima daju drugoj strani sigurnost."
+  },
+  {
+   "h": "Posao i svakodnevica",
+   "p": "Na poslu blista u tehnici, istraživanju, društvenim projektima i dizajnu. Zapisuj šta te zanima, kasnije će iz toga nastati dobre ideje."
+  }
+ ]
+}

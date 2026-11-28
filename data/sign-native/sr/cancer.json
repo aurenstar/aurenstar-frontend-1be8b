@@ -1,0 +1,22 @@
+{
+ "name": "Rak",
+ "slug": "cancer",
+ "period": "21. jun – 22. jul",
+ "element": "Voda",
+ "essence": "Brižan i srdačan. Rak štiti porodicu i prijatelje i jači je nego što izgleda.",
+ "advice": "Odmori se na mestu gde se osećaš sigurno.",
+ "sections": [
+  {
+   "h": "Ličnost i snage",
+   "p": "Rakom vlada Mesec. Odmah oseti tuđe emocije i voli da se brine. Osetljiv je i ponekad se povuče u svoju ljušturu."
+  },
+  {
+   "h": "Ljubav i prijateljstvo",
+   "p": "U ljubavi Rak traži sigurnost i gradi je korak po korak. Za prijatelje stvara topao dom. Izgovaranje osećanja umesto njihovog gomilanja pomaže vezama da traju."
+  },
+  {
+   "h": "Posao i svakodnevica",
+   "p": "Na poslu mu odgovaraju pomagačka zanimanja, poput nege, obrazovanja i ugostiteljstva. Prijatan dom puni mu baterije."
+  }
+ ]
+}

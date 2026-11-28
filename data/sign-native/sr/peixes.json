@@ -1,0 +1,22 @@
+{
+ "name": "Ribe",
+ "slug": "pisces",
+ "period": "19. februar – 20. mart",
+ "element": "Voda",
+ "essence": "Osetljive i bogate mašte. Ribe saosećaju sa drugima i vole da sanjare.",
+ "advice": "Ako te snovi i stvarnost umaraju, uradi nešto mirno uz muziku ili u prirodi.",
+ "sections": [
+  {
+   "h": "Ličnost i snage",
+   "p": "Ribama vladaju Jupiter i Neptun. Veoma su osetljive, osećaju tuđi bol i imaju smisla za umetnost i reči. Lako se daju uticati i ponekad beže u snove."
+  },
+  {
+   "h": "Ljubav i prijateljstvo",
+   "p": "U ljubavi su romantične i mnogo daju. Prijatelji ih cene kao dobre slušaoce. Dobro im je da sebe ne stavljaju uvek na drugo mesto i kažu: „Želim ovo.“"
+  },
+  {
+   "h": "Posao i svakodnevica",
+   "p": "Na poslu im odgovaraju umetnost, muzika, nega i pomagačka zanimanja. U svakodnevici pomaže slobodan prostor u rasporedu i dovoljno sna. Podela velikog sna na male korake čini ga stvarnim."
+  }
+ ]
+}

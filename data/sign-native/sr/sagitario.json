@@ -1,0 +1,22 @@
+{
+ "name": "Strelac",
+ "slug": "sagittarius",
+ "period": "22. novembar – 21. decembar",
+ "element": "Vatra",
+ "essence": "Vedar, slobodan i duhovit. Strelac voli da uči i zaražava druge svojim snovima.",
+ "advice": "Svaki dan dodaj malo novo iskustvo, budi želju za još.",
+ "sections": [
+  {
+   "h": "Ličnost i snage",
+   "p": "Strelcem vlada Jupiter. Optimista je i voli da putuje, uči i upoznaje druge kulture. Kaže šta misli, ponekad previše direktno, i iznenadi druge."
+  },
+  {
+   "h": "Ljubav i prijateljstvo",
+   "p": "U ljubavi mu trebaju sloboda i neko s kim će deliti avanture. Među prijateljima donosi smeh. Poštovanje tempa druge strane drži vezu dugo."
+  },
+  {
+   "h": "Posao i svakodnevica",
+   "p": "Na poslu mu odgovaraju podučavanje, putovanja, izdavaštvo i međunarodni zadaci. Veliki cilj podeljen na male dnevne korake vodi ga napred."
+  }
+ ]
+}

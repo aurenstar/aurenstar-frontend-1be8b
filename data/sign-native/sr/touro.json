@@ -1,0 +1,22 @@
+{
+ "name": "Bik",
+ "slug": "taurus",
+ "period": "20. april – 20. maj",
+ "element": "Zemlja",
+ "essence": "Miran, veran i srdačan. Bik voli udobnost i prijateljstva za ceo život.",
+ "advice": "Svaki dan daj sebi malo vremena za nešto što zaista voliš.",
+ "sections": [
+  {
+   "h": "Ličnost i snage",
+   "p": "Bikom vlada Venera. Strpljiv je, pouzdan i završi ono što odluči. Dobra hrana i lepa mesta ga čine srećnim. Tvrdoglavost mu ponekad smeta."
+  },
+  {
+   "h": "Ljubav i prijateljstvo",
+   "p": "U ljubavi Bik polako gradi poverenje, a onda je veoma veran. Njegova prijateljstva često traju decenijama. Novine najradije isprobava malim koracima."
+  },
+  {
+   "h": "Posao i svakodnevica",
+   "p": "Na poslu Bik ubeđuje istrajnošću, na primer u finansijama, zanatu ili kuhinji. Stalne navike u svakodnevici daju mu mir."
+  }
+ ]
+}
