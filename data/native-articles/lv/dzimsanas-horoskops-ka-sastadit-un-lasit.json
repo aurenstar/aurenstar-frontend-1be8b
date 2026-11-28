@@ -1,0 +1,65 @@
+{
+ "lang": "lv",
+ "keyword": "dzimšanas horoskops",
+ "volume": 246000,
+ "slug": "dzimsanas-horoskops-ka-sastadit-un-lasit",
+ "date": "2026-11-27",
+ "title": "Dzimšanas horoskops: kā to sastādīt un lasīt soli pa solim",
+ "description": "Kā tiešsaistē sastādīt dzimšanas horoskopu un nolasīt Sauli, Mēnesi un augošo zīmi – vienkārši, ar piemēriem.",
+ "intro": "Dzimšanas horoskops ir kā debesu fotogrāfija tavas dzimšanas brīdī. Tiešsaistē to var sastādīt dažās minūtēs, taču simbolu pilns aplis var mulsināt. Lūk, galvenais.",
+ "sections": [
+  {
+   "h2": "Kas nepieciešams",
+   "paragraphs": [
+    "Vajag dzimšanas datumu, pēc iespējas precīzu laiku un dzimšanas vietu. Laiks svarīgs, jo augošā zīme mainās aptuveni ik pēc divām stundām.",
+    "Piemērs: Anna dzimusi 7:40 Rīgā. Ar 9:40 viņai būtu cita augošā zīme. Laiku bieži var atrast dzimšanas apliecībā."
+   ]
+  },
+  {
+   "h2": "Sāc ar „lielo trijotni“",
+   "paragraphs": [
+    "Saule, Mēness un augošā zīme ir pamats: Saule ir tava būtība, Mēness jūtas un ieradumi, augošā zīme pirmais iespaids.",
+    "Saule Vērsī, Mēness Jaunavā un augošais Auns: ārēji tiešs, iekšēji mierīgs un praktisks."
+   ]
+  },
+  {
+   "h2": "Planētas, nami un aspekti",
+   "paragraphs": [
+    "Planētas norāda „ko“, zīmes „kā“, nami „kur“ (darbs, mīlestība, mājas). Aspekti ir leņķi starp planētām: trigons un sekstils plūst viegli, kvadrāts un opozīcija rada spriedzi, kas palīdz augt."
+   ]
+  },
+  {
+   "h2": "Biežākās iesācēju kļūdas",
+   "paragraphs": [
+    "Nedari secinājumus no vienas planētas un nebaidies no „sarežģītiem“ aspektiem. Katrā horoskopā ir stiprās puses. Tas nav likteņa pareģojums."
+   ]
+  },
+  {
+   "h2": "Kā lietot ikdienā",
+   "paragraphs": [
+    "Pieraksti trīs stiprās puses un trīs izaugsmes jomas un salīdzini ar dzīvi. Tā astroloģija kļūst par pašizpratnes rīku. Tā neaizstāj ārstu, juristu vai finanšu padomnieku."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai var bez dzimšanas laika?",
+   "a": "Jā, bet bez augošās zīmes un namiem. Saule un planētas zīmēs paliek pareizas."
+  },
+  {
+   "q": "Kāda atšķirība no dienas horoskopa?",
+   "a": "Dzimšanas horoskops ir tikai tavs; dienas horoskops attiecas uz visiem vienas zīmes cilvēkiem."
+  },
+  {
+   "q": "Vai tiešsaistes aprēķini ir precīzi?",
+   "a": "Planētu pozīcijas ir astronomiski precīzas; interpretācija atkarīga no pieejas."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ }
+}

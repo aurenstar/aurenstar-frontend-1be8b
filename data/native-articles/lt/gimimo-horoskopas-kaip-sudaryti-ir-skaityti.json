@@ -1,0 +1,65 @@
+{
+ "lang": "lt",
+ "keyword": "gimimo horoskopas",
+ "volume": 246000,
+ "slug": "gimimo-horoskopas-kaip-sudaryti-ir-skaityti",
+ "date": "2026-11-27",
+ "title": "Gimimo horoskopas: kaip jį sudaryti ir skaityti žingsnis po žingsnio",
+ "description": "Kaip internete sudaryti gimimo horoskopą ir perskaityti Saulę, Mėnulį bei kylantį ženklą – paprastai, su pavyzdžiais.",
+ "intro": "Gimimo horoskopas – tarsi dangaus nuotrauka tavo gimimo akimirką. Internete jis sudaromas per kelias minutes, tačiau simbolių pilnas ratas gali suklaidinti. Štai svarbiausia.",
+ "sections": [
+  {
+   "h2": "Ko reikia",
+   "paragraphs": [
+    "Reikia gimimo datos, kuo tikslesnio laiko ir gimimo vietos. Laikas svarbus, nes kylantis ženklas keičiasi maždaug kas dvi valandas.",
+    "Pavyzdys: Rūta gimė 7:40 Kaune. Su 9:40 jos kylantis ženklas būtų kitas. Laiką dažnai galima rasti gimimo liudijime."
+   ]
+  },
+  {
+   "h2": "Pradėk nuo „didžiojo trejeto“",
+   "paragraphs": [
+    "Saulė, Mėnulis ir kylantis ženklas yra pagrindas: Saulė – tavo esmė, Mėnulis – jausmai ir įpročiai, kylantis ženklas – pirmas įspūdis.",
+    "Saulė Jautyje, Mėnulis Mergelėje ir kylantis Avinas: išorėje tiesus, viduje ramus ir praktiškas."
+   ]
+  },
+  {
+   "h2": "Planetos, namai ir aspektai",
+   "paragraphs": [
+    "Planetos sako „ką“, ženklai „kaip“, namai „kur“ (darbas, meilė, namai). Aspektai – kampai tarp planetų: trigonas ir sekstilis teka lengvai, kvadratas ir opozicija suteikia įtampos, kuri padeda augti."
+   ]
+  },
+  {
+   "h2": "Dažniausios pradedančiųjų klaidos",
+   "paragraphs": [
+    "Nedaryk išvadų iš vienos planetos ir nebijok „sunkių“ aspektų. Kiekvienas horoskopas turi stipriųjų pusių. Tai ne likimo pranašystė."
+   ]
+  },
+  {
+   "h2": "Kaip naudoti kasdien",
+   "paragraphs": [
+    "Užsirašyk tris stipriąsias puses ir tris augimo sritis ir palygink su gyvenimu. Taip astrologija tampa savęs pažinimo įrankiu. Ji nepakeičia gydytojo, teisininko ar finansų patarėjo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar galima be gimimo laiko?",
+   "a": "Taip, bet be kylančio ženklo ir namų. Saulė ir planetos ženkluose išlieka teisingi."
+  },
+  {
+   "q": "Kuo skiriasi nuo dienos horoskopo?",
+   "a": "Gimimo horoskopas tik tavo; dienos galioja visiems to paties ženklo žmonėms."
+  },
+  {
+   "q": "Ar tikslūs internetiniai skaičiavimai?",
+   "a": "Planetų padėtys astronomiškai tikslios; aiškinimas priklauso nuo požiūrio."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ }
+}

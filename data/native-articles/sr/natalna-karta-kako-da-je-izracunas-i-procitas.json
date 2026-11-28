@@ -1,0 +1,65 @@
+{
+ "lang": "sr",
+ "keyword": "natalna karta",
+ "volume": 246000,
+ "slug": "natalna-karta-kako-da-je-izracunas-i-procitas",
+ "date": "2026-11-27",
+ "title": "Natalna karta: kako da je izračunaš i pročitaš korak po korak",
+ "description": "Kako da izračunaš natalnu kartu onlajn i pročitaš Sunce, Mesec i ascendent – jednostavno, s primerima.",
+ "intro": "Natalna karta je kao fotografija neba u trenutku tvog rođenja. Onlajn se napravi za nekoliko minuta, ali krug pun simbola zna da zbuni. Evo najvažnijeg.",
+ "sections": [
+  {
+   "h2": "Šta ti je potrebno",
+   "paragraphs": [
+    "Potrebni su datum rođenja, što tačnije vreme i mesto rođenja. Vreme je važno jer ascendent menja znak otprilike na svaka dva sata.",
+    "Primer: Jelena je rođena u 7:40 u Nišu. Sa 9:40 imala bi drugi ascendent. Vreme često piše u izvodu iz matične knjige rođenih."
+   ]
+  },
+  {
+   "h2": "Počni od „velike trojke“",
+   "paragraphs": [
+    "Sunce, Mesec i ascendent su jezgro: Sunce je tvoja suština, Mesec osećanja i navike, ascendent prvi utisak.",
+    "Sunce u Biku, Mesec u Devici i ascendent Ovan: spolja odlučna, iznutra mirna i praktična."
+   ]
+  },
+  {
+   "h2": "Planete, kuće i aspekti",
+   "paragraphs": [
+    "Planete kažu „šta“, znaci „kako“, a kuće „gde“ (posao, ljubav, dom). Aspekti su uglovi između planeta: trigon i sekstil teku lako, kvadrat i opozicija daju napetost koja pomaže da rasteš."
+   ]
+  },
+  {
+   "h2": "Česte greške početnika",
+   "paragraphs": [
+    "Ne zaključuj na osnovu jedne planete i ne plaši se „teških“ aspekata. Svaka karta ima snage. To nije proricanje sudbine."
+   ]
+  },
+  {
+   "h2": "Kako da je koristiš svakodnevno",
+   "paragraphs": [
+    "Zapiši tri snage i tri oblasti rasta i uporedi sa životom. Astrologija je alat za samospoznaju i ne zamenjuje lekara, advokata ili finansijskog savetnika."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Može li bez vremena rođenja?",
+   "a": "Može, ali bez ascendenta i kuća. Sunce i planete u znacima ostaju tačni."
+  },
+  {
+   "q": "Koja je razlika u odnosu na dnevni horoskop?",
+   "a": "Natalna karta je samo tvoja; dnevni horoskop važi za ceo znak."
+  },
+  {
+   "q": "Da li su onlajn proračuni tačni?",
+   "a": "Položaji planeta su astronomski tačni; tumačenje zavisi od pristupa."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ }
+}

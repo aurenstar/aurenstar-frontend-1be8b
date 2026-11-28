@@ -1,0 +1,65 @@
+{
+ "lang": "tl",
+ "keyword": "birth chart",
+ "volume": 246000,
+ "slug": "birth-chart-paano-kalkulahin-at-basahin",
+ "date": "2026-11-27",
+ "title": "Birth Chart: Paano Kalkulahin at Basahin, Hakbang-hakbang",
+ "description": "Paano gumawa ng birth chart online at basahin ang Araw, Buwan at rising sign sa simpleng salita at may halimbawa.",
+ "intro": "Ang birth chart ay parang larawan ng langit sa sandaling ipinanganak ka. Online, ilang minuto lang ito, pero maaaring nakakalito ang bilog na puno ng simbolo. Narito ang mahahalagang punto.",
+ "sections": [
+  {
+   "h2": "Ano ang kailangan",
+   "paragraphs": [
+    "Kailangan mo ng petsa ng kapanganakan, kasing-tumpak hangga’t maaari na oras, at lugar ng kapanganakan. Mahalaga ang oras dahil nagpapalit ng sign ang rising sign halos kada dalawang oras.",
+    "Halimbawa: Si Mika ay ipinanganak nang 7:40 ng umaga sa Cebu. Kung 9:40 ang inilagay, iba ang rising sign niya. Madalas nasa birth certificate ang oras."
+   ]
+  },
+  {
+   "h2": "Magsimula sa “malalaking tatlo”",
+   "paragraphs": [
+    "Ang Araw, Buwan at rising sign ang puso: ang Araw ang iyong pagkatao, ang Buwan ang damdamin at gawi, ang rising sign ang unang impresyon.",
+    "Araw sa Taurus, Buwan sa Virgo, rising Aries: tuwiran sa labas, kalmado at praktikal sa loob."
+   ]
+  },
+  {
+   "h2": "Mga planeta, bahay at aspeto",
+   "paragraphs": [
+    "Sinasabi ng mga planeta ang “ano”, ng mga sign ang “paano”, at ng mga bahay ang “saan” (trabaho, pag-ibig, tahanan). Ang mga aspeto ay anggulo ng mga planeta: magaan ang trine at sextile, ang square at opposition ay tensyong tumutulong lumago."
+   ]
+  },
+  {
+   "h2": "Karaniwang pagkakamali ng baguhan",
+   "paragraphs": [
+    "Huwag magpasya batay sa iisang planeta at huwag matakot sa “mahirap” na aspeto. May lakas ang bawat chart. Hindi ito hula sa tadhana."
+   ]
+  },
+  {
+   "h2": "Paano gamitin sa araw-araw",
+   "paragraphs": [
+    "Isulat ang tatlong lakas at tatlong lugar na pauunlarin, saka ihambing sa buhay mo. Kasangkapan ito sa pag-unawa sa sarili at hindi kapalit ng doktor, abogado o financial adviser."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Puwede ba kahit walang oras ng kapanganakan?",
+   "a": "Oo, pero walang rising sign at mga bahay. Tama pa rin ang Araw at mga planeta sa mga sign."
+  },
+  {
+   "q": "Ano ang kaibahan sa daily horoscope?",
+   "a": "Ang birth chart ay para lang sa iyo; ang daily horoscope ay para sa lahat ng iisang sign."
+  },
+  {
+   "q": "Tumpak ba ang online na kalkulasyon?",
+   "a": "Tumpak sa astronomiya ang posisyon ng mga planeta; nag-iiba ang interpretasyon ayon sa pamamaraan."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ }
+}

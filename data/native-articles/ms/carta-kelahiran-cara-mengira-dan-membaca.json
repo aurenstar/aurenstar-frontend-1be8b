@@ -1,0 +1,65 @@
+{
+ "lang": "ms",
+ "keyword": "carta kelahiran",
+ "volume": 246000,
+ "slug": "carta-kelahiran-cara-mengira-dan-membaca",
+ "date": "2026-11-27",
+ "title": "Carta Kelahiran: Cara Mengira dan Membacanya Langkah demi Langkah",
+ "description": "Cara mengira carta kelahiran dalam talian dan membaca Matahari, Bulan serta Ascendant dengan bahasa mudah dan contoh.",
+ "intro": "Carta kelahiran ibarat gambar langit pada saat anda dilahirkan. Dalam talian ia siap dalam beberapa minit, tetapi bulatan penuh simbol boleh mengelirukan. Ini perkara pentingnya.",
+ "sections": [
+  {
+   "h2": "Apa yang diperlukan",
+   "paragraphs": [
+    "Anda perlukan tarikh lahir, masa lahir sepersis mungkin dan tempat lahir. Masa penting kerana Ascendant bertukar tanda kira-kira setiap dua jam.",
+    "Contoh: Aina lahir pukul 7:40 pagi di Ipoh. Jika diisi 9:40, Ascendant-nya berbeza. Masa lahir biasanya ada pada surat beranak."
+   ]
+  },
+  {
+   "h2": "Mulakan dengan “tiga utama”",
+   "paragraphs": [
+    "Matahari, Bulan dan Ascendant ialah teras: Matahari ialah jati diri, Bulan ialah perasaan dan tabiat, Ascendant ialah kesan pertama.",
+    "Matahari Taurus, Bulan Virgo, Ascendant Aries: tegas di luar, tenang dan praktikal di dalam."
+   ]
+  },
+  {
+   "h2": "Planet, rumah dan aspek",
+   "paragraphs": [
+    "Planet menunjukkan “apa”, tanda “bagaimana”, rumah “di mana” (kerjaya, cinta, keluarga). Aspek ialah sudut antara planet: trine dan sextile lancar, square dan oposisi memberi ketegangan yang membantu berkembang."
+   ]
+  },
+  {
+   "h2": "Kesilapan biasa pemula",
+   "paragraphs": [
+    "Jangan buat kesimpulan daripada satu planet dan jangan takut aspek yang “sukar”. Setiap carta ada kekuatan. Ia bukan ramalan nasib."
+   ]
+  },
+  {
+   "h2": "Cara menggunakannya setiap hari",
+   "paragraphs": [
+    "Tulis tiga kekuatan dan tiga bidang untuk dibaiki, lalu bandingkan dengan hidup anda. Astrologi ialah alat mengenali diri dan tidak menggantikan doktor, peguam atau penasihat kewangan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Boleh tanpa masa lahir?",
+   "a": "Boleh, tetapi tanpa Ascendant dan rumah. Matahari dan planet dalam tanda tetap betul."
+  },
+  {
+   "q": "Apa beza dengan horoskop harian?",
+   "a": "Carta kelahiran hanya untuk anda; horoskop harian untuk semua yang sama zodiak."
+  },
+  {
+   "q": "Adakah pengiraan dalam talian tepat?",
+   "a": "Kedudukan planet tepat secara astronomi; tafsiran bergantung pada pendekatan."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ }
+}

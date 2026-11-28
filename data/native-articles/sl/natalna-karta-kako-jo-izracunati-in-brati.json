@@ -1,0 +1,65 @@
+{
+ "lang": "sl",
+ "keyword": "natalna karta",
+ "volume": 49500,
+ "slug": "natalna-karta-kako-jo-izracunati-in-brati",
+ "date": "2026-11-27",
+ "title": "Natalna karta: kako jo izračunati in brati korak za korakom",
+ "description": "Kako izračunati natalno karto na spletu in prebrati Sonce, Luno in ascendent – preprosto in s primeri.",
+ "intro": "Natalna karta je kot fotografija neba ob trenutku vašega rojstva. Na spletu nastane v nekaj minutah, a krog, poln simbolov, zna zmesti. Tu je bistvo.",
+ "sections": [
+  {
+   "h2": "Kaj potrebujete",
+   "paragraphs": [
+    "Potrebujete datum rojstva, čim natančnejšo uro in kraj rojstva. Ura je pomembna, ker ascendent zamenja znamenje približno vsaki dve uri.",
+    "Primer: Maja se je rodila ob 7:40 v Mariboru. Z 9:40 bi imela drug ascendent. Uro pogosto najdete v rojstnem listu."
+   ]
+  },
+  {
+   "h2": "Začnite z »veliko trojico«",
+   "paragraphs": [
+    "Sonce, Luna in ascendent so jedro: Sonce je vaše bistvo, Luna čustva in navade, ascendent prvi vtis.",
+    "Sonce v Biku, Luna v Devici in ascendent Oven: navzven odločna, znotraj mirna in praktična."
+   ]
+  },
+  {
+   "h2": "Planeti, hiše in aspekti",
+   "paragraphs": [
+    "Planeti povedo »kaj«, znamenja »kako«, hiše »kje« (služba, ljubezen, dom). Aspekti so koti med planeti: trigon in seksstil tečeta lahkotno, kvadrat in opozicija dajeta napetost, ki pomaga rasti."
+   ]
+  },
+  {
+   "h2": "Pogoste napake začetnikov",
+   "paragraphs": [
+    "Ne sklepajte iz enega planeta in se ne bojte »težkih« aspektov. Vsaka karta ima moči. Ni napoved usode."
+   ]
+  },
+  {
+   "h2": "Uporaba v vsakdanjem življenju",
+   "paragraphs": [
+    "Zapišite tri moči in tri področja rasti ter primerjajte z življenjem. Astrologija je orodje za samospoznavanje in ne nadomešča zdravnika, odvetnika ali finančnega svetovalca."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Gre tudi brez ure rojstva?",
+   "a": "Da, a brez ascendenta in hiš. Sonce in planeti v znamenjih ostanejo pravilni."
+  },
+  {
+   "q": "Kakšna je razlika do dnevnega horoskopa?",
+   "a": "Natalna karta je samo vaša; dnevni horoskop velja za vse iz istega znamenja."
+  },
+  {
+   "q": "So spletni izračuni natančni?",
+   "a": "Položaji planetov so astronomsko natančni; razlaga je odvisna od pristopa."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ }
+}

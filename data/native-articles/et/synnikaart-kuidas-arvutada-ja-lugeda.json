@@ -1,0 +1,65 @@
+{
+ "lang": "et",
+ "keyword": "sünnikaart",
+ "volume": 246000,
+ "slug": "synnikaart-kuidas-arvutada-ja-lugeda",
+ "date": "2026-11-27",
+ "title": "Sünnikaart: kuidas seda arvutada ja lugeda samm-sammult",
+ "description": "Kuidas arvutada sünnikaart veebis ning lugeda Päikest, Kuud ja tõusvat märki – lihtsalt ja näidetega.",
+ "intro": "Sünnikaart on nagu foto taevast sinu sünnihetkel. Veebis valmib see minutitega, kuid sümbolitest täis ring võib segadusse ajada. Siin on olulisim.",
+ "sections": [
+  {
+   "h2": "Mida vaja läheb",
+   "paragraphs": [
+    "Vaja on sünnikuupäeva, võimalikult täpset kellaaega ja sünnikohta. Kellaaeg on oluline, sest tõusev märk vahetub umbes iga kahe tunni järel.",
+    "Näide: Liis sündis kell 7.40 Tartus. Kell 9.40 oleks tal teine tõusev märk. Aja leiab sageli sünnitunnistuselt."
+   ]
+  },
+  {
+   "h2": "Alusta „suurest kolmest“",
+   "paragraphs": [
+    "Päike, Kuu ja tõusev märk on tuum: Päike on sinu olemus, Kuu tunded ja harjumused, tõusev märk esmamulje.",
+    "Päike Sõnnis, Kuu Neitsis ja tõusev Jäär: väljast otsekohene, seest rahulik ja praktiline."
+   ]
+  },
+  {
+   "h2": "Planeedid, majad ja aspektid",
+   "paragraphs": [
+    "Planeedid ütlevad „mis“, märgid „kuidas“ ja majad „kus“ (töö, armastus, kodu). Aspektid on nurgad planeetide vahel: trigoon ja sekstiil voolavad kergelt, kvadraat ja oppositsioon annavad pinget, mis aitab kasvada."
+   ]
+  },
+  {
+   "h2": "Algaja tavalised vead",
+   "paragraphs": [
+    "Ära tee järeldusi ühe planeedi põhjal ega karda „raskeid“ aspekte. Igal kaardil on tugevusi. See pole saatuse ennustus."
+   ]
+  },
+  {
+   "h2": "Kasutus igapäevaelus",
+   "paragraphs": [
+    "Kirjuta üles kolm tugevust ja kolm arengukohta ning võrdle oma eluga. Nii on astroloogia enesetundmise tööriist. See ei asenda arsti, juristi ega finantsnõustajat."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas saab ilma sünniajata?",
+   "a": "Jah, kuid ilma tõusva märgi ja majadeta. Päike ja planeedid märkides on siiski õiged."
+  },
+  {
+   "q": "Mis vahe on päevahoroskoobil?",
+   "a": "Sünnikaart on ainult sinu oma; päevahoroskoop kehtib kõigile sama märgi inimestele."
+  },
+  {
+   "q": "Kas veebikalkulaatorid on täpsed?",
+   "a": "Planeetide asukohad on astronoomiliselt täpsed; tõlgendus sõltub lähenemisest."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ }
+}

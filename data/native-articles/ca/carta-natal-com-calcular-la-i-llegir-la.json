@@ -1,0 +1,65 @@
+{
+ "lang": "ca",
+ "keyword": "carta natal",
+ "volume": 550000,
+ "slug": "carta-natal-com-calcular-la-i-llegir-la",
+ "date": "2026-11-27",
+ "title": "Carta natal: com calcular-la i llegir-la pas a pas",
+ "description": "Com calcular la carta natal en línia i llegir el Sol, la Lluna i l’ascendent amb paraules senzilles i exemples.",
+ "intro": "La carta natal és com una fotografia del cel en el moment del teu naixement. En línia es fa en uns minuts, però el cercle ple de símbols pot confondre. Aquí tens l’essencial.",
+ "sections": [
+  {
+   "h2": "Què necessites",
+   "paragraphs": [
+    "Necessites la data, l’hora el més exacta possible i el lloc de naixement. L’hora importa perquè l’ascendent canvia de signe cada dues hores aproximadament.",
+    "Exemple: la Laia va néixer a les 7:40 a Girona. Amb les 9:40 tindria un altre ascendent. L’hora sol constar al llibre de família."
+   ]
+  },
+  {
+   "h2": "Comença pels «tres grans»",
+   "paragraphs": [
+    "El Sol, la Lluna i l’ascendent són el nucli: el Sol és la teva essència, la Lluna les emocions i els hàbits, l’ascendent la primera impressió.",
+    "Sol a Taure, Lluna a Verge i ascendent Àries: directe per fora, tranquil i pràctic per dins."
+   ]
+  },
+  {
+   "h2": "Planetes, cases i aspectes",
+   "paragraphs": [
+    "Els planetes diuen «què», els signes «com» i les cases «on» (feina, amor, llar). Els aspectes són angles entre planetes: trígon i sextil flueixen, quadratura i oposició donen tensió que fa créixer."
+   ]
+  },
+  {
+   "h2": "Errors habituals de principiant",
+   "paragraphs": [
+    "No extreguis conclusions d’un sol planeta ni temis els aspectes «difícils». Cada carta té punts forts. No és una predicció del destí."
+   ]
+  },
+  {
+   "h2": "Com fer-la servir al dia a dia",
+   "paragraphs": [
+    "Escriu tres punts forts i tres àrees de creixement i compara’ls amb la teva vida. L’astrologia és una eina d’autoconeixement i no substitueix un metge, advocat o assessor financer."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Es pot fer sense l’hora de naixement?",
+   "a": "Sí, però sense ascendent ni cases. El Sol i els planetes als signes continuen sent correctes."
+  },
+  {
+   "q": "Quina diferència hi ha amb l’horòscop diari?",
+   "a": "La carta natal és només teva; l’horòscop diari val per a tot un signe."
+  },
+  {
+   "q": "Són precisos els càlculs en línia?",
+   "a": "Les posicions dels planetes són astronòmicament exactes; la interpretació depèn de l’enfocament."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ }
+}
