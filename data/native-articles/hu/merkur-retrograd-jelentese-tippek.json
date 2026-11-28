@@ -1,0 +1,64 @@
+{
+ "lang": "hu",
+ "keyword": "merkúr retrográd",
+ "volume": 201000,
+ "slug": "merkur-retrograd-jelentese-tippek",
+ "date": "2026-11-27",
+ "title": "Merkúr retrográd: jelentése, időtartama és 5 egyszerű tipp",
+ "description": "Mit jelent a Merkúr retrográd, hányszor van évente és hogyan vészelhető át? Egyszerűen, példákkal.",
+ "intro": "„Lefagy a telefon, elmarad a vonat, és félreértés volt a munkahelyen – biztos a Merkúr retrográd!” Íme a magyarázat nehéz szavak nélkül.",
+ "sections": [
+  {
+   "h2": "Mit jelent a „retrográd”?",
+   "paragraphs": [
+    "A Földről nézve úgy tűnik, hogy a Merkúr egy időre visszafelé halad. Ez optikai csalódás, mint amikor egy lassabb autó hátrálni látszik, ha megelőzöd."
+   ]
+  },
+  {
+   "h2": "Hányszor és meddig?",
+   "paragraphs": [
+    "Évente háromszor-négyszer fordul elő, és körülbelül három hétig tart. Előtte és utána van egy „árnyékfázis”, amikor egyesek már érzik a hatását."
+   ]
+  },
+  {
+   "h2": "Mit mond az asztrológia?",
+   "paragraphs": [
+    "Az asztrológiában a Merkúr a gondolkodást, beszédet, utazást és technikát jelképezi. Retrográd idején a beszélgetések és tervek gyakrabban akadnak: félreértések, késések, meghibásodások."
+   ]
+  },
+  {
+   "h2": "5 egyszerű tipp",
+   "paragraphs": [
+    "1. Készíts biztonsági mentést. 2. Küldés előtt olvasd át az üzenetet. 3. Számolj plusz utazási idővel. 4. Ellenőrizd alaposan a szerződéseket. 5. Rendezd a régi ügyeket.",
+    "Példa: Anna újra átolvassa a bérbeadónak szóló e-mailt, és küldés előtt észreveszi a hibás dátumot."
+   ]
+  },
+  {
+   "h2": "Ne vedd túl komolyan",
+   "paragraphs": [
+    "Nincs tudományos bizonyíték arra, hogy a Merkúr hibákat okozna. Tekintsd emlékeztetőnek az alaposságra, nem félelemre. Fontos döntéseknél kérj szakértői tanácsot."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Évente hányszor retrográd a Merkúr?",
+   "a": "Körülbelül három-négyszer, alkalmanként kb. három hétig."
+  },
+  {
+   "q": "Tényleg visszafelé megy a bolygó?",
+   "a": "Nem, ez a Földről látott optikai csalódás."
+  },
+  {
+   "q": "Nem szabad újat kezdeni?",
+   "a": "Ez asztrológiai ökölszabály, nem törvény. Csak tervezz alaposabban."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ }
+}

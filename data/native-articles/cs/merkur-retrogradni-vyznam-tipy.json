@@ -1,0 +1,64 @@
+{
+ "lang": "cs",
+ "keyword": "merkur retrográdní",
+ "volume": 201000,
+ "slug": "merkur-retrogradni-vyznam-tipy",
+ "date": "2026-11-27",
+ "title": "Retrográdní Merkur: význam, délka a 5 jednoduchých tipů",
+ "description": "Co znamená retrográdní Merkur, kolikrát za rok nastává a jak ho zvládnout? Jednoduše s příklady.",
+ "intro": "„Telefon se seká, vlak nejede a v práci došlo k nedorozumění – to bude retrográdní Merkur!“ Tady je vysvětlení bez složitých slov.",
+ "sections": [
+  {
+   "h2": "Co znamená „retrográdní“?",
+   "paragraphs": [
+    "Ze Země to vypadá, že se planeta Merkur na chvíli vrací zpět. Je to optický klam, jako když při předjíždění pomalejšího auta zdá, že couvá."
+   ]
+  },
+  {
+   "h2": "Kolikrát a jak dlouho?",
+   "paragraphs": [
+    "Děje se to třikrát až čtyřikrát ročně a trvá asi tři týdny. Před a po je „stínová fáze“, kdy někteří účinek už cítí."
+   ]
+  },
+  {
+   "h2": "Co říká astrologie?",
+   "paragraphs": [
+    "V astrologii Merkur řídí myšlení, řeč, cestování a techniku. Při retrográdní fázi se prý častěji zadrhávají rozhovory a plány: nedorozumění, zpoždění, poruchy."
+   ]
+  },
+  {
+   "h2": "5 jednoduchých tipů",
+   "paragraphs": [
+    "1. Zálohujte soubory. 2. Zprávy si před odesláním přečtěte znovu. 3. Počítejte s časovou rezervou na cesty. 4. Smlouvy pečlivě zkontrolujte. 5. Uklidťte staré věci.",
+    "Příklad: Petra si znovu přečte e-mail pronajímateli a před odesláním najde špatné datum."
+   ]
+  },
+  {
+   "h2": "Neberte to příliš vážně",
+   "paragraphs": [
+    "Vědecký důkaz, že Merkur způsobuje poruchy, neexistuje. Berte to jako připomínku pečlivosti, ne důvod ke strachu. U důležitých rozhodnutí se poraďte s odborníkem."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kolikrát ročně je Merkur retrográdní?",
+   "a": "Asi třikrát až čtyřikrát, vždy zhruba tři týdny."
+  },
+  {
+   "q": "Opravdu se planeta vrací zpět?",
+   "a": "Ne, je to optický klam při pohledu ze Země."
+  },
+  {
+   "q": "Nemám nic nového začínat?",
+   "a": "Je to astrologické pravidlo, ne zákon. Jen plánujte pečlivěji."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ }
+}
