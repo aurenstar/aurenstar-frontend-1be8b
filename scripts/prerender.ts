@@ -382,7 +382,8 @@ const signUrls: { loc: string }[] = [];
       const list = mine.flatMap((a) => {
         const enSlug = getArticleSlug(a);
         const h = heads[lang]?.[enSlug]?.t;
-        return h ? [{ title: h.replace(/\s*\|\s*Aurenstar$/, ''), href: `/${lang}/blog/${enToLocal(lang, enSlug) ?? enSlug}`, image: cardImage(a.image) }] : [];
+        // No translated title yet: the card still shows (English title, the article page opens in the reader's language).
+        return [{ title: (h || a.title.en).replace(/\s*\|\s*Aurenstar$/, ''), href: `/${lang}/blog/${enToLocal(lang, enSlug) ?? enSlug}`, image: cardImage(a.image), category: (a.category as Record<string, string>)[lang] || undefined }];
       });
       const html = renderSignHub(lang, sign, list, [], { ui, sign: ns, alt: [...coreAlt, ...natAlt] });
       const file = path.join(dist, '_native', lang, 'signos', `${ns.slug}.html`);
