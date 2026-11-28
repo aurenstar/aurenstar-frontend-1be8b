@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "seksil astrologija",
+ "volume": "1000",
+ "slug": "seksil-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Seksil v astrologiji: kaj pomeni?",
+ "description": "Dva planeta sta oddaljena 60 stopinj. Temu pravimo seksil. Preprosto, s primerom.",
+ "intro": "Seksil je, ko sta dva planeta oddaljena šestino kroga. To je priložnost, ki čaka, a jo morate zgrabiti sami.",
+ "sections": [
+  {
+   "h2": "Kaj je seksil?",
+   "paragraphs": [
+    "Predstavljajte si priprta vrata: lahko greste skozi, a jih morate odpreti."
+   ]
+  },
+  {
+   "h2": "Kako ga uporabite?",
+   "paragraphs": [
+    "Pazite na priložnosti in jih ujemite. Seksil je milejši od trigona in zahteva malo truda."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Venera v seksilu z Merkurjem: Roza govori nežno in očarljivo. Če si upa poklicati, dobi lepo službo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko stopinj je seksil?",
+   "a": "Približno 60 stopinj, s toleranco 4 do 6."
+  },
+  {
+   "q": "Je seksil močen?",
+   "a": "Je blag, prijazen aspekt, ki zahteva dejanje."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

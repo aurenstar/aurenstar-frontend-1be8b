@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "chironas astrologija",
+ "volume": "1000",
+ "slug": "chironas-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Chironas astrologijoje: ką tai reiškia?",
+ "description": "Chironas rodo, kur nešioji seną skausmą ir kaip juo gali padėti kitiems. Paprastai, su pavyzdžiu.",
+ "intro": "Chironas vadinamas „sužeistu gydytoju“. Jis rodo vietą tavo horoskope, kur esi jautrus ir kur savo patirtimi gali padėti kitiems.",
+ "sections": [
+  {
+   "h2": "Kas yra Chironas?",
+   "paragraphs": [
+    "Įsivaizduok žmogų, kuris vaikystėje buvo skriaudžiamas, o dabar yra mokytojas, saugantis vaikus. Skausmas tapo jo stiprybe."
+   ]
+  },
+  {
+   "h2": "Kaip su tuo gyventi?",
+   "paragraphs": [
+    "Skausmo neištrinsi, bet gali išmokti švelniai su juo gyventi. Padeda kalbėjimas, rašymas ar pagalbos ieškojimas."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Chironas draugų name: Rūta vaikystėje jautėsi atstumta. Dabar mielai organizuoja grupes, kur visi laukiami."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar Chironas yra planeta?",
+   "a": "Ne, tai mažas dangaus kūnas tarp Saturno ir Urano."
+  },
+  {
+   "q": "Ar Chironas gali gydyti?",
+   "a": "Jis moko gyventi su skausmu ir padėti kitiems."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

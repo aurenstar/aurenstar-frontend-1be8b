@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "kiron astrologia",
+ "volume": "1000",
+ "slug": "kiron-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kiron astrologiassa: mitä se tarkoittaa?",
+ "description": "Kiron näyttää, missä kannat vanhaa kipua ja miten voit auttaa sen avulla muita. Selitetty esimerkillä.",
+ "intro": "Kironia kutsutaan \"haavoittuneeksi parantajaksi\". Se osoittaa kohdan kartassasi, jossa olet herkkä ja jossa kokemuksesi avulla voit auttaa muita.",
+ "sections": [
+  {
+   "h2": "Mikä on Kiron?",
+   "paragraphs": [
+    "Ajattele ihmistä, jota kiusattiin lapsena ja joka on nyt opettaja suojelemassa lapsia. Kipu muuttui voimaksi."
+   ]
+  },
+  {
+   "h2": "Miten sen kanssa elää?",
+   "paragraphs": [
+    "Kipua ei voi pyyhkiä pois, mutta sen kanssa voi oppia elämään lempeästi. Puhuminen, kirjoittaminen tai avun hakeminen auttaa."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Kiron ystävyyden talossa: Roosa tunsi itsensä ulkopuoliseksi lapsena. Nyt hän järjestää mielellään ryhmiä, joissa kaikki tuntevat olonsa tervetulleiksi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Onko Kiron planeetta?",
+   "a": "Ei, se on pieni taivaankappale Saturnuksen ja Uranuksen välissä."
+  },
+  {
+   "q": "Voiko Kiron parantaa?",
+   "a": "Se opettaa elämään kivun kanssa ja auttamaan muita."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

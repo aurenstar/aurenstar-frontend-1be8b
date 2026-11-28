@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "sekstilis astrologija",
+ "volume": "1000",
+ "slug": "sekstilis-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sekstilis astrologijoje: ką tai reiškia?",
+ "description": "Dvi planetos nutolusios 60 laipsnių. Tai sekstilis. Paprastai, su pavyzdžiu.",
+ "intro": "Sekstilis yra, kai dvi planetos nutolusios šeštadaliu apskritimo. Tai galimybė, kuri laukia, bet ją turi pačiupti pats.",
+ "sections": [
+  {
+   "h2": "Kas yra sekstilis?",
+   "paragraphs": [
+    "Įsivaizduok pravertas duris: gali praeiti, bet reikia jas atidaryti."
+   ]
+  },
+  {
+   "h2": "Kaip naudoti?",
+   "paragraphs": [
+    "Stebėk galimybes ir jas čiupk. Sekstilis švelnesnis už trigoną ir reikalauja šiek tiek pastangų."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Venera sekstilyje su Merkurijumi: Rūta kalba švelniai ir žavingai. Jei išdrįs paskambinti, gaus gražų darbą."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kiek laipsnių yra sekstilis?",
+   "a": "Apie 60 laipsnių, su 4–6 laipsnių paklaida."
+  },
+  {
+   "q": "Ar sekstilis stiprus?",
+   "a": "Tai švelnus, draugiškas aspektas, reikalaujantis veiksmo."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

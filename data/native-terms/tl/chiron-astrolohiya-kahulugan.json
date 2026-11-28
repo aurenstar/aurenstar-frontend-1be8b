@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "chiron astrolohiya",
+ "volume": "1000",
+ "slug": "chiron-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Chiron sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Ipinapakita ng Chiron kung saan ka may lumang sakit at paano mo ito magagamit para tumulong sa iba. Simple, may halimbawa.",
+ "intro": "Tinatawag na \"sugatang manggagamot\" ang Chiron. Itinuturo nito ang bahagi ng chart mo na sensitibo ka, at kung saan makakatulong ka sa iba dahil sa karanasan mo.",
+ "sections": [
+  {
+   "h2": "Ano ang Chiron?",
+   "paragraphs": [
+    "Isipin ang taong na-bully noong bata at ngayon ay guro na nagpoprotekta sa mga bata. Naging lakas ang sakit."
+   ]
+  },
+  {
+   "h2": "Paano ito haharapin?",
+   "paragraphs": [
+    "Hindi mabubura ang sakit, pero matututo kang mabuhay nang mahinahon kasama nito. Nakatutulong ang pagkukuwento, pagsusulat, o paghingi ng tulong."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Nasa bahay ng mga kaibigan ang Chiron: naramdaman ni Mika na hindi siya kabilang noong bata. Ngayon masaya siyang nag-oorganisa ng grupong tanggap ang lahat."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Planeta ba ang Chiron?",
+   "a": "Hindi, maliit na bagay-sa-langit ito sa pagitan ng Saturn at Uranus."
+  },
+  {
+   "q": "Nakagagaling ba ang Chiron?",
+   "a": "Tinuturuan ka nitong mabuhay kasama ng sakit at tumulong sa iba."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

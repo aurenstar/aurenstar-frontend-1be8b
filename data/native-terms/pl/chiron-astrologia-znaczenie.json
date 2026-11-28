@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "chiron astrologia",
+ "volume": "1000",
+ "slug": "chiron-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Chiron w astrologii: co oznacza?",
+ "description": "Chiron pokazuje, gdzie nosisz dawny ból i jak możesz dzięki niemu pomagać innym. Wyjaśnione prosto, z przykładem.",
+ "intro": "Chirona nazywa się „zranionym uzdrowicielem”. Wskazuje miejsce w Twoim horoskopie, gdzie jesteś wrażliwy i gdzie dzięki doświadczeniu możesz pomagać innym.",
+ "sections": [
+  {
+   "h2": "Czym jest Chiron?",
+   "paragraphs": [
+    "Wyobraź sobie osobę, która jako dziecko była dręczona, a dziś jest nauczycielem chroniącym dzieci. Ból stał się jej siłą."
+   ]
+  },
+  {
+   "h2": "Jak sobie z tym radzić?",
+   "paragraphs": [
+    "Bólu nie wymażesz, ale możesz nauczyć się żyć z nim łagodnie. Pomaga rozmowa, pisanie lub szukanie pomocy."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Chiron w domu przyjaciół: Róża jako dziecko czuła się odrzucona. Dziś chętnie organizuje grupy, w których każdy czuje się mile widziany."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy Chiron to planeta?",
+   "a": "Nie, to małe ciało niebieskie między Saturnem a Uranem."
+  },
+  {
+   "q": "Czy Chiron leczy?",
+   "a": "Uczy żyć z bólem i pomagać innym."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

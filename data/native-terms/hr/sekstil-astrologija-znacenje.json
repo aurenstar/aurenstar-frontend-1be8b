@@ -1,0 +1,49 @@
+{
+ "lang": "hr",
+ "keyword": "sekstil astrologija",
+ "volume": "1000",
+ "slug": "sekstil-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sekstil u astrologiji: što znači?",
+ "description": "Dva planeta udaljena su 60 stupnjeva. To je sekstil. Jednostavno, s primjerom.",
+ "intro": "Sekstil je kad su dva planeta udaljena šestinu kruga. To je prilika koja čeka, ali moraš je sam zgrabiti.",
+ "sections": [
+  {
+   "h2": "Što je sekstil?",
+   "paragraphs": [
+    "Zamisli odškrinuta vrata: možeš proći, ali ih moraš otvoriti."
+   ]
+  },
+  {
+   "h2": "Kako ga koristiš?",
+   "paragraphs": [
+    "Prati prilike i zgrabi ih. Sekstil je blaži od trigona i traži malo truda."
+   ]
+  },
+  {
+   "h2": "Primjer",
+   "paragraphs": [
+    "Venera u sekstilu s Merkurom: Ruža govori nježno i šarmantno. Ako se usudi nazvati, dobit će lijep posao."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko stupnjeva je sekstil?",
+   "a": "Oko 60 stupnjeva, s tolerancijom 4 do 6."
+  },
+  {
+   "q": "Je li sekstil jak?",
+   "a": "Blag je, prijateljski aspekt koji traži djelovanje."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

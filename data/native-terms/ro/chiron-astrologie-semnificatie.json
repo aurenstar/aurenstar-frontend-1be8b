@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "chiron astrologie",
+ "volume": "1000",
+ "slug": "chiron-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Chiron în astrologie: ce înseamnă?",
+ "description": "Chiron arată unde porți o durere veche și cum poți ajuta pe alții cu ea. Explicat simplu, cu exemplu.",
+ "intro": "Chiron se numește „vindecătorul rănit”. Arată locul din harta ta unde ești sensibil și unde, prin experiența ta, poți ajuta pe alții.",
+ "sections": [
+  {
+   "h2": "Ce este Chiron?",
+   "paragraphs": [
+    "Gândește-te la cineva care a fost hărțuit în copilărie și acum e profesor care protejează copiii. Durerea a devenit forța lui."
+   ]
+  },
+  {
+   "h2": "Cum te descurci?",
+   "paragraphs": [
+    "Nu poți șterge durerea, dar poți învăța să trăiești blând cu ea. Ajută să vorbești, să scrii sau să ceri ajutor."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Chiron în casa prietenilor: Roza se simțea exclusă în copilărie. Acum organizează cu drag grupuri în care toți se simt bineveniți."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Este Chiron o planetă?",
+   "a": "Nu, este un corp ceresc mic între Saturn și Uranus."
+  },
+  {
+   "q": "Poate Chiron vindeca?",
+   "a": "Te învață să trăiești cu durerea și să ajuți pe alții."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

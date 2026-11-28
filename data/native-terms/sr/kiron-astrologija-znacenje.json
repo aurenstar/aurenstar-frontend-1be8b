@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "kiron astrologija",
+ "volume": "1000",
+ "slug": "kiron-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kiron u astrologiji: šta znači?",
+ "description": "Kiron pokazuje gde nosiš staru bol i kako njome možeš pomoći drugima. Jednostavno, sa primerom.",
+ "intro": "Kiron se zove „ranjeni isceljitelj“. Pokazuje mesto u tvom horoskopu gde si osetljiv i gde iskustvom možeš pomoći drugima.",
+ "sections": [
+  {
+   "h2": "Šta je Kiron?",
+   "paragraphs": [
+    "Zamisli nekoga ko je u detinjstvu bio maltretiran, a danas je učitelj koji štiti decu. Bol je postala njegova snaga."
+   ]
+  },
+  {
+   "h2": "Kako s tim?",
+   "paragraphs": [
+    "Bol ne možeš izbrisati, ali možeš naučiti da nežno živiš s njom. Pomaže razgovor, pisanje ili traženje pomoći."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Kiron u kući prijatelja: Ruža se kao dete osećala isključeno. Sada rado organizuje grupe u kojima su svi dobrodošli."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Da li je Kiron planeta?",
+   "a": "Ne, malo je nebesko telo između Saturna i Urana."
+  },
+  {
+   "q": "Može li Kiron da leči?",
+   "a": "Uči te da živiš sa bolom i pomažeš drugima."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

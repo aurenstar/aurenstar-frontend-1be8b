@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "góc lục hợp 60 độ",
+ "volume": "1000",
+ "slug": "goc-luc-hop-sextile-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sextile (góc lục hợp 60 độ) trong chiêm tinh là gì?",
+ "description": "Hai hành tinh cách nhau 60 độ gọi là sextile. Giải thích đơn giản, có ví dụ.",
+ "intro": "Sextile là khi hai hành tinh cách nhau một phần sáu vòng tròn. Đó là cơ hội đã sẵn sàng, nhưng bạn phải tự nắm lấy.",
+ "sections": [
+  {
+   "h2": "Sextile là gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến cánh cửa mở hé: bạn có thể đi qua, nhưng phải tự đẩy ra."
+   ]
+  },
+  {
+   "h2": "Dùng thế nào?",
+   "paragraphs": [
+    "Để ý cơ hội và nắm lấy. Sextile nhẹ nhàng hơn trine và cần một chút nỗ lực."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Kim Tinh sextile Thủy Tinh: Lan nói chuyện dịu dàng, duyên dáng. Nếu dám gọi điện, cô sẽ có công việc tốt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Sextile bao nhiêu độ?",
+   "a": "Khoảng 60 độ, sai số 4 đến 6 độ."
+  },
+  {
+   "q": "Sextile có mạnh không?",
+   "a": "Nhẹ nhàng, thân thiện nhưng cần hành động."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

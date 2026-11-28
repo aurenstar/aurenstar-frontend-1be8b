@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "szextil asztrológia",
+ "volume": "1000",
+ "slug": "szextil-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Szextil az asztrológiában: mit jelent?",
+ "description": "Két bolygó 60 fokra van egymástól. Ezt hívják szextilnek. Egyszerűen, példával.",
+ "intro": "A szextil akkor van, ha két bolygó a kör hatodára áll egymástól. Ez egy kész lehetőség, de neked kell megragadnod.",
+ "sections": [
+  {
+   "h2": "Mi a szextil?",
+   "paragraphs": [
+    "Gondolj egy résnyire nyitott ajtóra: átmehetsz rajta, de ki kell nyitnod."
+   ]
+  },
+  {
+   "h2": "Hogyan használd?",
+   "paragraphs": [
+    "Figyeld a lehetőségeket, és kapd el őket. A szextil enyhébb a trigonnál, és egy kis erőfeszítést kér."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Vénusz szextilben a Merkúrral: Rózsa lágyan és bájosan beszél. Ha mer telefonálni, megkapja azt a szép állást."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hány fok a szextil?",
+   "a": "Körülbelül 60 fok, 4–6 fok eltéréssel."
+  },
+  {
+   "q": "Erős a szextil?",
+   "a": "Szelíd, barátságos szög, ami cselekvést kér."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

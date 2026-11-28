@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "chiron astrologi",
+ "volume": "1000",
+ "slug": "chiron-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Chiron i astrologin: vad betyder det?",
+ "description": "Chiron visar var du bär på en gammal smärta och hur du kan hjälpa andra med den. Enkelt förklarat med exempel.",
+ "intro": "Chiron kallas \"den sårade healern\". Han pekar på platsen i ditt horoskop där du är känslig och där du genom din erfarenhet kan hjälpa andra.",
+ "sections": [
+  {
+   "h2": "Vad är Chiron?",
+   "paragraphs": [
+    "Tänk på någon som blev mobbad som barn och nu är lärare som skyddar barn. Smärtan blev hans styrka."
+   ]
+  },
+  {
+   "h2": "Hur hanterar du det?",
+   "paragraphs": [
+    "Du kan inte radera smärtan, men du kan lära dig leva mjukt med den. Att prata, skriva eller söka hjälp hjälper."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Chiron i vänskapens hus: Rosa kände sig utanför som barn. Nu ordnar hon gärna grupper där alla känner sig välkomna."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Är Chiron en planet?",
+   "a": "Nej, det är en liten himlakropp mellan Saturnus och Uranus."
+  },
+  {
+   "q": "Kan Chiron läka?",
+   "a": "Han lär dig leva med smärta och hjälpa andra."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

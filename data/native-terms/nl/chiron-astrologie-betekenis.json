@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "chiron astrologie",
+ "volume": "1000",
+ "slug": "chiron-astrologie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Chiron in de astrologie: wat betekent het?",
+ "description": "Chiron laat zien waar je een oude pijn draagt en hoe je daar anderen mee kunt helpen. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "Chiron heet \"de gewonde heler\". Hij wijst de plek in je kaart waar je gevoelig bent, en waar je door je ervaring juist anderen kunt helpen.",
+ "sections": [
+  {
+   "h2": "Wat is Chiron?",
+   "paragraphs": [
+    "Denk aan iemand die als kind gepest werd en nu leraar is die kinderen beschermt. Zijn pijn werd zijn kracht."
+   ]
+  },
+  {
+   "h2": "Hoe ga je ermee om?",
+   "paragraphs": [
+    "Je kunt de pijn niet wissen, maar je kunt er zacht mee leren leven. Praten, schrijven of hulp zoeken helpt."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Chiron in het huis van vrienden: Roos voelde zich vroeger buitengesloten. Nu organiseert ze graag groepen waar iedereen zich welkom voelt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is Chiron een planeet?",
+   "a": "Nee, het is een kleine hemellichaam tussen Saturnus en Uranus."
+  },
+  {
+   "q": "Kan Chiron genezen?",
+   "a": "Hij leert je omgaan met pijn en andere mensen te helpen."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

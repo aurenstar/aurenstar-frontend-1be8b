@@ -1,0 +1,49 @@
+{
+ "lang": "da",
+ "keyword": "sekstil astrologi",
+ "volume": "1000",
+ "slug": "sekstil-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sekstil i astrologi: hvad betyder det?",
+ "description": "To planeter står 60 grader fra hinanden. Det kaldes sekstil. Forklaret enkelt med eksempel.",
+ "intro": "En sekstil er, når to planeter står en sjettedel af cirklen fra hinanden. Det er en chance, der ligger klar, men du skal selv gribe den.",
+ "sections": [
+  {
+   "h2": "Hvad er en sekstil?",
+   "paragraphs": [
+    "Tænk på en dør på klem: du kan gå igennem, men du skal skubbe den op."
+   ]
+  },
+  {
+   "h2": "Hvordan bruger du den?",
+   "paragraphs": [
+    "Hold øje med chancer og grib dem. En sekstil er mildere end en trigon og kræver lidt indsats."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Venus sekstil Merkur: Rosa taler blidt og charmerende. Hvis hun tør ringe, får hun det gode job."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvor mange grader er en sekstil?",
+   "a": "Cirka 60 grader, med plads til 4 til 6 grader."
+  },
+  {
+   "q": "Er sekstil stærk?",
+   "a": "Det er et blidt, venligt aspekt, der kræver handling."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ },
+ "tool": "descreva-me"
+}

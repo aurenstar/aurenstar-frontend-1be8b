@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "chiron astroloogia",
+ "volume": "1000",
+ "slug": "chiron-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Chiron astroloogias: mida see tähendab?",
+ "description": "Chiron näitab, kus kannad vana valu ja kuidas saad sellega teisi aidata. Lihtsalt ja näitega.",
+ "intro": "Chironit kutsutakse „haavatud ravitsejaks“. See näitab kohta sinu kaardil, kus oled tundlik ja kus oma kogemusega saad teisi aidata.",
+ "sections": [
+  {
+   "h2": "Mis on Chiron?",
+   "paragraphs": [
+    "Mõtle inimesele, keda lapsena kiusati ja kes on nüüd õpetaja, kes lapsi kaitseb. Valu sai tema jõuks."
+   ]
+  },
+  {
+   "h2": "Kuidas sellega toime tulla?",
+   "paragraphs": [
+    "Valu ei saa kustutada, kuid sellega saab õppida õrnalt elama. Aitab rääkimine, kirjutamine või abi otsimine."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Chiron sõprade majas: Roosi tundis end lapsena kõrvalejäetuna. Nüüd korraldab ta hea meelega gruppe, kus kõik on teretulnud."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas Chiron on planeet?",
+   "a": "Ei, see on väike taevakeha Saturni ja Uraani vahel."
+  },
+  {
+   "q": "Kas Chiron saab ravida?",
+   "a": "See õpetab elama valuga ja teisi aitama."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

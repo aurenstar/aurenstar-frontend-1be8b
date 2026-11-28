@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "sextile aspeto astrolohiya",
+ "volume": "1000",
+ "slug": "sextile-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sextile sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Kapag dalawang planeta ay 60 digri ang layo, tinatawag itong sextile. Simple, may halimbawa.",
+ "intro": "Ang sextile ay kapag ang dalawang planeta ay isang-kaanim ng bilog ang layo. Handa na ang pagkakataon, pero ikaw ang dapat dumampot.",
+ "sections": [
+  {
+   "h2": "Ano ang sextile?",
+   "paragraphs": [
+    "Isipin ang pintuang nakaawang: puwede kang pumasok, pero kailangan mo itong itulak."
+   ]
+  },
+  {
+   "h2": "Paano gamitin?",
+   "paragraphs": [
+    "Bantayan ang mga pagkakataon at agawin ang mga ito. Mas banayad ito kaysa trine at kailangan ng kaunting pagsisikap."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Sextile ang Venus at Mercury: mahinahon at kaakit-akit magsalita si Mika. Kapag nagkaroon siya ng lakas ng loob na tumawag, makukuha niya ang magandang trabaho."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ilang digri ang sextile?",
+   "a": "Mga 60 digri, na may espasyong 4 hanggang 6 digri."
+  },
+  {
+   "q": "Malakas ba ang sextile?",
+   "a": "Banayad at mabait ito pero kailangan ng aksyon."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "sextil astrologia",
+ "volume": "1000",
+ "slug": "sextil-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sextil en astrologia: què significa?",
+ "description": "Dos planetes són a 60 graus l’un de l’altre. S’anomena sextil. Explicat fàcil, amb exemple.",
+ "intro": "El sextil és quan dos planetes són a una sisena part de cercle l’un de l’altre. És una oportunitat preparada, però l’has d’agafar tu.",
+ "sections": [
+  {
+   "h2": "Què és el sextil?",
+   "paragraphs": [
+    "Pensa en una porta entreoberta: pots passar, però l’has d’obrir."
+   ]
+  },
+  {
+   "h2": "Com l’utilitzes?",
+   "paragraphs": [
+    "Estigues atent a les oportunitats i agafa-les. El sextil és més suau que el trígon i demana una mica d’esforç."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Venus en sextil amb Mercuri: la Rosa parla suau i amb encant. Si s’atreveix a trucar, aconsegueix la bona feina."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quants graus és un sextil?",
+   "a": "Uns 60 graus, amb un marge de 4 a 6."
+  },
+  {
+   "q": "El sextil és fort?",
+   "a": "És un aspecte suau i amable que demana acció."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

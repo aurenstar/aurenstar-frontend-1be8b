@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "hiron astrologija",
+ "volume": "1000",
+ "slug": "hiron-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Hiron v astrologiji: kaj pomeni?",
+ "description": "Hiron kaže, kje nosite staro bolečino in kako z njo lahko pomagate drugim. Preprosto, s primerom.",
+ "intro": "Hiron se imenuje »ranjeni zdravitelj«. Kaže mesto v vašem horoskopu, kjer ste občutljivi in kjer lahko z izkušnjo pomagate drugim.",
+ "sections": [
+  {
+   "h2": "Kaj je Hiron?",
+   "paragraphs": [
+    "Predstavljajte si nekoga, ki so ga kot otroka ustrahovali, zdaj pa je učitelj, ki ščiti otroke. Bolečina je postala njegova moč."
+   ]
+  },
+  {
+   "h2": "Kako z njim?",
+   "paragraphs": [
+    "Bolečine ne morete izbrisati, a se lahko naučite nežno živeti z njo. Pomaga pogovor, pisanje ali iskanje pomoči."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Hiron v hiši prijateljev: Roza se je kot otrok počutila izključeno. Zdaj rada organizira skupine, kjer je vsak dobrodošel."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je Hiron planet?",
+   "a": "Ne, je majhno nebesno telo med Saturnom in Uranom."
+  },
+  {
+   "q": "Ali lahko Hiron zdravi?",
+   "a": "Uči vas živeti z bolečino in pomagati drugim."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

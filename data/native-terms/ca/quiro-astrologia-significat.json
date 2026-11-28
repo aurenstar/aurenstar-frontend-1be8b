@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "quiró astrologia",
+ "volume": "1000",
+ "slug": "quiro-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Quiró en astrologia: què significa?",
+ "description": "Quiró mostra on portes un dolor antic i com pots ajudar els altres amb ell. Explicat fàcil, amb exemple.",
+ "intro": "Quiró s’anomena “el sanador ferit”. Assenyala el lloc de la teva carta on ets sensible i on, per la teva experiència, pots ajudar els altres.",
+ "sections": [
+  {
+   "h2": "Què és Quiró?",
+   "paragraphs": [
+    "Pensa en algú que de petit va patir asssetjament i ara és mestre i protegeix els nens. El dolor es va convertir en la seva força."
+   ]
+  },
+  {
+   "h2": "Com ho afrontes?",
+   "paragraphs": [
+    "No pots esborrar el dolor, però pots aprendre a viure amb ell amb suavitat. Ajuda parlar, escriure o demanar ajuda."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Quiró a la casa dels amics: la Rosa de petita se sentia exclosa. Ara organitza amb gust grups on tothom se sent benvingut."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quiró és un planeta?",
+   "a": "No, és un petit cos celeste entre Saturn i Urà."
+  },
+  {
+   "q": "Pot Quiró guarir?",
+   "a": "T’ensenya a viure amb el dolor i a ajudar els altres."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

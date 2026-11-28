@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "kheirón asztrológia",
+ "volume": "1000",
+ "slug": "kheiron-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kheirón az asztrológiában: mit jelent?",
+ "description": "A Kheirón megmutatja, hol hordasz régi fájdalmat, és hogyan segíthetsz vele másoknak. Egyszerűen, példával.",
+ "intro": "A Kheirónt „sebzett gyógyítónak” hívják. Megmutatja a horoszkópodban azt a helyet, ahol érzékeny vagy, és ahol a tapasztalatoddal segíthetsz másoknak.",
+ "sections": [
+  {
+   "h2": "Mi a Kheirón?",
+   "paragraphs": [
+    "Gondolj valakire, akit gyerekként bántottak, és ma tanár, aki védi a gyerekeket. A fájdalom erővé vált."
+   ]
+  },
+  {
+   "h2": "Hogyan bánj vele?",
+   "paragraphs": [
+    "A fájdalmat nem törölheted el, de megtanulhatsz szelíden élni vele. Segít a beszélgetés, az írás vagy a segítségkérés."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Kheirón a barátok házában: Rózsa gyerekként kirekesztve érezte magát. Ma szívesen szervez olyan csoportokat, ahol mindenki szívesen látott."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "A Kheirón bolygó?",
+   "a": "Nem, kis égitest a Szaturnusz és az Uránusz között."
+  },
+  {
+   "q": "Gyógyíthat a Kheirón?",
+   "a": "Megtanít együtt élni a fájdalommal és segíteni másoknak."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

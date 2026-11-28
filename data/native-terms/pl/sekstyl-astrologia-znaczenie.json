@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "sekstyl astrologia",
+ "volume": "1000",
+ "slug": "sekstyl-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sekstyl w astrologii: co oznacza?",
+ "description": "Dwie planety dzieli 60 stopni. To sekstyl. Wyjaśnione prosto, z przykładem.",
+ "intro": "Sekstyl to dwie planety oddalone o jedną szóstą koła. To szansa, która czeka, ale trzeba po nią sięgnąć.",
+ "sections": [
+  {
+   "h2": "Czym jest sekstyl?",
+   "paragraphs": [
+    "Wyobraź sobie uchylone drzwi: możesz przejść, ale musisz je pchnąć."
+   ]
+  },
+  {
+   "h2": "Jak go używać?",
+   "paragraphs": [
+    "Wypatruj okazji i łap je. Sekstyl jest łagodniejszy niż trygon i wymaga odrobiny wysiłku."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Wenus w sekstylu do Merkurego: Róża mówi łagodnie i uroczo. Jeśli odważy się zadzwonić, dostanie tę miłą pracę."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ile stopni ma sekstyl?",
+   "a": "Około 60 stopni, z tolerancją 4–6 stopni."
+  },
+  {
+   "q": "Czy sekstyl jest silny?",
+   "a": "To łagodny, przyjazny aspekt, który wymaga działania."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

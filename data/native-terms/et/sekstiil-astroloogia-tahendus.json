@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "sekstiil astroloogia",
+ "volume": "1000",
+ "slug": "sekstiil-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sekstiil astroloogias: mida see tähendab?",
+ "description": "Kaks planeeti on 60 kraadi teineteisest. Seda nimetatakse sekstiiliks. Lihtsalt ja näitega.",
+ "intro": "Sekstiil on siis, kui kaks planeeti on kuuendiku ringi kaugusel. See on valmis võimalus, aga pead ise selle haarama.",
+ "sections": [
+  {
+   "h2": "Mis on sekstiil?",
+   "paragraphs": [
+    "Mõtle praokil uksele: saad läbi minna, aga pead selle avama."
+   ]
+  },
+  {
+   "h2": "Kuidas kasutada?",
+   "paragraphs": [
+    "Jälgi võimalusi ja haara neist. Sekstiil on leebem kui trigon ja nõuab pisut pingutust."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Veenus sekstiilis Merkuuriga: Roosi räägib pehmelt ja võluvalt. Kui ta julgeb helistada, saab ta selle toreda töö."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mitu kraadi on sekstiil?",
+   "a": "Umbes 60 kraadi, 4–6 kraadi varuga."
+  },
+  {
+   "q": "Kas sekstiil on tugev?",
+   "a": "See on leebe, sõbralik aspekt, mis vajab tegutsemist."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

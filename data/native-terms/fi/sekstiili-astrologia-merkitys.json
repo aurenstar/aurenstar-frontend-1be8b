@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "sekstiili astrologia",
+ "volume": "1000",
+ "slug": "sekstiili-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sekstiili astrologiassa: mitä se tarkoittaa?",
+ "description": "Kaksi planeettaa on 60 asteen päässä toisistaan. Sitä kutsutaan sekstiiliksi. Selitetty esimerkillä.",
+ "intro": "Sekstiili on, kun kaksi planeettaa on kuudenneksen ympyrästä toisistaan. Se on tilaisuus, joka odottaa, mutta sinun pitää tarttua siihen.",
+ "sections": [
+  {
+   "h2": "Mikä on sekstiili?",
+   "paragraphs": [
+    "Ajattele raollaan olevaa ovea: voit kulkea sen läpi, mutta se pitää työntää auki."
+   ]
+  },
+  {
+   "h2": "Miten käytät sitä?",
+   "paragraphs": [
+    "Pidä silmällä tilaisuuksia ja tartu niihin. Sekstiili on lempeämpi kuin trigoni ja vaatii pienen ponnistuksen."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Venus sekstiilissä Merkuriuksen kanssa: Roosa puhuu pehmeästi ja viehättävästi. Jos hän uskaltaa soittaa, hän saa sen kivan työn."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Montako astetta sekstiili on?",
+   "a": "Noin 60 astetta, 4–6 asteen väljyydellä."
+  },
+  {
+   "q": "Onko sekstiili vahva?",
+   "a": "Se on lempeä, ystävällinen aspekti, joka vaatii toimintaa."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

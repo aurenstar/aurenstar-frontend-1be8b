@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "Chiron chiêm tinh",
+ "volume": "1000",
+ "slug": "chiron-chiem-tinh-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Chiron trong chiêm tinh có ý nghĩa gì?",
+ "description": "Chiron cho thấy nơi bạn mang nỗi đau cũ và cách dùng nó để giúp người khác. Giải thích đơn giản, có ví dụ.",
+ "intro": "Chiron được gọi là “người chữa lành bị thương”. Nó chỉ ra nơi trong lá số mà bạn nhạy cảm, và nơi bạn có thể dùng kinh nghiệm để giúp người khác.",
+ "sections": [
+  {
+   "h2": "Chiron là gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến người từng bị bắt nạt hồi nhỏ, nay là thầy giáo bảo vệ trẻ em. Nỗi đau đã thành sức mạnh."
+   ]
+  },
+  {
+   "h2": "Đối diện thế nào?",
+   "paragraphs": [
+    "Bạn không thể xóa nỗi đau, nhưng có thể học cách sống nhẹ nhàng với nó. Trò chuyện, viết ra hoặc tìm sự giúp đỡ đều có ích."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Chiron ở nhà của bạn bè: Lan từng cảm thấy bị cô lập. Giờ cô vui vẻ tổ chức những nhóm mà ai cũng được chào đón."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Chiron có phải hành tinh không?",
+   "a": "Không, đó là một thiên thể nhỏ giữa Thổ Tinh và Thiên Vương Tinh."
+  },
+  {
+   "q": "Chiron có chữa lành được không?",
+   "a": "Nó dạy bạn sống với nỗi đau và giúp đỡ người khác."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

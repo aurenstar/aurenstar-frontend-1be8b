@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "hirons astroloģija",
+ "volume": "1000",
+ "slug": "hirons-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Hirons astroloģijā: ko tas nozīmē?",
+ "description": "Hirons rāda, kur tu nes senu sāpi un kā ar to vari palīdzēt citiem. Vienkārši, ar piemēru.",
+ "intro": "Hironu sauc par „ievainoto dziednieku”. Viņš norāda vietu tavā kartē, kur esi jūtīgs un kur ar savu pieredzi vari palīdzēt citiem.",
+ "sections": [
+  {
+   "h2": "Kas ir Hirons?",
+   "paragraphs": [
+    "Iedomājies cilvēku, kuru bērnībā ņirgājās, bet tagad viņš ir skolotājs, kas sargā bērnus. Sāpes kļuva par viņa spēku."
+   ]
+  },
+  {
+   "h2": "Kā ar to tikt galā?",
+   "paragraphs": [
+    "Sāpes nevar izdzēst, bet var iemācīties mīksti ar tām dzīvot. Palīdz runāt, rakstīt vai meklēt palīdzību."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Hirons draugu mājā: Roze bērnībā jutās atstumta. Tagad viņa labprāt organizē grupas, kur visi gaidīti."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai Hirons ir planēta?",
+   "a": "Nē, tas ir mazs debess ķermenis starp Saturnu un Uranu."
+  },
+  {
+   "q": "Vai Hirons var dziedēt?",
+   "a": "Viņš māca dzīvot ar sāpēm un palīdzēt citiem."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

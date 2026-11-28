@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "sextil astrológia",
+ "volume": "1000",
+ "slug": "sextil-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sextil v astrológii: čo znamená?",
+ "description": "Dve planéty sú od seba 60 stupňov. Hovorí sa tomu sextil. Jednoducho s príkladom.",
+ "intro": "Sextil je, keď sú dve planéty od seba šestinu kruhu. Je to šanca, ktorá je pripravená, ale musíte po nej siahnuť.",
+ "sections": [
+  {
+   "h2": "Čo je sextil?",
+   "paragraphs": [
+    "Predstavte si pootvorené dvere: môžete nimi prejsť, ale musíte ich otvoriť."
+   ]
+  },
+  {
+   "h2": "Ako ho využiť?",
+   "paragraphs": [
+    "Všímajte si príležitosti a chopte sa ich. Sextil je miernejší než trigón a chce trochu úsilia."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Venuša v sextile s Merkúrom: Ruža hovorí jemne a pôvabne. Ak sa odváži zavolať, dostane tú peknú prácu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koľko stupňov má sextil?",
+   "a": "Zhruba 60 stupňov, s toleranciou 4 až 6 stupňov."
+  },
+  {
+   "q": "Je sextil silný?",
+   "a": "Je to jemný, priateľský aspekt, ktorý chce akciu."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

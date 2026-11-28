@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "chiron astrologie",
+ "volume": "1000",
+ "slug": "chiron-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Chiron v astrologii: co znamená?",
+ "description": "Chiron ukazuje, kde nosíte starou bolest a jak s ní můžete pomáhat druhým. Jednoduše s příkladem.",
+ "intro": "Chirónu se říká „zraněný léčitel“. Ukazuje místo ve vašem horoskopu, kde jste citliví a kde můžete díky zkušenosti pomáhat druhým.",
+ "sections": [
+  {
+   "h2": "Co je Chiron?",
+   "paragraphs": [
+    "Představte si někoho, koho jako dítě šikanovali a dnes je učitelem, který chrání děti. Bolest se stala jeho silou."
+   ]
+  },
+  {
+   "h2": "Jak s tím žít?",
+   "paragraphs": [
+    "Bolest nevymažete, ale můžete se s ní naučit žít jemně. Pomáhá mluvit, psát nebo hledat pomoc."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Chiron v domě přátel: Růža se jako dítě cítila vyčleněná. Dnes ráda pořádá skupiny, kde se každý cítí vítán."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je Chiron planeta?",
+   "a": "Ne, je to malé nebeské těleso mezi Saturnem a Uranem."
+  },
+  {
+   "q": "Může Chiron léčit?",
+   "a": "Učí vás žít s bolestí a pomáhat druhým."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

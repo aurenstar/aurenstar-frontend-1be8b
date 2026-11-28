@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "sextil astrologie",
+ "volume": "1000",
+ "slug": "sextil-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sextilul în astrologie: ce înseamnă?",
+ "description": "Două planete sunt la 60 de grade una de alta. Se numește sextil. Explicat simplu, cu exemplu.",
+ "intro": "Sextilul apare când două planete sunt la o șesime de cerc distanță. E o șansă pregătită, dar trebuie s-o apuci tu.",
+ "sections": [
+  {
+   "h2": "Ce este sextilul?",
+   "paragraphs": [
+    "Gândește-te la o ușă întredeschisă: poți trece, dar trebuie s-o împingi."
+   ]
+  },
+  {
+   "h2": "Cum îl folosești?",
+   "paragraphs": [
+    "Fii atent la ocazii și prinde-le. Sextilul e mai blând decât trigonul și cere puțin efort."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Venus în sextil cu Mercur: Roza vorbește blând și fermecător. Dacă îndrăznește să sune, primește slujba frumoasă."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Câte grade are sextilul?",
+   "a": "Aproximativ 60 de grade, cu toleranță de 4–6 grade."
+  },
+  {
+   "q": "Este sextilul puternic?",
+   "a": "E un aspect blând, prietenos, care cere acțiune."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

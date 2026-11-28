@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "sekstils astroloģija",
+ "volume": "1000",
+ "slug": "sekstils-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sekstils astroloģijā: ko tas nozīmē?",
+ "description": "Divas planētas atrodas 60 grādu attālumā. To sauc par sekstilu. Vienkārši, ar piemēru.",
+ "intro": "Sekstils ir, kad divas planētas atrodas apļa sestdaļas attālumā. Tā ir iespēja, kas gaida, bet tev pašam tā jāsatver.",
+ "sections": [
+  {
+   "h2": "Kas ir sekstils?",
+   "paragraphs": [
+    "Iedomājies pusvirus durvis: vari tām iet cauri, bet tās jāatver."
+   ]
+  },
+  {
+   "h2": "Kā to izmantot?",
+   "paragraphs": [
+    "Pamani iespējas un satver tās. Sekstils ir maigāks par trigonu un prasa nelielu piepūli."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Venera sekstilā ar Merkuru: Roze runā maigi un burvīgi. Ja viņa uzdrošināsies piezvanīt, dabūs jauko darbu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cik grādu ir sekstils?",
+   "a": "Apmēram 60 grādu, ar 4–6 grādu rezervi."
+  },
+  {
+   "q": "Vai sekstils ir spēcīgs?",
+   "a": "Tas ir maigs, draudzīgs aspekts, kam vajadzīga rīcība."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}
