@@ -1,0 +1,65 @@
+{
+ "lang": "et",
+ "keyword": "ascendent kuidas arvutada",
+ "volume": 135000,
+ "slug": "ascendent-kuidas-arvutada-ja-moista",
+ "date": "2026-11-27",
+ "title": "Ascendent: mis see on ja kuidas oma ascendenti leida?",
+ "description": "Mis on ascendent, mida on selle arvutamiseks vaja ja mida see sinu iseloomu kohta ütleb? Lihtne selgitus näitega.",
+ "intro": "„Olen Lõvi, aga ma ei tunne end kirjelduses üldse ära!“ Võib-olla on põhjus sinu ascendent. Siin on selgitus ilma keeruliste sõnadeta.",
+ "sections": [
+  {
+   "h2": "Mis on ascendent?",
+   "paragraphs": [
+    "Ascendent ehk tõusev märk on see sodiaagimärk, mis sinu sünnihetkel idahorisondil tõusis. Mõtle sellest kui uksest, mille kaudu teised sind esimest korda kohates näevad."
+   ]
+  },
+  {
+   "h2": "Mida on selle leidmiseks vaja?",
+   "paragraphs": [
+    "Vaja on kolme asja: sünniaeg, täpne kellaaeg ja sünnikoht. Kellaaja leiad tavaliselt sünnitõendilt või lapse tervisekaardilt, vahel mäletab seda ka ema.",
+    "Koht loeb, sest horisont ei ole Tallinnas ja Võrus päris ühesugune. Ascendent vahetab märki umbes iga kahe tunni järel, nii et isegi veerandtunni viga võib tulemuse muuta."
+   ]
+  },
+  {
+   "h2": "Kuidas arvutada?",
+   "paragraphs": [
+    "Lihtsaim viis on sisestada andmed tasuta veebipõhisesse sünnikaardi arvutisse. Tulemuses on tähis ASC, mis ongi sinu ascendent. Käsitsi arvutamine nõuab tabeleid ja tänapäeval pole seda vaja."
+   ]
+  },
+  {
+   "h2": "Mida see sinu olemuses muudab?",
+   "paragraphs": [
+    "Päikesemärk näitab, kes sa sisimas oled. Ascendent näitab, milline sa teistele paistad: stiil, esmamulje ja see, kuidas ruumi sisened.",
+    "Näide: Kadri on Ambupüüdja, aga ascendent on Kaljukits. Sisimas ihkab ta seiklust, kuid kolleegid näevad teda rahuliku, korraliku ja usaldusväärsena."
+   ]
+  },
+  {
+   "h2": "Pea meeles: see pole teadus",
+   "paragraphs": [
+    "Astroloogia ei ole teaduslikult tõestatud ja ascendent ei määra, kes sa oled. Kasuta seda mõtteainena ning tõsiste otsuste puhul küsi alati nõu arstilt, juristilt või finantsnõustajalt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas ascendenti saab leida ilma sünniajata?",
+   "a": "Täpselt mitte. Kõigepealt tasub kellaaeg välja selgitada."
+  },
+  {
+   "q": "Kas ascendent on olulisem kui päikesemärk?",
+   "a": "Ei, need täiendavad üksteist. Päike on tuum, ascendent fassaad."
+  },
+  {
+   "q": "Kas ascendent muutub elu jooksul?",
+   "a": "Ei, see jääb sünnist saati samaks."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ }
+}

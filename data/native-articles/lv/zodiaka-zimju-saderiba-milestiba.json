@@ -1,0 +1,68 @@
+{
+ "lang": "lv",
+ "keyword": "zodiaka zīmju saderība",
+ "volume": 60000,
+ "slug": "zodiaka-zimju-saderiba-milestiba",
+ "date": "2026-11-27",
+ "title": "Zodiaka zīmju saderība mīlestībā pēc elementiem",
+ "description": "Kā mīlestībā satiek uguns, zemes, gaisa un ūdens zīmes? Vienkāršs skaidrojums ar diviem izdomātu pāru piemēriem.",
+ "intro": "„Vai mēs viens otram der?“ to jautā daudzi iemīlējušies. Nav jāiegaumē visas 12 kombinācijas, pietiek saprast četrus elementus.",
+ "sections": [
+  {
+   "h2": "Četri elementi",
+   "paragraphs": [
+    "Uguns: Auns, Lauva, Strēlnieks, karsti un aktīvi. Zeme: Vērsis, Jaunava, Mežāzis, praktiski un noturīgi.",
+    "Gaiss: Dvīņi, Svari, Ūdensvīrs, runātīgi un viegli. Ūdens: Vēzis, Skorpions, Zivis, jūtīgi un dziļi."
+   ]
+  },
+  {
+   "h2": "Viens un tas pats elements",
+   "paragraphs": [
+    "Tādas zīmes parasti viegli saprot viena otru. Izdomātais pāris Jānis (Strēlnieks) un Anna (Auns) abi ir uguns, tāpēc mīl spontānus ceļojumus.",
+    "Taču līdzība var radīt arī strīdus: divi stūrgalvji grūti piekāpjas."
+   ]
+  },
+  {
+   "h2": "Bieži labi derošas kombinācijas",
+   "paragraphs": [
+    "Uguns ar gaisu viens otru iedvesmo, zeme ar ūdeni viens otru atbalsta. Izdomātais pāris Mārtiņš (Jaunava) un Līga (Vēzis): viņš dod stabilitāti, viņa siltumu.",
+    "Uguns ar ūdeni vai zeme ar gaisu var prasīt vairāk pacietības, bet tas nenozīmē, ka neizdosies."
+   ]
+  },
+  {
+   "h2": "Kā to izmantot",
+   "paragraphs": [
+    "Saderība ir mājiens, kā labāk saprast partneri, nevis spriedums. Zinot atšķirības, ir vieglāk runāt.",
+    "Turklāt personību ietekmē ne tikai Saules zīme, bet arī Mēness, Venēra un citi faktori."
+   ]
+  },
+  {
+   "h2": "Godīgi",
+   "paragraphs": [
+    "Astroloģija nav zinātniski pierādīta, tā ir izklaide.",
+    "Par laulību, šķiršanos vai naudu konsultējies ar speciālistiem, nevis zvaigznēm."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ja zīmes nesader, vai jāšķiras?",
+   "a": "Nē. Attiecībās svarīgākas ir abu pūles nekā zīmes."
+  },
+  {
+   "q": "Kuras zīmes der vislabāk?",
+   "a": "Absolūtas atbildes nav, parasti min vienu elementu vai uguni ar gaisu, zemi ar ūdeni."
+  },
+  {
+   "q": "Vai pietiek ar Saules zīmi?",
+   "a": "Tā ir tikai daļa. Detalizētāk skatās visu dzimšanas karti."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ }
+}

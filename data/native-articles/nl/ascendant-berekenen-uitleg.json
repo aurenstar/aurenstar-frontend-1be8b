@@ -1,0 +1,66 @@
+{
+ "lang": "nl",
+ "keyword": "ascendant berekenen",
+ "volume": 135000,
+ "slug": "ascendant-berekenen-uitleg",
+ "date": "2026-11-27",
+ "title": "Ascendant berekenen: wat het is en wat je nodig hebt",
+ "description": "Hoe bereken je je ascendant? Je hebt je geboortedatum, geboortetijd en geboorteplaats nodig. Simpel uitgelegd met een voorbeeld.",
+ "intro": "“Ik ben een Kreeft, maar ik herken me er niet in.” Misschien ligt dat aan je ascendant. Hier lees je in gewone taal wat het is en hoe je het uitrekent.",
+ "sections": [
+  {
+   "h2": "Wat is je ascendant?",
+   "paragraphs": [
+    "Je ascendant is het teken dat precies op het moment van je geboorte opkwam aan de oostelijke horizon. Je zonneteken zegt iets over je kern, je ascendant over de eerste indruk die je maakt."
+   ]
+  },
+  {
+   "h2": "Wat heb je nodig?",
+   "paragraphs": [
+    "Drie dingen: je geboortedatum, je geboortetijd en je geboorteplaats. Zonder tijd kan het niet, want de ascendant wisselt ongeveer elke twee uur van teken.",
+    "Je vindt de tijd op je geboorteakte (op te vragen bij de gemeente) of vraag het aan je ouders."
+   ]
+  },
+  {
+   "h2": "Hoe bereken je het?",
+   "paragraphs": [
+    "Handmatig is het ingewikkeld, dus gebruik een gratis ascendant-calculator. Vul datum, tijd en plaats in, en je ziet meteen je teken.",
+    "Voorbeeld: Lotte is geboren op 14 mei om 07.30 uur in Utrecht. Haar zon staat in Stier, maar haar ascendant blijkt Tweelingen te zijn."
+   ]
+  },
+  {
+   "h2": "Wat verandert er in je beeld van jezelf?",
+   "paragraphs": [
+    "Je ascendant beschrijft hoe anderen je zien: bijvoorbeeld rustig bij Steenbok, spontaan bij Boogschutter. Lotte komt als Tweelingen-ascendant open en spraakzaam over, ook al is ze innerlijk een bedachtzame Stier.",
+    "Daarom herken je jezelf soms niet in je zonneteken: het zit gewoon verstopt onder een ander masker."
+   ]
+  },
+  {
+   "h2": "Een eerlijke kanttekening",
+   "paragraphs": [
+    "Astrologie is geen bewezen wetenschap. Zie je ascendant als een leuke spiegel om over jezelf na te denken. Voor gezondheid, juridische of financiële keuzes ga je naar een arts, jurist of financieel adviseur."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kan ik mijn ascendant weten zonder geboortetijd?",
+   "a": "Niet precies. Je kunt het tijdstip proberen op te zoeken of een schatting maken, maar de uitkomst is dan onzeker."
+  },
+  {
+   "q": "Hoe vaak wisselt de ascendant?",
+   "a": "Ongeveer elke twee uur komt er een nieuw teken op, daarom telt de tijd zo mee."
+  },
+  {
+   "q": "Is mijn ascendant belangrijker dan mijn zonneteken?",
+   "a": "Geen van beide is belangrijker. Het zonneteken is je kern, de ascendant je buitenkant."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ }
+}

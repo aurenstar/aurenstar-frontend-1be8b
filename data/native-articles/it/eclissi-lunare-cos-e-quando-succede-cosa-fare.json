@@ -1,0 +1,63 @@
+{
+ "lang": "it",
+ "keyword": "eclissi lunare",
+ "volume": 90000,
+ "slug": "eclissi-lunare-cos-e-quando-succede-cosa-fare",
+ "date": "2026-11-27",
+ "title": "Eclissi lunare: cos’è, quando succede e cosa fanno le persone",
+ "description": "Cos’è un’eclissi lunare, perché avviene e cosa si fa in quelle sere? Spiegazione semplice e serena, senza paura.",
+ "intro": "«Stasera la Luna diventa rossa!» dice la signora Giulia mentre sistema le sedie sul balcone. L’eclissi lunare è uno spettacolo, non una minaccia.",
+ "sections": [
+  {
+   "h2": "Cos’è un’eclissi lunare?",
+   "paragraphs": [
+    "Un’eclissi lunare avviene quando la Terra si mette esattamente tra Sole e Luna. L’ombra della Terra copre la Luna, che diventa scura o rossastra. La Luna non ha nulla, è solo all’ombra."
+   ]
+  },
+  {
+   "h2": "Quando avviene?",
+   "paragraphs": [
+    "Succede solo con la Luna piena e poche volte l’anno. Si guarda a occhio nudo, senza occhiali speciali, da qualsiasi posto in cui la Luna sia sopra l’orizzonte."
+   ]
+  },
+  {
+   "h2": "Cosa dice l’astrologia?",
+   "paragraphs": [
+    "Per l’astrologia le eclissi sono momenti di chiusura e di nuovo inizio. Si dice che venga a galla ciò che avevamo nascosto, e molti ne approfittano per chiudere un capitolo."
+   ]
+  },
+  {
+   "h2": "Cosa fanno le persone?",
+   "paragraphs": [
+    "La maggior parte guarda il cielo in compagnia, magari con una tazza di tè. C’è chi scrive ciò che vuole lasciar andare, chi fa una passeggiata o medita. Chiara, per esempio, scrive tre abitudini che non vuole più e mette il foglio in un cassetto."
+   ]
+  },
+  {
+   "h2": "Con calma e buon senso",
+   "paragraphs": [
+    "L’eclissi lunare non è pericolosa e le credenze sulle donne incinte sono solo superstizioni. L’astrologia non è una scienza dimostrata e non sostituisce medico, avvocato o consulente finanziario. Goditi lo spettacolo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "È pericoloso guardare un’eclissi lunare?",
+   "a": "No, a differenza di quella solare si può guardare a occhio nudo."
+  },
+  {
+   "q": "Perché la Luna diventa rossa?",
+   "a": "L’atmosfera terrestre lascia passare la luce rossa, come al tramonto."
+  },
+  {
+   "q": "Quante volte succede l’anno?",
+   "a": "Di solito due, ma non sempre sono visibili dall’Italia."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti astrologici gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Continua a leggere"
+ }
+}

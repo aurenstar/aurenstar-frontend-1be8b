@@ -1,0 +1,68 @@
+{
+ "lang": "lv",
+ "keyword": "Mēness aptumsums",
+ "volume": 90000,
+ "slug": "meness-aptumsums-kas-ta-un-kad",
+ "date": "2026-11-27",
+ "title": "Mēness aptumsums: kas tas ir, kad notiek un ko cilvēki dara",
+ "description": "Vienkārši par Mēness aptumsumu: kas tas ir, kad to var redzēt Latvijā un ko cilvēki dara šajā naktī. Bez bailēm.",
+ "intro": "„Šovakar būs asiņainais Mēness!“ uzrakstīja Toms draugiem, un visi sanāca uz jumta to skatīties. Mēness aptumsums ir skaists skats, nevis iemesls baidīties.",
+ "sections": [
+  {
+   "h2": "Kas ir Mēness aptumsums?",
+   "paragraphs": [
+    "Tas ir brīdis, kad Zeme nonāk starp Sauli un Mēnesi, un tās ēna aizklāj pilnmēnesi. Tāpēc aptumsums ir tikai pilnmēness laikā.",
+    "Kad Mēness pilnībā aptumst, tas kļūst sarkanīgs, jo Zemes atmosfēra laiž cauri sarkano gaismu, tāpat kā saulrietā."
+   ]
+  },
+  {
+   "h2": "Kad tas notiek?",
+   "paragraphs": [
+    "Gadā ir apmēram divi aptumsumi, bet ne vienmēr tie redzami Latvijā. Mēnesim tajā brīdī jābūt virs apvāršņa.",
+    "Datumus var atrast astronomu kalendāros vai ziņās. Atšķirībā no Saules aptumsuma, Mēness aptumsumu var droši skatīties ar neapbruņotu aci."
+   ]
+  },
+  {
+   "h2": "Ko saka astroloģija?",
+   "paragraphs": [
+    "Astrologi aptumsumu bieži uzskata par beigu un kopsavilkuma laiku: piemērots brīdis noslēgt veco un atlaist nevajadzīgo.",
+    "Tas ir tikai skaidrojums. Nav pierādījumu, ka aptumsums nes nelaimes."
+   ]
+  },
+  {
+   "h2": "Ko cilvēki dara šajā naktī?",
+   "paragraphs": [
+    "Daži brauc ārpus pilsētas fotografēt, citi ar ģimeni skatās pa logu ar tēju. Vēl citi raksta dienasgrāmatu vai sakārto skapi.",
+    "Galvenais ir mierīgi izbaudīt."
+   ]
+  },
+  {
+   "h2": "Atceries",
+   "paragraphs": [
+    "Astroloģija nav zinātniski pierādīta un neaizstāj ārstu, juristu vai finanšu konsultantu.",
+    "Svarīgus lēmumus pieņem kopā ar speciālistiem, nevis pēc Mēness fāzes."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai ir bīstami skatīties Mēness aptumsumu?",
+   "a": "Nē, to var droši skatīties ar neapbruņotu aci."
+  },
+  {
+   "q": "Cik ilgi tas ilgst?",
+   "a": "Viss aptumsums ilgst dažas stundas, bet pilnais aptumsums apmēram stundu vai mazāk."
+  },
+  {
+   "q": "Vai aptumsums tiešām nes nelaimes?",
+   "a": "Tam nav zinātnisku pierādījumu. Dzīvo kā ierasts."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "lang": "cs",
+ "keyword": "ascendent jak zjistit",
+ "volume": 135000,
+ "slug": "ascendent-co-to-je-a-jak-ho-zjistit",
+ "date": "2026-11-27",
+ "title": "Ascendent: co to je a jak ho snadno zjistit",
+ "description": "Co je ascendent, co potřebuješ k jeho výpočtu a jak ovlivňuje tvoji povahu. Jednoduché vysvětlení s příklady.",
+ "intro": "„Jsem Lev, ale kamarádka říká, že se chovám jako Panna!“ Často za tím stojí ascendent. Pojďme si ho vysvětlit bez složitých slov.",
+ "sections": [
+  {
+   "h2": "Co je ascendent?",
+   "paragraphs": [
+    "Ascendent je znamení, které stoupalo na východním obzoru přesně ve chvíli, kdy ses narodil(a). Představ si východ slunce: zhruba každé dvě hodiny vychází nové znamení. Proto mohou mít dva lidé narození ve stejný den různý ascendent."
+   ]
+  },
+  {
+   "h2": "Co potřebuješ k výpočtu?",
+   "paragraphs": [
+    "Stačí tři věci: datum narození, hodina narození (čím přesnější, tím lepší) a město, kde ses narodil(a). Čas je důležitý, protože pár minut může znamení změnit.",
+    "Příklad: Eliška se narodila v Brně v 6:40 ráno, její bratr kolem poledne. Mají stejné sluneční znamení, ale jiný ascendent."
+   ]
+  },
+  {
+   "h2": "Jak se zjistí?",
+   "paragraphs": [
+    "Nemusíš nic počítat. Zadej tři údaje do bezplatné kalkulačky a výsledek máš za pár sekund. Neznáš-li hodinu, zeptej se rodičů nebo se podívej do rodného listu, často tam bývá."
+   ]
+  },
+  {
+   "h2": "Co mění na tvé povaze?",
+   "paragraphs": [
+    "Říká se, že sluneční znamení je tvoje podstata a ascendent první dojem a způsob, jak se pouštíš do věcí. Člověk s klidným znamením a ohnivým ascendentem může při prvním setkání působit odvážně, klid se ukáže až později."
+   ]
+  },
+  {
+   "h2": "Poctivé upozornění",
+   "paragraphs": [
+    "Astrologie není vědecky prokázaná a neumí spolehlivě předpovědět tvůj život. Ber ji jako zábavu a podnět k zamyšlení. U zdraví, práva a peněz se poraď s lékařem, právníkem nebo finančním poradcem."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Dá se ascendent zjistit bez hodiny narození?",
+   "a": "Jen přibližně. Bez hodiny může být výsledek špatně, zkus ji zjistit od rodiny nebo z dokladů."
+  },
+  {
+   "q": "Je ascendent totéž co znamení?",
+   "a": "Ne. Znamení závisí na poloze Slunce v den narození, ascendent na hodině a místě."
+  },
+  {
+   "q": "Mění se ascendent v průběhu života?",
+   "a": "Ne, zůstává stejný celý život."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ }
+}

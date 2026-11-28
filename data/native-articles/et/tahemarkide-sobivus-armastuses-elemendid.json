@@ -1,0 +1,64 @@
+{
+ "lang": "et",
+ "keyword": "tähemärkide sobivus armastuses",
+ "volume": 60000,
+ "slug": "tahemarkide-sobivus-armastuses-elemendid",
+ "date": "2026-11-27",
+ "title": "Tähemärkide sobivus armastuses: kes sobivad kokku? Elemendid lihtsalt",
+ "description": "Millised tähemärgid sobivad armastuses kokku? Vaata, kuidas tuli, maa, õhk ja vesi koos toimivad, kahe näitepaariga.",
+ "intro": "„Kas me sobime, kui mina olen Sõna ja tema Kaksikud?“ Seda küsivad paljud. Siin on lihtne vastus nelja elemendi järgi.",
+ "sections": [
+  {
+   "h2": "Neli elementi",
+   "paragraphs": [
+    "Iga märk kuulub ühte elementi. Tuli: Jäär, Lõvi, Ambur. Maa: Sõnn, Neitsi, Kaljukits. Õhk: Kaksikud, Kaalud, Veevalaja. Vesi: Vähk, Skorpion, Kalad. Sama elemendi märgid saavad sageli omavahel kergemini läbi."
+   ]
+  },
+  {
+   "h2": "Tuli ja õhk, maa ja vesi",
+   "paragraphs": [
+    "Tuli ja õhk sobivad tavaliselt hästi: õhk õhutab tuld. Räägitakse, naeratakse ja tehakse plaane. Ka maa ja vesi on hea paar: maa annab kindlust, vesi tunnet ja hoolt."
+   ]
+  },
+  {
+   "h2": "Kui elemendid on erinevad",
+   "paragraphs": [
+    "Tuli ja vesi võivad anda auru: üks tahab välja, teine koju. Maa ja õhk põrkavad: püsivad harjumused versus muutus. Kuulates võib siiski õnnestuda."
+   ]
+  },
+  {
+   "h2": "Kaks näitepaari",
+   "paragraphs": [
+    "Näide 1: Liisi (Ambur, tuli) ja Marko (Kaalud, õhk) armastavad spontaanseid nädalavahetuse reise ja pikki vestlusi. Arved jäävad neil aga tihti ununema.",
+    "Näide 2: Kristiina (Sõnn, maa) ja Andres (Kalad, vesi) on loonud hubase kodu. Tema peab andma ruumi mehe unistustele."
+   ]
+  },
+  {
+   "h2": "See ei ole kohtuotsus",
+   "paragraphs": [
+    "Astroloogia ei ole tõestatud teadus ja armastus sõltub aususest, austusest ja ajast, mitte tähtkujust. Kasuta seda vestluse ajendina ning otsi kriisi korral abi spetsialistilt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas mittesobivad märgid võivad õnnelikud olla?",
+   "a": "Jah. Elemendid on vaid vihje, tahe loeb palju rohkem."
+  },
+  {
+   "q": "Milline element mulle sobib?",
+   "a": "Sageli sama või täiendav, kuid see on inimesest sõltuv."
+  },
+  {
+   "q": "Kas peaksin vaatama ka ascendenti?",
+   "a": "See on huvitav, sest see näitab, kuidas te teineteisele mõjute."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ }
+}

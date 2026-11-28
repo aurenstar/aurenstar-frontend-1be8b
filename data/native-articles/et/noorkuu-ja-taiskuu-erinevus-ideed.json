@@ -1,0 +1,64 @@
+{
+ "lang": "et",
+ "keyword": "noorkuu ja täiskuu",
+ "volume": 40000,
+ "slug": "noorkuu-ja-taiskuu-erinevus-ideed",
+ "date": "2026-11-27",
+ "title": "Noorkuu ja täiskuu: erinevus, tähendus ja 3 lihtsat ideed kummalegi",
+ "description": "Mis vahe on noorkuul ja täiskuul, mida need astroloogias tähendavad ja mida teha? 3 lihtsat ideed kummalegi.",
+ "intro": "„Täna on täiskuu ja ma magasin halvasti!“ Seda kuuleb tihti. Siin on noorkuu ja täiskuu erinevus ning mida nendega peale hakata.",
+ "sections": [
+  {
+   "h2": "Erinevus",
+   "paragraphs": [
+    "Noorkuul on Kuu Maa ja Päikese vahel ja me ei näe teda. Täiskuul on Maa nende vahel ning Kuu paistab täiesti ümmargusena. Nende vahel on umbes kaks nädalat."
+   ]
+  },
+  {
+   "h2": "Mida noorkuu tähendab?",
+   "paragraphs": [
+    "Noorkuu on uue alguse sümbol. Astroloogias kasutatakse seda eesmärkide seadmiseks, nagu avaksid kalendris puhta lehe."
+   ]
+  },
+  {
+   "h2": "3 ideed noorkuuks",
+   "paragraphs": [
+    "1. Kirjuta üles kolm soovi tulevaks kuuks. 2. Korrasta laud või telefon. 3. Alusta väikest uut harjumust, näiteks õhtust jalutuskäiku.",
+    "Näide: Anu kirjutab, et helistab igal pühapäeval vanaemale."
+   ]
+  },
+  {
+   "h2": "Mida täiskuu tähendab? 3 ideed",
+   "paragraphs": [
+    "Täiskuu on kulminatsioon: peidetud asjad tulevad nähtavale ja tunded tugevnevad. Seda kasutatakse tagasivaateks ja lahtilaskmiseks. Ideed: 1. Kirjuta, mille eest oled tänulik. 2. Mine kuuvalguses jalutama. 3. Loobu millestki, mis sind enam ei teeni."
+   ]
+  },
+  {
+   "h2": "Kuu ja teadus",
+   "paragraphs": [
+    "Kindlaid tõendeid, et Kuu mõjutab tuju või und, ei ole. Astroloogia on traditsioon, mitte tõestatud teadus, ning see ei asenda arsti, juristi ega finantsnõustajat."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kui tihti on noorkuu?",
+   "a": "Umbes iga 29 päeva järel."
+  },
+  {
+   "q": "Kas täiskuu mõjutab und?",
+   "a": "Mõni märkab seda, kuid tõendid on nõrgad. Eredam valgus magamistoas võib segada."
+  },
+  {
+   "q": "Kas täiskuul võib midagi uut alustada?",
+   "a": "Jah, kuid astroloogia peab noorkuud uute alguste jaoks paremaks."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ }
+}

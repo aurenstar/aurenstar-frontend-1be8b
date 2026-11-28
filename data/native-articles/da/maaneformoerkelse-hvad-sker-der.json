@@ -1,0 +1,65 @@
+{
+ "lang": "da",
+ "keyword": "måneformørkelse",
+ "volume": 90000,
+ "slug": "maaneformoerkelse-hvad-sker-der",
+ "date": "2026-11-27",
+ "title": "Måneformørkelse: hvad er det, og hvad gør folk den dag?",
+ "description": "Hvad er en måneformørkelse, hvornår sker den, og hvad bruger folk den til? Forklaret roligt og enkelt.",
+ "intro": "“Månen bliver rød i aften!” Måske har du set naboen stå ude i haven med kikkert. Her er forklaringen på en måneformørkelse, helt uden frygt.",
+ "sections": [
+  {
+   "h2": "Hvad er en måneformørkelse?",
+   "paragraphs": [
+    "Under en måneformørkelse står Jorden midt imellem Solen og Månen, så Jordens skygge falder på Månen. Månen bliver mørkere og får ofte en rødlig farve. Det kaldes også en blodmåne."
+   ]
+  },
+  {
+   "h2": "Hvornår sker den?",
+   "paragraphs": [
+    "Den kan kun ske ved fuldmåne. Der er mindst to måneformørkelser om året i verden, men ikke alle kan ses fra Danmark. Det kræver, at Månen er over horisonten hos os, og at himlen er klar.",
+    "Det er helt ufarligt at kigge på. Du behøver ingen specielle briller, i modsætning til en solformørkelse."
+   ]
+  },
+  {
+   "h2": "Hvad siger astrologien?",
+   "paragraphs": [
+    "I astrologien ses en måneformørkelse som et punkt, hvor noget slutter, eller hvor følelser kommer op til overfladen. Man siger, at den kan bringe afslutning på noget, der har fyldt længe."
+   ]
+  },
+  {
+   "h2": "Hvad gør folk den dag?",
+   "paragraphs": [
+    "De fleste gør noget stille og enkelt. Nogle skriver en liste over, hvad de vil give slip på. Andre tager en lang gåtur, tænder et lys eller ordner skuffer og skabe.",
+    "Eksempel: Søren tager cyklen ud til søen, kigger op på Månen og beslutter at stoppe en gammel vane, som han ikke trives med."
+   ]
+  },
+  {
+   "h2": "Tag det roligt og kritisk",
+   "paragraphs": [
+    "Der er ingen videnskabelig dokumentation for, at en måneformørkelse påvirker dit liv. Den er et smukt skue, ikke en trussel. Astrologi erstatter heller ikke råd fra læge, advokat eller økonomisk rådgiver."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Er en måneformørkelse farlig?",
+   "a": "Nej, den er helt ufarlig, og du kan se den med det blotte øje."
+  },
+  {
+   "q": "Hvorfor bliver Månen rød?",
+   "a": "Jordens atmosfære sender rødt lys ind mod Månen, ligesom ved solnedgang."
+  },
+  {
+   "q": "Hvor tit er der måneformørkelse?",
+   "a": "Mindst to gange om året i verden, men ikke alle er synlige fra Danmark."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ }
+}

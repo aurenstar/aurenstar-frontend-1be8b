@@ -1,0 +1,64 @@
+{
+ "lang": "pl",
+ "keyword": "zgodność znaków zodiaku",
+ "volume": 60000,
+ "slug": "zgodnosc-znakow-zodiaku-w-milosci",
+ "date": "2026-11-27",
+ "title": "Zgodność znaków zodiaku w miłości: kto do kogo pasuje?",
+ "description": "Które znaki zodiaku pasują do siebie w miłości? Wyjaśnienie według żywiołów (ogień, ziemia, powietrze, woda) z dwoma przykładowymi parami.",
+ "intro": "„Jesteśmy zupełnie różni, czy to ma szansę?” Znaki dzielą się na cztery żywioły i właśnie one pomagają zrozumieć miłość.",
+ "sections": [
+  {
+   "h2": "Cztery żywioły",
+   "paragraphs": [
+    "Ogień: Baran, Lew, Strzelec. Ziemia: Byk, Panna, Koziorożec. Powietrze: Bliźnięta, Waga, Wodnik. Woda: Rak, Skorpion, Ryby. Znaki z tego samego żywiołu zwykle szybko się rozumieją."
+   ]
+  },
+  {
+   "h2": "Które żywioły się lubią?",
+   "paragraphs": [
+    "Ogień i powietrze nawzajem się napędzają: powietrze rozdmuchuje ogień. Ziemia i woda także, bo woda sprawia, że ziemia rodzi.",
+    "Ogień z wodą czy ziemia z powietrzem potrzebują więcej zrozumienia, bo patrzą na życie inaczej."
+   ]
+  },
+  {
+   "h2": "Przykład 1: ogień i powietrze",
+   "paragraphs": [
+    "Ola (Strzelec) chce co weekend czegoś nowego. Michał (Waga) uwielbia ten pomysł i planuje wyjazdy. Dużo energii, zero nudy."
+   ]
+  },
+  {
+   "h2": "Przykład 2: ziemia i woda",
+   "paragraphs": [
+    "Ewa (Koziorożec) ceni spokój i bezpieczeństwo. Paweł (Rak) daje ciepło i domową atmosferę. Świetnie się uzupełniają."
+   ]
+  },
+  {
+   "h2": "Uczciwa uwaga",
+   "paragraphs": [
+    "O udanym związku decyduje znacznie więcej niż znak zodiaku. Astrologia nie jest udowodnioną nauką. Jeśli masz wątpliwości w związku lub problemy zdrowotne, porozmawiaj z terapeutą albo lekarzem."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy przeciwne żywioły mogą być szczęśliwe?",
+   "a": "Tak, przy cierpliwości i szacunku dla odmiennego stylu życia."
+  },
+  {
+   "q": "Czy sam znak słoneczny wystarczy do oceny zgodności?",
+   "a": "To dopiero początek. Liczą się też Księżyc i ascendent, ale to nadal tylko symbolika."
+  },
+  {
+   "q": "Kto pasuje do Barana?",
+   "a": "Często wymienia się Lwa, Strzelca, Bliźnięta i Wodnika, ale każda para może się udać."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia astrologiczne",
+  "articles": "Lista artykułów",
+  "faq": "Najczęstsze pytania",
+  "more": "Czytaj dalej"
+ }
+}

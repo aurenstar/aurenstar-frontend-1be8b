@@ -1,0 +1,64 @@
+{
+ "lang": "vi",
+ "keyword": "cung hoàng đạo hợp nhau",
+ "volume": 60000,
+ "slug": "cung-hoang-dao-hop-nhau-trong-tinh-yeu-theo-nguyen-to",
+ "date": "2026-11-27",
+ "title": "Cung hoàng đạo hợp nhau trong tình yêu: Lửa, Đất, Khí, Nước",
+ "description": "Xem độ hợp nhau của các cung hoàng đạo qua bốn nguyên tố Lửa, Đất, Khí, Nước, kèm hai cặp đôi ví dụ dễ hiểu.",
+ "intro": "\"Anh ấy Xử Nữ, em Nhân Mã, liệu có hay cãi nhau không?\" Trước khi yêu, nhiều người lén xem cung hợp nhau. Thật ra không cần nhớ hết 12 cung, chỉ cần hiểu bốn nguyên tố là nắm được bức tranh chung.",
+ "sections": [
+  {
+   "h2": "12 cung chia thành bốn nguyên tố",
+   "paragraphs": [
+    "12 cung chia thành 4 nhóm: Lửa (Bạch Dương, Sư Tử, Nhân Mã) nhiệt huyết, thẳng thắn; Đất (Kim Ngưu, Xử Nữ, Ma Kết) thực tế, vững vàng; Khí (Song Tử, Thiên Bình, Bảo Bình) hay nói, thích tự do; Nước (Cự Giải, Bọ Cạp, Song Ngư) nhạy cảm, tình cảm."
+   ]
+  },
+  {
+   "h2": "Các nguyên tố hợp nhau thế nào?",
+   "paragraphs": [
+    "Cùng nguyên tố thường hiểu nhau dễ dàng. Lửa và Khí tiếp thêm cho nhau, vì gió thổi làm lửa cháy mạnh. Đất và Nước cũng hợp, vì nước nuôi dưỡng đất.",
+    "Lửa với Nước, Đất với Khí cần kiên nhẫn hơn vì nhịp sống và cách nói chuyện khác nhau, nhưng không có nghĩa là không thể đến với nhau."
+   ]
+  },
+  {
+   "h2": "Ví dụ 1: Hà và Minh",
+   "paragraphs": [
+    "Hà là Sư Tử (Lửa), Minh là Thiên Bình (Khí). Hà nghĩ gì làm nấy, Minh thích trò chuyện bàn bạc. Cuối tuần hai người dễ dàng quyết định đi chơi ở đâu, ở bên nhau rất nhẹ nhàng."
+   ]
+  },
+  {
+   "h2": "Ví dụ 2: Thảo và Quân",
+   "paragraphs": [
+    "Thảo là Cự Giải (Nước), Quân là Xử Nữ (Đất). Thảo coi trọng cảm xúc, Quân coi trọng kế hoạch. Lúc đầu Quân thấy Thảo hay nghĩ nhiều, Thảo thấy Quân hơi lạnh lùng. Nhưng khi Quân học cách nói \"anh ở đây\", cả hai ngày càng gắn bó."
+   ]
+  },
+  {
+   "h2": "Lưu ý: tình yêu cần sự vun đắp",
+   "paragraphs": [
+    "Xem cung hợp nhau chỉ để vui và tham khảo, không phải khoa học và không quyết định tình yêu thành công hay không. Điều quan trọng là trò chuyện và tôn trọng. Với vấn đề sức khỏe, pháp lý hay tài chính, hãy hỏi chuyên gia chứ đừng chỉ dựa vào cung hoàng đạo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hai cung không hợp có yêu nhau được không?",
+   "a": "Được. Cung chỉ là gợi ý, quan trọng là sự sẵn sàng lắng nghe và tôn trọng nhau."
+  },
+  {
+   "q": "Chỉ xem cung Mặt Trời có đủ không?",
+   "a": "Chưa chắc. Cung Mặt Trăng và cung mọc cũng quan trọng, xem cung Mặt Trời chỉ là bản đơn giản."
+  },
+  {
+   "q": "Cùng cung có luôn hợp nhau không?",
+   "a": "Họ thường hiểu nhau, nhưng cũng dễ có chung điểm yếu nên vẫn cần bao dung."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ }
+}

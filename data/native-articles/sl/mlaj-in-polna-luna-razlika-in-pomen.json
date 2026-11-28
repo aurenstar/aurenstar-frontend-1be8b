@@ -1,0 +1,66 @@
+{
+ "lang": "sl",
+ "keyword": "mlaj in ščip",
+ "volume": 40000,
+ "slug": "mlaj-in-polna-luna-razlika-in-pomen",
+ "date": "2026-11-27",
+ "title": "Mlaj in polna luna: kakšna je razlika in kaj početi",
+ "description": "Po čem se mlaj razlikuje od polne lune, kaj pomenita v astrologiji in po 3 preproste ideje za vsakega.",
+ "intro": "»Danes je mlaj, idealen čas za želje!« Kaj je mlaj in po čem se razlikuje od polne lune? Razložimo preprosto.",
+ "sections": [
+  {
+   "h2": "Kakšna je razlika",
+   "paragraphs": [
+    "Ob mlaju Lune na nebu skoraj ne vidimo: stoji med Zemljo in Soncem. Ob polni luni je okrogla in svetla: Zemlja je med njima.",
+    "Med obema dnevoma mine približno dva tedna, vse skupaj pa se ponavlja vsak mesec."
+   ]
+  },
+  {
+   "h2": "Kaj pomeni mlaj",
+   "paragraphs": [
+    "V astrologiji je mlaj čas »čistega lista«: začeti, načrtovati, si zastaviti cilje. Kot prvi dan v novi službi ali prva stran zvezka."
+   ]
+  },
+  {
+   "h2": "3 ideje za mlaj",
+   "paragraphs": [
+    "1. Zapišite tri cilje za mesec. 2. Pospravite delovno mizo ali telefon. 3. Začnite majhno novo navado, na primer večerni sprehod.",
+    "Na primer: Eva si je ob mlaju zapisala »vsak dan berem 10 minut« in čez mesec je to postala navada."
+   ]
+  },
+  {
+   "h2": "Kaj pomeni polna luna in 3 ideje",
+   "paragraphs": [
+    "Polna luna je čas povzetkov in čustev: pravijo, da vse »dozori« in je bolj vidno. Marsikdo v teh dneh slabše spi, kar ni nič hudega.",
+    "Ideje: 1. Naredite obračun meseca: kaj je uspelo. 2. Zahvalite se tistim, ki so vam pomagali. 3. Spustite odvečno: izbrišite stare datoteke ali odvrzite staro."
+   ]
+  },
+  {
+   "h2": "Ne pozabite",
+   "paragraphs": [
+    "Astrologija ni dokazana znanost in ne nadomešča zdravnika, odvetnika ali finančnega svetovalca. Lunine mene so razlog za mirne rituale, ne za spremembo pomembnih odločitev."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako dolgo traja lunin cikel?",
+   "a": "Približno 29,5 dneva od enega mlaja do naslednjega."
+  },
+  {
+   "q": "Ali si moram ob mlaju kaj zaželeti?",
+   "a": "Ne. To je le primeren trenutek za razmislek o načrtih."
+  },
+  {
+   "q": "Zakaj ob polni luni slabše spimo?",
+   "a": "Nekateri tako pravijo, a znanstvenih dokazov je malo. Svetla Luna lahko moti spanje."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "lang": "hu",
+ "keyword": "újhold és telihold",
+ "volume": 40000,
+ "slug": "ujhold-es-telihold-kulonbseg-jelentes",
+ "date": "2026-11-27",
+ "title": "Újhold és telihold: különbség, jelentés és 3-3 ötlet",
+ "description": "Mi az újhold, mi a telihold, mi a különbség, és mit tehetsz? Egyszerűen, ötletekkel mindkét szakaszra.",
+ "intro": "„Ma újhold van, kezdjünk valami újat!” mondja Eszter a barátnőjének. Nézzük, mit jelent ez, bonyolítás nélkül.",
+ "sections": [
+  {
+   "h2": "Mi az újhold?",
+   "paragraphs": [
+    "Újholdkor a Hold a Föld és a Nap között van, ezért nem látjuk. Az asztrológiában ez egy ciklus kezdete, mint egy üres lap."
+   ]
+  },
+  {
+   "h2": "3 ötlet újholdra",
+   "paragraphs": [
+    "1. Írj fel három kívánságot a következő hónapra. 2. Kezdj egy kis szokást, például sétát. 3. Rendezz át egy szekrényt vagy fiókot."
+   ]
+  },
+  {
+   "h2": "Mi a telihold?",
+   "paragraphs": [
+    "Teliholdkor a Föld van a Nap és a Hold között, így a Hold teljesen megvilágított. Az asztrológia a csúcspontokkal, érzelmekkel és lezárásokkal köti össze, és sokan nyugtalanabbnak érzik magukat."
+   ]
+  },
+  {
+   "h2": "3 ötlet teliholdra",
+   "paragraphs": [
+    "1. Köszönd meg, amit elértél. 2. Írd le, mit engednél el. 3. Menj sétálni, vagy nézd az eget valakivel, akit szeretsz."
+   ]
+  },
+  {
+   "h2": "Maradjunk a földön",
+   "paragraphs": [
+    "Nincs bizonyíték arra, hogy a Hold irányítaná az életünket vagy a hangulatunkat. Használd kellemes emlékeztetőnek a tervezéshez. Az asztrológia nem helyettesíti az orvost, az ügyvédet vagy a pénzügyi tanácsadót."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mennyi idő a Hold ciklusa?",
+   "a": "Körülbelül 29,5 nap két újhold között."
+  },
+  {
+   "q": "Kell látni a teliholdat?",
+   "a": "Nem kötelező, de szép látvány."
+  },
+  {
+   "q": "Hat a Hold az alvásra?",
+   "a": "Néhányan rosszabbul alszanak, de a bizonyítékok gyengék."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "lang": "sv",
+ "keyword": "ascendent räkna ut",
+ "volume": 135000,
+ "slug": "sa-raknar-du-ut-ascendent-online",
+ "date": "2026-11-27",
+ "title": "Så räknar du ut din ascendent: vad det är och vad som behövs",
+ "description": "Vad är en ascendent, vilka uppgifter behövs (datum, klockslag och födelseort) och hur påverkar den din personlighet. Enkelt förklarat.",
+ "intro": "”Jag är Oxe, men jag är inte alls som andra Oxar ...” Känner du igen dig? Då kan ascendenten vara förklaringen. Vi reder ut det enkelt, utan krångliga ord.",
+ "sections": [
+  {
+   "h2": "Vad är en ascendent",
+   "paragraphs": [
+    "Ascendenten är det stjärntecken som steg upp i öster i det ögonblick du föddes. Tänk dig solen vid gryningen: den syns vid horisonten. Här är det i stället ett tecken som går upp.",
+    "Om ditt solstjärntecken är ditt ”inre”, är ascendenten det första intryck du ger andra."
+   ]
+  },
+  {
+   "h2": "Vad du behöver för att räkna ut den",
+   "paragraphs": [
+    "Du behöver tre saker: exakt födelsedatum, exakt klockslag (helst inom 15–20 minuter) och födelseort. Klockslaget kan stå i födelsebeviset, eller så frågar du mamma.",
+    "Exempel: Emma föddes den 12 maj klockan 07.40 i Göteborg. Skriv in uppgifterna i en gratis räknare så får du tecknet på en sekund."
+   ]
+  },
+  {
+   "h2": "Varför klockslag och ort spelar roll",
+   "paragraphs": [
+    "Ascendenten byter tecken ungefär varannan timme. Är du född en timme tidigare kan resultatet bli ett annat. Orten behövs eftersom horisonten i Malmö och i Kiruna ser lite olika ut.",
+    "Vet du inte klockslaget blir resultatet bara ungefärligt. Ta reda på tiden först."
+   ]
+  },
+  {
+   "h2": "Vad ascendenten säger om dig",
+   "paragraphs": [
+    "Man brukar säga att ascendenten visar hur du går in i ett nytt sällskap, hur du klär dig och hur kollegorna ser dig. Ett Lejon med Jungfru som ascendent kan verka återhållet utanpå men brinna inuti.",
+    "Många tycker att ascendenten förklarar varför ”jag är inte som det står i horoskopet”."
+   ]
+  },
+  {
+   "h2": "Bra att komma ihåg",
+   "paragraphs": [
+    "Astrologi är inte bevisad vetenskap och ersätter inte läkare, jurist eller finansiell rådgivare. Se ascendenten som ett roligt sätt att lära känna dig själv, inte som en dom."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kan jag räkna ut ascendenten utan klockslag?",
+   "a": "Inte exakt. Du kan prova olika alternativ, men bäst är att hitta tiden i födelsebeviset eller på BB."
+  },
+  {
+   "q": "Måste jag räkna för hand?",
+   "a": "Nej, en gratis räknare på nätet räcker: skriv in datum, klockslag och ort."
+  },
+  {
+   "q": "Är ascendenten viktigare än solstjärntecknet?",
+   "a": "Det är ingen tävling: solstjärntecknet visar din kärna, ascendenten hur andra ser dig."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ }
+}

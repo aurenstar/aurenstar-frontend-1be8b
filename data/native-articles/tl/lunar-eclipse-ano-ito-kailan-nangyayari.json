@@ -1,0 +1,64 @@
+{
+ "lang": "tl",
+ "keyword": "lunar eclipse",
+ "volume": 90000,
+ "slug": "lunar-eclipse-ano-ito-kailan-nangyayari",
+ "date": "2026-11-27",
+ "title": "Lunar Eclipse: Ano Ito, Kailan Nangyayari, at Ano ang Ginagawa ng Tao",
+ "description": "Ano ang lunar eclipse, kailan ito nangyayari, at ano ang ginagawa ng mga tao sa araw na iyon. Kalmado at simpleng paliwanag.",
+ "intro": "“May lunar eclipse mamaya, bawal ba lumabas?” Ganito ang karaniwang usapan sa bahay. Heto ang kalmadong paliwanag para hindi ka matakot.",
+ "sections": [
+  {
+   "h2": "Ano ang lunar eclipse?",
+   "paragraphs": [
+    "Nangyayari ito kapag nasa iisang tuwid na linya ang Araw, Daigdig, at Buwan, kaya natatakpan ng anino ng Daigdig ang Buwan. Dumidilim ang full moon at minsan nagiging mapulang kayumanggi."
+   ]
+  },
+  {
+   "h2": "Kailan ito nangyayari?",
+   "paragraphs": [
+    "Sa gabi ng full moon lang ito nangyayari, mga dalawang beses sa isang taon. Ligtas itong tingnan ng mata basta malinaw ang langit, hindi tulad ng solar eclipse na kailangan ng espesyal na salamin."
+   ]
+  },
+  {
+   "h2": "Ano ang sabi ng astrolohiya?",
+   "paragraphs": [
+    "Sa astrolohiya, panahon ito ng pagbabago at pagtatapos. Magandang oras daw para pag-isipan ang buhay at bitawan ang mga bagay na hindi na kailangan."
+   ]
+  },
+  {
+   "h2": "Ano ang ginagawa ng mga tao?",
+   "paragraphs": [
+    "May nagdarasal, may nagmemeditate, at may simpleng nanonood lang kasama ang pamilya sa bubong o bakuran. Sa ilang pamilya, may mga paniniwalang kaugnay ng buntis na ipinapasa sa mga salinlahi.",
+    "Halimbawa: Si Mang Ben sa Quezon City ay inilabas ang mga apo sa bakuran para panoorin ang pulang buwan. Naging masayang aralin ito tungkol sa kalawakan."
+   ]
+  },
+  {
+   "h2": "Huwag matakot",
+   "paragraphs": [
+    "Natural na pangyayari sa kalawakan ang eclipse at walang siyentipikong patunay na nakakasama ito sa sinuman. Hindi napatunayang agham ang astrolohiya. Para sa kalusugan, batas, o pera, magtanong sa doktor o eksperto."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Puwede bang tingnan ang lunar eclipse nang walang salamin?",
+   "a": "Oo, ligtas ito, hindi tulad ng solar eclipse."
+  },
+  {
+   "q": "Kailan nangyayari ang lunar eclipse?",
+   "a": "Sa gabi ng full moon lamang."
+  },
+  {
+   "q": "Totoo bang masama sa buntis ang eclipse?",
+   "a": "Paniniwala lang ito ng ilang pamilya at walang siyentipikong patunay. Kung nag-aalala, magtanong sa doktor."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "lang": "nl",
+ "keyword": "maansverduistering",
+ "volume": 90000,
+ "slug": "maansverduistering-uitleg-wanneer",
+ "date": "2026-11-27",
+ "title": "Maansverduistering: wat is het en wat doen mensen ermee?",
+ "description": "Wat is een maansverduistering, wanneer gebeurt het en wat doen mensen op zo’n avond? Rustig uitgelegd, zonder angst.",
+ "intro": "“Vannacht is er een bloedmaan, ga je mee kijken?” Een maansverduistering is vooral mooi om te zien. Hier staat wat er gebeurt en wat mensen ermee doen.",
+ "sections": [
+  {
+   "h2": "Wat is een maansverduistering?",
+   "paragraphs": [
+    "Bij een maansverduistering schuift de aarde precies tussen de zon en de maan. De schaduw van de aarde valt op de maan, die dan donker of roodachtig kleurt."
+   ]
+  },
+  {
+   "h2": "Wanneer gebeurt het?",
+   "paragraphs": [
+    "Altijd bij volle maan, maar niet elke volle maan. Meestal zijn er een of twee per jaar, en je kunt het zonder bril bekijken zolang de maan boven de horizon staat.",
+    "Een totale verduistering duurt in totaal enkele uren, het volledig rode deel meestal minder dan een uur."
+   ]
+  },
+  {
+   "h2": "Wat zegt de astrologie?",
+   "paragraphs": [
+    "In de astrologie zien mensen een verduistering als een afsluiting: iets wat uitgerijpt is komt aan het licht. Het is een moment om te kijken wat je los wilt laten."
+   ]
+  },
+  {
+   "h2": "Wat doen mensen op zo’n avond?",
+   "paragraphs": [
+    "Veel mensen gaan gewoon naar buiten met een kop thee. Anderen schrijven op wat ze achter willen laten, of nemen een rustige avond zonder schermen.",
+    "Voorbeeld: Daan en Femke zitten met een deken in de tuin en schrijven elk één ding op dat ze dit jaar niet meer willen meenemen."
+   ]
+  },
+  {
+   "h2": "Geen reden voor angst",
+   "paragraphs": [
+    "Astrologie is niet wetenschappelijk bewezen en een verduistering is niet gevaarlijk. Neem belangrijke beslissingen over gezondheid, recht of geld nooit alleen op basis van de sterren, maar met een arts, jurist of financieel adviseur."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is een maansverduistering gevaarlijk voor mijn ogen?",
+   "a": "Nee, anders dan bij een zonsverduistering kun je er gewoon naar kijken."
+  },
+  {
+   "q": "Waarom is de maan rood?",
+   "a": "Zonlicht buigt door de dampkring van de aarde heen en kleurt de maan roodachtig."
+  },
+  {
+   "q": "Hoe vaak is er een maansverduistering?",
+   "a": "Ongeveer twee keer per jaar ergens op aarde, maar niet altijd goed zichtbaar vanuit Nederland."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ }
+}

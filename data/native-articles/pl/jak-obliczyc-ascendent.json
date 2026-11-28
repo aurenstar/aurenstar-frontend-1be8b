@@ -1,0 +1,66 @@
+{
+ "lang": "pl",
+ "keyword": "ascendent jak obliczyć",
+ "volume": 135000,
+ "slug": "jak-obliczyc-ascendent",
+ "date": "2026-11-27",
+ "title": "Ascendent: co to jest i jak go obliczyć?",
+ "description": "Jak obliczyć ascendent? Potrzebujesz daty, godziny i miejsca urodzenia. Proste wyjaśnienie z przykładem.",
+ "intro": "„Jestem Rakiem, ale w ogóle się nie poznaję.” Być może wina leży po stronie ascendentu. Tu wyjaśniamy go zwykłym językiem.",
+ "sections": [
+  {
+   "h2": "Czym jest ascendent?",
+   "paragraphs": [
+    "Ascendent to znak zodiaku, który w chwili Twoich narodzin wschodził na wschodnim horyzoncie. Znak słoneczny mówi o Twoim wnętrzu, a ascendent o pierwszym wrażeniu, jakie robisz na ludziach."
+   ]
+  },
+  {
+   "h2": "Co będzie potrzebne?",
+   "paragraphs": [
+    "Trzy rzeczy: data urodzenia, dokładna godzina i miejscowość. Bez godziny się nie obejdzie, bo ascendent zmienia znak mniej więcej co dwie godziny.",
+    "Godzinę znajdziesz w akcie urodzenia (do wyciągnięcia w urzędzie stanu cywilnego) albo zapytaj mamę."
+   ]
+  },
+  {
+   "h2": "Jak to obliczyć?",
+   "paragraphs": [
+    "Ręcznie jest to skomplikowane, więc skorzystaj z darmowego kalkulatora ascendentu. Wpisz datę, godzinę i miasto, a wynik pojawi się od razu.",
+    "Przykład: Kasia urodziła się 14 maja o 7:30 w Poznaniu. Słońce ma w Byku, a ascendent wychodzi jej w Bliźniętach."
+   ]
+  },
+  {
+   "h2": "Co zmienia w Twoim obrazie siebie?",
+   "paragraphs": [
+    "Ascendent pokazuje, jak widzą Cię inni, np. spokojnie przy Koziorożcu albo spontanicznie przy Strzelcu. Kasia wydaje się otwarta i gadatliwa, choć w środku jest rozważnym Bykiem.",
+    "Dlatego czasem nie rozpoznajesz się w opisie swojego znaku słonecznego."
+   ]
+  },
+  {
+   "h2": "Uczciwa uwaga",
+   "paragraphs": [
+    "Astrologia nie jest udowodnioną nauką. Traktuj ascendent jako ciekawą okazję do refleksji. W sprawach zdrowia, prawa czy pieniędzy zapytaj lekarza, prawnika albo doradcę finansowego."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy można poznać ascendent bez godziny urodzenia?",
+   "a": "Dokładnie nie. Możesz spróbować ustalić godzinę lub ją oszacować, ale wynik będzie niepewny."
+  },
+  {
+   "q": "Jak często zmienia się ascendent?",
+   "a": "Mniej więcej co dwie godziny, dlatego godzina urodzenia jest tak ważna."
+  },
+  {
+   "q": "Czy ascendent jest ważniejszy od znaku słonecznego?",
+   "a": "Żaden nie jest ważniejszy. Słońce to wnętrze, ascendent to zewnętrzna warstwa."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia astrologiczne",
+  "articles": "Lista artykułów",
+  "faq": "Najczęstsze pytania",
+  "more": "Czytaj dalej"
+ }
+}

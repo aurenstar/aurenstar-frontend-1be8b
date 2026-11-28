@@ -1,0 +1,65 @@
+{
+ "lang": "fr",
+ "keyword": "nouvelle lune pleine lune",
+ "volume": 40000,
+ "slug": "nouvelle-lune-pleine-lune-difference-rituels",
+ "date": "2026-11-27",
+ "title": "Nouvelle lune et pleine lune : différence, sens et 3 idées simples",
+ "description": "Quelle différence entre nouvelle lune et pleine lune, que signifient-elles en astrologie et que faire ? Trois idées simples pour chacune.",
+ "intro": "« C’est la pleine lune, je dors mal ! » ou « la nouvelle lune est idéale pour démarrer un projet ». Voyons ce que ces deux phases veulent dire, simplement.",
+ "sections": [
+  {
+   "h2": "La nouvelle lune",
+   "paragraphs": [
+    "À la nouvelle lune, la Lune se trouve entre la Terre et le Soleil et on ne la voit pas. En astrologie, elle symbolise un nouveau départ, comme une page blanche."
+   ]
+  },
+  {
+   "h2": "3 idées pour la nouvelle lune",
+   "paragraphs": [
+    "1. Notez un petit objectif. 2. Rangez votre bureau ou un placard. 3. Parlez de vos projets du mois avec un ami.",
+    "Exemple : Manon décide, à la nouvelle lune, de marcher dix minutes chaque jour."
+   ]
+  },
+  {
+   "h2": "La pleine lune",
+   "paragraphs": [
+    "À la pleine lune, la Terre est entre le Soleil et la Lune, qui apparaît entièrement éclairée. On l’associe à l’aboutissement et aux émotions à leur sommet."
+   ]
+  },
+  {
+   "h2": "3 idées pour la pleine lune",
+   "paragraphs": [
+    "1. Faites le bilan du mois et remerciez-vous. 2. Écrivez sur un papier ce dont vous voulez vous détacher. 3. Passez une soirée calme et couchez-vous tôt."
+   ]
+  },
+  {
+   "h2": "Un rappel honnête",
+   "paragraphs": [
+    "L’astrologie n’est pas une science prouvée et ne remplace ni un médecin, ni un avocat, ni un conseiller financier. Ces idées servent simplement à se poser et à s’organiser."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Combien de jours entre les deux ?",
+   "a": "Environ 14 à 15 jours."
+  },
+  {
+   "q": "La pleine lune perturbe-t-elle vraiment le sommeil ?",
+   "a": "Les preuves scientifiques ne sont pas claires."
+  },
+  {
+   "q": "Faut-il un rituel précis ?",
+   "a": "Non, une simple note suffit."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "FAQ",
+  "more": "Suite",
+  "dictionary": "Dictionnaire"
+ }
+}

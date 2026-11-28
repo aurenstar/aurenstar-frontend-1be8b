@@ -1,0 +1,63 @@
+{
+ "lang": "hr",
+ "keyword": "mlad mjesec i pun mjesec",
+ "volume": 40000,
+ "slug": "mlad-mjesec-i-pun-mjesec-razlika",
+ "date": "2026-11-27",
+ "title": "Mlad mjesec i pun mjesec: razlika, značenje i 3 ideje za svaki",
+ "description": "Što je mlad mjesec, što pun mjesec, koja je razlika i što možeš napraviti. Jednostavno, s idejama za svaku fazu.",
+ "intro": "„Danas je mlad mjesec, idemo nešto započeti!“ kaže Jelena prijateljici. Evo što to znači i kako možeš iskoristiti obje faze, bez komplikacija.",
+ "sections": [
+  {
+   "h2": "Što je mlad mjesec?",
+   "paragraphs": [
+    "Pri mladom mjesecu Mjesec je između Zemlje i Sunca pa ga ne vidimo. U astrologiji to je početak ciklusa, kao čist list papira."
+   ]
+  },
+  {
+   "h2": "3 ideje za mlad mjesec",
+   "paragraphs": [
+    "1. Napiši tri želje za sljedeći mjesec. 2. Započni malu naviku, primjerice šetnju. 3. Raspremi jedan ormar ili ladicu."
+   ]
+  },
+  {
+   "h2": "Što je pun mjesec?",
+   "paragraphs": [
+    "Kod punog mjeseca Zemlja je između Sunca i Mjeseca pa je Mjesec potpuno osvijetljen. Astrologija ga povezuje s vrhuncem, emocijama i završetcima, a neki kažu da su ljudi tada nemirniji."
+   ]
+  },
+  {
+   "h2": "3 ideje za pun mjesec",
+   "paragraphs": [
+    "1. Zahvali za ono što si postigao. 2. Pusti što ti više ne treba, na papiru. 3. Prošetaj ili prouči nebo s nekim koga voliš."
+   ]
+  },
+  {
+   "h2": "Zadrži zdrav razum",
+   "paragraphs": [
+    "Nema dokaza da Mjesec upravlja našim životom ni raspoloženjem. Uzmi ga kao lijep podsjetnik za planiranje i zastajanje. Astrologija ne zamjenjuje liječnika, odvjetnika ni financijskog savjetnika."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko traje ciklus Mjeseca?",
+   "a": "Oko 29 i pol dana od jednog mladog mjeseca do sljedećeg."
+  },
+  {
+   "q": "Treba li pun mjesec gledati na nebu?",
+   "a": "Ne mora, ali je ljepše vidjeti ga."
+  },
+  {
+   "q": "Utječe li Mjesec na san?",
+   "a": "Neki se loše naspavaju, ali dokazi su slabi."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ }
+}

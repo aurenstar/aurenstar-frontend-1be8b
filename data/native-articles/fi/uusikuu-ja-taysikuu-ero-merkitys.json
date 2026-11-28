@@ -1,0 +1,64 @@
+{
+ "lang": "fi",
+ "keyword": "uusikuu täysikuu",
+ "volume": 40000,
+ "slug": "uusikuu-ja-taysikuu-ero-merkitys",
+ "date": "2026-11-27",
+ "title": "Uusikuu ja täysikuu: ero, merkitys ja 3 helppoa ideaa kumpaankin",
+ "description": "Mikä ero on uudella kuulla ja täysikuulla ja mitä ne tarkoittavat astrologiassa? Kolme yksinkertaista ideaa kumpaankin.",
+ "intro": "”Täysikuu, ja uni ei tule!” tai ”uusikuu on hyvä aika uudelle alulle”. Katsotaan, mitä näillä kahdella oikein tarkoitetaan.",
+ "sections": [
+  {
+   "h2": "Mikä on uusikuu?",
+   "paragraphs": [
+    "Uudella kuulla Kuu on Maan ja Auringon välissä, eikä sitä näy taivaalla. Astrologiassa se tarkoittaa uutta alkua, kuin tyhjä sivu vihossa."
+   ]
+  },
+  {
+   "h2": "3 ideaa uudelle kuulle",
+   "paragraphs": [
+    "1. Kirjoita ylös yksi pieni tavoite. 2. Siivoa työpöytä tai kaappi. 3. Kerro ystävälle, mitä aiot tehdä seuraavan kuukauden aikana.",
+    "Esimerkki: Heidi päättää uudella kuulla kävellä joka päivä kymmenen minuuttia."
+   ]
+  },
+  {
+   "h2": "Mikä on täysikuu?",
+   "paragraphs": [
+    "Täysikuulla Maa on Kuun ja Auringon välissä ja Kuu näkyy kokonaan. Astrologiassa se tarkoittaa tulosta ja tunteiden huippua."
+   ]
+  },
+  {
+   "h2": "3 ideaa täysikuulle",
+   "paragraphs": [
+    "1. Katso, mitä kuukauden aikana on tapahtunut, ja kiitä itseäsi. 2. Kirjoita paperille asia, josta haluat päästää irti. 3. Rauhoita ilta ja mene ajoissa nukkumaan."
+   ]
+  },
+  {
+   "h2": "Rehellinen muistutus",
+   "paragraphs": [
+    "Astrologia ei ole tieteellisesti todistettua eikä korvaa lääkäriä, juristia tai talousneuvojaa. Nämä ideat ovat vain keino rauhoittua ja jäsentää ajatuksia."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuinka pitkä aika on uudesta kuusta täysikuuhun?",
+   "a": "Noin 14–15 päivää."
+  },
+  {
+   "q": "Häiritseekö täysikuu unta?",
+   "a": "Varmaa tieteellistä näyttöä ei ole."
+  },
+  {
+   "q": "Pitääkö tehdä jokin rituaali?",
+   "a": "Ei, yksinkertainen muistiinpano riittää."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ }
+}

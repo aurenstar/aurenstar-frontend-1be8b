@@ -1,0 +1,64 @@
+{
+ "lang": "sr",
+ "keyword": "kompatibilnost znakova",
+ "volume": 60000,
+ "slug": "kompatibilnost-znakova-u-ljubavi",
+ "date": "2026-11-27",
+ "title": "Kompatibilnost znakova u ljubavi: vatra, zemlja, vazduh i voda",
+ "description": "Kako elementi (vatra, zemlja, vazduh, voda) utiču na kompatibilnost u ljubavi. Jednostavno objašnjenje i dva primera parova.",
+ "intro": "„Nas dvoje smo toliko različiti... da li je to zbog znakova?“ Astrologija deli 12 znakova na četiri elementa, a to pomaže da shvatimo ko se lakše slaže. Objasnićemo jednostavno.",
+ "sections": [
+  {
+   "h2": "Četiri elementa",
+   "paragraphs": [
+    "Vatra: Ovan, Lav, Strelac, energični i strastveni. Zemlja: Bik, Devica, Jarac, mirni i pouzdani. Vazduh: Blizanci, Vaga, Vodolija, društveni i lagani. Voda: Rak, Škorpija, Ribe, osetljivi i brižni."
+   ]
+  },
+  {
+   "h2": "Ko se lakše slaže",
+   "paragraphs": [
+    "Obično se lakše slažu znakovi istog elementa ili „komšije“: vatra sa vazduhom (vazduh raspiruje vatru), zemlja sa vodom (voda hrani zemlju).",
+    "Teže je vatri sa vodom i zemlji sa vazduhom, ritmovi su veoma različiti. Teže, ali ne i nemoguće."
+   ]
+  },
+  {
+   "h2": "Primer 1: Lav i Blizanci",
+   "paragraphs": [
+    "Marko (Lav) voli da organizuje proslave, a Ana (Blizanci) obožava da priča sa gostima. Vatra i vazduh: zabavno im je zajedno i podstiču jedno drugo."
+   ]
+  },
+  {
+   "h2": "Primer 2: Devica i Ribe",
+   "paragraphs": [
+    "Nikola (Devica) sve planira, Teodora (Ribe) živi po osećanjima. Zemlja i voda: on joj daje oslonac, ona ga uči nežnosti. Ponekad se posvađaju zbog sitnica, ali se dopunjuju."
+   ]
+  },
+  {
+   "h2": "Šta je najvažnije",
+   "paragraphs": [
+    "Znakovi su samo jedna strana odnosa: poštovanje i razgovor važniji su od svake tabele. Astrologija nije dokazana nauka i ne zamenjuje porodičnog savetnika, lekara ili advokata."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koji znakovi se najbolje slažu?",
+   "a": "Najčešće se pominju parovi istog elementa, vatra sa vazduhom i zemlja sa vodom."
+  },
+  {
+   "q": "Mogu li biti srećan sa „nekompatibilnim“ znakom?",
+   "a": "Naravno. Kompatibilnost je samo nagoveštaj, a ne presuda."
+  },
+  {
+   "q": "Šta još treba uzeti u obzir osim znaka?",
+   "a": "Celu natalnu kartu, a pre svega stvarna dela i međusobno poštovanje."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "lang": "id",
+ "keyword": "kecocokan zodiak cinta",
+ "volume": 60000,
+ "slug": "kecocokan-zodiak-dalam-cinta-berdasarkan-elemen",
+ "date": "2026-11-27",
+ "title": "Kecocokan Zodiak dalam Cinta: Api, Tanah, Udara, Air",
+ "description": "Zodiak apa yang cocok untuk pacaran? Dijelaskan sederhana lewat empat elemen, dengan dua contoh pasangan.",
+ "intro": "“Kira-kira aku sama Rina cocok nggak, ya?” Pertanyaan ini sering muncul saat PDKT. Cara paling gampang untuk memulai: lihat elemen zodiaknya.",
+ "sections": [
+  {
+   "h2": "Empat elemen zodiak",
+   "paragraphs": [
+    "Dua belas zodiak terbagi ke empat elemen. Api: Aries, Leo, Sagitarius. Tanah: Taurus, Virgo, Capricorn. Udara: Gemini, Libra, Aquarius. Air: Cancer, Scorpio, Pisces."
+   ]
+  },
+  {
+   "h2": "Siapa cocok dengan siapa?",
+   "paragraphs": [
+    "Elemen yang sama biasanya gampang nyambung. Api dan udara saling menguatkan karena udara membuat api makin besar. Tanah dan air saling menyuburkan. Api dengan air, atau tanah dengan udara, butuh lebih banyak sabar."
+   ]
+  },
+  {
+   "h2": "Contoh 1: Rina dan Bagas",
+   "paragraphs": [
+    "Rina Leo (api), Bagas Libra (udara). Rina penuh semangat, Bagas penuh ide, jadi mereka kompak merencanakan liburan. Tantangannya, Bagas lama kalau disuruh memutuskan."
+   ]
+  },
+  {
+   "h2": "Contoh 2: Sari dan Dimas",
+   "paragraphs": [
+    "Sari Scorpio (air), Dimas Capricorn (tanah). Sari peka dan dalam, Dimas stabil dan bisa diandalkan. Jarang bertengkar, tapi Sari perlu belajar bilang terus terang apa yang dia rasakan."
+   ]
+  },
+  {
+   "h2": "Hanya panduan ringan",
+   "paragraphs": [
+    "Elemen hanyalah gambaran awal. Hubungan yang sehat dibangun lewat obrolan dan saling menghargai. Astrologi bukan ilmu pasti dan tidak menggantikan ahli seperti konselor pernikahan, dokter, atau pengacara."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Bisakah api dan air berpacaran?",
+   "a": "Bisa, hanya perlu lebih banyak sabar dan komunikasi."
+  },
+  {
+   "q": "Adakah pasangan zodiak yang sempurna?",
+   "a": "Tidak ada. Setiap pasangan punya sisi mudah dan sisi sulit."
+  },
+  {
+   "q": "Cukup lihat zodiak matahari saja?",
+   "a": "Untuk gambaran lebih lengkap lihat juga Bulan dan ascendant, tapi tetap saja ini hanya hiburan."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca lagi",
+  "dictionary": "Kamus astrologi"
+ }
+}

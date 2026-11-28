@@ -1,0 +1,65 @@
+{
+ "lang": "hr",
+ "keyword": "uzlazni znak kako izračunati",
+ "volume": 135000,
+ "slug": "uzlazni-znak-ascendent-kako-izracunati",
+ "date": "2026-11-27",
+ "title": "Uzlazni znak (ascendent): kako ga izračunati i što znači",
+ "description": "Što je uzlazni znak, što trebaš za izračun (datum, sat i grad rođenja) i kako utječe na tvoj izgled i prvi dojam. Jednostavno objašnjeno.",
+ "intro": "„Po suncu sam Ovan, ali nitko me ne doživljava tako.“ Možda je razlog tvoj uzlazni znak, odnosno ascendent. Evo što je to, bez teških riječi.",
+ "sections": [
+  {
+   "h2": "Što je uzlazni znak?",
+   "paragraphs": [
+    "Uzlazni znak je znak koji se na istoku dizao na obzoru u trenutku tvog rođenja. Zamisli izlazak sunca: ascendent je „izlazak“ tvog rođenja. Često se kaže da je on tvoja „maska“, ono što drugi vide prvo."
+   ]
+  },
+  {
+   "h2": "Što ti treba za izračun?",
+   "paragraphs": [
+    "Trebaju ti tri podatka: datum, točan sat i grad rođenja. Sat je najvažniji jer se ascendent promijeni otprilike svaka dva sata. Sat obično piše u rodnom listu ili ga možeš pitati mamu.",
+    "Primjer: Ivana je rođena u Zagrebu u 6:10, a njezina sestra blizanka u 8:40. Imaju isti dan, ali različit ascendent."
+   ]
+  },
+  {
+   "h2": "Kako ga izračunati?",
+   "paragraphs": [
+    "Ručno je račun složen jer uključuje zvjezdano vrijeme i geografsku širinu grada. Zato je najlakše upisati podatke u besplatni kalkulator: on sam izračuna ascendent i pokaže ti ga u sekundi.",
+    "Ako ne znaš sat, rezultat može biti netočan. Tada je bolje pogledati i znakove za susjedne sate."
+   ]
+  },
+  {
+   "h2": "Što mijenja u tvom ponašanju?",
+   "paragraphs": [
+    "Sunčev znak govori tko si iznutra, a ascendent kako djeluješ na ljude, kako se oblačiš i kako reagiraš u novim situacijama. Marko je po suncu povučen Rak, ali ascendent Lav čini da na zabavi djeluje samouvjereno."
+   ]
+  },
+  {
+   "h2": "Ne shvaćaj preozbiljno",
+   "paragraphs": [
+    "Astrologija nije dokazana znanost i ne zamjenjuje liječnika, odvjetnika ni financijskog savjetnika. Ascendent koristi kao zanimljiv poticaj za razmišljanje o sebi, ne kao pravilo po kojem moraš živjeti."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mogu li izračunati ascendent bez sata rođenja?",
+   "a": "Ne baš pouzdano. Bez sata možeš samo pretpostaviti, pa je bolje provjeriti rodni list."
+  },
+  {
+   "q": "Je li ascendent isto što i sunčev znak?",
+   "a": "Nije. Sunčev znak ovisi o datumu, a ascendent o satu i mjestu rođenja."
+  },
+  {
+   "q": "Koliko često se ascendent mijenja?",
+   "a": "Otprilike svaka dva sata mijenja se znak koji izlazi na horizontu."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ }
+}

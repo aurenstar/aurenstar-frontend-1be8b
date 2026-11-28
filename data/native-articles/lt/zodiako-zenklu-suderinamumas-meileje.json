@@ -1,0 +1,68 @@
+{
+ "lang": "lt",
+ "keyword": "zodiako ženklų suderinamumas",
+ "volume": 60000,
+ "slug": "zodiako-zenklu-suderinamumas-meileje",
+ "date": "2026-11-27",
+ "title": "Zodiako ženklų suderinamumas meilėje pagal elementus",
+ "description": "Kaip sutaria ugnies, žemės, oro ir vandens ženklai meilėje? Paprastas paaiškinimas su dviem išgalvotų porų pavyzdžiais.",
+ "intro": "„Ar mes tinkame vienas kitam?“ – to klausia daugelis įsimylėjusių. Nereikia mokėti visų 12 kombinacijų, užtenka suprasti keturis elementus.",
+ "sections": [
+  {
+   "h2": "Keturi elementai",
+   "paragraphs": [
+    "Ugnis: Avinas, Liūtas, Šaulys – karšti ir veiklūs. Žemė: Jautis, Mergelė, Ožiaragis – praktiški ir pastovūs.",
+    "Oras: Dvyniai, Svarstyklės, Vandenis – bendraujantys ir lengvi. Vanduo: Vėžys, Skorpionas, Žuvys – jautrūs ir gilūs."
+   ]
+  },
+  {
+   "h2": "Tas pats elementas",
+   "paragraphs": [
+    "Tokie ženklai dažniausiai lengvai supranta vienas kitą. Išgalvota pora Jonas (Šaulys) ir Ieva (Avinas) abu ugnies, todėl mėgsta spontaniškas keliones.",
+    "Bet panašumas gali sukelti ir kivirčų: du užsispyrėliai sunkiai nusileidžia."
+   ]
+  },
+  {
+   "h2": "Dažnai gerai tinkantys deriniai",
+   "paragraphs": [
+    "Ugnis su oru vienas kitą įkvepia, žemė su vandeniu vienas kitą palaiko. Išgalvota pora Mantas (Mergelė) ir Gabija (Vėžys): jis suteikia stabilumo, ji šilumos.",
+    "Ugnis su vandeniu ar žemė su oru gali reikėti daugiau kantrybės, bet tai nereiškia, kad nepavyks."
+   ]
+  },
+  {
+   "h2": "Kaip tuo naudotis",
+   "paragraphs": [
+    "Suderinamumas yra užuomina, kaip geriau suprasti partnerį, o ne nuosprendis. Žinodamas skirtumus lengviau kalbėtis.",
+    "Be to, asmenybei turi įtakos ne tik Saulės ženklas, bet ir Mėnulis, Venera ir kita."
+   ]
+  },
+  {
+   "h2": "Sąžiningai",
+   "paragraphs": [
+    "Astrologija nėra įrodyta mokslu, tai pramoga.",
+    "Dėl santuokos, skyrybų ar pinigų kreipkis į specialistus, o ne žvaigždes."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jei ženklai nesuderinami, ar reikia skirtis?",
+   "a": "Ne. Santykiams svarbiau abiejų pastangos nei ženklai."
+  },
+  {
+   "q": "Kokie ženklai tinka geriausiai?",
+   "a": "Absoliutaus atsakymo nėra, dažniausiai minimi tos pačios grupės ar ugnis su oru, žemė su vandeniu."
+  },
+  {
+   "q": "Ar užtenka Saulės ženklo?",
+   "a": "Tai tik dalis. Išsamiau žiūrima visa gimimo horoskopo schema."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ }
+}

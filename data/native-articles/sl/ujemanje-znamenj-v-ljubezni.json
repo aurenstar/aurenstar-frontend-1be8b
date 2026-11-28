@@ -1,0 +1,64 @@
+{
+ "lang": "sl",
+ "keyword": "ujemanje znamenj",
+ "volume": 60000,
+ "slug": "ujemanje-znamenj-v-ljubezni",
+ "date": "2026-11-27",
+ "title": "Ujemanje znamenj v ljubezni: ogenj, zemlja, zrak in voda",
+ "description": "Kako elementi (ogenj, zemlja, zrak, voda) vplivajo na ujemanje v ljubezni. Preprosta razlaga in dva primera parov.",
+ "intro": "»Midva sva tako različna ... je to zaradi znamenj?« Astrologija deli 12 znamenj na štiri elemente, to pa pomaga razumeti, kdo se laže ujame. Razložimo preprosto.",
+ "sections": [
+  {
+   "h2": "Štirje elementi",
+   "paragraphs": [
+    "Ogenj: Oven, Lev, Strelec, energični in strastni. Zemlja: Bik, Devica, Kozorog, mirni in zanesljivi. Zrak: Dvojčka, Tehtnica, Vodnar, družabni in lahkotni. Voda: Rak, Škorpijon, Ribi, občutljivi in skrbni."
+   ]
+  },
+  {
+   "h2": "Kdo se laže ujame",
+   "paragraphs": [
+    "Običajno se bolje razumejo znamenja istega elementa ali »sosedje«: ogenj z zrakom (zrak podpihuje ogenj), zemlja z vodo (voda hrani zemljo).",
+    "Težje je z ognjem in vodo ter zemljo in zrakom, ritma sta zelo različna. Težje pa ne pomeni nemogoče."
+   ]
+  },
+  {
+   "h2": "Primer 1: Lev in Dvojčka",
+   "paragraphs": [
+    "Matej (Lev) rad prireja zabave, Tjaša (Dvojčka) pa obožuje klepet z gosti. Ogenj in zrak: skupaj jima je zabavno in se spodbujata."
+   ]
+  },
+  {
+   "h2": "Primer 2: Devica in Ribi",
+   "paragraphs": [
+    "Luka (Devica) vse načrtuje, Urša (Ribi) živi po občutkih. Zemlja in voda: on ji daje oporo, ona ga uči nežnosti. Včasih se skregata zaradi malenkosti, a se dopolnjujeta."
+   ]
+  },
+  {
+   "h2": "Kaj je najpomembnejše",
+   "paragraphs": [
+    "Znamenja so le ena stran odnosa: spoštovanje in pogovor sta pomembnejša od vsake tabele. Astrologija ni dokazana znanost in ne nadomešča družinskega svetovalca, zdravnika ali odvetnika."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Katera znamenja se najbolj ujemajo?",
+   "a": "Največkrat omenjajo pare istega elementa, ogenj z zrakom in zemljo z vodo."
+  },
+  {
+   "q": "Ali sem lahko srečen z »neujemajočim« znamenjem?",
+   "a": "Seveda. Ujemanje je le namig, ne sodba."
+  },
+  {
+   "q": "Kaj je poleg znamenja še pomembno?",
+   "a": "Celotna rojstna karta in predvsem resnična dejanja ter medsebojno spoštovanje."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ }
+}

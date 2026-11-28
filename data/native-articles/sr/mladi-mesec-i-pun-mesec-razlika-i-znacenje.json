@@ -1,0 +1,66 @@
+{
+ "lang": "sr",
+ "keyword": "mladi mesec i pun mesec",
+ "volume": 40000,
+ "slug": "mladi-mesec-i-pun-mesec-razlika-i-znacenje",
+ "date": "2026-11-27",
+ "title": "Mladi i pun Mesec: koja je razlika i šta raditi",
+ "description": "Po čemu se mladi Mesec razlikuje od punog, šta znače u astrologiji i po 3 jednostavne ideje za svaki.",
+ "intro": "„Danas je mlad Mesec, idealno vreme za želje!“ Šta je mlad Mesec i po čemu se razlikuje od punog? Objasnićemo jednostavno.",
+ "sections": [
+  {
+   "h2": "Koja je razlika",
+   "paragraphs": [
+    "Kod mladog Meseca on se na nebu gotovo ne vidi: nalazi se između Zemlje i Sunca. Kod punog je okrugao i svetao: Zemlja je između njih.",
+    "Između ta dva dana prođu otprilike dve nedelje, a sve se ponavlja svakog meseca."
+   ]
+  },
+  {
+   "h2": "Šta znači mladi Mesec",
+   "paragraphs": [
+    "U astrologiji je mladi Mesec vreme „čistog lista“: počinjati, planirati, postavljati ciljeve. Kao prvi dan na novom poslu ili prva strana sveske."
+   ]
+  },
+  {
+   "h2": "3 ideje za mladi Mesec",
+   "paragraphs": [
+    "1. Zapišite tri cilja za mesec. 2. Sredite radni sto ili telefon. 3. Započnite malu novu naviku, na primer večernju šetnju.",
+    "Na primer, Sanja je na mlad Mesec zapisala „svaki dan čitam 10 minuta“ i za mesec dana to je postala navika."
+   ]
+  },
+  {
+   "h2": "Šta znači pun Mesec i 3 ideje",
+   "paragraphs": [
+    "Pun Mesec je vreme rezimea i emocija: kaže se da sve „sazreva“ i postaje vidljivije. Mnogi tih dana lošije spavaju, što nije ništa strašno.",
+    "Ideje: 1. Napravite pregled meseca: šta je uspelo. 2. Zahvalite onima koji su vam pomogli. 3. Pustite višak: obrišite stare fajlove ili bacite staro."
+   ]
+  },
+  {
+   "h2": "Ne zaboravite",
+   "paragraphs": [
+    "Astrologija nije dokazana nauka i ne zamenjuje lekara, advokata ili finansijskog savetnika. Mesečeve mene su razlog za mirne rituale, a ne za promenu važnih odluka."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko traje Mesečev ciklus?",
+   "a": "Oko 29,5 dana od jednog mladog Meseca do sledećeg."
+  },
+  {
+   "q": "Moram li nešto da poželim na mlad Mesec?",
+   "a": "Ne. To je samo zgodan trenutak da razmislite o planovima."
+  },
+  {
+   "q": "Zašto se na pun Mesec lošije spava?",
+   "a": "Neki ljudi to tvrde, ali naučnih dokaza je malo. Jaka svetlost Meseca može smetati snu."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ }
+}

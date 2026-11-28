@@ -1,0 +1,64 @@
+{
+ "lang": "no",
+ "keyword": "stjernetegn kompatibilitet",
+ "volume": 60000,
+ "slug": "stjernetegn-kjaerlighet-kompatibilitet",
+ "date": "2026-11-27",
+ "title": "Stjernetegn og kjærlighet: hvem passer sammen?",
+ "description": "Hvilke stjernetegn passer sammen i kjærlighet? Forklart etter element (ild, jord, luft, vann) med to eksempelpar.",
+ "intro": "«Vi er helt forskjellige, kan det gå bra?» Stjernetegnene deles i fire elementer, og de gjør det lettere å forstå kjærlighet.",
+ "sections": [
+  {
+   "h2": "De fire elementene",
+   "paragraphs": [
+    "Ild: Væren, Løven, Skytten. Jord: Tyren, Jomfruen, Steinbukken. Luft: Tvillingene, Vekten, Vannmannen. Vann: Krepsen, Skorpionen, Fiskene. Tegn med samme element forstår ofte hverandre fort."
+   ]
+  },
+  {
+   "h2": "Hvilke elementer passer sammen?",
+   "paragraphs": [
+    "Ild og luft styrker hverandre: luft blåser liv i ilden. Jord og vann også: vann får jorda til å blomstre.",
+    "Ild og vann, eller jord og luft, krever mer forståelse fordi de tenker ulikt."
+   ]
+  },
+  {
+   "h2": "Eksempel 1: Ild og luft",
+   "paragraphs": [
+    "Mina (Skytten) vil oppleve noe nytt hver helg. Jonas (Vekten) elsker ideen og finner på planene. Mye energi, lite kjedsomhet."
+   ]
+  },
+  {
+   "h2": "Eksempel 2: Jord og vann",
+   "paragraphs": [
+    "Eva (Steinbukken) liker ro og trygghet. Henrik (Krepsen) gir varme og hjemmekoselig stemning. De utfyller hverandre fint."
+   ]
+  },
+  {
+   "h2": "En ærlig påminnelse",
+   "paragraphs": [
+    "Et godt forhold avhenger av mye mer enn stjernetegn. Astrologi er ikke bevist vitenskap. Har du tvil om forholdet eller helsen, snakk med en parterapeut eller lege."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kan motsatte elementer være lykkelige sammen?",
+   "a": "Ja, med tålmodighet og respekt for hverandres måte å leve på."
+  },
+  {
+   "q": "Er solskiltet nok for å se kompatibilitet?",
+   "a": "Det er en start. Måne og ascendent spiller også inn, men også det er bare symbolikk."
+  },
+  {
+   "q": "Hvilket tegn passer med Væren?",
+   "a": "Ofte nevnes Løven, Skytten, Tvillingene og Vannmannen, men alle kombinasjoner kan fungere."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ }
+}

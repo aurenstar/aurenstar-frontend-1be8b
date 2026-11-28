@@ -1,0 +1,63 @@
+{
+ "lang": "cs",
+ "keyword": "zatmění měsíce",
+ "volume": 90000,
+ "slug": "zatmeni-mesice-co-to-je-a-kdy-nastava",
+ "date": "2026-11-27",
+ "title": "Zatmění Měsíce: co to je, kdy nastává a co lidé dělají",
+ "description": "Jednoduché vysvětlení zatmění Měsíce: proč nastává, jak ho pozorovat a co lidé dělají v takovou noc. Klidně a bez strachu.",
+ "intro": "„Dneska je zatmění Měsíce, půjdeš se podívat na zahradu?“ Je to krásný úkaz, ne důvod ke strachu. Vysvětlíme ho jednoduše.",
+ "sections": [
+  {
+   "h2": "Co je zatmění Měsíce?",
+   "paragraphs": [
+    "Nastává, když se Země postaví mezi Slunce a Měsíc a její stín dopadne na Měsíc. Je to jako když se postavíš mezi lampu a zeď a tvůj stín je vidět na zdi. Měsíc pak může zčervenat nebo zoranžovět."
+   ]
+  },
+  {
+   "h2": "Kdy nastává?",
+   "paragraphs": [
+    "Zatmění Měsíce nastává jen při úplňku, několikrát za rok, ale ne při každém úplňku. Vidět je odkudkoli, kde je Měsíc nad obzorem."
+   ]
+  },
+  {
+   "h2": "Jak ho pozorovat?",
+   "paragraphs": [
+    "Žádné speciální brýle nepotřebuješ, na rozdíl od zatmění Slunce je pro oči bezpečné. Vyjdi na tmavé místo mimo světla města a dívej se pouhým okem nebo malým dalekohledem."
+   ]
+  },
+  {
+   "h2": "Co lidé v tu noc dělají?",
+   "paragraphs": [
+    "Mnozí se sejdou s rodinou a fotí Měsíc. Podle astrologie je to chvíle, kdy se hodí uzavřít starou kapitolu a v klidu přemýšlet. Příklad: Honza si napsal tři věci, kterých se chce zbavit, a pak klidně usnul."
+   ]
+  },
+  {
+   "h2": "Poctivé upozornění",
+   "paragraphs": [
+    "Neexistuje vědecký důkaz, že zatmění ovlivňuje zdraví nebo štěstí. Nebojte se ho a velká rozhodnutí kvůli němu neodkládejte ani nedělejte. U zdraví, práva a peněz se poraďte s odborníkem."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je zatmění Měsíce nebezpečné pro oči?",
+   "a": "Ne, dá se na něj bezpečně dívat přímo."
+  },
+  {
+   "q": "Proč Měsíc zčervená?",
+   "a": "Sluneční světlo prochází atmosférou Země a na Měsíc dopadá načervenalé."
+  },
+  {
+   "q": "Jak dlouho trvá?",
+   "a": "Celý úkaz několik hodin, úplná fáze nejvýš asi hodinu a půl."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ }
+}

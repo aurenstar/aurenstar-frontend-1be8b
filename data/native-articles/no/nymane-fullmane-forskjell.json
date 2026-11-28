@@ -1,0 +1,65 @@
+{
+ "lang": "no",
+ "keyword": "nymåne fullmåne",
+ "volume": 40000,
+ "slug": "nymane-fullmane-forskjell",
+ "date": "2026-11-27",
+ "title": "Nymåne og fullmåne: forskjell og 3 ideer til hver",
+ "description": "Hva er forskjellen på nymåne og fullmåne, og hva kan du gjøre? Tre enkle ideer for hver månefase.",
+ "intro": "«Det er fullmåne, jeg sover dårlig!» Mange kjenner seg igjen. Men hva betyr nymåne og fullmåne egentlig? Her er svaret, enkelt.",
+ "sections": [
+  {
+   "h2": "Forskjellen",
+   "paragraphs": [
+    "Ved nymåne står månen mellom jorda og sola, og du ser den ikke. Ved fullmåne står jorda i midten, og månen er helt opplyst. Det veksler omtrent hver 29. dag."
+   ]
+  },
+  {
+   "h2": "Nymåne: en frisk start",
+   "paragraphs": [
+    "I astrologien er nymåne tiden for å starte noe nytt og velge intensjoner."
+   ]
+  },
+  {
+   "h2": "3 ideer for nymåne",
+   "paragraphs": [
+    "1. Skriv ned tre ønsker eller mål. 2. Start en liten vane, for eksempel ti minutters tur hver dag. 3. Rydd én skuff eller ett hjørne hjemme.",
+    "Eksempel: Sofie skriver at hun vil lese mer og legger med en gang en bok på nattbordet."
+   ]
+  },
+  {
+   "h2": "Fullmåne: avslutte og slippe",
+   "paragraphs": [
+    "Ved fullmåne kommer alt for en dag. Det er et øyeblikk for å se hva du har oppnådd og hva du kan slippe.",
+    "3 ideer: 1. Skriv ned hva du er takknemlig for. 2. Gå en tur i måneskinn. 3. Send en hyggelig melding eller gjør opp en krangel."
+   ]
+  },
+  {
+   "h2": "En ærlig påminnelse",
+   "paragraphs": [
+    "Astrologi er ikke bevist vitenskap. Månen har ingen påvist innvirkning på søvn eller humør. Er du syk eller bekymret, snakk med lege eller fagperson."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvor ofte er det nymåne?",
+   "a": "Omtrent én gang i måneden, hver 29. til 30. dag."
+  },
+  {
+   "q": "Påvirker fullmåne søvnen min?",
+   "a": "Studiene spriker. Mange sover urolig, men beviset er svakt."
+  },
+  {
+   "q": "Må jeg gjøre noe ved nymåne?",
+   "a": "Nei, det er valgfritt. Se det som en fin anledning til å stoppe opp."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ }
+}

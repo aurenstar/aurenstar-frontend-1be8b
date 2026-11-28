@@ -1,0 +1,66 @@
+{
+ "lang": "ro",
+ "keyword": "ascendent calcul",
+ "volume": 135000,
+ "slug": "cum-calculezi-ascendentul",
+ "date": "2026-11-27",
+ "title": "Cum îți calculezi ascendentul: ce este și ce îți trebuie",
+ "description": "Cum afli ascendentul? Ai nevoie de data, ora și locul nașterii. Explicat simplu, cu un exemplu.",
+ "intro": "„Sunt Rac, dar nu mă regăsesc deloc.” Poate că de vină e ascendentul. Aici îl explicăm pe înțelesul tuturor.",
+ "sections": [
+  {
+   "h2": "Ce este ascendentul?",
+   "paragraphs": [
+    "Ascendentul este zodia care răsărea la orizontul de est exact în clipa nașterii tale. Zodia solară arată cum ești pe dinăuntru, iar ascendentul arată prima impresie pe care o lași."
+   ]
+  },
+  {
+   "h2": "Ce îți trebuie?",
+   "paragraphs": [
+    "Trei lucruri: data nașterii, ora exactă și localitatea. Fără oră nu merge, pentru că ascendentul își schimbă zodia aproximativ la două ore.",
+    "Ora o găsești în certificatul de naștere sau o poți întreba pe mama."
+   ]
+  },
+  {
+   "h2": "Cum îl calculezi?",
+   "paragraphs": [
+    "Manual e complicat, așa că folosește un calculator gratuit de ascendent. Introdu data, ora și orașul și vezi rezultatul pe loc.",
+    "Exemplu: Andreea s-a născut pe 14 mai la 7:30, în Cluj. Soarele ei e în Taur, dar ascendentul îi iese Gemeni."
+   ]
+  },
+  {
+   "h2": "Ce se schimbă în imaginea ta?",
+   "paragraphs": [
+    "Ascendentul arată cum te văd ceilalți, de pildă calm la Capricorn sau spontan la Săgetător. Andreea pare deschisă și vorbăreață, deși în interior e un Taur chibzuit.",
+    "De aceea uneori nu te recunoști în descrierea zodiei tale solare."
+   ]
+  },
+  {
+   "h2": "O precizare sinceră",
+   "paragraphs": [
+    "Astrologia nu este știință dovedită. Folosește ascendentul ca pe un prilej plăcut de reflecție. Pentru sănătate, probleme juridice sau bani, vorbește cu un medic, un avocat sau un consultant financiar."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Pot afla ascendentul fără ora nașterii?",
+   "a": "Nu exact. Poți încerca să afli ora sau s-o estimezi, dar rezultatul rămâne nesigur."
+  },
+  {
+   "q": "Cât de des se schimbă ascendentul?",
+   "a": "Cam la două ore, de aceea ora nașterii contează atât de mult."
+  },
+  {
+   "q": "Ascendentul e mai important decât zodia solară?",
+   "a": "Niciuna nu e mai importantă. Soarele e miezul, ascendentul e fațada."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ }
+}

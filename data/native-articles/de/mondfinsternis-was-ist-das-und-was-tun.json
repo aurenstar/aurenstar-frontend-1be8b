@@ -1,0 +1,65 @@
+{
+ "lang": "de",
+ "keyword": "mondfinsternis",
+ "volume": 90000,
+ "slug": "mondfinsternis-was-ist-das-und-was-tun",
+ "date": "2026-11-27",
+ "title": "Mondfinsternis: Was ist das und was machen die Leute an dem Tag?",
+ "description": "Was ist eine Mondfinsternis, wann passiert sie und was machen Menschen an diesem Tag? Ruhig und einfach erklärt.",
+ "intro": "„Heute Abend wird der Mond rot!“ Vielleicht stand dein Nachbar schon mit Fernglas im Garten. Hier die einfache Erklärung zur Mondfinsternis, ganz ohne Angst.",
+ "sections": [
+  {
+   "h2": "Was ist eine Mondfinsternis?",
+   "paragraphs": [
+    "Bei einer Mondfinsternis steht die Erde genau zwischen Sonne und Mond. Der Schatten der Erde fällt auf den Mond, er wird dunkler und oft kupferrot. Deshalb spricht man auch vom „Blutmond“."
+   ]
+  },
+  {
+   "h2": "Wann passiert sie?",
+   "paragraphs": [
+    "Nur bei Vollmond, und nicht bei jedem. Pro Jahr gibt es weltweit mindestens zwei Mondfinsternisse, aber nicht alle sind in Deutschland, Österreich oder der Schweiz sichtbar. Dazu muss der Mond über dem Horizont stehen und der Himmel klar sein.",
+    "Anders als bei der Sonnenfinsternis brauchst du keine Spezialbrille. Du kannst mit bloßem Auge zuschauen."
+   ]
+  },
+  {
+   "h2": "Was sagt die Astrologie?",
+   "paragraphs": [
+    "In der Astrologie gilt eine Mondfinsternis als Zeitpunkt, an dem etwas zu Ende geht oder Gefühle an die Oberfläche kommen. Es heißt, sie helfe, Altes loszulassen."
+   ]
+  },
+  {
+   "h2": "Was machen die Leute an dem Tag?",
+   "paragraphs": [
+    "Die meisten tun etwas Ruhiges: einen Spaziergang, eine Kerze anzünden, aufschreiben, was man loslassen möchte, oder die Wohnung aufräumen. Andere schauen einfach mit Freunden in den Himmel.",
+    "Beispiel: Tobias fährt mit dem Rad zum See, schaut sich den roten Mond an und beschließt, eine alte Gewohnheit sein zu lassen."
+   ]
+  },
+  {
+   "h2": "Bleib gelassen und kritisch",
+   "paragraphs": [
+    "Es gibt keinen wissenschaftlichen Beleg, dass eine Mondfinsternis dein Leben beeinflusst. Sie ist ein schönes Naturschauspiel, keine Gefahr. Astrologie ersetzt außerdem keine Ärztin, keinen Anwalt und keine Finanzberatung."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist eine Mondfinsternis gefährlich?",
+   "a": "Nein, sie ist völlig harmlos und mit bloßem Auge zu beobachten."
+  },
+  {
+   "q": "Warum wird der Mond rot?",
+   "a": "Die Erdatmosphäre lenkt rotes Licht auf den Mond, ähnlich wie beim Sonnenuntergang."
+  },
+  {
+   "q": "Wie oft gibt es Mondfinsternisse?",
+   "a": "Weltweit mindestens zweimal im Jahr, nicht alle sind bei uns zu sehen."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Mehr lesen"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "lang": "pt",
+ "keyword": "eclipse lunar",
+ "volume": 90000,
+ "slug": "eclipse-lunar-o-que-e-quando-acontece",
+ "date": "2026-11-27",
+ "title": "Eclipse lunar: o que é e o que as pessoas fazem nessa noite",
+ "description": "O que é um eclipse lunar, quando acontece e o que as pessoas costumam fazer? Explicado com calma, sem medo.",
+ "intro": "“Hoje tem lua de sangue, vamos olhar?” O eclipse lunar é, antes de tudo, um espetáculo bonito. Veja aqui o que acontece, sem complicação.",
+ "sections": [
+  {
+   "h2": "O que é um eclipse lunar?",
+   "paragraphs": [
+    "No eclipse lunar, a Terra fica exatamente entre o Sol e a Lua. A sombra da Terra cai sobre a Lua, que fica escura ou avermelhada."
+   ]
+  },
+  {
+   "h2": "Quando acontece?",
+   "paragraphs": [
+    "Sempre na lua cheia, mas não em toda lua cheia. Costuma haver um ou dois por ano. Dá para olhar a olho nu, sem óculos especiais, desde que a Lua esteja acima do horizonte.",
+    "O fenômeno inteiro leva algumas horas, e a fase vermelha costuma durar menos de uma hora."
+   ]
+  },
+  {
+   "h2": "O que diz a astrologia?",
+   "paragraphs": [
+    "Na astrologia, o eclipse é visto como um fechamento de ciclo: o que já amadureceu vem à tona. É um bom momento para pensar no que você quer deixar para trás."
+   ]
+  },
+  {
+   "h2": "O que as pessoas fazem nessa noite?",
+   "paragraphs": [
+    "Muita gente só sai para o quintal ou a varanda com um chá. Outros escrevem o que querem soltar ou ficam uma noite tranquila longe do celular.",
+    "Exemplo: a Marina e o Rafael ficam na laje com uma manta e cada um escreve num papel uma coisa que não quer levar para o ano que vem."
+   ]
+  },
+  {
+   "h2": "Sem motivo para medo",
+   "paragraphs": [
+    "Astrologia não é ciência comprovada, e o eclipse lunar não faz mal nenhum. Não tome decisões importantes de saúde, jurídicas ou financeiras só pelos astros: converse com um médico, advogado ou consultor financeiro."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "O eclipse lunar faz mal aos olhos?",
+   "a": "Não. Diferente do eclipse solar, você pode olhar sem proteção."
+  },
+  {
+   "q": "Por que a Lua fica vermelha?",
+   "a": "A luz do Sol passa pela atmosfera da Terra e tinge a Lua de vermelho."
+  },
+  {
+   "q": "Quantos eclipses lunares acontecem por ano?",
+   "a": "Cerca de dois em algum lugar do planeta, mas nem sempre dá para ver do Brasil."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas grátis",
+  "articles": "Artigos",
+  "faq": "Perguntas frequentes",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "lang": "pl",
+ "keyword": "zaćmienie księżyca",
+ "volume": 90000,
+ "slug": "zacmienie-ksiezyca-co-to-jest",
+ "date": "2026-11-27",
+ "title": "Zaćmienie Księżyca: co to jest i co ludzie wtedy robią?",
+ "description": "Czym jest zaćmienie Księżyca, kiedy się zdarza i co ludzie robią tego wieczoru? Spokojne wyjaśnienie, bez strachu.",
+ "intro": "„Dziś wieczorem krwawy Księżyc, idziemy patrzeć?” Zaćmienie Księżyca to przede wszystkim piękny widok. Wyjaśniamy, co się wtedy dzieje.",
+ "sections": [
+  {
+   "h2": "Co to jest zaćmienie Księżyca?",
+   "paragraphs": [
+    "Podczas zaćmienia Ziemia staje dokładnie między Słońcem a Księżycem. Jej cień pada na Księżyc, który robi się ciemny albo czerwonawy."
+   ]
+  },
+  {
+   "h2": "Kiedy do niego dochodzi?",
+   "paragraphs": [
+    "Zawsze w pełni, ale nie przy każdej pełni. Zwykle jest jedno lub dwa takie zjawiska w roku. Nie potrzebujesz specjalnych okularów, wystarczy, że Księżyc jest nad horyzontem.",
+    "Całe zjawisko trwa kilka godzin, a czerwona faza zwykle krócej niż godzinę."
+   ]
+  },
+  {
+   "h2": "Co mówi astrologia?",
+   "paragraphs": [
+    "W astrologii zaćmienie traktuje się jak zamknięcie etapu: to, co dojrzałe, wychodzi na jaw. To dobry moment, by zastanowić się, co chcesz puścić."
+   ]
+  },
+  {
+   "h2": "Co ludzie robią tego wieczoru?",
+   "paragraphs": [
+    "Wielu po prostu wychodzi z herbatą na balkon. Inni zapisują, co chcą zostawić za sobą, albo spędzają spokojny wieczór bez telefonu.",
+    "Przykład: Marta i Tomek siedzą na działce pod kocem i każde pisze na kartce jedną rzecz, której nie chce brać do nowego roku."
+   ]
+  },
+  {
+   "h2": "Nie ma się czego bać",
+   "paragraphs": [
+    "Astrologia nie jest udowodnioną nauką, a zaćmienie Księżyca jest zupełnie bezpieczne. Ważnych decyzji dotyczących zdrowia, prawa czy pieniędzy nie opieraj na gwiazdach, tylko ustal je z lekarzem, prawnikiem lub doradcą."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy zaćmienie Księżyca szkodzi oczom?",
+   "a": "Nie, w przeciwieństwie do zaćmienia Słońca można na nie patrzeć gołym okiem."
+  },
+  {
+   "q": "Dlaczego Księżyc robi się czerwony?",
+   "a": "Światło słoneczne załamuje się w atmosferze Ziemi i barwi Księżyc na czerwono."
+  },
+  {
+   "q": "Jak często jest zaćmienie Księżyca?",
+   "a": "Około dwa razy w roku gdzieś na Ziemi, ale nie zawsze widać je z Polski."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia astrologiczne",
+  "articles": "Lista artykułów",
+  "faq": "Najczęstsze pytania",
+  "more": "Czytaj dalej"
+ }
+}

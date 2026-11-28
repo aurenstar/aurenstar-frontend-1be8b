@@ -1,0 +1,66 @@
+{
+ "lang": "vi",
+ "keyword": "cung mọc là gì",
+ "volume": 135000,
+ "slug": "cung-moc-la-gi-cach-tinh-cung-moc",
+ "date": "2026-11-27",
+ "title": "Cung mọc là gì? Cách tính cung mọc và ý nghĩa với bạn",
+ "description": "Cung mọc (Ascendant) là gì, cần thông tin gì để tính và ảnh hưởng thế nào đến ấn tượng ban đầu? Giải thích đơn giản, có ví dụ.",
+ "intro": "\"Mình là Bọ Cạp mà ai cũng bảo mình vui vẻ, dễ gần?\" Rất có thể là do cung mọc. Đây là cung tạo nên ấn tượng đầu tiên của bạn với người khác. Cùng tìm hiểu bằng ngôn ngữ dễ hiểu nhé.",
+ "sections": [
+  {
+   "h2": "Cung mọc là gì?",
+   "paragraphs": [
+    "Cung mọc là cung hoàng đạo đang mọc lên ở chân trời phía Đông đúng lúc bạn chào đời. Hãy hình dung như mặt trời mọc: mỗi thời điểm lại có một cung khác nhau xuất hiện, nên mỗi người có cung mọc riêng."
+   ]
+  },
+  {
+   "h2": "Cần những thông tin nào để tính?",
+   "paragraphs": [
+    "Bạn cần ba thứ: ngày sinh, giờ sinh (càng chính xác càng tốt, tốt nhất đến từng phút) và nơi sinh. Thứ hay thiếu nhất là giờ sinh, bạn có thể hỏi mẹ hoặc xem trong giấy khai sinh.",
+    "Cung mọc đổi khoảng hai tiếng một lần, nên lệch nửa tiếng cũng có thể ra kết quả khác."
+   ]
+  },
+  {
+   "h2": "Cách tự tra cung mọc",
+   "paragraphs": [
+    "Cách dễ nhất là dùng công cụ lập lá số miễn phí trên mạng: nhập ngày, giờ và nơi sinh, vài giây là có kết quả. Ví dụ Linh sinh ngày 8/3/1995 lúc 7 giờ 20 sáng tại Hà Nội, nhập vào là thấy cung mọc của mình.",
+    "Nhớ chọn đúng thành phố và múi giờ nhé."
+   ]
+  },
+  {
+   "h2": "Cung mọc ảnh hưởng gì đến bạn?",
+   "paragraphs": [
+    "Cung Mặt Trời giống như \"con người bên trong\", còn cung mọc giống \"bề ngoài\" và cách bạn phản ứng khi gặp điều mới. Ví dụ người có Mặt Trời Bọ Cạp, cung mọc Bạch Dương bên trong rất sâu sắc, kín đáo nhưng lần đầu gặp lại tỏ ra thẳng thắn, nhiệt tình.",
+    "Vì thế nhiều người thấy \"cung không giống mình\", đơn giản là họ mới chỉ xem cung Mặt Trời."
+   ]
+  },
+  {
+   "h2": "Lưu ý: chiêm tinh không phải khoa học",
+   "paragraphs": [
+    "Chiêm tinh là một truyền thống để suy ngẫm về bản thân, chưa được khoa học chứng minh, và không thay thế bác sĩ, luật sư hay chuyên gia tài chính. Với các quyết định quan trọng, hãy hỏi ý kiến người có chuyên môn."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Không biết giờ sinh có tính được cung mọc không?",
+   "a": "Bạn nên hỏi người thân hoặc xem giấy tờ. Nếu không có, chỉ nên tham khảo cung Mặt Trời, độ chính xác sẽ thấp hơn."
+  },
+  {
+   "q": "Cung mọc có thay đổi theo thời gian không?",
+   "a": "Không. Nó được xác định bởi khoảnh khắc sinh ra và giữ nguyên suốt đời."
+  },
+  {
+   "q": "Cung mặt trời và cung mọc, cái nào quan trọng hơn?",
+   "a": "Cả hai đều có ý nghĩa: cung Mặt Trời nói về bản chất, cung mọc nói về vẻ ngoài và ấn tượng đầu tiên."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ }
+}

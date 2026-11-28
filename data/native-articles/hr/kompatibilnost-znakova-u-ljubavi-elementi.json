@@ -1,0 +1,63 @@
+{
+ "lang": "hr",
+ "keyword": "ljubavna kompatibilnost znakova",
+ "volume": 60000,
+ "slug": "kompatibilnost-znakova-u-ljubavi-elementi",
+ "date": "2026-11-27",
+ "title": "Kompatibilnost znakova u ljubavi: vatra, zemlja, zrak i voda",
+ "description": "Koji se znakovi najbolje slažu u ljubavi? Jednostavno po elementima, uz dva primjera parova.",
+ "intro": "„Jesmo li Ana i Tomo uopće za jedno?“ To pitanje postavlja puno parova. Astrologija nudi jednostavan početak: pogledaj element svakog znaka.",
+ "sections": [
+  {
+   "h2": "Četiri elementa",
+   "paragraphs": [
+    "Dvanaest znakova podijeljeno je u četiri elementa. Vatra: Ovan, Lav, Strijelac. Zemlja: Bik, Djevica, Jarac. Zrak: Blizanci, Vaga, Vodenjak. Voda: Rak, Škorpion, Ribe."
+   ]
+  },
+  {
+   "h2": "Tko se s kim slaže?",
+   "paragraphs": [
+    "Isti elementi se obično dobro razumiju. Vatra i zrak se hrane: zrak pali vatru. Zemlja i voda se njeguju: voda daje vlagu zemlji. Vatra i voda ili zemlja i zrak često trebaju više strpljenja."
+   ]
+  },
+  {
+   "h2": "Primjer 1: Ana i Tomo",
+   "paragraphs": [
+    "Ana je Lav (vatra), a Tomo Vaga (zrak). Ona donosi energiju, a on ideje, pa im je zajedno lako planirati putovanja. Muči ih jedino to što Tomo teško odlučuje."
+   ]
+  },
+  {
+   "h2": "Primjer 2: Petra i Luka",
+   "paragraphs": [
+    "Petra je Škorpion (voda), Luka Jarac (zemlja). Ona osjeća dubinu, on daje sigurnost. Rijetko se svađaju, ali Petra mora naučiti govoriti na glas što osjeća."
+   ]
+  },
+  {
+   "h2": "Samo jedan od vodiča",
+   "paragraphs": [
+    "Elementi su samo okvir, a pravu vezu grade razgovor i poštovanje. Astrologija nije dokazana znanost i ne zamjenjuje stručnjaka, primjerice bračnog savjetnika, liječnika ili pravnika."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mogu li se vatra i voda voljeti?",
+   "a": "Mogu, treba im samo više strpljenja i razgovora."
+  },
+  {
+   "q": "Postoji li savršen par po znakovima?",
+   "a": "Ne, svaki par ima dobre i teške strane."
+  },
+  {
+   "q": "Trebam li gledati samo sunčev znak?",
+   "a": "Za bolju sliku pogledaj i Mjesec i ascendent, ali sve je to samo igra."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ }
+}

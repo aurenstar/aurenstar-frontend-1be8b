@@ -1,0 +1,63 @@
+{
+ "lang": "ca",
+ "keyword": "eclipsi de lluna",
+ "volume": 90000,
+ "slug": "eclipsi-de-lluna-que-es-i-quan-passa",
+ "date": "2026-11-27",
+ "title": "Eclipsi de lluna: què és, quan passa i què fa la gent",
+ "description": "Explicació senzilla de l'eclipsi lunar: per què passa, com veure'l i què fa la gent aquella nit, amb calma i sense por.",
+ "intro": "«Aquesta nit hi ha eclipsi de lluna, ens ho mirem des de la terrassa?» És un espectacle bonic, no un motiu de por. Ho expliquem amb paraules simples.",
+ "sections": [
+  {
+   "h2": "Què és un eclipsi de lluna?",
+   "paragraphs": [
+    "Passa quan la Terra se situa entre el Sol i la Lluna i la seva ombra cau sobre la Lluna. És com quan et poses entre una làmpada i la paret i la teva ombra es projecta al mur. La Lluna pot agafar un to vermellós o taronja."
+   ]
+  },
+  {
+   "h2": "Quan passa?",
+   "paragraphs": [
+    "L'eclipsi lunar només té lloc en lluna plena, unes quantes vegades l'any, però no en totes les llunes plenes. Es veu des de tots els llocs on la Lluna és sobre l'horitzó en aquell moment."
+   ]
+  },
+  {
+   "h2": "Com es pot veure?",
+   "paragraphs": [
+    "No calen ulleres especials: a diferència de l'eclipsi de sol, és segur per als ulls. Busca un lloc fosc, lluny de la llum de la ciutat, i mira a ull nu o amb uns prismàtics petits."
+   ]
+  },
+  {
+   "h2": "Què fa la gent aquesta nit?",
+   "paragraphs": [
+    "Molts es reuneixen amb la família i fan fotos de la Lluna. En astrologia, algunes persones ho veuen com un moment per tancar una etapa i pensar amb calma. Exemple: l'Arnau va apuntar tres coses que volia deixar enrere i després va dormir tranquil."
+   ]
+  },
+  {
+   "h2": "Un recordatori honest",
+   "paragraphs": [
+    "No hi ha cap prova científica que un eclipsi afecti la salut o la sort. No hi tinguis por ni prenguis grans decisions només per això. En temes de salut, legals o de diners, consulta un professional."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "L'eclipsi de lluna és perillós per a la vista?",
+   "a": "No, es pot mirar directament amb seguretat."
+  },
+  {
+   "q": "Per què la Lluna es torna vermella?",
+   "a": "Perquè la llum del Sol travessa l'atmosfera de la Terra i arriba a la Lluna amb to vermellós."
+  },
+  {
+   "q": "Quant dura?",
+   "a": "Tot el fenomen dura unes hores; la fase total, com a màxim una hora i mitja."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ }
+}

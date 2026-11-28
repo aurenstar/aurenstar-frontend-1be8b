@@ -1,0 +1,67 @@
+{
+ "lang": "sl",
+ "keyword": "ascendent izračun",
+ "volume": 135000,
+ "slug": "kako-izracunati-ascendent-na-spletu",
+ "date": "2026-11-27",
+ "title": "Kako izračunati ascendent: kaj je in kaj potrebujete",
+ "description": "Kaj je ascendent, katere podatke potrebujete za izračun (datum, uro in kraj rojstva) in kako vpliva na vaš značaj. Preprosto razloženo.",
+ "intro": "»Sem Bik, a sploh nisem podoben drugim Bikom ...« Poznano? Morda je krivec ascendent. Razložimo ga preprosto, brez zapletenih besed.",
+ "sections": [
+  {
+   "h2": "Kaj je ascendent",
+   "paragraphs": [
+    "Ascendent je znamenje zodiaka, ki je vzhajalo na vzhodu v trenutku vašega rojstva. Predstavljajte si sonce ob zori: vidimo ga na obzorju. Tu pa ne vzhaja sonce, ampak znamenje.",
+    "Če je znamenje po datumu vaša »notranjost«, je ascendent prvi vtis, ki ga naredite na ljudi."
+   ]
+  },
+  {
+   "h2": "Kaj potrebujete za izračun",
+   "paragraphs": [
+    "Potrebujete tri stvari: natančen datum rojstva, natančno uro (vsaj na 15 do 20 minut natančno) in kraj rojstva. Uro najdete v rojstnem listu ali vprašajte mamo.",
+    "Na primer: Nina se je rodila 12. maja ob 7.40 v Mariboru. Te podatke vpišete v brezplačen kalkulator in v sekundi dobite znamenje."
+   ]
+  },
+  {
+   "h2": "Zakaj sta ura in kraj pomembna",
+   "paragraphs": [
+    "Ascendent zamenja znamenje približno vsaki dve uri. Če se rodite eno uro prej, je lahko rezultat drugačen. Kraj je potreben, ker obzorje v Ljubljani in v Kopru ni povsem enako.",
+    "Če ure ne poznate, bo rezultat le približen. Raje jo najprej poiščite."
+   ]
+  },
+  {
+   "h2": "Kaj ascendent spremeni pri vašem značaju",
+   "paragraphs": [
+    "Pravijo, da ascendent pokaže, kako vstopate v novo družbo, kako se oblačite in kako vas vidijo sodelavci. Lev z ascendentom Devica je lahko navzven zadržan, v sebi pa gori.",
+    "Mnogi pravijo, da prav ascendent pojasni, zakaj »nisem tak, kot piše v horoskopu«."
+   ]
+  },
+  {
+   "h2": "Kaj si zapomniti",
+   "paragraphs": [
+    "Astrologija ni dokazana znanost in ne nadomešča zdravnika, odvetnika ali finančnega svetovalca. Ascendent vzemite kot zanimiv način, da se bolje spoznate, ne kot sodbo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ali lahko izračunam ascendent brez ure rojstva?",
+   "a": "Natančno ne. Lahko preizkusite možnosti, bolje pa je uro poiskati v rojstnem listu ali porodnišnici."
+  },
+  {
+   "q": "Ali moram računati ročno?",
+   "a": "Ne, dovolj je brezplačen spletni kalkulator: vnesete datum, uro in kraj."
+  },
+  {
+   "q": "Je ascendent pomembnejši od znamenja po datumu?",
+   "a": "Ni tekmovanje: znamenje kaže vaše jedro, ascendent pa to, kako vas vidijo drugi."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ }
+}

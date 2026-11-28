@@ -1,0 +1,64 @@
+{
+ "lang": "fr",
+ "keyword": "compatibilité signes astrologiques",
+ "volume": 60000,
+ "slug": "compatibilite-signes-amour-elements",
+ "date": "2026-11-27",
+ "title": "Compatibilité des signes en amour : feu, terre, air et eau",
+ "description": "Quels signes vont bien ensemble en amour ? Un guide simple par éléments, avec deux exemples de couples imaginaires.",
+ "intro": "« Lui est Scorpion, moi Gémeaux : est-ce que ça peut marcher ? » Beaucoup regardent les signes avant un premier rendez-vous. Voici une façon simple de s’y retrouver grâce aux éléments.",
+ "sections": [
+  {
+   "h2": "Les quatre éléments",
+   "paragraphs": [
+    "Feu : Bélier, Lion, Sagittaire. Terre : Taureau, Vierge, Capricorne. Air : Gémeaux, Balance, Verseau. Eau : Cancer, Scorpion, Poissons. Deux signes du même élément se comprennent souvent plus vite."
+   ]
+  },
+  {
+   "h2": "Quels éléments s’accordent ?",
+   "paragraphs": [
+    "Le feu et l’air s’attisent, comme le vent avec les flammes. La terre et l’eau se complètent, comme la pluie avec un jardin. Le feu avec l’eau, ou la terre avec l’air, demandent un peu plus de patience."
+   ]
+  },
+  {
+   "h2": "Exemple 1 : Camille et Théo",
+   "paragraphs": [
+    "Camille est Sagittaire (feu) et Théo Verseau (air). Ils partent en week-end sur un coup de tête et se lancent des idées sans cesse. Leur énergie se nourrit."
+   ]
+  },
+  {
+   "h2": "Exemple 2 : Léa et Hugo",
+   "paragraphs": [
+    "Léa est Cancer (eau) et Hugo Capricorne (terre). Hugo rassure et organise, Léa apporte de la douceur et de l’émotion. Ensemble, ils construisent un vrai foyer."
+   ]
+  },
+  {
+   "h2": "Un rappel honnête",
+   "paragraphs": [
+    "L’astrologie n’est pas une science prouvée. Un couple heureux repose sur le dialogue et le respect, pas seulement sur les signes. En cas de difficulté sérieuse, parlez à un conseiller conjugal ou à un psychologue."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Feu et eau, c’est impossible ?",
+   "a": "Non, mais cela demande plus d’écoute et de compromis."
+  },
+  {
+   "q": "Même élément, est-ce toujours mieux ?",
+   "a": "Pas toujours, mais le courant passe souvent plus vite."
+  },
+  {
+   "q": "Le signe solaire suffit-il ?",
+   "a": "Les astrologues regardent aussi la Lune et Vénus."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "FAQ",
+  "more": "Suite",
+  "dictionary": "Dictionnaire"
+ }
+}

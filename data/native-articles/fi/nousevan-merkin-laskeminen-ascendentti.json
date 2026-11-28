@@ -1,0 +1,64 @@
+{
+ "lang": "fi",
+ "keyword": "nousevan merkin laskeminen",
+ "volume": 135000,
+ "slug": "nousevan-merkin-laskeminen-ascendentti",
+ "date": "2026-11-27",
+ "title": "Nousevan merkin laskeminen: mikä ascendentti on ja mitä tarvitset",
+ "description": "Mikä on nousevan merkin eli ascendentin merkitys, mitä tietoja laskemiseen tarvitaan ja miten se näkyy tavassasi olla? Selkeästi ja esimerkein.",
+ "intro": "”Olen kyllä Kalat, mutta en ole yhtään sellainen kuin netissä sanotaan!” Syynä voi olla nouseva merkkisi. Tässä jutussa kerrotaan helposti, mikä se on ja miten se lasketaan.",
+ "sections": [
+  {
+   "h2": "Mikä nouseva merkki on?",
+   "paragraphs": [
+    "Nouseva merkki eli ascendentti on se tähtimerkki, joka nousi itäiselle taivaanrannalle syntymäsi hetkellä. Jos aurinkomerkki kertoo, millainen olet sisältä, nouseva merkki kertoo, millaisena muut sinut ensimmäiseksi näkevät."
+   ]
+  },
+  {
+   "h2": "Mitä tietoja tarvitset?",
+   "paragraphs": [
+    "Tarvitset kolme asiaa: syntymäpäivän, tarkan syntymäajan ja syntymäpaikan. Kellonaika on tärkein, sillä nouseva merkki vaihtuu noin kahden tunnin välein.",
+    "Esimerkki: Mikko syntyi Tampereella 3. maaliskuuta kello 7.15. Hänen kuvitteellinen ystävänsä syntyi samana päivänä kello 15, mutta hänellä on aivan eri nouseva merkki."
+   ]
+  },
+  {
+   "h2": "Mistä löydät syntymäajan?",
+   "paragraphs": [
+    "Katso äitiyskortista, vauvakirjasta tai synnytyssairaalan papereista. Kysy myös mummolta, hän muistaa usein kellonajan! Jos aikaa ei löydy, tulos on vain suuntaa antava."
+   ]
+  },
+  {
+   "h2": "Miten nouseva merkki näkyy?",
+   "paragraphs": [
+    "Sen sanotaan näkyvän ensivaikutelmassa: oletko rento, ujo, kiihkeä vai hillitty. Esimerkiksi Leijona-aurinko ja Rapu-nouseva voi vaikuttaa ulospäin lempeältä, vaikka sisällä on paljon tulta."
+   ]
+  },
+  {
+   "h2": "Rehellinen muistutus",
+   "paragraphs": [
+    "Astrologia ei ole tieteellisesti todistettua, ja se on tarkoitettu huviksi ja itsetutkiskeluun. Älä käytä sitä lääkärin, juristin tai talousneuvojan korvikkeena."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Onko nouseva merkki sama kuin tähtimerkki?",
+   "a": "Ei. Tähtimerkki yleensä tarkoittaa aurinkomerkkiä, nouseva merkki lasketaan kellonajasta ja paikasta."
+  },
+  {
+   "q": "Voiko sen laskea ilman kellonaikaa?",
+   "a": "Ei tarkasti. Voit vain kokeilla muutamaa vaihtoehtoa."
+  },
+  {
+   "q": "Vaikuttaako nykyinen asuinpaikka?",
+   "a": "Ei, vain syntymäpaikka on tärkeä."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ }
+}

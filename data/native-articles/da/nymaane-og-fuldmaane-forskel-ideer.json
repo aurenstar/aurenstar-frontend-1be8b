@@ -1,0 +1,64 @@
+{
+ "lang": "da",
+ "keyword": "nymåne og fuldmåne",
+ "volume": 40000,
+ "slug": "nymaane-og-fuldmaane-forskel-ideer",
+ "date": "2026-11-27",
+ "title": "Nymåne og fuldmåne: forskellen og 3 enkle ideer til hver",
+ "description": "Hvad er forskellen på nymåne og fuldmåne, hvad betyder de i astrologien, og hvad kan du gøre? 3 enkle ideer til hver.",
+ "intro": "“I aften er det fuldmåne, og jeg sov elendigt!” Mange kender det. Her får du forskellen på nymåne og fuldmåne, og hvad man kan gøre.",
+ "sections": [
+  {
+   "h2": "Forskellen",
+   "paragraphs": [
+    "Ved nymåne står Månen mellem Jorden og Solen, og vi kan ikke se den. Ved fuldmåne står Jorden mellem dem, og Månen lyser helt rund. Der er cirka fjorten dage mellem dem."
+   ]
+  },
+  {
+   "h2": "Hvad betyder nymånen?",
+   "paragraphs": [
+    "Nymånen er et nyt begyndelsespunkt. I astrologien bruger man den til at sætte mål og starte noget nyt, ligesom man starter en ny kalenderside."
+   ]
+  },
+  {
+   "h2": "3 ideer til nymåne",
+   "paragraphs": [
+    "1. Skriv tre ønsker for den kommende måned. 2. Ryd op i skrivebordet eller i telefonen. 3. Start en lille ny vane, f.eks. en gåtur hver aften.",
+    "Eksempel: Ida skriver, at hun vil ringe til sin mormor hver søndag."
+   ]
+  },
+  {
+   "h2": "Hvad betyder fuldmånen, og 3 ideer?",
+   "paragraphs": [
+    "Fuldmånen er højdepunktet, hvor tingene bliver synlige og følelserne kan fylde. Man bruger den til at se tilbage og slippe. Ideer: 1. Skriv, hvad du er taknemmelig for. 2. Gå en tur i måneskin. 3. Giv slip på en ting, der ikke tjener dig mere."
+   ]
+  },
+  {
+   "h2": "Månen og videnskab",
+   "paragraphs": [
+    "Der er ingen sikker dokumentation for, at Månen styrer humør eller søvn. Astrologi er en tradition, ikke en videnskab, og den erstatter ikke læge, advokat eller økonomisk rådgiver."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvor ofte er der nymåne?",
+   "a": "Cirka hver 29. dag."
+  },
+  {
+   "q": "Påvirker fuldmånen søvnen?",
+   "a": "Nogle oplever det, men beviserne er svage. Mere lys i soveværelset kan dog virke forstyrrende."
+  },
+  {
+   "q": "Må jeg starte noget nyt ved fuldmåne?",
+   "a": "Ja, men astrologien ser nymåne som den bedste tid til nye ting."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ }
+}

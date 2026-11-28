@@ -1,0 +1,64 @@
+{
+ "lang": "id",
+ "keyword": "bulan baru dan bulan purnama",
+ "volume": 40000,
+ "slug": "bulan-baru-dan-bulan-purnama-bedanya",
+ "date": "2026-11-27",
+ "title": "Bulan Baru dan Bulan Purnama: Beda, Arti, dan 3 Ide untuk Masing-masing",
+ "description": "Apa bedanya bulan baru dan bulan purnama, apa artinya, dan apa yang bisa kamu lakukan? Sederhana, dengan ide praktis.",
+ "intro": "“Hari ini bulan baru, yuk mulai sesuatu!” ajak Maya ke temannya. Yuk kita bahas artinya tanpa ribet.",
+ "sections": [
+  {
+   "h2": "Apa itu bulan baru?",
+   "paragraphs": [
+    "Saat bulan baru, Bulan berada di antara Bumi dan Matahari sehingga tidak terlihat. Dalam astrologi, ini awal siklus, seperti halaman kosong."
+   ]
+  },
+  {
+   "h2": "3 ide untuk bulan baru",
+   "paragraphs": [
+    "1. Tulis tiga harapan untuk bulan depan. 2. Mulai kebiasaan kecil, misalnya jalan pagi. 3. Rapikan satu lemari atau laci."
+   ]
+  },
+  {
+   "h2": "Apa itu bulan purnama?",
+   "paragraphs": [
+    "Saat purnama, Bumi berada di antara Matahari dan Bulan sehingga Bulan terlihat bulat penuh. Astrologi mengaitkannya dengan puncak, emosi, dan penyelesaian. Sebagian orang merasa lebih gelisah."
+   ]
+  },
+  {
+   "h2": "3 ide untuk bulan purnama",
+   "paragraphs": [
+    "1. Berterima kasih atas pencapaianmu. 2. Tulis hal yang ingin kamu lepaskan. 3. Jalan sore atau lihat langit bareng orang tersayang."
+   ]
+  },
+  {
+   "h2": "Tetap realistis",
+   "paragraphs": [
+    "Tidak ada bukti ilmiah bahwa fase Bulan mengatur hidup atau suasana hati kita. Anggap saja pengingat manis untuk berencana dan berhenti sejenak. Astrologi tidak menggantikan dokter, pengacara, atau penasihat keuangan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Berapa lama satu siklus Bulan?",
+   "a": "Sekitar 29,5 hari dari satu bulan baru ke bulan baru berikutnya."
+  },
+  {
+   "q": "Harus melihat purnama langsung?",
+   "a": "Tidak harus, tapi lebih seru kalau dilihat."
+  },
+  {
+   "q": "Apakah purnama bikin susah tidur?",
+   "a": "Sebagian orang merasa begitu, tapi buktinya masih lemah."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca lagi",
+  "dictionary": "Kamus astrologi"
+ }
+}

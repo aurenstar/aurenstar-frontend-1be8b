@@ -1,0 +1,66 @@
+{
+ "lang": "es",
+ "keyword": "eclipse lunar",
+ "volume": 90000,
+ "slug": "eclipse-lunar-que-es-y-que-hace-la-gente",
+ "date": "2026-11-27",
+ "title": "Eclipse lunar: qué es y qué hace la gente ese día",
+ "description": "¿Qué es un eclipse lunar, cuándo ocurre y qué hace la gente ese día? Explicado con calma y sin miedo.",
+ "intro": "“¡Esta noche la luna se pone roja!” Quizá tu vecino ya sacó los binoculares a la terraza. Aquí tienes la explicación del eclipse lunar, sin miedo y sin tecnicismos.",
+ "sections": [
+  {
+   "h2": "¿Qué es un eclipse lunar?",
+   "paragraphs": [
+    "En un eclipse lunar, la Tierra se coloca justo entre el Sol y la Luna. La sombra de la Tierra cae sobre la Luna, que se oscurece y a menudo se vuelve rojiza. Por eso se le llama también “luna de sangre”."
+   ]
+  },
+  {
+   "h2": "¿Cuándo ocurre?",
+   "paragraphs": [
+    "Solo en luna llena, y no en todas. Cada año hay al menos dos eclipses lunares en el mundo, pero no todos se ven desde España o Latinoamérica. Hace falta que la Luna esté sobre el horizonte y el cielo despejado.",
+    "A diferencia del eclipse solar, no necesitas gafas especiales. Se puede mirar a simple vista."
+   ]
+  },
+  {
+   "h2": "¿Qué dice la astrología?",
+   "paragraphs": [
+    "Para la astrología, un eclipse lunar marca un momento en que algo termina o las emociones salen a la superficie. Se dice que ayuda a soltar lo viejo."
+   ]
+  },
+  {
+   "h2": "¿Qué hace la gente ese día?",
+   "paragraphs": [
+    "La mayoría hace algo tranquilo: dar un paseo, encender una vela, escribir lo que quiere dejar atrás u ordenar la casa. Otros simplemente miran el cielo con amigos o con la familia.",
+    "Ejemplo: Carlos sube a la azotea con un café, ve la luna roja y decide dejar de postergar una conversación pendiente con su hermano."
+   ]
+  },
+  {
+   "h2": "Con calma y sentido crítico",
+   "paragraphs": [
+    "No hay pruebas científicas de que un eclipse lunar cambie tu vida. Es un espectáculo natural precioso, no un peligro. Además, la astrología no sustituye al médico, al abogado ni al asesor financiero."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Es peligroso un eclipse lunar?",
+   "a": "No, es totalmente inofensivo y se ve a simple vista."
+  },
+  {
+   "q": "¿Por qué la luna se ve roja?",
+   "a": "La atmósfera de la Tierra desvía luz roja hacia la Luna, como en un atardecer."
+  },
+  {
+   "q": "¿Cada cuánto hay eclipses lunares?",
+   "a": "Al menos dos veces al año en el mundo, aunque no todos se ven desde tu país."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratis",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario"
+ }
+}

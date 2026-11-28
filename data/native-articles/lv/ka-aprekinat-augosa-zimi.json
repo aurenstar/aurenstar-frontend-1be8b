@@ -1,0 +1,68 @@
+{
+ "lang": "lv",
+ "keyword": "augošā zīme",
+ "volume": 135000,
+ "slug": "ka-aprekinat-augosa-zimi",
+ "date": "2026-11-27",
+ "title": "Augošā zīme: kā to aprēķināt un ko tā nozīmē",
+ "description": "Kas ir augošā zīme (askendents), kas vajadzīgs tās aprēķināšanai un kā tā ietekmē pirmo iespaidu. Vienkārši un ar piemēriem.",
+ "intro": "„Zinu, ka esmu Lauva, bet kas tā augošā zīme?“ jautā Laura no Rīgas. Viņa dzimusi agrā rītā un brīnījās, kāpēc svešinieki viņu uzskata par mierīgu, lai gan iekšēji viņa ir kā vētra. Paskaidrošu bez sarežģītiem vārdiem.",
+ "sections": [
+  {
+   "h2": "Kas ir augošā zīme?",
+   "paragraphs": [
+    "Tā ir zodiaka zīme, kas tavā dzimšanas brīdī cēlās austrumu apvārsnī. Vienkāršāk sakot, tā ir austrumu debesu daļa tavā dzimšanas brīdī.",
+    "Tāpēc diviem cilvēkiem, kas dzimuši vienā dienā, bet dažādā laikā, augošā zīme var atšķirties."
+   ]
+  },
+  {
+   "h2": "Kas vajadzīgs aprēķinam",
+   "paragraphs": [
+    "Vajag trīs lietas: dzimšanas datumu, precīzu dzimšanas laiku un dzimšanas pilsētu. Pilsēta ir svarīga, jo katrā vietā austrumu apvārsnis izskatās citādi.",
+    "Laiku var atrast dzimšanas apliecībā vai pajautāt vecākiem. Pat 30 minūšu kļūda var mainīt rezultātu."
+   ]
+  },
+  {
+   "h2": "Kā to aprēķināt",
+   "paragraphs": [
+    "Rokām rēķināt ir sarežģīti, tāpēc lielākā daļa izmanto bezmaksas kalkulatoru: ievadi datumu, laiku un pilsētu, un rezultāts ir pēc dažām sekundēm.",
+    "Ja esi dzimis Latvijā, pārbaudi, vai kalkulators ņem vērā vasaras laiku un agrāko gadu laika joslas."
+   ]
+  },
+  {
+   "h2": "Ko tā maina tavā izturēšanās veidā",
+   "paragraphs": [
+    "Saules zīmi bieži saista ar to, kāds tu esi iekšēji, bet augošo zīmi ar to, kā tu izskaties citiem. Piemēram, Saule Lauvā un augošā Jaunava: iekšēji drosmīgs, bet no ārpuses kārtīgs un atturīgs.",
+    "To saista arī ar pirmo reakciju jaunā situācijā un stilu."
+   ]
+  },
+  {
+   "h2": "Godīgi par astroloģiju",
+   "paragraphs": [
+    "Astroloģija nav zinātniski pierādīta, tā ir izklaide un pašizziņas rīks.",
+    "Veselības, tiesību vai finanšu jautājumus risini ar ārstu, juristu vai finanšu konsultantu, nevis pēc zvaigznēm."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ko darīt, ja nezinu dzimšanas laiku?",
+   "a": "Pajautā tuviniekiem vai paskaties dokumentos. Ja neizdodas, augošo zīmi precīzi nevar noteikt, un pietiek ar Saules zīmi."
+  },
+  {
+   "q": "Kas svarīgāks: Saules vai augošā zīme?",
+   "a": "Neviena nav svarīgāka, tās rāda dažādas puses: iekšieni un pirmo iespaidu."
+  },
+  {
+   "q": "Vai augošā zīme mainās?",
+   "a": "Nē, tā paliek tāda pati visu mūžu."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ }
+}

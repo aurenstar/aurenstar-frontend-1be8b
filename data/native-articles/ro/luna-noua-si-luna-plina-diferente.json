@@ -1,0 +1,65 @@
+{
+ "lang": "ro",
+ "keyword": "luna nouă și luna plină",
+ "volume": 40000,
+ "slug": "luna-noua-si-luna-plina-diferente",
+ "date": "2026-11-27",
+ "title": "Luna nouă și Luna plină: diferența și câte 3 idei pentru fiecare",
+ "description": "Care e diferența dintre Luna nouă și Luna plină și ce poți face în fiecare fază? Câte trei idei simple.",
+ "intro": "„E Lună plină, iar n-am dormit!” Mulți au zis-o. Dar ce înseamnă, de fapt, Luna nouă și Luna plină? Explicăm simplu.",
+ "sections": [
+  {
+   "h2": "Care e diferența?",
+   "paragraphs": [
+    "La Luna nouă, Luna se află între Pământ și Soare și nu se vede. La Luna plină, Pământul e la mijloc, iar Luna e complet luminată. Ciclul se repetă la aproximativ 29 de zile."
+   ]
+  },
+  {
+   "h2": "Luna nouă: un nou început",
+   "paragraphs": [
+    "În astrologie, Luna nouă e momentul potrivit pentru a începe ceva și a-ți alege intențiile."
+   ]
+  },
+  {
+   "h2": "3 idei pentru Luna nouă",
+   "paragraphs": [
+    "1. Scrie trei dorințe sau scopuri. 2. Începe un obicei mic, de exemplu zece minute de mers pe jos pe zi. 3. Fă ordine într-un sertar sau într-un colț din casă.",
+    "Exemplu: Alina notează că vrea să citească mai mult și pune imediat o carte pe noptieră."
+   ]
+  },
+  {
+   "h2": "Luna plină: încheiere și eliberare",
+   "paragraphs": [
+    "La Luna plină iese totul la lumină. E un moment bun să vezi ce ai realizat și ce poți lăsa să plece.",
+    "3 idei: 1. Scrie pentru ce ești recunoscător sau recunoscătoare. 2. Fă o plimbare în lumina Lunii. 3. Trimite un mesaj frumos sau împacă-te cu cineva."
+   ]
+  },
+  {
+   "h2": "O precizare sinceră",
+   "paragraphs": [
+    "Astrologia nu este știință dovedită. Nu există dovezi că Luna îți influențează somnul sau dispoziția. Dacă ești bolnav sau îngrijorat, mergi la medic sau la un specialist."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cât de des e Luna nouă?",
+   "a": "Cam o dată pe lună, la fiecare 29–30 de zile."
+  },
+  {
+   "q": "Luna plină chiar îmi strică somnul?",
+   "a": "Studiile diferă. Mulți dorm mai agitat, dar dovezile sunt slabe."
+  },
+  {
+   "q": "Trebuie să fac ceva la Luna nouă?",
+   "a": "Nu, e opțional. Vezi-o ca pe un moment frumos de pauză."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ }
+}

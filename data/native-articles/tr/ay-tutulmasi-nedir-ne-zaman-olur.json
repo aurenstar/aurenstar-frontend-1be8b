@@ -1,0 +1,64 @@
+{
+ "lang": "tr",
+ "keyword": "ay tutulması",
+ "volume": 90000,
+ "slug": "ay-tutulmasi-nedir-ne-zaman-olur",
+ "date": "2026-11-27",
+ "title": "Ay Tutulması Nedir? Ne Zaman Olur, İnsanlar Ne Yapar?",
+ "description": "Ay tutulması nedir, ne zaman olur ve o gece insanlar neler yapar? Korkmadan, sade bir dille anlatıyoruz.",
+ "intro": "“Bu akşam ay tutulması varmış, dışarı çıkılır mı?” Aile grubunda sık sorulan sorulardan biri. Sakin ve sade bir anlatım şöyle.",
+ "sections": [
+  {
+   "h2": "Ay tutulması nedir?",
+   "paragraphs": [
+    "Güneş, Dünya ve Ay aynı doğru üzerine geldiğinde Dünya’nın gölgesi Ay’ın üzerine düşer. Dolunay bir süre kararır, bazen kızıl bir renge bürünür."
+   ]
+  },
+  {
+   "h2": "Ne zaman olur?",
+   "paragraphs": [
+    "Her zaman dolunay gecesinde olur ve yılda ortalama iki kez görülebilir. Gökyüzü açıksa çıplak gözle izlemek güvenlidir; güneş tutulmasındaki gibi özel gözlük gerekmez."
+   ]
+  },
+  {
+   "h2": "Astroloji ne diyor?",
+   "paragraphs": [
+    "Astrolojide tutulmalar değişimin ve kapanışın işareti sayılır. Eski alışkanlıkları bırakıp hayatı gözden geçirmek için iyi bir an olarak yorumlanır."
+   ]
+  },
+  {
+   "h2": "O gece insanlar ne yapar?",
+   "paragraphs": [
+    "Kimi kişi meditasyon yapar, kimi dua eder, çoğu da balkona çıkıp çayını alarak Ay’ı seyreder. Bazı ailelerde eski inanışlar da yaşatılır.",
+    "Örnek: İzmir’de yaşayan Hakan, çocuklarıyla balkonda oturup Ay’ın kızıla dönüşünü izledi. Çocuklar için güzel bir uzay dersi oldu."
+   ]
+  },
+  {
+   "h2": "Korkmaya gerek yok",
+   "paragraphs": [
+    "Ay tutulması doğal bir gök olayıdır ve kimseye zarar verdiğine dair bilimsel bir kanıt yoktur. Astroloji bilimsel olarak kanıtlanmış değildir. Sağlık, hukuk veya para konularında doktora ya da uzmana danışın."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ay tutulması çıplak gözle izlenir mi?",
+   "a": "Evet, güvenlidir; güneş tutulmasından farklıdır."
+  },
+  {
+   "q": "Ay tutulması ne zaman olur?",
+   "a": "Yalnızca dolunay gecelerinde."
+  },
+  {
+   "q": "Hamileler için tehlikeli mi?",
+   "a": "Bu bir halk inanışıdır, bilimsel dayanağı yoktur. Aklınıza takılan olursa doktorunuza sorun."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz araçlar",
+  "articles": "Makaleler",
+  "faq": "Sık sorulan sorular",
+  "more": "Makaleyi oku"
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "lang": "sk",
+ "keyword": "zatmenie mesiaca",
+ "volume": 90000,
+ "slug": "mesacne-zatmenie-co-to-je-a-kedy-nastava",
+ "date": "2026-11-27",
+ "title": "Zatmenie Mesiaca: čo to je, kedy nastáva a čo ľudia robia",
+ "description": "Čo je zatmenie Mesiaca, prečo vzniká a čo ľudia v tieto dni robia. Pokojné vysvetlenie bez strachu.",
+ "intro": "„Zajtra je zatmenie Mesiaca, hovoria, že sa nemá nič začínať!“ Pokojne. Pozrime sa, čo to naozaj je a ako sa k nemu ľudia správajú.",
+ "sections": [
+  {
+   "h2": "Čo je zatmenie Mesiaca",
+   "paragraphs": [
+    "Zatmenie Mesiaca nastane, keď sa Zem postaví presne medzi Slnko a Mesiac a zakryje ho svojím tieňom. Mesiac vtedy často zružovie alebo zčervenie, preto sa mu hovorí „krvavý“, hoci to nie je nič strašné.",
+    "Je to ako keď sa postavíte medzi lampu a stenu: na stene vidno váš tieň."
+   ]
+  },
+  {
+   "h2": "Kedy nastáva",
+   "paragraphs": [
+    "Zatmenie Mesiaca nastáva vždy pri splne, dva-trikrát do roka, no nie je vidno z každej krajiny. Presný čas si pozrite v astronomickom kalendári pre vaše mesto.",
+    "Dá sa naň pozerať bezpečne voľným okom, na rozdiel od zatmenia Slnka."
+   ]
+  },
+  {
+   "h2": "Čo hovorí astrológia",
+   "paragraphs": [
+    "V astrológii sa zatmenia považujú za čas „reštartu“: staré témy sa uzatvárajú a vznikajú nové. Hovorí sa, že emócie sú v týchto dňoch silnejšie.",
+    "Je to tradícia, nie dokázaný fakt. Berte ju ako dôvod zastaviť sa a popremýšľať."
+   ]
+  },
+  {
+   "h2": "Čo ľudia robia v tieto dni",
+   "paragraphs": [
+    "Niekto si vyjde na balkón a pozerá na oblohu. Iný si zapíše, čoho sa chce zbaviť, alebo odloží veľký nákup o pár dní.",
+    "Napríklad Jana si v deň zatmenia uvarila čaj, vypla telefón a spísala veci, ktoré chce konečne dokončiť. Pokojne a užitočne."
+   ]
+  },
+  {
+   "h2": "Bez strachu a bez povier",
+   "paragraphs": [
+    "Samotné zatmenie nič zlé neprináša. Astrológia nie je dokázaná veda a nenahrádza lekára, právnika ani finančného poradcu, preto dôležité rozhodnutia robte s chladnou hlavou."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je nebezpečné pozerať sa na zatmenie Mesiaca?",
+   "a": "Nie, dá sa naň pozerať bez ochrany, je to bezpečné."
+  },
+  {
+   "q": "Ako dlho zatmenie Mesiaca trvá?",
+   "a": "Zvyčajne niekoľko hodín, úplná fáza trvá približne hodinu."
+  },
+  {
+   "q": "Je pravda, že v deň zatmenia sa nemá nič začínať?",
+   "a": "Je to ľudová povera, nie pravidlo. Len sa neponáhľajte s dôležitými rozhodnutiami."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ }
+}

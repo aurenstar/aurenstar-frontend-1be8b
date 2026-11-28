@@ -1,0 +1,65 @@
+{
+ "lang": "pl",
+ "keyword": "nów i pełnia księżyca",
+ "volume": 40000,
+ "slug": "nowiu-i-pelnia-ksiezyca-roznice",
+ "date": "2026-11-27",
+ "title": "Nów i pełnia Księżyca: różnica i po 3 pomysły na każdą fazę",
+ "description": "Czym różni się nów od pełni Księżyca i co można wtedy robić? Po trzy proste pomysły na każdą fazę.",
+ "intro": "„Pełnia, znowu źle śpię!” Wiele osób to zna. Ale co naprawdę oznaczają nów i pełnia? Wyjaśniamy to prosto.",
+ "sections": [
+  {
+   "h2": "Na czym polega różnica?",
+   "paragraphs": [
+    "W nowiu Księżyc stoi między Ziemią a Słońcem i go nie widać. W pełni to Ziemia jest pośrodku, a Księżyc jest w całości oświetlony. Zmienia się to mniej więcej co 29 dni."
+   ]
+  },
+  {
+   "h2": "Nów: świeży początek",
+   "paragraphs": [
+    "W astrologii nów to czas na rozpoczynanie nowych rzeczy i wyznaczanie intencji."
+   ]
+  },
+  {
+   "h2": "3 pomysły na nów",
+   "paragraphs": [
+    "1. Zapisz trzy życzenia lub cele. 2. Zacznij małą rutynę, np. dziesięć minut spaceru dziennie. 3. Uporządkuj jedną szufladę albo kąt w domu.",
+    "Przykład: Agata zapisuje, że chce więcej czytać, i od razu kładzie książkę na stoliku nocnym."
+   ]
+  },
+  {
+   "h2": "Pełnia: zamykanie i puszczanie",
+   "paragraphs": [
+    "W pełni wszystko wychodzi na jaw. To dobry czas, by zobaczyć, co się udało i co możesz puścić.",
+    "3 pomysły: 1. Zapisz, za co jesteś wdzięczna lub wdzięczny. 2. Idź na spacer w świetle Księżyca. 3. Napisz do kogoś miłą wiadomość albo zakończ kłótnię."
+   ]
+  },
+  {
+   "h2": "Uczciwa uwaga",
+   "paragraphs": [
+    "Astrologia nie jest udowodnioną nauką. Nie wykazano wpływu Księżyca na sen czy nastrój. Jeśli źle się czujesz lub masz zmartwienia, porozmawiaj z lekarzem lub specjalistą."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak często jest nów?",
+   "a": "Mniej więcej raz w miesiącu, co 29–30 dni."
+  },
+  {
+   "q": "Czy pełnia naprawdę wpływa na sen?",
+   "a": "Badania są niejednoznaczne. Wiele osób śpi gorzej, ale dowody są słabe."
+  },
+  {
+   "q": "Czy muszę coś robić w nów?",
+   "a": "Nie, to całkowicie dobrowolne. Potraktuj to jako miły moment na chwilę zatrzymania."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia astrologiczne",
+  "articles": "Lista artykułów",
+  "faq": "Najczęstsze pytania",
+  "more": "Czytaj dalej"
+ }
+}

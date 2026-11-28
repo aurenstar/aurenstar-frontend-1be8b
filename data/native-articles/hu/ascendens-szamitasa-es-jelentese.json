@@ -1,0 +1,65 @@
+{
+ "lang": "hu",
+ "keyword": "ascendens számítás",
+ "volume": 135000,
+ "slug": "ascendens-szamitasa-es-jelentese",
+ "date": "2026-11-27",
+ "title": "Ascendens számítása: mi ez és mit árul el rólad?",
+ "description": "Mi az ascendens, mire van szükség a számításhoz (születési dátum, óra és város), és hogyan hat a viselkedésedre. Egyszerűen elmagyarázva.",
+ "intro": "„A napjegyem Kos, mégsem hasonlítok rá.“ Ennek oka lehet az ascendens. Nézzük meg, mi ez, nehéz szavak nélkül.",
+ "sections": [
+  {
+   "h2": "Mi az ascendens?",
+   "paragraphs": [
+    "Az ascendens az a jegy, amely a születésed pillanatában a keleti horizonton emelkedett. Olyan, mint a napfelkelte, csak a te életed kezdetén. Gyakran „maszknak” hívják, mert ezt látják meg rólad először a többiek."
+   ]
+  },
+  {
+   "h2": "Mire van szükséged?",
+   "paragraphs": [
+    "Három adat kell: a születési dátum, a pontos időpont és a város. Az óra a legfontosabb, mert az ascendens körülbelül kétóránként vált jegyet. Az időpontot általában a születési anyakönyvi kivonat vagy a szüleid tudják.",
+    "Példa: Kata Budapesten 6:10-kor született, ikertestvére 8:40-kor. Ugyanaz a nap, de más az ascendensük."
+   ]
+  },
+  {
+   "h2": "Hogyan számold ki?",
+   "paragraphs": [
+    "Kézzel bonyolult, mert csillagidő és földrajzi szélesség is kell hozzá. A legegyszerűbb egy ingyenes online kalkulátor: beírod az adatokat, és másodpercek alatt megkapod az eredményt.",
+    "Ha nem ismered az időpontot, az eredmény pontatlan lehet."
+   ]
+  },
+  {
+   "h2": "Mit változtat a viselkedéseden?",
+   "paragraphs": [
+    "A napjegy azt mutatja, ki vagy belül, az ascendens pedig azt, hogyan látnak mások és hogyan reagálsz új helyzetekben. Gábor napjegye Rák, visszahúzódó, de Oroszlán ascendense miatt egy bulin magabiztosnak tűnik."
+   ]
+  },
+  {
+   "h2": "Ne vedd túl komolyan",
+   "paragraphs": [
+    "Az asztrológia nem bizonyított tudomány, és nem helyettesíti az orvost, az ügyvédet vagy a pénzügyi tanácsadót. Használd ötletnek az önismerethez, ne szabálynak."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kiszámolható az ascendens időpont nélkül?",
+   "a": "Pontosan nem. Érdemes megnézni a születési anyakönyvi kivonatot."
+  },
+  {
+   "q": "Ugyanaz az ascendens és a napjegy?",
+   "a": "Nem. A napjegy a dátumtól, az ascendens az időponttól és a helytől függ."
+  },
+  {
+   "q": "Milyen gyakran vált jegyet az ascendens?",
+   "a": "Nagyjából kétóránként."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ }
+}

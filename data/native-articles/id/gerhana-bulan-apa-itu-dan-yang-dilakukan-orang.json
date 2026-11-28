@@ -1,0 +1,64 @@
+{
+ "lang": "id",
+ "keyword": "gerhana bulan",
+ "volume": 90000,
+ "slug": "gerhana-bulan-apa-itu-dan-yang-dilakukan-orang",
+ "date": "2026-11-27",
+ "title": "Gerhana Bulan: apa itu, kapan terjadi, dan apa yang orang lakukan",
+ "description": "Apa itu gerhana bulan, kenapa terjadi, dan apa yang biasa dilakukan orang saat itu? Penjelasan santai tanpa rasa takut.",
+ "intro": "“Nanti malam bulannya jadi merah, lho!” kata Bu Ratna sambil mengajak tetangga nongkrong di teras. Gerhana bulan itu tontonan indah, bukan sesuatu yang perlu ditakuti.",
+ "sections": [
+  {
+   "h2": "Apa itu gerhana bulan?",
+   "paragraphs": [
+    "Gerhana bulan terjadi saat Bumi berada tepat di antara Matahari dan Bulan. Bayangan Bumi menutupi Bulan sehingga tampak gelap atau kemerahan. Bulannya sendiri tidak kenapa-kenapa, hanya sedang berada di bayangan."
+   ]
+  },
+  {
+   "h2": "Kapan terjadi?",
+   "paragraphs": [
+    "Gerhana bulan hanya terjadi saat bulan purnama, dan beberapa kali dalam setahun. Kamu bisa melihatnya dengan mata telanjang tanpa kacamata khusus, asalkan Bulan ada di atas langit tempatmu."
+   ]
+  },
+  {
+   "h2": "Kata astrologi",
+   "paragraphs": [
+    "Dalam astrologi, gerhana dianggap waktu untuk menutup satu bab dan memulai yang baru. Katanya hal-hal yang selama ini kita sembunyikan jadi terlihat, sehingga banyak orang memakainya untuk merenung."
+   ]
+  },
+  {
+   "h2": "Apa yang biasa dilakukan orang?",
+   "paragraphs": [
+    "Kebanyakan orang cuma menikmati langit bersama keluarga. Ada juga yang menulis hal yang ingin dilepaskan, jalan santai, atau meditasi. Contohnya Dewi menulis tiga kebiasaan buruk yang ingin ditinggalkan lalu menyimpannya di laci."
+   ]
+  },
+  {
+   "h2": "Tetap tenang dan realistis",
+   "paragraphs": [
+    "Gerhana bulan tidak berbahaya, dan mitos seperti ibu hamil tidak boleh keluar rumah tidak ada dasar ilmiahnya. Astrologi bukan ilmu pasti dan tidak menggantikan dokter, pengacara, atau penasihat keuangan. Nikmati saja pemandangannya."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Apakah aman melihat gerhana bulan?",
+   "a": "Aman. Beda dengan gerhana matahari, gerhana bulan boleh dilihat langsung."
+  },
+  {
+   "q": "Kenapa bulan jadi merah?",
+   "a": "Atmosfer Bumi membelokkan cahaya merah ke Bulan, seperti warna langit saat matahari terbenam."
+  },
+  {
+   "q": "Berapa kali terjadi dalam setahun?",
+   "a": "Biasanya sekitar dua kali, tapi tidak selalu terlihat dari Indonesia."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca lagi",
+  "dictionary": "Kamus astrologi"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "lang": "da",
+ "keyword": "hvordan finder jeg min ascendant",
+ "volume": 135000,
+ "slug": "ascendant-hvad-er-det-beregn-den",
+ "date": "2026-11-27",
+ "title": "Ascendant: hvad er det, og hvordan finder du din? Enkel guide",
+ "description": "Hvad er din ascendant, hvad skal du bruge for at beregne den, og hvad siger den om dig? Forklaret enkelt med et eksempel.",
+ "intro": "“Jeg er Løve, men jeg kender slet ikke mig selv i beskrivelsen.” Måske skyldes det din ascendant. Her får du forklaringen uden svære ord.",
+ "sections": [
+  {
+   "h2": "Hvad er en ascendant?",
+   "paragraphs": [
+    "Din ascendant er det stjernetegn, der steg op over horisonten i øst i det øjeblik, du blev født. Man kalder den også dit opstigende tegn. Tænk på den som den dør, andre går igennem, når de møder dig."
+   ]
+  },
+  {
+   "h2": "Hvad skal du bruge for at finde den?",
+   "paragraphs": [
+    "Du skal bruge tre ting: din fødselsdato, det nøjagtige klokkeslæt og fødestedet. Klokkeslættet står ofte i barnets sundhedskort eller på fødselsattesten, og ellers kan din mor eller far måske huske det.",
+    "Fødebyen betyder noget, fordi horisonten ser forskellig ud fra Aalborg og fra Nuuk. Ascendanten skifter tegn cirka hver anden time, så selv et kvarters forskel kan give et andet resultat."
+   ]
+  },
+  {
+   "h2": "Sådan beregner du den",
+   "paragraphs": [
+    "Det nemmeste er at taste data ind i et gratis fødselshoroskop på nettet. Du får et skema, hvor ascendanten står markeret som ASC. Selv at regne den ud kræver stjernetid og tabeller, og det er unødvendigt i dag."
+   ]
+  },
+  {
+   "h2": "Hvad ændrer den i din personlighed?",
+   "paragraphs": [
+    "Solens tegn viser, hvem du er indeni. Ascendanten viser, hvordan du virker udadtil: din stil, dit første indtryk og din måde at gå ind i et rum på.",
+    "Eksempel: Mette er Skytte, men har Stenbuk som ascendant. Indeni er hun eventyrlysten, men kollegerne oplever hende som rolig, ordentlig og pålidelig."
+   ]
+  },
+  {
+   "h2": "Husk: det er ikke videnskab",
+   "paragraphs": [
+    "Astrologi er ikke videnskabeligt bevist, og en ascendant kan ikke afgøre, hvem du er. Brug den som en anledning til at tænke over dig selv, og spørg altid en læge, en advokat eller en økonomisk rådgiver, når beslutningerne er alvorlige."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kan jeg finde min ascendant uden fødselstidspunkt?",
+   "a": "Ikke præcist. Uden klokkeslæt kan man højst gætte, og derfor bør du først finde tidspunktet."
+  },
+  {
+   "q": "Er ascendanten vigtigere end solens tegn?",
+   "a": "Nej, de supplerer hinanden. Solen er kernen, ascendanten er facaden."
+  },
+  {
+   "q": "Skifter ascendanten hen over livet?",
+   "a": "Nej, den ligger fast fra fødslen."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ }
+}

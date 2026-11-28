@@ -1,0 +1,65 @@
+{
+ "lang": "et",
+ "keyword": "kuuvarjutus",
+ "volume": 90000,
+ "slug": "kuuvarjutus-mis-see-on-ja-mida-inimesed-teevad",
+ "date": "2026-11-27",
+ "title": "Kuuvarjutus: mis see on ja mida inimesed sellel päeval teevad?",
+ "description": "Mis on kuuvarjutus, millal see juhtub ja mida inimesed sel päeval teevad? Rahulik ja lihtne selgitus ilma hirmuta.",
+ "intro": "„Täna õhtul läheb Kuu punaseks!“ Võib-olla seisis naaber juba kaugkiikriga õues. Siin on kuuvarjutuse selgitus ilma hirmuta.",
+ "sections": [
+  {
+   "h2": "Mis on kuuvarjutus?",
+   "paragraphs": [
+    "Kuuvarjutuse ajal on Maa täpselt Päikese ja Kuu vahel. Maa vari langeb Kuule, mis muutub tumedamaks ja sageli punakaks. Seetõttu räägitakse ka „verekuust“."
+   ]
+  },
+  {
+   "h2": "Millal see juhtub?",
+   "paragraphs": [
+    "Ainult täiskuu ajal ja mitte igal täiskuul. Aastas on maailmas vähemalt kaks kuuvarjutust, kuid kõiki ei näe Eestist. Selleks peab Kuu olema horisondi kohal ja taevas selge.",
+    "Erinevalt päikesevarjutusest ei vaja sa erilisi prille. Kuuvarjutust võib vaadata palja silmaga."
+   ]
+  },
+  {
+   "h2": "Mida ütleb astroloogia?",
+   "paragraphs": [
+    "Astroloogias peetakse kuuvarjutust hetkeks, mil miski lõpeb või tunded tulevad pinnale. Öeldakse, et see aitab vana lahti lasta."
+   ]
+  },
+  {
+   "h2": "Mida inimesed sel päeval teevad?",
+   "paragraphs": [
+    "Enamik teeb midagi vaikset: jalutuskäik, küünla süütamine, kirja panemine, millest tahaks loobuda, või kodu korrastamine. Teised vaatavad lihtsalt sõpradega taevast.",
+    "Näide: Mart sõidab rattaga mere äärde, vaatab punast Kuud ja otsustab lõpetada vana halva harjumuse."
+   ]
+  },
+  {
+   "h2": "Rahulikult ja kriitiliselt",
+   "paragraphs": [
+    "Teaduslikku tõendit, et kuuvarjutus sinu elu mõjutab, ei ole. See on ilus loodusnähtus, mitte oht. Astroloogia ei asenda arsti, juristi ega finantsnõustajat."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas kuuvarjutus on ohtlik?",
+   "a": "Ei, see on täiesti ohutu ja nähtav palja silmaga."
+  },
+  {
+   "q": "Miks Kuu punaseks muutub?",
+   "a": "Maa atmosfäär suunab punast valgust Kuule, nagu päikeseloojangul."
+  },
+  {
+   "q": "Kui tihti kuuvarjutusi on?",
+   "a": "Maailmas vähemalt kaks korda aastas, kuid mitte kõiki ei näe Eestis."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ }
+}

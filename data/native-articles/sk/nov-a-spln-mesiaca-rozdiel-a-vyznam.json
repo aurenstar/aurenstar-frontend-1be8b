@@ -1,0 +1,66 @@
+{
+ "lang": "sk",
+ "keyword": "nov a spln",
+ "volume": 40000,
+ "slug": "nov-a-spln-mesiaca-rozdiel-a-vyznam",
+ "date": "2026-11-27",
+ "title": "Nov a spln Mesiaca: aký je rozdiel a čo robiť",
+ "description": "Čím sa líši nov od splnu, čo znamenajú v astrológii a po 3 jednoduché nápady pre každý z nich.",
+ "intro": "„Dnes je nov, ideálny čas na priania!“ Čo je to nov a ako sa líši od splnu? Vysvetlíme to jednoducho.",
+ "sections": [
+  {
+   "h2": "Aký je rozdiel",
+   "paragraphs": [
+    "Pri nove Mesiac na oblohe takmer nevidno: stojí medzi Zemou a Slnkom. Pri splne je okrúhly a jasný: Zem je medzi nimi.",
+    "Medzi týmito dňami je približne dva týždne a opakuje sa to každý mesiac."
+   ]
+  },
+  {
+   "h2": "Čo znamená nov",
+   "paragraphs": [
+    "V astrológii je nov časom „čistého listu“: začínať, plánovať, dávať si ciele. Ako prvý deň v novej práci alebo prvá strana zošita."
+   ]
+  },
+  {
+   "h2": "3 nápady pre nov",
+   "paragraphs": [
+    "1. Zapíšte si tri ciele na mesiac. 2. Upracte si pracovný stôl alebo telefón. 3. Začnite malý nový zvyk, napríklad večernú prechádzku.",
+    "Napríklad Eva si pri nove napísala „každý deň čítam 10 minút“ a o mesiac z toho bol zvyk."
+   ]
+  },
+  {
+   "h2": "Čo znamená spln a 3 nápady",
+   "paragraphs": [
+    "Spln je časom zhodnotenia a emócií: hovorí sa, že všetko „dozrieva“ a je viditeľnejšie. Mnohí v tieto dni horšie spia, nie je to nič vážne.",
+    "Nápady: 1. Zhodnoťte mesiac: čo sa podarilo. 2. Poďakujte ľuďom, ktorí vám pomohli. 3. Pustite nepotrebné: zmažte staré súbory alebo vyhoďte staré veci."
+   ]
+  },
+  {
+   "h2": "Nezabúdajte",
+   "paragraphs": [
+    "Astrológia nie je dokázaná veda a nenahrádza lekára, právnika ani finančného poradcu. Fázy Mesiaca sú dôvodom na pokojné rituály, nie na zmenu dôležitých rozhodnutí."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ako dlho trvá lunárny cyklus?",
+   "a": "Približne 29,5 dňa od jedného novu po ďalší."
+  },
+  {
+   "q": "Musím si v nove niečo priať?",
+   "a": "Nie. Je to len vhodný moment na zamyslenie sa nad plánmi."
+  },
+  {
+   "q": "Prečo sa pri splne zle spí?",
+   "a": "Niektorí ľudia to tvrdia, no vedeckých dôkazov je málo. Jasné svetlo Mesiaca môže spánok rušiť."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "lang": "tr",
+ "keyword": "yeni ay dolunay",
+ "volume": 40000,
+ "slug": "yeni-ay-dolunay-farki-3-fikir",
+ "date": "2026-11-27",
+ "title": "Yeni Ay ve Dolunay: Farkı, Anlamı ve 3+3 Basit Fikir",
+ "description": "Yeni ay ile dolunay arasındaki fark nedir, ne anlama gelir? Her biri için 3 basit fikirle sade anlatım.",
+ "intro": "“Bugün yeni ay, yeni bir şeye başlasam mı?” ya da “Dolunayda neden uyuyamıyorum?” Cevabı basit bir dille verelim.",
+ "sections": [
+  {
+   "h2": "Fark nedir?",
+   "paragraphs": [
+    "Yeni ayda Ay gökyüzünde görünmez, çünkü Güneş’e yakındır. Dolunayda ise yuvarlak ve parlak görünür. İkisi arasında yaklaşık 15 gün vardır."
+   ]
+  },
+  {
+   "h2": "Yeni ayın anlamı",
+   "paragraphs": [
+    "Astrolojide yeni ay başlangıçtır, tıpkı tohum ekmek gibi. Küçük bir niyet belirlemek için uygun bir zaman sayılır."
+   ]
+  },
+  {
+   "h2": "Yeni ay için 3 fikir",
+   "paragraphs": [
+    "1. Bu ay için küçük bir hedef yazın. 2. Evde ya da masanızda bir köşeyi toplayın. 3. Uzun zamandır görüşmediğiniz birini arayın."
+   ]
+  },
+  {
+   "h2": "Dolunay ve 3 fikir",
+   "paragraphs": [
+    "Dolunay hasat ve şükran zamanı sayılır. 1. Bu ay olan güzel şeyleri yazın. 2. Ailenizle balkondan Ay’a bakın. 3. Kırgınlıkları ya da artık kullanmadığınız eşyaları bırakın.",
+    "Örnek: Ankara’da yaşayan Ayşe Hanım her dolunayda bir bardak çay eşliğinde şükrettiği şeyleri defterine yazar."
+   ]
+  },
+  {
+   "h2": "Sakin kalın",
+   "paragraphs": [
+    "Ay’ın ruh halimizi veya şansımızı değiştirdiğine dair bilimsel kanıt yok. Astroloji kanıtlanmış bir bilim değildir; sadece bir hatırlatıcıdır. Sağlık, hukuk veya para konularında uzmana danışın."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Yeni ay ile dolunay arası kaç gün?",
+   "a": "Yaklaşık 15 gün."
+  },
+  {
+   "q": "Yeni ayda yeni bir şeye başlanır mı?",
+   "a": "Astrolojiye göre iyi bir başlangıç zamanıdır, ama karar sizindir."
+  },
+  {
+   "q": "Dolunayda uyku gerçekten kaçar mı?",
+   "a": "Bazı kişiler öyle hisseder ama net bir bilimsel kanıt yok."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz araçlar",
+  "articles": "Makaleler",
+  "faq": "Sık sorulan sorular",
+  "more": "Makaleyi oku"
+ }
+}

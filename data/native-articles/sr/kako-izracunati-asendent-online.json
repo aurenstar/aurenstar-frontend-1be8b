@@ -1,0 +1,67 @@
+{
+ "lang": "sr",
+ "keyword": "asendent kako izračunati",
+ "volume": 135000,
+ "slug": "kako-izracunati-asendent-online",
+ "date": "2026-11-27",
+ "title": "Kako izračunati asendent: šta je to i šta vam je potrebno",
+ "description": "Šta je asendent, koji podaci su potrebni za proračun (datum, sat i mesto rođenja) i kako utiče na vaš karakter. Jednostavno objašnjeno.",
+ "intro": "„Ja sam Bik, ali uopšte ne ličim na ostale Bikove...“ Poznato? Možda je razlog asendent. Objasnićemo ga jednostavno, bez teških reči.",
+ "sections": [
+  {
+   "h2": "Šta je asendent",
+   "paragraphs": [
+    "Asendent je znak zodijaka koji je izlazio na istoku u trenutku vašeg rođenja. Zamislite sunce u zoru: vidi se na horizontu. Ovde ne izlazi sunce, nego znak.",
+    "Ako je znak po datumu vaša „unutrašnjost“, asendent je prvi utisak koji ostavljate na ljude."
+   ]
+  },
+  {
+   "h2": "Šta vam je potrebno za proračun",
+   "paragraphs": [
+    "Potrebne su tri stvari: tačan datum rođenja, tačan sat (bar na 15 do 20 minuta) i mesto rođenja. Sat potražite u izvodu iz matične knjige rođenih ili pitajte mamu.",
+    "Na primer, Jelena je rođena 12. maja u 7.40 u Novom Sadu. Te podatke unesete u besplatan kalkulator i za sekundu dobijete znak."
+   ]
+  },
+  {
+   "h2": "Zašto su sat i mesto važni",
+   "paragraphs": [
+    "Asendent promeni znak otprilike na svaka dva sata. Ako ste rođeni sat ranije, rezultat može biti drugačiji. Mesto je potrebno jer horizont u Beogradu i u Nišu nije potpuno isti.",
+    "Ako ne znate sat, rezultat će biti samo okviran. Bolje je prvo saznati sat."
+   ]
+  },
+  {
+   "h2": "Šta asendent menja u vašem karakteru",
+   "paragraphs": [
+    "Kaže se da asendent pokazuje kako ulazite u novo društvo, kako se oblačite i kako vas vide kolege. Lav sa asendentom Devica može delovati suzdržano, a u sebi gori.",
+    "Mnogi kažu da baš asendent objašnjava zašto „nisam takav kakav piše u horoskopu“."
+   ]
+  },
+  {
+   "h2": "Šta zapamtiti",
+   "paragraphs": [
+    "Astrologija nije dokazana nauka i ne zamenjuje lekara, advokata ili finansijskog savetnika. Asendent shvatite kao zanimljiv način da bolje upoznate sebe, a ne kao presudu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Može li se asendent izračunati bez sata rođenja?",
+   "a": "Tačno ne. Možete probati varijante, ali je bolje da sat nađete u izvodu ili u porodilištu."
+  },
+  {
+   "q": "Moram li da računam ručno?",
+   "a": "Ne, dovoljan je besplatan onlajn kalkulator: unesete datum, sat i mesto."
+  },
+  {
+   "q": "Da li je asendent važniji od znaka po datumu?",
+   "a": "Nije takmičenje: znak pokazuje vaše jezgro, a asendent kako vas vide drugi."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ }
+}

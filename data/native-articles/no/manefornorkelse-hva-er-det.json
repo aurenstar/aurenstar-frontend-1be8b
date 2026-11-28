@@ -1,0 +1,65 @@
+{
+ "lang": "no",
+ "keyword": "måneformørkelse",
+ "volume": 90000,
+ "slug": "manefornorkelse-hva-er-det",
+ "date": "2026-11-27",
+ "title": "Måneformørkelse: hva er det og hva gjør folk?",
+ "description": "Hva er en måneformørkelse, når skjer den og hva gjør folk den kvelden? Forklart rolig og uten frykt.",
+ "intro": "«I kveld er det blodmåne, skal vi se på den?» En måneformørkelse er mest av alt vakker. Her forklarer vi hva som skjer.",
+ "sections": [
+  {
+   "h2": "Hva er en måneformørkelse?",
+   "paragraphs": [
+    "Under en måneformørkelse står jorda mellom sola og månen. Skyggen fra jorda faller på månen, som blir mørk eller rødlig."
+   ]
+  },
+  {
+   "h2": "Når skjer den?",
+   "paragraphs": [
+    "Alltid ved fullmåne, men ikke ved hver fullmåne. Det er som regel én eller to i året. Du trenger ikke solbriller, og du kan se den rett opp mot himmelen så lenge månen er over horisonten.",
+    "Hele forløpet tar noen timer, og den røde fasen varer ofte under en time."
+   ]
+  },
+  {
+   "h2": "Hva sier astrologien?",
+   "paragraphs": [
+    "I astrologien ses en formørkelse som en avslutning: noe som er modent kommer for en dag. Det er en tid for å spørre seg hva man vil slippe."
+   ]
+  },
+  {
+   "h2": "Hva gjør folk den kvelden?",
+   "paragraphs": [
+    "Mange tar rett og slett en kopp te og går ut. Andre skriver ned hva de vil legge bak seg, eller tar en rolig kveld uten skjerm.",
+    "Eksempel: Kari og Per sitter ute med et pledd og skriver hver sin lapp om én ting de ikke vil ta med seg inn i det nye året."
+   ]
+  },
+  {
+   "h2": "Ingen grunn til frykt",
+   "paragraphs": [
+    "Astrologi er ikke bevist vitenskap, og en måneformørkelse er ufarlig. Viktige beslutninger om helse, jus eller penger bør ikke bygge på stjernene alene, men tas sammen med lege, advokat eller rådgiver."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Er en måneformørkelse farlig for øynene?",
+   "a": "Nei, i motsetning til solformørkelse kan du se rett på den."
+  },
+  {
+   "q": "Hvorfor blir månen rød?",
+   "a": "Sollys bøyes gjennom jordas atmosfære og farger månen rødlig."
+  },
+  {
+   "q": "Hvor ofte er det måneformørkelse?",
+   "a": "Omtrent to ganger i året et sted på jorda, men ikke alltid synlig fra Norge."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ }
+}

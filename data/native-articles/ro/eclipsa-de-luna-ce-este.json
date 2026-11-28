@@ -1,0 +1,65 @@
+{
+ "lang": "ro",
+ "keyword": "eclipsa de luna",
+ "volume": 90000,
+ "slug": "eclipsa-de-luna-ce-este",
+ "date": "2026-11-27",
+ "title": "Eclipsa de Lună: ce este și ce fac oamenii în acea seară",
+ "description": "Ce este o eclipsă de Lună, când are loc și ce fac oamenii în seara respectivă? Explicat calm, fără frică.",
+ "intro": "„Diseară e Luna roșie, ieșim să ne uităm?” Eclipsa de Lună e mai ales un spectacol frumos. Iată ce se întâmplă.",
+ "sections": [
+  {
+   "h2": "Ce este o eclipsă de Lună?",
+   "paragraphs": [
+    "La o eclipsă de Lună, Pământul se află exact între Soare și Lună. Umbra Pământului cade pe Lună, care devine întunecată sau roșiatică."
+   ]
+  },
+  {
+   "h2": "Când are loc?",
+   "paragraphs": [
+    "Întotdeauna la Lună plină, dar nu la fiecare Lună plină. De obicei sunt una sau două pe an. Nu ai nevoie de ochelari speciali, e suficient ca Luna să fie deasupra orizontului.",
+    "Fenomenul durează câteva ore, iar faza roșie, de obicei, sub o oră."
+   ]
+  },
+  {
+   "h2": "Ce spune astrologia?",
+   "paragraphs": [
+    "În astrologie, eclipsa e văzută ca o încheiere de etapă: ce s-a copt iese la iveală. E un bun prilej să te întrebi ce vrei să lași în urmă."
+   ]
+  },
+  {
+   "h2": "Ce fac oamenii în acea seară?",
+   "paragraphs": [
+    "Mulți ies pur și simplu pe balcon cu un ceai. Alții scriu ce vor să lase în urmă sau își iau o seară liniștită, fără telefon.",
+    "Exemplu: Ioana și Mihai stau în curte, sub o pătură, și fiecare scrie pe un bilețel un lucru pe care nu vrea să-l ducă în anul nou."
+   ]
+  },
+  {
+   "h2": "Nu e niciun motiv de frică",
+   "paragraphs": [
+    "Astrologia nu este știință dovedită, iar eclipsa de Lună nu e periculoasă. Nu lua decizii importante despre sănătate, justiție sau bani doar după astre, ci împreună cu un medic, un avocat sau un consultant."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Eclipsa de Lună dăunează ochilor?",
+   "a": "Nu. Spre deosebire de eclipsa de Soare, te poți uita direct."
+  },
+  {
+   "q": "De ce devine Luna roșie?",
+   "a": "Lumina Soarelui trece prin atmosfera Pământului și colorează Luna în roșu."
+  },
+  {
+   "q": "Câte eclipse de Lună sunt pe an?",
+   "a": "Cam două, undeva pe Pământ, dar nu se văd mereu din România."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "lang": "sv",
+ "keyword": "stjärntecken som passar ihop",
+ "volume": 60000,
+ "slug": "stjarntecken-som-passar-ihop-karlek",
+ "date": "2026-11-27",
+ "title": "Stjärntecken som passar ihop i kärlek: eld, jord, luft och vatten",
+ "description": "Hur elementen (eld, jord, luft, vatten) påverkar kärlekskompatibiliteten. Enkel förklaring och två exempelpar.",
+ "intro": "”Vi är så olika, beror det på stjärntecknen?” Astrologin delar in de tolv tecknen i fyra element, och det hjälper oss se vilka som lättare funkar ihop. Vi förklarar enkelt.",
+ "sections": [
+  {
+   "h2": "De fyra elementen",
+   "paragraphs": [
+    "Eld: Väduren, Lejonet, Skytten, energiska och passionerade. Jord: Oxen, Jungfrun, Stenbocken, lugna och pålitliga. Luft: Tvillingarna, Vågen, Vattumannen, sociala och lätta. Vatten: Kräftan, Skorpionen, Fiskarna, känsliga och omtänksamma."
+   ]
+  },
+  {
+   "h2": "Vilka funkar ihop",
+   "paragraphs": [
+    "Oftast går det lättare mellan tecken i samma element eller ”grannar”: eld med luft (luften får elden att flamma), jord med vatten (vattnet göder jorden).",
+    "Svårare blir det mellan eld och vatten samt jord och luft, eftersom tempot skiljer sig. Men svårare betyder inte omöjligt."
+   ]
+  },
+  {
+   "h2": "Exempel 1: Lejon och Tvilling",
+   "paragraphs": [
+    "Johan (Lejon) älskar att ordna fester, och Maja (Tvilling) älskar att prata med gästerna. Eld och luft: de har roligt ihop och sporrar varandra."
+   ]
+  },
+  {
+   "h2": "Exempel 2: Jungfru och Fisk",
+   "paragraphs": [
+    "Erik (Jungfru) planerar allt, medan Linnea (Fisk) lever efter känslan. Jord och vatten: han ger henne trygghet, hon lär honom mjukhet. Ibland bråkar de om småsaker, men de kompletterar varandra."
+   ]
+  },
+  {
+   "h2": "Det viktigaste",
+   "paragraphs": [
+    "Stjärntecknen är bara en sida av en relation: respekt och samtal betyder mer än vilken tabell som helst. Astrologi är inte bevisad vetenskap och ersätter inte parterapeut, läkare eller jurist."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vilka tecken passar bäst ihop?",
+   "a": "Oftast nämns par i samma element, samt eld med luft och jord med vatten."
+  },
+  {
+   "q": "Kan jag vara lycklig med ett ”omöjligt” tecken?",
+   "a": "Absolut. Kompatibilitet är ett tips, inte en dom."
+  },
+  {
+   "q": "Vad mer ska man titta på än tecknet?",
+   "a": "Hela födelsehoroskopet, och framför allt hur man faktiskt beter sig och respekterar varandra."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ }
+}

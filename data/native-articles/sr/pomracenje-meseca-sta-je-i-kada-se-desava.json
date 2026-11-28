@@ -1,0 +1,67 @@
+{
+ "lang": "sr",
+ "keyword": "pomračenje meseca",
+ "volume": 90000,
+ "slug": "pomracenje-meseca-sta-je-i-kada-se-desava",
+ "date": "2026-11-27",
+ "title": "Pomračenje Meseca: šta je, kada se dešava i šta ljudi rade",
+ "description": "Šta je pomračenje Meseca, zašto nastaje i šta ljudi rade tih dana. Mirno objašnjenje bez straha.",
+ "intro": "„Sutra je pomračenje Meseca, kažu da ne valja ništa započinjati!“ Polako. Hajde da vidimo šta je to zaista i kako ljudi gledaju na njega.",
+ "sections": [
+  {
+   "h2": "Šta je pomračenje Meseca",
+   "paragraphs": [
+    "Pomračenje Meseca nastaje kada se Zemlja postavi tačno između Sunca i Meseca i prekrije ga svojom senkom. Mesec tada često porumeni ili pocrveni, pa ga zovu „krvavi“, iako nema ničeg strašnog.",
+    "Kao kad stanete između lampe i zida: na zidu se pojavi vaša senka."
+   ]
+  },
+  {
+   "h2": "Kada se dešava",
+   "paragraphs": [
+    "Pomračenje Meseca je uvek u vreme punog Meseca, dva do tri puta godišnje, ali se ne vidi iz svake zemlje. Tačno vreme potražite u astronomskom kalendaru za vaš grad.",
+    "Može se bezbedno gledati golim okom, za razliku od pomračenja Sunca."
+   ]
+  },
+  {
+   "h2": "Šta kaže astrologija",
+   "paragraphs": [
+    "U astrologiji se pomračenja smatraju vremenom „restartovanja“: stare teme se zatvaraju, nove počinju. Kaže se da su emocije tih dana jače.",
+    "To je tradicija, a ne dokazana činjenica. Shvatite je kao razlog da stanete i razmislite."
+   ]
+  },
+  {
+   "h2": "Šta ljudi rade tih dana",
+   "paragraphs": [
+    "Neko izađe na terasu i gleda nebo. Drugi zapiše čega želi da se oslobodi ili odloži veliku kupovinu za nekoliko dana.",
+    "Na primer, Milica je na dan pomračenja skuvala čaj, isključila telefon i napisala spisak stvari koje konačno želi da završi. Mirno i korisno."
+   ]
+  },
+  {
+   "h2": "Bez straha i sujeverja",
+   "paragraphs": [
+    "Samo pomračenje ne donosi nesreću. Astrologija nije dokazana nauka i ne zamenjuje lekara, advokata ili finansijskog savetnika, pa važne odluke donosite hladne glave."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Da li je opasno gledati pomračenje Meseca?",
+   "a": "Ne, može se gledati bez zaštite, bezbedno je."
+  },
+  {
+   "q": "Koliko traje pomračenje Meseca?",
+   "a": "Obično nekoliko sati, a potpuna faza oko sat vremena."
+  },
+  {
+   "q": "Je li istina da na dan pomračenja ništa ne treba započinjati?",
+   "a": "To je narodno verovanje, a ne pravilo. Samo ne žurite sa važnim odlukama."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ }
+}

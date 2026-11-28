@@ -1,0 +1,63 @@
+{
+ "lang": "hu",
+ "keyword": "csillagjegyek párkapcsolati kompatibilitás",
+ "volume": 60000,
+ "slug": "csillagjegyek-kompatibilitasa-szerelemben-elemek",
+ "date": "2026-11-27",
+ "title": "Csillagjegyek kompatibilitása szerelemben: tűz, föld, levegő, víz",
+ "description": "Mely csillagjegyek illenek össze szerelemben? Egyszerűen, elemek szerint, két példapárral.",
+ "intro": "„Vajon Anna és Tomi illik egymáshoz?” Sok pár felteszi ezt a kérdést. Az asztrológia egyszerű kiindulópontja az elem.",
+ "sections": [
+  {
+   "h2": "A négy elem",
+   "paragraphs": [
+    "A tizenkét jegy négy elemre oszlik. Tűz: Kos, Oroszlán, Nyilas. Föld: Bika, Szűz, Bak. Levegő: Ikrek, Mérleg, Vízöntő. Víz: Rák, Skorpió, Halak."
+   ]
+  },
+  {
+   "h2": "Ki kivel illik?",
+   "paragraphs": [
+    "Az azonos elemek jól megértik egymást. A tűz és a levegő erősíti egymást: a levegő szítja a tüzet. A föld és a víz táplálja egymást. A tűz és a víz, illetve a föld és a levegő több türelmet kíván."
+   ]
+  },
+  {
+   "h2": "1. példa: Anna és Tomi",
+   "paragraphs": [
+    "Anna Oroszlán (tűz), Tomi Mérleg (levegő). Ő hozza az energiát, ő az ötleteket, így könnyen terveznek utazást. Csak az nehéz, hogy Tomi nehezen dönt."
+   ]
+  },
+  {
+   "h2": "2. példa: Petra és Máté",
+   "paragraphs": [
+    "Petra Skorpió (víz), Máté Bak (föld). Ő a mélységet, ő a biztonságot adja. Ritkán vitatkoznak, de Petrának meg kell tanulnia kimondani az érzéseit."
+   ]
+  },
+  {
+   "h2": "Csak egy támpont",
+   "paragraphs": [
+    "Az elemek csak keret, a jó kapcsolatot a beszélgetés és a tisztelet építi. Az asztrológia nem bizonyított tudomány, és nem helyettesít szakembert, például házassági tanácsadót, orvost vagy jogászt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Szerethetik egymást a tűz és a víz?",
+   "a": "Igen, csak több türelem és beszélgetés kell hozzájuk."
+  },
+  {
+   "q": "Van tökéletes pár?",
+   "a": "Nincs, minden párnak vannak nehéz oldalai."
+  },
+  {
+   "q": "Elég a napjegyet nézni?",
+   "a": "A teljes kép a Holdat és az ascendenst is számba veszi, de ez mind csak játék."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ }
+}

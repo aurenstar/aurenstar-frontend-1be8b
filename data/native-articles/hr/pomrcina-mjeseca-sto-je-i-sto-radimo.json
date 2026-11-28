@@ -1,0 +1,63 @@
+{
+ "lang": "hr",
+ "keyword": "pomrčina mjeseca",
+ "volume": 90000,
+ "slug": "pomrcina-mjeseca-sto-je-i-sto-radimo",
+ "date": "2026-11-27",
+ "title": "Pomrčina Mjeseca: što je, kada se događa i što ljudi rade",
+ "description": "Što je pomrčina Mjeseca, zašto se događa i što ljudi rade tih večeri. Mirno i jednostavno objašnjeno, bez straha.",
+ "intro": "„Večeras će Mjesec postati crvenkast!“ Susjeda Mirjana već stavlja stolac na balkon. Pomrčina Mjeseca je lijep prizor, a ne razlog za strah.",
+ "sections": [
+  {
+   "h2": "Što je pomrčina Mjeseca?",
+   "paragraphs": [
+    "Pomrčina Mjeseca nastaje kad Zemlja stane točno između Sunca i Mjeseca. Zemljina sjena padne na Mjesec pa on potamni ili postane crvenkast. Ništa se ne događa Mjesecu, samo je u sjeni."
+   ]
+  },
+  {
+   "h2": "Kada se događa?",
+   "paragraphs": [
+    "Događa se samo za vrijeme punog Mjeseca i nekoliko puta godišnje. Gleda se golim okom, bez posebnih naočala, i vidi se svugdje gdje je Mjesec iznad horizonta."
+   ]
+  },
+  {
+   "h2": "Što o tome kaže astrologija?",
+   "paragraphs": [
+    "U astrologiji se pomrčine smatraju trenutcima kraja i novog početka. Kaže se da izlaze na vidjelo stvari koje smo skrivali, pa neki to vide kao priliku da zaključe jedno poglavlje."
+   ]
+  },
+  {
+   "h2": "Što ljudi rade tada?",
+   "paragraphs": [
+    "Većina ljudi jednostavno gleda nebo s obitelji ili prijateljima. Neki zapišu što žele pustiti iz života, izađu u večernju šetnju ili meditiraju. Ana na primjer napiše tri stvari koje više ne želi nositi i spremi popis u ladicu."
+   ]
+  },
+  {
+   "h2": "Zadrži mirnu glavu",
+   "paragraphs": [
+    "Pomrčina nije opasna ni za ljude ni za trudnice, to su stari praznovjerni mitovi. Astrologija nije dokazana znanost i ne zamjenjuje liječnika, odvjetnika ni financijskog savjetnika. Uživaj u prizoru."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je li opasno gledati pomrčinu Mjeseca?",
+   "a": "Nije, za razliku od pomrčine Sunca možeš je bez problema gledati golim okom."
+  },
+  {
+   "q": "Zašto Mjesec postane crven?",
+   "a": "Zemljina atmosfera propušta crvenu svjetlost prema Mjesecu, kao pri zalasku sunca."
+  },
+  {
+   "q": "Koliko često se događa?",
+   "a": "Obično dva puta godišnje, ali nije svugdje vidljiva."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ }
+}

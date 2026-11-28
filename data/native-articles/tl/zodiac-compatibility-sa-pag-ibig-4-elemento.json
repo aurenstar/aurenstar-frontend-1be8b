@@ -1,0 +1,64 @@
+{
+ "lang": "tl",
+ "keyword": "zodiac compatibility sa pag-ibig",
+ "volume": 60000,
+ "slug": "zodiac-compatibility-sa-pag-ibig-4-elemento",
+ "date": "2026-11-27",
+ "title": "Zodiac Compatibility sa Pag-ibig: Apoy, Lupa, Hangin, Tubig",
+ "description": "Alamin kung aling mga zodiac sign ang bagay sa pag-ibig ayon sa apat na elemento, kasama ang dalawang gawa-gawang magkasintahan.",
+ "intro": "“Bagay kaya kami ng crush ko?” Ito ang unang tanong sa mga barkada tuwing usapang pag-ibig. Mas madali itong intindihin kung hahatiin ang zodiac sa apat na elemento.",
+ "sections": [
+  {
+   "h2": "Ang apat na elemento",
+   "paragraphs": [
+    "Apoy: Aries, Leo, Sagittarius. Lupa: Taurus, Virgo, Capricorn. Hangin: Gemini, Libra, Aquarius. Tubig: Cancer, Scorpio, Pisces. May kani-kaniyang ugali ang bawat elemento."
+   ]
+  },
+  {
+   "h2": "Magkaparehong elemento",
+   "paragraphs": [
+    "Madaling nagkakaintindihan ang magkaparehong elemento. Masaya at puno ng sigla ang apoy at apoy, pero mabilis din silang mag-away."
+   ]
+  },
+  {
+   "h2": "Aling mga elemento ang bagay?",
+   "paragraphs": [
+    "Magandang timpla ang apoy at hangin dahil nagpapalakas sila sa isa't isa. Ang lupa at tubig ay nagbibigay ng kapanatagan. Medyo mahirap ang apoy at tubig, pero kaya kung may pang-unawa."
+   ]
+  },
+  {
+   "h2": "Dalawang gawa-gawang magkasintahan",
+   "paragraphs": [
+    "Si Migo (Aries, apoy) at si Bea (Gemini, hangin): hindi sila nauubusan ng kuwento at mahilig gumala. Kapag nagmamadali si Migo, kailangan ng pasensya ni Bea.",
+    "Si Paolo (Taurus, lupa) at si Liza (Cancer, tubig): pareho nilang mahal ang pamilya at tahanan. Dahan-dahan pero matatag ang relasyon nila."
+   ]
+  },
+  {
+   "h2": "Huwag masyadong umasa rito",
+   "paragraphs": [
+    "Gabay lang ang zodiac. Nakasalalay ang tagumpay ng relasyon sa komunikasyon, respeto, at tiwala. Hindi napatunayang agham ang astrolohiya. Para sa kasal, batas, o pera, kumonsulta sa kaukulang eksperto."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Anong sign ang bagay sa apoy?",
+   "a": "Kadalasang sinasabing bagay ang hangin at kapwa apoy."
+  },
+  {
+   "q": "Kapag hindi bagay, hiwalay na ba?",
+   "a": "Hindi. Kung may respeto at pang-unawa, kayang magtagal ng kahit anong magkasintahan."
+  },
+  {
+   "q": "Paano ko malalaman ang elemento ko?",
+   "a": "Tingnan ang sun sign mo at hanapin sa listahan sa itaas."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ }
+}

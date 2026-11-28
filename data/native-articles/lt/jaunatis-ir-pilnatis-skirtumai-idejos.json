@@ -1,0 +1,65 @@
+{
+ "lang": "lt",
+ "keyword": "jaunatis ir pilnatis",
+ "volume": 40000,
+ "slug": "jaunatis-ir-pilnatis-skirtumai-idejos",
+ "date": "2026-11-27",
+ "title": "Jaunatis ir pilnatis: skirtumas, prasmė ir 3 paprastos idėjos",
+ "description": "Kuo skiriasi jaunatis ir pilnatis, ką jos reiškia astrologijoje ir ką galima paprastai nuveikti kiekvieną dieną.",
+ "intro": "„Šiandien jaunatis, gal užsirašom tikslus?“ – siūlo Austėja savo draugėms. Nesudėtinga: jaunatis ir pilnatis tarsi du ciklo galai.",
+ "sections": [
+  {
+   "h2": "Kuo jos skiriasi?",
+   "paragraphs": [
+    "Jaunaties metu Mėnulio beveik nesimato, o pilnaties – jis visas apvalus. Jos keičiasi maždaug kas 15 dienų."
+   ]
+  },
+  {
+   "h2": "Jaunaties prasmė",
+   "paragraphs": [
+    "Astrologijoje jaunatis – naujos pradžios metas, tinkamas planuoti ir pradėti."
+   ]
+  },
+  {
+   "h2": "3 idėjos jaunatį",
+   "paragraphs": [
+    "Pirma, užrašyk tris šio mėnesio tikslus. Antra, sutvarkyk darbo stalą. Trečia, pradėk vieną atidėliotą darbą."
+   ]
+  },
+  {
+   "h2": "Pilnaties prasmė ir 3 idėjos",
+   "paragraphs": [
+    "Pilnatis siejama su rezultatais ir emocijomis, kai kam sunkiau užmigti.",
+    "Pirma, perskaityk jaunatį rašytus tikslus ir pažiūrėk, kas pavyko. Antra, padėkok žmogui, kuris tau svarbus. Trečia, pasivaikščiok vakare ir pažiūrėk į dangų."
+   ]
+  },
+  {
+   "h2": "Prisimink",
+   "paragraphs": [
+    "Astrologija nėra moksliškai įrodyta, naudok ją kaip pramogą ir apmąstymus.",
+    "Sveikatos, teisės ir finansų klausimus spręsk su specialistais."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar privaloma norų lentelė?",
+   "a": "Ne, tai tik būdas susitvarkyti mintis."
+  },
+  {
+   "q": "Ar pilnatis tikrai trikdo miegą?",
+   "a": "Tyrimų rezultatai nevienareikšmiai."
+  },
+  {
+   "q": "Kiek trunka mėnulio ciklas?",
+   "a": "Apie 29,5 dienos."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ }
+}

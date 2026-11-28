@@ -1,0 +1,67 @@
+{
+ "lang": "sv",
+ "keyword": "månförmörkelse",
+ "volume": 90000,
+ "slug": "manformorkelse-vad-ar-det-och-nar-sker-den",
+ "date": "2026-11-27",
+ "title": "Månförmörkelse: vad det är, när den sker och vad folk gör",
+ "description": "Vad är en månförmörkelse, varför uppstår den och vad gör människor de dagarna. Lugn förklaring utan rädsla.",
+ "intro": "”I morgon är det månförmörkelse, man ska visst inte börja något nytt!” Ta det lugnt. Vi tittar på vad det egentligen är och hur folk ser på det.",
+ "sections": [
+  {
+   "h2": "Vad är en månförmörkelse",
+   "paragraphs": [
+    "En månförmörkelse uppstår när jorden hamnar exakt mellan solen och månen och sveper sin skugga över månen. Månen blir då ofta rödaktig, och därför kallas den ”blodmåne”, fast det inte är något farligt.",
+    "Det är som när du ställer dig mellan en lampa och en vägg: din skugga syns på väggen."
+   ]
+  },
+  {
+   "h2": "När sker den",
+   "paragraphs": [
+    "Månförmörkelse inträffar alltid vid fullmåne, två till tre gånger per år, men syns inte från alla länder. Titta i en astronomikalender för din ort för exakt tid.",
+    "Du kan titta på den med blotta ögat utan risk, till skillnad från solförmörkelse."
+   ]
+  },
+  {
+   "h2": "Vad säger astrologin",
+   "paragraphs": [
+    "Inom astrologin ses förmörkelser som en tid för ”omstart”: gamla teman avslutas och nya tar form. Man säger att känslorna är starkare de dagarna.",
+    "Det är en tradition, inte ett bevisat faktum. Använd det gärna som ett tillfälle att stanna upp och fundera."
+   ]
+  },
+  {
+   "h2": "Vad folk gör de dagarna",
+   "paragraphs": [
+    "Vissa går ut på balkongen och tittar på himlen. Andra skriver ner vad de vill släppa taget om eller skjuter upp ett stort köp några dagar.",
+    "Exempel: Sofia brygger te på förmörkelsekvällen, stänger av mobilen och skriver en lista på sådant hon vill få gjort. Lugnt och nyttigt."
+   ]
+  },
+  {
+   "h2": "Utan rädsla och skrock",
+   "paragraphs": [
+    "Förmörkelsen i sig för inget ont med sig. Astrologi är inte bevisad vetenskap och ersätter inte läkare, jurist eller finansiell rådgivare, så fatta viktiga beslut med kallt huvud."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Är det farligt att titta på en månförmörkelse?",
+   "a": "Nej, du kan titta utan skydd, det är ofarligt."
+  },
+  {
+   "q": "Hur länge varar en månförmörkelse?",
+   "a": "Oftast några timmar, och den totala fasen cirka en timme."
+  },
+  {
+   "q": "Stämmer det att man inte ska börja något på förmörkelsedagen?",
+   "a": "Det är en folktro, inte en regel. Skynda bara inte med stora beslut."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ }
+}

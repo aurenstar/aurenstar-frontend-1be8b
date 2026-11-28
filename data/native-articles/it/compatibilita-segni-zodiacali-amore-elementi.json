@@ -1,0 +1,63 @@
+{
+ "lang": "it",
+ "keyword": "compatibilità segni zodiacali amore",
+ "volume": 60000,
+ "slug": "compatibilita-segni-zodiacali-amore-elementi",
+ "date": "2026-11-27",
+ "title": "Compatibilità dei segni in amore: fuoco, terra, aria e acqua",
+ "description": "Quali segni vanno d’accordo in amore? Spiegato in modo semplice con gli elementi e due coppie d’esempio.",
+ "intro": "«Ma io e Marco siamo compatibili?» È una domanda che molti si fanno. L’astrologia parte da una cosa semplice: l’elemento di ogni segno.",
+ "sections": [
+  {
+   "h2": "I quattro elementi",
+   "paragraphs": [
+    "I dodici segni si dividono in quattro elementi. Fuoco: Ariete, Leone, Sagittario. Terra: Toro, Vergine, Capricorno. Aria: Gemelli, Bilancia, Acquario. Acqua: Cancro, Scorpione, Pesci."
+   ]
+  },
+  {
+   "h2": "Chi va con chi?",
+   "paragraphs": [
+    "Lo stesso elemento di solito si capisce al volo. Fuoco e aria si alimentano: l’aria fa crescere il fuoco. Terra e acqua si nutrono a vicenda. Fuoco con acqua o terra con aria chiedono più pazienza."
+   ]
+  },
+  {
+   "h2": "Esempio 1: Giulia e Marco",
+   "paragraphs": [
+    "Giulia è Leone (fuoco), Marco è Bilancia (aria). Lei porta energia, lui idee, e organizzano viaggi in un attimo. Il difficile è che Marco fatica a decidere."
+   ]
+  },
+  {
+   "h2": "Esempio 2: Elena e Paolo",
+   "paragraphs": [
+    "Elena è Scorpione (acqua), Paolo è Capricorno (terra). Lei sente tutto in profondità, lui dà stabilità. Litigano poco, ma Elena deve imparare a dire ad alta voce ciò che prova."
+   ]
+  },
+  {
+   "h2": "Solo una guida leggera",
+   "paragraphs": [
+    "Gli elementi sono solo un punto di partenza: una coppia si regge su dialogo e rispetto. L’astrologia non è una scienza dimostrata e non sostituisce un esperto come terapeuta di coppia, medico o avvocato."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Fuoco e acqua possono amarsi?",
+   "a": "Sì, servono solo più pazienza e dialogo."
+  },
+  {
+   "q": "Esiste la coppia perfetta?",
+   "a": "No, ogni coppia ha lati facili e lati difficili."
+  },
+  {
+   "q": "Basta guardare il segno solare?",
+   "a": "Per un quadro più completo guarda anche Luna e ascendente, ma resta un gioco."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti astrologici gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Continua a leggere"
+ }
+}

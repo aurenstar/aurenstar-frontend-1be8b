@@ -1,0 +1,65 @@
+{
+ "lang": "tl",
+ "keyword": "paano malaman ang rising sign",
+ "volume": 135000,
+ "slug": "paano-malaman-ang-rising-sign-ascendant",
+ "date": "2026-11-27",
+ "title": "Paano Malaman ang Rising Sign (Ascendant) Mo",
+ "description": "Ano ang ascendant o rising sign, ano ang kailangan para makuwenta ito, at ano ang sinasabi nito tungkol sa ugali mo. Simpleng paliwanag.",
+ "intro": "“Gemini ako, pero ano kaya ang rising sign ko?” Madalas itong tanong ng mga kaibigan sa group chat. Heto ang simpleng paliwanag, walang mahirap na salita.",
+ "sections": [
+  {
+   "h2": "Ano ang rising sign?",
+   "paragraphs": [
+    "Ang rising sign o ascendant ay ang zodiac sign na sumisikat sa silangang abot-tanaw sa mismong oras ng kapanganakan mo. Kung ang sun sign ay kung sino ka sa loob, ang rising sign ay ang unang impresyon na nakikita ng iba."
+   ]
+  },
+  {
+   "h2": "Ano ang kailangan?",
+   "paragraphs": [
+    "Tatlong bagay lang: petsa, oras, at lugar ng kapanganakan. Kung hindi mo alam ang oras, tingnan ang birth certificate o itanong kay nanay o kay lola.",
+    "Halimbawa: Si Maria na ipinanganak sa Cebu ng 6:00 ng umaga at ang kaibigan niyang ipinanganak sa parehong araw ng 6:00 ng gabi ay may ganap na magkaibang rising sign."
+   ]
+  },
+  {
+   "h2": "Bakit mahalaga ang oras?",
+   "paragraphs": [
+    "Nagbabago ang rising sign mga bawat dalawang oras. Kahit 10 minutong pagkakaiba ay minsang nakapagpapabago nito, kaya mas eksakto ang oras, mas maaasahan ang resulta."
+   ]
+  },
+  {
+   "h2": "Ano ang sinasabi nito sa ugali mo?",
+   "paragraphs": [
+    "Sabi ng astrolohiya, ito ang itsura mo sa mata ng iba. Halimbawa, ang Aries rising ay mabilis magdesisyon, at ang Virgo rising ay maingat at maayos magplano.",
+    "Pinakamadali: gumamit ng libreng online calculator at ilagay ang tatlong detalye. Ilang segundo lang, may sagot ka na."
+   ]
+  },
+  {
+   "h2": "Tandaan ito",
+   "paragraphs": [
+    "Hindi napatunayang agham ang astrolohiya. Gamitin ito bilang gabay sa pagkilala sa sarili. Para sa kalusugan, batas, o pera, kumonsulta pa rin sa doktor, abogado, o financial adviser."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Pareho ba ang sun sign at rising sign?",
+   "a": "Hindi. Ang sun sign ay batay sa petsa ng kapanganakan, ang rising sign ay batay sa oras at lugar."
+  },
+  {
+   "q": "Paano kung hindi ko alam ang oras ng kapanganakan?",
+   "a": "Hanapin sa birth certificate o magtanong sa pamilya. Kung wala talaga, puwedeng tantiyahin ang tanghali pero mababawasan ang katumpakan."
+  },
+  {
+   "q": "Libre ba ang pagkuwenta?",
+   "a": "Oo, maraming website ang nagbibigay nito nang libre."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ }
+}

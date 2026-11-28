@@ -1,0 +1,68 @@
+{
+ "lang": "ms",
+ "keyword": "gerhana bulan",
+ "volume": 90000,
+ "slug": "gerhana-bulan-maksud-bila-berlaku",
+ "date": "2026-11-27",
+ "title": "Gerhana Bulan: Apa Itu, Bila Berlaku dan Apa Orang Buat",
+ "description": "Penerangan mudah tentang gerhana bulan: apa ia, bila boleh dilihat di Malaysia dan apa yang orang lakukan pada malam itu. Tanpa rasa takut.",
+ "intro": "\"Malam ni ada bulan merah!\" kata Hafiz kepada kawan-kawannya, dan semua berkumpul di bumbung untuk melihatnya. Gerhana bulan ialah pemandangan indah, bukan sebab untuk takut.",
+ "sections": [
+  {
+   "h2": "Apa itu gerhana bulan?",
+   "paragraphs": [
+    "Ia berlaku apabila Bumi berada di antara Matahari dan Bulan, dan bayang Bumi menutup bulan purnama. Sebab itu gerhana bulan hanya berlaku semasa bulan penuh.",
+    "Apabila bulan tertutup sepenuhnya, ia nampak kemerahan kerana atmosfera Bumi membenarkan cahaya merah melaluinya, seperti waktu matahari terbenam."
+   ]
+  },
+  {
+   "h2": "Bila ia berlaku?",
+   "paragraphs": [
+    "Biasanya ada kira-kira dua gerhana bulan setahun, tetapi tidak semuanya kelihatan di Malaysia. Bulan mesti berada di atas ufuk pada masa itu.",
+    "Tarikhnya boleh didapati dalam kalendar astronomi atau berita. Tidak seperti gerhana matahari, gerhana bulan selamat dilihat dengan mata kasar."
+   ]
+  },
+  {
+   "h2": "Apa kata astrologi?",
+   "paragraphs": [
+    "Ahli astrologi sering menganggap gerhana sebagai masa penutup dan penilaian semula: waktu sesuai untuk melepaskan perkara lama.",
+    "Ini hanya tafsiran. Tiada bukti gerhana membawa malang."
+   ]
+  },
+  {
+   "h2": "Apa orang buat pada malam itu?",
+   "paragraphs": [
+    "Ada yang bergambar di tepi pantai, ada yang menonton bersama keluarga sambil minum teh. Ada juga yang menulis jurnal atau mengemas almari.",
+    "Umat Islam di Malaysia pula biasanya menunaikan solat sunat gerhana berjemaah di masjid."
+   ]
+  },
+  {
+   "h2": "Ingat ya",
+   "paragraphs": [
+    "Astrologi tidak terbukti secara saintifik dan tidak menggantikan doktor, peguam atau perancang kewangan.",
+    "Buat keputusan penting dengan pakar, bukan berdasarkan fasa bulan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Adakah berbahaya melihat gerhana bulan?",
+   "a": "Tidak, ia selamat dilihat dengan mata kasar."
+  },
+  {
+   "q": "Berapa lama ia berlangsung?",
+   "a": "Keseluruhan gerhana mengambil beberapa jam, dan fasa penuh kira-kira sejam atau kurang."
+  },
+  {
+   "q": "Adakah gerhana benar-benar membawa malang?",
+   "a": "Tiada bukti saintifik. Teruskan hidup seperti biasa."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "lang": "fi",
+ "keyword": "tähtimerkkien yhteensopivuus",
+ "volume": 60000,
+ "slug": "tahtimerkkien-yhteensopivuus-rakkaus",
+ "date": "2026-11-27",
+ "title": "Tähtimerkkien yhteensopivuus rakkaudessa: tuli, maa, ilma ja vesi",
+ "description": "Mitkä tähtimerkit sopivat yhteen rakkaudessa? Selkeä opas neljän alkuaineen mukaan ja kaksi esimerkkiparia.",
+ "intro": "”Sopiiko hän minulle, jos hän on Skorpioni ja minä Kaksonen?” Moni kurkistaa tähtimerkkeihin ennen ensitreffejä. Tässä helppo tapa katsoa asiaa alkuaineiden kautta.",
+ "sections": [
+  {
+   "h2": "Neljä alkuainetta",
+   "paragraphs": [
+    "Tuli: Oinas, Leijona, Jousimies. Maa: Härkä, Neitsyt, Kauris. Ilma: Kaksoset, Vaaka, Vesimies. Vesi: Rapu, Skorpioni, Kalat. Samaa alkuainetta olevat ymmärtävät usein toisiaan helposti."
+   ]
+  },
+  {
+   "h2": "Mitkä alkuaineet sopivat yhteen?",
+   "paragraphs": [
+    "Tuli ja ilma ruokkivat toisiaan, kuten tuuli saa liekin leimuamaan. Maa ja vesi täydentävät toisiaan, kuten sade kasvattaa maata. Tuli ja vesi tai maa ja ilma tarvitsevat enemmän kärsivällisyyttä."
+   ]
+  },
+  {
+   "h2": "Esimerkki 1: Aino ja Jussi",
+   "paragraphs": [
+    "Aino on Jousimies (tuli) ja Jussi Vesimies (ilma). He lähtevät yhdessä retkille ja keksivät uusia suunnitelmia. Energia riittää molemmille."
+   ]
+  },
+  {
+   "h2": "Esimerkki 2: Elina ja Ville",
+   "paragraphs": [
+    "Elina on Rapu (vesi) ja Ville Kauris (maa). Ville tuo turvaa ja järjestystä, Elina lämpöä ja tunteita. Yhdessä he rakentavat kodin."
+   ]
+  },
+  {
+   "h2": "Rehellinen muistutus",
+   "paragraphs": [
+    "Astrologia ei ole tieteellisesti todistettua. Hyvä parisuhde syntyy keskustelusta ja kunnioituksesta, ei vain tähtimerkeistä. Vakavissa ongelmissa kannattaa puhua pariterapeutin kanssa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Eivätkö tuli ja vesi sovi yhteen?",
+   "a": "Sopivat, mutta tarvitsevat enemmän ymmärrystä."
+  },
+  {
+   "q": "Onko samaa alkuainetta oleva aina paras?",
+   "a": "Ei aina, mutta yhteinen sävel löytyy helpommin."
+  },
+  {
+   "q": "Vaikuttaako vain aurinkomerkki?",
+   "a": "Astrologit katsovat myös Kuun ja Venuksen."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ }
+}

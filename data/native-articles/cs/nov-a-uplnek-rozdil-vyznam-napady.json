@@ -1,0 +1,63 @@
+{
+ "lang": "cs",
+ "keyword": "nov a úplněk",
+ "volume": 40000,
+ "slug": "nov-a-uplnek-rozdil-vyznam-napady",
+ "date": "2026-11-27",
+ "title": "Nov a úplněk: rozdíl, význam a 3 jednoduché nápady pro každý",
+ "description": "Jaký je rozdíl mezi novem a úplňkem, co který znamená a tři snadné nápady pro každou fázi.",
+ "intro": "„Dnes je nov, začnu něco nového!“ nebo „Je úplněk, pustím, co mě tíží.“ Někteří lidé to tak dělají. Podívejme se na rozdíl.",
+ "sections": [
+  {
+   "h2": "Jaký je rozdíl?",
+   "paragraphs": [
+    "Při novu Měsíc téměř nevidíme, při úplňku je celý osvětlený. Mezi nimi uplyne asi čtrnáct dní a cyklus se opakuje každý měsíc."
+   ]
+  },
+  {
+   "h2": "Co znamená nov?",
+   "paragraphs": [
+    "V astrologii nov symbolizuje začátek, jako čistý list papíru. Lidé ho často využijí k tomu, aby si stanovili malý cíl na další měsíc."
+   ]
+  },
+  {
+   "h2": "3 nápady pro nov",
+   "paragraphs": [
+    "1. Napiš jeden jasný cíl na papír. 2. Uklidi jedno místo doma, třeba psací stůl nebo skříň. 3. Začni jednoduchý zvyk, například deset minut chůze denně. Příklad: Lenka si založila sešit vděčnosti a každý večer napíše jednu větu."
+   ]
+  },
+  {
+   "h2": "Úplněk: význam a 3 nápady",
+   "paragraphs": [
+    "Úplněk symbolizuje naplnění a výsledky, je to chvíle ohlédnout se zpět. Tři nápady: 1. Zapiš si, co se ti za měsíc povedlo. 2. Odpusť někomu nebo pusť to, co ti už neslouží. 3. Strávi večer s blízkými a dívejte se na Měsíc."
+   ]
+  },
+  {
+   "h2": "Poctivé upozornění",
+   "paragraphs": [
+    "Neexistuje vědecký důkaz, že fáze Měsíce mění tvůj život, spánek nebo štěstí. Ber je jen jako příležitost k zamyšlení a u zdraví, práva a peněz se poraď s odborníkem."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak často nastává nov?",
+   "a": "Přibližně každých 29 a půl dne."
+  },
+  {
+   "q": "Musím v ty dny něco dělat?",
+   "a": "Ne, je to zcela dobrovolné."
+  },
+  {
+   "q": "Ovlivňuje úplněk spánek?",
+   "a": "Jasný vědecký důkaz není; někdy ruší jen silné světlo."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ }
+}

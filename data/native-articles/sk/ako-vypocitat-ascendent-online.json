@@ -1,0 +1,67 @@
+{
+ "lang": "sk",
+ "keyword": "ascendent ako vypočítať",
+ "volume": 135000,
+ "slug": "ako-vypocitat-ascendent-online",
+ "date": "2026-11-27",
+ "title": "Ako vypočítať ascendent: čo to je a čo na to potrebujete",
+ "description": "Čo je ascendent, aké údaje treba na výpočet (dátum, hodina a mesto narodenia) a ako ovplyvňuje vašu povahu. Jednoducho a zrozumiteľne.",
+ "intro": "„Som Býk, ale vôbec sa nepodobám iným Býkom...“ Poznáte to? Možno za to môže ascendent. Vysvetlíme to jednoducho, bez zložitých slov.",
+ "sections": [
+  {
+   "h2": "Čo je ascendent",
+   "paragraphs": [
+    "Ascendent je znamenie zverokruhu, ktoré vychádzalo na východe v okamihu vášho narodenia. Predstavte si slnko pri svitaní: vidno ho na obzore. Tu však nevychádza slnko, ale znamenie.",
+    "Ak je znamenie podľa dátumu vaše „vnútro“, ascendent je prvý dojem, aký robíte na ľudí."
+   ]
+  },
+  {
+   "h2": "Čo potrebujete na výpočet",
+   "paragraphs": [
+    "Potrebujete tri veci: presný dátum narodenia, presnú hodinu (aspoň na 15 – 20 minút) a mesto, kde ste sa narodili. Hodinu nájdete v rodnom liste alebo sa opýtajte mamy.",
+    "Napríklad Zuzana sa narodila 12. mája o 7.40 v Košiciach. Stačí zadať tieto údaje do bezplatnej kalkulačky a za sekundu máte výsledok."
+   ]
+  },
+  {
+   "h2": "Prečo je dôležitá hodina a mesto",
+   "paragraphs": [
+    "Ascendent mení znamenie približne každé dve hodiny. Narodíte sa o hodinu skôr a výsledok môže byť iný. Mesto treba preto, že obzor v Bratislave a vo Vysokých Tatrách vyzerá trochu inak.",
+    "Ak hodinu nepoznáte, výsledok bude len približný. Radšej ju najprv zistite."
+   ]
+  },
+  {
+   "h2": "Čo ascendent mení na vašej povahe",
+   "paragraphs": [
+    "Hovorí sa, že ascendent ukazuje, ako vstupujete do novej partie, ako sa obliekate a ako vás vidia kolegovia. Lev s ascendentom Panna môže pôsobiť zdržanlivo, hoci vo vnútri horí.",
+    "Mnohí ľudia hovoria, že práve ascendent vysvetľuje, prečo „nie som taký, ako píšu v horoskope“."
+   ]
+  },
+  {
+   "h2": "Čo si pamätať",
+   "paragraphs": [
+    "Astrológia nie je dokázaná veda a nenahrádza lekára, právnika ani finančného poradcu. Ascendent berte ako zaujímavý spôsob, ako lepšie spoznať seba, nie ako rozsudok."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Dá sa ascendent vypočítať bez hodiny narodenia?",
+   "a": "Presne nie. Môžete vyskúšať možnosti, ale lepšie je zistiť hodinu z rodného listu alebo v pôrodnici."
+  },
+  {
+   "q": "Musím počítať ručne?",
+   "a": "Nie, stačí bezplatná online kalkulačka: zadáte dátum, hodinu a mesto."
+  },
+  {
+   "q": "Je ascendent dôležitejší ako znamenie podľa dátumu?",
+   "a": "Nie je to súťaž: znamenie ukazuje vaše jadro, ascendent to, ako vás vidia ostatní."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ }
+}

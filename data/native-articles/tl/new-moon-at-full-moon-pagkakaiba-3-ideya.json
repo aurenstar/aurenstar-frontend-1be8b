@@ -1,0 +1,64 @@
+{
+ "lang": "tl",
+ "keyword": "new moon at full moon",
+ "volume": 40000,
+ "slug": "new-moon-at-full-moon-pagkakaiba-3-ideya",
+ "date": "2026-11-27",
+ "title": "New Moon at Full Moon: Pagkakaiba, Kahulugan, at 3+3 Simpleng Ideya",
+ "description": "Ano ang pagkakaiba ng new moon at full moon, ano ang kahulugan ng bawat isa, at tig-tatlong simpleng ideya na puwedeng gawin.",
+ "intro": "“New moon ngayon, puwede na bang magsimula ng bago?” o “Full moon, bakit parang antok na antok ako?” Heto ang madaling sagot.",
+ "sections": [
+  {
+   "h2": "Ano ang pagkakaiba?",
+   "paragraphs": [
+    "Sa new moon, hindi nakikita ang Buwan dahil malapit ito sa Araw. Sa full moon, bilog at maliwanag ito. Mga 15 araw ang pagitan ng dalawa."
+   ]
+  },
+  {
+   "h2": "Kahulugan ng new moon",
+   "paragraphs": [
+    "Sa astrolohiya, panimula ito, parang pagtatanim ng binhi. Puwede kang magtakda ng maliit na layunin sa isip."
+   ]
+  },
+  {
+   "h2": "3 ideya para sa new moon",
+   "paragraphs": [
+    "1. Isulat ang isang maliit na layunin ngayong buwan. 2. Ayusin ang isang sulok ng bahay o mesa. 3. Mag-text o tumawag sa taong matagal mo nang hindi nakakausap."
+   ]
+  },
+  {
+   "h2": "Full moon at 3 ideya",
+   "paragraphs": [
+    "Panahon ito ng pag-ani at pasasalamat. 1. Isulat ang magagandang nangyari ngayong buwan. 2. Tumingin sa buwan kasama ang pamilya. 3. Bitawan ang tampo o ang mga lumang gamit na hindi na kailangan.",
+    "Halimbawa: Tuwing full moon, umiinom ng salabat si Aling Nena sa bakuran niya sa Batangas at nagpapasalamat sa lahat ng biyaya."
+   ]
+  },
+  {
+   "h2": "Dahan-dahan lang",
+   "paragraphs": [
+    "Walang siyentipikong patunay na binabago ng Buwan ang mood o swerte natin. Hindi napatunayang agham ang astrolohiya at paalala lang ito. Para sa kalusugan, batas, o pera, magtanong sa eksperto."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ilang araw ang pagitan ng new moon at full moon?",
+   "a": "Mga 15 araw."
+  },
+  {
+   "q": "Puwede bang magsimula ng bago sa new moon?",
+   "a": "Ayon sa astrolohiya, magandang panimula ito, pero ikaw pa rin ang magpapasya."
+  },
+  {
+   "q": "Totoo bang mahirap matulog kapag full moon?",
+   "a": "Ramdam ito ng ilan, pero hindi pa malinaw ang siyentipikong patunay."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ }
+}

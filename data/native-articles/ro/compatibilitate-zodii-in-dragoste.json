@@ -1,0 +1,64 @@
+{
+ "lang": "ro",
+ "keyword": "compatibilitate zodii",
+ "volume": 60000,
+ "slug": "compatibilitate-zodii-in-dragoste",
+ "date": "2026-11-27",
+ "title": "Compatibilitatea zodiilor în dragoste: cine se potrivește cu cine",
+ "description": "Ce zodii se potrivesc în dragoste? Explicat pe elemente (foc, pământ, aer, apă), cu două exemple de cupluri.",
+ "intro": "„Suntem foarte diferiți, putem fi fericiți?” Zodiile se împart în patru elemente, iar ele ne ajută să înțelegem mai bine dragostea.",
+ "sections": [
+  {
+   "h2": "Cele patru elemente",
+   "paragraphs": [
+    "Foc: Berbec, Leu, Săgetător. Pământ: Taur, Fecioară, Capricorn. Aer: Gemeni, Balanță, Vărsător. Apă: Rac, Scorpion, Pești. Zodiile din același element se înțeleg de obicei repede."
+   ]
+  },
+  {
+   "h2": "Ce elemente se potrivesc?",
+   "paragraphs": [
+    "Focul și aerul se hrănesc reciproc: aerul aprinde focul. Pământul și apa la fel: apa face pământul să rodească.",
+    "Focul cu apa sau pământul cu aerul cer mai multă înțelegere, pentru că văd viața diferit."
+   ]
+  },
+  {
+   "h2": "Exemplul 1: foc și aer",
+   "paragraphs": [
+    "Maria (Săgetător) vrea ceva nou în fiecare weekend. Radu (Balanță) adoră ideea și face planurile. Multă energie, deloc plictiseală."
+   ]
+  },
+  {
+   "h2": "Exemplul 2: pământ și apă",
+   "paragraphs": [
+    "Elena (Capricorn) iubește liniștea și siguranța. Vlad (Rac) aduce căldură și atmosferă de acasă. Se completează de minune."
+   ]
+  },
+  {
+   "h2": "O precizare sinceră",
+   "paragraphs": [
+    "O relație bună depinde de mult mai mult decât de zodie. Astrologia nu este știință dovedită. Dacă ai îndoieli despre relație sau probleme de sănătate, vorbește cu un terapeut sau cu un medic."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Pot fi fericite elementele opuse?",
+   "a": "Da, cu răbdare și respect pentru felul de a fi al celuilalt."
+  },
+  {
+   "q": "Ajunge zodia solară pentru compatibilitate?",
+   "a": "E doar un început. Contează și Luna și ascendentul, dar rămâne tot un joc de simboluri."
+  },
+  {
+   "q": "Cu ce zodie se potrivește Berbecul?",
+   "a": "Se spune adesea Leu, Săgetător, Gemeni și Vărsător, dar orice pereche poate funcționa."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ }
+}

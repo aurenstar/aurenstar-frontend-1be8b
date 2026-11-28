@@ -1,0 +1,63 @@
+{
+ "lang": "ca",
+ "keyword": "lluna nova i lluna plena",
+ "volume": 40000,
+ "slug": "lluna-nova-i-lluna-plena-diferencia-significat",
+ "date": "2026-11-27",
+ "title": "Lluna nova i lluna plena: diferència, significat i 3 idees senzilles per a cadascuna",
+ "description": "Quina diferència hi ha entre lluna nova i lluna plena, què significa cadascuna i tres idees fàcils per a cada fase.",
+ "intro": "«Aquesta nit és lluna nova, començo una cosa nova!» o «És lluna plena, deixo anar el pes.» Així ho fan alguns. Veiem-ne la diferència.",
+ "sections": [
+  {
+   "h2": "Quina és la diferència?",
+   "paragraphs": [
+    "A la lluna nova gairebé no es veu la Lluna; a la lluna plena es veu del tot il·luminada. Entre l'una i l'altra passen unes dues setmanes i el cicle es repeteix cada mes."
+   ]
+  },
+  {
+   "h2": "Què significa la lluna nova?",
+   "paragraphs": [
+    "En astrologia, la lluna nova simbolitza un inici, com un full en blanc. Moltes persones l'aprofiten per fixar un objectiu petit per al mes."
+   ]
+  },
+  {
+   "h2": "3 idees per a la lluna nova",
+   "paragraphs": [
+    "1. Escriu un objectiu clar en un paper. 2. Ordena un racó de casa, com l'escriptori o l'armari. 3. Comença un hàbit senzill, com caminar deu minuts al dia. Exemple: la Laia ha començat un quadern d'agraïments, amb una frase cada nit."
+   ]
+  },
+  {
+   "h2": "Lluna plena: significat i 3 idees",
+   "paragraphs": [
+    "La lluna plena simbolitza plenitud i resultats; és un bon moment per mirar enrere. Tres idees: 1. Apunta què has aconseguit aquest mes. 2. Perdona una situació o deixa anar el que ja no et serveix. 3. Passa la vetllada amb la gent estimada mirant la Lluna."
+   ]
+  },
+  {
+   "h2": "Un recordatori honest",
+   "paragraphs": [
+    "No hi ha proves científiques que les fases lunars canviïn la teva vida, el son o la sort. Fes-les servir només per reflexionar i, per a temes de salut, legals o econòmics, consulta un professional."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cada quants dies hi ha lluna nova?",
+   "a": "Aproximadament cada 29 dies i mig."
+  },
+  {
+   "q": "És obligatori fer alguna cosa?",
+   "a": "No, és del tot voluntari."
+  },
+  {
+   "q": "La lluna plena afecta el son?",
+   "a": "No hi ha proves científiques clares; de vegades només molesta la llum intensa."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "lang": "sk",
+ "keyword": "kompatibilita znamení",
+ "volume": 60000,
+ "slug": "kompatibilita-znamen-v-laske",
+ "date": "2026-11-27",
+ "title": "Kompatibilita znamení v láske: oheň, zem, vzduch a voda",
+ "description": "Ako živly (oheň, zem, vzduch, voda) ovplyvňujú kompatibilitu v láske. Jednoduché vysvetlenie a dva príklady párov.",
+ "intro": "„Sme takí odlišní... to je kvôli znameniam?“ Astrológia delí 12 znamení na štyri živly a to pomáha pochopiť, kto si rozumie ľahšie. Vysvetlíme to jednoducho.",
+ "sections": [
+  {
+   "h2": "Štyri živly",
+   "paragraphs": [
+    "Oheň: Baran, Lev, Strelec, energickí a vášniví. Zem: Býk, Panna, Kozorožec, pokojní a spoľahliví. Vzduch: Blíženci, Váhy, Vodnár, spoločenskí a ľahkí. Voda: Rak, Škorpión, Ryby, citliví a starostliví."
+   ]
+  },
+  {
+   "h2": "Kto si rozumie",
+   "paragraphs": [
+    "Zvyčajne si ľahšie rozumejú znamenia rovnakého živlu alebo „susedia“: oheň so vzduchom (vzduch rozdúcha oheň), zem s vodou (voda živí zem).",
+    "Ťažšie je to pri ohni s vodou a zemi so vzduchom, rytmy sú veľmi odlišné. Ťažšie však neznamená nemožné."
+   ]
+  },
+  {
+   "h2": "Príklad 1: Lev a Blíženci",
+   "paragraphs": [
+    "Martin (Lev) rád organizuje oslavy a Lucia (Blíženci) miluje rozhovory s hosťami. Oheň a vzduch: je im spolu veselo a navzájom sa podnecujú."
+   ]
+  },
+  {
+   "h2": "Príklad 2: Panna a Ryby",
+   "paragraphs": [
+    "Peter (Panna) všetko plánuje, Katka (Ryby) žije podľa pocitov. Zem a voda: on jej dáva oporu, ona ho učí jemnosti. Občas sa pohádajú pre maličkosti, no dopĺňajú sa."
+   ]
+  },
+  {
+   "h2": "Čo je najdôležitejšie",
+   "paragraphs": [
+    "Znamenia sú len jedna stránka vzťahu: rešpekt a rozhovory sú dôležitejšie ako akákoľvek tabuľka. Astrológia nie je dokázaná veda a nenahrádza rodinného poradcu, lekára ani právnika."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ktoré znamenia si najviac sedia?",
+   "a": "Najčastejšie sa spomínajú páry rovnakého živlu, oheň so vzduchom a zem s vodou."
+  },
+  {
+   "q": "Dá sa byť šťastný s „nekompatibilným“ znamením?",
+   "a": "Samozrejme. Kompatibilita je len nápoveda, nie rozsudok."
+  },
+  {
+   "q": "Čo ešte treba zohľadniť okrem znamenia?",
+   "a": "Celý natálny horoskop a hlavne skutočné správanie a vzájomný rešpekt."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ }
+}

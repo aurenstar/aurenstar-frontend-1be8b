@@ -1,0 +1,63 @@
+{
+ "lang": "fi",
+ "keyword": "kuunpimennys",
+ "volume": 90000,
+ "slug": "kuunpimennys-mika-se-on-ja-milloin",
+ "date": "2026-11-27",
+ "title": "Kuunpimennys: mikä se on, milloin se tapahtuu ja mitä sinä voit tehdä",
+ "description": "Mikä on kuunpimennys, milloin se tapahtuu ja mitä ihmiset tekevät sinä iltana? Rauhallinen selitys ilman pelkoa.",
+ "intro": "”Tänään on kuunpimennys, mennäänkö katsomaan?” Joku innostuu, joku jännittää. Tässä rauhallinen ja yksinkertainen selitys.",
+ "sections": [
+  {
+   "h2": "Mikä kuunpimennys on?",
+   "paragraphs": [
+    "Kuunpimennyksessä Maa kulkee täsmälleen Auringon ja Kuun välissä, ja Maan varjo peittää Kuun. Kuu näyttää usein punertavalta tai kuparinväriseltä. Ilmiö on täysin luonnollinen ja vaaraton."
+   ]
+  },
+  {
+   "h2": "Milloin se tapahtuu?",
+   "paragraphs": [
+    "Aina täysikuun aikaan, mutta ei joka kuukausi, koska Aurinko, Maa ja Kuu eivät aina ole samalla linjalla. Yleensä näet yhden tai kaksi pimennystä vuodessa. Katsomiseen ei tarvita erikoislaseja, toisin kuin auringonpimennyksessä."
+   ]
+  },
+  {
+   "h2": "Mitä astrologia sanoo?",
+   "paragraphs": [
+    "Astrologiassa kuunpimennys on päätösten ja irti päästämisen aikaa. Sanotaan, että tunteet voivat olla tavallista voimakkaampia."
+   ]
+  },
+  {
+   "h2": "Mitä ihmiset tekevät sinä iltana?",
+   "paragraphs": [
+    "Jotkut menevät ulos katsomaan taivasta, toiset kirjoittavat ylös asiat, joista haluavat päästää irti. Esimerkki: Liisa keittää teetä, istuu parvekkeelle ja kirjoittaa listan tavoista, joita ei enää tarvitse."
+   ]
+  },
+  {
+   "h2": "Rehellinen muistutus",
+   "paragraphs": [
+    "Ei ole tieteellistä näyttöä siitä, että kuunpimennys vaikuttaisi elämääsi. Pidä se rauhoittumisen hetkenä, ei pelon aiheena. Tärkeissä lääketieteellisissä, juridisissa ja taloudellisissa asioissa kysy ammattilaiselta."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Onko kuunpimennys vaarallinen silmille?",
+   "a": "Ei, sitä voi katsoa paljain silmin."
+  },
+  {
+   "q": "Kuinka usein niitä on?",
+   "a": "Yleensä yksi tai kaksi vuodessa, riippuen paikasta."
+  },
+  {
+   "q": "Pitääkö pimennystä pelätä?",
+   "a": "Ei, se on luonnollinen ilmiö."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ }
+}

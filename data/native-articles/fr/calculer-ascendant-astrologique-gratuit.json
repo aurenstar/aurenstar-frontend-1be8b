@@ -1,0 +1,65 @@
+{
+ "lang": "fr",
+ "keyword": "calcul ascendant",
+ "volume": 135000,
+ "slug": "calculer-ascendant-astrologique-gratuit",
+ "date": "2026-11-27",
+ "title": "Calculer son ascendant : comment faire et pourquoi c’est important",
+ "description": "C’est quoi l’ascendant, quelles infos faut-il pour le calculer (date, heure, lieu de naissance) et qu’est-ce que cela change ? Explications simples.",
+ "intro": "« Je suis Taureau mais je ne me reconnais pas du tout dans mon horoscope ! » Si cela vous parle, votre ascendant y est peut-être pour quelque chose. Voici comment le calculer, sans jargon.",
+ "sections": [
+  {
+   "h2": "C’est quoi l’ascendant ?",
+   "paragraphs": [
+    "L’ascendant est le signe qui se levait à l’horizon est au moment précis de votre naissance. Si le signe solaire raconte ce que vous êtes au fond, l’ascendant décrit l’impression que vous donnez au premier regard."
+   ]
+  },
+  {
+   "h2": "Ce dont vous avez besoin",
+   "paragraphs": [
+    "Trois informations : la date, l’heure exacte et la ville de naissance. L’heure est la plus importante, car l’ascendant change environ toutes les deux heures.",
+    "Exemple : Julien est né à Lyon le 12 avril à 8 h 20. Son cousin, né le même jour à 16 h, n’a pas du tout le même ascendant."
+   ]
+  },
+  {
+   "h2": "Où trouver l’heure de naissance ?",
+   "paragraphs": [
+    "Regardez le livret de famille, l’acte de naissance intégral ou le carnet de santé. Demandez aussi à vos parents ou à votre grand-mère : elle s’en souvient souvent ! Sans heure fiable, le résultat reste approximatif."
+   ]
+  },
+  {
+   "h2": "Ce que l’ascendant change dans votre style",
+   "paragraphs": [
+    "On dit qu’il influence votre façon d’entrer dans une pièce : plutôt discret, chaleureux, direct ou réservé. Par exemple, un Lion ascendant Cancer peut paraître doux et prudent, alors qu’il est plein d’énergie à l’intérieur."
+   ]
+  },
+  {
+   "h2": "Un rappel honnête",
+   "paragraphs": [
+    "L’astrologie n’est pas une science prouvée. Elle sert à se questionner et à se divertir, pas à remplacer l’avis d’un médecin, d’un avocat ou d’un conseiller financier."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "L’ascendant est-il identique au signe ?",
+   "a": "Non. Le signe est en général le signe solaire ; l’ascendant se calcule avec l’heure et le lieu."
+  },
+  {
+   "q": "Peut-on le calculer sans l’heure ?",
+   "a": "Pas avec précision. On peut seulement essayer plusieurs hypothèses."
+  },
+  {
+   "q": "Mon lieu de vie actuel compte-t-il ?",
+   "a": "Non, seul le lieu de naissance compte."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "FAQ",
+  "more": "Suite",
+  "dictionary": "Dictionnaire"
+ }
+}

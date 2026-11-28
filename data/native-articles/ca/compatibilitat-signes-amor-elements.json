@@ -1,0 +1,63 @@
+{
+ "lang": "ca",
+ "keyword": "compatibilitat de signes en l'amor",
+ "volume": 60000,
+ "slug": "compatibilitat-signes-amor-elements",
+ "date": "2026-11-27",
+ "title": "Compatibilitat de signes en l'amor: foc, terra, aire i aigua",
+ "description": "Com combinen els signes en l'amor segons els quatre elements? Explicació senzilla amb dos exemples de parelles inventades.",
+ "intro": "«El meu signe va bé amb el seu?» Moltes persones es fan aquesta pregunta. La manera més fàcil de respondre és mirar l'element de cada signe.",
+ "sections": [
+  {
+   "h2": "Els quatre elements",
+   "paragraphs": [
+    "Cada signe pertany a un element: foc (Be, Lleó, Sagitari), terra (Brau, Verge, Capricorn), aire (Bessons, Balança, Aquari) i aigua (Cranc, Escorpí, Peixos). Es diu que els signes del mateix element s'entenen amb facilitat."
+   ]
+  },
+  {
+   "h2": "Quins elements s'avenen?",
+   "paragraphs": [
+    "El foc s'avé amb l'aire perquè el vent atia les flames, i la terra i l'aigua es complementen com un camp que es rega. Foc i aigua poden refredar l'escalfor, i terra i aire poden anar a ritmes diferents, però això no vol dir que no funcioni."
+   ]
+  },
+  {
+   "h2": "Exemple: l'Ona i en Pau",
+   "paragraphs": [
+    "L'Ona és Lleó (foc) i en Pau és Balança (aire). Ella és espontània i alegre; ell estima parlar i fer plans. Riuen molt i s'animen l'un a l'altre."
+   ]
+  },
+  {
+   "h2": "Exemple: la Núria i en Jordi",
+   "paragraphs": [
+    "La Núria és Cranc (aigua) i en Jordi és Capricorn (terra). Ella és sensible i afectuosa; ell, seriós i pràctic. Al principi necessiten paciència, però l'estabilitat d'en Jordi li dona seguretat i la tendresa d'ella l'amanyaga."
+   ]
+  },
+  {
+   "h2": "Un recordatori honest",
+   "paragraphs": [
+    "Els signes no decideixen el destí de la parella i no hi ha proves científiques que prediguin l'amor. El respecte, la sinceritat i el diàleg compten molt més. Per a problemes de parella, psicològics o legals, consulta un professional."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Una parella de signes poc compatibles pot ser feliç?",
+   "a": "Sí. La compatibilitat és només una pista; la relació es construeix cada dia."
+  },
+  {
+   "q": "Quins elements s'avenen més?",
+   "a": "Foc amb aire i terra amb aigua es consideren els més harmoniosos."
+  },
+  {
+   "q": "He d'escollir parella segons el signe?",
+   "a": "No. Pren-ho com un joc i una excusa per conversar."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ }
+}

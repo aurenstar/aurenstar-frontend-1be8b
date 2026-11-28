@@ -1,0 +1,68 @@
+{
+ "lang": "lt",
+ "keyword": "kylantis ženklas",
+ "volume": 135000,
+ "slug": "kaip-apskaiciuoti-kylanti-zenkla",
+ "date": "2026-11-27",
+ "title": "Kylantis ženklas: kaip jį apskaičiuoti ir ką jis reiškia",
+ "description": "Kas yra kylantis ženklas (ascendentas), ko reikia jam apskaičiuoti ir kaip jis veikia pirmą įspūdį. Paprastai, su pavyzdžiais.",
+ "intro": "„Žinau, kad esu Liūtas, bet kas tas kylantis ženklas?“ – klausia Rūta iš Kauno. Ji gimė anksti ryte ir stebėjosi, kodėl žmonės ją pirmąkart sutikę laiko ramia, nors viduje ji audringa. Paaiškinsiu be sudėtingų terminų.",
+ "sections": [
+  {
+   "h2": "Kas yra kylantis ženklas?",
+   "paragraphs": [
+    "Tai zodiako ženklas, kuris tavo gimimo akimirką kilo rytiniame horizonte. Paprasčiau: tai rytų dangaus ruožas tuo metu, kai gimei.",
+    "Todėl du žmonės, gimę tą pačią dieną, bet skirtingu laiku, gali turėti skirtingus kylančius ženklus."
+   ]
+  },
+  {
+   "h2": "Ko reikia skaičiavimui",
+   "paragraphs": [
+    "Reikia trijų dalykų: gimimo datos, tikslaus gimimo laiko ir gimimo miesto. Miestas svarbus, nes skirtingose vietose rytų horizontas atrodo kitaip.",
+    "Laiką dažnai galima rasti gimimo liudijime ar paklausti tėvų. Net 30 minučių paklaida gali pakeisti rezultatą."
+   ]
+  },
+  {
+   "h2": "Kaip apskaičiuoti",
+   "paragraphs": [
+    "Rankomis skaičiuoti sudėtinga, todėl dauguma naudoja nemokamą skaičiuoklę: įvedi datą, laiką, miestą, o rezultatas pasirodo per kelias sekundes.",
+    "Jei gimei Lietuvoje, patikrink, ar skaičiuoklė teisingai atsižvelgia į vasaros laiką ir ankstesnių metų laiko juostas."
+   ]
+  },
+  {
+   "h2": "Ką jis keičia tavo elgesyje",
+   "paragraphs": [
+    "Saulės ženklas dažnai siejamas su tuo, kas esi viduje, o kylantis ženklas – su tuo, kaip atrodai kitiems. Pavyzdžiui, Saulė Liūte, o kylantis Mergelė: viduje drąsi, bet iš šalies atrodai tvarkinga ir santūri.",
+    "Taip pat jis siejamas su pirmąja reakcija naujoje situacijoje ir stiliumi."
+   ]
+  },
+  {
+   "h2": "Sąžiningai apie astrologiją",
+   "paragraphs": [
+    "Astrologija nėra moksliškai įrodyta, tai pramoga ir savirefleksijos priemonė.",
+    "Sveikatos, teisės ar finansų klausimus spręsk su gydytoju, teisininku ar finansų konsultantu, o ne pagal žvaigždes."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ką daryti, jei nežinau gimimo laiko?",
+   "a": "Paklausk artimųjų arba pažiūrėk dokumentuose. Jei nepavyksta, kylančio ženklo tiksliai nenustatysi, tada pakanka Saulės ženklo."
+  },
+  {
+   "q": "Kas svarbiau: Saulės ar kylantis ženklas?",
+   "a": "Nė vienas nėra svarbesnis, jie rodo skirtingas puses: vidų ir pirmą įspūdį."
+  },
+  {
+   "q": "Ar kylantis ženklas keičiasi?",
+   "a": "Ne, jis lieka toks pats visą gyvenimą."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "lang": "sv",
+ "keyword": "nymåne och fullmåne",
+ "volume": 40000,
+ "slug": "nymane-och-fullmane-skillnad-och-betydelse",
+ "date": "2026-11-27",
+ "title": "Nymåne och fullmåne: skillnaden och vad du kan göra",
+ "description": "Vad skiljer nymåne från fullmåne, vad betyder de inom astrologin och tre enkla idéer för varje.",
+ "intro": "”Ikväll är det nymåne, perfekt tid att önska sig något!” Vad är nymåne och hur skiljer den sig från fullmåne? Vi förklarar enkelt.",
+ "sections": [
+  {
+   "h2": "Vad är skillnaden",
+   "paragraphs": [
+    "Vid nymåne syns månen nästan inte alls på himlen: den står mellan jorden och solen. Vid fullmåne är den rund och ljus: jorden står mellan dem.",
+    "Mellan de två dagarna går ungefär två veckor, och så upprepas det varje månad."
+   ]
+  },
+  {
+   "h2": "Vad betyder nymåne",
+   "paragraphs": [
+    "Inom astrologin är nymånen en tid för ”rent blad”: börja, planera och sätt mål. Som första dagen på ett nytt jobb eller första sidan i ett nytt block."
+   ]
+  },
+  {
+   "h2": "3 idéer för nymåne",
+   "paragraphs": [
+    "1. Skriv ner tre mål för månaden. 2. Städa skrivbordet eller mobilen. 3. Börja med en liten ny vana, till exempel en kvällspromenad.",
+    "Exempel: Klara skrev vid nymånen ”läsa 10 minuter varje dag”, och en månad senare var det en vana."
+   ]
+  },
+  {
+   "h2": "Vad betyder fullmåne, och 3 idéer",
+   "paragraphs": [
+    "Fullmånen är en tid för sammanfattning och känslor: man säger att allt ”mognar” och blir tydligare. Många sover sämre de dagarna, vilket inte är farligt.",
+    "Idéer: 1. Summera månaden: vad gick bra. 2. Tacka dem som hjälpt dig. 3. Släpp det som inte behövs: radera gamla filer eller släng gamla saker."
+   ]
+  },
+  {
+   "h2": "Kom ihåg",
+   "paragraphs": [
+    "Astrologi är inte bevisad vetenskap och ersätter inte läkare, jurist eller finansiell rådgivare. Månens faser är en anledning till lugna ritualer, inte till att ändra viktiga beslut."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hur lång är en måncykel?",
+   "a": "Ungefär 29,5 dygn från en nymåne till nästa."
+  },
+  {
+   "q": "Måste jag önska mig något vid nymåne?",
+   "a": "Nej. Det är bara ett bra tillfälle att fundera över sina planer."
+  },
+  {
+   "q": "Varför sover man sämre vid fullmåne?",
+   "a": "Vissa säger det, men det finns få vetenskapliga belägg. Det starka månljuset kan störa sömnen."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ }
+}

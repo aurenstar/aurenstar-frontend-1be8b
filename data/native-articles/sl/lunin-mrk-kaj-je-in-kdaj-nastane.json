@@ -1,0 +1,67 @@
+{
+ "lang": "sl",
+ "keyword": "lunin mrk",
+ "volume": 90000,
+ "slug": "lunin-mrk-kaj-je-in-kdaj-nastane",
+ "date": "2026-11-27",
+ "title": "Lunin mrk: kaj je, kdaj nastane in kaj ljudje počnejo",
+ "description": "Kaj je lunin mrk, zakaj nastane in kaj ljudje počnejo v teh dneh. Mirna razlaga brez strahu.",
+ "intro": "»Jutri je lunin mrk, pravijo, da se ne sme začeti ničesar!« Mirno. Poglejmo, kaj to resnično je in kako ljudje gledajo nanj.",
+ "sections": [
+  {
+   "h2": "Kaj je lunin mrk",
+   "paragraphs": [
+    "Lunin mrk nastane, ko se Zemlja postavi natanko med Sonce in Luno ter jo prekrije s svojo senco. Luna takrat pogosto postane rdečkasta, zato ji pravijo »krvava«, čeprav ni nič strašnega.",
+    "Kot da bi se postavili med svetilko in steno: na steni se pokaže vaša senca."
+   ]
+  },
+  {
+   "h2": "Kdaj nastane",
+   "paragraphs": [
+    "Lunin mrk je vedno ob polni luni, dva- do trikrat na leto, vendar ga ne vidijo vse države. Točen čas poiščite v astronomskem koledarju za vaš kraj.",
+    "Opazujete ga lahko varno s prostim očesom, za razliko od sončnega mrka."
+   ]
+  },
+  {
+   "h2": "Kaj pravi astrologija",
+   "paragraphs": [
+    "V astrologiji mrke imajo za čas »ponovnega zagona«: stare teme se zaprejo, nastanejo nove. Pravijo, da so čustva v teh dneh močnejša.",
+    "To je izročilo, ne dokazano dejstvo. Vzemite ga kot razlog, da se ustavite in razmislite."
+   ]
+  },
+  {
+   "h2": "Kaj ljudje počnejo v teh dneh",
+   "paragraphs": [
+    "Nekdo stopi na balkon in opazuje nebo. Drugi zapiše, česa se želi znebiti, ali večji nakup preloži za nekaj dni.",
+    "Na primer: Maja je na dan mrka skuhala čaj, izklopila telefon in napisala seznam stvari, ki jih želi končno dokončati. Mirno in koristno."
+   ]
+  },
+  {
+   "h2": "Brez strahu in praznoverja",
+   "paragraphs": [
+    "Mrk sam po sebi ne prinaša nesreče. Astrologija ni dokazana znanost in ne nadomešča zdravnika, odvetnika ali finančnega svetovalca, zato pomembne odločitve sprejemajte s hladno glavo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ali je nevarno gledati lunin mrk?",
+   "a": "Ne, gledate ga lahko brez zaščite, je varen."
+  },
+  {
+   "q": "Kako dolgo traja lunin mrk?",
+   "a": "Običajno nekaj ur, popolna faza pa približno uro."
+  },
+  {
+   "q": "Ali je res, da na dan mrka ne smemo začeti ničesar?",
+   "a": "To je ljudsko verovanje, ne pravilo. Le ne hitite s pomembnimi odločitvami."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ }
+}

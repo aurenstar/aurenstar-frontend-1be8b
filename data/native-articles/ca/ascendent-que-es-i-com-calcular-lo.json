@@ -1,0 +1,64 @@
+{
+ "lang": "ca",
+ "keyword": "ascendent com calcular-lo",
+ "volume": 135000,
+ "slug": "ascendent-que-es-i-com-calcular-lo",
+ "date": "2026-11-27",
+ "title": "Ascendent: què és i com calcular-lo fàcilment",
+ "description": "Què és l'ascendent, què necessites per calcular-lo i com canvia la teva manera de ser. Explicació senzilla amb exemples.",
+ "intro": "«Sóc Lleó, però la meva amiga diu que actuo com una Verge!» Sovint l'explicació és l'ascendent. Vegem-ho amb paraules fàcils, sense tecnicismes.",
+ "sections": [
+  {
+   "h2": "Què és l'ascendent?",
+   "paragraphs": [
+    "L'ascendent és el signe que s'alçava per l'horitzó est just en el moment que vas néixer. Pensa en una sortida de sol: cada dues hores surt un signe nou. Per això dues persones nascudes el mateix dia poden tenir ascendents diferents."
+   ]
+  },
+  {
+   "h2": "Què necessites per calcular-lo?",
+   "paragraphs": [
+    "Només et calen tres coses: la data de naixement, l'hora (com més exacta, millor) i la ciutat on vas néixer. L'hora és clau, perquè uns minuts poden canviar el signe.",
+    "Exemple: la Marta va néixer a Girona a les 6.40 del matí i el seu germà a migdia. Tenen el mateix signe solar, però ascendents diferents."
+   ]
+  },
+  {
+   "h2": "Com es calcula?",
+   "paragraphs": [
+    "No cal fer càlculs. Posa les tres dades en una calculadora gratuïta i en pocs segons tens el resultat. Si no saps l'hora, pregunta a casa o mira el llibre de família; sovint hi està apuntada."
+   ]
+  },
+  {
+   "h2": "Què canvia en la teva manera de ser?",
+   "paragraphs": [
+    "Es diu que el signe solar és la teva essència i l'ascendent és la primera impressió i la manera d'afrontar les coses. Algú de signe tranquil amb ascendent de foc pot semblar decidit en conèixer-lo, i la calma es nota després."
+   ]
+  },
+  {
+   "h2": "Un recordatori honest",
+   "paragraphs": [
+    "L'astrologia no és una ciència demostrada i no prediu la teva vida amb certesa. Fes-la servir per entretenir-te i reflexionar. Per a decisions de salut, legals o econòmiques, consulta un metge, un advocat o un assessor financer."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Puc calcular l'ascendent sense l'hora de naixement?",
+   "a": "Només de manera aproximada. Sense l'hora el resultat pot ser erroni; intenta aconseguir-la a la família o als documents."
+  },
+  {
+   "q": "L'ascendent és el mateix que el signe?",
+   "a": "No. El signe depèn de la posició del Sol el dia que vas néixer; l'ascendent, de l'hora i el lloc."
+  },
+  {
+   "q": "L'ascendent canvia amb els anys?",
+   "a": "No, és el mateix tota la vida."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ }
+}

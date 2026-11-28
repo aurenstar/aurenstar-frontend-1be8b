@@ -1,0 +1,68 @@
+{
+ "lang": "lt",
+ "keyword": "mėnulio užtemimas",
+ "volume": 90000,
+ "slug": "menulio-uztemimas-kas-tai-ir-kada",
+ "date": "2026-11-27",
+ "title": "Mėnulio užtemimas: kas tai, kada būna ir ką žmonės daro",
+ "description": "Paprastai apie mėnulio užtemimą: kas tai, kada jį galima matyti Lietuvoje ir ką žmonės veikia tą naktį. Be baimės.",
+ "intro": "„Šįvakar bus kruvinas Mėnulis!“ – parašė Tomas draugams ir visi susirinko ant stogo stebėti. Mėnulio užtemimas yra gražus reginys, o ne priežastis bijoti.",
+ "sections": [
+  {
+   "h2": "Kas yra mėnulio užtemimas?",
+   "paragraphs": [
+    "Tai kai Žemė atsistoja tarp Saulės ir Mėnulio, o jos šešėlis uždengia pilnatį. Todėl užtemimas būna tik per pilnatį.",
+    "Kai Mėnulis visiškai užtemsta, jis pasidaro rausvas, nes Žemės atmosfera praleidžia raudoną šviesą, kaip saulėlydyje."
+   ]
+  },
+  {
+   "h2": "Kada būna?",
+   "paragraphs": [
+    "Per metus būna maždaug du užtemimai, bet ne visada jie matomi Lietuvoje. Reikia, kad Mėnulis tuo metu būtų virš horizonto.",
+    "Datas rasi astronomų kalendoriuose ar naujienose. Skirtingai nei saulės, mėnulio užtemimą saugu stebėti plika akimi."
+   ]
+  },
+  {
+   "h2": "Ką sako astrologija?",
+   "paragraphs": [
+    "Astrologai užtemimą dažnai laiko pabaigų ir apibendrinimo metu: tinkamas laikas užbaigti seną ir paleisti, kas nebereikalinga.",
+    "Tai tik aiškinimas. Nėra įrodymų, kad užtemimas atneša nelaimių."
+   ]
+  },
+  {
+   "h2": "Ką žmonės daro tą naktį?",
+   "paragraphs": [
+    "Vieni važiuoja už miesto fotografuoti, kiti su šeima žiūri pro langą su arbata. Dar kiti rašo dienoraštį ar sutvarko spintą.",
+    "Svarbiausia – ramiai pasimėgauti."
+   ]
+  },
+  {
+   "h2": "Prisimink",
+   "paragraphs": [
+    "Astrologija nėra moksliškai įrodyta ir negali pakeisti gydytojo, teisininko ar finansų konsultanto.",
+    "Svarbius sprendimus priimk su žinovais, o ne pagal Mėnulio fazę."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar pavojinga žiūrėti į mėnulio užtemimą?",
+   "a": "Ne, jį saugu stebėti plika akimi."
+  },
+  {
+   "q": "Kiek trunka?",
+   "a": "Visas užtemimas trunka kelias valandas, o visiškas užtemimas apie valandą ar mažiau."
+  },
+  {
+   "q": "Ar užtemimas tikrai atneša nelaimių?",
+   "a": "Tam nėra mokslinių įrodymų. Gyvenk kaip įprasta."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ }
+}

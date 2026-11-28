@@ -1,0 +1,63 @@
+{
+ "lang": "hu",
+ "keyword": "holdfogyatkozás",
+ "volume": 90000,
+ "slug": "holdfogyatkozas-mi-ez-es-mit-csinalnak-ilyenkor",
+ "date": "2026-11-27",
+ "title": "Holdfogyatkozás: mi ez, mikor van és mit csinálnak az emberek?",
+ "description": "Mi a holdfogyatkozás, miért történik, és mit szoktak tenni ilyenkor? Nyugodtan, egyszerűen elmagyarázva.",
+ "intro": "„Ma este vörös lesz a Hold!” Juli néni már viszi a széket az erkélyre. A holdfogyatkozás szép látvány, nem ok a félelemre.",
+ "sections": [
+  {
+   "h2": "Mi a holdfogyatkozás?",
+   "paragraphs": [
+    "Holdfogyatkozáskor a Föld pontosan a Nap és a Hold közé kerül. A Föld árnyéka rávetül a Holdra, ezért az sötétebb vagy vöröses lesz. A Holdnak semmi baja, csak árnyékba kerül."
+   ]
+  },
+  {
+   "h2": "Mikor történik?",
+   "paragraphs": [
+    "Csak telihold idején lehetséges, évente néhányszor. Szabad szemmel nézhető, különleges szemüveg nélkül, és mindenhol látszik, ahol a Hold a horizont felett van."
+   ]
+  },
+  {
+   "h2": "Mit mond az asztrológia?",
+   "paragraphs": [
+    "Az asztrológia a fogyatkozásokat lezárások és újrakezdések idejének tartja. Úgy tartják, ilyenkor előbújik, amit eddig elrejtettünk, ezért sokan egy fejezetet zárnak le."
+   ]
+  },
+  {
+   "h2": "Mit csinálnak az emberek?",
+   "paragraphs": [
+    "A legtöbben csak nézik az eget a családdal. Vannak, akik leírják, mit szeretnének elengedni, sétálnak vagy meditálnak. Nóra például felírja három dolgot, amit már nem akar cipelni, és eltesz a fiókba."
+   ]
+  },
+  {
+   "h2": "Maradjunk nyugodtak",
+   "paragraphs": [
+    "A holdfogyatkozás nem veszélyes, a babonák, például a terhesekről szóló, nem igazak. Az asztrológia nem bizonyított tudomány, és nem helyettesíti az orvost, az ügyvédet vagy a pénzügyi tanácsadót. Élvezd a látványt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Veszélyes a holdfogyatkozást nézni?",
+   "a": "Nem, a napfogyatkozással ellentétben szabad szemmel is nézhető."
+  },
+  {
+   "q": "Miért lesz vörös a Hold?",
+   "a": "A Föld légköre vörös fényt enged a Holdra, mint naplementekor."
+  },
+  {
+   "q": "Milyen gyakori?",
+   "a": "Általában évente kétszer, de nem mindenhol látható."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ }
+}
