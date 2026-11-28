@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "kwadratura astrologia",
+ "volume": "1000",
+ "slug": "kwadratura-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kwadratura w astrologii: co oznacza?",
+ "description": "Dwie planety dzieli 90 stopni. To kwadratura. Wyjaśnione prosto, z przykładem.",
+ "intro": "Kwadratura to dwie planety oddalone o ćwierć koła. Daje tarcie, ale też impuls do działania.",
+ "sections": [
+  {
+   "h2": "Czym jest kwadratura?",
+   "paragraphs": [
+    "Wyobraź sobie kamyk w bucie: uwiera, więc coś z tym robisz. Tak kwadratura popycha Cię do przodu."
+   ]
+  },
+  {
+   "h2": "Czego się uczysz?",
+   "paragraphs": [
+    "Rośniesz, rozwiązując napięcie. Często to Twoje najsilniejsze strony, bo trzeba było o nie walczyć."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Księżyc w kwadraturze do Marsa: Róża łatwo się irytuje. Uczy się ćwiczyć i spokojnie oddychać, i staje się silniejsza."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ile stopni ma kwadratura?",
+   "a": "Około 90 stopni, z tolerancją 6–8 stopni."
+  },
+  {
+   "q": "Czy kwadratura jest zła?",
+   "a": "Nie, jest trudna, ale też motywująca."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

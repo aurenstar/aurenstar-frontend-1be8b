@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "ruut aspekt astroloogia",
+ "volume": "1000",
+ "slug": "ruut-aspekt-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ruut astroloogias: mida see tähendab?",
+ "description": "Kaks planeeti on 90 kraadi teineteisest. Seda nimetatakse ruuduks. Lihtsalt ja näitega.",
+ "intro": "Ruut on siis, kui kaks planeeti on veerandringi kaugusel. See annab hõõrdumist, aga ka tõuke tegutseda.",
+ "sections": [
+  {
+   "h2": "Mis on ruut?",
+   "paragraphs": [
+    "Mõtle kivikesele kingas: hõõrub, seega teed midagi. Nii tõukab ruut sind edasi."
+   ]
+  },
+  {
+   "h2": "Mida õpid?",
+   "paragraphs": [
+    "Kasvad pinget lahendades. Sageli saavad sellest sinu tugevaimad küljed, sest pidid nende eest võitlema."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Kuu ruudus Marsiga: Roosi ärritub kergesti. Ta õpib trenni tegema ja rahulikult hingama ning saab tugevamaks."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mitu kraadi on ruut?",
+   "a": "Umbes 90 kraadi, 6–8 kraadi varuga."
+  },
+  {
+   "q": "Kas ruut on halb?",
+   "a": "Ei, see on raske, aga ka motiveeriv."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

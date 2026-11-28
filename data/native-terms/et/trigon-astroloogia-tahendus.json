@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "trigon astroloogia",
+ "volume": "1000",
+ "slug": "trigon-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigon astroloogias: mida see tähendab?",
+ "description": "Kaks planeeti on 120 kraadi teineteisest. Seda nimetatakse trigooniks. Lihtsalt ja näitega.",
+ "intro": "Trigon on siis, kui kaks planeeti on kolmandiku ringi kaugusel. Nende energia voolab kergelt ja anne tuleb iseenesest.",
+ "sections": [
+  {
+   "h2": "Mis on trigon?",
+   "paragraphs": [
+    "Mõtle vooluga ujumisele: läheb peaaegu iseenesest. Nii teevad kaks planeeti vaevata koostööd."
+   ]
+  },
+  {
+   "h2": "Pane tähele",
+   "paragraphs": [
+    "Kuna see läheb nii kergelt, ei kasuta sa seda alati. Anne kasvab alles harjutades."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Päike trigonis Jupiteriga: Roosil on õnne ja enesekindlust. Kuid ta peab ise sammu astuma, muidu jääb see vaid võimaluseks."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mitu kraadi on trigon?",
+   "a": "Umbes 120 kraadi, 6–8 kraadi varuga."
+  },
+  {
+   "q": "Kas trigon on alati hea?",
+   "a": "See on kingitus, aga seda tuleb kasutada."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

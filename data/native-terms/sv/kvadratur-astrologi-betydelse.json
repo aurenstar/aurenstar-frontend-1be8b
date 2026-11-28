@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "kvadratur astrologi",
+ "volume": "1000",
+ "slug": "kvadratur-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kvadratur i astrologin: vad betyder det?",
+ "description": "Två planeter står 90 grader från varandra. Det kallas kvadratur. Enkelt förklarat med exempel.",
+ "intro": "En kvadratur är när två planeter står en kvarts cirkel från varandra. Det ger friktion, men också knuffen att agera.",
+ "sections": [
+  {
+   "h2": "Vad är en kvadratur?",
+   "paragraphs": [
+    "Tänk på en sten i skon: det skaver, och därför gör du något. Så knuffar en kvadratur dig framåt."
+   ]
+  },
+  {
+   "h2": "Vad lär du dig?",
+   "paragraphs": [
+    "Du växer genom att lösa spänningen. Ofta blir det dina starkaste sidor, för du fick kämpa för dem."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Måne kvadrat Mars: Rosa blir lätt irriterad. Hon lär sig träna och andas lugnt och blir starkare."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hur många grader är en kvadratur?",
+   "a": "Ungefär 90 grader, med utrymme på 6 till 8 grader."
+  },
+  {
+   "q": "Är kvadratur dåligt?",
+   "a": "Nej, det är jobbigt men också motiverande."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

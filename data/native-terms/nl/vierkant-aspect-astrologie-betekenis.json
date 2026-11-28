@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "vierkant aspect astrologie",
+ "volume": "1000",
+ "slug": "vierkant-aspect-astrologie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Vierkant (quadratuur) in de astrologie: wat betekent het?",
+ "description": "Twee planeten staan op 90 graden van elkaar. Dat heet een vierkant. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "Een vierkant is als twee planeten een kwart van de cirkel uit elkaar staan. Het geeft wrijving, maar ook de duw om in actie te komen.",
+ "sections": [
+  {
+   "h2": "Wat is een vierkant?",
+   "paragraphs": [
+    "Denk aan een steen in je schoen: het zeurt, en daarom doe je er iets aan. Zo duwt een vierkant je vooruit."
+   ]
+  },
+  {
+   "h2": "Wat leer je ervan?",
+   "paragraphs": [
+    "Je groeit door de spanning op te lossen. Vaak zijn het je sterkste punten, omdat je er hard voor moest werken."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Maan vierkant Mars: Roos is snel geïrriteerd. Ze leert te sporten en rustig te ademen en wordt er sterker van."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hoeveel graden is een vierkant?",
+   "a": "Ongeveer 90 graden, met ruimte van zo'n 6 tot 8 graden."
+  },
+  {
+   "q": "Is een vierkant slecht?",
+   "a": "Nee, het is lastig maar ook motiverend."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

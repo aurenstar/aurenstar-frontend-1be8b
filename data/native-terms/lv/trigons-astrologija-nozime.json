@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "trigons astroloģija",
+ "volume": "1000",
+ "slug": "trigons-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigons astroloģijā: ko tas nozīmē?",
+ "description": "Divas planētas atrodas 120 grādu attālumā. To sauc par trigonu. Vienkārši, ar piemēru.",
+ "intro": "Trigons ir, kad divas planētas atrodas apļa trešdaļas attālumā. Viņu enerģija plūst viegli, un talants nāk pats.",
+ "sections": [
+  {
+   "h2": "Kas ir trigons?",
+   "paragraphs": [
+    "Iedomājies peldēšanu pa straumi: iet gandrīz pats. Tā divas planētas sadarbojas bez piepūles."
+   ]
+  },
+  {
+   "h2": "Ņem vērā",
+   "paragraphs": [
+    "Tā kā tas iet tik viegli, dažreiz to neizmanto. Talants aug tikai, kad to trenē."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Saule trigonā ar Jupiteru: Rozei ir veiksme un pašapziņa. Taču viņai pašai jāsper solis, citādi paliek tikai iespēja."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cik grādu ir trigons?",
+   "a": "Apmēram 120 grādu, ar 6–8 grādu rezervi."
+  },
+  {
+   "q": "Vai trigons vienmēr ir labs?",
+   "a": "Tā ir dāvana, bet tā jāizmanto."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

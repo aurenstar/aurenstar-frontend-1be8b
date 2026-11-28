@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "trigon asztrológia",
+ "volume": "1000",
+ "slug": "trigon-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigon (harmadfény) az asztrológiában: mit jelent?",
+ "description": "Két bolygó 120 fokra van egymástól. Ezt hívják trigonnak. Egyszerűen, példával.",
+ "intro": "A trigon akkor van, ha két bolygó a kör harmadára áll egymástól. Az energiájuk könnyen áramlik, a tehetség magától jön.",
+ "sections": [
+  {
+   "h2": "Mi a trigon?",
+   "paragraphs": [
+    "Gondolj az árral úszásra: szinte magától megy. Így dolgozik együtt két bolygó erőfeszítés nélkül."
+   ]
+  },
+  {
+   "h2": "Figyelem",
+   "paragraphs": [
+    "Mivel olyan könnyű, néha nem használod ki. A tehetség csak gyakorlással nő."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Nap trigonban a Jupiterrel: Rózsának szerencséje és önbizalma van. De neki kell megtennie a lépést, különben csak esély marad."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hány fok a trigon?",
+   "a": "Körülbelül 120 fok, 6–8 fok eltéréssel."
+  },
+  {
+   "q": "Mindig jó a trigon?",
+   "a": "Ajándék, de használnod kell."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

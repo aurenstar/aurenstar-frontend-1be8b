@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "góc tam hợp 120 độ",
+ "volume": "1000",
+ "slug": "goc-tam-hop-trine-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trine (góc tam hợp 120 độ) trong chiêm tinh là gì?",
+ "description": "Hai hành tinh cách nhau 120 độ gọi là trine. Giải thích đơn giản, có ví dụ.",
+ "intro": "Trine là khi hai hành tinh cách nhau một phần ba vòng tròn. Năng lượng chảy suôn sẻ và tài năng tự nhiên xuất hiện.",
+ "sections": [
+  {
+   "h2": "Trine là gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến bơi xuôi dòng: gần như tự đi. Hai hành tinh phối hợp nhẹ nhàng như vậy."
+   ]
+  },
+  {
+   "h2": "Lưu ý",
+   "paragraphs": [
+    "Vì quá dễ nên đôi khi bạn không dùng đến. Tài năng chỉ lớn khi bạn luyện tập."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Mặt Trời trine Mộc Tinh: Lan may mắn và tự tin. Nhưng cô phải tự bước một bước, nếu không chỉ là cơ hội."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Trine bao nhiêu độ?",
+   "a": "Khoảng 120 độ, sai số 6 đến 8 độ."
+  },
+  {
+   "q": "Trine có luôn tốt không?",
+   "a": "Đó là món quà, nhưng bạn phải dùng nó."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

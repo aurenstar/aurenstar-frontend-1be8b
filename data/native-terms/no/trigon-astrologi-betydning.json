@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "trigon astrologi",
+ "volume": "1000",
+ "slug": "trigon-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigon i astrologi: hva betyr det?",
+ "description": "To planeter står 120 grader fra hverandre. Det kalles trigon. Enkelt forklart med eksempel.",
+ "intro": "En trigon er når to planeter står en tredjedel av sirkelen fra hverandre. Energien deres flyter lett, og talentet kommer av seg selv.",
+ "sections": [
+  {
+   "h2": "Hva er en trigon?",
+   "paragraphs": [
+    "Tenk på å svømme med strømmen: det går nesten av seg selv. Slik samarbeider to planeter uten anstrengelse."
+   ]
+  },
+  {
+   "h2": "Husk",
+   "paragraphs": [
+    "Fordi det går så lett, bruker man det noen ganger ikke. Et talent vokser først når du øver."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Sol trigon Jupiter: Rosa har hell og selvtillit. Men hun må ta et steg selv, ellers blir det bare en sjanse."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvor mange grader er en trigon?",
+   "a": "Omtrent 120 grader, med rom for 6 til 8 grader."
+  },
+  {
+   "q": "Er trigon alltid bra?",
+   "a": "Det er en gave, men du må bruke den."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

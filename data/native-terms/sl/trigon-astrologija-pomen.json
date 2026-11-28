@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "trigon astrologija",
+ "volume": "1000",
+ "slug": "trigon-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigon v astrologiji: kaj pomeni?",
+ "description": "Dva planeta sta oddaljena 120 stopinj. Temu pravimo trigon. Preprosto, s primerom.",
+ "intro": "Trigon je, ko sta dva planeta oddaljena tretjino kroga. Njuna energija teče zlahka, talent pride sam.",
+ "sections": [
+  {
+   "h2": "Kaj je trigon?",
+   "paragraphs": [
+    "Predstavljajte si plavanje s tokom: gre skoraj samo. Tako dva planeta sodelujeta brez napora."
+   ]
+  },
+  {
+   "h2": "Pozor",
+   "paragraphs": [
+    "Ker gre tako zlahka, ga včasih ne izkoristite. Talent raste šele, ko vadite."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Sonce v trigonu z Jupitrom: Roza ima srečo in samozavest. A sama mora narediti korak, sicer ostane le priložnost."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko stopinj je trigon?",
+   "a": "Približno 120 stopinj, s toleranco 6 do 8."
+  },
+  {
+   "q": "Je trigon vedno dober?",
+   "a": "Je dar, a ga morate uporabiti."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

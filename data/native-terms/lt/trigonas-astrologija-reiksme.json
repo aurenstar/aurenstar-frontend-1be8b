@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "trigonas astrologija",
+ "volume": "1000",
+ "slug": "trigonas-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigonas astrologijoje: ką tai reiškia?",
+ "description": "Dvi planetos nutolusios 120 laipsnių. Tai trigonas. Paprastai, su pavyzdžiu.",
+ "intro": "Trigonas yra, kai dvi planetos nutolusios trečdaliu apskritimo. Jų energija teka lengvai, o talentas ateina savaime.",
+ "sections": [
+  {
+   "h2": "Kas yra trigonas?",
+   "paragraphs": [
+    "Įsivaizduok plaukimą pasroviui: eina beveik savaime. Taip dvi planetos bendradarbiauja be pastangų."
+   ]
+  },
+  {
+   "h2": "Atkreipk dėmesį",
+   "paragraphs": [
+    "Kadangi viskas taip lengva, kartais to nenaudoji. Talentas auga tik jį lavinant."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Saulė trigone su Jupiteriu: Rūta turi sėkmės ir pasitikėjimo. Bet ji pati turi žengti žingsnį, kitaip liks tik galimybė."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kiek laipsnių yra trigonas?",
+   "a": "Apie 120 laipsnių, su 6–8 laipsnių paklaida."
+  },
+  {
+   "q": "Ar trigonas visada geras?",
+   "a": "Tai dovana, bet ją reikia panaudoti."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

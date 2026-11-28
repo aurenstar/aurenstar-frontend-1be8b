@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "kvadratas aspektas astrologija",
+ "volume": "1000",
+ "slug": "kvadratas-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kvadratas astrologijoje: ką tai reiškia?",
+ "description": "Dvi planetos nutolusios 90 laipsnių. Tai kvadratas. Paprastai, su pavyzdžiu.",
+ "intro": "Kvadratas yra, kai dvi planetos nutolusios ketvirtadaliu apskritimo. Jis duoda trintį, bet ir postūmį veikti.",
+ "sections": [
+  {
+   "h2": "Kas yra kvadratas?",
+   "paragraphs": [
+    "Įsivaizduok akmenuką bate: vargina, todėl ką nors daryk. Taip kvadratas stumia pirmyn."
+   ]
+  },
+  {
+   "h2": "Ko išmoksti?",
+   "paragraphs": [
+    "Auga išsprendęs įtampą. Dažnai tai tampa stipriausiomis tavo pusėmis, nes teko už jas kovoti."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Mėnulis kvadrate su Marsu: Rūta lengvai supyksta. Ji mokosi sportuoti ir ramiai kvėpuoti ir tampa stipresnė."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kiek laipsnių yra kvadratas?",
+   "a": "Apie 90 laipsnių, su 6–8 laipsnių paklaida."
+  },
+  {
+   "q": "Ar kvadratas blogas?",
+   "a": "Ne, jis sunkus, bet ir motyvuoja."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

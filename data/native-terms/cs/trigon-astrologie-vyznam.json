@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "trigon astrologie",
+ "volume": "1000",
+ "slug": "trigon-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigon v astrologii: co znamená?",
+ "description": "Dvě planety jsou od sebe 120 stupňů. Říká se tomu trigon. Jednoduše s příkladem.",
+ "intro": "Trigon je, když jsou dvě planety od sebe třetinu kruhu. Jejich energie plyne snadno a talent přichází sám.",
+ "sections": [
+  {
+   "h2": "Co je trigon?",
+   "paragraphs": [
+    "Představte si plavání po proudu: jde to skoro samo. Tak spolupracují dvě planety bez námahy."
+   ]
+  },
+  {
+   "h2": "Pozor",
+   "paragraphs": [
+    "Protože to jde tak snadno, někdy to nevyužijete. Talent roste, až když ho procvičujete."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Slunce v trigonu s Jupiterem: Růža má štěstí a sebevědomí. Musí ale sama udělat krok, jinak zůstane jen u šance."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kolik stupňů má trigon?",
+   "a": "Zhruba 120 stupňů, s tolerancí 6 až 8 stupňů."
+  },
+  {
+   "q": "Je trigon vždy dobrý?",
+   "a": "Je to dar, ale musíte ho využít."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

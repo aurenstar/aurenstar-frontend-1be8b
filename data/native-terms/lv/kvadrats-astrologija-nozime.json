@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "kvadrāts aspekts astroloģija",
+ "volume": "1000",
+ "slug": "kvadrats-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kvadrāts astroloģijā: ko tas nozīmē?",
+ "description": "Divas planētas atrodas 90 grādu attālumā. To sauc par kvadrātu. Vienkārši, ar piemēru.",
+ "intro": "Kvadrāts ir, kad divas planētas atrodas apļa ceturtdaļas attālumā. Tas dod berzi, bet arī grūdienu rīkoties.",
+ "sections": [
+  {
+   "h2": "Kas ir kvadrāts?",
+   "paragraphs": [
+    "Iedomājies akmentiņu kurpē: spiež, tāpēc tu kaut ko dari. Tā kvadrāts virza uz priekšu."
+   ]
+  },
+  {
+   "h2": "Ko tu iemācies?",
+   "paragraphs": [
+    "Tu aug, risinot spriedzi. Bieži tās kļūst par tavām stiprākajām pusēm, jo par tām bija jācīnās."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Mēness kvadrātā ar Marsu: Roze viegli aizkaitinās. Viņa mācās sportot un mierīgi elpot un kļūst stiprāka."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cik grādu ir kvadrāts?",
+   "a": "Apmēram 90 grādu, ar 6–8 grādu rezervi."
+  },
+  {
+   "q": "Vai kvadrāts ir slikts?",
+   "a": "Nē, tas ir grūts, bet arī motivē."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

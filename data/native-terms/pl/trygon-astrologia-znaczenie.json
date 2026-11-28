@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "trygon astrologia",
+ "volume": "1000",
+ "slug": "trygon-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trygon w astrologii: co oznacza?",
+ "description": "Dwie planety dzieli 120 stopni. To trygon. Wyjaśnione prosto, z przykładem.",
+ "intro": "Trygon to dwie planety oddalone o jedną trzecią koła. Ich energia płynie łatwo, a talent przychodzi sam.",
+ "sections": [
+  {
+   "h2": "Czym jest trygon?",
+   "paragraphs": [
+    "Wyobraź sobie pływanie z prądem: idzie prawie samo. Tak współpracują dwie planety bez wysiłku."
+   ]
+  },
+  {
+   "h2": "Uwaga",
+   "paragraphs": [
+    "Skoro idzie tak łatwo, czasem tego nie używasz. Talent rośnie dopiero, gdy ćwiczysz."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Słońce w trygonie do Jowisza: Róża ma szczęście i pewność siebie. Musi jednak sama zrobić krok, inaczej zostanie tylko szansa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ile stopni ma trygon?",
+   "a": "Około 120 stopni, z tolerancją 6–8 stopni."
+  },
+  {
+   "q": "Czy trygon zawsze jest dobry?",
+   "a": "To dar, ale trzeba go wykorzystać."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

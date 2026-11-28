@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "neliö aspekti astrologia",
+ "volume": "1000",
+ "slug": "nelio-aspekti-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neliö astrologiassa: mitä se tarkoittaa?",
+ "description": "Kaksi planeettaa on 90 asteen päässä toisistaan. Sitä kutsutaan neliöksi. Selitetty esimerkillä.",
+ "intro": "Neliö on, kun kaksi planeettaa on neljänneksen ympyrästä toisistaan. Se tuo kitkaa, mutta myös töytäisyn toimia.",
+ "sections": [
+  {
+   "h2": "Mikä on neliö?",
+   "paragraphs": [
+    "Ajattele kiveä kengässä: se hiertää, ja siksi teet asialle jotain. Näin neliö työntää eteenpäin."
+   ]
+  },
+  {
+   "h2": "Mitä opit?",
+   "paragraphs": [
+    "Kasvat ratkaisemalla jännitteen. Usein ne ovat vahvimmat puolesi, koska niiden eteen piti ponnistella."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Kuu neliössä Marsin kanssa: Roosa ärsyyntyy helposti. Hän oppii liikkumaan ja hengittämään rauhallisesti ja vahvistuu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Montako astetta neliö on?",
+   "a": "Noin 90 astetta, 6–8 asteen väljyydellä."
+  },
+  {
+   "q": "Onko neliö huono?",
+   "a": "Ei, se on hankala mutta myös motivoiva."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "trine aspeto astrolohiya",
+ "volume": "1000",
+ "slug": "trine-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trine sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Kapag dalawang planeta ay 120 digri ang layo, tinatawag itong trine. Simple, may halimbawa.",
+ "intro": "Ang trine ay kapag ang dalawang planeta ay isang-katlo ng bilog ang layo. Madaling dumadaloy ang lakas nila at kusang lumalabas ang talento.",
+ "sections": [
+  {
+   "h2": "Ano ang trine?",
+   "paragraphs": [
+    "Isipin ang paglangoy kasabay ng agos: halos kusa itong umuusad. Ganyan nagtutulungan ang dalawang planeta nang walang hirap."
+   ]
+  },
+  {
+   "h2": "Tandaan",
+   "paragraphs": [
+    "Dahil napakadali, minsan hindi natin ito ginagamit. Lumalago lang ang talento kapag sinanay."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Trine ang Araw at Jupiter: swerte at kumpiyansa si Mika. Pero kailangan niyang humakbang, kung hindi ay oportunidad lang ito."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ilang digri ang trine?",
+   "a": "Mga 120 digri, na may espasyong 6 hanggang 8 digri."
+  },
+  {
+   "q": "Palagi bang maganda ang trine?",
+   "a": "Regalo ito, pero kailangan mong gamitin."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

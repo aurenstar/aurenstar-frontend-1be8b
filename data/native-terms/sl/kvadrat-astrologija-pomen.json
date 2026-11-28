@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "kvadrat astrologija",
+ "volume": "1000",
+ "slug": "kvadrat-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kvadrat v astrologiji: kaj pomeni?",
+ "description": "Dva planeta sta oddaljena 90 stopinj. Temu pravimo kvadrat. Preprosto, s primerom.",
+ "intro": "Kvadrat je, ko sta dva planeta oddaljena četrtino kroga. Daje trenje, a tudi spodbudo k dejanju.",
+ "sections": [
+  {
+   "h2": "Kaj je kvadrat?",
+   "paragraphs": [
+    "Predstavljajte si kamenček v čevlju: žuli, zato nekaj ukrenete. Tako vas kvadrat potiska naprej."
+   ]
+  },
+  {
+   "h2": "Česa se naučite?",
+   "paragraphs": [
+    "Rastete z reševanjem napetosti. Pogosto postanejo vaše najmočnejše plati, ker ste se zanje borili."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Luna v kvadratu z Marsom: Roza se zlahka razdraži. Nauči se telovaditi in mirno dihati ter postane močnejša."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko stopinj je kvadrat?",
+   "a": "Približno 90 stopinj, s toleranco 6 do 8."
+  },
+  {
+   "q": "Je kvadrat slab?",
+   "a": "Ne, težaven je, a tudi motivira."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

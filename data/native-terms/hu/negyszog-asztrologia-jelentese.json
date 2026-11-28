@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "négyszög asztrológia",
+ "volume": "1000",
+ "slug": "negyszog-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Négyszög (kvadrát) az asztrológiában: mit jelent?",
+ "description": "Két bolygó 90 fokra van egymástól. Ezt hívják négyszögnek. Egyszerűen, példával.",
+ "intro": "A négyszög akkor van, ha két bolygó a kör negyedére áll egymástól. Súrlódást ad, de egyben lökést is a cselekvésre.",
+ "sections": [
+  {
+   "h2": "Mi a négyszög?",
+   "paragraphs": [
+    "Gondolj egy kavicsra a cipődben: nyom, ezért teszel valamit. Így lök előre a négyszög."
+   ]
+  },
+  {
+   "h2": "Mit tanulsz belőle?",
+   "paragraphs": [
+    "A feszültség megoldásával fejlődsz. Gyakran ezek lesznek az erősségeid, mert meg kellett küzdened értük."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Hold négyszögben a Marssal: Rózsa könnyen ideges. Megtanul sportolni és nyugodtan lélegezni, és erősebb lesz."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hány fok a négyszög?",
+   "a": "Körülbelül 90 fok, 6–8 fok eltéréssel."
+  },
+  {
+   "q": "Rossz a négyszög?",
+   "a": "Nem, nehéz, de motiváló is."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

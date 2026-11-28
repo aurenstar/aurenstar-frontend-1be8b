@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "quadratura astrologia",
+ "volume": "1000",
+ "slug": "quadratura-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Quadratura en astrologia: què significa?",
+ "description": "Dos planetes són a 90 graus l’un de l’altre. S’anomena quadratura. Explicat fàcil, amb exemple.",
+ "intro": "La quadratura és quan dos planetes són a un quart de cercle l’un de l’altre. Dona fricció, però també l’empenta per actuar.",
+ "sections": [
+  {
+   "h2": "Què és la quadratura?",
+   "paragraphs": [
+    "Pensa en una pedreta a la sabata: molesta, i per això fas alguna cosa. Així et fa avançar la quadratura."
+   ]
+  },
+  {
+   "h2": "Què n’aprens?",
+   "paragraphs": [
+    "Creixes resolent la tensió. Sovint esdevenen els teus punts més forts, perquè has hagut de lluitar-hi."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Lluna en quadratura amb Mart: la Rosa s’irrita fàcilment. Aprèn a fer esport i a respirar amb calma i es fa més forta."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quants graus és una quadratura?",
+   "a": "Uns 90 graus, amb un marge de 6 a 8."
+  },
+  {
+   "q": "La quadratura és dolenta?",
+   "a": "No, és difícil però també motiva."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

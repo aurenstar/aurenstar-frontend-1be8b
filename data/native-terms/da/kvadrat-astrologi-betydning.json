@@ -1,0 +1,49 @@
+{
+ "lang": "da",
+ "keyword": "kvadrat astrologi",
+ "volume": "1000",
+ "slug": "kvadrat-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kvadrat i astrologi: hvad betyder det?",
+ "description": "To planeter står 90 grader fra hinanden. Det kaldes kvadrat. Forklaret enkelt med eksempel.",
+ "intro": "En kvadrat er, når to planeter står en kvart cirkel fra hinanden. Det giver gnidning, men også skubbet til at handle.",
+ "sections": [
+  {
+   "h2": "Hvad er en kvadrat?",
+   "paragraphs": [
+    "Tænk på en sten i skoen: det gnider, og derfor gør du noget. Sådan skubber en kvadrat dig fremad."
+   ]
+  },
+  {
+   "h2": "Hvad lærer du?",
+   "paragraphs": [
+    "Du vokser ved at løse spændingen. Ofte bliver det dine stærkeste sider, fordi du måtte kæmpe for dem."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Måne kvadrat Mars: Rosa bliver let irriteret. Hun lærer at motionere og trække vejret roligt og bliver stærkere."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvor mange grader er en kvadrat?",
+   "a": "Cirka 90 grader, med plads til 6 til 8 grader."
+  },
+  {
+   "q": "Er kvadrat dårligt?",
+   "a": "Nej, det er besværligt men også motiverende."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ },
+ "tool": "descreva-me"
+}

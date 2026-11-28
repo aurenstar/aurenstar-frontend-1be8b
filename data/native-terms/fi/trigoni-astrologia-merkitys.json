@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "trigoni astrologia",
+ "volume": "1000",
+ "slug": "trigoni-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigoni astrologiassa: mitä se tarkoittaa?",
+ "description": "Kaksi planeettaa on 120 asteen päässä toisistaan. Sitä kutsutaan trigoniksi. Selitetty esimerkillä.",
+ "intro": "Trigoni on, kun kaksi planeettaa on kolmanneksen ympyrästä toisistaan. Niiden energia virtaa helposti ja lahjakkuus tulee itsestään.",
+ "sections": [
+  {
+   "h2": "Mikä on trigoni?",
+   "paragraphs": [
+    "Ajattele uimista virran mukana: se käy melkein itsestään. Näin kaksi planeettaa toimii yhdessä vaivatta."
+   ]
+  },
+  {
+   "h2": "Huomaa",
+   "paragraphs": [
+    "Koska se käy niin helposti, sitä ei aina käytä. Lahjakkuus kasvaa vasta harjoittelulla."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Aurinko trigonissa Jupiterin kanssa: Roosalla on onnea ja itseluottamusta. Hänen on silti otettava itse askel, muuten se jää vain tilaisuudeksi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Montako astetta trigoni on?",
+   "a": "Noin 120 astetta, 6–8 asteen väljyydellä."
+  },
+  {
+   "q": "Onko trigoni aina hyvä?",
+   "a": "Se on lahja, mutta se täytyy käyttää."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

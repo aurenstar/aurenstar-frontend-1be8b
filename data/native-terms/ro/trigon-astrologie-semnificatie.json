@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "trigon astrologie",
+ "volume": "1000",
+ "slug": "trigon-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigonul în astrologie: ce înseamnă?",
+ "description": "Două planete sunt la 120 de grade una de alta. Se numește trigon. Explicat simplu, cu exemplu.",
+ "intro": "Trigonul apare când două planete sunt la o treime de cerc distanță. Energia lor curge ușor, iar talentul vine de la sine.",
+ "sections": [
+  {
+   "h2": "Ce este trigonul?",
+   "paragraphs": [
+    "Gândește-te la înotul în sensul curentului: merge aproape singur. Așa colaborează două planete fără efort."
+   ]
+  },
+  {
+   "h2": "Atenție",
+   "paragraphs": [
+    "Pentru că merge atât de ușor, uneori nu-l folosești. Un talent crește doar dacă îl exersezi."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Soarele în trigon cu Jupiter: Roza are noroc și încredere. Dar trebuie să facă ea un pas, altfel rămâne doar o șansă."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Câte grade are trigonul?",
+   "a": "Aproximativ 120 de grade, cu toleranță de 6–8 grade."
+  },
+  {
+   "q": "Este trigonul mereu bun?",
+   "a": "Este un dar, dar trebuie să-l folosești."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

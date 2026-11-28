@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "kvadrat astrologija",
+ "volume": "1000",
+ "slug": "kvadrat-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kvadrat u astrologiji: šta znači?",
+ "description": "Dve planete su udaljene 90 stepeni. To je kvadrat. Jednostavno, sa primerom.",
+ "intro": "Kvadrat je kad su dve planete udaljene četvrtinu kruga. Daje trenje, ali i podsticaj na delovanje.",
+ "sections": [
+  {
+   "h2": "Šta je kvadrat?",
+   "paragraphs": [
+    "Zamisli kamenčić u cipeli: žulja, pa nešto učiniš. Tako te kvadrat gura napred."
+   ]
+  },
+  {
+   "h2": "Šta učiš?",
+   "paragraphs": [
+    "Rasteš rešavanjem napetosti. Često to postanu tvoje najjače strane jer si se za njih borio."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Mesec u kvadratu sa Marsom: Ruža se lako iznervira. Uči da vežba i mirno diše i postaje jača."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko stepeni je kvadrat?",
+   "a": "Oko 90 stepeni, sa tolerancijom 6 do 8."
+  },
+  {
+   "q": "Da li je kvadrat loš?",
+   "a": "Ne, težak je, ali i motiviše."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

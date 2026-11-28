@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "trigón astrológia",
+ "volume": "1000",
+ "slug": "trigon-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigón v astrológii: čo znamená?",
+ "description": "Dve planéty sú od seba 120 stupňov. Hovorí sa tomu trigón. Jednoducho s príkladom.",
+ "intro": "Trigón je, keď sú dve planéty od seba tretinu kruhu. Ich energia plynie ľahko a talent prichádza sám.",
+ "sections": [
+  {
+   "h2": "Čo je trigón?",
+   "paragraphs": [
+    "Predstavte si plávanie s prúdom: ide to takmer samo. Tak spolupracujú dve planéty bez námahy."
+   ]
+  },
+  {
+   "h2": "Pozor",
+   "paragraphs": [
+    "Pretože to ide tak ľahko, niekedy to nevyužijete. Talent rastie, až keď ho precvičujete."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Slnko v trigóne s Jupiterom: Ruža má šťastie a sebavedomie. Musí však sama urobiť krok, inak zostane len pri šanci."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koľko stupňov má trigón?",
+   "a": "Zhruba 120 stupňov, s toleranciou 6 až 8 stupňov."
+  },
+  {
+   "q": "Je trigón vždy dobrý?",
+   "a": "Je to dar, ale musíte ho využiť."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

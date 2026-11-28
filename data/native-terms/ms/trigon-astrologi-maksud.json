@@ -1,0 +1,49 @@
+{
+ "lang": "ms",
+ "keyword": "trigon aspek astrologi",
+ "volume": "1000",
+ "slug": "trigon-astrologi-maksud",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigon (trine) dalam astrologi: apa maksudnya?",
+ "description": "Dua planet berjarak 120 darjah. Ini dipanggil trigon. Mudah, dengan contoh.",
+ "intro": "Trigon ialah apabila dua planet berjarak satu pertiga bulatan. Tenaga mengalir lancar dan bakat muncul dengan sendiri.",
+ "sections": [
+  {
+   "h2": "Apakah trigon?",
+   "paragraphs": [
+    "Bayangkan berenang mengikut arus: hampir bergerak sendiri. Begitulah dua planet bekerjasama tanpa susah."
+   ]
+  },
+  {
+   "h2": "Perhatian",
+   "paragraphs": [
+    "Kerana terlalu mudah, kadangkala ia tidak digunakan. Bakat hanya berkembang apabila dilatih."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Matahari trigon Musytari: Aina bernasib baik dan yakin diri. Tetapi dia perlu mengambil langkah sendiri, jika tidak ia kekal sekadar peluang."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Berapa darjah trigon?",
+   "a": "Kira-kira 120 darjah, toleransi 6 hingga 8 darjah."
+  },
+  {
+   "q": "Adakah trigon sentiasa baik?",
+   "a": "Ia hadiah, tetapi anda perlu menggunakannya."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

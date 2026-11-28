@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "trígon astrologia",
+ "volume": "1000",
+ "slug": "trigon-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trígon en astrologia: què significa?",
+ "description": "Dos planetes són a 120 graus l’un de l’altre. S’anomena trígon. Explicat fàcil, amb exemple.",
+ "intro": "El trígon és quan dos planetes són a un terç de cercle l’un de l’altre. La seva energia flueix fàcilment i el talent surt sol.",
+ "sections": [
+  {
+   "h2": "Què és el trígon?",
+   "paragraphs": [
+    "Pensa en nedar a favor del corrent: gairebé va sol. Així col·laboren dos planetes sense esforç."
+   ]
+  },
+  {
+   "h2": "Compte",
+   "paragraphs": [
+    "Com que va tan fàcil, de vegades no s’aprofita. Un talent només creix si l’exercites."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Sol en trígon amb Júpiter: la Rosa té sort i confiança. Però ha de fer ella el pas, si no queda només en una oportunitat."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quants graus és un trígon?",
+   "a": "Uns 120 graus, amb un marge de 6 a 8."
+  },
+  {
+   "q": "El trígon és sempre bo?",
+   "a": "És un do, però l’has d’utilitzar."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

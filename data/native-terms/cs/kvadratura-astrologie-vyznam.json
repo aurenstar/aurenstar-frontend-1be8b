@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "kvadratura astrologie",
+ "volume": "1000",
+ "slug": "kvadratura-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kvadratura v astrologii: co znamená?",
+ "description": "Dvě planety jsou od sebe 90 stupňů. Říká se tomu kvadratura. Jednoduše s příkladem.",
+ "intro": "Kvadratura je, když jsou dvě planety od sebe čtvrtinu kruhu. Dává tření, ale také impuls jednat.",
+ "sections": [
+  {
+   "h2": "Co je kvadratura?",
+   "paragraphs": [
+    "Představte si kamínek v botě: tlačí, a proto s tím něco uděláte. Tak vás kvadratura posouvá vpřed."
+   ]
+  },
+  {
+   "h2": "Co se naučíte?",
+   "paragraphs": [
+    "Rosteme tím, že napětí vyřešíme. Často se z toho stanou vaše nejsilnější stránky, protože jste za ně museli bojovat."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Měsíc v kvadratuře s Marsem: Růža se snadno podráždí. Naučí se sportovat a klidně dýchat a je silnější."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kolik stupňů má kvadratura?",
+   "a": "Zhruba 90 stupňů, s tolerancí 6 až 8 stupňů."
+  },
+  {
+   "q": "Je kvadratura špatná?",
+   "a": "Ne, je náročná, ale i motivující."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

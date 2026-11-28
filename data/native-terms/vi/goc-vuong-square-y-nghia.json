@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "góc vuông 90 độ",
+ "volume": "1000",
+ "slug": "goc-vuong-square-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Square (góc vuông 90 độ) trong chiêm tinh là gì?",
+ "description": "Hai hành tinh cách nhau 90 độ gọi là square. Giải thích đơn giản, có ví dụ.",
+ "intro": "Square là khi hai hành tinh cách nhau một phần tư vòng tròn. Nó tạo ma sát, nhưng cũng là cú hích để hành động.",
+ "sections": [
+  {
+   "h2": "Square là gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến viên sỏi trong giày: khó chịu nên bạn phải xử lý. Square đẩy bạn tiến lên như vậy."
+   ]
+  },
+  {
+   "h2": "Bạn học được gì?",
+   "paragraphs": [
+    "Bạn trưởng thành nhờ giải quyết căng thẳng. Thường đó thành điểm mạnh nhất vì bạn đã phải cố gắng."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Mặt Trăng square Hỏa Tinh: Lan dễ cáu. Cô học tập thể dục và thở bình tĩnh nên mạnh mẽ hơn."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Square bao nhiêu độ?",
+   "a": "Khoảng 90 độ, sai số 6 đến 8 độ."
+  },
+  {
+   "q": "Square có xấu không?",
+   "a": "Không, nó khó nhưng cũng tạo động lực."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

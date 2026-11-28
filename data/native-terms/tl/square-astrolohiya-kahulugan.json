@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "square aspeto astrolohiya",
+ "volume": "1000",
+ "slug": "square-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Square sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Kapag dalawang planeta ay 90 digri ang layo, tinatawag itong square. Simple, may halimbawa.",
+ "intro": "Ang square ay kapag ang dalawang planeta ay isang-kapat ng bilog ang layo. May gasgas ito, pero may tulak din para kumilos.",
+ "sections": [
+  {
+   "h2": "Ano ang square?",
+   "paragraphs": [
+    "Isipin ang maliit na bato sa sapatos: masakit, kaya may gagawin ka. Ganyan ka itinutulak ng square pasulong."
+   ]
+  },
+  {
+   "h2": "Ano ang matututunan?",
+   "paragraphs": [
+    "Lumalago ka sa paglutas ng tensyon. Madalas ito ang pinakamalakas mong bahagi dahil pinaghirapan mo."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Square ang Buwan at Mars: madaling mainis si Mika. Natuto siyang mag-ehersisyo at huminga nang kalmado kaya lumakas siya."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ilang digri ang square?",
+   "a": "Mga 90 digri, na may espasyong 6 hanggang 8 digri."
+  },
+  {
+   "q": "Masama ba ang square?",
+   "a": "Hindi, mahirap pero nakakapagpasigla rin."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

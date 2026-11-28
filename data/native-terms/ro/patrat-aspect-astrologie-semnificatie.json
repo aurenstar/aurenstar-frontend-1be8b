@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "pătrat aspect astrologie",
+ "volume": "1000",
+ "slug": "patrat-aspect-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pătratul în astrologie: ce înseamnă?",
+ "description": "Două planete sunt la 90 de grade una de alta. Se numește pătrat. Explicat simplu, cu exemplu.",
+ "intro": "Pătratul apare când două planete sunt la un sfert de cerc distanță. Dă frecare, dar și impulsul de a acționa.",
+ "sections": [
+  {
+   "h2": "Ce este pătratul?",
+   "paragraphs": [
+    "Gândește-te la o pietricică în pantof: te deranjează, deci faci ceva. Așa te împinge pătratul înainte."
+   ]
+  },
+  {
+   "h2": "Ce înveți?",
+   "paragraphs": [
+    "Crești rezolvând tensiunea. Adesea devin punctele tale cele mai tari, pentru că a trebuit să lupți pentru ele."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Luna în pătrat cu Marte: Roza se irită ușor. Învață să facă sport și să respire calm și devine mai puternică."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Câte grade are pătratul?",
+   "a": "Aproximativ 90 de grade, cu toleranță de 6–8 grade."
+  },
+  {
+   "q": "Este pătratul rău?",
+   "a": "Nu, e greu, dar și motivant."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}
