@@ -1,0 +1,70 @@
+{
+ "lang": "tl",
+ "keyword": "mga-zodiac-sign",
+ "volume": 1000000,
+ "slug": "mga-zodiac-sign-petsa-elemento-kahulugan",
+ "date": "2026-11-27",
+ "title": "Ang 12 Zodiac Sign: Petsa, Elemento at Kahulugan, Simpleng Paliwanag",
+ "description": "Mga petsa ng 12 zodiac sign, apat na elemento at kung paano ito gamitin sa araw-araw, may simpleng halimbawa.",
+ "intro": "“Ano ang zodiac sign mo?” Karaniwang tanong ito kapag may bagong nakilala. Labindalawa ang zodiac sign at bawat isa ay may sariling paraan ng pagharap sa buhay. Narito ang malinaw na gabay na walang mahihirap na salita.",
+ "sections": [
+  {
+   "h2": "Mga petsa ng labindalawang sign",
+   "paragraphs": [
+    "Narito ang mga petsa (maaaring magkaiba nang isang araw):",
+    "Aries: Marso 21 – Abril 19",
+    "Taurus: Abril 20 – Mayo 20",
+    "Gemini: Mayo 21 – Hunyo 20",
+    "Cancer: Hunyo 21 – Hulyo 22",
+    "Leo: Hulyo 23 – Agosto 22",
+    "Virgo: Agosto 23 – Setyembre 22",
+    "Libra: Setyembre 23 – Oktubre 22",
+    "Scorpio: Oktubre 23 – Nobyembre 21",
+    "Sagittarius: Nobyembre 22 – Disyembre 21",
+    "Capricorn: Disyembre 22 – Enero 19",
+    "Aquarius: Enero 20 – Pebrero 18",
+    "Pisces: Pebrero 19 – Marso 20"
+   ]
+  },
+  {
+   "h2": "Ang apat na elemento",
+   "paragraphs": [
+    "Ang Apoy (Aries, Leo, Sagittarius) ay enerhiya at pagkukusa. Ang Lupa (Taurus, Virgo, Capricorn) ay pagiging praktikal at pasensya. Ang Hangin (Gemini, Libra, Aquarius) ay ideya at komunikasyon. Ang Tubig (Cancer, Scorpio, Pisces) ay damdamin at intuwisyon."
+   ]
+  },
+  {
+   "h2": "Higit pa sa sun sign",
+   "paragraphs": [
+    "Isipin ang apat na magkakaibigang nagpaplano ng biyahe: mabilis pumili ng destinasyon ang fire sign, gumagawa ng listahan ng dadalhin ang earth sign, naghahanap ng tips ang air sign, at sinisigurong komportable ang lahat ng water sign.",
+    "Isang bahagi lang ng birth chart ang sun sign. Malaki ang binabago ng rising sign at Buwan. Sa libreng tool, makikita mo ang mga ito sa ilang minuto."
+   ]
+  },
+  {
+   "h2": "Paano gamitin ang iyong sign",
+   "paragraphs": [
+    "Gamitin ang zodiac bilang inspirasyon sa pagninilay, hindi bilang tiyak na hula. Hindi pamalit ang astrolohiya sa payo ng doktor, abogado o financial adviser."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Paano ko malalaman ang zodiac sign ko?",
+   "a": "Sa petsa ng kapanganakan. Sa mga araw na magkahangganan, mahalaga rin ang oras at lugar."
+  },
+  {
+   "q": "Ano ang pagkakaiba ng sign at rising sign?",
+   "a": "Ang sign ang iyong ubod; ang rising sign ang impresyong naibibigay mo sa iba."
+  },
+  {
+   "q": "Agham ba ang astrolohiya?",
+   "a": "Hindi, walang siyentipikong patunay na nahuhulaan nito ang hinaharap."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ }
+}

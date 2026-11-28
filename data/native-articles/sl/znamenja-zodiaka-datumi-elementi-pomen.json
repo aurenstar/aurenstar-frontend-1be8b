@@ -1,0 +1,70 @@
+{
+ "lang": "sl",
+ "keyword": "znamenja-zodiaka",
+ "volume": 1000,
+ "slug": "znamenja-zodiaka-datumi-elementi-pomen",
+ "date": "2026-11-27",
+ "title": "12 znamenj zodiaka: datumi, elementi in pomen preprosto razloženo",
+ "description": "Datumi 12 znamenj zodiaka, štirje elementi in kako jih uporabiti v vsakdanjem življenju, s preprostimi primeri.",
+ "intro": "»Katero znamenje si?« je klasično vprašanje ob spoznavanju. Znamenj zodiaka je dvanajst in vsako opisuje drugačen pogled na življenje. Tukaj je jasen vodnik brez zapletenih besed.",
+ "sections": [
+  {
+   "h2": "Datumi dvanajstih znamenj",
+   "paragraphs": [
+    "Tukaj so datumi (lahko se razlikujejo za dan):",
+    "Oven: 21. marec – 19. april",
+    "Bik: 20. april – 20. maj",
+    "Dvojčka: 21. maj – 20. junij",
+    "Rak: 21. junij – 22. julij",
+    "Lev: 23. julij – 22. avgust",
+    "Devica: 23. avgust – 22. september",
+    "Tehtnica: 23. september – 22. oktober",
+    "Škorpijon: 23. oktober – 21. november",
+    "Strelec: 22. november – 21. december",
+    "Kozorog: 22. december – 19. januar",
+    "Vodnar: 20. januar – 18. februar",
+    "Ribi: 19. februar – 20. marec"
+   ]
+  },
+  {
+   "h2": "Štirje elementi",
+   "paragraphs": [
+    "Ogenj (Oven, Lev, Strelec) pomeni energijo in pobudo. Zemlja (Bik, Devica, Kozorog) praktičnost in potrpežljivost. Zrak (Dvojčka, Tehtnica, Vodnar) ideje in komunikacijo. Voda (Rak, Škorpijon, Ribi) čustva in intuicijo."
+   ]
+  },
+  {
+   "h2": "Več kot sončno znamenje",
+   "paragraphs": [
+    "Predstavljajte si štiri prijatelje, ki načrtujejo potovanje: ognjeno znamenje izbere cilj v sekundi, zemeljsko naredi seznam stvari, zračno poišče nasvete, vodno pa poskrbi, da se vsi dobro počutijo.",
+    "Sončno znamenje je le del rojstnega horoskopa. Ascendent in Luna podobo precej spremenita. Z brezplačnim orodjem ju izveste v nekaj minutah."
+   ]
+  },
+  {
+   "h2": "Kako uporabiti svoje znamenje",
+   "paragraphs": [
+    "Znamenja jemljite kot spodbudo za razmislek, ne kot zanesljivo napoved. Astrologija ne nadomešča nasveta zdravnika, odvetnika ali finančnega svetovalca."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako izvem svoje znamenje?",
+   "a": "Po datumu rojstva. Na mejnih dneh štejeta tudi ura in kraj."
+  },
+  {
+   "q": "Kakšna je razlika med znamenjem in ascendentom?",
+   "a": "Znamenje je vaše bistvo, ascendent vtis, ki ga naredite na druge."
+  },
+  {
+   "q": "Je astrologija znanost?",
+   "a": "Ne, znanstvenih dokazov o napovedovanju prihodnosti ni."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ }
+}

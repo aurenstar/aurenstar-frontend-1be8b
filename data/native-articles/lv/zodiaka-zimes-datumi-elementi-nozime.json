@@ -1,0 +1,70 @@
+{
+ "lang": "lv",
+ "keyword": "zodiaka-zimes",
+ "volume": 1000,
+ "slug": "zodiaka-zimes-datumi-elementi-nozime",
+ "date": "2026-11-27",
+ "title": "12 zodiaka zīmes: datumi, elementi un nozīme vienkārši izskaidrota",
+ "description": "12 zodiaka zīmju datumi, četri elementi un kā tos izmantot ikdienā, ar vienkāršiem piemēriem.",
+ "intro": "„Kāda ir tava zodiaka zīme?” ir klasisks jautājums, iepazīstoties ar kādu. Zodiaka zīmju ir divpadsmit, un katra raksturo citu dzīves uztveri. Šeit ir skaidrs ceļvedis bez sarežģītiem vārdiem.",
+ "sections": [
+  {
+   "h2": "Divpadsmit zīmju datumi",
+   "paragraphs": [
+    "Šeit ir datumi (tie var atšķirties par vienu dienu):",
+    "Auns: 21. marts – 19. aprīlis",
+    "Vērsis: 20. aprīlis – 20. maijs",
+    "Dvīņi: 21. maijs – 20. jūnijs",
+    "Vēzis: 21. jūnijs – 22. jūlijs",
+    "Lauva: 23. jūlijs – 22. augusts",
+    "Jaunava: 23. augusts – 22. septembris",
+    "Svari: 23. septembris – 22. oktobris",
+    "Skorpions: 23. oktobris – 21. novembris",
+    "Strēlnieks: 22. novembris – 21. decembris",
+    "Mežāzis: 22. decembris – 19. janvāris",
+    "Ūdensvīrs: 20. janvāris – 18. februāris",
+    "Zivis: 19. februāris – 20. marts"
+   ]
+  },
+  {
+   "h2": "Četri elementi",
+   "paragraphs": [
+    "Uguns (Auns, Lauva, Strēlnieks) nozīmē enerģiju un iniciatīvu. Zeme (Vērsis, Jaunava, Mežāzis) – praktiskumu un pacietību. Gaiss (Dvīņi, Svari, Ūdensvīrs) – idejas un saziņu. Ūdens (Vēzis, Skorpions, Zivis) – jūtas un intuīciju."
+   ]
+  },
+  {
+   "h2": "Vairāk nekā saules zīme",
+   "paragraphs": [
+    "Iedomājies četrus draugus, kas plāno ceļojumu: uguns zīme galamērķi izvēlas sekundē, zemes zīme sastāda mantu sarakstu, gaisa zīme meklē ieteikumus, bet ūdens zīme gādā, lai visiem ir labi.",
+    "Saules zīme ir tikai viena dzimšanas kartes daļa. Augošā zīme un Mēness daudz maina. Ar bezmaksas rīku tās uzzināsi dažās minūtēs."
+   ]
+  },
+  {
+   "h2": "Kā izmantot savu zīmi",
+   "paragraphs": [
+    "Skati zodiaku kā iedvesmu pārdomām, nevis drošu pareģojumu. Astroloģija neaizstāj ārsta, juristu vai finanšu padomnieka padomu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kā uzzināt savu zīmi?",
+   "a": "Pēc dzimšanas datuma. Robežās dienās svarīgs ir arī laiks un vieta."
+  },
+  {
+   "q": "Kāda ir atšķirība starp zīmi un augošo zīmi?",
+   "a": "Zīme ir tava būtība, augošā zīme – iespaids, ko atstāj uz citiem."
+  },
+  {
+   "q": "Vai astroloģija ir zinātne?",
+   "a": "Nē, zinātnisku pierādījumu par nākotnes paredzēšanu nav."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "lang": "et",
+ "keyword": "sodiaagimargid",
+ "volume": 1000,
+ "slug": "sodiaagimargid-kuupaevad-elemendid-tahendus",
+ "date": "2026-11-27",
+ "title": "12 sodiaagimärki: kuupäevad, elemendid ja tähendus lihtsalt selgitatuna",
+ "description": "12 sodiaagimärgi kuupäevad, neli elementi ja kuidas neid igapäevaelus kasutada, lihtsate näidetega.",
+ "intro": "„Mis tähtkuju sa oled?“ on klassikaline küsimus uue inimesega tutvudes. Sodiaagimärke on kaksteist ja iga neist kirjeldab erinevat viisi eluga toime tulla. Siin on selge juhend ilma keeruliste sõnadeta.",
+ "sections": [
+  {
+   "h2": "Kaheteistkümne märgi kuupäevad",
+   "paragraphs": [
+    "Siin on kuupäevad (need võivad erineda ühe päeva võrra):",
+    "Jäär: 21. märts – 19. aprill",
+    "Sõnn: 20. aprill – 20. mai",
+    "Kaksikud: 21. mai – 20. juuni",
+    "Vähk: 21. juuni – 22. juuli",
+    "Lõvi: 23. juuli – 22. august",
+    "Neitsi: 23. august – 22. september",
+    "Kaalud: 23. september – 22. oktoober",
+    "Skorpion: 23. oktoober – 21. november",
+    "Ambur: 22. november – 21. detsember",
+    "Kaljukits: 22. detsember – 19. jaanuar",
+    "Veevalaja: 20. jaanuar – 18. veebruar",
+    "Kalad: 19. veebruar – 20. märts"
+   ]
+  },
+  {
+   "h2": "Neli elementi",
+   "paragraphs": [
+    "Tuli (Jäär, Lõvi, Ambur) tähendab energiat ja algatust. Maa (Sõnn, Neitsi, Kaljukits) praktilisust ja kannatlikkust. Õhk (Kaksikud, Kaalud, Veevalaja) ideid ja suhtlust. Vesi (Vähk, Skorpion, Kalad) tundeid ja intuitsiooni."
+   ]
+  },
+  {
+   "h2": "Rohkem kui päikesemärk",
+   "paragraphs": [
+    "Kujuta ette nelja sõpra, kes planeerivad reisi: tulemärk valib sihtkoha sekundiga, maamärk teeb pakkimisnimekirja, õhumärk otsib näpunäiteid ja veemärk hoolitseb, et kõigil oleks hea olla.",
+    "Päikesemärk on vaid osa sünnikaardist. Tõusev märk ja Kuu muudavad pilti palju. Tasuta tööriistaga leiad need mõne minutiga."
+   ]
+  },
+  {
+   "h2": "Kuidas oma märki kasutada",
+   "paragraphs": [
+    "Võta tähtkujusid mõtlemise inspiratsioonina, mitte kindla ennustusena. Astroloogia ei asenda arsti, juristi ega finantsnõustaja nõuannet."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuidas oma tähtkuju teada saada?",
+   "a": "Sünnikuupäeva järgi. Piiripäevadel loevad ka kellaaeg ja sünnikoht."
+  },
+  {
+   "q": "Mis vahe on tähtkujul ja tõusval märgil?",
+   "a": "Tähtkuju on sinu tuum, tõusev märk on mulje, mille teistele jätad."
+  },
+  {
+   "q": "Kas astroloogia on teadus?",
+   "a": "Ei, teaduslikke tõendeid tuleviku ennustamise kohta pole."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ }
+}

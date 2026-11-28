@@ -1,0 +1,70 @@
+{
+ "lang": "lt",
+ "keyword": "zodiako-zenklai",
+ "volume": 6600,
+ "slug": "zodiako-zenklai-datos-elementai-reiksme",
+ "date": "2026-11-27",
+ "title": "12 zodiako ženklų: datos, elementai ir reikšmė paprastai paaiškinta",
+ "description": "12 zodiako ženklų datos, keturi elementai ir kaip juos naudoti kasdien, su paprastais pavyzdžiais.",
+ "intro": "„Koks tavo zodiako ženklas?“ – klasikinis klausimas, kai kažką pažįsti. Zodiako ženklų yra dvylika, ir kiekvienas apibūdina skirtingą požiūrį į gyvenimą. Štai aiškus vadovas be sudėtingų žodžių.",
+ "sections": [
+  {
+   "h2": "Dvylikos ženklų datos",
+   "paragraphs": [
+    "Štai datos (gali skirtis viena diena):",
+    "Avinas: kovo 21 – balandžio 19",
+    "Jautis: balandžio 20 – gegužės 20",
+    "Dvyniai: gegužės 21 – birželio 20",
+    "Vėžys: birželio 21 – liepos 22",
+    "Liūtas: liepos 23 – rugpjūčio 22",
+    "Mergelė: rugpjūčio 23 – rugsėjo 22",
+    "Svarstyklės: rugsėjo 23 – spalio 22",
+    "Skorpionas: spalio 23 – lapkričio 21",
+    "Šaulys: lapkričio 22 – gruodžio 21",
+    "Ožiaragis: gruodžio 22 – sausio 19",
+    "Vandenis: sausio 20 – vasario 18",
+    "Žuvys: vasario 19 – kovo 20"
+   ]
+  },
+  {
+   "h2": "Keturi elementai",
+   "paragraphs": [
+    "Ugnis (Avinas, Liūtas, Šaulys) reiškia energiją ir iniciatyvą. Žemė (Jautis, Mergelė, Ožiaragis) – praktiškumą ir kantrybę. Oras (Dvyniai, Svarstyklės, Vandenis) – idėjas ir bendravimą. Vanduo (Vėžys, Skorpionas, Žuvys) – jausmus ir intuiciją."
+   ]
+  },
+  {
+   "h2": "Daugiau nei saulės ženklas",
+   "paragraphs": [
+    "Įsivaizduok keturis draugus, planuojančius kelionę: ugnies ženklas kryptį išsirenka per sekundę, žemės sudaro daiktų sąrašą, oro ieško patarimų, o vandens rūpinasi, kad visiems būtų gera.",
+    "Saulės ženklas – tik viena gimimo kortos dalis. Kylantis ženklas ir Mėnulis daug ką keičia. Nemokama priemone juos sužinosi per kelias minutes."
+   ]
+  },
+  {
+   "h2": "Kaip naudotis savo ženklu",
+   "paragraphs": [
+    "Žvelk į zodiaką kaip į pamąstymų paskatą, o ne tikrą pranašystę. Astrologija nepakeičia gydytojo, teisininko ar finansų patarėjo nuomonės."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kaip sužinoti savo ženklą?",
+   "a": "Pagal gimimo datą. Ribinėmis dienomis svarbu ir laikas bei vieta."
+  },
+  {
+   "q": "Kuo skiriasi ženklas ir kylantis ženklas?",
+   "a": "Ženklas – tavo esmė, kylantis ženklas – įspūdis kitiems."
+  },
+  {
+   "q": "Ar astrologija yra mokslas?",
+   "a": "Ne, nėra mokslinių įrodymų, kad ji numato ateitį."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ }
+}

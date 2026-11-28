@@ -1,0 +1,70 @@
+{
+ "lang": "ca",
+ "keyword": "signes-zodiacals",
+ "volume": 1000,
+ "slug": "signes-zodiacals-dates-elements-significat",
+ "date": "2026-11-27",
+ "title": "Els 12 signes zodiacals: dates, elements i significat explicats fàcilment",
+ "description": "Les dates dels 12 signes zodiacals, els quatre elements i com fer-los servir en el dia a dia, amb exemples senzills.",
+ "intro": "«Quin signe ets?» és una pregunta clàssica quan coneixes algú. Hi ha dotze signes zodiacals i cadascun descriu una manera diferent d’afrontar la vida. Aquí tens una guia clara, sense paraules difícils.",
+ "sections": [
+  {
+   "h2": "Les dates dels dotze signes",
+   "paragraphs": [
+    "Aquestes són les dates (poden variar un dia):",
+    "Be: 21 de març – 19 d’abril",
+    "Taure: 20 d’abril – 20 de maig",
+    "Bessons: 21 de maig – 20 de juny",
+    "Cranc: 21 de juny – 22 de juliol",
+    "Lleó: 23 de juliol – 22 d’agost",
+    "Verge: 23 d’agost – 22 de setembre",
+    "Balança: 23 de setembre – 22 d’octubre",
+    "Escorpí: 23 d’octubre – 21 de novembre",
+    "Sagitari: 22 de novembre – 21 de desembre",
+    "Capricorn: 22 de desembre – 19 de gener",
+    "Aquari: 20 de gener – 18 de febrer",
+    "Peixos: 19 de febrer – 20 de març"
+   ]
+  },
+  {
+   "h2": "Els quatre elements",
+   "paragraphs": [
+    "El foc (Be, Lleó, Sagitari) vol dir energia i iniciativa. La terra (Taure, Verge, Capricorn) practicitat i paciència. L’aire (Bessons, Balança, Aquari) idees i comunicació. L’aigua (Cranc, Escorpí, Peixos) emocions i intuïció."
+   ]
+  },
+  {
+   "h2": "Més enllà del signe solar",
+   "paragraphs": [
+    "Imagina quatre amics que planegen un viatge: el signe de foc tria la destinació en un segon, el de terra fa la llista de l’equipatge, el d’aire busca recomanacions i el d’aigua vetlla perquè tothom s’hi trobi bé.",
+    "El signe solar és només una part de la carta natal. L’ascendent i la Lluna canvien molt la imatge. Amb una eina gratuïta els pots calcular en pocs minuts."
+   ]
+  },
+  {
+   "h2": "Com fer servir el teu signe",
+   "paragraphs": [
+    "Pren el zodíac com una inspiració per reflexionar, no com una predicció segura. L’astrologia no substitueix el consell d’un metge, un advocat o un assessor financer."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Com sé quin és el meu signe?",
+   "a": "Segons la data de naixement. Els dies de frontera també compten l’hora i el lloc."
+  },
+  {
+   "q": "Quina diferència hi ha entre signe i ascendent?",
+   "a": "El signe és la teva essència; l’ascendent, la impressió que fas als altres."
+  },
+  {
+   "q": "L’astrologia és ciència?",
+   "a": "No, no hi ha proves científiques que prediguin el futur."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ }
+}
