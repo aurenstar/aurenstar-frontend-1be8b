@@ -1,0 +1,70 @@
+{
+ "lang": "sv",
+ "keyword": "stjarntecken",
+ "volume": 1000,
+ "slug": "stjarntecken-datum-element-betydelse",
+ "date": "2026-11-27",
+ "title": "De 12 stjärntecknen: datum, element och betydelse enkelt förklarat",
+ "description": "Alla datum för de 12 stjärntecknen, de fyra elementen och hur du kan använda dem, med enkla exempel.",
+ "intro": "”Vilket stjärntecken är du?” är en klassisk fråga när man lär känna någon. Det finns tolv stjärntecken och vart och ett beskriver ett eget sätt att möta livet. Här får du en tydlig guide utan svåra ord.",
+ "sections": [
+  {
+   "h2": "Datum för de tolv stjärntecknen",
+   "paragraphs": [
+    "Här är datumen (de kan skilja en dag):",
+    "Väduren: 21 mars – 19 april",
+    "Oxen: 20 april – 20 maj",
+    "Tvillingarna: 21 maj – 20 juni",
+    "Kräftan: 21 juni – 22 juli",
+    "Lejonet: 23 juli – 22 augusti",
+    "Jungfrun: 23 augusti – 22 september",
+    "Vågen: 23 september – 22 oktober",
+    "Skorpionen: 23 oktober – 21 november",
+    "Skytten: 22 november – 21 december",
+    "Stenbocken: 22 december – 19 januari",
+    "Vattumannen: 20 januari – 18 februari",
+    "Fiskarna: 19 februari – 20 mars"
+   ]
+  },
+  {
+   "h2": "De fyra elementen",
+   "paragraphs": [
+    "Eld (Väduren, Lejonet, Skytten) står för energi och initiativ. Jord (Oxen, Jungfrun, Stenbocken) för jordnära och tålmodig. Luft (Tvillingarna, Vågen, Vattumannen) för idéer och kommunikation. Vatten (Kräftan, Skorpionen, Fiskarna) för känslor och intuition."
+   ]
+  },
+  {
+   "h2": "Mer än ditt solstjärntecken",
+   "paragraphs": [
+    "Tänk dig fyra vänner som planerar en resa: eldtecknet bestämmer resmål på en sekund, jordtecknet gör packlistan, lufttecknet googlar tips och vattentecknet ser till att alla trivs.",
+    "Ditt solstjärntecken är bara en del av ditt födelsehoroskop. Ascendent och månstjärntecken påverkar bilden mycket. Med ett gratis verktyg ser du dem på några minuter."
+   ]
+  },
+  {
+   "h2": "Så använder du stjärntecknen",
+   "paragraphs": [
+    "Se stjärntecken som inspiration till eftertanke, inte som en säker förutsägelse. Astrologi ersätter aldrig råd från läkare, jurist eller ekonomisk rådgivare."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hur tar jag reda på mitt stjärntecken?",
+   "a": "Det styrs av ditt födelsedatum. Vid gränsdagar spelar klockslag och födelseort roll."
+  },
+  {
+   "q": "Vad är skillnaden mellan stjärntecken och ascendent?",
+   "a": "Stjärntecknet är din kärna, ascendenten är intrycket du ger andra."
+  },
+  {
+   "q": "Är astrologi vetenskap?",
+   "a": "Nej, det finns inga vetenskapliga bevis för att den förutspår framtiden."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ }
+}

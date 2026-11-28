@@ -1,0 +1,70 @@
+{
+ "lang": "ro",
+ "keyword": "semne-zodiacale",
+ "volume": 1000,
+ "slug": "semne-zodiacale-date-elemente-semnificatie",
+ "date": "2026-11-27",
+ "title": "Cele 12 semne zodiacale: date, elemente și semnificație explicate simplu",
+ "description": "Datele celor 12 semne zodiacale, cele patru elemente și cum le folosești în viața de zi cu zi, cu exemple simple.",
+ "intro": "„Ce zodie ești?” este una dintre întrebările clasice când cunoști pe cineva. Există douăsprezece semne zodiacale, iar fiecare descrie un mod diferit de a trăi. Iată un ghid clar, fără cuvinte complicate.",
+ "sections": [
+  {
+   "h2": "Datele celor douăsprezece semne",
+   "paragraphs": [
+    "Iată datele (pot varia cu o zi):",
+    "Berbec: 21 martie – 19 aprilie",
+    "Taur: 20 aprilie – 20 mai",
+    "Gemeni: 21 mai – 20 iunie",
+    "Rac: 21 iunie – 22 iulie",
+    "Leu: 23 iulie – 22 august",
+    "Fecioară: 23 august – 22 septembrie",
+    "Balanță: 23 septembrie – 22 octombrie",
+    "Scorpion: 23 octombrie – 21 noiembrie",
+    "Săgetător: 22 noiembrie – 21 decembrie",
+    "Capricorn: 22 decembrie – 19 ianuarie",
+    "Vărsător: 20 ianuarie – 18 februarie",
+    "Pești: 19 februarie – 20 martie"
+   ]
+  },
+  {
+   "h2": "Cele patru elemente",
+   "paragraphs": [
+    "Focul (Berbec, Leu, Săgetător) înseamnă energie și inițiativă. Pământul (Taur, Fecioară, Capricorn) practic și răbdare. Aerul (Gemeni, Balanță, Vărsător) idei și comunicare. Apa (Rac, Scorpion, Pești) emoții și intuiție."
+   ]
+  },
+  {
+   "h2": "Mai mult decât zodia solară",
+   "paragraphs": [
+    "Imaginează-ți patru prieteni care planifică o excursie: semnul de foc alege destinația într-o secundă, cel de pământ face lista de bagaje, cel de aer caută sfaturi, iar cel de apă are grijă ca toți să se simtă bine.",
+    "Zodia solară este doar o parte din harta natală. Ascendentul și Luna schimbă mult imaginea. Cu un calculator gratuit le afli în câteva minute."
+   ]
+  },
+  {
+   "h2": "Cum folosești zodia",
+   "paragraphs": [
+    "Vezi zodiacul ca pe o inspirație pentru reflecție, nu ca pe o predicție sigură. Astrologia nu înlocuiește sfatul medicului, avocatului sau consilierului financiar."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cum îmi aflu zodia?",
+   "a": "După data nașterii. În zilele de graniță contează și ora și locul nașterii."
+  },
+  {
+   "q": "Care e diferența dintre zodie și ascendent?",
+   "a": "Zodia este esența ta, ascendentul este impresia pe care o lași altora."
+  },
+  {
+   "q": "Este astrologia o știință?",
+   "a": "Nu, nu există dovezi științifice că poate prezice viitorul."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ }
+}

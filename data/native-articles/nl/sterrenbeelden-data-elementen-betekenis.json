@@ -1,0 +1,70 @@
+{
+ "lang": "nl",
+ "keyword": "sterrenbeelden",
+ "volume": 18100,
+ "slug": "sterrenbeelden-data-elementen-betekenis",
+ "date": "2026-11-27",
+ "title": "De 12 sterrenbeelden: data, elementen en betekenis eenvoudig uitgelegd",
+ "description": "Alle data van de 12 sterrenbeelden, de vier elementen en hoe je ze gebruikt, met eenvoudige voorbeelden.",
+ "intro": "“Welk sterrenbeeld ben jij?” Het is een van de meest gestelde vragen als je iemand leert kennen. Er zijn twaalf sterrenbeelden en elk beschrijft een andere manier om in het leven te staan. Hier vind je een duidelijk overzicht, zonder moeilijke woorden.",
+ "sections": [
+  {
+   "h2": "De data van de twaalf sterrenbeelden",
+   "paragraphs": [
+    "Dit zijn de data (ze kunnen een dag verschillen):",
+    "Ram: 21 maart – 19 april",
+    "Stier: 20 april – 20 mei",
+    "Tweelingen: 21 mei – 20 juni",
+    "Kreeft: 21 juni – 22 juli",
+    "Leeuw: 23 juli – 22 augustus",
+    "Maagd: 23 augustus – 22 september",
+    "Weegschaal: 23 september – 22 oktober",
+    "Schorpioen: 23 oktober – 21 november",
+    "Boogschutter: 22 november – 21 december",
+    "Steenbok: 22 december – 19 januari",
+    "Waterman: 20 januari – 18 februari",
+    "Vissen: 19 februari – 20 maart"
+   ]
+  },
+  {
+   "h2": "De vier elementen",
+   "paragraphs": [
+    "Vuur (Ram, Leeuw, Boogschutter) staat voor energie en initiatief. Aarde (Stier, Maagd, Steenbok) voor nuchterheid en geduld. Lucht (Tweelingen, Weegschaal, Waterman) voor ideeën en communicatie. Water (Kreeft, Schorpioen, Vissen) voor gevoel en intuïtie."
+   ]
+  },
+  {
+   "h2": "Meer dan je zonneteken",
+   "paragraphs": [
+    "Stel dat vier vrienden een reis plannen: de vuurmens kiest razendsnel de bestemming, de aardemens maakt de pakbonnenlijst, de luchtmens zoekt leuke tips op en de watermens zorgt dat iedereen zich op zijn gemak voelt.",
+    "Je zonneteken is maar één deel van je geboortehoroscoop. Ook je ascendant en maanteken kleuren het beeld. Met een gratis rekentool zie je ze in een paar minuten."
+   ]
+  },
+  {
+   "h2": "Zo gebruik je je sterrenbeeld",
+   "paragraphs": [
+    "Zie sterrenbeelden als inspiratie om over jezelf na te denken, niet als zekere voorspelling. Astrologie vervangt nooit het advies van een arts, jurist of financieel adviseur."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hoe weet ik mijn sterrenbeeld?",
+   "a": "Dat zie je aan je geboortedatum. Op de grensdagen telt ook het tijdstip en de plaats van geboorte."
+  },
+  {
+   "q": "Wat is het verschil tussen sterrenbeeld en ascendant?",
+   "a": "Je sterrenbeeld is je kern, je ascendant is de indruk die je op anderen maakt."
+  },
+  {
+   "q": "Is astrologie wetenschappelijk?",
+   "a": "Nee, er is geen wetenschappelijk bewijs dat het de toekomst voorspelt. Het is een hulpmiddel om na te denken."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "lang": "cs",
+ "keyword": "znameni-zverokruhu",
+ "volume": 40500,
+ "slug": "znameni-zverokruhu-data-zivly-vyznam",
+ "date": "2026-11-27",
+ "title": "12 znamení zvěrokruhu: data, živly a význam jednoduše",
+ "description": "Data všech 12 znamení zvěrokruhu, čtyři živly a jak je využít v běžném životě, s jednoduchými příklady.",
+ "intro": "„Jaké jsi znamení?“ je klasická otázka, když někoho poznáváme. Znamení zvěrokruhu je dvanáct a každé popisuje jiný způsob, jak se dívat na život. Tady je jasný přehled bez složitých slov.",
+ "sections": [
+  {
+   "h2": "Data dvanácti znamení",
+   "paragraphs": [
+    "Tady jsou data (mohou se lišit o den):",
+    "Beran: 21. března – 19. dubna",
+    "Býk: 20. dubna – 20. května",
+    "Blíženci: 21. května – 20. června",
+    "Rak: 21. června – 22. července",
+    "Lev: 23. července – 22. srpna",
+    "Panna: 23. srpna – 22. září",
+    "Váhy: 23. září – 22. října",
+    "Štír: 23. října – 21. listopadu",
+    "Střelec: 22. listopadu – 21. prosince",
+    "Kozoroh: 22. prosince – 19. ledna",
+    "Vodnář: 20. ledna – 18. února",
+    "Ryby: 19. února – 20. března"
+   ]
+  },
+  {
+   "h2": "Čtyři živly",
+   "paragraphs": [
+    "Oheň (Beran, Lev, Střelec) znamená energii a iniciativu. Země (Býk, Panna, Kozoroh) praktičnost a trpělivost. Vzduch (Blíženci, Váhy, Vodnář) nápady a komunikaci. Voda (Rak, Štír, Ryby) city a intuici."
+   ]
+  },
+  {
+   "h2": "Víc než sluneční znamení",
+   "paragraphs": [
+    "Představte si čtyři kamarády plánující výlet: ohnivé znamení vybere cíl za vteřinu, zemské sepíše seznam věcí, vzdušné najde tipy a vodní se postará, aby se všichni cítili dobře.",
+    "Sluneční znamení je jen jedna část natálního horoskopu. Ascendent a Luna obraz hodně mění. S bezplatnou kalkulačkou je zjistíte za pár minut."
+   ]
+  },
+  {
+   "h2": "Jak znamení využít",
+   "paragraphs": [
+    "Berte znamení jako inspiraci k zamyšlení, ne jako jistou předpověď. Astrologie nenahrazuje radu lékaře, právníka ani finančního poradce."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak zjistím své znamení?",
+   "a": "Podle data narození. V hraničních dnech rozhoduje i čas a místo narození."
+  },
+  {
+   "q": "Jaký je rozdíl mezi znamením a ascendentem?",
+   "a": "Znamení je vaše jádro, ascendent dojem, který děláte na ostatní."
+  },
+  {
+   "q": "Je astrologie věda?",
+   "a": "Ne, vědecké důkazy o předpovídání budoucnosti neexistují."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ }
+}

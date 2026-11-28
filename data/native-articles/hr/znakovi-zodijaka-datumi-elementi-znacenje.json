@@ -1,0 +1,70 @@
+{
+ "lang": "hr",
+ "keyword": "znakovi-zodijaka",
+ "volume": 49500,
+ "slug": "znakovi-zodijaka-datumi-elementi-znacenje",
+ "date": "2026-11-27",
+ "title": "12 znakova zodijaka: datumi, elementi i značenje jednostavno",
+ "description": "Datumi 12 znakova zodijaka, četiri elementa i kako ih koristiti u svakodnevici, uz jednostavne primjere.",
+ "intro": "„Koji si znak?” klasično je pitanje kad nekoga upoznaješ. Znakova zodijaka ima dvanaest i svaki opisuje drukčiji način kako pristupati životu. Evo jasnog vodiča bez teških riječi.",
+ "sections": [
+  {
+   "h2": "Datumi dvanaest znakova",
+   "paragraphs": [
+    "Evo datuma (mogu se razlikovati za jedan dan):",
+    "Ovan: 21. ožujka – 19. travnja",
+    "Bik: 20. travnja – 20. svibnja",
+    "Blizanci: 21. svibnja – 20. lipnja",
+    "Rak: 21. lipnja – 22. srpnja",
+    "Lav: 23. srpnja – 22. kolovoza",
+    "Djevica: 23. kolovoza – 22. rujna",
+    "Vaga: 23. rujna – 22. listopada",
+    "Škorpion: 23. listopada – 21. studenoga",
+    "Strijelac: 22. studenoga – 21. prosinca",
+    "Jarac: 22. prosinca – 19. siječnja",
+    "Vodenjak: 20. siječnja – 18. veljače",
+    "Ribe: 19. veljače – 20. ožujka"
+   ]
+  },
+  {
+   "h2": "Četiri elementa",
+   "paragraphs": [
+    "Vatra (Ovan, Lav, Strijelac) znači energiju i inicijativu. Zemlja (Bik, Djevica, Jarac) praktičnost i strpljenje. Zrak (Blizanci, Vaga, Vodenjak) ideje i komunikaciju. Voda (Rak, Škorpion, Ribe) osjećaje i intuiciju."
+   ]
+  },
+  {
+   "h2": "Više od sunčanog znaka",
+   "paragraphs": [
+    "Zamisli četvero prijatelja koji planiraju put: vatreni znak bira odredište u sekundi, zemljani radi popis stvari, zračni traži savjete, a vodeni pazi da se svi dobro osjećaju.",
+    "Sunčani znak samo je jedan dio natalne karte. Ascendent i Mjesec mnogo mijenjaju sliku. Besplatnim alatom izračunat ćeš ih za nekoliko minuta."
+   ]
+  },
+  {
+   "h2": "Kako koristiti svoj znak",
+   "paragraphs": [
+    "Znakove shvati kao poticaj za razmišljanje, a ne kao sigurno proricanje. Astrologija ne zamjenjuje savjet liječnika, odvjetnika ili financijskog savjetnika."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako saznati svoj znak?",
+   "a": "Prema datumu rođenja. Na graničnim danima važni su i sat i mjesto rođenja."
+  },
+  {
+   "q": "Koja je razlika između znaka i ascendenta?",
+   "a": "Znak je tvoja srž, ascendent je dojam koji ostavljaš na druge."
+  },
+  {
+   "q": "Je li astrologija znanost?",
+   "a": "Ne, nema znanstvenih dokaza da predviđa budućnost."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ }
+}

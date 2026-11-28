@@ -1,0 +1,70 @@
+{
+ "lang": "ms",
+ "keyword": "tanda-zodiak",
+ "volume": 1000000,
+ "slug": "tanda-zodiak-tarikh-unsur-maksud",
+ "date": "2026-11-27",
+ "title": "12 Tanda Zodiak: Tarikh, Unsur dan Maksud Dijelaskan Mudah",
+ "description": "Tarikh 12 tanda zodiak, empat unsur dan cara menggunakannya dalam kehidupan harian, dengan contoh mudah.",
+ "intro": "“Apa zodiak awak?” ialah soalan klasik apabila berkenalan dengan seseorang. Ada dua belas tanda zodiak dan setiap satu menggambarkan cara berbeza menghadapi hidup. Ini panduan jelas tanpa istilah sukar.",
+ "sections": [
+  {
+   "h2": "Tarikh bagi dua belas tanda",
+   "paragraphs": [
+    "Berikut tarikhnya (mungkin berbeza sehari):",
+    "Aries: 21 Mac – 19 April",
+    "Taurus: 20 April – 20 Mei",
+    "Gemini: 21 Mei – 20 Jun",
+    "Cancer: 21 Jun – 22 Julai",
+    "Leo: 23 Julai – 22 Ogos",
+    "Virgo: 23 Ogos – 22 September",
+    "Libra: 23 September – 22 Oktober",
+    "Scorpio: 23 Oktober – 21 November",
+    "Sagittarius: 22 November – 21 Disember",
+    "Capricorn: 22 Disember – 19 Januari",
+    "Aquarius: 20 Januari – 18 Februari",
+    "Pisces: 19 Februari – 20 Mac"
+   ]
+  },
+  {
+   "h2": "Empat unsur",
+   "paragraphs": [
+    "Api (Aries, Leo, Sagittarius) bermaksud tenaga dan inisiatif. Bumi (Taurus, Virgo, Capricorn) bersikap praktikal dan sabar. Udara (Gemini, Libra, Aquarius) bermaksud idea dan komunikasi. Air (Cancer, Scorpio, Pisces) bermaksud perasaan dan gerak hati."
+   ]
+  },
+  {
+   "h2": "Lebih daripada tanda matahari",
+   "paragraphs": [
+    "Bayangkan empat kawan merancang percutian: tanda api memilih destinasi dalam sesaat, tanda bumi menyediakan senarai barang, tanda udara mencari cadangan dan tanda air memastikan semua orang selesa.",
+    "Tanda matahari hanyalah sebahagian daripada carta kelahiran. Ascendant dan Bulan banyak mengubah gambaran. Dengan alat percuma, anda boleh mengetahuinya dalam beberapa minit."
+   ]
+  },
+  {
+   "h2": "Cara menggunakan zodiak anda",
+   "paragraphs": [
+    "Anggap zodiak sebagai inspirasi untuk berfikir tentang diri, bukan ramalan pasti. Astrologi tidak menggantikan nasihat doktor, peguam atau penasihat kewangan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Bagaimana saya tahu zodiak saya?",
+   "a": "Berdasarkan tarikh lahir. Pada hari sempadan, masa dan tempat lahir juga penting."
+  },
+  {
+   "q": "Apakah beza zodiak dan ascendant?",
+   "a": "Zodiak ialah intipati anda, ascendant ialah kesan yang orang lain nampak."
+  },
+  {
+   "q": "Adakah astrologi sains?",
+   "a": "Tidak, tiada bukti saintifik ia boleh meramal masa depan."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ }
+}

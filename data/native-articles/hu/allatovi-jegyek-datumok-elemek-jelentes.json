@@ -1,0 +1,70 @@
+{
+ "lang": "hu",
+ "keyword": "allatoevi-jegyek",
+ "volume": 6600,
+ "slug": "allatovi-jegyek-datumok-elemek-jelentes",
+ "date": "2026-11-27",
+ "title": "A 12 állatövi jegy: dátumok, elemek és jelentés egyszerűen",
+ "description": "A 12 állatövi jegy dátumai, a négy elem és a mindennapi használat, egyszerű példákkal.",
+ "intro": "„Mi a csillagjegyed?” – klasszikus kérdés ismerkedéskor. Tizenkét állatövi jegy van, és mindegyik más módon közelít az élethez. Íme egy világos útmutató nehéz szavak nélkül.",
+ "sections": [
+  {
+   "h2": "A tizenkét jegy dátumai",
+   "paragraphs": [
+    "Itt vannak a dátumok (egy nappal eltérhetnek):",
+    "Kos: március 21. – április 19.",
+    "Bika: április 20. – május 20.",
+    "Ikrek: május 21. – június 20.",
+    "Rák: június 21. – július 22.",
+    "Oroszlán: július 23. – augusztus 22.",
+    "Szűz: augusztus 23. – szeptember 22.",
+    "Mérleg: szeptember 23. – október 22.",
+    "Skorpió: október 23. – november 21.",
+    "Nyilas: november 22. – december 21.",
+    "Bak: december 22. – január 19.",
+    "Vízöntő: január 20. – február 18.",
+    "Halak: február 19. – március 20."
+   ]
+  },
+  {
+   "h2": "A négy elem",
+   "paragraphs": [
+    "A tűz (Kos, Oroszlán, Nyilas) energiát és kezdeményezőkészséget jelent. A föld (Bika, Szűz, Bak) gyakorlatiasságot és türelmet. A levegő (Ikrek, Mérleg, Vízöntő) ötleteket és kommunikációt. A víz (Rák, Skorpió, Halak) érzelmeket és intuíciót."
+   ]
+  },
+  {
+   "h2": "Több mint a napjegy",
+   "paragraphs": [
+    "Képzelj el négy barátot, akik utazást terveznek: a tűzjegy másodpercek alatt választ úti célt, a földjegy összeállítja a csomagolólistát, a levegőjegy tippeket keres, a vízjegy pedig gondoskodik a jó hangulatról.",
+    "A napjegyed csak egy része a születési horoszkópnak. Az aszcendens és a Hold jegye sokat számít. Ingyenes kalkulátorral perceken belül kiszámolhatod őket."
+   ]
+  },
+  {
+   "h2": "Így használd a csillagjegyet",
+   "paragraphs": [
+    "Tekints a csillagjegyekre az önismeret ihletőjeként, ne biztos jóslatként. Az asztrológia nem helyettesíti orvos, jogász vagy pénzügyi tanácsadó véleményét."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hogyan tudom meg a csillagjegyemet?",
+   "a": "A születési dátumból. Határnapokon az időpont és a születési hely is számít."
+  },
+  {
+   "q": "Mi a különbség a napjegy és az aszcendens között?",
+   "a": "A napjegy a lényeged, az aszcendens az a benyomás, amit másokra teszel."
+  },
+  {
+   "q": "Tudomány az asztrológia?",
+   "a": "Nem, nincs tudományos bizonyíték a jövendölő képességére."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ }
+}

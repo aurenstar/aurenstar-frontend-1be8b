@@ -1,0 +1,70 @@
+{
+ "lang": "da",
+ "keyword": "stjernetegn",
+ "volume": 1000,
+ "slug": "stjernetegn-datoer-elementer-betydning",
+ "date": "2026-11-27",
+ "title": "De 12 stjernetegn: datoer, elementer og betydning forklaret enkelt",
+ "description": "Alle datoer for de 12 stjernetegn, de fire elementer og hvordan du bruger dem, med enkle eksempler.",
+ "intro": "”Hvad er dit stjernetegn?” er et klassisk spørgsmål, når man lærer nogen at kende. Der er tolv stjernetegn, og hvert beskriver en måde at gribe livet an på. Her får du en klar guide uden svære ord.",
+ "sections": [
+  {
+   "h2": "Datoerne for de tolv stjernetegn",
+   "paragraphs": [
+    "Her er datoerne (de kan variere en dag):",
+    "Vædderen: 21. marts – 19. april",
+    "Tyren: 20. april – 20. maj",
+    "Tvillingerne: 21. maj – 20. juni",
+    "Krebsen: 21. juni – 22. juli",
+    "Løven: 23. juli – 22. august",
+    "Jomfruen: 23. august – 22. september",
+    "Vægten: 23. september – 22. oktober",
+    "Skorpionen: 23. oktober – 21. november",
+    "Skytten: 22. november – 21. december",
+    "Stenbukken: 22. december – 19. januar",
+    "Vandbæreren: 20. januar – 18. februar",
+    "Fiskene: 19. februar – 20. marts"
+   ]
+  },
+  {
+   "h2": "De fire elementer",
+   "paragraphs": [
+    "Ild (Vædderen, Løven, Skytten) står for energi og initiativ. Jord (Tyren, Jomfruen, Stenbukken) for jordnærhed og tålmodighed. Luft (Tvillingerne, Vægten, Vandbæreren) for idéer og kommunikation. Vand (Krebsen, Skorpionen, Fiskene) for følelser og intuition."
+   ]
+  },
+  {
+   "h2": "Mere end dit solstjernetegn",
+   "paragraphs": [
+    "Forestil dig fire venner, der planlægger en rejse: ildtegnet vælger rejsemål på et sekund, jordtegnet laver pakkelisten, lufttegnet finder tips og vandtegnet sørger for, at alle har det godt.",
+    "Dit solstjernetegn er kun én del af dit fødselshoroskop. Ascendant og månetegn farver også billedet. Med et gratis værktøj kan du finde dem på få minutter."
+   ]
+  },
+  {
+   "h2": "Sådan bruger du stjernetegnet",
+   "paragraphs": [
+    "Brug stjernetegn som inspiration til at tænke over dig selv, ikke som en sikker forudsigelse. Astrologi erstatter aldrig råd fra læge, jurist eller økonomisk rådgiver."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvordan finder jeg mit stjernetegn?",
+   "a": "Det afhænger af din fødselsdato. På grænsedage betyder tidspunkt og fødested noget."
+  },
+  {
+   "q": "Hvad er forskellen på stjernetegn og ascendant?",
+   "a": "Stjernetegnet er din kerne, ascendanten er det indtryk, du giver andre."
+  },
+  {
+   "q": "Er astrologi videnskab?",
+   "a": "Nej, der er ingen videnskabelig dokumentation for, at den kan forudsige fremtiden."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "lang": "fi",
+ "keyword": "horoskooppimerkit",
+ "volume": 1000,
+ "slug": "horoskooppimerkit-paivamaarat-elementit-merkitys",
+ "date": "2026-11-27",
+ "title": "12 horoskooppimerkkiä: päivämäärät, elementit ja merkitys selkeästi",
+ "description": "Kaikkien 12 horoskooppimerkin päivämäärät, neljä elementtiä ja niiden käyttö arjessa yksinkertaisten esimerkkien kanssa.",
+ "intro": "”Mikä horoskooppimerkki sinä olet?” on klassinen kysymys, kun tutustuu uuteen ihmiseen. Horoskooppimerkkejä on kaksitoista, ja jokainen kuvaa omaa tapaansa kohdata elämä. Tässä selkeä opas ilman vaikeita sanoja.",
+ "sections": [
+  {
+   "h2": "Kaksitoista horoskooppimerkkiä ja päivämäärät",
+   "paragraphs": [
+    "Tässä päivämäärät (ne voivat vaihdella päivällä):",
+    "Oinas: 21. maaliskuuta – 19. huhtikuuta",
+    "Härkä: 20. huhtikuuta – 20. toukokuuta",
+    "Kaksonen: 21. toukokuuta – 20. kesäkuuta",
+    "Rapu: 21. kesäkuuta – 22. heinäkuuta",
+    "Leijona: 23. heinäkuuta – 22. elokuuta",
+    "Neitsyt: 23. elokuuta – 22. syyskuuta",
+    "Vaaka: 23. syyskuuta – 22. lokakuuta",
+    "Skorpioni: 23. lokakuuta – 21. marraskuuta",
+    "Jousimies: 22. marraskuuta – 21. joulukuuta",
+    "Kauris: 22. joulukuuta – 19. tammikuuta",
+    "Vesimies: 20. tammikuuta – 18. helmikuuta",
+    "Kalat: 19. helmikuuta – 20. maaliskuuta"
+   ]
+  },
+  {
+   "h2": "Neljä elementtiä",
+   "paragraphs": [
+    "Tuli (Oinas, Leijona, Jousimies) tarkoittaa energiaa ja aloitteellisuutta. Maa (Härkä, Neitsyt, Kauris) käytännöllisyyttä ja kärsivällisyyttä. Ilma (Kaksonen, Vaaka, Vesimies) ideoita ja viestintää. Vesi (Rapu, Skorpioni, Kalat) tunteita ja intuitiota."
+   ]
+  },
+  {
+   "h2": "Enemmän kuin aurinkomerkki",
+   "paragraphs": [
+    "Kuvittele neljä ystävää suunnittelemassa matkaa: tulimerkki valitsee kohteen sekunnissa, maamerkki tekee pakkauslistan, ilmamerkki etsii vinkkejä ja vesimerkki huolehtii, että kaikilla on hyvä olla.",
+    "Aurinkomerkki on vain yksi osa syntymähoroskooppia. Myös nouseva merkki ja kuumerkki muuttavat kuvaa. Ilmaisella laskurilla löydät ne muutamassa minuutissa."
+   ]
+  },
+  {
+   "h2": "Näin käytät horoskooppimerkkiä",
+   "paragraphs": [
+    "Pidä horoskooppimerkkejä ajattelun virikkeenä, älä varmana ennustuksena. Astrologia ei korvaa lääkärin, juristin tai talousneuvojan neuvoja."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mistä tiedän horoskooppimerkkini?",
+   "a": "Se määräytyy syntymäpäivän mukaan. Rajapäivinä vaikuttavat myös kellonaika ja syntymäpaikka."
+  },
+  {
+   "q": "Mikä ero on merkillä ja nousevalla merkillä?",
+   "a": "Aurinkomerkki on ydin, nouseva merkki on vaikutelma, jonka annat muille."
+  },
+  {
+   "q": "Onko astrologia tiedettä?",
+   "a": "Ei, tieteellistä näyttöä sen ennustuskyvystä ei ole."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ }
+}
