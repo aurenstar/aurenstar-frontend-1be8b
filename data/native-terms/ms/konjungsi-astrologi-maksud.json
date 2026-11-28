@@ -1,0 +1,49 @@
+{
+ "lang": "ms",
+ "keyword": "konjungsi astrologi",
+ "volume": "1000",
+ "slug": "konjungsi-astrologi-maksud",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Konjungsi dalam astrologi: apa maksudnya?",
+ "description": "Dua planet berada di tempat yang sama. Ini dipanggil konjungsi. Mudah, dengan contoh.",
+ "intro": "Konjungsi berlaku apabila dua planet berdekatan dalam carta kelahiran anda. Kuasa mereka bersatu dan bertindak sebagai satu.",
+ "sections": [
+  {
+   "h2": "Apakah konjungsi?",
+   "paragraphs": [
+    "Seperti mencampur dua warna: terhasil satu warna baharu. Begitulah sifat dua planet bercampur."
+   ]
+  },
+  {
+   "h2": "Baik atau buruk?",
+   "paragraphs": [
+    "Bukan kedua-duanya. Ia tempat yang kuat: perkara yang diwakili planet lebih ketara dalam hidup anda."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Matahari dan Zuhrah bersama: Aina menawan, mesra dan mudah mendapat kawan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Sejauh mana planet perlu berdekatan?",
+   "a": "Biasanya dalam lingkungan 8 darjah."
+  },
+  {
+   "q": "Adakah konjungsi sentiasa baik?",
+   "a": "Tidak selalu; bergantung pada planet yang terlibat."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

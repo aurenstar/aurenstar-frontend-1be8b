@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "opposition astrologi",
+ "volume": "1000",
+ "slug": "opposition-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Opposition i astrologin: vad betyder det?",
+ "description": "Två planeter står rakt mitt emot varandra. Det kallas opposition. Enkelt förklarat med exempel.",
+ "intro": "En opposition är när två planeter står mitt emot varandra, på varsin sida av cirkeln. Det känns som dragkamp mellan två sidor av dig själv.",
+ "sections": [
+  {
+   "h2": "Vad är en opposition?",
+   "paragraphs": [
+    "Tänk på en gungbräda: ett barn på varje sida. Du måste balansera, annars sjunker ena sidan."
+   ]
+  },
+  {
+   "h2": "Vad lär du dig?",
+   "paragraphs": [
+    "Du lär dig förena båda sidorna i stället för att välja. Ofta märks det i relationer, där den andra blir din spegel."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Sol mitt emot Saturnus: Rosa vill vara spontan men känner plikt. Hon planerar tid för både jobb och nöje."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hur många grader är en opposition?",
+   "a": "Ungefär 180 grader, med utrymme på cirka 8 grader."
+  },
+  {
+   "q": "Är opposition dåligt?",
+   "a": "Nej, det ger spänning som du lär dig balansera."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "oppositsioon astroloogia",
+ "volume": "1000",
+ "slug": "oppositsioon-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Oppositsioon astroloogias: mida see tähendab?",
+ "description": "Kaks planeeti on täpselt üksteise vastas. Seda nimetatakse oppositsiooniks. Lihtsalt ja näitega.",
+ "intro": "Oppositsioon on siis, kui kaks planeeti on ringi vastaskülgedel. See tundub nagu köievedu sinu kahe poole vahel.",
+ "sections": [
+  {
+   "h2": "Mis on oppositsioon?",
+   "paragraphs": [
+    "Mõtle kiigele: kummalgi pool üks laps. Pead tasakaalu hoidma, muidu vajub üks pool alla."
+   ]
+  },
+  {
+   "h2": "Mida õpid?",
+   "paragraphs": [
+    "Õpid ühendama mõlemad pooled, mitte valima. Sageli tuleb see esile suhetes, kus teine on sinu peegel."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Päike Saturni vastas: Roosi tahab olla spontaanne, kuid tunneb kohust. Ta planeerib aega nii töö kui lõbu jaoks."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mitu kraadi on oppositsioon?",
+   "a": "Umbes 180 kraadi, ligikaudu 8 kraadi varuga."
+  },
+  {
+   "q": "Kas oppositsioon on halb?",
+   "a": "Ei, see annab pinge, mida õpid tasakaalustama."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

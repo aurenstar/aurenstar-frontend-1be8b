@@ -1,0 +1,49 @@
+{
+ "lang": "da",
+ "keyword": "konjunktion astrologi",
+ "volume": "1000",
+ "slug": "konjunktion-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Konjunktion i astrologi: hvad betyder det?",
+ "description": "To planeter står det samme sted. Det kaldes konjunktion. Forklaret enkelt med eksempel.",
+ "intro": "En konjunktion opstår, når to planeter står tæt på hinanden i dit fødselshoroskop. Deres kræfter smelter sammen og virker som én.",
+ "sections": [
+  {
+   "h2": "Hvad er en konjunktion?",
+   "paragraphs": [
+    "Som når du blander to farver: du får én ny farve. Sådan blandes de to planeters egenskaber."
+   ]
+  },
+  {
+   "h2": "Godt eller dårligt?",
+   "paragraphs": [
+    "Hverken eller. Det er et stærkt sted: det, planeterne står for, mærkes ekstra i dit liv."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Sol og Venus sammen: Rosa er charmerende, social og får let venner."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvor tæt skal planeterne være?",
+   "a": "Som regel inden for omkring 8 grader."
+  },
+  {
+   "q": "Er en konjunktion altid god?",
+   "a": "Ikke altid; det afhænger af hvilke planeter."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ },
+ "tool": "descreva-me"
+}

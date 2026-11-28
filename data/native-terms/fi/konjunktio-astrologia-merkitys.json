@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "konjunktio astrologia",
+ "volume": "1000",
+ "slug": "konjunktio-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Konjunktio astrologiassa: mitä se tarkoittaa?",
+ "description": "Kaksi planeettaa on samassa kohdassa. Sitä kutsutaan konjunktioksi. Selitetty esimerkillä.",
+ "intro": "Konjunktio syntyy, kun kaksi planeettaa on lähellä toisiaan syntymäkartassasi. Niiden voimat sulautuvat ja toimivat yhtenä.",
+ "sections": [
+  {
+   "h2": "Mikä on konjunktio?",
+   "paragraphs": [
+    "Kuin sekoittaisit kaksi väriä: saat yhden uuden värin. Näin planeettojen ominaisuudet sekoittuvat."
+   ]
+  },
+  {
+   "h2": "Hyvä vai huono?",
+   "paragraphs": [
+    "Ei kumpikaan. Se on vahva kohta: planeettojen edustamat asiat korostuvat elämässäsi."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Aurinko ja Venus yhdessä: Roosa on viehättävä, seurallinen ja saa helposti ystäviä."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuinka lähellä planeettojen pitää olla?",
+   "a": "Yleensä noin 8 asteen sisällä."
+  },
+  {
+   "q": "Onko konjunktio aina hyvä?",
+   "a": "Ei aina; se riippuu planeetoista."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

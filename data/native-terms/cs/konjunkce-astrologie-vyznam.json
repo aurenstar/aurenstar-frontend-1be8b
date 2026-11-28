@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "konjunkce astrologie",
+ "volume": "1000",
+ "slug": "konjunkce-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Konjunkce v astrologii: co znamená?",
+ "description": "Dvě planety stojí na stejném místě. Říká se tomu konjunkce. Jednoduše s příkladem.",
+ "intro": "Konjunkce vzniká, když jsou dvě planety ve vašem horoskopu blízko sebe. Jejich síly se spojí a působí jako jedna.",
+ "sections": [
+  {
+   "h2": "Co je konjunkce?",
+   "paragraphs": [
+    "Jako když smícháte dvě barvy: vznikne jedna nová. Tak se mísí vlastnosti obou planet."
+   ]
+  },
+  {
+   "h2": "Dobré nebo špatné?",
+   "paragraphs": [
+    "Ani jedno. Je to silné místo: to, co planety znamenají, je v životě výraznější."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Slunce a Venuše spolu: Růža je půvabná, společenská a snadno získává přátele."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak blízko musí planety být?",
+   "a": "Obvykle do asi 8 stupňů."
+  },
+  {
+   "q": "Je konjunkce vždy dobrá?",
+   "a": "Ne vždy; záleží na tom, o jaké planety jde."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

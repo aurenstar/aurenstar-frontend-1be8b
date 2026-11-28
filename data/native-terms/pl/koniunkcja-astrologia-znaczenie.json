@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "koniunkcja astrologia",
+ "volume": "1000",
+ "slug": "koniunkcja-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Koniunkcja w astrologii: co oznacza?",
+ "description": "Dwie planety stoją w tym samym miejscu. To koniunkcja. Wyjaśnione prosto, z przykładem.",
+ "intro": "Koniunkcja powstaje, gdy dwie planety są blisko siebie w Twoim horoskopie urodzeniowym. Ich siły łączą się i działają jak jedna.",
+ "sections": [
+  {
+   "h2": "Czym jest koniunkcja?",
+   "paragraphs": [
+    "Jak zmieszanie dwóch farb: powstaje jeden nowy kolor. Tak mieszają się cechy obu planet."
+   ]
+  },
+  {
+   "h2": "Dobra czy zła?",
+   "paragraphs": [
+    "Żadna. To mocne miejsce: to, co symbolizują planety, jest w Twoim życiu wyraźniejsze."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Słońce i Wenus razem: Róża jest urocza, towarzyska i łatwo zdobywa przyjaciół."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak blisko muszą być planety?",
+   "a": "Zwykle w granicach około 8 stopni."
+  },
+  {
+   "q": "Czy koniunkcja jest zawsze dobra?",
+   "a": "Nie zawsze; zależy od planet."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

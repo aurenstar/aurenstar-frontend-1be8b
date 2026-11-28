@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "opozicija astrologija",
+ "volume": "1000",
+ "slug": "opozicija-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Opozicija astrologijoje: ką tai reiškia?",
+ "description": "Dvi planetos stovi tiksliai viena prieš kitą. Tai opozicija. Paprastai, su pavyzdžiu.",
+ "intro": "Opozicija yra, kai dvi planetos stovi viena prieš kitą, priešingose apskritimo pusėse. Jaučiasi kaip virvės traukimas tarp dviejų tavo pusių.",
+ "sections": [
+  {
+   "h2": "Kas yra opozicija?",
+   "paragraphs": [
+    "Įsivaizduok sūpynes: kiekvienoje pusėje po vaiką. Reikia išlaikyti pusiausvyrą, kitaip viena pusė nusileis."
+   ]
+  },
+  {
+   "h2": "Ko išmoksti?",
+   "paragraphs": [
+    "Išmoksti sujungti abi puses, o ne rinktis. Dažnai tai matyti santykiuose, kur kitas yra tavo veidrodis."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Saulė priešais Saturną: Rūta nori būti spontaniška, bet jaučia pareigą. Planuoja laiko ir darbui, ir pramogoms."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kiek laipsnių yra opozicija?",
+   "a": "Apie 180 laipsnių, su maždaug 8 laipsnių paklaida."
+  },
+  {
+   "q": "Ar opozicija bloga?",
+   "a": "Ne, ji suteikia įtampą, kurią išmoksti subalansuoti."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "opozícia astrológia",
+ "volume": "1000",
+ "slug": "opozicia-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Opozícia v astrológii: čo znamená?",
+ "description": "Dve planéty stoja presne oproti sebe. Hovorí sa tomu opozícia. Jednoducho s príkladom.",
+ "intro": "Opozícia je, keď stoja dve planéty proti sebe na opačných stranách kruhu. Pôsobí ako preťahovanie lanom medzi dvoma časťami vás.",
+ "sections": [
+  {
+   "h2": "Čo je opozícia?",
+   "paragraphs": [
+    "Predstavte si hojdačku: na každej strane jedno dieťa. Treba držať rovnováhu, inak jedna strana klesne."
+   ]
+  },
+  {
+   "h2": "Čo sa naučíte?",
+   "paragraphs": [
+    "Naučíte sa spojiť obe strany namiesto vyberania. Často sa to prejaví vo vzťahoch, kde je druhý vaším zrkadlom."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Slnko oproti Saturnu: Ruža chce byť spontánna, ale cíti povinnosť. Plánuje čas na prácu aj zábavu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koľko stupňov má opozícia?",
+   "a": "Zhruba 180 stupňov, s toleranciou asi 8 stupňov."
+  },
+  {
+   "q": "Je opozícia zlá?",
+   "a": "Nie, dáva napätie, ktoré sa učíte vyvažovať."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

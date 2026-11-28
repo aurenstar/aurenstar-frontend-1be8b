@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "konjunktsioon astroloogia",
+ "volume": "1000",
+ "slug": "konjunktsioon-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Konjunktsioon astroloogias: mida see tähendab?",
+ "description": "Kaks planeeti on samas kohas. Seda nimetatakse konjunktsiooniks. Lihtsalt ja näitega.",
+ "intro": "Konjunktsioon tekib, kui kaks planeeti on sinu sünnikaardil üksteise lähedal. Nende jõud sulavad kokku ja mõjuvad kui üks.",
+ "sections": [
+  {
+   "h2": "Mis on konjunktsioon?",
+   "paragraphs": [
+    "Nagu kahe värvi segamine: tekib üks uus värv. Nii seguneb kahe planeedi omadused."
+   ]
+  },
+  {
+   "h2": "Hea või halb?",
+   "paragraphs": [
+    "Ei üks ega teine. See on tugev koht: mida planeedid tähistavad, on sinu elus rohkem märgata."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Päike ja Veenus koos: Roosi on võluv, seltsiv ja leiab kergesti sõpru."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kui lähedal peavad planeedid olema?",
+   "a": "Tavaliselt umbes 8 kraadi piires."
+  },
+  {
+   "q": "Kas konjunktsioon on alati hea?",
+   "a": "Mitte alati; see oleneb planeetidest."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "opozīcija astroloģija",
+ "volume": "1000",
+ "slug": "opozicija-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Opozīcija astroloģijā: ko tas nozīmē?",
+ "description": "Divas planētas stāv tieši viena pretī otrai. To sauc par opozīciju. Vienkārši, ar piemēru.",
+ "intro": "Opozīcija ir, kad divas planētas stāv viena pretī otrai, apļa pretējās pusēs. Tas justies kā virves vilkšana starp divām tavām pusēm.",
+ "sections": [
+  {
+   "h2": "Kas ir opozīcija?",
+   "paragraphs": [
+    "Iedomājies šūpoles: katrā pusē viens bērns. Jāsaglabā līdzsvars, citādi viena puse noslīd."
+   ]
+  },
+  {
+   "h2": "Ko tu iemācies?",
+   "paragraphs": [
+    "Iemācies savienot abas puses, nevis izvēlēties. Bieži tas parādās attiecībās, kur otrs ir tavs spogulis."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Saule pretī Saturnam: Roze grib būt spontāna, bet jūt pienākumu. Viņa plāno laiku gan darbam, gan priekam."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cik grādu ir opozīcija?",
+   "a": "Apmēram 180 grādu, ar aptuveni 8 grādu rezervi."
+  },
+  {
+   "q": "Vai opozīcija ir slikta?",
+   "a": "Nē, tā dod spriedzi, ko iemācies līdzsvarot."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

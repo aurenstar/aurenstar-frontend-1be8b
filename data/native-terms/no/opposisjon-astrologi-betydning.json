@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "opposisjon astrologi",
+ "volume": "1000",
+ "slug": "opposisjon-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Opposisjon i astrologi: hva betyr det?",
+ "description": "To planeter står rett overfor hverandre. Det kalles opposisjon. Enkelt forklart med eksempel.",
+ "intro": "En opposisjon er når to planeter står overfor hverandre, på hver sin side av sirkelen. Det føles som tautrekking mellom to sider av deg selv.",
+ "sections": [
+  {
+   "h2": "Hva er en opposisjon?",
+   "paragraphs": [
+    "Tenk på en vippe: ett barn på hver side. Du må balansere, ellers synker den ene siden."
+   ]
+  },
+  {
+   "h2": "Hva lærer du?",
+   "paragraphs": [
+    "Du lærer å forene begge sidene i stedet for å velge. Ofte merkes det i forhold, der den andre blir speilet ditt."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Sol overfor Saturn: Rosa vil være spontan, men føler plikt. Hun planlegger tid til både jobb og moro."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvor mange grader er en opposisjon?",
+   "a": "Omtrent 180 grader, med rom for rundt 8 grader."
+  },
+  {
+   "q": "Er opposisjon dårlig?",
+   "a": "Nei, det gir spenning du lærer å balansere."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

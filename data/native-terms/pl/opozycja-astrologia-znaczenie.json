@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "opozycja astrologia",
+ "volume": "1000",
+ "slug": "opozycja-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Opozycja w astrologii: co oznacza?",
+ "description": "Dwie planety stoją dokładnie naprzeciw siebie. To opozycja. Wyjaśnione prosto, z przykładem.",
+ "intro": "Opozycja to dwie planety naprzeciw siebie, po przeciwnych stronach koła. Czujesz to jak przeciąganie liny między dwiema częściami siebie.",
+ "sections": [
+  {
+   "h2": "Czym jest opozycja?",
+   "paragraphs": [
+    "Wyobraź sobie huśtawkę: na każdej stronie dziecko. Trzeba łapać równowagę, bo inaczej jedna strona opada."
+   ]
+  },
+  {
+   "h2": "Czego się uczysz?",
+   "paragraphs": [
+    "Uczysz się łączyć obie strony zamiast wybierać. Często widać to w związkach, gdzie druga osoba jest Twoim lustrem."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Słońce naprzeciw Saturna: Róża chce być spontaniczna, ale czuje obowiązek. Planuje czas na pracę i zabawę."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ile stopni ma opozycja?",
+   "a": "Około 180 stopni, z tolerancją około 8 stopni."
+  },
+  {
+   "q": "Czy opozycja jest zła?",
+   "a": "Nie, daje napięcie, które uczysz się równoważyć."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

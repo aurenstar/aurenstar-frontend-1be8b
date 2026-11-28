@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "góc đối 180 độ",
+ "volume": "1000",
+ "slug": "goc-doi-opposition-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Opposition (góc đối 180 độ) trong chiêm tinh là gì?",
+ "description": "Hai hành tinh đứng đối diện nhau gọi là opposition. Giải thích đơn giản, có ví dụ.",
+ "intro": "Opposition là khi hai hành tinh đứng đối diện nhau ở hai bên vòng tròn. Cảm giác như kéo co giữa hai mặt của chính bạn.",
+ "sections": [
+  {
+   "h2": "Opposition là gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến bập bênh: mỗi bên một đứa trẻ. Phải giữ thăng bằng, nếu không một bên sẽ chìm xuống."
+   ]
+  },
+  {
+   "h2": "Bạn học được gì?",
+   "paragraphs": [
+    "Bạn học cách kết hợp cả hai mặt thay vì chọn một. Thường lộ rõ trong các mối quan hệ, nơi người kia là tấm gương của bạn."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Mặt Trời đối Thổ Tinh: Lan muốn tự do vui chơi nhưng cũng thấy trách nhiệm. Cô lên kế hoạch cho cả công việc lẫn giải trí."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Opposition bao nhiêu độ?",
+   "a": "Khoảng 180 độ, sai số khoảng 8 độ."
+  },
+  {
+   "q": "Opposition có xấu không?",
+   "a": "Không, nó tạo căng thẳng để bạn học cách cân bằng."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

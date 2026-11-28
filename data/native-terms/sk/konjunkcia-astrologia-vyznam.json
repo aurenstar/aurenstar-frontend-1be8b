@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "konjunkcia astrológia",
+ "volume": "1000",
+ "slug": "konjunkcia-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Konjunkcia v astrológii: čo znamená?",
+ "description": "Dve planéty stoja na rovnakom mieste. Hovorí sa tomu konjunkcia. Jednoducho s príkladom.",
+ "intro": "Konjunkcia vzniká, keď sú dve planéty vo vašom horoskope blízko seba. Ich sily sa spoja a pôsobia ako jedna.",
+ "sections": [
+  {
+   "h2": "Čo je konjunkcia?",
+   "paragraphs": [
+    "Ako keď zmiešate dve farby: vznikne jedna nová. Tak sa miešajú vlastnosti oboch planét."
+   ]
+  },
+  {
+   "h2": "Dobré alebo zlé?",
+   "paragraphs": [
+    "Ani jedno. Je to silné miesto: to, čo planéty znamenajú, je v živote výraznejšie."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Slnko a Venuša spolu: Ruža je pôvabná, spoločenská a ľahko získava priateľov."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ako blízko musia planéty byť?",
+   "a": "Zvyčajne do asi 8 stupňov."
+  },
+  {
+   "q": "Je konjunkcia vždy dobrá?",
+   "a": "Nie vždy; záleží na tom, o aké planéty ide."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

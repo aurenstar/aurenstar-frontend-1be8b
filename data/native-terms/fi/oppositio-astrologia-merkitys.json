@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "oppositio astrologia",
+ "volume": "1000",
+ "slug": "oppositio-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Oppositio astrologiassa: mitä se tarkoittaa?",
+ "description": "Kaksi planeettaa on suoraan vastakkain. Sitä kutsutaan oppositioksi. Selitetty esimerkillä.",
+ "intro": "Oppositio on, kun kaksi planeettaa on vastakkain ympyrän eri puolilla. Se tuntuu köydenvedolta kahden itsesi puolen välillä.",
+ "sections": [
+  {
+   "h2": "Mikä on oppositio?",
+   "paragraphs": [
+    "Ajattele keinulautaa: lapsi kummallakin puolella. Täytyy tasapainoilla, muuten toinen puoli painuu alas."
+   ]
+  },
+  {
+   "h2": "Mitä opit?",
+   "paragraphs": [
+    "Opit yhdistämään molemmat puolet valitsematta. Usein se näkyy ihmissuhteissa, joissa toinen on peilisi."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Aurinko vastakkain Saturnuksen kanssa: Roosa haluaa olla spontaani mutta tuntee velvollisuutta. Hän varaa aikaa työlle ja hauskanpidolle."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Montako astetta oppositio on?",
+   "a": "Noin 180 astetta, noin 8 asteen väljyydellä."
+  },
+  {
+   "q": "Onko oppositio huono?",
+   "a": "Ei, se antaa jännitteen, jota opit tasapainottamaan."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

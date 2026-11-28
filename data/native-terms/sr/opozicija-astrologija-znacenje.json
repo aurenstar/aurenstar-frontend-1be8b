@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "opozicija astrologija",
+ "volume": "1000",
+ "slug": "opozicija-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Opozicija u astrologiji: šta znači?",
+ "description": "Dve planete stoje tačno jedna naspram druge. To je opozicija. Jednostavno, sa primerom.",
+ "intro": "Opozicija je kad dve planete stoje jedna naspram druge, na suprotnim stranama kruga. Oseća se kao vuča konopca između dva dela tebe.",
+ "sections": [
+  {
+   "h2": "Šta je opozicija?",
+   "paragraphs": [
+    "Zamisli klackalicu: po jedno dete sa svake strane. Moraš držati ravnotežu, inače jedna strana pada."
+   ]
+  },
+  {
+   "h2": "Šta učiš?",
+   "paragraphs": [
+    "Učiš da spojiš obe strane umesto da biraš. Često se vidi u vezama, gde je drugi tvoje ogledalo."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Sunce naspram Saturna: Ruža želi da bude spontana, ali oseća dužnost. Planira vreme za posao i zabavu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko stepeni je opozicija?",
+   "a": "Oko 180 stepeni, sa tolerancijom od oko 8."
+  },
+  {
+   "q": "Da li je opozicija loša?",
+   "a": "Ne, daje napetost koju učiš da uravnotežiš."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

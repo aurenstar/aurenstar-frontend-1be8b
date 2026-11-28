@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "oposició astrologia",
+ "volume": "1000",
+ "slug": "oposicio-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Oposició en astrologia: què significa?",
+ "description": "Dos planetes són exactament un davant de l’altre. S’anomena oposició. Explicat fàcil, amb exemple.",
+ "intro": "Hi ha oposició quan dos planetes són un davant de l’altre, als costats oposats del cercle. Es nota com un estira-i-arronsa entre dues parts teves.",
+ "sections": [
+  {
+   "h2": "Què és l’oposició?",
+   "paragraphs": [
+    "Pensa en un balancí: un nen a cada banda. Cal mantenir l’equilibri, si no una banda cau."
+   ]
+  },
+  {
+   "h2": "Què en aprens?",
+   "paragraphs": [
+    "Aprens a unir les dues parts en lloc d’escollir. Sovint es veu en les relacions, on l’altre és el teu mirall."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Sol davant de Saturn: la Rosa vol ser espontània però sent deure. Planifica temps per a la feina i per a la diversió."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quants graus és una oposició?",
+   "a": "Uns 180 graus, amb un marge d’uns 8."
+  },
+  {
+   "q": "L’oposició és dolenta?",
+   "a": "No, dona una tensió que aprens a equilibrar."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

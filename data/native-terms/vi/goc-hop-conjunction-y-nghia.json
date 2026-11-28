@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "góc hợp 0 độ",
+ "volume": "1000",
+ "slug": "goc-hop-conjunction-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Conjunction (góc hợp 0 độ) trong chiêm tinh là gì?",
+ "description": "Hai hành tinh ở cùng một chỗ gọi là conjunction. Giải thích đơn giản, có ví dụ.",
+ "intro": "Conjunction xảy ra khi hai hành tinh nằm rất gần nhau trong lá số của bạn. Sức mạnh của chúng hòa vào nhau và hoạt động như một.",
+ "sections": [
+  {
+   "h2": "Conjunction là gì?",
+   "paragraphs": [
+    "Như trộn hai màu sơn: ra một màu mới. Đặc điểm của hai hành tinh cũng trộn vào nhau như vậy."
+   ]
+  },
+  {
+   "h2": "Tốt hay xấu?",
+   "paragraphs": [
+    "Không hẳn. Đó là vị trí mạnh: điều các hành tinh đại diện nổi bật hơn trong cuộc sống bạn."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Mặt Trời và Kim Tinh cùng chỗ: Lan duyên dáng, hòa đồng và dễ có bạn bè."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hai hành tinh cần gần nhau thế nào?",
+   "a": "Thường trong khoảng 8 độ."
+  },
+  {
+   "q": "Conjunction có luôn tốt không?",
+   "a": "Không luôn; còn tùy hành tinh nào."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

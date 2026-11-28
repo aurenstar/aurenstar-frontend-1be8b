@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "együttállás asztrológia",
+ "volume": "1000",
+ "slug": "egyuttallas-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Együttállás az asztrológiában: mit jelent?",
+ "description": "Két bolygó ugyanazon a helyen áll. Ezt hívják együttállásnak. Egyszerűen, példával.",
+ "intro": "Együttállás akkor van, ha két bolygó közel áll egymáshoz a születési horoszkópodban. Erejük összeolvad, és egyként hat.",
+ "sections": [
+  {
+   "h2": "Mi az együttállás?",
+   "paragraphs": [
+    "Mintha két színt kevernél: egy új szín lesz belőle. Így keverednek a két bolygó tulajdonságai."
+   ]
+  },
+  {
+   "h2": "Jó vagy rossz?",
+   "paragraphs": [
+    "Egyik sem. Erős hely: amit a bolygók jelképeznek, jobban érződik az életedben."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Nap és Vénusz együtt: Rózsa bájos, társaságkedvelő, és könnyen szerez barátokat."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mennyire legyenek közel a bolygók?",
+   "a": "Általában nagyjából 8 fokon belül."
+  },
+  {
+   "q": "Mindig jó az együttállás?",
+   "a": "Nem mindig; attól függ, mely bolygókról van szó."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

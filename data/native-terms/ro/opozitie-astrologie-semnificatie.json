@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "opoziție astrologie",
+ "volume": "1000",
+ "slug": "opozitie-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Opoziția în astrologie: ce înseamnă?",
+ "description": "Două planete stau exact față în față. Se numește opoziție. Explicat simplu, cu exemplu.",
+ "intro": "Opoziția este când două planete stau față în față, pe părți opuse ale cercului. Se simte ca o tragere de funie între două părți din tine.",
+ "sections": [
+  {
+   "h2": "Ce este opoziția?",
+   "paragraphs": [
+    "Gândește-te la un balansoar: câte un copil pe fiecare parte. Trebuie să echilibrezi, altfel o parte coboară."
+   ]
+  },
+  {
+   "h2": "Ce înveți?",
+   "paragraphs": [
+    "Înveți să unești ambele părți în loc să alegi. Se vede des în relații, unde celălalt devine oglinda ta."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Soarele opus lui Saturn: Roza vrea să fie spontană, dar simte datoria. Își planifică timp pentru muncă și distracție."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Câte grade are opoziția?",
+   "a": "Aproximativ 180 de grade, cu toleranță de circa 8 grade."
+  },
+  {
+   "q": "Este opoziția ceva rău?",
+   "a": "Nu, dă o tensiune pe care înveți s-o echilibrezi."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

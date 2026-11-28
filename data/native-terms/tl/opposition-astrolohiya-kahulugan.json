@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "opposition astrolohiya",
+ "volume": "1000",
+ "slug": "opposition-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Opposition sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Kapag dalawang planeta ay eksaktong magkaharap, tinatawag itong opposition. Simple, may halimbawa.",
+ "intro": "Ang opposition ay kapag magkaharap ang dalawang planeta sa magkabilang panig ng bilog. Parang tug-of-war sa pagitan ng dalawang bahagi ng sarili mo.",
+ "sections": [
+  {
+   "h2": "Ano ang opposition?",
+   "paragraphs": [
+    "Isipin ang see-saw: may batang nasa bawat dulo. Kailangang balansehin, kung hindi bababa ang isang panig."
+   ]
+  },
+  {
+   "h2": "Ano ang matututunan?",
+   "paragraphs": [
+    "Matututo kang pagsamahin ang dalawang panig sa halip na pumili. Madalas itong lumalabas sa relasyon, kung saan salamin mo ang kausap."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Magkaharap ang Araw at Saturn: gustong maging malaya ni Mika pero may pananagutan din. Naglalaan siya ng oras sa trabaho at saya."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ilang digri ang opposition?",
+   "a": "Mga 180 digri, na may espasyong mga 8 digri."
+  },
+  {
+   "q": "Masama ba ang opposition?",
+   "a": "Hindi, nagbibigay ito ng tensyon na natututuhan mong balansehin."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "conjuncție astrologie",
+ "volume": "1000",
+ "slug": "conjunctie-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Conjuncția în astrologie: ce înseamnă?",
+ "description": "Două planete stau în același loc. Se numește conjuncție. Explicat simplu, cu exemplu.",
+ "intro": "Conjuncția apare când două planete sunt aproape una de alta în harta ta natală. Forțele lor se contopesc și lucrează ca una.",
+ "sections": [
+  {
+   "h2": "Ce este conjuncția?",
+   "paragraphs": [
+    "Ca atunci când amesteci două culori: rezultă una nouă. Așa se amestecă însușirile celor două planete."
+   ]
+  },
+  {
+   "h2": "Bună sau rea?",
+   "paragraphs": [
+    "Nici una, nici alta. E un loc puternic: ce reprezintă planetele se simte mai mult în viața ta."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Soarele și Venus împreună: Roza e fermecătoare, sociabilă și își face ușor prieteni."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cât de aproape trebuie să fie planetele?",
+   "a": "De obicei în jur de 8 grade."
+  },
+  {
+   "q": "Este conjuncția mereu bună?",
+   "a": "Nu mereu; depinde de ce planete sunt."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

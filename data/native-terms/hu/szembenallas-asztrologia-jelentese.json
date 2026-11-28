@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "szembenállás asztrológia",
+ "volume": "1000",
+ "slug": "szembenallas-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Szembenállás az asztrológiában: mit jelent?",
+ "description": "Két bolygó pontosan egymással szemben áll. Ezt hívják szembenállásnak. Egyszerűen, példával.",
+ "intro": "Szembenállás, amikor két bolygó egymással szemben áll a kör két oldalán. Úgy érződik, mint a kötélhúzás magad két fele között.",
+ "sections": [
+  {
+   "h2": "Mi a szembenállás?",
+   "paragraphs": [
+    "Gondolj egy libikókára: mindkét oldalon egy gyerek. Egyensúlyoznod kell, különben az egyik oldal lesüllyed."
+   ]
+  },
+  {
+   "h2": "Mit tanulsz belőle?",
+   "paragraphs": [
+    "Megtanulod egyesíteni a két oldalt ahelyett, hogy választanál. Gyakran a kapcsolatokban jön elő, ahol a másik a tükröd."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Nap szemben a Szaturnusszal: Rózsa spontán szeretne lenni, de kötelességet érez. Időt tervez a munkára és a szórakozásra is."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hány fok a szembenállás?",
+   "a": "Körülbelül 180 fok, nagyjából 8 fok eltéréssel."
+  },
+  {
+   "q": "Rossz a szembenállás?",
+   "a": "Nem, feszültséget ad, amit megtanulsz egyensúlyba hozni."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

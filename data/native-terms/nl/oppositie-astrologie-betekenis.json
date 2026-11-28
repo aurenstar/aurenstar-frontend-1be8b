@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "oppositie astrologie",
+ "volume": "1000",
+ "slug": "oppositie-astrologie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Oppositie in de astrologie: wat betekent het?",
+ "description": "Twee planeten staan precies tegenover elkaar. Dat heet oppositie. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "Een oppositie is als twee planeten tegenover elkaar staan, op de helft van de cirkel. Het voelt als een touwtrekken tussen twee kanten van jezelf.",
+ "sections": [
+  {
+   "h2": "Wat is een oppositie?",
+   "paragraphs": [
+    "Denk aan een wip: aan elke kant zit een kind. Je moet balanceren, anders zakt één kant door."
+   ]
+  },
+  {
+   "h2": "Wat leer je ervan?",
+   "paragraphs": [
+    "Je leert beide kanten te combineren in plaats van te kiezen. Vaak merk je het in relaties, omdat je de ander ziet als spiegel."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Zon tegenover Saturnus: Roos wil leuk en spontaan zijn, maar voelt ook plicht. Ze plant tijd voor werk én plezier."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hoeveel graden is een oppositie?",
+   "a": "Ongeveer 180 graden, met ruimte van zo'n 8 graden."
+  },
+  {
+   "q": "Is een oppositie slecht?",
+   "a": "Nee, het geeft spanning die je leert in evenwicht te brengen."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "konjunkcija astrologija",
+ "volume": "1000",
+ "slug": "konjunkcija-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Konjunkcija astrologijoje: ką tai reiškia?",
+ "description": "Dvi planetos stovi toje pačioje vietoje. Tai konjunkcija. Paprastai, su pavyzdžiu.",
+ "intro": "Konjunkcija atsiranda, kai dvi planetos yra arti viena kitos tavo gimimo horoskope. Jų jėgos susilieja ir veikia kaip viena.",
+ "sections": [
+  {
+   "h2": "Kas yra konjunkcija?",
+   "paragraphs": [
+    "Tarsi sumaišytum dvi spalvas: gausi vieną naują. Taip susimaišo dviejų planetų savybės."
+   ]
+  },
+  {
+   "h2": "Gerai ar blogai?",
+   "paragraphs": [
+    "Nei vienas, nei kitas. Tai stipri vieta: ką planetos simbolizuoja, tavo gyvenime ryškiau jaučiama."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Saulė ir Venera kartu: Rūta žavi, bendraujanti ir lengvai randa draugų."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kaip arti turi būti planetos?",
+   "a": "Dažniausiai apie 8 laipsnių ribose."
+  },
+  {
+   "q": "Ar konjunkcija visada gera?",
+   "a": "Ne visada; priklauso nuo planetų."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

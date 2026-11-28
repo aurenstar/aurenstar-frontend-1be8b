@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "conjunció astrologia",
+ "volume": "1000",
+ "slug": "conjuncio-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Conjunció en astrologia: què significa?",
+ "description": "Dos planetes són al mateix lloc. S’anomena conjunció. Explicat fàcil, amb exemple.",
+ "intro": "Hi ha conjunció quan dos planetes són a prop l’un de l’altre a la teva carta natal. Les seves forces es fonen i actuen com una.",
+ "sections": [
+  {
+   "h2": "Què és la conjunció?",
+   "paragraphs": [
+    "Com quan barreges dos colors: en surt un de nou. Així es barregen les qualitats dels dos planetes."
+   ]
+  },
+  {
+   "h2": "Bona o dolenta?",
+   "paragraphs": [
+    "Cap de les dues. És un lloc fort: allò que representen els planetes es nota més a la teva vida."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Sol i Venus junts: la Rosa és encantadora, sociable i fa amics amb facilitat."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Com de prop han d’estar els planetes?",
+   "a": "Normalment dins d’uns 8 graus."
+  },
+  {
+   "q": "La conjunció és sempre bona?",
+   "a": "No sempre; depèn de quins planetes siguin."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

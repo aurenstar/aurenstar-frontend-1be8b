@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "konjunkcija astrologija",
+ "volume": "1000",
+ "slug": "konjunkcija-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Konjunkcija u astrologiji: šta znači?",
+ "description": "Dve planete stoje na istom mestu. To je konjunkcija. Jednostavno, sa primerom.",
+ "intro": "Konjunkcija nastaje kad su dve planete blizu jedna drugoj u tvom natalnom horoskopu. Njihove se snage spajaju i deluju kao jedna.",
+ "sections": [
+  {
+   "h2": "Šta je konjunkcija?",
+   "paragraphs": [
+    "Kao kad pomešaš dve boje: nastane jedna nova. Tako se mešaju osobine dveju planeta."
+   ]
+  },
+  {
+   "h2": "Dobro ili loše?",
+   "paragraphs": [
+    "Ni jedno ni drugo. To je snažno mesto: ono što planete simbolizuju više se oseća u tvom životu."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Sunce i Venera zajedno: Ruža je šarmantna, društvena i lako stiče prijatelje."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko blizu moraju biti planete?",
+   "a": "Obično u okviru oko 8 stepeni."
+  },
+  {
+   "q": "Da li je konjunkcija uvek dobra?",
+   "a": "Ne uvek; zavisi od planeta."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

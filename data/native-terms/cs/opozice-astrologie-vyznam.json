@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "opozice astrologie",
+ "volume": "1000",
+ "slug": "opozice-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Opozice v astrologii: co znamená?",
+ "description": "Dvě planety stojí přesně proti sobě. Říká se tomu opozice. Jednoduše s příkladem.",
+ "intro": "Opozice je, když stojí dvě planety proti sobě na opačných stranách kruhu. Působí jako přetahování lanem mezi dvěma částmi vás.",
+ "sections": [
+  {
+   "h2": "Co je opozice?",
+   "paragraphs": [
+    "Představte si houpačku: na každé straně jedno dítě. Je třeba držet rovnováhu, jinak jedna strana klesne."
+   ]
+  },
+  {
+   "h2": "Co se naučíte?",
+   "paragraphs": [
+    "Naučíte se spojit obě strany místo vybírání. Často se to projeví ve vztazích, kde je druhý vaším zrcadlem."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Slunce proti Saturnu: Růža chce být spontánní, ale cítí povinnost. Plánuje čas na práci i zábavu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kolik stupňů má opozice?",
+   "a": "Zhruba 180 stupňů, s tolerancí asi 8 stupňů."
+  },
+  {
+   "q": "Je opozice špatná?",
+   "a": "Ne, dává napětí, které se učíte vyvažovat."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}
