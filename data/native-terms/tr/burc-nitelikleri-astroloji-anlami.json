@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "öncü sabit değişken burçlar",
+ "volume": "1000",
+ "slug": "burc-nitelikleri-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Öncü, sabit ve değişken burçlar: 3 nitelik",
+ "description": "Burçlar üç niteliğe ayrılır: işe nasıl başladığını, sürdürdüğünü ve değiştirdiğini gösterir. Basit anlatım.",
+ "intro": "Elementlerin yanında 12 burç üç niteliğe ayrılır: öncü, sabit ve değişken. Nasıl hareket ettiğini anlatır.",
+ "sections": [
+  {
+   "h2": "Bu nitelikler nedir?",
+   "paragraphs": [
+    "Öncü (Koç, Yengeç, Terazi, Oğlak) başlatır. Sabit (Boğa, Aslan, Akrep, Kova) yolda kalır. Değişken (İkizler, Başak, Yay, Balık) uyum sağlar ve bitirir."
+   ]
+  },
+  {
+   "h2": "Nasıl fark edilir?",
+   "paragraphs": [
+    "Bir projede biri başlatır, biri sonuna götürür, biri yolda düzeltir. Hepsi gerekli."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Aslı Koç (öncü): hep yeni şey önerir. Arkadaşı Can Boğa (sabit): işi bırakmaz. Duygu ise Başak (değişken): planı düzeltir."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hangi niteliğe aitim?",
+   "a": "Güneş burcuna bağlı; ona bakmak yeterli."
+  },
+  {
+   "q": "Sabit burçlar inatçı mı?",
+   "a": "İstikrarlıdır; inatları bazen güçtür."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

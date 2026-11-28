@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "chiron astrologie",
+ "volume": "1000",
+ "slug": "chiron-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Chiron en astrologie : que signifie ta blessure et ton don ?",
+ "description": "Chiron montre ta blessure la plus profonde et le don d’aider les autres grâce à elle. Expliqué simplement.",
+ "intro": "Chiron est surnommé le « guérisseur blessé ». Dans ton thème, il indique une vieille blessure et le don qui naît quand on l’a traversée.",
+ "sections": [
+  {
+   "h2": "C’est quoi, Chiron ?",
+   "paragraphs": [
+    "Pense à un médecin qui a lui-même été malade : personne ne comprend mieux les patients. Chiron est cette blessure qui, en guérissant, te permet d’aider les autres."
+   ]
+  },
+  {
+   "h2": "Comment le repérer ?",
+   "paragraphs": [
+    "Il se manifeste dans un domaine où tu te sens fragile depuis toujours. Avec le temps, c’est justement là que tu peux consoler et conseiller."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Rose a Chiron dans la maison de la communication ; enfant, on se moquait de sa voix. Aujourd’hui, elle anime des ateliers pour vaincre la peur de parler en public."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Chiron guérit-il complètement ?",
+   "a": "Pas toujours, mais on apprend à vivre avec et à s’en servir."
+  },
+  {
+   "q": "Chiron est-il une planète ?",
+   "a": "C’est un petit corps entre Saturne et Uranus, que l’astrologie traite comme un point clé."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

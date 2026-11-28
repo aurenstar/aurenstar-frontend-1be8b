@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "modalitats astrologia",
+ "volume": "1000",
+ "slug": "modalitats-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Les modalitats en astrologia: cardinals, fixos, mutables",
+ "description": "La modalitat mostra com un signe comença, manté o canvia les coses. Explicat fàcil i amb exemple.",
+ "intro": "Els 12 signes es divideixen en tres grups: cardinals, fixos i mutables. Aquesta divisió mostra com es relaciona el signe amb l’inici, la durada i el canvi.",
+ "sections": [
+  {
+   "h2": "Què són les modalitats?",
+   "paragraphs": [
+    "Imagina un viatge en tren. Els signes cardinals són qui compra el bitllet i arrenca (Àries, Cranc, Balança, Capricorn). Els fixos són qui es queda assegut al seu lloc fins al final del trajecte (Taure, Lleó, Escorpí, Aquari). Els mutables són qui canvia de tren amb facilitat i adapta el pla (Bessons, Verge, Sagitari, Peixos)."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "T’agrada engegar les coses, aguantar-les fins al final o canviar-les segons convingui? Això mostra la teva modalitat. Cadascuna necessita un tipus de suport diferent."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "La Marta és Àries, cardinal: comença sense esforç una nova secció a la coral. La seva amiga Rosa és Taure, fixa: fa deu anys que canta a la coral i la manté unida."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quants signes hi ha en cada modalitat?",
+   "a": "Quatre, en total 12, i cada element té un signe de cada modalitat."
+  },
+  {
+   "q": "Una modalitat és millor que les altres?",
+   "a": "No, calen totes: qui comença, qui manté i qui s’adapta."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

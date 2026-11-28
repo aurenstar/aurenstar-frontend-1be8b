@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "napfogyatkozás asztrológia",
+ "volume": "1000",
+ "slug": "napfogyatkozas-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "A napfogyatkozás az asztrológiában: mit jelent?",
+ "description": "A napfogyatkozás hirtelen új kezdetet jelent. Egyszerűen, példával.",
+ "intro": "Napfogyatkozás akkor van, amikor a Hold a Nap elé csúszik. Az asztrológiában olyan, mint egy erős újhold: valami véget ér, valami új indul, gyakran gyorsabban, mint terveztél.",
+ "sections": [
+  {
+   "h2": "Mit csinál a napfogyatkozás?",
+   "paragraphs": [
+    "Olyan, mintha hirtelen leoltanák a lámpát a szobában: egy pillanatra semmit sem látsz, aztán másképp látod az egészet. A fogyatkozás új fejezetet nyit."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Nézd meg, a horoszkópod melyik házába esik a fogyatkozás. Azon a területen néhány hónapon belül általában fontos változás jön."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "A fogyatkozás a munka házában van: Zsófi váratlan ajánlatot kap egy másik cégtől. Fél, de fél év múlva tudja, hogy jó lépés volt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Milyen gyakran van napfogyatkozás?",
+   "a": "Évente legalább kettő, de nem látszik mindenhonnan."
+  },
+  {
+   "q": "Félni kell tőlük?",
+   "a": "Nem, ezek rendet rakó változások, még ha elsőre meg is lepnek."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "urāns astroloģija",
+ "volume": "1000",
+ "slug": "urans-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Urāns astroloģijā: ko tas nozīmē?",
+ "description": "Urāns nes pēkšņas pārmaiņas, brīvību un neparastas idejas. Vienkārši izskaidrots, ar piemēru.",
+ "intro": "Urāns ir pagriezienu un brīvības planēta. Kur tas ir tavā kartē, tur dzīve mīl pārsteigt un izraut no ierastā.",
+ "sections": [
+  {
+   "h2": "Ko dara Urāns?",
+   "paragraphs": [
+    "Iedomājies, ka garlaicīgas nedēļas vidū kāds pārcel mēbeles tavā istabā. Sākumā sadusmojies, pēc tam vieglāk elpot. Tas ir Urāns."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Kurā jomā tev nemitīgi gadās pārsteigumi vai velk darīt citādi nekā citiem? Tur darbojas Urāns. Jo brīvāks esi, jo vieglāk."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Marekam ir stiprs Urāns darba mājā. Pēkšņi viņš pamet drošo darbu un atver nelielu darbnīcu, un tas izrādās viņa labākais lēmums."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cik ilgi Urāns paliek vienā zīmē?",
+   "a": "Apmēram septiņus gadus, tāpēc viņa zīmi dala visa paaudze."
+  },
+  {
+   "q": "Vai Urāns ir bīstams?",
+   "a": "Nē, viņš tikai nemīl stāvēšanu uz vietas. Kad pieņem pārmaiņas, bieži vien ir atvieglojums."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

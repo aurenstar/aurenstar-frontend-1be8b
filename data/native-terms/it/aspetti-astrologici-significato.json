@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "aspetti astrologici",
+ "volume": "1000",
+ "slug": "aspetti-astrologici-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspetti astrologici: cosa sono e cosa significano?",
+ "description": "Gli aspetti sono gli angoli tra i pianeti e mostrano come lavorano insieme. Spiegazione semplice con esempio.",
+ "intro": "Gli aspetti sono gli angoli che i pianeti formano tra loro nel cielo. Mostrano se due parti di te collaborano o litigano.",
+ "sections": [
+  {
+   "h2": "Che cosa sono gli aspetti?",
+   "paragraphs": [
+    "Immagina due colleghi: a volte si capiscono al volo, a volte si pestano i piedi. Gli aspetti descrivono il loro rapporto."
+   ]
+  },
+  {
+   "h2": "Come si leggono?",
+   "paragraphs": [
+    "Gli angoli fluidi, come il trigono e il sestile, portano facilità; quelli tesi, come quadratura e opposizione, portano stimolo e sfida."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Giorgia ha Sole in quadratura a Marte. È molto determinata, ma a volte impaziente. Con lo sport scarica l'energia e la trasforma in grinta."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Gli aspetti tesi sono cattivi?",
+   "a": "No, spingono ad agire e a migliorare."
+  },
+  {
+   "q": "Quali sono i principali?",
+   "a": "Congiunzione, sestile, quadratura, trigono e opposizione."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

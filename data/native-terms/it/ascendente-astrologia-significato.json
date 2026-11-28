@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "ascendente",
+ "volume": "1000",
+ "slug": "ascendente-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ascendente in astrologia: cos'è e cosa significa?",
+ "description": "L'ascendente è il segno che sorgeva all'orizzonte est nel momento in cui sei nato. Spiegato in modo semplice, con un esempio.",
+ "intro": "Il tuo ascendente è il segno zodiacale che stava sorgendo a est quando sei venuto al mondo. Descrive la prima impressione che dai e il modo in cui affronti le situazioni nuove.",
+ "sections": [
+  {
+   "h2": "Che cos'è l'ascendente?",
+   "paragraphs": [
+    "Immagina la porta d'ingresso di casa tua: è la prima cosa che gli ospiti vedono. Ogni due ore circa un segno diverso sale all'orizzonte, e quello è il tuo ascendente."
+   ]
+  },
+  {
+   "h2": "Come lo scopri?",
+   "paragraphs": [
+    "Servono data, luogo e ora di nascita, la più precisa possibile. Un calcolatore gratuito ti dà il risultato in pochi secondi."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Giulia è Cancro di Sole, ma ha l'ascendente Ariete. Chi la conosce poco la trova schietta e piena di energia; gli amici sanno quanto è dolce e premurosa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "L'ascendente conta più del segno solare?",
+   "a": "No, si completano: il Sole è il tuo centro, l'ascendente è come ti presenti."
+  },
+  {
+   "q": "Posso saperlo senza l'ora di nascita?",
+   "a": "Non con precisione: cambia segno circa ogni due ore."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

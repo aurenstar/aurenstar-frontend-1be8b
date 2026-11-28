@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "retro gezegen",
+ "volume": "1000",
+ "slug": "retro-gezegen-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retro gezegen nedir? Geri hareket ne demek?",
+ "description": "Retro gezegen, gökyüzünden bakınca geriye gidiyormuş gibi görünen gezegendir. Basit anlatım.",
+ "intro": "Retro, yani geri hareket, gezegenlerin Dünya'dan bakınca geri gidiyormuş gibi görünmesidir. Aslında bir yanılsamadır ama astrolojide önemlidir.",
+ "sections": [
+  {
+   "h2": "Retro ne demek?",
+   "paragraphs": [
+    "Yan şeritteki bir arabayı geçerken sanki o geri gidiyormuş gibi görürsün. Gezegenlerde de böyle. Astrolojide bu dönemler \"yeniden gözden geçirme\" zamanı sayılır."
+   ]
+  },
+  {
+   "h2": "Nasıl hissedilir?",
+   "paragraphs": [
+    "Eski konular geri gelir, işler yavaşlar, planlar değişir. Acele etmeden gözden geçirmek iyi gelir."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Merkür retroyken Kerem eski bir arkadaşından mesaj aldı ve küs oldukları konuyu çözdüler. Yeni sözleşme imzalamayı da ertelemişti."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Retro dönemde ne yapılmaz?",
+   "a": "Önemli imza ve büyük alımları acele etme; ama hayat durmaz."
+  },
+  {
+   "q": "Hangi gezegenler retro olur?",
+   "a": "Güneş ve Ay hariç hepsi."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "astroloji evleri",
+ "volume": "1000",
+ "slug": "astroloji-evleri-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Astroloji evleri nedir? 12 evin anlamı",
+ "description": "Haritadaki 12 ev, hayatın hangi alanında neler yaşadığını gösterir. Basit anlatım ve örnek.",
+ "intro": "Doğum haritası 12 eve bölünür. Her ev hayatının bir alanını anlatır: para, aile, aşk, iş, arkadaşlar gibi.",
+ "sections": [
+  {
+   "h2": "Evler ne işe yarar?",
+   "paragraphs": [
+    "Haritayı 12 odalı bir ev gibi düşün. Gezegenler orada yaşayan kişiler, burçlar ise odaların dekoru. Hangi gezegen hangi odadaysa, o konu öne çıkar."
+   ]
+  },
+  {
+   "h2": "Nasıl okunur?",
+   "paragraphs": [
+    "Önce hangi evde çok gezegen olduğuna bak: orası hayatının sahnesidir. Boş evler kötü değildir, sadece o alanda dramın azdır."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Deniz'in 7. evinde (ilişkiler) Venüs var. Hayatında ilişkiler ve ortaklıklar önemli rol oynar; en iyi işini ortak kurduğu şirkette yaptı."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Evleri bulmak için ne gerekir?",
+   "a": "Doğum saati, tarihi ve yeri; hesaplayıcı haritayı çıkarır."
+  },
+  {
+   "q": "En önemli ev hangisi?",
+   "a": "Hepsi önemli; 1., 4., 7. ve 10. evler kilit noktalardır."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

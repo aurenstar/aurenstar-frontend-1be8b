@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "rumah astrologi",
+ "volume": "1000",
+ "slug": "rumah-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Rumah dalam astrologi: 12 rumah dan artinya",
+ "description": "Dua belas rumah astrologi menunjukkan bidang hidup seperti keluarga, karier, dan cinta. Penjelasan sederhana dengan contoh.",
+ "intro": "Rumah dalam astrologi adalah dua belas bagian peta kelahiran Anda. Setiap rumah mewakili satu bidang kehidupan.",
+ "sections": [
+  {
+   "h2": "Apa fungsi rumah?",
+   "paragraphs": [
+    "Bayangkan rumah dengan dua belas ruangan: dapur, kantor, kamar tidur, ruang tamu. Planet-planet adalah tamu yang duduk di ruangan tertentu, dan mereka mengubah suasana di sana."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Rumah pertama adalah diri Anda, keempat keluarga, ketujuh pasangan, dan kesepuluh karier. Lihat rumah mana yang banyak planetnya, di situlah hidup Anda paling ramai."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Sari punya tiga planet di rumah ketujuh. Hidupnya banyak berkisar pada kemitraan: pasangan, sahabat, dan rekan bisnis."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Rumah mana yang paling penting?",
+   "a": "Tidak ada yang paling penting. Setiap rumah punya perannya, tapi rumah pertama, ketujuh, dan kesepuluh sering dibahas karena menyangkut diri, cinta, dan karier."
+  },
+  {
+   "q": "Bagaimana kalau rumah kosong?",
+   "a": "Tidak masalah. Bidang itu tetap berjalan, hanya kurang dominan dalam hidup Anda."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

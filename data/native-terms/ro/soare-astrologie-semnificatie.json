@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "soarele în astrologie",
+ "volume": "1000",
+ "slug": "soare-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Soarele în astrologie: ce înseamnă?",
+ "description": "Soarele arată cine ești cu adevărat și ce îți dă energie. Explicat simplu, cu exemplu.",
+ "intro": "Soarele este zodia ta, adică miezul personalității. Spune cine vrei să fii și ce te face să te simți tu însuți.",
+ "sections": [
+  {
+   "h2": "Ce face Soarele?",
+   "paragraphs": [
+    "E ca lampa din mijlocul camerei: totul se învârte în jurul ei. Zodia solară arată cum străluciți și de ce aveți nevoie ca să aveți putere."
+   ]
+  },
+  {
+   "h2": "Cum observi?",
+   "paragraphs": [
+    "Gândește-te când te simți pe deplin tu și când joci un rol. Prima stare ține de obicei de Soare."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Ioana are Soarele în Leu. Îi place să fie remarcată, își tratează prietenii cu generozitate și se ofilește când nimeni nu o apreciază."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Soarele este același lucru cu zodia mea?",
+   "a": "Da, zodia ta este semnul în care se afla Soarele în ziua nașterii."
+  },
+  {
+   "q": "Îmi ajunge Soarele ca să mă cunosc?",
+   "a": "Nu, e doar începutul. Luna și Ascendentul adaugă emoțiile și prima impresie."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

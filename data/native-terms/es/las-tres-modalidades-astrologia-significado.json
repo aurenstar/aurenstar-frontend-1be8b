@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "modalidades astrología cardinal fijo mutable",
+ "volume": "1000",
+ "slug": "las-tres-modalidades-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Las tres modalidades en astrología: cardinal, fijo y mutable",
+ "description": "Las modalidades dicen cómo actúa cada signo: iniciando, manteniendo o adaptándose. Explicado fácil.",
+ "intro": "Las tres modalidades son cardinal, fijo y mutable. Cada una muestra cómo actúa un signo: empieza, sostiene o se adapta.",
+ "sections": [
+  {
+   "h2": "¿Qué son las modalidades?",
+   "paragraphs": [
+    "Imagina una carrera de relevos: el primero arranca, el segundo mantiene el ritmo y el tercero cambia de estrategia. Los signos cardinales (Aries, Cáncer, Libra, Capricornio) abren cada estación y empiezan cosas."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Los signos fijos (Tauro, Leo, Escorpio, Acuario) están en el centro de la estación: mantienen y no se rinden. Los mutables (Géminis, Virgo, Sagitario, Piscis) cierran la estación y se adaptan con facilidad."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Mario es cardinal: propone mil ideas pero no las termina. Su socia Eva es fija: aguanta hasta el final. Se complementan muy bien."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Cuál es mi modalidad?",
+   "a": "Depende del signo; cada signo tiene una, y toda la carta mezcla las tres."
+  },
+  {
+   "q": "¿Qué pasa si tengo mucha modalidad fija?",
+   "a": "Eres constante y leal, pero te puede costar cambiar de opinión."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "nodo sud",
+ "volume": "1000",
+ "slug": "nodo-sud-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nodo Sud: cos'è e cosa significa?",
+ "description": "Il Nodo Sud mostra i talenti e le abitudini che porti con te. Spiegato semplice, con esempio.",
+ "intro": "Il Nodo Sud è il punto opposto al Nodo Nord e rappresenta ciò che ti viene naturale. Sono i tuoi talenti, ma anche le comodità da cui ogni tanto conviene uscire.",
+ "sections": [
+  {
+   "h2": "Che cos'è il Nodo Sud?",
+   "paragraphs": [
+    "Pensa alla tua poltrona preferita: è comoda e la conosci a memoria. Il Nodo Sud è quel comfort, utile ma a volte troppo morbido."
+   ]
+  },
+  {
+   "h2": "Come lo riconosci?",
+   "paragraphs": [
+    "Sono le cose che sai fare senza sforzo e a cui torni quando hai paura. Aiutano, ma se ci resti per sempre non cresci."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Valentina è bravissima ad aiutare tutti e fatica a dire no. Il suo Nodo Sud è questo: impara a dedicare del tempo anche a sé stessa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Il Nodo Sud è negativo?",
+   "a": "No, è una risorsa: basta non restarci fermi."
+  },
+  {
+   "q": "Come si lega al Nodo Nord?",
+   "a": "Sono opposti: uno è la partenza, l'altro la direzione."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

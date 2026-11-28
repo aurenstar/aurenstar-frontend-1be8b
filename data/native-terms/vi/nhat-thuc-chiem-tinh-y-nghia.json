@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "nhật thực chiêm tinh",
+ "volume": "1000",
+ "slug": "nhat-thuc-chiem-tinh-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nhật thực trong chiêm tinh có ý nghĩa gì?",
+ "description": "Nhật thực là dấu hiệu của bước ngoặt lớn và khởi đầu mới. Giải thích đơn giản, có ví dụ.",
+ "intro": "Nhật thực là hiện tượng Mặt Trăng che khuất Mặt Trời. Trong chiêm tinh, đây là dấu hiệu hướng đi cuộc đời đổi khác và một khởi đầu mới.",
+ "sections": [
+  {
+   "h2": "Nhật thực làm gì?",
+   "paragraphs": [
+    "Khi đèn trong phòng sáng bỗng tắt rồi bật lại, bạn sẽ nhìn lại xem nên đặt đèn ở đâu. Nhật thực cũng khiến bạn nhìn lại trọng tâm cuộc sống."
+   ]
+  },
+  {
+   "h2": "Làm sao nhận ra?",
+   "paragraphs": [
+    "Vài tuần quanh nhật thực, bạn có bất ngờ có việc mới bắt đầu hoặc việc cũ chấm dứt không? Thay đổi hay xảy ra ở chủ đề của cung có nhật thực."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Năm có nhật thực, Lan bất ngờ nhận lời mời sang công ty khác. Cô do dự rồi lấy hết can đảm chuyển đi, và một con đường mới mở ra."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Bao lâu có nhật thực một lần?",
+   "a": "Mỗi năm có vài lần, và luôn xảy ra vào ngày trăng non."
+  },
+  {
+   "q": "Nhật thực có mang điều xấu không?",
+   "a": "Không, nó chỉ là cơ hội để đổi thay. Đón nhận với tâm thế cởi mở thì sẽ thành cơ hội mới."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

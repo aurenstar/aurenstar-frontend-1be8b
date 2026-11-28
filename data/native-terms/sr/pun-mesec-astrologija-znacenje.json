@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "pun mesec astrologija",
+ "volume": "1000",
+ "slug": "pun-mesec-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pun mesec u astrologiji: šta znači?",
+ "description": "Pun mesec donosi vrhunac, jake emocije i završetke. Jednostavno objašnjeno, sa primerom.",
+ "intro": "Pun mesec je trenutak kad Mesec i Sunce stoje jedno naspram drugog, pa je Mesec ceo osvetljen. U astrologiji je to vrhunac: ono što si započeo, sada se vidi.",
+ "sections": [
+  {
+   "h2": "Šta je pun mesec?",
+   "paragraphs": [
+    "Zamisli tortu koja je konačno izašla iz rerne. Sve je gotovo i vidiš rezultat. Tako je i s punim mesecom."
+   ]
+  },
+  {
+   "h2": "Kako to primetiti?",
+   "paragraphs": [
+    "Oko punog meseca ljudi su često emotivniji, slabije spavaju ili se nešto završava. Zato je dobro da ne donosiš velike odluke u naletu osećanja."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Mila je na pun mesec shvatila da joj stari posao više ne prija. Nije odmah dala otkaz, ali je zapisala šta želi i narednih nedelja mirno potražila novi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko često je pun mesec?",
+   "a": "Otprilike jednom mesečno, oko dve nedelje posle mladog."
+  },
+  {
+   "q": "Da li je pun mesec opasan?",
+   "a": "Ne, samo pojačava osećanja. Ako ostaneš miran, često dobiješ jasnoću."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

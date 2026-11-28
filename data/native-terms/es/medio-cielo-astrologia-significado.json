@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "medio cielo astrología",
+ "volume": "1000",
+ "slug": "medio-cielo-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Medio Cielo en astrología: qué es y qué significa",
+ "description": "El Medio Cielo marca el punto más alto de tu carta y habla de tu vocación y de cómo te ve el mundo. Explicado fácil, con ejemplo.",
+ "intro": "El Medio Cielo es el punto más alto del cielo en el momento en que naciste. Habla de tu vocación, de tu reputación y de lo que quieres lograr en la vida.",
+ "sections": [
+  {
+   "h2": "¿Qué es el Medio Cielo?",
+   "paragraphs": [
+    "Piensa en el cartel luminoso de una tienda: es lo que ve todo el mundo desde la calle. El Medio Cielo es ese cartel, la imagen pública con la que te conocen en el trabajo y en la sociedad."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Fíjate en qué tipo de logros te hacen sentir orgulloso y qué papel te sale natural ante los demás. Para calcularlo necesitas fecha, hora y lugar de nacimiento."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Carmen tiene el Medio Cielo en Virgo. En la oficina la ven como alguien ordenada y fiable, y por eso siempre le confían los proyectos delicados."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿El Medio Cielo es lo mismo que el signo solar?",
+   "a": "No: el signo solar es tu esencia y el Medio Cielo es tu meta y tu imagen pública."
+  },
+  {
+   "q": "¿Hace falta la hora de nacimiento?",
+   "a": "Sí, sin la hora exacta el Medio Cielo puede salir en un signo equivocado."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

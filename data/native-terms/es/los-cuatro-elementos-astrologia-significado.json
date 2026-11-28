@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "elementos astrología fuego tierra aire agua",
+ "volume": "1000",
+ "slug": "los-cuatro-elementos-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Los cuatro elementos en astrología: fuego, tierra, aire y agua",
+ "description": "Los signos se agrupan en fuego, tierra, aire y agua según su forma de sentir y actuar. Explicado fácil.",
+ "intro": "Los doce signos se reparten en cuatro elementos: fuego, tierra, aire y agua. Cada elemento describe una manera distinta de sentir y de actuar.",
+ "sections": [
+  {
+   "h2": "¿Qué son los elementos?",
+   "paragraphs": [
+    "Piensa en cuatro tipos de cocineros: el apasionado, el práctico, el que habla todo el rato y el que cocina por intuición. Fuego (Aries, Leo, Sagitario) actúa con pasión y entusiasmo; Tierra (Tauro, Virgo, Capricornio) es práctica y constante."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Aire (Géminis, Libra, Acuario) piensa y comunica; Agua (Cáncer, Escorpio, Piscis) siente y se guía por la intuición. Mira qué elemento domina en tu carta: ahí está tu forma natural de ser."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Teresa tiene mucha Tierra y poco Fuego: planea todo muy bien, pero le cuesta lanzarse. Su amigo Iván, con mucho Fuego, empieza mil cosas y le contagia ganas."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Qué elemento es mejor?",
+   "a": "Ninguno; cada uno aporta algo y se complementan."
+  },
+  {
+   "q": "¿Se pueden mezclar los elementos?",
+   "a": "Claro: todos tenemos de los cuatro, solo que en distinta medida."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "moon sign",
+ "volume": "1000",
+ "slug": "moon-sign-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Moon sign: apa artinya dalam astrologi?",
+ "description": "Moon sign menunjukkan perasaan, kebutuhan batin, dan cara Anda menenangkan diri. Dijelaskan sederhana dengan contoh.",
+ "intro": "Moon sign adalah zodiak tempat Bulan berada saat Anda lahir. Kalau zodiak matahari adalah wajah Anda, moon sign adalah isi hati Anda.",
+ "sections": [
+  {
+   "h2": "Apa fungsi moon sign?",
+   "paragraphs": [
+    "Bayangkan makanan rumahan yang selalu bikin Anda tenang, misalnya sup buatan ibu. Moon sign adalah rasa nyaman semacam itu: apa yang Anda butuhkan agar merasa aman dan dipahami."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Lihat reaksi Anda saat sedang sedih atau capek. Ingin menyendiri, ingin ditemani, atau ingin makan enak? Itu petunjuk moon sign Anda."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Budi berzodiak Aries, terlihat berani dan lantang. Tapi moon sign-nya Cancer, jadi saat stres ia pulang, masak mi kuah, dan butuh ditemani keluarga."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Bagaimana menghitung moon sign?",
+   "a": "Masukkan tanggal, jam, dan tempat lahir. Bulan pindah zodiak tiap dua hari, jadi tanggal saja kadang tidak cukup."
+  },
+  {
+   "q": "Apakah moon sign berubah?",
+   "a": "Tidak. Moon sign ditentukan saat lahir dan menetap seumur hidup."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "mercure astrologie",
+ "volume": "1000",
+ "slug": "mercure-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mercure en astrologie : que signifie-t-il dans ton thème ?",
+ "description": "Mercure gouverne ta façon de penser, de parler et d’apprendre. Expliqué simplement, avec un exemple.",
+ "intro": "Mercure est la planète de l’esprit et de la communication. Dans ton thème, il montre comment tu penses, parles et apprends.",
+ "sections": [
+  {
+   "h2": "Que fait Mercure ?",
+   "paragraphs": [
+    "Pense au facteur qui porte les nouvelles d’un endroit à l’autre. Mercure est ta manière de traiter les idées et de les dire avec des mots."
+   ]
+  },
+  {
+   "h2": "Comment le reconnaître ?",
+   "paragraphs": [
+    "Écoute ta façon de parler : vite ou lentement, avec de l’humour ou des faits. Ce style dépend du signe où se trouvait Mercure à ta naissance."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Paul a Mercure en Gémeaux : il parle sans cesse et saute d’un sujet à l’autre. Sa copine Laura, Mercure en Taureau, pense lentement mais va très loin."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Comment trouver mon Mercure ?",
+   "a": "Avec ta date de naissance : il est toujours dans le signe du Soleil ou dans un voisin."
+  },
+  {
+   "q": "Mercure est-il toujours près du Soleil ?",
+   "a": "Oui, il ne s’en éloigne jamais de plus d’un signe."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

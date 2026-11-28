@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "opposition astrologie",
+ "volume": "1000",
+ "slug": "opposition-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Opposition in der Astrologie: Was bedeutet sie?",
+ "description": "Eine Opposition ist ein Aspekt, bei dem zwei Planeten sich gegenüberstehen. Einfach erklärt, mit Beispiel.",
+ "intro": "Bei einer Opposition stehen zwei Planeten genau gegenüber, etwa 180 Grad voneinander entfernt. Sie ziehen in verschiedene Richtungen.",
+ "sections": [
+  {
+   "h2": "Was ist eine Opposition?",
+   "paragraphs": [
+    "Wie eine Wippe: Beide Seiten brauchen Gleichgewicht. Man kann nicht nur eine Seite leben."
+   ]
+  },
+  {
+   "h2": "Wie erlebe ich sie?",
+   "paragraphs": [
+    "Du fühlst dich hin- und hergerissen, etwa zwischen Freiheit und Nähe. Wer beide Seiten achtet, findet Balance."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Mira steht zwischen Karriere und Familie. Mit festen Zeiten für beides hört das Gezerre auf."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist die Opposition schwierig?",
+   "a": "Sie fordert Ausgleich, schenkt aber Verständnis für andere Sichtweisen."
+  },
+  {
+   "q": "Wie viele Grad hat sie?",
+   "a": "Rund 180 Grad."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "cuadratura astrología",
+ "volume": "1000",
+ "slug": "cuadratura-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Cuadratura en astrología: qué es y qué significa",
+ "description": "La cuadratura es un ángulo de 90 grados que crea fricción y empuja a actuar. Explicado fácil, con ejemplo.",
+ "intro": "La cuadratura es un ángulo de 90 grados entre dos planetas. Crea fricción, y esa fricción te obliga a moverte y a resolver cosas.",
+ "sections": [
+  {
+   "h2": "¿Qué es una cuadratura?",
+   "paragraphs": [
+    "Es como una piedra en el zapato: molesta, pero te hace parar y arreglarlo. Los dos planetas no hablan el mismo idioma y hay que buscar cómo entenderse."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Se nota en retos que se repiten y que te piden esfuerzo, sobre todo en ciertos temas de la vida. Con el tiempo, esos retos se convierten en tus mayores fortalezas."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Ana tiene Marte en cuadratura con la Luna. Se enfada rápido, pero aprendió a respirar y hoy es muy buena resolviendo conflictos."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿La cuadratura es mala?",
+   "a": "No, es incómoda, pero da motivación y carácter."
+  },
+  {
+   "q": "¿Qué diferencia hay con la oposición?",
+   "a": "La cuadratura son 90 grados y pide acción; la oposición son 180 y pide equilibrio."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

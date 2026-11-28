@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "konjungsi",
+ "volume": "1000",
+ "slug": "konjungsi-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Konjungsi dalam astrologi: apa artinya?",
+ "description": "Konjungsi terjadi saat dua planet berada sangat dekat. Energinya menyatu dan terasa kuat.",
+ "intro": "Konjungsi adalah aspek ketika dua planet berdekatan, hampir di titik yang sama. Sifat keduanya melebur menjadi satu.",
+ "sections": [
+  {
+   "h2": "Apa itu konjungsi?",
+   "paragraphs": [
+    "Bayangkan teh dan susu yang dicampur, jadinya teh tarik dengan rasa baru. Konjungsi mencampur dua energi planet menjadi satu warna yang kuat."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Lihat peta Anda: apakah ada dua planet di zodiak dan rumah yang sama dan berdekatan? Makin dekat jaraknya, makin besar pengaruhnya pada karakter Anda."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Matahari dan Merkurius Sari berkonjungsi. Ia berpikir dan berbicara dengan percaya diri, dan pendapatnya jelas."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Apakah konjungsi selalu baik?",
+   "a": "Tergantung planetnya. Planet yang bersahabat saling menguatkan, yang bertentangan saling menarik."
+  },
+  {
+   "q": "Planet mana yang lebih dominan dalam konjungsi?",
+   "a": "Biasanya planet yang lebih kuat atau lebih cepat terasa lebih menonjol."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

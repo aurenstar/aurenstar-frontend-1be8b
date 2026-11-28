@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "saturne astrologie",
+ "volume": "1000",
+ "slug": "saturne-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturne en astrologie : que signifie-t-il dans ton thème ?",
+ "description": "Saturne montre où tu apprends la discipline, les limites et la responsabilité. Expliqué simplement, avec un exemple.",
+ "intro": "Saturne est la planète des règles, du temps et de la responsabilité. Dans ton thème, il indique où tu dois fournir des efforts, mais aussi où tu deviendras solide.",
+ "sections": [
+  {
+   "h2": "Que fait Saturne ?",
+   "paragraphs": [
+    "Pense à un professeur sévère mais juste : c’est dur, mais on apprend beaucoup. C’est cela, Saturne."
+   ]
+  },
+  {
+   "h2": "Comment le reconnaître ?",
+   "paragraphs": [
+    "Dans quel domaine ressens-tu de la pression ou la peur d’échouer ? C’est là que Saturne travaille, et avec patience, tu y deviens très bon."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Saturne dans la maison du travail : Rose doit beaucoup s’entraîner avant de se sentir sûre d’elle, mais devient avec les années une cheffe aimée et fiable."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Comment trouver mon Saturne ?",
+   "a": "Avec ta date de naissance, on calcule le signe où se trouvait Saturne."
+  },
+  {
+   "q": "Saturne est-il mauvais ?",
+   "a": "Non, il demande des efforts, mais récompense par la force et le calme."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

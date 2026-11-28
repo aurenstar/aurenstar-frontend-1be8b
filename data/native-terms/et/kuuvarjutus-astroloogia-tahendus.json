@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "kuuvarjutus astroloogia",
+ "volume": "1000",
+ "slug": "kuuvarjutus-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kuuvarjutus astroloogias: mida see tähendab?",
+ "description": "Kuuvarjutus toob lõppe, tugevaid tundeid ja pöördepunkte. Lihtsalt seletatud ja näitega.",
+ "intro": "Kuuvarjutus tekib siis, kui Maa jääb Päikese ja Kuu vahele. Astroloogias on see tugev täiskuu: miski lõpeb või tuleb päevavalgele.",
+ "sections": [
+  {
+   "h2": "Mis on kuuvarjutus?",
+   "paragraphs": [
+    "Kujuta ette, et teatris süttivad etenduse lõpus kõik tuled ja näed saali sellisena, nagu ta on. Nii mõjub kuuvarjutus."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Kuuvarjutuse ümber saab midagi otsa: suhe, töö või vana harjumus. Tunded on tugevamad kui tavaliselt, nii et maga hästi välja ja ole enda vastu leebe."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Mari lõpetas kuuvarjutuse ajal sõpruse, mis talle aastaid ei sobinud. Alguses oli kurb, siis hakkas kergem."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kui tihti kuuvarjutusi on?",
+   "a": "Kaks korda aastas või harvem ning need on näha kogu öisel poolel maailmast."
+  },
+  {
+   "q": "Kas kuuvarjutus on halb?",
+   "a": "Ei, see on puhastus. Valutab korraks, pärast jääb ruumi uuele."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "hr",
+ "keyword": "neptun astrologija",
+ "volume": "1000",
+ "slug": "neptun-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptun u astrologiji: što znači?",
+ "description": "Neptun pokazuje gdje sanjaš, vjeruješ i lako se prevariš. Jednostavno, s primjerom.",
+ "intro": "Neptun je planet snova, intuicije i magle. U horoskopu vidiš gdje si nadahnut i gdje stvari vidiš onakvima kakve bi htio da jesu.",
+ "sections": [
+  {
+   "h2": "Što radi Neptun?",
+   "paragraphs": [
+    "Kao jutarnja magla nad jezerom: lijepa je, ali teško procijeniš udaljenost. Neptun briše granice i budi maštu."
+   ]
+  },
+  {
+   "h2": "Kako to primjećuješ?",
+   "paragraphs": [
+    "U kojem se području lako izgubiš u snovima ili dopustiš da te zavaraju? Tamo djeluje Neptun. Pomažu glazba, umjetnost i tišina."
+   ]
+  },
+  {
+   "h2": "Primjer",
+   "paragraphs": [
+    "Neptun u kući ljubavi: Marta u novom poznaniku vidi ideal, a nakon mjesec dana shvati da je običan čovjek. Uči gledati trezvenije, a da ne izgubi nježnost."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Znači li Neptun prijevaru?",
+   "a": "Ne uvijek, ali uči te provjeravati činjenice i ne oslanjati se samo na maštu."
+  },
+  {
+   "q": "Kako dobro iskoristiti Neptun?",
+   "a": "Kroz stvaranje, meditaciju i pomaganje drugima, jer je tamo njegova osjetljivost snaga."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

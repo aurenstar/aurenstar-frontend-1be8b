@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "jüpiter astroloji",
+ "volume": "1000",
+ "slug": "jupiter-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jüpiter astrolojide ne anlama gelir?",
+ "description": "Jüpiter şansın, büyümenin ve inancın gezegenidir. Basit anlatım ve örnek.",
+ "intro": "Jüpiter en büyük gezegendir ve astrolojide genişlemeyi, iyimserliği ve fırsatları temsil eder.",
+ "sections": [
+  {
+   "h2": "Jüpiter ne yapar?",
+   "paragraphs": [
+    "\"Olur, yaparsın\" diyen cömert bir arkadaş gibi. Nerede kolay büyüdüğünü ve yardım aldığını gösterir."
+   ]
+  },
+  {
+   "h2": "Nasıl fark edilir?",
+   "paragraphs": [
+    "Hangi alanda sık şanslısın, nerede öğrenmek ya da yolculuk etmek istiyorsun? Orada Jüpiter var."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Aylin'in Jüpiter'i eğitim evinde: yurt dışında bir eğitim bursunu kolayca kazandı. Yeni bilgilere meraklı."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jüpiter hep şans getirir mi?",
+   "a": "Fırsat verir ama değerlendirmek sana kalmış."
+  },
+  {
+   "q": "Bir burçta ne kadar kalır?",
+   "a": "Yaklaşık bir yıl."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

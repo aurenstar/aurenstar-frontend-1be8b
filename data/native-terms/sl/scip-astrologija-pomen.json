@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "ščip astrologija",
+ "volume": "1000",
+ "slug": "scip-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ščip v astrologiji: kaj pomeni?",
+ "description": "Ščip prinaša vrhunec, močna čustva in zaključke. Preprosto razloženo, s primerom.",
+ "intro": "Ščip je trenutek, ko sta Luna in Sonce drug nasproti drugemu, zato je Luna v celoti osvetljena. V astrologiji je to vrhunec: kar ste začeli, je zdaj vidno.",
+ "sections": [
+  {
+   "h2": "Kaj je ščip?",
+   "paragraphs": [
+    "Predstavljajte si torto, ki je končno prišla iz pečice. Vse je gotovo in vidite rezultat. Tako je tudi s ščipom."
+   ]
+  },
+  {
+   "h2": "Kako to opazite?",
+   "paragraphs": [
+    "Okoli ščipa so ljudje pogosto bolj čustveni, slabše spijo ali se kaj konča. Zato je dobro, da ne sprejemate velikih odločitev v navalu čustev."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Maja je ob ščipu spoznala, da ji stara služba ne ustreza več. Ni takoj odpovedala, je pa zapisala, kaj želi, in v naslednjih tednih mirno poiskala novo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako pogosto je ščip?",
+   "a": "Približno enkrat na mesec, dva tedna po mlaju."
+  },
+  {
+   "q": "Je ščip nevaren?",
+   "a": "Ne, le okrepi občutke. Če ostanete mirni, pogosto dobite jasnost."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

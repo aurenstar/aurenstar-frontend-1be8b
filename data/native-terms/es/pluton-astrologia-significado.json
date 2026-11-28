@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "plutón astrología",
+ "volume": "1000",
+ "slug": "pluton-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Plutón en astrología: qué significa en tu carta",
+ "description": "Plutón habla de transformación profunda, poder y renacimiento. Explicado fácil, con ejemplo.",
+ "intro": "Plutón es el planeta de la transformación. En tu carta señala dónde se acaba algo del todo para dar paso a un renacimiento.",
+ "sections": [
+  {
+   "h2": "¿Qué hace Plutón?",
+   "paragraphs": [
+    "Piensa en una oruga que se convierte en mariposa: no puede seguir como era. Plutón obliga a soltar lo que ya no sirve, aunque duela."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Donde está Plutón vives los temas con mucha intensidad, sobre el control y el poder. Las crisis ahí acaban siendo tus mayores cambios de vida."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Tomás tiene Plutón en la casa de la familia. Tras una gran discusión, reconstruye la relación con sus padres desde cero y por fin se entienden."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Plutón sigue siendo planeta?",
+   "a": "Los astrónomos lo llaman planeta enano, pero los astrólogos lo siguen usando."
+  },
+  {
+   "q": "¿Cuánto tarda en dar la vuelta?",
+   "a": "Unos 248 años, y la estancia en cada signo varía mucho."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

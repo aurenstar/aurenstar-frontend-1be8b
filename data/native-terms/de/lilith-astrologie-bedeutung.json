@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "lilith astrologie",
+ "volume": "1000",
+ "slug": "lilith-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith in der Astrologie: Was bedeutet sie?",
+ "description": "Lilith steht für wilde, ungezähmte Seiten, die du oft versteckst. Einfach erklärt, mit Beispiel.",
+ "intro": "Lilith ist ein Punkt in der Mondbahn, der für Wildheit und Unabhängigkeit steht. Er zeigt, wo du dich nicht anpassen willst.",
+ "sections": [
+  {
+   "h2": "Was ist Lilith?",
+   "paragraphs": [
+    "Wie ein Raum im Haus, den man stets abschließt. Hier lebt, was nicht gefallen soll, aber echt ist."
+   ]
+  },
+  {
+   "h2": "Wie erkenne ich sie?",
+   "paragraphs": [
+    "Wo sagst du innerlich: Das lasse ich mir nicht vorschreiben? Dort ist Lilith, oft mit Wut oder Sehnsucht verbunden."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Julia hat Lilith im Haus der Arbeit. Sie hasst starre Regeln und wurde freiberufliche Illustratorin."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist Lilith ein Planet?",
+   "a": "Nein, sie ist ein Rechenpunkt, meist die Schwarze Mondin."
+  },
+  {
+   "q": "Ist Lilith gefährlich?",
+   "a": "Nein, sie will gehört werden, nicht zerstören."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "mars astrologie",
+ "volume": "1000",
+ "slug": "mars-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mars en astrologie : que signifie-t-il dans ton thème ?",
+ "description": "Mars montre ton énergie, ton désir et ta façon de te battre pour ce que tu veux. Expliqué simplement.",
+ "intro": "Mars est la planète de l’action, du désir et de la force. Dans ton thème, il indique comment tu t’énerves, tu agis et tu vas chercher ce que tu veux.",
+ "sections": [
+  {
+   "h2": "Que fait Mars ?",
+   "paragraphs": [
+    "C’est le moteur de ta voiture : sans lui, tu ne démarres pas. Mars est l’énergie qui te met en route et te donne du courage."
+   ]
+  },
+  {
+   "h2": "Comment le reconnaître ?",
+   "paragraphs": [
+    "Observe ta réaction quand quelque chose te gêne ou que tu veux quelque chose avec envie. Certains explosent d’un coup, d’autres se taisent et encaissent."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Nora a Mars en Scorpion : elle agit calmement et ne lâche jamais. Son frère, Mars en Bélier, s’emballe vite mais ça lui passe aussitôt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mars est-il agressif ?",
+   "a": "C’est une énergie ; bien utilisée, elle donne du courage et de la discipline."
+  },
+  {
+   "q": "Mars influence-t-il le sport ?",
+   "a": "Oui, il montre comment tu dépenses ton énergie et quel sport te convient."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

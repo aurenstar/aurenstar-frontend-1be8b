@@ -1,0 +1,49 @@
+{
+ "lang": "hr",
+ "keyword": "elementi u astrologiji",
+ "volume": "1000",
+ "slug": "elementi-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Elementi u astrologiji: vatra, zemlja, zrak, voda",
+ "description": "Četiri elementa dijele znakove prema temperamentu. Jednostavno, s primjerom.",
+ "intro": "Svaki znak zodijaka pripada jednom od četiriju elemenata: vatri, zemlji, zraku ili vodi. Element pokazuje kako znak osjeća, misli i djeluje.",
+ "sections": [
+  {
+   "h2": "Što znače elementi?",
+   "paragraphs": [
+    "Vatra (Ovan, Lav, Strijelac) je žar, zemlja (Bik, Djevica, Jarac) praktičnost, zrak (Blizanci, Vaga, Vodenjak) riječ i misao, a voda (Rak, Škorpion, Ribe) osjećaji."
+   ]
+  },
+  {
+   "h2": "Kako to primjećuješ?",
+   "paragraphs": [
+    "Pogledaj kako reagiraš na problem: djeluješ odmah, praviš plan, razgovaraš ili prvo osjećaš. To odaje tvoj element."
+   ]
+  },
+  {
+   "h2": "Primjer",
+   "paragraphs": [
+    "Marta je Rak, dakle voda, i nakon teškog dana želi čaj i nježnost. Njezin prijatelj Tomo je Ovan, dakle vatra, i radije ode trčati."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koji je element najbolji?",
+   "a": "Nijedan, svaki ima jake strane, a najbolje funkcionira kombinacija."
+  },
+  {
+   "q": "Slažu li se elementi?",
+   "a": "Vatra paše uz zrak, a zemlja uz vodu, ali svaki se par može složiti ako se sluša."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

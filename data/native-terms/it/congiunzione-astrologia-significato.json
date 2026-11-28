@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "congiunzione astrologia",
+ "volume": "1000",
+ "slug": "congiunzione-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Congiunzione in astrologia: cosa significa?",
+ "description": "La congiunzione è quando due pianeti sono vicinissimi e le loro energie si fondono. Spiegata semplice, con esempio.",
+ "intro": "La congiunzione avviene quando due pianeti stanno quasi nello stesso punto del cielo. Le loro energie si mescolano e agiscono come una sola.",
+ "sections": [
+  {
+   "h2": "Che cos'è?",
+   "paragraphs": [
+    "Pensa a due colori di vernice versati nello stesso barattolo: ne esce un colore nuovo, intenso. Così si fondono i due pianeti."
+   ]
+  },
+  {
+   "h2": "Come si nota?",
+   "paragraphs": [
+    "Quel tema della tua vita è molto marcato: lo senti forte, nel bene e nel male, e fai fatica a separarlo."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Irene ha Sole e Mercurio congiunti: pensa e parla come sente. Non sa fingere, e proprio per questo tutti si fidano di lei."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "È un aspetto buono o cattivo?",
+   "a": "Dipende dai pianeti: con due amici è una festa, con due rivali è una gara."
+  },
+  {
+   "q": "Quanto deve essere vicino?",
+   "a": "Pochi gradi, di solito entro 8 o 10."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "täiskuu astroloogia",
+ "volume": "1000",
+ "slug": "taiskuu-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Täiskuu astroloogias: mida see tähendab?",
+ "description": "Täiskuu toob kulminatsiooni, tugevaid tundeid ja lõppe. Lihtsalt seletatud ja näitega.",
+ "intro": "Täiskuu on hetk, mil Kuu ja Päike on teineteise vastas ning Kuu on täielikult valgustatud. Astroloogias on see tipp: see, mida alustasid, on nüüd nähtav.",
+ "sections": [
+  {
+   "h2": "Mis on täiskuu?",
+   "paragraphs": [
+    "Kujuta ette kooki, mis on lõpuks ahjust välja tulnud. Kõik on valmis ja näed tulemust. Nii on ka täiskuuga."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Täiskuu ümber on inimesed sageli tundlikumad, magavad halvemini või midagi saab otsa. Seepärast ei maksa suuri otsuseid tunnete tulva ajal teha."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Mari taipas täiskuul, et vana töö ei sobi enam. Ta ei öelnud kohe üles, kuid kirjutas üles, mida tahab, ja otsis järgmistel nädalatel rahulikult uut."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kui tihti täiskuu on?",
+   "a": "Umbes kord kuus, kaks nädalat pärast noorkuud."
+  },
+  {
+   "q": "Kas täiskuu on ohtlik?",
+   "a": "Ei, ta tugevdab vaid tundeid. Kui jääd rahulikuks, saad sageli selguse."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

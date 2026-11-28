@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "elementi zodiaco",
+ "volume": "1000",
+ "slug": "elementi-zodiaco-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "I 4 elementi dello zodiaco: fuoco, terra, aria, acqua",
+ "description": "I quattro elementi dividono i segni per carattere: fuoco, terra, aria e acqua. Spiegazione facile, con esempio.",
+ "intro": "I 12 segni sono divisi in quattro elementi: fuoco, terra, aria e acqua. Ogni elemento descrive un modo di sentire e di agire.",
+ "sections": [
+  {
+   "h2": "Quali sono?",
+   "paragraphs": [
+    "Fuoco (Ariete, Leone, Sagittario): passione. Terra (Toro, Vergine, Capricorno): concretezza. Aria (Gemelli, Bilancia, Acquario): idee. Acqua (Cancro, Scorpione, Pesci): emozioni."
+   ]
+  },
+  {
+   "h2": "Come si riconoscono?",
+   "paragraphs": [
+    "Il fuoco accende, la terra costruisce, l'aria collega, l'acqua sente. Pensa a una cena: uno cucina, uno apparecchia, uno racconta storie, uno consola."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Ilaria, Toro, è terra: pianifica tutto. Il fidanzato Paolo, Sagittario, è fuoco: si lancia. Insieme sono una buona squadra."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quale elemento è il migliore?",
+   "a": "Nessuno, si completano."
+  },
+  {
+   "q": "Devo averne uno solo?",
+   "a": "No, nel tema ci sono tutti in proporzione diversa."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

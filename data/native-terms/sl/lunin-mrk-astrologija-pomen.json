@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "lunin mrk astrologija",
+ "volume": "1000",
+ "slug": "lunin-mrk-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lunin mrk v astrologiji: kaj pomeni?",
+ "description": "Lunin mrk prinaša zaključke, močna čustva in prelomnice. Preprosto razloženo, s primerom.",
+ "intro": "Lunin mrk nastane, ko Zemlja stopi med Sonce in Luno. V astrologiji je to močan ščip: nekaj se izteka ali pride na dan.",
+ "sections": [
+  {
+   "h2": "Kaj je lunin mrk?",
+   "paragraphs": [
+    "Predstavljajte si, da se v gledališču ob koncu predstave prižge vsa luč in vidite prostor, kakršen je. Tako deluje lunin mrk."
+   ]
+  },
+  {
+   "h2": "Kako to opazite?",
+   "paragraphs": [
+    "Okoli luninega mrka se nekaj zaključi: odnos, služba ali stara navada. Čustva so močnejša kot običajno, zato se dobro naspite in bodite blagi do sebe."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Maja je v času luninega mrka končala prijateljstvo, ki ji že leta ni ustrezalo. Najprej je bila žalostna, nato se ji je odvalil kamen od srca."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako pogosto so lunini mrki?",
+   "a": "Dvakrat na leto ali redkeje, vidni pa so na celotni nočni strani sveta."
+  },
+  {
+   "q": "Je lunin mrk slab?",
+   "a": "Ne, je čiščenje. Boli kratek čas, nato ostane prostor za novo."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

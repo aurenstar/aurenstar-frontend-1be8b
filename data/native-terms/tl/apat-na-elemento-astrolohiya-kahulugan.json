@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "apat na elemento zodiac apoy lupa hangin tubig",
+ "volume": "1000",
+ "slug": "apat-na-elemento-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Apat na Elemento (Apoy, Lupa, Hangin, Tubig) sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Hinahati sa apat na elemento ang labindalawang sign. Bawat isa ay may kakaibang ugali. Simple, may halimbawa.",
+ "intro": "Hinahati sa apat na elemento ang labindalawang zodiac sign: apoy, lupa, hangin, at tubig. Sinasabi ng bawat isa kung paano karaniwang mag-isip at kumilos ang tao.",
+ "sections": [
+  {
+   "h2": "Ano ang sinasabi ng apat na elemento?",
+   "paragraphs": [
+    "Sa kusina, kailangan ang apoy ng kalan, ang bigas mula sa lupa, hangin, at tubig. Ganoon din ang apat na ugali ng mga sign. Apoy: Aries, Leo, Sagittarius. Lupa: Taurus, Virgo, Capricorn. Hangin: Gemini, Libra, Aquarius. Tubig: Cancer, Scorpio, Pisces."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Ang apoy ay sigla at inisyatiba, ang lupa ay katatagan at pagiging praktikal, ang hangin ay pag-uusap at pag-iisip, ang tubig ay damdamin at pagiging sensitibo. Tingnan kung aling elemento ang pinakamarami sa chart mo."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Leo si Ramon, apoy, kaya agad siyang nanguna. Scorpio ang kaibigan niyang si Lea, tubig, kaya inuunawa muna niya ang damdamin. Magaling silang magtulungan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Paano ko malalaman ang elemento ko?",
+   "a": "Tingnan ang sun sign mo at alamin kung anong elemento ito."
+  },
+  {
+   "q": "Paano kung kulang ang isang elemento?",
+   "a": "Okay lang. Sanayin ang ugaling iyon, halimbawa kung kulang sa hangin, makipag-usap nang mas madalas."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

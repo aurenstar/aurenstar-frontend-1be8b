@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "opposition astrologie",
+ "volume": "1000",
+ "slug": "opposition-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Opposition en astrologie : que signifie-t-elle ?",
+ "description": "L’opposition place deux planètes face à face et demande de trouver un équilibre. Expliqué simplement, avec un exemple.",
+ "intro": "Il y a opposition quand deux planètes se font face dans le thème, à environ 180 degrés. C’est une tension qui invite à trouver l’équilibre.",
+ "sections": [
+  {
+   "h2": "C’est quoi, une opposition ?",
+   "paragraphs": [
+    "Pense à une balançoire : deux personnes aux extrémités, et si l’une est trop lourde, l’autre reste en l’air. Chaque planète tire de son côté."
+   ]
+  },
+  {
+   "h2": "Comment la ressent-on ?",
+   "paragraphs": [
+    "Tu oscilles entre deux extrêmes, par exemple liberté et engagement. Souvent, tu retrouves chez les autres le côté que toi-même n’utilises pas."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Hugo a le Soleil en opposition à la Lune. Sa tête veut une chose, son cœur une autre ; il apprend à écouter les deux avant de décider."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Une opposition est-elle un aspect difficile ?",
+   "a": "Elle est tendue, mais aussi très consciente : tu vois bien les deux côtés."
+  },
+  {
+   "q": "Comment l’équilibrer ?",
+   "a": "On ne choisit pas un camp, on cherche un juste milieu."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

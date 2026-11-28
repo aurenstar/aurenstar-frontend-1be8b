@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "plútó asztrológia",
+ "volume": "1000",
+ "slug": "pluto-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "A Plútó az asztrológiában: mit jelent?",
+ "description": "A Plútó megmutatja, hol mész át mély átalakuláson. Egyszerűen, példával.",
+ "intro": "A Plútó a mély változások, az erő és az újjászületés bolygója. A horoszkópban látszik, hol kell valaminek véget érnie, hogy újra kezdhess.",
+ "sections": [
+  {
+   "h2": "Mit csinál a Plútó?",
+   "paragraphs": [
+    "Olyan, mint egy alapos tavaszi nagytakarítás a pincében: kidobod a régi limlomot, és hirtelen lesz hely. A Plútó eltávolítja, ami kimerült."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Melyik területen fordul fel időnként az életed, és te erősebben kerülsz ki belőle? Ott dolgozik a Plútó."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Plútó a család házában: a szülei nehéz válása után Zsófi sokáig építgeti magát, aztán olyan ember lesz, aki tud határt húzni, és másoknak is segít."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Meddig áll a Plútó egy jegyben?",
+   "a": "Tizenöt-húsz évnél is tovább, ezért egész nemzedékeket jellemez."
+  },
+  {
+   "q": "Veszélyes a Plútó?",
+   "a": "Nem, olyan erő, amely eleinte fáj, de valódi átalakuláshoz vezet."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

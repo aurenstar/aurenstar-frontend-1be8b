@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "uraan astroloogia",
+ "volume": "1000",
+ "slug": "uraan-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uraan astroloogias: mida see tähendab?",
+ "description": "Uraan toob äkilisi muutusi, vabadust ja ebatavalisi ideid. Lihtsalt seletatud ja näitega.",
+ "intro": "Uraan on pöörete ja vabaduse planeet. Seal, kus ta sinu kaardil asub, armastab elu sind üllatada ja harjumusest välja tõmmata.",
+ "sections": [
+  {
+   "h2": "Mida Uraan teeb?",
+   "paragraphs": [
+    "Kujuta ette, et keset igavat nädalat nihutab keegi su toas mööbli ümber. Alguses oled pahane, siis hakkab kergem hingata. See on Uraan."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Millises valdkonnas juhtub sinuga pidevalt üllatusi või tahad teha teisiti kui teised? Seal töötab Uraan. Mida vabam oled, seda lihtsam."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Margusel on tugev Uraan töö majas. Ühtäkki jätab ta kindla ameti ja avab väikese töökoja, ning see osutub tema parimaks otsuseks."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kui kaua Uraan ühes märgis püsib?",
+   "a": "Umbes seitse aastat, seepärast jagab tema märki terve põlvkond."
+  },
+  {
+   "q": "Kas Uraan on ohtlik?",
+   "a": "Ei, ta lihtsalt ei salli seisakut. Kui muutuse vastu võtad, toob ta sageli kergendust."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

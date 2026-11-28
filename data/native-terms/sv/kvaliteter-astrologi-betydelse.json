@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "kardinal fast föränderlig astrologi",
+ "volume": "1000",
+ "slug": "kvaliteter-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kardinal, fast och föränderlig i astrologin: vad betyder det?",
+ "description": "Kardinal, fast och föränderlig visar hur ett tecken börjar, håller i eller följer med. Enkelt förklarat.",
+ "intro": "De tolv tecknen är också indelade i tre arbetssätt: kardinal, fast och föränderlig. De visar hur du går tillväga.",
+ "sections": [
+  {
+   "h2": "Vilka är de tre?",
+   "paragraphs": [
+    "Tänk på en årstid: kardinala tecken (Väduren, Kräftan, Vågen, Stenbocken) är början, fasta tecken (Oxen, Lejonet, Skorpionen, Vattumannen) mitten och föränderliga tecken (Tvillingarna, Jungfrun, Skytten, Fiskarna) övergången till nästa."
+   ]
+  },
+  {
+   "h2": "Hur märker du det?",
+   "paragraphs": [
+    "Gillar du att sätta igång, hålla ut eller anpassa dig lätt? Kardinal startar, fast håller ut och föränderlig följer med."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Elin är kardinal och startar ett nytt projekt varje månad. Johan är fast och gör lugnt klart det han började. De är ett bra team."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vilket arbetssätt har jag?",
+   "a": "Det beror på ditt soltecken; månen och ascendenten har sina egna."
+  },
+  {
+   "q": "Är fast samma sak som envis?",
+   "a": "Ibland, men framför allt pålitlig: ett fast tecken sviker dig inte."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

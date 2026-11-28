@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "urano astrologia",
+ "volume": "1000",
+ "slug": "urano-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Urano in astrologia: cosa significa?",
+ "description": "Urano porta cambiamenti improvvisi, libertà e idee originali. Spiegato semplice, con esempio.",
+ "intro": "Urano è il pianeta delle sorprese e dell'originalità. Rompe le abitudini per lasciarti spazio di essere diverso.",
+ "sections": [
+  {
+   "h2": "Che cosa fa Urano?",
+   "paragraphs": [
+    "Come un temporale d'estate: arriva all'improvviso, scuote tutto e poi l'aria è più fresca. Urano scuote ciò che si è fermato."
+   ]
+  },
+  {
+   "h2": "Come si nota?",
+   "paragraphs": [
+    "Quando senti il bisogno di cambiare lavoro, città o look, o quando una notizia inattesa ti stravolge, Urano è in azione."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Camilla, dopo dieci anni in banca, si trasferisce in campagna e crea siti web per artigiani. Un cambiamento che non aveva previsto."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quanto dura in un segno?",
+   "a": "Circa sette anni."
+  },
+  {
+   "q": "Urano è pericoloso?",
+   "a": "No, ti sveglia: sta a te dare un senso al cambiamento."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "eclipse lunar astrologia",
+ "volume": "1000",
+ "slug": "eclipse-lunar-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Eclipse lunar na astrologia: o que significa?",
+ "description": "O eclipse lunar é uma Lua Cheia especial que traz encerramentos e verdades. Explicado de forma simples, com exemplo.",
+ "intro": "O eclipse lunar acontece quando a Terra faz sombra sobre a Lua cheia. Na astrologia, indica o fim de um ciclo e verdades que vêm à tona.",
+ "sections": [
+  {
+   "h2": "O que é?",
+   "paragraphs": [
+    "É como fechar um capítulo de um livro. Algo que não serve mais vai embora para dar lugar ao novo."
+   ]
+  },
+  {
+   "h2": "Como se sente?",
+   "paragraphs": [
+    "Emoções fortes, conclusões ou revelações. Coisas escondidas aparecem."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Depois de um eclipse lunar, a Elisa percebe que o emprego não a faz feliz. Com calma, ela se desliga e, meses depois, está melhor."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quando acontecem?",
+   "a": "Sempre numa Lua Cheia, cerca de duas vezes por ano."
+  },
+  {
+   "q": "O que devo fazer?",
+   "a": "Observar, não forçar e deixar ir."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

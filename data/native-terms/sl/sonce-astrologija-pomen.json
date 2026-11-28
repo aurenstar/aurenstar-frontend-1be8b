@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "sonce astrologija",
+ "volume": "1000",
+ "slug": "sonce-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sonce v astrologiji: kaj pomeni?",
+ "description": "Sonce kaže vaše jedro, to, kar v bistvu ste. Preprosto razloženo, s primerom.",
+ "intro": "Sonce je v horoskopu vaše glavno znamenje, tisto, po čemer vas ljudje prepoznajo. Kaže, kaj vas žene in kako najraje žarite.",
+ "sections": [
+  {
+   "h2": "Kaj dela Sonce?",
+   "paragraphs": [
+    "Predstavljajte si svetilko sredi sobe, okoli katere se vse vrti. Tak je tudi Sonce v vaši karti: središče osebnosti in volje."
+   ]
+  },
+  {
+   "h2": "Kako to opazite?",
+   "paragraphs": [
+    "Ko počnete nekaj, kar je povsem vaše, in se počutite živi in samozavestni, tedaj sije vaše Sonce. Ko igrate nekoga drugega, se počutite prazni."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Maja ima Sonce v Levu. Rada vodi skupino in ima rada, da jo opazijo, dan ji je lepši, kadar koga spodbudi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako izvem svoje Sonce?",
+   "a": "To je vaše znamenje po datumu rojstva, torej tisto, ki ga pozna vsak."
+  },
+  {
+   "q": "Ali Sonce zadošča za celoten horoskop?",
+   "a": "Ne, to je šele začetek. Luna, Venera in drugi dodajo preostali del zgodbe."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

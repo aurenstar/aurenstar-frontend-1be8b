@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "trigon astrologie",
+ "volume": "1000",
+ "slug": "trigon-aspekt-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigon in der Astrologie: Was bedeutet es?",
+ "description": "Das Trigon ist ein harmonischer Aspekt von 120 Grad. Einfach erklärt, mit Beispiel.",
+ "intro": "Beim Trigon stehen zwei Planeten etwa 120 Grad auseinander. Ihre Kräfte unterstützen sich ganz mühelos.",
+ "sections": [
+  {
+   "h2": "Was ist ein Trigon?",
+   "paragraphs": [
+    "Wie Rückenwind beim Radfahren: Es geht leichter voran, ohne dass du etwas dafür tun musst. Meist stehen die Planeten im selben Element."
+   ]
+  },
+  {
+   "h2": "Wie merke ich es?",
+   "paragraphs": [
+    "Dir fällt etwas leicht, das anderen schwerfällt. Gefahr: Man nutzt das Talent nicht, weil es so selbstverständlich wirkt."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Clara hat ein Trigon zwischen Venus und Merkur. Sie schreibt wie nebenbei schöne Briefe und könnte damit viel mehr machen."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist das Trigon immer gut?",
+   "a": "Es schenkt Talent, aber du musst es auch bewusst nutzen."
+  },
+  {
+   "q": "Wie viele Grad hat es?",
+   "a": "Etwa 120 Grad."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

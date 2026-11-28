@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "uran astrologia",
+ "volume": "1000",
+ "slug": "uran-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uran w astrologii: co oznacza?",
+ "description": "Uran pokazuje, gdzie chcesz wolności i zmian. Wyjaśnione prosto, z przykładem.",
+ "intro": "Uran to planeta niespodzianek, wolności i nowych pomysłów. W horoskopie widać, gdzie łamiesz schematy i gdzie życie potrafi zaskoczyć.",
+ "sections": [
+  {
+   "h2": "Co robi Uran?",
+   "paragraphs": [
+    "To jak nagłe zerwanie prądu w całej ulicy: wszystko staje i trzeba zrobić coś po swojemu. Uran burzy to, co się zasiedziało."
+   ]
+  },
+  {
+   "h2": "Jak to zauważysz?",
+   "paragraphs": [
+    "W której dziedzinie nie znosisz nudy i reguł? Tam działa Uran. Często zmieniasz tam zdanie albo nagle zaczynasz od nowa."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Uran w domu pracy: Kasia nagle rzuca etat w biurze i zakłada pracownię rowerową. Wszyscy się dziwią, ona nigdy nie była tak szczęśliwa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak długo Uran stoi w jednym znaku?",
+   "a": "Około siedmiu lat, więc dotyczy całego pokolenia."
+  },
+  {
+   "q": "Czy Uran przynosi tylko chaos?",
+   "a": "Nie, daje też odwagę i oryginalne pomysły, które otwierają nowe drogi."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

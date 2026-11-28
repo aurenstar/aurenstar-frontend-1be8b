@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "oposição astrologia",
+ "volume": "1000",
+ "slug": "oposicao-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Oposição na astrologia: o que significa?",
+ "description": "Na oposição dois planetas ficam em lados contrários do céu e puxam para direções diferentes. Explicação simples.",
+ "intro": "Na oposição, dois planetas se olham de lados contrários do céu, a 180 graus. É uma tensão entre duas necessidades que pedem equilíbrio.",
+ "sections": [
+  {
+   "h2": "O que é?",
+   "paragraphs": [
+    "Imagine uma gangorra: se pesa demais de um lado, o outro sobe. A oposição te ensina a encontrar o meio."
+   ]
+  },
+  {
+   "h2": "Como perceber?",
+   "paragraphs": [
+    "Você se sente dividido entre dois desejos, como liberdade e segurança. Muitas vezes vê isso nos outros, como num espelho."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Thiago quer viajar, mas também quer uma casa estável. Com o tempo, arruma um trabalho remoto: viaja um mês e volta para casa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "É negativa?",
+   "a": "Não, ela traz consciência e equilíbrio."
+  },
+  {
+   "q": "Como lidar?",
+   "a": "Escute os dois lados, sem escolher só um."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

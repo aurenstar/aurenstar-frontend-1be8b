@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "planète rétrograde astrologie",
+ "volume": "1000",
+ "slug": "retrogradation-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Planète rétrograde : que signifie la rétrogradation ?",
+ "description": "Une planète rétrograde semble reculer vue de la Terre et invite à revoir ce qui est en suspens. Expliqué simplement.",
+ "intro": "Quand une planète est rétrograde, elle semble reculer vue de la Terre. En astrologie, on y voit un moment pour revoir, relire et terminer ce qui traîne.",
+ "sections": [
+  {
+   "h2": "C’est quoi, la rétrogradation ?",
+   "paragraphs": [
+    "C’est comme deux trains côte à côte : quand l’autre roule moins vite, on a l’impression qu’il recule. La planète ne recule pas vraiment, c’est un effet d’optique."
+   ]
+  },
+  {
+   "h2": "Comment la ressent-on ?",
+   "paragraphs": [
+    "Des affaires du passé reviennent : anciens contacts, tâches inachevées. C’est un bon moment pour réviser, moins pour lancer de gros projets."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Élodie rédige un texte pendant une rétrogradation. Plutôt que de l’envoyer, elle le relit tranquillement et le résultat est bien meilleur."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quelles planètes peuvent être rétrogrades ?",
+   "a": "Toutes, sauf le Soleil et la Lune."
+  },
+  {
+   "q": "Faut-il s’en inquiéter ?",
+   "a": "Non, c’est un rythme normal du ciel ; il suffit d’aller plus doucement."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

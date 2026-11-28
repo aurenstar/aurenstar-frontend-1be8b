@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "sunce astrologija",
+ "volume": "1000",
+ "slug": "sunce-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sunce u astrologiji: šta znači?",
+ "description": "Sunce pokazuje tvoje jezgro, ono što si u suštini. Jednostavno objašnjeno, sa primerom.",
+ "intro": "Sunce je u horoskopu tvoj glavni znak, ono po čemu te ljudi prepoznaju. Pokazuje šta te pokreće i kako najradije svetliš.",
+ "sections": [
+  {
+   "h2": "Šta radi Sunce?",
+   "paragraphs": [
+    "Zamisli lampu u sredini sobe: sve se okreće oko nje. Takvo je i Sunce u tvojoj karti, centar tvoje ličnosti i volje."
+   ]
+  },
+  {
+   "h2": "Kako to primećuješ?",
+   "paragraphs": [
+    "Kad radiš nešto što je baš tvoje i osećaš se živo i sigurno, tada svetli tvoje Sunce. Kad se pretvaraš da si neko drugi, osećaš se prazno."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Mila ima Sunce u Lavu. Voli da vodi grupu i da je ljudi primete, a ceo dan joj je lepši kad nekoga ohrabri."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako da saznam svoje Sunce?",
+   "a": "To je tvoj znak po datumu rođenja, dakle onaj koji svi znaju."
+  },
+  {
+   "q": "Da li je Sunce dovoljno za ceo horoskop?",
+   "a": "Ne, to je tek početak. Mesec, Venera i ostali deo slike dopunjuju tvoju priču."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

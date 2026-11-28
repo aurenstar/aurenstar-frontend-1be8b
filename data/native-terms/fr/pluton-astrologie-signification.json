@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "pluton astrologie",
+ "volume": "1000",
+ "slug": "pluton-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pluton en astrologie : que signifie-t-il dans ton thème ?",
+ "description": "Pluton parle de transformation profonde, de pouvoir et de renaissance. Expliqué simplement, avec un exemple.",
+ "intro": "Pluton est la planète de la transformation. Dans ton thème, il indique où quelque chose s’arrête complètement pour laisser place à une renaissance.",
+ "sections": [
+  {
+   "h2": "Que fait Pluton ?",
+   "paragraphs": [
+    "Pense à une chenille qui devient papillon : elle ne peut pas rester telle quelle. Pluton t’oblige à lâcher ce qui ne sert plus, même si cela fait mal."
+   ]
+  },
+  {
+   "h2": "Comment le reconnaître ?",
+   "paragraphs": [
+    "Là où il se trouve, tu vis les sujets avec beaucoup d’intensité, surtout le contrôle et le pouvoir. Les crises y deviennent tes plus grands changements de vie."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Thomas a Pluton dans la maison de la famille. Après une grosse dispute, il reconstruit sa relation avec ses parents de zéro, et ils se comprennent enfin."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Pluton est-il toujours une planète ?",
+   "a": "Les astronomes parlent de planète naine, mais les astrologues continuent de l’utiliser."
+  },
+  {
+   "q": "Combien de temps met-il à faire le tour ?",
+   "a": "Environ 248 ans, avec des séjours très variables dans chaque signe."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

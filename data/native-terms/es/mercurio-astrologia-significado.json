@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "mercurio astrología",
+ "volume": "1000",
+ "slug": "mercurio-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mercurio en astrología: qué significa en tu carta",
+ "description": "Mercurio rige cómo piensas, hablas y aprendes. Explicado fácil, con ejemplo.",
+ "intro": "Mercurio es el planeta de la mente y la comunicación. En tu carta muestra cómo piensas, cómo hablas y cómo aprendes.",
+ "sections": [
+  {
+   "h2": "¿Qué hace Mercurio?",
+   "paragraphs": [
+    "Piensa en el mensajero que lleva noticias de un lado a otro. Mercurio es tu manera de procesar ideas y de expresarlas con palabras."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Observa cómo hablas: rápido o despacio, con bromas o con datos. Ese estilo depende del signo en el que estaba Mercurio cuando naciste."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Pedro tiene Mercurio en Géminis: habla sin parar y salta de tema en tema. Su amiga Laura, con Mercurio en Tauro, piensa lento pero llega muy lejos."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Cómo encuentro mi Mercurio?",
+   "a": "Con tu fecha de nacimiento: siempre está en el signo del Sol o en uno cercano."
+  },
+  {
+   "q": "¿Mercurio está siempre cerca del Sol?",
+   "a": "Sí, nunca se aleja más de un signo del Sol."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

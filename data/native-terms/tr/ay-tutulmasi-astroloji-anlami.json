@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "ay tutulması astroloji",
+ "volume": "1000",
+ "slug": "ay-tutulmasi-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ay tutulması astrolojide ne anlama gelir?",
+ "description": "Ay tutulması bitişlerin ve yoğun duyguların zamanıdır. Basit anlatım ve örnek.",
+ "intro": "Ay tutulması, Dolunay sırasında Dünya'nın Güneş ile Ay arasına girmesidir. Duyguları artırır, gizli olanı ortaya çıkarır.",
+ "sections": [
+  {
+   "h2": "Ne anlama gelir?",
+   "paragraphs": [
+    "Final sınavı gibi: ertelediklerin görünür olur. Ay tutulması eski hikâyeleri kapatır."
+   ]
+  },
+  {
+   "h2": "Nasıl hissedilir?",
+   "paragraphs": [
+    "Eski duygular geri gelebilir, fark etmediğin şeyler ortaya çıkabilir. Bırakma zamanıdır."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Ay tutulması sırasında Yasemin uzun süredir keyif vermeyen dükkânını kapatmaya karar verdi. Önce üzüldü, sonra rahatladı."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Güneş tutulmasından farkı ne?",
+   "a": "Güneş tutulması yeniyi başlatır, Ay tutulması bitirir ve sonuç gösterir."
+  },
+  {
+   "q": "Ne yapmalı?",
+   "a": "Acele etmemek, fazlalığı bırakmak ve dinlenmek."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

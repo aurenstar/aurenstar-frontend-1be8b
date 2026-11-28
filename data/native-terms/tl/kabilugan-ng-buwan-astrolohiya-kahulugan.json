@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "kabilugan ng buwan astrolohiya",
+ "volume": "1000",
+ "slug": "kabilugan-ng-buwan-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kabilugan ng Buwan sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Sa Kabilugan ng Buwan, tumitindi ang damdamin at lumilitaw ang bunga ng pagsisikap. Simple, may halimbawa.",
+ "intro": "Sa Kabilugan ng Buwan, magkaharap ang Araw at Buwan at buong-buo ang liwanag ng Buwan. Sa astrolohiya, panahon ito ng kaganapan at matitinding damdamin.",
+ "sections": [
+  {
+   "h2": "Ano ang ginagawa ng Kabilugan ng Buwan?",
+   "paragraphs": [
+    "Isipin ang gabi ng Pasko na maliwanag ang bahay sa mga parol, kaya kita ang lahat ng nakatago. Ganyan ang Kabilugan: ipinapakita ang kinikimkim mo at ang natapos na."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Mahirap makatulog, mas ramdam ang emosyon, at lumilinaw ang ilang bagay. May ilang gawain ding natatapos sa panahong ito."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Tatlong buwang nagsikap si Ramon. Malapit sa Kabilugan ng Buwan, natapos ang trabaho niya at pinuri siya ng lahat."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Bakit mahirap matulog sa Kabilugan ng Buwan?",
+   "a": "Maaaring dahil sa liwanag at tensyon ng damdamin. Subukang matulog nang mas maaga."
+  },
+  {
+   "q": "Mabuti ba o masama ang Kabilugan?",
+   "a": "Wala sa dalawa, nililinaw lang nito ang mga bagay."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

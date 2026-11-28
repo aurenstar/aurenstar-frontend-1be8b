@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "keturi elementai astrologija",
+ "volume": "1000",
+ "slug": "keturi-elementai-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Keturi elementai astrologijoje: ką jie reiškia?",
+ "description": "Ugnis, žemė, oras ir vanduo skirsto ženklus pagal temperamentą. Paprastai paaiškinta, su pavyzdžiu.",
+ "intro": "Kiekvienas iš 12 ženklų priklauso vienam iš keturių elementų: ugniai, žemei, orui ar vandeniui. Elementas parodo, kaip ženklas elgiasi ir kuo maitinasi.",
+ "sections": [
+  {
+   "h2": "Kas yra elementai?",
+   "paragraphs": [
+    "Įsivaizduok keturių tipų žmones vakarėlyje: vieni linksmina visus (ugnis), kiti ruošia ir organizuoja (žemė), treti kalbasi su visais (oras), ketvirti pajunta, kas liūdi (vanduo). Ugnį sudaro Avinas, Liūtas ir Šaulys, žemę Jautis, Mergelė ir Ožiaragis, orą Dvyniai, Svarstyklės ir Vandenis, vandenį Vėžys, Skorpionas ir Žuvys."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Paklausk savęs, ko tau labiausiai reikia: veiksmo, saugumo, pokalbio ar artumo. Tai tavo pagrindinis elementas. Kai ko nors trūksta, ieškok jo: ugniai reikia judėjimo, žemei gamtos, orui draugijos, vandeniui ramybės."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Rūta yra Vėžys, vadinasi, vanduo. Ji iškart pajunta nuotaiką kambaryje, o jos draugas Markas yra Avinas, ugnis, ir visada pirmas pradeda, todėl jie taip gražiai papildo vienas kitą."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koks mano elementas?",
+   "a": "Pažiūrėk savo ženklą pagal gimimo datą ir kuriai grupei jis priklauso."
+  },
+  {
+   "q": "Ar elementai tinka tarpusavyje?",
+   "a": "Lengviausiai sutaria ugnis su oru ir žemė su vandeniu, bet susitarti gali kiekvienas, jei stengiasi."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

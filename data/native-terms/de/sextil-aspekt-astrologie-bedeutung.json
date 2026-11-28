@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "sextil astrologie",
+ "volume": "1000",
+ "slug": "sextil-aspekt-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sextil in der Astrologie: Was bedeutet es?",
+ "description": "Das Sextil ist ein sanfter Aspekt von 60 Grad, der Chancen bringt. Einfach erklärt, mit Beispiel.",
+ "intro": "Beim Sextil stehen zwei Planeten etwa 60 Grad auseinander. Es ist eine freundliche Verbindung, die Möglichkeiten eröffnet.",
+ "sections": [
+  {
+   "h2": "Was ist ein Sextil?",
+   "paragraphs": [
+    "Wie eine offene Tür: Du musst selbst hindurchgehen. Es passt zu Zeichen, die gut zusammenarbeiten."
+   ]
+  },
+  {
+   "h2": "Wie erlebe ich es?",
+   "paragraphs": [
+    "Gelegenheiten tauchen auf, wenn du aktiv wirst. Ein Gespräch oder ein Kurs kann viel bewirken."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "David hat ein Sextil zwischen Sonne und Jupiter. Nach einer Bewerbung wurde er zufällig von einem Bekannten empfohlen."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist das Sextil stärker als das Trigon?",
+   "a": "Nein, es ist milder und braucht etwas Eigeninitiative."
+  },
+  {
+   "q": "Wie viele Grad hat es?",
+   "a": "Etwa 60 Grad."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

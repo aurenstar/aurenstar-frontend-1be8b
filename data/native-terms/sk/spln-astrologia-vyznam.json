@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "spln astrológia",
+ "volume": "1000",
+ "slug": "spln-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Spln v astrológii: čo znamená?",
+ "description": "Spln ukazuje, čo je hotové, čo vychádza najavo a čo môžete pustiť. Jednoducho vysvetlené.",
+ "intro": "Pri plnom Mesiaci stojí Mesiac oproti Slnku a je celý osvetlený. V astrológii je to vrchol mesačného cyklu.",
+ "sections": [
+  {
+   "h2": "Čo robí spln?",
+   "paragraphs": [
+    "Predstavte si rozsvietenie svetla v tmavej izbe: zrazu vidíte všetko. Tak spln ukáže, čo sa deje."
+   ]
+  },
+  {
+   "h2": "Ako to spoznáte?",
+   "paragraphs": [
+    "Mnohí ľudia sú citlivejší, horšie spia alebo majú energiu navyše. Znamenie splnu ukazuje tému."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Spln v Rakovi: Zuzana si všimne, že jej už týždne chýba rodina, a konečne zavolá mamine."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ako často je spln?",
+   "a": "Zhruba každých 29,5 dňa, takmer každý mesiac."
+  },
+  {
+   "q": "Zblázním sa naozaj zo splnu?",
+   "a": "Nie, ale je to dobrá chvíľa pozrieť sa úprimne na svoje pocity."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

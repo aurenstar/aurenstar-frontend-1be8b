@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "venus astrologi",
+ "volume": "1000",
+ "slug": "venus-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venus dalam astrologi: apa artinya?",
+ "description": "Venus menunjukkan cara Anda mencintai, apa yang Anda suka, dan hal yang membuat Anda nyaman.",
+ "intro": "Venus adalah planet cinta, keindahan, dan kesenangan. Ia menunjukkan apa yang Anda sukai dan cara Anda menyatakan sayang.",
+ "sections": [
+  {
+   "h2": "Apa fungsi Venus?",
+   "paragraphs": [
+    "Bayangkan Anda memilih hadiah untuk seseorang: bunga, makanan, atau waktu bersama? Itulah gaya Venus Anda dalam menyayangi."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Perhatikan selera Anda soal musik, pakaian, suasana, dan apa yang Anda butuhkan di hubungan: perhatian, pujian, atau rasa aman. Zodiak Venus menjawabnya."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Venus Rina di Taurus. Ia suka cinta yang tenang dan setia, makanan enak, dan rumah yang nyaman."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Venus menguasai zodiak apa?",
+   "a": "Taurus dan Libra."
+  },
+  {
+   "q": "Bagaimana kalau Venus sulit?",
+   "a": "Bisa muncul rasa kurang aman dalam hubungan atau boros. Menghargai diri sendiri membantu."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

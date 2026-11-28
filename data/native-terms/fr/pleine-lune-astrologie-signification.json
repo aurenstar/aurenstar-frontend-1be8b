@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "pleine lune astrologie",
+ "volume": "1000",
+ "slug": "pleine-lune-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pleine Lune en astrologie : que signifie-t-elle ?",
+ "description": "La Pleine Lune apporte des émotions intenses et des résultats visibles. Expliqué simplement, avec un exemple.",
+ "intro": "La Pleine Lune a lieu quand le Soleil et la Lune sont de part et d’autre de la Terre et que la Lune apparaît entière. En astrologie, c’est un moment de clarté, de résultats et d’émotions fortes.",
+ "sections": [
+  {
+   "h2": "C’est quoi, la Pleine Lune ?",
+   "paragraphs": [
+    "C’est comme allumer la lumière dans une pièce sombre : tout à coup, tu vois ce qui s’y trouvait. La Pleine Lune met en lumière ce qui était caché."
+   ]
+  },
+  {
+   "h2": "Comment la ressent-on ?",
+   "paragraphs": [
+    "Certains dorment moins bien ou sont plus sensibles. C’est aussi une période de clôtures : on termine des projets ou on lâche ce qui ne sert plus."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Raphaël hésitait depuis des semaines au travail. Un soir de Pleine Lune, tout lui paraît clair et il prend la décision qu’il évitait."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "La Pleine Lune influence-t-elle le sommeil ?",
+   "a": "Certaines études disent que oui, un peu, mais elles ne s’accordent pas toutes."
+  },
+  {
+   "q": "Est-ce le bon moment pour commencer ?",
+   "a": "Mieux vaut conclure et célébrer ; pour démarrer, la Nouvelle Lune est plus indiquée."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

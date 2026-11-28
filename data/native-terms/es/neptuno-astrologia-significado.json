@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "neptuno astrología",
+ "volume": "1000",
+ "slug": "neptuno-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptuno en astrología: qué significa en tu carta",
+ "description": "Neptuno habla de sueños, intuición e imaginación, pero también de confusión. Explicado fácil, con ejemplo.",
+ "intro": "Neptuno es el planeta de los sueños, la imaginación y la espiritualidad. Disuelve los límites, así que da inspiración, pero también confusión.",
+ "sections": [
+  {
+   "h2": "¿Qué hace Neptuno?",
+   "paragraphs": [
+    "Piensa en la niebla de la mañana: todo se ve bonito y borroso. Neptuno te hace soñar y sentir mucho, aunque a veces cuesta ver la realidad."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Donde está Neptuno idealizas a las personas o las situaciones y luego te decepcionas. Bien usado, es una fuente enorme de creatividad y compasión."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Lola tiene Neptuno en la casa del amor y se enamora de la imagen que se hace de la gente. Aprendió a mirar con calma antes de decidir."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Neptuno es bueno o malo?",
+   "a": "Ni una cosa ni otra: da inspiración si lo canalizas y confusión si huyes de la realidad."
+  },
+  {
+   "q": "¿Cuánto tarda en cambiar de signo?",
+   "a": "Unos 14 años en cada signo y casi 165 años en dar la vuelta al Sol."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

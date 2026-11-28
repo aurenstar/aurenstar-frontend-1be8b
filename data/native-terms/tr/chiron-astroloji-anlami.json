@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "chiron astroloji",
+ "volume": "1000",
+ "slug": "chiron-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Chiron nedir? Astrolojide yaralı şifacı",
+ "description": "Chiron, eski yaranı ve başkalarına yardım etme gücünü gösterir. Basit anlatım ve örnek.",
+ "intro": "Chiron, Satürn ile Uranüs arasında dolaşan bir gök cismidir. Astrolojide eski bir yarayı ve şifa verme yeteneğini simgeler.",
+ "sections": [
+  {
+   "h2": "Ne anlama gelir?",
+   "paragraphs": [
+    "Hatırladıkça sızlayan bir iz gibi: acıtır ama özen göstermeyi öğretir. Chiron'un burcu ve evi, nerede hassas olduğunu gösterir."
+   ]
+  },
+  {
+   "h2": "Nasıl anlaşılır?",
+   "paragraphs": [
+    "Utandığın ya da korktuğun, sonradan başkalarına yardım ettiğin konu. Acı deneyim bilgeliğe dönüşür."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Ayşe'nin Chiron'u iletişim evinde: çocukken konuşması yüzünden alay edildi. Şimdi dil terapisti ve çocuklara özgüvenle konuşmayı öğretiyor."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Chiron iyileşir mi?",
+   "a": "Yara kalır ama onunla yaşamayı ve başkalarına yardım etmeyi öğrenirsin."
+  },
+  {
+   "q": "Chiron nerede bulunur?",
+   "a": "Doğum haritası hesaplayıcısı burcunu ve evini gösterir."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "aszendent",
+ "volume": "1000",
+ "slug": "aszendent-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aszendent: Was ist das und was bedeutet er?",
+ "description": "Der Aszendent ist das Sternzeichen, das bei deiner Geburt am Osthorizont aufstieg. Einfach erklärt, mit Beispiel.",
+ "intro": "Dein Aszendent ist das Zeichen, das im Moment deiner Geburt im Osten aufging. Er zeigt, wie andere dich beim ersten Treffen erleben.",
+ "sections": [
+  {
+   "h2": "Was ist der Aszendent?",
+   "paragraphs": [
+    "Stell dir die Eingangstür eines Hauses vor: Besucher sehen sie zuerst. Etwa alle zwei Stunden geht ein anderes Zeichen auf, deshalb haben Menschen mit gleichem Geburtstag oft einen anderen Aszendenten."
+   ]
+  },
+  {
+   "h2": "Wie finde ich ihn?",
+   "paragraphs": [
+    "Du brauchst Geburtsdatum, möglichst genaue Uhrzeit und Geburtsort. Ein kostenloser Rechner erledigt den Rest in Sekunden."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Lena ist Krebs (Sonne), hat aber Widder als Aszendent. Kollegen halten sie für direkt und energisch, Freunde kennen ihre weiche, fürsorgliche Seite."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist der Aszendent wichtiger als das Sternzeichen?",
+   "a": "Beide ergänzen sich: Die Sonne ist dein Kern, der Aszendent dein Auftreten."
+  },
+  {
+   "q": "Geht es ohne Geburtszeit?",
+   "a": "Nicht genau, denn er wechselt ungefähr alle zwei Stunden."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

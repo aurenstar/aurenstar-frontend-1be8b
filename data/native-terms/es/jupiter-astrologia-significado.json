@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "júpiter astrología",
+ "volume": "1000",
+ "slug": "jupiter-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Júpiter en astrología: qué significa en tu carta",
+ "description": "Júpiter trae suerte, crecimiento y optimismo. Explicado fácil, con ejemplo.",
+ "intro": "Júpiter es el planeta de la expansión, la suerte y la confianza. En tu carta muestra dónde las cosas te salen más fáciles y dónde puedes crecer.",
+ "sections": [
+  {
+   "h2": "¿Qué hace Júpiter?",
+   "paragraphs": [
+    "Imagina a un tío generoso que siempre te anima y te presta ayuda. Júpiter amplía todo lo que toca, para bien: más oportunidades, más fe."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Piensa en el tema en el que sueles tener suerte o en el que la gente te apoya. Ahí suele estar Júpiter, aunque exagerar también es un riesgo."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Andrés tiene Júpiter en la casa de los viajes. Cada vez que sale al extranjero conoce a alguien que le abre una puerta nueva."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Cada cuánto cambia Júpiter de signo?",
+   "a": "Aproximadamente cada año, y tarda unos 12 años en dar una vuelta entera."
+  },
+  {
+   "q": "¿Júpiter siempre da suerte?",
+   "a": "Da oportunidades, pero también puede hacer que te excedas si no pones límites."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

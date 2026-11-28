@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "saule astroloģija",
+ "volume": "1000",
+ "slug": "saule-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saule astroloģijā: ko tā nozīmē?",
+ "description": "Saule rāda tavu kodolu, to, kas tu esi pēc būtības. Vienkārši izskaidrots, ar piemēru.",
+ "intro": "Saule ir tava galvenā horoskopa zīme, pēc kuras cilvēki tevi pazīst. Tā parāda, kas tevi virza un kā tu visvairāk mīli spīdēt.",
+ "sections": [
+  {
+   "h2": "Ko dara Saule?",
+   "paragraphs": [
+    "Iedomājies lampu istabas vidū, ap kuru viss griežas. Tāda ir Saule tavā kartē: personības un gribas centrs."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Kad dari kaut ko pavisam savu un jūties dzīvs un drošs, tava Saule spīd. Kad tēlo kādu citu, jūties tukšs."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Annai Saule ir Lauvā. Viņa labprāt vada pulciņu un grib, lai viņu ievēro, un diena kļūst jaukāka, kad viņa kādu uzmundrina."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kā uzzināt savu Sauli?",
+   "a": "Tā ir tava zīme pēc dzimšanas datuma, tātad tā, ko zina visi."
+  },
+  {
+   "q": "Vai ar Sauli pietiek visam horoskopam?",
+   "a": "Nē, tas ir tikai sākums. Mēness, Venera un citi papildina stāstu."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

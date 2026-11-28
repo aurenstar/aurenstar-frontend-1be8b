@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "sole astrologia",
+ "volume": "1000",
+ "slug": "sole-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Il Sole in astrologia: cosa significa?",
+ "description": "Il Sole è il tuo segno zodiacale: la tua essenza e ciò che ti fa brillare. Spiegato semplice, con esempio.",
+ "intro": "Il Sole è il cuore del tuo tema natale. Il suo segno, quello che conosci come \"il tuo segno\", racconta chi sei nel profondo e dove trovi energia.",
+ "sections": [
+  {
+   "h2": "Che cosa fa il Sole?",
+   "paragraphs": [
+    "Pensa alla lampada al centro del salotto: tutta la stanza ruota intorno a lei. Il Sole è la tua identità e la tua voglia di brillare."
+   ]
+  },
+  {
+   "h2": "Come si nota?",
+   "paragraphs": [
+    "Sei più te stesso quando fai cose che ti fanno sentire vivo e orgoglioso. Lì c'è il tuo Sole."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Tommaso è Vergine: dà il meglio quando organizza e migliora le cose. Sistemare l'archivio dell'ufficio per lui è un piacere."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Il segno solare dice tutto di me?",
+   "a": "No, è solo una parte: contano Luna e ascendente."
+  },
+  {
+   "q": "Come lo scopro?",
+   "a": "Basta la data di nascita."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

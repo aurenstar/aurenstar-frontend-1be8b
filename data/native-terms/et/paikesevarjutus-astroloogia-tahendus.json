@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "päikesevarjutus astroloogia",
+ "volume": "1000",
+ "slug": "paikesevarjutus-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Päikesevarjutus astroloogias: mida see tähendab?",
+ "description": "Päikesevarjutus toob äkilisi algusi ja pöördeid. Lihtsalt seletatud ja näitega.",
+ "intro": "Päikesevarjutus tekib siis, kui Kuu varjab Päikest. Astroloogias on see tugev noorkuu, aeg, mil elu võib pöörduda ja avada uue peatüki.",
+ "sections": [
+  {
+   "h2": "Mis on päikesevarjutus?",
+   "paragraphs": [
+    "Kujuta ette, et keegi kustutab hetkeks toa peatule, ja kui see taas põlema läheb, näed kõike teisiti. Nii mõjub päikesevarjutus."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Pärast päikesevarjutust tuleb sageli ootamatu uudis, uus töö, kolimine või otsus, mis muudab suunda. See ei pruugi olla kohe, vahel kulub paar kuud."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Margus sai päikesevarjutuse ajal kutse tööle teise linna. Ta polnud seda plaaninud, kuid võttis vastu ja ütleb täna, et see oli parim."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kui tihti päikesevarjutusi on?",
+   "a": "Kaks või kolm korda aastas, aga need pole alati igal pool nähtavad."
+  },
+  {
+   "q": "Kas pean kartma?",
+   "a": "Ei, see pole karistus. Ära vaid kiirusta suurte sammudega ja jälgi, mis avaneb."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

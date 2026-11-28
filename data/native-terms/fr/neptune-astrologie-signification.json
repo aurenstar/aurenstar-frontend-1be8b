@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "neptune astrologie",
+ "volume": "1000",
+ "slug": "neptune-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptune en astrologie : que signifie-t-il dans ton thème ?",
+ "description": "Neptune parle de rêves, d’intuition et d’imagination, mais aussi de confusion. Expliqué simplement, avec un exemple.",
+ "intro": "Neptune est la planète des rêves, de l’imagination et de la spiritualité. Il dissout les limites : il inspire, mais il peut aussi brouiller les choses.",
+ "sections": [
+  {
+   "h2": "Que fait Neptune ?",
+   "paragraphs": [
+    "Pense au brouillard du matin : tout est beau et flou. Neptune te fait rêver et ressentir beaucoup, même si la réalité est parfois difficile à voir."
+   ]
+  },
+  {
+   "h2": "Comment le reconnaître ?",
+   "paragraphs": [
+    "Là où il se trouve, tu idéalises les gens ou les situations, puis tu es déçu. Bien utilisé, c’est une source immense de créativité et de compassion."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Lola a Neptune dans la maison de l’amour et tombe amoureuse de l’image qu’elle se fait des gens. Elle a appris à observer calmement avant de décider."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Neptune est-il bon ou mauvais ?",
+   "a": "Ni l’un ni l’autre : il inspire si tu le canalises et brouille si tu fuis la réalité."
+  },
+  {
+   "q": "Combien de temps reste-t-il dans un signe ?",
+   "a": "Environ 14 ans, et près de 165 ans pour faire le tour du Soleil."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "uran astrologija",
+ "volume": "1000",
+ "slug": "uran-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uran u astrologiji: šta znači?",
+ "description": "Uran donosi iznenadne promene, slobodu i neobične ideje. Jednostavno objašnjeno, sa primerom.",
+ "intro": "Uran je planeta preokreta i slobode. Tamo gde se nalazi u tvojoj karti, život voli da te iznenadi i izvuče iz navike.",
+ "sections": [
+  {
+   "h2": "Šta radi Uran?",
+   "paragraphs": [
+    "Zamisli da neko usred dosadne nedelje preuredi nameštaj u tvojoj sobi. Prvo se naljutiš, a onda ti bude lakše da dišeš. To je Uran."
+   ]
+  },
+  {
+   "h2": "Kako to primećuješ?",
+   "paragraphs": [
+    "U kojoj oblasti ti se stalno dešavaju iznenađenja ili te vuče da radiš drugačije od drugih? Tu radi Uran. Što si slobodniji, to je lakše."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Marko ima jak Uran u kući posla. Odjednom ostavi sigurnu službu i otvori malu radionicu, i na kraju mu je to najbolja odluka."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko dugo Uran ostaje u jednom znaku?",
+   "a": "Oko sedam godina, zato njegov znak deli cela generacija."
+  },
+  {
+   "q": "Da li je Uran opasan?",
+   "a": "Ne, samo ne voli ustajalost. Kad prihvatiš promenu, često donese olakšanje."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

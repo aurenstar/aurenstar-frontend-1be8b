@@ -1,0 +1,49 @@
+{
+ "lang": "da",
+ "keyword": "fuldmåne astrologi",
+ "volume": "1000",
+ "slug": "fuldmaane-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Fuldmåne i astrologi: hvad betyder det?",
+ "description": "Fuldmånen viser, hvad der er færdigt, hvad der bliver synligt, og hvad du kan give slip på. Forklaret enkelt.",
+ "intro": "Ved fuldmåne står månen over for solen og er helt oplyst. I astrologien er det højdepunktet i månens cyklus.",
+ "sections": [
+  {
+   "h2": "Hvad gør fuldmånen?",
+   "paragraphs": [
+    "Tænk på at tænde lyset i et mørkt rum: pludselig ser du alt. Sådan viser fuldmånen, hvad der foregår."
+   ]
+  },
+  {
+   "h2": "Hvordan mærker du det?",
+   "paragraphs": [
+    "Mange føler sig mere følsomme, sover dårligere eller har ekstra energi. Fuldmånens tegn viser temaet."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Fuldmåne i Krebsen: Freja opdager, at hun i flere uger har savnet sin familie, og ringer endelig til sin mor."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvor tit er der fuldmåne?",
+   "a": "Cirka hver 29,5. dag, næsten hver måned."
+  },
+  {
+   "q": "Bliver jeg virkelig skør af fuldmåne?",
+   "a": "Nej, men det er et godt tidspunkt at se ærligt på sine følelser."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "merkur astrologie",
+ "volume": "1000",
+ "slug": "merkur-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkur in der Astrologie: Was bedeutet er?",
+ "description": "Merkur zeigt, wie du denkst, sprichst und lernst. Einfach erklärt, mit Beispiel.",
+ "intro": "Merkur ist der Planet des Denkens und Sprechens. Er verrät, wie du Informationen aufnimmst und weitergibst.",
+ "sections": [
+  {
+   "h2": "Was macht Merkur?",
+   "paragraphs": [
+    "Wie der Postbote deines Kopfes: Er bringt Nachrichten hin und her. Er ist der schnellste Planet und bleibt nah an der Sonne."
+   ]
+  },
+  {
+   "h2": "Wie merke ich es?",
+   "paragraphs": [
+    "Redest du schnell oder bedacht, schreibst du lieber oder sprichst du? Das zeigt dein Merkurzeichen."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Merkur in den Zwillingen: Tobias plaudert mit jedem und lernt Sprachen im Handumdrehen."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie finde ich meinen Merkur?",
+   "a": "Mit Geburtsdatum rechnest du das Zeichen aus, in dem Merkur stand."
+  },
+  {
+   "q": "Was ist Merkur rückläufig?",
+   "a": "Eine Phase, in der Gespräche und Technik öfter stocken."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "transito astrologico",
+ "volume": "1000",
+ "slug": "transito-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Transito astrologico: cos'è e cosa significa?",
+ "description": "Un transito è il passaggio di un pianeta sopra un punto del tuo tema natale. Spiegato semplice, con esempio.",
+ "intro": "Un transito è il passaggio attuale di un pianeta sopra un punto del tuo tema natale. Racconta il clima del momento, come le previsioni del tempo.",
+ "sections": [
+  {
+   "h2": "Che cos'è un transito?",
+   "paragraphs": [
+    "Il tuo tema natale è la mappa fissa; i transiti sono il meteo di oggi. Una nuvola può passare e poi andare via."
+   ]
+  },
+  {
+   "h2": "Come si nota?",
+   "paragraphs": [
+    "Un pianeta lento resta a lungo e porta temi duraturi; uno veloce, come la Luna, porta un'ondata di pochi giorni."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Andrea sente che a primavera ha voglia di cambiare città. Giove sta passando sul suo Medio Cielo e tutto sembra aprirsi sul lavoro."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quanto dura un transito?",
+   "a": "Da ore, per la Luna, ad anni per Plutone."
+  },
+  {
+   "q": "Devo preoccuparmi?",
+   "a": "No, sono solo occasioni di attenzione e di scelta."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

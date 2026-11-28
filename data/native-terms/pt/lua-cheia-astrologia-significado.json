@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "lua cheia astrologia",
+ "volume": "1000",
+ "slug": "lua-cheia-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lua Cheia: o que significa na astrologia?",
+ "description": "A Lua Cheia traz emoções fortes, clareza e conclusões. Explicada de forma simples, com exemplo.",
+ "intro": "A Lua Cheia acontece quando a Lua está oposta ao Sol e aparece inteira. Ela ilumina o que estava escondido e traz as emoções à tona.",
+ "sections": [
+  {
+   "h2": "O que é?",
+   "paragraphs": [
+    "É como acender a luz num quarto escuro: de repente você vê tudo, até a bagunça. Assim funciona a Lua Cheia."
+   ]
+  },
+  {
+   "h2": "Como se sente?",
+   "paragraphs": [
+    "Talvez você durma menos, fique mais emotivo ou feche um ciclo. É hora de colher os frutos."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Gabriela, nos dias de Lua Cheia, fica mais sensível. Da última vez, ela finalmente disse à amiga o que a incomodava, e as duas se entenderam."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "A Lua Cheia deixa agitado?",
+   "a": "Alguns sentem, outros não: é pessoal."
+  },
+  {
+   "q": "O que posso fazer?",
+   "a": "Fechar projetos e agradecer o que conquistou."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

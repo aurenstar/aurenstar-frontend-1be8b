@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "luna piena astrologia",
+ "volume": "1000",
+ "slug": "luna-piena-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Luna Piena: cosa significa in astrologia?",
+ "description": "La Luna Piena porta emozioni forti, chiarezza e conclusioni. Spiegato semplice, con esempio.",
+ "intro": "La Luna Piena avviene quando la Luna è opposta al Sole e si vede tutta. Illumina ciò che era nascosto e porta emozioni a galla.",
+ "sections": [
+  {
+   "h2": "Che cos'è?",
+   "paragraphs": [
+    "Come accendere la luce in una stanza buia: all'improvviso vedi tutto, anche il disordine. Così funziona la Luna Piena."
+   ]
+  },
+  {
+   "h2": "Come si sente?",
+   "paragraphs": [
+    "Magari dormi meno, sei più emotivo o chiudi qualcosa. È il momento di raccogliere i frutti."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Giada, nei giorni di Luna Piena, è più sensibile. L'ultima volta ha finalmente detto alla sua amica ciò che non andava, e hanno chiarito."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "La Luna Piena rende agitati?",
+   "a": "Alcuni lo sentono, altri no: è soggettivo."
+  },
+  {
+   "q": "Cosa posso fare?",
+   "a": "Chiudere progetti e ringraziare per ciò che hai ottenuto."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

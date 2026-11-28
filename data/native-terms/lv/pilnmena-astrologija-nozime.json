@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "pilns mēness astroloģija",
+ "volume": "1000",
+ "slug": "pilnmena-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pilnmēness astroloģijā: ko tas nozīmē?",
+ "description": "Pilnmēness nes kulmināciju, spēcīgas emocijas un noslēgumus. Vienkārši izskaidrots, ar piemēru.",
+ "intro": "Pilnmēness ir brīdis, kad Mēness un Saule atrodas viens pret otru, tāpēc Mēness ir pilnībā apgaismots. Astroloģijā tā ir virsotne: tas, ko sāki, tagad ir redzams.",
+ "sections": [
+  {
+   "h2": "Kas ir pilnmēness?",
+   "paragraphs": [
+    "Iedomājies kūku, kas beidzot izņemta no cepeškrāsns. Viss ir gatavs un redzi rezultātu. Tāpat ir ar pilnmēnesi."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Ap pilnmēnesi cilvēki bieži ir jūtīgāki, sliktāk guļ vai kaut kas noslēdzas. Tāpēc labāk nepieņemt lielus lēmumus emociju vilnī."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Anna pilnmēnesī saprata, ka vecais darbs viņai vairs neder. Viņa uzreiz neatsakās, bet pierakstīja, ko vēlas, un nākamajās nedēļās mierīgi meklēja jaunu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cik bieži ir pilnmēness?",
+   "a": "Apmēram reizi mēnesī, divas nedēļas pēc jaunā Mēness."
+  },
+  {
+   "q": "Vai pilnmēness ir bīstams?",
+   "a": "Nē, tas tikai pastiprina izjūtas. Ja paliec mierīgs, bieži gūsti skaidrību."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

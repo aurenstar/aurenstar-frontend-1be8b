@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "fyra element astrologi",
+ "volume": "1000",
+ "slug": "fyra-element-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "De fyra elementen i astrologin: vad betyder de?",
+ "description": "Eld, jord, luft och vatten: så delas de tolv tecknen in i fyra familjer. Enkelt förklarat med exempel.",
+ "intro": "Varje tecken tillhör ett av de fyra elementen: eld, jord, luft eller vatten. Elementet visar hur du av naturen känner och reagerar.",
+ "sections": [
+  {
+   "h2": "Vad är elementen?",
+   "paragraphs": [
+    "Tänk på fyra sorters människor på en fest: eldtecknen (Väduren, Lejonet, Skytten) är entusiasterna, jord (Oxen, Jungfrun, Stenbocken) de praktiska, luft (Tvillingarna, Vågen, Vattumannen) pratkvarnarna och vatten (Kräftan, Skorpionen, Fiskarna) de känsliga."
+   ]
+  },
+  {
+   "h2": "Hur märker du det?",
+   "paragraphs": [
+    "Är du snabbt entusiastisk, nykter, nyfiken eller känslig? Det är ditt element. Tecken med samma element förstår ofta varandra lätt."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Elin är Väduren (eld) och Johan Stenbocken (jord): hon sätter igång direkt, han vill ha en plan först. Tillsammans kompletterar de varandra bra."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vilket element har jag?",
+   "a": "Det beror på ditt soltecken, och även på din måne och ascendent."
+  },
+  {
+   "q": "Passar alla element ihop?",
+   "a": "Ja, men på olika sätt. Eld och luft går lätt ihop, jord och vatten också."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "mặt trời chiêm tinh",
+ "volume": "1000",
+ "slug": "mat-troi-chiem-tinh-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mặt Trời trong chiêm tinh có ý nghĩa gì?",
+ "description": "Mặt Trời cho thấy bạn là ai và điều gì làm bạn tỏa sáng. Giải thích đơn giản, có ví dụ.",
+ "intro": "Trong chiêm tinh, Mặt Trời là phần cốt lõi, là bản ngã thật của bạn. Khi nói \"tôi cung Sư Tử\", người ta đang nói về cung Mặt Trời.",
+ "sections": [
+  {
+   "h2": "Mặt Trời làm gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến chiếc đèn lớn giữa nhà. Đèn sáng lên thì cả phòng có phương hướng. Mặt Trời là trung tâm tính cách và hướng đi của bạn."
+   ]
+  },
+  {
+   "h2": "Làm sao nhận ra?",
+   "paragraphs": [
+    "Nhớ lại lúc bạn thấy \"đây mới là mình\". Việc nào làm mà không cần gượng ép, càng làm càng có năng lượng, đó là vùng của Mặt Trời."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Mặt Trời của Lan ở cung Bạch Dương. Cô ấy hứng khởi nhất khi là người bắt đầu trước, còn ngồi chờ thì rất khó chịu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Làm sao biết cung Mặt Trời của tôi?",
+   "a": "Chỉ cần ngày sinh. Ngày sinh rơi vào cung nào thì đó là cung Mặt Trời."
+  },
+  {
+   "q": "Chỉ biết cung Mặt Trời có đủ không?",
+   "a": "Đủ để bắt đầu, nhưng xem thêm Mặt Trăng và cung Mọc sẽ hiểu bản thân đầy đủ hơn."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

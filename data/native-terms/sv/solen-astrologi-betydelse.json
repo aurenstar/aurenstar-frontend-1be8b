@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "solen astrologi",
+ "volume": "1000",
+ "slug": "solen-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Solen i astrologin: vad betyder det?",
+ "description": "Solen visar vem du är innerst inne och var din energi kommer ifrån. Enkelt förklarat med exempel.",
+ "intro": "Solen är hjärtat i ditt horoskop: din kärna, din vilja och din livskraft. Ditt soltecken är det tecken de flesta känner till om sig själva.",
+ "sections": [
+  {
+   "h2": "Vad gör solen?",
+   "paragraphs": [
+    "Tänk på solen över trädgården: utan den växer ingenting. På samma sätt ger solen i ditt horoskop dig grunden och drivkraften."
+   ]
+  },
+  {
+   "h2": "Hur märker du det?",
+   "paragraphs": [
+    "När känner du dig riktigt som dig själv och full av energi? Då jobbar din sol. Ditt födelsedatum visar ditt soltecken."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Sol i Lejonet: Elin vill synas, är varm och generös och blommar upp av lite applåder."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Är mitt soltecken allt?",
+   "a": "Nej, det är din kärna. Månen och ascendenten färgar resten av din karaktär."
+  },
+  {
+   "q": "Hur hittar jag min sol?",
+   "a": "Titta på ditt födelsedatum: tecknet den dagen är ditt soltecken."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

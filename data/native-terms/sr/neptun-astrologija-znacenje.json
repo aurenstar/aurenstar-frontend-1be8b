@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "neptun astrologija",
+ "volume": "1000",
+ "slug": "neptun-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptun u astrologiji: šta znači?",
+ "description": "Neptun pokazuje maštu, snove i intuiciju, ali i maglu. Jednostavno objašnjeno, sa primerom.",
+ "intro": "Neptun je planeta mašte, snova i saosećanja. Tamo gde je u tvojoj karti, stvari su mekše i nejasnije, pa lako sanjariš, ali se i zavaraš.",
+ "sections": [
+  {
+   "h2": "Šta radi Neptun?",
+   "paragraphs": [
+    "Zamisli vožnju kroz maglu: lepo je i tajanstveno, ali ne vidiš daleko. Takav je Neptun, budi maštu, a oduzima oštrinu."
+   ]
+  },
+  {
+   "h2": "Kako to primećuješ?",
+   "paragraphs": [
+    "U kojoj oblasti sanjariš, osećaš više nego što možeš da objasniš ili ti je teško da vidiš stvari takve kakve jesu? Tu je Neptun. Pomaže ti da proveriš činjenice."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Mila ima Neptun u kući ljubavi. Veoma je nežna i razume druge, ali ume da vidi samo lepo u osobi koju voli, pa treba da pita i prijatelje za mišljenje."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko dugo Neptun ostaje u znaku?",
+   "a": "Oko četrnaest godina, pa ga deli cela generacija."
+  },
+  {
+   "q": "Da li je Neptun loš?",
+   "a": "Ne, daje umetnost i milosrđe. Samo mu treba malo stvarnosti kao sidro."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

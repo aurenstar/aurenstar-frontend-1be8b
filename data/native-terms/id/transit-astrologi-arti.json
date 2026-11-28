@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "transit astrologi",
+ "volume": "1000",
+ "slug": "transit-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Transit dalam astrologi: apa artinya?",
+ "description": "Transit adalah posisi planet hari ini yang menyentuh peta kelahiran Anda. Ia menunjukkan suasana waktu yang sedang Anda jalani.",
+ "intro": "Transit adalah pergerakan planet di langit saat ini yang melewati titik-titik di peta kelahiran Anda. Ia membuat bidang tertentu dalam hidup terasa ramai.",
+ "sections": [
+  {
+   "h2": "Apa fungsi transit?",
+   "paragraphs": [
+    "Peta kelahiran adalah foto saat Anda lahir, sedangkan transit adalah cuaca hari ini. Seperti membawa payung saat mendung, Anda bisa bersiap sesuai suasana."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Planet lambat seperti Saturnus dan Jupiter memberi pengaruh besar selama berbulan-bulan. Planet cepat seperti Bulan dan Merkurius hanya mengubah suasana hati harian."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Jupiter sedang melewati rumah kesepuluh Dewi. Tahun ini ia dipercaya memimpin proyek baru dan mulai dikenal lebih luas."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Berapa lama transit berlangsung?",
+   "a": "Tergantung planetnya. Bulan hanya sekitar dua hari, sementara Saturnus bisa dua tahun lebih di satu zodiak."
+  },
+  {
+   "q": "Apakah transit memastikan masa depan?",
+   "a": "Tidak. Ia hanya memberi gambaran suasana, keputusan tetap di tangan Anda."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "konjunktion astrologie",
+ "volume": "1000",
+ "slug": "konjunktion-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Konjunktion in der Astrologie: Was bedeutet das?",
+ "description": "Eine Konjunktion ist, wenn zwei Planeten nah beieinander stehen. Einfach erklärt, mit Beispiel.",
+ "intro": "Bei einer Konjunktion stehen zwei Planeten im Horoskop nahe zusammen. Ihre Kräfte verschmelzen zu einer starken Einheit.",
+ "sections": [
+  {
+   "h2": "Was ist eine Konjunktion?",
+   "paragraphs": [
+    "Wie zwei Farben, die man mischt: Es entsteht ein neuer Ton. Der Abstand beträgt nur wenige Grad."
+   ]
+  },
+  {
+   "h2": "Wie wirkt sie?",
+   "paragraphs": [
+    "Sie verstärkt beide Planeten. Das kann Stärke bringen, oder eine Seite überdeckt die andere."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Sonne und Merkur stehen bei Paul eng zusammen. Er denkt und redet viel und erklärt Dinge gern."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist die Konjunktion gut oder schlecht?",
+   "a": "Weder noch, es hängt von den beteiligten Planeten ab."
+  },
+  {
+   "q": "Wie nah müssen sie stehen?",
+   "a": "Meist in einem Abstand von etwa acht Grad."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

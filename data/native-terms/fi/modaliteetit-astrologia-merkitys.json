@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "kardinaali kiinteä muuttuva astrologia",
+ "volume": "1000",
+ "slug": "modaliteetit-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kardinaali, kiinteä ja muuttuva astrologiassa: mitä ne tarkoittavat?",
+ "description": "Kardinaali, kiinteä ja muuttuva kertovat, miten merkki aloittaa, pitää kiinni tai mukautuu. Selitetty yksinkertaisesti.",
+ "intro": "Kaksitoista merkkiä on jaettu myös kolmeen toimintatapaan: kardinaaliseen, kiinteään ja muuttuvaan. Ne kertovat, miten tartut asioihin.",
+ "sections": [
+  {
+   "h2": "Mitkä kolme ovat?",
+   "paragraphs": [
+    "Ajattele vuodenaikaa: kardinaalimerkit (Oinas, Rapu, Vaaka, Kauris) ovat alku, kiinteät merkit (Härkä, Leijona, Skorpioni, Vesimies) keskikohta ja muuttuvat merkit (Kaksoset, Neitsyt, Jousimies, Kalat) siirtymä seuraavaan."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Aloitatko mielelläsi, kestätkö loppuun asti vai mukaudutko helposti? Kardinaali aloittaa, kiinteä pitää kiinni ja muuttuva joustaa."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Aino on kardinaali ja aloittaa uuden projektin joka kuukausi. Jussi on kiinteä ja saa rauhassa valmiiksi sen, minkä aloitti. He ovat hyvä tiimi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mikä toimintatapa minulla on?",
+   "a": "Se riippuu aurinkomerkistäsi; kuulla ja nousevalla merkillä on omansa."
+  },
+  {
+   "q": "Onko kiinteä sama kuin jääräpäinen?",
+   "a": "Joskus, mutta ennen kaikkea luotettava: kiinteä merkki ei jätä sinua pulaan."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

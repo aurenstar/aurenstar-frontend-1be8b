@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "pluto astrolohiya",
+ "volume": "1000",
+ "slug": "pluto-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pluto sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Ipinapakita ng Pluto ang malalim na pagbabago, kapangyarihan, at muling pagsilang. Simple, may halimbawa.",
+ "intro": "Ang Pluto ay planeta ng malalim na pagbabago. Tinatapos nito ang luma para magsimula ang bago.",
+ "sections": [
+  {
+   "h2": "Ano ang ginagawa ng Pluto?",
+   "paragraphs": [
+    "Kapag giniba ang lumang bahay, magulo muna ang lahat, pero tatayo rin ang bagong matibay na bahay. Ganyan ang Pluto: sa hirap isinisilang ang lakas."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Sa anong bagay napakatindi ng damdamin mo o takot kang mawalan ng kontrol? Doon ang Pluto. Palatandaan ang malalaking pagbabago at pagbangon."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Malaki ang nalugi ni Ben sa negosyo. Makalipas ang ilang taon, mas matatag na siya at siya na ang gumagabay sa iba."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Gaano katagal ang Pluto sa isang sign?",
+   "a": "Mula 12 hanggang 31 taon, kaya tinatawag itong planeta ng henerasyon."
+  },
+  {
+   "q": "Masama ba ang Pluto?",
+   "a": "Hindi, mahirap ang pagbabago pero ito ang nagbibigay ng tunay na lakas."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

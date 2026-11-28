@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "vénus astrologie",
+ "volume": "1000",
+ "slug": "venus-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Vénus en astrologie : que signifie-t-elle dans ton thème ?",
+ "description": "Vénus montre ta façon d’aimer, ce qui te plaît et ce que tu valorises. Expliqué simplement, avec un exemple.",
+ "intro": "Vénus est la planète de l’amour, de la beauté et du plaisir. Dans ton thème, elle indique comment tu tombes amoureux et ce que tu apprécies.",
+ "sections": [
+  {
+   "h2": "Que fait Vénus ?",
+   "paragraphs": [
+    "Pense à ce qui te fait du bien : un bon plat, une chanson, un câlin. Vénus est ce goût personnel et ta manière de donner et recevoir de l’affection."
+   ]
+  },
+  {
+   "h2": "Comment la reconnaître ?",
+   "paragraphs": [
+    "Regarde comment tu flirtes et ce qui t’attire chez les autres. Certains ont besoin de mots doux, d’autres de petits gestes ou de cadeaux."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Clara a Vénus en Cancer : elle montre son affection en cuisinant et en prenant soin des autres. Son compagnon, Vénus en Bélier, préfère l’action et les plans improvisés."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Comment trouver ma Vénus ?",
+   "a": "Avec ta date de naissance, on calcule le signe où se trouvait Vénus."
+  },
+  {
+   "q": "Vénus ne parle-t-elle que d’amour ?",
+   "a": "Elle parle aussi d’argent, d’art et de ce que tu aimes dans la vie."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

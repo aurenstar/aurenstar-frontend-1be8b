@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "eclipse solar astrologia",
+ "volume": "1000",
+ "slug": "eclipse-solar-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Eclipse solar na astrologia: o que significa?",
+ "description": "O eclipse solar é uma Lua Nova especial que traz começos e mudanças. Explicado de forma simples, com exemplo.",
+ "intro": "O eclipse solar acontece quando a Lua cobre o Sol. Na astrologia, marca começos importantes e viradas inesperadas.",
+ "sections": [
+  {
+   "h2": "O que é?",
+   "paragraphs": [
+    "É como um interruptor que apaga a luz por um instante e a acende de novo em outro cômodo. É um recomeço que abre um capítulo."
+   ]
+  },
+  {
+   "h2": "Como se sente?",
+   "paragraphs": [
+    "Os efeitos aparecem nos meses seguintes: acontecimentos inesperados, encontros, decisões que mudam o rumo."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Depois do eclipse, o Fábio recebe uma proposta de trabalho no exterior que nunca tinha considerado. Ele aceita e a vida muda de rumo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quantos há por ano?",
+   "a": "Dois a quatro eclipses solares por ano."
+  },
+  {
+   "q": "São perigosos?",
+   "a": "Não, são momentos de virada."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

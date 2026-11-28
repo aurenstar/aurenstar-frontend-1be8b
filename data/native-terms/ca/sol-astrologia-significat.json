@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "sol astrologia",
+ "volume": "1000",
+ "slug": "sol-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "El Sol en astrologia: què significa?",
+ "description": "El Sol mostra el teu nucli, qui ets en essència. Explicat fàcil i amb exemple.",
+ "intro": "El Sol és el teu signe principal a l’horòscop, el que la gent coneix de tu. Mostra què et mou i de quina manera t’agrada més brillar.",
+ "sections": [
+  {
+   "h2": "Què fa el Sol?",
+   "paragraphs": [
+    "Imagina una llum al mig de l’habitació, i tot gira al seu voltant. Així és el Sol a la teva carta: el centre de la personalitat i la voluntat."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "Quan fas alguna cosa ben teva i et sents viu i segur, el teu Sol brilla. Quan fas veure que ets una altra persona, et sents buit."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "La Marta té el Sol a Lleó. Li agrada liderar el grup i que la notin, i el dia li va millor quan anima algú."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Com sé quin és el meu Sol?",
+   "a": "És el teu signe segons la data de naixement, el que tothom coneix."
+  },
+  {
+   "q": "El Sol és suficient per a tot l’horòscop?",
+   "a": "No, només és el començament. La Lluna, Venus i la resta completen la història."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "quadrat astrologie",
+ "volume": "1000",
+ "slug": "quadrat-aspekt-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Quadrat in der Astrologie: Was bedeutet es?",
+ "description": "Das Quadrat ist ein Aspekt von 90 Grad und bringt Spannung und Antrieb. Einfach erklärt, mit Beispiel.",
+ "intro": "Beim Quadrat stehen zwei Planeten etwa 90 Grad auseinander. Das erzeugt Reibung, die dich zum Handeln drängt.",
+ "sections": [
+  {
+   "h2": "Was ist ein Quadrat?",
+   "paragraphs": [
+    "Wie ein Kieselstein im Schuh: Er stört, und du musst etwas tun. Genau das macht ihn zum Motor."
+   ]
+  },
+  {
+   "h2": "Wie spüre ich es?",
+   "paragraphs": [
+    "Immer wieder dasselbe Problem, das nach einer Lösung verlangt. Wer dranbleibt, wird stark."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Bei Felix streiten Ehrgeiz und Bequemlichkeit. Er hat sich einen festen Trainingsplan gesetzt und ist heute fit."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist das Quadrat schlecht?",
+   "a": "Es ist anstrengend, aber es bringt oft die größten Fortschritte."
+  },
+  {
+   "q": "Wie viele Grad hat es?",
+   "a": "Etwa 90 Grad."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

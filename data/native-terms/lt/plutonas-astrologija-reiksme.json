@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "plutonas astrologija",
+ "volume": "1000",
+ "slug": "plutonas-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Plutonas astrologijoje: ką tai reiškia?",
+ "description": "Plutonas rodo gilią transformaciją, galią ir naują pradžią. Paprastai paaiškinta, su pavyzdžiu.",
+ "intro": "Plutonas yra gilių pokyčių planeta. Kur jis tavo žemėlapyje, ten kažkas sena turi išeiti, kad gimtų kažkas stipresnio.",
+ "sections": [
+  {
+   "h2": "Ką daro Plutonas?",
+   "paragraphs": [
+    "Įsivaizduok seną spintą, kurią kartą per metus visiškai ištuštini. Skaudu mesti daiktus, bet paskui erdvė švari. Toks ir Plutonas."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Kurioje srityje išgyveni dideles krizes, po kurių tampi kitoks? Ten veikia Plutonas. Kuo lengviau paleidi seną, tuo greičiau prasideda atsinaujinimas."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Markas turi Plutoną pinigų name. Po didelio praradimo išmoksta taupyti ir kurti naują pradžią, o dabar yra daug užtikrintesnis nei anksčiau."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kiek laiko Plutonas būna viename ženkle?",
+   "a": "Nuo dvylikos iki trisdešimties metų, todėl jį dalijasi visa karta."
+  },
+  {
+   "q": "Ar Plutonas baisus?",
+   "a": "Ne, jis tiesiog sąžiningas. Jo pokyčiai skauda, bet palieka jėgų."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

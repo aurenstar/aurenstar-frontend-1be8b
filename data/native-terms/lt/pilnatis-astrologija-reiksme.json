@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "pilnatis astrologija",
+ "volume": "1000",
+ "slug": "pilnatis-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pilnatis astrologijoje: ką tai reiškia?",
+ "description": "Pilnatis atneša kulminaciją, stiprius jausmus ir pabaigas. Paprastai paaiškinta, su pavyzdžiu.",
+ "intro": "Pilnatis yra akimirka, kai Mėnulis ir Saulė stovi viena prieš kitą, todėl Mėnulis visiškai nušviestas. Astrologijoje tai viršūnė: kas pradėta, dabar matosi.",
+ "sections": [
+  {
+   "h2": "Kas yra pilnatis?",
+   "paragraphs": [
+    "Įsivaizduok tortą, kuris pagaliau išėjo iš orkaitės. Viskas paruošta ir matai rezultatą. Taip ir su pilnatimi."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Apie pilnatį žmonės dažnai jautresni, prasčiau miega arba kažkas baigiasi. Todėl geriau nepriimti didelių sprendimų jausmų bangoje."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Rūta per pilnatį suprato, kad senas darbas jai nebetinka. Iškart neišėjo, bet užsirašė, ko nori, ir per kitas savaites ramiai ieškojo naujo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kaip dažnai būna pilnatis?",
+   "a": "Maždaug kartą per mėnesį, dvi savaites po jaunaties."
+  },
+  {
+   "q": "Ar pilnatis pavojinga?",
+   "a": "Ne, ji tik sustiprina jausmus. Jei lieki ramus, dažnai gauni aiškumą."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

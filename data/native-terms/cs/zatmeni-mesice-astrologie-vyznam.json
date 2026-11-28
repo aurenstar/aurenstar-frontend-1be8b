@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "zatmění měsíce astrologie",
+ "volume": "1000",
+ "slug": "zatmeni-mesice-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Zatmění Měsíce v astrologii: co znamená?",
+ "description": "Zatmění Měsíce vynese city na povrch a něco uzavře. Jednoduše s příkladem.",
+ "intro": "Při zatmění Měsíce se Země dostane mezi Slunce a Měsíc a Měsíc ztmavne nebo zčervená. V astrologii je to zvlášť silný úplněk, který něco uzavírá.",
+ "sections": [
+  {
+   "h2": "Co dělá zatmění Měsíce?",
+   "paragraphs": [
+    "Představte si konec filmu: je po všem, rozsvítí se světla a vy poznáte, co doopravdy cítíte. Tak zatmění Měsíce něco uzavírá."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "Vracejí se staré city, něco končí nebo vyjde najevo tajemství. Dopřejte si klid a neuspěchejte rozhodnutí."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Zatmění Měsíce ve Štíru: Jana si uvědomí, že přátelství už dlouho nesedí, a v klidu se rozloučí."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak často je zatmění Měsíce?",
+   "a": "Obvykle dvakrát za rok, často zhruba dva týdny před zatměním Slunce nebo po něm."
+  },
+  {
+   "q": "Mám se bát?",
+   "a": "Ne, je to uzavření. Co odchází, uvolní místo pro něco lepšího."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

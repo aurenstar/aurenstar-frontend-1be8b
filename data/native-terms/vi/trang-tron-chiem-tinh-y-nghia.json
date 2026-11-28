@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "trăng tròn chiêm tinh",
+ "volume": "1000",
+ "slug": "trang-tron-chiem-tinh-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trăng tròn trong chiêm tinh có ý nghĩa gì?",
+ "description": "Trăng tròn là lúc cảm xúc đầy lên và kết quả hiện ra. Giải thích đơn giản, có ví dụ.",
+ "intro": "Trăng tròn là ngày Mặt Trăng tròn và sáng nhất. Trong chiêm tinh, đây là lúc những gì bạn vun đắp suốt tháng lộ rõ và cảm xúc dâng cao.",
+ "sections": [
+  {
+   "h2": "Trăng tròn làm gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến ly nước rót suốt một tháng, đến lúc đầy tràn và dễ trào ra ngoài. Trăng tròn là ngày như vậy."
+   ]
+  },
+  {
+   "h2": "Làm sao nhận ra?",
+   "paragraphs": [
+    "Gần ngày trăng tròn bạn có hay bồn chồn, khó ngủ vô cớ không? Đó là dấu hiệu cảm xúc dồn nén đang trào lên. Đây cũng là lúc hợp để khép lại và dọn dẹp."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Cứ đến trăng tròn Lan lại dễ cáu và cãi với bạn. Giờ hôm đó cô đi dạo, xả bớt tâm trạng nên nhẹ nhõm hơn nhiều."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Trăng tròn có nên quyết định việc lớn không?",
+   "a": "Cảm xúc đang dâng cao, nên đợi một hai ngày cho bình tĩnh rồi hãy quyết định."
+  },
+  {
+   "q": "Trăng tròn khác trăng non thế nào?",
+   "a": "Trăng non là ngày bắt đầu, còn trăng tròn là ngày xem kết quả và khép lại."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

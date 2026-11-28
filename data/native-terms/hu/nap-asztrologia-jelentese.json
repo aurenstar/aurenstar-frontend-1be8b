@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "nap az asztrológiában",
+ "volume": "1000",
+ "slug": "nap-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "A Nap az asztrológiában: mit jelent?",
+ "description": "A Nap megmutatja, ki vagy valójában, és mi ad erőt neked. Egyszerűen, példával.",
+ "intro": "A Nap a csillagjegyed, vagyis a személyiséged magja. Azt mondja meg, ki akarsz lenni, és mitől érzed magad önmagadnak.",
+ "sections": [
+  {
+   "h2": "Mit csinál a Nap?",
+   "paragraphs": [
+    "Olyan, mint a szoba közepén álló lámpa: minden körülötte forog. A napjegyed megmutatja, hogyan ragyogsz, és mire van szükséged az erőhöz."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Gondold végig, mikor érzed magad igazán önmagadnak, és mikor játszol szerepet. Az előbbi többnyire a Nap műve."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Zsófi Napja az Oroszlánban áll. Szereti, ha észreveszik, bőkezűen vendégeli meg a barátait, és elhervad, ha senki nem értékeli."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "A Nap ugyanaz, mint a csillagjegyem?",
+   "a": "Igen, a csillagjegyed az a jegy, amelyben a Nap állt a születésed napján."
+  },
+  {
+   "q": "Elég a Nap ahhoz, hogy megismerjem magam?",
+   "a": "Nem, ez csak a kezdet. A Hold és az aszcendens az érzelmeket és az első benyomást adja hozzá."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

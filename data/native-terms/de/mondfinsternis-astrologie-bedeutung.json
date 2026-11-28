@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "mondfinsternis astrologie",
+ "volume": "1000",
+ "slug": "mondfinsternis-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mondfinsternis in der Astrologie: Was bedeutet sie?",
+ "description": "Eine Mondfinsternis ist ein starker Vollmond und bringt Abschlüsse. Einfach erklärt, mit Beispiel.",
+ "intro": "Bei einer Mondfinsternis liegt der Mond im Schatten der Erde. Astrologisch ist es ein besonders kräftiger Vollmond.",
+ "sections": [
+  {
+   "h2": "Was ist eine Mondfinsternis?",
+   "paragraphs": [
+    "Wie das Ende eines Films, wenn das Licht angeht: Man sieht klar, was war. Sie bringt Dinge zum Abschluss."
+   ]
+  },
+  {
+   "h2": "Wie merke ich sie?",
+   "paragraphs": [
+    "Gefühle kochen hoch, ein Thema kommt zum Ende, etwa eine Freundschaft oder ein Projekt."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Zur Mondfinsternis im Skorpion beendet Paula eine Beziehung, die schon lange nicht mehr gut war."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie oft gibt es sie?",
+   "a": "Etwa zweimal im Jahr."
+  },
+  {
+   "q": "Kann man sie sehen?",
+   "a": "Ja, überall, wo gerade Nacht ist."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "modalitātes astroloģija",
+ "volume": "1000",
+ "slug": "modalitates-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Modalitātes astroloģijā: kardinālās, fiksētās, mainīgās",
+ "description": "Modalitāte rāda, kā zīme sāk, uztur vai maina lietas. Vienkārši izskaidrots, ar piemēru.",
+ "intro": "Visas 12 zīmes ir sadalītas trijās grupās: kardinālajās, fiksētajās un mainīgajās. Šis sadalījums rāda, kā zīme attiecas pret sākumu, noturību un pārmaiņām.",
+ "sections": [
+  {
+   "h2": "Kas ir modalitātes?",
+   "paragraphs": [
+    "Iedomājies braucienu ar vilcienu. Kardinālās zīmes ir tas, kas nopērk biļeti un dodas ceļā (Auns, Vēzis, Svari, Mežāzis). Fiksētās ir tas, kas paliek sēdēt savā vietā līdz ceļa beigām (Vērsis, Lauva, Skorpions, Ūdensvīrs). Mainīgās ir tas, kas viegli pārsēžas un pielāgo plānu (Dvīņi, Jaunava, Strēlnieks, Zivis)."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Vai tev patīk lietas uzsākt, izturēt līdz galam vai mainīt pēc vajadzības? Tas parāda tavu modalitāti. Katram vajadzīgs cits atbalsts."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Anna ir Auns, kardinālā: viegli sāk jaunu grupu korī. Viņas draudzene Roze ir Vērsis, fiksētā: korī dzied jau desmit gadus un notur to kopā."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cik zīmju ir katrā modalitātē?",
+   "a": "Pa četrām, kopā 12, un katram elementam ir pa vienai no katras modalitātes."
+  },
+  {
+   "q": "Vai kāda modalitāte ir labāka?",
+   "a": "Nē, vajadzīgas visas: kāds sāk, kāds notur, kāds pielāgo."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

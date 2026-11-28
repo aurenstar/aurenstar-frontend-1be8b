@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "luna nouă astrologie",
+ "volume": "1000",
+ "slug": "luna-noua-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Luna nouă în astrologie: ce înseamnă?",
+ "description": "Luna nouă e un moment bun să începi ceva de la zero. Explicat simplu, cu exemplu.",
+ "intro": "Luna nouă apare când Luna nu se vede pe cer. În astrologie e începutul simbolic al unui nou ciclu și un timp bun pentru intenții.",
+ "sections": [
+  {
+   "h2": "Ce face Luna nouă?",
+   "paragraphs": [
+    "E ca o pagină curată în caiet: poți scrie orice pe ea. Luna nouă oferă un start liniștit și loc pentru planuri noi."
+   ]
+  },
+  {
+   "h2": "Cum o folosești?",
+   "paragraphs": [
+    "Notează câteva intenții concrete pentru luna următoare. Alege pași mici și realizabili, nu promisiuni mari."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Ioana scrie la Luna nouă în Balanță că vrea să-și vadă mai des sora. În fiecare săptămână iau o cafea împreună, iar după o lună simte diferența."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cât de des e Luna nouă?",
+   "a": "Aproximativ la fiecare douăzeci și nouă de zile și jumătate."
+  },
+  {
+   "q": "Trebuie să fac ceva special?",
+   "a": "Nu, ajunge un moment de liniște și o foaie cu intenții."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

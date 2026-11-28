@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "satürn dönüşü",
+ "volume": "1000",
+ "slug": "saturn-donusu-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Satürn dönüşü nedir? Ne zaman yaşanır?",
+ "description": "Satürn dönüşü, 28-30 yaşlarında hayatın seni olgunluk sınavına soktuğu dönemdir. Basit anlatım.",
+ "intro": "Satürn bütün burçları yaklaşık 29 yılda dolaşır. Doğum haritandaki yerine geri döndüğünde \"büyüme sınavı\" başlar.",
+ "sections": [
+  {
+   "h2": "Ne olur?",
+   "paragraphs": [
+    "Genel bir ev temizliği gibi: gereksiz ne varsa göze batar. İnsanlar iş değiştirir, ilişkilerini gözden geçirir ya da yeni sorumluluklar alır."
+   ]
+  },
+  {
+   "h2": "Nasıl anlaşılır?",
+   "paragraphs": [
+    "27-30 yaş arasında \"böyle olmaz, karar vermeliyim\" duygusu belirir. İkinci dönüş 58-60 yaşlarında yaşanır ve hayatın özetini çıkarmayla ilgilidir."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Zeynep 29 yaşında ofis işinden nefret ettiğini fark etti. Bir yıl sonra işi bırakıp kendi pastanesini açtı. Korkutucuydu ama bu onun kendi yolu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hep zor mu geçer?",
+   "a": "Bazen zordur, ama Satürn kendine dürüst olanı ödüllendirir: sonrasında çoğu insan sağlam bir zemin hisseder."
+  },
+  {
+   "q": "Ne kadar sürer?",
+   "a": "Tam yaklaşım birkaç hafta, değişim süreci ise yaklaşık iki yıl sürebilir."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

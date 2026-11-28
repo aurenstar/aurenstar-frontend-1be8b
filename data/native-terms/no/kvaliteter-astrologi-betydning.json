@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "kardinal fast foranderlig astrologi",
+ "volume": "1000",
+ "slug": "kvaliteter-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kardinal, fast og foranderlig i astrologi: hva betyr det?",
+ "description": "Kardinal, fast og foranderlig viser hvordan et tegn begynner, holder ut eller følger med. Enkelt forklart.",
+ "intro": "De tolv tegnene er også delt inn i tre arbeidsmåter: kardinal, fast og foranderlig. De viser hvordan du går fram.",
+ "sections": [
+  {
+   "h2": "Hva er de tre?",
+   "paragraphs": [
+    "Tenk på en årstid: kardinale tegn (Væren, Krepsen, Vekten, Steinbukken) er begynnelsen, faste tegn (Oksen, Løven, Skorpionen, Vannmannen) midten og foranderlige tegn (Tvillingene, Jomfruen, Skytten, Fiskene) overgangen til den neste."
+   ]
+  },
+  {
+   "h2": "Hvordan merker du det?",
+   "paragraphs": [
+    "Liker du å sette i gang, holde ut eller tilpasse deg lett? Kardinal starter, fast holder ut, og foranderlig følger med."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Ingrid er kardinal og starter et nytt prosjekt hver måned. Jonas er fast og gjør rolig ferdig det han begynte på. De er et godt lag."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvilken arbeidsmåte har jeg?",
+   "a": "Det avhenger av soltegnet ditt; månen og ascendenten har sine egne."
+  },
+  {
+   "q": "Er fast det samme som sta?",
+   "a": "Noen ganger, men først og fremst pålitelig: et fast tegn svikter deg ikke."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

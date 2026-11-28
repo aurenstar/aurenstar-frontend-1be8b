@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "modalitäten sternzeichen",
+ "volume": "1000",
+ "slug": "modalitaeten-sternzeichen-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kardinal, fix, veränderlich: Was bedeuten die Modalitäten?",
+ "description": "Die drei Modalitäten teilen die Zeichen in Starter, Halter und Wandler ein. Einfach erklärt, mit Beispiel.",
+ "intro": "Die zwölf Zeichen gehören drei Gruppen an: kardinal, fix und veränderlich. Sie zeigen, wie du mit Veränderung umgehst.",
+ "sections": [
+  {
+   "h2": "Was sind Modalitäten?",
+   "paragraphs": [
+    "Wie bei einem Staffellauf: Der Erste startet, der Zweite hält das Tempo, der Dritte bringt es ins Ziel. Jede Gruppe hat vier Zeichen."
+   ]
+  },
+  {
+   "h2": "Wie erkenne ich meine?",
+   "paragraphs": [
+    "Kardinal (Widder, Krebs, Waage, Steinbock) startet gern. Fix (Stier, Löwe, Skorpion, Wassermann) bleibt dran. Veränderlich (Zwillinge, Jungfrau, Schütze, Fische) passt sich an."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Ina ist Widder, also kardinal, und hat ständig neue Projekte. Ihr Mann ist Stier, also fix, und bringt jedes zu Ende."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Welche ist die beste Modalität?",
+   "a": "Keine, zusammen ergänzen sie sich gut."
+  },
+  {
+   "q": "Gehören Modalitäten und Elemente zusammen?",
+   "a": "Ja, jedes Zeichen hat eine Modalität und ein Element."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

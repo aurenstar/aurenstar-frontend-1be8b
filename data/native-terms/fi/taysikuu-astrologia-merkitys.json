@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "täysikuu astrologia",
+ "volume": "1000",
+ "slug": "taysikuu-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Täysikuu astrologiassa: mitä se tarkoittaa?",
+ "description": "Täysikuu näyttää, mikä on valmista, mikä tulee näkyviin ja mistä voi päästää irti. Selitetty yksinkertaisesti.",
+ "intro": "Täysikuun aikaan kuu on auringon vastakkaisella puolella ja täysin valaistu. Astrologiassa se on kuun kierron huippukohta.",
+ "sections": [
+  {
+   "h2": "Mitä täysikuu tekee?",
+   "paragraphs": [
+    "Ajattele valon sytyttämistä pimeässä huoneessa: yhtäkkiä näet kaiken. Niin täysikuu näyttää, mitä on meneillään."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Moni tuntee olonsa herkemmäksi, nukkuu huonommin tai saa lisäenergiaa. Täysikuun merkki kertoo teeman."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Täysikuu Rapussa: Aino huomaa kaivanneensa perhettään viikkoja ja soittaa vihdoin äidilleen."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuinka usein on täysikuu?",
+   "a": "Noin 29,5 päivän välein, lähes joka kuukausi."
+  },
+  {
+   "q": "Tuleeko täysikuusta oikeasti hullu?",
+   "a": "Ei, mutta se on hyvä hetki katsoa tunteitaan rehellisesti."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

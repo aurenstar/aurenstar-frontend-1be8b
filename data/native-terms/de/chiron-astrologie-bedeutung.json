@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "chiron astrologie",
+ "volume": "1000",
+ "slug": "chiron-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Chiron in der Astrologie: Was bedeutet er?",
+ "description": "Chiron zeigt deine Wunde und deine Heilgabe. Einfach erklärt, mit Beispiel.",
+ "intro": "Chiron wird der verwundete Heiler genannt. Er zeigt, wo du empfindlich bist und wo du später anderen helfen kannst.",
+ "sections": [
+  {
+   "h2": "Was ist Chiron?",
+   "paragraphs": [
+    "Wie ein Arzt, der selbst einmal krank war und deshalb andere besonders gut versteht. Er braucht etwa 50 Jahre für eine Runde."
+   ]
+  },
+  {
+   "h2": "Wie spüre ich ihn?",
+   "paragraphs": [
+    "Ein Thema, das immer wieder wehtut, etwa Zugehörigkeit oder Selbstwert. Wer es annimmt, wird weich und weise."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Nina wurde als Kind oft ausgelacht. Heute leitet sie eine Selbsthilfegruppe für Schüchterne."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist Chiron ein Planet?",
+   "a": "Er ist ein kleiner Himmelskörper zwischen Saturn und Uranus."
+  },
+  {
+   "q": "Kann die Wunde heilen?",
+   "a": "Sie bleibt als Narbe, wird aber zur Quelle von Mitgefühl."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

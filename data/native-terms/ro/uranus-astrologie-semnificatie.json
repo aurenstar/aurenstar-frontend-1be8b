@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "uranus astrologie",
+ "volume": "1000",
+ "slug": "uranus-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uranus în astrologie: ce înseamnă?",
+ "description": "Uranus arată unde vrei libertate și schimbare. Explicat simplu, cu exemplu.",
+ "intro": "Uranus este planeta surprizelor, a libertății și a ideilor noi. În hartă vezi unde rupi tiparele și unde viața te poate lua pe nepregătite.",
+ "sections": [
+  {
+   "h2": "Ce face Uranus?",
+   "paragraphs": [
+    "E ca atunci când se ia curentul pe toată strada: totul se oprește și trebuie să improvizezi. Uranus zdruncină ce s-a instalat prea comod."
+   ]
+  },
+  {
+   "h2": "Cum observi?",
+   "paragraphs": [
+    "În ce domeniu nu suporți plictiseala și regulile? Acolo lucrează Uranus. Adesea îți schimbi părerea sau o iei de la capăt."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Uranus în casa muncii: Ioana își lasă brusc postul de la birou și deschide un atelier de biciclete. Toți se miră, dar ea n-a fost niciodată mai fericită."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cât stă Uranus într-un semn?",
+   "a": "Aproximativ șapte ani, deci marchează o întreagă generație."
+  },
+  {
+   "q": "Aduce Uranus doar haos?",
+   "a": "Nu, dă și curaj și idei originale care deschid drumuri noi."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

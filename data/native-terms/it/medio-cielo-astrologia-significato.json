@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "medio cielo",
+ "volume": "1000",
+ "slug": "medio-cielo-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Medio Cielo: cos'è e cosa significa?",
+ "description": "Il Medio Cielo indica la tua vocazione e come vuoi essere riconosciuto nel mondo. Spiegato semplice, con esempio.",
+ "intro": "Il Medio Cielo è il punto più alto del tuo tema natale. Parla della tua carriera, della tua reputazione e di ciò per cui vorresti essere ricordato.",
+ "sections": [
+  {
+   "h2": "Che cos'è il Medio Cielo?",
+   "paragraphs": [
+    "Pensa all'insegna del tuo negozio: dice a tutti cosa fai e che cosa rappresenti. Il Medio Cielo è quell'insegna."
+   ]
+  },
+  {
+   "h2": "Come lo noti?",
+   "paragraphs": [
+    "Il segno del Medio Cielo mostra lo stile con cui cerchi riconoscimento: con costanza, con creatività, con rigore."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Elena ha il Medio Cielo in Vergine. Nel lavoro è precisa e affidabile: i clienti la chiamano proprio per questo, e la sua fama cresce da sola."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "È uguale all'ascendente?",
+   "a": "No, l'ascendente è come appari, il Medio Cielo è dove vuoi arrivare."
+  },
+  {
+   "q": "Mostra il lavoro perfetto?",
+   "a": "Dà un'indicazione sullo stile, non un mestiere preciso."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

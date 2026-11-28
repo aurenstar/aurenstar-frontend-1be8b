@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "uranus astrologie",
+ "volume": "1000",
+ "slug": "uranus-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uranus en astrologie : que signifie-t-il dans ton thème ?",
+ "description": "Uranus apporte changement, originalité et envie de liberté. Expliqué simplement, avec un exemple.",
+ "intro": "Uranus est la planète de la surprise, du changement et de la liberté. Dans ton thème, il montre où tu casses les codes et où la vie prend des tournants inattendus.",
+ "sections": [
+  {
+   "h2": "Que fait Uranus ?",
+   "paragraphs": [
+    "C’est une coupure de courant à la maison : tout s’éteint d’un coup et tu vois les choses autrement. Uranus secoue le vieux pour faire place au neuf."
+   ]
+  },
+  {
+   "h2": "Comment le reconnaître ?",
+   "paragraphs": [
+    "Là où se trouve Uranus, tu es différent et tu détestes les règles rigides. Il y a aussi des virages brusques qui, avec le temps, libèrent."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Gabriel a Uranus dans la maison du travail. Il quitte un poste stable pour ouvrir son propre atelier, et il n’a jamais été aussi heureux."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Combien de temps Uranus met-il à faire le tour ?",
+   "a": "Environ 84 ans, et il reste à peu près 7 ans dans chaque signe."
+  },
+  {
+   "q": "Uranus est-il une planète personnelle ?",
+   "a": "Non, c’est une planète générationnelle : beaucoup de gens de ton âge l’ont dans le même signe."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

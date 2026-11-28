@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "sonnenfinsternis astrologie",
+ "volume": "1000",
+ "slug": "sonnenfinsternis-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sonnenfinsternis in der Astrologie: Was bedeutet sie?",
+ "description": "Eine Sonnenfinsternis ist ein starker Neumond und bringt Wendepunkte. Einfach erklärt, mit Beispiel.",
+ "intro": "Bei einer Sonnenfinsternis schiebt sich der Mond vor die Sonne. Astrologisch ist es ein Neumond mit besonders starker Wirkung.",
+ "sections": [
+  {
+   "h2": "Was ist eine Sonnenfinsternis?",
+   "paragraphs": [
+    "Wie ein plötzlicher Schatten über der Landschaft: Du hältst inne und siehst neu. Sie steht für Neuanfänge, die oft unerwartet kommen."
+   ]
+  },
+  {
+   "h2": "Wie merke ich sie?",
+   "paragraphs": [
+    "Ein Thema ändert sich plötzlich, etwa Job oder Wohnort. Die Wirkung hält oft Monate an."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Nach einer Sonnenfinsternis in der Waage erhält Lotte überraschend eine Stelle in einer anderen Stadt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie oft gibt es sie?",
+   "a": "Mindestens zweimal im Jahr, aber nicht überall sichtbar."
+  },
+  {
+   "q": "Muss ich Angst haben?",
+   "a": "Nein, sie ist ein Anstoß, keine Gefahr."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

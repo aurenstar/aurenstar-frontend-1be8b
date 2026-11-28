@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "conjunção astrologia",
+ "volume": "1000",
+ "slug": "conjuncao-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Conjunção na astrologia: o que significa?",
+ "description": "A conjunção acontece quando dois planetas ficam bem juntos e suas energias se misturam. Explicada de forma simples, com exemplo.",
+ "intro": "A conjunção acontece quando dois planetas estão quase no mesmo ponto do céu. As energias se misturam e agem como uma só.",
+ "sections": [
+  {
+   "h2": "O que é?",
+   "paragraphs": [
+    "Pense em duas tintas despejadas na mesma lata: nasce uma cor nova e intensa. Assim se fundem os dois planetas."
+   ]
+  },
+  {
+   "h2": "Como perceber?",
+   "paragraphs": [
+    "Esse tema da sua vida é muito forte: você o sente com intensidade, para o bem e para o mal, e tem dificuldade de separá-lo."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Fernanda tem Sol e Mercúrio juntos: pensa e fala exatamente o que sente. Ela não sabe fingir, e por isso todos confiam nela."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "É um aspecto bom ou ruim?",
+   "a": "Depende dos planetas: com dois amigos é festa, com dois rivais é competição."
+  },
+  {
+   "q": "Quão perto precisam estar?",
+   "a": "Poucos graus, em geral até 8 ou 10."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

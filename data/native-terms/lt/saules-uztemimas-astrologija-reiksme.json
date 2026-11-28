@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "saulės užtemimas astrologija",
+ "volume": "1000",
+ "slug": "saules-uztemimas-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saulės užtemimas astrologijoje: ką tai reiškia?",
+ "description": "Saulės užtemimas atneša staigias pradžias ir posūkius. Paprastai paaiškinta, su pavyzdžiu.",
+ "intro": "Saulės užtemimas įvyksta, kai Mėnulis uždengia Saulę. Astrologijoje tai stipri jaunatis, metas, kai gyvenimas gali apsisukti ir atverti naują skyrių.",
+ "sections": [
+  {
+   "h2": "Kas yra Saulės užtemimas?",
+   "paragraphs": [
+    "Įsivaizduok, kad kažkas akimirką išjungia pagrindinę šviesą kambaryje, o kai vėl įsižiebia, viską matai kitaip. Taip veikia Saulės užtemimas."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Po Saulės užtemimo dažnai ateina netikėta žinia, naujas darbas, kraustymasis ar sprendimas, keičiantis kryptį. Ne visada iškart, kartais užtrunka kelis mėnesius."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Markas per Saulės užtemimą gavo pasiūlymą dirbti kitame mieste. To neplanavo, bet sutiko ir šiandien sako, kad tai buvo geriausia."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kaip dažnai būna Saulės užtemimų?",
+   "a": "Du ar tris kartus per metus, tačiau jie ne visur matomi."
+  },
+  {
+   "q": "Ar turiu bijoti?",
+   "a": "Ne, tai ne bausmė. Tik neskubėk su dideliais žingsniais ir stebėk, kas atsiveria."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

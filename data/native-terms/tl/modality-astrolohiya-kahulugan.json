@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "modality zodiac cardinal fixed mutable",
+ "volume": "1000",
+ "slug": "modality-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Modality (Cardinal, Fixed, Mutable) sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Tatlong modality ang hatian ng labindalawang sign: nagsisimula ang cardinal, nananatili ang fixed, nag-aangkop ang mutable. Simple, may halimbawa.",
+ "intro": "Tatlong grupo ang mga sign: cardinal, fixed, at mutable. Ipinapakita nito kung ikaw ay nagsisimula, nagpapatuloy, o umaangkop.",
+ "sections": [
+  {
+   "h2": "Ano ang sinasabi ng tatlong modality?",
+   "paragraphs": [
+    "Isipin ang simula, gitna, at wakas ng isang panahon. Ang cardinal (Aries, Cancer, Libra, Capricorn) ay nagsisimula. Ang fixed (Taurus, Leo, Scorpio, Aquarius) ay matatag na nananatili. Ang mutable (Gemini, Virgo, Sagittarius, Pisces) ay madaling umangkop."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Mabilis ka bang magsimula ng bagong gawain, matatag hanggang matapos, o nagbabago ayon sa sitwasyon? Iyon ang modality mo."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Aries (cardinal) si Mika at nagbukas siya ng bagong negosyo. Taurus (fixed) ang kapatid niya at pinatakbo niya ito nang maraming taon. Gemini (mutable) ang kaibigan nila at umaangkop sa nagbabagong merkado."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Paano ko malalaman ang modality ko?",
+   "a": "Tingnan kung saang grupo kabilang ang sun sign mo."
+  },
+  {
+   "q": "Alin ang pinakamainam na modality?",
+   "a": "Lahat ay kapaki-pakinabang. Kailangan natin ng simula, tatag, at pagbabago."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

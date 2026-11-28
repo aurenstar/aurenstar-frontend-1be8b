@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "sinastri",
+ "volume": "1000",
+ "slug": "sinastri-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sinastri: cara astrologi membandingkan dua orang",
+ "description": "Sinastri membandingkan dua peta kelahiran untuk melihat kecocokan, tantangan, dan cara dua orang saling memengaruhi.",
+ "intro": "Sinastri adalah cara membaca dua peta kelahiran berdampingan. Tujuannya melihat bagaimana energi dua orang bertemu.",
+ "sections": [
+  {
+   "h2": "Apa fungsi sinastri?",
+   "paragraphs": [
+    "Bayangkan dua orang menari bersama. Ada yang langkahnya selaras, ada yang saling menginjak kaki. Sinastri menunjukkan bagian mana yang selaras dan mana yang perlu latihan."
+   ]
+  },
+  {
+   "h2": "Bagaimana membacanya?",
+   "paragraphs": [
+    "Lihat apakah planet satu orang jatuh dekat planet orang lain, misalnya Bulan Anda dekat Venus pasangan. Kedekatan seperti ini sering terasa sebagai rasa nyaman dan sayang."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Budi dan Sari sering berbeda pendapat, tapi Bulan mereka saling mendukung. Karena itu, setelah bertengkar mereka cepat berdamai."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Apakah sinastri hanya untuk pasangan?",
+   "a": "Tidak. Bisa juga untuk sahabat, rekan kerja, dan hubungan keluarga."
+  },
+  {
+   "q": "Kalau sinastri tidak cocok, apa harus berpisah?",
+   "a": "Tidak. Sinastri hanya peta kecenderungan. Hubungan tetap bergantung pada usaha kedua orang."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

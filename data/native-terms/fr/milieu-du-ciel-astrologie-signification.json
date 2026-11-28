@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "milieu du ciel astrologie",
+ "volume": "1000",
+ "slug": "milieu-du-ciel-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Milieu du Ciel en astrologie : que signifie-t-il ?",
+ "description": "Le Milieu du Ciel est le point le plus haut de ton thème : ta vocation et ton image publique. Expliqué simplement.",
+ "intro": "Le Milieu du Ciel est le point le plus haut du ciel à ta naissance. Il parle de ta vocation, de ta réputation et de ce que tu veux accomplir.",
+ "sections": [
+  {
+   "h2": "C’est quoi, le Milieu du Ciel ?",
+   "paragraphs": [
+    "Pense à la carte de visite de ton métier : c’est ce que les autres retiennent de toi. Le Milieu du Ciel montre l’image publique que tu construis."
+   ]
+  },
+  {
+   "h2": "Comment le repérer ?",
+   "paragraphs": [
+    "Demande-toi pour quelles réussites tu te sens fier et quel rôle te va naturellement. Pour le calculer, il faut ta date, ton heure et ton lieu de naissance."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Camille a son Milieu du Ciel en Vierge. Au bureau, on la voit comme sérieuse et fiable, et on lui confie les dossiers délicats."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Le Milieu du Ciel est-il identique au signe solaire ?",
+   "a": "Non : le signe solaire est ton essence, le Milieu du Ciel est ton but et ton image."
+  },
+  {
+   "q": "Faut-il l’heure exacte ?",
+   "a": "Oui, sinon le signe du Milieu du Ciel peut se tromper."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

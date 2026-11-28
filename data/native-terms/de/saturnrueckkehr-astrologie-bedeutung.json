@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "saturnrückkehr",
+ "volume": "1000",
+ "slug": "saturnrueckkehr-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturnrückkehr: Was bedeutet sie?",
+ "description": "Die Saturnrückkehr kommt um das 29. Lebensjahr und ist eine Zeit der Bilanz. Einfach erklärt, mit Beispiel.",
+ "intro": "Etwa mit 29 Jahren kehrt Saturn an die Stelle zurück, an der er bei deiner Geburt stand. Viele spüren dann: Jetzt muss ich mein Leben ehrlich prüfen.",
+ "sections": [
+  {
+   "h2": "Was passiert da?",
+   "paragraphs": [
+    "Wie eine große Inventur im Laden: Was funktioniert, bleibt, was nicht, fliegt raus. Saturn braucht rund 29 Jahre für eine Runde."
+   ]
+  },
+  {
+   "h2": "Woran merke ich es?",
+   "paragraphs": [
+    "Zweifel am Job, an der Beziehung oder am Wohnort. Oft ist es unbequem, aber danach fühlst du dich klarer und erwachsener."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Mit 29 kündigt Markus seinen sicheren Bürojob, weil er ihn nie wollte. Zwei Jahre später führt er eine kleine Schreinerei und ist zufrieden."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wann ist die zweite Saturnrückkehr?",
+   "a": "Etwa mit 58 bis 60 Jahren."
+  },
+  {
+   "q": "Ist das eine Krise?",
+   "a": "Eher ein Reifeschritt: anstrengend, aber meist heilsam."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

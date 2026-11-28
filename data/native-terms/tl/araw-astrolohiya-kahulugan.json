@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "araw astrolohiya",
+ "volume": "1000",
+ "slug": "araw-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Araw sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Ipinapakita ng Araw ang pangunahing pagkatao mo at kung paano ka kumikinang. Simple, may halimbawa.",
+ "intro": "Ang Araw ang sentro ng birth chart mo, ang tunay na ikaw. Ang sign kung nasaan ang Araw sa araw ng kapanganakan mo ang sun sign mo.",
+ "sections": [
+  {
+   "h2": "Ano ang ginagawa ng Araw?",
+   "paragraphs": [
+    "Isipin ang ilaw sa sala na pinagtitipunan ng lahat. Ganyan ang Araw sa iyo: pinagmumulan ng lakas, tiwala sa sarili, at direksyon sa buhay."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Kapag ginagawa mo ang ano, pakiramdam mo ay ikaw na ikaw at masigla ka? Doon gumagana ang Araw. Kung lagi kang pagod, baka malayo ka na sa totoong sarili mo."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Ipinanganak si Mika noong Agosto 1, kaya nasa Leo ang Araw niya. Kumikinang siya kapag kasama ang maraming tao at madali siyang magbigay-sigla sa barkada."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Paano ko makikita ang sun sign ko?",
+   "a": "Tingnan ang petsa ng kapanganakan mo at alamin kung anong sign ang Araw noon."
+  },
+  {
+   "q": "Ang sun sign ba ang buong pagkatao ko?",
+   "a": "Hindi, bahagi lang ito. Humuhubog din ang Buwan at ang Rising sign."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

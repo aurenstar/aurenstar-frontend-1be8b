@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "karşıt açı astroloji",
+ "volume": "1000",
+ "slug": "karsit-aci-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Karşıt açı (karşıtlık) nedir? Anlamı",
+ "description": "Karşıtlık, iki gezegenin karşılıklı durmasıdır. Basit anlatım ve örnek.",
+ "intro": "Karşıtlık, 180 derecelik açıdır: iki gezegen haritanın iki ucundan birbirine bakar. Seni iki farklı yöne çeker.",
+ "sections": [
+  {
+   "h2": "Ne anlama gelir?",
+   "paragraphs": [
+    "Tahterevalli gibi: bir uç yukarıda, bir uç aşağıda. İş ile dinlenme gibi iki ihtiyaç arasında denge bulmak gerekir."
+   ]
+  },
+  {
+   "h2": "Nasıl hissedilir?",
+   "paragraphs": [
+    "Bir an birine, bir an diğerine yöneliyorsun; ilişkilerde de aynı özellikleri başkalarında görüyorsun. Karşıtlık iki tarafı da görmeyi öğretir."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Nur'un Güneş'i Ay'ının karşısında: aklı kariyer istiyor, kalbi aile. Dönüşümlü çalışmayı öğrenince esnek saatli bir iş buldu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Karşıtlık kötü mü?",
+   "a": "Hayır, denge ve anlayış kazanma fırsatıdır."
+  },
+  {
+   "q": "Kareden farkı ne?",
+   "a": "Karşıtlıkta zıt yönlere çekilirsin, karede dik açıdan baskı vardır."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

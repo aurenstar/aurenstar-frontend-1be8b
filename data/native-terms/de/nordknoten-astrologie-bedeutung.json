@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "nordknoten",
+ "volume": "1000",
+ "slug": "nordknoten-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nordknoten: Was bedeutet er im Horoskop?",
+ "description": "Der Nordknoten zeigt, wohin du dich entwickeln sollst. Einfach erklärt, mit Beispiel.",
+ "intro": "Der Nordknoten ist ein Punkt, der den Weg deiner Entwicklung zeigt. Er beschreibt, was du in diesem Leben noch lernen möchtest.",
+ "sections": [
+  {
+   "h2": "Was ist der Nordknoten?",
+   "paragraphs": [
+    "Wie ein Kompass, der nach vorn zeigt: nicht bequem, aber richtig. Es ist kein Planet, sondern ein Punkt der Mondbahn."
+   ]
+  },
+  {
+   "h2": "Wie spüre ich ihn?",
+   "paragraphs": [
+    "Er fühlt sich neu und etwas ungewohnt an. Je öfter du ihm folgst, desto stimmiger wird dein Leben."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Der Nordknoten von Tim liegt im Zeichen der Gemeinschaft. Er arbeitete früher allein, genießt aber heute die Arbeit in einer Gruppe."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Was ist das Gegenstück?",
+   "a": "Der Südknoten, der für Gewohntes und Vergangenes steht."
+  },
+  {
+   "q": "Muss ich ihm folgen?",
+   "a": "Nein, aber er zeigt, wo Wachstum auf dich wartet."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

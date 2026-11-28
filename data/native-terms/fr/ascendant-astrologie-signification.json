@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "ascendant astrologie",
+ "volume": "1000",
+ "slug": "ascendant-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ascendant en astrologie : que signifie-t-il ?",
+ "description": "L’ascendant est le signe qui se levait à l’horizon à ta naissance et colore ta première impression. Expliqué simplement, avec un exemple.",
+ "intro": "Ton ascendant est le signe qui montait à l’horizon est à l’instant de ta naissance. Il décrit l’image que tu donnes en arrivant quelque part et ta manière d’aborder les situations nouvelles.",
+ "sections": [
+  {
+   "h2": "C’est quoi, l’ascendant ?",
+   "paragraphs": [
+    "Pense à la vitrine d’un magasin : c’est ce qu’on voit avant d’entrer. L’ascendant change environ toutes les deux heures, donc deux personnes nées le même jour peuvent en avoir un très différent."
+   ]
+  },
+  {
+   "h2": "Comment le trouver ?",
+   "paragraphs": [
+    "Il te faut ta date, ton lieu et ton heure de naissance, la plus précise possible. Un calculateur gratuit te donne le résultat en quelques secondes."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Camille est Cancer, mais son ascendant est Bélier. Au premier abord, on la trouve directe et pleine d’énergie ; ses amis, eux, connaissent sa douceur."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "L’ascendant est-il plus important que le signe solaire ?",
+   "a": "Non, ils se complètent : le signe solaire est ton fond, l’ascendant ta façade."
+  },
+  {
+   "q": "Peut-on connaître son ascendant sans l’heure de naissance ?",
+   "a": "Pas avec précision, car il change de signe toutes les deux heures environ."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

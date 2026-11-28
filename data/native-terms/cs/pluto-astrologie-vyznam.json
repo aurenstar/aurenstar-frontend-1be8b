@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "pluto astrologie",
+ "volume": "1000",
+ "slug": "pluto-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pluto v astrologii: co znamená?",
+ "description": "Pluto ukazuje, kde se hluboce proměňujete a začínáte znovu. Jednoduše s příkladem.",
+ "intro": "Pluto je planeta hluboké proměny, moci a znovuzrození. V horoskopu vidíte, kde musí něco skončit, aby mohlo vyrůst něco nového.",
+ "sections": [
+  {
+   "h2": "Co dělá Pluto?",
+   "paragraphs": [
+    "Představte si úklid přeplněného půdního prostoru: pustit věci je těžké, ale potom je místo. Tak působí Pluto."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "V které oblasti cítíte silnou touhu po všem, nebo po ničem? Tam působí Pluto. Krize jsou těžké, ale udělají vás silnějšími."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Pluto v domě práce: Jana přijde o práci, zjistí, co opravdu chce, a vybuduje si úplně nový život."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak najdu své Pluto?",
+   "a": "Z data narození zjistíte znamení Pluta. V jednom znamení zůstává od dvanácti do třiceti let."
+  },
+  {
+   "q": "Je Pluto strašidelné?",
+   "a": "Ne, žádá upřímnost. Kdo se odváží pustit, dostane velkou sílu zpět."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

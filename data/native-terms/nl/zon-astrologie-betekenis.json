@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "zon astrologie",
+ "volume": "1000",
+ "slug": "zon-astrologie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "De zon in de astrologie: wat betekent het?",
+ "description": "De zon laat zien wie je diep vanbinnen bent en waar je energie vandaan komt. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "De zon is het hart van je geboortekaart: je kern, je wil en je levenskracht. Je zonneteken is het teken dat de meeste mensen van zichzelf kennen.",
+ "sections": [
+  {
+   "h2": "Wat doet de zon?",
+   "paragraphs": [
+    "Denk aan de zon boven je tuin: zonder haar groeit er niets. Zo geeft de zon in je kaart je basis en je drive."
+   ]
+  },
+  {
+   "h2": "Hoe merk je het?",
+   "paragraphs": [
+    "Wanneer voel je je echt jezelf en vol energie? Dan is je zon aan het werk. Je geboortedatum wijst je zonneteken aan."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Zon in Leeuw: Jan wil gezien worden, is warm en royaal, en bloeit op met een beetje applaus."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is mijn zonneteken alles?",
+   "a": "Nee, het is je kern. Maan en ascendant kleuren de rest van je karakter."
+  },
+  {
+   "q": "Hoe vind ik mijn zon?",
+   "a": "Kijk naar je geboortedatum: het teken van die dag is je zonneteken."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

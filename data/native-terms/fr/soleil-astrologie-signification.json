@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "soleil astrologie",
+ "volume": "1000",
+ "slug": "soleil-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Le Soleil en astrologie : que signifie ton signe solaire ?",
+ "description": "Le Soleil représente ton essence, ton identité et ce qui te donne de la vitalité. Expliqué simplement, avec un exemple.",
+ "intro": "Le Soleil est le centre de ton thème et dit qui tu es au fond. Ton signe solaire est le signe où se trouvait le Soleil le jour de ta naissance.",
+ "sections": [
+  {
+   "h2": "Que fait le Soleil ?",
+   "paragraphs": [
+    "Pense au vrai soleil : tout tourne autour de lui et il donne la vie. Dans ton thème, il est ton noyau, ta motivation et ce qui te fait te sentir vivant."
+   ]
+  },
+  {
+   "h2": "Comment le reconnaître ?",
+   "paragraphs": [
+    "Regarde quelles activités te donnent de l’énergie et où tu te sens vraiment toi-même. C’est ton signe solaire, nuancé par la Lune et l’ascendant."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Valérie est née avec le Soleil en Lion. Elle a besoin de briller et d’être reconnue, et elle s’éteint si personne ne la voit."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Comment connaître mon signe solaire ?",
+   "a": "Avec ta date de naissance seule, sans heure ni lieu."
+  },
+  {
+   "q": "Le Soleil, c’est mon horoscope ?",
+   "a": "C’est la base de l’horoscope des magazines, mais le thème complet compte bien d’autres points."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

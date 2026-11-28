@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "Neptú astrologia",
+ "volume": "1000",
+ "slug": "neptu-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptú en astrologia: què significa?",
+ "description": "Neptú mostra la imaginació, els somnis i la intuïció, però també la boira. Explicat fàcil i amb exemple.",
+ "intro": "Neptú és el planeta de la imaginació, els somnis i la compassió. Allà on és a la teva carta, tot és més suau i més difús, i és fàcil somiar, però també enganyar-se.",
+ "sections": [
+  {
+   "h2": "Què fa Neptú?",
+   "paragraphs": [
+    "Imagina conduir enmig de la boira: és bonic i misteriós, però no veus gaire lluny. Així és Neptú, desperta la fantasia i treu nitidesa."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "En quin àmbit somnies, sents més del que saps explicar o costa veure les coses tal com són? Allà hi ha Neptú. Ajuda comprovar els fets."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "La Marta té Neptú a la casa de l’amor. És molt tendra i entén els altres, però en qui estima només hi veu el bo, així que convé demanar també l’opinió d’una amiga."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quant temps es queda Neptú en un signe?",
+   "a": "Uns catorze anys, per això el comparteix tota una generació."
+  },
+  {
+   "q": "Neptú és dolent?",
+   "a": "No, dona art i compassió. Només necessita una mica de realitat com a àncora."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

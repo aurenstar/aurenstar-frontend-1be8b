@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "üçgen açı astroloji",
+ "volume": "1000",
+ "slug": "ucgen-aci-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Üçgen açı (trigon) nedir? Anlamı",
+ "description": "Üçgen, 120 derecelik kolay bir açıdır: doğal yetenek. Basit anlatım ve örnek.",
+ "intro": "Üçgen, gezegenler arasında 120 derecelik açıdır. İki enerji çaba harcamadan birbirine yardım eder.",
+ "sections": [
+  {
+   "h2": "Ne verir?",
+   "paragraphs": [
+    "Nehirdeki akıntı gibi: kürek çekmeden su seni taşır. Doğuştan gelen yeteneklerdir."
+   ]
+  },
+  {
+   "h2": "Nasıl fark edilir?",
+   "paragraphs": [
+    "Bir şeyi kolay yaparsın ve bunun nadir bir yetenek olduğunu fark etmezsin. Tek sorun, çaba harcanmayınca gelişmemesidir."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Elif'in Venüs'ü Jüpiter ile üçgen: kolay arkadaş edinir, insanlar yanında rahattır. Organizasyon işlerine yöneldi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Üçgen hep şans mı?",
+   "a": "Kolaylıktır; şans, harekete geçince gelir."
+  },
+  {
+   "q": "Sekstilden farkı ne?",
+   "a": "Üçgen doğal yetenek, sekstil ise küçük bir adım gerektirir."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

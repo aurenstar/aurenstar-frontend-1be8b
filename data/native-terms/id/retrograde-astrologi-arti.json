@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "retrograde",
+ "volume": "1000",
+ "slug": "retrograde-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retrograde: apa artinya planet mundur?",
+ "description": "Retrograde adalah saat planet tampak bergerak mundur dari bumi. Biasanya waktu yang baik untuk meninjau ulang, bukan terburu-buru.",
+ "intro": "Retrograde berarti planet terlihat bergerak mundur di langit. Sebenarnya ia tidak mundur, hanya tampak begitu dari bumi.",
+ "sections": [
+  {
+   "h2": "Apa itu retrograde?",
+   "paragraphs": [
+    "Bayangkan Anda di kereta dan kereta di sebelah berjalan lebih lambat, sehingga tampak bergerak mundur. Retrograde adalah ilusi seperti itu, tapi suasananya dianggap nyata."
+   ]
+  },
+  {
+   "h2": "Bagaimana terasa?",
+   "paragraphs": [
+    "Hal-hal lama muncul kembali: mantan teman, urusan tertunda, rencana lama. Lebih baik memeriksa ulang daripada memulai hal besar yang baru."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Saat Merkurius retrograde, teman lama Budi menghubunginya dan proyek yang sempat berhenti jalan lagi. Kali ini ia membaca kontrak dengan teliti sebelum tanda tangan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Apakah retrograde itu buruk?",
+   "a": "Tidak. Ia mengajak Anda melambat, meninjau, dan memperbaiki."
+  },
+  {
+   "q": "Apa yang sebaiknya dihindari saat Merkurius retrograde?",
+   "a": "Menandatangani kontrak besar tanpa teliti dan mengirim pesan penting tanpa membaca ulang."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

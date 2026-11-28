@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "güney ay düğümü",
+ "volume": "1000",
+ "slug": "guney-ay-dugumu-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Güney Ay Düğümü nedir? Anlamı",
+ "description": "Güney Düğüm, geçmişten gelen yeteneklerini ve alışkanlıklarını gösterir. Basit anlatım.",
+ "intro": "Güney Ay Düğümü, Kuzey'in tam karşısındadır; zaten bildiğin ve otomatik yaptığın şeyleri anlatır. Konfor alanındır.",
+ "sections": [
+  {
+   "h2": "Ne gösterir?",
+   "paragraphs": [
+    "Eski ve rahat bir ceket gibi: alışkın ve rahat, ama içinde fazla kalmak olabilir. Yeteneklerini de, eski alışkanlıkları da hatırlatır."
+   ]
+  },
+  {
+   "h2": "Nasıl fark edilir?",
+   "paragraphs": [
+    "Neyi kolay yapıyorsun ama gelişmiyorsun? İşte Güney Düğüm. Ona güvenebilirsin ama Kuzey'e doğru ilerlemelisin."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Emre'nin Güney Düğümü Terazi'de: harika bir arabulucu, ama herkesi memnun etmeye alışmış. Büyümek için kendi kararlarını vermeyi öğrenmeli."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Güney Düğüm kötü mü?",
+   "a": "Hayır, güçlü yanlarındır. Kötü olan, onlarda takılıp kalmaktır."
+  },
+  {
+   "q": "Düğümler neden hep karşılıklı?",
+   "a": "Aynı eksendedirler: Güney, Kuzey'in tam karşı noktasındadır."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

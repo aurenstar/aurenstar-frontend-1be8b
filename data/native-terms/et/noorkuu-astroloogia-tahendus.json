@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "noorkuu astroloogia",
+ "volume": "1000",
+ "slug": "noorkuu-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Noorkuu astroloogias: mida see tähendab?",
+ "description": "Noorkuu on aeg uuteks algusteks ja kavatsusteks. Lihtsalt seletatud ja näitega.",
+ "intro": "Noorkuu on hetk, mil Kuu ja Päike on samas märgis, nii et Kuud taevas ei näe. Astroloogias on see hea päev millegi uue alustamiseks.",
+ "sections": [
+  {
+   "h2": "Mis on noorkuu?",
+   "paragraphs": [
+    "Kujuta ette tühja vihikulehte kooliaasta alguses. Midagi pole veel kirjas, kõik on võimalik. Nii mõjub noorkuu."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Noorkuu ajal tunnevad inimesed sageli tahtmist otsast alustada, kodu korda teha või midagi otsustada. Hea on kirjutada soovid üles ja mitte kiirustada."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Mari kirjutas noorkuul üles kolm eesmärki kuuks ajaks: iga õhtu jalutada, õppida selgeks laul ja helistada vanale sõbrannale. Järgmise täiskuuks oli kõik tehtud."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kui tihti noorkuu on?",
+   "a": "Umbes kord kuus, iga 29 päeva järel."
+  },
+  {
+   "q": "Kas pean midagi tegema?",
+   "a": "Ei, kohustust pole. See on lihtsalt hea võimalus peatuda ja mõelda, mida sa soovid."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

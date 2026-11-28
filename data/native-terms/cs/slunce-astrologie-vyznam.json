@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "slunce astrologie",
+ "volume": "1000",
+ "slug": "slunce-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Slunce v astrologii: co znamená?",
+ "description": "Slunce ukazuje, kým jste hluboko uvnitř a odkud čerpáte energii. Jednoduše s příkladem.",
+ "intro": "Slunce je srdce vašeho horoskopu: vaše jádro, vůle a životní síla. Sluneční znamení je to, které o sobě zná většina lidí.",
+ "sections": [
+  {
+   "h2": "Co dělá Slunce?",
+   "paragraphs": [
+    "Představte si slunce nad zahradou: bez něj nic neroste. Stejně tak Slunce v horoskopu dává základ a hnací sílu."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "Kdy se cítíte opravdu sami sebou a plní energie? Tehdy pracuje vaše Slunce. Znamení určuje datum narození."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Slunce ve Lvu: Jana chce být vidět, je vřelá a štědrá a rozkvétá z trochy potlesku."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je sluneční znamení všechno?",
+   "a": "Ne, je to jádro. Měsíc a ascendent dobarvují zbytek povahy."
+  },
+  {
+   "q": "Jak najdu své Slunce?",
+   "a": "Podívejte se na datum narození: znamení toho dne je vaše sluneční znamení."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

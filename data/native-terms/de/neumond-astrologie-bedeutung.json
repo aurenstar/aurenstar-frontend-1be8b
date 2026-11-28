@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "neumond astrologie",
+ "volume": "1000",
+ "slug": "neumond-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neumond in der Astrologie: Was bedeutet er?",
+ "description": "Der Neumond ist ein Neubeginn, ideal für Wünsche und Vorsätze. Einfach erklärt, mit Beispiel.",
+ "intro": "Beim Neumond steht der Mond zwischen Erde und Sonne und ist nicht zu sehen. Astrologisch ist es die Zeit, etwas Neues zu beginnen.",
+ "sections": [
+  {
+   "h2": "Was ist ein Neumond?",
+   "paragraphs": [
+    "Wie eine leere Seite im Notizbuch: Du kannst neu anfangen. Etwa alle vier Wochen kommt ein Neumond."
+   ]
+  },
+  {
+   "h2": "Wie nutze ich ihn?",
+   "paragraphs": [
+    "Schreib Wünsche oder Vorsätze auf und beginne klein. Das Zeichen des Neumondes gibt das Thema vor."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Beim Neumond im Steinbock schreibt Jan drei Ziele fürs Jahr auf und startet gleich mit dem ersten."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie oft gibt es Neumond?",
+   "a": "Etwa alle 29 Tage."
+  },
+  {
+   "q": "Muss ich Rituale machen?",
+   "a": "Nein, ein ruhiger Moment zum Nachdenken genügt."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

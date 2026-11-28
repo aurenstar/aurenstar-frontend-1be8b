@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "urano astrología",
+ "volume": "1000",
+ "slug": "urano-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Urano en astrología: qué significa en tu carta",
+ "description": "Urano trae cambios, originalidad y ganas de libertad. Explicado fácil, con ejemplo.",
+ "intro": "Urano es el planeta de la sorpresa, el cambio y la libertad. En tu carta muestra dónde rompes moldes y dónde la vida da giros inesperados.",
+ "sections": [
+  {
+   "h2": "¿Qué hace Urano?",
+   "paragraphs": [
+    "Es como un corte de luz en casa: de pronto todo se apaga y te obliga a ver las cosas de otra manera. Urano sacude lo viejo para dejar sitio a lo nuevo."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Donde está Urano tiendes a ser distinto y a odiar las normas rígidas. También hay giros bruscos que, con el tiempo, resultan liberadores."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Gabriel tiene Urano en la casa del trabajo. Deja un empleo estable para montar su propio taller, y es más feliz que nunca."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Cuánto tarda Urano en dar la vuelta?",
+   "a": "Unos 84 años, y pasa unos 7 años en cada signo."
+  },
+  {
+   "q": "¿Urano es un planeta personal?",
+   "a": "No, es un planeta generacional: mucha gente de tu edad lo comparte en el mismo signo."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

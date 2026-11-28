@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "pluton astrologia",
+ "volume": "1000",
+ "slug": "pluton-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pluton w astrologii: co oznacza?",
+ "description": "Pluton pokazuje, gdzie przechodzisz głęboką przemianę. Wyjaśnione prosto, z przykładem.",
+ "intro": "Pluton to planeta głębokich zmian, siły i odrodzenia. W horoskopie widać, gdzie coś musi się skończyć, żebyś mógł zacząć od nowa.",
+ "sections": [
+  {
+   "h2": "Co robi Pluton?",
+   "paragraphs": [
+    "To jak porządne wiosenne porządki w piwnicy: wyrzucasz stare graty i nagle jest miejsce. Pluton usuwa to, co się wyczerpało."
+   ]
+  },
+  {
+   "h2": "Jak to zauważysz?",
+   "paragraphs": [
+    "W której dziedzinie życie co jakiś czas wywraca się do góry nogami, a ty wychodzisz z tego silniejszy? Tam działa Pluton."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Pluton w domu rodziny: po trudnym rozstaniu rodziców Kasia długo się odbudowuje, a potem staje się osobą, która potrafi ustawić granice i pomagać innym."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak długo Pluton stoi w znaku?",
+   "a": "Od kilkunastu do ponad dwudziestu lat, więc opisuje całe pokolenia."
+  },
+  {
+   "q": "Czy Pluton jest groźny?",
+   "a": "Nie, to siła, która boli na początku, ale prowadzi do prawdziwej przemiany."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

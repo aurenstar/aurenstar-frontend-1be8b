@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "sinastria",
+ "volume": "1000",
+ "slug": "sinastria-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sinastria: o que é e o que diz sobre o casal?",
+ "description": "A sinastria compara dois mapas astrais para entender a sintonia entre duas pessoas. Explicada de forma simples, com exemplo.",
+ "intro": "A sinastria coloca dois mapas astrais lado a lado para ver como as pessoas se encaixam. Ela mostra onde há harmonia e onde é preciso mais paciência e conversa.",
+ "sections": [
+  {
+   "h2": "O que é a sinastria?",
+   "paragraphs": [
+    "Imagine dois quebra-cabeças sobrepostos: em alguns pontos as peças se encaixam de primeira, em outros é preciso ajustar. A sinastria mostra os dois casos."
+   ]
+  },
+  {
+   "h2": "Como ler?",
+   "paragraphs": [
+    "Olha-se como os planetas de um tocam os do outro. Vênus e Marte falam de atração, a Lua fala de sintonia emocional."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Camila e Rafael discutem muito por causa de dinheiro. Na sinastria, o Saturno dela toca a Vênus dele: eles aprendem a conversar sobre gastos com calma e o casal fica mais forte."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "A sinastria diz se vai durar?",
+   "a": "Não, ela mostra tendências; o que decide são as escolhas dos dois."
+  },
+  {
+   "q": "Preciso da hora de nascimento dos dois?",
+   "a": "Ajuda bastante, mas só com a data já dá uma ideia."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

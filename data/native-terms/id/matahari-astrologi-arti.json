@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "matahari astrologi",
+ "volume": "1000",
+ "slug": "matahari-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Matahari dalam astrologi: apa artinya?",
+ "description": "Matahari menunjukkan jati diri, semangat hidup, dan tujuan utama Anda. Penjelasan sederhana dengan contoh.",
+ "intro": "Matahari adalah pusat peta kelahiran. Ia menggambarkan identitas inti Anda dan cahaya yang ingin Anda tunjukkan pada dunia.",
+ "sections": [
+  {
+   "h2": "Apa fungsi Matahari?",
+   "paragraphs": [
+    "Bayangkan lampu utama di rumah: ia menerangi seisi ruangan dan semua orang menghadap ke sana. Matahari adalah lampu dalam diri yang menunjukkan siapa Anda."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Dalam kegiatan apa Anda merasa paling hidup? Di situ Matahari bersinar. Zodiaknya menunjukkan gaya Anda mengejar tujuan."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Matahari Dewi di Leo. Ia nyaman di depan banyak orang, suka menyemangati, dan ingin karyanya dihargai."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Apa beda zodiak matahari dan moon sign?",
+   "a": "Zodiak matahari adalah identitas luar dan tujuan hidup, moon sign adalah perasaan di dalam hati."
+  },
+  {
+   "q": "Bagaimana kalau Matahari lemah?",
+   "a": "Bisa membuat kurang percaya diri. Menghargai usaha sendiri dan bergerak di bawah sinar pagi membantu."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

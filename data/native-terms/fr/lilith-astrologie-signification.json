@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "lilith astrologie",
+ "volume": "1000",
+ "slug": "lilith-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith en astrologie : que signifie la Lune Noire ?",
+ "description": "Lilith représente ton côté sauvage, ce que tu refoules et ton indépendance. Expliqué simplement, avec un exemple.",
+ "intro": "Lilith, ou Lune Noire, est un point du thème qui parle de ton côté libre et rebelle. Elle montre ce que tu as refoulé pour entrer dans le moule.",
+ "sections": [
+  {
+   "h2": "C’est quoi, Lilith ?",
+   "paragraphs": [
+    "Imagine le débarras où tu ranges ce que tu ne veux pas montrer. Lilith, c’est ce débarras : ta force y est cachée, avec ta colère, en attente d’être acceptée."
+   ]
+  },
+  {
+   "h2": "Comment la ressentir ?",
+   "paragraphs": [
+    "Elle se voit dans ce que tu t’es interdit ou ce qu’on t’a dit de ne pas faire. Quand tu l’acceptes, tu gagnes en assurance et en liberté."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Inès a Lilith en Bélier et s’est toujours tue. Quand elle dit enfin ce qu’elle pense, ses amis la respectent davantage."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Lilith est-elle une planète ?",
+   "a": "Non, c’est un point mathématique de l’orbite de la Lune."
+  },
+  {
+   "q": "Lilith est-elle mauvaise ?",
+   "a": "Non, c’est de l’énergie refoulée ; acceptée, elle devient une force."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

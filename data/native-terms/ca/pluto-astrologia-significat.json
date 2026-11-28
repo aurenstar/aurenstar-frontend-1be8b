@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "Plutó astrologia",
+ "volume": "1000",
+ "slug": "pluto-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Plutó en astrologia: què significa?",
+ "description": "Plutó mostra la transformació profunda, el poder i un nou començament. Explicat fàcil i amb exemple.",
+ "intro": "Plutó és el planeta dels canvis profunds. Allà on és a la teva carta, alguna cosa vella ha de marxar perquè en neixi una de més forta.",
+ "sections": [
+  {
+   "h2": "Què fa Plutó?",
+   "paragraphs": [
+    "Imagina un armari vell que buides del tot un cop l’any. Fa mal llençar coses, però després l’espai queda net. Així és Plutó."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "En quin àmbit vius grans crisis després de les quals ets diferent? Allà actua Plutó. Com més fàcilment deixes anar el vell, més ràpid comença la renovació."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "En Marc té Plutó a la casa dels diners. Després d’una gran pèrdua aprèn a estalviar i a construir un nou inici, i avui és molt més segur que abans."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quant temps es queda Plutó en un signe?",
+   "a": "Entre dotze i trenta anys, per això el comparteix tota una generació."
+  },
+  {
+   "q": "Plutó fa por?",
+   "a": "No, només és sincer. Els seus canvis fan mal, però deixen força."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

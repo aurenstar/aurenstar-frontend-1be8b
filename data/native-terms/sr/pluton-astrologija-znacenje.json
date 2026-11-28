@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "pluton astrologija",
+ "volume": "1000",
+ "slug": "pluton-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pluton u astrologiji: šta znači?",
+ "description": "Pluton pokazuje duboku transformaciju, moć i novi početak. Jednostavno objašnjeno, sa primerom.",
+ "intro": "Pluton je planeta dubokih promena. Tamo gde je u tvojoj karti, nešto staro mora da ode da bi se rodilo nešto snažnije.",
+ "sections": [
+  {
+   "h2": "Šta radi Pluton?",
+   "paragraphs": [
+    "Zamisli stari ormar koji jednom godišnje potpuno isprazniš. Bolno je da bacaš stvari, ali posle je prostor čist. Takav je Pluton."
+   ]
+  },
+  {
+   "h2": "Kako to primećuješ?",
+   "paragraphs": [
+    "U kojoj oblasti doživljavaš velike krize posle kojih si drugačiji? Tu radi Pluton. Što lakše pustiš staro, to brže počinje obnova."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Marko ima Pluton u kući novca. Posle velikog gubitka nauči da štedi i da gradi nov početak, i danas je mnogo sigurniji nego ranije."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko dugo Pluton ostaje u znaku?",
+   "a": "Od dvanaest do trideset godina, zato ga deli čitava generacija."
+  },
+  {
+   "q": "Da li je Pluton strašan?",
+   "a": "Ne, samo je iskren. Njegove promene bole, ali ostavljaju snagu."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

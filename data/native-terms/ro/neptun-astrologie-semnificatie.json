@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "neptun astrologie",
+ "volume": "1000",
+ "slug": "neptun-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptun în astrologie: ce înseamnă?",
+ "description": "Neptun arată unde visezi, crezi și te poți înșela ușor. Explicat simplu, cu exemplu.",
+ "intro": "Neptun este planeta viselor, a intuiției și a ceții. În hartă vezi unde ești inspirat și unde vezi lucrurile așa cum ți-ai dori să fie.",
+ "sections": [
+  {
+   "h2": "Ce face Neptun?",
+   "paragraphs": [
+    "E ca ceața de dimineață peste lac: arată frumos, dar nu poți judeca distanțele. Neptun estompează limitele și trezește imaginația."
+   ]
+  },
+  {
+   "h2": "Cum observi?",
+   "paragraphs": [
+    "În ce domeniu te pierzi ușor în vis sau te lași păcălit? Acolo lucrează Neptun. Te ajută muzica, arta și liniștea."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Neptun în casa iubirii: Ioana vede în noul cunoscut un om ideal, iar după o lună își dă seama că e un om obișnuit. Învață să privească mai limpede, fără să-și piardă tandrețea."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Înseamnă Neptun înșelăciune?",
+   "a": "Nu mereu, dar te învață să verifici faptele și să nu te bazezi doar pe imaginație."
+  },
+  {
+   "q": "Cum folosesc bine Neptun?",
+   "a": "Prin creație, meditație și ajutorarea altora, unde sensibilitatea lui devine putere."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

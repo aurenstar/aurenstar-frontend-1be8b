@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "modalități cardinal fix mutabil astrologie",
+ "volume": "1000",
+ "slug": "modalitati-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Modalitățile în astrologie: cardinal, fix și mutabil",
+ "description": "Cele trei modalități arată cum începe, rezistă și se schimbă un semn. Explicat simplu, cu exemplu.",
+ "intro": "Zodiile se împart și în trei modalități: cardinală, fixă și mutabilă. Ele arată dacă un semn îi place să înceapă, să reziste sau să se adapteze.",
+ "sections": [
+  {
+   "h2": "Ce înseamnă modalitățile?",
+   "paragraphs": [
+    "Semnele cardinale (Berbec, Rac, Balanță, Capricorn) deschid anotimpul și pornesc cu elan ceva nou. Cele fixe (Taur, Leu, Scorpion, Vărsător) stau la mijlocul sezonului și țin direcția. Cele mutabile (Gemeni, Fecioară, Săgetător, Pești) încheie anotimpul și se adaptează ușor."
+   ]
+  },
+  {
+   "h2": "Cum observi?",
+   "paragraphs": [
+    "Întreabă-te ce îți iese cel mai bine: să începi, să duci până la capăt sau să schimbi planul din mers. Asta îți arată modalitatea."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Ioana, Balanță, deci cardinală, are în fiecare lună o idee nouă. Soțul ei Marius, Taur, deci fix, merge de ani de zile pe același drum și e mulțumit."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "E modalitatea mai importantă decât elementul?",
+   "a": "Nu, e doar al doilea mod de a descrie un semn; împreună cu elementul dă o imagine mai completă."
+  },
+  {
+   "q": "Este un semn fix încăpățânat?",
+   "a": "Adesea da, dar aceeași trăsătură aduce și loialitate și perseverență."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

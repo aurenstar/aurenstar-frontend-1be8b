@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "venus astrologie",
+ "volume": "1000",
+ "slug": "venus-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venus in der Astrologie: Was bedeutet sie?",
+ "description": "Venus zeigt, wie du liebst, was du schön findest und was dir Freude macht. Einfach erklärt, mit Beispiel.",
+ "intro": "Venus ist der Planet der Liebe, Schönheit und Werte. Sie zeigt, wie du Zuneigung gibst und bekommst.",
+ "sections": [
+  {
+   "h2": "Was macht Venus?",
+   "paragraphs": [
+    "Wie der Duft von frischem Kaffee: Er macht gemütlich. Venus erzählt von Geschmack, Genuss und Beziehungen."
+   ]
+  },
+  {
+   "h2": "Wie merke ich es?",
+   "paragraphs": [
+    "Was lässt dich verliebt fühlen: Worte, Geschenke, Zeit? Das passt zum Venuszeichen."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Venus im Stier: Hannah zeigt Liebe mit selbstgekochtem Essen und mag Ruhe und Verlässlichkeit."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie finde ich meine Venus?",
+   "a": "Mit dem Geburtsdatum bestimmst du ihr Zeichen."
+  },
+  {
+   "q": "Ist Venus nur für die Liebe zuständig?",
+   "a": "Nein, auch für Geld, Kunst und Genuss."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

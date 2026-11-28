@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "lilith astrología",
+ "volume": "1000",
+ "slug": "lilith-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith en astrología: qué es la Luna Negra y qué significa",
+ "description": "Lilith representa tu lado salvaje, lo que reprimes y tu independencia. Explicado fácil, con ejemplo.",
+ "intro": "Lilith, o Luna Negra, es un punto de tu carta que habla de tu lado más libre y rebelde. Muestra lo que has reprimido para encajar.",
+ "sections": [
+  {
+   "h2": "¿Qué es Lilith?",
+   "paragraphs": [
+    "Imagina el cuarto trastero de tu casa donde guardas lo que no quieres enseñar. Lilith es ese cuarto: allí está tu fuerza, y también tu rabia, esperando a ser aceptada."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Notas su efecto en las cosas que te prohibiste o te dijeron que no estaba bien. Cuando las aceptas, ganas seguridad y libertad."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Irene tiene Lilith en Aries y siempre se calló sus opiniones. Cuando por fin dice lo que piensa, sus amistades la respetan más."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Lilith es un planeta?",
+   "a": "No, es un punto matemático de la órbita de la Luna, no un cuerpo del cielo."
+  },
+  {
+   "q": "¿Lilith es mala?",
+   "a": "No, es energía reprimida; cuando la aceptas, se convierte en fuerza."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

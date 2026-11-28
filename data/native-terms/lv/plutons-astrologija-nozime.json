@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "plutons astroloģija",
+ "volume": "1000",
+ "slug": "plutons-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Plutons astroloģijā: ko tas nozīmē?",
+ "description": "Plutons rāda dziļu pārveidošanos, spēku un jaunu sākumu. Vienkārši izskaidrots, ar piemēru.",
+ "intro": "Plutons ir dziļu pārmaiņu planēta. Kur tas ir tavā kartē, tur kaut kam vecajam jāaiziet, lai dzimtu kaut kas stiprāks.",
+ "sections": [
+  {
+   "h2": "Ko dara Plutons?",
+   "paragraphs": [
+    "Iedomājies vecu skapi, ko reizi gadā pilnībā iztukšo. Sāpīgi mest ārā lietas, bet pēc tam telpa ir tīra. Tāds ir Plutons."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Kurā jomā tu piedzīvo lielas krīzes, pēc kurām esi cits? Tur darbojas Plutons. Jo vieglāk atlaid veco, jo ātrāk sākas atjaunošanās."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Marekam Plutons ir naudas mājā. Pēc liela zaudējuma viņš iemācās taupīt un veido jaunu sākumu, un šodien ir daudz drošāks nekā agrāk."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cik ilgi Plutons paliek vienā zīmē?",
+   "a": "No divpadsmit līdz trīsdesmit gadiem, tāpēc to dala visa paaudze."
+  },
+  {
+   "q": "Vai Plutons ir baisa?",
+   "a": "Nē, viņš vienkārši ir godīgs. Viņa pārmaiņas sāp, bet atstāj spēku."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

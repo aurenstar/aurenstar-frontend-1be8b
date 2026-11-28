@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "nów księżyca astrologia",
+ "volume": "1000",
+ "slug": "now-ksiezyca-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nów Księżyca w astrologii: co oznacza?",
+ "description": "Nów to dobry moment, by zacząć coś od nowa. Wyjaśnione prosto, z przykładem.",
+ "intro": "Nów jest wtedy, gdy Księżyc nie jest widoczny na niebie. W astrologii to symboliczny początek nowego cyklu i dobry czas na zamiary.",
+ "sections": [
+  {
+   "h2": "Co robi nów?",
+   "paragraphs": [
+    "To jak czysta kartka w zeszycie: możesz napisać na niej wszystko. Nów daje spokojny start i miejsce na nowe plany."
+   ]
+  },
+  {
+   "h2": "Jak to wykorzystać?",
+   "paragraphs": [
+    "Zapisz kilka konkretnych zamiarów na najbliższy miesiąc. Wybierz małe, wykonalne kroki, a nie wielkie obietnice."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Kasia w nów w znaku Wagi zapisuje, że chce częściej spotykać się z siostrą. Co tydzień umawia się na kawę i po miesiącu widzi różnicę."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak często jest nów?",
+   "a": "Mniej więcej co dwadzieścia dziewięć i pół dnia."
+  },
+  {
+   "q": "Czy trzeba robić coś szczególnego?",
+   "a": "Nie, wystarczy chwila ciszy i kartka z zamiarami."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "modalita zodiaco",
+ "volume": "1000",
+ "slug": "modalita-zodiaco-cardinali-fissi-mutevoli",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Le 3 modalità: cardinali, fissi e mutevoli",
+ "description": "Le modalità mostrano come i segni reagiscono: iniziano, mantengono o si adattano. Spiegazione facile, con esempio.",
+ "intro": "Ogni segno è cardinale, fisso o mutevole. Questa modalità indica il tuo stile nell'affrontare i cambiamenti.",
+ "sections": [
+  {
+   "h2": "Quali sono?",
+   "paragraphs": [
+    "I cardinali (Ariete, Cancro, Bilancia, Capricorno) iniziano; i fissi (Toro, Leone, Scorpione, Acquario) mantengono; i mutevoli (Gemelli, Vergine, Sagittario, Pesci) si adattano."
+   ]
+  },
+  {
+   "h2": "Come si riconoscono?",
+   "paragraphs": [
+    "Pensa a un progetto: c'è chi lo lancia, chi lo porta avanti con costanza e chi sistema i dettagli quando cambia il piano."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Nel gruppo di amici Marta (Ariete) lancia l'idea del viaggio, Dario (Toro) prenota e non cambia mai programma, Sofia (Pesci) si adatta a tutto."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Una modalità è meglio?",
+   "a": "No, il mondo ha bisogno di tutte e tre."
+  },
+  {
+   "q": "Come la scopro?",
+   "a": "Dal tuo segno solare, e dagli altri pianeti."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

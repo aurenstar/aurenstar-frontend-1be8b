@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "luna plină astrologie",
+ "volume": "1000",
+ "slug": "luna-plina-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Luna plină în astrologie: ce înseamnă?",
+ "description": "Luna plină e momentul în care ceva se coace și iese la iveală. Explicat simplu, cu exemplu.",
+ "intro": "Luna plină apare când Luna strălucește cu tot discul. În astrologie e apogeul ciclului: emoțiile cresc, iar ce ai început la Luna nouă iese la lumină.",
+ "sections": [
+  {
+   "h2": "Ce face Luna plină?",
+   "paragraphs": [
+    "E ca o lampă aprinsă într-o cameră întunecată: deodată vezi și harababura, și comorile. Luna plină arată ce funcționează și ce trebuie închis."
+   ]
+  },
+  {
+   "h2": "Cum observi?",
+   "paragraphs": [
+    "Unii dorm mai prost, sunt mai sensibili sau se enervează mai repede. E un timp bun să faci bilanțul și să lași ce nu mai e nevoie."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Ioana simte la Luna plină că s-a săturat să tot ajute o colegă. Îi spune calm și se simte ușurată."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Influențează Luna plină somnul?",
+   "a": "Mulți spun că da, așa că merită să te observi și să-ți faci o seară liniștită."
+  },
+  {
+   "q": "Ce fac la Luna plină?",
+   "a": "Fă bilanțul lunii, mulțumește pentru ce a reușit și lasă ce te apasă."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "trígono astrología",
+ "volume": "1000",
+ "slug": "trigono-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trígono en astrología: qué es y qué significa",
+ "description": "El trígono une dos planetas a 120 grados y marca un talento que fluye sin esfuerzo. Explicado fácil, con ejemplo.",
+ "intro": "El trígono es un ángulo de 120 grados entre dos planetas. Es el aspecto más fácil: dos energías que se apoyan sin esfuerzo.",
+ "sections": [
+  {
+   "h2": "¿Qué es un trígono?",
+   "paragraphs": [
+    "Es como ir cuesta abajo en bicicleta: avanzas casi sin pedalear. Los dos planetas colaboran y esa parte de ti funciona sola."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Tienes un talento natural que no sabes ni explicar. El riesgo es darlo por hecho y no usarlo, porque nada te obliga a esforzarte."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Javier tiene Mercurio en trígono con Júpiter. Aprende idiomas con una facilidad enorme, pero solo mejora de verdad cuando se pone metas."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Un trígono garantiza éxito?",
+   "a": "No, da facilidad; hay que usarla para que dé frutos."
+  },
+  {
+   "q": "¿Los trígonos son siempre del mismo elemento?",
+   "a": "Sí, los planetas suelen estar en signos del mismo elemento, como fuego con fuego."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

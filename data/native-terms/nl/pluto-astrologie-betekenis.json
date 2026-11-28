@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "pluto astrologie",
+ "volume": "1000",
+ "slug": "pluto-astrologie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pluto in de astrologie: wat betekent het?",
+ "description": "Pluto laat zien waar je diep verandert en opnieuw begint. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "Pluto is de planeet van diepe verandering, macht en wedergeboorte. In je kaart zie je waar iets moet eindigen zodat iets nieuws kan groeien.",
+ "sections": [
+  {
+   "h2": "Wat doet Pluto?",
+   "paragraphs": [
+    "Denk aan opruimen van een volle zolder: pijnlijk om los te laten, maar daarna is er ruimte. Zo werkt Pluto."
+   ]
+  },
+  {
+   "h2": "Hoe merk je het?",
+   "paragraphs": [
+    "Op welk gebied voel je een sterke drang om alles of niets te doen? Daar werkt Pluto. Crises voelen zwaar, maar maken je daarna sterker."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Pluto in het huis van werk: Jan verliest zijn baan, ontdekt wat hij echt wil en bouwt een heel nieuw leven op."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hoe vind ik mijn Pluto?",
+   "a": "Met je geboortedatum zie je het teken van Pluto. Hij blijft tussen de twaalf en dertig jaar in één teken."
+  },
+  {
+   "q": "Is Pluto eng?",
+   "a": "Nee, hij vraagt eerlijkheid. Wie durft los te laten, krijgt grote kracht terug."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

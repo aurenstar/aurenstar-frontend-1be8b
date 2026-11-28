@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "jaunatis astrologija",
+ "volume": "1000",
+ "slug": "jaunatis-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jaunatis astrologijoje: ką tai reiškia?",
+ "description": "Jaunatis yra laikas naujoms pradžioms ir ketinimams. Paprastai paaiškinta, su pavyzdžiu.",
+ "intro": "Jaunatis yra akimirka, kai Mėnulis ir Saulė yra tame pačiame ženkle, todėl Mėnulio danguje nesimato. Astrologijoje tai gera diena pradėti ką nors naujo.",
+ "sections": [
+  {
+   "h2": "Kas yra jaunatis?",
+   "paragraphs": [
+    "Įsivaizduok tuščią sąsiuvinio lapą mokslo metų pradžioje. Dar nieko neparašyta, viskas galima. Taip veikia jaunatis."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Apie jaunatį žmonės dažnai pajunta norą pradėti iš naujo, sutvarkyti namus ar ką nors nuspręsti. Gerai užsirašyti norus ir neskubėti."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Rūta per jaunatį užsirašė tris tikslus mėnesiui: kas vakarą pasivaikščioti, išmokti dainą ir paskambinti senai draugei. Iki kitos pilnaties viskas buvo padaryta."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kaip dažnai būna jaunatis?",
+   "a": "Maždaug kartą per mėnesį, kas apie 29 dienas."
+  },
+  {
+   "q": "Ar privalau ką nors daryti?",
+   "a": "Ne, tai ne prievolė. Tiesiog gera proga sustoti ir pagalvoti, ko nori."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

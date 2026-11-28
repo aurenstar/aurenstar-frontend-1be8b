@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "case astrologiche",
+ "volume": "1000",
+ "slug": "case-astrologiche-significato-semplice",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Case astrologiche: cosa sono e cosa significano?",
+ "description": "Le 12 case mostrano in quali ambiti della vita agiscono i pianeti: casa, lavoro, amore. Spiegazione facile con esempio.",
+ "intro": "Le case astrologiche sono 12 settori del tuo tema natale. Ognuna rappresenta un ambito della vita, come la casa, il lavoro, l'amore o il denaro.",
+ "sections": [
+  {
+   "h2": "Che cosa sono le case?",
+   "paragraphs": [
+    "Pensa a un appartamento con dodici stanze: cucina, studio, camera da letto. I pianeti sono gli ospiti, le case dicono in quale stanza si trovano."
+   ]
+  },
+  {
+   "h2": "Come si leggono?",
+   "paragraphs": [
+    "Guarda dove cadono i pianeti nel tuo tema: se ce ne sono molti in una casa, quell'ambito occuperà gran parte dei tuoi pensieri."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Chiara ha Venere nella casa del lavoro. Si fa voler bene dai colleghi e il suo ufficio è un posto sereno, quasi una seconda famiglia."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quante sono le case?",
+   "a": "Dodici, e partono dall'ascendente, che è l'inizio della prima casa."
+  },
+  {
+   "q": "Servono per forza l'ora di nascita?",
+   "a": "Sì, perché le case cambiano ogni pochi minuti."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

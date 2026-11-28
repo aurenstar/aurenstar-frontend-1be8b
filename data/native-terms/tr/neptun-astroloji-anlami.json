@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "neptün astroloji",
+ "volume": "1000",
+ "slug": "neptun-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptün astrolojide ne anlama gelir?",
+ "description": "Neptün hayal, sezgi ve yanılsamanın gezegenidir. Basit anlatım ve örnek.",
+ "intro": "Neptün ilhamın, hayal gücünün ve sisin gezegenidir. Rüyalarla ve manevi arayışla ilgilidir.",
+ "sections": [
+  {
+   "h2": "Neptün ne yapar?",
+   "paragraphs": [
+    "Göl üstündeki sis gibi: güzel ama hatlar belirsiz. Hayal gücü ve empati verir, ama yanılgıya da sürükleyebilir."
+   ]
+  },
+  {
+   "h2": "Nasıl fark edilir?",
+   "paragraphs": [
+    "Nerede idealleştiriyorsun ya da sınırlarını kaybediyorsun? Orada Neptün var. Yaratıcılığı ve sezgiyi de güçlendirir."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Neptün aşk evinde: Lale insanlarda hep iyiyi görür, bazen hayal kırıklığına uğrar. Ama başkalarının acısını ince hisseder ve psikolog oldu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Neptün aldatmaca mı?",
+   "a": "Gerçeği bulanıklaştırır ama ilham verir."
+  },
+  {
+   "q": "Nasıl çalışılır?",
+   "a": "Gerçekleri kontrol et, hayal gücünü yaratıcılığa yönlendir."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

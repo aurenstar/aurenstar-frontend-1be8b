@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "fullmåne astrologi",
+ "volume": "1000",
+ "slug": "fullmane-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Fullmåne i astrologin: vad betyder det?",
+ "description": "Fullmånen visar vad som är färdigt, vad som syns och vad du får släppa. Enkelt förklarat.",
+ "intro": "Vid fullmåne står månen mitt emot solen och är helt upplyst. I astrologin är det höjdpunkten i månens cykel.",
+ "sections": [
+  {
+   "h2": "Vad gör fullmånen?",
+   "paragraphs": [
+    "Tänk på att tända lampan i ett mörkt rum: plötsligt ser du allt. Så visar fullmånen vad som pågår."
+   ]
+  },
+  {
+   "h2": "Hur märker du det?",
+   "paragraphs": [
+    "Många känner sig känsligare, sover sämre eller har extra energi. Fullmånens tecken visar temat."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Fullmåne i Kräftan: Elin märker att hon har saknat sin familj i veckor och ringer äntligen sin mamma."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hur ofta är det fullmåne?",
+   "a": "Ungefär var 29,5:e dag, nästan varje månad."
+  },
+  {
+   "q": "Blir jag verkligen galen av fullmåne?",
+   "a": "Nej, men det är ett bra tillfälle att ärligt titta på sina känslor."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

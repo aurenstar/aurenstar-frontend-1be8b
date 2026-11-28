@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "modalitas zodiak kardinal tetap mutable",
+ "volume": "1000",
+ "slug": "modalitas-zodiak-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Tiga modalitas zodiak: kardinal, tetap, dan mutable",
+ "description": "Zodiak terbagi tiga modalitas: kardinal, tetap, dan mutable. Ini menunjukkan cara Anda menghadapi perubahan.",
+ "intro": "Dua belas zodiak dibagi tiga modalitas: kardinal yang memulai, tetap yang bertahan, dan mutable yang menyesuaikan. Tiap modalitas punya empat zodiak.",
+ "sections": [
+  {
+   "h2": "Apa arti modalitas?",
+   "paragraphs": [
+    "Bayangkan panitia acara pernikahan. Yang kardinal memulai rencana, yang tetap menjaganya sampai selesai, dan yang mutable membereskan semua di menit terakhir. Kardinal: Aries, Cancer, Libra, Capricorn. Tetap: Taurus, Leo, Scorpio, Aquarius. Mutable: Gemini, Virgo, Sagitarius, Pisces."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Apakah Anda paling kuat memulai sesuatu, mempertahankannya, atau menyesuaikannya dengan keadaan? Itulah modalitas Anda."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Rina berzodiak Capricorn, modalitas kardinal, jadi ia suka memulai proyek. Rekannya Sari berzodiak Aquarius, modalitas tetap, yang bertahan sampai proyek itu selesai."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Apakah modalitas sama cocok satu sama lain?",
+   "a": "Mudah memahami, tapi kelemahannya sama. Pasangan modalitas berbeda sering lebih seimbang."
+  },
+  {
+   "q": "Bagaimana mengetahui modalitas saya?",
+   "a": "Lihat zodiak matahari, bulan, dan ascendant, lalu hitung modalitas yang paling banyak."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

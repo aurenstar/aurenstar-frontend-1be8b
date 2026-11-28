@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "uranus astrologi",
+ "volume": "1000",
+ "slug": "uranus-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uranus i astrologin: vad betyder det?",
+ "description": "Uranus visar var du vill vara fri och var livet överraskar dig. Enkelt förklarat med exempel.",
+ "intro": "Uranus är planeten för förnyelse, frihet och det oväntade. I ditt horoskop ser du var du vågar vara annorlunda än alla andra.",
+ "sections": [
+  {
+   "h2": "Vad gör Uranus?",
+   "paragraphs": [
+    "Tänk på ett strömavbrott: plötsligt är allt annorlunda och du måste hitta på något nytt. Så skakar Uranus liv i dig."
+   ]
+  },
+  {
+   "h2": "Hur märker du det?",
+   "paragraphs": [
+    "Inom vilket område hatar du regler och vill gå din egen väg? Där verkar Uranus. Ofta kommer det med en chock, men efteråt känns det lättare."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Uranus i arbetets hus: Elin säger oväntat upp sig från sin fasta tjänst och startar eget. Läskigt, men det passar henne äntligen."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hur hittar jag min Uranus?",
+   "a": "Med ditt födelsedatum ser du vilket tecken Uranus stod i. Han stannar ungefär sju år i varje tecken."
+  },
+  {
+   "q": "Är Uranus farlig?",
+   "a": "Nej, han för med sig förändring. Den som följer med får frihet och nya idéer."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

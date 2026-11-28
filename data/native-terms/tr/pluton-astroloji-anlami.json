@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "plüton astroloji",
+ "volume": "1000",
+ "slug": "pluton-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Plüton astrolojide ne anlama gelir?",
+ "description": "Plüton derin dönüşümün ve yeniden doğuşun gezegenidir. Basit anlatım ve örnek.",
+ "intro": "Plüton en uzak ve en yavaş gezegendir. Krizlerle, güçle ve yenilenmeyle ilişkilidir.",
+ "sections": [
+  {
+   "h2": "Plüton ne yapar?",
+   "paragraphs": [
+    "Yangından sonra yeşeren genç orman gibi: eskimiş olanı yıkar ki yeniden doğabilesin."
+   ]
+  },
+  {
+   "h2": "Nasıl fark edilir?",
+   "paragraphs": [
+    "Hangi alanda büyük krizler yaşadın, \"eski hayat bitti\" dedin? Orada Plüton var."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Plüton aile evinde: ailesi boşanınca Hande çok değişti, ama bağımsız ve güçlü olmayı öğrendi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Plüton korkutucu mu?",
+   "a": "Derin değişimdir; sonrasında daha güçlü olursun."
+  },
+  {
+   "q": "Bir burçta ne kadar kalır?",
+   "a": "12 ile 30 yıl arası."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

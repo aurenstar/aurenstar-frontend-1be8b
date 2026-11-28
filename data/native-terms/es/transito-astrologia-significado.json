@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "tránsito astrología",
+ "volume": "1000",
+ "slug": "transito-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Tránsito en astrología: qué es y cómo te afecta",
+ "description": "Un tránsito es el paso de un planeta actual sobre un punto de tu carta natal. Explicado fácil, con ejemplo.",
+ "intro": "Los tránsitos son los planetas que se mueven hoy por el cielo y pasan sobre las posiciones de tu carta natal. Por eso se usan para ver qué temas se activan en cada época.",
+ "sections": [
+  {
+   "h2": "¿Qué es un tránsito?",
+   "paragraphs": [
+    "Tu carta natal es como el mapa de una ciudad, y los planetas del día son los coches que circulan por esas calles. Cuando uno pasa por una calle importante, ese tema de tu vida se mueve."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Los planetas rápidos dan cambios de humor o de ritmo de unos días. Los lentos, como Saturno o Plutón, marcan etapas largas de meses o años."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Elena tiene a Júpiter transitando su casa del trabajo. Durante meses le llegan ofertas, y por fin se atreve a cambiar de empleo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Un tránsito decide mi futuro?",
+   "a": "No, indica un clima del momento; lo que hagas con él depende de ti."
+  },
+  {
+   "q": "¿Cuánto dura un tránsito?",
+   "a": "Desde unas horas (la Luna) hasta varios años (Plutón), según el planeta."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

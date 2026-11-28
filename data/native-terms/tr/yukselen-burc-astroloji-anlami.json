@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "yükselen burç",
+ "volume": "1000",
+ "slug": "yukselen-burc-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Yükselen burç nedir, ne anlama gelir?",
+ "description": "Yükselen burç, ilk izlenimini ve dış görünüşünü anlatır. Basit anlatım ve örnekle.",
+ "intro": "Yükselen burç, doğduğun anda doğu ufkunda yükselen burçtur. İnsanlar seni ilk tanıdığında gördüğü yüzün budur.",
+ "sections": [
+  {
+   "h2": "Yükselen ne işe yarar?",
+   "paragraphs": [
+    "Bir dükkânın vitrini gibi düşün: içeri girmeden önce vitrine bakılır. Güneş burcun içindeki sensin, yükselen ise dışarıya yansıyan halin."
+   ]
+  },
+  {
+   "h2": "Nasıl bulunur?",
+   "paragraphs": [
+    "Doğum tarihi, yeri ve saati gerekir. Yükselen yaklaşık iki saatte bir değişir, bu yüzden saat önemli. Nüfus cüzdanı kaydından ya da annenden öğrenebilirsin."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Elif Yengeç burcu, evde şefkatli ve çekingen. Ama yükselen Koç olduğu için yeni tanıdıkları onu cesur ve girişken sanıyor."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Yükselen, Güneş burcundan önemli mi?",
+   "a": "Daha önemli değil, birbirini tamamlıyorlar: Güneş özün, yükselen kapağın."
+  },
+  {
+   "q": "Doğum saatimi bilmiyorsam ne olur?",
+   "a": "Yükselen tam bulunamaz. Güneş ve Ay burcuna bakabilirsin ya da saat düzeltme (rektifikasyon) yaptırabilirsin."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

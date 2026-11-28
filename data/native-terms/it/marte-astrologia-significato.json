@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "marte astrologia",
+ "volume": "1000",
+ "slug": "marte-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Marte in astrologia: cosa significa?",
+ "description": "Marte è energia, desiderio e coraggio. Mostra come agisci e come ti arrabbi. Spiegato semplice, con esempio.",
+ "intro": "Marte è il pianeta dell'azione. Il suo segno racconta come ti muovi, come difendi ciò che vuoi e come scarichi la rabbia.",
+ "sections": [
+  {
+   "h2": "Che cosa fa Marte?",
+   "paragraphs": [
+    "Pensa al motore di una macchina: senza non parti. Marte è quella spinta che ti fa dire \"adesso lo faccio\"."
+   ]
+  },
+  {
+   "h2": "Come si nota?",
+   "paragraphs": [
+    "Osserva come reagisci a una sfida: attacchi subito, aspetti, fai strategia? Quello è il tuo Marte."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Gabriele ha Marte in Ariete: parte sempre di slancio. A volte si stanca presto, ma con lo sport riesce a farsi bastare l'energia."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Marte vuol dire aggressività?",
+   "a": "Anche, ma soprattutto iniziativa e coraggio."
+  },
+  {
+   "q": "Come uso bene Marte?",
+   "a": "Con movimento fisico e obiettivi chiari."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

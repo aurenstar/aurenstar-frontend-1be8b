@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "giove astrologia",
+ "volume": "1000",
+ "slug": "giove-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Giove in astrologia: cosa significa?",
+ "description": "Giove porta fortuna, crescita e ottimismo. Mostra dove la vita ti sorride. Spiegato semplice, con esempio.",
+ "intro": "Giove è il pianeta della crescita e dell'abbondanza. Nel tuo tema mostra dove hai fiducia e dove le cose tendono ad ampliarsi.",
+ "sections": [
+  {
+   "h2": "Che cosa fa Giove?",
+   "paragraphs": [
+    "Come un amico generoso che dice \"ma sì, provaci!\". Giove ti dà fiducia e ti apre le porte."
+   ]
+  },
+  {
+   "h2": "Come si nota?",
+   "paragraphs": [
+    "Ci sono ambiti dove ti sembra che le cose vadano più facili, o dove trovi persone che ti aiutano."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Beatrice ha Giove nella casa degli studi: vince una borsa per l'estero e trova persone che la accolgono come in famiglia."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Giove porta sempre fortuna?",
+   "a": "Dà occasioni, ma esagerare può portare a eccessi."
+  },
+  {
+   "q": "Quanto resta in un segno?",
+   "a": "Circa un anno."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

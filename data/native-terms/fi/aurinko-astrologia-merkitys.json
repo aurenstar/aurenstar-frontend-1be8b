@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "aurinko astrologia",
+ "volume": "1000",
+ "slug": "aurinko-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aurinko astrologiassa: mitä se tarkoittaa?",
+ "description": "Aurinko kertoo, kuka olet syvimmiltäsi ja mistä energiasi tulee. Selitetty esimerkillä.",
+ "intro": "Aurinko on syntymäkarttasi sydän: ydinminäsi, tahtosi ja elinvoimasi. Aurinkomerkki on se merkki, jonka useimmat tuntevat itsestään.",
+ "sections": [
+  {
+   "h2": "Mitä aurinko tekee?",
+   "paragraphs": [
+    "Ajattele puutarhan yllä paistavaa aurinkoa: ilman sitä mikään ei kasva. Samoin kartan aurinko antaa sinulle perustan ja vauhdin."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Milloin tunnet olevasi todella oma itsesi ja täynnä energiaa? Silloin aurinkosi työskentelee. Syntymäpäivä kertoo aurinkomerkin."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Aurinko Leijonassa: Aino haluaa tulla nähdyksi, on lämmin ja antelias ja kukoistaa pienestä aplodista."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Onko aurinkomerkki kaikki?",
+   "a": "Ei, se on ydin. Kuu ja nouseva merkki värittävät loput luonteestasi."
+  },
+  {
+   "q": "Miten löydän aurinkoni?",
+   "a": "Katso syntymäpäivääsi: sen päivän merkki on aurinkomerkkisi."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "lilith astrologia",
+ "volume": "1000",
+ "slug": "lilith-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith in astrologia: cosa significa?",
+ "description": "Lilith è il punto della tua parte libera e selvaggia, quella che non vuole compromessi. Spiegato semplice, con esempio.",
+ "intro": "Lilith, o Luna Nera, è un punto del tema natale legato alla tua parte più istintiva e indipendente. Mostra dove non vuoi farti mettere i piedi in testa.",
+ "sections": [
+  {
+   "h2": "Che cos'è Lilith?",
+   "paragraphs": [
+    "Immagina il gatto di casa: sta con te, ma solo quando decide lui. Lilith è quella parte di te che non si lascia addomesticare."
+   ]
+  },
+  {
+   "h2": "Come si nota?",
+   "paragraphs": [
+    "Ci sono temi in cui reagisci con forza se ti impongono qualcosa. È rabbia, ma anche una grande voglia di libertà."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Costanza si veste come vuole, nonostante le critiche in famiglia. Lilith in Acquario la aiuta a difendere il suo stile con orgoglio."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Lilith è pericolosa?",
+   "a": "No, è la tua parte onesta e senza filtri."
+  },
+  {
+   "q": "È un pianeta?",
+   "a": "No, è un punto calcolato sull'orbita della Luna."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

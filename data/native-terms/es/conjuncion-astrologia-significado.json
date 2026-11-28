@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "conjunción astrología",
+ "volume": "1000",
+ "slug": "conjuncion-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Conjunción en astrología: qué es y qué significa",
+ "description": "La conjunción une dos planetas en el mismo punto y mezcla sus energías. Explicado fácil, con ejemplo.",
+ "intro": "Hay conjunción cuando dos planetas están muy juntos en la carta. Sus energías se mezclan y actúan casi como una sola.",
+ "sections": [
+  {
+   "h2": "¿Qué es una conjunción?",
+   "paragraphs": [
+    "Es como echar leche y café en la misma taza: ya no se distinguen del todo y forman algo nuevo. Dos planetas pegados funcionan como un equipo, para bien o para mal."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Esa parte de tu personalidad se siente muy intensa y destacada. Según los planetas que se junten, puede ser un gran talento o un tema que cuesta separar."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Sofía tiene Sol y Mercurio en conjunción. Piensa como siente y dice lo que piensa, así que se la entiende muy rápido."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Una conjunción es buena o mala?",
+   "a": "Depende de los planetas que se unan; amplifica lo que ya hay."
+  },
+  {
+   "q": "¿Qué distancia cuenta como conjunción?",
+   "a": "Normalmente unos 8 o 10 grados como máximo; cuanto más cerca, más fuerte."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

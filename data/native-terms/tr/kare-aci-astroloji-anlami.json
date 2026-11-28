@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "kare açı astroloji",
+ "volume": "1000",
+ "slug": "kare-aci-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kare açı nedir? Astrolojide anlamı",
+ "description": "Kare, 90 derecelik gergin bir açıdır. Basit anlatım ve örnek.",
+ "intro": "Kare, gezegenler arasında 90 derecelik açıdır. Sürtünme yaratır ve seni harekete geçirir.",
+ "sections": [
+  {
+   "h2": "Ne yapar?",
+   "paragraphs": [
+    "Ayakkabıdaki taş gibi: rahatsız eder ama yerinde durmana izin vermez. Bu gerilimle karakterin gelişir."
+   ]
+  },
+  {
+   "h2": "Nasıl hissedilir?",
+   "paragraphs": [
+    "İçsel çatışma: biri istiyorsun, başkası oluyor. Hayatta en çok geliştiğin alan çoğu zaman burasıdır."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Deniz'in Merkür'ü Satürn'e kare: topluluk önünde konuşmak ona zor geliyordu. Yıllarca çalıştı ve şimdi iyi bir eğitmen."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kare hep engelleyici mi?",
+   "a": "Zordur ama azim ve sonuç getirir."
+  },
+  {
+   "q": "Nasıl başa çıkılır?",
+   "a": "Gerginliğin nerede olduğunu fark et ve küçük adımlarla ilerle."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

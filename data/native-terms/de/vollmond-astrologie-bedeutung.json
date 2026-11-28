@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "vollmond astrologie",
+ "volume": "1000",
+ "slug": "vollmond-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Vollmond in der Astrologie: Was bedeutet er?",
+ "description": "Der Vollmond bringt Gefühle ans Licht und steht für Ernte und Abschluss. Einfach erklärt, mit Beispiel.",
+ "intro": "Beim Vollmond stehen Sonne und Mond einander gegenüber, und der Mond leuchtet ganz. Astrologisch zeigt sich nun, was sich entwickelt hat.",
+ "sections": [
+  {
+   "h2": "Was ist ein Vollmond?",
+   "paragraphs": [
+    "Wie ein Scheinwerfer auf der Bühne: Alles wird sichtbar. Gefühle sind oft stärker und Themen kommen auf den Tisch."
+   ]
+  },
+  {
+   "h2": "Wie nutze ich ihn?",
+   "paragraphs": [
+    "Schau, was du erreicht hast, und lass Überflüssiges los. Viele schlafen unruhiger, das ist normal."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Beim Vollmond im Krebs spricht Eva offen mit ihrer Schwester und löst einen alten Streit."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie oft gibt es Vollmond?",
+   "a": "Etwa alle 29 Tage."
+  },
+  {
+   "q": "Beeinflusst der Vollmond den Schlaf?",
+   "a": "Viele berichten das, wissenschaftlich ist es umstritten."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

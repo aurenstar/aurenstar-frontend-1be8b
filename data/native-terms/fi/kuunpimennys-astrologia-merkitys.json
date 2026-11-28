@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "kuunpimennys astrologia",
+ "volume": "1000",
+ "slug": "kuunpimennys-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kuunpimennys astrologiassa: mitä se tarkoittaa?",
+ "description": "Kuunpimennys nostaa tunteet pintaan ja päättää jotain. Selitetty esimerkillä.",
+ "intro": "Kuunpimennyksessä maa asettuu auringon ja kuun väliin, ja kuu tummuu tai muuttuu punertavaksi. Astrologiassa se on erityisen voimakas täysikuu, joka päättää jotain.",
+ "sections": [
+  {
+   "h2": "Mitä kuunpimennys tekee?",
+   "paragraphs": [
+    "Ajattele elokuvan loppua: se on ohi, valot syttyvät ja huomaat, mitä todella tunnet. Niin kuunpimennys päättää jotain."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Vanhat tunteet palaavat, jokin päättyy tai salaisuus tulee esiin. Anna itsellesi lepoa äläkä tee hätiköityjä päätöksiä."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Kuunpimennys Skorpionissa: Aino tajuaa, ettei ystävyys ole pitkään aikaan toiminut, ja jättää hyvästit ystävällisesti."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuinka usein on kuunpimennys?",
+   "a": "Yleensä kaksi kertaa vuodessa, usein noin kaksi viikkoa auringonpimennyksen jälkeen tai ennen."
+  },
+  {
+   "q": "Pitääkö pelätä?",
+   "a": "Ei, se on päätös. Mikä lähtee, tekee tilaa paremmalle."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "neptunus astrologi",
+ "volume": "1000",
+ "slug": "neptunus-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptunus i astrologin: vad betyder det?",
+ "description": "Neptunus visar var du drömmer, känner och ibland tappar verkligheten. Enkelt förklarat med exempel.",
+ "intro": "Neptunus är planeten för drömmar, fantasi och intuition. I ditt horoskop ser du var du är känslig, men också var du ser saker vackrare än de är.",
+ "sections": [
+  {
+   "h2": "Vad gör Neptunus?",
+   "paragraphs": [
+    "Tänk på dimma en tidig morgon: allt ser mjukt och vackert ut, men konturerna är suddiga. Så fungerar Neptunus."
+   ]
+  },
+  {
+   "h2": "Hur märker du det?",
+   "paragraphs": [
+    "Inom vilket område svävar du gärna iväg eller vill hjälpa alla? Där verkar Neptunus. Det ger inspiration, men du kan också bli förvirrad."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Neptunus i kärlekens hus: Elin ser en prins i sin nya pojkvän, tills hon märker att hon inte ville se hans fel."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hur hittar jag min Neptunus?",
+   "a": "Med ditt födelsedatum ser du Neptunus tecken. Han stannar drygt tretton år i varje tecken."
+  },
+  {
+   "q": "Är Neptunus dålig?",
+   "a": "Nej, han ger fantasi och medkänsla. Du behöver bara kolla fakta ibland."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

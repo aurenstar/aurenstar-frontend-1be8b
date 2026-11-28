@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "uusikuu astrologia",
+ "volume": "1000",
+ "slug": "uusikuu-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uusikuu astrologiassa: mitä se tarkoittaa?",
+ "description": "Uusikuu on hetki aloittaa alusta ja asettaa toiveita. Selitetty esimerkillä.",
+ "intro": "Uudenkuun aikaan aurinko ja kuu ovat taivaalla samassa kohdassa, eikä kuuta näe. Astrologiassa se on uuden kuun kierron alkupiste.",
+ "sections": [
+  {
+   "h2": "Mitä uusikuu tekee?",
+   "paragraphs": [
+    "Ajattele tyhjää vihkoa: mitään ei ole vielä kirjoitettu, kaikki on mahdollista. Sellainen on uusikuu: tilaa uudelle alulle."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Sinulle tulee halu raivata, kokeilla jotain uutta tai kirjoittaa suunnitelma ylös. Uudenkuun merkki näyttää teeman."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Uusikuu Vaa’assa: Aino kirjoittaa ylös, miten haluaa tehdä ihmissuhteistaan rehellisempiä, ja sopii ensimmäisen kahvitreffin."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuinka usein on uusikuu?",
+   "a": "Noin 29,5 päivän välein eli lähes joka kuukausi."
+  },
+  {
+   "q": "Pitääkö toiveet kirjoittaa ylös?",
+   "a": "Ei tarvitse, mutta lyhyt ja selkeä toive auttaa keskittymään."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "fire elementer astrologi",
+ "volume": "1000",
+ "slug": "fire-elementer-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "De fire elementene i astrologi: hva betyr de?",
+ "description": "Ild, jord, luft og vann: slik deles de tolv tegnene inn i fire familier. Enkelt forklart med eksempel.",
+ "intro": "Hvert tegn hører til ett av de fire elementene: ild, jord, luft eller vann. Elementet viser hvordan du av natur føler og reagerer.",
+ "sections": [
+  {
+   "h2": "Hva er elementene?",
+   "paragraphs": [
+    "Tenk på fire typer mennesker på en fest: ildtegnene (Væren, Løven, Skytten) er de entusiastiske, jord (Oksen, Jomfruen, Steinbukken) de praktiske, luft (Tvillingene, Vekten, Vannmannen) de pratsomme og vann (Krepsen, Skorpionen, Fiskene) de følsomme."
+   ]
+  },
+  {
+   "h2": "Hvordan merker du det?",
+   "paragraphs": [
+    "Er du fort entusiastisk, nøktern, nysgjerrig eller følsom? Det er elementet ditt. Tegn med samme element forstår ofte hverandre lett."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Ingrid er Væren (ild) og Jonas Steinbukken (jord): hun setter i gang med en gang, han vil ha en plan først. Sammen utfyller de hverandre godt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvilket element har jeg?",
+   "a": "Det avhenger av soltegnet ditt, og også av månen og ascendenten din."
+  },
+  {
+   "q": "Passer alle elementene sammen?",
+   "a": "Ja, bare på ulike måter. Ild og luft går lett sammen, jord og vann også."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

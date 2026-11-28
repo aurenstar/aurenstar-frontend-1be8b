@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "eclipsi solar astrologia",
+ "volume": "1000",
+ "slug": "eclipsi-solar-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Eclipsi solar en astrologia: què significa?",
+ "description": "L’eclipsi solar porta inicis sobtats i girs. Explicat fàcil i amb exemple.",
+ "intro": "L’eclipsi solar passa quan la Lluna tapa el Sol. En astrologia és una lluna nova molt forta, un moment en què la vida pot girar i obrir un nou capítol.",
+ "sections": [
+  {
+   "h2": "Què és un eclipsi solar?",
+   "paragraphs": [
+    "Imagina que algú apaga un instant el llum principal de l’habitació, i quan es torna a encendre, ho veus tot diferent. Així actua un eclipsi solar."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "Després d’un eclipsi solar sovint arriba una notícia inesperada, una feina nova, un trasllat o una decisió que canvia el rumb. No sempre és de seguida, de vegades triga uns mesos."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "En Marc, durant un eclipsi solar, va rebre una oferta de feina en una altra ciutat. No ho havia previst, però va dir que sí i avui diu que va ser el millor."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cada quant hi ha eclipsis solars?",
+   "a": "Dos o tres cops l’any, però no sempre es veuen a tot arreu."
+  },
+  {
+   "q": "He de tenir por?",
+   "a": "No, no és un càstig. Només no tinguis pressa amb grans passos i observa què s’obre."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

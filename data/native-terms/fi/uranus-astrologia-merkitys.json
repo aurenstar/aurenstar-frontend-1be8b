@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "uranus astrologia",
+ "volume": "1000",
+ "slug": "uranus-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uranus astrologiassa: mitä se tarkoittaa?",
+ "description": "Uranus näyttää, missä haluat olla vapaa ja missä elämä yllättää sinut. Selitetty esimerkillä.",
+ "intro": "Uranus on uudistumisen, vapauden ja yllätysten planeetta. Kartassasi näet, missä uskallat olla erilainen kuin muut.",
+ "sections": [
+  {
+   "h2": "Mitä Uranus tekee?",
+   "paragraphs": [
+    "Ajattele sähkökatkoa: yhtäkkiä kaikki on toisin ja pitää keksiä jotain uutta. Niin Uranus ravistelee sinut hereille."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Millä alueella vihaat sääntöjä ja haluat kulkea omaa tietäsi? Siellä Uranus vaikuttaa. Usein se tulee yllättäen, mutta jälkeenpäin olo on kevyempi."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Uranus työn talossa: Aino irtisanoutuu yllättäen vakituisesta työstään ja perustaa oman yrityksen. Pelottavaa, mutta vihdoin se sopii hänelle."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Miten löydän Uranukseni?",
+   "a": "Syntymäpäivällä näet, missä merkissä Uranus oli. Se viipyy yhdessä merkissä noin seitsemän vuotta."
+  },
+  {
+   "q": "Onko Uranus vaarallinen?",
+   "a": "Ei, se tuo muutosta. Mukana kulkeva saa vapautta ja uusia ideoita."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

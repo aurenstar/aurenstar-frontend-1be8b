@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "ascendant",
+ "volume": "1000",
+ "slug": "ascendant-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ascendant dalam astrologi: apa artinya?",
+ "description": "Ascendant adalah zodiak yang terbit di ufuk timur saat Anda lahir. Ini menunjukkan kesan pertama dan gaya Anda tampil di depan orang.",
+ "intro": "Ascendant atau rising sign adalah zodiak yang sedang terbit di cakrawala timur saat Anda lahir. Ini seperti pintu depan kepribadian Anda.",
+ "sections": [
+  {
+   "h2": "Apa fungsi ascendant?",
+   "paragraphs": [
+    "Bayangkan rumah: zodiak matahari adalah isi rumahnya, sedangkan ascendant adalah pagar dan pintu depan. Orang melihatnya lebih dulu sebelum masuk dan mengenal Anda lebih dalam."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Perhatikan cara Anda bersikap saat bertemu orang baru. Ramah dan cepat akrab, atau tenang dan mengamati dulu? Itulah warna ascendant Anda."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Dewi berzodiak Cancer, pemalu dan perasa. Tapi ascendant-nya Sagitarius, jadi orang pertama kali mengira ia periang dan suka bercanda, padahal di rumah ia lebih lembut."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Bagaimana cara tahu ascendant saya?",
+   "a": "Anda perlu tanggal, jam, dan kota kelahiran. Jamnya penting karena ascendant berganti zodiak sekitar tiap dua jam."
+  },
+  {
+   "q": "Apakah ascendant lebih penting dari zodiak matahari?",
+   "a": "Keduanya saling melengkapi. Zodiak matahari menunjukkan inti diri, ascendant menunjukkan cara Anda tampil dan memulai sesuatu."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

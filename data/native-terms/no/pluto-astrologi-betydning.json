@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "pluto astrologi",
+ "volume": "1000",
+ "slug": "pluto-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pluto i astrologi: hva betyr det?",
+ "description": "Pluto viser hvor du forandrer deg dypt og begynner på nytt. Enkelt forklart med eksempel.",
+ "intro": "Pluto er planeten for dyp forandring, makt og gjenfødelse. I horoskopet ditt ser du hvor noe må ta slutt for at noe nytt skal kunne vokse.",
+ "sections": [
+  {
+   "h2": "Hva gjør Pluto?",
+   "paragraphs": [
+    "Tenk på å rydde et fullstappet loft: vanskelig å gi slipp, men etterpå er det plass. Slik virker Pluto."
+   ]
+  },
+  {
+   "h2": "Hvordan merker du det?",
+   "paragraphs": [
+    "På hvilket område kjenner du et sterkt behov for alt eller ingenting? Der virker Pluto. Kriser kjennes tunge, men gjør deg sterkere."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Pluto i arbeidets hus: Ingrid mister jobben, oppdager hva hun virkelig vil og bygger et helt nytt liv."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvordan finner jeg Pluto?",
+   "a": "Med fødselsdatoen din ser du Plutos tegn. Han blir mellom tolv og tretti år i ett tegn."
+  },
+  {
+   "q": "Er Pluto skummel?",
+   "a": "Nei, han krever ærlighet. Den som tør å gi slipp, får stor kraft tilbake."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "telihold asztrológia",
+ "volume": "1000",
+ "slug": "telihold-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "A telihold az asztrológiában: mit jelent?",
+ "description": "A telihold az a pillanat, amikor valami beérik és napvilágra kerül. Egyszerűen, példával.",
+ "intro": "Telihold akkor van, amikor a Hold teljes korongjával ragyog. Az asztrológiában ez a ciklus csúcsa: nőnek az érzelmek, és ami az újholdkor indult, a fényre kerül.",
+ "sections": [
+  {
+   "h2": "Mit csinál a telihold?",
+   "paragraphs": [
+    "Olyan, mint egy sötét szobában felkapcsolt lámpa: hirtelen látszik a rendetlenség és a kincs is. A telihold megmutatja, mi működik, és mit kell lezárni."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Van, aki rosszabbul alszik, érzékenyebb, vagy hamarabb dühbe gurul. Jó alkalom az összegzésre, és arra, hogy elengedd, ami már nem kell."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Zsófi teliholdkor egyszer csak érzi, hogy elege van abból, hogy folyton egy kolléganőjét segíti. Nyugodtan megmondja neki, és megkönnyebbül."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Tényleg hat a telihold az alvásra?",
+   "a": "Sokan állítják, ezért érdemes megfigyelned magad, és nyugodt estét szervezned."
+  },
+  {
+   "q": "Mit tegyek teliholdkor?",
+   "a": "Összegezd a hónapot, köszönd meg, ami sikerült, és engedd el, ami nyom."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "saturn astrologie",
+ "volume": "1000",
+ "slug": "saturn-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturn in der Astrologie: Was bedeutet er?",
+ "description": "Saturn zeigt, wo du Disziplin, Regeln und Lektionen lernst. Einfach erklärt, mit Beispiel.",
+ "intro": "Saturn ist der Planet für Regeln, Zeit und Verantwortung. Er zeigt, wo du hart arbeiten musst und später stark wirst.",
+ "sections": [
+  {
+   "h2": "Was macht Saturn?",
+   "paragraphs": [
+    "Wie ein strenger, aber fairer Lehrer: anstrengend, doch man lernt viel. Er braucht rund 29 Jahre für eine Runde."
+   ]
+  },
+  {
+   "h2": "Wie merke ich es?",
+   "paragraphs": [
+    "Wo spürst du Druck oder Angst zu versagen? Dort wirkt Saturn. Mit Geduld wirst du genau dort richtig gut."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Saturn im Haus der Arbeit: Rosa muss lange üben, wird dann aber eine beliebte, verlässliche Chefin."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie finde ich meinen Saturn?",
+   "a": "Mit dem Geburtsdatum berechnest du sein Zeichen."
+  },
+  {
+   "q": "Ist Saturn schlecht?",
+   "a": "Nein, er fordert, aber belohnt mit Stärke und Ruhe."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

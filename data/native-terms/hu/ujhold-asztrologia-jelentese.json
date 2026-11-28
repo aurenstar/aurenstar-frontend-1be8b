@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "újhold asztrológia",
+ "volume": "1000",
+ "slug": "ujhold-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Az újhold az asztrológiában: mit jelent?",
+ "description": "Az újhold jó pillanat arra, hogy valamit elölről kezdj. Egyszerűen, példával.",
+ "intro": "Újhold akkor van, amikor a Hold nem látszik az égen. Az asztrológiában ez egy új ciklus jelképes kezdete, és jó idő a szándékok megfogalmazására.",
+ "sections": [
+  {
+   "h2": "Mit csinál az újhold?",
+   "paragraphs": [
+    "Olyan, mint egy tiszta lap a füzetben: bármit ráírhatsz. Az újhold nyugodt indulást és helyet ad az új terveknek."
+   ]
+  },
+  {
+   "h2": "Hogyan használod ki?",
+   "paragraphs": [
+    "Írj le néhány konkrét szándékot a következő hónapra. Válassz kicsi, megvalósítható lépéseket, ne nagy ígéreteket."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Zsófi a Mérlegben álló újholdkor leírja, hogy gyakrabban szeretne találkozni a nővérével. Minden héten elmennek egy kávéra, és egy hónap múlva érzi a különbséget."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Milyen gyakran van újhold?",
+   "a": "Nagyjából huszonkilenc és fél naponként."
+  },
+  {
+   "q": "Kell valami különlegeset csinálni?",
+   "a": "Nem, elég egy kis csend és egy lap a szándékokkal."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

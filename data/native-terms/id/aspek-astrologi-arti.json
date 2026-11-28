@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "aspek astrologi",
+ "volume": "1000",
+ "slug": "aspek-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspek dalam astrologi: apa artinya?",
+ "description": "Aspek adalah hubungan sudut antar planet di peta kelahiran. Ia menunjukkan bagaimana dua energi saling bicara.",
+ "intro": "Aspek adalah jarak sudut tertentu antara dua planet. Jarak itu menentukan apakah mereka bekerja sama atau saling menarik.",
+ "sections": [
+  {
+   "h2": "Apa itu aspek?",
+   "paragraphs": [
+    "Bayangkan dua orang dalam satu ruangan: kadang berjabat tangan, kadang berdebat, kadang saling mengabaikan. Aspek adalah cara dua planet berhubungan."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Sudut yang paling dikenal adalah 0, 60, 90, 120, dan 180 derajat. Sudut 60 dan 120 terasa mudah, 90 dan 180 menantang tapi mendorong Anda berkembang."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Matahari dan Mars Rina membentuk sudut 120 derajat. Keinginannya dan semangatnya sejalan, jadi apa pun yang ia putuskan terasa ringan dijalankan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Aspek mana yang baik dan buruk?",
+   "a": "Tidak ada yang benar-benar buruk. Aspek mudah memberi bakat, aspek sulit memberi tantangan yang membuat Anda kuat."
+  },
+  {
+   "q": "Apakah semua planet punya aspek?",
+   "a": "Tidak, hanya planet yang berada pada jarak sudut tertentu."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

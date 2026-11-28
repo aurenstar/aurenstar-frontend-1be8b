@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "uranus astrologie",
+ "volume": "1000",
+ "slug": "uranus-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uranus in der Astrologie: Was bedeutet er?",
+ "description": "Uranus steht für Überraschung, Freiheit und Wandel. Einfach erklärt, mit Beispiel.",
+ "intro": "Uranus ist der Planet der Veränderung und der plötzlichen Einfälle. Er zeigt, wo du anders sein und ausbrechen willst.",
+ "sections": [
+  {
+   "h2": "Was macht Uranus?",
+   "paragraphs": [
+    "Wie ein Blitz in einer ruhigen Nacht: Plötzlich ist alles hell und neu. Er braucht rund 84 Jahre für eine Runde."
+   ]
+  },
+  {
+   "h2": "Wie merke ich es?",
+   "paragraphs": [
+    "Wo hast du plötzlich Lust, alles umzuwerfen? Dort will Uranus Raum. Gut: neue Ideen. Schwierig: Unruhe."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Uranus im Haus der Arbeit: Oliver wechselt mit 35 vom Büro in die Programmierung und liebt es."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie lange bleibt Uranus in einem Zeichen?",
+   "a": "Etwa sieben Jahre."
+  },
+  {
+   "q": "Ist Uranus schwer zu spüren?",
+   "a": "Er wirkt langsam und gilt als Generationenplanet."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

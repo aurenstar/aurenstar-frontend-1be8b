@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "pluto astrologie",
+ "volume": "1000",
+ "slug": "pluto-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pluto in der Astrologie: Was bedeutet er?",
+ "description": "Pluto steht für tiefe Verwandlung, Macht und Neubeginn. Einfach erklärt, mit Beispiel.",
+ "intro": "Pluto ist der Planet der großen Verwandlung. Er zeigt, wo Altes gehen muss, damit Neues wachsen kann.",
+ "sections": [
+  {
+   "h2": "Was macht Pluto?",
+   "paragraphs": [
+    "Wie eine Raupe, die zum Schmetterling wird: Das Alte löst sich auf. Er braucht etwa 248 Jahre für eine Runde."
+   ]
+  },
+  {
+   "h2": "Wie merke ich es?",
+   "paragraphs": [
+    "Themen, die dich nicht loslassen und tief bewegen. Wer sie annimmt, kommt gestärkt heraus."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Pluto im Haus des Zuhauses: Birgit zieht nach einer Trennung um und baut sich ein ganz neues Leben auf."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie lange bleibt Pluto in einem Zeichen?",
+   "a": "Zwischen 12 und 30 Jahren."
+  },
+  {
+   "q": "Ist Pluto noch ein Planet?",
+   "a": "Astronomisch ein Zwergplanet, in der Astrologie bleibt er wichtig."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

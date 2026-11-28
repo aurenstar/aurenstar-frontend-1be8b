@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "luna nueva astrología",
+ "volume": "1000",
+ "slug": "luna-nueva-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Luna Nueva en astrología: qué significa y cómo aprovecharla",
+ "description": "La Luna Nueva es el momento de empezar de cero y plantar intenciones. Explicado fácil, con ejemplo.",
+ "intro": "La Luna Nueva ocurre cuando la Luna está entre la Tierra y el Sol y no se ve. En astrología es el momento ideal para empezar algo y plantar intenciones.",
+ "sections": [
+  {
+   "h2": "¿Qué es la Luna Nueva?",
+   "paragraphs": [
+    "Es como la primera página en blanco de un cuaderno nuevo. No hay nada escrito todavía, y por eso todo es posible."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Muchos sienten ganas de empezar, ordenar y hacer planes. Es buen momento para escribir qué quieres lograr en las próximas semanas."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Julia aprovecha una Luna Nueva para apuntarse a clases de baile. Un mes después ya se ha hecho un grupo de amigas."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Cada cuánto hay Luna Nueva?",
+   "a": "Cada 29 días y medio, más o menos, una vez al mes."
+  },
+  {
+   "q": "¿Qué se hace en Luna Nueva?",
+   "a": "Lo más habitual es escribir intenciones y empezar proyectos pequeños."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

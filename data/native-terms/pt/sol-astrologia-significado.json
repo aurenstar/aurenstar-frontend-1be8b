@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "sol astrologia",
+ "volume": "1000",
+ "slug": "sol-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "O Sol na astrologia: o que significa?",
+ "description": "O Sol é o seu signo: sua essência e o que faz você brilhar. Explicado de forma simples, com exemplo.",
+ "intro": "O Sol é o coração do seu mapa astral. O signo dele, o que você conhece como \"seu signo\", conta quem você é no fundo e onde encontra energia.",
+ "sections": [
+  {
+   "h2": "O que faz o Sol?",
+   "paragraphs": [
+    "Pense no lustre no centro da sala: tudo gira em torno dele. O Sol é a sua identidade e a vontade de brilhar."
+   ]
+  },
+  {
+   "h2": "Como perceber?",
+   "paragraphs": [
+    "Você é mais você quando faz coisas que o deixam vivo e orgulhoso. Ali está o seu Sol."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Thiago é de Virgem: rende mais quando organiza e melhora as coisas. Arrumar o arquivo do escritório é um prazer para ele."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "O signo solar diz tudo sobre mim?",
+   "a": "Não, é só uma parte: contam também a Lua e o ascendente."
+  },
+  {
+   "q": "Como descubro?",
+   "a": "Basta a data de nascimento."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

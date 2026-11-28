@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "retour de saturne astrologie",
+ "volume": "1000",
+ "slug": "retour-de-saturne-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retour de Saturne : que signifie-t-il en astrologie ?",
+ "description": "Le retour de Saturne arrive vers 29 ans et pousse à faire le point sur sa vie. Expliqué simplement, avec un exemple.",
+ "intro": "Le retour de Saturne a lieu quand Saturne revient à sa place de ta naissance, vers 29 ans. C’est souvent un moment de bilan où l’on remet sa vie en question.",
+ "sections": [
+  {
+   "h2": "C’est quoi, le retour de Saturne ?",
+   "paragraphs": [
+    "C’est comme le contrôle technique d’une voiture : on vérifie ce qui tient et ce qui est usé. Saturne met de l’ordre et te demande d’assumer tes choix."
+   ]
+  },
+  {
+   "h2": "Comment le ressent-on ?",
+   "paragraphs": [
+    "On peut quitter un travail, un couple ou une ville qui ne nous correspond plus. Cela peut paraître dur, mais beaucoup disent en sortir plus solides."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "À 29 ans, Mathieu quitte son poste de comptable pour devenir menuisier. Il est plus fatigué au début, puis beaucoup plus heureux."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "À quel âge a lieu le retour de Saturne ?",
+   "a": "Une première fois vers 28-30 ans, puis vers 58-60 ans."
+  },
+  {
+   "q": "Est-ce forcément une crise ?",
+   "a": "Non, c’est un passage de maturité ; certains le vivent très calmement."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

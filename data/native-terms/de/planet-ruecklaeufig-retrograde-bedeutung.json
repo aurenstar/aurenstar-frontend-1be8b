@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "planet rückläufig",
+ "volume": "1000",
+ "slug": "planet-ruecklaeufig-retrograde-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Rückläufige Planeten: Was bedeutet Retrograde?",
+ "description": "Rückläufig heißt: Ein Planet scheint am Himmel rückwärts zu laufen. Einfach erklärt, mit Beispiel.",
+ "intro": "Manchmal sieht es von der Erde so aus, als liefe ein Planet rückwärts. Astrologisch ist das eine Zeit zum Überdenken und Erledigen.",
+ "sections": [
+  {
+   "h2": "Was ist retrograd?",
+   "paragraphs": [
+    "Wie ein Zug, der neben dir überholt wird: Es wirkt, als führe er zurück, doch er fährt weiter. Das ist eine optische Täuschung."
+   ]
+  },
+  {
+   "h2": "Wie merke ich es?",
+   "paragraphs": [
+    "Alte Themen kommen zurück, Termine verzögern sich. Gut für Aufräumen, Planen und Überarbeiten."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Während Merkur rückläufig ist, meldet sich Katrin bei einer alten Freundin und klärt endlich einen Streit."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie oft ist Merkur rückläufig?",
+   "a": "Etwa dreimal im Jahr, jeweils rund drei Wochen."
+  },
+  {
+   "q": "Soll ich dann nichts Neues beginnen?",
+   "a": "Das ist kein Gesetz, nimm dir einfach mehr Zeit für Verträge."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

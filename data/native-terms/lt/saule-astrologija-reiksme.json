@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "saulė astrologija",
+ "volume": "1000",
+ "slug": "saule-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saulė astrologijoje: ką tai reiškia?",
+ "description": "Saulė rodo tavo šerdį, tai, kas esi iš esmės. Paprastai paaiškinta, su pavyzdžiu.",
+ "intro": "Saulė yra tavo pagrindinis horoskopo ženklas, pagal kurį žmonės tave atpažįsta. Ji parodo, kas tave varo ir kaip mėgsti spindėti.",
+ "sections": [
+  {
+   "h2": "Ką daro Saulė?",
+   "paragraphs": [
+    "Įsivaizduok lempą kambario viduryje, aplink kurią viskas sukasi. Tokia ir Saulė tavo žemėlapyje: asmenybės ir valios centras."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Kai darai tai, kas tikrai tavo, ir jautiesi gyvas bei užtikrintas, tavo Saulė šviečia. Kai vaidini kitą, jautiesi tuščias."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Rūta turi Saulę Liūte. Ji mėgsta vesti grupę ir būti pastebėta, o diena gražesnė, kai ką nors paskatina."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kaip sužinoti savo Saulę?",
+   "a": "Tai tavo ženklas pagal gimimo datą, tas, kurį žino visi."
+  },
+  {
+   "q": "Ar Saulės pakanka visam horoskopui?",
+   "a": "Ne, tai tik pradžia. Mėnulis, Venera ir kiti papildo istoriją."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

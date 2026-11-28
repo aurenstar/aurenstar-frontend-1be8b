@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "orta gök mc astroloji",
+ "volume": "1000",
+ "slug": "orta-gok-mc-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Orta Gök (MC) nedir? Astrolojideki anlamı",
+ "description": "Orta Gök, kariyerini ve toplumdaki yerini gösterir. Basit anlatım.",
+ "intro": "Orta Gök, yani MC, haritanda ufkun en yukarıdaki noktasıdır. Hayattaki amacınla ve toplumdaki itibarınla ilgilidir.",
+ "sections": [
+  {
+   "h2": "MC neyi anlatır?",
+   "paragraphs": [
+    "Tırmanmak istediğin dağın zirvesi gibi düşün. MC, sana hangi yolun uyduğunu gösterir: iş, statü, insanların gözündeki imajın."
+   ]
+  },
+  {
+   "h2": "Nasıl belli olur?",
+   "paragraphs": [
+    "Neyle gurur duymak istiyorsun, işte hangi rolü seçiyorsun diye bak. MC burcu tarzını verir: ciddi, yaratıcı ya da şefkatli."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Can'ın MC'si Başak. Doktor oldu; insanlar onun titizliğine ve dikkatine güveniyor, itibarı çok iyi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "MC, Güneş ile aynı mı?",
+   "a": "Hayır. Güneş özün, MC ise amacın ve toplumsal yüzün."
+  },
+  {
+   "q": "Doğum saati şart mı?",
+   "a": "Evet, MC doğum saatine ve yerine çok bağlıdır."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "kavuşum açısı",
+ "volume": "1000",
+ "slug": "kavusum-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kavuşum nedir? Astrolojide anlamı",
+ "description": "Kavuşum, iki gezegenin yan yana durup tek güç gibi çalışmasıdır. Basit anlatım.",
+ "intro": "Kavuşum, iki gezegenin gökyüzünde aynı noktada bulunmasıdır. Enerjileri birbirine karışır.",
+ "sections": [
+  {
+   "h2": "Nasıl çalışır?",
+   "paragraphs": [
+    "Her şeyi birlikte yapan iki arkadaş gibi: güçleri toplanır. Sonuç gezegenlerin karakterine bağlı; bazen çok iyi, bazen biraz dar gelir."
+   ]
+  },
+  {
+   "h2": "Nasıl fark edilir?",
+   "paragraphs": [
+    "Güneş ve Merkür yan yanaysa düşündüğünü olduğu gibi söylersin. Venüs ve Mars yanındaysa aşk ve tutku aynı anda yaşanır."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Okan'ın Güneş'i ve Mars'ı yan yana. Enerjik, doğrudan, ilk adımı atan biri ama bazen çabuk sinirleniyor."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kavuşum iyi mi?",
+   "a": "Gezegenlere bağlı; hem iyiyi hem zoru güçlendirir."
+  },
+  {
+   "q": "Kavuşumun orbu ne kadar?",
+   "a": "Genelde 8-10 derece; ne kadar yakınsa o kadar güçlü."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

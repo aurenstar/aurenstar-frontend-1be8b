@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "zatmění slunce astrologie",
+ "volume": "1000",
+ "slug": "zatmeni-slunce-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Zatmění Slunce v astrologii: co znamená?",
+ "description": "Zatmění Slunce přináší velký nový začátek a postrčení ke změně. Jednoduše s příkladem.",
+ "intro": "Při zatmění Slunce se Měsíc posune před Slunce. V astrologii je to zvlášť silný nov, který otevírá novou kapitolu.",
+ "sections": [
+  {
+   "h2": "Co dělá zatmění Slunce?",
+   "paragraphs": [
+    "Představte si záclonu, kterou na chvíli zatáhnete před oknem: světlo na okamžik zmizí a potom vidíte pokoj jinak. Tak zatmění otevírá novou fázi."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "Věci se mění rychleji, než jste plánovali: nová práce, stěhování nebo nový náhled. Účinek bývá vidět v následujících týdnech a měsících."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Zatmění Slunce v Býku: Jana nečekaně dostane novou nabídku a zvolí větší jistotu ve svých financích."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak často je zatmění Slunce?",
+   "a": "Obvykle dvakrát za rok, v těch částech horoskopu, kterých se znamení dotkne."
+  },
+  {
+   "q": "Je zatmění nebezpečné?",
+   "a": "Ne, je to postrčení ke změně. Zachovejte klid a sledujte, kam vás to zavede."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

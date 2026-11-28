@@ -1,0 +1,49 @@
+{
+ "lang": "da",
+ "keyword": "solen astrologi",
+ "volume": "1000",
+ "slug": "solen-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Solen i astrologi: hvad betyder den?",
+ "description": "Solen viser, hvem du er helt inderst inde, og hvor din energi kommer fra. Forklaret enkelt med eksempel.",
+ "intro": "Solen er hjertet i dit horoskop: din kerne, din vilje og din livskraft. Dit solstegn er det tegn, de fleste kender om sig selv.",
+ "sections": [
+  {
+   "h2": "Hvad gør solen?",
+   "paragraphs": [
+    "Tænk på solen over haven: uden den gror der ingenting. Sådan giver solen i dit horoskop dig fundamentet og drivkraften."
+   ]
+  },
+  {
+   "h2": "Hvordan mærker du det?",
+   "paragraphs": [
+    "Hvornår føler du dig rigtig som dig selv og fuld af energi? Så arbejder din sol. Din fødselsdato viser dit solsteg."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Sol i Løven: Freja vil gerne ses, er varm og generøs og blomstrer op af lidt klapsalver."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Er mit solsteg alt?",
+   "a": "Nej, det er din kerne. Månen og ascendanten farver resten af din personlighed."
+  },
+  {
+   "q": "Hvordan finder jeg min sol?",
+   "a": "Se på din fødselsdato: tegnet den dag er dit solsteg."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "solar eclipse astrolohiya",
+ "volume": "1000",
+ "slug": "solar-eclipse-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Solar Eclipse sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Ang Solar Eclipse ay pagtakip ng Buwan sa Araw, tanda ng malaking bagong simula. Simple, may halimbawa.",
+ "intro": "Sa Solar Eclipse, dumadaan ang Buwan sa pagitan ng Araw at Daigdig at saglit na tinatakpan ang Araw. Sa astrolohiya, mas malakas ito kaysa karaniwang Bagong Buwan at kayang baguhin ang direksyon ng buhay.",
+ "sections": [
+  {
+   "h2": "Ano ang ginagawa ng Solar Eclipse?",
+   "paragraphs": [
+    "Takpan mo saglit ng kamay ang ilaw at dumilim ang kuwarto; pagbawi mo ng kamay, may bago kang mapapansin. Nagbibigay ang eklipse ng paghinto, tapos ituturo ang bagong daan."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Malapit sa eklipse, biglang dumarating ang bagong desisyon, bagong tao, o pagtatapos ng luma. Maaaring tumagal ang epekto nang ilang buwan."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Lumipat si Lea sa ibang lungsod malapit sa eklipse at nagsimula ng bagong trabaho. Pagkatapos noon, iba na ang takbo ng buhay niya."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ilang beses ang Solar Eclipse sa isang taon?",
+   "a": "Mga dalawang beses."
+  },
+  {
+   "q": "Dapat bang magdesisyon nang malaki sa eklipse?",
+   "a": "Huwag magmadali. Mag-isip muna, saka kumilos nang mahinahon."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

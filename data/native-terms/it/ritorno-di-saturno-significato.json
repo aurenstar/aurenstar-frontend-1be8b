@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "ritorno di saturno",
+ "volume": "1000",
+ "slug": "ritorno-di-saturno-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ritorno di Saturno: cos'è e quando succede?",
+ "description": "Il ritorno di Saturno arriva intorno ai 29 anni e segna una svolta di maturità. Spiegazione semplice con esempio.",
+ "intro": "Il ritorno di Saturno avviene quando Saturno torna dove si trovava alla tua nascita, verso i 29 anni. È un periodo in cui la vita ti chiede di fare ordine.",
+ "sections": [
+  {
+   "h2": "Che cos'è?",
+   "paragraphs": [
+    "Saturno impiega circa 29 anni a fare il giro dello zodiaco. Quando chiude il cerchio è come un controllo di fine anno: cosa tengo, cosa lascio?"
+   ]
+  },
+  {
+   "h2": "Come si sente?",
+   "paragraphs": [
+    "Magari ti chiedi se il lavoro ti rappresenta o se la relazione ha un futuro. Può essere faticoso, ma ti avvicina a ciò che conta davvero."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Luca, 29 anni, lascia un impiego sicuro che non lo appassiona e apre un piccolo laboratorio di falegnameria. È stata dura, ma oggi si sente al suo posto."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quando arriva?",
+   "a": "Tra i 28 e i 30 anni, e una seconda volta intorno ai 58."
+  },
+  {
+   "q": "È una crisi?",
+   "a": "Più che altro un esame di maturità: chi lavora con impegno ne esce più solido."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

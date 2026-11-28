@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "venere astrologia",
+ "volume": "1000",
+ "slug": "venere-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venere in astrologia: cosa significa?",
+ "description": "Venere mostra come ami, cosa trovi bello e come vivi i rapporti. Spiegato semplice, con esempio.",
+ "intro": "Venere è il pianeta dell'amore, della bellezza e del piacere. Il suo segno racconta come dai e ricevi affetto, e cosa ti fa stare bene.",
+ "sections": [
+  {
+   "h2": "Che cosa fa Venere?",
+   "paragraphs": [
+    "Pensa a come apparecchi la tavola per un ospite: Venere è quella cura e quel gusto che metti per far sentire bene qualcuno."
+   ]
+  },
+  {
+   "h2": "Come si nota?",
+   "paragraphs": [
+    "Guarda cosa ti attrae e come dimostri affetto: con parole, regali, tempo insieme o gesti pratici?"
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Nicola ha Venere in Toro: ama le cene lente, i bei tessuti e le coccole. Per lui dire \"ti voglio bene\" significa cucinare per l'altro."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Come trovo la mia Venere?",
+   "a": "Con la data di nascita in un calcolatore gratuito."
+  },
+  {
+   "q": "Venere parla solo d'amore?",
+   "a": "Anche di soldi, gusto e valori."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

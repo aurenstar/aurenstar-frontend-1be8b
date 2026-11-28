@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "mars astrologi",
+ "volume": "1000",
+ "slug": "mars-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mars dalam astrologi: apa artinya?",
+ "description": "Mars menunjukkan semangat, keberanian, dan cara Anda bertindak serta marah. Penjelasan sederhana dengan contoh.",
+ "intro": "Mars adalah planet energi dan tindakan. Ia menunjukkan cara Anda mengejar sesuatu dan bagaimana Anda menghadapi tantangan.",
+ "sections": [
+  {
+   "h2": "Apa fungsi Mars?",
+   "paragraphs": [
+    "Bayangkan mesin dan pedal gas pada kendaraan. Mars adalah dorongan yang membuat Anda bangun dan bergerak. Terlalu banyak jadi marah, terlalu sedikit jadi malas."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Lihat reaksi Anda saat ada masalah: langsung meledak, memendam, atau maju menghadapi. Itulah gaya Mars Anda."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Mars Budi di Aries. Ia cepat memulai apa pun dan paling depan saat olahraga, hanya kadang terburu-buru."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mars menguasai zodiak apa?",
+   "a": "Aries dan Scorpio."
+  },
+  {
+   "q": "Bagaimana mengelola energi Mars?",
+   "a": "Salurkan lewat olahraga atau kegiatan fisik agar tidak berubah menjadi amarah."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

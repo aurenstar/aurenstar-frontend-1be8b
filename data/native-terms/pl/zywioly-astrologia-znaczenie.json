@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "żywioły w astrologii",
+ "volume": "1000",
+ "slug": "zywioly-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Żywioły w astrologii: ogień, ziemia, powietrze, woda",
+ "description": "Cztery żywioły dzielą znaki zodiaku według temperamentu. Wyjaśnione prosto, z przykładem.",
+ "intro": "Każdy znak zodiaku należy do jednego z czterech żywiołów: ognia, ziemi, powietrza lub wody. Żywioł mówi, jak dany znak czuje, myśli i działa.",
+ "sections": [
+  {
+   "h2": "Co oznaczają żywioły?",
+   "paragraphs": [
+    "Ogień (Baran, Lew, Strzelec) to zapał, ziemia (Byk, Panna, Koziorożec) to praktyczność, powietrze (Bliźnięta, Waga, Wodnik) to rozmowa i myśl, a woda (Rak, Skorpion, Ryby) to uczucia."
+   ]
+  },
+  {
+   "h2": "Jak to zauważysz?",
+   "paragraphs": [
+    "Obserwuj, jak reagujesz na kłopot: działasz od razu, liczysz plan, rozmawiasz czy najpierw czujesz. To zdradza twój żywioł."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Kasia z Raka, czyli z wody, po trudnym dniu potrzebuje herbaty i czułości. Jej przyjaciel Tomek z Barana, czyli z ognia, woli pójść pobiegać."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Który żywioł jest najlepszy?",
+   "a": "Żaden, każdy ma mocne strony, a najlepiej działa połączenie różnych."
+  },
+  {
+   "q": "Czy żywioły się dogadują?",
+   "a": "Ogień lubi powietrze, a ziemia wodę, ale każda para może się dogadać, gdy się słucha."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

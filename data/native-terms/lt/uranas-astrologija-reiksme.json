@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "uranas astrologija",
+ "volume": "1000",
+ "slug": "uranas-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uranas astrologijoje: ką tai reiškia?",
+ "description": "Uranas atneša staigius pokyčius, laisvę ir neįprastas idėjas. Paprastai paaiškinta, su pavyzdžiu.",
+ "intro": "Uranas yra posūkių ir laisvės planeta. Kur jis tavo žemėlapyje, ten gyvenimas mėgsta nustebinti ir ištraukti iš įpročio.",
+ "sections": [
+  {
+   "h2": "Ką daro Uranas?",
+   "paragraphs": [
+    "Įsivaizduok, kad per nuobodžią savaitę kažkas pastato baldus tavo kambaryje kitaip. Iš pradžių supyksti, paskui lengviau kvėpuoti. Tai Uranas."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Kurioje srityje nuolat nutinka netikėtumų arba traukia daryti kitaip nei visi? Ten veikia Uranas. Kuo laisvesnis esi, tuo lengviau."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Markas turi stiprų Uraną darbo name. Staiga palieka saugią tarnybą ir atidaro mažą dirbtuvę, ir tai tampa geriausiu jo sprendimu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kiek laiko Uranas būna viename ženkle?",
+   "a": "Apie septynerius metus, todėl jo ženklą dalijasi visa karta."
+  },
+  {
+   "q": "Ar Uranas pavojingas?",
+   "a": "Ne, jam tik nepatinka sąstingis. Kai priimi pokytį, dažnai ateina palengvėjimas."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

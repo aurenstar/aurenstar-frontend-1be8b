@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "oposición astrología",
+ "volume": "1000",
+ "slug": "oposicion-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Oposición en astrología: qué es y qué significa",
+ "description": "La oposición enfrenta dos planetas desde lados contrarios y pide equilibrio. Explicado fácil, con ejemplo.",
+ "intro": "La oposición ocurre cuando dos planetas están en lados contrarios de la carta, a unos 180 grados. Es una tensión que pide encontrar el equilibrio.",
+ "sections": [
+  {
+   "h2": "¿Qué es una oposición?",
+   "paragraphs": [
+    "Piensa en un balancín: dos personas en los extremos, y si una pesa demasiado, la otra se queda en el aire. Así actúan los dos planetas, tirando cada uno hacia su lado."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Sueles notar que oscilas entre dos extremos, por ejemplo entre libertad y compromiso. A menudo lo ves reflejado en otras personas, que te muestran el lado que tú no usas."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Diego tiene el Sol en oposición a la Luna. Su cabeza quiere una cosa y su corazón otra, y aprende a escuchar a los dos antes de decidir."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿La oposición es un aspecto difícil?",
+   "a": "Es tenso, sí, pero también muy consciente: ves los dos lados con claridad."
+  },
+  {
+   "q": "¿Cómo se equilibra una oposición?",
+   "a": "No se elige un lado, sino que se busca un punto medio entre los dos."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "meio do céu",
+ "volume": "1000",
+ "slug": "meio-do-ceu-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Meio do Céu: o que é e o que significa?",
+ "description": "O Meio do Céu mostra sua vocação e como você quer ser reconhecido. Explicado de forma simples, com exemplo.",
+ "intro": "O Meio do Céu é o ponto mais alto do seu mapa astral. Ele fala da carreira, da reputação e do que você quer deixar como marca.",
+ "sections": [
+  {
+   "h2": "O que é o Meio do Céu?",
+   "paragraphs": [
+    "Pense na placa da sua loja: ela diz a todo mundo o que você faz e o que representa. O Meio do Céu é essa placa."
+   ]
+  },
+  {
+   "h2": "Como perceber?",
+   "paragraphs": [
+    "O signo do Meio do Céu mostra o estilo com que você busca reconhecimento: com constância, com criatividade, com capricho."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Juliana tem o Meio do Céu em Virgem. No trabalho, é caprichosa e confiável: os clientes a chamam por isso, e a fama cresce sozinha."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "É igual ao ascendente?",
+   "a": "Não, o ascendente é como você aparece, o Meio do Céu é aonde você quer chegar."
+  },
+  {
+   "q": "Mostra a profissão perfeita?",
+   "a": "Mostra o estilo, não um ofício exato."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

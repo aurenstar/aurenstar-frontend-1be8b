@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "jauns mēness astroloģija",
+ "volume": "1000",
+ "slug": "jauns-menes-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jauns Mēness astroloģijā: ko tas nozīmē?",
+ "description": "Jaunais Mēness ir laiks jauniem sākumiem un nodomiem. Vienkārši izskaidrots, ar piemēru.",
+ "intro": "Jaunais Mēness ir brīdis, kad Mēness un Saule ir vienā zīmē, tāpēc Mēnesi debesīs neredz. Astroloģijā tā ir laba diena, lai sāktu kaut ko jaunu.",
+ "sections": [
+  {
+   "h2": "Kas ir jaunais Mēness?",
+   "paragraphs": [
+    "Iedomājies tukšu burtnīcas lapu mācību gada sākumā. Vēl nekas nav uzrakstīts, viss ir iespējams. Tā darbojas jaunais Mēness."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Ap jauno Mēnesi cilvēki bieži jūt vēlmi sākt no jauna, sakārtot mājas vai ko izlemt. Labi uzrakstīt vēlmes un nesteigties."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Anna jaunajā Mēnesī pierakstīja trīs mērķus mēnesim: katru vakaru pastaigāties, iemācīties dziesmu un piezvanīt vecai draudzenei. Līdz nākamajam pilnmēnesim viss bija izdarīts."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cik bieži ir jaunais Mēness?",
+   "a": "Apmēram reizi mēnesī, ik pēc 29 dienām."
+  },
+  {
+   "q": "Vai man kaut kas jādara?",
+   "a": "Nē, tas nav pienākums. Tā vienkārši ir laba iespēja apstāties un padomāt, ko vēlies."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

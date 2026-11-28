@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "planeta retrógrado astrología",
+ "volume": "1000",
+ "slug": "retrogradacion-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retrogradación en astrología: qué significa un planeta retrógrado",
+ "description": "Un planeta retrógrado parece ir hacia atrás visto desde la Tierra y pide revisar lo pendiente. Explicado fácil.",
+ "intro": "Cuando un planeta está retrógrado, desde la Tierra parece que camina hacia atrás. En astrología se interpreta como un momento para revisar, repasar y terminar lo pendiente.",
+ "sections": [
+  {
+   "h2": "¿Qué es la retrogradación?",
+   "paragraphs": [
+    "Es como cuando tu tren y el de al lado van en la misma dirección y el otro parece retroceder: un efecto óptico. El planeta no va hacia atrás de verdad, solo lo parece."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Se nota en que vuelven asuntos del pasado, personas antiguas o tareas sin cerrar. Es buen momento para revisar, no tanto para empezar cosas muy grandes."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Pablo escribe el borrador de un libro durante una retrogradación. En vez de publicarlo, lo revisa con calma, y el resultado final mejora mucho."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Todos los planetas se vuelven retrógrados?",
+   "a": "Todos menos el Sol y la Luna, que nunca lo hacen."
+  },
+  {
+   "q": "¿Debo tener miedo de una retrogradación?",
+   "a": "No, es un ritmo normal del cielo; solo conviene ir con más calma y revisar los detalles."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

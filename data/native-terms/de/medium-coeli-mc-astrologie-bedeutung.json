@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "medium coeli",
+ "volume": "1000",
+ "slug": "medium-coeli-mc-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Medium Coeli (MC): Was bedeutet es?",
+ "description": "Das MC ist der höchste Punkt deines Horoskops und zeigt Berufung und Ruf. Einfach erklärt, mit Beispiel.",
+ "intro": "Das Medium Coeli, kurz MC, ist der Punkt, der bei deiner Geburt am höchsten am Himmel stand. Es zeigt, wofür du in der Welt bekannt sein möchtest.",
+ "sections": [
+  {
+   "h2": "Was ist das MC?",
+   "paragraphs": [
+    "Stell dir ein Schild über deiner Ladentür vor: Es sagt, wofür du stehst. Das MC beschreibt Berufung, Ziele und öffentliches Bild."
+   ]
+  },
+  {
+   "h2": "Wie erkenne ich es?",
+   "paragraphs": [
+    "Frag dich: Wofür möchte ich geschätzt werden? Die Antwort passt oft zum Zeichen deines MC."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Sophie hat das MC im Löwen. Sie fühlt sich wohl, wenn sie vor Gruppen steht, und wurde Schauspiellehrerin."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist das MC mein Beruf?",
+   "a": "Nicht direkt, es zeigt eher die Richtung und das Wesen deiner Berufung."
+  },
+  {
+   "q": "Was ist der Gegenpol des MC?",
+   "a": "Das IC, der tiefste Punkt, der für Zuhause und Wurzeln steht."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

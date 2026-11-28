@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "uran astrologie",
+ "volume": "1000",
+ "slug": "uran-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uran v astrologii: co znamená?",
+ "description": "Uran ukazuje, kde chcete být svobodní a kde vás život překvapí. Jednoduše s příkladem.",
+ "intro": "Uran je planeta obnovy, svobody a nečekaného. V horoskopu vidíte, kde se odvážíte být jiní než ostatní.",
+ "sections": [
+  {
+   "h2": "Co dělá Uran?",
+   "paragraphs": [
+    "Představte si výpadek proudu: najednou je všechno jinak a musíte vymyslet něco nového. Takhle vás Uran probudí."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "V které oblasti nesnášíte pravidla a chcete jít vlastní cestou? Tam působí Uran. Často přijde s otřesem, ale potom se vám uleví."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Uran v domě práce: Jana nečekaně skončí v jistém zaměstnání a začne podnikat. Strašidelné, ale konečně jí to sedí."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak najdu svůj Uran?",
+   "a": "Z data narození zjistíte, v jakém znamení Uran stál. V jednom znamení zůstává asi sedm let."
+  },
+  {
+   "q": "Je Uran nebezpečný?",
+   "a": "Ne, přináší změnu. Kdo se nechá unést, získá svobodu a nové nápady."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "mlaj astrologija",
+ "volume": "1000",
+ "slug": "mlaj-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mlaj v astrologiji: kaj pomeni?",
+ "description": "Mlaj je čas za nove začetke in namene. Preprosto razloženo, s primerom.",
+ "intro": "Mlaj je trenutek, ko sta Luna in Sonce v istem znamenju, zato Lune na nebu ne vidimo. V astrologiji je to dober dan, da začnete kaj novega.",
+ "sections": [
+  {
+   "h2": "Kaj je mlaj?",
+   "paragraphs": [
+    "Predstavljajte si prazen list zvezka na začetku šolskega leta. Še nič ni napisano, vse je mogoče. Tako deluje mlaj."
+   ]
+  },
+  {
+   "h2": "Kako to opazite?",
+   "paragraphs": [
+    "Okoli mlaja ljudje pogosto začutijo željo, da bi začeli znova, pospravili stanovanje ali se za nekaj odločili. Dobro je, da zapišete želje in ne hitite."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Maja je ob mlaju zapisala tri cilje za mesec dni: vsak večer na sprehod, naučiti se pesmi in poklicati staro prijateljico. Do naslednjega ščipa je bilo vse opravljeno."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako pogosto je mlaj?",
+   "a": "Približno enkrat na mesec, na vsakih okoli 29 dni."
+  },
+  {
+   "q": "Ali moram kaj narediti?",
+   "a": "Ne, ni obveznosti. Je le priložnost, da se ustavite in si zamislite, kaj si želite."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

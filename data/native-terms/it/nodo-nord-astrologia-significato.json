@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "nodo nord",
+ "volume": "1000",
+ "slug": "nodo-nord-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nodo Nord: cos'è e cosa significa?",
+ "description": "Il Nodo Nord indica la direzione in cui crescere e la lezione di vita da imparare. Spiegato semplice, con esempio.",
+ "intro": "Il Nodo Nord è un punto del tuo tema natale che indica dove sei chiamato a crescere. È una bussola per il tuo percorso, non un obbligo.",
+ "sections": [
+  {
+   "h2": "Che cos'è il Nodo Nord?",
+   "paragraphs": [
+    "Immagina di camminare in un bosco: il Nodo Nord è il sentiero nuovo, un po' faticoso ma pieno di scoperte, mentre il vecchio sentiero è comodo e già noto."
+   ]
+  },
+  {
+   "h2": "Come lo senti?",
+   "paragraphs": [
+    "Quando fai qualcosa che ti spaventa e poi ti rende fiero di te, probabilmente stai seguendo il tuo Nodo Nord."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Davide è sempre stato timido. Il suo Nodo Nord invita a farsi sentire: quando partecipa a un corso di teatro, scopre di avere una voce che gli altri ascoltano."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Come trovo il mio Nodo Nord?",
+   "a": "Con data, ora e luogo di nascita in un calcolatore online."
+  },
+  {
+   "q": "Il Nodo Nord porta fortuna?",
+   "a": "Più che fortuna, porta senso: ti indica dove la fatica vale la pena."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

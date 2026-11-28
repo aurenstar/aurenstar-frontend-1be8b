@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "elemek az asztrológiában",
+ "volume": "1000",
+ "slug": "elemek-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Elemek az asztrológiában: tűz, föld, levegő, víz",
+ "description": "A négy elem a csillagjegyeket temperamentum szerint csoportosítja. Egyszerűen, példával.",
+ "intro": "Minden csillagjegy a négy elem valamelyikéhez tartozik: tűz, föld, levegő vagy víz. Az elem megmutatja, hogyan érez, gondolkodik és cselekszik az adott jegy.",
+ "sections": [
+  {
+   "h2": "Mit jelentenek az elemek?",
+   "paragraphs": [
+    "A tűz (Kos, Oroszlán, Nyilas) a lelkesedés, a föld (Bika, Szűz, Bak) a gyakorlatiasság, a levegő (Ikrek, Mérleg, Vízöntő) a beszéd és a gondolat, a víz (Rák, Skorpió, Halak) az érzelem."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Figyeld meg, hogyan reagálsz egy bajra: azonnal cselekszel, tervet készítesz, beszélsz róla, vagy először érzel. Ez elárulja az elemedet."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Zsófi Rák, vagyis víz: egy nehéz nap után teára és gyengédségre vágyik. A barátja, Tomi Kos, vagyis tűz, inkább elmegy futni."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Melyik a legjobb elem?",
+   "a": "Egyik sem, mindegyiknek megvan az erőssége, és a keverék működik a legjobban."
+  },
+  {
+   "q": "Kijönnek egymással az elemek?",
+   "a": "A tűz a levegővel, a föld a vízzel passzol, de bármelyik pár megértheti egymást, ha odafigyel."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

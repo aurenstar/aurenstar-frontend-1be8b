@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "quatre elements astrologia",
+ "volume": "1000",
+ "slug": "quatre-elements-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Els quatre elements en astrologia: què signifiquen?",
+ "description": "Foc, terra, aire i aigua divideixen els signes segons el temperament. Explicat fàcil i amb exemple.",
+ "intro": "Cadascun dels 12 signes pertany a un dels quatre elements: foc, terra, aire o aigua. L’element diu com es comporta el signe i de què s’alimenta.",
+ "sections": [
+  {
+   "h2": "Què són els elements?",
+   "paragraphs": [
+    "Imagina quatre tipus de gent en una festa: uns animen tothom (foc), uns altres preparen i organitzen (terra), uns tercers parlen amb tots (aire) i els quarts noten qui està trist (aigua). El foc són Àries, Lleó i Sagitari; la terra, Taure, Verge i Capricorn; l’aire, Bessons, Balança i Aquari; l’aigua, Cranc, Escorpí i Peixos."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "Pregunta’t què necessites més: acció, seguretat, conversa o proximitat. Aquest és el teu element principal. Quan et falta alguna cosa, busca-la: el foc necessita moviment, la terra natura, l’aire companyia, l’aigua calma."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "La Marta és Cranc, és a dir, aigua. Nota de seguida l’ambient de l’habitació, i el seu amic Marc és Àries, foc, i sempre és el primer a començar, per això es complementen tan bé."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quin és el meu element?",
+   "a": "Mira el teu signe segons la data de naixement i a quin grup pertany."
+  },
+  {
+   "q": "Els elements s’avenen entre ells?",
+   "a": "S’avenen més fàcilment el foc i l’aire, i la terra i l’aigua, però tothom pot entendre’s si ho prova."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

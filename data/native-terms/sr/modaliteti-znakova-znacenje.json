@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "modaliteti znakova astrologija",
+ "volume": "1000",
+ "slug": "modaliteti-znakova-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Modaliteti u astrologiji: kardinalni, fiksni, promenljivi",
+ "description": "Modalitet pokazuje kako znak započinje, održava ili menja stvari. Jednostavno objašnjeno, sa primerom.",
+ "intro": "Svih 12 znakova podeljeno je u tri grupe: kardinalne, fiksne i promenljive. Ta podela pokazuje kako se znak odnosi prema početku, trajanju i promeni.",
+ "sections": [
+  {
+   "h2": "Šta su modaliteti?",
+   "paragraphs": [
+    "Zamisli putovanje vozom. Kardinalni znakovi su onaj ko kupi kartu i krene (Ovan, Rak, Vaga, Jarac). Fiksni su onaj ko ostane da sedi na svom mestu do kraja puta (Bik, Lav, Škorpija, Vodolija). Promenljivi su onaj ko lako presedne i prilagodi plan (Blizanci, Devica, Strelac, Ribe)."
+   ]
+  },
+  {
+   "h2": "Kako to primetiti?",
+   "paragraphs": [
+    "Da li voliš da pokreneš stvari, da ih izdržiš do kraja ili da ih menjaš po potrebi? To pokazuje tvoj modalitet. Svakom treba druga vrsta podrške."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Mila je Ovan, kardinalna: sa lakoćom počne novu sekciju hora. Njena drugarica Ruža je Bik, fiksna: ostaje u horu već deset godina i drži ga na okupu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko znakova ima u svakom modalitetu?",
+   "a": "Po četiri, ukupno 12, i svaki element ima po jedan od svakog modaliteta."
+  },
+  {
+   "q": "Da li je jedan modalitet bolji?",
+   "a": "Ne, svaki je potreban: neko počinje, neko drži, neko prilagođava."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

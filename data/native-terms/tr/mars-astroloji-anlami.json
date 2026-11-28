@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "mars astroloji",
+ "volume": "1000",
+ "slug": "mars-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mars astrolojide ne anlama gelir?",
+ "description": "Mars enerjini, cesaretini ve harekete geçme şeklini gösterir. Basit anlatım.",
+ "intro": "Mars eylemin ve arzunun gezegenidir. Haritada işlere nasıl başladığını ve kendini nasıl savunduğunu gösterir.",
+ "sections": [
+  {
+   "h2": "Mars neyi yönetir?",
+   "paragraphs": [
+    "Arabanın motoru gibi: enerji ve hız verir. Nasıl kızdığın, tartıştığın, engelleri aştığın ona bağlıdır."
+   ]
+  },
+  {
+   "h2": "Nasıl fark edilir?",
+   "paragraphs": [
+    "Kırıldığında ne yaparsın: üstüne gider misin, donar mısın, içinde biriktirir misin? Bu Mars'tır."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Barış'ın Mars'ı Koç'ta: hızlı karar verir, sporu sever. Yengeç'te olsa daha temkinli olur, önce yakınlarını düşünürdü."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mars hep saldırganlık mı?",
+   "a": "Hayır, saf enerjidir; spora, işe, yaratıcılığa yönlendirilebilir."
+  },
+  {
+   "q": "Marsımı nasıl bulurum?",
+   "a": "Doğum tarihinle hesaplayıcı burcu ve evi verir."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

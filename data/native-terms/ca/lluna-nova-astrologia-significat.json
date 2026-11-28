@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "lluna nova astrologia",
+ "volume": "1000",
+ "slug": "lluna-nova-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lluna nova en astrologia: què significa?",
+ "description": "La lluna nova és el moment dels nous inicis i de les intencions. Explicat fàcil i amb exemple.",
+ "intro": "La lluna nova és el moment en què la Lluna i el Sol són al mateix signe, i per això la Lluna no es veu al cel. En astrologia és un bon dia per començar alguna cosa nova.",
+ "sections": [
+  {
+   "h2": "Què és la lluna nova?",
+   "paragraphs": [
+    "Imagina una pàgina en blanc de la llibreta a l’inici del curs. Encara no hi ha res escrit i tot és possible. Així actua la lluna nova."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "Al voltant de la lluna nova la gent sovint nota ganes de començar de nou, d’endreçar casa o de decidir-se per alguna cosa. Va bé apuntar els desitjos i no tenir pressa."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "La Marta, en una lluna nova, va apuntar tres objectius per a un mes: passejar cada vespre, aprendre una cançó i trucar a una amiga de fa temps. Abans de la lluna plena següent ja ho havia fet tot."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cada quant hi ha lluna nova?",
+   "a": "Aproximadament un cop al mes, cada uns 29 dies."
+  },
+  {
+   "q": "He de fer alguna cosa?",
+   "a": "No, no és una obligació. Només és una bona ocasió per aturar-te i imaginar què vols."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

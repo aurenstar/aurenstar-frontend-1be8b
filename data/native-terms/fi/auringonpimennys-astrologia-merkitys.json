@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "auringonpimennys astrologia",
+ "volume": "1000",
+ "slug": "auringonpimennys-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Auringonpimennys astrologiassa: mitä se tarkoittaa?",
+ "description": "Auringonpimennys antaa suuren uuden alun ja töytäisyn kohti muutosta. Selitetty esimerkillä.",
+ "intro": "Auringonpimennyksessä kuu liukuu auringon eteen. Astrologiassa se on erityisen voimakas uusikuu, joka avaa uuden luvun.",
+ "sections": [
+  {
+   "h2": "Mitä auringonpimennys tekee?",
+   "paragraphs": [
+    "Ajattele verhoa, joka vedetään hetkeksi ikkunan eteen: valo katoaa hetkeksi, ja sen jälkeen näet huoneen uudella tavalla. Niin pimennys avaa uuden vaiheen."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Asiat muuttuvat suunniteltua nopeammin: uusi työ, muutto tai uusi oivallus. Vaikutus näkyy usein seuraavina viikkoina ja kuukausina."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Auringonpimennys Härässä: Aino saa yllättäen uuden tarjouksen ja valitsee enemmän varmuutta talouteensa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuinka usein on auringonpimennys?",
+   "a": "Yleensä kaksi kertaa vuodessa, niissä kartan kohdissa, joihin merkki osuu."
+  },
+  {
+   "q": "Onko pimennys vaarallinen?",
+   "a": "Ei, se on töytäisy kohti muutosta. Pysy rauhallisena ja katso, minne se vie."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

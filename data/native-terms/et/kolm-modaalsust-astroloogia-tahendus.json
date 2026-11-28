@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "kolm modaalsust astroloogia",
+ "volume": "1000",
+ "slug": "kolm-modaalsust-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Modaalsused astroloogias: kardinaalne, fikseeritud, muutlik",
+ "description": "Modaalsus näitab, kuidas märk alustab, hoiab või muudab asju. Lihtsalt seletatud ja näitega.",
+ "intro": "Kõik 12 märki on jagatud kolme rühma: kardinaalsed, fikseeritud ja muutlikud. See jaotus näitab, kuidas märk suhtub algusesse, püsimisse ja muutumisse.",
+ "sections": [
+  {
+   "h2": "Mis on modaalsused?",
+   "paragraphs": [
+    "Kujuta ette rongisõitu. Kardinaalsed märgid on see, kes ostab pileti ja startib (Jäär, Vähk, Kaalud, Kaljukits). Fikseeritud on see, kes jääb oma kohale istuma teekonna lõpuni (Sõnn, Lõvi, Skorpion, Veevalaja). Muutlikud on see, kes astub hõlpsalt ümber ja kohandab plaani (Kaksikud, Neitsi, Ambur, Kalad)."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Kas sulle meeldib asju käivitada, lõpuni vastu pidada või vajaduse korral muuta? See näitab su modaalsust. Igaüks vajab erinevat toetust."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Mari on Jäär, kardinaalne: alustab kerge vaevaga kooris uut rühma. Tema sõbranna Roosi on Sõnn, fikseeritud: on kooris olnud kümme aastat ja hoiab seda koos."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mitu märki igas modaalsuses on?",
+   "a": "Neli, kokku 12, ja igal elemendil on igast modaalsusest üks."
+  },
+  {
+   "q": "Kas üks modaalsus on parem?",
+   "a": "Ei, igat on vaja: keegi alustab, keegi hoiab, keegi kohandab."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

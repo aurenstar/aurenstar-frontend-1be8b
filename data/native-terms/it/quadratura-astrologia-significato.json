@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "quadratura astrologia",
+ "volume": "1000",
+ "slug": "quadratura-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Quadratura in astrologia: cosa significa?",
+ "description": "La quadratura è un angolo di 90 gradi che crea attrito e ti spinge ad agire. Spiegata semplice, con esempio.",
+ "intro": "La quadratura è un angolo di 90 gradi tra due pianeti. Crea attrito, ma quell'attrito ti dà la spinta per muoverti.",
+ "sections": [
+  {
+   "h2": "Che cos'è?",
+   "paragraphs": [
+    "Come un sassolino nella scarpa: fastidioso, ma ti costringe a fermarti e sistemare. La quadratura ti fa agire."
+   ]
+  },
+  {
+   "h2": "Come si nota?",
+   "paragraphs": [
+    "Ci sono due parti di te che non vanno d'accordo e ti creano dubbi. Quando le fai parlare, trovi la tua forza."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Alessia ha Luna in quadratura a Saturno: tende a trattenere le emozioni. Con la scrittura le esprime, e la sua autostima cresce."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "La quadratura è sfortuna?",
+   "a": "No, è una sfida che forma il carattere."
+  },
+  {
+   "q": "Quanti gradi di margine?",
+   "a": "Circa 6-8 gradi attorno ai 90."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

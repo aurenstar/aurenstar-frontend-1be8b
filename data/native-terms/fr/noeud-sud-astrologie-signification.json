@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "noeud sud astrologie",
+ "volume": "1000",
+ "slug": "noeud-sud-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nœud Sud en astrologie : que signifie-t-il ?",
+ "description": "Le Nœud Sud montre ce que tu sais déjà faire et ce que tu répètes par confort. Expliqué simplement, avec un exemple.",
+ "intro": "Le Nœud Sud désigne les talents et les habitudes que tu apportes déjà en naissant. C’est ta zone de confort : pratique, mais on n’y progresse plus.",
+ "sections": [
+  {
+   "h2": "C’est quoi, le Nœud Sud ?",
+   "paragraphs": [
+    "C’est le trajet que tu fais tous les jours pour aller au travail sans réfléchir. Tu le connais par cœur, et tu risques d’y rester coincé."
+   ]
+  },
+  {
+   "h2": "Comment le repérer ?",
+   "paragraphs": [
+    "Pense à ce que tu fais toujours pareil, même si cela ne t’apporte plus rien. En face se trouve le Nœud Nord, qui t’invite à essayer autre chose."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Julien a le Nœud Sud en Capricorne et prend tout comme un devoir. Quand il apprend à se reposer et à demander de l’aide, il se sent enfin léger."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Le Nœud Sud est-il négatif ?",
+   "a": "Non, ce sont des talents ; il faut simplement ne pas s’y enfermer."
+  },
+  {
+   "q": "Où se situe-t-il ?",
+   "a": "Toujours exactement en face du Nœud Nord dans le thème."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

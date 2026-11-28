@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "güneş tutulması astroloji",
+ "volume": "1000",
+ "slug": "gunes-tutulmasi-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Güneş tutulması astrolojide ne anlama gelir?",
+ "description": "Güneş tutulması ani dönüşlerin ve yeni başlangıçların zamanıdır. Basit anlatım.",
+ "intro": "Güneş tutulması, Yeni Ay sırasında Ay'ın Güneş'i örtmesidir. Astrolojide dönüm noktası sayılır.",
+ "sections": [
+  {
+   "h2": "Ne anlama gelir?",
+   "paragraphs": [
+    "Yolda ani bir dönemeç gibi: eski yol biter, yenisi açılır. Sıradan Yeni Ay'dan daha güçlü etki eder."
+   ]
+  },
+  {
+   "h2": "Nasıl hissedilir?",
+   "paragraphs": [
+    "Çoğu zaman beklenmedik gelişir: yeni iş, taşınma, yeni tanışmalar. Etki birkaç ay sürebilir."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Yengeç'teki güneş tutulmasından sonra Serkan'a başka şehre taşınma teklifi geldi. Önce korktu, ama altı ay sonra doğru adım olduğunu gördü."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Tutulmalar ne sıklıkla olur?",
+   "a": "Genelde yılda iki üç çift."
+  },
+  {
+   "q": "Korkmak gerekir mi?",
+   "a": "Hayır, sadece değişimi hızlandırırlar."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

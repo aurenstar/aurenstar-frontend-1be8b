@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "neptunusz asztrológia",
+ "volume": "1000",
+ "slug": "neptunusz-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptunusz az asztrológiában: mit jelent?",
+ "description": "A Neptunusz megmutatja, hol álmodozol, hiszel és tévedsz könnyen. Egyszerűen, példával.",
+ "intro": "A Neptunusz az álmok, az intuíció és a köd bolygója. A horoszkópban látszik, hol vagy ihletett, és hol látod a dolgokat úgy, ahogy szeretnéd.",
+ "sections": [
+  {
+   "h2": "Mit csinál a Neptunusz?",
+   "paragraphs": [
+    "Olyan, mint a reggeli köd a tó fölött: szép, de nehéz megítélni a távolságot. A Neptunusz elmossa a határokat, és felébreszti a képzeletet."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Melyik területen révedsz el könnyen, vagy hagyod magad becsapni? Ott dolgozik a Neptunusz. Segít a zene, a művészet és a csend."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Neptunusz a szerelem házában: Zsófi eszményit lát az új ismerősben, egy hónap múlva rájön, hogy ő is csak ember. Megtanul józanabbul nézni, anélkül hogy elveszítené a gyengédségét."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Csalást jelent a Neptunusz?",
+   "a": "Nem mindig, de arra tanít, hogy ellenőrizd a tényeket, és ne csak a képzeletedre építs."
+  },
+  {
+   "q": "Hogyan használjam jól a Neptunuszt?",
+   "a": "Alkotással, meditációval és mások segítésével, mert ott az érzékenysége erő."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

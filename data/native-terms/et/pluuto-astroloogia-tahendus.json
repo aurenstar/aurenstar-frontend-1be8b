@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "pluuto astroloogia",
+ "volume": "1000",
+ "slug": "pluuto-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pluuto astroloogias: mida see tähendab?",
+ "description": "Pluuto näitab sügavat muutumist, jõudu ja uut algust. Lihtsalt seletatud ja näitega.",
+ "intro": "Pluuto on sügavate muutuste planeet. Seal, kus ta sinu kaardil on, peab midagi vana ära minema, et sünniks midagi tugevamat.",
+ "sections": [
+  {
+   "h2": "Mida Pluuto teeb?",
+   "paragraphs": [
+    "Kujuta ette vana kappi, mille tühjendad kord aastas täiesti. Asjade äraviskamine on valus, aga pärast on ruum puhas. Selline on Pluuto."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Millises valdkonnas tuled läbi suurte kriiside, mille järel oled teistsugune? Seal töötab Pluuto. Mida kergemini vana lahti lased, seda kiiremini uuenemine algab."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Margusel on Pluuto raha majas. Pärast suurt kaotust õpib ta kokku hoidma ja ehitab uue alguse, ning täna on ta palju kindlam kui varem."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kui kaua Pluuto ühes märgis püsib?",
+   "a": "Kaksteist kuni kolmkümmend aastat, seepärast jagab teda terve põlvkond."
+  },
+  {
+   "q": "Kas Pluuto on hirmus?",
+   "a": "Ei, ta on lihtsalt aus. Tema muutused teevad haiget, aga jätavad jõudu."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

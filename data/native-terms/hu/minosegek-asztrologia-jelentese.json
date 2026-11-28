@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "kardinális fix mutábilis asztrológia",
+ "volume": "1000",
+ "slug": "minosegek-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Minőségek az asztrológiában: kardinális, fix és mutábilis",
+ "description": "A három minőség megmutatja, hogyan kezd, tart ki és változtat egy jegy. Egyszerűen, példával.",
+ "intro": "A csillagjegyek három minőségbe is sorolhatók: kardinális, fix és mutábilis. Megmutatják, hogy az adott jegy inkább kezdeni, kitartani vagy alkalmazkodni szeret.",
+ "sections": [
+  {
+   "h2": "Mit jelentenek a minőségek?",
+   "paragraphs": [
+    "A kardinális jegyek (Kos, Rák, Mérleg, Bak) kezdik az évszakot, és szívesen indítanak valami újat. A fix jegyek (Bika, Oroszlán, Skorpió, Vízöntő) az évszak közepén állnak, és tartják az irányt. A mutábilis jegyek (Ikrek, Szűz, Nyilas, Halak) zárják az évszakot, és könnyen alkalmazkodnak."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Kérdezd meg magadtól, mi megy a legjobban: elkezdeni, befejezni, vagy menet közben terveket változtatni. Ez árulja el a minőségedet."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Zsófi Mérleg, vagyis kardinális, és havonta új ötlete van. A férje, Marci Bika, vagyis fix, évek óta ugyanazon az útvonalon jár, és elégedett vele."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Fontosabb a minőség, mint az elem?",
+   "a": "Nem, ez csak a jegy leírásának második módja; az elemmel együtt teljesebb képet ad."
+  },
+  {
+   "q": "A fix jegy makacs?",
+   "a": "Gyakran igen, de ugyanez a vonás hűséget és kitartást is hoz."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

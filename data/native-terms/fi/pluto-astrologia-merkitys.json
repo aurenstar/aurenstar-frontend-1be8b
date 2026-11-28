@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "pluto astrologia",
+ "volume": "1000",
+ "slug": "pluto-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pluto astrologiassa: mitä se tarkoittaa?",
+ "description": "Pluto näyttää, missä muutut syvästi ja aloitat alusta. Selitetty esimerkillä.",
+ "intro": "Pluto on syvän muutoksen, vallan ja uudelleensyntymisen planeetta. Kartassasi näet, missä jonkin täytyy päättyä, jotta jotain uutta voi kasvaa.",
+ "sections": [
+  {
+   "h2": "Mitä Pluto tekee?",
+   "paragraphs": [
+    "Ajattele ähkyyn täytetyn ullakon siivoamista: päästäminen irti on vaikeaa, mutta sen jälkeen tilaa on. Niin Pluto toimii."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Millä alueella tunnet voimakasta tarvetta tehdä kaikki tai ei mitään? Siellä Pluto vaikuttaa. Kriisit tuntuvat raskailta, mutta vahvistavat."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Pluto työn talossa: Aino menettää työnsä, löytää sen, mitä todella haluaa, ja rakentaa täysin uuden elämän."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Miten löydän Plutoni?",
+   "a": "Syntymäpäivällä näet Plutonin merkin. Se viipyy yhdessä merkissä kahdestatoista kolmeenkymmeneen vuotta."
+  },
+  {
+   "q": "Onko Pluto pelottava?",
+   "a": "Ei, se vaatii rehellisyyttä. Se, joka uskaltaa päästää irti, saa suuren voiman takaisin."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

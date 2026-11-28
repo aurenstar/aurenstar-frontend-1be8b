@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "cung hoạt động cố định biến đổi",
+ "volume": "1000",
+ "slug": "cung-hoat-dong-co-dinh-bien-doi-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ba dạng cung (hoạt động, cố định, biến đổi) trong chiêm tinh là gì?",
+ "description": "12 cung chia thành cung khởi xướng, cung giữ vững và cung linh hoạt. Giải thích đơn giản, có ví dụ.",
+ "intro": "Ba dạng cung là cách chia 12 cung theo kiểu làm việc: cung hoạt động hay khởi đầu, cung cố định hay giữ vững, cung biến đổi hay thích nghi.",
+ "sections": [
+  {
+   "h2": "Ba dạng cung là gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến mùa. Đầu mùa là cung hoạt động (Bạch Dương, Cự Giải, Thiên Bình, Ma Kết), giữa mùa là cung cố định (Kim Ngưu, Sư Tử, Bọ Cạp, Bảo Bình), cuối mùa là cung biến đổi (Song Tử, Xử Nữ, Nhân Mã, Song Ngư)."
+   ]
+  },
+  {
+   "h2": "Làm sao nhận ra?",
+   "paragraphs": [
+    "Cung hoạt động hay nói \"cứ bắt đầu đã\", cung cố định nói \"đã quyết thì làm tới cùng\", cung biến đổi nói \"tùy tình hình mà chỉnh\"."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Mặt Trời của Lan ở Kim Ngưu nên thuộc cung cố định. Kế hoạch đã định cô theo đến cùng, nhưng bị đổi lịch đột ngột thì rất khó chịu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Dạng nào tốt nhất?",
+   "a": "Không có dạng tốt hay xấu. Khi trộn đủ ba dạng, việc bắt đầu, giữ vững và thích nghi sẽ cân bằng."
+  },
+  {
+   "q": "Làm sao biết dạng cung của tôi?",
+   "a": "Xem cung Mặt Trời thuộc nhóm nào, và dùng lá số miễn phí để xem thêm Mặt Trăng và cung Mọc."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

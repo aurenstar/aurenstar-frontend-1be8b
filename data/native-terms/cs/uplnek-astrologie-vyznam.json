@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "úplněk astrologie",
+ "volume": "1000",
+ "slug": "uplnek-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Úplněk v astrologii: co znamená?",
+ "description": "Úplněk ukazuje, co je hotové, co vychází najevo a co můžete pustit. Jednoduše vysvětleno.",
+ "intro": "Při úplňku stojí Měsíc proti Slunci a je celý osvětlený. V astrologii je to vrchol měsíčního cyklu.",
+ "sections": [
+  {
+   "h2": "Co dělá úplněk?",
+   "paragraphs": [
+    "Představte si rozsvícení světla v temné místnosti: najednou vidíte všechno. Tak úplněk ukáže, co se děje."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "Mnoho lidí je citlivějších, hůř spí nebo má energie navíc. Znamení úplňku ukazuje téma."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Úplněk v Raku: Jana si všimne, že se jí už týdny stýská po rodině, a konečně zavolá mamince."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak často je úplněk?",
+   "a": "Zhruba každých 29,5 dne, téměř každý měsíc."
+  },
+  {
+   "q": "Zblázním se opravdu z úplňku?",
+   "a": "Ne, ale je to dobrá chvíle podívat se upřímně na své pocity."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "luna llena astrología",
+ "volume": "1000",
+ "slug": "luna-llena-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Luna Llena en astrología: qué significa y cómo influye",
+ "description": "La Luna Llena trae emociones intensas y resultados visibles. Explicado fácil, con ejemplo.",
+ "intro": "La Luna Llena ocurre cuando el Sol y la Luna están en lados contrarios del cielo y la Luna se ve entera. En astrología marca un momento de máxima claridad, de resultados y de emociones intensas.",
+ "sections": [
+  {
+   "h2": "¿Qué es la Luna Llena?",
+   "paragraphs": [
+    "Es como encender la luz en una habitación a oscuras: de pronto ves todo lo que había. La Luna Llena saca a la luz lo que estaba escondido."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Algunas personas duermen peor o se sienten más sensibles. También es época de cierres: terminas proyectos o sueltas lo que ya no necesitas."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Raúl llevaba semanas con una duda en el trabajo. En una Luna Llena lo ve todo claro y toma la decisión que evitaba."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿La Luna Llena afecta al sueño?",
+   "a": "Algunos estudios dicen que sí un poco, pero no todos coinciden."
+  },
+  {
+   "q": "¿Es buen momento para empezar algo?",
+   "a": "Es mejor para cerrar y celebrar; para empezar, la Luna Nueva."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

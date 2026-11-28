@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "štirje elementi astrologija",
+ "volume": "1000",
+ "slug": "stirje-elementi-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Štirje elementi v astrologiji: kaj pomenijo?",
+ "description": "Ogenj, zemlja, zrak in voda delijo znamenja po temperamentu. Preprosto razloženo, s primerom.",
+ "intro": "Vsako od 12 znamenj spada v enega od štirih elementov: ognja, zemlje, zraka ali vode. Element pove, kako se znamenje vede in s čim se hrani.",
+ "sections": [
+  {
+   "h2": "Kaj so elementi?",
+   "paragraphs": [
+    "Predstavljajte si štiri vrste ljudi na zabavi: eni zabavajo vse (ogenj), drugi pripravljajo in organizirajo (zemlja), tretji se pogovarjajo z vsemi (zrak), četrti začutijo, kdo je žalosten (voda). Ogenj sestavljajo Oven, Lev in Strelec, zemljo Bik, Devica in Kozorog, zrak Dvojčka, Tehtnica in Vodnar, vodo pa Rak, Škorpijon in Ribi."
+   ]
+  },
+  {
+   "h2": "Kako to opazite?",
+   "paragraphs": [
+    "Vprašajte se, kaj potrebujete najbolj: akcijo, varnost, pogovor ali bližino. To je vaš glavni element. Ko vam nečesa manjka, ga poiščite: ognju gre za gibanje, zemlji za naravo, zraku za družbo, vodi za mir."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Maja je Rak, torej voda. Takoj začuti razpoloženje v prostoru, njen prijatelj Marko je Oven, ogenj, in vedno prvi krene, zato se tako lepo dopolnjujeta."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kateri je moj element?",
+   "a": "Poglejte svoje znamenje po datumu rojstva in poglejte, v katero skupino spada."
+  },
+  {
+   "q": "Ali se elementi ujemajo med seboj?",
+   "a": "Najlažje se ujemata ogenj in zrak ter zemlja in voda, a vsakdo se lahko ujame, če se potrudi."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

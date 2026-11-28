@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "marte astrología",
+ "volume": "1000",
+ "slug": "marte-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Marte en astrología: qué significa en tu carta",
+ "description": "Marte muestra tu energía, tu deseo y cómo luchas por lo que quieres. Explicado fácil, con ejemplo.",
+ "intro": "Marte es el planeta de la acción, el deseo y la fuerza. En tu carta indica cómo te enfadas, cómo actúas y cómo vas a por lo que quieres.",
+ "sections": [
+  {
+   "h2": "¿Qué hace Marte?",
+   "paragraphs": [
+    "Es el motor de tu coche: sin él no arrancas. Marte es la energía que te pone en marcha y te da valor."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Observa cómo reaccionas cuando algo te molesta o cuando quieres algo con ganas. Algunos explotan de golpe, otros callan y aguantan."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Nuria tiene Marte en Escorpio: actúa con calma y no se rinde nunca. Su hermano, con Marte en Aries, salta rápido pero se le pasa enseguida."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Marte es agresivo?",
+   "a": "Es energía; usada bien, da valentía y disciplina."
+  },
+  {
+   "q": "¿Marte influye en el deporte?",
+   "a": "Sí, muestra cómo gastas la energía y qué tipo de ejercicio te va mejor."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

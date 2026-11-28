@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "pomračenje sunca astrologija",
+ "volume": "1000",
+ "slug": "pomracenje-sunca-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pomračenje Sunca u astrologiji: šta znači?",
+ "description": "Pomračenje Sunca donosi nagle početke i preokrete. Jednostavno objašnjeno, sa primerom.",
+ "intro": "Pomračenje Sunca nastaje kad Mesec zakloni Sunce. U astrologiji je to jak mladi mesec, vreme kad život može da se okrene i da otvori novo poglavlje.",
+ "sections": [
+  {
+   "h2": "Šta je pomračenje Sunca?",
+   "paragraphs": [
+    "Zamisli da neko na tren ugasi glavno svetlo u sobi, a kad se upali, vidiš sve drugačije. Tako deluje pomračenje Sunca."
+   ]
+  },
+  {
+   "h2": "Kako to primetiti?",
+   "paragraphs": [
+    "Posle pomračenja Sunca često dolazi neočekivana vest, nov posao, selidba ili odluka koja menja pravac. Ne mora biti odmah, ponekad traje nekoliko meseci."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Marko je u vreme pomračenja Sunca dobio poziv za posao u drugom gradu. Nije ga planirao, ali ga je prihvatio i danas kaže da je to bilo najbolje."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko često su pomračenja Sunca?",
+   "a": "Dva ili tri puta godišnje, a nisu uvek vidljiva sa svakog mesta."
+  },
+  {
+   "q": "Da li treba da se plašim?",
+   "a": "Ne, to nije kazna. Samo ne žuri sa velikim potezima i prati šta se otvara."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

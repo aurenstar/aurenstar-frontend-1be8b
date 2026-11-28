@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "nodo norte",
+ "volume": "1000",
+ "slug": "nodo-norte-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nodo Norte: o que é e o que significa?",
+ "description": "O Nodo Norte indica a direção em que você deve crescer e a lição de vida. Explicado de forma simples, com exemplo.",
+ "intro": "O Nodo Norte é um ponto do mapa astral que mostra para onde você é chamado a crescer. É uma bússola, não uma obrigação.",
+ "sections": [
+  {
+   "h2": "O que é o Nodo Norte?",
+   "paragraphs": [
+    "Imagine uma trilha na mata: o Nodo Norte é o caminho novo, mais cansativo, mas cheio de descobertas; o caminho velho é confortável e já conhecido."
+   ]
+  },
+  {
+   "h2": "Como sentir?",
+   "paragraphs": [
+    "Quando você faz algo que dá medo e depois se orgulha de si mesmo, provavelmente está seguindo seu Nodo Norte."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Diego sempre foi tímido. O Nodo Norte o convida a se expressar: ao entrar num curso de teatro, ele descobre que tem uma voz que as pessoas escutam."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Como achar meu Nodo Norte?",
+   "a": "Com data, hora e local de nascimento numa calculadora online."
+  },
+  {
+   "q": "Ele traz sorte?",
+   "a": "Mais do que sorte, traz sentido: mostra onde o esforço vale a pena."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "päike astroloogia",
+ "volume": "1000",
+ "slug": "paike-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Päike astroloogias: mida see tähendab?",
+ "description": "Päike näitab sinu tuuma, seda, kes sa oled. Lihtsalt seletatud ja näitega.",
+ "intro": "Päike on sinu horoskoobi põhimärk, see, mille järgi inimesed sind tunnevad. Ta näitab, mis sind liigutab ja kuidas sa kõige meelsamini särad.",
+ "sections": [
+  {
+   "h2": "Mida Päike teeb?",
+   "paragraphs": [
+    "Kujuta ette lampi toa keskel, mille ümber kõik keerleb. Just selline on Päike sinu kaardil: isiksuse ja tahte keskpunkt."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Kui teed midagi, mis on täiesti sinu enda moodi, ja tunned end elava ning kindlana, siis su Päike särab. Teist rolli mängides tunned tühjust."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Marial on Päike Lõvis. Ta juhib meelsasti seltskonda ja tahab, et teda märgataks, ning päev läheb ilusamaks, kui ta kedagi julgustab."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuidas oma Päikest teada saada?",
+   "a": "See on sinu märk sünnikuupäeva järgi, seega see, mida kõik teavad."
+  },
+  {
+   "q": "Kas Päikesest piisab kogu horoskoobiks?",
+   "a": "Ei, see on alles algus. Kuu, Veenus ja teised täiendavad lugu."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

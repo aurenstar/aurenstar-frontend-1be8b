@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "słońce w astrologii",
+ "volume": "1000",
+ "slug": "slonce-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Słońce w astrologii: co oznacza?",
+ "description": "Słońce pokazuje, kim naprawdę jesteś i co daje ci energię. Wyjaśnione prosto, z przykładem.",
+ "intro": "Słońce to twój znak zodiaku, czyli rdzeń osobowości. Mówi, kim chcesz być i co sprawia, że czujesz się sobą.",
+ "sections": [
+  {
+   "h2": "Co robi Słońce?",
+   "paragraphs": [
+    "To jak latarnia na środku podwórka: wszystko kręci się wokół niej. Znak Słońca pokazuje, jak świecisz i czego potrzebujesz, żeby mieć siłę."
+   ]
+  },
+  {
+   "h2": "Jak to zauważysz?",
+   "paragraphs": [
+    "Pomyśl, kiedy czujesz się w pełni sobą, a kiedy udajesz kogoś innego. To pierwsze zwykle jest twoim Słońcem."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Kasia ma Słońce w Lwie. Lubi być zauważona, szczodrze częstuje znajomych i więdnie, gdy nikt jej nie docenia."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy Słońce to to samo, co mój znak zodiaku?",
+   "a": "Tak, znak zodiaku to znak, w którym było Słońce w dniu twoich urodzin."
+  },
+  {
+   "q": "Czy samo Słońce wystarczy, by mnie poznać?",
+   "a": "Nie, to dopiero początek. Księżyc i Ascendent dodają emocje i pierwsze wrażenie."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "nymåne astrologi",
+ "volume": "1000",
+ "slug": "nymane-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nymåne i astrologi: hva betyr det?",
+ "description": "Nymånen er tidspunktet for å begynne på nytt og sette ønsker. Enkelt forklart med eksempel.",
+ "intro": "Ved nymåne står solen og månen på samme sted på himmelen, og månen er ikke synlig. I astrologien er det startpunktet for en ny månesyklus.",
+ "sections": [
+  {
+   "h2": "Hva gjør nymånen?",
+   "paragraphs": [
+    "Tenk på en tom notatbok: ingenting er skrevet ennå, alt er mulig. Slik føles en nymåne: plass til en ny start."
+   ]
+  },
+  {
+   "h2": "Hvordan merker du det?",
+   "paragraphs": [
+    "Du får lyst til å rydde, prøve noe nytt eller skrive ned en plan. Nymånens tegn viser temaet."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Nymåne i Vekten: Ingrid skriver ned hvordan hun vil gjøre forholdene sine ærligere, og avtaler en første kaffe."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvor ofte er det nymåne?",
+   "a": "Omtrent hver 29,5. dag, altså nesten hver måned."
+  },
+  {
+   "q": "Må jeg skrive ned ønsker?",
+   "a": "Nei, men et kort og tydelig ønske hjelper deg å fokusere."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

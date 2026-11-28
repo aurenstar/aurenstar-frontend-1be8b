@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "modalidades do zodíaco",
+ "volume": "1000",
+ "slug": "modalidades-zodiaco-cardinais-fixos-mutaveis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "As 3 modalidades: cardinais, fixos e mutáveis",
+ "description": "As modalidades mostram como os signos reagem: iniciam, mantêm ou se adaptam. Explicação fácil, com exemplo.",
+ "intro": "Cada signo é cardinal, fixo ou mutável. Essa modalidade indica o seu estilo de lidar com mudanças.",
+ "sections": [
+  {
+   "h2": "Quais são?",
+   "paragraphs": [
+    "Os cardinais (Áries, Câncer, Libra, Capricórnio) iniciam; os fixos (Touro, Leão, Escorpião, Aquário) mantêm; os mutáveis (Gêmeos, Virgem, Sagitário, Peixes) se adaptam."
+   ]
+  },
+  {
+   "h2": "Como reconhecer?",
+   "paragraphs": [
+    "Pense num projeto: tem quem lança, quem leva adiante com constância e quem ajusta os detalhes quando o plano muda."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "No grupo de amigos, Marta (Áries) lança a ideia da viagem, Daniel (Touro) reserva e nunca muda o roteiro, Sofia (Peixes) se adapta a tudo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Uma modalidade é melhor?",
+   "a": "Não, o mundo precisa das três."
+  },
+  {
+   "q": "Como descubro a minha?",
+   "a": "Pelo seu signo solar e pelos outros planetas."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

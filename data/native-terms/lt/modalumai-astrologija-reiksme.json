@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "kardinalūs pastovūs kaitūs ženklai astrologija",
+ "volume": "1000",
+ "slug": "modalumai-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Modalumai astrologijoje: kardinaliniai, pastovūs, kaitūs",
+ "description": "Modalumas rodo, kaip ženklas pradeda, išlaiko ar keičia dalykus. Paprastai paaiškinta, su pavyzdžiu.",
+ "intro": "Visi 12 ženklų suskirstyti į tris grupes: kardinalius, pastovius ir kaitus. Šis skirstymas rodo, kaip ženklas žiūri į pradžią, tvarumą ir pokytį.",
+ "sections": [
+  {
+   "h2": "Kas yra modalumai?",
+   "paragraphs": [
+    "Įsivaizduok kelionę traukiniu. Kardinaliniai ženklai yra tas, kuris nusiperka bilietą ir iškeliauja (Avinas, Vėžys, Svarstyklės, Ožiaragis). Pastovūs yra tas, kuris lieka sėdėti savo vietoje iki kelionės pabaigos (Jautis, Liūtas, Skorpionas, Vandenis). Kaitūs yra tas, kuris lengvai persėda ir pritaiko planą (Dvyniai, Mergelė, Šaulys, Žuvys)."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Ar mėgsti dalykus pradėti, ištverti iki galo ar keisti pagal poreikį? Tai rodo tavo modalumą. Kiekvienam reikia kitokios paramos."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Rūta yra Avinas, kardinalinis: lengvai pradeda naują grupę chore. Jos draugė Rožė yra Jautis, pastovus: chore dainuoja jau dešimt metų ir laiko jį kartu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kiek ženklų yra kiekviename modalume?",
+   "a": "Po keturis, iš viso 12, o kiekvienas elementas turi po vieną iš kiekvieno modalumo."
+  },
+  {
+   "q": "Ar vienas modalumas geresnis?",
+   "a": "Ne, reikia visų: vieni pradeda, kiti išlaiko, treti pritaiko."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

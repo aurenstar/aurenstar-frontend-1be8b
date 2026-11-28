@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "venus astrología",
+ "volume": "1000",
+ "slug": "venus-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venus en astrología: qué significa en tu carta",
+ "description": "Venus muestra cómo amas, qué te gusta y qué valoras. Explicado fácil, con ejemplo.",
+ "intro": "Venus es el planeta del amor, la belleza y el placer. En tu carta indica cómo te enamoras y qué cosas valoras.",
+ "sections": [
+  {
+   "h2": "¿Qué hace Venus?",
+   "paragraphs": [
+    "Piensa en lo que te hace sentir bien: un buen plato, una canción, un abrazo. Venus es ese gusto personal y la manera en que das y recibes cariño."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Mira cómo coqueteas y qué te atrae de las personas. Algunos necesitan palabras bonitas, otros pequeños gestos o regalos."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Clara tiene Venus en Cáncer: demuestra el cariño cocinando y cuidando. Su pareja, con Venus en Aries, prefiere la acción y los planes espontáneos."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Cómo encuentro mi Venus?",
+   "a": "Con tu fecha de nacimiento se calcula el signo donde estaba Venus."
+  },
+  {
+   "q": "¿Venus solo habla del amor?",
+   "a": "También de dinero, arte y de lo que disfrutas en la vida."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

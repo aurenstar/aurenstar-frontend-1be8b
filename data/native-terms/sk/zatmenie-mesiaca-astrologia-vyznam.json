@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "zatmenie mesiaca astrológia",
+ "volume": "1000",
+ "slug": "zatmenie-mesiaca-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Zatmenie Mesiaca v astrológii: čo znamená?",
+ "description": "Zatmenie Mesiaca vynesie city na povrch a niečo uzavrie. Jednoducho s príkladom.",
+ "intro": "Pri zatmení Mesiaca sa Zem dostane medzi Slnko a Mesiac a Mesiac stmavne alebo sčervenie. V astrológii je to osobitne silný spln, ktorý niečo uzatvára.",
+ "sections": [
+  {
+   "h2": "Čo robí zatmenie Mesiaca?",
+   "paragraphs": [
+    "Predstavte si koniec filmu: je po všetkom, rozsvietia sa svetlá a vy zistíte, čo naozaj cítite. Tak zatmenie Mesiaca niečo uzatvára."
+   ]
+  },
+  {
+   "h2": "Ako to spoznáte?",
+   "paragraphs": [
+    "Vracajú sa staré city, niečo končí alebo vyjde najavo tajomstvo. Doprajte si pokoj a neukvapujte rozhodnutia."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Zatmenie Mesiaca v Škorpiónovi: Zuzana si uvedomí, že priateľstvo už dlho nesedí, a v pokoji sa rozlúči."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ako často je zatmenie Mesiaca?",
+   "a": "Zvyčajne dvakrát za rok, často zhruba dva týždne pred zatmením Slnka alebo po ňom."
+  },
+  {
+   "q": "Mám sa báť?",
+   "a": "Nie, je to uzavretie. Čo odchádza, uvoľní miesto pre niečo lepšie."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

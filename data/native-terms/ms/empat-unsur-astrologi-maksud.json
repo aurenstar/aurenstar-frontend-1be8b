@@ -1,0 +1,49 @@
+{
+ "lang": "ms",
+ "keyword": "empat unsur zodiak api tanah udara air",
+ "volume": "1000",
+ "slug": "empat-unsur-astrologi-maksud",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Empat unsur (api, tanah, udara, air) dalam astrologi: apa maksudnya?",
+ "description": "Dua belas zodiak dibahagi kepada empat unsur. Setiap unsur menunjukkan sifat yang berbeza. Penerangan mudah dengan contoh.",
+ "intro": "Dua belas zodiak dibahagi kepada empat unsur: api, tanah, udara dan air. Setiap unsur menerangkan cara seseorang berfikir dan bertindak.",
+ "sections": [
+  {
+   "h2": "Apa yang diterangkan empat unsur?",
+   "paragraphs": [
+    "Dapur memerlukan api (dapur), beras (tanah), udara dan air. Zodiak pun ada empat perangai. Api: Aries, Leo, Sagitarius. Tanah: Taurus, Virgo, Capricorn. Udara: Gemini, Libra, Aquarius. Air: Cancer, Scorpio, Pisces."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Api bermaksud semangat dan inisiatif, tanah bermaksud tetap dan praktikal, udara bermaksud bercakap dan berfikir, air bermaksud perasaan dan kepekaan. Lihat unsur mana paling banyak dalam carta anda."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Hakim berzodiak Leo, unsur api, jadi dia cepat mengetuai. Kawannya Nurul berzodiak Scorpio, unsur air, jadi dia faham perasaan dahulu. Bersama, mereka pasukan yang baik."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Bagaimana cari unsur saya?",
+   "a": "Lihat zodiak Matahari anda dan semak unsurnya."
+  },
+  {
+   "q": "Bagaimana jika satu unsur kurang?",
+   "a": "Tidak mengapa. Latih sifat itu, contohnya jika udara kurang, berbual lebih banyak dengan orang."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

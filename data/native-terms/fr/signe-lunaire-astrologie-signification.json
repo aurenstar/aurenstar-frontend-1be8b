@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "signe lunaire astrologie",
+ "volume": "1000",
+ "slug": "signe-lunaire-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Signe lunaire : que signifie ta Lune en astrologie ?",
+ "description": "Ton signe lunaire révèle tes émotions et ce dont tu as besoin pour te sentir bien. Expliqué simplement, avec un exemple.",
+ "intro": "Ton signe lunaire est le signe où se trouvait la Lune le jour de ta naissance. Il parle de tes émotions, de tes besoins et de ce qui te rassure.",
+ "sections": [
+  {
+   "h2": "C’est quoi, le signe lunaire ?",
+   "paragraphs": [
+    "Imagine ta pièce préférée à la maison, celle où tu te sens vraiment chez toi. La Lune, c’est ça : ta façon de te détendre, de réagir quand tu es fatigué ou ému."
+   ]
+  },
+  {
+   "h2": "Comment le repérer ?",
+   "paragraphs": [
+    "Observe ce qui te réconforte quand tu vas mal : un câlin, du silence, une longue discussion. Pour le connaître, il suffit de ta date de naissance, et l’heure aide si la Lune a changé de signe ce jour-là."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Julien est Lion, mais sa Lune est en Poissons. Il a l’air sûr de lui, mais il se sent très ému par la musique et les films tristes."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Le signe lunaire est-il aussi important que le signe solaire ?",
+   "a": "Beaucoup d’astrologues le placent juste à côté, car il décrit ton monde intérieur."
+  },
+  {
+   "q": "Comment calculer sa Lune ?",
+   "a": "Avec ta date de naissance dans un calculateur gratuit : la Lune change de signe tous les deux jours et demi environ."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

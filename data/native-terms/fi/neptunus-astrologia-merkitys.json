@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "neptunus astrologia",
+ "volume": "1000",
+ "slug": "neptunus-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptunus astrologiassa: mitä se tarkoittaa?",
+ "description": "Neptunus näyttää, missä uneksit, tunnet ja joskus kadotat todellisuuden. Selitetty yksinkertaisesti.",
+ "intro": "Neptunus on unelmien, mielikuvituksen ja intuition planeetta. Kartassasi näet, missä olet herkkä, mutta myös missä näet asiat kauniimpina kuin ne ovat.",
+ "sections": [
+  {
+   "h2": "Mitä Neptunus tekee?",
+   "paragraphs": [
+    "Ajattele aamusumua: kaikki näyttää pehmeältä ja kauniilta, mutta ääriviivat ovat hämärät. Niin Neptunus toimii."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Millä alueella lipsahdat mielelläsi haaveisiin tai haluat auttaa kaikkia? Siellä Neptunus vaikuttaa. Se antaa inspiraatiota, mutta voi myös sekoittaa."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Neptunus rakkauden talossa: Aino näkee uudessa miesystävässään heti prinssin, kunnes huomaa, ettei halunnut nähdä hänen virheitään."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Miten löydän Neptunukseni?",
+   "a": "Syntymäpäivällä näet Neptunuksen merkin. Se viipyy yhdessä merkissä reilut kolmetoista vuotta."
+  },
+  {
+   "q": "Onko Neptunus huono?",
+   "a": "Ei, se antaa mielikuvitusta ja myötätuntoa. Faktat kannattaa vain tarkistaa välillä."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

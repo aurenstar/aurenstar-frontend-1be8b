@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "jupiter astrologi",
+ "volume": "1000",
+ "slug": "jupiter-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter dalam astrologi: apa artinya?",
+ "description": "Jupiter menunjukkan keberuntungan, kebijaksanaan, dan bidang hidup yang mudah berkembang untuk Anda.",
+ "intro": "Jupiter adalah planet pertumbuhan, harapan, dan kebijaksanaan. Di mana ia berada, di situ hidup terasa lebih luas dan penuh peluang.",
+ "sections": [
+  {
+   "h2": "Apa fungsi Jupiter?",
+   "paragraphs": [
+    "Bayangkan paman bijak di keluarga yang selalu memberi nasihat dan menyemangati. Jupiter mengajar, mendukung, dan membuka jalan."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Di bidang apa urusan Anda sering lancar dan orang meminta saran? Itu rumah Jupiter Anda, tempat keberuntungan paling terasa."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Jupiter Dewi di rumah kesembilan. Ia banyak mendapat peluang belajar dan bepergian, dan kini mengajar di luar negeri."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jupiter menguasai zodiak apa?",
+   "a": "Sagitarius dan Pisces."
+  },
+  {
+   "q": "Apakah Jupiter selalu membawa untung?",
+   "a": "Umumnya, tapi terlalu berlebihan bisa membuat lengah atau terlalu percaya diri."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

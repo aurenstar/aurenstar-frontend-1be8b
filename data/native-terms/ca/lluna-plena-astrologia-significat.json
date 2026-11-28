@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "lluna plena astrologia",
+ "volume": "1000",
+ "slug": "lluna-plena-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lluna plena en astrologia: què significa?",
+ "description": "La lluna plena porta el punt àlgid, emocions fortes i tancaments. Explicat fàcil i amb exemple.",
+ "intro": "La lluna plena és el moment en què la Lluna i el Sol es troben un davant de l’altre, i la Lluna queda del tot il·luminada. En astrologia és el cim: el que vas començar ara es veu.",
+ "sections": [
+  {
+   "h2": "Què és la lluna plena?",
+   "paragraphs": [
+    "Imagina un pastís que per fi ha sortit del forn. Tot és a punt i en veus el resultat. Així passa amb la lluna plena."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "Al voltant de la lluna plena la gent sol estar més emotiva, dorm pitjor o alguna cosa s’acaba. Per això és millor no prendre grans decisions en plena onada de sentiments."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "La Marta, en una lluna plena, va veure que la feina de sempre ja no li anava bé. No va plegar de seguida, però va apuntar què volia i les setmanes següents en va buscar una altra amb calma."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cada quant hi ha lluna plena?",
+   "a": "Aproximadament un cop al mes, dues setmanes després de la lluna nova."
+  },
+  {
+   "q": "La lluna plena és perillosa?",
+   "a": "No, només reforça les sensacions. Si mantens la calma, sovint guanyes claredat."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

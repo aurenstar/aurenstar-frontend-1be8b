@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "mladi mesec astrologija",
+ "volume": "1000",
+ "slug": "mladi-mesec-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mladi mesec u astrologiji: šta znači?",
+ "description": "Mladi mesec je vreme za nove početke i namere. Jednostavno objašnjeno, sa primerom.",
+ "intro": "Mladi mesec je trenutak kad Mesec i Sunce stoje u istom znaku, pa se na nebu Mesec ne vidi. U astrologiji je to dobar dan da počneš nešto novo.",
+ "sections": [
+  {
+   "h2": "Šta je mladi mesec?",
+   "paragraphs": [
+    "Zamisli prazan list sveske na početku školske godine. Još ništa nije napisano, a sve je moguće. Tako deluje mladi mesec."
+   ]
+  },
+  {
+   "h2": "Kako to primetiti?",
+   "paragraphs": [
+    "Oko mladog meseca ljudi često osete želju da počnu iznova, da urede stan ili da se odluče na nešto. Idealno je da zapišeš želje i da ih ne žuriš."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Mila je na mladi mesec zapisala tri cilja za mesec dana: da šeta svako veče, da nauči pesmu i da pozove staru drugaricu. Do sledećeg punog meseca sve je bilo urađeno."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko često je mladi mesec?",
+   "a": "Otprilike jednom mesečno, na svakih oko 29 dana."
+  },
+  {
+   "q": "Da li moram nešto da radim?",
+   "a": "Ne, nije obaveza. Samo je dobra prilika da zastaneš i zamisliš šta želiš."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

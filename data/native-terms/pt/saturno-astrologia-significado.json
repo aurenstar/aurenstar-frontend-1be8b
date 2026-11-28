@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "saturno astrologia",
+ "volume": "1000",
+ "slug": "saturno-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturno na astrologia: o que significa?",
+ "description": "Saturno mostra onde você aprende disciplina, regras e paciência. Explicado de forma simples, com exemplo.",
+ "intro": "Saturno é o planeta das regras, do tempo e da responsabilidade. No mapa, mostra onde você precisa se esforçar, mas também onde fica forte e confiável.",
+ "sections": [
+  {
+   "h2": "O que faz Saturno?",
+   "paragraphs": [
+    "Pense num professor rígido, porém justo: difícil, mas ensina muito. Isso é Saturno."
+   ]
+  },
+  {
+   "h2": "Como perceber?",
+   "paragraphs": [
+    "Em que área você sente pressão ou medo de errar? Ali Saturno trabalha. Com paciência, você fica bom justamente nisso."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Saturno na casa do trabalho: Rosa precisa treinar muito antes de se sentir segura, mas depois vira uma chefe querida e confiável."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Como achar meu Saturno?",
+   "a": "Com a data de nascimento, calcula-se o signo em que ele estava."
+  },
+  {
+   "q": "Saturno é ruim?",
+   "a": "Não, pede esforço, mas recompensa com força e calma."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

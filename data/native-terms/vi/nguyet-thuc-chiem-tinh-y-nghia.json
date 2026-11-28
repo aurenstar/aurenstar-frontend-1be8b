@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "nguyệt thực chiêm tinh",
+ "volume": "1000",
+ "slug": "nguyet-thuc-chiem-tinh-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nguyệt thực trong chiêm tinh có ý nghĩa gì?",
+ "description": "Nguyệt thực là dấu hiệu khép lại, dọn cảm xúc và buông bỏ. Giải thích đơn giản, có ví dụ.",
+ "intro": "Nguyệt thực là lúc bóng Trái Đất che Mặt Trăng. Trong chiêm tinh, nó xảy ra vào trăng tròn và nhắc bạn kết thúc việc cũ, sắp xếp lại cảm xúc.",
+ "sections": [
+  {
+   "h2": "Nguyệt thực làm gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến ngày tổng vệ sinh nhà: bạn lôi đồ không dùng ra để quyết định giữ hay bỏ. Nguyệt thực cũng khiến bạn lục lại những điều cũ trong lòng."
+   ]
+  },
+  {
+   "h2": "Làm sao nhận ra?",
+   "paragraphs": [
+    "Vài tuần quanh nguyệt thực, mối quan hệ, thói quen hay cảm xúc cũ có bỗng trở lại không? Có thể đã đến lúc buông bỏ."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Quanh kỳ nguyệt thực, Lan nhận ra mình và người bạn cũ đã xa nhau từ lâu. Tuy tiếc, nhưng dọn xong lòng cô thấy nhẹ nhõm hơn."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Bao lâu có nguyệt thực một lần?",
+   "a": "Mỗi năm có vài lần, và luôn xảy ra vào ngày trăng tròn."
+  },
+  {
+   "q": "Lúc nguyệt thực có bắt buộc kết thúc điều gì không?",
+   "a": "Không, chỉ cần xem trong lòng điều gì không còn cần nữa là đủ."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

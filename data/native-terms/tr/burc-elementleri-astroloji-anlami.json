@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "burç elementleri",
+ "volume": "1000",
+ "slug": "burc-elementleri-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "4 element: ateş, toprak, hava, su ne anlama gelir?",
+ "description": "Burçlar dört elemente ayrılır. Her birinin ne anlama geldiğini basitçe anlatıyoruz.",
+ "intro": "12 burç ateş, toprak, hava ve su olarak ayrılır; her elementte üç burç vardır. Element yaşam tarzını ve mizacı gösterir.",
+ "sections": [
+  {
+   "h2": "Hangi elementler var?",
+   "paragraphs": [
+    "Ateş (Koç, Aslan, Yay) enerji ve tutkudur. Toprak (Boğa, Başak, Oğlak) pratikliktir. Hava (İkizler, Terazi, Kova) iletişim ve fikirdir. Su (Yengeç, Akrep, Balık) duygu ve sezgidir."
+   ]
+  },
+  {
+   "h2": "Nasıl anlaşılır?",
+   "paragraphs": [
+    "Bir davet düşün: ateş herkesi coşturur, toprak sofrayı kurar, hava sohbet eder, su gönülden dinler. Hepsine ihtiyaç var."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Esra Başak (toprak), eşi Tolga Yay (ateş). O bütçeyi planlar, o seyahat hayal eder. Birlikte geziyorlar çünkü Esra her şeyi organize ediyor."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hangi element en iyisi?",
+   "a": "Hiçbiri; hepsinin güçlü yanı var."
+  },
+  {
+   "q": "Elementler uyumlu mu?",
+   "a": "Ateş-hava ve toprak-su genelde kolay anlaşır, ama her ikili olabilir."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

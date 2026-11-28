@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "aspectos astrología",
+ "volume": "1000",
+ "slug": "aspectos-astrologicos-que-son",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspectos en astrología: qué son y cómo se leen",
+ "description": "Los aspectos son los ángulos entre planetas y muestran cómo se llevan entre sí. Explicado fácil, con ejemplo.",
+ "intro": "Un aspecto es el ángulo que forman dos planetas en tu carta natal. Dice si esas dos energías se llevan bien, se empujan o se pelean.",
+ "sections": [
+  {
+   "h2": "¿Qué es un aspecto?",
+   "paragraphs": [
+    "Imagina dos amigos sentados en una mesa: según la distancia y cómo se miran, se entienden o discuten. Los aspectos son esa distancia entre planetas, medida en grados."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Los ángulos suaves, como el trígono y el sextil, fluyen con facilidad. Los tensos, como la cuadratura y la oposición, piden esfuerzo, pero también dan impulso."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Lucía tiene Venus en cuadratura con Saturno. Le cuesta abrirse en el amor, pero cuando confía, es una pareja muy leal y constante."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Cuántos aspectos principales hay?",
+   "a": "Cinco: conjunción, sextil, cuadratura, trígono y oposición."
+  },
+  {
+   "q": "¿Un aspecto tenso es negativo?",
+   "a": "No, solo exige más trabajo; muchas personas con aspectos tensos logran mucho."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

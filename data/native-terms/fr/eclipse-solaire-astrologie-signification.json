@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "éclipse solaire astrologie",
+ "volume": "1000",
+ "slug": "eclipse-solaire-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Éclipse solaire en astrologie : que signifie-t-elle ?",
+ "description": "Une éclipse solaire est une Nouvelle Lune spéciale qui apporte des changements et des débuts. Expliqué simplement.",
+ "intro": "Une éclipse solaire a lieu quand la Lune cache le Soleil. En astrologie, c’est une Nouvelle Lune très puissante qui peut ouvrir un nouveau chapitre.",
+ "sections": [
+  {
+   "h2": "C’est quoi, une éclipse solaire ?",
+   "paragraphs": [
+    "Imagine que quelqu’un éteigne la lumière principale de la maison quelques minutes. Dans ce changement, tu remarques des choses que tu ne voyais pas avant."
+   ]
+  },
+  {
+   "h2": "Comment la ressent-on ?",
+   "paragraphs": [
+    "Des changements inattendus peuvent arriver dans le travail, l’identité ou les projets. Ses effets durent souvent plusieurs mois, pas seulement le jour de l’éclipse."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Une éclipse solaire tombe dans la maison de la santé de Laure. Peu après, elle démarre une nouvelle routine sportive qu’elle garde toute l’année."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Combien y a-t-il d’éclipses solaires par an ?",
+   "a": "Entre deux et cinq, pas toujours visibles de chez toi."
+  },
+  {
+   "q": "Faut-il avoir peur ?",
+   "a": "Non, ce sont des moments de changement ; mieux vaut rester calme et ouvert."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

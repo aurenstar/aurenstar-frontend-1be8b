@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "chirone astrologia",
+ "volume": "1000",
+ "slug": "chirone-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Chirone in astrologia: cosa significa?",
+ "description": "Chirone è la ferita che diventa dono: mostra dove soffri e dove puoi aiutare gli altri. Spiegato semplice, con esempio.",
+ "intro": "Chirone è un piccolo corpo celeste chiamato \"guaritore ferito\". Indica un punto delicato di te, ma anche il tuo potere di aiutare gli altri.",
+ "sections": [
+  {
+   "h2": "Che cos'è Chirone?",
+   "paragraphs": [
+    "Immagina un medico che, dopo essersi ammalato, capisce meglio i pazienti. Chirone fa lo stesso: la tua ferita ti rende sensibile."
+   ]
+  },
+  {
+   "h2": "Come si nota?",
+   "paragraphs": [
+    "C'è un tema che ti fa male da sempre, come il sentirti non abbastanza. Quando lo affronti, diventi guida per gli altri."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Paola era derisa a scuola per la sua timidezza. Oggi fa la psicologa infantile e aiuta i bambini con lo stesso problema."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Come trovo Chirone?",
+   "a": "Nel tema natale gratuito, con data, ora e luogo."
+  },
+  {
+   "q": "Chirone guarisce?",
+   "a": "Non cancella il dolore, ma gli dà un senso."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

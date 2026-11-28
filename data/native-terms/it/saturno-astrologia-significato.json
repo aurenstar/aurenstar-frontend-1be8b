@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "saturno astrologia",
+ "volume": "1000",
+ "slug": "saturno-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturno in astrologia: cosa significa?",
+ "description": "Saturno mostra dove impari disciplina, regole e pazienza. Spiegato semplice, con esempio.",
+ "intro": "Saturno è il pianeta delle regole, del tempo e della responsabilità. Nel tema indica dove devi impegnarti molto, ma anche dove diventi solido e affidabile.",
+ "sections": [
+  {
+   "h2": "Che cosa fa Saturno?",
+   "paragraphs": [
+    "Pensa a un insegnante severo ma giusto: difficile, ma ti insegna molto. Quello è Saturno."
+   ]
+  },
+  {
+   "h2": "Come si nota?",
+   "paragraphs": [
+    "In quale ambito senti pressione o paura di sbagliare? Lì lavora Saturno. Con pazienza diventi bravo proprio in quello."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Saturno nella casa del lavoro: Rosa deve esercitarsi a lungo prima di sentirsi sicura, ma poi diventa una capa amata e affidabile."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Come trovo il mio Saturno?",
+   "a": "Con la data di nascita calcoli il segno in cui era."
+  },
+  {
+   "q": "Saturno è negativo?",
+   "a": "No, chiede impegno ma premia con forza e calma."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

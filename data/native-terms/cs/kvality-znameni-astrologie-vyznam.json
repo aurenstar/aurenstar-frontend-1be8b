@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "kardinální pevné proměnlivé astrologie",
+ "volume": "1000",
+ "slug": "kvality-znameni-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kardinální, pevné a proměnlivé v astrologii: co znamenají?",
+ "description": "Kardinální, pevné a proměnlivé ukazují, jak znamení začíná, vytrvává nebo se přizpůsobuje. Jednoduše vysvětleno.",
+ "intro": "Dvanáct znamení se dělí také do tří způsobů jednání: kardinální, pevné a proměnlivé. Ukazují, jak věci pojímáte.",
+ "sections": [
+  {
+   "h2": "Které jsou ty tři?",
+   "paragraphs": [
+    "Představte si roční období: kardinální znamení (Beran, Rak, Váhy, Kozoroh) jsou začátek, pevná znamení (Býk, Lev, Štír, Vodnář) střed a proměnlivá znamení (Blíženci, Panna, Střelec, Ryby) přechod k dalšímu."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "Rádi začínáte, vytrváte, nebo se snadno přizpůsobíte? Kardinální začíná, pevné vytrvá a proměnlivé se přizpůsobí."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Jana je kardinální a každý měsíc začne nový projekt. Honza je pevný a v klidu dokončí, co začal. Jsou dobrý tým."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jaký způsob mám já?",
+   "a": "Záleží na slunečním znamení; Měsíc a ascendent mají každý svůj."
+  },
+  {
+   "q": "Je pevné totéž co tvrdohlavé?",
+   "a": "Někdy, ale hlavně spolehlivé: pevné znamení vás nenechá ve štychu."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

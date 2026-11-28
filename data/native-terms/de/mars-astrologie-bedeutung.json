@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "mars astrologie",
+ "volume": "1000",
+ "slug": "mars-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mars in der Astrologie: Was bedeutet er?",
+ "description": "Mars zeigt, wie du handelst, kämpfst und deine Energie einsetzt. Einfach erklärt, mit Beispiel.",
+ "intro": "Mars ist der Planet der Tatkraft und des Mutes. Er verrät, wie du Ziele verfolgst und mit Ärger umgehst.",
+ "sections": [
+  {
+   "h2": "Was macht Mars?",
+   "paragraphs": [
+    "Wie der Motor eines Autos: Ohne ihn geht nichts los. Er steht für Antrieb, Durchsetzung und Leidenschaft."
+   ]
+  },
+  {
+   "h2": "Wie merke ich es?",
+   "paragraphs": [
+    "Wie reagierst du auf Streit: sofort, ruhig oder gar nicht? Das zeigt dein Marszeichen."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Mars im Widder: Leon packt Aufgaben sofort an, wird aber auch schnell ungeduldig."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie finde ich meinen Mars?",
+   "a": "Mit dem Geburtsdatum berechnest du, in welchem Zeichen er stand."
+  },
+  {
+   "q": "Ist Mars aggressiv?",
+   "a": "Er steht für Kraft, die man gut oder schlecht einsetzen kann."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

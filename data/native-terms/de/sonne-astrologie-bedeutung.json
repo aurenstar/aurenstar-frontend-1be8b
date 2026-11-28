@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "sonne astrologie",
+ "volume": "1000",
+ "slug": "sonne-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Die Sonne in der Astrologie: Was bedeutet sie?",
+ "description": "Die Sonne ist dein Sternzeichen und zeigt deinen Kern. Einfach erklärt, mit Beispiel.",
+ "intro": "Die Sonne steht für dein Wesen, deinen Willen und dein Selbstbild. Ihr Zeichen ist das, was man Sternzeichen nennt.",
+ "sections": [
+  {
+   "h2": "Was macht die Sonne?",
+   "paragraphs": [
+    "Wie die Hauptrolle in einem Film: Um sie dreht sich die Geschichte. Sie zeigt, wer du im Kern bist."
+   ]
+  },
+  {
+   "h2": "Wie finde ich sie?",
+   "paragraphs": [
+    "Dein Geburtsdatum genügt, die Uhrzeit brauchst du nicht. Sie wechselt etwa alle 30 Tage das Zeichen."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Die Sonne von Max steht im Löwen. Er blüht auf, wenn andere ihn wahrnehmen, und teilt gern."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist die Sonne das ganze Horoskop?",
+   "a": "Nein, Mond, Aszendent und Planeten gehören dazu."
+  },
+  {
+   "q": "Was ist der Unterschied zum Mond?",
+   "a": "Die Sonne ist dein Kern, der Mond dein Gefühlsleben."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "čtyři živly astrologie",
+ "volume": "1000",
+ "slug": "ctyri-zivly-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Čtyři živly v astrologii: co znamenají?",
+ "description": "Oheň, země, vzduch a voda: takto se dvanáct znamení dělí do čtyř rodin. Jednoduše s příkladem.",
+ "intro": "Každé znamení patří k jednomu ze čtyř živlů: oheň, země, vzduch nebo voda. Živel ukazuje, jak od přírody cítíte a reagujete.",
+ "sections": [
+  {
+   "h2": "Co jsou živly?",
+   "paragraphs": [
+    "Představte si čtyři typy lidí na večírku: ohnivá znamení (Beran, Lev, Střelec) jsou nadšenci, země (Býk, Panna, Kozoroh) praktici, vzduch (Blíženci, Váhy, Vodnář) mluvkové a voda (Rak, Štír, Ryby) citliví."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "Nadchnete se rychle, jste věcní, zvídaví, nebo citliví? To je váš živel. Znamení stejného živlu si často snadno rozumějí."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Jana je Beran (oheň) a Honza Kozoroh (země): ona začne hned, on chce nejdřív plán. Spolu se skvěle doplňují."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jaký mám živel?",
+   "a": "Záleží na vašem slunečním znamení, a také na Měsíci a ascendentu."
+  },
+  {
+   "q": "Hodí se všechny živly k sobě?",
+   "a": "Ano, jen jinak. Oheň a vzduch si rozumějí snadno, země a voda také."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "neptun astrologija",
+ "volume": "1000",
+ "slug": "neptun-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptun v astrologiji: kaj pomeni?",
+ "description": "Neptun kaže domišljijo, sanje in intuicijo, pa tudi meglo. Preprosto razloženo, s primerom.",
+ "intro": "Neptun je planet domišljije, sanj in sočutja. Kjer stoji v vaši karti, so stvari mehkejše in bolj nejasne, zato lahko sanjarite, a se tudi zavajate.",
+ "sections": [
+  {
+   "h2": "Kaj dela Neptun?",
+   "paragraphs": [
+    "Predstavljajte si vožnjo skozi meglo: lepo je in skrivnostno, a daleč ne vidite. Tak je Neptun, budi domišljijo, jemlje pa ostrino."
+   ]
+  },
+  {
+   "h2": "Kako to opazite?",
+   "paragraphs": [
+    "Na katerem področju sanjarite, čutite več, kot znate razložiti, ali težko vidite stvari takšne, kot so? Tam je Neptun. Pomaga, da preverite dejstva."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Maja ima Neptun v hiši ljubezni. Zelo je nežna in razume druge, a pri osebi, ki jo ima rada, vidi le lepo, zato naj vpraša še prijatelje za mnenje."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako dolgo Neptun ostane v znamenju?",
+   "a": "Približno štirinajst let, zato ga deli vsa generacija."
+  },
+  {
+   "q": "Je Neptun slab?",
+   "a": "Ne, daje umetnost in usmiljenje. Potrebuje le malo resničnosti kot sidro."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

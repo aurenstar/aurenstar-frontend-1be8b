@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "conjonction astrologie",
+ "volume": "1000",
+ "slug": "conjonction-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Conjonction en astrologie : que signifie-t-elle ?",
+ "description": "La conjonction réunit deux planètes au même endroit et mélange leurs énergies. Expliqué simplement, avec un exemple.",
+ "intro": "Il y a conjonction quand deux planètes sont très proches dans le thème. Leurs énergies se mélangent et agissent presque comme une seule.",
+ "sections": [
+  {
+   "h2": "C’est quoi, une conjonction ?",
+   "paragraphs": [
+    "C’est comme verser du lait dans du café : on ne les distingue plus vraiment. Deux planètes collées forment une équipe, en bien comme en mal."
+   ]
+  },
+  {
+   "h2": "Comment la ressent-on ?",
+   "paragraphs": [
+    "Cette partie de ta personnalité est très marquée. Selon les planètes, ce peut être un grand atout ou un sujet difficile à démêler."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Manon a le Soleil et Mercure en conjonction. Elle pense comme elle ressent et dit ce qu’elle pense : on la comprend très vite."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Une conjonction est-elle bonne ou mauvaise ?",
+   "a": "Cela dépend des planètes ; elle amplifie ce qui est déjà là."
+  },
+  {
+   "q": "Quel écart compte comme conjonction ?",
+   "a": "Environ 8 à 10 degrés au maximum ; plus c’est proche, plus c’est fort."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

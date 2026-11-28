@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "sončev mrk astrologija",
+ "volume": "1000",
+ "slug": "sonceni-mrk-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sončev mrk v astrologiji: kaj pomeni?",
+ "description": "Sončev mrk prinaša nenadne začetke in preobrate. Preprosto razloženo, s primerom.",
+ "intro": "Sončev mrk nastane, ko Luna zakrije Sonce. V astrologiji je to močan mlaj, čas, ko se življenje lahko obrne in odpre novo poglavje.",
+ "sections": [
+  {
+   "h2": "Kaj je sončev mrk?",
+   "paragraphs": [
+    "Predstavljajte si, da nekdo za trenutek ugasne glavno luč v sobi, ko se prižge, vidite vse drugače. Tako deluje sončev mrk."
+   ]
+  },
+  {
+   "h2": "Kako to opazite?",
+   "paragraphs": [
+    "Po sončevem mrku pogosto pride nepričakovana novica, nova služba, selitev ali odločitev, ki spremeni smer. Ni nujno takoj, včasih traja nekaj mesecev."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Marko je v času sončevega mrka dobil ponudbo za delo v drugem mestu. Ni je načrtoval, a jo je sprejel, danes pa pravi, da je bilo to najboljše."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako pogosto so sončevi mrki?",
+   "a": "Dvakrat ali trikrat na leto, vendar niso vedno vidni z vsakega kraja."
+  },
+  {
+   "q": "Se moram bati?",
+   "a": "Ne, to ni kazen. Le ne hitite z velikimi potezami in spremljajte, kaj se odpira."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

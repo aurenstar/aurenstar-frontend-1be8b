@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "éclipse lunaire astrologie",
+ "volume": "1000",
+ "slug": "eclipse-lunaire-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Éclipse lunaire en astrologie : que signifie-t-elle ?",
+ "description": "Une éclipse lunaire est une Pleine Lune spéciale qui apporte des fins et des émotions fortes. Expliqué simplement.",
+ "intro": "Une éclipse lunaire a lieu quand l’ombre de la Terre couvre la Pleine Lune. En astrologie, c’est un moment de clôture et d’émotions intenses.",
+ "sections": [
+  {
+   "h2": "C’est quoi, une éclipse lunaire ?",
+   "paragraphs": [
+    "C’est le rideau qui tombe à la fin d’une pièce de théâtre : quelque chose se termine et on voit le résultat. L’éclipse lunaire révèle ce qui était déjà mûr."
+   ]
+  },
+  {
+   "h2": "Comment la ressent-on ?",
+   "paragraphs": [
+    "Des émotions gardées peuvent remonter, ou une relation ou une étape peut se clore. Parfois, on est fatigué ou prêt à pleurer, puis soulagé."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Une éclipse lunaire tombe dans la maison des amitiés de Sylvie. Elle s’éloigne d’un groupe qui ne lui faisait plus de bien et se fait de nouveaux amis."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Une éclipse lunaire est-elle dangereuse ?",
+   "a": "Non, elle demande seulement de prendre soin de tes émotions et d’éviter les décisions impulsives."
+  },
+  {
+   "q": "Est-elle visible de partout ?",
+   "a": "Elle se voit de toute la moitié de la Terre où il fait nuit."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

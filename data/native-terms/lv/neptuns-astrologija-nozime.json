@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "neptūns astroloģija",
+ "volume": "1000",
+ "slug": "neptuns-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptūns astroloģijā: ko tas nozīmē?",
+ "description": "Neptūns rāda iztēli, sapņus un intuīciju, bet arī miglu. Vienkārši izskaidrots, ar piemēru.",
+ "intro": "Neptūns ir iztēles, sapņu un līdzjūtības planēta. Kur tas ir tavā kartē, tur viss ir mīkstāks un neskaidrāks, tāpēc viegli sapņot, bet var arī maldīties.",
+ "sections": [
+  {
+   "h2": "Ko dara Neptūns?",
+   "paragraphs": [
+    "Iedomājies braucienu miglā: ir skaisti un noslēpumaini, bet tālu neredz. Tāds ir Neptūns, tas modina fantāziju, bet atņem asumu."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Kurā jomā tu sapņo, jūti vairāk, nekā spēj izskaidrot, vai grūti redzēt lietas tādas, kādas tās ir? Tur ir Neptūns. Palīdz pārbaudīt faktus."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Annai Neptūns ir mīlestības mājā. Viņa ir ļoti maiga un saprot citus, bet mīļotajā cilvēkā redz tikai labo, tāpēc der pajautāt arī draugu domas."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cik ilgi Neptūns paliek vienā zīmē?",
+   "a": "Apmēram četrpadsmit gadus, tāpēc to dala visa paaudze."
+  },
+  {
+   "q": "Vai Neptūns ir slikts?",
+   "a": "Nē, tas dod mākslu un žēlsirdību. Tam vajag nedaudz realitātes kā enkura."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

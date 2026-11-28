@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "Urà astrologia",
+ "volume": "1000",
+ "slug": "ura-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Urà en astrologia: què significa?",
+ "description": "Urà porta canvis sobtats, llibertat i idees poc habituals. Explicat fàcil i amb exemple.",
+ "intro": "Urà és el planeta dels girs i de la llibertat. Allà on és a la teva carta, la vida et sorprèn i et treu de la rutina.",
+ "sections": [
+  {
+   "h2": "Què fa Urà?",
+   "paragraphs": [
+    "Imagina que enmig d’una setmana avorrida algú et canvia els mobles de lloc a l’habitació. Primer t’emprenyes, després respires millor. Això és Urà."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "En quin àmbit et passen sorpreses sovint o et ve de gust fer-ho diferent dels altres? Allà actua Urà. Com més lliure ets, més fàcil."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "En Marc té un Urà fort a la casa del treball. De cop deixa una feina segura i obre un petit taller, i al final és la seva millor decisió."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quant temps es queda Urà en un signe?",
+   "a": "Uns set anys, per això el seu signe el comparteix tota una generació."
+  },
+  {
+   "q": "Urà és perillós?",
+   "a": "No, només odia l’estancament. Quan acceptes el canvi, sovint arriba l’alleujament."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

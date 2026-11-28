@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "lilith astroloji",
+ "volume": "1000",
+ "slug": "lilith-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith nedir? Astrolojideki anlamı",
+ "description": "Lilith, bastırılmış isteklerini ve boyun eğmek istemediğin yeri gösterir. Basit anlatım.",
+ "intro": "Kara Ay Lilith, Ay'ın yörüngesinin Dünya'ya en uzak noktasıdır. Başkaldırıyı ve bastırılmış arzuları simgeler.",
+ "sections": [
+  {
+   "h2": "Lilith ne yapar?",
+   "paragraphs": [
+    "\"Böyle istemiyorum\" diyen iç ses gibi. Nerede uyum sağlamaktan yorulduğunu gösterir."
+   ]
+  },
+  {
+   "h2": "Nasıl fark edilir?",
+   "paragraphs": [
+    "Hangi konuda baskıya tahammül edemiyorsun? Bağımsızlığın orada yaşıyor."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Gamze'nin Lilith'i Koç'ta: emir almaktan hoşlanmıyor. Kendi işini kurunca özgürlüğü hissetti."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Lilith kötü mü?",
+   "a": "Hayır, gizli güç ve kendine dürüstlüktür."
+  },
+  {
+   "q": "Nasıl çalışılır?",
+   "a": "Zaman zaman suçluluk duymadan \"hayır\" demeye izin ver."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

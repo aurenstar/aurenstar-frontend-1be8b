@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "bagong buwan astrolohiya",
+ "volume": "1000",
+ "slug": "bagong-buwan-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Bagong Buwan sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Sa Bagong Buwan, magkasama ang Araw at Buwan, panahon ng bagong simula. Simple, may halimbawa.",
+ "intro": "Sa Bagong Buwan, hindi nakikita ang Buwan dahil kapantay ito ng Araw. Sa astrolohiya, panahon ito ng panibagong simula at pagtatakda ng intensyon.",
+ "sections": [
+  {
+   "h2": "Ano ang ginagawa ng Bagong Buwan?",
+   "paragraphs": [
+    "Isipin ang unang blangkong pahina ng bagong notebook. Iyan ang ibinibigay ng Bagong Buwan, para makapagsulat ka ng bagong layunin."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Sa paligid ng Bagong Buwan, kalmado at mas nakaharap sa sarili ang isip. Magandang panahon ito para magsimula ng bagong trabaho o gawi."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Gustong magsimulang maglakad tuwing umaga ni Mika. Sumulat siya ng maliit na layunin sa araw ng Bagong Buwan at sinunod ito buong buwan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Gaano kadalas ang Bagong Buwan?",
+   "a": "Mga isang beses kada buwan, bawat 29 na araw."
+  },
+  {
+   "q": "Ano ang dapat gawin sa Bagong Buwan?",
+   "a": "Magsulat ng isang maliit at tapat na layunin, at gawin agad ang unang hakbang."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

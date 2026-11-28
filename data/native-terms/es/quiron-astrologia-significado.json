@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "quirón astrología",
+ "volume": "1000",
+ "slug": "quiron-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Quirón en astrología: qué significa tu herida y tu don",
+ "description": "Quirón muestra tu herida más profunda y el don de ayudar a otros con ella. Explicado fácil, con ejemplo.",
+ "intro": "Quirón es conocido como el «sanador herido». En tu carta señala una herida antigua y también el don que nace de haberla superado.",
+ "sections": [
+  {
+   "h2": "¿Qué es Quirón?",
+   "paragraphs": [
+    "Piensa en un médico que se curó de una enfermedad: nadie entiende mejor a los enfermos. Quirón es esa herida que, al sanar, te permite ayudar a los demás."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Se nota en un tema donde te sientes inseguro o dolido desde siempre. Con el tiempo, justo ahí puedes dar consuelo y consejo a otros."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Rosa tiene Quirón en la casa de la comunicación y de pequeña se burlaban de su voz. Hoy da talleres para ayudar a perder el miedo a hablar en público."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Quirón se cura del todo?",
+   "a": "No siempre del todo, pero aprendes a convivir con él y a usarlo."
+  },
+  {
+   "q": "¿Quirón es un planeta?",
+   "a": "Es un cuerpo pequeño entre Saturno y Urano, y la astrología lo trata como un punto clave."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

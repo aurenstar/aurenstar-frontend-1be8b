@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "pluto astrologie",
+ "volume": "1000",
+ "slug": "pluto-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pluto în astrologie: ce înseamnă?",
+ "description": "Pluto arată unde treci printr-o transformare profundă. Explicat simplu, cu exemplu.",
+ "intro": "Pluto este planeta schimbărilor adânci, a puterii și a renașterii. În hartă vezi unde ceva trebuie să se încheie ca să poți începe din nou.",
+ "sections": [
+  {
+   "h2": "Ce face Pluto?",
+   "paragraphs": [
+    "E ca o curățenie mare de primăvară în pivniță: arunci vechiturile și apare loc. Pluto elimină ce s-a epuizat."
+   ]
+  },
+  {
+   "h2": "Cum observi?",
+   "paragraphs": [
+    "În ce domeniu viața se răstoarnă din când în când, iar tu ieși mai puternic? Acolo lucrează Pluto."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Pluto în casa familiei: după despărțirea grea a părinților, Ioana se reface greu, apoi devine cineva care știe să pună limite și să-i ajute pe alții."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cât stă Pluto într-un semn?",
+   "a": "De la cincisprezece la peste douăzeci de ani, deci descrie generații întregi."
+  },
+  {
+   "q": "Este Pluto periculos?",
+   "a": "Nu, este o forță care doare la început, dar duce la o transformare reală."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "saules aptumsums astroloģija",
+ "volume": "1000",
+ "slug": "saules-aptumsums-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saules aptumsums astroloģijā: ko tas nozīmē?",
+ "description": "Saules aptumsums nes pēkšņus sākumus un pavērsienus. Vienkārši izskaidrots, ar piemēru.",
+ "intro": "Saules aptumsums notiek, kad Mēness aizsedz Sauli. Astroloģijā tas ir spēcīgs jaunais Mēness, laiks, kad dzīve var pagriezties un atvērt jaunu nodaļu.",
+ "sections": [
+  {
+   "h2": "Kas ir Saules aptumsums?",
+   "paragraphs": [
+    "Iedomājies, ka kāds uz mirkli izslēdz galveno gaismu istabā, un, kad tā ieslēdzas, visu redzi citādi. Tā darbojas Saules aptumsums."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Pēc Saules aptumsuma bieži nāk negaidīta ziņa, jauns darbs, pārcelšanās vai lēmums, kas maina virzienu. Ne vienmēr uzreiz, dažreiz paiet pāris mēneši."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Marekam Saules aptumsuma laikā piedāvāja darbu citā pilsētā. Viņš to nebija plānojis, bet piekrita, un šodien saka, ka tas bija labākais."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cik bieži ir Saules aptumsumi?",
+   "a": "Divas vai trīs reizes gadā, bet tie ne vienmēr ir redzami visur."
+  },
+  {
+   "q": "Vai man jābaidās?",
+   "a": "Nē, tas nav sods. Vienkārši nesteidzies ar lieliem soļiem un vēro, kas atveras."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

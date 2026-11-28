@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "kardinaal vast veranderlijk astrologie",
+ "volume": "1000",
+ "slug": "kwaliteiten-astrologie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kardinaal, vast en veranderlijk in de astrologie: wat betekent het?",
+ "description": "Kardinaal, vast en veranderlijk laten zien hoe een teken begint, volhoudt of meebeweegt. Eenvoudig uitgelegd.",
+ "intro": "De twaalf tekens zijn ook verdeeld in drie werkwijzen: kardinaal, vast en veranderlijk. Die laten zien hoe je dingen aanpakt.",
+ "sections": [
+  {
+   "h2": "Wat zijn de drie?",
+   "paragraphs": [
+    "Denk aan een seizoen: kardinale tekens (Ram, Kreeft, Weegschaal, Steenbok) zijn het begin, vaste tekens (Stier, Leeuw, Schorpioen, Waterman) het midden en veranderlijke tekens (Tweelingen, Maagd, Boogschutter, Vissen) de overgang naar het volgende."
+   ]
+  },
+  {
+   "h2": "Hoe merk je het?",
+   "paragraphs": [
+    "Start je graag, hou je vol, of pas je je makkelijk aan? Kardinaal begint, vast houdt vol en veranderlijk beweegt mee."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Roos is kardinaal en begint elke maand een nieuw project. Jan is vast en maakt er rustig af wat hij begon. Zij zijn een goed team."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Welke werkwijze heb ik?",
+   "a": "Dat hangt af van je zonneteken; maan en ascendant hebben hun eigen werkwijze."
+  },
+  {
+   "q": "Is vast hetzelfde als koppig?",
+   "a": "Soms, maar vooral betrouwbaar: een vast teken laat je niet in de steek."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

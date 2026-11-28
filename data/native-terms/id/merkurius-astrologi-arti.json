@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "merkurius astrologi",
+ "volume": "1000",
+ "slug": "merkurius-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkurius dalam astrologi: apa artinya?",
+ "description": "Merkurius menunjukkan cara Anda berpikir, berbicara, dan belajar. Penjelasan sederhana dengan contoh.",
+ "intro": "Merkurius adalah planet pikiran dan komunikasi. Ia menunjukkan cara Anda menyusun ide dan menyampaikannya.",
+ "sections": [
+  {
+   "h2": "Apa fungsi Merkurius?",
+   "paragraphs": [
+    "Bayangkan sinyal ponsel: bagus, pesan sampai jelas. Merkurius adalah sinyal yang membawa pikiran Anda menjadi kata-kata untuk orang lain."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Apakah Anda bicara cepat atau berpikir dulu, lebih suka menulis atau bercerita, jago hitung atau jago cerita? Itu tergantung zodiak Merkurius Anda."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Merkurius Budi di Gemini. Ia memikirkan banyak hal sekaligus, mudah bergaul, dan cocok bekerja di bidang penjualan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Merkurius menguasai zodiak apa?",
+   "a": "Gemini dan Virgo. Gemini soal obrolan, Virgo soal ketelitian."
+  },
+  {
+   "q": "Bagaimana kalau Merkurius lemah?",
+   "a": "Bisa membuat gugup berbicara atau mudah lupa. Membaca dan menulis tiap hari membantu."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

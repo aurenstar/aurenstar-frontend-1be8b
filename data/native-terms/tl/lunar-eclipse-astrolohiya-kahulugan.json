@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "lunar eclipse astrolohiya",
+ "volume": "1000",
+ "slug": "lunar-eclipse-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lunar Eclipse sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Sa Lunar Eclipse, natatakpan ng anino ng Daigdig ang Buwan, panahon ng pagpapalaya ng damdamin. Simple, may halimbawa.",
+ "intro": "Sa Lunar Eclipse, nasa pagitan ng Araw at Buwan ang Daigdig at bumabagsak sa Buwan ang anino nito. Sa astrolohiya, mas matinding Kabilugan ito at panahon ng pagtatapos ng isang bagay.",
+ "sections": [
+  {
+   "h2": "Ano ang ginagawa ng Lunar Eclipse?",
+   "paragraphs": [
+    "Haluin mo ang tubig sa balde at sumisingaw pataas ang putik sa ilalim. Ganyan ang eklipse: inaahon nito ang nakatagong damdamin para mabitawan mo."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Biglang sumisiklab ang damdamin, may natatapos na relasyon o gawi, o may nagaganap na katapusan. Madalas ito sa ilang araw bago at pagkatapos ng eklipse."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Matagal na kinikimkim ni Ana ang galit. Malapit sa eklipse, nagsalita siya nang tapat at gumaan ang loob niya."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ano ang itsura ng Lunar Eclipse?",
+   "a": "Mapula o madilim ang Buwan, at puwedeng tingnan nang walang salamin."
+  },
+  {
+   "q": "Ano ang dapat gawin sa Lunar Eclipse?",
+   "a": "Kilalanin ang lumang damdamin at matutong bitawan ito."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

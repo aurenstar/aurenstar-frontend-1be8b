@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "júpiter astrologia",
+ "volume": "1000",
+ "slug": "jupiter-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Júpiter na astrologia: o que significa?",
+ "description": "Júpiter traz sorte, crescimento e otimismo. Mostra onde a vida sorri para você. Explicado de forma simples, com exemplo.",
+ "intro": "Júpiter é o planeta do crescimento e da abundância. No seu mapa, mostra onde você tem confiança e onde as coisas tendem a se expandir.",
+ "sections": [
+  {
+   "h2": "O que faz Júpiter?",
+   "paragraphs": [
+    "É como um amigo generoso que diz \"vai, tenta!\". Júpiter dá confiança e abre portas."
+   ]
+  },
+  {
+   "h2": "Como perceber?",
+   "paragraphs": [
+    "Há áreas em que as coisas parecem fluir mais ou aparecem pessoas que ajudam."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Isabela tem Júpiter na casa dos estudos: ganha uma bolsa para o exterior e encontra pessoas que a recebem como família."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Júpiter sempre dá sorte?",
+   "a": "Dá oportunidades, mas exagerar pode levar a excessos."
+  },
+  {
+   "q": "Quanto tempo fica em um signo?",
+   "a": "Cerca de um ano."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

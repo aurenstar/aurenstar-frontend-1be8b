@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "nov mesiaca astrológia",
+ "volume": "1000",
+ "slug": "nov-mesiaca-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nov v astrológii: čo znamená?",
+ "description": "Nov je chvíľa začať odznova a vysloviť želanie. Jednoducho s príkladom.",
+ "intro": "Pri nove stoja Slnko a Mesiac na oblohe na rovnakom mieste a Mesiac nie je vidieť. V astrológii je to začiatok nového mesačného cyklu.",
+ "sections": [
+  {
+   "h2": "Čo robí nov?",
+   "paragraphs": [
+    "Predstavte si prázdny zošit: nič v ňom ešte nie je, všetko je možné. Tak sa nov cíti: miesto pre nový začiatok."
+   ]
+  },
+  {
+   "h2": "Ako to spoznáte?",
+   "paragraphs": [
+    "Dostanete chuť upratovať, skúsiť niečo nové alebo si napísať plán. Znamenie novu ukazuje tému."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Nov vo Váhach: Zuzana si zapíše, ako chce urobiť vzťahy úprimnejšie, a dohodne si prvé stretnutie na káve."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ako často je nov?",
+   "a": "Zhruba každých 29,5 dňa, teda takmer každý mesiac."
+  },
+  {
+   "q": "Musím si želanie zapísať?",
+   "a": "Nemusíte, ale krátke a jasné želanie pomáha sústrediť sa."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

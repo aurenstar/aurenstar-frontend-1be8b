@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "sextil astrología",
+ "volume": "1000",
+ "slug": "sextil-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sextil en astrología: qué es y qué significa",
+ "description": "El sextil es un ángulo de 60 grados que ofrece oportunidades si las aprovechas. Explicado fácil, con ejemplo.",
+ "intro": "El sextil es un ángulo de 60 grados entre dos planetas. Es una buena oportunidad, pero hay que dar el primer paso para aprovecharla.",
+ "sections": [
+  {
+   "h2": "¿Qué es un sextil?",
+   "paragraphs": [
+    "Es una puerta entreabierta: puedes pasar si empujas un poco. Los dos planetas se llevan bien y se ayudan, pero no hacen el trabajo por ti."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Notas ayudas pequeñas y ocasiones que aparecen en el momento justo. Funcionan mejor cuando tomas la iniciativa y hablas con la gente."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Marta tiene Venus en sextil con Mercurio. Cuando se anima a escribir a un cliente nuevo, la conversación fluye y consigue el trato."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Qué diferencia hay entre sextil y trígono?",
+   "a": "El trígono es más fácil y automático; el sextil pide un pequeño esfuerzo."
+  },
+  {
+   "q": "¿El sextil es un aspecto fuerte?",
+   "a": "Es suave y sutil, más una oportunidad que un empujón."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

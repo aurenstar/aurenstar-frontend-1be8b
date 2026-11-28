@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "jupiter astrologie",
+ "volume": "1000",
+ "slug": "jupiter-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter in der Astrologie: Was bedeutet er?",
+ "description": "Jupiter zeigt, wo du Glück, Wachstum und Zuversicht erlebst. Einfach erklärt, mit Beispiel.",
+ "intro": "Jupiter ist der Planet des Wachstums und der Chancen. Er zeigt, wo dir das Leben gern entgegenkommt.",
+ "sections": [
+  {
+   "h2": "Was macht Jupiter?",
+   "paragraphs": [
+    "Wie ein großzügiger Onkel, der gern Geschenke macht. Er steht für Optimismus, Lernen und Weite."
+   ]
+  },
+  {
+   "h2": "Wie merke ich es?",
+   "paragraphs": [
+    "In welchem Bereich hast du oft Glück oder Vertrauen? Dort wirkt Jupiter. Zu viel davon kann zu Übertreibung führen."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Jupiter im Haus der Reisen: Sven lernt auf Reisen neue Freunde und fließend Spanisch."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie lange bleibt Jupiter in einem Zeichen?",
+   "a": "Etwa ein Jahr."
+  },
+  {
+   "q": "Bringt Jupiter immer Glück?",
+   "a": "Er öffnet Türen, aber du musst hindurchgehen."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

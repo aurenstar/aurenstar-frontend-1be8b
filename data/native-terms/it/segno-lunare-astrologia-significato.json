@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "segno lunare",
+ "volume": "1000",
+ "slug": "segno-lunare-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Segno lunare: cos'è e cosa significa?",
+ "description": "Il segno lunare mostra le tue emozioni e i tuoi bisogni più profondi. Una spiegazione semplice, con esempio.",
+ "intro": "Il segno lunare è la posizione della Luna nel cielo quando sei nato. Racconta come senti le cose dentro di te, anche quando fuori non si vede.",
+ "sections": [
+  {
+   "h2": "Che cos'è il segno lunare?",
+   "paragraphs": [
+    "Se il Sole è come ti vedono gli altri, la Luna è il tuo umore quando sei a casa in pantofole. Mostra cosa ti fa sentire al sicuro e coccolato."
+   ]
+  },
+  {
+   "h2": "Come lo riconosci?",
+   "paragraphs": [
+    "Pensa a come reagisci quando sei stanco o triste: cerchi compagnia, silenzio, ordine? Spesso è la tua Luna a parlare."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Marco è Leone di Sole, quindi in pubblico è sicuro e simpatico. Con la Luna in Pesci, però, la sera si commuove per un film e ha bisogno di stare da solo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Come trovo la mia Luna?",
+   "a": "Inserisci data, ora e luogo di nascita in un calcolatore gratuito: la Luna cambia segno ogni due giorni circa."
+  },
+  {
+   "q": "La Luna conta quanto il Sole?",
+   "a": "Per le emozioni conta moltissimo: sono due metà della stessa persona."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

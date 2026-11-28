@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "neli elementi astroloogia",
+ "volume": "1000",
+ "slug": "neli-elementi-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neli elementi astroloogias: mida need tähendavad?",
+ "description": "Tuli, maa, õhk ja vesi jagavad märgid iseloomu järgi. Lihtsalt seletatud ja näitega.",
+ "intro": "Igaüks 12 märgist kuulub ühte neljast elemendist: tuli, maa, õhk või vesi. Element ütleb, kuidas märk käitub ja mis teda toidab.",
+ "sections": [
+  {
+   "h2": "Mis on elemendid?",
+   "paragraphs": [
+    "Kujuta ette nelja tüüpi inimesi peol: ühed lõbustavad kõiki (tuli), teised valmistavad ja korraldavad (maa), kolmandad vestlevad kõigiga (õhk), neljandad tunnevad ära, kes on kurb (vesi). Tuld esindavad Jäär, Lõvi ja Ambur, maad Sõnn, Neitsi ja Kaljukits, õhku Kaksikud, Kaalud ja Veevalaja, vett Vähk, Skorpion ja Kalad."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Küsi endalt, mida sa kõige rohkem vajad: tegevust, kindlust, juttu või lähedust. See ongi su põhielement. Kui midagi puudu on, otsi seda: tuli vajab liikumist, maa loodust, õhk seltskonda, vesi rahu."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Mari on Vähk, ehk vesi. Ta tunneb ruumi meeleolu kohe ära, ta sõber Margus on Jäär, tuli, ja alustab alati esimesena, seepärast täiendavad nad teineteist nii hästi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mis on minu element?",
+   "a": "Vaata oma märki sünnikuupäeva järgi ja vaata, millisesse rühma see kuulub."
+  },
+  {
+   "q": "Kas elemendid sobivad omavahel?",
+   "a": "Kõige kergemini sobivad tuli ja õhk ning maa ja vesi, kuid igaüks võib klappida, kui vaeva näeb."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

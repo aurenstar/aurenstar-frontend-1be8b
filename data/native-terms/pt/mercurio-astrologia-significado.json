@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "mercúrio astrologia",
+ "volume": "1000",
+ "slug": "mercurio-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mercúrio na astrologia: o que significa?",
+ "description": "Mercúrio rege pensamento, fala e aprendizado. Explicado de forma simples, com exemplo.",
+ "intro": "Mercúrio é o planeta da mente e da comunicação. O signo dele mostra como você pensa, fala, aprende e circula entre as pessoas.",
+ "sections": [
+  {
+   "h2": "O que faz Mercúrio?",
+   "paragraphs": [
+    "É o mensageiro dos deuses: leva as notícias. No seu mapa, é o celular interno que transforma pensamentos em palavras."
+   ]
+  },
+  {
+   "h2": "Como perceber?",
+   "paragraphs": [
+    "Pense em como você conta uma história: com ordem, com humor, direto ao ponto? Esse é o seu Mercúrio."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Letícia tem Mercúrio em Gêmeos: fala rápido, pula de assunto e faz amizade com todo mundo na fila do mercado."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Como achar meu Mercúrio?",
+   "a": "Com a data de nascimento: ele fica sempre perto do Sol."
+  },
+  {
+   "q": "Mercúrio vive retrógrado?",
+   "a": "Não, só três vezes por ano, por cerca de três semanas."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

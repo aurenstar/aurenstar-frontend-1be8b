@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "maisons astrologiques",
+ "volume": "1000",
+ "slug": "maisons-astrologiques-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Maisons astrologiques : que signifient-elles ?",
+ "description": "Les 12 maisons montrent dans quels domaines de la vie les planètes agissent : amour, travail, famille. Expliqué simplement.",
+ "intro": "Les maisons astrologiques sont douze secteurs de ton thème, chacun lié à un domaine de vie. Elles disent où les planètes agissent, alors que les signes disent comment.",
+ "sections": [
+  {
+   "h2": "C’est quoi, les maisons ?",
+   "paragraphs": [
+    "Imagine un appartement de douze pièces : cuisine, bureau, chambre, salon… Chaque pièce est un domaine de ta vie, et les planètes y entrent comme des invités."
+   ]
+  },
+  {
+   "h2": "Comment les lire ?",
+   "paragraphs": [
+    "Regarde quelles maisons contiennent des planètes : ce sont tes domaines les plus actifs. Une maison vide n’est pas un problème, elle est simplement plus calme."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Élodie a Vénus dans sa maison 7, celle du couple. Les relations tiennent donc une très grande place dans sa vie."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Combien y a-t-il de maisons ?",
+   "a": "Douze, chacune liée à un thème : soi, argent, communication, famille, amour, travail, etc."
+  },
+  {
+   "q": "Faut-il l’heure de naissance ?",
+   "a": "Oui, sans l’heure exacte, les maisons ne sont pas fiables."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

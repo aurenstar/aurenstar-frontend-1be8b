@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "south node",
+ "volume": "1000",
+ "slug": "south-node-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "South node dalam astrologi: apa artinya?",
+ "description": "South node menunjukkan bakat dan kebiasaan lama yang sudah Anda kuasai. Ia nyaman, tapi bisa membuat Anda berhenti tumbuh.",
+ "intro": "South node berseberangan dengan north node. Ia menggambarkan kemampuan dan pola yang terasa akrab, seperti bawaan sejak lahir.",
+ "sections": [
+  {
+   "h2": "Apa fungsi south node?",
+   "paragraphs": [
+    "Bayangkan jalan pulang yang Anda hafal tanpa melihat peta. Nyaman dan mudah, tapi tak membawa Anda ke tempat baru. Itulah south node."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Apa yang selalu mudah Anda lakukan, tapi tidak lagi membuat Anda bersemangat? Itu wilayah south node. Rumahnya menunjukkan bidangnya."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Sari punya south node di rumah keempat. Ia pandai mengurus rumah dan keluarga, tapi kadang lupa mengejar mimpinya sendiri di luar sana."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Apakah south node buruk?",
+   "a": "Tidak. Ia modal berharga, selama tidak membuat Anda terlalu nyaman dan berhenti belajar."
+  },
+  {
+   "q": "Bagaimana memakainya dengan baik?",
+   "a": "Hargai kemampuan lama itu, lalu gunakan sebagai bekal untuk melangkah ke arah north node."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

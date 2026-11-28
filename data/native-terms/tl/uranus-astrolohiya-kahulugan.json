@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "uranus astrolohiya",
+ "volume": "1000",
+ "slug": "uranus-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uranus sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Ipinapakita ng Uranus ang biglaang pagbabago, bagong ideya, at kalayaan. Simple, may halimbawa.",
+ "intro": "Ang Uranus ay planetang nanggugulat pero nagpapalaya. Sinisira nito ang lumang nakasanayan at nagbubukas ng bagong daan.",
+ "sections": [
+  {
+   "h2": "Ano ang ginagawa ng Uranus?",
+   "paragraphs": [
+    "Naranasan mo na bang biglang sarado ang daang lagi mong dinadaanan, tapos may nakita kang mas magandang shortcut? Ganyan ang Uranus: sabay ang gulo at ang pagkakataon."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Sa anong bahagi ng buhay mo gusto mong maging iba at naiirita ka sa mga patakaran? Doon ang Uranus. Palatandaan din ang mga pangyayaring hindi inaasahan."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Maraming taon nang nasa iisang trabaho si Ramon, tapos bigla siyang natanggal. Pagkatapos ay nagbukas siya ng maliit na tindahan at mas masaya na siya."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Gaano katagal ang Uranus sa isang sign?",
+   "a": "Mga pitong taon, kaya nakakaapekto ito sa buong henerasyon."
+  },
+  {
+   "q": "Delikado ba ang Uranus?",
+   "a": "Hindi, nagdadala lang ito ng pagbabago. Kapag mahinahon mong tinanggap, may pakinabang."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

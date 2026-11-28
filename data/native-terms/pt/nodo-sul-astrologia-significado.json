@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "nodo sul",
+ "volume": "1000",
+ "slug": "nodo-sul-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nodo Sul: o que é e o que significa?",
+ "description": "O Nodo Sul mostra os talentos e hábitos que você já traz. Explicado de forma simples, com exemplo.",
+ "intro": "O Nodo Sul fica oposto ao Nodo Norte e mostra o que vem naturalmente para você. São talentos, mas também confortos dos quais convém sair de vez em quando.",
+ "sections": [
+  {
+   "h2": "O que é o Nodo Sul?",
+   "paragraphs": [
+    "Pense na sua poltrona favorita: é confortável e você a conhece de cor. O Nodo Sul é esse conforto, útil, mas às vezes macio demais."
+   ]
+  },
+  {
+   "h2": "Como reconhecer?",
+   "paragraphs": [
+    "São coisas que você faz sem esforço e a que volta quando tem medo. Ajudam, mas ficar só nelas impede de crescer."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Beatriz ajuda todo mundo e tem dificuldade de dizer não. Esse é o Nodo Sul dela: ela aprende a reservar tempo para si."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "O Nodo Sul é ruim?",
+   "a": "Não, é um recurso; só não vale ficar parado nele."
+  },
+  {
+   "q": "Como se liga ao Nodo Norte?",
+   "a": "São opostos: um é o ponto de partida, o outro, a direção."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

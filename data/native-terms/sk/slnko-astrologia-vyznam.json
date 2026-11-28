@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "slnko astrológia",
+ "volume": "1000",
+ "slug": "slnko-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Slnko v astrológii: čo znamená?",
+ "description": "Slnko ukazuje, kým ste hlboko vo vnútri a odkiaľ čerpáte energiu. Jednoducho s príkladom.",
+ "intro": "Slnko je srdce vášho horoskopu: vaše jadro, vôľa a životná sila. Slnečné znamenie je to, ktoré o sebe pozná väčšina ľudí.",
+ "sections": [
+  {
+   "h2": "Čo robí Slnko?",
+   "paragraphs": [
+    "Predstavte si slnko nad záhradou: bez neho nič nerastie. Rovnako Slnko v horoskope dáva základ a hnaciu silu."
+   ]
+  },
+  {
+   "h2": "Ako to spoznáte?",
+   "paragraphs": [
+    "Kedy sa cítite naozaj sami sebou a plní energie? Vtedy pracuje vaše Slnko. Znamenie určuje dátum narodenia."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Slnko v Levovi: Zuzana chce byť videná, je vrúcna a štedrá a rozkvitá z trochy potlesku."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je slnečné znamenie všetko?",
+   "a": "Nie, je to jadro. Mesiac a ascendent dofarbujú zvyšok povahy."
+  },
+  {
+   "q": "Ako nájdem svoje Slnko?",
+   "a": "Pozrite sa na dátum narodenia: znamenie toho dňa je vaše slnečné znamenie."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "südknoten",
+ "volume": "1000",
+ "slug": "suedknoten-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Südknoten: Was bedeutet er?",
+ "description": "Der Südknoten steht für Gewohnheiten und Talente aus der Vergangenheit. Einfach erklärt, mit Beispiel.",
+ "intro": "Der Südknoten liegt dem Nordknoten genau gegenüber. Er zeigt, was dir leichtfällt und worin du dich gern ausruhst.",
+ "sections": [
+  {
+   "h2": "Was ist der Südknoten?",
+   "paragraphs": [
+    "Wie dein Lieblingssessel: bequem, vertraut, aber man kommt nicht voran, wenn man nur dort sitzt. Er zeigt mitgebrachte Stärken."
+   ]
+  },
+  {
+   "h2": "Wie erkenne ich ihn?",
+   "paragraphs": [
+    "Was machst du ohne Mühe, aber auch aus Gewohnheit? Dort wirkt der Südknoten."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Annas Südknoten liegt im Zeichen der Fürsorge. Sie hilft allen und vergisst dabei sich selbst."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist der Südknoten schlecht?",
+   "a": "Nein, er ist ein Schatz an Fähigkeiten, nur sollte man nicht darin stecken bleiben."
+  },
+  {
+   "q": "Wo liegt der Südknoten?",
+   "a": "Immer genau gegenüber dem Nordknoten."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

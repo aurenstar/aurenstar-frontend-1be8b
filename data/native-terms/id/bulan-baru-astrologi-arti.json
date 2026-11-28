@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "bulan baru astrologi",
+ "volume": "1000",
+ "slug": "bulan-baru-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Bulan baru dalam astrologi: apa artinya?",
+ "description": "Bulan baru adalah awal siklus bulan, waktu yang baik untuk menanam niat dan memulai lembaran baru.",
+ "intro": "Bulan baru terjadi saat Matahari dan Bulan berada di zodiak yang sama, sehingga Bulan tak terlihat. Itu awal sebuah siklus.",
+ "sections": [
+  {
+   "h2": "Apa itu bulan baru?",
+   "paragraphs": [
+    "Bayangkan halaman pertama buku catatan baru: bersih dan siap diisi. Bulan baru adalah halaman kosong untuk niat dan rencana Anda."
+   ]
+  },
+  {
+   "h2": "Bagaimana memanfaatkannya?",
+   "paragraphs": [
+    "Duduk tenang dan tulis tiga hal yang ingin Anda mulai bulan ini. Pilih yang kecil dan jelas supaya mudah dijalankan."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Dewi menulis tiga niat saat bulan baru: jalan kaki tiap pagi, membaca satu buku, dan menabung. Sebulan kemudian dua niat sudah ia jalankan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Berapa sering bulan baru terjadi?",
+   "a": "Sekitar tiap 29 sampai 30 hari."
+  },
+  {
+   "q": "Apakah niat harus ditulis tepat saat bulan baru?",
+   "a": "Tidak harus. Satu atau dua hari sesudahnya masih baik."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

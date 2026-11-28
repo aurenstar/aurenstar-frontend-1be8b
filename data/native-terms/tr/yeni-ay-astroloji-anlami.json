@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "yeni ay astroloji",
+ "volume": "1000",
+ "slug": "yeni-ay-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Yeni Ay astrolojide ne anlama gelir?",
+ "description": "Yeni Ay yeni başlangıçların ve niyetlerin zamanıdır. Basit anlatım ve örnek.",
+ "intro": "Yeni Ay, Ay'ın gökyüzünde görünmediği, Güneş ve Ay'ın aynı burçta olduğu andır. Yeni bir ay döngüsünün başlangıcıdır.",
+ "sections": [
+  {
+   "h2": "Ne anlama gelir?",
+   "paragraphs": [
+    "Defterin temiz sayfası gibi: ne istediğini yazabilirsin. Enerji büyümeye yöneliktir, bu yüzden planlamak için uygundur."
+   ]
+  },
+  {
+   "h2": "Ne yapılır?",
+   "paragraphs": [
+    "Bir iki niyet seç ve yaz. Çok fazla alma: yeni döngü yaklaşık bir ay sürer."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Terazi'deki Yeni Ay'da Gül, ablasıyla ilişkisini düzeltmeye karar verdi. Aynı akşam mesaj attı; bir sonraki dolunayda barıştılar."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Yeni Ay ne kadar sürer?",
+   "a": "Tam an çok kısadır, etkisi yaklaşık üç gün hissedilir."
+  },
+  {
+   "q": "Başka günlerde başlayabilir miyim?",
+   "a": "Evet, ama Yeni Ay hafif bir başlangıç itkisi verir."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

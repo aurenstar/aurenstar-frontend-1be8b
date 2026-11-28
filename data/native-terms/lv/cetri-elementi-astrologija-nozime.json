@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "četri elementi astroloģija",
+ "volume": "1000",
+ "slug": "cetri-elementi-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Četri elementi astroloģijā: ko tie nozīmē?",
+ "description": "Uguns, zeme, gaiss un ūdens sadala zīmes pēc temperamenta. Vienkārši izskaidrots, ar piemēru.",
+ "intro": "Katra no 12 zīmēm pieder vienam no četriem elementiem: ugunij, zemei, gaisam vai ūdenim. Elements parāda, kā zīme uzvedas un ar ko barojas.",
+ "sections": [
+  {
+   "h2": "Kas ir elementi?",
+   "paragraphs": [
+    "Iedomājies četru veidu cilvēkus ballītē: viens uzjautrina visus (uguns), otrs gatavo un organizē (zeme), trešais runā ar visiem (gaiss), ceturtais sajūt, kam skumji (ūdens). Uguni veido Auns, Lauva un Strēlnieks, zemi Vērsis, Jaunava un Mežāzis, gaisu Dvīņi, Svari un Ūdensvīrs, ūdeni Vēzis, Skorpions un Zivis."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Pajautā sev, kas tev visvairāk vajadzīgs: darbība, drošība, saruna vai tuvība. Tas ir tavs galvenais elements. Kad kaut kā trūkst, meklē to: ugunij vajag kustību, zemei dabu, gaisam sabiedrību, ūdenim mieru."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Anna ir Vēzis, tātad ūdens. Viņa uzreiz sajūt noskaņu telpā, bet viņas draugs Mareks ir Auns, uguns, un vienmēr sāk pirmais, tāpēc viņi tik labi papildina viens otru."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kāds ir mans elements?",
+   "a": "Apskati savu zīmi pēc dzimšanas datuma un paskaties, kurai grupai tā pieder."
+  },
+  {
+   "q": "Vai elementi saskan savā starpā?",
+   "a": "Vieglāk saprotas uguns ar gaisu un zeme ar ūdeni, bet saprasties var ikviens, ja pamēģina."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

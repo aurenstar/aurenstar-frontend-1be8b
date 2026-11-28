@@ -1,0 +1,49 @@
+{
+ "lang": "hr",
+ "keyword": "kardinalni fiksni promjenjivi znakovi astrologija",
+ "volume": "1000",
+ "slug": "kvalitete-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kvalitete u astrologiji: kardinalni, fiksni i promjenjivi",
+ "description": "Tri kvalitete pokazuju kako znak počinje, izdržava i mijenja stvari. Jednostavno, s primjerom.",
+ "intro": "Znakovi zodijaka dijele se i na tri kvalitete: kardinalnu, fiksnu i promjenjivu. One pokazuju voli li znak počinjati, izdržati ili se prilagođavati.",
+ "sections": [
+  {
+   "h2": "Što znače kvalitete?",
+   "paragraphs": [
+    "Kardinalni znakovi (Ovan, Rak, Vaga, Jarac) otvaraju godišnje doba i rado kreću u nešto novo. Fiksni (Bik, Lav, Škorpion, Vodenjak) stoje usred sezone i drže smjer. Promjenjivi (Blizanci, Djevica, Strijelac, Ribe) zatvaraju godišnje doba i lako se prilagođavaju."
+   ]
+  },
+  {
+   "h2": "Kako to primjećuješ?",
+   "paragraphs": [
+    "Pitaj se što ti najbolje ide: počinjati, dovoditi do kraja ili mijenjati plan usput. To odaje tvoju kvalitetu."
+   ]
+  },
+  {
+   "h2": "Primjer",
+   "paragraphs": [
+    "Marta je Vaga, dakle kardinalna, i svaki mjesec ima novu ideju. Njezin muž Ivo je Bik, dakle fiksni, godinama hoda istom rutom i zadovoljan je."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je li kvaliteta važnija od elementa?",
+   "a": "Ne, to je samo drugi način opisa znaka; zajedno s elementom daje potpuniju sliku."
+  },
+  {
+   "q": "Je li fiksni znak tvrdoglav?",
+   "a": "Često jest, ali ista osobina donosi i vjernost i ustrajnost."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

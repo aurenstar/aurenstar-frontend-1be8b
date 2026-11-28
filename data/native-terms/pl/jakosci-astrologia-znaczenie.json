@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "krzyż kardynalny stały zmienny astrologia",
+ "volume": "1000",
+ "slug": "jakosci-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jakości w astrologii: kardynalne, stałe i zmienne",
+ "description": "Trzy jakości pokazują, jak znak zaczyna, trwa i zmienia sprawy. Wyjaśnione prosto, z przykładem.",
+ "intro": "Znaki zodiaku dzielą się też na trzy jakości: kardynalne, stałe i zmienne. Mówią, czy dany znak lubi zaczynać, wytrwać, czy się dostosowywać.",
+ "sections": [
+  {
+   "h2": "Co oznaczają jakości?",
+   "paragraphs": [
+    "Kardynalne znaki (Baran, Rak, Waga, Koziorożec) zaczynają porę roku i chętnie ruszają z nowym. Stałe (Byk, Lew, Skorpion, Wodnik) są w środku sezonu i trzymają kurs. Zmienne (Bliźnięta, Panna, Strzelec, Ryby) kończą porę roku i łatwo się dostosowują."
+   ]
+  },
+  {
+   "h2": "Jak to zauważysz?",
+   "paragraphs": [
+    "Zapytaj siebie, co ci wychodzi najlepiej: zaczynać, doprowadzać do końca czy zmieniać plan w trakcie. To podpowiada twoją jakość."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Kasia z Wagi, czyli kardynalna, co miesiąc ma nowy pomysł. Jej mąż Marek z Byka, czyli stały, od lat chodzi tą samą trasą i jest z tego zadowolony."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy jakość jest ważniejsza od żywiołu?",
+   "a": "Nie, to tylko drugi sposób na opisanie znaku, razem z żywiołem daje pełniejszy obraz."
+  },
+  {
+   "q": "Czy stały znak jest uparty?",
+   "a": "Często tak, ale ta cecha daje też wierność i wytrwałość."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

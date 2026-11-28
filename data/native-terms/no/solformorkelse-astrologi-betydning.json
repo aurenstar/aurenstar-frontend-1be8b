@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "solformørkelse astrologi",
+ "volume": "1000",
+ "slug": "solformorkelse-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Solformørkelse i astrologi: hva betyr det?",
+ "description": "En solformørkelse gir en stor ny start og et dytt mot forandring. Enkelt forklart med eksempel.",
+ "intro": "Ved en solformørkelse glir månen foran solen. I astrologien er det en ekstra kraftfull nymåne som åpner et nytt kapittel.",
+ "sections": [
+  {
+   "h2": "Hva gjør en solformørkelse?",
+   "paragraphs": [
+    "Tenk på en gardin som raskt trekkes for vinduet: lyset forsvinner et øyeblikk, og etterpå ser du rommet på en ny måte. Slik åpner en formørkelse en ny fase."
+   ]
+  },
+  {
+   "h2": "Hvordan merker du det?",
+   "paragraphs": [
+    "Ting endrer seg raskere enn planlagt: ny jobb, flytting eller ny innsikt. Effekten ses ofte i ukene og månedene etterpå."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Solformørkelse i Oksen: Ingrid får uventet et nytt tilbud og velger mer trygghet i økonomien."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvor ofte er det solformørkelse?",
+   "a": "Vanligvis to ganger i året, i de delene av horoskopet ditt som tegnet berører."
+  },
+  {
+   "q": "Er en formørkelse farlig?",
+   "a": "Nei, det er et dytt mot forandring. Hold deg rolig og se hvor det fører deg."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

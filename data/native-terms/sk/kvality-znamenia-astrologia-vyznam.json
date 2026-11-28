@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "kardinálne pevné premenlivé astrológia",
+ "volume": "1000",
+ "slug": "kvality-znamenia-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kardinálne, pevné a premenlivé v astrológii: čo znamenajú?",
+ "description": "Kardinálne, pevné a premenlivé ukazujú, ako znamenie začína, vytrváva alebo sa prispôsobuje. Jednoducho vysvetlené.",
+ "intro": "Dvanásť znamení sa delí aj do troch spôsobov konania: kardinálne, pevné a premenlivé. Ukazujú, ako veci uchopíte.",
+ "sections": [
+  {
+   "h2": "Ktoré sú tie tri?",
+   "paragraphs": [
+    "Predstavte si ročné obdobie: kardinálne znamenia (Baran, Rak, Váhy, Kozorožec) sú začiatok, pevné znamenia (Býk, Lev, Škorpión, Vodnár) stred a premenlivé znamenia (Blíženci, Panna, Strelec, Ryby) prechod k ďalšiemu."
+   ]
+  },
+  {
+   "h2": "Ako to spoznáte?",
+   "paragraphs": [
+    "Radi začínate, vytrváte, alebo sa ľahko prispôsobíte? Kardinálne začína, pevné vytrvá a premenlivé sa prispôsobí."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Zuzana je kardinálna a každý mesiac začne nový projekt. Marek je pevný a v pokoji dokončí, čo začal. Sú dobrý tím."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Aký spôsob mám ja?",
+   "a": "Závisí od slnečného znamenia; Mesiac a ascendent majú každý svoj."
+  },
+  {
+   "q": "Je pevné to isté čo tvrdohlavé?",
+   "a": "Niekedy, ale hlavne spoľahlivé: pevné znamenie vás nenechá v štichu."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

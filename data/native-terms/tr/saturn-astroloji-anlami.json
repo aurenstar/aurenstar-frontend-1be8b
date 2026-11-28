@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "satürn astroloji",
+ "volume": "1000",
+ "slug": "saturn-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Satürn astrolojide ne anlama gelir?",
+ "description": "Satürn disiplini ve sorumluluğu öğrendiğin yeri gösterir. Basit anlatım.",
+ "intro": "Satürn kuralların, zamanın ve sorumluluğun gezegenidir. Haritada nerede sıkı çalışman, nerede sonradan güvenilir olacağını gösterir.",
+ "sections": [
+  {
+   "h2": "Satürn ne yapar?",
+   "paragraphs": [
+    "Sert ama adil bir öğretmen gibi: zor ama çok şey öğrenirsin. İşte Satürn budur."
+   ]
+  },
+  {
+   "h2": "Nasıl fark edilir?",
+   "paragraphs": [
+    "Hangi alanda baskı ya da başarısızlık korkusu hissediyorsun? Orada Satürn çalışıyor; sabırla tam orada güçleneceksin."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Satürn iş evinde: Mehmet kendinden emin olana kadar uzun süre çalışır, ama sonradan sevilen ve güvenilir bir yönetici olur."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Satürnümü nasıl bulurum?",
+   "a": "Doğum tarihinle Satürn'ün bulunduğu burç hesaplanır."
+  },
+  {
+   "q": "Satürn kötü gezegen mi?",
+   "a": "Hayır, çaba ister ama güç ve huzurla ödüllendirir."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

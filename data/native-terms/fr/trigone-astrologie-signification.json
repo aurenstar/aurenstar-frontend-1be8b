@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "trigone astrologie",
+ "volume": "1000",
+ "slug": "trigone-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigone en astrologie : que signifie cet aspect ?",
+ "description": "Le trigone relie deux planètes à 120 degrés et révèle un talent qui coule de source. Expliqué simplement, avec un exemple.",
+ "intro": "Le trigone est un angle de 120 degrés entre deux planètes. C’est l’aspect le plus facile : deux énergies qui s’épaulent sans effort.",
+ "sections": [
+  {
+   "h2": "C’est quoi, un trigone ?",
+   "paragraphs": [
+    "C’est une descente à vélo : on avance presque sans pédaler. Les deux planètes collaborent et cette partie de toi fonctionne toute seule."
+   ]
+  },
+  {
+   "h2": "Comment le ressent-on ?",
+   "paragraphs": [
+    "Tu as un talent naturel que tu as du mal à expliquer. Le risque est de le tenir pour acquis et de ne pas l’utiliser."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Antoine a Mercure en trigone avec Jupiter. Il apprend les langues avec facilité, mais il ne progresse vraiment que lorsqu’il se fixe des objectifs."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Un trigone garantit-il la réussite ?",
+   "a": "Non, il donne de la facilité ; il faut l’exploiter."
+  },
+  {
+   "q": "Les planètes d’un trigone sont-elles dans le même élément ?",
+   "a": "Oui, en général, par exemple feu avec feu."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

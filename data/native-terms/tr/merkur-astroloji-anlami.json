@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "merkür astroloji",
+ "volume": "1000",
+ "slug": "merkur-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkür astrolojide ne anlama gelir?",
+ "description": "Merkür düşünme, konuşma ve iletişimi yönetir. Basit anlatım ve örnek.",
+ "intro": "Merkür zekâ, kelimeler ve öğrenmenin gezegenidir. Haritada nasıl düşündüğünü ve konuştuğunu gösterir.",
+ "sections": [
+  {
+   "h2": "Merkür neyi yönetir?",
+   "paragraphs": [
+    "Postacı gibi: düşünceleri bir yerden bir yere taşır. Ne kadar çabuk kavradığın, nasıl anlattığın ve yazdığın ona bağlıdır."
+   ]
+  },
+  {
+   "h2": "Nasıl fark edilir?",
+   "paragraphs": [
+    "Bir hikâyeyi nasıl anlattığına bak: kısa mı uzun mu, ciddi mi esprili mi? Bu Merkür burcudur."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Cem'in Merkür'ü İkizler'de: hızlı konuşur, espriyi sever, konular arasında kolay geçiş yapar. Başak'ta olsa daha yavaş ve titiz konuşurdu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Merkürümü nasıl bulurum?",
+   "a": "Hep Güneş'in yakınındadır; doğum tarihi yeterli."
+  },
+  {
+   "q": "Merkür öğrenmeyi etkiler mi?",
+   "a": "Evet, öğrenme ve iletişim tarzını gösterir."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

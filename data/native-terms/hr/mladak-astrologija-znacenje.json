@@ -1,0 +1,49 @@
+{
+ "lang": "hr",
+ "keyword": "mlađak astrologija",
+ "volume": "1000",
+ "slug": "mladak-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mlađak u astrologiji: što znači?",
+ "description": "Mlađak je dobar trenutak da nešto započneš iznova. Jednostavno, s primjerom.",
+ "intro": "Mlađak je kad se Mjesec ne vidi na nebu. U astrologiji to je simboličan početak novog ciklusa i dobro vrijeme za nakane.",
+ "sections": [
+  {
+   "h2": "Što radi mlađak?",
+   "paragraphs": [
+    "Kao čist list u bilježnici: možeš napisati što god želiš. Mlađak daje miran početak i mjesto za nove planove."
+   ]
+  },
+  {
+   "h2": "Kako ga iskoristiti?",
+   "paragraphs": [
+    "Zapiši nekoliko konkretnih nakana za idući mjesec. Odaberi male, ostvarive korake, a ne velika obećanja."
+   ]
+  },
+  {
+   "h2": "Primjer",
+   "paragraphs": [
+    "Marta na mlađak u Vagi zapiše da želi češće viđati sestru. Svaki tjedan zajedno popiju kavu, a nakon mjesec dana osjeti razliku."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko se često događa mlađak?",
+   "a": "Otprilike svakih dvadeset i devet i pol dana."
+  },
+  {
+   "q": "Moram li napraviti nešto posebno?",
+   "a": "Ne, dovoljno je malo tišine i list s nakanama."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

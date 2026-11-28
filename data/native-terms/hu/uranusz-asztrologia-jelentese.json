@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "uránusz asztrológia",
+ "volume": "1000",
+ "slug": "uranusz-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uránusz az asztrológiában: mit jelent?",
+ "description": "Az Uránusz megmutatja, hol vágysz szabadságra és változásra. Egyszerűen, példával.",
+ "intro": "Az Uránusz a meglepetések, a szabadság és az új ötletek bolygója. A horoszkópban látszik, hol töröd át a sémákat, és hol érhet váratlan fordulat.",
+ "sections": [
+  {
+   "h2": "Mit csinál az Uránusz?",
+   "paragraphs": [
+    "Olyan, mintha az egész utcában hirtelen elmenne az áram: minden megáll, és ki kell találni valamit. Az Uránusz felrázza, ami berögzült."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Melyik területen nem bírod az unalmat és a szabályokat? Ott dolgozik az Uránusz. Gyakran meggondolod magad, vagy nulláról kezdesz."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Uránusz a munka házában: Zsófi egyik napról a másikra otthagyja az irodai állást, és biciklis műhelyt nyit. Mindenki csodálkozik, ő sosem volt még ilyen boldog."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Meddig áll az Uránusz egy jegyben?",
+   "a": "Nagyjából hét évig, ezért egy egész nemzedéket jellemez."
+  },
+  {
+   "q": "Csak káoszt hoz az Uránusz?",
+   "a": "Nem, bátorságot és eredeti ötleteket is ad, amelyek új utakat nyitnak."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "transit astroloji",
+ "volume": "1000",
+ "slug": "transit-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Transit nedir? Astrolojide güncel gezegen etkisi",
+ "description": "Transit, şu an gökyüzündeki gezegenlerin haritana etkisini gösterir. Basit anlatım.",
+ "intro": "Transit, bir gezegenin şu andaki konumunun doğum haritanla ilişkisidir. Sana özel bir hava durumu gibi.",
+ "sections": [
+  {
+   "h2": "Transit nedir?",
+   "paragraphs": [
+    "Doğum haritan hayatının iklimi, transit ise bugünün havası. Hızlı gezegenler birkaç günlük ruh hali, yavaşlar yıllarca süren değişimler getirir."
+   ]
+  },
+  {
+   "h2": "Nasıl fark edilir?",
+   "paragraphs": [
+    "Hangi gezegenin Güneş'ine, Ay'ına ya da yükselenine değdiğine bak. O zaman olaylar ve duygular belirginleşir."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Jüpiter, Merve'nin Güneş'inden geçtiğinde ona yeni bir pozisyon teklif edildi. Uzun süredir ilerlemek istiyordu, transit uygun zamanı verdi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Transit kaderi mi söyler?",
+   "a": "Hayır, eğilimleri ve uygun zamanı gösterir. Karar sana ait."
+  },
+  {
+   "q": "En önemli transitler hangileri?",
+   "a": "Yavaş gezegenlerinki: Satürn, Uranüs, Neptün ve Plüton."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

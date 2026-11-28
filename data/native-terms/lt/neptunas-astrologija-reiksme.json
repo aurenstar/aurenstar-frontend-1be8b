@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "neptūnas astrologija",
+ "volume": "1000",
+ "slug": "neptunas-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptūnas astrologijoje: ką tai reiškia?",
+ "description": "Neptūnas rodo vaizduotę, sapnus ir intuiciją, bet ir rūką. Paprastai paaiškinta, su pavyzdžiu.",
+ "intro": "Neptūnas yra vaizduotės, sapnų ir atjautos planeta. Kur jis tavo žemėlapyje, ten viskas minkštesnė ir neaiškesnė, todėl lengva svajoti, bet galima ir apsigauti.",
+ "sections": [
+  {
+   "h2": "Ką daro Neptūnas?",
+   "paragraphs": [
+    "Įsivaizduok važiavimą rūke: gražu ir paslaptinga, bet toli nematyti. Toks ir Neptūnas, žadina fantaziją, bet atima aiškumą."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Kurioje srityje svajoji, jauti daugiau, nei gali paaiškinti, ar sunku matyti dalykus tokius, kokie jie yra? Ten Neptūnas. Padeda pasitikrinti faktus."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Rūta turi Neptūną meilės name. Ji labai švelni ir supranta kitus, bet mylimame žmoguje mato tik gera, todėl verta paklausti ir draugų nuomonės."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kiek laiko Neptūnas būna viename ženkle?",
+   "a": "Apie keturiolika metų, todėl jį dalijasi visa karta."
+  },
+  {
+   "q": "Ar Neptūnas blogas?",
+   "a": "Ne, jis duoda meną ir gailestį. Jam tereikia truputį realybės kaip inkaro."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

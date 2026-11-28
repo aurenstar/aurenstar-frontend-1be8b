@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "neptuun astroloogia",
+ "volume": "1000",
+ "slug": "neptuun-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptuun astroloogias: mida see tähendab?",
+ "description": "Neptuun näitab kujutlusvõimet, unenägusid ja intuitsiooni, aga ka udu. Lihtsalt seletatud ja näitega.",
+ "intro": "Neptuun on kujutlusvõime, unenägude ja kaastunde planeet. Seal, kus ta sinu kaardil on, on asjad pehmemad ja ähmasemad, nii et unistad kergesti, aga võid ka ennast petta.",
+ "sections": [
+  {
+   "h2": "Mida Neptuun teeb?",
+   "paragraphs": [
+    "Kujuta ette sõitu udus: on ilus ja salapärane, aga kaugele ei näe. Selline on Neptuun, ta äratab fantaasia, kuid võtab teravuse."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Millises valdkonnas unistad, tunned rohkem, kui oskad seletada, või on raske asju sellistena näha, nagu nad on? Seal on Neptuun. Aita end faktide kontrollimisega."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Maril on Neptuun armastuse majas. Ta on väga õrn ja mõistab teisi, kuid armastatud inimeses näeb ta vaid head, nii et küsigu ka sõprade arvamust."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kui kaua Neptuun ühes märgis püsib?",
+   "a": "Umbes neliteist aastat, seepärast jagab teda terve põlvkond."
+  },
+  {
+   "q": "Kas Neptuun on halb?",
+   "a": "Ei, ta annab kunsti ja halastust. Talle on vaja vaid veidi reaalsust ankruks."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

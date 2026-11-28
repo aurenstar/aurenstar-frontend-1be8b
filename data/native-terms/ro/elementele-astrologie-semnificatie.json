@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "elementele în astrologie",
+ "volume": "1000",
+ "slug": "elementele-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Elementele în astrologie: foc, pământ, aer, apă",
+ "description": "Cele patru elemente împart zodiile după temperament. Explicat simplu, cu exemplu.",
+ "intro": "Fiecare zodie aparține unuia dintre cele patru elemente: foc, pământ, aer sau apă. Elementul spune cum simte, gândește și acționează acel semn.",
+ "sections": [
+  {
+   "h2": "Ce înseamnă elementele?",
+   "paragraphs": [
+    "Focul (Berbec, Leu, Săgetător) înseamnă entuziasm, pământul (Taur, Fecioară, Capricorn) practicitate, aerul (Gemeni, Balanță, Vărsător) vorbă și gând, iar apa (Rac, Scorpion, Pești) sentimente."
+   ]
+  },
+  {
+   "h2": "Cum observi?",
+   "paragraphs": [
+    "Vezi cum reacționezi la o problemă: acționezi pe loc, faci un plan, vorbești sau mai întâi simți. Asta îți trădează elementul."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Ioana, Rac, deci apă, are nevoie după o zi grea de un ceai și de tandrețe. Prietenul ei Tudor, Berbec, deci foc, preferă să iasă la alergat."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Care element e cel mai bun?",
+   "a": "Niciunul, fiecare are punctele forte, iar cel mai bine merge o îmbinare."
+  },
+  {
+   "q": "Se înțeleg elementele între ele?",
+   "a": "Focul se potrivește cu aerul, iar pământul cu apa, dar orice pereche se poate înțelege dacă se ascultă."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

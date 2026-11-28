@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "retrogradazione dei pianeti",
+ "volume": "1000",
+ "slug": "pianeta-retrogrado-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pianeta retrogrado: cosa significa?",
+ "description": "Un pianeta retrogrado sembra tornare indietro nel cielo e invita a rivedere e rallentare. Spiegato semplice.",
+ "intro": "Un pianeta retrogrado sembra camminare all'indietro visto dalla Terra. In astrologia è un invito a rallentare, rivedere e rifinire.",
+ "sections": [
+  {
+   "h2": "Che cos'è?",
+   "paragraphs": [
+    "Immagina di superare un'auto in autostrada: per un attimo sembra che vada indietro. È solo un effetto ottico, ma ci ricorda di guardare meglio."
+   ]
+  },
+  {
+   "h2": "Come si sente?",
+   "paragraphs": [
+    "Si ripresentano vecchie questioni, messaggi dal passato, cose da sistemare. È un buon momento per rivedere, non per partire con grandi progetti."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Roberta aspetta una risposta importante, ma con Mercurio retrogrado le mail si perdono. Ricontrolla tutto, trova un errore nel contratto e lo corregge in tempo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cosa non fare?",
+   "a": "Meglio non firmare in fretta: rileggi con calma."
+  },
+  {
+   "q": "Quanto dura?",
+   "a": "Da qualche settimana a diversi mesi, secondo il pianeta."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

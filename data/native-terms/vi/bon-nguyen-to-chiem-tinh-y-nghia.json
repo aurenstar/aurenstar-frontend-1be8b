@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "bốn nguyên tố chiêm tinh",
+ "volume": "1000",
+ "slug": "bon-nguyen-to-chiem-tinh-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Bốn nguyên tố (lửa, đất, khí, nước) trong chiêm tinh là gì?",
+ "description": "12 cung hoàng đạo chia thành bốn nguyên tố: lửa, đất, khí, nước. Giải thích đơn giản, có ví dụ.",
+ "intro": "Chiêm tinh chia 12 cung thành bốn nguyên tố: lửa, đất, khí và nước. Các cung cùng nguyên tố có tính cách khá giống nhau.",
+ "sections": [
+  {
+   "h2": "Bốn nguyên tố là gì?",
+   "paragraphs": [
+    "Lửa gồm Bạch Dương, Sư Tử, Nhân Mã. Đất gồm Kim Ngưu, Xử Nữ, Ma Kết. Khí gồm Song Tử, Thiên Bình, Bảo Bình. Nước gồm Cự Giải, Bọ Cạp, Song Ngư. Lửa là nhiệt huyết, đất là thực tế, khí là suy nghĩ, nước là cảm xúc."
+   ]
+  },
+  {
+   "h2": "Làm sao nhận ra?",
+   "paragraphs": [
+    "Hãy nghĩ đến bạn bè. Người hay đi đầu giống lửa, người cẩn thận chu đáo giống đất, người nhiều ý tưởng và nói nhiều giống khí, người hay thấu hiểu giống nước."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Mặt Trời của Lan ở Bọ Cạp nên cô thuộc nguyên tố nước. Cô nhạy bén với tâm tư người khác, nhưng khi cảm xúc dồn nặng thì muốn ở một mình."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Nguyên tố nào hợp nhau?",
+   "a": "Lửa hợp khí, đất hợp nước, còn cùng nguyên tố thì dễ hiểu nhau."
+  },
+  {
+   "q": "Tôi chỉ có một nguyên tố thôi sao?",
+   "a": "Không, Mặt Trời, Mặt Trăng và cung Mọc mỗi nơi có nguyên tố riêng, nên bạn thường là sự pha trộn."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "sol astrología",
+ "volume": "1000",
+ "slug": "sol-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "El Sol en astrología: qué significa tu signo solar",
+ "description": "El Sol representa tu esencia, tu identidad y lo que te da vida. Explicado fácil, con ejemplo.",
+ "intro": "El Sol es el centro de tu carta natal y representa quién eres en el fondo. Tu signo solar es el signo en el que estaba el Sol el día que naciste.",
+ "sections": [
+  {
+   "h2": "¿Qué hace el Sol?",
+   "paragraphs": [
+    "Piensa en el sol de verdad: todo gira a su alrededor y da vida. En tu carta es tu núcleo, tu motivación y lo que te hace sentir vivo."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Mira qué actividades te dan energía y en cuáles te sientes tú mismo. Eso refleja tu signo solar, aunque la Luna y el ascendente le dan otros matices."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Valeria nació con el Sol en Leo. Necesita brillar y que la reconozcan, y se apaga si siente que nadie la ve."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Cómo sé mi signo solar?",
+   "a": "Con tu fecha de nacimiento, sin hora ni lugar."
+  },
+  {
+   "q": "¿El Sol es lo mismo que mi horóscopo?",
+   "a": "Es la base del horóscopo de los periódicos, pero la carta completa incluye muchos más puntos."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

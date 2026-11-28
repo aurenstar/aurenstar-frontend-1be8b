@@ -1,0 +1,50 @@
+{
+ "lang": "es",
+ "keyword": "nodo sur astrología",
+ "volume": "1000",
+ "slug": "nodo-sur-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nodo Sur en astrología: qué significa en tu carta",
+ "description": "El Nodo Sur muestra lo que ya dominas y tiendes a repetir por comodidad. Explicado fácil, con ejemplo.",
+ "intro": "El Nodo Sur señala los talentos y hábitos que ya traes «de fábrica». Es tu zona de confort: útil, pero si te quedas ahí demasiado tiempo, dejas de crecer.",
+ "sections": [
+  {
+   "h2": "¿Qué es el Nodo Sur?",
+   "paragraphs": [
+    "Es como el camino que haces cada día al trabajo sin pensar: lo conoces de memoria. El Nodo Sur son las habilidades que te salen solas, pero también las costumbres que repites sin darte cuenta."
+   ]
+  },
+  {
+   "h2": "¿Cómo se nota?",
+   "paragraphs": [
+    "Piensa en lo que haces siempre igual aunque ya no te dé nada nuevo. Ahí suele estar tu Nodo Sur, y justo enfrente está el Nodo Norte, que te invita a probar algo distinto."
+   ]
+  },
+  {
+   "h2": "Un ejemplo",
+   "paragraphs": [
+    "Marcos tiene el Nodo Sur en Capricornio y se lo toma todo como una obligación. Cuando aprende a descansar y a pedir ayuda, se siente por fin ligero."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿El Nodo Sur es algo malo?",
+   "a": "No, son talentos que ya tienes; solo conviene no quedarse siempre en lo conocido."
+  },
+  {
+   "q": "¿Cómo lo encuentro?",
+   "a": "Se calcula con la fecha, hora y lugar de nacimiento, y siempre está justo enfrente del Nodo Norte."
+  }
+ ],
+ "ui": {
+  "home": "Inicio",
+  "tools": "Herramientas gratuitas",
+  "articles": "Artículos",
+  "faq": "Preguntas frecuentes",
+  "more": "Seguir leyendo",
+  "dictionary": "Diccionario astrológico"
+ },
+ "tool": "descreva-me"
+}

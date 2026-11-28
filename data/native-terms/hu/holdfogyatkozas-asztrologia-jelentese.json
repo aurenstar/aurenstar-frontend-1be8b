@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "holdfogyatkozás asztrológia",
+ "volume": "1000",
+ "slug": "holdfogyatkozas-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "A holdfogyatkozás az asztrológiában: mit jelent?",
+ "description": "A holdfogyatkozás lezárásokat hoz, és felszínre hozza a rejtett érzelmeket. Egyszerűen, példával.",
+ "intro": "Holdfogyatkozás teliholdkor van, amikor a Föld árnyéka eltakarja a Holdat. Az asztrológiában olyan, mint egy nagyon erős telihold: valami teljesen beérett, és le kell zárni.",
+ "sections": [
+  {
+   "h2": "Mit csinál a holdfogyatkozás?",
+   "paragraphs": [
+    "Olyan, mint a bepárásodott szemüveg, amelyet hirtelen megtörölsz: tisztábban látsz, még ha a kép nem is kellemes. A fogyatkozás előhozza, amit eltakartál."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Az érzelmek a szokásosnál erősebbek. Figyeld meg, mi zárul le ilyenkor: egy ismeretség, egy szokás vagy egy régi sérelem."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Zsófi a fogyatkozás idején beszél az édesanyjával egy régi sérelemről. A beszélgetés nehéz, de utána mindketten megkönnyebbülnek."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Meddig tart a fogyatkozás hatása?",
+   "a": "Általában néhány hétig, néha hónapokig érezni."
+  },
+  {
+   "q": "Jó idő ez fontos döntésekre?",
+   "a": "Inkább várd meg, amíg az érzelmek lecsillapodnak, és csak azután mérlegelj nyugodtan."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

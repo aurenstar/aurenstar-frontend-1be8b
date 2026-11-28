@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "elementos do zodíaco",
+ "volume": "1000",
+ "slug": "elementos-zodiaco-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Os 4 elementos do zodíaco: fogo, terra, ar e água",
+ "description": "Os quatro elementos dividem os signos por temperamento: fogo, terra, ar e água. Explicação fácil, com exemplo.",
+ "intro": "Os 12 signos se dividem em quatro elementos: fogo, terra, ar e água. Cada elemento descreve um jeito de sentir e agir.",
+ "sections": [
+  {
+   "h2": "Quais são?",
+   "paragraphs": [
+    "Fogo (Áries, Leão, Sagitário): paixão. Terra (Touro, Virgem, Capricórnio): praticidade. Ar (Gêmeos, Libra, Aquário): ideias. Água (Câncer, Escorpião, Peixes): emoções."
+   ]
+  },
+  {
+   "h2": "Como reconhecer?",
+   "paragraphs": [
+    "O fogo acende, a terra constrói, o ar conecta, a água sente. Pense num jantar: um cozinha, outro arruma a mesa, outro conta histórias e outro consola."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Ingrid, de Touro, é terra: planeja tudo. O namorado Paulo, de Sagitário, é fogo: se joga. Juntos, formam um bom time."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Qual elemento é o melhor?",
+   "a": "Nenhum, eles se completam."
+  },
+  {
+   "q": "Tenho só um elemento?",
+   "a": "Não, no mapa existem todos em proporções diferentes."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "neptune astrolohiya",
+ "volume": "1000",
+ "slug": "neptune-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptune sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Ipinapakita ng Neptune ang mga pangarap, imahinasyon, at kutob. Simple, may halimbawa.",
+ "intro": "Ang Neptune ay planetang parang hamog. Nagbibigay ito ng imahinasyon, sining, at pananampalataya, pero minsan pati kalituhan.",
+ "sections": [
+  {
+   "h2": "Ano ang ginagawa ng Neptune?",
+   "paragraphs": [
+    "Sa umagang may hamog, malabo pero maganda ang tanawin sa malayo. Ganyan ang Neptune: ipinapakita ang pangarap, pero kaya ring takpan ang totoo."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Sa anong larangan ka madaling mangarap nang gising o sobrang gandang tingnan ang lahat? Doon ang Neptune. Palatandaan din ang musika, pagpipinta, at awa."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Laging tumutulong si Lea sa mga nangangailangan, pero minsan nagtitiwala sa maling tao. Kapag nag-iingat siya, ang kabaitan niya ang nagiging lakas."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "May kinalaman ba ang Neptune sa sining?",
+   "a": "Oo, malaki ang bahagi nito sa imahinasyon at pagiging sensitibo."
+  },
+  {
+   "q": "Paano maiiwasan ang kalituhan ng Neptune?",
+   "a": "Magsulat ng plano araw-araw at i-check ang totoong datos bago maniwala."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

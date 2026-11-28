@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "trigono astrologia",
+ "volume": "1000",
+ "slug": "trigono-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trigono in astrologia: cosa significa?",
+ "description": "Il trigono è un angolo di 120 gradi che porta facilità e talento naturale. Spiegato semplice, con esempio.",
+ "intro": "Il trigono è un angolo di 120 gradi tra due pianeti. È l'aspetto della facilità: due energie che lavorano insieme senza fatica.",
+ "sections": [
+  {
+   "h2": "Che cos'è?",
+   "paragraphs": [
+    "Come una discesa in bicicletta: scorri senza pedalare. Il trigono ti dà un talento che arriva naturale."
+   ]
+  },
+  {
+   "h2": "Come si nota?",
+   "paragraphs": [
+    "Hai doti che non ti sembrano nulla di speciale. Il rischio è dare tutto per scontato e non coltivarle."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Federico ha Mercurio in trigono a Giove: spiega le cose con chiarezza. Quando decide di insegnare, i suoi corsi si riempiono subito."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Il trigono è sempre positivo?",
+   "a": "È piacevole, ma può rendere pigri."
+  },
+  {
+   "q": "Qual è la differenza dal sestile?",
+   "a": "Il trigono è più forte; il sestile richiede un piccolo impegno."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

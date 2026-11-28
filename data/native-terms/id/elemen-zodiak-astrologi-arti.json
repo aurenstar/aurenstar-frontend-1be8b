@@ -1,0 +1,49 @@
+{
+ "lang": "id",
+ "keyword": "elemen zodiak api tanah udara air",
+ "volume": "1000",
+ "slug": "elemen-zodiak-astrologi-arti",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Empat elemen zodiak: api, tanah, udara, air",
+ "description": "Dua belas zodiak terbagi ke empat elemen: api, tanah, udara, dan air. Tiap elemen punya sifat dan gaya sendiri.",
+ "intro": "Dalam astrologi, dua belas zodiak dibagi menjadi empat elemen. Elemen menunjukkan cara Anda menyalurkan energi, perasaan, dan pikiran.",
+ "sections": [
+  {
+   "h2": "Apa arti elemen?",
+   "paragraphs": [
+    "Bayangkan empat tipe orang: obor yang bersemangat, gunung yang kokoh, angin yang ringan, dan sungai yang mengalir. Api: Aries, Leo, Sagitarius. Tanah: Taurus, Virgo, Capricorn. Udara: Gemini, Libra, Aquarius. Air: Cancer, Scorpio, Pisces."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Api penuh semangat, tanah praktis, udara suka berpikir dan mengobrol, air peka dan perasa. Lihat elemen zodiak matahari, bulan, dan ascendant Anda."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Dewi berzodiak Leo, elemen api. Sahabatnya Budi berzodiak Taurus, elemen tanah. Ia menenangkan semangat Dewi yang menggebu sehingga rencana mereka berjalan mantap."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Elemen mana yang cocok satu sama lain?",
+   "a": "Api dengan udara, tanah dengan air biasanya mudah selaras. Api dengan air bisa tegang tapi saling mengajari."
+  },
+  {
+   "q": "Apakah kita punya semua elemen?",
+   "a": "Ya, di peta ada planet di berbagai elemen. Elemen yang jarang biasanya terasa kurang."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

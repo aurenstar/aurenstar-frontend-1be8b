@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "neptun astrologi",
+ "volume": "1000",
+ "slug": "neptun-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptun i astrologi: hva betyr det?",
+ "description": "Neptun viser hvor du drømmer, føler og noen ganger mister virkeligheten av syne. Enkelt forklart.",
+ "intro": "Neptun er planeten for drømmer, fantasi og intuisjon. I horoskopet ditt ser du hvor du er følsom, men også hvor du ser ting penere enn de er.",
+ "sections": [
+  {
+   "h2": "Hva gjør Neptun?",
+   "paragraphs": [
+    "Tenk på tåke en tidlig morgen: alt ser mykt og vakkert ut, men konturene er utydelige. Slik virker Neptun."
+   ]
+  },
+  {
+   "h2": "Hvordan merker du det?",
+   "paragraphs": [
+    "På hvilket område svever du gjerne av gårde eller vil hjelpe alle? Der virker Neptun. Det gir inspirasjon, men du kan også bli forvirret."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Neptun i kjærlighetens hus: Ingrid ser straks en prins i den nye kjæresten, helt til hun skjønner at hun ikke ville se feilene hans."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvordan finner jeg Neptun?",
+   "a": "Med fødselsdatoen din ser du Neptuns tegn. Han blir godt tretten år i hvert tegn."
+  },
+  {
+   "q": "Er Neptun dårlig?",
+   "a": "Nei, han gir fantasi og medfølelse. Du må bare sjekke fakta av og til."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

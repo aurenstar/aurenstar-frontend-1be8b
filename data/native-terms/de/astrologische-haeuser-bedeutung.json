@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "astrologische häuser",
+ "volume": "1000",
+ "slug": "astrologische-haeuser-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Astrologische Häuser: Was bedeuten sie?",
+ "description": "Die zwölf Häuser zeigen, in welchen Lebensbereichen sich etwas abspielt. Einfach erklärt, mit Beispiel.",
+ "intro": "Das Horoskop ist in zwölf Häuser unterteilt, wie zwölf Zimmer einer Wohnung. Jedes Zimmer steht für einen Lebensbereich, etwa Arbeit, Liebe oder Zuhause.",
+ "sections": [
+  {
+   "h2": "Was sind die Häuser?",
+   "paragraphs": [
+    "Planeten sind die Bewohner, Zeichen ihre Stimmung, Häuser die Zimmer. Ein Planet im Küchenzimmer wirkt anders als einer im Büro."
+   ]
+  },
+  {
+   "h2": "Wie lese ich sie?",
+   "paragraphs": [
+    "Schau, welche Planeten in welchem Haus stehen. Viele Planeten in einem Haus zeigen, wo dein Leben besonders aktiv ist."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Jonas hat Venus im zehnten Haus, dem Berufshaus. Er arbeitet gern im Team und wird im Job für seinen Charme geschätzt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie viele Häuser gibt es?",
+   "a": "Zwölf, jedes mit einem eigenen Lebensthema."
+  },
+  {
+   "q": "Brauche ich dafür die Geburtszeit?",
+   "a": "Ja, denn die Häuser verschieben sich mit der Uhrzeit."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

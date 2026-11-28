@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "mercurio astrologia",
+ "volume": "1000",
+ "slug": "mercurio-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mercurio in astrologia: cosa significa?",
+ "description": "Mercurio governa pensiero, parole e apprendimento. Spiegato semplice, con esempio.",
+ "intro": "Mercurio è il pianeta della mente e della comunicazione. Il suo segno mostra come pensi, parli, impari e ti muovi tra le persone.",
+ "sections": [
+  {
+   "h2": "Che cosa fa Mercurio?",
+   "paragraphs": [
+    "È il messaggero degli dei: porta le notizie. Nel tuo tema è il tuo telefono interno, il modo in cui trasformi i pensieri in parole."
+   ]
+  },
+  {
+   "h2": "Come si nota?",
+   "paragraphs": [
+    "Pensa a come racconti una storia: con ordine, con ironia, in modo diretto? Quello è il tuo Mercurio."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Silvia ha Mercurio in Gemelli: parla veloce, salta da un argomento all'altro e fa amicizia con tutti in coda al supermercato."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Come trovo il mio Mercurio?",
+   "a": "Con la data di nascita: sta sempre vicino al Sole."
+  },
+  {
+   "q": "Mercurio è sempre retrogrado?",
+   "a": "No, lo è solo tre volte l'anno, per tre settimane circa."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

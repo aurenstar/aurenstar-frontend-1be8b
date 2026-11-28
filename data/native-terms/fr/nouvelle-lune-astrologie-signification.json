@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "nouvelle lune astrologie",
+ "volume": "1000",
+ "slug": "nouvelle-lune-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nouvelle Lune en astrologie : que signifie-t-elle ?",
+ "description": "La Nouvelle Lune est le moment de repartir de zéro et de poser des intentions. Expliqué simplement, avec un exemple.",
+ "intro": "La Nouvelle Lune a lieu quand la Lune se trouve entre la Terre et le Soleil et reste invisible. En astrologie, c’est le moment idéal pour commencer quelque chose et poser des intentions.",
+ "sections": [
+  {
+   "h2": "C’est quoi, la Nouvelle Lune ?",
+   "paragraphs": [
+    "C’est la première page blanche d’un cahier neuf. Rien n’est encore écrit, donc tout est possible."
+   ]
+  },
+  {
+   "h2": "Comment la ressent-on ?",
+   "paragraphs": [
+    "Beaucoup ont envie de démarrer, de ranger et de faire des projets. C’est un bon moment pour noter ce que tu veux accomplir dans les prochaines semaines."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Julie profite d’une Nouvelle Lune pour s’inscrire à un cours de danse. Un mois plus tard, elle s’est déjà fait un groupe d’amies."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Tous les combien y a-t-il une Nouvelle Lune ?",
+   "a": "Environ tous les 29 jours et demi, donc une fois par mois."
+  },
+  {
+   "q": "Que fait-on à la Nouvelle Lune ?",
+   "a": "On écrit souvent des intentions et on lance de petits projets."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

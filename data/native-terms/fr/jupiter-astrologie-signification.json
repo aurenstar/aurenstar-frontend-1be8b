@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "jupiter astrologie",
+ "volume": "1000",
+ "slug": "jupiter-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter en astrologie : que signifie-t-il dans ton thème ?",
+ "description": "Jupiter apporte chance, croissance et optimisme. Expliqué simplement, avec un exemple.",
+ "intro": "Jupiter est la planète de l’expansion, de la chance et de la confiance. Dans ton thème, il montre où tout te réussit plus facilement et où tu peux grandir.",
+ "sections": [
+  {
+   "h2": "Que fait Jupiter ?",
+   "paragraphs": [
+    "Imagine un oncle généreux qui t’encourage toujours et te file un coup de main. Jupiter agrandit tout ce qu’il touche : plus d’occasions, plus de foi."
+   ]
+  },
+  {
+   "h2": "Comment le reconnaître ?",
+   "paragraphs": [
+    "Pense au domaine où tu as souvent de la chance ou où les gens te soutiennent. Jupiter s’y trouve, avec le risque de trop en faire."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Antoine a Jupiter dans la maison des voyages. Chaque fois qu’il part à l’étranger, il rencontre quelqu’un qui lui ouvre une porte."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Tous les combien Jupiter change-t-il de signe ?",
+   "a": "Environ chaque année, et il met 12 ans à faire le tour du zodiaque."
+  },
+  {
+   "q": "Jupiter donne-t-il toujours de la chance ?",
+   "a": "Il donne des occasions, mais peut aussi pousser à l’excès sans limites."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

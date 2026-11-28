@@ -1,0 +1,49 @@
+{
+ "lang": "ms",
+ "keyword": "modaliti zodiak kardinal tetap mutable",
+ "volume": "1000",
+ "slug": "modaliti-astrologi-maksud",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Modaliti (kardinal, tetap, mutable) dalam astrologi: apa maksudnya?",
+ "description": "Dua belas zodiak dibahagi kepada tiga modaliti: kardinal memulakan, tetap mengekalkan, mutable menyesuaikan. Penerangan mudah dengan contoh.",
+ "intro": "Zodiak terbahagi kepada tiga kumpulan: kardinal, tetap dan mutable. Ia menunjukkan sama ada anda memulakan, mengekalkan atau menyesuaikan diri.",
+ "sections": [
+  {
+   "h2": "Apa yang diterangkan tiga modaliti?",
+   "paragraphs": [
+    "Bayangkan awal, tengah dan akhir sesuatu musim. Kardinal (Aries, Cancer, Libra, Capricorn) memulakan. Tetap (Taurus, Leo, Scorpio, Aquarius) bertahan teguh. Mutable (Gemini, Virgo, Sagitarius, Pisces) mudah menyesuaikan diri."
+   ]
+  },
+  {
+   "h2": "Bagaimana mengenalinya?",
+   "paragraphs": [
+    "Adakah anda cepat memulakan kerja baharu, kekal teguh hingga siap, atau berubah ikut keadaan? Itu menunjukkan modaliti anda."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Aina berzodiak Aries (kardinal), dia membuka perniagaan baharu. Abangnya Taurus (tetap), dia menjalankannya bertahun-tahun. Kawan mereka Gemini (mutable) menyesuaikan diri dengan pasaran yang berubah."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Bagaimana tahu modaliti saya?",
+   "a": "Lihat zodiak Matahari anda dan semak kumpulannya."
+  },
+  {
+   "q": "Modaliti mana paling baik?",
+   "a": "Semuanya berguna. Kita perlukan permulaan, ketahanan dan perubahan."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

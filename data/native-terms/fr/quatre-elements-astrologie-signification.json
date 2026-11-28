@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "éléments astrologie feu terre air eau",
+ "volume": "1000",
+ "slug": "quatre-elements-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Les quatre éléments en astrologie : feu, terre, air et eau",
+ "description": "Les signes se répartissent en feu, terre, air et eau selon leur façon de ressentir et d’agir. Expliqué simplement.",
+ "intro": "Les douze signes se répartissent en quatre éléments : feu, terre, air et eau. Chaque élément décrit une manière différente de ressentir et d’agir.",
+ "sections": [
+  {
+   "h2": "C’est quoi, les éléments ?",
+   "paragraphs": [
+    "Pense à quatre cuisiniers : le passionné, le pragmatique, le bavard et l’intuitif. Le feu (Bélier, Lion, Sagittaire) agit avec passion et enthousiasme ; la terre (Taureau, Vierge, Capricorne) est concrète et constante."
+   ]
+  },
+  {
+   "h2": "Comment les reconnaître ?",
+   "paragraphs": [
+    "L’air (Gémeaux, Balance, Verseau) pense et communique ; l’eau (Cancer, Scorpion, Poissons) ressent et suit son intuition. Regarde quel élément domine dans ton thème : c’est ta manière naturelle d’être."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Thérèse a beaucoup de terre et peu de feu : elle planifie tout très bien, mais a du mal à se lancer. Son ami Yvan, très feu, commence mille choses et lui donne envie."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quel élément est le meilleur ?",
+   "a": "Aucun ; chacun apporte quelque chose et ils se complètent."
+  },
+  {
+   "q": "Peut-on avoir plusieurs éléments ?",
+   "a": "Bien sûr : nous avons tous les quatre, mais dans des proportions différentes."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

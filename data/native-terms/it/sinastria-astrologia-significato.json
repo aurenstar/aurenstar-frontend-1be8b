@@ -1,0 +1,49 @@
+{
+ "lang": "it",
+ "keyword": "sinastria",
+ "volume": "1000",
+ "slug": "sinastria-astrologia-significato",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sinastria: cos'è e cosa dice della coppia?",
+ "description": "La sinastria confronta due temi natali per capire l'intesa tra due persone. Spiegata semplice, con esempio.",
+ "intro": "La sinastria mette a confronto due temi natali per vedere come si incastrano due persone. Serve per capire dove c'è armonia e dove servono più pazienza e ascolto.",
+ "sections": [
+  {
+   "h2": "Che cos'è la sinastria?",
+   "paragraphs": [
+    "Immagina due puzzle sovrapposti: in alcuni punti i pezzi combaciano subito, in altri bisogna spingere un po'. La sinastria mostra entrambi."
+   ]
+  },
+  {
+   "h2": "Come la leggi?",
+   "paragraphs": [
+    "Si guarda come i pianeti dell'uno toccano quelli dell'altro. Venere e Marte parlano di attrazione, la Luna di sintonia emotiva."
+   ]
+  },
+  {
+   "h2": "Un esempio",
+   "paragraphs": [
+    "Sara e Paolo discutono spesso sui soldi. Nella loro sinastria Saturno di lei tocca Venere di lui: imparano a parlare di spese con calma e la coppia si rafforza."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "La sinastria dice se durerà?",
+   "a": "No, indica tendenze: contano sempre le scelte di entrambi."
+  },
+  {
+   "q": "Serve l'ora di nascita di tutti e due?",
+   "a": "Aiuta molto, ma anche solo la data dà già un'idea."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Leggi l’articolo"
+ },
+ "tool": "descreva-me"
+}

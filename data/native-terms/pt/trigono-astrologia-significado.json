@@ -1,0 +1,50 @@
+{
+ "lang": "pt",
+ "keyword": "trígono astrologia",
+ "volume": "1000",
+ "slug": "trigono-astrologia-significado",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Trígono na astrologia: o que significa?",
+ "description": "O trígono é um ângulo de 120 graus que traz facilidade e talento natural. Explicado de forma simples, com exemplo.",
+ "intro": "O trígono é um ângulo de 120 graus entre dois planetas. É o aspecto da facilidade: duas energias que trabalham juntas sem esforço.",
+ "sections": [
+  {
+   "h2": "O que é?",
+   "paragraphs": [
+    "É como uma descida de bicicleta: você desliza sem pedalar. O trígono dá um talento que vem natural."
+   ]
+  },
+  {
+   "h2": "Como perceber?",
+   "paragraphs": [
+    "Você tem dons que não parecem nada especial. O risco é achar tudo normal e não cultivar."
+   ]
+  },
+  {
+   "h2": "Um exemplo",
+   "paragraphs": [
+    "Gustavo tem Mercúrio em trígono com Júpiter: explica as coisas com clareza. Quando resolve dar aulas, as turmas lotam logo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Trígono é sempre bom?",
+   "a": "É agradável, mas pode deixar a pessoa acomodada."
+  },
+  {
+   "q": "Qual a diferença para o sextil?",
+   "a": "O trígono é mais forte; o sextil pede um pequeno esforço."
+  }
+ ],
+ "ui": {
+  "home": "Início",
+  "tools": "Ferramentas",
+  "articles": "Artigos",
+  "faq": "FAQ",
+  "more": "Continue lendo",
+  "dictionary": "Dicionário"
+ },
+ "tool": "descreva-me"
+}

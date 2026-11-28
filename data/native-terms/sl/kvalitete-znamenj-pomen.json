@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "kvalitete znamenj astrologija",
+ "volume": "1000",
+ "slug": "kvalitete-znamenj-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kvalitete v astrologiji: kardinalne, stalne, spremenljive",
+ "description": "Kvaliteta kaže, kako znamenje začenja, vzdržuje ali spreminja stvari. Preprosto razloženo, s primerom.",
+ "intro": "Vseh 12 znamenj je razdeljenih v tri skupine: kardinalna, stalna in spremenljiva. Ta delitev kaže, kako se znamenje obnaša do začetka, trajanja in spremembe.",
+ "sections": [
+  {
+   "h2": "Kaj so kvalitete?",
+   "paragraphs": [
+    "Predstavljajte si potovanje z vlakom. Kardinalna znamenja so tisti, ki kupi vozovnico in odide (Oven, Rak, Tehtnica, Kozorog). Stalna so tisti, ki ostane sedeti na svojem mestu do konca poti (Bik, Lev, Škorpijon, Vodnar). Spremenljiva so tisti, ki zlahka prestopi in prilagodi načrt (Dvojčka, Devica, Strelec, Ribi)."
+   ]
+  },
+  {
+   "h2": "Kako to opazite?",
+   "paragraphs": [
+    "Ali radi začnete stvari, jih vzdržite do konca ali jih po potrebi spremenite? To kaže vaša kvaliteta. Vsaka potrebuje drugačno oporo."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Maja je Oven, kardinalna: z lahkoto začne novo skupino v zboru. Njena prijateljica Roza je Bik, stalna: v zboru je že deset let in ga drži skupaj."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koliko znamenj je v posamezni kvaliteti?",
+   "a": "Po štiri, skupaj 12, vsak element pa ima po eno od vsake kvalitete."
+  },
+  {
+   "q": "Je ena kvaliteta boljša?",
+   "a": "Ne, vsaka je potrebna: nekdo začne, nekdo drži, nekdo prilagaja."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

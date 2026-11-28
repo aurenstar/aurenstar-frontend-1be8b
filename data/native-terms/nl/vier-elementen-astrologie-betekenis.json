@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "vier elementen astrologie",
+ "volume": "1000",
+ "slug": "vier-elementen-astrologie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "De vier elementen in de astrologie: wat betekenen ze?",
+ "description": "Vuur, aarde, lucht en water: zo verdelen de twaalf tekens zich in vier families. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "Elk teken hoort bij een van de vier elementen: vuur, aarde, lucht of water. Het element laat zien hoe je van nature voelt en reageert.",
+ "sections": [
+  {
+   "h2": "Wat zijn de elementen?",
+   "paragraphs": [
+    "Denk aan vier soorten mensen op een feest: de vuurtekens (Ram, Leeuw, Boogschutter) zijn de enthousiastelingen, aarde (Stier, Maagd, Steenbok) de praktische, lucht (Tweelingen, Weegschaal, Waterman) de praters en water (Kreeft, Schorpioen, Vissen) de gevoelige."
+   ]
+  },
+  {
+   "h2": "Hoe merk je het?",
+   "paragraphs": [
+    "Ben je snel enthousiast, nuchter, nieuwsgierig of gevoelig? Dat is jouw element. Tekens van hetzelfde element begrijpen elkaar vaak makkelijk."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Roos is een Ram (vuur) en Jan een Steenbok (aarde): zij start meteen, hij wil eerst een plan. Samen vullen ze elkaar goed aan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Welk element heb ik?",
+   "a": "Dat hangt af van je zonneteken, en ook van je maan en ascendant."
+  },
+  {
+   "q": "Passen alle elementen bij elkaar?",
+   "a": "Ja, alleen op een andere manier. Vuur en lucht gaan makkelijk samen, aarde en water ook."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

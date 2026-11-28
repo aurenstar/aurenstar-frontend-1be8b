@@ -1,0 +1,49 @@
+{
+ "lang": "de",
+ "keyword": "neptun astrologie",
+ "volume": "1000",
+ "slug": "neptun-astrologie-bedeutung",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptun in der Astrologie: Was bedeutet er?",
+ "description": "Neptun steht für Träume, Fantasie und Intuition. Einfach erklärt, mit Beispiel.",
+ "intro": "Neptun ist der Planet der Fantasie und der Sehnsucht. Er zeigt, wo du träumst, aber auch, wo dir der Blick verschwimmt.",
+ "sections": [
+  {
+   "h2": "Was macht Neptun?",
+   "paragraphs": [
+    "Wie Nebel am Morgen: Alles wirkt weich und geheimnisvoll, die Konturen verschwimmen. Er braucht rund 165 Jahre für eine Runde."
+   ]
+  },
+  {
+   "h2": "Wie merke ich es?",
+   "paragraphs": [
+    "Wo malst du dir alles schöner aus, als es ist? Dort wirkt Neptun. Er schenkt Kreativität und Mitgefühl."
+   ]
+  },
+  {
+   "h2": "Ein Beispiel",
+   "paragraphs": [
+    "Neptun im Haus der Liebe: Sarah sieht in jedem das Beste und wird manchmal enttäuscht, schreibt aber wundervolle Lieder."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie lange bleibt Neptun in einem Zeichen?",
+   "a": "Etwa 14 Jahre."
+  },
+  {
+   "q": "Ist Neptun gefährlich?",
+   "a": "Er verwirrt nur, wenn man die Realität ganz ausblendet."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ },
+ "tool": "descreva-me"
+}

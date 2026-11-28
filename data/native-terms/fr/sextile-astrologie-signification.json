@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "sextile astrologie",
+ "volume": "1000",
+ "slug": "sextile-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sextile en astrologie : que signifie cet aspect ?",
+ "description": "Le sextile est un angle de 60 degrés qui offre des occasions à saisir. Expliqué simplement, avec un exemple.",
+ "intro": "Le sextile est un angle de 60 degrés entre deux planètes. C’est une belle occasion, mais il faut faire le premier pas pour en profiter.",
+ "sections": [
+  {
+   "h2": "C’est quoi, un sextile ?",
+   "paragraphs": [
+    "C’est une porte entrouverte : tu peux passer si tu pousses un peu. Les deux planètes s’entendent, mais ne font pas le travail à ta place."
+   ]
+  },
+  {
+   "h2": "Comment le ressent-on ?",
+   "paragraphs": [
+    "De petits coups de pouce arrivent au bon moment. Ils marchent mieux quand tu prends l’initiative et que tu parles aux gens."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Sophie a Vénus en sextile avec Mercure. Quand elle ose écrire à un nouveau client, la conversation s’engage et elle décroche le contrat."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quelle différence entre sextile et trigone ?",
+   "a": "Le trigone est plus facile et automatique ; le sextile demande un petit effort."
+  },
+  {
+   "q": "Le sextile est-il un aspect fort ?",
+   "a": "Il est doux et discret, plus une occasion qu’un élan."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "četiri elementa astrologija",
+ "volume": "1000",
+ "slug": "cetiri-elementa-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Četiri elementa u astrologiji: šta znače?",
+ "description": "Vatra, zemlja, vazduh i voda dele znakove po temperamentu. Jednostavno objašnjeno, sa primerom.",
+ "intro": "Svaki od 12 znakova pripada jednom od četiri elementa: vatri, zemlji, vazduhu ili vodi. Element govori kako se znak ponaša i čime se hrani.",
+ "sections": [
+  {
+   "h2": "Šta su elementi?",
+   "paragraphs": [
+    "Zamisli četiri vrste ljudi na žurci: jedni zabavljaju sve (vatra), drugi spremaju i organizuju (zemlja), treći razgovaraju sa svima (vazduh), a četvrti osete ko je tužan (voda). Vatru čine Ovan, Lav i Strelac, zemlju Bik, Devica i Jarac, vazduh Blizanci, Vaga i Vodolija, a vodu Rak, Škorpija i Ribe."
+   ]
+  },
+  {
+   "h2": "Kako to primetiti?",
+   "paragraphs": [
+    "Pitaj se šta ti najviše treba: akcija, sigurnost, razgovor ili bliskost. To je tvoj glavni element. Kad ti nešto fali, potraži ga: vatri treba pokret, zemlji priroda, vazduhu društvo, vodi mir."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Mila je Rak, dakle voda. Odmah oseti raspoloženje u prostoriji, a njen prijatelj Marko je Ovan, vatra, pa uvek prvi krene, i zato se tako lepo dopunjuju."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koji je moj element?",
+   "a": "Vidi svoj znak po datumu rođenja i pogledaj kojoj grupi pripada."
+  },
+  {
+   "q": "Da li se elementi slažu među sobom?",
+   "a": "Najlakše se slažu vatra i vazduh te zemlja i voda, ali svako se može slagati ako se trudi."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

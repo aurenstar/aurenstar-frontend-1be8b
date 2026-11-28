@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "carré astrologie",
+ "volume": "1000",
+ "slug": "carre-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Carré en astrologie : que signifie cet aspect ?",
+ "description": "Le carré est un angle de 90 degrés qui crée de la friction et pousse à agir. Expliqué simplement, avec un exemple.",
+ "intro": "Le carré est un angle de 90 degrés entre deux planètes. Il crée de la friction, et c’est cette friction qui te pousse à bouger.",
+ "sections": [
+  {
+   "h2": "C’est quoi, un carré ?",
+   "paragraphs": [
+    "C’est un caillou dans la chaussure : ça gêne, mais ça te force à t’arrêter et à régler le problème. Les deux planètes ne parlent pas la même langue."
+   ]
+  },
+  {
+   "h2": "Comment le ressent-on ?",
+   "paragraphs": [
+    "Des défis reviennent dans un domaine précis et demandent des efforts. Avec le temps, ils deviennent tes plus grandes forces."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Léa a Mars en carré avec la Lune. Elle s’énerve vite, mais elle a appris à respirer et gère très bien les conflits aujourd’hui."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Le carré est-il mauvais ?",
+   "a": "Non, il est inconfortable mais donne du caractère et de la motivation."
+  },
+  {
+   "q": "Quelle différence avec l’opposition ?",
+   "a": "Le carré (90°) pousse à agir, l’opposition (180°) demande de l’équilibre."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

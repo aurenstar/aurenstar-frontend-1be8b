@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "neljä elementtiä astrologia",
+ "volume": "1000",
+ "slug": "nelja-elementtia-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neljä elementtiä astrologiassa: mitä ne tarkoittavat?",
+ "description": "Tuli, maa, ilma ja vesi: näin kaksitoista merkkiä jakautuu neljään perheeseen. Selitetty esimerkillä.",
+ "intro": "Jokainen merkki kuuluu yhteen neljästä elementistä: tuli, maa, ilma tai vesi. Elementti kertoo, miten luonnostasi tunnet ja reagoit.",
+ "sections": [
+  {
+   "h2": "Mitä elementit ovat?",
+   "paragraphs": [
+    "Ajattele neljää ihmistyyppiä juhlissa: tulimerkit (Oinas, Leijona, Jousimies) ovat innostujia, maa (Härkä, Neitsyt, Kauris) käytännölliset, ilma (Kaksoset, Vaaka, Vesimies) juttelijat ja vesi (Rapu, Skorpioni, Kalat) herkät."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Innostutko nopeasti, oletko maanläheinen, utelias vai herkkä? Se on sinun elementtisi. Saman elementin merkit ymmärtävät usein toisensa helposti."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Aino on Oinas (tuli) ja Jussi Kauris (maa): hän aloittaa heti, Jussi haluaa ensin suunnitelman. Yhdessä he täydentävät toisiaan hyvin."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mikä elementti minulla on?",
+   "a": "Se riippuu aurinkomerkistäsi, ja myös kuustasi ja nousevasta merkistäsi."
+  },
+  {
+   "q": "Sopivatko kaikki elementit yhteen?",
+   "a": "Sopivat, mutta eri tavoin. Tuli ja ilma sopivat helposti yhteen, samoin maa ja vesi."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

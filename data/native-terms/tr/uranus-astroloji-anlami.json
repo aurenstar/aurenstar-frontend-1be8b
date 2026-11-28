@@ -1,0 +1,50 @@
+{
+ "lang": "tr",
+ "keyword": "uranüs astroloji",
+ "volume": "1000",
+ "slug": "uranus-astroloji-anlami",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Uranüs astrolojide ne anlama gelir?",
+ "description": "Uranüs değişimin, özgürlüğün ve sürprizlerin gezegenidir. Basit anlatım.",
+ "intro": "Uranüs ani değişimlerin ve özgünlüğün gezegenidir. Alışkanlıkları bozar, yeniyi açar.",
+ "sections": [
+  {
+   "h2": "Uranüs ne yapar?",
+   "paragraphs": [
+    "Aniden giden elektrik gibi: rutin çöker ama yıldızları görürsün. Özgürlüğe ve sıra dışı çözümlere çeker."
+   ]
+  },
+  {
+   "h2": "Nasıl fark edilir?",
+   "paragraphs": [
+    "Hayatta nerede herkes gibi olmak istemiyorsun? Orada Uranüs var. Ani dönüşler de getirir."
+   ]
+  },
+  {
+   "h2": "Örnek",
+   "paragraphs": [
+    "Uranüs iş evinde: Koray beklenmedik şekilde işini kaybetti ama kısa süre sonra kendi internet projesini kurdu ve daha özgür oldu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Uranüs hep stres mi?",
+   "a": "Sarsar ama sonra özgürlük hissi gelir."
+  },
+  {
+   "q": "Bir burçta ne kadar kalır?",
+   "a": "Yaklaşık yedi yıl."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz astroloji araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını oku",
+  "dictionary": "Astroloji Sözlüğü"
+ },
+ "tool": "descreva-me"
+}

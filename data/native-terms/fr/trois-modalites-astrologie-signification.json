@@ -1,0 +1,49 @@
+{
+ "lang": "fr",
+ "keyword": "modalités astrologie cardinal fixe mutable",
+ "volume": "1000",
+ "slug": "trois-modalites-astrologie-signification",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Les trois modalités en astrologie : cardinal, fixe et mutable",
+ "description": "Les modalités disent comment un signe agit : il lance, il maintient ou il s’adapte. Expliqué simplement.",
+ "intro": "Les trois modalités sont cardinal, fixe et mutable. Chacune montre comment un signe agit : il démarre, il tient ou il s’adapte.",
+ "sections": [
+  {
+   "h2": "C’est quoi, les modalités ?",
+   "paragraphs": [
+    "Imagine un relais : le premier coureur démarre, le deuxième tient le rythme et le troisième change de stratégie. Les signes cardinaux (Bélier, Cancer, Balance, Capricorne) ouvrent chaque saison et lancent les choses."
+   ]
+  },
+  {
+   "h2": "Comment les reconnaître ?",
+   "paragraphs": [
+    "Les signes fixes (Taureau, Lion, Scorpion, Verseau) sont au cœur de la saison : ils maintiennent et ne lâchent rien. Les mutables (Gémeaux, Vierge, Sagittaire, Poissons) ferment la saison et s’adaptent facilement."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Marc est cardinal : il lance mille idées sans les finir. Son associée Eve est fixe : elle tient jusqu’au bout. Ils se complètent très bien."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quelle est ma modalité ?",
+   "a": "Elle dépend du signe ; chaque signe en a une, et le thème mélange les trois."
+  },
+  {
+   "q": "Que se passe-t-il si j’ai beaucoup de fixe ?",
+   "a": "Tu es constant et loyal, mais changer d’avis peut être difficile."
+  }
+ ],
+ "ui": {
+  "home": "Accueil",
+  "tools": "Outils gratuits",
+  "articles": "Articles",
+  "faq": "Questions fréquentes",
+  "more": "Lire l’article"
+ },
+ "tool": "descreva-me"
+}

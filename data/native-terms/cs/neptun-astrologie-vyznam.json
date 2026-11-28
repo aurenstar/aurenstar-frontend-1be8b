@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "neptun astrologie",
+ "volume": "1000",
+ "slug": "neptun-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Neptun v astrologii: co znamená?",
+ "description": "Neptun ukazuje, kde sníte, cítíte a občas ztrácíte kontakt s realitou. Jednoduše vysvětleno.",
+ "intro": "Neptun je planeta snů, fantazie a intuice. V horoskopu vidíte, kde jste citliví, ale také kde vidíte věci hezčí, než jsou.",
+ "sections": [
+  {
+   "h2": "Co dělá Neptun?",
+   "paragraphs": [
+    "Představte si ranní mlhu: všechno vypadá měkce a krásně, ale obrysy jsou rozmazané. Tak působí Neptun."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "V které oblasti rádi odplouváte do snů nebo chcete pomáhat všem? Tam působí Neptun. Dává inspiraci, ale může i zmást."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Neptun v domě lásky: Jana vidí v novém příteli hned prince, až zjistí, že jeho chyby vidět nechtěla."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak najdu svůj Neptun?",
+   "a": "Z data narození zjistíte znamení Neptunu. V jednom znamení zůstává přes třináct let."
+  },
+  {
+   "q": "Je Neptun špatný?",
+   "a": "Ne, dává fantazii a soucit. Jen občas ověřte fakta."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}
