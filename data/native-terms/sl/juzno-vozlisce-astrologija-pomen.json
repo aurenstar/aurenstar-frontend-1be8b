@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "južno vozlišče astrologija",
+ "volume": "1000",
+ "slug": "juzno-vozlisce-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Južno vozlišče v astrologiji: kaj pomeni?",
+ "description": "Južno vozlišče kaže, kaj že znate iz preteklosti. Preprosto, s primerom.",
+ "intro": "Južno vozlišče je točka v vašem horoskopu, ki predstavlja stare navade in talente. Je znano, a obtičanje v njem vas zavira.",
+ "sections": [
+  {
+   "h2": "Kaj je Južno vozlišče?",
+   "paragraphs": [
+    "Predstavljajte si svoj najljubši stari pulover: udoben in znan. Lepo, a ne morete vedno hoditi v njem."
+   ]
+  },
+  {
+   "h2": "Kako ga uporabite?",
+   "paragraphs": [
+    "Uporabite, kar že znate, kot oporo, a za rast se stegnite proti Severnemu vozlišču. Južna stran je vaša prtljaga, ne cilj."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Južno vozlišče v hiši skrbi: Roza vedno skrbi za vse. Zdaj se uči reči tudi ne in misliti nase."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je Južno vozlišče slabo?",
+   "a": "Ne, to so vaši talenti iz preteklosti, a ne smete se preveč zanašati nanje."
+  },
+  {
+   "q": "Je Južno vozlišče nasproti Severnemu?",
+   "a": "Da, vedno stojita natanko nasproti."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

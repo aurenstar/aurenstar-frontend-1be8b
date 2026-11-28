@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "déli holdcsomó asztrológia",
+ "volume": "1000",
+ "slug": "deli-holdcsomo-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "A Déli Holdcsomó az asztrológiában: mit jelent?",
+ "description": "A Déli Holdcsomó megmutatja, mit tudsz már a múltból. Egyszerűen, példával.",
+ "intro": "A Déli Holdcsomó egy pont a horoszkópodban, amely a régi szokásokat és tehetségeket jelképezi. Ismerős, de ha megragadsz benne, visszatart.",
+ "sections": [
+  {
+   "h2": "Mi a Déli Holdcsomó?",
+   "paragraphs": [
+    "Gondolj a kedvenc régi pulóveredre: meghitt és ismerős. Jó, de nem járhatsz benne mindig."
+   ]
+  },
+  {
+   "h2": "Hogyan használd?",
+   "paragraphs": [
+    "Használd támaszként, amit már tudsz, de a növekedéshez az Északi Holdcsomó felé nyújtózz. A déli oldal a poggyászod, nem a célod."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Déli Holdcsomó a gondoskodás házában: Rózsa mindig mindenkiről gondoskodik. Most megtanul nemet is mondani, és magára is gondolni."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Rossz a Déli Holdcsomó?",
+   "a": "Nem, a múltbeli tehetségeid, de nem szabad túlságosan rájuk támaszkodni."
+  },
+  {
+   "q": "Szemben áll a Déli az Északi Holdcsomóval?",
+   "a": "Igen, mindig pontosan egymással szemben állnak."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

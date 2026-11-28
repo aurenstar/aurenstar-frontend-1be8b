@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "lilith astrologie",
+ "volume": "1000",
+ "slug": "lilith-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith în astrologie: ce înseamnă?",
+ "description": "Lilith este partea din tine care e sălbatică, liberă și nedomesticită. Explicat simplu, cu exemplu.",
+ "intro": "Luna Neagră Lilith este un punct din harta ta (nu o planetă reală) care arată unde nu te lași constrâns și urmezi propriile reguli.",
+ "sections": [
+  {
+   "h2": "Ce este Lilith?",
+   "paragraphs": [
+    "Gândește-te la partea din tine pe care ai ascuns-o în copilărie fiindcă era „prea mult”. Lilith e partea care vrea să se întoarcă."
+   ]
+  },
+  {
+   "h2": "Cum te descurci?",
+   "paragraphs": [
+    "Nu trebuie s-o reprimi. Dacă-i dai un loc sigur, devine forță în loc de furie."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Lilith în casa muncii: Roza a fost rugată să tacă. Acum spune calm, dar clar, ce vrea, și își deschide propria firmă."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Este Lilith o planetă?",
+   "a": "Nu, este un punct calculat: locul cel mai îndepărtat al orbitei Lunii față de Pământ."
+  },
+  {
+   "q": "Este Lilith periculoasă?",
+   "a": "Nu, îți cere să fii sincer și liber."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

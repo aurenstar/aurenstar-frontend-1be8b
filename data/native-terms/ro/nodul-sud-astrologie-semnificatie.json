@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "nodul sud astrologie",
+ "volume": "1000",
+ "slug": "nodul-sud-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nodul Sud în astrologie: ce înseamnă?",
+ "description": "Nodul Sud arată ce știi deja din trecut. Explicat simplu, cu exemplu.",
+ "intro": "Nodul Sud este un punct din harta ta care reprezintă obiceiurile și talentele vechi. Pare familiar, dar a rămâne blocat acolo te încetinește.",
+ "sections": [
+  {
+   "h2": "Ce este Nodul Sud?",
+   "paragraphs": [
+    "Gândește-te la puloverul tău vechi preferat: călduros și cunoscut. Plăcut, dar nu poți umbla mereu în el."
+   ]
+  },
+  {
+   "h2": "Cum îl folosești?",
+   "paragraphs": [
+    "Folosește ce știi deja ca sprijin, dar tinde spre Nodul Nord ca să crești. Partea sudică e bagajul tău, nu destinația."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Nodul Sud în casa îngrijirii: Roza are mereu grijă de toți. Acum învață să spună și nu și să se gândească la ea."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Este Nodul Sud rău?",
+   "a": "Nu, sunt talentele tale din trecut, dar nu trebuie să te sprijini prea mult pe ele."
+  },
+  {
+   "q": "Este Nodul Sud opus Nodului Nord?",
+   "a": "Da, stau mereu exact față în față."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

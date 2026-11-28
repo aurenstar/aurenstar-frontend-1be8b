@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "etelän solmu astrologia",
+ "volume": "1000",
+ "slug": "etelan-solmu-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Etelän solmu astrologiassa: mitä se tarkoittaa?",
+ "description": "Etelän solmu näyttää, mitä osaat jo menneestä. Selitetty esimerkillä.",
+ "intro": "Etelän solmu on piste kartassasi, joka kertoo vanhoista tavoistasi ja lahjoistasi. Se tuntuu tutulta, mutta siihen jäämisestä tulee jarru.",
+ "sections": [
+  {
+   "h2": "Mikä on Etelän solmu?",
+   "paragraphs": [
+    "Ajattele lempivanhaa villapaitaasi: viihtyisä ja tuttu. Ihana, mutta et voi aina kulkea siinä."
+   ]
+  },
+  {
+   "h2": "Miten käytät sitä?",
+   "paragraphs": [
+    "Käytä jo osaamaasi tukena, mutta tavoittele Pohjoisen solmun suuntaa kasvaaksesi. Eteläinen puoli on matkatavarasi, ei määränpäätäsi."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Etelän solmu huolenpidon talossa: Roosa pitää aina huolta kaikista. Nyt hän oppii sanomaan myös ei ja ajattelemaan itseään."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Onko Etelän solmu huono?",
+   "a": "Ei, ne ovat menneisyyden lahjojasi, mutta niihin ei pidä nojata liikaa."
+  },
+  {
+   "q": "Onko Etelän solmu Pohjoisen solmun vastapäätä?",
+   "a": "Kyllä, ne ovat aina täsmälleen vastakkain."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

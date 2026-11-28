@@ -1,0 +1,49 @@
+{
+ "lang": "da",
+ "keyword": "lilith astrologi",
+ "volume": "1000",
+ "slug": "lilith-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith i astrologi: hvad betyder det?",
+ "description": "Lilith er den del af dig, der er vild, fri og utæmmet. Forklaret enkelt med eksempel.",
+ "intro": "Sorte Måne Lilith er et punkt i dit horoskop (ikke en rigtig planet), der viser, hvor du ikke lader dig tvinge og følger dine egne regler.",
+ "sections": [
+  {
+   "h2": "Hvad er Lilith?",
+   "paragraphs": [
+    "Tænk på den del af dig, som du gemte som barn, fordi den var \"for meget\". Lilith er den del, der vil tilbage."
+   ]
+  },
+  {
+   "h2": "Hvordan håndterer du det?",
+   "paragraphs": [
+    "Du behøver ikke trykke det ned. Giver du det et trygt sted, bliver det styrke i stedet for vrede."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Lilith i arbejdets hus: Rosa fik at vide, at hun skulle være stille. Nu siger hun roligt, men tydeligt, hvad hun vil, og starter egen virksomhed."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Er Lilith en planet?",
+   "a": "Nej, det er et udregnet punkt: månebanens fjerneste sted fra jorden."
+  },
+  {
+   "q": "Er Lilith farlig?",
+   "a": "Nej, hun beder dig være ærlig og fri."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ },
+ "tool": "descreva-me"
+}

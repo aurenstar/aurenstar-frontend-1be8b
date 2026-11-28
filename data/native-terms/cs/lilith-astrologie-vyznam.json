@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "lilith astrologie",
+ "volume": "1000",
+ "slug": "lilith-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith v astrologii: co znamená?",
+ "description": "Lilith je ta část vás, která je divoká, svobodná a nezkrocená. Jednoduše s příkladem.",
+ "intro": "Černý Měsíc Lilith je bod ve vašem horoskopu (není to skutečná planeta), který ukazuje, kde se nenecháte nutit a řídíte se vlastními pravidly.",
+ "sections": [
+  {
+   "h2": "Co je Lilith?",
+   "paragraphs": [
+    "Představte si tu část sebe, kterou jste jako dítě schovali, protože byla „příliš“. Lilith je ta část, která se chce vrátit."
+   ]
+  },
+  {
+   "h2": "Jak s tím žít?",
+   "paragraphs": [
+    "Nemusíte ji potlačovat. Když jí dáte bezpečné místo, stane se silou místo vzteku."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Lilith v domě práce: Růže bylo řečeno, ať je zticha. Teď klidně, ale jasně říká, co chce, a zakládá vlastní firmu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je Lilith planeta?",
+   "a": "Ne, je to vypočtený bod: nejvzdálenější místo dráhy Měsíce od Země."
+  },
+  {
+   "q": "Je Lilith nebezpečná?",
+   "a": "Ne, žádá vás, abyste byli upřímní a svobodní."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

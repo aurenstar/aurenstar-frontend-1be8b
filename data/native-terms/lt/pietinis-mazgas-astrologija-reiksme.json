@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "pietinis mazgas astrologija",
+ "volume": "1000",
+ "slug": "pietinis-mazgas-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pietinis mazgas astrologijoje: ką tai reiškia?",
+ "description": "Pietinis mazgas rodo, ką jau moki iš praeities. Paprastai, su pavyzdžiu.",
+ "intro": "Pietinis mazgas yra taškas tavo horoskope, žymintis senus įpročius ir talentus. Jis pažįstamas, bet įstrigti jame stabdo.",
+ "sections": [
+  {
+   "h2": "Kas yra Pietinis mazgas?",
+   "paragraphs": [
+    "Įsivaizduok mėgstamą seną megztinį: jaukus ir pažįstamas. Gera, bet negali visada jame vaikščioti."
+   ]
+  },
+  {
+   "h2": "Kaip naudoti?",
+   "paragraphs": [
+    "Naudok tai, ką jau moki, kaip atramą, bet augimui siek Šiaurinio mazgo. Pietinė pusė yra tavo bagažas, o ne tikslas."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Pietinis mazgas rūpesčio name: Rūta visada rūpinasi visais. Dabar mokosi pasakyti ir ne bei pagalvoti apie save."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar Pietinis mazgas blogas?",
+   "a": "Ne, tai tavo talentai iš praeities, bet jais per daug pasikliauti nereikia."
+  },
+  {
+   "q": "Ar Pietinis mazgas priešais Šiaurinį?",
+   "a": "Taip, jie visada stovi tiksliai vienas priešais kitą."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

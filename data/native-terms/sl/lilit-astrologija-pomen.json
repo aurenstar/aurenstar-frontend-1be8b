@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "lilit astrologija",
+ "volume": "1000",
+ "slug": "lilit-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilit v astrologiji: kaj pomeni?",
+ "description": "Lilit je tisti del vas, ki je divji, svoboden in neukročen. Preprosto, s primerom.",
+ "intro": "Črna Luna Lilit je točka v vašem horoskopu (ni prava planet), ki kaže, kje se ne pustite siliti in sledite lastnim pravilom.",
+ "sections": [
+  {
+   "h2": "Kaj je Lilit?",
+   "paragraphs": [
+    "Predstavljajte si del sebe, ki ste ga kot otrok skrili, ker je bil »preveč«. Lilit je ta del, ki se želi vrniti."
+   ]
+  },
+  {
+   "h2": "Kako z njo?",
+   "paragraphs": [
+    "Ni je treba zatirati. Če ji date varen prostor, postane moč namesto jeze."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Lilit v hiši dela: Rozi so govorili, naj molči. Zdaj mirno, a jasno pove, kaj želi, in ustanovi lastno podjetje."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je Lilit planet?",
+   "a": "Ne, je izračunana točka: najbolj oddaljeno mesto Lunine orbite od Zemlje."
+  },
+  {
+   "q": "Je Lilit nevarna?",
+   "a": "Ne, prosi vas, da ste iskreni in svobodni."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

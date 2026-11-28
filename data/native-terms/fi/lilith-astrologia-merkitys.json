@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "lilith astrologia",
+ "volume": "1000",
+ "slug": "lilith-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith astrologiassa: mitä se tarkoittaa?",
+ "description": "Lilith on se osa sinua, joka on villi, vapaa ja kesytön. Selitetty esimerkillä.",
+ "intro": "Musta Kuu Lilith on piste kartassasi (ei oikea planeetta), joka näyttää, missä et anna pakottaa itseäsi ja noudatat omia sääntöjäsi.",
+ "sections": [
+  {
+   "h2": "Mikä on Lilith?",
+   "paragraphs": [
+    "Ajattele sitä osaa itsestäsi, jonka piilotit lapsena, koska se oli \"liikaa\". Lilith on se osa, joka haluaa takaisin."
+   ]
+  },
+  {
+   "h2": "Miten sen kanssa elää?",
+   "paragraphs": [
+    "Sitä ei tarvitse tukahduttaa. Kun annat sille turvallisen paikan, siitä tulee voimaa vihan sijaan."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Lilith työn talossa: Roosalle sanottiin, että hänen pitää olla hiljaa. Nyt hän sanoo rauhallisesti mutta selvästi mitä haluaa ja perustaa oman yrityksen."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Onko Lilith planeetta?",
+   "a": "Ei, se on laskettu piste: Kuun radan kaukaisin kohta Maasta."
+  },
+  {
+   "q": "Onko Lilith vaarallinen?",
+   "a": "Ei, hän pyytää sinua olemaan rehellinen ja vapaa."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

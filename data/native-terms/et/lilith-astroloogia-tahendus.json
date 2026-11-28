@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "lilith astroloogia",
+ "volume": "1000",
+ "slug": "lilith-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith astroloogias: mida see tähendab?",
+ "description": "Lilith on see osa sinust, mis on metsik, vaba ja taltsutamatu. Lihtsalt ja näitega.",
+ "intro": "Must Kuu Lilith on punkt sinu kaardil (mitte päris planeet), mis näitab, kus sa ei lase end sundida ja järgid oma reegleid.",
+ "sections": [
+  {
+   "h2": "Mis on Lilith?",
+   "paragraphs": [
+    "Mõtle sellele osale endast, mille lapsena peitsid, sest see oli „liiga“. Lilith on see osa, mis tahab tagasi tulla."
+   ]
+  },
+  {
+   "h2": "Kuidas sellega toime tulla?",
+   "paragraphs": [
+    "Pole vaja seda maha suruda. Kui annad sellele turvalise koha, saab sellest jõud viha asemel."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Lilith töö majas: Roosile öeldi, et ta oleks vait. Nüüd ütleb ta rahulikult, kuid selgelt, mida tahab, ja asutab oma ettevõtte."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas Lilith on planeet?",
+   "a": "Ei, see on arvutatud punkt: Kuu orbiidi Maast kaugeim koht."
+  },
+  {
+   "q": "Kas Lilith on ohtlik?",
+   "a": "Ei, ta palub sul olla aus ja vaba."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

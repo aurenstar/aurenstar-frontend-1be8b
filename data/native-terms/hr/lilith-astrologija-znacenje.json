@@ -1,0 +1,49 @@
+{
+ "lang": "hr",
+ "keyword": "lilith astrologija",
+ "volume": "1000",
+ "slug": "lilith-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith u astrologiji: što znači?",
+ "description": "Lilith je dio tebe koji je divlji, slobodan i neukroćen. Jednostavno, s primjerom.",
+ "intro": "Crni Mjesec Lilith točka je u tvom horoskopu (nije prava planeta) koja pokazuje gdje ne dopuštaš da te prisiljavaju i slijediš vlastita pravila.",
+ "sections": [
+  {
+   "h2": "Što je Lilith?",
+   "paragraphs": [
+    "Zamisli dio sebe koji si kao dijete skrivao jer je bio „previše“. Lilith je taj dio koji se želi vratiti."
+   ]
+  },
+  {
+   "h2": "Kako s tim?",
+   "paragraphs": [
+    "Ne moraš je potiskivati. Ako joj daš sigurno mjesto, postaje snaga umjesto bijesa."
+   ]
+  },
+  {
+   "h2": "Primjer",
+   "paragraphs": [
+    "Lilith u kući posla: Ruži su govorili da šuti. Sad mirno, ali jasno kaže što želi i pokreće vlastitu tvrtku."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je li Lilith planet?",
+   "a": "Ne, izračunata je točka: najudaljenije mjesto Mjesečeve putanje od Zemlje."
+  },
+  {
+   "q": "Je li Lilith opasna?",
+   "a": "Ne, traži od tebe da budeš iskren i slobodan."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

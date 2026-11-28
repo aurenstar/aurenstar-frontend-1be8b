@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "dienvidu mezgls astroloģija",
+ "volume": "1000",
+ "slug": "dienvidu-mezgls-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Dienvidu mezgls astroloģijā: ko tas nozīmē?",
+ "description": "Dienvidu mezgls rāda, ko tu jau proti no pagātnes. Vienkārši, ar piemēru.",
+ "intro": "Dienvidu mezgls ir punkts tavā kartē, kas apzīmē vecos ieradumus un talantus. Tas ir pazīstams, bet iestrēgt tajā bremzē.",
+ "sections": [
+  {
+   "h2": "Kas ir Dienvidu mezgls?",
+   "paragraphs": [
+    "Iedomājies savu mīļāko veco džemperi: omulīgs un pazīstams. Jauki, bet nevar tajā staigāt vienmēr."
+   ]
+  },
+  {
+   "h2": "Kā to izmantot?",
+   "paragraphs": [
+    "Izmanto to, ko jau proti, kā atbalstu, bet izaugsmei tiecies uz Ziemeļu mezglu. Dienvidu puse ir tavs bagāžas, nevis mērķis."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Dienvidu mezgls gādības mājā: Roze vienmēr gādā par visiem. Tagad viņa mācās teikt arī nē un domāt par sevi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai Dienvidu mezgls ir slikts?",
+   "a": "Nē, tie ir tavi talanti no pagātnes, bet uz tiem nevajag pārāk pieķerties."
+  },
+  {
+   "q": "Vai Dienvidu mezgls ir pretī Ziemeļu mezglam?",
+   "a": "Jā, tie vienmēr atrodas tieši viens pretī otram."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

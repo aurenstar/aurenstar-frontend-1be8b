@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "jižní uzel astrologie",
+ "volume": "1000",
+ "slug": "jizni-uzel-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jižní uzel v astrologii: co znamená?",
+ "description": "Jižní uzel ukazuje, co už umíte z minulosti. Jednoduše s příkladem.",
+ "intro": "Jižní uzel je bod ve vašem horoskopu, který představuje staré zvyky a talenty. Je to známé, ale uvíznout v tom vás brzdí.",
+ "sections": [
+  {
+   "h2": "Co je Jižní uzel?",
+   "paragraphs": [
+    "Představte si svůj oblíbený starý svetr: útulný a známý. Příjemné, ale nemůžete v něm chodit pořád."
+   ]
+  },
+  {
+   "h2": "Jak ho využít?",
+   "paragraphs": [
+    "Využijte, co už umíte, jako oporu, ale pro růst se natahujte k Severnímu uzlu. Jižní strana je vaše zavazadlo, ne cíl."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Jižní uzel v domě péče: Růža se vždy stará o všechny. Teď se učí říkat i ne a myslet na sebe."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je Jižní uzel špatný?",
+   "a": "Ne, jsou to vaše talenty z minulosti, ale neměli byste se o ně příliš opírat."
+  },
+  {
+   "q": "Je Jižní uzel naproti Severnímu uzlu?",
+   "a": "Ano, vždy stojí přesně naproti sobě."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "lilith astrologia",
+ "volume": "1000",
+ "slug": "lilith-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith w astrologii: co oznacza?",
+ "description": "Lilith to ta część Ciebie, która jest dzika, wolna i nieoswojona. Wyjaśnione prosto, z przykładem.",
+ "intro": "Czarny Księżyc Lilith to punkt w Twoim horoskopie (nie prawdziwa planeta), który pokazuje, gdzie nie dajesz się zmuszać i idziesz własnymi zasadami.",
+ "sections": [
+  {
+   "h2": "Czym jest Lilith?",
+   "paragraphs": [
+    "Wyobraź sobie tę część siebie, którą jako dziecko ukryłeś, bo była „zbyt”. Lilith to ta część, która chce wrócić."
+   ]
+  },
+  {
+   "h2": "Jak sobie z tym radzić?",
+   "paragraphs": [
+    "Nie musisz jej tłumić. Gdy dasz jej bezpieczne miejsce, stanie się siłą zamiast gniewu."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Lilith w domu pracy: Róży mówiono, by była cicho. Teraz spokojnie, ale wyraźnie mówi, czego chce, i zakłada własną firmę."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy Lilith to planeta?",
+   "a": "Nie, to wyliczony punkt: najdalsze miejsce orbity Księżyca od Ziemi."
+  },
+  {
+   "q": "Czy Lilith jest groźna?",
+   "a": "Nie, prosi Cię, byś był szczery i wolny."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

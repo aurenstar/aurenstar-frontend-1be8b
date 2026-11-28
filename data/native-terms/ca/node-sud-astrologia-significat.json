@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "node sud astrologia",
+ "volume": "1000",
+ "slug": "node-sud-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Node Sud en astrologia: què significa?",
+ "description": "El Node Sud mostra el que ja saps del passat. Explicat fàcil, amb exemple.",
+ "intro": "El Node Sud és un punt de la teva carta que representa els hàbits i talents antics. Resulta familiar, però quedar-s’hi enganxat et frena.",
+ "sections": [
+  {
+   "h2": "Què és el Node Sud?",
+   "paragraphs": [
+    "Pensa en el teu jersei vell preferit: acollidor i conegut. Agradable, però no pots anar-hi sempre."
+   ]
+  },
+  {
+   "h2": "Com l’utilitzes?",
+   "paragraphs": [
+    "Fes servir el que ja saps com a suport, però estira cap al Node Nord per créixer. El costat sud és el teu equipatge, no la destinació."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Node Sud a la casa de la cura: la Rosa sempre cuida tothom. Ara aprèn a dir que no i a pensar en ella."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "El Node Sud és dolent?",
+   "a": "No, són els teus talents del passat, però no t’hi has de recolzar massa."
+  },
+  {
+   "q": "El Node Sud és oposat al Node Nord?",
+   "a": "Sí, sempre són exactament un davant de l’altre."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

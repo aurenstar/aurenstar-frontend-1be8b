@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "Lilith chiêm tinh",
+ "volume": "1000",
+ "slug": "lilith-chiem-tinh-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith trong chiêm tinh có ý nghĩa gì?",
+ "description": "Lilith là phần hoang dã, tự do và không thể thuần hóa trong bạn. Giải thích đơn giản, có ví dụ.",
+ "intro": "Black Moon Lilith là một điểm trong lá số (không phải hành tinh thật) cho thấy nơi bạn không để bị ép buộc và sống theo luật của riêng mình.",
+ "sections": [
+  {
+   "h2": "Lilith là gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến phần bản thân bạn đã giấu từ nhỏ vì bị cho là “quá lố”. Lilith là phần muốn trở về đó."
+   ]
+  },
+  {
+   "h2": "Đối diện thế nào?",
+   "paragraphs": [
+    "Không cần kìm nén. Nếu cho nó một chỗ an toàn, nó trở thành sức mạnh thay vì giận dữ."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Lilith ở nhà công việc: Lan từng bị bảo phải im lặng. Giờ cô bình tĩnh nhưng rõ ràng nói điều mình muốn và mở công ty riêng."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Lilith có phải hành tinh không?",
+   "a": "Không, đó là điểm được tính toán: nơi xa Trái Đất nhất trên quỹ đạo Mặt Trăng."
+  },
+  {
+   "q": "Lilith có nguy hiểm không?",
+   "a": "Không, cô chỉ yêu cầu bạn trung thực và tự do."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

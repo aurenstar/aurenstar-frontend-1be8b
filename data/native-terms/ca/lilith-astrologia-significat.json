@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "lilith astrologia",
+ "volume": "1000",
+ "slug": "lilith-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith en astrologia: què significa?",
+ "description": "Lilith és la part de tu que és salvatge, lliure i indomable. Explicat fàcil, amb exemple.",
+ "intro": "La Lluna Negra Lilith és un punt de la teva carta (no un planeta real) que mostra on no et deixes obligar i segueixes les teves pròpies regles.",
+ "sections": [
+  {
+   "h2": "Què és Lilith?",
+   "paragraphs": [
+    "Pensa en la part de tu que vas amagar de petit perquè era “massa”. Lilith és aquesta part que vol tornar."
+   ]
+  },
+  {
+   "h2": "Com ho afrontes?",
+   "paragraphs": [
+    "No cal reprimir-la. Si li dones un lloc segur, es converteix en força en lloc de ràbia."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Lilith a la casa del treball: a la Rosa li deien que callés. Ara diu amb calma però clar el que vol i obre la seva pròpia empresa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Lilith és un planeta?",
+   "a": "No, és un punt calculat: el lloc de l’òrbita de la Lluna més allunyat de la Terra."
+  },
+  {
+   "q": "Lilith és perillosa?",
+   "a": "No, et demana que siguis sincer i lliure."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

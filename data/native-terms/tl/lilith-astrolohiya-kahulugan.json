@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "lilith astrolohiya",
+ "volume": "1000",
+ "slug": "lilith-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Ang Lilith ay ang bahagi mo na mailap, malaya, at hindi napaamo. Simple, may halimbawa.",
+ "intro": "Ang Black Moon Lilith ay isang punto sa birth chart mo (hindi tunay na planeta) na nagpapakita kung saan hindi ka nagpapadala sa pamimilit at sumusunod sa sarili mong patakaran.",
+ "sections": [
+  {
+   "h2": "Ano ang Lilith?",
+   "paragraphs": [
+    "Isipin ang bahagi mong itinago noong bata dahil \"sobra\" daw. Ang Lilith ay ang bahaging gustong bumalik."
+   ]
+  },
+  {
+   "h2": "Paano ito haharapin?",
+   "paragraphs": [
+    "Hindi mo kailangang supilin. Kapag binigyan mo ng ligtas na lugar, nagiging lakas ito sa halip na galit."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Nasa bahay ng trabaho ang Lilith: sinabihan si Mika na manahimik. Ngayon mahinahon pero malinaw niyang sinasabi ang gusto niya at nagsisimula ng sariling negosyo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Planeta ba ang Lilith?",
+   "a": "Hindi, ito ay kinuwentang punto: ang pinakamalayong bahagi ng orbit ng Buwan mula sa Mundo."
+  },
+  {
+   "q": "Delikado ba ang Lilith?",
+   "a": "Hindi, hinihiling lang niyang maging tapat at malaya ka."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

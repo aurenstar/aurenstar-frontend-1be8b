@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "lõunasõlm astroloogia",
+ "volume": "1000",
+ "slug": "lounasolm-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lõunasõlm astroloogias: mida see tähendab?",
+ "description": "Lõunasõlm näitab, mida sa minevikust juba oskad. Lihtsalt ja näitega.",
+ "intro": "Lõunasõlm on punkt sinu kaardil, mis tähistab vanu harjumusi ja talente. See on tuttav, kuid sinna kinnijäämine peidab sind.",
+ "sections": [
+  {
+   "h2": "Mis on Lõunasõlm?",
+   "paragraphs": [
+    "Mõtle lemmik vanale kampsunile: hubane ja tuttav. Mõnus, aga sa ei saa selles alati käia."
+   ]
+  },
+  {
+   "h2": "Kuidas kasutada?",
+   "paragraphs": [
+    "Kasuta seda, mida juba oskad, toena, kuid kasvamiseks sirutu Põhjasõlme poole. Lõunapool on sinu pagas, mitte sihtpunkt."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Lõunasõlm hoolitsuse majas: Roosi hoolitseb alati kõigi eest. Nüüd õpib ta ka ei ütlema ja iseendale mõtlema."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas Lõunasõlm on halb?",
+   "a": "Ei, need on sinu minevikuannid, kuid neile ei tohiks liiga toetuda."
+  },
+  {
+   "q": "Kas Lõunasõlm on Põhjasõlme vastas?",
+   "a": "Jah, nad on alati täpselt üksteise vastas."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

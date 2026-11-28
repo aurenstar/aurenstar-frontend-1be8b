@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "Nam Giao Điểm chiêm tinh",
+ "volume": "1000",
+ "slug": "nam-giao-diem-chiem-tinh-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nam Giao Điểm trong chiêm tinh có ý nghĩa gì?",
+ "description": "Nam Giao Điểm cho thấy điều bạn đã biết từ quá khứ. Giải thích đơn giản, có ví dụ.",
+ "intro": "Nam Giao Điểm là một điểm trong lá số đại diện cho thói quen và tài năng cũ. Nó quen thuộc, nhưng mắc kẹt ở đó sẽ làm bạn chậm lại.",
+ "sections": [
+  {
+   "h2": "Nam Giao Điểm là gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến chiếc áo len cũ yêu thích: ấm áp và quen thuộc. Dễ chịu, nhưng bạn không thể mặc nó mãi."
+   ]
+  },
+  {
+   "h2": "Dùng thế nào?",
+   "paragraphs": [
+    "Dùng điều đã biết làm chỗ dựa, nhưng hướng về Bắc Giao Điểm để phát triển. Phía nam là hành lý, không phải đích đến."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Nam Giao Điểm ở nhà chăm sóc: Lan luôn chăm lo cho mọi người. Giờ cô học nói không và nghĩ đến bản thân."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Nam Giao Điểm có xấu không?",
+   "a": "Không, đó là tài năng từ quá khứ, nhưng đừng dựa quá nhiều vào nó."
+  },
+  {
+   "q": "Nam Giao Điểm có đối diện Bắc Giao Điểm không?",
+   "a": "Có, chúng luôn đối diện chính xác nhau."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

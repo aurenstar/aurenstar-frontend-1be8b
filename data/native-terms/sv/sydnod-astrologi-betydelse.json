@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "sydnod astrologi",
+ "volume": "1000",
+ "slug": "sydnod-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sydnoden i astrologin: vad betyder den?",
+ "description": "Sydnoden visar vad du redan kan från det förflutna. Enkelt förklarat med exempel.",
+ "intro": "Sydnoden är en punkt i ditt horoskop som står för dina gamla vanor och talanger. Det känns bekant, men att fastna där håller dig tillbaka.",
+ "sections": [
+  {
+   "h2": "Vad är Sydnoden?",
+   "paragraphs": [
+    "Tänk på din favoritgamla tröja: mysig och välkänd. Härligt, men du kan inte alltid gå omkring i den."
+   ]
+  },
+  {
+   "h2": "Hur använder du den?",
+   "paragraphs": [
+    "Använd det du redan kan som stöd, men sträck dig mot Nordnoden för att växa. Din sydliga sida är ditt bagage, inte ditt mål."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Sydnod i omsorgens hus: Rosa tar alltid hand om alla. Nu lär hon sig även säga nej och tänka på sig själv."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Är Sydnoden dålig?",
+   "a": "Nej, det är dina talanger från det förflutna, men du ska inte luta dig för mycket på dem."
+  },
+  {
+   "q": "Står Sydnoden mitt emot Nordnoden?",
+   "a": "Ja, de står alltid exakt mitt emot varandra."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

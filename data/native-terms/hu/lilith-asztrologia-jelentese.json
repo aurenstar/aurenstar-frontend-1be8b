@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "lilith asztrológia",
+ "volume": "1000",
+ "slug": "lilith-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilith az asztrológiában: mit jelent?",
+ "description": "Lilith az a részed, amely vad, szabad és szelídítetlen. Egyszerűen, példával.",
+ "intro": "A Fekete Hold Lilith egy pont a horoszkópodban (nem valódi bolygó), amely megmutatja, hol nem hagyod magad kényszeríteni, és hol követed a saját szabályaidat.",
+ "sections": [
+  {
+   "h2": "Mi a Lilith?",
+   "paragraphs": [
+    "Gondolj arra a részedre, amit gyerekként elrejtettél, mert „túl sok” volt. A Lilith az a rész, amely vissza akar térni."
+   ]
+  },
+  {
+   "h2": "Hogyan bánj vele?",
+   "paragraphs": [
+    "Nem kell elnyomnod. Ha biztonságos helyet adsz neki, düh helyett erő lesz belőle."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Lilith a munka házában: Rózsának azt mondták, legyen csendben. Most nyugodtan, de világosan kimondja, mit akar, és saját céget indít."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "A Lilith bolygó?",
+   "a": "Nem, kiszámított pont: a Hold pályájának a Földtől legtávolabbi helye."
+  },
+  {
+   "q": "Veszélyes a Lilith?",
+   "a": "Nem, azt kéri, hogy légy őszinte és szabad."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

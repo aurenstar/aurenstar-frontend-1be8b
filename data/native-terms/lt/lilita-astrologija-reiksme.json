@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "lilita astrologija",
+ "volume": "1000",
+ "slug": "lilita-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilita astrologijoje: ką tai reiškia?",
+ "description": "Lilita yra ta tavo dalis, kuri laukinė, laisva ir nepažabota. Paprastai, su pavyzdžiu.",
+ "intro": "Juodoji Mėnulio Lilita yra taškas tavo horoskope (ne tikra planeta), rodantis, kur neleidi savęs versti ir sieki savo taisyklių.",
+ "sections": [
+  {
+   "h2": "Kas yra Lilita?",
+   "paragraphs": [
+    "Įsivaizduok savo dalį, kurią vaikystėje slėpei, nes ji buvo „per daug“. Lilita yra ta dalis, norinti sugrįžti."
+   ]
+  },
+  {
+   "h2": "Kaip su tuo gyventi?",
+   "paragraphs": [
+    "Jos nereikia slopinti. Jei duosi saugią vietą, ji taps jėga, o ne pykčiu."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Lilita darbo name: Rūtai sakė tylėti. Dabar ji ramiai, bet aiškiai pasako, ko nori, ir kuria savo įmonę."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar Lilita yra planeta?",
+   "a": "Ne, tai apskaičiuotas taškas: tolimiausia Mėnulio orbitos vieta nuo Žemės."
+  },
+  {
+   "q": "Ar Lilita pavojinga?",
+   "a": "Ne, ji prašo būti sąžiningam ir laisvam."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

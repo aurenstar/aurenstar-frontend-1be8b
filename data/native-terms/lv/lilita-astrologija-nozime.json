@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "lilita astroloģija",
+ "volume": "1000",
+ "slug": "lilita-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Lilita astroloģijā: ko tas nozīmē?",
+ "description": "Lilita ir tā tava daļa, kas ir mežonīga, brīva un nesaudzīga. Vienkārši, ar piemēru.",
+ "intro": "Melnais Mēness Lilita ir punkts tavā kartē (nevis īsta planēta), kas rāda, kur tu nelaujies piespiesties un seko saviem noteikumiem.",
+ "sections": [
+  {
+   "h2": "Kas ir Lilita?",
+   "paragraphs": [
+    "Iedomājies savu daļu, ko bērnībā slēpi, jo tā bija „pārāk”. Lilita ir šī daļa, kas grib atgriezties."
+   ]
+  },
+  {
+   "h2": "Kā ar to tikt galā?",
+   "paragraphs": [
+    "Tā nav jāapspiež. Ja dosi tai drošu vietu, tā kļūs par spēku, nevis dusmām."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Lilita darba mājā: Rozei teica klusēt. Tagad viņa mierīgi, bet skaidri pasaka, ko vēlas, un dibina savu uzņēmumu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai Lilita ir planēta?",
+   "a": "Nē, tas ir aprēķināts punkts: tālākā Mēness orbītas vieta no Zemes."
+  },
+  {
+   "q": "Vai Lilita ir bīstama?",
+   "a": "Nē, viņa lūdz tevi būt godīgam un brīvam."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

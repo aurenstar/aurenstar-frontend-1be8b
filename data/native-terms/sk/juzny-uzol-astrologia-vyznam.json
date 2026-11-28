@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "južný uzol astrológia",
+ "volume": "1000",
+ "slug": "juzny-uzol-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Južný uzol v astrológii: čo znamená?",
+ "description": "Južný uzol ukazuje, čo už viete z minulosti. Jednoducho s príkladom.",
+ "intro": "Južný uzol je bod vo vašom horoskope, ktorý predstavuje staré zvyky a talenty. Je to známe, ale uviaznuť v tom vás brzdí.",
+ "sections": [
+  {
+   "h2": "Čo je Južný uzol?",
+   "paragraphs": [
+    "Predstavte si svoj obľúbený starý sveter: útulný a známy. Príjemné, ale nemôžete v ňom chodiť stále."
+   ]
+  },
+  {
+   "h2": "Ako ho využiť?",
+   "paragraphs": [
+    "Využite, čo už viete, ako oporu, ale pre rast sa naťahujte k Severnému uzlu. Južná strana je vaša batožina, nie cieľ."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Južný uzol v dome starostlivosti: Ruža sa vždy stará o všetkých. Teraz sa učí hovoriť aj nie a myslieť na seba."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je Južný uzol zlý?",
+   "a": "Nie, sú to vaše talenty z minulosti, ale nemali by ste sa o ne príliš opierať."
+  },
+  {
+   "q": "Je Južný uzol oproti Severnému uzlu?",
+   "a": "Áno, vždy stoja presne oproti sebe."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

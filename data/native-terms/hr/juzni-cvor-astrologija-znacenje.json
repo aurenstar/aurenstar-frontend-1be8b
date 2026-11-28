@@ -1,0 +1,49 @@
+{
+ "lang": "hr",
+ "keyword": "južni čvor astrologija",
+ "volume": "1000",
+ "slug": "juzni-cvor-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Južni čvor u astrologiji: što znači?",
+ "description": "Južni čvor pokazuje što već znaš iz prošlosti. Jednostavno, s primjerom.",
+ "intro": "Južni čvor točka je u tvom horoskopu koja predstavlja stare navike i talente. Poznat je, ali zapeti u njemu usporava te.",
+ "sections": [
+  {
+   "h2": "Što je Južni čvor?",
+   "paragraphs": [
+    "Zamisli svoj omiljeni stari džemper: udoban i poznat. Lijepo, ali ne možeš uvijek hodati u njemu."
+   ]
+  },
+  {
+   "h2": "Kako ga koristiš?",
+   "paragraphs": [
+    "Koristi što već znaš kao oslonac, ali za rast posegni prema Sjevernom čvoru. Južna strana je tvoja prtljaga, ne odredište."
+   ]
+  },
+  {
+   "h2": "Primjer",
+   "paragraphs": [
+    "Južni čvor u kući brige: Ruža se uvijek brine za sve. Sad uči reći i ne i misliti na sebe."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je li Južni čvor loš?",
+   "a": "Ne, to su tvoji talenti iz prošlosti, ali se ne smiješ previše oslanjati na njih."
+  },
+  {
+   "q": "Je li Južni čvor nasuprot Sjevernom?",
+   "a": "Da, uvijek stoje točno jedan nasuprot drugome."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

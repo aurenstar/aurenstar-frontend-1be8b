@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "south node astrolohiya",
+ "volume": "1000",
+ "slug": "south-node-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "South Node sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Ipinapakita ng South Node ang alam mo na mula sa nakaraan. Simple, may halimbawa.",
+ "intro": "Ang South Node ay isang punto sa birth chart mo na kumakatawan sa mga lumang gawi at talento. Pamilyar ito, pero kapag nanatili ka roon, napipigilan ka.",
+ "sections": [
+  {
+   "h2": "Ano ang South Node?",
+   "paragraphs": [
+    "Isipin ang paborito mong lumang sweater: mainit at pamilyar. Masarap, pero hindi mo ito maisusuot palagi."
+   ]
+  },
+  {
+   "h2": "Paano gamitin?",
+   "paragraphs": [
+    "Gamitin ang alam mo na bilang suporta, pero abutin ang North Node para lumago. Ang timog ay bagahe mo, hindi destinasyon."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Nasa bahay ng pag-aalaga ang South Node: palaging inaalagaan ni Mika ang lahat. Ngayon natututo siyang humindi at isipin din ang sarili."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Masama ba ang South Node?",
+   "a": "Hindi, mga talento ito mula sa nakaraan, pero huwag masyadong umasa rito."
+  },
+  {
+   "q": "Magkaharap ba ang South Node at North Node?",
+   "a": "Oo, palagi silang eksaktong magkaharap."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

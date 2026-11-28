@@ -1,0 +1,49 @@
+{
+ "lang": "da",
+ "keyword": "sydknude astrologi",
+ "volume": "1000",
+ "slug": "sydknude-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sydknuden i astrologi: hvad betyder den?",
+ "description": "Sydknuden viser, hvad du allerede kan fra fortiden. Forklaret enkelt med eksempel.",
+ "intro": "Sydknuden er et punkt i dit horoskop, der står for dine gamle vaner og talenter. Det føles trygt, men at sidde fast der holder dig tilbage.",
+ "sections": [
+  {
+   "h2": "Hvad er Sydknuden?",
+   "paragraphs": [
+    "Tænk på din yndlingstrøje: hyggelig og kendt. Dejligt, men du kan ikke altid gå rundt i den."
+   ]
+  },
+  {
+   "h2": "Hvordan bruger du den?",
+   "paragraphs": [
+    "Brug det, du allerede kan, som støtte, men stræk dig mod Nordknuden for at vokse. Din sydlige side er din bagage, ikke dit mål."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Sydknude i omsorgens hus: Rosa tager sig altid af alle. Nu lærer hun også at sige nej og tænke på sig selv."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Er Sydknuden dårlig?",
+   "a": "Nej, det er dine talenter fra fortiden, men du skal ikke læne dig for meget op ad dem."
+  },
+  {
+   "q": "Står Sydknuden overfor Nordknuden?",
+   "a": "Ja, de står altid præcis overfor hinanden."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ },
+ "tool": "descreva-me"
+}
