@@ -1,0 +1,73 @@
+{
+ "lang": "vi",
+ "keyword": "lập lá số tử vi",
+ "volume": 90500,
+ "slug": "lap-la-so-tu-vi-cach-doc-co-ban",
+ "date": "2026-11-27",
+ "title": "Lập lá số tử vi: cần chuẩn bị gì và cách đọc cơ bản",
+ "description": "Lá số tử vi là gì, cần giờ sinh nào để lập và cách đọc 12 cung cơ bản một cách dễ hiểu, kèm ví dụ.",
+ "intro": "Nhiều người tò mò lá số tử vi của mình nhưng nhìn vào bảng đầy sao thì thấy rối. Thực ra chỉ cần hiểu vài ý chính là bạn có thể đọc được bức tranh tổng quát. Bài viết giải thích đơn giản, không dùng thuật ngữ khó.",
+ "sections": [
+  {
+   "h2": "Cần chuẩn bị gì để lập lá số",
+   "paragraphs": [
+    "Bạn cần ngày sinh, giờ sinh và giới tính. Với tử vi, giờ sinh chia theo 12 canh giờ (Tý, Sửu, Dần...), mỗi canh giờ kéo dài 2 tiếng.",
+    "Ví dụ: bạn sinh lúc 6 giờ 30 sáng thì thuộc giờ Mão (5–7 giờ). Nếu nhớ sai giờ, các cung có thể thay đổi."
+   ]
+  },
+  {
+   "h2": "12 cung cơ bản",
+   "paragraphs": [
+    "Lá số chia thành 12 cung như Mệnh, Phụ Mẫu, Phúc Đức, Điền Trạch, Quan Lộc, Nô Bộc, Thiên Di, Tật Ách, Tài Bạch, Tử Tức, Phu Thê và Huynh Đệ.",
+    "Mỗi cung nói về một lĩnh vực: tính cách, gia đình, sự nghiệp, tiền bạc, tình cảm. Cung Mệnh là điểm xuất phát quan trọng nhất."
+   ]
+  },
+  {
+   "h2": "Đọc nhanh cung Mệnh",
+   "paragraphs": [
+    "Hãy xem sao nào đóng ở cung Mệnh và tính chất của chúng. Có sao thiên về lãnh đạo, có sao thiên về nghệ thuật hay chăm sóc người khác.",
+    "Đừng chỉ nhìn một sao. Cần xem sự kết hợp và các cung đối diện, tam hợp."
+   ]
+  },
+  {
+   "h2": "Những lưu ý khi đọc",
+   "paragraphs": [
+    "Tử vi mô tả xu hướng, không phải định mệnh. Cùng một lá số, mỗi người sống khác nhau.",
+    "Tránh quá lo lắng khi gặp sao xấu. Hãy xem đó là lời nhắc cần cẩn trọng hơn."
+   ]
+  },
+  {
+   "h2": "Dùng tử vi trong cuộc sống",
+   "paragraphs": [
+    "Hãy dùng như một cách hiểu bản thân: ghi ra điểm mạnh, điểm cần cải thiện và đối chiếu với thực tế.",
+    "Tử vi không thay thế lời khuyên của bác sĩ, luật sư hay chuyên gia tài chính."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Không biết giờ sinh có lập được không?",
+   "a": "Có thể lập sơ bộ, nhưng kết quả kém chính xác. Nên hỏi người thân hoặc xem giấy khai sinh."
+  },
+  {
+   "q": "Tử vi khác cung hoàng đạo thế nào?",
+   "a": "Tử vi Đông phương dùng 12 cung và nhiều sao theo lịch âm; cung hoàng đạo phương Tây dựa trên vị trí Mặt Trời."
+  },
+  {
+   "q": "Lá số có thay đổi theo năm không?",
+   "a": "Lá số gốc cố định, nhưng việc xem vận hạn từng năm thì thay đổi."
+  },
+  {
+   "q": "Tử vi có dự đoán chính xác tương lai không?",
+   "a": "Không có bằng chứng khoa học. Nên xem như gợi ý để tự suy ngẫm."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ chiêm tinh miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc thêm",
+  "dictionary": "Từ điển chiêm tinh"
+ }
+}

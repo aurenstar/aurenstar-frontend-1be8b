@@ -1,0 +1,72 @@
+{
+ "lang": "pl",
+ "keyword": "znaki zodiaku",
+ "volume": 135000,
+ "slug": "znaki-zodiaku-daty-zywioly-znaczenie",
+ "date": "2026-11-27",
+ "title": "Znaki zodiaku: daty, żywioły i znaczenie – prosto i z przykładami",
+ "description": "Daty 12 znaków zodiaku, cztery żywioły i najważniejsze cechy każdego znaku. Prosty przewodnik z przykładami.",
+ "intro": "„Jakiego jesteś znaku?” to jedno z najczęstszych pytań na pierwszej randce. Znaków zodiaku jest dwanaście i każdy opisuje inny styl działania. Poniżej prosty przewodnik bez trudnych słów.",
+ "sections": [
+  {
+   "h2": "Daty dwunastu znaków",
+   "paragraphs": [
+    "Baran 21.03–19.04, Byk 20.04–20.05, Bliźnięta 21.05–20.06, Rak 21.06–22.07, Lew 23.07–22.08, Panna 23.08–22.09.",
+    "Waga 23.09–22.10, Skorpion 23.10–21.11, Strzelec 22.11–21.12, Koziorożec 22.12–19.01, Wodnik 20.01–18.02, Ryby 19.02–20.03. W dniach granicznych liczy się godzina i miejsce urodzenia."
+   ]
+  },
+  {
+   "h2": "Cztery żywioły",
+   "paragraphs": [
+    "Ogień (Baran, Lew, Strzelec) – energia i inicjatywa. Ziemia (Byk, Panna, Koziorożec) – praktyczność i cierpliwość.",
+    "Powietrze (Bliźnięta, Waga, Wodnik) – pomysły i komunikacja. Woda (Rak, Skorpion, Ryby) – uczucia i intuicja."
+   ]
+  },
+  {
+   "h2": "Przykład z życia",
+   "paragraphs": [
+    "Wyobraź sobie zespół planujący wyjazd: Baran szybko wybiera cel, Panna robi listę rzeczy do spakowania, Ryby dbają o dobrą atmosferę, a Koziorożec pilnuje budżetu.",
+    "To uproszczenie, ale dobrze pokazuje, że każdy znak ma inne mocne strony."
+   ]
+  },
+  {
+   "h2": "Nie tylko znak słoneczny",
+   "paragraphs": [
+    "Znak słoneczny to jedna część horoskopu urodzeniowego. Ascendent i Księżyc mocno zmieniają obraz. Bezpłatny kalkulator pokaże je w kilka minut.",
+    "Dwie osoby z tym samym znakiem mogą być bardzo różne."
+   ]
+  },
+  {
+   "h2": "Jak korzystać z zodiaku",
+   "paragraphs": [
+    "Traktuj go jako inspirację do refleksji, a nie pewną przepowiednię.",
+    "Astrologia nie zastępuje porady lekarza, prawnika ani doradcy finansowego."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jakie są znaki zodiaku?",
+   "a": "Baran, Byk, Bliźnięta, Rak, Lew, Panna, Waga, Skorpion, Strzelec, Koziorożec, Wodnik i Ryby."
+  },
+  {
+   "q": "Jak sprawdzić swój znak?",
+   "a": "Na podstawie daty urodzenia. W dniach granicznych potrzebna jest też godzina."
+  },
+  {
+   "q": "Czym różni się znak od ascendentu?",
+   "a": "Znak słoneczny to twoja istota, ascendent to sposób, w jaki odbierają cię inni."
+  },
+  {
+   "q": "Czy horoskop jest naukowy?",
+   "a": "Nie ma dowodów naukowych na przewidywanie przyszłości; to inspiracja do refleksji."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia astrologiczne",
+  "articles": "Lista artykułów",
+  "faq": "Najczęstsze pytania",
+  "more": "Czytaj dalej"
+ }
+}

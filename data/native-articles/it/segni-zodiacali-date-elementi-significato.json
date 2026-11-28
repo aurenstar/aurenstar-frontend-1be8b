@@ -1,0 +1,72 @@
+{
+ "lang": "it",
+ "keyword": "segni zodiacali",
+ "volume": 110000,
+ "slug": "segni-zodiacali-date-elementi-significato",
+ "date": "2026-11-27",
+ "title": "I 12 segni zodiacali: date, elementi e significato spiegati semplice",
+ "description": "Le date dei 12 segni zodiacali, i quattro elementi e le caratteristiche principali di ogni segno, con esempi pratici.",
+ "intro": "Quando qualcuno chiede «che segno sei?», in realtà sta cercando un modo veloce per conoscerti. I segni zodiacali sono dodici e ognuno racconta uno stile diverso di affrontare la vita. Ecco una guida chiara, senza paroloni.",
+ "sections": [
+  {
+   "h2": "Le date dei dodici segni",
+   "paragraphs": [
+    "Ariete 21 marzo–19 aprile, Toro 20 aprile–20 maggio, Gemelli 21 maggio–20 giugno, Cancro 21 giugno–22 luglio, Leone 23 luglio–22 agosto, Vergine 23 agosto–22 settembre.",
+    "Bilancia 23 settembre–22 ottobre, Scorpione 23 ottobre–21 novembre, Sagittario 22 novembre–21 dicembre, Capricorno 22 dicembre–19 gennaio, Acquario 20 gennaio–18 febbraio, Pesci 19 febbraio–20 marzo. Nei giorni di confine contano ora e luogo di nascita."
+   ]
+  },
+  {
+   "h2": "I quattro elementi",
+   "paragraphs": [
+    "Fuoco (Ariete, Leone, Sagittario): energia e iniziativa. Terra (Toro, Vergine, Capricorno): concretezza e pazienza.",
+    "Aria (Gemelli, Bilancia, Acquario): idee e comunicazione. Acqua (Cancro, Scorpione, Pesci): emozioni e intuito."
+   ]
+  },
+  {
+   "h2": "Le tre modalità",
+   "paragraphs": [
+    "Cardinali (Ariete, Cancro, Bilancia, Capricorno) iniziano le cose; fissi (Toro, Leone, Scorpione, Acquario) le mantengono; mutevoli (Gemelli, Vergine, Sagittario, Pesci) si adattano.",
+    "Esempio: per organizzare una cena, l’Ariete lancia l’idea, il Toro prenota il locale e i Pesci aggiustano all’ultimo minuto."
+   ]
+  },
+  {
+   "h2": "Oltre il segno solare",
+   "paragraphs": [
+    "Il segno solare è solo una parte del tema natale: contano anche ascendente e Luna. Un calcolatore gratuito ti mostra tutto in pochi minuti.",
+    "Due persone dello stesso segno possono essere molto diverse."
+   ]
+  },
+  {
+   "h2": "Come usare lo zodiaco",
+   "paragraphs": [
+    "Prendilo come spunto per riflettere su di te e sugli altri, non come previsione certa.",
+    "L’astrologia non sostituisce il parere di medici, avvocati o consulenti finanziari."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quali sono i segni zodiacali?",
+   "a": "Ariete, Toro, Gemelli, Cancro, Leone, Vergine, Bilancia, Scorpione, Sagittario, Capricorno, Acquario e Pesci."
+  },
+  {
+   "q": "Come scopro il mio segno?",
+   "a": "Dalla data di nascita. Nei giorni di confine serve anche l’ora."
+  },
+  {
+   "q": "Qual è la differenza tra segno e ascendente?",
+   "a": "Il segno solare è la tua essenza, l’ascendente è il modo in cui appari agli altri."
+  },
+  {
+   "q": "L’oroscopo è scientifico?",
+   "a": "No, non ci sono prove scientifiche di previsione: è uno spunto di riflessione."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Strumenti astrologici gratuiti",
+  "articles": "Articoli",
+  "faq": "Domande frequenti",
+  "more": "Continua a leggere"
+ }
+}

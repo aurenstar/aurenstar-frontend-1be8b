@@ -1,0 +1,73 @@
+{
+ "lang": "tr",
+ "keyword": "yükselen burcu hesapla",
+ "volume": 246000,
+ "slug": "yukselen-burc-hesaplama-nasil-yapilir",
+ "date": "2026-11-27",
+ "title": "Yükselen Burç Nasıl Hesaplanır? Basit Anlatım ve Örnekler",
+ "description": "Yükselen burç nedir, doğum saati ve yeriyle nasıl hesaplanır ve ne anlama gelir? Güneş burcundan farkı örneklerle anlatılıyor.",
+ "intro": "“Ben Aslan’ım ama pek de Aslan gibi değilim” diyenlerin çoğu aslında yükselen burcunun etkisini anlatıyor. Yükselen burç, doğduğun anda doğu ufkunda yükselen burçtur ve insanların seni ilk gördüğünde algıladığı havayı anlatır.",
+ "sections": [
+  {
+   "h2": "Yükselen burç nedir?",
+   "paragraphs": [
+    "Dünya kendi etrafında döndüğü için her yaklaşık iki saatte bir doğu ufkunda yeni bir burç yükselir. Doğduğun anda yükselen burç, yükselen burcundur.",
+    "Bu yüzden aynı gün doğan iki kişinin yükselen burçları tamamen farklı olabilir."
+   ]
+  },
+  {
+   "h2": "Hesaplamak için ne gerekir?",
+   "paragraphs": [
+    "Üç bilgi yeterli: doğum tarihi, doğum saati (mümkün olduğunca dakikasına kadar) ve doğum yeri.",
+    "Örnek: Elif, 5 Ağustos’ta İzmir’de saat 06.15’te doğdu. Aynı gün öğlen doğsaydı yükselen burcu çok farklı olurdu. Saatini bilmiyorsan nüfus kaydından veya ailenden öğrenebilirsin."
+   ]
+  },
+  {
+   "h2": "Güneş burcundan farkı",
+   "paragraphs": [
+    "Güneş burcu temel kimliğini, yükselen burç ise dış görünüşünü, ilk izlenimi ve yeni durumlara yaklaşımını anlatır.",
+    "Güneşi Yengeç, yükseleni Koç olan biri dışarıdan girişken görünebilir, ama yakınları onun duygusal ve korumacı yanını bilir."
+   ]
+  },
+  {
+   "h2": "Yükselen burç yorumu",
+   "paragraphs": [
+    "Yükselen, hayata “maskeni” gösterir; ancak maske sahte değildir, tarzının bir parçasıdır. Giyim, beden dili ve konuşma biçimine yansır.",
+    "Yorumlarken tek başına değil, Güneş ve Ay ile birlikte düşünmek daha doğru sonuç verir."
+   ]
+  },
+  {
+   "h2": "Dikkat edilecekler",
+   "paragraphs": [
+    "Doğum saati yanlışsa yükselen burç da yanlış çıkabilir. Sınır durumlarda iki ihtimali de oku ve hangisi sana uyuyor bak.",
+    "Astroloji kendini tanımak için bir araçtır; kesin tahmin değildir ve doktor, avukat ya da mali danışman yerine geçmez."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Yükselen burç nasıl hesaplanır?",
+   "a": "Doğum tarihi, saati ve yeri bir hesaplama aracına girilir; araç doğu ufkundaki burcu bulur."
+  },
+  {
+   "q": "Doğum saatimi bilmiyorsam ne yapmalıyım?",
+   "a": "Aileye veya nüfus kayıtlarına bakabilirsin. Bulamazsan Güneş ve Ay yorumuna odaklanabilirsin."
+  },
+  {
+   "q": "Yükselen burç ne kadar önemlidir?",
+   "a": "Astrolojide Güneş ve Ay kadar önemli kabul edilir; özellikle ilk izlenimi anlatır."
+  },
+  {
+   "q": "Yükselen burç değişir mi?",
+   "a": "Hayır, doğum anına bağlıdır ve hayat boyu aynı kalır."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz Astroloji Araçları",
+  "articles": "Makaleler",
+  "faq": "Sıkça Sorulan Sorular",
+  "more": "Devamını Oku",
+  "dictionary": "Astroloji Sözlüğü"
+ }
+}
