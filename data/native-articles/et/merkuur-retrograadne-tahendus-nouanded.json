@@ -1,0 +1,64 @@
+{
+ "lang": "et",
+ "keyword": "Merkuur retrograadne",
+ "volume": 201000,
+ "slug": "merkuur-retrograadne-tahendus-nouanded",
+ "date": "2026-11-27",
+ "title": "Retrograadne Merkuur: tähendus, kestus ja 5 lihtsat nõuannet",
+ "description": "Mida tähendab retrograadne Merkuur, mitu korda aastas see juhtub ja kuidas sellega toime tulla? Lihtsalt ja näidetega.",
+ "intro": "„Telefon hangub, rong jäeti ära ja tööl tekkis arusaamatus – küllap on Merkuur retrograadne!“ Siin on selgitus ilma keeruliste sõnadeta.",
+ "sections": [
+  {
+   "h2": "Mida tähendab „retrograadne“?",
+   "paragraphs": [
+    "Maalt vaadates tundub, et Merkuur liigub mõnda aega tagurpidi. See on optiline illusioon, nagu aeglasem auto, mis tundub tagurdavat, kui sellest mööda sõidad."
+   ]
+  },
+  {
+   "h2": "Mitu korda ja kui kaua?",
+   "paragraphs": [
+    "Seda juhtub kolm kuni neli korda aastas ja kestab umbes kolm nädalat. Enne ja pärast on „varjufaas“, kus mõned tunnevad mõju juba."
+   ]
+  },
+  {
+   "h2": "Mida ütleb astroloogia?",
+   "paragraphs": [
+    "Astroloogias esindab Merkuur mõtlemist, kõnet, reise ja tehnikat. Retrograadi ajal kiputakse arvama, et vestlused ja plaanid takerduvad: arusaamatused, hilinemised, rikked."
+   ]
+  },
+  {
+   "h2": "5 lihtsat nõuannet",
+   "paragraphs": [
+    "1. Tee varukoopiad. 2. Loe sõnumid enne saatmist üle. 3. Arvesta reisil lisaajaga. 4. Kontrolli lepinguid hoolikalt. 5. Korda vanad asjad.",
+    "Näide: Kadri loeb üürileandjale mõeldud kirja üle ja leiab vale kuupäeva enne saatmist."
+   ]
+  },
+  {
+   "h2": "Ära võta liiga tõsiselt",
+   "paragraphs": [
+    "Teaduslikku tõendit, et Merkuur põhjustaks rikkeid, pole. Võta seda meeldetuletusena hoolikuseks, mitte hirmu põhjuseks. Olulistes otsustes küsi spetsialistilt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mitu korda aastas on Merkuur retrograadne?",
+   "a": "Umbes kolm kuni neli korda, iga kord ligi kolm nädalat."
+  },
+  {
+   "q": "Kas planeet tõesti liigub tagurpidi?",
+   "a": "Ei, see on Maalt nähtav optiline illusioon."
+  },
+  {
+   "q": "Kas ei tohi midagi uut alustada?",
+   "a": "See on astroloogiline rusikareegel, mitte seadus. Planeeri lihtsalt hoolikamalt."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ }
+}

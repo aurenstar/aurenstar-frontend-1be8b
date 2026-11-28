@@ -1,0 +1,64 @@
+{
+ "lang": "sl",
+ "keyword": "Merkur retrogradni",
+ "volume": 201000,
+ "slug": "merkur-retrogradni-pomen-nasveti",
+ "date": "2026-11-27",
+ "title": "Retrogradni Merkur: pomen, trajanje in 5 preprostih nasvetov",
+ "description": "Kaj pomeni retrogradni Merkur, kolikokrat na leto se zgodi in kako ga lažje prebrodite? Preprosto, s primeri.",
+ "intro": "»Telefon zamrzne, vlak so odpovedali, v službi je prišlo do nesporazuma – gotovo je retrogradni Merkur!« Tu je razlaga brez težkih besed.",
+ "sections": [
+  {
+   "h2": "Kaj pomeni »retrogradni«?",
+   "paragraphs": [
+    "Z Zemlje se zdi, da Merkur nekaj časa potuje nazaj. To je optična prevara, kot ko prehitite počasnejši avto in se zdi, da vozi vzvratno."
+   ]
+  },
+  {
+   "h2": "Kolikokrat in kako dolgo?",
+   "paragraphs": [
+    "To se zgodi trikrat do štirikrat na leto in traja približno tri tedne. Pred in po obstaja »senčna faza«, ko nekateri učinek že čutijo."
+   ]
+  },
+  {
+   "h2": "Kaj pravi astrologija?",
+   "paragraphs": [
+    "V astrologiji Merkur predstavlja mišljenje, govor, potovanja in tehnologijo. V retrogradni fazi naj bi se pogovori in načrti pogosteje zatikali: nesporazumi, zamude, okvare."
+   ]
+  },
+  {
+   "h2": "5 preprostih nasvetov",
+   "paragraphs": [
+    "1. Naredite varnostne kopije. 2. Pred pošiljanjem sporočilo še enkrat preberite. 3. Za pot načrtujte več časa. 4. Pogodbe natančno preglejte. 5. Uredite stare zadeve.",
+    "Primer: Nina še enkrat prebere e-pošto najemodajalcu in pred pošiljanjem opazi napačen datum."
+   ]
+  },
+  {
+   "h2": "Ne jemljite preresno",
+   "paragraphs": [
+    "Znanstvenih dokazov, da Merkur povzroča okvare, ni. Vzemite to kot opomnik na natančnost, ne kot razlog za strah. Pri pomembnih odločitvah vprašajte strokovnjaka."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kolikokrat na leto je Merkur retrogradni?",
+   "a": "Približno trikrat do štirikrat, vsakič okoli tri tedne."
+  },
+  {
+   "q": "Ali planet res potuje nazaj?",
+   "a": "Ne, to je optična prevara, gledano z Zemlje."
+  },
+  {
+   "q": "Ali ne smem začeti nič novega?",
+   "a": "To je astrološko pravilo, ne zakon. Le načrtujte natančneje."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ }
+}

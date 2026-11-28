@@ -1,0 +1,64 @@
+{
+ "lang": "lv",
+ "keyword": "Merkurs retrogrāds",
+ "volume": 201000,
+ "slug": "merkurs-retrograds-nozime-padomi",
+ "date": "2026-11-27",
+ "title": "Retrogrāds Merkurs: nozīme, ilgums un 5 vienkārši padomi",
+ "description": "Ko nozīmē retrogrāds Merkurs, cik reižu gadā tas notiek un kā to labāk pārlaist? Vienkārši, ar piemēriem.",
+ "intro": "„Telefons karājas, vilciens atcelts, un darbā bija pārpratums – laikam retrogrāds Merkurs!” Lūk, skaidrojums bez sarežģītiem vārdiem.",
+ "sections": [
+  {
+   "h2": "Ko nozīmē „retrogrāds”?",
+   "paragraphs": [
+    "No Zemes šķiet, ka Merkurs kādu laiku virzās atpakaļ. Tā ir optiska ilūzija, tāpat kā lēnāka automašīna šķiet braucam atpakaļgaitā, kad to apdzen."
+   ]
+  },
+  {
+   "h2": "Cik reižu un cik ilgi?",
+   "paragraphs": [
+    "Tas notiek trīs līdz četras reizes gadā un ilgst apmēram trīs nedēļas. Pirms un pēc ir „ēnas fāze”, kurā daži jau sajūt ietekmi."
+   ]
+  },
+  {
+   "h2": "Ko saka astroloģija?",
+   "paragraphs": [
+    "Astroloģijā Merkurs pārstāv domāšanu, runu, ceļojumus un tehnoloģijas. Retrogrādā periodā saruna un plāni esot biežāk iestrēgst: pārpratumi, kavēšanās, bojājumi."
+   ]
+  },
+  {
+   "h2": "5 vienkārši padomi",
+   "paragraphs": [
+    "1. Veic rezerves kopijas. 2. Pirms sūtīšanas pārlasi ziņu. 3. Rēķinies ar papildu laiku ceļā. 4. Rūpīgi pārbaudi līgumus. 5. Sakārto vecās lietas.",
+    "Piemērs: Laura pārlasa e-pastu saimniekam un pirms nosūtīšanas ieraudzīja nepareizu datumu."
+   ]
+  },
+  {
+   "h2": "Neuztver pārāk nopietni",
+   "paragraphs": [
+    "Nav zinātnisku pierādījumu, ka Merkurs izraisa bojājumus. Uztver to kā atgādinājumu būt uzmanīgam, nevis kā iemeslu bailēm. Svarīgos lēmumos jautā speciālistam."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cik reižu gadā Merkurs ir retrogrāds?",
+   "a": "Aptuveni trīs līdz četras reizes, katru reizi ap trim nedēļām."
+  },
+  {
+   "q": "Vai planēta tiešām iet atpakaļ?",
+   "a": "Nē, tā ir optiska ilūzija, skatoties no Zemes."
+  },
+  {
+   "q": "Vai nedrīkst sākt neko jaunu?",
+   "a": "Tas ir astroloģisks noteikums, nevis likums. Vienkārši plāno rūpīgāk."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ }
+}

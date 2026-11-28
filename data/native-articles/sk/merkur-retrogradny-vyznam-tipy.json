@@ -1,0 +1,64 @@
+{
+ "lang": "sk",
+ "keyword": "Merkúr retrográdny",
+ "volume": 201000,
+ "slug": "merkur-retrogradny-vyznam-tipy",
+ "date": "2026-11-27",
+ "title": "Retrográdny Merkúr: význam, dĺžka a 5 jednoduchých tipov",
+ "description": "Čo znamená retrográdny Merkúr, koľkokrát za rok nastáva a ako ho zvládnuť? Jednoducho a s príkladmi.",
+ "intro": "„Telefón sa seká, vlak zrušili a v práci došlo k nedorozumeniu – to bude retrográdny Merkúr!“ Tu je vysvetlenie bez zložitých slov.",
+ "sections": [
+  {
+   "h2": "Čo znamená „retrográdny“?",
+   "paragraphs": [
+    "Zo Zeme to vyzerá, že sa Merkúr na chvíľu vracia dozadu. Je to optický klam, ako keď pri predbiehaní pomalšieho auta sa zdá, že cúva."
+   ]
+  },
+  {
+   "h2": "Koľkokrát a ako dlho?",
+   "paragraphs": [
+    "Deje sa to trikrát až štyrikrát ročne a trvá približne tri týždne. Pred a po je „tieňová fáza“, v ktorej niektorí účinok už cítia."
+   ]
+  },
+  {
+   "h2": "Čo hovorí astrológia?",
+   "paragraphs": [
+    "V astrológii Merkúr riadi myslenie, reč, cestovanie a techniku. V retrográdnej fáze sa vraj častejšie zadrhávajú rozhovory a plány: nedorozumenia, meškania, poruchy."
+   ]
+  },
+  {
+   "h2": "5 jednoduchých tipov",
+   "paragraphs": [
+    "1. Zálohujte súbory. 2. Pred odoslaním si správu prečítajte znova. 3. Počítajte s časovou rezervou na cesty. 4. Zmluvy pozorne skontrolujte. 5. Upracte staré veci.",
+    "Príklad: Lucia si znova prečíta e-mail prenajímateľovi a pred odoslaním nájde zlý dátum."
+   ]
+  },
+  {
+   "h2": "Neberte to príliš vážne",
+   "paragraphs": [
+    "Vedecký dôkaz, že Merkúr spôsobuje poruchy, neexistuje. Berte to ako pripomienku starostlivosti, nie dôvod na strach. Pri dôležitých rozhodnutiach sa poraďte s odborníkom."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Koľkokrát ročne je Merkúr retrográdny?",
+   "a": "Zhruba trikrát až štyrikrát, vždy asi tri týždne."
+  },
+  {
+   "q": "Vracia sa planéta naozaj dozadu?",
+   "a": "Nie, je to optický klam pri pohľade zo Zeme."
+  },
+  {
+   "q": "Nemám začínať nič nové?",
+   "a": "Je to astrologické pravidlo, nie zákon. Len plánujte pozornejšie."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ }
+}

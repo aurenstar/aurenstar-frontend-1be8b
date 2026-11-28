@@ -1,0 +1,64 @@
+{
+ "lang": "fi",
+ "keyword": "Merkurius retrogradi",
+ "volume": 201000,
+ "slug": "merkurius-retrogradi-merkitys-vinkit",
+ "date": "2026-11-27",
+ "title": "Merkurius retrogradi: merkitys, kesto ja 5 helppoa vinkkiä",
+ "description": "Mitä Merkurius retrogradi tarkoittaa, kuinka usein se tapahtuu ja miten sen yli pääsee? Yksinkertaisesti ja esimerkein.",
+ "intro": "”Puhelin jumittaa, juna peruttiin ja töissä tuli väärinkäsitys – varmaan Merkurius retrogradissa!” Tässä selitys ilman vaikeita sanoja.",
+ "sections": [
+  {
+   "h2": "Mitä ”retrogradi” tarkoittaa?",
+   "paragraphs": [
+    "Maasta katsottuna Merkurius näyttää liikkuvan hetken taaksepäin. Se on näköharha, kuten hitaampi auto, joka tuntuu peruuttavan, kun ohitat sen."
+   ]
+  },
+  {
+   "h2": "Kuinka usein ja kuinka kauan?",
+   "paragraphs": [
+    "Se tapahtuu kolmesta neljään kertaa vuodessa ja kestää noin kolme viikkoa. Ennen ja jälkeen on ”varjovaihe”, jossa jotkut tuntevat vaikutuksen jo."
+   ]
+  },
+  {
+   "h2": "Mitä astrologia sanoo?",
+   "paragraphs": [
+    "Astrologiassa Merkurius edustaa ajattelua, puhetta, matkustamista ja tekniikkaa. Retrogradin aikana keskustelujen ja suunnitelmien sanotaan takkuavan useammin: väärinkäsityksiä, viivästyksiä, vikoja."
+   ]
+  },
+  {
+   "h2": "5 helppoa vinkkiä",
+   "paragraphs": [
+    "1. Ota varmuuskopiot. 2. Lue viesti vielä kerran ennen lähettämistä. 3. Varaa matkoihin lisäaikaa. 4. Tarkista sopimukset huolella. 5. Siivoa vanhat asiat.",
+    "Esimerkki: Laura lukee vuokranantajalle menevän sähköpostin uudelleen ja huomaa väärän päivämäärän ennen lähetystä."
+   ]
+  },
+  {
+   "h2": "Älä ota liian vakavasti",
+   "paragraphs": [
+    "Ei ole tieteellistä näyttöä siitä, että Merkurius aiheuttaa vikoja. Pidä sitä muistutuksena huolellisuudesta, älä pelon aiheena. Tärkeissä päätöksissä kysy asiantuntijalta."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuinka monta kertaa vuodessa Merkurius on retrogradissa?",
+   "a": "Noin kolme tai neljä kertaa, kukin noin kolme viikkoa."
+  },
+  {
+   "q": "Liikkuuko planeetta oikeasti taaksepäin?",
+   "a": "Ei, se on Maasta nähty näköharha."
+  },
+  {
+   "q": "Eikö mitään uutta saa aloittaa?",
+   "a": "Se on astrologinen nyrkkisääntö, ei laki. Suunnittele vain huolellisemmin."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ }
+}
