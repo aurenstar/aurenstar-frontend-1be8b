@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "aspecte",
+ "volume": "1000",
+ "slug": "aspecte-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspectele în astrologie: ce sunt?",
+ "description": "Aspectele sunt unghiurile dintre planete. Arată dacă planetele colaborează sau se ciocnesc. Explicat simplu.",
+ "intro": "Aspectele sunt unghiurile dintre două planete din harta ta natală. Arată cum vorbesc planetele între ele: prietenos, tensionat sau puternic.",
+ "sections": [
+  {
+   "h2": "Ce sunt aspectele?",
+   "paragraphs": [
+    "Gândește-te la doi oameni într-o cameră. Stau alături, în diagonală sau față în față? Distanța dictează conversația. La fel e la planete."
+   ]
+  },
+  {
+   "h2": "Cele cinci cunoscute",
+   "paragraphs": [
+    "Conjuncția (0°) întărește, sextilul (60°) ajută, pătratul (90°) zgârie, trigonul (120°) curge și opoziția (180°) cere echilibru."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Maria are Marte în pătrat cu Saturn. Vrea să acționeze repede, dar se frânează. De aceea învață răbdarea și perseverența."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Sunt aspectele tensionate rele?",
+   "a": "Nu, adesea dau cea mai multă forță și creștere."
+  },
+  {
+   "q": "Cum îmi găsesc aspectele?",
+   "a": "Un instrument gratuit le arată automat."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

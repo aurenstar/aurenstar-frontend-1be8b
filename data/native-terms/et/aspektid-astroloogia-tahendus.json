@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "aspektid",
+ "volume": "1000",
+ "slug": "aspektid-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspektid astroloogias: mis need on?",
+ "description": "Aspektid on nurgad planeetide vahel. Need näitavad, kas planeedid teevad koostööd või põrkuvad. Lihtsalt.",
+ "intro": "Aspektid on nurgad kahe planeedi vahel sinu sünnikaardil. Need näitavad, kuidas planeedid omavahel räägivad: sõbralikult, pingeliselt või jõuliselt.",
+ "sections": [
+  {
+   "h2": "Mis on aspektid?",
+   "paragraphs": [
+    "Mõtle kahele inimesele toas. Kas nad seisavad kõrvuti, viltu või vastakuti? Kaugus juhib vestlust. Nii on ka planeetidega."
+   ]
+  },
+  {
+   "h2": "Viis tuntuimat",
+   "paragraphs": [
+    "Konjunktsioon (0°) võimendab, sekstiil (60°) aitab, ruut (90°) hõõrub, trigoon (120°) voolab kergelt, oppositsioon (180°) nõuab tasakaalu."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Liisil on Marss ruudus Saturniga. Ta tahab kiiresti tegutseda, kuid pidurdab end. Nii õpib ta kannatlikkust ja visadust."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas pingelised aspektid on halvad?",
+   "a": "Ei, need annavad sageli kõige rohkem jõudu ja kasvu."
+  },
+  {
+   "q": "Kuidas oma aspekte leida?",
+   "a": "Tasuta tööriist näitab neid automaatselt."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

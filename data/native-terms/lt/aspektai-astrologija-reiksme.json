@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "aspektai",
+ "volume": "1000",
+ "slug": "aspektai-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspektai astrologijoje: kas tai?",
+ "description": "Aspektai – kampai tarp planetų. Jie rodo, ar planetos bendradarbiauja, ar susiduria. Paprastai.",
+ "intro": "Aspektai – tai kampai tarp dviejų planetų tavo gimimo žemėlapyje. Jie rodo, kaip planetos kalbasi: draugiškai, įtemptai ar stipriai.",
+ "sections": [
+  {
+   "h2": "Kas yra aspektai?",
+   "paragraphs": [
+    "Įsivaizduok du žmones kambaryje. Ar stovi greta, įstrižai, ar priešais? Atstumas valdo pokalbį. Taip ir su planetomis."
+   ]
+  },
+  {
+   "h2": "Penki žinomiausi",
+   "paragraphs": [
+    "Konjunkcija (0°) sustiprina, sekstilis (60°) padeda, kvadratas (90°) trina, trigonas (120°) teka lengvai, opozicija (180°) reikalauja pusiausvyros."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Rūta turi Marsą kvadrate su Saturnu. Nori veikti greitai, bet save stabdo. Todėl mokosi kantrybės ir atkaklumo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar įtempti aspektai blogi?",
+   "a": "Ne, jie dažnai duoda daugiausia varomosios jėgos ir augimo."
+  },
+  {
+   "q": "Kaip rasti savo aspektus?",
+   "a": "Nemokamas įrankis juos parodo automatiškai."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

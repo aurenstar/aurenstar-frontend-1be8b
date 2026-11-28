@@ -1,0 +1,49 @@
+{
+ "lang": "da",
+ "keyword": "aspekter",
+ "volume": "1000",
+ "slug": "aspekter-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspekter i astrologi: hvad er det?",
+ "description": "Aspekter er vinklerne mellem planeter. De viser, om planeter samarbejder eller støder sammen. Forklaret enkelt.",
+ "intro": "Aspekter er vinklerne mellem to planeter i dit horoskop. De viser, hvordan planeterne taler sammen: venligt, spændt eller kraftfuldt.",
+ "sections": [
+  {
+   "h2": "Hvad er aspekter?",
+   "paragraphs": [
+    "Tænk på to personer i et rum. Står de ved siden af hinanden, skråt eller lige overfor? Afstanden styrer samtalen. Sådan er det også med planeter."
+   ]
+  },
+  {
+   "h2": "De fem mest kendte",
+   "paragraphs": [
+    "Konjunktion (0°) forstærker, sekstil (60°) hjælper, kvadrat (90°) gnaver, trigon (120°) flyder og opposition (180°) kræver balance."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Maja har Mars i kvadrat til Saturn. Hun vil handle hurtigt, men bremser sig selv. Derfor lærer hun tålmodighed og udholdenhed."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Er spændingsaspekter dårlige?",
+   "a": "Nej, de giver ofte mest drivkraft og vækst."
+  },
+  {
+   "q": "Hvordan finder jeg mine aspekter?",
+   "a": "Et gratis værktøj viser dem automatisk."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ },
+ "tool": "descreva-me"
+}

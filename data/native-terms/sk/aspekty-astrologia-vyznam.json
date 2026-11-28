@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "aspekty",
+ "volume": "1000",
+ "slug": "aspekty-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspekty v astrológii: čo to je?",
+ "description": "Aspekty sú uhly medzi planétami. Ukazujú, či planéty spolupracujú, alebo sa stretávajú. Jednoducho vysvetlené.",
+ "intro": "Aspekty sú uhly medzi dvoma planétami vo vašom horoskope. Ukazujú, ako spolu planéty hovoria: priateľsky, napäto alebo silno.",
+ "sections": [
+  {
+   "h2": "Čo sú aspekty?",
+   "paragraphs": [
+    "Predstavte si dvoch ľudí v miestnosti. Stoja vedľa seba, šikmo, alebo oproti? Vzdialenosť riadi rozhovor. Rovnako je to pri planétach."
+   ]
+  },
+  {
+   "h2": "Päť najznámejších",
+   "paragraphs": [
+    "Konjunkcia (0°) zosilňuje, sextil (60°) pomáha, kvadratúra (90°) drhne, trigón (120°) plynie a opozícia (180°) žiada rovnováhu."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Majka má Mars v kvadratúre k Saturnu. Chce konať rýchlo, ale brzdí sa. Preto sa učí trpezlivosti a vytrvalosti."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Sú napäté aspekty zlé?",
+   "a": "Nie, často dávajú najviac hnacej sily a rastu."
+  },
+  {
+   "q": "Ako zistím svoje aspekty?",
+   "a": "Bezplatný nástroj ich ukáže automaticky."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

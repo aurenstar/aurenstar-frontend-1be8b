@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "aspekti",
+ "volume": "1000",
+ "slug": "aspekti-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspekti v astrologiji: kaj so?",
+ "description": "Aspekti so koti med planeti. Kažejo, ali planeti sodelujejo ali trčijo. Preprosto.",
+ "intro": "Aspekti so koti med dvema planetoma v vaši rojstni karti. Kažejo, kako planeti govorijo drug z drugim: prijazno, napeto ali močno.",
+ "sections": [
+  {
+   "h2": "Kaj so aspekti?",
+   "paragraphs": [
+    "Predstavljajte si dva človeka v sobi. Stojita drug ob drugem, poševno ali nasproti? Razdalja vodi pogovor. Tako je tudi pri planetih."
+   ]
+  },
+  {
+   "h2": "Pet najbolj znanih",
+   "paragraphs": [
+    "Konjunkcija (0°) krepi, seksti (60°) pomaga, kvadrat (90°) drgne, trigon (120°) teče lahkotno, opozicija (180°) zahteva ravnovesje."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Nina ima Mars v kvadratu s Saturnom. Želi hitro ukrepati, a se zavira. Zato se uči potrpežljivosti in vztrajnosti."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ali so napeti aspekti slabi?",
+   "a": "Ne, pogosto dajejo največ gonilne sile in rasti."
+  },
+  {
+   "q": "Kako najdem svoje aspekte?",
+   "a": "Brezplačno orodje jih pokaže samodejno."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

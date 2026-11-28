@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "aspekty",
+ "volume": "1000",
+ "slug": "aspekty-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspekty w astrologii: co to jest?",
+ "description": "Aspekty to kąty między planetami. Pokazują, czy planety współpracują, czy się zderzają. Wyjaśnione prosto.",
+ "intro": "Aspekty to kąty między dwiema planetami na Twojej mapie urodzeniowej. Pokazują, jak planety ze sobą rozmawiają: przyjaźnie, napięcie lub mocno.",
+ "sections": [
+  {
+   "h2": "Czym są aspekty?",
+   "paragraphs": [
+    "Wyobraź sobie dwie osoby w pokoju. Stoją obok siebie, ukośnie czy naprzeciw? Odległość steruje rozmową. Tak samo jest z planetami."
+   ]
+  },
+  {
+   "h2": "Pięć najbardziej znanych",
+   "paragraphs": [
+    "Koniunkcja (0°) wzmacnia, sekstyl (60°) pomaga, kwadratura (90°) zgrzyta, trygon (120°) płynie, opozycja (180°) wymaga równowagi."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Kasia ma Marsa w kwadraturze do Saturna. Chce działać szybko, ale sama się hamuje. Dlatego uczy się cierpliwości i wytrwałości."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy napięte aspekty są złe?",
+   "a": "Nie, często dają najwięcej napędu i rozwoju."
+  },
+  {
+   "q": "Jak znaleźć swoje aspekty?",
+   "a": "Darmowe narzędzie pokaże je automatycznie."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "aspektusok",
+ "volume": "1000",
+ "slug": "aspektusok-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspektusok az asztrológiában: mik ezek?",
+ "description": "Az aspektusok a bolygók közötti szögek. Megmutatják, együttműködnek-e vagy ütköznek a bolygók. Egyszerűen.",
+ "intro": "Az aspektusok két bolygó közötti szögek a születési képletedben. Megmutatják, hogyan beszélnek egymással a bolygók: barátságosan, feszülten vagy erősen.",
+ "sections": [
+  {
+   "h2": "Mik az aspektusok?",
+   "paragraphs": [
+    "Gondolj két emberre egy szobában. Egymás mellett, ferdén vagy szemben állnak? A távolság irányítja a beszélgetést. A bolygóknál is így van."
+   ]
+  },
+  {
+   "h2": "A legismertebb öt",
+   "paragraphs": [
+    "Együttállás (0°) erősít, szextil (60°) segít, négyszög (90°) súrlódik, trigon (120°) simán megy, szembenállás (180°) egyensúlyt kér."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Dórának a Mars négyszögben áll a Szaturnusszal. Gyorsan akar cselekedni, de fékezi magát. Ezért türelmet és kitartást tanul."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "A feszes aspektusok rosszak?",
+   "a": "Nem, gyakran adják a legtöbb lendületet és fejlődést."
+  },
+  {
+   "q": "Hogyan találom meg az aspektusaimat?",
+   "a": "Egy ingyenes eszköz automatikusan megmutatja."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

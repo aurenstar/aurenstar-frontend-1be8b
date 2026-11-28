@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "aspektit",
+ "volume": "1000",
+ "slug": "aspektit-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspektit astrologiassa: mitä ne ovat?",
+ "description": "Aspektit ovat planeettojen väliset kulmat. Ne näyttävät, tekevätkö planeetat yhteistyötä vai törmäävätkö. Selitetty yksinkertaisesti.",
+ "intro": "Aspektit ovat kahden planeetan väliset kulmat syntymäkartassasi. Ne näyttävät, miten planeetat puhuvat keskenään: ystävällisesti, jännittyneesti tai voimakkaasti.",
+ "sections": [
+  {
+   "h2": "Mitä aspektit ovat?",
+   "paragraphs": [
+    "Ajattele kahta ihmistä huoneessa. Seisovatko he vierekkäin, vinossa vai vastakkain? Etäisyys ohjaa keskustelua. Samoin planeetoilla."
+   ]
+  },
+  {
+   "h2": "Viisi tunnetuinta",
+   "paragraphs": [
+    "Konjunktio (0°) vahvistaa, seksiili (60°) auttaa, neliö (90°) hiertää, trigoni (120°) sujuu ja oppositio (180°) vaatii tasapainoa."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Majalla on Mars neliössä Saturnuksen kanssa. Hän haluaa toimia nopeasti, mutta jarruttaa itseään. Siksi hän oppii kärsivällisyyttä ja sitkeyttä."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ovatko jännitteiset aspektit huonoja?",
+   "a": "Eivät, ne antavat usein eniten voimaa ja kasvua."
+  },
+  {
+   "q": "Miten löydän aspektini?",
+   "a": "Ilmainen työkalu näyttää ne automaattisesti."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

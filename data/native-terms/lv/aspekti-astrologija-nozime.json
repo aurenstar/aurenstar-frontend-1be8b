@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "aspekti",
+ "volume": "1000",
+ "slug": "aspekti-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspekti astroloģijā: kas tie ir?",
+ "description": "Aspekti ir leņķi starp planētām. Tie rāda, vai planētas sadarbojas vai sadursmē. Vienkārši.",
+ "intro": "Aspekti ir leņķi starp divām planētām tavā dzimšanas kartē. Tie rāda, kā planētas sarunājas: draudzīgi, saspringti vai spēcīgi.",
+ "sections": [
+  {
+   "h2": "Kas ir aspekti?",
+   "paragraphs": [
+    "Iedomājies divus cilvēkus istabā. Vai viņi stāv blakus, šķērsām vai pretī? Attālums vada sarunu. Tāpat ir ar planētām."
+   ]
+  },
+  {
+   "h2": "Pieci pazīstamākie",
+   "paragraphs": [
+    "Konjunkcija (0°) pastiprina, sekstils (60°) palīdz, kvadrāts (90°) berzē, trigons (120°) plūst viegli, opozīcija (180°) prasa līdzsvaru."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Annai Marss ir kvadrātā ar Saturnu. Viņa grib rīkoties ātri, bet bremzē sevi. Tāpēc mācās pacietību un neatlaidību."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai saspringti aspekti ir slikti?",
+   "a": "Nē, tie bieži dod visvairāk dzinējspēka un izaugsmes."
+  },
+  {
+   "q": "Kā atrast savus aspektus?",
+   "a": "Bezmaksas rīks tos parāda automātiski."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

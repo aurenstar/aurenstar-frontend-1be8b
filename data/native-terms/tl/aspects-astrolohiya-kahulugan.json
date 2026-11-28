@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "aspects",
+ "volume": "1000",
+ "slug": "aspects-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspects sa Astrolohiya: Ano ang mga Ito?",
+ "description": "Ang aspects ay mga anggulo ng mga planeta. Ipinapakita kung nagtutulungan o nagbabanggaan ang mga ito. Simple.",
+ "intro": "Ang aspects ay mga anggulo sa pagitan ng dalawang planeta sa birth chart mo. Ipinapakita kung paano nag-uusap ang mga planeta: magiliw, tensyonado, o malakas.",
+ "sections": [
+  {
+   "h2": "Ano ang aspects?",
+   "paragraphs": [
+    "Isipin ang dalawang tao sa kuwarto. Magkatabi ba, pahilis, o magkaharap? Ang distansya ang nagtatakda ng usapan. Ganoon din ang mga planeta."
+   ]
+  },
+  {
+   "h2": "Limang kilala",
+   "paragraphs": [
+    "Conjunction (0°) nagpapalakas, sextile (60°) tumutulong, square (90°) nagkikiskisan, trine (120°) maayos ang daloy, opposition (180°) humihingi ng balanse."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Ang Mars ni Mika ay square sa Saturn. Gusto niyang kumilos agad pero siya mismo ang pumipigil. Kaya natututo siya ng pasensya at tiyaga."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Masama ba ang tensyonadong aspects?",
+   "a": "Hindi, madalas ay sila ang nagbibigay ng pinakamalaking lakas at paglago."
+  },
+  {
+   "q": "Paano ko makikita ang aspects ko?",
+   "a": "Awtomatikong ipapakita ng libreng chart tool."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

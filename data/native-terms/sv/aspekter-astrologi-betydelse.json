@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "aspekter",
+ "volume": "1000",
+ "slug": "aspekter-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspekter i astrologi: vad är det?",
+ "description": "Aspekter är vinklarna mellan planeter. De visar om planeter samarbetar eller krockar. Enkelt förklarat.",
+ "intro": "Aspekter är vinklarna mellan två planeter i ditt horoskop. De visar hur planeterna pratar med varandra: vänligt, spänt eller kraftfullt.",
+ "sections": [
+  {
+   "h2": "Vad är aspekter?",
+   "paragraphs": [
+    "Tänk på två personer i ett rum. Står de bredvid varandra, snett eller rakt emot? Avståndet styr samtalet. Så fungerar det med planeter."
+   ]
+  },
+  {
+   "h2": "De fem mest kända",
+   "paragraphs": [
+    "Konjunktion (0°) förstärker, sextil (60°) hjälper, kvadrat (90°) skaver, trigon (120°) flyter och opposition (180°) kräver balans."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Maja har Mars i kvadrat med Saturnus. Hon vill agera snabbt men bromsar sig själv. Därför lär hon sig tålamod och uthållighet."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Är spänningsaspekter dåliga?",
+   "a": "Nej, de ger ofta mest drivkraft och tillväxt."
+  },
+  {
+   "q": "Hur hittar jag mina aspekter?",
+   "a": "Ett gratis verktyg visar dem automatiskt."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

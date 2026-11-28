@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "aspectes",
+ "volume": "1000",
+ "slug": "aspectes-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspectes en astrologia: què són?",
+ "description": "Els aspectes són els angles entre planetes. Mostren si els planetes col·laboren o xoquen. Explicat fàcil.",
+ "intro": "Els aspectes són els angles entre dos planetes de la teva carta natal. Mostren com parlen els planetes entre ells: amistosament, amb tensió o amb força.",
+ "sections": [
+  {
+   "h2": "Què són els aspectes?",
+   "paragraphs": [
+    "Pensa en dues persones en una sala. Estan una al costat de l’altra, en diagonal o enfrontades? La distància guia la conversa. Amb els planetes passa igual."
+   ]
+  },
+  {
+   "h2": "Els cinc més coneguts",
+   "paragraphs": [
+    "Conjunció (0°) reforça, sextil (60°) ajuda, quadratura (90°) fregeix, trígon (120°) flueix i oposició (180°) demana equilibri."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "La Marta té Mart en quadratura amb Saturn. Vol actuar de pressa, però es frena. Per això aprèn paciència i constància."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Els aspectes tensos són dolents?",
+   "a": "No, sovint donen més empenta i creixement."
+  },
+  {
+   "q": "Com trobo els meus aspectes?",
+   "a": "Una eina gratuïta els mostra automàticament."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

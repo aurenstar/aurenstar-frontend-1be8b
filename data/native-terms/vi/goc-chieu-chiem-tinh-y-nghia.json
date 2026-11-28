@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "góc chiếu",
+ "volume": "1000",
+ "slug": "goc-chieu-chiem-tinh-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Góc chiếu (Aspect) trong chiêm tinh là gì?",
+ "description": "Góc chiếu là góc giữa các hành tinh, cho biết chúng hợp tác hay va chạm. Giải thích đơn giản.",
+ "intro": "Góc chiếu là góc giữa hai hành tinh trong lá số của bạn. Nó cho biết các hành tinh nói chuyện với nhau thế nào: thân thiện, căng thẳng hay mạnh mẽ.",
+ "sections": [
+  {
+   "h2": "Góc chiếu là gì?",
+   "paragraphs": [
+    "Hãy hình dung hai người trong phòng. Họ đứng cạnh nhau, chéo nhau hay đối diện? Khoảng cách quyết định cuộc trò chuyện. Hành tinh cũng vậy."
+   ]
+  },
+  {
+   "h2": "Năm góc nổi tiếng",
+   "paragraphs": [
+    "Hợp (0°) tăng cường, lục hợp (60°) hỗ trợ, vuông (90°) cọ xát, tam hợp (120°) trôi chảy, đối (180°) cần cân bằng."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Lan có Hỏa Tinh vuông Thổ Tinh. Cô muốn hành động nhanh nhưng tự phanh lại. Nhờ vậy cô học được kiên nhẫn và bền bỉ."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Góc căng thẳng có xấu không?",
+   "a": "Không, chúng thường cho nhiều động lực và sự phát triển nhất."
+  },
+  {
+   "q": "Làm sao xem góc chiếu của tôi?",
+   "a": "Công cụ lá số miễn phí hiển thị tự động."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

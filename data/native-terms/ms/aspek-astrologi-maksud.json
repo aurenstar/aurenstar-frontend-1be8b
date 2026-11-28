@@ -1,0 +1,49 @@
+{
+ "lang": "ms",
+ "keyword": "aspek",
+ "volume": "1000",
+ "slug": "aspek-astrologi-maksud",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspek dalam astrologi: apa itu?",
+ "description": "Aspek ialah sudut antara planet. Ia menunjukkan planet bekerjasama atau berlanggar. Mudah.",
+ "intro": "Aspek ialah sudut antara dua planet dalam carta kelahiran anda. Ia menunjukkan cara planet bercakap: mesra, tegang atau kuat.",
+ "sections": [
+  {
+   "h2": "Apakah aspek?",
+   "paragraphs": [
+    "Bayangkan dua orang dalam bilik. Mereka berdiri bersebelahan, serong atau berhadapan? Jarak menentukan perbualan. Planet pun begitu."
+   ]
+  },
+  {
+   "h2": "Lima yang terkenal",
+   "paragraphs": [
+    "Konjungsi (0°) menguatkan, sekstil (60°) membantu, segi empat (90°) bergesel, trin (120°) mengalir dan oposisi (180°) mahu keseimbangan."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Aina ada Marikh segi empat dengan Zuhal. Dia mahu bertindak pantas tetapi menahan diri. Maka dia belajar sabar dan tekun."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Adakah aspek tegang itu buruk?",
+   "a": "Tidak, ia sering memberi dorongan dan pertumbuhan paling banyak."
+  },
+  {
+   "q": "Bagaimana mencari aspek saya?",
+   "a": "Alat carta percuma menunjukkannya secara automatik."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

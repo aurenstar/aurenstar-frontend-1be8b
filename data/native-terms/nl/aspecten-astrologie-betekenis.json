@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "aspecten",
+ "volume": "1000",
+ "slug": "aspecten-astrologie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Aspecten in de astrologie: wat zijn ze?",
+ "description": "Aspecten zijn de hoeken tussen planeten. Ze laten zien of planeten samenwerken of botsen. Eenvoudig uitgelegd.",
+ "intro": "Aspecten zijn de hoeken tussen twee planeten in je geboortekaart. Ze laten zien hoe de planeten met elkaar praten: vriendelijk, spannend of krachtig.",
+ "sections": [
+  {
+   "h2": "Wat zijn aspecten?",
+   "paragraphs": [
+    "Denk aan twee mensen in een kamer. Staan ze naast elkaar, schuin of recht tegenover elkaar? Die afstand bepaalt hun gesprek. Zo werkt het ook bij planeten."
+   ]
+  },
+  {
+   "h2": "De vijf bekendste",
+   "paragraphs": [
+    "Samenstand (0°) versterkt, sextiel (60°) helpt, vierkant (90°) prikkelt, driehoek (120°) stroomt makkelijk en oppositie (180°) vraagt om balans."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Mila heeft Mars in vierkant met Saturnus. Ze wil snel handelen, maar remt zichzelf af. Daardoor leert ze geduld en doorzettingsvermogen."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Zijn spanningsaspecten slecht?",
+   "a": "Nee, ze geven vaak de meeste drijfkracht en groei."
+  },
+  {
+   "q": "Hoe vind ik mijn aspecten?",
+   "a": "Een gratis geboortekaart-tool toont ze automatisch."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}
