@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "mercury astrolohiya",
+ "volume": "1000",
+ "slug": "mercury-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mercury sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Ipinapakita ng Mercury kung paano ka mag-isip, magsalita, at matuto. Simple, may halimbawa.",
+ "intro": "Ang Mercury ay planeta ng pag-iisip at pananalita. Sa chart mo makikita kung paano ka tumatanggap ng ideya, nagpapaliwanag, at nagdedesisyon.",
+ "sections": [
+  {
+   "h2": "Ano ang ginagawa ng Mercury?",
+   "paragraphs": [
+    "Isipin ang cellphone: tumatanggap at nagpapadala ng mensahe. Ganyan gumagana ang Mercury para sa isip mo."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Mabilis ka bang magsalita o mahinahon? Mausisa o praktikal? Ipinapakita iyan ng sign ng Mercury."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Mercury sa Gemini: mabilis magsalita si Mika, maraming natututunan nang sabay, at laging may biro."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Paano ko hahanapin ang Mercury ko?",
+   "a": "Gamit ang petsa ng kapanganakan, kuwentahin ang sign kung nasaan ang Mercury."
+  },
+  {
+   "q": "Ano ang Mercury retrograde?",
+   "a": "Panahong parang paurong ang Mercury; mabuti para sa pagsusuri."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

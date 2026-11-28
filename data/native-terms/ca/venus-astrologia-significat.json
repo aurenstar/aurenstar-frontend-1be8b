@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "venus astrologia",
+ "volume": "1000",
+ "slug": "venus-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venus en astrologia: què significa?",
+ "description": "Venus mostra com estimes i què trobes bonic. Explicat fàcil, amb exemple.",
+ "intro": "Venus és el planeta de l’amor, la bellesa i el plaer. A la teva carta veus com dones amor, què t’atrau i com et portes amb els diners.",
+ "sections": [
+  {
+   "h2": "Què fa Venus?",
+   "paragraphs": [
+    "Pensa en el que és agradable: una abraçada càlida o música bonica. Venus és aquest sentiment."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "T’agrada l’atenció, els regals o el temps junts? El signe de Venus mostra com dones i vols rebre amor."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Venus a Taure: la Rosa estima la calma, el bon menjar i els amics fidels. Mostra amor amb petits gestos de cura."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Com trobo la meva Venus?",
+   "a": "Amb la data de naixement calcules el signe on era Venus."
+  },
+  {
+   "q": "Venus només és d’amor?",
+   "a": "No, també de bellesa, gust i diners."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

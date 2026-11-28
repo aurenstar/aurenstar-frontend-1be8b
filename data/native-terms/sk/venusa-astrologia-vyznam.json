@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "venuša astrológia",
+ "volume": "1000",
+ "slug": "venusa-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venuša v astrológii: čo znamená?",
+ "description": "Venuša ukazuje, ako milujete a čo považujete za krásne. Jednoducho s príkladom.",
+ "intro": "Venuša je planéta lásky, krásy a pôžitku. V horoskope vidíte, ako dávate lásku, čo vás priťahuje a ako zaobchádzate s peniazmi.",
+ "sections": [
+  {
+   "h2": "Čo robí Venuša?",
+   "paragraphs": [
+    "Predstavte si, čo je vám príjemné: vrúcne objatie alebo krásna hudba. Venuša je ten pocit."
+   ]
+  },
+  {
+   "h2": "Ako to spoznáte?",
+   "paragraphs": [
+    "Máte radi pozornosť, darčeky, alebo spoločný čas? Znamenie Venuše ukazuje, ako lásku dávate a chcete dostávať."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Venuša v Býkovi: Ruža má rada pokoj, dobré jedlo a verných priateľov. Lásku prejavuje malými pozornosťami."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ako nájdem svoju Venušu?",
+   "a": "Z dátumu narodenia vypočítate znamenie, v ktorom Venuša stála."
+  },
+  {
+   "q": "Je Venuša len o láske?",
+   "a": "Nie, aj o kráse, vkuse a peniazoch."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

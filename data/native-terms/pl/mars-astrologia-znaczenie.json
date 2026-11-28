@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "mars astrologia",
+ "volume": "1000",
+ "slug": "mars-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mars w astrologii: co oznacza?",
+ "description": "Mars pokazuje, jak używasz energii, walczysz i złościsz się. Wyjaśnione prosto, z przykładem.",
+ "intro": "Mars to planeta energii, odwagi i działania. W horoskopie widzisz, jak zabierasz się do rzeczy, co daje Ci siłę i jak radzisz sobie z kłótniami.",
+ "sections": [
+  {
+   "h2": "Co robi Mars?",
+   "paragraphs": [
+    "Pomyśl o silniku samochodu: bez niego nigdzie nie dojedziesz. Mars to Twój silnik."
+   ]
+  },
+  {
+   "h2": "Jak to zauważysz?",
+   "paragraphs": [
+    "Rzucasz się od razu czy najpierw czekasz? Szybko się złościsz czy tlisz? Pokazuje to znak Marsa."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Mars w Baranie: Róża zaczyna od razu, jest szybka i szczera, a musi nauczyć się czekać na innych."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak znaleźć mojego Marsa?",
+   "a": "Z daty urodzenia obliczysz znak, w którym był Mars."
+  },
+  {
+   "q": "Czy Mars to tylko gniew?",
+   "a": "Nie, to także odwaga, sport i wytrwałość."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "merkurius astrologi",
+ "volume": "1000",
+ "slug": "merkurius-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkurius i astrologin: vad betyder det?",
+ "description": "Merkurius visar hur du tänker, pratar och lär dig. Enkelt förklarat med exempel.",
+ "intro": "Merkurius är planeten för tänkande och samtal. I ditt horoskop ser du hur du tar emot idéer, förklarar dem och fattar beslut.",
+ "sections": [
+  {
+   "h2": "Vad gör Merkurius?",
+   "paragraphs": [
+    "Tänk på din mobil: den tar emot och skickar meddelanden. Så fungerar Merkurius för ditt huvud."
+   ]
+  },
+  {
+   "h2": "Hur märker du det?",
+   "paragraphs": [
+    "Pratar du snabbt eller lugnt? Är du nyfiken eller praktisk? Det visar ditt Merkurius-tecken."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Merkurius i Tvillingarna: Rosa pratar snabbt, lär sig mycket samtidigt och har alltid ett skämt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hur hittar jag min Merkurius?",
+   "a": "Med ditt födelsedatum räknar du ut tecknet där Merkurius stod."
+  },
+  {
+   "q": "Vad är Merkurius retrograd?",
+   "a": "En period då Merkurius verkar gå bakåt; bra för att se över saker."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

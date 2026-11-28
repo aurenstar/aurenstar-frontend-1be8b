@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "merkurs astroloģija",
+ "volume": "1000",
+ "slug": "merkurs-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkurs astroloģijā: ko tas nozīmē?",
+ "description": "Merkurs rāda, kā tu domā, runā un mācies. Vienkārši, ar piemēru.",
+ "intro": "Merkurs ir domāšanas un runas planēta. Savā kartē tu redzi, kā uztver idejas, tās skaidro un pieņem lēmumus.",
+ "sections": [
+  {
+   "h2": "Ko dara Merkurs?",
+   "paragraphs": [
+    "Iedomājies tālruni: tas saņem un sūta ziņas. Tā Merkurs strādā tavai galvai."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Vai runā ātri vai mierīgi? Vai esi ziņkārīgs vai praktisks? To rāda Merkura zīme."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Merkurs Dvīņos: Roze runā ātri, mācās daudz kopā un vienmēr ir joks."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kā atrast savu Merkuru?",
+   "a": "No dzimšanas datuma aprēķina zīmi, kurā bija Merkurs."
+  },
+  {
+   "q": "Kas ir retrogrāds Merkurs?",
+   "a": "Periods, kad Merkurs šķiet iet atpakaļ; labs pārskatīšanai."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

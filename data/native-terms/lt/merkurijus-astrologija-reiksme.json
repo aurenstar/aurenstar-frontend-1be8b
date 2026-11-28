@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "merkurijus astrologija",
+ "volume": "1000",
+ "slug": "merkurijus-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkurijus astrologijoje: ką tai reiškia?",
+ "description": "Merkurijus rodo, kaip mąstai, kalbi ir mokaisi. Paprastai, su pavyzdžiu.",
+ "intro": "Merkurijus yra mąstymo ir kalbos planeta. Savo horoskope matai, kaip priimi idėjas, jas paaiškini ir sprendi.",
+ "sections": [
+  {
+   "h2": "Ką daro Merkurijus?",
+   "paragraphs": [
+    "Pagalvok apie telefoną: jis gauna ir siunčia žinutes. Taip Merkurijus veikia tavo galvai."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Kalbi greitai ar ramiai? Esi smalsus ar praktiškas? Tai rodo Merkurijaus ženklas."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Merkurijus Dvyniuose: Rūta kalba greitai, mokosi daug dalykų vienu metu ir visada turi anekdotą."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kaip rasti savo Merkurijų?",
+   "a": "Pagal gimimo datą apskaičiuoji ženklą, kuriame buvo Merkurijus."
+  },
+  {
+   "q": "Kas yra retrogradinis Merkurijus?",
+   "a": "Laikotarpis, kai Merkurijus atrodo eina atgal; geras peržiūrai."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

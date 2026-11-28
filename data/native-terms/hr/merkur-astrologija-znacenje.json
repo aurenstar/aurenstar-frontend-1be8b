@@ -1,0 +1,49 @@
+{
+ "lang": "hr",
+ "keyword": "merkur astrologija",
+ "volume": "1000",
+ "slug": "merkur-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkur u astrologiji: što znači?",
+ "description": "Merkur pokazuje kako razmišljaš, govoriš i učiš. Jednostavno, s primjerom.",
+ "intro": "Merkur je planet razmišljanja i govora. U horoskopu vidiš kako primaš ideje, objašnjavaš ih i donosiš odluke.",
+ "sections": [
+  {
+   "h2": "Što radi Merkur?",
+   "paragraphs": [
+    "Zamisli mobitel: prima i šalje poruke. Tako Merkur radi za tvoju glavu."
+   ]
+  },
+  {
+   "h2": "Kako to primjećuješ?",
+   "paragraphs": [
+    "Govoriš li brzo ili mirno? Radoznao si ili praktičan? To pokazuje znak Merkura."
+   ]
+  },
+  {
+   "h2": "Primjer",
+   "paragraphs": [
+    "Merkur u Blizancima: Ruža govori brzo, uči mnogo toga odjednom i uvijek ima šalu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako naći svoj Merkur?",
+   "a": "Iz datuma rođenja izračunaš znak u kojem je bio Merkur."
+  },
+  {
+   "q": "Što je retrogradni Merkur?",
+   "a": "Razdoblje kad se Merkur čini da ide unatrag; dobro za pregled."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

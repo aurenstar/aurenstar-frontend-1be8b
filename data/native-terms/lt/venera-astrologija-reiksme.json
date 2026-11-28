@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "venera astrologija",
+ "volume": "1000",
+ "slug": "venera-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venera astrologijoje: ką tai reiškia?",
+ "description": "Venera rodo, kaip myli ir ką laikai gražiu. Paprastai, su pavyzdžiu.",
+ "intro": "Venera yra meilės, grožio ir malonumo planeta. Savo horoskope matai, kaip duodi meilę, kas tave traukia ir kaip elgiesi su pinigais.",
+ "sections": [
+  {
+   "h2": "Ką daro Venera?",
+   "paragraphs": [
+    "Pagalvok apie tai, kas malonu: šiltas apsikabinimas ar graži muzika. Venera yra tas jausmas."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Ar mėgsti dėmesį, dovanas ar bendrą laiką? Veneros ženklas rodo, kaip duodi ir nori gauti meilę."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Venera Jautyje: Rūta mėgsta ramybę, gerą maistą ir ištikimus draugus. Meilę rodo mažais rūpestingais dalykais."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kaip rasti savo Venerą?",
+   "a": "Pagal gimimo datą apskaičiuoji ženklą, kuriame buvo Venera."
+  },
+  {
+   "q": "Ar Venera tik apie meilę?",
+   "a": "Ne, taip pat apie grožį, skonį ir pinigus."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

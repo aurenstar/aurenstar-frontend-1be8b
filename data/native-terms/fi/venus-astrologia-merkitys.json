@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "venus astrologia",
+ "volume": "1000",
+ "slug": "venus-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venus astrologiassa: mitä se tarkoittaa?",
+ "description": "Venus näyttää, miten rakastat ja mitä pidät kauniina. Selitetty esimerkillä.",
+ "intro": "Venus on rakkauden, kauneuden ja nautinnon planeetta. Kartassasi näet, miten annat rakkautta, mikä vetää sinua puoleensa ja miten käsittelet rahaa.",
+ "sections": [
+  {
+   "h2": "Mitä Venus tekee?",
+   "paragraphs": [
+    "Ajattele sitä, mikä tuntuu hyvältä: lämmin halaus tai kaunis musiikki. Venus on se tunne."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Pidätkö huomiosta, lahjoista vai yhteisestä ajasta? Venus-merkkisi näyttää, miten annat ja haluat saada rakkautta."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Venus Härässä: Roosa pitää rauhasta, hyvästä ruoasta ja uskollisista ystävistä. Hän näyttää rakkautta pienillä huolenpidon teoilla."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Miten löydän Venukseni?",
+   "a": "Syntymäpäivälläsi lasket merkin, jossa Venus oli."
+  },
+  {
+   "q": "Onko Venus vain rakkautta varten?",
+   "a": "Ei, myös kauneuden, maun ja rahan."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

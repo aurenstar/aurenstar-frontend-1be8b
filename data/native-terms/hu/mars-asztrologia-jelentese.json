@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "mars asztrológia",
+ "volume": "1000",
+ "slug": "mars-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mars az asztrológiában: mit jelent?",
+ "description": "A Mars megmutatja, hogyan használod az energiát, harcolsz és haragszol. Egyszerűen, példával.",
+ "intro": "A Mars az energia, a bátorság és a cselekvés bolygója. A horoszkópodban látod, hogyan fogsz hozzá a dolgokhoz, mi ad erőt, és hogyan kezeled a vitákat.",
+ "sections": [
+  {
+   "h2": "Mit csinál a Mars?",
+   "paragraphs": [
+    "Gondolj az autó motorjára: nélküle nem jutsz sehová. A Mars a te motorod."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Azonnal belevágsz, vagy előbb vársz? Gyorsan dühbe gurulsz, vagy parázslasz? A Mars jegye megmutatja."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Mars a Kosban: Rózsa azonnal elkezdi, gyors és őszinte, és meg kell tanulnia várni másokra."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hogyan találom meg a Marsomat?",
+   "a": "A születési dátumodból kiszámolod, melyik jegyben állt a Mars."
+  },
+  {
+   "q": "A Mars csak a haragról szól?",
+   "a": "Nem, a bátorságról, a sportról és a kitartásról is."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

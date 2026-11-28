@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "venera astroloģija",
+ "volume": "1000",
+ "slug": "venera-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venera astroloģijā: ko tas nozīmē?",
+ "description": "Venera rāda, kā tu mīli un ko uzskati par skaistu. Vienkārši, ar piemēru.",
+ "intro": "Venera ir mīlestības, skaistuma un baudas planēta. Savā kartē tu redzi, kā dod mīlestību, kas tevi pievelk un kā rīkojies ar naudu.",
+ "sections": [
+  {
+   "h2": "Ko dara Venera?",
+   "paragraphs": [
+    "Padomā par to, kas ir patīkams: silta apskāviens vai skaista mūzika. Venera ir šī sajūta."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Vai tev patīk uzmanība, dāvanas vai kopā pavadīts laiks? Veneras zīme rāda, kā tu dod un vēlies saņemt mīlestību."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Venera Vērsī: Roze mīl mieru, labu ēdienu un uzticamus draugus. Mīlestību parāda ar mazām gādīgām lietām."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kā atrast savu Veneru?",
+   "a": "No dzimšanas datuma aprēķina zīmi, kurā bija Venera."
+  },
+  {
+   "q": "Vai Venera ir tikai par mīlestību?",
+   "a": "Nē, arī par skaistumu, gaumi un naudu."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

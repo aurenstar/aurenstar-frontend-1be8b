@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "venuše astrologie",
+ "volume": "1000",
+ "slug": "venuse-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venuše v astrologii: co znamená?",
+ "description": "Venuše ukazuje, jak milujete a co považujete za krásné. Jednoduše s příkladem.",
+ "intro": "Venuše je planeta lásky, krásy a požitku. V horoskopu vidíte, jak dáváte lásku, co vás přitahuje a jak zacházíte s penězi.",
+ "sections": [
+  {
+   "h2": "Co dělá Venuše?",
+   "paragraphs": [
+    "Představte si, co je vám příjemné: vřelé objetí nebo krásná hudba. Venuše je ten pocit."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "Máte rádi pozornost, dárky, nebo společný čas? Znamení Venuše ukazuje, jak lásku dáváte a chcete dostávat."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Venuše v Býku: Růža má ráda klid, dobré jídlo a věrné přátele. Lásku projevuje malými pozornostmi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak najdu svou Venuši?",
+   "a": "Z data narození spočítáte znamení, ve kterém Venuše stála."
+  },
+  {
+   "q": "Je Venuše jen o lásce?",
+   "a": "Ne, i o kráse, vkusu a penězích."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

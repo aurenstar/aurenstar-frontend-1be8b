@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "mart astrologia",
+ "volume": "1000",
+ "slug": "mart-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mart en astrologia: què significa?",
+ "description": "Mart mostra com uses l’energia, lluites i t’enfades. Explicat fàcil, amb exemple.",
+ "intro": "Mart és el planeta de l’energia, el coratge i l’acció. A la teva carta veus com t’hi poses, què et dona força i com gestiones les discussions.",
+ "sections": [
+  {
+   "h2": "Què fa Mart?",
+   "paragraphs": [
+    "Pensa en el motor d’un cotxe: sense ell no vas enlloc. Mart és el teu motor."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "T’hi llances de seguida o primer esperes? T’enfades de pressa o covés? El signe de Mart ho mostra."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Mart a Àries: la Rosa comença de seguida, és ràpida i sincera i ha d’aprendre a esperar els altres."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Com trobo el meu Mart?",
+   "a": "Amb la data de naixement calcules el signe on era Mart."
+  },
+  {
+   "q": "Mart és només ira?",
+   "a": "No, també és coratge, esport i perseverança."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

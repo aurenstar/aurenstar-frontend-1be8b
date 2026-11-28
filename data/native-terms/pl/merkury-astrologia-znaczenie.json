@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "merkury astrologia",
+ "volume": "1000",
+ "slug": "merkury-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkury w astrologii: co oznacza?",
+ "description": "Merkury pokazuje, jak myślisz, mówisz i uczysz się. Wyjaśnione prosto, z przykładem.",
+ "intro": "Merkury to planeta myślenia i mowy. W horoskopie widzisz, jak przyjmujesz pomysły, tłumaczysz je i podejmujesz decyzje.",
+ "sections": [
+  {
+   "h2": "Co robi Merkury?",
+   "paragraphs": [
+    "Pomyśl o telefonie: odbiera i wysyła wiadomości. Tak działa Merkury dla Twojej głowy."
+   ]
+  },
+  {
+   "h2": "Jak to zauważysz?",
+   "paragraphs": [
+    "Mówisz szybko czy spokojnie? Jesteś ciekawski czy praktyczny? Pokazuje to znak Merkurego."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Merkury w Bliźniętach: Róża mówi szybko, uczy się wielu rzeczy naraz i zawsze ma żart."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak znaleźć mój Merkury?",
+   "a": "Z daty urodzenia obliczysz znak, w którym był Merkury."
+  },
+  {
+   "q": "Co to Merkury wsteczny?",
+   "a": "Okres, gdy Merkury wydaje się cofać; dobry na przegląd spraw."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

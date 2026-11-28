@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "wenus astrologia",
+ "volume": "1000",
+ "slug": "wenus-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Wenus w astrologii: co oznacza?",
+ "description": "Wenus pokazuje, jak kochasz i co uważasz za piękne. Wyjaśnione prosto, z przykładem.",
+ "intro": "Wenus to planeta miłości, piękna i przyjemności. W horoskopie widzisz, jak dajesz miłość, co Cię przyciąga i jak obchodzisz się z pieniędzmi.",
+ "sections": [
+  {
+   "h2": "Co robi Wenus?",
+   "paragraphs": [
+    "Pomyśl o tym, co sprawia przyjemność: ciepły uścisk lub piękna muzyka. Wenus to to uczucie."
+   ]
+  },
+  {
+   "h2": "Jak to zauważysz?",
+   "paragraphs": [
+    "Lubisz uwagę, prezenty czy wspólny czas? Znak Wenus pokazuje, jak dajesz i chcesz otrzymywać miłość."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Wenus w Byku: Róża lubi spokój, dobre jedzenie i wiernych przyjaciół. Okazuje miłość drobnymi, troskliwymi gestami."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak znaleźć moją Wenus?",
+   "a": "Z daty urodzenia obliczysz znak, w którym była Wenus."
+  },
+  {
+   "q": "Czy Wenus to tylko miłość?",
+   "a": "Nie, także piękno, gust i pieniądze."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

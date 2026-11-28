@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "mars astrologie",
+ "volume": "1000",
+ "slug": "mars-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mars v astrologii: co znamená?",
+ "description": "Mars ukazuje, jak používáte energii, bojujete a zlobíte se. Jednoduše s příkladem.",
+ "intro": "Mars je planeta energie, odvahy a činu. V horoskopu vidíte, jak se do věcí pouštíte, co vám dává sílu a jak zvládáte hádky.",
+ "sections": [
+  {
+   "h2": "Co dělá Mars?",
+   "paragraphs": [
+    "Představte si motor auta: bez něj nikam nedojedete. Mars je váš motor."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "Pustíte se hned do toho, nebo nejdřív čekáte? Zlobíte se rychle, nebo doutnáte? Ukazuje to znamení Marsu."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Mars v Beranovi: Růža začíná hned, je rychlá a upřímná a musí se naučit počkat na druhé."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak najdu svůj Mars?",
+   "a": "Z data narození spočítáte znamení, ve kterém Mars stál."
+  },
+  {
+   "q": "Je Mars jen vztek?",
+   "a": "Ne, je to i odvaha, sport a vytrvalost."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

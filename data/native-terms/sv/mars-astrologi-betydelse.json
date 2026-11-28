@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "mars astrologi",
+ "volume": "1000",
+ "slug": "mars-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mars i astrologin: vad betyder det?",
+ "description": "Mars visar hur du använder energi, kämpar och blir arg. Enkelt förklarat med exempel.",
+ "intro": "Mars är planeten för energi, mod och handling. I ditt horoskop ser du hur du tar tag i saker, vad som ger dig kraft och hur du hanterar bråk.",
+ "sections": [
+  {
+   "h2": "Vad gör Mars?",
+   "paragraphs": [
+    "Tänk på bilens motor: utan den kommer du ingenstans. Mars är din motor."
+   ]
+  },
+  {
+   "h2": "Hur märker du det?",
+   "paragraphs": [
+    "Kastar du dig in direkt eller väntar du först? Blir du snabbt arg eller ligger du lågt? Ditt Mars-tecken visar det."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Mars i Väduren: Rosa startar direkt, är snabb och ärlig och behöver lära sig vänta på andra."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hur hittar jag min Mars?",
+   "a": "Med ditt födelsedatum räknar du ut tecknet där Mars stod."
+  },
+  {
+   "q": "Är Mars bara ilska?",
+   "a": "Nej, det är också mod, sport och uthållighet."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

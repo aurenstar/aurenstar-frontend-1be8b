@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "venus astrologie",
+ "volume": "1000",
+ "slug": "venus-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venus în astrologie: ce înseamnă?",
+ "description": "Venus arată cum iubești și ce găsești frumos. Explicat simplu, cu exemplu.",
+ "intro": "Venus este planeta iubirii, a frumuseții și a plăcerii. În harta ta vezi cum dai iubire, ce te atrage și cum te porți cu banii.",
+ "sections": [
+  {
+   "h2": "Ce face Venus?",
+   "paragraphs": [
+    "Gândește-te la ce simți plăcut: o îmbrățișare caldă sau muzică frumoasă. Venus e acel sentiment."
+   ]
+  },
+  {
+   "h2": "Cum observi?",
+   "paragraphs": [
+    "Îți place atenția, cadourile sau timpul împreună? Semnul lui Venus arată cum dai și vrei să primești iubire."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Venus în Taur: Roza iubește liniștea, mâncarea bună și prietenii loiali. Arată iubire prin mici gesturi grijulii."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cum îmi găsesc Venus?",
+   "a": "Cu data nașterii calculezi semnul în care era Venus."
+  },
+  {
+   "q": "Venus e doar despre iubire?",
+   "a": "Nu, și despre frumusețe, gust și bani."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

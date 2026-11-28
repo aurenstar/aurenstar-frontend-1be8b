@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "vénusz asztrológia",
+ "volume": "1000",
+ "slug": "venusz-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Vénusz az asztrológiában: mit jelent?",
+ "description": "A Vénusz megmutatja, hogyan szeretsz, és mit találsz szépnek. Egyszerűen, példával.",
+ "intro": "A Vénusz a szerelem, a szépség és az élvezet bolygója. A horoszkópodban látod, hogyan adsz szeretetet, mi vonz, és hogyan bánsz a pénzzel.",
+ "sections": [
+  {
+   "h2": "Mit csinál a Vénusz?",
+   "paragraphs": [
+    "Gondolj arra, ami jó érzés: egy meleg ölelés vagy szép zene. A Vénusz ez az érzés."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Szereted a figyelmet, az ajándékot vagy a közös időt? A Vénusz jegye mutatja, hogyan adsz és kapsz szeretetet."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Vénusz a Bikában: Rózsa szereti a nyugalmat, a jó ételt és a hű barátokat. Apró, gondoskodó dolgokkal mutat szeretetet."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hogyan találom meg a Vénuszomat?",
+   "a": "A születési dátumodból kiszámolod, melyik jegyben állt a Vénusz."
+  },
+  {
+   "q": "A Vénusz csak a szerelemről szól?",
+   "a": "Nem, a szépségről, az ízlésről és a pénzről is."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

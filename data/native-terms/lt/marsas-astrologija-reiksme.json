@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "marsas astrologija",
+ "volume": "1000",
+ "slug": "marsas-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Marsas astrologijoje: ką tai reiškia?",
+ "description": "Marsas rodo, kaip naudoji energiją, kovoji ir pyksti. Paprastai, su pavyzdžiu.",
+ "intro": "Marsas yra energijos, drąsos ir veiksmo planeta. Savo horoskope matai, kaip imiesi dalykų, kas suteikia jėgų ir kaip sprendi ginčus.",
+ "sections": [
+  {
+   "h2": "Ką daro Marsas?",
+   "paragraphs": [
+    "Pagalvok apie automobilio variklį: be jo niekur nenuvažiuosi. Marsas yra tavo variklis."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Ar puoli iš karto, ar pirma lauki? Ar greitai supyksti, ar tvyrai? Tai rodo Marso ženklas."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Marsas Avine: Rūta pradeda iš karto, greita ir sąžininga, o turi išmokti palaukti kitų."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kaip rasti savo Marsą?",
+   "a": "Pagal gimimo datą apskaičiuoji ženklą, kuriame buvo Marsas."
+  },
+  {
+   "q": "Ar Marsas tik pyktis?",
+   "a": "Ne, tai ir drąsa, sportas, atkaklumas."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

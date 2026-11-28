@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "mars astrologija",
+ "volume": "1000",
+ "slug": "mars-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mars v astrologiji: kaj pomeni?",
+ "description": "Mars kaže, kako uporabljate energijo, se borite in jezite. Preprosto, s primerom.",
+ "intro": "Mars je planet energije, poguma in dejanja. V horoskopu vidite, kako se lotevate stvari, kaj vam daje moč in kako obvladujete prepire.",
+ "sections": [
+  {
+   "h2": "Kaj dela Mars?",
+   "paragraphs": [
+    "Predstavljajte si motor avtomobila: brez njega ne pridete nikamor. Mars je vaš motor."
+   ]
+  },
+  {
+   "h2": "Kako to opazite?",
+   "paragraphs": [
+    "Se vržete takoj vanj ali najprej počakate? Se hitro razjezite ali tlite? Znamenje Marsa to kaže."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Mars v Ovnu: Roza začne takoj, je hitra in iskrena ter se mora naučiti počakati druge."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako najdem svoj Mars?",
+   "a": "Iz datuma rojstva izračunate znamenje, v katerem je bil Mars."
+  },
+  {
+   "q": "Je Mars samo jeza?",
+   "a": "Ne, tudi pogum, šport in vztrajnost."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

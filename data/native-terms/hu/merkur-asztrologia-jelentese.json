@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "merkúr asztrológia",
+ "volume": "1000",
+ "slug": "merkur-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkúr az asztrológiában: mit jelent?",
+ "description": "A Merkúr megmutatja, hogyan gondolkodsz, beszélsz és tanulsz. Egyszerűen, példával.",
+ "intro": "A Merkúr a gondolkodás és a beszéd bolygója. A horoszkópodban látod, hogyan fogadod az ötleteket, magyarázod el őket és döntesz.",
+ "sections": [
+  {
+   "h2": "Mit csinál a Merkúr?",
+   "paragraphs": [
+    "Gondolj a telefonodra: üzeneteket fogad és küld. Így működik a Merkúr a fejedben."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Gyorsan vagy nyugodtan beszélsz? Kíváncsi vagy vagy gyakorlatias? Ezt mutatja a Merkúr jegye."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Merkúr az Ikrekben: Rózsa gyorsan beszél, egyszerre sok mindent tanul, és mindig van egy viccel."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hogyan találom meg a Merkúrom?",
+   "a": "A születési dátumodból kiszámolod, melyik jegyben állt a Merkúr."
+  },
+  {
+   "q": "Mi a retrográd Merkúr?",
+   "a": "Az időszak, amikor a Merkúr visszafelé látszik haladni; jó átnézésre."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

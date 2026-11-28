@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "mars astrologie",
+ "volume": "1000",
+ "slug": "mars-astrologie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mars in de astrologie: wat betekent het?",
+ "description": "Mars laat zien hoe je energie gebruikt, strijdt en boos wordt. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "Mars is de planeet van energie, moed en actie. In je kaart zie je hoe je dingen aanpakt, wat je kracht geeft en hoe je met ruzie omgaat.",
+ "sections": [
+  {
+   "h2": "Wat doet Mars?",
+   "paragraphs": [
+    "Denk aan de motor van een auto: zonder hem rijd je niet. Mars is jouw motor."
+   ]
+  },
+  {
+   "h2": "Hoe merk je het?",
+   "paragraphs": [
+    "Ga je meteen vol erin of wacht je eerst? Word je snel boos of sluimer je? Je Mars-teken laat het zien."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Mars in Ram: Roos start meteen, is snel en eerlijk, en moet leren te wachten op anderen."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hoe vind ik mijn Mars?",
+   "a": "Met je geboortedatum bereken je het teken waar Mars stond."
+  },
+  {
+   "q": "Is Mars alleen boosheid?",
+   "a": "Nee, het is ook moed, sport en doorzettingsvermogen."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

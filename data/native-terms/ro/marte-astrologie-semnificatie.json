@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "marte astrologie",
+ "volume": "1000",
+ "slug": "marte-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Marte în astrologie: ce înseamnă?",
+ "description": "Marte arată cum folosești energia, lupți și te enervezi. Explicat simplu, cu exemplu.",
+ "intro": "Marte este planeta energiei, a curajului și a acțiunii. În harta ta vezi cum te apuci de lucruri, ce îți dă putere și cum gestionezi certurile.",
+ "sections": [
+  {
+   "h2": "Ce face Marte?",
+   "paragraphs": [
+    "Gândește-te la motorul unei mașini: fără el nu mergi nicăieri. Marte e motorul tău."
+   ]
+  },
+  {
+   "h2": "Cum observi?",
+   "paragraphs": [
+    "Te arunci imediat sau aștepți întâi? Te enervezi repede sau mocnești? Semnul lui Marte arată."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Marte în Berbec: Roza începe imediat, e rapidă și sinceră și trebuie să învețe să aștepte pe alții."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cum îmi găsesc Marte?",
+   "a": "Cu data nașterii calculezi semnul în care era Marte."
+  },
+  {
+   "q": "Este Marte doar furie?",
+   "a": "Nu, e și curaj, sport și perseverență."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

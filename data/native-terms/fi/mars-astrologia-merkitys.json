@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "mars astrologia",
+ "volume": "1000",
+ "slug": "mars-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mars astrologiassa: mitä se tarkoittaa?",
+ "description": "Mars näyttää, miten käytät energiaa, taistelet ja suutut. Selitetty esimerkillä.",
+ "intro": "Mars on energian, rohkeuden ja toiminnan planeetta. Kartassasi näet, miten tartut asioihin, mikä antaa voimaa ja miten käsittelet riitoja.",
+ "sections": [
+  {
+   "h2": "Mitä Mars tekee?",
+   "paragraphs": [
+    "Ajattele auton moottoria: ilman sitä et pääse minnekään. Mars on moottorisi."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Hyppäätkö heti mukaan vai odotatko ensin? Suututko nopeasti vai kytetkö? Mars-merkkisi näyttää sen."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Mars Oinaassa: Roosa aloittaa heti, on nopea ja rehellinen ja oppii odottamaan muita."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Miten löydän Marsini?",
+   "a": "Syntymäpäivälläsi lasket merkin, jossa Mars oli."
+  },
+  {
+   "q": "Onko Mars vain vihaa?",
+   "a": "Ei, se on myös rohkeutta, urheilua ja sisua."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

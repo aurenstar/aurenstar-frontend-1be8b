@@ -1,0 +1,49 @@
+{
+ "lang": "da",
+ "keyword": "venus astrologi",
+ "volume": "1000",
+ "slug": "venus-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venus i astrologi: hvad betyder det?",
+ "description": "Venus viser, hvordan du elsker, og hvad du finder smukt. Forklaret enkelt med eksempel.",
+ "intro": "Venus er planeten for kærlighed, skønhed og nydelse. I dit horoskop ser du, hvordan du giver kærlighed, hvad der tiltrækker dig, og hvordan du håndterer penge.",
+ "sections": [
+  {
+   "h2": "Hvad gør Venus?",
+   "paragraphs": [
+    "Tænk på det, der føles godt: et varmt kram eller smuk musik. Venus er den følelse."
+   ]
+  },
+  {
+   "h2": "Hvordan mærker du det?",
+   "paragraphs": [
+    "Kan du lide opmærksomhed, gaver eller tid sammen? Dit Venus-tegn viser, hvordan du giver og vil modtage kærlighed."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Venus i Tyren: Rosa elsker ro, god mad og trofaste venner. Hun viser kærlighed med små omsorgsfulde ting."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvordan finder jeg min Venus?",
+   "a": "Med din fødselsdato regner du tegnet ud, hvor Venus stod."
+  },
+  {
+   "q": "Er Venus kun for kærlighed?",
+   "a": "Nej, også for skønhed, smag og penge."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ },
+ "tool": "descreva-me"
+}

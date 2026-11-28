@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "veenus astroloogia",
+ "volume": "1000",
+ "slug": "veenus-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Veenus astroloogias: mida see tähendab?",
+ "description": "Veenus näitab, kuidas sa armastad ja mida pead ilusaks. Lihtsalt ja näitega.",
+ "intro": "Veenus on armastuse, ilu ja naudingu planeet. Sinu kaardil näed, kuidas annad armastust, mis sind tõmbab ja kuidas rahaga käitud.",
+ "sections": [
+  {
+   "h2": "Mida Veenus teeb?",
+   "paragraphs": [
+    "Mõtle sellele, mis on mõnus: soe kallistus või kaunis muusika. Veenus on see tunne."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Kas meeldib tähelepanu, kingitused või ühine aeg? Veenuse märk näitab, kuidas annad ja tahad armastust saada."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Veenus Sõnnis: Roosi armastab rahu, head toitu ja truid sõpru. Ta näitab armastust väikeste hoolivate tegudega."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuidas leida oma Veenus?",
+   "a": "Sünnikuupäevast arvutad märgi, kus Veenus oli."
+  },
+  {
+   "q": "Kas Veenus on ainult armastuse jaoks?",
+   "a": "Ei, ka ilu, maitse ja raha jaoks."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

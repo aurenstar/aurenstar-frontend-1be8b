@@ -1,0 +1,49 @@
+{
+ "lang": "da",
+ "keyword": "merkur astrologi",
+ "volume": "1000",
+ "slug": "merkur-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkur i astrologi: hvad betyder det?",
+ "description": "Merkur viser, hvordan du tænker, taler og lærer. Forklaret enkelt med eksempel.",
+ "intro": "Merkur er planeten for tanker og samtale. I dit horoskop ser du, hvordan du tager idéer til dig, forklarer dem og træffer beslutninger.",
+ "sections": [
+  {
+   "h2": "Hvad gør Merkur?",
+   "paragraphs": [
+    "Tænk på din mobil: den modtager og sender beskeder. Sådan virker Merkur for dit hoved."
+   ]
+  },
+  {
+   "h2": "Hvordan mærker du det?",
+   "paragraphs": [
+    "Taler du hurtigt eller roligt? Er du nysgerrig eller praktisk? Det viser dit Merkur-tegn."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Merkur i Tvillingerne: Rosa taler hurtigt, lærer mange ting på én gang og har altid en joke."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvordan finder jeg min Merkur?",
+   "a": "Med din fødselsdato regner du tegnet ud, hvor Merkur stod."
+  },
+  {
+   "q": "Hvad er Merkur retrograd?",
+   "a": "En periode, hvor Merkur ser ud til at gå baglæns; god til at gennemgå ting."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ },
+ "tool": "descreva-me"
+}

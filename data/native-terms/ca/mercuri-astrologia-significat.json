@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "mercuri astrologia",
+ "volume": "1000",
+ "slug": "mercuri-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mercuri en astrologia: què significa?",
+ "description": "Mercuri mostra com penses, parles i aprens. Explicat fàcil, amb exemple.",
+ "intro": "Mercuri és el planeta del pensament i de la parla. A la teva carta veus com reps idees, les expliques i prens decisions.",
+ "sections": [
+  {
+   "h2": "Què fa Mercuri?",
+   "paragraphs": [
+    "Pensa en el mòbil: rep i envia missatges. Així treballa Mercuri per al teu cap."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "Parles ràpid o amb calma? Ets curiós o pràctic? Això ho mostra el signe de Mercuri."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Mercuri a Bessons: la Rosa parla ràpid, aprèn moltes coses alhora i sempre té una broma."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Com trobo el meu Mercuri?",
+   "a": "Amb la data de naixement calcules el signe on era Mercuri."
+  },
+  {
+   "q": "Què és Mercuri retrògrad?",
+   "a": "Un període en què Mercuri sembla anar enrere; bo per revisar."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "mars astrolohiya",
+ "volume": "1000",
+ "slug": "mars-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mars sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Ipinapakita ng Mars kung paano mo ginagamit ang lakas, lumalaban, at nagagalit. Simple, may halimbawa.",
+ "intro": "Ang Mars ay planeta ng lakas, tapang, at aksyon. Sa chart mo makikita kung paano ka sumisimula, ano ang nagbibigay ng lakas, at paano mo hinaharap ang away.",
+ "sections": [
+  {
+   "h2": "Ano ang ginagawa ng Mars?",
+   "paragraphs": [
+    "Isipin ang makina ng kotse: kung wala ito, hindi ka makakarating kahit saan. Ang Mars ang makina mo."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Agad ka bang sumusugod o naghihintay muna? Mabilis ka bang magalit o nagpupuyos? Ipinapakita iyan ng sign ng Mars."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Mars sa Aries: agad nagsisimula si Mika, mabilis at tapat, at kailangang matutong maghintay sa iba."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Paano ko hahanapin ang Mars ko?",
+   "a": "Gamit ang petsa ng kapanganakan, kuwentahin ang sign kung nasaan ang Mars."
+  },
+  {
+   "q": "Galit lang ba ang Mars?",
+   "a": "Hindi, pati tapang, palakasan, at tiyaga."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

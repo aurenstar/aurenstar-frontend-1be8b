@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "merkúr astrológia",
+ "volume": "1000",
+ "slug": "merkur-astrologia-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkúr v astrológii: čo znamená?",
+ "description": "Merkúr ukazuje, ako premýšľate, hovoríte a učíte sa. Jednoducho s príkladom.",
+ "intro": "Merkúr je planéta myslenia a reči. V horoskope vidíte, ako prijímate nápady, vysvetľujete ich a rozhodujete sa.",
+ "sections": [
+  {
+   "h2": "Čo robí Merkúr?",
+   "paragraphs": [
+    "Predstavte si mobil: prijíma a posiela správy. Tak funguje Merkúr pre vašu hlavu."
+   ]
+  },
+  {
+   "h2": "Ako to spoznáte?",
+   "paragraphs": [
+    "Hovoríte rýchlo, alebo pokojne? Ste zvedaví, alebo praktickí? To ukazuje znamenie Merkúra."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Merkúr v Blížencoch: Ruža hovorí rýchlo, učí sa viac vecí naraz a má stále vtip."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ako nájdem svoj Merkúr?",
+   "a": "Z dátumu narodenia vypočítate znamenie, v ktorom Merkúr stál."
+  },
+  {
+   "q": "Čo je retrográdny Merkúr?",
+   "a": "Obdobie, keď sa Merkúr zdanlivo pohybuje späť; vhodné na revíziu."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

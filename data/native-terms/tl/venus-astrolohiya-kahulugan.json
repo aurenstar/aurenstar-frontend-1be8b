@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "venus astrolohiya",
+ "volume": "1000",
+ "slug": "venus-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venus sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Ipinapakita ng Venus kung paano ka magmahal at ano ang maganda para sa iyo. Simple, may halimbawa.",
+ "intro": "Ang Venus ay planeta ng pag-ibig, ganda, at ligaya. Sa chart mo makikita kung paano ka nagbibigay ng pagmamahal, ano ang umaakit sa iyo, at paano ka humawak ng pera.",
+ "sections": [
+  {
+   "h2": "Ano ang ginagawa ng Venus?",
+   "paragraphs": [
+    "Isipin ang masarap sa pakiramdam: mainit na yakap o magandang musika. Ang Venus ay ang pakiramdam na iyon."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Gusto mo ba ng atensyon, regalo, o oras na magkasama? Ipinapakita ng sign ng Venus kung paano ka nagbibigay at gustong tumanggap ng pagmamahal."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Venus sa Taurus: mahilig si Mika sa katahimikan, masarap na pagkain, at tapat na kaibigan. Ipinapakita niya ang pag-ibig sa maliliit na pag-aalaga."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Paano ko hahanapin ang Venus ko?",
+   "a": "Gamit ang petsa ng kapanganakan, kuwentahin ang sign kung nasaan ang Venus."
+  },
+  {
+   "q": "Para lang ba sa pag-ibig ang Venus?",
+   "a": "Hindi, pati ganda, panlasa, at pera."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

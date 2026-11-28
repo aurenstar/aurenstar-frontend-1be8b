@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "merkur astrologie",
+ "volume": "1000",
+ "slug": "merkur-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkur v astrologii: co znamená?",
+ "description": "Merkur ukazuje, jak přemýšlíte, mluvíte a učíte se. Jednoduše s příkladem.",
+ "intro": "Merkur je planeta myšlení a řeči. V horoskopu vidíte, jak přijímáte nápady, vysvětlujete je a rozhodujete se.",
+ "sections": [
+  {
+   "h2": "Co dělá Merkur?",
+   "paragraphs": [
+    "Představte si mobil: přijímá a posílá zprávy. Tak funguje Merkur pro vaši hlavu."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "Mluvíte rychle, nebo klidně? Jste zvědaví, nebo praktičtí? To ukazuje znamení Merkuru."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Merkur ve Dvojčatech: Růža mluví rychle, učí se víc věcí najednou a má stále vtip."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak najdu svůj Merkur?",
+   "a": "Z data narození spočítáte znamení, ve kterém Merkur stál."
+  },
+  {
+   "q": "Co je retrográdní Merkur?",
+   "a": "Období, kdy se Merkur zdánlivě pohybuje zpět; vhodné k revizi."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

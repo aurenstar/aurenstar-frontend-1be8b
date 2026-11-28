@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "mercur astrologie",
+ "volume": "1000",
+ "slug": "mercur-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mercur în astrologie: ce înseamnă?",
+ "description": "Mercur arată cum gândești, vorbești și înveți. Explicat simplu, cu exemplu.",
+ "intro": "Mercur este planeta gândirii și a vorbirii. În harta ta vezi cum primești ideile, le explici și iei decizii.",
+ "sections": [
+  {
+   "h2": "Ce face Mercur?",
+   "paragraphs": [
+    "Gândește-te la telefon: primește și trimite mesaje. Așa lucrează Mercur pentru mintea ta."
+   ]
+  },
+  {
+   "h2": "Cum observi?",
+   "paragraphs": [
+    "Vorbești repede sau calm? Ești curios sau practic? Asta arată semnul lui Mercur."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Mercur în Gemeni: Roza vorbește repede, învață multe deodată și are mereu o glumă."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cum îmi găsesc Mercur?",
+   "a": "Cu data nașterii calculezi semnul în care era Mercur."
+  },
+  {
+   "q": "Ce este Mercur retrograd?",
+   "a": "O perioadă în care Mercur pare să meargă înapoi; bună pentru revizuiri."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

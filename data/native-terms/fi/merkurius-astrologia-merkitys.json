@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "merkurius astrologia",
+ "volume": "1000",
+ "slug": "merkurius-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkurius astrologiassa: mitä se tarkoittaa?",
+ "description": "Merkurius näyttää, miten ajattelet, puhut ja opit. Selitetty esimerkillä.",
+ "intro": "Merkurius on ajattelun ja puheen planeetta. Kartassasi näet, miten otat vastaan ideoita, selität ne ja teet päätöksiä.",
+ "sections": [
+  {
+   "h2": "Mitä Merkurius tekee?",
+   "paragraphs": [
+    "Ajattele puhelintasi: se vastaanottaa ja lähettää viestejä. Niin Merkurius toimii päässäsi."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Puhutko nopeasti vai rauhallisesti? Oletko utelias vai käytännöllinen? Sen näyttää Merkurius-merkkisi."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Merkurius Kaksosissa: Roosa puhuu nopeasti, oppii monta asiaa kerralla ja hänellä on aina vitsi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Miten löydän Merkuriukseni?",
+   "a": "Syntymäpäivälläsi lasket merkin, jossa Merkurius oli."
+  },
+  {
+   "q": "Mitä on retrogradinen Merkurius?",
+   "a": "Jakso, jolloin Merkurius näyttää kulkevan taaksepäin; hyvä tarkistamiseen."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

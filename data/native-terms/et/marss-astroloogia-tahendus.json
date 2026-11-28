@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "marss astroloogia",
+ "volume": "1000",
+ "slug": "marss-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Marss astroloogias: mida see tähendab?",
+ "description": "Marss näitab, kuidas kasutad energiat, võitled ja vihastad. Lihtsalt ja näitega.",
+ "intro": "Marss on energia, julguse ja tegutsemise planeet. Sinu kaardil näed, kuidas asju ette võtad, mis annab sulle jõudu ja kuidas tülidega toime tuled.",
+ "sections": [
+  {
+   "h2": "Mida Marss teeb?",
+   "paragraphs": [
+    "Mõtle auto mootorile: ilma selleta ei jõua kuhugi. Marss on sinu mootor."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Kas hüppad kohe sisse või ootad kõigepealt? Kas vihastad kiiresti või hõõgud? Marsi märk näitab seda."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Marss Jäärases: Roosi alustab kohe, on kiire ja aus ning peab õppima teisi ootama."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuidas leida oma Marss?",
+   "a": "Sünnikuupäevast arvutad märgi, kus Marss oli."
+  },
+  {
+   "q": "Kas Marss on ainult viha?",
+   "a": "Ei, see on ka julgus, sport ja visadus."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

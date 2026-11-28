@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "merkuur astroloogia",
+ "volume": "1000",
+ "slug": "merkuur-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Merkuur astroloogias: mida see tähendab?",
+ "description": "Merkuur näitab, kuidas sa mõtled, räägid ja õpid. Lihtsalt ja näitega.",
+ "intro": "Merkuur on mõtlemise ja kõne planeet. Sinu kaardil näed, kuidas võtad vastu ideid, selgitad neid ja teed otsuseid.",
+ "sections": [
+  {
+   "h2": "Mida Merkuur teeb?",
+   "paragraphs": [
+    "Mõtle telefonile: see võtab vastu ja saadab sõnumeid. Nii töötab Merkuur sinu pea jaoks."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Kas räägid kiiresti või rahulikult? Kas oled uudishimulik või praktiline? Seda näitab Merkuuri märk."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Merkuur Kaksikutes: Roosi räägib kiiresti, õpib korraga palju ja tal on alati nali."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuidas leida oma Merkuur?",
+   "a": "Sünnikuupäevast arvutad märgi, kus Merkuur oli."
+  },
+  {
+   "q": "Mis on retrograadne Merkuur?",
+   "a": "Periood, mil Merkuur näib liikuvat tagurpidi; hea üle vaatamiseks."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

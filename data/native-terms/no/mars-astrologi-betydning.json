@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "mars astrologi",
+ "volume": "1000",
+ "slug": "mars-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mars i astrologi: hva betyr det?",
+ "description": "Mars viser hvordan du bruker energi, kjemper og blir sint. Enkelt forklart med eksempel.",
+ "intro": "Mars er planeten for energi, mot og handling. I horoskopet ditt ser du hvordan du tar fatt, hva som gir deg kraft og hvordan du takler krangel.",
+ "sections": [
+  {
+   "h2": "Hva gjør Mars?",
+   "paragraphs": [
+    "Tenk på motoren i en bil: uten den kommer du ingensteds. Mars er motoren din."
+   ]
+  },
+  {
+   "h2": "Hvordan merker du det?",
+   "paragraphs": [
+    "Kaster du deg rett inn i det, eller venter du først? Blir du fort sint, eller ulmer du? Mars-tegnet ditt viser det."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Mars i Væren: Rosa starter med en gang, er rask og ærlig og må lære å vente på andre."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvordan finner jeg Mars?",
+   "a": "Med fødselsdatoen din regner du ut tegnet der Mars sto."
+  },
+  {
+   "q": "Er Mars bare sinne?",
+   "a": "Nei, det er også mot, sport og utholdenhet."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

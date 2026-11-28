@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "venus astrologie",
+ "volume": "1000",
+ "slug": "venus-astrologie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venus in de astrologie: wat betekent het?",
+ "description": "Venus laat zien hoe je liefhebt en wat je mooi vindt. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "Venus is de planeet van liefde, schoonheid en genot. In je kaart zie je hoe je liefde geeft, wat je aantrekt en hoe je met geld omgaat.",
+ "sections": [
+  {
+   "h2": "Wat doet Venus?",
+   "paragraphs": [
+    "Denk aan wat je lekker vindt: een warme knuffel of mooie muziek. Venus is dat gevoel."
+   ]
+  },
+  {
+   "h2": "Hoe merk je het?",
+   "paragraphs": [
+    "Hou je van aandacht, cadeautjes of tijd samen? Je Venus-teken laat zien hoe jij liefde geeft en wilt ontvangen."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Venus in Stier: Roos houdt van rust, lekker eten en trouwe vrienden. Ze toont liefde met kleine zorgzame dingen."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hoe vind ik mijn Venus?",
+   "a": "Met je geboortedatum bereken je het teken waar Venus stond."
+  },
+  {
+   "q": "Is Venus alleen voor liefde?",
+   "a": "Nee, ook voor schoonheid, smaak en geld."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

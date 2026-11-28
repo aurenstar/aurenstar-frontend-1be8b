@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "mercurius astrologie",
+ "volume": "1000",
+ "slug": "mercurius-astrologie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mercurius in de astrologie: wat betekent het?",
+ "description": "Mercurius laat zien hoe je denkt, praat en leert. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "Mercurius is de planeet van denken en praten. In je kaart zie je hoe je ideeën opneemt, uitlegt en beslissingen neemt.",
+ "sections": [
+  {
+   "h2": "Wat doet Mercurius?",
+   "paragraphs": [
+    "Denk aan je telefoon: hij ontvangt en verstuurt berichten. Zo werkt Mercurius voor je hoofd."
+   ]
+  },
+  {
+   "h2": "Hoe merk je het?",
+   "paragraphs": [
+    "Praat je snel of rustig? Ben je nieuwsgierig of praktisch? Dat laat je Mercurius-teken zien."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Mercurius in Tweelingen: Roos praat snel, leert veel tegelijk en heeft altijd een grapje."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hoe vind ik mijn Mercurius?",
+   "a": "Met je geboortedatum bereken je het teken waar Mercurius stond."
+  },
+  {
+   "q": "Wat is Mercurius retrograde?",
+   "a": "Een periode waarin Mercurius achteruit lijkt te gaan; goed om te herzien."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "hr",
+ "keyword": "venera astrologija",
+ "volume": "1000",
+ "slug": "venera-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venera u astrologiji: što znači?",
+ "description": "Venera pokazuje kako voliš i što smatraš lijepim. Jednostavno, s primjerom.",
+ "intro": "Venera je planet ljubavi, ljepote i užitka. U horoskopu vidiš kako daješ ljubav, što te privlači i kako postupaš s novcem.",
+ "sections": [
+  {
+   "h2": "Što radi Venera?",
+   "paragraphs": [
+    "Zamisli što ti je ugodno: topli zagrljaj ili lijepa glazba. Venera je taj osjećaj."
+   ]
+  },
+  {
+   "h2": "Kako to primjećuješ?",
+   "paragraphs": [
+    "Voliš li pažnju, darove ili zajedničko vrijeme? Znak Venere pokazuje kako daješ i želiš primati ljubav."
+   ]
+  },
+  {
+   "h2": "Primjer",
+   "paragraphs": [
+    "Venera u Biku: Ruža voli mir, dobru hranu i vjerne prijatelje. Ljubav pokazuje malim brižnim stvarima."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako naći svoju Veneru?",
+   "a": "Iz datuma rođenja izračunaš znak u kojem je bila Venera."
+  },
+  {
+   "q": "Je li Venera samo za ljubav?",
+   "a": "Ne, i za ljepotu, ukus i novac."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

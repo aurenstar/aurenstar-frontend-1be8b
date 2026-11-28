@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "marss astroloģija",
+ "volume": "1000",
+ "slug": "marss-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Marss astroloģijā: ko tas nozīmē?",
+ "description": "Marss rāda, kā tu izmanto enerģiju, cīnies un dusmojies. Vienkārši, ar piemēru.",
+ "intro": "Marss ir enerģijas, drosmes un darbības planēta. Savā kartē tu redzi, kā ķeries pie lietām, kas dod tev spēku un kā tiec galā ar strīdiem.",
+ "sections": [
+  {
+   "h2": "Ko dara Marss?",
+   "paragraphs": [
+    "Iedomājies automašīnas dzinēju: bez tā nekur nebrauksi. Marss ir tavs dzinējs."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Vai metas iekšā uzreiz vai vispirms gaidi? Vai dusmojies ātri vai kūp? To rāda Marsa zīme."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Marss Auns: Roze sāk uzreiz, ir ātra un godīga, un viņai jāiemācās pagaidīt citus."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kā atrast savu Marsu?",
+   "a": "No dzimšanas datuma aprēķina zīmi, kurā bija Marss."
+  },
+  {
+   "q": "Vai Marss ir tikai dusmas?",
+   "a": "Nē, tā ir arī drosme, sports un neatlaidība."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

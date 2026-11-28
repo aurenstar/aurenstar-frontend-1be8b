@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "sao Thủy chiêm tinh",
+ "volume": "1000",
+ "slug": "sao-thuy-chiem-tinh-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sao Thủy trong chiêm tinh có ý nghĩa gì?",
+ "description": "Sao Thủy cho thấy cách bạn suy nghĩ, nói chuyện và học. Giải thích đơn giản, có ví dụ.",
+ "intro": "Sao Thủy là hành tinh của tư duy và lời nói. Trong lá số, bạn thấy cách mình nhận ý tưởng, giải thích và đưa ra quyết định.",
+ "sections": [
+  {
+   "h2": "Sao Thủy làm gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến điện thoại: nhận và gửi tin nhắn. Sao Thủy làm việc như vậy cho đầu óc bạn."
+   ]
+  },
+  {
+   "h2": "Làm sao nhận ra?",
+   "paragraphs": [
+    "Bạn nói nhanh hay chậm? Tò mò hay thực tế? Cung của sao Thủy cho thấy điều đó."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Sao Thủy ở Song Tử: Lan nói nhanh, học nhiều thứ cùng lúc và luôn có câu đùa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Làm sao tìm sao Thủy của tôi?",
+   "a": "Từ ngày sinh, bạn tính ra cung mà sao Thủy đứng."
+  },
+  {
+   "q": "Sao Thủy nghịch hành là gì?",
+   "a": "Thời gian sao Thủy có vẻ đi lùi; tốt để xem lại mọi việc."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

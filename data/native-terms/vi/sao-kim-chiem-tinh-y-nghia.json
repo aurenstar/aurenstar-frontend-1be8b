@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "sao Kim chiêm tinh",
+ "volume": "1000",
+ "slug": "sao-kim-chiem-tinh-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sao Kim trong chiêm tinh có ý nghĩa gì?",
+ "description": "Sao Kim cho thấy cách bạn yêu và điều bạn thấy đẹp. Giải thích đơn giản, có ví dụ.",
+ "intro": "Sao Kim là hành tinh của tình yêu, cái đẹp và niềm vui. Trong lá số, bạn thấy cách mình cho đi tình yêu, điều thu hút mình và cách dùng tiền.",
+ "sections": [
+  {
+   "h2": "Sao Kim làm gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến điều dễ chịu: một cái ôm ấm áp hay bản nhạc hay. Sao Kim là cảm giác đó."
+   ]
+  },
+  {
+   "h2": "Làm sao nhận ra?",
+   "paragraphs": [
+    "Bạn thích được quan tâm, quà tặng hay thời gian bên nhau? Cung của sao Kim cho biết bạn cho và muốn nhận tình yêu thế nào."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Sao Kim ở Kim Ngưu: Lan thích yên tĩnh, đồ ăn ngon và bạn bè trung thành. Cô thể hiện tình yêu bằng những quan tâm nhỏ."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Làm sao tìm sao Kim của tôi?",
+   "a": "Từ ngày sinh, bạn tính ra cung mà sao Kim đứng."
+  },
+  {
+   "q": "Sao Kim chỉ nói về tình yêu à?",
+   "a": "Không, còn về cái đẹp, gu thẩm mỹ và tiền bạc."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

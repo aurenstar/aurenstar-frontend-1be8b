@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "venus astrologi",
+ "volume": "1000",
+ "slug": "venus-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Venus i astrologin: vad betyder det?",
+ "description": "Venus visar hur du älskar och vad du tycker är vackert. Enkelt förklarat med exempel.",
+ "intro": "Venus är planeten för kärlek, skönhet och njutning. I ditt horoskop ser du hur du ger kärlek, vad som lockar dig och hur du hanterar pengar.",
+ "sections": [
+  {
+   "h2": "Vad gör Venus?",
+   "paragraphs": [
+    "Tänk på det som känns gott: en varm kram eller fin musik. Venus är den känslan."
+   ]
+  },
+  {
+   "h2": "Hur märker du det?",
+   "paragraphs": [
+    "Gillar du uppmärksamhet, presenter eller tid tillsammans? Ditt Venus-tecken visar hur du ger och vill få kärlek."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Venus i Oxen: Rosa gillar lugn, god mat och trogna vänner. Hon visar kärlek med små omtänksamma saker."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hur hittar jag min Venus?",
+   "a": "Med ditt födelsedatum räknar du ut tecknet där Venus stod."
+  },
+  {
+   "q": "Är Venus bara för kärlek?",
+   "a": "Nej, även för skönhet, smak och pengar."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}
