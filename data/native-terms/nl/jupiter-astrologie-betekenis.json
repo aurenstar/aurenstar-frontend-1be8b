@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "jupiter astrologie",
+ "volume": "1000",
+ "slug": "jupiter-astrologie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter in de astrologie: wat betekent het?",
+ "description": "Jupiter laat zien waar je geluk, groei en vertrouwen vindt. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "Jupiter is de planeet van geluk, groei en overvloed. In je kaart zie je waar het leven je makkelijk iets extra's geeft en hoe je optimistisch blijft.",
+ "sections": [
+  {
+   "h2": "Wat doet Jupiter?",
+   "paragraphs": [
+    "Denk aan een vriend die altijd zegt: \"Dat lukt je wel!\" Jupiter is die steun in je kaart."
+   ]
+  },
+  {
+   "h2": "Hoe merk je het?",
+   "paragraphs": [
+    "Op welk gebied heb je vaak mazzel of wil je meer leren? Daar werkt Jupiter. Pas op voor te veel van het goede."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Jupiter in het huis van reizen: Roos komt steeds mooie kansen tegen in het buitenland en leert snel nieuwe talen."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hoe vind ik mijn Jupiter?",
+   "a": "Met je geboortedatum bereken je het teken waar Jupiter stond."
+  },
+  {
+   "q": "Brengt Jupiter altijd geluk?",
+   "a": "Hij geeft kansen, maar je moet zelf iets doen."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

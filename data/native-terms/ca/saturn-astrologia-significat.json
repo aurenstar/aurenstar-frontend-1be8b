@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "saturn astrologia",
+ "volume": "1000",
+ "slug": "saturn-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturn en astrologia: què significa?",
+ "description": "Saturn mostra on aprens disciplina, normes i lliçons. Explicat fàcil, amb exemple.",
+ "intro": "Saturn és el planeta de les normes, el temps i la responsabilitat. A la teva carta veus on has de treballar dur, però també on més endavant seràs fort i fiable.",
+ "sections": [
+  {
+   "h2": "Què fa Saturn?",
+   "paragraphs": [
+    "Pensa en un mestre estricte però just: difícil, però n’aprens molt. Això és Saturn."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "En quin àmbit sents pressió o por de fallar? Allà actua Saturn. Amb paciència hi esdevens bo precisament."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Saturn a la casa del treball: la Rosa ha de practicar molt abans de sentir-se segura, però més tard esdevé una cap estimada i de confiança."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Com trobo el meu Saturn?",
+   "a": "Amb la data de naixement calcules el signe on era Saturn."
+  },
+  {
+   "q": "Saturn és dolent?",
+   "a": "No, demana esforç, però recompensa amb força i calma."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

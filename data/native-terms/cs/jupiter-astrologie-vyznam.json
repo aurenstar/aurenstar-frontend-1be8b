@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "jupiter astrologie",
+ "volume": "1000",
+ "slug": "jupiter-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter v astrologii: co znamená?",
+ "description": "Jupiter ukazuje, kde najdete štěstí, růst a sebedůvěru. Jednoduše s příkladem.",
+ "intro": "Jupiter je planeta štěstí, růstu a hojnosti. V horoskopu vidíte, kde vám život snadno dá něco navíc a jak zůstanete optimističtí.",
+ "sections": [
+  {
+   "h2": "Co dělá Jupiter?",
+   "paragraphs": [
+    "Představte si přítele, který vždycky říká: „To zvládneš!“ Jupiter je ta opora ve vašem horoskopu."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "V které oblasti máte často štěstí nebo chcete víc poznat? Tam působí Jupiter. Pozor na příliš dobrého."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Jupiter v domě cest: Růža často potkává dobré příležitosti v zahraničí a rychle se učí nové jazyky."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak najdu svůj Jupiter?",
+   "a": "Z data narození spočítáte znamení, ve kterém Jupiter stál."
+  },
+  {
+   "q": "Přináší Jupiter vždy štěstí?",
+   "a": "Dává příležitosti, ale něco musíte udělat sami."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

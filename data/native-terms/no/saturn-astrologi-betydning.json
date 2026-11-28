@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "saturn astrologi",
+ "volume": "1000",
+ "slug": "saturn-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturn i astrologi: hva betyr det?",
+ "description": "Saturn viser hvor du lærer disiplin, regler og leksjoner. Enkelt forklart med eksempel.",
+ "intro": "Saturn er planeten for regler, tid og ansvar. I horoskopet ditt ser du hvor du må jobbe hardt, men også hvor du senere blir sterk og pålitelig.",
+ "sections": [
+  {
+   "h2": "Hva gjør Saturn?",
+   "paragraphs": [
+    "Tenk på en streng, men rettferdig lærer: slitsom, men du lærer mye. Det er Saturn."
+   ]
+  },
+  {
+   "h2": "Hvordan merker du det?",
+   "paragraphs": [
+    "På hvilket område føler du press eller frykt for å mislykkes? Der virker Saturn. Med tålmodighet blir du god nettopp der."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Saturn i arbeidets hus: Rosa må øve lenge før hun er trygg, men blir senere en elsket og pålitelig sjef."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvordan finner jeg Saturn?",
+   "a": "Med fødselsdatoen din regner du ut tegnet der Saturn sto."
+  },
+  {
+   "q": "Er Saturn dårlig?",
+   "a": "Nei, han krever innsats, men belønner med styrke og ro."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

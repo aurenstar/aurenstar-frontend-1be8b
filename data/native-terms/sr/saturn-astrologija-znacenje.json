@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "saturn astrologija",
+ "volume": "1000",
+ "slug": "saturn-astrologija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturn u astrologiji: šta znači?",
+ "description": "Saturn pokazuje gde učiš disciplinu, pravila i lekcije. Jednostavno, sa primerom.",
+ "intro": "Saturn je planeta pravila, vremena i odgovornosti. U horoskopu vidiš gde moraš naporno da radiš, ali i gde kasnije postaješ snažan i pouzdan.",
+ "sections": [
+  {
+   "h2": "Šta radi Saturn?",
+   "paragraphs": [
+    "Zamisli strogog, ali pravednog učitelja: težak, ali mnogo naučiš. To je Saturn."
+   ]
+  },
+  {
+   "h2": "Kako to primećuješ?",
+   "paragraphs": [
+    "U kojoj oblasti osećaš pritisak ili strah od neuspeha? Tamo deluje Saturn. Sa strpljenjem postaješ dobar baš tamo."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Saturn u kući posla: Ruža mora dugo da vežba pre nego što se oseti sigurno, ali kasnije postaje voljena i pouzdana šefica."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako naći svoj Saturn?",
+   "a": "Iz datuma rođenja izračunaš znak u kome je bio Saturn."
+  },
+  {
+   "q": "Da li je Saturn loš?",
+   "a": "Ne, traži trud, ali nagrađuje snagom i mirom."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

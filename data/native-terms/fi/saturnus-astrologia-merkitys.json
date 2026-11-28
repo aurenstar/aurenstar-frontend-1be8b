@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "saturnus astrologia",
+ "volume": "1000",
+ "slug": "saturnus-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturnus astrologiassa: mitä se tarkoittaa?",
+ "description": "Saturnus näyttää, missä opit kurinalaisuutta, sääntöjä ja läksyjä. Selitetty esimerkillä.",
+ "intro": "Saturnus on sääntöjen, ajan ja vastuun planeetta. Kartassasi näet, missä joudut tekemään kovasti töitä, mutta myös missä myöhemmin vahvistut ja luotettavaksi.",
+ "sections": [
+  {
+   "h2": "Mitä Saturnus tekee?",
+   "paragraphs": [
+    "Ajattele ankaraa mutta reilua opettajaa: rasittava, mutta opit paljon. Se on Saturnus."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Millä alueella tunnet painetta tai pelkoa epäonnistumisesta? Siellä Saturnus vaikuttaa. Kärsivällisyydellä tulet juuri siinä hyväksi."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Saturnus työn talossa: Roosan täytyy harjoitella pitkään ennen varmuutta, mutta hänestä tulee myöhemmin rakastettu ja luotettava esimies."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Miten löydän Saturnukseni?",
+   "a": "Syntymäpäivälläsi lasket merkin, jossa Saturnus oli."
+  },
+  {
+   "q": "Onko Saturnus huono?",
+   "a": "Ei, se vaatii vaivaa mutta palkitsee vahvuudella ja rauhalla."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "jupiter astrologia",
+ "volume": "1000",
+ "slug": "jupiter-astrologia-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter astrologiassa: mitä se tarkoittaa?",
+ "description": "Jupiter näyttää, mistä löydät onnea, kasvua ja itseluottamusta. Selitetty esimerkillä.",
+ "intro": "Jupiter on onnen, kasvun ja yltäkylläisyyden planeetta. Kartassasi näet, missä elämä antaa helposti jotain ylimääräistä ja miten pysyt optimistisena.",
+ "sections": [
+  {
+   "h2": "Mitä Jupiter tekee?",
+   "paragraphs": [
+    "Ajattele ystävää, joka aina sanoo: \"Kyllä sinä pystyt!\" Jupiter on se tuki kartassasi."
+   ]
+  },
+  {
+   "h2": "Miten sen huomaa?",
+   "paragraphs": [
+    "Millä alueella sinulla on usein onnea tai halu oppia lisää? Siellä Jupiter vaikuttaa. Varo liikaa hyvää."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Jupiter matkojen talossa: Roosa kohtaa usein hyviä tilaisuuksia ulkomailla ja oppii nopeasti uusia kieliä."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Miten löydän Jupiterini?",
+   "a": "Syntymäpäivälläsi lasket merkin, jossa Jupiter oli."
+  },
+  {
+   "q": "Tuoko Jupiter aina onnea?",
+   "a": "Se antaa tilaisuuksia, mutta sinun pitää itse tehdä jotain."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

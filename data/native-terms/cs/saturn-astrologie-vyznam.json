@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "saturn astrologie",
+ "volume": "1000",
+ "slug": "saturn-astrologie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturn v astrologii: co znamená?",
+ "description": "Saturn ukazuje, kde se učíte disciplínu, pravidla a lekce. Jednoduše s příkladem.",
+ "intro": "Saturn je planeta pravidel, času a odpovědnosti. V horoskopu vidíte, kde musíte tvrdě pracovat, ale i kde se později stanete silnými a spolehlivými.",
+ "sections": [
+  {
+   "h2": "Co dělá Saturn?",
+   "paragraphs": [
+    "Představte si přísného, ale spravedlivého učitele: náročný, ale hodně se naučíte. To je Saturn."
+   ]
+  },
+  {
+   "h2": "Jak to poznáte?",
+   "paragraphs": [
+    "V které oblasti cítíte tlak nebo strach z neúspěchu? Tam působí Saturn. S trpělivostí se právě tam staneme dobrými."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Saturn v domě práce: Růža musí dlouho cvičit, než je si jistá, ale později se stane oblíbenou a spolehlivou šéfkou."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak najdu svůj Saturn?",
+   "a": "Z data narození spočítáte znamení, ve kterém Saturn stál."
+  },
+  {
+   "q": "Je Saturn špatný?",
+   "a": "Ne, žádá úsilí, ale odměňuje silou a klidem."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

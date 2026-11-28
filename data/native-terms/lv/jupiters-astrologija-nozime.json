@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "jupiters astroloģija",
+ "volume": "1000",
+ "slug": "jupiters-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiters astroloģijā: ko tas nozīmē?",
+ "description": "Jupiters rāda, kur tu atrodi veiksmi, izaugsmi un pašapziņu. Vienkārši, ar piemēru.",
+ "intro": "Jupiters ir veiksmes, izaugsmes un pārpilnības planēta. Savā kartē tu redzi, kur dzīve viegli dod kaut ko vairāk un kā paliec optimistisks.",
+ "sections": [
+  {
+   "h2": "Ko dara Jupiters?",
+   "paragraphs": [
+    "Iedomājies draugu, kas vienmēr saka: „Tev izdosies!” Jupiters ir šis atbalsts tavā kartē."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Kādā jomā tev bieži veicas vai gribas uzzināt vairāk? Tur darbojas Jupiters. Uzmanies no pārāk daudz laba."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Jupiters ceļojumu mājā: Roze bieži sastop labas iespējas ārzemēs un ātri apgūst jaunas valodas."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kā atrast savu Jupiteru?",
+   "a": "No dzimšanas datuma aprēķina zīmi, kurā bija Jupiters."
+  },
+  {
+   "q": "Vai Jupiters vienmēr nes veiksmi?",
+   "a": "Viņš dod iespējas, bet kaut kas jādara arī pašam."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "jupiter astrologi",
+ "volume": "1000",
+ "slug": "jupiter-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter i astrologin: vad betyder det?",
+ "description": "Jupiter visar var du hittar tur, tillväxt och självförtroende. Enkelt förklarat med exempel.",
+ "intro": "Jupiter är planeten för tur, tillväxt och överflöd. I ditt horoskop ser du var livet lätt ger dig något extra och hur du håller dig optimistisk.",
+ "sections": [
+  {
+   "h2": "Vad gör Jupiter?",
+   "paragraphs": [
+    "Tänk på en vän som alltid säger: \"Det fixar du!\" Jupiter är det stödet i ditt horoskop."
+   ]
+  },
+  {
+   "h2": "Hur märker du det?",
+   "paragraphs": [
+    "Inom vilket område har du ofta tur eller vill lära dig mer? Där verkar Jupiter. Se upp med för mycket av det goda."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Jupiter i resornas hus: Rosa möter ofta fina chanser utomlands och lär sig snabbt nya språk."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hur hittar jag min Jupiter?",
+   "a": "Med ditt födelsedatum räknar du ut tecknet där Jupiter stod."
+  },
+  {
+   "q": "Ger Jupiter alltid tur?",
+   "a": "Han ger chanser, men du måste själv göra något."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

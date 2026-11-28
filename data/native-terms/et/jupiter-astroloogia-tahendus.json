@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "jupiter astroloogia",
+ "volume": "1000",
+ "slug": "jupiter-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter astroloogias: mida see tähendab?",
+ "description": "Jupiter näitab, kust leiad õnne, kasvu ja enesekindlust. Lihtsalt ja näitega.",
+ "intro": "Jupiter on õnne, kasvu ja külluse planeet. Sinu kaardil näed, kus elu annab sulle kergelt midagi lisaks ja kuidas püsida optimistlik.",
+ "sections": [
+  {
+   "h2": "Mida Jupiter teeb?",
+   "paragraphs": [
+    "Mõtle sõbrale, kes ütleb alati: „Sa saad hakkama!” Jupiter on see tugi sinu kaardil."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Mis valdkonnas on sul tihti õnne või tahad rohkem õppida? Seal toimib Jupiter. Ettevaatust liigse heaga."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Jupiter reiside majas: Roosi kohtab sageli häid võimalusi välismaal ja õpib kiiresti uusi keeli."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuidas leida oma Jupiter?",
+   "a": "Sünnikuupäevast arvutad märgi, kus Jupiter oli."
+  },
+  {
+   "q": "Kas Jupiter toob alati õnne?",
+   "a": "Ta annab võimalusi, kuid midagi pead ise tegema."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

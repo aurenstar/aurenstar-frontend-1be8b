@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "jowisz astrologia",
+ "volume": "1000",
+ "slug": "jowisz-astrologia-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jowisz w astrologii: co oznacza?",
+ "description": "Jowisz pokazuje, gdzie znajdziesz szczęście, rozwój i pewność siebie. Wyjaśnione prosto, z przykładem.",
+ "intro": "Jowisz to planeta szczęścia, rozwoju i obfitości. W horoskopie widzisz, gdzie życie łatwo daje Ci coś ekstra i jak zachować optymizm.",
+ "sections": [
+  {
+   "h2": "Co robi Jowisz?",
+   "paragraphs": [
+    "Pomyśl o przyjacielu, który zawsze mówi: „Dasz radę!” Jowisz to to wsparcie w Twoim horoskopie."
+   ]
+  },
+  {
+   "h2": "Jak to zauważysz?",
+   "paragraphs": [
+    "W jakiej dziedzinie często masz szczęście lub chcesz wiedzieć więcej? Tam działa Jowisz. Uważaj na zbyt wiele dobrego."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Jowisz w domu podróży: Róża często spotyka dobre okazje za granicą i szybko uczy się nowych języków."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Jak znaleźć mojego Jowisza?",
+   "a": "Z daty urodzenia obliczysz znak, w którym był Jowisz."
+  },
+  {
+   "q": "Czy Jowisz zawsze przynosi szczęście?",
+   "a": "Daje okazje, ale trzeba coś zrobić samemu."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

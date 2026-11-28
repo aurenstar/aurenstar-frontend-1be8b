@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "szaturnusz asztrológia",
+ "volume": "1000",
+ "slug": "szaturnusz-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Szaturnusz az asztrológiában: mit jelent?",
+ "description": "A Szaturnusz megmutatja, hol tanulsz fegyelmet, szabályokat és leckéket. Egyszerűen, példával.",
+ "intro": "A Szaturnusz a szabályok, az idő és a felelősség bolygója. A horoszkópodban látod, hol kell keményen dolgoznod, de azt is, hol leszel később erős és megbízható.",
+ "sections": [
+  {
+   "h2": "Mit csinál a Szaturnusz?",
+   "paragraphs": [
+    "Gondolj egy szigorú, de igazságos tanárra: fárasztó, de sokat tanulsz. Ez a Szaturnusz."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Melyik területen érzel nyomást vagy kudarctól való félelmet? Ott működik a Szaturnusz. Türelemmel éppen ott leszel jó."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Szaturnusz a munka házában: Rózsának sokáig kell gyakorolnia, mire biztos lesz, de később szeretett és megbízható főnök lesz."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hogyan találom meg a Szaturnuszomat?",
+   "a": "A születési dátumodból kiszámolod, melyik jegyben állt a Szaturnusz."
+  },
+  {
+   "q": "Rossz a Szaturnusz?",
+   "a": "Nem, erőfeszítést kér, de erővel és nyugalommal jutalmaz."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

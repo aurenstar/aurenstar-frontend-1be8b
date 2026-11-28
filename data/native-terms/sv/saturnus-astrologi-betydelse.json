@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "saturnus astrologi",
+ "volume": "1000",
+ "slug": "saturnus-astrologi-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturnus i astrologin: vad betyder det?",
+ "description": "Saturnus visar var du lär dig disciplin, regler och lektioner. Enkelt förklarat med exempel.",
+ "intro": "Saturnus är planeten för regler, tid och ansvar. I ditt horoskop ser du var du måste jobba hårt, men också var du senare blir stark och pålitlig.",
+ "sections": [
+  {
+   "h2": "Vad gör Saturnus?",
+   "paragraphs": [
+    "Tänk på en sträng men rättvis lärare: jobbig, men du lär dig mycket. Det är Saturnus."
+   ]
+  },
+  {
+   "h2": "Hur märker du det?",
+   "paragraphs": [
+    "Inom vilket område känner du press eller rädsla att misslyckas? Där verkar Saturnus. Med tålamod blir du bra just där."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Saturnus i arbetets hus: Rosa måste öva länge innan hon är säker, men blir senare en älskad och pålitlig chef."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hur hittar jag min Saturnus?",
+   "a": "Med ditt födelsedatum räknar du ut tecknet där Saturnus stod."
+  },
+  {
+   "q": "Är Saturnus dålig?",
+   "a": "Nej, han kräver ansträngning men belönar med styrka och lugn."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "saturn astroloogia",
+ "volume": "1000",
+ "slug": "saturn-astroloogia-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturn astroloogias: mida see tähendab?",
+ "description": "Saturn näitab, kus õpid distsipliini, reegleid ja õppetunde. Lihtsalt ja näitega.",
+ "intro": "Saturn on reeglite, aja ja vastutuse planeet. Sinu kaardil näed, kus pead kõvasti tööd tegema, aga ka kus saad hiljem tugevaks ja usaldusväärseks.",
+ "sections": [
+  {
+   "h2": "Mida Saturn teeb?",
+   "paragraphs": [
+    "Mõtle ranget, kuid õiglast õpetajat: raske, aga õpid palju. See on Saturn."
+   ]
+  },
+  {
+   "h2": "Kuidas seda märkad?",
+   "paragraphs": [
+    "Millises valdkonnas tunned survet või ebaõnnestumise hirmu? Seal toimib Saturn. Kannatlikkusega said just seal heaks."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Saturn töö majas: Roosi peab kaua harjutama, enne kui end kindlalt tunneb, kuid hiljem saab armastatud ja usaldusväärne juht."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kuidas leida oma Saturn?",
+   "a": "Sünnikuupäevast arvutad märgi, kus Saturn oli."
+  },
+  {
+   "q": "Kas Saturn on halb?",
+   "a": "Ei, ta nõuab pingutust, kuid tasub jõu ja rahuga."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

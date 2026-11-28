@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "jupiter astrologie",
+ "volume": "1000",
+ "slug": "jupiter-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter în astrologie: ce înseamnă?",
+ "description": "Jupiter arată unde găsești noroc, creștere și încredere. Explicat simplu, cu exemplu.",
+ "intro": "Jupiter este planeta norocului, a creșterii și a abundenței. În harta ta vezi unde viața îți dă ușor ceva în plus și cum rămâi optimist.",
+ "sections": [
+  {
+   "h2": "Ce face Jupiter?",
+   "paragraphs": [
+    "Gândește-te la un prieten care spune mereu: „Tu poți!” Jupiter e acel sprijin din harta ta."
+   ]
+  },
+  {
+   "h2": "Cum observi?",
+   "paragraphs": [
+    "În ce domeniu ai adesea noroc sau vrei să înveți mai mult? Acolo lucrează Jupiter. Atenție la prea mult din ce e bun."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Jupiter în casa călătoriilor: Roza întâlnește des ocazii bune în străinătate și învață repede limbi noi."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cum îmi găsesc Jupiter?",
+   "a": "Cu data nașterii calculezi semnul în care era Jupiter."
+  },
+  {
+   "q": "Aduce Jupiter mereu noroc?",
+   "a": "Dă ocazii, dar trebuie să faci și tu ceva."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

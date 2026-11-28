@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "jupiter astrologija",
+ "volume": "1000",
+ "slug": "jupiter-astrologija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter v astrologiji: kaj pomeni?",
+ "description": "Jupiter kaže, kje najdete srečo, rast in samozavest. Preprosto, s primerom.",
+ "intro": "Jupiter je planet sreče, rasti in obilja. V horoskopu vidite, kje vam življenje zlahka da nekaj več in kako ostanete optimistični.",
+ "sections": [
+  {
+   "h2": "Kaj dela Jupiter?",
+   "paragraphs": [
+    "Predstavljajte si prijatelja, ki vedno reče: »Zmoreš!« Jupiter je ta opora v vašem horoskopu."
+   ]
+  },
+  {
+   "h2": "Kako to opazite?",
+   "paragraphs": [
+    "Na katerem področju imate pogosto srečo ali želite izvedeti več? Tam deluje Jupiter. Pazite na preveč dobrega."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Jupiter v hiši potovanj: Roza pogosto sreča dobre priložnosti v tujini in se hitro uči novih jezikov."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kako najdem svoj Jupiter?",
+   "a": "Iz datuma rojstva izračunate znamenje, v katerem je bil Jupiter."
+  },
+  {
+   "q": "Ali Jupiter vedno prinese srečo?",
+   "a": "Daje priložnosti, a nekaj morate narediti tudi sami."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

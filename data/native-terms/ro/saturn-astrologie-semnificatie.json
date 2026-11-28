@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "saturn astrologie",
+ "volume": "1000",
+ "slug": "saturn-astrologie-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturn în astrologie: ce înseamnă?",
+ "description": "Saturn arată unde înveți disciplină, reguli și lecții. Explicat simplu, cu exemplu.",
+ "intro": "Saturn este planeta regulilor, a timpului și a responsabilității. În harta ta vezi unde trebuie să muncești mult, dar și unde devii mai târziu puternic și de încredere.",
+ "sections": [
+  {
+   "h2": "Ce face Saturn?",
+   "paragraphs": [
+    "Gândește-te la un profesor sever, dar drept: greu, dar înveți mult. Asta e Saturn."
+   ]
+  },
+  {
+   "h2": "Cum observi?",
+   "paragraphs": [
+    "În ce domeniu simți presiune sau teama de eșec? Acolo lucrează Saturn. Cu răbdare devii bun tocmai acolo."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Saturn în casa muncii: Roza trebuie să exerseze mult până se simte sigură, dar mai târziu devine o șefă iubită și de încredere."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cum îmi găsesc Saturn?",
+   "a": "Cu data nașterii calculezi semnul în care era Saturn."
+  },
+  {
+   "q": "Este Saturn rău?",
+   "a": "Nu, cere efort, dar răsplătește cu forță și liniște."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

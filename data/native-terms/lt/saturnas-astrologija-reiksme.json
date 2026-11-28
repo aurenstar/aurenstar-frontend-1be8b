@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "saturnas astrologija",
+ "volume": "1000",
+ "slug": "saturnas-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturnas astrologijoje: ką tai reiškia?",
+ "description": "Saturnas rodo, kur mokaisi drausmės, taisyklių ir pamokų. Paprastai, su pavyzdžiu.",
+ "intro": "Saturnas yra taisyklių, laiko ir atsakomybės planeta. Savo horoskope matai, kur turi sunkiai dirbti, bet ir kur vėliau tampi stiprus ir patikimas.",
+ "sections": [
+  {
+   "h2": "Ką daro Saturnas?",
+   "paragraphs": [
+    "Įsivaizduok griežtą, bet teisingą mokytoją: sunkus, bet daug išmoksti. Tai Saturnas."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Kurioje srityje jauti spaudimą ar nesėkmės baimę? Ten veikia Saturnas. Kantrybe būtent ten tampi geras."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Saturnas darbo name: Rūta turi ilgai treniruotis, kol pasijunta tikra, bet vėliau tampa mylima ir patikima vadove."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kaip rasti savo Saturną?",
+   "a": "Pagal gimimo datą apskaičiuoji ženklą, kuriame buvo Saturnas."
+  },
+  {
+   "q": "Ar Saturnas blogas?",
+   "a": "Ne, jis reikalauja pastangų, bet atlygina jėga ir ramybe."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

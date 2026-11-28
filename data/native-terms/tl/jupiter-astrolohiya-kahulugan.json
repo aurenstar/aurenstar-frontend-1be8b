@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "jupiter astrolohiya",
+ "volume": "1000",
+ "slug": "jupiter-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Ipinapakita ng Jupiter kung saan ka makakakita ng swerte, paglago, at tiwala sa sarili. Simple, may halimbawa.",
+ "intro": "Ang Jupiter ay planeta ng swerte, paglago, at kasaganaan. Sa chart mo makikita kung saan madaling nagbibigay ng dagdag ang buhay at paano ka nananatiling positibo.",
+ "sections": [
+  {
+   "h2": "Ano ang ginagawa ng Jupiter?",
+   "paragraphs": [
+    "Isipin ang kaibigang laging nagsasabing: \"Kaya mo yan!\" Ang Jupiter ay ang suportang iyon sa chart mo."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Sa anong larangan ka madalas swertihin o gustong matuto pa? Doon gumagana ang Jupiter. Mag-ingat sa sobra-sobrang kabutihan."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Jupiter sa bahay ng paglalakbay: madalas makatagpo si Mika ng magagandang oportunidad sa ibang bansa at mabilis matuto ng bagong wika."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Paano ko hahanapin ang Jupiter ko?",
+   "a": "Gamit ang petsa ng kapanganakan, kuwentahin ang sign kung nasaan ang Jupiter."
+  },
+  {
+   "q": "Palagi bang nagdadala ng swerte ang Jupiter?",
+   "a": "Nagbibigay ito ng pagkakataon, pero may kailangan ka ring gawin."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "da",
+ "keyword": "jupiter astrologi",
+ "volume": "1000",
+ "slug": "jupiter-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter i astrologi: hvad betyder det?",
+ "description": "Jupiter viser, hvor du finder held, vækst og selvtillid. Forklaret enkelt med eksempel.",
+ "intro": "Jupiter er planeten for held, vækst og overflod. I dit horoskop ser du, hvor livet let giver dig noget ekstra, og hvordan du bevarer optimismen.",
+ "sections": [
+  {
+   "h2": "Hvad gør Jupiter?",
+   "paragraphs": [
+    "Tænk på en ven, der altid siger: \"Det klarer du!\" Jupiter er den støtte i dit horoskop."
+   ]
+  },
+  {
+   "h2": "Hvordan mærker du det?",
+   "paragraphs": [
+    "På hvilket område har du ofte held eller vil lære mere? Der virker Jupiter. Pas på for meget af det gode."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Jupiter i rejsernes hus: Rosa møder ofte gode chancer i udlandet og lærer hurtigt nye sprog."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvordan finder jeg min Jupiter?",
+   "a": "Med din fødselsdato regner du tegnet ud, hvor Jupiter stod."
+  },
+  {
+   "q": "Giver Jupiter altid held?",
+   "a": "Han giver chancer, men du skal selv gøre noget."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ },
+ "tool": "descreva-me"
+}

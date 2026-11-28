@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "saturn astrolohiya",
+ "volume": "1000",
+ "slug": "saturn-astrolohiya-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturn sa Astrolohiya: Ano ang Ibig Sabihin?",
+ "description": "Ipinapakita ng Saturn kung saan ka natututo ng disiplina, patakaran, at aral. Simple, may halimbawa.",
+ "intro": "Ang Saturn ay planeta ng patakaran, oras, at pananagutan. Sa chart mo makikita kung saan kailangan mong magsikap, at kung saan ka magiging matatag at mapagkakatiwalaan sa huli.",
+ "sections": [
+  {
+   "h2": "Ano ang ginagawa ng Saturn?",
+   "paragraphs": [
+    "Isipin ang gurong istrikto pero patas: mahirap, pero marami kang natututunan. Iyan ang Saturn."
+   ]
+  },
+  {
+   "h2": "Paano mo malalaman?",
+   "paragraphs": [
+    "Sa anong larangan ka nakakaramdam ng pressure o takot na mabigo? Doon gumagana ang Saturn. Sa tiyaga, doon ka magiging mahusay."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Saturn sa bahay ng trabaho: kailangang magsanay nang matagal si Mika bago maging kumpiyansa, pero kalaunan ay magiging mahal at maaasahang boss."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Paano ko hahanapin ang Saturn ko?",
+   "a": "Gamit ang petsa ng kapanganakan, kuwentahin ang sign kung nasaan ang Saturn."
+  },
+  {
+   "q": "Masama ba ang Saturn?",
+   "a": "Hindi, humihingi ito ng pagsisikap pero ginagantimpalaan ng lakas at kapayapaan."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

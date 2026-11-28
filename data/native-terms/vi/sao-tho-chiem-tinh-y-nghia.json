@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "sao Thổ chiêm tinh",
+ "volume": "1000",
+ "slug": "sao-tho-chiem-tinh-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sao Thổ trong chiêm tinh có ý nghĩa gì?",
+ "description": "Sao Thổ cho thấy nơi bạn học kỷ luật, quy tắc và bài học. Giải thích đơn giản, có ví dụ.",
+ "intro": "Sao Thổ là hành tinh của quy tắc, thời gian và trách nhiệm. Trong lá số, bạn thấy nơi phải làm việc chăm chỉ, nhưng cũng nơi sau này bạn trở nên mạnh mẽ và đáng tin.",
+ "sections": [
+  {
+   "h2": "Sao Thổ làm gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến người thầy nghiêm khắc nhưng công bằng: khó, nhưng học được nhiều. Đó là sao Thổ."
+   ]
+  },
+  {
+   "h2": "Làm sao nhận ra?",
+   "paragraphs": [
+    "Ở lĩnh vực nào bạn thấy áp lực hoặc sợ thất bại? Ở đó sao Thổ hoạt động. Kiên nhẫn sẽ giúp bạn giỏi đúng chỗ đó."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Sao Thổ ở nhà công việc: Lan phải luyện tập lâu mới tự tin, nhưng về sau trở thành người sếp được yêu mến và đáng tin."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Làm sao tìm sao Thổ của tôi?",
+   "a": "Từ ngày sinh, bạn tính ra cung mà sao Thổ đứng."
+  },
+  {
+   "q": "Sao Thổ có xấu không?",
+   "a": "Không, nó đòi hỏi nỗ lực nhưng thưởng bằng sức mạnh và bình yên."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

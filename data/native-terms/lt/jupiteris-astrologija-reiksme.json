@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "jupiteris astrologija",
+ "volume": "1000",
+ "slug": "jupiteris-astrologija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiteris astrologijoje: ką tai reiškia?",
+ "description": "Jupiteris rodo, kur randi sėkmę, augimą ir pasitikėjimą. Paprastai, su pavyzdžiu.",
+ "intro": "Jupiteris yra sėkmės, augimo ir gausos planeta. Savo horoskope matai, kur gyvenimas lengvai duoda ką nors daugiau ir kaip išlieki optimistas.",
+ "sections": [
+  {
+   "h2": "Ką daro Jupiteris?",
+   "paragraphs": [
+    "Įsivaizduok draugą, kuris visada sako: „Tau pavyks!“ Jupiteris yra ta parama tavo horoskope."
+   ]
+  },
+  {
+   "h2": "Kaip tai pastebi?",
+   "paragraphs": [
+    "Kurioje srityje tau dažnai sekasi arba nori sužinoti daugiau? Ten veikia Jupiteris. Saugokis per daug gero."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Jupiteris kelionių name: Rūta dažnai sutinka gerų galimybių užsienyje ir greitai mokosi naujų kalbų."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kaip rasti savo Jupiterį?",
+   "a": "Pagal gimimo datą apskaičiuoji ženklą, kuriame buvo Jupiteris."
+  },
+  {
+   "q": "Ar Jupiteris visada atneša sėkmę?",
+   "a": "Jis duoda galimybių, bet kai ką turi padaryti pats."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

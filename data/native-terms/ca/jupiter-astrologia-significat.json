@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "júpiter astrologia",
+ "volume": "1000",
+ "slug": "jupiter-astrologia-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Júpiter en astrologia: què significa?",
+ "description": "Júpiter mostra on trobes sort, creixement i confiança. Explicat fàcil, amb exemple.",
+ "intro": "Júpiter és el planeta de la sort, el creixement i l’abundància. A la teva carta veus on la vida et dona fàcilment alguna cosa més i com mantens l’optimisme.",
+ "sections": [
+  {
+   "h2": "Què fa Júpiter?",
+   "paragraphs": [
+    "Pensa en un amic que sempre diu: “Ho aconseguiràs!” Júpiter és aquest suport a la teva carta."
+   ]
+  },
+  {
+   "h2": "Com ho notes?",
+   "paragraphs": [
+    "En quin àmbit tens sovint sort o vols aprendre més? Allà actua Júpiter. Compte amb massa bé."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "Júpiter a la casa dels viatges: la Rosa troba sovint bones oportunitats a l’estranger i aprèn ràpid idiomes nous."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Com trobo el meu Júpiter?",
+   "a": "Amb la data de naixement calcules el signe on era Júpiter."
+  },
+  {
+   "q": "Júpiter porta sempre sort?",
+   "a": "Dona oportunitats, però alguna cosa has de fer tu."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

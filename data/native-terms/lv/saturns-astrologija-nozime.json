@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "saturns astroloģija",
+ "volume": "1000",
+ "slug": "saturns-astrologija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturns astroloģijā: ko tas nozīmē?",
+ "description": "Saturns rāda, kur tu mācies disciplīnu, noteikumus un mācības. Vienkārši, ar piemēru.",
+ "intro": "Saturns ir noteikumu, laika un atbildības planēta. Savā kartē tu redzi, kur jāstrādā smagi, bet arī kur vēlāk kļūsti stiprs un uzticams.",
+ "sections": [
+  {
+   "h2": "Ko dara Saturns?",
+   "paragraphs": [
+    "Iedomājies stingru, bet taisnīgu skolotāju: grūts, bet daudz iemācies. Tas ir Saturns."
+   ]
+  },
+  {
+   "h2": "Kā to pamanīt?",
+   "paragraphs": [
+    "Kurā jomā tu jūti spiedienu vai bailes no neveiksmes? Tur darbojas Saturns. Ar pacietību tieši tur kļūsti labs."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Saturns darba mājā: Rozei jātrenējas ilgi, līdz jūtas droša, bet vēlāk viņa kļūst par mīļotu un uzticamu vadītāju."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kā atrast savu Saturnu?",
+   "a": "No dzimšanas datuma aprēķina zīmi, kurā bija Saturns."
+  },
+  {
+   "q": "Vai Saturns ir slikts?",
+   "a": "Nē, viņš prasa piepūli, bet atalgo ar spēku un mieru."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

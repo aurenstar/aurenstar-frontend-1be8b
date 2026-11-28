@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "jupiter asztrológia",
+ "volume": "1000",
+ "slug": "jupiter-asztrologia-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter az asztrológiában: mit jelent?",
+ "description": "A Jupiter megmutatja, hol találsz szerencsét, fejlődést és önbizalmat. Egyszerűen, példával.",
+ "intro": "A Jupiter a szerencse, a fejlődés és a bőség bolygója. A horoszkópodban látod, hol ad az élet könnyen valami pluszt, és hogyan maradsz optimista.",
+ "sections": [
+  {
+   "h2": "Mit csinál a Jupiter?",
+   "paragraphs": [
+    "Gondolj egy barátra, aki mindig azt mondja: „Menni fog!” A Jupiter ez a támasz a horoszkópodban."
+   ]
+  },
+  {
+   "h2": "Hogyan veszed észre?",
+   "paragraphs": [
+    "Mely területen van gyakran szerencséd, vagy szeretnél többet tanulni? Ott működik a Jupiter. Vigyázz a túl sok jóval."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Jupiter az utazások házában: Rózsa gyakran talál jó lehetőséget külföldön, és gyorsan tanul új nyelveket."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hogyan találom meg a Jupiteremet?",
+   "a": "A születési dátumodból kiszámolod, melyik jegyben állt a Jupiter."
+  },
+  {
+   "q": "Mindig szerencsét hoz a Jupiter?",
+   "a": "Lehetőséget ad, de neked is tenned kell valamit."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

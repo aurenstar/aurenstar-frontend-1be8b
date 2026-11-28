@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "jupiter astrologi",
+ "volume": "1000",
+ "slug": "jupiter-astrologi-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Jupiter i astrologi: hva betyr det?",
+ "description": "Jupiter viser hvor du finner flaks, vekst og selvtillit. Enkelt forklart med eksempel.",
+ "intro": "Jupiter er planeten for flaks, vekst og overflod. I horoskopet ditt ser du hvor livet lett gir deg noe ekstra og hvordan du holder deg optimistisk.",
+ "sections": [
+  {
+   "h2": "Hva gjør Jupiter?",
+   "paragraphs": [
+    "Tenk på en venn som alltid sier: \"Det klarer du!\" Jupiter er den støtten i horoskopet ditt."
+   ]
+  },
+  {
+   "h2": "Hvordan merker du det?",
+   "paragraphs": [
+    "På hvilket område har du ofte flaks eller vil lære mer? Der virker Jupiter. Pass på for mye av det gode."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Jupiter i reisenes hus: Rosa møter ofte fine sjanser i utlandet og lærer raskt nye språk."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Hvordan finner jeg Jupiter?",
+   "a": "Med fødselsdatoen din regner du ut tegnet der Jupiter sto."
+  },
+  {
+   "q": "Gir Jupiter alltid flaks?",
+   "a": "Han gir sjanser, men du må selv gjøre noe."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}
