@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "Debesu vidus",
+ "volume": "1000",
+ "slug": "debesu-vidus-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Debesu vidus (MC): kas tas ir un ko nozīmē?",
+ "description": "Debesu vidus ir augstākais punkts kartē un runā par karjeru un reputāciju. Vienkārši.",
+ "intro": "Debesu vidus (MC) ir punkts, kas tavā dzimšanas brīdī atradās debesīs visaugstāk. Tas parāda, kā pasaule redz tavu darbu un vārdu.",
+ "sections": [
+  {
+   "h2": "Kas ir MC?",
+   "paragraphs": [
+    "Iedomājies mājas jumtu: to redz visi. Tas runā par tavu aicinājumu, mērķiem un lomu sabiedrībā."
+   ]
+  },
+  {
+   "h2": "Kā to atrast?",
+   "paragraphs": [
+    "Vajag dzimšanas datumu, laiku un vietu. Bezmaksas rīks MC aprēķina uzreiz."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Annas MC ir Svaros. Cilvēki viņu redz kā taisnīgu un diplomātisku, un viņa plaukst darbā, kas savieno cilvēkus, piemēram, mediācijā vai dizainā."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai MC ir tas pats, kas mana saules zīme?",
+   "a": "Nē, saules zīme ir tava būtība; MC ir tavs publiskais tēls un virziens."
+  },
+  {
+   "q": "Vai man jāzina dzimšanas laiks?",
+   "a": "Jā, MC pārvietojas aptuveni par grādu ik pēc četrām minūtēm."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

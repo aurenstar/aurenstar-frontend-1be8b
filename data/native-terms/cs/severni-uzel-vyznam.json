@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "severní uzel",
+ "volume": "1000",
+ "slug": "severni-uzel-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Severní uzel: co to je a co znamená?",
+ "description": "Severní uzel ukazuje, kam v tomto životě rostete. Jednoduše s příkladem.",
+ "intro": "Severní uzel je bod v rodném horoskopu, který ukazuje, jakým směrem můžete v tomto životě růst. Není to planeta, ale citlivé místo v mapě.",
+ "sections": [
+  {
+   "h2": "Co je severní uzel?",
+   "paragraphs": [
+    "Berte ho jako kompas. Jižní uzel je vaše komfortní zóna: co už umíte. Severní uzel je směr, kam rostete, i když to zprvu působí cize."
+   ]
+  },
+  {
+   "h2": "Jak ho zjistit?",
+   "paragraphs": [
+    "Potřebujete datum narození, hodí se i čas. Bezplatný nástroj ukáže znamení a dům uzlu."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Honza je velmi samostatný (jižní uzel). Severní uzel ve Váhách ho učí spolupracovat a věřit druhým."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je severní uzel planeta?",
+   "a": "Ne, je to matematický bod, kde dráha Měsíce kříží dráhu Slunce."
+  },
+  {
+   "q": "Musím se severním uzlem řídit?",
+   "a": "Je to směr, ne povinnost: ukazuje, kde je růst."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

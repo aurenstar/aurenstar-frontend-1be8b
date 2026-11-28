@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "Medium Coeli",
+ "volume": "1000",
+ "slug": "medium-coeli-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Medium Coeli (MC): kaj je in kaj pomeni?",
+ "description": "Medium Coeli je najvišja točka karte in govori o karieri in ugledu. Preprosto.",
+ "intro": "Medium Coeli (MC) je točka, ki je ob vašem rojstvu stala najvišje na nebu. Kaže, kako svet vidi vaše delo in ime.",
+ "sections": [
+  {
+   "h2": "Kaj je MC?",
+   "paragraphs": [
+    "Predstavljajte si streho hiše: vsak jo vidi. Gre za vaše poslanstvo, cilje in vlogo, ki jo želite v družbi."
+   ]
+  },
+  {
+   "h2": "Kako ga najdete?",
+   "paragraphs": [
+    "Potrebujete datum, uro in kraj rojstva. Brezplačno orodje takoj izračuna MC."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Nina ima MC v Tehtnici. Ljudje jo vidijo kot pravično in diplomatsko, uspeva pa v delu, ki povezuje ljudi, na primer mediacija ali oblikovanje."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je MC isto kot moje sončno znamenje?",
+   "a": "Ne, sončno znamenje je vaše jedro; MC je vaša javna podoba in smer."
+  },
+  {
+   "q": "Moram poznati uro rojstva?",
+   "a": "Da, MC se premakne približno za stopinjo na štiri minute."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

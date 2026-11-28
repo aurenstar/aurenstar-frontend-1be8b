@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "Medium Coeli",
+ "volume": "1000",
+ "slug": "medium-coeli-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Medium Coeli (MC): ce este și ce înseamnă?",
+ "description": "Medium Coeli este cel mai înalt punct al hărții natale și spune ceva despre carieră și reputație. Explicat simplu.",
+ "intro": "Medium Coeli (MC) este punctul aflat cel mai sus pe cer la nașterea ta. Arată cum vede lumea munca și numele tău.",
+ "sections": [
+  {
+   "h2": "Ce este MC?",
+   "paragraphs": [
+    "Gândește-te la acoperișul casei: îl vede toată lumea. Vorbește despre chemarea ta, scopuri și rolul pe care vrei să-l ai în societate."
+   ]
+  },
+  {
+   "h2": "Cum îl afli?",
+   "paragraphs": [
+    "Ai nevoie de data, ora și locul nașterii. Un instrument gratuit calculează MC imediat."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Eva are MC în Balanță. Oamenii o văd corectă și diplomată și se dezvoltă în munci care unesc oamenii, ca medierea sau designul."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "MC este același lucru cu zodia mea solară?",
+   "a": "Nu, zodia solară este nucleul tău; MC este imaginea ta publică și direcția."
+  },
+  {
+   "q": "Trebuie să știu ora nașterii?",
+   "a": "Da, MC se mută cam un grad la patru minute."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

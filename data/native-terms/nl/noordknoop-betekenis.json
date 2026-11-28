@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "Noordknoop",
+ "volume": "1000",
+ "slug": "noordknoop-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Noordknoop: wat is het en wat betekent het?",
+ "description": "De noordknoop wijst naar waar je in dit leven naartoe groeit. Eenvoudig uitgelegd met voorbeeld.",
+ "intro": "De noordknoop is een punt in je geboortekaart dat laat zien welke richting je in dit leven kunt groeien. Het is geen planeet, maar een gevoelige plek in je kaart.",
+ "sections": [
+  {
+   "h2": "Wat is de noordknoop?",
+   "paragraphs": [
+    "Zie het als een kompas. Je zuidknoop is je comfortzone: wat je al goed kent. De noordknoop is waar je heen groeit, ook als dat eerst onwennig voelt."
+   ]
+  },
+  {
+   "h2": "Hoe vind je hem?",
+   "paragraphs": [
+    "Je hebt je geboortedatum nodig, een tijd is handig. Een gratis tool geeft het teken en huis van je noordknoop."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Lars is erg zelfstandig (zuidknoop). Zijn noordknoop in Weegschaal leert hem samenwerken en op anderen te vertrouwen."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is de noordknoop een planeet?",
+   "a": "Nee, het is een wiskundig punt waar de baan van de Maan de zonnebaan kruist."
+  },
+  {
+   "q": "Moet ik mijn noordknoop volgen?",
+   "a": "Het is een richting, geen plicht: hij laat zien waar groei zit."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "Medium Coeli",
+ "volume": "1000",
+ "slug": "medium-coeli-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Medium Coeli (MC): hva er det og hva betyr det?",
+ "description": "Medium Coeli er det høyeste punktet i horoskopet og sier noe om karriere og rykte. Enkelt forklart.",
+ "intro": "Medium Coeli (MC) er punktet som sto høyest på himmelen da du ble født. Det viser hvordan omverdenen ser arbeidet og navnet ditt.",
+ "sections": [
+  {
+   "h2": "Hva er MC?",
+   "paragraphs": [
+    "Tenk på det som husets tak: alle ser det. Det handler om kallet ditt, målene dine og rollen du vil ha i samfunnet."
+   ]
+  },
+  {
+   "h2": "Hvordan finner du det?",
+   "paragraphs": [
+    "Du trenger fødselsdato, tid og sted. Et gratis verktøy regner ut MC med en gang."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Emma har Vekten som MC. Folk ser henne som rettferdig og diplomatisk, og hun vokser i arbeid der hun forbinder mennesker, som mekling eller design."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Er MC det samme som soltegnet mitt?",
+   "a": "Nei, soltegnet er kjernen din; MC er ditt offentlige bilde og retning."
+  },
+  {
+   "q": "Må jeg kjenne fødselstidspunktet?",
+   "a": "Ja, MC flytter seg omtrent en grad hvert fjerde minutt."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

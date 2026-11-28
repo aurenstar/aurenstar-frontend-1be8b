@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "severný uzol",
+ "volume": "1000",
+ "slug": "severny-uzol-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Severný uzol: čo to je a čo znamená?",
+ "description": "Severný uzol ukazuje, kam v tomto živote rastiete. Jednoducho s príkladom.",
+ "intro": "Severný uzol je bod v rodnom horoskope, ktorý ukazuje, akým smerom môžete v tomto živote rásť. Nie je to planéta, ale citlivé miesto v mape.",
+ "sections": [
+  {
+   "h2": "Čo je severný uzol?",
+   "paragraphs": [
+    "Berte ho ako kompas. Južný uzol je vaša komfortná zóna: čo už viete. Severný uzol je smer, kam rastiete, aj keď to spočiatku pôsobí cudzo."
+   ]
+  },
+  {
+   "h2": "Ako ho zistiť?",
+   "paragraphs": [
+    "Potrebujete dátum narodenia, hodí sa aj čas. Bezplatný nástroj ukáže znamenie a dom uzla."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Martin je veľmi samostatný (južný uzol). Severný uzol vo Váhach ho učí spolupracovať a dôverovať druhým."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je severný uzol planéta?",
+   "a": "Nie, je to matematický bod, kde dráha Mesiaca križuje dráhu Slnka."
+  },
+  {
+   "q": "Musím sa severným uzlom riadiť?",
+   "a": "Je to smer, nie povinnosť: ukazuje, kde je rast."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "Migcel (MC)",
+ "volume": "1000",
+ "slug": "migcel-mc-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Migcel (MC): què és i què significa?",
+ "description": "El Migcel és el punt més alt de la carta i parla de carrera i reputació. Explicat fàcil.",
+ "intro": "El Migcel (MC) és el punt que era més alt al cel quan vas néixer. Mostra com el món veu la teva feina i el teu nom.",
+ "sections": [
+  {
+   "h2": "Què és el MC?",
+   "paragraphs": [
+    "Pensa en el sostre de la casa: tothom el veu. Parla de la teva vocació, objectius i el paper que vols tenir a la societat."
+   ]
+  },
+  {
+   "h2": "Com el trobes?",
+   "paragraphs": [
+    "Necessites data, hora i lloc de naixement. Una eina gratuïta calcula el MC a l’instant."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "La Marta té el MC a Balança. La gent la veu justa i diplomàtica, i creix en feines que uneixen persones, com la mediació o el disseny."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "El MC és el mateix que el meu signe solar?",
+   "a": "No, el signe solar és la teva essència; el MC és la teva imatge pública i direcció."
+  },
+  {
+   "q": "He de saber l’hora de naixement?",
+   "a": "Sí, el MC es mou aproximadament un grau cada quatre minuts."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

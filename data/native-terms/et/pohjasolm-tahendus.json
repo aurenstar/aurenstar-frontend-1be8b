@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "põhjasõlm",
+ "volume": "1000",
+ "slug": "pohjasolm-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Põhjasõlm: mis see on ja mida tähendab?",
+ "description": "Põhjasõlm näitab, kuhu sa selles elus kasvad. Lihtsalt ja näitega.",
+ "intro": "Põhjasõlm on sünnikaardi punkt, mis näitab, millises suunas saad selles elus kasvada. See pole planeet, vaid tundlik koht kaardil.",
+ "sections": [
+  {
+   "h2": "Mis on põhjasõlm?",
+   "paragraphs": [
+    "Mõtle kompassile. Lõunasõlm on sinu mugavustsoon: see, mida juba oskad. Põhjasõlm on kasvusuund, ka siis, kui see esialgu võõras tundub."
+   ]
+  },
+  {
+   "h2": "Kuidas seda leida?",
+   "paragraphs": [
+    "Vaja on sünnikuupäeva, kellaaeg aitab. Tasuta tööriist näitab sõlme märki ja maja."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Marko on väga iseseisev (lõunasõlm). Põhjasõlm Kaaludes õpetab teda koostööle ja usaldusele."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas põhjasõlm on planeet?",
+   "a": "Ei, see on matemaatiline punkt, kus Kuu orbiit lõikab Päikese orbiiti."
+  },
+  {
+   "q": "Kas pean oma põhjasõlme järgima?",
+   "a": "See on suund, mitte kohustus: näitab, kus on kasv."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

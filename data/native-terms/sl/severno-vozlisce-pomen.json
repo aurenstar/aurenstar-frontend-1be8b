@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "severno vozlišče",
+ "volume": "1000",
+ "slug": "severno-vozlisce-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Severno vozlišče: kaj je in kaj pomeni?",
+ "description": "Severno vozlišče kaže, kam rastete v tem življenju. Preprosto, s primerom.",
+ "intro": "Severno vozlišče je točka v rojstni karti, ki kaže, v katero smer lahko rastete v tem življenju. Ni planet, ampak občutljivo mesto karte.",
+ "sections": [
+  {
+   "h2": "Kaj je severno vozlišče?",
+   "paragraphs": [
+    "Predstavljajte si kompas. Južno vozlišče je vaša cona udobja: to, kar že znate. Severno je smer rasti, tudi če se sprva zdi tuja."
+   ]
+  },
+  {
+   "h2": "Kako ga najdete?",
+   "paragraphs": [
+    "Potrebujete datum rojstva, ura pomaga. Brezplačno orodje pokaže znamenje in hišo vozlišča."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Matej je zelo samostojen (južno vozlišče). Severno vozlišče v Tehtnici ga uči sodelovanja in zaupanja."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je severno vozlišče planet?",
+   "a": "Ne, je matematična točka, kjer Lunina tirnica seka Sončevo."
+  },
+  {
+   "q": "Moram slediti severnemu vozlišču?",
+   "a": "Je smer, ne dolžnost: kaže, kje je rast."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

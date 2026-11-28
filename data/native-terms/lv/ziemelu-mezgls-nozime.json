@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "ziemeļu mezgls",
+ "volume": "1000",
+ "slug": "ziemelu-mezgls-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Ziemeļu mezgls: kas tas ir un ko nozīmē?",
+ "description": "Ziemeļu mezgls rāda, kurp tu augi šajā dzīvē. Vienkārši, ar piemēru.",
+ "intro": "Ziemeļu mezgls ir dzimšanas kartes punkts, kas rāda, kādā virzienā tu vari augt šajā dzīvē. Tā nav planēta, bet jutīga vieta kartē.",
+ "sections": [
+  {
+   "h2": "Kas ir ziemeļu mezgls?",
+   "paragraphs": [
+    "Iedomājies kompasu. Dienvidu mezgls ir tava komforta zona: tas, ko jau proti. Ziemeļu ir izaugsmes virziens, pat ja sākumā šķiet sveši."
+   ]
+  },
+  {
+   "h2": "Kā to atrast?",
+   "paragraphs": [
+    "Vajag dzimšanas datumu, laiks palīdz. Bezmaksas rīks parāda mezgla zīmi un māju."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Jānis ir ļoti patstāvīgs (dienvidu mezgls). Ziemeļu mezgls Svaros māca sadarbību un uzticēšanos."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai ziemeļu mezgls ir planēta?",
+   "a": "Nē, tas ir matemātisks punkts, kur Mēness orbīta šķērso Saules orbītu."
+  },
+  {
+   "q": "Vai man jāseko savam ziemeļu mezglam?",
+   "a": "Tas ir virziens, nevis pienākums: tas rāda, kur ir izaugsme."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

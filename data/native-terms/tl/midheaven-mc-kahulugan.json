@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "Midheaven (MC)",
+ "volume": "1000",
+ "slug": "midheaven-mc-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Midheaven (MC): Ano Ito at Ano ang Kahulugan?",
+ "description": "Ang Midheaven ang pinakamataas na punto sa chart at tungkol sa karera at reputasyon. Simple.",
+ "intro": "Ang Midheaven (MC) ay ang punto na pinakamataas sa langit nang ipanganak ka. Ipinapakita nito kung paano nakikita ng mundo ang trabaho at pangalan mo.",
+ "sections": [
+  {
+   "h2": "Ano ang MC?",
+   "paragraphs": [
+    "Isipin ang bubong ng bahay: nakikita ng lahat. Tungkol ito sa tawag mo sa buhay, mga layunin, at papel na gusto mo sa lipunan."
+   ]
+  },
+  {
+   "h2": "Paano ito hahanapin?",
+   "paragraphs": [
+    "Kailangan ang petsa, oras, at lugar ng kapanganakan. Agad itong kakalkulahin ng libreng tool."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Ang MC ni Mika ay Libra. Nakikita siyang patas at diplomatiko, at umuunlad siya sa trabahong nag-uugnay ng tao tulad ng mediation o design."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Pareho ba ang MC at ang sun sign ko?",
+   "a": "Hindi, ang sun sign ang iyong ubod; ang MC ang iyong pampublikong imahe at direksyon."
+  },
+  {
+   "q": "Kailangan ko ba ang oras ng kapanganakan?",
+   "a": "Oo, gumagalaw ang MC ng halos isang digri kada apat na minuto."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

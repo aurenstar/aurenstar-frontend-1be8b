@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "Medium Coeli",
+ "volume": "1000",
+ "slug": "medium-coeli-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Medium Coeli (MC): mi ez, és mit jelent?",
+ "description": "A Medium Coeli a születési képlet legmagasabb pontja, a karrierről és a hírnévről szól. Egyszerűen.",
+ "intro": "A Medium Coeli (MC) az a pont, amely születésedkor a legmagasabban állt az égen. Megmutatja, hogyan látja a világ a munkádat és a nevedet.",
+ "sections": [
+  {
+   "h2": "Mi az MC?",
+   "paragraphs": [
+    "Gondolj a ház tetejére: mindenki látja. A hivatásodról, céljaidról és arról szól, milyen szerepet szeretnél a társadalomban."
+   ]
+  },
+  {
+   "h2": "Hogyan találod meg?",
+   "paragraphs": [
+    "Szükséged van a születési dátumra, időre és helyre. Egy ingyenes eszköz azonnal kiszámítja az MC-t."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Évának Mérleg az MC-je. Igazságosnak és diplomatikusnak látják, és olyan munkában kibontakozik, ahol embereket köt össze, például közvetítésben vagy tervezésben."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Az MC ugyanaz, mint a napjegyem?",
+   "a": "Nem, a napjegy a lényeged; az MC a nyilvános képed és irányod."
+  },
+  {
+   "q": "Ismernem kell a születési időt?",
+   "a": "Igen, az MC nagyjából négy percenként egy fokot lép."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

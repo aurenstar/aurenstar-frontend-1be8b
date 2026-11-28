@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "Medium Coeli",
+ "volume": "1000",
+ "slug": "medium-coeli-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Medium Coeli (MC): co to je a co znamená?",
+ "description": "Medium Coeli je nejvyšší bod rodného horoskopu a vypovídá o kariéře a pověsti. Jednoduše vysvětleno.",
+ "intro": "Medium Coeli (MC) je bod, který stál při vašem narození nejvýš na obloze. Ukazuje, jak okolní svět vidí vaši práci a jméno.",
+ "sections": [
+  {
+   "h2": "Co je MC?",
+   "paragraphs": [
+    "Představte si střechu domu: vidí ji každý. Jde o vaše poslání, cíle a roli, kterou chcete ve společnosti hrát."
+   ]
+  },
+  {
+   "h2": "Jak ho zjistit?",
+   "paragraphs": [
+    "Potřebujete datum, čas a místo narození. Bezplatný nástroj MC okamžitě spočítá."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Eva má MC ve Váhách. Lidé ji vidí jako spravedlivou a diplomatickou a daří se jí v práci, kde spojuje lidi, třeba mediace nebo design."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je MC totéž co sluneční znamení?",
+   "a": "Ne, sluneční znamení je vaše jádro; MC je váš veřejný obraz a směr."
+  },
+  {
+   "q": "Musím znát čas narození?",
+   "a": "Ano, MC se posune zhruba o stupeň za čtyři minuty."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

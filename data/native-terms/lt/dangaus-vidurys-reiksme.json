@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "Dangaus vidurys",
+ "volume": "1000",
+ "slug": "dangaus-vidurys-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Dangaus vidurys (MC): kas tai ir ką reiškia?",
+ "description": "Dangaus vidurys – aukščiausias žemėlapio taškas, byloja apie karjerą ir reputaciją. Paprastai.",
+ "intro": "Dangaus vidurys (MC) – taškas, kuris tau gimstant buvo aukščiausiai danguje. Jis rodo, kaip pasaulis mato tavo darbą ir vardą.",
+ "sections": [
+  {
+   "h2": "Kas yra MC?",
+   "paragraphs": [
+    "Pagalvok apie namo stogą: jį mato visi. Jis kalba apie tavo pašaukimą, tikslus ir vaidmenį visuomenėje."
+   ]
+  },
+  {
+   "h2": "Kaip jį rasti?",
+   "paragraphs": [
+    "Reikia gimimo datos, laiko ir vietos. Nemokamas įrankis MC apskaičiuos iškart."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Rūtos MC yra Svarstyklėse. Žmonės mato ją kaip teisingą ir diplomatišką, o ji klesti darbe, jungiančiame žmones, pavyzdžiui, mediacijoje ar dizaine."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar MC tas pats kas mano saulės ženklas?",
+   "a": "Ne, saulės ženklas – tavo branduolys; MC – tavo viešas įvaizdis ir kryptis."
+  },
+  {
+   "q": "Ar reikia žinoti gimimo laiką?",
+   "a": "Taip, MC pasislenka maždaug laipsniu per keturias minutes."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

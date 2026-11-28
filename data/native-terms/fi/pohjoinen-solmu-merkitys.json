@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "Pohjoinen solmu",
+ "volume": "1000",
+ "slug": "pohjoinen-solmu-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Pohjoinen solmu: mikä se on ja mitä se tarkoittaa?",
+ "description": "Pohjoinen solmu osoittaa, mihin suuntaan kasvat tässä elämässä. Selitetty esimerkillä.",
+ "intro": "Pohjoinen solmu on syntymäkartan piste, joka näyttää, mihin suuntaan voit kasvaa tässä elämässä. Se ei ole planeetta, vaan herkkä kohta kartassa.",
+ "sections": [
+  {
+   "h2": "Mikä pohjoinen solmu on?",
+   "paragraphs": [
+    "Ajattele kompassia. Eteläinen solmu on mukavuusalueesi: se, minkä jo osaat. Pohjoinen solmu on suunta, johon kasvat, vaikka se tuntuisi aluksi vieraalta."
+   ]
+  },
+  {
+   "h2": "Miten sen löytää?",
+   "paragraphs": [
+    "Tarvitset syntymäpäivän, kellonaika on hyvä. Ilmainen työkalu näyttää solmusi merkin ja huoneen."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Elias on hyvin itsenäinen (eteläinen solmu). Pohjoinen solmu Vaa’assa opettaa yhteistyötä ja luottamusta."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Onko pohjoinen solmu planeetta?",
+   "a": "Ei, se on matemaattinen piste, jossa Kuun rata leikkaa auringon radan."
+  },
+  {
+   "q": "Pitääkö minun seurata pohjoista solmuani?",
+   "a": "Se on suunta, ei velvollisuus: se näyttää, missä kasvu on."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

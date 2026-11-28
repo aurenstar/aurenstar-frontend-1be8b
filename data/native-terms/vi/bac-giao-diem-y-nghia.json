@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "Bắc Giao Điểm",
+ "volume": "1000",
+ "slug": "bac-giao-diem-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Bắc Giao Điểm là gì? Ý nghĩa dễ hiểu",
+ "description": "Bắc Giao Điểm chỉ hướng bạn trưởng thành trong kiếp này. Giải thích đơn giản, có ví dụ.",
+ "intro": "Bắc Giao Điểm là một điểm trong lá số cho thấy hướng bạn có thể phát triển trong kiếp này. Nó không phải hành tinh mà là điểm nhạy cảm của lá số.",
+ "sections": [
+  {
+   "h2": "Bắc Giao Điểm là gì?",
+   "paragraphs": [
+    "Hãy nghĩ như la bàn. Nam Giao Điểm là vùng an toàn: điều bạn đã quen. Bắc Giao Điểm là hướng phát triển, dù lúc đầu thấy lạ."
+   ]
+  },
+  {
+   "h2": "Cách tìm",
+   "paragraphs": [
+    "Cần ngày sinh, có giờ sinh càng tốt. Công cụ miễn phí cho biết cung và nhà của điểm này."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Nam rất độc lập (Nam Giao Điểm). Bắc Giao Điểm ở Thiên Bình dạy anh hợp tác và tin người khác."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Bắc Giao Điểm có phải hành tinh không?",
+   "a": "Không, đó là điểm toán học nơi quỹ đạo Mặt Trăng cắt quỹ đạo Mặt Trời."
+  },
+  {
+   "q": "Tôi có phải theo Bắc Giao Điểm không?",
+   "a": "Đó là hướng đi, không phải nghĩa vụ: nó chỉ ra nơi có sự phát triển."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

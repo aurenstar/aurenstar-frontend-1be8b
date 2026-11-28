@@ -1,0 +1,49 @@
+{
+ "lang": "ms",
+ "keyword": "nod utara",
+ "volume": "1000",
+ "slug": "nod-utara-maksud",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nod Utara: apa itu dan apa maknanya?",
+ "description": "Nod utara menunjukkan arah anda berkembang dalam hidup ini. Dijelaskan mudah dengan contoh.",
+ "intro": "Nod utara ialah satu titik dalam carta kelahiran yang menunjukkan arah anda boleh berkembang dalam hidup ini. Ia bukan planet, tetapi titik sensitif dalam carta.",
+ "sections": [
+  {
+   "h2": "Apakah nod utara?",
+   "paragraphs": [
+    "Bayangkan kompas. Nod selatan ialah zon selesa anda: apa yang sudah anda tahu. Nod utara ialah arah berkembang, walaupun pada mulanya terasa asing."
+   ]
+  },
+  {
+   "h2": "Bagaimana mencarinya?",
+   "paragraphs": [
+    "Anda perlukan tarikh lahir, masa membantu. Alat percuma menunjukkan zodiak dan rumah nod."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Amir sangat berdikari (nod selatan). Nod utaranya di Libra mengajarnya bekerjasama dan mempercayai orang lain."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Adakah nod utara sebuah planet?",
+   "a": "Tidak, ia titik matematik tempat orbit Bulan bersilang dengan orbit Matahari."
+  },
+  {
+   "q": "Perlukah saya mengikut nod utara saya?",
+   "a": "Ia arah, bukan kewajipan: ia menunjukkan di mana pertumbuhan."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

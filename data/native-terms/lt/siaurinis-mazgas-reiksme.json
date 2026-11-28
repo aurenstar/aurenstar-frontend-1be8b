@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "šiaurinis mazgas",
+ "volume": "1000",
+ "slug": "siaurinis-mazgas-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Šiaurinis mazgas: kas tai ir ką reiškia?",
+ "description": "Šiaurinis mazgas rodo, kur auga šiame gyvenime. Paprastai, su pavyzdžiu.",
+ "intro": "Šiaurinis mazgas – gimimo žemėlapio taškas, rodantis, kuria kryptimi gali augti šiame gyvenime. Tai ne planeta, o jautri žemėlapio vieta.",
+ "sections": [
+  {
+   "h2": "Kas yra šiaurinis mazgas?",
+   "paragraphs": [
+    "Įsivaizduok kompasą. Pietinis mazgas – tavo komforto zona: tai, ką jau moki. Šiaurinis – augimo kryptis, net jei iš pradžių atrodo svetima."
+   ]
+  },
+  {
+   "h2": "Kaip jį rasti?",
+   "paragraphs": [
+    "Reikia gimimo datos, laikas padeda. Nemokamas įrankis parodys mazgo ženklą ir namus."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Tomas labai savarankiškas (pietinis mazgas). Šiaurinis mazgas Svarstyklėse moko jį bendradarbiauti ir pasitikėti."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar šiaurinis mazgas yra planeta?",
+   "a": "Ne, tai matematinis taškas, kur Mėnulio orbita kerta Saulės orbitą."
+  },
+  {
+   "q": "Ar turiu sekti savo šiauriniu mazgu?",
+   "a": "Tai kryptis, ne prievolė: rodo, kur yra augimas."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

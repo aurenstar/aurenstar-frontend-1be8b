@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "node nord",
+ "volume": "1000",
+ "slug": "node-nord-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Node nord: què és i què significa?",
+ "description": "El node nord mostra cap on creixes en aquesta vida. Explicat fàcil, amb exemple.",
+ "intro": "El node nord és un punt de la carta natal que mostra en quina direcció pots créixer en aquesta vida. No és un planeta, sinó un punt sensible de la carta.",
+ "sections": [
+  {
+   "h2": "Què és el node nord?",
+   "paragraphs": [
+    "Pensa en una brúixola. El node sud és la teva zona de confort: el que ja saps. El nord és la direcció de creixement, encara que al principi sembli estranya."
+   ]
+  },
+  {
+   "h2": "Com el trobes?",
+   "paragraphs": [
+    "Necessites la data de naixement, l’hora ajuda. Una eina gratuïta mostra el signe i la casa del node."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "En Pau és molt independent (node sud). El seu node nord a Balança li ensenya a col·laborar i confiar en els altres."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "El node nord és un planeta?",
+   "a": "No, és un punt matemàtic on l’òrbita de la Lluna creua la del Sol."
+  },
+  {
+   "q": "He de seguir el meu node nord?",
+   "a": "És una direcció, no una obligació: mostra on hi ha creixement."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

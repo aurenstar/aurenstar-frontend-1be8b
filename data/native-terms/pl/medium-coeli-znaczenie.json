@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "Medium Coeli",
+ "volume": "1000",
+ "slug": "medium-coeli-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Medium Coeli (MC): co to jest i co oznacza?",
+ "description": "Medium Coeli to najwyższy punkt mapy urodzeniowej i mówi o karierze i reputacji. Wyjaśnione prosto.",
+ "intro": "Medium Coeli (MC) to punkt, który w chwili Twoich narodzin stał najwyżej na niebie. Pokazuje, jak świat widzi Twoją pracę i nazwisko.",
+ "sections": [
+  {
+   "h2": "Czym jest MC?",
+   "paragraphs": [
+    "Pomyśl o dachu domu: każdy go widzi. Dotyczy Twojego powołania, celów i roli, jaką chcesz pełnić w społeczeństwie."
+   ]
+  },
+  {
+   "h2": "Jak je znaleźć?",
+   "paragraphs": [
+    "Potrzebujesz daty, godziny i miejsca urodzenia. Darmowe narzędzie od razu policzy MC."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Ewa ma MC w Wadze. Ludzie widzą ją jako sprawiedliwą i dyplomatyczną, a ona rozwija się w pracy łączącej ludzi, jak mediacje czy projektowanie."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy MC to to samo co mój znak słoneczny?",
+   "a": "Nie, znak słoneczny to Twoje jądro; MC to Twój publiczny wizerunek i kierunek."
+  },
+  {
+   "q": "Czy muszę znać godzinę urodzenia?",
+   "a": "Tak, MC przesuwa się mniej więcej o stopień co cztery minuty."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

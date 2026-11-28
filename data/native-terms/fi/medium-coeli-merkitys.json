@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "Medium Coeli",
+ "volume": "1000",
+ "slug": "medium-coeli-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Medium Coeli (MC): mikä se on ja mitä se tarkoittaa?",
+ "description": "Medium Coeli on syntymäkartan korkein piste ja kertoo urasta ja maineesta. Selitetty yksinkertaisesti.",
+ "intro": "Medium Coeli (MC) on piste, joka oli korkeimmalla taivaalla syntyessäsi. Se näyttää, miten ulkomaailma näkee työsi ja nimesi.",
+ "sections": [
+  {
+   "h2": "Mikä MC on?",
+   "paragraphs": [
+    "Ajattele sitä talon kattona: kaikki näkevät sen. Se kertoo kutsumuksestasi, tavoitteistasi ja roolista, jonka haluat yhteiskunnassa."
+   ]
+  },
+  {
+   "h2": "Miten sen löytää?",
+   "paragraphs": [
+    "Tarvitset syntymäpäivän, -ajan ja -paikan. Ilmainen työkalu laskee MC:n heti."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Eevan MC on Vaaka. Ihmiset näkevät hänet reiluna ja diplomaattisena, ja hän kasvaa työssä, jossa yhdistää ihmisiä, kuten sovittelussa tai suunnittelussa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Onko MC sama kuin aurinkomerkkini?",
+   "a": "Ei, aurinkomerkki on ydin; MC on julkinen kuvasi ja suuntasi."
+  },
+  {
+   "q": "Pitääkö syntymäaika tietää?",
+   "a": "Kyllä, MC siirtyy noin asteen neljässä minuutissa."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

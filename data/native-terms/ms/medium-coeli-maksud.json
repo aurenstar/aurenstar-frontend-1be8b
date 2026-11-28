@@ -1,0 +1,49 @@
+{
+ "lang": "ms",
+ "keyword": "Medium Coeli (MC)",
+ "volume": "1000",
+ "slug": "medium-coeli-maksud",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Medium Coeli (MC): apa itu dan apa maknanya?",
+ "description": "Medium Coeli ialah titik tertinggi dalam carta dan bercakap tentang kerjaya serta reputasi. Mudah.",
+ "intro": "Medium Coeli (MC) ialah titik paling tinggi di langit ketika anda dilahirkan. Ia menunjukkan bagaimana dunia melihat kerja dan nama anda.",
+ "sections": [
+  {
+   "h2": "Apakah MC?",
+   "paragraphs": [
+    "Fikirkan bumbung rumah: semua orang nampak. Ia tentang panggilan, matlamat dan peranan yang anda mahu dalam masyarakat."
+   ]
+  },
+  {
+   "h2": "Bagaimana mencarinya?",
+   "paragraphs": [
+    "Anda perlukan tarikh, masa dan tempat lahir. Alat percuma mengira MC serta-merta."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "MC Aina ialah Libra. Orang melihatnya adil dan diplomatik, dan dia berkembang dalam kerja yang menyatukan orang seperti pengantaraan atau reka bentuk."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Adakah MC sama dengan zodiak matahari saya?",
+   "a": "Tidak, zodiak matahari ialah teras anda; MC ialah imej awam dan hala tuju anda."
+  },
+  {
+   "q": "Perlukah saya tahu masa lahir?",
+   "a": "Ya, MC bergerak kira-kira satu darjah setiap empat minit."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

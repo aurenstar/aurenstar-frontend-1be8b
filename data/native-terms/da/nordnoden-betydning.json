@@ -1,0 +1,49 @@
+{
+ "lang": "da",
+ "keyword": "Nordnoden",
+ "volume": "1000",
+ "slug": "nordnoden-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nordnoden: hvad er det, og hvad betyder det?",
+ "description": "Nordnoden peger mod, hvor du vokser i dette liv. Forklaret enkelt med eksempel.",
+ "intro": "Nordnoden er et punkt i dit horoskop, der viser, i hvilken retning du kan vokse i dette liv. Det er ikke en planet, men et følsomt punkt i kortet.",
+ "sections": [
+  {
+   "h2": "Hvad er nordnoden?",
+   "paragraphs": [
+    "Tænk på det som et kompas. Sydnoden er din komfortzone: det, du allerede kan. Nordnoden er, hvor du vokser hen, selv om det først føles ukendt."
+   ]
+  },
+  {
+   "h2": "Hvordan finder du den?",
+   "paragraphs": [
+    "Du skal bruge fødselsdato, tidspunkt er godt. Et gratis værktøj viser tegn og hus for din nordnode."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Emil er meget selvstændig (sydnode). Hans nordnode i Vægten lærer ham at samarbejde og stole på andre."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Er nordnoden en planet?",
+   "a": "Nej, det er et matematisk punkt, hvor månens bane krydser solbanen."
+  },
+  {
+   "q": "Skal jeg følge min nordnode?",
+   "a": "Det er en retning, ikke en pligt: den viser, hvor væksten er."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ },
+ "tool": "descreva-me"
+}

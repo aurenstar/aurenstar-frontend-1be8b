@@ -1,0 +1,49 @@
+{
+ "lang": "hr",
+ "keyword": "sjeverni čvor",
+ "volume": "1000",
+ "slug": "sjeverni-cvor-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sjeverni čvor: što je i što znači?",
+ "description": "Sjeverni čvor pokazuje kamo rasteš u ovom životu. Jednostavno, s primjerom.",
+ "intro": "Sjeverni čvor je točka natalne karte koja pokazuje u kojem smjeru možeš rasti u ovom životu. Nije planet, nego osjetljivo mjesto karte.",
+ "sections": [
+  {
+   "h2": "Što je sjeverni čvor?",
+   "paragraphs": [
+    "Zamisli kompas. Južni čvor je tvoja zona komfora: ono što već znaš. Sjeverni je smjer rasta, čak i ako ti se isprva čini stran."
+   ]
+  },
+  {
+   "h2": "Kako ga pronaći?",
+   "paragraphs": [
+    "Trebaju ti datum rođenja, vrijeme pomaže. Besplatni alat pokazuje znak i kuću čvora."
+   ]
+  },
+  {
+   "h2": "Primjer",
+   "paragraphs": [
+    "Marko je vrlo samostalan (južni čvor). Sjeverni čvor u Vagi uči ga suradnji i povjerenju."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je li sjeverni čvor planet?",
+   "a": "Ne, to je matematička točka gdje putanja Mjeseca siječe putanju Sunca."
+  },
+  {
+   "q": "Moram li slijediti svoj sjeverni čvor?",
+   "a": "To je smjer, ne obveza: pokazuje gdje je rast."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

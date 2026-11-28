@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "Thiên Đỉnh (MC)",
+ "volume": "1000",
+ "slug": "thien-dinh-mc-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Thiên Đỉnh (MC) là gì? Ý nghĩa dễ hiểu",
+ "description": "Thiên Đỉnh là điểm cao nhất trong lá số, nói về sự nghiệp và danh tiếng. Đơn giản.",
+ "intro": "Thiên Đỉnh (MC) là điểm đứng cao nhất trên bầu trời khi bạn sinh ra. Nó cho thấy thế giới nhìn công việc và tên tuổi bạn thế nào.",
+ "sections": [
+  {
+   "h2": "MC là gì?",
+   "paragraphs": [
+    "Hãy nghĩ đến mái nhà: ai cũng thấy. Nó nói về sứ mệnh, mục tiêu và vai trò bạn muốn có trong xã hội."
+   ]
+  },
+  {
+   "h2": "Cách tìm",
+   "paragraphs": [
+    "Cần ngày, giờ và nơi sinh. Công cụ miễn phí tính MC ngay."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Lan có MC ở Thiên Bình. Mọi người thấy cô công bằng và khéo léo, và cô phát triển trong công việc kết nối con người như hòa giải hay thiết kế."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "MC có giống cung Mặt Trời không?",
+   "a": "Không, cung Mặt Trời là bản chất; MC là hình ảnh công chúng và hướng đi."
+  },
+  {
+   "q": "Có cần biết giờ sinh không?",
+   "a": "Có, MC dịch chuyển khoảng một độ mỗi bốn phút."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

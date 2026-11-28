@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "északi holdcsomó",
+ "volume": "1000",
+ "slug": "eszaki-holdcsomo-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Északi holdcsomó: mi ez, és mit jelent?",
+ "description": "Az északi holdcsomó megmutatja, merre fejlődsz ebben az életben. Egyszerűen, példával.",
+ "intro": "Az északi holdcsomó a születési képlet egy pontja, amely megmutatja, milyen irányba nőhetsz ebben az életben. Nem bolygó, hanem érzékeny pont a térképen.",
+ "sections": [
+  {
+   "h2": "Mi az északi holdcsomó?",
+   "paragraphs": [
+    "Gondolj egy iránytűre. A déli holdcsomó a komfortzónád: amit már tudsz. Az északi az irány, amerre fejlődsz, még ha eleinte idegennek is tűnik."
+   ]
+  },
+  {
+   "h2": "Hogyan találod meg?",
+   "paragraphs": [
+    "Szükséged van a születési dátumra, az idő is jól jön. Egy ingyenes eszköz megmutatja a jegyét és házát."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Péter nagyon önálló (déli csomó). Az északi csomója a Mérlegben az együttműködést és a bizalmat tanítja."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Az északi holdcsomó bolygó?",
+   "a": "Nem, matematikai pont, ahol a Hold pályája metszi a Nap pályáját."
+  },
+  {
+   "q": "Követnem kell az északi csomómat?",
+   "a": "Irány, nem kötelesség: megmutatja, hol van a fejlődés."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

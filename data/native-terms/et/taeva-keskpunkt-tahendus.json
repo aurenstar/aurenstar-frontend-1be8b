@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "Taeva keskpunkt",
+ "volume": "1000",
+ "slug": "taeva-keskpunkt-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Taeva keskpunkt (MC): mis see on ja mida tähendab?",
+ "description": "Taeva keskpunkt on sünnikaardi kõrgeim punkt ja räägib karjäärist ning mainest. Lihtsalt.",
+ "intro": "Taeva keskpunkt (MC) on punkt, mis sinu sündides oli taevas kõige kõrgemal. See näitab, kuidas maailm näeb sinu tööd ja nime.",
+ "sections": [
+  {
+   "h2": "Mis on MC?",
+   "paragraphs": [
+    "Mõtle maja katusele: kõik näevad seda. See räägib sinu kutsumusest, eesmärkidest ja rollist, mida ühiskonnas soovid."
+   ]
+  },
+  {
+   "h2": "Kuidas seda leida?",
+   "paragraphs": [
+    "Vaja on sünnikuupäeva, kellaaega ja kohta. Tasuta tööriist arvutab MC kohe."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Liisi MC on Kaalud. Inimesed näevad teda õiglase ja diplomaatilisena ning ta õitseb töös, mis ühendab inimesi, näiteks vahendus või disain."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas MC on sama mis päikesemärk?",
+   "a": "Ei, päikesemärk on sinu tuum; MC on sinu avalik kuvand ja suund."
+  },
+  {
+   "q": "Kas pean sünniaega teadma?",
+   "a": "Jah, MC liigub umbes kraadi nelja minutiga."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

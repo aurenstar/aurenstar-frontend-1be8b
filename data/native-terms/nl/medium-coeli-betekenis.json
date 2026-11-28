@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "Medium Coeli",
+ "volume": "1000",
+ "slug": "medium-coeli-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Medium Coeli (MC): wat is het en wat betekent het?",
+ "description": "Het Medium Coeli is het hoogste punt in je kaart en zegt iets over je carrière en je reputatie. Eenvoudig uitgelegd.",
+ "intro": "Het Medium Coeli (MC) is het punt dat bij je geboorte het hoogst aan de hemel stond. Het toont hoe de buitenwereld je werk en je naam ziet.",
+ "sections": [
+  {
+   "h2": "Wat is het MC?",
+   "paragraphs": [
+    "Zie het als het dak van je huis: iedereen ziet het. Het gaat over je roeping, je doelen en de rol die je in de maatschappij wilt spelen."
+   ]
+  },
+  {
+   "h2": "Hoe vind je het?",
+   "paragraphs": [
+    "Je hebt geboortedatum, tijd en plaats nodig. Een gratis tool rekent het MC meteen uit."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Eva heeft Weegschaal als MC. Mensen zien haar als eerlijk en diplomatiek, en ze groeit in werk waar ze mensen verbindt, zoals bemiddeling of design."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is het MC hetzelfde als mijn zonneteken?",
+   "a": "Nee, het zonneteken is je kern; het MC is je publieke beeld en richting."
+  },
+  {
+   "q": "Moet ik de geboortetijd weten?",
+   "a": "Ja, het MC schuift ongeveer elke 4 minuten een graad op."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "North Node",
+ "volume": "1000",
+ "slug": "north-node-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "North Node: Ano Ito at Ano ang Kahulugan?",
+ "description": "Ipinapakita ng North Node kung saan ka lalago sa buhay na ito. Simple, may halimbawa.",
+ "intro": "Ang North Node ay isang punto sa birth chart na nagpapakita ng direksyon kung saan ka maaaring lumago sa buhay na ito. Hindi ito planeta, kundi sensitibong punto sa chart.",
+ "sections": [
+  {
+   "h2": "Ano ang North Node?",
+   "paragraphs": [
+    "Isipin ang compass. Ang South Node ay comfort zone mo: ang alam mo na. Ang North Node ay direksyon ng paglago, kahit mukhang banyaga sa simula."
+   ]
+  },
+  {
+   "h2": "Paano ito hahanapin?",
+   "paragraphs": [
+    "Kailangan ang petsa ng kapanganakan, makakatulong ang oras. Ipapakita ng libreng tool ang sign at house ng node."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Si Ben ay napaka-independent (South Node). Tinuturuan siya ng North Node niya sa Libra na makipagtulungan at magtiwala sa iba."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Planeta ba ang North Node?",
+   "a": "Hindi, ito ay punto sa matematika kung saan tinatawid ng orbit ng Buwan ang orbit ng Araw."
+  },
+  {
+   "q": "Kailangan ko bang sundin ang North Node ko?",
+   "a": "Direksyon ito, hindi obligasyon: ipinapakita nito kung nasaan ang paglago."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

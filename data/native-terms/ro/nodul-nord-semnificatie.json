@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "nodul nord",
+ "volume": "1000",
+ "slug": "nodul-nord-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nodul nord: ce este și ce înseamnă?",
+ "description": "Nodul nord arată încotro crești în această viață. Explicat simplu, cu exemplu.",
+ "intro": "Nodul nord este un punct din harta natală care arată în ce direcție poți crește în această viață. Nu este o planetă, ci un loc sensibil al hărții.",
+ "sections": [
+  {
+   "h2": "Ce este nodul nord?",
+   "paragraphs": [
+    "Gândește-te la o busolă. Nodul sud este zona ta de confort: ce știi deja. Nodul nord este direcția în care crești, chiar dacă la început pare străină."
+   ]
+  },
+  {
+   "h2": "Cum îl afli?",
+   "paragraphs": [
+    "Ai nevoie de data nașterii, ora ajută. Un instrument gratuit arată semnul și casa nodului."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Andrei este foarte independent (nodul sud). Nodul nord în Balanță îl învață să colaboreze și să se încreadă în alții."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Este nodul nord o planetă?",
+   "a": "Nu, este un punct matematic unde orbita Lunii taie orbita Soarelui."
+  },
+  {
+   "q": "Trebuie să-mi urmez nodul nord?",
+   "a": "Este o direcție, nu o obligație: arată unde e creșterea."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

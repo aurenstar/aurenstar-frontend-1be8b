@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "węzeł północny",
+ "volume": "1000",
+ "slug": "wezel-polnocny-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Węzeł północny: co to jest i co oznacza?",
+ "description": "Węzeł północny wskazuje, w którą stronę rośniesz w tym życiu. Prosto, z przykładem.",
+ "intro": "Węzeł północny to punkt na mapie urodzeniowej, który pokazuje, w jakim kierunku możesz rosnąć w tym życiu. To nie planeta, lecz wrażliwe miejsce na mapie.",
+ "sections": [
+  {
+   "h2": "Czym jest węzeł północny?",
+   "paragraphs": [
+    "Pomyśl o kompasie. Węzeł południowy to Twoja strefa komfortu: to, co już umiesz. Węzeł północny to kierunek rozwoju, nawet jeśli z początku wydaje się obcy."
+   ]
+  },
+  {
+   "h2": "Jak go znaleźć?",
+   "paragraphs": [
+    "Potrzebujesz daty urodzenia, godzina się przydaje. Darmowe narzędzie pokaże znak i dom węzła."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Marek jest bardzo samodzielny (węzeł południowy). Węzeł północny w Wadze uczy go współpracy i zaufania do innych."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy węzeł północny to planeta?",
+   "a": "Nie, to punkt matematyczny, w którym orbita Księżyca przecina orbitę Słońca."
+  },
+  {
+   "q": "Czy muszę iść za węzłem północnym?",
+   "a": "To kierunek, nie obowiązek: pokazuje, gdzie jest rozwój."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}
