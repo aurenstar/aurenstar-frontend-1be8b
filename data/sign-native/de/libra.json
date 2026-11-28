@@ -1,0 +1,22 @@
+{
+ "name": "Waage",
+ "slug": "libra",
+ "period": "23. September – 22. Oktober",
+ "element": "Luft",
+ "essence": "Freundlich, ausgeglichen und friedliebend. Waage mag angenehme Stimmung und hört gut zu.",
+ "advice": "Wenn du dich nicht entscheiden kannst, wähle zwei Möglichkeiten aus und nimm die, die sich zuerst gut anfühlt.",
+ "sections": [
+  {
+   "h": "Persönlichkeit und Stärken",
+   "p": "Waage wird von der Venus regiert. Sie ist diplomatisch, fair und sieht beide Seiten einer Sache. Schönheit und Harmonie sind ihr wichtig. Entscheidungen fallen ihr schwer, und manchmal sagt sie Ja, obwohl sie Nein meint."
+  },
+  {
+   "h": "Liebe und Freundschaft",
+   "p": "In der Liebe ist Waage romantisch und wünscht sich Partnerschaft auf Augenhöhe. Unter Freunden vermittelt sie bei Streit. Gut passt sie zu Menschen, die klar sagen, was sie brauchen."
+  },
+  {
+   "h": "Beruf und Alltag",
+   "p": "Im Beruf glänzt Waage in Teams, bei Verhandlungen, Design und Beratung. Unter Druck fällt ihr das Denken schwer. Kleine Tagesziele sparen Grübelzeit."
+  }
+ ]
+}

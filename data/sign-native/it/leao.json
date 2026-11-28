@@ -1,0 +1,22 @@
+{
+ "name": "Leone",
+ "slug": "leo",
+ "period": "23 luglio – 22 agosto",
+ "element": "Fuoco",
+ "essence": "Generoso, allegro e sicuro di sé. Il Leone brilla da solo e illumina ogni stanza.",
+ "advice": "Riconosci anche il tuo impegno, non solo quello degli altri.",
+ "sections": [
+  {
+   "h": "Personalità e punti di forza",
+   "p": "Il Leone è governato dal Sole. È caloroso, orgoglioso e ama stare al centro. Adora festeggiare e incoraggiare gli altri. Se viene ignorato, si ferisce facilmente."
+  },
+  {
+   "h": "Amore e amicizia",
+   "p": "In amore il Leone mostra l’affetto in modo generoso. Tra amici fa ridere tutti. Un complimento sincero gli arriva dritto al cuore."
+  },
+  {
+   "h": "Lavoro e vita quotidiana",
+   "p": "Al lavoro brilla quando può guidare, presentare o creare. Nella vita quotidiana il tempo per le sue passioni gli ridà fiducia. Lasciare spazio anche agli altri lo rende ancora più simpatico."
+  }
+ ]
+}

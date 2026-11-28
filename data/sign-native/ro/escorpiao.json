@@ -1,0 +1,22 @@
+{
+ "name": "Scorpion",
+ "slug": "scorpio",
+ "period": "23 octombrie – 21 noiembrie",
+ "element": "Apă",
+ "essence": "Loial, pasionat și profund. Scorpionul simte ce gândesc cu adevărat ceilalți.",
+ "advice": "Vorbește despre emoțiile reținute cu cineva de încredere, puțin câte puțin.",
+ "sections": [
+  {
+   "h": "Personalitate și puncte forte",
+   "p": "Scorpionul este condus de Pluton și Marte. Are voință puternică și multă rezistență. Ce începe, termină. Se deschide încet și poate deveni bănuitor."
+  },
+  {
+   "h": "Dragoste și prietenie",
+   "p": "În dragoste iubește profund și loial. Caută apropiere reală, nu superficialitate. Are puțini prieteni, dar foarte apropiați. Vorbirea deschisă construiește încredere."
+  },
+  {
+   "h": "Muncă și viața de zi cu zi",
+   "p": "La muncă i se potrivesc cercetarea, analiza și munca cu oameni în situații grele. În viața de zi cu zi are nevoie de concentrare și mișcare pentru a elibera tensiunea."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Toro",
+ "slug": "taurus",
+ "period": "20 aprile – 20 maggio",
+ "element": "Terra",
+ "essence": "Calmo, fedele e affettuoso. Il Toro ama il comfort e le amicizie che durano una vita.",
+ "advice": "Regalati ogni giorno un po’ di tempo per ciò che ami davvero.",
+ "sections": [
+  {
+   "h": "Personalità e punti di forza",
+   "p": "Il Toro è governato da Venere. È paziente, affidabile e porta a termine ciò che decide. Il buon cibo e i bei luoghi lo rendono felice. La testardaggine a volte lo frena."
+  },
+  {
+   "h": "Amore e amicizia",
+   "p": "In amore costruisce la fiducia lentamente e poi resta molto fedele. Le sue amicizie durano spesso decenni. Preferisce provare le novità a piccoli passi."
+  },
+  {
+   "h": "Lavoro e vita quotidiana",
+   "p": "Al lavoro convince con la costanza, per esempio in finanza, artigianato o cucina. Abitudini regolari ogni giorno gli danno serenità."
+  }
+ ]
+}

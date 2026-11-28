@@ -1,0 +1,22 @@
+{
+ "name": "Gemelli",
+ "slug": "gemini",
+ "period": "21 maggio – 20 giugno",
+ "element": "Aria",
+ "essence": "Curioso, loquace e socievole. I Gemelli amano la conversazione e conoscere gente nuova.",
+ "advice": "Annota ciò che ti incuriosisce e poi approfondisci un solo argomento.",
+ "sections": [
+  {
+   "h": "Personalità e punti di forza",
+   "p": "I Gemelli sono governati da Mercurio, il pianeta della comunicazione. Pensano in fretta, hanno umorismo e amano imparare. Poiché tutto li interessa, finire una cosa può essere difficile."
+  },
+  {
+   "h": "Amore e amicizia",
+   "p": "In amore conta soprattutto una bella conversazione. Hanno molti amici in cerchie diverse e trovano facilmente le parole per le emozioni."
+  },
+  {
+   "h": "Lavoro e vita quotidiana",
+   "p": "Al lavoro vanno bene scrivere, parlare, insegnare e mettere in contatto le persone. Fare più cose insieme è il loro punto di forza. Una lista aiuta a non disperdersi."
+  }
+ ]
+}

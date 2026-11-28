@@ -1,0 +1,22 @@
+{
+ "name": "Aslan",
+ "slug": "leo",
+ "period": "23 Temmuz – 22 Ağustos",
+ "element": "Ateş",
+ "essence": "Cömert, neşeli ve kendinden emin. Aslan kendiliğinden parlar ve her ortamı aydınlatır.",
+ "advice": "Yalnızca başkalarının değil, kendi emeğini de takdir et.",
+ "sections": [
+  {
+   "h": "Kişilik ve güçlü yönler",
+   "p": "Aslan, Güneş tarafından yönetilir. Sıcak, gururlu ve ilgi odağı olmayı sever. Kutlamaya ve başkalarını cesaretlendirmeye bayılır. Göz ardı edilirse kolay kırılır."
+  },
+  {
+   "h": "Aşk ve arkadaşlık",
+   "p": "Aşkta Aslan sevgisini cömertçe gösterir. Arkadaşları arasında herkesi güldürür. İçten bir iltifat doğrudan kalbine ulaşır."
+  },
+  {
+   "h": "İş ve günlük hayat",
+   "p": "İşte Aslan yönetebildiği, sunum yapabildiği ya da yaratıcı olabildiği zaman parlar. Günlük hayatta sevdiği şeylere ayrılan zaman özgüvenini geri verir. Sahneyi başkalarına da bırakması onu daha sevimli yapar."
+  }
+ ]
+}

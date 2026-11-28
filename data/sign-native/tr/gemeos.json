@@ -1,0 +1,22 @@
+{
+ "name": "İkizler",
+ "slug": "gemini",
+ "period": "21 Mayıs – 20 Haziran",
+ "element": "Hava",
+ "essence": "Meraklı, konuşkan ve sosyal. İkizler sohbeti ve yeni insanları sever.",
+ "advice": "İlgini çekenleri not al, sonra yalnızca bir konuda derinleş.",
+ "sections": [
+  {
+   "h": "Kişilik ve güçlü yönler",
+   "p": "İkizler, iletişim gezegeni Merkür tarafından yönetilir. Hızlı düşünür, esprili ve öğrenmeyi sever. Her şey ilginç geldiği için bir işi bitirmek bazen zordur."
+  },
+  {
+   "h": "Aşk ve arkadaşlık",
+   "p": "Aşkta en önemli şey güzel bir sohbettir. Farklı çevrelerde çok arkadaşı vardır ve duygulara kolay söz bulur."
+  },
+  {
+   "h": "İş ve günlük hayat",
+   "p": "İşte yazmak, konuşmak, öğretmek ve insanları bağlamak ona uyar. Aynı anda birkaç iş yapmak güçlü yanıdır. Bir liste dağılmasını önler."
+  }
+ ]
+}

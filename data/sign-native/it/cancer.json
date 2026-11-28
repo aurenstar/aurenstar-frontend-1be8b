@@ -1,0 +1,22 @@
+{
+ "name": "Cancro",
+ "slug": "cancer",
+ "period": "21 giugno – 22 luglio",
+ "element": "Acqua",
+ "essence": "Premuroso e affettuoso. Il Cancro protegge famiglia e amici ed è più forte di quanto sembri.",
+ "advice": "Concediti riposo in un posto in cui ti senti al sicuro.",
+ "sections": [
+  {
+   "h": "Personalità e punti di forza",
+   "p": "Il Cancro è governato dalla Luna. Percepisce subito le emozioni degli altri e ama prendersi cura. È sensibile e a volte si chiude nel suo guscio."
+  },
+  {
+   "h": "Amore e amicizia",
+   "p": "In amore cerca sicurezza e la costruisce passo dopo passo. Per gli amici crea un ambiente caldo. Dire i sentimenti invece di tenerli dentro fa durare le relazioni."
+  },
+  {
+   "h": "Lavoro e vita quotidiana",
+   "p": "Al lavoro vanno bene mestieri di aiuto: cura, educazione, ristorazione. Una casa accogliente gli ridà energia."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Löwe",
+ "slug": "leo",
+ "period": "23. Juli – 22. August",
+ "element": "Feuer",
+ "essence": "Großzügig, fröhlich und selbstbewusst. Löwe strahlt von selbst und macht jeden Raum heller.",
+ "advice": "Würdige auch deine eigene Mühe, nicht nur die der anderen.",
+ "sections": [
+  {
+   "h": "Persönlichkeit und Stärken",
+   "p": "Löwe wird von der Sonne regiert. Er ist warmherzig, stolz und steht gern im Mittelpunkt. Er feiert gern und ermutigt andere. Wird er übersehen, fühlt er sich schnell verletzt."
+  },
+  {
+   "h": "Liebe und Freundschaft",
+   "p": "In der Liebe zeigt Löwe seine Zuneigung groß und großzügig. Unter Freunden bringt er alle zum Lachen. Wer ihn ehrlich lobt, gewinnt sein Herz."
+  },
+  {
+   "h": "Beruf und Alltag",
+   "p": "Im Beruf glänzt Löwe, wenn er führen, präsentieren oder kreativ sein darf. Im Alltag gibt ihm Zeit für Lieblingsdinge Selbstvertrauen zurück. Auch anderen die Bühne zu überlassen macht ihn noch sympathischer."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Rak",
+ "slug": "cancer",
+ "period": "21 czerwca – 22 lipca",
+ "element": "Woda",
+ "essence": "Troskliwy i serdeczny. Rak chroni rodzinę i przyjaciół i jest silniejszy, niż się wydaje.",
+ "advice": "Odpocznij w miejscu, w którym czujesz się bezpiecznie.",
+ "sections": [
+  {
+   "h": "Osobowość i mocne strony",
+   "p": "Rakiem rządzi Księżyc. Od razu czuje emocje innych i chętnie się opiekuje. Jest wrażliwy i czasem chowa się w skorupie."
+  },
+  {
+   "h": "Miłość i przyjaźń",
+   "p": "W miłości Rak szuka bezpieczeństwa i buduje je krok po kroku. Dla przyjaciół tworzy ciepły dom. Mówienie o uczuciach zamiast chowania ich pomaga związkom trwać."
+  },
+  {
+   "h": "Praca i codzienność",
+   "p": "W pracy pasują zawody pomagające ludziom, np. opieka, edukacja, gastronomia. Przytulny dom ładuje jego siły."
+  }
+ ]
+}

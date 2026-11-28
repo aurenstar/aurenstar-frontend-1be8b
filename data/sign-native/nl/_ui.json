@@ -1,0 +1,23 @@
+{
+ "home": "Home",
+ "read": "Lees artikel",
+ "dict": "Woordenboek",
+ "contact": "Contact",
+ "tools": "Gratis tools",
+ "articles": "Artikelen",
+ "faq": "Veelgestelde vragen",
+ "articlesAbout": "Artikelen over {n}",
+ "cta": "Ontdek je sterrenbeeld",
+ "facts": "In het kort",
+ "period": "Datums",
+ "element": "Element",
+ "advice": "Een simpele tip",
+ "title": "{n}: persoonlijkheid, eigenschappen en alles over het sterrenbeeld",
+ "desc": "{n} ({p}): sterrenbeeld in het element {e}. Persoonlijkheid, sterke punten, liefde en artikelen om {n} eenvoudig te begrijpen.",
+ "qDates": "Wat zijn de data van {n}?",
+ "qElement": "Welk element is {n}?",
+ "qPersonality": "Hoe is {n}?",
+ "qTip": "Wat helpt {n} in het dagelijks leven?",
+ "aDates": "{n} loopt van {p}.",
+ "aElement": "{n} hoort bij het element {e}."
+}

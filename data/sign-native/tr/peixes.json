@@ -1,0 +1,22 @@
+{
+ "name": "Balık",
+ "slug": "pisces",
+ "period": "19 Şubat – 20 Mart",
+ "element": "Su",
+ "essence": "Hassas ve hayal gücü geniş. Balık başkalarıyla birlikte hisseder ve hayal kurmayı sever.",
+ "advice": "Hayal ile gerçek seni yorarsa müzikle ya da doğada sakin bir şey yap.",
+ "sections": [
+  {
+   "h": "Kişilik ve güçlü yönler",
+   "p": "Balık, Jüpiter ve Neptün tarafından yönetilir. Çok hassastır, başkalarının acısını hisseder; sanata ve söze yatkındır. Kolay etkilenir ve bazen hayallere kaçar."
+  },
+  {
+   "h": "Aşk ve arkadaşlık",
+   "p": "Aşkta romantiktir ve çok verir. Arkadaşları onu iyi bir dinleyici olarak takdir eder. Kendini hep geri plana atmayıp “Bunu istiyorum” demesi ona iyi gelir."
+  },
+  {
+   "h": "İş ve günlük hayat",
+   "p": "İşte sanat, müzik, bakım ve yardım meslekleri ona uyar. Günlük hayatta takvimde boşluk bırakmak ve yeterli uyku yardımcı olur. Büyük bir hayali küçük adımlara bölmek onu gerçek yapar."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Ryby",
+ "slug": "pisces",
+ "period": "19 lutego – 20 marca",
+ "element": "Woda",
+ "essence": "Wrażliwe i pełne wyobraźni. Ryby czują innych i lubią marzyć.",
+ "advice": "Gdy marzenia i rzeczywistość cię męczą, zrób coś spokojnego z muzyką lub na łonie natury.",
+ "sections": [
+  {
+   "h": "Osobowość i mocne strony",
+   "p": "Rybami rządzą Jowisz i Neptun. Są bardzo wrażliwe, czują ból innych i mają zmysł do sztuki i słów. Łatwo ulegają wpływom i czasem uciekają w marzenia."
+  },
+  {
+   "h": "Miłość i przyjaźń",
+   "p": "W miłości są romantyczne i dużo dają. Przyjaciele cenią je jako dobrych słuchaczy. Dobrze im robi, gdy nie odsuwają zawsze siebie na bok i mówią: „Chciałabym tego”."
+  },
+  {
+   "h": "Praca i codzienność",
+   "p": "W pracy pasują sztuka, muzyka, opieka i zawody pomocowe. Na co dzień pomaga luz w kalendarzu i dość snu. Podział wielkiego marzenia na małe kroki czyni je prawdziwym."
+  }
+ ]
+}

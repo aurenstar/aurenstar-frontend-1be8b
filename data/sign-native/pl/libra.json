@@ -1,0 +1,22 @@
+{
+ "name": "Waga",
+ "slug": "libra",
+ "period": "23 września – 22 października",
+ "element": "Powietrze",
+ "essence": "Życzliwa, zrównoważona i miłująca pokój. Waga lubi miłą atmosferę i umie słuchać.",
+ "advice": "Gdy nie możesz wybrać, zostaw dwie opcje i weź tę, która od razu wydaje się dobra.",
+ "sections": [
+  {
+   "h": "Osobowość i mocne strony",
+   "p": "Wagą rządzi Wenus. Jest dyplomatyczna, sprawiedliwa i widzi obie strony sprawy. Ważne są dla niej piękno i harmonia. Trudno jej podejmować decyzje i czasem mówi tak, choć myśli nie."
+  },
+  {
+   "h": "Miłość i przyjaźń",
+   "p": "W miłości Waga jest romantyczna i pragnie związku na równych prawach. Wśród przyjaciół godzi kłócących się. Dobrze czuje się przy ludziach, którzy jasno mówią, czego potrzebują."
+  },
+  {
+   "h": "Praca i codzienność",
+   "p": "W pracy Waga błyszczy w zespole, negocjacjach, designie i doradztwie. Pod presją gorzej myśli. Małe cele na dzień oszczędzają czas na rozmyślanie."
+  }
+ ]
+}

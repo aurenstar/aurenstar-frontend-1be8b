@@ -1,0 +1,22 @@
+{
+ "name": "Baran",
+ "slug": "aries",
+ "period": "21 marca – 19 kwietnia",
+ "element": "Ogień",
+ "essence": "Odważny, pełen energii i zawsze gotowy zaczynać. Baran porywa innych swoim tempem.",
+ "advice": "Weź głęboki oddech, zanim ruszysz w pośpiechu, i ciesz się z każdego małego sukcesu.",
+ "sections": [
+  {
+   "h": "Osobowość i mocne strony",
+   "p": "Baranem rządzi Mars. Działa od razu, jest szczery i szybko się zapala. Jego wyzwaniem jest niecierpliwość: czasem zaczyna zbyt pochopnie i zbyt wcześnie rezygnuje."
+  },
+  {
+   "h": "Miłość i przyjaźń",
+   "p": "W miłości Baran jest namiętny i bezpośredni. Wśród przyjaciół często pociąga grupę za sobą. Dawanie drugiej osobie czasu sprawia, że związek jest spokojniejszy."
+  },
+  {
+   "h": "Praca i codzienność",
+   "p": "W pracy Baran błyszczy przy nowych projektach i szybkich decyzjach. Na co dzień ruch pomaga mu oczyścić głowę. Kończenie jednej rzeczy naraz najlepiej wykorzystuje jego energię."
+  }
+ ]
+}

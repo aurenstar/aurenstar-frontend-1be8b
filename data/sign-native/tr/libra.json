@@ -1,0 +1,22 @@
+{
+ "name": "Terazi",
+ "slug": "libra",
+ "period": "23 Eylül – 22 Ekim",
+ "element": "Hava",
+ "essence": "Nazik, dengeli ve barışsever. Terazi hoş ortamı sever ve iyi dinler.",
+ "advice": "Karar veremediğinde iki seçenek bırak ve önce iyi hissettireni al.",
+ "sections": [
+  {
+   "h": "Kişilik ve güçlü yönler",
+   "p": "Terazi, Venüs tarafından yönetilir. Diplomatik, adil ve bir konunun iki tarafını da görür. Güzellik ve uyum onun için önemlidir. Karar vermek zordur, bazen hayır derken evet der."
+  },
+  {
+   "h": "Aşk ve arkadaşlık",
+   "p": "Aşkta Terazi romantiktir ve eşit bir ilişki ister. Arkadaşları arasında kavgalarda arabuluculuk yapar. İhtiyacını açıkça söyleyen insanlarla iyi anlaşır."
+  },
+  {
+   "h": "İş ve günlük hayat",
+   "p": "İşte takım çalışmasında, müzakerede, tasarımda ve danışmanlıkta parlar. Baskı altında daha zor düşünür. Küçük günlük hedefler kafa yorma süresini azaltır."
+  }
+ ]
+}

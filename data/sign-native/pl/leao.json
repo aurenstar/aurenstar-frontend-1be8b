@@ -1,0 +1,22 @@
+{
+ "name": "Lew",
+ "slug": "leo",
+ "period": "23 lipca – 22 sierpnia",
+ "element": "Ogień",
+ "essence": "Hojny, radosny i pewny siebie. Lew świeci sam z siebie i rozjaśnia każde miejsce.",
+ "advice": "Doceń też własny wysiłek, nie tylko cudzy.",
+ "sections": [
+  {
+   "h": "Osobowość i mocne strony",
+   "p": "Lwem rządzi Słońce. Jest ciepły, dumny i lubi być w centrum. Uwielbia świętować i dodawać innym odwagi. Gdy zostanie pominięty, łatwo się rani."
+  },
+  {
+   "h": "Miłość i przyjaźń",
+   "p": "W miłości Lew okazuje uczucia hojnie. Wśród przyjaciół rozśmiesza wszystkich. Szczery komplement trafia mu prosto w serce."
+  },
+  {
+   "h": "Praca i codzienność",
+   "p": "W pracy Lew błyszczy, gdy może prowadzić, prezentować lub tworzyć. Czas na ulubione rzeczy przywraca mu pewność siebie. Oddanie sceny innym czyni go jeszcze sympatyczniejszym."
+  }
+ ]
+}

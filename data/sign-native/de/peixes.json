@@ -1,0 +1,22 @@
+{
+ "name": "Fische",
+ "slug": "pisces",
+ "period": "19. Februar – 20. März",
+ "element": "Wasser",
+ "essence": "Einfühlsam und fantasievoll. Fische fühlt mit anderen und träumt gern.",
+ "advice": "Wenn Traum und Wirklichkeit dich erschöpfen, tu etwas Ruhiges mit Musik oder in der Natur.",
+ "sections": [
+  {
+   "h": "Persönlichkeit und Stärken",
+   "p": "Fische wird von Jupiter und Neptun regiert. Er ist sehr sensibel, spürt den Schmerz anderer und hat Sinn für Kunst und Sprache. Er lässt sich leicht beeinflussen und flüchtet manchmal in Tagträume."
+  },
+  {
+   "h": "Liebe und Freundschaft",
+   "p": "In der Liebe ist Fische romantisch und gibt viel. Freunde schätzen ihn als guten Zuhörer. Er sollte die eigenen Wünsche nicht immer hintanstellen und sagen: „Ich möchte das.“"
+  },
+  {
+   "h": "Beruf und Alltag",
+   "p": "Im Beruf passen Kunst, Musik, Pflege und Heilberufe. Im Alltag helfen Pufferzeiten im Kalender und genug Schlaf. Große Träume in kleine Schritte zu teilen macht sie wahr."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Taureau",
+ "slug": "taurus",
+ "period": "20 avril – 20 mai",
+ "element": "Terre",
+ "essence": "Calme, fidèle et chaleureux. Le Taureau aime le confort et les amitiés qui durent toute une vie.",
+ "advice": "Offrez-vous chaque jour un petit moment pour ce que vous aimez vraiment.",
+ "sections": [
+  {
+   "h": "Personnalité et qualités",
+   "p": "Le Taureau est gouverné par Vénus. Il est patient, fiable et va jusqu’au bout de ce qu’il décide. Bonne cuisine et beaux lieux le rendent heureux. Son entêtement peut parfois le freiner."
+  },
+  {
+   "h": "Amour et amitié",
+   "p": "En amour, il construit la confiance lentement, puis reste très fidèle. Ses amitiés durent souvent des décennies. Il préfère essayer les nouveautés en petits pas."
+  },
+  {
+   "h": "Travail et quotidien",
+   "p": "Au travail, il convainc par sa constance, notamment dans les finances, l’artisanat ou la cuisine. Des habitudes régulières au quotidien lui apportent calme."
+  }
+ ]
+}

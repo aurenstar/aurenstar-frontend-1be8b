@@ -1,0 +1,22 @@
+{
+ "name": "Balanță",
+ "slug": "libra",
+ "period": "23 septembrie – 22 octombrie",
+ "element": "Aer",
+ "essence": "Prietenoasă, echilibrată și iubitoare de pace. Balanța îndrăgește atmosfera plăcută și știe să asculte.",
+ "advice": "Când nu poți alege, păstrează două variante și ia-o pe cea care ți se pare bună prima.",
+ "sections": [
+  {
+   "h": "Personalitate și puncte forte",
+   "p": "Balanța este condusă de Venus. Este diplomată, dreaptă și vede ambele părți ale unei situații. Frumusețea și armonia contează pentru ea. Îi e greu să decidă și uneori spune da deși gândește nu."
+  },
+  {
+   "h": "Dragoste și prietenie",
+   "p": "În dragoste, Balanța este romantică și vrea o relație de la egal la egal. Între prieteni, mediază certurile. Se potrivește cu oamenii care spun clar ce au nevoie."
+  },
+  {
+   "h": "Muncă și viața de zi cu zi",
+   "p": "La muncă strălucește în echipă, negocieri, design și consultanță. Sub presiune gândește mai greu. Obiectivele mici pe zi economisesc timp de gândit."
+  }
+ ]
+}

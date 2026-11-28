@@ -1,0 +1,22 @@
+{
+ "name": "Bliźnięta",
+ "slug": "gemini",
+ "period": "21 maja – 20 czerwca",
+ "element": "Powietrze",
+ "essence": "Ciekawskie, rozmowne i towarzyskie. Bliźnięta kochają rozmowy i nowych ludzi.",
+ "advice": "Zapisuj, co cię interesuje, a potem zgłęb jeden temat.",
+ "sections": [
+  {
+   "h": "Osobowość i mocne strony",
+   "p": "Bliźniętami rządzi Merkury, planeta komunikacji. Myślą szybko, mają humor i lubią się uczyć. Skoro wszystko jest ciekawe, czasem trudno im coś dokończyć."
+  },
+  {
+   "h": "Miłość i przyjaźń",
+   "p": "W miłości najważniejsza jest dobra rozmowa. Mają wielu znajomych w różnych kręgach i łatwo znajdują słowa na uczucia."
+  },
+  {
+   "h": "Praca i codzienność",
+   "p": "W pracy pasuje im pisanie, mówienie, uczenie i łączenie ludzi. Robienie kilku rzeczy naraz to ich siła. Lista pomaga się nie rozpraszać."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Fiskene",
+ "slug": "pisces",
+ "period": "19. februar – 20. mars",
+ "element": "Vann",
+ "essence": "Følsom og fantasifull. Fiskene føler med andre og elsker å drømme.",
+ "advice": "Hvis drømmer og virkelighet tapper deg, gjør noe rolig med musikk eller i naturen.",
+ "sections": [
+  {
+   "h": "Personlighet og styrker",
+   "p": "Fiskene styres av Jupiter og Neptun. De er svært følsomme, kjenner andres smerte og har sans for kunst og ord. De lar seg lett påvirke og flykter noen ganger inn i dagdrømmer."
+  },
+  {
+   "h": "Kjærlighet og vennskap",
+   "p": "I kjærlighet er de romantiske og gir mye. Venner setter pris på dem som gode lyttere. De har godt av å ikke alltid sette seg selv til side og si: «Det vil jeg gjerne.»"
+  },
+  {
+   "h": "Jobb og hverdag",
+   "p": "På jobben passer kunst, musikk, pleie og hjelpeyrker. I hverdagen hjelper luft i kalenderen og nok søvn. Å dele en stor drøm i små steg gjør den virkelig."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Verseau",
+ "slug": "aquarius",
+ "period": "20 janvier – 18 février",
+ "element": "Air",
+ "essence": "Libre, original et humaniste. Le Verseau pense autrement et rêve de l’avenir.",
+ "advice": "Osez dire vos idées inhabituelles, même si elles ne sont pas « normales ».",
+ "sections": [
+  {
+   "h": "Personnalité et qualités",
+   "p": "Le Verseau est gouverné par Saturne et Uranus. Il est indépendant, plein d’idées neuves et souhaite l’égalité pour tous. Il a besoin de temps seul et paraît parfois distant."
+  },
+  {
+   "h": "Amour et amitié",
+   "p": "En amour, il aime une relation comme entre meilleurs amis, avec de la liberté pour chacun. Ses amis viennent de milieux variés. Dire ses sentiments avec des mots rassure l’autre."
+  },
+  {
+   "h": "Travail et quotidien",
+   "p": "Au travail, il brille dans la technique, la recherche, les projets sociaux et le design. Notez ce qui vous rend curieux, cela donnera de bonnes idées plus tard."
+  }
+ ]
+}

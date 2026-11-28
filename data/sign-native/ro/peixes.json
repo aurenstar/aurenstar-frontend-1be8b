@@ -1,0 +1,22 @@
+{
+ "name": "Pești",
+ "slug": "pisces",
+ "period": "19 februarie – 20 martie",
+ "element": "Apă",
+ "essence": "Sensibili și plini de imaginație. Peștii simt împreună cu alții și iubesc să viseze.",
+ "advice": "Dacă visul și realitatea te obosesc, fă ceva liniștit cu muzică sau în natură.",
+ "sections": [
+  {
+   "h": "Personalitate și puncte forte",
+   "p": "Peștii sunt conduși de Jupiter și Neptun. Sunt foarte sensibili, simt durerea altora și au simț pentru artă și cuvinte. Se lasă ușor influențați și uneori fug în visare."
+  },
+  {
+   "h": "Dragoste și prietenie",
+   "p": "În dragoste sunt romantici și dau mult. Prietenii îi apreciază ca buni ascultători. Le face bine să nu se pună mereu pe ei pe locul doi și să spună: „Îmi doresc asta”."
+  },
+  {
+   "h": "Muncă și viața de zi cu zi",
+   "p": "La muncă li se potrivesc arta, muzica, îngrijirea și meseriile de ajutor. În viața de zi cu zi ajută spațiul în program și somnul suficient. Împărțirea unui vis mare în pași mici îl face real."
+  }
+ ]
+}

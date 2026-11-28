@@ -1,0 +1,22 @@
+{
+ "name": "Cancer",
+ "slug": "cancer",
+ "period": "21 juin – 22 juillet",
+ "element": "Eau",
+ "essence": "Attentionné et chaleureux. Le Cancer protège sa famille et ses amis, et il est plus fort qu’il n’y paraît.",
+ "advice": "Accordez-vous du repos dans un endroit où vous vous sentez en sécurité.",
+ "sections": [
+  {
+   "h": "Personnalité et qualités",
+   "p": "Le Cancer est gouverné par la Lune. Il sent tout de suite les émotions des autres et aime prendre soin. Il est sensible et se replie parfois dans sa carapace."
+  },
+  {
+   "h": "Amour et amitié",
+   "p": "En amour, il cherche la sécurité et la construit pas à pas. Pour ses amis, il crée un foyer chaleureux. Dire ses sentiments plutôt que les garder aide à durer."
+  },
+  {
+   "h": "Travail et quotidien",
+   "p": "Au travail, il convient aux métiers d’aide : soins, éducation, restauration. Un chez-soi agréable recharge ses forces."
+  }
+ ]
+}

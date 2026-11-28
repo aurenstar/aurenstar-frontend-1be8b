@@ -1,0 +1,23 @@
+{
+ "home": "Ana Sayfa",
+ "read": "Makaleyi oku",
+ "dict": "Sözlük",
+ "contact": "İletişim",
+ "tools": "Ücretsiz araçlar",
+ "articles": "Makaleler",
+ "faq": "Sık sorulan sorular",
+ "articlesAbout": "{n} hakkında makaleler",
+ "cta": "Burcunu keşfet",
+ "facts": "Kısaca",
+ "period": "Tarihler",
+ "element": "Element",
+ "advice": "Basit bir ipucu",
+ "title": "{n} Burcu: kişilik, özellikler ve burç hakkında her şey",
+ "desc": "{n} Burcu ({p}): {e} elementinden bir burç. Kişilik, güçlü yönler, aşk ve {n} burcunu kolayca anlamanız için makaleler.",
+ "qDates": "{n} Burcu hangi tarihleri kapsar?",
+ "qElement": "{n} Burcu hangi elementtendir?",
+ "qPersonality": "{n} Burcu nasıldır?",
+ "qTip": "{n} Burcuna günlük hayatta ne yardımcı olur?",
+ "aDates": "{n} Burcu {p} arasındadır.",
+ "aElement": "{n} Burcu {e} elementine aittir."
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Yay",
+ "slug": "sagittarius",
+ "period": "22 Kasım – 21 Aralık",
+ "element": "Ateş",
+ "essence": "Neşeli, özgür ve esprili. Yay öğrenmeyi sever ve hayalleriyle başkalarına bulaşır.",
+ "advice": "Her gün küçük yeni bir deneyim ekle, daha fazlası için istek uyandırır.",
+ "sections": [
+  {
+   "h": "Kişilik ve güçlü yönler",
+   "p": "Yay, Jüpiter tarafından yönetilir. İyimserdir; seyahati, öğrenmeyi ve farklı kültürleri sever. Düşündüğünü söyler, bazen fazla açık sözlüdür ve başkalarını şaşırtır."
+  },
+  {
+   "h": "Aşk ve arkadaşlık",
+   "p": "Aşkta özgürlüğe ve maceraları paylaşacak birine ihtiyaç duyar. Arkadaşları arasında kahkaha getirir. Karşısındakinin temposuna saygı ilişkiyi uzun tutar."
+  },
+  {
+   "h": "İş ve günlük hayat",
+   "p": "İşte öğretmenlik, seyahat, yayıncılık ve uluslararası görevler ona uyar. Büyük bir hedefi küçük günlük adımlara bölmek onu ilerletir."
+  }
+ ]
+}

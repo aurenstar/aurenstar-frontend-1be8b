@@ -1,0 +1,22 @@
+{
+ "name": "Vierge",
+ "slug": "virgo",
+ "period": "23 août – 22 septembre",
+ "element": "Terre",
+ "essence": "Consciencieuse et attentive. La Vierge remarque les détails et aime rendre service.",
+ "advice": "Ne visez pas la perfection. Dites-vous le soir : aujourd’hui, c’était assez.",
+ "sections": [
+  {
+   "h": "Personnalité et qualités",
+   "p": "La Vierge est gouvernée par Mercure. Elle observe bien, planifie et reste fiable. Elle est dure avec elle-même et s’inquiète facilement."
+  },
+  {
+   "h": "Amour et amitié",
+   "p": "En amour, elle montre son affection par des actes plutôt que de grands mots. Ses amis la voient comme une conseillère fiable. Regarder le bon côté de l’autre allège la relation."
+  },
+  {
+   "h": "Travail et quotidien",
+   "p": "Au travail, elle excelle dans le travail précis, l’analyse, la santé et l’enseignement. Une liste de tâches la rassure. Prévoir des pauses à l’avance est un bon conseil."
+  }
+ ]
+}

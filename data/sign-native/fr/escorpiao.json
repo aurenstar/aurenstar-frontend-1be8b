@@ -1,0 +1,22 @@
+{
+ "name": "Scorpion",
+ "slug": "scorpio",
+ "period": "23 octobre – 21 novembre",
+ "element": "Eau",
+ "essence": "Fidèle, passionné et profond. Le Scorpion perçoit ce que les autres pensent vraiment.",
+ "advice": "Parlez de vos émotions retenues à quelqu’un de confiance, petit à petit.",
+ "sections": [
+  {
+   "h": "Personnalité et qualités",
+   "p": "Le Scorpion est gouverné par Pluton et Mars. Il a une forte volonté et beaucoup d’endurance. Ce qu’il commence, il le termine. Il s’ouvre lentement et peut devenir méfiant."
+  },
+  {
+   "h": "Amour et amitié",
+   "p": "En amour, il aime profondément et reste fidèle. Il cherche une vraie intimité plutôt que la superficialité. Ses amis sont peu nombreux mais très proches. Parler franchement renforce la confiance."
+  },
+  {
+   "h": "Travail et quotidien",
+   "p": "Au travail, la recherche, l’analyse et l’accompagnement de personnes en difficulté lui conviennent. Au quotidien, il a besoin de concentration et de mouvement pour relâcher la tension."
+  }
+ ]
+}

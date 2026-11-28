@@ -1,0 +1,22 @@
+{
+ "name": "Sagittario",
+ "slug": "sagittarius",
+ "period": "22 novembre – 21 dicembre",
+ "element": "Fuoco",
+ "essence": "Allegro, libero e pieno di humour. Il Sagittario ama imparare e contagia gli altri con i suoi sogni.",
+ "advice": "Aggiungi ogni giorno una piccola esperienza nuova: fa venire voglia di farne altre.",
+ "sections": [
+  {
+   "h": "Personalità e punti di forza",
+   "p": "Il Sagittario è governato da Giove. È ottimista, ama viaggiare, imparare e scoprire altre culture. Dice ciò che pensa, a volte in modo troppo diretto, e sorprende gli altri."
+  },
+  {
+   "h": "Amore e amicizia",
+   "p": "In amore ha bisogno di libertà e di qualcuno con cui condividere l’avventura. Tra amici porta allegria. Rispettare il ritmo dell’altro fa durare la relazione."
+  },
+  {
+   "h": "Lavoro e vita quotidiana",
+   "p": "Al lavoro vanno bene insegnamento, viaggi, editoria e incarichi internazionali. Un grande obiettivo diviso in piccoli passi quotidiani lo fa avanzare."
+  }
+ ]
+}

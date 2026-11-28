@@ -1,0 +1,22 @@
+{
+ "name": "Boğa",
+ "slug": "taurus",
+ "period": "20 Nisan – 20 Mayıs",
+ "element": "Toprak",
+ "essence": "Sakin, sadık ve sıcak. Boğa rahatlığı ve ömür boyu sürecek dostlukları sever.",
+ "advice": "Her gün gerçekten sevdiğin bir şey için küçük bir zaman ayır.",
+ "sections": [
+  {
+   "h": "Kişilik ve güçlü yönler",
+   "p": "Boğa, Venüs tarafından yönetilir. Sabırlı ve güvenilirdir, karar verdiğini sonuna kadar götürür. Güzel yemekler ve güzel mekânlar onu mutlu eder. İnatçılığı bazen önüne çıkar."
+  },
+  {
+   "h": "Aşk ve arkadaşlık",
+   "p": "Aşkta Boğa güveni yavaş kurar, sonra çok sadık kalır. Dostlukları çoğu zaman yıllarca sürer. Yenilikleri küçük adımlarla denemeyi sever."
+  },
+  {
+   "h": "İş ve günlük hayat",
+   "p": "İşte Boğa dayanıklılığıyla ikna eder; finans, zanaat veya yemek alanları ona uyar. Günlük hayatta düzenli alışkanlıklar ona huzur verir."
+  }
+ ]
+}

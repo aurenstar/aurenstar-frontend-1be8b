@@ -1,0 +1,23 @@
+{
+ "home": "Startseite",
+ "read": "Artikel lesen",
+ "dict": "Lexikon",
+ "contact": "Kontakt",
+ "tools": "Kostenlose Tools",
+ "articles": "Artikel",
+ "faq": "Häufige Fragen",
+ "articlesAbout": "Artikel über {n}",
+ "cta": "Entdecke dein Sternzeichen",
+ "facts": "Auf einen Blick",
+ "period": "Zeitraum",
+ "element": "Element",
+ "advice": "Ein einfacher Tipp",
+ "title": "{n}: Eigenschaften, Persönlichkeit und alles zum Sternzeichen",
+ "desc": "{n} ({p}): Sternzeichen im Element {e}. Persönlichkeit, Stärken, Liebe und Artikel, um {n} einfach zu verstehen.",
+ "qDates": "Welche Daten hat {n}?",
+ "qElement": "Welches Element hat {n}?",
+ "qPersonality": "Wie ist {n}?",
+ "qTip": "Was hilft {n} im Alltag?",
+ "aDates": "{n} umfasst den Zeitraum {p}.",
+ "aElement": "{n} gehört zum Element {e}."
+}

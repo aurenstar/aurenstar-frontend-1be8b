@@ -1,0 +1,22 @@
+{
+ "name": "Oxen",
+ "slug": "taurus",
+ "period": "20 april – 20 maj",
+ "element": "Jord",
+ "essence": "Lugn, trogen och varm. Oxen älskar trygghet och vänskap som varar livet ut.",
+ "advice": "Unna dig en liten stund varje dag för något du verkligen tycker om.",
+ "sections": [
+  {
+   "h": "Personlighet och styrkor",
+   "p": "Oxen styrs av Venus. Den är tålmodig, pålitlig och slutför det den bestämt sig för. God mat och vackra platser gör den glad. Envisheten står ibland i vägen."
+  },
+  {
+   "h": "Kärlek och vänskap",
+   "p": "I kärlek bygger Oxen förtroende långsamt och är sedan mycket trogen. Dess vänskaper håller ofta i decennier. Nya saker provar den helst i små steg."
+  },
+  {
+   "h": "Jobb och vardag",
+   "p": "På jobbet övertygar Oxen med uthållighet, till exempel inom ekonomi, hantverk eller mat. Fasta rutiner i vardagen ger den ro."
+  }
+ ]
+}

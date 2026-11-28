@@ -1,0 +1,22 @@
+{
+ "name": "Bélier",
+ "slug": "aries",
+ "period": "21 mars – 19 avril",
+ "element": "Feu",
+ "essence": "Courageux, plein d’énergie, toujours prêt à commencer. Le Bélier entraîne les autres avec son élan.",
+ "advice": "Respirez profondément avant d’agir vite, et fêtez chaque petite victoire.",
+ "sections": [
+  {
+   "h": "Personnalité et qualités",
+   "p": "Le Bélier est gouverné par Mars. Il fonce, il est franc et s’enthousiasme vite. Son défi est l’impatience : il commence parfois trop vite et abandonne trop tôt."
+  },
+  {
+   "h": "Amour et amitié",
+   "p": "En amour, le Bélier est passionné et direct. Entre amis, il est souvent celui qui entraîne le groupe. Laisser parfois du temps à l’autre rend la relation plus douce."
+  },
+  {
+   "h": "Travail et quotidien",
+   "p": "Au travail, il brille dans les nouveaux projets et les décisions rapides. Au quotidien, bouger l’aide à se vider la tête. Finir une tâche à la fois utilise au mieux son énergie."
+  }
+ ]
+}

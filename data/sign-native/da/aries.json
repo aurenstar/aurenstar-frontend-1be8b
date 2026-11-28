@@ -1,0 +1,22 @@
+{
+ "name": "Vædderen",
+ "slug": "aries",
+ "period": "21. marts – 19. april",
+ "element": "Ild",
+ "essence": "Modig, fuld af energi og altid klar til at begynde. Vædderen river andre med sit tempo.",
+ "advice": "Træk vejret dybt, før du handler i fart, og fejr hver lille sejr.",
+ "sections": [
+  {
+   "h": "Personlighed og styrker",
+   "p": "Vædderen styres af Mars. Den kaster sig ud i tingene, er ærlig og bliver hurtigt begejstret. Udfordringen er utålmodighed: nogle gange starter den for hastigt og giver op for tidligt."
+  },
+  {
+   "h": "Kærlighed og venskab",
+   "p": "I kærlighed er Vædderen passioneret og direkte. Blandt venner er den ofte den, der trækker gruppen med. At give den anden tid en gang imellem gør forholdet roligere."
+  },
+  {
+   "h": "Arbejde og hverdag",
+   "p": "På arbejdet brillerer Vædderen i nye projekter og hurtige beslutninger. I hverdagen hjælper bevægelse med at rydde hovedet. At afslutte én ting ad gangen udnytter dens energi bedst."
+  }
+ ]
+}

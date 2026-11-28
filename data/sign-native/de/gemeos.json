@@ -1,0 +1,22 @@
+{
+ "name": "Zwillinge",
+ "slug": "gemini",
+ "period": "21. Mai – 20. Juni",
+ "element": "Luft",
+ "essence": "Neugierig, redegewandt und gesellig. Zwillinge liebt Gespräche und neue Menschen.",
+ "advice": "Schreib auf, was dich interessiert, und vertiefe später ein einziges Thema.",
+ "sections": [
+  {
+   "h": "Persönlichkeit und Stärken",
+   "p": "Zwillinge wird von Merkur regiert, dem Planeten der Kommunikation. Er denkt schnell, hat Humor und lernt gern Neues. Weil so viel interessant ist, fällt es manchmal schwer, eine Sache zu Ende zu bringen."
+  },
+  {
+   "h": "Liebe und Freundschaft",
+   "p": "In der Liebe zählt ein gutes Gespräch am meisten. Zwillinge hat viele Freunde in verschiedenen Kreisen und findet leicht Worte für Gefühle."
+  },
+  {
+   "h": "Beruf und Alltag",
+   "p": "Im Beruf passen Schreiben, Reden, Lehren und Vermitteln gut. Mehrere Dinge gleichzeitig zu tun gelingt ihm. Eine Liste im Alltag verhindert, dass er sich verzettelt."
+  }
+ ]
+}

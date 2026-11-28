@@ -1,0 +1,22 @@
+{
+ "name": "Scorpione",
+ "slug": "scorpio",
+ "period": "23 ottobre – 21 novembre",
+ "element": "Acqua",
+ "essence": "Fedele, appassionato e profondo. Lo Scorpione capisce ciò che gli altri pensano davvero.",
+ "advice": "Parla delle emozioni trattenute con una persona di cui ti fidi, un po’ alla volta.",
+ "sections": [
+  {
+   "h": "Personalità e punti di forza",
+   "p": "Lo Scorpione è governato da Plutone e Marte. Ha una forte volontà e molta resistenza. Ciò che inizia lo porta a termine. Si apre lentamente e può diventare diffidente."
+  },
+  {
+   "h": "Amore e amicizia",
+   "p": "In amore ama in modo profondo e fedele. Cerca vera intimità, non superficialità. Ha pochi amici, ma molto stretti. Parlare apertamente costruisce fiducia."
+  },
+  {
+   "h": "Lavoro e vita quotidiana",
+   "p": "Al lavoro vanno bene ricerca, analisi e lavoro con persone in difficoltà. Nella vita di tutti i giorni ha bisogno di concentrazione e di movimento per sciogliere la tensione."
+  }
+ ]
+}

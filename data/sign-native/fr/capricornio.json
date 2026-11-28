@@ -1,0 +1,22 @@
+{
+ "name": "Capricorne",
+ "slug": "capricorn",
+ "period": "22 décembre – 19 janvier",
+ "element": "Terre",
+ "essence": "Responsable et persévérant. Le Capricorne monte vers ses buts marche après marche.",
+ "advice": "Après un gros effort, prévoyez un jour de repos comme récompense.",
+ "sections": [
+  {
+   "h": "Personnalité et qualités",
+   "p": "Le Capricorne est gouverné par Saturne. Il est fiable, planifie bien et gagne la confiance avec le temps. Il prend tout très au sérieux et lâche difficilement prise."
+  },
+  {
+   "h": "Amour et amitié",
+   "p": "En amour, il est prudent, mais très sincère une fois décidé. Pour ses amis, c’est un roc. Un « merci » ou un « ça me fait plaisir » sincère le rapproche des autres."
+  },
+  {
+   "h": "Travail et quotidien",
+   "p": "Au travail, la gestion, la planification, la finance et les métiers spécialisés lui conviennent. Au quotidien, prévoir du temps pour rire et pour un loisir l’allège."
+  }
+ ]
+}

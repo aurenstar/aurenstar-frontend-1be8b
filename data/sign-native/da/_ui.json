@@ -1,0 +1,23 @@
+{
+ "home": "Forside",
+ "read": "Læs artiklen",
+ "dict": "Ordbog",
+ "contact": "Kontakt",
+ "tools": "Gratis værktøjer",
+ "articles": "Artikler",
+ "faq": "Ofte stillede spørgsmål",
+ "articlesAbout": "Artikler om {n}",
+ "cta": "Find dit stjernetegn",
+ "facts": "Kort fortalt",
+ "period": "Datoer",
+ "element": "Element",
+ "advice": "Et enkelt tip",
+ "title": "{n}: personlighed, egenskaber og alt om stjernetegnet",
+ "desc": "{n} ({p}): stjernetegn i elementet {e}. Personlighed, styrker, kærlighed og artikler, så du forstår {n} let.",
+ "qDates": "Hvilke datoer gælder for {n}?",
+ "qElement": "Hvilket element er {n}?",
+ "qPersonality": "Hvordan er {n}?",
+ "qTip": "Hvad hjælper {n} i hverdagen?",
+ "aDates": "{n} løber fra {p}.",
+ "aElement": "{n} hører til elementet {e}."
+}

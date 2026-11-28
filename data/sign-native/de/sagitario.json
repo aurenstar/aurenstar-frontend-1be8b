@@ -1,0 +1,22 @@
+{
+ "name": "Schütze",
+ "slug": "sagittarius",
+ "period": "22. November – 21. Dezember",
+ "element": "Feuer",
+ "essence": "Fröhlich, frei und humorvoll. Schütze liebt das Lernen und steckt andere mit seinen Träumen an.",
+ "advice": "Baue jeden Tag eine kleine neue Erfahrung ein, das macht Lust auf mehr.",
+ "sections": [
+  {
+   "h": "Persönlichkeit und Stärken",
+   "p": "Schütze wird von Jupiter regiert. Er ist optimistisch, liebt Reisen, Wissen und fremde Kulturen. Er sagt, was er denkt, manchmal zu direkt, und überrascht damit andere."
+  },
+  {
+   "h": "Liebe und Freundschaft",
+   "p": "In der Liebe braucht Schütze Freiheit und einen Menschen für gemeinsame Abenteuer. Unter Freunden sorgt er für Lachen. Wer das Tempo des Partners respektiert, hält die Beziehung lange."
+  },
+  {
+   "h": "Beruf und Alltag",
+   "p": "Im Beruf passen Lehre, Reisen, Verlag und internationale Aufgaben. Ein großes Ziel mit kleinen Tagesschritten bringt ihn weiter."
+  }
+ ]
+}

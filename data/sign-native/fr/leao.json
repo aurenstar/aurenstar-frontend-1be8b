@@ -1,0 +1,22 @@
+{
+ "name": "Lion",
+ "slug": "leo",
+ "period": "23 juillet – 22 août",
+ "element": "Feu",
+ "essence": "Généreux, joyeux et confiant. Le Lion rayonne naturellement et éclaire chaque pièce.",
+ "advice": "Reconnaissez aussi vos propres efforts, pas seulement ceux des autres.",
+ "sections": [
+  {
+   "h": "Personnalité et qualités",
+   "p": "Le Lion est gouverné par le Soleil. Il est chaleureux, fier et aime être au centre. Il adore fêter et encourager les autres. S’il est ignoré, il se blesse vite."
+  },
+  {
+   "h": "Amour et amitié",
+   "p": "En amour, le Lion montre son affection avec largesse. Entre amis, il fait rire tout le monde. Un compliment sincère lui va droit au cœur."
+  },
+  {
+   "h": "Travail et quotidien",
+   "p": "Au travail, il brille quand il peut diriger, présenter ou créer. Au quotidien, du temps pour ses passions lui rend confiance. Laisser aussi la scène aux autres le rend encore plus attachant."
+  }
+ ]
+}

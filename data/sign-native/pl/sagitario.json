@@ -1,0 +1,22 @@
+{
+ "name": "Strzelec",
+ "slug": "sagittarius",
+ "period": "22 listopada – 21 grudnia",
+ "element": "Ogień",
+ "essence": "Radosny, wolny i pełen humoru. Strzelec kocha się uczyć i zaraża innych marzeniami.",
+ "advice": "Dodawaj codziennie małe nowe doświadczenie, to zachęca do kolejnych.",
+ "sections": [
+  {
+   "h": "Osobowość i mocne strony",
+   "p": "Strzelcem rządzi Jowisz. Jest optymistą, lubi podróże, naukę i inne kultury. Mówi, co myśli, czasem zbyt wprost, i zaskakuje innych."
+  },
+  {
+   "h": "Miłość i przyjaźń",
+   "p": "W miłości potrzebuje wolności i kogoś do wspólnych przygód. Wśród przyjaciół wprowadza śmiech. Szanowanie tempa drugiej osoby pozwala związkowi trwać."
+  },
+  {
+   "h": "Praca i codzienność",
+   "p": "W pracy pasują nauczanie, podróże, wydawnictwa i zadania międzynarodowe. Duży cel podzielony na małe codzienne kroki prowadzi go naprzód."
+  }
+ ]
+}

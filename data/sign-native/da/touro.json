@@ -1,0 +1,22 @@
+{
+ "name": "Tyren",
+ "slug": "taurus",
+ "period": "20. april – 20. maj",
+ "element": "Jord",
+ "essence": "Rolig, trofast og varm. Tyren elsker hygge og venskaber, der varer et helt liv.",
+ "advice": "Giv dig selv lidt tid hver dag til noget, du virkelig holder af.",
+ "sections": [
+  {
+   "h": "Personlighed og styrker",
+   "p": "Tyren styres af Venus. Den er tålmodig, pålidelig og fuldfører det, den har besluttet. God mad og smukke steder gør den glad. Stædigheden står nogle gange i vejen."
+  },
+  {
+   "h": "Kærlighed og venskab",
+   "p": "I kærlighed opbygger Tyren tillid langsomt og er derefter meget trofast. Dens venskaber varer ofte i årtier. Nye ting prøver den helst af i små skridt."
+  },
+  {
+   "h": "Arbejde og hverdag",
+   "p": "På arbejdet overbeviser Tyren med udholdenhed, for eksempel inden for økonomi, håndværk eller mad. Faste vaner i hverdagen giver den ro."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Koç",
+ "slug": "aries",
+ "period": "21 Mart – 19 Nisan",
+ "element": "Ateş",
+ "essence": "Cesur, enerji dolu ve her zaman başlamaya hazır. Koç, hızıyla başkalarını peşinden sürükler.",
+ "advice": "Aceleyle davranmadan önce derin bir nefes al ve her küçük başarıyı kutla.",
+ "sections": [
+  {
+   "h": "Kişilik ve güçlü yönler",
+   "p": "Koç, Mars tarafından yönetilir. Doğrudan girişir, dürüsttür ve çabuk heyecanlanır. Zorluğu sabırsızlıktır: bazen çok aceleyle başlar, çok erken bırakır."
+  },
+  {
+   "h": "Aşk ve arkadaşlık",
+   "p": "Aşkta Koç tutkulu ve açık sözlüdür. Arkadaşları arasında çoğu zaman grubu sürükleyen kişidir. Ara sıra karşısındakine zaman tanımak ilişkiyi yumuşatır."
+  },
+  {
+   "h": "İş ve günlük hayat",
+   "p": "İşte Koç yeni projelerde ve hızlı kararlarda parlar. Günlük hayatta hareket kafasını boşaltmasına yardım eder. Bir işi bitirip diğerine geçmek enerjisini en iyi şekilde kullandırır."
+  }
+ ]
+}

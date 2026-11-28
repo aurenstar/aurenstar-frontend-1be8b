@@ -1,0 +1,22 @@
+{
+ "name": "Capricorn",
+ "slug": "capricorn",
+ "period": "22 decembrie – 19 ianuarie",
+ "element": "Pământ",
+ "essence": "Responsabil și perseverent. Capricornul urcă spre țelurile lui treaptă cu treaptă.",
+ "advice": "După o muncă grea, planifică în mod conștient o zi liberă ca recompensă.",
+ "sections": [
+  {
+   "h": "Personalitate și puncte forte",
+   "p": "Capricornul este condus de Saturn. Este de încredere, planifică bine și câștigă încrederea cu timpul. Ia totul foarte în serios și îi vine greu să se lase."
+  },
+  {
+   "h": "Dragoste și prietenie",
+   "p": "În dragoste este prudent, dar foarte sincer după ce se hotărăște. Pentru prieteni este o stâncă. Un „mulțumesc” sincer sau un „mă bucur” îl apropie de ceilalți."
+  },
+  {
+   "h": "Muncă și viața de zi cu zi",
+   "p": "La muncă i se potrivesc managementul, planificarea, finanțele și meseriile de specialitate. În viața de zi cu zi îl ajută timpul pentru râs și hobby-uri."
+  }
+ ]
+}

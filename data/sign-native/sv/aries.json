@@ -1,0 +1,22 @@
+{
+ "name": "Väduren",
+ "slug": "aries",
+ "period": "21 mars – 19 april",
+ "element": "Eld",
+ "essence": "Modig, full av energi och alltid redo att börja. Väduren drar med sig andra med sin fart.",
+ "advice": "Andas djupt innan du handlar i hastigheten och fira varje liten seger.",
+ "sections": [
+  {
+   "h": "Personlighet och styrkor",
+   "p": "Väduren styrs av Mars. Den kastar sig in, är ärlig och blir snabbt entusiastisk. Utmaningen är otålighet: ibland börjar den för hastigt och ger upp för tidigt."
+  },
+  {
+   "h": "Kärlek och vänskap",
+   "p": "I kärlek är Väduren passionerad och rak. Bland vänner är den ofta den som drar med gruppen. Att ibland ge den andra tid gör relationen lugnare."
+  },
+  {
+   "h": "Jobb och vardag",
+   "p": "På jobbet briljerar Väduren i nya projekt och snabba beslut. I vardagen hjälper rörelse att rensa huvudet. Att avsluta en sak i taget använder dess energi bäst."
+  }
+ ]
+}

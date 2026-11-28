@@ -1,0 +1,22 @@
+{
+ "name": "Kova",
+ "slug": "aquarius",
+ "period": "20 Ocak – 18 Şubat",
+ "element": "Hava",
+ "essence": "Özgür, özgün ve insan sever. Kova farklı düşünür ve geleceği hayal eder.",
+ "advice": "Alışılmadık fikirlerini “normal” olmasa da çekinmeden söyle.",
+ "sections": [
+  {
+   "h": "Kişilik ve güçlü yönler",
+   "p": "Kova, Satürn ve Uranüs tarafından yönetilir. Bağımsızdır, yeni fikirlerle doludur ve herkes için eşitlik ister. Kendine zaman ayırmaya ihtiyaç duyar, bu yüzden bazen mesafeli görünür."
+  },
+  {
+   "h": "Aşk ve arkadaşlık",
+   "p": "Aşkta en iyi arkadaşlar arasındaki gibi, iki tarafa da alan bırakan bir ilişkiyi sever. Arkadaşları farklı çevrelerden gelir. Duyguları sözle söylemek karşısındakine güven verir."
+  },
+  {
+   "h": "İş ve günlük hayat",
+   "p": "İşte teknoloji, araştırma, sosyal projeler ve tasarımda parlar. Seni meraklandıran şeyleri not al, sonra iyi fikirlere dönüşür."
+  }
+ ]
+}

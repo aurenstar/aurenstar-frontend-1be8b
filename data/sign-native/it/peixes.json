@@ -1,0 +1,22 @@
+{
+ "name": "Pesci",
+ "slug": "pisces",
+ "period": "19 febbraio – 20 marzo",
+ "element": "Acqua",
+ "essence": "Sensibile e fantasioso. I Pesci sentono gli altri e amano sognare.",
+ "advice": "Se sogno e realtà ti stancano, fai qualcosa di calmo con la musica o nella natura.",
+ "sections": [
+  {
+   "h": "Personalità e punti di forza",
+   "p": "I Pesci sono governati da Giove e Nettuno. Molto sensibili, percepiscono il dolore altrui e hanno senso per l’arte e le parole. Si lasciano influenzare e a volte fuggono nei sogni a occhi aperti."
+  },
+  {
+   "h": "Amore e amicizia",
+   "p": "In amore sono romantici e danno molto. Gli amici li apprezzano come ottimi ascoltatori. Fa bene non mettere sempre da parte se stessi e dire: «Vorrei questo»."
+  },
+  {
+   "h": "Lavoro e vita quotidiana",
+   "p": "Al lavoro vanno bene arte, musica, cura e professioni d’aiuto. Nella vita quotidiana aiutano margini in agenda e sonno sufficiente. Dividere un grande sogno in piccoli passi lo rende reale."
+  }
+ ]
+}

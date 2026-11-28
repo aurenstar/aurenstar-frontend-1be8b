@@ -1,0 +1,22 @@
+{
+ "name": "Vergine",
+ "slug": "virgo",
+ "period": "23 agosto – 22 settembre",
+ "element": "Terra",
+ "essence": "Scrupolosa e attenta. La Vergine nota i dettagli e ama rendersi utile.",
+ "advice": "Non pretendere la perfezione. Dì a te stessa la sera: oggi è bastato.",
+ "sections": [
+  {
+   "h": "Personalità e punti di forza",
+   "p": "La Vergine è governata da Mercurio. Osserva bene, pianifica ed è affidabile. È severa con se stessa e si preoccupa facilmente."
+  },
+  {
+   "h": "Amore e amicizia",
+   "p": "In amore mostra l’affetto più con i fatti che con le parole. Gli amici la vedono come una consigliera affidabile. Guardare il lato buono dell’altro alleggerisce la relazione."
+  },
+  {
+   "h": "Lavoro e vita quotidiana",
+   "p": "Al lavoro eccelle nel lavoro preciso, nell’analisi, nella salute e nell’insegnamento. Una lista di cose da fare la tranquillizza. Programmare le pause in anticipo è un buon consiglio."
+  }
+ ]
+}

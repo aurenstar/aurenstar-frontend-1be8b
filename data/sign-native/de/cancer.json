@@ -1,0 +1,22 @@
+{
+ "name": "Krebs",
+ "slug": "cancer",
+ "period": "21. Juni – 22. Juli",
+ "element": "Wasser",
+ "essence": "Fürsorglich und herzlich. Krebs schützt Familie und Freunde und ist stärker, als man denkt.",
+ "advice": "Schenk dir Ruhe an einem Ort, an dem du dich sicher fühlst.",
+ "sections": [
+  {
+   "h": "Persönlichkeit und Stärken",
+   "p": "Krebs wird vom Mond regiert. Er spürt die Gefühle anderer sofort und kümmert sich gern. Er ist empfindlich und zieht sich manchmal in sein Schneckenhaus zurück."
+  },
+  {
+   "h": "Liebe und Freundschaft",
+   "p": "In der Liebe sucht Krebs Geborgenheit und baut sie Schritt für Schritt auf. Für Freunde schafft er ein warmes Zuhause. Gefühle auszusprechen, statt sie zu sammeln, hält Beziehungen lange gesund."
+  },
+  {
+   "h": "Beruf und Alltag",
+   "p": "Im Beruf passen Aufgaben, bei denen man Menschen unterstützt, etwa Pflege, Erziehung oder Gastronomie. Ein gemütlich eingerichtetes Zuhause lädt seine Kraft wieder auf."
+  }
+ ]
+}

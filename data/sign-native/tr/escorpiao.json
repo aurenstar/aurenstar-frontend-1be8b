@@ -1,0 +1,22 @@
+{
+ "name": "Akrep",
+ "slug": "scorpio",
+ "period": "23 Ekim – 21 Kasım",
+ "element": "Su",
+ "essence": "Sadık, tutkulu ve derin. Akrep başkalarının gerçekte ne düşündüğünü sezer.",
+ "advice": "İçinde biriken duyguları güvendiğin biriyle azar azar konuş.",
+ "sections": [
+  {
+   "h": "Kişilik ve güçlü yönler",
+   "p": "Akrep, Plüton ve Mars tarafından yönetilir. İradesi güçlü ve dayanıklıdır. Başladığı işi bitirir. Yavaş açılır ve şüpheci olabilir."
+  },
+  {
+   "h": "Aşk ve arkadaşlık",
+   "p": "Aşkta derin ve sadık sever. Yüzeysellik değil, gerçek yakınlık arar. Az ama çok yakın arkadaşları vardır. Açık konuşmak güveni artırır."
+  },
+  {
+   "h": "İş ve günlük hayat",
+   "p": "İşte araştırma, analiz ve zor durumdaki insanlarla çalışma ona uyar. Günlük hayatta gerginliği atmak için odaklanma ve harekete ihtiyaç duyar."
+  }
+ ]
+}

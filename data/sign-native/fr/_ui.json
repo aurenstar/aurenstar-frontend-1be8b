@@ -1,0 +1,23 @@
+{
+ "home": "Accueil",
+ "read": "Lire l’article",
+ "dict": "Dictionnaire",
+ "contact": "Contact",
+ "tools": "Outils gratuits",
+ "articles": "Articles",
+ "faq": "Questions fréquentes",
+ "articlesAbout": "Articles sur {n}",
+ "cta": "Découvrez votre signe",
+ "facts": "En bref",
+ "period": "Dates",
+ "element": "Élément",
+ "advice": "Un conseil simple",
+ "title": "{n} : personnalité, caractère et tout sur le signe",
+ "desc": "{n} ({p}) : signe de l’élément {e}. Personnalité, qualités, amour et articles pour comprendre {n} simplement.",
+ "qDates": "Quelles sont les dates du signe {n} ?",
+ "qElement": "Quel est l’élément de {n} ?",
+ "qPersonality": "Comment est le signe {n} ?",
+ "qTip": "Qu’est-ce qui aide {n} au quotidien ?",
+ "aDates": "{n} s’étend du {p}.",
+ "aElement": "{n} appartient à l’élément {e}."
+}

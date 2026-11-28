@@ -1,0 +1,22 @@
+{
+ "name": "Tvillingerne",
+ "slug": "gemini",
+ "period": "21. maj – 20. juni",
+ "element": "Luft",
+ "essence": "Nysgerrige, snaksalige og sociale. Tvillingerne elsker samtaler og nye mennesker.",
+ "advice": "Skriv ned, hvad du er nysgerrig på, og fordyb dig senere i ét emne.",
+ "sections": [
+  {
+   "h": "Personlighed og styrker",
+   "p": "Tvillingerne styres af Merkur, kommunikationens planet. De tænker hurtigt, har humor og elsker at lære. Fordi alt er interessant, er det nogle gange svært at gøre noget færdigt."
+  },
+  {
+   "h": "Kærlighed og venskab",
+   "p": "I kærlighed betyder en god samtale mest. De har mange venner i forskellige kredse og finder let ord for følelser."
+  },
+  {
+   "h": "Arbejde og hverdag",
+   "p": "På arbejdet passer det at skrive, tale, undervise og forbinde mennesker. At lave flere ting på én gang er deres styrke. En liste hjælper dem med ikke at sprede sig."
+  }
+ ]
+}

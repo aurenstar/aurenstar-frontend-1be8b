@@ -1,0 +1,22 @@
+{
+ "name": "Lejonet",
+ "slug": "leo",
+ "period": "23 juli – 22 augusti",
+ "element": "Eld",
+ "essence": "Generöst, glatt och självsäkert. Lejonet lyser av sig självt och gör varje rum ljusare.",
+ "advice": "Uppskatta också din egen ansträngning, inte bara andras.",
+ "sections": [
+  {
+   "h": "Personlighet och styrkor",
+   "p": "Lejonet styrs av Solen. Det är varmt, stolt och står gärna i centrum. Det älskar att fira och uppmuntra andra. Blir det förbisett sårs det lätt."
+  },
+  {
+   "h": "Kärlek och vänskap",
+   "p": "I kärlek visar Lejonet sin tillgivenhet frikostigt. Bland vänner får det alla att skratta. En uppriktig komplimang går rakt till hjärtat."
+  },
+  {
+   "h": "Jobb och vardag",
+   "p": "På jobbet lyser Lejonet när det får leda, presentera eller vara kreativt. I vardagen ger tid för favoritsaker självförtroendet tillbaka. Att även låta andra få scenen gör det ännu sympatiskare."
+  }
+ ]
+}

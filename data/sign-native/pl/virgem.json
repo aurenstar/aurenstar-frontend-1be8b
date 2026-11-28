@@ -1,0 +1,22 @@
+{
+ "name": "Panna",
+ "slug": "virgo",
+ "period": "23 sierpnia – 22 września",
+ "element": "Ziemia",
+ "essence": "Sumienna i uważna. Panna dostrzega szczegóły i lubi pomagać.",
+ "advice": "Nie wymagaj od siebie perfekcji. Wieczorem powiedz sobie: dziś wystarczyło.",
+ "sections": [
+  {
+   "h": "Osobowość i mocne strony",
+   "p": "Panną rządzi Merkury. Dobrze obserwuje, planuje i jest niezawodna. Bywa surowa dla siebie i łatwo się martwi."
+  },
+  {
+   "h": "Miłość i przyjaźń",
+   "p": "W miłości Panna okazuje uczucia raczej czynami niż wielkimi słowami. Przyjaciele widzą w niej godną zaufania doradczynię. Patrzenie na dobre strony drugiej osoby ułatwia związek."
+  },
+  {
+   "h": "Praca i codzienność",
+   "p": "W pracy świetnie radzi sobie z dokładnością, analizą, zdrowiem i nauczaniem. Lista zadań ją uspokaja. Dobrą radą jest planowanie przerw z góry."
+  }
+ ]
+}

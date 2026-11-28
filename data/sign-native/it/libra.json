@@ -1,0 +1,22 @@
+{
+ "name": "Bilancia",
+ "slug": "libra",
+ "period": "23 settembre – 22 ottobre",
+ "element": "Aria",
+ "essence": "Gentile, equilibrata e amante della pace. La Bilancia ama le atmosfere serene e sa ascoltare.",
+ "advice": "Quando non riesci a scegliere, tieni due opzioni e prendi quella che ti piace per prima.",
+ "sections": [
+  {
+   "h": "Personalità e punti di forza",
+   "p": "La Bilancia è governata da Venere. È diplomatica, giusta e vede entrambi i lati di una storia. Bellezza e armonia contano per lei. Decidere è difficile e a volte dice sì quando pensa no."
+  },
+  {
+   "h": "Amore e amicizia",
+   "p": "In amore la Bilancia è romantica e desidera una coppia alla pari. Tra amici media nei litigi. Sta bene con chi dice chiaramente di cosa ha bisogno."
+  },
+  {
+   "h": "Lavoro e vita quotidiana",
+   "p": "Al lavoro brilla nel lavoro di squadra, nelle trattative, nel design e nella consulenza. Sotto pressione ragiona meno bene. Piccoli obiettivi quotidiani fanno risparmiare tempo."
+  }
+ ]
+}

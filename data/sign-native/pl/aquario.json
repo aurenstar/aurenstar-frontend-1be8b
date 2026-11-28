@@ -1,0 +1,22 @@
+{
+ "name": "Wodnik",
+ "slug": "aquarius",
+ "period": "20 stycznia – 18 lutego",
+ "element": "Powietrze",
+ "essence": "Wolny, oryginalny i życzliwy ludziom. Wodnik myśli inaczej i marzy o przyszłości.",
+ "advice": "Mów śmiało o swoich nietypowych pomysłach, nawet jeśli nie są „normalne”.",
+ "sections": [
+  {
+   "h": "Osobowość i mocne strony",
+   "p": "Wodnikiem rządzą Saturn i Uran. Jest niezależny, pełen nowych pomysłów i chce równości dla wszystkich. Potrzebuje czasu dla siebie, więc czasem wydaje się daleki."
+  },
+  {
+   "h": "Miłość i przyjaźń",
+   "p": "W miłości lubi związek jak między najlepszymi przyjaciółmi, z przestrzenią dla obojga. Jego przyjaciele pochodzą z różnych światów. Mówienie o uczuciach słowami daje drugiej osobie pewność."
+  },
+  {
+   "h": "Praca i codzienność",
+   "p": "W pracy błyszczy w technice, badaniach, projektach społecznych i designie. Zapisuj, co cię ciekawi, z tego później rodzą się dobre pomysły."
+  }
+ ]
+}

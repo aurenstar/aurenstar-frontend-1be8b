@@ -1,0 +1,22 @@
+{
+ "name": "Gemeni",
+ "slug": "gemini",
+ "period": "21 mai – 20 iunie",
+ "element": "Aer",
+ "essence": "Curioși, vorbăreți și sociabili. Gemenii iubesc conversațiile și oamenii noi.",
+ "advice": "Notează ce te interesează și apoi aprofundează un singur subiect.",
+ "sections": [
+  {
+   "h": "Personalitate și puncte forte",
+   "p": "Gemenii sunt conduși de Mercur, planeta comunicării. Gândesc repede, au umor și le place să învețe. Fiindcă totul li se pare interesant, uneori le e greu să termine ceva."
+  },
+  {
+   "h": "Dragoste și prietenie",
+   "p": "În dragoste contează cel mai mult o conversație bună. Au mulți prieteni în cercuri diferite și găsesc ușor cuvinte pentru sentimente."
+  },
+  {
+   "h": "Muncă și viața de zi cu zi",
+   "p": "La muncă li se potrivesc scrisul, vorbitul, predarea și legătura între oameni. Să facă mai multe lucruri deodată este forța lor. O listă îi ajută să nu se risipească."
+  }
+ ]
+}

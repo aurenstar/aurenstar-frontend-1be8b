@@ -1,0 +1,22 @@
+{
+ "name": "Rac",
+ "slug": "cancer",
+ "period": "21 iunie – 22 iulie",
+ "element": "Apă",
+ "essence": "Grijuliu și afectuos. Racul își protejează familia și prietenii și este mai puternic decât pare.",
+ "advice": "Odihnește-te într-un loc în care te simți în siguranță.",
+ "sections": [
+  {
+   "h": "Personalitate și puncte forte",
+   "p": "Racul este condus de Lună. Simte imediat emoțiile altora și îi place să aibă grijă. Este sensibil și uneori se retrage în carapace."
+  },
+  {
+   "h": "Dragoste și prietenie",
+   "p": "În dragoste, Racul caută siguranță și o construiește pas cu pas. Pentru prieteni creează o casă caldă. Să spună ce simte, în loc să țină în el, ajută relațiile să dureze."
+  },
+  {
+   "h": "Muncă și viața de zi cu zi",
+   "p": "La muncă i se potrivesc meseriile de ajutor, ca îngrijirea, educația și restaurantele. O casă primitoare îi reîncarcă forțele."
+  }
+ ]
+}

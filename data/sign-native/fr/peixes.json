@@ -1,0 +1,22 @@
+{
+ "name": "Poissons",
+ "slug": "pisces",
+ "period": "19 février – 20 mars",
+ "element": "Eau",
+ "essence": "Sensible et imaginatif. Les Poissons ressentent les autres et aiment rêver.",
+ "advice": "Si le rêve et la réalité vous fatiguent, faites quelque chose de calme avec de la musique ou dans la nature.",
+ "sections": [
+  {
+   "h": "Personnalité et qualités",
+   "p": "Les Poissons sont gouvernés par Jupiter et Neptune. Très sensibles, ils perçoivent la peine des autres et ont le sens de l’art et des mots. Ils se laissent influencer et fuient parfois dans la rêverie."
+  },
+  {
+   "h": "Amour et amitié",
+   "p": "En amour, ils sont romantiques et donnent beaucoup. Leurs amis les apprécient comme d’excellents auditeurs. Ils gagnent à ne pas toujours s’effacer et à dire : « J’aimerais ceci. »"
+  },
+  {
+   "h": "Travail et quotidien",
+   "p": "Au travail, l’art, la musique, le soin et les métiers d’aide leur conviennent. Au quotidien, de la marge dans l’agenda et assez de sommeil aident. Découper un grand rêve en petits pas le rend réel."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Sagittaire",
+ "slug": "sagittarius",
+ "period": "22 novembre – 21 décembre",
+ "element": "Feu",
+ "essence": "Joyeux, libre et plein d’humour. Le Sagittaire adore apprendre et communique ses rêves.",
+ "advice": "Ajoutez chaque jour une petite expérience nouvelle, cela donne envie d’en faire plus.",
+ "sections": [
+  {
+   "h": "Personnalité et qualités",
+   "p": "Le Sagittaire est gouverné par Jupiter. Il est optimiste, aime voyager, apprendre et découvrir d’autres cultures. Il dit ce qu’il pense, parfois trop franchement, et surprend les autres."
+  },
+  {
+   "h": "Amour et amitié",
+   "p": "En amour, il a besoin de liberté et de quelqu’un pour partager l’aventure. Entre amis, il fait rire. Respecter le rythme de l’autre rend la relation durable."
+  },
+  {
+   "h": "Travail et quotidien",
+   "p": "Au travail, l’enseignement, le voyage, l’édition et les missions internationales lui vont bien. Un grand objectif découpé en petites étapes quotidiennes le fait avancer."
+  }
+ ]
+}

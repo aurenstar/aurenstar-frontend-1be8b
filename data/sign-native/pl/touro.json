@@ -1,0 +1,22 @@
+{
+ "name": "Byk",
+ "slug": "taurus",
+ "period": "20 kwietnia – 20 maja",
+ "element": "Ziemia",
+ "essence": "Spokojny, wierny i serdeczny. Byk lubi wygodę i przyjaźnie na całe życie.",
+ "advice": "Daj sobie codziennie chwilę na coś, co naprawdę lubisz.",
+ "sections": [
+  {
+   "h": "Osobowość i mocne strony",
+   "p": "Bykiem rządzi Wenus. Jest cierpliwy, godny zaufania i doprowadza do końca to, co postanowi. Dobre jedzenie i piękne miejsca go cieszą. Upór czasem mu przeszkadza."
+  },
+  {
+   "h": "Miłość i przyjaźń",
+   "p": "W miłości Byk buduje zaufanie powoli, a potem jest bardzo wierny. Jego przyjaźnie trwają często dziesiątki lat. Nowości woli próbować małymi krokami."
+  },
+  {
+   "h": "Praca i codzienność",
+   "p": "W pracy Byk przekonuje wytrwałością, np. w finansach, rzemiośle czy gastronomii. Stałe nawyki na co dzień dają mu spokój."
+  }
+ ]
+}

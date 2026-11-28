@@ -1,0 +1,23 @@
+{
+ "home": "Acasă",
+ "read": "Citește articolul",
+ "dict": "Dicționar",
+ "contact": "Contact",
+ "tools": "Instrumente gratuite",
+ "articles": "Articole",
+ "faq": "Întrebări frecvente",
+ "articlesAbout": "Articole despre {n}",
+ "cta": "Descoperă-ți zodia",
+ "facts": "Pe scurt",
+ "period": "Date",
+ "element": "Element",
+ "advice": "Un sfat simplu",
+ "title": "{n}: personalitate, trăsături și tot ce trebuie să știi despre zodie",
+ "desc": "{n} ({p}): zodie din elementul {e}. Personalitate, puncte forte, dragoste și articole ca să înțelegi ușor zodia {n}.",
+ "qDates": "Care sunt datele zodiei {n}?",
+ "qElement": "Ce element este {n}?",
+ "qPersonality": "Cum este {n}?",
+ "qTip": "Ce ajută zodia {n} zi de zi?",
+ "aDates": "{n} se întinde între {p}.",
+ "aElement": "{n} aparține elementului {e}."
+}

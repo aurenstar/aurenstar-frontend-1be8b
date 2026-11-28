@@ -1,0 +1,23 @@
+{
+ "home": "Home",
+ "read": "Leggi l’articolo",
+ "dict": "Dizionario",
+ "contact": "Contatti",
+ "tools": "Strumenti gratuiti",
+ "articles": "Articoli",
+ "faq": "Domande frequenti",
+ "articlesAbout": "Articoli su {n}",
+ "cta": "Scopri il tuo segno",
+ "facts": "In breve",
+ "period": "Date",
+ "element": "Elemento",
+ "advice": "Un consiglio semplice",
+ "title": "{n}: personalità, carattere e tutto sul segno",
+ "desc": "{n} ({p}): segno dell’elemento {e}. Personalità, punti di forza, amore e articoli per capire {n} in modo semplice.",
+ "qDates": "Quali sono le date di {n}?",
+ "qElement": "Che elemento è {n}?",
+ "qPersonality": "Com’è {n}?",
+ "qTip": "Cosa aiuta {n} ogni giorno?",
+ "aDates": "{n} va dal {p}.",
+ "aElement": "{n} appartiene all’elemento {e}."
+}

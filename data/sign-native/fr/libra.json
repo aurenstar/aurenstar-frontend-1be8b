@@ -1,0 +1,22 @@
+{
+ "name": "Balance",
+ "slug": "libra",
+ "period": "23 septembre – 22 octobre",
+ "element": "Air",
+ "essence": "Aimable, équilibrée et pacifique. La Balance aime les ambiances douces et sait écouter.",
+ "advice": "Quand vous hésitez, gardez deux options et choisissez celle qui vous plaît en premier.",
+ "sections": [
+  {
+   "h": "Personnalité et qualités",
+   "p": "La Balance est gouvernée par Vénus. Elle est diplomate, juste et voit les deux côtés d’une histoire. Beauté et harmonie comptent pour elle. Décider est difficile, et elle dit parfois oui alors qu’elle pense non."
+  },
+  {
+   "h": "Amour et amitié",
+   "p": "En amour, la Balance est romantique et souhaite un couple d’égal à égal. Entre amis, elle calme les conflits. Elle s’entend bien avec ceux qui disent clairement leurs besoins."
+  },
+  {
+   "h": "Travail et quotidien",
+   "p": "Au travail, elle brille en équipe, en négociation, en design et en conseil. Sous pression, elle réfléchit moins bien. De petits objectifs quotidiens font gagner du temps."
+  }
+ ]
+}

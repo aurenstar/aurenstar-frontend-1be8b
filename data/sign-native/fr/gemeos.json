@@ -1,0 +1,22 @@
+{
+ "name": "Gémeaux",
+ "slug": "gemini",
+ "period": "21 mai – 20 juin",
+ "element": "Air",
+ "essence": "Curieux, bavard et sociable. Les Gémeaux adorent la conversation et les nouvelles rencontres.",
+ "advice": "Notez ce qui vous intéresse, puis approfondissez un seul sujet.",
+ "sections": [
+  {
+   "h": "Personnalité et qualités",
+   "p": "Les Gémeaux sont gouvernés par Mercure, la planète de la communication. Ils pensent vite, ont de l’humour et aiment apprendre. Comme tout les intéresse, finir une chose est parfois difficile."
+  },
+  {
+   "h": "Amour et amitié",
+   "p": "En amour, une bonne conversation compte avant tout. Ils ont beaucoup d’amis dans des cercles différents et trouvent facilement les mots pour leurs émotions."
+  },
+  {
+   "h": "Travail et quotidien",
+   "p": "Au travail, écrire, parler, enseigner et relier les gens leur conviennent. Mener plusieurs choses de front est leur point fort. Une liste évite de s’éparpiller."
+  }
+ ]
+}

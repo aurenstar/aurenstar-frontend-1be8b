@@ -1,0 +1,22 @@
+{
+ "name": "Krebsen",
+ "slug": "cancer",
+ "period": "21. juni – 22. juli",
+ "element": "Vand",
+ "essence": "Omsorgsfuld og varm. Krebsen beskytter familie og venner og er stærkere, end man tror.",
+ "advice": "Giv dig selv hvile et sted, hvor du føler dig tryg.",
+ "sections": [
+  {
+   "h": "Personlighed og styrker",
+   "p": "Krebsen styres af Månen. Den fornemmer straks andres følelser og tager gerne hånd om andre. Den er følsom og trækker sig nogle gange ind i sit skjold."
+  },
+  {
+   "h": "Kærlighed og venskab",
+   "p": "I kærlighed søger Krebsen tryghed og bygger den skridt for skridt. For venner skaber den et varmt hjem. At sige sine følelser højt i stedet for at gemme dem holder forhold sunde."
+  },
+  {
+   "h": "Arbejde og hverdag",
+   "p": "På arbejdet passer job, hvor man hjælper andre, som pleje, uddannelse og restaurant. Et hyggeligt hjem lader dens kræfter op."
+  }
+ ]
+}

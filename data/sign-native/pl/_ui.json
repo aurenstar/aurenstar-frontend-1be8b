@@ -1,0 +1,23 @@
+{
+ "home": "Strona główna",
+ "read": "Czytaj artykuł",
+ "dict": "Słownik",
+ "contact": "Kontakt",
+ "tools": "Darmowe narzędzia",
+ "articles": "Artykuły",
+ "faq": "Częste pytania",
+ "articlesAbout": "Artykuły o znaku: {n}",
+ "cta": "Odkryj swój znak",
+ "facts": "W skrócie",
+ "period": "Daty",
+ "element": "Żywioł",
+ "advice": "Prosta rada",
+ "title": "{n}: osobowość, cechy i wszystko o znaku zodiaku",
+ "desc": "{n} ({p}): znak żywiołu {e}. Osobowość, mocne strony, miłość i artykuły, dzięki którym łatwo zrozumiesz znak: {n}.",
+ "qDates": "Jakie są daty znaku {n}?",
+ "qElement": "Jaki żywioł ma {n}?",
+ "qPersonality": "Jaki jest {n}?",
+ "qTip": "Co pomaga znakowi {n} na co dzień?",
+ "aDates": "Znak {n} trwa: {p}.",
+ "aElement": "Znak {n} należy do żywiołu: {e}."
+}

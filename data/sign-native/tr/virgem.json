@@ -1,0 +1,22 @@
+{
+ "name": "Başak",
+ "slug": "virgo",
+ "period": "23 Ağustos – 22 Eylül",
+ "element": "Toprak",
+ "essence": "Titiz ve dikkatli. Başak ayrıntıları fark eder ve yardım etmeyi sever.",
+ "advice": "Kendinden mükemmellik bekleme. Akşam kendine şunu söyle: bugün yeterliydi.",
+ "sections": [
+  {
+   "h": "Kişilik ve güçlü yönler",
+   "p": "Başak, Merkür tarafından yönetilir. İyi gözlemler, planlar ve güvenilirdir. Kendine karşı serttir ve kolayca endişelenir."
+  },
+  {
+   "h": "Aşk ve arkadaşlık",
+   "p": "Aşkta Başak sevgisini büyük sözlerden çok davranışlarla gösterir. Arkadaşları onu güvenilir bir danışman olarak görür. Karşısındakinin iyi yanına bakmak ilişkiyi hafifletir."
+  },
+  {
+   "h": "İş ve günlük hayat",
+   "p": "İşte hassas iş, analiz, sağlık ve öğretmenlikte öne çıkar. Bir yapılacaklar listesi ona huzur verir. Molaları önceden planlamak iyi bir ipucudur."
+  }
+ ]
+}

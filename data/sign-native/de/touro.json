@@ -1,0 +1,22 @@
+{
+ "name": "Stier",
+ "slug": "taurus",
+ "period": "20. April – 20. Mai",
+ "element": "Erde",
+ "essence": "Ruhig, treu und herzlich. Stier mag Gemütlichkeit und Freundschaften, die ein Leben lang halten.",
+ "advice": "Gönn dir jeden Tag ein kleines Stück Zeit für etwas, das du wirklich genießt.",
+ "sections": [
+  {
+   "h": "Persönlichkeit und Stärken",
+   "p": "Stier wird von der Venus regiert. Er ist geduldig, verlässlich und hält durch, was er sich vornimmt. Gutes Essen und schöne Orte machen ihn glücklich. Seine Sturheit kann manchmal im Weg stehen."
+  },
+  {
+   "h": "Liebe und Freundschaft",
+   "p": "In der Liebe baut Stier Vertrauen langsam auf und bleibt dann sehr treu. Freundschaften halten bei ihm oft Jahrzehnte. Neues probiert er am liebsten in kleinen Schritten."
+  },
+  {
+   "h": "Beruf und Alltag",
+   "p": "Im Beruf überzeugt Stier mit Ausdauer, etwa bei Finanzen, Handwerk oder allem rund ums Essen. Feste Abläufe im Alltag tun ihm gut und geben ihm Ruhe."
+  }
+ ]
+}

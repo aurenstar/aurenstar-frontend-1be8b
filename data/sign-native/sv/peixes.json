@@ -1,0 +1,22 @@
+{
+ "name": "Fiskarna",
+ "slug": "pisces",
+ "period": "19 februari – 20 mars",
+ "element": "Vatten",
+ "essence": "Känslig och fantasifull. Fiskarna känner med andra och älskar att drömma.",
+ "advice": "Om drömmar och verklighet tröttar ut dig, gör något lugnt med musik eller i naturen.",
+ "sections": [
+  {
+   "h": "Personlighet och styrkor",
+   "p": "Fiskarna styrs av Jupiter och Neptunus. De är mycket känsliga, känner andras smärta och har sinne för konst och ord. De påverkas lätt och flyr ibland in i dagdrömmar."
+  },
+  {
+   "h": "Kärlek och vänskap",
+   "p": "I kärlek är de romantiska och ger mycket. Vänner uppskattar dem som goda lyssnare. De mår bra av att inte alltid sätta sig själva åt sidan och säga: ”Jag vill det här.”"
+  },
+  {
+   "h": "Jobb och vardag",
+   "p": "På jobbet passar konst, musik, vård och hjälpyrken. I vardagen hjälper luft i almanackan och tillräckligt med sömn. Att dela upp en stor dröm i små steg gör den verklig."
+  }
+ ]
+}

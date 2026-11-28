@@ -1,0 +1,22 @@
+{
+ "name": "Taur",
+ "slug": "taurus",
+ "period": "20 aprilie – 20 mai",
+ "element": "Pământ",
+ "essence": "Calm, loial și afectuos. Taurul iubește confortul și prieteniile pe viață.",
+ "advice": "Oferă-ți zilnic puțin timp pentru ceva ce îți place cu adevărat.",
+ "sections": [
+  {
+   "h": "Personalitate și puncte forte",
+   "p": "Taurul este condus de Venus. Este răbdător, de încredere și duce la capăt ce hotărăște. Mâncarea bună și locurile frumoase îl fac fericit. Încăpățânarea îl încurcă uneori."
+  },
+  {
+   "h": "Dragoste și prietenie",
+   "p": "În dragoste, Taurul construiește încrederea încet, apoi rămâne foarte loial. Prieteniile lui țin adesea zeci de ani. Noutățile le încearcă preferabil în pași mici."
+  },
+  {
+   "h": "Muncă și viața de zi cu zi",
+   "p": "La muncă, Taurul convinge prin perseverență, de exemplu în finanțe, meșteșuguri sau gastronomie. Obiceiurile stabile îi dau liniște."
+  }
+ ]
+}

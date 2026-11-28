@@ -1,0 +1,22 @@
+{
+ "name": "Săgetător",
+ "slug": "sagittarius",
+ "period": "22 noiembrie – 21 decembrie",
+ "element": "Foc",
+ "essence": "Vesel, liber și plin de umor. Săgetătorul iubește să învețe și îi molipsește pe alții cu visele lui.",
+ "advice": "Adaugă în fiecare zi o mică experiență nouă, îți face poftă de mai multe.",
+ "sections": [
+  {
+   "h": "Personalitate și puncte forte",
+   "p": "Săgetătorul este condus de Jupiter. Este optimist și iubește călătoriile, învățatul și alte culturi. Spune ce gândește, uneori prea direct, și îi surprinde pe alții."
+  },
+  {
+   "h": "Dragoste și prietenie",
+   "p": "În dragoste are nevoie de libertate și de cineva cu care să împartă aventuri. Între prieteni aduce râsete. Respectarea ritmului celuilalt face relația să dureze."
+  },
+  {
+   "h": "Muncă și viața de zi cu zi",
+   "p": "La muncă i se potrivesc predarea, călătoriile, editura și sarcinile internaționale. Un obiectiv mare împărțit în pași mici zilnici îl duce înainte."
+  }
+ ]
+}

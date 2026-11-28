@@ -1,0 +1,22 @@
+{
+ "name": "Capricorno",
+ "slug": "capricorn",
+ "period": "22 dicembre – 19 gennaio",
+ "element": "Terra",
+ "essence": "Responsabile e tenace. Il Capricorno sale verso i suoi obiettivi un gradino alla volta.",
+ "advice": "Dopo un grande impegno, prevedi un giorno di riposo come premio.",
+ "sections": [
+  {
+   "h": "Personalità e punti di forza",
+   "p": "Il Capricorno è governato da Saturno. È affidabile, pianifica bene e conquista fiducia col tempo. Prende tutto molto sul serio e fa fatica a lasciar andare."
+  },
+  {
+   "h": "Amore e amicizia",
+   "p": "In amore è prudente, ma molto sincero una volta deciso. Per gli amici è una roccia. Un sincero «grazie» o «mi fa piacere» lo avvicina agli altri."
+  },
+  {
+   "h": "Lavoro e vita quotidiana",
+   "p": "Al lavoro vanno bene gestione, pianificazione, finanza e professioni specialistiche. Nella vita quotidiana, tempo per ridere e per un hobby lo rende più leggero."
+  }
+ ]
+}

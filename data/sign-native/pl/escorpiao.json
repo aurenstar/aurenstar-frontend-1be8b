@@ -1,0 +1,22 @@
+{
+ "name": "Skorpion",
+ "slug": "scorpio",
+ "period": "23 października – 21 listopada",
+ "element": "Woda",
+ "essence": "Wierny, namiętny i głęboki. Skorpion wyczuwa, co inni naprawdę myślą.",
+ "advice": "Porozmawiaj o skrywanych uczuciach z kimś zaufanym, po trochu.",
+ "sections": [
+  {
+   "h": "Osobowość i mocne strony",
+   "p": "Skorpionem rządzą Pluton i Mars. Ma silną wolę i dużą wytrwałość. Co zaczyna, to kończy. Otwiera się powoli i bywa nieufny."
+  },
+  {
+   "h": "Miłość i przyjaźń",
+   "p": "W miłości kocha głęboko i wiernie. Szuka prawdziwej bliskości, nie powierzchowności. Ma mało przyjaciół, ale bardzo bliskich. Szczera rozmowa buduje zaufanie."
+  },
+  {
+   "h": "Praca i codzienność",
+   "p": "W pracy pasują badania, analiza i praca z ludźmi w trudnych sytuacjach. Na co dzień potrzebuje skupienia i ruchu, by rozładować napięcie."
+  }
+ ]
+}

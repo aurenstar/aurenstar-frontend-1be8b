@@ -1,0 +1,22 @@
+{
+ "name": "Wassermann",
+ "slug": "aquarius",
+ "period": "20. Januar – 18. Februar",
+ "element": "Luft",
+ "essence": "Frei, originell und menschenfreundlich. Wassermann denkt anders und träumt von der Zukunft.",
+ "advice": "Sprich deine ungewöhnlichen Ideen ruhig aus, auch wenn sie nicht „normal“ sind.",
+ "sections": [
+  {
+   "h": "Persönlichkeit und Stärken",
+   "p": "Wassermann wird von Saturn und Uranus regiert. Er ist eigenständig und voller neuer Ideen und wünscht sich Gleichheit für alle. Er braucht Zeit für sich und wirkt dadurch manchmal distanziert."
+  },
+  {
+   "h": "Liebe und Freundschaft",
+   "p": "In der Liebe mag er Partnerschaft wie unter besten Freunden mit Raum für beide. Sein Freundeskreis ist bunt gemischt. Gefühle in Worten zu sagen gibt dem anderen Sicherheit."
+  },
+  {
+   "h": "Beruf und Alltag",
+   "p": "Im Beruf glänzt er bei Technik, Forschung, sozialen Projekten und Design. Notiere im Alltag alles, was dich neugierig macht, daraus werden später gute Ideen."
+  }
+ ]
+}

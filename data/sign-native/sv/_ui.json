@@ -1,0 +1,23 @@
+{
+ "home": "Hem",
+ "read": "Läs artikeln",
+ "dict": "Lexikon",
+ "contact": "Kontakt",
+ "tools": "Gratisverktyg",
+ "articles": "Artiklar",
+ "faq": "Vanliga frågor",
+ "articlesAbout": "Artiklar om {n}",
+ "cta": "Upptäck ditt stjärntecken",
+ "facts": "I korthet",
+ "period": "Datum",
+ "element": "Element",
+ "advice": "Ett enkelt tips",
+ "title": "{n}: personlighet, egenskaper och allt om stjärntecknet",
+ "desc": "{n} ({p}): stjärntecken i elementet {e}. Personlighet, styrkor, kärlek och artiklar för att förstå {n} enkelt.",
+ "qDates": "Vilka datum gäller för {n}?",
+ "qElement": "Vilket element är {n}?",
+ "qPersonality": "Hur är {n}?",
+ "qTip": "Vad hjälper {n} i vardagen?",
+ "aDates": "{n} sträcker sig från {p}.",
+ "aElement": "{n} tillhör elementet {e}."
+}

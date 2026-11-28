@@ -1,0 +1,22 @@
+{
+ "name": "Væren",
+ "slug": "aries",
+ "period": "21. mars – 19. april",
+ "element": "Ild",
+ "essence": "Modig, full av energi og alltid klar til å begynne. Væren drar andre med seg med tempoet sitt.",
+ "advice": "Pust dypt før du handler i fart, og feir hver lille seier.",
+ "sections": [
+  {
+   "h": "Personlighet og styrker",
+   "p": "Væren styres av Mars. Den kaster seg ut i ting, er ærlig og blir fort begeistret. Utfordringen er utålmodighet: noen ganger starter den for fort og gir opp for tidlig."
+  },
+  {
+   "h": "Kjærlighet og vennskap",
+   "p": "I kjærlighet er Væren lidenskapelig og direkte. Blant venner er den ofte den som drar gruppen med. Å gi den andre tid av og til gjør forholdet roligere."
+  },
+  {
+   "h": "Jobb og hverdag",
+   "p": "På jobben briljerer Væren i nye prosjekter og raske beslutninger. I hverdagen hjelper bevegelse til å rydde hodet. Å fullføre én ting av gangen utnytter energien best."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Skorpionen",
+ "slug": "scorpio",
+ "period": "23. oktober – 21. november",
+ "element": "Vand",
+ "essence": "Trofast, passioneret og dyb. Skorpionen ser, hvad andre egentlig mener.",
+ "advice": "Tal om indestængte følelser med en, du stoler på, lidt ad gangen.",
+ "sections": [
+  {
+   "h": "Personlighed og styrker",
+   "p": "Skorpionen styres af Pluto og Mars. Den har stærk vilje og megen udholdenhed. Det, den begynder på, gør den færdigt. Den åbner sig langsomt og kan blive mistænksom."
+  },
+  {
+   "h": "Kærlighed og venskab",
+   "p": "I kærlighed elsker den dybt og trofast. Den søger ægte nærhed, ikke overfladiskhed. Den har få venner, men meget nære. Åbne samtaler bygger tillid."
+  },
+  {
+   "h": "Arbejde og hverdag",
+   "p": "På arbejdet passer forskning, analyse og arbejde med mennesker i svære situationer. I hverdagen har den brug for koncentration og bevægelse for at slippe spændinger."
+  }
+ ]
+}
