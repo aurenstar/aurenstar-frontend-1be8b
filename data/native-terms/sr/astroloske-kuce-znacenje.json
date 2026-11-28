@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "astrološke kuće",
+ "volume": "1000",
+ "slug": "astroloske-kuce-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Astrološke kuće: šta su i šta znače?",
+ "description": "12 kuća pokazuje u kojoj oblasti života se nešto dešava: posao, ljubav, dom. Jednostavno.",
+ "intro": "Astrološke kuće dele tvoju natalnu kartu na 12 delova. Svaka kuća je oblast života, kao što su novac, ljubav, dom ili posao.",
+ "sections": [
+  {
+   "h2": "Šta je 12 kuća?",
+   "paragraphs": [
+    "Zamisli kuću sa 12 soba. Planete su stanari, znaci njihovo raspoloženje, a kuća soba u kojoj se to dešava. Kuća 1 govori o tebi, 4 o domu, 7 o vezama, 10 o karijeri."
+   ]
+  },
+  {
+   "h2": "Kako ih pronaći?",
+   "paragraphs": [
+    "Trebaju ti datum, vreme i mesto rođenja. Besplatni kalkulator crta kartu i pokazuje planete u svakoj kući."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Marko ima Veneru u kući 10. Ljubav i lepota su u njegovom poslu: uspešan je u kreativnom zanimanju."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Treba li mi vreme rođenja?",
+   "a": "Da, jer se kuće pomeraju otprilike na svaka dva sata."
+  },
+  {
+   "q": "Jesu li sve kuće podjednako važne?",
+   "a": "Kuće sa planetama se najviše osećaju; prazne nisu nevažne, samo mirnije."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

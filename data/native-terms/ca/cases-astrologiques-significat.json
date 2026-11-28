@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "cases astrològiques",
+ "volume": "1000",
+ "slug": "cases-astrologiques-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Cases astrològiques: què són i què signifiquen?",
+ "description": "Les 12 cases mostren en quina àrea de la vida passa alguna cosa: feina, amor, llar. Explicat fàcil.",
+ "intro": "Les cases astrològiques divideixen la teva carta natal en 12 parts. Cada casa és una àrea de la vida, com els diners, l’amor, la llar o la feina.",
+ "sections": [
+  {
+   "h2": "Quines són les 12 cases?",
+   "paragraphs": [
+    "Imagina una casa amb 12 habitacions. Els planetes són els habitants, els signes el seu estat d’ànim i la casa l’habitació on passa. La casa 1 parla de tu, la 4 de la llar, la 7 de les relacions, la 10 de la carrera."
+   ]
+  },
+  {
+   "h2": "Com les trobes?",
+   "paragraphs": [
+    "Necessites data, hora i lloc de naixement. Una eina gratuïta dibuixa la carta i mostra els planetes de cada casa."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "En Pau té Venus a la casa 10. L’amor i la bellesa són a la seva feina: triomfa en una professió creativa."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Necessito l’hora de naixement?",
+   "a": "Sí, perquè les cases es desplacen cada dues hores aproximadament."
+  },
+  {
+   "q": "Totes les cases pesen igual?",
+   "a": "Les cases amb planetes es noten més; les buides no són poc importants, només més tranquil·les."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

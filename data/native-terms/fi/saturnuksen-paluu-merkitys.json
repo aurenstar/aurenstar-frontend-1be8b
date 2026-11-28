@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "Saturnuksen paluu",
+ "volume": "1000",
+ "slug": "saturnuksen-paluu-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturnuksen paluu: mikä se on ja milloin se tapahtuu?",
+ "description": "Noin 29-vuotiaana Saturnus palaa syntymäpaikalleen. Kypsymisen aikaa. Selitetty yksinkertaisesti.",
+ "intro": "Saturnuksen paluu tarkoittaa, että Saturnus on taas siellä, missä se oli syntyessäsi. Se tapahtuu noin 29–30-vuotiaana ja uudelleen noin 58-vuotiaana.",
+ "sections": [
+  {
+   "h2": "Mitä tapahtuu?",
+   "paragraphs": [
+    "Saturnus kiertää taivaan noin 29 vuodessa. Sitten elämä kysyy: sopiiko polkusi vielä? Moni vaihtaa työn, suhteen tai asuinpaikan."
+   ]
+  },
+  {
+   "h2": "Miten siitä selviää?",
+   "paragraphs": [
+    "Ajattele sitä isona siivouksena: päästä irti siitä, mikä ei sovi, ja valitse tietoisesti, mikä jää. Se on raskasta, mutta usein vapauttavaa."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Aino on 29 ja epäilee toimistotyötään. Hän aloittaa iltaopinnot ja perustaa oman yrityksen kaksi vuotta myöhemmin."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Milloin paluu alkaa?",
+   "a": "Yleensä noin 28-vuotiaana, ja se kestää noin kaksi vuotta."
+  },
+  {
+   "q": "Onko se huono uutinen?",
+   "a": "Ei, se on raskas mutta hyödyllinen oppitunti vastuusta."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "sinastria",
+ "volume": "1000",
+ "slug": "sinastria-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sinastria: què és i què diu de vosaltres dos?",
+ "description": "La sinastria compara dues cartes natals per veure com encaixen dues persones. Explicat fàcil.",
+ "intro": "La sinastria és la comparació de dues cartes natals. Veus on dues persones es reforcen i on hi ha fricció.",
+ "sections": [
+  {
+   "h2": "Com funciona?",
+   "paragraphs": [
+    "Els planetes d’un es posen sobre els de l’altre. Si el seu Sol cau sobre la seva Lluna, sovint hi ha confiança. Si dos planetes estan enfrontats, hi ha tensió."
+   ]
+  },
+  {
+   "h2": "Com la trobes?",
+   "paragraphs": [
+    "Necessites data, hora i lloc de naixement dels dos. Una eina gratuïta compara les cartes en uns segons."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "La Laia i en Pau discuteixen sovint per diners, però les seves Llunes lliguen bé. Per això ho arreglen de seguida."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "És la sinastria el mateix que la compatibilitat de signes?",
+   "a": "No, és molt més precisa, perquè compara tots els planetes i no només els signes solars."
+  },
+  {
+   "q": "Pot la sinastria dir si una relació durarà?",
+   "a": "Mostra punts forts i difícils, però les vostres decisions marquen el resultat."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

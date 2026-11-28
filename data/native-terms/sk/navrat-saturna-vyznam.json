@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "návrat Saturna",
+ "volume": "1000",
+ "slug": "navrat-saturna-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Návrat Saturna: čo to je a kedy nastáva?",
+ "description": "Okolo 29 rokov sa Saturn vracia na miesto, kde bol pri vašom narodení. Čas dospievania. Jednoducho.",
+ "intro": "Návrat Saturna je okamih, keď Saturn stojí tam, kde stál pri vašom narodení. Nastáva okolo 29.–30. roka a znova okolo 58.",
+ "sections": [
+  {
+   "h2": "Čo sa deje?",
+   "paragraphs": [
+    "Saturn obehne oblohu približne za 29 rokov. Potom sa život opýta: sedí ešte vaša cesta? Mnohí menia prácu, vzťah alebo bydlisko."
+   ]
+  },
+  {
+   "h2": "Ako to zvládnuť?",
+   "paragraphs": [
+    "Berte to ako veľké upratovanie: pustite, čo nesedí, a vedome si vyberte, čo zostane. Je to ťažké, ale často oslobodzujúce."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Lenka má 29 a pochybuje o kancelárskej práci. Začne večerné štúdium a o dva roky založí vlastnú firmu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kedy návrat začína?",
+   "a": "Zvyčajne okolo 28 rokov a trvá asi dva roky."
+  },
+  {
+   "q": "Je to zlá správa?",
+   "a": "Nie, je to ťažká, ale užitočná lekcia zodpovednosti."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

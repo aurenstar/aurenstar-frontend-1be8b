@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "synastria",
+ "volume": "1000",
+ "slug": "synastria-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Synastria: co to jest i co mówi o was dwojgu?",
+ "description": "Synastria porównuje dwie mapy urodzeniowe, by pokazać, jak dwie osoby do siebie pasują. Wyjaśnione prosto.",
+ "intro": "Synastria to porównanie dwóch map urodzeniowych. Widać, gdzie dwie osoby się wzmacniają, a gdzie iskrzy.",
+ "sections": [
+  {
+   "h2": "Jak to działa?",
+   "paragraphs": [
+    "Planety jednej osoby nakłada się na planety drugiej. Jeśli jego Słońce stoi na jej Księżycu, często daje to poczucie bliskości. Gdy dwie planety stoją naprzeciw siebie, pojawia się napięcie."
+   ]
+  },
+  {
+   "h2": "Jak ją sprawdzić?",
+   "paragraphs": [
+    "Potrzebujesz daty, godziny i miejsca urodzenia obojga. Darmowe narzędzie porówna mapy w kilka sekund."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Ola i Tomek często kłócą się o pieniądze, ale ich Księżyce świetnie się zgadzają. Dlatego szybko się godzą."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy synastria to to samo co zgodność znaków?",
+   "a": "Nie, jest dużo dokładniejsza, bo porównuje wszystkie planety, nie tylko znaki słoneczne."
+  },
+  {
+   "q": "Czy synastria powie, czy związek przetrwa?",
+   "a": "Pokazuje mocne i trudne strony, ale wynik zależy od waszych wyborów."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

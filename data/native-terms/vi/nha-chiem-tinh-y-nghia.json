@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "nhà chiêm tinh",
+ "volume": "1000",
+ "slug": "nha-chiem-tinh-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Nhà chiêm tinh (12 Nhà) là gì? Ý nghĩa dễ hiểu",
+ "description": "12 Nhà cho biết lĩnh vực nào trong đời có chuyện xảy ra: công việc, tình yêu, gia đình. Đơn giản.",
+ "intro": "Các Nhà chiêm tinh chia lá số của bạn thành 12 phần. Mỗi Nhà là một lĩnh vực đời sống, như tiền bạc, tình yêu, gia đình hay công việc.",
+ "sections": [
+  {
+   "h2": "12 Nhà là gì?",
+   "paragraphs": [
+    "Hãy tưởng tượng ngôi nhà có 12 phòng. Hành tinh là người ở, cung là tâm trạng, còn Nhà là căn phòng nơi chuyện xảy ra. Nhà 1 nói về bạn, Nhà 4 về gia đình, Nhà 7 về các mối quan hệ, Nhà 10 về sự nghiệp."
+   ]
+  },
+  {
+   "h2": "Cách tìm",
+   "paragraphs": [
+    "Cần ngày, giờ và nơi sinh. Công cụ miễn phí vẽ lá số và cho thấy hành tinh trong từng Nhà."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Nam có Kim Tinh ở Nhà 10. Tình yêu và cái đẹp nằm trong công việc: anh thành công ở nghề sáng tạo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Có cần giờ sinh không?",
+   "a": "Có, vì các Nhà dịch chuyển khoảng hai giờ một lần."
+  },
+  {
+   "q": "Các Nhà có quan trọng như nhau không?",
+   "a": "Nhà có hành tinh thể hiện mạnh nhất; Nhà trống không kém quan trọng, chỉ yên lặng hơn."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

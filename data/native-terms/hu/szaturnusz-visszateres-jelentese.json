@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "Szaturnusz-visszatérés",
+ "volume": "1000",
+ "slug": "szaturnusz-visszateres-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Szaturnusz-visszatérés: mi ez, és mikor jön el?",
+ "description": "29 éves kor körül a Szaturnusz oda tér vissza, ahol születésedkor állt. Az érés ideje. Egyszerűen.",
+ "intro": "A Szaturnusz-visszatérés az a pillanat, amikor a Szaturnusz ott áll, ahol születésedkor állt. 29–30 éves kor körül jön, majd 58 körül újra.",
+ "sections": [
+  {
+   "h2": "Mi történik?",
+   "paragraphs": [
+    "A Szaturnusz kb. 29 év alatt kerüli meg az eget. Ekkor az élet megkérdezi: még illik az utad? Sokan munkát, kapcsolatot vagy lakhelyet váltanak."
+   ]
+  },
+  {
+   "h2": "Hogyan kezeld?",
+   "paragraphs": [
+    "Gondolj rá nagytakarításként: engedd el, ami nem illik, és tudatosan válaszd ki, mi marad. Nehéz, de gyakran felszabadító."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Dóra 29 éves, és kételkedik az irodai munkájában. Esti képzésre jár, két évvel később saját vállalkozást indít."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mikor kezdődik a visszatérés?",
+   "a": "Általában 28 év körül, és nagyjából két évig tart."
+  },
+  {
+   "q": "Rossz hír ez?",
+   "a": "Nem, ez nehéz, de hasznos lecke a felelősségről."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

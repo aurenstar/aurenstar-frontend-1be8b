@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "astrological houses",
+ "volume": "1000",
+ "slug": "astrological-houses-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Astrological Houses: Ano Ito at Ano ang Kahulugan?",
+ "description": "Ipinapakita ng 12 bahay kung saang bahagi ng buhay may nangyayari: trabaho, pag-ibig, tahanan. Simple.",
+ "intro": "Hinahati ng astrological houses ang birth chart mo sa 12 bahagi. Bawat bahay ay isang bahagi ng buhay, tulad ng pera, pag-ibig, tahanan, o trabaho.",
+ "sections": [
+  {
+   "h2": "Ano ang 12 houses?",
+   "paragraphs": [
+    "Isipin ang bahay na may 12 kuwarto. Ang mga planeta ang nakatira, ang mga sign ang mood nila, at ang house ang kuwartong pinangyayarihan. House 1 ay tungkol sa iyo, 4 sa tahanan, 7 sa relasyon, 10 sa karera."
+   ]
+  },
+  {
+   "h2": "Paano ito hahanapin?",
+   "paragraphs": [
+    "Kailangan ang petsa, oras, at lugar ng kapanganakan. Gagawa ang libreng tool ng chart at ipapakita ang mga planeta sa bawat house."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Si Ben ay may Venus sa house 10. Nasa trabaho niya ang pag-ibig at ganda: nagtatagumpay siya sa malikhaing propesyon."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kailangan ko ba ang oras ng kapanganakan?",
+   "a": "Oo, dahil gumagalaw ang mga house kada dalawang oras."
+  },
+  {
+   "q": "Pantay ba ang bigat ng lahat ng house?",
+   "a": "Mas ramdam ang may planeta; hindi hindi mahalaga ang walang laman, mas tahimik lang."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "sünastria",
+ "volume": "1000",
+ "slug": "sunastria-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sünastria: mis see on ja mida see teist ütleb?",
+ "description": "Sünastria võrdleb kahte sünnikaarti, et näha, kuidas kaks inimest sobivad. Lihtsalt.",
+ "intro": "Sünastria on kahe sünnikaardi võrdlus. Näed, kus kaks inimest teineteist toetavad ja kus sädemeid lööb.",
+ "sections": [
+  {
+   "h2": "Kuidas see töötab?",
+   "paragraphs": [
+    "Ühe planeedid asetatakse teise omadele. Kui tema Päike on tema Kuul, on sageli turvaline tunne. Kui kaks planeeti on vastakuti, on pinget."
+   ]
+  },
+  {
+   "h2": "Kuidas seda leida?",
+   "paragraphs": [
+    "Vaja on mõlema sünniaega, -kuupäeva ja -kohta. Tasuta tööriist võrdleb kaarte sekunditega."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Liis ja Marko vaidlevad tihti raha pärast, kuid nende Kuud sobivad hästi. Seetõttu lepivad nad kiiresti."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas sünastria on sama mis märkide sobivus?",
+   "a": "Ei, see on palju täpsem, sest võrdleb kõiki planeete, mitte ainult päikesemärke."
+  },
+  {
+   "q": "Kas sünastria ütleb, kas suhe kestab?",
+   "a": "See näitab tugevusi ja raskusi, kuid tulemuse otsustavad teie valikud."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

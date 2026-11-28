@@ -1,0 +1,49 @@
+{
+ "lang": "da",
+ "keyword": "astrologiske huse",
+ "volume": "1000",
+ "slug": "astrologiske-huse-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Astrologiske huse: hvad er de, og hvad betyder de?",
+ "description": "De 12 huse viser, hvor i livet noget sker: job, kærlighed, hjem. Forklaret enkelt.",
+ "intro": "De astrologiske huse deler dit fødselshoroskop i 12 dele. Hvert hus står for et område i livet, som penge, kærlighed, hjem eller job.",
+ "sections": [
+  {
+   "h2": "Hvad er de 12 huse?",
+   "paragraphs": [
+    "Tænk på et hus med 12 værelser. Planeterne er beboerne, tegnene er deres humør, og huset er værelset, hvor det sker. Hus 1 handler om dig, hus 4 om hjemmet, hus 7 om forhold, hus 10 om karriere."
+   ]
+  },
+  {
+   "h2": "Hvordan finder du dem?",
+   "paragraphs": [
+    "Du skal bruge fødselsdato, tid og sted. Et gratis værktøj tegner dit kort og viser, hvilke planeter der står i hvert hus."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Anders har Venus i hus 10. Kærlighed og skønhed ligger altså i hans arbejde: han klarer sig godt i et kreativt job."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Skal jeg kende fødselstidspunktet?",
+   "a": "Ja, fordi husene flytter sig cirka hver anden time."
+  },
+  {
+   "q": "Betyder alle huse lige meget?",
+   "a": "Huse med planeter mærkes mest; tomme huse er ikke uvigtige, bare roligere."
+  }
+ ],
+ "ui": {
+  "home": "Forside",
+  "tools": "Gratis værktøjer",
+  "articles": "Artikler",
+  "faq": "Ofte stillede spørgsmål",
+  "more": "Læs artiklen"
+ },
+ "tool": "descreva-me"
+}

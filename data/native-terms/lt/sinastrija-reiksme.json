@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "sinastrija",
+ "volume": "1000",
+ "slug": "sinastrija-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sinastrija: kas tai ir ką sako apie jus du?",
+ "description": "Sinastrija palygina dvi gimimo kartas, kad parodytų, kaip dviem žmonėms tinka kartu. Paprastai.",
+ "intro": "Sinastrija – tai dviejų gimimo žemėlapių palyginimas. Matai, kur du žmonės vienas kitą stiprina, o kur kyla kibirkštys.",
+ "sections": [
+  {
+   "h2": "Kaip tai veikia?",
+   "paragraphs": [
+    "Vieno planetos uždedamos ant kito. Jei jo Saulė ant jos Mėnulio, dažnai jaučiamas artumas. Jei dvi planetos priešais, yra įtampa."
+   ]
+  },
+  {
+   "h2": "Kaip ją rasti?",
+   "paragraphs": [
+    "Reikia abiejų gimimo datos, laiko ir vietos. Nemokamas įrankis palygina žemėlapius per kelias sekundes."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Rūta ir Tomas dažnai ginčijasi dėl pinigų, bet jų Mėnuliai gerai dera. Todėl greitai susitaiko."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar sinastrija tas pats, kas ženklų suderinamumas?",
+   "a": "Ne, ji daug tikslesnė, nes lygina visas planetas, ne tik saulės ženklus."
+  },
+  {
+   "q": "Ar sinastrija pasakys, ar santykiai truks?",
+   "a": "Ji rodo stiprybes ir sunkumus, bet rezultatą lemia jūsų sprendimai."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

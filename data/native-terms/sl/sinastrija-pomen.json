@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "sinastrija",
+ "volume": "1000",
+ "slug": "sinastrija-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sinastrija: kaj je in kaj pove o vama?",
+ "description": "Sinastrija primerja dve rojstni karti, da pokaže, kako se dva človeka ujemata. Preprosto.",
+ "intro": "Sinastrija je primerjava dveh rojstnih kart. Vidite, kje se dva človeka krepita in kje iskri.",
+ "sections": [
+  {
+   "h2": "Kako deluje?",
+   "paragraphs": [
+    "Planeti enega se položijo na planete drugega. Če je njegovo Sonce na njeni Luni, je pogosto domače. Če sta dva planeta nasproti, je napetost."
+   ]
+  },
+  {
+   "h2": "Kako jo najdete?",
+   "paragraphs": [
+    "Potrebujete datum, uro in kraj rojstva obeh. Brezplačno orodje primerja karti v nekaj sekundah."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Nina in Matej se pogosto prepirata zaradi denarja, a se njuni Lune lepo ujemata. Zato se hitro pobotata."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je sinastrija isto kot ujemanje znamenj?",
+   "a": "Ne, je veliko natančnejša, ker primerja vse planete, ne le sončnih znamenj."
+  },
+  {
+   "q": "Ali sinastrija pove, ali bo zveza trajala?",
+   "a": "Pokaže močne in težke točke, a izid odločata vaši odločitvi."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

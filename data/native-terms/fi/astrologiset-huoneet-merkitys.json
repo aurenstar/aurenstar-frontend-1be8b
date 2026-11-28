@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "astrologiset huoneet",
+ "volume": "1000",
+ "slug": "astrologiset-huoneet-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Astrologiset huoneet: mitä ne ovat ja mitä ne tarkoittavat?",
+ "description": "12 huonetta näyttävät, millä elämänalueella jotain tapahtuu: työ, rakkaus, koti. Selitetty yksinkertaisesti.",
+ "intro": "Astrologiset huoneet jakavat syntymäkarttasi 12 osaan. Jokainen huone edustaa elämänaluetta, kuten rahaa, rakkautta, kotia tai työtä.",
+ "sections": [
+  {
+   "h2": "Mitkä ovat 12 huonetta?",
+   "paragraphs": [
+    "Kuvittele talo, jossa on 12 huonetta. Planeetat ovat asukkaita, merkit heidän mielialansa ja huone paikka, jossa se tapahtuu. Huone 1 kertoo sinusta, 4 kodista, 7 suhteista, 10 urasta."
+   ]
+  },
+  {
+   "h2": "Miten ne löytää?",
+   "paragraphs": [
+    "Tarvitset syntymäpäivän, kellonajan ja paikan. Ilmainen laskuri piirtää karttasi ja näyttää, mitkä planeetat ovat missäkin huoneessa."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Mikolla on Venus huoneessa 10. Rakkaus ja kauneus näkyvät hänen työssään: hän menestyy luovalla alalla."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Tarvitsenko syntymäajan?",
+   "a": "Kyllä, koska huoneet siirtyvät noin kahden tunnin välein."
+  },
+  {
+   "q": "Ovatko kaikki huoneet yhtä tärkeitä?",
+   "a": "Planeettojen huoneet tuntuvat eniten; tyhjät huoneet eivät ole turhia, vain hiljaisempia."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

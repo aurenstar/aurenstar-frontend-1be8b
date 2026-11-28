@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "casele astrologice",
+ "volume": "1000",
+ "slug": "casele-astrologice-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Casele astrologice: ce sunt și ce înseamnă?",
+ "description": "Cele 12 case arată în ce parte a vieții se întâmplă ceva: muncă, iubire, acasă. Explicat simplu.",
+ "intro": "Casele astrologice împart harta ta natală în 12 părți. Fiecare casă reprezintă un domeniu al vieții, precum banii, iubirea, căminul sau munca.",
+ "sections": [
+  {
+   "h2": "Care sunt cele 12 case?",
+   "paragraphs": [
+    "Imaginează-ți o casă cu 12 camere. Planetele sunt locatarii, semnele sunt starea lor, iar casa este camera unde se petrece. Casa 1 e despre tine, 4 despre cămin, 7 despre relații, 10 despre carieră."
+   ]
+  },
+  {
+   "h2": "Cum le găsești?",
+   "paragraphs": [
+    "Ai nevoie de data, ora și locul nașterii. Un calculator gratuit îți desenează harta și arată planetele din fiecare casă."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Andrei are Venus în casa 10. Iubirea și frumusețea sunt în munca lui: reușește într-o profesie creativă."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Am nevoie de ora nașterii?",
+   "a": "Da, pentru că casele se mută cam la două ore."
+  },
+  {
+   "q": "Au toate casele aceeași greutate?",
+   "a": "Casele cu planete se simt cel mai mult; cele goale nu sunt nesemnificative, doar mai liniștite."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

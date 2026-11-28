@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "Saturns gjenkomst",
+ "volume": "1000",
+ "slug": "saturns-gjenkomst-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturns gjenkomst: hva er det og når skjer det?",
+ "description": "Rundt 29-årsalderen vender Saturn tilbake til plassen den hadde da du ble født. En tid for modning. Enkelt forklart.",
+ "intro": "Saturns gjenkomst er når Saturn står der den sto da du ble født. Det skjer rundt 29–30 år og igjen rundt 58.",
+ "sections": [
+  {
+   "h2": "Hva skjer?",
+   "paragraphs": [
+    "Saturn bruker omtrent 29 år på en runde. Så spør livet: stemmer veien din fortsatt? Mange bytter jobb, forhold eller bosted."
+   ]
+  },
+  {
+   "h2": "Hvordan takler du det?",
+   "paragraphs": [
+    "Se det som en storrengjøring: slipp det som ikke passer, og velg bevisst hva som blir. Det er tungt, men ofte befriende."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Nora er 29 og tviler på kontorjobben. Hun begynner på kveldsskole og starter eget firma to år senere."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Når begynner gjenkomsten?",
+   "a": "Som regel rundt 28 år, og den varer omtrent to år."
+  },
+  {
+   "q": "Er det dårlige nyheter?",
+   "a": "Nei, det er en tung men nyttig lekse om ansvar."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

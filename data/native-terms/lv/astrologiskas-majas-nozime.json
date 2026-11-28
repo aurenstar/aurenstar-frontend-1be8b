@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "astroloģiskās mājas",
+ "volume": "1000",
+ "slug": "astrologiskas-majas-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Astroloģiskās mājas: kas tās ir un ko nozīmē?",
+ "description": "12 mājas parāda, kurā dzīves jomā kaut kas notiek: darbs, mīlestība, mājas. Vienkārši.",
+ "intro": "Astroloģiskās mājas sadala tavu dzimšanas karti 12 daļās. Katra māja ir dzīves joma, piemēram, nauda, mīlestība, mājas vai darbs.",
+ "sections": [
+  {
+   "h2": "Kādas ir 12 mājas?",
+   "paragraphs": [
+    "Iedomājies māju ar 12 istabām. Planētas ir iemītnieki, zīmes – viņu garastāvoklis, bet māja – istaba, kur tas notiek. 1. māja ir par tevi, 4. par mājām, 7. par attiecībām, 10. par karjeru."
+   ]
+  },
+  {
+   "h2": "Kā tās atrast?",
+   "paragraphs": [
+    "Vajag dzimšanas datumu, laiku un vietu. Bezmaksas kalkulators uzzīmē karti un parāda planētas katrā mājā."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Jānis ir Venera 10. mājā. Mīlestība un skaistums ir viņa darbā: viņam veicas radošā profesijā."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai vajag dzimšanas laiku?",
+   "a": "Jā, jo mājas pārvietojas aptuveni ik pēc divām stundām."
+  },
+  {
+   "q": "Vai visas mājas ir vienlīdz svarīgas?",
+   "a": "Mājas ar planētām jūtamas visvairāk; tukšās nav nesvarīgas, tikai mierīgākas."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

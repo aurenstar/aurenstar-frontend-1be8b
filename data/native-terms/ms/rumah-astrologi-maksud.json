@@ -1,0 +1,49 @@
+{
+ "lang": "ms",
+ "keyword": "rumah astrologi",
+ "volume": "1000",
+ "slug": "rumah-astrologi-maksud",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Rumah astrologi: apa itu dan apa maknanya?",
+ "description": "12 rumah menunjukkan bahagian hidup mana yang berlaku sesuatu: kerja, cinta, keluarga. Mudah.",
+ "intro": "Rumah astrologi membahagikan carta kelahiran anda kepada 12 bahagian. Setiap rumah ialah satu bidang hidup, seperti wang, cinta, keluarga atau kerja.",
+ "sections": [
+  {
+   "h2": "Apakah 12 rumah?",
+   "paragraphs": [
+    "Bayangkan sebuah rumah dengan 12 bilik. Planet ialah penghuninya, zodiak ialah angin mereka, dan rumah ialah bilik tempat ia berlaku. Rumah 1 tentang anda, 4 tentang keluarga, 7 tentang hubungan, 10 tentang kerjaya."
+   ]
+  },
+  {
+   "h2": "Bagaimana mencarinya?",
+   "paragraphs": [
+    "Anda perlukan tarikh, masa dan tempat lahir. Alat percuma melukis carta dan menunjukkan planet dalam setiap rumah."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Amir mempunyai Venus di rumah 10. Cinta dan keindahan ada dalam kerjanya: dia berjaya dalam profesion kreatif."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Perlukah masa lahir?",
+   "a": "Ya, kerana rumah beralih kira-kira setiap dua jam."
+  },
+  {
+   "q": "Adakah semua rumah sama penting?",
+   "a": "Rumah berplanet paling terasa; rumah kosong bukan tidak penting, cuma lebih tenang."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

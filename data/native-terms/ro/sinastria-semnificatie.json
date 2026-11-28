@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "sinastria",
+ "volume": "1000",
+ "slug": "sinastria-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sinastria: ce este și ce spune despre voi doi?",
+ "description": "Sinastria compară două hărți natale ca să vadă cum se potrivesc două persoane. Explicat simplu.",
+ "intro": "Sinastria este compararea a două hărți natale. Vezi unde doi oameni se întăresc reciproc și unde sar scântei.",
+ "sections": [
+  {
+   "h2": "Cum funcționează?",
+   "paragraphs": [
+    "Planetele unuia se așază peste ale celuilalt. Dacă Soarele lui e peste Luna ei, de multe ori simțiți încredere. Dacă două planete sunt față în față, apare tensiune."
+   ]
+  },
+  {
+   "h2": "Cum o afli?",
+   "paragraphs": [
+    "Ai nevoie de data, ora și locul nașterii ambilor. Un instrument gratuit compară hărțile în câteva secunde."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Ana și Radu se ceartă des pe bani, dar Lunile lor se potrivesc frumos. De aceea se împacă repede."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Este sinastria același lucru cu compatibilitatea zodiilor?",
+   "a": "Nu, e mult mai precisă, pentru că compară toate planetele, nu doar zodiile solare."
+  },
+  {
+   "q": "Poate sinastria spune dacă o relație durează?",
+   "a": "Arată puncte tari și dificile, dar alegerile voastre decid rezultatul."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

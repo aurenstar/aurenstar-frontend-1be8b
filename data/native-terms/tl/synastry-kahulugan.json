@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "synastry",
+ "volume": "1000",
+ "slug": "synastry-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Synastry: Ano Ito at Ano ang Sinasabi Nito Tungkol sa Inyo?",
+ "description": "Pinaghahambing ng synastry ang dalawang birth chart para makita kung gaano kayo bagay. Simple.",
+ "intro": "Ang synastry ay paghahambing ng dalawang birth chart. Makikita mo kung saan nagpapalakas ang dalawang tao at kung saan nagkakabanggaan.",
+ "sections": [
+  {
+   "h2": "Paano ito gumagana?",
+   "paragraphs": [
+    "Ipinapatong ang mga planeta ng isa sa chart ng isa pa. Kung ang Araw niya ay nasa Buwan niya, madalas komportable ang pakiramdam. Kung magkaharap ang dalawang planeta, may tensyon."
+   ]
+  },
+  {
+   "h2": "Paano ito hahanapin?",
+   "paragraphs": [
+    "Kailangan ang petsa, oras, at lugar ng kapanganakan ng dalawa. Ikukumpara ito ng libreng tool sa ilang segundo."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Madalas mag-away sina Mika at Ben tungkol sa pera, pero bagay ang kanilang Buwan. Kaya mabilis silang nagkakaayos."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Pareho ba ito ng sign compatibility?",
+   "a": "Hindi, mas tumpak ito dahil kinukumpara ang lahat ng planeta, hindi lang sun sign."
+  },
+  {
+   "q": "Masasabi ba ng synastry kung tatagal ang relasyon?",
+   "a": "Ipinapakita nito ang lakas at hirap, pero ang mga desisyon ninyo ang magpapasya."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

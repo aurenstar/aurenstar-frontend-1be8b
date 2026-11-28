@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "Sao Thổ quay lại",
+ "volume": "1000",
+ "slug": "sao-tho-quay-lai-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sao Thổ quay lại là gì? Khi nào xảy ra?",
+ "description": "Khoảng 29 tuổi, Sao Thổ trở về vị trí lúc bạn sinh ra. Thời kỳ trưởng thành. Giải thích đơn giản.",
+ "intro": "Sao Thổ quay lại là lúc Sao Thổ trở về đúng vị trí nó đứng khi bạn sinh ra. Việc này xảy ra khoảng 29–30 tuổi và lần nữa khoảng 58 tuổi.",
+ "sections": [
+  {
+   "h2": "Chuyện gì xảy ra?",
+   "paragraphs": [
+    "Sao Thổ đi một vòng trời hết khoảng 29 năm. Lúc đó cuộc sống hỏi: con đường của bạn còn hợp không? Nhiều người đổi việc, đổi người yêu hoặc đổi nơi ở."
+   ]
+  },
+  {
+   "h2": "Đối diện thế nào?",
+   "paragraphs": [
+    "Hãy xem như một đợt dọn dẹp lớn: buông thứ không còn hợp và chủ động chọn thứ ở lại. Nặng nề nhưng thường giải phóng."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Lan 29 tuổi, băn khoăn về công việc văn phòng. Cô học buổi tối và hai năm sau mở cửa hàng riêng."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Khi nào bắt đầu?",
+   "a": "Thường khoảng 28 tuổi và kéo dài chừng hai năm."
+  },
+  {
+   "q": "Đây có phải tin xấu không?",
+   "a": "Không, đó là bài học nặng nhưng hữu ích về trách nhiệm."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

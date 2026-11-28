@@ -1,0 +1,49 @@
+{
+ "lang": "ro",
+ "keyword": "revenirea lui Saturn",
+ "volume": "1000",
+ "slug": "revenirea-lui-saturn-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Revenirea lui Saturn: ce este și când are loc?",
+ "description": "Pe la 29 de ani Saturn revine unde era la nașterea ta. Timp de maturizare. Explicat simplu.",
+ "intro": "Revenirea lui Saturn este momentul în care Saturn se află din nou unde era la nașterea ta. Are loc în jur de 29–30 de ani și din nou la 58.",
+ "sections": [
+  {
+   "h2": "Ce se întâmplă?",
+   "paragraphs": [
+    "Saturn face un ocol în aproximativ 29 de ani. Apoi viața întreabă: mai potrivește drumul tău? Mulți schimbă jobul, relația sau orașul."
+   ]
+  },
+  {
+   "h2": "Cum te descurci?",
+   "paragraphs": [
+    "Privește-o ca pe o curățenie mare: lasă ce nu se mai potrivește și alege conștient ce rămâne. E greu, dar adesea eliberator."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Ana are 29 de ani și se îndoiește de jobul de birou. Începe cursuri de seară și, doi ani mai târziu, își deschide firma."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Când începe revenirea?",
+   "a": "De obicei pe la 28 de ani și durează cam doi ani."
+  },
+  {
+   "q": "Este o veste proastă?",
+   "a": "Nu, este o lecție grea, dar utilă, despre responsabilitate."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

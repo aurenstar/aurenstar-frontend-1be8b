@@ -1,0 +1,49 @@
+{
+ "lang": "no",
+ "keyword": "synastri",
+ "volume": "1000",
+ "slug": "synastri-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Synastri: hva er det og hva sier det om dere?",
+ "description": "Synastri legger to fødselshoroskop ved siden av hverandre for å se hvordan to personer passer sammen. Enkelt forklart.",
+ "intro": "Synastri er en sammenligning av to fødselshoroskop. Du ser hvor to personer styrker hverandre, og hvor det skurrer.",
+ "sections": [
+  {
+   "h2": "Hvordan fungerer det?",
+   "paragraphs": [
+    "Man legger den enes planeter over den andres. Står hans sol på hennes måne, føles det ofte trygt. Står to planeter rett overfor hverandre, er det spenning."
+   ]
+  },
+  {
+   "h2": "Hvordan finner du det?",
+   "paragraphs": [
+    "Du trenger fødselsdato, tid og sted for begge. Et gratis verktøy sammenligner kartene på noen sekunder."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Nora og Magnus krangler ofte om penger, men månene deres passer fint sammen. Derfor ordner de det raskt."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Er synastri det samme som stjernetegn-kompatibilitet?",
+   "a": "Nei, den er mye mer nøyaktig fordi alle planeter sammenlignes, ikke bare soltegnene."
+  },
+  {
+   "q": "Kan synastri si om et forhold varer?",
+   "a": "Den viser styrker og vansker, men valgene deres avgjør utfallet."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "astrologiniai namai",
+ "volume": "1000",
+ "slug": "astrologiniai-namai-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Astrologiniai namai: kas tai ir ką reiškia?",
+ "description": "12 namų rodo, kurioje gyvenimo srityje kažkas vyksta: darbas, meilė, namai. Paprastai.",
+ "intro": "Astrologiniai namai padalija tavo gimimo žemėlapį į 12 dalių. Kiekvieni namai – gyvenimo sritis, pavyzdžiui, pinigai, meilė, namai ar darbas.",
+ "sections": [
+  {
+   "h2": "Kokie yra 12 namų?",
+   "paragraphs": [
+    "Įsivaizduok namą su 12 kambarių. Planetos – gyventojai, ženklai – jų nuotaika, o namai – kambarys, kur tai vyksta. 1 namai – apie tave, 4 – apie namus, 7 – apie santykius, 10 – apie karjerą."
+   ]
+  },
+  {
+   "h2": "Kaip juos rasti?",
+   "paragraphs": [
+    "Reikia gimimo datos, laiko ir vietos. Nemokamas skaičiuoklis nubrėžia žemėlapį ir parodo planetas kiekviename name."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Tomas turi Venerą 10 name. Meilė ir grožis jo darbe: jam sekasi kūrybinėje profesijoje."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar reikia gimimo laiko?",
+   "a": "Taip, nes namai pasislenka maždaug kas dvi valandas."
+  },
+  {
+   "q": "Ar visi namai vienodai svarbūs?",
+   "a": "Namai su planetomis juntami stipriausiai; tušti nėra nesvarbūs, tik ramesni."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

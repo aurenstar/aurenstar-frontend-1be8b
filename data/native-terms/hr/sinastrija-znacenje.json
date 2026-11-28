@@ -1,0 +1,49 @@
+{
+ "lang": "hr",
+ "keyword": "sinastrija",
+ "volume": "1000",
+ "slug": "sinastrija-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sinastrija: što je i što govori o vama dvoma?",
+ "description": "Sinastrija uspoređuje dvije natalne karte kako bi pokazala koliko dvoje ljudi pristaje zajedno. Jednostavno.",
+ "intro": "Sinastrija je usporedba dvije natalne karte. Vidiš gdje se dvoje ljudi jačaju, a gdje iskri.",
+ "sections": [
+  {
+   "h2": "Kako funkcionira?",
+   "paragraphs": [
+    "Planeti jedne osobe stavljaju se preko planeta druge. Ako njegovo Sunce stoji na njezinu Mjesecu, često je to prisno. Ako su dva planeta nasuprot, postoji napetost."
+   ]
+  },
+  {
+   "h2": "Kako je pronaći?",
+   "paragraphs": [
+    "Trebaju ti datum, vrijeme i mjesto rođenja oboje. Besplatni alat usporedi karte za nekoliko sekundi."
+   ]
+  },
+  {
+   "h2": "Primjer",
+   "paragraphs": [
+    "Ana i Marko se često svađaju oko novca, ali njihovi Mjeseci lijepo pristaju. Zato se brzo pomire."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je li sinastrija isto što i kompatibilnost znakova?",
+   "a": "Ne, mnogo je preciznija jer uspoređuje sve planete, a ne samo sunčane znakove."
+  },
+  {
+   "q": "Može li sinastrija reći hoće li veza potrajati?",
+   "a": "Pokazuje jake i teške strane, ali ishod ovisi o vašim odlukama."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

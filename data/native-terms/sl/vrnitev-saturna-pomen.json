@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "vrnitev Saturna",
+ "volume": "1000",
+ "slug": "vrnitev-saturna-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Vrnitev Saturna: kaj je in kdaj se zgodi?",
+ "description": "Okoli 29. leta se Saturn vrne tja, kjer je bil ob vašem rojstvu. Čas zorenja. Preprosto.",
+ "intro": "Vrnitev Saturna je trenutek, ko Saturn spet stoji tam, kjer je stal ob vašem rojstvu. Zgodi se okoli 29.–30. leta in znova okoli 58.",
+ "sections": [
+  {
+   "h2": "Kaj se dogaja?",
+   "paragraphs": [
+    "Saturn obkroži nebo v približno 29 letih. Takrat življenje vpraša: ali vaša pot še ustreza? Mnogi zamenjajo službo, razmerje ali kraj bivanja."
+   ]
+  },
+  {
+   "h2": "Kako ravnati?",
+   "paragraphs": [
+    "Vzemite to kot veliko čiščenje: spustite, kar ne ustreza, in zavestno izberite, kaj ostane. Je težko, a pogosto osvobajajoče."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Nina ima 29 let in dvomi o pisarniški službi. Začne večerni študij in dve leti kasneje odpre lastno podjetje."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kdaj se vrnitev začne?",
+   "a": "Običajno okoli 28. leta in traja približno dve leti."
+  },
+  {
+   "q": "Je to slaba novica?",
+   "a": "Ne, je težka, a koristna lekcija o odgovornosti."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

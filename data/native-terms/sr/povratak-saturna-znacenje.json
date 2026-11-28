@@ -1,0 +1,49 @@
+{
+ "lang": "sr",
+ "keyword": "povratak Saturna",
+ "volume": "1000",
+ "slug": "povratak-saturna-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Povratak Saturna: šta je i kada se dešava?",
+ "description": "Oko 29. godine Saturn se vraća na mesto iz tvog rođenja. Vreme sazrevanja. Jednostavno.",
+ "intro": "Povratak Saturna je trenutak kad Saturn stoji tamo gde je stajao pri tvom rođenju. Dešava se oko 29.–30. godine i ponovo oko 58.",
+ "sections": [
+  {
+   "h2": "Šta se dešava?",
+   "paragraphs": [
+    "Saturn obiđe nebo za oko 29 godina. Tada život pita: odgovara li ti još tvoj put? Mnogi menjaju posao, vezu ili grad."
+   ]
+  },
+  {
+   "h2": "Kako da se nosiš s tim?",
+   "paragraphs": [
+    "Zamisli to kao veliko spremanje: pusti ono što ne odgovara i svesno izaberi šta ostaje. Teško je, ali često oslobađa."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Ana ima 29 godina i sumnja u kancelarijski posao. Upisuje večernju školu i dve godine kasnije otvara sopstvenu firmu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kada počinje povratak?",
+   "a": "Obično oko 28. godine i traje oko dve godine."
+  },
+  {
+   "q": "Je li to loša vest?",
+   "a": "Ne, to je teška, ali korisna lekcija o odgovornosti."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

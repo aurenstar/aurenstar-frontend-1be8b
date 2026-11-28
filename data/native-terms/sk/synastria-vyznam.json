@@ -1,0 +1,49 @@
+{
+ "lang": "sk",
+ "keyword": "synastria",
+ "volume": "1000",
+ "slug": "synastria-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Synastria: čo to je a čo hovorí o vás dvoch?",
+ "description": "Synastria porovnáva dva rodné horoskopy, aby ukázala, ako sa dvaja ľudia k sebe hodia. Jednoducho vysvetlené.",
+ "intro": "Synastria je porovnanie dvoch rodných horoskopov. Uvidíte, kde sa dvaja ľudia posilňujú a kde to iskrí.",
+ "sections": [
+  {
+   "h2": "Ako to funguje?",
+   "paragraphs": [
+    "Planéty jedného sa položia na planéty druhého. Ak je jeho Slnko na jej Mesiaci, často to pôsobí dôverne. Ak stoja dve planéty oproti sebe, je tam napätie."
+   ]
+  },
+  {
+   "h2": "Ako ju zistiť?",
+   "paragraphs": [
+    "Potrebujete dátum, čas a miesto narodenia oboch. Bezplatný nástroj porovná mapy za pár sekúnd."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Lucia a Tomáš sa často hádajú o peniaze, ale ich Mesiace si dobre rozumejú. Preto sa rýchlo udobria."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je synastria to isté ako kompatibilita znamení?",
+   "a": "Nie, je oveľa presnejšia, lebo porovnáva všetky planéty, nielen slnečné znamenia."
+  },
+  {
+   "q": "Povie synastria, či vzťah vydrží?",
+   "a": "Ukáže silné aj ťažké stránky, ale výsledok rozhodujú vaše voľby."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

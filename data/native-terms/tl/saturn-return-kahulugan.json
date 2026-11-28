@@ -1,0 +1,49 @@
+{
+ "lang": "tl",
+ "keyword": "Saturn return",
+ "volume": "1000",
+ "slug": "saturn-return-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturn Return: Ano Ito at Kailan Ito Nangyayari?",
+ "description": "Mga edad 29, bumabalik ang Saturn sa pwesto nito noong ipinanganak ka. Panahon ng paghinog. Simple.",
+ "intro": "Ang Saturn return ay kapag bumalik ang Saturn sa pwestong kinaroroonan nito nang ipanganak ka. Nangyayari ito mga edad 29–30 at muli mga 58.",
+ "sections": [
+  {
+   "h2": "Ano ang nangyayari?",
+   "paragraphs": [
+    "Umiikot ang Saturn sa langit nang halos 29 taon. Doon nagtatanong ang buhay: bagay pa ba ang landas mo? Marami ang nagpapalit ng trabaho, karelasyon, o tirahan."
+   ]
+  },
+  {
+   "h2": "Paano ito haharapin?",
+   "paragraphs": [
+    "Isipin itong malaking general cleaning: bitawan ang hindi bagay at piliin kung ano ang mananatili. Mabigat, pero madalas nagpapalaya."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Si Mika ay 29 at nagdududa sa trabaho sa opisina. Nag-aral siya sa gabi at makalipas ang dalawang taon, nagbukas ng sariling negosyo."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kailan ito nagsisimula?",
+   "a": "Karaniwan mga edad 28 at tumatagal ng mga dalawang taon."
+  },
+  {
+   "q": "Masamang balita ba ito?",
+   "a": "Hindi, mabigat pero kapaki-pakinabang na aral ito tungkol sa responsibilidad."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

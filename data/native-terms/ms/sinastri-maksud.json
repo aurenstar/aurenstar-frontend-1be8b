@@ -1,0 +1,49 @@
+{
+ "lang": "ms",
+ "keyword": "sinastri",
+ "volume": "1000",
+ "slug": "sinastri-maksud",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sinastri: apa itu dan apa yang dikatakannya tentang kamu berdua?",
+ "description": "Sinastri membandingkan dua carta kelahiran untuk melihat sejauh mana dua orang sesuai. Mudah.",
+ "intro": "Sinastri ialah perbandingan dua carta kelahiran. Anda dapat melihat di mana dua orang saling menguatkan dan di mana berlaku geseran.",
+ "sections": [
+  {
+   "h2": "Bagaimana ia berfungsi?",
+   "paragraphs": [
+    "Planet seorang diletakkan di atas carta yang seorang lagi. Jika Matahari dia jatuh pada Bulan dia, selalunya terasa selesa. Jika dua planet bertentangan, ada ketegangan."
+   ]
+  },
+  {
+   "h2": "Bagaimana mencarinya?",
+   "paragraphs": [
+    "Anda perlukan tarikh, masa dan tempat lahir kedua-duanya. Alat percuma membandingkan dalam beberapa saat."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Aina dan Amir kerap bertengkar soal wang, tetapi Bulan mereka sepadan. Sebab itu mereka cepat berbaik."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Adakah sinastri sama dengan keserasian zodiak?",
+   "a": "Tidak, ia jauh lebih tepat kerana membandingkan semua planet, bukan sekadar zodiak matahari."
+  },
+  {
+   "q": "Boleh sinastri beritahu hubungan akan kekal?",
+   "a": "Ia menunjukkan kekuatan dan kesukaran, tetapi keputusan anda menentukan hasilnya."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

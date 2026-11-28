@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "astrologische huizen",
+ "volume": "1000",
+ "slug": "astrologische-huizen-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Astrologische huizen: wat zijn ze en wat betekenen ze?",
+ "description": "De 12 huizen laten zien in welk deel van je leven iets gebeurt: werk, liefde, thuis. Eenvoudig uitgelegd.",
+ "intro": "De astrologische huizen verdelen je geboortekaart in 12 stukken. Elk huis staat voor een deel van je leven, zoals geld, liefde, thuis of werk.",
+ "sections": [
+  {
+   "h2": "Wat zijn de 12 huizen?",
+   "paragraphs": [
+    "Denk aan een huis met 12 kamers. Planeten zijn de bewoners, tekens zijn hun stemming en het huis is de kamer waar het gebeurt. Huis 1 gaat over jou, huis 4 over thuis, huis 7 over relaties, huis 10 over carrière."
+   ]
+  },
+  {
+   "h2": "Hoe vind je ze?",
+   "paragraphs": [
+    "Je hebt geboortedatum, tijd en plaats nodig. Een gratis rekentool tekent je kaart en laat per huis zien welke planeten er staan."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Bram heeft Venus in huis 10. Liefde en schoonheid zitten dus in zijn werk: hij is succesvol in een creatief beroep."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Heb ik de geboortetijd nodig?",
+   "a": "Ja, want de huizen verschuiven ongeveer elke 2 uur."
+  },
+  {
+   "q": "Hebben alle huizen evenveel invloed?",
+   "a": "Huizen met planeten spreken het sterkst; lege huizen zijn niet onbelangrijk, maar rustiger."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

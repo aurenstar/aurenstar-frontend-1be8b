@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "asztrológiai házak",
+ "volume": "1000",
+ "slug": "asztrologiai-hazak-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Asztrológiai házak: mik ezek, és mit jelentenek?",
+ "description": "A 12 ház megmutatja, az élet melyik területén történik valami: munka, szerelem, otthon. Egyszerűen.",
+ "intro": "Az asztrológiai házak 12 részre osztják a születési képletedet. Mindegyik ház az élet egy területe, például pénz, szerelem, otthon vagy munka.",
+ "sections": [
+  {
+   "h2": "Mi a 12 ház?",
+   "paragraphs": [
+    "Képzelj el egy házat 12 szobával. A bolygók a lakók, a jegyek a hangulatuk, a ház pedig a szoba, ahol megtörténik. Az 1. ház rólad szól, a 4. az otthonról, a 7. a kapcsolatokról, a 10. a karrierről."
+   ]
+  },
+  {
+   "h2": "Hogyan találod meg?",
+   "paragraphs": [
+    "Szükséged van a születési dátumra, időre és helyre. Egy ingyenes kalkulátor megrajzolja a térképet, és megmutatja a bolygókat házanként."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Péternek a Vénusz a 10. házban áll. A szerelem és a szépség tehát a munkájában van: kreatív szakmában sikeres."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kell a születési idő?",
+   "a": "Igen, mert a házak nagyjából kétóránként tolódnak."
+  },
+  {
+   "q": "Minden ház egyformán fontos?",
+   "a": "A bolygós házak érződnek leginkább; az üresek sem lényegtelenek, csak csendesebbek."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

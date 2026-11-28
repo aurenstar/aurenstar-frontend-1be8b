@@ -1,0 +1,49 @@
+{
+ "lang": "hu",
+ "keyword": "szinasztria",
+ "volume": "1000",
+ "slug": "szinasztria-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Szinasztria: mi ez, és mit mond rólatok?",
+ "description": "A szinasztria két születési képletet vet össze, hogy lássa, hogyan illik össze két ember. Egyszerűen.",
+ "intro": "A szinasztria két születési horoszkóp összehasonlítása. Látod, hol erősítik egymást, és hol súrlódnak.",
+ "sections": [
+  {
+   "h2": "Hogyan működik?",
+   "paragraphs": [
+    "Az egyik bolygóit ráteszik a másikéra. Ha az ő Napja az ő Holdján áll, az gyakran bizalmat ad. Ha két bolygó szemben áll, feszültség van."
+   ]
+  },
+  {
+   "h2": "Hogyan találod meg?",
+   "paragraphs": [
+    "Mindkettőtök születési dátuma, ideje és helye kell. Egy ingyenes eszköz másodpercek alatt összeveti a térképeket."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Anna és Gábor gyakran vitatkozik pénzről, de a Holdjuk jól illik. Ezért gyorsan kibékülnek."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "A szinasztria ugyanaz, mint a jegyek összeillése?",
+   "a": "Nem, sokkal pontosabb, mert minden bolygót összevet, nem csak a napjegyeket."
+  },
+  {
+   "q": "Megmondja a szinasztria, hogy kitart-e a kapcsolat?",
+   "a": "Erősségeket és nehézségeket mutat, de az eredményt a döntéseitek adják."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

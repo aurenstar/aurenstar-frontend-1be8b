@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "sinastrija",
+ "volume": "1000",
+ "slug": "sinastrija-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Sinastrija: kas tā ir un ko tā saka par jums diviem?",
+ "description": "Sinastrija salīdzina divas dzimšanas kartes, lai redzētu, kā divi cilvēki saderas. Vienkārši.",
+ "intro": "Sinastrija ir divu dzimšanas karšu salīdzinājums. Tu redzi, kur divi cilvēki viens otru stiprina un kur dzirksteļo.",
+ "sections": [
+  {
+   "h2": "Kā tas darbojas?",
+   "paragraphs": [
+    "Viena planētas uzliek uz otra planētām. Ja viņa Saule ir uz viņas Mēness, bieži jūtas tuvība. Ja divas planētas ir pretī, ir spriedze."
+   ]
+  },
+  {
+   "h2": "Kā to atrast?",
+   "paragraphs": [
+    "Vajag abu dzimšanas datumu, laiku un vietu. Bezmaksas rīks salīdzina kartes dažās sekundēs."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Anna un Jānis bieži strīdas par naudu, bet viņu Mēneši labi saderas. Tāpēc viņi ātri samierinās."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai sinastrija ir tas pats, kas zīmju saderība?",
+   "a": "Nē, tā ir daudz precīzāka, jo salīdzina visas planētas, ne tikai saules zīmes."
+  },
+  {
+   "q": "Vai sinastrija pateiks, vai attiecības ilgs?",
+   "a": "Tā rāda stiprās un grūtās puses, bet rezultātu nosaka jūsu izvēles."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

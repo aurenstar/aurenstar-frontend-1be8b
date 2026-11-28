@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "Saturnus återkomst",
+ "volume": "1000",
+ "slug": "saturnus-aterkomst-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturnus återkomst: vad är det och när sker det?",
+ "description": "Runt 29 års ålder återvänder Saturnus till sin plats vid din födelse. En tid av mognad. Enkelt förklarat.",
+ "intro": "Saturnus återkomst är när Saturnus står där han stod när du föddes. Det sker runt 29–30 års ålder och igen runt 58.",
+ "sections": [
+  {
+   "h2": "Vad händer?",
+   "paragraphs": [
+    "Saturnus tar cirka 29 år på sig för ett varv. Sedan frågar livet: stämmer din väg fortfarande? Många byter jobb, relation eller bostadsort."
+   ]
+  },
+  {
+   "h2": "Hur hanterar du det?",
+   "paragraphs": [
+    "Se det som en storstädning: släpp det som inte passar och välj medvetet vad som stannar. Det är tungt men ofta befriande."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Maja är 29 och tvivlar på sitt kontorsjobb. Hon börjar kvällsstudera och startar eget två år senare."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "När börjar återkomsten?",
+   "a": "Oftast runt 28 år och den varar i cirka två år."
+  },
+  {
+   "q": "Är det dåliga nyheter?",
+   "a": "Nej, det är en tung men nyttig läxa om ansvar."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

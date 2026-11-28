@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "astroloogilised majad",
+ "volume": "1000",
+ "slug": "astroloogilised-majad-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Astroloogilised majad: mis need on ja mida tähendavad?",
+ "description": "12 maja näitavad, mis eluvaldkonnas midagi toimub: töö, armastus, kodu. Lihtsalt.",
+ "intro": "Astroloogilised majad jagavad sünnikaardi 12 ossa. Iga maja on eluvaldkond, näiteks raha, armastus, kodu või töö.",
+ "sections": [
+  {
+   "h2": "Mis on 12 maja?",
+   "paragraphs": [
+    "Kujuta ette maja 12 toaga. Planeedid on elanikud, märgid nende tuju ja maja tuba, kus see juhtub. 1. maja räägib sinust, 4. kodust, 7. suhetest, 10. karjäärist."
+   ]
+  },
+  {
+   "h2": "Kuidas neid leida?",
+   "paragraphs": [
+    "Vaja on sünnikuupäeva, kellaaega ja kohta. Tasuta kalkulaator joonistab kaardi ja näitab planeete igas majas."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Markus on Veenus 10. majas. Armastus ja ilu on tema töös: ta edeneb loomingulises ametis."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas vajan sünniaega?",
+   "a": "Jah, sest majad nihkuvad umbes iga kahe tunni järel."
+  },
+  {
+   "q": "Kas kõik majad on võrdselt olulised?",
+   "a": "Planeetidega majad on tuntavamad; tühjad pole tähtsusetud, vaid vaiksemad."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

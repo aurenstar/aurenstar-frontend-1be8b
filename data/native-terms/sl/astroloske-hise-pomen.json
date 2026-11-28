@@ -1,0 +1,49 @@
+{
+ "lang": "sl",
+ "keyword": "astrološke hiše",
+ "volume": "1000",
+ "slug": "astroloske-hise-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Astrološke hiše: kaj so in kaj pomenijo?",
+ "description": "12 hiš kaže, na katerem področju življenja se nekaj dogaja: služba, ljubezen, dom. Preprosto.",
+ "intro": "Astrološke hiše delijo vaš rojstni horoskop na 12 delov. Vsaka hiša je področje življenja, na primer denar, ljubezen, dom ali služba.",
+ "sections": [
+  {
+   "h2": "Katerih je 12 hiš?",
+   "paragraphs": [
+    "Predstavljajte si hišo z 12 sobami. Planeti so stanovalci, znamenja njihovo razpoloženje, hiša pa soba, kjer se to zgodi. Hiša 1 govori o vas, 4 o domu, 7 o odnosih, 10 o karieri."
+   ]
+  },
+  {
+   "h2": "Kako jih najdete?",
+   "paragraphs": [
+    "Potrebujete datum, uro in kraj rojstva. Brezplačni kalkulator nariše karto in pokaže planete v vsaki hiši."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Matej ima Venero v hiši 10. Ljubezen in lepota sta v njegovem delu: uspešen je v ustvarjalnem poklicu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ali potrebujem uro rojstva?",
+   "a": "Da, ker se hiše premikajo približno vsaki dve uri."
+  },
+  {
+   "q": "Ali so vse hiše enako pomembne?",
+   "a": "Hiše s planeti se čutijo najbolj; prazne niso nepomembne, le mirnejše."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "ca",
+ "keyword": "retorn de Saturn",
+ "volume": "1000",
+ "slug": "retorn-de-saturn-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Retorn de Saturn: què és i quan passa?",
+ "description": "Cap als 29 anys Saturn torna on era quan vas néixer. Temps de maduració. Explicat fàcil.",
+ "intro": "El retorn de Saturn és el moment en què Saturn torna a estar on era quan vas néixer. Passa cap als 29–30 anys i de nou cap als 58.",
+ "sections": [
+  {
+   "h2": "Què passa?",
+   "paragraphs": [
+    "Saturn triga uns 29 anys a fer una volta. Llavors la vida pregunta: el teu camí encara t’encaixa? Molta gent canvia de feina, de parella o de ciutat."
+   ]
+  },
+  {
+   "h2": "Com afrontar-ho?",
+   "paragraphs": [
+    "Pensa-hi com una gran neteja: deixa anar el que no encaixa i tria conscientment què es queda. És dur, però sovint alliberador."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "La Marta té 29 anys i dubta de la feina d’oficina. Comença estudis nocturns i dos anys després obre el seu negoci."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quan comença el retorn?",
+   "a": "Normalment cap als 28 anys i dura uns dos anys."
+  },
+  {
+   "q": "És una mala notícia?",
+   "a": "No, és una lliçó dura però útil sobre responsabilitat."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

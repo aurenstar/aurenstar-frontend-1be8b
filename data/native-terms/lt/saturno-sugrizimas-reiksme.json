@@ -1,0 +1,49 @@
+{
+ "lang": "lt",
+ "keyword": "Saturno sugrįžimas",
+ "volume": "1000",
+ "slug": "saturno-sugrizimas-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturno sugrįžimas: kas tai ir kada įvyksta?",
+ "description": "Apie 29-uosius Saturnas grįžta į vietą, kurioje buvo tavo gimimo metu. Brendimo metas. Paprastai.",
+ "intro": "Saturno sugrįžimas – tai akimirka, kai Saturnas vėl stovi ten, kur stovėjo tau gimstant. Jis vyksta apie 29–30 metus ir dar kartą apie 58.",
+ "sections": [
+  {
+   "h2": "Kas vyksta?",
+   "paragraphs": [
+    "Saturnas apeina dangų per apie 29 metus. Tada gyvenimas klausia: ar tavo kelias dar tinka? Daugelis keičia darbą, santykius ar gyvenamąją vietą."
+   ]
+  },
+  {
+   "h2": "Kaip susitvarkyti?",
+   "paragraphs": [
+    "Žiūrėk į tai kaip į didelį tvarkymąsi: paleisk, kas netinka, ir sąmoningai išsirink, kas lieka. Sunku, bet dažnai išlaisvina."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Rūta 29 metų ir abejoja biuro darbu. Ji pradeda vakarines studijas, o po dvejų metų įkuria savo verslą."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kada sugrįžimas prasideda?",
+   "a": "Dažniausiai apie 28 metus ir trunka maždaug dvejus metus."
+  },
+  {
+   "q": "Ar tai bloga žinia?",
+   "a": "Ne, tai sunki, bet naudinga atsakomybės pamoka."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

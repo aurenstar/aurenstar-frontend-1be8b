@@ -1,0 +1,49 @@
+{
+ "lang": "lv",
+ "keyword": "Saturna atgriešanās",
+ "volume": "1000",
+ "slug": "saturna-atgriesanas-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturna atgriešanās: kas tā ir un kad notiek?",
+ "description": "Ap 29 gadu vecumu Saturns atgriežas tur, kur bija tavā dzimšanas brīdī. Nobriešanas laiks. Vienkārši.",
+ "intro": "Saturna atgriešanās ir brīdis, kad Saturns atkal stāv tur, kur stāvēja tavā dzimšanas brīdī. Tā notiek ap 29–30 gadiem un vēlreiz ap 58.",
+ "sections": [
+  {
+   "h2": "Kas notiek?",
+   "paragraphs": [
+    "Saturns apriņķo debesis aptuveni 29 gados. Tad dzīve jautā: vai tavs ceļš vēl der? Daudzi maina darbu, attiecības vai dzīvesvietu."
+   ]
+  },
+  {
+   "h2": "Kā tikt galā?",
+   "paragraphs": [
+    "Uztver to kā lielu uzkopšanu: atlaid, kas neder, un apzināti izvēlies, kas paliek. Tas ir grūti, bet bieži atbrīvo."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Anna ir 29 un šaubās par biroja darbu. Viņa sāk vakara studijas un pēc diviem gadiem izveido savu uzņēmumu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kad atgriešanās sākas?",
+   "a": "Parasti ap 28 gadiem, un tā ilgst aptuveni divus gadus."
+  },
+  {
+   "q": "Vai tās ir sliktas ziņas?",
+   "a": "Nē, tā ir grūta, bet noderīga atbildības mācība."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "cs",
+ "keyword": "astrologické domy",
+ "volume": "1000",
+ "slug": "astrologicke-domy-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Astrologické domy: co jsou a co znamenají?",
+ "description": "12 domů ukazuje, ve které oblasti života se něco děje: práce, láska, domov. Jednoduše vysvětleno.",
+ "intro": "Astrologické domy dělí váš rodný horoskop na 12 částí. Každý dům představuje oblast života, třeba peníze, lásku, domov nebo práci.",
+ "sections": [
+  {
+   "h2": "Co je 12 domů?",
+   "paragraphs": [
+    "Představte si dům o 12 pokojích. Planety jsou obyvatelé, znamení jejich nálada a dům pokoj, kde se to děje. Dům 1 je o vás, 4 o domově, 7 o vztazích, 10 o kariéře."
+   ]
+  },
+  {
+   "h2": "Jak je zjistit?",
+   "paragraphs": [
+    "Potřebujete datum, čas a místo narození. Bezplatná kalkulačka nakreslí vaši mapu a ukáže planety v každém domě."
+   ]
+  },
+  {
+   "h2": "Příklad",
+   "paragraphs": [
+    "Honza má Venuši v 10. domě. Láska a krása jsou tedy v jeho práci: daří se mu v kreativním oboru."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Potřebuji čas narození?",
+   "a": "Ano, domy se posouvají zhruba každé dvě hodiny."
+  },
+  {
+   "q": "Mají všechny domy stejnou váhu?",
+   "a": "Domy s planetami jsou nejsilnější; prázdné domy nejsou nedůležité, jen klidnější."
+  }
+ ],
+ "ui": {
+  "home": "Domů",
+  "tools": "Nástroje zdarma",
+  "articles": "Články",
+  "faq": "Časté dotazy",
+  "more": "Číst článek"
+ },
+ "tool": "descreva-me"
+}

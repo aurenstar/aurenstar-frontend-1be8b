@@ -1,0 +1,49 @@
+{
+ "lang": "fi",
+ "keyword": "synastria",
+ "volume": "1000",
+ "slug": "synastria-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Synastria: mikä se on ja mitä se kertoo teistä?",
+ "description": "Synastria asettaa kaksi syntymäkarttaa rinnakkain nähdäkseen, miten kaksi ihmistä sopivat yhteen. Selitetty yksinkertaisesti.",
+ "intro": "Synastria on kahden syntymäkartan vertailu. Näet, missä kaksi ihmistä vahvistavat toisiaan ja missä kipinöi.",
+ "sections": [
+  {
+   "h2": "Miten se toimii?",
+   "paragraphs": [
+    "Toisen planeetat asetetaan toisen päälle. Jos hänen aurinkonsa on hänen kuunsa päällä, se tuntuu usein turvalliselta. Jos kaksi planeettaa on vastakkain, on jännitettä."
+   ]
+  },
+  {
+   "h2": "Miten sen löytää?",
+   "paragraphs": [
+    "Tarvitset molempien syntymäpäivän, -ajan ja -paikan. Ilmainen työkalu vertaa karttoja sekunneissa."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Aino ja Mikko riitelevät usein rahasta, mutta heidän kuunsa sointuvat hyvin. Siksi he sopivat nopeasti."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Onko synastria sama kuin horoskooppimerkkien yhteensopivuus?",
+   "a": "Ei, se on paljon tarkempi, koska siinä verrataan kaikkia planeettoja, ei vain aurinkomerkkejä."
+  },
+  {
+   "q": "Voiko synastria kertoa, kestääkö suhde?",
+   "a": "Se näyttää vahvuudet ja vaikeudet, mutta valintanne ratkaisevat lopputuloksen."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

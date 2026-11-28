@@ -1,0 +1,49 @@
+{
+ "lang": "vi",
+ "keyword": "tương hợp lá số",
+ "volume": "1000",
+ "slug": "tuong-hop-la-so-synastry-y-nghia",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Synastry (so sánh hai lá số) là gì?",
+ "description": "Synastry đặt hai lá số cạnh nhau để xem hai người hợp nhau thế nào. Giải thích đơn giản.",
+ "intro": "Synastry là việc so sánh hai lá số sinh. Bạn thấy hai người bổ trợ nhau ở đâu và va chạm ở đâu.",
+ "sections": [
+  {
+   "h2": "Hoạt động thế nào?",
+   "paragraphs": [
+    "Hành tinh của người này được đặt lên lá số người kia. Nếu Mặt Trời của anh nằm trên Mặt Trăng của cô, thường rất thân thuộc. Hai hành tinh đối nhau thì có căng thẳng."
+   ]
+  },
+  {
+   "h2": "Cách tìm",
+   "paragraphs": [
+    "Cần ngày, giờ và nơi sinh của cả hai. Công cụ miễn phí so sánh trong vài giây."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Lan và Hùng hay cãi nhau chuyện tiền, nhưng Mặt Trăng của hai người rất hợp nên họ làm lành nhanh."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Synastry có giống xem cung hợp nhau không?",
+   "a": "Không, nó chính xác hơn nhiều vì so sánh mọi hành tinh chứ không chỉ cung Mặt Trời."
+  },
+  {
+   "q": "Synastry có nói được mối quan hệ bền không?",
+   "a": "Nó cho thấy điểm mạnh và khó, nhưng kết quả do lựa chọn của hai bạn."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

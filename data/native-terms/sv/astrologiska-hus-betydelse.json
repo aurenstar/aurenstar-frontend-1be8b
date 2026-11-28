@@ -1,0 +1,49 @@
+{
+ "lang": "sv",
+ "keyword": "astrologiska hus",
+ "volume": "1000",
+ "slug": "astrologiska-hus-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Astrologiska hus: vad är de och vad betyder de?",
+ "description": "De 12 husen visar var i livet något händer: jobb, kärlek, hem. Enkelt förklarat.",
+ "intro": "De astrologiska husen delar din födelsehoroskop i 12 delar. Varje hus står för ett område i livet, som pengar, kärlek, hem eller jobb.",
+ "sections": [
+  {
+   "h2": "Vilka är de 12 husen?",
+   "paragraphs": [
+    "Tänk dig ett hus med 12 rum. Planeterna är de som bor där, tecknen är deras humör och huset är rummet där det händer. Hus 1 handlar om dig, hus 4 om hemmet, hus 7 om relationer, hus 10 om karriär."
+   ]
+  },
+  {
+   "h2": "Hur hittar du dem?",
+   "paragraphs": [
+    "Du behöver födelsedatum, tid och plats. Ett gratis verktyg ritar din karta och visar vilka planeter som står i varje hus."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Erik har Venus i hus 10. Kärlek och skönhet finns alltså i hans jobb: han lyckas i ett kreativt yrke."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Behöver jag födelsetiden?",
+   "a": "Ja, eftersom husen flyttar sig ungefär varannan timme."
+  },
+  {
+   "q": "Har alla hus lika stor betydelse?",
+   "a": "Hus med planeter märks mest; tomma hus är inte oviktiga, bara lugnare."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

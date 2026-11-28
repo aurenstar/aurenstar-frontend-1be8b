@@ -1,0 +1,49 @@
+{
+ "lang": "nl",
+ "keyword": "synastrie",
+ "volume": "1000",
+ "slug": "synastrie-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Synastrie: wat is het en wat zegt het over jullie?",
+ "description": "Synastrie legt twee geboortekaarten naast elkaar om te zien hoe twee mensen bij elkaar passen. Eenvoudig uitgelegd.",
+ "intro": "Synastrie is het vergelijken van twee geboortekaarten. Zo zie je waar twee mensen elkaar versterken en waar ze botsen.",
+ "sections": [
+  {
+   "h2": "Hoe werkt het?",
+   "paragraphs": [
+    "Je legt de planeten van de één over die van de ander. Zit zijn Zon op haar Maan, dan voelt dat vaak vertrouwd. Staan twee planeten tegenover elkaar, dan zit er spanning in."
+   ]
+  },
+  {
+   "h2": "Hoe vind je het?",
+   "paragraphs": [
+    "Je hebt van beiden geboortedatum, tijd en plaats nodig. Een gratis tool vergelijkt de kaarten in een paar seconden."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Noor en Daan krijgen vaak ruzie over geld, maar hun manen sluiten mooi op elkaar aan. Daardoor maken ze het snel weer goed."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is synastrie hetzelfde als sterrenteken-compatibiliteit?",
+   "a": "Nee, het is veel nauwkeuriger, omdat het alle planeten vergelijkt en niet alleen de zonnetekens."
+  },
+  {
+   "q": "Kan synastrie zeggen of een relatie duurt?",
+   "a": "Het laat sterke en moeilijke punten zien, maar jullie keuzes bepalen de uitkomst."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "domy astrologiczne",
+ "volume": "1000",
+ "slug": "domy-astrologiczne-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Domy astrologiczne: czym są i co oznaczają?",
+ "description": "12 domów pokazuje, w której dziedzinie życia coś się dzieje: praca, miłość, dom. Wyjaśnione prosto.",
+ "intro": "Domy astrologiczne dzielą Twoją mapę urodzeniową na 12 części. Każdy dom to obszar życia, np. pieniądze, miłość, dom lub praca.",
+ "sections": [
+  {
+   "h2": "Czym jest 12 domów?",
+   "paragraphs": [
+    "Wyobraź sobie dom z 12 pokojami. Planety to mieszkańcy, znaki to ich nastrój, a dom to pokój, w którym to się dzieje. Dom 1 dotyczy Ciebie, 4 domu, 7 związków, 10 kariery."
+   ]
+  },
+  {
+   "h2": "Jak je znaleźć?",
+   "paragraphs": [
+    "Potrzebujesz daty, godziny i miejsca urodzenia. Darmowy kalkulator narysuje mapę i pokaże planety w każdym domu."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Marek ma Wenus w domu 10. Miłość i piękno są więc w jego pracy: odnosi sukces w zawodzie kreatywnym."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy potrzebuję godziny urodzenia?",
+   "a": "Tak, bo domy przesuwają się mniej więcej co dwie godziny."
+  },
+  {
+   "q": "Czy wszystkie domy mają taką samą wagę?",
+   "a": "Domy z planetami są najsilniejsze; puste nie są nieważne, tylko spokojniejsze."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

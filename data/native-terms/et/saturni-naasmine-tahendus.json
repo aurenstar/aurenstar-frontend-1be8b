@@ -1,0 +1,49 @@
+{
+ "lang": "et",
+ "keyword": "Saturni naasmine",
+ "volume": "1000",
+ "slug": "saturni-naasmine-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Saturni naasmine: mis see on ja millal toimub?",
+ "description": "Umbes 29-aastaselt naaseb Saturn sinu sünnikohale. Küpsemise aeg. Lihtsalt.",
+ "intro": "Saturni naasmine on hetk, kui Saturn on taas seal, kus ta oli sinu sündides. See toimub umbes 29–30-aastaselt ja uuesti umbes 58-aastaselt.",
+ "sections": [
+  {
+   "h2": "Mis juhtub?",
+   "paragraphs": [
+    "Saturn teeb ringi umbes 29 aastaga. Siis küsib elu: kas su tee sobib veel? Paljud vahetavad tööd, suhet või elukohta."
+   ]
+  },
+  {
+   "h2": "Kuidas toime tulla?",
+   "paragraphs": [
+    "Mõtle sellest kui suurpuhastusest: lase lahti sellest, mis ei sobi, ja vali teadlikult, mis jääb. See on raske, kuid sageli vabastav."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Liis on 29 ja kahtleb kontoritöös. Ta alustab õhtuõpet ja avab kaks aastat hiljem oma ettevõtte."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Millal naasmine algab?",
+   "a": "Tavaliselt umbes 28-aastaselt ja kestab umbes kaks aastat."
+  },
+  {
+   "q": "Kas see on halb uudis?",
+   "a": "Ei, see on raske, kuid kasulik õppetund vastutusest."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

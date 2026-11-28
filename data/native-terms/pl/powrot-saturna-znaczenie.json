@@ -1,0 +1,49 @@
+{
+ "lang": "pl",
+ "keyword": "powrót Saturna",
+ "volume": "1000",
+ "slug": "powrot-saturna-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Powrót Saturna: co to jest i kiedy następuje?",
+ "description": "Około 29. roku życia Saturn wraca na miejsce z Twoich narodzin. Czas dojrzewania. Prosto.",
+ "intro": "Powrót Saturna to chwila, gdy Saturn stoi tam, gdzie w dniu Twoich narodzin. Następuje około 29.–30. roku życia i ponownie około 58.",
+ "sections": [
+  {
+   "h2": "Co się dzieje?",
+   "paragraphs": [
+    "Saturn okrąża niebo w około 29 lat. Wtedy życie pyta: czy Twoja droga nadal pasuje? Wiele osób zmienia pracę, związek lub miejsce zamieszkania."
+   ]
+  },
+  {
+   "h2": "Jak sobie radzić?",
+   "paragraphs": [
+    "Potraktuj to jak wielkie porządki: puść to, co nie pasuje, i świadomie wybierz, co zostaje. Jest ciężko, ale często wyzwalająco."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Kasia ma 29 lat i wątpi w pracę biurową. Zaczyna wieczorne studia, a dwa lata później zakłada własną firmę."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kiedy zaczyna się powrót?",
+   "a": "Zwykle około 28. roku życia i trwa około dwóch lat."
+  },
+  {
+   "q": "Czy to zła wiadomość?",
+   "a": "Nie, to ciężka, ale pożyteczna lekcja odpowiedzialności."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}
