@@ -1,0 +1,70 @@
+{
+ "lang": "tr",
+ "keyword": "burclar",
+ "volume": 1000,
+ "slug": "12-burc-tarihleri-elementler-anlami",
+ "date": "2026-11-27",
+ "title": "12 Burç: Tarihler, Elementler ve Anlamları Basitçe",
+ "description": "12 burcun tarihleri, dört element ve günlük hayatta nasıl kullanılacağı, basit örneklerle.",
+ "intro": "“Burcun ne?” tanışırken sorulan klasik bir sorudur. On iki burç vardır ve her biri hayata farklı bir yaklaşımı anlatır. İşte zor kelimeler olmadan net bir rehber.",
+ "sections": [
+  {
+   "h2": "On iki burcun tarihleri",
+   "paragraphs": [
+    "Tarihler şöyle (bir gün farklı olabilir):",
+    "Koç: 21 Mart – 19 Nisan",
+    "Boğa: 20 Nisan – 20 Mayıs",
+    "İkizler: 21 Mayıs – 20 Haziran",
+    "Yengeç: 21 Haziran – 22 Temmuz",
+    "Aslan: 23 Temmuz – 22 Ağustos",
+    "Başak: 23 Ağustos – 22 Eylül",
+    "Terazi: 23 Eylül – 22 Ekim",
+    "Akrep: 23 Ekim – 21 Kasım",
+    "Yay: 22 Kasım – 21 Aralık",
+    "Oğlak: 22 Aralık – 19 Ocak",
+    "Kova: 20 Ocak – 18 Şubat",
+    "Balık: 19 Şubat – 20 Mart"
+   ]
+  },
+  {
+   "h2": "Dört element",
+   "paragraphs": [
+    "Ateş (Koç, Aslan, Yay) enerji ve girişkenlik demektir. Toprak (Boğa, Başak, Oğlak) gerçekçilik ve sabır. Hava (İkizler, Terazi, Kova) fikir ve iletişim. Su (Yengeç, Akrep, Balık) duygu ve sezgi."
+   ]
+  },
+  {
+   "h2": "Güneş burcundan fazlası",
+   "paragraphs": [
+    "Tatil planlayan dört arkadaşı düşünün: ateş burcu rotayı saniyede seçer, toprak burcu eşya listesi hazırlar, hava burcu eğlenceli öneriler arar, su burcu herkesin rahat etmesini sağlar.",
+    "Güneş burcun doğum haritanın yalnızca bir parçasıdır. Yükselen ve Ay burcu resmi çok değiştirir. Ücretsiz bir araçla birkaç dakikada öğrenebilirsin."
+   ]
+  },
+  {
+   "h2": "Burcunu nasıl kullanırsın",
+   "paragraphs": [
+    "Burçları kendini düşünmek için ilham olarak gör, kesin tahmin olarak değil. Astroloji doktor, avukat veya mali danışman tavsiyesinin yerini tutmaz."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Burcumu nasıl öğrenirim?",
+   "a": "Doğum tarihinden. Sınır günlerde doğum saati ve yeri de önemlidir."
+  },
+  {
+   "q": "Burç ile yükselen arasındaki fark nedir?",
+   "a": "Burç özündür, yükselen başkalarına bıraktığın izlenimdir."
+  },
+  {
+   "q": "Astroloji bilim mi?",
+   "a": "Hayır, geleceği öngördüğüne dair bilimsel kanıt yoktur."
+  }
+ ],
+ "ui": {
+  "home": "Ana Sayfa",
+  "tools": "Ücretsiz araçlar",
+  "articles": "Makaleler",
+  "faq": "Sık sorulan sorular",
+  "more": "Makaleyi oku"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "lang": "de",
+ "keyword": "sternzeichen",
+ "volume": 74000,
+ "slug": "sternzeichen-uebersicht-daten-elemente-bedeutung",
+ "date": "2026-11-27",
+ "title": "Die 12 Sternzeichen: Daten, Elemente und Bedeutung einfach erklärt",
+ "description": "Alle Daten der 12 Sternzeichen, die vier Elemente und wie du sie im Alltag nutzt – mit einfachen Beispielen.",
+ "intro": "„Welches Sternzeichen bist du?“ – eine Klassiker-Frage beim Kennenlernen. Es gibt zwölf Sternzeichen, und jedes beschreibt eine eigene Art, dem Leben zu begegnen. Hier ist eine klare Übersicht ohne Fachwörter.",
+ "sections": [
+  {
+   "h2": "Die Daten der zwölf Sternzeichen",
+   "paragraphs": [
+    "Hier die Daten (sie können um einen Tag abweichen):",
+    "Widder: 21. März – 19. April",
+    "Stier: 20. April – 20. Mai",
+    "Zwillinge: 21. Mai – 20. Juni",
+    "Krebs: 21. Juni – 22. Juli",
+    "Löwe: 23. Juli – 22. August",
+    "Jungfrau: 23. August – 22. September",
+    "Waage: 23. September – 22. Oktober",
+    "Skorpion: 23. Oktober – 21. November",
+    "Schütze: 22. November – 21. Dezember",
+    "Steinbock: 22. Dezember – 19. Januar",
+    "Wassermann: 20. Januar – 18. Februar",
+    "Fische: 19. Februar – 20. März"
+   ]
+  },
+  {
+   "h2": "Die vier Elemente",
+   "paragraphs": [
+    "Feuer (Widder, Löwe, Schütze) steht für Energie und Initiative. Erde (Stier, Jungfrau, Steinbock) für Bodenständigkeit und Geduld. Luft (Zwillinge, Waage, Wassermann) für Ideen und Kommunikation. Wasser (Krebs, Skorpion, Fische) für Gefühl und Intuition."
+   ]
+  },
+  {
+   "h2": "Mehr als dein Sonnenzeichen",
+   "paragraphs": [
+    "Stell dir vier Freunde bei der Reiseplanung vor: Das Feuerzeichen wählt das Ziel in Sekunden, das Erdzeichen schreibt die Packliste, das Luftzeichen sucht Tipps und das Wasserzeichen sorgt dafür, dass sich alle wohlfühlen.",
+    "Dein Sonnenzeichen ist nur ein Teil deines Geburtshoroskops. Auch Aszendent und Mondzeichen prägen das Bild. Mit einem kostenlosen Rechner findest du beides in wenigen Minuten."
+   ]
+  },
+  {
+   "h2": "So nutzt du dein Sternzeichen",
+   "paragraphs": [
+    "Sieh Sternzeichen als Anregung zum Nachdenken, nicht als sichere Vorhersage. Astrologie ersetzt nie den Rat von Ärztinnen, Juristen oder Finanzberatern."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie finde ich mein Sternzeichen heraus?",
+   "a": "Über dein Geburtsdatum. An den Grenztagen zählen auch Uhrzeit und Geburtsort."
+  },
+  {
+   "q": "Was ist der Unterschied zwischen Sternzeichen und Aszendent?",
+   "a": "Das Sternzeichen ist dein Kern, der Aszendent der Eindruck, den du auf andere machst."
+  },
+  {
+   "q": "Ist Astrologie Wissenschaft?",
+   "a": "Nein, es gibt keinen wissenschaftlichen Beleg, dass sie die Zukunft vorhersagt."
+  }
+ ],
+ "ui": {
+  "home": "Startseite",
+  "tools": "Kostenlose Tools",
+  "articles": "Artikel",
+  "faq": "Häufige Fragen",
+  "more": "Artikel lesen"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "lang": "id",
+ "keyword": "zodiak",
+ "volume": 33100,
+ "slug": "zodiak-12-tanggal-elemen-arti",
+ "date": "2026-11-27",
+ "title": "12 Zodiak: Tanggal, Elemen, dan Artinya Dijelaskan Sederhana",
+ "description": "Tanggal 12 zodiak, empat elemen, dan cara memakainya dalam keseharian, dengan contoh mudah.",
+ "intro": "“Zodiakmu apa?” adalah pertanyaan klasik saat berkenalan. Ada dua belas zodiak dan masing-masing menggambarkan cara berbeda menjalani hidup. Berikut panduan jelas tanpa istilah sulit.",
+ "sections": [
+  {
+   "h2": "Tanggal dua belas zodiak",
+   "paragraphs": [
+    "Berikut tanggalnya (bisa berbeda satu hari):",
+    "Aries: 21 Maret – 19 April",
+    "Taurus: 20 April – 20 Mei",
+    "Gemini: 21 Mei – 20 Juni",
+    "Cancer: 21 Juni – 22 Juli",
+    "Leo: 23 Juli – 22 Agustus",
+    "Virgo: 23 Agustus – 22 September",
+    "Libra: 23 September – 22 Oktober",
+    "Scorpio: 23 Oktober – 21 November",
+    "Sagitarius: 22 November – 21 Desember",
+    "Capricorn: 22 Desember – 19 Januari",
+    "Aquarius: 20 Januari – 18 Februari",
+    "Pisces: 19 Februari – 20 Maret"
+   ]
+  },
+  {
+   "h2": "Empat elemen",
+   "paragraphs": [
+    "Api (Aries, Leo, Sagitarius) berarti energi dan inisiatif. Tanah (Taurus, Virgo, Capricorn) berarti praktis dan sabar. Udara (Gemini, Libra, Aquarius) berarti ide dan komunikasi. Air (Cancer, Scorpio, Pisces) berarti perasaan dan intuisi."
+   ]
+  },
+  {
+   "h2": "Lebih dari zodiak matahari",
+   "paragraphs": [
+    "Bayangkan empat teman merencanakan liburan: zodiak api memilih tujuan dalam sekejap, zodiak tanah membuat daftar barang, zodiak udara mencari tips seru, dan zodiak air memastikan semua nyaman.",
+    "Zodiak matahari hanya satu bagian dari natal chart. Ascendant dan Bulan banyak mengubah gambaran. Dengan alat gratis, kamu bisa mengetahuinya dalam beberapa menit."
+   ]
+  },
+  {
+   "h2": "Cara memakai zodiakmu",
+   "paragraphs": [
+    "Anggap zodiak sebagai inspirasi untuk merenung, bukan ramalan pasti. Astrologi tidak menggantikan saran dokter, pengacara, atau penasihat keuangan."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Bagaimana cara tahu zodiakku?",
+   "a": "Dari tanggal lahir. Pada hari batas, jam dan tempat lahir juga berpengaruh."
+  },
+  {
+   "q": "Apa beda zodiak dan ascendant?",
+   "a": "Zodiak adalah intimu, ascendant adalah kesan yang dilihat orang lain."
+  },
+  {
+   "q": "Apakah astrologi ilmiah?",
+   "a": "Tidak, tidak ada bukti ilmiah bahwa astrologi bisa meramal masa depan."
+  }
+ ],
+ "ui": {
+  "home": "Beranda",
+  "tools": "Alat gratis",
+  "articles": "Artikel",
+  "faq": "Pertanyaan umum",
+  "more": "Baca artikel"
+ }
+}
