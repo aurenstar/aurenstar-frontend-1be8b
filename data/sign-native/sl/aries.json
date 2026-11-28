@@ -1,0 +1,22 @@
+{
+ "name": "Oven",
+ "slug": "aries",
+ "period": "21. marec – 19. april",
+ "element": "Ogenj",
+ "essence": "Pogumen, poln energije in vedno pripravljen začeti. Oven s svojim zagonom potegne druge za seboj.",
+ "advice": "Globoko vdihni, preden hitiš z dejanji, in proslavi vsako majhno zmago.",
+ "sections": [
+  {
+   "h": "Osebnost in prednosti",
+   "p": "Ovna vodi Mars. Takoj se loti stvari, je iskren in se hitro navduši. Njegov izziv je nestrpnost: včasih začne prehitro in prezgodaj obupa."
+  },
+  {
+   "h": "Ljubezen in prijateljstvo",
+   "p": "V ljubezni je Oven strasten in neposreden. Med prijatelji je pogosto tisti, ki povleče skupino za seboj. Če drugemu občasno da čas, je zveza mirnejša."
+  },
+  {
+   "h": "Služba in vsakdan",
+   "p": "V službi Oven blesti pri novih projektih in hitrih odločitvah. V vsakdanu mu gibanje pomaga počistiti glavo. Dokončevanje ene stvari naenkrat najbolje izkoristi njegovo energijo."
+  }
+ ]
+}

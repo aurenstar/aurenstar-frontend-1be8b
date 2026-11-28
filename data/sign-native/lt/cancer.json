@@ -1,0 +1,22 @@
+{
+ "name": "Vėžys",
+ "slug": "cancer",
+ "period": "birželio 21 – liepos 22",
+ "element": "Vanduo",
+ "essence": "Rūpestingas ir šiltas. Vėžys saugo šeimą ir draugus ir yra stipresnis, nei atrodo.",
+ "advice": "Pailsėk vietoje, kurioje jautiesi saugus.",
+ "sections": [
+  {
+   "h": "Charakteris ir stiprybės",
+   "p": "Vėžiui vadovauja Mėnulis. Jis iškart jaučia kitų emocijas ir mėgsta rūpintis. Jis jautrus ir kartais pasislepia savo kiaute."
+  },
+  {
+   "h": "Meilė ir draugystė",
+   "p": "Meilėje Vėžys ieško saugumo ir kuria jį žingsnis po žingsnio. Draugams sukuria šiltus namus. Jausmų pasakymas, užuot juos kaupus, padeda santykiams išlikti."
+  },
+  {
+   "h": "Darbas ir kasdienybė",
+   "p": "Darbe jam tinka pagalbos profesijos, pavyzdžiui, slauga, švietimas ir maitinimas. Jaukūs namai atkuria jo jėgas."
+  }
+ ]
+}

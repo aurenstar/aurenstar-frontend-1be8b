@@ -1,0 +1,22 @@
+{
+ "name": "Avinas",
+ "slug": "aries",
+ "period": "kovo 21 – balandžio 19",
+ "element": "Ugnis",
+ "essence": "Drąsus, kupinas energijos ir visada pasiruošęs pradėti. Avinas savo užsidegimu veda kitus paskui save.",
+ "advice": "Giliai įkvėpk prieš veikdamas skubėdamas ir pasidžiauk kiekviena maža pergale.",
+ "sections": [
+  {
+   "h": "Charakteris ir stiprybės",
+   "p": "Avinui vadovauja Marsas. Jis griebiasi reikalų iš karto, yra atviras ir greitai susižavi. Jo išbandymas – nekantrumas: kartais pradeda per skubotai ir per anksti nutraukia."
+  },
+  {
+   "h": "Meilė ir draugystė",
+   "p": "Meilėje Avinas aistringas ir tiesus. Tarp draugų dažnai jis tas, kuris ištraukia kompaniją. Kartais palikęs laiko kitam, jis padaro santykius ramesnius."
+  },
+  {
+   "h": "Darbas ir kasdienybė",
+   "p": "Darbe Avinas spindi naujuose projektuose ir greituose sprendimuose. Kasdien judėjimas padeda išvalyti galvą. Užbaigti po vieną darbą geriausiai išnaudoja jo energiją."
+  }
+ ]
+}

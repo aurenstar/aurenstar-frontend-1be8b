@@ -1,0 +1,22 @@
+{
+ "name": "Vízöntő",
+ "slug": "aquarius",
+ "period": "január 20. – február 18.",
+ "element": "Levegő",
+ "essence": "Szabad, eredeti és emberszerető. A Vízöntő másként gondolkodik, és a jövőről álmodik.",
+ "advice": "Nyugodtan mondd ki szokatlan ötleteidet, még ha nem is „normálisak”.",
+ "sections": [
+  {
+   "h": "Személyiség és erősségek",
+   "p": "A Vízöntőt a Szaturnusz és az Uránusz irányítja. Független, tele új ötletekkel, és mindenki számára egyenlőséget akar. Szüksége van egyedül töltött időre, ezért néha távolinak tűnik."
+  },
+  {
+   "h": "Szerelem és barátság",
+   "p": "Szerelemben a legjobb barátok közötti kapcsolatot kedveli, mindkettőjüknek helyet hagyva. A barátai különböző világokból jönnek. Az érzelmek szavakkal való kimondása biztonságot ad a másiknak."
+  },
+  {
+   "h": "Munka és mindennapok",
+   "p": "A munkában a technika, kutatás, társadalmi projektek és tervezés terén ragyog. Írd fel, ami felkelti a kíváncsiságod, később jó ötletek lesznek belőle."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Oinas",
+ "slug": "aries",
+ "period": "21. maaliskuuta – 19. huhtikuuta",
+ "element": "Tuli",
+ "essence": "Rohkea, täynnä energiaa ja aina valmis aloittamaan. Oinas vie muut mukanaan vauhdillaan.",
+ "advice": "Hengitä syvään ennen kuin toimit kiireessä, ja juhli jokaista pientä voittoa.",
+ "sections": [
+  {
+   "h": "Persoonallisuus ja vahvuudet",
+   "p": "Oinasta hallitsee Mars. Se tarttuu asioihin heti, on rehellinen ja innostuu nopeasti. Haaste on kärsimättömyys: joskus se aloittaa liian hätäisesti ja luovuttaa liian aikaisin."
+  },
+  {
+   "h": "Rakkaus ja ystävyys",
+   "p": "Rakkaudessa Oinas on intohimoinen ja suora. Ystävien joukossa se vie usein ryhmää mukanaan. Kun toiselle antaa välillä aikaa, suhde rauhoittuu."
+  },
+  {
+   "h": "Työ ja arki",
+   "p": "Työssä Oinas loistaa uusissa hankkeissa ja nopeissa päätöksissä. Arjessa liikunta auttaa selkeyttämään mieltä. Yhden asian loppuun saattaminen kerrallaan käyttää sen energian parhaiten."
+  }
+ ]
+}

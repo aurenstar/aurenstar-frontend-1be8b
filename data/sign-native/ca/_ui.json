@@ -1,0 +1,23 @@
+{
+ "home": "Inici",
+ "read": "Llegeix l’article",
+ "dict": "Diccionari",
+ "contact": "Contacte",
+ "tools": "Eines gratuïtes",
+ "articles": "Articles",
+ "faq": "Preguntes freqüents",
+ "articlesAbout": "Articles sobre {n}",
+ "cta": "Descobreix el teu signe",
+ "facts": "En resum",
+ "period": "Dates",
+ "element": "Element",
+ "advice": "Un consell senzill",
+ "title": "{n}: personalitat, trets i tot sobre el signe",
+ "desc": "{n} ({p}): signe de l’element {e}. Personalitat, punts forts, amor i articles per entendre {n} fàcilment.",
+ "qDates": "Quines són les dates de {n}?",
+ "qElement": "Quin element és {n}?",
+ "qPersonality": "Com és {n}?",
+ "qTip": "Què ajuda {n} cada dia?",
+ "aDates": "{n} va del {p}.",
+ "aElement": "{n} pertany a l’element {e}."
+}

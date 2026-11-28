@@ -1,0 +1,22 @@
+{
+ "name": "Vaaka",
+ "slug": "libra",
+ "period": "23. syyskuuta – 22. lokakuuta",
+ "element": "Ilma",
+ "essence": "Ystävällinen, tasapainoinen ja rauhaa rakastava. Vaaka pitää miellyttävästä tunnelmasta ja kuuntelee hyvin.",
+ "advice": "Kun et osaa valita, jätä kaksi vaihtoehtoa ja ota se, joka tuntui ensin hyvältä.",
+ "sections": [
+  {
+   "h": "Persoonallisuus ja vahvuudet",
+   "p": "Vaakaa hallitsee Venus. Se on diplomaattinen, oikeudenmukainen ja näkee asian molemmat puolet. Kauneus ja sopusointu ovat tärkeitä. Päättäminen on vaikeaa, ja joskus se sanoo kyllä, vaikka tarkoittaa ei."
+  },
+  {
+   "h": "Rakkaus ja ystävyys",
+   "p": "Rakkaudessa Vaaka on romanttinen ja haluaa tasavertaisen suhteen. Ystävien kesken se sovittelee riitoja. Se viihtyy ihmisten kanssa, jotka sanovat selvästi, mitä tarvitsevat."
+  },
+  {
+   "h": "Työ ja arki",
+   "p": "Työssä Vaaka loistaa tiimityössä, neuvotteluissa, suunnittelussa ja neuvonnassa. Paineen alla ajattelu on heikompaa. Pienet päivätavoitteet säästävät pohdintaan menevää aikaa."
+  }
+ ]
+}

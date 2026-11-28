@@ -1,0 +1,23 @@
+{
+ "home": "Laman Utama",
+ "read": "Baca artikel",
+ "dict": "Kamus",
+ "contact": "Hubungi",
+ "tools": "Alat percuma",
+ "articles": "Artikel",
+ "faq": "Soalan lazim",
+ "articlesAbout": "Artikel tentang {n}",
+ "cta": "Temui zodiak anda",
+ "facts": "Ringkasnya",
+ "period": "Tarikh",
+ "element": "Unsur",
+ "advice": "Petua mudah",
+ "title": "{n}: personaliti, sifat dan semua tentang zodiak",
+ "desc": "{n} ({p}): zodiak unsur {e}. Personaliti, kekuatan, cinta dan artikel supaya anda mudah memahami {n}.",
+ "qDates": "Bilakah tarikh zodiak {n}?",
+ "qElement": "Apakah unsur {n}?",
+ "qPersonality": "Bagaimana sifat {n}?",
+ "qTip": "Apa yang membantu {n} setiap hari?",
+ "aDates": "Zodiak {n} berlangsung pada {p}.",
+ "aElement": "Zodiak {n} tergolong dalam unsur {e}."
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Skorpion",
+ "slug": "scorpio",
+ "period": "23. oktoober – 21. november",
+ "element": "Vesi",
+ "essence": "Truu, kirglik ja sügav. Skorpion tunnetab, mida teised tegelikult mõtlevad.",
+ "advice": "Räägi tagasihoitud tunnetest kellegagi, keda usaldad, natuke kaupa.",
+ "sections": [
+  {
+   "h": "Iseloom ja tugevused",
+   "p": "Skorpioni valitsevad Pluuto ja Mars. Tal on tugev tahe ja palju visadust. Mida ta alustab, selle lõpetab. Ta avaneb aeglaselt ja võib muutuda umbusklikuks."
+  },
+  {
+   "h": "Armastus ja sõprus",
+   "p": "Armastuses armastab ta sügavalt ja truult. Ta otsib päris lähedust, mitte pealiskaudsust. Sõpru on vähe, kuid väga lähedased. Avatud vestlus ehitab usaldust."
+  },
+  {
+   "h": "Töö ja igapäev",
+   "p": "Tööl sobivad talle uurimine, analüüs ja töö inimestega rasketes olukordades. Igapäevaselt vajab ta keskendumist ja liikumist pinge vabastamiseks."
+  }
+ ]
+}

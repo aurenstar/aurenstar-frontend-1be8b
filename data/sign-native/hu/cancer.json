@@ -1,0 +1,22 @@
+{
+ "name": "Rák",
+ "slug": "cancer",
+ "period": "június 21. – július 22.",
+ "element": "Víz",
+ "essence": "Gondoskodó és szívélyes. A Rák védi a családját és barátait, és erősebb, mint amilyennek látszik.",
+ "advice": "Pihenj egy olyan helyen, ahol biztonságban érzed magad.",
+ "sections": [
+  {
+   "h": "Személyiség és erősségek",
+   "p": "A Rákot a Hold irányítja. Azonnal megérzi mások érzelmeit, és szeret gondoskodni. Érzékeny, és néha behúzódik a páncéljába."
+  },
+  {
+   "h": "Szerelem és barátság",
+   "p": "Szerelemben a Rák biztonságot keres, és lépésről lépésre építi. A barátainak meleg otthont teremt. Az érzések kimondása a felhalmozásuk helyett segít a kapcsolatoknak hosszan tartani."
+  },
+  {
+   "h": "Munka és mindennapok",
+   "p": "A munkában a segítő hivatások illenek hozzá, például ápolás, oktatás, vendéglátás. Egy otthonos lakás feltölti az erejét."
+  }
+ ]
+}

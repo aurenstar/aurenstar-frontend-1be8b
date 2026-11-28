@@ -1,0 +1,22 @@
+{
+ "name": "Škorpión",
+ "slug": "scorpio",
+ "period": "23. októbra – 21. novembra",
+ "element": "Voda",
+ "essence": "Verný, vášnivý a hlboký. Škorpión vycíti, čo si ostatní naozaj myslia.",
+ "advice": "O potláčaných citoch sa rozprávaj s niekým, komu dôveruješ, po troškách.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Škorpióna ovládajú Pluto a Mars. Má silnú vôľu a veľkú vytrvalosť. Čo začne, to dokončí. Otvára sa pomaly a môže byť podozrievavý."
+  },
+  {
+   "h": "Láska a priateľstvo",
+   "p": "V láske miluje hlboko a verne. Hľadá skutočnú blízkosť, nie povrchnosť. Má málo priateľov, ale veľmi blízkych. Otvorený rozhovor buduje dôveru."
+  },
+  {
+   "h": "Práca a každodenný život",
+   "p": "V práci mu sedí výskum, analýza a práca s ľuďmi v ťažkých situáciách. V bežnom dni potrebuje sústredenie a pohyb, aby uvoľnil napätie."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "home": "Trang chủ",
+ "read": "Đọc bài viết",
+ "dict": "Từ điển",
+ "contact": "Liên hệ",
+ "tools": "Công cụ miễn phí",
+ "articles": "Bài viết",
+ "faq": "Câu hỏi thường gặp",
+ "articlesAbout": "Bài viết về {n}",
+ "cta": "Khám phá cung của bạn",
+ "facts": "Tóm tắt",
+ "period": "Ngày sinh",
+ "element": "Nguyên tố",
+ "advice": "Một lời khuyên đơn giản",
+ "title": "{n}: tính cách, đặc điểm và mọi điều về cung hoàng đạo",
+ "desc": "{n} ({p}): cung thuộc nguyên tố {e}. Tính cách, điểm mạnh, tình yêu và các bài viết giúp bạn hiểu {n} dễ dàng.",
+ "qDates": "Ngày sinh của cung {n} là khi nào?",
+ "qElement": "Cung {n} thuộc nguyên tố nào?",
+ "qPersonality": "Cung {n} có tính cách thế nào?",
+ "qTip": "Điều gì giúp cung {n} mỗi ngày?",
+ "aDates": "Cung {n} kéo dài {p}.",
+ "aElement": "Cung {n} thuộc nguyên tố {e}."
+}

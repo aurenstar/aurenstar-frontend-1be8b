@@ -1,0 +1,22 @@
+{
+ "name": "Býk",
+ "slug": "taurus",
+ "period": "20. dubna – 20. května",
+ "element": "Země",
+ "essence": "Klidný, věrný a srdečný. Býk má rád pohodlí a celoživotní přátelství.",
+ "advice": "Dopřej si každý den chvilku pro něco, co máš opravdu rád.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Býka vládne Venuše. Je trpělivý, spolehlivý a dotáhne do konce, co si předsevzal. Dobré jídlo a krásná místa ho činí šťastným. Tvrdohlavost mu někdy stojí v cestě."
+  },
+  {
+   "h": "Láska a přátelství",
+   "p": "V lásce Býk buduje důvěru pomalu a pak je velmi věrný. Jeho přátelství často trvají desítky let. Novinky zkouší nejraději po malých krocích."
+  },
+  {
+   "h": "Práce a každodenní život",
+   "p": "V práci Býk přesvědčí vytrvalostí, třeba ve financích, řemesle nebo gastronomii. Pevné denní návyky mu dávají klid."
+  }
+ ]
+}

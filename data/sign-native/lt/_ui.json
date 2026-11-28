@@ -1,0 +1,23 @@
+{
+ "home": "Pradžia",
+ "read": "Skaityti straipsnį",
+ "dict": "Žodynas",
+ "contact": "Kontaktai",
+ "tools": "Nemokami įrankiai",
+ "articles": "Straipsniai",
+ "faq": "Dažni klausimai",
+ "articlesAbout": "Straipsniai apie ženklą: {n}",
+ "cta": "Atrask savo ženklą",
+ "facts": "Trumpai",
+ "period": "Datos",
+ "element": "Stichija",
+ "advice": "Paprastas patarimas",
+ "title": "{n}: charakteris, savybės ir viskas apie zodiako ženklą",
+ "desc": "{n} ({p}): stichijos {e} zodiako ženklas. Charakteris, stiprybės, meilė ir straipsniai, padedantys lengvai suprasti ženklą: {n}.",
+ "qDates": "Kokios ženklo {n} datos?",
+ "qElement": "Kokia ženklo {n} stichija?",
+ "qPersonality": "Koks yra ženklas {n}?",
+ "qTip": "Kas padeda ženklui {n} kasdien?",
+ "aDates": "Ženklas {n} trunka: {p}.",
+ "aElement": "Ženklas {n} priklauso stichijai: {e}."
+}

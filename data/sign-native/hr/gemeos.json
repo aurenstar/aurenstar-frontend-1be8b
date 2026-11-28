@@ -1,0 +1,22 @@
+{
+ "name": "Blizanci",
+ "slug": "gemini",
+ "period": "21. svibnja – 20. lipnja",
+ "element": "Zrak",
+ "essence": "Znatiželjni, razgovorljivi i društveni. Blizanci vole razgovore i nove ljude.",
+ "advice": "Zapisuj što te zanima, a kasnije se udubi u jednu temu.",
+ "sections": [
+  {
+   "h": "Osobnost i snage",
+   "p": "Blizancima vlada Merkur, planet komunikacije. Brzo misle, imaju humora i vole učiti. Budući da im je sve zanimljivo, ponekad je teško nešto dovršiti."
+  },
+  {
+   "h": "Ljubav i prijateljstvo",
+   "p": "U ljubavi je najvažniji dobar razgovor. Imaju mnogo prijatelja u raznim krugovima i lako nalaze riječi za osjećaje."
+  },
+  {
+   "h": "Posao i svakodnevica",
+   "p": "Na poslu im odgovaraju pisanje, govorenje, poučavanje i povezivanje ljudi. Raditi više stvari odjednom njihova je snaga. Popis im pomaže da se ne raspršuju."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Blíženci",
+ "slug": "gemini",
+ "period": "21. mája – 20. júna",
+ "element": "Vzduch",
+ "essence": "Zvedaví, zhovorčiví a spoločenskí. Blíženci milujú rozhovory a nových ľudí.",
+ "advice": "Zapisuj si, čo ťa zaujíma, a neskôr sa ponor do jednej témy.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Blížencov ovláda Merkúr, planéta komunikácie. Myslia rýchlo, majú humor a radi sa učia. Keďže ich zaujíma všetko, niekedy je ťažké niečo dokončiť."
+  },
+  {
+   "h": "Láska a priateľstvo",
+   "p": "V láske je najdôležitejší dobrý rozhovor. Majú veľa priateľov v rôznych kruhoch a ľahko nachádzajú slová pre city."
+  },
+  {
+   "h": "Práca a každodenný život",
+   "p": "V práci im sedí písanie, rozprávanie, učenie a spájanie ľudí. Robiť viac vecí naraz je ich sila. Zoznam im pomôže nerozptyľovať sa."
+  }
+ ]
+}

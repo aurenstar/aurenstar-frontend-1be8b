@@ -1,0 +1,22 @@
+{
+ "name": "Panna",
+ "slug": "virgo",
+ "period": "23. augusta – 22. septembra",
+ "element": "Zem",
+ "essence": "Svedomitá a pozorná. Panna si všíma detaily a rada pomáha.",
+ "advice": "Nežiadaj od seba dokonalosť. Večer si povedz: dnes to stačilo.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Pannu ovláda Merkúr. Dobre pozoruje, plánuje a je spoľahlivá. K sebe je prísna a ľahko sa strachuje."
+  },
+  {
+   "h": "Láska a priateľstvo",
+   "p": "V láske Panna prejavuje city skôr skutkami než veľkými slovami. Priatelia v nej vidia spoľahlivú poradkyňu. Pozerať sa na dobré stránky druhého vzťah odľahčuje."
+  },
+  {
+   "h": "Práca a každodenný život",
+   "p": "V práci vyniká v presnej práci, analýze, zdravotníctve a učení. Zoznam úloh ju upokojuje. Dobrá rada je plánovať si prestávky vopred."
+  }
+ ]
+}

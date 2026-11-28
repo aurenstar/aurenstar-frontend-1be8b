@@ -1,0 +1,22 @@
+{
+ "name": "Lleó",
+ "slug": "leo",
+ "period": "23 de juliol – 22 d’agost",
+ "element": "Foc",
+ "essence": "Generós, alegre i segur de si mateix. El Lleó brilla per ell mateix i il·lumina qualsevol lloc.",
+ "advice": "Valora també el teu esforç, no només el dels altres.",
+ "sections": [
+  {
+   "h": "Personalitat i punts forts",
+   "p": "El Lleó està regit pel Sol. És càlid, orgullós i li agrada ser al centre. Adora celebrar i animar els altres. Si l’ignoren, s’ofèn fàcilment."
+  },
+  {
+   "h": "Amor i amistat",
+   "p": "En l’amor, el Lleó mostra l’afecte amb generositat. Entre amics, fa riure tothom. Un afalac sincer li arriba al cor."
+  },
+  {
+   "h": "Feina i dia a dia",
+   "p": "A la feina, el Lleó brilla quan pot dirigir, presentar o crear. Al dia a dia, el temps per a les seves coses li retorna la confiança. Deixar l’escenari també als altres el fa encara més simpàtic."
+  }
+ ]
+}

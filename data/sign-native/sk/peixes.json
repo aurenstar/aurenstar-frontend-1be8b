@@ -1,0 +1,22 @@
+{
+ "name": "Ryby",
+ "slug": "pisces",
+ "period": "19. februára – 20. marca",
+ "element": "Voda",
+ "essence": "Citlivé a plné fantázie. Ryby súcitia s ostatnými a rady snívajú.",
+ "advice": "Keď ťa sny a skutočnosť unavujú, urob niečo pokojné s hudbou alebo v prírode.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Ryby ovládajú Jupiter a Neptún. Sú veľmi citlivé, cítia bolesť druhých a majú zmysel pre umenie a slová. Ľahko sa nechajú ovplyvniť a niekedy utekajú do snov."
+  },
+  {
+   "h": "Láska a priateľstvo",
+   "p": "V láske sú romantické a veľa dávajú. Priatelia si ich ceria ako dobrých poslucháčov. Prospeje im nedávať seba vždy na druhé miesto a povedať: „Chcem toto.“"
+  },
+  {
+   "h": "Práca a každodenný život",
+   "p": "V práci im sedí umenie, hudba, starostlivosť a pomáhajúce profesie. V bežnom dni pomáha voľné miesto v kalendári a dostatok spánku. Rozdeliť veľký sen na malé kroky z neho urobí skutočnosť."
+  }
+ ]
+}

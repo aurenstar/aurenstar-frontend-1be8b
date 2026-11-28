@@ -1,0 +1,22 @@
+{
+ "name": "Kos",
+ "slug": "aries",
+ "period": "március 21. – április 19.",
+ "element": "Tűz",
+ "essence": "Bátor, tele energiával és mindig kész kezdeni. A Kos lendületével magával ragad másokat.",
+ "advice": "Végy egy mély levegőt, mielőtt kapkodva cselekszel, és ünnepelj minden apró sikert.",
+ "sections": [
+  {
+   "h": "Személyiség és erősségek",
+   "p": "A Kost a Mars irányítja. Azonnal belevág, őszinte és gyorsan lelkesedik. Kihívása a türelmetlenség: néha túl hirtelen kezd és túl korán feladja."
+  },
+  {
+   "h": "Szerelem és barátság",
+   "p": "Szerelemben a Kos szenvedélyes és egyenes. A barátai között gyakran ő viszi magával a társaságot. Ha néha időt hagy a másiknak, a kapcsolat nyugodtabb lesz."
+  },
+  {
+   "h": "Munka és mindennapok",
+   "p": "A munkában a Kos új projektekben és gyors döntésekben ragyog. A mindennapokban a mozgás segít kitisztítani a fejét. Egyszerre egy dolgot befejezni a legjobb módja energiája kihasználásának."
+  }
+ ]
+}

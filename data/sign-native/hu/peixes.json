@@ -1,0 +1,22 @@
+{
+ "name": "Halak",
+ "slug": "pisces",
+ "period": "február 19. – március 20.",
+ "element": "Víz",
+ "essence": "Érzékeny és gazdag fantáziájú. A Halak együttéreznek másokkal, és szeretnek álmodozni.",
+ "advice": "Ha az álmok és a valóság elfárasztanak, tégy valami nyugodtat zenével vagy a természetben.",
+ "sections": [
+  {
+   "h": "Személyiség és erősségek",
+   "p": "A Halakat a Jupiter és a Neptunusz irányítja. Nagyon érzékenyek, megérzik mások fájdalmát, és érzékük van a művészethez és a szavakhoz. Könnyen befolyásolhatók, és néha álmodozásba menekülnek."
+  },
+  {
+   "h": "Szerelem és barátság",
+   "p": "Szerelemben romantikusak és sokat adnak. A barátok jó hallgatóként értékelik őket. Jót tesz nekik, ha nem mindig hátrébb sorolják magukat, és kimondják: „Ezt szeretném.”"
+  },
+  {
+   "h": "Munka és mindennapok",
+   "p": "A munkában a művészet, zene, ápolás és segítő hivatások illenek hozzájuk. A mindennapokban segít a szabad hely a naptárban és a elegendő alvás. Egy nagy álmot kis lépésekre bontva valósággá tehetnek."
+  }
+ ]
+}

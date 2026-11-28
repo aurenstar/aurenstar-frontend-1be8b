@@ -1,0 +1,22 @@
+{
+ "name": "Beran",
+ "slug": "aries",
+ "period": "21. března – 19. dubna",
+ "element": "Oheň",
+ "essence": "Odvážný, plný energie a vždy připravený začít. Beran strhává ostatní svým nasazením.",
+ "advice": "Zhluboka se nadechni, než začneš jednat ve spěchu, a oslav každý malý úspěch.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Berana vládne Mars. Pustí se do věcí hned, je upřímný a rychle se nadchne. Jeho výzvou je netrpělivost: někdy začne příliš ukvapeně a vzdá to příliš brzy."
+  },
+  {
+   "h": "Láska a přátelství",
+   "p": "V lásce je Beran vášnivý a přímý. Mezi přáteli bývá ten, kdo strhne skupinu. Když občas dopřeje druhému čas, vztah je klidnější."
+  },
+  {
+   "h": "Práce a každodenní život",
+   "p": "V práci Beran září u nových projektů a rychlých rozhodnutí. V každodenním životě mu pohyb pomáhá vyčistit hlavu. Dokončovat jednu věc po druhé nejlépe využije jeho energii."
+  }
+ ]
+}

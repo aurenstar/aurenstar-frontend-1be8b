@@ -1,0 +1,22 @@
+{
+ "name": "Kozorožec",
+ "slug": "capricorn",
+ "period": "22. decembra – 19. januára",
+ "element": "Zem",
+ "essence": "Zodpovedný a vytrvalý. Kozorožec stúpa k cieľom schod po schode.",
+ "advice": "Po ťažkej práci si vedome naplánuj voľný deň ako odmenu.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Kozorožca ovláda Saturn. Je spoľahlivý, dobre plánuje a časom si získa dôveru. Všetko berie veľmi vážne a ťažko púšťa."
+  },
+  {
+   "h": "Láska a priateľstvo",
+   "p": "V láske je opatrný, ale veľmi úprimný, keď sa raz rozhodne. Pre priateľov je skalou. Úprimné „ďakujem“ alebo „teším sa“ ho približuje k ľuďom."
+  },
+  {
+   "h": "Práca a každodenný život",
+   "p": "V práci mu sedí riadenie, plánovanie, financie a odborné povolania. V bežnom dni mu pomáha vedomý čas na smiech a záľuby."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "home": "Főoldal",
+ "read": "Cikk elolvasása",
+ "dict": "Szótár",
+ "contact": "Kapcsolat",
+ "tools": "Ingyenes eszközök",
+ "articles": "Cikkek",
+ "faq": "Gyakori kérdések",
+ "articlesAbout": "Cikkek erről a jegyről: {n}",
+ "cta": "Fedezd fel a jegyedet",
+ "facts": "Röviden",
+ "period": "Dátumok",
+ "element": "Elem",
+ "advice": "Egy egyszerű tipp",
+ "title": "{n}: személyiség, jellemzők és minden a csillagjegyről",
+ "desc": "{n} ({p}): {e} elemű csillagjegy. Személyiség, erősségek, szerelem és cikkek, hogy könnyen megértsd a jegyet: {n}.",
+ "qDates": "Milyen dátumok tartoznak a(z) {n} jegyhez?",
+ "qElement": "Melyik elemhez tartozik a(z) {n}?",
+ "qPersonality": "Milyen a(z) {n}?",
+ "qTip": "Mi segít a(z) {n} jegynek a mindennapokban?",
+ "aDates": "A(z) {n} jegy időszaka: {p}.",
+ "aElement": "A(z) {n} jegy eleme: {e}."
+}

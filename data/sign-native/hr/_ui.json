@@ -1,0 +1,23 @@
+{
+ "home": "Početna",
+ "read": "Pročitaj članak",
+ "dict": "Rječnik",
+ "contact": "Kontakt",
+ "tools": "Besplatni alati",
+ "articles": "Članci",
+ "faq": "Česta pitanja",
+ "articlesAbout": "Članci o znaku {n}",
+ "cta": "Otkrij svoj znak",
+ "facts": "Ukratko",
+ "period": "Datumi",
+ "element": "Element",
+ "advice": "Jednostavan savjet",
+ "title": "{n}: osobnost, osobine i sve o znaku zodijaka",
+ "desc": "{n} ({p}): znak elementa {e}. Osobnost, snage, ljubav i članci kako bi lako razumio znak {n}.",
+ "qDates": "Koji su datumi znaka {n}?",
+ "qElement": "Koji je element znaka {n}?",
+ "qPersonality": "Kakav je znak {n}?",
+ "qTip": "Što pomaže znaku {n} u svakodnevici?",
+ "aDates": "Znak {n} traje: {p}.",
+ "aElement": "Znak {n} pripada elementu: {e}."
+}

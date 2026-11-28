@@ -1,0 +1,22 @@
+{
+ "name": "Capricorn",
+ "slug": "capricorn",
+ "period": "22 de desembre – 19 de gener",
+ "element": "Terra",
+ "essence": "Responsable i constant. El Capricorn puja cap als seus objectius esglaó a esglaó.",
+ "advice": "Després d’un gran esforç, planifica un dia de descans com a premi.",
+ "sections": [
+  {
+   "h": "Personalitat i punts forts",
+   "p": "El Capricorn està regit per Saturn. És fiable, planifica bé i guanya confiança amb el temps. Es pren tot molt seriosament i li costa deixar anar."
+  },
+  {
+   "h": "Amor i amistat",
+   "p": "En l’amor és prudent, però molt sincer quan s’ha decidit. Per als amics és una roca. Un «gràcies» o un «m’alegro» sincer l’apropa als altres."
+  },
+  {
+   "h": "Feina i dia a dia",
+   "p": "A la feina li van la direcció, la planificació, les finances i els oficis especialitzats. Al dia a dia l’ajuda tenir temps conscient per riure i per a aficions."
+  }
+ ]
+}

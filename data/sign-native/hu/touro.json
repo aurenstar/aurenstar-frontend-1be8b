@@ -1,0 +1,22 @@
+{
+ "name": "Bika",
+ "slug": "taurus",
+ "period": "április 20. – május 20.",
+ "element": "Föld",
+ "essence": "Nyugodt, hűséges és szívélyes. A Bika szereti a kényelmet és az életre szóló barátságokat.",
+ "advice": "Szánj minden nap egy kis időt arra, amit igazán szeretsz.",
+ "sections": [
+  {
+   "h": "Személyiség és erősségek",
+   "p": "A Bikát a Vénusz irányítja. Türelmes, megbízható, és amit eltökél, azt végigviszi. A finom étel és a szép helyek boldoggá teszik. Makacssága néha útjában áll."
+  },
+  {
+   "h": "Szerelem és barátság",
+   "p": "Szerelemben a Bika lassan építi a bizalmat, utána nagyon hűséges. Barátságai gyakran évtizedekig tartanak. Az újdonságokat szívesen próbálja ki kis lépésekben."
+  },
+  {
+   "h": "Munka és mindennapok",
+   "p": "A munkában a Bika kitartásával győz meg, például pénzügyekben, kézművességben vagy gasztronómiában. A rendszeres szokások nyugalmat adnak neki."
+  }
+ ]
+}

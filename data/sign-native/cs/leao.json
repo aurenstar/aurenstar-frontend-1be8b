@@ -1,0 +1,22 @@
+{
+ "name": "Lev",
+ "slug": "leo",
+ "period": "23. července – 22. srpna",
+ "element": "Oheň",
+ "essence": "Štědrý, veselý a sebevědomý. Lev září sám od sebe a rozjasní každou místnost.",
+ "advice": "Važ si také vlastního úsilí, nejen úsilí druhých.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Lva vládne Slunce. Je vřelý, hrdý a rád je středem pozornosti. Miluje oslavy a povzbuzování druhých. Když ho přehlížejí, snadno se zraní."
+  },
+  {
+   "h": "Láska a přátelství",
+   "p": "V lásce Lev projevuje city štědře. Mezi přáteli rozesmívá všechny. Upřímná pochvala ho zasáhne přímo u srdce."
+  },
+  {
+   "h": "Práce a každodenní život",
+   "p": "V práci Lev září, když může vést, prezentovat nebo tvořit. V každodenním životě mu čas na oblíbené věci vrací sebevědomí. Přenechat jeviště i ostatním ho dělá ještě sympatičtějším."
+  }
+ ]
+}

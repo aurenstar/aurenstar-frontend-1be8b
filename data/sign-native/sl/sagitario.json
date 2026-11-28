@@ -1,0 +1,22 @@
+{
+ "name": "Strelec",
+ "slug": "sagittarius",
+ "period": "22. november – 21. december",
+ "element": "Ogenj",
+ "essence": "Vesel, svoboden in humoren. Strelec ljubi učenje in z drugimi deli svoje sanje.",
+ "advice": "Vsak dan dodaj majhno novo izkušnjo, vzbudi željo po več.",
+ "sections": [
+  {
+   "h": "Osebnost in prednosti",
+   "p": "Strelca vodi Jupiter. Je optimist in rad potuje, se uči in spoznava druge kulture. Pove, kar misli, včasih preveč neposredno, in druge preseneti."
+  },
+  {
+   "h": "Ljubezen in prijateljstvo",
+   "p": "V ljubezni potrebuje svobodo in nekoga za skupne dogodivščine. Med prijatelji prinaša smeh. Spoštovanje tempa drugega zvezo ohrani dolgo."
+  },
+  {
+   "h": "Služba in vsakdan",
+   "p": "V službi mu ustrezajo poučevanje, potovanja, založništvo in mednarodne naloge. Velik cilj, razdeljen na majhne dnevne korake, ga pelje naprej."
+  }
+ ]
+}

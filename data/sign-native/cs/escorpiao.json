@@ -1,0 +1,22 @@
+{
+ "name": "Štír",
+ "slug": "scorpio",
+ "period": "23. října – 21. listopadu",
+ "element": "Voda",
+ "essence": "Věrný, vášnivý a hluboký. Štír cítí, co si ostatní doopravdy myslí.",
+ "advice": "O potlačených citech mluv s někým, komu věříš, po troškách.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Štíra vládnou Pluto a Mars. Má silnou vůli a velkou výdrž. Co začne, to dokončí. Otevírá se pomalu a může být podezíravý."
+  },
+  {
+   "h": "Láska a přátelství",
+   "p": "V lásce miluje hluboce a věrně. Hledá skutečnou blízkost, ne povrchnost. Má málo přátel, ale velmi blízkých. Otevřený rozhovor buduje důvěru."
+  },
+  {
+   "h": "Práce a každodenní život",
+   "p": "V práci mu sedí výzkum, analýza a práce s lidmi v těžkých situacích. V každodenním životě potřebuje soustředění a pohyb, aby uvolnil napětí."
+  }
+ ]
+}

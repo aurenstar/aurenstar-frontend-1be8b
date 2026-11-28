@@ -1,0 +1,22 @@
+{
+ "name": "Vērsis",
+ "slug": "taurus",
+ "period": "20. aprīlis – 20. maijs",
+ "element": "Zeme",
+ "essence": "Mierīgs, uzticams un sirsnīgs. Vērsis mīl komfortu un draudzību uz mūžu.",
+ "advice": "Katru dienu atvēli nelielu brīdi kam tādam, kas tev tiešām patīk.",
+ "sections": [
+  {
+   "h": "Raksturs un stiprās puses",
+   "p": "Vērsi pārvalda Venera. Viņš ir pacietīgs, uzticams un pabeidz to, ko nolēmis. Gards ēdiens un skaistas vietas dara viņu laimīgu. Spītība dažreiz traucē."
+  },
+  {
+   "h": "Mīlestība un draudzība",
+   "p": "Mīlestībā Vērsis uzticību veido lēni un tad ir ļoti uzticīgs. Viņa draudzības bieži ilgst gadu desmitiem. Jaunumus viņš labāk izmēģina mazos soļos."
+  },
+  {
+   "h": "Darbs un ikdiena",
+   "p": "Darbā Vērsis pārliecina ar izturību, piemēram, finansēs, amatniecībā vai ēdināšanā. Stabili ieradumi ikdienā dod viņam mieru."
+  }
+ ]
+}

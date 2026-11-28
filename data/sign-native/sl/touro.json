@@ -1,0 +1,22 @@
+{
+ "name": "Bik",
+ "slug": "taurus",
+ "period": "20. april – 20. maj",
+ "element": "Zemlja",
+ "essence": "Miren, zvest in srčen. Bik ljubi udobje in prijateljstva za vse življenje.",
+ "advice": "Vsak dan si privošči malo časa za nekaj, kar resnično ljubiš.",
+ "sections": [
+  {
+   "h": "Osebnost in prednosti",
+   "p": "Bika vodi Venera. Je potrpežljiv, zanesljiv in dokonča, kar sklene. Dobra hrana in lepi kraji ga osrečujejo. Trdoglavost mu včasih stoji na poti."
+  },
+  {
+   "h": "Ljubezen in prijateljstvo",
+   "p": "V ljubezni Bik zaupanje gradi počasi, nato je zelo zvest. Njegova prijateljstva pogosto trajajo desetletja. Novosti najraje preizkuša z majhnimi koraki."
+  },
+  {
+   "h": "Služba in vsakdan",
+   "p": "V službi Bik prepriča z vztrajnostjo, na primer v financah, obrti ali gastronomiji. Stalne navade v vsakdanu mu dajejo mir."
+  }
+ ]
+}

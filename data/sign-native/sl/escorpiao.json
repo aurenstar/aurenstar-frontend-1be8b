@@ -1,0 +1,22 @@
+{
+ "name": "Škorpijon",
+ "slug": "scorpio",
+ "period": "23. oktober – 21. november",
+ "element": "Voda",
+ "essence": "Zvest, strasten in globok. Škorpijon začuti, kaj drugi res mislijo.",
+ "advice": "O zadržanih čustvih govori z nekom, ki mu zaupaš, po malem.",
+ "sections": [
+  {
+   "h": "Osebnost in prednosti",
+   "p": "Škorpijona vodita Pluton in Mars. Ima močno voljo in veliko vzdržljivosti. Kar začne, tudi dokonča. Odpira se počasi in lahko postane sumničav."
+  },
+  {
+   "h": "Ljubezen in prijateljstvo",
+   "p": "V ljubezni ljubi globoko in zvesto. Išče pravo bližino, ne površnosti. Prijateljev ima malo, a zelo tesnih. Odprt pogovor gradi zaupanje."
+  },
+  {
+   "h": "Služba in vsakdan",
+   "p": "V službi mu ustrezajo raziskovanje, analiza in delo z ljudmi v težkih položajih. V vsakdanu potrebuje zbranost in gibanje, da sprosti napetost."
+  }
+ ]
+}

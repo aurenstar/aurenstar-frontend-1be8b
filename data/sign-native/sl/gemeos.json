@@ -1,0 +1,22 @@
+{
+ "name": "Dvojčka",
+ "slug": "gemini",
+ "period": "21. maj – 20. junij",
+ "element": "Zrak",
+ "essence": "Radovedna, zgovorna in družabna. Dvojčka ljubita pogovore in nove ljudi.",
+ "advice": "Zapisuj si, kaj te zanima, in se pozneje poglobi v eno temo.",
+ "sections": [
+  {
+   "h": "Osebnost in prednosti",
+   "p": "Dvojčka vodi Merkur, planet sporazumevanja. Hitro mislita, imata smisel za humor in rada se učita. Ker ju zanima vse, jima je včasih težko kaj dokončati."
+  },
+  {
+   "h": "Ljubezen in prijateljstvo",
+   "p": "V ljubezni je najpomembnejši dober pogovor. Imata veliko prijateljev v različnih krogih in zlahka najdeta besede za čustva."
+  },
+  {
+   "h": "Služba in vsakdan",
+   "p": "V službi jima ustrezajo pisanje, govorjenje, poučevanje in povezovanje ljudi. Početi več stvari hkrati je njuna moč. Seznam jima pomaga, da se ne razdrobita."
+  }
+ ]
+}

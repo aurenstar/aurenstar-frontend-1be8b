@@ -1,0 +1,22 @@
+{
+ "name": "Vodenjak",
+ "slug": "aquarius",
+ "period": "20. siječnja – 18. veljače",
+ "element": "Zrak",
+ "essence": "Slobodan, originalan i human. Vodenjak misli drukčije i sanja o budućnosti.",
+ "advice": "Slobodno izgovori svoje neobične ideje, čak i ako nisu „normalne“.",
+ "sections": [
+  {
+   "h": "Osobnost i snage",
+   "p": "Vodenjakom vladaju Saturn i Uran. Neovisan je, pun novih ideja i želi jednakost za sve. Treba mu vremena nasamo pa ponekad djeluje distancirano."
+  },
+  {
+   "h": "Ljubav i prijateljstvo",
+   "p": "U ljubavi voli vezu kao između najboljih prijatelja, s prostorom za oboje. Prijatelji su mu iz različitih svjetova. Riječi o osjećajima daju drugoj strani sigurnost."
+  },
+  {
+   "h": "Posao i svakodnevica",
+   "p": "Na poslu blista u tehnici, istraživanju, društvenim projektima i dizajnu. Zapisuj što te zanima, kasnije će iz toga nastati dobre ideje."
+  }
+ ]
+}

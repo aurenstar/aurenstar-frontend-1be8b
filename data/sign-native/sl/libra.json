@@ -1,0 +1,22 @@
+{
+ "name": "Tehtnica",
+ "slug": "libra",
+ "period": "23. september – 22. oktober",
+ "element": "Zrak",
+ "essence": "Prijazna, uravnotežena in miroljubna. Tehtnica ljubi prijetno vzdušje in zna poslušati.",
+ "advice": "Ko se ne moreš odločiti, obdrži dve možnosti in vzemi tisto, ki se ti je najprej zdela dobra.",
+ "sections": [
+  {
+   "h": "Osebnost in prednosti",
+   "p": "Tehtnico vodi Venera. Je diplomatska, pravična in vidi obe plati stvari. Lepota in sožitje sta ji pomembna. Odločanje je težko in včasih reče da, čeprav misli ne."
+  },
+  {
+   "h": "Ljubezen in prijateljstvo",
+   "p": "V ljubezni je Tehtnica romantična in si želi enakovredne zveze. Med prijatelji posreduje v sporih. Dobro se ujame z ljudmi, ki jasno povedo, kaj potrebujejo."
+  },
+  {
+   "h": "Služba in vsakdan",
+   "p": "V službi Tehtnica blesti v timu, pri pogajanjih, oblikovanju in svetovanju. Pod pritiskom slabše razmišlja. Majhni dnevni cilji prihranijo čas za premišljevanje."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Skorpió",
+ "slug": "scorpio",
+ "period": "október 23. – november 21.",
+ "element": "Víz",
+ "essence": "Hűséges, szenvedélyes és mély. A Skorpió megérzi, mit gondolnak valójában mások.",
+ "advice": "A visszatartott érzésekről beszélj valakivel, akiben bízol, apránként.",
+ "sections": [
+  {
+   "h": "Személyiség és erősségek",
+   "p": "A Skorpiót a Plútó és a Mars irányítja. Erős akaratú és kitartó. Amit elkezd, azt befejezi. Lassan nyílik meg, és gyanakvóvá válhat."
+  },
+  {
+   "h": "Szerelem és barátság",
+   "p": "Szerelemben mélyen és hűségesen szeret. Valódi közelséget keres, nem felszínességet. Kevés barátja van, de nagyon közeliek. A nyílt beszéd bizalmat épít."
+  },
+  {
+   "h": "Munka és mindennapok",
+   "p": "A munkában a kutatás, az elemzés és a nehéz helyzetben lévő emberekkel való munka illik hozzá. A mindennapokban koncentrációra és mozgásra van szüksége, hogy feloldja a feszültséget."
+  }
+ ]
+}

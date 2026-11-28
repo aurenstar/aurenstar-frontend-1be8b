@@ -1,0 +1,22 @@
+{
+ "name": "Kozoroh",
+ "slug": "capricorn",
+ "period": "22. prosince – 19. ledna",
+ "element": "Země",
+ "essence": "Zodpovědný a vytrvalý. Kozoroh stoupá ke svým cílům schod po schodu.",
+ "advice": "Po těžké práci si vědomě naplánuj volný den jako odměnu.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Kozoroha vládne Saturn. Je spolehlivý, dobře plánuje a časem si získává důvěru. Bere všechno velmi vážně a těžko pouští."
+  },
+  {
+   "h": "Láska a přátelství",
+   "p": "V lásce je opatrný, ale po rozhodnutí velmi upřímný. Pro přátele je skálou. Upřímné „děkuji“ nebo „mám radost“ ho přibližuje lidem."
+  },
+  {
+   "h": "Práce a každodenní život",
+   "p": "V práci mu sedí vedení, plánování, finance a odborná povolání. V každodenním životě mu pomáhá vědomý čas na smích a koníčky."
+  }
+ ]
+}

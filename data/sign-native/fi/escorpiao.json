@@ -1,0 +1,22 @@
+{
+ "name": "Skorpioni",
+ "slug": "scorpio",
+ "period": "23. lokakuuta – 21. marraskuuta",
+ "element": "Vesi",
+ "essence": "Uskollinen, intohimoinen ja syvä. Skorpioni aistii, mitä muut oikeasti ajattelevat.",
+ "advice": "Puhu pidätetyistä tunteista jollekulle, johon luotat, vähän kerrallaan.",
+ "sections": [
+  {
+   "h": "Persoonallisuus ja vahvuudet",
+   "p": "Skorpionia hallitsevat Pluto ja Mars. Sillä on vahva tahto ja paljon kestävyyttä. Minkä se aloittaa, sen se päättää. Se avautuu hitaasti ja voi muuttua epäluuloiseksi."
+  },
+  {
+   "h": "Rakkaus ja ystävyys",
+   "p": "Rakkaudessa se rakastaa syvästi ja uskollisesti. Se etsii todellista läheisyyttä eikä pinnallisuutta. Ystäviä on vähän, mutta hyvin läheisiä. Avoin puhe rakentaa luottamusta."
+  },
+  {
+   "h": "Työ ja arki",
+   "p": "Työssä sille sopivat tutkimus, analyysi ja työ vaikeissa tilanteissa olevien ihmisten kanssa. Arjessa se tarvitsee keskittymistä ja liikuntaa jännityksen purkamiseen."
+  }
+ ]
+}

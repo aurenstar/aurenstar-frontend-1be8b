@@ -1,0 +1,22 @@
+{
+ "name": "Kauris",
+ "slug": "capricorn",
+ "period": "22. joulukuuta – 19. tammikuuta",
+ "element": "Maa",
+ "essence": "Vastuullinen ja sinnikäs. Kauris nousee tavoitteisiinsa askel kerrallaan.",
+ "advice": "Suunnittele kovan työn jälkeen tietoisesti vapaapäivä palkinnoksi.",
+ "sections": [
+  {
+   "h": "Persoonallisuus ja vahvuudet",
+   "p": "Kaurista hallitsee Saturnus. Se on luotettava, suunnittelee hyvin ja ansaitsee luottamuksen ajan myötä. Se ottaa kaiken hyvin vakavasti ja päästää vaikeasti irti."
+  },
+  {
+   "h": "Rakkaus ja ystävyys",
+   "p": "Rakkaudessa se on varovainen mutta hyvin vilpitön päätettyään. Ystäville se on kallio. Vilpitön ”kiitos” tai ”olen iloinen” tuo sen lähemmäs muita."
+  },
+  {
+   "h": "Työ ja arki",
+   "p": "Työssä sille sopivat johtaminen, suunnittelu, talous ja asiantuntijatyöt. Arjessa auttaa tietoisesti varattu aika nauruun ja harrastuksiin."
+  }
+ ]
+}

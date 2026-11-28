@@ -1,0 +1,22 @@
+{
+ "name": "Sagitari",
+ "slug": "sagittarius",
+ "period": "22 de novembre – 21 de desembre",
+ "element": "Foc",
+ "essence": "Alegre, lliure i amb molt humor. El Sagitari estima aprendre i encomana els seus somnis als altres.",
+ "advice": "Afegeix cada dia una petita experiència nova, fa venir ganes de més.",
+ "sections": [
+  {
+   "h": "Personalitat i punts forts",
+   "p": "El Sagitari està regit per Júpiter. És optimista i estima viatjar, aprendre i conèixer altres cultures. Diu el que pensa, de vegades massa directament, i sorprèn els altres."
+  },
+  {
+   "h": "Amor i amistat",
+   "p": "En l’amor necessita llibertat i algú amb qui compartir aventures. Entre amics porta rialles. Respectar el ritme de l’altre fa que la relació duri."
+  },
+  {
+   "h": "Feina i dia a dia",
+   "p": "A la feina li van l’ensenyament, els viatges, l’edició i les tasques internacionals. Un gran objectiu dividit en petits passos diaris el fa avançar."
+  }
+ ]
+}

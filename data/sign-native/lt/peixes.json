@@ -1,0 +1,22 @@
+{
+ "name": "Žuvys",
+ "slug": "pisces",
+ "period": "vasario 19 – kovo 20",
+ "element": "Vanduo",
+ "essence": "Jautrios ir turinčios vaizduotę. Žuvys užjaučia kitus ir mėgsta svajoti.",
+ "advice": "Jei svajonės ir realybė vargina, daryk ką nors ramaus su muzika ar gamtoje.",
+ "sections": [
+  {
+   "h": "Charakteris ir stiprybės",
+   "p": "Žuvims vadovauja Jupiteris ir Neptūnas. Jos labai jautrios, junta kitų skausmą ir turi jausmą menui bei žodžiams. Jas lengva paveikti, ir kartais jos pabėga į svajones."
+  },
+  {
+   "h": "Meilė ir draugystė",
+   "p": "Meilėje jos romantiškos ir daug duoda. Draugai vertina jas kaip gerus klausytojus. Joms naudinga ne visada save nustumti į antrą planą ir pasakyti: „Noriu to.“"
+  },
+  {
+   "h": "Darbas ir kasdienybė",
+   "p": "Darbe joms tinka menas, muzika, slauga ir pagalbos profesijos. Kasdien padeda laisvos vietos kalendoriuje ir pakankamai miego. Didelę svajonę padalijus į mažus žingsnius ji tampa tikra."
+  }
+ ]
+}

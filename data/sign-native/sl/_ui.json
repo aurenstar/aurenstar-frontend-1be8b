@@ -1,0 +1,23 @@
+{
+ "home": "Domov",
+ "read": "Preberi članek",
+ "dict": "Slovar",
+ "contact": "Stik",
+ "tools": "Brezplačna orodja",
+ "articles": "Članki",
+ "faq": "Pogosta vprašanja",
+ "articlesAbout": "Članki o znamenju {n}",
+ "cta": "Odkrij svoje znamenje",
+ "facts": "Na kratko",
+ "period": "Datumi",
+ "element": "Element",
+ "advice": "Preprost nasvet",
+ "title": "{n}: osebnost, lastnosti in vse o znamenju zodiaka",
+ "desc": "{n} ({p}): znamenje elementa {e}. Osebnost, prednosti, ljubezen in članki, da zlahka razumeš znamenje {n}.",
+ "qDates": "Kateri so datumi znamenja {n}?",
+ "qElement": "Kateri element ima znamenje {n}?",
+ "qPersonality": "Kakšno je znamenje {n}?",
+ "qTip": "Kaj pomaga znamenju {n} vsak dan?",
+ "aDates": "Znamenje {n} traja: {p}.",
+ "aElement": "Znamenje {n} spada k elementu: {e}."
+}

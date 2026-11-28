@@ -1,0 +1,22 @@
+{
+ "name": "Djevica",
+ "slug": "virgo",
+ "period": "23. kolovoza – 22. rujna",
+ "element": "Zemlja",
+ "essence": "Savjesna i pažljiva. Djevica primjećuje detalje i rado pomaže.",
+ "advice": "Ne traži od sebe savršenstvo. Navečer si reci: danas je bilo dovoljno.",
+ "sections": [
+  {
+   "h": "Osobnost i snage",
+   "p": "Djevicom vlada Merkur. Dobro promatra, planira i pouzdana je. Stroga je prema sebi i lako se brine."
+  },
+  {
+   "h": "Ljubav i prijateljstvo",
+   "p": "U ljubavi Djevica naklonost pokazuje više djelima nego velikim riječima. Prijatelji je vide kao pouzdanu savjetnicu. Gledanje na dobro u drugome olakšava vezu."
+  },
+  {
+   "h": "Posao i svakodnevica",
+   "p": "Na poslu se ističe preciznim radom, analizom, zdravstvom i poučavanjem. Popis zadataka je smiruje. Dobar je savjet unaprijed planirati stanke."
+  }
+ ]
+}

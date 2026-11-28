@@ -1,0 +1,22 @@
+{
+ "name": "Rapu",
+ "slug": "cancer",
+ "period": "21. kesäkuuta – 22. heinäkuuta",
+ "element": "Vesi",
+ "essence": "Huolehtiva ja lämmin. Rapu suojelee perhettä ja ystäviä ja on vahvempi kuin miltä näyttää.",
+ "advice": "Lepää paikassa, jossa tunnet olosi turvalliseksi.",
+ "sections": [
+  {
+   "h": "Persoonallisuus ja vahvuudet",
+   "p": "Rapua hallitsee Kuu. Se aistii heti toisten tunteet ja pitää huolta mielellään. Se on herkkä ja vetäytyy joskus kuoreensa."
+  },
+  {
+   "h": "Rakkaus ja ystävyys",
+   "p": "Rakkaudessa Rapu etsii turvaa ja rakentaa sitä askel askeleelta. Ystäville se luo lämpimän kodin. Tunteiden sanominen niiden kasaamisen sijaan pitää suhteet terveinä."
+  },
+  {
+   "h": "Työ ja arki",
+   "p": "Työssä sille sopivat auttamisammatit, kuten hoiva, kasvatus ja ravintola-ala. Viihtyisä koti lataa sen voimat."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Skorpions",
+ "slug": "scorpio",
+ "period": "23. oktobris – 21. novembris",
+ "element": "Ūdens",
+ "essence": "Uzticīgs, kaislīgs un dziļš. Skorpions izjūt, ko citi patiesībā domā.",
+ "advice": "Par apspiestajām jūtām runā ar kādu, kam uzticies, pamazām.",
+ "sections": [
+  {
+   "h": "Raksturs un stiprās puses",
+   "p": "Skorpionu pārvalda Plutons un Marss. Viņam ir stipra griba un liela izturība. Ko sāk, to pabeidz. Viņš atveras lēni un var kļūt aizdomīgs."
+  },
+  {
+   "h": "Mīlestība un draudzība",
+   "p": "Mīlestībā viņš mīl dziļi un uzticīgi. Meklē īstu tuvību, nevis virspusību. Draugu viņam ir maz, bet ļoti tuvi. Atklāta saruna veido uzticību."
+  },
+  {
+   "h": "Darbs un ikdiena",
+   "p": "Darbā viņam der pētniecība, analīze un darbs ar cilvēkiem grūtās situācijās. Ikdienā viņam vajadzīga koncentrēšanās un kustība, lai atbrīvotu spriedzi."
+  }
+ ]
+}

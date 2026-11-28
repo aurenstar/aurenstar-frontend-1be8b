@@ -1,0 +1,22 @@
+{
+ "name": "Ribi",
+ "slug": "pisces",
+ "period": "19. februar – 20. marec",
+ "element": "Voda",
+ "essence": "Občutljivi in polni domišljije. Ribi čutita z drugimi in rada sanjarita.",
+ "advice": "Če te sanje in resničnost utrujajo, naredi kaj mirnega z glasbo ali v naravi.",
+ "sections": [
+  {
+   "h": "Osebnost in prednosti",
+   "p": "Ribi vodita Jupiter in Neptun. Sta zelo občutljivi, začutita bolečino drugih in imata smisel za umetnost in besede. Zlahka se prepustita vplivu in včasih zbežita v sanje."
+  },
+  {
+   "h": "Ljubezen in prijateljstvo",
+   "p": "V ljubezni sta romantični in veliko dajeta. Prijatelji ju cenijo kot dobra poslušalca. Dobro jima dene, če ne postavljata sebe vedno na drugo mesto in rečeta: „To si želim.“"
+  },
+  {
+   "h": "Služba in vsakdan",
+   "p": "V službi jima ustrezajo umetnost, glasba, nega in pomagajoči poklici. V vsakdanu pomaga prosto v urniku in dovolj spanja. Razdelitev velikih sanj na majhne korake jih naredi resnične."
+  }
+ ]
+}

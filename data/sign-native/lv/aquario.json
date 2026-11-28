@@ -1,0 +1,22 @@
+{
+ "name": "Ūdensvīrs",
+ "slug": "aquarius",
+ "period": "20. janvāris – 18. februāris",
+ "element": "Gaiss",
+ "essence": "Brīvs, oriģināls un cilvēcīgs. Ūdensvīrs domā citādi un sapņo par nākotni.",
+ "advice": "Droši saki savas neparastās idejas, pat ja tās nav „normālas”.",
+ "sections": [
+  {
+   "h": "Raksturs un stiprās puses",
+   "p": "Ūdensvīru pārvalda Saturns un Urāns. Viņš ir patstāvīgs, pilns jaunu ideju un vēlas vienlīdzību visiem. Viņam vajadzīgs laiks pašam, tāpēc dažreiz šķiet atturīgs."
+  },
+  {
+   "h": "Mīlestība un draudzība",
+   "p": "Mīlestībā viņam patīk attiecības kā starp labākajiem draugiem, ar vietu abiem. Viņa draugi nāk no dažādām pasaulēm. Jūtu izteikšana vārdos dod otram drošību."
+  },
+  {
+   "h": "Darbs un ikdiena",
+   "p": "Darbā viņš mirdz tehnikā, pētniecībā, sociālos projektos un dizainā. Pieraksti to, kas rada ziņkāri, vēlāk no tā rodas labas idejas."
+  }
+ ]
+}

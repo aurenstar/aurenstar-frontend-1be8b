@@ -1,0 +1,23 @@
+{
+ "home": "Avaleht",
+ "read": "Loe artiklit",
+ "dict": "Sõnastik",
+ "contact": "Kontakt",
+ "tools": "Tasuta tööriistad",
+ "articles": "Artiklid",
+ "faq": "Korduma kippuvad küsimused",
+ "articlesAbout": "Artiklid tähtkuju {n} kohta",
+ "cta": "Leia oma tähtkuju",
+ "facts": "Lühidalt",
+ "period": "Kuupäevad",
+ "element": "Element",
+ "advice": "Lihtne nipp",
+ "title": "{n}: iseloom, omadused ja kõik tähtkuju kohta",
+ "desc": "{n} ({p}): elemendi {e} tähtkuju. Iseloom, tugevused, armastus ja artiklid, et mõista tähtkuju {n} lihtsalt.",
+ "qDates": "Millised on tähtkuju {n} kuupäevad?",
+ "qElement": "Mis element on {n}?",
+ "qPersonality": "Milline on {n}?",
+ "qTip": "Mis aitab tähtkuju {n} igapäevaselt?",
+ "aDates": "Tähtkuju {n} kestab: {p}.",
+ "aElement": "Tähtkuju {n} kuulub elementi: {e}."
+}

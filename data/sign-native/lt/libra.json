@@ -1,0 +1,22 @@
+{
+ "name": "Svarstyklės",
+ "slug": "libra",
+ "period": "rugsėjo 23 – spalio 22",
+ "element": "Oras",
+ "essence": "Draugiškos, subalansuotos ir taikios. Svarstyklės mėgsta malonią atmosferą ir moka klausytis.",
+ "advice": "Kai negali pasirinkti, palik du variantus ir imk tą, kuris pirmas pasirodė geras.",
+ "sections": [
+  {
+   "h": "Charakteris ir stiprybės",
+   "p": "Svarstyklėms vadovauja Venera. Jos diplomatiškos, teisingos ir mato abi reikalo puses. Grožis ir harmonija joms svarbūs. Sunku apsispręsti, ir kartais jos pasako taip, nors galvoja ne."
+  },
+  {
+   "h": "Meilė ir draugystė",
+   "p": "Meilėje Svarstyklės romantiškos ir nori lygiaverčių santykių. Tarp draugų taiko besiginčijančius. Gerai sutaria su žmonėmis, kurie aiškiai pasako, ko reikia."
+  },
+  {
+   "h": "Darbas ir kasdienybė",
+   "p": "Darbe Svarstyklės spindi komandoje, derybose, dizaine ir konsultavime. Esant spaudimui mąsto prasčiau. Maži dienos tikslai taupo laiką, skirtą svarstymams."
+  }
+ ]
+}

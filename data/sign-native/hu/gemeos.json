@@ -1,0 +1,22 @@
+{
+ "name": "Ikrek",
+ "slug": "gemini",
+ "period": "május 21. – június 20.",
+ "element": "Levegő",
+ "essence": "Kíváncsi, beszédes és társaságkedvelő. Az Ikrek szeretik a beszélgetést és az új embereket.",
+ "advice": "Írd fel, mi érdekel, és később mélyedj el egyetlen témában.",
+ "sections": [
+  {
+   "h": "Személyiség és erősségek",
+   "p": "Az Ikreket a Merkúr, a kommunikáció bolygója irányítja. Gyorsan gondolkodnak, van humoruk és szeretnek tanulni. Mivel minden érdekli őket, néha nehéz valamit befejezni."
+  },
+  {
+   "h": "Szerelem és barátság",
+   "p": "Szerelemben a jó beszélgetés számít a legtöbbet. Sok barátjuk van különböző körökben, és könnyen találnak szavakat az érzelmekre."
+  },
+  {
+   "h": "Munka és mindennapok",
+   "p": "A munkában az írás, beszéd, tanítás és az emberek összekapcsolása illik hozzájuk. Egyszerre több dolgot csinálni az erősségük. Egy lista segít, hogy ne szóródjanak szét."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Vesimies",
+ "slug": "aquarius",
+ "period": "20. tammikuuta – 18. helmikuuta",
+ "element": "Ilma",
+ "essence": "Vapaa, omaperäinen ja ihmisläheinen. Vesimies ajattelee toisin ja haaveilee tulevaisuudesta.",
+ "advice": "Sano rohkeasti epätavalliset ideasi, vaikka ne eivät olisi ”normaaleja”.",
+ "sections": [
+  {
+   "h": "Persoonallisuus ja vahvuudet",
+   "p": "Vesimiestä hallitsevat Saturnus ja Uranus. Hän on itsenäinen, täynnä uusia ideoita ja haluaa tasa-arvoa kaikille. Hän tarvitsee aikaa itselleen ja vaikuttaa siksi joskus etäiseltä."
+  },
+  {
+   "h": "Rakkaus ja ystävyys",
+   "p": "Rakkaudessa hän pitää suhteesta, joka on kuin parhaiden ystävien välillä, ja jossa on tilaa kummallekin. Hänen ystävänsä tulevat eri maailmoista. Tunteiden sanominen sanoin antaa toiselle varmuutta."
+  },
+  {
+   "h": "Työ ja arki",
+   "p": "Työssä hän loistaa tekniikassa, tutkimuksessa, yhteiskunnallisissa hankkeissa ja suunnittelussa. Kirjoita muistiin, mikä herättää uteliaisuutesi, siitä syntyy myöhemmin hyviä ideoita."
+  }
+ ]
+}

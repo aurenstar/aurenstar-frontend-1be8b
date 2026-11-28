@@ -1,0 +1,22 @@
+{
+ "name": "Lev",
+ "slug": "leo",
+ "period": "23. julij – 22. avgust",
+ "element": "Ogenj",
+ "essence": "Radodaren, vesel in samozavesten. Lev sije sam od sebe in razsvetli vsak prostor.",
+ "advice": "Cenii tudi svoj trud, ne le tujega.",
+ "sections": [
+  {
+   "h": "Osebnost in prednosti",
+   "p": "Leva vodi Sonce. Je topel, ponosen in rad je v središču. Obožuje praznovanja in spodbujanje drugih. Če ga spregledajo, se hitro užali."
+  },
+  {
+   "h": "Ljubezen in prijateljstvo",
+   "p": "V ljubezni Lev radodarno kaže naklonjenost. Med prijatelji nasmeje vse. Iskren kompliment ga zadene naravnost v srce."
+  },
+  {
+   "h": "Služba in vsakdan",
+   "p": "V službi Lev blesti, ko lahko vodi, predstavlja ali ustvarja. V vsakdanu mu čas za najljubše stvari vrne samozavest. Če odrski prostor prepusti tudi drugim, je še bolj simpatičen."
+  }
+ ]
+}

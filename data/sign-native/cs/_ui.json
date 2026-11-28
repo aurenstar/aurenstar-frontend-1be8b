@@ -1,0 +1,23 @@
+{
+ "home": "Domů",
+ "read": "Číst článek",
+ "dict": "Slovník",
+ "contact": "Kontakt",
+ "tools": "Nástroje zdarma",
+ "articles": "Články",
+ "faq": "Časté dotazy",
+ "articlesAbout": "Články o znamení: {n}",
+ "cta": "Objev své znamení",
+ "facts": "Stručně",
+ "period": "Data",
+ "element": "Živel",
+ "advice": "Jednoduchá rada",
+ "title": "{n}: povaha, vlastnosti a vše o znamení zvěrokruhu",
+ "desc": "{n} ({p}): znamení živlu {e}. Povaha, silné stránky, láska a články, díky nimž snadno pochopíš znamení: {n}.",
+ "qDates": "Jaká jsou data znamení {n}?",
+ "qElement": "Jaký živel má znamení {n}?",
+ "qPersonality": "Jaké je znamení {n}?",
+ "qTip": "Co pomáhá znamení {n} v každodenním životě?",
+ "aDates": "Znamení {n} trvá: {p}.",
+ "aElement": "Znamení {n} patří k živlu: {e}."
+}

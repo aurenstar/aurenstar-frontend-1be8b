@@ -1,0 +1,22 @@
+{
+ "name": "Blíženci",
+ "slug": "gemini",
+ "period": "21. května – 20. června",
+ "element": "Vzduch",
+ "essence": "Zvídaví, hovorní a společenští. Blíženci milují rozhovory a nové lidi.",
+ "advice": "Piš si, co tě zajímá, a později se ponoř do jednoho tématu.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Blížence vládne Merkur, planeta komunikace. Myslí rychle, mají smysl pro humor a rádi se učí. Protože je zajímá všechno, bývá těžké něco dokončit."
+  },
+  {
+   "h": "Láska a přátelství",
+   "p": "V lásce je nejdůležitější dobrý rozhovor. Mají mnoho přátel v různých kruzích a snadno nacházejí slova pro city."
+  },
+  {
+   "h": "Práce a každodenní život",
+   "p": "V práci jim sedí psaní, mluvení, učení a spojování lidí. Dělat víc věcí najednou je jejich síla. Seznam jim pomůže nerozptylovat se."
+  }
+ ]
+}

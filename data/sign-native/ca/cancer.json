@@ -1,0 +1,22 @@
+{
+ "name": "Cranc",
+ "slug": "cancer",
+ "period": "21 de juny – 22 de juliol",
+ "element": "Aigua",
+ "essence": "Atent i afectuós. El Cranc protegeix la família i els amics i és més fort del que sembla.",
+ "advice": "Descansa en un lloc on et sentis segur.",
+ "sections": [
+  {
+   "h": "Personalitat i punts forts",
+   "p": "El Cranc està regit per la Lluna. Nota de seguida les emocions dels altres i li agrada cuidar. És sensible i de vegades es tanca a la seva closca."
+  },
+  {
+   "h": "Amor i amistat",
+   "p": "En l’amor, el Cranc busca seguretat i la construeix pas a pas. Per als amics crea una llar càlida. Dir els sentiments en lloc de guardar-los fa que les relacions durin."
+  },
+  {
+   "h": "Feina i dia a dia",
+   "p": "A la feina, li van bé les professions d’ajuda, com la cura, l’educació o la restauració. Una casa acollidora li recarrega les forces."
+  }
+ ]
+}

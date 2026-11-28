@@ -1,0 +1,22 @@
+{
+ "name": "Verge",
+ "slug": "virgo",
+ "period": "23 d’agost – 22 de setembre",
+ "element": "Terra",
+ "essence": "Responsable i atenta. La Verge es fixa en els detalls i li agrada ajudar.",
+ "advice": "No et demanis la perfecció. Digues-te al vespre: avui ha estat prou.",
+ "sections": [
+  {
+   "h": "Personalitat i punts forts",
+   "p": "La Verge està regida per Mercuri. Observa bé, planifica i és de confiança. És severa amb ella mateixa i es preocupa fàcilment."
+  },
+  {
+   "h": "Amor i amistat",
+   "p": "En l’amor, la Verge mostra l’afecte més amb fets que amb paraules grans. Els amics la veuen com una conselleria de confiança. Mirar el costat bo de l’altre fa la relació més lleugera."
+  },
+  {
+   "h": "Feina i dia a dia",
+   "p": "A la feina excel·leix en el treball precís, l’anàlisi, la salut i l’ensenyament. Una llista de tasques la tranquil·litza. Un bon consell és planificar les pauses per endavant."
+  }
+ ]
+}

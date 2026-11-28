@@ -1,0 +1,22 @@
+{
+ "name": "Peixos",
+ "slug": "pisces",
+ "period": "19 de febrer – 20 de març",
+ "element": "Aigua",
+ "essence": "Sensibles i amb molta imaginació. Els Peixos senten amb els altres i els agrada somiar.",
+ "advice": "Si el somni i la realitat et cansen, fes alguna cosa tranquil·la amb música o a la natura.",
+ "sections": [
+  {
+   "h": "Personalitat i punts forts",
+   "p": "Els Peixos estan regits per Júpiter i Neptú. Són molt sensibles, noten el dolor dels altres i tenen sentit de l’art i de les paraules. Es deixen influir fàcilment i de vegades s’escapen cap als somnis."
+  },
+  {
+   "h": "Amor i amistat",
+   "p": "En l’amor són romàntics i donen molt. Els amics els valoren com a bons oients. Els va bé no posar-se sempre en segon lloc i dir: «Vull això»."
+  },
+  {
+   "h": "Feina i dia a dia",
+   "p": "A la feina els van l’art, la música, la cura i les professions d’ajuda. Al dia a dia ajuden els marges a l’agenda i dormir prou. Dividir un gran somni en passos petits el fa real."
+  }
+ ]
+}

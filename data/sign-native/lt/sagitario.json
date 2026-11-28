@@ -1,0 +1,22 @@
+{
+ "name": "Šaulys",
+ "slug": "sagittarius",
+ "period": "lapkričio 22 – gruodžio 21",
+ "element": "Ugnis",
+ "essence": "Linksmas, laisvas ir turintis humoro. Šaulys mėgsta mokytis ir užkrečia kitus savo svajonėmis.",
+ "advice": "Kasdien pridėk po mažą naują patirtį, tai žadina norą daugiau.",
+ "sections": [
+  {
+   "h": "Charakteris ir stiprybės",
+   "p": "Šauliui vadovauja Jupiteris. Jis optimistas, mėgsta keliauti, mokytis ir pažinti kitas kultūras. Sako, ką galvoja, kartais per tiesiai, ir nustebina kitus."
+  },
+  {
+   "h": "Meilė ir draugystė",
+   "p": "Meilėje jam reikia laisvės ir žmogaus, su kuriuo dalytųsi nuotykiais. Tarp draugų atneša juoko. Kito tempo gerbimas padeda santykiams trukti ilgai."
+  },
+  {
+   "h": "Darbas ir kasdienybė",
+   "p": "Darbe jam tinka mokymas, kelionės, leidyba ir tarptautinės užduotys. Didelis tikslas, suskaidytas į mažus kasdienius žingsnius, veda jį pirmyn."
+  }
+ ]
+}

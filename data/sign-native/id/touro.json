@@ -1,0 +1,22 @@
+{
+ "name": "Taurus",
+ "slug": "taurus",
+ "period": "20 April – 20 Mei",
+ "element": "Tanah",
+ "essence": "Tenang, setia, dan hangat. Taurus menyukai kenyamanan dan persahabatan seumur hidup.",
+ "advice": "Sisihkan sedikit waktu setiap hari untuk hal yang benar-benar kamu sukai.",
+ "sections": [
+  {
+   "h": "Kepribadian dan kekuatan",
+   "p": "Taurus dipimpin oleh Venus. Ia sabar, bisa dipercaya, dan menuntaskan apa yang diputuskan. Makanan enak dan tempat indah membuatnya bahagia. Keras kepalanya kadang jadi penghalang."
+  },
+  {
+   "h": "Cinta dan persahabatan",
+   "p": "Dalam cinta, Taurus membangun kepercayaan perlahan lalu sangat setia. Persahabatannya sering bertahan puluhan tahun. Ia lebih suka mencoba hal baru lewat langkah kecil."
+  },
+  {
+   "h": "Pekerjaan dan keseharian",
+   "p": "Di pekerjaan, Taurus meyakinkan lewat ketekunan, misalnya di keuangan, kerajinan, atau kuliner. Kebiasaan yang teratur memberinya ketenangan."
+  }
+ ]
+}

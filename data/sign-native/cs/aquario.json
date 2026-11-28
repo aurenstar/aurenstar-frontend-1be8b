@@ -1,0 +1,22 @@
+{
+ "name": "Vodnář",
+ "slug": "aquarius",
+ "period": "20. ledna – 18. února",
+ "element": "Vzduch",
+ "essence": "Svobodný, originální a lidumilný. Vodnář myslí jinak a sní o budoucnosti.",
+ "advice": "Své neobvyklé nápady klidně řekni nahlas, i když nejsou „normální“.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Vodnáře vládnou Saturn a Uran. Je nezávislý, plný nových nápadů a chce rovnost pro všechny. Potřebuje čas pro sebe, a proto někdy působí odtažitě."
+  },
+  {
+   "h": "Láska a přátelství",
+   "p": "V lásce má rád vztah jako mezi nejlepšími přáteli, s prostorem pro oba. Jeho přátelé pocházejí z různých světů. Říkat city slovy dává druhému jistotu."
+  },
+  {
+   "h": "Práce a každodenní život",
+   "p": "V práci září v technice, výzkumu, sociálních projektech a designu. Zapisuj si, co tě zajímá, později z toho vzejdou dobré nápady."
+  }
+ ]
+}

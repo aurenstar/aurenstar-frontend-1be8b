@@ -1,0 +1,22 @@
+{
+ "name": "Balança",
+ "slug": "libra",
+ "period": "23 de setembre – 22 d’octubre",
+ "element": "Aire",
+ "essence": "Amable, equilibrada i amant de la pau. La Balança estima l’ambient agradable i sap escoltar.",
+ "advice": "Quan no pots triar, queda’t amb dues opcions i agafa la que et sembli bona primer.",
+ "sections": [
+  {
+   "h": "Personalitat i punts forts",
+   "p": "La Balança està regida per Venus. És diplomàtica, justa i veu els dos costats d’una cosa. La bellesa i l’harmonia hi són importants. Decidir costa i de vegades diu que sí quan pensa que no."
+  },
+  {
+   "h": "Amor i amistat",
+   "p": "En l’amor, la Balança és romàntica i vol una relació d’igual a igual. Entre amics, fa de mitjancera en les discussions. Se sent bé amb gent que diu clarament què necessita."
+  },
+  {
+   "h": "Feina i dia a dia",
+   "p": "A la feina brilla en equip, en negociacions, en disseny i en assessorament. Sota pressió pensa pitjor. Petits objectius diaris estalvien temps de donar voltes."
+  }
+ ]
+}

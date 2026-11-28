@@ -1,0 +1,22 @@
+{
+ "name": "Bessons",
+ "slug": "gemini",
+ "period": "21 de maig – 20 de juny",
+ "element": "Aire",
+ "essence": "Curiosos, xerraires i sociables. Els Bessons estimen les converses i la gent nova.",
+ "advice": "Apunta el que t’interessa i després aprofundeix en un sol tema.",
+ "sections": [
+  {
+   "h": "Personalitat i punts forts",
+   "p": "Els Bessons estan regits per Mercuri, el planeta de la comunicació. Pensen de pressa, tenen humor i els agrada aprendre. Com que tot els interessa, de vegades costa acabar una cosa."
+  },
+  {
+   "h": "Amor i amistat",
+   "p": "En l’amor, el que més compta és una bona conversa. Tenen molts amics en cercles diferents i troben fàcilment paraules per als sentiments."
+  },
+  {
+   "h": "Feina i dia a dia",
+   "p": "A la feina, els van bé escriure, parlar, ensenyar i connectar persones. Fer diverses coses alhora és la seva força. Una llista els ajuda a no dispersar-se."
+  }
+ ]
+}

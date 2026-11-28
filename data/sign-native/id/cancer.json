@@ -1,0 +1,22 @@
+{
+ "name": "Cancer",
+ "slug": "cancer",
+ "period": "21 Juni – 22 Juli",
+ "element": "Air",
+ "essence": "Penuh perhatian dan hangat. Cancer melindungi keluarga dan teman, dan lebih kuat dari kelihatannya.",
+ "advice": "Beristirahatlah di tempat yang membuatmu merasa aman.",
+ "sections": [
+  {
+   "h": "Kepribadian dan kekuatan",
+   "p": "Cancer dipimpin oleh Bulan. Ia langsung merasakan perasaan orang lain dan suka merawat. Ia peka dan kadang bersembunyi di cangkangnya."
+  },
+  {
+   "h": "Cinta dan persahabatan",
+   "p": "Dalam cinta, Cancer mencari rasa aman dan membangunnya selangkah demi selangkah. Untuk teman, ia menciptakan rumah yang hangat. Mengungkapkan perasaan, bukan menyimpannya, membuat hubungan awet."
+  },
+  {
+   "h": "Pekerjaan dan keseharian",
+   "p": "Di pekerjaan, profesi yang membantu orang cocok, seperti perawatan, pendidikan, dan kuliner. Rumah yang nyaman mengisi ulang tenaganya."
+  }
+ ]
+}

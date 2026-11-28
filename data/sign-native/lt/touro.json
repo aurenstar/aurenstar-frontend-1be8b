@@ -1,0 +1,22 @@
+{
+ "name": "Jautis",
+ "slug": "taurus",
+ "period": "balandžio 20 – gegužės 20",
+ "element": "Žemė",
+ "essence": "Ramus, ištikimas ir šiltas. Jautis mėgsta patogumą ir visam gyvenimui draugystes.",
+ "advice": "Kiekvieną dieną skirk šiek tiek laiko tam, ką tikrai mėgsti.",
+ "sections": [
+  {
+   "h": "Charakteris ir stiprybės",
+   "p": "Jaučiui vadovauja Venera. Jis kantrus, patikimas ir užbaigia, ką nusprendė. Skanus maistas ir gražios vietos daro jį laimingą. Užsispyrimas kartais trukdo."
+  },
+  {
+   "h": "Meilė ir draugystė",
+   "p": "Meilėje Jautis pasitikėjimą kuria lėtai, o paskui yra labai ištikimas. Jo draugystės dažnai trunka dešimtmečius. Naujoves mieliau išbando mažais žingsniais."
+  },
+  {
+   "h": "Darbas ir kasdienybė",
+   "p": "Darbe Jautis įtikina atkaklumu, pavyzdžiui, finansuose, amatuose ar maisto srityje. Pastovūs įpročiai kasdien suteikia jam ramybės."
+  }
+ ]
+}

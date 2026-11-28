@@ -1,0 +1,22 @@
+{
+ "name": "Gemini",
+ "slug": "gemini",
+ "period": "21 Mei – 20 Juni",
+ "element": "Udara",
+ "essence": "Penasaran, banyak bicara, dan mudah bergaul. Gemini menyukai obrolan dan orang baru.",
+ "advice": "Catat apa yang menarik bagimu, lalu dalami satu topik saja.",
+ "sections": [
+  {
+   "h": "Kepribadian dan kekuatan",
+   "p": "Gemini dipimpin oleh Merkurius, planet komunikasi. Mereka berpikir cepat, humoris, dan suka belajar. Karena semuanya menarik, kadang sulit menyelesaikan satu hal."
+  },
+  {
+   "h": "Cinta dan persahabatan",
+   "p": "Dalam cinta, obrolan yang baik paling penting. Mereka punya banyak teman di berbagai lingkaran dan mudah menemukan kata untuk perasaan."
+  },
+  {
+   "h": "Pekerjaan dan keseharian",
+   "p": "Di pekerjaan, menulis, berbicara, mengajar, dan menghubungkan orang cocok untuk mereka. Mengerjakan beberapa hal sekaligus adalah kekuatan mereka. Daftar membantu agar tidak tercecer."
+  }
+ ]
+}

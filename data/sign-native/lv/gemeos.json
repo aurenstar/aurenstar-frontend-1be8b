@@ -1,0 +1,22 @@
+{
+ "name": "Dvīņi",
+ "slug": "gemini",
+ "period": "21. maijs – 20. jūnijs",
+ "element": "Gaiss",
+ "essence": "Ziņkārīgi, runīgi un sabiedriski. Dvīņi mīl sarunas un jaunus cilvēkus.",
+ "advice": "Pieraksti, kas tevi interesē, un vēlāk iedziļinies vienā tēmā.",
+ "sections": [
+  {
+   "h": "Raksturs un stiprās puses",
+   "p": "Dvīņus pārvalda Merkurs, saziņas planēta. Viņi ātri domā, ir ar humora izjūtu un labprāt mācās. Tā kā interesē viss, dažreiz ir grūti kaut ko pabeigt."
+  },
+  {
+   "h": "Mīlestība un draudzība",
+   "p": "Mīlestībā svarīgākā ir laba saruna. Viņiem ir daudz draugu dažādos lokos, un viņi viegli atrod vārdus jūtām."
+  },
+  {
+   "h": "Darbs un ikdiena",
+   "p": "Darbā viņiem der rakstīšana, runāšana, mācīšana un cilvēku savienošana. Darīt vairākas lietas vienlaikus ir viņu spēks. Saraksts palīdz nesaplūkt."
+  }
+ ]
+}

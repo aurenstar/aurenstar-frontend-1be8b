@@ -1,0 +1,22 @@
+{
+ "name": "Be",
+ "slug": "aries",
+ "period": "21 de març – 19 d’abril",
+ "element": "Foc",
+ "essence": "Valent, ple d’energia i sempre a punt per començar. El Be arrossega els altres amb el seu impuls.",
+ "advice": "Respira fons abans d’actuar amb pressa i celebra cada petita victòria.",
+ "sections": [
+  {
+   "h": "Personalitat i punts forts",
+   "p": "El Be està regit per Mart. S’hi llança directament, és sincer i s’entusiasma de pressa. El seu repte és la impaciència: de vegades comença massa depressa i es rendeix massa aviat."
+  },
+  {
+   "h": "Amor i amistat",
+   "p": "En l’amor, el Be és apassionat i directe. Entre amics, sovint és qui porta el grup. Donar temps a l’altre de tant en tant fa la relació més tranquil·la."
+  },
+  {
+   "h": "Feina i dia a dia",
+   "p": "A la feina, el Be brilla en projectes nous i decisions ràpides. Al dia a dia, moure’s l’ajuda a netejar el cap. Acabar una cosa cada vegada aprofita millor la seva energia."
+  }
+ ]
+}

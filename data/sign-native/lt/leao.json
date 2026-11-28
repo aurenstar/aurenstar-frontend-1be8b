@@ -1,0 +1,22 @@
+{
+ "name": "Liūtas",
+ "slug": "leo",
+ "period": "liepos 23 – rugpjūčio 22",
+ "element": "Ugnis",
+ "essence": "Dosnus, linksmas ir pasitikintis savimi. Liūtas spindi pats ir nušviečia kiekvieną patalpą.",
+ "advice": "Vertink ir savo pastangas, ne tik kitų.",
+ "sections": [
+  {
+   "h": "Charakteris ir stiprybės",
+   "p": "Liūtui vadovauja Saulė. Jis šiltas, išdidus ir mėgsta būti dėmesio centre. Dievina šventes ir kitų drąsinimą. Jei jį praleidžia, lengvai įskaudinamas."
+  },
+  {
+   "h": "Meilė ir draugystė",
+   "p": "Meilėje Liūtas meilę rodo dosniai. Tarp draugų visus prajuokina. Nuoširdus komplimentas pasiekia jo širdį."
+  },
+  {
+   "h": "Darbas ir kasdienybė",
+   "p": "Darbe Liūtas spindi, kai gali vadovauti, pristatyti ar kurti. Kasdien laikas mėgstamiems dalykams grąžina pasitikėjimą savimi. Leisti scenoje būti ir kitiems daro jį dar mielesnį."
+  }
+ ]
+}

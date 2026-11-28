@@ -1,0 +1,22 @@
+{
+ "name": "Strelec",
+ "slug": "sagittarius",
+ "period": "22. novembra – 21. decembra",
+ "element": "Oheň",
+ "essence": "Veselý, slobodný a plný humoru. Strelec miluje učenie a nakazí ostatných svojimi snami.",
+ "advice": "Pridaj si každý deň malý nový zážitok, vzbudí chuť na ďalšie.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Strelca ovláda Jupiter. Je optimista, rád cestuje, učí sa a spoznáva iné kultúry. Povie, čo si myslí, niekedy príliš priamo, a prekvapí ostatných."
+  },
+  {
+   "h": "Láska a priateľstvo",
+   "p": "V láske potrebuje slobodu a niekoho na spoločné dobrodružstvá. Medzi priateľmi prináša smiech. Rešpektovanie tempa druhého udrží vzťah dlho."
+  },
+  {
+   "h": "Práca a každodenný život",
+   "p": "V práci mu sedia výučba, cestovanie, vydavateľstvo a medzinárodné úlohy. Veľký cieľ rozdelený na malé denné kroky ho posúva ďalej."
+  }
+ ]
+}

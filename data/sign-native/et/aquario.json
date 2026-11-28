@@ -1,0 +1,22 @@
+{
+ "name": "Veevalaja",
+ "slug": "aquarius",
+ "period": "20. jaanuar – 18. veebruar",
+ "element": "Õhk",
+ "essence": "Vaba, originaalne ja inimsõbralik. Veevalaja mõtleb teisiti ja unistab tulevikust.",
+ "advice": "Ütle oma ebatavalised ideed julgelt välja, ka kui need pole „tavalised“.",
+ "sections": [
+  {
+   "h": "Iseloom ja tugevused",
+   "p": "Veevalajat valitsevad Saturn ja Uraan. Ta on sõltumatu, täis uusi ideid ja soovib võrdsust kõigile. Ta vajab aega üksi ja tundub seetõttu vahel kauge."
+  },
+  {
+   "h": "Armastus ja sõprus",
+   "p": "Armastuses meeldib talle suhe nagu parimate sõprade vahel, kus on ruumi mõlemale. Tema sõbrad tulevad erinevatest maailmadest. Tunnete sõnadesse panemine annab teisele kindlustunde."
+  },
+  {
+   "h": "Töö ja igapäev",
+   "p": "Tööl särab ta tehnikas, teadustöös, sotsiaalprojektides ja disainis. Pane kirja, mis sind uudishimulikuks teeb, hiljem tuleb sellest häid ideid."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Aquari",
+ "slug": "aquarius",
+ "period": "20 de gener – 18 de febrer",
+ "element": "Aire",
+ "essence": "Lliure, original i humà. L’Aquari pensa diferent i somia el futur.",
+ "advice": "Digues sense por les teves idees diferents, encara que no siguin «normals».",
+ "sections": [
+  {
+   "h": "Personalitat i punts forts",
+   "p": "L’Aquari està regit per Saturn i Urà. És independent, ple d’idees noves i vol igualtat per a tothom. Necessita temps per a ell i per això de vegades sembla llunyà."
+  },
+  {
+   "h": "Amor i amistat",
+   "p": "En l’amor li agrada una relació com entre millors amics, amb espai per als dos. Els seus amics són de mons diferents. Dir els sentiments amb paraules dona seguretat a l’altre."
+  },
+  {
+   "h": "Feina i dia a dia",
+   "p": "A la feina brilla en tecnologia, recerca, projectes socials i disseny. Apunta el que et desperta curiositat, d’allà sortiran bones idees."
+  }
+ ]
+}

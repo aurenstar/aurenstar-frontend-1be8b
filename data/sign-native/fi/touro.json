@@ -1,0 +1,22 @@
+{
+ "name": "Härkä",
+ "slug": "taurus",
+ "period": "20. huhtikuuta – 20. toukokuuta",
+ "element": "Maa",
+ "essence": "Rauhallinen, uskollinen ja lämmin. Härkä rakastaa mukavuutta ja elinikäisiä ystävyyksiä.",
+ "advice": "Anna itsellesi joka päivä pieni hetki jollekin, mistä todella pidät.",
+ "sections": [
+  {
+   "h": "Persoonallisuus ja vahvuudet",
+   "p": "Härkää hallitsee Venus. Se on kärsivällinen, luotettava ja vie päätetyn loppuun. Hyvä ruoka ja kauniit paikat tekevät sen onnelliseksi. Jääräpäisyys on joskus esteenä."
+  },
+  {
+   "h": "Rakkaus ja ystävyys",
+   "p": "Rakkaudessa Härkä rakentaa luottamusta hitaasti ja on sitten hyvin uskollinen. Sen ystävyydet kestävät usein vuosikymmeniä. Uutta se kokeilee mieluiten pienin askelin."
+  },
+  {
+   "h": "Työ ja arki",
+   "p": "Työssä Härkä vakuuttaa sitkeydellä, esimerkiksi rahoituksessa, käsityössä tai ruoka-alalla. Vakaat tavat arjessa antavat sille rauhaa."
+  }
+ ]
+}

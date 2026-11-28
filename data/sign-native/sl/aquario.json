@@ -1,0 +1,22 @@
+{
+ "name": "Vodnar",
+ "slug": "aquarius",
+ "period": "20. januar – 18. februar",
+ "element": "Zrak",
+ "essence": "Svoboden, izviren in človekoljuben. Vodnar misli drugače in sanja o prihodnosti.",
+ "advice": "Svoje nenavadne ideje brez strahu povej, tudi če niso „običajne“.",
+ "sections": [
+  {
+   "h": "Osebnost in prednosti",
+   "p": "Vodnarja vodita Saturn in Uran. Je neodvisen, poln novih zamisli in želi enakost za vse. Potrebuje čas zase, zato se včasih zdi odmaknjen."
+  },
+  {
+   "h": "Ljubezen in prijateljstvo",
+   "p": "V ljubezni ima rad zvezo kot med najboljšima prijateljema, s prostorom za oba. Njegovi prijatelji so iz različnih svetov. Izrekanje čustev z besedami daje drugemu varnost."
+  },
+  {
+   "h": "Služba in vsakdan",
+   "p": "V službi blesti v tehniki, raziskovanju, družbenih projektih in oblikovanju. Zapisuj, kar te zanima, pozneje bodo iz tega dobre ideje."
+  }
+ ]
+}

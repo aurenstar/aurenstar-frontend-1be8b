@@ -1,0 +1,23 @@
+{
+ "home": "Domov",
+ "read": "Čítať článok",
+ "dict": "Slovník",
+ "contact": "Kontakt",
+ "tools": "Bezplatné nástroje",
+ "articles": "Články",
+ "faq": "Časté otázky",
+ "articlesAbout": "Články o znamení {n}",
+ "cta": "Objav svoje znamenie",
+ "facts": "Stručne",
+ "period": "Dátumy",
+ "element": "Živel",
+ "advice": "Jednoduchá rada",
+ "title": "{n}: povaha, vlastnosti a všetko o znamení zverokruhu",
+ "desc": "{n} ({p}): znamenie živlu {e}. Povaha, silné stránky, láska a články, vďaka ktorým jednoducho pochopíš znamenie {n}.",
+ "qDates": "Aké sú dátumy znamenia {n}?",
+ "qElement": "Aký živel má znamenie {n}?",
+ "qPersonality": "Aké je znamenie {n}?",
+ "qTip": "Čo pomáha znameniu {n} v každodennom živote?",
+ "aDates": "Znamenie {n} trvá: {p}.",
+ "aElement": "Znamenie {n} patrí k živlu: {e}."
+}

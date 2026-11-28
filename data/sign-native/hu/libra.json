@@ -1,0 +1,22 @@
+{
+ "name": "Mérleg",
+ "slug": "libra",
+ "period": "szeptember 23. – október 22.",
+ "element": "Levegő",
+ "essence": "Barátságos, kiegyensúlyozott és békeszerető. A Mérleg szereti a kellemes hangulatot, és jól hallgat.",
+ "advice": "Ha nem tudsz választani, hagyj meg két lehetőséget, és válaszd azt, amelyik elsőre jónak tűnik.",
+ "sections": [
+  {
+   "h": "Személyiség és erősségek",
+   "p": "A Mérleget a Vénusz irányítja. Diplomatikus, igazságos, és a dolgok mindkét oldalát látja. A szépség és a harmónia fontos neki. A döntés nehéz, és néha igent mond, miközben nemet gondol."
+  },
+  {
+   "h": "Szerelem és barátság",
+   "p": "Szerelemben a Mérleg romantikus, és egyenrangú kapcsolatot szeretne. A barátok között közvetít a vitákban. Jól megvan azokkal, akik világosan megmondják, mire van szükségük."
+  },
+  {
+   "h": "Munka és mindennapok",
+   "p": "A munkában a Mérleg csapatban, tárgyalásokon, tervezésben és tanácsadásban ragyog. Nyomás alatt rosszabbul gondolkodik. A kis napi célok időt takarítanak meg a töprengésből."
+  }
+ ]
+}

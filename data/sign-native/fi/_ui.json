@@ -1,0 +1,23 @@
+{
+ "home": "Etusivu",
+ "read": "Lue artikkeli",
+ "dict": "Sanasto",
+ "contact": "Yhteystiedot",
+ "tools": "Ilmaiset työkalut",
+ "articles": "Artikkelit",
+ "faq": "Usein kysytyt kysymykset",
+ "articlesAbout": "Artikkeleita merkistä {n}",
+ "cta": "Löydä oma merkkisi",
+ "facts": "Lyhyesti",
+ "period": "Päivämäärät",
+ "element": "Alkuaine",
+ "advice": "Yksinkertainen vinkki",
+ "title": "{n}: persoonallisuus, piirteet ja kaikki horoskooppimerkistä",
+ "desc": "{n} ({p}): alkuaineen {e} horoskooppimerkki. Persoonallisuus, vahvuudet, rakkaus ja artikkelit, joiden avulla ymmärrät merkin {n} helposti.",
+ "qDates": "Mitkä ovat merkin {n} päivämäärät?",
+ "qElement": "Mikä alkuaine merkillä {n} on?",
+ "qPersonality": "Millainen on {n}?",
+ "qTip": "Mikä auttaa merkkiä {n} arjessa?",
+ "aDates": "Merkki {n} kestää: {p}.",
+ "aElement": "Merkki {n} kuuluu alkuaineeseen: {e}."
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Váhy",
+ "slug": "libra",
+ "period": "23. září – 22. října",
+ "element": "Vzduch",
+ "essence": "Přívětivé, vyrovnané a mírumilovné. Váhy mají rády příjemnou atmosféru a umějí naslouchat.",
+ "advice": "Když se nemůžeš rozhodnout, nech si dvě možnosti a vezmi tu, která ti přijde dobrá jako první.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Váhy vládne Venuše. Jsou diplomatické, spravedlivé a vidí obě strany věci. Záleží jim na kráse a harmonii. Rozhodování je těžké a někdy řeknou ano, přestože myslí ne."
+  },
+  {
+   "h": "Láska a přátelství",
+   "p": "V lásce jsou Váhy romantické a chtějí vztah na stejné úrovni. Mezi přáteli smiřují hádky. Dobře vycházejí s lidmi, kteří jasně řeknou, co potřebují."
+  },
+  {
+   "h": "Práce a každodenní život",
+   "p": "V práci září v týmu, při vyjednávání, v designu a poradenství. Pod tlakem hůř přemýšlejí. Malé denní cíle šetří čas na dumání."
+  }
+ ]
+}

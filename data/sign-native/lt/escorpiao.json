@@ -1,0 +1,22 @@
+{
+ "name": "Skorpionas",
+ "slug": "scorpio",
+ "period": "spalio 23 – lapkričio 21",
+ "element": "Vanduo",
+ "essence": "Ištikimas, aistringas ir gilus. Skorpionas jaučia, ką kiti iš tikrųjų galvoja.",
+ "advice": "Apie sulaikytas emocijas kalbėk su žmogumi, kuriuo pasitiki, po truputį.",
+ "sections": [
+  {
+   "h": "Charakteris ir stiprybės",
+   "p": "Skorpionui vadovauja Plutonas ir Marsas. Jis turi stiprią valią ir daug ištvermės. Ką pradeda, tą ir užbaigia. Atsiveria lėtai ir gali tapti įtarus."
+  },
+  {
+   "h": "Meilė ir draugystė",
+   "p": "Meilėje myli giliai ir ištikimai. Ieško tikro artumo, o ne paviršutiniškumo. Draugų turi nedaug, bet labai artimų. Atviras pokalbis kuria pasitikėjimą."
+  },
+  {
+   "h": "Darbas ir kasdienybė",
+   "p": "Darbe jam tinka tyrimai, analizė ir darbas su žmonėmis sunkiose situacijose. Kasdien jam reikia susikaupimo ir judėjimo įtampai paleisti."
+  }
+ ]
+}

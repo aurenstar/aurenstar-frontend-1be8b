@@ -1,0 +1,22 @@
+{
+ "name": "Sõnn",
+ "slug": "taurus",
+ "period": "20. aprill – 20. mai",
+ "element": "Maa",
+ "essence": "Rahulik, truu ja soe. Sõnn armastab mugavust ja eluaegseid sõprussuhteid.",
+ "advice": "Anna endale iga päev natuke aega millekski, mida tõesti naudid.",
+ "sections": [
+  {
+   "h": "Iseloom ja tugevused",
+   "p": "Sõnni valitseb Veenus. Ta on kannatlik, usaldusväärne ja viib otsustatu lõpuni. Hea toit ja ilusad kohad teevad ta õnnelikuks. Jonnakus segab teda vahel."
+  },
+  {
+   "h": "Armastus ja sõprus",
+   "p": "Armastuses ehitab Sõnn usaldust aeglaselt ja on seejärel väga truu. Tema sõprused kestavad sageli aastakümneid. Uusi asju proovib ta kõige meelsamini väikeste sammudega."
+  },
+  {
+   "h": "Töö ja igapäev",
+   "p": "Tööl veenab Sõnn visadusega, näiteks rahanduses, käsitöös või toitlustuses. Püsivad harjumused igapäevaselt annavad talle rahu."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Strēlnieks",
+ "slug": "sagittarius",
+ "period": "22. novembris – 21. decembris",
+ "element": "Uguns",
+ "essence": "Priecīgs, brīvs un ar humoru. Strēlnieks mīl mācīties un aizrauj citus ar saviem sapņiem.",
+ "advice": "Katru dienu pievieno nelielu jaunu pieredzi, tā rada vēlmi pēc vairāk.",
+ "sections": [
+  {
+   "h": "Raksturs un stiprās puses",
+   "p": "Strēlnieku pārvalda Jupiters. Viņš ir optimists, mīl ceļot, mācīties un iepazīt citas kultūras. Viņš saka, ko domā, dažreiz pārāk tieši, un pārsteidz citus."
+  },
+  {
+   "h": "Mīlestība un draudzība",
+   "p": "Mīlestībā viņam vajadzīga brīvība un kāds, ar ko dalīties piedzīvojumos. Draugu vidū viņš ienes smieklus. Cieņa pret otra tempu palīdz attiecībām ilgt."
+  },
+  {
+   "h": "Darbs un ikdiena",
+   "p": "Darbā viņam der mācīšana, ceļojumi, izdevējdarbība un starptautiski uzdevumi. Liels mērķis, sadalīts mazos ikdienas soļos, virza viņu uz priekšu."
+  }
+ ]
+}

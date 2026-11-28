@@ -1,0 +1,22 @@
+{
+ "name": "Dvyniai",
+ "slug": "gemini",
+ "period": "gegužės 21 – birželio 20",
+ "element": "Oras",
+ "essence": "Smalsūs, šnekūs ir bendraujantys. Dvyniai mėgsta pokalbius ir naujus žmones.",
+ "advice": "Užsirašyk, kas tave domina, o vėliau pasinerk į vieną temą.",
+ "sections": [
+  {
+   "h": "Charakteris ir stiprybės",
+   "p": "Dvyniams vadovauja Merkurijus, bendravimo planeta. Jie greitai galvoja, turi humoro jausmą ir mėgsta mokytis. Kadangi įdomu viskas, kartais sunku ką nors užbaigti."
+  },
+  {
+   "h": "Meilė ir draugystė",
+   "p": "Meilėje svarbiausias geras pokalbis. Jie turi daug draugų įvairiuose ratuose ir lengvai randa žodžių jausmams."
+  },
+  {
+   "h": "Darbas ir kasdienybė",
+   "p": "Darbe jiems tinka rašymas, kalbėjimas, mokymas ir žmonių jungimas. Daryti kelis dalykus vienu metu – jų stiprybė. Sąrašas padeda neišsibarstyti."
+  }
+ ]
+}

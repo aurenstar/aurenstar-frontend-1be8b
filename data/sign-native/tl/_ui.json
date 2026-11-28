@@ -1,0 +1,23 @@
+{
+ "home": "Home",
+ "read": "Basahin ang artikulo",
+ "dict": "Diksyunaryo",
+ "contact": "Makipag-ugnayan",
+ "tools": "Libreng gamit",
+ "articles": "Mga artikulo",
+ "faq": "Mga madalas itanong",
+ "articlesAbout": "Mga artikulo tungkol sa {n}",
+ "cta": "Alamin ang iyong zodiac",
+ "facts": "Sa madaling sabi",
+ "period": "Mga petsa",
+ "element": "Elemento",
+ "advice": "Simpleng payo",
+ "title": "{n}: personalidad, katangian, at lahat tungkol sa zodiac sign",
+ "desc": "{n} ({p}): zodiac sign ng elementong {e}. Personalidad, lakas, pag-ibig, at mga artikulo para madaling maintindihan ang {n}.",
+ "qDates": "Anong mga petsa ang sakop ng {n}?",
+ "qElement": "Anong elemento ang {n}?",
+ "qPersonality": "Paano ang ugali ng {n}?",
+ "qTip": "Ano ang nakakatulong sa {n} araw-araw?",
+ "aDates": "Ang {n} ay mula {p}.",
+ "aElement": "Ang {n} ay kabilang sa elementong {e}."
+}

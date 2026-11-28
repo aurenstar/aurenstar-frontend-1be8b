@@ -1,0 +1,22 @@
+{
+ "name": "Cancer",
+ "slug": "cancer",
+ "period": "Hunyo 21 – Hulyo 22",
+ "element": "Tubig",
+ "essence": "Maalaga at mainit ang puso. Pinoprotektahan ng Cancer ang pamilya at kaibigan, at mas malakas siya kaysa sa inaakala.",
+ "advice": "Magpahinga sa lugar na ligtas ang pakiramdam mo.",
+ "sections": [
+  {
+   "h": "Personalidad at lakas",
+   "p": "Ang Cancer ay pinamumunuan ng Buwan. Agad niyang nararamdaman ang damdamin ng iba at mahilig siyang mag-alaga. Sensitibo siya at minsan nagtatago sa kanyang kabibe."
+  },
+  {
+   "h": "Pag-ibig at pagkakaibigan",
+   "p": "Sa pag-ibig, naghahanap ang Cancer ng seguridad at binubuo niya ito nang paunti-unti. Para sa mga kaibigan, gumagawa siya ng mainit na tahanan. Ang pagsasabi ng damdamin sa halip na itago ay nagpapatagal ng relasyon."
+  },
+  {
+   "h": "Trabaho at araw-araw na buhay",
+   "p": "Sa trabaho, bagay sa kanya ang mga propesyong tumutulong, tulad ng pag-aalaga, edukasyon, at pagkain. Ang komportableng bahay ay nagbabalik ng kanyang lakas."
+  }
+ ]
+}

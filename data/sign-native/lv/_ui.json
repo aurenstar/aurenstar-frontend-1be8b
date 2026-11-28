@@ -1,0 +1,23 @@
+{
+ "home": "Sākums",
+ "read": "Lasīt rakstu",
+ "dict": "Vārdnīca",
+ "contact": "Kontakti",
+ "tools": "Bezmaksas rīki",
+ "articles": "Raksti",
+ "faq": "Bieži uzdotie jautājumi",
+ "articlesAbout": "Raksti par zīmi: {n}",
+ "cta": "Atklāj savu zīmi",
+ "facts": "Īsumā",
+ "period": "Datumi",
+ "element": "Elements",
+ "advice": "Vienkāršs padoms",
+ "title": "{n}: raksturs, īpašības un viss par zodiaka zīmi",
+ "desc": "{n} ({p}): elementa {e} zodiaka zīme. Raksturs, stiprās puses, mīlestība un raksti, lai viegli saprastu zīmi: {n}.",
+ "qDates": "Kādi ir zīmes {n} datumi?",
+ "qElement": "Kāds ir zīmes {n} elements?",
+ "qPersonality": "Kāda ir zīme {n}?",
+ "qTip": "Kas palīdz zīmei {n} ikdienā?",
+ "aDates": "Zīme {n} ilgst: {p}.",
+ "aElement": "Zīme {n} pieder elementam: {e}."
+}

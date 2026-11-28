@@ -1,0 +1,22 @@
+{
+ "name": "Kalat",
+ "slug": "pisces",
+ "period": "19. helmikuuta – 20. maaliskuuta",
+ "element": "Vesi",
+ "essence": "Herkät ja mielikuvitusrikkaat. Kalat tuntevat muiden mukana ja rakastavat unelmointia.",
+ "advice": "Jos unelmat ja todellisuus väsyttävät, tee jotain rauhallista musiikin parissa tai luonnossa.",
+ "sections": [
+  {
+   "h": "Persoonallisuus ja vahvuudet",
+   "p": "Kaloja hallitsevat Jupiter ja Neptunus. Ne ovat hyvin herkkiä, aistivat toisten tuskan ja niillä on vaisto taiteelle ja sanoille. Ne vaikuttuvat helposti ja pakenevat joskus haaveisiin."
+  },
+  {
+   "h": "Rakkaus ja ystävyys",
+   "p": "Rakkaudessa ne ovat romanttisia ja antavat paljon. Ystävät arvostavat niitä hyvinä kuuntelijoina. Niille tekee hyvää, kun ne eivät aina laita itseään sivuun vaan sanovat: ”Haluan tätä.”"
+  },
+  {
+   "h": "Työ ja arki",
+   "p": "Työssä niille sopivat taide, musiikki, hoiva ja auttamisammatit. Arjessa auttavat väljyys kalenterissa ja riittävä uni. Suuren unelman pilkkominen pieniin askeliin tekee siitä todellisen."
+  }
+ ]
+}

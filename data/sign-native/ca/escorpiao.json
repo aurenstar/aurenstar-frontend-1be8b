@@ -1,0 +1,22 @@
+{
+ "name": "Escorpí",
+ "slug": "scorpio",
+ "period": "23 d’octubre – 21 de novembre",
+ "element": "Aigua",
+ "essence": "Fidel, apassionat i profund. L’Escorpí percep què pensen realment els altres.",
+ "advice": "Parla de les emocions guardades amb algú de confiança, a poc a poc.",
+ "sections": [
+  {
+   "h": "Personalitat i punts forts",
+   "p": "L’Escorpí està regit per Plutó i Mart. Té una voluntat forta i molta resistència. El que comença, ho acaba. S’obre lentament i pot arribar a desconfiar."
+  },
+  {
+   "h": "Amor i amistat",
+   "p": "En l’amor, estima amb profunditat i fidelitat. Busca proximitat de veritat, no superficialitat. Té pocs amics, però molt propers. Parlar obertament crea confiança."
+  },
+  {
+   "h": "Feina i dia a dia",
+   "p": "A la feina, li van la recerca, l’anàlisi i la feina amb persones en situacions difícils. Al dia a dia necessita concentració i moviment per deixar anar la tensió."
+  }
+ ]
+}

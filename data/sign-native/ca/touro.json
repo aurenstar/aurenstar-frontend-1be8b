@@ -1,0 +1,22 @@
+{
+ "name": "Taure",
+ "slug": "taurus",
+ "period": "20 d’abril – 20 de maig",
+ "element": "Terra",
+ "essence": "Tranquil, fidel i afectuós. El Taure estima la comoditat i les amistats per a tota la vida.",
+ "advice": "Regala’t cada dia una estona per a alguna cosa que realment t’agrada.",
+ "sections": [
+  {
+   "h": "Personalitat i punts forts",
+   "p": "El Taure està regit per Venus. És pacient, de confiança i acaba el que decideix. El bon menjar i els llocs bonics el fan feliç. La tossuderia de vegades el frena."
+  },
+  {
+   "h": "Amor i amistat",
+   "p": "En l’amor, el Taure construeix la confiança a poc a poc i després és molt fidel. Les seves amistats duren sovint dècades. Prefereix provar les novetats amb passos petits."
+  },
+  {
+   "h": "Feina i dia a dia",
+   "p": "A la feina, el Taure convenç amb constància, per exemple en finances, artesania o cuina. Els hàbits regulars li donen calma."
+  }
+ ]
+}

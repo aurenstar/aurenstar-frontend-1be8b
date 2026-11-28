@@ -1,0 +1,22 @@
+{
+ "name": "Rak",
+ "slug": "cancer",
+ "period": "21. června – 22. července",
+ "element": "Voda",
+ "essence": "Pečující a srdečný. Rak chrání rodinu i přátele a je silnější, než vypadá.",
+ "advice": "Odpočiň si na místě, kde se cítíš v bezpečí.",
+ "sections": [
+  {
+   "h": "Povaha a silné stránky",
+   "p": "Raka vládne Měsíc. Okamžitě vnímá city druhých a rád se stará. Je citlivý a občas se stáhne do své ulity."
+  },
+  {
+   "h": "Láska a přátelství",
+   "p": "V lásce hledá Rak jistotu a buduje ji krok za krokem. Pro přátele vytváří vřelý domov. Říkat city nahlas místo jejich skrývání pomáhá vztahům vydržet."
+  },
+  {
+   "h": "Práce a každodenní život",
+   "p": "V práci mu sedí pomáhající profese, jako péče, vzdělávání nebo gastronomie. Útulný domov mu dobíjí síly."
+  }
+ ]
+}
