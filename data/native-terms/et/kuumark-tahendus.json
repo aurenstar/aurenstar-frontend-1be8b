@@ -1,0 +1,53 @@
+{
+ "lang": "et",
+ "keyword": "kuumärk",
+ "volume": "1000",
+ "slug": "kuumark-tahendus",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kuumärk: mis see on ja mida tähendab?",
+ "description": "Sinu kuumärk näitab, kuidas sa tunned ja mida vajad turvatundeks. Lihtsalt selgitatud.",
+ "intro": "Kuumärk on märk, milles Kuu oli sinu sündides. See näitab sinu tundemaailma: kuidas reageerid väsinuna, õnnelikuna või stressis.",
+ "sections": [
+  {
+   "h2": "Mis on kuumärk?",
+   "paragraphs": [
+    "Kuu vahetab märki iga 2–3 päeva järel. Seetõttu võib samal päeval sündinutel olla erinev kuumärk."
+   ]
+  },
+  {
+   "h2": "Kuidas seda leida?",
+   "paragraphs": [
+    "Vaja on sünnikuupäeva ja soovitavalt kellaaega. Tasuta kalkulaator näitab kohe."
+   ]
+  },
+  {
+   "h2": "Näide",
+   "paragraphs": [
+    "Liis on Ambur (Päike), Kuu Sõnnis. Ta tundub seiklushimuline, kuid kodus tahab rahu, head toitu ja kindlat rutiini."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kas kuumärk on tähtsam kui päikesemärk?",
+   "a": "Mitte tähtsam, kuid näitab sisemist poolt: mida tunned ja vajad."
+  },
+  {
+   "q": "Kas pean sünniaega teadma?",
+   "a": "Tavaliselt mitte: Kuu vahetab märki vaid iga 2–3 päeva järel."
+  },
+  {
+   "q": "Kas kuumärk võib muutuda?",
+   "a": "Ei, see on sünnihetkel kindel."
+  }
+ ],
+ "ui": {
+  "home": "Avaleht",
+  "tools": "Tasuta tööriistad",
+  "articles": "Artiklid",
+  "faq": "Korduma kippuvad küsimused",
+  "more": "Loe artiklit"
+ },
+ "tool": "descreva-me"
+}

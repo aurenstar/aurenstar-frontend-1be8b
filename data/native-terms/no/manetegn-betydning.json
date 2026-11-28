@@ -1,0 +1,53 @@
+{
+ "lang": "no",
+ "keyword": "månetegn",
+ "volume": "1000",
+ "slug": "manetegn-betydning",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Månetegn: hva er det og hva betyr det?",
+ "description": "Månetegnet ditt viser hvordan du føler og hva du trenger for å føle deg trygg. Enkelt forklart.",
+ "intro": "Månetegnet ditt er tegnet månen sto i da du ble født. Det viser følelsesverdenen din: hvordan du reagerer når du er sliten, glad eller stresset.",
+ "sections": [
+  {
+   "h2": "Hva er månetegnet?",
+   "paragraphs": [
+    "Månen bytter tegn hver 2.–3. dag. Derfor kan folk med samme bursdag ha ulikt månetegn."
+   ]
+  },
+  {
+   "h2": "Hvordan finner du det?",
+   "paragraphs": [
+    "Du trenger fødselsdato og helst klokkeslett. Et gratis verktøy gir svaret med en gang."
+   ]
+  },
+  {
+   "h2": "Et eksempel",
+   "paragraphs": [
+    "Silje er Skytte (sol) med Månen i Tyren. Hun virker eventyrlysten, men hjemme vil hun ha ro, god mat og faste rutiner."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Er månetegnet viktigere enn soltegnet?",
+   "a": "Ikke viktigere, men det viser innsiden: hva du føler og trenger."
+  },
+  {
+   "q": "Må jeg kjenne fødselstidspunktet?",
+   "a": "Som regel ikke: Månen bytter bare tegn hver 2.–3. dag."
+  },
+  {
+   "q": "Kan månetegnet endre seg?",
+   "a": "Nei, det ligger fast fra fødselen."
+  }
+ ],
+ "ui": {
+  "home": "Hjem",
+  "tools": "Gratis verktøy",
+  "articles": "Artikler",
+  "faq": "Vanlige spørsmål",
+  "more": "Les artikkelen"
+ },
+ "tool": "descreva-me"
+}

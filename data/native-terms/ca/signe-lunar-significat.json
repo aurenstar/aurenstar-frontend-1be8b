@@ -1,0 +1,53 @@
+{
+ "lang": "ca",
+ "keyword": "signe lunar",
+ "volume": "1000",
+ "slug": "signe-lunar-significat",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Signe lunar: què és i què significa?",
+ "description": "El teu signe lunar mostra com sents i què necessites per sentir-te segur. Explicat fàcil.",
+ "intro": "El signe lunar és el signe on era la Lluna quan vas néixer. Mostra el teu món emocional: com reacciones quan estàs cansat, content o estressat.",
+ "sections": [
+  {
+   "h2": "Què és el signe lunar?",
+   "paragraphs": [
+    "La Lluna canvia de signe cada 2 o 3 dies. Per això persones nascudes el mateix dia poden tenir signes lunars diferents."
+   ]
+  },
+  {
+   "h2": "Com el trobes?",
+   "paragraphs": [
+    "Necessites la data de naixement i, millor, l’hora. Una eina gratuïta ho mostra a l’instant."
+   ]
+  },
+  {
+   "h2": "Un exemple",
+   "paragraphs": [
+    "La Laia és Sagitari (Sol) amb la Lluna a Taure. Sembla aventurera, però a casa vol calma, bon menjar i rutina."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "El signe lunar és més important que el solar?",
+   "a": "No més important, però mostra l’interior: què sents i necessites."
+  },
+  {
+   "q": "He de saber l’hora de naixement?",
+   "a": "Normalment no: la Lluna només canvia de signe cada 2 o 3 dies."
+  },
+  {
+   "q": "Pot canviar el signe lunar?",
+   "a": "No, queda fixat en néixer."
+  }
+ ],
+ "ui": {
+  "home": "Inici",
+  "tools": "Eines gratuïtes",
+  "articles": "Articles",
+  "faq": "Preguntes freqüents",
+  "more": "Llegeix l’article"
+ },
+ "tool": "descreva-me"
+}

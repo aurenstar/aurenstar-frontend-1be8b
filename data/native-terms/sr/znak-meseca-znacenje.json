@@ -1,0 +1,53 @@
+{
+ "lang": "sr",
+ "keyword": "znak meseca",
+ "volume": "1000",
+ "slug": "znak-meseca-znacenje",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Znak Meseca: šta je i šta znači?",
+ "description": "Tvoj znak Meseca pokazuje kako osećaš i šta ti treba da bi se osećao/la sigurno. Jednostavno objašnjeno.",
+ "intro": "Znak Meseca je znak u kojem je bio Mesec kad si rođen/a. Pokazuje tvoj emocionalni svet: kako reaguješ kad si umoran/na, srećan/na ili pod stresom.",
+ "sections": [
+  {
+   "h2": "Šta je znak Meseca?",
+   "paragraphs": [
+    "Mesec menja znak svaka 2–3 dana. Zato osobe rođene istog dana mogu imati različit znak Meseca."
+   ]
+  },
+  {
+   "h2": "Kako da ga pronađeš?",
+   "paragraphs": [
+    "Trebaju ti datum rođenja i po mogućstvu vreme. Besplatni kalkulator odmah pokazuje rezultat."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Ana je Strelac (Sunce) sa Mesecom u Biku. Deluje avanturistički, ali kod kuće želi mir, dobru hranu i stalnu rutinu."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Da li je znak Meseca važniji od sunčevog?",
+   "a": "Nije važniji, ali pokazuje unutrašnjost: šta osećaš i trebaš."
+  },
+  {
+   "q": "Moram li znati vreme rođenja?",
+   "a": "Obično ne: Mesec menja znak samo svaka 2–3 dana."
+  },
+  {
+   "q": "Može li se znak Meseca promeniti?",
+   "a": "Ne, određen je rođenjem."
+  }
+ ],
+ "ui": {
+  "home": "Početna",
+  "tools": "Besplatni alati",
+  "articles": "Članci",
+  "faq": "Česta pitanja",
+  "more": "Pročitaj članak"
+ },
+ "tool": "descreva-me"
+}

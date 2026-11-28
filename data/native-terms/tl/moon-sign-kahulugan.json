@@ -1,0 +1,53 @@
+{
+ "lang": "tl",
+ "keyword": "moon sign",
+ "volume": "1000",
+ "slug": "moon-sign-kahulugan",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Moon Sign: Ano Ito at Ano ang Kahulugan?",
+ "description": "Ipinapakita ng moon sign mo kung paano ka nakakaramdam at ano ang kailangan mo para maging panatag. Simpleng paliwanag.",
+ "intro": "Ang moon sign ay ang sign kung nasaan ang Buwan nang ipanganak ka. Ipinapakita nito ang mundo ng damdamin mo: paano ka tumutugon kapag pagod, masaya, o stressed.",
+ "sections": [
+  {
+   "h2": "Ano ang moon sign?",
+   "paragraphs": [
+    "Nagpapalit ng sign ang Buwan kada 2–3 araw. Kaya ang magkaparehong araw ng kapanganakan ay maaaring magkaiba ang moon sign."
+   ]
+  },
+  {
+   "h2": "Paano ito hahanapin?",
+   "paragraphs": [
+    "Kailangan ang petsa ng kapanganakan at kung maaari ang oras. Agad itong ipapakita ng libreng tool."
+   ]
+  },
+  {
+   "h2": "Halimbawa",
+   "paragraphs": [
+    "Si Mika ay Sagittarius (Araw) na may Buwan sa Taurus. Mukha siyang mahilig sa adventure, pero sa bahay gusto niya ng katahimikan, masarap na pagkain, at tiyak na routine."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mas mahalaga ba ang moon sign kaysa sun sign?",
+   "a": "Hindi mas mahalaga, pero ipinapakita nito ang loob: ano ang nararamdaman at kailangan mo."
+  },
+  {
+   "q": "Kailangan ko bang malaman ang oras ng kapanganakan?",
+   "a": "Karaniwan hindi: kada 2–3 araw lang nagpapalit ng sign ang Buwan."
+  },
+  {
+   "q": "Nagbabago ba ang moon sign?",
+   "a": "Hindi, naitatakda ito sa kapanganakan."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Libreng gamit",
+  "articles": "Mga artikulo",
+  "faq": "Mga madalas itanong",
+  "more": "Basahin ang artikulo"
+ },
+ "tool": "descreva-me"
+}

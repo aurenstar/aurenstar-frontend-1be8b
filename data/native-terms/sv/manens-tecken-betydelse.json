@@ -1,0 +1,53 @@
+{
+ "lang": "sv",
+ "keyword": "månens tecken",
+ "volume": "1000",
+ "slug": "manens-tecken-betydelse",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Månens tecken: vad är det och vad betyder det?",
+ "description": "Ditt månetecken visar hur du känner och vad du behöver för att känna dig trygg. Enkelt förklarat.",
+ "intro": "Ditt månetecken är det tecken månen stod i när du föddes. Det visar din känslovärld: hur du reagerar när du är trött, glad eller stressad.",
+ "sections": [
+  {
+   "h2": "Vad är månetecknet?",
+   "paragraphs": [
+    "Månen byter tecken var 2–3 dag. Därför kan människor med samma födelsedag ha olika månetecken."
+   ]
+  },
+  {
+   "h2": "Hur hittar du det?",
+   "paragraphs": [
+    "Du behöver födelsedatum och helst födelsetid. Ett gratis verktyg ger svaret direkt."
+   ]
+  },
+  {
+   "h2": "Ett exempel",
+   "paragraphs": [
+    "Linn är Skytt (sol) med månen i Oxen. Hon verkar äventyrlig, men hemma vill hon ha lugn, god mat och fasta rutiner."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Är månetecknet viktigare än soltecknet?",
+   "a": "Inte viktigare, men det visar insidan: vad du känner och behöver."
+  },
+  {
+   "q": "Måste jag känna till födelsetiden?",
+   "a": "Oftast inte: månen byter tecken bara var 2–3 dag."
+  },
+  {
+   "q": "Kan månetecknet ändras?",
+   "a": "Nej, det är fastlagt vid din födelse."
+  }
+ ],
+ "ui": {
+  "home": "Hem",
+  "tools": "Gratisverktyg",
+  "articles": "Artiklar",
+  "faq": "Vanliga frågor",
+  "more": "Läs artikeln"
+ },
+ "tool": "descreva-me"
+}

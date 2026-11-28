@@ -1,0 +1,53 @@
+{
+ "lang": "fi",
+ "keyword": "kuumerkki",
+ "volume": "1000",
+ "slug": "kuumerkki-merkitys",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Kuumerkki: mikä se on ja mitä se tarkoittaa?",
+ "description": "Kuumerkkisi kertoo, miten tunnet ja mitä tarvitset turvallisuuden tunteeseen. Selitetty yksinkertaisesti.",
+ "intro": "Kuumerkkisi on se merkki, jossa Kuu oli syntyessäsi. Se näyttää tunnemaailmasi: miten reagoit väsyneenä, iloisena tai stressaantuneena.",
+ "sections": [
+  {
+   "h2": "Mikä kuumerkki on?",
+   "paragraphs": [
+    "Kuu vaihtaa merkkiä 2–3 päivän välein. Siksi samana päivänä syntyneillä voi olla eri kuumerkki."
+   ]
+  },
+  {
+   "h2": "Miten sen löytää?",
+   "paragraphs": [
+    "Tarvitset syntymäpäivän ja mieluiten kellonajan. Ilmainen laskuri kertoo heti."
+   ]
+  },
+  {
+   "h2": "Esimerkki",
+   "paragraphs": [
+    "Laura on Jousimies (aurinko), Kuu Härässä. Hän vaikuttaa seikkailunhaluiselta, mutta kotona hän haluaa rauhaa, hyvää ruokaa ja vakaat rutiinit."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Onko kuumerkki tärkeämpi kuin aurinkomerkki?",
+   "a": "Ei tärkeämpi, mutta se näyttää sisäpuolen: mitä tunnet ja tarvitset."
+  },
+  {
+   "q": "Pitääkö syntymäaika tietää?",
+   "a": "Yleensä ei: Kuu vaihtaa merkkiä vain 2–3 päivän välein."
+  },
+  {
+   "q": "Voiko kuumerkki muuttua?",
+   "a": "Ei, se on lukittu syntymässä."
+  }
+ ],
+ "ui": {
+  "home": "Etusivu",
+  "tools": "Ilmaiset työkalut",
+  "articles": "Artikkelit",
+  "faq": "Usein kysytyt kysymykset",
+  "more": "Lue artikkeli"
+ },
+ "tool": "descreva-me"
+}

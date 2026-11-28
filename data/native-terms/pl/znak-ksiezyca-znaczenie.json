@@ -1,0 +1,53 @@
+{
+ "lang": "pl",
+ "keyword": "znak księżyca",
+ "volume": "1000",
+ "slug": "znak-ksiezyca-znaczenie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Znak Księżyca: co to jest i co oznacza?",
+ "description": "Twój znak Księżyca pokazuje, jak czujesz i czego potrzebujesz, by czuć się bezpiecznie. Wyjaśnione prosto.",
+ "intro": "Znak Księżyca to znak, w którym był Księżyc w chwili Twoich narodzin. Pokazuje Twój świat uczuć: jak reagujesz, gdy jesteś zmęczony, szczęśliwy lub zestresowany.",
+ "sections": [
+  {
+   "h2": "Czym jest znak Księżyca?",
+   "paragraphs": [
+    "Księżyc zmienia znak co 2–3 dni. Dlatego osoby urodzone tego samego dnia mogą mieć inny znak Księżyca."
+   ]
+  },
+  {
+   "h2": "Jak go znaleźć?",
+   "paragraphs": [
+    "Potrzebujesz daty urodzenia i najlepiej godziny. Darmowy kalkulator pokaże wynik od razu."
+   ]
+  },
+  {
+   "h2": "Przykład",
+   "paragraphs": [
+    "Kasia jest Strzelcem (Słońce) z Księżycem w Byku. Wydaje się żądna przygód, ale w domu chce spokoju, dobrego jedzenia i stałych rytuałów."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Czy znak Księżyca jest ważniejszy niż słoneczny?",
+   "a": "Nie ważniejszy, ale pokazuje wnętrze: co czujesz i czego potrzebujesz."
+  },
+  {
+   "q": "Czy muszę znać godzinę urodzenia?",
+   "a": "Zwykle nie: Księżyc zmienia znak tylko co 2–3 dni."
+  },
+  {
+   "q": "Czy znak Księżyca może się zmienić?",
+   "a": "Nie, jest ustalony w chwili narodzin."
+  }
+ ],
+ "ui": {
+  "home": "Strona główna",
+  "tools": "Darmowe narzędzia",
+  "articles": "Artykuły",
+  "faq": "Częste pytania",
+  "more": "Czytaj artykuł"
+ },
+ "tool": "descreva-me"
+}

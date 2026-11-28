@@ -1,0 +1,53 @@
+{
+ "lang": "lt",
+ "keyword": "mėnulio ženklas",
+ "volume": "1000",
+ "slug": "menulio-zenklas-reiksme",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mėnulio ženklas: kas tai ir ką reiškia?",
+ "description": "Tavo Mėnulio ženklas rodo, kaip jauti ir ko tau reikia saugumui. Paprastai paaiškinta.",
+ "intro": "Mėnulio ženklas – tai ženklas, kuriame buvo Mėnulis tau gimstant. Jis rodo tavo jausmų pasaulį: kaip reaguoji pavargęs, laimingas ar pasimetęs.",
+ "sections": [
+  {
+   "h2": "Kas yra Mėnulio ženklas?",
+   "paragraphs": [
+    "Mėnulis ženklą keičia kas 2–3 dienas. Todėl tą pačią dieną gimę žmonės gali turėti skirtingą Mėnulio ženklą."
+   ]
+  },
+  {
+   "h2": "Kaip jį rasti?",
+   "paragraphs": [
+    "Reikia gimimo datos ir pageidautina laiko. Nemokamas skaičiuoklis parodys iškart."
+   ]
+  },
+  {
+   "h2": "Pavyzdys",
+   "paragraphs": [
+    "Rūta yra Šaulys (Saulė), Mėnulis Jautyje. Atrodo nuotykių ieškanti, bet namie nori ramybės, gero maisto ir nusistovėjusios rutinos."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ar Mėnulio ženklas svarbesnis už saulės?",
+   "a": "Nesvarbesnis, bet rodo vidų: ką jauti ir ko reikia."
+  },
+  {
+   "q": "Ar reikia žinoti gimimo laiką?",
+   "a": "Dažniausiai ne: Mėnulis ženklą keičia tik kas 2–3 dienas."
+  },
+  {
+   "q": "Ar Mėnulio ženklas gali pasikeisti?",
+   "a": "Ne, jis nustatomas gimimo metu."
+  }
+ ],
+ "ui": {
+  "home": "Pradžia",
+  "tools": "Nemokami įrankiai",
+  "articles": "Straipsniai",
+  "faq": "Dažni klausimai",
+  "more": "Skaityti straipsnį"
+ },
+ "tool": "descreva-me"
+}

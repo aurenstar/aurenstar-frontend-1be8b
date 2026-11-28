@@ -1,0 +1,53 @@
+{
+ "lang": "nl",
+ "keyword": "maanteken",
+ "volume": "1000",
+ "slug": "maanteken-betekenis",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Maanteken: wat is het en wat betekent het?",
+ "description": "Je maanteken laat zien hoe je emoties voelt en wat je nodig hebt om je veilig te voelen. Eenvoudig uitgelegd.",
+ "intro": "Je maanteken is het teken waarin de Maan stond toen je werd geboren. Het toont je gevoelswereld: hoe je reageert als je moe, blij of gestrest bent.",
+ "sections": [
+  {
+   "h2": "Wat is het maanteken?",
+   "paragraphs": [
+    "De Maan wisselt elke 2 tot 3 dagen van teken. Daarom hebben mensen met dezelfde verjaardag soms een ander maanteken."
+   ]
+  },
+  {
+   "h2": "Hoe vind je het?",
+   "paragraphs": [
+    "Je hebt je geboortedatum en bij voorkeur de geboortetijd nodig. Een gratis rekentool geeft het meteen."
+   ]
+  },
+  {
+   "h2": "Een voorbeeld",
+   "paragraphs": [
+    "Sanne is Boogschutter (zon) met Maan in Stier. Ze lijkt avontuurlijk, maar thuis wil ze rust, lekker eten en een vaste routine."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is het maanteken belangrijker dan het zonneteken?",
+   "a": "Niet belangrijker, maar het laat de binnenkant zien: wat je voelt en nodig hebt."
+  },
+  {
+   "q": "Moet ik mijn geboortetijd kennen?",
+   "a": "Meestal niet: de Maan verandert maar elke 2 tot 3 dagen van teken."
+  },
+  {
+   "q": "Kan het maanteken veranderen?",
+   "a": "Nee, het ligt vast bij je geboorte."
+  }
+ ],
+ "ui": {
+  "home": "Home",
+  "tools": "Gratis tools",
+  "articles": "Artikelen",
+  "faq": "Veelgestelde vragen",
+  "more": "Lees artikel"
+ },
+ "tool": "descreva-me"
+}

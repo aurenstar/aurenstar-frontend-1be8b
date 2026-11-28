@@ -1,0 +1,53 @@
+{
+ "lang": "sk",
+ "keyword": "znamenie mesiaca",
+ "volume": "1000",
+ "slug": "mesacne-znamenie-vyznam",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mesačné znamenie: čo to je a čo znamená?",
+ "description": "Vaše mesačné znamenie ukazuje, ako cítite a čo potrebujete, aby ste sa cítili v bezpečí. Jednoducho vysvetlené.",
+ "intro": "Mesačné znamenie je znamenie, v ktorom stál Mesiac pri vašom narodení. Ukazuje vaše city: ako reagujete, keď ste unavení, šťastní alebo v strese.",
+ "sections": [
+  {
+   "h2": "Čo je mesačné znamenie?",
+   "paragraphs": [
+    "Mesiac mení znamenie každé 2–3 dni. Preto môžu mať ľudia narodení v ten istý deň iné mesačné znamenie."
+   ]
+  },
+  {
+   "h2": "Ako ho zistiť?",
+   "paragraphs": [
+    "Potrebujete dátum narodenia a najlepšie aj čas. Bezplatná kalkulačka to ukáže hneď."
+   ]
+  },
+  {
+   "h2": "Príklad",
+   "paragraphs": [
+    "Petra je Strelec (Slnko) s Mesiacom v Býkovi. Pôsobí dobrodružne, ale doma chce pokoj, dobré jedlo a pevný poriadok."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je mesačné znamenie dôležitejšie než slnečné?",
+   "a": "Nie je dôležitejšie, ale ukazuje vnútro: čo cítite a potrebujete."
+  },
+  {
+   "q": "Musím poznať čas narodenia?",
+   "a": "Väčšinou nie: Mesiac mení znamenie len každé 2–3 dni."
+  },
+  {
+   "q": "Môže sa mesačné znamenie zmeniť?",
+   "a": "Nie, je dané pri narodení."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Bezplatné nástroje",
+  "articles": "Články",
+  "faq": "Časté otázky",
+  "more": "Čítať článok"
+ },
+ "tool": "descreva-me"
+}

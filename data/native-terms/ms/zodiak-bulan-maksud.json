@@ -1,0 +1,53 @@
+{
+ "lang": "ms",
+ "keyword": "zodiak bulan",
+ "volume": "1000",
+ "slug": "zodiak-bulan-maksud",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Zodiak Bulan: apa itu dan apa maknanya?",
+ "description": "Zodiak bulan anda menunjukkan bagaimana anda rasa dan apa yang anda perlukan untuk berasa selamat. Dijelaskan mudah.",
+ "intro": "Zodiak bulan ialah tanda tempat Bulan berada ketika anda dilahirkan. Ia menunjukkan dunia emosi anda: cara anda bertindak ketika letih, gembira atau tertekan.",
+ "sections": [
+  {
+   "h2": "Apakah zodiak bulan?",
+   "paragraphs": [
+    "Bulan bertukar tanda setiap 2–3 hari. Sebab itu dua orang yang lahir pada hari sama boleh mempunyai zodiak bulan berbeza."
+   ]
+  },
+  {
+   "h2": "Bagaimana mencarinya?",
+   "paragraphs": [
+    "Anda perlukan tarikh lahir dan jika boleh masa lahir. Alat percuma menunjukkannya serta-merta."
+   ]
+  },
+  {
+   "h2": "Contoh",
+   "paragraphs": [
+    "Aina ialah Sagittarius (Matahari) dengan Bulan di Taurus. Dia nampak suka mencuba, tetapi di rumah dia mahu tenang, makanan sedap dan rutin tetap."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Adakah zodiak bulan lebih penting daripada zodiak matahari?",
+   "a": "Tidak lebih penting, tetapi ia menunjukkan sisi dalam: apa yang anda rasa dan perlukan."
+  },
+  {
+   "q": "Perlukah saya tahu masa lahir?",
+   "a": "Biasanya tidak: Bulan hanya bertukar tanda setiap 2–3 hari."
+  },
+  {
+   "q": "Boleh zodiak bulan berubah?",
+   "a": "Tidak, ia ditetapkan semasa lahir."
+  }
+ ],
+ "ui": {
+  "home": "Laman Utama",
+  "tools": "Alat percuma",
+  "articles": "Artikel",
+  "faq": "Soalan lazim",
+  "more": "Baca artikel"
+ },
+ "tool": "descreva-me"
+}

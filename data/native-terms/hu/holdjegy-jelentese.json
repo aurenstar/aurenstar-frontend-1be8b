@@ -1,0 +1,53 @@
+{
+ "lang": "hu",
+ "keyword": "holdjegy",
+ "volume": "1000",
+ "slug": "holdjegy-jelentese",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Holdjegy: mi ez, és mit jelent?",
+ "description": "A holdjegyed megmutatja, hogyan érzel, és mire van szükséged a biztonságérzethez. Egyszerűen elmagyarázva.",
+ "intro": "A holdjegyed az a jegy, amelyben a Hold állt a születésedkor. Az érzelmi világodat mutatja: hogyan reagálsz fáradtan, boldogan vagy stresszesen.",
+ "sections": [
+  {
+   "h2": "Mi a holdjegy?",
+   "paragraphs": [
+    "A Hold 2–3 naponta vált jegyet. Ezért az azonos napon születettek holdjegye eltérhet."
+   ]
+  },
+  {
+   "h2": "Hogyan találod meg?",
+   "paragraphs": [
+    "Szükséged van a születési dátumra, lehetőleg az időpontra is. Egy ingyenes kalkulátor azonnal megmondja."
+   ]
+  },
+  {
+   "h2": "Egy példa",
+   "paragraphs": [
+    "Réka Nyilas (Nap), Holdja Bikában áll. Kalandvágyónak tűnik, de otthon nyugalmat, jó ételt és állandó rutint szeretne."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Fontosabb a holdjegy, mint a napjegy?",
+   "a": "Nem fontosabb, de a belső világot mutatja: mit érzel és mire van szükséged."
+  },
+  {
+   "q": "Ismernem kell a születési időt?",
+   "a": "Általában nem: a Hold csak 2–3 naponta vált jegyet."
+  },
+  {
+   "q": "Változhat a holdjegy?",
+   "a": "Nem, a születésedkor rögzül."
+  }
+ ],
+ "ui": {
+  "home": "Főoldal",
+  "tools": "Ingyenes eszközök",
+  "articles": "Cikkek",
+  "faq": "Gyakori kérdések",
+  "more": "Cikk elolvasása"
+ },
+ "tool": "descreva-me"
+}

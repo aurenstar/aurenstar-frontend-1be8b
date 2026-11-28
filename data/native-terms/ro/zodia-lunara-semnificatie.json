@@ -1,0 +1,53 @@
+{
+ "lang": "ro",
+ "keyword": "zodia lunară",
+ "volume": "1000",
+ "slug": "zodia-lunara-semnificatie",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Zodia lunară: ce este și ce înseamnă?",
+ "description": "Zodia ta lunară arată cum simți și de ce ai nevoie ca să te simți în siguranță. Explicat simplu.",
+ "intro": "Zodia lunară este semnul în care se afla Luna în ziua nașterii tale. Arată lumea ta emoțională: cum reacționezi când ești obosit, fericit sau stresat.",
+ "sections": [
+  {
+   "h2": "Ce este zodia lunară?",
+   "paragraphs": [
+    "Luna își schimbă semnul la fiecare 2–3 zile. De aceea oameni născuți în aceeași zi pot avea zodii lunare diferite."
+   ]
+  },
+  {
+   "h2": "Cum o afli?",
+   "paragraphs": [
+    "Ai nevoie de data nașterii și, de preferat, de oră. Un calculator gratuit îți spune imediat."
+   ]
+  },
+  {
+   "h2": "Un exemplu",
+   "paragraphs": [
+    "Maria este Săgetător (Soare) cu Luna în Taur. Pare aventuroasă, dar acasă vrea liniște, mâncare bună și rutină."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Este zodia lunară mai importantă decât cea solară?",
+   "a": "Nu mai importantă, dar arată interiorul: ce simți și de ce ai nevoie."
+  },
+  {
+   "q": "Trebuie să știu ora nașterii?",
+   "a": "De obicei nu: Luna schimbă semnul doar la 2–3 zile."
+  },
+  {
+   "q": "Se poate schimba zodia lunară?",
+   "a": "Nu, este fixată la naștere."
+  }
+ ],
+ "ui": {
+  "home": "Acasă",
+  "tools": "Instrumente gratuite",
+  "articles": "Articole",
+  "faq": "Întrebări frecvente",
+  "more": "Citește articolul"
+ },
+ "tool": "descreva-me"
+}

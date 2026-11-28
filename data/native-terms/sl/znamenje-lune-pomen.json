@@ -1,0 +1,53 @@
+{
+ "lang": "sl",
+ "keyword": "znamenje lune",
+ "volume": "1000",
+ "slug": "znamenje-lune-pomen",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Znamenje Lune: kaj je in kaj pomeni?",
+ "description": "Vaše znamenje Lune kaže, kako čutite in kaj potrebujete, da se počutite varne. Preprosto razloženo.",
+ "intro": "Znamenje Lune je znamenje, v katerem je bila Luna ob vašem rojstvu. Kaže vaš čustveni svet: kako se odzivate, ko ste utrujeni, srečni ali pod stresom.",
+ "sections": [
+  {
+   "h2": "Kaj je znamenje Lune?",
+   "paragraphs": [
+    "Luna menja znamenje vsaka 2–3 dni. Zato imajo ljudje, rojeni isti dan, lahko različno znamenje Lune."
+   ]
+  },
+  {
+   "h2": "Kako ga najdete?",
+   "paragraphs": [
+    "Potrebujete datum rojstva in po možnosti uro. Brezplačni kalkulator pokaže takoj."
+   ]
+  },
+  {
+   "h2": "Primer",
+   "paragraphs": [
+    "Nina je Strelec (Sonce) z Luno v Biku. Deluje pustolovsko, doma pa želi mir, dobro hrano in stalno rutino."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Je znamenje Lune pomembnejše od sončnega?",
+   "a": "Ni pomembnejše, a kaže notranjost: kaj čutite in potrebujete."
+  },
+  {
+   "q": "Moram poznati uro rojstva?",
+   "a": "Običajno ne: Luna menja znamenje le vsaka 2–3 dni."
+  },
+  {
+   "q": "Se lahko znamenje Lune spremeni?",
+   "a": "Ne, določeno je ob rojstvu."
+  }
+ ],
+ "ui": {
+  "home": "Domov",
+  "tools": "Brezplačna orodja",
+  "articles": "Članki",
+  "faq": "Pogosta vprašanja",
+  "more": "Preberi članek"
+ },
+ "tool": "descreva-me"
+}

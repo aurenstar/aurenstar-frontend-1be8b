@@ -1,0 +1,53 @@
+{
+ "lang": "vi",
+ "keyword": "cung mặt trăng",
+ "volume": "1000",
+ "slug": "cung-mat-trang-la-gi",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Cung Mặt Trăng là gì? Ý nghĩa dễ hiểu",
+ "description": "Cung Mặt Trăng cho thấy bạn cảm nhận thế nào và cần gì để thấy an toàn. Giải thích đơn giản.",
+ "intro": "Cung Mặt Trăng là cung mà Mặt Trăng đứng khi bạn sinh ra. Nó cho thấy thế giới cảm xúc: bạn phản ứng ra sao khi mệt, vui hay căng thẳng.",
+ "sections": [
+  {
+   "h2": "Cung Mặt Trăng là gì?",
+   "paragraphs": [
+    "Mặt Trăng đổi cung sau mỗi 2–3 ngày. Vì vậy người sinh cùng ngày có thể có cung Mặt Trăng khác nhau."
+   ]
+  },
+  {
+   "h2": "Cách tìm",
+   "paragraphs": [
+    "Cần ngày sinh và tốt nhất là giờ sinh. Công cụ miễn phí cho kết quả ngay."
+   ]
+  },
+  {
+   "h2": "Ví dụ",
+   "paragraphs": [
+    "Lan là Nhân Mã (Mặt Trời), Mặt Trăng ở Kim Ngưu. Cô trông thích phiêu lưu, nhưng ở nhà cô muốn yên tĩnh, ăn ngon và nếp sinh hoạt ổn định."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Cung Mặt Trăng có quan trọng hơn cung Mặt Trời không?",
+   "a": "Không quan trọng hơn, nhưng cho thấy bên trong: bạn cảm thấy và cần gì."
+  },
+  {
+   "q": "Có cần biết giờ sinh không?",
+   "a": "Thường không: Mặt Trăng chỉ đổi cung sau 2–3 ngày."
+  },
+  {
+   "q": "Cung Mặt Trăng có thay đổi không?",
+   "a": "Không, đã cố định khi sinh."
+  }
+ ],
+ "ui": {
+  "home": "Trang chủ",
+  "tools": "Công cụ miễn phí",
+  "articles": "Bài viết",
+  "faq": "Câu hỏi thường gặp",
+  "more": "Đọc bài viết"
+ },
+ "tool": "descreva-me"
+}

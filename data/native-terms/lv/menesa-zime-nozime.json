@@ -1,0 +1,53 @@
+{
+ "lang": "lv",
+ "keyword": "mēness zīme",
+ "volume": "1000",
+ "slug": "menesa-zime-nozime",
+ "date": "2026-11-27",
+ "kind": "term",
+ "title": "Mēness zīme: kas tā ir un ko nozīmē?",
+ "description": "Tava Mēness zīme parāda, kā tu jūti un kas tev vajadzīgs drošības sajūtai. Vienkārši izskaidrots.",
+ "intro": "Mēness zīme ir zīme, kurā Mēness atradās tavā dzimšanas brīdī. Tā parāda tavu jūtu pasauli: kā reaģē, kad esi noguris, laimīgs vai stresā.",
+ "sections": [
+  {
+   "h2": "Kas ir Mēness zīme?",
+   "paragraphs": [
+    "Mēness maina zīmi ik pēc 2–3 dienām. Tāpēc vienā dienā dzimušiem var būt dažāda Mēness zīme."
+   ]
+  },
+  {
+   "h2": "Kā to atrast?",
+   "paragraphs": [
+    "Vajag dzimšanas datumu un vēlams laiku. Bezmaksas kalkulators parāda uzreiz."
+   ]
+  },
+  {
+   "h2": "Piemērs",
+   "paragraphs": [
+    "Anna ir Strēlnieks (Saule) ar Mēnesi Vērsī. Šķiet piedzīvojumu kāra, bet mājās grib mieru, labu ēdienu un pastāvīgu kārtību."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Vai Mēness zīme ir svarīgāka par saules zīmi?",
+   "a": "Nav svarīgāka, bet parāda iekšieni: ko jūti un kas tev vajadzīgs."
+  },
+  {
+   "q": "Vai man jāzina dzimšanas laiks?",
+   "a": "Parasti ne: Mēness maina zīmi tikai ik pēc 2–3 dienām."
+  },
+  {
+   "q": "Vai Mēness zīme var mainīties?",
+   "a": "Nē, tā tiek noteikta dzimšanas brīdī."
+  }
+ ],
+ "ui": {
+  "home": "Sākums",
+  "tools": "Bezmaksas rīki",
+  "articles": "Raksti",
+  "faq": "Bieži uzdotie jautājumi",
+  "more": "Lasīt rakstu"
+ },
+ "tool": "descreva-me"
+}
